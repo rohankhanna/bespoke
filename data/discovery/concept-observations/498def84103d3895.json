@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "KosherJava Zmanim API / Library ported to Swift. KosherJava is a library used to calculate astronomical and religious dates and times based on your location."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "KosherSwift Zmanim API"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "KosherSwift Zmanim API"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045009,
+      "status": "candidate",
+      "text": "hebraism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045611,
+      "status": "candidate",
+      "text": "jewish religion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045610,
+      "status": "candidate",
+      "text": "hebrew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045526,
+      "status": "candidate",
+      "text": "jew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29997446,
+      "status": "candidate",
+      "text": "progressive"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "judaism",
+      "sense_id": "judaism#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "hebraism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "jewish religion"
+    }
+  ],
+  "concept_id": "judaism",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "judaism",
+  "observation_id": "498def84103d3895",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-11T18:44:26.583561+00:00",
+  "observed_text": "judaism",
+  "source_context_snippet": "KosherSwift Zmanim API",
+  "source_file": null,
+  "source_repo": "Elyahu41/KosherSwift",
+  "source_repo_description": "KosherJava Zmanim API / Library ported to Swift. KosherJava is a library used to calculate astronomical and religious dates and times based on your location."
+}

@@ -505,6 +505,18 @@
       "source_repo": "aws-samples/sample-bedrock-deep-researcher",
       "status": "candidate-context",
       "text": "Bedrock Deep Research is a Streamlit-based application using Amazon Bedrock, LangGraph, and LangChain AWS libraries that automates article/report generation through AI-powered research, content writing, and image generation. It combines web research, structured content generatio\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kelos-dev/kelos",
+      "status": "candidate-context",
+      "text": "Kelos - The Kubernetes-native framework for orchestrating autonomous AI coding agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kelos-dev/kelos",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Kelos</h1>"
     }
   ],
   "candidate_glosses": [
@@ -753,6 +765,12 @@
       "source_repo": "aws-samples/sample-bedrock-deep-researcher",
       "status": "candidate",
       "text": "Bedrock Deep Research is a Streamlit-based application using Amazon Bedrock, LangGraph, and LangChain AWS libraries that automates article/report generation through AI-powered research, content writing, and image generation. It combines web research, structured content generatio\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kelos-dev/kelos",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Kelos</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -1282,11 +1300,23 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": null,
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "kelos-dev/kelos"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

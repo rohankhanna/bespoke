@@ -1,0 +1,12 @@
+{
+  "component": "@crawlee/types",
+  "first_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "sources": [
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apify/apify-cli"
+    }
+  ]
+}

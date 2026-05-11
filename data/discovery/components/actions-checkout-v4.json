@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -54967,6 +54967,186 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/reuse.yml",
       "source_repo": "analyticsinmotion/werpy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main-ci.yml",
+      "source_repo": "hexabot-ai/Hexabot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm-promote.yml",
+      "source_repo": "hexabot-ai/Hexabot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "hexabot-ai/Hexabot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "yakir8/kosher_dart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "yakir8/kosher_dart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "yakir8/kosher_dart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Agnuxo1/CAJAL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "Agnuxo1/CAJAL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Agnuxo1/CAJAL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-hub.yml",
+      "source_repo": "Agnuxo1/CAJAL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/skills-check.yml",
+      "source_repo": "antvis/chart-visualization-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "antvis/chart-visualization-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "antvis/GPT-Vis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "antvis/GPT-Vis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/preview.yml",
+      "source_repo": "antvis/GPT-Vis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-ssr.yml",
+      "source_repo": "antvis/GPT-Vis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "antvis/GPT-Vis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/block-claude-coauthor.yml",
+      "source_repo": "getagentseal/codeburn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "getagentseal/codeburn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-menubar.yml",
+      "source_repo": "getagentseal/codeburn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "kelos-dev/kelos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-dev.yaml",
+      "source_repo": "kelos-dev/kelos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "kelos-dev/kelos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reusable-e2e.yaml",
+      "source_repo": "kelos-dev/kelos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-fake-strategist.yaml",
+      "source_repo": "kelos-dev/kelos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/approve-resource-submission.yml",
+      "source_repo": "thedotmack/awesome-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-approve-submission.yml",
+      "source_repo": "thedotmack/awesome-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gatekeeping-automation.yml",
+      "source_repo": "thedotmack/awesome-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/manual-badge-notification.yml",
+      "source_repo": "thedotmack/awesome-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/notify-on-merge.yml",
+      "source_repo": "thedotmack/awesome-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/post-gatekeeping-notifications.yml",
+      "source_repo": "thedotmack/awesome-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate-links.yml",
+      "source_repo": "thedotmack/awesome-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "breferrari/shardmind"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "breferrari/shardmind"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-agents.yml",
+      "source_repo": "apify/awesome-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "benchflow-ai/benchflow"
     }
   ]
 }

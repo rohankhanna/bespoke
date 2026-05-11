@@ -286,6 +286,18 @@
       "source_repo": "abarichello/godot-ci",
       "status": "candidate-context",
       "text": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kelos-dev/kelos",
+      "status": "candidate-context",
+      "text": "Kelos - The Kubernetes-native framework for orchestrating autonomous AI coding agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kelos-dev/kelos",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Kelos</h1>"
     }
   ],
   "candidate_glosses": [
@@ -426,6 +438,12 @@
       "source_repo": "abarichello/godot-ci",
       "status": "candidate",
       "text": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kelos-dev/kelos",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Kelos</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -979,11 +997,29 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "kelos-dev/kelos"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

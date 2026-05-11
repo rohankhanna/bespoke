@@ -46,6 +46,18 @@
       "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kelos-dev/kelos",
+      "status": "candidate-context",
+      "text": "Kelos - The Kubernetes-native framework for orchestrating autonomous AI coding agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kelos-dev/kelos",
+      "status": "candidate-context",
+      "text": "Label"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +78,12 @@
       "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kelos-dev/kelos",
+      "status": "candidate",
+      "text": "Label"
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +181,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/label.yaml",
+      "source_repo": "kelos-dev/kelos"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,18 @@
       "source_repo": "winsiderss/systeminformer",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BloopAI/vibe-kanban",
+      "status": "candidate-context",
+      "text": "Get 10X more out of Claude Code, Codex or any coding agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BloopAI/vibe-kanban",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "winsiderss/systeminformer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BloopAI/vibe-kanban",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -274,11 +292,23 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": null,
       "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "BloopAI/vibe-kanban"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

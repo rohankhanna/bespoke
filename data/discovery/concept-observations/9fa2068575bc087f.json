@@ -48,7 +48,7 @@
   "normalized_form": "shovel-bucket",
   "observation_id": "9fa2068575bc087f",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_at": "2026-05-11T18:44:26.583561+00:00",
   "observed_text": "shovel-bucket",
   "source_context_snippet": "`shovel bucket add sysinternals` or using URL `shovel bucket add sysinternals 'https://github.com/shovel-org/Sysinternals-Bucket.git'`",
   "source_file": null,

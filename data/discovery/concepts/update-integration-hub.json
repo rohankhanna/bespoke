@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Integration Hub"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Agnuxo1/CAJAL",
+      "status": "candidate-context",
+      "text": "CAJAL \u2014 Local scientific paper generator. Qwen 27B fine-tuned for academic writing. AI Tribunal peer review. 6x4 CognitionBoard. 2.7x token compression. Runs offline on RTX 3090. Apache 2.0."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Agnuxo1/CAJAL",
+      "status": "candidate-context",
+      "text": "Update Integration Hub"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Agnuxo1/CAJAL",
+      "status": "candidate",
+      "text": "Update Integration Hub"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17907,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17808,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17808,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17774,
+      "status": "candidate",
+      "text": "radius"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17725,
+      "status": "candidate",
+      "text": "conductivity"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Integration Hub",
+  "concept_id": "update-integration-hub",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/update-hub.yml",
+      "source_repo": "Agnuxo1/CAJAL"
+    }
+  ],
+  "first_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Integration Hub",
+      "sense_id": "update-integration-hub#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

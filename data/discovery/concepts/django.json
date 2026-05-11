@@ -223,6 +223,18 @@
       "source_repo": "djlint/djLint",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "status": "candidate-context",
+      "text": "A fast, HTML aware, Django template formatter, written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "status": "candidate-context",
+      "text": "[![Pypi Version](https://img.shields.io/pypi/v/djangofmt.svg)](https://pypi.python.org/djangofmt)"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +345,12 @@
       "source_repo": "djlint/djLint",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "status": "candidate",
+      "text": "[![Pypi Version](https://img.shields.io/pypi/v/djangofmt.svg)](https://pypi.python.org/djangofmt)"
     }
   ],
   "candidate_related_terms": [
@@ -484,11 +502,17 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": null,
       "source_repo": "djlint/djLint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "UnknownPlatypus/djangofmt"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

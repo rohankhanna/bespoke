@@ -25,6 +25,18 @@
       "source_repo": "AutoJunjie/awesome-agent-harness",
       "status": "candidate-context",
       "text": "> A curated list of tools, frameworks, and resources for **agent harness engineering** \u2014 the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kelos-dev/kelos",
+      "status": "candidate-context",
+      "text": "Kelos - The Kubernetes-native framework for orchestrating autonomous AI coding agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kelos-dev/kelos",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Kelos</h1>"
     }
   ],
   "candidate_glosses": [
@@ -39,6 +51,12 @@
       "source_repo": "AutoJunjie/awesome-agent-harness",
       "status": "candidate",
       "text": "> A curated list of tools, frameworks, and resources for **agent harness engineering** \u2014 the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kelos-dev/kelos",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Kelos</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -58,11 +76,17 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": null,
       "source_repo": "AutoJunjie/awesome-agent-harness"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "kelos-dev/kelos"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

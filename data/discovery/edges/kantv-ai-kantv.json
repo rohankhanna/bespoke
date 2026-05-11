@@ -4,20 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kantv-ai/kantv",
-      "target": "kantv-ai/ffmpeg",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "kantv-ai/kantv",
-      "target": "google/exoplayer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "kantv-ai/kantv",
       "target": "ggerganov/whisper.cpp",
       "target_type": "repository"
     },
@@ -26,6 +12,13 @@
       "source_file": "README.md",
       "source_repo": "kantv-ai/kantv",
       "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kantv-ai/kantv",
+      "target": "zhouwg/ggml-hexagon",
       "target_type": "repository"
     },
     {
@@ -99,6 +92,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-11T13:15:38.721392+00:00",
+  "generated_at": "2026-05-11T18:44:26.583561+00:00",
   "source_repo": "kantv-ai/kantv"
 }

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Get 10X more out of Claude Code, Codex or any coding agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020271,
+      "status": "candidate",
+      "text": "red tag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020270,
+      "status": "candidate",
+      "text": "pasteboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020269,
+      "status": "candidate",
+      "text": "bill of materials"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020268,
+      "status": "candidate",
+      "text": "bill of material"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020267,
+      "status": "candidate",
+      "text": "stripboard"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kanban",
+      "sense_id": "kanban#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kanban",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kanban",
+  "observation_id": "7578bf5a5df9f3a0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-11T18:44:26.583561+00:00",
+  "observed_text": "kanban",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "BloopAI/vibe-kanban",
+  "source_repo_description": "Get 10X more out of Claude Code, Codex or any coding agent"
+}

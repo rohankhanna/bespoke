@@ -977,6 +977,18 @@
       "source_repo": "KamilSJaron/smudgeplot",
       "status": "candidate-context",
       "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Agnuxo1/CAJAL",
+      "status": "candidate-context",
+      "text": "CAJAL \u2014 Local scientific paper generator. Qwen 27B fine-tuned for academic writing. AI Tribunal peer review. 6x4 CognitionBoard. 2.7x token compression. Runs offline on RTX 3090. Apache 2.0."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Agnuxo1/CAJAL",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -1469,6 +1481,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "KamilSJaron/smudgeplot",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Agnuxo1/CAJAL",
       "status": "candidate",
       "text": "Publish to PyPI"
     }
@@ -3710,11 +3728,71 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "cookiecutter/cookiecutter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "nrl-ai/llama-assistant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "TencentCloudADP/youtu-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/publish_package.yml",
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "Comfy-Org/ComfyUI-Manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "Agnuxo1/CAJAL"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

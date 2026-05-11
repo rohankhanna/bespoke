@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ASLP-lab/OSUM",
+      "target": "aslp-lab/hum-dial",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-11T18:44:26.583561+00:00",
+  "source_repo": "ASLP-lab/OSUM"
+}

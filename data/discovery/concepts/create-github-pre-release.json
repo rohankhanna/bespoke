@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create GitHub Pre-Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BloopAI/vibe-kanban",
+      "status": "candidate-context",
+      "text": "Get 10X more out of Claude Code, Codex or any coding agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BloopAI/vibe-kanban",
+      "status": "candidate-context",
+      "text": "Create GitHub Pre-Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BloopAI/vibe-kanban",
+      "status": "candidate",
+      "text": "Create GitHub Pre-Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11424,
+      "status": "candidate",
+      "text": "draft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "introductory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "preliminary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "pretrial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "prior"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create GitHub Pre-Release",
+  "concept_id": "create-github-pre-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "BloopAI/vibe-kanban"
+    }
+  ],
+  "first_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create GitHub Pre-Release",
+      "sense_id": "create-github-pre-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

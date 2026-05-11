@@ -41,7 +41,7 @@
       "source_file": ".github/workflows/deploy.yml"
     },
     {
-      "component": "peaceiris/actions-mdbook@v1",
+      "component": "peaceiris/actions-mdbook@v2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
@@ -56,7 +56,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "peaceiris/actions-mdbook@v1",
+      "component": "peaceiris/actions-mdbook@v2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -303,7 +303,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "apalache-mc/apalache",
-      "target": "peaceiris/actions-mdbook@v1",
+      "target": "peaceiris/actions-mdbook@v2",
       "target_type": "component"
     },
     {
@@ -331,7 +331,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "apalache-mc/apalache",
-      "target": "peaceiris/actions-mdbook@v1",
+      "target": "peaceiris/actions-mdbook@v2",
       "target_type": "component"
     },
     {
@@ -496,7 +496,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T17:45:33.454229+00:00",
+  "fetched_at": "2026-05-11T21:02:31.139323+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -516,11 +516,11 @@
     },
     {
       "path": ".github/workflows/deploy.yml",
-      "size": 1283
+      "size": 1247
     },
     {
       "path": ".github/workflows/main.yml",
-      "size": 9056
+      "size": 9057
     },
     {
       "path": ".github/workflows/prepare-release.yml",
@@ -540,7 +540,7 @@
     "full_name": "apalache-mc/apalache",
     "html_url": "https://github.com/apalache-mc/apalache",
     "language": "Scala",
-    "pushed_at": "2026-05-11T17:35:16Z",
+    "pushed_at": "2026-05-11T21:01:04Z",
     "stargazers_count": 553,
     "topics": [
       "apalache",
@@ -551,7 +551,7 @@
       "tlaplus",
       "verification"
     ],
-    "updated_at": "2026-05-11T16:37:50Z"
+    "updated_at": "2026-05-11T20:58:44Z"
   },
   "repo_links": [
     {

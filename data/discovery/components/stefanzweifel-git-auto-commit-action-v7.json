@@ -1,7 +1,7 @@
 {
   "component": "stefanzweifel/git-auto-commit-action@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -212,6 +212,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/panvimdoc.yml",
       "source_repo": "chrisgrieser/nvim-lsp-endhints"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "apify/apify-cli"
     }
   ]
 }

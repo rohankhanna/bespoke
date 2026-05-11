@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -666,6 +666,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "Shatur/neovim-tasks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "kiron1/bazel-compile-commands"
     }
   ],
   "term": "main"

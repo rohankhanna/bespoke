@@ -31,6 +31,18 @@
       "source_repo": "2KAbhishek/tdo",
       "status": "candidate-context",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agenticnotetaking/arscontexta",
+      "status": "candidate-context",
+      "text": "Claude Code plugin that generates individualized knowledge systems from conversation. You describe how you think and work, have a conversation and get a complete second brain as markdown files you own."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agenticnotetaking/arscontexta",
+      "status": "candidate-context",
+      "text": "**A second brain for your agent.**"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "2KAbhishek/tdo",
       "status": "candidate",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agenticnotetaking/arscontexta",
+      "status": "candidate",
+      "text": "**A second brain for your agent.**"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "2KAbhishek/tdo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "agenticnotetaking/arscontexta"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

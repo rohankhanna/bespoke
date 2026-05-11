@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Protect e2e anchor issue"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kelos-dev/kelos",
+      "status": "candidate-context",
+      "text": "Kelos - The Kubernetes-native framework for orchestrating autonomous AI coding agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kelos-dev/kelos",
+      "status": "candidate-context",
+      "text": "Protect e2e anchor issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kelos-dev/kelos",
+      "status": "candidate",
+      "text": "Protect e2e anchor issue"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18016,
+      "status": "candidate",
+      "text": "guardship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17998,
+      "status": "candidate",
+      "text": "underwrite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17958,
+      "status": "candidate",
+      "text": "bib"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17958,
+      "status": "candidate",
+      "text": "conserve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17958,
+      "status": "candidate",
+      "text": "conserved"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Protect e2e anchor issue",
+  "concept_id": "protect-e2e-anchor-issue",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/e2e-anchor.yaml",
+      "source_repo": "kelos-dev/kelos"
+    }
+  ],
+  "first_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Protect e2e anchor issue",
+      "sense_id": "protect-e2e-anchor-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

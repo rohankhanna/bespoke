@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/update-hub.yml",
+      "source_repo": "Agnuxo1/CAJAL"
+    }
+  ],
+  "term": "Update Integration Hub"
+}

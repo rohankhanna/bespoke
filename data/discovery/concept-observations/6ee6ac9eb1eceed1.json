@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "KosherJava Zmanim API / Library ported to Swift. KosherJava is a library used to calculate astronomical and religious dates and times based on your location."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "KosherSwift Zmanim API"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "KosherSwift Zmanim API"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050501,
+      "status": "candidate",
+      "text": "daybreak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050499,
+      "status": "candidate",
+      "text": "break of day"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050473,
+      "status": "candidate",
+      "text": "dayspring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050466,
+      "status": "candidate",
+      "text": "cockcrow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050363,
+      "status": "candidate",
+      "text": "first light"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dawn",
+      "sense_id": "dawn#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17037,
+      "status": "candidate",
+      "text": "penetrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13024,
+      "status": "candidate",
+      "text": "dayspring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11057,
+      "status": "candidate",
+      "text": "click"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11035,
+      "status": "candidate",
+      "text": "sunrise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10024,
+      "status": "candidate",
+      "text": "dawning"
+    }
+  ],
+  "concept_id": "dawn",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dawn",
+  "observation_id": "6ee6ac9eb1eceed1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-11T18:44:26.583561+00:00",
+  "observed_text": "dawn",
+  "source_context_snippet": "KosherSwift Zmanim API",
+  "source_file": null,
+  "source_repo": "Elyahu41/KosherSwift",
+  "source_repo_description": "KosherJava Zmanim API / Library ported to Swift. KosherJava is a library used to calculate astronomical and religious dates and times based on your location."
+}

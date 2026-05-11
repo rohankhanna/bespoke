@@ -67,6 +67,18 @@
       "source_repo": "developmentseed/obstore",
       "status": "candidate-context",
       "text": "PR Conventional Commit Validation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rcasia/neotest-java",
+      "status": "candidate-context",
+      "text": "Neotest adapter for Java."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcasia/neotest-java",
+      "status": "candidate-context",
+      "text": "PR Conventional Commit Validation"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "developmentseed/obstore",
+      "status": "candidate",
+      "text": "PR Conventional Commit Validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcasia/neotest-java",
       "status": "candidate",
       "text": "PR Conventional Commit Validation"
     }
@@ -172,11 +190,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/conventional-commits.yml",
       "source_repo": "developmentseed/obstore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/pr_convnetional_commit_validation.yml",
+      "source_repo": "rcasia/neotest-java"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

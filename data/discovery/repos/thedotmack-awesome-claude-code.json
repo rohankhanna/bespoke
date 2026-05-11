@@ -1,0 +1,498 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-resource-submission.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-resource-submission.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-resource-submission.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-resource-submission.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-resource-submission.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-resource-submission.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-resource-submission.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-approve-submission.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-approve-submission.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-approve-submission.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-approve-submission.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gatekeeping-automation.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gatekeeping-automation.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gatekeeping-automation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-badge-notification.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-badge-notification.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-on-merge.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-on-merge.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-on-merge.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-on-merge.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-gatekeeping-notifications.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-gatekeeping-notifications.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protect-labels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-links.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-links.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-links.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-links.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-links.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-links.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "aeulker/claude-code-cheat-sheet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "4xian/claude-codex-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "2mawi2/schaltwerk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "aannoo/claude-hook-comms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-resource-submission.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-resource-submission.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-resource-submission.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve-resource-submission.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "Handle Resource Submission Commands (Manual Override)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-approve-submission.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-approve-submission.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-approve-submission.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-approve-submission.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "Auto-Approve Validated Submissions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gatekeeping-automation.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gatekeeping-automation.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gatekeeping-automation.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gatekeeping-automation.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "Gatekeeping Resolution Automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-badge-notification.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-badge-notification.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-badge-notification.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "Manual Badge Notification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-on-merge.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-on-merge.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-on-merge.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-gatekeeping-notifications.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-gatekeeping-notifications.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-gatekeeping-notifications.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "Post Gatekeeping Notifications to Developer Repos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protect-labels.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/protect-labels.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "Protect Labels from Unauthorized Changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-links.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-links.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-links.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-links.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-links.yml",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "target": "Validate Links",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T21:10:30.521360+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 162494
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1823
+    },
+    {
+      "path": ".github/workflows/approve-resource-submission.yml",
+      "size": 8942
+    },
+    {
+      "path": ".github/workflows/auto-approve-submission.yml",
+      "size": 5149
+    },
+    {
+      "path": ".github/workflows/gatekeeping-automation.yml",
+      "size": 7535
+    },
+    {
+      "path": ".github/workflows/manual-badge-notification.yml",
+      "size": 2475
+    },
+    {
+      "path": ".github/workflows/notify-on-merge.yml",
+      "size": 4686
+    },
+    {
+      "path": ".github/workflows/post-gatekeeping-notifications.yml",
+      "size": 1466
+    },
+    {
+      "path": ".github/workflows/protect-labels.yml",
+      "size": 4080
+    },
+    {
+      "path": ".github/workflows/validate-links.yml",
+      "size": 4782
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curated list of awesome commands, files, and workflows for Claude Code",
+    "fork": true,
+    "full_name": "thedotmack/awesome-claude-code",
+    "html_url": "https://github.com/thedotmack/awesome-claude-code",
+    "language": "Python",
+    "pushed_at": "2025-10-31T20:58:40Z",
+    "stargazers_count": 163,
+    "topics": [],
+    "updated_at": "2026-05-11T13:04:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2mawi2/schaltwerk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "4xian/claude-codex-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aannoo/claude-hook-comms",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aeulker/claude-code-cheat-sheet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Handle Resource Submission Commands (Manual Override)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve-resource-submission.yml",
+      "term": "Handle Resource Submission Commands (Manual Override)"
+    },
+    {
+      "context_snippet": "Auto-Approve Validated Submissions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-approve-submission.yml",
+      "term": "Auto-Approve Validated Submissions"
+    },
+    {
+      "context_snippet": "Gatekeeping Resolution Automation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gatekeeping-automation.yml",
+      "term": "Gatekeeping Resolution Automation"
+    },
+    {
+      "context_snippet": "Manual Badge Notification",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-badge-notification.yml",
+      "term": "Manual Badge Notification"
+    },
+    {
+      "context_snippet": "Post Gatekeeping Notifications to Developer Repos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-gatekeeping-notifications.yml",
+      "term": "Post Gatekeeping Notifications to Developer Repos"
+    },
+    {
+      "context_snippet": "Protect Labels from Unauthorized Changes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/protect-labels.yml",
+      "term": "Protect Labels from Unauthorized Changes"
+    },
+    {
+      "context_snippet": "Validate Links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-links.yml",
+      "term": "Validate Links"
+    }
+  ]
+}

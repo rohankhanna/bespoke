@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-11T21:10:48.864068+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 41905
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CITE Domain Rating: Open domain authority standard for the GEO era. 4 dimensions \u00d7 10 items = 40 evaluation criteria. Sister project to CORE-EEAT Content Benchmark.",
+    "fork": false,
+    "full_name": "aaron-he-zhu/cite-domain-rating",
+    "html_url": "https://github.com/aaron-he-zhu/cite-domain-rating",
+    "language": null,
+    "pushed_at": "2026-02-10T05:49:39Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-04-24T09:28:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

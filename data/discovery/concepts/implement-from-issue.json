@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Implement from Issue"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yakir8/kosher_dart",
+      "status": "candidate-context",
+      "text": "Implement from Issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yakir8/kosher_dart",
+      "status": "candidate",
+      "text": "Implement from Issue"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22647,
+      "status": "candidate",
+      "text": "cut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22647,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22647,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22614,
+      "status": "candidate",
+      "text": "application"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22614,
+      "status": "candidate",
+      "text": "brush"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Implement from Issue",
+  "concept_id": "implement-from-issue",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/implement-feature.yml",
+      "source_repo": "yakir8/kosher_dart"
+    }
+  ],
+  "first_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Implement from Issue",
+      "sense_id": "implement-from-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

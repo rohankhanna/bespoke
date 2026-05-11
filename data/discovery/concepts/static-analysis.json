@@ -809,6 +809,18 @@
       "source_repo": "TypedDevs/bashunit",
       "status": "candidate-context",
       "text": "Static Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rcasia/neotest-java",
+      "status": "candidate-context",
+      "text": "Neotest adapter for Java."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcasia/neotest-java",
+      "status": "candidate-context",
+      "text": "Static Analysis"
     }
   ],
   "candidate_glosses": [
@@ -1205,6 +1217,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "TypedDevs/bashunit",
+      "status": "candidate",
+      "text": "Static Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcasia/neotest-java",
       "status": "candidate",
       "text": "Static Analysis"
     }
@@ -2270,11 +2288,35 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": ".github/workflows/static_analysis.yml",
       "source_repo": "TypedDevs/bashunit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/static-analysis.yml",
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/static-analysis.yml",
+      "source_repo": "rcasia/neotest-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

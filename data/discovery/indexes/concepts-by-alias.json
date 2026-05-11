@@ -2997,6 +2997,9 @@
   "analysis: scorecard": [
     "analysis-scorecard"
   ],
+  "analystics": [
+    "analystics"
+  ],
   "analytical-derivatives": [
     "analytical-derivatives"
   ],
@@ -3559,6 +3562,9 @@
   "antv": [
     "antv"
   ],
+  "antvis": [
+    "antvis"
+  ],
   "any": [
     "en-article_or_determiner-any",
     "en-quantifier-any"
@@ -3832,6 +3838,9 @@
   ],
   "apidom monorepo full nightly build": [
     "apidom-monorepo-full-nightly-build"
+  ],
+  "apify": [
+    "apify"
   ],
   "apigateway": [
     "apigateway"
@@ -5966,6 +5975,9 @@
   ],
   "auto-approve machine prs": [
     "auto-approve-machine-prs"
+  ],
+  "auto-approve validated submissions": [
+    "auto-approve-validated-submissions"
   ],
   "auto-assign": [
     "auto-assign"
@@ -13288,6 +13300,9 @@
   "build template and commit theme updates": [
     "build-template-and-commit-theme-updates"
   ],
+  "build template archives": [
+    "build-template-archives"
+  ],
   "build template metadata": [
     "build-template-metadata"
   ],
@@ -15019,6 +15034,9 @@
   ],
   "calculation-engine": [
     "calculation-engine"
+  ],
+  "calculations": [
+    "calculations"
   ],
   "calculator": [
     "calculator"
@@ -21638,6 +21656,9 @@
   "code-llms": [
     "code-llms"
   ],
+  "code-mode": [
+    "code-mode"
+  ],
   "code-navigation": [
     "code-navigation"
   ],
@@ -21736,6 +21757,9 @@
   ],
   "codebook": [
     "codebook"
+  ],
+  "codebuild": [
+    "codebuild"
   ],
   "codebuild pr build": [
     "codebuild-pr-build"
@@ -24242,6 +24266,9 @@
   "conventional pr title": [
     "conventional-pr-title"
   ],
+  "conventional release labels": [
+    "conventional-release-labels"
+  ],
   "conventional-changelog": [
     "conventional-changelog"
   ],
@@ -24712,6 +24739,9 @@
   ],
   "cost-tracker-smoke": [
     "cost-tracker-smoke"
+  ],
+  "cost-tracking": [
+    "cost-tracking"
   ],
   "cost-volume": [
     "cost-volume"
@@ -25190,6 +25220,9 @@
   "create a new release": [
     "create-a-new-release"
   ],
+  "create a pre-release": [
+    "create-a-pre-release"
+  ],
   "create a release": [
     "create-a-release"
   ],
@@ -25313,6 +25346,9 @@
   "create fixture release": [
     "create-fixture-release"
   ],
+  "create github pre-release": [
+    "create-github-pre-release"
+  ],
   "create github release": [
     "create-github-release"
   ],
@@ -25387,6 +25423,9 @@
   ],
   "create pull request example command": [
     "create-pull-request-example-command"
+  ],
+  "create relay release": [
+    "create-relay-release"
   ],
   "create release": [
     "create-release"
@@ -26348,6 +26387,9 @@
   "cursor": [
     "cursor"
   ],
+  "cursor-ide": [
+    "cursor-ide"
+  ],
   "cursor-moves": [
     "cursor-moves"
   ],
@@ -26401,6 +26443,9 @@
   ],
   "custom-component": [
     "custom-component"
+  ],
+  "custom-dashboards": [
+    "custom-dashboards"
   ],
   "custom-derive": [
     "custom-derive"
@@ -28355,6 +28400,9 @@
   "deforum": [
     "deforum"
   ],
+  "defuddle": [
+    "defuddle"
+  ],
   "degeneracy": [
     "degeneracy"
   ],
@@ -29237,6 +29285,9 @@
   "deploy redirects to github pages": [
     "deploy-redirects-to-github-pages"
   ],
+  "deploy relay prod": [
+    "deploy-relay-prod"
+  ],
   "deploy release": [
     "deploy-release"
   ],
@@ -29371,6 +29422,9 @@
   ],
   "deploy to debug app": [
     "deploy-to-debug-app"
+  ],
+  "deploy to dev": [
+    "deploy-to-dev"
   ],
   "deploy to dev environment": [
     "deploy-to-dev-environment"
@@ -30838,6 +30892,9 @@
   ],
   "dithering-images": [
     "dithering-images"
+  ],
+  "diverse-data-sources": [
+    "diverse-data-sources"
   ],
   "diverse-decoding": [
     "diverse-decoding"
@@ -33062,6 +33119,9 @@
   "e2e tracker tests": [
     "e2e-tracker-tests"
   ],
+  "e2e windows": [
+    "e2e-windows"
+  ],
   "e2e-android": [
     "e2e-android"
   ],
@@ -33426,6 +33486,9 @@
   ],
   "ecosystem": [
     "ecosystem"
+  ],
+  "ecosystem check pr comment": [
+    "ecosystem-check-pr-comment"
   ],
   "ecosystem ci": [
     "ecosystem-ci"
@@ -35492,6 +35555,9 @@
   "exogenous-predictors": [
     "exogenous-predictors"
   ],
+  "exoplayer": [
+    "exoplayer"
+  ],
   "exoskeleton": [
     "exoskeleton"
   ],
@@ -37234,6 +37300,9 @@
   "firstbatch": [
     "firstbatch"
   ],
+  "firstlook": [
+    "firstlook"
+  ],
   "fish": [
     "fish"
   ],
@@ -37954,6 +38023,9 @@
   ],
   "fork": [
     "fork"
+  ],
+  "fork e2e": [
+    "fork-e2e"
   ],
   "fork-build": [
     "fork-build"
@@ -38934,6 +39006,9 @@
   "gatekeeper": [
     "gatekeeper"
   ],
+  "gatekeeping resolution automation": [
+    "gatekeeping-resolution-automation"
+  ],
   "gateway": [
     "gateway"
   ],
@@ -39872,6 +39947,12 @@
   ],
   "geo-localization": [
     "geo-localization"
+  ],
+  "geochart": [
+    "geochart"
+  ],
+  "geocharts": [
+    "geocharts"
   ],
   "geocode": [
     "geocode"
@@ -43146,6 +43227,9 @@
   "handle pdf pull request": [
     "handle-pdf-pull-request"
   ],
+  "handle resource submission commands (manual override)": [
+    "handle-resource-submission-commands-manual-override"
+  ],
   "handle stale issues": [
     "handle-stale-issues"
   ],
@@ -46047,6 +46131,9 @@
   "impersonate": [
     "impersonate"
   ],
+  "implement from issue": [
+    "implement-from-issue"
+  ],
   "implementation": [
     "implementation"
   ],
@@ -46982,6 +47069,9 @@
   ],
   "interactive": [
     "interactive"
+  ],
+  "interactive-data-exploration": [
+    "interactive-data-exploration"
   ],
   "interactive-fiction": [
     "interactive-fiction"
@@ -49221,6 +49311,9 @@
   "kana": [
     "kana"
   ],
+  "kanban": [
+    "kanban"
+  ],
   "kandinsky": [
     "kandinsky"
   ],
@@ -49841,6 +49934,9 @@
   ],
   "korean-nlp": [
     "korean-nlp"
+  ],
+  "koshercocoa-framework": [
+    "koshercocoa-framework"
   ],
   "kosmos": [
     "kosmos"
@@ -54785,6 +54881,9 @@
   "manual - test features": [
     "manual---test-features"
   ],
+  "manual badge notification": [
+    "manual-badge-notification"
+  ],
   "manual build": [
     "manual-build"
   ],
@@ -55773,6 +55872,15 @@
   "media-tracking": [
     "media-tracking"
   ],
+  "media3": [
+    "media3"
+  ],
+  "media3-exoplayer": [
+    "media3-exoplayer"
+  ],
+  "media3-transformer": [
+    "media3-transformer"
+  ],
   "mediadevices": [
     "mediadevices"
   ],
@@ -55787,6 +55895,9 @@
   ],
   "mediapipe": [
     "mediapipe"
+  ],
+  "mediaplayer": [
+    "mediaplayer"
   ],
   "medical": [
     "medical"
@@ -56546,6 +56657,9 @@
   ],
   "midi": [
     "midi"
+  ],
+  "midi-controller": [
+    "midi-controller"
   ],
   "midi-javascript": [
     "midi-javascript"
@@ -58911,6 +59025,9 @@
   ],
   "music-player": [
     "music-player"
+  ],
+  "music-production": [
+    "music-production"
   ],
   "music-programming-language": [
     "music-programming-language"
@@ -66858,6 +66975,9 @@
   "post dependabot update": [
     "post-dependabot-update"
   ],
+  "post gatekeeping notifications to developer repos": [
+    "post-gatekeeping-notifications-to-developer-repos"
+  ],
   "post merge": [
     "post-merge"
   ],
@@ -68823,6 +68943,9 @@
   "promote main to stable branch": [
     "promote-main-to-stable-branch"
   ],
+  "promote npm dist tag": [
+    "promote-npm-dist-tag"
+  ],
   "promote release candidate docker image": [
     "promote-release-candidate-docker-image"
   ],
@@ -68990,6 +69113,12 @@
   ],
   "prose": [
     "prose"
+  ],
+  "protect e2e anchor issue": [
+    "protect-e2e-anchor-issue"
+  ],
+  "protect labels from unauthorized changes": [
+    "protect-labels-from-unauthorized-changes"
   ],
   "protected classes": [
     "protected-classes"
@@ -69678,6 +69807,9 @@
   "publish hex release": [
     "publish-hex-release"
   ],
+  "publish hexabot packages": [
+    "publish-hexabot-packages"
+  ],
   "publish idf-rust tags": [
     "publish-idf-rust-tags"
   ],
@@ -70277,6 +70409,9 @@
   ],
   "publish to npm (manual)": [
     "publish-to-npm-manual"
+  ],
+  "publish to npm (ssr)": [
+    "publish-to-npm-ssr"
   ],
   "publish to npm and website": [
     "publish-to-npm-and-website"
@@ -73605,6 +73740,9 @@
   "relay bugs for cross-repo investigation": [
     "relay-bugs-for-cross-repo-investigation"
   ],
+  "relay deploy dev": [
+    "relay-deploy-dev"
+  ],
   "relay-hooks": [
     "relay-hooks"
   ],
@@ -74111,6 +74249,9 @@
   ],
   "release macos": [
     "release-macos"
+  ],
+  "release macos menubar": [
+    "release-macos-menubar"
   ],
   "release main": [
     "release-main"
@@ -74898,6 +75039,9 @@
   "remote benchmark": [
     "remote-benchmark"
   ],
+  "remote deploy dev": [
+    "remote-deploy-dev"
+  ],
   "remote plugin tests": [
     "remote-plugin-tests"
   ],
@@ -75627,6 +75771,12 @@
   "responsive-to-issue-tickets": [
     "responsive-to-issue-tickets"
   ],
+  "resseract": [
+    "resseract"
+  ],
+  "resseract-lite": [
+    "resseract-lite"
+  ],
   "rest": [
     "rest"
   ],
@@ -75839,6 +75989,9 @@
   ],
   "reusable docker image build": [
     "reusable-docker-image-build"
+  ],
+  "reusable e2e test": [
+    "reusable-e2e-test"
   ],
   "reusable go build workflow": [
     "reusable-go-build-workflow"
@@ -77366,6 +77519,9 @@
   ],
   "run fa2-related unit tests": [
     "run-fa2-related-unit-tests"
+  ],
+  "run fake strategist": [
+    "run-fake-strategist"
   ],
   "run flake checks": [
     "run-flake-checks"
@@ -79320,6 +79476,9 @@
   "security scan for docker image": [
     "security-scan-for-docker-image"
   ],
+  "security scanners": [
+    "security-scanners"
+  ],
   "security scanning": [
     "security-scanning"
   ],
@@ -79955,6 +80114,9 @@
   ],
   "serif": [
     "serif"
+  ],
+  "serveless": [
+    "serveless"
   ],
   "server": [
     "server"
@@ -81026,6 +81188,9 @@
   ],
   "skills": [
     "skills"
+  ],
+  "skills check": [
+    "skills-check"
   ],
   "skills e2e": [
     "skills-e2e"
@@ -87350,6 +87515,9 @@
   "test linux": [
     "test-linux"
   ],
+  "test llm ai node.js templates": [
+    "test-llm-ai-node.js-templates"
+  ],
   "test luarocks release": [
     "test-luarocks-release"
   ],
@@ -87403,6 +87571,9 @@
   ],
   "test nle pypi package": [
     "test-nle-pypi-package"
+  ],
+  "test node.js templates": [
+    "test-node.js-templates"
   ],
   "test nodejs": [
     "test-nodejs"
@@ -89406,6 +89577,9 @@
   ],
   "token-pruning": [
     "token-pruning"
+  ],
+  "token-usage": [
+    "token-usage"
   ],
   "tokenization": [
     "tokenization"
@@ -92489,6 +92663,9 @@
   "update install stats": [
     "update-install-stats"
   ],
+  "update integration hub": [
+    "update-integration-hub"
+  ],
   "update inventory": [
     "update-inventory"
   ],
@@ -92566,6 +92743,9 @@
   ],
   "update mobile app url": [
     "update-mobile-app-url"
+  ],
+  "update new issue": [
+    "update-new-issue"
   ],
   "update news in readme": [
     "update-news-in-readme"
@@ -93767,6 +93947,9 @@
   "validate license exceptions": [
     "validate-license-exceptions"
   ],
+  "validate links": [
+    "validate-links"
+  ],
   "validate local file": [
     "validate-local-file"
   ],
@@ -94429,6 +94612,9 @@
   ],
   "version consistency": [
     "version-consistency"
+  ],
+  "version docs": [
+    "version-docs"
   ],
   "version module": [
     "version-module"
@@ -95362,6 +95548,9 @@
   ],
   "visualisation": [
     "visualisation"
+  ],
+  "visualisations": [
+    "visualisations"
   ],
   "visualization": [
     "visualization"

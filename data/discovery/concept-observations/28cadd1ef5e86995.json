@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kelos - The Kubernetes-native framework for orchestrating autonomous AI coding agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Run Fake Strategist"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Run Fake Strategist"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26947,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22588,
+      "status": "candidate",
+      "text": "setup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22467,
+      "status": "candidate",
+      "text": "orderly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22467,
+      "status": "candidate",
+      "text": "smear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19106,
+      "status": "candidate",
+      "text": "strategic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run Fake Strategist",
+      "sense_id": "run-fake-strategist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "run-fake-strategist",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "run-fake-strategist",
+  "observation_id": "28cadd1ef5e86995",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-11T18:44:26.583561+00:00",
+  "observed_text": "Run Fake Strategist",
+  "source_context_snippet": "Run Fake Strategist",
+  "source_file": ".github/workflows/run-fake-strategist.yaml",
+  "source_repo": "kelos-dev/kelos",
+  "source_repo_description": "Kelos - The Kubernetes-native framework for orchestrating autonomous AI coding agents."
+}

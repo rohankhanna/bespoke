@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "My Objective-C port of KosherJava. KosherCocoa enables you to perform sunrise-based and sunset-based calculations for Jewish prayer and calendar."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "KosherCocoa"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "KosherCocoa"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40051150,
+      "status": "candidate",
+      "text": "hebraic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40051013,
+      "status": "candidate",
+      "text": "jew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30051157,
+      "status": "candidate",
+      "text": "hebraical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050743,
+      "status": "candidate",
+      "text": "judaism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050634,
+      "status": "candidate",
+      "text": "israeli"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hebrew",
+      "sense_id": "hebrew#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "hebraic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "hebraical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "jew"
+    }
+  ],
+  "concept_id": "hebrew",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hebrew",
+  "observation_id": "5a8e172d25b7a475",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-11T18:44:26.583561+00:00",
+  "observed_text": "hebrew",
+  "source_context_snippet": "KosherCocoa",
+  "source_file": null,
+  "source_repo": "MosheBerman/KosherCocoa",
+  "source_repo_description": "My Objective-C port of KosherJava. KosherCocoa enables you to perform sunrise-based and sunset-based calculations for Jewish prayer and calendar."
+}

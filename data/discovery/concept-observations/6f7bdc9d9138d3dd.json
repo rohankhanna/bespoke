@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "My Objective-C port of KosherJava. KosherCocoa enables you to perform sunrise-based and sunset-based calculations for Jewish prayer and calendar."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "KosherCocoa"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "KosherCocoa"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jewish-holidays",
+      "sense_id": "jewish-holidays#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jewish-holidays",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jewish-holidays",
+  "observation_id": "6f7bdc9d9138d3dd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-11T18:44:26.583561+00:00",
+  "observed_text": "jewish-holidays",
+  "source_context_snippet": "KosherCocoa",
+  "source_file": null,
+  "source_repo": "MosheBerman/KosherCocoa",
+  "source_repo_description": "My Objective-C port of KosherJava. KosherCocoa enables you to perform sunrise-based and sunset-based calculations for Jewish prayer and calendar."
+}

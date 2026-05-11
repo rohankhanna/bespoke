@@ -92,7 +92,7 @@
   "normalized_form": "compatibility",
   "observation_id": "50b8b9098af89028",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_at": "2026-05-11T18:44:26.583561+00:00",
   "observed_text": "Compatibility",
   "source_context_snippet": "Compatibility",
   "source_file": ".github/workflows/compatibility.yml",

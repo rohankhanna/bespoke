@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Manual Badge Notification"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "status": "candidate-context",
+      "text": "A curated list of awesome commands, files, and workflows for Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "status": "candidate-context",
+      "text": "Manual Badge Notification"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "status": "candidate",
+      "text": "Manual Badge Notification"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17923,
+      "status": "candidate",
+      "text": "enchiridion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17923,
+      "status": "candidate",
+      "text": "handbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17892,
+      "status": "candidate",
+      "text": "alert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17892,
+      "status": "candidate",
+      "text": "note"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17852,
+      "status": "candidate",
+      "text": "dactylology"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Manual Badge Notification",
+  "concept_id": "manual-badge-notification",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/manual-badge-notification.yml",
+      "source_repo": "thedotmack/awesome-claude-code"
+    }
+  ],
+  "first_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manual Badge Notification",
+      "sense_id": "manual-badge-notification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

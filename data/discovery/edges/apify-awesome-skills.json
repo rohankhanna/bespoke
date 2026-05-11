@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-agents.yml",
+      "source_repo": "apify/awesome-skills",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-agents.yml",
+      "source_repo": "apify/awesome-skills",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-11T18:44:26.583561+00:00",
+  "source_repo": "apify/awesome-skills"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "media3-transformer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "androidx/media",
+      "status": "candidate-context",
+      "text": "Jetpack Media3 support libraries for media use cases, including ExoPlayer, an extensible media player for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "androidx/media",
+      "status": "candidate-context",
+      "text": "AndroidX Media is a collection of libraries for implementing media use cases on"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "androidx/media",
+      "status": "candidate",
+      "text": "AndroidX Media is a collection of libraries for implementing media use cases on"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "media3-transformer",
+  "concept_id": "media3-transformer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "androidx/media"
+    }
+  ],
+  "first_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "media3-transformer",
+      "sense_id": "media3-transformer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -85,6 +85,27 @@
       "target_type": "component"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-github-release.yml",
+      "source_repo": "apache/horaedb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-github-release.yml",
+      "source_repo": "apache/horaedb",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-github-release.yml",
+      "source_repo": "apache/horaedb",
+      "target": "Publish Github Release",
+      "target_type": "term"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "apache/horaedb",
@@ -148,6 +169,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-11T13:15:38.721392+00:00",
+  "generated_at": "2026-05-11T18:44:26.583561+00:00",
   "source_repo": "apache/horaedb"
 }

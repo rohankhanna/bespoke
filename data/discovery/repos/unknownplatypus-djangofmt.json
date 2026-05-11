@@ -1,0 +1,699 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloat.yml"
+    },
+    {
+      "component": "cargo-bins/cargo-binstall@4852a15cf01e4f33958ce547326406fe78f27c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloat.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cargo-bins/cargo-binstall@4852a15cf01e4f33958ce547326406fe78f27c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@711e1c3275189d76dcc4d34ddea63bf96ac49090",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml"
+    },
+    {
+      "component": "moonrepo/setup-rust@abb2d32350334249b178c401e5ec5836e0cd88d3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@c381be0bfd20e844fb45594f6aa182ffcd94545c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@ac66b43f0e6a346234dd65d4d0c8fbb31cb316e5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-ecosystem.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@ac66b43f0e6a346234dd65d4d0c8fbb31cb316e5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-ecosystem.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-playground.yml"
+    },
+    {
+      "component": "jetli/wasm-pack-action@0d096b08b4e5a7de8c28de67e11e945404e9eefa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-playground.yml"
+    },
+    {
+      "component": "jetli/wasm-bindgen-action@20b33e20595891ab1a0ed73145d8a21fc96e7c29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-playground.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-playground.yml"
+    },
+    {
+      "component": "actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-playground.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-playground.yml"
+    },
+    {
+      "component": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-playground.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@f9b26e3a1a408d5fd530d20c17b9f3f4428ff8d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@f9b26e3a1a408d5fd530d20c17b9f3f4428ff8d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-notify-pre-commit-mirror.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "g-plane/markup_fmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "unknownplatypus/djangofmt-pre-commit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "g-plane/malva",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "unknownplatypus/markup_fmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloat.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloat.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "cargo-bins/cargo-binstall@4852a15cf01e4f33958ce547326406fe78f27c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bloat.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "Cargo Bloat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "cargo-bins/cargo-binstall@4852a15cf01e4f33958ce547326406fe78f27c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "taiki-e/install-action@711e1c3275189d76dcc4d34ddea63bf96ac49090",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "moonrepo/setup-rust@abb2d32350334249b178c401e5ec5836e0cd88d3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "CodSpeedHQ/action@c381be0bfd20e844fb45594f6aa182ffcd94545c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-ecosystem.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "dawidd6/action-download-artifact@ac66b43f0e6a346234dd65d4d0c8fbb31cb316e5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment-ecosystem.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "Ecosystem Check PR comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-playground.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-playground.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "jetli/wasm-pack-action@0d096b08b4e5a7de8c28de67e11e945404e9eefa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-playground.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "jetli/wasm-bindgen-action@20b33e20595891ab1a0ed73145d8a21fc96e7c29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-playground.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-playground.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-playground.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-playground.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "uraimo/run-on-arch-action@f9b26e3a1a408d5fd530d20c17b9f3f4428ff8d9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-notify-pre-commit-mirror.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "django",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "html",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T21:09:19.726985+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11720
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2147
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 7184
+    },
+    {
+      "path": ".github/workflows/bloat.yml",
+      "size": 1361
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 6708
+    },
+    {
+      "path": ".github/workflows/codspeed.yml",
+      "size": 1562
+    },
+    {
+      "path": ".github/workflows/pr-comment-ecosystem.yml",
+      "size": 2766
+    },
+    {
+      "path": ".github/workflows/publish-playground.yml",
+      "size": 2524
+    },
+    {
+      "path": ".github/workflows/release-build-binaries.yml",
+      "size": 17140
+    },
+    {
+      "path": ".github/workflows/release-notify-pre-commit-mirror.yml",
+      "size": 964
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A fast, HTML aware, Django template formatter, written in Rust.",
+    "fork": false,
+    "full_name": "UnknownPlatypus/djangofmt",
+    "html_url": "https://github.com/UnknownPlatypus/djangofmt",
+    "language": "HTML",
+    "pushed_at": "2026-05-11T20:20:11Z",
+    "stargazers_count": 73,
+    "topics": [
+      "django",
+      "formatter",
+      "html"
+    ],
+    "updated_at": "2026-05-11T20:20:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "g-plane/malva",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "g-plane/markup_fmt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unknownplatypus/djangofmt-pre-commit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unknownplatypus/markup_fmt",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Cargo Bloat",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bloat.yml",
+      "term": "Cargo Bloat"
+    },
+    {
+      "context_snippet": "Ecosystem Check PR comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment-ecosystem.yml",
+      "term": "Ecosystem Check PR comment"
+    },
+    {
+      "context_snippet": "[![Pypi Version](https://img.shields.io/pypi/v/djangofmt.svg)](https://pypi.python.org/djangofmt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "django"
+    },
+    {
+      "context_snippet": "[![Pypi Version](https://img.shields.io/pypi/v/djangofmt.svg)](https://pypi.python.org/djangofmt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "[![Pypi Version](https://img.shields.io/pypi/v/djangofmt.svg)](https://pypi.python.org/djangofmt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    }
+  ]
+}

@@ -2224,6 +2224,18 @@
       "source_repo": "CanHub/Android-Image-Cropper",
       "status": "candidate-context",
       "text": "[![CanHub](.documentation/art/cover.png?raw=true)](https://github.com/canhub)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "androidx/media",
+      "status": "candidate-context",
+      "text": "Jetpack Media3 support libraries for media use cases, including ExoPlayer, an extensible media player for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "androidx/media",
+      "status": "candidate-context",
+      "text": "AndroidX Media is a collection of libraries for implementing media use cases on"
     }
   ],
   "candidate_glosses": [
@@ -3354,6 +3366,12 @@
       "source_repo": "CanHub/Android-Image-Cropper",
       "status": "candidate",
       "text": "[![CanHub](.documentation/art/cover.png?raw=true)](https://github.com/canhub)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "androidx/media",
+      "status": "candidate",
+      "text": "AndroidX Media is a collection of libraries for implementing media use cases on"
     }
   ],
   "candidate_related_terms": [
@@ -5704,11 +5722,53 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": null,
       "source_repo": "snapcast/snapdroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "androidx/media"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "nitaliano/react-native-mapbox-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapdroid"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

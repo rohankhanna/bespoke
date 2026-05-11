@@ -2391,6 +2391,7 @@
     "4545543df34dbe9f"
   ],
   "agentic": [
+    "03edb9f65d1c56df",
     "1eb0ddcf5422a9df",
     "26194712402d2bd8",
     "2d087c04a73b8478",
@@ -2454,6 +2455,7 @@
     "c8e601fbc7166281",
     "d267f70eb2b70b98",
     "d2bb9c35d1936264",
+    "da740c2c5acc8a07",
     "db8b69ff1355a4c3",
     "e622bebcc316381e",
     "e77d8407d370b9dd",
@@ -2482,6 +2484,7 @@
   ],
   "agentic-coding": [
     "1343cf88e4cd4726",
+    "eb17d99cdc07a7fb",
     "fae540e5337e77e4"
   ],
   "agentic-engineering": [
@@ -2735,6 +2738,7 @@
   ],
   "ai-automation": [
     "6edfcc228aab92b7",
+    "986c7137b36cdbcf",
     "9e8885fd9012f0fa"
   ],
   "ai-azd-templates": [
@@ -2775,6 +2779,7 @@
   ],
   "ai-coding": [
     "1a8d11cb6e91f539",
+    "4d416d250d3abfda",
     "774d241862144bfb",
     "e6bc6e944340574a"
   ],
@@ -3069,6 +3074,7 @@
     "12d122f899efb5fa",
     "32d63c948f1825e7",
     "588660d777dba307",
+    "5dd303404881606c",
     "618599ae465ff867",
     "63bc51ba35074e05",
     "64ce7dda2e759b99",
@@ -4062,6 +4068,9 @@
   "analysis-scorecard": [
     "da7b652c19a434c0"
   ],
+  "analystics": [
+    "d213d6c324c07f49"
+  ],
   "analytical-derivatives": [
     "7dc5e66801b69955"
   ],
@@ -4316,6 +4325,7 @@
     "d4593756a84a2b29",
     "d621a35677a8166d",
     "d7c6fc4a58f88714",
+    "d861e6cae13f8d8e",
     "d9d1b24efc50d24c",
     "daed4ece3befd6fc",
     "db825f60268ba125",
@@ -5108,7 +5118,11 @@
     "6d055220368ac265"
   ],
   "antv": [
+    "10090b372d91a934",
     "4710da1a8f83b879"
+  ],
+  "antvis": [
+    "4dad60fbb162f9b9"
   ],
   "anyloc": [
     "aee367dc2987d752"
@@ -5480,6 +5494,9 @@
   ],
   "apidom-monorepo-full-nightly-build": [
     "93714df14efde355"
+  ],
+  "apify": [
+    "2653a984be491d3e"
   ],
   "apigateway": [
     "7d6507abf5e104fa",
@@ -6894,6 +6911,7 @@
     "ee8c6f3d171b0852",
     "ef098357e1e90377",
     "ef8ce2bc94cfb178",
+    "f10158e363b5d2b9",
     "f2570457213a973c",
     "f29e649a24554139",
     "f420e684140abd60",
@@ -7936,6 +7954,8 @@
     "391a555ff085ece5",
     "3d2b537ff8976b1b",
     "3eb002a4064aac5a",
+    "40af10675425632e",
+    "4c1618ca038ee9ae",
     "523354eda79b5194",
     "5493dbfcd7fa9ff2",
     "5fe25f7c5df36427",
@@ -8454,6 +8474,9 @@
   ],
   "auto-approve-prs-by-owner": [
     "5fc83e29aebbc42a"
+  ],
+  "auto-approve-validated-submissions": [
+    "9a89cb7791adc346"
   ],
   "auto-assign": [
     "2cb79a6d168e4647",
@@ -9676,6 +9699,7 @@
     "3fe27eb3a5faa55c",
     "41f974021cae736b",
     "44f6ddb63dc4a989",
+    "47b6952376b686ce",
     "4aba029734df1b46",
     "4d4f66cef76693e2",
     "4db1a2a5befeff1e",
@@ -11867,6 +11891,7 @@
     "8464f13098fca5ca",
     "8dfd10b8bd938fb2",
     "8f25cf79d2e31a88",
+    "8f6cc4f07cfadaa7",
     "921e82801a8cac1a",
     "9339f186dfa650a5",
     "93d4d5c9df2acd6c",
@@ -12124,6 +12149,7 @@
     "0badaef778915caa",
     "0d42b3098d520cc7",
     "0fbe679feb50a576",
+    "13fea323fee0d89d",
     "16eeed0041b07037",
     "20df7dfc3bb205b0",
     "30aeebb587d9eb53",
@@ -15030,6 +15056,7 @@
     "0fd5e8b80912b278",
     "12e998a1699912a0",
     "2cb6a5c9c25c36ef",
+    "542bf5aa6ecc2f47",
     "55892b9a66f556c1",
     "5e242ba805a3900f",
     "62c7d95d7ec10364",
@@ -21029,6 +21056,9 @@
   "build-template-and-commit-theme-updates": [
     "0675ff5c07f9aaa6"
   ],
+  "build-template-archives": [
+    "ef6ab94ba2ad5819"
+  ],
   "build-template-metadata": [
     "0422e5b06a05207e"
   ],
@@ -23101,6 +23131,9 @@
   "calculation-engine": [
     "314a8439c2f6f0fa"
   ],
+  "calculations": [
+    "d101134b680e0da3"
+  ],
   "calculator": [
     "03f58d7e59bfc236",
     "e38b8eb0bc33fca6"
@@ -23116,12 +23149,15 @@
     "029ba0d5ead947f2",
     "3dcbd5a0e9e26143",
     "49a518bd239dc3a2",
+    "4f27cd28a0551b1b",
+    "b629a294987b9afd",
     "c491a9452dad543a",
     "ed1831c04c303972",
     "f6c9b1cca586cb79"
   ],
   "calendars": [
-    "0ca324570b06cea4"
+    "0ca324570b06cea4",
+    "9f196bce0543c8b3"
   ],
   "calflops": [
     "6db59e91462da03a"
@@ -23624,7 +23660,8 @@
     "f8374161fbbf6e23"
   ],
   "cargo-bloat": [
-    "52f7bb7b6fa58689"
+    "52f7bb7b6fa58689",
+    "7ede80a1b6a263d4"
   ],
   "cargo-build-test": [
     "d37c3646d5322605"
@@ -24826,6 +24863,7 @@
   ],
   "charts": [
     "14f6920aad2093b3",
+    "1b05d16675dc4ca5",
     "29f22b081b9b0e4e",
     "33b65850c9687c53",
     "43843db5f580fabf",
@@ -24915,6 +24953,7 @@
     "4d1e751c57b4e9fc",
     "4daa722bf5111299",
     "504296eb082133b1",
+    "5395f7d7cbd1dcf7",
     "543eb0bba796c6ba",
     "57a5cf5c2de7302a",
     "5e4fc251d583b3b8",
@@ -25117,6 +25156,7 @@
     "cb337a9b7fc826bf",
     "cc5b0004ab7541f2",
     "cf04773e5589c146",
+    "d08430363e9dea47",
     "d0de43f56b5cba3e",
     "d1a141bc819f2c2c",
     "d324e5caf3335f12",
@@ -25280,6 +25320,7 @@
     "a111d6c87e9382fd",
     "a422d98fcf47d06f",
     "aa15413c9e51c21f",
+    "ad9525a69b60e4f4",
     "adbb128e1f5bd17b",
     "aeed88c24fc00ed6",
     "b6cc0750f5b26579",
@@ -27996,6 +28037,7 @@
   "ci-cd": [
     "0a93c3064d160c44",
     "1a27d34d40a77dba",
+    "1c49213f6d460bc9",
     "238045f1569e5156",
     "322b5e2ece4ee44e",
     "42cae0ad6848d5ec",
@@ -29585,7 +29627,8 @@
   ],
   "clangd": [
     "937543d2e133fecf",
-    "9973d12f10d0df38"
+    "9973d12f10d0df38",
+    "bb50f07e1acd65aa"
   ],
   "clangformat": [
     "1304e037304570ce",
@@ -29727,6 +29770,7 @@
     "6583418270394d28",
     "820deb86e06e85a7",
     "9e9be17d57a5a57b",
+    "9f8c58807f4f8bff",
     "c52c9eff19675acd",
     "e77bec6e840b2d4b",
     "f91706b6592eff03",
@@ -29783,6 +29827,7 @@
     "1ade368f41820507",
     "1c5a5c8bd49bdda2",
     "1eedfc090ff9a152",
+    "1f9dd16e8f573c1f",
     "209a0f0e04dc274d",
     "20e64736cb3b6919",
     "215b1151dc473b61",
@@ -29838,6 +29883,7 @@
     "6cd58054d8a8586f",
     "6cda69853ad113e8",
     "6daeb5033248369c",
+    "6dcd1759bbfe2fd1",
     "6e0a73ff7646b667",
     "7365a6f559556c9d",
     "75288559481b584e",
@@ -29898,6 +29944,7 @@
     "b536feb4a55fd338",
     "b69b591916b87220",
     "b740076dbfe5253b",
+    "b8b2afffd1c0212c",
     "b9444922ef92ad05",
     "b9bfd54d8afacad4",
     "bb04a126d1a81e9f",
@@ -29939,6 +29986,7 @@
     "e025031044704c6e",
     "e08bfa2817a23685",
     "e1adb08b946b3fb7",
+    "e28c6e039ee17953",
     "e53ae17beb3b93a6",
     "e7e4ad6aebc7a6e3",
     "e937d8edbc87e388",
@@ -30004,6 +30052,7 @@
     "4b7496f9bcd91873",
     "5f540cb0e1f865e6",
     "5f5c01eeb8a2806b",
+    "8c79c70117e02193",
     "9dd9c4c6258908eb"
   ],
   "claude-code-plugins": [
@@ -30065,6 +30114,7 @@
     "c83f06afe1b192d0",
     "d43abc9ec947021e",
     "d6cc1c48a2a743da",
+    "d8499183b4fe236a",
     "da0cf5b249a40db4",
     "dd8cb907648e0154",
     "eae6b46936ea8110",
@@ -30259,7 +30309,8 @@
   "clawdbot": [
     "012f405d847ae9b2",
     "0249d2893382a84e",
-    "0bd412ef32ffb0cd"
+    "0bd412ef32ffb0cd",
+    "2ccdd24ccfeabd40"
   ],
   "clawdis": [
     "f3e74aa94cf5d74d"
@@ -33107,6 +33158,7 @@
     "5e1265108d6614d9",
     "7b8f0dff2c17b25a",
     "82c0891597c3ad87",
+    "8f9cf36ef7ab79be",
     "c45b3865cf92c4e2",
     "d63d37dd013da42d",
     "ec2c0f361a02eb1f",
@@ -33465,6 +33517,9 @@
   "code-llms": [
     "3a6d8ba280f14e4f"
   ],
+  "code-mode": [
+    "a5f17a94707ee18e"
+  ],
   "code-navigation": [
     "3a28f9da901c1482",
     "5625cfdf99c435d7"
@@ -33780,6 +33835,9 @@
   ],
   "codebook": [
     "e17c236b3058e4a1"
+  ],
+  "codebuild": [
+    "21b9bc967f70ade5"
   ],
   "codebuild-pr-build": [
     "09b3a1af26cce789"
@@ -34847,6 +34905,7 @@
     "70a5233cd5aebfb6",
     "712483eec63d141c",
     "731155099d556fdb",
+    "746e61074d51ac0b",
     "76837a993a07f407",
     "786687410e2abae9",
     "7d48667e7d8cb6d5",
@@ -35764,6 +35823,7 @@
     "91916ea3b94a84f9"
   ],
   "command-line": [
+    "04188645f7d62071",
     "0c778930f3eede78",
     "121a3db44ab5a007",
     "143d1010082382a0",
@@ -35817,6 +35877,7 @@
     "84e3b87b3c516fe4",
     "85c0cc401275e8c4",
     "8c4bbcd2331ed898",
+    "8e895a040dcaeb3a",
     "8eaa75c44816d8bd",
     "91b5d9717a63e3c4",
     "91b760c1b71a81f6",
@@ -38105,6 +38166,7 @@
   "conformance": [
     "00c88243e5d5cba1",
     "2a3449e55be29aac",
+    "2bd2b9b201eba265",
     "2e58773b015df2cf",
     "32d248046d5c0222",
     "38acd5be150cf139",
@@ -39527,6 +39589,7 @@
   ],
   "conventional-release-labels": [
     "0459d1fccb906571",
+    "124ee7d2ee6a5c2c",
     "b391bf45a78a232a"
   ],
   "conventions": [
@@ -39555,6 +39618,7 @@
     "25bed885211d3981",
     "407285865d3b6029",
     "819d2cbb563616c6",
+    "a1a253269a8df8b0",
     "bda9d02d78e709d8",
     "c3b8d48bbee87414",
     "cd77b46f99277f0a",
@@ -40250,6 +40314,9 @@
   ],
   "cost-tracker-smoke": [
     "3a673b0f1ed7f30c"
+  ],
+  "cost-tracking": [
+    "d3b7b8e1b26fe1ab"
   ],
   "cost-volume": [
     "0b61b13cc83a8fba",
@@ -41108,7 +41175,11 @@
     "97eb60609d196073",
     "fe7d7f33c644b6e5"
   ],
+  "create-a-pre-release": [
+    "117b724c78ac7afe"
+  ],
   "create-a-release": [
+    "05596a2c1c346d95",
     "1692652ac69efb7c",
     "44d58ccd9240a279",
     "725cccd9243810f5",
@@ -41277,6 +41348,9 @@
   "create-ga-pr": [
     "c7deade72f5d6a14"
   ],
+  "create-github-pre-release": [
+    "cc4dd106988d317e"
+  ],
   "create-github-release": [
     "050e5538d09e344b",
     "0e38284229bbc358",
@@ -41423,6 +41497,9 @@
     "4345a3ef68627952",
     "43e05c77293cce64",
     "b24358f64cd421e2"
+  ],
+  "create-relay-release": [
+    "befadd977471ec3c"
   ],
   "create-release": [
     "0177d66b28fdefd5",
@@ -43119,6 +43196,7 @@
     "50da79704f4d73ea",
     "51b415b2734716ab",
     "559d5e58133d6d43",
+    "56e7d7a4a252236d",
     "7aa7ca09334255e3",
     "a4ddba91895f3151",
     "b6eb937fd2e525da",
@@ -43127,6 +43205,9 @@
     "e1b97818e0b181ea",
     "e6a6fa8138c74bd3",
     "f29533708ea4e96e"
+  ],
+  "cursor-ide": [
+    "bf39c7e76fbdf365"
   ],
   "cursor-moves": [
     "8c5b325d4dfb1002"
@@ -43184,6 +43265,9 @@
   ],
   "custom-component": [
     "ea84b12cb0b1271a"
+  ],
+  "custom-dashboards": [
+    "b019b6b69206d925"
   ],
   "custom-derive": [
     "139ccda2d3632c51"
@@ -43634,6 +43718,7 @@
     "b17919ff3f253c3c"
   ],
   "daf-yomi": [
+    "1e18eb8fb15aef75",
     "83ecb0fe296a9ba9",
     "bdd8d7d3f2ac57c7"
   ],
@@ -44241,7 +44326,8 @@
     "f05ea3754da7731e",
     "f32ab694a85e135a",
     "f55241fe3ac509e8",
-    "fbd7a401b6b08c49"
+    "fbd7a401b6b08c49",
+    "fcac92cb237199de"
   ],
   "data-abstraction": [
     "d2406c7170f4788a"
@@ -44621,6 +44707,7 @@
     "4787a724fc8671f0",
     "4a3141a4a9aa106d",
     "506176716663129c",
+    "584bf11d97cc09c2",
     "59423c1e3cc174fe",
     "5baa832ad5cac41b",
     "5bb84716c0a5d130",
@@ -44795,6 +44882,7 @@
     "5c90ea1a5ba36bc3",
     "669bcb513c20bc6b",
     "70acd0eeaa59b797",
+    "73bbd1be5ce17cdb",
     "79dc809c4606f2d4",
     "7a4eeb451dead70d",
     "810f468449fe2dab",
@@ -45089,6 +45177,7 @@
     "d89d21ddd1c7c622",
     "d98489df30fb9147",
     "eda4f6b529377562",
+    "edacf4f791a7eb28",
     "fb1d637ececab7a7"
   ],
   "dataframe-library": [
@@ -45475,6 +45564,7 @@
   "dawn": [
     "37096698a14fe713",
     "5d1d6e4d6dd36291",
+    "6ee6ac9eb1eceed1",
     "bddd55fb0111be9b"
   ],
   "dayjs": [
@@ -47062,6 +47152,7 @@
     "4f0d97a46741253f",
     "6400baa4599d7a6b",
     "6557add7965921ae",
+    "6cde80476f779237",
     "6d97ff96b092cadd",
     "77b99acf33fafa27",
     "78d55eea60707469",
@@ -47264,6 +47355,9 @@
   "deforum": [
     "08bedd630475f3f1",
     "ed7703988b9cdef4"
+  ],
+  "defuddle": [
+    "656828d6a32f4927"
   ],
   "degeneracy": [
     "9aa5d565a1140ef3"
@@ -48903,6 +48997,9 @@
   "deploy-redirects-to-github-pages": [
     "74e0a9042cc1275b"
   ],
+  "deploy-relay-prod": [
+    "92f6a1dafbc29321"
+  ],
   "deploy-release": [
     "19a28c8dc8258f17",
     "3d5d7b4ca54dcded",
@@ -48949,6 +49046,7 @@
   ],
   "deploy-site-to-github-pages": [
     "323b72902b7d7e17",
+    "6dc0c4426c545ce6",
     "d1b2e7f5bff8c5bf"
   ],
   "deploy-site-to-pages": [
@@ -49096,6 +49194,9 @@
   ],
   "deploy-to-debug-app": [
     "49424e57a568f039"
+  ],
+  "deploy-to-dev": [
+    "cc3cab3e36ea097f"
   ],
   "deploy-to-dev-environment": [
     "8c33f9459569972f"
@@ -50110,6 +50211,7 @@
     "c67a9975a1a6e32a",
     "c69a8f1f677ffd10",
     "cde070b58808dc44",
+    "d2aecae9834d10a5",
     "d4c5d043e8778a51",
     "d5958059a9b95ab6",
     "d6988ffdecd118ee",
@@ -51632,6 +51734,9 @@
   "dithering-images": [
     "ae7332089df6eda6"
   ],
+  "diverse-data-sources": [
+    "04bfcad349708e6d"
+  ],
   "diverse-decoding": [
     "af67613ffe5d3a7b"
   ],
@@ -51661,6 +51766,7 @@
     "68ab26640f118c39",
     "9faf63960bac5ec2",
     "ac9d487e3289339a",
+    "af69976c765ba535",
     "b03ee7501b2e5f4a",
     "c5d3851eb35e1791",
     "ce5f1f5b0f882d43",
@@ -53231,6 +53337,7 @@
     "81cae65b6fa5bcf0",
     "82ecea825290fffe",
     "83362cde94588111",
+    "8354be8a210f958b",
     "8512f0b4dc3847bb",
     "86a14fa635ccecd3",
     "86d7edfd090ac3a1",
@@ -55103,7 +55210,8 @@
     "b5a209c957837da8"
   ],
   "dusk": [
-    "cf8e2c33cfec0e1f"
+    "cf8e2c33cfec0e1f",
+    "ed72af39a4e1545e"
   ],
   "dvcs": [
     "fd3c9c97f9c5c8e8"
@@ -55569,6 +55677,7 @@
     "18a739bb7881166e",
     "2b489b0269c3385f",
     "2d582e2084b96f90",
+    "2d606b52fe5936ac",
     "3a284bac31234907",
     "44eaee9b93f6d2a6",
     "47630f7aeb1a579e",
@@ -55578,6 +55687,7 @@
     "6d44f7b7f4b5edbc",
     "6ef24c5299756196",
     "734ce4a15b838370",
+    "7630d2c26f1f87b6",
     "7e8b0a7612af0aba",
     "83f6fee0fbe1522d",
     "8405b39c729b649d",
@@ -55622,6 +55732,9 @@
   ],
   "e2e-url-checker": [
     "63293df27bd948f1"
+  ],
+  "e2e-windows": [
+    "4074694737a42e08"
   ],
   "e2ecleanup": [
     "6100b096efcd1b73"
@@ -55942,6 +56055,9 @@
     "b2151bdd6c212f07",
     "d5b83e89c498788e",
     "dc29b57b6bbd6d8c"
+  ],
+  "ecosystem-check-pr-comment": [
+    "bc0b70f28a3ee5eb"
   ],
   "ecosystem-ci": [
     "046a191d934c1b18",
@@ -59417,6 +59533,9 @@
   "exogenous-predictors": [
     "21154efe2cfba91b"
   ],
+  "exoplayer": [
+    "a32916d7e14e59f3"
+  ],
   "exoskeleton": [
     "6787fdac497bc8cd"
   ],
@@ -59670,6 +59789,7 @@
   ],
   "expression-language": [
     "34bf29beb18accff",
+    "38d0c122b9493f57",
     "7ff889b4d36bb831"
   ],
   "expression-tree": [
@@ -61933,6 +62053,9 @@
   "firstbatch": [
     "f4d32ab70ac28a46"
   ],
+  "firstlook": [
+    "24fe4364a17fd17d"
+  ],
   "fish": [
     "0b351b086a75c420",
     "0f6912c61dafeca0",
@@ -63070,6 +63193,9 @@
     "f8fd21ba829b326f",
     "fe1bfe35a61f010d"
   ],
+  "fork-e2e": [
+    "dfcd12441773acc4"
+  ],
   "fork-test": [
     "ad44df1feb1c7aa3",
     "b678e6b9b1817fa6",
@@ -63325,6 +63451,7 @@
     "5c1d3e0246ea3aa0",
     "628f6c480a43f32b",
     "64eef19d2f4416b2",
+    "66929367e1e6441d",
     "6a7b9fffacd6de16",
     "71c7306b9f44a145",
     "731c9f499d60c067",
@@ -63738,6 +63865,7 @@
     "8e01d8a76a171add",
     "8f4c2a68e665e9d6",
     "9600ede13e7a0dcf",
+    "9c2b2d36cb0fc5ad",
     "a46bb1741853cc37",
     "a543bbfe63b1fb4f",
     "a963007bda4806e9",
@@ -64902,6 +65030,9 @@
   "gatekeeper": [
     "1d580e6c4aa59917"
   ],
+  "gatekeeping-resolution-automation": [
+    "83a3177421998ad9"
+  ],
   "gateway": [
     "0159c90ed8a27cda",
     "462cd27bfdcdeabe",
@@ -65259,6 +65390,7 @@
     "2f443dc303265f6a",
     "36111b40fe4cfed8",
     "3ed757cb3f247ed1",
+    "4087adfad0454dcf",
     "4261d178cb9c5f39",
     "48f8e81589bb6d43",
     "4d133994857172fd",
@@ -65274,6 +65406,7 @@
     "6f67c7d04fd4ab8e",
     "7b2003e067c9e9f1",
     "7def337c2eb759e2",
+    "7e5997d08b3113cd",
     "89eff5b382fea218",
     "8e14527e4912493f",
     "95bad1c63bb0c3e4",
@@ -66431,6 +66564,12 @@
   "geo-localization": [
     "63b5f55ddc529a2d",
     "7541a1d9737d8ffd"
+  ],
+  "geochart": [
+    "9911e26a759ef658"
+  ],
+  "geocharts": [
+    "d7c0711492563c5e"
   ],
   "geocode": [
     "d5b43c27bc118fe0"
@@ -67907,6 +68046,7 @@
     "778644ca773ed167"
   ],
   "gitleaks": [
+    "00e1655c78f3988e",
     "202b91bca1b98190",
     "586ef927eb710a41",
     "68f52aacc3c46250",
@@ -70192,6 +70332,7 @@
     "9a8a2632ba2c6ed9"
   ],
   "gpts": [
+    "102ae189e22888f7",
     "482b1efb9b7cb6b5"
   ],
   "gpu": [
@@ -72521,6 +72662,7 @@
     "c43743184229c5a9",
     "c444df9deab82dac",
     "c461e71d5455d8b5",
+    "c49ee2137d344ae9",
     "c5668e5b361dc4fb",
     "c5732e872632205b",
     "c5b02939003294d9",
@@ -72905,6 +73047,9 @@
   ],
   "handle-react-native-bot-commands": [
     "cac79e5f23a38803"
+  ],
+  "handle-resource-submission-commands-manual-override": [
+    "2ba4418c29afd5e8"
   ],
   "handle-stale-issues": [
     "216b612698894868"
@@ -73541,6 +73686,7 @@
   "headless-chrome": [
     "0a35a2b2f082b1a3",
     "2ff974579ceb6b0d",
+    "6565e652d5e9d10c",
     "739e092e948a3317"
   ],
   "headless-cms": [
@@ -73649,16 +73795,19 @@
     "fd1c39306ce64875"
   ],
   "hebrew": [
+    "5a8e172d25b7a475",
     "61753969d8eb58c9",
     "6e30e8e9fa808442",
     "7ebb11a12e9a5a15"
   ],
   "hebrew-calendar": [
     "0bcea1f47af21884",
+    "688f25a486ae79c6",
     "84821eea93380fdb",
     "c48566f7b519a71c"
   ],
   "hebrew-date": [
+    "28b6c4d156eed179",
     "9c42c2100ab77229",
     "ae654c3e352c49d4",
     "d617645340d9ebf9"
@@ -74831,6 +74980,7 @@
     "93a9c2151c0ae4d9",
     "94a7aa000cc4699e",
     "9aa5485b3e8755d9",
+    "a14dc5d56da65a44",
     "a34106af74aaeaf9",
     "a69e486050c6abf2",
     "afe26985dea805d1",
@@ -77711,6 +77861,9 @@
   "impersonate": [
     "bc31b536f2b5a5ab"
   ],
+  "implement-from-issue": [
+    "cad9947f7c0c35d3"
+  ],
   "implementation": [
     "47e350925dab36f1",
     "b9bdb9b04aefee02"
@@ -78743,7 +78896,8 @@
     "f647765f2d5e1a13"
   ],
   "instrument": [
-    "6ef823f8b59cf9c9"
+    "6ef823f8b59cf9c9",
+    "ebdbdc7ca2c58012"
   ],
   "instrumenta": [
     "082636de257d91ff"
@@ -79257,6 +79411,9 @@
     "c6a40285c7890088",
     "ca1dbd4b9f7f875d",
     "d0ed93d223d36d35"
+  ],
+  "interactive-data-exploration": [
+    "12458090d9b6be9e"
   ],
   "interactive-fiction": [
     "27bfdfb83d4e67c5",
@@ -80963,10 +81120,12 @@
     "a9a4a75e042a1589",
     "ab0de8fa83cdefc2",
     "ab71de053aa6e4ed",
+    "ac9985a644db083f",
     "add0221acab31963",
     "aec63386257d836c",
     "af37a428aea81fc0",
     "af7bbd52b5488a18",
+    "b04378d9536accf1",
     "b1042a117b1b3ef1",
     "b26c93fb2057aa5a",
     "b473d5bc8cedf782",
@@ -81646,14 +81805,18 @@
   ],
   "jewish": [
     "0b13b0baffcfbc21",
+    "1ce0f3dd37b1e85e",
     "91d833c03fc917d0"
   ],
   "jewish-calendar": [
-    "6d65b8f051bb2c5f"
+    "6d65b8f051bb2c5f",
+    "cb6d61d686a7a1d8"
   ],
   "jewish-holidays": [
     "499ffc9825fbecad",
     "68ca364d373c9904",
+    "6f7bdc9d9138d3dd",
+    "a83d1da58cccf20a",
     "f518edad8f9a6c4f"
   ],
   "jewish-texts": [
@@ -82419,8 +82582,10 @@
     "37d3feb852d6aa41"
   ],
   "judaism": [
+    "498def84103d3895",
     "4eb059f658e35080",
     "51bab46fc71c3db1",
+    "b3fad480efb8d636",
     "c43fba4f51e3e048"
   ],
   "judge-model": [
@@ -82662,7 +82827,8 @@
     "38b3c005d6eb4755",
     "4647e0e0db5249b4",
     "8609f2cdc36e898e",
-    "8eb3140006a5bf84"
+    "8eb3140006a5bf84",
+    "ad783cb38ca60d8f"
   ],
   "junit-jupiter": [
     "a00dd9e7cdaee710"
@@ -83105,6 +83271,9 @@
     "3e046bd831908d76",
     "5a58b6f4e0d5c835",
     "7a8007a3b18f73fb"
+  ],
+  "kanban": [
+    "7578bf5a5df9f3a0"
   ],
   "kandinsky": [
     "26673751a68b3a59",
@@ -83716,6 +83885,7 @@
     "0935647edbb441a8",
     "26499f9393e7d5c8",
     "788a318fab4f95d3",
+    "799968808604fb72",
     "adb3efa788f8e99a",
     "b25550dcd1a7aa86",
     "c4d91bd074543d62",
@@ -83789,6 +83959,7 @@
   "knowledge-management": [
     "1e978fd1cb95845d",
     "6041ae62fb406eb0",
+    "65ec4a001d9d3ede",
     "85da9c566016f21b",
     "8faaab54b0056a0f",
     "ed0844eea13573df"
@@ -83934,6 +84105,9 @@
   ],
   "korean-nlp": [
     "845934ef9ed9520b"
+  ],
+  "koshercocoa-framework": [
+    "26d8a5410660e1c1"
   ],
   "kosmos": [
     "d7f4d3b9b2f9c777"
@@ -84347,6 +84521,7 @@
     "829bc1d15ae4b323",
     "82c07ee2f7ed4627",
     "83706268bd165610",
+    "855498196e192052",
     "8659a50bc1513f37",
     "86a46a7c64533091",
     "8a2a1b748d3c7e08",
@@ -84532,6 +84707,7 @@
   ],
   "kubernetes-operator": [
     "1ee5a0bd2b8eb49e",
+    "211f460222381c82",
     "21749f081784eda0",
     "59d5a261e9604eb4",
     "6343582cf9cbd7b8",
@@ -84681,6 +84857,7 @@
     "9de964581d4c8e32"
   ],
   "label": [
+    "092b9d68811a8d7d",
     "23ebbd6290290118",
     "d432d884a3f98e5a",
     "f42e671ca9ea1325"
@@ -87415,6 +87592,7 @@
     "09724af00eaf7b6f"
   ],
   "light-weight": [
+    "0f2387298a740263",
     "aa4df86060076304"
   ],
   "lightfield": [
@@ -87499,6 +87677,7 @@
     "ab30cfeb11c4d381"
   ],
   "lightweight": [
+    "14bc72fd202f14da",
     "15f0d3cbbc67ff00",
     "18b4141577b82389",
     "2897093384bbcde9",
@@ -89948,6 +90127,7 @@
     "dc1fb39e97085585",
     "dd2fe6ca838df17d",
     "df835c23146d9e34",
+    "e0e9ce7f9f68ccfd",
     "e1a9027f11f8af5e",
     "e2e64685f60368bb",
     "ef37cee04d64ab4f",
@@ -93311,6 +93491,7 @@
     "2898edb7baa2f47a",
     "2b5698df48de47c1",
     "2d79f4cb8bb5707d",
+    "30be79b858ca8fd1",
     "34bfd794db7cf6ba",
     "3705bb05d052d820",
     "396cb60cbcacffaf",
@@ -93438,7 +93619,8 @@
   "main-ci": [
     "33593262d11e39f2",
     "37c070ea704b4de5",
-    "3d17df109a959fd3"
+    "3d17df109a959fd3",
+    "4dad9f693eac086b"
   ],
   "main-ci-workflow": [
     "38c00443151d4176"
@@ -93731,7 +93913,8 @@
   "management": [
     "26479c7e02b05cd9",
     "6d278e5d70ec10dc",
-    "99cb340b8acae538"
+    "99cb340b8acae538",
+    "f216a6c129b23b99"
   ],
   "management-system": [
     "7ff9e35b80688c0b"
@@ -93859,6 +94042,9 @@
   ],
   "manual-annotations": [
     "232e422c916ecdbb"
+  ],
+  "manual-badge-notification": [
+    "49e057c568df3559"
   ],
   "manual-build": [
     "05794709f012ffeb",
@@ -94412,6 +94598,7 @@
     "e9ac5618df058f76",
     "ead5bf867b60ac04",
     "ed98959e147a1d85",
+    "efe4320addafbb63",
     "f482a021955a7ab3",
     "f5837a611843cf00",
     "f8b8b3c943395db7",
@@ -95220,6 +95407,7 @@
   ],
   "mcp-client": [
     "1e2e189ff07c56c2",
+    "2332a9b6adf221a2",
     "3d2cb3a0cce938f3",
     "5ce9713a67733ca0",
     "77444587088d383b",
@@ -95471,6 +95659,15 @@
   "media-tracking": [
     "67a95baf91e1d73b"
   ],
+  "media3": [
+    "0695885ecd4ddac1"
+  ],
+  "media3-exoplayer": [
+    "af19129e8210198f"
+  ],
+  "media3-transformer": [
+    "add1637bbb7e62fe"
+  ],
   "mediadevices": [
     "e9319bd0cd35e65b"
   ],
@@ -95489,6 +95686,9 @@
     "3f96d9f09559b265",
     "9898ea41a6f545e9",
     "fce483057db68077"
+  ],
+  "mediaplayer": [
+    "2b99568fde8b5384"
   ],
   "medical": [
     "14db94edf4ea9c08",
@@ -96689,9 +96889,13 @@
   "midi": [
     "20b6de101d3a4a77",
     "619b626799378347",
+    "7c9b2e290ad71e8a",
     "817ad7fba4530e7f",
     "91a020cd15e176a3",
     "dbb45a9b6705189b"
+  ],
+  "midi-controller": [
+    "3f11e52076b9d99e"
   ],
   "midi-javascript": [
     "d35b77c2095b6ff8"
@@ -97397,6 +97601,7 @@
     "9cbcad2010556b87",
     "b097b5d3a498f8e8",
     "c7d55a9941c88836",
+    "d49b23efc420ff8a",
     "d6e49dcd1bfb4cdd",
     "e45014994f0b2e44",
     "f2f0716c9e55dc8f",
@@ -98104,6 +98309,7 @@
     "e003337dcc79dd1a",
     "e55b292c5c9321de",
     "e658e9fb1e8decf4",
+    "f2be36ab3a7b12b1",
     "f936c462081054a1",
     "fdb9165ed1a4a89e"
   ],
@@ -98566,6 +98772,7 @@
     "9c31330f106b143b",
     "a676597b0d030100",
     "a780334a97bb5001",
+    "a7f79c62fbd15126",
     "aed0fd712961a554",
     "b3864861108bd1c9",
     "b390d45f050f9089",
@@ -100257,6 +100464,7 @@
     "06a6a679565221ec",
     "0e20e6c0beaaa007",
     "1377a1f5fabc04d9",
+    "2f8f008061aa1633",
     "3d8ea25e04aa15a2",
     "44d901f3d010e427",
     "4625680d1eef86ff",
@@ -100265,6 +100473,7 @@
     "7bb9e908e9f88fd0",
     "7fa01cd460d7fb21",
     "a252ebb291f7bc76",
+    "ab848623d46a566e",
     "c76de5201f854315",
     "e278a5ab0734ca86",
     "ffa09b2a83d72292"
@@ -100283,6 +100492,9 @@
     "257c97ca6a242c08",
     "9041466861498a5a",
     "deb1a84c2748cbcf"
+  ],
+  "music-production": [
+    "b9157a3c0235139b"
   ],
   "music-programming-language": [
     "9155786318440235"
@@ -101288,7 +101500,8 @@
     "b075d6466cbb4b65",
     "b17fc5df8af30526",
     "d7dd70c3e7dd1d06",
-    "dd6d3541e212158f"
+    "dd6d3541e212158f",
+    "e601004084f81247"
   ],
   "neotest-adapter": [
     "7ea442d372463471",
@@ -101502,6 +101715,7 @@
     "a18642f17d68007c",
     "a1b20b7c72273745",
     "a24ebcd121ed9f0b",
+    "a395eb09af76ba5a",
     "a3dc2d1f3851ed29",
     "a6c98c2c51b8eb11",
     "a7451526b86e4d9e",
@@ -106348,6 +106562,7 @@
     "c1e5c549891b6e31",
     "c342054f00998792",
     "d4901d48f36e3a8b",
+    "d8911521201a6cb4",
     "df62a9ee6e3727fe",
     "ec8c4ba93ae56ff7",
     "f26f15c674feef1e"
@@ -106393,6 +106608,7 @@
     "1bcafae16bd54a3c",
     "23229e957c4079a9",
     "241cb4d74b7860ce",
+    "2731e66883c7dcd2",
     "28db2a7f04e8f2ee",
     "2c44ed394011de14",
     "344565cb9980bba4",
@@ -106484,6 +106700,7 @@
     "dc91d7092843516d",
     "e81cd28dbc5aef60",
     "ea3f33a92c841bce",
+    "ed144e4ecc1db602",
     "ed8587e2a31c32d6",
     "f0063d9417b7e3d0",
     "f47b2756ec2cc5c1",
@@ -107094,6 +107311,7 @@
     "00e48ef1ce2d0ddc",
     "01730fed33158624",
     "036fd9e731ccb27d",
+    "03cf7637e80c80d3",
     "03dd4cf65af54c48",
     "0aa8c03b8aad11c9",
     "0cd5359d87872aca",
@@ -108268,6 +108486,7 @@
     "7be286b2a2d27d61",
     "7ded006dfe3477d5",
     "83e43b5f24c4d6fe",
+    "85c6cc2121b84bfa",
     "87f68b77cbe086e3",
     "a30166222fb90b3c",
     "b9b670d2302c4874",
@@ -108303,7 +108522,9 @@
     "01bc40fcca30c930"
   ],
   "opencode": [
+    "4c7a73dc4fde67e6",
     "5c0d2d2899c3ccd4",
+    "718a9136f9f18b29",
     "73753850079a8152",
     "90386157d45cd7ee",
     "92f132f01ae7e8e0",
@@ -110463,6 +110684,7 @@
     "3b6e97fa662e6144",
     "3df74c2de217bb53",
     "45a27da81af08751",
+    "4783fed999bc24f9",
     "575f754dfe35b878",
     "62193c77093475e4",
     "6e5c71c03776d406",
@@ -110948,7 +111170,8 @@
     "730705a2161b91e2"
   ],
   "parsha": [
-    "6c1e1bfb5ffb60f2"
+    "6c1e1bfb5ffb60f2",
+    "8b0354203b5b8ed2"
   ],
   "parsing": [
     "1840205e4393e5b0",
@@ -114296,6 +114519,9 @@
   "post-exploitation": [
     "26160a36a3a6e4ba"
   ],
+  "post-gatekeeping-notifications-to-developer-repos": [
+    "fc7c2905f7331bba"
+  ],
   "post-it": [
     "617334f6a85706c2"
   ],
@@ -115043,6 +115269,7 @@
   "pr-conventional-commit-validation": [
     "33970d79c382479c",
     "3ccbad00e1747e67",
+    "745722318909b5f5",
     "85f930adb04a05d1",
     "a1a427c039a9dfb5",
     "e4a5e1775ed936ae"
@@ -117530,6 +117757,9 @@
   "promote-main-to-stable-branch": [
     "29a405745453cae7"
   ],
+  "promote-npm-dist-tag": [
+    "b8410ab294d61523"
+  ],
   "promote-release-candidate-docker-image": [
     "bedbaea6ec05c2b2"
   ],
@@ -117804,6 +118034,12 @@
   ],
   "prose": [
     "8e4133eb37e48a3e"
+  ],
+  "protect-e2e-anchor-issue": [
+    "55aec17f3261ecc6"
+  ],
+  "protect-labels-from-unauthorized-changes": [
+    "9a9e710efc6d5004"
   ],
   "protected-classes": [
     "12ede44cb320df11"
@@ -119242,6 +119478,9 @@
   "publish-hex-release": [
     "a62196cb40746549"
   ],
+  "publish-hexabot-packages": [
+    "0e79c36b86b53660"
+  ],
   "publish-idf-rust-tags": [
     "44941c73d820128c"
   ],
@@ -120182,6 +120421,7 @@
   ],
   "publish-to-npm": [
     "01ef7ddf879c8094",
+    "02a922de78f2a22a",
     "111a24741c9739f1",
     "1ab604d999098b5f",
     "201cb847695f3622",
@@ -120194,6 +120434,7 @@
     "48997e2bd045a037",
     "4fbd5d33dcaa1e89",
     "52557481848b4bf8",
+    "5649da1861b0db10",
     "5736b2dd794f0380",
     "5c0b86e5a45cbb1c",
     "6428b9e716bcc65b",
@@ -120218,6 +120459,7 @@
     "d7700a4e281f0519",
     "d8031d960e78f943",
     "d89fdc46331b9484",
+    "dc46d5c408476b6c",
     "e1f70642ba90aaa5",
     "e5b6682a2dcbe8d2",
     "f03f428ab9b8252a",
@@ -120229,6 +120471,9 @@
   "publish-to-npm-manual": [
     "1de33e384e4678e8",
     "36f33c305aa12e3a"
+  ],
+  "publish-to-npm-ssr": [
+    "8b4be4a37181f830"
   ],
   "publish-to-npmjs": [
     "377755c0b9a02e3a",
@@ -120313,6 +120558,7 @@
     "79523a2246b75736",
     "7f4f127355090ca3",
     "84cfad0525691d75",
+    "874ee58752b27420",
     "93e31402efa435e8",
     "96bffb97b37525db",
     "9ab25885588da15a",
@@ -120902,7 +121148,8 @@
     "0a788aeafd3abf10",
     "188512c459fe6245",
     "416b48054f495ab6",
-    "acf7b86f2dca8a35"
+    "acf7b86f2dca8a35",
+    "e2ff2f02a6b44bc2"
   ],
   "pull-request-verification": [
     "1cddca23e27571f3"
@@ -121044,6 +121291,7 @@
     "91b6822a1ced3f12",
     "9511a7377bca5641",
     "ba148be34ce09bad",
+    "c049783d1647fdf3",
     "e34c9cf6ea396302",
     "e52afbd640887461",
     "f91e5ca6d08137e5"
@@ -121284,6 +121532,7 @@
     "a875cf0e81b9dfb2",
     "ace9ded9563dd00d",
     "b80d701c2a0ae2f1",
+    "bfc301b884cc3c11",
     "c8148323b0b17292",
     "c936f931b175f46b",
     "cd7580f13bcf0361",
@@ -126437,6 +126686,9 @@
     "ce7861fecd962b6b",
     "d5fefd498e34cc60"
   ],
+  "relay-deploy-dev": [
+    "51d4c8691b783f9e"
+  ],
   "relay-hooks": [
     "08f7aab2b03a813a"
   ],
@@ -126463,6 +126715,7 @@
   ],
   "release": [
     "00223e10d7a75c7f",
+    "0025cbe1b2c2902f",
     "0053a8b2f02009bf",
     "0082a63f0401f7b9",
     "009c1ad2fd31cb74",
@@ -126733,6 +126986,7 @@
     "2c6780b6514c9469",
     "2c71ce2b298189b4",
     "2c91263dcf5d69d6",
+    "2cb28878b7350d9a",
     "2cccbc0b6e512a75",
     "2d43b854ea1b8cfe",
     "2dca69e9825808a7",
@@ -127182,6 +127436,7 @@
     "7a242bb39305ee3d",
     "7a2e7ea07e8e12ea",
     "7a5fd039b7cb7985",
+    "7a9b9e7a2e41889c",
     "7ab9742d6a7b62ae",
     "7aef2d8e6f1c9d62",
     "7af3efb9297ab3d5",
@@ -127565,6 +127820,7 @@
     "be07d791158c1032",
     "be088eeea87be217",
     "be0bb5fefca3bb79",
+    "be0e5ec862523501",
     "be148c3bef7570e2",
     "be31320261f9591c",
     "be4f088cfd1f1fe6",
@@ -127692,6 +127948,7 @@
     "d25975cbd11bc3b6",
     "d2a5f58f911df95b",
     "d2fead2eec3f2a24",
+    "d36f5ce04f84f9e4",
     "d3c84f657683ee6e",
     "d3d415ecdbeb856f",
     "d3f74bfcc442b2f8",
@@ -127875,6 +128132,7 @@
     "f0eb42e1975d2064",
     "f0fb626942b682dd",
     "f0feb21719238602",
+    "f169aab044544dae",
     "f1ebdd484a7c8210",
     "f231f85356d10897",
     "f2507488643b8dcc",
@@ -128729,6 +128987,9 @@
     "3d56c6f0125e105b",
     "dcb35f6c78aad560"
   ],
+  "release-macos-menubar": [
+    "736bbd0155e8404b"
+  ],
   "release-main": [
     "a0b10203a8dab0c4",
     "d518cc11faa96ae2",
@@ -129060,6 +129321,7 @@
     "495137e11c98524f",
     "499323fa98ea5c2e",
     "4c030d0b6158b082",
+    "50c3b0485a3b0b93",
     "512afc00dce0ec47",
     "561e73703656e10d",
     "56678e04ed972f07",
@@ -129194,6 +129456,7 @@
     "0e2d2e9715d268a4",
     "1525dd55afde387c",
     "35ecb7a32e77cd76",
+    "45f76bbe0b16d7c3",
     "77e23b358f99a6d8",
     "94c070aba2004b37",
     "af203f227cdfd895",
@@ -129714,6 +129977,9 @@
   "remote-debug": [
     "275327cfc2e9fb61"
   ],
+  "remote-deploy-dev": [
+    "6fa4b35a8b0cfc2b"
+  ],
   "remote-desktop": [
     "88387003fc15f581"
   ],
@@ -129983,6 +130249,7 @@
   ],
   "renovate": [
     "4cedec1b4345139c",
+    "d26872bb2de5a681",
     "ddcba89f8480967e",
     "e578ee3256c60bfb"
   ],
@@ -130755,6 +131022,12 @@
   "responsive-to-issue-tickets": [
     "60a4fd9e7f735961"
   ],
+  "resseract": [
+    "48798fea016e9f41"
+  ],
+  "resseract-lite": [
+    "c0d2c9a4bb4b03c2"
+  ],
   "rest": [
     "06b8924f4d3777ae",
     "0b60ebcedcb2eb73",
@@ -131121,6 +131394,9 @@
   ],
   "reusable-docker-image-build": [
     "82cad68fa9972a67"
+  ],
+  "reusable-e2e-test": [
+    "6d5e79a53904e36c"
   ],
   "reusable-go-build-workflow": [
     "728d3b3bd063c263"
@@ -133571,6 +133847,9 @@
   ],
   "run-fa2-related-unit-tests": [
     "0a24efd8c66ff6ff"
+  ],
+  "run-fake-strategist": [
+    "28cadd1ef5e86995"
   ],
   "run-flake-checks": [
     "f9408dbbc3eb6e76"
@@ -137324,7 +137603,8 @@
   ],
   "second-brain": [
     "50bc73b0d25a59fb",
-    "6bebb323dce5f557"
+    "6bebb323dce5f557",
+    "c12c8e6262f1323c"
   ],
   "secops": [
     "7841a3ef45b3180d"
@@ -137802,6 +138082,9 @@
     "ae28f4c8a61423f1",
     "be95e01ccd56539d",
     "dc4383b199326513"
+  ],
+  "security-scanners": [
+    "a54f20b3992a3d55"
   ],
   "security-scanning": [
     "46782e6b3160ba61",
@@ -138947,6 +139230,9 @@
   "serif": [
     "d1158325aa9265ca"
   ],
+  "serveless": [
+    "bfad9e52458d2e9a"
+  ],
   "server": [
     "04c26740d01fddfe",
     "217f8585d63789c2",
@@ -139690,6 +139976,7 @@
     "e08aee4200dc4ac7",
     "e17cfab936c6ffff",
     "e21d49545bb174d7",
+    "e296ce5b652fb050",
     "e349f74f3f067c80",
     "e6976d3d5ea5eff9",
     "e8fed47658e41c25",
@@ -140656,6 +140943,7 @@
     "54b3efef1249e3ef",
     "56fdbd21167fba52",
     "6e8cfede5f1259f8",
+    "7ae107b9065b3b19",
     "7e8324029947cd51",
     "9adef701e572738f",
     "a16c96ba65db8d0d",
@@ -140663,9 +140951,13 @@
     "a538e326289de82e",
     "b4b1d5a444b2a407",
     "b51ed469f9e1202c",
+    "b5c6265b7eeb896e",
     "b6ba844975228dbd",
     "c4baf4a8c3a327ec",
     "db7a7ea6ae2df7df"
+  ],
+  "skills-check": [
+    "418343025eb60e34"
   ],
   "skills-e2e": [
     "853aefe80833f7d0"
@@ -140888,6 +141180,7 @@
   ],
   "slice": [
     "19477c604633763c",
+    "8880bf487cc7a12f",
     "cfc0fbffb66c1667"
   ],
   "slick": [
@@ -142003,6 +142296,8 @@
     "232a26b688c208ce",
     "2793f21b4c110aa8",
     "4564425ea73d2d82",
+    "5b7f3097b4700e5a",
+    "727161f4611e251c",
     "7fad4751ce758e10",
     "8e01e3d20dc7e306",
     "c925a2e07e1bcc92"
@@ -142654,6 +142949,7 @@
     "49eb38e5759713cf",
     "5e8ef3d90bcbf09d",
     "60eb972aae4c4ea0",
+    "789f8046acf00617",
     "7a10b2dbf2945fee",
     "7e48128db2f40b52",
     "8bea56fc332f8af8",
@@ -144535,6 +144831,7 @@
     "3bf10164d62e977a",
     "3f765ffda25cd812",
     "4b34738c45263cce",
+    "4d2e4d4bf934f93a",
     "4fb1f9ab26be9598",
     "52987379e9e2e482",
     "542fda766a60f816",
@@ -146217,10 +146514,14 @@
     "1a9945fe40b1315e"
   ],
   "sunrise": [
-    "b94025dfcffbbe5f"
+    "69351542efd0ce72",
+    "b94025dfcffbbe5f",
+    "e89600815e1f8ec9"
   ],
   "sunset": [
-    "acc5e46ac83f38d8"
+    "acc5e46ac83f38d8",
+    "c89b0d5989a3ccb4",
+    "d22e72056c8027fb"
   ],
   "supabase": [
     "2bbe25ac91839771",
@@ -146424,6 +146725,7 @@
   ],
   "surge-pr-preview": [
     "148c83449a6f1140",
+    "6c479e259c46d363",
     "af884e47c2efec61"
   ],
   "surge.sh-preview": [
@@ -146886,6 +147188,7 @@
     "916982e56a516bf1",
     "978da422889b3547",
     "989561c66b4a522a",
+    "9d3d7892d3fb374a",
     "9f7fcb79cadcd2d1",
     "a417f750d8ec485e",
     "a7501bff3e6d6b10",
@@ -146930,6 +147233,7 @@
     "f3b24da4a4c7ae71",
     "f5918499e1fd5a83",
     "f9a3bb36c6d7ddf1",
+    "fb314ca99e23295b",
     "fbb60920e4201d10",
     "fd2b4795f12d5dbd",
     "fed5fe43b6c0da23"
@@ -147014,6 +147318,7 @@
     "078b0d5dec5186e3",
     "379b159566372b6b",
     "39e9dd336150db4c",
+    "72544233681445b6",
     "9843a8c9b77bad48",
     "9bb30e76a6540c1f",
     "e9f5181346f2a9cb"
@@ -147766,6 +148071,7 @@
     "80217c80d38a000e"
   ],
   "synthesizer": [
+    "01db4f32b43e06de",
     "931d68a583374457"
   ],
   "synthetic": [
@@ -148152,6 +148458,7 @@
     "87d147b2e7348721",
     "92c90f8d72a4a91c",
     "95460166d3a2c1fd",
+    "a40a338e69a364a2",
     "ba3b7a234fae9079",
     "bdadd1b7af28fd92",
     "bfcdb1f9c3ff013b",
@@ -148553,6 +148860,7 @@
     "e4461b701f85bc31"
   ],
   "talking-head": [
+    "3115813093f5ee17",
     "c1e19abd7f48b15e",
     "d5752fb8515a9663"
   ],
@@ -148683,6 +148991,7 @@
   ],
   "task-manager": [
     "00fd7eb0d24d93d3",
+    "4822decf2a812c9b",
     "9fd2eda353b44a1b",
     "b5bb2e38583d5f57"
   ],
@@ -149779,6 +150088,7 @@
   ],
   "terminal-ui": [
     "4963019dec6bd9d6",
+    "b45febd8f6fe7031",
     "ea43df8ed4f82d56"
   ],
   "terminal-user-interface": [
@@ -150142,6 +150452,7 @@
     "287c45f93fc9ea49",
     "289a11c39024d754",
     "28dee151461d3bae",
+    "28e85762de9bba05",
     "2927bd5d9ee4bb60",
     "293c4edb40a750d4",
     "29d597e78cfbad3e",
@@ -151550,7 +151861,8 @@
     "83d86eb2ba429f41"
   ],
   "test-docker-builds": [
-    "693f593aac1559fa"
+    "693f593aac1559fa",
+    "c7b46b27e0943ff5"
   ],
   "test-docker-image": [
     "6440149e8c158a7e",
@@ -151929,6 +152241,9 @@
     "5684db56a9508a9a",
     "70601f02ffc7d96c"
   ],
+  "test-llm-ai-node.js-templates": [
+    "c794b690faf53c73"
+  ],
   "test-luarocks-release": [
     "fe67018ca4399e32"
   ],
@@ -152034,6 +152349,9 @@
   "test-nle-pypi-package": [
     "e7564471203034b4",
     "fb01b0ce3ed60b1d"
+  ],
+  "test-node.js-templates": [
+    "0f9f7421e36597e5"
   ],
   "test-nodejs": [
     "3cf8a1dcfd806f18"
@@ -152475,6 +152793,7 @@
     "5db7ae30c83edd91"
   ],
   "test-templates": [
+    "4c17fe72d1a131c1",
     "bd6e8a50e74a1a6a"
   ],
   "test-tests": [
@@ -155350,6 +155669,9 @@
   "token-pruning": [
     "8fb0ab514433367e"
   ],
+  "token-usage": [
+    "8b442ff81241ca70"
+  ],
   "tokenization": [
     "0f3c695d1dca4f7a",
     "66435d5ec2250bd8",
@@ -155445,6 +155767,7 @@
     "0596207bbbaee350",
     "068a41a42fd6ea47",
     "092787c3645f6b79",
+    "14e09631d8222597",
     "185f3b740f415ce0",
     "1d415b0e5541d96b",
     "22d8f8337ce6300e",
@@ -159032,6 +159355,7 @@
   ],
   "unit-tests": [
     "074df6fb42949c5f",
+    "0af3a52641935c54",
     "0f3ca808f4320a7a",
     "109b8be3993ae2e2",
     "113e6e2901d72c92",
@@ -159129,6 +159453,7 @@
     "d27b4b385a5baf1b",
     "d5b2e175b064709a",
     "d90c964c4a668ca3",
+    "d9d125f68b44021c",
     "dae16c2fe32fe342",
     "dd974f4ca6ed6c5a",
     "de8efe2032ce67cf",
@@ -160173,6 +160498,9 @@
   "update-install-stats": [
     "aeb2906d13641bbe"
   ],
+  "update-integration-hub": [
+    "d424609bb874a800"
+  ],
   "update-inventory": [
     "036e5572ddd14e4e",
     "27c2d24cad79420e",
@@ -160266,6 +160594,9 @@
   ],
   "update-model-info": [
     "fd9e9ccc39973288"
+  ],
+  "update-new-issue": [
+    "36ac0cc1b144b64d"
   ],
   "update-news-in-readme": [
     "4e0c387f4f43f40a"
@@ -161828,6 +162159,9 @@
   "validate-license-exceptions": [
     "500bf0acf0042d98"
   ],
+  "validate-links": [
+    "7f653fddd0f495eb"
+  ],
   "validate-local-file": [
     "5c89ebb7828e7f3f"
   ],
@@ -162864,6 +163198,9 @@
     "305ac1d7d557a4e4",
     "f10ad5833dea5bce"
   ],
+  "version-docs": [
+    "cff6c81dde230443"
+  ],
   "version-manager": [
     "0666dc7f4892f295",
     "1136b194e5518f77",
@@ -163569,6 +163906,7 @@
   ],
   "viewer": [
     "34340e0feb86f474",
+    "aca540fef6182900",
     "dc354229e3c2b9c7",
     "e927a3990fbef7f2",
     "f75b1c1183e3bdd3",
@@ -164567,9 +164905,13 @@
     "b65af47ae59d850b",
     "daa3fd65eda1c4d3"
   ],
+  "visualisations": [
+    "69134e32e48c5d07"
+  ],
   "visualization": [
     "00db98bb02e620a5",
     "06f6ff05c8a1bc63",
+    "07aaab7b989d64ba",
     "0c7e54711099d9be",
     "0cecc7c4daad760f",
     "0e7c9901e33db46b",
@@ -164585,11 +164927,13 @@
     "311e6e0e6a28076a",
     "3194491028eee50a",
     "35223c581bcdedee",
+    "3553c86ffe4f088d",
     "3a82e82a6e0bf31c",
     "3facf5f0a7e6941f",
     "40cfaaa4de487529",
     "4162a2f2fe2f8e01",
     "44f1d8fd7e2eaa45",
+    "4adc6b3de44ca817",
     "4b1f9c45cc5789a8",
     "4c9bc9c3f57908fb",
     "514fa6017b132415",
@@ -168927,6 +169271,7 @@
     "53730931cabbef5e",
     "53b053a40e483ac4",
     "5e38e511b073691b",
+    "63db8fa77aa6275b",
     "6ac6016caa218f8f",
     "6bb98bfee4466c49",
     "74c767b0cf35c69b",
@@ -169797,7 +170142,8 @@
     "fba0b0463fb4f5f9"
   ],
   "yahrzeit": [
-    "2810f07c2d1194a5"
+    "2810f07c2d1194a5",
+    "809ef6b28e5bfec5"
   ],
   "yaml": [
     "0653f175f3ed0ee6",
@@ -170637,10 +170983,13 @@
   ],
   "zman": [
     "ac49597fc8af730b",
-    "c07db6b1610921cf"
+    "c07db6b1610921cf",
+    "f36e63640889241c"
   ],
   "zmanim": [
     "27c0754216409189",
+    "388272719d05d899",
+    "6868f6491e94f4c0",
     "686f144d66182578",
     "c34f60532821cb45"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-11T21:09:15.413744+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2683
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Claude Code plugin: knowledge documentation workflow \u2014 index-topic, cross-link, build-taxonomy, version-doc primitives, with wiki/resource-library/process-docs/experiment-report variants.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Knowledge-Documentation-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Knowledge-Documentation-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-27T15:14:03Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-27T15:15:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

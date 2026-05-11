@@ -1363,6 +1363,18 @@
       "source_repo": "Naereen/StrapDown.js",
       "status": "candidate-context",
       "text": "[StrapDown.js](https://naereen.github.io/StrapDown.js/) is an awesome web script to write nice-looking webpages in pure Markdown, with no server side compilation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agenticnotetaking/arscontexta",
+      "status": "candidate-context",
+      "text": "Claude Code plugin that generates individualized knowledge systems from conversation. You describe how you think and work, have a conversation and get a complete second brain as markdown files you own."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agenticnotetaking/arscontexta",
+      "status": "candidate-context",
+      "text": "**A second brain for your agent.**"
     }
   ],
   "candidate_glosses": [
@@ -2043,6 +2055,12 @@
       "source_repo": "Naereen/StrapDown.js",
       "status": "candidate",
       "text": "[StrapDown.js](https://naereen.github.io/StrapDown.js/) is an awesome web script to write nice-looking webpages in pure Markdown, with no server side compilation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agenticnotetaking/arscontexta",
+      "status": "candidate",
+      "text": "**A second brain for your agent.**"
     }
   ],
   "candidate_related_terms": [
@@ -3532,11 +3550,41 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": null,
       "source_repo": "mixmark-io/turndown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "mixmark-io/turndown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "agenticnotetaking/arscontexta"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

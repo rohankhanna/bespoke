@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A curated list of awesome commands, files, and workflows for Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Protect Labels from Unauthorized Changes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Protect Labels from Unauthorized Changes"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45086,
+      "status": "candidate",
+      "text": "card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43548,
+      "status": "candidate",
+      "text": "lock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33122,
+      "status": "candidate",
+      "text": "housing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32922,
+      "status": "candidate",
+      "text": "pat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32922,
+      "status": "candidate",
+      "text": "reduce"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Protect Labels from Unauthorized Changes",
+      "sense_id": "protect-labels-from-unauthorized-changes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "protect-labels-from-unauthorized-changes",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "protect-labels-from-unauthorized-changes",
+  "observation_id": "9a9e710efc6d5004",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-11T18:44:26.583561+00:00",
+  "observed_text": "Protect Labels from Unauthorized Changes",
+  "source_context_snippet": "Protect Labels from Unauthorized Changes",
+  "source_file": ".github/workflows/protect-labels.yml",
+  "source_repo": "thedotmack/awesome-claude-code",
+  "source_repo_description": "A curated list of awesome commands, files, and workflows for Claude Code"
+}

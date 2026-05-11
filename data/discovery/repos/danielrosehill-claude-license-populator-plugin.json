@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-11T21:09:16.537030+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1477
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "danielrosehill/Claude-License-Populator-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-License-Populator-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-30T20:03:07Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-30T20:03:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

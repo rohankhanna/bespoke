@@ -347,11 +347,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T17:30:12.042206+00:00",
+  "fetched_at": "2026-05-11T20:04:41.260388+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 31727
+      "size": 32119
     },
     {
       "path": ".github/workflows/amd-mi200.yml",
@@ -399,7 +399,7 @@
     "full_name": "deepspeedai/DeepSpeed",
     "html_url": "https://github.com/deepspeedai/DeepSpeed",
     "language": "Python",
-    "pushed_at": "2026-05-11T04:24:00Z",
+    "pushed_at": "2026-05-11T19:44:29Z",
     "stargazers_count": 42311,
     "topics": [
       "billion-parameters",
@@ -416,7 +416,7 @@
       "trillion-parameters",
       "zero"
     ],
-    "updated_at": "2026-05-11T15:06:28Z"
+    "updated_at": "2026-05-11T19:44:32Z"
   },
   "repo_links": [
     {

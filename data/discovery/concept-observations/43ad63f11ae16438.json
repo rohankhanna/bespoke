@@ -48,7 +48,7 @@
   "normalized_form": "nightly-ci",
   "observation_id": "43ad63f11ae16438",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_at": "2026-05-11T18:44:26.583561+00:00",
   "observed_text": "nightly-ci",
   "source_context_snippet": "nightly-ci",
   "source_file": ".github/workflows/nightly.yaml",

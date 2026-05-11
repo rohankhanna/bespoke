@@ -1,0 +1,375 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "mosheberman/koshercocoa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "sternbach-software/kosherkotlin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "pinnymz/ruby-zmanim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "nafg/jewish-date",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "Swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "calendar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "calendars",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "daf-yomi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "dawn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "dusk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "hebrew-calendar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "hebrew-date",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "jewish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "jewish-calendar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "jewish-holidays",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "judaism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "parsha",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "sunrise",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "sunset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "swift5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "yahrzeit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "zman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Elyahu41/KosherSwift",
+      "target": "zmanim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T21:09:25.677367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10369
+    },
+    {
+      "path": ".github/workflows/swift.yml",
+      "size": 431
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "KosherJava Zmanim API / Library ported to Swift. KosherJava is a library used to calculate astronomical and religious dates and times based on your location.",
+    "fork": false,
+    "full_name": "Elyahu41/KosherSwift",
+    "html_url": "https://github.com/Elyahu41/KosherSwift",
+    "language": "Swift",
+    "pushed_at": "2026-05-07T01:38:19Z",
+    "stargazers_count": 14,
+    "topics": [
+      "calendar",
+      "calendars",
+      "daf-yomi",
+      "dawn",
+      "dusk",
+      "hebrew-calendar",
+      "hebrew-date",
+      "jewish",
+      "jewish-calendar",
+      "jewish-holidays",
+      "judaism",
+      "parsha",
+      "sunrise",
+      "sunset",
+      "swift",
+      "swift5",
+      "yahrzeit",
+      "zman",
+      "zmanim"
+    ],
+    "updated_at": "2026-05-07T01:35:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mosheberman/koshercocoa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nafg/jewish-date",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pinnymz/ruby-zmanim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sternbach-software/kosherkotlin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Swift",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift.yml",
+      "term": "Swift"
+    },
+    {
+      "context_snippet": "KosherSwift Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "calendar"
+    },
+    {
+      "context_snippet": "KosherSwift Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "calendars"
+    },
+    {
+      "context_snippet": "KosherSwift Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "daf-yomi"
+    },
+    {
+      "context_snippet": "KosherSwift Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dawn"
+    },
+    {
+      "context_snippet": "KosherSwift Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dusk"
+    },
+    {
+      "context_snippet": "KosherSwift Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hebrew-calendar"
+    },
+    {
+      "context_snippet": "KosherSwift Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hebrew-date"
+    },
+    {
+      "context_snippet": "KosherSwift Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jewish"
+    },
+    {
+      "context_snippet": "KosherSwift Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jewish-calendar"
+    },
+    {
+      "context_snippet": "KosherSwift Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jewish-holidays"
+    },
+    {
+      "context_snippet": "KosherSwift Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "judaism"
+    },
+    {
+      "context_snippet": "KosherSwift Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parsha"
+    },
+    {
+      "context_snippet": "KosherSwift Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sunrise"
+    },
+    {
+      "context_snippet": "KosherSwift Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sunset"
+    },
+    {
+      "context_snippet": "KosherSwift Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "KosherSwift Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift5"
+    },
+    {
+      "context_snippet": "KosherSwift Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yahrzeit"
+    },
+    {
+      "context_snippet": "KosherSwift Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zman"
+    },
+    {
+      "context_snippet": "KosherSwift Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zmanim"
+    }
+  ]
+}

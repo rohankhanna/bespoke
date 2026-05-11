@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-11T21:10:33.826181+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repository for \"Survey on AI Memory: Theories, Taxonomies, Evaluations, and Emerging Trends\". ",
+    "fork": false,
+    "full_name": "BAI-LAB/Survey-on-AI-Memory",
+    "html_url": "https://github.com/BAI-LAB/Survey-on-AI-Memory",
+    "language": null,
+    "pushed_at": "2026-03-30T06:28:13Z",
+    "stargazers_count": 93,
+    "topics": [],
+    "updated_at": "2026-05-11T07:46:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

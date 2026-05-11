@@ -1,0 +1,17 @@
+{
+  "component": "taiki-e/cache-cargo-install-action@34ce5120836e5f9f1508d8713d7fdea0e8facd6f",
+  "first_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "BloopAI/vibe-kanban"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/relay-deploy-prod.yml",
+      "source_repo": "BloopAI/vibe-kanban"
+    }
+  ]
+}

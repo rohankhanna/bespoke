@@ -298,6 +298,18 @@
       "source_repo": "php-toolkit/sys-utils",
       "status": "candidate-context",
       "text": "Tag-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/aidlc-workflows",
+      "status": "candidate-context",
+      "text": "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/aidlc-workflows",
+      "status": "candidate-context",
+      "text": "Tag Release"
     }
   ],
   "candidate_glosses": [
@@ -444,6 +456,12 @@
       "source_repo": "php-toolkit/sys-utils",
       "status": "candidate",
       "text": "Tag-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/aidlc-workflows",
+      "status": "candidate",
+      "text": "Tag Release"
     }
   ],
   "candidate_related_terms": [
@@ -637,11 +655,17 @@
       "observed_at": "2026-05-09T06:51:24.890752+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "php-toolkit/sys-utils"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/tag-on-merge.yml",
+      "source_repo": "awslabs/aidlc-workflows"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T06:51:24.890752+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

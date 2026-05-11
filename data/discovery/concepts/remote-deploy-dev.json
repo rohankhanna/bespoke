@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Remote Deploy Dev"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BloopAI/vibe-kanban",
+      "status": "candidate-context",
+      "text": "Get 10X more out of Claude Code, Codex or any coding agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BloopAI/vibe-kanban",
+      "status": "candidate-context",
+      "text": "Remote Deploy Dev"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BloopAI/vibe-kanban",
+      "status": "candidate",
+      "text": "Remote Deploy Dev"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22593,
+      "status": "candidate",
+      "text": "young"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19743,
+      "status": "candidate",
+      "text": "less"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "eire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14306,
+      "status": "candidate",
+      "text": "achondroplasia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14306,
+      "status": "candidate",
+      "text": "auxin"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Remote Deploy Dev",
+  "concept_id": "remote-deploy-dev",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/remote-deploy-dev.yml",
+      "source_repo": "BloopAI/vibe-kanban"
+    }
+  ],
+  "first_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Remote Deploy Dev",
+      "sense_id": "remote-deploy-dev#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

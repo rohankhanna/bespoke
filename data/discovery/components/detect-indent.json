@@ -1,7 +1,7 @@
 {
   "component": "detect-indent",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -57,6 +57,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "SilentVoid13/Templater"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apify/apify-cli"
     }
   ]
 }

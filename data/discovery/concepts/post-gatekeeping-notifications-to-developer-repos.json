@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Post Gatekeeping Notifications to Developer Repos"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "status": "candidate-context",
+      "text": "A curated list of awesome commands, files, and workflows for Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "status": "candidate-context",
+      "text": "Post Gatekeeping Notifications to Developer Repos"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedotmack/awesome-claude-code",
+      "status": "candidate",
+      "text": "Post Gatekeeping Notifications to Developer Repos"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26430,
+      "status": "candidate",
+      "text": "cupola"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23450,
+      "status": "candidate",
+      "text": "reporting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22308,
+      "status": "candidate",
+      "text": "autonomy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22308,
+      "status": "candidate",
+      "text": "freeze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22308,
+      "status": "candidate",
+      "text": "settled"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Post Gatekeeping Notifications to Developer Repos",
+  "concept_id": "post-gatekeeping-notifications-to-developer-repos",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/post-gatekeeping-notifications.yml",
+      "source_repo": "thedotmack/awesome-claude-code"
+    }
+  ],
+  "first_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Post Gatekeeping Notifications to Developer Repos",
+      "sense_id": "post-gatekeeping-notifications-to-developer-repos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

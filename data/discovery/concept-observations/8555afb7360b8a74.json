@@ -120,7 +120,7 @@
   "normalized_form": "cargo",
   "observation_id": "8555afb7360b8a74",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_at": "2026-05-11T18:44:26.583561+00:00",
   "observed_text": "Cargo",
   "source_context_snippet": "Cargo",
   "source_file": ".github/workflows/cargo.yml",

@@ -277,6 +277,18 @@
       "source_repo": "heshengtao/super-agent-party",
       "status": "candidate-context",
       "text": "![image](static/source/cover.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kepano/obsidian-skills",
+      "status": "candidate-context",
+      "text": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/obsidian-skills",
+      "status": "candidate-context",
+      "text": "Agent Skills for use with Obsidian."
     }
   ],
   "candidate_glosses": [
@@ -411,6 +423,12 @@
       "source_repo": "heshengtao/super-agent-party",
       "status": "candidate",
       "text": "![image](static/source/cover.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/obsidian-skills",
+      "status": "candidate",
+      "text": "Agent Skills for use with Obsidian."
     }
   ],
   "candidate_related_terms": [],
@@ -790,11 +808,23 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": null,
       "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "kepano/obsidian-skills"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

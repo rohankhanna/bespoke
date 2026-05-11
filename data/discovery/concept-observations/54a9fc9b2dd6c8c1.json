@@ -84,7 +84,7 @@
   "normalized_form": "lint-and-format-check",
   "observation_id": "54a9fc9b2dd6c8c1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_at": "2026-05-11T18:44:26.583561+00:00",
   "observed_text": "Lint and Format Check",
   "source_context_snippet": "Lint and Format Check",
   "source_file": ".github/workflows/lint-format.yml",

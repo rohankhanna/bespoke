@@ -75,6 +75,30 @@
       "source_repo": "wighawag/hardhat-deploy",
       "status": "candidate-context",
       "text": "opencode"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kelos-dev/kelos",
+      "status": "candidate-context",
+      "text": "Kelos - The Kubernetes-native framework for orchestrating autonomous AI coding agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kelos-dev/kelos",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Kelos</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kepano/obsidian-skills",
+      "status": "candidate-context",
+      "text": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/obsidian-skills",
+      "status": "candidate-context",
+      "text": "Agent Skills for use with Obsidian."
     }
   ],
   "candidate_glosses": [
@@ -113,6 +137,18 @@
       "source_repo": "wighawag/hardhat-deploy",
       "status": "candidate",
       "text": "opencode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kelos-dev/kelos",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Kelos</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/obsidian-skills",
+      "status": "candidate",
+      "text": "Agent Skills for use with Obsidian."
     }
   ],
   "candidate_related_terms": [],
@@ -168,11 +204,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/opencode.yml",
       "source_repo": "wighawag/hardhat-deploy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "kelos-dev/kelos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "kepano/obsidian-skills"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

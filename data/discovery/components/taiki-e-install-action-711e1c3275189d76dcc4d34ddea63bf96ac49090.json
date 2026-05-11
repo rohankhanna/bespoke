@@ -1,7 +1,7 @@
 {
   "component": "taiki-e/install-action@711e1c3275189d76dcc4d34ddea63bf96ac49090",
   "first_seen_at": "2026-05-06T18:41:14.951242+00:00",
-  "last_seen_at": "2026-05-06T18:41:14.951242+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/mdbook.yml",
       "source_repo": "agentclientprotocol/rust-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "UnknownPlatypus/djangofmt"
     }
   ]
 }

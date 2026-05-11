@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -101,6 +101,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "deepset-ai/haystack-integrations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "antvis/chart-visualization-skills"
     }
   ],
   "term": "ai-tools"

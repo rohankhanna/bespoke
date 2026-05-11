@@ -19,6 +19,30 @@
       "source_repo": "KosherJava/zmanim",
       "status": "candidate-context",
       "text": "KosherJava Zmanim API"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Elyahu41/KosherSwift",
+      "status": "candidate-context",
+      "text": "KosherJava Zmanim API / Library ported to Swift. KosherJava is a library used to calculate astronomical and religious dates and times based on your location."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Elyahu41/KosherSwift",
+      "status": "candidate-context",
+      "text": "KosherSwift Zmanim API"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MosheBerman/KosherCocoa",
+      "status": "candidate-context",
+      "text": "My Objective-C port of KosherJava. KosherCocoa enables you to perform sunrise-based and sunset-based calculations for Jewish prayer and calendar."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MosheBerman/KosherCocoa",
+      "status": "candidate-context",
+      "text": "KosherCocoa"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "KosherJava/zmanim",
       "status": "candidate",
       "text": "KosherJava Zmanim API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Elyahu41/KosherSwift",
+      "status": "candidate",
+      "text": "KosherSwift Zmanim API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MosheBerman/KosherCocoa",
+      "status": "candidate",
+      "text": "KosherCocoa"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +127,23 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": null,
       "source_repo": "KosherJava/zmanim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "Elyahu41/KosherSwift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "MosheBerman/KosherCocoa"
     }
   ],
   "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -187,6 +187,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lint_pr_title.yml",
       "source_repo": "kelektiv/node-cron"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-lint.yml",
+      "source_repo": "awslabs/aidlc-workflows"
     }
   ]
 }

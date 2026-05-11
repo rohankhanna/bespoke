@@ -1,0 +1,310 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite",
+      "target": "analystics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite",
+      "target": "charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite",
+      "target": "custom-dashboards",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite",
+      "target": "data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite",
+      "target": "data-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite",
+      "target": "diverse-data-sources",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite",
+      "target": "expression-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite",
+      "target": "geochart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite",
+      "target": "geocharts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite",
+      "target": "interactive-data-exploration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite",
+      "target": "light-weight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite",
+      "target": "lightweight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite",
+      "target": "resseract",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite",
+      "target": "resseract-lite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite",
+      "target": "slice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite",
+      "target": "tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite",
+      "target": "visualisations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T21:09:36.105601+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7267
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Data Analytics Tool with flexible architecture to visualize and analyse data",
+    "fork": false,
+    "full_name": "abistarun/resseract-lite",
+    "html_url": "https://github.com/abistarun/resseract-lite",
+    "language": "Java",
+    "pushed_at": "2024-08-24T08:54:25Z",
+    "stargazers_count": 7,
+    "topics": [
+      "analystics",
+      "charts",
+      "custom-dashboards",
+      "data",
+      "data-science",
+      "data-visualization",
+      "diverse-data-sources",
+      "expression-language",
+      "geochart",
+      "geocharts",
+      "interactive-data-exploration",
+      "light-weight",
+      "lightweight",
+      "monitoring",
+      "resseract",
+      "resseract-lite",
+      "slice",
+      "tool",
+      "visualisations",
+      "visualization"
+    ],
+    "updated_at": "2025-07-24T12:23:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analystics"
+    },
+    {
+      "context_snippet": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "charts"
+    },
+    {
+      "context_snippet": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "custom-dashboards"
+    },
+    {
+      "context_snippet": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data"
+    },
+    {
+      "context_snippet": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-visualization"
+    },
+    {
+      "context_snippet": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diverse-data-sources"
+    },
+    {
+      "context_snippet": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expression-language"
+    },
+    {
+      "context_snippet": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geochart"
+    },
+    {
+      "context_snippet": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geocharts"
+    },
+    {
+      "context_snippet": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interactive-data-exploration"
+    },
+    {
+      "context_snippet": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "light-weight"
+    },
+    {
+      "context_snippet": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightweight"
+    },
+    {
+      "context_snippet": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "context_snippet": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resseract"
+    },
+    {
+      "context_snippet": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resseract-lite"
+    },
+    {
+      "context_snippet": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slice"
+    },
+    {
+      "context_snippet": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool"
+    },
+    {
+      "context_snippet": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualisations"
+    },
+    {
+      "context_snippet": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

@@ -84,7 +84,7 @@
   "normalized_form": "slinc-ci",
   "observation_id": "b1932f45ee09ed52",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_at": "2026-05-11T18:44:26.583561+00:00",
   "observed_text": "SLinC CI",
   "source_context_snippet": "SLinC CI",
   "source_file": ".github/workflows/ci.yml",

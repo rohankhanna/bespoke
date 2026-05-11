@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Test templates"
+    "Test templates",
+    "Test Templates"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "pulumi/templates",
       "status": "candidate-context",
       "text": "Test templates"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apify/actor-templates",
+      "status": "candidate-context",
+      "text": "This project is the :house: home of Apify Actor templates to help users quickly get started. Contributions welcome!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apify/actor-templates",
+      "status": "candidate-context",
+      "text": "Test Templates"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "pulumi/templates",
       "status": "candidate",
       "text": "Test templates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apify/actor-templates",
+      "status": "candidate",
+      "text": "Test Templates"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/test-templates.yml",
       "source_repo": "pulumi/templates"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/lint_and_test.yaml",
+      "source_repo": "apify/actor-templates"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

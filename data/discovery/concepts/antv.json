@@ -19,6 +19,18 @@
       "source_repo": "antvis/mcp-server-chart",
       "status": "candidate-context",
       "text": "A Model Context Protocol server for generating charts using [AntV](https://github.com/antvis/). We can use this mcp server for _chart generation_ and _data analysis_."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antvis/chart-visualization-skills",
+      "status": "candidate-context",
+      "text": "\u26cf\ufe0f Turning data into a visual language for better thinking with Skills."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antvis/chart-visualization-skills",
+      "status": "candidate-context",
+      "text": "> Turning data into a visual language for better thinking."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "antvis/mcp-server-chart",
       "status": "candidate",
       "text": "A Model Context Protocol server for generating charts using [AntV](https://github.com/antvis/). We can use this mcp server for _chart generation_ and _data analysis_."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antvis/chart-visualization-skills",
+      "status": "candidate",
+      "text": "> Turning data into a visual language for better thinking."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": null,
       "source_repo": "antvis/mcp-server-chart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "antvis/chart-visualization-skills"
     }
   ],
   "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "DavidAnson/markdownlint-cli2-action@6b51ade7a9e4a75a7ad929842dd298a3804ebe8b",
+  "first_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "awslabs/aidlc-workflows"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -56,6 +56,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "zytedata/zyte-smartproxy-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "apify/apify-cli"
     }
   ],
   "term": "puppeteer"

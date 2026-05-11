@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-11T21:10:49.376673+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 49963
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CORE-EEAT Content Benchmark: 8 dimensions \u00d7 10 items = 80 evaluation criteria for AI-era content visibility optimization (GEO + SEO)",
+    "fork": false,
+    "full_name": "aaron-he-zhu/core-eeat-content-benchmark",
+    "html_url": "https://github.com/aaron-he-zhu/core-eeat-content-benchmark",
+    "language": null,
+    "pushed_at": "2026-02-10T05:50:01Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2026-04-25T11:52:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -734,7 +734,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T16:25:35.531232+00:00",
+  "fetched_at": "2026-05-11T18:51:32.244399+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -746,7 +746,7 @@
     },
     {
       "path": "go.mod",
-      "size": 15089
+      "size": 15138
     },
     {
       "path": ".github/workflows/.dco.yml",
@@ -786,7 +786,7 @@
     "full_name": "moby/moby",
     "html_url": "https://github.com/moby/moby",
     "language": "Go",
-    "pushed_at": "2026-05-11T13:14:53Z",
+    "pushed_at": "2026-05-11T18:20:48Z",
     "stargazers_count": 71541,
     "topics": [
       "containers",
@@ -794,7 +794,7 @@
       "go",
       "golang"
     ],
-    "updated_at": "2026-05-11T14:53:53Z"
+    "updated_at": "2026-05-11T17:58:25Z"
   },
   "repo_links": [
     {

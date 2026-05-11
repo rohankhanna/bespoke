@@ -1,7 +1,7 @@
 {
   "component": "tempoxyz/ci/.github/workflows/deny.yml@d826fb9fa82dea979b841f4f9e3b8de4c0746612",
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

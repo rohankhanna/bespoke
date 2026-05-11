@@ -19,6 +19,18 @@
       "source_repo": "orhun/tuitar",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ad-si/awesome-music-production",
+      "status": "candidate-context",
+      "text": "A curated list of software, services, and resources to create and distribute music"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ad-si/awesome-music-production",
+      "status": "candidate-context",
+      "text": "{ \"devDependencies\": { \"markdown-toc\": \"^1.2.0\" } }"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "orhun/tuitar",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ad-si/awesome-music-production",
+      "status": "candidate",
+      "text": "{ \"devDependencies\": { \"markdown-toc\": \"^1.2.0\" } }"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "orhun/tuitar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "ad-si/awesome-music-production"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

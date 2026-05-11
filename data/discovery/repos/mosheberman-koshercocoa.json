@@ -1,0 +1,185 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MosheBerman/KosherCocoa",
+      "target": "calculations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MosheBerman/KosherCocoa",
+      "target": "calendar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MosheBerman/KosherCocoa",
+      "target": "cocoapods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MosheBerman/KosherCocoa",
+      "target": "hebrew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MosheBerman/KosherCocoa",
+      "target": "jewish-holidays",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MosheBerman/KosherCocoa",
+      "target": "judaism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MosheBerman/KosherCocoa",
+      "target": "koshercocoa-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MosheBerman/KosherCocoa",
+      "target": "objective-c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MosheBerman/KosherCocoa",
+      "target": "sunrise",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MosheBerman/KosherCocoa",
+      "target": "sunset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MosheBerman/KosherCocoa",
+      "target": "zmanim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T21:09:30.557732+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2833
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "My Objective-C port of KosherJava. KosherCocoa enables you to perform sunrise-based and sunset-based calculations for Jewish prayer and calendar.",
+    "fork": false,
+    "full_name": "MosheBerman/KosherCocoa",
+    "html_url": "https://github.com/MosheBerman/KosherCocoa",
+    "language": "Objective-C",
+    "pushed_at": "2024-12-01T20:39:46Z",
+    "stargazers_count": 8,
+    "topics": [
+      "calculations",
+      "calendar",
+      "cocoapods",
+      "hebrew",
+      "ios",
+      "jewish-holidays",
+      "judaism",
+      "koshercocoa-framework",
+      "objective-c",
+      "sunrise",
+      "sunset",
+      "zmanim"
+    ],
+    "updated_at": "2026-04-15T10:53:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "KosherCocoa",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "calculations"
+    },
+    {
+      "context_snippet": "KosherCocoa",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "calendar"
+    },
+    {
+      "context_snippet": "KosherCocoa",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cocoapods"
+    },
+    {
+      "context_snippet": "KosherCocoa",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hebrew"
+    },
+    {
+      "context_snippet": "KosherCocoa",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jewish-holidays"
+    },
+    {
+      "context_snippet": "KosherCocoa",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "judaism"
+    },
+    {
+      "context_snippet": "KosherCocoa",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "koshercocoa-framework"
+    },
+    {
+      "context_snippet": "KosherCocoa",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objective-c"
+    },
+    {
+      "context_snippet": "KosherCocoa",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sunrise"
+    },
+    {
+      "context_snippet": "KosherCocoa",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sunset"
+    },
+    {
+      "context_snippet": "KosherCocoa",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zmanim"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-11T21:10:48.319000+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 370
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1253
+    },
+    {
+      "path": "requirements.txt",
+      "size": 332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "step-audio service for UltraEvalAudio",
+    "fork": true,
+    "full_name": "UltraEval/Step-Audio",
+    "html_url": "https://github.com/UltraEval/Step-Audio",
+    "language": "Python",
+    "pushed_at": "2025-03-23T07:08:56Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-03-23T07:09:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

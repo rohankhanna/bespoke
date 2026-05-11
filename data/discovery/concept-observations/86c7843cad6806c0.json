@@ -84,7 +84,7 @@
   "normalized_form": "publish-to-crates.io",
   "observation_id": "86c7843cad6806c0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_at": "2026-05-11T18:44:26.583561+00:00",
   "observed_text": "Publish to crates.io",
   "source_context_snippet": "Publish to crates.io",
   "source_file": ".github/workflows/deploy.yml",

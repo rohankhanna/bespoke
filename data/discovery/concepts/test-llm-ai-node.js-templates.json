@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test LLM AI Node.js templates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apify/actor-templates",
+      "status": "candidate-context",
+      "text": "This project is the :house: home of Apify Actor templates to help users quickly get started. Contributions welcome!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apify/actor-templates",
+      "status": "candidate-context",
+      "text": "Test LLM AI Node.js templates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apify/actor-templates",
+      "status": "candidate",
+      "text": "Test LLM AI Node.js templates"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22304,
+      "status": "candidate",
+      "text": "reduce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22304,
+      "status": "candidate",
+      "text": "reduced"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16064,
+      "status": "candidate",
+      "text": "patterns"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14425,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14425,
+      "status": "candidate",
+      "text": "blot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test LLM AI Node.js templates",
+  "concept_id": "test-llm-ai-node.js-templates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/test_llm_ai_node_templates.yaml",
+      "source_repo": "apify/actor-templates"
+    }
+  ],
+  "first_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test LLM AI Node.js templates",
+      "sense_id": "test-llm-ai-node.js-templates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

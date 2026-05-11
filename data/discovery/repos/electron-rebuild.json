@@ -101,12 +101,12 @@
       "source_file": "package.json"
     },
     {
-      "component": "electron/github-app-auth-action@e14e47722ed120360649d0789e25b9baece12725",
+      "component": "electron/github-app-auth-action@5f70a3726af01b612f29aac96d05aa524389c9e9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/add-to-project.yml"
     },
     {
-      "component": "dsanders11/project-actions/add-item@5767984408ccc6742f83acc8b8d8ea5e09f329af",
+      "component": "dsanders11/project-actions/add-item@4b06452b0128cf601dac14399aa668a8eed2d684",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/add-to-project.yml"
     },
@@ -321,14 +321,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/add-to-project.yml",
       "source_repo": "electron/rebuild",
-      "target": "electron/github-app-auth-action@e14e47722ed120360649d0789e25b9baece12725",
+      "target": "electron/github-app-auth-action@5f70a3726af01b612f29aac96d05aa524389c9e9",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/add-to-project.yml",
       "source_repo": "electron/rebuild",
-      "target": "dsanders11/project-actions/add-item@5767984408ccc6742f83acc8b8d8ea5e09f329af",
+      "target": "dsanders11/project-actions/add-item@4b06452b0128cf601dac14399aa668a8eed2d684",
       "target_type": "component"
     },
     {
@@ -458,7 +458,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T16:25:47.971480+00:00",
+  "fetched_at": "2026-05-11T18:51:48.340842+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -498,10 +498,10 @@
     "full_name": "electron/rebuild",
     "html_url": "https://github.com/electron/rebuild",
     "language": "TypeScript",
-    "pushed_at": "2026-05-07T10:54:44Z",
+    "pushed_at": "2026-05-11T18:43:23Z",
     "stargazers_count": 1117,
     "topics": [],
-    "updated_at": "2026-05-07T10:54:47Z"
+    "updated_at": "2026-05-11T18:43:27Z"
   },
   "repo_links": [],
   "terms": [

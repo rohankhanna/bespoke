@@ -332,7 +332,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T17:33:05.068804+00:00",
+  "fetched_at": "2026-05-11T20:08:00.727263+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -380,7 +380,7 @@
     "full_name": "dkron-io/dkron",
     "html_url": "https://github.com/dkron-io/dkron",
     "language": "Go",
-    "pushed_at": "2026-05-11T17:21:33Z",
+    "pushed_at": "2026-05-11T17:57:55Z",
     "stargazers_count": 4688,
     "topics": [
       "cron",

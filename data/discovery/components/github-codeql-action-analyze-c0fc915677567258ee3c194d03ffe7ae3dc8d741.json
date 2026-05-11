@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/analyze@c0fc915677567258ee3c194d03ffe7ae3dc8d741",
+  "first_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "awslabs/aidlc-workflows"
+    }
+  ]
+}

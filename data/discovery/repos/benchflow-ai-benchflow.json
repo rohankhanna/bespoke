@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "benchflow-ai/benchflow",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "benchflow-ai/benchflow",
+      "target": "astral-sh/setup-uv@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "benchflow-ai/benchflow",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T21:11:08.775641+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5400
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3229
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 675
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Framework for creating high fidelity\u00a0and complex RL environments and evaluation tasks",
+    "fork": false,
+    "full_name": "benchflow-ai/benchflow",
+    "html_url": "https://github.com/benchflow-ai/benchflow",
+    "language": "Python",
+    "pushed_at": "2026-05-10T00:17:31Z",
+    "stargazers_count": 223,
+    "topics": [],
+    "updated_at": "2026-05-11T07:05:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    }
+  ]
+}

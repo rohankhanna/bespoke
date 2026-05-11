@@ -91,6 +91,18 @@
       "source_repo": "microsoft/mcp-for-beginners",
       "status": "candidate-context",
       "text": "![MCP-for-beginners](./images/mcp-beginners.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apify/mcpc",
+      "status": "candidate-context",
+      "text": "A universal CLI client for MCP. mcpc supports persistent sessions, stdio/HTTP, OAuth 2.1, tasks, JSON output for code mode, proxy for AI sandboxes, x402, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apify/mcpc",
+      "status": "candidate-context",
+      "text": "![mcpc logo](https://apify.github.io/mcpc/client-logo.svg?v=2)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "microsoft/mcp-for-beginners",
       "status": "candidate",
       "text": "![MCP-for-beginners](./images/mcp-beginners.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apify/mcpc",
+      "status": "candidate",
+      "text": "![mcpc logo](https://apify.github.io/mcpc/client-logo.svg?v=2)"
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +208,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "microsoft/mcp-for-beginners"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "apify/mcpc"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

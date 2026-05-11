@@ -36,20 +36,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kantv-ai/kantv",
-      "target": "kantv-ai/ffmpeg",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "kantv-ai/kantv",
-      "target": "google/exoplayer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "kantv-ai/kantv",
       "target": "ggerganov/whisper.cpp",
       "target_type": "repository"
     },
@@ -58,6 +44,13 @@
       "source_file": "README.md",
       "source_repo": "kantv-ai/kantv",
       "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kantv-ai/kantv",
+      "target": "zhouwg/ggml-hexagon",
       "target_type": "repository"
     },
     {
@@ -131,7 +124,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T16:26:33.808209+00:00",
+  "fetched_at": "2026-05-11T18:52:34.117408+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -176,12 +169,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "google/exoplayer",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kantv-ai/ffmpeg",
+      "full_name": "zhouwg/ggml-hexagon",
       "source_file": "README.md"
     }
   ],

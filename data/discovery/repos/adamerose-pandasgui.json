@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamerose/PandasGUI",
+      "target": "dataframe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamerose/PandasGUI",
+      "target": "pandas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamerose/PandasGUI",
+      "target": "viewer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T21:09:43.546896+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1774
+    },
+    {
+      "path": "requirements.txt",
+      "size": 173
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A GUI for Pandas DataFrames",
+    "fork": false,
+    "full_name": "adamerose/PandasGUI",
+    "html_url": "https://github.com/adamerose/PandasGUI",
+    "language": "Python",
+    "pushed_at": "2025-05-30T04:06:03Z",
+    "stargazers_count": 3262,
+    "topics": [
+      "dataframe",
+      "gui",
+      "pandas",
+      "viewer"
+    ],
+    "updated_at": "2026-05-02T15:23:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "- [About](#about)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataframe"
+    },
+    {
+      "context_snippet": "- [About](#about)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pandas"
+    },
+    {
+      "context_snippet": "- [About](#about)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "viewer"
+    }
+  ]
+}

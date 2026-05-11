@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2447,6 +2447,56 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release_to_winget.yml",
       "source_repo": "aandrew-me/ytDownloader"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "kelos-dev/kelos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-anchor.yaml",
+      "source_repo": "kelos-dev/kelos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fork-e2e.yaml",
+      "source_repo": "kelos-dev/kelos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/label.yaml",
+      "source_repo": "kelos-dev/kelos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/approve-resource-submission.yml",
+      "source_repo": "thedotmack/awesome-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-approve-submission.yml",
+      "source_repo": "thedotmack/awesome-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gatekeeping-automation.yml",
+      "source_repo": "thedotmack/awesome-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/notify-on-merge.yml",
+      "source_repo": "thedotmack/awesome-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/protect-labels.yml",
+      "source_repo": "thedotmack/awesome-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate-links.yml",
+      "source_repo": "thedotmack/awesome-claude-code"
     }
   ]
 }

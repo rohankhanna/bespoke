@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run Fake Strategist"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kelos-dev/kelos",
+      "status": "candidate-context",
+      "text": "Kelos - The Kubernetes-native framework for orchestrating autonomous AI coding agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kelos-dev/kelos",
+      "status": "candidate-context",
+      "text": "Run Fake Strategist"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kelos-dev/kelos",
+      "status": "candidate",
+      "text": "Run Fake Strategist"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26947,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22588,
+      "status": "candidate",
+      "text": "setup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22467,
+      "status": "candidate",
+      "text": "orderly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22467,
+      "status": "candidate",
+      "text": "smear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19106,
+      "status": "candidate",
+      "text": "strategic"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run Fake Strategist",
+  "concept_id": "run-fake-strategist",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/run-fake-strategist.yaml",
+      "source_repo": "kelos-dev/kelos"
+    }
+  ],
+  "first_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run Fake Strategist",
+      "sense_id": "run-fake-strategist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

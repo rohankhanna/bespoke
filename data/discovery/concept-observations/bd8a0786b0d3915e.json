@@ -84,7 +84,7 @@
   "normalized_form": "test-distribution",
   "observation_id": "bd8a0786b0d3915e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_at": "2026-05-11T18:44:26.583561+00:00",
   "observed_text": "Test Distribution",
   "source_context_snippet": "Test Distribution",
   "source_file": ".github/workflows/dist-test.yml",

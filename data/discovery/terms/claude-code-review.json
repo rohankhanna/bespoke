@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -316,6 +316,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/claude-code-review.yml",
       "source_repo": "langchain-ai/deep_research_from_scratch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "yakir8/kosher_dart"
     }
   ],
   "term": "Claude Code Review"

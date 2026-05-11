@@ -1450,6 +1450,24 @@
       "source_repo": "Kaiede/Bedrockifier",
       "status": "candidate-context",
       "text": "[![CI Status](https://github.com/Kaiede/Bedrockifier/actions/workflows/swift.yml/badge.svg)](https://github.com/Kaiede/Bedrockifier/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Elyahu41/KosherSwift",
+      "status": "candidate-context",
+      "text": "KosherJava Zmanim API / Library ported to Swift. KosherJava is a library used to calculate astronomical and religious dates and times based on your location."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Elyahu41/KosherSwift",
+      "status": "candidate-context",
+      "text": "Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Elyahu41/KosherSwift",
+      "status": "candidate-context",
+      "text": "KosherSwift Zmanim API"
     }
   ],
   "candidate_glosses": [
@@ -2184,6 +2202,18 @@
       "source_repo": "Kaiede/Bedrockifier",
       "status": "candidate",
       "text": "[![CI Status](https://github.com/Kaiede/Bedrockifier/actions/workflows/swift.yml/badge.svg)](https://github.com/Kaiede/Bedrockifier/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Elyahu41/KosherSwift",
+      "status": "candidate",
+      "text": "Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Elyahu41/KosherSwift",
+      "status": "candidate",
+      "text": "KosherSwift Zmanim API"
     }
   ],
   "candidate_related_terms": [
@@ -4297,11 +4327,65 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": null,
       "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "ggerganov/whisper.spm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/bow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "Elyahu41/KosherSwift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "Elyahu41/KosherSwift"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

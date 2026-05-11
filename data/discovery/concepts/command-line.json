@@ -1129,6 +1129,30 @@
       "source_repo": "jaywcjlove/linux-command",
       "status": "candidate-context",
       "text": "<div align=\"center\" markdown=\"1\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apify/apify-cli",
+      "status": "candidate-context",
+      "text": "Apify command-line interface helps you create, develop, build and run Apify Actors, and manage the Apify cloud platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apify/apify-cli",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://badge.fury.io/js/apify-cli.svg)](https://www.npmjs.com/package/apify-cli)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apify/mcpc",
+      "status": "candidate-context",
+      "text": "A universal CLI client for MCP. mcpc supports persistent sessions, stdio/HTTP, OAuth 2.1, tasks, JSON output for code mode, proxy for AI sandboxes, x402, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apify/mcpc",
+      "status": "candidate-context",
+      "text": "![mcpc logo](https://apify.github.io/mcpc/client-logo.svg?v=2)"
     }
   ],
   "candidate_glosses": [
@@ -1689,6 +1713,18 @@
       "source_repo": "jaywcjlove/linux-command",
       "status": "candidate",
       "text": "<div align=\"center\" markdown=\"1\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apify/apify-cli",
+      "status": "candidate",
+      "text": "[![NPM version](https://badge.fury.io/js/apify-cli.svg)](https://www.npmjs.com/package/apify-cli)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apify/mcpc",
+      "status": "candidate",
+      "text": "![mcpc logo](https://apify.github.io/mcpc/client-logo.svg?v=2)"
     }
   ],
   "candidate_related_terms": [
@@ -2826,11 +2862,41 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": null,
       "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "dat-ecosystem/dat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "apify/apify-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "apify/mcpc"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

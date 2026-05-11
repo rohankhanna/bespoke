@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Relay Prod"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BloopAI/vibe-kanban",
+      "status": "candidate-context",
+      "text": "Get 10X more out of Claude Code, Codex or any coding agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BloopAI/vibe-kanban",
+      "status": "candidate-context",
+      "text": "Deploy Relay Prod"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BloopAI/vibe-kanban",
+      "status": "candidate",
+      "text": "Deploy Relay Prod"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17962,
+      "status": "candidate",
+      "text": "thrid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17920,
+      "status": "candidate",
+      "text": "stirred"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17874,
+      "status": "candidate",
+      "text": "educate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17874,
+      "status": "candidate",
+      "text": "heat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17874,
+      "status": "candidate",
+      "text": "het"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Relay Prod",
+  "concept_id": "deploy-relay-prod",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/relay-deploy-prod.yml",
+      "source_repo": "BloopAI/vibe-kanban"
+    }
+  ],
+  "first_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Relay Prod",
+      "sense_id": "deploy-relay-prod#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

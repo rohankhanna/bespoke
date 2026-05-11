@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "component": "markdown-toc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ad-si/awesome-music-production",
+      "target": "markdown-toc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/awesome-music-production",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/awesome-music-production",
+      "target": "instrument",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/awesome-music-production",
+      "target": "midi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/awesome-music-production",
+      "target": "midi-controller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/awesome-music-production",
+      "target": "music",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/awesome-music-production",
+      "target": "music-production",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/awesome-music-production",
+      "target": "sound",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ad-si/awesome-music-production",
+      "target": "synthesizer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T21:09:40.945627+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 60
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A curated list of software, services, and resources to create and distribute music",
+    "fork": false,
+    "full_name": "ad-si/awesome-music-production",
+    "html_url": "https://github.com/ad-si/awesome-music-production",
+    "language": null,
+    "pushed_at": "2026-04-27T16:13:02Z",
+    "stargazers_count": 1393,
+    "topics": [
+      "audio",
+      "instrument",
+      "midi",
+      "midi-controller",
+      "mpe",
+      "music",
+      "music-production",
+      "sound",
+      "synthesizer"
+    ],
+    "updated_at": "2026-05-11T20:20:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "{ \"devDependencies\": { \"markdown-toc\": \"^1.2.0\" } }",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "{ \"devDependencies\": { \"markdown-toc\": \"^1.2.0\" } }",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instrument"
+    },
+    {
+      "context_snippet": "{ \"devDependencies\": { \"markdown-toc\": \"^1.2.0\" } }",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi"
+    },
+    {
+      "context_snippet": "{ \"devDependencies\": { \"markdown-toc\": \"^1.2.0\" } }",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi-controller"
+    },
+    {
+      "context_snippet": "{ \"devDependencies\": { \"markdown-toc\": \"^1.2.0\" } }",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music"
+    },
+    {
+      "context_snippet": "{ \"devDependencies\": { \"markdown-toc\": \"^1.2.0\" } }",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music-production"
+    },
+    {
+      "context_snippet": "{ \"devDependencies\": { \"markdown-toc\": \"^1.2.0\" } }",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sound"
+    },
+    {
+      "context_snippet": "{ \"devDependencies\": { \"markdown-toc\": \"^1.2.0\" } }",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "synthesizer"
+    }
+  ]
+}

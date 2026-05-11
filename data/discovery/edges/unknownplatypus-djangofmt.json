@@ -1,0 +1,244 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "g-plane/markup_fmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "unknownplatypus/djangofmt-pre-commit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "g-plane/malva",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "unknownplatypus/markup_fmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloat.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloat.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "cargo-bins/cargo-binstall@4852a15cf01e4f33958ce547326406fe78f27c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bloat.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "Cargo Bloat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "cargo-bins/cargo-binstall@4852a15cf01e4f33958ce547326406fe78f27c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "taiki-e/install-action@711e1c3275189d76dcc4d34ddea63bf96ac49090",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "moonrepo/setup-rust@abb2d32350334249b178c401e5ec5836e0cd88d3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "CodSpeedHQ/action@c381be0bfd20e844fb45594f6aa182ffcd94545c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment-ecosystem.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "dawidd6/action-download-artifact@ac66b43f0e6a346234dd65d4d0c8fbb31cb316e5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment-ecosystem.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "Ecosystem Check PR comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-playground.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-playground.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "jetli/wasm-pack-action@0d096b08b4e5a7de8c28de67e11e945404e9eefa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-playground.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "jetli/wasm-bindgen-action@20b33e20595891ab1a0ed73145d8a21fc96e7c29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-playground.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-playground.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-playground.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-playground.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build-binaries.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "uraimo/run-on-arch-action@f9b26e3a1a408d5fd530d20c17b9f3f4428ff8d9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-notify-pre-commit-mirror.yml",
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "django",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "UnknownPlatypus/djangofmt",
+      "target": "html",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-11T18:44:26.583561+00:00",
+  "source_repo": "UnknownPlatypus/djangofmt"
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ASLP-lab/OSUM",
+      "target": "aslp-lab/hum-dial",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-11T21:10:46.534919+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11757
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OSUM & OSUM-EChat, open speech understanding model and empathetic spoken chatbot based on it, open-sourced by ASLP@NPU.",
+    "fork": false,
+    "full_name": "ASLP-lab/OSUM",
+    "html_url": "https://github.com/ASLP-lab/OSUM",
+    "language": "Python",
+    "pushed_at": "2025-11-23T15:00:35Z",
+    "stargazers_count": 492,
+    "topics": [],
+    "updated_at": "2026-05-11T08:55:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aslp-lab/hum-dial",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

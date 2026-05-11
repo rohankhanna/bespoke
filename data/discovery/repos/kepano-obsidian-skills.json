@@ -1,0 +1,130 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kepano/obsidian-skills",
+      "target": "kepano/defuddle-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kepano/obsidian-skills",
+      "target": "clawdbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kepano/obsidian-skills",
+      "target": "defuddle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kepano/obsidian-skills",
+      "target": "obsidian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kepano/obsidian-skills",
+      "target": "openclaw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kepano/obsidian-skills",
+      "target": "opencode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kepano/obsidian-skills",
+      "target": "skills",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T21:10:38.374199+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2563
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+    "fork": false,
+    "full_name": "kepano/obsidian-skills",
+    "html_url": "https://github.com/kepano/obsidian-skills",
+    "language": null,
+    "pushed_at": "2026-05-07T20:24:08Z",
+    "stargazers_count": 30458,
+    "topics": [
+      "claude",
+      "clawdbot",
+      "cli",
+      "codex",
+      "defuddle",
+      "obsidian",
+      "openclaw",
+      "opencode",
+      "skills"
+    ],
+    "updated_at": "2026-05-11T20:57:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kepano/defuddle-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Agent Skills for use with Obsidian.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clawdbot"
+    },
+    {
+      "context_snippet": "Agent Skills for use with Obsidian.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "defuddle"
+    },
+    {
+      "context_snippet": "Agent Skills for use with Obsidian.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian"
+    },
+    {
+      "context_snippet": "Agent Skills for use with Obsidian.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openclaw"
+    },
+    {
+      "context_snippet": "Agent Skills for use with Obsidian.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencode"
+    },
+    {
+      "context_snippet": "Agent Skills for use with Obsidian.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skills"
+    }
+  ]
+}

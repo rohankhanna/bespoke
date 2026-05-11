@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-11T21:10:47.304313+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 387
+    },
+    {
+      "path": "requirements.txt",
+      "size": 733
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GLM-4-Voice as service",
+    "fork": true,
+    "full_name": "UltraEval/GLM-4-Voice",
+    "html_url": "https://github.com/UltraEval/GLM-4-Voice",
+    "language": "Python",
+    "pushed_at": "2025-03-04T08:45:59Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-07-28T05:23:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

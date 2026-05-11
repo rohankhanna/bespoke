@@ -1,0 +1,154 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AIGC-Audio/AudioGPT",
+      "target": "fdarmon/neuralwarp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AIGC-Audio/AudioGPT",
+      "target": "jerryuhoo/visinger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AIGC-Audio/AudioGPT",
+      "target": "gy65896/tsdnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AIGC-Audio/AudioGPT",
+      "target": "hwchase17/langchain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIGC-Audio/AudioGPT",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIGC-Audio/AudioGPT",
+      "target": "music",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIGC-Audio/AudioGPT",
+      "target": "sound",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIGC-Audio/AudioGPT",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AIGC-Audio/AudioGPT",
+      "target": "talking-head",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T21:10:43.379788+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3637
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1214
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AudioGPT: Understanding and Generating Speech, Music, Sound, and Talking Head",
+    "fork": false,
+    "full_name": "AIGC-Audio/AudioGPT",
+    "html_url": "https://github.com/AIGC-Audio/AudioGPT",
+    "language": "Python",
+    "pushed_at": "2024-07-06T21:35:18Z",
+    "stargazers_count": 10188,
+    "topics": [
+      "audio",
+      "gpt",
+      "music",
+      "sound",
+      "speech",
+      "talking-head"
+    ],
+    "updated_at": "2026-05-11T00:00:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fdarmon/neuralwarp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gy65896/tsdnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hwchase17/langchain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jerryuhoo/visinger",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2304.12995)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2304.12995)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2304.12995)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sound"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2304.12995)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2304.12995)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "talking-head"
+    }
+  ]
+}

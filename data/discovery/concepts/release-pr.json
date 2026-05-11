@@ -85,6 +85,18 @@
       "source_repo": "stylelint/stylelint-config-recommended",
       "status": "candidate-context",
       "text": "Release PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/aidlc-workflows",
+      "status": "candidate-context",
+      "text": "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/aidlc-workflows",
+      "status": "candidate-context",
+      "text": "Release PR"
     }
   ],
   "candidate_glosses": [
@@ -127,6 +139,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "stylelint/stylelint-config-recommended",
+      "status": "candidate",
+      "text": "Release PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/aidlc-workflows",
       "status": "candidate",
       "text": "Release PR"
     }
@@ -238,11 +256,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/release-pr.yml",
       "source_repo": "cargo-generate/cargo-generate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "awslabs/aidlc-workflows"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

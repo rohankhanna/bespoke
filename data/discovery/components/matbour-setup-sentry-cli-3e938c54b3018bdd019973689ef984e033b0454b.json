@@ -1,0 +1,12 @@
+{
+  "component": "matbour/setup-sentry-cli@3e938c54b3018bdd019973689ef984e033b0454b",
+  "first_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "BloopAI/vibe-kanban"
+    }
+  ]
+}

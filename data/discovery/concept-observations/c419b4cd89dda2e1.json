@@ -84,7 +84,7 @@
   "normalized_form": "scorecard-supply-chain-security",
   "observation_id": "c419b4cd89dda2e1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_at": "2026-05-11T18:44:26.583561+00:00",
   "observed_text": "Scorecard supply-chain security",
   "source_context_snippet": "Scorecard supply-chain security",
   "source_file": ".github/workflows/scorecards.yml",

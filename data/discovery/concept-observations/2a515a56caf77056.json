@@ -79,7 +79,7 @@
   "normalized_form": "cuda-ci-workflow",
   "observation_id": "2a515a56caf77056",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_at": "2026-05-11T18:44:26.583561+00:00",
   "observed_text": "CUDA CI workflow",
   "source_context_snippet": "CUDA CI workflow",
   "source_file": ".github/workflows/cuda-ci.yaml",

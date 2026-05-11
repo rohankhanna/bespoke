@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "androidx/media",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "androidx/media",
+      "target": "exoplayer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "androidx/media",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "androidx/media",
+      "target": "media3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "androidx/media",
+      "target": "media3-exoplayer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "androidx/media",
+      "target": "media3-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "androidx/media",
+      "target": "mediaplayer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T18:52:49.034583+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6086
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "release",
+    "description": "Jetpack Media3 support libraries for media use cases, including ExoPlayer, an extensible media player for Android",
+    "fork": false,
+    "full_name": "androidx/media",
+    "html_url": "https://github.com/androidx/media",
+    "language": "Java",
+    "pushed_at": "2026-05-11T18:22:12Z",
+    "stargazers_count": 2806,
+    "topics": [
+      "android",
+      "exoplayer",
+      "java",
+      "media3",
+      "media3-exoplayer",
+      "media3-transformer",
+      "mediaplayer"
+    ],
+    "updated_at": "2026-05-11T12:28:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "AndroidX Media is a collection of libraries for implementing media use cases on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "AndroidX Media is a collection of libraries for implementing media use cases on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "exoplayer"
+    },
+    {
+      "context_snippet": "AndroidX Media is a collection of libraries for implementing media use cases on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "AndroidX Media is a collection of libraries for implementing media use cases on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "media3"
+    },
+    {
+      "context_snippet": "AndroidX Media is a collection of libraries for implementing media use cases on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "media3-exoplayer"
+    },
+    {
+      "context_snippet": "AndroidX Media is a collection of libraries for implementing media use cases on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "media3-transformer"
+    },
+    {
+      "context_snippet": "AndroidX Media is a collection of libraries for implementing media use cases on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mediaplayer"
+    }
+  ]
+}

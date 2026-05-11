@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "visualisations"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abistarun/resseract-lite",
+      "status": "candidate-context",
+      "text": "A Data Analytics Tool with flexible architecture to visualize and analyse data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abistarun/resseract-lite",
+      "status": "candidate-context",
+      "text": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abistarun/resseract-lite",
+      "status": "candidate",
+      "text": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002753,
+      "status": "candidate",
+      "text": "visualization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015374,
+      "status": "candidate",
+      "text": "visual image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015373,
+      "status": "candidate",
+      "text": "imaging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10007736,
+      "status": "candidate",
+      "text": "presentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10005223,
+      "status": "candidate",
+      "text": "display"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "visualisations",
+  "concept_id": "visualisations",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite"
+    }
+  ],
+  "first_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "visualisations",
+      "sense_id": "visualisations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -247,6 +247,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "crazy-max/diun"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/security-scanners.yml",
+      "source_repo": "awslabs/aidlc-workflows"
     }
   ]
 }

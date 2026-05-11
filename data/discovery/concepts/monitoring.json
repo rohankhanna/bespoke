@@ -697,6 +697,18 @@
       "source_repo": "influxdata/influxdb",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abistarun/resseract-lite",
+      "status": "candidate-context",
+      "text": "A Data Analytics Tool with flexible architecture to visualize and analyse data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abistarun/resseract-lite",
+      "status": "candidate-context",
+      "text": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)"
     }
   ],
   "candidate_glosses": [
@@ -1047,6 +1059,12 @@
       "source_repo": "influxdata/influxdb",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abistarun/resseract-lite",
+      "status": "candidate",
+      "text": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)"
     }
   ],
   "candidate_related_terms": [
@@ -1864,11 +1882,29 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": null,
       "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "abistarun/resseract-lite"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

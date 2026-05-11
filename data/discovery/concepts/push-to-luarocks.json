@@ -303,6 +303,18 @@
       "source_repo": "Nsidorenco/neotest-vstest",
       "status": "candidate-context",
       "text": "Push to Luarocks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rcasia/neotest-java",
+      "status": "candidate-context",
+      "text": "Neotest adapter for Java."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcasia/neotest-java",
+      "status": "candidate-context",
+      "text": "Push to Luarocks"
     }
   ],
   "candidate_glosses": [
@@ -453,6 +465,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Nsidorenco/neotest-vstest",
+      "status": "candidate",
+      "text": "Push to Luarocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcasia/neotest-java",
       "status": "candidate",
       "text": "Push to Luarocks"
     }
@@ -1542,11 +1560,53 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": ".github/workflows/luarocks.yml",
       "source_repo": "codymikol/neotest-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "lumen-oss/rocks-config.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "lumen-oss/rocks-dev.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/luarocks.yaml",
+      "source_repo": "lumen-oss/rocks-treesitter.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "lumen-oss/luarocks-build-treesitter-parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "codymikol/neotest-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "rcasia/neotest-java"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

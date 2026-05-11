@@ -151,6 +151,18 @@
       "source_repo": "rouge8/neotest-rust",
       "status": "candidate-context",
       "text": "[Neotest](https://github.com/rcarriga/neotest) adapter for Rust, using"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rcasia/neotest-java",
+      "status": "candidate-context",
+      "text": "Neotest adapter for Java."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcasia/neotest-java",
+      "status": "candidate-context",
+      "text": "<section align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "rouge8/neotest-rust",
       "status": "candidate",
       "text": "[Neotest](https://github.com/rcarriga/neotest) adapter for Rust, using"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcasia/neotest-java",
+      "status": "candidate",
+      "text": "<section align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +322,17 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": null,
       "source_repo": "rouge8/neotest-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "rcasia/neotest-java"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-11T21:09:16.009465+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3268
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Claude Code plugin: legal and investigative workflow \u2014 log-evidence, analyze-document, redact-content, generate-brief, with legal-research/evidence/osint/document-analysis variants.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Legal-Investigative-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Legal-Investigative-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-19T13:12:01Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-30T02:19:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

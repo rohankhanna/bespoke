@@ -1,0 +1,587 @@
+{
+  "components": [
+    {
+      "component": "@apify/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@apify/tsconfig",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "apify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "crawlee",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "globals",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "globby",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json5",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mustache",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "playwright",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "puppeteer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_archives.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_archives.yaml"
+    },
+    {
+      "component": "apify/workflows/.github/workflows/python_lint_check.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_test.yaml"
+    },
+    {
+      "component": "apify/workflows/.github/workflows/python_type_check.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_test.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_test.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_dockerfile_builds.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_dockerfile_builds.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_llm_ai_node_templates.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_llm_ai_node_templates.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_llm_ai_node_templates.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_llm_ai_python_templates.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_llm_ai_python_templates.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_llm_ai_python_templates.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_llm_ai_python_templates.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_node_templates.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_node_templates.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_node_templates.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apify/actor-templates",
+      "target": "@apify/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apify/actor-templates",
+      "target": "@apify/tsconfig",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apify/actor-templates",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apify/actor-templates",
+      "target": "apify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apify/actor-templates",
+      "target": "crawlee",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apify/actor-templates",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apify/actor-templates",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apify/actor-templates",
+      "target": "eslint-plugin-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apify/actor-templates",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apify/actor-templates",
+      "target": "globby",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apify/actor-templates",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apify/actor-templates",
+      "target": "json5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apify/actor-templates",
+      "target": "mustache",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apify/actor-templates",
+      "target": "playwright",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apify/actor-templates",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apify/actor-templates",
+      "target": "puppeteer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apify/actor-templates",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apify/actor-templates",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apify/actor-templates",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_archives.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_archives.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_archives.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "Build template archives",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_test.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "apify/workflows/.github/workflows/python_lint_check.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_test.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "apify/workflows/.github/workflows/python_type_check.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_test.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_test.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_and_test.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint_and_test.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "Test Templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_dockerfile_builds.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_dockerfile_builds.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_dockerfile_builds.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "Test Docker builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_llm_ai_node_templates.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_llm_ai_node_templates.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_llm_ai_node_templates.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_llm_ai_node_templates.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "Test LLM AI Node.js templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_llm_ai_python_templates.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_llm_ai_python_templates.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_llm_ai_python_templates.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_llm_ai_python_templates.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_node_templates.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_node_templates.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_node_templates.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_node_templates.yaml",
+      "source_repo": "apify/actor-templates",
+      "target": "Test Node.js templates",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T21:10:51.530606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5488
+    },
+    {
+      "path": "package.json",
+      "size": 2246
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3589
+    },
+    {
+      "path": ".github/workflows/.prettierrc",
+      "size": 64
+    },
+    {
+      "path": ".github/workflows/build_archives.yaml",
+      "size": 953
+    },
+    {
+      "path": ".github/workflows/lint_and_test.yaml",
+      "size": 3120
+    },
+    {
+      "path": ".github/workflows/test_dockerfile_builds.yaml",
+      "size": 1263
+    },
+    {
+      "path": ".github/workflows/test_llm_ai_node_templates.yaml",
+      "size": 1220
+    },
+    {
+      "path": ".github/workflows/test_llm_ai_python_templates.yaml",
+      "size": 1423
+    },
+    {
+      "path": ".github/workflows/test_node_templates.yaml",
+      "size": 1264
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This project is the :house: home of Apify Actor templates to help users quickly get started. Contributions welcome!",
+    "fork": false,
+    "full_name": "apify/actor-templates",
+    "html_url": "https://github.com/apify/actor-templates",
+    "language": "Python",
+    "pushed_at": "2026-05-11T18:18:30Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2026-05-07T07:54:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build template archives",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_archives.yaml",
+      "term": "Build template archives"
+    },
+    {
+      "context_snippet": "Test Templates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint_and_test.yaml",
+      "term": "Test Templates"
+    },
+    {
+      "context_snippet": "Test Docker builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_dockerfile_builds.yaml",
+      "term": "Test Docker builds"
+    },
+    {
+      "context_snippet": "Test LLM AI Node.js templates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_llm_ai_node_templates.yaml",
+      "term": "Test LLM AI Node.js templates"
+    },
+    {
+      "context_snippet": "Test Node.js templates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_node_templates.yaml",
+      "term": "Test Node.js templates"
+    }
+  ]
+}

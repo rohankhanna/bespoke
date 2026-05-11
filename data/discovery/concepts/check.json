@@ -822,6 +822,18 @@
       "source_repo": "Rel1cx/eslint-react",
       "status": "candidate-context",
       "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apify/apify-cli",
+      "status": "candidate-context",
+      "text": "Apify command-line interface helps you create, develop, build and run Apify Actors, and manage the Apify cloud platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apify/apify-cli",
+      "status": "candidate-context",
+      "text": "Check"
     }
   ],
   "candidate_glosses": [
@@ -1236,6 +1248,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Rel1cx/eslint-react",
+      "status": "candidate",
+      "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apify/apify-cli",
       "status": "candidate",
       "text": "Check"
     }
@@ -2474,11 +2492,41 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": ".github/workflows/check.yaml",
       "source_repo": "PistonDevelopers/glfw-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "tox-dev/filelock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "browserslist/caniuse-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "PistonDevelopers/glfw-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "apify/apify-cli"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -48,7 +48,7 @@
   "normalized_form": "panvimdoc",
   "observation_id": "e55d5a8ef0730532",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_at": "2026-05-11T18:44:26.583561+00:00",
   "observed_text": "panvimdoc",
   "source_context_snippet": "panvimdoc",
   "source_file": ".github/workflows/panvimdoc.yml",

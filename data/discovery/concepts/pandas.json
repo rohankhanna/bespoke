@@ -271,6 +271,18 @@
       "source_repo": "petercorke/ansitable",
       "status": "candidate-context",
       "text": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamerose/PandasGUI",
+      "status": "candidate-context",
+      "text": "A GUI for Pandas DataFrames"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamerose/PandasGUI",
+      "status": "candidate-context",
+      "text": "- [About](#about)"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +417,12 @@
       "source_repo": "petercorke/ansitable",
       "status": "candidate",
       "text": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamerose/PandasGUI",
+      "status": "candidate",
+      "text": "- [About](#about)"
     }
   ],
   "candidate_related_terms": [
@@ -736,11 +754,23 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": null,
       "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T18:44:26.583561+00:00",
+      "source_file": null,
+      "source_repo": "adamerose/PandasGUI"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "lexical_providers": [
     "datamuse"
   ],

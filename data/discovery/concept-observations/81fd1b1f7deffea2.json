@@ -84,7 +84,7 @@
   "normalized_form": "cloudflare-purge-cache-for-directory",
   "observation_id": "81fd1b1f7deffea2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_at": "2026-05-11T18:44:26.583561+00:00",
   "observed_text": "Cloudflare Purge Cache for Directory",
   "source_context_snippet": "Cloudflare Purge Cache for Directory",
   "source_file": ".github/workflows/cloudflare-clear-cache-s3-dir.yml",

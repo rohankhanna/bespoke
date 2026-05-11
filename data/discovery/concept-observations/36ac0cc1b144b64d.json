@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apify command-line interface helps you create, develop, build and run Apify Actors, and manage the Apify cloud platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update new issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update new issue"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38134,
+      "status": "candidate",
+      "text": "reissue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37734,
+      "status": "candidate",
+      "text": "reissuing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37722,
+      "status": "candidate",
+      "text": "preliminary prospectus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37599,
+      "status": "candidate",
+      "text": "remake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34663,
+      "status": "candidate",
+      "text": "propagate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update new issue",
+      "sense_id": "update-new-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-new-issue",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-new-issue",
+  "observation_id": "36ac0cc1b144b64d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-11T18:44:26.583561+00:00",
+  "observed_text": "Update new issue",
+  "source_context_snippet": "Update new issue",
+  "source_file": ".github/workflows/issue_labeling.yaml",
+  "source_repo": "apify/apify-cli",
+  "source_repo_description": "Apify command-line interface helps you create, develop, build and run Apify Actors, and manage the Apify cloud platform."
+}
