@@ -117,7 +117,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T01:56:40.760755+00:00",
+  "fetched_at": "2026-05-11T07:49:03.470844+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -146,13 +146,13 @@
     "html_url": "https://github.com/sbt/sbt-jmh",
     "language": "Scala",
     "pushed_at": "2026-05-03T06:13:24Z",
-    "stargazers_count": 798,
+    "stargazers_count": 797,
     "topics": [
       "benchmark",
       "openjdk",
       "scala"
     ],
-    "updated_at": "2026-05-06T15:29:56Z"
+    "updated_at": "2026-05-11T04:27:18Z"
   },
   "repo_links": [
     {

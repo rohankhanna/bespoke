@@ -28135,11 +28135,89 @@
       "observed_at": "2026-05-11T00:40:20.012502+00:00",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T07:24:13.902749+00:00",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T07:24:13.902749+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T07:24:13.902749+00:00",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T07:24:13.902749+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T07:24:13.902749+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdnative"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T07:24:13.902749+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T07:24:13.902749+00:00",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T07:24:13.902749+00:00",
+      "source_file": null,
+      "source_repo": "unknownue/vulkan-tutorial-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T07:24:13.902749+00:00",
+      "source_file": null,
+      "source_repo": "ash-rs/ash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T07:24:13.902749+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T07:24:13.902749+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T07:24:13.902749+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "DioxusLabs/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T07:24:13.902749+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T00:40:20.012502+00:00",
+  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
   "lexical_providers": [
     "datamuse"
   ],

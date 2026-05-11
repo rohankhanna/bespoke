@@ -1,2571 +1,6 @@
 {
-  "generated_at": "2026-05-11T00:40:20.012502+00:00",
+  "generated_at": "2026-05-11T07:24:13.902749+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ultz/silk.net",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dotnet/swag",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "reactive-extensions/rx.net",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "kitten/wonka",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "app-vnext/simmy",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "bjartnes/bounded-disturbances",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "polly-contrib/polly.contrib.simmydemo_webapi",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "bjartwolf/bounded-disturbances",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vany0114/simmy-demo",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "bazingatechnologies/fsharp.data.graphql",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "pimbrouwers/falco.markup",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "hwchase17/langchainjs",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/lobe-chat",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "coreybutler/nodedistro",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "coreybutler/nvm",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "creationix/nvm",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "hakobera/nvmw",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "brigand/fast-nvm-fish",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dotphiles/dotzsh",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "marcelklehr/nodist",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "oinutter/nodenv",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "visionmedia/n",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "codejamninja/sphinx-jekyll-builder",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "rtfd/recommonmark",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "python-parsley/parsley",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "rtfd/commonmark-py",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "sgenoud/remarkdown",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "progit/progit",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "codejamninja/sphinx-markdown-builder",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "codejamninja/sphinx-markdown-parser",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jgm/commonmark.js",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "calcium-ion/new-api",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "boningtonchen/cherrystudio_themes",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "koj-co/upptime",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "songquanpeng/daily-report",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "connectai-e/awesome-one-click-deployment",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "logspace-ai/langflow",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "yidadaa/chatgpt-next-web",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "f/awesome-chatgpt-prompts",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "augustdev/enchanted",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jmorganca/ollama",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "bin-huang/chatbox",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "purton-tech/bionic-gpt",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "camdencheek/tree-sitter-gomod",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "panqiwei/autogptq",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "thudm/chatglm-6b",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "qwenlm/qwen2",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "thudm/glm-4",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "hazyresearch/flash-attention",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "thudm/chatglm2-6b",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "thudm/codegeex2",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "hkunlp/ds-1000",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "thudm/codegeex",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "thudm/codegeex4",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "fairinternal/transcoder_release",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "thudm/glm-130b",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "a-r-r-o-w/finetrainers",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "openrobotlab/aether",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "wileewang/transpixar",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "thudm/cogvideo",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "a-r-r-o-w/cogvideox-factory",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aigc-apps/cogvideox-fun",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tencent/hunyuanvideo",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tencent/hunyuanvideo-i2v",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "thu-ml/riflex",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dashtoon/hunyuan-video-keyframe-control-lora",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "liewfeng/teacache",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "petercorke/spatial-math",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "haixuantao/yolov7",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "halftop/tt100k_yolo_label",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "linaom1214/tensorrt-python",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "deepmind/pysc2",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "macfuse/community",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "osxfuse/osxfuse",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "feizc/in-context-video-generalist",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "carlyx/dpe",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "feiiyin/styleheat",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vinthony/video-retalking",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "winfredy/sadtalker",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "edstoica/lucid_stylegan3_models",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "thudm/cogview",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "thudm/visualglm-6b",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "clovaai/prdc",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lucidrains/vector-quantizer-pytorch",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "intelai/models",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "illuhad/hipsycl",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "andreibondarev/langchainrb_rails",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "explodinggradients/ragas",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "andreibondarev/langchainrb",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "andreibondarev/qdrant-ruby",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "as-ideas/deepphonemizer",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "menelik3/cmudict-ipa",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "5scontrol/5s-user-documentation",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "asadfgglie/voicevox-tts",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "oobabooga/text-generation-webui",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "qhduan/cpm-lm-tf2",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tsinghuaai/cpm-1-distill",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "facebookresearch/codellama",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "facebookresearch/llama-recipes",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dart-lang/ffigen",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aws/karpenter-core",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aws/karpenter",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "noneabove1182/koboldcpp-docker",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "turboderp/exllamav2",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "turboderp/exui",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "google/google-api-go-client",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "googlecloudplatform/google-cloud-go",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "google/google-api-nodejs-client",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "googlecloudplatform/gcloud-node-todos",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "sebelga/gstore-api",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "stephenplusplus/gcloud-kvstore",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "googleapis/google-cloud-kvstore",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "google/google-api-php-client",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "google/google-auth-library-php",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mrkn/pandas.rb",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mrkn/pycall",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "airbnb/enzyme",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "formidablelabs/enzyme-matchers",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "bbc/enzyme-adapter-inferno",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "developit/preact",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "producthunt/chai-enzyme",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "akeemmclennon/dom2hscript",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ohanhi/hyperscript-helpers",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "raynos/mercury",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "twilson63/html2hscript",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "wix/wml",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lifeiteng/valle",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "akshay090/svg-banners",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "alibaba-damo-academy/funasr",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "alibaba-damo-academy/funcodec",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "alibaba/funasr",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "erkelost/unplugin-imagemin",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "antfu/unplugin-auto-import",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "demivan/fluent-vue",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "poeschko/bs-glamor",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "sentiaanalytics/bs-css",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "antfu/unplugin-icons",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "antfu/unplugin-vue-components",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "antfu/vitesse",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "johnsoncodehk/volar",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "antfu/unocss",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "antfu/vite-plugin-pwa",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "antfu/eslint-vitest-rule-tester",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "antfu/vitesse-webext",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "zikaari/webext-bridge",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ant-design/babel-plugin-import",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "harlan-zw/retriv",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "harlan-zw/skilld",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "domchristie/to-markdown",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "windson1806/vite-plugin-virtual-html",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "andreybelym/testcafe-reporter-nunit",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "shopify/erb-lint",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "misolori/vscode-fluent-icons",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "givanse/broccoli-babel-examples",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "babel/broccoli-babel-transpiler",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "babel/babel-preset-env",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "babel/ember-cli-babel",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ember-cli/rfcs",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ef4/ember-auto-import",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "anncwb/vue-vben-admin",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "appwrite/playground-for-js",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vuejs/devtools-next",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vuejs/vue-devtools",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "apotonick/cells",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "apotonick/trailblazer",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ddiu8081/chatgpt-demo",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "chatgptnextweb/chatgpt-next-web",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "go-skynet/localai",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "assemblyai-examples/minimagen",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "layumi/person_re-id_stn",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "layumi/a_reid",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "layumi/pytorch-mnist",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ambv/black",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "asteroid-team/torch-audiomentations",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "allenai/natural-instructions-expansion",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "facebook/fb.resnet.torch",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "kaiminghe/deep-residual-networks",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "soumith/cudnn.torch",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cgisky1980/ai00_rwkv_server",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cgcel/paddleocrfastapi",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "firebaseextended/flutterfire",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "autoware-ai/autoware_ai_documentation",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "autoware-ai/documentation",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "bubbliiiing/mobilenet-yolov4-lite-pytorch",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ma-dan/keras-yolo4",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cavalleria/cavaface.pytorch",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "paddlepaddle/paddle-onnx",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "skvark/opencv-python",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "heartexlabs/label-studio",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tzutalin/labelimg",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "onelogin/python-saml",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "onelogin/python3-saml",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "shihuahuang95/deim",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "google/mediapipe",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "embarcadero/pythonenviroments",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "pyscripter/python4delphi",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "evalstate/hf-mcp-server",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nathanua/basnet",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nathanua/binary-segmentation-evaluation-tool",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nathanua/u-2-net",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dennisbappert/u-2-net-portrait",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "peko/nn-lineart",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "pytorch/live",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aesrgan/a-esrgan",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "amd-aig-aima/amd-diffusion-distillation",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "amd-aig-aima/nitro-t",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "apostrophecms/apollo",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "apostrophecms/combined-astro-starter-kit",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "w3c/web-platform-tests",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "w3c/webappsec-trusted-types",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "deeptrain-community/chatnio-blob-service",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "github/fetch",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "litter-coder/wechat-ai",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "zhayujie/chatgpt-on-wechat",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mamoe/mirai-api-http",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "deepmind/launchpad",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "deepmind/reverb",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "pangyupo/mxnet_mtcnn_face_detection",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "zhaoj9014/face.evolve.pytorch",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cszn/bsrnet",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jixiaozhong/realsr",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "manuelfritsche/real-world-sr",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vvictoryuki/bsrgan_implementation",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "andreyryabtsev/bgmv2-webcam-plugin-linux",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "peterl1n/matting-pytorch",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ella-diffusion/ella",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "unimodal4reasoning/adaptivediffusion",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "alichherawalla/off-grid-mobile",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mit-han-lab/nunchaku",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "deftruth/awesome-sd-inference",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "deftruth/robustvideomatting.lite.ai.toolkit",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tlatkowski/inpainting-gmcnn",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jeff-sjtu/hybrik",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jeff-sjtu/res-loglikelihood-regression",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "intel-isl/dpt",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "fyu/lsun_toolkit",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mariusmuja/flann",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "idlabmedia/large-lightfield-dataset",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "behdad/harfbuzz",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "google/roboto",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "googlei18n/nototools",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "googlei18n/ufo2ft",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "googlefonts/noto-fonts",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "googlefonts/nototools",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "typesupply/ufo2fdk",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "typenetwork/roboto",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "googlefonts/noto-cjk",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "facebookincubator/gloo",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "thinkski/osx-arm-linux-toolchains",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "react-charts/react-charts",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tannerlinsley/react-charts",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tannerlinsley/react-form",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "proposal-signals/proposal-signals",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vue-reactivity/use",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nullvoxpopuli/signal-utils",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "pzuraq/tracked-built-ins",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "navendu-pottekkat/nsfw-filter",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tmbdev/webdataset",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tmbdev/tarp",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "asottile/blacken-docs",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "maxmax2016/vits_chinese",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "weedge/pipeline-go",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "weedge/pipeline-py",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "shelling203/specaugment",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "securefederatedai/openfl",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "liyuanlucasliu/transforemr-clinic",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dvlab-research/longlora",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "microsoft/deepspeed",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "rocm-developer-tools/hipcc",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mit-han-lab/deepcompressor",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mit-han-lab/qserve",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "comfyanonymous/comfyui",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "byteflow-ai/tokenflow",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "intel-analytics/bigdl-2.x",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "intel-analytics/ipex-llm",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "intel-analytics/bigdl",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "intel-analytics/ipex-llm-tutorial",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "intel-analytics/text-generation-webui",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jerryjliu/llama_index",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "hanxiao/dalle",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jina-ai/docarray",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jina-ai/jina",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tiangolo/fastapi",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "esnme/ultrajson",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "rebilly/redoc",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "xinntao/basicsr",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "xinntao/dni",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "xinntao/handycrawler",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "xinntao/handywriting",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dankdumpster/mouse-rs",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "godot-rust/gdextension",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "godot-rust/godot-rust",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "limbee/ntire2017",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "thstkdgus35/edsr-pytorch",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cuiziteng/maet",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "microsoft/directml-samples",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "microsoft/tensorflow",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "deepmind/mathematics_dataset",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "pymc-devs/resources",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "allegroai/clearml-agent",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "allegroai/clearml-fractional-gpu",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "allegroai/clearml",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "allegroai/clearml-pycharm-plugin",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tencent/hunyuandit",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "instantstyle/instantstyle",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "deforum-art/sd-webui-modelscope-text2video",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "paddlepaddle/paddlecls",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "deforum-art/sd-webui-deforum",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "deforum-art/deforum-stable-diffusion",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "weinand/vscode-recipes",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "yoland68/comfy-cli",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ltdrdata/comfyui-manager",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "megvii-model/hidiffusion",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "alan-turing-institute/mlj.jl",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "milescranmer/symbolicregression.jl",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "johnpaparrizos/vus",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jt-zhang/sparse_sageattention_api",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "antonioo-c/regional-prompting-flux",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "sierkinhane/visorgpt",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "attendandexcite/attend-and-excite",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "karaokenerds/python-audio-separator",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ku-cvlab/locotrack",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "deepmind/tapnet",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "flagopen/flagscale",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "flagopen/robobrain2.0",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "deepmind/jmp",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "google/jax",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "stanford-crfm/haliax",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "stanford-crfm/levanter",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "deepmind/optax",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "thudm/imagereward",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "apple/swift",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "project-everest/hacl-star",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cocos-creator/engine",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cocos-creator/tutorial-hot-update",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cocos-creator/tutorial-dark-slash",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "kduske/trenchbroom",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "distribworks/dkron",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "gromo/dkron-php-adapter",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jobandtalent/dkron-rb",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "oldmantaiter/pydkron",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dart-lang/grpc-dart",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "adntio/example-minimal-bootloader-rp2040-rs",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "huacnlee/gobackup",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "1oglop1/asdf-pdm",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "hellovai/ai-that-works",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "docker/compose-cli",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "docker/compose-ecs",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "apollostack/subscriptions-transport-ws",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cloudson/gitql",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ruvnet/claude-flow",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aarnoldgad/glad-fortran",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aarnoldgad/glf90w",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jcampbell05/xcake",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "apple/swift-syntax",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "abap2ui5-addons/layout-variant-management",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "abap2ui5-apps/sql-console",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "abaplint/transpiler_poc",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mist64/xhyve",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "wicg/conversion-measurement-api",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mreichhoff/requeststorageaccessforsite",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "privacycg/first-party-sets",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "sleevi/psl-problems",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "wicg/chips",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "googlechrome/first-party-sets",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nminhnguyen/react-shallow-renderer",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ben-eb/caniuse-lite",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "elemefe/obsolete-webpack-plugin",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "g-plane/browserslist-rs",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ismay/stylelint-no-unsupported-browser-features",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ai/browserslist",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "pastelsky/browserslist-useragent",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "emacsorphanage/helm-swoop",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "stevengj/nbinclude.jl",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "stevengj/softglobalscope.jl",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "perrygeo/python-raster-stats",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cormullion/luxor.jl",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "fonsp/pluto.jl",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "julialang/cairo.jl",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "umputun/nginx-le",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "rhysd/github-action-benchmark",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "roblox/luau",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "onqtam/doctest",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "denysdovhan/robbyrussell",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "denysdovhan/spaceship-zsh-theme",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "robbyrussell/oh-my-zsh",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "substack/tape",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "matchai/spacefish",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "shovel-org/sysinternals-bucket",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jamiew/git-friendly",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "alexxxru/egui",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "attackgoat/screen-13",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "bjz/glfw-rs",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "bzm3r/ash-sample-progression",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "gwihlidal/ash-nv-rt",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "osspial/vk-rs",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "usami-renko/vulkan-tutorial-rust",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "maikklein/ash",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "matchachoco010/egui-ash",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aaron-williamson/base16-gnome-terminal",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "base24/base24-builder-python",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "inspectormustache/base16-builder-python",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "inspectormustache/pybase16-builder",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lokaltog/powerline-fonts",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "android-ndk/ndk",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "meta-llama/llama-stack",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "meta-llama/llama-stack-apps",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "meta-llama/llama-stack-client-kotlin",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dominguezcelada/ts-transformer-remove-named-export",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "apollographql/supergraph-demo-gitops",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "apollographql/supergraph-demo-k8s-graphops",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "joyent/node-http-signature",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "blitz-js/superjson",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "benjamn/arson",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jed/lave",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "orionmiz/next-superjson-plugin",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "total-typescript/ts-reset",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "apollographql/react-apollo-scalajs",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "apollographql/apollo-codegen",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "apollostack/eslint-plugin-graphql",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dotansimha/graphql-eslint",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "graphcool/graphql-cli",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dimamachina/graphql-eslint",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "kamilkisiela/graphql-config",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "kamilkisiela/graphql-inspector",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "appbaseio/arc",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "appbaseio/searchbase",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "appbaseio/arc-dockerized",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tkh44/emotion",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nuxt-community/emotion-module",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "4catalyzer/astroturf",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vaporif/parry",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aws-cloudformation/aws-cloudformation-resource-schema",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aws-cloudformation/cfn-python-lint",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "awslabs/serverless-application-model",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "w0rp/ale",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "maximbaz/lightline-ale",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "styled-components/stylelint-processor-styled-components",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "designsystemsinternational/processing-website",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "d0kt0r0/espgrid",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "flatland/clojure-protobuf",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "flatland/lein-protobuf",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "rosejn/osc-clj",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "brunchboy/afterglow",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "brunchboy/wayang",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "brunchboy/afterglow-max",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "brunchboy/carabiner",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "timmolderez/inspector-jay",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "bdyetton/link-to-py",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "brunchboy/beat-link-trigger",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ktoso/sbt-jmh",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "drapanjanas/re-natal",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vouchio/krell",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "boot-clj/boot",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "brunchboy/ola-clojure",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "brunchboy/beat-link",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "brunchboy/dysentery",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "oracle/helidon",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "borkdude/nbb",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "borkdude/sci",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "borkdude/clj-kondo",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "brunobonacci/graalvm-clojure",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "juji-io/datalevin",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "littleredcomputer/sicmutils",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "babashka/babashka.pods",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "xsc/rewrite-clj",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "huahaiy/dlmdb",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "borkdude/pod-babashka-hsqldb",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "borkdude/babashka",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "archlinuxfr/yaourt",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "funcool/bide",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "futurice/clojurice",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "igrishaev/etaoin",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "grabantot/datatransfer-files-promise",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "creatorrr/web-stream-polyfill",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "charleschiugit/logseq-hugo-template",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tridiamond/obsidian-obsidianite",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ebullient/obsidian-admonitions",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "valentine195/obsidian-5e-statblocks",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "valentine195/obsidian-dice-roller",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "valentine195/obsidian-initiative-tracker",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "valentine195/obsidian-leaflet-plugin",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "javalent/fantasy-statblocks",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "seveibar/node-websocat",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lambdaisland/corgi",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lambdaisland/corgi-packages",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "raxod502/straight.el",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mattgreen/watchexec",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tarsius/auto-compile",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "kennethreitz/fish-pipenv",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dioxuslabs/dioxus-std",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jkelleyrtp/dioxus",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "clj-kondo/clj-kondo.configs",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "npm/lifecycle",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "sstephenson/rbenv-gem-rehash",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "actions/container-toolkit-template",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "github/licensed",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "apple/swift-llbuild",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "bazelbuild/bazel-gazelle",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ropensci/plotly",
-      "graph_distance": 52
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dotnet/aspire",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dotnet/aspire-samples",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vmware-tanzu/buildkit-cli-for-kubectl",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "pytorchlightning/deep-learning-project-template",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "pytorch/fairseq",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "atoomic/snapcast-volume-ui",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "derglaus/snapcast-websockets-ui",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "xkonni/snapcastr",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "badaix/snapcast",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "badaix/snapdroid",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "plamere/spotipy",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "rose-pine/palette",
-      "graph_distance": 53
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "raphaelbastide/unified-font-repository",
-      "graph_distance": 53
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "geocompr/docker",
@@ -7905,6 +5340,2511 @@
       "discovered_via": "explicit-github-link",
       "full_name": "47deg/nef-editor-server",
       "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ultz/silk.net",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dotnet/swag",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "reactive-extensions/rx.net",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "kitten/wonka",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "app-vnext/simmy",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bjartnes/bounded-disturbances",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "polly-contrib/polly.contrib.simmydemo_webapi",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bjartwolf/bounded-disturbances",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vany0114/simmy-demo",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bazingatechnologies/fsharp.data.graphql",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pimbrouwers/falco.markup",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/lobe-commit",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "coreybutler/nodedistro",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "coreybutler/nvm",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "creationix/nvm",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "hakobera/nvmw",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "brigand/fast-nvm-fish",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dotphiles/dotzsh",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "marcelklehr/nodist",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "codejamninja/sphinx-jekyll-builder",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rtfd/recommonmark",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "python-parsley/parsley",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rtfd/commonmark-py",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "sgenoud/remarkdown",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jgm/commonmark.js",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "codejamninja/sphinx-markdown-builder",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "codejamninja/sphinx-markdown-parser",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "progit/progit",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "calcium-ion/new-api",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "boningtonchen/cherrystudio_themes",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "koj-co/upptime",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "songquanpeng/daily-report",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "connectai-e/awesome-one-click-deployment",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "logspace-ai/langflow",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "yidadaa/chatgpt-next-web",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "f/awesome-chatgpt-prompts",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "augustdev/enchanted",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bin-huang/chatbox",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ggozad/oterm",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "purton-tech/bionic-gpt",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "camdencheek/tree-sitter-gomod",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "panqiwei/autogptq",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "hazyresearch/flash-attention",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "imclumsypanda/langchain-chatglm",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "thudm/chatglm-6b",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "modelscope/swift",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "all-hands-ai/openhands",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "thudm/glm-4.1v-thinking",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "thudm/chatglm2-6b",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "thudm/codegeex2",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "hkunlp/ds-1000",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "thudm/codegeex",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "thudm/codegeex4",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "thudm/glm-4",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "fairinternal/transcoder_release",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "thudm/glm-130b",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "a-r-r-o-w/finetrainers",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "openrobotlab/aether",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "wileewang/transpixar",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "thudm/cogvideo",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aigc-apps/cogvideox-fun",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dashtoon/hunyuan-video-keyframe-control-lora",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dvlab-research/jenga",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "liewfeng/teacache",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tencent/hunyuanvideo",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tencent/hunyuanvideo-i2v",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "thu-ml/riflex",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "petercorke/spatial-math",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "haixuantao/yolov7",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "halftop/tt100k_yolo_label",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "linaom1214/tensorrt-python",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "deepmind/pysc2",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "macfuse/community",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "osxfuse/osxfuse",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "a-r-r-o-w/cogvideox-factory",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "feizc/in-context-video-generalist",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "carlyx/dpe",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "feiiyin/styleheat",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vinthony/video-retalking",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "winfredy/sadtalker",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "edstoica/lucid_stylegan3_models",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "thudm/cogview",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "thudm/visualglm-6b",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "clovaai/prdc",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lucidrains/vector-quantizer-pytorch",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "intelai/models",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "illuhad/hipsycl",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "andreibondarev/langchainrb_rails",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "explodinggradients/ragas",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "andreibondarev/langchainrb",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "andreibondarev/qdrant-ruby",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "as-ideas/deepphonemizer",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "menelik3/cmudict-ipa",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "5scontrol/5s-user-documentation",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "asadfgglie/voicevox-tts",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "oobabooga/text-generation-webui",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tsinghuaai/cpm-generate",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "facebookresearch/codellama",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "facebookresearch/llama-recipes",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dart-lang/ffigen",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aws/karpenter-core",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aws/karpenter",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "noneabove1182/koboldcpp-docker",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "turboderp/exllamav2",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "turboderp/exui",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "google/google-api-go-client",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "googlecloudplatform/google-cloud-go",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "googlecloudplatform/google-cloud-node",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "justinbeckwith/gaxios",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "googleapis/google-cloud-kvstore",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "google/google-api-php-client",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "google/google-auth-library-php",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mrkn/pandas.rb",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mrkn/pycall",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bbc/enzyme-adapter-inferno",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "developit/preact",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "formidablelabs/enzyme-matchers",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "airbnb/enzyme",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dominictarr/hyperscript",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "wix/wml",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lifeiteng/valle",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "akshay090/svg-banners",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alibaba-damo-academy/funasr",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alibaba-damo-academy/funcodec",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alibaba/funasr",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "erkelost/unplugin-imagemin",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "antfu/unplugin-auto-import",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "demivan/fluent-vue",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "poeschko/bs-glamor",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "sentiaanalytics/bs-css",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "antfu/unplugin-icons",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "antfu/unplugin-vue-components",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "antfu/vitesse",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "johnsoncodehk/volar",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "antfu/vite-plugin-pwa",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "antfu/eslint-vitest-rule-tester",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "antfu/vitesse-webext",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "zikaari/webext-bridge",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ant-design/babel-plugin-import",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "harlan-zw/retriv",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "harlan-zw/skilld",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "domchristie/to-markdown",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "windson1806/vite-plugin-virtual-html",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "andreybelym/testcafe-reporter-nunit",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "shopify/erb-lint",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "misolori/vscode-fluent-icons",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "givanse/broccoli-babel-examples",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "babel/broccoli-babel-transpiler",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "babel/babel-preset-env",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "babel/ember-cli-babel",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ember-cli/rfcs",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ef4/ember-auto-import",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "anncwb/vue-vben-admin",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "appwrite/playground-for-js",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vuejs/devtools-next",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vuejs/vue-devtools",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "apotonick/cells",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "apotonick/trailblazer",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ddiu8081/chatgpt-demo",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "chatgptnextweb/chatgpt-next-web",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "go-skynet/localai",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "assemblyai-examples/minimagen",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "layumi/person_re-id_stn",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "layumi/a_reid",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "layumi/pytorch-mnist",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ambv/black",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "asteroid-team/torch-audiomentations",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "allenai/natural-instructions-expansion",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "facebook/fb.resnet.torch",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "kaiminghe/deep-residual-networks",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "soumith/cudnn.torch",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cgisky1980/ai00_rwkv_server",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cgcel/paddleocrfastapi",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "firebaseextended/flutterfire",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "autoware-ai/autoware_ai_documentation",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "autoware-ai/documentation",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bubbliiiing/mobilenet-yolov4-lite-pytorch",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ma-dan/keras-yolo4",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cavalleria/cavaface.pytorch",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "paddlepaddle/paddle-onnx",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "skvark/opencv-python",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "heartexlabs/label-studio",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tzutalin/labelimg",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "onelogin/python-saml",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "onelogin/python3-saml",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "shihuahuang95/deim",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "google/mediapipe",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "embarcadero/pythonenviroments",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pyscripter/python4delphi",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "evalstate/hf-mcp-server",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nathanua/basnet",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nathanua/binary-segmentation-evaluation-tool",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nathanua/u-2-net",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pytorch/live",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aesrgan/a-esrgan",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "amd-aig-aima/amd-diffusion-distillation",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "amd-aig-aima/nitro-t",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "apostrophecms/combined-astro-starter-kit",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "apostrophecms/apollo",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "w3c/web-platform-tests",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "w3c/webappsec-trusted-types",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "deeptrain-community/chatnio-blob-service",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "github/fetch",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "litter-coder/wechat-ai",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "zhayujie/chatgpt-on-wechat",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mamoe/mirai-api-http",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "deepmind/launchpad",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "deepmind/reverb",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pangyupo/mxnet_mtcnn_face_detection",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "zhaoj9014/face.evolve.pytorch",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cszn/bsrnet",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "andreyryabtsev/bgmv2-webcam-plugin-linux",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "peterl1n/matting-pytorch",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ella-diffusion/ella",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "unimodal4reasoning/adaptivediffusion",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alichherawalla/off-grid-mobile",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mit-han-lab/nunchaku",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "deftruth/awesome-sd-inference",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "deftruth/robustvideomatting.lite.ai.toolkit",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tlatkowski/inpainting-gmcnn",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jeff-sjtu/hybrik",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jeff-sjtu/res-loglikelihood-regression",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "intel-isl/dpt",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "fyu/lsun_toolkit",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mariusmuja/flann",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "idlabmedia/large-lightfield-dataset",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "behdad/harfbuzz",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "google/roboto",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "googlefonts/noto-fonts",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "googlefonts/nototools",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "typesupply/ufo2fdk",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "typenetwork/roboto",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "googlefonts/noto-cjk",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "facebookincubator/gloo",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "thinkski/osx-arm-linux-toolchains",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "react-charts/react-charts",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tannerlinsley/react-charts",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tannerlinsley/react-form",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nullvoxpopuli/signal-utils",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "proposal-signals/proposal-signals",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vue-reactivity/use",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pzuraq/tracked-maps-and-sets",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "navendu-pottekkat/nsfw-filter",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tmbdev/webdataset",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tmbdev/tarp",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "asottile/blacken-docs",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "maxmax2016/vits_chinese",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "weedge/pipeline-py",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "weedge/pipeline-go",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "shelling203/specaugment",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "securefederatedai/openfl",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "liyuanlucasliu/transforemr-clinic",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dvlab-research/longlora",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rocm-developer-tools/hipcc",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mit-han-lab/deepcompressor",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mit-han-lab/qserve",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "byteflow-ai/tokenflow",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "intel-analytics/bigdl-2.x",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "intel-analytics/ipex-llm",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "intel-analytics/bigdl",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "intel-analytics/ipex-llm-tutorial",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "intel-analytics/text-generation-webui",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jerryjliu/llama_index",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "hanxiao/dalle",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jina-ai/jina",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tiangolo/fastapi",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "esnme/ultrajson",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rebilly/redoc",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "xinntao/basicsr",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "xinntao/dni",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "xinntao/handycrawler",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "xinntao/handywriting",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dankdumpster/mouse-rs",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "godot-rust/gdextension",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "godot-rust/godot-rust",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "limbee/ntire2017",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "thstkdgus35/edsr-pytorch",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cuiziteng/maet",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "microsoft/directml-samples",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "microsoft/tensorflow",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "deepmind/mathematics_dataset",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pymc-devs/resources",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "allegroai/clearml-agent",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "allegroai/clearml-fractional-gpu",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "allegroai/clearml",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "allegroai/clearml-pycharm-plugin",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tencent/hunyuandit",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "instantstyle/instantstyle",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "deforum-art/sd-webui-modelscope-text2video",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "paddlepaddle/paddlecls",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "deforum-art/sd-webui-deforum",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "deforum-art/deforum-stable-diffusion",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "weinand/vscode-recipes",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "yoland68/comfy-cli",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ltdrdata/comfyui-manager",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "megvii-model/hidiffusion",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alan-turing-institute/mlj.jl",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "milescranmer/symbolicregression.jl",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "johnpaparrizos/vus",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jt-zhang/sparse_sageattention_api",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "antonioo-c/regional-prompting-flux",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "sierkinhane/visorgpt",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "attendandexcite/attend-and-excite",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "karaokenerds/python-audio-separator",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ku-cvlab/locotrack",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "deepmind/tapnet",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "flagopen/flagscale",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "flagopen/robobrain2.0",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "deepmind/jmp",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "google/jax",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "stanford-crfm/haliax",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "stanford-crfm/levanter",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "deepmind/optax",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "thudm/imagereward",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "thudm/visionreward",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "apple/swift",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "project-everest/hacl-star",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cocos-creator/engine",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cocos-creator/tutorial-hot-update",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cocos-creator/tutorial-dark-slash",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "kduske/trenchbroom",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "distribworks/dkron",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "gromo/dkron-php-adapter",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jobandtalent/dkron-rb",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dart-lang/grpc-dart",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "adntio/example-minimal-bootloader-rp2040-rs",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "huacnlee/gobackup",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "1oglop1/asdf-pdm",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "hellovai/ai-that-works",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "docker/compose-cli",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "docker/compose-ecs",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "apollostack/subscriptions-transport-ws",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cloudson/gitql",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ruvnet/claude-flow",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aarnoldgad/glad-fortran",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aarnoldgad/glf90w",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jcampbell05/xcake",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "apple/swift-syntax",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "abap2ui5-addons/layout-variant-management",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "abap2ui5-apps/sql-console",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "abaplint/transpiler_poc",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mist64/xhyve",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "wicg/conversion-measurement-api",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mreichhoff/requeststorageaccessforsite",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "privacycg/first-party-sets",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "sleevi/psl-problems",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "wicg/chips",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "googlechrome/first-party-sets",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nminhnguyen/react-shallow-renderer",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ai/browserslist",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ben-eb/caniuse-lite",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "elemefe/obsolete-webpack-plugin",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "g-plane/browserslist-rs",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ismay/stylelint-no-unsupported-browser-features",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pastelsky/browserslist-useragent",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "emacsorphanage/helm-swoop",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "stevengj/nbinclude.jl",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "stevengj/softglobalscope.jl",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "perrygeo/python-raster-stats",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cormullion/luxor.jl",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "fonsp/pluto.jl",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "julialang/cairo.jl",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "umputun/nginx-le",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rhysd/github-action-benchmark",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "roblox/luau",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "onqtam/doctest",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "denysdovhan/robbyrussell",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "denysdovhan/spaceship-zsh-theme",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "robbyrussell/oh-my-zsh",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "substack/tape",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "matchai/spacefish",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "shovel-org/sysinternals-bucket",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jamiew/git-friendly",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alexxxru/tinypomodoro",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "attackgoat/screen-13",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "gekkio/imgui-rs",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bjz/glfw-rs",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cyndis/rsmc",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jeaye/q3",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ozkriff/zoc",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "maikklein/ash",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bzm3r/ash-sample-progression",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "gwihlidal/ash-nv-rt",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "osspial/vk-rs",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "usami-renko/vulkan-tutorial-rust",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "matchachoco010/egui-ash",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aaron-williamson/base16-gnome-terminal",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "base24/base24-builder-python",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "inspectormustache/base16-builder-python",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "inspectormustache/pybase16-builder",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lokaltog/powerline-fonts",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "android-ndk/ndk",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "meta-llama/llama-stack",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "meta-llama/llama-stack-apps",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "meta-llama/llama-stack-client-kotlin",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "meta-llama/llama-stack-client-node",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dominguezcelada/ts-transformer-remove-named-export",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "apollographql/supergraph-demo-gitops",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "apollographql/supergraph-demo-k8s-graphops",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "joyent/node-http-signature",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "blitz-js/superjson",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rich-harris/devalue",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "orionmiz/next-superjson-plugin",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "total-typescript/ts-reset",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "apollographql/react-apollo-scalajs",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "apollographql/apollo-codegen",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "apollostack/eslint-plugin-graphql",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dimamachina/graphql-eslint",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "kamilkisiela/graphql-config",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "kamilkisiela/graphql-inspector",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "appbaseio/arc",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "appbaseio/searchbase",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "appbaseio/arc-dockerized",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "egoist/emotion-vue",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mrmartineau/design-system-utils",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nuxt-community/emotion-module",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tkh44/next-hnpwa-guide-kit",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "4catalyzer/astroturf",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vaporif/parry",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aws-cloudformation/aws-cloudformation-resource-schema",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aws-cloudformation/cfn-python-lint",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "awslabs/serverless-application-model",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "w0rp/ale",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "maximbaz/lightline-ale",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "styled-components/stylelint-processor-styled-components",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "designsystemsinternational/processing-website",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "d0kt0r0/espgrid",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "flatland/clojure-protobuf",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "flatland/lein-protobuf",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rosejn/osc-clj",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "brunchboy/afterglow",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "brunchboy/wayang",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "brunchboy/afterglow-max",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bdyetton/link-to-py",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "brunchboy/beat-link-trigger",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "brunchboy/carabiner",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "timmolderez/inspector-jay",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ktoso/sbt-jmh",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "drapanjanas/re-natal",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vouchio/krell",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "boot-clj/boot",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "brunchboy/ola-clojure",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "brunchboy/beat-link",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "brunchboy/dysentery",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "oracle/helidon",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "borkdude/nbb",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "borkdude/sci",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "babashka/babashka.pods",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "xsc/rewrite-clj",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "huahaiy/dlmdb",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "borkdude/pod-babashka-hsqldb",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "juji-io/datalevin",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "borkdude/babashka",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "archlinuxfr/yaourt",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "borkdude/clj-kondo",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "funcool/bide",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "futurice/clojurice",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "igrishaev/etaoin",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jkk/honeysql",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "grabantot/datatransfer-files-promise",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "creatorrr/web-stream-polyfill",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "charleschiugit/logseq-hugo-template",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tridiamond/obsidian-obsidianite",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ebullient/obsidian-admonitions",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "valentine195/obsidian-5e-statblocks",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "valentine195/obsidian-dice-roller",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "javalent/fantasy-statblocks",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "valentine195/obsidian-initiative-tracker",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "valentine195/obsidian-leaflet-plugin",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "seveibar/node-websocat",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lambdaisland/corgi",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lambdaisland/corgi-packages",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "raxod502/straight.el",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mattgreen/watchexec",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tarsius/auto-compile",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "kennethreitz/fish-pipenv",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dioxuslabs/dioxus-std",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jkelleyrtp/dioxus",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "clj-kondo/clj-kondo.configs",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "npm/lifecycle",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "sstephenson/rbenv-gem-rehash",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "actions/container-toolkit-template",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "github/licensed",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "apple/swift-llbuild",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bazelbuild/bazel-gazelle",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ropensci/plotly",
+      "graph_distance": 53
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dotnet/aspire",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dotnet/aspire-samples",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vmware-tanzu/buildkit-cli-for-kubectl",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pytorchlightning/deep-learning-project-template",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pytorch/fairseq",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "atoomic/snapcast-volume-ui",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "derglaus/snapcast-websockets-ui",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "xkonni/snapcastr",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "badaix/snapcast",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "badaix/snapdroid",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "plamere/spotipy",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rose-pine/palette",
+      "graph_distance": 54
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "raphaelbastide/unified-font-repository",
+      "graph_distance": 54
     }
   ],
   "processed": [
@@ -8595,7 +8535,6 @@
     "charmbracelet/colorprofile",
     "charmbracelet/glamour",
     "knownsec/404starlink",
-    "knownsec/404starlink-project",
     "lazychanger/docker-kunlun-mirror",
     "pydantic/pydantic-ai",
     "ayanami0730/deep_research_bench",
@@ -15666,7 +15605,6 @@
     "wa-lang/webgpu",
     "coin-or-tools/buildtools",
     "bwt-dev/bwt",
-    "parazyd/obelisk",
     "spesmilo/electrumx",
     "btcsuite/btcd",
     "lightninglabs/neutrino",
@@ -23339,7 +23277,6 @@
     "paralleldrive/cuid2",
     "fillumina/id-encryptor",
     "jakudlaty/tsid",
-    "jchambers/id-obfuscator",
     "kgkoutis/tsid.creator.net",
     "apple/swift-nio-extras",
     "apple/swift-nio-http2",
@@ -28777,7 +28714,6 @@
     "junchengyan/groundedsam_occnerf",
     "linshan-bin/occnerf",
     "mcg-nju/sparseocc",
-    "tri-ml/ddad",
     "tri-ml/dgp",
     "weiyithu/weiyithu.github.io",
     "facebookresearch/atlas",

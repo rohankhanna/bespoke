@@ -74,14 +74,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "ogx-ai/ogx",
-      "target": "github/codeql-action/init@e46ed2cbd01164d986452f91f178727624ae40d7",
+      "target": "github/codeql-action/init@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "ogx-ai/ogx",
-      "target": "github/codeql-action/analyze@e46ed2cbd01164d986452f91f178727624ae40d7",
+      "target": "github/codeql-action/analyze@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
       "target_type": "component"
     },
     {
@@ -169,6 +169,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-11T00:40:20.012502+00:00",
+  "generated_at": "2026-05-11T07:24:13.902749+00:00",
   "source_repo": "ogx-ai/ogx"
 }

@@ -84,7 +84,7 @@
   "normalized_form": "close-inactive-issues",
   "observation_id": "fafed8abdb52c745",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-11T00:40:20.012502+00:00",
+  "observed_at": "2026-05-11T07:24:13.902749+00:00",
   "observed_text": "Close Inactive Issues",
   "source_context_snippet": "Close Inactive Issues",
   "source_file": ".github/workflows/close-inactive-issues.yaml",

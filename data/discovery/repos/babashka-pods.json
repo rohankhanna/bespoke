@@ -23,7 +23,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-11T01:57:44.513308+00:00",
+  "fetched_at": "2026-05-11T07:50:09.105558+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -40,9 +40,9 @@
     "html_url": "https://github.com/babashka/pods",
     "language": "Clojure",
     "pushed_at": "2025-08-02T13:03:10Z",
-    "stargazers_count": 140,
+    "stargazers_count": 141,
     "topics": [],
-    "updated_at": "2026-05-10T15:15:15Z"
+    "updated_at": "2026-05-11T02:26:03Z"
   },
   "repo_links": [
     {

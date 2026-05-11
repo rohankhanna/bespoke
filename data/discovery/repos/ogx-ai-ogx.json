@@ -66,12 +66,12 @@
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/init@e46ed2cbd01164d986452f91f178727624ae40d7",
+      "component": "github/codeql-action/init@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/analyze@e46ed2cbd01164d986452f91f178727624ae40d7",
+      "component": "github/codeql-action/analyze@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
@@ -206,14 +206,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "ogx-ai/ogx",
-      "target": "github/codeql-action/init@e46ed2cbd01164d986452f91f178727624ae40d7",
+      "target": "github/codeql-action/init@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "ogx-ai/ogx",
-      "target": "github/codeql-action/analyze@e46ed2cbd01164d986452f91f178727624ae40d7",
+      "target": "github/codeql-action/analyze@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
       "target_type": "component"
     },
     {
@@ -301,7 +301,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T01:54:08.656008+00:00",
+  "fetched_at": "2026-05-11T07:47:02.459064+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -353,10 +353,10 @@
     "full_name": "ogx-ai/ogx",
     "html_url": "https://github.com/ogx-ai/ogx",
     "language": "Python",
-    "pushed_at": "2026-05-09T20:43:44Z",
+    "pushed_at": "2026-05-11T07:43:50Z",
     "stargazers_count": 8367,
     "topics": [],
-    "updated_at": "2026-05-10T07:40:00Z"
+    "updated_at": "2026-05-11T07:39:37Z"
   },
   "repo_links": [],
   "terms": [
