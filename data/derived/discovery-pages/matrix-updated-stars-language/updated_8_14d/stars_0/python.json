@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 18,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 8,
-    "terms": 12
+    "concepts": 15,
+    "observations": 15,
+    "repos": 7,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
-    "danielrosehill/Claude-AI-Video-Producer-Plugin",
+    "danielrosehill/Claude-Agent-Relay-Plugin",
+    "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
     "danielrosehill/Repo-Starters-And-Templates-Index",
     "flagos-ai/verl-FL",
     "lace/lacecore",
-    "NightWatcher314/dockgecli",
-    "NightWatcher314/npmctl",
     "seanmacavaney/ir-datasets.com",
     "superfarther/K2V"
   ]

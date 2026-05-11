@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 2244,
+    "components": 2200,
     "concepts": 358,
     "observations": 359,
     "repos": 52,
@@ -12,15 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "alphagov/govuk-frontend",
     "amannn/action-semantic-pull-request",
     "antfu/eslint-config",
     "apostrophecms/apostrophe",
     "appium/appium-inspector",
+    "carbon-design-system/carbon",
     "dotenvx/dotenvx",
-    "google/docsy",
     "GoogleChromeLabs/clooney",
     "GoogleCloudPlatform/nodejs-docs-samples",
     "heshengtao/super-agent-party",
@@ -40,6 +40,7 @@
     "mapbox/pixelmatch",
     "mermaid-js/mermaid-cli",
     "middyjs/middy",
+    "MikeMcl/bignumber.js",
     "mozilla/rhino",
     "mozilla/web-ext",
     "nodeca/js-yaml",
@@ -64,7 +65,6 @@
     "violentmonkey/violentmonkey",
     "WebKit/WebKit",
     "webpack/webpack-cli",
-    "webpack/webpack-dev-middleware",
-    "webpack/webpack-dev-server"
+    "webpack/webpack-dev-middleware"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 19,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 7,
-    "terms": 19
+    "components": 17,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 3,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "deepset-ai/haystack-integrations",
-    "lxgw/LxgwNeoXiZhi-Screen",
-    "lxgw/LxgwXiHei",
-    "lxgw/LxgwZhiSong",
-    "maplibre/awesome-maplibre",
     "near/NEPs",
     "pyOpenSci/software-submission"
   ]

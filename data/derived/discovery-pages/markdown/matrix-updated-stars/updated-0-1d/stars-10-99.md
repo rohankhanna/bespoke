@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -12,10 +12,10 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 ## Counts
 
 - repos: 6
-- terms: 38
-- components: 46
-- concepts: 38
-- observations: 38
+- terms: 41
+- components: 59
+- concepts: 41
+- observations: 41
 
 ## Static behavior
 
@@ -25,20 +25,20 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [joshsymonds/cc-tools](https://github.com/joshsymonds/cc-tools) | 50 | 2026-05-11T01:57:27Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
+| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-05-11T00:00:53Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
+| [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-05-10T20:30:00Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [ipdxco/github-as-code](https://github.com/ipdxco/github-as-code) | 35 | 2026-05-10T19:48:40Z | TypeScript | Infrastructure/tooling | 10 | 16 | 10 | 10 |
+| [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | 38 | 2026-05-10T12:04:48Z | Rust | Infrastructure/tooling | 5 | 18 | 5 | 5 |
 | [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-05-10T07:39:51Z | Other | Infrastructure/tooling | 15 | 9 | 15 | 15 |
-| [tinted-theming/tinted-xresources](https://github.com/tinted-theming/tinted-xresources) | 20 | 2026-05-10T02:01:49Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
-| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 81 | 2026-05-09T22:23:34Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
-| [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | 37 | 2026-05-09T21:30:18Z | Rust | Infrastructure/tooling | 5 | 18 | 5 | 5 |
-| [cloudfoundry/bosh-google-cpi-release](https://github.com/cloudfoundry/bosh-google-cpi-release) | 63 | 2026-05-09T10:33:26Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
-| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-05-09T09:57:46Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 81 | 2026-05-09T22:23:34Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
-| [cloudfoundry/bosh-google-cpi-release](https://github.com/cloudfoundry/bosh-google-cpi-release) | 63 | 2026-05-09T10:33:26Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
-| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-05-09T09:57:46Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
+| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-05-11T00:00:53Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-05-10T07:39:51Z | Other | Infrastructure/tooling | 15 | 9 | 15 | 15 |
-| [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | 37 | 2026-05-09T21:30:18Z | Rust | Infrastructure/tooling | 5 | 18 | 5 | 5 |
-| [tinted-theming/tinted-xresources](https://github.com/tinted-theming/tinted-xresources) | 20 | 2026-05-10T02:01:49Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
+| [joshsymonds/cc-tools](https://github.com/joshsymonds/cc-tools) | 50 | 2026-05-11T01:57:27Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
+| [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | 38 | 2026-05-10T12:04:48Z | Rust | Infrastructure/tooling | 5 | 18 | 5 | 5 |
+| [ipdxco/github-as-code](https://github.com/ipdxco/github-as-code) | 35 | 2026-05-10T19:48:40Z | TypeScript | Infrastructure/tooling | 10 | 16 | 10 | 10 |
+| [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-05-10T20:30:00Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |

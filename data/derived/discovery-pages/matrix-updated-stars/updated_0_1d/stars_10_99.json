@@ -1,23 +1,23 @@
 {
   "counts": {
-    "components": 46,
-    "concepts": 38,
-    "observations": 38,
+    "components": 59,
+    "concepts": 41,
+    "observations": 41,
     "repos": 6,
-    "terms": 38
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
-    "cloudfoundry/bosh-google-cpi-release",
-    "hiddenswitch/pip-and-uv-installable-ComfyUI",
+    "intel-staging/text-generation-webui",
+    "ipdxco/github-as-code",
+    "joshsymonds/cc-tools",
     "karafka/example-apps",
     "lumen-oss/luarocks-tag-release",
-    "tinted-theming/tinted-xresources",
     "vaporif/parry-guard"
   ]
 }

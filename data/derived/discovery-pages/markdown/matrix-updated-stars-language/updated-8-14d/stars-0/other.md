@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 0 stars · Other
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
+- repos: 7
 - terms: 8
 - components: 12
 - concepts: 8
@@ -33,7 +33,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaBinaryWrappers/Expat_jll.jl](https://github.com/JuliaBinaryWrappers/Expat_jll.jl) | 0 | 2026-04-27T23:30:31Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [arnaud-lb/php-rdkafka-doc](https://github.com/arnaud-lb/php-rdkafka-doc) | 0 | 2026-04-27T16:20:34Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [danielrosehill/Claude-HP5200-Skill-plugin](https://github.com/danielrosehill/Claude-HP5200-Skill-plugin) | 0 | 2026-04-27T15:13:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [JuliaBinaryWrappers/GDAL_jll.jl](https://github.com/JuliaBinaryWrappers/GDAL_jll.jl) | 0 | 2026-04-27T00:14:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -46,4 +45,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaBinaryWrappers/Expat_jll.jl](https://github.com/JuliaBinaryWrappers/Expat_jll.jl) | 0 | 2026-04-27T23:30:31Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [arnaud-lb/php-rdkafka-doc](https://github.com/arnaud-lb/php-rdkafka-doc) | 0 | 2026-04-27T16:20:34Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [danielrosehill/Claude-HP5200-Skill-plugin](https://github.com/danielrosehill/Claude-HP5200-Skill-plugin) | 0 | 2026-04-27T15:13:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [JuliaBinaryWrappers/GDAL_jll.jl](https://github.com/JuliaBinaryWrappers/GDAL_jll.jl) | 0 | 2026-04-27T00:14:45Z | Other | Unknown | 0 | 0 | 0 | 0 |

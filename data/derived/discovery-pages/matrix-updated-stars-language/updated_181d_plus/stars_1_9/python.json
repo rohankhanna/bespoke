@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 446,
-    "concepts": 329,
-    "observations": 329,
-    "repos": 266,
-    "terms": 332
+    "components": 448,
+    "concepts": 331,
+    "observations": 331,
+    "repos": 267,
+    "terms": 334
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -198,6 +198,7 @@
     "mahmoudnafifi/WB_color_augmenter_python",
     "mamba-org/quetz-client",
     "mamba-org/quetz-sql-authenticator",
+    "MarcCote/downward",
     "martinrenou/xjson",
     "matt-gardner/allennlp",
     "MDAnalysis/mda-xdrlib",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 249,
-    "concepts": 325,
-    "observations": 326,
-    "repos": 25,
-    "terms": 325
+    "components": 190,
+    "concepts": 251,
+    "observations": 251,
+    "repos": 19,
+    "terms": 251
   },
   "facet_version": 1,
   "filters": {
@@ -12,32 +12,26 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
-    "aden-hive/hive",
-    "Comfy-Org/ComfyUI-Manager",
+    "axolotl-ai-cloud/axolotl",
     "crewAIInc/crewAI",
     "Dao-AILab/flash-attention",
     "datalab-to/marker",
     "datalab-to/surya",
-    "deepspeedai/DeepSpeed",
     "fastapi/fastapi",
     "great-expectations/great_expectations",
     "hiyouga/LlamaFactory",
     "HKUDS/CLI-Anything",
     "huggingface/pytorch-image-models",
-    "huggingface/sentence-transformers",
     "ludwig-ai/ludwig",
     "modelscope/DiffSynth-Studio",
+    "modelscope/ms-swift",
+    "NVIDIA-NeMo/NeMo",
     "oobabooga/textgen",
-    "OpenHands/OpenHands",
     "PDFMathTranslate/PDFMathTranslate",
-    "pydantic/pydantic",
     "pyg-team/pytorch_geometric",
-    "qubvel-org/segmentation_models.pytorch",
     "run-llama/llama_index",
-    "ungoogled-software/ungoogled-chromium",
-    "wkentaro/labelme",
-    "zhayujie/CowAgent"
+    "ungoogled-software/ungoogled-chromium"
   ]
 }

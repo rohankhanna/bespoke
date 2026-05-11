@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 822,
-    "concepts": 543,
-    "observations": 547,
-    "repos": 82,
-    "terms": 539
+    "components": 793,
+    "concepts": 521,
+    "observations": 525,
+    "repos": 77,
+    "terms": 517
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "0xPolygonHermez/zisk",
     "a16z/jolt",
@@ -23,13 +23,11 @@
     "apache/hudi-rs",
     "apollographql/router",
     "apollographql/rover",
-    "arkworks-rs/poly-commit",
     "aws/aws-lc-rs",
     "base/base",
     "boquila/boquilahub",
     "cargo-bins/cargo-quickinstall",
     "cargo-public-api/cargo-public-api",
-    "ClickHouse/clickhouse-rs",
     "cobalt-org/liquid-rust",
     "conda/rattler",
     "cosmos/solidity-ibc-eureka",
@@ -64,18 +62,15 @@
     "matter-labs/zksync-airbender",
     "MercuryTechnologies/ghciwatch",
     "mongodb/bson-rust",
-    "Mooncake-Labs/moonlink",
     "mozilla/application-services",
     "near/near-cli-rs",
     "near/near-sdk-rs",
     "openvm-org/openvm",
-    "oschwald/maxminddb-rust",
     "oxc-project/oxc-resolver",
     "paradigmxyz/solar",
     "posit-dev/ark",
     "prefix-dev/rattler-build",
     "pubgrub-rs/pubgrub",
-    "quickwit-oss/search-benchmark-game",
     "quickwit-oss/tantivy-py",
     "rust-diplomat/diplomat",
     "rust-lang/compiler-builtins",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 3,
-    "terms": 27
+    "components": 14,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 2,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "karafka/example-apps",
-    "lumen-oss/luarocks-tag-release",
-    "tinted-theming/tinted-xresources"
+    "lumen-oss/luarocks-tag-release"
   ]
 }

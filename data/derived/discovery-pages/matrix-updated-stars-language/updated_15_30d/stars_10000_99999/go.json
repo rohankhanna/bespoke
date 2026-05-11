@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1000,
-    "concepts": 975,
-    "observations": 979,
-    "repos": 87,
-    "terms": 962
+    "components": 1026,
+    "concepts": 1001,
+    "observations": 1005,
+    "repos": 89,
+    "terms": 988
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -20,6 +20,7 @@
     "abiosoft/colima",
     "AdguardTeam/AdGuardHome",
     "ahmetb/kubectx",
+    "apernet/hysteria",
     "aquasecurity/trivy",
     "argoproj/argo-cd",
     "asdf-vm/asdf",
@@ -90,6 +91,7 @@
     "quic-go/quic-go",
     "router-for-me/cliproxyapi",
     "rs/zerolog",
+    "schollz/croc",
     "shadow1ng/fscan",
     "shirou/gopsutil",
     "slackhq/nebula",

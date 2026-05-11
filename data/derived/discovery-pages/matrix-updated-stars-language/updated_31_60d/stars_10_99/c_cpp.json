@@ -3,7 +3,7 @@
     "components": 192,
     "concepts": 188,
     "observations": 188,
-    "repos": 39,
+    "repos": 40,
     "terms": 186
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "ada-url/ada-python",
     "ada-url/goada",
@@ -31,6 +31,7 @@
     "DeanoC/tiny_imageformat",
     "edge-classic/EDGE-classic",
     "farm-ng/farm-ng-core",
+    "fcambus/bdf2sfd",
     "flashlight/text",
     "flatpak/xdg-dbus-proxy",
     "galaxyproject/KegAlign",

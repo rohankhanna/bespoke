@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 51
-- terms: 127
-- components: 205
-- concepts: 109
-- observations: 109
+- repos: 49
+- terms: 113
+- components: 178
+- concepts: 93
+- observations: 93
 
 ## Static behavior
 
@@ -75,8 +75,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cdxeve/scale-openclaw](https://github.com/cdxeve/scale-openclaw) | 3 | 2026-04-12T02:08:49Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [cdeust/cortex-cowork](https://github.com/cdeust/Cortex-cowork) | 1 | 2026-04-11T13:40:10Z | Python | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [ashvardanian/ashvardanian](https://github.com/ashvardanian/ashvardanian) | 3 | 2026-04-11T09:26:22Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [CoolCat467/idlemypyextension](https://github.com/CoolCat467/idlemypyextension) | 2 | 2026-04-11T05:42:12Z | Python | Infrastructure/tooling | 12 | 7 | 14 | 14 |
-| [danielrosehill/Geopol-Forecaster](https://github.com/danielrosehill/Geopol-Forecaster) | 2 | 2026-04-10T15:56:17Z | Python | Infrastructure/tooling | 2 | 20 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -118,8 +116,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [caesar0301/soothe](https://github.com/caesar0301/soothe) | 2 | 2026-04-19T11:39:59Z | Python | Infrastructure/tooling | 1 | 3 | 0 | 0 |
 | [verkyyi/tokenman](https://github.com/verkyyi/tokenman) | 2 | 2026-04-19T06:57:48Z | Python | Infrastructure/tooling | 8 | 11 | 0 | 0 |
 | [piqrypt/piqrypt](https://github.com/PiQrypt/piqrypt) | 2 | 2026-04-17T10:34:51Z | Python | Infrastructure/tooling | 2 | 6 | 0 | 0 |
-| [CoolCat467/idlemypyextension](https://github.com/CoolCat467/idlemypyextension) | 2 | 2026-04-11T05:42:12Z | Python | Infrastructure/tooling | 12 | 7 | 14 | 14 |
-| [danielrosehill/Geopol-Forecaster](https://github.com/danielrosehill/Geopol-Forecaster) | 2 | 2026-04-10T15:56:17Z | Python | Infrastructure/tooling | 2 | 20 | 2 | 2 |
 | [conda-forge/threadpoolctl-feedstock](https://github.com/conda-forge/threadpoolctl-feedstock) | 1 | 2026-04-24T03:50:03Z | Python | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [arielagor/jetbrains-mono-hebrew](https://github.com/arielagor/jetbrains-mono-hebrew) | 1 | 2026-04-22T20:14:06Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [piqrypt/aiss-standard](https://github.com/PiQrypt/aiss-standard) | 1 | 2026-04-19T16:45:49Z | Python | Infrastructure/tooling | 9 | 6 | 9 | 9 |

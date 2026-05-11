@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 10,
-    "terms": 23
+    "components": 41,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 13,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "adammes/voyanode",
     "cdeust/cortex-know-when-to-stop-training-model",
+    "danielJL-altius/israelgrocerymcp",
+    "danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",
+    "danielrosehill/Red-Alert-Monitoring-Stack",
     "devnen/chatterbox-v2",
     "iandees/scrapy-camoufox",
     "marin-community/harbor",

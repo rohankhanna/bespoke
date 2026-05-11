@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 30
-- components: 205
-- concepts: 30
-- observations: 30
+- repos: 3
+- terms: 26
+- components: 207
+- concepts: 26
+- observations: 27
 
 ## Static behavior
 
@@ -26,12 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [endojs/endo](https://github.com/endojs/endo) | 1016 | 2026-05-09T11:32:45Z | JavaScript | Infrastructure/tooling | 17 | 46 | 17 | 17 |
-| [module-federation/core](https://github.com/module-federation/core) | 2519 | 2026-05-09T08:56:27Z | JavaScript | Infrastructure/tooling | 13 | 159 | 13 | 13 |
+| [callstack/react-native-builder-bob](https://github.com/callstack/react-native-builder-bob) | 3209 | 2026-05-11T01:08:32Z | JavaScript | CLI | 10 | 28 | 10 | 10 |
+| [googleapis/google-cloud-node](https://github.com/googleapis/google-cloud-node) | 3155 | 2026-05-10T19:11:31Z | JavaScript | CLI | 8 | 20 | 8 | 9 |
+| [ipfs/ipfs-webui](https://github.com/ipfs/ipfs-webui) | 1631 | 2026-05-10T15:11:01Z | JavaScript | Infrastructure/tooling | 8 | 159 | 8 | 8 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [module-federation/core](https://github.com/module-federation/core) | 2519 | 2026-05-09T08:56:27Z | JavaScript | Infrastructure/tooling | 13 | 159 | 13 | 13 |
-| [endojs/endo](https://github.com/endojs/endo) | 1016 | 2026-05-09T11:32:45Z | JavaScript | Infrastructure/tooling | 17 | 46 | 17 | 17 |
+| [callstack/react-native-builder-bob](https://github.com/callstack/react-native-builder-bob) | 3209 | 2026-05-11T01:08:32Z | JavaScript | CLI | 10 | 28 | 10 | 10 |
+| [googleapis/google-cloud-node](https://github.com/googleapis/google-cloud-node) | 3155 | 2026-05-10T19:11:31Z | JavaScript | CLI | 8 | 20 | 8 | 9 |
+| [ipfs/ipfs-webui](https://github.com/ipfs/ipfs-webui) | 1631 | 2026-05-10T15:11:01Z | JavaScript | Infrastructure/tooling | 8 | 159 | 8 | 8 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 704,
-    "concepts": 567,
-    "observations": 573,
-    "repos": 173,
-    "terms": 560
+    "components": 711,
+    "concepts": 576,
+    "observations": 582,
+    "repos": 175,
+    "terms": 569
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "0xProject/OpenZKP",
     "10XGenomics/vartrix",
@@ -43,6 +43,7 @@
     "Atome-FE/llama-node",
     "aweinstock314/rust-clipboard",
     "awestlake87/pyo3-asyncio",
+    "bbqsrc/cargo-ndk",
     "bitshifter/mathbench-rs",
     "blitz-js/next-superjson-plugin",
     "BurntSushi/cargo-benchcmp",
@@ -115,6 +116,7 @@
     "kvark/mint",
     "LaurentMazare/diffusers-rs",
     "layr-labs/hello-world-avs",
+    "lerouxrgd/datachannel-rs",
     "lnx-search/rewrk",
     "lpghatguy/aftman",
     "maralla/pack",

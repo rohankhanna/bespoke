@@ -1,20 +1,19 @@
 {
   "counts": {
-    "components": 143,
-    "concepts": 73,
-    "observations": 73,
-    "repos": 40,
-    "terms": 72
+    "components": 137,
+    "concepts": 69,
+    "observations": 69,
+    "repos": 38,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "0xBigBoss/ghostty-web",
-    "1000ch/Sublime-csso",
     "8144225309/superscalar-mcp",
     "AdaCore/vss-text",
     "aleclarson/vite-multi-spa",
@@ -33,7 +32,6 @@
     "guaguastandup/guaguastandup",
     "jrsoftware/is7z",
     "kitknox/helix",
-    "kylebarron/pyo3-file",
     "mjvolk3/dendron-template",
     "onomojo/i18n-country-translations-data",
     "onomojo/i18n-country-translations-ex",

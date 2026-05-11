@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 346,
-    "concepts": 235,
-    "observations": 236,
-    "repos": 25,
-    "terms": 235
+    "components": 306,
+    "concepts": 176,
+    "observations": 177,
+    "repos": 20,
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
@@ -12,31 +12,26 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "Andersbakken/rtags",
-    "ashvardanian/NumKong",
     "brave/brave-core",
-    "dmlc/dlpack",
+    "CloudCompare/CloudCompare",
     "fnc12/sqlite_orm",
     "gpac/gpac",
     "harfbuzz/harfbuzz",
     "libbitcoin/libbitcoin-system",
-    "libcpr/cpr",
     "luau-lang/luau",
     "mstorsjo/llvm-mingw",
     "NVIDIA/DALI",
     "OSGeo/gdal",
-    "realsenseai/librealsense",
     "riscv-collab/riscv-gnu-toolchain",
     "skeeto/w64devkit",
     "sorbet/sorbet",
     "stack-of-tasks/pinocchio",
     "swiftlang/swift-corelibs-foundation",
     "swiftlang/swift-llbuild",
-    "TrenchBroom/TrenchBroom",
     "ultrajson/ultrajson",
-    "universal-ctags/ctags",
     "uxlfoundation/oneTBB",
     "xtensor-stack/xtensor"
   ]

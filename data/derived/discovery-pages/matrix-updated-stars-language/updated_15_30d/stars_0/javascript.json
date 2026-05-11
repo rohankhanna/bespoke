@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 129,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 9,
-    "terms": 32
+    "concepts": 34,
+    "observations": 34,
+    "repos": 10,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "aaronlamz/navpress",
+    "danielrosehill/Claude-Israel-Shopping-Plugin",
     "fabon-f/temporal-polyfill-comparison",
     "gyf0311/lorekit",
     "i18next/i18next-subliminal",

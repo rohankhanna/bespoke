@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 25912,
-    "concepts": 22231,
-    "observations": 22302,
-    "repos": 5489,
-    "terms": 22176
+    "components": 25921,
+    "concepts": 22253,
+    "observations": 22324,
+    "repos": 5495,
+    "terms": 22202
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -1644,6 +1644,7 @@
     "docker/docs",
     "docopt/docopt.rb",
     "docstrap/docstrap",
+    "docusealco/rllama",
     "Doggettx/stable-diffusion",
     "Dogwei/RyuCsharp",
     "DOI-USGS/ncdfgeom",
@@ -4041,6 +4042,7 @@
     "olbrich/ruby-units",
     "Olical/conjure",
     "olimorris/neotest-phpunit",
+    "olimorris/neotest-rspec",
     "olimorris/onedarkpro.nvim",
     "oliyh/carve.el",
     "omertov/encoder4editing",
@@ -4119,6 +4121,7 @@
     "optuna/optunahub-web",
     "oracle-quickstart/oci-o11y-solutions",
     "OrchardCMS/OrchardCore",
+    "orjangj/neotest-ctest",
     "OrleansContrib/OrleansDashboard",
     "orpatashnik/StyleCLIP",
     "ory/k8s",
@@ -4552,6 +4555,7 @@
     "rsmdt/yell",
     "rspatial/raster",
     "rspec/rspec",
+    "rspec/rspec-metagem",
     "rspec/rspec-rails",
     "RSTLess-research/Fauno-Italian-LLM",
     "rstudio/cheatsheets",
@@ -4912,6 +4916,7 @@
     "subframe7536/obsidian-theme-maple",
     "subhadarship/kmeans_pytorch",
     "sudar/Arduino-Makefile",
+    "suketa/nvim-dap-ruby",
     "SuLvXiangXin/diff-gaussian-rasterization",
     "suno-ai/bark",
     "supranational/blst",
@@ -5056,6 +5061,7 @@
     "ThePharaohArt/Obsidian-CyberGlow",
     "ThePrimeagen/.dotfiles",
     "theseyan/lmdbx-zig",
+    "theutz/neotest-pest",
     "thheller/shadow-cljs",
     "thiagopradi/octopus",
     "thinca/vim-qfreplace",

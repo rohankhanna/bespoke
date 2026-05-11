@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11185,
-    "concepts": 6461,
-    "observations": 6476,
-    "repos": 3095,
-    "terms": 6418
+    "components": 11190,
+    "concepts": 6464,
+    "observations": 6479,
+    "repos": 3098,
+    "terms": 6424
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -693,6 +693,7 @@
     "castortech/mdbxjni",
     "ccccczzy/icc",
     "cdcdx/lotus",
+    "cedricrupb/code_ast",
     "cefsharp/CefSharp.Wpf.HwndHost",
     "cehoffman/luaenv",
     "celestiaorg/protobuf3-solidity",
@@ -2389,7 +2390,6 @@
     "paulstarke/AnimationAuthoring",
     "pawel-wiejacha/tmux-picker",
     "pblatter/ettrack",
-    "pdcxs/manimprojects",
     "pdf-rs/font",
     "pellepl/spiflash_driver",
     "pengx17/knowledge-garden",
@@ -2651,6 +2651,7 @@
     "SenseLogic/PENDOWN",
     "sergiodxa/react-router-i18next-example",
     "ServiceNow/DoomArena",
+    "servo/unicode-bidi",
     "SesameAILabs/silentcipher",
     "setl/rdf-urdna",
     "seung-lab/BigArrays.jl",
@@ -2764,6 +2765,7 @@
     "SublimeText-Markdown/MarkdownCodeExporter",
     "successar/Eraser-Benchmark-Baseline-Models",
     "SudeepDasari/data4robotics",
+    "suketa/nvim-dap-ruby",
     "SuLvXiangXin/diff-gaussian-rasterization",
     "sumcumo/imagemin-merlin",
     "superclaude-org/superqwen_framework",
@@ -2828,6 +2830,7 @@
     "thetirefire/badidea",
     "thetutlage/meta",
     "theupdateframework/taps",
+    "theutz/neotest-pest",
     "thinca/vim-textobj-between",
     "ThisisBillhe/torch_quantizer",
     "thomcc/index_vec",
@@ -2881,7 +2884,7 @@
     "TREMA-UNH/trec-car-tools",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",

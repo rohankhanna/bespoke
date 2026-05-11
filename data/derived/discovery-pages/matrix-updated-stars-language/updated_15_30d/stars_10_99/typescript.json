@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2052,
-    "concepts": 299,
-    "observations": 302,
-    "repos": 70,
-    "terms": 331
+    "components": 2025,
+    "concepts": 298,
+    "observations": 301,
+    "repos": 69,
+    "terms": 330
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "52-entertainment/vite-plugin-oxlint",
     "adyscorpius/logseq-jira",
@@ -20,13 +20,11 @@
     "almogdepaz/wolfpack",
     "apollographql/vscode-graphql",
     "ava-labs/avalanche-dapp-sdks",
-    "awslabs/wdio-aws-device-farm-service",
     "Azure/bicep-deploy",
     "Azure/powershell",
     "Beaglefoot/prettier-plugin-awk",
     "bestkolobok/vue3-jsoneditor",
     "bolasblack/shadow-cljs-vite-plugin",
-    "buddingnewinsights/proxypal",
     "bufbuild/protovalidate-es",
     "buttondown/cli",
     "cargo-bins/release-pr",
@@ -70,6 +68,7 @@
     "oclif/plugin-help",
     "oclif/plugin-plugins",
     "oclif/plugin-update",
+    "oclif/test",
     "octokit/webhooks-methods.js",
     "ogx-ai/llama-stack-client-typescript",
     "overseedai/viwo",

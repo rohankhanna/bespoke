@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 33
-- components: 26
-- concepts: 33
-- observations: 33
+- repos: 4
+- terms: 21
+- components: 35
+- concepts: 21
+- observations: 21
 
 ## Static behavior
 
@@ -26,14 +26,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [blender/blender](https://github.com/blender/blender) | 18346 | 2026-05-09T12:40:46Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
-| [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | 35135 | 2026-05-09T12:18:39Z | C/C++ | Infrastructure/tooling | 18 | 21 | 18 | 18 |
-| [argotorg/solidity](https://github.com/argotorg/solidity) | 25626 | 2026-05-09T10:56:50Z | C/C++ | Infrastructure/tooling | 11 | 5 | 11 | 11 |
+| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14620 | 2026-05-10T14:45:00Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [apache/brpc](https://github.com/apache/brpc) | 17500 | 2026-05-10T14:34:48Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 49549 | 2026-05-10T14:34:27Z | C/C++ | Infrastructure/tooling | 10 | 25 | 10 | 10 |
+| [DayBreak-u/chineseocr_lite](https://github.com/DayBreak-u/chineseocr_lite) | 12282 | 2026-05-10T14:01:13Z | C/C++ | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | 35135 | 2026-05-09T12:18:39Z | C/C++ | Infrastructure/tooling | 18 | 21 | 18 | 18 |
-| [argotorg/solidity](https://github.com/argotorg/solidity) | 25626 | 2026-05-09T10:56:50Z | C/C++ | Infrastructure/tooling | 11 | 5 | 11 | 11 |
-| [blender/blender](https://github.com/blender/blender) | 18346 | 2026-05-09T12:40:46Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
+| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 49549 | 2026-05-10T14:34:27Z | C/C++ | Infrastructure/tooling | 10 | 25 | 10 | 10 |
+| [apache/brpc](https://github.com/apache/brpc) | 17500 | 2026-05-10T14:34:48Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14620 | 2026-05-10T14:45:00Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [DayBreak-u/chineseocr_lite](https://github.com/DayBreak-u/chineseocr_lite) | 12282 | 2026-05-10T14:01:13Z | C/C++ | Infrastructure/tooling | 2 | 0 | 2 | 2 |

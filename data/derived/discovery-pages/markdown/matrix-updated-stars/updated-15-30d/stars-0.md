@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 165
-- terms: 263
-- components: 653
-- concepts: 234
-- observations: 234
+- repos: 167
+- terms: 268
+- components: 657
+- concepts: 239
+- observations: 239
 
 ## Static behavior
 
@@ -25,6 +25,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [kyverno/.github](https://github.com/kyverno/.github) | 0 | 2026-04-27T04:35:10Z | Shell | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [buty4649/mruby-yyjson](https://github.com/buty4649/mruby-yyjson) | 0 | 2026-04-27T00:14:49Z | C/C++ | Infrastructure/tooling | 3 | 5 | 3 | 3 |
+| [JuliaBinaryWrappers/GDAL_jll.jl](https://github.com/JuliaBinaryWrappers/GDAL_jll.jl) | 0 | 2026-04-27T00:14:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-AI-Video-Producer-Plugin](https://github.com/danielrosehill/Claude-AI-Video-Producer-Plugin) | 0 | 2026-04-26T18:37:27Z | Python | Model/data | 0 | 0 | 0 | 0 |
+| [NightWatcher314/dockgecli](https://github.com/NightWatcher314/dockgecli) | 0 | 2026-04-26T14:15:32Z | Python | CLI | 0 | 0 | 0 | 0 |
+| [NightWatcher314/npmctl](https://github.com/NightWatcher314/npmctl) | 0 | 2026-04-26T12:16:50Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Israel-Shopping-Plugin](https://github.com/danielrosehill/Claude-Israel-Shopping-Plugin) | 0 | 2026-04-25T14:37:41Z | JavaScript | Unknown | 3 | 0 | 3 | 3 |
 | [danielrosehill/Responsible-Agent-Skill-Development](https://github.com/danielrosehill/Responsible-Agent-Skill-Development) | 0 | 2026-04-25T11:09:28Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Safety-Projects-Index](https://github.com/danielrosehill/AI-Safety-Projects-Index) | 0 | 2026-04-25T10:47:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [stable-haskell/haskell-language-server](https://github.com/stable-haskell/haskell-language-server) | 0 | 2026-04-24T17:24:19Z | Other | Infrastructure/tooling | 8 | 18 | 8 | 8 |
@@ -185,16 +192,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaBinaryWrappers/Libuuid_jll.jl](https://github.com/JuliaBinaryWrappers/Libuuid_jll.jl) | 0 | 2026-04-11T15:39:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [amoniacou/external-dns-digitalocean-webhook](https://github.com/amoniacou/external-dns-digitalocean-webhook) | 0 | 2026-04-11T14:43:07Z | Go | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [wencuecryforme/mysoul.skill](https://github.com/WencueCryforme/MySoul.SKILL) | 0 | 2026-04-11T13:51:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [grubersjoe/react-activity-calendar-tests](https://github.com/grubersjoe/react-activity-calendar-tests) | 0 | 2026-04-11T04:39:13Z | TypeScript | Unknown | 0 | 1 | 0 | 0 |
-| [psmux/scoop-omp-manager](https://github.com/psmux/scoop-omp-manager) | 0 | 2026-04-10T18:45:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Red-Alert-Monitoring-Stack](https://github.com/danielrosehill/Red-Alert-Monitoring-Stack) | 0 | 2026-04-10T17:15:24Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
-| [danielrosehill/Iran-Israel-Ceasefire-Prediction-090426](https://github.com/danielrosehill/Iran-Israel-Ceasefire-Prediction-090426) | 0 | 2026-04-10T14:44:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/brainstorm-solutions-plugin](https://github.com/danielrosehill/brainstorm-solutions-plugin) | 0 | 2026-04-10T12:29:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [kyverno/.github](https://github.com/kyverno/.github) | 0 | 2026-04-27T04:35:10Z | Shell | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [buty4649/mruby-yyjson](https://github.com/buty4649/mruby-yyjson) | 0 | 2026-04-27T00:14:49Z | C/C++ | Infrastructure/tooling | 3 | 5 | 3 | 3 |
+| [JuliaBinaryWrappers/GDAL_jll.jl](https://github.com/JuliaBinaryWrappers/GDAL_jll.jl) | 0 | 2026-04-27T00:14:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-AI-Video-Producer-Plugin](https://github.com/danielrosehill/Claude-AI-Video-Producer-Plugin) | 0 | 2026-04-26T18:37:27Z | Python | Model/data | 0 | 0 | 0 | 0 |
+| [NightWatcher314/dockgecli](https://github.com/NightWatcher314/dockgecli) | 0 | 2026-04-26T14:15:32Z | Python | CLI | 0 | 0 | 0 | 0 |
+| [NightWatcher314/npmctl](https://github.com/NightWatcher314/npmctl) | 0 | 2026-04-26T12:16:50Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Israel-Shopping-Plugin](https://github.com/danielrosehill/Claude-Israel-Shopping-Plugin) | 0 | 2026-04-25T14:37:41Z | JavaScript | Unknown | 3 | 0 | 3 | 3 |
 | [danielrosehill/Responsible-Agent-Skill-Development](https://github.com/danielrosehill/Responsible-Agent-Skill-Development) | 0 | 2026-04-25T11:09:28Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Safety-Projects-Index](https://github.com/danielrosehill/AI-Safety-Projects-Index) | 0 | 2026-04-25T10:47:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [stable-haskell/haskell-language-server](https://github.com/stable-haskell/haskell-language-server) | 0 | 2026-04-24T17:24:19Z | Other | Infrastructure/tooling | 8 | 18 | 8 | 8 |
@@ -355,8 +364,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaBinaryWrappers/Libuuid_jll.jl](https://github.com/JuliaBinaryWrappers/Libuuid_jll.jl) | 0 | 2026-04-11T15:39:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [amoniacou/external-dns-digitalocean-webhook](https://github.com/amoniacou/external-dns-digitalocean-webhook) | 0 | 2026-04-11T14:43:07Z | Go | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [wencuecryforme/mysoul.skill](https://github.com/WencueCryforme/MySoul.SKILL) | 0 | 2026-04-11T13:51:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [grubersjoe/react-activity-calendar-tests](https://github.com/grubersjoe/react-activity-calendar-tests) | 0 | 2026-04-11T04:39:13Z | TypeScript | Unknown | 0 | 1 | 0 | 0 |
-| [psmux/scoop-omp-manager](https://github.com/psmux/scoop-omp-manager) | 0 | 2026-04-10T18:45:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Red-Alert-Monitoring-Stack](https://github.com/danielrosehill/Red-Alert-Monitoring-Stack) | 0 | 2026-04-10T17:15:24Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
-| [danielrosehill/Iran-Israel-Ceasefire-Prediction-090426](https://github.com/danielrosehill/Iran-Israel-Ceasefire-Prediction-090426) | 0 | 2026-04-10T14:44:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/brainstorm-solutions-plugin](https://github.com/danielrosehill/brainstorm-solutions-plugin) | 0 | 2026-04-10T12:29:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

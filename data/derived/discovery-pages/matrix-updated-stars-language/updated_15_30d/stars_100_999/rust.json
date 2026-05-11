@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1052,
-    "concepts": 673,
-    "observations": 681,
-    "repos": 134,
-    "terms": 681
+    "components": 1074,
+    "concepts": 687,
+    "observations": 695,
+    "repos": 137,
+    "terms": 695
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -33,6 +33,7 @@
     "apollographql/apollo-rs",
     "arkworks-rs/algebra",
     "arkworks-rs/crypto-primitives",
+    "arkworks-rs/poly-commit",
     "arrow-udf/arrow-udf",
     "azdavis/millet",
     "Azure/azure-sdk-for-rust",
@@ -41,6 +42,7 @@
     "cachix/secretspec",
     "cargo-lambda/cargo-lambda",
     "ChainSafe/forest",
+    "ClickHouse/clickhouse-rs",
     "cloudflare/boring",
     "cometbft/tendermint-rs",
     "Commit-Boost/commit-boost-client",
@@ -99,6 +101,7 @@
     "matrix-org/seshat",
     "messense/jieba-rs",
     "microsoft/python-environment-tools",
+    "Mooncake-Labs/moonlink",
     "mozillazg/rust-pinyin",
     "mplanchard/cuid-rust",
     "nielsgroen/claude-tmux",
@@ -109,12 +112,14 @@
     "NixOS/nix-installer",
     "Nullus157/async-compression",
     "OptiVorbis/OptiVorbis",
+    "oschwald/maxminddb-rust",
     "paritytech/parity-scale-codec",
     "Plonky3/Plonky3",
     "prove-rs/z3.rs",
     "proxy-wasm/proxy-wasm-rust-sdk",
     "psmux/pstop",
     "purpleprotocol/mimalloc_rust",
+    "quickwit-oss/search-benchmark-game",
     "ramsayleung/rspotify",
     "recmo/uint",
     "rust-bitcoin/rust-miniscript",
@@ -125,8 +130,6 @@
     "rust-lang/rustwide",
     "rust-lang/socket2",
     "rust-lang/team",
-    "rust-mobile/rust-android-examples",
-    "RustCrypto/AEADs",
     "RustCrypto/RSA",
     "rustcrypto/signatures",
     "shiinamiyuki/akari_render",

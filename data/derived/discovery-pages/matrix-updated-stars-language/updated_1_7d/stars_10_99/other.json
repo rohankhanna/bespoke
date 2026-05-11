@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 195,
-    "concepts": 112,
-    "observations": 112,
-    "repos": 23,
-    "terms": 112
+    "components": 160,
+    "concepts": 97,
+    "observations": 97,
+    "repos": 21,
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "Cle2ment/CherryStudio_themes",
@@ -23,11 +23,8 @@
     "FactoryXCode/MfPack",
     "HDFGroup/hdf5_plugins",
     "helix-toolkit/helix-toolkit-nex",
-    "IBM/hello-carbon-vue3",
     "jelly-beam/rebar3_ex_doc",
-    "JuliaGeo/GeometryOps.jl",
     "ludwig-ai/ludwig-docs",
-    "lumen-oss/nurr",
     "mit-plv/coqutil",
     "mrcjkb/neotest-haskell",
     "ocaml-tracing/ocaml-opentelemetry",
@@ -36,6 +33,7 @@
     "processing/processing-website",
     "ros2/example_interfaces",
     "Shopify/rbi-central",
-    "siketyan/intellij-rustowl"
+    "siketyan/intellij-rustowl",
+    "tinted-theming/tinted-xresources"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 344,
-    "concepts": 59,
-    "observations": 60,
-    "repos": 29,
-    "terms": 59
+    "components": 355,
+    "concepts": 62,
+    "observations": 63,
+    "repos": 30,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "ameshkov/safari-blocker",
     "Arthy000/gherkin-testcafe",
@@ -41,6 +41,7 @@
     "quarkiverse/quarkiverse",
     "Redocly/redocly-cli-cookbook",
     "salesforcecli/status",
+    "tc39/proposal-import-bytes",
     "tc39/proposal-native-promise-predicate",
     "ykdojo/cc-safe"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1428,
-    "concepts": 298,
-    "observations": 300,
-    "repos": 54,
-    "terms": 298
+    "components": 1466,
+    "concepts": 311,
+    "observations": 313,
+    "repos": 55,
+    "terms": 311
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "addfox/addfox",
@@ -36,17 +36,16 @@
     "iconify/tools",
     "intlify/cli",
     "intlify/vue-i18n-extensions",
-    "ipdxco/github-as-code",
     "ipfs/github-mgmt",
     "jakebailey/pyright-action",
     "jbaubree/sitemap-ts",
     "jbaubree/vite-plugin-pages-sitemap",
     "jest-community/eslint-plugin-jest-extended",
     "ldclabs/KIP",
+    "maplibre/maplibre-gl-inspect",
     "microsoft/Agents-for-js",
     "NullVoxPopuli/ember-deep-tracked",
     "obsidianmd/eslint-plugin",
-    "oclif/test",
     "octokit/auth-action.js",
     "octokit/auth-oauth-app.js",
     "octokit/auth-oauth-device.js",
@@ -67,6 +66,8 @@
     "SemiAnalysisAI/InferenceX-app",
     "seung-lab/neuroglancer",
     "suzuki-shunsuke/pinact-action",
-    "swagger-api/apidom"
+    "swagger-api/apidom",
+    "universal-ember/reactiveweb",
+    "vincentlaucsb/experiencer"
   ]
 }

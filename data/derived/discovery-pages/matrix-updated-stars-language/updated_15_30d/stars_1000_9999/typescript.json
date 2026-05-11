@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5585,
-    "concepts": 1059,
-    "observations": 1062,
-    "repos": 140,
-    "terms": 1162
+    "components": 5645,
+    "concepts": 1071,
+    "observations": 1074,
+    "repos": 139,
+    "terms": 1174
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -38,7 +38,6 @@
     "aws-actions/configure-aws-credentials",
     "Azure/azure-sdk-for-js",
     "babaohuang/GeminiProChat",
-    "badgen/badgen.net",
     "berty/berty",
     "blockprotocol/blockprotocol",
     "bluesky-social/atproto",
@@ -65,7 +64,6 @@
     "eemeli/yaml",
     "electron/fiddle",
     "electron/forge",
-    "ElMassimo/iles",
     "emmetio/emmet",
     "EpicenterHQ/epicenter",
     "eslint-stylistic/eslint-stylistic",
@@ -73,18 +71,17 @@
     "firebase/firebase-admin-node",
     "florianbruniaux/claude-code-ultimate-guide",
     "fontsource/fontsource",
-    "frenic/csstype",
     "getsentry/xcodebuildmcp",
     "google/adk-js",
     "googleapis/release-please",
     "googleapis/release-please-action",
     "gorhom/react-native-bottom-sheet",
     "Helicone/helicone",
-    "heyhuynhgiabuu/proxypal",
     "huozhi/bunchee",
     "i18next/next-i18next",
     "iorate/ublacklist",
     "ipfs/helia",
+    "jaegertracing/jaeger-ui",
     "jaredwray/cacheable",
     "jaredwray/keyv",
     "jupyter-lsp/jupyterlab-lsp",
@@ -107,8 +104,8 @@
     "microsoft/playwright-cli",
     "microsoft/rnx-kit",
     "microsoft/vscode-cpptools",
-    "microsoft/vscode-eslint",
     "microsoft/vscode-languageserver-node",
+    "microsoft/vscode-python",
     "MiniMax-AI/cli",
     "mksglu/context-mode",
     "mutoe/vue3-realworld-example-app",
@@ -118,7 +115,6 @@
     "octokit/core.js",
     "onecli/onecli",
     "op7418/codepilot",
-    "opactorai/claudable",
     "open-telemetry/opentelemetry-js",
     "OpenAPITools/openapi-generator-cli",
     "ory/polis",
@@ -134,6 +130,7 @@
     "react-native-community/cli",
     "redhat-developer/vscode-java",
     "redhat-developer/yaml-language-server",
+    "sinclairzx81/typebox",
     "sirmalloc/ccstatusline",
     "solidjs/solid-router",
     "solidjs/solid-start",
@@ -142,6 +139,7 @@
     "stripe/ai",
     "stripe/stripe-node",
     "tailwindlabs/prettier-plugin-tailwindcss",
+    "TanStack/virtual",
     "tensorflow/tensorboard",
     "the-guild-org/apollo-angular",
     "thomasloven/lovelace-card-mod",
@@ -153,6 +151,7 @@
     "webgpu/webgpu-samples",
     "wighawag/hardhat-deploy",
     "withastro/starlight",
-    "yarnpkg/berry"
+    "yarnpkg/berry",
+    "zsviczian/obsidian-excalidraw-plugin"
   ]
 }

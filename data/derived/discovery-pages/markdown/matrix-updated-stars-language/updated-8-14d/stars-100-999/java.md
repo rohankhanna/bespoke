@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 41
-- terms: 302
-- components: 287
-- concepts: 304
-- observations: 304
+- repos: 39
+- terms: 307
+- components: 288
+- concepts: 309
+- observations: 309
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [processing/processing4](https://github.com/processing/processing4) | 394 | 2026-05-03T17:26:27Z | Java | Infrastructure/tooling | 12 | 15 | 12 | 12 |
 | [MarcusWolschon/osmeditor4android](https://github.com/MarcusWolschon/osmeditor4android) | 455 | 2026-05-02T14:48:44Z | Java | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [samtools/htsjdk](https://github.com/samtools/htsjdk) | 298 | 2026-05-01T22:09:28Z | Java | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [ihmcrobotics/ihmc-open-robotics-software](https://github.com/ihmcrobotics/ihmc-open-robotics-software) | 313 | 2026-05-01T15:15:52Z | Java | Infrastructure/tooling | 8 | 1 | 8 | 8 |
@@ -64,9 +65,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [revelc/formatter-maven-plugin](https://github.com/revelc/formatter-maven-plugin) | 301 | 2026-04-27T15:50:38Z | Java | CLI | 6 | 3 | 6 | 6 |
 | [allegro/hermes](https://github.com/allegro/hermes) | 856 | 2026-04-27T11:25:09Z | Java | Infrastructure/tooling | 11 | 18 | 11 | 11 |
 | [microsoft/vscode-java-test](https://github.com/microsoft/vscode-java-test) | 331 | 2026-04-27T08:57:21Z | Java | Infrastructure/tooling | 7 | 31 | 7 | 7 |
-| [jpmml/jpmml-lightgbm](https://github.com/jpmml/jpmml-lightgbm) | 184 | 2026-04-26T19:02:26Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [apache/commons-jexl](https://github.com/apache/commons-jexl) | 236 | 2026-04-26T18:53:52Z | Java | Infrastructure/tooling | 5 | 10 | 5 | 5 |
-| [jpmml/jpmml-xgboost](https://github.com/jpmml/jpmml-xgboost) | 131 | 2026-04-26T12:19:22Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -88,6 +86,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apache/rocketmq-clients](https://github.com/apache/rocketmq-clients) | 484 | 2026-04-29T05:50:32Z | Java | CLI | 14 | 8 | 14 | 14 |
 | [MarcusWolschon/osmeditor4android](https://github.com/MarcusWolschon/osmeditor4android) | 455 | 2026-05-02T14:48:44Z | Java | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [FasterXML/jackson-dataformats-text](https://github.com/FasterXML/jackson-dataformats-text) | 451 | 2026-04-28T20:26:24Z | Java | Infrastructure/tooling | 7 | 5 | 7 | 7 |
+| [processing/processing4](https://github.com/processing/processing4) | 394 | 2026-05-03T17:26:27Z | Java | Infrastructure/tooling | 12 | 15 | 12 | 12 |
 | [bazel-contrib/rules_jvm_external](https://github.com/bazel-contrib/rules_jvm_external) | 372 | 2026-04-30T16:51:31Z | Java | Unknown | 2 | 0 | 2 | 2 |
 | [Xilinx/RapidWright](https://github.com/Xilinx/RapidWright) | 370 | 2026-04-29T22:42:44Z | Java | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [palantir/javapoet](https://github.com/palantir/javapoet) | 349 | 2026-05-01T07:05:21Z | Java | Library | 1 | 0 | 1 | 1 |
@@ -105,11 +104,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apache/spark-kubernetes-operator](https://github.com/apache/spark-kubernetes-operator) | 275 | 2026-04-29T19:30:53Z | Java | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [aws/smithy-go](https://github.com/aws/smithy-go) | 245 | 2026-05-01T01:20:37Z | Java | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [reactor/reactor-addons](https://github.com/reactor/reactor-addons) | 241 | 2026-04-28T15:43:57Z | Java | Infrastructure/tooling | 10 | 6 | 10 | 10 |
-| [apache/commons-jexl](https://github.com/apache/commons-jexl) | 236 | 2026-04-26T18:53:52Z | Java | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [saalfeldlab/n5](https://github.com/saalfeldlab/n5) | 201 | 2026-04-28T16:03:28Z | Java | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [jpmml/jpmml-lightgbm](https://github.com/jpmml/jpmml-lightgbm) | 184 | 2026-04-26T19:02:26Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [googleapis/java-bigtable-hbase](https://github.com/googleapis/java-bigtable-hbase) | 181 | 2026-04-30T01:50:27Z | Java | CLI | 0 | 0 | 0 | 0 |
 | [FasterXML/jackson-modules-base](https://github.com/FasterXML/jackson-modules-base) | 180 | 2026-04-28T20:23:44Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [confluentinc/kafka-streams-examples](https://github.com/confluentinc/kafka-streams-examples) | 164 | 2026-04-30T00:38:14Z | Java | Service/API | 0 | 0 | 0 | 0 |
 | [quarkiverse/quarkus-operator-sdk](https://github.com/quarkiverse/quarkus-operator-sdk) | 142 | 2026-04-29T12:56:20Z | Java | Infrastructure/tooling | 9 | 11 | 9 | 9 |
-| [jpmml/jpmml-xgboost](https://github.com/jpmml/jpmml-xgboost) | 131 | 2026-04-26T12:19:22Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |

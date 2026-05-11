@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 713,
-    "concepts": 593,
-    "observations": 594,
-    "repos": 77,
-    "terms": 593
+    "components": 696,
+    "concepts": 565,
+    "observations": 566,
+    "repos": 74,
+    "terms": 565
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "aliyun/aliyun-cli",
     "apache/dubbo-go-hessian2",
@@ -37,7 +37,6 @@
     "cloudwego/eino-examples",
     "cloudwego/eino-ext",
     "cometbft/cometbft",
-    "Consensys/gnark-crypto",
     "controlplaneio-fluxcd/flux-operator",
     "cosmos/evm",
     "cosmos/gaia",
@@ -49,6 +48,7 @@
     "go-logr/zapr",
     "go-openapi/strfmt",
     "gofiber/contrib",
+    "gofrs/flock",
     "google/oss-rebuild",
     "grafana/grafana-plugin-sdk-go",
     "helmfile/vals",
@@ -57,11 +57,9 @@
     "hypnoglow/helm-s3",
     "istio/api",
     "istio/tools",
-    "itzg/mc-monitor",
     "kubernetes-sigs/dra-driver-nvidia-gpu",
     "kubernetes-sigs/karpenter-provider-cluster-api",
     "kubernetes-sigs/lws",
-    "mattn/go-isatty",
     "OffchainLabs/nitro",
     "operator-framework/operator-registry",
     "oracle/oci-go-sdk",
@@ -81,7 +79,6 @@
     "seaweedfs/seaweedfs-operator",
     "sergelogvinov/karpenter-provider-proxmox",
     "sergelogvinov/proxmox-cloud-controller-manager",
-    "sigstore/fulcio",
     "suzuki-shunsuke/ghalint",
     "suzuki-shunsuke/ghtkn",
     "suzuki-shunsuke/pinact",

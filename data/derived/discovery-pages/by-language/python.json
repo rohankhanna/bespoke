@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 17320,
-    "concepts": 25931,
-    "observations": 25980,
-    "repos": 6487,
-    "terms": 25730
+    "concepts": 25933,
+    "observations": 25982,
+    "repos": 6488,
+    "terms": 25746
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0cc4m/hf_bleeding_edge",
@@ -1640,6 +1640,7 @@
     "dani-maarouf/psqlparse2",
     "daniandtheweb/sd.cpp-webui",
     "danielgatis/rembg",
+    "danielJL-altius/israelgrocerymcp",
     "DanielNoord/pydocstringformatter",
     "danielrosehill/Agent-SDK-Env-Setup",
     "danielrosehill/Agentic-Context-Development-Interview-Demo",
@@ -1657,6 +1658,7 @@
     "danielrosehill/Claude-Agent-Relay-Plugin",
     "danielrosehill/Claude-AI-Video-Producer-Plugin",
     "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
+    "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
     "danielrosehill/Claude-LAN-Manager-0126",
     "danielrosehill/claude-slash-commands",
     "danielrosehill/Cloud-STT-Price-Points-1225",
@@ -4814,7 +4816,6 @@
     "paulocoutinhox/pdfium-lib",
     "pblatter/ettrack",
     "pchalasani/claude-code-tools",
-    "pdcxs/manimprojects",
     "PDFMathTranslate-next/PDFMathTranslate-next",
     "PDFMathTranslate/PDFMathTranslate",
     "PDFMathTranslate/PDFMathTranslate-next",

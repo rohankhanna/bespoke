@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 69,
-    "observations": 69,
-    "repos": 6,
-    "terms": 69
+    "components": 55,
+    "concepts": 47,
+    "observations": 48,
+    "repos": 5,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
-    "datalevin/datalevin",
-    "hacl-star/hacl-star",
+    "babashka/babashka",
     "microsoft/aspire",
-    "nvim-mini/mini.nvim",
     "swiftlang/llvm-project",
+    "TryGhost/node-sqlite3",
     "web-platform-tests/wpt"
   ]
 }

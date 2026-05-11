@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 788
-- terms: 1785
-- components: 1945
-- concepts: 1791
-- observations: 1797
+- repos: 790
+- terms: 1789
+- components: 1947
+- concepts: 1795
+- observations: 1801
 
 ## Static behavior
 
@@ -132,6 +132,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chequer-io/qsi](https://github.com/chequer-io/qsi) | 40 | 2025-07-13T05:48:47Z | Other | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [standard/standard-www](https://github.com/standard/standard-www) | 33 | 2025-07-11T08:51:09Z | Other | Web app | 9 | 11 | 9 | 9 |
 | [ymoslem/Adaptive-MT-LLM-Fine-tuning](https://github.com/ymoslem/Adaptive-MT-LLM-Fine-tuning) | 91 | 2025-07-10T13:02:02Z | Other | Unknown | 6 | 0 | 6 | 6 |
+| [suketa/nvim-dap-ruby](https://github.com/suketa/nvim-dap-ruby) | 91 | 2025-07-08T20:30:24Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [mfarragher/obsidiantools-demo](https://github.com/mfarragher/obsidiantools-demo) | 13 | 2025-07-08T19:45:13Z | Other | Library | 1 | 0 | 1 | 1 |
 | [ImranR98/Obtainium-Wiki](https://github.com/ImranR98/Obtainium-Wiki) | 48 | 2025-07-06T17:36:16Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [amebalabs/SwiftKey](https://github.com/amebalabs/SwiftKey) | 56 | 2025-06-30T21:06:43Z | Other | Infrastructure/tooling | 4 | 6 | 4 | 4 |
@@ -427,6 +428,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [haxeui/component-examples](https://github.com/haxeui/component-examples) | 28 | 2024-02-22T08:31:51Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ando818/lemmy-ui-svelte](https://github.com/ando818/lemmy-ui-svelte) | 26 | 2024-02-18T21:27:08Z | Other | Web app | 5 | 22 | 5 | 5 |
 | [JuliaReducePkg/ReduceAlgebra.jl](https://github.com/JuliaReducePkg/ReduceAlgebra.jl) | 11 | 2024-02-16T11:46:00Z | Other | Library | 4 | 0 | 4 | 4 |
+| [theutz/neotest-pest](https://github.com/theutz/neotest-pest) | 16 | 2024-02-16T07:07:06Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [rkubosz/base16-sway](https://github.com/rkubosz/base16-sway) | 44 | 2024-02-15T14:48:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [gerschel/sd-web-ui-quickcss](https://github.com/Gerschel/sd-web-ui-quickcss) | 73 | 2024-02-11T23:58:35Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [andyferris/AcceleratedArrays.jl](https://github.com/andyferris/AcceleratedArrays.jl) | 51 | 2024-02-05T00:21:29Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
@@ -852,6 +854,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mhinz/vim-crates](https://github.com/mhinz/vim-crates) | 92 | 2022-12-18T13:11:19Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [thoughtpolice/eris](https://github.com/thoughtpolice/eris) | 92 | 2022-02-09T17:34:33Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [ymoslem/Adaptive-MT-LLM-Fine-tuning](https://github.com/ymoslem/Adaptive-MT-LLM-Fine-tuning) | 91 | 2025-07-10T13:02:02Z | Other | Unknown | 6 | 0 | 6 | 6 |
+| [suketa/nvim-dap-ruby](https://github.com/suketa/nvim-dap-ruby) | 91 | 2025-07-08T20:30:24Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [sony/nnabla-ext-cuda](https://github.com/sony/nnabla-ext-cuda) | 91 | 2025-06-30T10:04:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [wilkerlucio/pathom-viz](https://github.com/wilkerlucio/pathom-viz) | 91 | 2025-04-22T18:22:11Z | Other | Infrastructure/tooling | 1 | 51 | 1 | 1 |
 | [0styx0/abbreinder.nvim](https://github.com/0styx0/abbreinder.nvim) | 91 | 2022-06-30T21:38:44Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
@@ -1490,6 +1493,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PointCloudLibrary/PointCloudLibrary.github.io](https://github.com/PointCloudLibrary/PointCloudLibrary.github.io) | 16 | 2024-10-30T15:07:51Z | Other | Library | 1 | 0 | 1 | 1 |
 | [20000yshust/SWARM](https://github.com/20000yshust/SWARM) | 16 | 2024-10-24T12:26:16Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [objectbox/objectbox-dart-performance](https://github.com/objectbox/objectbox-dart-performance) | 16 | 2024-05-22T06:23:00Z | Other | Unknown | 8 | 0 | 8 | 8 |
+| [theutz/neotest-pest](https://github.com/theutz/neotest-pest) | 16 | 2024-02-16T07:07:06Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [quil/quil-templates](https://github.com/quil/quil-templates) | 16 | 2024-01-22T04:48:30Z | Other | Template/starter | 0 | 0 | 0 | 0 |
 | [camenduru/MotionDirector-colab](https://github.com/camenduru/MotionDirector-colab) | 16 | 2023-12-11T05:21:02Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [mortals-debuging/pytorch-docker](https://github.com/mortals-debuging/pytorch-docker) | 16 | 2023-09-18T04:03:40Z | Other | Unknown | 0 | 0 | 0 | 0 |

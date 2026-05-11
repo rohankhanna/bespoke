@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 13,
-    "terms": 50
+    "components": 18,
+    "concepts": 53,
+    "observations": 53,
+    "repos": 14,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "ACh-K/Cubic-11",
     "antonbabenko/terraform-skill",
@@ -26,6 +26,7 @@
     "NVIDIA/Cosmos",
     "sindresorhus/ponyfill",
     "syntax-tree/mdast",
-    "tc39/proposal-signals"
+    "tc39/proposal-signals",
+    "uBlockOrigin/uBlock-issues"
   ]
 }

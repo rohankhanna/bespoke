@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 77
-- terms: 593
-- components: 713
-- concepts: 593
-- observations: 594
+- repos: 74
+- terms: 565
+- components: 696
+- concepts: 565
+- observations: 566
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [gofrs/flock](https://github.com/gofrs/flock) | 727 | 2026-05-03T19:21:34Z | Go | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [seaweedfs/seaweedfs-operator](https://github.com/seaweedfs/seaweedfs-operator) | 297 | 2026-05-02T21:48:56Z | Go | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [sergelogvinov/proxmox-cloud-controller-manager](https://github.com/sergelogvinov/proxmox-cloud-controller-manager) | 306 | 2026-05-02T18:06:12Z | Go | Infrastructure/tooling | 12 | 12 | 12 | 12 |
 | [sergelogvinov/karpenter-provider-proxmox](https://github.com/sergelogvinov/karpenter-provider-proxmox) | 110 | 2026-05-02T17:25:23Z | Go | Infrastructure/tooling | 12 | 13 | 12 | 12 |
@@ -99,10 +100,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [CosmWasm/wasmvm](https://github.com/CosmWasm/wasmvm) | 204 | 2026-04-27T14:09:26Z | Go | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [boj/redistore](https://github.com/boj/redistore) | 424 | 2026-04-27T10:57:49Z | Go | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [hypnoglow/helm-s3](https://github.com/hypnoglow/helm-s3) | 610 | 2026-04-27T08:00:53Z | Go | Infrastructure/tooling | 11 | 13 | 11 | 11 |
-| [mattn/go-isatty](https://github.com/mattn/go-isatty) | 903 | 2026-04-27T03:32:43Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |
-| [Consensys/gnark-crypto](https://github.com/Consensys/gnark-crypto) | 593 | 2026-04-27T03:13:01Z | Go | Infrastructure/tooling | 17 | 5 | 17 | 17 |
-| [sigstore/fulcio](https://github.com/sigstore/fulcio) | 832 | 2026-04-27T02:33:12Z | Go | Infrastructure/tooling | 6 | 13 | 6 | 6 |
-| [itzg/mc-monitor](https://github.com/itzg/mc-monitor) | 314 | 2026-04-26T18:03:36Z | Go | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -114,15 +111,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aliyun/aliyun-cli](https://github.com/aliyun/aliyun-cli) | 952 | 2026-04-29T08:10:52Z | Go | CLI | 12 | 7 | 12 | 12 |
 | [aws-cloudformation/rain](https://github.com/aws-cloudformation/rain) | 950 | 2026-04-28T20:35:33Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [OffchainLabs/nitro](https://github.com/OffchainLabs/nitro) | 905 | 2026-04-29T08:59:17Z | Go | Infrastructure/tooling | 6 | 8 | 6 | 6 |
-| [mattn/go-isatty](https://github.com/mattn/go-isatty) | 903 | 2026-04-27T03:32:43Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [cometbft/cometbft](https://github.com/cometbft/cometbft) | 889 | 2026-04-30T12:01:42Z | Go | Infrastructure/tooling | 13 | 9 | 13 | 13 |
 | [bitrise-io/bitrise](https://github.com/bitrise-io/bitrise) | 889 | 2026-04-27T16:54:33Z | Go | CLI | 2 | 0 | 2 | 2 |
 | [argoproj-labs/argocd-operator](https://github.com/argoproj-labs/argocd-operator) | 859 | 2026-05-01T03:04:15Z | Go | Infrastructure/tooling | 11 | 5 | 11 | 11 |
-| [sigstore/fulcio](https://github.com/sigstore/fulcio) | 832 | 2026-04-27T02:33:12Z | Go | Infrastructure/tooling | 6 | 13 | 6 | 6 |
 | [pion/stun](https://github.com/pion/stun) | 829 | 2026-05-01T07:04:40Z | Go | Infrastructure/tooling | 16 | 12 | 16 | 16 |
 | [Azure/azure-storage-fuse](https://github.com/Azure/azure-storage-fuse) | 796 | 2026-05-01T01:09:34Z | Go | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [helmfile/vals](https://github.com/helmfile/vals) | 747 | 2026-05-02T09:29:41Z | Go | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [apache/pulsar-client-go](https://github.com/apache/pulsar-client-go) | 737 | 2026-04-28T01:51:19Z | Go | CLI | 9 | 10 | 9 | 9 |
+| [gofrs/flock](https://github.com/gofrs/flock) | 727 | 2026-05-03T19:21:34Z | Go | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [kubernetes-sigs/lws](https://github.com/kubernetes-sigs/lws) | 712 | 2026-04-30T16:25:27Z | Go | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [theupdateframework/go-tuf](https://github.com/theupdateframework/go-tuf) | 702 | 2026-04-27T14:11:32Z | Go | Infrastructure/tooling | 11 | 8 | 11 | 11 |
 | [google/oss-rebuild](https://github.com/google/oss-rebuild) | 693 | 2026-04-29T23:55:18Z | Go | Infrastructure/tooling | 3 | 9 | 3 | 3 |
@@ -134,7 +130,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [controlplaneio-fluxcd/flux-operator](https://github.com/controlplaneio-fluxcd/flux-operator) | 621 | 2026-04-30T13:41:23Z | Go | Infrastructure/tooling | 12 | 19 | 12 | 12 |
 | [hypnoglow/helm-s3](https://github.com/hypnoglow/helm-s3) | 610 | 2026-04-27T08:00:53Z | Go | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 | [cloudwego/eino-examples](https://github.com/cloudwego/eino-examples) | 607 | 2026-04-29T02:46:24Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [Consensys/gnark-crypto](https://github.com/Consensys/gnark-crypto) | 593 | 2026-04-27T03:13:01Z | Go | Infrastructure/tooling | 17 | 5 | 17 | 17 |
 | [pion/ice](https://github.com/pion/ice) | 576 | 2026-04-29T04:50:09Z | Go | Infrastructure/tooling | 14 | 12 | 14 | 14 |
 | [pulumi/pulumi-aws](https://github.com/pulumi/pulumi-aws) | 573 | 2026-05-01T12:34:40Z | Go | Infrastructure/tooling | 17 | 22 | 17 | 17 |
 | [cosmos/gaia](https://github.com/cosmos/gaia) | 569 | 2026-04-30T19:29:15Z | Go | Infrastructure/tooling | 12 | 18 | 12 | 12 |
@@ -154,7 +149,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aquasecurity/trivy-db](https://github.com/aquasecurity/trivy-db) | 328 | 2026-04-29T08:06:12Z | Go | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [dydxprotocol/v4-chain](https://github.com/dydxprotocol/v4-chain) | 326 | 2026-05-01T13:30:16Z | Go | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [seaweedfs/seaweedfs-csi-driver](https://github.com/seaweedfs/seaweedfs-csi-driver) | 316 | 2026-05-02T00:13:39Z | Go | Infrastructure/tooling | 6 | 21 | 6 | 7 |
-| [itzg/mc-monitor](https://github.com/itzg/mc-monitor) | 314 | 2026-04-26T18:03:36Z | Go | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [cloudfoundry/cf-deployment](https://github.com/cloudfoundry/cf-deployment) | 313 | 2026-04-29T22:56:39Z | Go | Unknown | 1 | 0 | 1 | 1 |
 | [sergelogvinov/proxmox-cloud-controller-manager](https://github.com/sergelogvinov/proxmox-cloud-controller-manager) | 306 | 2026-05-02T18:06:12Z | Go | Infrastructure/tooling | 12 | 12 | 12 | 12 |
 | [cloudpilot-ai/karpenter-provider-gcp](https://github.com/cloudpilot-ai/karpenter-provider-gcp) | 303 | 2026-04-29T18:05:08Z | Go | Infrastructure/tooling | 11 | 8 | 11 | 11 |

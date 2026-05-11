@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 141,
-    "observations": 141,
-    "repos": 14,
-    "terms": 141
+    "components": 93,
+    "concepts": 128,
+    "observations": 128,
+    "repos": 13,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "aws/karpenter-provider-aws",
     "bazel-contrib/bazel-gazelle",
     "bazel-contrib/rules_go",
-    "cosmos/cosmos-sdk",
     "crazy-max/diun",
     "crc-org/crc",
     "elastic/cloud-on-k8s",

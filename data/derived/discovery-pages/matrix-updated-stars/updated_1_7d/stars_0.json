@@ -3,7 +3,7 @@
     "components": 0,
     "concepts": 3,
     "observations": 3,
-    "repos": 6,
+    "repos": 4,
     "terms": 3
   },
   "facet_version": 1,
@@ -11,13 +11,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "abdeladim-s/pywhispercpp",
     "clearml/clearml-agent-bootstrap",
-    "danielrosehill/Claude-Agent-Relay-Plugin",
     "danielrosehill/Claude-Gist-Writer-Plugin",
-    "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
-    "kleisauke/glib"
+    "danielrosehill/Claude-Hardware-ID-Annotation-Plugin"
   ]
 }

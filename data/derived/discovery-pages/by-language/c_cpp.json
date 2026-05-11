@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9230,
-    "concepts": 10964,
-    "observations": 10990,
-    "repos": 2273,
-    "terms": 10871
+    "components": 9236,
+    "concepts": 10969,
+    "observations": 10995,
+    "repos": 2274,
+    "terms": 10878
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0xPolygonHermez/pil2-proofman",
@@ -2250,6 +2250,7 @@
     "yhirose/cpp-httplib",
     "ylsdamxssjxxdd/eva",
     "ylsdamxssjxxdd/nerv",
+    "yoshoku/llama_cpp.rb",
     "yoshoku/numo-liblinear",
     "yoshoku/numo-libsvm",
     "yoshoku/numo-linalg-alt",

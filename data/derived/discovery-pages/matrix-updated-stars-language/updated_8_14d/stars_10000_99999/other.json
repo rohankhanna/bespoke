@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 893,
-    "concepts": 674,
-    "observations": 675,
-    "repos": 66,
-    "terms": 668
+    "components": 908,
+    "concepts": 700,
+    "observations": 701,
+    "repos": 67,
+    "terms": 694
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "actions/runner-images",
@@ -40,6 +40,7 @@
     "google/material-design-lite",
     "gradle/gradle",
     "hadolint/hadolint",
+    "hagezi/dns-blocklists",
     "Heapy/awesome-kotlin",
     "Homebrew/homebrew-cask",
     "IBM/plex",
@@ -47,9 +48,9 @@
     "keeweb/keeweb",
     "koreader/koreader",
     "Kotlin/kotlinx.coroutines",
+    "kubernetes-sigs/kubespray",
     "logseq/logseq",
     "MagicStack/uvloop",
-    "mason-org/mason.nvim",
     "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
     "mdn/content",
     "microsoft/ai-agents-for-beginners",
@@ -61,6 +62,7 @@
     "nim-lang/Nim",
     "OAI/OpenAPI-Specification",
     "phoenixframework/phoenix",
+    "phpstan/phpstan",
     "PowerShell/PowerShell",
     "rapid7/metasploit-framework",
     "rubocop/rubocop",
@@ -75,7 +77,6 @@
     "swagger-api/swagger-codegen",
     "swiftlang/swift-evolution",
     "swiftlang/swift-package-manager",
-    "syl20bnr/spacemacs",
     "symfony/symfony",
     "tiann/KernelSU",
     "vim-airline/vim-airline",

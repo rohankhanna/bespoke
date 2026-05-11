@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 3,
-    "terms": 37
+    "components": 11,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 2,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "grpc/grpc-java",
-    "openjdk/jdk",
-    "redisson/redisson"
+    "openjdk/jdk"
   ]
 }

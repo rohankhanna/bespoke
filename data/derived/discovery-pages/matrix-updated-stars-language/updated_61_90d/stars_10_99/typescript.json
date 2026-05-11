@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 361,
-    "concepts": 54,
-    "observations": 54,
-    "repos": 19,
-    "terms": 54
+    "components": 413,
+    "concepts": 57,
+    "observations": 57,
+    "repos": 21,
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
@@ -21,6 +21,7 @@
     "AlexJPotter/fluentvalidation-ts",
     "br14n-sol/inquirer-file-selector",
     "ClickHouse/opentelemetry-demo",
+    "dannyhw/react-native-storybook-starter",
     "googleapis/nodejs-error-reporting",
     "hbenl/vscode-mocha-test-adapter",
     "holochain/hc-spin",
@@ -31,6 +32,7 @@
     "pkgxdev/dev",
     "pkgxdev/pkgo",
     "SchwarzIT/api-linter-rules",
+    "Shougo/ddu-kind-file",
     "trzsz/tabby-trzsz",
     "windsonR/vite-plugin-virtual-html"
   ]

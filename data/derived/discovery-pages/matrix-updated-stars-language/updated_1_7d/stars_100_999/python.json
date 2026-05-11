@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 174,
-    "concepts": 165,
-    "observations": 166,
-    "repos": 25,
-    "terms": 165
+    "components": 132,
+    "concepts": 133,
+    "observations": 134,
+    "repos": 20,
+    "terms": 133
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "adamchainz/blacken-docs",
     "agentclientprotocol/python-sdk",
     "ai-dynamo/aiperf",
-    "alltheplaces/alltheplaces",
     "clearml/clearml-agent",
     "cosmos/chain-registry",
     "flagos-ai/FlagScale",
@@ -26,17 +25,13 @@
     "gbionics/jaxsim",
     "googlefonts/roboto-3-classic",
     "hluaguo/learn-faster-kit",
-    "jawah/charset_normalizer",
     "jupyter-server/jupyter_server",
     "NCAS-CMS/pyfive",
     "NVlabs/trajdata",
-    "open-telemetry/opentelemetry-cpp-contrib",
-    "pyrtlsdr/pyrtlsdr",
     "scverse/rapids-singlecell",
     "sigsep/norbert",
     "TinyLLaVA/TinyLLaVA_Factory",
     "tox-dev/filelock",
-    "universal-ctags/ctags-win32",
     "unum-bio/USearchMolecules",
     "vale-cli/packages"
   ]

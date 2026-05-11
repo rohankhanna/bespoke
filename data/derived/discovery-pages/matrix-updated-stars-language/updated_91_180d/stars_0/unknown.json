@@ -3,7 +3,7 @@
     "components": 32,
     "concepts": 28,
     "observations": 28,
-    "repos": 26,
+    "repos": 25,
     "terms": 28
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "asm89/prettytable-rs",
-    "danielrosehill/A-Better-Jobs-Platform-Notes",
     "danielrosehill/Agent-Deploy",
     "danielrosehill/AI-Sysadmin",
     "danielrosehill/ai-tools-plugin",

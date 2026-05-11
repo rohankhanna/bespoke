@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 403,
-    "concepts": 168,
-    "observations": 170,
-    "repos": 94,
-    "terms": 171
+    "components": 408,
+    "concepts": 172,
+    "observations": 174,
+    "repos": 100,
+    "terms": 175
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "9romise/eslint-config",
@@ -31,6 +31,7 @@
     "cmake-wheel/cmeel-example",
     "csjgg/ags-cookbook",
     "cwfitzgerald/libtest-mimic",
+    "danielJL-altius/israelgrocerymcp",
     "danielrosehill/adb-keep-awake",
     "danielrosehill/Agent-Journal",
     "danielrosehill/AI-Browser-Tools",
@@ -40,6 +41,7 @@
     "danielrosehill/AMD-GPU-DP-Hotplug-Fix",
     "danielrosehill/amd-gpu-fixes",
     "danielrosehill/Backup-Projects-Index",
+    "danielrosehill/brainstorm-solutions-plugin",
     "danielrosehill/Bug-Reports-And-Fixes",
     "danielrosehill/Context-Projects-Index",
     "danielrosehill/Deployments-Index",
@@ -49,6 +51,7 @@
     "danielrosehill/Hebrew-Tech-Vocab",
     "danielrosehill/HFC-Guidance-Flip-Book",
     "danielrosehill/Home-Assistant-Index",
+    "danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",
     "danielrosehill/Israel-Alert-Map",
     "danielrosehill/Israel-Civilian-Readiness-Guide",
     "danielrosehill/Israel-First-Aid",
@@ -59,6 +62,7 @@
     "danielrosehill/Networking-Projects-Index",
     "danielrosehill/Patches-Repos-Index",
     "danielrosehill/Price-Research-Index",
+    "danielrosehill/Red-Alert-Monitoring-Stack",
     "datachainlab/cosmos-bsc-ibc-lcp",
     "datachainlab/ibc-parlia-relay",
     "datafuse-extras/dtparse",
@@ -66,6 +70,7 @@
     "drmingdrmer/display-more",
     "ethpandaops/xatu-cbt",
     "glennhickey/red",
+    "grubersjoe/react-activity-calendar-tests",
     "hermit-os/async-executor",
     "hermit-os/safe-mmio",
     "hermit-os/tokio",
@@ -94,6 +99,7 @@
     "PetervanLunteren/EcoAssist-metadata",
     "piebald-ai/piebald",
     "prisma/cuid-rust",
+    "psmux/scoop-omp-manager",
     "redai-infra/TransferQueue",
     "Saalvage/assimp",
     "saharmor/saharmor.github.io",

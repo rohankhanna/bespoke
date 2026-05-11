@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5199,
-    "concepts": 1805,
-    "observations": 1807,
-    "repos": 1300,
-    "terms": 1800
+    "components": 5201,
+    "concepts": 1809,
+    "observations": 1811,
+    "repos": 1302,
+    "terms": 1804
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -427,6 +427,7 @@
     "danielrosehill/Claude-Code-MCP-Command-Generator",
     "danielrosehill/Claude-Code-Repo-Managers-ClaudeMD",
     "danielrosehill/Claude-Deep-Research-Model",
+    "danielrosehill/Claude-Is-Awesome",
     "danielrosehill/CONTEXT.md",
     "danielrosehill/Deep-Research-Projects-0425",
     "danielrosehill/Geopolitical-Analysis-System-Prompts",
@@ -920,6 +921,7 @@
     "mamba-org/quetz-client",
     "mamba-org/quetz-sql-authenticator",
     "mapbox/mason-js",
+    "MarcCote/downward",
     "marcoonroad/cuid",
     "MarkEmmons/neotest-deno",
     "martinrenou/xjson",
@@ -1232,7 +1234,7 @@
     "travis-ci/travis-packer-build",
     "travis-infrastructure/packer-build",
     "triton-inference-server/contrib",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "turbofish-org/abci2",
     "turner/swt2sw",
     "UBC-NLP/Cheetah",

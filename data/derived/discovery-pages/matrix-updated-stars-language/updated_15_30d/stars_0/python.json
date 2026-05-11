@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 16,
-    "terms": 38
+    "components": 29,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 17,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "bunburysniper/bleunova-ai-agent",
     "conda-forge/conda-forge-feedstock-ops",
+    "danielrosehill/Claude-AI-Video-Producer-Plugin",
     "danielrosehill/Hypothesis-Council",
-    "danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",
-    "danielrosehill/Red-Alert-Monitoring-Stack",
     "FEniCS/spack-fenics",
     "florisheedless915/grok-register",
     "hauntsaninja/mypy",
@@ -27,6 +26,8 @@
     "l12203685/digital-immortality",
     "mitchuski/agentprivacy-skills",
     "mohfer/nous-proxy",
+    "NightWatcher314/dockgecli",
+    "NightWatcher314/npmctl",
     "piqrypt/piqrypt-mcp-server",
     "roampal-ai/roampal-labs",
     "shubishere/ai-drawio"

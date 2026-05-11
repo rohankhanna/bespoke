@@ -1,6 +1,6 @@
 # Java
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 ## Active filters
 
@@ -22,14 +22,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1928 | 2026-05-10T20:45:46Z | Java | Infrastructure/tooling | 13 | 21 | 13 | 13 |
 | [ldproxy/ldproxy](https://github.com/ldproxy/ldproxy) | 102 | 2026-05-10T01:27:10Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
-| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1927 | 2026-05-09T00:36:08Z | Java | Infrastructure/tooling | 13 | 21 | 13 | 13 |
 | [cloudfoundry/credhub](https://github.com/cloudfoundry/credhub) | 249 | 2026-05-08T21:28:27Z | Java | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [grpc/grpc-java](https://github.com/grpc/grpc-java) | 12012 | 2026-05-08T17:21:36Z | Java | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [eclipse-wildwebdeveloper/wildwebdeveloper](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper) | 198 | 2026-05-08T14:18:47Z | Java | CLI | 8 | 13 | 8 | 8 |
 | [spring-projects/spring-tools](https://github.com/spring-projects/spring-tools) | 965 | 2026-05-08T11:39:58Z | Java | CLI | 16 | 6 | 16 | 16 |
-| [eclipse-jdtls/eclipse.jdt.ls](https://github.com/eclipse-jdtls/eclipse.jdt.ls) | 2327 | 2026-05-07T19:53:13Z | Java | CLI | 7 | 8 | 7 | 7 |
-| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3785 | 2026-05-07T17:43:07Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
+| [eclipse-jdtls/eclipse.jdt.ls](https://github.com/eclipse-jdtls/eclipse.jdt.ls) | 2329 | 2026-05-07T19:53:13Z | Java | CLI | 7 | 8 | 7 | 7 |
+| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3786 | 2026-05-07T17:43:07Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
 | [usdot-fhwa-stol/cdasim](https://github.com/usdot-fhwa-stol/cdasim) | 53 | 2026-05-06T14:22:30Z | Java | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [apache/tomcat](https://github.com/apache/tomcat) | 8163 | 2026-05-06T13:24:43Z | Java | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [jcefmaven/jcefsampleapp](https://github.com/jcefmaven/jcefsampleapp) | 39 | 2026-05-05T07:08:44Z | Java | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -570,7 +570,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mapbox/mapbox-gl-native-android](https://github.com/mapbox/mapbox-gl-native-android) | 219 | 2023-08-21T13:46:32Z | Java | Unknown | 10 | 6 | 10 | 10 |
 | [WangDaYeeeeee/GeometricWeather](https://github.com/WangDaYeeeeee/GeometricWeather) | 2524 | 2023-08-16T22:57:26Z | Java | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [coconut2015/cookjson](https://github.com/coconut2015/cookjson) | 7 | 2023-08-11T03:12:28Z | Java | Unknown | 0 | 0 | 0 | 0 |
-| [MSPaintIDE/MSPaintIDE](https://github.com/MSPaintIDE/MSPaintIDE) | 1435 | 2023-08-07T22:39:23Z | Java | Unknown | 6 | 0 | 6 | 6 |
+| [MSPaintIDE/MSPaintIDE](https://github.com/MSPaintIDE/MSPaintIDE) | 1434 | 2023-08-07T22:39:23Z | Java | Unknown | 6 | 0 | 6 | 6 |
 | [redis-developer/redis-om-spring-skeleton-app](https://github.com/redis-developer/redis-om-spring-skeleton-app) | 12 | 2023-07-27T15:07:20Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [apache/incubator-tuweni](https://github.com/apache/incubator-tuweni) | 175 | 2023-07-21T03:00:26Z | Java | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 | [datanucleus/datanucleus-typeconverter-kryo](https://github.com/datanucleus/datanucleus-typeconverter-kryo) | 3 | 2023-07-07T21:52:57Z | Java | Unknown | 0 | 0 | 0 | 0 |
@@ -754,7 +754,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [react-native-share/react-native-share](https://github.com/react-native-share/react-native-share) | 3879 | 2026-04-14T01:15:58Z | Java | Infrastructure/tooling | 10 | 51 | 10 | 10 |
 | [spotbugs/spotbugs](https://github.com/spotbugs/spotbugs) | 3865 | 2026-04-20T09:41:42Z | Java | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [RoaringBitmap/RoaringBitmap](https://github.com/RoaringBitmap/RoaringBitmap) | 3853 | 2026-04-15T02:15:42Z | Java | Infrastructure/tooling | 14 | 11 | 14 | 15 |
-| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3785 | 2026-05-07T17:43:07Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
+| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3786 | 2026-05-07T17:43:07Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
 | [jtablesaw/tablesaw](https://github.com/jtablesaw/tablesaw) | 3747 | 2026-03-02T01:13:06Z | Java | Infrastructure/tooling | 15 | 2 | 15 | 15 |
 | [FasterXML/jackson-databind](https://github.com/FasterXML/jackson-databind) | 3719 | 2026-04-28T20:50:36Z | Java | Infrastructure/tooling | 11 | 11 | 12 | 12 |
 | [PlexPt/chatgpt-java](https://github.com/PlexPt/chatgpt-java) | 3611 | 2025-11-29T16:41:52Z | Java | Infrastructure/tooling | 10 | 3 | 10 | 10 |
@@ -785,7 +785,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [open-telemetry/opentelemetry-java](https://github.com/open-telemetry/opentelemetry-java) | 2390 | 2026-04-22T00:52:49Z | Java | Infrastructure/tooling | 10 | 14 | 10 | 10 |
 | [FasterXML/jackson-core](https://github.com/FasterXML/jackson-core) | 2361 | 2026-04-28T20:49:53Z | Java | Infrastructure/tooling | 10 | 11 | 11 | 11 |
 | [apache/incubator-seata-samples](https://github.com/apache/incubator-seata-samples) | 2357 | 2026-02-14T04:04:12Z | Java | Infrastructure/tooling | 4 | 10 | 4 | 4 |
-| [eclipse-jdtls/eclipse.jdt.ls](https://github.com/eclipse-jdtls/eclipse.jdt.ls) | 2327 | 2026-05-07T19:53:13Z | Java | CLI | 7 | 8 | 7 | 7 |
+| [eclipse-jdtls/eclipse.jdt.ls](https://github.com/eclipse-jdtls/eclipse.jdt.ls) | 2329 | 2026-05-07T19:53:13Z | Java | CLI | 7 | 8 | 7 | 7 |
 | [HdrHistogram/HdrHistogram](https://github.com/HdrHistogram/HdrHistogram) | 2299 | 2024-06-27T13:01:32Z | Java | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [h2oai/h2o-2](https://github.com/h2oai/h2o-2) | 2268 | 2024-10-24T17:35:57Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [smithy-lang/smithy](https://github.com/smithy-lang/smithy) | 2252 | 2026-04-30T20:23:24Z | Java | CLI | 8 | 15 | 8 | 8 |
@@ -803,7 +803,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tabulapdf/tabula-java](https://github.com/tabulapdf/tabula-java) | 2025 | 2025-03-19T18:21:14Z | Java | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [alibaba/compileflow](https://github.com/alibaba/compileflow) | 1976 | 2025-10-05T09:40:42Z | Java | Infrastructure/tooling | 9 | 2 | 9 | 9 |
 | [validator/validator](https://github.com/validator/validator) | 1929 | 2026-05-02T10:42:13Z | Java | Infrastructure/tooling | 15 | 19 | 15 | 15 |
-| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1927 | 2026-05-09T00:36:08Z | Java | Infrastructure/tooling | 13 | 21 | 13 | 13 |
+| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1928 | 2026-05-10T20:45:46Z | Java | Infrastructure/tooling | 13 | 21 | 13 | 13 |
 | [ninjaframework/ninja](https://github.com/ninjaframework/ninja) | 1902 | 2026-04-03T18:40:39Z | Java | Infrastructure/tooling | 9 | 2 | 9 | 9 |
 | [JetBrains/JetBrainsRuntime](https://github.com/JetBrains/JetBrainsRuntime) | 1876 | 2026-05-01T06:15:56Z | Java | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [spring-ai-alibaba/DataAgent](https://github.com/spring-ai-alibaba/DataAgent) | 1826 | 2026-04-22T05:13:12Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
@@ -824,7 +824,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [msgpack/msgpack-java](https://github.com/msgpack/msgpack-java) | 1465 | 2026-03-16T23:43:12Z | Java | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [googleapis/google-api-java-client](https://github.com/googleapis/google-api-java-client) | 1449 | 2026-04-20T21:14:38Z | Java | CLI | 4 | 6 | 4 | 4 |
 | [beehive-lab/TornadoVM](https://github.com/beehive-lab/TornadoVM) | 1449 | 2026-04-16T10:18:03Z | Java | Infrastructure/tooling | 12 | 2 | 12 | 12 |
-| [MSPaintIDE/MSPaintIDE](https://github.com/MSPaintIDE/MSPaintIDE) | 1435 | 2023-08-07T22:39:23Z | Java | Unknown | 6 | 0 | 6 | 6 |
+| [MSPaintIDE/MSPaintIDE](https://github.com/MSPaintIDE/MSPaintIDE) | 1434 | 2023-08-07T22:39:23Z | Java | Unknown | 6 | 0 | 6 | 6 |
 | [googleapis/google-http-java-client](https://github.com/googleapis/google-http-java-client) | 1433 | 2026-04-20T20:46:31Z | Java | CLI | 5 | 8 | 5 | 5 |
 | [google/conscrypt](https://github.com/google/conscrypt) | 1385 | 2026-04-29T09:14:13Z | Java | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [mapsforge/mapsforge](https://github.com/mapsforge/mapsforge) | 1371 | 2026-05-05T07:01:32Z | Java | Infrastructure/tooling | 4 | 2 | 4 | 4 |

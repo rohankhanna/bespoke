@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -14,7 +14,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 - repos: 52
 - terms: 356
-- components: 2244
+- components: 2200
 - concepts: 358
 - observations: 359
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [carbon-design-system/carbon](https://github.com/carbon-design-system/carbon) | 9094 | 2026-05-03T14:26:21Z | JavaScript | Infrastructure/tooling | 9 | 57 | 9 | 9 |
+| [MikeMcl/bignumber.js](https://github.com/MikeMcl/bignumber.js) | 6995 | 2026-05-03T10:27:51Z | JavaScript | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [heshengtao/super-agent-party](https://github.com/heshengtao/super-agent-party) | 2179 | 2026-05-03T02:50:57Z | JavaScript | Infrastructure/tooling | 16 | 22 | 16 | 16 |
 | [sverweij/dependency-cruiser](https://github.com/sverweij/dependency-cruiser) | 6608 | 2026-05-02T18:33:11Z | JavaScript | Infrastructure/tooling | 10 | 66 | 10 | 10 |
 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 5815 | 2026-05-02T14:42:15Z | JavaScript | Infrastructure/tooling | 18 | 201 | 18 | 18 |
@@ -76,8 +78,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [i18next/react-i18next](https://github.com/i18next/react-i18next) | 9974 | 2026-04-27T15:53:36Z | JavaScript | Infrastructure/tooling | 6 | 56 | 6 | 6 |
 | [dotenvx/dotenvx](https://github.com/dotenvx/dotenvx) | 5402 | 2026-04-27T15:47:05Z | JavaScript | CLI | 13 | 29 | 13 | 13 |
 | [isomorphic-git/isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) | 8196 | 2026-04-27T08:58:49Z | JavaScript | Infrastructure/tooling | 6 | 65 | 6 | 6 |
-| [webpack/webpack-dev-server](https://github.com/webpack/webpack-dev-server) | 7848 | 2026-04-26T19:57:01Z | JavaScript | Infrastructure/tooling | 5 | 94 | 5 | 5 |
-| [google/docsy](https://github.com/google/docsy) | 2931 | 2026-04-26T16:56:08Z | JavaScript | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -87,11 +87,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [WebKit/WebKit](https://github.com/WebKit/WebKit) | 9776 | 2026-04-30T09:15:36Z | JavaScript | Unknown | 3 | 0 | 3 | 3 |
 | [swagger-api/swagger-editor](https://github.com/swagger-api/swagger-editor) | 9433 | 2026-04-30T08:39:16Z | JavaScript | Infrastructure/tooling | 18 | 156 | 18 | 18 |
 | [terser/terser](https://github.com/terser/terser) | 9276 | 2026-04-29T11:46:52Z | JavaScript | Infrastructure/tooling | 5 | 16 | 5 | 5 |
+| [carbon-design-system/carbon](https://github.com/carbon-design-system/carbon) | 9094 | 2026-05-03T14:26:21Z | JavaScript | Infrastructure/tooling | 9 | 57 | 9 | 9 |
 | [ljharb/qs](https://github.com/ljharb/qs) | 8928 | 2026-04-27T19:23:55Z | JavaScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |
 | [isomorphic-git/isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) | 8196 | 2026-04-27T08:58:49Z | JavaScript | Infrastructure/tooling | 6 | 65 | 6 | 6 |
 | [violentmonkey/violentmonkey](https://github.com/violentmonkey/violentmonkey) | 8156 | 2026-04-30T12:26:20Z | JavaScript | Infrastructure/tooling | 8 | 82 | 8 | 8 |
-| [webpack/webpack-dev-server](https://github.com/webpack/webpack-dev-server) | 7848 | 2026-04-26T19:57:01Z | JavaScript | Infrastructure/tooling | 5 | 94 | 5 | 5 |
 | [krausest/js-framework-benchmark](https://github.com/krausest/js-framework-benchmark) | 7408 | 2026-04-27T18:34:17Z | JavaScript | Framework | 0 | 16 | 0 | 0 |
+| [MikeMcl/bignumber.js](https://github.com/MikeMcl/bignumber.js) | 6995 | 2026-05-03T10:27:51Z | JavaScript | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [mapbox/pixelmatch](https://github.com/mapbox/pixelmatch) | 6802 | 2026-04-29T05:52:51Z | JavaScript | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [sverweij/dependency-cruiser](https://github.com/sverweij/dependency-cruiser) | 6608 | 2026-05-02T18:33:11Z | JavaScript | Infrastructure/tooling | 10 | 66 | 10 | 10 |
 | [nodeca/js-yaml](https://github.com/nodeca/js-yaml) | 6566 | 2026-05-01T11:14:30Z | JavaScript | Infrastructure/tooling | 0 | 17 | 0 | 0 |
@@ -114,7 +115,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pillarjs/iconv-lite](https://github.com/pillarjs/iconv-lite) | 3166 | 2026-05-01T17:02:24Z | JavaScript | Infrastructure/tooling | 5 | 27 | 5 | 5 |
 | [mozilla/web-ext](https://github.com/mozilla/web-ext) | 3063 | 2026-04-29T07:22:24Z | JavaScript | CLI | 4 | 59 | 4 | 4 |
 | [GoogleCloudPlatform/nodejs-docs-samples](https://github.com/GoogleCloudPlatform/nodejs-docs-samples) | 2963 | 2026-04-29T22:07:12Z | JavaScript | Infrastructure/tooling | 12 | 27 | 12 | 12 |
-| [google/docsy](https://github.com/google/docsy) | 2931 | 2026-04-26T16:56:08Z | JavaScript | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [sveltejs/devalue](https://github.com/sveltejs/devalue) | 2731 | 2026-04-30T21:47:01Z | JavaScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [webpack/webpack-cli](https://github.com/webpack/webpack-cli) | 2605 | 2026-05-01T18:03:24Z | JavaScript | CLI | 6 | 45 | 6 | 6 |
 | [RisingStack/react-easy-state](https://github.com/RisingStack/react-easy-state) | 2547 | 2026-04-30T08:15:06Z | JavaScript | Unknown | 7 | 50 | 7 | 7 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 138,
-    "concepts": 147,
-    "observations": 150,
-    "repos": 24,
-    "terms": 146
+    "components": 147,
+    "concepts": 156,
+    "observations": 159,
+    "repos": 25,
+    "terms": 155
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "anordal/shellharden",
@@ -27,6 +27,7 @@
     "guillaume-be/rust-bert",
     "helix-editor/nucleo",
     "imgui-rs/imgui-rs",
+    "librespot-org/librespot",
     "linebender/tiny-skia",
     "Morganamilo/paru",
     "nagisa/rust_libloading",

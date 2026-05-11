@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 9
-- terms: 53
-- components: 142
-- concepts: 53
-- observations: 53
+- repos: 10
+- terms: 63
+- components: 189
+- concepts: 63
+- observations: 63
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jupyter/nbclassic](https://github.com/jupyter/nbclassic) | 110 | 2026-05-09T13:58:48Z | JavaScript | Infrastructure/tooling | 10 | 47 | 10 | 10 |
 | [aws-cloudformation/cfn-lint-visual-studio-code](https://github.com/aws-cloudformation/cfn-lint-visual-studio-code) | 286 | 2026-05-08T16:31:22Z | JavaScript | Infrastructure/tooling | 8 | 13 | 8 | 8 |
 | [GDevelopApp/GDevelop-extensions](https://github.com/GDevelopApp/GDevelop-extensions) | 247 | 2026-05-08T14:49:58Z | JavaScript | Infrastructure/tooling | 11 | 22 | 11 | 11 |
 | [tc39/eshost](https://github.com/tc39/eshost) | 147 | 2026-05-06T23:54:31Z | JavaScript | CLI | 0 | 23 | 0 | 0 |
@@ -49,3 +50,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mafintosh/streamx](https://github.com/mafintosh/streamx) | 239 | 2026-05-06T08:00:52Z | JavaScript | Infrastructure/tooling | 1 | 11 | 1 | 1 |
 | [tc39/eshost](https://github.com/tc39/eshost) | 147 | 2026-05-06T23:54:31Z | JavaScript | CLI | 0 | 23 | 0 | 0 |
 | [digitalocean/openapi](https://github.com/digitalocean/openapi) | 137 | 2026-05-05T09:36:18Z | JavaScript | Infrastructure/tooling | 11 | 14 | 11 | 11 |
+| [jupyter/nbclassic](https://github.com/jupyter/nbclassic) | 110 | 2026-05-09T13:58:48Z | JavaScript | Infrastructure/tooling | 10 | 47 | 10 | 10 |

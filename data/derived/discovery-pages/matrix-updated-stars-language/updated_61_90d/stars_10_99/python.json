@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 168,
-    "concepts": 140,
-    "observations": 141,
-    "repos": 54,
-    "terms": 138
+    "components": 170,
+    "concepts": 146,
+    "observations": 147,
+    "repos": 55,
+    "terms": 143
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "AadSah/ConverSeg",
     "abduznik/git-alchemist",
@@ -53,6 +53,7 @@
     "inducer/genpy",
     "IQTLabs/snowglobe",
     "layumi/3D-Magic-Mirror",
+    "liran-funaro/sphinx-markdown-builder",
     "Lizw14/Super-CLEVR",
     "Owen-Liuyuxuan/ros2_vision_inference",
     "rdb/panda3d-thirdparty",

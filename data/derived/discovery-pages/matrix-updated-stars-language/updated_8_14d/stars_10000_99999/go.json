@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 609,
-    "concepts": 522,
-    "observations": 522,
-    "repos": 38,
-    "terms": 522
+    "components": 651,
+    "concepts": 575,
+    "observations": 575,
+    "repos": 42,
+    "terms": 575
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "a-h/templ",
     "anchore/grype",
-    "apernet/hysteria",
     "argoproj/argo-workflows",
     "authelia/authelia",
     "bufbuild/buf",
+    "cert-manager/cert-manager",
     "cloudflare/cloudflared",
     "cloudwego/eino",
     "cockroachdb/cockroach",
@@ -43,14 +43,18 @@
     "istio/istio",
     "joewalnes/websocketd",
     "navidrome/navidrome",
+    "oauth2-proxy/oauth2-proxy",
     "ory/kratos",
     "php/frankenphp",
     "pingcap/tidb",
     "pion/webrtc",
     "pulumi/pulumi",
     "rclone/rclone",
-    "schollz/croc",
+    "rqlite/rqlite",
+    "SagerNet/sing-box",
+    "seaweedfs/seaweedfs",
     "v2fly/v2ray-core",
-    "VictoriaMetrics/VictoriaMetrics"
+    "VictoriaMetrics/VictoriaMetrics",
+    "XTLS/Xray-core"
   ]
 }

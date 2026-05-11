@@ -3,7 +3,7 @@
     "components": 39,
     "concepts": 45,
     "observations": 45,
-    "repos": 66,
+    "repos": 64,
     "terms": 54
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -49,7 +49,6 @@
     "danielrosehill/Arch-And-Interiors-Index",
     "danielrosehill/audio-editing-plugin",
     "danielrosehill/Backup-Planner",
-    "danielrosehill/brainstorm-solutions-plugin",
     "danielrosehill/Claude-AI-Engineering-Plugin",
     "danielrosehill/Claude-Audio-Production-Plugin",
     "danielrosehill/Claude-Budgeting-Plugin",
@@ -73,7 +72,6 @@
     "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",
     "narutoxdd6/nyro",
     "pragmatical-transshipment598/claude-code-workflows",
-    "psmux/scoop-omp-manager",
     "shouted-numberone752/wechat-agent-connector",
     "TransferQueue/community_doc",
     "ublacklist/store-assets",

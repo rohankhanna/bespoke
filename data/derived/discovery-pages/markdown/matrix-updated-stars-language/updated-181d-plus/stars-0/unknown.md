@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 115
+- repos: 116
 - terms: 97
 - components: 197
 - concepts: 97
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/A-Better-Jobs-Platform-Notes](https://github.com/danielrosehill/A-Better-Jobs-Platform-Notes) | 0 | 2025-11-11T13:25:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [kivikakk/cmark-gfm](https://github.com/kivikakk/cmark-gfm) | 0 | 2025-11-03T01:50:46Z | Unknown | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [danielrosehill/ai-human-attribution-adder](https://github.com/danielrosehill/AI-Human-Attribution-Adder) | 0 | 2025-10-31T17:29:36Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [danielrosehill/Claude-Linux-Desktop-Manager](https://github.com/danielrosehill/Claude-Linux-Desktop-Manager) | 0 | 2025-10-30T16:36:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -146,6 +147,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/A-Better-Jobs-Platform-Notes](https://github.com/danielrosehill/A-Better-Jobs-Platform-Notes) | 0 | 2025-11-11T13:25:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [kivikakk/cmark-gfm](https://github.com/kivikakk/cmark-gfm) | 0 | 2025-11-03T01:50:46Z | Unknown | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [danielrosehill/ai-human-attribution-adder](https://github.com/danielrosehill/AI-Human-Attribution-Adder) | 0 | 2025-10-31T17:29:36Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [danielrosehill/Claude-Linux-Desktop-Manager](https://github.com/danielrosehill/Claude-Linux-Desktop-Manager) | 0 | 2025-10-30T16:36:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

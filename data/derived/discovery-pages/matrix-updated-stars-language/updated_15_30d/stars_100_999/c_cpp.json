@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 655,
-    "concepts": 666,
-    "observations": 668,
-    "repos": 132,
-    "terms": 660
+    "components": 716,
+    "concepts": 711,
+    "observations": 713,
+    "repos": 135,
+    "terms": 705
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
+    "0ldsk00l/nestopia",
     "AcademySoftwareFoundation/Imath",
     "AcademySoftwareFoundation/openfx",
     "actboy168/bee.lua",
@@ -44,6 +45,8 @@
     "daanx/isocline",
     "DavidKinder/Inform6",
     "davisp/jiffy",
+    "DiligentGraphics/DiligentSamples",
+    "DiligentGraphics/DiligentTools",
     "DOCGroup/ACE_TAO",
     "DolbyLaboratories/dlb_mp4base",
     "eddelbuettel/rcppsimdjson",
@@ -69,9 +72,9 @@
     "hku-mars/FAST-Calib",
     "ifduyue/python-xxhash",
     "intel/intel-ipsec-mb",
-    "intel/QAT_Engine",
     "jcmvbkbc/gcc-xtensa",
     "JokerJohn/PALoc",
+    "jrouwe/JoltPhysics.js",
     "jupyter-xeus/xeus",
     "jupyter-xeus/xeus-python",
     "jupyter-xeus/xwidgets",
@@ -80,7 +83,6 @@
     "kleisauke/wasm-vips",
     "libbitcoin/libbitcoin-node",
     "libbitcoin/libbitcoin-server",
-    "libimobiledevice/libplist",
     "libLAS/libLAS",
     "Livox-SDK/Livox-SDK2",
     "Livox-SDK/livox_ros_driver2",
@@ -98,6 +100,7 @@
     "microsoft/WindowsAppSDK-Samples",
     "mitsuba-renderer/drjit",
     "mitsuba-renderer/drjit-core",
+    "murat-dogan/node-datachannel",
     "mybigday/llama.rn",
     "mysql/mysql-workbench",
     "NetHack-LE/nle",
@@ -112,12 +115,14 @@
     "openSUSE/catatonit",
     "openvinotoolkit/model_server",
     "openvinotoolkit/openvino.genai",
+    "optiscaler/OptiPatcher",
     "pantoniou/libfyaml",
     "pauldmccarthy/indexed_gzip",
     "paullouisageneau/libjuice",
     "pbatard/Mosby",
     "powturbo/Turbo-Base64",
     "powturbo/TurboBench",
+    "pqrs-org/Karabiner-DriverKit-VirtualHIDDevice",
     "proxytunnel/proxytunnel",
     "pyg-team/pyg-lib",
     "qbs/qbs",
@@ -125,7 +130,6 @@
     "raylib-extras/rlImGui",
     "realh/roxterm",
     "rmagick/rmagick",
-    "roboception/cvkit",
     "robotology/yarp",
     "ROCm/composable_kernel",
     "ROCm/MIVisionX",
@@ -143,7 +147,6 @@
     "usdot-fhwa-stol/carma-platform",
     "uxlfoundation/oneCCL",
     "VectorDB-NTU/RaBitQ-Library",
-    "wdas/ptex",
     "xiph/vorbis",
     "Yubico/libfido2"
   ]

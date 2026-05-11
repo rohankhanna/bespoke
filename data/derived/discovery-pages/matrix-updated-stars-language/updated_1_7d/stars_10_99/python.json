@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 4,
-    "terms": 8
+    "components": 14,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 3,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
-    "dora-rs/dora-hub",
-    "intel-staging/text-generation-webui",
+    "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "mesh-iit/cad-libraries",
     "python-jsonschema/referencing"
   ]

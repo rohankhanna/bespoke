@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 474,
-    "concepts": 276,
-    "observations": 276,
-    "repos": 72,
-    "terms": 290
+    "components": 465,
+    "concepts": 278,
+    "observations": 278,
+    "repos": 71,
+    "terms": 292
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -27,9 +27,9 @@
     "antonWetzel/prettypst",
     "apache/opendal-oli",
     "arkworks-rs/spongefish",
+    "arkworks-rs/std",
     "bitcoindevkit/bdk_wallet",
     "bitcoindevkit/rust-electrum-client",
-    "BlackDex/rust-musl",
     "boundless-xyz/kailua",
     "boundless-xyz/steel",
     "celo-org/celo-threshold-bls-rs",
@@ -70,13 +70,12 @@
     "open-telemetry/opentelemetry-rust-contrib",
     "paradigmxyz/stateless",
     "phiat/claude-esp-rs",
-    "psmux/omp-manager",
     "quininer/x11-clipboard",
     "rozbb/rust-hpke",
-    "rust-lang/josh-sync",
     "sophus-vision/sophus-rs",
     "Sovereign-Labs/rollup-starter",
     "succinctlabs/network",
+    "Systemcluster/kitoken",
     "tianrking/weixin-agent-rs",
     "tombelieber/claude-view",
     "tracel-ai/burn-bench",

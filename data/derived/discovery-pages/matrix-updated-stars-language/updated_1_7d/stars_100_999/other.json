@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 366,
-    "concepts": 209,
-    "observations": 209,
-    "repos": 27,
-    "terms": 208
+    "components": 296,
+    "concepts": 176,
+    "observations": 176,
+    "repos": 22,
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
@@ -12,32 +12,27 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersRegistry",
-    "apalache-mc/apalache",
     "argotorg/hevm",
-    "bazel-contrib/rules_kotlin",
     "CHIP-SPV/chipStar",
     "ChristopherHX/runner.server",
     "clj-commons/rewrite-clj",
     "cowprotocol/contracts",
     "danielrosehill/Claude-Code-Projects-Index",
     "dbkangaroo/kangaroo",
-    "dennisdoomen/CSharpGuidelines",
     "devcontainers/devcontainers.github.io",
     "elixir-protobuf/protobuf",
     "intel/ipex-llm-tutorial",
     "jump-dev/NLopt.jl",
+    "karafka/rdkafka-ruby",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "LibreChat-AI/librechat.ai",
     "lite-xl/lite-xl-plugin-manager",
     "mit-plv/bedrock2",
     "mrcjkb/haskell-tools.nvim",
-    "nix-community/haumea",
     "open-telemetry/opentelemetry-helm-charts",
-    "osmlab/name-suggestion-index",
-    "phpstan/phpstan-src",
     "ROCm/hipBLASLt",
     "Shopify/tapioca",
     "WICG/attribution-reporting-api"

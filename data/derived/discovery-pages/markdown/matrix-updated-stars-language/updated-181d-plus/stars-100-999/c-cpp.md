@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 363
-- terms: 1163
+- repos: 364
+- terms: 1167
 - components: 651
-- concepts: 1182
-- observations: 1185
+- concepts: 1186
+- observations: 1189
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [IST-DASLab/qutlass](https://github.com/IST-DASLab/qutlass) | 179 | 2025-11-11T13:41:32Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [ingonyama-zk/icicle](https://github.com/ingonyama-zk/icicle) | 493 | 2025-11-10T11:46:37Z | C/C++ | Infrastructure/tooling | 10 | 18 | 10 | 10 |
 | [andreasdr/tdme2](https://github.com/andreasdr/tdme2) | 185 | 2025-11-08T20:43:03Z | C/C++ | CLI | 17 | 2 | 20 | 20 |
 | [unitreerobotics/unitree_mujoco](https://github.com/unitreerobotics/unitree_mujoco) | 953 | 2025-11-07T03:38:55Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -187,7 +188,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [colmap/pycolmap](https://github.com/colmap/pycolmap) | 993 | 2024-07-09T23:33:38Z | C/C++ | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [mit-han-lab/TinyChatEngine](https://github.com/mit-han-lab/TinyChatEngine) | 953 | 2024-07-04T04:20:45Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [pmneila/PyMCubes](https://github.com/pmneila/PyMCubes) | 788 | 2024-07-03T23:14:20Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [nowar-fonts/Warcraft-Font-Merger](https://github.com/nowar-fonts/Warcraft-Font-Merger) | 709 | 2024-07-01T10:51:12Z | C/C++ | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [nowar-fonts/Warcraft-Font-Merger](https://github.com/nowar-fonts/Warcraft-Font-Merger) | 710 | 2024-07-01T10:51:12Z | C/C++ | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [espressif/ESP8266_NONOS_SDK](https://github.com/espressif/ESP8266_NONOS_SDK) | 972 | 2024-06-27T03:48:21Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [mayah/tinytoml](https://github.com/mayah/tinytoml) | 175 | 2024-06-20T16:20:06Z | C/C++ | Library | 2 | 0 | 2 | 2 |
 | [Konstanty/libmodplug](https://github.com/Konstanty/libmodplug) | 149 | 2024-06-20T02:07:37Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -460,7 +461,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [BlueBrain/HighFive](https://github.com/BlueBrain/HighFive) | 723 | 2025-01-09T09:29:48Z | C/C++ | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [paulftw/hiberlite](https://github.com/paulftw/hiberlite) | 722 | 2023-07-24T17:16:55Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [voutcn/megahit](https://github.com/voutcn/megahit) | 711 | 2025-10-28T04:07:04Z | C/C++ | Infrastructure/tooling | 6 | 0 | 6 | 6 |
-| [nowar-fonts/Warcraft-Font-Merger](https://github.com/nowar-fonts/Warcraft-Font-Merger) | 709 | 2024-07-01T10:51:12Z | C/C++ | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [nowar-fonts/Warcraft-Font-Merger](https://github.com/nowar-fonts/Warcraft-Font-Merger) | 710 | 2024-07-01T10:51:12Z | C/C++ | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [inikep/lizard](https://github.com/inikep/lizard) | 702 | 2025-10-09T17:41:20Z | C/C++ | Unknown | 8 | 0 | 8 | 8 |
 | [Mange/rofi-emoji](https://github.com/Mange/rofi-emoji) | 700 | 2025-04-04T21:31:59Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ARM-software/vulkan_best_practice_for_mobile_developers](https://github.com/ARM-software/vulkan_best_practice_for_mobile_developers) | 686 | 2024-08-06T14:42:05Z | C/C++ | Unknown | 7 | 0 | 7 | 7 |
@@ -677,6 +678,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Netgear/wsdd2](https://github.com/Netgear/wsdd2) | 181 | 2024-05-05T17:31:02Z | C/C++ | Infrastructure/tooling | 4 | 0 | 4 | 4 |
 | [c-zhou/yahs](https://github.com/c-zhou/yahs) | 180 | 2024-11-04T19:25:13Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [FeiGeChuanShu/ncnn_Android_face](https://github.com/FeiGeChuanShu/ncnn_Android_face) | 180 | 2022-11-01T05:52:33Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [IST-DASLab/qutlass](https://github.com/IST-DASLab/qutlass) | 179 | 2025-11-11T13:41:32Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [JaneaSystems/nodejs-mobile-samples](https://github.com/JaneaSystems/nodejs-mobile-samples) | 179 | 2023-01-03T21:47:37Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [InteractiveComputerGraphics/CompactNSearch](https://github.com/InteractiveComputerGraphics/CompactNSearch) | 175 | 2025-09-11T10:47:21Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [mayah/tinytoml](https://github.com/mayah/tinytoml) | 175 | 2024-06-20T16:20:06Z | C/C++ | Library | 2 | 0 | 2 | 2 |

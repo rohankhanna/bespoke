@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5210,
-    "concepts": 1019,
-    "observations": 1021,
-    "repos": 114,
-    "terms": 1014
+    "components": 5109,
+    "concepts": 1007,
+    "observations": 1009,
+    "repos": 113,
+    "terms": 1002
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
     "AdguardTeam/AdguardBrowserExtension",
@@ -43,6 +43,7 @@
     "cloudflare/workers-sdk",
     "Comcast/react-data-grid",
     "connectrpc/connect-es",
+    "cursorless-dev/cursorless",
     "dbeaver/cloudbeaver",
     "dmotz/trystero",
     "dotnet/vscode-csharp",
@@ -65,7 +66,6 @@
     "IgnisDa/ryot",
     "informalsystems/quint",
     "intlify/vue-i18n",
-    "jaegertracing/jaeger-ui",
     "JamesIves/github-pages-deploy-action",
     "jest-community/eslint-plugin-jest",
     "jest-community/jest-extended",
@@ -74,7 +74,6 @@
     "mathjax/MathJax-src",
     "mdn/yari",
     "microsoft/vscode-cmake-tools",
-    "microsoft/vscode-python",
     "modelcontextprotocol/inspector",
     "mui/mui-x",
     "nanostores/nanostores",
@@ -92,6 +91,7 @@
     "pulumi/examples",
     "r-lib/actions",
     "r5n-labs/vscode-react-javascript-snippets",
+    "react-cosmos/react-cosmos",
     "reactjs/react-docgen",
     "Redocly/redocly-cli",
     "remotion-dev/skills",
@@ -99,7 +99,7 @@
     "rolldown/tsdown",
     "rustmailer/bichon",
     "SilentVoid13/Templater",
-    "sinclairzx81/typebox",
+    "solidjs-community/solid-primitives",
     "sparkjsdev/spark",
     "stackblitz-labs/pkg.pr.new",
     "standard/eslint-config-standard",
@@ -108,7 +108,6 @@
     "sveltejs/language-tools",
     "swc-project/swc-node",
     "TanStack/db",
-    "TanStack/virtual",
     "thomasloven/hass-browser_mod",
     "timmywil/panzoom",
     "tinylibs/tinybench",
@@ -117,6 +116,7 @@
     "unjs/changelogen",
     "unjs/ofetch",
     "unjs/ufo",
+    "unjs/unhead",
     "Urigo/graphql-cli",
     "valtyr/prisma-kysely",
     "vitejs/devtools",
@@ -126,7 +126,6 @@
     "web-infra-dev/rsdoctor",
     "web-infra-dev/rspress",
     "webdriverio/webdriverio",
-    "wundergraph/cosmo",
-    "zsviczian/obsidian-excalidraw-plugin"
+    "wundergraph/cosmo"
   ]
 }

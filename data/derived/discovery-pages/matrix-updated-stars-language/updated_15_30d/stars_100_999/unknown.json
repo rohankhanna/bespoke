@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 70,
-    "concepts": 196,
-    "observations": 197,
-    "repos": 54,
-    "terms": 195
+    "components": 69,
+    "concepts": 194,
+    "observations": 195,
+    "repos": 53,
+    "terms": 193
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "actions/partner-runner-images",
@@ -26,9 +26,9 @@
     "astro-han/karpathy-llm-wiki",
     "bitrise-io/bitrise-steplib",
     "bloomberg/clang-p2996",
+    "chromedp/cdproto",
     "cisagov/vulnrichment",
     "cloudflare/skills",
-    "cncf/artwork",
     "cosmos/awesome-cosmos",
     "CVEProject/automation-working-group",
     "django/deps",
@@ -63,7 +63,6 @@
     "sedyh/awesome-ebitengine",
     "servo/project",
     "stripe/openapi",
-    "tc39/how-we-work",
     "tinted-theming/home",
     "Uzaaft/awesome-libghostty",
     "ymcui/MacBERT",

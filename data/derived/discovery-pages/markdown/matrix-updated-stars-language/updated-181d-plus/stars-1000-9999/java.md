@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -59,7 +59,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [facebook/buck](https://github.com/facebook/buck) | 8546 | 2023-10-25T02:45:11Z | Java | Unknown | 4 | 0 | 4 | 4 |
 | [ArthurHub/Android-Image-Cropper](https://github.com/ArthurHub/Android-Image-Cropper) | 6424 | 2023-09-17T15:20:18Z | Java | Library | 3 | 0 | 3 | 3 |
 | [WangDaYeeeeee/GeometricWeather](https://github.com/WangDaYeeeeee/GeometricWeather) | 2524 | 2023-08-16T22:57:26Z | Java | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [MSPaintIDE/MSPaintIDE](https://github.com/MSPaintIDE/MSPaintIDE) | 1435 | 2023-08-07T22:39:23Z | Java | Unknown | 6 | 0 | 6 | 6 |
+| [MSPaintIDE/MSPaintIDE](https://github.com/MSPaintIDE/MSPaintIDE) | 1434 | 2023-08-07T22:39:23Z | Java | Unknown | 6 | 0 | 6 | 6 |
 | [me-no-dev/EspExceptionDecoder](https://github.com/me-no-dev/EspExceptionDecoder) | 1136 | 2023-04-08T01:21:51Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [nitaliano/react-native-mapbox-gl](https://github.com/nitaliano/react-native-mapbox-gl) | 2171 | 2023-03-18T11:22:11Z | Java | Unknown | 3 | 35 | 3 | 3 |
 | [Teradata/kylo](https://github.com/Teradata/kylo) | 1113 | 2023-01-12T08:25:19Z | Java | Framework | 6 | 0 | 6 | 6 |
@@ -105,7 +105,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [knowm/XChart](https://github.com/knowm/XChart) | 1580 | 2025-10-27T13:44:56Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [jknack/handlebars.java](https://github.com/jknack/handlebars.java) | 1550 | 2025-08-07T21:09:36Z | Java | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [crossbario/autobahn-java](https://github.com/crossbario/autobahn-java) | 1534 | 2024-11-28T05:15:51Z | Java | Infrastructure/tooling | 10 | 3 | 10 | 10 |
-| [MSPaintIDE/MSPaintIDE](https://github.com/MSPaintIDE/MSPaintIDE) | 1435 | 2023-08-07T22:39:23Z | Java | Unknown | 6 | 0 | 6 | 6 |
+| [MSPaintIDE/MSPaintIDE](https://github.com/MSPaintIDE/MSPaintIDE) | 1434 | 2023-08-07T22:39:23Z | Java | Unknown | 6 | 0 | 6 | 6 |
 | [mstrobel/procyon](https://github.com/mstrobel/procyon) | 1193 | 2022-06-12T17:09:04Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [SpencerPark/IJava](https://github.com/SpencerPark/IJava) | 1181 | 2024-06-01T04:30:45Z | Java | Unknown | 4 | 0 | 4 | 4 |
 | [me-no-dev/EspExceptionDecoder](https://github.com/me-no-dev/EspExceptionDecoder) | 1136 | 2023-04-08T01:21:51Z | Java | Unknown | 0 | 0 | 0 | 0 |

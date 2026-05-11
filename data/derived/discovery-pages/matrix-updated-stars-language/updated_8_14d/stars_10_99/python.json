@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 295,
-    "concepts": 235,
-    "observations": 235,
-    "repos": 57,
-    "terms": 231
+    "components": 307,
+    "concepts": 227,
+    "observations": 227,
+    "repos": 56,
+    "terms": 225
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "agno-agi/coda",
@@ -20,7 +20,6 @@
     "allenai/cached_path",
     "arcaputo3/mcp-server-whisper",
     "AstraZeneca/runnable",
-    "autodeployai/pypmml",
     "autowarefoundation/autoware_launch",
     "awslabs/nx-neptune",
     "Azure-Samples/openai-chat-app-entra-auth-builtin",
@@ -32,6 +31,7 @@
     "conservationtechlab/animl-py",
     "DanielNoord/pydocstringformatter",
     "dbfixtures/mirakuru",
+    "dora-rs/dora-hub",
     "espressif/esp-idf-monitor",
     "executablebooks/mdit-py-plugins",
     "flagos-ai/vllm-plugin-FL",
@@ -63,7 +63,6 @@
     "scipy/scipy.org",
     "sigstore/sigstore-conformance",
     "sublimelsp/LSP-volar",
-    "symgraph/BinAssistMCP",
     "TaWald/nnUNet",
     "terrierteam/pyterrier_pisa",
     "theupdateframework/tuf-on-ci",

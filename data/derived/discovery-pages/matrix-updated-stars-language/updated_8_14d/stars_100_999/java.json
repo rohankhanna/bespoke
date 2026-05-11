@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 287,
-    "concepts": 304,
-    "observations": 304,
-    "repos": 41,
-    "terms": 302
+    "components": 288,
+    "concepts": 309,
+    "observations": 309,
+    "repos": 39,
+    "terms": 307
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "allegro/hermes",
-    "apache/commons-jexl",
     "apache/ignite-3",
     "apache/rocketmq-clients",
     "apache/spark-kubernetes-operator",
@@ -34,9 +33,7 @@
     "googleapis/java-bigtable-hbase",
     "heroku/webapp-runner",
     "ihmcrobotics/ihmc-open-robotics-software",
-    "jpmml/jpmml-lightgbm",
     "jpmml/jpmml-sklearn",
-    "jpmml/jpmml-xgboost",
     "kirill-grouchnikov/radiance",
     "MarcusWolschon/osmeditor4android",
     "michel-kraemer/bson4jackson",
@@ -44,6 +41,7 @@
     "microsoft/vscode-java-test",
     "operator-framework/java-operator-sdk",
     "palantir/javapoet",
+    "processing/processing4",
     "quarkiverse/quarkus-langchain4j",
     "quarkiverse/quarkus-operator-sdk",
     "reactor/reactor-addons",

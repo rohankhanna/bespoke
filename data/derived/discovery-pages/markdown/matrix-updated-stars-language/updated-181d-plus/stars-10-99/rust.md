@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 189
+- repos: 190
 - terms: 385
-- components: 501
+- components: 504
 - concepts: 391
 - observations: 394
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [servo/unicode-bidi](https://github.com/servo/unicode-bidi) | 84 | 2025-11-11T17:53:27Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [AndersTrier/reed-solomon-simd](https://github.com/AndersTrier/reed-solomon-simd) | 80 | 2025-11-04T21:15:39Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [dermesser/integer-encoding-rs](https://github.com/dermesser/integer-encoding-rs) | 70 | 2025-10-28T19:40:03Z | Rust | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [AdnoC/sixel-sys](https://github.com/AdnoC/sixel-sys) | 14 | 2025-10-21T17:27:39Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -231,6 +232,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [daschl/hwloc-rs](https://github.com/daschl/hwloc-rs) | 90 | 2021-07-14T10:02:54Z | Rust | Library | 0 | 0 | 0 | 0 |
 | [celo-org/celo-bls-snark-rs](https://github.com/celo-org/celo-bls-snark-rs) | 86 | 2024-02-02T14:32:47Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [loocapro/reth-bsc](https://github.com/loocapro/reth-bsc) | 85 | 2025-09-09T11:33:21Z | Rust | CLI | 1 | 4 | 1 | 1 |
+| [servo/unicode-bidi](https://github.com/servo/unicode-bidi) | 84 | 2025-11-11T17:53:27Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [DCjanus/cang-jie](https://github.com/DCjanus/cang-jie) | 84 | 2025-09-25T07:59:29Z | Rust | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [stainless-steel/md5](https://github.com/stainless-steel/md5) | 83 | 2025-06-26T13:20:22Z | Rust | Infrastructure/tooling | 6 | 1 | 6 | 6 |
 | [xetdata/xet-core](https://github.com/xetdata/xet-core) | 82 | 2024-10-16T17:59:02Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |

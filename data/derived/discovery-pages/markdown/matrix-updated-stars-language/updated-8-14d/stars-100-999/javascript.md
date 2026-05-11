@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 48
-- terms: 247
-- components: 1165
-- concepts: 251
-- observations: 253
+- repos: 44
+- terms: 233
+- components: 1129
+- concepts: 237
+- observations: 239
 
 ## Static behavior
 
@@ -70,10 +70,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [reviewdog/action-eslint](https://github.com/reviewdog/action-eslint) | 260 | 2026-04-27T09:39:03Z | JavaScript | Infrastructure/tooling | 6 | 15 | 6 | 7 |
 | [j9t/html-minifier-next](https://github.com/j9t/html-minifier-next) | 125 | 2026-04-27T06:53:10Z | JavaScript | CLI | 16 | 21 | 16 | 16 |
 | [dydxprotocol/v4-clients](https://github.com/dydxprotocol/v4-clients) | 119 | 2026-04-27T06:34:10Z | JavaScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
-| [csstools/cssdb](https://github.com/csstools/cssdb) | 543 | 2026-04-27T05:48:59Z | JavaScript | Infrastructure/tooling | 3 | 12 | 3 | 3 |
-| [rubyjs/mini_racer](https://github.com/rubyjs/mini_racer) | 620 | 2026-04-27T05:46:24Z | JavaScript | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [GDevelopApp/GDevelop-examples](https://github.com/GDevelopApp/GDevelop-examples) | 127 | 2026-04-26T23:18:07Z | JavaScript | Infrastructure/tooling | 7 | 17 | 7 | 7 |
-| [matzkoh/prettier-plugin-packagejson](https://github.com/matzkoh/prettier-plugin-packagejson) | 386 | 2026-04-26T21:57:16Z | JavaScript | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -95,14 +91,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kriszyp/msgpackr](https://github.com/kriszyp/msgpackr) | 657 | 2026-04-27T12:03:35Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
 | [facebook/Rapid](https://github.com/facebook/Rapid) | 630 | 2026-05-01T13:18:40Z | JavaScript | Infrastructure/tooling | 4 | 92 | 4 | 4 |
 | [all-contributors/app](https://github.com/all-contributors/app) | 624 | 2026-05-01T00:47:47Z | JavaScript | Infrastructure/tooling | 12 | 16 | 12 | 12 |
-| [rubyjs/mini_racer](https://github.com/rubyjs/mini_racer) | 620 | 2026-04-27T05:46:24Z | JavaScript | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [oss-serverless/serverless](https://github.com/oss-serverless/serverless) | 602 | 2026-05-03T01:04:02Z | JavaScript | CLI | 2 | 66 | 2 | 2 |
 | [fontello/svg2ttf](https://github.com/fontello/svg2ttf) | 543 | 2026-05-02T01:17:12Z | JavaScript | Infrastructure/tooling | 0 | 11 | 0 | 0 |
-| [csstools/cssdb](https://github.com/csstools/cssdb) | 543 | 2026-04-27T05:48:59Z | JavaScript | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [hudochenkov/postcss-sorting](https://github.com/hudochenkov/postcss-sorting) | 532 | 2026-04-29T07:14:26Z | JavaScript | Infrastructure/tooling | 5 | 16 | 5 | 5 |
 | [w3c/webref](https://github.com/w3c/webref) | 429 | 2026-05-01T07:26:20Z | JavaScript | Infrastructure/tooling | 8 | 20 | 8 | 8 |
 | [conventional-changelog/releaser-tools](https://github.com/conventional-changelog/releaser-tools) | 402 | 2026-04-29T18:17:02Z | JavaScript | Unknown | 9 | 12 | 9 | 9 |
-| [matzkoh/prettier-plugin-packagejson](https://github.com/matzkoh/prettier-plugin-packagejson) | 386 | 2026-04-26T21:57:16Z | JavaScript | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [webtorrent/bittorrent-protocol](https://github.com/webtorrent/bittorrent-protocol) | 356 | 2026-04-29T12:38:21Z | JavaScript | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [mozilla/addons-linter](https://github.com/mozilla/addons-linter) | 356 | 2026-04-29T11:24:01Z | JavaScript | CLI | 1 | 59 | 1 | 1 |
 | [sveltejs/dts-buddy](https://github.com/sveltejs/dts-buddy) | 351 | 2026-04-29T20:30:52Z | JavaScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
@@ -120,7 +113,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [electerm/electerm-web](https://github.com/electerm/electerm-web) | 161 | 2026-04-29T09:33:36Z | JavaScript | CLI | 6 | 77 | 6 | 6 |
 | [Kilian/electron-to-chromium](https://github.com/Kilian/electron-to-chromium) | 155 | 2026-05-01T06:02:24Z | JavaScript | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [usnistgov/h5wasm](https://github.com/usnistgov/h5wasm) | 137 | 2026-05-01T19:51:04Z | JavaScript | Infrastructure/tooling | 6 | 7 | 6 | 6 |
-| [GDevelopApp/GDevelop-examples](https://github.com/GDevelopApp/GDevelop-examples) | 127 | 2026-04-26T23:18:07Z | JavaScript | Infrastructure/tooling | 7 | 17 | 7 | 7 |
 | [mdn/mdn-http-observatory](https://github.com/mdn/mdn-http-observatory) | 126 | 2026-04-28T11:02:37Z | JavaScript | Infrastructure/tooling | 12 | 48 | 12 | 12 |
 | [j9t/html-minifier-next](https://github.com/j9t/html-minifier-next) | 125 | 2026-04-27T06:53:10Z | JavaScript | CLI | 16 | 21 | 16 | 16 |
 | [dydxprotocol/v4-clients](https://github.com/dydxprotocol/v4-clients) | 119 | 2026-04-27T06:34:10Z | JavaScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |

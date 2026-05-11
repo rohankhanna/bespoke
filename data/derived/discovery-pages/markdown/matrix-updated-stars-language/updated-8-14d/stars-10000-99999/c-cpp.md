@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 42
-- terms: 492
-- components: 382
-- concepts: 495
-- observations: 496
+- repos: 41
+- terms: 501
+- components: 392
+- concepts: 504
+- observations: 505
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) | 10266 | 2026-05-03T14:25:40Z | C/C++ | Infrastructure/tooling | 11 | 10 | 11 | 11 |
 | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 23712 | 2026-05-03T04:43:47Z | C/C++ | CLI | 24 | 12 | 27 | 27 |
 | [emscripten-core/emscripten](https://github.com/emscripten-core/emscripten) | 27341 | 2026-05-02T09:32:51Z | C/C++ | Infrastructure/tooling | 8 | 28 | 8 | 8 |
 | [libsdl-org/SDL](https://github.com/libsdl-org/SDL) | 15518 | 2026-05-02T02:50:04Z | C/C++ | Infrastructure/tooling | 5 | 16 | 5 | 5 |
@@ -66,8 +67,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cameron314/concurrentqueue](https://github.com/cameron314/concurrentqueue) | 12236 | 2026-04-28T13:16:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [AaronFeng753/Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI) | 16481 | 2026-04-28T11:37:48Z | C/C++ | Unknown | 20 | 0 | 20 | 20 |
 | [catchorg/Catch2](https://github.com/catchorg/Catch2) | 20355 | 2026-04-27T18:51:08Z | C/C++ | Infrastructure/tooling | 14 | 3 | 14 | 14 |
-| [swaywm/sway](https://github.com/swaywm/sway) | 16854 | 2026-04-26T14:35:50Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
-| [asmvik/yabai](https://github.com/asmvik/yabai) | 28766 | 2026-04-26T13:41:19Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -78,7 +77,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dcloudio/uni-app](https://github.com/dcloudio/uni-app) | 41508 | 2026-04-30T13:02:14Z | C/C++ | Framework | 8 | 0 | 8 | 8 |
 | [duckdb/duckdb](https://github.com/duckdb/duckdb) | 37872 | 2026-05-01T14:55:41Z | C/C++ | Infrastructure/tooling | 14 | 7 | 14 | 14 |
 | [SerenityOS/serenity](https://github.com/SerenityOS/serenity) | 33118 | 2026-05-01T06:54:43Z | C/C++ | Infrastructure/tooling | 14 | 9 | 14 | 14 |
-| [asmvik/yabai](https://github.com/asmvik/yabai) | 28766 | 2026-04-26T13:41:19Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | 28330 | 2026-04-29T14:00:18Z | C/C++ | Infrastructure/tooling | 12 | 12 | 12 | 12 |
 | [mongodb/mongo](https://github.com/mongodb/mongo) | 28273 | 2026-04-30T04:16:30Z | C/C++ | Unknown | 4 | 7 | 4 | 4 |
 | [emscripten-core/emscripten](https://github.com/emscripten-core/emscripten) | 27341 | 2026-05-02T09:32:51Z | C/C++ | Infrastructure/tooling | 8 | 28 | 8 | 8 |
@@ -91,7 +89,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20320 | 2026-04-30T23:28:34Z | C/C++ | Infrastructure/tooling | 16 | 12 | 16 | 16 |
 | [lightgbm-org/LightGBM](https://github.com/lightgbm-org/LightGBM) | 18306 | 2026-04-30T03:13:45Z | C/C++ | Infrastructure/tooling | 19 | 9 | 19 | 19 |
 | [espressif/esp-idf](https://github.com/espressif/esp-idf) | 17964 | 2026-05-01T03:43:48Z | C/C++ | Infrastructure/tooling | 8 | 14 | 8 | 8 |
-| [swaywm/sway](https://github.com/swaywm/sway) | 16854 | 2026-04-26T14:35:50Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [espressif/arduino-esp32](https://github.com/espressif/arduino-esp32) | 16696 | 2026-05-01T00:53:21Z | C/C++ | Infrastructure/tooling | 10 | 15 | 10 | 10 |
 | [AaronFeng753/Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI) | 16481 | 2026-04-28T11:37:48Z | C/C++ | Unknown | 20 | 0 | 20 | 20 |
 | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 16421 | 2026-04-29T07:03:39Z | C/C++ | CLI | 11 | 16 | 11 | 11 |
@@ -112,6 +109,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [baldurk/renderdoc](https://github.com/baldurk/renderdoc) | 10655 | 2026-04-28T13:48:06Z | C/C++ | Infrastructure/tooling | 12 | 4 | 12 | 12 |
 | [openframeworks/openFrameworks](https://github.com/openframeworks/openFrameworks) | 10363 | 2026-04-28T19:42:52Z | C/C++ | Infrastructure/tooling | 18 | 10 | 18 | 18 |
 | [LostRuins/koboldcpp](https://github.com/LostRuins/koboldcpp) | 10361 | 2026-04-30T16:07:49Z | C/C++ | Infrastructure/tooling | 17 | 4 | 17 | 17 |
+| [jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) | 10266 | 2026-05-03T14:25:40Z | C/C++ | Infrastructure/tooling | 11 | 10 | 11 | 11 |
 | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | 10168 | 2026-05-01T15:15:41Z | C/C++ | Infrastructure/tooling | 23 | 14 | 23 | 23 |
 | [oceanbase/oceanbase](https://github.com/oceanbase/oceanbase) | 10084 | 2026-04-30T01:00:43Z | C/C++ | Infrastructure/tooling | 26 | 10 | 26 | 26 |
 | [bpftrace/bpftrace](https://github.com/bpftrace/bpftrace) | 10080 | 2026-05-01T00:57:20Z | C/C++ | Infrastructure/tooling | 14 | 11 | 14 | 14 |

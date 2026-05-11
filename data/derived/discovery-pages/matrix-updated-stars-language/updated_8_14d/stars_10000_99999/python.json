@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 635,
-    "concepts": 653,
-    "observations": 655,
-    "repos": 57,
-    "terms": 647
+    "components": 618,
+    "concepts": 640,
+    "observations": 641,
+    "repos": 55,
+    "terms": 634
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "agentscope-ai/agentscope",
     "agentscope-ai/QwenPaw",
@@ -32,7 +32,6 @@
     "kornia/kornia",
     "kvcache-ai/ktransformers",
     "langchain-ai/open_deep_research",
-    "LibreTranslate/LibreTranslate",
     "Lightning-AI/litgpt",
     "locustio/locust",
     "lucidrains/vit-pytorch",
@@ -48,7 +47,6 @@
     "ostris/ai-toolkit",
     "pallets/click",
     "pipecat-ai/pipecat",
-    "PrefectHQ/fastmcp",
     "psf/black",
     "psf/requests",
     "pypa/pipenv",
@@ -60,7 +58,6 @@
     "scipy/scipy",
     "scrapy/scrapy",
     "Skyvern-AI/skyvern",
-    "state-spaces/mamba",
     "StevenBlack/hosts",
     "SWE-agent/SWE-agent",
     "sympy/sympy",
@@ -70,6 +67,7 @@
     "ultralytics/yolov5",
     "unclecode/crawl4ai",
     "vega/altair",
-    "wandb/wandb"
+    "wandb/wandb",
+    "wkentaro/labelme"
   ]
 }

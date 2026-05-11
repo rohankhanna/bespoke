@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 9830,
-    "concepts": 8545,
-    "observations": 8554,
-    "repos": 2234,
-    "terms": 8429
+    "components": 9895,
+    "concepts": 8567,
+    "observations": 8576,
+    "repos": 2237,
+    "terms": 8452
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -705,11 +705,13 @@
     "fjc0k/docker-YApi",
     "fkling/astexplorer",
     "FlagAI-Open/FlagAI",
+    "flame/blis",
     "flann-lib/flann",
     "flask-restful/flask-restful",
     "FlineDev/BartyCrouch",
     "flow-project/flow",
     "fluxcd/flux",
+    "fmaclen/hollama",
     "FMInference/FlexLLMGen",
     "fnando/i18n-js",
     "fogleman/gg",
@@ -948,6 +950,7 @@
     "IDEA-Research/DINO",
     "IDEA-Research/DINO-X-API",
     "IDEA-Research/DWPose",
+    "IDEA-Research/Grounded-SAM-2",
     "IDEA-Research/Grounding-DINO-1.5-API",
     "IDEA-Research/MaskDINO",
     "IDEA-Research/T-Rex",
@@ -1760,6 +1763,7 @@
     "rrousselGit/flutter_hooks",
     "rsennrich/subword-nmt",
     "rsmbl/Resemble.js",
+    "rspec/rspec-metagem",
     "rtfeldman/elm-css",
     "rtfeldman/elm-spa-example",
     "rtomayko/tilt",
@@ -1965,7 +1969,6 @@
     "tesseract-ocr/tessdata",
     "tesseract-ocr/tessdata_best",
     "Tessil/robin-map",
-    "testdouble/contributing-tests",
     "testdouble/testdouble.js",
     "testing-library/react-hooks-testing-library",
     "Textualize/textual-web",

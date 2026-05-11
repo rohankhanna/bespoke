@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 346,
-    "concepts": 291,
-    "observations": 291,
-    "repos": 73,
+    "components": 344,
+    "concepts": 290,
+    "observations": 290,
+    "repos": 75,
     "terms": 289
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "4dn-dcic/tibanna",
     "Accio-Lab/SwimBird",
+    "AgriciDaniel/claude-email",
     "ai4colonoscopy/PraNet-V2",
     "aiagenta2z/mcp-marketplace",
     "all-the-noises/eval-arena",
@@ -24,6 +25,7 @@
     "allenporter/python-google-nest-sdm",
     "amiable-dev/llm-council",
     "andyluo7/autoresearch",
+    "ankurhanda/robot-assets",
     "archlizheng/frontend-slides-editable",
     "Azure-Samples/azureai-travel-agent-python",
     "beeware/briefcase-template",
@@ -65,7 +67,6 @@
     "lace/polliwog",
     "LedgerHQ/ledgerctl",
     "libp2p/test-plans",
-    "liran-funaro/sphinx-markdown-builder",
     "logic-star-ai/swt-bench",
     "microsoft/vscode-azurecli",
     "mozilla-services/shavar",
@@ -80,6 +81,7 @@
     "rstudio/pins-python",
     "seung-lab/cloud-files",
     "shiweijiezero/R3L",
+    "skhu101/HumanLiff",
     "sphinx-contrib/sphinxcontrib-towncrier",
     "sublimelsp/LSP-marksman",
     "talieisin/britfix",

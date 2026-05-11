@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1137,
-    "concepts": 311,
-    "observations": 313,
-    "repos": 76,
-    "terms": 320
+    "components": 1209,
+    "concepts": 326,
+    "observations": 328,
+    "repos": 78,
+    "terms": 335
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
     "actions/deploy-pages",
@@ -84,11 +84,13 @@
     "sveltejs/svelte-loader",
     "terraform-linters/setup-tflint",
     "terser/html-minifier-terser",
+    "testing-library/testing-library-docs",
     "thejoshwolfe/yauzl",
     "thejoshwolfe/yazl",
     "toon-format/spec",
     "w3c/webidl2.js",
     "webpack/css-minimizer-webpack-plugin",
+    "will62794/spectacle",
     "zone-eu/zone-mta"
   ]
 }

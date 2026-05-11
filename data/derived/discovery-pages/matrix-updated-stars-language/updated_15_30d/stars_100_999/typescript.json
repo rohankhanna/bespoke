@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3102,
-    "concepts": 610,
-    "observations": 610,
-    "repos": 112,
-    "terms": 663
+    "components": 3008,
+    "concepts": 624,
+    "observations": 624,
+    "repos": 110,
+    "terms": 674
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
@@ -23,7 +23,6 @@
     "AmElmo/proofshot",
     "antfu/starter-ts",
     "anthropics/claude-code-base-action",
-    "appium/appium-adb",
     "appwrite/sdk-for-node",
     "astral-sh/ruff-action",
     "atomicmemory/llm-wiki-compiler",
@@ -59,12 +58,11 @@
     "grubersjoe/github-contributions-api",
     "grubersjoe/react-activity-calendar",
     "grubersjoe/react-github-calendar",
-    "h3js/crossws",
     "harlan-zw/mdream",
     "iFaxity/vite-plugin-istanbul",
     "immersive-translate/zotero-immersivetranslate",
-    "jgm/djot.js",
     "js-temporal/temporal-polyfill",
+    "julia-actions/setup-julia",
     "juliangruber/brace-expansion",
     "k-dense-ai/k-dense-byok",
     "Kaliiiiiiiiii-Vinyzu/patchright-nodejs",
@@ -76,7 +74,6 @@
     "logux/client",
     "lucasastorian/llmwiki",
     "maltsev/htmlnano",
-    "mapillary/mapillary-js",
     "maplibre/ngx-maplibre-gl",
     "marmelab/FakeRest",
     "matepek/vscode-catch2-test-adapter",
@@ -84,9 +81,9 @@
     "microsoft/DefinitelyTyped-tools",
     "microsoft/playwright-vscode",
     "microsoft/react-native-gallery",
+    "microsoft/security-devops-action",
     "microsoft/TypeScript-DOM-lib-generator",
     "microsoft/vscode-css-languageservice",
-    "microsoft/vscode-html-languageservice",
     "microsoft/vscode-json-languageservice",
     "mskelton/eslint-plugin-playwright",
     "napi-rs/package-template",
@@ -109,6 +106,7 @@
     "redhat-developer/vscode-xml",
     "safe-global/safe-deployments",
     "sass/embedded-host-node",
+    "sergiodxa/remix-i18next",
     "Shougo/ddc.vim",
     "Shougo/ddu.vim",
     "Shougo/dpp.vim",
@@ -119,11 +117,11 @@
     "sveltejs/eslint-plugin-svelte",
     "sveltejs/svelte-eslint-parser",
     "TabbyML/pochi",
+    "tats-u/markdown-cjk-friendly",
     "timkindberg/jest-when",
     "tombii/better-ccflare",
     "tony1223/better-agent-terminal",
     "typed-ember/glint",
-    "vega/vega-embed",
     "vibe-log/vibe-log-cli",
     "webextension-toolbox/webextension-toolbox"
   ]

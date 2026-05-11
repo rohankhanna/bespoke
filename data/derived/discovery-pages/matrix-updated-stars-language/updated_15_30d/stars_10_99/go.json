@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 378,
-    "concepts": 262,
-    "observations": 263,
-    "repos": 58,
-    "terms": 258
+    "components": 363,
+    "concepts": 256,
+    "observations": 257,
+    "repos": 56,
+    "terms": 252
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "abhinav/goldmark-anchor",
     "abhinav/goldmark-frontmatter",
@@ -30,12 +30,12 @@
     "aws/aws-network-policy-agent",
     "benchsci/rules_nodejs_gazelle",
     "blinklabs-io/bluefin",
+    "bootmortis/sing-geosite",
     "celo-org/op-geth",
     "cloudfoundry/bbs",
     "cloudfoundry/bpm-release",
     "cmdjulian/mopy",
     "coder/coder-logstream-kube",
-    "cometbft/cometbft-db",
     "compozy/kb",
     "connectrpc/conformance",
     "connectrpc/grpchealth-go",
@@ -53,7 +53,6 @@
     "hashicorp/hcp-sdk-go",
     "Infisical/go-sdk",
     "ipshipyard/p2p-forge",
-    "joshsymonds/cc-tools",
     "kubernetes-sigs/apiserver-runtime",
     "kubernetes-sigs/provider-aws-test-infra",
     "kubernetes-sigs/verify-conformance",
@@ -70,7 +69,6 @@
     "sigstore/k8s-manifest-sigstore",
     "sigstore/rekor-tiles",
     "terraform-linters/tflint-ruleset-google",
-    "transparency-dev/armored-witness",
-    "usbarmory/GoTEE-example"
+    "transparency-dev/armored-witness"
   ]
 }

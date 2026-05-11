@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4,
-    "concepts": 3,
-    "observations": 3,
-    "repos": 5,
-    "terms": 3
+    "components": 1,
+    "concepts": 1,
+    "observations": 1,
+    "repos": 2,
+    "terms": 1
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
-    "Cebeerre/dnsblocklists",
-    "danielrosehill/Claude-Image-Production-Plugin",
-    "emacs-straight/emacsmirror-mirror",
     "lxgw/B5XiZhi",
     "pot-app/.github"
   ]

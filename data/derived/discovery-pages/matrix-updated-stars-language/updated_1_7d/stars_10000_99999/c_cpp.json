@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 103,
-    "concepts": 95,
-    "observations": 95,
-    "repos": 10,
-    "terms": 94
+    "components": 84,
+    "concepts": 98,
+    "observations": 98,
+    "repos": 9,
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
-    "apache/brpc",
-    "ggml-org/ggml",
-    "ggml-org/whisper.cpp",
+    "argotorg/solidity",
+    "blender/blender",
+    "google-ai-edge/mediapipe",
     "google-deepmind/mujoco",
     "isl-org/Open3D",
     "jqlang/jq",
-    "jrouwe/JoltPhysics",
     "mozilla-ai/llamafile",
     "protocolbuffers/protobuf",
     "Z3Prover/z3"

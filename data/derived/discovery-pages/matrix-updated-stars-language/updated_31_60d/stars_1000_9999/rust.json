@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 329,
-    "concepts": 243,
-    "observations": 248,
-    "repos": 47,
-    "terms": 242
+    "components": 366,
+    "concepts": 266,
+    "observations": 271,
+    "repos": 51,
+    "terms": 264
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "allan2/dotenvy",
+    "aome510/spotify-player",
     "arxanas/git-branchless",
     "bitshifter/glam-rs",
     "BurntSushi/quickcheck",
@@ -28,6 +29,7 @@
     "emilk/eframe_template",
     "enigo-rs/enigo",
     "extism/extism",
+    "eyre-rs/eyre",
     "ggez/ggez",
     "google/argh",
     "google/tarpc",
@@ -51,6 +53,7 @@
     "parcel-bundler/lightningcss",
     "pop-os/cosmic-text",
     "Rust-SDL2/rust-sdl2",
+    "serde-rs/json",
     "servo/ipc-channel",
     "sharkdp/pastel",
     "smol-rs/smol",
@@ -58,6 +61,7 @@
     "spacejam/sled",
     "Stebalien/tempfile",
     "tauri-apps/cargo-mobile2",
+    "tauri-apps/wry",
     "tokio-rs/console",
     "visioncortex/vtracer",
     "WebAssembly/WASI"

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 40,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 40,
-    "terms": 57
+    "concepts": 50,
+    "observations": 50,
+    "repos": 38,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
-    "1sh1ro/liangxi-skills",
     "agenmod/mirror-skill",
     "agenmod/steamer-skill",
     "agent-sh/prepare-delivery",
@@ -28,13 +27,11 @@
     "conda-forge/scikit-optimize-feedstock",
     "conda-forge/ultralytics-feedstock",
     "D1DX/morning-skill",
-    "danielrosehill/AI-Synthesised-Perspectives",
     "danielrosehill/Claude-ADHD-Research-Workspace",
     "danielrosehill/Claude-Code-Plugins",
     "danielrosehill/Claude-Data-Analyst-plugin",
     "danielrosehill/Docs-And-Notes-Index",
     "danielrosehill/Experiments-And-Evaluations-Index",
-    "danielrosehill/MCP-Projects-Index",
     "danielrosehill/Subindices",
     "dpc/crev-proofs",
     "eddelbuettel/r2u-config",
@@ -44,6 +41,7 @@
     "flinedev/marketplace",
     "gkr-bot/gkr-bot",
     "graveyardsfocrdpktv/ethereum-mempool-bot",
+    "hiyouga/llamafactory-community",
     "HKUDS/.github",
     "kyverno/community",
     "leeyeel/gltfOverview-Chinese",

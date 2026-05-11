@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 14775,
-    "concepts": 13074,
-    "observations": 13098,
-    "repos": 4353,
-    "terms": 12853
+    "components": 14784,
+    "concepts": 13099,
+    "observations": 13123,
+    "repos": 4359,
+    "terms": 12889
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -564,6 +564,7 @@
     "bazelbuild/rules_k8s",
     "bazelbuild/rules_proto",
     "bazelbuild/tulsi",
+    "bbqsrc/cargo-ndk",
     "BBuf/how-to-learn-deep-learning-framework",
     "BBVA/raft-badger",
     "bdd100k/bdd100k",
@@ -756,6 +757,7 @@
     "c42f/tinyformat",
     "cabani/MaskedFace-Net",
     "Cadene/tensorflow-model-zoo.torch",
+    "caiyuanhao1998/MST-plus-plus",
     "cakebaker/scss-syntax.vim",
     "CalciferZh/Minimal-IK",
     "CalciferZh/SMPL",
@@ -2105,6 +2107,7 @@
     "isovic/racon",
     "Issafalcon/neotest-dotnet",
     "IST-DASLab/QUIK",
+    "IST-DASLab/qutlass",
     "IST-DASLab/sparsegpt",
     "italojs/facial-landmarks-recognition",
     "itchyny/vim-gitbranch",
@@ -2509,6 +2512,7 @@
     "leoasis/graphql-tag.macro",
     "leoasis/redux-immutable-state-invariant",
     "leoluz/nvim-dap-go",
+    "lerouxrgd/datachannel-rs",
     "lesismal/go-websocket-benchmark",
     "Level/abstract-leveldown",
     "Level/level-js",
@@ -2892,6 +2896,7 @@
     "mit-han-lab/mcunet",
     "mit-han-lab/omniserve",
     "mit-han-lab/pvcnn",
+    "mit-han-lab/radial-attention",
     "mit-han-lab/spvnas",
     "mit-han-lab/tiny-training",
     "mit-han-lab/TinyChatEngine",
@@ -4132,6 +4137,7 @@
     "vulkan-go/vulkan",
     "vyokky/LLM-Brained-GUI-Agents-Survey",
     "vztu/maxim-pytorch",
+    "w3c/trace-context",
     "wadey/node-microtime",
     "WangDaYeeeeee/GeometricWeather-iOS",
     "wangjia184/sortedset",

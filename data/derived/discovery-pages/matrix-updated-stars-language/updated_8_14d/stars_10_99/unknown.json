@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 61,
-    "concepts": 40,
-    "observations": 40,
-    "repos": 13,
-    "terms": 40
+    "concepts": 52,
+    "observations": 52,
+    "repos": 15,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,19 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "alphagov/govuk-rfcs",
     "Ayaginu-Sue/Astalia",
     "BioContainers/multi-package-containers",
+    "cbuijs/hagezi",
     "elastic/logstash-docs",
     "filecoin-project/Allocator-Registry",
     "jupyterlab/frontends-team-compass",
     "microsoft/microsoft-foundry-for-vscode",
     "NightWatcher314/zotero-pdf2zh-server",
     "prefix-dev/rattler-build-action",
+    "sakib-m/Pi-hole-Torrent-Blocklist",
     "sigstore/root-signing-staging",
     "spiffe/spire-examples",
     "standardrb/standard-ruby-action",

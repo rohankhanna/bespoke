@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 6
-- terms: 61
-- components: 51
-- concepts: 61
-- observations: 62
+- repos: 12
+- terms: 132
+- components: 114
+- concepts: 132
+- observations: 134
 
 ## Static behavior
 
@@ -26,20 +26,32 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [jax-ml/jax](https://github.com/jax-ml/jax) | 35582 | 2026-05-10T05:39:54Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 5 |
-| [axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl) | 11872 | 2026-05-10T03:20:37Z | Python | Infrastructure/tooling | 9 | 12 | 9 | 9 |
-| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 31129 | 2026-05-09T17:07:41Z | Python | Infrastructure/tooling | 10 | 8 | 10 | 10 |
-| [verl-project/verl](https://github.com/verl-project/verl) | 21172 | 2026-05-09T13:54:36Z | Python | Infrastructure/tooling | 2 | 11 | 2 | 2 |
-| [NVIDIA-NeMo/NeMo](https://github.com/NVIDIA-NeMo/NeMo) | 17191 | 2026-05-09T11:57:03Z | Python | Infrastructure/tooling | 14 | 12 | 14 | 14 |
-| [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 14049 | 2026-05-09T09:19:55Z | Python | Infrastructure/tooling | 22 | 4 | 22 | 22 |
+| [qubvel-org/segmentation_models.pytorch](https://github.com/qubvel-org/segmentation_models.pytorch) | 11539 | 2026-05-11T01:45:49Z | Python | Infrastructure/tooling | 19 | 8 | 19 | 19 |
+| [verl-project/verl](https://github.com/verl-project/verl) | 21190 | 2026-05-11T01:40:36Z | Python | Infrastructure/tooling | 2 | 11 | 2 | 2 |
+| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 31129 | 2026-05-11T01:20:57Z | Python | Infrastructure/tooling | 10 | 8 | 10 | 10 |
+| [jax-ml/jax](https://github.com/jax-ml/jax) | 35587 | 2026-05-11T01:17:00Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 5 |
+| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 73084 | 2026-05-10T23:29:26Z | Python | CLI | 13 | 12 | 13 | 13 |
+| [aden-hive/hive](https://github.com/aden-hive/hive) | 10283 | 2026-05-10T21:44:42Z | Python | Infrastructure/tooling | 16 | 9 | 16 | 16 |
+| [deepspeedai/DeepSpeed](https://github.com/deepspeedai/DeepSpeed) | 42301 | 2026-05-10T20:57:31Z | Python | Infrastructure/tooling | 21 | 5 | 21 | 21 |
+| [Comfy-Org/ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) | 14593 | 2026-05-10T19:18:57Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [567-labs/instructor](https://github.com/567-labs/instructor) | 12940 | 2026-05-10T18:02:39Z | Python | Infrastructure/tooling | 10 | 9 | 10 | 10 |
+| [pydantic/pydantic](https://github.com/pydantic/pydantic) | 27740 | 2026-05-10T15:08:39Z | Python | Infrastructure/tooling | 17 | 27 | 17 | 17 |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 44292 | 2026-05-10T10:59:05Z | Python | Infrastructure/tooling | 15 | 7 | 15 | 16 |
+| [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | 18651 | 2026-05-10T08:51:05Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [jax-ml/jax](https://github.com/jax-ml/jax) | 35582 | 2026-05-10T05:39:54Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 5 |
-| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 31129 | 2026-05-09T17:07:41Z | Python | Infrastructure/tooling | 10 | 8 | 10 | 10 |
-| [verl-project/verl](https://github.com/verl-project/verl) | 21172 | 2026-05-09T13:54:36Z | Python | Infrastructure/tooling | 2 | 11 | 2 | 2 |
-| [NVIDIA-NeMo/NeMo](https://github.com/NVIDIA-NeMo/NeMo) | 17191 | 2026-05-09T11:57:03Z | Python | Infrastructure/tooling | 14 | 12 | 14 | 14 |
-| [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 14049 | 2026-05-09T09:19:55Z | Python | Infrastructure/tooling | 22 | 4 | 22 | 22 |
-| [axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl) | 11872 | 2026-05-10T03:20:37Z | Python | Infrastructure/tooling | 9 | 12 | 9 | 9 |
+| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 73084 | 2026-05-10T23:29:26Z | Python | CLI | 13 | 12 | 13 | 13 |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 44292 | 2026-05-10T10:59:05Z | Python | Infrastructure/tooling | 15 | 7 | 15 | 16 |
+| [deepspeedai/DeepSpeed](https://github.com/deepspeedai/DeepSpeed) | 42301 | 2026-05-10T20:57:31Z | Python | Infrastructure/tooling | 21 | 5 | 21 | 21 |
+| [jax-ml/jax](https://github.com/jax-ml/jax) | 35587 | 2026-05-11T01:17:00Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 5 |
+| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 31129 | 2026-05-11T01:20:57Z | Python | Infrastructure/tooling | 10 | 8 | 10 | 10 |
+| [pydantic/pydantic](https://github.com/pydantic/pydantic) | 27740 | 2026-05-10T15:08:39Z | Python | Infrastructure/tooling | 17 | 27 | 17 | 17 |
+| [verl-project/verl](https://github.com/verl-project/verl) | 21190 | 2026-05-11T01:40:36Z | Python | Infrastructure/tooling | 2 | 11 | 2 | 2 |
+| [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | 18651 | 2026-05-10T08:51:05Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
+| [Comfy-Org/ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) | 14593 | 2026-05-10T19:18:57Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [567-labs/instructor](https://github.com/567-labs/instructor) | 12940 | 2026-05-10T18:02:39Z | Python | Infrastructure/tooling | 10 | 9 | 10 | 10 |
+| [qubvel-org/segmentation_models.pytorch](https://github.com/qubvel-org/segmentation_models.pytorch) | 11539 | 2026-05-11T01:45:49Z | Python | Infrastructure/tooling | 19 | 8 | 19 | 19 |
+| [aden-hive/hive](https://github.com/aden-hive/hive) | 10283 | 2026-05-10T21:44:42Z | Python | Infrastructure/tooling | 16 | 9 | 16 | 16 |

@@ -3,7 +3,7 @@
     "components": 30,
     "concepts": 271,
     "observations": 271,
-    "repos": 111,
+    "repos": 110,
     "terms": 262
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "0xAX/erlang-bookmarks",
@@ -114,7 +114,6 @@
     "tc39/proposal-decorators",
     "tesseract-ocr/tessdata",
     "tesseract-ocr/tessdata_best",
-    "testdouble/contributing-tests",
     "thunlp/PromptPapers",
     "travis-ci/travis-ci",
     "unitycontainer/unity",

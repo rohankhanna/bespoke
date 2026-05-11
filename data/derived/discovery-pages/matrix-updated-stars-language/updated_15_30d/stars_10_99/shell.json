@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 169,
+    "components": 163,
     "concepts": 179,
     "observations": 182,
     "repos": 37,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "2KAbhishek/mac2k",
     "2KAbhishek/sway2k",
@@ -30,7 +30,6 @@
     "cloudfoundry/jumpbox-deployment",
     "conda-forge/pinocchio-feedstock",
     "confluentinc/cp-demo",
-    "containers/automation",
     "containers/automation_images",
     "crazy-max/goxx",
     "cri-o/packaging",
@@ -46,6 +45,7 @@
     "nodenv/nodenv-package-rehash",
     "oceanbase/docker-images",
     "oneclick/rubyinstaller2-packages",
+    "postmodern/ruby-versions",
     "reviewdog/action-black",
     "reviewdog/action-hadolint",
     "reviewdog/action-shfmt",

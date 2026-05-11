@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 205,
-    "concepts": 109,
-    "observations": 109,
-    "repos": 51,
-    "terms": 127
+    "components": 178,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 49,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
@@ -36,8 +36,6 @@
     "chaoss/grimoirelab-toolkit",
     "cjtruheart/abundance-codex",
     "conda-forge/threadpoolctl-feedstock",
-    "CoolCat467/idlemypyextension",
-    "danielrosehill/Geopol-Forecaster",
     "dora-rs/dora-benchmark",
     "dreamiurg/peakbagger-cli",
     "etanhey/brainlayer",

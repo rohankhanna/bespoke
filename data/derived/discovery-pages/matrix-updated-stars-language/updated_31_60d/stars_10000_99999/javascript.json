@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 777,
-    "concepts": 126,
-    "observations": 126,
+    "components": 705,
+    "concepts": 117,
+    "observations": 117,
     "repos": 21,
-    "terms": 132
+    "terms": 123
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "anuraghazra/github-readme-stats",
     "auth0/node-jsonwebtoken",
+    "be5invis/Sarasa-Gothic",
     "ConardLi/easy-dataset",
     "debug-js/debug",
     "eyaltoledano/claude-task-master",
@@ -33,7 +34,6 @@
     "thomaspark/bootswatch",
     "typicode/husky",
     "typicode/json-server",
-    "videojs/video.js",
     "websockets/ws"
   ]
 }

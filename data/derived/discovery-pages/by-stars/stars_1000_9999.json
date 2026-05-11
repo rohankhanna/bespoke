@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 54067,
-    "concepts": 34989,
-    "observations": 35096,
-    "repos": 5929,
-    "terms": 34897
+    "components": 54244,
+    "concepts": 35023,
+    "observations": 35130,
+    "repos": 5932,
+    "terms": 34936
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -1690,6 +1690,7 @@
     "enigo-rs/enigo",
     "enisdenjo/graphql-ws",
     "enjoy-digital/litex",
+    "enricoros/big-AGI",
     "EnterpriseDB/barman",
     "envoyproxy/ai-gateway",
     "envoyproxy/gateway",
@@ -1948,6 +1949,7 @@
     "flycheck/flycheck",
     "flyerhzm/rails_best_practices",
     "flyway/flyway",
+    "fmaclen/hollama",
     "FMInference/FlexLLMGen",
     "fnando/i18n-js",
     "fnc12/sqlite_orm",
@@ -4752,6 +4754,7 @@
     "rs/cors",
     "rsennrich/subword-nmt",
     "rsmbl/Resemble.js",
+    "rspec/rspec-metagem",
     "rspec/rspec-rails",
     "rstudio/cheatsheets",
     "rtfeldman/elm-css",
@@ -5304,7 +5307,6 @@
     "Tessil/robin-map",
     "testcontainers/testcontainers-python",
     "testcontainers/testcontainers-rs",
-    "testdouble/contributing-tests",
     "testdouble/testdouble.js",
     "testem/testem",
     "testing-library/dom-testing-library",
@@ -5639,6 +5641,7 @@
     "vitalets/react-native-extended-stylesheet",
     "vite-pwa/vite-plugin-pwa",
     "vitejs/devtools",
+    "vitejs/vite-plugin-react",
     "vizzuhq/vizzu-lib",
     "vkhorikov/CSharpFunctionalExtensions",
     "vladkens/macmon",

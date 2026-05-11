@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 120
-- terms: 1041
-- components: 929
-- concepts: 1049
-- observations: 1049
+- repos: 119
+- terms: 1025
+- components: 913
+- concepts: 1033
+- observations: 1033
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [libcpr/cpr](https://github.com/libcpr/cpr) | 7325 | 2026-05-03T15:20:18Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
+| [dmlc/dlpack](https://github.com/dmlc/dlpack) | 1202 | 2026-05-03T10:58:09Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 4 |
+| [realsenseai/librealsense](https://github.com/realsenseai/librealsense) | 8725 | 2026-05-03T10:47:53Z | C/C++ | Infrastructure/tooling | 6 | 7 | 6 | 6 |
+| [universal-ctags/ctags](https://github.com/universal-ctags/ctags) | 7169 | 2026-05-03T09:16:39Z | C/C++ | Infrastructure/tooling | 15 | 2 | 15 | 15 |
 | [AdaptiveCpp/AdaptiveCpp](https://github.com/AdaptiveCpp/AdaptiveCpp) | 1844 | 2026-05-03T07:34:16Z | C/C++ | Infrastructure/tooling | 19 | 10 | 19 | 19 |
 | [vincentlaucsb/csv-parser](https://github.com/vincentlaucsb/csv-parser) | 1082 | 2026-05-03T04:31:00Z | C/C++ | Infrastructure/tooling | 16 | 14 | 17 | 17 |
 | [PoseLib/PoseLib](https://github.com/PoseLib/PoseLib) | 1176 | 2026-05-02T19:50:01Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
@@ -141,11 +145,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [OpenSC/OpenSC](https://github.com/OpenSC/OpenSC) | 3018 | 2026-04-27T09:27:57Z | C/C++ | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [CedricGuillemet/ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo) | 3871 | 2026-04-27T08:04:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [LuisaGroup/LuisaCompute](https://github.com/LuisaGroup/LuisaCompute) | 1002 | 2026-04-27T07:28:31Z | C/C++ | Infrastructure/tooling | 16 | 12 | 16 | 16 |
-| [nodejs/node-addon-api](https://github.com/nodejs/node-addon-api) | 2386 | 2026-04-27T00:25:11Z | C/C++ | Infrastructure/tooling | 10 | 18 | 10 | 10 |
-| [libusb/hidapi](https://github.com/libusb/hidapi) | 2196 | 2026-04-26T22:28:12Z | C/C++ | Infrastructure/tooling | 12 | 9 | 12 | 12 |
-| [paullouisageneau/libdatachannel](https://github.com/paullouisageneau/libdatachannel) | 2577 | 2026-04-26T21:04:07Z | C/C++ | Infrastructure/tooling | 22 | 3 | 22 | 22 |
-| [jeremycw/httpserver.h](https://github.com/jeremycw/httpserver.h) | 1906 | 2026-04-26T20:55:19Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [elfmz/far2l](https://github.com/elfmz/far2l) | 2159 | 2026-04-26T09:30:23Z | C/C++ | CLI | 7 | 3 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -155,6 +154,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [meetecho/janus-gateway](https://github.com/meetecho/janus-gateway) | 9079 | 2026-04-30T13:01:29Z | C/C++ | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [async-profiler/async-profiler](https://github.com/async-profiler/async-profiler) | 9011 | 2026-05-01T16:54:07Z | C/C++ | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [sparkle-project/Sparkle](https://github.com/sparkle-project/Sparkle) | 8934 | 2026-04-30T03:59:34Z | C/C++ | Infrastructure/tooling | 6 | 4 | 6 | 6 |
+| [realsenseai/librealsense](https://github.com/realsenseai/librealsense) | 8725 | 2026-05-03T10:47:53Z | C/C++ | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [flightlessmango/MangoHud](https://github.com/flightlessmango/MangoHud) | 8521 | 2026-04-29T09:52:18Z | C/C++ | Infrastructure/tooling | 11 | 3 | 11 | 11 |
 | [facebook/proxygen](https://github.com/facebook/proxygen) | 8342 | 2026-05-01T01:14:31Z | C/C++ | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [optiscaler/OptiScaler](https://github.com/optiscaler/OptiScaler) | 8099 | 2026-04-30T21:48:21Z | C/C++ | Infrastructure/tooling | 22 | 9 | 22 | 22 |
@@ -162,8 +162,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [daijro/camoufox](https://github.com/daijro/camoufox) | 7942 | 2026-04-29T19:51:44Z | C/C++ | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [OpenMathLib/OpenBLAS](https://github.com/OpenMathLib/OpenBLAS) | 7413 | 2026-04-29T20:11:48Z | C/C++ | Infrastructure/tooling | 12 | 16 | 12 | 12 |
 | [arkime/arkime](https://github.com/arkime/arkime) | 7363 | 2026-05-01T15:10:05Z | C/C++ | Infrastructure/tooling | 9 | 97 | 9 | 9 |
+| [libcpr/cpr](https://github.com/libcpr/cpr) | 7325 | 2026-05-03T15:20:18Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
 | [PixarAnimationStudios/OpenUSD](https://github.com/PixarAnimationStudios/OpenUSD) | 7228 | 2026-04-28T18:51:41Z | C/C++ | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [liuliu/ccv](https://github.com/liuliu/ccv) | 7216 | 2026-04-30T02:01:51Z | C/C++ | Infrastructure/tooling | 8 | 2 | 8 | 8 |
+| [universal-ctags/ctags](https://github.com/universal-ctags/ctags) | 7169 | 2026-05-03T09:16:39Z | C/C++ | Infrastructure/tooling | 15 | 2 | 15 | 15 |
 | [haproxy/haproxy](https://github.com/haproxy/haproxy) | 6510 | 2026-04-30T13:35:47Z | C/C++ | Infrastructure/tooling | 24 | 6 | 24 | 24 |
 | [doxygen/doxygen](https://github.com/doxygen/doxygen) | 6440 | 2026-05-01T18:27:56Z | C/C++ | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [libusb/libusb](https://github.com/libusb/libusb) | 6045 | 2026-04-29T17:07:10Z | C/C++ | Infrastructure/tooling | 8 | 7 | 8 | 8 |
@@ -208,26 +210,21 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stephenberry/glaze](https://github.com/stephenberry/glaze) | 2702 | 2026-04-29T14:58:12Z | C/C++ | Infrastructure/tooling | 22 | 4 | 26 | 26 |
 | [facebook/fbthrift](https://github.com/facebook/fbthrift) | 2692 | 2026-04-30T19:25:59Z | C/C++ | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [xtensor-stack/xsimd](https://github.com/xtensor-stack/xsimd) | 2670 | 2026-05-01T08:00:56Z | C/C++ | Infrastructure/tooling | 18 | 2 | 18 | 18 |
-| [paullouisageneau/libdatachannel](https://github.com/paullouisageneau/libdatachannel) | 2577 | 2026-04-26T21:04:07Z | C/C++ | Infrastructure/tooling | 22 | 3 | 22 | 22 |
 | [microsoft/DirectML](https://github.com/microsoft/DirectML) | 2551 | 2026-04-27T23:43:38Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [kokkos/kokkos](https://github.com/kokkos/kokkos) | 2519 | 2026-04-30T01:57:28Z | C/C++ | Infrastructure/tooling | 16 | 5 | 16 | 16 |
 | [google/swiftshader](https://github.com/google/swiftshader) | 2464 | 2026-04-29T16:19:45Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [bitcoin-core/secp256k1](https://github.com/bitcoin-core/secp256k1) | 2424 | 2026-04-29T06:04:16Z | C/C++ | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [Farama-Foundation/Arcade-Learning-Environment](https://github.com/Farama-Foundation/Arcade-Learning-Environment) | 2421 | 2026-04-27T21:14:25Z | C/C++ | Infrastructure/tooling | 5 | 15 | 5 | 5 |
-| [nodejs/node-addon-api](https://github.com/nodejs/node-addon-api) | 2386 | 2026-04-27T00:25:11Z | C/C++ | Infrastructure/tooling | 10 | 18 | 10 | 10 |
 | [AcademySoftwareFoundation/OpenImageIO](https://github.com/AcademySoftwareFoundation/OpenImageIO) | 2285 | 2026-05-01T01:34:28Z | C/C++ | Infrastructure/tooling | 12 | 18 | 12 | 12 |
 | [ikawrakow/ik_llama.cpp](https://github.com/ikawrakow/ik_llama.cpp) | 2267 | 2026-04-29T07:33:45Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |
-| [libusb/hidapi](https://github.com/libusb/hidapi) | 2196 | 2026-04-26T22:28:12Z | C/C++ | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [aws/aws-sdk-cpp](https://github.com/aws/aws-sdk-cpp) | 2193 | 2026-05-01T19:57:16Z | C/C++ | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [php-rdkafka/php-rdkafka](https://github.com/php-rdkafka/php-rdkafka) | 2176 | 2026-04-29T22:41:13Z | C/C++ | CLI | 6 | 7 | 6 | 6 |
 | [PRBonn/kiss-icp](https://github.com/PRBonn/kiss-icp) | 2164 | 2026-04-27T15:22:13Z | C/C++ | Infrastructure/tooling | 8 | 9 | 9 | 9 |
-| [elfmz/far2l](https://github.com/elfmz/far2l) | 2159 | 2026-04-26T09:30:23Z | C/C++ | CLI | 7 | 3 | 7 | 7 |
 | [google/shaderc](https://github.com/google/shaderc) | 2135 | 2026-04-29T01:21:20Z | C/C++ | Infrastructure/tooling | 10 | 1 | 10 | 10 |
 | [kismetwireless/kismet](https://github.com/kismetwireless/kismet) | 2097 | 2026-04-28T12:24:31Z | C/C++ | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [microsoft/DirectXTex](https://github.com/microsoft/DirectXTex) | 2094 | 2026-04-27T21:09:13Z | C/C++ | Infrastructure/tooling | 20 | 8 | 20 | 20 |
 | [oracle/graaljs](https://github.com/oracle/graaljs) | 1998 | 2026-04-29T15:07:12Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [commonmark/cmark](https://github.com/commonmark/cmark) | 1963 | 2026-04-27T19:14:40Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [jeremycw/httpserver.h](https://github.com/jeremycw/httpserver.h) | 1906 | 2026-04-26T20:55:19Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [samtools/samtools](https://github.com/samtools/samtools) | 1891 | 2026-04-30T15:32:08Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [Themaister/Granite](https://github.com/Themaister/Granite) | 1880 | 2026-05-01T11:47:53Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [alanxz/rabbitmq-c](https://github.com/alanxz/rabbitmq-c) | 1859 | 2026-04-28T00:30:51Z | C/C++ | CLI | 4 | 6 | 4 | 4 |
@@ -258,6 +255,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jd-opensource/xllm](https://github.com/jd-opensource/xllm) | 1256 | 2026-04-29T11:59:46Z | C/C++ | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [eclipse-cyclonedds/cyclonedds](https://github.com/eclipse-cyclonedds/cyclonedds) | 1255 | 2026-04-30T08:56:28Z | C/C++ | CLI | 1 | 6 | 1 | 1 |
 | [YACReader/yacreader](https://github.com/YACReader/yacreader) | 1253 | 2026-04-27T19:39:51Z | C/C++ | Infrastructure/tooling | 3 | 10 | 3 | 3 |
+| [dmlc/dlpack](https://github.com/dmlc/dlpack) | 1202 | 2026-05-03T10:58:09Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [facebookincubator/fizz](https://github.com/facebookincubator/fizz) | 1197 | 2026-05-01T06:13:55Z | C/C++ | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [PoseLib/PoseLib](https://github.com/PoseLib/PoseLib) | 1176 | 2026-05-02T19:50:01Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [flashrom/flashrom](https://github.com/flashrom/flashrom) | 1114 | 2026-04-29T18:41:59Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |

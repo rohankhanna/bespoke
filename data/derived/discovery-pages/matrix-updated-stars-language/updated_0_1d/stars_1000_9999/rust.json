@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 49,
-    "observations": 50,
-    "repos": 4,
-    "terms": 49
+    "components": 15,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 2,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
-    "apache/datafusion-ballista",
     "databendlabs/databend",
-    "godot-rust/gdext",
-    "hermit-os/hermit-rs"
+    "godot-rust/gdext"
   ]
 }

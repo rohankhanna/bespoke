@@ -3,7 +3,7 @@
     "components": 159,
     "concepts": 88,
     "observations": 88,
-    "repos": 36,
+    "repos": 37,
     "terms": 87
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "abap2UI5-addons/layout-management",
     "ada-url/kotlin",
@@ -49,6 +49,7 @@
     "rocq-community/docker-base",
     "rocq-community/docker-rocq",
     "tanyongkiam/cake_lpr",
+    "tnc-ca-geo/animl-ml",
     "WebAssembly/compact-import-section"
   ]
 }

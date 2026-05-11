@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 358,
-    "concepts": 281,
-    "observations": 282,
-    "repos": 111,
-    "terms": 280
+    "components": 373,
+    "concepts": 284,
+    "observations": 285,
+    "repos": 114,
+    "terms": 283
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/tdo.nvim",
@@ -25,6 +25,7 @@
     "ahrvoje/numerics",
     "ahumenberger/Z3.jl",
     "aki-0929/PaddleOCRJson.NET",
+    "anmolitor/travelm-agency",
     "antonbabenko/serverless.tf-playground",
     "apache/datasketches-python",
     "apache/rocketmq-apis",
@@ -58,6 +59,7 @@
     "getgrav/grav-theme-learn2",
     "getumbrel/umbrel-lightning",
     "GoogleCloudPlatform/ai-infra-cluster-provisioning",
+    "GoogleCloudPlatform/getting-started-dotnet",
     "gregorias/toggle.nvim",
     "GunnarFarneback/LocalPackageServer.jl",
     "honwen/openwrt-shadowsocks-rust",
@@ -108,6 +110,7 @@
     "RTBHOUSE/tmux-picker",
     "sbcgua/abap-string-map",
     "SciML/SciMLTutorialsOutput",
+    "Shopify/quantified",
     "status-im/nim-json-serialization",
     "status-im/nim-serialization",
     "status-im/nim-toml-serialization",

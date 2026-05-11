@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 184
-- terms: 162
+- repos: 185
+- terms: 164
 - components: 124
-- concepts: 164
-- observations: 164
+- concepts: 166
+- observations: 166
 
 ## Static behavior
 
@@ -36,6 +36,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [IST-DASLab/nanochat-qat](https://github.com/IST-DASLab/nanochat-qat) | 1 | 2025-10-31T11:26:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [nornagon/crossterm](https://github.com/nornagon/crossterm) | 1 | 2025-10-29T23:22:01Z | Unknown | CLI | 1 | 2 | 1 | 1 |
 | [danielrosehill/AI-Dev-Repo-Template-Oct-2025](https://github.com/danielrosehill/AI-Dev-Repo-Template-Oct-2025) | 1 | 2025-10-29T13:26:48Z | Unknown | CLI | 4 | 0 | 4 | 4 |
+| [danielrosehill/Claude-Is-Awesome](https://github.com/danielrosehill/Claude-Is-Awesome) | 2 | 2025-10-28T15:25:49Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [danielrosehill/Claude-Code-Context-Toolkit](https://github.com/danielrosehill/Claude-Code-Context-Toolkit) | 3 | 2025-10-27T22:18:34Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [danielrosehill/CONTEXT.md](https://github.com/danielrosehill/CONTEXT.md) | 1 | 2025-10-27T14:58:34Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [w3c/dpub-aam](https://github.com/w3c/dpub-aam) | 5 | 2025-10-23T18:55:37Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
@@ -319,6 +320,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [LianjiaTech/athena-model-zoo](https://github.com/LianjiaTech/athena-model-zoo) | 3 | 2022-08-08T12:31:56Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [vorburger/Log4j_CVE-2021-44228](https://github.com/vorburger/Log4j_CVE-2021-44228) | 3 | 2022-02-16T21:58:54Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [radian-software/contributor-guide](https://github.com/radian-software/contributor-guide) | 2 | 2025-11-08T18:54:36Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Is-Awesome](https://github.com/danielrosehill/Claude-Is-Awesome) | 2 | 2025-10-28T15:25:49Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [travis-infrastructure/packer-build](https://github.com/travis-infrastructure/packer-build) | 2 | 2025-10-15T13:56:32Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
 | [foldl/little-academia](https://github.com/foldl/little-academia) | 2 | 2025-08-31T13:01:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [leleliu008/ppkg-package-manually-build](https://github.com/leleliu008/ppkg-package-manually-build) | 2 | 2025-07-24T09:30:30Z | Unknown | Infrastructure/tooling | 7 | 4 | 7 | 7 |

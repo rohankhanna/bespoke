@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 258,
-    "concepts": 418,
-    "observations": 419,
-    "repos": 81,
-    "terms": 414
+    "components": 266,
+    "concepts": 428,
+    "observations": 429,
+    "repos": 85,
+    "terms": 424
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "AmusementClub/vs-mlrt",
@@ -50,6 +50,7 @@
     "heal-research/operon",
     "intel/gmmlib",
     "intel/opencl-clang",
+    "intel/QAT_Engine",
     "ipsilon/evmc",
     "JokerJohn/Cloud_Map_Evaluation",
     "JokerJohn/MS-Mapping",
@@ -57,6 +58,7 @@
     "KhronosGroup/OpenCL-ICD-Loader",
     "KhronosGroup/OpenGL-Registry",
     "lastz/lastz",
+    "libimobiledevice/libplist",
     "libxsmm/libxsmm",
     "littlefs-project/littlefs-fuse",
     "lualanes/lanes",
@@ -79,6 +81,7 @@
     "ptsochantaris/emeltal",
     "raysan5/raylib-games",
     "RoaringBitmap/croaring-rs",
+    "roboception/cvkit",
     "rusty1s/pytorch_cluster",
     "samtools/bcftools",
     "Slamtec/rplidar_sdk",
@@ -92,6 +95,7 @@
     "vcflib/vcflib",
     "vectr-ucla/direct_lidar_inertial_odometry",
     "VeriSilicon/TIM-VX",
+    "wdas/ptex",
     "webgpu-native/webgpu-headers",
     "WojciechMula/toys",
     "xtensor-stack/xtensor-python"

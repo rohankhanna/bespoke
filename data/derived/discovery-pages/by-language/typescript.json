@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 60792,
-    "concepts": 10431,
-    "observations": 10466,
-    "repos": 1851,
-    "terms": 10736
+    "components": 61049,
+    "concepts": 10473,
+    "observations": 10508,
+    "repos": 1856,
+    "terms": 10776
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "0h7z/vscode-julia-format",
@@ -224,6 +224,7 @@
     "artsy/eigen",
     "artsy/README",
     "arvinxx/lobe-plugin-tikzjax",
+    "asafr93-rosa/shopping-list-il",
     "asg017/sqlite-ecosystem",
     "asonnleitner/highwayhash-wasm",
     "astahmer/openapi-zod-client",
@@ -594,6 +595,7 @@
     "engine262/engine262",
     "enisdenjo/graphql-sse",
     "enisdenjo/graphql-ws",
+    "enricoros/big-AGI",
     "enxs969/skiller",
     "EpicenterHQ/epicenter",
     "ErKeLost/squoosh-node-latest",
@@ -655,6 +657,7 @@
     "FlowiseAI/Flowise",
     "fluent-vue/fluent-vue",
     "fluent-vue/unplugin-fluent-vue",
+    "fmaclen/hollama",
     "fnando/i18n",
     "folke/esbuild-runner",
     "fontsource/fontsource",
@@ -1465,6 +1468,7 @@
     "reduxjs/redux-thunk",
     "reduxjs/redux-toolkit",
     "reduxjs/reselect",
+    "Rel1cx/eslint-react",
     "relative-ci/bundle-stats",
     "relay-tools/relay-hooks",
     "remix-run/react-router",
@@ -1779,6 +1783,7 @@
     "vite-pwa/vite-plugin-pwa",
     "vitejs/devtools",
     "vitejs/vite",
+    "vitejs/vite-plugin-react",
     "vitest-dev/vitest",
     "VOICEVOX/preview-pages",
     "VOICEVOX/voicevox",

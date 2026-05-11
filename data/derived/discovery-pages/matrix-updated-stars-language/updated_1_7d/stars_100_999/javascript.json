@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 142,
-    "concepts": 53,
-    "observations": 53,
-    "repos": 9,
-    "terms": 53
+    "components": 189,
+    "concepts": 63,
+    "observations": 63,
+    "repos": 10,
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "AdguardTeam/HostlistsRegistry",
     "aws-cloudformation/cfn-lint-visual-studio-code",
@@ -20,6 +20,7 @@
     "digitalocean/openapi",
     "GDevelopApp/GDevelop-extensions",
     "gitleaks/gitleaks-action",
+    "jupyter/nbclassic",
     "mafintosh/streamx",
     "stylelint/stylelint-config-recommended",
     "tc39/eshost"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1104,
-    "concepts": 201,
-    "observations": 202,
-    "repos": 24,
-    "terms": 199
+    "components": 1038,
+    "concepts": 194,
+    "observations": 195,
+    "repos": 22,
+    "terms": 192
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "alichherawalla/off-grid-mobile-ai",
     "apify/fingerprint-suite",
@@ -20,23 +20,21 @@
     "benchmark-action/github-action-benchmark",
     "conventional-changelog/conventional-changelog",
     "cucumber/cucumber-js",
-    "cursorless-dev/cursorless",
     "ebullient/obsidian-admonition",
     "electron/rebuild",
+    "enricoros/big-AGI",
     "Floorp-Projects/Floorp",
+    "google-gemini/live-api-web-console",
     "graphql/graphql-playground",
     "inokawa/virtua",
     "kelektiv/node-cron",
     "microsoft/vscode-js-debug",
     "NomicFoundation/hardhat",
     "open-telemetry/opentelemetry-demo",
-    "react-cosmos/react-cosmos",
     "safe-fndn/safe-smart-account",
-    "solidjs-community/solid-primitives",
-    "typescript-language-server/typescript-language-server",
-    "unjs/unhead",
     "vite-pwa/vite-plugin-pwa",
     "vuejs/devtools",
+    "vuejs/language-tools",
     "withcatai/node-llama-cpp"
   ]
 }

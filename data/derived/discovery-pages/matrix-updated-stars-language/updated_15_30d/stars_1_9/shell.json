@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 27,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 18,
-    "terms": 26
+    "components": 26,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 17,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "agent-sh/glidemq",
     "alvistack/ansible-role-conmon",
@@ -30,7 +30,6 @@
     "kubernetes-sigs/provider-ibmcloud-test-infra",
     "marcindulak/ralph-wiggum-bdd",
     "reviewdog/action-composite-template",
-    "semgrep/mcp-marketplace",
     "status-im/nimbus-build-system"
   ]
 }

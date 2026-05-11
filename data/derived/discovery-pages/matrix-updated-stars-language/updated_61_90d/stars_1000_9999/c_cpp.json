@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 204,
-    "concepts": 219,
-    "observations": 220,
-    "repos": 46,
-    "terms": 214
+    "components": 201,
+    "concepts": 209,
+    "observations": 210,
+    "repos": 44,
+    "terms": 203
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -28,7 +28,6 @@
     "coin-or/Ipopt",
     "eclipse-paho/paho.mqtt.c",
     "eradman/entr",
-    "espressif/ESP8266_RTOS_SDK",
     "facebookresearch/habitat-sim",
     "flashlight/flashlight",
     "google/snappy",
@@ -47,7 +46,7 @@
     "microsoft/onnxruntime-inference-examples",
     "mitsuba-renderer/nanogui",
     "mmorise/World",
-    "pellepl/spiffs",
+    "nmoehrle/mvs-texturing",
     "PixarAnimationStudios/OpenSubdiv",
     "pramsey/pgsql-http",
     "RobertBeckebans/RBDOOM-3-BFG",
@@ -56,7 +55,6 @@
     "TheAssassin/AppImageLauncher",
     "tzapu/WiFiManager",
     "UB-Mannheim/tesseract",
-    "ulfjack/ryu",
     "VirusTotal/yara",
     "wang-xinyu/tensorrtx",
     "zardus/preeny"

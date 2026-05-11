@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 512,
-    "concepts": 341,
-    "observations": 344,
-    "repos": 58,
-    "terms": 348
+    "components": 532,
+    "concepts": 337,
+    "observations": 340,
+    "repos": 57,
+    "terms": 344
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -19,7 +19,6 @@
     "aria2/aria2",
     "bootandy/dust",
     "burntsushi/ripgrep",
-    "carbon-app/carbon",
     "CocoaPods/CocoaPods",
     "ComposioHQ/awesome-claude-skills",
     "cool-RR/PySnooper",
@@ -37,7 +36,6 @@
     "google/leveldb",
     "guzzle/guzzle",
     "humanlayer/humanlayer",
-    "jaredpalmer/tsdx",
     "jart/cosmopolitan",
     "Jiayi-Pan/TinyZero",
     "junegunn/vim-plug",
@@ -68,6 +66,7 @@
     "tqdm/tqdm",
     "transitive-bullshit/agentic",
     "vibrantlabsai/ragas",
+    "videojs/video.js",
     "Wan-Video/Wan2.1",
     "Zulko/moviepy",
     "zylon-ai/private-gpt"

@@ -1,27 +1,26 @@
 {
   "counts": {
-    "components": 133,
-    "concepts": 56,
-    "observations": 56,
-    "repos": 10,
-    "terms": 56
+    "components": 111,
+    "concepts": 54,
+    "observations": 54,
+    "repos": 9,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "AI-Hypercomputer/maxdiffusion",
+    "apalache-mc/apalache",
+    "bazel-contrib/rules_kotlin",
     "confluentinc/librdkafka",
-    "EmmyLuaLs/emmylua-analyzer-rust",
-    "fluent-vue/fluent-vue",
-    "git-friendly/git-friendly",
-    "jupyter/nbclassic",
-    "karafka/rdkafka-ruby",
-    "ldproxy/ldproxy",
+    "pyrtlsdr/pyrtlsdr",
+    "Rel1cx/eslint-react",
+    "serversideup/webext-bridge",
     "servo/stylo",
-    "unplugin/unplugin-imagemin"
+    "yoshoku/llama_cpp.rb"
   ]
 }

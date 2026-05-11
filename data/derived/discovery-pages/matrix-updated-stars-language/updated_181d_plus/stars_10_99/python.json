@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 678,
-    "concepts": 1424,
-    "observations": 1426,
+    "concepts": 1423,
+    "observations": 1425,
     "repos": 814,
-    "terms": 1403
+    "terms": 1404
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -211,6 +211,7 @@
     "castorini/LiT5",
     "castorini/mr.tydi",
     "ccccczzy/icc",
+    "cedricrupb/code_ast",
     "ceylonai/ceylon",
     "cfoster0/CLAP",
     "Changaco/python-libarchive-c",
@@ -641,7 +642,6 @@
     "Parveshiiii/Deepresearch-Agent",
     "patil-suraj/vqgan-jax",
     "pblatter/ettrack",
-    "pdcxs/manimprojects",
     "petercorke/pgraph-python",
     "petersn/autosat",
     "pkulwj1994/diff_instruct",

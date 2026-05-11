@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 146,
-    "concepts": 177,
-    "observations": 179,
-    "repos": 13,
-    "terms": 177
+    "components": 115,
+    "concepts": 115,
+    "observations": 117,
+    "repos": 9,
+    "terms": 115
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,16 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "apache/casbin",
-    "cert-manager/cert-manager",
     "cilium/cilium",
     "etcd-io/etcd",
     "flipped-aurora/gin-vue-admin",
     "helm/helm",
-    "oauth2-proxy/oauth2-proxy",
+    "moby/moby",
+    "QuantumNous/new-api",
     "redis/go-redis",
-    "restic/restic",
-    "rqlite/rqlite",
-    "SagerNet/sing-box",
-    "seaweedfs/seaweedfs",
-    "XTLS/Xray-core"
+    "restic/restic"
   ]
 }

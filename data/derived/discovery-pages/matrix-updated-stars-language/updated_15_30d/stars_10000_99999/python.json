@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1762,
-    "concepts": 1450,
-    "observations": 1454,
-    "repos": 141,
-    "terms": 1476
+    "components": 1757,
+    "concepts": 1437,
+    "observations": 1442,
+    "repos": 139,
+    "terms": 1463
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
-    "2noise/ChatTTS",
     "3b1b/manim",
-    "567-labs/instructor",
     "abetlen/llama-cpp-python",
     "agentskills/agentskills",
     "Aider-AI/aider",
@@ -57,7 +55,6 @@
     "evilsocket/opensnitch",
     "exaloop/codon",
     "exo-explore/exo",
-    "fabric/fabric",
     "facebookresearch/hydra",
     "facebookresearch/xformers",
     "Farama-Foundation/Gymnasium",
@@ -71,7 +68,6 @@
     "github/spec-kit",
     "google-deepmind/alphafold",
     "google/adk-python",
-    "google/yapf",
     "gradio-app/gradio",
     "hesreallyhim/awesome-claude-code",
     "HKUDS/LightRAG",
@@ -90,6 +86,7 @@
     "langchain-ai/deepagents",
     "langchain-ai/langgraph",
     "letta-ai/letta",
+    "LibreTranslate/LibreTranslate",
     "magic-wormhole/magic-wormhole",
     "ManimCommunity/manim",
     "matplotlib/matplotlib",
@@ -121,6 +118,7 @@
     "plotly/dash",
     "plotly/plotly.py",
     "pre-commit/pre-commit",
+    "PrefectHQ/fastmcp",
     "pydantic/pydantic-ai",
     "pyinstaller/pyinstaller",
     "pyodide/pyodide",
@@ -139,9 +137,9 @@
     "ShishirPatil/gorilla",
     "simonw/datasette",
     "speechbrain/speechbrain",
-    "spotify/luigi",
     "squidfunk/mkdocs-material",
     "stanfordnlp/dspy",
+    "state-spaces/mamba",
     "streamlit/streamlit",
     "tensorflow/models",
     "Textualize/rich",

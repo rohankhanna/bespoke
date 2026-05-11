@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · Go
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 10
+- repos: 11
 - terms: 24
 - components: 39
 - concepts: 23
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ethereum-optimism/kurtosis-test](https://github.com/ethereum-optimism/kurtosis-test) | 2 | 2026-02-10T00:33:59Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [gost-dom/webref](https://github.com/gost-dom/webref) | 7 | 2026-02-09T05:33:56Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [dbubel/intake](https://github.com/dbubel/intake) | 1 | 2026-01-29T01:54:19Z | Go | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [karpeleslab/tpl](https://github.com/KarpelesLab/tpl) | 4 | 2026-01-18T06:25:41Z | Go | Infrastructure/tooling | 1 | 3 | 0 | 0 |
@@ -48,6 +49,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [karpeleslab/tpl](https://github.com/KarpelesLab/tpl) | 4 | 2026-01-18T06:25:41Z | Go | Infrastructure/tooling | 1 | 3 | 0 | 0 |
 | [redis/go-redis-entraid](https://github.com/redis/go-redis-entraid) | 4 | 2026-01-15T16:13:58Z | Go | Infrastructure/tooling | 5 | 13 | 5 | 5 |
 | [Layr-Labs/optimism](https://github.com/Layr-Labs/optimism) | 3 | 2025-11-19T16:41:33Z | Go | Infrastructure/tooling | 3 | 11 | 3 | 3 |
+| [ethereum-optimism/kurtosis-test](https://github.com/ethereum-optimism/kurtosis-test) | 2 | 2026-02-10T00:33:59Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [bizflycloud/karpenter-provider-bizflycloud](https://github.com/bizflycloud/karpenter-provider-bizflycloud) | 2 | 2025-12-08T20:21:45Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [dbubel/intake](https://github.com/dbubel/intake) | 1 | 2026-01-29T01:54:19Z | Go | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [jpincas/htmlfunc](https://github.com/jpincas/htmlfunc) | 1 | 2025-11-19T17:33:36Z | Go | Library | 0 | 0 | 0 | 0 |

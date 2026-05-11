@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2456,
-    "concepts": 532,
-    "observations": 532,
-    "repos": 76,
-    "terms": 528
+    "components": 2409,
+    "concepts": 521,
+    "observations": 521,
+    "repos": 74,
+    "terms": 517
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "actions/javascript-action",
@@ -36,12 +36,12 @@
     "DevExpress/testcafe",
     "eslint/js",
     "expressjs/body-parser",
-    "facebook/jscodeshift",
     "flow-typed/flow-typed",
     "fullstorydev/grpcui",
     "gatsbyjs/gatsby-starter-blog",
     "gautamkrishnar/blog-post-workflow",
     "google/closure-compiler",
+    "google/docsy",
     "GoogleChrome/web-vitals",
     "GoogleChromeLabs/browser-fs-access",
     "GoogleChromeLabs/ProjectVisBug",
@@ -52,7 +52,6 @@
     "jprichardson/node-fs-extra",
     "js-joda/js-joda",
     "json-schema-org/json-schema-spec",
-    "jspreadsheet/ce",
     "kpdecker/jsdiff",
     "mapbox/maki",
     "mapbox/node-pre-gyp",
@@ -84,9 +83,8 @@
     "tw-in-js/twind",
     "vizzuhq/vizzu-lib",
     "vueform/vueform",
-    "webpack/css-loader",
-    "webpack/postcss-loader",
     "webpack/sass-loader",
+    "webpack/webpack-dev-server",
     "webtorrent/bittorrent-dht",
     "webtorrent/webtorrent-cli",
     "yahoo/serialize-javascript"

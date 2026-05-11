@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 40
-- terms: 72
-- components: 143
-- concepts: 73
-- observations: 73
+- repos: 38
+- terms: 68
+- components: 137
+- concepts: 69
+- observations: 69
 
 ## Static behavior
 
@@ -63,8 +63,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sp1-patches/curve25519-dalek](https://github.com/sp1-patches/curve25519-dalek) | 0 | 2026-02-12T14:22:37Z | Unknown | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [bgw/bincode](https://github.com/bgw/bincode) | 0 | 2026-02-11T10:45:28Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [EspressoSystems/jellyfish-compat](https://github.com/EspressoSystems/jellyfish-compat) | 0 | 2026-02-10T11:15:09Z | Rust | Infrastructure/tooling | 3 | 9 | 3 | 3 |
-| [1000ch/Sublime-csso](https://github.com/1000ch/Sublime-csso) | 0 | 2026-02-09T23:03:59Z | Python | Unknown | 3 | 2 | 3 | 3 |
-| [kylebarron/pyo3-file](https://github.com/kylebarron/pyo3-file) | 0 | 2026-02-09T19:31:43Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -108,5 +106,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sp1-patches/curve25519-dalek](https://github.com/sp1-patches/curve25519-dalek) | 0 | 2026-02-12T14:22:37Z | Unknown | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [bgw/bincode](https://github.com/bgw/bincode) | 0 | 2026-02-11T10:45:28Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [EspressoSystems/jellyfish-compat](https://github.com/EspressoSystems/jellyfish-compat) | 0 | 2026-02-10T11:15:09Z | Rust | Infrastructure/tooling | 3 | 9 | 3 | 3 |
-| [1000ch/Sublime-csso](https://github.com/1000ch/Sublime-csso) | 0 | 2026-02-09T23:03:59Z | Python | Unknown | 3 | 2 | 3 | 3 |
-| [kylebarron/pyo3-file](https://github.com/kylebarron/pyo3-file) | 0 | 2026-02-09T19:31:43Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |

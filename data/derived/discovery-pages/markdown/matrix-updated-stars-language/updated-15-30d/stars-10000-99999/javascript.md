@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 61
-- terms: 464
-- components: 2527
-- concepts: 468
-- observations: 471
+- repos: 60
+- terms: 461
+- components: 2510
+- concepts: 465
+- observations: 468
 
 ## Static behavior
 
@@ -86,7 +86,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [postcss/autoprefixer](https://github.com/postcss/autoprefixer) | 22312 | 2026-04-13T20:45:46Z | JavaScript | Infrastructure/tooling | 4 | 22 | 4 | 4 |
 | [Automattic/node-canvas](https://github.com/Automattic/node-canvas) | 10669 | 2026-04-13T16:14:45Z | JavaScript | Infrastructure/tooling | 2 | 13 | 2 | 2 |
 | [avwo/whistle](https://github.com/avwo/whistle) | 15490 | 2026-04-11T09:08:32Z | JavaScript | Web app | 8 | 60 | 8 | 8 |
-| [be5invis/Sarasa-Gothic](https://github.com/be5invis/Sarasa-Gothic) | 12160 | 2026-04-11T05:33:25Z | JavaScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -146,7 +145,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [arkenfox/user.js](https://github.com/arkenfox/user.js) | 12469 | 2026-04-20T20:30:29Z | JavaScript | Template/starter | 8 | 0 | 8 | 8 |
 | [welldone-software/why-did-you-render](https://github.com/welldone-software/why-did-you-render) | 12460 | 2026-04-15T11:11:13Z | JavaScript | Infrastructure/tooling | 10 | 53 | 10 | 10 |
 | [josdejong/jsoneditor](https://github.com/josdejong/jsoneditor) | 12226 | 2026-04-16T08:46:35Z | JavaScript | Infrastructure/tooling | 1 | 30 | 1 | 1 |
-| [be5invis/Sarasa-Gothic](https://github.com/be5invis/Sarasa-Gothic) | 12160 | 2026-04-11T05:33:25Z | JavaScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |
 | [karma-runner/karma](https://github.com/karma-runner/karma) | 11963 | 2026-04-14T19:00:20Z | JavaScript | Infrastructure/tooling | 3 | 65 | 3 | 3 |
 | [vega/vega](https://github.com/vega/vega) | 11849 | 2026-04-16T14:20:55Z | JavaScript | Infrastructure/tooling | 9 | 41 | 9 | 9 |
 | [electron/minimal-repro](https://github.com/electron/minimal-repro) | 11465 | 2026-04-23T13:35:27Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |

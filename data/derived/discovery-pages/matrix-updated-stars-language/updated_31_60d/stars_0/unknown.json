@@ -3,7 +3,7 @@
     "components": 36,
     "concepts": 34,
     "observations": 34,
-    "repos": 32,
+    "repos": 34,
     "terms": 34
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "adiny/moodtrip-hotel-search",
     "cachix/crossterm",
@@ -25,6 +25,7 @@
     "danielrosehill/AI-Resource-Maps",
     "danielrosehill/amd-gpu-fixes",
     "danielrosehill/Backup-Projects-Index",
+    "danielrosehill/brainstorm-solutions-plugin",
     "danielrosehill/Bug-Reports-And-Fixes",
     "danielrosehill/Context-Projects-Index",
     "danielrosehill/Deployments-Index",
@@ -45,6 +46,7 @@
     "lakekeeper/nats.rs",
     "PetervanLunteren/EcoAssist-metadata",
     "piebald-ai/piebald",
+    "psmux/scoop-omp-manager",
     "semgrep/cursor-plugin"
   ]
 }

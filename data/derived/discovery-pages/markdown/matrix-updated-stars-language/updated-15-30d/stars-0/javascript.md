@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · JavaScript
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 9
-- terms: 32
+- repos: 10
+- terms: 35
 - components: 129
-- concepts: 31
-- observations: 31
+- concepts: 34
+- observations: 34
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Claude-Israel-Shopping-Plugin](https://github.com/danielrosehill/Claude-Israel-Shopping-Plugin) | 0 | 2026-04-25T14:37:41Z | JavaScript | Unknown | 3 | 0 | 3 | 3 |
 | [aaronlamz/navpress](https://github.com/aaronlamz/navpress) | 0 | 2026-04-21T07:36:01Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [fabon-f/temporal-polyfill-comparison](https://github.com/fabon-f/temporal-polyfill-comparison) | 0 | 2026-04-20T05:43:09Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [similar-colpoxerosis201/codex-wechat](https://github.com/Similar-colpoxerosis201/codex-wechat) | 0 | 2026-04-19T12:37:32Z | JavaScript | Service/API | 0 | 3 | 0 | 0 |
@@ -40,6 +41,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Claude-Israel-Shopping-Plugin](https://github.com/danielrosehill/Claude-Israel-Shopping-Plugin) | 0 | 2026-04-25T14:37:41Z | JavaScript | Unknown | 3 | 0 | 3 | 3 |
 | [aaronlamz/navpress](https://github.com/aaronlamz/navpress) | 0 | 2026-04-21T07:36:01Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [fabon-f/temporal-polyfill-comparison](https://github.com/fabon-f/temporal-polyfill-comparison) | 0 | 2026-04-20T05:43:09Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [similar-colpoxerosis201/codex-wechat](https://github.com/Similar-colpoxerosis201/codex-wechat) | 0 | 2026-04-19T12:37:32Z | JavaScript | Service/API | 0 | 3 | 0 | 0 |

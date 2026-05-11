@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 3140,
-    "concepts": 1487,
-    "observations": 1489,
-    "repos": 306,
-    "terms": 1462
+    "concepts": 1485,
+    "observations": 1487,
+    "repos": 305,
+    "terms": 1460
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -79,7 +79,6 @@
     "date-fns/date-fns",
     "davidsandberg/facenet",
     "davidshimjs/qrcodejs",
-    "DayBreak-u/chineseocr_lite",
     "deepseek-ai/DeepSeek-Coder",
     "deepseek-ai/DeepSeek-R1",
     "deezer/spleeter",

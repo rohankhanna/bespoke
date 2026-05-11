@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 39039,
-    "concepts": 8695,
-    "observations": 8721,
-    "repos": 2059,
-    "terms": 8688
+    "concepts": 8698,
+    "observations": 8724,
+    "repos": 2060,
+    "terms": 8692
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "0x4139/cosmos-discord-faucet",
     "0xPolygon/pilcom",
@@ -516,6 +516,7 @@
     "daerduoCarey/partnet_anno_system",
     "dangreenisrael/eslint-plugin-jest-formatting",
     "danielgindi/node-autodetect-decoder-stream",
+    "danielrosehill/Claude-Israel-Shopping-Plugin",
     "danielrosehill/Homebox-Desktop-Wrapper-AppImage",
     "danielrosehill/Israel-Alert-Map",
     "danielrosehill/Model-Scout-MCP",
@@ -1937,7 +1938,7 @@
     "treosh/lighthouse-ci-action",
     "TrigenSoftware/simple-release-action",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "TritonDataCenter/node-http-signature",
     "TritonDataCenter/node-verror",
     "trylovetom/clean-code-javascript",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1578,
-    "concepts": 338,
-    "observations": 338,
-    "repos": 55,
-    "terms": 347
+    "components": 1720,
+    "concepts": 355,
+    "observations": 355,
+    "repos": 59,
+    "terms": 364
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "43081j/picoquery",
@@ -21,6 +21,7 @@
     "amplify-education/serverless-domain-manager",
     "antfu-collective/bumpp",
     "antfu/skills-npm",
+    "appium/appium-adb",
     "aquasecurity/trivy-vscode-extension",
     "augmnt/augments-mcp-server",
     "Autodesk/synthesis",
@@ -42,22 +43,24 @@
     "google/adk-web",
     "graalvm/setup-graalvm",
     "graphql-hive/graphql-eslint",
+    "h3js/crossws",
     "hazelcast/hazelcast-nodejs-client",
-    "ivo-toby/mcp-openapi-server",
+    "jgm/djot.js",
     "jupyterlab/extension-examples",
     "krassowski/jupyterlab-lsp",
     "kylebarron/arrow-js-ffi",
     "latex-lsp/texlab-vscode",
     "lobehub/lobe-midjourney-webui",
+    "mapillary/mapillary-js",
     "MattiasBuelens/web-streams-polyfill",
     "microsoft/vscode-debugadapter-node",
+    "microsoft/vscode-html-languageservice",
     "nashaofu/screenshots",
     "neoclide/coc-java",
     "ory/hydra-login-consent-node",
     "PanAeon/vscode-tmgrammar-test",
     "retracedhq/retraced",
     "ruvnet/agentic-flow",
-    "serversideup/webext-bridge",
     "shareai-lab/kode-agent-sdk",
     "solidjs/templates",
     "storybookjs/test-runner",
@@ -66,6 +69,7 @@
     "thesayyn/protoc-gen-ts",
     "tracked-tools/tracked-built-ins",
     "un-ts/eslint-plugin-import-x",
+    "vega/vega-embed",
     "vim-denops/denops.vim",
     "XantreDev/preact-signals",
     "y-lohse/inkjs"

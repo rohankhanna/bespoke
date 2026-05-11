@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1945,
-    "concepts": 1791,
-    "observations": 1797,
-    "repos": 788,
-    "terms": 1785
+    "components": 1947,
+    "concepts": 1795,
+    "observations": 1801,
+    "repos": 790,
+    "terms": 1789
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x7432/asm-ru",
@@ -723,6 +723,7 @@
     "standard/standard-www",
     "status-im/nim-nat-traversal",
     "stuartsierra/component.repl",
+    "suketa/nvim-dap-ruby",
     "SuLvXiangXin/diff-gaussian-rasterization",
     "susliko/tla.nvim",
     "tachyons-css/tachyons-css.github.io",
@@ -738,6 +739,7 @@
     "the-benchmarker/graphql-benchmarks",
     "thedatumorg/VUS",
     "thejoshwolfe/hexdump-zip",
+    "theutz/neotest-pest",
     "thinca/vim-textobj-between",
     "thoughtpolice/eris",
     "tlaplus-community/tlaplus-nvim-plugin",

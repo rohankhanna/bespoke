@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 111,
-    "observations": 112,
-    "repos": 9,
-    "terms": 111
+    "components": 104,
+    "concepts": 75,
+    "observations": 76,
+    "repos": 6,
+    "terms": 75
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
-    "anthropics/claude-cookbooks",
     "dotnet/aspnetcore",
     "dotnet/AspNetCore.Docs",
-    "hagezi/dns-blocklists",
     "JetBrains/compose-multiplatform",
-    "kubernetes-sigs/kubespray",
     "mixmark-io/turndown",
     "MudBlazor/MudBlazor",
-    "phpstan/phpstan"
+    "vbenjs/vue-vben-admin"
   ]
 }

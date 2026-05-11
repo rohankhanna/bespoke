@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 8,
-    "terms": 16
+    "components": 11,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 9,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "Aedelon/claude-code-blueprint",
+    "coin-or/coinbrew",
+    "containers/image_build",
     "graphql/composite-schemas-spec",
     "jawwadfirdousi/agent-skills",
     "Layr-Labs/eigenda-operator-setup",
     "nfnty/pkgbuilds",
     "nodejs/release-keys",
-    "nodenv/nodenv-default-packages",
     "SonarSource/sonar-developer-toolset"
   ]
 }

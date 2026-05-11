@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · Python
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 16
-- terms: 38
-- components: 33
-- concepts: 33
-- observations: 33
+- repos: 17
+- terms: 34
+- components: 29
+- concepts: 29
+- observations: 29
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Claude-AI-Video-Producer-Plugin](https://github.com/danielrosehill/Claude-AI-Video-Producer-Plugin) | 0 | 2026-04-26T18:37:27Z | Python | Model/data | 0 | 0 | 0 | 0 |
+| [NightWatcher314/dockgecli](https://github.com/NightWatcher314/dockgecli) | 0 | 2026-04-26T14:15:32Z | Python | CLI | 0 | 0 | 0 | 0 |
+| [NightWatcher314/npmctl](https://github.com/NightWatcher314/npmctl) | 0 | 2026-04-26T12:16:50Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Hypothesis-Council](https://github.com/danielrosehill/Hypothesis-Council) | 0 | 2026-04-23T10:28:19Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [hmellor/vllm](https://github.com/hmellor/vllm) | 0 | 2026-04-22T15:54:48Z | Python | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [hauntsaninja/mypy](https://github.com/hauntsaninja/mypy) | 0 | 2026-04-22T04:46:56Z | Python | Infrastructure/tooling | 4 | 7 | 4 | 4 |
@@ -40,13 +43,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [piqrypt/piqrypt-mcp-server](https://github.com/PiQrypt/piqrypt-mcp-server) | 0 | 2026-04-18T08:14:52Z | Python | Service/API | 0 | 3 | 0 | 0 |
 | [FEniCS/spack-fenics](https://github.com/FEniCS/spack-fenics) | 0 | 2026-04-18T06:51:20Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [mitchuski/agentprivacy-skills](https://github.com/mitchuski/agentprivacy-skills) | 0 | 2026-04-13T10:55:54Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Red-Alert-Monitoring-Stack](https://github.com/danielrosehill/Red-Alert-Monitoring-Stack) | 0 | 2026-04-10T17:15:24Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
-| [danielrosehill/Iran-Israel-Ceasefire-Prediction-090426](https://github.com/danielrosehill/Iran-Israel-Ceasefire-Prediction-090426) | 0 | 2026-04-10T14:44:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Claude-AI-Video-Producer-Plugin](https://github.com/danielrosehill/Claude-AI-Video-Producer-Plugin) | 0 | 2026-04-26T18:37:27Z | Python | Model/data | 0 | 0 | 0 | 0 |
+| [NightWatcher314/dockgecli](https://github.com/NightWatcher314/dockgecli) | 0 | 2026-04-26T14:15:32Z | Python | CLI | 0 | 0 | 0 | 0 |
+| [NightWatcher314/npmctl](https://github.com/NightWatcher314/npmctl) | 0 | 2026-04-26T12:16:50Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Hypothesis-Council](https://github.com/danielrosehill/Hypothesis-Council) | 0 | 2026-04-23T10:28:19Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [hmellor/vllm](https://github.com/hmellor/vllm) | 0 | 2026-04-22T15:54:48Z | Python | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [hauntsaninja/mypy](https://github.com/hauntsaninja/mypy) | 0 | 2026-04-22T04:46:56Z | Python | Infrastructure/tooling | 4 | 7 | 4 | 4 |
@@ -61,5 +65,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [piqrypt/piqrypt-mcp-server](https://github.com/PiQrypt/piqrypt-mcp-server) | 0 | 2026-04-18T08:14:52Z | Python | Service/API | 0 | 3 | 0 | 0 |
 | [FEniCS/spack-fenics](https://github.com/FEniCS/spack-fenics) | 0 | 2026-04-18T06:51:20Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [mitchuski/agentprivacy-skills](https://github.com/mitchuski/agentprivacy-skills) | 0 | 2026-04-13T10:55:54Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Red-Alert-Monitoring-Stack](https://github.com/danielrosehill/Red-Alert-Monitoring-Stack) | 0 | 2026-04-10T17:15:24Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
-| [danielrosehill/Iran-Israel-Ceasefire-Prediction-090426](https://github.com/danielrosehill/Iran-Israel-Ceasefire-Prediction-090426) | 0 | 2026-04-10T14:44:15Z | Python | Unknown | 0 | 0 | 0 | 0 |

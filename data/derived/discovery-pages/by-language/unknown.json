@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 1585,
-    "concepts": 2906,
-    "observations": 2910,
-    "repos": 1650,
-    "terms": 2910
+    "concepts": 2908,
+    "observations": 2912,
+    "repos": 1652,
+    "terms": 2912
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "unknown"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nn0/terminal-mac-cheatsheet",
@@ -138,6 +138,7 @@
     "ali-vilab/In-Context-LoRA",
     "aliyun-sls/opentelemetry-demo",
     "AlmaLinux/osv-database",
+    "aloncarmel/supermeskill",
     "alpha-vllm/wemix-llm",
     "alphagov/.github",
     "alphagov/govuk-rfcs",
@@ -516,7 +517,9 @@
     "danielrosehill/Claude-Ideation-Planning-Plugin",
     "danielrosehill/Claude-Image-Production-Plugin",
     "danielrosehill/Claude-Interview-062325",
+    "danielrosehill/Claude-Is-Awesome",
     "danielrosehill/Claude-Israel",
+    "danielrosehill/Claude-Jewish-Utilities-Plugin",
     "danielrosehill/Claude-Linux-Desktop-Manager",
     "danielrosehill/Claude-Rescue",
     "danielrosehill/Claude-Workspace-Reshaping-190426",
@@ -1521,7 +1524,6 @@
     "tesseract-ocr/tessdata",
     "tesseract-ocr/tessdata_best",
     "tesseract-ocr/tessdata_fast",
-    "testdouble/contributing-tests",
     "the-guild-org/Stack",
     "TheRobotStudio/SO-ARM100",
     "thetutlage/meta",

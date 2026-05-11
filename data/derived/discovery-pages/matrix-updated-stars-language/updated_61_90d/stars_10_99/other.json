@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 333,
-    "concepts": 184,
-    "observations": 184,
-    "repos": 70,
-    "terms": 183
+    "components": 332,
+    "concepts": 195,
+    "observations": 195,
+    "repos": 73,
+    "terms": 194
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "ably-labs/realtime-quiz-framework",
     "AceCHQ/TransMatting",
@@ -22,7 +22,6 @@
     "AliRezaBeigy/paqetNG",
     "andys8/git-brunch",
     "ankane/ml-stack",
-    "anmolitor/travelm-agency",
     "apache/netbeans-antora-site",
     "asg017/sqlite-hello",
     "avelino/monotropic-theme-vscode",
@@ -30,6 +29,7 @@
     "benomahony/oil-git.nvim",
     "bokeh/tutorial",
     "BuddiesOfBudgie/budgie-desktop-view",
+    "buildfoundation/bazel_rules_detekt",
     "camertron/garnet-js",
     "clojure/tools.deps",
     "co-IT/CSharpFunctionalExtensions.HttpResults",
@@ -39,13 +39,14 @@
     "devise-i18n/devise-i18n",
     "dominique-unruh/scala-isabelle",
     "dwyl/cid",
+    "dwyl/content",
     "dwyl/elixir-auth-github",
+    "dwyl/learn-payment-processing",
     "eddelbuettel/tinythemes",
     "Embarcadero/Lightweight-Python-Wrappers",
     "Embarcadero/PythonPackages4Delphi",
     "flycheck/flycheck-eglot",
     "FoundationDB/fdb-build-support",
-    "GoogleCloudPlatform/getting-started-dotnet",
     "HaxeFlixel/haxeflixel.com",
     "hedronvision/bazel-make-cc-https-easy",
     "Humans-of-Julia/StaticWebPages.jl",
@@ -60,6 +61,7 @@
     "JunoLab/Atom.jl",
     "jupyter-xeus/xeus-python-wheel",
     "kahliburke/MCPRepl.jl",
+    "liquidev/lintplus",
     "mfussenegger/nlua",
     "microsoft/windows-host-process-containers-base-image",
     "MicrosoftDocs/vcpkg-docs",
@@ -73,16 +75,17 @@
     "PacktPublishing/Natural-Language-Processing-with-Flair",
     "padreati/rapaio-jupyter-kernel",
     "patrickgold/jetpref",
+    "php/doc-it",
     "revfactory/claude-code-harness",
     "robotology/icub-models",
     "rojo-rbx/rojo.space",
     "rust-lang/crates-build-env",
     "SchwarzIT/spectral-intellij-plugin",
-    "Shopify/quantified",
     "spring-ai-alibaba/website",
     "standardrb/lint_roller",
     "tarsius/llama",
     "timo/json_fast",
-    "Triang-jyed-driung/Rapid-Sampling"
+    "Triang-jyed-driung/Rapid-Sampling",
+    "typst/typst-flake"
   ]
 }

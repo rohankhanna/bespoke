@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 742,
-    "concepts": 148,
-    "observations": 149,
-    "repos": 27,
-    "terms": 154
+    "components": 782,
+    "concepts": 162,
+    "observations": 163,
+    "repos": 29,
+    "terms": 168
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "actions/checkout",
     "antfu/drauu",
     "blacksmithgu/obsidian-dataview",
     "EventSource/eventsource",
+    "flightcontrolhq/superjson",
     "glimmerjs/glimmer-vm",
     "google-github-actions/auth",
     "google/gts",
@@ -37,6 +38,7 @@
     "ricky0123/vad",
     "shareAI-lab/Kode-Agent",
     "tancredi/fantasticon",
+    "toddbluhm/env-cmd",
     "unplugin/unplugin-auto-import",
     "unplugin/unplugin-icons",
     "vercel/ms",

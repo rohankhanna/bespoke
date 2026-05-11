@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 48
-- terms: 187
-- components: 263
-- concepts: 189
-- observations: 192
+- repos: 46
+- terms: 178
+- components: 256
+- concepts: 180
+- observations: 183
 
 ## Static behavior
 
@@ -72,14 +72,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rust-windowing/gl-rs](https://github.com/rust-windowing/gl-rs) | 742 | 2025-11-25T09:08:08Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [harfbuzz/ttf-parser](https://github.com/harfbuzz/ttf-parser) | 762 | 2025-11-22T11:57:15Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [rust-embedded-community/serde-json-core](https://github.com/rust-embedded-community/serde-json-core) | 192 | 2025-11-18T12:05:40Z | Rust | Infrastructure/tooling | 5 | 2 | 6 | 6 |
-| [lerouxrgd/datachannel-rs](https://github.com/lerouxrgd/datachannel-rs) | 153 | 2025-11-12T00:29:39Z | Rust | Infrastructure/tooling | 5 | 1 | 5 | 5 |
-| [bbqsrc/cargo-ndk](https://github.com/bbqsrc/cargo-ndk) | 923 | 2025-11-11T21:05:57Z | Rust | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [bbqsrc/cargo-ndk](https://github.com/bbqsrc/cargo-ndk) | 923 | 2025-11-11T21:05:57Z | Rust | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [mtkennerly/shawl](https://github.com/mtkennerly/shawl) | 850 | 2025-12-09T03:24:18Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [harfbuzz/ttf-parser](https://github.com/harfbuzz/ttf-parser) | 762 | 2025-11-22T11:57:15Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [dtolnay/prettyplease](https://github.com/dtolnay/prettyplease) | 761 | 2026-02-09T02:38:31Z | Rust | Infrastructure/tooling | 0 | 10 | 0 | 0 |
@@ -118,7 +115,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rust-embedded-community/serde-json-core](https://github.com/rust-embedded-community/serde-json-core) | 192 | 2025-11-18T12:05:40Z | Rust | Infrastructure/tooling | 5 | 2 | 6 | 6 |
 | [zippoxer/recall](https://github.com/zippoxer/recall) | 178 | 2026-01-14T07:49:57Z | Rust | CLI | 2 | 6 | 0 | 0 |
 | [ayazhafiz/xorf](https://github.com/ayazhafiz/xorf) | 164 | 2026-02-09T00:03:04Z | Rust | Infrastructure/tooling | 8 | 6 | 8 | 8 |
-| [lerouxrgd/datachannel-rs](https://github.com/lerouxrgd/datachannel-rs) | 153 | 2025-11-12T00:29:39Z | Rust | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [browserslist/browserslist-rs](https://github.com/browserslist/browserslist-rs) | 148 | 2026-01-15T11:40:08Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [kata-containers/cgroups-rs](https://github.com/kata-containers/cgroups-rs) | 144 | 2026-02-03T06:38:00Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [microsoft/rust_win_etw](https://github.com/microsoft/rust_win_etw) | 130 | 2025-12-18T17:49:05Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |

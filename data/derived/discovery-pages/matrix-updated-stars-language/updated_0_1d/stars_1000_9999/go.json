@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 17,
-    "observations": 17,
+    "components": 3,
+    "concepts": 8,
+    "observations": 8,
     "repos": 1,
-    "terms": 17
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-10T05:46:09.737913+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
-    "crc-org/crc"
+    "etcd-io/bbolt"
   ]
 }

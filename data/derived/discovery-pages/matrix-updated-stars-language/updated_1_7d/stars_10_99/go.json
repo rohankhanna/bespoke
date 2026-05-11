@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 24,
+    "components": 27,
     "concepts": 31,
     "observations": 31,
-    "repos": 5,
+    "repos": 6,
     "terms": 31
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
+    "cloudfoundry/bosh-google-cpi-release",
     "cloudfoundry/credhub-cli",
     "energye/wv",
     "gookit/ini",

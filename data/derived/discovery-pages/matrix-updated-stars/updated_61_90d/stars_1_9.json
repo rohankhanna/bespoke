@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 487,
-    "concepts": 319,
-    "observations": 319,
-    "repos": 113,
-    "terms": 315
+    "components": 493,
+    "concepts": 332,
+    "observations": 332,
+    "repos": 116,
+    "terms": 326
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "0x676e67/0x676e67",
@@ -47,6 +47,7 @@
     "aspect-build/rules_jasmine",
     "autowarefoundation/.github",
     "awni/picochat",
+    "babakatwork/loopy_agent",
     "bendrucker/terraform-configuration-aliases-action",
     "birdofpreyru/js-utils",
     "browserslist/browserslist-plausible",
@@ -66,9 +67,9 @@
     "DavidKinder/Libraries",
     "eddelbuettel/github-actions",
     "empriselab/kortex_description",
-    "ethereum-optimism/kurtosis-test",
     "feloy/tesh",
     "filip26/copper-multicodec",
+    "filip26/titanium-jcs",
     "filip26/titanium-rdf-canon",
     "filip26/titanium-rdf-n-quads",
     "flagos-ai/vllm-FL",
@@ -96,6 +97,7 @@
     "near/near-abi-client-rs",
     "near/near-abi-rs",
     "neuroverseos/neuroverseos-openclaw-governance",
+    "newton-physics/newton-governance",
     "nikitabobko/homebrew-tap",
     "objectbox/objectbox-swift-generator",
     "open-rpc/markdown-gen",
@@ -125,6 +127,7 @@
     "vim-fuzzbox/fuzzbox-lsp.vim",
     "yamachu/VoicevoxCoreSwift",
     "ylsdamxssjxxdd/nerv",
-    "yoshoku/numo-libsvm"
+    "yoshoku/numo-libsvm",
+    "zkcrypto/rfcs"
   ]
 }

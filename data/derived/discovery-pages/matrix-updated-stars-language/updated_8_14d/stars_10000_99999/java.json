@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 199,
-    "concepts": 203,
-    "observations": 205,
-    "repos": 17,
-    "terms": 203
+    "components": 205,
+    "concepts": 224,
+    "observations": 226,
+    "repos": 18,
+    "terms": 223
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "apache/dubbo",
     "apache/kafka",
@@ -30,6 +30,7 @@
     "languagetool-org/languagetool",
     "netty/netty",
     "oracle/graal",
-    "ReactiveX/RxJava"
+    "ReactiveX/RxJava",
+    "redisson/redisson"
   ]
 }

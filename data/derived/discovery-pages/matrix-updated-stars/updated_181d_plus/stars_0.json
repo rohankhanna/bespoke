@@ -3,7 +3,7 @@
     "components": 1166,
     "concepts": 496,
     "observations": 498,
-    "repos": 408,
+    "repos": 409,
     "terms": 496
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -130,6 +130,7 @@
     "CyberHoward/cw-plus-plus",
     "Danau5tin/terminal-bench-fork",
     "dani-maarouf/alembic_utils",
+    "danielrosehill/A-Better-Jobs-Platform-Notes",
     "danielrosehill/AI-Agent-Ideation-Agent",
     "danielrosehill/AI-Assistant-Ideator",
     "danielrosehill/AI-Friendly-Badge",

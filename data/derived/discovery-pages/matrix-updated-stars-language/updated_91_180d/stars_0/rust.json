@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 54,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 8,
-    "terms": 20
+    "components": 58,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 9,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "databendlabs/iceberg-rust",
     "datafuse-extras/arrow-udf",
@@ -21,6 +21,7 @@
     "espressosystems/espresso-systems-common",
     "Keats/os_info",
     "KSXGitHub/personal-crates",
+    "kylebarron/pyo3-file",
     "openobserve/promql-parser"
   ]
 }

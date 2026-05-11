@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 3,
-    "terms": 33
+    "components": 35,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 4,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
-    "argotorg/solidity",
-    "blender/blender",
-    "google-ai-edge/mediapipe"
+    "apache/brpc",
+    "DayBreak-u/chineseocr_lite",
+    "ggml-org/ggml",
+    "ggml-org/whisper.cpp"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 87,
-    "concepts": 48,
-    "observations": 48,
-    "repos": 29,
-    "terms": 58
+    "components": 85,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 28,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "abersheeran/pdm-version",
     "ai-bot-pro/pipeline-py",
@@ -34,7 +34,6 @@
     "heyoeyo/toadui",
     "HKU-BAL/Clair-Mosaic",
     "LedgerHQ/ledgercomm",
-    "MarcCote/downward",
     "mjvolk3/torchcell",
     "mlfoundations/SkyRL",
     "pydantic/pydantic-docs",

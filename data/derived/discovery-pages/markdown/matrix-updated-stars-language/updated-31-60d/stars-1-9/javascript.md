@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 21
-- terms: 243
-- components: 381
-- concepts: 243
-- observations: 243
+- repos: 24
+- terms: 277
+- components: 486
+- concepts: 277
+- observations: 277
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [agent-sh/next-task](https://github.com/agent-sh/next-task) | 4 | 2026-04-11T03:14:37Z | JavaScript | Infrastructure/tooling | 9 | 5 | 9 | 9 |
+| [kellyselden/boilerplate-update](https://github.com/kellyselden/boilerplate-update) | 5 | 2026-04-10T18:45:11Z | JavaScript | Infrastructure/tooling | 1 | 37 | 1 | 1 |
+| [stdlib-js/array-complex128](https://github.com/stdlib-js/array-complex128) | 1 | 2026-04-10T09:25:50Z | JavaScript | Infrastructure/tooling | 24 | 63 | 24 | 24 |
 | [stdlib-js/ndarray-array](https://github.com/stdlib-js/ndarray-array) | 4 | 2026-04-10T03:58:17Z | JavaScript | Infrastructure/tooling | 19 | 56 | 19 | 19 |
 | [hchiam/code-inspiration](https://github.com/hchiam/code-inspiration) | 1 | 2026-04-09T06:50:15Z | JavaScript | Infrastructure/tooling | 9 | 24 | 9 | 9 |
 | [hchiam/learning-js](https://github.com/hchiam/learning-js) | 2 | 2026-04-07T02:58:03Z | JavaScript | Infrastructure/tooling | 10 | 9 | 10 | 10 |
@@ -56,9 +59,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [graphql/community-wg](https://github.com/graphql/community-wg) | 8 | 2026-04-03T12:17:52Z | JavaScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [Level/read-stream](https://github.com/Level/read-stream) | 7 | 2026-04-01T00:23:38Z | JavaScript | Infrastructure/tooling | 5 | 18 | 5 | 5 |
 | [Deep-Symmetry/asciidoctor-bytefield](https://github.com/Deep-Symmetry/asciidoctor-bytefield) | 6 | 2026-03-27T20:20:03Z | JavaScript | Unknown | 4 | 2 | 4 | 4 |
+| [kellyselden/boilerplate-update](https://github.com/kellyselden/boilerplate-update) | 5 | 2026-04-10T18:45:11Z | JavaScript | Infrastructure/tooling | 1 | 37 | 1 | 1 |
 | [Level/transcoder](https://github.com/Level/transcoder) | 5 | 2026-04-02T03:43:47Z | JavaScript | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 | [stdlib-js/array-complex64](https://github.com/stdlib-js/array-complex64) | 5 | 2026-04-02T03:28:59Z | JavaScript | Infrastructure/tooling | 24 | 63 | 24 | 24 |
 | [Level/supports](https://github.com/Level/supports) | 5 | 2026-04-01T10:38:44Z | JavaScript | Infrastructure/tooling | 7 | 12 | 7 | 7 |
+| [agent-sh/next-task](https://github.com/agent-sh/next-task) | 4 | 2026-04-11T03:14:37Z | JavaScript | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [stdlib-js/ndarray-array](https://github.com/stdlib-js/ndarray-array) | 4 | 2026-04-10T03:58:17Z | JavaScript | Infrastructure/tooling | 19 | 56 | 19 | 19 |
 | [forcedotcom/dev-config](https://github.com/forcedotcom/dev-config) | 3 | 2026-03-26T19:38:19Z | JavaScript | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [agent-sh/deslop](https://github.com/agent-sh/deslop) | 3 | 2026-03-23T02:31:44Z | JavaScript | Infrastructure/tooling | 9 | 6 | 9 | 9 |
@@ -68,6 +73,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stdlib-js/array-dtypes](https://github.com/stdlib-js/array-dtypes) | 2 | 2026-03-29T03:46:26Z | JavaScript | Infrastructure/tooling | 21 | 18 | 21 | 21 |
 | [stdlib-js/array-buffer](https://github.com/stdlib-js/array-buffer) | 2 | 2026-03-29T03:43:18Z | JavaScript | Infrastructure/tooling | 19 | 28 | 19 | 19 |
 | [agent-sh/ship](https://github.com/agent-sh/ship) | 2 | 2026-03-25T00:15:01Z | JavaScript | Infrastructure/tooling | 10 | 5 | 10 | 10 |
+| [stdlib-js/array-complex128](https://github.com/stdlib-js/array-complex128) | 1 | 2026-04-10T09:25:50Z | JavaScript | Infrastructure/tooling | 24 | 63 | 24 | 24 |
 | [hchiam/code-inspiration](https://github.com/hchiam/code-inspiration) | 1 | 2026-04-09T06:50:15Z | JavaScript | Infrastructure/tooling | 9 | 24 | 9 | 9 |
 | [stdlib-js/ndarray-dtype](https://github.com/stdlib-js/ndarray-dtype) | 1 | 2026-04-03T03:55:10Z | JavaScript | Infrastructure/tooling | 23 | 25 | 23 | 23 |
 | [stdlib-js/array-typed](https://github.com/stdlib-js/array-typed) | 1 | 2026-04-02T03:34:17Z | JavaScript | Infrastructure/tooling | 24 | 42 | 24 | 24 |

@@ -3,7 +3,7 @@
     "components": 11,
     "concepts": 16,
     "observations": 16,
-    "repos": 34,
+    "repos": 36,
     "terms": 16
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "csm-actions/demo-client",
     "danielrosehill/AI-Dev-Repo-Template-1",
@@ -41,11 +41,13 @@
     "danielrosehill/Claude-GPG-Ops-Plugin",
     "danielrosehill/Claude-Hardware-Spec-Assembly-Plugin",
     "danielrosehill/Claude-Hopper",
+    "danielrosehill/Claude-Jewish-Utilities-Plugin",
     "danielrosehill/DOCS.md",
     "danielrosehill/ENVIRONMENT.md",
     "danielrosehill/GROUNDING.md",
     "danielrosehill/Israel-Projects-Index",
     "hermit-os/.github",
+    "kleisauke/glib",
     "qiayuanl/unitree_buildfarm",
     "sp1-patches/elliptic-curves"
   ]

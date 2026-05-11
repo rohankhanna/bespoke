@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 60
-- terms: 228
+- terms: 235
 - components: 168
-- concepts: 230
-- observations: 230
+- concepts: 237
+- observations: 237
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [chfast/intx](https://github.com/chfast/intx) | 167 | 2026-02-09T12:44:40Z | C/C++ | Library | 11 | 0 | 11 | 11 |
 | [iwongu/sqlite3pp](https://github.com/iwongu/sqlite3pp) | 635 | 2026-02-08T19:41:41Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [adamritter/fastgron](https://github.com/adamritter/fastgron) | 673 | 2026-02-08T17:37:49Z | C/C++ | Infrastructure/tooling | 4 | 7 | 5 | 5 |
 | [apache/casbin-cpp](https://github.com/apache/casbin-cpp) | 251 | 2026-02-08T03:06:59Z | C/C++ | Infrastructure/tooling | 12 | 4 | 12 | 12 |
@@ -85,7 +86,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [neovim/libvterm](https://github.com/neovim/libvterm) | 182 | 2025-11-21T05:22:35Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [mit-han-lab/flash-moba](https://github.com/mit-han-lab/flash-moba) | 244 | 2025-11-19T19:53:55Z | C/C++ | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [antonypro/QGoodWindow](https://github.com/antonypro/QGoodWindow) | 574 | 2025-11-12T13:45:39Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [IST-DASLab/qutlass](https://github.com/IST-DASLab/qutlass) | 179 | 2025-11-11T13:41:32Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -129,8 +129,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [deeptools/pyBigWig](https://github.com/deeptools/pyBigWig) | 243 | 2026-01-14T14:49:32Z | C/C++ | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [ZDisket/TensorVox](https://github.com/ZDisket/TensorVox) | 213 | 2026-02-05T02:14:58Z | C/C++ | Unknown | 10 | 0 | 10 | 10 |
 | [neovim/libvterm](https://github.com/neovim/libvterm) | 182 | 2025-11-21T05:22:35Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [IST-DASLab/qutlass](https://github.com/IST-DASLab/qutlass) | 179 | 2025-11-11T13:41:32Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [lh3/yak](https://github.com/lh3/yak) | 169 | 2025-12-30T19:05:14Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
+| [chfast/intx](https://github.com/chfast/intx) | 167 | 2026-02-09T12:44:40Z | C/C++ | Library | 11 | 0 | 11 | 11 |
 | [osvenskan/posix_ipc](https://github.com/osvenskan/posix_ipc) | 162 | 2026-01-12T12:55:00Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [proxy-wasm/proxy-wasm-cpp-sdk](https://github.com/proxy-wasm/proxy-wasm-cpp-sdk) | 161 | 2026-02-03T18:24:26Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [eddelbuettel/rinside](https://github.com/eddelbuettel/rinside) | 142 | 2026-01-29T02:30:27Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 4 |

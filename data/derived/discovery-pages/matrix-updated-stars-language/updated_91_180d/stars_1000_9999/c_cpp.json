@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 158,
-    "concepts": 270,
-    "observations": 270,
-    "repos": 46,
-    "terms": 267
+    "components": 161,
+    "concepts": 269,
+    "observations": 269,
+    "repos": 48,
+    "terms": 266
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "ashvardanian/less_slow.cpp",
     "asmvik/skhd",
@@ -27,7 +27,7 @@
     "cztomczak/cefpython",
     "EKA2L1/EKA2L1",
     "emersion/slurp",
-    "flame/blis",
+    "espressif/ESP8266_RTOS_SDK",
     "gflags/gflags",
     "github/cmark-gfm",
     "golang-ui/nuklear",
@@ -53,12 +53,14 @@
     "Oneflow-Inc/oneflow",
     "openMVG/openMVG",
     "OpenNMT/CTranslate2",
+    "pellepl/spiffs",
     "pganalyze/libpg_query",
     "pothosware/SoapySDR",
     "rurban/smhasher",
     "sammycage/lunasvg",
     "sysstat/sysstat",
     "thestk/rtmidi",
-    "tpoechtrager/osxcross"
+    "tpoechtrager/osxcross",
+    "ulfjack/ryu"
   ]
 }

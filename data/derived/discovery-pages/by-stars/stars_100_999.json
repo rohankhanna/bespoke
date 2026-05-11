@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 48976,
-    "concepts": 33727,
-    "observations": 33831,
-    "repos": 8360,
-    "terms": 33589
+    "components": 49032,
+    "concepts": 33750,
+    "observations": 33854,
+    "repos": 8363,
+    "terms": 33627
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0k/shyaml",
@@ -6033,6 +6033,7 @@
     "olbrich/ruby-units",
     "olegchomp/TDDepthAnything",
     "olegchomp/TouchDiffusion",
+    "olimorris/neotest-rspec",
     "olirice/alembic_utils",
     "ollix/MetalNanoVG",
     "omertov/encoder4editing",
@@ -6700,6 +6701,7 @@
     "refresh-bio/KMC",
     "rehypejs/rehype-highlight",
     "rejeep/wrap-region.el",
+    "Rel1cx/eslint-react",
     "relative-ci/bundle-stats",
     "relaxng/jing-trang",
     "relay-tools/relay-hooks",
@@ -8248,6 +8250,7 @@
     "yoheinakajima/babyagi_archive",
     "yokoffing/Control-D-Config",
     "yonaskolb/Genesis",
+    "yoshoku/llama_cpp.rb",
     "YosysHQ/prjtrellis",
     "YosysHQ/sby",
     "youngwoo-yoon/youtube-gesture-dataset",

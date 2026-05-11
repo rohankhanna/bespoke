@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 338,
-    "concepts": 718,
-    "observations": 718,
-    "repos": 200,
-    "terms": 709
+    "concepts": 731,
+    "observations": 731,
+    "repos": 201,
+    "terms": 722
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "aantron/better-enums",
     "aappleby/smhasher",
@@ -72,6 +72,7 @@
     "facebookresearch/Replica-Dataset",
     "facebookresearch/SparseConvNet",
     "festvox/flite",
+    "flame/blis",
     "flann-lib/flann",
     "fraillt/bitsery",
     "Fyusion/LLFF",

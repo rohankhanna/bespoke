@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 608,
-    "concepts": 637,
-    "observations": 638,
-    "repos": 99,
-    "terms": 635
+    "components": 539,
+    "concepts": 586,
+    "observations": 587,
+    "repos": 93,
+    "terms": 584
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
-    "0ldsk00l/nestopia",
     "Alpine-DAV/ascent",
     "amerkoleci/joltc",
     "antgroup/vsag",
@@ -32,8 +31,6 @@
     "ddemidov/amgcl",
     "DiligentGraphics/DiligentCore",
     "DiligentGraphics/DiligentFX",
-    "DiligentGraphics/DiligentSamples",
-    "DiligentGraphics/DiligentTools",
     "dmlc/treelite",
     "DrTimothyAldenDavis/GraphBLAS",
     "eblerjana/pangenie",
@@ -61,7 +58,6 @@
     "j20001970/GDMP",
     "jellyfin/jellyfin-ffmpeg",
     "JokerJohn/DCReg",
-    "jrouwe/JoltPhysics.js",
     "k2-fsa/sherpa",
     "KDE/breeze-icons",
     "KhronosGroup/Vulkan-Loader",
@@ -79,7 +75,6 @@
     "mapnik/node-mapnik",
     "Mercury13/unicodia",
     "msoos/cryptominisat",
-    "murat-dogan/node-datachannel",
     "nelson-lang/nelson",
     "NGSolve/netgen",
     "nianticlabs/spz",
@@ -89,9 +84,7 @@
     "oneapi-src/level-zero",
     "openSUSE/libsolv",
     "OpenVisualCloud/Media-Transport-Library",
-    "optiscaler/OptiPatcher",
     "pkgxdev/pantry",
-    "pqrs-org/Karabiner-DriverKit-VirtualHIDDevice",
     "pygobject/pycairo",
     "RcppCore/Rcpp",
     "ROCm/AMDMIGraphX",
@@ -110,6 +103,7 @@
     "todbot/hidapitester",
     "trealla-prolog/trealla",
     "triton-inference-server/onnxruntime_backend",
+    "ucscGenomeBrowser/kent",
     "Unidata/netcdf-c",
     "uxlfoundation/oneDAL",
     "uxlfoundation/oneDPL"

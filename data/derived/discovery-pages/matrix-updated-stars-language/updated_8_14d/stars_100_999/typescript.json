@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2729,
-    "concepts": 584,
-    "observations": 586,
+    "components": 2817,
+    "concepts": 588,
+    "observations": 590,
     "repos": 86,
-    "terms": 579
+    "terms": 586
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "agentclientprotocol/typescript-sdk",
     "AgnosticUI/agnosticui",
@@ -23,6 +23,7 @@
     "astahmer/typed-openapi",
     "bitwarden/directory-connector",
     "browserslist/browserslist-useragent-regexp",
+    "carbon-design-system/carbon-components-angular",
     "carbon-design-system/sveld",
     "chainguard-dev/actions",
     "ClickHouse/clickhouse-js",
@@ -40,6 +41,7 @@
     "folke/esbuild-runner",
     "forcedotcom/code-analyzer",
     "fsouza/prettierd",
+    "ftonato/nope-validator",
     "fullcalendar/temporal-polyfill",
     "glassflow/clickhouse-etl",
     "gradle/actions",
@@ -52,17 +54,16 @@
     "ipfs/js-ipfsd-ctl",
     "jbaubree/vite-plugin-sitemap",
     "jsonwebtoken/jsonwebtoken.github.io",
-    "julia-actions/setup-julia",
     "jurplel/install-qt-action",
     "kkomelin/isomorphic-dompurify",
     "LemmyNet/lemmy-js-client",
     "luciopaiva/heapify",
     "microsoft/ai-chat-protocol",
     "microsoft/cognitive-services-speech-sdk-js",
-    "microsoft/security-devops-action",
     "microsoft/vscode-java-debug",
     "milvus-io/milvus-sdk-node",
     "mmkal/expect-type",
+    "mswjs/interceptors",
     "nene/prettier-plugin-sql-cst",
     "nene/sql-parser-cst",
     "nonara/ts-patch",
@@ -81,7 +82,6 @@
     "rstackjs/storybook-rsbuild",
     "salesforcecli/cli",
     "sapphiredev/utilities",
-    "sergiodxa/remix-i18next",
     "SkepticMystic/breadcrumbs",
     "smithy-lang/smithy-typescript",
     "sumup-oss/circuit-ui",
@@ -89,7 +89,6 @@
     "TanStack/devtools",
     "TanStack/pacer",
     "TanStack/store",
-    "tats-u/markdown-cjk-friendly",
     "tinylibs/tinyexec",
     "tlaplus/vscode-tlaplus",
     "un-ts/prettier",
@@ -99,6 +98,7 @@
     "unjs/listhen",
     "unjs/unimport",
     "web-infra-dev/rslib",
-    "web-infra-dev/rstest"
+    "web-infra-dev/rstest",
+    "wevm/abitype"
   ]
 }

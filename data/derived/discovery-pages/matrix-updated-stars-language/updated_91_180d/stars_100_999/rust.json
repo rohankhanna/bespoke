@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 263,
-    "concepts": 189,
-    "observations": 192,
-    "repos": 48,
-    "terms": 187
+    "components": 256,
+    "concepts": 180,
+    "observations": 183,
+    "repos": 46,
+    "terms": 178
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "alexheretic/ab-glyph",
     "astro/deadnix",
     "atanunq/viuer",
     "ayazhafiz/xorf",
-    "bbqsrc/cargo-ndk",
     "bluss/matrixmultiply",
     "browserslist/browserslist-rs",
     "Builditluc/wiki-tui",
@@ -35,7 +34,6 @@
     "harfbuzz/ttf-parser",
     "kata-containers/cgroups-rs",
     "kwonoj/swc-plugin-coverage-instrument",
-    "lerouxrgd/datachannel-rs",
     "lquerel/gcp-bigquery-client",
     "Lutetium-Vanadium/requestty",
     "Manishearth/triomphe",

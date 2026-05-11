@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1165,
-    "concepts": 251,
-    "observations": 253,
-    "repos": 48,
-    "terms": 247
+    "components": 1129,
+    "concepts": 237,
+    "observations": 239,
+    "repos": 44,
+    "terms": 233
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "AdguardTeam/Scriptlets",
     "all-contributors/app",
@@ -23,7 +23,6 @@
     "Brooooooklyn/snappy",
     "commitizen/cz-conventional-changelog",
     "conventional-changelog/releaser-tools",
-    "csstools/cssdb",
     "dydxprotocol/v4-clients",
     "electerm/electerm-web",
     "ember-cli/ember-cli-update",
@@ -31,7 +30,6 @@
     "facebook/Rapid",
     "firebase/snippets-web",
     "fontello/svg2ttf",
-    "GDevelopApp/GDevelop-examples",
     "hudochenkov/postcss-sorting",
     "hyparam/icebird",
     "j9t/html-minifier-next",
@@ -39,7 +37,6 @@
     "Kilian/electron-to-chromium",
     "kriszyp/msgpackr",
     "lo-th/phy",
-    "matzkoh/prettier-plugin-packagejson",
     "mdn/data",
     "mdn/fred",
     "mdn/mdn-http-observatory",
@@ -51,7 +48,6 @@
     "prisma/ecosystem-tests",
     "reviewdog/action-eslint",
     "ruby/setup-ruby",
-    "rubyjs/mini_racer",
     "rvagg/github-webhook",
     "rvagg/github-webhook-handler",
     "sveltejs/dts-buddy",

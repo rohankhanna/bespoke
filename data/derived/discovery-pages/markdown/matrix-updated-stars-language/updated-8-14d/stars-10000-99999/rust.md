@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 35
-- terms: 437
-- components: 542
-- concepts: 442
-- observations: 442
+- terms: 439
+- components: 573
+- concepts: 444
+- observations: 444
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [tw93/Pake](https://github.com/tw93/Pake) | 48393 | 2026-05-03T15:05:14Z | Rust | Infrastructure/tooling | 17 | 48 | 17 | 17 |
 | [qdrant/qdrant](https://github.com/qdrant/qdrant) | 30966 | 2026-05-02T17:52:06Z | Rust | Infrastructure/tooling | 25 | 15 | 25 | 25 |
 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | 63824 | 2026-05-02T02:14:57Z | Rust | CLI | 8 | 1 | 8 | 8 |
 | [influxdata/influxdb](https://github.com/influxdata/influxdb) | 31486 | 2026-05-01T20:18:05Z | Rust | Infrastructure/tooling | 8 | 1 | 8 | 8 |
@@ -60,7 +61,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [huggingface/tokenizers](https://github.com/huggingface/tokenizers) | 10684 | 2026-04-27T15:48:00Z | Rust | Infrastructure/tooling | 13 | 17 | 13 | 13 |
 | [clap-rs/clap](https://github.com/clap-rs/clap) | 16346 | 2026-04-27T14:44:44Z | Rust | CLI | 14 | 11 | 14 | 14 |
 | [rust-lang/rust-clippy](https://github.com/rust-lang/rust-clippy) | 13110 | 2026-04-27T08:58:52Z | Rust | CLI | 10 | 14 | 10 | 10 |
-| [Automattic/harper](https://github.com/Automattic/harper) | 10405 | 2026-04-27T01:19:13Z | Rust | Infrastructure/tooling | 15 | 17 | 15 | 15 |
 
 ## Repos sorted by stars
 
@@ -68,6 +68,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [zed-industries/zed](https://github.com/zed-industries/zed) | 80446 | 2026-04-29T17:21:23Z | Rust | Infrastructure/tooling | 7 | 17 | 7 | 7 |
 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | 63824 | 2026-05-02T02:14:57Z | Rust | CLI | 8 | 1 | 8 | 8 |
+| [tw93/Pake](https://github.com/tw93/Pake) | 48393 | 2026-05-03T15:05:14Z | Rust | Infrastructure/tooling | 17 | 48 | 17 | 17 |
 | [helix-editor/helix](https://github.com/helix-editor/helix) | 44167 | 2026-04-28T23:25:11Z | Rust | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 42572 | 2026-05-01T11:40:46Z | Rust | Infrastructure/tooling | 19 | 19 | 19 | 19 |
 | [pola-rs/polars](https://github.com/pola-rs/polars) | 38348 | 2026-05-01T06:59:20Z | Rust | Infrastructure/tooling | 14 | 12 | 14 | 14 |
@@ -100,4 +101,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [quickwit-oss/quickwit](https://github.com/quickwit-oss/quickwit) | 11122 | 2026-04-30T08:26:12Z | Rust | Infrastructure/tooling | 17 | 20 | 17 | 17 |
 | [huggingface/tokenizers](https://github.com/huggingface/tokenizers) | 10684 | 2026-04-27T15:48:00Z | Rust | Infrastructure/tooling | 13 | 17 | 13 | 13 |
 | [shadowsocks/shadowsocks-rust](https://github.com/shadowsocks/shadowsocks-rust) | 10580 | 2026-05-01T17:11:37Z | Rust | Infrastructure/tooling | 14 | 12 | 14 | 14 |
-| [Automattic/harper](https://github.com/Automattic/harper) | 10405 | 2026-04-27T01:19:13Z | Rust | Infrastructure/tooling | 15 | 17 | 15 | 15 |

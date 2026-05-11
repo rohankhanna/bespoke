@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 948,
-    "concepts": 525,
-    "observations": 528,
-    "repos": 80,
-    "terms": 521
+    "components": 1017,
+    "concepts": 541,
+    "observations": 544,
+    "repos": 82,
+    "terms": 537
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -28,6 +28,7 @@
     "bytedance/UI-TARS",
     "camenduru/stable-diffusion-webui-colab",
     "caolan/async",
+    "carbon-app/carbon",
     "chalk/chalk",
     "ChatGPTNextWeb/NextChat",
     "CISOfy/lynis",
@@ -51,6 +52,7 @@
     "IdreesInc/Monocraft",
     "inversify/InversifyJS",
     "JaidedAI/EasyOCR",
+    "jaredpalmer/tsdx",
     "jsvine/pdfplumber",
     "jtoy/awesome-tensorflow",
     "karpathy/llm-council",

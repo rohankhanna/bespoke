@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 192,
-    "concepts": 135,
-    "observations": 135,
-    "repos": 33,
-    "terms": 134
+    "components": 198,
+    "concepts": 137,
+    "observations": 137,
+    "repos": 34,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "Ai00-X/ai00_server",
     "arkworks-rs/r1cs-std",
@@ -34,6 +34,7 @@
     "KyleMayes/clang-rs",
     "KyleMayes/clang-sys",
     "matsadler/magnus",
+    "mozilla/dump_syms",
     "MSxDOS/ntapi",
     "pdf-rs/pdf_render",
     "prisma/tiberius",

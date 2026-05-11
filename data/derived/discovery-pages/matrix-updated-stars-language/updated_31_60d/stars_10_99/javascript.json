@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 544,
+    "components": 540,
     "concepts": 144,
     "observations": 144,
-    "repos": 46,
+    "repos": 45,
     "terms": 144
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "acemir/CSSOM",
@@ -54,7 +54,6 @@
     "npm/json-parse-even-better-errors",
     "nrwl/nx-ai-agents-config",
     "Rob--W/proxy-from-env",
-    "ruby/setup-ruby-pkgs",
     "storybook-community/addon-queryparams",
     "sveltejs/eslint-config",
     "tc39/proposal-immutable-arraybuffer",

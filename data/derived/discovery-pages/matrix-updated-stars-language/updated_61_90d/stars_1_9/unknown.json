@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 47,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 18,
-    "terms": 32
+    "concepts": 33,
+    "observations": 33,
+    "repos": 19,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "10up/.github",
@@ -28,6 +28,7 @@
     "danielrosehill/Claude-Dork",
     "gakonst/foundry",
     "jsdom/.github",
+    "newton-physics/newton-governance",
     "orlp/color-backtrace",
     "piebald-ai/.github",
     "richgel999/junkdrawer",

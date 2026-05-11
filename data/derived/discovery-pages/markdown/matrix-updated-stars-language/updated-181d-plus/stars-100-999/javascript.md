@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -82,7 +82,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mayurankv/Obsidian-Code-Styler](https://github.com/mayurankv/Obsidian-Code-Styler) | 568 | 2025-02-16T21:29:51Z | JavaScript | Infrastructure/tooling | 5 | 39 | 5 | 5 |
 | [marella/material-design-icons](https://github.com/marella/material-design-icons) | 229 | 2025-02-12T02:30:40Z | JavaScript | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [turboderp-org/exui](https://github.com/turboderp-org/exui) | 511 | 2025-02-05T22:50:35Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
-| [micromatch/braces](https://github.com/micromatch/braces) | 246 | 2025-01-19T20:06:12Z | JavaScript | Infrastructure/tooling | 15 | 7 | 15 | 15 |
+| [micromatch/braces](https://github.com/micromatch/braces) | 247 | 2025-01-19T20:06:12Z | JavaScript | Infrastructure/tooling | 15 | 7 | 15 | 15 |
 | [amoshydra/draw](https://github.com/amoshydra/draw) | 309 | 2025-01-05T10:10:45Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
 | [Intellicode/eslint-plugin-react-native](https://github.com/Intellicode/eslint-plugin-react-native) | 762 | 2024-12-30T20:27:43Z | JavaScript | Infrastructure/tooling | 3 | 14 | 3 | 3 |
 | [songquanpeng/gin-template](https://github.com/songquanpeng/gin-template) | 396 | 2024-12-27T13:15:42Z | JavaScript | Infrastructure/tooling | 9 | 11 | 9 | 9 |
@@ -95,7 +95,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [smartscenes/sstk](https://github.com/smartscenes/sstk) | 128 | 2024-12-09T19:17:26Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [A11yance/aria-query](https://github.com/A11yance/aria-query) | 302 | 2024-12-06T16:37:20Z | JavaScript | Infrastructure/tooling | 3 | 25 | 3 | 3 |
 | [CSSLint/parser-lib](https://github.com/CSSLint/parser-lib) | 294 | 2024-12-05T14:12:21Z | JavaScript | Unknown | 5 | 9 | 5 | 5 |
-| [ttlns/brotector](https://github.com/ttlns/brotector) | 277 | 2024-12-03T14:33:39Z | JavaScript | Web app | 4 | 5 | 4 | 4 |
+| [ttlns/brotector](https://github.com/ttlns/brotector) | 278 | 2024-12-03T14:33:39Z | JavaScript | Web app | 4 | 5 | 4 | 4 |
 | [Level/level-js](https://github.com/Level/level-js) | 541 | 2024-12-02T01:10:07Z | JavaScript | Infrastructure/tooling | 7 | 19 | 7 | 7 |
 | [level/memdown](https://github.com/Level/memdown) | 287 | 2024-12-02T00:32:04Z | JavaScript | Infrastructure/tooling | 9 | 19 | 9 | 9 |
 | [Level/abstract-leveldown](https://github.com/Level/abstract-leveldown) | 146 | 2024-12-01T22:49:05Z | JavaScript | Infrastructure/tooling | 7 | 18 | 7 | 7 |
@@ -604,7 +604,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [axeldelafosse/expo-next-monorepo-example](https://github.com/axeldelafosse/expo-next-monorepo-example) | 286 | 2022-04-04T22:31:31Z | JavaScript | Unknown | 6 | 1 | 6 | 6 |
 | [ramasilveyra/gitpkg](https://github.com/ramasilveyra/gitpkg) | 285 | 2023-01-08T20:20:22Z | JavaScript | Library | 4 | 29 | 4 | 4 |
 | [jonschlinkert/is-number](https://github.com/jonschlinkert/is-number) | 282 | 2022-09-15T14:46:56Z | JavaScript | Unknown | 10 | 4 | 10 | 10 |
-| [ttlns/brotector](https://github.com/ttlns/brotector) | 277 | 2024-12-03T14:33:39Z | JavaScript | Web app | 4 | 5 | 4 | 4 |
+| [ttlns/brotector](https://github.com/ttlns/brotector) | 278 | 2024-12-03T14:33:39Z | JavaScript | Web app | 4 | 5 | 4 | 4 |
 | [novnc/websockify-js](https://github.com/novnc/websockify-js) | 274 | 2023-07-30T07:06:04Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [JunoLab/atom-julia-client](https://github.com/JunoLab/atom-julia-client) | 271 | 2023-05-28T13:04:16Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
 | [numirias/paxmod](https://github.com/numirias/paxmod) | 268 | 2023-05-05T08:07:04Z | JavaScript | Infrastructure/tooling | 9 | 1 | 9 | 9 |
@@ -621,7 +621,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fsbahman/apidoc-swagger](https://github.com/fsbahman/apidoc-swagger) | 252 | 2023-01-05T02:26:38Z | JavaScript | Service/API | 0 | 8 | 0 | 0 |
 | [i18next/i18next-xhr-backend](https://github.com/i18next/i18next-xhr-backend) | 250 | 2022-02-12T07:34:24Z | JavaScript | Unknown | 3 | 40 | 3 | 3 |
 | [vipermind/flake-idgen](https://github.com/vipermind/flake-idgen) | 249 | 2023-01-09T05:43:17Z | JavaScript | Infrastructure/tooling | 15 | 4 | 15 | 15 |
-| [micromatch/braces](https://github.com/micromatch/braces) | 246 | 2025-01-19T20:06:12Z | JavaScript | Infrastructure/tooling | 15 | 7 | 15 | 15 |
+| [micromatch/braces](https://github.com/micromatch/braces) | 247 | 2025-01-19T20:06:12Z | JavaScript | Infrastructure/tooling | 15 | 7 | 15 | 15 |
 | [sindresorhus/junk](https://github.com/sindresorhus/junk) | 246 | 2023-04-19T13:59:54Z | JavaScript | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [ipfs-examples/js-ipfs-examples](https://github.com/ipfs-examples/js-ipfs-examples) | 244 | 2023-03-06T12:43:52Z | JavaScript | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [mistic100/tinygradient](https://github.com/mistic100/tinygradient) | 242 | 2025-02-18T18:14:47Z | JavaScript | Infrastructure/tooling | 2 | 5 | 2 | 2 |

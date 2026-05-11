@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 799,
-    "concepts": 629,
-    "observations": 635,
-    "repos": 106,
-    "terms": 639
+    "components": 823,
+    "concepts": 665,
+    "observations": 671,
+    "repos": 110,
+    "terms": 675
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "2dust/AndroidLibXrayLite",
@@ -48,6 +48,7 @@
     "cloudfoundry/gosigar",
     "coder/code-marketplace",
     "coder/envbuilder",
+    "Consensys/gnark-crypto",
     "crytic/medusa",
     "darkweak/souin",
     "dependabot/cli",
@@ -74,6 +75,7 @@
     "helm/chart-releaser",
     "ipfs/boxo",
     "ipfs/rainbow",
+    "itzg/mc-monitor",
     "jaegertracing/jaeger-idl",
     "JupiterRider/ffi",
     "knative/community",
@@ -94,6 +96,7 @@
     "letsencrypt/pebble",
     "linxGnu/grocksdb",
     "maragudk/gomponents-starter-kit",
+    "mattn/go-isatty",
     "mattn/go-runewidth",
     "microsoft/cognitive-services-speech-sdk-go",
     "microsoft/dcp",
@@ -112,6 +115,7 @@
     "raystack/meteor",
     "secretflow/kuscia",
     "sethvargo/ratchet",
+    "sigstore/fulcio",
     "skenetechnologies/skene",
     "snowflakedb/gosnowflake",
     "spiffe/go-spiffe",

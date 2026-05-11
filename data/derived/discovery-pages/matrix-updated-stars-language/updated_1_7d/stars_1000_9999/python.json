@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 159,
-    "concepts": 175,
-    "observations": 177,
-    "repos": 20,
-    "terms": 175
+    "components": 125,
+    "concepts": 143,
+    "observations": 146,
+    "repos": 17,
+    "terms": 143
   },
   "facet_version": 1,
   "filters": {
@@ -12,27 +12,24 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
-    "AI-Hypercomputer/maxtext",
+    "aigc-apps/VideoX-Fun",
     "arcee-ai/mergekit",
     "aws/serverless-application-model",
     "bitsandbytes-foundation/bitsandbytes",
     "clearml/clearml",
     "funstory-ai/BabelDOC",
-    "geopandas/geopandas",
     "google-deepmind/dm-haiku",
     "google-deepmind/optax",
     "google-deepmind/sonnet",
     "lucidrains/vector-quantize-pytorch",
-    "mesonbuild/meson",
-    "meta-pytorch/data",
+    "meta-pytorch/captum",
     "mikel-brostrom/boxmot",
+    "ogx-ai/ogx",
     "PaddlePaddle/FastDeploy",
     "safetensors/safetensors",
-    "starVLA/starVLA",
     "strob/gentle",
-    "vyperlang/vyper",
-    "zarr-developers/zarr-python"
+    "vyperlang/vyper"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 168,
-    "concepts": 230,
-    "observations": 230,
+    "concepts": 237,
+    "observations": 237,
     "repos": 60,
-    "terms": 228
+    "terms": 235
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "angr/vex",
@@ -29,6 +29,7 @@
     "birkett/srvany-ng",
     "bnosac/audio.whisper",
     "CGCL-codes/YiTu",
+    "chfast/intx",
     "conor42/fast-lzma2",
     "deeptools/pyBigWig",
     "dthuerck/mapmap_cpu",
@@ -41,7 +42,6 @@
     "intel/isa-l_crypto",
     "intel/torch-ccl",
     "isciences/exactextractr",
-    "IST-DASLab/qutlass",
     "iwongu/sqlite3pp",
     "jimporter/mettle",
     "JokerJohn/LIO_SAM_6AXIS",

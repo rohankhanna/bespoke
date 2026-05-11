@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 4
-- terms: 41
-- components: 62
-- concepts: 41
-- observations: 41
+- terms: 30
+- components: 26
+- concepts: 30
+- observations: 30
 
 ## Static behavior
 
@@ -26,16 +26,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [swiftlang/swift](https://github.com/swiftlang/swift) | 69966 | 2026-05-10T03:41:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [upptime/upptime](https://github.com/upptime/upptime) | 17018 | 2026-05-10T02:51:16Z | Other | Infrastructure/tooling | 14 | 8 | 14 | 14 |
-| [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) | 32326 | 2026-05-10T02:41:43Z | Other | Infrastructure/tooling | 19 | 45 | 19 | 19 |
-| [triton-lang/triton](https://github.com/triton-lang/triton) | 19136 | 2026-05-10T00:09:10Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
+| [triton-lang/triton](https://github.com/triton-lang/triton) | 19142 | 2026-05-11T01:12:01Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
+| [swiftlang/swift](https://github.com/swiftlang/swift) | 69971 | 2026-05-11T00:15:11Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [upptime/upptime](https://github.com/upptime/upptime) | 17020 | 2026-05-10T23:40:36Z | Other | Infrastructure/tooling | 14 | 8 | 14 | 14 |
+| [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | 42664 | 2026-05-10T23:38:48Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [swiftlang/swift](https://github.com/swiftlang/swift) | 69966 | 2026-05-10T03:41:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) | 32326 | 2026-05-10T02:41:43Z | Other | Infrastructure/tooling | 19 | 45 | 19 | 19 |
-| [triton-lang/triton](https://github.com/triton-lang/triton) | 19136 | 2026-05-10T00:09:10Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
-| [upptime/upptime](https://github.com/upptime/upptime) | 17018 | 2026-05-10T02:51:16Z | Other | Infrastructure/tooling | 14 | 8 | 14 | 14 |
+| [swiftlang/swift](https://github.com/swiftlang/swift) | 69971 | 2026-05-11T00:15:11Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | 42664 | 2026-05-10T23:38:48Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
+| [triton-lang/triton](https://github.com/triton-lang/triton) | 19142 | 2026-05-11T01:12:01Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
+| [upptime/upptime](https://github.com/upptime/upptime) | 17020 | 2026-05-10T23:40:36Z | Other | Infrastructure/tooling | 14 | 8 | 14 | 14 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 678,
-    "concepts": 129,
-    "observations": 129,
+    "components": 685,
+    "concepts": 134,
+    "observations": 134,
     "repos": 36,
-    "terms": 129
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
@@ -20,9 +20,10 @@
     "apache/incubator-devlake-website",
     "automazeio/proof",
     "aws-samples/aws-sdk-js-notes-app",
+    "awslabs/wdio-aws-device-farm-service",
     "blrchen/chatgpt-minimal",
+    "buddingnewinsights/proxypal",
     "cahamilton/stylelint-config-property-sort-order-smacss",
-    "dannyhw/react-native-storybook-starter",
     "ElementsProject/cln-application",
     "gicentre/prettier-plugin-elm",
     "gnosischain/gbc-deposit-ui",
@@ -43,7 +44,6 @@
     "pkgxdev/pkgm",
     "privatenumber/is-fs-case-sensitive",
     "Shougo/ddu-filter-matcher_substring",
-    "Shougo/ddu-kind-file",
     "Shougo/ddu-ui-ff",
     "skilld-dev/retriv",
     "solidjs-community/storybook",

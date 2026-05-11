@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-11T05:49:39.283420+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 89
-- terms: 489
-- components: 1979
-- concepts: 468
-- observations: 475
+- repos: 91
+- terms: 488
+- components: 1943
+- concepts: 467
+- observations: 474
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [csstools/cssdb](https://github.com/csstools/cssdb) | 543 | 2026-04-27T05:48:59Z | JavaScript | Infrastructure/tooling | 3 | 12 | 3 | 3 |
+| [rubyjs/mini_racer](https://github.com/rubyjs/mini_racer) | 620 | 2026-04-27T05:46:24Z | JavaScript | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [GDevelopApp/GDevelop-examples](https://github.com/GDevelopApp/GDevelop-examples) | 127 | 2026-04-26T23:18:07Z | JavaScript | Infrastructure/tooling | 7 | 17 | 7 | 7 |
+| [matzkoh/prettier-plugin-packagejson](https://github.com/matzkoh/prettier-plugin-packagejson) | 386 | 2026-04-26T21:57:16Z | JavaScript | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [GordonChen19/Prompt-Relay](https://github.com/GordonChen19/Prompt-Relay) | 127 | 2026-04-26T05:45:54Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [rooklift/ogatak](https://github.com/rooklift/ogatak) | 134 | 2026-04-25T11:30:29Z | JavaScript | Unknown | 3 | 0 | 3 | 3 |
 | [chrisgoringe/cg-image-filter](https://github.com/chrisgoringe/cg-image-filter) | 121 | 2026-04-25T04:05:25Z | JavaScript | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -113,8 +117,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sindresorhus/globals](https://github.com/sindresorhus/globals) | 579 | 2026-04-12T05:40:14Z | JavaScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [fwcd/tree-sitter-kotlin](https://github.com/fwcd/tree-sitter-kotlin) | 176 | 2026-04-11T20:40:54Z | JavaScript | Infrastructure/tooling | 9 | 13 | 9 | 9 |
 | [ehmicky/nve](https://github.com/ehmicky/nve) | 711 | 2026-04-11T15:03:10Z | JavaScript | CLI | 14 | 22 | 16 | 16 |
-| [will62794/spectacle](https://github.com/will62794/spectacle) | 201 | 2026-04-11T01:20:37Z | JavaScript | Infrastructure/tooling | 7 | 60 | 7 | 7 |
-| [testing-library/testing-library-docs](https://github.com/testing-library/testing-library-docs) | 476 | 2026-04-10T17:23:02Z | JavaScript | Library | 8 | 12 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -148,10 +150,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gatsbyjs/gatsby-starter-hello-world](https://github.com/gatsbyjs/gatsby-starter-hello-world) | 645 | 2026-04-14T15:04:56Z | JavaScript | Template/starter | 0 | 3 | 0 | 0 |
 | [carbon-design-system/carbon-components-vue](https://github.com/carbon-design-system/carbon-components-vue) | 643 | 2026-04-24T23:30:18Z | JavaScript | Infrastructure/tooling | 10 | 58 | 10 | 10 |
 | [chaijs/chai-http](https://github.com/chaijs/chai-http) | 639 | 2026-04-20T08:54:45Z | JavaScript | Infrastructure/tooling | 2 | 22 | 2 | 2 |
+| [rubyjs/mini_racer](https://github.com/rubyjs/mini_racer) | 620 | 2026-04-27T05:46:24Z | JavaScript | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [plone/volto](https://github.com/plone/volto) | 612 | 2026-04-23T18:58:38Z | JavaScript | Infrastructure/tooling | 8 | 13 | 8 | 8 |
 | [sindresorhus/globals](https://github.com/sindresorhus/globals) | 579 | 2026-04-12T05:40:14Z | JavaScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [graphql/graphql-wg](https://github.com/graphql/graphql-wg) | 574 | 2026-04-16T12:19:03Z | JavaScript | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [aws/aws-cdk-rfcs](https://github.com/aws/aws-cdk-rfcs) | 567 | 2026-04-24T12:43:49Z | JavaScript | Infrastructure/tooling | 6 | 4 | 6 | 6 |
+| [csstools/cssdb](https://github.com/csstools/cssdb) | 543 | 2026-04-27T05:48:59Z | JavaScript | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [adamlui/ai-web-extensions](https://github.com/adamlui/ai-web-extensions) | 539 | 2026-04-22T17:37:42Z | JavaScript | Infrastructure/tooling | 16 | 15 | 16 | 16 |
 | [karma-runner/karma-jasmine](https://github.com/karma-runner/karma-jasmine) | 539 | 2026-04-14T21:15:31Z | JavaScript | Infrastructure/tooling | 3 | 22 | 3 | 3 |
 | [mapbox/tilelive](https://github.com/mapbox/tilelive) | 537 | 2026-04-13T23:01:36Z | JavaScript | Unknown | 0 | 12 | 0 | 0 |
@@ -160,7 +164,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sethgammon/citadel](https://github.com/SethGammon/Citadel) | 509 | 2026-04-15T15:14:30Z | JavaScript | Web app | 0 | 0 | 0 | 0 |
 | [jest-community/jest-junit](https://github.com/jest-community/jest-junit) | 499 | 2026-04-24T13:42:41Z | JavaScript | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [ImranR98/apps.obtainium.imranr.dev](https://github.com/ImranR98/apps.obtainium.imranr.dev) | 496 | 2026-04-23T04:20:01Z | JavaScript | Infrastructure/tooling | 16 | 2 | 16 | 16 |
-| [testing-library/testing-library-docs](https://github.com/testing-library/testing-library-docs) | 476 | 2026-04-10T17:23:02Z | JavaScript | Library | 8 | 12 | 8 | 8 |
 | [poolifier/poolifier](https://github.com/poolifier/poolifier) | 450 | 2026-04-23T01:39:48Z | JavaScript | Infrastructure/tooling | 14 | 42 | 14 | 14 |
 | [semantic-release/commit-analyzer](https://github.com/semantic-release/commit-analyzer) | 437 | 2026-04-20T09:20:32Z | JavaScript | Infrastructure/tooling | 9 | 25 | 9 | 10 |
 | [octokit/request-action](https://github.com/octokit/request-action) | 434 | 2026-04-15T01:43:12Z | JavaScript | Infrastructure/tooling | 8 | 17 | 8 | 8 |
@@ -170,6 +173,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ClickHouse/agent-skills](https://github.com/ClickHouse/agent-skills) | 404 | 2026-04-20T08:22:24Z | JavaScript | CLI | 4 | 7 | 4 | 4 |
 | [mapbox/vector-tile-js](https://github.com/mapbox/vector-tile-js) | 392 | 2026-04-13T23:20:56Z | JavaScript | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [neostandard/neostandard](https://github.com/neostandard/neostandard) | 389 | 2026-04-22T07:09:02Z | JavaScript | Infrastructure/tooling | 8 | 28 | 8 | 8 |
+| [matzkoh/prettier-plugin-packagejson](https://github.com/matzkoh/prettier-plugin-packagejson) | 386 | 2026-04-26T21:57:16Z | JavaScript | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [mattgodbolt/jsbeeb](https://github.com/mattgodbolt/jsbeeb) | 383 | 2026-04-15T02:11:29Z | JavaScript | Infrastructure/tooling | 6 | 26 | 0 | 0 |
 | [fastify/fastify-autoload](https://github.com/fastify/fastify-autoload) | 372 | 2026-04-19T21:24:08Z | JavaScript | Infrastructure/tooling | 3 | 28 | 3 | 3 |
 | [higlass/higlass](https://github.com/higlass/higlass) | 340 | 2026-04-21T03:35:34Z | JavaScript | Infrastructure/tooling | 7 | 89 | 7 | 7 |
@@ -186,7 +190,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AdguardTeam/HostlistCompiler](https://github.com/AdguardTeam/HostlistCompiler) | 223 | 2026-04-16T16:42:00Z | JavaScript | Unknown | 3 | 17 | 3 | 3 |
 | [gruntjs/grunt-contrib-qunit](https://github.com/gruntjs/grunt-contrib-qunit) | 215 | 2026-04-16T06:44:34Z | JavaScript | Infrastructure/tooling | 2 | 12 | 2 | 2 |
 | [devsnek/esvu](https://github.com/devsnek/esvu) | 201 | 2026-04-13T08:21:07Z | JavaScript | Infrastructure/tooling | 3 | 19 | 3 | 3 |
-| [will62794/spectacle](https://github.com/will62794/spectacle) | 201 | 2026-04-11T01:20:37Z | JavaScript | Infrastructure/tooling | 7 | 60 | 7 | 7 |
 | [nodejs/admin](https://github.com/nodejs/admin) | 188 | 2026-04-20T01:30:16Z | JavaScript | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [cncf/sandbox](https://github.com/cncf/sandbox) | 182 | 2026-04-17T12:25:51Z | JavaScript | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [electron/node-abi](https://github.com/electron/node-abi) | 182 | 2026-04-15T09:35:27Z | JavaScript | Infrastructure/tooling | 4 | 14 | 4 | 4 |
@@ -201,6 +204,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Taritsyn/BundleTransformer](https://github.com/Taritsyn/BundleTransformer) | 139 | 2026-04-21T09:26:36Z | JavaScript | Framework | 0 | 0 | 0 | 0 |
 | [rooklift/ogatak](https://github.com/rooklift/ogatak) | 134 | 2026-04-25T11:30:29Z | JavaScript | Unknown | 3 | 0 | 3 | 3 |
 | [dperini/nwsapi](https://github.com/dperini/nwsapi) | 134 | 2026-04-19T15:28:09Z | JavaScript | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [GDevelopApp/GDevelop-examples](https://github.com/GDevelopApp/GDevelop-examples) | 127 | 2026-04-26T23:18:07Z | JavaScript | Infrastructure/tooling | 7 | 17 | 7 | 7 |
 | [GordonChen19/Prompt-Relay](https://github.com/GordonChen19/Prompt-Relay) | 127 | 2026-04-26T05:45:54Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [lis186/ccxray](https://github.com/lis186/ccxray) | 123 | 2026-04-17T11:12:54Z | JavaScript | Infrastructure/tooling | 0 | 7 | 0 | 0 |
 | [eladnava/pikud-haoref-api](https://github.com/eladnava/pikud-haoref-api) | 123 | 2026-04-15T23:26:21Z | JavaScript | Library | 0 | 4 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 497,
-    "concepts": 386,
-    "observations": 388,
-    "repos": 99,
-    "terms": 383
+    "components": 505,
+    "concepts": 392,
+    "observations": 394,
+    "repos": 102,
+    "terms": 392
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "4d49/scene-library",
     "AccountGo/accountgo",
@@ -49,9 +49,10 @@
     "Dao-AILab/causal-conv1d",
     "DarthAffe/StableDiffusion.NET",
     "dkubb/memoizable",
-    "DL3DV-10K/Dataset",
     "domluna/JuliaFormatter.jl",
+    "dwyl/labels",
     "dwyl/phoenix-liveview-chat-example",
+    "elixir-ecto/myxql",
     "elm-explorations/test",
     "ElsaTam/obsidian-fancy-a-story",
     "emacs-lsp/lsp-dart",
@@ -79,6 +80,8 @@
     "JuliaPlots/GraphRecipes.jl",
     "kowainik/summoner",
     "lambdalisue/vim-nerdfont",
+    "lifepillar/vim-colortemplate",
+    "lifepillar/vim-mucomplete",
     "mathjax/MathJax-demos-web",
     "mcabbott/AxisKeys.jl",
     "microsoft/microsoft-performance-toolkit-sdk",
@@ -86,9 +89,9 @@
     "nim-lang/vscode-nim",
     "NimblePros/eShopOnWeb",
     "ocurrent/ocaml-ci",
+    "olimorris/neotest-rspec",
     "onomojo/i18n-country-translations",
     "PacificBiosciences/pbmm2",
-    "PMunch/nimlsp",
     "prettier/prettier-emacs",
     "pug-php/pug",
     "radian-software/ctrlf",

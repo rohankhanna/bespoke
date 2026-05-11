@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 190,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 14,
-    "terms": 34
+    "components": 230,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 17,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "alibaizhanov/openclaw-mengram",
     "aquasecurity/tfsec-azure-pipelines-task",
+    "asafr93-rosa/shopping-list-il",
     "Bartheleway/inquirer-table-multiple",
+    "danielrosehill/agent-junction",
     "danielrosehill/GreenInvoice-MCP",
     "dash0hq/opentelemetry-demo",
     "dylibso/xtp-cpp-bindgen",
@@ -27,6 +29,7 @@
     "maxritter/pilot-shell-demo",
     "octokit/openapi-webhooks",
     "robustmq/robustmq-copilot",
-    "storybookjs/addon-jest"
+    "storybookjs/addon-jest",
+    "Venly/web3-react-venly"
   ]
 }

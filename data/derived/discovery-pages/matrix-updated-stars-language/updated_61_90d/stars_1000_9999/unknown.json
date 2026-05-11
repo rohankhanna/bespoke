@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 10,
-    "terms": 32
+    "components": 7,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 9,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "akuity/awesome-argo",
     "docker/for-mac",
@@ -22,7 +22,6 @@
     "orogene/orogene",
     "r-lyeh/single_file_libs",
     "TheRobotStudio/SO-ARM100",
-    "tmux-plugins/list",
-    "uBlockOrigin/uBlock-issues"
+    "tmux-plugins/list"
   ]
 }

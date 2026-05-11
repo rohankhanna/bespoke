@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 105,
-    "concepts": 120,
-    "observations": 120,
-    "repos": 18,
-    "terms": 120
+    "components": 119,
+    "concepts": 148,
+    "observations": 148,
+    "repos": 19,
+    "terms": 141
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-11T05:49:39.283420+00:00",
   "repo_ids": [
     "bellard/quickjs",
     "bol-van/zapret",
@@ -29,6 +29,7 @@
     "lz4/lz4",
     "microsoft/AirSim",
     "mobile-shell/mosh",
+    "nlohmann/json",
     "NVIDIA/open-gpu-kernel-modules",
     "taichi-dev/taichi",
     "zeromq/libzmq"
