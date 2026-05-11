@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-11T17:51:28.145663+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1312
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Cowork skill for checking real-time stock availability at Super-Pharm branches in Israel \ud83c\uddee\ud83c\uddf1",
+    "fork": false,
+    "full_name": "BarMalka/super-pharm-stock-checker",
+    "html_url": "https://github.com/BarMalka/super-pharm-stock-checker",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-05T05:40:41Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-07T17:52:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

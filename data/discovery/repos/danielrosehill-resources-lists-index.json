@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Resources-Lists-Index",
+      "target": "danielrosehill/ai-data-utilities",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Resources-Lists-Index",
+      "target": "danielrosehill/ai-harnesses",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Resources-Lists-Index",
+      "target": "danielrosehill/ai-memory-layers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Resources-Lists-Index",
+      "target": "danielrosehill/audio-multimodal-ai-resources",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Resources-Lists-Index",
+      "target": "index-repo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Resources-Lists-Index",
+      "target": "indexes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T13:33:01.316143+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11698
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Index of my resource lists and ecosystem maps, especially for AI niches",
+    "fork": false,
+    "full_name": "danielrosehill/Resources-Lists-Index",
+    "html_url": "https://github.com/danielrosehill/Resources-Lists-Index",
+    "language": null,
+    "pushed_at": "2026-04-27T08:40:03Z",
+    "stargazers_count": 1,
+    "topics": [
+      "index-repo",
+      "indexes"
+    ],
+    "updated_at": "2026-04-27T08:40:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-data-utilities",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-harnesses",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-memory-layers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/audio-multimodal-ai-resources",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "index-repo"
+    },
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "indexes"
+    }
+  ]
+}

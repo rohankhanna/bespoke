@@ -148,6 +148,16 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codex-integration-audit.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codex-integration-audit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cost-tracker-smoke.yml"
     },
     {
@@ -539,16 +549,6 @@
       "component": "actions/setup-node@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/validate-marketplace.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/validate-marketplace.yml"
     }
   ],
   "edges": [
@@ -698,6 +698,27 @@
       "source_repo": "ruvnet/ruflo",
       "target": "actions/download-artifact@v4",
       "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codex-integration-audit.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codex-integration-audit.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codex-integration-audit.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "codex-integration-audit",
+      "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
@@ -903,27 +924,6 @@
       "target_type": "component"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/validate-marketplace.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/validate-marketplace.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/setup-node@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/validate-marketplace.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "Validate Marketplace",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "ruvnet/ruflo",
@@ -1043,7 +1043,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T07:44:14.474312+00:00",
+  "fetched_at": "2026-05-11T17:33:36.984700+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1056,6 +1056,10 @@
     {
       "path": ".github/workflows/ci.yml",
       "size": 10397
+    },
+    {
+      "path": ".github/workflows/codex-integration-audit.yml",
+      "size": 1398
     },
     {
       "path": ".github/workflows/cost-tracker-smoke.yml",
@@ -1079,11 +1083,7 @@
     },
     {
       "path": ".github/workflows/v3-ci.yml",
-      "size": 23492
-    },
-    {
-      "path": ".github/workflows/validate-marketplace.yml",
-      "size": 2179
+      "size": 24355
     }
   ],
   "related_repositories": [],
@@ -1095,8 +1095,8 @@
     "full_name": "ruvnet/ruflo",
     "html_url": "https://github.com/ruvnet/ruflo",
     "language": "TypeScript",
-    "pushed_at": "2026-05-11T04:31:59Z",
-    "stargazers_count": 48659,
+    "pushed_at": "2026-05-11T15:55:21Z",
+    "stargazers_count": 48962,
     "topics": [
       "agentic-ai",
       "agentic-framework",
@@ -1119,7 +1119,7 @@
       "swarm",
       "swarm-intelligence"
     ],
-    "updated_at": "2026-05-11T07:43:27Z"
+    "updated_at": "2026-05-11T17:29:12Z"
   },
   "repo_links": [
     {
@@ -1134,6 +1134,12 @@
     }
   ],
   "terms": [
+    {
+      "context_snippet": "codex-integration-audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codex-integration-audit.yml",
+      "term": "codex-integration-audit"
+    },
     {
       "context_snippet": "cost-tracker-smoke",
       "edge_type": "workflow-name",
@@ -1163,12 +1169,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/status-badges.yml",
       "term": "\ud83d\udcca Status Badges Update"
-    },
-    {
-      "context_snippet": "Validate Marketplace",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/validate-marketplace.yml",
-      "term": "Validate Marketplace"
     },
     {
       "context_snippet": "<div align=\"center\">",

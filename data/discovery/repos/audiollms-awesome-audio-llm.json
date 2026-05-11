@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AudioLLMs/Awesome-Audio-LLM",
+      "target": "aslp-lab/osum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AudioLLMs/Awesome-Audio-LLM",
+      "target": "aigc-audio/audiogpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AudioLLMs/Awesome-Audio-LLM",
+      "target": "adiyoss-lab/salmon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AudioLLMs/Awesome-Audio-LLM",
+      "target": "amphionspace/sd-eval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AudioLLMs/Awesome-Audio-LLM",
+      "target": "audio-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AudioLLMs/Awesome-Audio-LLM",
+      "target": "audio-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AudioLLMs/Awesome-Audio-LLM",
+      "target": "audio-understanding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T17:51:18.246405+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 40073
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Audio Large Language Models",
+    "fork": false,
+    "full_name": "AudioLLMs/Awesome-Audio-LLM",
+    "html_url": "https://github.com/AudioLLMs/Awesome-Audio-LLM",
+    "language": "Python",
+    "pushed_at": "2025-07-05T03:09:20Z",
+    "stargazers_count": 916,
+    "topics": [
+      "audio-language",
+      "audio-processing",
+      "audio-understanding"
+    ],
+    "updated_at": "2026-05-10T17:23:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adiyoss-lab/salmon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aigc-audio/audiogpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amphionspace/sd-eval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aslp-lab/osum",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "We thank the following contributors for their valuable contributions!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-language"
+    },
+    {
+      "context_snippet": "We thank the following contributors for their valuable contributions!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-processing"
+    },
+    {
+      "context_snippet": "We thank the following contributors for their valuable contributions!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-understanding"
+    }
+  ]
+}

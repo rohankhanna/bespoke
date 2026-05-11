@@ -6,12 +6,12 @@
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "component": "github/codeql-action/init@e46ed2cbd01164d986452f91f178727624ae40d7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "component": "github/codeql-action/analyze@e46ed2cbd01164d986452f91f178727624ae40d7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
@@ -255,14 +255,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "eclipse-openvsx/openvsx",
-      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target": "github/codeql-action/init@e46ed2cbd01164d986452f91f178727624ae40d7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "eclipse-openvsx/openvsx",
-      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target": "github/codeql-action/analyze@e46ed2cbd01164d986452f91f178727624ae40d7",
       "target_type": "component"
     },
     {
@@ -553,7 +553,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T02:50:48.548415+00:00",
+  "fetched_at": "2026-05-11T15:42:43.382265+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -605,8 +605,8 @@
     "full_name": "eclipse-openvsx/openvsx",
     "html_url": "https://github.com/eclipse-openvsx/openvsx",
     "language": "Java",
-    "pushed_at": "2026-05-10T20:45:46Z",
-    "stargazers_count": 1928,
+    "pushed_at": "2026-05-11T14:10:36Z",
+    "stargazers_count": 1929,
     "topics": [
       "extension",
       "marketplace",
@@ -614,7 +614,7 @@
       "theia",
       "vscode"
     ],
-    "updated_at": "2026-05-10T17:20:44Z"
+    "updated_at": "2026-05-11T13:43:15Z"
   },
   "repo_links": [
     {

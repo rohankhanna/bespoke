@@ -271,6 +271,42 @@
       "source_repo": "gradio-app/fastrtc",
       "status": "candidate-context",
       "text": "<div style='text-align: center; margin-bottom: 1rem; display: flex; justify-content: center; align-items: center;'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Local-ASR-STT-Benchmark",
+      "status": "candidate-context",
+      "text": "Quick evaluation to find the best STT model in Speech Note (Ubuntu) for my HW"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Local-ASR-STT-Benchmark",
+      "status": "candidate-context",
+      "text": "# STT Benchmarking Dependencies # Core STT engines faster-whisper>=1.0.0 openai-whisper>=20231117 # Evaluation metrics jiwer>=3.0.0 # Audio processing soundfile>=0.12.0 librosa>=0.10.0 pydub>=0.25.0 # Data handling & analysis numpy>=1.24.0 pandas<2.0 # Keep <2.0 for TTS compatib\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/UltraEval-Audio",
+      "status": "candidate-context",
+      "text": "Your faithful, impartial partner for audio evaluation \u2014 know yourself, know your rivals. \u771f\u5b9e\u8bc4\u6d4b\uff0c\u77e5\u5df1\u77e5\u5f7c\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/UltraEval-Audio",
+      "status": "candidate-context",
+      "text": "![assets/logo.png](assets/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analyticsinmotion/werpy",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0d\ud83d\udce6 Ultra-fast Python package for calculating and analyzing the Word Error Rate (WER). Built for the scalable evaluation of speech and transcription accuracy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analyticsinmotion/werpy",
+      "status": "candidate-context",
+      "text": "![werpy-logo-word-error-rate](https://user-images.githubusercontent.com/52817125/235063664-2f21629c-0fad-46b6-a487-c2b5ef6f80e9.png)"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +441,24 @@
       "source_repo": "gradio-app/fastrtc",
       "status": "candidate",
       "text": "<div style='text-align: center; margin-bottom: 1rem; display: flex; justify-content: center; align-items: center;'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Local-ASR-STT-Benchmark",
+      "status": "candidate",
+      "text": "# STT Benchmarking Dependencies # Core STT engines faster-whisper>=1.0.0 openai-whisper>=20231117 # Evaluation metrics jiwer>=3.0.0 # Audio processing soundfile>=0.12.0 librosa>=0.10.0 pydub>=0.25.0 # Data handling & analysis numpy>=1.24.0 pandas<2.0 # Keep <2.0 for TTS compatib\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/UltraEval-Audio",
+      "status": "candidate",
+      "text": "![assets/logo.png](assets/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analyticsinmotion/werpy",
+      "status": "candidate",
+      "text": "![werpy-logo-word-error-rate](https://user-images.githubusercontent.com/52817125/235063664-2f21629c-0fad-46b6-a487-c2b5ef6f80e9.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -1078,11 +1132,47 @@
       "observed_at": "2026-05-11T07:24:13.902749+00:00",
       "source_file": null,
       "source_repo": "modelscope/FunCodec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunCodec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Local-ASR-STT-Benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/UltraEval-Audio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "analyticsinmotion/werpy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

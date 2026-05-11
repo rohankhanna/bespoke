@@ -1,0 +1,12 @@
+{
+  "component": "fsfe/reuse-action@bb774aa972c2a89ff34781233d275075cbddf542",
+  "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "analyticsinmotion/werpy"
+    }
+  ]
+}

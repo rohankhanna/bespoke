@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "KosherJava Zmanim API / Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "KosherJava Zmanim API"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "KosherJava Zmanim API"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047650,
+      "status": "candidate",
+      "text": "gloaming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046580,
+      "status": "candidate",
+      "text": "evenfall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044063,
+      "status": "candidate",
+      "text": "nightfall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035111,
+      "status": "candidate",
+      "text": "twilight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39941964,
+      "status": "candidate",
+      "text": "fall"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dusk",
+      "sense_id": "dusk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43043,
+      "status": "candidate",
+      "text": "twilight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39031,
+      "status": "candidate",
+      "text": "gloaming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21065,
+      "status": "candidate",
+      "text": "fall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19032,
+      "status": "candidate",
+      "text": "nightfall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15021,
+      "status": "candidate",
+      "text": "evenfall"
+    }
+  ],
+  "concept_id": "dusk",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dusk",
+  "observation_id": "cf8e2c33cfec0e1f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_text": "dusk",
+  "source_context_snippet": "KosherJava Zmanim API",
+  "source_file": null,
+  "source_repo": "KosherJava/zmanim",
+  "source_repo_description": "KosherJava Zmanim API / Library"
+}

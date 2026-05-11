@@ -944,6 +944,18 @@
       "source_repo": "emilk/egui_plot",
       "status": "candidate-context",
       "text": "Github Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rr/rr",
+      "status": "candidate-context",
+      "text": "RR is a test double framework that features a rich selection of double techniques and a terse syntax. \u26fa"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rr/rr",
+      "status": "candidate-context",
+      "text": "GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -1414,6 +1426,12 @@
       "source_repo": "emilk/egui_plot",
       "status": "candidate",
       "text": "Github Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rr/rr",
+      "status": "candidate",
+      "text": "GitHub Pages"
     }
   ],
   "candidate_related_terms": [
@@ -2627,11 +2645,41 @@
       "observed_at": "2026-05-11T07:24:13.902749+00:00",
       "source_file": null,
       "source_repo": "charliie-dev/Logseq-Hugo-Template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "rr/rr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "charliie-dev/Logseq-Hugo-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "charliie-dev/Logseq-Hugo-Template"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

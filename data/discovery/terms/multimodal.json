@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -336,6 +336,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "aymenfurter/smartrag"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Audio-Understanding-Bitrate-Eval-0426"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval"
     }
   ],
   "term": "multimodal"

@@ -1,0 +1,172 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "nebularg/actions-luacheck@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shatur/neovim-cmake",
+      "target": "shatur/neovim-tasks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Shatur/neovim-cmake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Shatur/neovim-cmake",
+      "target": "nebularg/actions-luacheck@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Shatur/neovim-cmake",
+      "target": "JohnnyMorganz/stylua-action@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Shatur/neovim-cmake",
+      "target": "Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shatur/neovim-cmake",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shatur/neovim-cmake",
+      "target": "debug",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shatur/neovim-cmake",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shatur/neovim-cmake",
+      "target": "quickfix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shatur/neovim-cmake",
+      "target": "telescope",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T15:33:54.139548+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11618
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 696
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "CMake integration for Neovim",
+    "fork": false,
+    "full_name": "Shatur/neovim-cmake",
+    "html_url": "https://github.com/Shatur/neovim-cmake",
+    "language": "Lua",
+    "pushed_at": "2022-09-10T14:58:46Z",
+    "stargazers_count": 89,
+    "topics": [
+      "cmake",
+      "debug",
+      "neovim",
+      "quickfix",
+      "telescope"
+    ],
+    "updated_at": "2025-12-11T21:24:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shatur/neovim-tasks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Main"
+    },
+    {
+      "context_snippet": "**This plugin has been deprecated in favor of [neovim-tasks](https://github.com/Shatur/neovim-tasks)**. I realized that having separate plugins for each build system is inconvenient, so I decided to write a general purpose plugin that could support support any build system. If y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "**This plugin has been deprecated in favor of [neovim-tasks](https://github.com/Shatur/neovim-tasks)**. I realized that having separate plugins for each build system is inconvenient, so I decided to write a general purpose plugin that could support support any build system. If y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debug"
+    },
+    {
+      "context_snippet": "**This plugin has been deprecated in favor of [neovim-tasks](https://github.com/Shatur/neovim-tasks)**. I realized that having separate plugins for each build system is inconvenient, so I decided to write a general purpose plugin that could support support any build system. If y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "**This plugin has been deprecated in favor of [neovim-tasks](https://github.com/Shatur/neovim-tasks)**. I realized that having separate plugins for each build system is inconvenient, so I decided to write a general purpose plugin that could support support any build system. If y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quickfix"
+    },
+    {
+      "context_snippet": "**This plugin has been deprecated in favor of [neovim-tasks](https://github.com/Shatur/neovim-tasks)**. I realized that having separate plugins for each build system is inconvenient, so I decided to write a general purpose plugin that could support support any build system. If y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telescope"
+    }
+  ]
+}

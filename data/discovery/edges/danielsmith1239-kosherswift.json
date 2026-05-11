@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DanielSmith1239/KosherSwift",
+      "target": "yakir8/kosher_dart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DanielSmith1239/KosherSwift",
+      "target": "mosheberman/koshercocoa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DanielSmith1239/KosherSwift",
+      "target": "elyahu41/kosherswift",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-11T13:15:38.721392+00:00",
+  "source_repo": "DanielSmith1239/KosherSwift"
+}

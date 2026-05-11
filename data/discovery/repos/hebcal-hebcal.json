@@ -1,0 +1,174 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hebcal/hebcal",
+      "target": "derickr/timelib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "hebcal/hebcal",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "hebcal/hebcal",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hebcal/hebcal",
+      "target": "calendar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hebcal/hebcal",
+      "target": "hebcal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hebcal/hebcal",
+      "target": "hebrew-calendar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hebcal/hebcal",
+      "target": "hebrew-date",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hebcal/hebcal",
+      "target": "jewish-calendar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hebcal/hebcal",
+      "target": "jewish-holidays",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hebcal/hebcal",
+      "target": "judaism",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T13:32:52.805364+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15136
+    },
+    {
+      "path": "go.mod",
+      "size": 191
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 505
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A perpetual Jewish Calendar",
+    "fork": false,
+    "full_name": "hebcal/hebcal",
+    "html_url": "https://github.com/hebcal/hebcal",
+    "language": "Go",
+    "pushed_at": "2026-03-02T23:47:05Z",
+    "stargazers_count": 178,
+    "topics": [
+      "calendar",
+      "hebcal",
+      "hebrew-calendar",
+      "hebrew-date",
+      "jewish-calendar",
+      "jewish-holidays",
+      "judaism"
+    ],
+    "updated_at": "2026-04-21T11:11:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "derickr/timelib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "hebcal [![Build Status](https://github.com/hebcal/hebcal/actions/workflows/go.yml/badge.svg)](https://github.com/hebcal/hebcal/actions/workflows/go.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "calendar"
+    },
+    {
+      "context_snippet": "hebcal [![Build Status](https://github.com/hebcal/hebcal/actions/workflows/go.yml/badge.svg)](https://github.com/hebcal/hebcal/actions/workflows/go.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hebcal"
+    },
+    {
+      "context_snippet": "hebcal [![Build Status](https://github.com/hebcal/hebcal/actions/workflows/go.yml/badge.svg)](https://github.com/hebcal/hebcal/actions/workflows/go.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hebrew-calendar"
+    },
+    {
+      "context_snippet": "hebcal [![Build Status](https://github.com/hebcal/hebcal/actions/workflows/go.yml/badge.svg)](https://github.com/hebcal/hebcal/actions/workflows/go.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hebrew-date"
+    },
+    {
+      "context_snippet": "hebcal [![Build Status](https://github.com/hebcal/hebcal/actions/workflows/go.yml/badge.svg)](https://github.com/hebcal/hebcal/actions/workflows/go.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jewish-calendar"
+    },
+    {
+      "context_snippet": "hebcal [![Build Status](https://github.com/hebcal/hebcal/actions/workflows/go.yml/badge.svg)](https://github.com/hebcal/hebcal/actions/workflows/go.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jewish-holidays"
+    },
+    {
+      "context_snippet": "hebcal [![Build Status](https://github.com/hebcal/hebcal/actions/workflows/go.yml/badge.svg)](https://github.com/hebcal/hebcal/actions/workflows/go.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "judaism"
+    }
+  ]
+}

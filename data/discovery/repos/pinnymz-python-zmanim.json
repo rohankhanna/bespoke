@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pinnymz/python-zmanim",
+      "target": "pinnymz/python-zmanim.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-11T15:41:41.468870+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3725
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python zmanim library",
+    "fork": false,
+    "full_name": "pinnymz/python-zmanim",
+    "html_url": "https://github.com/pinnymz/python-zmanim",
+    "language": "Python",
+    "pushed_at": "2023-11-10T16:23:01Z",
+    "stargazers_count": 42,
+    "topics": [],
+    "updated_at": "2026-04-12T07:00:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pinnymz/python-zmanim.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

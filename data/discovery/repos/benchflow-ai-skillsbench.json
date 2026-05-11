@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "benchflow-ai/skillsbench",
+      "target": "benchflow-ai/benchflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "benchflow-ai/skillsbench",
+      "target": "benchflow-ai/benchflow",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-11T17:51:28.923807+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2782
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1623
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SkillsBench evaluates how well skills work and how effective agents are at using them",
+    "fork": false,
+    "full_name": "benchflow-ai/skillsbench",
+    "html_url": "https://github.com/benchflow-ai/skillsbench",
+    "language": "PDDL",
+    "pushed_at": "2026-05-11T16:34:51Z",
+    "stargazers_count": 1157,
+    "topics": [],
+    "updated_at": "2026-05-11T15:40:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benchflow-ai/benchflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benchflow-ai/benchflow",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

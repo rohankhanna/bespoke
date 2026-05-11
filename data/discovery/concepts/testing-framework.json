@@ -55,6 +55,18 @@
       "source_repo": "karatelabs/karate",
       "status": "candidate-context",
       "text": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TypedDevs/bashunit",
+      "status": "candidate-context",
+      "text": "A simple yet powerfull testing library for bash scripts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TypedDevs/bashunit",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "karatelabs/karate",
       "status": "candidate",
       "text": "**The open-source tool that combines API testing, mocks, performance testing, and UI automation into a single, unified framework.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TypedDevs/bashunit",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +298,23 @@
       "observed_at": "2026-05-11T07:24:13.902749+00:00",
       "source_file": null,
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "TypedDevs/bashunit"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

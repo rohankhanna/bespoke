@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-11T17:50:59.628942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7009
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "harness-engineering discussion of shortcuts, automation, hacks and overall productivity with code agents like claude code, codex, and other harness.",
+    "fork": false,
+    "full_name": "alchemiststudiosDOTai/harness-engineering",
+    "html_url": "https://github.com/alchemiststudiosDOTai/harness-engineering",
+    "language": "Shell",
+    "pushed_at": "2026-03-17T17:43:23Z",
+    "stargazers_count": 92,
+    "topics": [],
+    "updated_at": "2026-05-09T22:27:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -390,7 +390,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T02:52:55.994203+00:00",
+  "fetched_at": "2026-05-11T15:44:30.615876+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -435,7 +435,7 @@
     "html_url": "https://github.com/apache/casbin-rs",
     "language": "Rust",
     "pushed_at": "2026-04-25T07:20:06Z",
-    "stargazers_count": 1100,
+    "stargazers_count": 1101,
     "topics": [
       "abac",
       "access-control",
@@ -448,7 +448,7 @@
       "rbac",
       "rust"
     ],
-    "updated_at": "2026-05-09T11:34:47Z"
+    "updated_at": "2026-05-11T12:14:47Z"
   },
   "repo_links": [
     {

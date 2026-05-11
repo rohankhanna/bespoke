@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DanielSmith1239/KosherSwift",
+      "target": "yakir8/kosher_dart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DanielSmith1239/KosherSwift",
+      "target": "mosheberman/koshercocoa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DanielSmith1239/KosherSwift",
+      "target": "elyahu41/kosherswift",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-11T17:50:49.054078+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1390
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Swift port of KosherJava",
+    "fork": false,
+    "full_name": "DanielSmith1239/KosherSwift",
+    "html_url": "https://github.com/DanielSmith1239/KosherSwift",
+    "language": "Swift",
+    "pushed_at": "2026-03-22T18:06:11Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-04-19T06:08:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elyahu41/kosherswift",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mosheberman/koshercocoa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yakir8/kosher_dart",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

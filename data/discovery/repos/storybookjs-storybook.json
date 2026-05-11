@@ -872,7 +872,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T02:10:56.437562+00:00",
+  "fetched_at": "2026-05-11T17:44:31.541912+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -884,7 +884,7 @@
     },
     {
       "path": ".github/workflows/agent-scan.yml",
-      "size": 1634
+      "size": 2084
     },
     {
       "path": ".github/workflows/code-simplifier.lock.yml",
@@ -924,8 +924,8 @@
     "full_name": "storybookjs/storybook",
     "html_url": "https://github.com/storybookjs/storybook",
     "language": "TypeScript",
-    "pushed_at": "2026-05-09T11:53:43Z",
-    "stargazers_count": 89880,
+    "pushed_at": "2026-05-11T17:43:16Z",
+    "stargazers_count": 89886,
     "topics": [
       "angular",
       "components",
@@ -948,7 +948,7 @@
       "webpack",
       "workshop"
     ],
-    "updated_at": "2026-05-10T23:55:28Z"
+    "updated_at": "2026-05-11T17:28:03Z"
   },
   "repo_links": [
     {

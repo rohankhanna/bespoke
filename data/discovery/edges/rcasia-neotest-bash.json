@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rcasia/neotest-bash",
+      "target": "rcarriga/neotest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rcasia/neotest-bash",
+      "target": "typeddevs/bashunit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "rcasia/neotest-bash",
+      "target": "tree-sitter/setup-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "rcasia/neotest-bash",
+      "target": "s4u/setup-maven-action@v1.9.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "rcasia/neotest-bash",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "rcasia/neotest-bash",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "rcasia/neotest-bash",
+      "target": "JohnnyMorganz/stylua-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "rcasia/neotest-bash",
+      "target": "Stylua Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rcasia/neotest-bash",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rcasia/neotest-bash",
+      "target": "neotest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rcasia/neotest-bash",
+      "target": "neovim",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-11T13:15:38.721392+00:00",
+  "source_repo": "rcasia/neotest-bash"
+}

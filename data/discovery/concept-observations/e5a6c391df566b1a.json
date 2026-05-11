@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Quick evaluation to find the best STT model in Speech Note (Ubuntu) for my HW"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "# STT Benchmarking Dependencies # Core STT engines faster-whisper>=1.0.0 openai-whisper>=20231117 # Evaluation metrics jiwer>=3.0.0 # Audio processing soundfile>=0.12.0 librosa>=0.10.0 pydub>=0.25.0 # Data handling & analysis numpy>=1.24.0 pandas<2.0 # Keep <2.0 for TTS compatib\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "# STT Benchmarking Dependencies # Core STT engines faster-whisper>=1.0.0 openai-whisper>=20231117 # Evaluation metrics jiwer>=3.0.0 # Audio processing soundfile>=0.12.0 librosa>=0.10.0 pydub>=0.25.0 # Data handling & analysis numpy>=1.24.0 pandas<2.0 # Keep <2.0 for TTS compatib\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962553,
+      "status": "candidate",
+      "text": "bench mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29958096,
+      "status": "candidate",
+      "text": "baseline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29955083,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29954145,
+      "status": "candidate",
+      "text": "footnote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29950964,
+      "status": "candidate",
+      "text": "referencing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "benchmarking",
+      "sense_id": "benchmarking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "benchmarking",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "benchmarking",
+  "observation_id": "e5a6c391df566b1a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_text": "benchmarking",
+  "source_context_snippet": "# STT Benchmarking Dependencies # Core STT engines faster-whisper>=1.0.0 openai-whisper>=20231117 # Evaluation metrics jiwer>=3.0.0 # Audio processing soundfile>=0.12.0 librosa>=0.10.0 pydub>=0.25.0 # Data handling & analysis numpy>=1.24.0 pandas<2.0 # Keep <2.0 for TTS compatib\u2026",
+  "source_file": null,
+  "source_repo": "danielrosehill/Local-ASR-STT-Benchmark",
+  "source_repo_description": "Quick evaluation to find the best STT model in Speech Note (Ubuntu) for my HW"
+}

@@ -359,7 +359,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T02:52:46.633495+00:00",
+  "fetched_at": "2026-05-11T15:44:20.962924+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -404,7 +404,7 @@
     "html_url": "https://github.com/apache/casbin",
     "language": "Go",
     "pushed_at": "2026-05-06T11:15:52Z",
-    "stargazers_count": 20096,
+    "stargazers_count": 20099,
     "topics": [
       "abac",
       "access-control",
@@ -425,7 +425,7 @@
       "saml",
       "sso"
     ],
-    "updated_at": "2026-05-10T17:26:19Z"
+    "updated_at": "2026-05-11T05:48:50Z"
   },
   "repo_links": [
     {

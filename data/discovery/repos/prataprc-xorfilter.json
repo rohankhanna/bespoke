@@ -163,7 +163,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T02:53:57.290019+00:00",
+  "fetched_at": "2026-05-11T15:45:01.858419+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -188,7 +188,7 @@
     "html_url": "https://github.com/prataprc/xorfilter",
     "language": "Rust",
     "pushed_at": "2023-06-06T09:21:16Z",
-    "stargazers_count": 146,
+    "stargazers_count": 145,
     "topics": [
       "bitmap-index",
       "bloom-filter",
@@ -198,7 +198,7 @@
       "rust-lang",
       "xor-filter"
     ],
-    "updated_at": "2026-02-19T05:04:03Z"
+    "updated_at": "2026-05-11T06:34:21Z"
   },
   "repo_links": [
     {

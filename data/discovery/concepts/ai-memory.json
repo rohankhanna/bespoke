@@ -31,6 +31,18 @@
       "source_repo": "alibaizhanov/mengram",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/AI-Memory-Layers",
+      "status": "candidate-context",
+      "text": "List of AI memory resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Memory-Layers",
+      "status": "candidate-context",
+      "text": "A curated collection of projects, tools, and resources related to AI memory layers \u2014 systems that give AI agents and LLMs persistent, contextual, or structured memory capabilities."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "alibaizhanov/mengram",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Memory-Layers",
+      "status": "candidate",
+      "text": "A curated collection of projects, tools, and resources related to AI memory layers \u2014 systems that give AI agents and LLMs persistent, contextual, or structured memory capabilities."
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +88,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "alibaizhanov/mengram"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Memory-Layers"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

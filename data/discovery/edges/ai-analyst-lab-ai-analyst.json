@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ai-analyst-lab/ai-analyst",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ai-analyst-lab/ai-analyst",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-11T13:15:38.721392+00:00",
+  "source_repo": "ai-analyst-lab/ai-analyst"
+}

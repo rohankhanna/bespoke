@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "bloopai/vibe-kanban",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "axon-core/axon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "agentseal/codeburn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "awslabs/aidlc-workflows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "agent-harness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "agent-orchestration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "agentic-coding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "coding-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "harness-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "multi-agent",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-11T13:15:38.721392+00:00",
+  "source_repo": "AutoJunjie/awesome-agent-harness"
+}

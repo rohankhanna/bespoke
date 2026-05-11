@@ -21,7 +21,7 @@
       "source_file": ".github/workflows/build-and-deploy-on-pypi.yml"
     },
     {
-      "component": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "component": "conda-incubator/setup-miniconda@8ee1f361103df19b6f8c8655fd3967a8ecb162d5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/install-from-conda.yml"
     },
@@ -46,7 +46,7 @@
       "source_file": ".github/workflows/pytest.yml"
     },
     {
-      "component": "conda-incubator/setup-miniconda@v3.3.0",
+      "component": "conda-incubator/setup-miniconda@v4.0.1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pytest.yml"
     },
@@ -96,7 +96,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/install-from-conda.yml",
       "source_repo": "NCAS-CMS/pyfive",
-      "target": "conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167",
+      "target": "conda-incubator/setup-miniconda@8ee1f361103df19b6f8c8655fd3967a8ecb162d5",
       "target_type": "component"
     },
     {
@@ -145,7 +145,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pytest.yml",
       "source_repo": "NCAS-CMS/pyfive",
-      "target": "conda-incubator/setup-miniconda@v3.3.0",
+      "target": "conda-incubator/setup-miniconda@v4.0.1",
       "target_type": "component"
     },
     {
@@ -163,7 +163,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T03:00:31.459895+00:00",
+  "fetched_at": "2026-05-11T16:28:15.391056+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -199,10 +199,10 @@
     "full_name": "NCAS-CMS/pyfive",
     "html_url": "https://github.com/NCAS-CMS/pyfive",
     "language": "Python",
-    "pushed_at": "2026-05-06T00:45:43Z",
+    "pushed_at": "2026-05-11T14:58:57Z",
     "stargazers_count": 101,
     "topics": [],
-    "updated_at": "2026-05-01T11:30:38Z"
+    "updated_at": "2026-05-11T15:12:13Z"
   },
   "repo_links": [
     {

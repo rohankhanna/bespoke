@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A partial SQL port of the KosherJava library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Things will break, and APIs might change. Be cautious using this in production."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Things will break, and APIs might change. Be cautious using this in production."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "zmanim",
+      "sense_id": "zmanim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "zmanim",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "zmanim",
+  "observation_id": "c34f60532821cb45",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_text": "zmanim",
+  "source_context_snippet": "Things will break, and APIs might change. Be cautious using this in production.",
+  "source_file": null,
+  "source_repo": "BehindTheMath/zmanim-sql",
+  "source_repo_description": "A partial SQL port of the KosherJava library"
+}

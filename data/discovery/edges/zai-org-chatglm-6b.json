@@ -25,10 +25,10 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/ChatGLM-6B",
-      "target": "thudm/chatglm-6b",
+      "target": "initialencounter/glm-bot",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-05-11T07:24:13.902749+00:00",
+  "generated_at": "2026-05-11T13:15:38.721392+00:00",
   "source_repo": "zai-org/ChatGLM-6B"
 }

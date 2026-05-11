@@ -43,6 +43,18 @@
       "source_repo": "Mobile-Artificial-Intelligence/maise",
       "status": "candidate-context",
       "text": "<div align=\"center\" id = \"top\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analyticsinmotion/werpy",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0d\ud83d\udce6 Ultra-fast Python package for calculating and analyzing the Word Error Rate (WER). Built for the scalable evaluation of speech and transcription accuracy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analyticsinmotion/werpy",
+      "status": "candidate-context",
+      "text": "![werpy-logo-word-error-rate](https://user-images.githubusercontent.com/52817125/235063664-2f21629c-0fad-46b6-a487-c2b5ef6f80e9.png)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "Mobile-Artificial-Intelligence/maise",
       "status": "candidate",
       "text": "<div align=\"center\" id = \"top\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analyticsinmotion/werpy",
+      "status": "candidate",
+      "text": "![werpy-logo-word-error-rate](https://user-images.githubusercontent.com/52817125/235063664-2f21629c-0fad-46b6-a487-c2b5ef6f80e9.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "Mobile-Artificial-Intelligence/maise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "analyticsinmotion/werpy"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

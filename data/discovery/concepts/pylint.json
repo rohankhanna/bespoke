@@ -299,6 +299,18 @@
       "source_repo": "Adlik/vllm",
       "status": "candidate-context",
       "text": "pylint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analyticsinmotion/werpy",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0d\ud83d\udce6 Ultra-fast Python package for calculating and analyzing the Word Error Rate (WER). Built for the scalable evaluation of speech and transcription accuracy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analyticsinmotion/werpy",
+      "status": "candidate-context",
+      "text": "Pylint"
     }
   ],
   "candidate_glosses": [
@@ -445,6 +457,12 @@
       "source_repo": "Adlik/vllm",
       "status": "candidate",
       "text": "pylint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analyticsinmotion/werpy",
+      "status": "candidate",
+      "text": "Pylint"
     }
   ],
   "candidate_related_terms": [
@@ -1364,11 +1382,41 @@
       "observed_at": "2026-05-11T07:24:13.902749+00:00",
       "source_file": ".github/workflows/pylint.yml",
       "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "InternScience/GraphGen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "analyticsinmotion/werpy"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

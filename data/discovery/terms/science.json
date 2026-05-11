@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -86,6 +86,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "glumpy/glumpy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "academic/awesome-datascience"
     }
   ],
   "term": "science"

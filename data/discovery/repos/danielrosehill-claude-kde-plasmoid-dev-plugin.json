@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-11T15:41:31.415459+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1577
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "danielrosehill/Claude-KDE-Plasmoid-Dev-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-KDE-Plasmoid-Dev-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-27T09:31:55Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-27T17:42:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml",
+      "source_repo": "google-research/mseb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml",
+      "source_repo": "google-research/mseb",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml",
+      "source_repo": "google-research/mseb",
+      "target": "etils-actions/pypi-auto-publish@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml",
+      "source_repo": "google-research/mseb",
+      "target": "Unittests & Auto-publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/results.yml",
+      "source_repo": "google-research/mseb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/results.yml",
+      "source_repo": "google-research/mseb",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/results.yml",
+      "source_repo": "google-research/mseb",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/results.yml",
+      "source_repo": "google-research/mseb",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/results.yml",
+      "source_repo": "google-research/mseb",
+      "target": "Deploy static content to Pages",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-11T13:15:38.721392+00:00",
+  "source_repo": "google-research/mseb"
+}

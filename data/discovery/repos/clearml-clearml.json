@@ -23,6 +23,13 @@
   ],
   "edges": [
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearml/clearml",
+      "target": "clearml/trains-pycharm-plugin",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "clearml/clearml",
@@ -156,7 +163,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T07:41:16.554769+00:00",
+  "fetched_at": "2026-05-11T17:31:42.433185+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -185,7 +192,7 @@
     "html_url": "https://github.com/clearml/clearml",
     "language": "Python",
     "pushed_at": "2026-05-08T11:58:20Z",
-    "stargazers_count": 6667,
+    "stargazers_count": 6669,
     "topics": [
       "ai",
       "clearml",
@@ -204,9 +211,15 @@
       "version",
       "version-control"
     ],
-    "updated_at": "2026-05-11T02:43:00Z"
+    "updated_at": "2026-05-11T10:02:32Z"
   },
-  "repo_links": [],
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clearml/trains-pycharm-plugin",
+      "source_file": "README.md"
+    }
+  ],
   "terms": [
     {
       "context_snippet": "\"CodeQL\"",

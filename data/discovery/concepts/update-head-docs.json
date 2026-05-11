@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Head Docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "la10736/rstest",
+      "status": "candidate-context",
+      "text": "Fixture-based test framework for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "la10736/rstest",
+      "status": "candidate-context",
+      "text": "Update Head Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "la10736/rstest",
+      "status": "candidate",
+      "text": "Update Head Docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25638,
+      "status": "candidate",
+      "text": "bulletin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25638,
+      "status": "candidate",
+      "text": "maintaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24664,
+      "status": "candidate",
+      "text": "clerk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24664,
+      "status": "candidate",
+      "text": "secretary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24643,
+      "status": "candidate",
+      "text": "album"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Head Docs",
+  "concept_id": "update-head-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/update_head_docs.yml",
+      "source_repo": "la10736/rstest"
+    }
+  ],
+  "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Head Docs",
+      "sense_id": "update-head-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

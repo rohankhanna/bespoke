@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-11T00:40:20.012502+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -36,6 +36,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "rspec/rspec-metagem"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "rspec/rspec-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "rspec/rspec-expectations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "rspec/rspec-mocks"
     }
   ],
   "term": "RSpec"

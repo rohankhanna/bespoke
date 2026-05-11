@@ -1,0 +1,410 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_worklow.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_worklow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KosherJava/zmanim",
+      "target": "5e7en/garmin-zmaniq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KosherJava/zmanim",
+      "target": "behindthemath/zmanim-sql",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KosherJava/zmanim",
+      "target": "danielsmith1239/kosherswift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KosherJava/zmanim",
+      "target": "behindthemath/kosherzmanim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "KosherJava/zmanim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "KosherJava/zmanim",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "KosherJava/zmanim",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "KosherJava/zmanim",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "KosherJava/zmanim",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_worklow.yml",
+      "source_repo": "KosherJava/zmanim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_worklow.yml",
+      "source_repo": "KosherJava/zmanim",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request_worklow.yml",
+      "source_repo": "KosherJava/zmanim",
+      "target": "Run unit tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KosherJava/zmanim",
+      "target": "calendars",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KosherJava/zmanim",
+      "target": "daf-yomi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KosherJava/zmanim",
+      "target": "dawn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KosherJava/zmanim",
+      "target": "dusk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KosherJava/zmanim",
+      "target": "hebrew-calendar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KosherJava/zmanim",
+      "target": "hebrew-date",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KosherJava/zmanim",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KosherJava/zmanim",
+      "target": "jewish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KosherJava/zmanim",
+      "target": "jewish-holidays",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KosherJava/zmanim",
+      "target": "judaism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KosherJava/zmanim",
+      "target": "parsha",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KosherJava/zmanim",
+      "target": "sunrise",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KosherJava/zmanim",
+      "target": "sunset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KosherJava/zmanim",
+      "target": "yahrzeit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KosherJava/zmanim",
+      "target": "zman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KosherJava/zmanim",
+      "target": "zmanim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T15:41:37.515573+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4174
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2352
+    },
+    {
+      "path": ".github/workflows/pull_request_worklow.yml",
+      "size": 349
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "KosherJava Zmanim API / Library",
+    "fork": false,
+    "full_name": "KosherJava/zmanim",
+    "html_url": "https://github.com/KosherJava/zmanim",
+    "language": "Java",
+    "pushed_at": "2026-05-10T05:29:05Z",
+    "stargazers_count": 130,
+    "topics": [
+      "calendars",
+      "daf-yomi",
+      "dawn",
+      "dusk",
+      "hebrew-calendar",
+      "hebrew-date",
+      "java",
+      "jewish",
+      "jewish-holidays",
+      "judaism",
+      "parsha",
+      "sunrise",
+      "sunset",
+      "yahrzeit",
+      "zman",
+      "zmanim"
+    ],
+    "updated_at": "2026-04-30T19:53:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5e7en/garmin-zmaniq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "behindthemath/kosherzmanim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "behindthemath/zmanim-sql",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielsmith1239/kosherswift",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Run unit tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request_worklow.yml",
+      "term": "Run unit tests"
+    },
+    {
+      "context_snippet": "KosherJava Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "calendars"
+    },
+    {
+      "context_snippet": "KosherJava Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "daf-yomi"
+    },
+    {
+      "context_snippet": "KosherJava Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dawn"
+    },
+    {
+      "context_snippet": "KosherJava Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dusk"
+    },
+    {
+      "context_snippet": "KosherJava Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hebrew-calendar"
+    },
+    {
+      "context_snippet": "KosherJava Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hebrew-date"
+    },
+    {
+      "context_snippet": "KosherJava Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "KosherJava Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jewish"
+    },
+    {
+      "context_snippet": "KosherJava Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jewish-holidays"
+    },
+    {
+      "context_snippet": "KosherJava Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "judaism"
+    },
+    {
+      "context_snippet": "KosherJava Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parsha"
+    },
+    {
+      "context_snippet": "KosherJava Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sunrise"
+    },
+    {
+      "context_snippet": "KosherJava Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sunset"
+    },
+    {
+      "context_snippet": "KosherJava Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yahrzeit"
+    },
+    {
+      "context_snippet": "KosherJava Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zman"
+    },
+    {
+      "context_snippet": "KosherJava Zmanim API",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zmanim"
+    }
+  ]
+}

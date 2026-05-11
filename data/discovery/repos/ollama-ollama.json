@@ -272,7 +272,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "ggozad/oterm",
+      "target": "hexastack/hexabot",
       "target_type": "repository"
     },
     {
@@ -549,7 +549,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T07:27:44.305361+00:00",
+  "fetched_at": "2026-05-11T16:43:38.083424+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -589,8 +589,8 @@
     "full_name": "ollama/ollama",
     "html_url": "https://github.com/ollama/ollama",
     "language": "Go",
-    "pushed_at": "2026-05-11T07:05:52Z",
-    "stargazers_count": 171168,
+    "pushed_at": "2026-05-11T16:37:47Z",
+    "stargazers_count": 171194,
     "topics": [
       "deepseek",
       "gemma",
@@ -608,7 +608,7 @@
       "ollama",
       "qwen"
     ],
-    "updated_at": "2026-05-11T06:50:37Z"
+    "updated_at": "2026-05-11T16:03:41Z"
   },
   "repo_links": [
     {
@@ -628,7 +628,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ggozad/oterm",
+      "full_name": "hexastack/hexabot",
       "source_file": "README.md"
     }
   ],

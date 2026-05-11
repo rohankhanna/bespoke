@@ -391,6 +391,18 @@
       "source_repo": "helix-toolkit/helix-toolkit",
       "status": "candidate-context",
       "text": "[![HelixToolkit](https://img.shields.io/badge/-Helix%20Toolkit-blue)](https://github.com/helix-toolkit/helix-toolkit)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "academic/awesome-datascience",
+      "status": "candidate-context",
+      "text": ":memo: An awesome Data Science repository to learn and apply for real world problems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "academic/awesome-datascience",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" markdown=\"1\">"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +597,12 @@
       "source_repo": "helix-toolkit/helix-toolkit",
       "status": "candidate",
       "text": "[![HelixToolkit](https://img.shields.io/badge/-Helix%20Toolkit-blue)](https://github.com/helix-toolkit/helix-toolkit)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "academic/awesome-datascience",
+      "status": "candidate",
+      "text": "<div align=\"center\" markdown=\"1\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1258,11 +1276,35 @@
       "observed_at": "2026-05-11T07:24:13.902749+00:00",
       "source_file": null,
       "source_repo": "plotly/plotly.R"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Temporal.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "plotly/plotly.R"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "academic/awesome-datascience"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

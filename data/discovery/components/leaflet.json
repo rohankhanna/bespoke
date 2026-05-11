@@ -1,7 +1,7 @@
 {
   "component": "leaflet",
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

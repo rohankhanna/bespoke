@@ -136,6 +136,30 @@
       "source_repo": "edward3h/bedrock-viz-from-backups",
       "status": "candidate-context",
       "text": "build and push docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aristoteleo/PantheonOS",
+      "status": "candidate-context",
+      "text": "A general, evolvable, and distributed agent framework & harness for data science."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aristoteleo/PantheonOS",
+      "status": "candidate-context",
+      "text": "Build and Push Docker Image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bagofwords1/bagofwords",
+      "status": "candidate-context",
+      "text": "Chat with your data  -  with memory, rules, and observability built in. Deploy in 2 minutes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bagofwords1/bagofwords",
+      "status": "candidate-context",
+      "text": "Build and Push Docker Image"
     }
   ],
   "candidate_glosses": [
@@ -204,6 +228,18 @@
       "source_repo": "edward3h/bedrock-viz-from-backups",
       "status": "candidate",
       "text": "build and push docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aristoteleo/PantheonOS",
+      "status": "candidate",
+      "text": "Build and Push Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bagofwords1/bagofwords",
+      "status": "candidate",
+      "text": "Build and Push Docker Image"
     }
   ],
   "candidate_related_terms": [
@@ -319,11 +355,23 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": ".github/workflows/docker-push.yml",
       "source_repo": "edward3h/bedrock-viz-from-backups"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "aristoteleo/PantheonOS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "bagofwords1/bagofwords"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

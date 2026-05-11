@@ -1,0 +1,17 @@
+{
+  "component": "pypa/cibuildwheel@d04cacbc9866d432033b1d09142936e6a0e2121a",
+  "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-test.yml",
+      "source_repo": "analyticsinmotion/werpy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "analyticsinmotion/werpy"
+    }
+  ]
+}

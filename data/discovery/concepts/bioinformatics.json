@@ -643,6 +643,18 @@
       "source_repo": "KamilSJaron/smudgeplot",
       "status": "candidate-context",
       "text": "<font size =\"4\">**_Version: 0.5.4 Skylight_**</font>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aristoteleo/PantheonOS",
+      "status": "candidate-context",
+      "text": "A general, evolvable, and distributed agent framework & harness for data science."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aristoteleo/PantheonOS",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -963,6 +975,12 @@
       "source_repo": "KamilSJaron/smudgeplot",
       "status": "candidate",
       "text": "<font size =\"4\">**_Version: 0.5.4 Skylight_**</font>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aristoteleo/PantheonOS",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1798,11 +1816,35 @@
       "observed_at": "2026-05-11T00:40:20.012502+00:00",
       "source_file": null,
       "source_repo": "aidenlab/juicer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "aidenlab/juicer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "aristoteleo/PantheonOS"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T00:40:20.012502+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -94,6 +94,42 @@
       "source_repo": "rspec/rspec-metagem",
       "status": "candidate-context",
       "text": "Behaviour Driven Development for Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rspec/rspec-core",
+      "status": "candidate-context",
+      "text": "RSpec runner and formatters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspec/rspec-core",
+      "status": "candidate-context",
+      "text": "rspec-core provides the structure for writing executable examples of how your"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rspec/rspec-expectations",
+      "status": "candidate-context",
+      "text": "Provides a readable API to express expected outcomes of a code example"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspec/rspec-expectations",
+      "status": "candidate-context",
+      "text": "**This is the old rspec expectations repository, please see the monorepo rspec/rspec for new issues and releases.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rspec/rspec-mocks",
+      "status": "candidate-context",
+      "text": "RSpec's 'test double' framework, with support for stubbing and mocking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspec/rspec-mocks",
+      "status": "candidate-context",
+      "text": "rspec-mocks is a test-double framework for rspec with support for method stubs,"
     }
   ],
   "candidate_glosses": [
@@ -138,6 +174,24 @@
       "source_repo": "rspec/rspec-metagem",
       "status": "candidate",
       "text": "Behaviour Driven Development for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspec/rspec-core",
+      "status": "candidate",
+      "text": "rspec-core provides the structure for writing executable examples of how your"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspec/rspec-expectations",
+      "status": "candidate",
+      "text": "**This is the old rspec expectations repository, please see the monorepo rspec/rspec for new issues and releases.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspec/rspec-mocks",
+      "status": "candidate",
+      "text": "rspec-mocks is a test-double framework for rspec with support for method stubs,"
     }
   ],
   "candidate_related_terms": [
@@ -223,11 +277,29 @@
       "observed_at": "2026-05-11T00:40:20.012502+00:00",
       "source_file": null,
       "source_repo": "rspec/rspec-metagem"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "rspec/rspec-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "rspec/rspec-expectations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "rspec/rspec-mocks"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T00:40:20.012502+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

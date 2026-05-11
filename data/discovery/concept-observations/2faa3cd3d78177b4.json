@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd16 A visualization mcp & skills contains 25+ visual charts using @antvis. Using for chart generation and data analysis."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A Model Context Protocol server for generating charts using [AntV](https://github.com/antvis/). We can use this mcp server for _chart generation_ and _data analysis_."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A Model Context Protocol server for generating charts using [AntV](https://github.com/antvis/). We can use this mcp server for _chart generation_ and _data analysis_."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10041503,
+      "status": "candidate",
+      "text": "accomplishment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10040712,
+      "status": "candidate",
+      "text": "acquirement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10040249,
+      "status": "candidate",
+      "text": "acquisition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10039431,
+      "status": "candidate",
+      "text": "attainment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10038943,
+      "status": "candidate",
+      "text": "science"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "skills",
+      "sense_id": "skills#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "skills",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "skills",
+  "observation_id": "2faa3cd3d78177b4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_text": "skills",
+  "source_context_snippet": "A Model Context Protocol server for generating charts using [AntV](https://github.com/antvis/). We can use this mcp server for _chart generation_ and _data analysis_.",
+  "source_file": null,
+  "source_repo": "antvis/mcp-server-chart",
+  "source_repo_description": "\ud83e\udd16 A visualization mcp & skills contains 25+ visual charts using @antvis. Using for chart generation and data analysis."
+}

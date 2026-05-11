@@ -2807,6 +2807,18 @@
       "source_repo": "Seldaek/monolog",
       "status": "candidate-context",
       "text": "\"Continuous Integration\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alcohol/iso3166",
+      "status": "candidate-context",
+      "text": "A PHP library providing ISO 3166-1 data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alcohol/iso3166",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
     }
   ],
   "candidate_glosses": [
@@ -4219,6 +4231,12 @@
       "source_repo": "Seldaek/monolog",
       "status": "candidate",
       "text": "\"Continuous Integration\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alcohol/iso3166",
+      "status": "candidate",
+      "text": "Continuous Integration"
     }
   ],
   "candidate_related_terms": [
@@ -7664,11 +7682,83 @@
       "observed_at": "2026-05-11T07:24:13.902749+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "rocq-prover/docker-opam-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eyre-rs/stable-eyre"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libbitcoin/libbitcoin-system"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "insodoc/insomnia-documenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/integrate.yml",
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "alcohol/iso3166"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,658 @@
+{
+  "components": [
+    {
+      "component": "PyCQA/bandit-action@8a1b30610f61f3f792fe7556e888c9d7dffa52de",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml"
+    },
+    {
+      "component": "codacy/codacy-analysis-cli-action@97bf5df3c09e75f5bcd72695998f96ebd701846e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml"
+    },
+    {
+      "component": "codacy/codacy-analysis-cli-action@eb58a98ee4f6df1f874e169f0ab39c77558fcc87",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml"
+    },
+    {
+      "component": "codacy/codacy-analysis-cli-action@d840f886c4bd4edc059706d09c6a1586111c540b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml"
+    },
+    {
+      "component": "codacy/codacy-analysis-cli-action@v4.4.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-example@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-test.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@d04cacbc9866d432033b1d09142936e6a0e2121a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@d04cacbc9866d432033b1d09142936e6a0e2121a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@76f52bc884231f62b9a034ebfe128415bbaabdfc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml"
+    },
+    {
+      "component": "fsfe/reuse-action@bb774aa972c2a89ff34781233d275075cbddf542",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "PyCQA/bandit-action@8a1b30610f61f3f792fe7556e888c9d7dffa52de",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "Bandit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "codacy/codacy-analysis-cli-action@97bf5df3c09e75f5bcd72695998f96ebd701846e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "codacy/codacy-analysis-cli-action@eb58a98ee4f6df1f874e169f0ab39c77558fcc87",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "codacy/codacy-analysis-cli-action@d840f886c4bd4edc059706d09c6a1586111c540b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "codacy/codacy-analysis-cli-action@v4.4.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codacy.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "Codacy Security Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "actions/setup-example@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "Type Check with Mypy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "Pylint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-test.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-test.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "pypa/cibuildwheel@d04cacbc9866d432033b1d09142936e6a0e2121a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-test.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-test.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-test.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "Test Build (No PyPI Upload)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "pypa/cibuildwheel@d04cacbc9866d432033b1d09142936e6a0e2121a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "pypa/gh-action-pypi-publish@76f52bc884231f62b9a034ebfe128415bbaabdfc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "Build and upload to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "fsfe/reuse-action@bb774aa972c2a89ff34781233d275075cbddf542",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "REUSE Compliance Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "asr-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "automatic-speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "levenshtein-distance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "python-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "speech-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "stt-benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "werpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analyticsinmotion/werpy",
+      "target": "word-error-rate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T17:51:31.555304+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12409
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2247
+    },
+    {
+      "path": ".github/workflows/bandit.yml",
+      "size": 1218
+    },
+    {
+      "path": ".github/workflows/codacy.yml",
+      "size": 2860
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 5172
+    },
+    {
+      "path": ".github/workflows/mypy.yml",
+      "size": 1479
+    },
+    {
+      "path": ".github/workflows/pylint.yml",
+      "size": 795
+    },
+    {
+      "path": ".github/workflows/release-test.yml",
+      "size": 2415
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2546
+    },
+    {
+      "path": ".github/workflows/reuse.yml",
+      "size": 1246
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udc0d\ud83d\udce6 Ultra-fast Python package for calculating and analyzing the Word Error Rate (WER). Built for the scalable evaluation of speech and transcription accuracy.",
+    "fork": false,
+    "full_name": "analyticsinmotion/werpy",
+    "html_url": "https://github.com/analyticsinmotion/werpy",
+    "language": "Python",
+    "pushed_at": "2026-03-30T16:48:25Z",
+    "stargazers_count": 26,
+    "topics": [
+      "asr",
+      "asr-evaluation",
+      "automatic-speech-recognition",
+      "levenshtein-distance",
+      "metrics",
+      "nlp",
+      "python",
+      "python-package",
+      "speech-to-text",
+      "stt",
+      "stt-benchmark",
+      "wer",
+      "werpy",
+      "word-error-rate"
+    ],
+    "updated_at": "2026-04-24T05:38:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Bandit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bandit.yml",
+      "term": "Bandit"
+    },
+    {
+      "context_snippet": "Codacy Security Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codacy.yml",
+      "term": "Codacy Security Scan"
+    },
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "context_snippet": "Type Check with Mypy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "term": "Type Check with Mypy"
+    },
+    {
+      "context_snippet": "Pylint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pylint.yml",
+      "term": "Pylint"
+    },
+    {
+      "context_snippet": "Test Build (No PyPI Upload)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-test.yml",
+      "term": "Test Build (No PyPI Upload)"
+    },
+    {
+      "context_snippet": "Build and upload to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Build and upload to PyPI"
+    },
+    {
+      "context_snippet": "REUSE Compliance Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reuse.yml",
+      "term": "REUSE Compliance Check"
+    },
+    {
+      "context_snippet": "![werpy-logo-word-error-rate](https://user-images.githubusercontent.com/52817125/235063664-2f21629c-0fad-46b6-a487-c2b5ef6f80e9.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asr-evaluation"
+    },
+    {
+      "context_snippet": "![werpy-logo-word-error-rate](https://user-images.githubusercontent.com/52817125/235063664-2f21629c-0fad-46b6-a487-c2b5ef6f80e9.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automatic-speech-recognition"
+    },
+    {
+      "context_snippet": "![werpy-logo-word-error-rate](https://user-images.githubusercontent.com/52817125/235063664-2f21629c-0fad-46b6-a487-c2b5ef6f80e9.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "levenshtein-distance"
+    },
+    {
+      "context_snippet": "![werpy-logo-word-error-rate](https://user-images.githubusercontent.com/52817125/235063664-2f21629c-0fad-46b6-a487-c2b5ef6f80e9.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics"
+    },
+    {
+      "context_snippet": "![werpy-logo-word-error-rate](https://user-images.githubusercontent.com/52817125/235063664-2f21629c-0fad-46b6-a487-c2b5ef6f80e9.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-package"
+    },
+    {
+      "context_snippet": "![werpy-logo-word-error-rate](https://user-images.githubusercontent.com/52817125/235063664-2f21629c-0fad-46b6-a487-c2b5ef6f80e9.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text"
+    },
+    {
+      "context_snippet": "![werpy-logo-word-error-rate](https://user-images.githubusercontent.com/52817125/235063664-2f21629c-0fad-46b6-a487-c2b5ef6f80e9.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stt-benchmark"
+    },
+    {
+      "context_snippet": "![werpy-logo-word-error-rate](https://user-images.githubusercontent.com/52817125/235063664-2f21629c-0fad-46b6-a487-c2b5ef6f80e9.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "werpy"
+    },
+    {
+      "context_snippet": "![werpy-logo-word-error-rate](https://user-images.githubusercontent.com/52817125/235063664-2f21629c-0fad-46b6-a487-c2b5ef6f80e9.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "word-error-rate"
+    }
+  ]
+}

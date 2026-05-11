@@ -19,6 +19,18 @@
       "source_repo": "OFA-Sys/ONE-PEACE",
       "status": "candidate-context",
       "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AudioLLMs/Awesome-Audio-LLM",
+      "status": "candidate-context",
+      "text": "Audio Large Language Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AudioLLMs/Awesome-Audio-LLM",
+      "status": "candidate-context",
+      "text": "We thank the following contributors for their valuable contributions!"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "OFA-Sys/ONE-PEACE",
       "status": "candidate",
       "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AudioLLMs/Awesome-Audio-LLM",
+      "status": "candidate",
+      "text": "We thank the following contributors for their valuable contributions!"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "OFA-Sys/ONE-PEACE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "AudioLLMs/Awesome-Audio-LLM"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Local-ASR-STT-Benchmark",
+      "target": "benchmarking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Local-ASR-STT-Benchmark",
+      "target": "speech-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Local-ASR-STT-Benchmark",
+      "target": "whisper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T15:41:51.518555+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 444
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Quick evaluation to find the best STT model in Speech Note (Ubuntu) for my HW",
+    "fork": false,
+    "full_name": "danielrosehill/Local-ASR-STT-Benchmark",
+    "html_url": "https://github.com/danielrosehill/Local-ASR-STT-Benchmark",
+    "language": "Python",
+    "pushed_at": "2025-10-31T01:09:47Z",
+    "stargazers_count": 0,
+    "topics": [
+      "asr",
+      "benchmarking",
+      "speech-to-text",
+      "whisper"
+    ],
+    "updated_at": "2025-10-31T01:09:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "# STT Benchmarking Dependencies # Core STT engines faster-whisper>=1.0.0 openai-whisper>=20231117 # Evaluation metrics jiwer>=3.0.0 # Audio processing soundfile>=0.12.0 librosa>=0.10.0 pydub>=0.25.0 # Data handling & analysis numpy>=1.24.0 pandas<2.0 # Keep <2.0 for TTS compatib\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmarking"
+    },
+    {
+      "context_snippet": "# STT Benchmarking Dependencies # Core STT engines faster-whisper>=1.0.0 openai-whisper>=20231117 # Evaluation metrics jiwer>=3.0.0 # Audio processing soundfile>=0.12.0 librosa>=0.10.0 pydub>=0.25.0 # Data handling & analysis numpy>=1.24.0 pandas<2.0 # Keep <2.0 for TTS compatib\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text"
+    },
+    {
+      "context_snippet": "# STT Benchmarking Dependencies # Core STT engines faster-whisper>=1.0.0 openai-whisper>=20231117 # Evaluation metrics jiwer>=3.0.0 # Audio processing soundfile>=0.12.0 librosa>=0.10.0 pydub>=0.25.0 # Data handling & analysis numpy>=1.24.0 pandas<2.0 # Keep <2.0 for TTS compatib\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whisper"
+    }
+  ]
+}

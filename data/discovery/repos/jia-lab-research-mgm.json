@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T03:09:35.015288+00:00",
+  "fetched_at": "2026-05-11T16:34:02.000576+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -65,13 +65,13 @@
     "html_url": "https://github.com/JIA-Lab-research/MGM",
     "language": "Python",
     "pushed_at": "2024-05-04T14:36:51Z",
-    "stargazers_count": 3326,
+    "stargazers_count": 3325,
     "topics": [
       "generation",
       "large-language-models",
       "vision-language-model"
     ],
-    "updated_at": "2026-05-10T14:28:23Z"
+    "updated_at": "2026-05-11T13:49:14Z"
   },
   "repo_links": [
     {

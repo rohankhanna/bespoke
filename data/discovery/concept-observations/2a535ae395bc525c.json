@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "List of AI memory resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A curated collection of projects, tools, and resources related to AI memory layers \u2014 systems that give AI agents and LLMs persistent, contextual, or structured memory capabilities."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A curated collection of projects, tools, and resources related to AI memory layers \u2014 systems that give AI agents and LLMs persistent, contextual, or structured memory capabilities."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ai-memory",
+      "sense_id": "ai-memory#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ai-memory",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ai-memory",
+  "observation_id": "2a535ae395bc525c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_text": "ai-memory",
+  "source_context_snippet": "A curated collection of projects, tools, and resources related to AI memory layers \u2014 systems that give AI agents and LLMs persistent, contextual, or structured memory capabilities.",
+  "source_file": null,
+  "source_repo": "danielrosehill/AI-Memory-Layers",
+  "source_repo_description": "List of AI memory resources"
+}

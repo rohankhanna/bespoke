@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Speech-And-ASR-Evaluations",
+      "target": "danielrosehill/local-asr-stt-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Speech-And-ASR-Evaluations",
+      "target": "danielrosehill/fine-tune-accuracy-evaluation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Speech-And-ASR-Evaluations",
+      "target": "danielrosehill/gemini-31-lite-audio-understanding-eval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Speech-And-ASR-Evaluations",
+      "target": "danielrosehill/audio-understanding-bitrate-eval-0426",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-11T13:33:07.385747+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11133
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Index repository for speech recognition and ASR evaluations",
+    "fork": false,
+    "full_name": "danielrosehill/Speech-And-ASR-Evaluations",
+    "html_url": "https://github.com/danielrosehill/Speech-And-ASR-Evaluations",
+    "language": null,
+    "pushed_at": "2026-04-17T12:19:05Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-17T12:19:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/audio-understanding-bitrate-eval-0426",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/fine-tune-accuracy-evaluation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/gemini-31-lite-audio-understanding-eval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/local-asr-stt-benchmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

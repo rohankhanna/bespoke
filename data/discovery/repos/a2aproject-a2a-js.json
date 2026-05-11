@@ -658,7 +658,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T03:16:16.174584+00:00",
+  "fetched_at": "2026-05-11T16:38:31.926589+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -686,7 +686,7 @@
     },
     {
       "path": ".github/workflows/npm-publish.yml",
-      "size": 966
+      "size": 1175
     },
     {
       "path": ".github/workflows/release-please.yml",
@@ -710,10 +710,10 @@
     "full_name": "a2aproject/a2a-js",
     "html_url": "https://github.com/a2aproject/a2a-js",
     "language": "TypeScript",
-    "pushed_at": "2026-05-09T00:22:17Z",
+    "pushed_at": "2026-05-11T15:09:13Z",
     "stargazers_count": 537,
     "topics": [],
-    "updated_at": "2026-05-09T19:17:38Z"
+    "updated_at": "2026-05-11T15:13:19Z"
   },
   "repo_links": [
     {

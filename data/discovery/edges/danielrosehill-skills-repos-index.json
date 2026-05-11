@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Skills-Repos-Index",
+      "target": "danielrosehill/useful-ai-agent-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Skills-Repos-Index",
+      "target": "danielrosehill/agent-skills",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-11T13:15:38.721392+00:00",
+  "source_repo": "danielrosehill/Skills-Repos-Index"
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -26,6 +26,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Keats/tera"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "djlint/djLint"
     }
   ],
   "term": "jinja2"

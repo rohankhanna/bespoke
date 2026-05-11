@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jdx/mise-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rouge8/neotest-rust",
+      "target": "rcarriga/neotest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rouge8/neotest-rust",
+      "target": "la10736/rstest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rouge8/neotest-rust",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rouge8/neotest-rust",
+      "target": "jdx/mise-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rouge8/neotest-rust",
+      "target": "neotest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rouge8/neotest-rust",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rouge8/neotest-rust",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rouge8/neotest-rust",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T15:33:52.601297+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1889
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 446
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Neotest adapter for Rust, using cargo-nextest.",
+    "fork": false,
+    "full_name": "rouge8/neotest-rust",
+    "html_url": "https://github.com/rouge8/neotest-rust",
+    "language": "Lua",
+    "pushed_at": "2025-08-19T15:54:26Z",
+    "stargazers_count": 104,
+    "topics": [
+      "neotest",
+      "neovim",
+      "neovim-plugin",
+      "rust"
+    ],
+    "updated_at": "2026-03-05T07:49:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "la10736/rstest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rcarriga/neotest",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Neotest](https://github.com/rcarriga/neotest) adapter for Rust, using",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neotest"
+    },
+    {
+      "context_snippet": "[Neotest](https://github.com/rcarriga/neotest) adapter for Rust, using",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "[Neotest](https://github.com/rcarriga/neotest) adapter for Rust, using",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "[Neotest](https://github.com/rcarriga/neotest) adapter for Rust, using",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

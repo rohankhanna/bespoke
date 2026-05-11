@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml"
+    },
+    {
+      "component": "etils-actions/pypi-auto-publish@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/results.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/results.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/results.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/results.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml",
+      "source_repo": "google-research/mseb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml",
+      "source_repo": "google-research/mseb",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml",
+      "source_repo": "google-research/mseb",
+      "target": "etils-actions/pypi-auto-publish@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml",
+      "source_repo": "google-research/mseb",
+      "target": "Unittests & Auto-publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/results.yml",
+      "source_repo": "google-research/mseb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/results.yml",
+      "source_repo": "google-research/mseb",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/results.yml",
+      "source_repo": "google-research/mseb",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/results.yml",
+      "source_repo": "google-research/mseb",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/results.yml",
+      "source_repo": "google-research/mseb",
+      "target": "Deploy static content to Pages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T17:51:20.029948+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 674
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2636
+    },
+    {
+      "path": ".github/workflows/pytest_and_autopublish.yml",
+      "size": 2411
+    },
+    {
+      "path": ".github/workflows/results.yml",
+      "size": 1223
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "google-research/mseb",
+    "html_url": "https://github.com/google-research/mseb",
+    "language": "Python",
+    "pushed_at": "2026-05-11T15:54:03Z",
+    "stargazers_count": 57,
+    "topics": [],
+    "updated_at": "2026-05-11T09:57:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Unittests & Auto-publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml",
+      "term": "Unittests & Auto-publish"
+    },
+    {
+      "context_snippet": "Deploy static content to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/results.yml",
+      "term": "Deploy static content to Pages"
+    }
+  ]
+}

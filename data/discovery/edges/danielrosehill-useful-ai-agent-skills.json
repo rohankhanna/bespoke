@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Useful-AI-Agent-Skills",
+      "target": "apify/agent-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Useful-AI-Agent-Skills",
+      "target": "aaron-he-zhu/seo-geo-claude-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Useful-AI-Agent-Skills",
+      "target": "benchflow-ai/skillsbench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Useful-AI-Agent-Skills",
+      "target": "barmalka/super-pharm-stock-checker",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-11T13:15:38.721392+00:00",
+  "source_repo": "danielrosehill/Useful-AI-Agent-Skills"
+}

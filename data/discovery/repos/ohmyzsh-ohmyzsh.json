@@ -81,7 +81,7 @@
       "source_file": ".github/workflows/scorecard.yml"
     },
     {
-      "component": "github/codeql-action/upload-sarif@e46ed2cbd01164d986452f91f178727624ae40d7",
+      "component": "github/codeql-action/upload-sarif@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml"
     }
@@ -210,7 +210,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "github/codeql-action/upload-sarif@e46ed2cbd01164d986452f91f178727624ae40d7",
+      "target": "github/codeql-action/upload-sarif@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
       "target_type": "component"
     },
     {
@@ -312,7 +312,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T07:46:14.043440+00:00",
+  "fetched_at": "2026-05-11T17:35:22.041241+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -348,8 +348,8 @@
     "full_name": "ohmyzsh/ohmyzsh",
     "html_url": "https://github.com/ohmyzsh/ohmyzsh",
     "language": "Shell",
-    "pushed_at": "2026-05-10T12:52:33Z",
-    "stargazers_count": 186918,
+    "pushed_at": "2026-05-11T09:00:29Z",
+    "stargazers_count": 186924,
     "topics": [
       "cli",
       "cli-app",
@@ -367,7 +367,7 @@
       "zsh",
       "zsh-configuration"
     ],
-    "updated_at": "2026-05-11T07:06:03Z"
+    "updated_at": "2026-05-11T16:45:01Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "freerange/mocha",
+      "target": "minitest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "freerange/mocha",
+      "target": "mock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "freerange/mocha",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "freerange/mocha",
+      "target": "stub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "freerange/mocha",
+      "target": "test-unit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "freerange/mocha",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T13:21:34.438677+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11935
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A mocking and stubbing library for Ruby",
+    "fork": false,
+    "full_name": "freerange/mocha",
+    "html_url": "https://github.com/freerange/mocha",
+    "language": "Ruby",
+    "pushed_at": "2026-03-14T18:01:27Z",
+    "stargazers_count": 1281,
+    "topics": [
+      "minitest",
+      "mock",
+      "ruby",
+      "stub",
+      "test-unit",
+      "testing"
+    ],
+    "updated_at": "2026-04-19T22:02:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "* A Ruby library for [mocking](http://xunitpatterns.com/Mock%20Object.html) and [stubbing](http://xunitpatterns.com/Test%20Stub.html) - but deliberately not (yet) [faking](http://xunitpatterns.com/Fake%20Object.html) or [spying](http://xunitpatterns.com/Test%20Spy.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minitest"
+    },
+    {
+      "context_snippet": "* A Ruby library for [mocking](http://xunitpatterns.com/Mock%20Object.html) and [stubbing](http://xunitpatterns.com/Test%20Stub.html) - but deliberately not (yet) [faking](http://xunitpatterns.com/Fake%20Object.html) or [spying](http://xunitpatterns.com/Test%20Spy.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mock"
+    },
+    {
+      "context_snippet": "* A Ruby library for [mocking](http://xunitpatterns.com/Mock%20Object.html) and [stubbing](http://xunitpatterns.com/Test%20Stub.html) - but deliberately not (yet) [faking](http://xunitpatterns.com/Fake%20Object.html) or [spying](http://xunitpatterns.com/Test%20Spy.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "* A Ruby library for [mocking](http://xunitpatterns.com/Mock%20Object.html) and [stubbing](http://xunitpatterns.com/Test%20Stub.html) - but deliberately not (yet) [faking](http://xunitpatterns.com/Fake%20Object.html) or [spying](http://xunitpatterns.com/Test%20Spy.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stub"
+    },
+    {
+      "context_snippet": "* A Ruby library for [mocking](http://xunitpatterns.com/Mock%20Object.html) and [stubbing](http://xunitpatterns.com/Test%20Stub.html) - but deliberately not (yet) [faking](http://xunitpatterns.com/Fake%20Object.html) or [spying](http://xunitpatterns.com/Test%20Spy.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-unit"
+    },
+    {
+      "context_snippet": "* A Ruby library for [mocking](http://xunitpatterns.com/Mock%20Object.html) and [stubbing](http://xunitpatterns.com/Test%20Stub.html) - but deliberately not (yet) [faking](http://xunitpatterns.com/Fake%20Object.html) or [spying](http://xunitpatterns.com/Test%20Spy.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

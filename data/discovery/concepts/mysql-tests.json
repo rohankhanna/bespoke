@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "MySQL tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BehindTheMath/zmanim-sql",
+      "status": "candidate-context",
+      "text": "A partial SQL port of the KosherJava library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BehindTheMath/zmanim-sql",
+      "status": "candidate-context",
+      "text": "MySQL tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BehindTheMath/zmanim-sql",
+      "status": "candidate",
+      "text": "MySQL tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "arp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "born"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "dada"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "danger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "era"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "MySQL tests",
+  "concept_id": "mysql-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "BehindTheMath/zmanim-sql"
+    }
+  ],
+  "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "MySQL tests",
+      "sense_id": "mysql-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

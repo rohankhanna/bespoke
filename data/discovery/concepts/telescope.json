@@ -79,6 +79,18 @@
       "source_repo": "mrcjkb/haskell-tools.nvim",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shatur/neovim-cmake",
+      "status": "candidate-context",
+      "text": "CMake integration for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shatur/neovim-cmake",
+      "status": "candidate-context",
+      "text": "**This plugin has been deprecated in favor of [neovim-tasks](https://github.com/Shatur/neovim-tasks)**. I realized that having separate plugins for each build system is inconvenient, so I decided to write a general purpose plugin that could support support any build system. If y\u2026"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "mrcjkb/haskell-tools.nvim",
       "status": "candidate",
       "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shatur/neovim-cmake",
+      "status": "candidate",
+      "text": "**This plugin has been deprecated in favor of [neovim-tasks](https://github.com/Shatur/neovim-tasks)**. I realized that having separate plugins for each build system is inconvenient, so I decided to write a general purpose plugin that could support support any build system. If y\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -204,11 +222,17 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "mrcjkb/haskell-tools.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "Shatur/neovim-cmake"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -127,6 +127,30 @@
       "source_repo": "olimorris/neotest-rspec",
       "status": "candidate-context",
       "text": "<!-- [![Tests](https://github.com/olimorris/neotest-rspec/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/olimorris/neotest-rspec/actions/workflows/ci.yml) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rcasia/neotest-bash",
+      "status": "candidate-context",
+      "text": "Neotest adapter for Bash."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcasia/neotest-bash",
+      "status": "candidate-context",
+      "text": "<section align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rouge8/neotest-rust",
+      "status": "candidate-context",
+      "text": "Neotest adapter for Rust, using cargo-nextest."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rouge8/neotest-rust",
+      "status": "candidate-context",
+      "text": "[Neotest](https://github.com/rcarriga/neotest) adapter for Rust, using"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "olimorris/neotest-rspec",
       "status": "candidate",
       "text": "<!-- [![Tests](https://github.com/olimorris/neotest-rspec/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/olimorris/neotest-rspec/actions/workflows/ci.yml) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcasia/neotest-bash",
+      "status": "candidate",
+      "text": "<section align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rouge8/neotest-rust",
+      "status": "candidate",
+      "text": "[Neotest](https://github.com/rcarriga/neotest) adapter for Rust, using"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +292,23 @@
       "observed_at": "2026-05-10T18:25:41.670160+00:00",
       "source_file": null,
       "source_repo": "olimorris/neotest-rspec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "rcasia/neotest-bash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "rouge8/neotest-rust"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

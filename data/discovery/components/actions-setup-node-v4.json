@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -10357,6 +10357,76 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/versioning.yml",
       "source_repo": "fmaclen/hollama"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "ariroffe72/zmanim-mcp-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codex-integration-audit.yml",
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-docs.yml",
+      "source_repo": "TypedDevs/bashunit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "TypedDevs/bashunit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "TypedDevs/bashunit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "antvis/mcp-server-chart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "antvis/mcp-server-chart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "bagofwords1/bagofwords"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/manifest-check.yml",
+      "source_repo": "breferrari/obsidian-mind"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "breferrari/obsidian-mind"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "breferrari/obsidian-mind"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clawhub-deprecate-old-slug.yml",
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clawhub-publish.yml",
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-skills.yml",
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills"
     }
   ]
 }

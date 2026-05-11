@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "build a fully open-source and customized FFmpeg6.1 which used as media engine for project KanTV. already moved into project KanTV since 03-21-2024 and this project is no longer maintained accordingly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FFmpeg README"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FFmpeg README"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ffmpeg-android",
+      "sense_id": "ffmpeg-android#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ffmpeg-android",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ffmpeg-android",
+  "observation_id": "72bde5d0b0288294",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_text": "ffmpeg-android",
+  "source_context_snippet": "FFmpeg README",
+  "source_file": null,
+  "source_repo": "kantv-ai/FFmpeg",
+  "source_repo_description": "build a fully open-source and customized FFmpeg6.1 which used as media engine for project KanTV. already moved into project KanTV since 03-21-2024 and this project is no longer maintained accordingly"
+}

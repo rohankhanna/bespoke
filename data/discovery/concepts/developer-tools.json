@@ -763,6 +763,12 @@
       "source_repo": "inhere/kite",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "status": "candidate-context",
+      "text": "> A curated list of tools, frameworks, and resources for **agent harness engineering** \u2014 the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale."
     }
   ],
   "candidate_glosses": [
@@ -1143,6 +1149,12 @@
       "source_repo": "inhere/kite",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "status": "candidate",
+      "text": "> A curated list of tools, frameworks, and resources for **agent harness engineering** \u2014 the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale."
     }
   ],
   "candidate_related_terms": [],
@@ -2074,11 +2086,35 @@
       "observed_at": "2026-05-11T07:24:13.902749+00:00",
       "source_file": null,
       "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "AutoJunjie/awesome-agent-harness"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

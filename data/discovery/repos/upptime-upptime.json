@@ -116,6 +116,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "upptime/upptime",
+      "target": "topics/upptime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "upptime/upptime",
       "target": "koj-co/upptime",
       "target_type": "repository"
     },
@@ -351,7 +358,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T07:26:37.149254+00:00",
+  "fetched_at": "2026-05-11T16:43:15.828540+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -359,35 +366,35 @@
     },
     {
       "path": ".github/workflows/graphs.yml",
-      "size": 1093
+      "size": 1260
     },
     {
       "path": ".github/workflows/response-time.yml",
-      "size": 1167
+      "size": 1334
     },
     {
       "path": ".github/workflows/setup.yml",
-      "size": 2255
+      "size": 2422
     },
     {
       "path": ".github/workflows/site.yml",
-      "size": 1524
+      "size": 1691
     },
     {
       "path": ".github/workflows/summary.yml",
-      "size": 1104
+      "size": 1271
     },
     {
       "path": ".github/workflows/update-template.yml",
-      "size": 1109
+      "size": 1276
     },
     {
       "path": ".github/workflows/updates.yml",
-      "size": 1040
+      "size": 1207
     },
     {
       "path": ".github/workflows/uptime.yml",
-      "size": 1148
+      "size": 1315
     }
   ],
   "related_repositories": [],
@@ -399,8 +406,8 @@
     "full_name": "upptime/upptime",
     "html_url": "https://github.com/upptime/upptime",
     "language": "Markdown",
-    "pushed_at": "2026-05-11T03:58:33Z",
-    "stargazers_count": 17021,
+    "pushed_at": "2026-05-11T09:06:27Z",
+    "stargazers_count": 17020,
     "topics": [
       "incidents-reports",
       "status",
@@ -409,12 +416,17 @@
       "uptime",
       "uptime-monitor"
     ],
-    "updated_at": "2026-05-11T03:58:38Z"
+    "updated_at": "2026-05-11T13:57:07Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "koj-co/upptime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "topics/upptime",
       "source_file": "README.md"
     }
   ],

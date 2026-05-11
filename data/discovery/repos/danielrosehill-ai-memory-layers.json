@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Memory-Layers",
+      "target": "bagofwords1/bagofwords",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Memory-Layers",
+      "target": "breferrari/obsidian-mind",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Memory-Layers",
+      "target": "agentic-box/memora",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Memory-Layers",
+      "target": "bai-lab/memoryos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Memory-Layers",
+      "target": "ai-memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Memory-Layers",
+      "target": "context",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T15:41:44.758560+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14005
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "List of AI memory resources",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Memory-Layers",
+    "html_url": "https://github.com/danielrosehill/AI-Memory-Layers",
+    "language": null,
+    "pushed_at": "2026-04-25T09:41:38Z",
+    "stargazers_count": 0,
+    "topics": [
+      "ai-memory",
+      "context"
+    ],
+    "updated_at": "2026-04-25T09:41:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agentic-box/memora",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bagofwords1/bagofwords",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bai-lab/memoryos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "breferrari/obsidian-mind",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A curated collection of projects, tools, and resources related to AI memory layers \u2014 systems that give AI agents and LLMs persistent, contextual, or structured memory capabilities.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-memory"
+    },
+    {
+      "context_snippet": "A curated collection of projects, tools, and resources related to AI memory layers \u2014 systems that give AI agents and LLMs persistent, contextual, or structured memory capabilities.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "context"
+    }
+  ]
+}

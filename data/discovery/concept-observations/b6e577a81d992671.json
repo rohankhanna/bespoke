@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Your faithful, impartial partner for audio evaluation \u2014 know yourself, know your rivals. \u771f\u5b9e\u8bc4\u6d4b\uff0c\u77e5\u5df1\u77e5\u5f7c\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![assets/logo.png](assets/logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![assets/logo.png](assets/logo.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39936805,
+      "status": "candidate",
+      "text": "valuation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39925830,
+      "status": "candidate",
+      "text": "rating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29946753,
+      "status": "candidate",
+      "text": "auditing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29944233,
+      "status": "candidate",
+      "text": "revaluation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29944044,
+      "status": "candidate",
+      "text": "stocktake"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "evaluation",
+      "sense_id": "evaluation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4050,
+      "status": "candidate",
+      "text": "valuation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1052,
+      "status": "candidate",
+      "text": "rating"
+    }
+  ],
+  "concept_id": "evaluation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "evaluation",
+  "observation_id": "b6e577a81d992671",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_text": "evaluation",
+  "source_context_snippet": "![assets/logo.png](assets/logo.png)",
+  "source_file": null,
+  "source_repo": "OpenBMB/UltraEval-Audio",
+  "source_repo_description": "Your faithful, impartial partner for audio evaluation \u2014 know yourself, know your rivals. \u771f\u5b9e\u8bc4\u6d4b\uff0c\u77e5\u5df1\u77e5\u5f7c\u3002"
+}

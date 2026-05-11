@@ -1,0 +1,180 @@
+{
+  "components": [
+    {
+      "component": "tree-sitter/setup-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml"
+    },
+    {
+      "component": "s4u/setup-maven-action@v1.9.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rcasia/neotest-bash",
+      "target": "rcarriga/neotest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rcasia/neotest-bash",
+      "target": "typeddevs/bashunit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "rcasia/neotest-bash",
+      "target": "tree-sitter/setup-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "rcasia/neotest-bash",
+      "target": "s4u/setup-maven-action@v1.9.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "rcasia/neotest-bash",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "rcasia/neotest-bash",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "rcasia/neotest-bash",
+      "target": "JohnnyMorganz/stylua-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "rcasia/neotest-bash",
+      "target": "Stylua Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rcasia/neotest-bash",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rcasia/neotest-bash",
+      "target": "neotest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rcasia/neotest-bash",
+      "target": "neovim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T15:33:51.019263+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2165
+    },
+    {
+      "path": ".github/workflows/makefile.yml",
+      "size": 626
+    },
+    {
+      "path": ".github/workflows/stylua.yml",
+      "size": 438
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Neotest adapter for Bash.",
+    "fork": false,
+    "full_name": "rcasia/neotest-bash",
+    "html_url": "https://github.com/rcasia/neotest-bash",
+    "language": "Lua",
+    "pushed_at": "2026-02-28T11:57:44Z",
+    "stargazers_count": 27,
+    "topics": [
+      "bash",
+      "lua",
+      "neotest",
+      "neovim"
+    ],
+    "updated_at": "2026-05-08T07:26:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rcarriga/neotest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "typeddevs/bashunit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Stylua Format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stylua.yml",
+      "term": "Stylua Format"
+    },
+    {
+      "context_snippet": "<section align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "<section align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neotest"
+    },
+    {
+      "context_snippet": "<section align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    }
+  ]
+}

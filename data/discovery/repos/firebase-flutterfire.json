@@ -146,7 +146,7 @@
       "source_file": ".github/workflows/android.yaml"
     },
     {
-      "component": "actions/cache/restore@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/android.yaml"
     },
@@ -171,22 +171,22 @@
       "source_file": ".github/workflows/android.yaml"
     },
     {
-      "component": "actions/cache/restore@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/android.yaml"
     },
     {
-      "component": "reactivecircus/android-emulator-runner@b530d96654c385303d652368551fb075bc2f0b6b",
+      "component": "reactivecircus/android-emulator-runner@e89f39f1abbbd05b1113a29cf4db69e7540cae5a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/android.yaml"
     },
     {
-      "component": "actions/cache/save@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/android.yaml"
     },
     {
-      "component": "actions/cache/save@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/android.yaml"
     },
@@ -206,7 +206,7 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "actions/cache/restore@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
@@ -216,7 +216,7 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "ikalnytskyi/action-setup-postgres@v7",
+      "component": "ikalnytskyi/action-setup-postgres@v8",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
@@ -236,22 +236,22 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "actions/cache/restore@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "reactivecircus/android-emulator-runner@b530d96654c385303d652368551fb075bc2f0b6b",
+      "component": "reactivecircus/android-emulator-runner@e89f39f1abbbd05b1113a29cf4db69e7540cae5a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "actions/cache/save@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "actions/cache/save@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
@@ -271,7 +271,7 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "ikalnytskyi/action-setup-postgres@v7",
+      "component": "ikalnytskyi/action-setup-postgres@v8",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
@@ -281,12 +281,12 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "actions/cache/restore@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "actions/cache/restore@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
@@ -306,52 +306,12 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "actions/cache/save@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "actions/cache/save@668228422ae6a00e4ad889ee87cd7109ec5666a7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/e2e_tests_fdc.yaml"
-    },
-    {
-      "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/e2e_tests_fdc.yaml"
-    },
-    {
-      "component": "actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/e2e_tests_fdc.yaml"
-    },
-    {
-      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/e2e_tests_fdc.yaml"
-    },
-    {
-      "component": "ikalnytskyi/action-setup-postgres@v7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/e2e_tests_fdc.yaml"
-    },
-    {
-      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/e2e_tests_fdc.yaml"
-    },
-    {
-      "component": "bluefireteam/melos-action@705015c3d2bc4ab94201ac24accb2bbe070cf533",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/e2e_tests_fdc.yaml"
-    },
-    {
-      "component": "actions/cache/restore@668228422ae6a00e4ad889ee87cd7109ec5666a7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/e2e_tests_fdc.yaml"
-    },
-    {
-      "component": "actions/cache/save@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
@@ -371,7 +331,7 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "ikalnytskyi/action-setup-postgres@v7",
+      "component": "ikalnytskyi/action-setup-postgres@v8",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
@@ -386,12 +346,52 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "actions/cache/restore@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "actions/cache/save@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_tests_fdc.yaml"
+    },
+    {
+      "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_tests_fdc.yaml"
+    },
+    {
+      "component": "actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_tests_fdc.yaml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_tests_fdc.yaml"
+    },
+    {
+      "component": "ikalnytskyi/action-setup-postgres@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_tests_fdc.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_tests_fdc.yaml"
+    },
+    {
+      "component": "bluefireteam/melos-action@705015c3d2bc4ab94201ac24accb2bbe070cf533",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_tests_fdc.yaml"
+    },
+    {
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_tests_fdc.yaml"
+    },
+    {
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
@@ -431,17 +431,17 @@
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
     {
-      "component": "actions/cache/restore@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
     {
-      "component": "reactivecircus/android-emulator-runner@b530d96654c385303d652368551fb075bc2f0b6b",
+      "component": "reactivecircus/android-emulator-runner@e89f39f1abbbd05b1113a29cf4db69e7540cae5a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
     {
-      "component": "actions/cache/save@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
@@ -516,12 +516,12 @@
       "source_file": ".github/workflows/ios.yaml"
     },
     {
-      "component": "actions/cache/restore@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ios.yaml"
     },
     {
-      "component": "actions/cache/restore@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ios.yaml"
     },
@@ -541,12 +541,12 @@
       "source_file": ".github/workflows/ios.yaml"
     },
     {
-      "component": "actions/cache/save@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ios.yaml"
     },
     {
-      "component": "actions/cache/save@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ios.yaml"
     },
@@ -571,12 +571,12 @@
       "source_file": ".github/workflows/macos.yaml"
     },
     {
-      "component": "actions/cache/restore@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yaml"
     },
     {
-      "component": "actions/cache/restore@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yaml"
     },
@@ -591,12 +591,12 @@
       "source_file": ".github/workflows/macos.yaml"
     },
     {
-      "component": "actions/cache/save@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yaml"
     },
     {
-      "component": "actions/cache/save@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yaml"
     },
@@ -621,7 +621,7 @@
       "source_file": ".github/workflows/ossf-scorecard.yml"
     },
     {
-      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ossf-scorecard.yml"
     },
@@ -704,7 +704,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/android.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/cache/restore@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -739,14 +739,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/android.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "reactivecircus/android-emulator-runner@b530d96654c385303d652368551fb075bc2f0b6b",
+      "target": "reactivecircus/android-emulator-runner@e89f39f1abbbd05b1113a29cf4db69e7540cae5a",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/android.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/cache/save@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -781,7 +781,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/cache/restore@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -795,7 +795,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "ikalnytskyi/action-setup-postgres@v7",
+      "target": "ikalnytskyi/action-setup-postgres@v8",
       "target_type": "component"
     },
     {
@@ -823,14 +823,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "reactivecircus/android-emulator-runner@b530d96654c385303d652368551fb075bc2f0b6b",
+      "target": "reactivecircus/android-emulator-runner@e89f39f1abbbd05b1113a29cf4db69e7540cae5a",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/cache/save@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -907,21 +907,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/cache/restore@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "reactivecircus/android-emulator-runner@b530d96654c385303d652368551fb075bc2f0b6b",
+      "target": "reactivecircus/android-emulator-runner@e89f39f1abbbd05b1113a29cf4db69e7540cae5a",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/cache/save@1bd1e32a3bdc45362d1e726936510720a7c30a57",
+      "target": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -970,7 +970,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ios.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/cache/restore@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -998,7 +998,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ios.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/cache/save@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -1040,7 +1040,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/cache/restore@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -1061,7 +1061,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/cache/save@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -1110,7 +1110,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ossf-scorecard.yml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -1163,7 +1163,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T07:34:32.373353+00:00",
+  "fetched_at": "2026-05-11T17:27:01.881657+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1187,7 +1187,7 @@
     },
     {
       "path": ".github/workflows/ios.yaml",
-      "size": 7073
+      "size": 6584
     },
     {
       "path": ".github/workflows/macos.yaml",
@@ -1215,7 +1215,7 @@
     "full_name": "firebase/flutterfire",
     "html_url": "https://github.com/firebase/flutterfire",
     "language": "Dart",
-    "pushed_at": "2026-05-08T20:44:56Z",
+    "pushed_at": "2026-05-11T17:09:55Z",
     "stargazers_count": 9199,
     "topics": [
       "dart",
@@ -1223,7 +1223,7 @@
       "flutter",
       "google"
     ],
-    "updated_at": "2026-05-10T12:01:55Z"
+    "updated_at": "2026-05-11T17:03:12Z"
   },
   "repo_links": [
     {

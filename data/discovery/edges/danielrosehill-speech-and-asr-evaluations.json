@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Speech-And-ASR-Evaluations",
+      "target": "danielrosehill/local-asr-stt-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Speech-And-ASR-Evaluations",
+      "target": "danielrosehill/fine-tune-accuracy-evaluation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Speech-And-ASR-Evaluations",
+      "target": "danielrosehill/gemini-31-lite-audio-understanding-eval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Speech-And-ASR-Evaluations",
+      "target": "danielrosehill/audio-understanding-bitrate-eval-0426",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-11T13:15:38.721392+00:00",
+  "source_repo": "danielrosehill/Speech-And-ASR-Evaluations"
+}

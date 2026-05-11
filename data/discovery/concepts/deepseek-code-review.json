@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Deepseek Code Review"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust",
+      "status": "candidate-context",
+      "text": "Deepseek Code Review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust",
+      "status": "candidate",
+      "text": "Deepseek Code Review"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "comment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "error"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "monitoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "prc"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deepseek Code Review",
+  "concept_id": "deepseek-code-review",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/deepseek_review.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    }
+  ],
+  "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deepseek Code Review",
+      "sense_id": "deepseek-code-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

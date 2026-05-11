@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-11T15:41:32.005954+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1964
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude template/pattern for mapping out keyboards for shortcut and macro creation",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Keyboard-Scanner",
+    "html_url": "https://github.com/danielrosehill/Claude-Keyboard-Scanner",
+    "language": null,
+    "pushed_at": "2026-04-30T18:55:40Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-30T18:55:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

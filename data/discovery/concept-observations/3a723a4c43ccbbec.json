@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Plugin for looking up Jewish religious texts, bundling Sefaria MCP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A Claude Code plugin for looking up Jewish texts and references through the [Sefaria](https://www.sefaria.org) library, via the official [Sefaria MCP server](https://mcp.sefaria.org/sse)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A Claude Code plugin for looking up Jewish texts and references through the [Sefaria](https://www.sefaria.org) library, via the official [Sefaria MCP server](https://mcp.sefaria.org/sse)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049544,
+      "status": "candidate",
+      "text": "pentateuch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28608755,
+      "status": "candidate",
+      "text": "laws"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048999,
+      "status": "candidate",
+      "text": "talmud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047663,
+      "status": "candidate",
+      "text": "bible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047495,
+      "status": "candidate",
+      "text": "biblical"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "torah",
+      "sense_id": "torah#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "laws"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "pentateuch"
+    }
+  ],
+  "concept_id": "torah",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "torah",
+  "observation_id": "3a723a4c43ccbbec",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_text": "torah",
+  "source_context_snippet": "A Claude Code plugin for looking up Jewish texts and references through the [Sefaria](https://www.sefaria.org) library, via the official [Sefaria MCP server](https://mcp.sefaria.org/sse).",
+  "source_file": null,
+  "source_repo": "danielrosehill/Jewish-Texts-Reference-Plugin",
+  "source_repo_description": "Plugin for looking up Jewish religious texts, bundling Sefaria MCP"
+}

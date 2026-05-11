@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rtts/djhtml",
+      "target": "unknownplatypus/djangofmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rtts/djhtml",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rtts/djhtml",
+      "target": "actions/setup-python@main",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-11T17:50:43.449569+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6692
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 108
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 837
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Django/Jinja template indenter",
+    "fork": false,
+    "full_name": "rtts/djhtml",
+    "html_url": "https://github.com/rtts/djhtml",
+    "language": "Python",
+    "pushed_at": "2026-04-17T14:26:48Z",
+    "stargazers_count": 640,
+    "topics": [],
+    "updated_at": "2026-05-02T09:25:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unknownplatypus/djangofmt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

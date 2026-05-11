@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Agent-Skills",
+      "target": "agent-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Agent-Skills",
+      "target": "skillls",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T15:41:46.852513+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1068
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Planning and \"production\" repo for agent skills",
+    "fork": false,
+    "full_name": "danielrosehill/Agent-Skills",
+    "html_url": "https://github.com/danielrosehill/Agent-Skills",
+    "language": null,
+    "pushed_at": "2026-04-06T21:12:17Z",
+    "stargazers_count": 0,
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "skillls"
+    ],
+    "updated_at": "2026-04-06T21:12:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Collections of agent skills I've created.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-skills"
+    },
+    {
+      "context_snippet": "Collections of agent skills I've created.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skillls"
+    }
+  ]
+}

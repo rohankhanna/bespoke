@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-11T15:41:42.385859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4384
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 362
+    },
+    {
+      "path": "requirements.txt",
+      "size": 171
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hebrew nikud with transfomers",
+    "fork": false,
+    "full_name": "morrisalp/unikud",
+    "html_url": "https://github.com/morrisalp/unikud",
+    "language": "Python",
+    "pushed_at": "2025-02-12T22:26:31Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-04-23T11:28:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

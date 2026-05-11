@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-agents.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-agents.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apify/agent-skills",
+      "target": "apify/awesome-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apify/agent-skills",
+      "target": "apify/mcpc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apify/agent-skills",
+      "target": "apify/actor-templates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apify/agent-skills",
+      "target": "apify/apify-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-agents.yml",
+      "source_repo": "apify/agent-skills",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-agents.yml",
+      "source_repo": "apify/agent-skills",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-11T17:51:27.585773+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10059
+    },
+    {
+      "path": ".github/workflows/generate-agents.yml",
+      "size": 792
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collection of Apify Agent Skills",
+    "fork": false,
+    "full_name": "apify/agent-skills",
+    "html_url": "https://github.com/apify/agent-skills",
+    "language": "Python",
+    "pushed_at": "2026-05-04T06:59:45Z",
+    "stargazers_count": 2022,
+    "topics": [],
+    "updated_at": "2026-05-11T17:43:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apify/actor-templates",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apify/apify-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apify/awesome-skills",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apify/mcpc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Useful-AI-Agent-Skills",
+      "target": "apify/agent-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Useful-AI-Agent-Skills",
+      "target": "aaron-he-zhu/seo-geo-claude-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Useful-AI-Agent-Skills",
+      "target": "benchflow-ai/skillsbench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Useful-AI-Agent-Skills",
+      "target": "barmalka/super-pharm-stock-checker",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-11T15:41:47.730109+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27969
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Personal collection of AI agent skills and skill collections I'm exploring / might find useful",
+    "fork": false,
+    "full_name": "danielrosehill/Useful-AI-Agent-Skills",
+    "html_url": "https://github.com/danielrosehill/Useful-AI-Agent-Skills",
+    "language": null,
+    "pushed_at": "2026-04-06T19:35:47Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-06T19:35:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aaron-he-zhu/seo-geo-claude-skills",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apify/agent-skills",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "barmalka/super-pharm-stock-checker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benchflow-ai/skillsbench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

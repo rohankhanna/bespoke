@@ -1,0 +1,120 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BAI-LAB/MemoryOS",
+      "target": "bai-lab/survey-on-ai-memory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BAI-LAB/MemoryOS",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BAI-LAB/MemoryOS",
+      "target": "long-term-memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BAI-LAB/MemoryOS",
+      "target": "operating-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BAI-LAB/MemoryOS",
+      "target": "personalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BAI-LAB/MemoryOS",
+      "target": "retrieval-augmented-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T17:51:12.790912+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20014
+    },
+    {
+      "path": "Dockerfile",
+      "size": 235
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[EMNLP 2025 Oral] MemoryOS is designed to provide a memory operating system for personalized AI agents.",
+    "fork": false,
+    "full_name": "BAI-LAB/MemoryOS",
+    "html_url": "https://github.com/BAI-LAB/MemoryOS",
+    "language": "Python",
+    "pushed_at": "2026-04-28T15:52:03Z",
+    "stargazers_count": 1374,
+    "topics": [
+      "agent",
+      "language-model",
+      "llm",
+      "long-term-memory",
+      "operating-system",
+      "personalization",
+      "rag",
+      "retrieval-augmented-generation"
+    ],
+    "updated_at": "2026-05-11T16:04:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bai-lab/survey-on-ai-memory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-term-memory"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "operating-system"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "personalization"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retrieval-augmented-generation"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Civitasv/cmake-tools.nvim",
+      "target": "shatur/neovim-cmake",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Civitasv/cmake-tools.nvim",
+      "target": "rouge8/neotest-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Civitasv/cmake-tools.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Civitasv/cmake-tools.nvim",
+      "target": "JohnnyMorganz/stylua-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Civitasv/cmake-tools.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Civitasv/cmake-tools.nvim",
+      "target": "Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Civitasv/cmake-tools.nvim",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Civitasv/cmake-tools.nvim",
+      "target": "cmake-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Civitasv/cmake-tools.nvim",
+      "target": "dap-mode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Civitasv/cmake-tools.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Civitasv/cmake-tools.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Civitasv/cmake-tools.nvim",
+      "target": "neovim-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Civitasv/cmake-tools.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T13:21:32.210575+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11810
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 998
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CMake integration in Neovim",
+    "fork": false,
+    "full_name": "Civitasv/cmake-tools.nvim",
+    "html_url": "https://github.com/Civitasv/cmake-tools.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-04-28T06:25:00Z",
+    "stargazers_count": 538,
+    "topics": [
+      "cmake",
+      "cmake-tools",
+      "dap-mode",
+      "lua",
+      "neovim",
+      "neovim-plugin",
+      "neovim-plugins",
+      "nvim"
+    ],
+    "updated_at": "2026-05-10T09:17:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rouge8/neotest-rust",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shatur/neovim-cmake",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Main"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./docs/images/demo.gif\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./docs/images/demo.gif\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake-tools"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./docs/images/demo.gif\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dap-mode"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./docs/images/demo.gif\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./docs/images/demo.gif\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./docs/images/demo.gif\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugins"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./docs/images/demo.gif\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    }
+  ]
+}

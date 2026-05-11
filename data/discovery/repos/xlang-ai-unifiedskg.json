@@ -93,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T03:06:53.536854+00:00",
+  "fetched_at": "2026-05-11T16:32:15.200375+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -114,7 +114,7 @@
     "html_url": "https://github.com/xlang-ai/UnifiedSKG",
     "language": "Python",
     "pushed_at": "2023-08-22T07:18:00Z",
-    "stargazers_count": 566,
+    "stargazers_count": 565,
     "topics": [
       "data-to-text",
       "fact-verification",
@@ -130,7 +130,7 @@
       "structured-knowledge-grounding",
       "text-generation"
     ],
-    "updated_at": "2026-05-01T03:37:03Z"
+    "updated_at": "2026-05-11T12:30:48Z"
   },
   "repo_links": [
     {

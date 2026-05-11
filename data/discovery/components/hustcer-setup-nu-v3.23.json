@@ -1,0 +1,12 @@
+{
+  "component": "hustcer/setup-nu@v3.23",
+  "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deepseek_review.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
+      "target": "ai-experiments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
+      "target": "audio-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
+      "target": "multimodal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T15:41:50.391148+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5145
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "One voice recording for testing with TTS/cloning",
+    "fork": false,
+    "full_name": "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
+    "html_url": "https://github.com/danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
+    "language": "Python",
+    "pushed_at": "2026-03-26T17:58:11Z",
+    "stargazers_count": 0,
+    "topics": [
+      "ai-experiments",
+      "audio-understanding",
+      "multimodal"
+    ],
+    "updated_at": "2026-03-26T18:11:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A systematic evaluation of audio multimodal model capabilities using structured test prompts, a natural voice recording, and programmatic output generation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-experiments"
+    },
+    {
+      "context_snippet": "A systematic evaluation of audio multimodal model capabilities using structured test prompts, a natural voice recording, and programmatic output generation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-understanding"
+    },
+    {
+      "context_snippet": "A systematic evaluation of audio multimodal model capabilities using structured test prompts, a natural voice recording, and programmatic output generation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    }
+  ]
+}

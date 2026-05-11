@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Chat with your data  -  with memory, rules, and observability built in. Deploy in 2 minutes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish Helm chart"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish Helm chart"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17972,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17925,
+      "status": "candidate",
+      "text": "stern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17896,
+      "status": "candidate",
+      "text": "bring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17896,
+      "status": "candidate",
+      "text": "bringing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17896,
+      "status": "candidate",
+      "text": "out"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Helm chart",
+      "sense_id": "publish-helm-chart#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-helm-chart",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-helm-chart",
+  "observation_id": "2981cbe3a4f64119",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_text": "Publish Helm chart",
+  "source_context_snippet": "Publish Helm chart",
+  "source_file": ".github/workflows/helm-publish.yaml",
+  "source_repo": "bagofwords1/bagofwords",
+  "source_repo_description": "Chat with your data  -  with memory, rules, and observability built in. Deploy in 2 minutes"
+}

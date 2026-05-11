@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "garmin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5E7EN/Garmin-ZmanIQ",
+      "status": "candidate-context",
+      "text": "Connect IQ app for Garmin wearables to display current zmanim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5E7EN/Garmin-ZmanIQ",
+      "status": "candidate-context",
+      "text": "Connect IQ app for Garmin wearables for convenient Zmanim lookup & reminders."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5E7EN/Garmin-ZmanIQ",
+      "status": "candidate",
+      "text": "Connect IQ app for Garmin wearables for convenient Zmanim lookup & reminders."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31363,
+      "status": "candidate",
+      "text": "logitech"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31362,
+      "status": "candidate",
+      "text": "acronis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31361,
+      "status": "candidate",
+      "text": "telenav"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31360,
+      "status": "candidate",
+      "text": "lenovo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31359,
+      "status": "candidate",
+      "text": "te connectivity"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "garmin",
+  "concept_id": "garmin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "5E7EN/Garmin-ZmanIQ"
+    }
+  ],
+  "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "garmin",
+      "sense_id": "garmin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

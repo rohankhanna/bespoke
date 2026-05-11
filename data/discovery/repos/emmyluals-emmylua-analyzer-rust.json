@@ -33,6 +33,16 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deepseek_review.yml"
+    },
+    {
+      "component": "hustcer/setup-nu@v3.23",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deepseek_review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
     {
@@ -143,6 +153,27 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deepseek_review.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deepseek_review.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust",
+      "target": "hustcer/setup-nu@v3.23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deepseek_review.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust",
+      "target": "Deepseek Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "EmmyLuaLs/emmylua-analyzer-rust",
       "target": "actions/checkout@v4",
@@ -191,7 +222,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T02:06:56.361084+00:00",
+  "fetched_at": "2026-05-11T17:42:21.975924+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -204,6 +235,10 @@
     {
       "path": ".github/workflows/build.yml",
       "size": 5002
+    },
+    {
+      "path": ".github/workflows/deepseek_review.yml",
+      "size": 1470
     },
     {
       "path": ".github/workflows/test.yml",
@@ -223,10 +258,10 @@
     "full_name": "EmmyLuaLs/emmylua-analyzer-rust",
     "html_url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust",
     "language": "Rust",
-    "pushed_at": "2026-05-09T09:56:13Z",
+    "pushed_at": "2026-05-11T12:54:38Z",
     "stargazers_count": 447,
     "topics": [],
-    "updated_at": "2026-05-09T09:55:53Z"
+    "updated_at": "2026-05-11T12:54:49Z"
   },
   "repo_links": [
     {
@@ -241,6 +276,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/build.yml",
       "term": "Rust"
+    },
+    {
+      "context_snippet": "Deepseek Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deepseek_review.yml",
+      "term": "Deepseek Code Review"
     },
     {
       "context_snippet": "Test",

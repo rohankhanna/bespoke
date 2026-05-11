@@ -232,6 +232,18 @@
       "source_repo": "flipped-aurora/gin-vue-admin",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antvis/mcp-server-chart",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 A visualization mcp & skills contains 25+ visual charts using @antvis. Using for chart generation and data analysis."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antvis/mcp-server-chart",
+      "status": "candidate-context",
+      "text": "A Model Context Protocol server for generating charts using [AntV](https://github.com/antvis/). We can use this mcp server for _chart generation_ and _data analysis_."
     }
   ],
   "candidate_glosses": [
@@ -342,6 +354,12 @@
       "source_repo": "flipped-aurora/gin-vue-admin",
       "status": "candidate",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antvis/mcp-server-chart",
+      "status": "candidate",
+      "text": "A Model Context Protocol server for generating charts using [AntV](https://github.com/antvis/). We can use this mcp server for _chart generation_ and _data analysis_."
     }
   ],
   "candidate_related_terms": [
@@ -733,11 +751,23 @@
       "observed_at": "2026-05-11T07:24:13.902749+00:00",
       "source_file": null,
       "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "antvis/mcp-server-chart"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

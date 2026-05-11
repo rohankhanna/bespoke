@@ -871,6 +871,24 @@
       "source_repo": "cosmos/awesome-cosmos",
       "status": "candidate-context",
       "text": "<!--lint disable double-link-->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "academic/awesome-datascience",
+      "status": "candidate-context",
+      "text": ":memo: An awesome Data Science repository to learn and apply for real world problems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "academic/awesome-datascience",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" markdown=\"1\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "status": "candidate-context",
+      "text": "> A curated list of tools, frameworks, and resources for **agent harness engineering** \u2014 the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale."
     }
   ],
   "candidate_glosses": [
@@ -1299,6 +1317,18 @@
       "source_repo": "cosmos/awesome-cosmos",
       "status": "candidate",
       "text": "<!--lint disable double-link-->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "academic/awesome-datascience",
+      "status": "candidate",
+      "text": "<div align=\"center\" markdown=\"1\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "status": "candidate",
+      "text": "> A curated list of tools, frameworks, and resources for **agent harness engineering** \u2014 the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale."
     }
   ],
   "candidate_related_terms": [],
@@ -1972,11 +2002,29 @@
       "observed_at": "2026-05-11T07:24:13.902749+00:00",
       "source_file": null,
       "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "academic/awesome-datascience"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "AutoJunjie/awesome-agent-harness"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

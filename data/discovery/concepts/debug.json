@@ -214,6 +214,30 @@
       "source_repo": "NightMachinery/PyExfiltrator",
       "status": "candidate-context",
       "text": "[tool.poetry] name = \"PyExfiltrator\" version = \"0.1.0\" description = \"\" authors = [\"NightMachinary <rudiwillalwaysloveyou@gmail.com>\"] [tool.poetry.dependencies] python = \"^3.7\" [tool.poetry.dev-dependencies] pytest = \"^5.2\" [build-system] requires = [\"poetry-core>=1.0.0\"] build\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shatur/neovim-cmake",
+      "status": "candidate-context",
+      "text": "CMake integration for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shatur/neovim-cmake",
+      "status": "candidate-context",
+      "text": "**This plugin has been deprecated in favor of [neovim-tasks](https://github.com/Shatur/neovim-tasks)**. I realized that having separate plugins for each build system is inconvenient, so I decided to write a general purpose plugin that could support support any build system. If y\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shatur/neovim-tasks",
+      "status": "candidate-context",
+      "text": "A statefull task manager focused on integration with build systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shatur/neovim-tasks",
+      "status": "candidate-context",
+      "text": "Neovim Tasks"
     }
   ],
   "candidate_glosses": [
@@ -318,6 +342,18 @@
       "source_repo": "NightMachinery/PyExfiltrator",
       "status": "candidate",
       "text": "[tool.poetry] name = \"PyExfiltrator\" version = \"0.1.0\" description = \"\" authors = [\"NightMachinary <rudiwillalwaysloveyou@gmail.com>\"] [tool.poetry.dependencies] python = \"^3.7\" [tool.poetry.dev-dependencies] pytest = \"^5.2\" [build-system] requires = [\"poetry-core>=1.0.0\"] build\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shatur/neovim-cmake",
+      "status": "candidate",
+      "text": "**This plugin has been deprecated in favor of [neovim-tasks](https://github.com/Shatur/neovim-tasks)**. I realized that having separate plugins for each build system is inconvenient, so I decided to write a general purpose plugin that could support support any build system. If y\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shatur/neovim-tasks",
+      "status": "candidate",
+      "text": "Neovim Tasks"
     }
   ],
   "candidate_related_terms": [
@@ -859,11 +895,35 @@
       "observed_at": "2026-05-11T00:40:20.012502+00:00",
       "source_file": null,
       "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "Shatur/neovim-cmake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "Shatur/neovim-tasks"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T00:40:20.012502+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

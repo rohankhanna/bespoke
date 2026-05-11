@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
+      "target": "ai-experiments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
+      "target": "audio-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
+      "target": "multimodal",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-11T13:15:38.721392+00:00",
+  "source_repo": "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval"
+}

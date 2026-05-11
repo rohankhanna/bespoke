@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fixture-based test framework for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update Head Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update Head Docs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25638,
+      "status": "candidate",
+      "text": "bulletin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25638,
+      "status": "candidate",
+      "text": "maintaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24664,
+      "status": "candidate",
+      "text": "clerk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24664,
+      "status": "candidate",
+      "text": "secretary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24643,
+      "status": "candidate",
+      "text": "album"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Head Docs",
+      "sense_id": "update-head-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-head-docs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-head-docs",
+  "observation_id": "9c3d1563b50145a8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_text": "Update Head Docs",
+  "source_context_snippet": "Update Head Docs",
+  "source_file": ".github/workflows/update_head_docs.yml",
+  "source_repo": "la10736/rstest",
+  "source_repo_description": "Fixture-based test framework for Rust"
+}

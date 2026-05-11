@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Comparing Whisper fine-tunes versus stock Whisper on local inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**TL;DR:** Fine-tuning improved smaller models but **made larger models worse**. The exception: code-switching (mixing languages mid-sentence) improved dramatically across all model sizes."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**TL;DR:** Fine-tuning improved smaller models but **made larger models worse**. The exception: code-switching (mixing languages mid-sentence) improved dramatically across all model sizes."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "audio-evals",
+      "sense_id": "audio-evals#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "audio-evals",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "audio-evals",
+  "observation_id": "648392cdc561842e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_text": "audio-evals",
+  "source_context_snippet": "**TL;DR:** Fine-tuning improved smaller models but **made larger models worse**. The exception: code-switching (mixing languages mid-sentence) improved dramatically across all model sizes.",
+  "source_file": null,
+  "source_repo": "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",
+  "source_repo_description": "Comparing Whisper fine-tunes versus stock Whisper on local inference"
+}

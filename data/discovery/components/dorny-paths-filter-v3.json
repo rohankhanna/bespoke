@@ -1,7 +1,7 @@
 {
   "component": "dorny/paths-filter@v3",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -587,6 +587,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/label-pr.yml",
       "source_repo": "signalfx/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "bagofwords1/bagofwords"
     }
   ]
 }

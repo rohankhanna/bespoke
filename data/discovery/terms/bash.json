@@ -1,7 +1,17 @@
 {
-  "first_seen_at": "2026-05-11T07:24:13.902749+00:00",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
+    },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
@@ -11,6 +21,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "rcasia/neotest-bash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "TypedDevs/bashunit"
     }
   ],
   "term": "bash"

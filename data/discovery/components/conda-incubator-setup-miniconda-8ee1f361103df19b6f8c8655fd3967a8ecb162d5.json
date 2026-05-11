@@ -1,12 +1,17 @@
 {
   "component": "conda-incubator/setup-miniconda@8ee1f361103df19b6f8c8655fd3967a8ecb162d5",
   "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cmake_builds.yml",
       "source_repo": "OSGeo/gdal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/install-from-conda.yml",
+      "source_repo": "NCAS-CMS/pyfive"
     }
   ]
 }

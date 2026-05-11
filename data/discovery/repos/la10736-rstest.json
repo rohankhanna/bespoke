@@ -1,0 +1,219 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-hack",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_head_docs.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_head_docs.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_head_docs.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_head_docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "la10736/rstest",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "la10736/rstest",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "la10736/rstest",
+      "target": "taiki-e/install-action@cargo-hack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "la10736/rstest",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_head_docs.yml",
+      "source_repo": "la10736/rstest",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_head_docs.yml",
+      "source_repo": "la10736/rstest",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_head_docs.yml",
+      "source_repo": "la10736/rstest",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_head_docs.yml",
+      "source_repo": "la10736/rstest",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_head_docs.yml",
+      "source_repo": "la10736/rstest",
+      "target": "Update Head Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "la10736/rstest",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "la10736/rstest",
+      "target": "test-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "la10736/rstest",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "la10736/rstest",
+      "target": "testing-tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T17:42:35.890417+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17973
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 140
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1439
+    },
+    {
+      "path": ".github/workflows/update_head_docs.yml",
+      "size": 793
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fixture-based test framework for Rust",
+    "fork": false,
+    "full_name": "la10736/rstest",
+    "html_url": "https://github.com/la10736/rstest",
+    "language": "Rust",
+    "pushed_at": "2026-03-26T09:55:13Z",
+    "stargazers_count": 1552,
+    "topics": [
+      "rust",
+      "test-framework",
+      "testing",
+      "testing-tools"
+    ],
+    "updated_at": "2026-05-10T14:07:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Update Head Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_head_docs.yml",
+      "term": "Update Head Docs"
+    },
+    {
+      "context_snippet": "[![Crate][crate-image]][crate-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Crate][crate-image]][crate-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-framework"
+    },
+    {
+      "context_snippet": "[![Crate][crate-image]][crate-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "[![Crate][crate-image]][crate-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing-tools"
+    }
+  ]
+}

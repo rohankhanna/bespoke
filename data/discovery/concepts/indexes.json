@@ -115,6 +115,18 @@
       "source_repo": "danielrosehill/Research-Tools-And-Templates-Index",
       "status": "candidate-context",
       "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Resources-Lists-Index",
+      "status": "candidate-context",
+      "text": "Index of my resource lists and ecosystem maps, especially for AI niches"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Resources-Lists-Index",
+      "status": "candidate-context",
+      "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)"
     }
   ],
   "candidate_glosses": [
@@ -169,6 +181,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "danielrosehill/Research-Tools-And-Templates-Index",
+      "status": "candidate",
+      "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Resources-Lists-Index",
       "status": "candidate",
       "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)"
     }
@@ -268,11 +286,17 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Research-Tools-And-Templates-Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Resources-Lists-Index"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

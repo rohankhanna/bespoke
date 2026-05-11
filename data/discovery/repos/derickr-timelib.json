@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-11T15:41:42.994718+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 352
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Timelib is a timezone and date/time library that can calculate local time, convert between timezones and parse textual descriptions of date/time information.",
+    "fork": false,
+    "full_name": "derickr/timelib",
+    "html_url": "https://github.com/derickr/timelib",
+    "language": "C",
+    "pushed_at": "2026-03-02T18:19:04Z",
+    "stargazers_count": 133,
+    "topics": [],
+    "updated_at": "2026-03-02T18:19:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

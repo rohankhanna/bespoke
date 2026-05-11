@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Audio-Understanding-Bitrate-Eval-0426",
+      "target": "danielrosehill/ai-typer-v2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Audio-Understanding-Bitrate-Eval-0426",
+      "target": "audio-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Audio-Understanding-Bitrate-Eval-0426",
+      "target": "multimodal",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-11T13:15:38.721392+00:00",
+  "source_repo": "danielrosehill/Audio-Understanding-Bitrate-Eval-0426"
+}

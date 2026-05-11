@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5E7EN/Garmin-ZmanIQ",
+      "target": "connect-iq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5E7EN/Garmin-ZmanIQ",
+      "target": "garmin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5E7EN/Garmin-ZmanIQ",
+      "target": "monkey-c",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T17:50:44.149282+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2030
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Connect IQ app for Garmin wearables to display current zmanim.",
+    "fork": false,
+    "full_name": "5E7EN/Garmin-ZmanIQ",
+    "html_url": "https://github.com/5E7EN/Garmin-ZmanIQ",
+    "language": "Monkey C",
+    "pushed_at": "2026-04-12T08:12:19Z",
+    "stargazers_count": 1,
+    "topics": [
+      "connect-iq",
+      "garmin",
+      "monkey-c"
+    ],
+    "updated_at": "2026-04-12T08:12:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Connect IQ app for Garmin wearables for convenient Zmanim lookup & reminders.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "connect-iq"
+    },
+    {
+      "context_snippet": "Connect IQ app for Garmin wearables for convenient Zmanim lookup & reminders.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "garmin"
+    },
+    {
+      "context_snippet": "Connect IQ app for Garmin wearables for convenient Zmanim lookup & reminders.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monkey-c"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ariroffe72/zmanim-mcp-server",
+      "target": "pinnymz/python-zmanim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ariroffe72/zmanim-mcp-server",
+      "target": "kosherjava/zmanim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "ariroffe72/zmanim-mcp-server",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "ariroffe72/zmanim-mcp-server",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "ariroffe72/zmanim-mcp-server",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "ariroffe72/zmanim-mcp-server",
+      "target": "Publish to PyPI and Update Registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ariroffe72/zmanim-mcp-server",
+      "target": "judaism",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T13:32:49.253754+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8021
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1529
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 2528
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A comprehensive MCP server for calculating Jewish prayer times (zmanim).",
+    "fork": false,
+    "full_name": "ariroffe72/zmanim-mcp-server",
+    "html_url": "https://github.com/ariroffe72/zmanim-mcp-server",
+    "language": "Python",
+    "pushed_at": "2025-10-31T04:47:38Z",
+    "stargazers_count": 1,
+    "topics": [
+      "judaism"
+    ],
+    "updated_at": "2025-11-30T16:02:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kosherjava/zmanim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pinnymz/python-zmanim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to PyPI and Update Registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish to PyPI and Update Registry"
+    },
+    {
+      "context_snippet": "<!-- mcp-name: io.github.ariroffe72/zmanim-mcp-server -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "judaism"
+    }
+  ]
+}

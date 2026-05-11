@@ -1,0 +1,91 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",
+      "target": "analyticsinmotion/werpy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",
+      "target": "audio-evals",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",
+      "target": "evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",
+      "target": "evaluations",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T15:41:49.369918+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6988
+    },
+    {
+      "path": "requirements.txt",
+      "size": 60
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Comparing Whisper fine-tunes versus stock Whisper on local inference",
+    "fork": false,
+    "full_name": "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",
+    "html_url": "https://github.com/danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",
+    "language": "Python",
+    "pushed_at": "2025-12-10T20:51:40Z",
+    "stargazers_count": 0,
+    "topics": [
+      "asr",
+      "audio-evals",
+      "evaluation",
+      "evaluations",
+      "stt"
+    ],
+    "updated_at": "2025-12-10T20:51:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "analyticsinmotion/werpy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**TL;DR:** Fine-tuning improved smaller models but **made larger models worse**. The exception: code-switching (mixing languages mid-sentence) improved dramatically across all model sizes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-evals"
+    },
+    {
+      "context_snippet": "**TL;DR:** Fine-tuning improved smaller models but **made larger models worse**. The exception: code-switching (mixing languages mid-sentence) improved dramatically across all model sizes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    },
+    {
+      "context_snippet": "**TL;DR:** Fine-tuning improved smaller models but **made larger models worse**. The exception: code-switching (mixing languages mid-sentence) improved dramatically across all model sizes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluations"
+    }
+  ]
+}

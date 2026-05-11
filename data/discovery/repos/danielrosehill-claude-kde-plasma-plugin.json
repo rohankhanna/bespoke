@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-11T15:41:30.802771+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2945
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Claude Code plugin: KDE Plasma (Wayland) runtime utilities \u2014 KWin, plasmoids, panels, virtual desktops, shortcuts, themes, KDE Connect, Klipper, Baloo, kscreen, KWallet.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-KDE-Plasma-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-KDE-Plasma-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-30T15:39:19Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-05-02T09:37:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

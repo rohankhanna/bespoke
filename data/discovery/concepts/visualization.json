@@ -847,6 +847,30 @@
       "source_repo": "cordx56/rustowl",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antvis/mcp-server-chart",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 A visualization mcp & skills contains 25+ visual charts using @antvis. Using for chart generation and data analysis."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antvis/mcp-server-chart",
+      "status": "candidate-context",
+      "text": "A Model Context Protocol server for generating charts using [AntV](https://github.com/antvis/). We can use this mcp server for _chart generation_ and _data analysis_."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bagofwords1/bagofwords",
+      "status": "candidate-context",
+      "text": "Chat with your data  -  with memory, rules, and observability built in. Deploy in 2 minutes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bagofwords1/bagofwords",
+      "status": "candidate-context",
+      "text": "<div>"
     }
   ],
   "candidate_glosses": [
@@ -1269,6 +1293,18 @@
       "source_repo": "cordx56/rustowl",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antvis/mcp-server-chart",
+      "status": "candidate",
+      "text": "A Model Context Protocol server for generating charts using [AntV](https://github.com/antvis/). We can use this mcp server for _chart generation_ and _data analysis_."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bagofwords1/bagofwords",
+      "status": "candidate",
+      "text": "<div>"
     }
   ],
   "candidate_related_terms": [
@@ -2257,11 +2293,41 @@
       "observed_at": "2026-05-11T07:24:13.902749+00:00",
       "source_file": null,
       "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "antvis/mcp-server-chart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "bagofwords1/bagofwords"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "zmanim"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KosherJava/zmanim",
+      "status": "candidate-context",
+      "text": "KosherJava Zmanim API / Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KosherJava/zmanim",
+      "status": "candidate-context",
+      "text": "KosherJava Zmanim API"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BehindTheMath/KosherZmanim",
+      "status": "candidate-context",
+      "text": "Port of the KosherJava zmanim library to TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BehindTheMath/KosherZmanim",
+      "status": "candidate-context",
+      "text": "Things will break, and APIs might change. Be cautious using this in production."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BehindTheMath/zmanim-sql",
+      "status": "candidate-context",
+      "text": "A partial SQL port of the KosherJava library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BehindTheMath/zmanim-sql",
+      "status": "candidate-context",
+      "text": "Things will break, and APIs might change. Be cautious using this in production."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KosherJava/zmanim",
+      "status": "candidate",
+      "text": "KosherJava Zmanim API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BehindTheMath/KosherZmanim",
+      "status": "candidate",
+      "text": "Things will break, and APIs might change. Be cautious using this in production."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BehindTheMath/zmanim-sql",
+      "status": "candidate",
+      "text": "Things will break, and APIs might change. Be cautious using this in production."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "zmanim",
+  "concept_id": "zmanim",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "KosherJava/zmanim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "BehindTheMath/KosherZmanim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "BehindTheMath/zmanim-sql"
+    }
+  ],
+  "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "zmanim",
+      "sense_id": "zmanim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

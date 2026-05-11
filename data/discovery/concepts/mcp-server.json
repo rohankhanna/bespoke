@@ -505,6 +505,30 @@
       "source_repo": "lostintangent/gistpad-mcp",
       "status": "candidate-context",
       "text": "An MCP server for managing and sharing your personal knowledge, daily notes, and reuseable prompts via GitHub Gists. It's a companion to the GistPad [VS Code extension](https://aka.ms/gistpad) and [GistPad.dev](https://gistpad.dev) (for web/mobile), which allows you to access an\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antvis/mcp-server-chart",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 A visualization mcp & skills contains 25+ visual charts using @antvis. Using for chart generation and data analysis."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antvis/mcp-server-chart",
+      "status": "candidate-context",
+      "text": "A Model Context Protocol server for generating charts using [AntV](https://github.com/antvis/). We can use this mcp server for _chart generation_ and _data analysis_."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentic-box/memora",
+      "status": "candidate-context",
+      "text": "Give your AI agents persistent memory."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentic-box/memora",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img src=\"media/memora_new.gif\" width=\"60\" alt=\"Memora Logo\" align=\"absmiddle\"> Memora</h1>"
     }
   ],
   "candidate_glosses": [
@@ -753,6 +777,18 @@
       "source_repo": "lostintangent/gistpad-mcp",
       "status": "candidate",
       "text": "An MCP server for managing and sharing your personal knowledge, daily notes, and reuseable prompts via GitHub Gists. It's a companion to the GistPad [VS Code extension](https://aka.ms/gistpad) and [GistPad.dev](https://gistpad.dev) (for web/mobile), which allows you to access an\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antvis/mcp-server-chart",
+      "status": "candidate",
+      "text": "A Model Context Protocol server for generating charts using [AntV](https://github.com/antvis/). We can use this mcp server for _chart generation_ and _data analysis_."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentic-box/memora",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img src=\"media/memora_new.gif\" width=\"60\" alt=\"Memora Logo\" align=\"absmiddle\"> Memora</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -1510,11 +1546,35 @@
       "observed_at": "2026-05-11T07:24:13.902749+00:00",
       "source_file": null,
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "symgraph/BinAssistMCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "antvis/mcp-server-chart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "agentic-box/memora"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

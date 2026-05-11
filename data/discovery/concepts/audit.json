@@ -508,6 +508,18 @@
       "source_repo": "vaporif/parry-guard",
       "status": "candidate-context",
       "text": "Prompt injection scanner for AI coding tools (Claude Code / Codex / etc). Runs DeBERTa/Llama transformers via Candle or ONNX in Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aiming-lab/AutoHarness",
+      "status": "candidate-context",
+      "text": "AutoHarness: Automated Harness Engineering for AI Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiming-lab/AutoHarness",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -756,6 +768,12 @@
       "source_repo": "sveltejs/kit",
       "status": "candidate",
       "text": "audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aiming-lab/AutoHarness",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1457,11 +1475,29 @@
       "observed_at": "2026-05-11T07:24:13.902749+00:00",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "aiming-lab/AutoHarness"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

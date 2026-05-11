@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kantv-ai/FFmpeg",
+      "target": "zhouwg/kantv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kantv-ai/FFmpeg",
+      "target": "ffmpeg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kantv-ai/FFmpeg",
+      "target": "ffmpeg-android",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T16:26:37.180628+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1977
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "release/4.4",
+    "description": "build a fully open-source and customized FFmpeg6.1 which used as media engine for project KanTV. already moved into project KanTV since 03-21-2024 and this project is no longer maintained accordingly",
+    "fork": false,
+    "full_name": "kantv-ai/FFmpeg",
+    "html_url": "https://github.com/kantv-ai/FFmpeg",
+    "language": "C",
+    "pushed_at": "2024-04-12T14:56:39Z",
+    "stargazers_count": 6,
+    "topics": [
+      "ffmpeg",
+      "ffmpeg-android"
+    ],
+    "updated_at": "2026-02-03T02:15:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhouwg/kantv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "FFmpeg README",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ffmpeg"
+    },
+    {
+      "context_snippet": "FFmpeg README",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ffmpeg-android"
+    }
+  ]
+}

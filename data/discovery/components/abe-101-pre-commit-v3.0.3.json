@@ -1,0 +1,12 @@
+{
+  "component": "abe-101/pre-commit@v3.0.3",
+  "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "abe-101/myHebrewDates"
+    }
+  ]
+}

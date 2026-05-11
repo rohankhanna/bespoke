@@ -430,6 +430,18 @@
       "source_repo": "filllabs/dependi",
       "status": "candidate-context",
       "text": "Dependi is a comprehensive dependency management extension that helps developers write code faster and smarter by efficiently managing project dependencies. Formerly known as Crates the most loved and used dependency management extension for Rust. Dependi now supports multiple l\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shatur/neovim-tasks",
+      "status": "candidate-context",
+      "text": "A statefull task manager focused on integration with build systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shatur/neovim-tasks",
+      "status": "candidate-context",
+      "text": "Neovim Tasks"
     }
   ],
   "candidate_glosses": [
@@ -642,6 +654,12 @@
       "source_repo": "filllabs/dependi",
       "status": "candidate",
       "text": "Dependi is a comprehensive dependency management extension that helps developers write code faster and smarter by efficiently managing project dependencies. Formerly known as Crates the most loved and used dependency management extension for Rust. Dependi now supports multiple l\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shatur/neovim-tasks",
+      "status": "candidate",
+      "text": "Neovim Tasks"
     }
   ],
   "candidate_related_terms": [
@@ -1267,11 +1285,29 @@
       "observed_at": "2026-05-11T07:24:13.902749+00:00",
       "source_file": ".github/workflows/cargo.yml",
       "source_repo": "blitz-js/next-superjson-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/cargo.yml",
+      "source_repo": "blitz-js/next-superjson-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "Shatur/neovim-tasks"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

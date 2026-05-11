@@ -1,19 +1,6 @@
 {
-  "components": [
-    {
-      "component": "emacscollective/workflows/.github/workflows/compile.yml@main",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/compile.yml"
-    }
-  ],
+  "components": [],
   "edges": [
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/compile.yml",
-      "source_repo": "emacscollective/auto-compile",
-      "target": "emacscollective/workflows/.github/workflows/compile.yml@main",
-      "target_type": "component"
-    },
     {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/compile.yml",
@@ -22,11 +9,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T07:51:05.266970+00:00",
+  "fetched_at": "2026-05-11T17:38:23.473536+00:00",
   "fetched_files": [
     {
       "path": ".github/workflows/compile.yml",
-      "size": 145
+      "size": 234
     }
   ],
   "related_repositories": [],
@@ -38,10 +25,10 @@
     "full_name": "emacscollective/auto-compile",
     "html_url": "https://github.com/emacscollective/auto-compile",
     "language": "Emacs Lisp",
-    "pushed_at": "2026-03-01T12:57:35Z",
+    "pushed_at": "2026-05-11T15:50:46Z",
     "stargazers_count": 181,
     "topics": [],
-    "updated_at": "2026-04-03T14:25:25Z"
+    "updated_at": "2026-05-11T16:03:17Z"
   },
   "repo_links": [],
   "terms": [

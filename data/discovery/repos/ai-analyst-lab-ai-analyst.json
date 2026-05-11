@@ -1,0 +1,65 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ai-analyst-lab/ai-analyst",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ai-analyst-lab/ai-analyst",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-11T17:50:52.996856+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29155
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 903
+    },
+    {
+      "path": "requirements.txt",
+      "size": 90
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 689
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AI Product Analyst \u2014 Claude Code-powered data analysis toolkit",
+    "fork": false,
+    "full_name": "ai-analyst-lab/ai-analyst",
+    "html_url": "https://github.com/ai-analyst-lab/ai-analyst",
+    "language": "Python",
+    "pushed_at": "2026-04-29T16:17:55Z",
+    "stargazers_count": 201,
+    "topics": [],
+    "updated_at": "2026-05-11T13:35:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

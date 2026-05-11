@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Plugin for looking up Jewish religious texts, bundling Sefaria MCP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A Claude Code plugin for looking up Jewish texts and references through the [Sefaria](https://www.sefaria.org) library, via the official [Sefaria MCP server](https://mcp.sefaria.org/sse)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A Claude Code plugin for looking up Jewish texts and references through the [Sefaria](https://www.sefaria.org) library, via the official [Sefaria MCP server](https://mcp.sefaria.org/sse)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29768532,
+      "status": "candidate",
+      "text": "torah"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29666015,
+      "status": "candidate",
+      "text": "tractate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19769305,
+      "status": "candidate",
+      "text": "gemara"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19769304,
+      "status": "candidate",
+      "text": "halakhah"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19769303,
+      "status": "candidate",
+      "text": "oral law"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "talmud",
+      "sense_id": "talmud#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "talmud",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "talmud",
+  "observation_id": "29c71e92fd23b362",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_text": "talmud",
+  "source_context_snippet": "A Claude Code plugin for looking up Jewish texts and references through the [Sefaria](https://www.sefaria.org) library, via the official [Sefaria MCP server](https://mcp.sefaria.org/sse).",
+  "source_file": null,
+  "source_repo": "danielrosehill/Jewish-Texts-Reference-Plugin",
+  "source_repo_description": "Plugin for looking up Jewish religious texts, bundling Sefaria MCP"
+}

@@ -799,6 +799,30 @@
       "source_repo": "aymenfurter/smartrag",
       "status": "candidate-context",
       "text": "<div id=\"top\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Audio-Understanding-Bitrate-Eval-0426",
+      "status": "candidate-context",
+      "text": "Empirical eval: how MP3 bitrate affects transcription accuracy across every audio-input LLM on OpenRouter (Gemini, GPT-Audio, Voxtral, MiMo). April 2026."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Audio-Understanding-Bitrate-Eval-0426",
+      "status": "candidate-context",
+      "text": "![Header](plots/header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
+      "status": "candidate-context",
+      "text": "One voice recording for testing with TTS/cloning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
+      "status": "candidate-context",
+      "text": "A systematic evaluation of audio multimodal model capabilities using structured test prompts, a natural voice recording, and programmatic output generation."
     }
   ],
   "candidate_glosses": [
@@ -1197,6 +1221,18 @@
       "source_repo": "aymenfurter/smartrag",
       "status": "candidate",
       "text": "<div id=\"top\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Audio-Understanding-Bitrate-Eval-0426",
+      "status": "candidate",
+      "text": "![Header](plots/header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
+      "status": "candidate",
+      "text": "A systematic evaluation of audio multimodal model capabilities using structured test prompts, a natural voice recording, and programmatic output generation."
     }
   ],
   "candidate_related_terms": [
@@ -2554,11 +2590,53 @@
       "observed_at": "2026-05-11T07:24:13.902749+00:00",
       "source_file": null,
       "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Qwen-VL-Series-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/maestro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Audio-Understanding-Bitrate-Eval-0426"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

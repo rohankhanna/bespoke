@@ -8,13 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Alex313031/Thorium-MacOS",
-      "target": "alex313031/thorium.",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "Alex313031/Thorium-MacOS",
@@ -78,6 +71,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-11T00:40:20.012502+00:00",
+  "generated_at": "2026-05-11T13:15:38.721392+00:00",
   "source_repo": "Alex313031/Thorium-MacOS"
 }

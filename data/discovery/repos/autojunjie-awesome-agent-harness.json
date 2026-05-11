@@ -1,0 +1,206 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "bloopai/vibe-kanban",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "axon-core/axon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "agentseal/codeburn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "awslabs/aidlc-workflows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "agent-harness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "agent-orchestration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "agentic-coding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "coding-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "harness-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "target": "multi-agent",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T17:51:04.311608+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29200
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "AutoJunjie/awesome-agent-harness",
+    "html_url": "https://github.com/AutoJunjie/awesome-agent-harness",
+    "language": null,
+    "pushed_at": "2026-04-19T11:09:46Z",
+    "stargazers_count": 403,
+    "topics": [
+      "agent-harness",
+      "agent-orchestration",
+      "agentic-coding",
+      "ai-agents",
+      "awesome",
+      "awesome-list",
+      "coding-agents",
+      "developer-tools",
+      "harness-engineering",
+      "multi-agent"
+    ],
+    "updated_at": "2026-05-11T07:44:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agentseal/codeburn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awslabs/aidlc-workflows",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "axon-core/axon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bloopai/vibe-kanban",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> A curated list of tools, frameworks, and resources for **agent harness engineering** \u2014 the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-harness"
+    },
+    {
+      "context_snippet": "> A curated list of tools, frameworks, and resources for **agent harness engineering** \u2014 the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-orchestration"
+    },
+    {
+      "context_snippet": "> A curated list of tools, frameworks, and resources for **agent harness engineering** \u2014 the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-coding"
+    },
+    {
+      "context_snippet": "> A curated list of tools, frameworks, and resources for **agent harness engineering** \u2014 the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "> A curated list of tools, frameworks, and resources for **agent harness engineering** \u2014 the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "> A curated list of tools, frameworks, and resources for **agent harness engineering** \u2014 the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coding-agents"
+    },
+    {
+      "context_snippet": "> A curated list of tools, frameworks, and resources for **agent harness engineering** \u2014 the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "> A curated list of tools, frameworks, and resources for **agent harness engineering** \u2014 the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "harness-engineering"
+    },
+    {
+      "context_snippet": "> A curated list of tools, frameworks, and resources for **agent harness engineering** \u2014 the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent"
+    }
+  ]
+}

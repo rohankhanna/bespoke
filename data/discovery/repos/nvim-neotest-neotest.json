@@ -75,14 +75,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-neotest/neotest",
-      "target": "codymikol/neotest-kotlin.nvim",
+      "target": "rcasia/neotest-java",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-neotest/neotest",
-      "target": "orjangj/neotest-ctest",
+      "target": "codymikol/neotest-kotlin.nvim",
       "target_type": "repository"
     },
     {
@@ -170,7 +170,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-10T21:34:21.160027+00:00",
+  "fetched_at": "2026-05-11T17:42:27.916372+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -199,12 +199,12 @@
     "html_url": "https://github.com/nvim-neotest/neotest",
     "language": "Lua",
     "pushed_at": "2026-05-01T07:18:33Z",
-    "stargazers_count": 3077,
+    "stargazers_count": 3076,
     "topics": [
       "lua",
       "neovim"
     ],
-    "updated_at": "2026-05-10T13:48:30Z"
+    "updated_at": "2026-05-11T08:46:10Z"
   },
   "repo_links": [
     {
@@ -224,7 +224,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "orjangj/neotest-ctest",
+      "full_name": "rcasia/neotest-java",
       "source_file": "README.md"
     }
   ],

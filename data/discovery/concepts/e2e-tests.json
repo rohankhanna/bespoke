@@ -415,6 +415,18 @@
       "source_repo": "jaegertracing/jaeger-operator",
       "status": "candidate-context",
       "text": "E2E tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bagofwords1/bagofwords",
+      "status": "candidate-context",
+      "text": "Chat with your data  -  with memory, rules, and observability built in. Deploy in 2 minutes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bagofwords1/bagofwords",
+      "status": "candidate-context",
+      "text": "e2e tests"
     }
   ],
   "candidate_glosses": [
@@ -621,6 +633,12 @@
       "source_repo": "jaegertracing/jaeger-operator",
       "status": "candidate",
       "text": "E2E tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bagofwords1/bagofwords",
+      "status": "candidate",
+      "text": "e2e tests"
     }
   ],
   "candidate_related_terms": [
@@ -1894,11 +1912,47 @@
       "observed_at": "2026-05-11T07:24:13.902749+00:00",
       "source_file": ".github/workflows/e2e.yml",
       "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/external-tests.yml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "gastownhall/gastown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/e2e_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "bagofwords1/bagofwords"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

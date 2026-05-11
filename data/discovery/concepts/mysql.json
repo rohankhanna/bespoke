@@ -379,6 +379,18 @@
       "source_repo": "dbkangaroo/kangaroo",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BehindTheMath/zmanim-sql",
+      "status": "candidate-context",
+      "text": "A partial SQL port of the KosherJava library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BehindTheMath/zmanim-sql",
+      "status": "candidate-context",
+      "text": "Things will break, and APIs might change. Be cautious using this in production."
     }
   ],
   "candidate_glosses": [
@@ -567,6 +579,12 @@
       "source_repo": "dbkangaroo/kangaroo",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BehindTheMath/zmanim-sql",
+      "status": "candidate",
+      "text": "Things will break, and APIs might change. Be cautious using this in production."
     }
   ],
   "candidate_related_terms": [
@@ -1018,11 +1036,23 @@
       "observed_at": "2026-05-11T07:24:13.902749+00:00",
       "source_file": null,
       "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "BehindTheMath/zmanim-sql"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

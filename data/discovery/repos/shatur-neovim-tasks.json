@@ -1,0 +1,174 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "nebularg/actions-luacheck@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v1.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shatur/neovim-tasks",
+      "target": "kiron1/bazel-compile-commands",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Shatur/neovim-tasks",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Shatur/neovim-tasks",
+      "target": "nebularg/actions-luacheck@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Shatur/neovim-tasks",
+      "target": "JohnnyMorganz/stylua-action@v1.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Shatur/neovim-tasks",
+      "target": "Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shatur/neovim-tasks",
+      "target": "cargo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shatur/neovim-tasks",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shatur/neovim-tasks",
+      "target": "debug",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shatur/neovim-tasks",
+      "target": "quickfix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shatur/neovim-tasks",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T17:42:38.047344+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28886
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 727
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A statefull task manager focused on integration with build systems.",
+    "fork": false,
+    "full_name": "Shatur/neovim-tasks",
+    "html_url": "https://github.com/Shatur/neovim-tasks",
+    "language": "Lua",
+    "pushed_at": "2026-04-19T12:01:37Z",
+    "stargazers_count": 125,
+    "topics": [
+      "c",
+      "cargo",
+      "cmake",
+      "cpp",
+      "debug",
+      "quickfix",
+      "rust"
+    ],
+    "updated_at": "2026-04-19T12:01:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kiron1/bazel-compile-commands",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Main"
+    },
+    {
+      "context_snippet": "Neovim Tasks",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cargo"
+    },
+    {
+      "context_snippet": "Neovim Tasks",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "Neovim Tasks",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debug"
+    },
+    {
+      "context_snippet": "Neovim Tasks",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quickfix"
+    },
+    {
+      "context_snippet": "Neovim Tasks",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

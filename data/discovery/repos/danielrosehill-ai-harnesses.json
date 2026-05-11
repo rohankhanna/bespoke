@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Harnesses",
+      "target": "aristoteleo/pantheonos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Harnesses",
+      "target": "aiming-lab/autoharness",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Harnesses",
+      "target": "autojunjie/awesome-agent-harness",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Harnesses",
+      "target": "alchemiststudiosdotai/harness-engineering",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-11T15:41:44.212468+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6204
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Point-in-time snapshot of projects describing themselves as AI agent harnesses (April 2026)",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Harnesses",
+    "html_url": "https://github.com/danielrosehill/AI-Harnesses",
+    "language": null,
+    "pushed_at": "2026-04-04T20:28:16Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-05-05T03:17:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aiming-lab/autoharness",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alchemiststudiosdotai/harness-engineering",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aristoteleo/pantheonos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autojunjie/awesome-agent-harness",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

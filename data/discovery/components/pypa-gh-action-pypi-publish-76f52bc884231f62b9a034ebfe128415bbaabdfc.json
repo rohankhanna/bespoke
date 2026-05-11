@@ -1,7 +1,7 @@
 {
   "component": "pypa/gh-action-pypi-publish@76f52bc884231f62b9a034ebfe128415bbaabdfc",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-11T00:40:20.012502+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/python-publish.yml",
       "source_repo": "python-rope/rope"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "analyticsinmotion/werpy"
     }
   ]
 }

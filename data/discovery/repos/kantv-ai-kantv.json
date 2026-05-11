@@ -1,0 +1,232 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kantv-ai/kantv",
+      "target": "kantv-ai/ffmpeg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kantv-ai/kantv",
+      "target": "google/exoplayer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kantv-ai/kantv",
+      "target": "ggerganov/whisper.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kantv-ai/kantv",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kantv-ai/kantv",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kantv-ai/kantv",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kantv-ai/kantv",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kantv-ai/kantv",
+      "target": "build kantv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kantv-ai/kantv",
+      "target": "ggml-hexagon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kantv-ai/kantv",
+      "target": "llamacpp-android-port",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kantv-ai/kantv",
+      "target": "online-tv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kantv-ai/kantv",
+      "target": "qualcomm-npu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kantv-ai/kantv",
+      "target": "stablediffusioncpp-android-port",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kantv-ai/kantv",
+      "target": "whispercpp-android-port",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T16:26:33.808209+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9664
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2851
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "workbench for learning and practicing on-device AI technology in real scenario with online-TV on Android phone, powered by ggml(llama.cpp,whisper.cpp...) and FFmpeg and opencv-mobile",
+    "fork": false,
+    "full_name": "kantv-ai/kantv",
+    "html_url": "https://github.com/kantv-ai/kantv",
+    "language": "C++",
+    "pushed_at": "2025-06-12T03:28:52Z",
+    "stargazers_count": 192,
+    "topics": [
+      "ggml-hexagon",
+      "llamacpp-android-port",
+      "online-tv",
+      "qualcomm-npu",
+      "stablediffusioncpp-android-port",
+      "whispercpp-android-port"
+    ],
+    "updated_at": "2026-04-25T17:28:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/whisper.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/exoplayer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kantv-ai/ffmpeg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build kantv",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build kantv"
+    },
+    {
+      "context_snippet": "KanTV(\"Kan\", aka English \"watch\") , an open source project focus on study and practise on-device AI technology in <b>real scenario</b>(such as perform <b>online-TV playback</b> and <b>realtime transcription</b> and <b>online-TV record</b> at the same time) on Android phone:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ggml-hexagon"
+    },
+    {
+      "context_snippet": "KanTV(\"Kan\", aka English \"watch\") , an open source project focus on study and practise on-device AI technology in <b>real scenario</b>(such as perform <b>online-TV playback</b> and <b>realtime transcription</b> and <b>online-TV record</b> at the same time) on Android phone:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llamacpp-android-port"
+    },
+    {
+      "context_snippet": "KanTV(\"Kan\", aka English \"watch\") , an open source project focus on study and practise on-device AI technology in <b>real scenario</b>(such as perform <b>online-TV playback</b> and <b>realtime transcription</b> and <b>online-TV record</b> at the same time) on Android phone:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "online-tv"
+    },
+    {
+      "context_snippet": "KanTV(\"Kan\", aka English \"watch\") , an open source project focus on study and practise on-device AI technology in <b>real scenario</b>(such as perform <b>online-TV playback</b> and <b>realtime transcription</b> and <b>online-TV record</b> at the same time) on Android phone:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qualcomm-npu"
+    },
+    {
+      "context_snippet": "KanTV(\"Kan\", aka English \"watch\") , an open source project focus on study and practise on-device AI technology in <b>real scenario</b>(such as perform <b>online-TV playback</b> and <b>realtime transcription</b> and <b>online-TV record</b> at the same time) on Android phone:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stablediffusioncpp-android-port"
+    },
+    {
+      "context_snippet": "KanTV(\"Kan\", aka English \"watch\") , an open source project focus on study and practise on-device AI technology in <b>real scenario</b>(such as perform <b>online-TV playback</b> and <b>realtime transcription</b> and <b>online-TV record</b> at the same time) on Android phone:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whispercpp-android-port"
+    }
+  ]
+}

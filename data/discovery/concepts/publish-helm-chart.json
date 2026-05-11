@@ -56,6 +56,18 @@
       "source_repo": "Nick-Triller/khcheck-external-secrets",
       "status": "candidate-context",
       "text": "Publish Helm chart"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bagofwords1/bagofwords",
+      "status": "candidate-context",
+      "text": "Chat with your data  -  with memory, rules, and observability built in. Deploy in 2 minutes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bagofwords1/bagofwords",
+      "status": "candidate-context",
+      "text": "Publish Helm chart"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +92,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Nick-Triller/khcheck-external-secrets",
+      "status": "candidate",
+      "text": "Publish Helm chart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bagofwords1/bagofwords",
       "status": "candidate",
       "text": "Publish Helm chart"
     }
@@ -149,11 +167,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/helm.yml",
       "source_repo": "Nick-Triller/khcheck-external-secrets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/helm-publish.yaml",
+      "source_repo": "bagofwords1/bagofwords"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

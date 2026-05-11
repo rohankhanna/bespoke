@@ -1861,6 +1861,18 @@
       "source_repo": "php-toolkit/cli-utils",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/packagist/l/toolkit/cli-utils.svg?style=flat-square)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggozad/oterm",
+      "status": "candidate-context",
+      "text": "the terminal client for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggozad/oterm",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/ggozad/oterm/actions/workflows/test.yml/badge.svg)](https://github.com/ggozad/oterm/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -2787,6 +2799,12 @@
       "source_repo": "php-toolkit/cli-utils",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/packagist/l/toolkit/cli-utils.svg?style=flat-square)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggozad/oterm",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/ggozad/oterm/actions/workflows/test.yml/badge.svg)](https://github.com/ggozad/oterm/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -5470,11 +5488,65 @@
       "observed_at": "2026-05-11T07:24:13.902749+00:00",
       "source_file": null,
       "source_repo": "Urigo/graphql-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "psmux/Tmux-Plugin-Panel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "ggozad/oterm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "Urigo/graphql-cli"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/UltraEval-Audio",
+      "target": "ultraeval/step-audio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/UltraEval-Audio",
+      "target": "ultraeval/glm-4-voice",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/UltraEval-Audio",
+      "target": "evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/UltraEval-Audio",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/UltraEval-Audio",
+      "target": "speech-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/UltraEval-Audio",
+      "target": "speech-to-text",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T17:51:21.455693+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21863
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1465
+    },
+    {
+      "path": "requirements.txt",
+      "size": 322
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Your faithful, impartial partner for audio evaluation \u2014 know yourself, know your rivals. \u771f\u5b9e\u8bc4\u6d4b\uff0c\u77e5\u5df1\u77e5\u5f7c\u3002",
+    "fork": false,
+    "full_name": "OpenBMB/UltraEval-Audio",
+    "html_url": "https://github.com/OpenBMB/UltraEval-Audio",
+    "language": "Python",
+    "pushed_at": "2026-04-20T13:11:27Z",
+    "stargazers_count": 296,
+    "topics": [
+      "evaluation",
+      "speech-recognition",
+      "speech-to-speech",
+      "speech-to-text"
+    ],
+    "updated_at": "2026-05-11T02:36:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ultraeval/glm-4-voice",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ultraeval/step-audio",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![assets/logo.png](assets/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    },
+    {
+      "context_snippet": "![assets/logo.png](assets/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "![assets/logo.png](assets/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-speech"
+    },
+    {
+      "context_snippet": "![assets/logo.png](assets/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text"
+    }
+  ]
+}

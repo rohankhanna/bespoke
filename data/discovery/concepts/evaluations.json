@@ -31,6 +31,18 @@
       "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval",
       "status": "candidate-context",
       "text": "![Hebrew rendering comparison - Gemini and Wan succeed, Ideogram and Recraft fail](samples/hero-composite.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",
+      "status": "candidate-context",
+      "text": "Comparing Whisper fine-tunes versus stock Whisper on local inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",
+      "status": "candidate-context",
+      "text": "**TL;DR:** Fine-tuning improved smaller models but **made larger models worse**. The exception: code-switching (mixing languages mid-sentence) improved dramatically across all model sizes."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval",
       "status": "candidate",
       "text": "![Hebrew rendering comparison - Gemini and Wan succeed, Ideogram and Recraft fail](samples/hero-composite.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",
+      "status": "candidate",
+      "text": "**TL;DR:** Fine-tuning improved smaller models but **made larger models worse**. The exception: code-switching (mixing languages mid-sentence) improved dramatically across all model sizes."
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Hebrew-Image-Generation-Eval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

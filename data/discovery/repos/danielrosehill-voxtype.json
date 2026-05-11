@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Voxtype",
+      "target": "danielrosehill/ai-typer-v2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "danielrosehill/Voxtype",
+      "target": "danielrosehill/ai-typer-v2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-11T17:51:29.696706+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7404
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1339
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Voice dictation with multimodal AI cleanup \u2014 speak naturally, get polished text",
+    "fork": false,
+    "full_name": "danielrosehill/Voxtype",
+    "html_url": "https://github.com/danielrosehill/Voxtype",
+    "language": "Python",
+    "pushed_at": "2026-05-06T13:50:37Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-05-06T13:49:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-typer-v2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-typer-v2",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

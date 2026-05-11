@@ -1,0 +1,132 @@
+{
+  "aliases": [
+    "jewish"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abe-101/myHebrewDates",
+      "status": "candidate-context",
+      "text": "Automatically sync recurring Hebrew calendar events, like birthdays and anniversaries, to your digital calendar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abe-101/myHebrewDates",
+      "status": "candidate-context",
+      "text": "Automatically sync recurring Hebrew calendar events, like birthdays and anniversaries, to your digital calendar."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KosherJava/zmanim",
+      "status": "candidate-context",
+      "text": "KosherJava Zmanim API / Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KosherJava/zmanim",
+      "status": "candidate-context",
+      "text": "KosherJava Zmanim API"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abe-101/myHebrewDates",
+      "status": "candidate",
+      "text": "Automatically sync recurring Hebrew calendar events, like birthdays and anniversaries, to your digital calendar."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KosherJava/zmanim",
+      "status": "candidate",
+      "text": "KosherJava Zmanim API"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048065,
+      "status": "candidate",
+      "text": "judaic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048138,
+      "status": "candidate",
+      "text": "hebraic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048137,
+      "status": "candidate",
+      "text": "hebrew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048136,
+      "status": "candidate",
+      "text": "israelite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048135,
+      "status": "candidate",
+      "text": "mosaic"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "judaic"
+    }
+  ],
+  "canonical_name": "jewish",
+  "concept_id": "jewish",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "abe-101/myHebrewDates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "KosherJava/zmanim"
+    }
+  ],
+  "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jewish",
+      "sense_id": "jewish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

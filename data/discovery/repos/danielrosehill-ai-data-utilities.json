@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Data-Utilities",
+      "target": "ai-analyst-lab/ai-analyst",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Data-Utilities",
+      "target": "antvis/mcp-server-chart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Data-Utilities",
+      "target": "alcohol/iso3166",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Data-Utilities",
+      "target": "academic/awesome-datascience",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-11T15:41:43.629413+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15081
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Curated list of open-source AI tooling for data work \u2014 agents, chat-with-data, visualisation, cleaning, and resource lists.",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Data-Utilities",
+    "html_url": "https://github.com/danielrosehill/AI-Data-Utilities",
+    "language": null,
+    "pushed_at": "2026-04-23T13:57:24Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-23T13:57:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "academic/awesome-datascience",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai-analyst-lab/ai-analyst",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alcohol/iso3166",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antvis/mcp-server-chart",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

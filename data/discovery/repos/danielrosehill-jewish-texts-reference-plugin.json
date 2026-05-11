@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Jewish-Texts-Reference-Plugin",
+      "target": "morrisalp/unikud",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Jewish-Texts-Reference-Plugin",
+      "target": "jewish-texts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Jewish-Texts-Reference-Plugin",
+      "target": "talmud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Jewish-Texts-Reference-Plugin",
+      "target": "torah",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T13:32:50.718641+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2219
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Plugin for looking up Jewish religious texts, bundling Sefaria MCP",
+    "fork": false,
+    "full_name": "danielrosehill/Jewish-Texts-Reference-Plugin",
+    "html_url": "https://github.com/danielrosehill/Jewish-Texts-Reference-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-28T11:00:55Z",
+    "stargazers_count": 0,
+    "topics": [
+      "jewish-texts",
+      "talmud",
+      "torah"
+    ],
+    "updated_at": "2026-04-28T11:00:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "morrisalp/unikud",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A Claude Code plugin for looking up Jewish texts and references through the [Sefaria](https://www.sefaria.org) library, via the official [Sefaria MCP server](https://mcp.sefaria.org/sse).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jewish-texts"
+    },
+    {
+      "context_snippet": "A Claude Code plugin for looking up Jewish texts and references through the [Sefaria](https://www.sefaria.org) library, via the official [Sefaria MCP server](https://mcp.sefaria.org/sse).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "talmud"
+    },
+    {
+      "context_snippet": "A Claude Code plugin for looking up Jewish texts and references through the [Sefaria](https://www.sefaria.org) library, via the official [Sefaria MCP server](https://mcp.sefaria.org/sse).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torah"
+    }
+  ]
+}

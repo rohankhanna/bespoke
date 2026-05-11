@@ -403,6 +403,30 @@
       "source_repo": "AtomEcho/AtomBulb",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">AtomBulb</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",
+      "status": "candidate-context",
+      "text": "Comparing Whisper fine-tunes versus stock Whisper on local inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",
+      "status": "candidate-context",
+      "text": "**TL;DR:** Fine-tuning improved smaller models but **made larger models worse**. The exception: code-switching (mixing languages mid-sentence) improved dramatically across all model sizes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/UltraEval-Audio",
+      "status": "candidate-context",
+      "text": "Your faithful, impartial partner for audio evaluation \u2014 know yourself, know your rivals. \u771f\u5b9e\u8bc4\u6d4b\uff0c\u77e5\u5df1\u77e5\u5f7c\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/UltraEval-Audio",
+      "status": "candidate-context",
+      "text": "![assets/logo.png](assets/logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -603,6 +627,18 @@
       "source_repo": "AtomEcho/AtomBulb",
       "status": "candidate",
       "text": "<h1 align=\"center\">AtomBulb</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",
+      "status": "candidate",
+      "text": "**TL;DR:** Fine-tuning improved smaller models but **made larger models worse**. The exception: code-switching (mixing languages mid-sentence) improved dramatically across all model sizes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/UltraEval-Audio",
+      "status": "candidate",
+      "text": "![assets/logo.png](assets/logo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -1141,11 +1177,35 @@
       "observed_at": "2026-05-11T07:24:13.902749+00:00",
       "source_file": null,
       "source_repo": "vibrantlabsai/ragas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/generative-evaluation-prdc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "vibrantlabsai/ragas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/UltraEval-Audio"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

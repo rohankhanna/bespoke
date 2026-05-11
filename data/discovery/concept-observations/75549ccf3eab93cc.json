@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A comprehensive MCP server for calculating Jewish prayer times (zmanim)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish to PyPI and Update Registry"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish to PyPI and Update Registry"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17981,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17912,
+      "status": "candidate",
+      "text": "bring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17912,
+      "status": "candidate",
+      "text": "bringing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17912,
+      "status": "candidate",
+      "text": "vent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17912,
+      "status": "candidate",
+      "text": "vented"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish to PyPI and Update Registry",
+      "sense_id": "publish-to-pypi-and-update-registry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-to-pypi-and-update-registry",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-to-pypi-and-update-registry",
+  "observation_id": "75549ccf3eab93cc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_text": "Publish to PyPI and Update Registry",
+  "source_context_snippet": "Publish to PyPI and Update Registry",
+  "source_file": ".github/workflows/publish.yaml",
+  "source_repo": "ariroffe72/zmanim-mcp-server",
+  "source_repo_description": "A comprehensive MCP server for calculating Jewish prayer times (zmanim)."
+}

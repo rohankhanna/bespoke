@@ -823,6 +823,30 @@
       "source_repo": "assafelovic/gpt-researcher",
       "status": "candidate-context",
       "text": "<div align=\"center\" id=\"top\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggozad/oterm",
+      "status": "candidate-context",
+      "text": "the terminal client for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggozad/oterm",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/ggozad/oterm/actions/workflows/test.yml/badge.svg)](https://github.com/ggozad/oterm/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentic-box/memora",
+      "status": "candidate-context",
+      "text": "Give your AI agents persistent memory."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentic-box/memora",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img src=\"media/memora_new.gif\" width=\"60\" alt=\"Memora Logo\" align=\"absmiddle\"> Memora</h1>"
     }
   ],
   "candidate_glosses": [
@@ -1233,6 +1257,18 @@
       "source_repo": "assafelovic/gpt-researcher",
       "status": "candidate",
       "text": "<div align=\"center\" id=\"top\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggozad/oterm",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/ggozad/oterm/actions/workflows/test.yml/badge.svg)](https://github.com/ggozad/oterm/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentic-box/memora",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img src=\"media/memora_new.gif\" width=\"60\" alt=\"Memora Logo\" align=\"absmiddle\"> Memora</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -3064,11 +3100,65 @@
       "observed_at": "2026-05-11T07:24:13.902749+00:00",
       "source_file": null,
       "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "HKUDS/VideoRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "ggozad/oterm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "agentic-box/memora"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

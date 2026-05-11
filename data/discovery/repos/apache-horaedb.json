@@ -49,16 +49,6 @@
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/links.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-github-release.yml"
-    },
-    {
-      "component": "softprops/action-gh-release@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-github-release.yml"
     }
   ],
   "edges": [
@@ -147,27 +137,6 @@
       "target_type": "component"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-github-release.yml",
-      "source_repo": "apache/horaedb",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-github-release.yml",
-      "source_repo": "apache/horaedb",
-      "target": "softprops/action-gh-release@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/publish-github-release.yml",
-      "source_repo": "apache/horaedb",
-      "target": "Publish Github Release",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "apache/horaedb",
@@ -231,7 +200,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T02:54:03.985299+00:00",
+  "fetched_at": "2026-05-11T15:49:21.842748+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -260,10 +229,6 @@
     {
       "path": ".github/workflows/links.yml",
       "size": 1376
-    },
-    {
-      "path": ".github/workflows/publish-github-release.yml",
-      "size": 1265
     }
   ],
   "related_repositories": [],
@@ -315,12 +280,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/ci.yml",
       "term": "HoraeDB CI"
-    },
-    {
-      "context_snippet": "Publish Github Release",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/publish-github-release.yml",
-      "term": "Publish Github Release"
     },
     {
       "context_snippet": "![HoraeDB](docs/logo/horaedb-banner-white-small.jpg)",

@@ -443,7 +443,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T00:58:27.501048+00:00",
+  "fetched_at": "2026-05-11T16:43:57.690003+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -492,7 +492,7 @@
     "html_url": "https://github.com/chatchat-space/Langchain-Chatchat",
     "language": "Python",
     "pushed_at": "2025-11-10T09:27:42Z",
-    "stargazers_count": 37988,
+    "stargazers_count": 37999,
     "topics": [
       "chatbot",
       "chatchat",
@@ -515,7 +515,7 @@
       "streamlit",
       "xinference"
     ],
-    "updated_at": "2026-05-10T22:36:49Z"
+    "updated_at": "2026-05-11T15:40:34Z"
   },
   "repo_links": [
     {

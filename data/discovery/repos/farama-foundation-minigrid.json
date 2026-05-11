@@ -288,15 +288,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T03:11:59.079274+00:00",
+  "fetched_at": "2026-05-11T16:35:48.156237+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 5241
+      "size": 5310
     },
     {
       "path": "pyproject.toml",
-      "size": 2710
+      "size": 2652
     },
     {
       "path": ".github/workflows/build-docs-dev.yml",
@@ -316,7 +316,7 @@
     },
     {
       "path": ".github/workflows/publish.yml",
-      "size": 1358
+      "size": 1462
     },
     {
       "path": ".github/workflows/pytest.yml",
@@ -332,13 +332,13 @@
     "full_name": "Farama-Foundation/Minigrid",
     "html_url": "https://github.com/Farama-Foundation/Minigrid",
     "language": "Python",
-    "pushed_at": "2026-05-10T23:30:07Z",
-    "stargazers_count": 2446,
+    "pushed_at": "2026-05-11T09:08:12Z",
+    "stargazers_count": 2448,
     "topics": [
       "gridworld-environment",
       "gym"
     ],
-    "updated_at": "2026-05-10T23:29:14Z"
+    "updated_at": "2026-05-11T12:41:15Z"
   },
   "repo_links": [
     {
@@ -379,7 +379,7 @@
       "term": "Tests"
     },
     {
-      "context_snippet": "[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)",
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/minigrid.svg)](https://badge.fury.io/py/minigrid)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gridworld-environment"

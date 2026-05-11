@@ -271,6 +271,18 @@
       "source_repo": "tpoisonooo/ROGRAG",
       "status": "candidate-context",
       "text": "English | [Simplified Chinese](./README_zh_cn.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BAI-LAB/MemoryOS",
+      "status": "candidate-context",
+      "text": "[EMNLP 2025 Oral] MemoryOS is designed to provide a memory operating system for personalized AI agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BAI-LAB/MemoryOS",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +417,12 @@
       "source_repo": "tpoisonooo/ROGRAG",
       "status": "candidate",
       "text": "English | [Simplified Chinese](./README_zh_cn.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BAI-LAB/MemoryOS",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1000,11 +1018,35 @@
       "observed_at": "2026-05-11T00:40:20.012502+00:00",
       "source_file": null,
       "source_repo": "tpoisonooo/ROGRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "HKUDS/VideoRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "tpoisonooo/ROGRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "BAI-LAB/MemoryOS"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T00:40:20.012502+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

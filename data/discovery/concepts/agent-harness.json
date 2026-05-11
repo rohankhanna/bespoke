@@ -19,6 +19,12 @@
       "source_repo": "lobehub/lobehub",
       "status": "candidate-context",
       "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "status": "candidate-context",
+      "text": "> A curated list of tools, frameworks, and resources for **agent harness engineering** \u2014 the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +33,12 @@
       "source_repo": "lobehub/lobehub",
       "status": "candidate",
       "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AutoJunjie/awesome-agent-harness",
+      "status": "candidate",
+      "text": "> A curated list of tools, frameworks, and resources for **agent harness engineering** \u2014 the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale."
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +220,23 @@
       "observed_at": "2026-05-11T07:24:13.902749+00:00",
       "source_file": null,
       "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "AutoJunjie/awesome-agent-harness"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

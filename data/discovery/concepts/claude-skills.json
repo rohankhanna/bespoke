@@ -127,6 +127,18 @@
       "source_repo": "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
       "status": "candidate-context",
       "text": "A Claude Code plugin that collects agent skills for Israel and Hebrew-specific workflows."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "status": "candidate-context",
+      "text": "20 SEO & GEO skills for Claude Code, Cursor, Codex, and 35+ AI agents. Keyword research, content writing, technical audits, rank tracking. CORE-EEAT + CITE frameworks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "status": "candidate-context",
+      "text": "**20 skills. 17 commands. Rank in search. Get cited by AI.**"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
       "status": "candidate",
       "text": "A Claude Code plugin that collects agent skills for Israel and Hebrew-specific workflows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "status": "candidate",
+      "text": "**20 skills. 17 commands. Rank in search. Get cited by AI.**"
     }
   ],
   "candidate_related_terms": [],
@@ -268,11 +286,17 @@
       "observed_at": "2026-05-10T18:25:41.670160+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Claude-Israel-Agent-Skills-Plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-10T18:25:41.670160+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

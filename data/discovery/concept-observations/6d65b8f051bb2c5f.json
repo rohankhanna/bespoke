@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A perpetual Jewish Calendar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "hebcal [![Build Status](https://github.com/hebcal/hebcal/actions/workflows/go.yml/badge.svg)](https://github.com/hebcal/hebcal/actions/workflows/go.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "hebcal [![Build Status](https://github.com/hebcal/hebcal/actions/workflows/go.yml/badge.svg)](https://github.com/hebcal/hebcal/actions/workflows/go.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jewish-calendar",
+      "sense_id": "jewish-calendar#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jewish-calendar",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jewish-calendar",
+  "observation_id": "6d65b8f051bb2c5f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_text": "jewish-calendar",
+  "source_context_snippet": "hebcal [![Build Status](https://github.com/hebcal/hebcal/actions/workflows/go.yml/badge.svg)](https://github.com/hebcal/hebcal/actions/workflows/go.yml)",
+  "source_file": null,
+  "source_repo": "hebcal/hebcal",
+  "source_repo_description": "A perpetual Jewish Calendar"
+}

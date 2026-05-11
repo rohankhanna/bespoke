@@ -1,0 +1,198 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "abe-101/pre-commit@v3.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "abe-101/myHebrewDates",
+      "target": "djlint/djlint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "abe-101/myHebrewDates",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "abe-101/myHebrewDates",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "abe-101/myHebrewDates",
+      "target": "abe-101/pre-commit@v3.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "abe-101/myHebrewDates",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "abe-101/myHebrewDates",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abe-101/myHebrewDates",
+      "target": "django",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abe-101/myHebrewDates",
+      "target": "hebrew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abe-101/myHebrewDates",
+      "target": "ical",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abe-101/myHebrewDates",
+      "target": "icalendar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abe-101/myHebrewDates",
+      "target": "jewish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T13:32:46.824192+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4470
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2573
+    },
+    {
+      "path": "requirements.txt",
+      "size": 67
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2061
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automatically sync recurring Hebrew calendar events, like birthdays and anniversaries, to your digital calendar",
+    "fork": false,
+    "full_name": "abe-101/myHebrewDates",
+    "html_url": "https://github.com/abe-101/myHebrewDates",
+    "language": "SCSS",
+    "pushed_at": "2026-04-27T18:42:17Z",
+    "stargazers_count": 25,
+    "topics": [
+      "django",
+      "hebrew",
+      "ical",
+      "icalendar",
+      "ics",
+      "jewish",
+      "python"
+    ],
+    "updated_at": "2026-04-04T21:44:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "djlint/djlint",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Automatically sync recurring Hebrew calendar events, like birthdays and anniversaries, to your digital calendar.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "django"
+    },
+    {
+      "context_snippet": "Automatically sync recurring Hebrew calendar events, like birthdays and anniversaries, to your digital calendar.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hebrew"
+    },
+    {
+      "context_snippet": "Automatically sync recurring Hebrew calendar events, like birthdays and anniversaries, to your digital calendar.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ical"
+    },
+    {
+      "context_snippet": "Automatically sync recurring Hebrew calendar events, like birthdays and anniversaries, to your digital calendar.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icalendar"
+    },
+    {
+      "context_snippet": "Automatically sync recurring Hebrew calendar events, like birthdays and anniversaries, to your digital calendar.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jewish"
+    }
+  ]
+}

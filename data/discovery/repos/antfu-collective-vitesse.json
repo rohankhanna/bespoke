@@ -721,7 +721,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T07:32:31.999772+00:00",
+  "fetched_at": "2026-05-11T16:47:11.412380+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -750,13 +750,13 @@
     "html_url": "https://github.com/antfu-collective/vitesse",
     "language": "TypeScript",
     "pushed_at": "2026-02-25T14:39:25Z",
-    "stargazers_count": 9426,
+    "stargazers_count": 9425,
     "topics": [
       "vite",
       "vite-starter",
       "vite-template"
     ],
-    "updated_at": "2026-05-10T16:05:33Z"
+    "updated_at": "2026-05-11T14:50:53Z"
   },
   "repo_links": [
     {

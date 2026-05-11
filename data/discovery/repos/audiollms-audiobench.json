@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AudioLLMs/AudioBench",
+      "target": "audiollms/awesome-audio-llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AudioLLMs/AudioBench",
+      "target": "audio-scene-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AudioLLMs/AudioBench",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AudioLLMs/AudioBench",
+      "target": "speech-question-answering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AudioLLMs/AudioBench",
+      "target": "speech-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T17:51:16.913157+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14937
+    },
+    {
+      "path": "requirements.txt",
+      "size": 158
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AudioBench: A Universal Benchmark for Audio Large Language Models",
+    "fork": false,
+    "full_name": "AudioLLMs/AudioBench",
+    "html_url": "https://github.com/AudioLLMs/AudioBench",
+    "language": "Python",
+    "pushed_at": "2025-06-17T09:48:48Z",
+    "stargazers_count": 307,
+    "topics": [
+      "audio-scene-understanding",
+      "speech",
+      "speech-question-answering",
+      "speech-recognition"
+    ],
+    "updated_at": "2026-05-09T09:46:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "audiollms/awesome-audio-llm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-scene-understanding"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-question-answering"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    }
+  ]
+}

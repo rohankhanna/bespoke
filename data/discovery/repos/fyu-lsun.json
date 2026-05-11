@@ -1,21 +1,8 @@
 {
   "components": [],
-  "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "fyu/lsun",
-      "target": "fyu/lsun_toolkit",
-      "target_type": "repository"
-    }
-  ],
-  "fetched_at": "2026-05-11T07:37:34.713100+00:00",
-  "fetched_files": [
-    {
-      "path": "README.md",
-      "size": 2490
-    }
-  ],
+  "edges": [],
+  "fetched_at": "2026-05-11T14:50:44.985407+00:00",
+  "fetched_files": [],
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -30,12 +17,6 @@
     "topics": [],
     "updated_at": "2026-03-06T09:50:13Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "fyu/lsun_toolkit",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

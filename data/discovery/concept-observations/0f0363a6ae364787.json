@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A general, evolvable, and distributed agent framework & harness for data science."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39898434,
+      "status": "candidate",
+      "text": "unguis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39881670,
+      "status": "candidate",
+      "text": "chela"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39780386,
+      "status": "candidate",
+      "text": "pincer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39778020,
+      "status": "candidate",
+      "text": "nipper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39732544,
+      "status": "candidate",
+      "text": "hook"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "claw",
+      "sense_id": "claw#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13067,
+      "status": "candidate",
+      "text": "hook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7025,
+      "status": "candidate",
+      "text": "unguis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6025,
+      "status": "candidate",
+      "text": "pincer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3031,
+      "status": "candidate",
+      "text": "chela"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "nipper"
+    }
+  ],
+  "concept_id": "claw",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "claw",
+  "observation_id": "0f0363a6ae364787",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_text": "claw",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "aristoteleo/PantheonOS",
+  "source_repo_description": "A general, evolvable, and distributed agent framework & harness for data science."
+}

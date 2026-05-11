@@ -106,11 +106,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "fs-extra",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "jsdom",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -360,13 +355,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "preactjs/preact-devtools",
-      "target": "fs-extra",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "preactjs/preact-devtools",
       "target": "jsdom",
       "target_type": "component"
     },
@@ -539,7 +527,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T02:46:14.308335+00:00",
+  "fetched_at": "2026-05-11T17:48:21.307998+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -547,7 +535,7 @@
     },
     {
       "path": "package.json",
-      "size": 3452
+      "size": 3426
     },
     {
       "path": ".github/workflows/docs.yml",
@@ -567,8 +555,8 @@
     "full_name": "preactjs/preact-devtools",
     "html_url": "https://github.com/preactjs/preact-devtools",
     "language": "TypeScript",
-    "pushed_at": "2026-05-06T22:08:31Z",
-    "stargazers_count": 342,
+    "pushed_at": "2026-05-11T11:27:19Z",
+    "stargazers_count": 343,
     "topics": [
       "chrome",
       "extension",
@@ -576,7 +564,7 @@
       "preact",
       "preact-devtools"
     ],
-    "updated_at": "2026-05-09T13:42:17Z"
+    "updated_at": "2026-05-11T11:24:52Z"
   },
   "repo_links": [
     {

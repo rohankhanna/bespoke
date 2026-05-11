@@ -79,6 +79,18 @@
       "source_repo": "ashleysommer/sanic-plugin-toolkit",
       "status": "candidate-context",
       "text": "Sanic Plugin Toolkit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/AI-Memory-Layers",
+      "status": "candidate-context",
+      "text": "List of AI memory resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Memory-Layers",
+      "status": "candidate-context",
+      "text": "A curated collection of projects, tools, and resources related to AI memory layers \u2014 systems that give AI agents and LLMs persistent, contextual, or structured memory capabilities."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "ashleysommer/sanic-plugin-toolkit",
       "status": "candidate",
       "text": "Sanic Plugin Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Memory-Layers",
+      "status": "candidate",
+      "text": "A curated collection of projects, tools, and resources related to AI memory layers \u2014 systems that give AI agents and LLMs persistent, contextual, or structured memory capabilities."
     }
   ],
   "candidate_related_terms": [
@@ -224,11 +242,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "ashleysommer/sanic-plugin-toolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Memory-Layers"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

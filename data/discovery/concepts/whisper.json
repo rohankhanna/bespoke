@@ -211,6 +211,18 @@
       "source_repo": "huggingface/distil-whisper",
       "status": "candidate-context",
       "text": "[[Paper]](https://arxiv.org/abs/2311.00430)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Local-ASR-STT-Benchmark",
+      "status": "candidate-context",
+      "text": "Quick evaluation to find the best STT model in Speech Note (Ubuntu) for my HW"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Local-ASR-STT-Benchmark",
+      "status": "candidate-context",
+      "text": "# STT Benchmarking Dependencies # Core STT engines faster-whisper>=1.0.0 openai-whisper>=20231117 # Evaluation metrics jiwer>=3.0.0 # Audio processing soundfile>=0.12.0 librosa>=0.10.0 pydub>=0.25.0 # Data handling & analysis numpy>=1.24.0 pandas<2.0 # Keep <2.0 for TTS compatib\u2026"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "huggingface/distil-whisper",
       "status": "candidate",
       "text": "[[Paper]](https://arxiv.org/abs/2311.00430)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Local-ASR-STT-Benchmark",
+      "status": "candidate",
+      "text": "# STT Benchmarking Dependencies # Core STT engines faster-whisper>=1.0.0 openai-whisper>=20231117 # Evaluation metrics jiwer>=3.0.0 # Audio processing soundfile>=0.12.0 librosa>=0.10.0 pydub>=0.25.0 # Data handling & analysis numpy>=1.24.0 pandas<2.0 # Keep <2.0 for TTS compatib\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1094,11 +1112,35 @@
       "observed_at": "2026-05-11T07:24:13.902749+00:00",
       "source_file": null,
       "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Local-ASR-STT-Benchmark"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T07:24:13.902749+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

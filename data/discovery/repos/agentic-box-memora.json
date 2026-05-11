@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agentic-box/memora",
+      "target": "thedotmack/awesome-claude-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agentic-box/memora",
+      "target": "knowledge-graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agentic-box/memora",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agentic-box/memora",
+      "target": "mcp-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agentic-box/memora",
+      "target": "memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agentic-box/memora",
+      "target": "semantic-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agentic-box/memora",
+      "target": "semantic-search-algorithm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T17:51:06.427491+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19557
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 942
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Give your AI agents persistent memory.",
+    "fork": false,
+    "full_name": "agentic-box/memora",
+    "html_url": "https://github.com/agentic-box/memora",
+    "language": "Python",
+    "pushed_at": "2026-05-10T07:57:44Z",
+    "stargazers_count": 400,
+    "topics": [
+      "ai-agent",
+      "claude",
+      "knowledge-graph",
+      "llms",
+      "mcp",
+      "mcp-server",
+      "memory",
+      "rag",
+      "semantic-search",
+      "semantic-search-algorithm"
+    ],
+    "updated_at": "2026-05-11T08:21:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thedotmack/awesome-claude-code",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"media/memora_new.gif\" width=\"60\" alt=\"Memora Logo\" align=\"absmiddle\"> Memora</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-graph"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"media/memora_new.gif\" width=\"60\" alt=\"Memora Logo\" align=\"absmiddle\"> Memora</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"media/memora_new.gif\" width=\"60\" alt=\"Memora Logo\" align=\"absmiddle\"> Memora</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"media/memora_new.gif\" width=\"60\" alt=\"Memora Logo\" align=\"absmiddle\"> Memora</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"media/memora_new.gif\" width=\"60\" alt=\"Memora Logo\" align=\"absmiddle\"> Memora</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-search"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"media/memora_new.gif\" width=\"60\" alt=\"Memora Logo\" align=\"absmiddle\"> Memora</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-search-algorithm"
+    }
+  ]
+}

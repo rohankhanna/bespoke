@@ -1,0 +1,162 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiming-lab/AutoHarness",
+      "target": "agent-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiming-lab/AutoHarness",
+      "target": "audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiming-lab/AutoHarness",
+      "target": "context-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiming-lab/AutoHarness",
+      "target": "governance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiming-lab/AutoHarness",
+      "target": "harness-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiming-lab/AutoHarness",
+      "target": "multi-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiming-lab/AutoHarness",
+      "target": "prompt-injection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiming-lab/AutoHarness",
+      "target": "safety",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aiming-lab/AutoHarness",
+      "target": "tool-use",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T17:50:57.501515+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8547
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2176
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AutoHarness: Automated Harness Engineering for AI Agents",
+    "fork": false,
+    "full_name": "aiming-lab/AutoHarness",
+    "html_url": "https://github.com/aiming-lab/AutoHarness",
+    "language": "Python",
+    "pushed_at": "2026-04-02T20:47:19Z",
+    "stargazers_count": 270,
+    "topics": [
+      "agent-framework",
+      "ai-agents",
+      "audit",
+      "context-management",
+      "governance",
+      "harness-engineering",
+      "llm",
+      "multi-agent",
+      "prompt-injection",
+      "safety",
+      "tool-use"
+    ],
+    "updated_at": "2026-05-11T06:53:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-framework"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audit"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "context-management"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "governance"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "harness-engineering"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-injection"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "safety"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool-use"
+    }
+  ]
+}

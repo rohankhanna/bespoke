@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Editorconfig Linter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TypedDevs/bashunit",
+      "status": "candidate-context",
+      "text": "A simple yet powerfull testing library for bash scripts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TypedDevs/bashunit",
+      "status": "candidate-context",
+      "text": "Editorconfig Linter"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TypedDevs/bashunit",
+      "status": "candidate",
+      "text": "Editorconfig Linter"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Editorconfig Linter",
+  "concept_id": "editorconfig-linter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "TypedDevs/bashunit"
+    }
+  ],
+  "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Editorconfig Linter",
+      "sense_id": "editorconfig-linter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A compilation of resources (model profiles, benchmarks, docs) for multimodal AI models with audio understanding (esp. focused on ASR and transcription use-cases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Collection of open-source multimodal models with audio support, focusing on models that can process audio tokens and understand them in conjunction with text prompts."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Collection of open-source multimodal models with audio support, focusing on models that can process audio tokens and understand them in conjunction with text prompts."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "audio-text-to-text",
+      "sense_id": "audio-text-to-text#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "audio-text-to-text",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "audio-text-to-text",
+  "observation_id": "6f606efc31b97de8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-11T13:15:38.721392+00:00",
+  "observed_text": "audio-text-to-text",
+  "source_context_snippet": "Collection of open-source multimodal models with audio support, focusing on models that can process audio tokens and understand them in conjunction with text prompts.",
+  "source_file": null,
+  "source_repo": "danielrosehill/Audio-Multimodal-AI-Resources",
+  "source_repo_description": "A compilation of resources (model profiles, benchmarks, docs) for multimodal AI models with audio understanding (esp. focused on ASR and transcription use-cases)"
+}

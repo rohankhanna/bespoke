@@ -151,6 +151,18 @@
       "source_repo": "deanmalmgren/textract",
       "status": "candidate-context",
       "text": ".. NOTES FOR CREATING A RELEASE:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "academic/awesome-datascience",
+      "status": "candidate-context",
+      "text": ":memo: An awesome Data Science repository to learn and apply for real world problems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "academic/awesome-datascience",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" markdown=\"1\">"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "deanmalmgren/textract",
       "status": "candidate",
       "text": ".. NOTES FOR CREATING A RELEASE:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "academic/awesome-datascience",
+      "status": "candidate",
+      "text": "<div align=\"center\" markdown=\"1\">"
     }
   ],
   "candidate_related_terms": [
@@ -508,11 +526,23 @@
       "observed_at": "2026-05-11T00:40:20.012502+00:00",
       "source_file": null,
       "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "academic/awesome-datascience"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T00:40:20.012502+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

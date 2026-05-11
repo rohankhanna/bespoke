@@ -1,0 +1,12 @@
+{
+  "component": "codacy/codacy-analysis-cli-action@v4.4.7",
+  "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codacy.yml",
+      "source_repo": "analyticsinmotion/werpy"
+    }
+  ]
+}

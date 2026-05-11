@@ -1,0 +1,260 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    },
+    {
+      "component": "academic/link-checker@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "academic/awesome-datascience",
+      "target": "agnuxo1/cajal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "academic/awesome-datascience",
+      "target": "abistarun/resseract-lite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "academic/awesome-datascience",
+      "target": "adrotog/pandasgui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "academic/awesome-datascience",
+      "target": "ad-si/awesome-music-production",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "academic/awesome-datascience",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "academic/awesome-datascience",
+      "target": "academic/link-checker@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "academic/awesome-datascience",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "academic/awesome-datascience",
+      "target": "analytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "academic/awesome-datascience",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "academic/awesome-datascience",
+      "target": "data-mining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "academic/awesome-datascience",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "academic/awesome-datascience",
+      "target": "data-scientists",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "academic/awesome-datascience",
+      "target": "data-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "academic/awesome-datascience",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "academic/awesome-datascience",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "academic/awesome-datascience",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "academic/awesome-datascience",
+      "target": "science",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-11T17:50:50.098551+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 124921
+    },
+    {
+      "path": ".github/workflows/action.yml",
+      "size": 584
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "live",
+    "description": ":memo: An awesome Data Science repository to learn and apply for real world problems.",
+    "fork": false,
+    "full_name": "academic/awesome-datascience",
+    "html_url": "https://github.com/academic/awesome-datascience",
+    "language": null,
+    "pushed_at": "2026-05-10T20:41:20Z",
+    "stargazers_count": 29165,
+    "topics": [
+      "analytics",
+      "awesome-list",
+      "data-mining",
+      "data-science",
+      "data-scientists",
+      "data-visualization",
+      "deep-learning",
+      "hacktoberfest",
+      "machine-learning",
+      "science"
+    ],
+    "updated_at": "2026-05-11T14:52:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abistarun/resseract-lite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ad-si/awesome-music-production",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adrotog/pandasgui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agnuxo1/cajal",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\" markdown=\"1\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analytics"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown=\"1\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown=\"1\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-mining"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown=\"1\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown=\"1\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-scientists"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown=\"1\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-visualization"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown=\"1\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown=\"1\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown=\"1\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown=\"1\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "science"
+    }
+  ]
+}

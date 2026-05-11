@@ -163,6 +163,18 @@
       "source_repo": "aandrew-me/ytDownloader",
       "status": "candidate-context",
       "text": "<img src=\"https://github-production-user-asset-6210df.s3.amazonaws.com/66430340/238887646-33b4cba9-3c45-4042-83d1-b79e94a3a769.png\" style=\"width:80px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kantv-ai/FFmpeg",
+      "status": "candidate-context",
+      "text": "build a fully open-source and customized FFmpeg6.1 which used as media engine for project KanTV. already moved into project KanTV since 03-21-2024 and this project is no longer maintained accordingly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kantv-ai/FFmpeg",
+      "status": "candidate-context",
+      "text": "FFmpeg README"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "aandrew-me/ytDownloader",
       "status": "candidate",
       "text": "<img src=\"https://github-production-user-asset-6210df.s3.amazonaws.com/66430340/238887646-33b4cba9-3c45-4042-83d1-b79e94a3a769.png\" style=\"width:80px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kantv-ai/FFmpeg",
+      "status": "candidate",
+      "text": "FFmpeg README"
     }
   ],
   "candidate_related_terms": [
@@ -364,11 +382,17 @@
       "observed_at": "2026-05-09T12:31:19.030154+00:00",
       "source_file": null,
       "source_repo": "aandrew-me/ytDownloader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-11T13:15:38.721392+00:00",
+      "source_file": null,
+      "source_repo": "kantv-ai/FFmpeg"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "lexical_providers": [
     "datamuse"
   ],

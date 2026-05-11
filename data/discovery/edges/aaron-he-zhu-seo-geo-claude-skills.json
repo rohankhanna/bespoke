@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "aaron-he-zhu/core-eeat-content-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "aaron-he-zhu/cite-domain-rating",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clawhub-deprecate-old-slug.yml",
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clawhub-deprecate-old-slug.yml",
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clawhub-deprecate-old-slug.yml",
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "Deprecate old slug",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clawhub-publish.yml",
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clawhub-publish.yml",
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clawhub-publish.yml",
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "Publish to ClawHub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-skills.yml",
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-skills.yml",
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-skills.yml",
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-skills.yml",
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "Sync Skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-skill.yml",
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-skill.yml",
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "tj-actions/changed-files@v45",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-skill.yml",
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "Validate Agent Skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "agent-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "ai-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "claude-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "content-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "generative-engine-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "marketing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "search-engine-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
+      "target": "seo-tools",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-11T13:15:38.721392+00:00",
+  "source_repo": "aaron-he-zhu/seo-geo-claude-skills"
+}
