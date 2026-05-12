@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 246,
-    "concepts": 308,
-    "observations": 309,
-    "repos": 53,
-    "terms": 313
+    "components": 247,
+    "concepts": 316,
+    "observations": 317,
+    "repos": 54,
+    "terms": 321
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -31,6 +31,7 @@
     "formtastic/formtastic",
     "Glavin001/atom-beautify",
     "Gonzalo-D-Sales/obsidian-velocity",
+    "google/cel-spec",
     "googleapis/elixir-google-api",
     "grangier/python-goose",
     "IDEA-Research/Rex-Omni",
@@ -41,7 +42,7 @@
     "krzysztofzablocki/Sourcery",
     "lite-xl/lite-xl",
     "mdn/webassembly-examples",
-    "mfussenegger/nvim-jdtls",
+    "mhinz/vim-signify",
     "mono/CppSharp",
     "msasanmh/DNSveil",
     "nanxiaobei/hugo-paper",

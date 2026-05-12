@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 205,
-    "concepts": 224,
-    "observations": 226,
+    "components": 193,
+    "concepts": 217,
+    "observations": 219,
     "repos": 18,
-    "terms": 223
+    "terms": 216
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "apache/dubbo",
     "apache/kafka",
     "apache/pulsar",
-    "apache/rocketmq",
     "awsdocs/aws-doc-sdk-examples",
     "bumptech/glide",
     "dbeaver/dbeaver",
@@ -29,6 +28,7 @@
     "langchain4j/langchain4j",
     "languagetool-org/languagetool",
     "netty/netty",
+    "openjdk/jdk",
     "oracle/graal",
     "ReactiveX/RxJava",
     "redisson/redisson"

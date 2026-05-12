@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 74,
-    "concepts": 78,
-    "observations": 78,
-    "repos": 15,
-    "terms": 77
+    "components": 60,
+    "concepts": 66,
+    "observations": 66,
+    "repos": 12,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,19 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "aburch/simutrans",
     "CEED/libCEED",
-    "flagos-ai/FlagCX",
     "foldl/chatllm.cpp",
     "google-deepmind/reverb",
     "ipsilon/evmone",
-    "open-telemetry/opentelemetry-dotnet-instrumentation",
+    "kiron1/bazel-compile-commands",
     "open-telemetry/opentelemetry-ebpf-instrumentation",
     "ouster-lidar/ouster-ros",
     "ROCm/hipBLAS",
     "ros2/common_interfaces",
     "tree-sitter-grammars/tree-sitter-markdown",
-    "triton-inference-server/core",
-    "triton-inference-server/pytorch_backend",
     "yoshoku/llama_cpp.rb"
   ]
 }

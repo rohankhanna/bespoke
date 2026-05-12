@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 39039,
+    "components": 39049,
     "concepts": 8698,
     "observations": 8724,
-    "repos": 2060,
-    "terms": 8689
+    "repos": 2062,
+    "terms": 8691
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0x4139/cosmos-discord-faucet",
     "0xPolygon/pilcom",
@@ -201,6 +201,7 @@
     "apidoc/apidoc",
     "apidoc/apidoc-core",
     "apidoc/grunt-apidoc",
+    "apify/awesome-skills",
     "apollographql/connectors-community",
     "apollographql/eslint-plugin-graphql",
     "apollographql/gatsby-theme-apollo",
@@ -278,6 +279,7 @@
     "babel/preset-modules",
     "badgen/badgen",
     "badges/shields",
+    "BarMalka/super-pharm-stock-checker",
     "bartolli/claude-code-typescript-hooks",
     "base-repos/base",
     "basecase/testdouble-chai",

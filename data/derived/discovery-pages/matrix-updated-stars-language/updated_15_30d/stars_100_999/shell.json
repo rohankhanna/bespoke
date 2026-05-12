@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 184,
-    "concepts": 237,
-    "observations": 240,
-    "repos": 45,
-    "terms": 248
+    "components": 193,
+    "concepts": 257,
+    "observations": 260,
+    "repos": 47,
+    "terms": 267
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "actions/upload-pages-artifact",
     "alexmyczko/fnt",
     "alfredolopez80/multi-agent-ralph-loop",
     "alpinelinux/aports",
+    "amrsa1/Android-Emulator-image",
     "arangrhie/T2T-Polish",
     "astro-han/claude-pace",
     "bnb-chain/bsc-snapshots",
@@ -43,6 +44,7 @@
     "numpy/numpy.org",
     "opea-project/GenAIExamples",
     "openshift/release",
+    "pacstall/pacstall-programs",
     "pion/awesome-pion",
     "reviewdog/action-shellcheck",
     "reviewdog/action-suggester",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 113,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 23,
-    "terms": 108
+    "components": 131,
+    "concepts": 127,
+    "observations": 127,
+    "repos": 28,
+    "terms": 124
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "agentclientprotocol/java-sdk",
     "apache/arrow-java",
@@ -21,15 +21,20 @@
     "apache/ignite-extensions",
     "apache/netbeans-mavenutils-nbm-maven-plugin",
     "bazel-contrib/rules_jvm",
+    "BerkleyTechnologyServices/restdocs-spec",
     "bsorrentino/java-async-generator",
     "bufbuild/protovalidate-java",
     "cedar-policy/cedar-java",
     "codelibs/fess-crawler",
+    "eclipse-shellwax/shellwax",
     "filip26/ld-cli",
     "google/guava-beta-checker",
     "googleapis/discovery-artifact-manager",
+    "googleapis/java-cloud-bom",
     "GoogleCloudPlatform/opentelemetry-operations-java",
     "hivemq/helm-charts",
+    "jpmml/jpmml-h2o",
+    "jpmml/jpmml-r",
     "kirill-grouchnikov/ephemeral",
     "kurrent-io/KurrentDB-Client-Java",
     "m2e-code-quality/m2e-code-quality",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 385,
-    "concepts": 410,
-    "observations": 410,
+    "components": 381,
+    "concepts": 405,
+    "observations": 405,
     "repos": 71,
-    "terms": 400
+    "terms": 393
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "aquasecurity/starboard",
     "aquasecurity/tfsec",
@@ -37,12 +37,12 @@
     "darccio/mergo",
     "davidbyttow/govips",
     "ddworken/hishtory",
-    "dkron-io/dkron",
     "fatih/color",
     "fnproject/fn",
     "go-redis/redis_rate",
     "gobackup/gobackup",
     "goccy/go-json",
+    "goccy/go-yaml",
     "golang/mobile",
     "google/go-jsonnet",
     "google/pprof",

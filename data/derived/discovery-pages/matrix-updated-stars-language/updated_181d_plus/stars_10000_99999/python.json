@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 255,
-    "concepts": 533,
-    "observations": 533,
-    "repos": 96,
-    "terms": 528
+    "concepts": 538,
+    "observations": 538,
+    "repos": 98,
+    "terms": 533
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "adobe-fonts/source-han-sans",
     "ageitgey/face_recognition",
+    "AIGC-Audio/AudioGPT",
     "albumentations-team/albumentations",
     "aleju/imgaug",
     "allenai/allennlp",
@@ -55,6 +56,7 @@
     "junyanz/pytorch-CycleGAN-and-pix2pix",
     "karpathy/minbpe",
     "karpathy/minGPT",
+    "karpathy/nanoGPT",
     "kkroening/ffmpeg-python",
     "LAION-AI/Open-Assistant",
     "LlamaChinese/Llama-Chinese",

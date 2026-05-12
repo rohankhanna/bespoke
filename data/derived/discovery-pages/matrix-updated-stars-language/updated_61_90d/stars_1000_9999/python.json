@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 165,
-    "concepts": 312,
-    "observations": 312,
-    "repos": 60,
-    "terms": 309
+    "components": 170,
+    "concepts": 337,
+    "observations": 337,
+    "repos": 61,
+    "terms": 334
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -25,7 +25,7 @@
     "astanin/python-tabulate",
     "Beckschen/TransUNet",
     "benjaminp/six",
-    "BlinkDL/ChatRWKV",
+    "black-forest-labs/flux2",
     "brycedrennan/imaginAIry",
     "bytetriper/RAE",
     "ChenmienTan/RL2",
@@ -34,7 +34,6 @@
     "cvg/LightGlue",
     "daijro/browserforge",
     "dateutil/dateutil",
-    "davidhalter/jedi-vim",
     "django/asgiref",
     "facebookresearch/habitat-lab",
     "google/vizier",
@@ -64,6 +63,7 @@
     "pyusb/pyusb",
     "qix-/better-exceptions",
     "randy3k/radian",
+    "s3prl/s3prl",
     "SafeAILab/EAGLE",
     "shibing624/text2vec",
     "simonw/claude-code-transcripts",
@@ -71,6 +71,7 @@
     "toshas/torch-fidelity",
     "trevin-creator/autoresearch-mlx",
     "turboderp-org/exllamav2",
+    "yangyanli/PointCNN",
     "YosysHQ/icestorm",
     "ZhengPeng7/BiRefNet",
     "zubair-trabzada/ai-marketing-claude"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 891,
-    "concepts": 686,
-    "observations": 687,
-    "repos": 66,
-    "terms": 680
+    "components": 877,
+    "concepts": 672,
+    "observations": 673,
+    "repos": 60,
+    "terms": 666
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "actions/runner-images",
@@ -20,9 +20,7 @@
     "alpinejs/alpine",
     "apache/apisix",
     "autowarefoundation/autoware",
-    "aws/amazon-sagemaker-examples",
     "BasedHardware/omi",
-    "bitcoin/bips",
     "bitnami/charts",
     "bitwarden/server",
     "Blinue/Magpie",
@@ -31,7 +29,6 @@
     "coollabsio/coolify",
     "crystal-lang/crystal",
     "Devolutions/UniGetUI",
-    "doomemacs/doomemacs",
     "exelban/stats",
     "getgrav/grav",
     "getlantern/lantern",
@@ -45,6 +42,7 @@
     "Homebrew/homebrew-cask",
     "IBM/plex",
     "jellyfin/jellyfin",
+    "JetBrains/compose-multiplatform",
     "keeweb/keeweb",
     "koreader/koreader",
     "Kotlin/kotlinx.coroutines",
@@ -57,8 +55,8 @@
     "microsoft/mcp-for-beginners",
     "mmistakes/minimal-mistakes",
     "mozilla-mobile/firefox-ios",
+    "MudBlazor/MudBlazor",
     "neovim/nvim-lspconfig",
-    "NickeManarin/ScreenToGif",
     "nim-lang/Nim",
     "OAI/OpenAPI-Specification",
     "phoenixframework/phoenix",
@@ -67,18 +65,14 @@
     "rapid7/metasploit-framework",
     "rubocop/rubocop",
     "ruby/ruby",
-    "ScoopInstaller/Scoop",
     "sebastianbergmann/phpunit",
     "shadowsocks/shadowsocks-android",
     "Shopify/liquid",
     "square/moshi",
-    "square/okhttp",
-    "square/retrofit",
     "swiftlang/swift-evolution",
     "swiftlang/swift-package-manager",
     "symfony/symfony",
     "tiann/KernelSU",
-    "vim-airline/vim-airline",
     "xmake-io/xmake"
   ]
 }

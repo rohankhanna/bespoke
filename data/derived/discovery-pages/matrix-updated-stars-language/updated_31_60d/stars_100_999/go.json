@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 343,
-    "concepts": 276,
-    "observations": 276,
-    "repos": 50,
-    "terms": 274
+    "components": 334,
+    "concepts": 266,
+    "observations": 266,
+    "repos": 48,
+    "terms": 264
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "adrg/xdg",
     "aws/aws-app-mesh-controller-for-k8s",
@@ -42,7 +42,6 @@
     "imjasonh/kontain.me",
     "ipfs/go-cid",
     "ipfs/ipfs-docs",
-    "itzg/rcon-cli",
     "JupiterRider/purego-sdl3",
     "kubernetes-sigs/cluster-proportional-autoscaler",
     "kubernetes-sigs/hydrophone",
@@ -52,7 +51,6 @@
     "medama-io/medama",
     "minio/directpv",
     "minio/highwayhash",
-    "nikepan/clickhouse-bulk",
     "notaryproject/notation",
     "opencontainers/runtime-tools",
     "phuslu/log",

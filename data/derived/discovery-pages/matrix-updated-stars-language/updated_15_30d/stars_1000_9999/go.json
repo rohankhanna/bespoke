@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1582,
-    "concepts": 1468,
-    "observations": 1474,
-    "repos": 177,
-    "terms": 1472
+    "components": 1630,
+    "concepts": 1528,
+    "observations": 1536,
+    "repos": 182,
+    "terms": 1533
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -24,6 +24,7 @@
     "alibaba/higress",
     "allegro/bigcache",
     "anacrolix/torrent",
+    "apache/apisix-ingress-controller",
     "apache/dubbo-admin",
     "apache/dubbo-go",
     "apache/incubator-seata-go",
@@ -51,6 +52,7 @@
     "bufbuild/protoc-gen-validate",
     "bufbuild/protovalidate",
     "BurntSushi/toml",
+    "bytedance/sonic",
     "caddyserver/certmagic",
     "candid82/joker",
     "chainguard-dev/apko",
@@ -97,8 +99,8 @@
     "gin-gonic/examples",
     "go-flutter-desktop/go-flutter",
     "go-logr/logr",
+    "go-spatial/tegola",
     "go-swagger/go-swagger",
-    "goccy/go-yaml",
     "gokcehan/lf",
     "golang-jwt/jwt",
     "golang/tools",
@@ -111,6 +113,7 @@
     "GoogleCloudPlatform/berglas",
     "GoogleContainerTools/container-structure-test",
     "gopasspw/gopass",
+    "goreleaser/nfpm",
     "gotestyourself/gotestsum",
     "grafana/alloy",
     "hairyhenderson/gomplate",
@@ -135,6 +138,8 @@
     "kubernetes-sigs/external-dns",
     "kubernetes-sigs/kubebuilder",
     "kubernetes-sigs/metrics-server",
+    "kubernetes-sigs/node-feature-discovery",
+    "kubernetes-sigs/sig-storage-local-static-provisioner",
     "kubernetes/autoscaler",
     "kubernetes/client-go",
     "kubernetes/enhancements",

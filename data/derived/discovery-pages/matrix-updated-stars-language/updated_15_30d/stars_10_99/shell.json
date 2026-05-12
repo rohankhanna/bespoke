@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 163,
-    "concepts": 183,
-    "observations": 186,
-    "repos": 38,
-    "terms": 181
+    "components": 178,
+    "concepts": 165,
+    "observations": 168,
+    "repos": 39,
+    "terms": 163
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "2KAbhishek/mac2k",
     "2KAbhishek/sway2k",
@@ -34,18 +34,19 @@
     "crazy-max/goxx",
     "cri-o/packaging",
     "dependabot/smoke-tests",
-    "Digidai/product-manager-skills",
+    "dotenvx/dotenvx.sh",
     "envoyproxy/examples",
     "flinedev/tandemkit",
     "gentoo-mirror/guru",
     "GoogleCloudPlatform/blueprints",
-    "honwen/openwrt-dnsmasq-extra",
+    "helidon-io/helidon-examples",
     "iterate-ch/profiles",
     "milvus-io/milvus-proto",
     "NixOS/org",
     "nodenv/nodenv-package-rehash",
     "oceanbase/docker-images",
     "oneclick/rubyinstaller2-packages",
+    "pkgxdev/mash",
     "postmodern/ruby-versions",
     "reviewdog/action-black",
     "reviewdog/action-hadolint",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 80,
-    "concepts": 87,
-    "observations": 88,
-    "repos": 31,
-    "terms": 85
+    "components": 81,
+    "concepts": 89,
+    "observations": 90,
+    "repos": 33,
+    "terms": 87
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "3dfxdev/EDGE",
     "AdaCore/gnatcoll-db",
@@ -25,6 +25,7 @@
     "DLR-TS/SUMOLibraries",
     "eddelbuettel/rcppfastfloat",
     "eliemichel/dawn-prebuilt",
+    "FourierTransformer/lua-simdjson",
     "graalvm/polyglot-embedding-demo",
     "HolyBlackCat/box2cpp",
     "ibireme/c_numconv_benchmark",
@@ -41,6 +42,7 @@
     "Taritsyn/LibSassHost",
     "tier4/ndt_omp",
     "triton-inference-server/tensorflow_backend",
+    "utiasASRL/lgmath",
     "vorot93/libmdbx-rs",
     "XR-Robotics/XRoboToolkit-PC-Service-Pybind",
     "xtensor-stack/xtensor-r",

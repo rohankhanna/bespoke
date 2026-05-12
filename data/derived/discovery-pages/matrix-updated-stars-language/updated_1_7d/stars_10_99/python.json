@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 3,
-    "terms": 10
+    "components": 25,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 5,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
+    "Agnuxo1/CAJAL",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
+    "intel-staging/text-generation-webui",
     "mesh-iit/cad-libraries",
     "python-jsonschema/referencing"
   ]

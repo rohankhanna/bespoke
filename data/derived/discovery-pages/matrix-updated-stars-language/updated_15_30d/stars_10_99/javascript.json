@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 985,
-    "concepts": 256,
-    "observations": 256,
-    "repos": 63,
-    "terms": 256
+    "components": 962,
+    "concepts": 212,
+    "observations": 212,
+    "repos": 61,
+    "terms": 219
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersCompiler",
     "ahmadnassri/node-glob-promise",
@@ -21,10 +21,6 @@
     "bmad-code-org/bmad-module-creative-intelligence-suite",
     "browserslist/lint",
     "bufbuild/protobuf-conformance",
-    "ehmicky/all-node-versions",
-    "ehmicky/get-node",
-    "ehmicky/node-version-alias",
-    "ehmicky/preferred-node-version",
     "electerm/electerm-locales",
     "erichlof/AntiGravity-Pool",
     "erichlof/PathTracedPong",
@@ -36,7 +32,7 @@
     "i18next/i18next-chained-backend",
     "i18next/i18next-multiload-backend-adapter",
     "i18next/i18next-resources-to-backend",
-    "ipfs/js-ipfs-utils",
+    "ionide/tree-sitter-fsharp",
     "itsrishika/payment-bypass-bug-lab",
     "j9t/obsohtml",
     "jasmine/jasmine-browser-runner",
@@ -63,19 +59,21 @@
     "peergos/web-ui",
     "r-lyeh/gamebook",
     "rashfael/eslint-plugin-vue-pug",
+    "readthedocs/addons",
     "rescript-lang/tree-sitter-rescript",
     "reZach/i18next-electron-fs-backend",
     "reZach/secure-electron-context-menu",
     "scaleway/serverless-scaleway-functions",
     "semantic-release/error",
     "Taritsyn/DartSassHost",
-    "tc39/proposal-iterator-includes",
     "tnc-ca-geo/animl-frontend",
+    "tracked-tools/tracked-toolbox",
     "TrigenSoftware/simple-release-action",
     "ultralytics/llm",
     "web-platform-tests/results-analysis",
     "webtorrent/bittorrent-lsd",
     "webtorrent/bittorrent-peerid",
-    "winstonjs/winston-transport"
+    "winstonjs/winston-transport",
+    "wyyazlz/sheetnext"
   ]
 }

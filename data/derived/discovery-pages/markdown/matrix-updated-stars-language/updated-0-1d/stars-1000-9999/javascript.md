@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-11T07:58:46.643172+00:00`
+Generated at: `2026-05-12T05:46:29.404112+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 26
-- components: 207
-- concepts: 26
-- observations: 27
+- repos: 5
+- terms: 62
+- components: 249
+- concepts: 62
+- observations: 63
 
 ## Static behavior
 
@@ -26,14 +26,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [callstack/react-native-builder-bob](https://github.com/callstack/react-native-builder-bob) | 3209 | 2026-05-11T01:08:32Z | JavaScript | CLI | 10 | 28 | 10 | 10 |
-| [googleapis/google-cloud-node](https://github.com/googleapis/google-cloud-node) | 3155 | 2026-05-10T19:11:31Z | JavaScript | CLI | 8 | 20 | 8 | 9 |
-| [ipfs/ipfs-webui](https://github.com/ipfs/ipfs-webui) | 1631 | 2026-05-10T15:11:01Z | JavaScript | Infrastructure/tooling | 8 | 159 | 8 | 8 |
+| [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 5319 | 2026-05-11T21:14:13Z | JavaScript | Infrastructure/tooling | 18 | 9 | 18 | 18 |
+| [endojs/endo](https://github.com/endojs/endo) | 1019 | 2026-05-11T20:24:53Z | JavaScript | Infrastructure/tooling | 17 | 46 | 17 | 17 |
+| [module-federation/core](https://github.com/module-federation/core) | 2519 | 2026-05-11T20:07:03Z | JavaScript | Infrastructure/tooling | 13 | 159 | 13 | 13 |
+| [googleapis/google-cloud-node](https://github.com/googleapis/google-cloud-node) | 3155 | 2026-05-11T19:44:05Z | JavaScript | CLI | 8 | 20 | 8 | 9 |
+| [WiseLibs/better-sqlite3](https://github.com/WiseLibs/better-sqlite3) | 7192 | 2026-05-11T13:39:16Z | JavaScript | Infrastructure/tooling | 6 | 15 | 6 | 6 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [callstack/react-native-builder-bob](https://github.com/callstack/react-native-builder-bob) | 3209 | 2026-05-11T01:08:32Z | JavaScript | CLI | 10 | 28 | 10 | 10 |
-| [googleapis/google-cloud-node](https://github.com/googleapis/google-cloud-node) | 3155 | 2026-05-10T19:11:31Z | JavaScript | CLI | 8 | 20 | 8 | 9 |
-| [ipfs/ipfs-webui](https://github.com/ipfs/ipfs-webui) | 1631 | 2026-05-10T15:11:01Z | JavaScript | Infrastructure/tooling | 8 | 159 | 8 | 8 |
+| [WiseLibs/better-sqlite3](https://github.com/WiseLibs/better-sqlite3) | 7192 | 2026-05-11T13:39:16Z | JavaScript | Infrastructure/tooling | 6 | 15 | 6 | 6 |
+| [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 5319 | 2026-05-11T21:14:13Z | JavaScript | Infrastructure/tooling | 18 | 9 | 18 | 18 |
+| [googleapis/google-cloud-node](https://github.com/googleapis/google-cloud-node) | 3155 | 2026-05-11T19:44:05Z | JavaScript | CLI | 8 | 20 | 8 | 9 |
+| [module-federation/core](https://github.com/module-federation/core) | 2519 | 2026-05-11T20:07:03Z | JavaScript | Infrastructure/tooling | 13 | 159 | 13 | 13 |
+| [endojs/endo](https://github.com/endojs/endo) | 1019 | 2026-05-11T20:24:53Z | JavaScript | Infrastructure/tooling | 17 | 46 | 17 | 17 |

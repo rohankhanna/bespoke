@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 187,
-    "concepts": 78,
-    "observations": 78,
+    "components": 194,
+    "concepts": 84,
+    "observations": 84,
     "repos": 54,
-    "terms": 79
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "abap2UI5-addons/table-maintenance",
     "AdaCore/AdaSAT",
@@ -28,7 +28,6 @@
     "datachainlab/lcp-solidity",
     "elixir-makeup/makeup_erlang",
     "erwin-kok/multiformat",
-    "evoskuil/visual-studio-template",
     "haskell-compat/base-orphans",
     "haya14busa/github-used-by",
     "hchiam/learning-ngrok",
@@ -64,6 +63,7 @@
     "Shopify/svg2vd",
     "simdjson/simdjson-data",
     "slunsford/coffee-analytics",
+    "tensorchord/VectorChord-images",
     "testng-team/testng-team.github.io",
     "typstyle-rs/typstyle-action",
     "XR-Robotics/XRoboToolkit-Orin-Video-Sender",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 106,
-    "observations": 106,
-    "repos": 27,
-    "terms": 106
+    "components": 56,
+    "concepts": 113,
+    "observations": 113,
+    "repos": 29,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
+    "ad-si/awesome-music-production",
     "alchaincyf/zhangxuefeng-skill",
     "android/skills",
     "aws-controllers-k8s/community",
@@ -27,10 +28,11 @@
     "flathub/flathub",
     "FuelLabs/fuel-specs",
     "godotengine/awesome-godot",
-    "libp2p/libp2p",
     "libp2p/specs",
+    "logseq/awesome-logseq",
     "mapbox/awesome-vector-tiles",
     "meituan-longcat/LongCat-Flash-Chat",
+    "MicrosoftDocs/cpp-docs",
     "MicrosoftDocs/WSL",
     "pditommaso/awesome-pipeline",
     "QwenLM/Qwen3.6",

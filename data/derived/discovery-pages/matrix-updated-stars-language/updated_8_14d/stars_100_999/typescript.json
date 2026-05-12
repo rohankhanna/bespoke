@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2817,
-    "concepts": 588,
-    "observations": 590,
-    "repos": 86,
-    "terms": 586
+    "components": 2940,
+    "concepts": 612,
+    "observations": 614,
+    "repos": 87,
+    "terms": 610
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
+    "abaplint/transpiler",
     "agentclientprotocol/typescript-sdk",
     "AgnosticUI/agnosticui",
+    "ansible/vscode-ansible",
     "antfu/eslint-flat-config-utils",
+    "antvis/chart-visualization-skills",
     "apollographql/federation",
     "appium/appium-xcuitest-driver",
     "appwrite/sdk-for-web",
@@ -39,8 +42,7 @@
     "engine262/engine262",
     "flathub-infra/website",
     "folke/esbuild-runner",
-    "forcedotcom/code-analyzer",
-    "fsouza/prettierd",
+    "foundry-rs/foundry-toolchain",
     "ftonato/nope-validator",
     "fullcalendar/temporal-polyfill",
     "glassflow/clickhouse-etl",
@@ -57,14 +59,12 @@
     "jurplel/install-qt-action",
     "kkomelin/isomorphic-dompurify",
     "LemmyNet/lemmy-js-client",
-    "luciopaiva/heapify",
     "microsoft/ai-chat-protocol",
     "microsoft/cognitive-services-speech-sdk-js",
     "microsoft/vscode-java-debug",
     "milvus-io/milvus-sdk-node",
     "mmkal/expect-type",
     "mswjs/interceptors",
-    "nene/prettier-plugin-sql-cst",
     "nene/sql-parser-cst",
     "nonara/ts-patch",
     "nuxt/bridge",
@@ -74,7 +74,7 @@
     "octokit/auth-app.js",
     "octokit/graphql.js",
     "ory/docs",
-    "oxc-project/eslint-plugin-oxlint",
+    "P4sca1/cron-schedule",
     "privatenumber/get-tsconfig",
     "radashi-org/radashi",
     "redhat-developer/vscode-yaml",
@@ -97,6 +97,7 @@
     "unjs/get-port-please",
     "unjs/listhen",
     "unjs/unimport",
+    "victorgarciaesgi/regle",
     "web-infra-dev/rslib",
     "web-infra-dev/rstest",
     "wevm/abitype"

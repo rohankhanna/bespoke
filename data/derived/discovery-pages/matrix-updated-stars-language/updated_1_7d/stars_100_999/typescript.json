@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 712,
-    "concepts": 134,
-    "observations": 134,
-    "repos": 21,
-    "terms": 132
+    "components": 397,
+    "concepts": 72,
+    "observations": 72,
+    "repos": 14,
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,28 +12,21 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
-    "a2aproject/a2a-js",
-    "abaplint/transpiler",
     "Agoric/agoric-sdk",
-    "ansible/vscode-ansible",
+    "antvis/GPT-Vis",
     "electron/packager",
     "embroider-build/ember-auto-import",
-    "fluent-vue/fluent-vue",
-    "foundry-rs/foundry-toolchain",
     "huggingface/hf-mcp-server",
     "inversify/monorepo",
     "lambdalisue/vim-gin",
     "LuaLS/vscode-lua",
-    "mightyiam/eslint-config-love",
-    "P4sca1/cron-schedule",
-    "preactjs/preact-devtools",
+    "Rel1cx/eslint-react",
     "safe-fndn/safe-singleton-factory",
+    "serversideup/webext-bridge",
     "skilld-dev/skilld",
-    "stx-labs/stacks.js",
     "unplugin/unplugin-imagemin",
-    "victorgarciaesgi/regle",
     "xdebug/vscode-php-debug"
   ]
 }

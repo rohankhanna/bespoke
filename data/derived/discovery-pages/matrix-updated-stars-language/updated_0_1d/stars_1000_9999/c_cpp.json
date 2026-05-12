@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 46,
-    "observations": 46,
-    "repos": 4,
-    "terms": 46
+    "components": 38,
+    "concepts": 80,
+    "observations": 80,
+    "repos": 5,
+    "terms": 80
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
-    "ashvardanian/NumKong",
-    "KhronosGroup/KTX-Software",
+    "AdaptiveCpp/AdaptiveCpp",
+    "doctest/doctest",
+    "harfbuzz/harfbuzz",
     "Mithril-mine/libmdbx",
-    "TrenchBroom/TrenchBroom"
+    "xtensor-stack/xtensor"
   ]
 }

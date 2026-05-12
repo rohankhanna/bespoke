@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9236,
-    "concepts": 10969,
-    "observations": 10995,
-    "repos": 2274,
-    "terms": 10874
+    "components": 9264,
+    "concepts": 11001,
+    "observations": 11027,
+    "repos": 2280,
+    "terms": 10908
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0xPolygonHermez/pil2-proofman",
@@ -572,6 +572,7 @@
     "DefTruth/lite.ai.toolkit",
     "delfrrr/delaunator-cpp",
     "deni2312/prisma-engine",
+    "derickr/timelib",
     "derronqi/ncnn-android-yolov8-face",
     "dev0x13/pywuffs",
     "devgianlu/librespot-android",
@@ -1116,6 +1117,7 @@
     "jedisct1/libsodium",
     "jedisct1/minisign",
     "jeffdaily/parasail",
+    "jeffzhou2000/ggml-hexagon",
     "jellyfin/jellyfin-ffmpeg",
     "jemalloc/jemalloc",
     "jeremycw/httpserver.h",
@@ -1184,6 +1186,8 @@
     "kafeiyin00/WHU-HelmetDataset",
     "kagiannis/FPC",
     "KamilSJaron/smudgeplot",
+    "kantv-ai/FFmpeg",
+    "kantv-ai/kantv",
     "karimnaaji/voxelizer",
     "karpathy/llama2.c",
     "kaylorchen/rk3588-yolo-demo",
@@ -1214,6 +1218,7 @@
     "KhronosGroup/Vulkan-ValidationLayers",
     "kimgr/getopt_port",
     "kinow/gtest-tap-listener",
+    "kiron1/bazel-compile-commands",
     "kismetwireless/kismet",
     "KIT-ISAS/lili-om",
     "Kitware/CMake",
@@ -1541,6 +1546,7 @@
     "MooreThreads/MT-flashMLA",
     "moretension/duti",
     "MorganRO8/Lucys_Labyrinth",
+    "MosheBerman/KosherCocoa",
     "mozilla-ai/llamafile",
     "mozilla/DeepSpeech",
     "MPEGGroup/mpeg-pcc-tmc13",

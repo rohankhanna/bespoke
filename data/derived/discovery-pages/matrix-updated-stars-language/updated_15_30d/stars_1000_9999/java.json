@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 289,
-    "concepts": 293,
-    "observations": 295,
-    "repos": 38,
-    "terms": 294
+    "components": 310,
+    "concepts": 345,
+    "observations": 347,
+    "repos": 42,
+    "terms": 346
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "apache/camel",
@@ -27,13 +27,17 @@
     "brianfrankcooper/YCSB",
     "castorini/anserini",
     "codelibs/fess",
+    "confluentinc/examples",
     "diffplug/spotless",
+    "dylibso/chicory",
     "FasterXML/jackson-annotations",
+    "flyway/flyway",
     "google/adk-java",
     "google/error-prone",
     "google/google-java-format",
     "google/j2cl",
     "google/tsunami-security-scanner",
+    "google/tsunami-security-scanner-plugins",
     "googleapis/google-api-java-client",
     "googleapis/google-http-java-client",
     "java-native-access/jna",

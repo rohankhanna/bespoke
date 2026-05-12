@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11438,
-    "concepts": 7792,
-    "observations": 7853,
-    "repos": 1707,
-    "terms": 7793
+    "components": 11469,
+    "concepts": 7808,
+    "observations": 7869,
+    "repos": 1709,
+    "terms": 7809
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -248,6 +248,7 @@
     "blacknon/hwatch",
     "blitz-js/next-superjson-plugin",
     "Blockstream/electrs",
+    "BloopAI/vibe-kanban",
     "bluealloy/revm",
     "bluss/bencher",
     "bluss/matrixmultiply",
@@ -978,6 +979,7 @@
     "kylebarron/pyo3-file",
     "KyleMayes/clang-rs",
     "KyleMayes/clang-sys",
+    "la10736/rstest",
     "lakekeeper/iceberg-rust",
     "lakekeeper/lakekeeper",
     "lalrpop/lalrpop",

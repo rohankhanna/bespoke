@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 126,
-    "concepts": 143,
-    "observations": 146,
-    "repos": 16,
-    "terms": 143
+    "components": 66,
+    "concepts": 93,
+    "observations": 94,
+    "repos": 11,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "arcee-ai/mergekit",
     "aws/serverless-application-model",
     "bitsandbytes-foundation/bitsandbytes",
-    "clearml/clearml",
     "funstory-ai/BabelDOC",
+    "ggozad/oterm",
     "google-deepmind/dm-haiku",
-    "google-deepmind/optax",
     "google-deepmind/sonnet",
     "lucidrains/vector-quantize-pytorch",
     "meta-pytorch/captum",
     "mikel-brostrom/boxmot",
-    "PaddlePaddle/FastDeploy",
-    "redis/redis-om-python",
-    "safetensors/safetensors",
-    "strob/gentle",
-    "vyperlang/vyper"
+    "strob/gentle"
   ]
 }

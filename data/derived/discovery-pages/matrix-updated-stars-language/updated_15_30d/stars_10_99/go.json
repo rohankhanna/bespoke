@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 369,
-    "concepts": 258,
-    "observations": 259,
-    "repos": 57,
-    "terms": 254
+    "components": 422,
+    "concepts": 283,
+    "observations": 284,
+    "repos": 61,
+    "terms": 279
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
+    "AbdelrhmanHamouda/locust-k8s-operator",
     "abhinav/goldmark-anchor",
     "abhinav/goldmark-frontmatter",
     "abhinav/tmux-fastcopy",
@@ -43,6 +44,7 @@
     "containers/container-libs",
     "danielgtaylor/mexpr",
     "danielgtaylor/shorthand",
+    "datachainlab/cosmos-ethereum-ibc-lcp",
     "davidkarlsen/flyway-operator",
     "defilantech/LLMKube",
     "depado/smallblog",
@@ -53,6 +55,7 @@
     "gopasspw/gopass-hibp",
     "hashicorp/hcp-sdk-go",
     "Infisical/go-sdk",
+    "ipfs/ipfs-check",
     "ipshipyard/p2p-forge",
     "kubernetes-sigs/apiserver-runtime",
     "kubernetes-sigs/provider-aws-test-infra",
@@ -70,6 +73,7 @@
     "sigstore/k8s-manifest-sigstore",
     "sigstore/rekor-tiles",
     "terraform-linters/tflint-ruleset-google",
-    "transparency-dev/armored-witness"
+    "transparency-dev/armored-witness",
+    "transparency-dev/witness"
   ]
 }

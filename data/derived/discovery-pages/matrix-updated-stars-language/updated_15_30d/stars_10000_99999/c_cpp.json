@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 530,
-    "concepts": 700,
-    "observations": 703,
-    "repos": 76,
-    "terms": 705
+    "components": 533,
+    "concepts": 714,
+    "observations": 717,
+    "repos": 77,
+    "terms": 719
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "abseil/abseil-cpp",
     "Alexays/Waybar",
@@ -26,6 +26,7 @@
     "asmvik/yabai",
     "bitcoin/bitcoin",
     "bkaradzic/bgfx",
+    "catchorg/Catch2",
     "chromium/chromium",
     "citusdata/citus",
     "ClickHouse/ClickHouse",

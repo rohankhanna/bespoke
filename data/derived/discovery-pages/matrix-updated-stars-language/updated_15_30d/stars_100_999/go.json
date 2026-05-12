@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 823,
-    "concepts": 665,
-    "observations": 671,
-    "repos": 110,
-    "terms": 675
+    "components": 884,
+    "concepts": 724,
+    "observations": 730,
+    "repos": 118,
+    "terms": 734
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "2dust/AndroidLibXrayLite",
@@ -26,6 +26,7 @@
     "apache/dubbo-go-pixiu",
     "apache/dubbo-go-samples",
     "apache/dubbo-kubernetes",
+    "apache/pulsar-client-go",
     "appleboy/go-fcm",
     "argoproj-labs/argo-rollouts-manager",
     "aws/amazon-vpc-resource-controller-k8s",
@@ -34,7 +35,9 @@
     "Azure/terraform-provider-azapi",
     "bazel-contrib/rules_img",
     "bernardo-bruning/ollama-copilot",
+    "bitrise-io/bitrise",
     "bitrise-io/envman",
+    "boj/redistore",
     "bufbuild/protovalidate-go",
     "ByteNess/aws-vault",
     "celestiaorg/celestia-node",
@@ -49,6 +52,7 @@
     "coder/code-marketplace",
     "coder/envbuilder",
     "Consensys/gnark-crypto",
+    "CosmWasm/wasmvm",
     "crytic/medusa",
     "darkweak/souin",
     "dependabot/cli",
@@ -60,6 +64,7 @@
     "ethereum/hive",
     "foxj77/claudectx",
     "go-git/go-billy",
+    "go-logr/zapr",
     "go-openapi/swag",
     "go-viper/mapstructure",
     "googleapis/go-genproto",
@@ -73,6 +78,7 @@
     "hashicorp/terraform-provider-scaffolding-framework",
     "hazelcast/hazelcast-go-client",
     "helm/chart-releaser",
+    "hypnoglow/helm-s3",
     "ipfs/boxo",
     "ipfs/rainbow",
     "itzg/mc-monitor",
@@ -109,6 +115,7 @@
     "opentofu/registry",
     "ossf/osv-schema",
     "phiat/claude-esp",
+    "pion/mediadevices",
     "pires/go-proxyproto",
     "prehisle/relay-pulse",
     "prometheus/common",
@@ -121,6 +128,7 @@
     "spiffe/go-spiffe",
     "terraform-linters/tflint-ruleset-aws",
     "terraform-linters/tflint-ruleset-azurerm",
+    "theupdateframework/go-tuf",
     "transparency-dev/tessera",
     "trzsz/tsshd",
     "web-platform-tests/wpt.fyi"

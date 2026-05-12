@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 39,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 64,
-    "terms": 54
+    "concepts": 47,
+    "observations": 47,
+    "repos": 73,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -42,30 +42,40 @@
     "damacol/xai-org-grok-2",
     "danielrosehill/adb-ops-plugin",
     "danielrosehill/Agent-Assisted-Purchase-Research-Index",
+    "danielrosehill/AI-Data-Utilities",
     "danielrosehill/AI-Geopol-Projects",
+    "danielrosehill/AI-Memory-Layers",
     "danielrosehill/AI-Memory-Planning-0426",
     "danielrosehill/AI-Presentation-Builders-Index",
     "danielrosehill/AI-Safety-Projects-Index",
     "danielrosehill/Arch-And-Interiors-Index",
     "danielrosehill/audio-editing-plugin",
     "danielrosehill/Backup-Planner",
+    "danielrosehill/Claude-ADB-Ops-Plugin",
     "danielrosehill/Claude-AI-Engineering-Plugin",
     "danielrosehill/Claude-Audio-Production-Plugin",
+    "danielrosehill/Claude-Backup-Planner-Plugin",
     "danielrosehill/Claude-Budgeting-Plugin",
     "danielrosehill/Claude-Career-Plugin",
     "danielrosehill/Claude-Code-Bugs-And-FRs",
     "danielrosehill/Claude-Code-Feedback",
+    "danielrosehill/Claude-Data-Annotation-Plugin",
     "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin",
+    "danielrosehill/Claude-Digital-Printing-Plugin",
     "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
     "danielrosehill/Claude-HTML-Email-Designer-Plugin",
     "danielrosehill/Claude-Israel",
+    "danielrosehill/Claude-KDE-Plasmoid-Dev-Plugin",
+    "danielrosehill/Claude-Knowledge-Documentation-Plugin",
     "danielrosehill/Claude-Workspace-Reshaping-190426",
     "danielrosehill/Favorite-Code-Libraries",
     "danielrosehill/Geopol-Forecasts-Index",
+    "danielrosehill/Israel-Projects-Index",
     "danielrosehill/lan-manager-plugin",
     "danielrosehill/My-Benchmarks",
     "danielrosehill/Open-Research-Workspaces-Index",
     "danielrosehill/Research-Tools-And-Templates-Index",
+    "danielrosehill/Speech-And-ASR-Evaluations",
     "Dustinpro/Dustinpro",
     "foundersieve687/skill-gateway",
     "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",
@@ -76,7 +86,6 @@
     "TransferQueue/community_doc",
     "ublacklist/store-assets",
     "vivianalaced749/vk-calls-tunnel",
-    "wencuecryforme/mysoul.skill",
     "wendyalbanez/clawui"
   ]
 }

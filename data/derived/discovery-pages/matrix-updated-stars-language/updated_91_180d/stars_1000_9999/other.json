@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 353,
-    "concepts": 382,
-    "observations": 384,
-    "repos": 86,
-    "terms": 380
+    "concepts": 386,
+    "observations": 388,
+    "repos": 87,
+    "terms": 384
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "Alexander-Miller/treemacs",
     "ankane/dexter",
@@ -68,6 +68,7 @@
     "kikito/inspect.lua",
     "lmbelo/python4delphi",
     "mds1/multicall3",
+    "mfussenegger/nvim-jdtls",
     "microsoft/BotBuilder-Samples",
     "microsoft/mssql-docker",
     "microsoft/Security-101",

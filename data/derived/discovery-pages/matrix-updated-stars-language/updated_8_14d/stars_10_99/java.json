@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 76,
-    "observations": 77,
-    "repos": 19,
-    "terms": 75
+    "components": 63,
+    "concepts": 59,
+    "observations": 60,
+    "repos": 14,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "Accla/graphulo",
-    "BerkleyTechnologyServices/restdocs-spec",
     "BerkleyTechnologyServices/restdocs-spec-example",
     "confluentinc/common",
     "confluentinc/rest-utils",
-    "eclipse-shellwax/shellwax",
     "edward3h/minecraft-webhook",
     "flyway/flyway-community-db-support",
     "googleapis/java-bigtable",
-    "googleapis/java-cloud-bom",
     "googleapis/sdk-platform-java",
     "heroku/heroku-jvm-application-deployer",
-    "jpmml/jpmml-h2o",
-    "jpmml/jpmml-r",
     "opensim-org/opensim-gui",
     "qdrant/java-client",
     "smithy-lang/smithy-examples",

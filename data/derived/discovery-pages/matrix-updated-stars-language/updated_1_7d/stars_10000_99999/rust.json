@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 4,
-    "terms": 38
+    "components": 70,
+    "concepts": 36,
+    "observations": 36,
+    "repos": 3,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "astral-sh/ruff",
     "DioxusLabs/dioxus",
-    "rerun-io/rerun",
-    "rust-lang/mdBook"
+    "rerun-io/rerun"
   ]
 }

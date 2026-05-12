@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 32837,
-    "concepts": 14916,
-    "observations": 14971,
-    "repos": 1683,
-    "terms": 14876
+    "components": 32874,
+    "concepts": 14947,
+    "observations": 15002,
+    "repos": 1688,
+    "terms": 14912
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -35,6 +35,7 @@
     "abiosoft/colima",
     "abpframework/abp",
     "abseil/abseil-cpp",
+    "academic/awesome-datascience",
     "accomplish-ai/accomplish",
     "acdlite/recompose",
     "acmesh-official/acme.sh",
@@ -64,6 +65,7 @@
     "ai/nanoid",
     "aidenybai/react-scan",
     "Aider-AI/aider",
+    "AIGC-Audio/AudioGPT",
     "aio-libs/aiohttp",
     "airbnb/visx",
     "ajaxorg/ace",
@@ -221,6 +223,7 @@
     "Blinue/Magpie",
     "blitz-js/blitz",
     "bloc97/Anime4K",
+    "BloopAI/vibe-kanban",
     "bluesky-social/social-app",
     "bmad-code-org/bmad-method",
     "bmaltais/kohya_ss",
@@ -638,6 +641,7 @@
     "google/cadvisor",
     "google/comprehensive-rust",
     "google/dopamine",
+    "google/ExoPlayer",
     "google/filament",
     "google/flatbuffers",
     "google/fonts",
@@ -865,6 +869,7 @@
     "KaTeX/KaTeX",
     "keeweb/keeweb",
     "kefranabg/readme-md-generator",
+    "kepano/obsidian-skills",
     "keras-team/keras",
     "KittenML/KittenTTS",
     "kkroening/ffmpeg-python",

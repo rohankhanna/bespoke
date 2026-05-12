@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 83,
-    "concepts": 114,
-    "observations": 114,
-    "repos": 10,
-    "terms": 114
+    "components": 13,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 4,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "bazel-contrib/bazel-gazelle",
     "bazel-contrib/rules_go",
-    "crazy-max/diun",
-    "crc-org/crc",
-    "googleapis/google-cloud-go",
-    "gookit/goutil",
-    "gookit/validate",
-    "kubernetes-sigs/karpenter",
-    "letsencrypt/boulder",
-    "open-telemetry/opentelemetry-operator"
+    "etcd-io/bbolt",
+    "kubernetes-sigs/karpenter"
   ]
 }

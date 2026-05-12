@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1757,
-    "concepts": 1437,
-    "observations": 1442,
-    "repos": 139,
-    "terms": 1463
+    "components": 1818,
+    "concepts": 1515,
+    "observations": 1520,
+    "repos": 146,
+    "terms": 1541
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "3b1b/manim",
@@ -81,6 +81,7 @@
     "ipython/ipython",
     "k-dense-ai/scientific-agent-skills",
     "karpathy/nanochat",
+    "kornia/kornia",
     "kovidgoyal/kitty",
     "langbot-app/LangBot",
     "langchain-ai/deepagents",
@@ -111,6 +112,8 @@
     "openai/openai-python",
     "openai/swarm",
     "openai/whisper",
+    "OpenBMB/MiniCPM-o",
+    "optuna/optuna",
     "oraios/serena",
     "PaddlePaddle/PaddleOCR",
     "PaddlePaddle/PaddleSpeech",
@@ -132,6 +135,7 @@
     "pytorch/vision",
     "ranger/ranger",
     "ray-project/ray",
+    "redis/redis-py",
     "searxng/searxng",
     "sgl-project/sglang",
     "ShishirPatil/gorilla",
@@ -141,11 +145,14 @@
     "stanfordnlp/dspy",
     "state-spaces/mamba",
     "streamlit/streamlit",
+    "SWE-agent/SWE-agent",
     "tensorflow/models",
     "Textualize/rich",
     "Textualize/textual",
     "titanwings/colleague-skill",
     "ultralytics/ultralytics",
+    "ultralytics/yolov3",
+    "ultralytics/yolov5",
     "unslothai/unsloth",
     "vllm-project/vllm",
     "voxel51/fiftyone",

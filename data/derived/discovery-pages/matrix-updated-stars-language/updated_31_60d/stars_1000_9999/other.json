@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 763,
-    "concepts": 852,
-    "observations": 857,
-    "repos": 146,
-    "terms": 850
+    "components": 770,
+    "concepts": 879,
+    "observations": 884,
+    "repos": 150,
+    "terms": 877
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -37,6 +37,7 @@
     "bbatsov/crux",
     "bbatsov/prelude",
     "bblimke/webmock",
+    "bencheeorg/benchee",
     "cake-build/cake",
     "camlworks/dream",
     "castwide/solargraph",
@@ -69,13 +70,15 @@
     "folke/lazydev.nvim",
     "folke/snacks.nvim",
     "folke/tokyonight.nvim",
+    "freerange/mocha",
     "garybernhardt/selecta",
     "geocompx/geocompr",
+    "GFW-knocker/MahsaNG",
+    "ggandor/leap.nvim",
     "ggml-org/llama.vim",
     "gjtorikian/html-proofer",
     "google-deepmind/tapnet",
     "google/brax",
-    "google/cel-spec",
     "google/jsonnet",
     "googleapis/google-auth-library-php",
     "gpu-mode/Triton-Puzzles",
@@ -112,7 +115,6 @@
     "metosin/reitit",
     "mfussenegger/nvim-dap",
     "mfussenegger/nvim-lint",
-    "mhinz/vim-signify",
     "michalmuskala/jason",
     "moby/vpnkit",
     "ndmitchell/ghcid",
@@ -124,6 +126,7 @@
     "nvim-neorg/neorg",
     "nvim-treesitter/nvim-treesitter-textobjects",
     "OFA-Sys/Chinese-CLIP",
+    "olimorris/onedarkpro.nvim",
     "OmniSharp/omnisharp-roslyn",
     "opal/opal",
     "oxalorg/sakura",
@@ -151,6 +154,7 @@
     "swiftbar/SwiftBar",
     "tc39/proposal-temporal",
     "tensorflow/tpu",
+    "troxler/awesome-css-frameworks",
     "usbarmory/usbarmory",
     "varvet/pundit",
     "vcr/vcr",

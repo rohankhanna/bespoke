@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 104,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 4,
-    "terms": 32
+    "concepts": 26,
+    "observations": 26,
+    "repos": 3,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
-    "FortAwesome/Font-Awesome",
     "mathjax/MathJax",
     "sql-js/sql.js",
     "videojs/video.js"

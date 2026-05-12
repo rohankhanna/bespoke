@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 3140,
-    "concepts": 1485,
-    "observations": 1487,
-    "repos": 306,
-    "terms": 1460
+    "concepts": 1490,
+    "observations": 1492,
+    "repos": 308,
+    "terms": 1465
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -21,6 +21,7 @@
     "adobe/brackets",
     "agalwood/Motrix",
     "ageitgey/face_recognition",
+    "AIGC-Audio/AudioGPT",
     "albumentations-team/albumentations",
     "alebcay/awesome-shell",
     "aleju/imgaug",
@@ -164,6 +165,7 @@
     "karpathy/micrograd",
     "karpathy/minbpe",
     "karpathy/minGPT",
+    "karpathy/nanoGPT",
     "kefranabg/readme-md-generator",
     "kkroening/ffmpeg-python",
     "krallin/tini",

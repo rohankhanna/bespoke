@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 3,
-    "terms": 42
+    "components": 16,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 1,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
-    "itzg/docker-minecraft-server",
-    "nvm-sh/nvm",
-    "spaceship-prompt/spaceship-prompt"
+    "nvm-sh/nvm"
   ]
 }

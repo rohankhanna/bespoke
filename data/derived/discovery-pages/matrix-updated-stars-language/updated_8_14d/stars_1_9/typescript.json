@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 354,
-    "concepts": 135,
-    "observations": 135,
-    "repos": 19,
-    "terms": 135
+    "components": 369,
+    "concepts": 134,
+    "observations": 134,
+    "repos": 18,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,17 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "8hobbies/vite-plugin-year",
     "anolilab/unplugin-favicons",
+    "breferrari/shardmind",
     "csm-actions/update-branch-action",
     "dreamscached/i18next-cli-plugin-svelte",
     "dydxprotocol/v4-localization",
     "ecyrbe/zodios-plugins",
     "filecoin-project/github-mgmt",
     "fluent-vue/unplugin-fluent-vue",
-    "haskell-actions/hlint-run",
-    "haskell-actions/hlint-setup",
     "ipfs-shipyard/github-mgmt",
     "ipld/github-mgmt",
     "ipshipyard/github-mgmt",

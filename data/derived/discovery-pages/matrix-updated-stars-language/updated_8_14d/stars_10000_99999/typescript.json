@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4127,
-    "concepts": 855,
-    "observations": 859,
-    "repos": 72,
-    "terms": 853
+    "components": 4022,
+    "concepts": 817,
+    "observations": 821,
+    "repos": 68,
+    "terms": 815
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "aidenybai/react-scan",
     "angular/angular-cli",
@@ -29,7 +29,6 @@
     "calcom/cal.diy",
     "changesets/changesets",
     "cheeriojs/cheerio",
-    "coder/code-server",
     "colinhacks/zod",
     "continuedev/continue",
     "danny-avila/LibreChat",
@@ -40,14 +39,11 @@
     "element-plus/element-plus",
     "faker-js/faker",
     "formatjs/formatjs",
-    "GoogleChromeLabs/comlink",
-    "invoke-ai/InvokeAI",
     "janhq/jan",
     "jhipster/generator-jhipster",
     "jquense/yup",
     "Kong/insomnia",
     "kysely-org/kysely",
-    "lit/lit",
     "mapbox/mapbox-gl-js",
     "maplibre/maplibre-gl-js",
     "marmelab/react-admin",
@@ -60,10 +56,10 @@
     "nuxt/nuxt",
     "oblador/react-native-vector-icons",
     "openobserve/openobserve",
-    "paulmillr/chokidar",
     "pmndrs/react-three-fiber",
     "pmndrs/zustand",
     "prisma/prisma",
+    "puppeteer/puppeteer",
     "QwikDev/qwik",
     "react-hook-form/react-hook-form",
     "reduxjs/redux",

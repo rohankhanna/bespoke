@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1886,
-    "concepts": 2802,
-    "observations": 2821,
-    "repos": 703,
-    "terms": 2740
+    "components": 1899,
+    "concepts": 2842,
+    "observations": 2861,
+    "repos": 708,
+    "terms": 2780
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -42,6 +42,7 @@
     "89luca89/distrobox",
     "a2aproject/A2A",
     "aaaaadrien/adrien-overlay",
+    "aaron-he-zhu/seo-geo-claude-skills",
     "aaronpowell/tmux-weather",
     "aaronrsun/spec-kit-confluence",
     "aarowill/base16-gnome-terminal",
@@ -57,6 +58,7 @@
     "AFLplusplus/cov-analysis",
     "agarrharr/awesome-cli-apps",
     "agent-sh/glidemq",
+    "agenticnotetaking/arscontexta",
     "agents-squads/agents-squads",
     "agkozak/zcomet",
     "agnoster/agnoster-zsh-theme",
@@ -66,6 +68,7 @@
     "aidenlab/juicer",
     "aiKrice/homebrew-badgetizr",
     "akohlbecker/aw-watcher-tmux",
+    "alchemiststudiosDOTai/harness-engineering",
     "aleksejkrueger/tmux-spotify-tui",
     "aleskxyz/reality-ezpz",
     "alex000kim/nsfw_data_scraper",
@@ -133,6 +136,7 @@
     "bblanchon/pdfium-binaries",
     "beehive-lab/docker-gpullama3.java",
     "beehive-lab/docker-tornadovm",
+    "BehindTheMath/zmanim-sql",
     "belak/prezto-contrib",
     "belak/zsh-utils",
     "bellini666/asdf-lua-language-server",
@@ -678,6 +682,7 @@
     "tritondatacenter/node-cmdutil",
     "tuvovan/Zero_DCE_TF",
     "twain47/Open-SVG-Map-Icons",
+    "TypedDevs/bashunit",
     "tzachar/sqlite_skim",
     "undeadlist/claude-code-agents",
     "ungoogled-software/ungoogled-chromium-android",

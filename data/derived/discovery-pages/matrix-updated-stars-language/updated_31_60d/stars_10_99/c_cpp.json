@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 192,
-    "concepts": 188,
-    "observations": 188,
-    "repos": 40,
-    "terms": 186
+    "components": 187,
+    "concepts": 168,
+    "observations": 168,
+    "repos": 37,
+    "terms": 166
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "ada-url/ada-python",
     "ada-url/goada",
@@ -28,8 +28,6 @@
     "clouren/SPEX",
     "cpmech/tritet",
     "CROSS-signature/CROSS-implementation",
-    "DeanoC/tiny_imageformat",
-    "edge-classic/EDGE-classic",
     "farm-ng/farm-ng-core",
     "fcambus/bdf2sfd",
     "flashlight/text",
@@ -52,7 +50,6 @@
     "RekGRpth/pg_task",
     "ssiu/flash-attention-turing",
     "theimpossibleastronaut/rmw",
-    "uael/sv",
-    "VeriSilicon/tflite-vx-delegate"
+    "uael/sv"
   ]
 }

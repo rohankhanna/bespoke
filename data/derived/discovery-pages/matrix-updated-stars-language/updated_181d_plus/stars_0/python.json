@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 163,
-    "concepts": 109,
-    "observations": 109,
-    "repos": 76,
-    "terms": 109
+    "concepts": 112,
+    "observations": 112,
+    "repos": 79,
+    "terms": 112
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "AbhiLegend/AIDrugDiscoveryOpenVINO",
     "af-74413592/agentscope",
@@ -40,6 +40,7 @@
     "danielrosehill/Docs-Grabber",
     "danielrosehill/Feature-Ideas-And-Requests",
     "danielrosehill/Github-To-OpenWebUI-Context-Pipeline",
+    "danielrosehill/Local-ASR-STT-Benchmark",
     "danielrosehill/OR-Models-With-Tools-0811",
     "danielrosehill/Remote-Jobs-Research-Agent",
     "doc-doc/hcrn-bert",
@@ -87,6 +88,8 @@
     "spencer-tb/ethereum-spec-evm-resolver",
     "thanku-all/parse_answer",
     "tonysy/opencompass",
+    "UltraEval/GLM-4-Voice",
+    "UltraEval/Step-Audio",
     "XuhuiZhou/OpenHands",
     "yinbow/CamoFormer-Jittor",
     "zzowenzz/coco_tiny"

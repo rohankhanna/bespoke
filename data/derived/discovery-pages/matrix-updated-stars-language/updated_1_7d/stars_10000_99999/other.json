@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 59,
-    "concepts": 56,
-    "observations": 57,
-    "repos": 5,
-    "terms": 56
+    "components": 88,
+    "concepts": 44,
+    "observations": 45,
+    "repos": 4,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "dotnet/aspnetcore",
     "dotnet/AspNetCore.Docs",
-    "JetBrains/compose-multiplatform",
     "mixmark-io/turndown",
-    "MudBlazor/MudBlazor"
+    "vbenjs/vue-vben-admin"
   ]
 }

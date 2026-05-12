@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 342,
-    "concepts": 671,
-    "observations": 672,
-    "repos": 144,
-    "terms": 661
+    "components": 344,
+    "concepts": 676,
+    "observations": 677,
+    "repos": 146,
+    "terms": 666
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "AILab-CVC/VideoCrafter",
     "alexmojaki/snoop",
@@ -29,6 +29,7 @@
     "baaivision/Emu",
     "baaivision/Emu3",
     "bazelbuild/starlark",
+    "BlinkDL/ChatRWKV",
     "breezedeus/CnOCR",
     "buriy/python-readability",
     "ByteDance-Seed/SeedVR",
@@ -43,6 +44,7 @@
     "crossbario/autobahn-python",
     "crossbario/autobahn-testsuite",
     "cvg/Hierarchical-Localization",
+    "davidhalter/jedi-vim",
     "deepseek-ai/DeepSeek-V3.2-Exp",
     "descriptinc/descript-audio-codec",
     "DLYuanGod/TinyGPT-V",

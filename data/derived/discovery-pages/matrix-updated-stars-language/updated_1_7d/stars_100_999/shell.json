@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 3,
-    "observations": 3,
+    "components": 9,
+    "concepts": 19,
+    "observations": 19,
     "repos": 2,
-    "terms": 3
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "git-friendly/git-friendly",
-    "jez/dotfiles"
+    "TypedDevs/bashunit"
   ]
 }

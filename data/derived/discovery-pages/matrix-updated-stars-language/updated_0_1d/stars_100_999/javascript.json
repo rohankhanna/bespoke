@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 1,
-    "terms": 10
+    "components": 49,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 3,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-10T08:43:20.219283+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
-    "jupyter/nbclassic"
+    "aws-cloudformation/cfn-lint-visual-studio-code",
+    "digitalocean/openapi",
+    "GDevelopApp/GDevelop-extensions"
   ]
 }

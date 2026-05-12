@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 9895,
-    "concepts": 8567,
-    "observations": 8576,
-    "repos": 2237,
-    "terms": 8450
+    "components": 9930,
+    "concepts": 8582,
+    "observations": 8591,
+    "repos": 2242,
+    "terms": 8466
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -41,6 +41,7 @@
     "acheong08/EdgeGPT",
     "AckslD/nvim-neoclip.lua",
     "adafruit/Adafruit_Sensor",
+    "adamerose/PandasGUI",
     "adamstark/AudioFile",
     "adamtornhill/code-maat",
     "adamyaxley/Obfuscate",
@@ -1763,7 +1764,10 @@
     "rrousselGit/flutter_hooks",
     "rsennrich/subword-nmt",
     "rsmbl/Resemble.js",
+    "rspec/rspec-core",
+    "rspec/rspec-expectations",
     "rspec/rspec-metagem",
+    "rspec/rspec-mocks",
     "rtfeldman/elm-css",
     "rtfeldman/elm-spa-example",
     "rtomayko/tilt",
@@ -1970,6 +1974,7 @@
     "tesseract-ocr/tessdata_best",
     "Tessil/robin-map",
     "testdouble/testdouble.js",
+    "testing-library/dom-testing-library",
     "testing-library/react-hooks-testing-library",
     "Textualize/textual-web",
     "Theano/Theano",

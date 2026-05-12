@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 269,
-    "concepts": 318,
-    "observations": 318,
-    "repos": 35,
-    "terms": 317
+    "components": 174,
+    "concepts": 184,
+    "observations": 185,
+    "repos": 21,
+    "terms": 182
   },
   "facet_version": 1,
   "filters": {
@@ -12,42 +12,28 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "agenda/agenda",
     "all-contributors/allcontributors.org",
-    "badmojr/1Hosts",
+    "babashka/babashka",
     "beam-community/elixir-companies",
-    "clj-kondo/clj-kondo",
-    "cvc5/cvc5",
-    "DandelionSprout/adfilt",
     "datalevin/datalevin",
     "dotnet/reactive",
-    "easylist/easylist",
-    "firebase/flutterfire",
     "foundry-rs/forge-std",
-    "googleapis/google-api-php-client",
     "hacl-star/hacl-star",
     "intel/BigDL",
     "JuliaGPU/CUDA.jl",
     "jump-dev/JuMP.jl",
-    "kurrent-io/KurrentDB",
-    "lightning/bolts",
-    "microsoft/aspire-samples",
     "microsoft/PhiCookBook",
     "minad/consult",
     "mrcjkb/rustaceanvim",
     "nvim-mini/mini.nvim",
     "nvim-tree/nvim-web-devicons",
-    "okd-project/okd",
-    "opnsense/plugins",
-    "psmux/psmux",
     "rocq-prover/rocq",
-    "standardrb/standard",
-    "swiftlang/swift-syntax",
     "theJayTea/WritingTools",
     "truffleruby/truffleruby",
-    "uBlockOrigin/uAssets",
+    "TryGhost/node-sqlite3",
     "xororz/local-dream"
   ]
 }

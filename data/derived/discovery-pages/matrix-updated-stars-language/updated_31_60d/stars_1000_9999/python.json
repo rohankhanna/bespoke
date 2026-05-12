@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 532,
-    "concepts": 815,
-    "observations": 815,
+    "components": 534,
+    "concepts": 798,
+    "observations": 798,
     "repos": 128,
-    "terms": 805
+    "terms": 788
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "2U1/Qwen-VL-Series-Finetune",
@@ -27,7 +27,6 @@
     "aws-cloudformation/aws-cloudformation-templates",
     "bambinos/bambi",
     "belluzj/fantasque-sans",
-    "black-forest-labs/flux2",
     "bpython/bpython",
     "caronc/apprise-api",
     "chemprop/chemprop",
@@ -59,6 +58,7 @@
     "google/deepvariant",
     "google/ml_collections",
     "graphql-python/gql",
+    "guaguastandup/zotero-pdf2zh",
     "hiyouga/EasyR1",
     "HKUDS/VideoRAG",
     "huggingface/finetrainers",
@@ -77,6 +77,7 @@
     "Kapeli/Dash-User-Contributions",
     "kislyuk/argcomplete",
     "Knio/dominate",
+    "KohakuBlueleaf/LyCORIS",
     "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
     "lanpa/tensorboardX",
     "linkchecker/linkchecker",
@@ -115,12 +116,12 @@
     "RUC-NLPIR/FlashRAG",
     "rusty1s/pytorch_scatter",
     "rusty1s/pytorch_sparse",
-    "s3prl/s3prl",
     "scrapy-plugins/scrapy-playwright",
     "ServiceNow/BrowserGym",
     "shareai-lab/claw0",
     "sierra-research/tau-bench",
     "snakers4/silero-vad",
+    "spyder-ide/qtpy",
     "ssitu/ComfyUI_UltimateSDUpscale",
     "SWE-bench/SWE-bench",
     "tabatkins/railroad-diagrams",
@@ -138,7 +139,6 @@
     "Vchitect/VBench",
     "wenet-e2e/wenet",
     "wenet-e2e/wespeaker",
-    "yangyanli/PointCNN",
     "YanjieZe/GMR",
     "Yelp/dumb-init",
     "zai-org/GLM-V"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1240,
-    "concepts": 1501,
-    "observations": 1503,
-    "repos": 406,
-    "terms": 1491
+    "components": 1252,
+    "concepts": 1510,
+    "observations": 1512,
+    "repos": 409,
+    "terms": 1500
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -311,7 +311,10 @@
     "rmcelreath/stat_rethinking_2022",
     "romeovs/creep",
     "rrousselGit/flutter_hooks",
+    "rspec/rspec-core",
+    "rspec/rspec-expectations",
     "rspec/rspec-metagem",
+    "rspec/rspec-mocks",
     "rtfeldman/elm-css",
     "rtfeldman/elm-spa-example",
     "rtomayko/tilt",

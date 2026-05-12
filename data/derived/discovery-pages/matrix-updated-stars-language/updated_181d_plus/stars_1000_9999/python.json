@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 852,
-    "concepts": 3588,
-    "observations": 3590,
-    "repos": 915,
-    "terms": 3526
+    "concepts": 3591,
+    "observations": 3593,
+    "repos": 916,
+    "terms": 3530
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -21,6 +21,7 @@
     "abewley/sort",
     "abisee/pointer-generator",
     "acheong08/EdgeGPT",
+    "adamerose/PandasGUI",
     "adbar/trafilatura",
     "adefossez/demucs",
     "adieyal/sd-dynamic-prompts",

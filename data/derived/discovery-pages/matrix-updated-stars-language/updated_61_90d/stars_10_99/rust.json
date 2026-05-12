@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 80,
-    "concepts": 43,
-    "observations": 43,
+    "components": 81,
+    "concepts": 48,
+    "observations": 48,
     "repos": 21,
-    "terms": 43
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "acw/simple_asn1",
     "alloy-rs/op-alloy",
     "baerwang/openapi-rs",
+    "chris-zen/coremidi",
     "CosmWasm/cw-storage-plus",
     "Cykooz/libheif-rs",
     "Cykooz/libheif-sys",
@@ -26,14 +27,13 @@
     "filecoin-project/rust-filecoin-proofs-api",
     "fortanix/rust-mbedtls",
     "googlefonts/shaperglot",
-    "hermit-os/rftrace",
     "jasonjmcghee/ron-lsp",
     "jonas-k/coremidi-sys",
     "libp2p/if-watch",
     "microsoft/tracing-etw",
     "nebelgrau77/airsniffer-esp32c6",
-    "OneSignal/serde-magnus",
     "raymondshe/matchengine-raft",
-    "sigp/ethereum_hashing"
+    "sigp/ethereum_hashing",
+    "Turbo87/flat-projection-rs"
   ]
 }

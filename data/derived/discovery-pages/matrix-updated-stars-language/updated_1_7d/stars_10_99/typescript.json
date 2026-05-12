@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 92,
+    "components": 39,
     "concepts": 14,
     "observations": 14,
-    "repos": 4,
+    "repos": 2,
     "terms": 14
   },
   "facet_version": 1,
@@ -12,11 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
-    "GoogleCloudPlatform/opentelemetry-demo",
-    "julia-actions/install-juliaup",
-    "ogx-ai/ogx-client-typescript",
+    "ipdxco/github-as-code",
     "TrigenSoftware/simple-release"
   ]
 }

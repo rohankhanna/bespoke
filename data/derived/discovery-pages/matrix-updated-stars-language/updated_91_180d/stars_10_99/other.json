@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 373,
-    "concepts": 284,
-    "observations": 285,
-    "repos": 114,
-    "terms": 283
+    "components": 368,
+    "concepts": 282,
+    "observations": 283,
+    "repos": 113,
+    "terms": 281
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/tdo.nvim",
@@ -43,9 +43,9 @@
     "cmacdonald/pyt_splade",
     "ColinKennedy/mega.cmdparse",
     "darrelmiller/sharpa2a",
-    "donny741/ruby-lsp-factory_bot",
     "drowzy/protobuf_generate",
     "dspinellis/bibtools",
+    "dwyl/elixir-auth-github",
     "dwyl/elixir-auth-microsoft",
     "emacsorphanage/dart-mode",
     "ethpandaops/optimism-package",
@@ -55,7 +55,6 @@
     "FFTAI/Wiki-GRx-Gym",
     "formigarafa/zxcvbn-rb",
     "friemen/diffit",
-    "geocompx/docker",
     "getgrav/grav-theme-learn2",
     "getumbrel/umbrel-lightning",
     "GoogleCloudPlatform/ai-infra-cluster-provisioning",
@@ -91,13 +90,13 @@
     "mvz/non-digest-assets",
     "nelson-lang/nelson-website",
     "NielsRogge/tutorials",
-    "nikitabobko/brew-install-path",
     "niner/Inline-Perl5",
     "NorfairKing/feedback",
     "ochorocho/franken-typo3",
     "opencontainers/oci-conformance",
     "openxrlab/xrtailor",
     "OutlierDetectionJL/OutlierDetection.jl",
+    "padreati/rapaio-jupyter-kernel",
     "pagedjs/pagedjs-cli",
     "paleolimbot/geos",
     "patterns-ai-core/qdrant-ruby",

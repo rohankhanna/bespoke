@@ -3,8 +3,8 @@
     "components": 672,
     "concepts": 1414,
     "observations": 1416,
-    "repos": 813,
-    "terms": 1394
+    "repos": 816,
+    "terms": 1395
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -101,6 +101,7 @@
     "AmericanPresidentJimmyCarter/stable-diffusion",
     "AmeryXiong/MixDehazeNet",
     "amirbarda/MagicClay",
+    "AmphionTeam/SD-Eval",
     "Amyantis/python-vt2geojson",
     "anaireorg/anaire-cloud",
     "anaireorg/anaire-devices",
@@ -582,6 +583,7 @@
     "moojink/rlds_dataset_builder",
     "moojink/rlds_dataset_mod",
     "moojink/transformers-openvla-oft",
+    "morrisalp/unikud",
     "mosaicml/diffusion-benchmark",
     "Mozer/YuE-extend",
     "mozilla/http-observatory-cli",
@@ -643,6 +645,7 @@
     "pblatter/ettrack",
     "petercorke/pgraph-python",
     "petersn/autosat",
+    "pinnymz/python-zmanim",
     "pkulwj1994/diff_instruct",
     "placeforyiming/IROS21-FIDNet-SemanticKITTI",
     "plaggy/rag-containers",

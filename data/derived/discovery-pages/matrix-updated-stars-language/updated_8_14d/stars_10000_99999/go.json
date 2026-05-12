@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 647,
-    "concepts": 570,
-    "observations": 570,
+    "components": 645,
+    "concepts": 580,
+    "observations": 582,
     "repos": 41,
-    "terms": 570
+    "terms": 580
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
-    "a-h/templ",
     "anchore/grype",
     "argoproj/argo-workflows",
     "authelia/authelia",
     "bufbuild/buf",
     "cert-manager/cert-manager",
+    "cilium/cilium",
     "cloudflare/cloudflared",
     "cloudwego/eino",
     "cockroachdb/cockroach",
@@ -27,7 +27,6 @@
     "dagger/dagger",
     "dgraph-io/dgraph",
     "DNSCrypt/dnscrypt-proxy",
-    "getsops/sops",
     "git-lfs/git-lfs",
     "go-gitea/gitea",
     "go-playground/validator",
@@ -39,6 +38,7 @@
     "grpc-ecosystem/grpc-gateway",
     "hajimehoshi/ebiten",
     "hashicorp/nomad",
+    "helm/helm",
     "ipfs/kubo",
     "istio/istio",
     "navidrome/navidrome",

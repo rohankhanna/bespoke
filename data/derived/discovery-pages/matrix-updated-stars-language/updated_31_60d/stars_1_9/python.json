@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 71,
-    "observations": 71,
-    "repos": 26,
-    "terms": 68
+    "components": 96,
+    "concepts": 72,
+    "observations": 72,
+    "repos": 29,
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,18 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "42-evey/evey-bridge-plugin",
     "agenmod/okr-skill",
     "alexpolonsky/agent-skill-ontopo",
+    "ashvardanian/ashvardanian",
     "astroyat/lerobot",
     "axolotl-ai-cloud/ml-cross-entropy",
     "BioContainers/singularity-build-bot",
     "Boulaouaney/timmx",
+    "cdeust/cortex-cowork",
+    "cdxeve/scale-openclaw",
     "cognizant-ai-lab/neuro-san-cc",
     "conda-forge/cupy-feedstock",
     "CoolCat467/idlemypyextension",

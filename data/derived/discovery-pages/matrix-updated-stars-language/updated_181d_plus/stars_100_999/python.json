@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1114,
-    "concepts": 5180,
-    "observations": 5183,
-    "repos": 1762,
-    "terms": 5022
+    "components": 1125,
+    "concepts": 5207,
+    "observations": 5211,
+    "repos": 1766,
+    "terms": 5055
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -111,6 +111,7 @@
     "alibaba/cascade-stereo",
     "alibaba/ChatLearn",
     "alibaba/EasyTransfer",
+    "alirezarezvani/claude-code-skill-factory",
     "alisson-anjos/diffusion-pipe-ui",
     "aliutkus/torchsearchsorted",
     "allenai/allennlp-models",
@@ -195,6 +196,8 @@
     "AssemblyAI-Community/MinImagen",
     "astramind-ai/Mixture-of-depths",
     "Atten4Vis/ConditionalDETR",
+    "AudioLLMs/AudioBench",
+    "AudioLLMs/Awesome-Audio-LLM",
     "automatic1111/stable-diffusion-webui-aesthetic-gradients",
     "AUTOMATIC1111/stable-diffusion-webui-wildcards",
     "autonomousvision/convolutional_occupancy_networks",
@@ -1556,6 +1559,7 @@
     "tgxs002/align_sd",
     "thammegowda/nllb-serve",
     "thaolmk54/hcrn-videoqa",
+    "thedotmack/awesome-claude-code",
     "ThibaultGROUEIX/3D-CODED",
     "Thinklab-SJTU/Bench2DriveZoo",
     "thu-nics/ViDiT-Q",

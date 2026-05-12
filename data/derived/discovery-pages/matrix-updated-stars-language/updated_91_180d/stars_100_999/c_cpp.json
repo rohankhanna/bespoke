@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 168,
-    "concepts": 237,
-    "observations": 237,
-    "repos": 60,
-    "terms": 235
+    "components": 179,
+    "concepts": 257,
+    "observations": 258,
+    "repos": 62,
+    "terms": 255
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "angr/vex",
-    "antonypro/QGoodWindow",
     "apache/casbin-cpp",
     "appelmar/gdalcubes",
     "appwrite/playground-for-flutter",
@@ -46,6 +45,7 @@
     "jimporter/mettle",
     "JokerJohn/LIO_SAM_6AXIS",
     "KhronosGroup/OpenCL-SDK",
+    "koide3/small_gicp",
     "Kong/ngx_wasm_module",
     "lh3/gfatools",
     "lh3/yak",
@@ -61,6 +61,7 @@
     "nihui/ncnn-android-scrfd",
     "nobleo/rviz_satellite",
     "nonstd-lite/string-view-lite",
+    "openxrlab/xrslam",
     "osvenskan/posix_ipc",
     "ParRes/Kernels",
     "pganalyze/pg_query",
@@ -68,6 +69,7 @@
     "powervr-graphics/Native_SDK",
     "proxy-wasm/proxy-wasm-cpp-sdk",
     "rmsalinas/DBow3",
+    "rust-fuzz/libfuzzer",
     "stardot/b-em",
     "stefantalpalaru/w_scan2",
     "swigger/wechat-ocr",

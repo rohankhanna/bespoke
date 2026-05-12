@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 1166,
-    "concepts": 496,
-    "observations": 498,
-    "repos": 409,
-    "terms": 496
+    "concepts": 499,
+    "observations": 501,
+    "repos": 412,
+    "terms": 499
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -149,6 +149,7 @@
     "danielrosehill/Github-To-OpenWebUI-Context-Pipeline",
     "danielrosehill/HA-Red-Alert-News-Dash",
     "danielrosehill/HA-Red-Alerts-Model-Automations",
+    "danielrosehill/Local-ASR-STT-Benchmark",
     "danielrosehill/N8N-Workflow-Sanitiser-Agent",
     "danielrosehill/OR-Models-With-Tools-0811",
     "danielrosehill/Oref-GPT",
@@ -402,6 +403,8 @@
     "tonysy/opencompass",
     "tpoisonooo/textract",
     "tweag/cabal",
+    "UltraEval/GLM-4-Voice",
+    "UltraEval/Step-Audio",
     "unum-cloud/.github",
     "userbait/phishing_sites_detector",
     "vany0114/vany0114.github.io",

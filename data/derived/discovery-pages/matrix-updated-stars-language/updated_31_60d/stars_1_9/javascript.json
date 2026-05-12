@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 486,
-    "concepts": 277,
-    "observations": 277,
-    "repos": 24,
-    "terms": 277
+    "components": 605,
+    "concepts": 352,
+    "observations": 352,
+    "repos": 33,
+    "terms": 347
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,26 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "actions-cool/test-issues-helper",
     "agent-sh/deslop",
     "agent-sh/next-task",
     "agent-sh/ship",
+    "BarMalka/super-pharm-stock-checker",
     "brody2consult/react-native-init-func",
+    "collective/mrs-developer",
     "Deep-Symmetry/asciidoctor-bytefield",
+    "ehmicky/fetch-node-website",
+    "ehmicky/get-node-cli",
+    "ehmicky/normalize-node-version",
     "fishballapp/inquirer-cli",
     "forcedotcom/dev-config",
     "graphql/community-wg",
     "hchiam/code-inspiration",
     "hchiam/learning-js",
+    "ipfs-shipyard/js-mock-ipfs-pinning-service",
+    "ipld/js-bitcoin",
     "kellyselden/boilerplate-update",
     "Level/read-stream",
     "Level/supports",
@@ -37,6 +44,8 @@
     "stdlib-js/array-typed",
     "stdlib-js/array-typed-dtypes",
     "stdlib-js/ndarray-array",
-    "stdlib-js/ndarray-dtype"
+    "stdlib-js/ndarray-dtype",
+    "stdlib-js/streams-node-stdin",
+    "stdlib-js/streams-node-stdout"
   ]
 }

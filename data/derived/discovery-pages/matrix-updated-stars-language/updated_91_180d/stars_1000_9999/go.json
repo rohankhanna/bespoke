@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 170,
-    "concepts": 183,
-    "observations": 183,
-    "repos": 33,
-    "terms": 183
+    "components": 176,
+    "concepts": 184,
+    "observations": 184,
+    "repos": 34,
+    "terms": 184
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "aarondl/authboss",
@@ -36,6 +36,7 @@
     "jpillora/cloud-torrent",
     "jtblin/kube2iam",
     "liquidmetal-dev/flintlock",
+    "markbates/goth",
     "muesli/termenv",
     "nutsdb/nutsdb",
     "protocolbuffers/protobuf-go",

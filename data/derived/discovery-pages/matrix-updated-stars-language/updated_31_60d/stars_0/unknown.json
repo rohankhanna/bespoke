@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 36,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 34,
-    "terms": 34
+    "concepts": 36,
+    "observations": 36,
+    "repos": 37,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "adiny/moodtrip-hotel-search",
     "cachix/crossterm",
     "csjgg/ags-cookbook",
     "cwfitzgerald/libtest-mimic",
     "danielrosehill/Agent-Journal",
+    "danielrosehill/Agent-Skills",
     "danielrosehill/AI-Browser-Tools",
     "danielrosehill/AI-Project-Spec-Pattern",
     "danielrosehill/AI-Projects-Index",
@@ -41,12 +42,14 @@
     "danielrosehill/Networking-Projects-Index",
     "danielrosehill/Patches-Repos-Index",
     "danielrosehill/Price-Research-Index",
+    "danielrosehill/Skills-Repos-Index",
     "hermit-os/tokio",
     "kdn36/arrow-rs-object-store",
     "lakekeeper/nats.rs",
     "PetervanLunteren/EcoAssist-metadata",
     "piebald-ai/piebald",
     "psmux/scoop-omp-manager",
-    "semgrep/cursor-plugin"
+    "semgrep/cursor-plugin",
+    "wencuecryforme/mysoul.skill"
   ]
 }

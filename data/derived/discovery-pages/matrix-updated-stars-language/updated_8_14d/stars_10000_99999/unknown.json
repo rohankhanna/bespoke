@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 61,
-    "observations": 61,
-    "repos": 4,
-    "terms": 61
+    "components": 20,
+    "concepts": 71,
+    "observations": 71,
+    "repos": 5,
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
+    "brave/brave-browser",
     "firstcontributions/first-contributions",
     "Loyalsoldier/v2ray-rules-dat",
     "obsidianmd/obsidian-releases",

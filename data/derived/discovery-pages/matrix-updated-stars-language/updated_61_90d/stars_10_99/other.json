@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 332,
-    "concepts": 195,
-    "observations": 195,
-    "repos": 73,
-    "terms": 194
+    "components": 355,
+    "concepts": 215,
+    "observations": 215,
+    "repos": 76,
+    "terms": 212
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
+    "2KAbhishek/exercism.nvim",
     "ably-labs/realtime-quiz-framework",
     "AceCHQ/TransMatting",
     "AdaCore/gnatcoll-bindings",
@@ -31,6 +32,7 @@
     "BuddiesOfBudgie/budgie-desktop-view",
     "buildfoundation/bazel_rules_detekt",
     "camertron/garnet-js",
+    "clearml/clearml-helm-charts",
     "clojure/tools.deps",
     "co-IT/CSharpFunctionalExtensions.HttpResults",
     "codymikol/neotest-kotlin",
@@ -40,7 +42,6 @@
     "dominique-unruh/scala-isabelle",
     "dwyl/cid",
     "dwyl/content",
-    "dwyl/elixir-auth-github",
     "dwyl/learn-payment-processing",
     "eddelbuettel/tinythemes",
     "Embarcadero/Lightweight-Python-Wrappers",
@@ -58,6 +59,7 @@
     "jfmengels/elm-review-unused",
     "jmespath/jmespath.site",
     "JuliaGtk/Gtk4.jl",
+    "JuliaPackaging/PkgServer.jl",
     "JunoLab/Atom.jl",
     "jupyter-xeus/xeus-python-wheel",
     "kahliburke/MCPRepl.jl",
@@ -68,14 +70,15 @@
     "mirage/conan",
     "Mobile-Artificial-Intelligence/maise",
     "newtheatre/history-project",
+    "nicholasjng/nanobind-bazel",
     "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
     "ocaml-opam/opam-publish",
     "ocurrent/opam-health-check",
     "onomojo/i18n-timezones",
     "PacktPublishing/Natural-Language-Processing-with-Flair",
-    "padreati/rapaio-jupyter-kernel",
     "patrickgold/jetpref",
     "php/doc-it",
+    "rcasia/neotest-bash",
     "revfactory/claude-code-harness",
     "robotology/icub-models",
     "rojo-rbx/rojo.space",

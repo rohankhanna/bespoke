@@ -3,7 +3,7 @@
     "components": 14,
     "concepts": 67,
     "observations": 68,
-    "repos": 19,
+    "repos": 18,
     "terms": 63
   },
   "facet_version": 1,
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "Alex313031/Thorium-Android",
     "Alex313031/Thorium-MacOS",
-    "bluescan/proggyfonts",
     "Calcium-Ion/new-api-horizon",
     "docker-library/faq",
     "emberjs/core-notes",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 17,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 6,
-    "terms": 30
+    "concepts": 39,
+    "observations": 39,
+    "repos": 7,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "filip26/copper-multicodec",
     "filip26/titanium-jcs",
     "filip26/titanium-rdf-canon",
     "filip26/titanium-rdf-n-quads",
+    "redis-developer/redis-starter-java",
     "saalfeldlab/n5-google-cloud",
     "stephanj/spotbugs-devoxxgenie-plugin"
   ]

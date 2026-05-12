@@ -3,7 +3,7 @@
     "components": 71,
     "concepts": 91,
     "observations": 91,
-    "repos": 25,
+    "repos": 26,
     "terms": 89
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "4kills/go-libdeflate",
     "apache/incubator-seata-go-samples",
     "bfenetworks/api-server",
+    "bfenetworks/conf-agent",
     "bombsimon/logrusr",
     "cloudfoundry/bosh-deployment-resource",
     "cloudwego/netpoll-benchmark",

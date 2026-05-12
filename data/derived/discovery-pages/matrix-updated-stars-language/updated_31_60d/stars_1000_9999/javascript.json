@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1207,
-    "concepts": 272,
-    "observations": 272,
-    "repos": 48,
-    "terms": 272
+    "components": 1164,
+    "concepts": 263,
+    "observations": 263,
+    "repos": 47,
+    "terms": 263
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "acss-io/atomizer",
     "Adobe-CEP/Samples",
@@ -53,10 +53,9 @@
     "projectfluent/fluent",
     "rgthree/rgthree-comfy",
     "RichardLitt/standard-readme",
-    "rollup/plugins",
     "sindresorhus/globby",
+    "sindresorhus/hyper-snazzy",
     "styled-components/polished",
-    "treosh/lighthouse-ci-action",
     "webpack/css-loader",
     "webpack/mini-css-extract-plugin",
     "webpack/postcss-loader",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1030,
-    "concepts": 1006,
-    "observations": 1010,
-    "repos": 90,
-    "terms": 993
+    "components": 1051,
+    "concepts": 1017,
+    "observations": 1021,
+    "repos": 91,
+    "terms": 1005
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
     "99designs/gqlgen",
+    "a-h/templ",
     "abiosoft/colima",
     "AdguardTeam/AdGuardHome",
     "ahmetb/kubectx",
@@ -29,7 +30,6 @@
     "centrifugal/centrifugo",
     "charmbracelet/bubbletea",
     "charmbracelet/crush",
-    "charmbracelet/glow",
     "charmbracelet/gum",
     "charmbracelet/lipgloss",
     "charmbracelet/vhs",
@@ -49,6 +49,7 @@
     "ent/ent",
     "ethereum/EIPs",
     "ethereum/go-ethereum",
+    "getsops/sops",
     "gin-gonic/gin",
     "go-delve/delve",
     "gofiber/fiber",

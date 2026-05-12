@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 296,
-    "concepts": 176,
-    "observations": 176,
-    "repos": 22,
-    "terms": 175
+    "components": 125,
+    "concepts": 106,
+    "observations": 106,
+    "repos": 12,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,29 +12,19 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
-    "AdguardTeam/FiltersRegistry",
     "argotorg/hevm",
-    "CHIP-SPV/chipStar",
-    "ChristopherHX/runner.server",
     "clj-commons/rewrite-clj",
     "cowprotocol/contracts",
-    "danielrosehill/Claude-Code-Projects-Index",
     "dbkangaroo/kangaroo",
-    "devcontainers/devcontainers.github.io",
     "elixir-protobuf/protobuf",
-    "intel/ipex-llm-tutorial",
     "jump-dev/NLopt.jl",
     "karafka/rdkafka-ruby",
-    "kurrent-io/KurrentDB-Client-Dotnet",
-    "LibreChat-AI/librechat.ai",
     "lite-xl/lite-xl-plugin-manager",
     "mit-plv/bedrock2",
     "mrcjkb/haskell-tools.nvim",
-    "open-telemetry/opentelemetry-helm-charts",
     "ROCm/hipBLASLt",
-    "Shopify/tapioca",
-    "WICG/attribution-reporting-api"
+    "Shopify/tapioca"
   ]
 }

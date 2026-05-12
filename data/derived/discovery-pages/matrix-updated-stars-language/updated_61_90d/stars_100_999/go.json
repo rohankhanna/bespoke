@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 100,
-    "concepts": 127,
-    "observations": 128,
-    "repos": 21,
-    "terms": 127
+    "components": 111,
+    "concepts": 144,
+    "observations": 145,
+    "repos": 24,
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "alexkohler/prealloc",
     "anacrolix/dht",
@@ -28,11 +28,14 @@
     "erigontech/interfaces",
     "GoogleCloudPlatform/docker-credential-gcr",
     "gost-dom/browser",
+    "hebcal/hebcal",
     "ipfs/go-graphsync",
+    "itzg/rcon-cli",
     "maykonlsf/semver-cli",
     "mholt/acmez",
     "MicahParks/keyfunc",
     "multiformats/go-multiaddr",
+    "nikepan/clickhouse-bulk",
     "omniscale/imposm3",
     "slinso/goTemplateBenchmark"
   ]

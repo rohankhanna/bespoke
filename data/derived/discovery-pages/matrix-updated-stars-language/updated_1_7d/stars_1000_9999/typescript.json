@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 947,
-    "concepts": 181,
-    "observations": 182,
-    "repos": 20,
-    "terms": 179
+    "components": 702,
+    "concepts": 147,
+    "observations": 148,
+    "repos": 16,
+    "terms": 145
   },
   "facet_version": 1,
   "filters": {
@@ -12,27 +12,23 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "alichherawalla/off-grid-mobile-ai",
-    "apify/fingerprint-suite",
+    "antvis/mcp-server-chart",
     "apollographql/apollo-tooling",
     "benchmark-action/github-action-benchmark",
     "conventional-changelog/conventional-changelog",
-    "cucumber/cucumber-js",
     "ebullient/obsidian-admonition",
-    "electron/rebuild",
     "enricoros/big-AGI",
     "google-gemini/live-api-web-console",
-    "graphql/graphql-playground",
-    "inokawa/virtua",
     "microsoft/vscode-js-debug",
     "NomicFoundation/hardhat",
     "open-telemetry/opentelemetry-demo",
     "safe-fndn/safe-smart-account",
+    "typescript-language-server/typescript-language-server",
     "vite-pwa/vite-plugin-pwa",
-    "vuejs/devtools",
-    "vuejs/language-tools",
+    "vitejs/vite-plugin-react",
     "withcatai/node-llama-cpp"
   ]
 }

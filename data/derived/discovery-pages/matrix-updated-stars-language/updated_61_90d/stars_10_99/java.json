@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 22,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 9,
-    "terms": 43
+    "concepts": 51,
+    "observations": 51,
+    "repos": 10,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "Antibrumm/jackson-antpathfilter",
     "apache/netbeans-nbpackage",
     "apache/seatunnel-tools",
     "caprica/vlcj-examples",
+    "clearml/clearml-pycharm-plugin",
     "EXIficient/exificient-for-json",
     "googleapis/java-bigquerystorage",
     "piomin/spring-ai-showcase",

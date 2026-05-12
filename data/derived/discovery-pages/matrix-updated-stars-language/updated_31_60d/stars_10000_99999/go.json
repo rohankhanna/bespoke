@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 85,
-    "concepts": 114,
-    "observations": 115,
-    "repos": 11,
-    "terms": 111
+    "components": 96,
+    "concepts": 123,
+    "observations": 124,
+    "repos": 12,
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
+    "charmbracelet/glow",
     "chromedp/chromedp",
     "direnv/direnv",
     "evanw/esbuild",

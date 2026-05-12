@@ -3,7 +3,7 @@
     "components": 42,
     "concepts": 38,
     "observations": 38,
-    "repos": 20,
+    "repos": 22,
     "terms": 38
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "ashton/neotest-gleam-unitest",
@@ -27,6 +27,8 @@
     "JuliaBinaryWrappers/GettextRuntime_jll.jl",
     "JuliaBinaryWrappers/JpegTurbo_jll.jl",
     "JuliaBinaryWrappers/libaec_jll.jl",
+    "JuliaBinaryWrappers/Libmount_jll.jl",
+    "JuliaBinaryWrappers/Libuuid_jll.jl",
     "kdubbo/client-go",
     "musicman3/cruder",
     "musicman3/r2-d2",

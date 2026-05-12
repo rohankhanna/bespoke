@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 147,
-    "concepts": 156,
-    "observations": 159,
-    "repos": 25,
-    "terms": 155
+    "components": 155,
+    "concepts": 163,
+    "observations": 166,
+    "repos": 27,
+    "terms": 162
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "anordal/shellharden",
@@ -31,11 +31,13 @@
     "linebender/tiny-skia",
     "Morganamilo/paru",
     "nagisa/rust_libloading",
+    "rust-fuzz/cargo-fuzz",
     "rust-headless-chrome/rust-headless-chrome",
     "sachaos/viddy",
     "sagiegurari/cargo-make",
     "tarkah/tickrs",
     "Tencent/tquic",
+    "tikv/grpc-rs",
     "tokio-rs/bytes",
     "vi/websocat",
     "wilsonzlin/minify-html"

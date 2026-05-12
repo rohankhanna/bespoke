@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 685,
-    "concepts": 134,
-    "observations": 134,
-    "repos": 36,
-    "terms": 134
+    "components": 864,
+    "concepts": 133,
+    "observations": 133,
+    "repos": 38,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
@@ -21,6 +21,7 @@
     "automazeio/proof",
     "aws-samples/aws-sdk-js-notes-app",
     "awslabs/wdio-aws-device-farm-service",
+    "bestkolobok/vue3-jsoneditor",
     "blrchen/chatgpt-minimal",
     "buddingnewinsights/proxypal",
     "cahamilton/stylelint-config-property-sort-order-smacss",
@@ -33,6 +34,8 @@
     "holochain/kangaroo-electron",
     "HoneyLuka/uBlacklist",
     "hyparam/demos",
+    "ipfs/ipld-explorer-components",
+    "jerseycheese/narraitor",
     "joshwooding/vite-plugin-react-docgen-typescript",
     "klaudworks/ralph-meets-rex",
     "literalpie/storybook-framework-qwik",
@@ -48,7 +51,6 @@
     "skilld-dev/retriv",
     "solidjs-community/storybook",
     "storybookjs/addon-coverage",
-    "stx-labs/connect",
     "TravisTheTechie/vscode-write-good"
   ]
 }

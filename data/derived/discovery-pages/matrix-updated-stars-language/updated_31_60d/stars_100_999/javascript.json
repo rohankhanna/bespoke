@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1209,
-    "concepts": 326,
-    "observations": 328,
-    "repos": 78,
-    "terms": 335
+    "components": 1267,
+    "concepts": 352,
+    "observations": 354,
+    "repos": 82,
+    "terms": 359
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
     "actions/deploy-pages",
     "adobe/spectrum-design-data",
     "AghayeCoder/tx-ui",
     "ankane/ahoy.js",
+    "apify/awesome-skills",
     "Atheos/Atheos",
     "avwo/whistle-client",
     "badgen/badgen",
@@ -35,6 +36,7 @@
     "dwyl/javascript-todo-list-tutorial",
     "dwyl/learn-postgresql",
     "dwyl/sendemail",
+    "ehmicky/nve",
     "ember-cli/ember-exam",
     "executablebooks/sphinx-copybutton",
     "fastify/create-fastify",
@@ -44,6 +46,7 @@
     "fgnass/domino",
     "Fil/d3-geo-voronoi",
     "florajs/sql-parser",
+    "fwcd/tree-sitter-kotlin",
     "googleapis/nodejs-bigtable",
     "GoogleChromeLabs/wasm-feature-detect",
     "GoogleCloudPlatform/google-cloud-node-todos",
@@ -81,6 +84,7 @@
     "rtfeldman/node-test-runner",
     "semantic-release/changelog",
     "semantic-release/git",
+    "sindresorhus/globals",
     "sveltejs/svelte-loader",
     "terraform-linters/setup-tflint",
     "terser/html-minifier-terser",

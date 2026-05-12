@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 532,
-    "concepts": 337,
-    "observations": 340,
-    "repos": 57,
-    "terms": 344
+    "components": 501,
+    "concepts": 326,
+    "observations": 329,
+    "repos": 55,
+    "terms": 333
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
     "antlr/antlr4",
     "aria2/aria2",
+    "bol-van/zapret",
     "bootandy/dust",
     "burntsushi/ripgrep",
     "CocoaPods/CocoaPods",
@@ -28,7 +29,6 @@
     "facebookresearch/audiocraft",
     "facebookresearch/vggt",
     "floating-ui/floating-ui",
-    "FortAwesome/Font-Awesome",
     "FoundationAgents/OpenManus",
     "git-up/GitUp",
     "go-chi/chi",
@@ -49,7 +49,6 @@
     "mathjax/MathJax",
     "microsoft/vscode-extension-samples",
     "minio/minio",
-    "modin-project/modin",
     "nikic/PHP-Parser",
     "peers/peerjs",
     "PKU-YuanGroup/Open-Sora-Plan",
@@ -64,7 +63,6 @@
     "TabbyML/tabby",
     "tpope/vim-fugitive",
     "tqdm/tqdm",
-    "transitive-bullshit/agentic",
     "vibrantlabsai/ragas",
     "videojs/video.js",
     "Wan-Video/Wan2.1",

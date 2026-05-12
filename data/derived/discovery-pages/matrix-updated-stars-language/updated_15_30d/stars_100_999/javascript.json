@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1970,
-    "concepts": 484,
-    "observations": 491,
-    "repos": 93,
-    "terms": 505
+    "components": 2027,
+    "concepts": 479,
+    "observations": 487,
+    "repos": 96,
+    "terms": 502
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
@@ -24,9 +24,11 @@
     "apache/incubator-seata-website",
     "appium/appium-ios-device",
     "aredridel/node-bin-gen",
+    "auth0/node-jws",
     "aws/aws-cdk-rfcs",
     "bcomnes/npm-run-all2",
     "bmad-code-org/bmad-module-game-dev-studio",
+    "Brooooooklyn/snappy",
     "browserify/resolve",
     "browserslist/update-db",
     "carbon-design-system/carbon-components-vue",
@@ -43,7 +45,6 @@
     "devsnek/esvu",
     "dperini/nwsapi",
     "dydxprotocol/v4-clients",
-    "ehmicky/nve",
     "eladnava/pikud-haoref-api",
     "electron/node-abi",
     "emberjs/ember-qunit",
@@ -51,7 +52,6 @@
     "evenchange4/graphql.macro",
     "fabmax/physx-js-webidl",
     "fastify/fastify-autoload",
-    "fwcd/tree-sitter-kotlin",
     "gatsbyjs/gatsby-starter-hello-world",
     "GDevelopApp/GDevelop-examples",
     "gopasspw/gopassbridge",
@@ -71,6 +71,7 @@
     "karma-runner/karma-coverage",
     "karma-runner/karma-jasmine",
     "kriszyp/lmdb-js",
+    "kriszyp/msgpackr",
     "kurrent-io/KurrentDB-Client-NodeJS",
     "lis186/ccxray",
     "lobehub/lobe-editor",
@@ -90,22 +91,24 @@
     "OffchainLabs/arbitrum-docs",
     "plone/volto",
     "poolifier/poolifier",
+    "postcss/postcss-cli",
     "postcss/postcss-js",
     "postcss/postcss-load-config",
     "postcss/sugarss",
+    "reviewdog/action-eslint",
     "rooklift/ogatak",
     "rubyjs/mini_racer",
     "semantic-release/commit-analyzer",
     "semantic-release/github",
     "semantic-release/npm",
     "sethgammon/citadel",
-    "sindresorhus/globals",
     "speced/respec",
     "stripe-samples/accept-a-payment",
     "Taritsyn/BundleTransformer",
     "tc39/notes",
     "tomayac/SVGcode",
     "unicode-org/message-format-wg",
-    "w3c/trusted-types"
+    "w3c/trusted-types",
+    "ztoben/assets-webpack-plugin"
   ]
 }

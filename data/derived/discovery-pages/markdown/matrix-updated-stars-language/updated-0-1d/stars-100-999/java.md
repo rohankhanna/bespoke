@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Java
 
-Generated at: `2026-05-10T08:43:20.219283+00:00`
+Generated at: `2026-05-12T05:46:29.404112+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 3
-- components: 3
-- concepts: 3
-- observations: 3
+- repos: 3
+- terms: 25
+- components: 11
+- concepts: 25
+- observations: 25
 
 ## Static behavior
 
@@ -26,10 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ldproxy/ldproxy](https://github.com/ldproxy/ldproxy) | 102 | 2026-05-10T01:27:10Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [cloudfoundry/credhub](https://github.com/cloudfoundry/credhub) | 249 | 2026-05-11T20:44:12Z | Java | Infrastructure/tooling | 6 | 2 | 6 | 6 |
+| [spring-projects/spring-tools](https://github.com/spring-projects/spring-tools) | 965 | 2026-05-11T15:58:15Z | Java | CLI | 16 | 6 | 16 | 16 |
+| [ldproxy/ldproxy](https://github.com/ldproxy/ldproxy) | 102 | 2026-05-11T08:48:24Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ldproxy/ldproxy](https://github.com/ldproxy/ldproxy) | 102 | 2026-05-10T01:27:10Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [spring-projects/spring-tools](https://github.com/spring-projects/spring-tools) | 965 | 2026-05-11T15:58:15Z | Java | CLI | 16 | 6 | 16 | 16 |
+| [cloudfoundry/credhub](https://github.com/cloudfoundry/credhub) | 249 | 2026-05-11T20:44:12Z | Java | Infrastructure/tooling | 6 | 2 | 6 | 6 |
+| [ldproxy/ldproxy](https://github.com/ldproxy/ldproxy) | 102 | 2026-05-11T08:48:24Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |

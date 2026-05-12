@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 201,
+    "components": 185,
     "concepts": 209,
     "observations": 210,
-    "repos": 44,
-    "terms": 203
+    "repos": 43,
+    "terms": 204
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
     "adafruit/Adafruit_NeoPixel",
-    "AdAway/AdAway",
     "akheron/jansson",
     "arrayfire/arrayfire",
     "bblanchon/ArduinoJson",
@@ -42,20 +41,20 @@
     "leethomason/tinyxml2",
     "libgit2/rugged",
     "libimobiledevice/idevicerestore",
+    "lieff/minimp3",
     "memononen/nanovg",
     "microsoft/onnxruntime-inference-examples",
     "mitsuba-renderer/nanogui",
     "mmorise/World",
     "nmoehrle/mvs-texturing",
+    "NVIDIA/gdrcopy",
     "PixarAnimationStudios/OpenSubdiv",
     "pramsey/pgsql-http",
-    "RobertBeckebans/RBDOOM-3-BFG",
     "snapcast/snapcast",
     "svenstaro/rofi-calc",
     "TheAssassin/AppImageLauncher",
     "tzapu/WiFiManager",
     "UB-Mannheim/tesseract",
-    "VirusTotal/yara",
     "wang-xinyu/tensorrtx",
     "zardus/preeny"
   ]

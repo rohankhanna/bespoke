@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 69,
-    "concepts": 71,
-    "observations": 73,
-    "repos": 6,
-    "terms": 71
+    "components": 125,
+    "concepts": 123,
+    "observations": 124,
+    "repos": 12,
+    "terms": 123
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
-    "babashka/babashka",
+    "benchflow-ai/skillsbench",
+    "clj-kondo/clj-kondo",
     "dotnet/Silk.NET",
+    "firebase/flutterfire",
+    "kurrent-io/KurrentDB",
     "microsoft/aspire",
+    "microsoft/aspire-samples",
+    "okd-project/okd",
+    "psmux/psmux",
     "swiftlang/llvm-project",
-    "TryGhost/node-sqlite3",
+    "swiftlang/swift-syntax",
     "web-platform-tests/wpt"
   ]
 }

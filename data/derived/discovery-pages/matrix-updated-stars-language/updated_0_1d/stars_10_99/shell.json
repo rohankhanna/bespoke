@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 0,
-    "concepts": 3,
-    "observations": 3,
+    "concepts": 4,
+    "observations": 4,
     "repos": 1,
-    "terms": 3
+    "terms": 4
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-06T07:43:15.885019+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
-    "gpac/testsuite"
+    "honwen/openwrt-dnsmasq-extra"
   ]
 }

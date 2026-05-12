@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 156,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 14,
-    "terms": 93
+    "components": 162,
+    "concepts": 97,
+    "observations": 97,
+    "repos": 16,
+    "terms": 96
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "CHIP-SPV/H4I-MKLShim",
+    "compiler-research/cppyy-backend",
     "compiler-research/CPyCppyy",
     "DavidKinder/inform",
     "decibri/decibri.cpp",
@@ -27,6 +28,7 @@
     "stdlib-js/complex-float32-ctor",
     "stdlib-js/complex-float64-ctor",
     "stdlib-js/ndarray-ctor",
+    "walbourn/directxtk12test",
     "yoshoku/numo-linalg-alt"
   ]
 }

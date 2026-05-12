@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1330,
+    "components": 1342,
     "concepts": 140,
     "observations": 140,
-    "repos": 77,
+    "repos": 78,
     "terms": 136
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0h7z/vscode-julia-format",
     "1000ch/vscode-csso",
@@ -81,6 +81,7 @@
     "PraneshASP/vscode-foundry-test-runner",
     "prasek/supergraph-demo-opentelemetry",
     "qri-io/frontend",
+    "Rel1cx/eslint-react-benchmark",
     "robb-j/nova-yaml",
     "sajal353/r3f-jolt",
     "Shougo/dpp-ext-local",

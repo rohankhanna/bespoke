@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 96,
-    "concepts": 60,
-    "observations": 60,
-    "repos": 17,
-    "terms": 60
+    "components": 89,
+    "concepts": 52,
+    "observations": 52,
+    "repos": 15,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "astral-sh/versions",
     "atlanhq/atlan-sample-apps",
@@ -23,11 +23,9 @@
     "flagos-ai/Megatron-LM-FL",
     "flexcyon/docs-en",
     "meridianlabs-ai/inspect_harbor",
-    "mlcommons/submissions_algorithms",
     "mozilla-ai/tinyagent",
     "ParisNeo/lollms_client",
-    "plone/cookieplone-templates",
-    "scaleway/serverless-api-framework-python",
+    "triton-inference-server/TensorRT-LLM",
     "usdot-fhwa-stol/carma-config",
     "usdot-fhwa-stol/cdasim-config",
     "zopefoundation/meta"

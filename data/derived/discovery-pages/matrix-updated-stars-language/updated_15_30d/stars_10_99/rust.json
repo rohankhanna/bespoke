@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 465,
-    "concepts": 278,
-    "observations": 278,
-    "repos": 71,
-    "terms": 292
+    "components": 497,
+    "concepts": 306,
+    "observations": 306,
+    "repos": 75,
+    "terms": 320
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -24,10 +24,10 @@
     "ankane/delta-ruby",
     "ankane/iceberg-ruby",
     "ankane/safetensors-ruby",
-    "antonWetzel/prettypst",
     "apache/opendal-oli",
     "arkworks-rs/spongefish",
     "arkworks-rs/std",
+    "astral-sh/pubgrub",
     "bitcoindevkit/bdk_wallet",
     "bitcoindevkit/rust-electrum-client",
     "boundless-xyz/kailua",
@@ -51,6 +51,8 @@
     "hagan/claudia-statusline",
     "hecrj/iced_palace",
     "hermit-os/loader",
+    "heroku/buildpacks-dotnet",
+    "heroku/buildpacks-go",
     "holochain/holochain-serialization",
     "holochain/holochain-wasmer",
     "hpkewg/hpke-pq",
@@ -81,6 +83,8 @@
     "tracel-ai/burn-bench",
     "tracel-ai/burn-onnx",
     "tracel-ai/cubek",
+    "typst/typst-assets",
+    "urschrei/rdp",
     "watchexec/clearscreen",
     "watchexec/process-wrap",
     "Xuanwo/serde-env",

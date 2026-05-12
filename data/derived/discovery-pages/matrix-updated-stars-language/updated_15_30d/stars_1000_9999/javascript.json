@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2409,
-    "concepts": 521,
-    "observations": 521,
-    "repos": 74,
-    "terms": 517
+    "components": 2696,
+    "concepts": 567,
+    "observations": 567,
+    "repos": 80,
+    "terms": 563
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "actions/javascript-action",
@@ -34,6 +34,7 @@
     "DavidAnson/markdownlint",
     "dequelabs/axe-core",
     "DevExpress/testcafe",
+    "dotenvx/dotenvx",
     "eslint/js",
     "expressjs/body-parser",
     "flow-typed/flow-typed",
@@ -47,12 +48,17 @@
     "GoogleChromeLabs/ProjectVisBug",
     "grommet/grommet",
     "i18next/i18next",
+    "i18next/react-i18next",
     "igorshubovych/markdownlint-cli",
+    "import-js/eslint-plugin-import",
     "ipfs/ipfs-desktop",
+    "isomorphic-git/isomorphic-git",
     "jprichardson/node-fs-extra",
     "js-joda/js-joda",
     "json-schema-org/json-schema-spec",
     "kpdecker/jsdiff",
+    "krausest/js-framework-benchmark",
+    "ljharb/qs",
     "mapbox/maki",
     "mapbox/node-pre-gyp",
     "micromatch/picomatch",
@@ -65,6 +71,7 @@
     "npm/node-semver",
     "piebald-ai/claude-code-system-prompts",
     "pmmmwh/react-refresh-webpack-plugin",
+    "postcss/postcss-import",
     "postcss/postcss-nested",
     "proj4js/proj4js",
     "release-it/release-it",
@@ -72,7 +79,6 @@
     "rullerzhou-afk/clawd-on-desk",
     "SabakiHQ/Sabaki",
     "serverless-operations/serverless-step-functions",
-    "sindresorhus/hyper-snazzy",
     "sindresorhus/np",
     "tc39/agendas",
     "tc39/test262",

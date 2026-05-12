@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 158,
-    "concepts": 205,
-    "observations": 205,
-    "repos": 17,
-    "terms": 203
+    "components": 174,
+    "concepts": 221,
+    "observations": 221,
+    "repos": 18,
+    "terms": 219
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "alibaba/druid",
     "alibaba/nacos",
     "alibaba/spring-cloud-alibaba",
     "apache/doris",
     "apache/incubator-seata",
+    "apache/rocketmq",
     "apple/pkl",
     "bazelbuild/bazel",
     "ben-manes/caffeine",

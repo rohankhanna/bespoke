@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 184,
+    "components": 191,
     "concepts": 137,
     "observations": 140,
-    "repos": 48,
+    "repos": 50,
     "terms": 135
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "adamgreig/ecpdap",
@@ -38,6 +38,7 @@
     "fengkx/jieba-wasm",
     "georust/wkt",
     "germangb/minimp3-rs",
+    "hermit-os/rftrace",
     "ifsheldon/async-openai-wasm",
     "informalsystems/quint-connect",
     "informalsystems/quint-trace-explorer",
@@ -50,6 +51,7 @@
     "LuisaGroup/luisa-compute-rs",
     "MaterializeInc/rust-postgres",
     "microsoft/LinuxTracepoints-Rust",
+    "OneSignal/serde-magnus",
     "penumbra-zone/jmt",
     "ros2-rust/examples",
     "rukai/winit_input_helper",

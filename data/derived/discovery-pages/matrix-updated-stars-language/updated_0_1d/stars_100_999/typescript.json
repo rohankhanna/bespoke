@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 2,
-    "terms": 15
+    "components": 348,
+    "concepts": 78,
+    "observations": 78,
+    "repos": 8,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
-    "Rel1cx/eslint-react",
-    "serversideup/webext-bridge"
+    "a2aproject/a2a-js",
+    "apify/apify-cli",
+    "apify/mcpc",
+    "fluent-vue/fluent-vue",
+    "hexabot-ai/Hexabot",
+    "mightyiam/eslint-config-love",
+    "preactjs/preact-devtools",
+    "stx-labs/stacks.js"
   ]
 }

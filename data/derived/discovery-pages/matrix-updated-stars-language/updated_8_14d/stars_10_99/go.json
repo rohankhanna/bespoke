@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 177,
-    "concepts": 114,
-    "observations": 115,
-    "repos": 25,
-    "terms": 114
+    "components": 140,
+    "concepts": 111,
+    "observations": 112,
+    "repos": 23,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
-    "AbdelrhmanHamouda/locust-k8s-operator",
     "ankitpokhrel/shopctl",
     "bitrise-io/stepman",
     "cloudfoundry/bosh-backup-and-restore",
     "cloudfoundry/cf-acceptance-tests",
     "cloudfoundry/cf-networking-release",
     "cosmos/ibc-apps",
-    "datachainlab/cosmos-ethereum-ibc-lcp",
     "DevExpGbb/gh-devlake",
     "dianlight/gollama.cpp",
     "energye/cef",
@@ -29,14 +27,14 @@
     "EngFlow/gazelle_cc",
     "golangci/go-printf-func-name",
     "golangci/misspell",
-    "ipfs/ipfs-check",
+    "gookit/ini",
+    "gookit/rux",
     "Kong/kong-operator",
     "kubernetes-sigs/karpenter-provider-ibm-cloud",
     "openshift/kubernetes",
     "oracle/karpenter-provider-oci",
     "philips-labs/dct-notary-admin",
     "philips-labs/tabia",
-    "transparency-dev/witness",
     "usbarmory/tamago-example",
     "usbarmory/tamago-sev-example"
   ]

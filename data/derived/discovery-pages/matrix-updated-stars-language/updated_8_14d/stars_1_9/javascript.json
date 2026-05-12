@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 691,
-    "concepts": 407,
-    "observations": 409,
-    "repos": 30,
-    "terms": 405
+    "components": 688,
+    "concepts": 406,
+    "observations": 408,
+    "repos": 29,
+    "terms": 404
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "alphagov/stylelint-config-gds",
     "angular/angular-devkit-architect-builds",
     "boa-dev/data",
-    "celo-org/blind-threshold-bls-wasm",
     "dwyl/phoenix-papertrail-demo",
     "fontsource/download-stat-aggregator",
     "kkomelin/isomorphic-dompurify-playgrounds",

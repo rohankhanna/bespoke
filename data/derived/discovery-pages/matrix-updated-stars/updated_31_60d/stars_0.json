@@ -1,25 +1,27 @@
 {
   "counts": {
-    "components": 408,
-    "concepts": 172,
-    "observations": 174,
-    "repos": 100,
-    "terms": 175
+    "components": 419,
+    "concepts": 181,
+    "observations": 183,
+    "repos": 107,
+    "terms": 184
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "9romise/eslint-config",
     "aaronrsun/spec-kit-confluence",
+    "abraxas-365/claudio-screenshot",
     "adammes/voyanode",
     "adiny/moodtrip-hotel-search",
     "adipalko/hatraot",
     "aldernero/debugui",
+    "amoniacou/external-dns-digitalocean-webhook",
     "arckoor/botan-rs",
     "ashton/neotest-gleam-unitest",
     "b2agi/exist-is-charter_kr",
@@ -34,6 +36,7 @@
     "danielJL-altius/israelgrocerymcp",
     "danielrosehill/adb-keep-awake",
     "danielrosehill/Agent-Journal",
+    "danielrosehill/Agent-Skills",
     "danielrosehill/AI-Browser-Tools",
     "danielrosehill/AI-Project-Spec-Pattern",
     "danielrosehill/AI-Projects-Index",
@@ -45,6 +48,7 @@
     "danielrosehill/Bug-Reports-And-Fixes",
     "danielrosehill/Context-Projects-Index",
     "danielrosehill/Deployments-Index",
+    "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
     "danielrosehill/Geopolitical-And-OSINT-Index",
     "danielrosehill/GitHub-Management-Tools-Index",
     "danielrosehill/handy-wayland-autostart-fix",
@@ -63,13 +67,13 @@
     "danielrosehill/Patches-Repos-Index",
     "danielrosehill/Price-Research-Index",
     "danielrosehill/Red-Alert-Monitoring-Stack",
+    "danielrosehill/Skills-Repos-Index",
     "datachainlab/cosmos-bsc-ibc-lcp",
     "datachainlab/ibc-parlia-relay",
     "datafuse-extras/dtparse",
     "devnen/chatterbox-v2",
     "drmingdrmer/display-more",
     "ethpandaops/xatu-cbt",
-    "glennhickey/red",
     "grubersjoe/react-activity-calendar-tests",
     "hermit-os/async-executor",
     "hermit-os/safe-mmio",
@@ -81,6 +85,8 @@
     "JuliaBinaryWrappers/GettextRuntime_jll.jl",
     "JuliaBinaryWrappers/JpegTurbo_jll.jl",
     "JuliaBinaryWrappers/libaec_jll.jl",
+    "JuliaBinaryWrappers/Libmount_jll.jl",
+    "JuliaBinaryWrappers/Libuuid_jll.jl",
     "kayabaNerve/monero-oxide",
     "kdn36/arrow-rs-object-store",
     "kdubbo/api",
@@ -112,6 +118,7 @@
     "sujithpvarghese/bedrock-full-reconciliation",
     "Systemcluster/tokenizer-bench",
     "vaporif/rvx",
-    "VOICEVOX/preview-pages"
+    "VOICEVOX/preview-pages",
+    "wencuecryforme/mysoul.skill"
   ]
 }

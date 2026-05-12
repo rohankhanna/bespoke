@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3008,
-    "concepts": 624,
-    "observations": 624,
-    "repos": 110,
-    "terms": 674
+    "components": 3068,
+    "concepts": 648,
+    "observations": 648,
+    "repos": 112,
+    "terms": 698
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
@@ -33,7 +33,6 @@
     "Azure/login",
     "babel/website",
     "badlogic/pi-share-hf",
-    "birdofpreyru/react-native-fs",
     "blrchen/chatgpt-lite",
     "charmbracelet/vhs-action",
     "circlefin/stablecoin-evm",
@@ -51,6 +50,8 @@
     "elm-tooling/elm-language-client-vscode",
     "evmts/tevm-monorepo",
     "fastify/demo",
+    "forcedotcom/code-analyzer",
+    "fsouza/prettierd",
     "giselles-ai/giselle",
     "github/local-action",
     "GoogleCloudPlatform/wombat-dressing-room",
@@ -63,7 +64,6 @@
     "immersive-translate/zotero-immersivetranslate",
     "js-temporal/temporal-polyfill",
     "julia-actions/setup-julia",
-    "juliangruber/brace-expansion",
     "k-dense-ai/k-dense-byok",
     "Kaliiiiiiiiii-Vinyzu/patchright-nodejs",
     "Kong/kong-manager",
@@ -73,6 +73,7 @@
     "lobehub/lobe-chat-plugins",
     "logux/client",
     "lucasastorian/llmwiki",
+    "luciopaiva/heapify",
     "maltsev/htmlnano",
     "maplibre/ngx-maplibre-gl",
     "marmelab/FakeRest",
@@ -87,9 +88,9 @@
     "microsoft/vscode-json-languageservice",
     "mskelton/eslint-plugin-playwright",
     "napi-rs/package-template",
+    "nene/prettier-plugin-sql-cst",
     "neolabhq/context-engineering-kit",
     "nothingislost/obsidian-hover-editor",
-    "NVIDIA/OpenShell-Community",
     "nyatinte/ccexp",
     "Obsidian-TTRPG-Community/initiative-tracker",
     "octokit/auth-token.js",
@@ -103,6 +104,7 @@
     "OpenZeppelin/openzeppelin-upgrades",
     "optuna/optuna-dashboard",
     "ory/kratos-selfservice-ui-node",
+    "oxc-project/eslint-plugin-oxlint",
     "redhat-developer/vscode-xml",
     "safe-global/safe-deployments",
     "sass/embedded-host-node",

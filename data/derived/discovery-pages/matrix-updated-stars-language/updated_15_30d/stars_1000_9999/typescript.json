@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5668,
-    "concepts": 1079,
-    "observations": 1082,
-    "repos": 140,
-    "terms": 1182
+    "components": 5715,
+    "concepts": 1074,
+    "observations": 1077,
+    "repos": 141,
+    "terms": 1177
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
-    "abrahamjuliot/creepjs",
     "actions/cache",
     "actions/setup-java",
     "actions/setup-node",
@@ -25,7 +24,6 @@
     "actions/typescript-action",
     "actions/upload-artifact",
     "adobe/spectrum-web-components",
-    "ai-that-works/ai-that-works",
     "AIPexStudio/AIPex",
     "antfu-collective/vite-plugin-inspect",
     "anthropics/claude-code-action",
@@ -41,7 +39,9 @@
     "berty/berty",
     "blockprotocol/blockprotocol",
     "bluesky-social/atproto",
+    "breferrari/obsidian-mind",
     "bufbuild/protobuf-es",
+    "callstack/react-native-testing-library",
     "capricorn86/happy-dom",
     "ChainSafe/lodestar",
     "Chevrotain/chevrotain",
@@ -77,7 +77,6 @@
     "googleapis/release-please",
     "googleapis/release-please-action",
     "gorhom/react-native-bottom-sheet",
-    "Helicone/helicone",
     "huozhi/bunchee",
     "i18next/next-i18next",
     "iorate/ublacklist",
@@ -145,6 +144,8 @@
     "the-guild-org/apollo-angular",
     "thomasloven/lovelace-card-mod",
     "TooTallNate/proxy-agents",
+    "ts-safeql/safeql",
+    "Urigo/graphql-cli",
     "vega/vega-lite",
     "VoltAgent/voltagent",
     "vuejs/eslint-plugin-vue",

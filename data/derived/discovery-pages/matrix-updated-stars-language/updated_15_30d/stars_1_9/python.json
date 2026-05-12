@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 178,
-    "concepts": 93,
-    "observations": 93,
-    "repos": 49,
-    "terms": 113
+    "components": 184,
+    "concepts": 109,
+    "observations": 109,
+    "repos": 50,
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
@@ -24,18 +24,16 @@
     "apptainer/apptainer-admindocs",
     "apptainer/apptainer-userdocs",
     "arielagor/jetbrains-mono-hebrew",
-    "ashvardanian/ashvardanian",
     "astropy/repo_stats",
     "audeering/audonnx",
     "beneadie/DeepDog_1",
     "bryanh9111/engram",
     "caesar0301/soothe",
     "cafitac/hermit-agent",
-    "cdeust/cortex-cowork",
-    "cdxeve/scale-openclaw",
     "chaoss/grimoirelab-toolkit",
     "cjtruheart/abundance-codex",
     "conda-forge/threadpoolctl-feedstock",
+    "danielrosehill/Audio-Understanding-Bitrate-Eval-0426",
     "dora-rs/dora-benchmark",
     "dreamiurg/peakbagger-cli",
     "etanhey/brainlayer",
@@ -49,6 +47,7 @@
     "kalavai-net/kube-watcher",
     "kelp/webdown",
     "lace/proximity",
+    "mlcommons/submissions_algorithms",
     "ModelCloud/Defuser",
     "ModelCloud/LogBar",
     "momentique/source-code-security-audit-reviewer",
@@ -56,8 +55,10 @@
     "penpoen/llm-sugarscape",
     "piqrypt/aiss-standard",
     "piqrypt/piqrypt",
+    "plone/cookieplone-templates",
     "pyrtlsdr/pyrtlsdrlib",
     "rrsaldanha/burp-mcp-agents",
+    "scaleway/serverless-api-framework-python",
     "sunthinks/kvmind",
     "TexasInstruments/edgeai-tidlrunner",
     "TJC-LP/sanzaru",

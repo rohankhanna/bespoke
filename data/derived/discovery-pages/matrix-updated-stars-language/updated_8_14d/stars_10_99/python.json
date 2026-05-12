@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 307,
-    "concepts": 227,
-    "observations": 227,
-    "repos": 56,
-    "terms": 225
+    "components": 238,
+    "concepts": 170,
+    "observations": 170,
+    "repos": 42,
+    "terms": 170
   },
   "facet_version": 1,
   "filters": {
@@ -12,28 +12,20 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
-    "a2aproject/a2a-tck",
-    "agno-agi/coda",
     "All-Hands-AI/OpenHands-Cloud",
-    "allenai/cached_path",
     "arcaputo3/mcp-server-whisper",
-    "AstraZeneca/runnable",
     "autowarefoundation/autoware_launch",
     "awslabs/nx-neptune",
     "Azure-Samples/openai-chat-app-entra-auth-builtin",
     "beclab/apps",
-    "bghira/CaptionFlow",
     "carstencodes/pdm-bump",
     "cloudfoundry/community",
     "conda-forge/conda-forge-pinning-feedstock",
     "conservationtechlab/animl-py",
-    "DanielNoord/pydocstringformatter",
-    "dbfixtures/mirakuru",
     "dora-rs/dora-hub",
     "espressif/esp-idf-monitor",
-    "executablebooks/mdit-py-plugins",
     "flagos-ai/vllm-plugin-FL",
     "gentoo/api-gentoo-org",
     "gordon-code/cuid2",
@@ -49,7 +41,6 @@
     "NoakLiu/FastCache-xDiT",
     "NVIDIA/multi-storage-client",
     "open-edge-platform/physical-ai-studio",
-    "pdm-project/tox-pdm",
     "petercorke/spatialmath-python",
     "pipecat-ai/pipecat-cli",
     "pre-commit/sync-pre-commit-deps",
@@ -58,17 +49,12 @@
     "qiayuanl/unitree_bringup",
     "redis/docs",
     "regro/cf-scripts",
-    "rwightman/timm",
-    "scaleway/serverless-functions-python",
     "scipy/scipy.org",
     "sigstore/sigstore-conformance",
     "sublimelsp/LSP-volar",
     "TaWald/nnUNet",
     "terrierteam/pyterrier_pisa",
-    "theupdateframework/tuf-on-ci",
     "Thinklab-SJTU/Bench2Drive-Speed",
-    "TigreGotico/phoonnx",
-    "xhluca/bm25-benchmarks",
-    "zen-xu/pytest-modern"
+    "xhluca/bm25-benchmarks"
   ]
 }

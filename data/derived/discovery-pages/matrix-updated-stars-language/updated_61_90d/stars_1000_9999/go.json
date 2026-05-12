@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 87,
-    "observations": 87,
-    "repos": 22,
-    "terms": 90
+    "components": 70,
+    "concepts": 86,
+    "observations": 86,
+    "repos": 21,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "abh/geodns",
     "avast/retry-go",
@@ -28,7 +28,6 @@
     "google/go-cmp",
     "isaacphi/mcp-language-server",
     "JohannesKaufmann/html-to-markdown",
-    "markbates/goth",
     "mattn/efm-langserver",
     "mozillazg/go-pinyin",
     "OffchainLabs/arbitrum-classic",

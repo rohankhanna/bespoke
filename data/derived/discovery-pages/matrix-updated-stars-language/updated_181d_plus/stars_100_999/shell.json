@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 67,
-    "concepts": 205,
-    "observations": 207,
-    "repos": 90,
-    "terms": 196
+    "components": 68,
+    "concepts": 208,
+    "observations": 210,
+    "repos": 91,
+    "terms": 200
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "10up/actions-wordpress",
     "27medkamal/tmux-session-wizard",
@@ -24,6 +24,7 @@
     "AppImageCommunity/pkg2appimage",
     "archlinux/svntogit-packages",
     "arnoldthebat/chromiumos",
+    "asdf-community/asdf-kubectl",
     "asdf-vm/asdf-plugin-template",
     "Asterisk4Magisk/Xray4Magisk",
     "Azure-Samples/container-apps-store-api-microservice",

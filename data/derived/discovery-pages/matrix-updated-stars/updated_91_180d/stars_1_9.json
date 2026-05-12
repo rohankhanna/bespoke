@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 681,
-    "concepts": 299,
-    "observations": 301,
-    "repos": 197,
-    "terms": 311
+    "components": 689,
+    "concepts": 309,
+    "observations": 311,
+    "repos": 200,
+    "terms": 321
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
     "3swordman/tree-sitter-toon",
+    "aaron-he-zhu/cite-domain-rating",
     "abap2UI5-addons/table-maintenance",
     "abersheeran/pdm-version",
     "actions-oss/gh-rc",
@@ -63,6 +64,7 @@
     "cyberark/community",
     "danielrosehill/AI-Model-Manager",
     "danielrosehill/Ai-Workspace-Planning-Notes",
+    "danielrosehill/Audio-Multimodal-AI-Resources",
     "danielrosehill/Audio-Understanding-Test-Prompts",
     "danielrosehill/claude-app-optimiser",
     "danielrosehill/Claude-Bug-Catcher",
@@ -91,7 +93,6 @@
     "erwin-kok/multiformat",
     "ethereum-optimism/kurtosis-test",
     "EvelynZhang-epiclab/EvelynImgs",
-    "evoskuil/visual-studio-template",
     "fabmax/box2d-jni",
     "funstory-ai/BabelDOC-Assets",
     "gajus/eslint-plugin-slonik",
@@ -188,8 +189,10 @@
     "steve-todorov/oidc-debugger-action",
     "SWE-agent/swe-agent-media",
     "tahv/typos-gitlab-code-quality",
+    "tensorchord/VectorChord-images",
     "testng-team/testng-team.github.io",
     "The-Focus-AI/buttondown-skill",
+    "tianon/fake-git",
     "tmikus/ahocorasick_rs",
     "Triang-jyed-driung/Albatross",
     "trufflesecurity/test_keys",

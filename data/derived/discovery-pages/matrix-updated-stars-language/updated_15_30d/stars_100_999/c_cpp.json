@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 716,
-    "concepts": 711,
-    "observations": 713,
-    "repos": 135,
-    "terms": 705
+    "components": 747,
+    "concepts": 756,
+    "observations": 758,
+    "repos": 139,
+    "terms": 750
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "AcademySoftwareFoundation/Imath",
@@ -45,10 +45,13 @@
     "daanx/isocline",
     "DavidKinder/Inform6",
     "davisp/jiffy",
+    "DiligentGraphics/DiligentCore",
     "DiligentGraphics/DiligentSamples",
     "DiligentGraphics/DiligentTools",
+    "dmlc/treelite",
     "DOCGroup/ACE_TAO",
     "DolbyLaboratories/dlb_mp4base",
+    "eblerjana/pangenie",
     "eddelbuettel/rcppsimdjson",
     "Ezibenroc/PyRoaringBitMap",
     "facil-io/cstl",
@@ -59,6 +62,7 @@
     "fribidi/fribidi",
     "Frommi/miniz_oxide",
     "ganelson/inweb",
+    "garglk/garglk",
     "gazebosim/gz-sensors",
     "gisbi-kim/removert",
     "GNOME/vte",
@@ -70,9 +74,11 @@
     "hamcrest/OCHamcrest",
     "highfive-devs/highfive",
     "hku-mars/FAST-Calib",
+    "iamaisim/ProjectAirSim",
     "ifduyue/python-xxhash",
     "intel/intel-ipsec-mb",
     "jcmvbkbc/gcc-xtensa",
+    "JokerJohn/DCReg",
     "JokerJohn/PALoc",
     "jrouwe/JoltPhysics.js",
     "jupyter-xeus/xeus",
@@ -80,6 +86,7 @@
     "jupyter-xeus/xwidgets",
     "KhronosGroup/SPIRV-Headers",
     "KhronosGroup/VK-GL-CTS",
+    "KhronosGroup/Vulkan-Loader",
     "kleisauke/wasm-vips",
     "libbitcoin/libbitcoin-node",
     "libbitcoin/libbitcoin-server",
@@ -95,7 +102,6 @@
     "mapbox/protozero",
     "mapbox/variant",
     "marton78/pffft",
-    "microsoft/Tutel",
     "microsoft/vcpkg-tool",
     "microsoft/WindowsAppSDK-Samples",
     "mitsuba-renderer/drjit",
@@ -120,7 +126,6 @@
     "pauldmccarthy/indexed_gzip",
     "paullouisageneau/libjuice",
     "pbatard/Mosby",
-    "powturbo/Turbo-Base64",
     "powturbo/TurboBench",
     "pqrs-org/Karabiner-DriverKit-VirtualHIDDevice",
     "proxytunnel/proxytunnel",
@@ -147,7 +152,6 @@
     "usdot-fhwa-stol/carma-platform",
     "uxlfoundation/oneCCL",
     "VectorDB-NTU/RaBitQ-Library",
-    "xiph/vorbis",
     "Yubico/libfido2"
   ]
 }

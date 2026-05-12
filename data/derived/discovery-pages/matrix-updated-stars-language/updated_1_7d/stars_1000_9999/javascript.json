@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 453,
-    "concepts": 96,
-    "observations": 96,
-    "repos": 11,
-    "terms": 96
+    "components": 317,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 5,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "apollographql/eslint-plugin-graphql",
-    "chaijs/chai",
-    "endojs/endo",
-    "ghostery/ghostery-extension",
+    "callstack/react-native-builder-bob",
     "ipfs/ipfs-companion",
-    "JuliaPluto/Pluto.jl",
-    "module-federation/core",
-    "openwrt/luci",
-    "stylelint/stylelint-config-standard",
-    "uBlockOrigin/uBOL-home",
-    "WiseLibs/better-sqlite3"
+    "ipfs/ipfs-webui",
+    "stylelint/stylelint-config-standard"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 58,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 9,
-    "terms": 21
+    "components": 67,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 10,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "databendlabs/iceberg-rust",
     "datafuse-extras/arrow-udf",
     "datafuse-extras/tantivy",
     "datafuse-extras/tantivy-jieba",
     "espressosystems/espresso-systems-common",
+    "EspressoSystems/jellyfish-compat",
     "Keats/os_info",
     "KSXGitHub/personal-crates",
     "kylebarron/pyo3-file",

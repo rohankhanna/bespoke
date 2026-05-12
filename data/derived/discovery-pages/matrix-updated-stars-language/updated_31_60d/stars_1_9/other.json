@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 159,
-    "concepts": 88,
-    "observations": 88,
-    "repos": 37,
-    "terms": 87
+    "concepts": 77,
+    "observations": 77,
+    "repos": 38,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "abap2UI5-addons/layout-management",
     "ada-url/kotlin",
@@ -26,6 +26,8 @@
     "bolasblack/BlogFront",
     "Circuitscape/www.circuitscape.org",
     "clearbluejar/ghidra-python",
+    "DanielSmith1239/KosherSwift",
+    "dp111/6502timing",
     "dwyl/auth_plug_example",
     "dwyl/fields-demo",
     "dwyl/ping",
@@ -45,7 +47,6 @@
     "objectbox/objectbox-swift-spm",
     "ptsochantaris/trailer-json",
     "PyThaiNLP/pythainlp-corpus",
-    "redis-developer/redis-starter-csharp",
     "rocq-community/docker-base",
     "rocq-community/docker-rocq",
     "tanyongkiam/cake_lpr",

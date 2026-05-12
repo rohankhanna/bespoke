@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1466,
-    "concepts": 311,
-    "observations": 313,
-    "repos": 55,
-    "terms": 311
+    "components": 1424,
+    "concepts": 279,
+    "observations": 281,
+    "repos": 53,
+    "terms": 279
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "1-Platform/op-components",
-    "addfox/addfox",
     "aggre/ullr",
     "Airfooox/cron-validate",
     "appsignal/appsignal-javascript",
     "carbon-design-system/carbon-preprocess-svelte",
-    "catppuccin/.github",
     "coasys/flux",
     "csm-actions/approve-pr-action",
     "csm-actions/securefix-action",
@@ -31,6 +29,7 @@
     "favware/esbuild-plugin-version-injector",
     "forcedotcom/agents",
     "ghostery/broken-page-reports",
+    "GoogleCloudPlatform/opentelemetry-demo",
     "ibm-telemetry/telemetry-js",
     "iconify/iconify-tailwind",
     "iconify/tools",
@@ -41,10 +40,10 @@
     "jbaubree/sitemap-ts",
     "jbaubree/vite-plugin-pages-sitemap",
     "jest-community/eslint-plugin-jest-extended",
+    "julia-actions/install-juliaup",
     "ldclabs/KIP",
     "maplibre/maplibre-gl-inspect",
     "microsoft/Agents-for-js",
-    "NullVoxPopuli/ember-deep-tracked",
     "obsidianmd/eslint-plugin",
     "octokit/auth-action.js",
     "octokit/auth-oauth-app.js",
@@ -66,7 +65,6 @@
     "SemiAnalysisAI/InferenceX-app",
     "seung-lab/neuroglancer",
     "suzuki-shunsuke/pinact-action",
-    "swagger-api/apidom",
     "universal-ember/reactiveweb",
     "vincentlaucsb/experiencer"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 221,
-    "concepts": 140,
-    "observations": 142,
-    "repos": 35,
-    "terms": 140
+    "components": 213,
+    "concepts": 137,
+    "observations": 139,
+    "repos": 34,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
+    "antonWetzel/prettypst",
     "Anush008/tokenizers",
     "apache/casbin-actix-casbin-auth",
     "apache/casbin-axum-casbin",
@@ -24,7 +25,6 @@
     "BlackDex/rust-musl",
     "Calsign/gazelle_rust",
     "celestiaorg/hana",
-    "chris-zen/coremidi",
     "cpmech/gemlab",
     "datafusion-contrib/datafusion-orc",
     "dcampbell24/mdbook-djot",
@@ -47,7 +47,6 @@
     "rust-lang/josh-sync",
     "sigp/rust-libp2p",
     "synadia-io/orbit.rs",
-    "Turbo87/flat-projection-rs",
     "Vaishnav-Sabari-Girish/Hayasen"
   ]
 }

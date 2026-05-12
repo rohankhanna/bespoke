@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 256,
-    "concepts": 180,
-    "observations": 183,
-    "repos": 46,
-    "terms": 178
+    "components": 263,
+    "concepts": 199,
+    "observations": 202,
+    "repos": 49,
+    "terms": 197
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "alexheretic/ab-glyph",
     "astro/deadnix",
@@ -30,14 +30,17 @@
     "dtolnay/prettyplease",
     "dustinblackman/cargo-run-bin",
     "faradayio/cage",
+    "georust/proj",
     "guillaume-be/rust-tokenizers",
     "harfbuzz/ttf-parser",
+    "ImageOptim/libimagequant",
     "kata-containers/cgroups-rs",
     "kwonoj/swc-plugin-coverage-instrument",
     "lquerel/gcp-bigquery-client",
     "Lutetium-Vanadium/requestty",
     "Manishearth/triomphe",
     "microsoft/rust_win_etw",
+    "MSxDOS/ntapi",
     "mtkennerly/shawl",
     "op-rs/kona",
     "orhun/tuitar",

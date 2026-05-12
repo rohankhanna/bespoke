@@ -3,7 +3,7 @@
     "components": 13,
     "concepts": 13,
     "observations": 13,
-    "repos": 5,
+    "repos": 6,
     "terms": 12
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "DiligentGraphics/args",
+    "glennhickey/red",
     "jrsoftware/is7z",
     "usdot-fhwa-stol/carma-ns3-adapter",
     "yoshoku/numo-liblinear",

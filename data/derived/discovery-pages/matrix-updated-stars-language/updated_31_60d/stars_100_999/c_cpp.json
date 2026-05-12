@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 266,
-    "concepts": 428,
-    "observations": 429,
-    "repos": 85,
-    "terms": 424
+    "components": 253,
+    "concepts": 419,
+    "observations": 420,
+    "repos": 83,
+    "terms": 415
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "AmusementClub/vs-mlrt",
@@ -24,7 +24,6 @@
     "arduino-libraries/Servo",
     "artemsen/swayimg",
     "ashvardanian/ForkUnion",
-    "avaneev/r8brain-free-src",
     "BirolLab/ntHash",
     "bnprks/BPCells",
     "btzy/nativefiledialog-extended",
@@ -35,10 +34,8 @@
     "DavidKinder/Windows-Frotz",
     "dloebl/cgif",
     "eclipse-cyclonedds/cyclonedds-cxx",
-    "eliemichel/LearnWebGPU",
     "elixir-sqlite/exqlite",
     "eyalz800/zpp_bits",
-    "frankmorgner/vsmartcard",
     "freeswitch/sofia-sip",
     "fujitsu/xbyak_aarch64",
     "g-truc/gli",
@@ -61,10 +58,10 @@
     "libimobiledevice/libplist",
     "libxsmm/libxsmm",
     "littlefs-project/littlefs-fuse",
-    "lualanes/lanes",
     "LuisaGroup/LuisaRender",
     "luvit/luvi",
     "microsoft/jericho",
+    "microsoft/Tutel",
     "microsoft/xlang",
     "mikolmogorov/Flye",
     "ml-explore/mlx-c",
@@ -78,6 +75,7 @@
     "osmcode/libosmium",
     "PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition",
     "PaddlePaddle/Paddle2ONNX",
+    "powturbo/Turbo-Base64",
     "ptsochantaris/emeltal",
     "raysan5/raylib-games",
     "RoaringBitmap/croaring-rs",
@@ -86,7 +84,6 @@
     "samtools/bcftools",
     "Slamtec/rplidar_sdk",
     "smarco/WFA2-lib",
-    "stardot/beebasm",
     "Tomas-M/iotop",
     "tpoechtrager/apple-libtapi",
     "tpoechtrager/cctools-port",
@@ -98,6 +95,7 @@
     "wdas/ptex",
     "webgpu-native/webgpu-headers",
     "WojciechMula/toys",
+    "xiph/vorbis",
     "xtensor-stack/xtensor-python"
   ]
 }

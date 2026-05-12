@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 27,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 4,
+    "components": 30,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 3,
     "terms": 21
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
-    "itzg/docker-minecraft-bedrock-server",
-    "ROCm/ROCm",
+    "nodenv/nodenv",
     "webinstall/webi-installers",
     "yt-dlp/FFmpeg-Builds"
   ]

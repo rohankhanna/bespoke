@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2510,
-    "concepts": 465,
-    "observations": 468,
-    "repos": 60,
-    "terms": 461
+    "components": 2876,
+    "concepts": 520,
+    "observations": 523,
+    "repos": 65,
+    "terms": 516
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "ai/nanoid",
     "ajaxorg/ace",
+    "ampproject/amphtml",
     "arkenfox/user.js",
     "Automattic/node-canvas",
     "avajs/ava",
-    "avwo/whistle",
     "badges/shields",
     "be5invis/Iosevka",
     "bmad-code-org/bmad-method",
@@ -36,6 +36,7 @@
     "graphql/graphql-spec",
     "handlebars-lang/handlebars.js",
     "http-party/http-server",
+    "huggingface/transformers.js",
     "iamkun/dayjs",
     "immerjs/immer",
     "jantimon/html-webpack-plugin",
@@ -51,8 +52,10 @@
     "lodash/lodash",
     "lovell/sharp",
     "markedjs/marked",
+    "microsoft/monaco-editor",
     "motdotla/dotenv",
     "nock/nock",
+    "nodemailer/nodemailer",
     "openai/codex-plugin-cc",
     "postcss/autoprefixer",
     "prettier/prettier",
@@ -64,6 +67,7 @@
     "serverless/serverless",
     "simple-icons/simple-icons",
     "svg/svgo",
+    "swagger-api/swagger-ui",
     "tj/commander.js",
     "validatorjs/validator.js",
     "vega/vega",
@@ -72,6 +76,7 @@
     "webpack/webpack",
     "webtorrent/webtorrent",
     "welldone-software/why-did-you-render",
+    "wix/Detox",
     "yarnpkg/yarn",
     "zloirock/core-js"
   ]

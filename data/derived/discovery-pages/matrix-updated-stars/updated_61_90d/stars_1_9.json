@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 493,
-    "concepts": 332,
-    "observations": 332,
-    "repos": 116,
-    "terms": 326
+    "components": 485,
+    "concepts": 350,
+    "observations": 350,
+    "repos": 117,
+    "terms": 344
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "0x676e67/0x676e67",
@@ -107,6 +107,9 @@
     "PBK-B/i18next-cli-vue",
     "piebald-ai/.github",
     "realworld-apps/nitro-prisma-zod-realworld-example-app",
+    "redis-developer/redis-starter-csharp",
+    "redis-developer/redis-starter-go",
+    "redis-developer/redis-starter-java",
     "REditorSupport/vscode-R-syntax",
     "richgel999/junkdrawer",
     "RobertBeckebans/DOOM-3",
@@ -119,8 +122,6 @@
     "SWE-bench/SWE-smith-envs",
     "sylabs/singularity-admindocs",
     "tc39/proposal-intl-keep-trailing-zeros",
-    "tensorchord/VectorChord-images",
-    "tianon/fake-git",
     "tombelieber/claude-backup",
     "tzachar/sqlite_skim",
     "usnistgov/libhdf5-wasm",

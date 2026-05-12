@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1947,
-    "concepts": 1795,
-    "observations": 1801,
-    "repos": 790,
-    "terms": 1789
+    "components": 1952,
+    "concepts": 1804,
+    "observations": 1810,
+    "repos": 792,
+    "terms": 1798
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x7432/asm-ru",
@@ -29,7 +29,6 @@
     "2KAbhishek/co-author.nvim",
     "2KAbhishek/octohub.nvim",
     "2KAbhishek/utils.nvim",
-    "45gfg9/mirai-release-watcher-plugin",
     "a115/exmatrix",
     "aaronjensen/eslintd-fix",
     "abap-ai/mcp",
@@ -282,6 +281,7 @@
     "dom8509/logseq-to-markdown",
     "Dominaezzz/kotlin-imgui",
     "domino-osgi/domino",
+    "donny741/ruby-lsp-factory_bot",
     "dotenv-org/examples",
     "dranov/raft-tla",
     "drmargarido/linters",
@@ -586,6 +586,7 @@
     "nalimilan/FreqTables.jl",
     "nelsonic/nelsonic.github.io",
     "NickDarvey/whisper",
+    "nikitabobko/brew-install-path",
     "nikvdp/nvim-lsp-config",
     "NimblePros/SharedKernelSample",
     "niu-haoran/FLIVE_Database",
@@ -700,6 +701,7 @@
     "seung-lab/BigArrays.jl",
     "shadowsocks/openwrt-feeds",
     "shanoor/kubectl-aliases-powershell",
+    "Shatur/neovim-cmake",
     "ShenghaiWang/SwiftLlama",
     "sherrillmix/vipor",
     "ShiromMakkad/base16-jetbrains-ide",

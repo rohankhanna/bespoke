@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10175,
-    "concepts": 9984,
-    "observations": 10016,
-    "repos": 1706,
-    "terms": 9937
+    "components": 10187,
+    "concepts": 10007,
+    "observations": 10039,
+    "repos": 1708,
+    "terms": 9960
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -962,6 +962,7 @@
     "hashicorp/yamux",
     "haveachin/infrared",
     "hazelcast/hazelcast-go-client",
+    "hebcal/hebcal",
     "helm-unittest/helm-unittest",
     "helm/chart-releaser",
     "helm/chart-testing",
@@ -1081,6 +1082,7 @@
     "KatelynHaworth/go-tproxy",
     "kdubbo/api",
     "kdubbo/xds-api",
+    "kelos-dev/kelos",
     "kentaro-m/blackfriday-confluence",
     "kitex-contrib/codec-dubbo",
     "kitex-contrib/codec-dubbo-tests",

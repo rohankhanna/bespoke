@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 2787,
-    "concepts": 3469,
-    "observations": 3477,
-    "repos": 625,
-    "terms": 3448
+    "components": 2794,
+    "concepts": 3514,
+    "observations": 3522,
+    "repos": 629,
+    "terms": 3493
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "abapGit/ADT_Frontend",
     "abarisain/dmix",
     "abel533/ECharts",
     "abilian/abilian-sbe",
+    "abistarun/resseract-lite",
     "Accla/D4M.py",
     "Accla/graphulo",
     "adamharrison/lite-xl-android",
@@ -41,6 +42,7 @@
     "aliyun/alibabacloud-oss-java-sdk-v2",
     "aliyun/aliyun-oss-java-sdk",
     "allegro/hermes",
+    "androidx/media",
     "angelozerr/ec4e",
     "anjeludo/spring-ai-mcp",
     "Antibrumm/jackson-antpathfilter",
@@ -291,6 +293,7 @@
     "google/auto",
     "google/conscrypt",
     "google/error-prone",
+    "google/ExoPlayer",
     "google/google-java-format",
     "google/graphicsfuzz",
     "google/gson",
@@ -405,6 +408,7 @@
     "Konloch/bytecode-viewer",
     "konsoletyper/teavm",
     "konsoletyper/teavm-site",
+    "KosherJava/zmanim",
     "krasa/EclipseCodeFormatter",
     "kreativekorp/bitsnpicas",
     "ksuid/ksuid",

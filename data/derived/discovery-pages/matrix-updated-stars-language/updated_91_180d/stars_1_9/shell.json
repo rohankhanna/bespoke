@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 52,
+    "components": 53,
     "concepts": 33,
     "observations": 35,
-    "repos": 12,
+    "repos": 13,
     "terms": 33
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "actions-oss/gh-rc",
     "azdavis/ungrammar-tools",
@@ -25,6 +25,7 @@
     "KSXGitHub/personal-pacman-packages",
     "lite-xl/lite-xl-build-box",
     "Sbozzolo/libvterm-mirror",
+    "tianon/fake-git",
     "Vaishnav-Sabari-Girish/rust_bangalore_december_2025"
   ]
 }

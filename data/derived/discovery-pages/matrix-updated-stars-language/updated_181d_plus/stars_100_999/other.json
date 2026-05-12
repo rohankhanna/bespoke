@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2105,
-    "concepts": 2895,
-    "observations": 2902,
-    "repos": 919,
-    "terms": 2878
+    "components": 2107,
+    "concepts": 2899,
+    "observations": 2906,
+    "repos": 921,
+    "terms": 2885
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -106,6 +106,7 @@
     "Azure-Samples/contoso-chat",
     "Azure-Samples/eShopOnAzure",
     "Azure/actions",
+    "Azure/actions-workflow-samples",
     "babashka/pods",
     "bagder/roffit",
     "bagrat/vim-buffet",
@@ -752,6 +753,7 @@
     "rocker-org/rocker-versioned",
     "romgrk/fzy-lua-native",
     "ropensci/tabulapdf",
+    "rouge8/neotest-rust",
     "roxma/nvim-yarp",
     "rranelli/auto-package-update.el",
     "RRethy/nvim-treesitter-textsubjects",

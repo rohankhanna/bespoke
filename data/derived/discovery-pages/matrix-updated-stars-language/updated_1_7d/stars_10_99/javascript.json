@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 31,
+    "components": 17,
     "concepts": 6,
     "observations": 6,
-    "repos": 2,
+    "repos": 1,
     "terms": 6
   },
   "facet_version": 1,
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
-    "aidenlab/juicebox.js",
     "apache/doris-opentelemetry-demo"
   ]
 }

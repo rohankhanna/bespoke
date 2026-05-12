@@ -3,7 +3,7 @@
     "components": 15,
     "concepts": 43,
     "observations": 43,
-    "repos": 33,
+    "repos": 34,
     "terms": 47
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
+    "aaron-he-zhu/core-eeat-content-benchmark",
     "Adlik/model_zoo",
     "airlift/codestyle",
     "AlefAlefAlef/gveret-levin",

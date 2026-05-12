@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 392,
-    "concepts": 504,
-    "observations": 505,
-    "repos": 41,
-    "terms": 501
+    "components": 416,
+    "concepts": 521,
+    "observations": 522,
+    "repos": 43,
+    "terms": 518
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "apache/thrift",
@@ -22,7 +22,6 @@
     "cameron314/concurrentqueue",
     "capnproto/capnproto",
     "carla-simulator/carla",
-    "catchorg/Catch2",
     "colmap/colmap",
     "coturn/coturn",
     "dcloudio/uni-app",
@@ -44,16 +43,19 @@
     "LostRuins/koboldcpp",
     "micropython/micropython",
     "mongodb/mongo",
+    "mozilla-ai/llamafile",
     "oceanbase/oceanbase",
     "opencv/opencv",
     "openframeworks/openFrameworks",
     "openvinotoolkit/openvino",
     "PointCloudLibrary/pcl",
+    "protocolbuffers/protobuf",
     "qmk/qmk_firmware",
     "SerenityOS/serenity",
     "simdjson/simdjson",
     "v8/v8",
     "winsiderss/systeminformer",
-    "yhirose/cpp-httplib"
+    "yhirose/cpp-httplib",
+    "Z3Prover/z3"
   ]
 }

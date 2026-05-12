@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 7,
-    "terms": 44
+    "components": 22,
+    "concepts": 34,
+    "observations": 34,
+    "repos": 4,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
-    "cloudfoundry/credhub",
     "eclipse-wildwebdeveloper/wildwebdeveloper",
     "jcefmaven/jcefmaven",
-    "jdereg/json-io",
-    "ldproxy/ldproxy",
-    "mapsforge/vtm",
-    "spring-projects/spring-tools"
+    "KosherJava/zmanim",
+    "mapsforge/vtm"
   ]
 }

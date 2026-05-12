@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 53,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 25,
-    "terms": 33
+    "components": 54,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 26,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "acevif/swiftformat-nix",
     "AdaCore/vss-extra",
+    "arnaud-lb/php-rdkafka-doc",
     "b2agi/exist-is-charter",
     "conda-forge/cccl-feedstock",
     "danielrosehill/AI-Ideation-Runs",
+    "danielrosehill/Claude-HP5200-Skill-plugin",
     "danielrosehill/Geopol-Forecast-Council",
     "danielrosehill/Github-Ideas-And-FRs",
     "danielrosehill/Github-Repo-Org-Question",
@@ -28,10 +30,9 @@
     "genuslovoacalixtusiii510/ytp-2026",
     "JuliaBinaryWrappers/CUDA_Driver_jll.jl",
     "JuliaBinaryWrappers/CUDA_Runtime_jll.jl",
+    "JuliaBinaryWrappers/Expat_jll.jl",
     "JuliaBinaryWrappers/GDAL_jll.jl",
-    "JuliaBinaryWrappers/Libmount_jll.jl",
     "JuliaBinaryWrappers/libpng_jll.jl",
-    "JuliaBinaryWrappers/Libuuid_jll.jl",
     "markoswire/remember-me.ai",
     "regro/cf-graph-countyfair",
     "robertabao/grok-nvim",

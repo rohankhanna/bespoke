@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 271,
-    "concepts": 90,
-    "observations": 90,
-    "repos": 79,
-    "terms": 90
+    "components": 280,
+    "concepts": 96,
+    "observations": 96,
+    "repos": 81,
+    "terms": 96
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "1000ch/Sublime-csso",
     "abap2UI5-addons/popups",
@@ -44,6 +44,7 @@
     "danielrosehill/Model-Scout-MCP",
     "danielrosehill/N8N-Workflows-Index",
     "danielrosehill/Quick-RMBG",
+    "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",
     "databendlabs/iceberg-rust",
     "datafuse-extras/arrow-udf",
     "datafuse-extras/pprof-rs",
@@ -55,6 +56,7 @@
     "DiligentGraphics/NuklearUI",
     "Enselic/cargo-public-api",
     "espressosystems/espresso-systems-common",
+    "EspressoSystems/jellyfish-compat",
     "flageval-baai/LRM-Eval",
     "frankkohlhepp/fancy-settings",
     "get-gah/gah-db",

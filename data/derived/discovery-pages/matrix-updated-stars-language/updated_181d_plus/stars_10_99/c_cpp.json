@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 497,
-    "concepts": 600,
-    "observations": 600,
-    "repos": 269,
-    "terms": 597
+    "components": 514,
+    "concepts": 607,
+    "observations": 607,
+    "repos": 270,
+    "terms": 604
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
@@ -153,6 +153,7 @@
     "jb55/lnsocket",
     "jcupitt/libvips",
     "jd-boyd/python-lzo",
+    "jeffzhou2000/ggml-hexagon",
     "jgm/cmark-lua",
     "jimkang/annoy-node",
     "jinfeihan57/p7zip",

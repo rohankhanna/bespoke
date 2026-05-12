@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1720,
-    "concepts": 355,
-    "observations": 355,
-    "repos": 59,
-    "terms": 364
+    "components": 1750,
+    "concepts": 356,
+    "observations": 356,
+    "repos": 61,
+    "terms": 365
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "43081j/picoquery",
@@ -23,11 +23,11 @@
     "antfu/skills-npm",
     "appium/appium-adb",
     "aquasecurity/trivy-vscode-extension",
-    "augmnt/augments-mcp-server",
     "Autodesk/synthesis",
     "avli/clojureVSCode",
     "aws-actions/aws-secretsmanager-get-secrets",
     "aws-samples/dify-self-hosted-on-aws",
+    "birdofpreyru/react-native-fs",
     "carbon-design-system/carbon-icons-svelte",
     "carbon-design-system/carbon-pictograms-svelte",
     "carlrannaberg/claudekit",
@@ -46,6 +46,7 @@
     "h3js/crossws",
     "hazelcast/hazelcast-nodejs-client",
     "jgm/djot.js",
+    "juliangruber/brace-expansion",
     "jupyterlab/extension-examples",
     "krassowski/jupyterlab-lsp",
     "kylebarron/arrow-js-ffi",
@@ -57,6 +58,7 @@
     "microsoft/vscode-html-languageservice",
     "nashaofu/screenshots",
     "neoclide/coc-java",
+    "NVIDIA/OpenShell-Community",
     "ory/hydra-login-consent-node",
     "PanAeon/vscode-tmgrammar-test",
     "retracedhq/retraced",

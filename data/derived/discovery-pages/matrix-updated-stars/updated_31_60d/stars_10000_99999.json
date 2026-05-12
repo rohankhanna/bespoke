@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1791,
-    "concepts": 1025,
-    "observations": 1028,
-    "repos": 148,
-    "terms": 1018
+    "components": 1873,
+    "concepts": 1034,
+    "observations": 1037,
+    "repos": 150,
+    "terms": 1026
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-11T07:58:46.643172+00:00",
+  "generated_at": "2026-05-12T05:46:29.404112+00:00",
   "repo_ids": [
     "2noise/ChatTTS",
     "3b1b/videos",
@@ -23,10 +23,11 @@
     "anuraghazra/github-readme-stats",
     "AppFlowy-IO/AppFlowy",
     "auth0/node-jsonwebtoken",
+    "avwo/whistle",
     "be5invis/Sarasa-Gothic",
     "bellard/quickjs",
-    "bol-van/zapret",
     "catppuccin/catppuccin",
+    "charmbracelet/glow",
     "chatboxai/chatbox",
     "chriskiehl/Gooey",
     "chromedp/chromedp",
@@ -43,6 +44,7 @@
     "devicons/devicon",
     "direnv/direnv",
     "dockur/windows",
+    "dzhng/deep-research",
     "EleutherAI/lm-evaluation-harness",
     "enaqx/awesome-react",
     "encode/httpx",
