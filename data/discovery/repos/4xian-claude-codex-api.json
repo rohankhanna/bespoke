@@ -1,0 +1,313 @@
+{
+  "components": [
+    {
+      "component": "@iarna/toml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "commander",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cross-spawn",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-toml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-yaml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json5",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-commonjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-json",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "4xian/claude-codex-api",
+      "target": "@iarna/toml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "4xian/claude-codex-api",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "4xian/claude-codex-api",
+      "target": "commander",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "4xian/claude-codex-api",
+      "target": "cross-spawn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "4xian/claude-codex-api",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "4xian/claude-codex-api",
+      "target": "js-toml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "4xian/claude-codex-api",
+      "target": "js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "4xian/claude-codex-api",
+      "target": "json5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "4xian/claude-codex-api",
+      "target": "@rollup/plugin-commonjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "4xian/claude-codex-api",
+      "target": "@rollup/plugin-json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "4xian/claude-codex-api",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "4xian/claude-codex-api",
+      "target": "@rollup/plugin-terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "4xian/claude-codex-api",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "4xian/claude-codex-api",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "4xian/claude-codex-api",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "4xian/claude-codex-api",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "4xian/claude-codex-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "4xian/claude-codex-api",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "4xian/claude-codex-api",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4xian/claude-codex-api",
+      "target": "ccapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4xian/claude-codex-api",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4xian/claude-codex-api",
+      "target": "codex-cli",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-12T07:38:23.734894+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8977
+    },
+    {
+      "path": "package.json",
+      "size": 1695
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 644
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ccapi - A management tool for quickly switching Claude Code and Codex configurations | \u4e00\u4e2aClaude Code \u548c Codex \u914d\u7f6e\u7ba1\u7406\u5de5\u5177\uff0c\u4e00\u952e\u5207\u6362\u591a\u4e2a\u4e2d\u8f6c\u7ad9API\u914d\u7f6e\uff1b\u4e00\u952e\u5207\u6362\u7cfb\u7edf\u73af\u5883\u53d8\u91cf\uff1b\u4e00\u952e\u6d4b\u8bd5API\u5ef6\u8fdf\uff1b\u4e00\u952e\u6d4b\u8bd5API\u6709\u6548\u6027\uff1b\u81ea\u52a8\u62e9\u4f18\u7ebf\u8def\u5207\u6362\u4e0e\u56fd\u9645\u5316\u652f\u6301\u3002",
+    "fork": false,
+    "full_name": "4xian/claude-codex-api",
+    "html_url": "https://github.com/4xian/claude-codex-api",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-07T15:06:33Z",
+    "stargazers_count": 174,
+    "topics": [
+      "ai",
+      "ccapi",
+      "claude",
+      "claude-code",
+      "codex",
+      "codex-cli"
+    ],
+    "updated_at": "2026-05-11T02:26:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | \u4e2d\u6587 | [Codex\u6587\u6863](./CODEX_README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ccapi"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | \u4e2d\u6587 | [Codex\u6587\u6863](./CODEX_README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | \u4e2d\u6587 | [Codex\u6587\u6863](./CODEX_README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codex-cli"
+    }
+  ]
+}

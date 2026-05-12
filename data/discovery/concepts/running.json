@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "running"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-java/nvim-java",
+      "status": "candidate-context",
+      "text": "Painless Java in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-java/nvim-java",
+      "status": "candidate-context",
+      "text": "![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-java/nvim-java",
+      "status": "candidate",
+      "text": "![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036028,
+      "status": "candidate",
+      "text": "scampering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034989,
+      "status": "candidate",
+      "text": "fleeing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028180,
+      "status": "candidate",
+      "text": "moving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003214,
+      "status": "candidate",
+      "text": "flowing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003004,
+      "status": "candidate",
+      "text": "gushing"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31042,
+      "status": "candidate",
+      "text": "operative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27083,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23072,
+      "status": "candidate",
+      "text": "track"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15043,
+      "status": "candidate",
+      "text": "functional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14019,
+      "status": "candidate",
+      "text": "fleeing"
+    }
+  ],
+  "canonical_name": "running",
+  "concept_id": "running",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "nvim-java/nvim-java"
+    }
+  ],
+  "first_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "running",
+      "sense_id": "running#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

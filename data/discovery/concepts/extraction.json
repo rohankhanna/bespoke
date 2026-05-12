@@ -55,6 +55,18 @@
       "source_repo": "BobLd/camelot-sharp",
       "status": "candidate-context",
       "text": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kepano/defuddle-cli",
+      "status": "candidate-context",
+      "text": "Moved to the main defuddle repo. Command line utility to extract clean html, markdown and metadata from web pages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/defuddle-cli",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "BobLd/camelot-sharp",
       "status": "candidate",
       "text": "A C# library to extract tabular data from PDFs (port of camelot Python version using PdfPig)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/defuddle-cli",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [
@@ -170,11 +188,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "BobLd/camelot-sharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "kepano/defuddle-cli"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

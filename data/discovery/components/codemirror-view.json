@@ -1,7 +1,7 @@
 {
   "component": "@codemirror/view",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -157,6 +157,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "fregante/GhostText"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "2mawi2/schaltwerk"
     }
   ]
 }

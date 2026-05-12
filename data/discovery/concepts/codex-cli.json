@@ -31,6 +31,18 @@
       "source_repo": "batrachianai/toad",
       "status": "candidate-context",
       "text": "A unified interface for AI in your terminal ([release announcement](https://willmcgugan.github.io/toad-released/))."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "4xian/claude-codex-api",
+      "status": "candidate-context",
+      "text": "ccapi - A management tool for quickly switching Claude Code and Codex configurations | \u4e00\u4e2aClaude Code \u548c Codex \u914d\u7f6e\u7ba1\u7406\u5de5\u5177\uff0c\u4e00\u952e\u5207\u6362\u591a\u4e2a\u4e2d\u8f6c\u7ad9API\u914d\u7f6e\uff1b\u4e00\u952e\u5207\u6362\u7cfb\u7edf\u73af\u5883\u53d8\u91cf\uff1b\u4e00\u952e\u6d4b\u8bd5API\u5ef6\u8fdf\uff1b\u4e00\u952e\u6d4b\u8bd5API\u6709\u6548\u6027\uff1b\u81ea\u52a8\u62e9\u4f18\u7ebf\u8def\u5207\u6362\u4e0e\u56fd\u9645\u5316\u652f\u6301\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4xian/claude-codex-api",
+      "status": "candidate-context",
+      "text": "[English](./README_EN.md) | \u4e2d\u6587 | [Codex\u6587\u6863](./CODEX_README.md)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "batrachianai/toad",
       "status": "candidate",
       "text": "A unified interface for AI in your terminal ([release announcement](https://willmcgugan.github.io/toad-released/))."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4xian/claude-codex-api",
+      "status": "candidate",
+      "text": "[English](./README_EN.md) | \u4e2d\u6587 | [Codex\u6587\u6863](./CODEX_README.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "batrachianai/toad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "4xian/claude-codex-api"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

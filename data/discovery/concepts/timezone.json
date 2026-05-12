@@ -19,6 +19,18 @@
       "source_repo": "js-joda/js-joda",
       "status": "candidate-context",
       "text": "[![npm version](https://badge.fury.io/js/%40js-joda%2Fcore.svg)](https://badge.fury.io/js/%40js-joda%2Fcore)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sternbach-Software/KosherKotlin",
+      "status": "candidate-context",
+      "text": "KosherJava Zmanim API / Library port to Kotlin. KosherJava is a library for calculating astronomical and religious dates and times based on location."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sternbach-Software/KosherKotlin",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "js-joda/js-joda",
       "status": "candidate",
       "text": "[![npm version](https://badge.fury.io/js/%40js-joda%2Fcore.svg)](https://badge.fury.io/js/%40js-joda%2Fcore)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sternbach-Software/KosherKotlin",
+      "status": "candidate",
+      "text": "\"CodeQL\""
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "js-joda/js-joda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "Sternbach-Software/KosherKotlin"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

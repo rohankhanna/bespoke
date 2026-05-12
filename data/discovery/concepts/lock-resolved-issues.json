@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lock resolved issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junit-team/junit-framework",
+      "status": "candidate-context",
+      "text": "\u2705 The programmer-friendly testing framework for Java and the JVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junit-team/junit-framework",
+      "status": "candidate-context",
+      "text": "Lock resolved issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junit-team/junit-framework",
+      "status": "candidate",
+      "text": "Lock resolved issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18002,
+      "status": "candidate",
+      "text": "closure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18002,
+      "status": "candidate",
+      "text": "tackle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17964,
+      "status": "candidate",
+      "text": "combination lock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17946,
+      "status": "candidate",
+      "text": "definitive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17946,
+      "status": "candidate",
+      "text": "determine"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lock resolved issues",
+  "concept_id": "lock-resolved-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/lock-resolved-issues.yml",
+      "source_repo": "junit-team/junit-framework"
+    }
+  ],
+  "first_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lock resolved issues",
+      "sense_id": "lock-resolved-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

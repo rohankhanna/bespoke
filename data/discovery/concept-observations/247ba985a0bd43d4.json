@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The IDE without editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Tauri Version Sync"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Tauri Version Sync"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21522,
+      "status": "candidate",
+      "text": "augsburg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21522,
+      "status": "candidate",
+      "text": "frankalmoign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21522,
+      "status": "candidate",
+      "text": "gee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21522,
+      "status": "candidate",
+      "text": "haw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21522,
+      "status": "candidate",
+      "text": "skittles"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Tauri Version Sync",
+      "sense_id": "check-tauri-version-sync#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-tauri-version-sync",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-tauri-version-sync",
+  "observation_id": "247ba985a0bd43d4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-12T07:08:14.758954+00:00",
+  "observed_text": "Check Tauri Version Sync",
+  "source_context_snippet": "Check Tauri Version Sync",
+  "source_file": ".github/workflows/check-tauri-versions.yml",
+  "source_repo": "2mawi2/schaltwerk",
+  "source_repo_description": "The IDE without editor"
+}

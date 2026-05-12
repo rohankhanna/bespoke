@@ -229,6 +229,18 @@
       "source_repo": "antvis/chart-visualization-skills",
       "status": "candidate-context",
       "text": "> Turning data into a visual language for better thinking."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aannoo/hcom",
+      "status": "candidate-context",
+      "text": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Gemini CLI, Codex, OpenCode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aannoo/hcom",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/aannoo/hcom/actions/workflows/ci.yml/badge.svg)](https://github.com/aannoo/hcom/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -339,6 +351,12 @@
       "source_repo": "antvis/chart-visualization-skills",
       "status": "candidate",
       "text": "> Turning data into a visual language for better thinking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aannoo/hcom",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/aannoo/hcom/actions/workflows/ci.yml/badge.svg)](https://github.com/aannoo/hcom/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -646,11 +664,17 @@
       "observed_at": "2026-05-11T18:44:26.583561+00:00",
       "source_file": null,
       "source_repo": "antvis/chart-visualization-skills"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "aannoo/hcom"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

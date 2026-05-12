@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-12T07:38:32.113331+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6658
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "aeulker/Claude-Code-Cheat-Sheet",
+    "html_url": "https://github.com/aeulker/Claude-Code-Cheat-Sheet",
+    "language": "HTML",
+    "pushed_at": "2025-10-05T18:58:44Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-04-18T13:33:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

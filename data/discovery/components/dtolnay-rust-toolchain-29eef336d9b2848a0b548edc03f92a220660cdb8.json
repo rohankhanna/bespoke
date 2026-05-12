@@ -1,7 +1,7 @@
 {
   "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -182,6 +182,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "open-telemetry/opentelemetry-weaver-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/launcher_validation.yml",
+      "source_repo": "junhoyeo/tokscale"
     }
   ]
 }

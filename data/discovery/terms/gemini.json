@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -296,6 +296,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "kelos-dev/kelos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "junhoyeo/tokscale"
     }
   ],
   "term": "gemini"

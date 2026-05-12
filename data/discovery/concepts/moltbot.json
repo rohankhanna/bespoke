@@ -19,6 +19,18 @@
       "source_repo": "SamurAIGPT/awesome-openclaw",
       "status": "candidate-context",
       "text": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junhoyeo/tokscale",
+      "status": "candidate-context",
+      "text": "\ud83d\udef0\ufe0f A CLI tool for tracking token usage from OpenCode, Claude Code, \ud83e\udd9eOpenClaw (Clawdbot/Moltbot), Pi, Codex, Gemini, Cursor, AmpCode, Factory Droid, Kimi, and more! \u2022 \ud83c\udfc5Global Leaderboard + 2D/3D Contributions Graph"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junhoyeo/tokscale",
+      "status": "candidate-context",
+      "text": "<!-- <CENTERED SECTION FOR GITHUB DISPLAY> -->"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "SamurAIGPT/awesome-openclaw",
       "status": "candidate",
       "text": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junhoyeo/tokscale",
+      "status": "candidate",
+      "text": "<!-- <CENTERED SECTION FOR GITHUB DISPLAY> -->"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "SamurAIGPT/awesome-openclaw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "junhoyeo/tokscale"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pinnymz/ruby-zmanim",
+      "target": "date-conversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pinnymz/ruby-zmanim",
+      "target": "hebrew-calendar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pinnymz/ruby-zmanim",
+      "target": "zmanim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-12T07:37:43.241662+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5016
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Zmanim library for Ruby",
+    "fork": false,
+    "full_name": "pinnymz/ruby-zmanim",
+    "html_url": "https://github.com/pinnymz/ruby-zmanim",
+    "language": "Ruby",
+    "pushed_at": "2023-11-09T18:08:00Z",
+    "stargazers_count": 8,
+    "topics": [
+      "date-conversion",
+      "hebrew-calendar",
+      "zmanim"
+    ],
+    "updated_at": "2025-11-11T10:04:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A Ruby library for Zmanim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "date-conversion"
+    },
+    {
+      "context_snippet": "A Ruby library for Zmanim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hebrew-calendar"
+    },
+    {
+      "context_snippet": "A Ruby library for Zmanim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zmanim"
+    }
+  ]
+}

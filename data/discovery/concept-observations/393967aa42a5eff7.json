@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Moved to the main defuddle repo. Command line utility to extract clean html, markdown and metadata from web pages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [!IMPORTANT]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39932723,
+      "status": "candidate",
+      "text": "descent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39930864,
+      "status": "candidate",
+      "text": "origin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39921374,
+      "status": "candidate",
+      "text": "abstraction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29946318,
+      "status": "candidate",
+      "text": "extractive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29946175,
+      "status": "candidate",
+      "text": "extract"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "extraction",
+      "sense_id": "extraction#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18050,
+      "status": "candidate",
+      "text": "descent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14044,
+      "status": "candidate",
+      "text": "abstraction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "origin"
+    }
+  ],
+  "concept_id": "extraction",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "extraction",
+  "observation_id": "393967aa42a5eff7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-12T07:08:14.758954+00:00",
+  "observed_text": "extraction",
+  "source_context_snippet": "> [!IMPORTANT]",
+  "source_file": null,
+  "source_repo": "kepano/defuddle-cli",
+  "source_repo_description": "Moved to the main defuddle repo. Command line utility to extract clean html, markdown and metadata from web pages."
+}

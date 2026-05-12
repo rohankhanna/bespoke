@@ -1,0 +1,264 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "rust-lang/crates-io-auth-action@v1.0.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "g-plane/malva",
+      "target": "g-plane/raffia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "g-plane/malva",
+      "target": "g-plane/markup_fmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "g-plane/malva",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "g-plane/malva",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "g-plane/malva",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "g-plane/malva",
+      "target": "rust-lang/crates-io-auth-action@v1.0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "g-plane/malva",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "g-plane/malva",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/malva",
+      "target": "dprint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/malva",
+      "target": "dprint-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/malva",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/malva",
+      "target": "formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/malva",
+      "target": "less",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/malva",
+      "target": "prettier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/malva",
+      "target": "sass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/malva",
+      "target": "scss",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-12T07:37:27.988576+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2681
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 149
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 1966
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1914
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Configurable, smart and fast CSS, SCSS, Sass and Less formatter with dprint integration.",
+    "fork": false,
+    "full_name": "g-plane/malva",
+    "html_url": "https://github.com/g-plane/malva",
+    "language": "Rust",
+    "pushed_at": "2026-05-12T03:20:35Z",
+    "stargazers_count": 118,
+    "topics": [
+      "css",
+      "dprint",
+      "dprint-plugin",
+      "formatter",
+      "formatting",
+      "less",
+      "prettier",
+      "sass",
+      "scss"
+    ],
+    "updated_at": "2026-05-12T03:20:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "g-plane/markup_fmt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "g-plane/raffia",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83c\udf37 Malva</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dprint"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83c\udf37 Malva</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dprint-plugin"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83c\udf37 Malva</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83c\udf37 Malva</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatting"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83c\udf37 Malva</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "less"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83c\udf37 Malva</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prettier"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83c\udf37 Malva</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sass"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83c\udf37 Malva</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scss"
+    }
+  ]
+}

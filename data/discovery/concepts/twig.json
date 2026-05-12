@@ -31,6 +31,18 @@
       "source_repo": "djlint/djLint",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "g-plane/markup_fmt",
+      "status": "candidate-context",
+      "text": "Configurable HTML, Vue, Svelte, Astro, Angular, Jinja, Twig, Nunjucks, Vento, Mustache, Handlebars and XML formatter with dprint integration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-plane/markup_fmt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "djlint/djLint",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-plane/markup_fmt",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": null,
       "source_repo": "djlint/djLint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "g-plane/markup_fmt"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "mozilla-actions/sccache-action@v0.0.9",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -307,6 +307,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "prove-rs/z3.rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "2mawi2/schaltwerk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "2mawi2/schaltwerk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows-build-test.yml",
+      "source_repo": "2mawi2/schaltwerk"
     }
   ]
 }

@@ -1153,6 +1153,18 @@
       "source_repo": "apify/mcpc",
       "status": "candidate-context",
       "text": "![mcpc logo](https://apify.github.io/mcpc/client-logo.svg?v=2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vadimdemedes/pastel",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 Next.js-like framework for CLIs made with Ink"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vadimdemedes/pastel",
+      "status": "candidate-context",
+      "text": "pastel \u2014 Framework for effortlessly building Ink apps"
     }
   ],
   "candidate_glosses": [
@@ -1725,6 +1737,12 @@
       "source_repo": "apify/mcpc",
       "status": "candidate",
       "text": "![mcpc logo](https://apify.github.io/mcpc/client-logo.svg?v=2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vadimdemedes/pastel",
+      "status": "candidate",
+      "text": "pastel \u2014 Framework for effortlessly building Ink apps"
     }
   ],
   "candidate_related_terms": [
@@ -2904,11 +2922,23 @@
       "observed_at": "2026-05-12T00:37:36.884355+00:00",
       "source_file": null,
       "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "vadimdemedes/pastel"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

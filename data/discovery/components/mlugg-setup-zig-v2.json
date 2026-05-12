@@ -1,7 +1,7 @@
 {
   "component": "mlugg/setup-zig@v2",
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -137,6 +137,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "cordx56/rustowl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-native.yml",
+      "source_repo": "junhoyeo/tokscale"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-cli.yml",
+      "source_repo": "junhoyeo/tokscale"
     }
   ]
 }

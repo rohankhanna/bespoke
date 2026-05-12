@@ -17736,6 +17736,102 @@
       "source_repo": "apify/mcpc",
       "status": "candidate-context",
       "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-java/nvim-java",
+      "status": "candidate-context",
+      "text": "Painless Java in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-java/nvim-java",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "g-plane/malva",
+      "status": "candidate-context",
+      "text": "Configurable, smart and fast CSS, SCSS, Sass and Less formatter with dprint integration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-plane/malva",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "g-plane/markup_fmt",
+      "status": "candidate-context",
+      "text": "Configurable HTML, Vue, Svelte, Astro, Angular, Jinja, Twig, Nunjucks, Vento, Mustache, Handlebars and XML formatter with dprint integration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-plane/markup_fmt",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "UnknownPlatypus/markup_fmt",
+      "status": "candidate-context",
+      "text": "Configurable HTML/Vue/Svelte/Astro/Jinja/Twig/Nunjucks/Vento formatter, with dprint integration which behaves as dprint-plugin-html, dprint-plugin-vue, dprint-plugin-svelte and dprint-plugin-astro but all in one."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UnknownPlatypus/markup_fmt",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2mawi2/schaltwerk",
+      "status": "candidate-context",
+      "text": "The IDE without editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2mawi2/schaltwerk",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "4xian/claude-codex-api",
+      "status": "candidate-context",
+      "text": "ccapi - A management tool for quickly switching Claude Code and Codex configurations | \u4e00\u4e2aClaude Code \u548c Codex \u914d\u7f6e\u7ba1\u7406\u5de5\u5177\uff0c\u4e00\u952e\u5207\u6362\u591a\u4e2a\u4e2d\u8f6c\u7ad9API\u914d\u7f6e\uff1b\u4e00\u952e\u5207\u6362\u7cfb\u7edf\u73af\u5883\u53d8\u91cf\uff1b\u4e00\u952e\u6d4b\u8bd5API\u5ef6\u8fdf\uff1b\u4e00\u952e\u6d4b\u8bd5API\u6709\u6548\u6027\uff1b\u81ea\u52a8\u62e9\u4f18\u7ebf\u8def\u5207\u6362\u4e0e\u56fd\u9645\u5316\u652f\u6301\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4xian/claude-codex-api",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aannoo/hcom",
+      "status": "candidate-context",
+      "text": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Gemini CLI, Codex, OpenCode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aannoo/hcom",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EstebanForge/mcp-cli-ent",
+      "status": "candidate-context",
+      "text": "A context-guardian CLI for MCP servers. It provides access to MCP servers via CLI and returns clean, structured summaries to the AI agent. This prevents context window overflow and preserves the agent's reasoning capacity. Cross-platform, zero-dependency."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EstebanForge/mcp-cli-ent",
+      "status": "candidate-context",
+      "text": "Release"
     }
   ],
   "candidate_glosses": [
@@ -26718,6 +26814,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apify/mcpc",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-java/nvim-java",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-plane/malva",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-plane/markup_fmt",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UnknownPlatypus/markup_fmt",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2mawi2/schaltwerk",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4xian/claude-codex-api",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aannoo/hcom",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EstebanForge/mcp-cli-ent",
       "status": "candidate",
       "text": "Release"
     }
@@ -55970,11 +56114,305 @@
       "observed_at": "2026-05-12T00:37:36.884355+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sveltejs/devalue"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "emotion-js/emotion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "helidon-io/helidon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "vmware-archive/buildkit-cli-for-kubectl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "code-forge-io/open-source-stack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lite-xl/lite-xl-plugin-manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/SmashTable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nvim-tree/nvim-web-devicons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nvim-java/nvim-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bazeltools/bazel-deps"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "storybook-eol/addon-graphql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "storybook-community/addon-queryparams"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "NEAR-DevHub/neardevhub-contract"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apalache-mc/apalache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "wamp-proto/wamp-xbr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alloy-rs/svm-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dethcrypto/eth-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "TrueFiEng/Waffle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "shareAI-lab/Kode-Agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "joshsymonds/cc-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gastownhall/gastown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "rainbend/frp-notify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "g-plane/malva"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "g-plane/markup_fmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "UnknownPlatypus/markup_fmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "2mawi2/schaltwerk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "4xian/claude-codex-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aannoo/hcom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "EstebanForge/mcp-cli-ent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "littlefs-project/littlefs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "psmux/omp-manager"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -66,6 +66,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "kepano/obsidian-skills"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "junhoyeo/tokscale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "aannoo/hcom"
     }
   ],
   "term": "OpenCode"

@@ -1,335 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "hcom",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "Prompt: -",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "Open the TUI:",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "bash hcom",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "hcom start",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "hcom send",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "HCOM_DIR",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "hcom kill",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "hcom relay off --all",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "hcom relay",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "0600",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "config_get",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "config_set",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "relay_psk",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "relay_token",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "relay_id",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "hcom relay status",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "hcom relay new",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "hcom claude",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "hcom gemini",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "hcom codex",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "hcom opencode",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "hcom listen",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "For subagents, run",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "and can be addressed as",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "| |",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "| Where windows open:",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": ", \u2026 | |",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "| Initial user prompt | |",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": ", etc. ### Observe",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "### Drive",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "### Configure",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "### Sync across devices",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "config.toml",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "| Event subscription presets:",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": ") | |",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "| Relay config (see",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": ") | ### Scope",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "### Per-project isolation",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "Run",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "for the full per-key reference. Edit",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": ", API keys). Any non-",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "hcom run debate",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "hcom run fatcow",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "*.sh",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "*.py",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "aannoo/hcom",
-      "target": "hcom run docs --scripts",
-      "target_type": "term"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-wheels.yml",
       "source_repo": "aannoo/hcom",
@@ -463,13 +134,104 @@
       "target_type": "term"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/release.yml",
+      "edge_type": "repo-topic",
+      "source_file": null,
       "source_repo": "aannoo/hcom",
-      "target": "curl",
+      "target": "agent-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aannoo/hcom",
+      "target": "ai-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aannoo/hcom",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aannoo/hcom",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aannoo/hcom",
+      "target": "claude-code-hooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aannoo/hcom",
+      "target": "coding-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aannoo/hcom",
+      "target": "communication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aannoo/hcom",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aannoo/hcom",
+      "target": "gemini-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aannoo/hcom",
+      "target": "multi-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aannoo/hcom",
+      "target": "opencode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aannoo/hcom",
+      "target": "orchestration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aannoo/hcom",
+      "target": "subagents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aannoo/hcom",
+      "target": "terminal",
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-18T09:23:47.800515+00:00",
+  "generated_at": "2026-05-12T07:08:14.758954+00:00",
   "source_repo": "aannoo/hcom"
 }

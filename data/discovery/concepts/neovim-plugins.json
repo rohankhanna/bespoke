@@ -55,6 +55,18 @@
       "source_repo": "Civitasv/cmake-tools.nvim",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"./docs/images/demo.gif\"/></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-java/nvim-java",
+      "status": "candidate-context",
+      "text": "Painless Java in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-java/nvim-java",
+      "status": "candidate-context",
+      "text": "![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "Civitasv/cmake-tools.nvim",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"./docs/images/demo.gif\"/></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-java/nvim-java",
+      "status": "candidate",
+      "text": "![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)"
     }
   ],
   "candidate_related_terms": [],
@@ -268,11 +286,23 @@
       "observed_at": "2026-05-11T18:44:26.583561+00:00",
       "source_file": null,
       "source_repo": "nvim-tree/nvim-web-devicons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "nvim-tree/nvim-web-devicons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "nvim-java/nvim-java"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

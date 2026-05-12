@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-06T07:04:23.568635+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -306,6 +306,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/dependabot_auto_merge.yml",
       "source_repo": "Shopify/measured"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "2mawi2/schaltwerk"
     }
   ],
   "term": "Dependabot Auto Merge"

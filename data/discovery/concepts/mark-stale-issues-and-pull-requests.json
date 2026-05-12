@@ -2434,11 +2434,23 @@
       "observed_at": "2026-05-12T00:37:36.884355+00:00",
       "source_file": ".github/workflows/handle-stale.yml",
       "source_repo": "DevExpress/testcafe-reporter-nunit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "bazel-contrib/rules_kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "criteo/mesos-term"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

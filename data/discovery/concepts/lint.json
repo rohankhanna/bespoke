@@ -5999,6 +5999,18 @@
       "source_repo": "yoshoku/llama_cpp.rb",
       "status": "candidate-context",
       "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-java/nvim-java",
+      "status": "candidate-context",
+      "text": "Painless Java in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-java/nvim-java",
+      "status": "candidate-context",
+      "text": "Lint"
     }
   ],
   "candidate_glosses": [
@@ -9049,6 +9061,12 @@
       "source_repo": "yoshoku/llama_cpp.rb",
       "status": "candidate",
       "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-java/nvim-java",
+      "status": "candidate",
+      "text": "Lint"
     }
   ],
   "candidate_related_terms": [
@@ -19345,11 +19363,83 @@
       "observed_at": "2026-05-12T00:37:36.884355+00:00",
       "source_file": ".github/workflows/Lint.yml",
       "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "Vimjas/vint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nvim-java/nvim-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "etcd-io/bbolt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "erigontech/mdbx-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Uniswap/v3-periphery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "ColemanGariety/gulp-nodemon"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

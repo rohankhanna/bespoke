@@ -11,12 +11,12 @@
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "component": "github/codeql-action/init@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "component": "github/codeql-action/analyze@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
@@ -76,6 +76,11 @@
       "source_file": ".github/workflows/gradle-dependency-submission.yml"
     },
     {
+      "component": "gradle/actions/dependency-submission@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-dependency-submission.yml"
+    },
+    {
       "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/label-opened-issues.yml"
@@ -86,12 +91,17 @@
       "source_file": ".github/workflows/label-pull-request.yml"
     },
     {
+      "component": "dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock-resolved-issues.yml"
+    },
+    {
       "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "graalvm/setup-graalvm@60c26726de13f8b90771df4bc1641a52a3159994",
+      "component": "graalvm/setup-graalvm@bef4b0e916c7dd079bf60fb95d49139f67e32c5f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -129,36 +139,9 @@
       "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ossf-scorecard.yml"
-    },
-    {
-      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ossf-scorecard.yml"
-    },
-    {
-      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ossf-scorecard.yml"
-    },
-    {
-      "component": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ossf-scorecard.yml"
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "junit-team/junit-framework",
-      "target": "junit-team/junit-examples",
-      "target_type": "repository"
-    },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/close-inactive-issues.yml",
@@ -184,14 +167,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "junit-team/junit-framework",
-      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target": "github/codeql-action/init@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "junit-team/junit-framework",
-      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target": "github/codeql-action/analyze@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
       "target_type": "component"
     },
     {
@@ -301,6 +284,20 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock-resolved-issues.yml",
+      "source_repo": "junit-team/junit-framework",
+      "target": "dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock-resolved-issues.yml",
+      "source_repo": "junit-team/junit-framework",
+      "target": "Lock resolved issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "junit-team/junit-framework",
       "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
@@ -310,7 +307,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "junit-team/junit-framework",
-      "target": "graalvm/setup-graalvm@60c26726de13f8b90771df4bc1641a52a3159994",
+      "target": "graalvm/setup-graalvm@bef4b0e916c7dd079bf60fb95d49139f67e32c5f",
       "target_type": "component"
     },
     {
@@ -333,41 +330,6 @@
       "source_repo": "junit-team/junit-framework",
       "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ossf-scorecard.yml",
-      "source_repo": "junit-team/junit-framework",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ossf-scorecard.yml",
-      "source_repo": "junit-team/junit-framework",
-      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ossf-scorecard.yml",
-      "source_repo": "junit-team/junit-framework",
-      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ossf-scorecard.yml",
-      "source_repo": "junit-team/junit-framework",
-      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/ossf-scorecard.yml",
-      "source_repo": "junit-team/junit-framework",
-      "target": "OpenSSF Scorecard supply-chain security analysis",
-      "target_type": "term"
     },
     {
       "edge_type": "repo-topic",
@@ -426,7 +388,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T04:11:52.925413+00:00",
+  "fetched_at": "2026-05-12T07:22:13.893340+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -450,7 +412,7 @@
     },
     {
       "path": ".github/workflows/gradle-dependency-submission.yml",
-      "size": 855
+      "size": 1132
     },
     {
       "path": ".github/workflows/label-opened-issues.yml",
@@ -461,12 +423,12 @@
       "size": 1852
     },
     {
-      "path": ".github/workflows/main.yml",
-      "size": 4506
+      "path": ".github/workflows/lock-resolved-issues.yml",
+      "size": 452
     },
     {
-      "path": ".github/workflows/ossf-scorecard.yml",
-      "size": 2482
+      "path": ".github/workflows/main.yml",
+      "size": 4497
     }
   ],
   "related_repositories": [],
@@ -478,8 +440,8 @@
     "full_name": "junit-team/junit-framework",
     "html_url": "https://github.com/junit-team/junit-framework",
     "language": "Java",
-    "pushed_at": "2026-04-29T20:50:11Z",
-    "stargazers_count": 7006,
+    "pushed_at": "2026-05-12T00:23:37Z",
+    "stargazers_count": 7022,
     "topics": [
       "java",
       "junit",
@@ -490,15 +452,9 @@
       "kotlin-testing",
       "test-framework"
     ],
-    "updated_at": "2026-04-30T02:38:34Z"
+    "updated_at": "2026-05-10T02:53:52Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "junit-team/junit-examples",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Close inactive issues and PRs",
@@ -537,10 +493,10 @@
       "term": "Add label to opened issues"
     },
     {
-      "context_snippet": "OpenSSF Scorecard supply-chain security analysis",
+      "context_snippet": "Lock resolved issues",
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/ossf-scorecard.yml",
-      "term": "OpenSSF Scorecard supply-chain security analysis"
+      "source_file": ".github/workflows/lock-resolved-issues.yml",
+      "term": "Lock resolved issues"
     },
     {
       "context_snippet": "<h1>",

@@ -84,7 +84,7 @@
   "normalized_form": "conventional-release-labels",
   "observation_id": "124ee7d2ee6a5c2c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-11T18:44:26.583561+00:00",
+  "observed_at": "2026-05-12T07:08:14.758954+00:00",
   "observed_text": "Conventional Release Labels",
   "source_context_snippet": "Conventional Release Labels",
   "source_file": ".github/workflows/release-label.yml",

@@ -3,7 +3,8 @@
     "luarocks-release",
     "Luarocks Release",
     "LuaRocks release",
-    "Luarocks release"
+    "Luarocks release",
+    "LuaRocks Release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -70,6 +71,18 @@
       "source_repo": "mrcjkb/haskell-snippets.nvim",
       "status": "candidate-context",
       "text": "\"Luarocks release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-java/nvim-java",
+      "status": "candidate-context",
+      "text": "Painless Java in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-java/nvim-java",
+      "status": "candidate-context",
+      "text": "LuaRocks Release"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +115,12 @@
       "source_repo": "mrcjkb/haskell-snippets.nvim",
       "status": "candidate",
       "text": "\"Luarocks release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-java/nvim-java",
+      "status": "candidate",
+      "text": "LuaRocks Release"
     }
   ],
   "candidate_related_terms": [
@@ -193,11 +212,17 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "mrcjkb/haskell-snippets.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/luarocks-release.yml",
+      "source_repo": "nvim-java/nvim-java"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

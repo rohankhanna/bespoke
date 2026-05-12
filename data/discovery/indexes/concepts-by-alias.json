@@ -2937,6 +2937,9 @@
   "amoshydra-profile-category-web-app": [
     "amoshydra-profile-category-web-app"
   ],
+  "ampcode": [
+    "ampcode"
+  ],
   "amqp": [
     "amqp"
   ],
@@ -5144,6 +5147,9 @@
   ],
   "astro-purgecss": [
     "astro-purgecss"
+  ],
+  "astronomical-algorithms": [
+    "astronomical-algorithms"
   ],
   "astronomy": [
     "astronomy"
@@ -12682,6 +12688,9 @@
   "build native": [
     "build-native"
   ],
+  "build native (test only)": [
+    "build-native-test-only"
+  ],
   "build native cli archives": [
     "build-native-cli-archives"
   ],
@@ -15677,6 +15686,9 @@
   "ccache": [
     "ccache"
   ],
+  "ccapi": [
+    "ccapi"
+  ],
   "ccid": [
     "ccid"
   ],
@@ -17494,6 +17506,9 @@
   ],
   "check task absolute paths": [
     "check-task-absolute-paths"
+  ],
+  "check tauri version sync": [
+    "check-tauri-version-sync"
   ],
   "check template bare minimum diffs": [
     "check-template-bare-minimum-diffs"
@@ -27677,6 +27692,9 @@
   "date": [
     "date"
   ],
+  "date-conversion": [
+    "date-conversion"
+  ],
   "date-fns": [
     "date-fns"
   ],
@@ -32468,6 +32486,9 @@
   "dprint": [
     "dprint"
   ],
+  "dprint-plugin": [
+    "dprint-plugin"
+  ],
   "dpsr": [
     "dpsr"
   ],
@@ -32611,6 +32632,9 @@
   ],
   "driving": [
     "driving"
+  ],
+  "droid": [
+    "droid"
   ],
   "droid deploy truss": [
     "droid-deploy-truss"
@@ -51027,6 +51051,9 @@
   "launcher": [
     "launcher"
   ],
+  "launcher validation": [
+    "launcher-validation"
+  ],
   "launchpad ppa": [
     "launchpad-ppa"
   ],
@@ -53398,6 +53425,9 @@
   ],
   "lock pr conversation on close": [
     "lock-pr-conversation-on-close"
+  ],
+  "lock resolved issues": [
+    "lock-resolved-issues"
   ],
   "lock stale prs and issues": [
     "lock-stale-prs-and-issues"
@@ -58891,6 +58921,9 @@
   "multiplatform": [
     "multiplatform"
   ],
+  "multiplatform-kotlin-library": [
+    "multiplatform-kotlin-library"
+  ],
   "multiplayer": [
     "multiplayer"
   ],
@@ -63426,6 +63459,9 @@
   "opentsdb": [
     "opentsdb"
   ],
+  "opentui": [
+    "opentui"
+  ],
   "opentype": [
     "opentype"
   ],
@@ -67010,6 +67046,9 @@
   ],
   "post the tidy analysis results": [
     "post-the-tidy-analysis-results"
+  ],
+  "post-announce: add compare link": [
+    "post-announce-add-compare-link"
   ],
   "post-build-raw": [
     "post-build-raw"
@@ -77939,6 +77978,9 @@
   ],
   "runner updates check (scheduled job)": [
     "runner-updates-check-scheduled-job"
+  ],
+  "running": [
+    "running"
   ],
   "runpester": [
     "runpester"
@@ -94397,6 +94439,9 @@
   "vendor tests": [
     "vendor-tests"
   ],
+  "vento": [
+    "vento"
+  ],
   "venv": [
     "venv"
   ],
@@ -95029,6 +95074,9 @@
   ],
   "vim": [
     "vim"
+  ],
+  "vim doc": [
+    "vim-doc"
   ],
   "vim help tag name check": [
     "vim-help-tag-name-check"
@@ -97772,6 +97820,9 @@
   ],
   "windows specific commands": [
     "windows-specific-commands"
+  ],
+  "windows test": [
+    "windows-test"
   ],
   "windows test idaes-pse main": [
     "windows-test-idaes-pse-main"

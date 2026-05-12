@@ -1,12 +1,17 @@
 {
   "component": "emibcn/badge-action@v2.0.4",
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "emibcn/badge-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_coverage.yml",
+      "source_repo": "junhoyeo/tokscale"
     }
   ]
 }

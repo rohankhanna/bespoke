@@ -1,0 +1,12 @@
+{
+  "component": "graalvm/setup-graalvm@bef4b0e916c7dd079bf60fb95d49139f67e32c5f",
+  "first_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "junit-team/junit-framework"
+    }
+  ]
+}

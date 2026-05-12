@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/init@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
   "first_seen_at": "2026-05-08T06:44:29.884715+00:00",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "mui/material-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "junit-team/junit-framework"
     }
   ]
 }

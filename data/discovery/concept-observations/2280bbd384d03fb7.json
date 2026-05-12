@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2705 The programmer-friendly testing framework for Java and the JVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Lock resolved issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Lock resolved issues"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18002,
+      "status": "candidate",
+      "text": "closure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18002,
+      "status": "candidate",
+      "text": "tackle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17964,
+      "status": "candidate",
+      "text": "combination lock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17946,
+      "status": "candidate",
+      "text": "definitive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17946,
+      "status": "candidate",
+      "text": "determine"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lock resolved issues",
+      "sense_id": "lock-resolved-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lock-resolved-issues",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lock-resolved-issues",
+  "observation_id": "2280bbd384d03fb7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-12T07:08:14.758954+00:00",
+  "observed_text": "Lock resolved issues",
+  "source_context_snippet": "Lock resolved issues",
+  "source_file": ".github/workflows/lock-resolved-issues.yml",
+  "source_repo": "junit-team/junit-framework",
+  "source_repo_description": "\u2705 The programmer-friendly testing framework for Java and the JVM"
+}

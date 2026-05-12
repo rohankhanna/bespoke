@@ -511,6 +511,18 @@
       "source_repo": "langchain-ai/langchain",
       "status": "candidate-context",
       "text": "The agent engineering platform."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adhikasp/mcp-client-cli",
+      "status": "candidate-context",
+      "text": "A simple CLI to run LLM prompt and implement MCP client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adhikasp/mcp-client-cli",
+      "status": "candidate-context",
+      "text": "A simple CLI program to run LLM prompt and implement [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) client."
     }
   ],
   "candidate_glosses": [
@@ -759,6 +771,12 @@
       "source_repo": "dmayboroda/minima",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adhikasp/mcp-client-cli",
+      "status": "candidate",
+      "text": "A simple CLI program to run LLM prompt and implement [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) client."
     }
   ],
   "candidate_related_terms": [],
@@ -2080,11 +2098,29 @@
       "observed_at": "2026-05-12T00:37:36.884355+00:00",
       "source_file": null,
       "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "adhikasp/mcp-client-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

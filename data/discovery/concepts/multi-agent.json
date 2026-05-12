@@ -325,6 +325,18 @@
       "source_repo": "AutoJunjie/awesome-agent-harness",
       "status": "candidate-context",
       "text": "> A curated list of tools, frameworks, and resources for **agent harness engineering** \u2014 the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aannoo/hcom",
+      "status": "candidate-context",
+      "text": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Gemini CLI, Codex, OpenCode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aannoo/hcom",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/aannoo/hcom/actions/workflows/ci.yml/badge.svg)](https://github.com/aannoo/hcom/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -483,6 +495,12 @@
       "source_repo": "AutoJunjie/awesome-agent-harness",
       "status": "candidate",
       "text": "> A curated list of tools, frameworks, and resources for **agent harness engineering** \u2014 the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aannoo/hcom",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/aannoo/hcom/actions/workflows/ci.yml/badge.svg)](https://github.com/aannoo/hcom/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -1372,11 +1390,17 @@
       "observed_at": "2026-05-12T00:37:36.884355+00:00",
       "source_file": null,
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "aannoo/hcom"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

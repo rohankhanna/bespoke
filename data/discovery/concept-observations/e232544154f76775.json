@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Configurable, smart and fast CSS, SCSS, Sass and Less formatter with dprint integration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">\ud83c\udf37 Malva</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">\ud83c\udf37 Malva</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014313,
+      "status": "candidate",
+      "text": "csc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014272,
+      "status": "candidate",
+      "text": "tps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014213,
+      "status": "candidate",
+      "text": "usda"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012373,
+      "status": "candidate",
+      "text": "stc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10006122,
+      "status": "candidate",
+      "text": "sns"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scss",
+      "sense_id": "scss#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "scss",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scss",
+  "observation_id": "e232544154f76775",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-12T07:08:14.758954+00:00",
+  "observed_text": "scss",
+  "source_context_snippet": "<h1 align=\"center\">\ud83c\udf37 Malva</h1>",
+  "source_file": null,
+  "source_repo": "g-plane/malva",
+  "source_repo_description": "Configurable, smart and fast CSS, SCSS, Sass and Less formatter with dprint integration."
+}

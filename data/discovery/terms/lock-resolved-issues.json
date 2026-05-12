@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lock-resolved-issues.yml",
+      "source_repo": "junit-team/junit-framework"
+    }
+  ],
+  "term": "Lock resolved issues"
+}

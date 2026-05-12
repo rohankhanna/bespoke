@@ -91,6 +91,18 @@
       "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
       "status": "candidate-context",
       "text": "<kbd><img src=\"images/clocks.png\" /></kbd>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sternbach-Software/KosherKotlin",
+      "status": "candidate-context",
+      "text": "KosherJava Zmanim API / Library port to Kotlin. KosherJava is a library for calculating astronomical and religious dates and times based on location."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sternbach-Software/KosherKotlin",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary",
       "status": "candidate",
       "text": "<kbd><img src=\"images/clocks.png\" /></kbd>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sternbach-Software/KosherKotlin",
+      "status": "candidate",
+      "text": "\"CodeQL\""
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +238,17 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "bokkypoobah/BokkyPooBahsDateTimeLibrary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "Sternbach-Software/KosherKotlin"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

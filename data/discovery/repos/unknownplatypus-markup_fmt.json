@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "rust-lang/crates-io-auth-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UnknownPlatypus/markup_fmt",
+      "target": "dprint/dprint-plugin-typescript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UnknownPlatypus/markup_fmt",
+      "target": "g-plane/pretty_jinja",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UnknownPlatypus/markup_fmt",
+      "target": "withastro/prettier-plugin-astro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "UnknownPlatypus/markup_fmt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "UnknownPlatypus/markup_fmt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "UnknownPlatypus/markup_fmt",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "UnknownPlatypus/markup_fmt",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "UnknownPlatypus/markup_fmt",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "UnknownPlatypus/markup_fmt",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-12T07:37:39.829951+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3735
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 263
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 429
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1271
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "django/baseline",
+    "description": "Configurable HTML/Vue/Svelte/Astro/Jinja/Twig/Nunjucks/Vento formatter, with dprint integration which behaves as dprint-plugin-html, dprint-plugin-vue, dprint-plugin-svelte and dprint-plugin-astro but all in one.",
+    "fork": true,
+    "full_name": "UnknownPlatypus/markup_fmt",
+    "html_url": "https://github.com/UnknownPlatypus/markup_fmt",
+    "language": "Rust",
+    "pushed_at": "2026-05-04T21:44:15Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-05-04T21:44:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dprint/dprint-plugin-typescript",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "g-plane/pretty_jinja",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "withastro/prettier-plugin-astro",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

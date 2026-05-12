@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "multiplatform-kotlin-library"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sternbach-Software/KosherKotlin",
+      "status": "candidate-context",
+      "text": "KosherJava Zmanim API / Library port to Kotlin. KosherJava is a library for calculating astronomical and religious dates and times based on location."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sternbach-Software/KosherKotlin",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sternbach-Software/KosherKotlin",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "multiplatform-kotlin-library",
+  "concept_id": "multiplatform-kotlin-library",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "Sternbach-Software/KosherKotlin"
+    }
+  ],
+  "first_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multiplatform-kotlin-library",
+      "sense_id": "multiplatform-kotlin-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

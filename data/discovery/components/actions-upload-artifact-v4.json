@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12632,6 +12632,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/bench.yml.disabled",
       "source_repo": "jeffzhou2000/ggml-hexagon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nafg/jewish-date"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EstebanForge/mcp-cli-ent"
     }
   ]
 }

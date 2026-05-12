@@ -363,7 +363,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T20:57:55.189599+00:00",
+  "fetched_at": "2026-05-12T07:21:22.543691+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -408,7 +408,7 @@
     "html_url": "https://github.com/lumen-oss/rocks.nvim",
     "language": "Lua",
     "pushed_at": "2026-05-03T14:37:58Z",
-    "stargazers_count": 1029,
+    "stargazers_count": 1030,
     "topics": [
       "lua",
       "luarocks",
@@ -419,7 +419,7 @@
       "plugin",
       "plugin-manager"
     ],
-    "updated_at": "2026-05-08T02:57:37Z"
+    "updated_at": "2026-05-12T01:15:20Z"
   },
   "repo_links": [
     {

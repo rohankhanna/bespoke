@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "UnknownPlatypus/djangofmt-pre-commit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "UnknownPlatypus/djangofmt-pre-commit",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "UnknownPlatypus/djangofmt-pre-commit",
+      "target": "main",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-12T07:37:37.657048+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 471
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 100
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 526
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A pre-commit hook for djangofmt",
+    "fork": false,
+    "full_name": "UnknownPlatypus/djangofmt-pre-commit",
+    "html_url": "https://github.com/UnknownPlatypus/djangofmt-pre-commit",
+    "language": "Python",
+    "pushed_at": "2026-04-19T08:01:25Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-19T08:01:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    }
+  ]
+}

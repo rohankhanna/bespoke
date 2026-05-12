@@ -19,6 +19,18 @@
       "source_repo": "kepano/obsidian-skills",
       "status": "candidate-context",
       "text": "Agent Skills for use with Obsidian."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kepano/defuddle-cli",
+      "status": "candidate-context",
+      "text": "Moved to the main defuddle repo. Command line utility to extract clean html, markdown and metadata from web pages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/defuddle-cli",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "kepano/obsidian-skills",
       "status": "candidate",
       "text": "Agent Skills for use with Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/defuddle-cli",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-11T18:44:26.583561+00:00",
       "source_file": null,
       "source_repo": "kepano/obsidian-skills"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "kepano/defuddle-cli"
     }
   ],
   "first_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

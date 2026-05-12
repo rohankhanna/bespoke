@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Windows Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2mawi2/schaltwerk",
+      "status": "candidate-context",
+      "text": "The IDE without editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2mawi2/schaltwerk",
+      "status": "candidate-context",
+      "text": "Windows Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2mawi2/schaltwerk",
+      "status": "candidate",
+      "text": "Windows Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11914,
+      "status": "candidate",
+      "text": "screen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11789,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11789,
+      "status": "candidate",
+      "text": "job"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11789,
+      "status": "candidate",
+      "text": "monitor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11778,
+      "status": "candidate",
+      "text": "van"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Windows Test",
+  "concept_id": "windows-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/windows-build-test.yml",
+      "source_repo": "2mawi2/schaltwerk"
+    }
+  ],
+  "first_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Windows Test",
+      "sense_id": "windows-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

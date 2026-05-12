@@ -48,7 +48,7 @@
   "normalized_form": "dependabot-automerge",
   "observation_id": "a91c302fb97573c2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-11T18:44:26.583561+00:00",
+  "observed_at": "2026-05-12T07:08:14.758954+00:00",
   "observed_text": "Dependabot automerge",
   "source_context_snippet": "Dependabot automerge",
   "source_file": ".github/workflows/automerge-dependabot.yml",

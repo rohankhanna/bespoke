@@ -120,7 +120,7 @@
   "normalized_form": "publish",
   "observation_id": "0ba9996d1b557dc1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-11T18:44:26.583561+00:00",
+  "observed_at": "2026-05-12T07:08:14.758954+00:00",
   "observed_text": "Publish",
   "source_context_snippet": "Publish",
   "source_file": ".github/workflows/publish.yml",

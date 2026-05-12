@@ -931,6 +931,30 @@
       "source_repo": "UnknownPlatypus/djangofmt",
       "status": "candidate-context",
       "text": "[![Pypi Version](https://img.shields.io/pypi/v/djangofmt.svg)](https://pypi.python.org/djangofmt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "g-plane/markup_fmt",
+      "status": "candidate-context",
+      "text": "Configurable HTML, Vue, Svelte, Astro, Angular, Jinja, Twig, Nunjucks, Vento, Mustache, Handlebars and XML formatter with dprint integration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-plane/markup_fmt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kepano/defuddle-cli",
+      "status": "candidate-context",
+      "text": "Moved to the main defuddle repo. Command line utility to extract clean html, markdown and metadata from web pages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/defuddle-cli",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -1395,6 +1419,18 @@
       "source_repo": "UnknownPlatypus/djangofmt",
       "status": "candidate",
       "text": "[![Pypi Version](https://img.shields.io/pypi/v/djangofmt.svg)](https://pypi.python.org/djangofmt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-plane/markup_fmt",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/defuddle-cli",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [
@@ -3276,11 +3312,35 @@
       "observed_at": "2026-05-12T00:37:36.884355+00:00",
       "source_file": null,
       "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "g-plane/markup_fmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "kepano/defuddle-cli"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

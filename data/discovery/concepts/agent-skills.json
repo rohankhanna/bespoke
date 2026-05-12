@@ -265,6 +265,18 @@
       "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
       "status": "candidate-context",
       "text": "**20 skills. 17 commands. Rank in search. Get cited by AI.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aannoo/hcom",
+      "status": "candidate-context",
+      "text": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Gemini CLI, Codex, OpenCode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aannoo/hcom",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/aannoo/hcom/actions/workflows/ci.yml/badge.svg)](https://github.com/aannoo/hcom/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -393,6 +405,12 @@
       "source_repo": "aaron-he-zhu/seo-geo-claude-skills",
       "status": "candidate",
       "text": "**20 skills. 17 commands. Rank in search. Get cited by AI.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aannoo/hcom",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/aannoo/hcom/actions/workflows/ci.yml/badge.svg)](https://github.com/aannoo/hcom/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -772,11 +790,17 @@
       "observed_at": "2026-05-12T00:37:36.884355+00:00",
       "source_file": null,
       "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "aannoo/hcom"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

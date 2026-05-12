@@ -229,6 +229,18 @@
       "source_repo": "apify/mcpc",
       "status": "candidate-context",
       "text": "![mcpc logo](https://apify.github.io/mcpc/client-logo.svg?v=2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adhikasp/mcp-client-cli",
+      "status": "candidate-context",
+      "text": "A simple CLI to run LLM prompt and implement MCP client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adhikasp/mcp-client-cli",
+      "status": "candidate-context",
+      "text": "A simple CLI program to run LLM prompt and implement [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) client."
     }
   ],
   "candidate_glosses": [
@@ -339,6 +351,12 @@
       "source_repo": "apify/mcpc",
       "status": "candidate",
       "text": "![mcpc logo](https://apify.github.io/mcpc/client-logo.svg?v=2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adhikasp/mcp-client-cli",
+      "status": "candidate",
+      "text": "A simple CLI program to run LLM prompt and implement [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) client."
     }
   ],
   "candidate_related_terms": [],
@@ -730,11 +748,17 @@
       "observed_at": "2026-05-12T00:37:36.884355+00:00",
       "source_file": null,
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "adhikasp/mcp-client-cli"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

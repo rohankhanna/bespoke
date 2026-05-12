@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ASLP-lab/Hum-Dial",
+      "target": "daniellin94144/full-duplex-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ASLP-lab/Hum-Dial",
+      "target": "aslp-lab/easy-turn",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-12T07:08:14.758954+00:00",
+  "source_repo": "ASLP-lab/Hum-Dial"
+}

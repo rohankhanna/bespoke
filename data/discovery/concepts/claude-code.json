@@ -1960,6 +1960,42 @@
       "source_repo": "agenticnotetaking/arscontexta",
       "status": "candidate-context",
       "text": "**A second brain for your agent.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junhoyeo/tokscale",
+      "status": "candidate-context",
+      "text": "\ud83d\udef0\ufe0f A CLI tool for tracking token usage from OpenCode, Claude Code, \ud83e\udd9eOpenClaw (Clawdbot/Moltbot), Pi, Codex, Gemini, Cursor, AmpCode, Factory Droid, Kimi, and more! \u2022 \ud83c\udfc5Global Leaderboard + 2D/3D Contributions Graph"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junhoyeo/tokscale",
+      "status": "candidate-context",
+      "text": "<!-- <CENTERED SECTION FOR GITHUB DISPLAY> -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "4xian/claude-codex-api",
+      "status": "candidate-context",
+      "text": "ccapi - A management tool for quickly switching Claude Code and Codex configurations | \u4e00\u4e2aClaude Code \u548c Codex \u914d\u7f6e\u7ba1\u7406\u5de5\u5177\uff0c\u4e00\u952e\u5207\u6362\u591a\u4e2a\u4e2d\u8f6c\u7ad9API\u914d\u7f6e\uff1b\u4e00\u952e\u5207\u6362\u7cfb\u7edf\u73af\u5883\u53d8\u91cf\uff1b\u4e00\u952e\u6d4b\u8bd5API\u5ef6\u8fdf\uff1b\u4e00\u952e\u6d4b\u8bd5API\u6709\u6548\u6027\uff1b\u81ea\u52a8\u62e9\u4f18\u7ebf\u8def\u5207\u6362\u4e0e\u56fd\u9645\u5316\u652f\u6301\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4xian/claude-codex-api",
+      "status": "candidate-context",
+      "text": "[English](./README_EN.md) | \u4e2d\u6587 | [Codex\u6587\u6863](./CODEX_README.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aannoo/hcom",
+      "status": "candidate-context",
+      "text": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Gemini CLI, Codex, OpenCode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aannoo/hcom",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/aannoo/hcom/actions/workflows/ci.yml/badge.svg)](https://github.com/aannoo/hcom/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -2946,6 +2982,24 @@
       "source_repo": "agenticnotetaking/arscontexta",
       "status": "candidate",
       "text": "**A second brain for your agent.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junhoyeo/tokscale",
+      "status": "candidate",
+      "text": "<!-- <CENTERED SECTION FOR GITHUB DISPLAY> -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4xian/claude-codex-api",
+      "status": "candidate",
+      "text": "[English](./README_EN.md) | \u4e2d\u6587 | [Codex\u6587\u6863](./CODEX_README.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aannoo/hcom",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/aannoo/hcom/actions/workflows/ci.yml/badge.svg)](https://github.com/aannoo/hcom/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -6823,11 +6877,65 @@
       "observed_at": "2026-05-12T00:37:36.884355+00:00",
       "source_file": null,
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "junhoyeo/tokscale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "4xian/claude-codex-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "aannoo/hcom"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

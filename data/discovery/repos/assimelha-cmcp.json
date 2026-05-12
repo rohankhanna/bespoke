@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-12T07:38:49.125514+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8563
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1247
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code Mode MCP \u2014 aggregate all your MCP servers behind search() + execute()",
+    "fork": false,
+    "full_name": "assimelha/cmcp",
+    "html_url": "https://github.com/assimelha/cmcp",
+    "language": "Rust",
+    "pushed_at": "2026-02-26T11:07:51Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2026-03-14T09:20:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

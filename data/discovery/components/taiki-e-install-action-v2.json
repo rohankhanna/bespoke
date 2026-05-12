@@ -1,7 +1,7 @@
 {
   "component": "taiki-e/install-action@v2",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -782,6 +782,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "near/cargo-near"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-native.yml",
+      "source_repo": "junhoyeo/tokscale"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-cli.yml",
+      "source_repo": "junhoyeo/tokscale"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows-build-test.yml",
+      "source_repo": "2mawi2/schaltwerk"
     }
   ]
 }

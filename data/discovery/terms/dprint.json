@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/dprint.yml",
       "source_repo": "wincent/command-t"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/malva"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/markup_fmt"
     }
   ],
   "term": "dprint"

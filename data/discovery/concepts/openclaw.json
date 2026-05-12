@@ -289,6 +289,18 @@
       "source_repo": "kepano/obsidian-skills",
       "status": "candidate-context",
       "text": "Agent Skills for use with Obsidian."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junhoyeo/tokscale",
+      "status": "candidate-context",
+      "text": "\ud83d\udef0\ufe0f A CLI tool for tracking token usage from OpenCode, Claude Code, \ud83e\udd9eOpenClaw (Clawdbot/Moltbot), Pi, Codex, Gemini, Cursor, AmpCode, Factory Droid, Kimi, and more! \u2022 \ud83c\udfc5Global Leaderboard + 2D/3D Contributions Graph"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junhoyeo/tokscale",
+      "status": "candidate-context",
+      "text": "<!-- <CENTERED SECTION FOR GITHUB DISPLAY> -->"
     }
   ],
   "candidate_glosses": [
@@ -429,6 +441,12 @@
       "source_repo": "kepano/obsidian-skills",
       "status": "candidate",
       "text": "Agent Skills for use with Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junhoyeo/tokscale",
+      "status": "candidate",
+      "text": "<!-- <CENTERED SECTION FOR GITHUB DISPLAY> -->"
     }
   ],
   "candidate_related_terms": [],
@@ -826,11 +844,17 @@
       "observed_at": "2026-05-12T00:37:36.884355+00:00",
       "source_file": null,
       "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "junhoyeo/tokscale"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

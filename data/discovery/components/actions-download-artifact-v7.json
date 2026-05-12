@@ -1,7 +1,7 @@
 {
   "component": "actions/download-artifact@v7",
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -717,6 +717,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pre-release.yml",
       "source_repo": "BloopAI/vibe-kanban"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "2mawi2/schaltwerk"
     }
   ]
 }

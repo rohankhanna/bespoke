@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -2676,6 +2676,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/rubocop.yml",
       "source_repo": "yoshoku/llama_cpp.rb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nvim-java/nvim-java"
     }
   ],
   "term": "lint"

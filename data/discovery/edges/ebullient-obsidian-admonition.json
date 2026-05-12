@@ -88,13 +88,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "ebullient/obsidian-admonition",
-      "target": "@types/object.fromentries",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ebullient/obsidian-admonition",
       "target": "@typescript-eslint/parser",
       "target_type": "component"
     },
@@ -103,20 +96,6 @@
       "source_file": "package.json",
       "source_repo": "ebullient/obsidian-admonition",
       "target": "auto-changelog",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ebullient/obsidian-admonition",
-      "target": "builtin-modules",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ebullient/obsidian-admonition",
-      "target": "dotenv",
       "target_type": "component"
     },
     {
@@ -152,13 +131,6 @@
       "source_file": "package.json",
       "source_repo": "ebullient/obsidian-admonition",
       "target": "monkey-around",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "ebullient/obsidian-admonition",
-      "target": "object.fromentries",
       "target_type": "component"
     },
     {
@@ -239,6 +211,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-11T18:44:26.583561+00:00",
+  "generated_at": "2026-05-12T07:08:14.758954+00:00",
   "source_repo": "ebullient/obsidian-admonition"
 }

@@ -19,12 +19,30 @@
       "source_repo": "resemble-ai/chatterbox",
       "status": "candidate-context",
       "text": "Test Installation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adhikasp/mcp-client-cli",
+      "status": "candidate-context",
+      "text": "A simple CLI to run LLM prompt and implement MCP client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adhikasp/mcp-client-cli",
+      "status": "candidate-context",
+      "text": "Test Installation"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "resemble-ai/chatterbox",
+      "status": "candidate",
+      "text": "Test Installation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adhikasp/mcp-client-cli",
       "status": "candidate",
       "text": "Test Installation"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/install_check.yml",
       "source_repo": "resemble-ai/chatterbox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "adhikasp/mcp-client-cli"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

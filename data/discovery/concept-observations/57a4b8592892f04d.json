@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Configurable HTML, Vue, Svelte, Astro, Angular, Jinja, Twig, Nunjucks, Vento, Mustache, Handlebars and XML formatter with dprint integration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8516392,
+      "status": "candidate",
+      "text": "ventola"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8516391,
+      "status": "candidate",
+      "text": "ventrella"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8516390,
+      "status": "candidate",
+      "text": "vettese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8516389,
+      "status": "candidate",
+      "text": "wind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8516388,
+      "status": "candidate",
+      "text": "votta"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vento",
+      "sense_id": "vento#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vento",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vento",
+  "observation_id": "57a4b8592892f04d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-12T07:08:14.758954+00:00",
+  "observed_text": "vento",
+  "source_context_snippet": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>",
+  "source_file": null,
+  "source_repo": "g-plane/markup_fmt",
+  "source_repo_description": "Configurable HTML, Vue, Svelte, Astro, Angular, Jinja, Twig, Nunjucks, Vento, Mustache, Handlebars and XML formatter with dprint integration."
+}

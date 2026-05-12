@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ccapi - A management tool for quickly switching Claude Code and Codex configurations | \u4e00\u4e2aClaude Code \u548c Codex \u914d\u7f6e\u7ba1\u7406\u5de5\u5177\uff0c\u4e00\u952e\u5207\u6362\u591a\u4e2a\u4e2d\u8f6c\u7ad9API\u914d\u7f6e\uff1b\u4e00\u952e\u5207\u6362\u7cfb\u7edf\u73af\u5883\u53d8\u91cf\uff1b\u4e00\u952e\u6d4b\u8bd5API\u5ef6\u8fdf\uff1b\u4e00\u952e\u6d4b\u8bd5API\u6709\u6548\u6027\uff1b\u81ea\u52a8\u62e9\u4f18\u7ebf\u8def\u5207\u6362\u4e0e\u56fd\u9645\u5316\u652f\u6301\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045979,
+      "status": "candidate",
+      "text": "loose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045869,
+      "status": "candidate",
+      "text": "liberate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045867,
+      "status": "candidate",
+      "text": "liberation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045747,
+      "status": "candidate",
+      "text": "unloose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045127,
+      "status": "candidate",
+      "text": "expel"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release",
+      "sense_id": "release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45066,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43034,
+      "status": "candidate",
+      "text": "relinquish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40071,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37073,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22035,
+      "status": "candidate",
+      "text": "liberation"
+    }
+  ],
+  "concept_id": "release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release",
+  "observation_id": "35b0b0991f2c5eaa",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-12T07:08:14.758954+00:00",
+  "observed_text": "Release",
+  "source_context_snippet": "Release",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "4xian/claude-codex-api",
+  "source_repo_description": "ccapi - A management tool for quickly switching Claude Code and Codex configurations | \u4e00\u4e2aClaude Code \u548c Codex \u914d\u7f6e\u7ba1\u7406\u5de5\u5177\uff0c\u4e00\u952e\u5207\u6362\u591a\u4e2a\u4e2d\u8f6c\u7ad9API\u914d\u7f6e\uff1b\u4e00\u952e\u5207\u6362\u7cfb\u7edf\u73af\u5883\u53d8\u91cf\uff1b\u4e00\u952e\u6d4b\u8bd5API\u5ef6\u8fdf\uff1b\u4e00\u952e\u6d4b\u8bd5API\u6709\u6548\u6027\uff1b\u81ea\u52a8\u62e9\u4f18\u7ebf\u8def\u5207\u6362\u4e0e\u56fd\u9645\u5316\u652f\u6301\u3002"
+}

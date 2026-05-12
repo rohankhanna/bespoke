@@ -4,21 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-legal-investigative-plugin",
+      "target": "danielrosehill/claude-linux-av-manager-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-knowledge-documentation-plugin",
+      "target": "danielrosehill/claude-linux-system-optimisation-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-license-populator-plugin",
+      "target": "danielrosehill/claude-llm-council-creator-plugin",
       "target_type": "repository"
     },
     {
@@ -57,6 +57,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-11T18:44:26.583561+00:00",
+  "generated_at": "2026-05-12T07:08:14.758954+00:00",
   "source_repo": "danielrosehill/Claude-Code-Projects-Index"
 }

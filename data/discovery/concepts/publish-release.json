@@ -411,6 +411,18 @@
       "source_repo": "CanHub/Android-Image-Cropper",
       "status": "candidate-context",
       "text": "Publish Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2mawi2/schaltwerk",
+      "status": "candidate-context",
+      "text": "The IDE without editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2mawi2/schaltwerk",
+      "status": "candidate-context",
+      "text": "Publish Release"
     }
   ],
   "candidate_glosses": [
@@ -615,6 +627,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "CanHub/Android-Image-Cropper",
+      "status": "candidate",
+      "text": "Publish Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2mawi2/schaltwerk",
       "status": "candidate",
       "text": "Publish Release"
     }
@@ -1134,11 +1152,17 @@
       "observed_at": "2026-05-12T00:37:36.884355+00:00",
       "source_file": ".github/workflows/publish_release.yml",
       "source_repo": "swiftlang/swift-syntax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "2mawi2/schaltwerk"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

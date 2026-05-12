@@ -1,7 +1,7 @@
 {
   "component": "rui314/setup-mold@v1",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -127,6 +127,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/single-app.yaml",
       "source_repo": "tw93/Pake"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "xazukx/ts-rs"
     }
   ]
 }

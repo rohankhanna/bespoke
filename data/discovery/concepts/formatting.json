@@ -412,6 +412,30 @@
       "source_repo": "petercorke/ansitable",
       "status": "candidate-context",
       "text": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "g-plane/malva",
+      "status": "candidate-context",
+      "text": "Configurable, smart and fast CSS, SCSS, Sass and Less formatter with dprint integration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-plane/malva",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">\ud83c\udf37 Malva</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "g-plane/markup_fmt",
+      "status": "candidate-context",
+      "text": "Configurable HTML, Vue, Svelte, Astro, Angular, Jinja, Twig, Nunjucks, Vento, Mustache, Handlebars and XML formatter with dprint integration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-plane/markup_fmt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>"
     }
   ],
   "candidate_glosses": [
@@ -618,6 +642,18 @@
       "source_repo": "petercorke/ansitable",
       "status": "candidate",
       "text": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-plane/malva",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">\ud83c\udf37 Malva</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-plane/markup_fmt",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>"
     }
   ],
   "candidate_related_terms": [
@@ -1379,11 +1415,23 @@
       "observed_at": "2026-05-12T00:37:36.884355+00:00",
       "source_file": ".github/workflows/formatting.yml",
       "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "g-plane/malva"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "g-plane/markup_fmt"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

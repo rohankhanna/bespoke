@@ -253,6 +253,18 @@
       "source_repo": "hchiam/learning-angular8",
       "status": "candidate-context",
       "text": "Just one of the things I'm learning. <https://github.com/hchiam/learning>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "g-plane/malva",
+      "status": "candidate-context",
+      "text": "Configurable, smart and fast CSS, SCSS, Sass and Less formatter with dprint integration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-plane/malva",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">\ud83c\udf37 Malva</h1>"
     }
   ],
   "candidate_glosses": [
@@ -381,6 +393,12 @@
       "source_repo": "hchiam/learning-angular8",
       "status": "candidate",
       "text": "Just one of the things I'm learning. <https://github.com/hchiam/learning>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-plane/malva",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">\ud83c\udf37 Malva</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -790,11 +808,17 @@
       "observed_at": "2026-05-12T00:37:36.884355+00:00",
       "source_file": null,
       "source_repo": "Cle2ment/CherryStudio_themes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "g-plane/malva"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

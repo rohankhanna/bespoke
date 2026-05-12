@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-12T07:38:37.068565+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2895
+    },
+    {
+      "path": "requirements.txt",
+      "size": 276
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code release of paper Improving neural implicit surfaces geometry with patch warping",
+    "fork": false,
+    "full_name": "fdarmon/NeuralWarp",
+    "html_url": "https://github.com/fdarmon/NeuralWarp",
+    "language": "Python",
+    "pushed_at": "2022-05-05T08:11:23Z",
+    "stargazers_count": 240,
+    "topics": [],
+    "updated_at": "2025-11-28T12:47:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

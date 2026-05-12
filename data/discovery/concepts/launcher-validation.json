@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Launcher Validation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junhoyeo/tokscale",
+      "status": "candidate-context",
+      "text": "\ud83d\udef0\ufe0f A CLI tool for tracking token usage from OpenCode, Claude Code, \ud83e\udd9eOpenClaw (Clawdbot/Moltbot), Pi, Codex, Gemini, Cursor, AmpCode, Factory Droid, Kimi, and more! \u2022 \ud83c\udfc5Global Leaderboard + 2D/3D Contributions Graph"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junhoyeo/tokscale",
+      "status": "candidate-context",
+      "text": "Launcher Validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junhoyeo/tokscale",
+      "status": "candidate",
+      "text": "Launcher Validation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10528,
+      "status": "candidate",
+      "text": "balk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10528,
+      "status": "candidate",
+      "text": "balking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10528,
+      "status": "candidate",
+      "text": "binet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10528,
+      "status": "candidate",
+      "text": "biot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10528,
+      "status": "candidate",
+      "text": "flight-test"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Launcher Validation",
+  "concept_id": "launcher-validation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/launcher_validation.yml",
+      "source_repo": "junhoyeo/tokscale"
+    }
+  ],
+  "first_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Launcher Validation",
+      "sense_id": "launcher-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

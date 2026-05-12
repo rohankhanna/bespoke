@@ -55,6 +55,18 @@
       "source_repo": "Elyahu41/KosherSwift",
       "status": "candidate-context",
       "text": "KosherSwift Zmanim API"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pinnymz/ruby-zmanim",
+      "status": "candidate-context",
+      "text": "A Zmanim library for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pinnymz/ruby-zmanim",
+      "status": "candidate-context",
+      "text": "A Ruby library for Zmanim."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "Elyahu41/KosherSwift",
       "status": "candidate",
       "text": "KosherSwift Zmanim API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pinnymz/ruby-zmanim",
+      "status": "candidate",
+      "text": "A Ruby library for Zmanim."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-11T18:44:26.583561+00:00",
       "source_file": null,
       "source_repo": "Elyahu41/KosherSwift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": null,
+      "source_repo": "pinnymz/ruby-zmanim"
     }
   ],
   "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

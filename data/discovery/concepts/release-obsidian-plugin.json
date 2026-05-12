@@ -791,11 +791,23 @@
       "observed_at": "2026-05-12T00:37:36.884355+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "obsidian-community/obsidian-zotero-integration"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ebullient/obsidian-admonition"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T07:08:14.758954+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "obsidian-community/obsidian-kanban"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "lexical_providers": [
     "datamuse"
   ],

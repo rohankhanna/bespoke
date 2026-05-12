@@ -1,0 +1,353 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "rust-lang/crates-io-auth-action@v1.0.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "g-plane/markup_fmt",
+      "target": "dprint/dprint-plugin-typescript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "g-plane/markup_fmt",
+      "target": "g-plane/pretty_jinja",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "g-plane/markup_fmt",
+      "target": "withastro/prettier-plugin-astro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "g-plane/markup_fmt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "g-plane/markup_fmt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "g-plane/markup_fmt",
+      "target": "rust-lang/crates-io-auth-action@v1.0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "g-plane/markup_fmt",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "g-plane/markup_fmt",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/markup_fmt",
+      "target": "astro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/markup_fmt",
+      "target": "dprint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/markup_fmt",
+      "target": "dprint-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/markup_fmt",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/markup_fmt",
+      "target": "formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/markup_fmt",
+      "target": "handlebars",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/markup_fmt",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/markup_fmt",
+      "target": "jinja",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/markup_fmt",
+      "target": "jinja2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/markup_fmt",
+      "target": "mustache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/markup_fmt",
+      "target": "nunjucks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/markup_fmt",
+      "target": "prettier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/markup_fmt",
+      "target": "svelte",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/markup_fmt",
+      "target": "twig",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "g-plane/markup_fmt",
+      "target": "vento",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-12T07:37:32.866571+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2702
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 263
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 349
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1304
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Configurable HTML, Vue, Svelte, Astro, Angular, Jinja, Twig, Nunjucks, Vento, Mustache, Handlebars and XML formatter with dprint integration.",
+    "fork": false,
+    "full_name": "g-plane/markup_fmt",
+    "html_url": "https://github.com/g-plane/markup_fmt",
+    "language": "Rust",
+    "pushed_at": "2026-05-11T09:30:33Z",
+    "stargazers_count": 172,
+    "topics": [
+      "astro",
+      "dprint",
+      "dprint-plugin",
+      "formatter",
+      "formatting",
+      "handlebars",
+      "html",
+      "jinja",
+      "jinja2",
+      "mustache",
+      "nunjucks",
+      "prettier",
+      "svelte",
+      "twig",
+      "vento",
+      "vue",
+      "xml"
+    ],
+    "updated_at": "2026-05-11T09:30:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dprint/dprint-plugin-typescript",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "g-plane/pretty_jinja",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "withastro/prettier-plugin-astro",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "astro"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dprint"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dprint-plugin"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatting"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "handlebars"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jinja"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jinja2"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mustache"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nunjucks"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prettier"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svelte"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "twig"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vento"
+    }
+  ]
+}

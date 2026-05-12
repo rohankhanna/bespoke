@@ -1,21 +1,16 @@
 {
-  "first_seen_at": "2026-05-12T00:37:36.884355+00:00",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "first_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "clayrisser/sphinx-jekyll-builder"
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "clayrisser/sphinx-markdown-builder"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "mixmark-io/turndown"
+      "source_repo": "kepano/defuddle-cli"
     }
   ],
   "term": "markdown"

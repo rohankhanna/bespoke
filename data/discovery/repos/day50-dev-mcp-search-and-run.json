@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-12T07:38:50.719357+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3749
+    },
+    {
+      "path": "requirements.txt",
+      "size": 136
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An mcp meta tool to run them all",
+    "fork": false,
+    "full_name": "day50-dev/mcp-search-and-run",
+    "html_url": "https://github.com/day50-dev/mcp-search-and-run",
+    "language": "Python",
+    "pushed_at": "2026-03-09T11:02:26Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-04-15T02:41:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

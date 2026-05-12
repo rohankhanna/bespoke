@@ -1,12 +1,17 @@
 {
   "component": "codespell-project/codespell-problem-matcher@9ba2c57125d4908eade4308f32c4ff814c184633",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/codespell.yml",
       "source_repo": "jesseduffield/lazygit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "2mawi2/schaltwerk"
     }
   ]
 }
