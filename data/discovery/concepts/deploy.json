@@ -6391,11 +6391,41 @@
       "observed_at": "2026-05-12T07:08:14.758954+00:00",
       "source_file": ".github/workflows/push.yml",
       "source_repo": "MetaCubeX/Yacd-meta"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T18:45:33.862672+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Jamorim-esss/pytest-rich"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T18:45:33.862672+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "privacycg/template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T18:45:33.862672+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T18:45:33.862672+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml.disabled",
+      "source_repo": "InternScience/SciReason"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T18:45:33.862672+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ipld/explore.ipld.io"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "last_seen_at": "2026-05-12T18:45:33.862672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -98,7 +98,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T01:02:34.275173+00:00",
+  "fetched_at": "2026-05-12T19:08:22.397208+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -127,13 +127,13 @@
     "html_url": "https://github.com/DaoCloud/crproxy",
     "language": "Go",
     "pushed_at": "2025-11-20T01:04:47Z",
-    "stargazers_count": 544,
+    "stargazers_count": 545,
     "topics": [
       "crproxy",
       "image",
       "proxy"
     ],
-    "updated_at": "2026-05-07T08:30:54Z"
+    "updated_at": "2026-05-12T06:54:14Z"
   },
   "repo_links": [
     {

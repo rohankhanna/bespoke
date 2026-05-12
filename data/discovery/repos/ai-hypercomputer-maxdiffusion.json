@@ -184,7 +184,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T01:00:40.482016+00:00",
+  "fetched_at": "2026-05-12T19:06:31.882448+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -200,11 +200,11 @@
     },
     {
       "path": ".github/workflows/CPUTests.yml",
-      "size": 1580
+      "size": 1671
     },
     {
       "path": ".github/workflows/UnitTests.yml",
-      "size": 2335
+      "size": 2426
     },
     {
       "path": ".github/workflows/UploadDockerImages.yml",
@@ -236,10 +236,10 @@
     "full_name": "AI-Hypercomputer/maxdiffusion",
     "html_url": "https://github.com/AI-Hypercomputer/maxdiffusion",
     "language": "Python",
-    "pushed_at": "2026-05-11T18:26:40Z",
+    "pushed_at": "2026-05-12T18:09:02Z",
     "stargazers_count": 349,
     "topics": [],
-    "updated_at": "2026-05-11T14:59:38Z"
+    "updated_at": "2026-05-12T18:09:07Z"
   },
   "repo_links": [
     {

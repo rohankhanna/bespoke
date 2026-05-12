@@ -380,7 +380,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T00:45:02.447856+00:00",
+  "fetched_at": "2026-05-12T18:51:40.305330+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -396,7 +396,7 @@
     },
     {
       "path": ".github/workflows/build.yml",
-      "size": 6073
+      "size": 5969
     },
     {
       "path": ".github/workflows/cla.yml",
@@ -420,13 +420,13 @@
     "full_name": "SpecterOps/AzureHound",
     "html_url": "https://github.com/SpecterOps/AzureHound",
     "language": "Go",
-    "pushed_at": "2026-05-11T19:07:14Z",
-    "stargazers_count": 905,
+    "pushed_at": "2026-05-12T15:10:20Z",
+    "stargazers_count": 904,
     "topics": [
       "azure",
       "go"
     ],
-    "updated_at": "2026-05-11T20:35:10Z"
+    "updated_at": "2026-05-12T16:21:45Z"
   },
   "repo_links": [
     {

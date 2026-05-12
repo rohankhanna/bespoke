@@ -2446,11 +2446,17 @@
       "observed_at": "2026-05-12T07:08:14.758954+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T18:45:33.862672+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ahmadawais/base16-shades-of-purple"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "last_seen_at": "2026-05-12T18:45:33.862672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

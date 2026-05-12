@@ -279,19 +279,19 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T01:06:29.215937+00:00",
+  "fetched_at": "2026-05-12T19:11:53.727816+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 7921
+      "size": 8344
     },
     {
       "path": "pyproject.toml",
-      "size": 5750
+      "size": 5736
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 5505
+      "size": 5516
     },
     {
       "path": ".github/workflows/cog.yml",
@@ -319,7 +319,7 @@
     "full_name": "15r10nk/inline-snapshot",
     "html_url": "https://github.com/15r10nk/inline-snapshot",
     "language": "Python",
-    "pushed_at": "2026-05-11T06:25:38Z",
+    "pushed_at": "2026-05-12T18:39:52Z",
     "stargazers_count": 729,
     "topics": [
       "approval-testing",
@@ -335,7 +335,7 @@
       "snapshottest",
       "testing"
     ],
-    "updated_at": "2026-05-11T11:33:31Z"
+    "updated_at": "2026-05-12T18:32:22Z"
   },
   "repo_links": [
     {

@@ -417,7 +417,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/argos.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "pnpm/action-setup@91ab88e2619ed1f46221f0ba42d1492c02baf788",
+      "target": "pnpm/action-setup@739bfe42ca9233c5e6aca07c1a25a9d34aca49b0",
       "target_type": "component"
     },
     {
@@ -445,7 +445,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codecov-next.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "pnpm/action-setup@91ab88e2619ed1f46221f0ba42d1492c02baf788",
+      "target": "pnpm/action-setup@739bfe42ca9233c5e6aca07c1a25a9d34aca49b0",
       "target_type": "component"
     },
     {
@@ -487,7 +487,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/daily-testing-build.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "pnpm/action-setup@91ab88e2619ed1f46221f0ba42d1492c02baf788",
+      "target": "pnpm/action-setup@739bfe42ca9233c5e6aca07c1a25a9d34aca49b0",
       "target_type": "component"
     },
     {
@@ -536,7 +536,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-kubernetes-main.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "redhat-actions/podman-install@15cb93f5a6b78a758fd8f4d1cecbf6651d4bcea3",
+      "target": "redhat-actions/podman-install@92eb12467c2fc271e7781d006c413e17770230ed",
       "target_type": "component"
     },
     {
@@ -550,7 +550,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-kubernetes-main.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "pnpm/action-setup@91ab88e2619ed1f46221f0ba42d1492c02baf788",
+      "target": "pnpm/action-setup@739bfe42ca9233c5e6aca07c1a25a9d34aca49b0",
       "target_type": "component"
     },
     {
@@ -620,7 +620,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "redhat-actions/podman-install@15cb93f5a6b78a758fd8f4d1cecbf6651d4bcea3",
+      "target": "redhat-actions/podman-install@92eb12467c2fc271e7781d006c413e17770230ed",
       "target_type": "component"
     },
     {
@@ -634,7 +634,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "pnpm/action-setup@91ab88e2619ed1f46221f0ba42d1492c02baf788",
+      "target": "pnpm/action-setup@739bfe42ca9233c5e6aca07c1a25a9d34aca49b0",
       "target_type": "component"
     },
     {
@@ -683,7 +683,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/managed-configuration.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "pnpm/action-setup@91ab88e2619ed1f46221f0ba42d1492c02baf788",
+      "target": "pnpm/action-setup@739bfe42ca9233c5e6aca07c1a25a9d34aca49b0",
       "target_type": "component"
     },
     {
@@ -778,6 +778,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-12T00:37:36.884355+00:00",
+  "generated_at": "2026-05-12T18:45:33.862672+00:00",
   "source_repo": "podman-desktop/podman-desktop"
 }

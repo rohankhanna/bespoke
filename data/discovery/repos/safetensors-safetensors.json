@@ -504,7 +504,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T01:00:34.292515+00:00",
+  "fetched_at": "2026-05-12T19:06:26.386158+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -528,7 +528,7 @@
     },
     {
       "path": ".github/workflows/python-bench.yml",
-      "size": 2110
+      "size": 2128
     },
     {
       "path": ".github/workflows/python-release.yml",
@@ -556,10 +556,10 @@
     "full_name": "safetensors/safetensors",
     "html_url": "https://github.com/safetensors/safetensors",
     "language": "Python",
-    "pushed_at": "2026-05-11T08:57:40Z",
-    "stargazers_count": 3740,
+    "pushed_at": "2026-05-12T08:26:26Z",
+    "stargazers_count": 3739,
     "topics": [],
-    "updated_at": "2026-05-11T11:01:07Z"
+    "updated_at": "2026-05-12T12:30:23Z"
   },
   "repo_links": [
     {

@@ -202,11 +202,17 @@
       "observed_at": "2026-05-12T00:37:36.884355+00:00",
       "source_file": ".github/workflows/test-import.yml",
       "source_repo": "baal-org/baal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T18:45:33.862672+00:00",
+      "source_file": ".github/workflows/test-import.yml",
+      "source_repo": "baal-org/baal"
     }
   ],
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-12T18:45:33.862672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

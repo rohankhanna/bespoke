@@ -658,11 +658,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T01:10:45.755074+00:00",
+  "fetched_at": "2026-05-12T19:15:57.803663+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 24284
+      "size": 24952
     },
     {
       "path": "package.json",
@@ -710,10 +710,10 @@
     "full_name": "a2aproject/a2a-js",
     "html_url": "https://github.com/a2aproject/a2a-js",
     "language": "TypeScript",
-    "pushed_at": "2026-05-11T15:09:13Z",
+    "pushed_at": "2026-05-12T10:42:54Z",
     "stargazers_count": 537,
     "topics": [],
-    "updated_at": "2026-05-11T15:13:19Z"
+    "updated_at": "2026-05-12T09:25:55Z"
   },
   "repo_links": [
     {

@@ -129,7 +129,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T00:46:33.297048+00:00",
+  "fetched_at": "2026-05-12T18:52:59.549926+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -137,7 +137,7 @@
     },
     {
       "path": "go.mod",
-      "size": 2318
+      "size": 2355
     },
     {
       "path": ".github/workflows/ci.yaml",
@@ -157,10 +157,10 @@
     "full_name": "compozy/kb",
     "html_url": "https://github.com/compozy/kb",
     "language": "Go",
-    "pushed_at": "2026-04-15T02:46:17Z",
+    "pushed_at": "2026-05-12T15:33:44Z",
     "stargazers_count": 38,
     "topics": [],
-    "updated_at": "2026-05-08T12:34:44Z"
+    "updated_at": "2026-05-12T16:33:09Z"
   },
   "repo_links": [
     {

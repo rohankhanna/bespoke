@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T00:53:55.130011+00:00",
+  "fetched_at": "2026-05-12T18:59:55.856262+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -68,13 +68,13 @@
     "html_url": "https://github.com/MrGiovanni/UNetPlusPlus",
     "language": "Python",
     "pushed_at": "2025-08-25T15:03:35Z",
-    "stargazers_count": 2653,
+    "stargazers_count": 2654,
     "topics": [
       "medical-imaging",
       "segmentation",
       "unet"
     ],
-    "updated_at": "2026-05-11T03:52:15Z"
+    "updated_at": "2026-05-12T15:55:28Z"
   },
   "repo_links": [
     {

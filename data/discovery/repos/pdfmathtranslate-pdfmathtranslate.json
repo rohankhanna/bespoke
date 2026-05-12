@@ -714,11 +714,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T01:02:23.793968+00:00",
+  "fetched_at": "2026-05-12T19:08:14.133976+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 19588
+      "size": 19598
     },
     {
       "path": "Dockerfile",
@@ -762,8 +762,8 @@
     "full_name": "PDFMathTranslate/PDFMathTranslate",
     "html_url": "https://github.com/PDFMathTranslate/PDFMathTranslate",
     "language": "Python",
-    "pushed_at": "2026-05-11T20:28:39Z",
-    "stargazers_count": 33675,
+    "pushed_at": "2026-05-12T17:03:15Z",
+    "stargazers_count": 33701,
     "topics": [
       "chinese",
       "document",
@@ -785,7 +785,7 @@
       "translation",
       "zotero"
     ],
-    "updated_at": "2026-05-12T00:55:49Z"
+    "updated_at": "2026-05-12T18:56:59Z"
   },
   "repo_links": [
     {

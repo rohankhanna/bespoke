@@ -2412,11 +2412,17 @@
       "observed_at": "2026-05-12T07:08:14.758954+00:00",
       "source_file": ".github/workflows/publish_docker_image.yml",
       "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T18:45:33.862672+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "jeffzhou2000/ggml-hexagon"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "last_seen_at": "2026-05-12T18:45:33.862672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

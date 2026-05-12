@@ -7910,11 +7910,29 @@
       "observed_at": "2026-05-12T07:08:14.758954+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "nafg/jewish-date"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T18:45:33.862672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eyre-rs/stable-eyre"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T18:45:33.862672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libbitcoin/libbitcoin-system"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T18:45:33.862672+00:00",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "vercel/modelfusion"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "last_seen_at": "2026-05-12T18:45:33.862672+00:00",
   "lexical_providers": [
     "datamuse"
   ],
