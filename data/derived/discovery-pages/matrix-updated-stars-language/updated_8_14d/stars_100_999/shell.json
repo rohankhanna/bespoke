@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 66,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 16,
-    "terms": 87
+    "concepts": 77,
+    "observations": 77,
+    "repos": 15,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
-    "2KAbhishek/dots2k",
     "Chocolate4U/Iran-v2ray-rules",
     "cloudfoundry/bosh-deployment",
     "harbor-framework/terminal-bench-2",

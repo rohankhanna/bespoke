@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,7 +13,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 265
-- terms: 638
+- terms: 637
 - components: 2873
 - concepts: 646
 - observations: 646
@@ -284,7 +284,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mikolalysenko/robust-in-sphere](https://github.com/mikolalysenko/robust-in-sphere) | 12 | 2021-08-04T23:24:56Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [mikolalysenko/robust-orientation](https://github.com/mikolalysenko/robust-orientation) | 29 | 2021-08-04T23:20:06Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [npm/npm-lifecycle](https://github.com/npm/npm-lifecycle) | 36 | 2021-08-03T19:07:35Z | JavaScript | Unknown | 0 | 13 | 0 | 0 |
-| [webview2/EdgeSharp.Samples](https://github.com/webview2/EdgeSharp.Samples) | 35 | 2021-07-06T12:41:41Z | JavaScript | Unknown | 14 | 0 | 14 | 14 |
+| [webview2/EdgeSharp.Samples](https://github.com/webview2/EdgeSharp.Samples) | 35 | 2021-07-06T12:41:41Z | JavaScript | Unknown | 13 | 0 | 14 | 14 |
 | [vutran/zel](https://github.com/vutran/zel) | 57 | 2021-06-24T05:39:50Z | JavaScript | Unknown | 6 | 12 | 6 | 6 |
 | [71/logseq-snippets](https://github.com/71/logseq-snippets) | 76 | 2021-06-23T19:32:01Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [fengari-lua/fengari-loader](https://github.com/fengari-lua/fengari-loader) | 30 | 2021-06-23T16:12:05Z | JavaScript | Web app | 3 | 10 | 3 | 3 |
@@ -444,7 +444,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fontello/cubic2quad](https://github.com/fontello/cubic2quad) | 36 | 2023-12-27T17:32:30Z | JavaScript | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [TritonDataCenter/node-extsprintf](https://github.com/TritonDataCenter/node-extsprintf) | 36 | 2021-11-02T21:49:00Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [npm/npm-lifecycle](https://github.com/npm/npm-lifecycle) | 36 | 2021-08-03T19:07:35Z | JavaScript | Unknown | 0 | 13 | 0 | 0 |
-| [webview2/EdgeSharp.Samples](https://github.com/webview2/EdgeSharp.Samples) | 35 | 2021-07-06T12:41:41Z | JavaScript | Unknown | 14 | 0 | 14 | 14 |
+| [webview2/EdgeSharp.Samples](https://github.com/webview2/EdgeSharp.Samples) | 35 | 2021-07-06T12:41:41Z | JavaScript | Unknown | 13 | 0 | 14 | 14 |
 | [fengari-lua/fengari-node-cli](https://github.com/fengari-lua/fengari-node-cli) | 35 | 2021-06-23T16:11:09Z | JavaScript | CLI | 2 | 5 | 2 | 2 |
 | [graphql/defer-stream-wg](https://github.com/graphql/defer-stream-wg) | 34 | 2025-10-02T15:53:41Z | JavaScript | Unknown | 1 | 3 | 1 | 1 |
 | [A11yance/axobject-query](https://github.com/A11yance/axobject-query) | 34 | 2024-12-17T09:13:18Z | JavaScript | Infrastructure/tooling | 0 | 25 | 0 | 0 |

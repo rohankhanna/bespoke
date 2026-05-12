@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 93,
-    "observations": 94,
-    "repos": 11,
-    "terms": 93
+    "components": 60,
+    "concepts": 82,
+    "observations": 83,
+    "repos": 10,
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "arcee-ai/mergekit",
-    "aws/serverless-application-model",
     "bitsandbytes-foundation/bitsandbytes",
     "funstory-ai/BabelDOC",
     "ggozad/oterm",

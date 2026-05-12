@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 68
-- terms: 517
-- components: 2347
-- concepts: 488
-- observations: 489
+- repos: 69
+- terms: 520
+- components: 2371
+- concepts: 491
+- observations: 492
 
 ## Static behavior
 
@@ -83,6 +83,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ben-rogerson/twin.macro](https://github.com/ben-rogerson/twin.macro) | 8036 | 2026-03-22T03:38:39Z | TypeScript | Infrastructure/tooling | 19 | 59 | 19 | 19 |
 | [TfTHacker/obsidian42-brat](https://github.com/TfTHacker/obsidian42-brat) | 1389 | 2026-03-21T10:38:51Z | TypeScript | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [ekalinin/sitemap.js](https://github.com/ekalinin/sitemap.js) | 1708 | 2026-03-21T10:27:43Z | TypeScript | Infrastructure/tooling | 5 | 29 | 5 | 5 |
+| [vadimdemedes/pastel](https://github.com/vadimdemedes/pastel) | 2393 | 2026-03-21T09:49:14Z | TypeScript | CLI | 3 | 24 | 3 | 3 |
 | [Ironclad/rivet](https://github.com/Ironclad/rivet) | 4541 | 2026-03-20T17:34:24Z | TypeScript | Infrastructure/tooling | 2 | 29 | 2 | 2 |
 | [antfu-collective/vite-ssg](https://github.com/antfu-collective/vite-ssg) | 1569 | 2026-03-20T15:19:13Z | TypeScript | Infrastructure/tooling | 3 | 30 | 3 | 3 |
 | [gustavoguichard/string-ts](https://github.com/gustavoguichard/string-ts) | 1260 | 2026-03-20T11:32:21Z | TypeScript | Infrastructure/tooling | 1 | 12 | 1 | 1 |
@@ -135,6 +136,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stephenh/ts-proto](https://github.com/stephenh/ts-proto) | 2559 | 2026-03-23T18:42:27Z | TypeScript | Infrastructure/tooling | 10 | 49 | 10 | 10 |
 | [Mobile-Artificial-Intelligence/maid](https://github.com/Mobile-Artificial-Intelligence/maid) | 2455 | 2026-04-07T06:38:23Z | TypeScript | Infrastructure/tooling | 17 | 74 | 17 | 17 |
 | [gpac/mp4box.js](https://github.com/gpac/mp4box.js) | 2416 | 2026-03-25T21:35:46Z | TypeScript | Infrastructure/tooling | 5 | 26 | 5 | 5 |
+| [vadimdemedes/pastel](https://github.com/vadimdemedes/pastel) | 2393 | 2026-03-21T09:49:14Z | TypeScript | CLI | 3 | 24 | 3 | 3 |
 | [abrahamjuliot/creepjs](https://github.com/abrahamjuliot/creepjs) | 2361 | 2026-04-12T00:04:59Z | TypeScript | Web app | 6 | 17 | 6 | 6 |
 | [google-github-actions/run-gemini-cli](https://github.com/google-github-actions/run-gemini-cli) | 1938 | 2026-04-07T21:26:49Z | TypeScript | CLI | 14 | 17 | 14 | 14 |
 | [microsoft/vscode-eslint](https://github.com/microsoft/vscode-eslint) | 1920 | 2026-04-10T16:19:24Z | TypeScript | Unknown | 0 | 15 | 0 | 0 |

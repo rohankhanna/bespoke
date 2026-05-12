@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 50
-- terms: 129
-- components: 184
-- concepts: 109
-- observations: 109
+- repos: 52
+- terms: 130
+- components: 186
+- concepts: 110
+- observations: 110
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ParisNeo/lollms_client](https://github.com/ParisNeo/lollms_client) | 8 | 2026-04-28T07:44:03Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [mlcommons/submissions_algorithms](https://github.com/mlcommons/submissions_algorithms) | 9 | 2026-04-27T17:36:09Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [scaleway/serverless-api-framework-python](https://github.com/scaleway/serverless-api-framework-python) | 9 | 2026-04-27T16:58:01Z | Python | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [plone/cookieplone-templates](https://github.com/plone/cookieplone-templates) | 9 | 2026-04-27T11:10:47Z | Python | Infrastructure/tooling | 6 | 7 | 6 | 6 |
@@ -51,6 +52,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rrsaldanha/burp-mcp-agents](https://github.com/rrsaldanha/burp-mcp-agents) | 2 | 2026-04-19T11:53:12Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [frank-syncmarket/skills](https://github.com/frank-syncmarket/skills) | 3 | 2026-04-19T11:51:14Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [caesar0301/soothe](https://github.com/caesar0301/soothe) | 2 | 2026-04-19T11:39:59Z | Python | Infrastructure/tooling | 1 | 3 | 0 | 0 |
+| [UnknownPlatypus/djangofmt-pre-commit](https://github.com/UnknownPlatypus/djangofmt-pre-commit) | 1 | 2026-04-19T08:01:25Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [verkyyi/tokenman](https://github.com/verkyyi/tokenman) | 2 | 2026-04-19T06:57:48Z | Python | Infrastructure/tooling | 8 | 11 | 0 | 0 |
 | [adaumann/speckit-preset-fiction-book-writing](https://github.com/adaumann/speckit-preset-fiction-book-writing) | 3 | 2026-04-18T19:32:51Z | Python | Template/starter | 0 | 0 | 0 | 0 |
 | [etanhey/brainlayer](https://github.com/EtanHey/brainlayer) | 6 | 2026-04-18T17:54:55Z | Python | Infrastructure/tooling | 2 | 4 | 0 | 0 |
@@ -86,6 +88,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [plone/cookieplone-templates](https://github.com/plone/cookieplone-templates) | 9 | 2026-04-27T11:10:47Z | Python | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [dora-rs/dora-benchmark](https://github.com/dora-rs/dora-benchmark) | 9 | 2026-04-14T15:18:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [aiidateam/plumpy](https://github.com/aiidateam/plumpy) | 9 | 2026-04-13T13:09:52Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [ParisNeo/lollms_client](https://github.com/ParisNeo/lollms_client) | 8 | 2026-04-28T07:44:03Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [ModelCloud/LogBar](https://github.com/ModelCloud/LogBar) | 8 | 2026-04-22T15:12:39Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [onicai/IConfucius](https://github.com/onicai/IConfucius) | 8 | 2026-04-20T12:59:18Z | Python | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [audeering/audonnx](https://github.com/audeering/audonnx) | 8 | 2026-04-16T12:58:09Z | Python | Infrastructure/tooling | 7 | 7 | 7 | 7 |
@@ -123,6 +126,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [piqrypt/aiss-standard](https://github.com/PiQrypt/aiss-standard) | 1 | 2026-04-19T16:45:49Z | Python | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [penpoen/llm-sugarscape](https://github.com/penpoen/llm-SugarScape) | 1 | 2026-04-19T13:44:54Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [momentique/source-code-security-audit-reviewer](https://github.com/Momentique/Source-Code-Security-Audit-Reviewer) | 1 | 2026-04-19T13:42:15Z | Python | Infrastructure/tooling | 1 | 2 | 0 | 0 |
+| [UnknownPlatypus/djangofmt-pre-commit](https://github.com/UnknownPlatypus/djangofmt-pre-commit) | 1 | 2026-04-19T08:01:25Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [cjtruheart/abundance-codex](https://github.com/CjTruHeart/abundance-codex) | 1 | 2026-04-18T16:44:22Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [bryanh9111/engram](https://github.com/Bryanh9111/Engram) | 1 | 2026-04-18T03:01:43Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [sunthinks/kvmind](https://github.com/sunthinks/kvmind) | 1 | 2026-04-18T02:03:25Z | Python | Service/API | 0 | 0 | 0 | 0 |

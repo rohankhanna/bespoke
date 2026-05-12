@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 41
+- repos: 42
 - terms: 53
 - components: 43
 - concepts: 53
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [dmBots/DM-J4310-2EC](https://github.com/dmBots/DM-J4310-2EC) | 4 | 2026-04-28T05:50:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [calda/SwiftFormat-nightly](https://github.com/calda/SwiftFormat-nightly) | 1 | 2026-04-28T00:14:46Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [danielrosehill/Resources-Lists-Index](https://github.com/danielrosehill/Resources-Lists-Index) | 1 | 2026-04-27T08:40:03Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [hiyouga/llamafactory-community](https://github.com/hiyouga/llamafactory-community) | 7 | 2026-04-26T19:11:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -87,6 +88,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [oobabooga/screenshots](https://github.com/oobabooga/screenshots) | 5 | 2026-04-23T19:22:16Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-ADHD-Research-Workspace](https://github.com/danielrosehill/Claude-ADHD-Research-Workspace) | 5 | 2026-04-16T13:56:55Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [nodejs/web-team](https://github.com/nodejs/web-team) | 5 | 2026-04-14T11:30:18Z | Unknown | Infrastructure/tooling | 6 | 10 | 6 | 6 |
+| [dmBots/DM-J4310-2EC](https://github.com/dmBots/DM-J4310-2EC) | 4 | 2026-04-28T05:50:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [openwebdocs/mdn-bcd-results](https://github.com/openwebdocs/mdn-bcd-results) | 4 | 2026-04-23T06:24:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Data-Analyst-plugin](https://github.com/danielrosehill/Claude-Data-Analyst-plugin) | 3 | 2026-04-23T14:53:13Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [conda-forge/scikit-optimize-feedstock](https://github.com/conda-forge/scikit-optimize-feedstock) | 3 | 2026-04-23T00:37:15Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |

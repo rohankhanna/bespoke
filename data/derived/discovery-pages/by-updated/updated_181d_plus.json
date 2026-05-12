@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 45614,
-    "concepts": 32072,
-    "observations": 32127,
-    "repos": 11748,
-    "terms": 31671
+    "components": 45619,
+    "concepts": 32093,
+    "observations": 32148,
+    "repos": 11755,
+    "terms": 31673
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -411,6 +411,7 @@
     "aesara-devs/aesara",
     "Aetherinox/mkdocs-link-embeds",
     "aethiopicuschan/cubism-go",
+    "aeulker/Claude-Code-Cheat-Sheet",
     "af-74413592/agentscope",
     "af-74413592/DeepWerewolf",
     "afc163/fanyi",
@@ -4272,6 +4273,7 @@
     "fbcotter/pytorch_wavelets",
     "fcitx/fcitx",
     "fcsonline/tmux-thumbs",
+    "fdarmon/NeuralWarp",
     "fdehau/tui-rs",
     "feakin/fklang",
     "featherbread/hypcast-v1",
@@ -5033,6 +5035,7 @@
     "gvergnaud/hotscript",
     "gwihlidal/vk-sync-rs",
     "gxmari007/vite-plugin-eslint",
+    "gy65896/TSDNet",
     "gyhdog99/RACRO2",
     "gzuidhof/starboard-notebook",
     "H-a-y-k/hichesslib",
@@ -5421,6 +5424,7 @@
     "HRNet/HRNet-Semantic-Segmentation",
     "hrsh7th/cmp-buffer",
     "hrsh7th/cmp-cmdline",
+    "hrsh7th/cmp-nvim-lsp",
     "hrsh7th/nvim-compe",
     "hrsh7th/vim-vsnip",
     "hrsh7th/vim-vsnip-integ",
@@ -6004,6 +6008,7 @@
     "jeroen-meijer/pubspec-assist",
     "jerrylususu/PaddleOCR-json-java-api",
     "jerryn70/GoodbyeAds",
+    "jerryuhoo/VISinger",
     "jerryuhoo/VTuberTalk",
     "jessicaStorer88/RepeatMasker_library_CHM13",
     "JetBrains/.github",
@@ -8952,6 +8957,7 @@
     "PingoLH/FCHarDNet",
     "PingoLH/Pytorch-HarDNet",
     "pinnymz/python-zmanim",
+    "pinnymz/ruby-zmanim",
     "pinobatch/allpads-nes",
     "pinpox/base16-universal-manager",
     "piotrostr/listen",
@@ -10249,6 +10255,7 @@
     "steren/awesome-cloud-run",
     "sterlind/GPTQ-for-LLaMa",
     "sterlind/peft",
+    "Sternbach-Software/KosherKotlin",
     "stevearc/dressing.nvim",
     "stevearc/resession.nvim",
     "stevearc/stickybuf.nvim",

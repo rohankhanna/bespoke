@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10187,
-    "concepts": 10007,
-    "observations": 10039,
-    "repos": 1708,
-    "terms": 9960
+    "components": 10194,
+    "concepts": 10009,
+    "observations": 10041,
+    "repos": 1709,
+    "terms": 9962
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -681,6 +681,7 @@
     "erigontech/interfaces",
     "erikceballos/nano-banana-cli",
     "eryajf/chatgpt-dingtalk",
+    "EstebanForge/mcp-cli-ent",
     "estesp/manifest-tool",
     "estesp/mquery",
     "etcd-io/bbolt",

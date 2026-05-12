@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2587,
-    "concepts": 2190,
-    "observations": 2200,
+    "components": 2596,
+    "concepts": 2206,
+    "observations": 2216,
     "repos": 438,
-    "terms": 2160
+    "terms": 2172
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "99designs/aws-vault",
@@ -206,7 +206,6 @@
     "helix-editor/nucleo",
     "hkust-nlp/simpleRL-reason",
     "hoshsadiq/adblock-nocoin-list",
-    "hrsh7th/cmp-nvim-lsp",
     "huggingface/Math-Verify",
     "hustvl/DiffusionDrive",
     "hustvl/LightningDiT",
@@ -312,6 +311,7 @@
     "NVIDIA/ChatRTX",
     "NVIDIA/Cosmos",
     "NVIDIA/RULER",
+    "nvim-java/nvim-java",
     "NVlabs/nvdiffrast",
     "obsei/obsei",
     "obsidianmd/obsidian-sample-plugin",

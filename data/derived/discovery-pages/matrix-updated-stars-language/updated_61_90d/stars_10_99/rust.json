@@ -3,7 +3,7 @@
     "components": 81,
     "concepts": 48,
     "observations": 48,
-    "repos": 21,
+    "repos": 22,
     "terms": 48
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "acw/simple_asn1",
     "alloy-rs/op-alloy",
+    "assimelha/cmcp",
     "baerwang/openapi-rs",
     "chris-zen/coremidi",
     "CosmWasm/cw-storage-plus",

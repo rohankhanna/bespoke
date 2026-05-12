@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Unknown
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 34
-- terms: 47
-- components: 15
+- repos: 35
+- terms: 48
+- components: 17
 - concepts: 43
 - observations: 43
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [panaversity/claude-code-agent-teams-exercises](https://github.com/panaversity/claude-code-agent-teams-exercises) | 22 | 2026-02-11T07:23:13Z | Unknown | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [aaron-he-zhu/core-eeat-content-benchmark](https://github.com/aaron-he-zhu/core-eeat-content-benchmark) | 26 | 2026-02-10T05:50:01Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [tony/claude-code-riper-5](https://github.com/tony/claude-code-riper-5) | 82 | 2026-02-08T00:20:22Z | Unknown | Unknown | 6 | 0 | 0 | 0 |
 | [conda-forge/cfep](https://github.com/conda-forge/cfep) | 24 | 2026-02-06T17:38:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -88,6 +89,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [conda-forge/cfep](https://github.com/conda-forge/cfep) | 24 | 2026-02-06T17:38:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [withastro/.github](https://github.com/withastro/.github) | 23 | 2026-02-04T14:34:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [automazeio/open-royalties](https://github.com/automazeio/open-royalties) | 23 | 2026-01-16T12:22:54Z | Unknown | Framework | 0 | 0 | 0 | 0 |
+| [panaversity/claude-code-agent-teams-exercises](https://github.com/panaversity/claude-code-agent-teams-exercises) | 22 | 2026-02-11T07:23:13Z | Unknown | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [stephenschoettler/taches-oc-prompts](https://github.com/stephenschoettler/taches-oc-prompts) | 22 | 2026-01-14T04:58:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [getlantern/lantern-forum-cn](https://github.com/getlantern/lantern-forum-cn) | 22 | 2025-12-24T15:48:17Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lxgw/ext-characters](https://github.com/lxgw/ext-characters) | 20 | 2025-11-26T06:59:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

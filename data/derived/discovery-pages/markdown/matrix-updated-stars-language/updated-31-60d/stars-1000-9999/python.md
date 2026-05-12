@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 128
-- terms: 788
-- components: 534
-- concepts: 798
-- observations: 798
+- repos: 129
+- terms: 796
+- components: 537
+- concepts: 806
+- observations: 806
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [wkentaro/gdown](https://github.com/wkentaro/gdown) | 5232 | 2026-04-12T06:37:10Z | Python | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [spyder-ide/qtpy](https://github.com/spyder-ide/qtpy) | 1090 | 2026-04-12T05:22:34Z | Python | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [guaguastandup/zotero-pdf2zh](https://github.com/guaguastandup/zotero-pdf2zh) | 4050 | 2026-04-11T09:39:13Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [KohakuBlueleaf/LyCORIS](https://github.com/KohakuBlueleaf/LyCORIS) | 2492 | 2026-04-11T08:12:47Z | Python | Unknown | 2 | 0 | 2 | 2 |
@@ -149,7 +150,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hyperopt/hyperopt](https://github.com/hyperopt/hyperopt) | 7588 | 2026-03-16T21:37:20Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [facebookresearch/SlowFast](https://github.com/facebookresearch/SlowFast) | 7347 | 2026-03-16T11:07:10Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [facebookresearch/fvcore](https://github.com/facebookresearch/fvcore) | 2237 | 2026-03-15T21:59:55Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [belluzj/fantasque-sans](https://github.com/belluzj/fantasque-sans) | 7365 | 2026-03-15T16:37:54Z | Python | Infrastructure/tooling | 2 | 0 | 2 | 2 |
+| [belluzj/fantasque-sans](https://github.com/belluzj/fantasque-sans) | 7366 | 2026-03-15T16:37:54Z | Python | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [google/ml_collections](https://github.com/google/ml_collections) | 1028 | 2026-03-14T21:42:03Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [cheshire-cat-ai/core](https://github.com/cheshire-cat-ai/core) | 3036 | 2026-03-14T21:20:37Z | Python | CLI | 12 | 11 | 12 | 12 |
 | [pdfminer/pdfminer.six](https://github.com/pdfminer/pdfminer.six) | 6962 | 2026-03-13T13:46:54Z | Python | Infrastructure/tooling | 3 | 10 | 3 | 3 |
@@ -171,7 +172,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/Mastering-GitHub-Copilot-for-Paired-Programming](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming) | 7847 | 2026-04-08T18:40:59Z | Python | Infrastructure/tooling | 16 | 4 | 16 | 16 |
 | [hyperopt/hyperopt](https://github.com/hyperopt/hyperopt) | 7588 | 2026-03-16T21:37:20Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [1adrianb/face-alignment](https://github.com/1adrianb/face-alignment) | 7516 | 2026-04-06T22:19:17Z | Python | Infrastructure/tooling | 6 | 2 | 6 | 6 |
-| [belluzj/fantasque-sans](https://github.com/belluzj/fantasque-sans) | 7365 | 2026-03-15T16:37:54Z | Python | Infrastructure/tooling | 2 | 0 | 2 | 2 |
+| [belluzj/fantasque-sans](https://github.com/belluzj/fantasque-sans) | 7366 | 2026-03-15T16:37:54Z | Python | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [facebookresearch/SlowFast](https://github.com/facebookresearch/SlowFast) | 7347 | 2026-03-16T11:07:10Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [Yelp/dumb-init](https://github.com/Yelp/dumb-init) | 7275 | 2026-04-02T17:04:56Z | Python | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [pdfminer/pdfminer.six](https://github.com/pdfminer/pdfminer.six) | 6962 | 2026-03-13T13:46:54Z | Python | Infrastructure/tooling | 3 | 10 | 3 | 3 |
@@ -185,6 +186,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [facebookresearch/mmf](https://github.com/facebookresearch/mmf) | 5628 | 2026-04-07T00:03:29Z | Python | Infrastructure/tooling | 12 | 6 | 12 | 12 |
 | [AgentOps-AI/agentops](https://github.com/AgentOps-AI/agentops) | 5512 | 2026-03-19T18:37:57Z | Python | Infrastructure/tooling | 18 | 12 | 18 | 18 |
 | [mosaicml/composer](https://github.com/mosaicml/composer) | 5480 | 2026-03-25T17:20:40Z | Python | Model/data | 8 | 0 | 8 | 8 |
+| [wkentaro/gdown](https://github.com/wkentaro/gdown) | 5232 | 2026-04-12T06:37:10Z | Python | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [aws-cloudformation/aws-cloudformation-templates](https://github.com/aws-cloudformation/aws-cloudformation-templates) | 5167 | 2026-03-26T08:00:05Z | Python | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [wenet-e2e/wenet](https://github.com/wenet-e2e/wenet) | 5097 | 2026-03-31T04:14:09Z | Python | Infrastructure/tooling | 16 | 16 | 16 | 16 |
 | [open-mmlab/mmaction2](https://github.com/open-mmlab/mmaction2) | 4997 | 2026-03-18T04:04:49Z | Python | Infrastructure/tooling | 15 | 5 | 15 | 15 |

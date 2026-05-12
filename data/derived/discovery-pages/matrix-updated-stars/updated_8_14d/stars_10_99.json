@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 3534,
+    "components": 3548,
     "concepts": 1709,
     "observations": 1719,
-    "repos": 348,
+    "repos": 349,
     "terms": 1700
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "1-Platform/op-components",
@@ -38,6 +38,7 @@
     "angular/angular-devkit-build-angular-builds",
     "ankitpokhrel/shopctl",
     "Antares0982/ssrJSON",
+    "apache/doris-opentelemetry-demo",
     "apache/ignite-website",
     "apollographql/apollo-ios-dev",
     "apollographql/connectors-community",
@@ -194,6 +195,7 @@
     "jakebailey/pyright-action",
     "jbaubree/sitemap-ts",
     "jbaubree/vite-plugin-pages-sitemap",
+    "jcefmaven/jcefsampleapp",
     "jest-community/eslint-plugin-jest-extended",
     "jfly/shtuff",
     "JosephLalli/phasing_T2T",
@@ -286,7 +288,6 @@
     "pipecat-ai/docs",
     "pipecat-ai/pipecat-cli",
     "pre-commit/sync-pre-commit-deps",
-    "prefix-dev/rattler-build-action",
     "prefix-dev/setup-pixi",
     "prisma-labs/bema",
     "prisma/engines-wrapper",

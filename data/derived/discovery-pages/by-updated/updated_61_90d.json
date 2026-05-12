@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 7429,
-    "concepts": 4527,
-    "observations": 4541,
+    "components": 7420,
+    "concepts": 4516,
+    "observations": 4530,
     "repos": 1157,
-    "terms": 4519
+    "terms": 4507
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "0x676e67/0x676e67",
@@ -175,6 +175,7 @@
     "asg017/sqlite-hello",
     "aspect-build/rules_jasmine",
     "AssemblyScript/wabt.js",
+    "assimelha/cmcp",
     "astanin/python-tabulate",
     "astral-sh/uv-docker-example",
     "astroyat/lerobot-ros",
@@ -300,8 +301,6 @@
     "clojure/tools.deps",
     "cloojure/tupelo",
     "cloudfoundry/buildpackapplifecycle",
-    "cloudpilot-ai/karpenter-provider-alibabacloud",
-    "cloudwego/biz-demo",
     "cmake-js/cmake-js",
     "CMBAgents/cmbagent",
     "cncf/k8s-conformance-archive",
@@ -377,6 +376,7 @@
     "DavidKinder/Libraries",
     "DavidKinder/Windows-Glk",
     "DavidKinder/Windows-Glulxe",
+    "day50-dev/mcp-search-and-run",
     "dbeley/awesome-lemmy",
     "dbuenzli/logs",
     "DeanoC/tiny_imageformat",
@@ -680,6 +680,7 @@
     "Kampfkarren/selene",
     "kamranahmedse/claude-run",
     "keleshev/schema",
+    "kepano/defuddle-cli",
     "kibertoad/toad-cache",
     "kijai/ComfyUI-DepthAnythingV2",
     "kijai/ComfyUI-WanVideoWrapper",
@@ -873,7 +874,6 @@
     "Pal3love/dream-han-cjk",
     "Pal3love/Source-Han-TrueType",
     "palantir/python-language-server",
-    "panaversity/claude-code-agent-teams-exercises",
     "paolodamico/ruint-uniffi",
     "paoloshasta/shasta",
     "paralleldrive/cuid2",

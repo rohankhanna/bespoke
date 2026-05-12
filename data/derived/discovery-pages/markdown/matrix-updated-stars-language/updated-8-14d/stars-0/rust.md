@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 0 stars · Rust
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 11
-- components: 18
-- concepts: 11
-- observations: 11
+- repos: 3
+- terms: 12
+- components: 23
+- concepts: 12
+- observations: 12
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [UnknownPlatypus/markup_fmt](https://github.com/UnknownPlatypus/markup_fmt) | 0 | 2026-05-04T21:44:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [lakekeeper/iceberg-rust](https://github.com/lakekeeper/iceberg-rust) | 0 | 2026-05-02T22:52:17Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [squidowl/iced](https://github.com/squidowl/iced) | 0 | 2026-04-28T21:06:47Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 
@@ -33,5 +34,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [UnknownPlatypus/markup_fmt](https://github.com/UnknownPlatypus/markup_fmt) | 0 | 2026-05-04T21:44:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [lakekeeper/iceberg-rust](https://github.com/lakekeeper/iceberg-rust) | 0 | 2026-05-02T22:52:17Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [squidowl/iced](https://github.com/squidowl/iced) | 0 | 2026-04-28T21:06:47Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 7 |

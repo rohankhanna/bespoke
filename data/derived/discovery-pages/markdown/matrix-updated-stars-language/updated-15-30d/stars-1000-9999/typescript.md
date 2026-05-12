@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 141
-- terms: 1177
-- components: 5715
-- concepts: 1074
-- observations: 1077
+- repos: 142
+- terms: 1182
+- components: 5757
+- concepts: 1079
+- observations: 1082
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [AnotiaWang/deep-research-web-ui](https://github.com/AnotiaWang/deep-research-web-ui) | 2181 | 2026-04-28T06:43:29Z | TypeScript | Infrastructure/tooling | 5 | 42 | 5 | 5 |
 | [Urigo/graphql-cli](https://github.com/Urigo/graphql-cli) | 2021 | 2026-04-27T20:43:57Z | TypeScript | CLI | 7 | 25 | 7 | 7 |
 | [callstack/react-native-testing-library](https://github.com/callstack/react-native-testing-library) | 3364 | 2026-04-27T17:03:02Z | TypeScript | Infrastructure/tooling | 8 | 39 | 8 | 8 |
 | [ts-safeql/safeql](https://github.com/ts-safeql/safeql) | 1545 | 2026-04-27T09:32:36Z | TypeScript | Infrastructure/tooling | 5 | 9 | 5 | 5 |
@@ -254,6 +255,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [redhat-developer/vscode-java](https://github.com/redhat-developer/vscode-java) | 2288 | 2026-04-15T18:03:21Z | TypeScript | Infrastructure/tooling | 8 | 63 | 8 | 8 |
 | [ory/polis](https://github.com/ory/polis) | 2229 | 2026-04-25T10:27:10Z | TypeScript | Infrastructure/tooling | 17 | 76 | 17 | 17 |
 | [react-hook-form/resolvers](https://github.com/react-hook-form/resolvers) | 2228 | 2026-04-19T21:09:05Z | TypeScript | Infrastructure/tooling | 15 | 59 | 15 | 15 |
+| [AnotiaWang/deep-research-web-ui](https://github.com/AnotiaWang/deep-research-web-ui) | 2181 | 2026-04-28T06:43:29Z | TypeScript | Infrastructure/tooling | 5 | 42 | 5 | 5 |
 | [Comfy-Org/desktop](https://github.com/Comfy-Org/desktop) | 2166 | 2026-04-22T01:57:20Z | TypeScript | Infrastructure/tooling | 9 | 62 | 9 | 9 |
 | [actions/setup-python](https://github.com/actions/setup-python) | 2143 | 2026-04-23T06:10:21Z | TypeScript | Infrastructure/tooling | 7 | 30 | 7 | 7 |
 | [webgpu/webgpu-samples](https://github.com/webgpu/webgpu-samples) | 2122 | 2026-04-16T23:27:24Z | TypeScript | Infrastructure/tooling | 2 | 37 | 2 | 2 |

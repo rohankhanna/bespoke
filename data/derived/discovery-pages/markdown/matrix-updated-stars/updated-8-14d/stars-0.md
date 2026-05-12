@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 0 stars
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 56
-- terms: 69
-- components: 137
-- concepts: 69
-- observations: 69
+- repos: 57
+- terms: 70
+- components: 142
+- concepts: 70
+- observations: 70
 
 ## Static behavior
 
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [UnknownPlatypus/markup_fmt](https://github.com/UnknownPlatypus/markup_fmt) | 0 | 2026-05-04T21:44:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [danielrosehill/Claude-Hardware-ID-Annotation-Plugin](https://github.com/danielrosehill/Claude-Hardware-ID-Annotation-Plugin) | 0 | 2026-05-04T08:06:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Agent-Relay-Plugin](https://github.com/danielrosehill/Claude-Agent-Relay-Plugin) | 0 | 2026-05-03T18:35:38Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [kleisauke/glib](https://github.com/kleisauke/glib) | 0 | 2026-05-03T15:23:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -86,6 +87,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [UnknownPlatypus/markup_fmt](https://github.com/UnknownPlatypus/markup_fmt) | 0 | 2026-05-04T21:44:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [danielrosehill/Claude-Hardware-ID-Annotation-Plugin](https://github.com/danielrosehill/Claude-Hardware-ID-Annotation-Plugin) | 0 | 2026-05-04T08:06:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Agent-Relay-Plugin](https://github.com/danielrosehill/Claude-Agent-Relay-Plugin) | 0 | 2026-05-03T18:35:38Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [kleisauke/glib](https://github.com/kleisauke/glib) | 0 | 2026-05-03T15:23:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

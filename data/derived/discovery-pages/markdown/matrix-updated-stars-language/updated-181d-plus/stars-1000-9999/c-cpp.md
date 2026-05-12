@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -204,7 +204,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nihui/realsr-ncnn-vulkan](https://github.com/nihui/realsr-ncnn-vulkan) | 1209 | 2023-03-12T03:03:53Z | C/C++ | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [vit-vit/CTPL](https://github.com/vit-vit/CTPL) | 2029 | 2023-01-26T06:30:38Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [bitfieldaudio/OTTO](https://github.com/bitfieldaudio/OTTO) | 2718 | 2023-01-23T08:31:10Z | C/C++ | Unknown | 8 | 0 | 8 | 8 |
-| [google-deepmind/lab](https://github.com/google-deepmind/lab) | 7357 | 2023-01-04T15:38:37Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
+| [google-deepmind/lab](https://github.com/google-deepmind/lab) | 7358 | 2023-01-04T15:38:37Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle](https://github.com/Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle) | 1221 | 2022-12-15T07:11:10Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [cmu-db/noisepage](https://github.com/cmu-db/noisepage) | 1762 | 2022-11-08T02:06:47Z | C/C++ | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [lzfse/lzfse](https://github.com/lzfse/lzfse) | 1820 | 2022-09-05T14:32:12Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
@@ -241,7 +241,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Squirrel/Squirrel.Windows](https://github.com/Squirrel/Squirrel.Windows) | 7934 | 2024-07-24T10:06:45Z | C/C++ | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [zaphoyd/websocketpp](https://github.com/zaphoyd/websocketpp) | 7675 | 2025-04-19T14:02:47Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
 | [google/glog](https://github.com/google/glog) | 7365 | 2025-05-17T11:51:44Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |
-| [google-deepmind/lab](https://github.com/google-deepmind/lab) | 7357 | 2023-01-04T15:38:37Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
+| [google-deepmind/lab](https://github.com/google-deepmind/lab) | 7358 | 2023-01-04T15:38:37Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [PaddlePaddle/Paddle-Lite](https://github.com/PaddlePaddle/Paddle-Lite) | 7248 | 2025-05-22T12:07:25Z | C/C++ | Unknown | 8 | 0 | 8 | 8 |
 | [stanfordnlp/GloVe](https://github.com/stanfordnlp/GloVe) | 7217 | 2025-07-27T18:05:10Z | C/C++ | Model/data | 0 | 0 | 0 | 0 |
 | [julienxx/terminal-notifier](https://github.com/julienXX/terminal-notifier) | 7150 | 2025-11-02T14:24:58Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |

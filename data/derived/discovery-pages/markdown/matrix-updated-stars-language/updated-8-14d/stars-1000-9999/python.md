@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 142
-- terms: 1374
-- components: 1332
-- concepts: 1384
-- observations: 1387
+- repos: 141
+- terms: 1361
+- components: 1328
+- concepts: 1371
+- observations: 1374
 
 ## Static behavior
 
@@ -167,7 +167,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [shibing624/MedicalGPT](https://github.com/shibing624/MedicalGPT) | 5341 | 2026-04-28T13:48:23Z | Python | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [ModelTC/LightX2V](https://github.com/ModelTC/LightX2V) | 2228 | 2026-04-28T09:44:38Z | Python | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [theupdateframework/python-tuf](https://github.com/theupdateframework/python-tuf) | 1708 | 2026-04-28T08:59:40Z | Python | Infrastructure/tooling | 11 | 10 | 11 | 11 |
-| [git-cola/git-cola](https://github.com/git-cola/git-cola) | 2519 | 2026-04-28T07:20:04Z | Python | Infrastructure/tooling | 13 | 4 | 13 | 13 |
 
 ## Repos sorted by stars
 
@@ -250,7 +249,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [meta-pytorch/torchrec](https://github.com/meta-pytorch/torchrec) | 2535 | 2026-04-29T20:30:58Z | Python | Infrastructure/tooling | 14 | 14 | 14 | 14 |
 | [viser-project/viser](https://github.com/viser-project/viser) | 2531 | 2026-05-02T00:29:25Z | Python | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [rasterio/rasterio](https://github.com/rasterio/rasterio) | 2520 | 2026-05-01T14:46:11Z | Python | CLI | 9 | 8 | 9 | 9 |
-| [git-cola/git-cola](https://github.com/git-cola/git-cola) | 2519 | 2026-04-28T07:20:04Z | Python | Infrastructure/tooling | 13 | 4 | 13 | 13 |
 | [coin-or/pulp](https://github.com/coin-or/pulp) | 2434 | 2026-04-29T13:15:06Z | Python | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [open-telemetry/opentelemetry-python](https://github.com/open-telemetry/opentelemetry-python) | 2417 | 2026-04-29T16:27:22Z | Python | Infrastructure/tooling | 12 | 12 | 12 | 12 |
 | [TorchIO-project/torchio](https://github.com/TorchIO-project/torchio) | 2394 | 2026-05-01T22:42:50Z | Python | Infrastructure/tooling | 14 | 15 | 14 | 14 |

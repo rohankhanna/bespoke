@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3501,
-    "concepts": 2665,
-    "observations": 2670,
-    "repos": 669,
-    "terms": 2656
+    "components": 3519,
+    "concepts": 2684,
+    "observations": 2689,
+    "repos": 672,
+    "terms": 2673
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "0k/shyaml",
     "10up/action-wordpress-plugin-asset-update",
@@ -28,6 +28,7 @@
     "adaltas/node-http-status",
     "adamritter/fastgron",
     "addyosmani/chatty",
+    "adhikasp/mcp-client-cli",
     "adriantoine/enzyme-to-json",
     "aesalazar/AsteroidsWasm",
     "agenda/agendash",
@@ -174,6 +175,8 @@
     "clojure/tools.namespace",
     "clojure/tools.nrepl",
     "clojure/tools.reader",
+    "cloudpilot-ai/karpenter-provider-alibabacloud",
+    "cloudwego/biz-demo",
     "cloudwego/hertz-examples",
     "cnuernber/charred",
     "cocos/cocos-test-projects",

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 19
-- terms: 111
-- components: 148
-- concepts: 111
-- observations: 112
+- repos: 18
+- terms: 104
+- components: 143
+- concepts: 104
+- observations: 105
 
 ## Static behavior
 
@@ -26,7 +26,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-05-11T00:00:53Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-05-10T07:39:51Z | Other | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 | [tinted-theming/tinted-xresources](https://github.com/tinted-theming/tinted-xresources) | 20 | 2026-05-10T02:01:49Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [rcasia/neotest-java](https://github.com/rcasia/neotest-java) | 70 | 2026-05-09T12:32:42Z | Other | Infrastructure/tooling | 9 | 10 | 9 | 9 |
@@ -56,7 +55,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rcasia/neotest-java](https://github.com/rcasia/neotest-java) | 70 | 2026-05-09T12:32:42Z | Other | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [mrcjkb/neotest-haskell](https://github.com/mrcjkb/neotest-haskell) | 69 | 2026-05-07T00:47:27Z | Other | Infrastructure/tooling | 15 | 14 | 15 | 15 |
 | [siketyan/intellij-rustowl](https://github.com/siketyan/intellij-rustowl) | 63 | 2026-05-08T03:05:51Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
-| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-05-11T00:00:53Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-05-10T07:39:51Z | Other | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 | [ocaml-tracing/ocaml-opentelemetry](https://github.com/ocaml-tracing/ocaml-opentelemetry) | 56 | 2026-05-08T19:40:29Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [jelly-beam/rebar3_ex_doc](https://github.com/jelly-beam/rebar3_ex_doc) | 48 | 2026-05-09T01:46:21Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 518,
-    "concepts": 400,
-    "observations": 400,
-    "repos": 32,
-    "terms": 395
+    "components": 505,
+    "concepts": 388,
+    "observations": 388,
+    "repos": 31,
+    "terms": 383
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "alacritty/alacritty",
     "biomejs/biome",
-    "ClementTsang/bottom",
     "emilk/egui",
     "facebook/flow",
     "firecracker-microvm/firecracker",

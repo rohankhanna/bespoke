@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 41
-- terms: 580
-- components: 645
-- concepts: 580
-- observations: 582
+- repos: 40
+- terms: 564
+- components: 636
+- concepts: 564
+- observations: 566
 
 ## Static behavior
 
@@ -66,7 +66,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [go-playground/validator](https://github.com/go-playground/validator) | 19926 | 2026-04-29T07:51:08Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core) | 33854 | 2026-04-28T22:52:41Z | Go | Infrastructure/tooling | 18 | 12 | 18 | 18 |
 | [php/frankenphp](https://github.com/php/frankenphp) | 11026 | 2026-04-28T10:09:52Z | Go | Infrastructure/tooling | 11 | 13 | 11 | 11 |
-| [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) | 13137 | 2026-04-28T07:25:47Z | Go | Infrastructure/tooling | 16 | 9 | 16 | 16 |
 
 ## Repos sorted by stars
 
@@ -108,7 +107,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager) | 13790 | 2026-05-04T03:40:02Z | Go | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [ory/kratos](https://github.com/ory/kratos) | 13610 | 2026-04-30T10:05:07Z | Go | Infrastructure/tooling | 17 | 36 | 17 | 17 |
 | [DNSCrypt/dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) | 13256 | 2026-04-30T03:52:44Z | Go | Infrastructure/tooling | 13 | 8 | 13 | 13 |
-| [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) | 13137 | 2026-04-28T07:25:47Z | Go | Infrastructure/tooling | 16 | 9 | 16 | 16 |
 | [anchore/grype](https://github.com/anchore/grype) | 12121 | 2026-05-01T21:41:37Z | Go | Infrastructure/tooling | 19 | 15 | 19 | 19 |
 | [bufbuild/buf](https://github.com/bufbuild/buf) | 11085 | 2026-04-29T20:15:39Z | Go | CLI | 13 | 14 | 13 | 13 |
 | [php/frankenphp](https://github.com/php/frankenphp) | 11026 | 2026-04-28T10:09:52Z | Go | Infrastructure/tooling | 11 | 13 | 11 | 11 |

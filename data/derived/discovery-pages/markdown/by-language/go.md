@@ -1,6 +1,6 @@
 # Go
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-05-12T05:46:29.404112+00:00`
 
 ## Counts
 
-- repos: 1708
-- terms: 9960
-- components: 10187
-- concepts: 10007
-- observations: 10039
+- repos: 1709
+- terms: 9962
+- components: 10194
+- concepts: 10009
+- observations: 10041
 
 ## Static behavior
 
@@ -22,16 +22,17 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [weaviate/weaviate](https://github.com/weaviate/weaviate) | 16169 | 2026-05-12T07:38:33Z | Go | Infrastructure/tooling | 26 | 8 | 26 | 26 |
+| [gastownhall/gastown](https://github.com/gastownhall/gastown) | 15109 | 2026-05-12T05:32:05Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [dkron-io/dkron](https://github.com/dkron-io/dkron) | 4688 | 2026-05-12T02:01:56Z | Go | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [mudler/LocalAI](https://github.com/mudler/LocalAI) | 46202 | 2026-05-12T01:33:55Z | Go | Infrastructure/tooling | 20 | 16 | 20 | 20 |
 | [googleapis/google-cloud-go](https://github.com/googleapis/google-cloud-go) | 4452 | 2026-05-12T01:05:20Z | Go | CLI | 10 | 8 | 10 | 10 |
 | [crc-org/crc](https://github.com/crc-org/crc) | 1384 | 2026-05-12T00:26:07Z | Go | Infrastructure/tooling | 17 | 10 | 17 | 17 |
 | [ollama/ollama](https://github.com/ollama/ollama) | 171224 | 2026-05-12T00:21:47Z | Go | Infrastructure/tooling | 18 | 14 | 16 | 16 |
 | [aws/karpenter-provider-aws](https://github.com/aws/karpenter-provider-aws) | 7626 | 2026-05-11T23:44:12Z | Go | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [weaviate/weaviate](https://github.com/weaviate/weaviate) | 16166 | 2026-05-11T20:52:22Z | Go | Infrastructure/tooling | 26 | 8 | 26 | 26 |
+| [etcd-io/bbolt](https://github.com/etcd-io/bbolt) | 9502 | 2026-05-11T22:41:34Z | Go | Infrastructure/tooling | 8 | 3 | 8 | 8 |
+| [gastownhall/beads](https://github.com/gastownhall/beads) | 23547 | 2026-05-11T22:22:36Z | Go | Infrastructure/tooling | 10 | 35 | 10 | 10 |
 | [moby/moby](https://github.com/moby/moby) | 71543 | 2026-05-11T20:06:20Z | Go | Infrastructure/tooling | 5 | 13 | 5 | 5 |
-| [gastownhall/beads](https://github.com/gastownhall/beads) | 23532 | 2026-05-11T20:00:02Z | Go | Infrastructure/tooling | 10 | 35 | 10 | 10 |
-| [gastownhall/gastown](https://github.com/gastownhall/gastown) | 15091 | 2026-05-11T19:17:42Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 905 | 2026-05-11T19:07:14Z | Go | Infrastructure/tooling | 5 | 19 | 5 | 5 |
 | [kelos-dev/kelos](https://github.com/kelos-dev/kelos) | 164 | 2026-05-11T18:04:10Z | Go | Infrastructure/tooling | 16 | 10 | 16 | 16 |
 | [googleapis/google-api-go-client](https://github.com/googleapis/google-api-go-client) | 4434 | 2026-05-11T17:00:01Z | Go | Service/API | 0 | 0 | 0 | 0 |
@@ -41,7 +42,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cloudfoundry/credhub-acceptance-tests](https://github.com/cloudfoundry/credhub-acceptance-tests) | 2 | 2026-05-11T13:02:12Z | Go | Unknown | 4 | 0 | 4 | 4 |
 | [QuantumNous/new-api](https://github.com/QuantumNous/new-api) | 32532 | 2026-05-11T03:25:37Z | Go | Infrastructure/tooling | 12 | 24 | 12 | 12 |
 | [joshsymonds/cc-tools](https://github.com/joshsymonds/cc-tools) | 50 | 2026-05-11T01:57:27Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
-| [etcd-io/bbolt](https://github.com/etcd-io/bbolt) | 9502 | 2026-05-10T19:35:52Z | Go | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [bazel-contrib/rules_go](https://github.com/bazel-contrib/rules_go) | 1478 | 2026-05-09T05:33:28Z | Go | Unknown | 3 | 0 | 3 | 3 |
 | [energye/wv](https://github.com/energye/wv) | 22 | 2026-05-09T01:13:26Z | Go | Framework | 0 | 0 | 0 | 0 |
 | [kubernetes-sigs/karpenter](https://github.com/kubernetes-sigs/karpenter) | 1875 | 2026-05-08T22:52:31Z | Go | Infrastructure/tooling | 8 | 10 | 8 | 8 |
@@ -605,7 +605,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kuberhealthy/kuberhealthy](https://github.com/kuberhealthy/kuberhealthy) | 2232 | 2026-04-20T04:55:30Z | Go | Infrastructure/tooling | 17 | 2 | 17 | 17 |
 | [ariga/atlas](https://github.com/ariga/atlas) | 8310 | 2026-04-20T04:50:37Z | Go | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [terraform-linters/tflint-ruleset-aws](https://github.com/terraform-linters/tflint-ruleset-aws) | 411 | 2026-04-20T02:49:49Z | Go | Infrastructure/tooling | 10 | 6 | 10 | 10 |
-| [Billionmail/BillionMail](https://github.com/Billionmail/BillionMail) | 14689 | 2026-04-20T02:35:18Z | Go | Service/API | 11 | 0 | 11 | 11 |
+| [Billionmail/BillionMail](https://github.com/Billionmail/BillionMail) | 14693 | 2026-04-20T02:35:18Z | Go | Service/API | 11 | 0 | 11 | 11 |
 | [Bearer/bearer](https://github.com/Bearer/bearer) | 2627 | 2026-04-20T02:31:54Z | Go | Infrastructure/tooling | 26 | 12 | 26 | 26 |
 | [containernetworking/plugins](https://github.com/containernetworking/plugins) | 2516 | 2026-04-20T02:25:14Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [magodo/aztft](https://github.com/magodo/aztft) | 31 | 2026-04-20T02:24:24Z | Go | Unknown | 0 | 0 | 0 | 0 |
@@ -901,7 +901,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aws/aws-ebpf-sdk-go](https://github.com/aws/aws-ebpf-sdk-go) | 83 | 2026-03-25T21:52:53Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [justinfx/olric-nats-plugin](https://github.com/justinfx/olric-nats-plugin) | 8 | 2026-03-25T20:22:13Z | Go | Service/API | 7 | 0 | 7 | 7 |
 | [minio/directpv](https://github.com/minio/directpv) | 701 | 2026-03-25T18:26:40Z | Go | Infrastructure/tooling | 10 | 7 | 10 | 10 |
-| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 26830 | 2026-03-25T13:57:45Z | Go | CLI | 16 | 8 | 16 | 17 |
+| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 26861 | 2026-03-25T13:57:45Z | Go | CLI | 16 | 8 | 16 | 17 |
 | [datachainlab/ibc-parlia-relay](https://github.com/datachainlab/ibc-parlia-relay) | 0 | 2026-03-25T09:54:22Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [aquasecurity/tfsec](https://github.com/aquasecurity/tfsec) | 6987 | 2026-03-25T08:06:52Z | Go | Infrastructure/tooling | 23 | 12 | 23 | 23 |
 | [yuin/goldmark](https://github.com/yuin/goldmark) | 4734 | 2026-03-25T05:08:07Z | Go | Infrastructure/tooling | 4 | 4 | 5 | 5 |
@@ -930,6 +930,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stretchr/objx](https://github.com/stretchr/objx) | 851 | 2026-03-20T13:17:27Z | Go | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [goccy/go-json](https://github.com/goccy/go-json) | 3660 | 2026-03-20T09:41:37Z | Go | Infrastructure/tooling | 2 | 3 | 3 | 3 |
 | [minio/operator](https://github.com/minio/operator) | 1426 | 2026-03-20T00:04:08Z | Go | Infrastructure/tooling | 6 | 11 | 6 | 6 |
+| [EstebanForge/mcp-cli-ent](https://github.com/EstebanForge/mcp-cli-ent) | 15 | 2026-03-19T14:10:17Z | Go | CLI | 2 | 7 | 2 | 2 |
 | [coocood/freecache](https://github.com/coocood/freecache) | 5389 | 2026-03-19T11:56:56Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [bazelbuild/buildtools](https://github.com/bazelbuild/buildtools) | 1169 | 2026-03-19T08:02:35Z | Go | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [kubernetes-sigs/cluster-proportional-autoscaler](https://github.com/kubernetes-sigs/cluster-proportional-autoscaler) | 748 | 2026-03-19T01:07:29Z | Go | Infrastructure/tooling | 2 | 2 | 2 | 2 |
@@ -1794,7 +1795,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [authelia/authelia](https://github.com/authelia/authelia) | 27670 | 2026-05-01T13:46:47Z | Go | Infrastructure/tooling | 20 | 9 | 20 | 20 |
 | [go-kit/kit](https://github.com/go-kit/kit) | 27450 | 2024-07-19T01:40:06Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [router-for-me/cliproxyapi](https://github.com/router-for-me/CLIProxyAPI) | 27212 | 2026-04-19T03:46:22Z | Go | CLI | 10 | 9 | 10 | 10 |
-| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 26830 | 2026-03-25T13:57:45Z | Go | CLI | 16 | 8 | 16 | 17 |
+| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 26861 | 2026-03-25T13:57:45Z | Go | CLI | 16 | 8 | 16 | 17 |
 | [stretchr/testify](https://github.com/stretchr/testify) | 25969 | 2026-04-08T17:29:08Z | Go | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) | 25845 | 2026-04-21T10:24:20Z | Go | Infrastructure/tooling | 17 | 9 | 17 | 17 |
 | [sirupsen/logrus](https://github.com/sirupsen/logrus) | 25711 | 2026-03-09T21:36:22Z | Go | Infrastructure/tooling | 2 | 3 | 2 | 2 |
@@ -1809,7 +1810,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [uber-go/zap](https://github.com/uber-go/zap) | 24416 | 2026-03-16T16:29:11Z | Go | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [cilium/cilium](https://github.com/cilium/cilium) | 24263 | 2026-05-04T09:41:53Z | Go | Infrastructure/tooling | 18 | 14 | 18 | 20 |
 | [urfave/cli](https://github.com/urfave/cli) | 23988 | 2026-04-18T18:48:23Z | Go | CLI | 6 | 5 | 8 | 8 |
-| [gastownhall/beads](https://github.com/gastownhall/beads) | 23532 | 2026-05-11T20:00:02Z | Go | Infrastructure/tooling | 10 | 35 | 10 | 10 |
+| [gastownhall/beads](https://github.com/gastownhall/beads) | 23547 | 2026-05-11T22:22:36Z | Go | Infrastructure/tooling | 10 | 35 | 10 | 10 |
 | [charmbracelet/gum](https://github.com/charmbracelet/gum) | 23398 | 2026-04-13T09:16:41Z | Go | Infrastructure/tooling | 6 | 6 | 8 | 8 |
 | [valyala/fasthttp](https://github.com/valyala/fasthttp) | 23341 | 2026-04-20T07:51:28Z | Go | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [charmbracelet/crush](https://github.com/charmbracelet/crush) | 23202 | 2026-04-19T01:02:54Z | Go | Infrastructure/tooling | 11 | 10 | 11 | 11 |
@@ -1855,7 +1856,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kubernetes/kops](https://github.com/kubernetes/kops) | 16594 | 2026-04-21T19:31:51Z | Go | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [hashicorp/nomad](https://github.com/hashicorp/nomad) | 16460 | 2026-04-30T00:44:46Z | Go | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [pion/webrtc](https://github.com/pion/webrtc) | 16261 | 2026-05-01T17:09:26Z | Go | Infrastructure/tooling | 24 | 8 | 24 | 24 |
-| [weaviate/weaviate](https://github.com/weaviate/weaviate) | 16166 | 2026-05-11T20:52:22Z | Go | Infrastructure/tooling | 26 | 8 | 26 | 26 |
+| [weaviate/weaviate](https://github.com/weaviate/weaviate) | 16169 | 2026-05-12T07:38:33Z | Go | Infrastructure/tooling | 26 | 8 | 26 | 26 |
 | [mailhog/MailHog](https://github.com/mailhog/MailHog) | 15939 | 2024-02-13T18:38:41Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [GoogleContainerTools/skaffold](https://github.com/GoogleContainerTools/skaffold) | 15816 | 2026-04-23T17:36:28Z | Go | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [GoogleContainerTools/kaniko](https://github.com/GoogleContainerTools/kaniko) | 15769 | 2025-06-03T14:36:10Z | Go | Infrastructure/tooling | 8 | 11 | 8 | 8 |
@@ -1867,11 +1868,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mikefarah/yq](https://github.com/mikefarah/yq) | 15282 | 2026-04-23T03:52:40Z | Go | CLI | 14 | 18 | 18 | 18 |
 | [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) | 15245 | 2026-04-29T13:29:41Z | Go | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15181 | 2026-04-20T08:50:53Z | Go | Infrastructure/tooling | 7 | 5 | 7 | 9 |
-| [gastownhall/gastown](https://github.com/gastownhall/gastown) | 15091 | 2026-05-11T19:17:42Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |
+| [gastownhall/gastown](https://github.com/gastownhall/gastown) | 15109 | 2026-05-12T05:32:05Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [direnv/direnv](https://github.com/direnv/direnv) | 14989 | 2026-03-31T18:52:06Z | Go | Infrastructure/tooling | 9 | 9 | 12 | 12 |
 | [muesli/duf](https://github.com/muesli/duf) | 14961 | 2026-01-13T11:07:14Z | Go | CLI | 16 | 5 | 16 | 16 |
 | [gotify/server](https://github.com/gotify/server) | 14950 | 2026-05-01T13:27:17Z | Go | Infrastructure/tooling | 12 | 9 | 12 | 12 |
-| [Billionmail/BillionMail](https://github.com/Billionmail/BillionMail) | 14689 | 2026-04-20T02:35:18Z | Go | Service/API | 11 | 0 | 11 | 11 |
+| [Billionmail/BillionMail](https://github.com/Billionmail/BillionMail) | 14693 | 2026-04-20T02:35:18Z | Go | Service/API | 11 | 0 | 11 | 11 |
 | [tomnomnom/gron](https://github.com/tomnomnom/gron) | 14422 | 2025-05-31T15:00:47Z | Go | CLI | 1 | 3 | 2 | 2 |
 | [panjf2000/ants](https://github.com/panjf2000/ants) | 14405 | 2026-04-01T00:40:56Z | Go | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [oauth2-proxy/oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy) | 14294 | 2026-05-03T15:03:45Z | Go | Infrastructure/tooling | 10 | 19 | 10 | 10 |
@@ -1932,7 +1933,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kubernetes/client-go](https://github.com/kubernetes/client-go) | 9802 | 2026-04-23T03:38:26Z | Go | CLI | 1 | 0 | 1 | 1 |
 | [tilt-dev/tilt](https://github.com/tilt-dev/tilt) | 9667 | 2026-04-24T20:18:03Z | Go | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [tidwall/tile38](https://github.com/tidwall/tile38) | 9627 | 2026-04-24T20:09:52Z | Go | Infrastructure/tooling | 6 | 2 | 6 | 6 |
-| [etcd-io/bbolt](https://github.com/etcd-io/bbolt) | 9502 | 2026-05-10T19:35:52Z | Go | Infrastructure/tooling | 8 | 3 | 8 | 8 |
+| [etcd-io/bbolt](https://github.com/etcd-io/bbolt) | 9502 | 2026-05-11T22:41:34Z | Go | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [flannel-io/flannel](https://github.com/flannel-io/flannel) | 9439 | 2026-04-21T07:58:40Z | Go | Infrastructure/tooling | 15 | 18 | 15 | 15 |
 | [replicate/cog](https://github.com/replicate/cog) | 9407 | 2026-04-30T18:24:41Z | Go | Infrastructure/tooling | 11 | 14 | 11 | 11 |
 | [golang/mock](https://github.com/golang/mock) | 9367 | 2024-01-08T08:00:38Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -3228,6 +3229,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [spacemeshos/smrepl](https://github.com/spacemeshos/smrepl) | 16 | 2022-07-17T05:42:44Z | Go | CLI | 5 | 7 | 5 | 5 |
 | [alexanderscrimgeour/biogo](https://github.com/alexanderscrimgeour/biogo) | 16 | 2022-05-18T21:00:14Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [0ghny/gitconfig](https://github.com/0ghny/gitconfig) | 15 | 2026-04-07T08:29:20Z | Go | CLI | 2 | 10 | 2 | 2 |
+| [EstebanForge/mcp-cli-ent](https://github.com/EstebanForge/mcp-cli-ent) | 15 | 2026-03-19T14:10:17Z | Go | CLI | 2 | 7 | 2 | 2 |
 | [seaweedfs/seaweedfs-cosi-driver](https://github.com/seaweedfs/seaweedfs-cosi-driver) | 15 | 2026-02-26T14:04:50Z | Go | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [carbocation/genomisc](https://github.com/carbocation/genomisc) | 15 | 2024-07-26T16:13:10Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [qri-io/dataset](https://github.com/qri-io/dataset) | 15 | 2021-09-24T02:06:44Z | Go | Model/data | 3 | 0 | 3 | 3 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2117,
-    "concepts": 2485,
-    "observations": 2494,
+    "components": 2118,
+    "concepts": 2490,
+    "observations": 2499,
     "repos": 312,
-    "terms": 2489
+    "terms": 2494
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "a2aproject/a2a-python",
     "abhiTronix/vidgear",
@@ -108,6 +108,7 @@
     "fugue-project/fugue",
     "FuzzyGrim/Yamtrack",
     "Gen-Verse/OpenClaw-RL",
+    "git-cola/git-cola",
     "gitpython-developers/GitPython",
     "google-deepmind/mujoco_menagerie",
     "google-deepmind/mujoco_playground",
@@ -316,7 +317,6 @@
     "weaviate/Verba",
     "wemake-services/wemake-python-styleguide",
     "withoutbg/withoutbg",
-    "wkentaro/gdown",
     "xbpeng/MimicKit",
     "xdit-project/xDiT",
     "xlang-ai/OSWorld",

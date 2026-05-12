@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 200
-- terms: 321
-- components: 689
-- concepts: 309
-- observations: 311
+- repos: 201
+- terms: 322
+- components: 693
+- concepts: 310
+- observations: 312
 
 ## Static behavior
 
@@ -190,6 +190,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mmark-md/flycheck-mmark](https://github.com/mmark-md/flycheck-mmark) | 6 | 2025-11-26T20:21:10Z | Other | Infrastructure/tooling | 3 | 2 | 4 | 4 |
 | [datachainlab/lcp-solidity](https://github.com/datachainlab/lcp-solidity) | 1 | 2025-11-26T11:45:44Z | Other | Infrastructure/tooling | 1 | 12 | 1 | 1 |
 | [infiniflow/resource](https://github.com/infiniflow/resource) | 5 | 2025-11-26T09:33:56Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [xazukx/ts-rs](https://github.com/xazukx/ts-rs) | 1 | 2025-11-26T08:27:17Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [atrodo/WebGPU-Direct](https://github.com/atrodo/WebGPU-Direct) | 3 | 2025-11-26T05:19:53Z | Other | Service/API | 5 | 0 | 5 | 5 |
 | [ocaml-opam/opam-rt](https://github.com/ocaml-opam/opam-rt) | 8 | 2025-11-25T18:13:06Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [danielrosehill/Ai-Workspace-Planning-Notes](https://github.com/danielrosehill/Ai-Workspace-Planning-Notes) | 1 | 2025-11-25T13:27:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -421,6 +422,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [holochain/hc-launch](https://github.com/holochain/hc-launch) | 1 | 2025-12-01T18:59:43Z | Rust | CLI | 1 | 3 | 1 | 1 |
 | [slunsford/coffee-analytics](https://github.com/slunsford/coffee-analytics) | 1 | 2025-11-27T01:50:12Z | Other | Infrastructure/tooling | 2 | 5 | 0 | 0 |
 | [datachainlab/lcp-solidity](https://github.com/datachainlab/lcp-solidity) | 1 | 2025-11-26T11:45:44Z | Other | Infrastructure/tooling | 1 | 12 | 1 | 1 |
+| [xazukx/ts-rs](https://github.com/xazukx/ts-rs) | 1 | 2025-11-26T08:27:17Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [danielrosehill/Ai-Workspace-Planning-Notes](https://github.com/danielrosehill/Ai-Workspace-Planning-Notes) | 1 | 2025-11-25T13:27:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [JaneliaSciComp/n5-zstandard](https://github.com/JaneliaSciComp/n5-zstandard) | 1 | 2025-11-24T14:41:36Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [KSXGitHub/personal-pacman-packages](https://github.com/KSXGitHub/personal-pacman-packages) | 1 | 2025-11-24T08:39:15Z | Shell | Infrastructure/tooling | 3 | 2 | 3 | 3 |

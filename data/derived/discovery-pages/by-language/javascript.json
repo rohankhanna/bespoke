@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 39049,
-    "concepts": 8698,
-    "observations": 8724,
-    "repos": 2062,
-    "terms": 8691
+    "components": 39074,
+    "concepts": 8706,
+    "observations": 8732,
+    "repos": 2064,
+    "terms": 8697
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "0x4139/cosmos-discord-faucet",
     "0xPolygon/pilcom",
@@ -25,6 +25,7 @@
     "3swordman/tree-sitter-toon",
     "4catalyzer/javascript",
     "4ian/GDevelop",
+    "4xian/claude-codex-api",
     "59naga/babel-plugin-add-module-exports",
     "5scontrol/5s-algorithms-controller",
     "5sControl/5s-onvif",
@@ -1156,6 +1157,7 @@
     "kellyselden/git-diff-apply",
     "kellyselden/merge-package.json",
     "kentcdodds/babel-plugin-macros",
+    "kepano/defuddle-cli",
     "kesla/node-snappy",
     "khaledosman/react-redux-realworld-example-app",
     "kharchenkolab/pagoda2",

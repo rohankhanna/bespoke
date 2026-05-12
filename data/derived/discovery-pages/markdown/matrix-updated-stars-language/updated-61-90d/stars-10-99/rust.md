@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 21
+- repos: 22
 - terms: 48
 - components: 81
 - concepts: 48
@@ -36,6 +36,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dgn/oidc-filter](https://github.com/dgn/oidc-filter) | 59 | 2026-03-04T10:18:05Z | Rust | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [libp2p/if-watch](https://github.com/libp2p/if-watch) | 41 | 2026-03-03T13:49:27Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [jasonjmcghee/ron-lsp](https://github.com/jasonjmcghee/ron-lsp) | 56 | 2026-02-28T02:14:07Z | Rust | CLI | 7 | 0 | 7 | 7 |
+| [assimelha/cmcp](https://github.com/assimelha/cmcp) | 29 | 2026-02-26T11:07:51Z | Rust | Service/API | 0 | 0 | 0 | 0 |
 | [Cykooz/libheif-rs](https://github.com/Cykooz/libheif-rs) | 54 | 2026-02-25T18:56:32Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [baerwang/openapi-rs](https://github.com/baerwang/openapi-rs) | 42 | 2026-02-25T03:36:31Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [nebelgrau77/airsniffer-esp32c6](https://github.com/nebelgrau77/airsniffer-esp32c6) | 17 | 2026-02-23T13:29:33Z | Rust | Unknown | 0 | 0 | 0 | 0 |
@@ -65,6 +66,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [filecoin-project/rust-filecoin-proofs-api](https://github.com/filecoin-project/rust-filecoin-proofs-api) | 46 | 2026-03-09T10:45:48Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [baerwang/openapi-rs](https://github.com/baerwang/openapi-rs) | 42 | 2026-02-25T03:36:31Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [libp2p/if-watch](https://github.com/libp2p/if-watch) | 41 | 2026-03-03T13:49:27Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [assimelha/cmcp](https://github.com/assimelha/cmcp) | 29 | 2026-02-26T11:07:51Z | Rust | Service/API | 0 | 0 | 0 | 0 |
 | [dsxmachina/rfm](https://github.com/dsxmachina/rfm) | 26 | 2026-02-21T16:57:19Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [Turbo87/flat-projection-rs](https://github.com/Turbo87/flat-projection-rs) | 20 | 2026-03-12T21:37:11Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [Cykooz/libheif-sys](https://github.com/Cykooz/libheif-sys) | 19 | 2026-02-18T06:41:14Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |

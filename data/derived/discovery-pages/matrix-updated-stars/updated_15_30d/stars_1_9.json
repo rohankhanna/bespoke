@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2344,
-    "concepts": 1037,
-    "observations": 1038,
-    "repos": 321,
-    "terms": 1074
+    "components": 2346,
+    "concepts": 1038,
+    "observations": 1039,
+    "repos": 325,
+    "terms": 1075
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "0xPolygonHermez/pil2-proofman-js",
@@ -131,6 +131,7 @@
     "decibri/decibri.cpp",
     "diffblue/homebrew-cbmc",
     "dm0x23/portfolio-website",
+    "dmBots/DM-J4310-2EC",
     "dora-rs/dora-benchmark",
     "dotenvx/homebrew-brew",
     "dpc/crev-proofs",
@@ -198,6 +199,7 @@
     "j9t/image-guard",
     "j9t/minifier-benchmarks",
     "Jango-AI-com/morning-cli",
+    "jfmengels/elm-review-config",
     "jhugestar/jhugestar.github.io",
     "joinwell52-ai/codeflow-pwa",
     "joinwell52-ai/joinwell52",
@@ -255,6 +257,7 @@
     "openssh/openssh-portable-selfhosted",
     "openwebdocs/mdn-bcd-results",
     "oxc-project/oxc-index-vec",
+    "ParisNeo/lollms_client",
     "penpoen/llm-sugarscape",
     "petmal/mindtrial",
     "php-rdkafka/php-rdkafka-doc",
@@ -319,6 +322,7 @@
     "tweag/gazelle_haskell_modules",
     "ublacklist/builtin",
     "ublacklist/ublacklist.github.io",
+    "UnknownPlatypus/djangofmt-pre-commit",
     "urschrei/polyline-ffi",
     "usbarmory/boot-transparency",
     "usbarmory/go-net",

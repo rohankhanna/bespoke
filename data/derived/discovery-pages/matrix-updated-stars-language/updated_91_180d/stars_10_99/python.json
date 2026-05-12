@@ -3,7 +3,7 @@
     "components": 177,
     "concepts": 200,
     "observations": 200,
-    "repos": 84,
+    "repos": 85,
     "terms": 209
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "aba122/Q-Hawkeye",
@@ -23,6 +23,7 @@
     "amaranth-lang/amaranth-stdio",
     "AnonymouX47/termvisage",
     "antgroup/DeepXTrace",
+    "ASLP-lab/Hum-Dial",
     "az1326/advisor-models",
     "Azure/aaz-dev-tools",
     "bazelbuild/java_tools",

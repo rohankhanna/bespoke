@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 32
-- terms: 395
-- components: 518
-- concepts: 400
-- observations: 400
+- repos: 31
+- terms: 383
+- components: 505
+- concepts: 388
+- observations: 388
 
 ## Static behavior
 
@@ -57,7 +57,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [swc-project/swc](https://github.com/swc-project/swc) | 33382 | 2026-04-29T07:17:04Z | Rust | Infrastructure/tooling | 14 | 69 | 14 | 14 |
 | [helix-editor/helix](https://github.com/helix-editor/helix) | 44167 | 2026-04-28T23:25:11Z | Rust | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [iced-rs/iced](https://github.com/iced-rs/iced) | 30345 | 2026-04-28T11:09:47Z | Rust | Infrastructure/tooling | 15 | 5 | 15 | 15 |
-| [ClementTsang/bottom](https://github.com/ClementTsang/bottom) | 13260 | 2026-04-28T05:54:36Z | Rust | CLI | 12 | 13 | 12 | 12 |
 
 ## Repos sorted by stars
 
@@ -91,7 +90,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 14973 | 2026-04-30T20:09:16Z | Rust | Infrastructure/tooling | 25 | 11 | 25 | 25 |
 | [LemmyNet/lemmy](https://github.com/LemmyNet/lemmy) | 14364 | 2026-05-01T13:25:59Z | Rust | Unknown | 7 | 0 | 7 | 7 |
 | [rolldown/rolldown](https://github.com/rolldown/rolldown) | 13385 | 2026-04-30T10:24:03Z | Rust | Infrastructure/tooling | 6 | 28 | 6 | 6 |
-| [ClementTsang/bottom](https://github.com/ClementTsang/bottom) | 13260 | 2026-04-28T05:54:36Z | Rust | CLI | 12 | 13 | 12 | 12 |
 | [GitoxideLabs/gitoxide](https://github.com/GitoxideLabs/gitoxide) | 11257 | 2026-04-29T15:29:35Z | Rust | CLI | 7 | 13 | 7 | 7 |
 | [quickwit-oss/quickwit](https://github.com/quickwit-oss/quickwit) | 11122 | 2026-04-30T08:26:12Z | Rust | Infrastructure/tooling | 17 | 20 | 17 | 17 |
 | [shadowsocks/shadowsocks-rust](https://github.com/shadowsocks/shadowsocks-rust) | 10580 | 2026-05-01T17:11:37Z | Rust | Infrastructure/tooling | 14 | 12 | 14 | 14 |

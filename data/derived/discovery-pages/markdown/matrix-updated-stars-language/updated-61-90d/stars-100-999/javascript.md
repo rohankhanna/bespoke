@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 18
-- terms: 51
-- components: 341
-- concepts: 51
-- observations: 52
+- repos: 19
+- terms: 55
+- components: 348
+- concepts: 55
+- observations: 56
 
 ## Static behavior
 
@@ -29,6 +29,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kriszyp/cbor-x](https://github.com/kriszyp/cbor-x) | 380 | 2026-03-10T23:06:10Z | JavaScript | Unknown | 0 | 12 | 0 | 0 |
 | [AssemblyScript/wabt.js](https://github.com/AssemblyScript/wabt.js) | 172 | 2026-03-10T18:40:36Z | JavaScript | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [cmake-js/cmake-js](https://github.com/cmake-js/cmake-js) | 950 | 2026-03-09T22:39:46Z | JavaScript | Infrastructure/tooling | 5 | 19 | 5 | 5 |
+| [kepano/defuddle-cli](https://github.com/kepano/defuddle-cli) | 500 | 2026-03-02T14:54:31Z | JavaScript | CLI | 4 | 7 | 4 | 4 |
 | [usnistgov/jsfive](https://github.com/usnistgov/jsfive) | 117 | 2026-03-01T19:45:33Z | JavaScript | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [asdf-vm/actions](https://github.com/asdf-vm/actions) | 162 | 2026-03-01T16:02:27Z | JavaScript | Infrastructure/tooling | 8 | 17 | 8 | 9 |
 | [codota/tabnine-nvim](https://github.com/codota/tabnine-nvim) | 415 | 2026-02-25T20:33:40Z | JavaScript | CLI | 3 | 6 | 3 | 3 |
@@ -52,6 +53,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cmake-js/cmake-js](https://github.com/cmake-js/cmake-js) | 950 | 2026-03-09T22:39:46Z | JavaScript | Infrastructure/tooling | 5 | 19 | 5 | 5 |
 | [adobe-photoshop/generator-core](https://github.com/adobe-photoshop/generator-core) | 699 | 2026-02-22T20:45:54Z | JavaScript | Library | 0 | 9 | 0 | 0 |
 | [faceyspacey/extract-css-chunks-webpack-plugin](https://github.com/faceyspacey/extract-css-chunks-webpack-plugin) | 696 | 2026-02-16T20:48:34Z | JavaScript | Unknown | 0 | 42 | 0 | 0 |
+| [kepano/defuddle-cli](https://github.com/kepano/defuddle-cli) | 500 | 2026-03-02T14:54:31Z | JavaScript | CLI | 4 | 7 | 4 | 4 |
 | [codota/tabnine-nvim](https://github.com/codota/tabnine-nvim) | 415 | 2026-02-25T20:33:40Z | JavaScript | CLI | 3 | 6 | 3 | 3 |
 | [kriszyp/cbor-x](https://github.com/kriszyp/cbor-x) | 380 | 2026-03-10T23:06:10Z | JavaScript | Unknown | 0 | 12 | 0 | 0 |
 | [testing-library/eslint-plugin-jest-dom](https://github.com/testing-library/eslint-plugin-jest-dom) | 367 | 2026-02-13T21:29:12Z | JavaScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |

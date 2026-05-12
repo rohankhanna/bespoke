@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 45
-- terms: 524
-- components: 424
-- concepts: 528
-- observations: 528
+- terms: 513
+- components: 410
+- concepts: 517
+- observations: 517
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mapsforge/mapsforge](https://github.com/mapsforge/mapsforge) | 1371 | 2026-05-05T07:01:32Z | Java | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [unicode-org/cldr](https://github.com/unicode-org/cldr) | 1090 | 2026-05-03T00:00:46Z | Java | Infrastructure/tooling | 9 | 16 | 9 | 9 |
 | [validator/validator](https://github.com/validator/validator) | 1929 | 2026-05-02T10:42:13Z | Java | Infrastructure/tooling | 15 | 19 | 15 | 15 |
 | [sqlancer/sqlancer](https://github.com/sqlancer/sqlancer) | 1728 | 2026-05-02T05:46:49Z | Java | Infrastructure/tooling | 10 | 11 | 10 | 10 |
@@ -51,7 +52,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [firebase/firebase-android-sdk](https://github.com/firebase/firebase-android-sdk) | 2505 | 2026-04-29T21:59:38Z | Java | Infrastructure/tooling | 22 | 17 | 22 | 22 |
 | [aws/aws-sdk-java-v2](https://github.com/aws/aws-sdk-java-v2) | 2575 | 2026-04-29T21:35:41Z | Java | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [googleapis/google-cloud-java](https://github.com/googleapis/google-cloud-java) | 2031 | 2026-04-29T21:29:34Z | Java | CLI | 11 | 10 | 11 | 11 |
-| [junit-team/junit-framework](https://github.com/junit-team/junit-framework) | 7006 | 2026-04-29T20:50:11Z | Java | Infrastructure/tooling | 15 | 16 | 15 | 15 |
 | [jline/jline3](https://github.com/jline/jline3) | 1763 | 2026-04-29T19:43:17Z | Java | CLI | 6 | 10 | 6 | 6 |
 | [konsoletyper/teavm](https://github.com/konsoletyper/teavm) | 3037 | 2026-04-29T19:03:18Z | Java | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [tlaplus/tlaplus](https://github.com/tlaplus/tlaplus) | 2892 | 2026-04-29T17:10:19Z | Java | Infrastructure/tooling | 10 | 7 | 10 | 10 |
@@ -85,7 +85,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dropwizard/dropwizard](https://github.com/dropwizard/dropwizard) | 8584 | 2026-04-30T19:20:05Z | Java | Infrastructure/tooling | 19 | 13 | 19 | 19 |
 | [apache/beam](https://github.com/apache/beam) | 8556 | 2026-04-30T01:42:15Z | Java | Infrastructure/tooling | 14 | 8 | 14 | 14 |
 | [swagger-api/swagger-core](https://github.com/swagger-api/swagger-core) | 7521 | 2026-04-28T14:58:40Z | Java | Infrastructure/tooling | 17 | 11 | 17 | 17 |
-| [junit-team/junit-framework](https://github.com/junit-team/junit-framework) | 7006 | 2026-04-29T20:50:11Z | Java | Infrastructure/tooling | 15 | 16 | 15 | 15 |
 | [hazelcast/hazelcast](https://github.com/hazelcast/hazelcast) | 6575 | 2026-04-30T06:21:01Z | Java | Infrastructure/tooling | 19 | 2 | 19 | 19 |
 | [micronaut-projects/micronaut-core](https://github.com/micronaut-projects/micronaut-core) | 6402 | 2026-04-30T06:26:22Z | Java | Infrastructure/tooling | 14 | 25 | 14 | 14 |
 | [lightbend/config](https://github.com/lightbend/config) | 6296 | 2026-04-28T10:35:49Z | Java | Infrastructure/tooling | 4 | 3 | 4 | 4 |
@@ -116,6 +115,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [langgraph4j/langgraph4j](https://github.com/langgraph4j/langgraph4j) | 1595 | 2026-04-29T15:43:54Z | Java | Infrastructure/tooling | 9 | 12 | 9 | 9 |
 | [reactor/BlockHound](https://github.com/reactor/BlockHound) | 1492 | 2026-04-30T07:54:07Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [google/conscrypt](https://github.com/google/conscrypt) | 1385 | 2026-04-29T09:14:13Z | Java | Infrastructure/tooling | 1 | 6 | 1 | 1 |
+| [mapsforge/mapsforge](https://github.com/mapsforge/mapsforge) | 1371 | 2026-05-05T07:01:32Z | Java | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [moyangzhan/langchain4j-aideepin](https://github.com/moyangzhan/langchain4j-aideepin) | 1263 | 2026-04-30T12:29:44Z | Java | Unknown | 4 | 0 | 4 | 4 |
 | [SonarSource/sonar-java](https://github.com/SonarSource/sonar-java) | 1206 | 2026-04-29T15:42:19Z | Java | Infrastructure/tooling | 20 | 14 | 20 | 20 |
 | [unicode-org/cldr](https://github.com/unicode-org/cldr) | 1090 | 2026-05-03T00:00:46Z | Java | Infrastructure/tooling | 9 | 16 | 9 | 9 |

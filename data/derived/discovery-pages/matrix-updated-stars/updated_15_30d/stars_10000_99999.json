@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15550,
-    "concepts": 6349,
-    "observations": 6377,
-    "repos": 651,
-    "terms": 6367
+    "components": 15586,
+    "concepts": 6391,
+    "observations": 6419,
+    "repos": 654,
+    "terms": 6409
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -141,6 +141,7 @@
     "citusdata/citus",
     "cjpais/Handy",
     "clap-rs/clap",
+    "ClementTsang/bottom",
     "cli/cli",
     "ClickHouse/ClickHouse",
     "cline/cline",
@@ -275,6 +276,7 @@
     "google/fonts",
     "google/go-github",
     "google/guava",
+    "google/magika",
     "google/material-design-icons",
     "google/oss-fuzz",
     "google/sentencepiece",
@@ -298,6 +300,7 @@
     "grpc/grpc-go",
     "gvergnaud/ts-pattern",
     "haiwen/seafile",
+    "hajimehoshi/ebiten",
     "handlebars-lang/handlebars.js",
     "hashicorp/consul",
     "hashicorp/terraform",

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 32
-- terms: 194
-- components: 169
-- concepts: 195
-- observations: 195
+- repos: 34
+- terms: 209
+- components: 183
+- concepts: 210
+- observations: 210
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [cloudpilot-ai/karpenter-provider-alibabacloud](https://github.com/cloudpilot-ai/karpenter-provider-alibabacloud) | 152 | 2026-02-11T06:14:33Z | Go | Infrastructure/tooling | 12 | 8 | 12 | 12 |
+| [cloudwego/biz-demo](https://github.com/cloudwego/biz-demo) | 354 | 2026-02-11T06:05:07Z | Go | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [oceanbase/ob-operator](https://github.com/oceanbase/ob-operator) | 168 | 2026-02-05T06:20:55Z | Go | Infrastructure/tooling | 17 | 10 | 17 | 17 |
 | [lightningnetwork/lightning-onion](https://github.com/lightningnetwork/lightning-onion) | 415 | 2026-02-04T08:44:50Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [alexkohler/nakedret](https://github.com/alexkohler/nakedret) | 131 | 2026-02-01T01:47:11Z | Go | Infrastructure/tooling | 5 | 2 | 5 | 5 |
@@ -78,6 +80,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [multiformats/multiaddr](https://github.com/multiformats/multiaddr) | 473 | 2025-11-24T18:24:14Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [lightningnetwork/lightning-onion](https://github.com/lightningnetwork/lightning-onion) | 415 | 2026-02-04T08:44:50Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [mholt/archives](https://github.com/mholt/archives) | 403 | 2025-12-10T21:19:34Z | Go | Infrastructure/tooling | 15 | 2 | 16 | 16 |
+| [cloudwego/biz-demo](https://github.com/cloudwego/biz-demo) | 354 | 2026-02-11T06:05:07Z | Go | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [cloudwego/hertz-examples](https://github.com/cloudwego/hertz-examples) | 346 | 2025-12-15T05:07:42Z | Go | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [kubernetes-sigs/yaml](https://github.com/kubernetes-sigs/yaml) | 346 | 2025-12-14T04:55:43Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [sugarme/tokenizer](https://github.com/sugarme/tokenizer) | 323 | 2025-11-27T07:06:28Z | Go | Unknown | 3 | 0 | 3 | 3 |
@@ -89,6 +92,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Masterminds/vcs](https://github.com/Masterminds/vcs) | 203 | 2025-12-04T14:52:02Z | Go | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [oceanbase/ob-operator](https://github.com/oceanbase/ob-operator) | 168 | 2026-02-05T06:20:55Z | Go | Infrastructure/tooling | 17 | 10 | 17 | 17 |
 | [node-real/bsc-erigon](https://github.com/node-real/bsc-erigon) | 165 | 2025-12-08T13:05:30Z | Go | Infrastructure/tooling | 6 | 13 | 6 | 6 |
+| [cloudpilot-ai/karpenter-provider-alibabacloud](https://github.com/cloudpilot-ai/karpenter-provider-alibabacloud) | 152 | 2026-02-11T06:14:33Z | Go | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [liquidmetal-dev/cluster-api-provider-microvm](https://github.com/liquidmetal-dev/cluster-api-provider-microvm) | 145 | 2025-11-24T03:38:20Z | Go | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [alexkohler/nakedret](https://github.com/alexkohler/nakedret) | 131 | 2026-02-01T01:47:11Z | Go | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [google/rpmpack](https://github.com/google/rpmpack) | 129 | 2025-11-18T15:43:44Z | Go | CLI | 0 | 0 | 0 | 0 |

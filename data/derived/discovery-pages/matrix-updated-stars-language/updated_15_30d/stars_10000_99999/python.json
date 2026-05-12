@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1818,
-    "concepts": 1515,
-    "observations": 1520,
-    "repos": 146,
-    "terms": 1541
+    "components": 1832,
+    "concepts": 1529,
+    "observations": 1534,
+    "repos": 147,
+    "terms": 1555
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "3b1b/manim",
@@ -68,6 +68,7 @@
     "github/spec-kit",
     "google-deepmind/alphafold",
     "google/adk-python",
+    "google/magika",
     "gradio-app/gradio",
     "hesreallyhim/awesome-claude-code",
     "HKUDS/LightRAG",

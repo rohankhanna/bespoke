@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 87
-- terms: 384
-- components: 353
-- concepts: 386
-- observations: 388
+- terms: 400
+- components: 362
+- concepts: 402
+- observations: 404
 
 ## Static behavior
 
@@ -33,6 +33,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bakpakin/Fennel](https://github.com/bakpakin/Fennel) | 2727 | 2026-02-08T04:40:28Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [breezedeus/Pix2Text](https://github.com/breezedeus/Pix2Text) | 3102 | 2026-02-07T11:13:23Z | Other | Model/data | 9 | 0 | 10 | 10 |
 | [black7375/Firefox-UI-Fix](https://github.com/black7375/Firefox-UI-Fix) | 5810 | 2026-02-06T00:06:12Z | Other | Infrastructure/tooling | 13 | 10 | 13 | 13 |
+| [nvim-java/nvim-java](https://github.com/nvim-java/nvim-java) | 1635 | 2026-02-05T07:31:39Z | Other | CLI | 18 | 9 | 18 | 18 |
 | [greggh/claude-code.nvim](https://github.com/greggh/claude-code.nvim) | 2007 | 2026-02-04T14:44:51Z | Other | CLI | 2 | 8 | 0 | 0 |
 | [rails/spring](https://github.com/rails/spring) | 2815 | 2026-02-03T22:38:00Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [guard/guard](https://github.com/guard/guard) | 6479 | 2026-02-02T11:47:38Z | Other | CLI | 1 | 2 | 1 | 1 |
@@ -112,7 +113,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [petertriho/nvim-scrollbar](https://github.com/petertriho/nvim-scrollbar) | 1040 | 2025-11-17T11:06:08Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [jashkenas/docco](https://github.com/jashkenas/docco) | 3571 | 2025-11-17T10:31:55Z | Other | Web app | 0 | 5 | 0 | 0 |
 | [EleutherAI/pythia](https://github.com/EleutherAI/pythia) | 2783 | 2025-11-15T17:39:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) | 1503 | 2025-11-13T07:27:45Z | Other | CLI | 2 | 0 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -174,12 +174,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [auto-complete/auto-complete](https://github.com/auto-complete/auto-complete) | 1763 | 2025-12-31T16:22:28Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [onsails/lspkind.nvim](https://github.com/onsails/lspkind.nvim) | 1681 | 2026-01-29T12:31:49Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [SmiteshP/nvim-navic](https://github.com/SmiteshP/nvim-navic) | 1652 | 2025-12-29T16:08:52Z | Other | Unknown | 6 | 0 | 6 | 6 |
+| [nvim-java/nvim-java](https://github.com/nvim-java/nvim-java) | 1635 | 2026-02-05T07:31:39Z | Other | CLI | 18 | 9 | 18 | 18 |
 | [hecomi/uLipSync](https://github.com/hecomi/uLipSync) | 1590 | 2026-01-06T09:12:01Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [elixir-lang/gen_stage](https://github.com/elixir-lang/gen_stage) | 1582 | 2026-01-09T07:44:33Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [richfelker/musl-cross-make](https://github.com/richfelker/musl-cross-make) | 1544 | 2025-12-03T02:11:11Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [kikito/inspect.lua](https://github.com/kikito/inspect.lua) | 1523 | 2026-01-05T16:28:00Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [hoshsadiq/adblock-nocoin-list](https://github.com/hoshsadiq/adblock-nocoin-list) | 1518 | 2025-12-30T17:55:05Z | Other | Unknown | 5 | 0 | 5 | 5 |
-| [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) | 1503 | 2025-11-13T07:27:45Z | Other | CLI | 2 | 0 | 2 | 2 |
 | [clojure/core.logic](https://github.com/clojure/core.logic) | 1498 | 2025-12-30T18:57:45Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [mfussenegger/nvim-jdtls](https://github.com/mfussenegger/nvim-jdtls) | 1461 | 2026-02-10T20:22:51Z | Other | CLI | 4 | 0 | 4 | 4 |
 | [microsoft/TextWorld](https://github.com/microsoft/TextWorld) | 1405 | 2026-01-30T19:15:32Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |

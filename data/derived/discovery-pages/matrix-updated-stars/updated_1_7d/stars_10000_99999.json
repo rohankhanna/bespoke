@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 780,
-    "concepts": 444,
-    "observations": 446,
-    "repos": 42,
-    "terms": 444
+    "components": 788,
+    "concepts": 463,
+    "observations": 465,
+    "repos": 43,
+    "terms": 458
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "academic/awesome-datascience",
     "apache/casbin",
@@ -47,6 +47,7 @@
     "oobabooga/textgen",
     "preactjs/preact",
     "QuantumNous/new-api",
+    "qubvel-org/segmentation_models.pytorch",
     "rerun-io/rerun",
     "restic/restic",
     "ungoogled-software/ungoogled-chromium",

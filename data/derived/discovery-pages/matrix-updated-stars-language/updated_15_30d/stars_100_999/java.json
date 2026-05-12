@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 225,
-    "concepts": 221,
-    "observations": 221,
-    "repos": 32,
-    "terms": 221
+    "components": 240,
+    "concepts": 242,
+    "observations": 242,
+    "repos": 33,
+    "terms": 242
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
     "apache/commons-jexl",
     "apache/datasketches-java",
     "beehive-lab/GPULlama3.java",
+    "bndtools/bnd",
     "carrot2/carrot2",
     "connectbot/sshlib",
     "Cosium/git-code-format-maven-plugin",

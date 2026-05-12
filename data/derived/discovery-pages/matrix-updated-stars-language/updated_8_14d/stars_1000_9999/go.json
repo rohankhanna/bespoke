@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 797,
-    "concepts": 825,
-    "observations": 828,
-    "repos": 78,
-    "terms": 822
+    "components": 767,
+    "concepts": 807,
+    "observations": 810,
+    "repos": 76,
+    "terms": 804
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "akvorado/akvorado",
     "anthropics/anthropic-sdk-go",
@@ -23,7 +23,6 @@
     "aws/aws-sdk-go-v2",
     "azimjohn/jprq",
     "beclab/Olares",
-    "bnb-chain/bsc",
     "btcsuite/btcwallet",
     "buger/jsonparser",
     "C2SP/wycheproof",
@@ -84,7 +83,6 @@
     "redis/rueidis",
     "replicate/cog",
     "reviewdog/reviewdog",
-    "securego/gosec",
     "spiffe/spire",
     "supabase/cli",
     "sysadminsmedia/homebox",

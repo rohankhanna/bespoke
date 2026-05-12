@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 54340,
-    "concepts": 35120,
-    "observations": 35227,
-    "repos": 5950,
-    "terms": 35029
+    "components": 54392,
+    "concepts": 35160,
+    "observations": 35267,
+    "repos": 5953,
+    "terms": 35061
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -2922,6 +2922,7 @@
     "Jumpat/SegmentAnythingin3D",
     "junegunn/seoul256.vim",
     "junegunn/vim-easy-align",
+    "junhoyeo/tokscale",
     "junit-team/junit-examples",
     "junit-team/junit-framework",
     "junit-team/junit4",
@@ -3997,6 +3998,7 @@
     "NVIDIAGameWorks/kaolin",
     "nvie/git-toolbelt",
     "nvim-flutter/flutter-tools.nvim",
+    "nvim-java/nvim-java",
     "nvim-lua/plenary.nvim",
     "nvim-lualine/lualine.nvim",
     "nvim-mini/mini.nvim",
@@ -5608,6 +5610,7 @@
     "v2fly/fhs-install-v2ray",
     "v2fly/v2ray-examples",
     "vadimcn/codelldb",
+    "vadimdemedes/pastel",
     "VainF/pytorch-msssim",
     "vale-cli/vale",
     "validator/validator",

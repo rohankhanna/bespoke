@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 40
-- terms: 147
-- components: 192
-- concepts: 144
-- observations: 145
+- repos: 41
+- terms: 149
+- components: 199
+- concepts: 146
+- observations: 147
 
 ## Static behavior
 
@@ -60,6 +60,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kurrent-io/KurrentDB-Client-Go](https://github.com/kurrent-io/KurrentDB-Client-Go) | 10 | 2026-03-24T12:31:31Z | Go | CLI | 12 | 4 | 12 | 12 |
 | [matelang/jwt-go-aws-kms](https://github.com/matelang/jwt-go-aws-kms) | 33 | 2026-03-23T08:40:05Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [chromedp/pdlgen](https://github.com/chromedp/pdlgen) | 41 | 2026-03-21T00:40:56Z | Go | Template/starter | 0 | 0 | 0 | 0 |
+| [EstebanForge/mcp-cli-ent](https://github.com/EstebanForge/mcp-cli-ent) | 15 | 2026-03-19T14:10:17Z | Go | CLI | 2 | 7 | 2 | 2 |
 | [aws/amazon-vpc-cni-plugins](https://github.com/aws/amazon-vpc-cni-plugins) | 69 | 2026-03-18T23:51:02Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [cyberark/conjur-api-go](https://github.com/cyberark/conjur-api-go) | 21 | 2026-03-18T13:17:52Z | Go | CLI | 7 | 0 | 7 | 7 |
 | [containerd/release-tool](https://github.com/containerd/release-tool) | 35 | 2026-03-17T01:01:10Z | Go | Infrastructure/tooling | 0 | 4 | 0 | 0 |
@@ -106,6 +107,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ipfs/gateway-conformance](https://github.com/ipfs/gateway-conformance) | 18 | 2026-04-08T12:58:43Z | Go | CLI | 10 | 16 | 10 | 10 |
 | [usbarmory/GoTEE-example](https://github.com/usbarmory/GoTEE-example) | 17 | 2026-04-10T09:59:42Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [0ghny/gitconfig](https://github.com/0ghny/gitconfig) | 15 | 2026-04-07T08:29:20Z | Go | CLI | 2 | 10 | 2 | 2 |
+| [EstebanForge/mcp-cli-ent](https://github.com/EstebanForge/mcp-cli-ent) | 15 | 2026-03-19T14:10:17Z | Go | CLI | 2 | 7 | 2 | 2 |
 | [darkweak/storages](https://github.com/darkweak/storages) | 14 | 2026-04-07T12:38:57Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 3 |
 | [datachainlab/ethereum-ibc-relay-chain](https://github.com/datachainlab/ethereum-ibc-relay-chain) | 13 | 2026-03-16T03:27:19Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [featherbread/hypcast](https://github.com/featherbread/hypcast) | 12 | 2026-04-08T04:15:38Z | Go | Infrastructure/tooling | 3 | 9 | 3 | 3 |

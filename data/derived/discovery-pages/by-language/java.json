@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2794,
-    "concepts": 3514,
-    "observations": 3522,
+    "components": 2798,
+    "concepts": 3515,
+    "observations": 3523,
     "repos": 629,
-    "terms": 3493
+    "terms": 3494
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "abapGit/ADT_Frontend",

@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1 to 9 stars
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,7 +11,7 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 153
+- repos: 150
 - terms: 864
 - components: 1511
 - concepts: 867
@@ -175,9 +175,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [psmux/scoop-psmux](https://github.com/psmux/scoop-psmux) | 3 | 2026-04-28T08:48:54Z | Unknown | CLI | 1 | 0 | 1 | 1 |
 | [breferrari/shardmind](https://github.com/breferrari/shardmind) | 9 | 2026-04-28T08:36:03Z | TypeScript | Infrastructure/tooling | 1 | 30 | 1 | 1 |
 | [bnb-chain/reth-bsc-triedb](https://github.com/bnb-chain/reth-bsc-triedb) | 1 | 2026-04-28T08:00:38Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
-| [ParisNeo/lollms_client](https://github.com/ParisNeo/lollms_client) | 8 | 2026-04-28T07:44:03Z | Python | CLI | 0 | 0 | 0 | 0 |
-| [jfmengels/elm-review-config](https://github.com/jfmengels/elm-review-config) | 9 | 2026-04-28T07:26:18Z | Other | Template/starter | 0 | 0 | 0 | 0 |
-| [dmBots/DM-J4310-2EC](https://github.com/dmBots/DM-J4310-2EC) | 4 | 2026-04-28T05:50:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -198,7 +195,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [googleapis/google-cloud-php-compute](https://github.com/googleapis/google-cloud-php-compute) | 9 | 2026-04-28T15:52:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [cloudfoundry/runtime-ci](https://github.com/cloudfoundry/runtime-ci) | 9 | 2026-04-28T13:13:18Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [breferrari/shardmind](https://github.com/breferrari/shardmind) | 9 | 2026-04-28T08:36:03Z | TypeScript | Infrastructure/tooling | 1 | 30 | 1 | 1 |
-| [jfmengels/elm-review-config](https://github.com/jfmengels/elm-review-config) | 9 | 2026-04-28T07:26:18Z | Other | Template/starter | 0 | 0 | 0 | 0 |
 | [pacstall/pacup](https://github.com/pacstall/pacup) | 8 | 2026-05-04T01:00:54Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [Cebeerre/dnsblocklists](https://github.com/Cebeerre/dnsblocklists) | 8 | 2026-05-03T11:44:23Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [fluent-vue/unplugin-fluent-vue](https://github.com/fluent-vue/unplugin-fluent-vue) | 8 | 2026-05-02T21:13:01Z | TypeScript | Infrastructure/tooling | 8 | 30 | 8 | 8 |
@@ -217,7 +213,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bennyyip/dot-vim](https://github.com/bennyyip/dot-vim) | 8 | 2026-04-29T05:56:28Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [grizzlypeak3d/feather-tk](https://github.com/grizzlypeak3d/feather-tk) | 8 | 2026-04-29T00:46:59Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [heroku/buildpacks-deb-packages](https://github.com/heroku/buildpacks-deb-packages) | 8 | 2026-04-28T15:26:47Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 7 |
-| [ParisNeo/lollms_client](https://github.com/ParisNeo/lollms_client) | 8 | 2026-04-28T07:44:03Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [Evilpasture/Culverin](https://github.com/Evilpasture/Culverin) | 7 | 2026-05-03T12:12:54Z | C/C++ | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 | [oclif/plugin-version](https://github.com/oclif/plugin-version) | 7 | 2026-05-02T09:43:40Z | TypeScript | CLI | 7 | 34 | 7 | 7 |
 | [heroku/buildpacks-php](https://github.com/heroku/buildpacks-php) | 7 | 2026-05-02T02:27:40Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
@@ -259,7 +254,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [emacs-straight/gnu-elpa-mirror](https://github.com/emacs-straight/gnu-elpa-mirror) | 4 | 2026-04-29T00:20:16Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [webdriverio/devtools](https://github.com/webdriverio/devtools) | 4 | 2026-04-28T11:12:39Z | TypeScript | Infrastructure/tooling | 2 | 32 | 2 | 2 |
 | [astral-sh/versions](https://github.com/astral-sh/versions) | 4 | 2026-04-28T10:47:52Z | Python | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [dmBots/DM-J4310-2EC](https://github.com/dmBots/DM-J4310-2EC) | 4 | 2026-04-28T05:50:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [emacs-straight/emacsmirror-mirror](https://github.com/emacs-straight/emacsmirror-mirror) | 3 | 2026-05-04T00:20:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [JeremyAnsel/SharpAssimp](https://github.com/JeremyAnsel/SharpAssimp) | 3 | 2026-05-03T15:03:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [fluent-vue/examples](https://github.com/fluent-vue/examples) | 3 | 2026-05-02T21:57:37Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |

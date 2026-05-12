@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Python
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 11
-- terms: 91
-- components: 92
-- concepts: 91
-- observations: 91
+- repos: 10
+- terms: 76
+- components: 84
+- concepts: 76
+- observations: 76
 
 ## Static behavior
 
@@ -36,7 +36,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mll-lab-nu/VAGEN](https://github.com/mll-lab-nu/VAGEN) | 456 | 2026-05-11T11:55:52Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [bagofwords1/bagofwords](https://github.com/bagofwords1/bagofwords) | 434 | 2026-05-11T09:36:32Z | Python | Infrastructure/tooling | 11 | 17 | 11 | 11 |
 | [databrickslabs/ucx](https://github.com/databrickslabs/ucx) | 307 | 2026-05-11T09:01:07Z | Python | CLI | 10 | 9 | 10 | 10 |
-| [15r10nk/inline-snapshot](https://github.com/15r10nk/inline-snapshot) | 729 | 2026-05-11T06:25:38Z | Python | Infrastructure/tooling | 15 | 8 | 15 | 15 |
 
 ## Repos sorted by stars
 
@@ -46,7 +45,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tox-dev/filelock](https://github.com/tox-dev/filelock) | 953 | 2026-05-11T19:56:43Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [djlint/djLint](https://github.com/djlint/djLint) | 920 | 2026-05-11T12:58:31Z | Python | Infrastructure/tooling | 18 | 10 | 18 | 18 |
 | [Comfy-Org/comfy-cli](https://github.com/Comfy-Org/comfy-cli) | 790 | 2026-05-11T18:19:03Z | Python | CLI | 9 | 7 | 9 | 9 |
-| [15r10nk/inline-snapshot](https://github.com/15r10nk/inline-snapshot) | 729 | 2026-05-11T06:25:38Z | Python | Infrastructure/tooling | 15 | 8 | 15 | 15 |
 | [mll-lab-nu/VAGEN](https://github.com/mll-lab-nu/VAGEN) | 456 | 2026-05-11T11:55:52Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [bagofwords1/bagofwords](https://github.com/bagofwords1/bagofwords) | 434 | 2026-05-11T09:36:32Z | Python | Infrastructure/tooling | 11 | 17 | 11 | 11 |
 | [scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell) | 368 | 2026-05-11T20:53:13Z | Python | Infrastructure/tooling | 7 | 17 | 7 | 7 |

@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 48
-- terms: 554
-- components: 552
-- concepts: 560
-- observations: 561
+- repos: 47
+- terms: 540
+- components: 538
+- concepts: 546
+- observations: 547
 
 ## Static behavior
 
@@ -73,7 +73,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [treeverse/dvc](https://github.com/treeverse/dvc) | 15576 | 2026-04-28T11:30:29Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 | [locustio/locust](https://github.com/locustio/locust) | 27741 | 2026-04-28T09:26:41Z | Python | Infrastructure/tooling | 12 | 14 | 12 | 12 |
 | [langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research) | 11341 | 2026-04-28T08:23:03Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [google/magika](https://github.com/google/magika) | 16832 | 2026-04-28T05:57:15Z | Python | Infrastructure/tooling | 14 | 14 | 14 | 14 |
 
 ## Repos sorted by stars
 
@@ -108,7 +107,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kvcache-ai/ktransformers](https://github.com/kvcache-ai/ktransformers) | 17100 | 2026-04-30T09:17:13Z | Python | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [microsoft/agent-lightning](https://github.com/microsoft/agent-lightning) | 17069 | 2026-04-29T06:32:24Z | Python | Infrastructure/tooling | 11 | 3 | 11 | 11 |
 | [networkx/networkx](https://github.com/networkx/networkx) | 16865 | 2026-04-30T02:16:03Z | Python | Infrastructure/tooling | 14 | 10 | 14 | 14 |
-| [google/magika](https://github.com/google/magika) | 16832 | 2026-04-28T05:57:15Z | Python | Infrastructure/tooling | 14 | 14 | 14 | 14 |
 | [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 16255 | 2026-05-03T04:32:55Z | Python | Infrastructure/tooling | 13 | 14 | 13 | 13 |
 | [wkentaro/labelme](https://github.com/wkentaro/labelme) | 15812 | 2026-05-03T10:51:56Z | Python | Infrastructure/tooling | 13 | 5 | 13 | 13 |
 | [cvat-ai/cvat](https://github.com/cvat-ai/cvat) | 15750 | 2026-04-30T13:57:37Z | Python | Infrastructure/tooling | 26 | 87 | 26 | 26 |

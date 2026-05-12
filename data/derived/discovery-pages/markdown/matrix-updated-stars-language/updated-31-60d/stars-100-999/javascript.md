@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 82
-- terms: 359
-- components: 1267
-- concepts: 352
-- observations: 354
+- repos: 83
+- terms: 363
+- components: 1285
+- concepts: 356
+- observations: 358
 
 ## Static behavior
 
@@ -53,6 +53,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [semantic-release/changelog](https://github.com/semantic-release/changelog) | 333 | 2026-04-08T18:30:51Z | JavaScript | Infrastructure/tooling | 6 | 13 | 6 | 7 |
 | [GoogleCloudPlatform/google-cloud-node-todos](https://github.com/GoogleCloudPlatform/google-cloud-node-todos) | 114 | 2026-04-08T06:13:31Z | JavaScript | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [Atheos/Atheos](https://github.com/Atheos/Atheos) | 665 | 2026-04-07T15:25:03Z | JavaScript | Infrastructure/tooling | 8 | 14 | 8 | 8 |
+| [4xian/claude-codex-api](https://github.com/4xian/claude-codex-api) | 174 | 2026-04-07T15:06:33Z | JavaScript | CLI | 4 | 18 | 4 | 4 |
 | [ipld/explore.ipld.io](https://github.com/ipld/explore.ipld.io) | 132 | 2026-04-07T13:06:20Z | JavaScript | Infrastructure/tooling | 6 | 40 | 6 | 6 |
 | [apify/awesome-skills](https://github.com/apify/awesome-skills) | 174 | 2026-04-07T08:14:23Z | JavaScript | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [gruntjs/grunt-contrib-connect](https://github.com/gruntjs/grunt-contrib-connect) | 709 | 2026-04-07T03:36:11Z | JavaScript | Infrastructure/tooling | 1 | 15 | 1 | 1 |
@@ -180,6 +181,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [terraform-linters/setup-tflint](https://github.com/terraform-linters/setup-tflint) | 194 | 2026-04-01T00:24:37Z | JavaScript | Infrastructure/tooling | 4 | 27 | 4 | 4 |
 | [dwyl/sendemail](https://github.com/dwyl/sendemail) | 180 | 2026-04-10T06:55:00Z | JavaScript | Service/API | 0 | 10 | 0 | 0 |
 | [fwcd/tree-sitter-kotlin](https://github.com/fwcd/tree-sitter-kotlin) | 176 | 2026-04-11T20:40:54Z | JavaScript | Infrastructure/tooling | 9 | 13 | 9 | 9 |
+| [4xian/claude-codex-api](https://github.com/4xian/claude-codex-api) | 174 | 2026-04-07T15:06:33Z | JavaScript | CLI | 4 | 18 | 4 | 4 |
 | [apify/awesome-skills](https://github.com/apify/awesome-skills) | 174 | 2026-04-07T08:14:23Z | JavaScript | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [npm/abbrev-js](https://github.com/npm/abbrev-js) | 167 | 2026-03-23T15:38:30Z | JavaScript | CLI | 8 | 11 | 8 | 8 |
 | [Level/abstract-level](https://github.com/Level/abstract-level) | 163 | 2026-04-01T02:31:54Z | JavaScript | Infrastructure/tooling | 6 | 26 | 6 | 6 |

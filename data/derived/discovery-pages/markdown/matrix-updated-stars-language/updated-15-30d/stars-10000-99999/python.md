@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 146
-- terms: 1541
-- components: 1818
-- concepts: 1515
-- observations: 1520
+- repos: 147
+- terms: 1555
+- components: 1832
+- concepts: 1529
+- observations: 1534
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [google/magika](https://github.com/google/magika) | 16832 | 2026-04-28T05:57:15Z | Python | Infrastructure/tooling | 14 | 14 | 14 | 14 |
 | [kornia/kornia](https://github.com/kornia/kornia) | 11191 | 2026-04-28T05:16:23Z | Python | Infrastructure/tooling | 16 | 11 | 16 | 16 |
 | [redis/redis-py](https://github.com/redis/redis-py) | 13527 | 2026-04-28T05:07:38Z | Python | CLI | 10 | 10 | 10 | 10 |
 | [optuna/optuna](https://github.com/optuna/optuna) | 14072 | 2026-04-28T01:25:58Z | Python | Infrastructure/tooling | 12 | 7 | 12 | 12 |
@@ -269,6 +270,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | 17298 | 2026-04-17T21:03:26Z | Python | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [ranger/ranger](https://github.com/ranger/ranger) | 17145 | 2026-04-17T12:26:04Z | Python | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [aws/aws-cli](https://github.com/aws/aws-cli) | 16896 | 2026-04-23T22:00:07Z | Python | CLI | 9 | 6 | 9 | 9 |
+| [google/magika](https://github.com/google/magika) | 16832 | 2026-04-28T05:57:15Z | Python | Infrastructure/tooling | 14 | 14 | 14 | 14 |
 | [camel-ai/camel](https://github.com/camel-ai/camel) | 16766 | 2026-04-22T21:15:00Z | Python | Infrastructure/tooling | 16 | 14 | 16 | 16 |
 | [exaloop/codon](https://github.com/exaloop/codon) | 16729 | 2026-04-21T18:29:41Z | Python | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [ipython/ipython](https://github.com/ipython/ipython) | 16693 | 2026-04-24T12:25:25Z | Python | Infrastructure/tooling | 15 | 7 | 15 | 15 |

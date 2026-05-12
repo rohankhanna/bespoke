@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1675,
-    "concepts": 1615,
-    "observations": 1619,
-    "repos": 303,
-    "terms": 1619
+    "components": 1712,
+    "concepts": 1649,
+    "observations": 1653,
+    "repos": 309,
+    "terms": 1653
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -22,6 +22,7 @@
     "agencyenterprise/PromptInject",
     "agenmod/immortal-skill",
     "agentscope-ai/agentscope-runtime",
+    "agentscope-ai/Trinity-RFT",
     "agiletec-inc/airis-mcp-gateway",
     "agiresearch/Cerebrum",
     "AgnostiqHQ/covalent",
@@ -129,6 +130,7 @@
     "FoundationVision/InfinityStar",
     "fsspec/universal_pathlib",
     "fzyzcjy/torch_memory_saver",
+    "galaxyproject/planemo",
     "gmberton/VPR-methods-evaluation",
     "godotengine/godot-builds",
     "google-deepmind/distrax",
@@ -210,6 +212,7 @@
     "multiformats/multicodec",
     "naver/kapture",
     "neggles/animatediff-cli",
+    "neo4j-examples/movies-python-bolt",
     "nodejs/gyp-next",
     "notofonts/notofonts.github.io",
     "notofonts/nototools",
@@ -224,6 +227,7 @@
     "open-thoughts/OpenThoughts-Agent",
     "OpenBMB/BMTrain",
     "OpenBMB/UltraEval-Audio",
+    "opendatacube/datacube-core",
     "OpenHands/OpenHands-CLI",
     "OpenHands/software-agent-sdk",
     "optuna/optuna-examples",
@@ -278,6 +282,7 @@
     "SandAI-org/MagiAttention",
     "scicode-bench/SciCode",
     "scikit-build/scikit-build-core",
+    "ScoopInstaller/Nirsoft",
     "scrapinghub/article-extraction-benchmark",
     "searxng/searx-instances",
     "SemiAnalysisAI/InferenceX",
@@ -313,6 +318,7 @@
     "ymcui/Chinese-Mixtral",
     "ymcui/LERT",
     "YosysHQ/sby",
+    "Yuliang-Liu/MultimodalOCR",
     "zai-org/GLM-skills",
     "zarr-developers/numcodecs",
     "ZhuoZhuoCrayon/throttled-py",

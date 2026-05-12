@@ -3,8 +3,8 @@
     "components": 1125,
     "concepts": 5207,
     "observations": 5211,
-    "repos": 1766,
-    "terms": 5055
+    "repos": 1767,
+    "terms": 5045
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -603,6 +603,7 @@
     "fastnlp/CPT",
     "fatheral/matlab_imresize",
     "fatPeter/mini-splatting",
+    "fdarmon/NeuralWarp",
     "FeiiYin/SPI",
     "feizc/CogvideX-Interpolation",
     "feizc/Diffusion-RWKV",

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 172
-- terms: 1341
-- components: 1258
-- concepts: 1353
-- observations: 1356
+- repos: 174
+- terms: 1360
+- components: 1275
+- concepts: 1372
+- observations: 1375
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [unitreerobotics/unitree_sdk2](https://github.com/unitreerobotics/unitree_sdk2) | 1059 | 2026-04-28T07:24:28Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
+| [sail-sg/envpool](https://github.com/sail-sg/envpool) | 1330 | 2026-04-28T06:08:04Z | C/C++ | Infrastructure/tooling | 19 | 16 | 19 | 19 |
 | [red-data-tools/pycall.rb](https://github.com/red-data-tools/pycall.rb) | 1113 | 2026-04-28T05:42:45Z | C/C++ | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [alanxz/rabbitmq-c](https://github.com/alanxz/rabbitmq-c) | 1859 | 2026-04-28T00:30:51Z | C/C++ | CLI | 4 | 6 | 4 | 4 |
 | [mhammond/pywin32](https://github.com/mhammond/pywin32) | 5552 | 2026-04-27T23:58:56Z | C/C++ | Infrastructure/tooling | 2 | 11 | 2 | 2 |
@@ -358,6 +360,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [NVIDIA/MatX](https://github.com/NVIDIA/MatX) | 1413 | 2026-04-22T21:59:17Z | C/C++ | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [celluloid-player/celluloid](https://github.com/celluloid-player/celluloid) | 1410 | 2026-04-27T18:02:28Z | C/C++ | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [intel/compute-runtime](https://github.com/intel/compute-runtime) | 1376 | 2026-04-24T04:22:22Z | C/C++ | Infrastructure/tooling | 6 | 1 | 6 | 6 |
+| [sail-sg/envpool](https://github.com/sail-sg/envpool) | 1330 | 2026-04-28T06:08:04Z | C/C++ | Infrastructure/tooling | 19 | 16 | 19 | 19 |
 | [uccl-project/uccl](https://github.com/uccl-project/uccl) | 1322 | 2026-04-24T05:20:18Z | C/C++ | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [KhronosGroup/SPIRV-Tools](https://github.com/KhronosGroup/SPIRV-Tools) | 1297 | 2026-04-23T18:36:50Z | C/C++ | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [Ableton/link](https://github.com/Ableton/link) | 1279 | 2026-04-14T10:12:55Z | C/C++ | Infrastructure/tooling | 2 | 1 | 2 | 2 |
@@ -370,6 +373,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [FEniCS/dolfinx](https://github.com/FEniCS/dolfinx) | 1111 | 2026-04-24T06:28:45Z | C/C++ | Infrastructure/tooling | 12 | 7 | 12 | 12 |
 | [NVIDIA/libnvidia-container](https://github.com/NVIDIA/libnvidia-container) | 1098 | 2026-04-13T20:02:35Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [intel/isa-l](https://github.com/intel/isa-l) | 1069 | 2026-04-16T15:38:01Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [unitreerobotics/unitree_sdk2](https://github.com/unitreerobotics/unitree_sdk2) | 1059 | 2026-04-28T07:24:28Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [inikep/lzbench](https://github.com/inikep/lzbench) | 1052 | 2026-04-17T15:37:54Z | C/C++ | Unknown | 7 | 0 | 7 | 7 |
 | [diffblue/cbmc](https://github.com/diffblue/cbmc) | 1046 | 2026-04-23T00:50:03Z | C/C++ | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [KhronosGroup/Vulkan-Headers](https://github.com/KhronosGroup/Vulkan-Headers) | 1032 | 2026-04-20T15:53:31Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |

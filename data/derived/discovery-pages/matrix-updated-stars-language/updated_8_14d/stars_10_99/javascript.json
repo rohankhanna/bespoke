@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 297,
-    "concepts": 92,
-    "observations": 94,
-    "repos": 22,
-    "terms": 92
+    "components": 314,
+    "concepts": 98,
+    "observations": 100,
+    "repos": 23,
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "aidenlab/hic-straw",
     "alangdm/helium-animated-pages",
+    "apache/doris-opentelemetry-demo",
     "apollographql/connectors-community",
     "aws-samples/aws-sdk-js-tests",
     "coasys/ad4m",

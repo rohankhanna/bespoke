@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 184,
-    "concepts": 109,
-    "observations": 109,
-    "repos": 50,
-    "terms": 129
+    "components": 186,
+    "concepts": 110,
+    "observations": 110,
+    "repos": 52,
+    "terms": 130
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
@@ -52,6 +52,7 @@
     "ModelCloud/LogBar",
     "momentique/source-code-security-audit-reviewer",
     "onicai/IConfucius",
+    "ParisNeo/lollms_client",
     "penpoen/llm-sugarscape",
     "piqrypt/aiss-standard",
     "piqrypt/piqrypt",
@@ -62,6 +63,7 @@
     "sunthinks/kvmind",
     "TexasInstruments/edgeai-tidlrunner",
     "TJC-LP/sanzaru",
+    "UnknownPlatypus/djangofmt-pre-commit",
     "verkyyi/tokenman",
     "xiaochu-1208/interview-assistant-cli"
   ]

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,7 +13,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 146
-- terms: 666
+- terms: 663
 - components: 344
 - concepts: 676
 - observations: 677
@@ -43,7 +43,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [andreafrancia/trash-cli](https://github.com/andreafrancia/trash-cli) | 4340 | 2026-02-03T21:02:00Z | Python | CLI | 3 | 4 | 3 | 3 |
 | [graphql-python/graphene-django](https://github.com/graphql-python/graphene-django) | 4386 | 2026-02-03T20:49:34Z | Python | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [alteryx/featuretools](https://github.com/alteryx/featuretools) | 7629 | 2026-02-03T18:19:45Z | Python | Infrastructure/tooling | 15 | 6 | 15 | 15 |
-| [opencv/opencv-python](https://github.com/opencv/opencv-python) | 5251 | 2026-02-03T07:13:13Z | Python | Infrastructure/tooling | 9 | 7 | 9 | 10 |
+| [opencv/opencv-python](https://github.com/opencv/opencv-python) | 5251 | 2026-02-03T07:13:13Z | Python | Infrastructure/tooling | 6 | 7 | 9 | 10 |
 | [mosaicml/streaming](https://github.com/mosaicml/streaming) | 1497 | 2026-02-02T10:49:55Z | Python | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [chatopera/Synonyms](https://github.com/chatopera/Synonyms) | 5102 | 2026-02-01T02:48:25Z | Python | Unknown | 2 | 0 | 2 | 2 |
 | [hustvl/VAD](https://github.com/hustvl/VAD) | 1298 | 2026-01-31T08:13:44Z | Python | Unknown | 2 | 0 | 2 | 2 |
@@ -196,7 +196,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [canopyai/Orpheus-TTS](https://github.com/canopyai/Orpheus-TTS) | 6117 | 2025-12-05T19:01:02Z | Python | Unknown | 1 | 0 | 1 | 1 |
 | [Trusted-AI/adversarial-robustness-toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox) | 5954 | 2025-12-12T07:01:28Z | Python | Infrastructure/tooling | 22 | 4 | 22 | 22 |
 | [davidhalter/jedi-vim](https://github.com/davidhalter/jedi-vim) | 5314 | 2026-02-10T10:10:33Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [opencv/opencv-python](https://github.com/opencv/opencv-python) | 5251 | 2026-02-03T07:13:13Z | Python | Infrastructure/tooling | 9 | 7 | 9 | 10 |
+| [opencv/opencv-python](https://github.com/opencv/opencv-python) | 5251 | 2026-02-03T07:13:13Z | Python | Infrastructure/tooling | 6 | 7 | 9 | 10 |
 | [PyCQA/pycodestyle](https://github.com/PyCQA/pycodestyle) | 5156 | 2025-12-22T21:54:22Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [chatopera/Synonyms](https://github.com/chatopera/Synonyms) | 5102 | 2026-02-01T02:48:25Z | Python | Unknown | 2 | 0 | 2 | 2 |
 | [AILab-CVC/VideoCrafter](https://github.com/AILab-CVC/VideoCrafter) | 5055 | 2026-01-09T15:01:22Z | Python | Model/data | 3 | 0 | 3 | 3 |

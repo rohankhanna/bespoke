@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 86,
-    "concepts": 91,
-    "observations": 91,
-    "repos": 14,
-    "terms": 91
+    "components": 94,
+    "concepts": 106,
+    "observations": 106,
+    "repos": 15,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
+    "15r10nk/inline-snapshot",
     "agentclientprotocol/python-sdk",
     "agentic-box/memora",
     "aristoteleo/PantheonOS",

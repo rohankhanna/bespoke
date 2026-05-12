@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 61344,
-    "concepts": 10561,
-    "observations": 10596,
-    "repos": 1867,
-    "terms": 10864
+    "components": 61441,
+    "concepts": 10571,
+    "observations": 10606,
+    "repos": 1869,
+    "terms": 10869
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "0h7z/vscode-julia-format",
@@ -28,6 +28,7 @@
     "1mcp-app/agent",
     "21st-dev/magic-mcp",
     "2heal1/rspress-plugin-annotation-words",
+    "2mawi2/schaltwerk",
     "2slides/mcp-2slides",
     "43081j/picoquery",
     "52-entertainment/vite-plugin-oxlint",
@@ -1764,6 +1765,7 @@
     "upstash/context7",
     "Urigo/graphql-cli",
     "vadimdemedes/ink",
+    "vadimdemedes/pastel",
     "valtyr/prisma-kysely",
     "vaultwarden/vw_web_builds",
     "vbenjs/vite-plugin-imagemin",

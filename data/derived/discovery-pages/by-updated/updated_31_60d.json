@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 18216,
-    "concepts": 10635,
-    "observations": 10681,
-    "repos": 2265,
-    "terms": 10616
+    "components": 18268,
+    "concepts": 10652,
+    "observations": 10698,
+    "repos": 2269,
+    "terms": 10633
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/shellx",
@@ -33,6 +33,7 @@
     "42-evey/evey-bridge-plugin",
     "43081j/picoquery",
     "4dn-dcic/tibanna",
+    "4xian/claude-codex-api",
     "5c077m4n/pikud-haoref-api-go",
     "6551Team/opennews-mcp",
     "666ghj/MiroFish",
@@ -842,6 +843,7 @@
     "esp8266/Arduino",
     "espeak-ng/espeak-ng",
     "EspressoSystems/Push-CDN",
+    "EstebanForge/mcp-cli-ent",
     "ethereum-optimism/superchain-registry",
     "ethereum/builder-specs",
     "ethereum/devp2p",
@@ -2174,6 +2176,7 @@
     "uxlfoundation/oneMath",
     "uxlfoundation/open-source-working-group",
     "V13Axel/neotest-pest",
+    "vadimdemedes/pastel",
     "Vaishnav-Sabari-Girish/Hayasen",
     "validator/gulp-html",
     "vaporif/rvx",
@@ -2230,6 +2233,7 @@
     "will62794/spectacle",
     "wincent/command-t",
     "withastro/compiler",
+    "wkentaro/gdown",
     "WojciechMula/toys",
     "WujiangXu/A-mem-sys",
     "wuphilipp/gello_mechanical",

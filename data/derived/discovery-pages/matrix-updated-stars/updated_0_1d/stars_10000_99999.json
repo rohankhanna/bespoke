@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1201,
-    "concepts": 583,
-    "observations": 586,
-    "repos": 48,
-    "terms": 592
+    "components": 1193,
+    "concepts": 564,
+    "observations": 567,
+    "repos": 47,
+    "terms": 563
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
@@ -46,7 +46,6 @@
     "PDFMathTranslate/PDFMathTranslate",
     "psf/black",
     "pydantic/pydantic",
-    "qubvel-org/segmentation_models.pytorch",
     "quickwit-oss/tantivy",
     "realworld-apps/realworld",
     "redis/go-redis",

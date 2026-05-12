@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 6295,
-    "concepts": 2873,
-    "observations": 2883,
-    "repos": 716,
-    "terms": 2933
+    "components": 6299,
+    "concepts": 2880,
+    "observations": 2890,
+    "repos": 717,
+    "terms": 2940
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "2KAbhishek/mac2k",
@@ -579,6 +579,7 @@
     "postmodern/ruby-versions",
     "pq-code-package/mldsa-native",
     "pre-commit/mirrors-eslint",
+    "prefix-dev/rattler-build-action",
     "proxy-wasm/proxy-wasm-cpp-host",
     "psyonicinc/ability-hand-api",
     "ptsochantaris/Gladys",

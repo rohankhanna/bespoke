@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 47
-- terms: 267
+- repos: 48
+- terms: 277
 - components: 193
-- concepts: 257
-- observations: 260
+- concepts: 269
+- observations: 272
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2KAbhishek/dots2k](https://github.com/2KAbhishek/dots2k) | 321 | 2026-04-28T06:06:35Z | Shell | CLI | 10 | 0 | 12 | 12 |
 | [pacstall/pacstall-programs](https://github.com/pacstall/pacstall-programs) | 211 | 2026-04-28T02:56:58Z | Shell | Infrastructure/tooling | 11 | 7 | 12 | 12 |
 | [amrsa1/Android-Emulator-image](https://github.com/amrsa1/Android-Emulator-image) | 180 | 2026-04-27T10:01:57Z | Shell | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [pion/awesome-pion](https://github.com/pion/awesome-pion) | 915 | 2026-04-26T01:09:44Z | Shell | Infrastructure/tooling | 4 | 1 | 4 | 4 |
@@ -98,6 +99,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [0xNyk/council-of-high-intelligence](https://github.com/0xNyk/council-of-high-intelligence) | 446 | 2026-04-15T19:19:28Z | Shell | Model/data | 7 | 0 | 7 | 7 |
 | [rz1989s/claude-code-statusline](https://github.com/rz1989s/claude-code-statusline) | 427 | 2026-04-17T17:11:17Z | Shell | CLI | 5 | 7 | 0 | 0 |
 | [dani-garcia/bw_web_builds](https://github.com/dani-garcia/bw_web_builds) | 366 | 2026-04-22T10:35:58Z | Shell | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [2KAbhishek/dots2k](https://github.com/2KAbhishek/dots2k) | 321 | 2026-04-28T06:06:35Z | Shell | CLI | 10 | 0 | 12 | 12 |
 | [openshift/release](https://github.com/openshift/release) | 313 | 2026-04-23T07:08:54Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [docker-library/drupal](https://github.com/docker-library/drupal) | 290 | 2026-04-20T08:44:57Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [nodenv/node-build](https://github.com/nodenv/node-build) | 290 | 2026-04-16T11:22:56Z | Shell | Infrastructure/tooling | 10 | 13 | 10 | 10 |

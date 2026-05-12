@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1 to 9 stars
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,7 +11,7 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 117
+- repos: 118
 - terms: 344
 - components: 485
 - concepts: 350
@@ -45,6 +45,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [autowarefoundation/.github](https://github.com/autowarefoundation/.github) | 1 | 2026-03-09T17:00:12Z | Unknown | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [richgel999/junkdrawer](https://github.com/richgel999/junkdrawer) | 1 | 2026-03-09T15:35:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [saalfeldlab/n5-google-cloud](https://github.com/saalfeldlab/n5-google-cloud) | 1 | 2026-03-09T13:55:18Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [day50-dev/mcp-search-and-run](https://github.com/day50-dev/mcp-search-and-run) | 4 | 2026-03-09T11:02:26Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [sigp/quick-protobuf](https://github.com/sigp/quick-protobuf) | 2 | 2026-03-09T08:43:12Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [nikitabobko/homebrew-tap](https://github.com/nikitabobko/homebrew-tap) | 8 | 2026-03-08T23:58:00Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [CROSS-signature/CROSS-lib-oqs](https://github.com/CROSS-signature/CROSS-lib-oqs) | 1 | 2026-03-08T18:50:44Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -188,6 +189,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AlwaysNur/bookbank](https://github.com/AlwaysNur/bookbank) | 5 | 2026-02-22T23:00:47Z | Go | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [DavidKinder/Libraries](https://github.com/DavidKinder/Libraries) | 5 | 2026-02-14T11:20:14Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [10up/.github](https://github.com/10up/.github) | 4 | 2026-03-10T14:57:49Z | Unknown | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [day50-dev/mcp-search-and-run](https://github.com/day50-dev/mcp-search-and-run) | 4 | 2026-03-09T11:02:26Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [hailiang-wang/llm-get-started](https://github.com/hailiang-wang/llm-get-started) | 4 | 2026-03-06T08:46:54Z | Python | Unknown | 1 | 0 | 1 | 1 |
 | [alonw0/cc-redalerts-statusline](https://github.com/alonw0/cc-redalerts-statusline) | 4 | 2026-03-05T15:48:01Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [0x676e67/0x676e67](https://github.com/0x676e67/0x676e67) | 4 | 2026-03-05T07:18:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

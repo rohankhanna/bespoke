@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 125,
-    "concepts": 106,
-    "observations": 106,
-    "repos": 12,
-    "terms": 106
+    "components": 122,
+    "concepts": 85,
+    "observations": 85,
+    "repos": 10,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "argotorg/hevm",
     "clj-commons/rewrite-clj",
     "cowprotocol/contracts",
-    "dbkangaroo/kangaroo",
     "elixir-protobuf/protobuf",
     "jump-dev/NLopt.jl",
     "karafka/rdkafka-ruby",
     "lite-xl/lite-xl-plugin-manager",
-    "mit-plv/bedrock2",
     "mrcjkb/haskell-tools.nvim",
     "ROCm/hipBLASLt",
     "Shopify/tapioca"

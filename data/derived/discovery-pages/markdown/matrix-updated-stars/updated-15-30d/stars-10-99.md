@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 716
-- terms: 2933
-- components: 6295
-- concepts: 2873
-- observations: 2883
+- repos: 717
+- terms: 2940
+- components: 6299
+- concepts: 2880
+- observations: 2890
 
 ## Static behavior
 
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [prefix-dev/rattler-build-action](https://github.com/prefix-dev/rattler-build-action) | 21 | 2026-04-28T06:46:45Z | Unknown | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [datachainlab/cosmos-ethereum-ibc-lcp](https://github.com/datachainlab/cosmos-ethereum-ibc-lcp) | 40 | 2026-04-28T05:34:18Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [elixir-webrtc/xav](https://github.com/elixir-webrtc/xav) | 77 | 2026-04-28T05:23:57Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [BioContainers/multi-package-containers](https://github.com/BioContainers/multi-package-containers) | 84 | 2026-04-28T04:04:20Z | Unknown | Infrastructure/tooling | 4 | 4 | 4 | 4 |
@@ -1275,6 +1276,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaGPU/juliagpu.org](https://github.com/JuliaGPU/juliagpu.org) | 22 | 2026-04-15T03:58:16Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [benchsci/rules_nodejs_gazelle](https://github.com/benchsci/rules_nodejs_gazelle) | 22 | 2026-04-14T18:54:48Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [daltonmaag/vttLib](https://github.com/daltonmaag/vttLib) | 22 | 2026-04-14T03:17:29Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [prefix-dev/rattler-build-action](https://github.com/prefix-dev/rattler-build-action) | 21 | 2026-04-28T06:46:45Z | Unknown | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [akruphi/far2l](https://github.com/akruphi/far2l) | 21 | 2026-04-26T09:34:25Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [guoqingbao/attention.rs](https://github.com/guoqingbao/attention.rs) | 21 | 2026-04-26T03:50:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [mypyc/mypy_mypyc-wheels](https://github.com/mypyc/mypy_mypyc-wheels) | 21 | 2026-04-22T23:38:28Z | JavaScript | Infrastructure/tooling | 1 | 7 | 1 | 1 |

@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 9930,
-    "concepts": 8582,
-    "observations": 8591,
-    "repos": 2242,
-    "terms": 8466
+    "concepts": 8584,
+    "observations": 8593,
+    "repos": 2243,
+    "terms": 8467
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -917,6 +917,7 @@
     "HRNet/HRNet-Facial-Landmark-Detection",
     "HRNet/HRNet-Image-Classification",
     "HRNet/HRNet-Semantic-Segmentation",
+    "hrsh7th/cmp-nvim-lsp",
     "hrsh7th/nvim-compe",
     "http-rs/tide",
     "HuangJunJie2017/BEVDet",

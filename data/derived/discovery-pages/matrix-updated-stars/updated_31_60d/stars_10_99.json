@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2988,
-    "concepts": 1652,
-    "observations": 1659,
-    "repos": 450,
-    "terms": 1646
+    "components": 2995,
+    "concepts": 1654,
+    "observations": 1661,
+    "repos": 451,
+    "terms": 1648
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x-ximon/acario.nvim",
@@ -216,6 +216,7 @@
     "ElementsProject/cln-application",
     "enola-dev/enola",
     "enzet/Roentgen",
+    "EstebanForge/mcp-cli-ent",
     "ethpandaops/xatu",
     "explosion/spacy-alignments",
     "explosion/weasel",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 409
-- terms: 1500
+- repos: 410
+- terms: 1502
 - components: 1252
-- concepts: 1510
-- observations: 1512
+- concepts: 1512
+- observations: 1514
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) | 1503 | 2025-11-13T07:27:45Z | Other | CLI | 2 | 0 | 2 | 2 |
 | [IDEA-Research/Grounded-SAM-2](https://github.com/IDEA-Research/Grounded-SAM-2) | 3475 | 2025-11-11T12:16:57Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [FoundationVision/VAR](https://github.com/FoundationVision/VAR) | 8678 | 2025-11-10T21:42:29Z | Other | Model/data | 11 | 0 | 11 | 11 |
 | [GEOSwift/GEOSwift](https://github.com/GEOSwift/GEOSwift) | 1500 | 2025-11-09T19:17:58Z | Other | Infrastructure/tooling | 15 | 1 | 15 | 15 |
@@ -748,6 +749,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [camenduru/text-to-video-synthesis-colab](https://github.com/camenduru/text-to-video-synthesis-colab) | 1517 | 2024-03-28T08:15:17Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [alexrozanski/LlamaChat](https://github.com/alexrozanski/LlamaChat) | 1513 | 2023-06-09T00:13:34Z | Other | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [PrismJS/prism-themes](https://github.com/PrismJS/prism-themes) | 1510 | 2023-12-09T17:06:48Z | Other | Infrastructure/tooling | 0 | 8 | 0 | 0 |
+| [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) | 1503 | 2025-11-13T07:27:45Z | Other | CLI | 2 | 0 | 2 | 2 |
 | [h2oai/h2o-tutorials](https://github.com/h2oai/h2o-tutorials) | 1503 | 2024-10-24T17:25:46Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [GEOSwift/GEOSwift](https://github.com/GEOSwift/GEOSwift) | 1500 | 2025-11-09T19:17:58Z | Other | Infrastructure/tooling | 15 | 1 | 15 | 15 |
 | [tc39/proposal-object-rest-spread](https://github.com/tc39/proposal-object-rest-spread) | 1488 | 2022-01-24T19:18:52Z | Other | Unknown | 0 | 1 | 0 | 0 |

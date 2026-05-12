@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 15,
+    "components": 17,
     "concepts": 43,
     "observations": 43,
-    "repos": 34,
-    "terms": 47
+    "repos": 35,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "aaron-he-zhu/core-eeat-content-benchmark",
@@ -40,6 +40,7 @@
     "lxgw/ext-characters",
     "oak-security/resources",
     "PacificBiosciences/pbAA",
+    "panaversity/claude-code-agent-teams-exercises",
     "PyCQA/bandit-action",
     "rose-pine/rose-pine-template",
     "sclorg/welcome",

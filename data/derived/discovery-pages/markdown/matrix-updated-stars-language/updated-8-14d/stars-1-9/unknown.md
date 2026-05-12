@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 23
+- repos: 22
 - terms: 25
 - components: 42
 - concepts: 25
@@ -48,7 +48,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [emacs-straight/gnu-elpa-mirror](https://github.com/emacs-straight/gnu-elpa-mirror) | 4 | 2026-04-29T00:20:16Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Ideation-Planning-Plugin](https://github.com/danielrosehill/Claude-Ideation-Planning-Plugin) | 3 | 2026-04-28T11:54:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [psmux/scoop-psmux](https://github.com/psmux/scoop-psmux) | 3 | 2026-04-28T08:48:54Z | Unknown | CLI | 1 | 0 | 1 | 1 |
-| [dmBots/DM-J4310-2EC](https://github.com/dmBots/DM-J4310-2EC) | 4 | 2026-04-28T05:50:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -63,7 +62,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stdlib-js/meetings](https://github.com/stdlib-js/meetings) | 5 | 2026-05-01T06:18:32Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [OpenSC/Nightly](https://github.com/OpenSC/Nightly) | 5 | 2026-04-30T16:15:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [emacs-straight/gnu-elpa-mirror](https://github.com/emacs-straight/gnu-elpa-mirror) | 4 | 2026-04-29T00:20:16Z | Unknown | Library | 0 | 0 | 0 | 0 |
-| [dmBots/DM-J4310-2EC](https://github.com/dmBots/DM-J4310-2EC) | 4 | 2026-04-28T05:50:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [emacs-straight/emacsmirror-mirror](https://github.com/emacs-straight/emacsmirror-mirror) | 3 | 2026-05-04T00:20:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Ideation-Planning-Plugin](https://github.com/danielrosehill/Claude-Ideation-Planning-Plugin) | 3 | 2026-04-28T11:54:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [psmux/scoop-psmux](https://github.com/psmux/scoop-psmux) | 3 | 2026-04-28T08:48:54Z | Unknown | CLI | 1 | 0 | 1 | 1 |

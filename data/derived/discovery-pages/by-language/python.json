@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 17454,
-    "concepts": 26068,
-    "observations": 26117,
-    "repos": 6520,
-    "terms": 25879
+    "components": 17460,
+    "concepts": 26077,
+    "observations": 26126,
+    "repos": 6527,
+    "terms": 25865
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0cc4m/hf_bleeding_edge",
@@ -150,6 +150,7 @@
     "adefossez/demucs",
     "adefossez/mdx21_demucs",
     "aden-hive/hive",
+    "adhikasp/mcp-client-cli",
     "adieyal/comfyui-dynamicprompts",
     "adieyal/dynamicprompts",
     "adieyal/sd-dynamic-prompts",
@@ -721,6 +722,7 @@
     "ASK-03/Reverse-Chain",
     "askbudi/roundtable",
     "aSleepyTree/EB-Cache",
+    "ASLP-lab/Hum-Dial",
     "ASLP-lab/OSUM",
     "asottile/pyupgrade",
     "asottile/reorder-python-imports",
@@ -1757,6 +1759,7 @@
     "davisvideochallenge/davis2017-evaluation",
     "Dawn-LX/CausalCache-VDM",
     "dawnvince/EasyTSAD",
+    "day50-dev/mcp-search-and-run",
     "dazuiba/ccnotify",
     "dbeley/awesome-lemmy",
     "dbfixtures/mirakuru",
@@ -2272,6 +2275,7 @@
     "fatPeter/mini-splatting",
     "fbcotter/pytorch_wavelets",
     "fcakyon/claude-codex-settings",
+    "fdarmon/NeuralWarp",
     "FeeiCN/Cobra",
     "feifeibear/long-context-attention",
     "feifeibear/Odysseus-Transformer",
@@ -2666,6 +2670,7 @@
     "GuyKh/ims-custom-component",
     "GuyTevet/motion-diffusion-model",
     "GuyTevet/MotionCLIP",
+    "gy65896/TSDNet",
     "gyhdog99/RACRO2",
     "H-a-y-k/hichesslib",
     "h4nwei/SPAQ",
@@ -3210,6 +3215,7 @@
     "jenicek/asmk",
     "jennifermarsman/PhiRecycling",
     "jensenzhoujh/DROL",
+    "jerryuhoo/VISinger",
     "jerryuhoo/VTuberTalk",
     "jessevig/bertviz",
     "JettHu/ComfyUI-TCD",
@@ -6053,6 +6059,7 @@
     "universome/inr-gan",
     "universome/stylegan-v",
     "unixorn/lima-xbar-plugin",
+    "UnknownPlatypus/djangofmt-pre-commit",
     "unslothai/unsloth",
     "unum-bio/USearchMolecules",
     "unum-cloud/UForm",

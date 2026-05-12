@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Shell
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,7 +13,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 1
-- terms: 17
+- terms: 15
 - components: 16
 - concepts: 17
 - observations: 17
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [nvm-sh/nvm](https://github.com/nvm-sh/nvm) | 93335 | 2026-05-07T21:24:47Z | Shell | Infrastructure/tooling | 17 | 16 | 17 | 17 |
+| [nvm-sh/nvm](https://github.com/nvm-sh/nvm) | 93335 | 2026-05-07T21:24:47Z | Shell | Infrastructure/tooling | 15 | 16 | 17 | 17 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [nvm-sh/nvm](https://github.com/nvm-sh/nvm) | 93335 | 2026-05-07T21:24:47Z | Shell | Infrastructure/tooling | 17 | 16 | 17 | 17 |
+| [nvm-sh/nvm](https://github.com/nvm-sh/nvm) | 93335 | 2026-05-07T21:24:47Z | Shell | Infrastructure/tooling | 15 | 16 | 17 | 17 |

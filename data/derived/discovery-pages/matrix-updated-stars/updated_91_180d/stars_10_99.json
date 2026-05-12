@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2040,
+    "components": 2042,
     "concepts": 1062,
     "observations": 1068,
-    "repos": 424,
-    "terms": 1070
+    "repos": 426,
+    "terms": 1071
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -64,6 +64,7 @@
     "Arthur944/neotest-bun",
     "Arthy000/gherkin-testcafe",
     "ashvardanian/StringTape",
+    "ASLP-lab/Hum-Dial",
     "astro/deadnix-action",
     "atom-yang/aumi",
     "auto-complete/fuzzy-el",
@@ -332,6 +333,7 @@
     "padreati/rapaio-jupyter-kernel",
     "pagedjs/pagedjs-cli",
     "paleolimbot/geos",
+    "panaversity/claude-code-agent-teams-exercises",
     "panmari/cuckoofilter",
     "patterns-ai-core/qdrant-ruby",
     "penumbra-zone/jmt",

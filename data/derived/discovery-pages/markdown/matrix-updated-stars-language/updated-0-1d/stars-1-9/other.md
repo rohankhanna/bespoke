@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1 to 9 stars · Other
 
-Generated at: `2026-05-02T07:31:15.175647+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 14
-- components: 14
-- concepts: 14
-- observations: 14
+- repos: 1
+- terms: 2
+- components: 5
+- concepts: 2
+- observations: 2
 
 ## Static behavior
 
@@ -26,12 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [fern-api/docs](https://github.com/fern-api/docs) | 6 | 2026-05-01T13:35:47Z | Other | Infrastructure/tooling | 12 | 10 | 12 | 12 |
-| [JuliaCI/rootfs-images](https://github.com/JuliaCI/rootfs-images) | 5 | 2026-05-01T11:38:26Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [nafg/jewish-date](https://github.com/nafg/jewish-date) | 4 | 2026-05-11T22:24:06Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [fern-api/docs](https://github.com/fern-api/docs) | 6 | 2026-05-01T13:35:47Z | Other | Infrastructure/tooling | 12 | 10 | 12 | 12 |
-| [JuliaCI/rootfs-images](https://github.com/JuliaCI/rootfs-images) | 5 | 2026-05-01T11:38:26Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [nafg/jewish-date](https://github.com/nafg/jewish-date) | 4 | 2026-05-11T22:24:06Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |

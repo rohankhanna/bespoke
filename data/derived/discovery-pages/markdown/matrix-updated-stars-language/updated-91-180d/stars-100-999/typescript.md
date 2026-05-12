@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -40,7 +40,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SassNinja/postcss-extract-media-query](https://github.com/SassNinja/postcss-extract-media-query) | 139 | 2026-01-21T23:40:03Z | TypeScript | Infrastructure/tooling | 0 | 16 | 0 | 0 |
 | [posthtml/posthtml-parser](https://github.com/posthtml/posthtml-parser) | 116 | 2026-01-21T23:18:29Z | TypeScript | Infrastructure/tooling | 1 | 16 | 1 | 1 |
 | [adaltas/node-http-status](https://github.com/adaltas/node-http-status) | 485 | 2026-01-21T23:03:03Z | TypeScript | Infrastructure/tooling | 4 | 25 | 4 | 4 |
-| [Obsidian-TTRPG-Community/fantasy-statblocks](https://github.com/Obsidian-TTRPG-Community/fantasy-statblocks) | 456 | 2026-01-21T15:45:47Z | TypeScript | Infrastructure/tooling | 3 | 52 | 3 | 3 |
+| [Obsidian-TTRPG-Community/fantasy-statblocks](https://github.com/Obsidian-TTRPG-Community/fantasy-statblocks) | 457 | 2026-01-21T15:45:47Z | TypeScript | Infrastructure/tooling | 3 | 52 | 3 | 3 |
 | [cocos/cocos-test-projects](https://github.com/cocos/cocos-test-projects) | 317 | 2026-01-19T07:25:24Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
 | [lostintangent/gistpad-mcp](https://github.com/lostintangent/gistpad-mcp) | 189 | 2026-01-16T17:58:32Z | TypeScript | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [enisdenjo/graphql-sse](https://github.com/enisdenjo/graphql-sse) | 452 | 2026-01-13T11:39:14Z | TypeScript | CLI | 15 | 40 | 15 | 15 |
@@ -82,7 +82,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [withcatai/catai](https://github.com/withcatai/catai) | 493 | 2025-11-16T18:35:45Z | TypeScript | Infrastructure/tooling | 17 | 5 | 17 | 17 |
 | [adaltas/node-http-status](https://github.com/adaltas/node-http-status) | 485 | 2026-01-21T23:03:03Z | TypeScript | Infrastructure/tooling | 4 | 25 | 4 | 4 |
 | [hyperbrew/bolt-cep](https://github.com/hyperbrew/bolt-cep) | 478 | 2026-01-30T18:51:05Z | TypeScript | Infrastructure/tooling | 6 | 50 | 6 | 6 |
-| [Obsidian-TTRPG-Community/fantasy-statblocks](https://github.com/Obsidian-TTRPG-Community/fantasy-statblocks) | 456 | 2026-01-21T15:45:47Z | TypeScript | Infrastructure/tooling | 3 | 52 | 3 | 3 |
+| [Obsidian-TTRPG-Community/fantasy-statblocks](https://github.com/Obsidian-TTRPG-Community/fantasy-statblocks) | 457 | 2026-01-21T15:45:47Z | TypeScript | Infrastructure/tooling | 3 | 52 | 3 | 3 |
 | [enisdenjo/graphql-sse](https://github.com/enisdenjo/graphql-sse) | 452 | 2026-01-13T11:39:14Z | TypeScript | CLI | 15 | 40 | 15 | 15 |
 | [cocos/cocos-test-projects](https://github.com/cocos/cocos-test-projects) | 317 | 2026-01-19T07:25:24Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
 | [nanbingxyz/mcpsvr](https://github.com/nanbingxyz/mcpsvr) | 297 | 2026-01-12T11:52:29Z | TypeScript | Service/API | 2 | 26 | 2 | 2 |

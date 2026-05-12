@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 169,
-    "concepts": 195,
-    "observations": 195,
-    "repos": 32,
-    "terms": 194
+    "components": 183,
+    "concepts": 210,
+    "observations": 210,
+    "repos": 34,
+    "terms": 209
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "aws-observability/aws-otel-collector",
@@ -20,6 +20,8 @@
     "aws/amazon-ec2-metadata-mock",
     "blampe/goat",
     "bshuster-repo/logrus-logstash-hook",
+    "cloudpilot-ai/karpenter-provider-alibabacloud",
+    "cloudwego/biz-demo",
     "cloudwego/hertz-examples",
     "connectrpc/grpcreflect-go",
     "containers/storage",

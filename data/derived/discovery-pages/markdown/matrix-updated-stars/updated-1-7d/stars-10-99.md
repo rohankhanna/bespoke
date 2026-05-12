@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 39
-- terms: 181
-- components: 284
-- concepts: 183
-- observations: 184
+- repos: 36
+- terms: 167
+- components: 261
+- concepts: 169
+- observations: 170
 
 ## Static behavior
 
@@ -26,10 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [joshsymonds/cc-tools](https://github.com/joshsymonds/cc-tools) | 50 | 2026-05-11T01:57:27Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
-| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-05-11T00:00:53Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-05-10T20:30:00Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [ipdxco/github-as-code](https://github.com/ipdxco/github-as-code) | 35 | 2026-05-10T19:48:40Z | TypeScript | Infrastructure/tooling | 10 | 16 | 10 | 10 |
-| [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | 38 | 2026-05-10T12:04:48Z | Rust | Infrastructure/tooling | 5 | 18 | 5 | 5 |
+| [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | 39 | 2026-05-10T12:04:48Z | Rust | Infrastructure/tooling | 5 | 18 | 5 | 5 |
 | [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-05-10T07:39:51Z | Other | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 | [tinted-theming/tinted-xresources](https://github.com/tinted-theming/tinted-xresources) | 20 | 2026-05-10T02:01:49Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 81 | 2026-05-09T22:23:34Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
@@ -62,8 +61,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [FactoryXCode/MfPack](https://github.com/FactoryXCode/MfPack) | 98 | 2026-05-05T14:00:20Z | Other | Service/API | 0 | 0 | 0 | 0 |
 | [tendermint/tm-db](https://github.com/tendermint/tm-db) | 92 | 2026-05-05T13:15:51Z | Go | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [python-jsonschema/referencing](https://github.com/python-jsonschema/referencing) | 53 | 2026-05-05T12:43:24Z | Python | Infrastructure/tooling | 4 | 5 | 6 | 6 |
-| [jcefmaven/jcefsampleapp](https://github.com/jcefmaven/jcefsampleapp) | 39 | 2026-05-05T07:08:44Z | Java | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [apache/doris-opentelemetry-demo](https://github.com/apache/doris-opentelemetry-demo) | 10 | 2026-05-05T06:01:48Z | JavaScript | Infrastructure/tooling | 6 | 17 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -78,7 +75,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rcasia/neotest-java](https://github.com/rcasia/neotest-java) | 70 | 2026-05-09T12:32:42Z | Other | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [mrcjkb/neotest-haskell](https://github.com/mrcjkb/neotest-haskell) | 69 | 2026-05-07T00:47:27Z | Other | Infrastructure/tooling | 15 | 14 | 15 | 15 |
 | [siketyan/intellij-rustowl](https://github.com/siketyan/intellij-rustowl) | 63 | 2026-05-08T03:05:51Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
-| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-05-11T00:00:53Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-05-10T07:39:51Z | Other | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 | [ocaml-tracing/ocaml-opentelemetry](https://github.com/ocaml-tracing/ocaml-opentelemetry) | 56 | 2026-05-08T19:40:29Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [usdot-fhwa-stol/cdasim](https://github.com/usdot-fhwa-stol/cdasim) | 53 | 2026-05-06T14:22:30Z | Java | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -86,8 +82,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [joshsymonds/cc-tools](https://github.com/joshsymonds/cc-tools) | 50 | 2026-05-11T01:57:27Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [jelly-beam/rebar3_ex_doc](https://github.com/jelly-beam/rebar3_ex_doc) | 48 | 2026-05-09T01:46:21Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [bmwiedemann/openSUSE](https://github.com/bmwiedemann/openSUSE) | 46 | 2026-05-07T01:18:24Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
-| [jcefmaven/jcefsampleapp](https://github.com/jcefmaven/jcefsampleapp) | 39 | 2026-05-05T07:08:44Z | Java | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | 38 | 2026-05-10T12:04:48Z | Rust | Infrastructure/tooling | 5 | 18 | 5 | 5 |
+| [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | 39 | 2026-05-10T12:04:48Z | Rust | Infrastructure/tooling | 5 | 18 | 5 | 5 |
 | [zig-wasm/wasmer-zig-api](https://github.com/zig-wasm/wasmer-zig-api) | 38 | 2026-05-06T11:58:12Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [pivotal/credhub-release](https://github.com/pivotal/credhub-release) | 37 | 2026-05-08T21:53:23Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [xuegao-tzx/Fllama](https://github.com/xuegao-tzx/Fllama) | 36 | 2026-05-08T16:22:50Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
@@ -107,4 +102,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gpac/testsuite](https://github.com/gpac/testsuite) | 13 | 2026-05-05T19:47:16Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [abap2UI5-addons/sql-console](https://github.com/abap2UI5-addons/sql-console) | 12 | 2026-05-09T06:15:21Z | Other | Infrastructure/tooling | 7 | 19 | 7 | 7 |
 | [Agnuxo1/CAJAL](https://github.com/Agnuxo1/CAJAL) | 12 | 2026-05-06T13:17:28Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
-| [apache/doris-opentelemetry-demo](https://github.com/apache/doris-opentelemetry-demo) | 10 | 2026-05-05T06:01:48Z | JavaScript | Infrastructure/tooling | 6 | 17 | 6 | 6 |

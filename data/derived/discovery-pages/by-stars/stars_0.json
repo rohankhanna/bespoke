@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2793,
-    "concepts": 1160,
-    "observations": 1164,
-    "repos": 875,
-    "terms": 1191
+    "components": 2798,
+    "concepts": 1161,
+    "observations": 1165,
+    "repos": 876,
+    "terms": 1192
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0xBigBoss/ghostty-web",
@@ -855,6 +855,7 @@
     "ueno/podman-sequoia",
     "UltraEval/GLM-4-Voice",
     "UltraEval/Step-Audio",
+    "UnknownPlatypus/markup_fmt",
     "unum-cloud/.github",
     "usdot-fhwa-stol/carma-ns3-adapter",
     "userbait/phishing_sites_detector",

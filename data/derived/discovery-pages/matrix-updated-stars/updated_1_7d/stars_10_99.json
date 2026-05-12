@@ -1,22 +1,21 @@
 {
   "counts": {
-    "components": 284,
-    "concepts": 183,
-    "observations": 184,
-    "repos": 39,
-    "terms": 181
+    "components": 261,
+    "concepts": 169,
+    "observations": 170,
+    "repos": 36,
+    "terms": 167
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "Agnuxo1/CAJAL",
     "alloy-rs/evm",
-    "apache/doris-opentelemetry-demo",
     "bmwiedemann/openSUSE",
     "Cle2ment/CherryStudio_themes",
     "dinosaure/blaze",
@@ -29,10 +28,8 @@
     "influxdata/datafusion-udf-wasm",
     "intel-staging/text-generation-webui",
     "ipdxco/github-as-code",
-    "jcefmaven/jcefsampleapp",
     "jelly-beam/rebar3_ex_doc",
     "joshsymonds/cc-tools",
-    "karafka/example-apps",
     "ludwig-ai/ludwig-docs",
     "lumen-oss/luarocks-tag-release",
     "mesh-iit/cad-libraries",

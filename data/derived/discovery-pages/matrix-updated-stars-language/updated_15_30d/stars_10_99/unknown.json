@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 112,
-    "concepts": 118,
-    "observations": 119,
-    "repos": 36,
-    "terms": 117
+    "components": 116,
+    "concepts": 125,
+    "observations": 126,
+    "repos": 37,
+    "terms": 124
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "BioContainers/multi-package-containers",
     "bleichenbacher-daniel/Rooterberg",
@@ -39,6 +39,7 @@
     "ocaml/platform-blog",
     "openobserve/dashboards",
     "pre-commit/mirrors-eslint",
+    "prefix-dev/rattler-build-action",
     "qemus/virtiso-whql",
     "quarkiverse/quarkiverse-docs",
     "rstackjs/rstack-design-resources",

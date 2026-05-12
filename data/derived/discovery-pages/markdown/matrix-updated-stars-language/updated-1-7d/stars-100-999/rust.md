@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 7
-- terms: 42
-- components: 76
-- concepts: 42
-- observations: 43
+- repos: 8
+- terms: 59
+- components: 87
+- concepts: 60
+- observations: 61
 
 ## Static behavior
 
@@ -26,7 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [attackgoat/vk-graph](https://github.com/attackgoat/vk-graph) | 336 | 2026-05-07T17:00:05Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 8 |
+| [aannoo/hcom](https://github.com/aannoo/hcom) | 270 | 2026-05-09T02:01:01Z | Rust | CLI | 18 | 11 | 18 | 18 |
+| [attackgoat/vk-graph](https://github.com/attackgoat/vk-graph) | 336 | 2026-05-07T17:00:05Z | Rust | Infrastructure/tooling | 6 | 5 | 7 | 8 |
 | [alloy-rs/svm-rs](https://github.com/alloy-rs/svm-rs) | 284 | 2026-05-07T15:54:28Z | Rust | Infrastructure/tooling | 3 | 21 | 3 | 3 |
 | [kornia/kornia-rs](https://github.com/kornia/kornia-rs) | 636 | 2026-05-06T18:04:55Z | Rust | Infrastructure/tooling | 11 | 11 | 11 | 11 |
 | [utilityai/llama-cpp-rs](https://github.com/utilityai/llama-cpp-rs) | 557 | 2026-05-06T00:58:56Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -42,6 +43,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kornia/kornia-rs](https://github.com/kornia/kornia-rs) | 636 | 2026-05-06T18:04:55Z | Rust | Infrastructure/tooling | 11 | 11 | 11 | 11 |
 | [utilityai/llama-cpp-rs](https://github.com/utilityai/llama-cpp-rs) | 557 | 2026-05-06T00:58:56Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [open-telemetry/weaver](https://github.com/open-telemetry/weaver) | 395 | 2026-05-05T12:43:48Z | Rust | Infrastructure/tooling | 11 | 21 | 11 | 11 |
-| [attackgoat/vk-graph](https://github.com/attackgoat/vk-graph) | 336 | 2026-05-07T17:00:05Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 8 |
+| [attackgoat/vk-graph](https://github.com/attackgoat/vk-graph) | 336 | 2026-05-07T17:00:05Z | Rust | Infrastructure/tooling | 6 | 5 | 7 | 8 |
 | [alloy-rs/svm-rs](https://github.com/alloy-rs/svm-rs) | 284 | 2026-05-07T15:54:28Z | Rust | Infrastructure/tooling | 3 | 21 | 3 | 3 |
+| [aannoo/hcom](https://github.com/aannoo/hcom) | 270 | 2026-05-09T02:01:01Z | Rust | CLI | 18 | 11 | 18 | 18 |
 | [agentclientprotocol/rust-sdk](https://github.com/agentclientprotocol/rust-sdk) | 121 | 2026-05-05T20:19:54Z | Rust | CLI | 3 | 11 | 3 | 3 |

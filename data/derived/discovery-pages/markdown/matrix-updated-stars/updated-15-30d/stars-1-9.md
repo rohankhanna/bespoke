@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 321
-- terms: 1074
-- components: 2344
-- concepts: 1037
-- observations: 1038
+- repos: 325
+- terms: 1075
+- components: 2346
+- concepts: 1038
+- observations: 1039
 
 ## Static behavior
 
@@ -25,6 +25,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ParisNeo/lollms_client](https://github.com/ParisNeo/lollms_client) | 8 | 2026-04-28T07:44:03Z | Python | CLI | 0 | 0 | 0 | 0 |
+| [jfmengels/elm-review-config](https://github.com/jfmengels/elm-review-config) | 9 | 2026-04-28T07:26:18Z | Other | Template/starter | 0 | 0 | 0 | 0 |
+| [dmBots/DM-J4310-2EC](https://github.com/dmBots/DM-J4310-2EC) | 4 | 2026-04-28T05:50:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cloudfoundry/cc-uploader](https://github.com/cloudfoundry/cc-uploader) | 1 | 2026-04-28T04:33:11Z | Go | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [transparency-dev/armored-witness-applet](https://github.com/transparency-dev/armored-witness-applet) | 1 | 2026-04-28T01:46:10Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [beeware/beeware-docs-tools](https://github.com/beeware/beeware-docs-tools) | 1 | 2026-04-28T00:39:06Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
@@ -222,6 +225,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [serpro69/capy](https://github.com/serpro69/capy) | 4 | 2026-04-19T09:18:43Z | Go | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [klodr/mercury-invoicing-mcp](https://github.com/klodr/mercury-invoicing-mcp) | 2 | 2026-04-19T08:42:02Z | TypeScript | Infrastructure/tooling | 3 | 22 | 0 | 0 |
 | [gauravrathod674/custom-chatbot](https://github.com/gauravRathod674/custom-chatbot) | 3 | 2026-04-19T08:39:25Z | JavaScript | Infrastructure/tooling | 1 | 20 | 0 | 0 |
+| [UnknownPlatypus/djangofmt-pre-commit](https://github.com/UnknownPlatypus/djangofmt-pre-commit) | 1 | 2026-04-19T08:01:25Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [celo-org/SocialConnect-Twitter-Server-Side](https://github.com/celo-org/SocialConnect-Twitter-Server-Side) | 3 | 2026-04-19T07:35:14Z | TypeScript | Service/API | 0 | 0 | 0 | 0 |
 | [ipfs/helia-remote-pinning](https://github.com/ipfs/helia-remote-pinning) | 9 | 2026-04-19T07:11:02Z | TypeScript | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [joinwell52-ai/codeflow-pwa](https://github.com/joinwell52-AI/codeflow-pwa) | 1 | 2026-04-19T06:58:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -351,6 +355,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jfmengels/elm-review-config](https://github.com/jfmengels/elm-review-config) | 9 | 2026-04-28T07:26:18Z | Other | Template/starter | 0 | 0 | 0 | 0 |
 | [hao-ai-lab/flash-attention-fp4](https://github.com/hao-ai-lab/flash-attention-fp4) | 9 | 2026-04-27T23:39:08Z | Other | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [mlcommons/submissions_algorithms](https://github.com/mlcommons/submissions_algorithms) | 9 | 2026-04-27T17:36:09Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [scaleway/serverless-api-framework-python](https://github.com/scaleway/serverless-api-framework-python) | 9 | 2026-04-27T16:58:01Z | Python | Infrastructure/tooling | 6 | 2 | 6 | 6 |
@@ -374,6 +379,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [php-toolkit/stdlib](https://github.com/php-toolkit/stdlib) | 9 | 2026-04-14T03:02:13Z | Other | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [aiidateam/plumpy](https://github.com/aiidateam/plumpy) | 9 | 2026-04-13T13:09:52Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [marcindulak/ralph-wiggum-bdd](https://github.com/marcindulak/ralph-wiggum-bdd) | 9 | 2026-04-12T07:50:42Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [ParisNeo/lollms_client](https://github.com/ParisNeo/lollms_client) | 8 | 2026-04-28T07:44:03Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [walbourn/directxtk12test](https://github.com/walbourn/directxtk12test) | 8 | 2026-04-27T19:29:25Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |
 | [image-rs/image-extras](https://github.com/image-rs/image-extras) | 8 | 2026-04-27T18:58:32Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [0xble/dotagent.nvim](https://github.com/0xble/dotagent.nvim) | 8 | 2026-04-26T19:14:06Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
@@ -487,6 +493,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Claude-ADHD-Research-Workspace](https://github.com/danielrosehill/Claude-ADHD-Research-Workspace) | 5 | 2026-04-16T13:56:55Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [agent-sh/agent-core](https://github.com/agent-sh/agent-core) | 5 | 2026-04-14T23:27:14Z | JavaScript | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [nodejs/web-team](https://github.com/nodejs/web-team) | 5 | 2026-04-14T11:30:18Z | Unknown | Infrastructure/tooling | 6 | 10 | 6 | 6 |
+| [dmBots/DM-J4310-2EC](https://github.com/dmBots/DM-J4310-2EC) | 4 | 2026-04-28T05:50:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Humans-of-Julia/BibInternal.jl](https://github.com/Humans-of-Julia/BibInternal.jl) | 4 | 2026-04-27T23:33:07Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [haskell-actions/hlint-run](https://github.com/haskell-actions/hlint-run) | 4 | 2026-04-27T13:47:10Z | TypeScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [j9t/minifier-benchmarks](https://github.com/j9t/minifier-benchmarks) | 4 | 2026-04-27T06:53:01Z | JavaScript | Web app | 9 | 16 | 9 | 9 |
@@ -648,6 +655,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cyber404/che-apple-mail-mcp](https://github.com/cyber404/che-apple-mail-mcp) | 1 | 2026-04-19T11:53:10Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [kmjjjj/polymarket-arbitrage-bot-btc-sol-15m](https://github.com/kmjjjj/polymarket-arbitrage-bot-btc-sol-15m) | 1 | 2026-04-19T11:52:48Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [enxs969/skiller](https://github.com/Enxs969/skiller) | 1 | 2026-04-19T11:51:10Z | TypeScript | Unknown | 0 | 13 | 0 | 0 |
+| [UnknownPlatypus/djangofmt-pre-commit](https://github.com/UnknownPlatypus/djangofmt-pre-commit) | 1 | 2026-04-19T08:01:25Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [joinwell52-ai/codeflow-pwa](https://github.com/joinwell52-AI/codeflow-pwa) | 1 | 2026-04-19T06:58:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [neuroverseos/neuroverseos-governance](https://github.com/NeuroverseOS/Neuroverseos-governance) | 1 | 2026-04-18T22:21:38Z | TypeScript | Infrastructure/tooling | 0 | 12 | 0 | 0 |
 | [seunghunbae-3svs/solo-cto-agent](https://github.com/seunghunbae-3svs/solo-cto-agent) | 1 | 2026-04-18T22:11:15Z | JavaScript | CLI | 7 | 9 | 0 | 0 |

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 26002,
-    "concepts": 22345,
-    "observations": 22417,
-    "repos": 5513,
-    "terms": 22291
+    "components": 26021,
+    "concepts": 22380,
+    "observations": 22452,
+    "repos": 5518,
+    "terms": 22320
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -188,6 +188,7 @@
     "aergonaut/pronto-goodcheck",
     "aerokube/moon",
     "aesalazar/AsteroidsWasm",
+    "aeulker/Claude-Code-Cheat-Sheet",
     "afulgens/base16-console2",
     "afulgens/base16-consolez",
     "ag1988/dss",
@@ -3807,6 +3808,7 @@
     "n8willis/opentype-shaping-documents",
     "nacos-group/nacos-group.github.io",
     "Naereen/StrapDown.js",
+    "nafg/jewish-date",
     "nagadomi/waifu2x",
     "nak1114/rbenv-win",
     "nalimilan/FreqTables.jl",
@@ -3952,6 +3954,7 @@
     "NVIDIA/workbench-llamafactory",
     "nvim-flutter/flutter-tools.nvim",
     "nvim-flutter/pubspec-assist.nvim",
+    "nvim-java/nvim-java",
     "nvim-lua/completion-nvim",
     "nvim-lua/lsp-status.nvim",
     "nvim-lua/nvim-lua-plugin-template",
@@ -4224,6 +4227,7 @@
     "phymhan/taming-transformers",
     "picturepan2/spectre",
     "PingoLH/CatConv2d",
+    "pinnymz/ruby-zmanim",
     "pinobatch/allpads-nes",
     "pinterest/ktlint",
     "pipecat-ai/docs",
@@ -4906,6 +4910,7 @@
     "stephanj/sonarlint-devoxxgenie-intellij",
     "StephenMiracle/frankenwp",
     "steren/awesome-cloud-run",
+    "Sternbach-Software/KosherKotlin",
     "stevearc/aerial.nvim",
     "stevearc/conform.nvim",
     "stevearc/dressing.nvim",

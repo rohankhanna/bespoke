@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1267,
-    "concepts": 352,
-    "observations": 354,
-    "repos": 82,
-    "terms": 359
+    "components": 1285,
+    "concepts": 356,
+    "observations": 358,
+    "repos": 83,
+    "terms": 363
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
+    "4xian/claude-codex-api",
     "absolute-version/commit-and-tag-version",
     "actions/deploy-pages",
     "adobe/spectrum-design-data",

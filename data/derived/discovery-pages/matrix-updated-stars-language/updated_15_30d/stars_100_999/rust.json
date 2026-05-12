@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1189,
+    "components": 1178,
     "concepts": 785,
     "observations": 793,
-    "repos": 152,
-    "terms": 791
+    "repos": 151,
+    "terms": 787
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
     "a1phyr/assets_manager",
-    "aannoo/hcom",
     "actix/actix-net",
     "ada-url/rust",
     "agent-sh/agnix",

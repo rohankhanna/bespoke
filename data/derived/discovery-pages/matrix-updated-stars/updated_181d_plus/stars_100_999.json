@@ -3,15 +3,15 @@
     "components": 14801,
     "concepts": 13138,
     "observations": 13163,
-    "repos": 4365,
-    "terms": 12925
+    "repos": 4366,
+    "terms": 12909
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -1524,6 +1524,7 @@
     "fatheral/matlab_imresize",
     "fatPeter/mini-splatting",
     "fcitx/fcitx",
+    "fdarmon/NeuralWarp",
     "feakin/fklang",
     "febeling/rb-libsvm",
     "fehiepsi/rethinking-numpyro",

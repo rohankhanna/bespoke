@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2347,
-    "concepts": 488,
-    "observations": 489,
-    "repos": 68,
-    "terms": 517
+    "components": 2371,
+    "concepts": 491,
+    "observations": 492,
+    "repos": 69,
+    "terms": 520
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "abrahamjuliot/creepjs",
     "actions/download-artifact",
@@ -80,6 +80,7 @@
     "thx/resvg-js",
     "TypeStrong/ts-loader",
     "unplugin/unplugin-vue-components",
+    "vadimdemedes/pastel",
     "vercel/next-learn",
     "xojs/xo"
   ]

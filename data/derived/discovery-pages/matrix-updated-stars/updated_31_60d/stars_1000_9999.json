@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5933,
-    "concepts": 3599,
-    "observations": 3614,
-    "repos": 617,
-    "terms": 3605
+    "components": 5960,
+    "concepts": 3610,
+    "observations": 3625,
+    "repos": 619,
+    "terms": 3616
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "2U1/Qwen-VL-Series-Finetune",
@@ -592,6 +592,7 @@
     "unplugin/unplugin-vue-components",
     "uptrace/bun",
     "usbarmory/usbarmory",
+    "vadimdemedes/pastel",
     "varvet/pundit",
     "Vchitect/VBench",
     "vcr/vcr",
@@ -609,6 +610,7 @@
     "wenet-e2e/wespeaker",
     "whitequark/parser",
     "wincent/command-t",
+    "wkentaro/gdown",
     "xerial/snappy-java",
     "xjasonlyu/tun2socks",
     "xlite-dev/lite.ai.toolkit",

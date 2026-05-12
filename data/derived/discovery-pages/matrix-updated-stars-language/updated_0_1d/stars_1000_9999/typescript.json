@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 296,
-    "concepts": 54,
-    "observations": 54,
-    "repos": 8,
-    "terms": 54
+    "components": 396,
+    "concepts": 71,
+    "observations": 71,
+    "repos": 11,
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
+    "conventional-changelog/conventional-changelog",
+    "ebullient/obsidian-admonition",
     "electron/rebuild",
     "getagentseal/codeburn",
     "podman-desktop/podman-desktop",
     "shareAI-lab/Kode-Agent",
     "TanStack/form",
+    "typescript-language-server/typescript-language-server",
     "vuejs/devtools",
     "vuejs/language-tools"
   ]

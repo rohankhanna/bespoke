@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 177
-- terms: 1450
-- components: 1681
-- concepts: 1455
-- observations: 1468
+- repos: 176
+- terms: 1433
+- components: 1674
+- concepts: 1438
+- observations: 1451
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [JuliaGPU/CUDA.jl](https://github.com/JuliaGPU/CUDA.jl) | 1408 | 2026-05-05T06:47:18Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [standardrb/standard](https://github.com/standardrb/standard) | 2895 | 2026-05-05T01:03:36Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [cvc5/cvc5](https://github.com/cvc5/cvc5) | 1299 | 2026-05-04T23:10:48Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [googleapis/google-api-php-client](https://github.com/googleapis/google-api-php-client) | 9776 | 2026-05-04T21:01:49Z | Other | CLI | 3 | 6 | 3 | 3 |
@@ -48,7 +49,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MetaCubeX/metacubexd](https://github.com/MetaCubeX/metacubexd) | 3527 | 2026-05-03T16:28:18Z | Other | Infrastructure/tooling | 7 | 80 | 7 | 7 |
 | [elixir-grpc/grpc](https://github.com/elixir-grpc/grpc) | 1515 | 2026-05-03T15:35:43Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [helix-toolkit/helix-toolkit](https://github.com/helix-toolkit/helix-toolkit) | 2236 | 2026-05-03T15:09:17Z | Other | Infrastructure/tooling | 9 | 6 | 10 | 10 |
-| [lumen-oss/rocks.nvim](https://github.com/lumen-oss/rocks.nvim) | 1029 | 2026-05-03T14:37:58Z | Other | Infrastructure/tooling | 14 | 17 | 14 | 14 |
+| [lumen-oss/rocks.nvim](https://github.com/lumen-oss/rocks.nvim) | 1030 | 2026-05-03T14:37:58Z | Other | Infrastructure/tooling | 14 | 17 | 14 | 14 |
 | [TechnitiumSoftware/DnsServer](https://github.com/TechnitiumSoftware/DnsServer) | 8289 | 2026-05-03T11:35:19Z | Other | CLI | 11 | 0 | 11 | 11 |
 | [coverlet-coverage/coverlet](https://github.com/coverlet-coverage/coverlet) | 3148 | 2026-05-03T08:35:46Z | Other | Infrastructure/tooling | 15 | 16 | 15 | 15 |
 | [gaoyifan/china-operator-ip](https://github.com/gaoyifan/china-operator-ip) | 3488 | 2026-05-03T04:11:07Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
@@ -201,8 +202,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rgeo/rgeo](https://github.com/rgeo/rgeo) | 1043 | 2026-04-28T12:22:19Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [ARM-software/abi-aa](https://github.com/ARM-software/abi-aa) | 1218 | 2026-04-28T09:36:48Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) | 7906 | 2026-04-28T08:33:28Z | Other | Infrastructure/tooling | 9 | 5 | 9 | 9 |
-| [fluentassertions/fluentassertions](https://github.com/fluentassertions/fluentassertions) | 3813 | 2026-04-28T07:30:48Z | Other | Infrastructure/tooling | 11 | 13 | 11 | 11 |
-| [CanHub/Android-Image-Cropper](https://github.com/CanHub/Android-Image-Cropper) | 1485 | 2026-04-28T07:09:28Z | Other | Infrastructure/tooling | 13 | 4 | 13 | 13 |
 
 ## Repos sorted by stars
 
@@ -268,7 +267,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apollographql/apollo-kotlin](https://github.com/apollographql/apollo-kotlin) | 3953 | 2026-04-30T09:24:37Z | Other | CLI | 16 | 5 | 16 | 16 |
 | [dlemstra/Magick.NET](https://github.com/dlemstra/Magick.NET) | 3927 | 2026-04-29T13:13:02Z | Other | Infrastructure/tooling | 11 | 8 | 11 | 11 |
 | [swiftlang/sourcekit-lsp](https://github.com/swiftlang/sourcekit-lsp) | 3828 | 2026-05-02T08:52:00Z | Other | Service/API | 0 | 0 | 0 | 0 |
-| [fluentassertions/fluentassertions](https://github.com/fluentassertions/fluentassertions) | 3813 | 2026-04-28T07:30:48Z | Other | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 | [nvimdev/lspsaga.nvim](https://github.com/nvimdev/lspsaga.nvim) | 3786 | 2026-05-04T02:59:38Z | Other | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [JetBrains/intellij-platform-plugin-template](https://github.com/JetBrains/intellij-platform-plugin-template) | 3722 | 2026-04-29T06:52:59Z | Other | Infrastructure/tooling | 12 | 7 | 12 | 12 |
 | [SciSharp/LLamaSharp](https://github.com/SciSharp/LLamaSharp) | 3658 | 2026-05-01T14:19:21Z | Other | Infrastructure/tooling | 17 | 15 | 17 | 17 |
@@ -350,11 +348,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chaofengc/Awesome-Image-Quality-Assessment](https://github.com/chaofengc/Awesome-Image-Quality-Assessment) | 1504 | 2026-04-29T11:38:15Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [googleapis/google-api-dotnet-client](https://github.com/googleapis/google-api-dotnet-client) | 1499 | 2026-04-29T17:47:34Z | Other | CLI | 1 | 2 | 1 | 1 |
 | [tlaplus/Examples](https://github.com/tlaplus/Examples) | 1497 | 2026-05-01T14:59:04Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
-| [CanHub/Android-Image-Cropper](https://github.com/CanHub/Android-Image-Cropper) | 1485 | 2026-04-28T07:09:28Z | Other | Infrastructure/tooling | 13 | 4 | 13 | 13 |
 | [smartstore/Smartstore](https://github.com/smartstore/Smartstore) | 1473 | 2026-04-30T02:23:14Z | Other | Infrastructure/tooling | 21 | 7 | 21 | 21 |
 | [intel/llvm](https://github.com/intel/llvm) | 1460 | 2026-04-30T07:02:50Z | Other | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [MicrosoftEdge/MSEdgeExplainers](https://github.com/MicrosoftEdge/MSEdgeExplainers) | 1436 | 2026-04-29T18:17:22Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [elixir-mint/mint](https://github.com/elixir-mint/mint) | 1412 | 2026-04-28T14:57:36Z | Other | CLI | 7 | 3 | 7 | 7 |
+| [JuliaGPU/CUDA.jl](https://github.com/JuliaGPU/CUDA.jl) | 1408 | 2026-05-05T06:47:18Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [ray-x/navigator.lua](https://github.com/ray-x/navigator.lua) | 1395 | 2026-04-28T14:32:47Z | Other | CLI | 9 | 3 | 9 | 9 |
 | [nvim-flutter/flutter-tools.nvim](https://github.com/nvim-flutter/flutter-tools.nvim) | 1389 | 2026-05-04T06:10:34Z | Other | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [nim-lang/nimble](https://github.com/nim-lang/nimble) | 1372 | 2026-04-30T14:29:23Z | Other | Infrastructure/tooling | 2 | 10 | 2 | 2 |
@@ -382,6 +380,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [googleapis/google-cloud-dotnet](https://github.com/googleapis/google-cloud-dotnet) | 1084 | 2026-04-29T21:04:46Z | Other | CLI | 7 | 3 | 7 | 7 |
 | [broadinstitute/cromwell](https://github.com/broadinstitute/cromwell) | 1065 | 2026-05-01T21:05:12Z | Other | Infrastructure/tooling | 19 | 14 | 19 | 19 |
 | [rgeo/rgeo](https://github.com/rgeo/rgeo) | 1043 | 2026-04-28T12:22:19Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
-| [lumen-oss/rocks.nvim](https://github.com/lumen-oss/rocks.nvim) | 1029 | 2026-05-03T14:37:58Z | Other | Infrastructure/tooling | 14 | 17 | 14 | 14 |
+| [lumen-oss/rocks.nvim](https://github.com/lumen-oss/rocks.nvim) | 1030 | 2026-05-03T14:37:58Z | Other | Infrastructure/tooling | 14 | 17 | 14 | 14 |
 | [licensee/licensed](https://github.com/licensee/licensed) | 1029 | 2026-04-28T16:00:50Z | Other | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [rapidsai/raft](https://github.com/rapidsai/raft) | 1002 | 2026-04-29T18:07:04Z | Other | Infrastructure/tooling | 22 | 20 | 22 | 22 |

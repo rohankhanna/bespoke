@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 53
-- terms: 206
+- repos: 54
+- terms: 212
 - components: 70
-- concepts: 207
-- observations: 208
+- concepts: 213
+- observations: 214
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [smithy-lang/awesome-smithy](https://github.com/smithy-lang/awesome-smithy) | 248 | 2026-04-28T07:07:04Z | Unknown | CLI | 6 | 0 | 6 | 6 |
 | [luau-lang/rfcs](https://github.com/luau-lang/rfcs) | 103 | 2026-04-27T21:11:30Z | Unknown | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [chromedp/cdproto](https://github.com/chromedp/cdproto) | 178 | 2026-04-27T01:31:51Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [LuaLS/LLS-Addons](https://github.com/LuaLS/LLS-Addons) | 113 | 2026-04-26T02:24:01Z | Unknown | Infrastructure/tooling | 4 | 3 | 4 | 4 |
@@ -114,6 +115,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ailev/fpf](https://github.com/ailev/FPF) | 324 | 2026-04-17T12:33:55Z | Unknown | Framework | 11 | 0 | 11 | 11 |
 | [apappascs/mcp-servers-hub](https://github.com/apappascs/mcp-servers-hub) | 317 | 2026-04-21T15:10:03Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [mason-org/mason-registry](https://github.com/mason-org/mason-registry) | 284 | 2026-04-22T02:21:31Z | Unknown | Infrastructure/tooling | 6 | 7 | 6 | 6 |
+| [smithy-lang/awesome-smithy](https://github.com/smithy-lang/awesome-smithy) | 248 | 2026-04-28T07:07:04Z | Unknown | CLI | 6 | 0 | 6 | 6 |
 | [servo/project](https://github.com/servo/project) | 248 | 2026-04-14T13:31:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [gautamkrishnar/gautamkrishnar](https://github.com/gautamkrishnar/gautamkrishnar) | 247 | 2026-04-16T22:16:28Z | Unknown | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [actions/partner-runner-images](https://github.com/actions/partner-runner-images) | 229 | 2026-04-17T21:29:35Z | Unknown | Unknown | 1 | 0 | 1 | 1 |

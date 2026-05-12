@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1511,
+    "components": 1509,
     "concepts": 823,
     "observations": 824,
     "repos": 284,
-    "terms": 816
+    "terms": 815
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2KAbhishek/exercism.nvim",
@@ -56,6 +56,7 @@
     "aseprite/clip",
     "aseprite/observable",
     "asg017/sqlite-hello",
+    "assimelha/cmcp",
     "astroyat/lerobot-ros",
     "autokitteh/kittehub",
     "avelino/monotropic-theme-vscode",
@@ -240,7 +241,6 @@
     "OpenHands/openhands-chrome-extension",
     "Owen-Liuyuxuan/ros2_vision_inference",
     "PacktPublishing/Natural-Language-Processing-with-Flair",
-    "panaversity/claude-code-agent-teams-exercises",
     "paoloshasta/shasta",
     "patrickgold/jetpref",
     "php/doc-it",

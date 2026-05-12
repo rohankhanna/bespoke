@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 424,
-    "concepts": 528,
-    "observations": 528,
+    "components": 410,
+    "concepts": 517,
+    "observations": 517,
     "repos": 45,
-    "terms": 524
+    "terms": 513
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "alibaba/spring-ai-alibaba",
     "apache/beam",
@@ -41,11 +41,11 @@
     "jline/jline3",
     "JodaOrg/joda-time",
     "junit-team/junit-examples",
-    "junit-team/junit-framework",
     "karatelabs/karate",
     "konsoletyper/teavm",
     "langgraph4j/langgraph4j",
     "lightbend/config",
+    "mapsforge/mapsforge",
     "micronaut-projects/micronaut-core",
     "moyangzhan/langchain4j-aideepin",
     "reactor/BlockHound",

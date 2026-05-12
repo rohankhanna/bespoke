@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 80
-- terms: 563
-- components: 2696
-- concepts: 567
-- observations: 567
+- repos: 81
+- terms: 573
+- components: 2752
+- concepts: 577
+- observations: 577
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [appium/appium-inspector](https://github.com/appium/appium-inspector) | 1796 | 2026-04-28T07:09:57Z | JavaScript | Infrastructure/tooling | 10 | 56 | 10 | 10 |
 | [postcss/postcss-import](https://github.com/postcss/postcss-import) | 1407 | 2026-04-27T20:50:44Z | JavaScript | Infrastructure/tooling | 4 | 15 | 4 | 4 |
 | [ljharb/qs](https://github.com/ljharb/qs) | 8928 | 2026-04-27T19:23:55Z | JavaScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |
 | [krausest/js-framework-benchmark](https://github.com/krausest/js-framework-benchmark) | 7408 | 2026-04-27T18:34:17Z | JavaScript | Framework | 0 | 16 | 0 | 0 |
@@ -98,7 +99,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gatsbyjs/gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog) | 3515 | 2026-04-15T12:34:37Z | JavaScript | Template/starter | 0 | 17 | 0 | 0 |
 | [webpack/sass-loader](https://github.com/webpack/sass-loader) | 3893 | 2026-04-15T11:37:33Z | JavaScript | Infrastructure/tooling | 9 | 55 | 9 | 9 |
 | [GoogleChromeLabs/browser-fs-access](https://github.com/GoogleChromeLabs/browser-fs-access) | 1564 | 2026-04-15T11:13:02Z | JavaScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
-| [codemirror/dev](https://github.com/codemirror/dev) | 7831 | 2026-04-15T10:24:43Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
+| [codemirror/dev](https://github.com/codemirror/dev) | 7830 | 2026-04-15T10:24:43Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [webtorrent/webtorrent-cli](https://github.com/webtorrent/webtorrent-cli) | 1340 | 2026-04-14T22:15:43Z | JavaScript | CLI | 7 | 28 | 7 | 7 |
 | [GoogleChromeLabs/ProjectVisBug](https://github.com/GoogleChromeLabs/ProjectVisBug) | 5726 | 2026-04-14T01:18:27Z | JavaScript | Infrastructure/tooling | 7 | 30 | 7 | 7 |
 | [mapbox/maki](https://github.com/mapbox/maki) | 1567 | 2026-04-13T23:02:51Z | JavaScript | Unknown | 3 | 11 | 3 | 3 |
@@ -126,7 +127,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [isomorphic-git/isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) | 8196 | 2026-04-27T08:58:49Z | JavaScript | Infrastructure/tooling | 6 | 65 | 6 | 6 |
 | [conventional-changelog/standard-version](https://github.com/conventional-changelog/standard-version) | 7963 | 2026-04-23T15:39:15Z | JavaScript | CLI | 10 | 31 | 10 | 10 |
 | [webpack/webpack-dev-server](https://github.com/webpack/webpack-dev-server) | 7848 | 2026-04-26T19:57:01Z | JavaScript | Infrastructure/tooling | 5 | 94 | 5 | 5 |
-| [codemirror/dev](https://github.com/codemirror/dev) | 7831 | 2026-04-15T10:24:43Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
+| [codemirror/dev](https://github.com/codemirror/dev) | 7830 | 2026-04-15T10:24:43Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [sindresorhus/np](https://github.com/sindresorhus/np) | 7698 | 2026-04-20T12:11:49Z | JavaScript | CLI | 6 | 50 | 6 | 6 |
 | [google/closure-compiler](https://github.com/google/closure-compiler) | 7644 | 2026-04-16T23:44:23Z | JavaScript | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [nodejs/undici](https://github.com/nodejs/undici) | 7519 | 2026-04-22T00:10:55Z | JavaScript | CLI | 9 | 35 | 9 | 9 |
@@ -169,6 +170,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bcoe/c8](https://github.com/bcoe/c8) | 2101 | 2026-04-17T00:04:21Z | JavaScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [vizzuhq/vizzu-lib](https://github.com/vizzuhq/vizzu-lib) | 2009 | 2026-04-20T13:02:16Z | JavaScript | Infrastructure/tooling | 18 | 34 | 18 | 18 |
 | [coderaiser/cloudcmd](https://github.com/coderaiser/cloudcmd) | 2006 | 2026-04-21T20:31:28Z | JavaScript | Infrastructure/tooling | 18 | 141 | 18 | 18 |
+| [appium/appium-inspector](https://github.com/appium/appium-inspector) | 1796 | 2026-04-28T07:09:57Z | JavaScript | Infrastructure/tooling | 10 | 56 | 10 | 10 |
 | [reZach/secure-electron-template](https://github.com/reZach/secure-electron-template) | 1714 | 2026-04-22T17:55:02Z | JavaScript | Infrastructure/tooling | 9 | 61 | 9 | 9 |
 | [js-joda/js-joda](https://github.com/js-joda/js-joda) | 1658 | 2026-04-15T18:50:28Z | JavaScript | Infrastructure/tooling | 8 | 52 | 8 | 8 |
 | [tchx84/Flatseal](https://github.com/tchx84/Flatseal) | 1630 | 2026-04-21T20:07:06Z | JavaScript | Infrastructure/tooling | 0 | 2 | 0 | 0 |

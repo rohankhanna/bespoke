@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 534,
-    "concepts": 798,
-    "observations": 798,
-    "repos": 128,
-    "terms": 788
+    "components": 537,
+    "concepts": 806,
+    "observations": 806,
+    "repos": 129,
+    "terms": 796
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "2U1/Qwen-VL-Series-Finetune",
@@ -139,6 +139,7 @@
     "Vchitect/VBench",
     "wenet-e2e/wenet",
     "wenet-e2e/wespeaker",
+    "wkentaro/gdown",
     "YanjieZe/GMR",
     "Yelp/dumb-init",
     "zai-org/GLM-V"

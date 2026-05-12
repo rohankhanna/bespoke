@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 138,
-    "concepts": 96,
-    "observations": 96,
-    "repos": 11,
-    "terms": 96
+    "components": 153,
+    "concepts": 114,
+    "observations": 114,
+    "repos": 12,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "agentclientprotocol/agent-client-protocol",
     "ash-rs/ash",
@@ -22,6 +22,7 @@
     "dora-rs/dora",
     "josh-project/josh",
     "JuliaLang/juliaup",
+    "junhoyeo/tokscale",
     "lance-format/lance",
     "ros2-rust/ros2_rust",
     "watchexec/watchexec"

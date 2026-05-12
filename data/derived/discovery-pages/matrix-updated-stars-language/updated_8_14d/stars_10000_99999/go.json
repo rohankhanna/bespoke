@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 645,
-    "concepts": 580,
-    "observations": 582,
-    "repos": 41,
-    "terms": 580
+    "components": 636,
+    "concepts": 564,
+    "observations": 566,
+    "repos": 40,
+    "terms": 564
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "anchore/grype",
     "argoproj/argo-workflows",
@@ -36,7 +36,6 @@
     "gotify/server",
     "gravitational/teleport",
     "grpc-ecosystem/grpc-gateway",
-    "hajimehoshi/ebiten",
     "hashicorp/nomad",
     "helm/helm",
     "ipfs/kubo",

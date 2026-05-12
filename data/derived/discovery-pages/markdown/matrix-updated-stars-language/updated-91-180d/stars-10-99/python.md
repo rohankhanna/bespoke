@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 84
+- repos: 85
 - terms: 209
 - components: 177
 - concepts: 200
@@ -84,6 +84,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lmgame-org/GRL](https://github.com/lmgame-org/GRL) | 61 | 2025-12-18T23:18:07Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [jdlph/Path4GMNS](https://github.com/jdlph/Path4GMNS) | 66 | 2025-12-16T02:33:52Z | Python | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [NightFurySL2001/cjktables](https://github.com/NightFurySL2001/cjktables) | 46 | 2025-12-13T13:08:14Z | Python | Unknown | 1 | 0 | 1 | 1 |
+| [ASLP-lab/Hum-Dial](https://github.com/ASLP-lab/Hum-Dial) | 43 | 2025-12-13T08:48:06Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [Alexandre-Delplanque/HerdNet](https://github.com/Alexandre-Delplanque/HerdNet) | 56 | 2025-12-09T08:11:29Z | Python | Unknown | 8 | 0 | 8 | 8 |
 | [ssitu/ComfyUI_restart_sampling](https://github.com/ssitu/ComfyUI_restart_sampling) | 89 | 2025-12-06T03:42:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [ChenShawn/MultiModal-Jupyter-Sandbox](https://github.com/ChenShawn/MultiModal-Jupyter-Sandbox) | 24 | 2025-12-05T04:31:05Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -156,6 +157,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [NightFurySL2001/cjktables](https://github.com/NightFurySL2001/cjktables) | 46 | 2025-12-13T13:08:14Z | Python | Unknown | 1 | 0 | 1 | 1 |
 | [vllm-project/vllm-openvino](https://github.com/vllm-project/vllm-openvino) | 45 | 2025-12-04T11:14:54Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [opea-project/docs](https://github.com/opea-project/docs) | 44 | 2025-12-19T03:04:24Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [ASLP-lab/Hum-Dial](https://github.com/ASLP-lab/Hum-Dial) | 43 | 2025-12-13T08:48:06Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [vis-nlp/ChartQAPro](https://github.com/vis-nlp/ChartQAPro) | 42 | 2026-01-17T03:07:36Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [mohammadtavakoli78/beam](https://github.com/mohammadtavakoli78/BEAM) | 41 | 2026-02-02T07:43:30Z | Python | Unknown | 17 | 0 | 17 | 17 |
 | [TencentYoutuResearch/APTBench](https://github.com/TencentYoutuResearch/APTBench) | 41 | 2025-12-23T07:23:07Z | Python | Unknown | 0 | 0 | 0 | 0 |

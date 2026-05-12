@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,9 +11,9 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 424
-- terms: 1070
-- components: 2040
+- repos: 426
+- terms: 1071
+- components: 2042
 - concepts: 1062
 - observations: 1068
 
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [panaversity/claude-code-agent-teams-exercises](https://github.com/panaversity/claude-code-agent-teams-exercises) | 22 | 2026-02-11T07:23:13Z | Unknown | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [FourierTransformer/lua-simdjson](https://github.com/FourierTransformer/lua-simdjson) | 20 | 2026-02-10T23:28:53Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [padreati/rapaio-jupyter-kernel](https://github.com/padreati/rapaio-jupyter-kernel) | 76 | 2026-02-10T23:17:31Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [utiasASRL/lgmath](https://github.com/utiasASRL/lgmath) | 42 | 2026-02-10T21:11:04Z | C/C++ | Infrastructure/tooling | 2 | 0 | 2 | 2 |
@@ -316,6 +317,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [honwen/openwrt-shadowsocks-rust](https://github.com/honwen/openwrt-shadowsocks-rust) | 71 | 2025-12-15T09:04:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [talk-flow/Lynxe-public-usecase](https://github.com/talk-flow/Lynxe-public-usecase) | 25 | 2025-12-15T03:11:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [NightFurySL2001/cjktables](https://github.com/NightFurySL2001/cjktables) | 46 | 2025-12-13T13:08:14Z | Python | Unknown | 1 | 0 | 1 | 1 |
+| [ASLP-lab/Hum-Dial](https://github.com/ASLP-lab/Hum-Dial) | 43 | 2025-12-13T08:48:06Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [dfki-ric/pclomp](https://github.com/dfki-ric/pclomp) | 22 | 2025-12-12T10:53:43Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [cloudwego/netpoll-benchmark](https://github.com/cloudwego/netpoll-benchmark) | 45 | 2025-12-12T10:07:07Z | Go | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [remotion-dev/brand](https://github.com/remotion-dev/brand) | 68 | 2025-12-12T09:28:21Z | TypeScript | Infrastructure/tooling | 4 | 27 | 4 | 4 |
@@ -631,6 +633,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [XR-Robotics/XRoboToolkit-Unity-Client](https://github.com/XR-Robotics/XRoboToolkit-Unity-Client) | 44 | 2025-12-03T01:45:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dredozubov/prd-generator](https://github.com/dredozubov/prd-generator) | 43 | 2026-01-14T10:29:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [linebender/simplecss](https://github.com/linebender/simplecss) | 43 | 2025-12-21T13:41:36Z | Rust | Infrastructure/tooling | 0 | 7 | 0 | 0 |
+| [ASLP-lab/Hum-Dial](https://github.com/ASLP-lab/Hum-Dial) | 43 | 2025-12-13T08:48:06Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [freddyaboulton/gradio-pdf](https://github.com/freddyaboulton/gradio-pdf) | 43 | 2025-11-26T21:30:59Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [rickstaa/action-black](https://github.com/rickstaa/action-black) | 43 | 2025-11-20T18:03:42Z | Shell | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [utiasASRL/lgmath](https://github.com/utiasASRL/lgmath) | 42 | 2026-02-10T21:11:04Z | C/C++ | Infrastructure/tooling | 2 | 0 | 2 | 2 |
@@ -752,6 +755,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [getumbrel/umbrel-lightning](https://github.com/getumbrel/umbrel-lightning) | 23 | 2025-12-09T01:15:09Z | Other | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [pug-php/js-phpize](https://github.com/pug-php/js-phpize) | 23 | 2025-12-02T22:37:19Z | Other | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [markdown-it/markdown-it-cjk-breaks](https://github.com/markdown-it/markdown-it-cjk-breaks) | 23 | 2025-11-21T01:06:50Z | JavaScript | Infrastructure/tooling | 0 | 14 | 0 | 0 |
+| [panaversity/claude-code-agent-teams-exercises](https://github.com/panaversity/claude-code-agent-teams-exercises) | 22 | 2026-02-11T07:23:13Z | Unknown | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [lnbc1QWFyb24/lnmessage](https://github.com/lnbc1QWFyb24/lnmessage) | 22 | 2026-02-05T03:27:50Z | TypeScript | Web app | 3 | 13 | 3 | 3 |
 | [stephenschoettler/taches-oc-prompts](https://github.com/stephenschoettler/taches-oc-prompts) | 22 | 2026-01-14T04:58:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [marcindulak/stt-mcp-server-linux](https://github.com/marcindulak/stt-mcp-server-linux) | 22 | 2026-01-10T20:37:40Z | Python | Infrastructure/tooling | 4 | 1 | 0 | 0 |

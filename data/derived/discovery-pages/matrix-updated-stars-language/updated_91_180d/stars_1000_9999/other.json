@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 353,
-    "concepts": 386,
-    "observations": 388,
+    "components": 362,
+    "concepts": 402,
+    "observations": 404,
     "repos": 87,
-    "terms": 384
+    "terms": 400
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "Alexander-Miller/treemacs",
     "ankane/dexter",
@@ -58,7 +58,6 @@
     "haskell/stylish-haskell",
     "hecomi/uLipSync",
     "hoshsadiq/adblock-nocoin-list",
-    "hrsh7th/cmp-nvim-lsp",
     "jashkenas/docco",
     "jekip/naive-ui-admin",
     "joaotavora/eglot",
@@ -78,6 +77,7 @@
     "mrash/fwknop",
     "myclabs/DeepCopy",
     "nix-community/dream2nix",
+    "nvim-java/nvim-java",
     "onsails/lspkind.nvim",
     "petertriho/nvim-scrollbar",
     "phar-io/manifest",

@@ -1,6 +1,6 @@
 # 0 stars
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-05-12T05:46:29.404112+00:00`
 
 ## Counts
 
-- repos: 875
-- terms: 1191
-- components: 2793
-- concepts: 1160
-- observations: 1164
+- repos: 876
+- terms: 1192
+- components: 2798
+- concepts: 1161
+- observations: 1165
 
 ## Static behavior
 
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [abdeladim-s/pywhispercpp](https://github.com/abdeladim-s/pywhispercpp) | 0 | 2026-05-08T08:13:30Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [clearml/clearml-agent-bootstrap](https://github.com/clearml/clearml-agent-bootstrap) | 0 | 2026-05-06T15:42:50Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Gist-Writer-Plugin](https://github.com/danielrosehill/Claude-Gist-Writer-Plugin) | 0 | 2026-05-05T16:10:20Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
+| [UnknownPlatypus/markup_fmt](https://github.com/UnknownPlatypus/markup_fmt) | 0 | 2026-05-04T21:44:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [danielrosehill/Claude-Hardware-ID-Annotation-Plugin](https://github.com/danielrosehill/Claude-Hardware-ID-Annotation-Plugin) | 0 | 2026-05-04T08:06:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Agent-Relay-Plugin](https://github.com/danielrosehill/Claude-Agent-Relay-Plugin) | 0 | 2026-05-03T18:35:38Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [kleisauke/glib](https://github.com/kleisauke/glib) | 0 | 2026-05-03T15:23:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -905,6 +906,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [abdeladim-s/pywhispercpp](https://github.com/abdeladim-s/pywhispercpp) | 0 | 2026-05-08T08:13:30Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [clearml/clearml-agent-bootstrap](https://github.com/clearml/clearml-agent-bootstrap) | 0 | 2026-05-06T15:42:50Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Gist-Writer-Plugin](https://github.com/danielrosehill/Claude-Gist-Writer-Plugin) | 0 | 2026-05-05T16:10:20Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
+| [UnknownPlatypus/markup_fmt](https://github.com/UnknownPlatypus/markup_fmt) | 0 | 2026-05-04T21:44:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [danielrosehill/Claude-Hardware-ID-Annotation-Plugin](https://github.com/danielrosehill/Claude-Hardware-ID-Annotation-Plugin) | 0 | 2026-05-04T08:06:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Agent-Relay-Plugin](https://github.com/danielrosehill/Claude-Agent-Relay-Plugin) | 0 | 2026-05-03T18:35:38Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [kleisauke/glib](https://github.com/kleisauke/glib) | 0 | 2026-05-03T15:23:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

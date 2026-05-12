@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 5,
-    "terms": 44
+    "components": 39,
+    "concepts": 52,
+    "observations": 52,
+    "repos": 6,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "aws/karpenter-provider-aws",
     "crc-org/crc",
     "dkron-io/dkron",
+    "etcd-io/bbolt",
     "googleapis/google-api-go-client",
     "googleapis/google-cloud-go"
   ]

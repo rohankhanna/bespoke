@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2940,
-    "concepts": 612,
-    "observations": 614,
-    "repos": 87,
-    "terms": 610
+    "components": 2886,
+    "concepts": 590,
+    "observations": 592,
+    "repos": 84,
+    "terms": 589
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "agentclientprotocol/typescript-sdk",
@@ -22,7 +22,6 @@
     "antvis/chart-visualization-skills",
     "apollographql/federation",
     "appium/appium-xcuitest-driver",
-    "appwrite/sdk-for-web",
     "astahmer/typed-openapi",
     "bitwarden/directory-connector",
     "browserslist/browserslist-useragent-regexp",
@@ -32,7 +31,6 @@
     "ClickHouse/clickhouse-js",
     "cocos/cocos-docs",
     "cosmos/cosmjs",
-    "daeh/zotero-markdb-connect",
     "danielroe/beasties",
     "decentralized-identity/did-resolver",
     "dydxprotocol/v4-web",
@@ -61,7 +59,6 @@
     "LemmyNet/lemmy-js-client",
     "microsoft/ai-chat-protocol",
     "microsoft/cognitive-services-speech-sdk-js",
-    "microsoft/vscode-java-debug",
     "milvus-io/milvus-sdk-node",
     "mmkal/expect-type",
     "mswjs/interceptors",

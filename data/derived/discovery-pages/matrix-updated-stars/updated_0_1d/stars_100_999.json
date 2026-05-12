@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 609,
-    "concepts": 318,
-    "observations": 318,
-    "repos": 38,
-    "terms": 316
+    "components": 600,
+    "concepts": 325,
+    "observations": 325,
+    "repos": 39,
+    "terms": 321
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
-    "15r10nk/inline-snapshot",
     "a2aproject/a2a-js",
     "AI-Hypercomputer/maxdiffusion",
     "apalache-mc/apalache",
@@ -30,11 +29,13 @@
     "digitalocean/openapi",
     "djlint/djLint",
     "dwyl/quotes",
+    "eclipse-wildwebdeveloper/wildwebdeveloper",
     "emacscollective/auto-compile",
     "EmmyLuaLs/emmylua-analyzer-rust",
     "flagos-ai/FlagCX",
     "fluent-vue/fluent-vue",
-    "GDevelopApp/GDevelop-extensions",
+    "g-plane/malva",
+    "g-plane/markup_fmt",
     "hexabot-ai/Hexabot",
     "kelos-dev/kelos",
     "kurrent-io/KurrentDB-Client-Dotnet",

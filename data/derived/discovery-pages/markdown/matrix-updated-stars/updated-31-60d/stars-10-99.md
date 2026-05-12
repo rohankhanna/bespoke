@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 450
-- terms: 1646
-- components: 2988
-- concepts: 1652
-- observations: 1659
+- repos: 451
+- terms: 1648
+- components: 2995
+- concepts: 1654
+- observations: 1661
 
 ## Static behavior
 
@@ -420,6 +420,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [googleapis/google-cloud-node-core](https://github.com/googleapis/google-cloud-node-core) | 16 | 2026-03-19T17:28:24Z | TypeScript | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [Saalvage/AssimpNetter](https://github.com/Saalvage/AssimpNetter) | 67 | 2026-03-19T16:43:24Z | Other | Infrastructure/tooling | 11 | 2 | 11 | 11 |
 | [psmux/Tmux-Plugin-Panel](https://github.com/psmux/Tmux-Plugin-Panel) | 52 | 2026-03-19T14:13:24Z | Rust | CLI | 9 | 5 | 9 | 9 |
+| [EstebanForge/mcp-cli-ent](https://github.com/EstebanForge/mcp-cli-ent) | 15 | 2026-03-19T14:10:17Z | Go | CLI | 2 | 7 | 2 | 2 |
 | [hermit-os/hermit-rs-template](https://github.com/hermit-os/hermit-rs-template) | 41 | 2026-03-19T08:53:24Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [Anush008/tokenizers](https://github.com/Anush008/tokenizers) | 13 | 2026-03-19T07:31:49Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [quicwg/qlog](https://github.com/quicwg/qlog) | 98 | 2026-03-19T01:48:24Z | Shell | Infrastructure/tooling | 8 | 6 | 8 | 8 |
@@ -462,7 +463,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apache/pdfbox-docs](https://github.com/apache/pdfbox-docs) | 32 | 2026-03-15T18:19:33Z | Other | Docs/knowledge | 4 | 8 | 4 | 4 |
 | [gozaltech/espeak-ng-sapi](https://github.com/gozaltech/espeak-ng-sapi) | 15 | 2026-03-15T11:54:58Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [marko-js/examples](https://github.com/marko-js/examples) | 58 | 2026-03-15T03:32:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [psmux/psnet](https://github.com/psmux/psnet) | 77 | 2026-03-14T19:02:04Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [psmux/psnet](https://github.com/psmux/psnet) | 78 | 2026-03-14T19:02:04Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [Rob--W/proxy-from-env](https://github.com/Rob--W/proxy-from-env) | 71 | 2026-03-14T18:24:35Z | JavaScript | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [219-design/qt-qml-project-template-with-ci](https://github.com/219-design/qt-qml-project-template-with-ci) | 63 | 2026-03-14T17:45:07Z | Other | Infrastructure/tooling | 12 | 2 | 12 | 13 |
 | [bartventer/httpcache](https://github.com/bartventer/httpcache) | 45 | 2026-03-14T11:04:27Z | Go | CLI | 8 | 3 | 8 | 8 |
@@ -539,10 +540,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [flatpak/xdg-dbus-proxy](https://github.com/flatpak/xdg-dbus-proxy) | 78 | 2026-04-07T16:53:34Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [KyujinHan/Awesome-Training-Free-WAN2.1-Editing](https://github.com/KyujinHan/Awesome-Training-Free-WAN2.1-Editing) | 78 | 2026-04-06T03:09:22Z | Python | Unknown | 9 | 0 | 9 | 9 |
 | [padreati/rapaio](https://github.com/padreati/rapaio) | 78 | 2026-03-16T23:52:13Z | Java | Infrastructure/tooling | 7 | 3 | 7 | 7 |
+| [psmux/psnet](https://github.com/psmux/psnet) | 78 | 2026-03-14T19:02:04Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [2KAbhishek/tmux-tilit](https://github.com/2KAbhishek/tmux-tilit) | 77 | 2026-03-31T03:36:27Z | Shell | CLI | 5 | 0 | 5 | 5 |
 | [CommunitySpecification/Community_Specification](https://github.com/CommunitySpecification/Community_Specification) | 77 | 2026-03-23T15:51:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cisco/libacvp](https://github.com/cisco/libacvp) | 77 | 2026-03-16T14:44:04Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
-| [psmux/psnet](https://github.com/psmux/psnet) | 77 | 2026-03-14T19:02:04Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [uael/sv](https://github.com/uael/sv) | 76 | 2026-04-06T07:29:47Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [collinear-ai/yc-bench](https://github.com/collinear-ai/yc-bench) | 76 | 2026-04-05T03:21:26Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [graphql/composite-schemas-wg](https://github.com/graphql/composite-schemas-wg) | 76 | 2026-04-02T15:13:38Z | JavaScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -873,6 +874,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [adrigzr/neotest-mocha](https://github.com/adrigzr/neotest-mocha) | 15 | 2026-04-03T19:15:49Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [celestiaorg/hana](https://github.com/celestiaorg/hana) | 15 | 2026-03-31T17:03:52Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [smithy-lang/smithy-dafny](https://github.com/smithy-lang/smithy-dafny) | 15 | 2026-03-30T19:48:10Z | Java | Infrastructure/tooling | 9 | 10 | 9 | 9 |
+| [EstebanForge/mcp-cli-ent](https://github.com/EstebanForge/mcp-cli-ent) | 15 | 2026-03-19T14:10:17Z | Go | CLI | 2 | 7 | 2 | 2 |
 | [gozaltech/espeak-ng-sapi](https://github.com/gozaltech/espeak-ng-sapi) | 15 | 2026-03-15T11:54:58Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [root-project/llvm-project](https://github.com/root-project/llvm-project) | 14 | 2026-04-09T09:57:08Z | Other | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [hpcaitech/public_assets](https://github.com/hpcaitech/public_assets) | 14 | 2026-04-09T01:45:45Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |

@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10 to 99 stars
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,9 +11,9 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 348
+- repos: 349
 - terms: 1700
-- components: 3534
+- components: 3548
 - concepts: 1709
 - observations: 1719
 
@@ -25,6 +25,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jcefmaven/jcefsampleapp](https://github.com/jcefmaven/jcefsampleapp) | 39 | 2026-05-05T07:08:44Z | Java | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [apache/doris-opentelemetry-demo](https://github.com/apache/doris-opentelemetry-demo) | 10 | 2026-05-05T06:01:48Z | JavaScript | Infrastructure/tooling | 6 | 17 | 6 | 6 |
 | [gookit/rux](https://github.com/gookit/rux) | 99 | 2026-05-05T04:50:20Z | Go | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [mit-plv/coqutil](https://github.com/mit-plv/coqutil) | 51 | 2026-05-05T04:34:47Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [gookit/ini](https://github.com/gookit/ini) | 88 | 2026-05-05T01:56:02Z | Go | Infrastructure/tooling | 13 | 7 | 13 | 13 |
@@ -372,7 +374,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AdguardTeam/SafariConverterLib](https://github.com/AdguardTeam/SafariConverterLib) | 75 | 2026-04-28T08:21:58Z | Other | Library | 3 | 0 | 3 | 3 |
 | [kendryte/canmv_k230](https://github.com/kendryte/canmv_k230) | 94 | 2026-04-28T08:05:10Z | C/C++ | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [arktekk/sbt-aether-deploy](https://github.com/arktekk/sbt-aether-deploy) | 88 | 2026-04-28T08:03:31Z | Other | CLI | 1 | 5 | 1 | 1 |
-| [prefix-dev/rattler-build-action](https://github.com/prefix-dev/rattler-build-action) | 21 | 2026-04-28T06:46:45Z | Unknown | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -555,6 +556,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Ralith/lahar](https://github.com/Ralith/lahar) | 40 | 2026-04-30T23:41:34Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [apollographql/federation-rs](https://github.com/apollographql/federation-rs) | 40 | 2026-04-29T20:45:36Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [graalvm/oracle-graalvm-ea-builds](https://github.com/graalvm/oracle-graalvm-ea-builds) | 40 | 2026-04-29T12:41:32Z | Python | Infrastructure/tooling | 4 | 3 | 4 | 4 |
+| [jcefmaven/jcefsampleapp](https://github.com/jcefmaven/jcefsampleapp) | 39 | 2026-05-05T07:08:44Z | Java | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [csm-actions/securefix-action](https://github.com/csm-actions/securefix-action) | 39 | 2026-05-02T13:58:17Z | TypeScript | Infrastructure/tooling | 11 | 28 | 11 | 11 |
 | [B-Lang-org/bsc-contrib](https://github.com/B-Lang-org/bsc-contrib) | 39 | 2026-05-01T20:48:57Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [spiffe/spire-examples](https://github.com/spiffe/spire-examples) | 39 | 2026-04-29T16:12:15Z | Unknown | Infrastructure/tooling | 2 | 10 | 2 | 2 |
@@ -636,7 +638,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [reviewdog/action-depup](https://github.com/reviewdog/action-depup) | 22 | 2026-04-29T16:04:05Z | Shell | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [nodejs/nodejs-dist-indexer](https://github.com/nodejs/nodejs-dist-indexer) | 22 | 2026-04-29T12:24:28Z | JavaScript | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [cilium/community](https://github.com/cilium/community) | 21 | 2026-04-30T21:33:05Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
-| [prefix-dev/rattler-build-action](https://github.com/prefix-dev/rattler-build-action) | 21 | 2026-04-28T06:46:45Z | Unknown | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [Kong/developer.konghq.com](https://github.com/Kong/developer.konghq.com) | 20 | 2026-04-29T20:53:13Z | Other | Infrastructure/tooling | 8 | 43 | 8 | 8 |
 | [oxc-project/oxc-sourcemap](https://github.com/oxc-project/oxc-sourcemap) | 20 | 2026-04-29T05:03:59Z | Rust | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [apollographql/connectors-community](https://github.com/apollographql/connectors-community) | 20 | 2026-04-28T23:41:07Z | JavaScript | Unknown | 2 | 6 | 2 | 2 |
@@ -720,6 +721,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [favware/esbuild-plugin-version-injector](https://github.com/favware/esbuild-plugin-version-injector) | 11 | 2026-04-29T13:06:48Z | TypeScript | Infrastructure/tooling | 9 | 31 | 9 | 9 |
 | [sigstore/sigstore-conformance](https://github.com/sigstore/sigstore-conformance) | 11 | 2026-04-29T06:20:01Z | Python | CLI | 5 | 7 | 5 | 5 |
 | [ember-cli/ember-app-blueprint](https://github.com/ember-cli/ember-app-blueprint) | 11 | 2026-04-28T12:17:15Z | JavaScript | Infrastructure/tooling | 5 | 29 | 5 | 5 |
+| [apache/doris-opentelemetry-demo](https://github.com/apache/doris-opentelemetry-demo) | 10 | 2026-05-05T06:01:48Z | JavaScript | Infrastructure/tooling | 6 | 17 | 6 | 6 |
 | [ruby/jruby-dev-builder](https://github.com/ruby/jruby-dev-builder) | 10 | 2026-05-02T19:22:25Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [heroku/heroku-buildpack-dotnet](https://github.com/heroku/heroku-buildpack-dotnet) | 10 | 2026-05-01T23:34:13Z | Shell | Infrastructure/tooling | 11 | 7 | 11 | 11 |
 | [aidenlab/hic-straw](https://github.com/aidenlab/hic-straw) | 10 | 2026-04-30T18:14:33Z | JavaScript | CLI | 0 | 7 | 0 | 0 |

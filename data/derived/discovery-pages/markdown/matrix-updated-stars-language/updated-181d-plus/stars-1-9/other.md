@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 324
-- terms: 482
-- components: 1069
-- concepts: 476
-- observations: 476
+- repos: 327
+- terms: 497
+- components: 1074
+- concepts: 491
+- observations: 491
 
 ## Static behavior
 
@@ -41,6 +41,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MindWorkAI/ERI](https://github.com/MindWorkAI/ERI) | 7 | 2025-10-07T06:41:18Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [BetterThanTomorrow/calva-power-tools](https://github.com/BetterThanTomorrow/calva-power-tools) | 7 | 2025-10-06T16:10:10Z | Other | Infrastructure/tooling | 2 | 15 | 2 | 2 |
 | [heiher/socks5-ios](https://github.com/heiher/socks5-ios) | 9 | 2025-10-06T03:21:36Z | Other | Service/API | 0 | 0 | 0 | 0 |
+| [aeulker/Claude-Code-Cheat-Sheet](https://github.com/aeulker/Claude-Code-Cheat-Sheet) | 6 | 2025-10-05T18:58:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ldclabs/anda-app](https://github.com/ldclabs/anda-app) | 6 | 2025-10-05T03:11:27Z | Other | CLI | 2 | 51 | 2 | 2 |
 | [cdeust/ai-prd-builder](https://github.com/cdeust/ai-prd-builder) | 2 | 2025-10-04T11:17:25Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [git-friendly/homebrew-git-friendly](https://github.com/git-friendly/homebrew-git-friendly) | 3 | 2025-10-02T12:50:20Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -167,6 +168,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [abap-prep/abap_db_preparator](https://github.com/ABAP-prep/abap_db_preparator) | 3 | 2024-06-07T12:06:40Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [girishji/fFtT.vim](https://github.com/girishji/fFtT.vim) | 9 | 2024-06-06T08:55:53Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [jw3126/LibGEOSMakie.jl](https://github.com/jw3126/LibGEOSMakie.jl) | 2 | 2024-06-04T05:40:04Z | Other | Infrastructure/tooling | 2 | 9 | 2 | 2 |
+| [Sternbach-Software/KosherKotlin](https://github.com/Sternbach-Software/KosherKotlin) | 6 | 2024-06-02T09:57:32Z | Other | Infrastructure/tooling | 12 | 5 | 12 | 12 |
 | [paper-trail-gem/paper_trail-sinatra](https://github.com/paper-trail-gem/paper_trail-sinatra) | 4 | 2024-05-28T20:53:00Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [niuiic/multiple-session.nvim](https://github.com/niuiic/multiple-session.nvim) | 9 | 2024-05-25T13:41:34Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [elixir-makeup/makeup_c](https://github.com/elixir-makeup/makeup_c) | 2 | 2024-05-24T21:18:14Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -207,6 +209,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [2KAbhishek/tiny-web](https://github.com/2KAbhishek/tiny-web) | 8 | 2023-11-29T10:33:34Z | Other | Template/starter | 4 | 0 | 4 | 4 |
 | [AbhiLegend/DrugDisOpenVINO](https://github.com/AbhiLegend/DrugDisOpenVINO) | 3 | 2023-11-19T07:35:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [korewaChino/koboldCppDocker](https://github.com/korewaChino/koboldCppDocker) | 6 | 2023-11-16T09:42:10Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [pinnymz/ruby-zmanim](https://github.com/pinnymz/ruby-zmanim) | 8 | 2023-11-09T18:08:00Z | Other | Library | 3 | 0 | 3 | 3 |
 | [dicksonlaw583/GMIceCream](https://github.com/dicksonlaw583/GMIceCream) | 4 | 2023-10-29T05:02:37Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [innat/UniFormerV2](https://github.com/innat/UniFormerV2) | 9 | 2023-10-24T16:11:40Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Clemapfel/mousetrap_jll](https://github.com/Clemapfel/mousetrap_jll) | 1 | 2023-10-19T20:52:50Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -390,6 +393,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dwyl/flutter-navigation-menu-demo](https://github.com/dwyl/flutter-navigation-menu-demo) | 8 | 2024-02-16T14:29:28Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [dryruby/json-canonicalization](https://github.com/dryruby/json-canonicalization) | 8 | 2023-12-08T02:30:15Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [2KAbhishek/tiny-web](https://github.com/2KAbhishek/tiny-web) | 8 | 2023-11-29T10:33:34Z | Other | Template/starter | 4 | 0 | 4 | 4 |
+| [pinnymz/ruby-zmanim](https://github.com/pinnymz/ruby-zmanim) | 8 | 2023-11-09T18:08:00Z | Other | Library | 3 | 0 | 3 | 3 |
 | [project-mirai/mirai-sponsor](https://github.com/project-mirai/mirai-sponsor) | 8 | 2023-08-11T03:07:19Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [azizzaeny/boot-atomizer](https://github.com/azizzaeny/boot-atomizer) | 8 | 2023-08-10T02:16:35Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [qliu24/udapart](https://github.com/qliu24/udapart) | 8 | 2023-08-07T22:03:30Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -438,6 +442,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [thalesgelinger/toon.nvim](https://github.com/thalesgelinger/toon.nvim) | 6 | 2025-11-03T15:54:39Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [WebAssembly/compilation-hints](https://github.com/WebAssembly/compilation-hints) | 6 | 2025-10-29T09:48:46Z | Other | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [ptsochantaris/mima](https://github.com/ptsochantaris/mima) | 6 | 2025-10-25T19:44:20Z | Other | Unknown | 6 | 0 | 6 | 6 |
+| [aeulker/Claude-Code-Cheat-Sheet](https://github.com/aeulker/Claude-Code-Cheat-Sheet) | 6 | 2025-10-05T18:58:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ldclabs/anda-app](https://github.com/ldclabs/anda-app) | 6 | 2025-10-05T03:11:27Z | Other | CLI | 2 | 51 | 2 | 2 |
 | [appbaseio/flutter-searchbox](https://github.com/appbaseio/flutter-searchbox) | 6 | 2025-08-27T06:07:48Z | Other | Library | 7 | 0 | 7 | 7 |
 | [4e554c4c/base16-halloy](https://github.com/4e554c4c/base16-halloy) | 6 | 2025-06-21T12:42:21Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
@@ -456,6 +461,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pwnwriter/PTN11](https://github.com/pwnwriter/PTN11) | 6 | 2024-08-03T05:06:00Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [llava-vl/llava-interactive](https://github.com/LLaVA-VL/llava-interactive) | 6 | 2024-07-25T17:53:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [jb55/ln-ws-proxy](https://github.com/jb55/ln-ws-proxy) | 6 | 2024-07-22T15:20:21Z | Other | Web app | 0 | 1 | 0 | 0 |
+| [Sternbach-Software/KosherKotlin](https://github.com/Sternbach-Software/KosherKotlin) | 6 | 2024-06-02T09:57:32Z | Other | Infrastructure/tooling | 12 | 5 | 12 | 12 |
 | [atsign-foundation/at_app](https://github.com/atsign-foundation/at_app) | 6 | 2024-02-23T22:10:22Z | Other | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [korewaChino/koboldCppDocker](https://github.com/korewaChino/koboldCppDocker) | 6 | 2023-11-16T09:42:10Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [asjadnaqvi/stata-delaunay-voronoi](https://github.com/asjadnaqvi/stata-delaunay-voronoi) | 6 | 2023-06-19T08:26:25Z | Other | Unknown | 5 | 0 | 5 | 5 |

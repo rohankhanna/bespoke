@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,7 +13,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 12
-- terms: 65
+- terms: 66
 - components: 60
 - concepts: 66
 - observations: 66
@@ -33,7 +33,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ROCm/hipBLAS](https://github.com/ROCm/hipBLAS) | 152 | 2026-05-07T22:55:59Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [ipsilon/evmone](https://github.com/ipsilon/evmone) | 975 | 2026-05-07T14:38:15Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
 | [ros2/common_interfaces](https://github.com/ros2/common_interfaces) | 355 | 2026-05-06T18:50:00Z | C/C++ | Library | 0 | 0 | 0 | 0 |
-| [tree-sitter-grammars/tree-sitter-markdown](https://github.com/tree-sitter-grammars/tree-sitter-markdown) | 605 | 2026-05-06T10:45:23Z | C/C++ | Infrastructure/tooling | 4 | 14 | 5 | 5 |
+| [tree-sitter-grammars/tree-sitter-markdown](https://github.com/tree-sitter-grammars/tree-sitter-markdown) | 605 | 2026-05-06T10:45:23Z | C/C++ | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [foldl/chatllm.cpp](https://github.com/foldl/chatllm.cpp) | 872 | 2026-05-05T22:48:02Z | C/C++ | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [ouster-lidar/ouster-ros](https://github.com/ouster-lidar/ouster-ros) | 198 | 2026-05-05T16:33:45Z | C/C++ | Infrastructure/tooling | 14 | 1 | 14 | 14 |
 | [CEED/libCEED](https://github.com/CEED/libCEED) | 253 | 2026-05-05T14:51:09Z | C/C++ | Infrastructure/tooling | 11 | 3 | 11 | 11 |
@@ -46,7 +46,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ipsilon/evmone](https://github.com/ipsilon/evmone) | 975 | 2026-05-07T14:38:15Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
 | [foldl/chatllm.cpp](https://github.com/foldl/chatllm.cpp) | 872 | 2026-05-05T22:48:02Z | C/C++ | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [google-deepmind/reverb](https://github.com/google-deepmind/reverb) | 776 | 2026-05-08T21:46:13Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [tree-sitter-grammars/tree-sitter-markdown](https://github.com/tree-sitter-grammars/tree-sitter-markdown) | 605 | 2026-05-06T10:45:23Z | C/C++ | Infrastructure/tooling | 4 | 14 | 5 | 5 |
+| [tree-sitter-grammars/tree-sitter-markdown](https://github.com/tree-sitter-grammars/tree-sitter-markdown) | 605 | 2026-05-06T10:45:23Z | C/C++ | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [open-telemetry/opentelemetry-ebpf-instrumentation](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation) | 453 | 2026-05-05T13:16:14Z | C/C++ | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [aburch/simutrans](https://github.com/aburch/simutrans) | 450 | 2026-05-08T10:36:30Z | C/C++ | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [ros2/common_interfaces](https://github.com/ros2/common_interfaces) | 355 | 2026-05-06T18:50:00Z | C/C++ | Library | 0 | 0 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 49
-- terms: 328
-- components: 2007
-- concepts: 330
-- observations: 331
+- repos: 48
+- terms: 318
+- components: 1951
+- concepts: 320
+- observations: 321
 
 ## Static behavior
 
@@ -74,7 +74,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mapbox/geobuf](https://github.com/mapbox/geobuf) | 1026 | 2026-04-28T14:03:12Z | JavaScript | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [mozilla/rhino](https://github.com/mozilla/rhino) | 4569 | 2026-04-28T10:41:40Z | JavaScript | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [amannn/action-semantic-pull-request](https://github.com/amannn/action-semantic-pull-request) | 1327 | 2026-04-28T08:21:17Z | JavaScript | Infrastructure/tooling | 8 | 26 | 8 | 8 |
-| [appium/appium-inspector](https://github.com/appium/appium-inspector) | 1796 | 2026-04-28T07:09:57Z | JavaScript | Infrastructure/tooling | 10 | 56 | 10 | 10 |
 
 ## Repos sorted by stars
 
@@ -119,7 +118,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ranisalt/node-argon2](https://github.com/ranisalt/node-argon2) | 2139 | 2026-04-30T17:20:06Z | JavaScript | Infrastructure/tooling | 9 | 19 | 9 | 9 |
 | [jakerella/jquery-mockjax](https://github.com/jakerella/jquery-mockjax) | 2094 | 2026-04-28T19:20:44Z | JavaScript | Unknown | 0 | 22 | 0 | 0 |
 | [observing/pre-commit](https://github.com/observing/pre-commit) | 1883 | 2026-04-28T14:32:47Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
-| [appium/appium-inspector](https://github.com/appium/appium-inspector) | 1796 | 2026-04-28T07:09:57Z | JavaScript | Infrastructure/tooling | 10 | 56 | 10 | 10 |
 | [ghostery/ghostery-extension](https://github.com/ghostery/ghostery-extension) | 1681 | 2026-05-04T09:55:46Z | JavaScript | Infrastructure/tooling | 13 | 41 | 13 | 13 |
 | [jquery/jquery-color](https://github.com/jquery/jquery-color) | 1644 | 2026-05-01T21:36:13Z | JavaScript | Infrastructure/tooling | 2 | 30 | 2 | 2 |
 | [leezng/vue-json-pretty](https://github.com/leezng/vue-json-pretty) | 1453 | 2026-04-29T07:02:56Z | JavaScript | Infrastructure/tooling | 9 | 53 | 11 | 11 |

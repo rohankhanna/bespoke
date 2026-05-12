@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10 to 99 stars · Java
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 14
-- terms: 59
-- components: 63
-- concepts: 59
-- observations: 60
+- repos: 15
+- terms: 60
+- components: 64
+- concepts: 60
+- observations: 61
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jcefmaven/jcefsampleapp](https://github.com/jcefmaven/jcefsampleapp) | 39 | 2026-05-05T07:08:44Z | Java | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [flyway/flyway-community-db-support](https://github.com/flyway/flyway-community-db-support) | 17 | 2026-05-01T10:40:54Z | Java | Infrastructure/tooling | 12 | 4 | 12 | 12 |
 | [qdrant/java-client](https://github.com/qdrant/java-client) | 92 | 2026-05-01T09:08:24Z | Java | CLI | 7 | 6 | 7 | 7 |
 | [heroku/heroku-jvm-application-deployer](https://github.com/heroku/heroku-jvm-application-deployer) | 56 | 2026-05-01T01:49:09Z | Java | CLI | 4 | 6 | 4 | 4 |
@@ -53,6 +54,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Accla/graphulo](https://github.com/Accla/graphulo) | 82 | 2026-04-30T19:15:30Z | Java | Library | 0 | 0 | 0 | 0 |
 | [heroku/heroku-jvm-application-deployer](https://github.com/heroku/heroku-jvm-application-deployer) | 56 | 2026-05-01T01:49:09Z | Java | CLI | 4 | 6 | 4 | 4 |
 | [spiffe/java-spiffe](https://github.com/spiffe/java-spiffe) | 44 | 2026-04-28T21:53:31Z | Java | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [jcefmaven/jcefsampleapp](https://github.com/jcefmaven/jcefsampleapp) | 39 | 2026-05-05T07:08:44Z | Java | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [usdot-fhwa-stol/carma-cloud](https://github.com/usdot-fhwa-stol/carma-cloud) | 25 | 2026-04-29T23:52:57Z | Java | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [confluentinc/rest-utils](https://github.com/confluentinc/rest-utils) | 24 | 2026-04-30T03:05:46Z | Java | Framework | 0 | 0 | 0 | 0 |
 | [edward3h/minecraft-webhook](https://github.com/edward3h/minecraft-webhook) | 24 | 2026-04-29T01:30:42Z | Java | Infrastructure/tooling | 4 | 4 | 4 | 5 |

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11687,
-    "concepts": 5157,
-    "observations": 5166,
-    "repos": 2310,
-    "terms": 5177
+    "components": 11703,
+    "concepts": 5176,
+    "observations": 5185,
+    "repos": 2317,
+    "terms": 5196
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0cc4m/hf_bleeding_edge",
@@ -137,6 +137,7 @@
     "aergonaut/pronto-goodcheck",
     "aerobounce/sublime-autoclosepanel",
     "aerobounce/sublime-pretty-lua",
+    "aeulker/Claude-Code-Cheat-Sheet",
     "AFD-Illinois/docs",
     "afd-illinois/eht-babel",
     "AFD-Illinois/iharm2d_v3",
@@ -830,6 +831,7 @@
     "DavidKinder/Glulxe",
     "DavidKinder/inform",
     "DavidKinder/Libraries",
+    "day50-dev/mcp-search-and-run",
     "dbubel/intake",
     "dcampbell24/djot-implementations",
     "ddisisto/si",
@@ -1693,6 +1695,7 @@
     "mybigday/whisper.node",
     "mypyc/librt",
     "Myriad-Dreamin/typst",
+    "nafg/jewish-date",
     "nanxstats/ssw-r",
     "Narsil/cudarc",
     "nasa-petal/PeTaL-db",
@@ -1838,6 +1841,7 @@
     "Piebald-AI/muda",
     "piebald-ai/piebald-issues",
     "pimlie/geekworm-x-c1",
+    "pinnymz/ruby-zmanim",
     "piqrypt/aiss-standard",
     "piqrypt/piqrypt",
     "pixel-font-studio/fusion-bold-pixel-font",
@@ -2102,6 +2106,7 @@
     "stephanj/sonarlint-devoxxgenie-intellij",
     "stephanj/spotbugs-devoxxgenie-plugin",
     "sterlind/peft",
+    "Sternbach-Software/KosherKotlin",
     "steve-todorov/oidc-debugger-action",
     "storybook-eol/addon-graphql",
     "storybookjs/addon-events",
@@ -2208,6 +2213,7 @@
     "Ultraopxt/yolov10cpp",
     "unitycontainer/aspnet-webapi",
     "unixorn/autoupdate-zgenom",
+    "UnknownPlatypus/djangofmt-pre-commit",
     "unum-cloud/ustore-deps",
     "urschrei/polyline-ffi",
     "usbarmory/armory-drive-log",
@@ -2283,6 +2289,7 @@
     "wsxiaoys/sqlx",
     "wxinix/wxlib",
     "XanDrchris/DenseDiffusionColab",
+    "xazukx/ts-rs",
     "XcodesOrg/homebrew-made",
     "Xiao0728/ColBERT-PRF-VirtualAppendix",
     "xiaochu-1208/interview-assistant-cli",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2642,
-    "concepts": 1549,
-    "observations": 1557,
-    "repos": 388,
-    "terms": 1551
+    "components": 2635,
+    "concepts": 1538,
+    "observations": 1546,
+    "repos": 387,
+    "terms": 1540
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "2KAbhishek/seeker.nvim",
@@ -103,8 +103,6 @@
     "clojure/tools.analyzer",
     "clojure/tools.analyzer.jvm",
     "cloojure/tupelo",
-    "cloudpilot-ai/karpenter-provider-alibabacloud",
-    "cloudwego/biz-demo",
     "cmake-js/cmake-js",
     "codota/tabnine-nvim",
     "cormacrelf/dark-notify",
@@ -234,6 +232,7 @@
     "KamilSJaron/smudgeplot",
     "Kampfkarren/selene",
     "kamranahmedse/claude-run",
+    "kepano/defuddle-cli",
     "kijai/ComfyUI-DepthAnythingV2",
     "kowainik/summoner",
     "kriszyp/cbor-x",

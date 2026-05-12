@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3068,
-    "concepts": 648,
-    "observations": 648,
-    "repos": 112,
-    "terms": 698
+    "components": 3122,
+    "concepts": 670,
+    "observations": 670,
+    "repos": 115,
+    "terms": 719
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
@@ -24,6 +24,7 @@
     "antfu/starter-ts",
     "anthropics/claude-code-base-action",
     "appwrite/sdk-for-node",
+    "appwrite/sdk-for-web",
     "astral-sh/ruff-action",
     "atomicmemory/llm-wiki-compiler",
     "aws-samples/swift-chat",
@@ -40,6 +41,7 @@
     "connectrpc/examples-es",
     "curiousdannii/parchment",
     "daeh/zotero-citation-tally",
+    "daeh/zotero-markdb-connect",
     "decentralized-identity/did-jwt",
     "DeterminateSystems/nix-installer-action",
     "devcontainers/ci",
@@ -85,6 +87,7 @@
     "microsoft/security-devops-action",
     "microsoft/TypeScript-DOM-lib-generator",
     "microsoft/vscode-css-languageservice",
+    "microsoft/vscode-java-debug",
     "microsoft/vscode-json-languageservice",
     "mskelton/eslint-plugin-playwright",
     "napi-rs/package-template",

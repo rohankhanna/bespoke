@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1252,
-    "concepts": 1510,
-    "observations": 1512,
-    "repos": 409,
-    "terms": 1500
+    "concepts": 1512,
+    "observations": 1514,
+    "repos": 410,
+    "terms": 1502
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -162,6 +162,7 @@
     "hexops-graveyard/dockerfile",
     "hila-chefer/Transformer-Explainability",
     "honza/vim-snippets",
+    "hrsh7th/cmp-nvim-lsp",
     "hrsh7th/nvim-compe",
     "huggingface/swift-coreml-diffusers",
     "hyperhype/hyperscript",

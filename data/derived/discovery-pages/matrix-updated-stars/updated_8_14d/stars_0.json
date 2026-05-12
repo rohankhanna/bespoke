@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 137,
-    "concepts": 69,
-    "observations": 69,
-    "repos": 56,
-    "terms": 69
+    "components": 142,
+    "concepts": 70,
+    "observations": 70,
+    "repos": 57,
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "aidenlab/spacewalk",
     "aidenlab/swtool",
@@ -68,6 +68,7 @@
     "seanmacavaney/ir-datasets.com",
     "sp1-patches/elliptic-curves",
     "squidowl/iced",
-    "superfarther/K2V"
+    "superfarther/K2V",
+    "UnknownPlatypus/markup_fmt"
   ]
 }

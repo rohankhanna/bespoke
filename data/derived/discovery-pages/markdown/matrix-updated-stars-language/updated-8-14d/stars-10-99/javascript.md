@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 22
-- terms: 92
-- components: 297
-- concepts: 92
-- observations: 94
+- repos: 23
+- terms: 98
+- components: 314
+- concepts: 98
+- observations: 100
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [apache/doris-opentelemetry-demo](https://github.com/apache/doris-opentelemetry-demo) | 10 | 2026-05-05T06:01:48Z | JavaScript | Infrastructure/tooling | 6 | 17 | 6 | 6 |
 | [4catalyzer/javascript](https://github.com/4Catalyzer/javascript) | 18 | 2026-05-01T16:35:08Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
 | [ideditor/schema-builder](https://github.com/ideditor/schema-builder) | 17 | 2026-05-01T12:18:03Z | JavaScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [julia-actions/cache](https://github.com/julia-actions/cache) | 47 | 2026-05-01T08:03:25Z | JavaScript | Infrastructure/tooling | 5 | 8 | 5 | 5 |
@@ -73,5 +74,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alangdm/helium-animated-pages](https://github.com/alangdm/helium-animated-pages) | 17 | 2026-04-29T11:46:58Z | JavaScript | Infrastructure/tooling | 7 | 21 | 7 | 7 |
 | [Eonic/ProteanCMS](https://github.com/Eonic/ProteanCMS) | 17 | 2026-04-29T07:58:44Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [ember-cli/ember-app-blueprint](https://github.com/ember-cli/ember-app-blueprint) | 11 | 2026-04-28T12:17:15Z | JavaScript | Infrastructure/tooling | 5 | 29 | 5 | 5 |
+| [apache/doris-opentelemetry-demo](https://github.com/apache/doris-opentelemetry-demo) | 10 | 2026-05-05T06:01:48Z | JavaScript | Infrastructure/tooling | 6 | 17 | 6 | 6 |
 | [aidenlab/hic-straw](https://github.com/aidenlab/hic-straw) | 10 | 2026-04-30T18:14:33Z | JavaScript | CLI | 0 | 7 | 0 | 0 |
 | [gacts/install-dnscontrol](https://github.com/gacts/install-dnscontrol) | 10 | 2026-04-28T09:47:36Z | JavaScript | Infrastructure/tooling | 6 | 18 | 6 | 6 |

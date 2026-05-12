@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -70,7 +70,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kaminari/kaminari](https://github.com/kaminari/kaminari) | 8670 | 2026-02-20T00:33:30Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [woct0rdho/triton-windows](https://github.com/woct0rdho/triton-windows) | 1915 | 2026-02-18T16:59:37Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [mdn/webassembly-examples](https://github.com/mdn/webassembly-examples) | 1202 | 2026-02-18T09:22:56Z | Other | Docs/knowledge | 3 | 0 | 3 | 3 |
-| [parruda/swarm](https://github.com/parruda/swarm) | 1708 | 2026-02-17T02:07:40Z | Other | CLI | 5 | 5 | 5 | 5 |
+| [parruda/swarm](https://github.com/parruda/swarm) | 1709 | 2026-02-17T02:07:40Z | Other | CLI | 5 | 5 | 5 | 5 |
 | [Gonzalo-D-Sales/obsidian-velocity](https://github.com/Gonzalo-D-Sales/obsidian-velocity) | 1043 | 2026-02-16T17:54:17Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [Glavin001/atom-beautify](https://github.com/Glavin001/atom-beautify) | 1503 | 2026-02-14T14:00:33Z | Other | Library | 7 | 46 | 7 | 7 |
 | [touchlab/droidconkotlin](https://github.com/touchlab/DroidconKotlin) | 1137 | 2026-02-13T21:48:08Z | Other | Infrastructure/tooling | 5 | 5 | 0 | 0 |
@@ -122,7 +122,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [woct0rdho/triton-windows](https://github.com/woct0rdho/triton-windows) | 1915 | 2026-02-18T16:59:37Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [cognitect/transit-format](https://github.com/cognitect/transit-format) | 1908 | 2026-02-24T15:12:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [amebalabs/TRex](https://github.com/amebalabs/TRex) | 1787 | 2026-02-13T18:43:06Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [parruda/swarm](https://github.com/parruda/swarm) | 1708 | 2026-02-17T02:07:40Z | Other | CLI | 5 | 5 | 5 | 5 |
+| [parruda/swarm](https://github.com/parruda/swarm) | 1709 | 2026-02-17T02:07:40Z | Other | CLI | 5 | 5 | 5 | 5 |
 | [dimitri/el-get](https://github.com/dimitri/el-get) | 1660 | 2026-03-08T13:07:08Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [jpanther/congo](https://github.com/jpanther/congo) | 1619 | 2026-03-08T22:03:07Z | Other | Infrastructure/tooling | 14 | 22 | 14 | 14 |
 | [sbt/sbt-native-packager](https://github.com/sbt/sbt-native-packager) | 1608 | 2026-02-22T17:06:38Z | Other | Infrastructure/tooling | 9 | 6 | 9 | 9 |

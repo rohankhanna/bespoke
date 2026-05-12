@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 28084,
-    "concepts": 14873,
-    "observations": 14923,
-    "repos": 5380,
-    "terms": 14876
+    "components": 28091,
+    "concepts": 14879,
+    "observations": 14929,
+    "repos": 5385,
+    "terms": 14880
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -713,11 +713,13 @@
     "ASK-03/Reverse-Chain",
     "askonomm/shh",
     "askroundtable/expert-skills",
+    "ASLP-lab/Hum-Dial",
     "asny/three-d-asset",
     "aspect-build/aspect-gazelle",
     "aspect-build/rules_buildx",
     "aspect-build/rules_cypress",
     "aspect-build/rules_esbuild",
+    "assimelha/cmcp",
     "ast-grep/ast-grep.github.io",
     "astanic/crafter-ood",
     "AstarVienna/ScopeSim",
@@ -2062,6 +2064,7 @@
     "espnet/notebook",
     "espressif/conventional-precommit-linter",
     "espressif/esp-idf-monitor",
+    "EstebanForge/mcp-cli-ent",
     "estesp/mquery",
     "eth-act/ere",
     "eth-act/zkboost",
@@ -2511,6 +2514,7 @@
     "GuyKh/ims-custom-component",
     "guyuchao/PyramidCSA",
     "gwihlidal/vk-sync-rs",
+    "gy65896/TSDNet",
     "gyhdog99/RACRO2",
     "H-a-y-k/hichesslib",
     "h2oai/h2o-droplets",
@@ -2961,6 +2965,7 @@
     "jeremyckahn/awesome-trystero",
     "jeroen-meijer/pubspec-assist",
     "jerrylususu/PaddleOCR-json-java-api",
+    "jerryuhoo/VISinger",
     "jerseycheese/narraitor",
     "jest-community/eslint-plugin-jest-extended",
     "JetBrains/.github",

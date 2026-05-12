@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1332,
-    "concepts": 1384,
-    "observations": 1387,
-    "repos": 142,
-    "terms": 1374
+    "components": 1328,
+    "concepts": 1371,
+    "observations": 1374,
+    "repos": 141,
+    "terms": 1361
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "AcademySoftwareFoundation/OpenTimelineIO",
@@ -61,7 +61,6 @@
     "galaxyproject/galaxy",
     "geopandas/geopandas",
     "getmoto/moto",
-    "git-cola/git-cola",
     "google-deepmind/dm_control",
     "google-deepmind/mujoco_warp",
     "gpustack/gpustack",

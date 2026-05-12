@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 312
-- terms: 2489
-- components: 2117
-- concepts: 2485
-- observations: 2494
+- terms: 2494
+- components: 2118
+- concepts: 2490
+- observations: 2499
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [git-cola/git-cola](https://github.com/git-cola/git-cola) | 2519 | 2026-04-28T07:20:04Z | Python | Infrastructure/tooling | 13 | 4 | 13 | 13 |
 | [jawah/niquests](https://github.com/jawah/niquests) | 2288 | 2026-04-28T05:25:19Z | Python | CLI | 22 | 11 | 22 | 22 |
 | [pytest-dev/pytest-mock](https://github.com/pytest-dev/pytest-mock) | 2024 | 2026-04-28T05:12:59Z | Python | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [pylint-dev/pylint](https://github.com/pylint-dev/pylint) | 5675 | 2026-04-28T05:05:48Z | Python | Infrastructure/tooling | 12 | 13 | 12 | 12 |
@@ -337,7 +338,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rthalley/dnspython](https://github.com/rthalley/dnspython) | 2654 | 2026-04-12T17:50:59Z | Python | Infrastructure/tooling | 14 | 5 | 14 | 14 |
 | [k2-fsa/icefall](https://github.com/k2-fsa/icefall) | 1406 | 2026-04-12T13:17:49Z | Python | Infrastructure/tooling | 6 | 13 | 6 | 6 |
 | [PyThaiNLP/pythainlp](https://github.com/PyThaiNLP/pythainlp) | 1129 | 2026-04-12T12:30:18Z | Python | Infrastructure/tooling | 20 | 14 | 20 | 20 |
-| [wkentaro/gdown](https://github.com/wkentaro/gdown) | 5232 | 2026-04-12T06:37:10Z | Python | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -431,7 +431,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pytorch/torchtitan](https://github.com/pytorch/torchtitan) | 5260 | 2026-04-24T01:28:45Z | Python | Infrastructure/tooling | 5 | 9 | 5 | 5 |
 | [ashleve/lightning-hydra-template](https://github.com/ashleve/lightning-hydra-template) | 5238 | 2026-04-22T21:53:37Z | Python | Infrastructure/tooling | 14 | 8 | 14 | 14 |
 | [apple/coremltools](https://github.com/apple/coremltools) | 5233 | 2026-04-21T19:00:43Z | Python | Model/data | 7 | 0 | 7 | 7 |
-| [wkentaro/gdown](https://github.com/wkentaro/gdown) | 5232 | 2026-04-12T06:37:10Z | Python | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [xlite-dev/Awesome-LLM-Inference](https://github.com/xlite-dev/Awesome-LLM-Inference) | 5205 | 2026-04-20T08:58:35Z | Python | Infrastructure/tooling | 14 | 1 | 14 | 14 |
 | [astropy/astropy](https://github.com/astropy/astropy) | 5128 | 2026-04-21T12:51:22Z | Python | Infrastructure/tooling | 11 | 10 | 11 | 11 |
 | [InternLM/xtuner](https://github.com/InternLM/xtuner) | 5125 | 2026-04-23T14:19:59Z | Python | Infrastructure/tooling | 13 | 8 | 13 | 13 |
@@ -545,6 +544,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [antoinelame/GazeTracking](https://github.com/antoinelame/GazeTracking) | 2559 | 2026-04-27T16:37:23Z | Python | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [leggedrobotics/rsl_rl](https://github.com/leggedrobotics/rsl_rl) | 2543 | 2026-04-23T12:39:53Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [butaixianran/Stable-Diffusion-Webui-Civitai-Helper](https://github.com/butaixianran/Stable-Diffusion-Webui-Civitai-Helper) | 2523 | 2026-04-16T21:02:48Z | Python | Model/data | 0 | 0 | 0 | 0 |
+| [git-cola/git-cola](https://github.com/git-cola/git-cola) | 2519 | 2026-04-28T07:20:04Z | Python | Infrastructure/tooling | 13 | 4 | 13 | 13 |
 | [agronholm/anyio](https://github.com/agronholm/anyio) | 2441 | 2026-04-21T10:19:24Z | Python | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [RDFLib/rdflib](https://github.com/RDFLib/rdflib) | 2436 | 2026-04-27T06:03:14Z | Python | Infrastructure/tooling | 17 | 10 | 19 | 19 |
 | [abseil/abseil-py](https://github.com/abseil/abseil-py) | 2435 | 2026-04-15T19:43:13Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |

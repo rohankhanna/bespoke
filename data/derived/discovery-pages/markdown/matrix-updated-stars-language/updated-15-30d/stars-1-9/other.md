@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 64
+- repos: 65
 - terms: 160
 - components: 233
 - concepts: 160
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jfmengels/elm-review-config](https://github.com/jfmengels/elm-review-config) | 9 | 2026-04-28T07:26:18Z | Other | Template/starter | 0 | 0 | 0 | 0 |
 | [beeware/beeware-docs-tools](https://github.com/beeware/beeware-docs-tools) | 1 | 2026-04-28T00:39:06Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [hao-ai-lab/flash-attention-fp4](https://github.com/hao-ai-lab/flash-attention-fp4) | 9 | 2026-04-27T23:39:08Z | Other | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [Humans-of-Julia/BibInternal.jl](https://github.com/Humans-of-Julia/BibInternal.jl) | 4 | 2026-04-27T23:33:07Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
@@ -95,6 +96,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jfmengels/elm-review-config](https://github.com/jfmengels/elm-review-config) | 9 | 2026-04-28T07:26:18Z | Other | Template/starter | 0 | 0 | 0 | 0 |
 | [hao-ai-lab/flash-attention-fp4](https://github.com/hao-ai-lab/flash-attention-fp4) | 9 | 2026-04-27T23:39:08Z | Other | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [b-data/jupyterlab-julia-docker-stack](https://github.com/b-data/jupyterlab-julia-docker-stack) | 9 | 2026-04-24T03:45:41Z | Other | Unknown | 16 | 0 | 16 | 16 |
 | [curiousdannii/emglken](https://github.com/curiousdannii/emglken) | 9 | 2026-04-24T02:34:56Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |

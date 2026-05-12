@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -12,8 +12,8 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 ## Counts
 
 - repos: 284
-- terms: 816
-- components: 1511
+- terms: 815
+- components: 1509
 - concepts: 823
 - observations: 824
 
@@ -195,6 +195,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [seaweedfs/seaweedfs-cosi-driver](https://github.com/seaweedfs/seaweedfs-cosi-driver) | 15 | 2026-02-26T14:04:50Z | Go | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [chenkang455/ManiSkill-GS](https://github.com/chenkang455/ManiSkill-GS) | 13 | 2026-02-26T13:23:36Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [aaaaalexis/obsidian-pseudo-mica](https://github.com/aaaaalexis/obsidian-pseudo-mica) | 21 | 2026-02-26T13:07:32Z | TypeScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
+| [assimelha/cmcp](https://github.com/assimelha/cmcp) | 29 | 2026-02-26T11:07:51Z | Rust | Service/API | 0 | 0 | 0 | 0 |
 | [scaleway/serverless-gateway](https://github.com/scaleway/serverless-gateway) | 19 | 2026-02-26T08:36:08Z | Python | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [Computer-use-agents/dart-gui](https://github.com/Computer-use-agents/dart-gui) | 89 | 2026-02-26T04:34:01Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [pkgxdev/dev](https://github.com/pkgxdev/dev) | 45 | 2026-02-26T03:22:27Z | TypeScript | Infrastructure/tooling | 3 | 4 | 3 | 3 |
@@ -308,7 +309,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DavidKinder/Windows-Glk](https://github.com/DavidKinder/Windows-Glk) | 13 | 2026-02-11T17:37:03Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [AdaCore/gnatcoll-bindings](https://github.com/AdaCore/gnatcoll-bindings) | 15 | 2026-02-11T16:16:41Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [DavidKinder/Git](https://github.com/DavidKinder/Git) | 55 | 2026-02-11T09:11:06Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [panaversity/claude-code-agent-teams-exercises](https://github.com/panaversity/claude-code-agent-teams-exercises) | 22 | 2026-02-11T07:23:13Z | Unknown | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -491,6 +491,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [trzsz/tabby-trzsz](https://github.com/trzsz/tabby-trzsz) | 29 | 2026-03-06T17:54:06Z | TypeScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [SchwarzIT/api-linter-rules](https://github.com/SchwarzIT/api-linter-rules) | 29 | 2026-03-05T10:21:59Z | TypeScript | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [caprica/vlcj-examples](https://github.com/caprica/vlcj-examples) | 29 | 2026-03-01T17:40:37Z | Java | Unknown | 0 | 0 | 0 | 0 |
+| [assimelha/cmcp](https://github.com/assimelha/cmcp) | 29 | 2026-02-26T11:07:51Z | Rust | Service/API | 0 | 0 | 0 | 0 |
 | [patrickgold/jetpref](https://github.com/patrickgold/jetpref) | 29 | 2026-02-24T13:50:52Z | Other | Library | 3 | 0 | 3 | 3 |
 | [2slides/mcp-2slides](https://github.com/2slides/mcp-2slides) | 29 | 2026-02-20T08:17:02Z | TypeScript | Service/API | 2 | 8 | 2 | 2 |
 | [aseprite/clip](https://github.com/aseprite/clip) | 28 | 2026-03-04T17:37:52Z | C/C++ | CLI | 1 | 3 | 1 | 1 |
@@ -519,7 +520,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AbsaOSS/external-dns-infoblox-webhook](https://github.com/AbsaOSS/external-dns-infoblox-webhook) | 22 | 2026-03-04T21:22:22Z | Go | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [Embarcadero/PythonPackages4Delphi](https://github.com/Embarcadero/PythonPackages4Delphi) | 22 | 2026-02-27T10:30:41Z | Other | Library | 0 | 0 | 0 | 0 |
 | [sympy/sympy-bot](https://github.com/sympy/sympy-bot) | 22 | 2026-02-23T17:41:49Z | Python | Infrastructure/tooling | 5 | 2 | 5 | 5 |
-| [panaversity/claude-code-agent-teams-exercises](https://github.com/panaversity/claude-code-agent-teams-exercises) | 22 | 2026-02-11T07:23:13Z | Unknown | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [dwyl/content](https://github.com/dwyl/content) | 21 | 2026-03-11T08:59:37Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [robotology/mesh-support](https://github.com/robotology/mesh-support) | 21 | 2026-03-07T16:47:58Z | Unknown | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [ocurrent/opam-health-check](https://github.com/ocurrent/opam-health-check) | 21 | 2026-03-06T17:06:45Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |

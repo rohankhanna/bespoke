@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 328,
-    "concepts": 687,
-    "observations": 687,
-    "repos": 186,
-    "terms": 681
+    "components": 332,
+    "concepts": 691,
+    "observations": 691,
+    "repos": 187,
+    "terms": 683
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "0k/shyaml",
     "23andMe/Yamale",
     "24mlight/a-share-mcp-is-just-i-need",
     "acl-org/aclpubcheck",
+    "adhikasp/mcp-client-cli",
     "agiresearch/A-mem",
     "ai4co/rl4co",
     "aim-uofa/Matcher",

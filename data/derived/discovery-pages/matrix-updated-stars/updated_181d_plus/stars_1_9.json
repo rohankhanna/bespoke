@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5217,
-    "concepts": 1847,
-    "observations": 1849,
-    "repos": 1309,
-    "terms": 1842
+    "components": 5222,
+    "concepts": 1862,
+    "observations": 1864,
+    "repos": 1312,
+    "terms": 1857
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -88,6 +88,7 @@
     "aergonaut/pronto-goodcheck",
     "aerobounce/sublime-autoclosepanel",
     "aerobounce/sublime-pretty-lua",
+    "aeulker/Claude-Code-Cheat-Sheet",
     "AFD-Illinois/docs",
     "afd-illinois/eht-babel",
     "AFD-Illinois/iharm2d_v3",
@@ -1061,6 +1062,7 @@
     "phymhan/taming-transformers",
     "Piebald-AI/muda",
     "pimlie/geekworm-x-c1",
+    "pinnymz/ruby-zmanim",
     "pixielabs/cavy-sample-app",
     "pixielabs/cavy-tester",
     "PJLab-ADG/NeuS2_TCNN",
@@ -1191,6 +1193,7 @@
     "startupdevhouse/typescript-functional-extensions-nestjs",
     "SteffenDE/makeup_syntect",
     "sterlind/peft",
+    "Sternbach-Software/KosherKotlin",
     "storybook-eol/addon-graphql",
     "storybookjs/addon-events",
     "sudo-suhas/lint-staged-django-react-demo",

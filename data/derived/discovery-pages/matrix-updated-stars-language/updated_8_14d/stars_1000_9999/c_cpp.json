@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 955,
-    "concepts": 938,
-    "observations": 938,
-    "repos": 107,
-    "terms": 931
+    "components": 938,
+    "concepts": 919,
+    "observations": 919,
+    "repos": 105,
+    "terms": 912
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
@@ -100,7 +100,6 @@
     "RainerKuemmerle/g2o",
     "realsenseai/librealsense",
     "RobotLocomotion/drake",
-    "sail-sg/envpool",
     "samtools/samtools",
     "SchedMD/slurm",
     "sparkle-project/Sparkle",
@@ -111,7 +110,6 @@
     "Themaister/Granite",
     "tianocore/edk2",
     "unicode-org/icu",
-    "unitreerobotics/unitree_sdk2",
     "universal-ctags/ctags",
     "uxlfoundation/oneDNN",
     "vincentlaucsb/csv-parser",

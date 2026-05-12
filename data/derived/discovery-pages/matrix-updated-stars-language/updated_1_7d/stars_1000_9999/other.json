@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 174,
-    "concepts": 184,
-    "observations": 185,
-    "repos": 21,
-    "terms": 182
+    "components": 164,
+    "concepts": 177,
+    "observations": 178,
+    "repos": 20,
+    "terms": 177
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "agenda/agenda",
     "all-contributors/allcontributors.org",
@@ -23,7 +23,6 @@
     "foundry-rs/forge-std",
     "hacl-star/hacl-star",
     "intel/BigDL",
-    "JuliaGPU/CUDA.jl",
     "jump-dev/JuMP.jl",
     "microsoft/PhiCookBook",
     "minad/consult",

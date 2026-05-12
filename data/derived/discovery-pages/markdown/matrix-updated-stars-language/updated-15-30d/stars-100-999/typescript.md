@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 112
-- terms: 698
-- components: 3068
-- concepts: 648
-- observations: 648
+- repos: 115
+- terms: 719
+- components: 3122
+- concepts: 670
+- observations: 670
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [microsoft/vscode-java-debug](https://github.com/microsoft/vscode-java-debug) | 582 | 2026-04-28T07:36:26Z | TypeScript | Infrastructure/tooling | 5 | 26 | 5 | 5 |
+| [daeh/zotero-markdb-connect](https://github.com/daeh/zotero-markdb-connect) | 658 | 2026-04-28T06:02:28Z | TypeScript | Unknown | 7 | 15 | 8 | 8 |
+| [appwrite/sdk-for-web](https://github.com/appwrite/sdk-for-web) | 331 | 2026-04-28T05:52:09Z | TypeScript | Infrastructure/tooling | 9 | 13 | 9 | 9 |
 | [nene/prettier-plugin-sql-cst](https://github.com/nene/prettier-plugin-sql-cst) | 210 | 2026-04-27T19:49:44Z | TypeScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [fsouza/prettierd](https://github.com/fsouza/prettierd) | 987 | 2026-04-27T18:22:27Z | TypeScript | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [oxc-project/eslint-plugin-oxlint](https://github.com/oxc-project/eslint-plugin-oxlint) | 440 | 2026-04-27T14:52:41Z | TypeScript | Infrastructure/tooling | 6 | 20 | 6 | 6 |
@@ -133,7 +136,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [actions/container-toolkit-action](https://github.com/actions/container-toolkit-action) | 163 | 2026-04-13T13:21:35Z | TypeScript | Infrastructure/tooling | 5 | 39 | 5 | 5 |
 | [immersive-translate/zotero-immersivetranslate](https://github.com/immersive-translate/zotero-immersivetranslate) | 299 | 2026-04-13T11:09:44Z | TypeScript | Infrastructure/tooling | 1 | 18 | 1 | 1 |
 | [elm-tooling/elm-language-client-vscode](https://github.com/elm-tooling/elm-language-client-vscode) | 237 | 2026-04-13T04:57:01Z | TypeScript | Infrastructure/tooling | 9 | 12 | 9 | 9 |
-| [Obsidian-TTRPG-Community/initiative-tracker](https://github.com/Obsidian-TTRPG-Community/initiative-tracker) | 202 | 2026-04-12T22:27:18Z | TypeScript | Infrastructure/tooling | 2 | 30 | 2 | 2 |
+| [Obsidian-TTRPG-Community/initiative-tracker](https://github.com/Obsidian-TTRPG-Community/initiative-tracker) | 203 | 2026-04-12T22:27:18Z | TypeScript | Infrastructure/tooling | 2 | 30 | 2 | 2 |
 | [microsoft/vscode-json-languageservice](https://github.com/microsoft/vscode-json-languageservice) | 323 | 2026-04-12T20:22:58Z | TypeScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [AbianS/docker-db-manager](https://github.com/AbianS/docker-db-manager) | 160 | 2026-04-12T18:29:18Z | TypeScript | Infrastructure/tooling | 7 | 47 | 7 | 7 |
 | [Siubaak/sval](https://github.com/Siubaak/sval) | 436 | 2026-04-12T15:02:40Z | TypeScript | Infrastructure/tooling | 1 | 11 | 1 | 1 |
@@ -167,10 +170,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MetaCubeX/Yacd-meta](https://github.com/MetaCubeX/Yacd-meta) | 728 | 2026-04-18T15:48:56Z | TypeScript | Infrastructure/tooling | 1 | 83 | 1 | 1 |
 | [sergiodxa/remix-i18next](https://github.com/sergiodxa/remix-i18next) | 719 | 2026-04-27T05:42:39Z | TypeScript | Infrastructure/tooling | 4 | 22 | 4 | 4 |
 | [Kaliiiiiiiiii-Vinyzu/patchright-nodejs](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright-nodejs) | 675 | 2026-04-16T17:31:09Z | TypeScript | Library | 18 | 8 | 18 | 18 |
+| [daeh/zotero-markdb-connect](https://github.com/daeh/zotero-markdb-connect) | 658 | 2026-04-28T06:02:28Z | TypeScript | Unknown | 7 | 15 | 8 | 8 |
 | [OpenZeppelin/openzeppelin-upgrades](https://github.com/OpenZeppelin/openzeppelin-upgrades) | 655 | 2026-04-23T03:07:56Z | TypeScript | Infrastructure/tooling | 4 | 18 | 4 | 4 |
 | [grubersjoe/react-github-calendar](https://github.com/grubersjoe/react-github-calendar) | 646 | 2026-04-19T09:07:16Z | TypeScript | Infrastructure/tooling | 4 | 28 | 4 | 4 |
 | [Softeria/ms-365-mcp-server](https://github.com/Softeria/ms-365-mcp-server) | 642 | 2026-04-21T11:43:18Z | TypeScript | Infrastructure/tooling | 2 | 31 | 2 | 2 |
 | [atomicmemory/llm-wiki-compiler](https://github.com/atomicmemory/llm-wiki-compiler) | 603 | 2026-04-16T19:53:16Z | TypeScript | CLI | 7 | 22 | 8 | 8 |
+| [microsoft/vscode-java-debug](https://github.com/microsoft/vscode-java-debug) | 582 | 2026-04-28T07:36:26Z | TypeScript | Infrastructure/tooling | 5 | 26 | 5 | 5 |
 | [strands-agents/sdk-typescript](https://github.com/strands-agents/sdk-typescript) | 581 | 2026-04-20T23:46:24Z | TypeScript | Infrastructure/tooling | 15 | 12 | 15 | 15 |
 | [k-dense-ai/k-dense-byok](https://github.com/K-Dense-AI/k-dense-byok) | 571 | 2026-04-16T14:44:15Z | TypeScript | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [docker/setup-qemu-action](https://github.com/docker/setup-qemu-action) | 567 | 2026-04-22T06:14:09Z | TypeScript | Infrastructure/tooling | 12 | 27 | 12 | 12 |
@@ -199,6 +204,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ory/kratos-selfservice-ui-node](https://github.com/ory/kratos-selfservice-ui-node) | 365 | 2026-04-16T14:57:40Z | TypeScript | Infrastructure/tooling | 7 | 38 | 7 | 7 |
 | [octokit/webhooks.js](https://github.com/octokit/webhooks.js) | 341 | 2026-04-23T11:49:57Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
 | [lewislulu/llm-wiki-skill](https://github.com/lewislulu/llm-wiki-skill) | 339 | 2026-04-16T06:01:13Z | TypeScript | Docs/knowledge | 2 | 0 | 0 | 0 |
+| [appwrite/sdk-for-web](https://github.com/appwrite/sdk-for-web) | 331 | 2026-04-28T05:52:09Z | TypeScript | Infrastructure/tooling | 9 | 13 | 9 | 9 |
 | [EclipseFdn/open-vsx.org](https://github.com/EclipseFdn/open-vsx.org) | 325 | 2026-04-22T08:38:38Z | TypeScript | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [microsoft/vscode-json-languageservice](https://github.com/microsoft/vscode-json-languageservice) | 323 | 2026-04-12T20:22:58Z | TypeScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [tony1223/better-agent-terminal](https://github.com/tony1223/better-agent-terminal) | 321 | 2026-04-19T09:50:58Z | TypeScript | CLI | 1 | 46 | 0 | 0 |
@@ -230,7 +236,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fastify/demo](https://github.com/fastify/demo) | 219 | 2026-04-12T12:33:31Z | TypeScript | Infrastructure/tooling | 8 | 37 | 8 | 8 |
 | [nene/prettier-plugin-sql-cst](https://github.com/nene/prettier-plugin-sql-cst) | 210 | 2026-04-27T19:49:44Z | TypeScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [alexlafroscia/vite-plugin-handlebars](https://github.com/alexlafroscia/vite-plugin-handlebars) | 206 | 2026-04-21T22:12:17Z | TypeScript | Infrastructure/tooling | 4 | 20 | 4 | 4 |
-| [Obsidian-TTRPG-Community/initiative-tracker](https://github.com/Obsidian-TTRPG-Community/initiative-tracker) | 202 | 2026-04-12T22:27:18Z | TypeScript | Infrastructure/tooling | 2 | 30 | 2 | 2 |
+| [Obsidian-TTRPG-Community/initiative-tracker](https://github.com/Obsidian-TTRPG-Community/initiative-tracker) | 203 | 2026-04-12T22:27:18Z | TypeScript | Infrastructure/tooling | 2 | 30 | 2 | 2 |
 | [tombii/better-ccflare](https://github.com/tombii/better-ccflare) | 187 | 2026-04-18T20:42:27Z | TypeScript | Infrastructure/tooling | 10 | 14 | 0 | 0 |
 | [graphprotocol/graph-client](https://github.com/graphprotocol/graph-client) | 185 | 2026-04-23T22:20:43Z | TypeScript | Infrastructure/tooling | 5 | 28 | 5 | 5 |
 | [safe-global/safe-deployments](https://github.com/safe-global/safe-deployments) | 177 | 2026-04-21T12:57:36Z | TypeScript | Infrastructure/tooling | 6 | 19 | 6 | 6 |

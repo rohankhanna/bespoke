@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-05-12T05:46:29.404112+00:00`
+Generated at: `2026-05-12T07:47:44.345415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 53
-- terms: 512
-- components: 874
-- concepts: 518
-- observations: 519
+- repos: 54
+- terms: 524
+- components: 887
+- concepts: 530
+- observations: 531
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ClementTsang/bottom](https://github.com/ClementTsang/bottom) | 13260 | 2026-04-28T05:54:36Z | Rust | CLI | 12 | 13 | 12 | 12 |
 | [ratatui/ratatui](https://github.com/ratatui/ratatui) | 20141 | 2026-04-27T21:29:30Z | Rust | CLI | 9 | 19 | 9 | 9 |
 | [huggingface/tokenizers](https://github.com/huggingface/tokenizers) | 10684 | 2026-04-27T15:48:00Z | Rust | Infrastructure/tooling | 13 | 17 | 13 | 13 |
 | [clap-rs/clap](https://github.com/clap-rs/clap) | 16346 | 2026-04-27T14:44:44Z | Rust | CLI | 14 | 11 | 14 | 14 |
@@ -124,6 +125,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [analysis-tools-dev/static-analysis](https://github.com/analysis-tools-dev/static-analysis) | 14508 | 2026-04-23T00:29:32Z | Rust | Infrastructure/tooling | 16 | 12 | 16 | 16 |
 | [diesel-rs/diesel](https://github.com/diesel-rs/diesel) | 14046 | 2026-04-17T08:14:45Z | Rust | Infrastructure/tooling | 12 | 13 | 12 | 12 |
 | [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) | 13558 | 2026-04-23T02:37:29Z | Rust | CLI | 19 | 20 | 19 | 19 |
+| [ClementTsang/bottom](https://github.com/ClementTsang/bottom) | 13260 | 2026-04-28T05:54:36Z | Rust | CLI | 12 | 13 | 12 | 12 |
 | [rust-lang/rust-clippy](https://github.com/rust-lang/rust-clippy) | 13110 | 2026-04-27T08:58:52Z | Rust | CLI | 10 | 14 | 10 | 10 |
 | [rayon-rs/rayon](https://github.com/rayon-rs/rayon) | 12916 | 2026-04-23T20:07:00Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [web-infra-dev/rspack](https://github.com/web-infra-dev/rspack) | 12632 | 2026-04-23T15:03:14Z | Rust | Infrastructure/tooling | 16 | 21 | 16 | 16 |

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11469,
-    "concepts": 7808,
-    "observations": 7869,
-    "repos": 1709,
-    "terms": 7809
+    "components": 11501,
+    "concepts": 7871,
+    "observations": 7932,
+    "repos": 1715,
+    "terms": 7868
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -190,6 +190,7 @@
     "asny/three-d",
     "asny/three-d-asset",
     "asomers/mockall",
+    "assimelha/cmcp",
     "ast-grep/ast-grep",
     "astral-sh/pubgrub",
     "astral-sh/ruff",
@@ -699,6 +700,8 @@
     "FuelLabs/sway",
     "fulmicoton-dd/datasketches-rust",
     "fussybeaver/bollard",
+    "g-plane/malva",
+    "g-plane/markup_fmt",
     "g1mv/density",
     "gabdube/native-windows-gui",
     "gakonst/ethers-rs",
@@ -930,6 +933,7 @@
     "juharris/optify",
     "JuliaLang/juliaup",
     "Julien-cpsn/Phone-OS",
+    "junhoyeo/tokscale",
     "juspay/hyperswitch",
     "kaichaosun/rlt",
     "kaj/ructe",
@@ -1626,6 +1630,7 @@
     "ueno/podman-sequoia",
     "unicode-org/icu4x",
     "unicode-rs/unicode-width",
+    "UnknownPlatypus/markup_fmt",
     "unknownue/vulkan-tutorial-rust",
     "unrs/unrs-resolver",
     "UnstoppableSwap/wallet",
@@ -1684,6 +1689,7 @@
     "wngr/async-datachannel",
     "wooorm/mdxjs-rs",
     "XAMPPRocky/tokei",
+    "xazukx/ts-rs",
     "xetdata/xet-core",
     "xiaoxin-sky/lapce-vue",
     "Xuanwo/serde-bridge",

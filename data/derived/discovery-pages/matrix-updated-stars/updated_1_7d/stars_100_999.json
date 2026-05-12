@@ -1,18 +1,21 @@
 {
   "counts": {
-    "components": 945,
-    "concepts": 527,
-    "observations": 528,
-    "repos": 80,
-    "terms": 522
+    "components": 1039,
+    "concepts": 541,
+    "observations": 542,
+    "repos": 79,
+    "terms": 536
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
+    "15r10nk/inline-snapshot",
+    "2mawi2/schaltwerk",
+    "aannoo/hcom",
     "aburch/simutrans",
     "agentclientprotocol/python-sdk",
     "agentclientprotocol/rust-sdk",
@@ -29,10 +32,8 @@
     "clearml/clearml-agent",
     "clj-commons/rewrite-clj",
     "cowprotocol/contracts",
-    "dbkangaroo/kangaroo",
     "deepset-ai/haystack-integrations",
     "dgraph-io/dgraph-benchmarks",
-    "eclipse-wildwebdeveloper/wildwebdeveloper",
     "electron/packager",
     "elixir-protobuf/protobuf",
     "embroider-build/ember-auto-import",
@@ -41,6 +42,7 @@
     "foldl/chatllm.cpp",
     "gbionics/adam",
     "gbionics/jaxsim",
+    "GDevelopApp/GDevelop-extensions",
     "git-friendly/git-friendly",
     "gitleaks/gitleaks-action",
     "google-deepmind/reverb",
@@ -51,7 +53,6 @@
     "huggingface/hf-mcp-server",
     "inversify/monorepo",
     "ipsilon/evmone",
-    "jcefmaven/jcefmaven",
     "jump-dev/NLopt.jl",
     "jupyter-server/jupyter_server",
     "jupyter/nbclassic",
@@ -63,8 +64,6 @@
     "lite-xl/lite-xl-plugin-manager",
     "LuaLS/vscode-lua",
     "mafintosh/streamx",
-    "mapsforge/vtm",
-    "mit-plv/bedrock2",
     "mrcjkb/haskell-tools.nvim",
     "near/NEPs",
     "NVlabs/trajdata",

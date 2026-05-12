@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 241,
-    "concepts": 288,
-    "observations": 288,
-    "repos": 37,
-    "terms": 286
+    "components": 230,
+    "concepts": 275,
+    "observations": 275,
+    "repos": 38,
+    "terms": 273
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T05:46:29.404112+00:00",
+  "generated_at": "2026-05-12T07:47:44.345415+00:00",
   "repo_ids": [
     "apache/ignite-3",
     "apache/rocketmq-clients",
@@ -21,7 +21,6 @@
     "aws-powertools/powertools-lambda-java",
     "aws/smithy-go",
     "bazel-contrib/rules_jvm_external",
-    "bndtools/bnd",
     "confluentinc/kafka-streams-examples",
     "devoxx/DevoxxGenieIDEAPlugin",
     "eclipse-lsp4j/lsp4j",
@@ -32,9 +31,11 @@
     "googleapis/java-bigtable-hbase",
     "heroku/webapp-runner",
     "ihmcrobotics/ihmc-open-robotics-software",
+    "jcefmaven/jcefmaven",
     "jdereg/json-io",
     "jpmml/jpmml-sklearn",
     "kirill-grouchnikov/radiance",
+    "mapsforge/vtm",
     "MarcusWolschon/osmeditor4android",
     "michel-kraemer/bson4jackson",
     "microsoft/LangChain4j-for-Beginners",
