@@ -116,7 +116,7 @@
       "source_file": ".github/workflows/docs.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml"
     },
@@ -136,7 +136,7 @@
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
@@ -166,7 +166,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -349,7 +349,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "electron/rebuild",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -384,7 +384,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "electron/rebuild",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -440,7 +440,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "electron/rebuild",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -458,7 +458,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T18:51:48.340842+00:00",
+  "fetched_at": "2026-05-12T00:46:45.711249+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -498,10 +498,10 @@
     "full_name": "electron/rebuild",
     "html_url": "https://github.com/electron/rebuild",
     "language": "TypeScript",
-    "pushed_at": "2026-05-11T18:43:23Z",
+    "pushed_at": "2026-05-11T21:08:53Z",
     "stargazers_count": 1117,
     "topics": [],
-    "updated_at": "2026-05-11T18:43:27Z"
+    "updated_at": "2026-05-11T21:08:57Z"
   },
   "repo_links": [],
   "terms": [

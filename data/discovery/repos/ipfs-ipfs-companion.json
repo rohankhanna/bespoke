@@ -509,11 +509,6 @@
       "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/stale.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/tx-pull.yml"
     }
   ],
   "edges": [
@@ -1239,20 +1234,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/tx-pull.yml",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/tx-pull.yml",
-      "source_repo": "ipfs/ipfs-companion",
-      "target": "Transifex sync",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "ipfs/ipfs-companion",
@@ -1316,7 +1297,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T19:48:21.145908+00:00",
+  "fetched_at": "2026-05-12T01:15:31.898670+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1345,10 +1326,6 @@
     {
       "path": ".github/workflows/stale.yml",
       "size": 244
-    },
-    {
-      "path": ".github/workflows/tx-pull.yml",
-      "size": 5402
     }
   ],
   "related_repositories": [],
@@ -1411,12 +1388,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/stale.yml",
       "term": "Close Stale Issues"
-    },
-    {
-      "context_snippet": "Transifex sync",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/tx-pull.yml",
-      "term": "Transifex sync"
     },
     {
       "context_snippet": "<h1 align=\"center\">IPFS Companion Browser Extension</h1>",

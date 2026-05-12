@@ -130,7 +130,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmark-tests.yml",
       "source_repo": "langchain-ai/langchainjs",
-      "target": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -158,7 +158,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "langchain-ai/langchainjs",
-      "target": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -214,7 +214,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/compatibility.yml",
       "source_repo": "langchain-ai/langchainjs",
-      "target": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -242,7 +242,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dev-release.yml",
       "source_repo": "langchain-ai/langchainjs",
-      "target": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -284,7 +284,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/examples.yml",
       "source_repo": "langchain-ai/langchainjs",
-      "target": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -312,7 +312,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/format.yml",
       "source_repo": "langchain-ai/langchainjs",
-      "target": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -340,7 +340,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration.yml",
       "source_repo": "langchain-ai/langchainjs",
-      "target": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -358,6 +358,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-11T13:15:38.721392+00:00",
+  "generated_at": "2026-05-12T00:37:36.884355+00:00",
   "source_repo": "langchain-ai/langchainjs"
 }

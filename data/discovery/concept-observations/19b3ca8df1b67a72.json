@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "the original reference implementation of a specified llama.cpp backend for Qualcomm Hexagon NPU on Android phone, https://github.com/ggml-org/llama.cpp/pull/12326. not maintained since Jul 15 2025"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "EditorConfig Checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "EditorConfig Checker"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "checkered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "checkering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "man"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "arrester"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "billet"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "EditorConfig Checker",
+      "sense_id": "editorconfig-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "editorconfig-checker",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "editorconfig-checker",
+  "observation_id": "19b3ca8df1b67a72",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-12T00:37:36.884355+00:00",
+  "observed_text": "EditorConfig Checker",
+  "source_context_snippet": "EditorConfig Checker",
+  "source_file": ".github/workflows/editorconfig.yml",
+  "source_repo": "jeffzhou2000/ggml-hexagon",
+  "source_repo_description": "the original reference implementation of a specified llama.cpp backend for Qualcomm Hexagon NPU on Android phone, https://github.com/ggml-org/llama.cpp/pull/12326. not maintained since Jul 15 2025"
+}

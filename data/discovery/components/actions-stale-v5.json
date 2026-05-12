@@ -1,7 +1,7 @@
 {
   "component": "actions/stale@v5",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -167,6 +167,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "tendermint/tm-db"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "jeffzhou2000/ggml-hexagon"
     }
   ]
 }

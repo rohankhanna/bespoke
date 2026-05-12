@@ -208,11 +208,17 @@
       "observed_at": "2026-05-11T18:44:26.583561+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "GDevelopApp/GDevelop-extensions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T00:37:36.884355+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GDevelopApp/GDevelop-extensions"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "the original reference implementation of a specified llama.cpp backend for Qualcomm Hexagon NPU on Android phone, https://github.com/ggml-org/llama.cpp/pull/12326. not maintained since Jul 15 2025"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build on Linux using cross-compiler"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build on Linux using cross-compiler"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26225,
+      "status": "candidate",
+      "text": "jerry-build"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26225,
+      "status": "candidate",
+      "text": "wattle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23599,
+      "status": "candidate",
+      "text": "celestia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21599,
+      "status": "candidate",
+      "text": "minix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17623,
+      "status": "candidate",
+      "text": "print"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build on Linux using cross-compiler",
+      "sense_id": "build-on-linux-using-cross-compiler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-on-linux-using-cross-compiler",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-on-linux-using-cross-compiler",
+  "observation_id": "c38b78c2a2219d92",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-12T00:37:36.884355+00:00",
+  "observed_text": "Build on Linux using cross-compiler",
+  "source_context_snippet": "Build on Linux using cross-compiler",
+  "source_file": ".github/workflows/build-linux-cross.yml",
+  "source_repo": "jeffzhou2000/ggml-hexagon",
+  "source_repo_description": "the original reference implementation of a specified llama.cpp backend for Qualcomm Hexagon NPU on Android phone, https://github.com/ggml-org/llama.cpp/pull/12326. not maintained since Jul 15 2025"
+}

@@ -256,11 +256,17 @@
       "observed_at": "2026-05-11T18:44:26.583561+00:00",
       "source_file": ".github/workflows/type-checks.yml",
       "source_repo": "meta-pytorch/captum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T00:37:36.884355+00:00",
+      "source_file": ".github/workflows/type-checks.yml",
+      "source_repo": "meta-pytorch/captum"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
   "lexical_providers": [
     "datamuse"
   ],

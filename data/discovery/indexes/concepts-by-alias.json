@@ -13084,6 +13084,9 @@
   "build releases": [
     "build-releases"
   ],
+  "build relocatable cmake package": [
+    "build-relocatable-cmake-package"
+  ],
   "build repo context": [
     "build-repo-context"
   ],

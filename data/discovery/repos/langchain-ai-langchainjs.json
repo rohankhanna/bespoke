@@ -91,7 +91,7 @@
       "source_file": ".github/workflows/benchmark-tests.yml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmark-tests.yml"
     },
@@ -106,7 +106,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -146,7 +146,7 @@
       "source_file": ".github/workflows/compatibility.yml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/compatibility.yml"
     },
@@ -161,7 +161,7 @@
       "source_file": ".github/workflows/compatibility.yml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/compatibility.yml"
     },
@@ -176,7 +176,7 @@
       "source_file": ".github/workflows/compatibility.yml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/compatibility.yml"
     },
@@ -191,7 +191,7 @@
       "source_file": ".github/workflows/compatibility.yml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/compatibility.yml"
     },
@@ -206,7 +206,7 @@
       "source_file": ".github/workflows/compatibility.yml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/compatibility.yml"
     },
@@ -221,7 +221,7 @@
       "source_file": ".github/workflows/compatibility.yml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/compatibility.yml"
     },
@@ -236,7 +236,7 @@
       "source_file": ".github/workflows/compatibility.yml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/compatibility.yml"
     },
@@ -251,7 +251,7 @@
       "source_file": ".github/workflows/compatibility.yml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/compatibility.yml"
     },
@@ -266,7 +266,7 @@
       "source_file": ".github/workflows/compatibility.yml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/compatibility.yml"
     },
@@ -281,7 +281,7 @@
       "source_file": ".github/workflows/compatibility.yml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/compatibility.yml"
     },
@@ -296,7 +296,7 @@
       "source_file": ".github/workflows/dev-release.yml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dev-release.yml"
     },
@@ -321,7 +321,7 @@
       "source_file": ".github/workflows/examples.yml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/examples.yml"
     },
@@ -336,7 +336,7 @@
       "source_file": ".github/workflows/format.yml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/format.yml"
     },
@@ -351,7 +351,7 @@
       "source_file": ".github/workflows/integration.yml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration.yml"
     },
@@ -492,7 +492,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmark-tests.yml",
       "source_repo": "langchain-ai/langchainjs",
-      "target": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -520,7 +520,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "langchain-ai/langchainjs",
-      "target": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -576,7 +576,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/compatibility.yml",
       "source_repo": "langchain-ai/langchainjs",
-      "target": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -604,7 +604,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dev-release.yml",
       "source_repo": "langchain-ai/langchainjs",
-      "target": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -646,7 +646,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/examples.yml",
       "source_repo": "langchain-ai/langchainjs",
-      "target": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -674,7 +674,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/format.yml",
       "source_repo": "langchain-ai/langchainjs",
-      "target": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -702,7 +702,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration.yml",
       "source_repo": "langchain-ai/langchainjs",
-      "target": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -720,7 +720,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T16:42:32.592079+00:00",
+  "fetched_at": "2026-05-12T01:46:54.229999+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -772,10 +772,10 @@
     "full_name": "langchain-ai/langchainjs",
     "html_url": "https://github.com/langchain-ai/langchainjs",
     "language": "TypeScript",
-    "pushed_at": "2026-05-09T01:54:19Z",
-    "stargazers_count": 17653,
+    "pushed_at": "2026-05-11T22:42:47Z",
+    "stargazers_count": 17659,
     "topics": [],
-    "updated_at": "2026-05-11T14:47:20Z"
+    "updated_at": "2026-05-12T00:14:21Z"
   },
   "repo_links": [],
   "terms": [

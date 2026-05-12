@@ -807,6 +807,18 @@
       "source_repo": "triton-inference-server/TensorRT-LLM",
       "status": "candidate-context",
       "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jeffzhou2000/ggml-hexagon",
+      "status": "candidate-context",
+      "text": "the original reference implementation of a specified llama.cpp backend for Qualcomm Hexagon NPU on Android phone, https://github.com/ggml-org/llama.cpp/pull/12326. not maintained since Jul 15 2025"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeffzhou2000/ggml-hexagon",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
     }
   ],
   "candidate_glosses": [
@@ -1215,6 +1227,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "triton-inference-server/TensorRT-LLM",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeffzhou2000/ggml-hexagon",
       "status": "candidate",
       "text": "Close inactive issues"
     }
@@ -2760,11 +2778,47 @@
       "observed_at": "2026-05-11T18:44:26.583561+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "intel-staging/text-generation-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T00:37:36.884355+00:00",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "jeffzhou2000/ggml-hexagon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T00:37:36.884355+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T00:37:36.884355+00:00",
+      "source_file": ".github/workflows/close-inactive-issues.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T00:37:36.884355+00:00",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T00:37:36.884355+00:00",
+      "source_file": ".github/workflows/clear_issues.yml.disabled",
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T00:37:36.884355+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "intel-staging/text-generation-webui"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
   "lexical_providers": [
     "datamuse"
   ],

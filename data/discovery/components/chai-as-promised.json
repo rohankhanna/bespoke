@@ -1,7 +1,7 @@
 {
   "component": "chai-as-promised",
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

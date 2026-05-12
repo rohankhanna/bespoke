@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-buildx-action@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2632,6 +2632,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test_dockerfile_builds.yaml",
       "source_repo": "apify/actor-templates"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "jeffzhou2000/ggml-hexagon"
     }
   ]
 }

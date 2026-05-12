@@ -189,7 +189,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T19:49:20.850617+00:00",
+  "fetched_at": "2026-05-12T01:41:16.289294+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -217,7 +217,7 @@
     "full_name": "dwyl/quotes",
     "html_url": "https://github.com/dwyl/quotes",
     "language": "Elixir",
-    "pushed_at": "2026-01-27T21:13:04Z",
+    "pushed_at": "2026-05-11T23:37:09Z",
     "stargazers_count": 338,
     "topics": [
       "elixir",

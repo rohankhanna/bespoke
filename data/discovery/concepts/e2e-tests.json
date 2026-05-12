@@ -2026,11 +2026,29 @@
       "observed_at": "2026-05-11T18:44:26.583561+00:00",
       "source_file": ".github/workflows/e2e.yaml",
       "source_repo": "apify/apify-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T00:37:36.884355+00:00",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T00:37:36.884355+00:00",
+      "source_file": ".github/workflows/e2e_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T00:37:36.884355+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "dkron-io/dkron"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
   "lexical_providers": [
     "datamuse"
   ],

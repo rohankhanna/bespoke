@@ -1072,11 +1072,29 @@
       "observed_at": "2026-05-11T18:44:26.583561+00:00",
       "source_file": null,
       "source_repo": "mixmark-io/turndown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T00:37:36.884355+00:00",
+      "source_file": null,
+      "source_repo": "readthedocs/recommonmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T00:37:36.884355+00:00",
+      "source_file": null,
+      "source_repo": "readthedocs/commonmark.py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-12T00:37:36.884355+00:00",
+      "source_file": null,
+      "source_repo": "mixmark-io/turndown"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
   "lexical_providers": [
     "datamuse"
   ],

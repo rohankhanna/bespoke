@@ -12528,6 +12528,7 @@
     "01b337f42b2ed833",
     "02409ed56239395c",
     "024b7f42d98ecc19",
+    "0270a8763c8573c1",
     "0357dd21aadcdcf6",
     "03ef6d6ce91a7a3a",
     "06f000c99df2bd07",
@@ -20267,7 +20268,8 @@
     "8bab8c5fa234fe0f"
   ],
   "build-on-linux-using-cross-compiler": [
-    "0e8cc34495f39c2b"
+    "0e8cc34495f39c2b",
+    "c38b78c2a2219d92"
   ],
   "build-on-macos": [
     "5c4ebc2c48ad397e",
@@ -20775,6 +20777,9 @@
   "build-releases": [
     "c178a78f46140376",
     "f9ee7b7c4034c1c7"
+  ],
+  "build-relocatable-cmake-package": [
+    "131374572d98bb4a"
   ],
   "build-repo-context": [
     "25bfc660879d7a17"
@@ -31547,6 +31552,7 @@
     "2926034777cdee5a",
     "2d1f0bb7b185060c",
     "3283aed05d59da50",
+    "351820bdd256bb95",
     "3e367d7c240cf40f",
     "402d41a6030dacce",
     "43947f1745d3465f",
@@ -56277,6 +56283,7 @@
   ],
   "editorconfig-checker": [
     "00ef39825e4d8dc3",
+    "19b3ca8df1b67a72",
     "569f4950dcd1a338",
     "e8855767117d48c6"
   ],
@@ -119240,6 +119247,7 @@
     "cc8eb5d1db5d31f6",
     "dca3337d1d301959",
     "e4411fecc8b1f36c",
+    "ee2868bbca1ab00c",
     "f47cd559720e2251",
     "f50bd2df8bf61520"
   ],
@@ -123320,6 +123328,7 @@
     "7a324d023ad88215"
   ],
   "qualcomm-npu": [
+    "5344b396aceb6961",
     "f871294ce80dbabf"
   ],
   "quality": [

@@ -43,6 +43,18 @@
       "source_repo": "WisdomShell/llama_cpp_for_codeshell",
       "status": "candidate-context",
       "text": "EditorConfig Checker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jeffzhou2000/ggml-hexagon",
+      "status": "candidate-context",
+      "text": "the original reference implementation of a specified llama.cpp backend for Qualcomm Hexagon NPU on Android phone, https://github.com/ggml-org/llama.cpp/pull/12326. not maintained since Jul 15 2025"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeffzhou2000/ggml-hexagon",
+      "status": "candidate-context",
+      "text": "EditorConfig Checker"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "WisdomShell/llama_cpp_for_codeshell",
+      "status": "candidate",
+      "text": "EditorConfig Checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeffzhou2000/ggml-hexagon",
       "status": "candidate",
       "text": "EditorConfig Checker"
     }
@@ -280,11 +298,23 @@
       "observed_at": "2026-05-11T18:44:26.583561+00:00",
       "source_file": ".github/workflows/editorconfig.yml",
       "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T00:37:36.884355+00:00",
+      "source_file": ".github/workflows/editorconfig.yml",
+      "source_repo": "jeffzhou2000/ggml-hexagon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T00:37:36.884355+00:00",
+      "source_file": ".github/workflows/editorconfig.yml",
+      "source_repo": "mozilla-ai/llamafile"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
   "lexical_providers": [
     "datamuse"
   ],

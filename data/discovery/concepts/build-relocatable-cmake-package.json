@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build relocatable cmake package"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jeffzhou2000/ggml-hexagon",
+      "status": "candidate-context",
+      "text": "the original reference implementation of a specified llama.cpp backend for Qualcomm Hexagon NPU on Android phone, https://github.com/ggml-org/llama.cpp/pull/12326. not maintained since Jul 15 2025"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeffzhou2000/ggml-hexagon",
+      "status": "candidate-context",
+      "text": "Build relocatable cmake package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeffzhou2000/ggml-hexagon",
+      "status": "candidate",
+      "text": "Build relocatable cmake package"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18475,
+      "status": "candidate",
+      "text": "decimal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18475,
+      "status": "candidate",
+      "text": "executable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18475,
+      "status": "candidate",
+      "text": "hexadecimal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18475,
+      "status": "candidate",
+      "text": "octal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18475,
+      "status": "candidate",
+      "text": "sort"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build relocatable cmake package",
+  "concept_id": "build-relocatable-cmake-package",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-12T00:37:36.884355+00:00",
+      "source_file": ".github/workflows/build-cmake-pkg.yml",
+      "source_repo": "jeffzhou2000/ggml-hexagon"
+    }
+  ],
+  "first_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build relocatable cmake package",
+      "sense_id": "build-relocatable-cmake-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

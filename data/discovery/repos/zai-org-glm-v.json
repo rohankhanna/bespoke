@@ -30,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-11T16:44:23.237129+00:00",
+  "fetched_at": "2026-05-12T01:50:27.559922+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -51,14 +51,14 @@
     "html_url": "https://github.com/zai-org/GLM-V",
     "language": "Python",
     "pushed_at": "2026-04-06T08:01:06Z",
-    "stargazers_count": 2304,
+    "stargazers_count": 2306,
     "topics": [
       "image2text",
       "reasoning",
       "video-understanding",
       "vlm"
     ],
-    "updated_at": "2026-05-11T03:10:44Z"
+    "updated_at": "2026-05-12T01:09:11Z"
   },
   "repo_links": [
     {
