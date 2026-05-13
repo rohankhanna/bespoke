@@ -529,6 +529,30 @@
       "source_repo": "agentic-box/memora",
       "status": "candidate-context",
       "text": "<h1 align=\"center\"><img src=\"media/memora_new.gif\" width=\"60\" alt=\"Memora Logo\" align=\"absmiddle\"> Memora</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "06ketan/substack-ops",
+      "status": "candidate-context",
+      "text": "Standalone Substack CLI + 26-tool MCP server. Your IDE drafts the replies. Zero AI API keys."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "06ketan/substack-ops",
+      "status": "candidate-context",
+      "text": "<!-- mcp-name: io.github.06ketan/substack-ops -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xDAEF0F/job-searchoor",
+      "status": "candidate-context",
+      "text": "A simple MCP server that delivers you jobs based on your needs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xDAEF0F/job-searchoor",
+      "status": "candidate-context",
+      "text": "[![Twitter Follow](https://img.shields.io/twitter/follow/Alex?style=social)](https://x.com/0xdaef0f)"
     }
   ],
   "candidate_glosses": [
@@ -789,6 +813,18 @@
       "source_repo": "agentic-box/memora",
       "status": "candidate",
       "text": "<h1 align=\"center\"><img src=\"media/memora_new.gif\" width=\"60\" alt=\"Memora Logo\" align=\"absmiddle\"> Memora</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "06ketan/substack-ops",
+      "status": "candidate",
+      "text": "<!-- mcp-name: io.github.06ketan/substack-ops -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xDAEF0F/job-searchoor",
+      "status": "candidate",
+      "text": "[![Twitter Follow](https://img.shields.io/twitter/follow/Alex?style=social)](https://x.com/0xdaef0f)"
     }
   ],
   "candidate_related_terms": [],
@@ -1606,11 +1642,35 @@
       "observed_at": "2026-05-13T00:41:47.952744+00:00",
       "source_file": null,
       "source_repo": "symgraph/BinAssistMCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "symgraph/BinAssistMCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "06ketan/substack-ops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "0xDAEF0F/job-searchoor"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

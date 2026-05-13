@@ -1,0 +1,216 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "keonlee9420/DiffSinger",
+      "target": "lmnt-com/diffwave",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keonlee9420/DiffSinger",
+      "target": "ddpm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keonlee9420/DiffSinger",
+      "target": "diffsinger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keonlee9420/DiffSinger",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keonlee9420/DiffSinger",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keonlee9420/DiffSinger",
+      "target": "english",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keonlee9420/DiffSinger",
+      "target": "fastspeech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keonlee9420/DiffSinger",
+      "target": "neural-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keonlee9420/DiffSinger",
+      "target": "non-autoregressive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keonlee9420/DiffSinger",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keonlee9420/DiffSinger",
+      "target": "singing-voice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keonlee9420/DiffSinger",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keonlee9420/DiffSinger",
+      "target": "text-to-speech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T08:13:50.871960+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6832
+    },
+    {
+      "path": "requirements.txt",
+      "size": 309
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch implementation of DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism (focused on DiffSpeech)",
+    "fork": false,
+    "full_name": "keonlee9420/DiffSinger",
+    "html_url": "https://github.com/keonlee9420/DiffSinger",
+    "language": "Python",
+    "pushed_at": "2022-02-03T02:36:09Z",
+    "stargazers_count": 247,
+    "topics": [
+      "ddpm",
+      "diffsinger",
+      "diffusion",
+      "diffusion-models",
+      "english",
+      "fastspeech",
+      "neural-tts",
+      "non-autoregressive",
+      "pytorch",
+      "singing-voice",
+      "speech-synthesis",
+      "text-to-speech",
+      "tts"
+    ],
+    "updated_at": "2026-02-17T08:48:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lmnt-com/diffwave",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PyTorch implementation of [DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://arxiv.org/abs/2105.02446) (focused on DiffSpeech).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddpm"
+    },
+    {
+      "context_snippet": "PyTorch implementation of [DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://arxiv.org/abs/2105.02446) (focused on DiffSpeech).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffsinger"
+    },
+    {
+      "context_snippet": "PyTorch implementation of [DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://arxiv.org/abs/2105.02446) (focused on DiffSpeech).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "PyTorch implementation of [DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://arxiv.org/abs/2105.02446) (focused on DiffSpeech).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "PyTorch implementation of [DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://arxiv.org/abs/2105.02446) (focused on DiffSpeech).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "english"
+    },
+    {
+      "context_snippet": "PyTorch implementation of [DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://arxiv.org/abs/2105.02446) (focused on DiffSpeech).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastspeech"
+    },
+    {
+      "context_snippet": "PyTorch implementation of [DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://arxiv.org/abs/2105.02446) (focused on DiffSpeech).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-tts"
+    },
+    {
+      "context_snippet": "PyTorch implementation of [DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://arxiv.org/abs/2105.02446) (focused on DiffSpeech).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "non-autoregressive"
+    },
+    {
+      "context_snippet": "PyTorch implementation of [DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://arxiv.org/abs/2105.02446) (focused on DiffSpeech).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "PyTorch implementation of [DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://arxiv.org/abs/2105.02446) (focused on DiffSpeech).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-voice"
+    },
+    {
+      "context_snippet": "PyTorch implementation of [DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://arxiv.org/abs/2105.02446) (focused on DiffSpeech).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "PyTorch implementation of [DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://arxiv.org/abs/2105.02446) (focused on DiffSpeech).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hayeong0/Diff-HierVC",
+      "target": "nvidia/bigvgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hayeong0/Diff-HierVC",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hayeong0/Diff-HierVC",
+      "target": "voice-conversion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T08:14:01.149994+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4161
+    },
+    {
+      "path": "requirements.txt",
+      "size": 142
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Pytorch Implementation of \"Diff-HierVC: Diffusion-based Hierarchical Voice Conversion with Robust Pitch Generation and Masked Prior for Zero-shot Speaker Adaptation\"",
+    "fork": false,
+    "full_name": "hayeong0/Diff-HierVC",
+    "html_url": "https://github.com/hayeong0/Diff-HierVC",
+    "language": "Python",
+    "pushed_at": "2024-07-03T04:26:04Z",
+    "stargazers_count": 237,
+    "topics": [
+      "diffusion-models",
+      "voice-conversion"
+    ],
+    "updated_at": "2026-05-06T06:04:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/bigvgan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The official Pytorch implementation of Diff-HierVC (Interspeeh 2023, Oral)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "The official Pytorch implementation of Diff-HierVC (Interspeeh 2023, Oral)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-conversion"
+    }
+  ]
+}

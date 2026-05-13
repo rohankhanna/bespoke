@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -3256,6 +3256,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "gy65896/TSDNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "keonlee9420/DiffSinger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmnt-com/diffwave"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "NATSpeech/NATSpeech"
     }
   ],
   "term": "pytorch"

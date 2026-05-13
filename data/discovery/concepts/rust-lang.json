@@ -1498,11 +1498,35 @@
       "observed_at": "2026-05-13T00:41:47.952744+00:00",
       "source_file": null,
       "source_repo": "prataprc/xorfilter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "shekohex/allo-isolate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "prataprc/xorfilter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

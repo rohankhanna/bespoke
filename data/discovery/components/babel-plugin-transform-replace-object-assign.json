@@ -1,7 +1,7 @@
 {
   "component": "babel-plugin-transform-replace-object-assign",
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

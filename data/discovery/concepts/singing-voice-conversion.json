@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "singing-voice-conversion"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MoonInTheRiver/NeuralSVB",
+      "status": "candidate-context",
+      "text": "Learning the Beauty in Songs: Neural Singing Voice Beautifier; ACL 2022 (Main conference); Official code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MoonInTheRiver/NeuralSVB",
+      "status": "candidate-context",
+      "text": "---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MoonInTheRiver/NeuralSVB",
+      "status": "candidate",
+      "text": "---"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "singing-voice-conversion",
+  "concept_id": "singing-voice-conversion",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "MoonInTheRiver/NeuralSVB"
+    }
+  ],
+  "first_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "singing-voice-conversion",
+      "sense_id": "singing-voice-conversion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

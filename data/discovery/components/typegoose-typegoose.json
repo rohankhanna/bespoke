@@ -1,7 +1,7 @@
 {
   "component": "@typegoose/typegoose",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

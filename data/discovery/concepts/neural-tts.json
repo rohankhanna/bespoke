@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "neural-tts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keonlee9420/DiffSinger",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism (focused on DiffSpeech)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keonlee9420/DiffSinger",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of [DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://arxiv.org/abs/2105.02446) (focused on DiffSpeech)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keonlee9420/DiffSinger",
+      "status": "candidate",
+      "text": "PyTorch implementation of [DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://arxiv.org/abs/2105.02446) (focused on DiffSpeech)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "neural-tts",
+  "concept_id": "neural-tts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "keonlee9420/DiffSinger"
+    }
+  ],
+  "first_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neural-tts",
+      "sense_id": "neural-tts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

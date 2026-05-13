@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TEN-framework/ten-turn-detection",
+      "target": "ten-framework/ten-framework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TEN-framework/ten-turn-detection",
+      "target": "ten-framework/ten-vad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TEN-framework/ten-turn-detection",
+      "target": "ten-framework/portal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TEN-framework/ten-turn-detection",
+      "target": "ten-framework/ten-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TEN-framework/ten-turn-detection",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TEN-framework/ten-turn-detection",
+      "target": "natural-language-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TEN-framework/ten-turn-detection",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TEN-framework/ten-turn-detection",
+      "target": "turn-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TEN-framework/ten-turn-detection",
+      "target": "turn-detector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TEN-framework/ten-turn-detection",
+      "target": "turn-taking",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-13T07:12:28.410129+00:00",
+  "source_repo": "TEN-framework/ten-turn-detection"
+}

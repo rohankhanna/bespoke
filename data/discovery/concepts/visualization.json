@@ -907,6 +907,18 @@
       "source_repo": "antvis/GPT-Vis",
       "status": "candidate-context",
       "text": "<img src=\"https://gw.alipayobjects.com/zos/antfincdn/R8sN%24GNdh6/language.svg\" width=\"18\"> English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Qiuner/isometric-contributions-plus",
+      "status": "candidate-context",
+      "text": "\u6d4f\u89c8\u5668\u6269\u5c55\uff0c\u5728\u5c06\u8d21\u732e\u56fe\u8f6c\u5316\u4e3a 3D \u89c6\u56fe\u3002\u6b64\u5916\u8fd8\u6709\u4e2d\u6587/\u82f1\u6587\u5207\u6362\u4e0e\u81ea\u5b9a\u4e49\u914d\u8272\u529f\u80fd\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Qiuner/isometric-contributions-plus",
+      "status": "candidate-context",
+      "text": "![Node.js CI](https://github.com/jasonlong/isometric-contributions/workflows/Node.js%20CI/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -1359,6 +1371,12 @@
       "source_repo": "antvis/GPT-Vis",
       "status": "candidate",
       "text": "<img src=\"https://gw.alipayobjects.com/zos/antfincdn/R8sN%24GNdh6/language.svg\" width=\"18\"> English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Qiuner/isometric-contributions-plus",
+      "status": "candidate",
+      "text": "![Node.js CI](https://github.com/jasonlong/isometric-contributions/workflows/Node.js%20CI/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -2467,11 +2485,41 @@
       "observed_at": "2026-05-13T00:41:47.952744+00:00",
       "source_file": null,
       "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "antvis/GPT-Vis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "Qiuner/isometric-contributions-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

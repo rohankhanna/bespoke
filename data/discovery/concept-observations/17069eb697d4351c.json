@@ -84,7 +84,7 @@
   "normalized_form": "e2e-test-for-manifest",
   "observation_id": "17069eb697d4351c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-13T00:41:47.952744+00:00",
+  "observed_at": "2026-05-13T07:12:28.410129+00:00",
   "observed_text": "E2E Test for Manifest",
   "source_context_snippet": "E2E Test for Manifest",
   "source_file": ".github/workflows/e2e-manifest.yml",

@@ -309,6 +309,18 @@
       "source_repo": "rocq-community/docker-coq",
       "status": "candidate-context",
       "text": "[![tags](https://img.shields.io/badge/tags%20on-docker%20hub-blue.svg)](https://hub.docker.com/r/coqorg/coq#supported-tags \"Supported tags on Docker Hub\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vimjas/vim-testbed",
+      "status": "candidate-context",
+      "text": "Docker image for testing Vim plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vimjas/vim-testbed",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/Vimjas/vim-testbed/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/Vimjas/vim-testbed/actions?query=branch%3Amaster+event%3Apush)"
     }
   ],
   "candidate_glosses": [
@@ -461,6 +473,12 @@
       "source_repo": "rocq-community/docker-coq",
       "status": "candidate",
       "text": "[![tags](https://img.shields.io/badge/tags%20on-docker%20hub-blue.svg)](https://hub.docker.com/r/coqorg/coq#supported-tags \"Supported tags on Docker Hub\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vimjas/vim-testbed",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/Vimjas/vim-testbed/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/Vimjas/vim-testbed/actions?query=branch%3Amaster+event%3Apush)"
     }
   ],
   "candidate_related_terms": [],
@@ -1398,11 +1416,41 @@
       "observed_at": "2026-05-13T00:41:47.952744+00:00",
       "source_file": null,
       "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "Vimjas/vim-testbed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "rocq-community/docker-coq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "michaellzc/vscode-hadolint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

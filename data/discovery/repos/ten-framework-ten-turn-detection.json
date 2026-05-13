@@ -1,0 +1,163 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TEN-framework/ten-turn-detection",
+      "target": "ten-framework/ten-framework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TEN-framework/ten-turn-detection",
+      "target": "ten-framework/ten-vad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TEN-framework/ten-turn-detection",
+      "target": "ten-framework/portal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TEN-framework/ten-turn-detection",
+      "target": "ten-framework/ten-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TEN-framework/ten-turn-detection",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TEN-framework/ten-turn-detection",
+      "target": "natural-language-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TEN-framework/ten-turn-detection",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TEN-framework/ten-turn-detection",
+      "target": "turn-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TEN-framework/ten-turn-detection",
+      "target": "turn-detector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TEN-framework/ten-turn-detection",
+      "target": "turn-taking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T08:14:08.855643+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12785
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Turn detection for full-duplex dialogue communication",
+    "fork": false,
+    "full_name": "TEN-framework/ten-turn-detection",
+    "html_url": "https://github.com/TEN-framework/ten-turn-detection",
+    "language": "Python",
+    "pushed_at": "2025-12-26T07:52:20Z",
+    "stargazers_count": 561,
+    "topics": [
+      "large-language-models",
+      "natural-language-understanding",
+      "real-time",
+      "turn-detection",
+      "turn-detector",
+      "turn-taking"
+    ],
+    "updated_at": "2026-05-12T15:21:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ten-framework/portal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ten-framework/ten-agent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ten-framework/ten-framework",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ten-framework/ten-vad",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-understanding"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "turn-detection"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "turn-detector"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "turn-taking"
+    }
+  ]
+}

@@ -84,7 +84,7 @@
   "normalized_form": "certificates",
   "observation_id": "85402b5330064628",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-13T00:41:47.952744+00:00",
+  "observed_at": "2026-05-13T07:12:28.410129+00:00",
   "observed_text": "certificates",
   "source_context_snippet": "certificates",
   "source_file": ".github/workflows/regen_certs.yml",

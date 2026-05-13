@@ -727,6 +727,30 @@
       "source_repo": "RooCodeInc/Roo-Code",
       "status": "candidate-context",
       "text": "CodeQL Advanced"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reubeno/brush",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1abash/POSIX-compatible shell implemented in Rust \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reubeno/brush",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zoo-Code-Org/Zoo-Code",
+      "status": "candidate-context",
+      "text": "Zoo Code gives you a whole dev team of AI agents in your code editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zoo-Code-Org/Zoo-Code",
+      "status": "candidate-context",
+      "text": "CodeQL Advanced"
     }
   ],
   "candidate_glosses": [
@@ -1087,6 +1111,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "RooCodeInc/Roo-Code",
+      "status": "candidate",
+      "text": "CodeQL Advanced"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reubeno/brush",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zoo-Code-Org/Zoo-Code",
       "status": "candidate",
       "text": "CodeQL Advanced"
     }
@@ -2008,11 +2044,35 @@
       "observed_at": "2026-05-13T00:41:47.952744+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "reubeno/brush"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Zoo-Code-Org/Zoo-Code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "googleapis/google-cloud-node"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

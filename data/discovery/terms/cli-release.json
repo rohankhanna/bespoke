@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -21,6 +21,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/cli-release.yml",
       "source_repo": "RooCodeInc/Roo-Code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cli-release.yml",
+      "source_repo": "Zoo-Code-Org/Zoo-Code"
     }
   ],
   "term": "CLI Release"

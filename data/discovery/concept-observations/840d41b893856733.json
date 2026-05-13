@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Convert HTML slides to high-res PNG, WebP, and PDF \u2014 CLI, Web App, MCP Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Visual diff gauntlet"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Visual diff gauntlet"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23387,
+      "status": "candidate",
+      "text": "foil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23387,
+      "status": "candidate",
+      "text": "handedness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23387,
+      "status": "candidate",
+      "text": "muffle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23387,
+      "status": "candidate",
+      "text": "query"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23387,
+      "status": "candidate",
+      "text": "spade"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Visual diff gauntlet",
+      "sense_id": "visual-diff-gauntlet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "visual-diff-gauntlet",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "visual-diff-gauntlet",
+  "observation_id": "840d41b893856733",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-13T07:12:28.410129+00:00",
+  "observed_text": "Visual diff gauntlet",
+  "source_context_snippet": "Visual diff gauntlet",
+  "source_file": ".github/workflows/visual-diff.yml",
+  "source_repo": "06ketan/slideshot",
+  "source_repo_description": "Convert HTML slides to high-res PNG, WebP, and PDF \u2014 CLI, Web App, MCP Server"
+}

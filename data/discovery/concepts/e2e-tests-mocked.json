@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "E2E Tests (Mocked)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zoo-Code-Org/Zoo-Code",
+      "status": "candidate-context",
+      "text": "Zoo Code gives you a whole dev team of AI agents in your code editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zoo-Code-Org/Zoo-Code",
+      "status": "candidate-context",
+      "text": "E2E Tests (Mocked)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zoo-Code-Org/Zoo-Code",
+      "status": "candidate",
+      "text": "E2E Tests (Mocked)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assays"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "attempts"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "E2E Tests (Mocked)",
+  "concept_id": "e2e-tests-mocked",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "Zoo-Code-Org/Zoo-Code"
+    }
+  ],
+  "first_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "E2E Tests (Mocked)",
+      "sense_id": "e2e-tests-mocked#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

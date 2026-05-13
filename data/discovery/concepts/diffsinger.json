@@ -19,6 +19,30 @@
       "source_repo": "PlayVoice/VI-SVS",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keonlee9420/DiffSinger",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism (focused on DiffSpeech)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keonlee9420/DiffSinger",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of [DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://arxiv.org/abs/2105.02446) (focused on DiffSpeech)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NATSpeech/NATSpeech",
+      "status": "candidate-context",
+      "text": "A Non-Autoregressive Text-to-Speech (NAR-TTS) framework, including official PyTorch implementation of PortaSpeech (NeurIPS 2021) and DiffSpeech (AAAI 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NATSpeech/NATSpeech",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "PlayVoice/VI-SVS",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keonlee9420/DiffSinger",
+      "status": "candidate",
+      "text": "PyTorch implementation of [DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://arxiv.org/abs/2105.02446) (focused on DiffSpeech)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NATSpeech/NATSpeech",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,29 @@
       "observed_at": "2026-05-13T00:41:47.952744+00:00",
       "source_file": null,
       "source_repo": "PlayVoice/VI-SVS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "keonlee9420/DiffSinger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "NATSpeech/NATSpeech"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS"
     }
   ],
   "first_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

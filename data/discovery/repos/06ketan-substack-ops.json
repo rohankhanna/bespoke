@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "06ketan/substack-ops",
+      "target": "khromov/get-shit-done",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "06ketan/substack-ops",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "06ketan/substack-ops",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "06ketan/substack-ops",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "06ketan/substack-ops",
+      "target": "publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "06ketan/substack-ops",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "06ketan/substack-ops",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "06ketan/substack-ops",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "06ketan/substack-ops",
+      "target": "mcp-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "06ketan/substack-ops",
+      "target": "substack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "06ketan/substack-ops",
+      "target": "typer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T08:14:14.538083+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16985
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1330
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1030
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 5039
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 685
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Standalone Substack CLI + 26-tool MCP server. Your IDE drafts the replies. Zero AI API keys.",
+    "fork": false,
+    "full_name": "06ketan/substack-ops",
+    "html_url": "https://github.com/06ketan/substack-ops",
+    "language": "Python",
+    "pushed_at": "2026-05-03T07:02:25Z",
+    "stargazers_count": 0,
+    "topics": [
+      "cli",
+      "mcp",
+      "mcp-server",
+      "python",
+      "substack",
+      "typer",
+      "uv"
+    ],
+    "updated_at": "2026-05-03T07:02:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "khromov/get-shit-done",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "publish"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "<!-- mcp-name: io.github.06ketan/substack-ops -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    },
+    {
+      "context_snippet": "<!-- mcp-name: io.github.06ketan/substack-ops -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "substack"
+    },
+    {
+      "context_snippet": "<!-- mcp-name: io.github.06ketan/substack-ops -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typer"
+    }
+  ]
+}

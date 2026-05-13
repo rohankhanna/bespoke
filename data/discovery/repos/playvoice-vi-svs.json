@@ -26,7 +26,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/VI-SVS",
-      "target": "hayeong0/diff-hiervc",
+      "target": "playvoice/so-vits-svc-5.0",
       "target_type": "repository"
     },
     {
@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T02:12:26.070987+00:00",
+  "fetched_at": "2026-05-13T08:14:02.533134+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -120,11 +120,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hayeong0/diff-hiervc",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "maxmax2016/vi-svs",
       "source_file": "README.md"
     },
@@ -136,6 +131,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "nvidia/bigvgan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "playvoice/so-vits-svc-5.0",
       "source_file": "README.md"
     }
   ],

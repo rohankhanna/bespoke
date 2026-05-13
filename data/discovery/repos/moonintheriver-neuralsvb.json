@@ -1,0 +1,126 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MoonInTheRiver/NeuralSVB",
+      "target": "natspeech/natspeech",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MoonInTheRiver/NeuralSVB",
+      "target": "pytorchlightning/pytorch-lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoonInTheRiver/NeuralSVB",
+      "target": "acl2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoonInTheRiver/NeuralSVB",
+      "target": "singing-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoonInTheRiver/NeuralSVB",
+      "target": "singing-voice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoonInTheRiver/NeuralSVB",
+      "target": "singing-voice-conversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoonInTheRiver/NeuralSVB",
+      "target": "singing-voice-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T08:13:57.020317+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5377
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learning the Beauty in Songs: Neural Singing Voice Beautifier; ACL 2022 (Main conference); Official code",
+    "fork": false,
+    "full_name": "MoonInTheRiver/NeuralSVB",
+    "html_url": "https://github.com/MoonInTheRiver/NeuralSVB",
+    "language": "Python",
+    "pushed_at": "2024-01-02T08:30:32Z",
+    "stargazers_count": 460,
+    "topics": [
+      "acl2022",
+      "gan",
+      "singing-synthesis",
+      "singing-voice",
+      "singing-voice-conversion",
+      "singing-voice-synthesis"
+    ],
+    "updated_at": "2026-04-29T12:32:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "natspeech/natspeech",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorchlightning/pytorch-lightning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acl2022"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-synthesis"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-voice"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-voice-conversion"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-voice-synthesis"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -721,6 +721,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "ymcui/Chinese-LLaMA-Alpaca-2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "TEN-framework/ten-turn-detection"
     }
   ],
   "term": "large-language-models"

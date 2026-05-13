@@ -84,7 +84,7 @@
   "normalized_form": "benchmark.js-example",
   "observation_id": "e9039b852713cea3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-13T00:41:47.952744+00:00",
+  "observed_at": "2026-05-13T07:12:28.410129+00:00",
   "observed_text": "Benchmark.js Example",
   "source_context_snippet": "Benchmark.js Example",
   "source_file": ".github/workflows/benchmarkjs.yml",

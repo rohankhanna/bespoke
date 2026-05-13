@@ -13,14 +13,14 @@
     {
       "source_kind": "source-snippet",
       "status": "context-only",
-      "text": "<p align=\"center\">"
+      "text": "[![Tests](https://github.com/mozilla-ai/gateway/actions/workflows/gateway-tests.yml/badge.svg)](https://github.com/mozilla-ai/gateway/actions/workflows/gateway-tests.yml)"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "status": "candidate",
-      "text": "<p align=\"center\">"
+      "text": "[![Tests](https://github.com/mozilla-ai/gateway/actions/workflows/gateway-tests.yml/badge.svg)](https://github.com/mozilla-ai/gateway/actions/workflows/gateway-tests.yml)"
     }
   ],
   "candidate_primary_bucket": "tool-component",
@@ -84,9 +84,9 @@
   "normalized_form": "gateway",
   "observation_id": "462cd27bfdcdeabe",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-13T00:41:47.952744+00:00",
+  "observed_at": "2026-05-13T07:12:28.410129+00:00",
   "observed_text": "gateway",
-  "source_context_snippet": "<p align=\"center\">",
+  "source_context_snippet": "[![Tests](https://github.com/mozilla-ai/gateway/actions/workflows/gateway-tests.yml/badge.svg)](https://github.com/mozilla-ai/gateway/actions/workflows/gateway-tests.yml)",
   "source_file": null,
   "source_repo": "mozilla-ai/otari",
   "source_repo_description": " This gateway is a standalone service that proxies LLM requests with API key management, budget enforcement, usage tracking, and OpenAI-compatible endpoints."

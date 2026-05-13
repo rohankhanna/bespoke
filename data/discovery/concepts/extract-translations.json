@@ -250,11 +250,17 @@
       "observed_at": "2026-05-13T00:41:47.952744+00:00",
       "source_file": ".github/workflows/extract-translations.yml",
       "source_repo": "GDevelopApp/GDevelop-extensions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": ".github/workflows/extract-translations.yml",
+      "source_repo": "GDevelopApp/GDevelop-extensions"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

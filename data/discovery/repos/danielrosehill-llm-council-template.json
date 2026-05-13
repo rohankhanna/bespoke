@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-13T08:13:15.901740+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3111
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 301
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Template for creating LLM Council apps - multi-model deliberation with peer review and synthesis. Based on karpathy/llm-council.",
+    "fork": false,
+    "full_name": "danielrosehill/LLM-Council-Template",
+    "html_url": "https://github.com/danielrosehill/LLM-Council-Template",
+    "language": "Python",
+    "pushed_at": "2026-04-23T10:28:21Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-27T19:05:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

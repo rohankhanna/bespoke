@@ -163,6 +163,18 @@
       "source_repo": "Alex313031/TrImLy",
       "status": "candidate-context",
       "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/TrImLy/main/trimly.svg\" width=\"128\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reubeno/brush",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1abash/POSIX-compatible shell implemented in Rust \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reubeno/brush",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "Alex313031/TrImLy",
       "status": "candidate",
       "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/TrImLy/main/trimly.svg\" width=\"128\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reubeno/brush",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -393,11 +411,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "Alex313031/TrImLy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "reubeno/brush"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

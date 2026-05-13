@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Zoo Code gives you a whole dev team of AI agents in your code editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Code QA Roo Code"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Code QA Roo Code"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "pal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14304,
+      "status": "candidate",
+      "text": "spoon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "joey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10424,
+      "status": "candidate",
+      "text": "victoria"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10304,
+      "status": "candidate",
+      "text": "columbia"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code QA Roo Code",
+      "sense_id": "code-qa-roo-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "code-qa-roo-code",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "code-qa-roo-code",
+  "observation_id": "989046207430a0f4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-13T07:12:28.410129+00:00",
+  "observed_text": "Code QA Roo Code",
+  "source_context_snippet": "Code QA Roo Code",
+  "source_file": ".github/workflows/code-qa.yml",
+  "source_repo": "Zoo-Code-Org/Zoo-Code",
+  "source_repo_description": "Zoo Code gives you a whole dev team of AI agents in your code editor."
+}

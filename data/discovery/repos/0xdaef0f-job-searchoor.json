@@ -1,0 +1,162 @@
+{
+  "components": [
+    {
+      "component": "@valibot/to-json-schema",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "arktype",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "effect",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fastmcp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/bun",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xDAEF0F/job-searchoor",
+      "target": "@valibot/to-json-schema",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xDAEF0F/job-searchoor",
+      "target": "arktype",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xDAEF0F/job-searchoor",
+      "target": "effect",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xDAEF0F/job-searchoor",
+      "target": "fastmcp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "0xDAEF0F/job-searchoor",
+      "target": "@types/bun",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "0xDAEF0F/job-searchoor",
+      "target": "shx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "0xDAEF0F/job-searchoor",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xDAEF0F/job-searchoor",
+      "target": "ai-tooling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xDAEF0F/job-searchoor",
+      "target": "mcp-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xDAEF0F/job-searchoor",
+      "target": "vibe-coding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T08:14:17.441511+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1129
+    },
+    {
+      "path": "package.json",
+      "size": 856
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple MCP server that delivers you jobs based on your needs",
+    "fork": false,
+    "full_name": "0xDAEF0F/job-searchoor",
+    "html_url": "https://github.com/0xDAEF0F/job-searchoor",
+    "language": "JavaScript",
+    "pushed_at": "2025-04-08T22:17:50Z",
+    "stargazers_count": 63,
+    "topics": [
+      "ai-tooling",
+      "mcp",
+      "mcp-server",
+      "vibe-coding"
+    ],
+    "updated_at": "2026-04-24T22:11:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Twitter Follow](https://img.shields.io/twitter/follow/Alex?style=social)](https://x.com/0xdaef0f)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-tooling"
+    },
+    {
+      "context_snippet": "[![Twitter Follow](https://img.shields.io/twitter/follow/Alex?style=social)](https://x.com/0xdaef0f)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    },
+    {
+      "context_snippet": "[![Twitter Follow](https://img.shields.io/twitter/follow/Alex?style=social)](https://x.com/0xdaef0f)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vibe-coding"
+    }
+  ]
+}

@@ -75,7 +75,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-neotest/neotest",
-      "target": "shunsambongi/neotest-testthat",
+      "target": "sidlatau/neotest-dart",
       "target_type": "repository"
     },
     {
@@ -170,7 +170,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T07:22:08.783433+00:00",
+  "fetched_at": "2026-05-13T07:27:12.049830+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -199,12 +199,12 @@
     "html_url": "https://github.com/nvim-neotest/neotest",
     "language": "Lua",
     "pushed_at": "2026-05-01T07:18:33Z",
-    "stargazers_count": 3076,
+    "stargazers_count": 3075,
     "topics": [
       "lua",
       "neovim"
     ],
-    "updated_at": "2026-05-12T02:15:21Z"
+    "updated_at": "2026-05-12T18:18:10Z"
   },
   "repo_links": [
     {
@@ -224,7 +224,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "shunsambongi/neotest-testthat",
+      "full_name": "sidlatau/neotest-dart",
       "source_file": "README.md"
     }
   ],

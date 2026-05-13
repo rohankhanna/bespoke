@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vimjas/vim-testbed",
+      "target": "tweekmonster/ubuntu-vims",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Vimjas/vim-testbed",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vimjas/vim-testbed",
+      "target": "dockerfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vimjas/vim-testbed",
+      "target": "test-automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vimjas/vim-testbed",
+      "target": "testing-tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T07:18:11.519725+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4122
+    },
+    {
+      "path": "Dockerfile",
+      "size": 670
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2129
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Docker image for testing Vim plugins",
+    "fork": false,
+    "full_name": "Vimjas/vim-testbed",
+    "html_url": "https://github.com/Vimjas/vim-testbed",
+    "language": "Shell",
+    "pushed_at": "2023-10-01T03:22:03Z",
+    "stargazers_count": 43,
+    "topics": [
+      "dockerfile",
+      "test-automation",
+      "testing-tools",
+      "vim"
+    ],
+    "updated_at": "2024-12-01T04:32:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tweekmonster/ubuntu-vims",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://github.com/Vimjas/vim-testbed/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/Vimjas/vim-testbed/actions?query=branch%3Amaster+event%3Apush)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dockerfile"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/Vimjas/vim-testbed/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/Vimjas/vim-testbed/actions?query=branch%3Amaster+event%3Apush)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-automation"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/Vimjas/vim-testbed/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/Vimjas/vim-testbed/actions?query=branch%3Amaster+event%3Apush)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing-tools"
+    }
+  ]
+}

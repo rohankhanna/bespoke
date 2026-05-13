@@ -163,6 +163,18 @@
       "source_repo": "devnen/Kitten-TTS-Server",
       "status": "candidate-context",
       "text": "**Self-host the ultra-lightweight [KittenTTS model](https://github.com/KittenML/KittenTTS) with this enhanced API server. Now supports all 7 KittenTTS models \u2014 from the tiny 15M Nano to the 80M Mini \u2014 with hot-swappable model switching, an intuitive Web UI, a flexible API, large\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/BigVGAN",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of BigVGAN (ICLR 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/BigVGAN",
+      "status": "candidate-context",
+      "text": "[[Paper]](https://arxiv.org/abs/2206.04658) - [[Code]](https://github.com/NVIDIA/BigVGAN) - [[Showcase]](https://bigvgan-demo.github.io/) - [[Project Page]](https://research.nvidia.com/labs/adlr/projects/bigvgan/) - [[Weights]](https://huggingface.co/collections/nvidia/bigvgan-6\u2026"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "devnen/Kitten-TTS-Server",
       "status": "candidate",
       "text": "**Self-host the ultra-lightweight [KittenTTS model](https://github.com/KittenML/KittenTTS) with this enhanced API server. Now supports all 7 KittenTTS models \u2014 from the tiny 15M Nano to the 80M Mini \u2014 with hot-swappable model switching, an intuitive Web UI, a flexible API, large\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/BigVGAN",
+      "status": "candidate",
+      "text": "[[Paper]](https://arxiv.org/abs/2206.04658) - [[Code]](https://github.com/NVIDIA/BigVGAN) - [[Showcase]](https://bigvgan-demo.github.io/) - [[Project Page]](https://research.nvidia.com/labs/adlr/projects/bigvgan/) - [[Weights]](https://huggingface.co/collections/nvidia/bigvgan-6\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -742,11 +760,29 @@
       "observed_at": "2026-05-13T00:41:47.952744+00:00",
       "source_file": null,
       "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/BigVGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunCodec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

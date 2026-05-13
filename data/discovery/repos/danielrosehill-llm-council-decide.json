@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/LLM-Council-Decide",
+      "target": "danielrosehill/llm-council-projects",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/LLM-Council-Decide",
+      "target": "danielrosehill/llm-council-homehunter",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-13T08:13:14.156888+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7407
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 434
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LLM council that evaluates a user-presented decision through a panel of formal decision-making frameworks \u2014 pros/cons, weighted matrix, pre-mortem, 10/10/10, SWOT, Six Hats, WRAP \u2014 with a Chairman synthesis",
+    "fork": false,
+    "full_name": "danielrosehill/LLM-Council-Decide",
+    "html_url": "https://github.com/danielrosehill/LLM-Council-Decide",
+    "language": "Python",
+    "pushed_at": "2026-04-23T10:25:30Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-23T10:25:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/llm-council-homehunter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/llm-council-projects",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

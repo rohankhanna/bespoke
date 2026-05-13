@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "substack"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "06ketan/substack-ops",
+      "status": "candidate-context",
+      "text": "Standalone Substack CLI + 26-tool MCP server. Your IDE drafts the replies. Zero AI API keys."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "06ketan/substack-ops",
+      "status": "candidate-context",
+      "text": "<!-- mcp-name: io.github.06ketan/substack-ops -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "06ketan/substack-ops",
+      "status": "candidate",
+      "text": "<!-- mcp-name: io.github.06ketan/substack-ops -->"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023063,
+      "status": "candidate",
+      "text": "superstack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023062,
+      "status": "candidate",
+      "text": "stack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023061,
+      "status": "candidate",
+      "text": "subitemset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023060,
+      "status": "candidate",
+      "text": "subscheme"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023059,
+      "status": "candidate",
+      "text": "subboset"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "substack",
+  "concept_id": "substack",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "06ketan/substack-ops"
+    }
+  ],
+  "first_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "substack",
+      "sense_id": "substack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

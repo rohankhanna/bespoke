@@ -139,6 +139,18 @@
       "source_repo": "r9y9/nnmnkwii",
       "status": "candidate-context",
       "text": "![alt text](assets/logo_wide.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hayeong0/Diff-HierVC",
+      "status": "candidate-context",
+      "text": "Official Pytorch Implementation of \"Diff-HierVC: Diffusion-based Hierarchical Voice Conversion with Robust Pitch Generation and Masked Prior for Zero-shot Speaker Adaptation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hayeong0/Diff-HierVC",
+      "status": "candidate-context",
+      "text": "The official Pytorch implementation of Diff-HierVC (Interspeeh 2023, Oral)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "r9y9/nnmnkwii",
       "status": "candidate",
       "text": "![alt text](assets/logo_wide.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hayeong0/Diff-HierVC",
+      "status": "candidate",
+      "text": "The official Pytorch implementation of Diff-HierVC (Interspeeh 2023, Oral)"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +298,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "r9y9/nnmnkwii"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "hayeong0/Diff-HierVC"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

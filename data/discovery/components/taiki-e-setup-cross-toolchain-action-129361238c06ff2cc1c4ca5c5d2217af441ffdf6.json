@@ -1,0 +1,12 @@
+{
+  "component": "taiki-e/setup-cross-toolchain-action@129361238c06ff2cc1c4ca5c5d2217af441ffdf6",
+  "first_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yaml",
+      "source_repo": "reubeno/brush"
+    }
+  ]
+}

@@ -472,6 +472,18 @@
       "source_repo": "webview2/EdgeSharp.Samples",
       "status": "candidate-context",
       "text": "Samples of how EdgeSharp libraries can be used"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsidianmd/obsidian-clipper",
+      "status": "candidate-context",
+      "text": "Highlight and capture the web in your favorite browser. The official Web Clipper extension for Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidianmd/obsidian-clipper",
+      "status": "candidate-context",
+      "text": "Obsidian Web Clipper helps you highlight and capture the web in your favorite browser. Anything you save is stored as durable Markdown files that you can read offline, and preserve for the long term."
     }
   ],
   "candidate_glosses": [
@@ -708,6 +720,12 @@
       "source_repo": "webview2/EdgeSharp.Samples",
       "status": "candidate",
       "text": "Samples of how EdgeSharp libraries can be used"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidianmd/obsidian-clipper",
+      "status": "candidate",
+      "text": "Obsidian Web Clipper helps you highlight and capture the web in your favorite browser. Anything you save is stored as durable Markdown files that you can read offline, and preserve for the long term."
     }
   ],
   "candidate_related_terms": [
@@ -1833,11 +1851,47 @@
       "observed_at": "2026-05-13T00:41:47.952744+00:00",
       "source_file": null,
       "source_repo": "browserslist/map-to-chrome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "obsidianmd/obsidian-clipper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp.Samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "clj-commons/etaoin"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

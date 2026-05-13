@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -326,6 +326,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "RooCodeInc/Roo-Code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "reubeno/brush"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Zoo-Code-Org/Zoo-Code"
     }
   ],
   "term": "CodeQL Advanced"

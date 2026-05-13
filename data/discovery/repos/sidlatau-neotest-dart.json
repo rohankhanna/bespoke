@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sidlatau/neotest-dart",
+      "target": "rcarriga/neotest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sidlatau/neotest-dart",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sidlatau/neotest-dart",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sidlatau/neotest-dart",
+      "target": "JohnnyMorganz/stylua-action@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-13T09:39:08.390147+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2389
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 577
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "sidlatau/neotest-dart",
+    "html_url": "https://github.com/sidlatau/neotest-dart",
+    "language": "Lua",
+    "pushed_at": "2026-05-03T19:41:20Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2026-05-03T19:41:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rcarriga/neotest",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

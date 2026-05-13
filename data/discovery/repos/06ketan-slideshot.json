@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/visual-diff.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/visual-diff.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/visual-diff.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "06ketan/slideshot",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "06ketan/slideshot",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "06ketan/slideshot",
+      "target": "Publish to npm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/visual-diff.yml",
+      "source_repo": "06ketan/slideshot",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/visual-diff.yml",
+      "source_repo": "06ketan/slideshot",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/visual-diff.yml",
+      "source_repo": "06ketan/slideshot",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/visual-diff.yml",
+      "source_repo": "06ketan/slideshot",
+      "target": "Visual diff gauntlet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T08:14:12.172669+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5988
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1535
+    },
+    {
+      "path": "package.json",
+      "size": 292
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 8252
+    },
+    {
+      "path": ".github/workflows/visual-diff.yml",
+      "size": 2292
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Convert HTML slides to high-res PNG, WebP, and PDF \u2014 CLI, Web App, MCP Server",
+    "fork": false,
+    "full_name": "06ketan/slideshot",
+    "html_url": "https://github.com/06ketan/slideshot",
+    "language": "TypeScript",
+    "pushed_at": "2026-05-03T07:08:07Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-05-03T07:08:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to npm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to npm"
+    },
+    {
+      "context_snippet": "Visual diff gauntlet",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/visual-diff.yml",
+      "term": "Visual diff gauntlet"
+    }
+  ]
+}

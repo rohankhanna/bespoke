@@ -568,7 +568,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T03:11:45.185412+00:00",
+  "fetched_at": "2026-05-13T08:42:13.438662+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -620,7 +620,7 @@
     "full_name": "dotnet/Silk.NET",
     "html_url": "https://github.com/dotnet/Silk.NET",
     "language": "C#",
-    "pushed_at": "2026-05-12T23:09:19Z",
+    "pushed_at": "2026-05-13T07:03:21Z",
     "stargazers_count": 5037,
     "topics": [
       "3d",

@@ -19,12 +19,30 @@
       "source_repo": "EpicenterHQ/epicenter",
       "status": "candidate-context",
       "text": "Deploy to Cloudflare Workers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FxEmbed/FxEmbed",
+      "status": "candidate-context",
+      "text": "Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FxEmbed/FxEmbed",
+      "status": "candidate-context",
+      "text": "Deploy to Cloudflare Workers"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "EpicenterHQ/epicenter",
+      "status": "candidate",
+      "text": "Deploy to Cloudflare Workers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FxEmbed/FxEmbed",
       "status": "candidate",
       "text": "Deploy to Cloudflare Workers"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/deploy.cloudflare.yml",
       "source_repo": "EpicenterHQ/epicenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "FxEmbed/FxEmbed"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

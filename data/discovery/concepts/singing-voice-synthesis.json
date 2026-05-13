@@ -43,6 +43,30 @@
       "source_repo": "PlayVoice/VI-SVS",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MoonInTheRiver/NeuralSVB",
+      "status": "candidate-context",
+      "text": "Learning the Beauty in Songs: Neural Singing Voice Beautifier; ACL 2022 (Main conference); Official code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MoonInTheRiver/NeuralSVB",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/BigVGAN",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of BigVGAN (ICLR 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/BigVGAN",
+      "status": "candidate-context",
+      "text": "[[Paper]](https://arxiv.org/abs/2206.04658) - [[Code]](https://github.com/NVIDIA/BigVGAN) - [[Showcase]](https://bigvgan-demo.github.io/) - [[Project Page]](https://research.nvidia.com/labs/adlr/projects/bigvgan/) - [[Weights]](https://huggingface.co/collections/nvidia/bigvgan-6\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "PlayVoice/VI-SVS",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MoonInTheRiver/NeuralSVB",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/BigVGAN",
+      "status": "candidate",
+      "text": "[[Paper]](https://arxiv.org/abs/2206.04658) - [[Code]](https://github.com/NVIDIA/BigVGAN) - [[Showcase]](https://bigvgan-demo.github.io/) - [[Project Page]](https://research.nvidia.com/labs/adlr/projects/bigvgan/) - [[Weights]](https://huggingface.co/collections/nvidia/bigvgan-6\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,29 @@
       "observed_at": "2026-05-13T00:41:47.952744+00:00",
       "source_file": null,
       "source_repo": "PlayVoice/VI-SVS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "MoonInTheRiver/NeuralSVB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/BigVGAN"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

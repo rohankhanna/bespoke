@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/LLM-Council-Decide",
+      "target": "danielrosehill/llm-council-projects",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/LLM-Council-Decide",
+      "target": "danielrosehill/llm-council-homehunter",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-13T07:12:28.410129+00:00",
+  "source_repo": "danielrosehill/LLM-Council-Decide"
+}

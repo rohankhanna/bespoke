@@ -1,12 +1,17 @@
 {
   "component": "@parcel/reporter-bundle-analyzer",
   "first_seen_at": "2026-05-13T00:41:47.952744+00:00",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "jasonlong/isometric-contributions"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Qiuner/isometric-contributions-plus"
     }
   ]
 }

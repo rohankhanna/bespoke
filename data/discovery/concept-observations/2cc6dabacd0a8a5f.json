@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u6d4f\u89c8\u5668\u6269\u5c55\uff0c\u5728\u5c06\u8d21\u732e\u56fe\u8f6c\u5316\u4e3a 3D \u89c6\u56fe\u3002\u6b64\u5916\u8fd8\u6709\u4e2d\u6587/\u82f1\u6587\u5207\u6362\u4e0e\u81ea\u5b9a\u4e49\u914d\u8272\u529f\u80fd\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Node.js CI](https://github.com/jasonlong/isometric-contributions/workflows/Node.js%20CI/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Node.js CI](https://github.com/jasonlong/isometric-contributions/workflows/Node.js%20CI/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "3d-visualization",
+      "sense_id": "3d-visualization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "3d-visualization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "3d-visualization",
+  "observation_id": "2cc6dabacd0a8a5f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-13T07:12:28.410129+00:00",
+  "observed_text": "3d-visualization",
+  "source_context_snippet": "![Node.js CI](https://github.com/jasonlong/isometric-contributions/workflows/Node.js%20CI/badge.svg)",
+  "source_file": null,
+  "source_repo": "Qiuner/isometric-contributions-plus",
+  "source_repo_description": "\u6d4f\u89c8\u5668\u6269\u5c55\uff0c\u5728\u5c06\u8d21\u732e\u56fe\u8f6c\u5316\u4e3a 3D \u89c6\u56fe\u3002\u6b64\u5916\u8fd8\u6709\u4e2d\u6587/\u82f1\u6587\u5207\u6362\u4e0e\u81ea\u5b9a\u4e49\u914d\u8272\u529f\u80fd\u3002"
+}

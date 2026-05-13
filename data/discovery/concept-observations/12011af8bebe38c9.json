@@ -84,7 +84,7 @@
   "normalized_form": "validate-azd-template",
   "observation_id": "12011af8bebe38c9",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-13T00:41:47.952744+00:00",
+  "observed_at": "2026-05-13T07:12:28.410129+00:00",
   "observed_text": "Validate AZD template",
   "source_context_snippet": "Validate AZD template",
   "source_file": ".github/workflows/azure-dev-validation.yaml",

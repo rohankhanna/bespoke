@@ -1,0 +1,12 @@
+{
+  "component": "Homebrew/actions/setup-homebrew@b04401e20b1aef21843d7c3e261d27a89f65af7d",
+  "first_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "reubeno/brush"
+    }
+  ]
+}

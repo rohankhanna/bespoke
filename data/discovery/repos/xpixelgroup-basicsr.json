@@ -241,7 +241,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T03:28:49.027419+00:00",
+  "fetched_at": "2026-05-13T09:25:53.447552+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -274,7 +274,7 @@
     "html_url": "https://github.com/XPixelGroup/BasicSR",
     "language": "Python",
     "pushed_at": "2024-07-21T04:16:22Z",
-    "stargazers_count": 8262,
+    "stargazers_count": 8263,
     "topics": [
       "basicsr",
       "basicvsr",
@@ -292,7 +292,7 @@
       "super-resolution",
       "swinir"
     ],
-    "updated_at": "2026-05-12T10:58:10Z"
+    "updated_at": "2026-05-13T04:10:21Z"
   },
   "repo_links": [
     {

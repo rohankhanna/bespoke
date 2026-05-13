@@ -18,14 +18,14 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "skilld-dev/skilld",
-      "target": "@huggingface/transformers",
+      "target": "@earendil-works/pi-ai",
       "target_type": "component"
     },
     {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "skilld-dev/skilld",
-      "target": "@mariozechner/pi-ai",
+      "target": "@huggingface/transformers",
       "target_type": "component"
     },
     {
@@ -81,42 +81,7 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "skilld-dev/skilld",
-      "target": "mdast-util-from-markdown",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "skilld-dev/skilld",
-      "target": "mdast-util-frontmatter",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "skilld-dev/skilld",
-      "target": "mdast-util-to-string",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "skilld-dev/skilld",
       "target": "mdream",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "skilld-dev/skilld",
-      "target": "micromark-extension-frontmatter",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "skilld-dev/skilld",
-      "target": "mlly",
       "target_type": "component"
     },
     {
@@ -179,13 +144,6 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "skilld-dev/skilld",
-      "target": "tinyglobby",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "skilld-dev/skilld",
       "target": "typebox",
       "target_type": "component"
     },
@@ -201,13 +159,6 @@
       "source_file": "package.json",
       "source_repo": "skilld-dev/skilld",
       "target": "unagent",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "skilld-dev/skilld",
-      "target": "unist-util-visit",
       "target_type": "component"
     },
     {
@@ -323,6 +274,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-13T00:41:47.952744+00:00",
+  "generated_at": "2026-05-13T07:12:28.410129+00:00",
   "source_repo": "skilld-dev/skilld"
 }

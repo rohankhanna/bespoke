@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Standalone Substack CLI + 26-tool MCP server. Your IDE drafts the replies. Zero AI API keys."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- mcp-name: io.github.06ketan/substack-ops -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- mcp-name: io.github.06ketan/substack-ops -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mcp-server",
+      "sense_id": "mcp-server#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mcp-server",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mcp-server",
+  "observation_id": "cc759779d31152c1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-13T07:12:28.410129+00:00",
+  "observed_text": "mcp-server",
+  "source_context_snippet": "<!-- mcp-name: io.github.06ketan/substack-ops -->",
+  "source_file": null,
+  "source_repo": "06ketan/substack-ops",
+  "source_repo_description": "Standalone Substack CLI + 26-tool MCP server. Your IDE drafts the replies. Zero AI API keys."
+}

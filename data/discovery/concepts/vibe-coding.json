@@ -115,6 +115,18 @@
       "source_repo": "4ian/GDevelop",
       "status": "candidate-context",
       "text": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xDAEF0F/job-searchoor",
+      "status": "candidate-context",
+      "text": "A simple MCP server that delivers you jobs based on your needs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xDAEF0F/job-searchoor",
+      "status": "candidate-context",
+      "text": "[![Twitter Follow](https://img.shields.io/twitter/follow/Alex?style=social)](https://x.com/0xdaef0f)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "4ian/GDevelop",
       "status": "candidate",
       "text": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xDAEF0F/job-searchoor",
+      "status": "candidate",
+      "text": "[![Twitter Follow](https://img.shields.io/twitter/follow/Alex?style=social)](https://x.com/0xdaef0f)"
     }
   ],
   "candidate_related_terms": [],
@@ -238,11 +256,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "4ian/GDevelop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "0xDAEF0F/job-searchoor"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

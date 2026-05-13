@@ -19,12 +19,30 @@
       "source_repo": "RooCodeInc/Roo-Code",
       "status": "candidate-context",
       "text": "Code QA Roo Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zoo-Code-Org/Zoo-Code",
+      "status": "candidate-context",
+      "text": "Zoo Code gives you a whole dev team of AI agents in your code editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zoo-Code-Org/Zoo-Code",
+      "status": "candidate-context",
+      "text": "Code QA Roo Code"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "RooCodeInc/Roo-Code",
+      "status": "candidate",
+      "text": "Code QA Roo Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zoo-Code-Org/Zoo-Code",
       "status": "candidate",
       "text": "Code QA Roo Code"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-13T00:41:47.952744+00:00",
       "source_file": ".github/workflows/code-qa.yml",
       "source_repo": "RooCodeInc/Roo-Code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": ".github/workflows/code-qa.yml",
+      "source_repo": "Zoo-Code-Org/Zoo-Code"
     }
   ],
   "first_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

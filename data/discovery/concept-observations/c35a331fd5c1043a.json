@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc1abash/POSIX-compatible shell implemented in Rust \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "posix-shell",
+      "sense_id": "posix-shell#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "posix-shell",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "posix-shell",
+  "observation_id": "c35a331fd5c1043a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-13T07:12:28.410129+00:00",
+  "observed_text": "posix-shell",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "reubeno/brush",
+  "source_repo_description": "\ud83d\udc1abash/POSIX-compatible shell implemented in Rust \ud83e\udd80"
+}

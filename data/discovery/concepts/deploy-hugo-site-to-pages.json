@@ -31,6 +31,18 @@
       "source_repo": "oracle-quickstart/oci-o11y-solutions",
       "status": "candidate-context",
       "text": "Deploy Hugo site to Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JavaHello/javahello.github.io",
+      "status": "candidate-context",
+      "text": "\u4e3b\u9875"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JavaHello/javahello.github.io",
+      "status": "candidate-context",
+      "text": "Deploy Hugo site to Pages"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "oracle-quickstart/oci-o11y-solutions",
+      "status": "candidate",
+      "text": "Deploy Hugo site to Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JavaHello/javahello.github.io",
       "status": "candidate",
       "text": "Deploy Hugo site to Pages"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": ".github/workflows/hugo.yml",
       "source_repo": "oracle-quickstart/oci-o11y-solutions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": ".github/workflows/hugo.yaml",
+      "source_repo": "JavaHello/javahello.github.io"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

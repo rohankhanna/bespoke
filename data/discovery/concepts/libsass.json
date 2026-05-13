@@ -43,6 +43,18 @@
       "source_repo": "Taritsyn/LibSassHost",
       "status": "candidate-context",
       "text": "LibSass Host for .NET [![NuGet version](https://img.shields.io/nuget/v/LibSassHost.svg)](https://www.nuget.org/packages/LibSassHost/) [![Download count](https://img.shields.io/nuget/dt/LibSassHost.svg)](https://www.nuget.org/packages/LibSassHost/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sass/sass-spec",
+      "status": "candidate-context",
+      "text": "Official Sass Spec Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sass/sass-spec",
+      "status": "candidate-context",
+      "text": "* [Language Specs](#language-specs)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "Taritsyn/LibSassHost",
       "status": "candidate",
       "text": "LibSass Host for .NET [![NuGet version](https://img.shields.io/nuget/v/LibSassHost.svg)](https://www.nuget.org/packages/LibSassHost/) [![Download count](https://img.shields.io/nuget/dt/LibSassHost.svg)](https://www.nuget.org/packages/LibSassHost/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sass/sass-spec",
+      "status": "candidate",
+      "text": "* [Language Specs](#language-specs)"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +112,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "Taritsyn/LibSassHost"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "sass/sass-spec"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

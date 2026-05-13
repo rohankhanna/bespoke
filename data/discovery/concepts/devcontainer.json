@@ -70,6 +70,18 @@
       "source_repo": "kyverno/kyverno",
       "status": "candidate-context",
       "text": "Devcontainer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reubeno/brush",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1abash/POSIX-compatible shell implemented in Rust \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reubeno/brush",
+      "status": "candidate-context",
+      "text": "\"Devcontainer\""
     }
   ],
   "candidate_glosses": [
@@ -102,6 +114,12 @@
       "source_repo": "kyverno/kyverno",
       "status": "candidate",
       "text": "Devcontainer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reubeno/brush",
+      "status": "candidate",
+      "text": "\"Devcontainer\""
     }
   ],
   "candidate_related_terms": [],
@@ -139,11 +157,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/check-devcontainer.yaml",
       "source_repo": "kyverno/kyverno"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": ".github/workflows/devcontainer.yaml",
+      "source_repo": "reubeno/brush"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

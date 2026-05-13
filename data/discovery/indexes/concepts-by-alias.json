@@ -314,6 +314,9 @@
   "3d-vision": [
     "3d-vision"
   ],
+  "3d-visualization": [
+    "3d-visualization"
+  ],
   "3d-whole-body-pose-estimation": [
     "3d-whole-body-pose-estimation"
   ],
@@ -2246,6 +2249,9 @@
   ],
   "ai-text-to-speech": [
     "ai-text-to-speech"
+  ],
+  "ai-tooling": [
+    "ai-tooling"
   ],
   "ai-toolkit": [
     "ai-toolkit"
@@ -22703,6 +22709,9 @@
   "commit checks": [
     "commit-checks"
   ],
+  "commit constraint updates": [
+    "commit-constraint-updates"
+  ],
   "commit generated c# code": [
     "commit-generated-c-code"
   ],
@@ -24205,6 +24214,9 @@
   ],
   "contribution-graph": [
     "contribution-graph"
+  ],
+  "contribution-graph-isometric": [
+    "contribution-graph-isometric"
   ],
   "contributions": [
     "contributions"
@@ -28742,6 +28754,9 @@
   "dependabot combine prs": [
     "dependabot-combine-prs"
   ],
+  "dependabot constraint-dependencies": [
+    "dependabot-constraint-dependencies"
+  ],
   "dependabot enable auto merge": [
     "dependabot-enable-auto-merge"
   ],
@@ -30413,6 +30428,9 @@
   "diffsinger": [
     "diffsinger"
   ],
+  "diffspeech": [
+    "diffspeech"
+  ],
   "diffusers": [
     "diffusers"
   ],
@@ -30436,6 +30454,9 @@
   ],
   "diffusion-transformers": [
     "diffusion-transformers"
+  ],
+  "diffwave": [
+    "diffwave"
   ],
   "dify": [
     "dify"
@@ -33175,6 +33196,9 @@
   ],
   "e2e tests (in-cluster runner)": [
     "e2e-tests-in-cluster-runner"
+  ],
+  "e2e tests (mocked)": [
+    "e2e-tests-mocked"
   ],
   "e2e tests - license exceptions site": [
     "e2e-tests---license-exceptions-site"
@@ -60118,6 +60142,9 @@
   "neural-search": [
     "neural-search"
   ],
+  "neural-tts": [
+    "neural-tts"
+  ],
   "neural-vocoder": [
     "neural-vocoder"
   ],
@@ -66942,6 +66969,9 @@
   "portal-network": [
     "portal-network"
   ],
+  "portaspeech": [
+    "portaspeech"
+  ],
   "portfolio": [
     "portfolio"
   ],
@@ -67037,6 +67067,9 @@
   ],
   "posix-sh": [
     "posix-sh"
+  ],
+  "posix-shell": [
+    "posix-shell"
   ],
   "post": [
     "post"
@@ -70200,6 +70233,9 @@
   "publish pre-release": [
     "publish-pre-release"
   ],
+  "publish pre-release extension": [
+    "publish-pre-release-extension"
+  ],
   "publish prerelease npm": [
     "publish-prerelease-npm"
   ],
@@ -70385,6 +70421,9 @@
   ],
   "publish stable": [
     "publish-stable"
+  ],
+  "publish stable extension": [
+    "publish-stable-extension"
   ],
   "publish stable source archive": [
     "publish-stable-source-archive"
@@ -81102,6 +81141,9 @@
   "singing-voice": [
     "singing-voice"
   ],
+  "singing-voice-conversion": [
+    "singing-voice-conversion"
+  ],
   "singing-voice-database": [
     "singing-voice-database"
   ],
@@ -84736,6 +84778,9 @@
   ],
   "subsonic-server": [
     "subsonic-server"
+  ],
+  "substack": [
+    "substack"
   ],
   "substitution": [
     "substitution"
@@ -90946,11 +90991,20 @@
   "turn-client": [
     "turn-client"
   ],
+  "turn-detection": [
+    "turn-detection"
+  ],
+  "turn-detector": [
+    "turn-detector"
+  ],
   "turn-server": [
     "turn-server"
   ],
   "turn-servers": [
     "turn-servers"
+  ],
+  "turn-taking": [
+    "turn-taking"
   ],
   "turnstile": [
     "turnstile"
@@ -95548,6 +95602,9 @@
   ],
   "visual c++": [
     "visual-c"
+  ],
+  "visual diff gauntlet": [
+    "visual-diff-gauntlet"
   ],
   "visual regression comment": [
     "visual-regression-comment"

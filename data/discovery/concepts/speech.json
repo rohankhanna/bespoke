@@ -439,6 +439,30 @@
       "source_repo": "AIGC-Audio/AudioGPT",
       "status": "candidate-context",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2304.12995)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmnt-com/diffwave",
+      "status": "candidate-context",
+      "text": "DiffWave is a fast, high-quality neural vocoder and waveform synthesizer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmnt-com/diffwave",
+      "status": "candidate-context",
+      "text": "![PyPI Release](https://img.shields.io/pypi/v/diffwave?label=release) [![License](https://img.shields.io/github/license/lmnt-com/diffwave)](https://github.com/lmnt-com/diffwave/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NATSpeech/NATSpeech",
+      "status": "candidate-context",
+      "text": "A Non-Autoregressive Text-to-Speech (NAR-TTS) framework, including official PyTorch implementation of PortaSpeech (NeurIPS 2021) and DiffSpeech (AAAI 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NATSpeech/NATSpeech",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -657,6 +681,18 @@
       "source_repo": "AIGC-Audio/AudioGPT",
       "status": "candidate",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2304.12995)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmnt-com/diffwave",
+      "status": "candidate",
+      "text": "![PyPI Release](https://img.shields.io/pypi/v/diffwave?label=release) [![License](https://img.shields.io/github/license/lmnt-com/diffwave)](https://github.com/lmnt-com/diffwave/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NATSpeech/NATSpeech",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1144,11 +1180,29 @@
       "observed_at": "2026-05-13T00:41:47.952744+00:00",
       "source_file": null,
       "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "lmnt-com/diffwave"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "NATSpeech/NATSpeech"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "DemisEom/SpecAugment"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

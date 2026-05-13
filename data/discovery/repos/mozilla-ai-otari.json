@@ -288,11 +288,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T02:57:28.228251+00:00",
+  "fetched_at": "2026-05-13T08:31:42.485428+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 4322
+      "size": 4102
     },
     {
       "path": "Dockerfile",
@@ -332,14 +332,14 @@
     "full_name": "mozilla-ai/otari",
     "html_url": "https://github.com/mozilla-ai/otari",
     "language": "Python",
-    "pushed_at": "2026-05-11T21:15:29Z",
+    "pushed_at": "2026-05-13T08:30:06Z",
     "stargazers_count": 6,
     "topics": [
       "ai",
       "gateway",
       "llm"
     ],
-    "updated_at": "2026-05-12T17:37:45Z"
+    "updated_at": "2026-05-13T08:30:15Z"
   },
   "repo_links": [
     {
@@ -380,7 +380,7 @@
       "term": "Gateway Typecheck"
     },
     {
-      "context_snippet": "<p align=\"center\">",
+      "context_snippet": "[![Tests](https://github.com/mozilla-ai/gateway/actions/workflows/gateway-tests.yml/badge.svg)](https://github.com/mozilla-ai/gateway/actions/workflows/gateway-tests.yml)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gateway"

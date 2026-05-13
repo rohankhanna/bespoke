@@ -175,6 +175,18 @@
       "source_repo": "layumi/Vehicle_reID-Collection",
       "status": "candidate-context",
       "text": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmnt-com/diffwave",
+      "status": "candidate-context",
+      "text": "DiffWave is a fast, high-quality neural vocoder and waveform synthesizer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmnt-com/diffwave",
+      "status": "candidate-context",
+      "text": "![PyPI Release](https://img.shields.io/pypi/v/diffwave?label=release) [![License](https://img.shields.io/github/license/lmnt-com/diffwave)](https://github.com/lmnt-com/diffwave/blob/master/LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "layumi/Vehicle_reID-Collection",
       "status": "candidate",
       "text": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmnt-com/diffwave",
+      "status": "candidate",
+      "text": "![PyPI Release](https://img.shields.io/pypi/v/diffwave?label=release) [![License](https://img.shields.io/github/license/lmnt-com/diffwave)](https://github.com/lmnt-com/diffwave/blob/master/LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -424,11 +442,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "layumi/Vehicle_reID-Collection"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "lmnt-com/diffwave"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

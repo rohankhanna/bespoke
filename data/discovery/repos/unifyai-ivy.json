@@ -260,7 +260,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T02:59:14.733584+00:00",
+  "fetched_at": "2026-05-13T08:32:54.140809+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -313,7 +313,7 @@
     "html_url": "https://github.com/unifyai/ivy",
     "language": "Python",
     "pushed_at": "2026-02-07T22:20:29Z",
-    "stargazers_count": 14191,
+    "stargazers_count": 14192,
     "topics": [
       "jax",
       "numpy",
@@ -321,7 +321,7 @@
       "pytorch",
       "tensorflow"
     ],
-    "updated_at": "2026-05-13T00:56:10Z"
+    "updated_at": "2026-05-13T06:27:36Z"
   },
   "repo_links": [
     {

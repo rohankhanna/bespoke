@@ -55,6 +55,18 @@
       "source_repo": "brave/brave-browser",
       "status": "candidate-context",
       "text": "This repository is not needed for building the browser and only holds issues, releases and the wiki. The source code and contributions are at https://github.com/brave/brave-core."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsidianmd/obsidian-clipper",
+      "status": "candidate-context",
+      "text": "Highlight and capture the web in your favorite browser. The official Web Clipper extension for Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidianmd/obsidian-clipper",
+      "status": "candidate-context",
+      "text": "Obsidian Web Clipper helps you highlight and capture the web in your favorite browser. Anything you save is stored as durable Markdown files that you can read offline, and preserve for the long term."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "brave/brave-browser",
       "status": "candidate",
       "text": "This repository is not needed for building the browser and only holds issues, releases and the wiki. The source code and contributions are at https://github.com/brave/brave-core."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidianmd/obsidian-clipper",
+      "status": "candidate",
+      "text": "Obsidian Web Clipper helps you highlight and capture the web in your favorite browser. Anything you save is stored as durable Markdown files that you can read offline, and preserve for the long term."
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +202,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "brave/brave-browser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "obsidianmd/obsidian-clipper"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

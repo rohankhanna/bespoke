@@ -1,0 +1,214 @@
+{
+  "components": [
+    {
+      "component": "lodash-es",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@parcel/config-webextension",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@parcel/reporter-bundle-analyzer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@parcel/reporter-bundle-buddy",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chrome-webstore-upload-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "parcel",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "web-ext-submit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Qiuner/isometric-contributions-plus",
+      "target": "nosir/obelisk.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Qiuner/isometric-contributions-plus",
+      "target": "lodash-es",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Qiuner/isometric-contributions-plus",
+      "target": "@parcel/config-webextension",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Qiuner/isometric-contributions-plus",
+      "target": "@parcel/reporter-bundle-analyzer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Qiuner/isometric-contributions-plus",
+      "target": "@parcel/reporter-bundle-buddy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Qiuner/isometric-contributions-plus",
+      "target": "chrome-webstore-upload-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Qiuner/isometric-contributions-plus",
+      "target": "parcel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Qiuner/isometric-contributions-plus",
+      "target": "web-ext-submit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Qiuner/isometric-contributions-plus",
+      "target": "xo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Qiuner/isometric-contributions-plus",
+      "target": "3d-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Qiuner/isometric-contributions-plus",
+      "target": "browser-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Qiuner/isometric-contributions-plus",
+      "target": "contribution-graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Qiuner/isometric-contributions-plus",
+      "target": "contribution-graph-isometric",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Qiuner/isometric-contributions-plus",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T08:13:36.159454+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2956
+    },
+    {
+      "path": "package.json",
+      "size": 1416
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u6d4f\u89c8\u5668\u6269\u5c55\uff0c\u5728\u5c06\u8d21\u732e\u56fe\u8f6c\u5316\u4e3a 3D \u89c6\u56fe\u3002\u6b64\u5916\u8fd8\u6709\u4e2d\u6587/\u82f1\u6587\u5207\u6362\u4e0e\u81ea\u5b9a\u4e49\u914d\u8272\u529f\u80fd\u3002",
+    "fork": false,
+    "full_name": "Qiuner/isometric-contributions-plus",
+    "html_url": "https://github.com/Qiuner/isometric-contributions-plus",
+    "language": "JavaScript",
+    "pushed_at": "2025-12-24T11:08:27Z",
+    "stargazers_count": 7,
+    "topics": [
+      "3d-visualization",
+      "browser-extension",
+      "contribution-graph",
+      "contribution-graph-isometric",
+      "visualization"
+    ],
+    "updated_at": "2026-04-13T01:00:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nosir/obelisk.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Node.js CI](https://github.com/jasonlong/isometric-contributions/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-visualization"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/jasonlong/isometric-contributions/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser-extension"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/jasonlong/isometric-contributions/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contribution-graph"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/jasonlong/isometric-contributions/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contribution-graph-isometric"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/jasonlong/isometric-contributions/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

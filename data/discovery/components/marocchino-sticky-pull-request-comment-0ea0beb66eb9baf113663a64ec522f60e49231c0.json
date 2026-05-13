@@ -1,7 +1,7 @@
 {
   "component": "marocchino/sticky-pull-request-comment@0ea0beb66eb9baf113663a64ec522f60e49231c0",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/plan.yml",
       "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-reports.yaml",
+      "source_repo": "reubeno/brush"
     }
   ]
 }

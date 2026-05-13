@@ -8,13 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "QuantumNous/new-api",
-      "target": "calcium-ion/new-api-key-tool",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker-build.yml",
       "source_repo": "QuantumNous/new-api",
@@ -316,6 +309,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-13T00:41:47.952744+00:00",
+  "generated_at": "2026-05-13T07:12:28.410129+00:00",
   "source_repo": "QuantumNous/new-api"
 }

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Docker image for testing Vim plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/Vimjas/vim-testbed/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/Vimjas/vim-testbed/actions?query=branch%3Amaster+event%3Apush)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/Vimjas/vim-testbed/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/Vimjas/vim-testbed/actions?query=branch%3Amaster+event%3Apush)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dockerfile",
+      "sense_id": "dockerfile#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dockerfile",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dockerfile",
+  "observation_id": "4136574a704fc889",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-13T07:12:28.410129+00:00",
+  "observed_text": "dockerfile",
+  "source_context_snippet": "[![Build Status](https://github.com/Vimjas/vim-testbed/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/Vimjas/vim-testbed/actions?query=branch%3Amaster+event%3Apush)",
+  "source_file": null,
+  "source_repo": "Vimjas/vim-testbed",
+  "source_repo_description": "Docker image for testing Vim plugins"
+}

@@ -151,6 +151,18 @@
       "source_repo": "DevExpress/testcafe",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vimjas/vim-testbed",
+      "status": "candidate-context",
+      "text": "Docker image for testing Vim plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vimjas/vim-testbed",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/Vimjas/vim-testbed/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/Vimjas/vim-testbed/actions?query=branch%3Amaster+event%3Apush)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "DevExpress/testcafe",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vimjas/vim-testbed",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/Vimjas/vim-testbed/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/Vimjas/vim-testbed/actions?query=branch%3Amaster+event%3Apush)"
     }
   ],
   "candidate_related_terms": [],
@@ -514,11 +532,23 @@
       "observed_at": "2026-05-13T00:41:47.952744+00:00",
       "source_file": null,
       "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "Vimjas/vim-testbed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T07:12:28.410129+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "lexical_providers": [
     "datamuse"
   ],

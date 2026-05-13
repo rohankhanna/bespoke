@@ -11,14 +11,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-code-linux-notes",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-linux-av-manager-plugin",
+      "target": "danielrosehill/claude-local-web-capture-plugin",
       "target_type": "repository"
     },
     {
@@ -33,6 +26,13 @@
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
       "target": "danielrosehill/claude-code-marketplace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "target": "danielrosehill/claude-local-ai-agent-research",
       "target_type": "repository"
     },
     {
@@ -64,7 +64,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T02:11:02.308342+00:00",
+  "fetched_at": "2026-05-13T08:13:11.867971+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -101,17 +101,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-code-linux-notes",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "danielrosehill/claude-code-marketplace",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-linux-av-manager-plugin",
+      "full_name": "danielrosehill/claude-local-ai-agent-research",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-local-web-capture-plugin",
       "source_file": "README.md"
     }
   ],

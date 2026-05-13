@@ -41,14 +41,12 @@
   "definition_status": "unresolved",
   "discovered_via": "repo-topic",
   "gloss_status": "unresolved",
-  "lexical_providers": [
-    "datamuse"
-  ],
+  "lexical_providers": [],
   "lexical_status": "unresolved",
   "normalized_form": "windows-10",
   "observation_id": "e55b013801a0617c",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-13T00:41:47.952744+00:00",
+  "observed_at": "2026-05-13T07:12:28.410129+00:00",
   "observed_text": "windows-10",
   "source_context_snippet": "> [webi](https://webinstall.dev) is how developers install their tools",
   "source_file": null,
