@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A privacy-first, open-source home assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Gladys dev images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Gladys dev images"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15070,
+      "status": "candidate",
+      "text": "dick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15070,
+      "status": "candidate",
+      "text": "knight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14338,
+      "status": "candidate",
+      "text": "breaking and entering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14338,
+      "status": "candidate",
+      "text": "burglar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14338,
+      "status": "candidate",
+      "text": "burglary"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Gladys dev images",
+      "sense_id": "build-gladys-dev-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-gladys-dev-images",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-gladys-dev-images",
+  "observation_id": "e8b101462886fb7a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-13T18:45:31.430554+00:00",
+  "observed_text": "Build Gladys dev images",
+  "source_context_snippet": "Build Gladys dev images",
+  "source_file": ".github/workflows/docker-dev-build.yml",
+  "source_repo": "GladysAssistant/Gladys",
+  "source_repo_description": "A privacy-first, open-source home assistant"
+}

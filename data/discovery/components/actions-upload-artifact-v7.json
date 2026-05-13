@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -4622,6 +4622,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-test.chip.yml",
       "source_repo": "matter-js/matter.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nushell/nushell"
     }
   ]
 }

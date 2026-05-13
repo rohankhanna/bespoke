@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dead-man monitor"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "status": "candidate-context",
+      "text": "AI Presidential Briefing: Daily knowledge synthesis system with memory layer, LLM council, and LinkedIn post generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "status": "candidate-context",
+      "text": "Dead-man monitor"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "status": "candidate",
+      "text": "Dead-man monitor"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "auditors"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "comptroller"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "controlled"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dead-man monitor",
+  "concept_id": "dead-man-monitor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": ".github/workflows/dead-man.yml",
+      "source_repo": "Aayushm24/presidential-briefing"
+    }
+  ],
+  "first_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dead-man monitor",
+      "sense_id": "dead-man-monitor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

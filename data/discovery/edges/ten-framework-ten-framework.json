@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "TEN-framework/ten-framework",
-      "target": "ten-framework/ten-vad",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "TEN-framework/ten-framework",
       "target": "ten-framework/ten-agent",
       "target_type": "repository"
     },
@@ -246,6 +239,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-13T12:58:22.952944+00:00",
+  "generated_at": "2026-05-13T18:45:31.430554+00:00",
   "source_repo": "TEN-framework/ten-framework"
 }

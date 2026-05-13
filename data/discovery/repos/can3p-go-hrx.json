@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "can3p/go-hrx",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "can3p/go-hrx",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "can3p/go-hrx",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T19:19:36.554379+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 777
+    },
+    {
+      "path": "go.mod",
+      "size": 279
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 575
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hrx format reader in go",
+    "fork": false,
+    "full_name": "can3p/go-hrx",
+    "html_url": "https://github.com/can3p/go-hrx",
+    "language": "Go",
+    "pushed_at": "2024-08-15T22:42:40Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-11-16T16:17:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "test"
+    }
+  ]
+}

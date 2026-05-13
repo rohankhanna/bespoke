@@ -1,0 +1,444 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "anthropics/claude-code-base-action@v0.0.63",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "anthropics/claude-code-base-action@v0.0.63",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "anthropics/claude-code-base-action@v0.0.63",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "anthropics/claude-code-base-action@v0.0.63",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "anthropics/claude-code-base-action@v0.0.63",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dead-man.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkedin-performance.yml"
+    },
+    {
+      "component": "Apify",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkedin-performance.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-readwise.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/redeliver.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-feedback.yml"
+    },
+    {
+      "component": "anthropics/claude-code-base-action@v0.0.63",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-feedback.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-feedback.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "anthropics/claude-code-base-action@v0.0.63",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily-brief.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "Daily Brief",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dead-man.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dead-man.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "Dead-man monitor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/grok-probe.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "grok-probe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkedin-performance.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkedin-performance.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "Apify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linkedin-performance.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "LinkedIn Performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-readwise.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-readwise.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "Manual Readwise Save",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/redeliver.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/redeliver.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "Redeliver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-secrets.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "verify-secrets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-feedback.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-feedback.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "anthropics/claude-code-base-action@v0.0.63",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-feedback.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/weekly-feedback.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "Weekly Feedback",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T19:19:23.880492+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3984
+    },
+    {
+      "path": ".github/workflows/daily-brief.yml",
+      "size": 33574
+    },
+    {
+      "path": ".github/workflows/dead-man.yml",
+      "size": 10337
+    },
+    {
+      "path": ".github/workflows/grok-probe.yml",
+      "size": 2511
+    },
+    {
+      "path": ".github/workflows/linkedin-performance.yml",
+      "size": 7551
+    },
+    {
+      "path": ".github/workflows/manual-readwise.yml",
+      "size": 975
+    },
+    {
+      "path": ".github/workflows/redeliver.yml",
+      "size": 4262
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 2580
+    },
+    {
+      "path": ".github/workflows/verify-secrets.yml",
+      "size": 3893
+    },
+    {
+      "path": ".github/workflows/weekly-feedback.yml",
+      "size": 5859
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AI Presidential Briefing: Daily knowledge synthesis system with memory layer, LLM council, and LinkedIn post generation",
+    "fork": false,
+    "full_name": "Aayushm24/presidential-briefing",
+    "html_url": "https://github.com/Aayushm24/presidential-briefing",
+    "language": "HTML",
+    "pushed_at": "2026-05-13T03:11:40Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-05-13T03:11:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Daily Brief",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily-brief.yml",
+      "term": "Daily Brief"
+    },
+    {
+      "context_snippet": "Dead-man monitor",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dead-man.yml",
+      "term": "Dead-man monitor"
+    },
+    {
+      "context_snippet": "grok-probe",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/grok-probe.yml",
+      "term": "grok-probe"
+    },
+    {
+      "context_snippet": "LinkedIn Performance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linkedin-performance.yml",
+      "term": "LinkedIn Performance"
+    },
+    {
+      "context_snippet": "Manual Readwise Save",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-readwise.yml",
+      "term": "Manual Readwise Save"
+    },
+    {
+      "context_snippet": "Redeliver",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/redeliver.yml",
+      "term": "Redeliver"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "verify-secrets",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-secrets.yml",
+      "term": "verify-secrets"
+    },
+    {
+      "context_snippet": "Weekly Feedback",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/weekly-feedback.yml",
+      "term": "Weekly Feedback"
+    }
+  ]
+}

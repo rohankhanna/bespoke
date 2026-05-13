@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Comment on changes to the config"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nushell/nushell",
+      "status": "candidate-context",
+      "text": "A new type of shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nushell/nushell",
+      "status": "candidate-context",
+      "text": "Comment on changes to the config"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nushell/nushell",
+      "status": "candidate",
+      "text": "Comment on changes to the config"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22617,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22513,
+      "status": "candidate",
+      "text": "change"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22513,
+      "status": "candidate",
+      "text": "changing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22513,
+      "status": "candidate",
+      "text": "transformation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22484,
+      "status": "candidate",
+      "text": "correct"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Comment on changes to the config",
+  "concept_id": "comment-on-changes-to-the-config",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": ".github/workflows/friendly-config-reminder.yml",
+      "source_repo": "nushell/nushell"
+    }
+  ],
+  "first_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Comment on changes to the config",
+      "sense_id": "comment-on-changes-to-the-config#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

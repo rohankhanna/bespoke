@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MCP server that gives Claude a review council - other LLMs fact-check responses before you see them"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "An MCP server that gives Claude a **review council** \u2014 other LLMs that fact-check Claude's responses before you see them."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "An MCP server that gives Claude a **review council** \u2014 other LLMs that fact-check Claude's responses before you see them."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017889,
+      "status": "candidate",
+      "text": "falsifying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017888,
+      "status": "candidate",
+      "text": "facticide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017887,
+      "status": "candidate",
+      "text": "falsification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017886,
+      "status": "candidate",
+      "text": "alternative fact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017885,
+      "status": "candidate",
+      "text": "debunking"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fact-checking",
+      "sense_id": "fact-checking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fact-checking",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fact-checking",
+  "observation_id": "94bbb81c51e0ef65",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-13T18:45:31.430554+00:00",
+  "observed_text": "fact-checking",
+  "source_context_snippet": "An MCP server that gives Claude a **review council** \u2014 other LLMs that fact-check Claude's responses before you see them.",
+  "source_file": null,
+  "source_repo": "alterego-987/council-mcp",
+  "source_repo_description": "MCP server that gives Claude a review council - other LLMs fact-check responses before you see them"
+}

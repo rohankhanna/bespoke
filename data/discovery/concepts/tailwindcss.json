@@ -313,6 +313,18 @@
       "source_repo": "saadeghi/daisyui",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fuma-nama/fumadocs",
+      "status": "candidate-context",
+      "text": "The beautiful & flexible React.js docs framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fuma-nama/fumadocs",
+      "status": "candidate-context",
+      "text": "![banner](./apps/docs/public/banner.png)"
     }
   ],
   "candidate_glosses": [
@@ -465,6 +477,12 @@
       "source_repo": "saadeghi/daisyui",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fuma-nama/fumadocs",
+      "status": "candidate",
+      "text": "![banner](./apps/docs/public/banner.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -1054,11 +1072,23 @@
       "observed_at": "2026-05-13T12:58:22.952944+00:00",
       "source_file": null,
       "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "fuma-nama/fumadocs"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "lexical_providers": [
     "datamuse"
   ],

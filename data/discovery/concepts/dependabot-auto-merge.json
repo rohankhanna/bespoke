@@ -726,6 +726,18 @@
       "source_repo": "2mawi2/schaltwerk",
       "status": "candidate-context",
       "text": "Dependabot Auto Merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pdfme/pdfme",
+      "status": "candidate-context",
+      "text": "Open-source PDF generation library built with TypeScript and React. Features a WYSIWYG template designer, PDF viewer, and powerful generation capabilities. Create custom PDFs effortlessly in both browser and Node.js environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdfme/pdfme",
+      "status": "candidate-context",
+      "text": "Dependabot Auto-merge"
     }
   ],
   "candidate_glosses": [
@@ -1082,6 +1094,12 @@
       "source_repo": "2mawi2/schaltwerk",
       "status": "candidate",
       "text": "Dependabot Auto Merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdfme/pdfme",
+      "status": "candidate",
+      "text": "Dependabot Auto-merge"
     }
   ],
   "candidate_related_terms": [
@@ -1485,11 +1503,17 @@
       "observed_at": "2026-05-12T07:08:14.758954+00:00",
       "source_file": ".github/workflows/dependabot-auto-merge.yml",
       "source_repo": "2mawi2/schaltwerk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": ".github/workflows/dependabot-automerge.yml",
+      "source_repo": "pdfme/pdfme"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "lexical_providers": [
     "datamuse"
   ],

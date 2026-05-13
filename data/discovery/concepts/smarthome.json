@@ -43,6 +43,18 @@
       "source_repo": "matter-js/matter.js",
       "status": "candidate-context",
       "text": "[![license](https://img.shields.io/badge/license-Apache2-green.svg)](https://raw.githubusercontent.com/matter-js/matter.js/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GladysAssistant/Gladys",
+      "status": "candidate-context",
+      "text": "A privacy-first, open-source home assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GladysAssistant/Gladys",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "matter-js/matter.js",
       "status": "candidate",
       "text": "[![license](https://img.shields.io/badge/license-Apache2-green.svg)](https://raw.githubusercontent.com/matter-js/matter.js/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GladysAssistant/Gladys",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -130,11 +148,17 @@
       "observed_at": "2026-05-13T12:58:22.952944+00:00",
       "source_file": null,
       "source_repo": "matter-js/matter.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "GladysAssistant/Gladys"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "lexical_providers": [
     "datamuse"
   ],

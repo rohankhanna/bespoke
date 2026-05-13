@@ -19,12 +19,30 @@
       "source_repo": "matter-js/matter.js",
       "status": "candidate-context",
       "text": "Official release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ioBroker/ioBroker.matter",
+      "status": "candidate-context",
+      "text": "Implementation of Bridges, Devices and Controller for Matter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ioBroker/ioBroker.matter",
+      "status": "candidate-context",
+      "text": "Official release"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "matter-js/matter.js",
+      "status": "candidate",
+      "text": "Official release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ioBroker/ioBroker.matter",
       "status": "candidate",
       "text": "Official release"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-13T12:58:22.952944+00:00",
       "source_file": ".github/workflows/official-release.yml",
       "source_repo": "matter-js/matter.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "ioBroker/ioBroker.matter"
     }
   ],
   "first_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "lexical_providers": [
     "datamuse"
   ],

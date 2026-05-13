@@ -343,6 +343,18 @@
       "source_repo": "ViTAE-Transformer/ViTPose",
       "status": "candidate-context",
       "text": "<h1 align=\"left\">ViTPose / ViTPose++: Vision Transformer for Generic Body Pose Estimation</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auspicious3000/contentvec",
+      "status": "candidate-context",
+      "text": "speech self-supervised representations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auspicious3000/contentvec",
+      "status": "candidate-context",
+      "text": "This repository provides the official PyTorch implementation of [ContentVec](https://arxiv.org/abs/2204.09224)."
     }
   ],
   "candidate_glosses": [
@@ -513,6 +525,12 @@
       "source_repo": "ViTAE-Transformer/ViTPose",
       "status": "candidate",
       "text": "<h1 align=\"left\">ViTPose / ViTPose++: Vision Transformer for Generic Body Pose Estimation</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auspicious3000/contentvec",
+      "status": "candidate",
+      "text": "This repository provides the official PyTorch implementation of [ContentVec](https://arxiv.org/abs/2204.09224)."
     }
   ],
   "candidate_related_terms": [],
@@ -958,11 +976,17 @@
       "observed_at": "2026-05-13T12:58:22.952944+00:00",
       "source_file": null,
       "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "auspicious3000/contentvec"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "lexical_providers": [
     "datamuse"
   ],

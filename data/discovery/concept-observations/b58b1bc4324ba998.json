@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AI Presidential Briefing: Daily knowledge synthesis system with memory layer, LLM council, and LinkedIn post generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Weekly Feedback"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Weekly Feedback"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10525,
+      "status": "candidate",
+      "text": "whip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10520,
+      "status": "candidate",
+      "text": "day"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10520,
+      "status": "candidate",
+      "text": "gazette"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10520,
+      "status": "candidate",
+      "text": "journal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10520,
+      "status": "candidate",
+      "text": "life"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Weekly Feedback",
+      "sense_id": "weekly-feedback#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "weekly-feedback",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "weekly-feedback",
+  "observation_id": "b58b1bc4324ba998",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-13T18:45:31.430554+00:00",
+  "observed_text": "Weekly Feedback",
+  "source_context_snippet": "Weekly Feedback",
+  "source_file": ".github/workflows/weekly-feedback.yml",
+  "source_repo": "Aayushm24/presidential-briefing",
+  "source_repo_description": "AI Presidential Briefing: Daily knowledge synthesis system with memory layer, LLM council, and LinkedIn post generation"
+}

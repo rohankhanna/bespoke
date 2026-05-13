@@ -1,7 +1,7 @@
 {
   "component": "hmarr/auto-approve-action@v4",
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/auto-approve-release.yml",
       "source_repo": "matter-js/matter.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-approve.yml",
+      "source_repo": "ioBroker/ioBroker.matter"
     }
   ]
 }

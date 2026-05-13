@@ -1,0 +1,133 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alterego-987/council-mcp",
+      "target": "ai-safety",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alterego-987/council-mcp",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alterego-987/council-mcp",
+      "target": "council-mcp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alterego-987/council-mcp",
+      "target": "fact-checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alterego-987/council-mcp",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alterego-987/council-mcp",
+      "target": "llm-verification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alterego-987/council-mcp",
+      "target": "mcp-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T19:19:31.608607+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5527
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 560
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MCP server that gives Claude a review council - other LLMs fact-check responses before you see them",
+    "fork": false,
+    "full_name": "alterego-987/council-mcp",
+    "html_url": "https://github.com/alterego-987/council-mcp",
+    "language": "Python",
+    "pushed_at": "2026-04-04T19:35:18Z",
+    "stargazers_count": 2,
+    "topics": [
+      "ai-safety",
+      "claude-code",
+      "council-mcp",
+      "fact-checking",
+      "gemini",
+      "llm-verification",
+      "mcp",
+      "mcp-server"
+    ],
+    "updated_at": "2026-04-04T20:35:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "An MCP server that gives Claude a **review council** \u2014 other LLMs that fact-check Claude's responses before you see them.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-safety"
+    },
+    {
+      "context_snippet": "An MCP server that gives Claude a **review council** \u2014 other LLMs that fact-check Claude's responses before you see them.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "An MCP server that gives Claude a **review council** \u2014 other LLMs that fact-check Claude's responses before you see them.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "council-mcp"
+    },
+    {
+      "context_snippet": "An MCP server that gives Claude a **review council** \u2014 other LLMs that fact-check Claude's responses before you see them.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fact-checking"
+    },
+    {
+      "context_snippet": "An MCP server that gives Claude a **review council** \u2014 other LLMs that fact-check Claude's responses before you see them.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "An MCP server that gives Claude a **review council** \u2014 other LLMs that fact-check Claude's responses before you see them.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-verification"
+    },
+    {
+      "context_snippet": "An MCP server that gives Claude a **review council** \u2014 other LLMs that fact-check Claude's responses before you see them.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    }
+  ]
+}

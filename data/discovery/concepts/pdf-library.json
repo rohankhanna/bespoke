@@ -19,6 +19,18 @@
       "source_repo": "DavBfr/dart_pdf",
       "status": "candidate-context",
       "text": "![Dart CI](https://github.com/DavBfr/dart_pdf/workflows/Dart%20CI/badge.svg) [![pub package](https://img.shields.io/pub/v/pdf.svg)](https://pub.dartlang.org/packages/pdf) [![pub package](https://img.shields.io/pub/v/printing.svg)](https://pub.dartlang.org/packages/printing) [![c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pdfme/pdfme",
+      "status": "candidate-context",
+      "text": "Open-source PDF generation library built with TypeScript and React. Features a WYSIWYG template designer, PDF viewer, and powerful generation capabilities. Create custom PDFs effortlessly in both browser and Node.js environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdfme/pdfme",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "DavBfr/dart_pdf",
       "status": "candidate",
       "text": "![Dart CI](https://github.com/DavBfr/dart_pdf/workflows/Dart%20CI/badge.svg) [![pub package](https://img.shields.io/pub/v/pdf.svg)](https://pub.dartlang.org/packages/pdf) [![pub package](https://img.shields.io/pub/v/printing.svg)](https://pub.dartlang.org/packages/printing) [![c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdfme/pdfme",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "DavBfr/dart_pdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "pdfme/pdfme"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "lexical_providers": [
     "datamuse"
   ],

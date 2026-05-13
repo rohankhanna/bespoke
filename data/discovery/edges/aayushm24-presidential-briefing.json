@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "anthropics/claude-code-base-action@v0.0.63",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily-brief.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "Daily Brief",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dead-man.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dead-man.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "Dead-man monitor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/grok-probe.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "grok-probe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkedin-performance.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkedin-performance.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "Apify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linkedin-performance.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "LinkedIn Performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-readwise.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-readwise.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "Manual Readwise Save",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/redeliver.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/redeliver.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "Redeliver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-secrets.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "verify-secrets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-feedback.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-feedback.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "anthropics/claude-code-base-action@v0.0.63",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-feedback.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/weekly-feedback.yml",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "target": "Weekly Feedback",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-13T18:45:31.430554+00:00",
+  "source_repo": "Aayushm24/presidential-briefing"
+}

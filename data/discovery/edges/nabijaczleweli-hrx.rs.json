@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nabijaczleweli/hrx.rs",
+      "target": "archive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nabijaczleweli/hrx.rs",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nabijaczleweli/hrx.rs",
+      "target": "rust-library",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-13T18:45:31.430554+00:00",
+  "source_repo": "nabijaczleweli/hrx.rs"
+}

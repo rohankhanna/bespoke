@@ -93,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T13:06:34.930085+00:00",
+  "fetched_at": "2026-05-13T19:20:49.906372+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -114,7 +114,7 @@
     "html_url": "https://github.com/PlayVoice/whisper-vits-svc",
     "language": "Python",
     "pushed_at": "2024-04-23T10:50:32Z",
-    "stargazers_count": 2853,
+    "stargazers_count": 2852,
     "topics": [
       "change",
       "diff-svc",
@@ -127,7 +127,7 @@
       "vits2",
       "voice"
     ],
-    "updated_at": "2026-05-11T16:49:33Z"
+    "updated_at": "2026-05-13T13:11:12Z"
   },
   "repo_links": [
     {

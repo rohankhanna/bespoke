@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MCP server that gives Claude a review council - other LLMs fact-check responses before you see them"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "An MCP server that gives Claude a **review council** \u2014 other LLMs that fact-check Claude's responses before you see them."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "An MCP server that gives Claude a **review council** \u2014 other LLMs that fact-check Claude's responses before you see them."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mcp-server",
+      "sense_id": "mcp-server#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mcp-server",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mcp-server",
+  "observation_id": "388ce86c55c58fa9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-13T18:45:31.430554+00:00",
+  "observed_text": "mcp-server",
+  "source_context_snippet": "An MCP server that gives Claude a **review council** \u2014 other LLMs that fact-check Claude's responses before you see them.",
+  "source_file": null,
+  "source_repo": "alterego-987/council-mcp",
+  "source_repo_description": "MCP server that gives Claude a review council - other LLMs fact-check responses before you see them"
+}

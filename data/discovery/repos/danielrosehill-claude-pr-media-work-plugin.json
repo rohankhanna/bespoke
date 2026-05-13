@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-13T19:18:54.904162+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4538
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Claude Code plugin: PR and media monitoring workflow \u2014 scan coverage, summarize press, draft responses, comms strategy, with monitoring/response/strategy variants.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-PR-Media-Work-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-PR-Media-Work-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-19T13:02:41Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-05-10T22:15:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

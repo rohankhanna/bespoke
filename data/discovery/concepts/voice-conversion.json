@@ -151,6 +151,18 @@
       "source_repo": "hayeong0/Diff-HierVC",
       "status": "candidate-context",
       "text": "The official Pytorch implementation of Diff-HierVC (Interspeeh 2023, Oral)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "biggytruck/SpeechSplit2",
+      "status": "candidate-context",
+      "text": "Official implementation of SpeechSplit2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biggytruck/SpeechSplit2",
+      "status": "candidate-context",
+      "text": "Official implementation of [SpeechSplit 2.0: Unsupervised speech disentanglement for voice conversion Without tuning autoencoder Bottlenecks](https://arxiv.org/pdf/2203.14156.pdf)."
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "hayeong0/Diff-HierVC",
       "status": "candidate",
       "text": "The official Pytorch implementation of Diff-HierVC (Interspeeh 2023, Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biggytruck/SpeechSplit2",
+      "status": "candidate",
+      "text": "Official implementation of [SpeechSplit 2.0: Unsupervised speech disentanglement for voice conversion Without tuning autoencoder Bottlenecks](https://arxiv.org/pdf/2203.14156.pdf)."
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +322,17 @@
       "observed_at": "2026-05-13T07:12:28.410129+00:00",
       "source_file": null,
       "source_repo": "hayeong0/Diff-HierVC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "biggytruck/SpeechSplit2"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "lexical_providers": [
     "datamuse"
   ],

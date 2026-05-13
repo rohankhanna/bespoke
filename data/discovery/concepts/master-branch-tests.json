@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Master branch tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GladysAssistant/Gladys",
+      "status": "candidate-context",
+      "text": "A privacy-first, open-source home assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GladysAssistant/Gladys",
+      "status": "candidate-context",
+      "text": "Master branch tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GladysAssistant/Gladys",
+      "status": "candidate",
+      "text": "Master branch tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18890,
+      "status": "candidate",
+      "text": "shroff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18835,
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18835,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18722,
+      "status": "candidate",
+      "text": "boss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18722,
+      "status": "candidate",
+      "text": "mistress"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Master branch tests",
+  "concept_id": "master-branch-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": ".github/workflows/docker-master-test.yml",
+      "source_repo": "GladysAssistant/Gladys"
+    }
+  ],
+  "first_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Master branch tests",
+      "sense_id": "master-branch-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

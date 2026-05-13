@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AI Presidential Briefing: Daily knowledge synthesis system with memory layer, LLM council, and LinkedIn post generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "verify-secrets"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "verify-secrets"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "verify-secrets",
+      "sense_id": "verify-secrets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "verify-secrets",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "verify-secrets",
+  "observation_id": "d6fdb8a33c3adc0c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-13T18:45:31.430554+00:00",
+  "observed_text": "verify-secrets",
+  "source_context_snippet": "verify-secrets",
+  "source_file": ".github/workflows/verify-secrets.yml",
+  "source_repo": "Aayushm24/presidential-briefing",
+  "source_repo_description": "AI Presidential Briefing: Daily knowledge synthesis system with memory layer, LLM council, and LinkedIn post generation"
+}

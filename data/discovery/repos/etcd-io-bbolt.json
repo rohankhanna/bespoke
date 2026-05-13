@@ -171,7 +171,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T09:40:01.248957+00:00",
+  "fetched_at": "2026-05-13T19:02:55.525162+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -224,9 +224,9 @@
     "html_url": "https://github.com/etcd-io/bbolt",
     "language": "Go",
     "pushed_at": "2026-05-12T13:55:28Z",
-    "stargazers_count": 9505,
+    "stargazers_count": 9506,
     "topics": [],
-    "updated_at": "2026-05-13T09:38:32Z"
+    "updated_at": "2026-05-13T14:57:51Z"
   },
   "repo_links": [
     {

@@ -1,7 +1,7 @@
 {
   "component": "anthropics/claude-code-action@beta",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -187,6 +187,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/implement-feature.yml",
       "source_repo": "yakir8/kosher_dart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "pdfme/pdfme"
     }
   ]
 }

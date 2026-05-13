@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/speech-resynthesis",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/speech-resynthesis",
+      "target": "facebookresearch/libri-light",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/speech-resynthesis",
+      "target": "openai/jukebox",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-13T18:45:31.430554+00:00",
+  "source_repo": "facebookresearch/speech-resynthesis"
+}

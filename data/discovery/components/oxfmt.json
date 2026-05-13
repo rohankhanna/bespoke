@@ -1,7 +1,7 @@
 {
   "component": "oxfmt",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -382,6 +382,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "vitejs/vite-plugin-react"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fuma-nama/fumadocs"
     }
   ]
 }

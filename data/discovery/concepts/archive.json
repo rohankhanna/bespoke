@@ -94,6 +94,18 @@
       "source_repo": "wp-cli/dist-archive-command",
       "status": "candidate-context",
       "text": "wp-cli/dist-archive-command"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nabijaczleweli/hrx.rs",
+      "status": "candidate-context",
+      "text": "A Rust implementation of the HRX plain text archive format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nabijaczleweli/hrx.rs",
+      "status": "candidate-context",
+      "text": "A Rust implementation of the [HRX plain text archive format](//github.com/google/hrx)."
     }
   ],
   "candidate_glosses": [
@@ -138,6 +150,12 @@
       "source_repo": "wp-cli/dist-archive-command",
       "status": "candidate",
       "text": "wp-cli/dist-archive-command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nabijaczleweli/hrx.rs",
+      "status": "candidate",
+      "text": "A Rust implementation of the [HRX plain text archive format](//github.com/google/hrx)."
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +262,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "wp-cli/dist-archive-command"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "nabijaczleweli/hrx.rs"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "lexical_providers": [
     "datamuse"
   ],

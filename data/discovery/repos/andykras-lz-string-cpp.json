@@ -1,0 +1,46 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andykras/lz-string-cpp",
+      "target": "lz-string",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T19:20:32.108967+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 423
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "lz-string implementation in C++",
+    "fork": false,
+    "full_name": "andykras/lz-string-cpp",
+    "html_url": "https://github.com/andykras/lz-string-cpp",
+    "language": "C++",
+    "pushed_at": "2021-10-17T17:26:28Z",
+    "stargazers_count": 16,
+    "topics": [
+      "cpp",
+      "javascript",
+      "lz-string"
+    ],
+    "updated_at": "2026-02-17T08:09:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "LZ-based compression algorithm implemented in C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lz-string"
+    }
+  ]
+}

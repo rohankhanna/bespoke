@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biggytruck/SpeechSplit2",
+      "target": "auspicious3000/autovc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biggytruck/SpeechSplit2",
+      "target": "disentangled-representations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biggytruck/SpeechSplit2",
+      "target": "speech-disentanglement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biggytruck/SpeechSplit2",
+      "target": "unsupervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biggytruck/SpeechSplit2",
+      "target": "voice-conversion",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-13T18:45:31.430554+00:00",
+  "source_repo": "biggytruck/SpeechSplit2"
+}

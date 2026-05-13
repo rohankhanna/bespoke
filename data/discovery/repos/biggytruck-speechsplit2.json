@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biggytruck/SpeechSplit2",
+      "target": "auspicious3000/autovc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biggytruck/SpeechSplit2",
+      "target": "disentangled-representations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biggytruck/SpeechSplit2",
+      "target": "speech-disentanglement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biggytruck/SpeechSplit2",
+      "target": "unsupervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biggytruck/SpeechSplit2",
+      "target": "voice-conversion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T19:21:02.633615+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2801
+    },
+    {
+      "path": "requirements.txt",
+      "size": 133
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of SpeechSplit2",
+    "fork": false,
+    "full_name": "biggytruck/SpeechSplit2",
+    "html_url": "https://github.com/biggytruck/SpeechSplit2",
+    "language": "Python",
+    "pushed_at": "2022-10-22T21:10:17Z",
+    "stargazers_count": 136,
+    "topics": [
+      "disentangled-representations",
+      "speech-disentanglement",
+      "unsupervised-learning",
+      "voice-conversion"
+    ],
+    "updated_at": "2026-03-22T08:22:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "auspicious3000/autovc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Official implementation of [SpeechSplit 2.0: Unsupervised speech disentanglement for voice conversion Without tuning autoencoder Bottlenecks](https://arxiv.org/pdf/2203.14156.pdf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "disentangled-representations"
+    },
+    {
+      "context_snippet": "Official implementation of [SpeechSplit 2.0: Unsupervised speech disentanglement for voice conversion Without tuning autoencoder Bottlenecks](https://arxiv.org/pdf/2203.14156.pdf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-disentanglement"
+    },
+    {
+      "context_snippet": "Official implementation of [SpeechSplit 2.0: Unsupervised speech disentanglement for voice conversion Without tuning autoencoder Bottlenecks](https://arxiv.org/pdf/2203.14156.pdf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unsupervised-learning"
+    },
+    {
+      "context_snippet": "Official implementation of [SpeechSplit 2.0: Unsupervised speech disentanglement for voice conversion Without tuning autoencoder Bottlenecks](https://arxiv.org/pdf/2203.14156.pdf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-conversion"
+    }
+  ]
+}

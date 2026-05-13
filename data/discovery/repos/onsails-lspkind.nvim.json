@@ -23,7 +23,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T13:09:18.346254+00:00",
+  "fetched_at": "2026-05-13T19:24:28.255057+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -40,14 +40,14 @@
     "html_url": "https://github.com/onsails/lspkind.nvim",
     "language": "Lua",
     "pushed_at": "2026-01-29T12:31:49Z",
-    "stargazers_count": 1683,
+    "stargazers_count": 1684,
     "topics": [
       "lsp",
       "lua",
       "neovim",
       "nvim"
     ],
-    "updated_at": "2026-05-12T21:33:49Z"
+    "updated_at": "2026-05-13T17:56:11Z"
   },
   "repo_links": [
     {

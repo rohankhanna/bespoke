@@ -3028,6 +3028,7 @@
   ],
   "ai-safety": [
     "316ed6166e16343d",
+    "7ef3140986953f5b",
     "b5fa02a21961dbb7",
     "d32e7ab7e1c2bca2",
     "fa807c9f76f00aa9"
@@ -5706,6 +5707,9 @@
   "app-nuxt---trivy-vulnerability-scanner": [
     "007d1e2c92eb21be"
   ],
+  "app-router": [
+    "f160d3e64cedef46"
+  ],
   "app-service": [
     "cbc0ebd5dde58245"
   ],
@@ -6206,6 +6210,7 @@
     "146e94e1a885f45f",
     "1c3b666b4a59ef71",
     "44c618f0e674bb46",
+    "5b4797142ab79671",
     "af5144d929693f11",
     "e3ef79219e5368c6",
     "f387b33a55091109"
@@ -7462,6 +7467,7 @@
     "0550cd8b0275387f",
     "1201ce9360f111b4",
     "788b4f273fae70b1",
+    "7aefba9178cdda63",
     "b4bae1f8ca95ba78",
     "d97ae0ffa8cfc53d",
     "edd859e6d2793838",
@@ -8494,6 +8500,7 @@
   ],
   "auto-approve": [
     "050ed6a5f67331f5",
+    "7cbc8c8c8348afab",
     "995e962414920e59",
     "d060c6bb8123b569",
     "d5196067b981ea17",
@@ -8925,7 +8932,8 @@
     "16bb32e8adbabbf0",
     "935a3fc81563ed19",
     "a2d8f42936c40824",
-    "bf1373a3a760df72"
+    "bf1373a3a760df72",
+    "cb5a3638c4024cb2"
   ],
   "auto-merge-dependency-updates": [
     "05ff51fcfd90feeb",
@@ -9775,6 +9783,7 @@
     "6d12970de139bb8c",
     "6d69342c8cccd86e",
     "6e9c3347193cbb11",
+    "7e4ec1e247fa2dd7",
     "83f30c7ac2930261",
     "858c2116abd26e6c",
     "8666fa41271e9115",
@@ -13730,6 +13739,7 @@
     "53c0e146788a05c3",
     "61999dabe82bb42b",
     "79be4851d99eae39",
+    "7bf86e83eb94ddd0",
     "88e75d871b4631b6",
     "8bd495a6b6daa440",
     "90612531b9d6bc7a",
@@ -16903,6 +16913,7 @@
     "f1421b739aa43abb",
     "f146ed192a431019",
     "f1b775e31a8ed324",
+    "f20888139f6e33d4",
     "f21e2621d306939b",
     "f235880cc4887787",
     "f24a7ff85e90870d",
@@ -17367,6 +17378,9 @@
     "01d40eb269e5d7e0",
     "839bd09806c02ce5"
   ],
+  "build-and-publish-apidoc-documentation": [
+    "a0505b4dfd2d710d"
+  ],
   "build-and-publish-artifacts": [
     "9eac8d8b1170cdd8"
   ],
@@ -17399,6 +17413,9 @@
   ],
   "build-and-publish-deepspeed-mii-release": [
     "0b07ff655be52dbb"
+  ],
+  "build-and-publish-demo-website": [
+    "523c82246fe95620"
   ],
   "build-and-publish-deno-package": [
     "8c0ac93c2a08deeb"
@@ -19628,6 +19645,9 @@
     "8cd655f830bf8a7f",
     "ee148bfd89582054"
   ],
+  "build-gladys-dev-images": [
+    "e8b101462886fb7a"
+  ],
   "build-gnat": [
     "24f6c0482e8ce6dd",
     "49c9d90c06242cb3",
@@ -21150,6 +21170,7 @@
     "606eff5d946ac05c"
   ],
   "build-test": [
+    "02e382a7a12f9246",
     "0c3e364463758f3e",
     "100d5549c36c3e35",
     "155283b4e27b86e2",
@@ -21453,6 +21474,7 @@
     "6926ce4ec8b4d818",
     "9cfdee2884dea9a9",
     "a873d34f0a3dd265",
+    "d9fcf2cdeba3a1e7",
     "efd045a988488a60",
     "f1fa6b08700eb7f5"
   ],
@@ -24346,6 +24368,9 @@
   ],
   "centos-stream-linux": [
     "3d2e81120e2a632b"
+  ],
+  "centos7": [
+    "1bdb2da8979fd6ff"
   ],
   "centos9": [
     "e206129779926a44"
@@ -29952,6 +29977,7 @@
     "101cd58e3e23425d",
     "12118b5e229fdc1e",
     "122ef1a135912c5b",
+    "1436f1e1561caba1",
     "14d73af12e8ec1a8",
     "150db59720908c4d",
     "1800ee7973ce91f2",
@@ -30091,6 +30117,7 @@
     "c7768dbc90134060",
     "c8f9d8706e1fe6e7",
     "c8faa86968ca8730",
+    "c98df95c432e623f",
     "c9dfdb6409cbc35a",
     "caa191320abb4f37",
     "cb330a77021be4d6",
@@ -31556,6 +31583,7 @@
   ],
   "close-answered-issues": [
     "764f98bfe97e1aea",
+    "a22c15e42259c0d9",
     "b1ad1149a1a6e99c"
   ],
   "close-as-a-feature": [
@@ -34829,6 +34857,7 @@
     "c2d697dfcee20a37",
     "c37470a03155df62",
     "c3a0cc56606d9af0",
+    "c3a8b4a84972c129",
     "c41cb407f3db4ca9",
     "c4c4d0bafb06658b",
     "c4ce19d3856ecaa7",
@@ -36239,6 +36268,9 @@
   "comment-issue-when-labeled-non-security": [
     "ac92492870f7b3dd",
     "b94ed41128b714cb"
+  ],
+  "comment-on-changes-to-the-config": [
+    "bf853714441ab735"
   ],
   "comment-on-closed-issue": [
     "33b05e10dc88983b"
@@ -38928,6 +38960,9 @@
     "2d433fc3e705c7f8",
     "993df8140d503945"
   ],
+  "content-collections": [
+    "200659dfc6be5488"
+  ],
   "content-creation": [
     "acc67e70999562e1",
     "e49be00858906ab4"
@@ -38963,6 +38998,9 @@
   ],
   "content-type": [
     "1dc5a2130dc73800"
+  ],
+  "contentlayer": [
+    "a63b39556933ab13"
   ],
   "context": [
     "2e7343e440f9cdae",
@@ -39312,6 +39350,7 @@
     "a62327ea8d6525e7",
     "a75dfd0dfea7e0c4",
     "a85e765c5ae76e83",
+    "a8b9225bd767c780",
     "a90b2e916bd468e2",
     "a938cd3f33f205e4",
     "a9df4cc7cb4cabfd",
@@ -40524,6 +40563,9 @@
   ],
   "couchbase-lite": [
     "70784bf9d78a26a0"
+  ],
+  "council-mcp": [
+    "5319344dbc393698"
   ],
   "council-quality-gate": [
     "9702056e5fd809db"
@@ -43945,6 +43987,9 @@
     "a1edd814ea73f1ec",
     "f32f5b0d86462979"
   ],
+  "daily-brief": [
+    "e9b09d84974bc2de"
+  ],
   "daily-build-and-test-dev": [
     "7d3307778cafdcb2"
   ],
@@ -45929,6 +45974,9 @@
   "de-novo": [
     "9ab4a3a3fdb1e363"
   ],
+  "dead-man-monitor": [
+    "7bd8f6782e8754cc"
+  ],
   "dead-spider-killer": [
     "e3d6d926a73afc00"
   ],
@@ -46008,6 +46056,9 @@
   ],
   "debian12": [
     "52213e2e829b238c"
+  ],
+  "debian9": [
+    "660a5c7012f71302"
   ],
   "debiasing": [
     "838f83e857501941"
@@ -48032,6 +48083,7 @@
     "f7ddc42c8a6156a4",
     "f7faa23f8ef9cf23",
     "f86c6fd24839b274",
+    "f8fbe3053df727d0",
     "ff6a4d31b3b08ff1"
   ],
   "dependabot-automation": [
@@ -51573,6 +51625,9 @@
   "discv5": [
     "4dcc9f79cd65aa44"
   ],
+  "disentangled-representations": [
+    "c03536183382e07b"
+  ],
   "disk": [
     "0c7b8e2a29d38a8e",
     "339c4a610ab8d322",
@@ -52286,6 +52341,7 @@
     "46cc670356dd9967",
     "487d3a954ffa72a9",
     "60fa946f89694fd8",
+    "b8fb5664d0d7eb09",
     "ce2ce54559ca2313"
   ],
   "doc-auto-generation": [
@@ -53657,6 +53713,7 @@
     "d307d73ede23434a",
     "d3a98baac3dc1fc2",
     "d423cf508823339f",
+    "d549ed8ac99308f7",
     "d6fdc046ee1e36af",
     "d842d80960a155db",
     "daeed7df844f55de",
@@ -55651,6 +55708,7 @@
     "d09788c4cef23865",
     "dcfcd8ef4af23cf6",
     "e65cba1978a38e71",
+    "e7ce0f44486856d5",
     "f1e0fe387a45dbb3",
     "f2089562ab46af72",
     "f227d86be3b265dc",
@@ -60576,6 +60634,9 @@
   "facial-recognition": [
     "afbef8c98a03f200"
   ],
+  "fact-checking": [
+    "94bbb81c51e0ef65"
+  ],
   "fact-verification": [
     "be1cdb6de395f8f3",
     "fea3ebdca392ad9e"
@@ -64658,6 +64719,9 @@
   "fully-convolutional-networks": [
     "8d8d211a078c72b0"
   ],
+  "fumadocs": [
+    "bda60af2f1eb60ef"
+  ],
   "functests": [
     "ec8a3bbdb0537bc0"
   ],
@@ -65663,6 +65727,7 @@
   ],
   "gemini": [
     "01cdca2cb1e79892",
+    "0907530057781621",
     "0a8ae26806a9a452",
     "0c1b70f593941d65",
     "0cc9f3acb6fa53af",
@@ -68417,6 +68482,9 @@
   ],
   "glad2": [
     "ad4022229ea00534"
+  ],
+  "gladys": [
+    "39d7cd6634901d67"
   ],
   "glassflow": [
     "e0dba5c706c0052a"
@@ -71820,6 +71888,9 @@
   "groestl": [
     "eb137255a982a3c9"
   ],
+  "grok-probe": [
+    "26d4169c3e1dcb4b"
+  ],
   "grommet": [
     "473924aac4dd2072"
   ],
@@ -74897,7 +74968,8 @@
     "deb6ee329be00476"
   ],
   "home": [
-    "05bfc76b83534f56"
+    "05bfc76b83534f56",
+    "336426b87ef44962"
   ],
   "home-assistant": [
     "026ca01f777a6f82",
@@ -74909,6 +74981,7 @@
     "d5bae7f3976f3359"
   ],
   "home-automation": [
+    "0a3860539c363c42",
     "2668de03ef9851d5",
     "d35c597ca419ebe5"
   ],
@@ -80080,6 +80153,9 @@
     "ad1e2f4e1842a4c6",
     "d2b66c01da93c5cd",
     "e86e57c28ba2c7de"
+  ],
+  "iobroker": [
+    "2228bd0832215fe9"
   ],
   "ioc-container": [
     "9a23e1d7737796b4",
@@ -85325,7 +85401,8 @@
   "label-prs": [
     "28c6082276ad7f31",
     "3361eb0107db5369",
-    "79462f50dd68bc30"
+    "79462f50dd68bc30",
+    "95165e11e26893ec"
   ],
   "label-prs-from-globs": [
     "84e34ec39c12a419"
@@ -88222,6 +88299,9 @@
   "linked-reads": [
     "d68c8d3d11e29798"
   ],
+  "linkedin-performance": [
+    "efd6ff0ea9957e04"
+  ],
   "linker": [
     "1191d1317ccb11e9"
   ],
@@ -88650,6 +88730,7 @@
     "b51ea024d619c4c3",
     "b5d43e73a49d02ce",
     "b5f0a338bbb82c04",
+    "b6629c354d272788",
     "b6c2a0cd18e51f76",
     "b6e0a3428e519a26",
     "b6e0dcf77976a01b",
@@ -88797,6 +88878,7 @@
     "fc629c2a580dd009",
     "fe226fe2f1d9d670",
     "fefa61b6b00883d8",
+    "ff7877cf3ebfd016",
     "ffd58fa60b58479a"
   ],
   "lint---zizmor": [
@@ -90953,6 +91035,9 @@
   "llm-ui": [
     "903dc12aa8e520a9"
   ],
+  "llm-verification": [
+    "500684fe4dff585b"
+  ],
   "llm-webui": [
     "1a3a917aac06bef4"
   ],
@@ -92526,6 +92611,16 @@
   "lyrics-synced": [
     "ca36ca584f49ba44"
   ],
+  "lz-str-rs": [
+    "801f30acfa71401d"
+  ],
+  "lz-string": [
+    "7b5aef99a012e4f8",
+    "c9d2b9c0faf6e0a3"
+  ],
+  "lz-string-rs": [
+    "d1bf8c3f64026c9a"
+  ],
   "lz4-compression": [
     "2aeda7a1009e964f"
   ],
@@ -92569,6 +92664,9 @@
   ],
   "lzss": [
     "9c2a49fb3e05f64f"
+  ],
+  "lzstring": [
+    "008571f51142cf1f"
   ],
   "lzturbo": [
     "40b5682cab3701d7"
@@ -94514,6 +94612,9 @@
   "manual-publish-to-medium": [
     "058232947caf6526"
   ],
+  "manual-readwise-save": [
+    "d5df2be61f19e066"
+  ],
   "manual-release": [
     "0305c2825189acfd",
     "1982c13cc28405b0",
@@ -95182,6 +95283,9 @@
   "master-actions": [
     "88781097112f0a8d"
   ],
+  "master-branch-tests": [
+    "f7ec523d71d92956"
+  ],
   "master-build": [
     "6e31145aaf9ba919"
   ],
@@ -95561,6 +95665,8 @@
     "f27757f4033edb3e"
   ],
   "matter": [
+    "354f5707186eaae3",
+    "3f83fca71f38fdb6",
     "51140e824dd7009c"
   ],
   "matter.js-controller-vs-chip-device-tests": [
@@ -95853,6 +95959,7 @@
     "2b8646882ddd05a8",
     "30c9fcd0b65f1ddd",
     "381b8524bdf0ca09",
+    "388ce86c55c58fa9",
     "43c5d082503c7e6c",
     "45461ff4be238ae0",
     "4c2f0385ce2366a7",
@@ -97368,7 +97475,8 @@
     "f5245b360eb8b2fd"
   ],
   "milestone-action": [
-    "16ecdf3be79a05b3"
+    "16ecdf3be79a05b3",
+    "4951eb1657f5aba5"
   ],
   "milestone-closure": [
     "66fba31b2b95acef"
@@ -100896,6 +101004,7 @@
   ],
   "music-synthesis": [
     "7ceb1935bc5e8f63",
+    "8da721ea264fffd2",
     "da6f526e306a875f"
   ],
   "musicgen": [
@@ -103281,6 +103390,7 @@
     "7d673b58bb0128e3",
     "ad1e4af355de8f53",
     "b0d554e275740944",
+    "e725cb41bc98ec86",
     "ee17f7f52e34d153"
   ],
   "next-auth": [
@@ -103345,6 +103455,7 @@
     "8796a3111365214d",
     "90a549a518aedc8e",
     "923a6024bbcac868",
+    "969fe0ed91893059",
     "9cb51af99352ceb5",
     "a130da71b3cbb4a2",
     "a2cc2b002ad7a099",
@@ -103525,6 +103636,7 @@
     "8dbc8672803575d7",
     "8e7dad44512eb188",
     "904f91855ab3b07f",
+    "91bad40a5a16714e",
     "9bead1cc036de3f4",
     "9fdf5f90517f66c7",
     "a2c2eb11ef17fdfb",
@@ -104671,6 +104783,9 @@
   "node-publish-package": [
     "6ccaa2362906f46f"
   ],
+  "node-red": [
+    "94ac84d4fb438d07"
+  ],
   "node-redis": [
     "9ee3ea9494a68204"
   ],
@@ -105245,6 +105360,7 @@
     "cda0e40e88dd0f3a",
     "cdef6ce4cc585b26",
     "ced76ec8950386c1",
+    "cf7b97ad49378b9d",
     "cfbc2e36d0aaacbe",
     "d08903c5586ec4ef",
     "d29fea159a515716",
@@ -106244,6 +106360,7 @@
   ],
   "nushell": [
     "0acc0cb9b4604797",
+    "2759a52db52e1ba0",
     "8cc985b795975690",
     "a4e988978c111c47"
   ],
@@ -107519,7 +107636,8 @@
     "1e9044fdeb47ee50"
   ],
   "official-release": [
-    "9206513fbff91616"
+    "9206513fbff91616",
+    "bca24cca8439eabb"
   ],
   "official-website": [
     "861dd6968dfe390f"
@@ -111966,6 +112084,9 @@
     "4ee9009b8694848e",
     "d467c88ddbade346"
   ],
+  "pdf-designer": [
+    "431e6577a776ba3b"
+  ],
   "pdf-document": [
     "d4f507a6af35116c"
   ],
@@ -111989,11 +112110,19 @@
   "pdf-generation": [
     "6b143ca0c088c205",
     "819d8fc3d783d3d7",
+    "8f2b3400a17de8f0",
     "ab39770b85830226",
     "e179f3c082bf010b"
   ],
+  "pdf-generator": [
+    "dd736ea7d772d12c"
+  ],
+  "pdf-lib": [
+    "d7c58c788831eead"
+  ],
   "pdf-library": [
-    "300c70365c9d04ee"
+    "300c70365c9d04ee",
+    "986e5c5c47df8281"
   ],
   "pdf-parser": [
     "78d248b5be38e0e9",
@@ -112027,7 +112156,8 @@
     "9613abb086b8b610"
   ],
   "pdf-viewer": [
-    "0f9b60f521ded159"
+    "0f9b60f521ded159",
+    "f4b3fae7e60e3d9f"
   ],
   "pdf2markdown": [
     "eed0452ab83427fd",
@@ -119087,6 +119217,7 @@
     "3bc69f6cf027a139",
     "3bcf3563d8373cab",
     "3cd111b211623e25",
+    "3cfa595a73e21f9d",
     "3d6fdc3499312c34",
     "3d7945902a41ecce",
     "400f9b9c789d9be4",
@@ -119920,6 +120051,9 @@
   ],
   "publish-github-release": [
     "da05ceace465a577"
+  ],
+  "publish-gladys-plus-front-to-production": [
+    "fdf229c3ec0526e8"
   ],
   "publish-go-releases": [
     "76d518ec099999bd"
@@ -121607,7 +121741,8 @@
     "84b67379666a2b47"
   ],
   "pull-request-tests": [
-    "9068bd8d7e1ba308"
+    "9068bd8d7e1ba308",
+    "c444a7849094f25d"
   ],
   "pull-request-title": [
     "0da6807323b9cb37"
@@ -122891,6 +123026,7 @@
     "02ba23e2d2f32fbe",
     "032f228a39c02797",
     "03859a5a0ddeb828",
+    "03ae9967fcf199f3",
     "044585e21168ed77",
     "0490ca873e59aefe",
     "05282774ee4077e0",
@@ -124814,6 +124950,7 @@
     "88f2661e0fbc763c",
     "9235627e76772569",
     "958b1213b97b3203",
+    "a0750fd3283b0366",
     "a5b2bd13dbf1e8cf",
     "bf908e16e86ac6b9",
     "e8add6eb1e314f8f",
@@ -125387,6 +125524,7 @@
     "eed580a9156a2e91",
     "f081a73f1ee85b1b",
     "f0af41f6ab2b1995",
+    "f25c22fe737443c9",
     "f49c0593e0a57edb",
     "f4a78722d0784f09",
     "f53ccc2e207effd0",
@@ -125400,6 +125538,7 @@
     "fc5ebf891a1e32b9",
     "fcb1773ceff79f3b",
     "fcb931633c9be4c7",
+    "fe190ad02406ee92",
     "fe202f20fde1228e",
     "ffa66671697576e5"
   ],
@@ -125595,6 +125734,7 @@
     "9e16e5b09fe7c43d"
   ],
   "react-router": [
+    "0367ca32226afdff",
     "99c1b4cdba3be61a",
     "a6abe3326a6c6488"
   ],
@@ -126356,6 +126496,9 @@
   ],
   "reddit-api": [
     "406ce04482a51f09"
+  ],
+  "redeliver": [
+    "cb3ccf6c3bd7636b"
   ],
   "redenvelope": [
     "8ae06777d6a8935c"
@@ -127148,6 +127291,7 @@
   ],
   "relativeci": [
     "23e2812d6de2b1db",
+    "6e341f63b406d62d",
     "c35642373c628a82"
   ],
   "relator": [
@@ -127343,6 +127487,7 @@
     "1483b9091e300eb0",
     "14d3039cec371cd8",
     "14dd14125ebf210b",
+    "14fa9a62c4eadf79",
     "15198fd24e8022ee",
     "15421f31ed43ae34",
     "15599062ebb754ea",
@@ -129342,6 +129487,9 @@
   ],
   "release-github-release": [
     "b18233dc146985f2"
+  ],
+  "release-gladys-production-images": [
+    "1ab2f4f9eda742d9"
   ],
   "release-google-java-format": [
     "2a21d203f10e0620"
@@ -135579,6 +135727,7 @@
     "a0be1f145e5c3fed",
     "a0c5897d4b01d87b",
     "a0e4b0db4cacbeb6",
+    "a0f32ba012fcb2f7",
     "a0ffc244f9172585",
     "a14bb58104780c2d",
     "a201856aca44ae26",
@@ -135862,6 +136011,7 @@
     "f50a6dd9db89ca44",
     "f543b551304e7377",
     "f5812b33cfa13968",
+    "f5f0b53f1d10518f",
     "f5f0cd817057f91e",
     "f7683b54875d30af",
     "f77b9ec5af97ceac",
@@ -135882,6 +136032,7 @@
     "fba15362820cb4ad",
     "fbb7a5a8b8545b44",
     "fbf77da889666674",
+    "fc4f85b42c4670c9",
     "fcc161ab3f909084",
     "fd45c97b657c5c27",
     "fe57380d2f98f309",
@@ -136035,6 +136186,7 @@
     "39404abecbb3e866",
     "3d62b6aeef9ce121",
     "3e36558074a8e483",
+    "4b56d5c126836915",
     "6333a5b0214f71e8",
     "7816a634c2d57a3d",
     "9f02dfdfe6337644",
@@ -138534,6 +138686,7 @@
     "8d658ce9762b7206",
     "950ddc8bbc9f8d09",
     "9c77f44d0f157186",
+    "9dfcc7019b199bde",
     "a5c87c5452c14d62",
     "aa5311439e54bac5",
     "aaec66dcec10518a",
@@ -139043,6 +139196,7 @@
     "aaaba65fb92548fc",
     "bcd8bc9271ec3932",
     "bdb75e56243bee5f",
+    "c09f8949639f9cd3",
     "c1813829365b7ebb",
     "c95437895ab96d3d",
     "dca8c2d39edd9578",
@@ -140462,6 +140616,7 @@
     "663d5da02f3fb744",
     "692d8fe1f04d9d66",
     "6d6b7cc1a34ef446",
+    "7037540bd9d1f463",
     "71274d55c6583bbf",
     "72b17ae38fbb972b",
     "76ea0601fbfe5e79",
@@ -141210,7 +141365,8 @@
   "singing-synthesis": [
     "66360b1897f9fe90",
     "ad5453f99bb793b2",
-    "b935977a27f1cba1"
+    "b935977a27f1cba1",
+    "daecf59e543184b0"
   ],
   "singing-voice": [
     "11207e815e8c5ea1",
@@ -141229,6 +141385,7 @@
     "2356e3c581606331",
     "31e2ae18943155cf",
     "721f67c1d0522801",
+    "c74e1db3c3ab699e",
     "f1fb86506a9fcf32"
   ],
   "single": [
@@ -141958,6 +142115,7 @@
   "smarthome": [
     "5166cf52e26f2ff9",
     "a67f80fd8d369527",
+    "bb5b66ce8335fd2b",
     "e30082de0ffca411"
   ],
   "smartparens": [
@@ -143511,6 +143669,7 @@
     "305275d95418fe86",
     "37bb377c71d5c922",
     "49eb38e5759713cf",
+    "5c08749e1d1dbf5e",
     "5e8ef3d90bcbf09d",
     "60eb972aae4c4ea0",
     "789f8046acf00617",
@@ -143558,6 +143717,9 @@
   ],
   "speech-denoising": [
     "99047b92f0a4852e"
+  ],
+  "speech-disentanglement": [
+    "919e5dc9f0669cc4"
   ],
   "speech-driven": [
     "c5008b588e01b054"
@@ -149406,6 +149568,7 @@
     "424852c92bd63757",
     "63e776409a67652f",
     "7711b52de666ed82",
+    "7d3b242bfc3d66a5",
     "7dacc77284068295",
     "806006e4e6e5d214",
     "8515b2ff5d4cf176",
@@ -149491,6 +149654,7 @@
     "c184f955818a524e"
   ],
   "tanstack-router": [
+    "71fa69e5adeb18d3",
     "88a55d55587ab802"
   ],
   "tantivy": [
@@ -151618,6 +151782,7 @@
     "b4dc4929d69521b8",
     "b50733c02113a31b",
     "b53b0d836b6ab5c0",
+    "b5b9d97015a15e1e",
     "b5dc1b87f1670911",
     "b5ebe73073dd2cdb",
     "b607be7b07c230d5",
@@ -151672,6 +151837,7 @@
     "c3b2034eb63013a0",
     "c3dba57d6443b3d9",
     "c407d59d85b2516e",
+    "c413d5b7a0d3900d",
     "c43b3e95c22c3f23",
     "c4598d017851ee86",
     "c4a19e6347c007fe",
@@ -152039,6 +152205,7 @@
     "7040b54a964e8670"
   ],
   "test-and-release": [
+    "6b0b3e372b55c201",
     "d2f6bdf3640199d6",
     "eebe713b56c899b2",
     "f6028736b44af0e6",
@@ -152990,6 +153157,9 @@
     "a303e78dda632f1f",
     "fae941225dc730e1"
   ],
+  "test-on-beta-toolchain": [
+    "13776aea3e4b71bf"
+  ],
   "test-on-cygwin": [
     "4891cdaf18d29c4d"
   ],
@@ -153679,6 +153849,7 @@
     "529fa76245636c0f",
     "52a56d39b012f21b",
     "538a88771c915acd",
+    "5709755dba979687",
     "57738b18e175f3df",
     "58f10522fa016133",
     "5e1d795eadec569c",
@@ -154011,6 +154182,7 @@
     "299191c62c5c0fc8",
     "299fc82ad720376a",
     "29d971c5e06308b4",
+    "29e40fac30c7b694",
     "2a1ba6ca825ac680",
     "2a488436d1840063",
     "2a9f618e1de73984",
@@ -159993,6 +160165,7 @@
     "13d6df52c08ef8d7",
     "1494b1bd08040fac",
     "191321ae7566f814",
+    "19768eceaa33da36",
     "1ec291e63271e4d8",
     "231cdeee508bc596",
     "240f81d5b117e29e",
@@ -160445,6 +160618,7 @@
   "unsupervised-learning": [
     "013acea243767012",
     "021510383e6e93e8",
+    "17c86439d81c9714",
     "323f9bb230339c4e",
     "695cc626e465ff8a",
     "73bedd337617bba0",
@@ -163748,6 +163922,9 @@
   "verify-release-artifacts": [
     "4216fee2c513d26c"
   ],
+  "verify-secrets": [
+    "d6fdb8a33c3adc0c"
+  ],
   "verify-templating": [
     "04310b985efd9eee",
     "18089866b33031fc",
@@ -166075,6 +166252,7 @@
     "2b78fb902a0beb3c",
     "3f5ad87ff61f9821",
     "6c3873fd53662b8b",
+    "948838e85cb7c38d",
     "95474a59502b0be2",
     "976f640661c4391c",
     "a4d89b5b166fe3c2",
@@ -168598,6 +168776,9 @@
   ],
   "weekly-downstream-tests": [
     "725e3169b62d7acd"
+  ],
+  "weekly-feedback": [
+    "b58b1bc4324ba998"
   ],
   "weekly-flink-connector-pulsar-ci": [
     "9ed29a521e8a4dbb"
@@ -171354,6 +171535,7 @@
     "bb0f6694b04701f2"
   ],
   "zero-configuration": [
+    "996110ce39fab132",
     "c72b4bba11d19ff3"
   ],
   "zero-copy": [

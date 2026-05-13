@@ -1,0 +1,915 @@
+{
+  "components": [
+    {
+      "component": "apidoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "all-contributors-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apidoc-documentation.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apidoc-documentation.yml"
+    },
+    {
+      "component": "cloudflare/pages-action@1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apidoc-documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-demo-website.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-demo-website.yml"
+    },
+    {
+      "component": "cloudflare/pages-action@1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-demo-website.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-dev-build.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-dev-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-dev-build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-dev-build.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-dev-build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-dev-build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-dev-build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-dev-build.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-dev-build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-dev-build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-master-test.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-master-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-master-test.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-master-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-master-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-master-test.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-master-test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-master-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml"
+    },
+    {
+      "component": "cypress-io/github-action@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml"
+    },
+    {
+      "component": "relative-ci/agent-upload-artifact-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml"
+    },
+    {
+      "component": "relative-ci/agent-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/relative-ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "all-contributors/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "apidoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "all-contributors-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "shx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apidoc-documentation.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apidoc-documentation.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apidoc-documentation.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "cloudflare/pages-action@1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-apidoc-documentation.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "Build and publish apidoc documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-demo-website.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-demo-website.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-demo-website.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "cloudflare/pages-action@1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-demo-website.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "Build and publish demo website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-dev-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-dev-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-dev-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-dev-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-dev-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-dev-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-dev-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-dev-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-dev-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-dev-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "Build Gladys dev images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-master-test.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-master-test.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-master-test.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-master-test.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-master-test.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "Master branch tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "cypress-io/github-action@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "relative-ci/agent-upload-artifact-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pr-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-pr-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "Pull request tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-release-build.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "Release Gladys Production Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-gladys-plus-production.yml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "Publish Gladys Plus front to production",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/relative-ci.yaml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "relative-ci/agent-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/relative-ci.yaml",
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "RelativeCI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "gladys",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "home",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "home-automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "raspberry-pi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GladysAssistant/Gladys",
+      "target": "smarthome",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T19:21:46.469268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13827
+    },
+    {
+      "path": "package.json",
+      "size": 1972
+    },
+    {
+      "path": ".github/workflows/build-apidoc-documentation.yml",
+      "size": 972
+    },
+    {
+      "path": ".github/workflows/build-demo-website.yml",
+      "size": 1047
+    },
+    {
+      "path": ".github/workflows/docker-dev-build.yml",
+      "size": 2594
+    },
+    {
+      "path": ".github/workflows/docker-master-test.yml",
+      "size": 3858
+    },
+    {
+      "path": ".github/workflows/docker-pr-build.yml",
+      "size": 5819
+    },
+    {
+      "path": ".github/workflows/docker-release-build.yml",
+      "size": 6578
+    },
+    {
+      "path": ".github/workflows/publish-gladys-plus-production.yml",
+      "size": 319
+    },
+    {
+      "path": ".github/workflows/relative-ci.yaml",
+      "size": 353
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A privacy-first, open-source home assistant",
+    "fork": false,
+    "full_name": "GladysAssistant/Gladys",
+    "html_url": "https://github.com/GladysAssistant/Gladys",
+    "language": "JavaScript",
+    "pushed_at": "2026-05-11T15:37:58Z",
+    "stargazers_count": 3055,
+    "topics": [
+      "assistant",
+      "automation",
+      "gladys",
+      "home",
+      "home-automation",
+      "iot",
+      "nodejs",
+      "raspberry-pi",
+      "smarthome"
+    ],
+    "updated_at": "2026-05-12T09:59:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-contributors/all-contributors",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and publish apidoc documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-apidoc-documentation.yml",
+      "term": "Build and publish apidoc documentation"
+    },
+    {
+      "context_snippet": "Build and publish demo website",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-demo-website.yml",
+      "term": "Build and publish demo website"
+    },
+    {
+      "context_snippet": "Build Gladys dev images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-dev-build.yml",
+      "term": "Build Gladys dev images"
+    },
+    {
+      "context_snippet": "Master branch tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-master-test.yml",
+      "term": "Master branch tests"
+    },
+    {
+      "context_snippet": "Pull request tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-pr-build.yml",
+      "term": "Pull request tests"
+    },
+    {
+      "context_snippet": "Release Gladys Production Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-release-build.yml",
+      "term": "Release Gladys Production Images"
+    },
+    {
+      "context_snippet": "Publish Gladys Plus front to production",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-gladys-plus-production.yml",
+      "term": "Publish Gladys Plus front to production"
+    },
+    {
+      "context_snippet": "RelativeCI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/relative-ci.yaml",
+      "term": "RelativeCI"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assistant"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gladys"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "home"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "home-automation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raspberry-pi"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smarthome"
+    }
+  ]
+}

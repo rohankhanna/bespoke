@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-13T19:20:30.185643+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1245
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ruby implementation of LZ-String compression algorithm",
+    "fork": false,
+    "full_name": "altivi/lz_string",
+    "html_url": "https://github.com/altivi/lz_string",
+    "language": "Ruby",
+    "pushed_at": "2025-04-14T15:17:45Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2025-04-14T15:17:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

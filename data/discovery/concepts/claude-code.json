@@ -2020,6 +2020,30 @@
       "source_repo": "modelcontextprotocol/typescript-sdk",
       "status": "candidate-context",
       "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alterego-987/council-mcp",
+      "status": "candidate-context",
+      "text": "MCP server that gives Claude a review council - other LLMs fact-check responses before you see them"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alterego-987/council-mcp",
+      "status": "candidate-context",
+      "text": "An MCP server that gives Claude a **review council** \u2014 other LLMs that fact-check Claude's responses before you see them."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pdfme/pdfme",
+      "status": "candidate-context",
+      "text": "Open-source PDF generation library built with TypeScript and React. Features a WYSIWYG template designer, PDF viewer, and powerful generation capabilities. Create custom PDFs effortlessly in both browser and Node.js environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdfme/pdfme",
+      "status": "candidate-context",
+      "text": "Claude Code"
     }
   ],
   "candidate_glosses": [
@@ -3034,6 +3058,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "modelcontextprotocol/typescript-sdk",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alterego-987/council-mcp",
+      "status": "candidate",
+      "text": "An MCP server that gives Claude a **review council** \u2014 other LLMs that fact-check Claude's responses before you see them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdfme/pdfme",
       "status": "candidate",
       "text": "Claude Code"
     }
@@ -7201,11 +7237,53 @@
       "observed_at": "2026-05-13T12:58:22.952944+00:00",
       "source_file": null,
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "alterego-987/council-mcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "pdfme/pdfme"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "lexical_providers": [
     "datamuse"
   ],

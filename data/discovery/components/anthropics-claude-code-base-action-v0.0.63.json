@@ -1,0 +1,17 @@
+{
+  "component": "anthropics/claude-code-base-action@v0.0.63",
+  "first_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/daily-brief.yml",
+      "source_repo": "Aayushm24/presidential-briefing"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/weekly-feedback.yml",
+      "source_repo": "Aayushm24/presidential-briefing"
+    }
+  ]
+}

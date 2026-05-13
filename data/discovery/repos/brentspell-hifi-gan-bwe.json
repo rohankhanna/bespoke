@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brentspell/hifi-gan-bwe",
+      "target": "bmcfee/resampy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "brentspell/hifi-gan-bwe",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "brentspell/hifi-gan-bwe",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "brentspell/hifi-gan-bwe",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T19:21:06.544569+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9620
+    },
+    {
+      "path": "requirements.txt",
+      "size": 4155
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 631
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unofficial implementation of HiFi-GAN+ from the paper \"Bandwidth Extension is All You Need\" by Su, et al.",
+    "fork": false,
+    "full_name": "brentspell/hifi-gan-bwe",
+    "html_url": "https://github.com/brentspell/hifi-gan-bwe",
+    "language": "Python",
+    "pushed_at": "2023-10-20T20:10:03Z",
+    "stargazers_count": 223,
+    "topics": [],
+    "updated_at": "2026-03-11T06:03:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bmcfee/resampy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AI Presidential Briefing: Daily knowledge synthesis system with memory layer, LLM council, and LinkedIn post generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Daily Brief"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Daily Brief"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11727,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11727,
+      "status": "candidate",
+      "text": "card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11727,
+      "status": "candidate",
+      "text": "errand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11727,
+      "status": "candidate",
+      "text": "nap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11727,
+      "status": "candidate",
+      "text": "news"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Daily Brief",
+      "sense_id": "daily-brief#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "daily-brief",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "daily-brief",
+  "observation_id": "e9b09d84974bc2de",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-13T18:45:31.430554+00:00",
+  "observed_text": "Daily Brief",
+  "source_context_snippet": "Daily Brief",
+  "source_file": ".github/workflows/daily-brief.yml",
+  "source_repo": "Aayushm24/presidential-briefing",
+  "source_repo_description": "AI Presidential Briefing: Daily knowledge synthesis system with memory layer, LLM council, and LinkedIn post generation"
+}

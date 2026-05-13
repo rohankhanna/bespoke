@@ -427,6 +427,18 @@
       "source_repo": "typicode/mistcss",
       "status": "candidate-context",
       "text": "> Simplicity is the ultimate sophistication"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fuma-nama/fumadocs",
+      "status": "candidate-context",
+      "text": "The beautiful & flexible React.js docs framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fuma-nama/fumadocs",
+      "status": "candidate-context",
+      "text": "![banner](./apps/docs/public/banner.png)"
     }
   ],
   "candidate_glosses": [
@@ -639,6 +651,12 @@
       "source_repo": "typicode/mistcss",
       "status": "candidate",
       "text": "> Simplicity is the ultimate sophistication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fuma-nama/fumadocs",
+      "status": "candidate",
+      "text": "![banner](./apps/docs/public/banner.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -2044,11 +2062,29 @@
       "observed_at": "2026-05-13T12:58:22.952944+00:00",
       "source_file": null,
       "source_repo": "blitz-js/next-superjson-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "fuma-nama/fumadocs"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "lexical_providers": [
     "datamuse"
   ],

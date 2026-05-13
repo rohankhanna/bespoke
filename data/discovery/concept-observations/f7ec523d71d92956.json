@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A privacy-first, open-source home assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Master branch tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Master branch tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18890,
+      "status": "candidate",
+      "text": "shroff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18835,
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18835,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18722,
+      "status": "candidate",
+      "text": "boss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18722,
+      "status": "candidate",
+      "text": "mistress"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Master branch tests",
+      "sense_id": "master-branch-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "master-branch-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "master-branch-tests",
+  "observation_id": "f7ec523d71d92956",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-13T18:45:31.430554+00:00",
+  "observed_text": "Master branch tests",
+  "source_context_snippet": "Master branch tests",
+  "source_file": ".github/workflows/docker-master-test.yml",
+  "source_repo": "GladysAssistant/Gladys",
+  "source_repo_description": "A privacy-first, open-source home assistant"
+}

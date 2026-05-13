@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-13T19:19:30.328270+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4123
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 356
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Personal AI Council - 5 LLM models debate SAP questions. Built with FastAPI, React, Grok API. FREE to run locally.",
+    "fork": false,
+    "full_name": "abbhisap/LLM-Council-SAP",
+    "html_url": "https://github.com/abbhisap/LLM-Council-SAP",
+    "language": "Python",
+    "pushed_at": "2026-03-09T11:39:49Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-09T11:39:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

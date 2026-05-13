@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Auto-merge Dependabot PRs"
+    "Auto-merge Dependabot PRs",
+    "Auto-Merge Dependabot PRs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "domoritz/arrow-wasm",
       "status": "candidate-context",
       "text": "Auto-merge Dependabot PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ioBroker/ioBroker.matter",
+      "status": "candidate-context",
+      "text": "Implementation of Bridges, Devices and Controller for Matter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ioBroker/ioBroker.matter",
+      "status": "candidate-context",
+      "text": "Auto-Merge Dependabot PRs"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +58,12 @@
       "source_repo": "domoritz/arrow-wasm",
       "status": "candidate",
       "text": "Auto-merge Dependabot PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ioBroker/ioBroker.matter",
+      "status": "candidate",
+      "text": "Auto-Merge Dependabot PRs"
     }
   ],
   "candidate_related_terms": [
@@ -111,11 +130,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/merge-dependabot.yml",
       "source_repo": "domoritz/arrow-wasm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": ".github/workflows/automerge-dependabot.yml",
+      "source_repo": "ioBroker/ioBroker.matter"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "lexical_providers": [
     "datamuse"
   ],

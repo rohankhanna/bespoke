@@ -1,0 +1,220 @@
+{
+  "components": [
+    {
+      "component": "@project-chip/matter-node.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fast-glob",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pick-port",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-deferred",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/bn.js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node-red",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ncp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-red",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FezVrasta/node-red-matter",
+      "target": "project-chip/matter.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "FezVrasta/node-red-matter",
+      "target": "@project-chip/matter-node.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "FezVrasta/node-red-matter",
+      "target": "fast-glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "FezVrasta/node-red-matter",
+      "target": "pick-port",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "FezVrasta/node-red-matter",
+      "target": "ts-deferred",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "FezVrasta/node-red-matter",
+      "target": "@types/bn.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "FezVrasta/node-red-matter",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "FezVrasta/node-red-matter",
+      "target": "@types/node-red",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "FezVrasta/node-red-matter",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "FezVrasta/node-red-matter",
+      "target": "ncp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "FezVrasta/node-red-matter",
+      "target": "node-red",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "FezVrasta/node-red-matter",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "FezVrasta/node-red-matter",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FezVrasta/node-red-matter",
+      "target": "matter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FezVrasta/node-red-matter",
+      "target": "node-red",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T19:21:41.910773+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3658
+    },
+    {
+      "path": "package.json",
+      "size": 1442
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Create Virtual Devices with Ease for the Matter Protocol!",
+    "fork": false,
+    "full_name": "FezVrasta/node-red-matter",
+    "html_url": "https://github.com/FezVrasta/node-red-matter",
+    "language": "TypeScript",
+    "pushed_at": "2024-04-17T20:53:09Z",
+    "stargazers_count": 50,
+    "topics": [
+      "matter",
+      "node-red"
+    ],
+    "updated_at": "2026-02-25T16:09:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "project-chip/matter.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The Node-RED Matter plugin is an open-source project that enables the generation of Matter devices within Node-RED.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matter"
+    },
+    {
+      "context_snippet": "The Node-RED Matter plugin is an open-source project that enables the generation of Matter devices within Node-RED.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-red"
+    }
+  ]
+}

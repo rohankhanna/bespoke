@@ -199,6 +199,18 @@
       "source_repo": "benedekrozemberczki/DANMF",
       "status": "candidate-context",
       "text": "DANMF"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "biggytruck/SpeechSplit2",
+      "status": "candidate-context",
+      "text": "Official implementation of SpeechSplit2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biggytruck/SpeechSplit2",
+      "status": "candidate-context",
+      "text": "Official implementation of [SpeechSplit 2.0: Unsupervised speech disentanglement for voice conversion Without tuning autoencoder Bottlenecks](https://arxiv.org/pdf/2203.14156.pdf)."
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "benedekrozemberczki/DANMF",
       "status": "candidate",
       "text": "DANMF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biggytruck/SpeechSplit2",
+      "status": "candidate",
+      "text": "Official implementation of [SpeechSplit 2.0: Unsupervised speech disentanglement for voice conversion Without tuning autoencoder Bottlenecks](https://arxiv.org/pdf/2203.14156.pdf)."
     }
   ],
   "candidate_related_terms": [],
@@ -640,11 +658,17 @@
       "observed_at": "2026-05-13T12:58:22.952944+00:00",
       "source_file": null,
       "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "biggytruck/SpeechSplit2"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "lexical_providers": [
     "datamuse"
   ],

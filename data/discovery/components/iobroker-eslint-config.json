@@ -1,0 +1,12 @@
+{
+  "component": "@iobroker/eslint-config",
+  "first_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "sources": [
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ioBroker/ioBroker.matter"
+    }
+  ]
+}

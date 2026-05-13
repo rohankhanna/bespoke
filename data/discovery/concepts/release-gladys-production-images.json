@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Gladys Production Images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GladysAssistant/Gladys",
+      "status": "candidate-context",
+      "text": "A privacy-first, open-source home assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GladysAssistant/Gladys",
+      "status": "candidate-context",
+      "text": "Release Gladys Production Images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GladysAssistant/Gladys",
+      "status": "candidate",
+      "text": "Release Gladys Production Images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33141,
+      "status": "candidate",
+      "text": "montage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33141,
+      "status": "candidate",
+      "text": "video"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31547,
+      "status": "candidate",
+      "text": "blank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26405,
+      "status": "candidate",
+      "text": "sporulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26294,
+      "status": "candidate",
+      "text": "automatism"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Gladys Production Images",
+  "concept_id": "release-gladys-production-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": ".github/workflows/docker-release-build.yml",
+      "source_repo": "GladysAssistant/Gladys"
+    }
+  ],
+  "first_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Gladys Production Images",
+      "sense_id": "release-gladys-production-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

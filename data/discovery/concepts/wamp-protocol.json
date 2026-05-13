@@ -232,11 +232,17 @@
       "observed_at": "2026-05-13T07:12:28.410129+00:00",
       "source_file": null,
       "source_repo": "wamp-proto/wamp-xbr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "wamp-proto/wamp-xbr"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "lexical_providers": [
     "datamuse"
   ],

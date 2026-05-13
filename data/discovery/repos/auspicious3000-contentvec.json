@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auspicious3000/contentvec",
+      "target": "self-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auspicious3000/contentvec",
+      "target": "speech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T19:21:00.244398+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2158
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "speech self-supervised representations",
+    "fork": false,
+    "full_name": "auspicious3000/contentvec",
+    "html_url": "https://github.com/auspicious3000/contentvec",
+    "language": "Python",
+    "pushed_at": "2023-04-27T21:08:07Z",
+    "stargazers_count": 519,
+    "topics": [
+      "self-supervised-learning",
+      "speech"
+    ],
+    "updated_at": "2026-05-13T14:45:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository provides the official PyTorch implementation of [ContentVec](https://arxiv.org/abs/2204.09224).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised-learning"
+    },
+    {
+      "context_snippet": "This repository provides the official PyTorch implementation of [ContentVec](https://arxiv.org/abs/2204.09224).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    }
+  ]
+}

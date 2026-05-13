@@ -111,13 +111,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "TEN-framework/ten-framework",
-      "target": "ten-framework/ten-vad",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "TEN-framework/ten-framework",
       "target": "ten-framework/ten-agent",
       "target_type": "repository"
     },
@@ -353,7 +346,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T13:06:54.970593+00:00",
+  "fetched_at": "2026-05-13T19:21:32.617269+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -414,17 +407,12 @@
       "video",
       "voice"
     ],
-    "updated_at": "2026-05-13T12:53:05Z"
+    "updated_at": "2026-05-13T16:06:35Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "ten-framework/ten-agent",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ten-framework/ten-vad",
       "source_file": "README.md"
     }
   ],

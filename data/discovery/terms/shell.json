@@ -1,41 +1,11 @@
 {
-  "first_seen_at": "2026-05-13T12:58:22.952944+00:00",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "first_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "scop/bash-completion"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "git-quick-stats/git-quick-stats"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "nvm-sh/nvm"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "nodenv/nodenv"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "denysdovhan/robbyrussell-node"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "spaceship-prompt/spaceship-prompt"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "ohmyzsh/ohmyzsh"
+      "source_repo": "nushell/nushell"
     }
   ],
   "term": "shell"

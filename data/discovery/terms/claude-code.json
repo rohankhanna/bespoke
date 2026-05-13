@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -1196,6 +1196,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "modelcontextprotocol/typescript-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "alterego-987/council-mcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "pdfme/pdfme"
     }
   ],
   "term": "Claude Code"

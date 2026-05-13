@@ -31,6 +31,18 @@
       "source_repo": "NVIDIA/BigVGAN",
       "status": "candidate-context",
       "text": "[[Paper]](https://arxiv.org/abs/2206.04658) - [[Code]](https://github.com/NVIDIA/BigVGAN) - [[Showcase]](https://bigvgan-demo.github.io/) - [[Project Page]](https://research.nvidia.com/labs/adlr/projects/bigvgan/) - [[Weights]](https://huggingface.co/collections/nvidia/bigvgan-6\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SJTMusicTeam/Muskits",
+      "status": "candidate-context",
+      "text": "An opensource music processing toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SJTMusicTeam/Muskits",
+      "status": "candidate-context",
+      "text": "<div align=\"left\"><img src=\"doc/image/muskit_logo.png\" width=\"550\"/></div>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "NVIDIA/BigVGAN",
       "status": "candidate",
       "text": "[[Paper]](https://arxiv.org/abs/2206.04658) - [[Code]](https://github.com/NVIDIA/BigVGAN) - [[Showcase]](https://bigvgan-demo.github.io/) - [[Project Page]](https://research.nvidia.com/labs/adlr/projects/bigvgan/) - [[Weights]](https://huggingface.co/collections/nvidia/bigvgan-6\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SJTMusicTeam/Muskits",
+      "status": "candidate",
+      "text": "<div align=\"left\"><img src=\"doc/image/muskit_logo.png\" width=\"550\"/></div>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-13T07:12:28.410129+00:00",
       "source_file": null,
       "source_repo": "NVIDIA/BigVGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "SJTMusicTeam/Muskits"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "lexical_providers": [
     "datamuse"
   ],

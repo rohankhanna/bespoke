@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/speech-resynthesis",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/speech-resynthesis",
+      "target": "facebookresearch/libri-light",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/speech-resynthesis",
+      "target": "openai/jukebox",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-13T19:21:09.125820+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6066
+    },
+    {
+      "path": "requirements.txt",
+      "size": 98
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "An official reimplementation of the method described in the INTERSPEECH 2021 paper - Speech Resynthesis from Discrete Disentangled Self-Supervised Representations.",
+    "fork": false,
+    "full_name": "facebookresearch/speech-resynthesis",
+    "html_url": "https://github.com/facebookresearch/speech-resynthesis",
+    "language": "Python",
+    "pushed_at": "2023-08-29T10:16:18Z",
+    "stargazers_count": 415,
+    "topics": [],
+    "updated_at": "2026-04-01T06:53:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/libri-light",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/jukebox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/fairseq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

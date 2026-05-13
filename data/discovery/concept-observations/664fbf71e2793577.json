@@ -84,7 +84,7 @@
   "normalized_form": "cli-release",
   "observation_id": "664fbf71e2793577",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-13T07:12:28.410129+00:00",
+  "observed_at": "2026-05-13T18:45:31.430554+00:00",
   "observed_text": "CLI Release",
   "source_context_snippet": "CLI Release",
   "source_file": ".github/workflows/release-cli.yml",

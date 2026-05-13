@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "@project-chip/matter-node.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@project-chip/matter.js-tools",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "zigbee-herdsman",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/bn.js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nodemon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "antonio-gabriele/zigbee-matter-bridge",
+      "target": "@project-chip/matter-node.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "antonio-gabriele/zigbee-matter-bridge",
+      "target": "@project-chip/matter.js-tools",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "antonio-gabriele/zigbee-matter-bridge",
+      "target": "zigbee-herdsman",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antonio-gabriele/zigbee-matter-bridge",
+      "target": "@types/bn.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antonio-gabriele/zigbee-matter-bridge",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antonio-gabriele/zigbee-matter-bridge",
+      "target": "nodemon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antonio-gabriele/zigbee-matter-bridge",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antonio-gabriele/zigbee-matter-bridge",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antonio-gabriele/zigbee-matter-bridge",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-13T19:21:39.174687+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2010
+    },
+    {
+      "path": "package.json",
+      "size": 624
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Zigbee Matter Bridge",
+    "fork": false,
+    "full_name": "antonio-gabriele/zigbee-matter-bridge",
+    "html_url": "https://github.com/antonio-gabriele/zigbee-matter-bridge",
+    "language": "TypeScript",
+    "pushed_at": "2023-12-13T20:54:30Z",
+    "stargazers_count": 51,
+    "topics": [],
+    "updated_at": "2025-12-21T22:10:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "LinkedIn Performance"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "status": "candidate-context",
+      "text": "AI Presidential Briefing: Daily knowledge synthesis system with memory layer, LLM council, and LinkedIn post generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "status": "candidate-context",
+      "text": "LinkedIn Performance"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aayushm24/presidential-briefing",
+      "status": "candidate",
+      "text": "LinkedIn Performance"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17334,
+      "status": "candidate",
+      "text": "job"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10304,
+      "status": "candidate",
+      "text": "hirer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "accelerator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "accompany"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "accomplish"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "LinkedIn Performance",
+  "concept_id": "linkedin-performance",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": ".github/workflows/linkedin-performance.yml",
+      "source_repo": "Aayushm24/presidential-briefing"
+    }
+  ],
+  "first_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "LinkedIn Performance",
+      "sense_id": "linkedin-performance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

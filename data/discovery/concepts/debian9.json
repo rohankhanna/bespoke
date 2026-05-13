@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "debian9"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SJTMusicTeam/Muskits",
+      "status": "candidate-context",
+      "text": "An opensource music processing toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SJTMusicTeam/Muskits",
+      "status": "candidate-context",
+      "text": "debian9"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SJTMusicTeam/Muskits",
+      "status": "candidate",
+      "text": "debian9"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "debian9",
+  "concept_id": "debian9",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": ".github/workflows/debian9.yml",
+      "source_repo": "SJTMusicTeam/Muskits"
+    }
+  ],
+  "first_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "debian9",
+      "sense_id": "debian9#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Personal-Planning-Plugin",
+      "target": "danielrosehill/therapy-tracking-plugin",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-13T19:18:53.924509+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2179
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Claude Code plugin: personal life planning workflow \u2014 log-entry/review-progress/set-goal primitives, with diary/health/family/house-search/preparedness/therapy/personal-dev variants.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Personal-Planning-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Personal-Planning-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-28T17:37:18Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-28T17:37:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/therapy-tracking-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

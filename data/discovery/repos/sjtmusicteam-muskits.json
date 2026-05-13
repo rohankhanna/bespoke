@@ -1,0 +1,237 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/centos7.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debian9.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debian9.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/centos7.yml",
+      "source_repo": "SJTMusicTeam/Muskits",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/centos7.yml",
+      "source_repo": "SJTMusicTeam/Muskits",
+      "target": "centos7",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "SJTMusicTeam/Muskits",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "SJTMusicTeam/Muskits",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "SJTMusicTeam/Muskits",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "SJTMusicTeam/Muskits",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debian9.yml",
+      "source_repo": "SJTMusicTeam/Muskits",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debian9.yml",
+      "source_repo": "SJTMusicTeam/Muskits",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/debian9.yml",
+      "source_repo": "SJTMusicTeam/Muskits",
+      "target": "debian9",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml",
+      "source_repo": "SJTMusicTeam/Muskits",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml",
+      "source_repo": "SJTMusicTeam/Muskits",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SJTMusicTeam/Muskits",
+      "target": "music-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SJTMusicTeam/Muskits",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SJTMusicTeam/Muskits",
+      "target": "singing-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SJTMusicTeam/Muskits",
+      "target": "singing-voice-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T19:20:55.707699+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2709
+    },
+    {
+      "path": ".github/workflows/centos7.yml",
+      "size": 1455
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1858
+    },
+    {
+      "path": ".github/workflows/debian9.yml",
+      "size": 1182
+    },
+    {
+      "path": ".github/workflows/pythonpublish.yml",
+      "size": 864
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "An opensource music processing toolkit",
+    "fork": false,
+    "full_name": "SJTMusicTeam/Muskits",
+    "html_url": "https://github.com/SJTMusicTeam/Muskits",
+    "language": "Python",
+    "pushed_at": "2023-06-25T02:47:11Z",
+    "stargazers_count": 322,
+    "topics": [
+      "music-synthesis",
+      "pytorch",
+      "singing-synthesis",
+      "singing-voice-synthesis"
+    ],
+    "updated_at": "2026-05-05T05:56:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "centos7",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/centos7.yml",
+      "term": "centos7"
+    },
+    {
+      "context_snippet": "debian9",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/debian9.yml",
+      "term": "debian9"
+    },
+    {
+      "context_snippet": "<div align=\"left\"><img src=\"doc/image/muskit_logo.png\" width=\"550\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music-synthesis"
+    },
+    {
+      "context_snippet": "<div align=\"left\"><img src=\"doc/image/muskit_logo.png\" width=\"550\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<div align=\"left\"><img src=\"doc/image/muskit_logo.png\" width=\"550\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-synthesis"
+    },
+    {
+      "context_snippet": "<div align=\"left\"><img src=\"doc/image/muskit_logo.png\" width=\"550\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-voice-synthesis"
+    }
+  ]
+}

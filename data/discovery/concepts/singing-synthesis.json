@@ -43,6 +43,18 @@
       "source_repo": "MoonInTheRiver/NeuralSVB",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SJTMusicTeam/Muskits",
+      "status": "candidate-context",
+      "text": "An opensource music processing toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SJTMusicTeam/Muskits",
+      "status": "candidate-context",
+      "text": "<div align=\"left\"><img src=\"doc/image/muskit_logo.png\" width=\"550\"/></div>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "MoonInTheRiver/NeuralSVB",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SJTMusicTeam/Muskits",
+      "status": "candidate",
+      "text": "<div align=\"left\"><img src=\"doc/image/muskit_logo.png\" width=\"550\"/></div>"
     }
   ],
   "candidate_related_terms": [],
@@ -100,11 +118,23 @@
       "observed_at": "2026-05-13T12:58:22.952944+00:00",
       "source_file": null,
       "source_repo": "PlayVoice/VI-SVS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "SJTMusicTeam/Muskits"
     }
   ],
   "first_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "lexical_providers": [
     "datamuse"
   ],

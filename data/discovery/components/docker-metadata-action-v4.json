@@ -1,7 +1,7 @@
 {
   "component": "docker/metadata-action@v4",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -387,6 +387,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "itzg/docker-minecraft-bedrock-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-dev-build.yml",
+      "source_repo": "GladysAssistant/Gladys"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-build.yml",
+      "source_repo": "GladysAssistant/Gladys"
     }
   ]
 }

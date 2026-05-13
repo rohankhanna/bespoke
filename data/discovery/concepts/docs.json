@@ -2771,6 +2771,18 @@
       "source_repo": "reubeno/brush",
       "status": "candidate-context",
       "text": "\"Docs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fuma-nama/fumadocs",
+      "status": "candidate-context",
+      "text": "The beautiful & flexible React.js docs framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fuma-nama/fumadocs",
+      "status": "candidate-context",
+      "text": "![banner](./apps/docs/public/banner.png)"
     }
   ],
   "candidate_glosses": [
@@ -4159,6 +4171,12 @@
       "source_repo": "reubeno/brush",
       "status": "candidate",
       "text": "\"Docs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fuma-nama/fumadocs",
+      "status": "candidate",
+      "text": "![banner](./apps/docs/public/banner.png)"
     }
   ],
   "candidate_related_terms": [
@@ -8262,11 +8280,29 @@
       "observed_at": "2026-05-13T12:58:22.952944+00:00",
       "source_file": null,
       "source_repo": "adamchainz/blacken-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": ".github/workflows/panvimdoc.yaml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "rust-lang/packed_simd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "fuma-nama/fumadocs"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "lexical_providers": [
     "datamuse"
   ],

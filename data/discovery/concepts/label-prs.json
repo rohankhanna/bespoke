@@ -44,6 +44,18 @@
       "source_repo": "pacstall/pacstall-programs",
       "status": "candidate-context",
       "text": "Label PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nushell/nushell",
+      "status": "candidate-context",
+      "text": "A new type of shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nushell/nushell",
+      "status": "candidate-context",
+      "text": "Label PRs"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pacstall/pacstall-programs",
+      "status": "candidate",
+      "text": "Label PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nushell/nushell",
       "status": "candidate",
       "text": "Label PRs"
     }
@@ -137,11 +155,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/label-pr.yml",
       "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "nushell/nushell"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "lexical_providers": [
     "datamuse"
   ],

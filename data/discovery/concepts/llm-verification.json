@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "llm-verification"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alterego-987/council-mcp",
+      "status": "candidate-context",
+      "text": "MCP server that gives Claude a review council - other LLMs fact-check responses before you see them"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alterego-987/council-mcp",
+      "status": "candidate-context",
+      "text": "An MCP server that gives Claude a **review council** \u2014 other LLMs that fact-check Claude's responses before you see them."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alterego-987/council-mcp",
+      "status": "candidate",
+      "text": "An MCP server that gives Claude a **review council** \u2014 other LLMs that fact-check Claude's responses before you see them."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "llm-verification",
+  "concept_id": "llm-verification",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "alterego-987/council-mcp"
+    }
+  ],
+  "first_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "llm-verification",
+      "sense_id": "llm-verification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

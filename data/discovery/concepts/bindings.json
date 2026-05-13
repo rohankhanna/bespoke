@@ -238,6 +238,18 @@
       "source_repo": "Aleph-Alpha/ts-rs",
       "status": "candidate-context",
       "text": "<h1 align=\"center\" style=\"padding-top: 0; margin-top: 0;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adumbidiot/lz-str-rs",
+      "status": "candidate-context",
+      "text": "A port of lz-string to Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adumbidiot/lz-str-rs",
+      "status": "candidate-context",
+      "text": "Bindings"
     }
   ],
   "candidate_glosses": [
@@ -354,6 +366,12 @@
       "source_repo": "Aleph-Alpha/ts-rs",
       "status": "candidate",
       "text": "<h1 align=\"center\" style=\"padding-top: 0; margin-top: 0;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adumbidiot/lz-str-rs",
+      "status": "candidate",
+      "text": "Bindings"
     }
   ],
   "candidate_related_terms": [
@@ -769,11 +787,17 @@
       "observed_at": "2026-05-13T12:58:22.952944+00:00",
       "source_file": null,
       "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": ".github/workflows/Bindings.yml",
+      "source_repo": "adumbidiot/lz-str-rs"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "lexical_providers": [
     "datamuse"
   ],

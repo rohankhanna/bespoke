@@ -1,0 +1,260 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Bindings.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Bindings.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Bindings.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Doc.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Doc.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Bindings.yml",
+      "source_repo": "adumbidiot/lz-str-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Bindings.yml",
+      "source_repo": "adumbidiot/lz-str-rs",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Bindings.yml",
+      "source_repo": "adumbidiot/lz-str-rs",
+      "target": "Bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "adumbidiot/lz-str-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "adumbidiot/lz-str-rs",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "adumbidiot/lz-str-rs",
+      "target": "EmbarkStudios/cargo-deny-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "adumbidiot/lz-str-rs",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Doc.yml",
+      "source_repo": "adumbidiot/lz-str-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Doc.yml",
+      "source_repo": "adumbidiot/lz-str-rs",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Doc.yml",
+      "source_repo": "adumbidiot/lz-str-rs",
+      "target": "Doc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adumbidiot/lz-str-rs",
+      "target": "lz-str-rs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adumbidiot/lz-str-rs",
+      "target": "lz-string",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adumbidiot/lz-str-rs",
+      "target": "lz-string-rs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adumbidiot/lz-str-rs",
+      "target": "lzstring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adumbidiot/lz-str-rs",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T19:20:25.385840+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2338
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1001
+    },
+    {
+      "path": ".github/workflows/Bindings.yml",
+      "size": 1254
+    },
+    {
+      "path": ".github/workflows/Build.yml",
+      "size": 1638
+    },
+    {
+      "path": ".github/workflows/Doc.yml",
+      "size": 485
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A port of lz-string to Rust",
+    "fork": false,
+    "full_name": "adumbidiot/lz-str-rs",
+    "html_url": "https://github.com/adumbidiot/lz-str-rs",
+    "language": "Rust",
+    "pushed_at": "2026-04-14T03:38:22Z",
+    "stargazers_count": 31,
+    "topics": [
+      "lz-str-rs",
+      "lz-string",
+      "lz-string-rs",
+      "lzstring",
+      "rust"
+    ],
+    "updated_at": "2026-01-05T23:51:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Bindings",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Bindings.yml",
+      "term": "Bindings"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Doc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Doc.yml",
+      "term": "Doc"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/lz-str.svg)](https://crates.io/crates/lz-str)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lz-str-rs"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/lz-str.svg)](https://crates.io/crates/lz-str)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lz-string"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/lz-str.svg)](https://crates.io/crates/lz-str)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lz-string-rs"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/lz-str.svg)](https://crates.io/crates/lz-str)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lzstring"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/lz-str.svg)](https://crates.io/crates/lz-str)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-MD-Chunk",
+      "target": "danielrosehill/claude-code-repos-index",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-13T19:18:51.627260+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1032
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Slash command for splitting up CLAUDE.md",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-MD-Chunk",
+    "html_url": "https://github.com/danielrosehill/Claude-MD-Chunk",
+    "language": "Shell",
+    "pushed_at": "2026-02-17T01:41:11Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-11T20:44:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-repos-index",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-13T19:21:37.974955+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7921
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Efficient neural speech synthesis",
+    "fork": false,
+    "full_name": "xiph/LPCNet",
+    "html_url": "https://github.com/xiph/LPCNet",
+    "language": "C",
+    "pushed_at": "2024-09-21T03:59:42Z",
+    "stargazers_count": 1213,
+    "topics": [],
+    "updated_at": "2026-05-06T07:09:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "speech self-supervised representations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository provides the official PyTorch implementation of [ContentVec](https://arxiv.org/abs/2204.09224)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository provides the official PyTorch implementation of [ContentVec](https://arxiv.org/abs/2204.09224)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "self-supervised-learning",
+      "sense_id": "self-supervised-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "self-supervised-learning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "self-supervised-learning",
+  "observation_id": "c09f8949639f9cd3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-13T18:45:31.430554+00:00",
+  "observed_text": "self-supervised-learning",
+  "source_context_snippet": "This repository provides the official PyTorch implementation of [ContentVec](https://arxiv.org/abs/2204.09224).",
+  "source_file": null,
+  "source_repo": "auspicious3000/contentvec",
+  "source_repo_description": "speech self-supervised representations"
+}

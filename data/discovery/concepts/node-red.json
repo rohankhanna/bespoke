@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "node-red"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FezVrasta/node-red-matter",
+      "status": "candidate-context",
+      "text": "Create Virtual Devices with Ease for the Matter Protocol!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FezVrasta/node-red-matter",
+      "status": "candidate-context",
+      "text": "The Node-RED Matter plugin is an open-source project that enables the generation of Matter devices within Node-RED."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FezVrasta/node-red-matter",
+      "status": "candidate",
+      "text": "The Node-RED Matter plugin is an open-source project that enables the generation of Matter devices within Node-RED."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "flowable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "labview"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "flowgorithm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "openembedded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "cisco devnet"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "node-red",
+  "concept_id": "node-red",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "FezVrasta/node-red-matter"
+    }
+  ],
+  "first_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "node-red",
+      "sense_id": "node-red#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

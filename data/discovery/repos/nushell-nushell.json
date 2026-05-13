@@ -1,0 +1,512 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "rustsec/audit-check@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1.12.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "peter-evans/find-comment@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/friendly-config-reminder.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/friendly-config-reminder.yml"
+    },
+    {
+      "component": "actions/labeler@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml"
+    },
+    {
+      "component": "hustcer/milestone-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone.yml"
+    },
+    {
+      "component": "hustcer/milestone-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yml"
+    },
+    {
+      "component": "hustcer/setup-nu@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yml"
+    },
+    {
+      "component": "hustcer/setup-nu@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yml"
+    },
+    {
+      "component": "JasonEtco/create-an-issue@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yml"
+    },
+    {
+      "component": "hustcer/setup-nu@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nushell/nushell",
+      "target": "nushell/awesome-nu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nushell/nushell",
+      "target": "nushell/showcase",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nushell/nushell",
+      "target": "ellie/atuin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nushell/nushell",
+      "target": "version-fox/vfox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "nushell/nushell",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "nushell/nushell",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "nushell/nushell",
+      "target": "rustsec/audit-check@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "nushell/nushell",
+      "target": "Security audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml",
+      "source_repo": "nushell/nushell",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/beta-test.yml",
+      "source_repo": "nushell/nushell",
+      "target": "Test on Beta Toolchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nushell/nushell",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nushell/nushell",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nushell/nushell",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1.12.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nushell/nushell",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nushell/nushell",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nushell/nushell",
+      "target": "continuous-integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/friendly-config-reminder.yml",
+      "source_repo": "nushell/nushell",
+      "target": "peter-evans/find-comment@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/friendly-config-reminder.yml",
+      "source_repo": "nushell/nushell",
+      "target": "peter-evans/create-or-update-comment@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/friendly-config-reminder.yml",
+      "source_repo": "nushell/nushell",
+      "target": "Comment on changes to the config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "nushell/nushell",
+      "target": "actions/labeler@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "nushell/nushell",
+      "target": "Label PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone.yml",
+      "source_repo": "nushell/nushell",
+      "target": "hustcer/milestone-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone.yml",
+      "source_repo": "nushell/nushell",
+      "target": "hustcer/milestone-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone.yml",
+      "source_repo": "nushell/nushell",
+      "target": "Milestone Action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yml",
+      "source_repo": "nushell/nushell",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yml",
+      "source_repo": "nushell/nushell",
+      "target": "hustcer/setup-nu@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yml",
+      "source_repo": "nushell/nushell",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yml",
+      "source_repo": "nushell/nushell",
+      "target": "JasonEtco/create-an-issue@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yml",
+      "source_repo": "nushell/nushell",
+      "target": "softprops/action-gh-release@v2.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-build.yml",
+      "source_repo": "nushell/nushell",
+      "target": "Nightly Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nushell/nushell",
+      "target": "nushell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nushell/nushell",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nushell/nushell",
+      "target": "shell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T19:20:05.905534+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11138
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 11998
+    },
+    {
+      "path": ".github/workflows/audit.yml",
+      "size": 576
+    },
+    {
+      "path": ".github/workflows/beta-test.yml",
+      "size": 1647
+    },
+    {
+      "path": ".github/workflows/check-msrv.nu",
+      "size": 564
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 7580
+    },
+    {
+      "path": ".github/workflows/friendly-config-reminder.yml",
+      "size": 1157
+    },
+    {
+      "path": ".github/workflows/labels.yml",
+      "size": 487
+    },
+    {
+      "path": ".github/workflows/milestone.yml",
+      "size": 828
+    },
+    {
+      "path": ".github/workflows/nightly-build.yml",
+      "size": 10323
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A new type of shell",
+    "fork": false,
+    "full_name": "nushell/nushell",
+    "html_url": "https://github.com/nushell/nushell",
+    "language": "Rust",
+    "pushed_at": "2026-05-13T17:01:05Z",
+    "stargazers_count": 39439,
+    "topics": [
+      "nushell",
+      "rust",
+      "shell"
+    ],
+    "updated_at": "2026-05-13T17:01:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ellie/atuin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nushell/awesome-nu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nushell/showcase",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "version-fox/vfox",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Security audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "term": "Security audit"
+    },
+    {
+      "context_snippet": "Test on Beta Toolchain",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/beta-test.yml",
+      "term": "Test on Beta Toolchain"
+    },
+    {
+      "context_snippet": "continuous-integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "continuous-integration"
+    },
+    {
+      "context_snippet": "Comment on changes to the config",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/friendly-config-reminder.yml",
+      "term": "Comment on changes to the config"
+    },
+    {
+      "context_snippet": "Label PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labels.yml",
+      "term": "Label PRs"
+    },
+    {
+      "context_snippet": "Milestone Action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone.yml",
+      "term": "Milestone Action"
+    },
+    {
+      "context_snippet": "Nightly Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-build.yml",
+      "term": "Nightly Build"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/nu.svg)](https://crates.io/crates/nu)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nushell"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/nu.svg)](https://crates.io/crates/nu)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/nu.svg)](https://crates.io/crates/nu)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "lz-string-rs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adumbidiot/lz-str-rs",
+      "status": "candidate-context",
+      "text": "A port of lz-string to Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adumbidiot/lz-str-rs",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/lz-str.svg)](https://crates.io/crates/lz-str)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adumbidiot/lz-str-rs",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/lz-str.svg)](https://crates.io/crates/lz-str)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "lz-string-rs",
+  "concept_id": "lz-string-rs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T18:45:31.430554+00:00",
+      "source_file": null,
+      "source_repo": "adumbidiot/lz-str-rs"
+    }
+  ],
+  "first_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lz-string-rs",
+      "sense_id": "lz-string-rs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

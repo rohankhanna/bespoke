@@ -48,7 +48,7 @@
   "normalized_form": "gitleaks",
   "observation_id": "68f52aacc3c46250",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-13T07:12:28.410129+00:00",
+  "observed_at": "2026-05-13T18:45:31.430554+00:00",
   "observed_text": "gitleaks",
   "source_context_snippet": "gitleaks",
   "source_file": ".github/workflows/gitleaks.yml",
