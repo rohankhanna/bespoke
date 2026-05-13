@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-05-12T07:47:44.345415+00:00`
+Generated at: `2026-05-13T05:48:18.537624+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 17
-- components: 9
-- concepts: 19
-- observations: 19
+- repos: 1
+- terms: 16
+- components: 7
+- concepts: 18
+- observations: 18
 
 ## Static behavior
 
@@ -26,12 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [git-friendly/git-friendly](https://github.com/git-friendly/git-friendly) | 521 | 2026-05-10T03:29:34Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [TypedDevs/bashunit](https://github.com/TypedDevs/bashunit) | 410 | 2026-05-07T20:43:19Z | Shell | Infrastructure/tooling | 16 | 7 | 18 | 18 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [git-friendly/git-friendly](https://github.com/git-friendly/git-friendly) | 521 | 2026-05-10T03:29:34Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [TypedDevs/bashunit](https://github.com/TypedDevs/bashunit) | 410 | 2026-05-07T20:43:19Z | Shell | Infrastructure/tooling | 16 | 7 | 18 | 18 |

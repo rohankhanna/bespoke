@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars · Rust
 
-Generated at: `2026-05-12T07:47:44.345415+00:00`
+Generated at: `2026-05-13T05:48:18.537624+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 15
-- components: 7
-- concepts: 15
-- observations: 15
+- repos: 2
+- terms: 5
+- components: 26
+- concepts: 5
+- observations: 5
 
 ## Static behavior
 
@@ -26,10 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [kurrent-io/KurrentDB-Client-Rust](https://github.com/kurrent-io/KurrentDB-Client-Rust) | 62 | 2026-05-11T21:45:38Z | Rust | CLI | 15 | 7 | 15 | 15 |
+| [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | 39 | 2026-05-12T20:11:46Z | Rust | Infrastructure/tooling | 5 | 18 | 5 | 5 |
+| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 80 | 2026-05-12T18:40:35Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [kurrent-io/KurrentDB-Client-Rust](https://github.com/kurrent-io/KurrentDB-Client-Rust) | 62 | 2026-05-11T21:45:38Z | Rust | CLI | 15 | 7 | 15 | 15 |
+| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 80 | 2026-05-12T18:40:35Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
+| [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | 39 | 2026-05-12T20:11:46Z | Rust | Infrastructure/tooling | 5 | 18 | 5 | 5 |

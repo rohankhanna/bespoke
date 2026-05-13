@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 56,
-    "concepts": 113,
-    "observations": 113,
-    "repos": 29,
-    "terms": 113
+    "components": 66,
+    "concepts": 120,
+    "observations": 120,
+    "repos": 30,
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
     "ad-si/awesome-music-production",
@@ -27,6 +27,7 @@
     "FasterXML/jackson",
     "flathub/flathub",
     "FuelLabs/fuel-specs",
+    "github/rest-api-description",
     "godotengine/awesome-godot",
     "libp2p/specs",
     "logseq/awesome-logseq",

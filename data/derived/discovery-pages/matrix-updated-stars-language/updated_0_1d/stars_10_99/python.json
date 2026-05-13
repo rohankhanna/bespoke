@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 2,
-    "terms": 7
+    "components": 0,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 1,
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
-    "apify/actor-templates",
-    "google-research/mseb"
+    "mesh-iit/cad-libraries"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1952,
-    "concepts": 1804,
-    "observations": 1810,
-    "repos": 792,
-    "terms": 1798
+    "concepts": 1798,
+    "observations": 1804,
+    "repos": 791,
+    "terms": 1792
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x7432/asm-ru",
@@ -672,7 +672,6 @@
     "rkubosz/base16-sway",
     "robertgzr/homebrew-tap",
     "robinheghan/differ",
-    "robinvanschaik/interpret-flair",
     "robotology/ycm-cmake-modules",
     "roginfarrer/vim-dirvish-dovish",
     "Rohan2002/IFEval",

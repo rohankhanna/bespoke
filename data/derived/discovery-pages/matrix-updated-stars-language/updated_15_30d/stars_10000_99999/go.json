@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1060,
-    "concepts": 1033,
-    "observations": 1037,
-    "repos": 92,
-    "terms": 1021
+    "components": 1085,
+    "concepts": 1062,
+    "observations": 1066,
+    "repos": 94,
+    "terms": 1050
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -89,6 +89,7 @@
     "opencontainers/runc",
     "opentofu/opentofu",
     "ory/hydra",
+    "php/frankenphp",
     "prometheus/node_exporter",
     "prometheus/prometheus",
     "quic-go/quic-go",
@@ -104,6 +105,7 @@
     "thanos-io/thanos",
     "trufflesecurity/trufflehog",
     "urfave/cli",
+    "v2fly/v2ray-core",
     "valyala/fasthttp",
     "wader/fq"
   ]

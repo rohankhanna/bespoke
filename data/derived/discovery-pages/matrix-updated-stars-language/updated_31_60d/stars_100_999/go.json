@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 334,
-    "concepts": 266,
-    "observations": 266,
+    "components": 332,
+    "concepts": 253,
+    "observations": 253,
     "repos": 48,
-    "terms": 264
+    "terms": 251
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
+    "2dust/AndroidLibV2rayLite",
     "adrg/xdg",
     "aws/aws-app-mesh-controller-for-k8s",
     "aws/aws-xray-daemon",
@@ -37,8 +38,8 @@
     "google/trillian-examples",
     "gopacket/gopacket",
     "gpustack/gguf-parser-go",
+    "hashicorp/go-discover",
     "hashicorp/hello-vault-go",
-    "hashicorp/raft-boltdb",
     "imjasonh/kontain.me",
     "ipfs/go-cid",
     "ipfs/ipfs-docs",
@@ -48,7 +49,6 @@
     "kubernetes-sigs/kubetest2",
     "lightninglabs/neutrino",
     "mailru/go-clickhouse",
-    "medama-io/medama",
     "minio/directpv",
     "minio/highwayhash",
     "notaryproject/notation",

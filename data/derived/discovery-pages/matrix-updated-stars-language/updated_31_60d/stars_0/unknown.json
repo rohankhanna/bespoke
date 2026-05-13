@@ -3,7 +3,7 @@
     "components": 36,
     "concepts": 36,
     "observations": 36,
-    "repos": 37,
+    "repos": 38,
     "terms": 36
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
+    "aaronrsun/spec-kit-issue",
     "adiny/moodtrip-hotel-search",
     "cachix/crossterm",
     "csjgg/ags-cookbook",

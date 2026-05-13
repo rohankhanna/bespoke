@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 201,
-    "concepts": 60,
-    "observations": 60,
-    "repos": 18,
-    "terms": 60
+    "components": 207,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 19,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "a5huynh/vscode-ron",
     "ably-labs/realtime-multiplayer-space-invaders",
+    "acemir/CSSOM",
     "apostrophecms/apostrophe-astro",
     "broccolijs/broccoli-plugin",
     "chrisdickinson/varint",

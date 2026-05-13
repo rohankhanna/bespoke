@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 177,
-    "concepts": 288,
-    "observations": 288,
-    "repos": 51,
-    "terms": 284
+    "components": 231,
+    "concepts": 304,
+    "observations": 304,
+    "repos": 53,
+    "terms": 300
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
+    "adafruit/Adafruit_NeoPixel",
     "AdAway/AdAway",
     "ashvardanian/less_slow.cpp",
     "asmvik/skhd",
@@ -22,6 +23,7 @@
     "brianmario/yajl-ruby",
     "bshoshany/thread-pool",
     "cjlin1/liblinear",
+    "cocos/cocos-engine",
     "codeplea/tinyexpr",
     "colmap/glomap",
     "cpputest/cpputest",
@@ -35,12 +37,12 @@
     "google/re2",
     "guinmoon/LLMFarm",
     "gulrak/filesystem",
-    "hanslub42/rlwrap",
     "hapostgres/pg_auto_failover",
     "InteractiveComputerGraphics/SPlisHSPlasH",
     "jedisct1/minisign",
     "jkuhlmann/cgltf",
     "jlblancoc/nanoflann",
+    "JoeDog/siege",
     "libimobiledevice/libimobiledevice",
     "libimobiledevice/usbmuxd",
     "libsndfile/libsndfile",

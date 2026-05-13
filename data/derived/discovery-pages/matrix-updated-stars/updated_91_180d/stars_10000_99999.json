@@ -1,23 +1,22 @@
 {
   "counts": {
-    "components": 1057,
-    "concepts": 562,
-    "observations": 565,
+    "components": 959,
+    "concepts": 555,
+    "observations": 558,
     "repos": 84,
-    "terms": 558
+    "terms": 551
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
     "andrewyng/aisuite",
     "anthropics/claude-quickstarts",
-    "anthropics/courses",
     "astral-sh/rye",
     "beehiveinnovations/pal-mcp-server",
     "binary-husky/gpt_academic",
@@ -41,6 +40,7 @@
     "FortAwesome/Font-Awesome",
     "forwardemail/superagent",
     "FoundationAgents/MetaGPT",
+    "FoundationAgents/OpenManus",
     "fsnotify/fsnotify",
     "fullstorydev/grpcurl",
     "github/copilot.vim",
@@ -61,6 +61,7 @@
     "Lightricks/LTX-Video",
     "linsa-io/linsa",
     "lllyasviel/Fooocus",
+    "lucidrains/denoising-diffusion-pytorch",
     "MatsuriDayo/NekoBoxForAndroid",
     "microsoft/unilm",
     "modin-project/modin",
@@ -74,7 +75,6 @@
     "QwenLM/Qwen3-VL",
     "ramda/ramda",
     "RasaHQ/rasa",
-    "Redocly/redoc",
     "redux-saga/redux-saga",
     "sczhou/CodeFormer",
     "slatedocs/slate",

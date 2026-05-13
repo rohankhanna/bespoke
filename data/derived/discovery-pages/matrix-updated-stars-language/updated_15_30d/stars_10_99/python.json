@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 575,
-    "concepts": 381,
-    "observations": 383,
-    "repos": 109,
-    "terms": 396
+    "components": 595,
+    "concepts": 393,
+    "observations": 395,
+    "repos": 113,
+    "terms": 407
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "Accenture/Cymple",
@@ -48,7 +48,7 @@
     "channel-io/ch-tts-llasa-rl-grpo",
     "chaoss/grimoirelab-sortinghat",
     "chengzhag/PanFlow",
-    "cloudartisan/cloudartisan.github.io",
+    "cloudfoundry/community",
     "conda-forge/admin-requests",
     "conda-forge/conda-forge-repodata-patches-feedstock",
     "costiash/claude-code-docs",
@@ -67,11 +67,11 @@
     "GaloisInc/BLST-Verification",
     "googleapis/python-pubsublite",
     "GreptimeTeam/demo-scene",
-    "GuyKh/ims-custom-component",
     "HabanaAI/vllm-fork",
     "harbor-framework/harbor-cookbook",
     "higlass/clodius",
     "HKU-BAL/Clair3-RNA",
+    "HKU-BAL/ClairS-TO",
     "hsliuustc0106/vllm-omni-skills",
     "IcyFish332/T3RL",
     "instadeepai/fastpbrl",
@@ -89,16 +89,18 @@
     "ModelCloud/Evalution",
     "mozilla-services/shavar-list-creation",
     "mypyc/mypyc-benchmarks",
+    "NeilGirdhar/tjax",
     "nix-community/nur-update",
     "NixOS/branding",
+    "NoakLiu/FastCache-xDiT",
     "notofonts/notobuilder",
     "oneapi-src/level-zero-spec",
     "OpenHands/benchmarks",
     "optuna/optuna-integration",
     "ParisNeo/safe_store",
     "pdm-project/tox-pdm",
-    "petercorke/ansitable",
     "plone/cookieplone",
+    "pre-commit/sync-pre-commit-deps",
     "psyonicinc/ability-hand-api",
     "pycompression/python-isal",
     "pyocd/libusb-package",
@@ -118,10 +120,12 @@
     "sublimelsp/LSP-ruff",
     "svaningelgem/logprise",
     "symgraph/BinAssistMCP",
+    "terrierteam/pyterrier_pisa",
     "theupdateframework/tuf-on-ci",
     "TigreGotico/phoonnx",
     "typeshed-internal/stub_uploader",
     "urschrei/pypolyline",
+    "xhluca/bm25-benchmarks",
     "zen-xu/pytest-modern"
   ]
 }

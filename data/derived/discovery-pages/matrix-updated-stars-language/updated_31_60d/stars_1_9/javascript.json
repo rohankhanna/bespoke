@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 605,
-    "concepts": 352,
-    "observations": 352,
-    "repos": 33,
-    "terms": 347
+    "components": 660,
+    "concepts": 378,
+    "observations": 378,
+    "repos": 35,
+    "terms": 373
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "actions-cool/test-issues-helper",
     "agent-sh/deslop",
@@ -25,6 +25,7 @@
     "ehmicky/fetch-node-website",
     "ehmicky/get-node-cli",
     "ehmicky/normalize-node-version",
+    "f3liz-casa/noraneko-runtime",
     "fishballapp/inquirer-cli",
     "forcedotcom/dev-config",
     "graphql/community-wg",
@@ -45,6 +46,7 @@
     "stdlib-js/array-typed-dtypes",
     "stdlib-js/ndarray-array",
     "stdlib-js/ndarray-dtype",
+    "stdlib-js/ndarray-index-modes",
     "stdlib-js/streams-node-stdin",
     "stdlib-js/streams-node-stdout"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2044,
-    "concepts": 480,
-    "observations": 488,
-    "repos": 97,
-    "terms": 503
+    "components": 2107,
+    "concepts": 491,
+    "observations": 499,
+    "repos": 100,
+    "terms": 512
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
@@ -29,7 +29,6 @@
     "bcomnes/npm-run-all2",
     "bmad-code-org/bmad-module-game-dev-studio",
     "Brooooooklyn/snappy",
-    "browserify/resolve",
     "browserslist/update-db",
     "carbon-design-system/carbon-components-vue",
     "chaijs/chai-http",
@@ -54,12 +53,12 @@
     "fastify/fastify-autoload",
     "gatsbyjs/gatsby-starter-hello-world",
     "GDevelopApp/GDevelop-examples",
-    "gopasspw/gopassbridge",
     "GordonChen19/Prompt-Relay",
     "graphql/graphql-over-http",
     "graphql/graphql-wg",
     "gruntjs/grunt-contrib-qunit",
     "higlass/higlass",
+    "hyparam/icebird",
     "i18next/i18next-browser-languageDetector",
     "i18next/i18next-fs-backend",
     "i18next/i18next-http-backend",
@@ -70,6 +69,7 @@
     "jest-community/jest-junit",
     "karma-runner/karma-coverage",
     "karma-runner/karma-jasmine",
+    "keithamus/sort-package-json",
     "kriszyp/lmdb-js",
     "kriszyp/msgpackr",
     "kurrent-io/KurrentDB-Client-NodeJS",
@@ -83,6 +83,8 @@
     "Mathpix/mathpix-markdown-it",
     "mattgodbolt/jsbeeb",
     "matzkoh/prettier-plugin-packagejson",
+    "mdn/data",
+    "mdn/mdn-http-observatory",
     "neostandard/neostandard",
     "nodejs/admin",
     "nodejs/TSC",
@@ -95,6 +97,7 @@
     "postcss/postcss-js",
     "postcss/postcss-load-config",
     "postcss/sugarss",
+    "prisma/ecosystem-tests",
     "reviewdog/action-eslint",
     "rooklift/ogatak",
     "rubyjs/mini_racer",

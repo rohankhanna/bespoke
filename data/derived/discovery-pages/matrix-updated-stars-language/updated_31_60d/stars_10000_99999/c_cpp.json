@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 138,
-    "observations": 138,
-    "repos": 18,
-    "terms": 131
+    "components": 114,
+    "concepts": 142,
+    "observations": 142,
+    "repos": 19,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "bellard/quickjs",
     "cloudwu/skynet",
@@ -28,6 +28,7 @@
     "lz4/lz4",
     "microsoft/AirSim",
     "mobile-shell/mosh",
+    "ninja-build/ninja",
     "nlohmann/json",
     "NVIDIA/open-gpu-kernel-modules",
     "taichi-dev/taichi",

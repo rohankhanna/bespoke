@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 200,
-    "observations": 202,
-    "repos": 34,
-    "terms": 200
+    "components": 157,
+    "concepts": 219,
+    "observations": 221,
+    "repos": 36,
+    "terms": 222
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "aaron-he-zhu/seo-geo-claude-skills",
     "alrra/dotfiles",
@@ -25,6 +25,7 @@
     "bluesky-social/pds",
     "clangd/clangd",
     "conda-forge/miniforge",
+    "confluentinc/demo-scene",
     "crosstool-ng/crosstool-ng",
     "devcontainers/features",
     "devcontainers/images",
@@ -35,6 +36,7 @@
     "docker-library/official-images",
     "docker-library/postgres",
     "dtcooper/raspotify",
+    "fluxcd/flux2-kustomize-helm-example",
     "frankbria/ralph-claude-code",
     "git-quick-stats/git-quick-stats",
     "google/adk-docs",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 295,
-    "concepts": 357,
-    "observations": 361,
-    "repos": 66,
-    "terms": 357
+    "components": 292,
+    "concepts": 340,
+    "observations": 344,
+    "repos": 64,
+    "terms": 341
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "alembic/alembic",
-    "Alex313031/thorium",
     "alibaba/havenask",
     "AlibabaResearch/AdvancedLiterateMachinery",
     "apache/singa",
@@ -32,6 +31,7 @@
     "DLTcollab/sse2neon",
     "duckdb/pg_duckdb",
     "ebiggers/libdeflate",
+    "ericniebler/range-v3",
     "espeak-ng/espeak-ng",
     "felt/tippecanoe",
     "go-gl/gl",
@@ -48,7 +48,6 @@
     "microsoft/DirectX-Graphics-Samples",
     "microsoft/GSL",
     "microsoft/snmalloc",
-    "mutouyun/cpp-ipc",
     "nalgeon/sqlean",
     "nigels-com/glew",
     "nmslib/hnswlib",
@@ -67,7 +66,6 @@
     "SarahWeiii/CoACD",
     "sqlcipher/sqlcipher",
     "SRombauts/SQLiteCpp",
-    "stevengj/nlopt",
     "stevenlovegrove/Pangolin",
     "syoyo/tinygltf",
     "TA-Lib/ta-lib",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 636,
-    "concepts": 564,
-    "observations": 566,
-    "repos": 40,
-    "terms": 564
+    "components": 618,
+    "concepts": 550,
+    "observations": 552,
+    "repos": 39,
+    "terms": 550
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "anchore/grype",
     "argoproj/argo-workflows",
@@ -27,6 +27,7 @@
     "dagger/dagger",
     "dgraph-io/dgraph",
     "DNSCrypt/dnscrypt-proxy",
+    "etcd-io/etcd",
     "git-lfs/git-lfs",
     "go-gitea/gitea",
     "go-playground/validator",
@@ -43,7 +44,6 @@
     "navidrome/navidrome",
     "oauth2-proxy/oauth2-proxy",
     "ory/kratos",
-    "php/frankenphp",
     "pingcap/tidb",
     "pion/webrtc",
     "pulumi/pulumi",
@@ -51,7 +51,6 @@
     "rqlite/rqlite",
     "SagerNet/sing-box",
     "seaweedfs/seaweedfs",
-    "v2fly/v2ray-core",
     "VictoriaMetrics/VictoriaMetrics",
     "XTLS/Xray-core"
   ]

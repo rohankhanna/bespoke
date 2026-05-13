@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 852,
-    "concepts": 3591,
-    "observations": 3593,
-    "repos": 916,
-    "terms": 3528
+    "concepts": 3601,
+    "observations": 3603,
+    "repos": 920,
+    "terms": 3540
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -316,6 +316,7 @@
     "GaParmar/img2img-turbo",
     "gemelo-ai/vocos",
     "genforce/interfacegan",
+    "genmoai/mochi",
     "GFW-knocker/gfw_resist_tls_proxy",
     "gligen/GLIGEN",
     "glumpy/glumpy",
@@ -555,6 +556,7 @@
     "mlfoundations/open_flamingo",
     "mmatl/pyrender",
     "moojink/openvla-oft",
+    "MoonInTheRiver/DiffSinger",
     "MoonshotAI/MoBA",
     "MooreThreads/Moore-AnimateAnyone",
     "mooz/percol",
@@ -589,6 +591,7 @@
     "NVIDIA-AI-IOT/trt_pose",
     "NVIDIA/MinkowskiEngine",
     "NVIDIA/pix2pixHD",
+    "NVIDIA/RULER",
     "NVIDIA/waveglow",
     "NVlabs/edm",
     "NVlabs/eg3d",
@@ -673,6 +676,7 @@
     "pengzhiliang/MAE-pytorch",
     "peritus/bumpversion",
     "petercorke/robotics-toolbox-python",
+    "PeterGriffinJin/Search-R1",
     "PeterL1n/BackgroundMattingV2",
     "PeterL1n/RobustVideoMatting",
     "pgjones/hypercorn",

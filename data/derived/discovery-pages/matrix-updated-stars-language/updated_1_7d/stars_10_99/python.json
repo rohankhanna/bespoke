@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 17,
-    "observations": 17,
+    "components": 52,
+    "concepts": 18,
+    "observations": 18,
     "repos": 5,
-    "terms": 15
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "Agnuxo1/CAJAL",
+    "apify/actor-templates",
+    "google-research/mseb",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
-    "intel-staging/text-generation-webui",
-    "mesh-iit/cad-libraries",
-    "python-jsonschema/referencing"
+    "intel-staging/text-generation-webui"
   ]
 }

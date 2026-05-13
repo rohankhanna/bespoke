@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 355,
-    "concepts": 215,
-    "observations": 215,
-    "repos": 76,
-    "terms": 212
+    "components": 354,
+    "concepts": 223,
+    "observations": 223,
+    "repos": 77,
+    "terms": 220
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "2KAbhishek/exercism.nvim",
     "ably-labs/realtime-quiz-framework",
     "AceCHQ/TransMatting",
-    "AdaCore/gnatcoll-bindings",
+    "adaszko/tree_climber_rust.nvim",
     "adelarsq/vim-emoji-icon-theme",
     "AghayeCoder/TX-ThemeHub",
     "AliRezaBeigy/paqetNG",
@@ -40,6 +40,7 @@
     "dbuenzli/logs",
     "devise-i18n/devise-i18n",
     "dominique-unruh/scala-isabelle",
+    "DragonFlyBSD/DPorts",
     "dwyl/cid",
     "dwyl/content",
     "dwyl/learn-payment-processing",
@@ -63,9 +64,9 @@
     "JunoLab/Atom.jl",
     "jupyter-xeus/xeus-python-wheel",
     "kahliburke/MCPRepl.jl",
+    "larshp/abapGitServer",
     "liquidev/lintplus",
     "mfussenegger/nlua",
-    "microsoft/windows-host-process-containers-base-image",
     "MicrosoftDocs/vcpkg-docs",
     "mirage/conan",
     "Mobile-Artificial-Intelligence/maise",

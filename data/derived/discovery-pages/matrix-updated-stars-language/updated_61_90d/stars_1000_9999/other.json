@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 247,
-    "concepts": 316,
-    "observations": 317,
-    "repos": 54,
-    "terms": 321
+    "components": 238,
+    "concepts": 301,
+    "observations": 302,
+    "repos": 51,
+    "terms": 306
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
     "amebalabs/TRex",
     "analysis-tools-dev/dynamic-analysis",
     "ardalis/ApiEndpoints",
+    "autofac/Autofac",
     "bbatsov/projectile",
     "clojure/clojurescript",
     "cognitect/transit-format",
     "dashbitco/mox",
-    "datawhalechina/tiny-universe",
     "Deci-AI/super-gradients",
     "dimitri/el-get",
     "ex-aws/ex_aws",
@@ -38,8 +38,6 @@
     "javan/whenever",
     "jpanther/congo",
     "kaminari/kaminari",
-    "kristijanhusak/vim-dadbod-ui",
-    "krzysztofzablocki/Sourcery",
     "lite-xl/lite-xl",
     "mdn/webassembly-examples",
     "mhinz/vim-signify",
@@ -48,7 +46,6 @@
     "nanxiaobei/hugo-paper",
     "omniauth/omniauth",
     "onnx/models",
-    "OpenBMB/MiniCPM",
     "parruda/swarm",
     "pgpartman/pg_partman",
     "preservim/vimux",
@@ -58,7 +55,6 @@
     "rspec/rspec-rails",
     "salesforce/BLIP",
     "sbt/sbt-native-packager",
-    "SpinalHDL/VexRiscv",
     "steipete/imsg",
     "stevearc/aerial.nvim",
     "stevearc/oil.nvim",
@@ -67,6 +63,7 @@
     "v2fly/v2ray-examples",
     "Vigemus/iron.nvim",
     "vkhorikov/CSharpFunctionalExtensions",
-    "woct0rdho/triton-windows"
+    "woct0rdho/triton-windows",
+    "z-x-yang/Segment-and-Track-Anything"
   ]
 }

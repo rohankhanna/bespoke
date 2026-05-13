@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 689,
-    "concepts": 587,
-    "observations": 588,
-    "repos": 73,
-    "terms": 585
+    "components": 677,
+    "concepts": 576,
+    "observations": 577,
+    "repos": 70,
+    "terms": 574
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "aliyun/aliyun-cli",
     "apache/dubbo-go-hessian2",
@@ -20,7 +20,6 @@
     "aquasecurity/trivy-db",
     "argoproj-labs/argocd-agent",
     "argoproj-labs/argocd-operator",
-    "aws-cloudformation/rain",
     "Azure/azure-dev",
     "Azure/azure-storage-azcopy",
     "Azure/azure-storage-fuse",
@@ -28,11 +27,9 @@
     "buildpacks/lifecycle",
     "celzero/firestack",
     "charmbracelet/x",
-    "ClickHouse/ch-go",
     "cloudfoundry/cf-deployment",
     "cloudfoundry/diego-release",
     "cloudpilot-ai/karpenter-provider-gcp",
-    "cloudwego/eino-examples",
     "cloudwego/eino-ext",
     "cometbft/cometbft",
     "controlplaneio-fluxcd/flux-operator",
@@ -50,6 +47,7 @@
     "gookit/cache",
     "gookit/config",
     "gookit/event",
+    "gookit/filter",
     "gookit/slog",
     "grafana/grafana-plugin-sdk-go",
     "helmfile/vals",
@@ -63,8 +61,7 @@
     "kubernetes-sigs/lws",
     "OffchainLabs/nitro",
     "operator-framework/operator-registry",
-    "oracle/oci-go-sdk",
-    "pion/ice",
+    "osmosis-labs/osmosis",
     "pion/interceptor",
     "pion/rtp",
     "pion/stun",

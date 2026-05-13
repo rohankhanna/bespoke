@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 104,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 3,
-    "terms": 26
+    "components": 111,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 4,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "mathjax/MathJax",
+    "pugjs/pug",
     "sql-js/sql.js",
     "videojs/video.js"
   ]

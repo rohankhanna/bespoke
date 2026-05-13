@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 131,
-    "concepts": 127,
-    "observations": 127,
-    "repos": 28,
-    "terms": 124
+    "components": 160,
+    "concepts": 143,
+    "observations": 144,
+    "repos": 32,
+    "terms": 140
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "agentclientprotocol/java-sdk",
     "apache/arrow-java",
@@ -27,9 +27,11 @@
     "cedar-policy/cedar-java",
     "codelibs/fess-crawler",
     "eclipse-shellwax/shellwax",
+    "edward3h/minecraft-webhook",
     "filip26/ld-cli",
     "google/guava-beta-checker",
     "googleapis/discovery-artifact-manager",
+    "googleapis/java-bigtable",
     "googleapis/java-cloud-bom",
     "GoogleCloudPlatform/opentelemetry-operations-java",
     "hivemq/helm-charts",
@@ -39,7 +41,9 @@
     "kurrent-io/KurrentDB-Client-Java",
     "m2e-code-quality/m2e-code-quality",
     "mukel/gemma4.java",
+    "opensim-org/opensim-gui",
     "simonpoole/OpeningHoursFragment",
+    "spiffe/java-spiffe",
     "xmlark/msv",
     "yawkat/lz4-java"
   ]

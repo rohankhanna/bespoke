@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 61441,
-    "concepts": 10571,
-    "observations": 10606,
-    "repos": 1869,
-    "terms": 10869
+    "components": 61624,
+    "concepts": 10616,
+    "observations": 10651,
+    "repos": 1875,
+    "terms": 10919
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "0h7z/vscode-julia-format",
@@ -357,6 +357,7 @@
     "cahamilton/stylelint-config-property-sort-order-smacss",
     "calcom/cal.diy",
     "callstack/react-native-testing-library",
+    "can1357/oh-my-pi",
     "caoxiemeihao/electron-vite-samples",
     "caoxiemeihao/nuxt-electron",
     "capricorn86/happy-dom",
@@ -981,7 +982,9 @@
     "kelektiv/node-cron",
     "kentcdodds/babel-plugin-preval",
     "kentcdodds/cross-env",
+    "kepano/defuddle",
     "kepano/obsidian-hider",
+    "Kilo-Org/kilocode",
     "kimosahy/railroaded",
     "Kingwl/monaco-volar",
     "kirodotdev/Kiro",
@@ -1504,6 +1507,7 @@
     "Roblox/setup-foreman",
     "robustmq/robustmq-copilot",
     "rolldown/tsdown",
+    "RooCodeInc/Roo-Code",
     "rose-pine/rose-pine-palette",
     "rstackjs/rsbuild-plugin-i18next-extractor",
     "rstackjs/rsbuild-plugin-tailwindcss",
@@ -1553,6 +1557,7 @@
     "sgcarstrends/sgcarstrends",
     "shareAI-lab/Kode-Agent",
     "shareai-lab/kode-agent-sdk",
+    "shareAI-lab/Kode-CLI",
     "shareai-lab/learn-claude-code",
     "shikijs/shiki",
     "Shougo/ddc.vim",
@@ -1854,6 +1859,7 @@
     "winily/zhipuai-sdk-nodejs-v4",
     "WisdomShell/codeshell-vscode",
     "withastro/astro",
+    "withastro/prettier-plugin-astro",
     "withastro/starlight",
     "withcatai/catai",
     "withcatai/node-llama-cpp",

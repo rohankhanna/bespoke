@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 32874,
-    "concepts": 14947,
-    "observations": 15002,
-    "repos": 1688,
-    "terms": 14897
+    "components": 32940,
+    "concepts": 14972,
+    "observations": 15027,
+    "repos": 1691,
+    "terms": 14937
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -871,6 +871,7 @@
     "kefranabg/readme-md-generator",
     "kepano/obsidian-skills",
     "keras-team/keras",
+    "Kilo-Org/kilocode",
     "KittenML/KittenTTS",
     "kkroening/ffmpeg-python",
     "KlingAIResearch/LivePortrait",
@@ -1276,6 +1277,7 @@
     "psf/requests",
     "pugjs/pug",
     "pulumi/pulumi",
+    "punkpeye/awesome-mcp-servers",
     "puppeteer/puppeteer",
     "px4/px4-autopilot",
     "pybind/pybind11",
@@ -1369,6 +1371,7 @@
     "rolldown/rolldown",
     "rollup/rollup",
     "romkatv/powerlevel10k",
+    "RooCodeInc/Roo-Code",
     "router-for-me/cliproxyapi",
     "RPCS3/rpcs3",
     "rqlite/rqlite",

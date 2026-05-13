@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 538,
-    "concepts": 546,
-    "observations": 547,
-    "repos": 47,
-    "terms": 540
+    "components": 504,
+    "concepts": 515,
+    "observations": 516,
+    "repos": 44,
+    "terms": 510
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "agentscope-ai/agentscope",
     "agentscope-ai/QwenPaw",
@@ -20,6 +20,7 @@
     "certbot/certbot",
     "cvat-ai/cvat",
     "dagster-io/dagster",
+    "datalab-to/marker",
     "docling-project/docling",
     "facefusion/facefusion",
     "fastapi/typer",
@@ -29,9 +30,7 @@
     "keras-team/keras",
     "Kludex/starlette",
     "kvcache-ai/ktransformers",
-    "langchain-ai/open_deep_research",
     "Lightning-AI/litgpt",
-    "locustio/locust",
     "lucidrains/vit-pytorch",
     "MetaCubeX/mihomo",
     "microsoft/agent-lightning",
@@ -47,7 +46,6 @@
     "pyg-team/pytorch_geometric",
     "pypa/pipenv",
     "pypa/pipx",
-    "python-pillow/Pillow",
     "roboflow/supervision",
     "scikit-learn/scikit-learn",
     "scipy/scipy",
@@ -55,7 +53,6 @@
     "Skyvern-AI/skyvern",
     "StevenBlack/hosts",
     "sympy/sympy",
-    "treeverse/dvc",
     "triton-inference-server/server",
     "unclecode/crawl4ai",
     "vega/altair",

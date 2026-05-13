@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 153,
-    "concepts": 114,
-    "observations": 114,
-    "repos": 12,
-    "terms": 114
+    "components": 89,
+    "concepts": 74,
+    "observations": 74,
+    "repos": 7,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
-    "agentclientprotocol/agent-client-protocol",
     "ash-rs/ash",
-    "bionic-gpt/bionic-gpt",
     "cordx56/rustowl",
-    "crate-ci/cargo-release",
-    "dora-rs/dora",
+    "hermit-os/hermit-rs",
     "josh-project/josh",
     "JuliaLang/juliaup",
     "junhoyeo/tokscale",
-    "lance-format/lance",
-    "ros2-rust/ros2_rust",
-    "watchexec/watchexec"
+    "lance-format/lance"
   ]
 }

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 26021,
-    "concepts": 22380,
-    "observations": 22452,
-    "repos": 5518,
-    "terms": 22320
+    "components": 26023,
+    "concepts": 22381,
+    "observations": 22453,
+    "repos": 5519,
+    "terms": 22329
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -2716,6 +2716,7 @@
     "jashkenas/docco",
     "jasonyzhang/relpose",
     "jaspervdj/lorem-markdownum",
+    "JavaHello/spring-boot.nvim",
     "javan/whenever",
     "jayli/vim-easycomplete",
     "jaywcjlove/linux-command",
@@ -4516,7 +4517,6 @@
     "robertabao/grok-nvim",
     "robertgzr/homebrew-tap",
     "robinheghan/differ",
-    "robinvanschaik/interpret-flair",
     "roboflow/notebooks",
     "RobotecAI/ros2-for-unity",
     "robotology/icub-models",
@@ -4784,6 +4784,7 @@
     "shovel-org/Base",
     "shovel-org/Windows-JetBrains-Bucket",
     "shovel-org/Windows-Sysinternals-Bucket",
+    "shunsambongi/neotest-testthat",
     "sicmutils/sicmutils",
     "SidOfc/carbon.nvim",
     "sigstore/helm-charts",

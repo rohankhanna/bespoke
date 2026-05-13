@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2107,
-    "concepts": 2899,
-    "observations": 2906,
-    "repos": 921,
-    "terms": 2882
+    "components": 2127,
+    "concepts": 2903,
+    "observations": 2910,
+    "repos": 924,
+    "terms": 2889
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -79,6 +79,7 @@
     "applied-science/js-interop",
     "approvals/ApprovalTests.Net",
     "araffin/rl-tutorial-jnrr19",
+    "ardalis/Ardalis.SharedKernel",
     "ardalis/HttpClientTestExtensions",
     "arecarn/vim-crunch",
     "arkav/lualine-lsp-progress",
@@ -235,6 +236,7 @@
     "corgi-emacs/corgi",
     "cowboyd/handlebars.rb",
     "cretz/asmble",
+    "crosstype/node-html-markdown",
     "cs-chan/Total-Text-Dataset",
     "csjunxu/PolyU-Real-World-Noisy-Images-Dataset",
     "cstjean/ScikitLearn.jl",
@@ -251,6 +253,7 @@
     "dart-archive/ffigen",
     "dart-archive/wasm",
     "DarwinAwardWinner/ido-completing-read-plus",
+    "dashbitco/nimble_csv",
     "dashbitco/nimble_parsec",
     "dashbitco/nimble_publisher",
     "datadesk/california-coronavirus-data",
@@ -689,6 +692,7 @@
     "opentracing/opentracing.io",
     "OpenVisualCloud/Dockerfiles",
     "OptimalScale/DetGPT",
+    "OrleansContrib/OrleansDashboard",
     "oskarnp/odin-tracy",
     "osyo-manga/vim-anzu",
     "patterns-ai-core/langchainrb_rails",
@@ -740,7 +744,6 @@
     "redis/hiredis-rb",
     "refcell/femplate",
     "rejeep/wrap-region.el",
-    "rescript-lang/reanalyze",
     "researchmm/STTN",
     "resemble-ai/monotonic_align",
     "rgbkrk/chatlab",

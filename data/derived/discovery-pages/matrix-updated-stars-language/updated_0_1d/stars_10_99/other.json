@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 4,
-    "terms": 33
+    "components": 62,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 3,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
-    "dwyl/mvp",
-    "geocompx/docker",
-    "karafka/example-apps",
-    "UnknownPlatypus/djangofmt"
+    "lumen-oss/luarocks-tag-release",
+    "pivotal/credhub-release",
+    "processing/processing-website"
   ]
 }

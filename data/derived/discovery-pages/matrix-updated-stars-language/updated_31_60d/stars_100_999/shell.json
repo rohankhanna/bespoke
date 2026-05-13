@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 79,
-    "concepts": 94,
-    "observations": 95,
-    "repos": 21,
-    "terms": 94
+    "concepts": 88,
+    "observations": 89,
+    "repos": 20,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "aslafy-z/helm-git",
     "aws/aws-app-mesh-examples",
@@ -28,7 +28,6 @@
     "mklement0/n-install",
     "mosaicml/examples",
     "nginx-le/nginx-le",
-    "NVIDIA/DL4AGX",
     "reviewdog/action-misspell",
     "SamNet-dev/paqctl",
     "SWE-bench/experiments",

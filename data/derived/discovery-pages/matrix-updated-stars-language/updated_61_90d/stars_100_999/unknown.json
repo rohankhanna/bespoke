@@ -3,7 +3,7 @@
     "components": 14,
     "concepts": 67,
     "observations": 68,
-    "repos": 18,
+    "repos": 16,
     "terms": 63
   },
   "facet_version": 1,
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "Alex313031/Thorium-Android",
     "Alex313031/Thorium-MacOS",
     "Calcium-Ion/new-api-horizon",
-    "docker-library/faq",
     "emberjs/core-notes",
     "eza-community/eza-themes",
     "google/deepsomatic",
@@ -25,7 +24,6 @@
     "hashicorp/vault-examples",
     "ipfs/devgrants",
     "JuliaDiff/BlueStyle",
-    "lintool/guide",
     "lxgw/lxgw",
     "MiniMax-AI/MiniMax-M2.5",
     "pbatard/UEFI-Shell",

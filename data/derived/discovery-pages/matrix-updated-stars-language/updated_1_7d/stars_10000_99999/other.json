@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 88,
-    "concepts": 44,
-    "observations": 45,
-    "repos": 4,
-    "terms": 42
+    "components": 59,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 2,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
-    "dotnet/aspnetcore",
-    "dotnet/AspNetCore.Docs",
     "mixmark-io/turndown",
     "vbenjs/vue-vben-admin"
   ]

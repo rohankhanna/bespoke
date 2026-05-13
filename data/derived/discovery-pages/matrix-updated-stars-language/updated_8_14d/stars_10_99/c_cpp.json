@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 164,
-    "concepts": 243,
-    "observations": 243,
-    "repos": 27,
-    "terms": 238
+    "components": 132,
+    "concepts": 211,
+    "observations": 211,
+    "repos": 22,
+    "terms": 206
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "analogdevicesinc/msdk",
@@ -23,7 +23,6 @@
     "erigontech/mdbx-go",
     "facebook/fb303",
     "gazebosim/gz-common",
-    "gazebosim/gz-gui",
     "gazebosim/gz-physics",
     "gazebosim/gz-rendering",
     "gazebosim/gz-tools",
@@ -32,12 +31,8 @@
     "heiher/hev-socks5-core",
     "heiher/hev-task-system",
     "jwindgassen/UnrealYAML",
-    "kendryte/canmv_k230",
-    "LedgerHQ/app-boilerplate",
     "LedgerHQ/ledger-secure-sdk",
-    "llnl/camp",
     "microsoft/aitour-exploring-cutting-edge-models",
-    "mongodb/winkerberos",
     "oneapi-src/unified-memory-framework",
     "ROCm/rpp",
     "xjb714/xjb"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 185,
-    "concepts": 209,
-    "observations": 210,
+    "components": 135,
+    "concepts": 216,
+    "observations": 217,
     "repos": 43,
-    "terms": 204
+    "terms": 210
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
-    "adafruit/Adafruit_NeoPixel",
     "akheron/jansson",
+    "Alex313031/thorium",
     "arrayfire/arrayfire",
     "bblanchon/ArduinoJson",
     "brandur/redis-cell",
     "Chlumsky/msdf-atlas-gen",
     "Chlumsky/msdfgen",
-    "cocos/cocos-engine",
     "coin-or/Ipopt",
     "eclipse-paho/paho.mqtt.c",
     "eradman/entr",
@@ -36,7 +35,6 @@
     "hpjansson/chafa",
     "icecc/icecream",
     "ioquake/ioq3",
-    "JoeDog/siege",
     "json-c/json-c",
     "leethomason/tinyxml2",
     "libgit2/rugged",
@@ -46,11 +44,13 @@
     "microsoft/onnxruntime-inference-examples",
     "mitsuba-renderer/nanogui",
     "mmorise/World",
+    "mutouyun/cpp-ipc",
     "nmoehrle/mvs-texturing",
     "NVIDIA/gdrcopy",
     "PixarAnimationStudios/OpenSubdiv",
     "pramsey/pgsql-http",
     "snapcast/snapcast",
+    "stevengj/nlopt",
     "svenstaro/rofi-calc",
     "TheAssassin/AppImageLauncher",
     "tzapu/WiFiManager",

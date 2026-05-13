@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 516,
-    "concepts": 405,
-    "observations": 407,
-    "repos": 102,
-    "terms": 405
+    "components": 500,
+    "concepts": 386,
+    "observations": 388,
+    "repos": 99,
+    "terms": 386
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "4d49/scene-library",
@@ -28,7 +28,6 @@
     "autodeployai/ai-serving",
     "aws-ia/terraform-aws-eks-blueprints-addons",
     "aws-samples/prompt-engineering-with-anthropic-claude-v-3",
-    "Azure-Samples/contoso-creative-writer",
     "Azure/arm-ttk",
     "badges/awesome-badges",
     "beam-telemetry/telemetry",
@@ -43,7 +42,7 @@
     "clojure/core.memoize",
     "clojure/tools.analyzer",
     "clojure/tools.analyzer.jvm",
-    "cloojure/tupelo",
+    "cpp-pm/hunter",
     "csstools/postcss-normalize",
     "CSU-Radarmet/CSU_RadarTools",
     "Cysharp/ValueTaskSupplement",
@@ -51,7 +50,6 @@
     "DarthAffe/StableDiffusion.NET",
     "dashbitco/nimble_options",
     "dkubb/memoizable",
-    "domluna/JuliaFormatter.jl",
     "dwyl/elixir-auth-google",
     "dwyl/labels",
     "dwyl/phoenix-liveview-chat-example",
@@ -108,7 +106,6 @@
     "tensorflow/mlir-hlo",
     "thinca/vim-themis",
     "thu-ml/SpargeAttn",
-    "tpapp/julia-repl",
     "trailofbits/eth-security-toolbox",
     "travis-ci/travis-api",
     "trptcolin/reply",

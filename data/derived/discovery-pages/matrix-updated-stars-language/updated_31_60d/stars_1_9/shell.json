@@ -3,7 +3,7 @@
     "components": 23,
     "concepts": 14,
     "observations": 14,
-    "repos": 7,
+    "repos": 8,
     "terms": 10
   },
   "facet_version": 1,
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "danielrosehill/Claude-Dolphin-Konsole-Actions",
     "eea/eea.docker.gitflow",
     "hchiam/learning-bash-scripts",
+    "marcindulak/ralph-wiggum-bdd",
     "rapidsai/gha-tools",
     "semgrep/mcp-marketplace",
     "serpro69/claude-in-docker"

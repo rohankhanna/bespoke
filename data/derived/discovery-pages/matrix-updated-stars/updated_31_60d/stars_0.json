@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 419,
-    "concepts": 181,
-    "observations": 183,
-    "repos": 107,
-    "terms": 184
+    "components": 410,
+    "concepts": 176,
+    "observations": 178,
+    "repos": 108,
+    "terms": 179
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "9romise/eslint-config",
     "aaronrsun/spec-kit-confluence",
+    "aaronrsun/spec-kit-issue",
     "abraxas-365/claudio-screenshot",
     "adammes/voyanode",
     "adiny/moodtrip-hotel-search",
@@ -73,6 +74,7 @@
     "datafuse-extras/dtparse",
     "devnen/chatterbox-v2",
     "drmingdrmer/display-more",
+    "eigenwallet/arti",
     "ethpandaops/xatu-cbt",
     "grubersjoe/react-activity-calendar-tests",
     "hermit-os/async-executor",
@@ -111,7 +113,6 @@
     "saharmor/saharmor.github.io",
     "semgrep/cursor-plugin",
     "Sovereign-Labs/reltester",
-    "stable-haskell/stack",
     "stdlib-js/dstructs-struct",
     "stefanlogue/scoops",
     "sujithpvarghese/bedrock-agent-core-operations-hub",

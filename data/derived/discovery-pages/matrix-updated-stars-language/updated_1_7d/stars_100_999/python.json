@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 106,
-    "observations": 106,
-    "repos": 15,
-    "terms": 106
+    "components": 130,
+    "concepts": 142,
+    "observations": 142,
+    "repos": 20,
+    "terms": 142
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,27 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
-    "15r10nk/inline-snapshot",
     "agentclientprotocol/python-sdk",
     "agentic-box/memora",
     "aristoteleo/PantheonOS",
+    "bagofwords1/bagofwords",
     "benchflow-ai/benchflow",
     "clearml/clearml-agent",
+    "databrickslabs/ucx",
+    "djlint/djLint",
     "flagos-ai/FlagScale",
     "gbionics/adam",
     "gbionics/jaxsim",
-    "googlefonts/roboto-3-classic",
     "hluaguo/learn-faster-kit",
     "jupyter-server/jupyter_server",
-    "NVlabs/trajdata",
+    "mll-lab-nu/VAGEN",
+    "NCAS-CMS/pyfive",
     "pyrtlsdr/pyrtlsdr",
+    "TextArena/TextArena",
+    "TinyLLaVA/TinyLLaVA_Factory",
+    "tox-dev/filelock",
     "vale-cli/packages"
   ]
 }

@@ -3,7 +3,7 @@
     "components": 1166,
     "concepts": 499,
     "observations": 501,
-    "repos": 412,
+    "repos": 413,
     "terms": 499
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -363,6 +363,7 @@
     "probe-lab/github-mgmt",
     "py-cov-action/python-coverage-comment-action-v3-example",
     "QuantuMope/GroundingDINO",
+    "radashi-org/radashi-canary",
     "redcaps-dataset/pytorch-retinaface",
     "redis-om/redis-om-dotnet",
     "renll/flash-linear-attention",

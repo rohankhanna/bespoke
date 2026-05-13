@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1589,
-    "concepts": 2952,
-    "observations": 2956,
-    "repos": 1673,
-    "terms": 2956
+    "components": 1591,
+    "concepts": 2953,
+    "observations": 2957,
+    "repos": 1677,
+    "terms": 2957
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "unknown"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nn0/terminal-mac-cheatsheet",
@@ -537,7 +537,10 @@
     "danielrosehill/Claude-Knowledge-Documentation-Plugin",
     "danielrosehill/Claude-Legal-Investigative-Plugin",
     "danielrosehill/Claude-License-Populator-Plugin",
+    "danielrosehill/Claude-Linux-AV-Manager-Plugin",
     "danielrosehill/Claude-Linux-Desktop-Manager",
+    "danielrosehill/Claude-Linux-System-Optimisation-Plugin",
+    "danielrosehill/Claude-LLM-Council-Creator-Plugin",
     "danielrosehill/Claude-Rescue",
     "danielrosehill/Claude-Workspace-Reshaping-190426",
     "danielrosehill/Context-Chunker-Assistant",
@@ -1360,6 +1363,7 @@
     "psmux/scoop-psmux",
     "psmux/scoop-tmuxpanel",
     "pulsar-cooperative/.github",
+    "punkpeye/awesome-mcp-servers",
     "puppetlabs/.github",
     "PyCQA/bandit-action",
     "pyOpenSci/software-submission",

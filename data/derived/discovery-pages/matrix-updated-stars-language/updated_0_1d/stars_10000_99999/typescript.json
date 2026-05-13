@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 690,
-    "concepts": 150,
-    "observations": 152,
-    "repos": 11,
-    "terms": 156
+    "components": 772,
+    "concepts": 156,
+    "observations": 158,
+    "repos": 10,
+    "terms": 165
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "ajv-validator/ajv",
-    "fastapi/full-stack-fastapi-template",
-    "googleapis/google-api-nodejs-client",
     "HumanSignal/label-studio",
     "jestjs/jest",
+    "Kilo-Org/kilocode",
     "langchain-ai/langchainjs",
     "lobehub/lobehub",
-    "realworld-apps/realworld",
+    "Redocly/redoc",
+    "RooCodeInc/Roo-Code",
     "ruvnet/ruflo",
-    "storybookjs/storybook",
-    "vercel-labs/skills"
+    "storybookjs/storybook"
   ]
 }

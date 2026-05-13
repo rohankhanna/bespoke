@@ -3,7 +3,7 @@
     "components": 197,
     "concepts": 97,
     "observations": 97,
-    "repos": 116,
+    "repos": 117,
     "terms": 97
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "5sControl/.github",
     "5scontrol/5s-dev-documentation",
@@ -110,6 +110,7 @@
     "pmj110119/storage",
     "pola-rs/jemallocator",
     "QuantuMope/GroundingDINO",
+    "radashi-org/radashi-canary",
     "redis-om/redis-om-dotnet",
     "retracedhq/docs",
     "robin1001/qr",

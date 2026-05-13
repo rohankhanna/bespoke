@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 2,
-    "terms": 16
+    "components": 47,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 3,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
+    "DioxusLabs/dioxus",
     "quickwit-oss/tantivy",
     "rust-lang/rust-analyzer"
   ]

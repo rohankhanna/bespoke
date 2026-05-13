@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 54392,
-    "concepts": 35160,
-    "observations": 35267,
-    "repos": 5953,
-    "terms": 35061
+    "components": 54520,
+    "concepts": 35200,
+    "observations": 35307,
+    "repos": 5959,
+    "terms": 35113
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -222,6 +222,7 @@
     "alecthomas/chroma",
     "alecthomas/go_serialization_benchmarks",
     "alembic/alembic",
+    "Aleph-Alpha/ts-rs",
     "aleskxyz/reality-ezpz",
     "alex-seville/blanket",
     "Alex313031/Mercury",
@@ -943,6 +944,7 @@
     "camenduru/text-to-video-synthesis-colab",
     "cameron314/readerwriterqueue",
     "camlworks/dream",
+    "can1357/oh-my-pi",
     "CanCanCommunity/cancancan",
     "candid82/joker",
     "CanHub/Android-Image-Cropper",
@@ -2760,6 +2762,7 @@
     "jarro2783/cxxopts",
     "jashkenas/docco",
     "jasongin/nvs",
+    "jasonlong/isometric-contributions",
     "java-native-access/jna",
     "javan/whenever",
     "jawah/niquests",
@@ -2991,6 +2994,7 @@
     "kentcdodds/babel-plugin-macros",
     "kentcdodds/babel-plugin-preval",
     "kentcdodds/cross-env",
+    "kepano/defuddle",
     "kepano/obsidian-minimal",
     "keras-team/keras-contrib",
     "kevinhwang91/nvim-ufo",
@@ -3713,6 +3717,7 @@
     "moojink/openvla-oft",
     "mooman219/fontdue",
     "Mooncake-Labs/pg_mooncake",
+    "MoonInTheRiver/DiffSinger",
     "MoonshotAI/kimi-cli",
     "MoonshotAI/MoBA",
     "MoonshotAI/Moonlight",
@@ -4949,6 +4954,7 @@
     "shapely/shapely",
     "shareai-lab/claw0",
     "shareAI-lab/Kode-Agent",
+    "shareAI-lab/Kode-CLI",
     "sharkdp/diskus",
     "sharkdp/pastel",
     "shawwn/llama-dl",

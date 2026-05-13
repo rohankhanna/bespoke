@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4744,
-    "concepts": 699,
-    "observations": 701,
-    "repos": 195,
-    "terms": 709
+    "components": 4767,
+    "concepts": 707,
+    "observations": 709,
+    "repos": 196,
+    "terms": 718
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "101arrowz/fzstd",
     "1hanzla100/developer-portfolio",
@@ -203,6 +203,7 @@
     "windicss/windicss-analysis",
     "windicss/windicss-intellisense",
     "WisdomShell/codeshell-vscode",
+    "withastro/prettier-plugin-astro",
     "wrkout/exercises.json",
     "wylieconlon/lsp-editor-adapter",
     "yaegassy/coc-volar",

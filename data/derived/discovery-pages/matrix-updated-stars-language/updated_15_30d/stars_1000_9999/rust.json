@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1593,
-    "concepts": 1092,
-    "observations": 1099,
-    "repos": 155,
-    "terms": 1104
+    "components": 1651,
+    "concepts": 1154,
+    "observations": 1161,
+    "repos": 161,
+    "terms": 1166
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "01mf02/jaq",
+    "0x676e67/wreq-python",
     "0xPlaygrounds/rig",
     "64bit/async-openai",
     "abraxas-365/langchain-rust",
@@ -30,6 +31,7 @@
     "apache/opendal",
     "asny/three-d",
     "asomers/mockall",
+    "aws-cloudformation/cloudformation-guard",
     "aws/amazon-q-developer-cli",
     "axodotdev/cargo-dist",
     "bheisler/criterion.rs",
@@ -39,7 +41,6 @@
     "boa-dev/boa",
     "BoundaryML/baml",
     "BurntSushi/aho-corasick",
-    "bvaisvil/zenith",
     "bytedance/monoio",
     "Canop/bacon",
     "cberner/fuser",
@@ -75,6 +76,7 @@
     "googlefonts/Inconsolata",
     "hashintel/hash",
     "hickory-dns/hickory-dns",
+    "hoodie/notify-rust",
     "hrkfdn/ncspot",
     "hyperium/h2",
     "ivanceras/svgbob",
@@ -101,6 +103,7 @@
     "mikeyobrien/ralph-orchestrator",
     "model-checking/kani",
     "modelcontextprotocol/rust-sdk",
+    "mozilla/cbindgen",
     "mozilla/grcov",
     "mozilla/sccache",
     "mstange/samply",
@@ -119,8 +122,10 @@
     "pdeljanov/Symphonia",
     "pgcentralfoundation/pgrx",
     "pkgxdev/pkgx",
+    "prisma/prisma-engines",
     "proptest-rs/proptest",
     "pulldown-cmark/pulldown-cmark",
+    "pykeio/ort",
     "PyO3/maturin",
     "ratatui/mousefood",
     "release-plz/release-plz",
@@ -168,6 +173,7 @@
     "uuid-rs/uuid",
     "vadimcn/codelldb",
     "vladkens/macmon",
-    "vulkano-rs/vulkano"
+    "vulkano-rs/vulkano",
+    "wasm-bindgen/wasm-pack"
   ]
 }

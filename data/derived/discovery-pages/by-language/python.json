@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 17460,
-    "concepts": 26077,
-    "observations": 26126,
-    "repos": 6527,
-    "terms": 25865
+    "concepts": 26088,
+    "observations": 26137,
+    "repos": 6530,
+    "terms": 25900
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0cc4m/hf_bleeding_edge",
@@ -151,6 +151,7 @@
     "adefossez/mdx21_demucs",
     "aden-hive/hive",
     "adhikasp/mcp-client-cli",
+    "adhikasp/mcp-youtube",
     "adieyal/comfyui-dynamicprompts",
     "adieyal/dynamicprompts",
     "adieyal/sd-dynamic-prompts",
@@ -722,6 +723,7 @@
     "ASK-03/Reverse-Chain",
     "askbudi/roundtable",
     "aSleepyTree/EB-Cache",
+    "ASLP-lab/Easy-Turn",
     "ASLP-lab/Hum-Dial",
     "ASLP-lab/OSUM",
     "asottile/pyupgrade",
@@ -1662,6 +1664,7 @@
     "daniandtheweb/sd.cpp-webui",
     "danielgatis/rembg",
     "danielJL-altius/israelgrocerymcp",
+    "DanielLin94144/Full-Duplex-Bench",
     "DanielNoord/pydocstringformatter",
     "danielrosehill/Agent-SDK-Env-Setup",
     "danielrosehill/Agentic-Context-Development-Interview-Demo",
@@ -4229,6 +4232,7 @@
     "moojink/rlds_dataset_builder",
     "moojink/rlds_dataset_mod",
     "moojink/transformers-openvla-oft",
+    "MoonInTheRiver/DiffSinger",
     "MoonshotAI/checkpoint-engine",
     "MoonshotAI/kimi-cli",
     "MoonshotAI/MoBA",
@@ -4904,7 +4908,6 @@
     "Picsart-AI-Research/Text2Video-Zero",
     "pimutils/todoman",
     "PingoLH/FCHarDNet",
-    "PingoLH/Pytorch-HarDNet",
     "pinnymz/python-zmanim",
     "pinokiofactory/cogstudio",
     "PINTO0309/PINTO_model_zoo",
@@ -4940,6 +4943,7 @@
     "placeforyiming/IROS21-FIDNet-SemanticKITTI",
     "plaggy/rag-containers",
     "plastic-labs/honcho",
+    "PlayVoice/VI-SVS",
     "PlayVoice/vits_chinese",
     "plemeri/InSPyReNet",
     "plemeri/UACANet",
@@ -5728,7 +5732,6 @@
     "SwinTransformer/MIM-Depth-Estimation",
     "SwinTransformer/Swin-Transformer-Object-Detection",
     "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
-    "SwinTransformer/Transformer-SSL",
     "SwinTransformer/Video-Swin-Transformer",
     "switchablenorms/CelebAMask-HQ",
     "swz30/CycleISP",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 726,
-    "concepts": 570,
-    "observations": 570,
-    "repos": 62,
-    "terms": 568
+    "components": 687,
+    "concepts": 542,
+    "observations": 542,
+    "repos": 60,
+    "terms": 540
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,26 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
-    "0x676e67/wreq-python",
     "AccessKit/accesskit",
     "actix/examples",
+    "agentclientprotocol/agent-client-protocol",
     "apache/datafusion",
     "apache/iceberg-rust",
     "askama-rs/askama",
-    "aws-cloudformation/cloudformation-guard",
+    "bionic-gpt/bionic-gpt",
     "brave/adblock-rust",
     "cachix/devenv",
     "cargo-bins/cargo-binstall",
     "cargo-generate/cargo-generate",
     "CosmWasm/cosmwasm",
+    "crate-ci/cargo-release",
     "databendlabs/openraft",
     "delta-io/delta-rs",
     "Devolutions/IronRDP",
     "dimforge/kiss3d",
+    "dora-rs/dora",
     "erebe/wstunnel",
     "facebook/buck2",
     "facebook/pyrefly",
@@ -40,23 +42,19 @@
     "GreptimeTeam/greptimedb",
     "hermit-os/kernel",
     "holochain/holochain",
-    "hoodie/notify-rust",
     "huggingface/text-embeddings-inference",
     "image-rs/image",
-    "intentee/paddler",
     "lakekeeper/lakekeeper",
     "MaterializeInc/materialize",
-    "mozilla/cbindgen",
     "mozilla/uniffi-rs",
     "nats-io/nats.rs",
     "notify-rs/notify",
     "prefix-dev/pixi",
-    "prisma/prisma-engines",
-    "pykeio/ort",
     "raphamorim/rio",
     "risingwavelabs/risingwave",
     "robustmq/robustmq",
     "ron-rs/ron",
+    "ros2-rust/ros2_rust",
     "rust-cli/config-rs",
     "rust-cli/human-panic",
     "Rust-GPU/rust-gpu",
@@ -75,6 +73,6 @@
     "unicode-org/icu4x",
     "VOICEVOX/voicevox_core",
     "wasm-bindgen/wasm-bindgen",
-    "wasm-bindgen/wasm-pack"
+    "watchexec/watchexec"
   ]
 }

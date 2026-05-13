@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 3,
-    "terms": 12
+    "components": 18,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 2,
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "lakekeeper/iceberg-rust",
-    "squidowl/iced",
     "UnknownPlatypus/markup_fmt"
   ]
 }

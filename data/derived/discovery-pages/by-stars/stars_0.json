@@ -3,14 +3,14 @@
     "components": 2798,
     "concepts": 1161,
     "observations": 1165,
-    "repos": 876,
+    "repos": 877,
     "terms": 1192
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0xBigBoss/ghostty-web",
@@ -325,6 +325,7 @@
     "danielrosehill/Claude-Keyboard-Scanner",
     "danielrosehill/Claude-Knowledge-Documentation-Plugin",
     "danielrosehill/Claude-License-Populator-Plugin",
+    "danielrosehill/Claude-Linux-AV-Manager-Plugin",
     "danielrosehill/Claude-Linux-Desktop-Manager",
     "danielrosehill/Claude-Rescue",
     "danielrosehill/Claude-Workspace-Reshaping-190426",

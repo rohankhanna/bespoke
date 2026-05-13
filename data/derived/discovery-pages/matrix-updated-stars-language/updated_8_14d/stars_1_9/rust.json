@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 114,
-    "concepts": 91,
-    "observations": 91,
-    "repos": 21,
-    "terms": 91
+    "components": 109,
+    "concepts": 86,
+    "observations": 86,
+    "repos": 18,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "black-desk/djotfmt",
-    "bnb-chain/reth-bsc-triedb",
-    "bourumir-wyngs/saphyr",
     "criccomini/uniffi-bindgen-node-js",
     "databendlabs/databend-meta",
     "dcampbell24/djot-implementations",
@@ -25,15 +23,14 @@
     "flathub-infra/flat-manager-hooks",
     "godot-rust/godot4-prebuilt",
     "hecrj/llama-server",
-    "heroku/buildpacks-deb-packages",
     "heroku/buildpacks-php",
     "heroku/buildpacks-procfile",
     "Hiroshiba/voicevox_core",
+    "kurrent-io/KurrentDB-Bridge-Client",
     "ldclabs/ic-cose",
     "open-telemetry/opentelemetry-weaver-examples",
     "snowflakedb/universal-driver",
     "sp1-patches/RustCrypto-hashes",
-    "typst/typst-dev-assets",
-    "vercel-labs/mdxjs-rs-turbopack"
+    "typst/typst-dev-assets"
   ]
 }

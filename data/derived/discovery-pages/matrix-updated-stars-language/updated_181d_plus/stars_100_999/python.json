@@ -3,8 +3,8 @@
     "components": 1125,
     "concepts": 5207,
     "observations": 5211,
-    "repos": 1767,
-    "terms": 5045
+    "repos": 1766,
+    "terms": 5056
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -1346,7 +1346,6 @@
     "pharmbio/sciluigi",
     "philgras/neural-head-avatars",
     "PingoLH/FCHarDNet",
-    "PingoLH/Pytorch-HarDNet",
     "pixelite1201/pytorch_coma",
     "PJLab-ADG/neuralsim",
     "PJLab-ADG/nr3d_lib",
@@ -1355,6 +1354,7 @@
     "PKU-YuanGroup/ImgEdit",
     "PKU-YuanGroup/LanguageBind",
     "PKU-YuanGroup/Video-Bench",
+    "PlayVoice/VI-SVS",
     "plemeri/InSPyReNet",
     "plemeri/UACANet",
     "plottertools/hatched",
@@ -1528,7 +1528,6 @@
     "sunnweiwei/RankGPT",
     "sunset1995/torch_efficient_distloss",
     "SwinTransformer/MIM-Depth-Estimation",
-    "SwinTransformer/Transformer-SSL",
     "swz30/CycleISP",
     "swz30/MIRNet",
     "swz30/MIRNetv2",

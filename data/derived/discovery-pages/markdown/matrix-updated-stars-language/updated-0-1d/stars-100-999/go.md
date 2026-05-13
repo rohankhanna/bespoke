@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Go
 
-Generated at: `2026-05-12T07:47:44.345415+00:00`
+Generated at: `2026-05-13T05:48:18.537624+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 21
-- components: 29
-- concepts: 21
-- observations: 21
+- repos: 1
+- terms: 5
+- components: 19
+- concepts: 5
+- observations: 5
 
 ## Static behavior
 
@@ -26,12 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 905 | 2026-05-11T19:07:14Z | Go | Infrastructure/tooling | 5 | 19 | 5 | 5 |
-| [kelos-dev/kelos](https://github.com/kelos-dev/kelos) | 164 | 2026-05-11T18:04:10Z | Go | Infrastructure/tooling | 16 | 10 | 16 | 16 |
+| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 904 | 2026-05-12T22:34:29Z | Go | Infrastructure/tooling | 5 | 19 | 5 | 5 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 905 | 2026-05-11T19:07:14Z | Go | Infrastructure/tooling | 5 | 19 | 5 | 5 |
-| [kelos-dev/kelos](https://github.com/kelos-dev/kelos) | 164 | 2026-05-11T18:04:10Z | Go | Infrastructure/tooling | 16 | 10 | 16 | 16 |
+| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 904 | 2026-05-12T22:34:29Z | Go | Infrastructure/tooling | 5 | 19 | 5 | 5 |

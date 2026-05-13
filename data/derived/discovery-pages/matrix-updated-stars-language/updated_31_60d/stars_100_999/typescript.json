@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1750,
-    "concepts": 356,
-    "observations": 356,
-    "repos": 61,
-    "terms": 365
+    "components": 1901,
+    "concepts": 384,
+    "observations": 384,
+    "repos": 67,
+    "terms": 393
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "43081j/picoquery",
+    "AbianS/docker-db-manager",
     "actions-cool/issues-helper",
     "aelassas/bookcars",
     "amplify-education/serverless-domain-manager",
@@ -36,9 +37,11 @@
     "connectrpc/connect-query-es",
     "cztomsik/ava",
     "dezoito/ollama-grid-search",
+    "elm-tooling/elm-language-client-vscode",
     "elm-tooling/elm-language-server",
     "fannheyward/coc-sql",
     "fannheyward/create-coc-extension",
+    "fastify/demo",
     "filllabs/dependi",
     "google/adk-web",
     "graalvm/setup-graalvm",
@@ -56,14 +59,17 @@
     "MattiasBuelens/web-streams-polyfill",
     "microsoft/vscode-debugadapter-node",
     "microsoft/vscode-html-languageservice",
+    "microsoft/vscode-json-languageservice",
     "nashaofu/screenshots",
     "neoclide/coc-java",
     "NVIDIA/OpenShell-Community",
+    "Obsidian-TTRPG-Community/initiative-tracker",
     "ory/hydra-login-consent-node",
     "PanAeon/vscode-tmgrammar-test",
     "retracedhq/retraced",
     "ruvnet/agentic-flow",
     "shareai-lab/kode-agent-sdk",
+    "Siubaak/sval",
     "solidjs/templates",
     "storybookjs/test-runner",
     "sudocode-ai/sudocode",

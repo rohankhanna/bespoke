@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 362,
-    "concepts": 402,
-    "observations": 404,
-    "repos": 87,
-    "terms": 400
+    "components": 378,
+    "concepts": 433,
+    "observations": 435,
+    "repos": 92,
+    "terms": 431
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "Alexander-Miller/treemacs",
     "ankane/dexter",
@@ -35,6 +35,7 @@
     "cncf/tag-security",
     "collectiveidea/audited",
     "cpm-cmake/CPM.cmake",
+    "datawhalechina/tiny-universe",
     "dempfi/ayu",
     "DotNetAnalyzers/StyleCopAnalyzers",
     "dspinellis/latex-advice",
@@ -65,6 +66,8 @@
     "karb94/neoscroll.nvim",
     "kevinhwang91/nvim-ufo",
     "kikito/inspect.lua",
+    "kristijanhusak/vim-dadbod-ui",
+    "krzysztofzablocki/Sourcery",
     "lmbelo/python4delphi",
     "mds1/multicall3",
     "mfussenegger/nvim-jdtls",
@@ -79,6 +82,7 @@
     "nix-community/dream2nix",
     "nvim-java/nvim-java",
     "onsails/lspkind.nvim",
+    "OpenBMB/MiniCPM",
     "petertriho/nvim-scrollbar",
     "phar-io/manifest",
     "rafamadriz/friendly-snippets",
@@ -91,6 +95,7 @@
     "siliconflow/onediff",
     "sindresorhus/Gifski",
     "SmiteshP/nvim-navic",
+    "SpinalHDL/VexRiscv",
     "symfony/cache-contracts",
     "Tencent-Hunyuan/HunyuanDiT",
     "thu-ml/SageAttention",

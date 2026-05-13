@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 520,
-    "concepts": 720,
-    "observations": 720,
-    "repos": 179,
-    "terms": 708
+    "components": 521,
+    "concepts": 725,
+    "observations": 725,
+    "repos": 180,
+    "terms": 713
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "1player/host-spawn",
     "76creates/stickers",
@@ -66,6 +66,7 @@
     "containers/common",
     "containers/dnsname",
     "containers/image",
+    "containers/storage",
     "cosmos/mainnet",
     "cosmos/relayer",
     "creasty/defaults",

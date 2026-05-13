@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 51,
-    "concepts": 82,
-    "observations": 82,
-    "repos": 16,
-    "terms": 82
+    "concepts": 88,
+    "observations": 88,
+    "repos": 17,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
+    "2KAbhishek/mac2k",
     "2KAbhishek/tmux-tilit",
     "aiKrice/homebrew-badgetizr",
     "alchemiststudiosDOTai/harness-engineering",

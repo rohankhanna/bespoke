@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 238,
-    "concepts": 170,
-    "observations": 170,
-    "repos": 42,
-    "terms": 170
+    "components": 210,
+    "concepts": 139,
+    "observations": 139,
+    "repos": 36,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "All-Hands-AI/OpenHands-Cloud",
     "arcaputo3/mcp-server-whisper",
@@ -21,7 +21,6 @@
     "Azure-Samples/openai-chat-app-entra-auth-builtin",
     "beclab/apps",
     "carstencodes/pdm-bump",
-    "cloudfoundry/community",
     "conda-forge/conda-forge-pinning-feedstock",
     "conservationtechlab/animl-py",
     "dora-rs/dora-hub",
@@ -31,20 +30,17 @@
     "gordon-code/cuid2",
     "graalvm/oracle-graalvm-ea-builds",
     "Hiroshiba/voicevox_engine",
-    "HKU-BAL/ClairS-TO",
     "jfly/shtuff",
     "LedgerHQ/ragger",
     "MGenAI/GRN",
     "microsoft/olive-recipes",
-    "NeilGirdhar/tjax",
     "neo4j/neo4j-python-driver-rust-ext",
-    "NoakLiu/FastCache-xDiT",
     "NVIDIA/multi-storage-client",
     "open-edge-platform/physical-ai-studio",
     "petercorke/spatialmath-python",
     "pipecat-ai/pipecat-cli",
-    "pre-commit/sync-pre-commit-deps",
     "py-pdf/sample-files",
+    "python-jsonschema/referencing",
     "pytroll/donfig",
     "qiayuanl/unitree_bringup",
     "redis/docs",
@@ -53,8 +49,6 @@
     "sigstore/sigstore-conformance",
     "sublimelsp/LSP-volar",
     "TaWald/nnUNet",
-    "terrierteam/pyterrier_pisa",
-    "Thinklab-SJTU/Bench2Drive-Speed",
-    "xhluca/bm25-benchmarks"
+    "Thinklab-SJTU/Bench2Drive-Speed"
   ]
 }

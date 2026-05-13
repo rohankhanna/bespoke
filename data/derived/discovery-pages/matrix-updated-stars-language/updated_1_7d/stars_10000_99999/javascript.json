@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 156,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 4,
-    "terms": 35
+    "components": 111,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 3,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "emotion-js/emotion",
     "lint-staged/lint-staged",
-    "nwjs/nw.js",
-    "preactjs/preact"
+    "nwjs/nw.js"
   ]
 }

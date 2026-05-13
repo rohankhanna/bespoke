@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 9930,
-    "concepts": 8584,
-    "observations": 8593,
-    "repos": 2243,
-    "terms": 8467
+    "concepts": 8594,
+    "observations": 8603,
+    "repos": 2248,
+    "terms": 8479
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -758,6 +758,7 @@
     "gelguy/wilder.nvim",
     "gemelo-ai/vocos",
     "genforce/interfacegan",
+    "genmoai/mochi",
     "GEOSwift/GEOSwift",
     "get-alex/alex",
     "GFW-knocker/gfw_resist_tls_proxy",
@@ -875,6 +876,7 @@
     "hal9ai/awesome-dataviz",
     "haml/haml-rails",
     "hans/obsidian-citation-plugin",
+    "hanslub42/rlwrap",
     "haoheliu/AudioLDM",
     "harskish/ganspace",
     "harvardnlp/im2markup",
@@ -1380,6 +1382,7 @@
     "mojombo/chronic",
     "moojink/openvla-oft",
     "mooman219/fontdue",
+    "MoonInTheRiver/DiffSinger",
     "MoonshotAI/MoBA",
     "MoonshotAI/Moonlight",
     "MooreThreads/Moore-AnimateAnyone",
@@ -1480,6 +1483,7 @@
     "NVIDIA/MinkowskiEngine",
     "NVIDIA/nvidia-container-runtime",
     "NVIDIA/pix2pixHD",
+    "NVIDIA/RULER",
     "NVIDIA/tacotron2",
     "NVIDIA/thrust",
     "NVIDIA/VideoProcessingFramework",
@@ -1616,6 +1620,7 @@
     "peterbourgon/diskv",
     "petercorke/robotics-toolbox-matlab",
     "petercorke/robotics-toolbox-python",
+    "PeterGriffinJin/Search-R1",
     "PeterL1n/BackgroundMattingV2",
     "PeterL1n/RobustVideoMatting",
     "pfalcon/esp-open-sdk",

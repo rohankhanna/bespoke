@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 381,
-    "concepts": 405,
-    "observations": 405,
-    "repos": 71,
-    "terms": 393
+    "components": 406,
+    "concepts": 436,
+    "observations": 436,
+    "repos": 72,
+    "terms": 424
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "aquasecurity/starboard",
     "aquasecurity/tfsec",
@@ -37,6 +37,7 @@
     "darccio/mergo",
     "davidbyttow/govips",
     "ddworken/hishtory",
+    "expr-lang/expr",
     "fatih/color",
     "fnproject/fn",
     "go-redis/redis_rate",
@@ -47,11 +48,11 @@
     "google/go-jsonnet",
     "google/pprof",
     "google/starlark-go",
+    "gopasspw/gopass",
     "grpc-ecosystem/grpc-health-probe",
-    "hashicorp/go-metrics",
     "hashicorp/go-version",
     "hashicorp/hcl",
-    "hashicorp/memberlist",
+    "hashicorp/raft",
     "hashicorp/yamux",
     "itchyny/gojq",
     "klauspost/compress",
@@ -71,6 +72,7 @@
     "qjfoidnh/BaiduPCS-Go",
     "rest-sh/restish",
     "rootless-containers/rootlesskit",
+    "schachmat/wego",
     "smallnest/rpcx",
     "smtg-ai/claude-squad",
     "stripe/smokescreen",
@@ -82,7 +84,6 @@
     "vishvananda/netlink",
     "xjasonlyu/tun2socks",
     "xtaci/kcp-go",
-    "xtaci/smux",
     "yuin/goldmark",
     "yuin/gopher-lua"
   ]

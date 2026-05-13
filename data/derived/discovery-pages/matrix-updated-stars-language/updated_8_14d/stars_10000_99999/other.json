@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 877,
-    "concepts": 672,
-    "observations": 673,
-    "repos": 60,
-    "terms": 666
+    "components": 881,
+    "concepts": 658,
+    "observations": 660,
+    "repos": 58,
+    "terms": 655
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "actions/runner-images",
@@ -29,11 +29,12 @@
     "coollabsio/coolify",
     "crystal-lang/crystal",
     "Devolutions/UniGetUI",
+    "dotnet/aspnetcore",
+    "dotnet/AspNetCore.Docs",
     "exelban/stats",
     "getgrav/grav",
     "getlantern/lantern",
     "github-linguist/linguist",
-    "golang-standards/project-layout",
     "google/material-design-lite",
     "gradle/gradle",
     "hadolint/hadolint",
@@ -48,7 +49,6 @@
     "Kotlin/kotlinx.coroutines",
     "kubernetes-sigs/kubespray",
     "logseq/logseq",
-    "MagicStack/uvloop",
     "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
     "mdn/content",
     "microsoft/ai-agents-for-beginners",
@@ -61,14 +61,12 @@
     "OAI/OpenAPI-Specification",
     "phoenixframework/phoenix",
     "phpstan/phpstan",
-    "PowerShell/PowerShell",
     "rapid7/metasploit-framework",
     "rubocop/rubocop",
     "ruby/ruby",
     "sebastianbergmann/phpunit",
     "shadowsocks/shadowsocks-android",
     "Shopify/liquid",
-    "square/moshi",
     "swiftlang/swift-evolution",
     "swiftlang/swift-package-manager",
     "symfony/symfony",

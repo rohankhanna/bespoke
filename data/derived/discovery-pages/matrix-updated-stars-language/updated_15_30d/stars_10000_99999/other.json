@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1207,
-    "concepts": 866,
-    "observations": 870,
-    "repos": 94,
-    "terms": 868
+    "components": 1226,
+    "concepts": 880,
+    "observations": 884,
+    "repos": 96,
+    "terms": 879
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "abpframework/abp",
     "adambard/learnxinyminutes-docs",
@@ -36,7 +36,6 @@
     "dart-lang/sdk",
     "datawhalechina/self-llm",
     "deepset-ai/haystack",
-    "dense-analysis/ale",
     "doomemacs/doomemacs",
     "dotnet/core",
     "dotnet/csharplang",
@@ -49,6 +48,7 @@
     "elixir-lang/elixir",
     "fastlane/fastlane",
     "ghostty-org/ghostty",
+    "golang-standards/project-layout",
     "google-deepmind/deepmind-research",
     "google-gemini/cookbook",
     "google-gemini/gemini-fullstack-langgraph-quickstart",
@@ -69,8 +69,8 @@
     "jupyter/notebook",
     "kubernetes/community",
     "llvm/llvm-project",
+    "MagicStack/uvloop",
     "mason-org/mason.nvim",
-    "meta-llama/llama-cookbook",
     "metabase/metabase",
     "microsoft/fluentui-system-icons",
     "microsoft/OmniParser",
@@ -86,6 +86,7 @@
     "openai/openai-cookbook",
     "OpenZeppelin/openzeppelin-contracts",
     "oven-sh/bun",
+    "PowerShell/PowerShell",
     "rails/rails",
     "realm/SwiftLint",
     "saadeghi/daisyui",
@@ -96,6 +97,7 @@
     "shap/shap",
     "simplex-chat/simplex-chat",
     "Solido/awesome-flutter",
+    "square/moshi",
     "square/okhttp",
     "square/retrofit",
     "swagger-api/swagger-codegen",

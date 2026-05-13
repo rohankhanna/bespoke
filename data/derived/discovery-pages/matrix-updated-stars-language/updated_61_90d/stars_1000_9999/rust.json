@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 168,
-    "concepts": 97,
-    "observations": 97,
-    "repos": 19,
-    "terms": 96
+    "components": 160,
+    "concepts": 95,
+    "observations": 95,
+    "repos": 18,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "a16z/helios",
     "allan2/dotenvy",
@@ -20,7 +20,6 @@
     "Byron/dua-cli",
     "Byron/google-apis-rs",
     "crossbeam-rs/crossbeam",
-    "dtolnay/cargo-expand",
     "fschutt/printpdf",
     "ImageOptim/gifski",
     "parcel-bundler/lightningcss",

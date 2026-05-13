@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 164,
-    "concepts": 177,
-    "observations": 178,
-    "repos": 20,
-    "terms": 177
+    "components": 103,
+    "concepts": 122,
+    "observations": 123,
+    "repos": 17,
+    "terms": 122
   },
   "facet_version": 1,
   "filters": {
@@ -12,27 +12,24 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
-    "agenda/agenda",
     "all-contributors/allcontributors.org",
     "babashka/babashka",
-    "beam-community/elixir-companies",
-    "datalevin/datalevin",
+    "benchflow-ai/skillsbench",
+    "clj-kondo/clj-kondo",
     "dotnet/reactive",
-    "foundry-rs/forge-std",
     "hacl-star/hacl-star",
     "intel/BigDL",
-    "jump-dev/JuMP.jl",
     "microsoft/PhiCookBook",
     "minad/consult",
     "mrcjkb/rustaceanvim",
     "nvim-mini/mini.nvim",
     "nvim-tree/nvim-web-devicons",
-    "rocq-prover/rocq",
+    "okd-project/okd",
+    "swiftlang/swift-syntax",
     "theJayTea/WritingTools",
     "truffleruby/truffleruby",
-    "TryGhost/node-sqlite3",
     "xororz/local-dream"
   ]
 }

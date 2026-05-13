@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 171,
-    "observations": 172,
-    "repos": 14,
-    "terms": 171
+    "components": 133,
+    "concepts": 189,
+    "observations": 189,
+    "repos": 15,
+    "terms": 189
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,22 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
-    "axolotl-ai-cloud/axolotl",
+    "567-labs/instructor",
+    "aden-hive/hive",
+    "Comfy-Org/ComfyUI-Manager",
     "crewAIInc/crewAI",
-    "datalab-to/marker",
     "datalab-to/surya",
     "great-expectations/great_expectations",
     "hiyouga/LlamaFactory",
     "HKUDS/CLI-Anything",
     "huggingface/pytorch-image-models",
+    "Lightning-AI/pytorch-lightning",
     "ludwig-ai/ludwig",
     "modelscope/DiffSynth-Studio",
-    "oobabooga/textgen",
     "qubvel-org/segmentation_models.pytorch",
-    "ungoogled-software/ungoogled-chromium",
-    "zhayujie/CowAgent"
+    "run-llama/llama_index",
+    "ungoogled-software/ungoogled-chromium"
   ]
 }

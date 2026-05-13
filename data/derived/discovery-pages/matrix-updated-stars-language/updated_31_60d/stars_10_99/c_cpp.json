@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 187,
-    "concepts": 168,
-    "observations": 168,
-    "repos": 37,
-    "terms": 166
+    "components": 171,
+    "concepts": 163,
+    "observations": 163,
+    "repos": 36,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "ada-url/ada-python",
     "ada-url/goada",
@@ -28,7 +28,6 @@
     "clouren/SPEX",
     "cpmech/tritet",
     "CROSS-signature/CROSS-implementation",
-    "farm-ng/farm-ng-core",
     "fcambus/bdf2sfd",
     "flashlight/text",
     "flatpak/xdg-dbus-proxy",

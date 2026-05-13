@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 5222,
-    "concepts": 1862,
-    "observations": 1864,
-    "repos": 1312,
-    "terms": 1857
+    "concepts": 1867,
+    "observations": 1869,
+    "repos": 1315,
+    "terms": 1862
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -426,6 +426,7 @@
     "danielrosehill/Awesome-Linux-IDEs",
     "danielrosehill/bash-alias-manager-claude",
     "danielrosehill/claude-agent-picker-pattern",
+    "danielrosehill/Claude-Change-My-View",
     "danielrosehill/Claude-Code-Bash-Aliases",
     "danielrosehill/Claude-Code-Context-Toolkit",
     "danielrosehill/Claude-Code-MCP-Command-Generator",
@@ -585,6 +586,7 @@
     "funstory-ai/jobs",
     "funtoo/core-kit",
     "fwcd/atom-ide-kotlin",
+    "g-plane/pretty_jinja",
     "ga4gh/large-scale-genomics-wiki",
     "gabrielschulhof/iotivity-node",
     "gadjalin/glad-fortran",
@@ -695,6 +697,7 @@
     "himario/diffusers-t2i-adapter",
     "hiyouga/vllm",
     "hkbu-hpml/covidnet3d",
+    "HKU-BAL/Clair-Mosaic",
     "hoelzro/term-drawille",
     "honeycombio/opentelemetry-demo",
     "hongjr03/tinymist-nightly-installer",
@@ -1173,6 +1176,7 @@
     "Shougo/dpp-ext-local",
     "Shougo/dpp-ext-toml",
     "shovel-org/Base",
+    "shunsambongi/neotest-testthat",
     "ShuoZhang2003/DT-VQA",
     "siliconflow/oneflow_releases",
     "simonpoole/osm-area-tags",
@@ -1254,7 +1258,6 @@
     "ugexe/raku-net--http",
     "Ultraopxt/yolov10cpp",
     "unitycontainer/aspnet-webapi",
-    "unixorn/autoupdate-zgenom",
     "unum-cloud/ustore-deps",
     "usbarmory/armory-drive-log",
     "usdot-fhwa-stol/avt_vimba_camera",

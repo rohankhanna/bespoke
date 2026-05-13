@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 887,
-    "concepts": 530,
-    "observations": 531,
-    "repos": 54,
-    "terms": 524
+    "components": 904,
+    "concepts": 552,
+    "observations": 553,
+    "repos": 56,
+    "terms": 546
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
@@ -40,9 +40,11 @@
     "gitui-org/gitui",
     "gleam-lang/gleam",
     "googleworkspace/cli",
+    "helix-editor/helix",
     "huggingface/candle",
     "huggingface/tokenizers",
     "hyperium/tonic",
+    "iced-rs/iced",
     "jdx/mise",
     "launchbadge/sqlx",
     "microsoft/windows-rs",

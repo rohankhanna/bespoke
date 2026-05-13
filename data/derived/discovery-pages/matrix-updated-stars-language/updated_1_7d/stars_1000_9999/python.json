@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 60,
-    "concepts": 82,
-    "observations": 83,
-    "repos": 10,
-    "terms": 82
+    "components": 83,
+    "concepts": 101,
+    "observations": 102,
+    "repos": 11,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
-    "arcee-ai/mergekit",
+    "awslabs/aidlc-workflows",
     "bitsandbytes-foundation/bitsandbytes",
+    "Farama-Foundation/Minigrid",
     "funstory-ai/BabelDOC",
     "ggozad/oterm",
-    "google-deepmind/dm-haiku",
     "google-deepmind/sonnet",
     "lucidrains/vector-quantize-pytorch",
     "meta-pytorch/captum",
     "mikel-brostrom/boxmot",
+    "roboflow/maestro",
     "strob/gentle"
   ]
 }

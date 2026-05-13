@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 6,
-    "terms": 44
+    "components": 10,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 4,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
+    "apache/brpc",
     "blender/blender",
     "DayBreak-u/chineseocr_lite",
-    "ggml-org/ggml",
-    "google-deepmind/mujoco",
-    "isl-org/Open3D",
-    "jqlang/jq"
+    "ggml-org/ggml"
   ]
 }

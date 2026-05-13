@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 5,
-    "terms": 6
+    "components": 21,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 6,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "AdaCore/vss-text",
     "Bearer/homebrew-tap",
     "mjvolk3/dendron-template",
     "onomojo/i18n-country-translations-ex",
-    "onomojo/i18n-timezones-ex"
+    "onomojo/i18n-timezones-ex",
+    "stable-haskell/stack"
   ]
 }

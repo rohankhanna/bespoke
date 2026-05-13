@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4022,
-    "concepts": 817,
-    "observations": 821,
-    "repos": 68,
-    "terms": 815
+    "components": 3898,
+    "concepts": 752,
+    "observations": 756,
+    "repos": 64,
+    "terms": 750
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "aidenybai/react-scan",
     "angular/angular-cli",
@@ -24,7 +24,6 @@
     "aws/aws-cdk",
     "BabylonJS/Babylon.js",
     "better-auth/better-auth",
-    "bokeh/bokeh",
     "bytedance/UI-TARS-desktop",
     "calcom/cal.diy",
     "changesets/changesets",
@@ -33,9 +32,7 @@
     "continuedev/continue",
     "danny-avila/LibreChat",
     "DefinitelyTyped/DefinitelyTyped",
-    "ecomfe/vue-echarts",
     "electron-react-boilerplate/electron-react-boilerplate",
-    "electron-userland/electron-builder",
     "element-plus/element-plus",
     "faker-js/faker",
     "formatjs/formatjs",
@@ -43,7 +40,6 @@
     "jhipster/generator-jhipster",
     "jquense/yup",
     "Kong/insomnia",
-    "kysely-org/kysely",
     "mapbox/mapbox-gl-js",
     "maplibre/maplibre-gl-js",
     "marmelab/react-admin",
@@ -56,8 +52,6 @@
     "nuxt/nuxt",
     "oblador/react-native-vector-icons",
     "openobserve/openobserve",
-    "pmndrs/react-three-fiber",
-    "pmndrs/zustand",
     "prisma/prisma",
     "puppeteer/puppeteer",
     "QwikDev/qwik",
@@ -75,7 +69,9 @@
     "TanStack/query",
     "TanStack/router",
     "TanStack/table",
+    "vitejs/vite",
     "vitest-dev/vitest",
+    "vuejs/core",
     "vuejs/vitepress",
     "vueuse/vueuse",
     "web-infra-dev/midscene",

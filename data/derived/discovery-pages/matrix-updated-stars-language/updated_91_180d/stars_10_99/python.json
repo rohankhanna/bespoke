@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 177,
-    "concepts": 200,
-    "observations": 200,
-    "repos": 85,
-    "terms": 209
+    "concepts": 206,
+    "observations": 206,
+    "repos": 87,
+    "terms": 215
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "aba122/Q-Hawkeye",
+    "adhikasp/mcp-youtube",
     "Adlik/vllm",
     "Alexandre-Delplanque/HerdNet",
     "alexmojaki/pure_eval",
@@ -53,6 +54,7 @@
     "icppWorld/icgpt",
     "InteractiveComputerGraphics/blender-sequence-loader",
     "InternScience/SeedBench",
+    "IQTLabs/snowglobe",
     "JarnoRFB/incense",
     "jdlph/Path4GMNS",
     "jhakulin/realtime-ai",

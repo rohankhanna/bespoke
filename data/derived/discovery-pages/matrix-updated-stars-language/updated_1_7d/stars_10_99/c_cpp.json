@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 13,
-    "observations": 13,
-    "repos": 3,
-    "terms": 13
+    "components": 3,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 4,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "bmwiedemann/openSUSE",
+    "edge-classic/EDGE-classic",
     "xuegao-tzx/Fllama",
     "zig-wasm/wasmer-zig-api"
   ]

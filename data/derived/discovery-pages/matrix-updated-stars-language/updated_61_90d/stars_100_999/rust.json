@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 191,
-    "concepts": 118,
-    "observations": 118,
-    "repos": 31,
-    "terms": 117
+    "components": 199,
+    "concepts": 133,
+    "observations": 133,
+    "repos": 33,
+    "terms": 132
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "Ai00-X/ai00_server",
     "arkworks-rs/r1cs-std",
@@ -23,6 +23,7 @@
     "esp-rs/embedded-svc",
     "fast/logforth",
     "filecoin-project/rust-fil-proofs",
+    "gfx-rs/rspirv",
     "gwihlidal/vk-mem-rs",
     "hecrj/icebreaker",
     "ItsEthra/typst-live",
@@ -41,6 +42,7 @@
     "rust3ds/ctru-rs",
     "smol-rs/async-executor",
     "SunDoge/simdjson-rust",
+    "typst/comemo",
     "typstyle-rs/typstyle",
     "unicode-rs/unicode-width",
     "zkcrypto/bls12_381",

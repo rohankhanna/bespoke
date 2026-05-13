@@ -3,7 +3,7 @@
     "components": 261,
     "concepts": 252,
     "observations": 252,
-    "repos": 58,
+    "repos": 59,
     "terms": 251
   },
   "facet_version": 1,
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "adobe-fonts/source-code-pro",
     "AliaksandrSiarohin/first-order-model",
     "altercation/solarized",
     "animate-css/animate.css",
+    "anthropics/courses",
     "artidoro/qlora",
     "bitcoinbook/bitcoinbook",
     "bloc97/Anime4K",

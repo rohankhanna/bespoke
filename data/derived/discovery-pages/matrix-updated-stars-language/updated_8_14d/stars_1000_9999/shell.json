@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 95,
-    "concepts": 123,
-    "observations": 123,
-    "repos": 15,
-    "terms": 122
+    "components": 90,
+    "concepts": 104,
+    "observations": 104,
+    "repos": 13,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "archlinuxcn/repo",
     "bitnami/containers",
     "Botspot/pi-apps",
-    "confluentinc/demo-scene",
-    "fluxcd/flux2-kustomize-helm-example",
     "GrapheneOS/Vanadium",
     "heroku/heroku-buildpack-nodejs",
     "holman/dotfiles",

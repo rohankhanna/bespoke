@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 237,
-    "concepts": 193,
-    "observations": 193,
-    "repos": 47,
-    "terms": 195
+    "components": 254,
+    "concepts": 216,
+    "observations": 216,
+    "repos": 51,
+    "terms": 218
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "acts-project/traccc",
@@ -30,13 +30,17 @@
     "f32c/tools",
     "fabmax/PhysX",
     "gazebosim/gz-fuel-tools",
+    "gazebosim/gz-gui",
     "gazebosim/gz-transport",
     "ICRAR/crc32c",
     "JFLarvoire/the_silver_searcher",
+    "kendryte/canmv_k230",
     "ksnip/kImageAnnotator",
+    "LedgerHQ/app-boilerplate",
     "liangshengyong/lanwan",
     "libbitcoin/libbitcoin-database",
     "libbitcoin/libbitcoin-network",
+    "llnl/camp",
     "lxqt/liblxqt",
     "lxqt/libqtxdg",
     "marciogranzotto/clawd-tank",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 537,
-    "concepts": 806,
-    "observations": 806,
-    "repos": 129,
-    "terms": 796
+    "components": 567,
+    "concepts": 832,
+    "observations": 832,
+    "repos": 131,
+    "terms": 823
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "2U1/Qwen-VL-Series-Finetune",
@@ -74,6 +74,7 @@
     "jiaaro/pydub",
     "JulietaUla/Montserrat",
     "jupyter/nbconvert",
+    "k2-fsa/icefall",
     "Kapeli/Dash-User-Contributions",
     "kislyuk/argcomplete",
     "Knio/dominate",
@@ -82,6 +83,7 @@
     "lanpa/tensorboardX",
     "linkchecker/linkchecker",
     "LorenEteval/Furious",
+    "meta-pytorch/attention-gym",
     "meta-pytorch/tnt",
     "michaelfeil/infinity",
     "microsoft/debugpy",
@@ -103,16 +105,17 @@
     "OpenGVLab/InternVideo",
     "PaddlePaddle/PaddleClas",
     "PDFMathTranslate-next/PDFMathTranslate-next",
-    "pdfminer/pdfminer.six",
     "Peterande/D-FINE",
     "Pointcept/Pointcept",
     "PyCQA/flake8-bugbear",
     "pytest-dev/pytest-cov",
+    "PyThaiNLP/pythainlp",
     "python-hyper/h2",
     "python-poetry/cleo",
     "pyupio/safety",
     "QwenLM/Qwen3-VL-Embedding",
     "RapidAI/RapidOCR",
+    "rthalley/dnspython",
     "RUC-NLPIR/FlashRAG",
     "rusty1s/pytorch_scatter",
     "rusty1s/pytorch_sparse",
@@ -131,7 +134,6 @@
     "tensorflow/datasets",
     "Textualize/rich-cli",
     "The-OpenROAD-Project/OpenLane",
-    "themix-project/themix-gui",
     "therealxiaomanchu/ex-skill",
     "Thinklab-SJTU/Bench2Drive",
     "ufoym/deepo",

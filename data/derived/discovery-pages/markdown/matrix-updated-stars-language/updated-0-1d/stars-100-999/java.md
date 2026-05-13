@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Java
 
-Generated at: `2026-05-12T07:47:44.345415+00:00`
+Generated at: `2026-05-13T05:48:18.537624+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 4
-- terms: 33
-- components: 24
-- concepts: 33
-- observations: 33
+- terms: 30
+- components: 15
+- concepts: 30
+- observations: 30
 
 ## Static behavior
 
@@ -26,16 +26,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [cloudfoundry/credhub](https://github.com/cloudfoundry/credhub) | 249 | 2026-05-12T00:21:09Z | Java | Infrastructure/tooling | 6 | 2 | 6 | 6 |
-| [eclipse-wildwebdeveloper/wildwebdeveloper](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper) | 198 | 2026-05-11T22:41:50Z | Java | CLI | 8 | 13 | 8 | 8 |
-| [spring-projects/spring-tools](https://github.com/spring-projects/spring-tools) | 965 | 2026-05-11T15:58:15Z | Java | CLI | 16 | 6 | 16 | 16 |
-| [ldproxy/ldproxy](https://github.com/ldproxy/ldproxy) | 102 | 2026-05-11T08:48:24Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [ldproxy/ldproxy](https://github.com/ldproxy/ldproxy) | 102 | 2026-05-13T01:59:02Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [spring-projects/spring-tools](https://github.com/spring-projects/spring-tools) | 965 | 2026-05-12T23:59:54Z | Java | CLI | 16 | 6 | 16 | 16 |
+| [eclipse-lsp4j/lsp4j](https://github.com/eclipse-lsp4j/lsp4j) | 714 | 2026-05-12T23:30:03Z | Java | CLI | 5 | 4 | 5 | 5 |
+| [cloudfoundry/credhub](https://github.com/cloudfoundry/credhub) | 249 | 2026-05-12T22:02:22Z | Java | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [spring-projects/spring-tools](https://github.com/spring-projects/spring-tools) | 965 | 2026-05-11T15:58:15Z | Java | CLI | 16 | 6 | 16 | 16 |
-| [cloudfoundry/credhub](https://github.com/cloudfoundry/credhub) | 249 | 2026-05-12T00:21:09Z | Java | Infrastructure/tooling | 6 | 2 | 6 | 6 |
-| [eclipse-wildwebdeveloper/wildwebdeveloper](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper) | 198 | 2026-05-11T22:41:50Z | Java | CLI | 8 | 13 | 8 | 8 |
-| [ldproxy/ldproxy](https://github.com/ldproxy/ldproxy) | 102 | 2026-05-11T08:48:24Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [spring-projects/spring-tools](https://github.com/spring-projects/spring-tools) | 965 | 2026-05-12T23:59:54Z | Java | CLI | 16 | 6 | 16 | 16 |
+| [eclipse-lsp4j/lsp4j](https://github.com/eclipse-lsp4j/lsp4j) | 714 | 2026-05-12T23:30:03Z | Java | CLI | 5 | 4 | 5 | 5 |
+| [cloudfoundry/credhub](https://github.com/cloudfoundry/credhub) | 249 | 2026-05-12T22:02:22Z | Java | Infrastructure/tooling | 6 | 2 | 6 | 6 |
+| [ldproxy/ldproxy](https://github.com/ldproxy/ldproxy) | 102 | 2026-05-13T01:59:02Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |

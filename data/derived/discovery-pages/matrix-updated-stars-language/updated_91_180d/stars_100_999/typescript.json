@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1018,
-    "concepts": 191,
-    "observations": 191,
-    "repos": 37,
-    "terms": 190
+    "components": 1032,
+    "concepts": 196,
+    "observations": 196,
+    "repos": 38,
+    "terms": 195
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "adaltas/node-http-status",
     "addyosmani/chatty",
@@ -23,6 +23,7 @@
     "Anush008/fastembed-js",
     "axel-op/googlejavaformat-action",
     "bvaughn/react-window-infinite-loader",
+    "castwide/vscode-solargraph",
     "celo-org/celo-composer",
     "cocos/cocos-test-projects",
     "enisdenjo/graphql-sse",

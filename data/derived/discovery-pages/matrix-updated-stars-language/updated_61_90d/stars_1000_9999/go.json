@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 70,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 21,
-    "terms": 89
+    "components": 79,
+    "concepts": 89,
+    "observations": 89,
+    "repos": 24,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "abh/geodns",
     "avast/retry-go",
@@ -26,6 +26,8 @@
     "gobwas/ws",
     "golang/oauth2",
     "google/go-cmp",
+    "hashicorp/go-metrics",
+    "hashicorp/memberlist",
     "isaacphi/mcp-language-server",
     "JohannesKaufmann/html-to-markdown",
     "mattn/efm-langserver",
@@ -34,6 +36,7 @@
     "opencontainers/image-spec",
     "refraction-networking/utls",
     "spf13/pflag",
-    "tidwall/btree"
+    "tidwall/btree",
+    "xtaci/smux"
   ]
 }

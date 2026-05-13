@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 28091,
-    "concepts": 14879,
-    "observations": 14929,
-    "repos": 5385,
-    "terms": 14880
+    "components": 28094,
+    "concepts": 14878,
+    "observations": 14928,
+    "repos": 5387,
+    "terms": 14882
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -220,6 +220,7 @@
     "AdguardTeam/CoreLibs",
     "AdguardTeam/FiltersCompiler",
     "AdguardTeam/SafariConverterLib",
+    "adhikasp/mcp-youtube",
     "adinhodovic/argo-cd-mixin",
     "adisbladis/lix-unit",
     "Adlik/model_optimizer",
@@ -2273,6 +2274,7 @@
     "fuziki/WorldInApple",
     "fwcd/kotlin-quick-start",
     "FWHP-Enfun/Mixed-VsWeKai",
+    "g-plane/raffia",
     "gabmontes/source-map-cli",
     "gacts/install-dnscontrol",
     "GaiZhenbiao/Phi3V-Finetuning",
@@ -2933,6 +2935,7 @@
     "JasonJZLiu/FACTR_Hardware",
     "JasonJZLiu/FACTR_Teleop",
     "javagl/gltfOverview",
+    "JavaHello/spring-boot.nvim",
     "jawah/wassima",
     "jawwadfirdousi/agent-skills",
     "jaxxstorm/ploy",
@@ -4461,7 +4464,6 @@
     "robertgzr/homebrew-tap",
     "robertostling/efmaral",
     "robinheghan/differ",
-    "robinvanschaik/interpret-flair",
     "Roblox/setup-foreman",
     "Roblox/SmoothCache",
     "robotology/community",

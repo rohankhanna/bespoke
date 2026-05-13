@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-05-12T07:47:44.345415+00:00`
+Generated at: `2026-05-13T05:48:18.537624+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 30
-- components: 239
-- concepts: 30
-- observations: 30
+- repos: 6
+- terms: 48
+- components: 214
+- concepts: 48
+- observations: 48
 
 ## Static behavior
 
@@ -26,16 +26,20 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [unocss/unocss](https://github.com/unocss/unocss) | 18784 | 2026-05-09T03:24:40Z | TypeScript | Infrastructure/tooling | 8 | 92 | 8 | 8 |
+| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83430 | 2026-05-11T21:56:32Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) | 43123 | 2026-05-11T17:18:46Z | TypeScript | Infrastructure/tooling | 23 | 7 | 23 | 23 |
+| [googleapis/google-api-nodejs-client](https://github.com/googleapis/google-api-nodejs-client) | 12147 | 2026-05-11T14:59:42Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
+| [vercel-labs/skills](https://github.com/vercel-labs/skills) | 18198 | 2026-05-11T12:55:40Z | TypeScript | Infrastructure/tooling | 2 | 16 | 2 | 2 |
+| [unocss/unocss](https://github.com/unocss/unocss) | 18786 | 2026-05-09T03:24:40Z | TypeScript | Infrastructure/tooling | 8 | 92 | 8 | 8 |
 | [mobxjs/mobx](https://github.com/mobxjs/mobx) | 28183 | 2026-05-06T13:32:59Z | TypeScript | Infrastructure/tooling | 6 | 43 | 6 | 6 |
-| [vitejs/vite](https://github.com/vitejs/vite) | 80403 | 2026-05-05T14:41:42Z | TypeScript | Infrastructure/tooling | 10 | 41 | 10 | 10 |
-| [vuejs/core](https://github.com/vuejs/core) | 53603 | 2026-05-05T13:16:09Z | TypeScript | Infrastructure/tooling | 6 | 63 | 6 | 6 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [vitejs/vite](https://github.com/vitejs/vite) | 80403 | 2026-05-05T14:41:42Z | TypeScript | Infrastructure/tooling | 10 | 41 | 10 | 10 |
-| [vuejs/core](https://github.com/vuejs/core) | 53603 | 2026-05-05T13:16:09Z | TypeScript | Infrastructure/tooling | 6 | 63 | 6 | 6 |
+| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83430 | 2026-05-11T21:56:32Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) | 43123 | 2026-05-11T17:18:46Z | TypeScript | Infrastructure/tooling | 23 | 7 | 23 | 23 |
 | [mobxjs/mobx](https://github.com/mobxjs/mobx) | 28183 | 2026-05-06T13:32:59Z | TypeScript | Infrastructure/tooling | 6 | 43 | 6 | 6 |
-| [unocss/unocss](https://github.com/unocss/unocss) | 18784 | 2026-05-09T03:24:40Z | TypeScript | Infrastructure/tooling | 8 | 92 | 8 | 8 |
+| [unocss/unocss](https://github.com/unocss/unocss) | 18786 | 2026-05-09T03:24:40Z | TypeScript | Infrastructure/tooling | 8 | 92 | 8 | 8 |
+| [vercel-labs/skills](https://github.com/vercel-labs/skills) | 18198 | 2026-05-11T12:55:40Z | TypeScript | Infrastructure/tooling | 2 | 16 | 2 | 2 |
+| [googleapis/google-api-nodejs-client](https://github.com/googleapis/google-api-nodejs-client) | 12147 | 2026-05-11T14:59:42Z | TypeScript | CLI | 5 | 47 | 5 | 5 |

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 18,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 8,
-    "terms": 15
+    "concepts": 12,
+    "observations": 12,
+    "repos": 7,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "danielrosehill/Claude-Agent-Relay-Plugin",
     "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
     "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
-    "danielrosehill/Repo-Starters-And-Templates-Index",
     "flagos-ai/verl-FL",
     "lace/lacecore",
     "seanmacavaney/ir-datasets.com",

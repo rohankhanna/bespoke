@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 533,
-    "concepts": 714,
-    "observations": 717,
-    "repos": 77,
-    "terms": 719
+    "components": 557,
+    "concepts": 795,
+    "observations": 799,
+    "repos": 82,
+    "terms": 800
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
+    "AaronFeng753/Waifu2x-Extension-GUI",
     "abseil/abseil-cpp",
     "Alexays/Waybar",
     "alibaba/MNN",
@@ -24,8 +25,10 @@
     "aristocratos/btop",
     "aseprite/aseprite",
     "asmvik/yabai",
+    "baldurk/renderdoc",
     "bitcoin/bitcoin",
     "bkaradzic/bgfx",
+    "cameron314/concurrentqueue",
     "catchorg/Catch2",
     "chromium/chromium",
     "citusdata/citus",
@@ -54,6 +57,8 @@
     "Immediate-Mode-UI/Nuklear",
     "jedisct1/libsodium",
     "jonas/tig",
+    "k2-fsa/sherpa-onnx",
+    "libuv/libuv",
     "libvips/libvips",
     "mawww/kakoune",
     "microsoft/mimalloc",
@@ -66,12 +71,12 @@
     "microsoft/wslg",
     "ml-explore/mlx",
     "mpv-player/mpv",
-    "ninja-build/ninja",
     "NixOS/nix",
     "nothings/stb",
     "NVIDIA/TensorRT",
     "ocornut/imgui",
     "opencv/opencv_contrib",
+    "openframeworks/openFrameworks",
     "openresty/lua-nginx-module",
     "openssl/openssl",
     "PaddlePaddle/Paddle",

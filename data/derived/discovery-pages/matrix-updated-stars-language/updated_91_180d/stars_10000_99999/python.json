@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 161,
-    "concepts": 201,
-    "observations": 203,
-    "repos": 28,
-    "terms": 200
+    "components": 168,
+    "concepts": 210,
+    "observations": 212,
+    "repos": 30,
+    "terms": 209
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "andrewyng/aisuite",
@@ -23,6 +23,7 @@
     "bytedance/UI-TARS",
     "cleanlab/cleanlab",
     "FoundationAgents/MetaGPT",
+    "FoundationAgents/OpenManus",
     "hiroi-sora/Umi-OCR",
     "horovod/horovod",
     "IdreesInc/Monocraft",
@@ -31,6 +32,7 @@
     "karpathy/llm-council",
     "Lightricks/LTX-Video",
     "lllyasviel/Fooocus",
+    "lucidrains/denoising-diffusion-pytorch",
     "microsoft/unilm",
     "modin-project/modin",
     "nari-labs/dia",

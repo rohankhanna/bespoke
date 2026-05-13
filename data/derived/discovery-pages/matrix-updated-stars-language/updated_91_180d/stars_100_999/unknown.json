@@ -3,7 +3,7 @@
     "components": 14,
     "concepts": 80,
     "observations": 80,
-    "repos": 36,
+    "repos": 38,
     "terms": 91
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "ahmadawais/shades-of-purple-vscode",
@@ -25,6 +25,7 @@
     "dalek-cryptography/ed25519-dalek",
     "DaoCloud/public-binary-files-mirror",
     "deepinsight/inswapper-512-live",
+    "docker-library/faq",
     "ethstaker/ethstaker-guides",
     "filecoin-project/devgrants",
     "GraphBLAS/GraphBLAS-Pointers",
@@ -34,6 +35,7 @@
     "langchain4j/awesome-langchain4j",
     "libp2p/js-libp2p-examples",
     "lightning/blips",
+    "lintool/guide",
     "mapbox/tilejson-spec",
     "microsoft/foss-fund",
     "MiniMax-AI/MiniMax-M2.1",

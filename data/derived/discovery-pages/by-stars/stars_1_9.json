@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 11703,
-    "concepts": 5176,
-    "observations": 5185,
-    "repos": 2317,
-    "terms": 5196
+    "concepts": 5181,
+    "observations": 5190,
+    "repos": 2320,
+    "terms": 5201
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0cc4m/hf_bleeding_edge",
@@ -762,6 +762,8 @@
     "danielrosehill/Claude-KDE-Plasma-Plugin",
     "danielrosehill/Claude-LAN-Manager-0126",
     "danielrosehill/Claude-Legal-Investigative-Plugin",
+    "danielrosehill/Claude-Linux-System-Optimisation-Plugin",
+    "danielrosehill/Claude-LLM-Council-Creator-Plugin",
     "danielrosehill/Claude-Rudder",
     "danielrosehill/claude-slash-commands",
     "danielrosehill/Cloud-STT-Price-Points-1225",
@@ -1067,6 +1069,7 @@
     "funstory-ai/jobs",
     "funtoo/core-kit",
     "fwcd/atom-ide-kotlin",
+    "g-plane/pretty_jinja",
     "ga4gh/large-scale-genomics-wiki",
     "gabrielschulhof/iotivity-node",
     "gadjalin/glad-fortran",
@@ -2024,6 +2027,7 @@
     "Shougo/dpp-ext-local",
     "Shougo/dpp-ext-toml",
     "shovel-org/Base",
+    "shunsambongi/neotest-testthat",
     "ShuoZhang2003/DT-VQA",
     "sigp/quick-protobuf",
     "sigp/xdelta3-rs",
@@ -2212,7 +2216,6 @@
     "ugexe/raku-net--http",
     "Ultraopxt/yolov10cpp",
     "unitycontainer/aspnet-webapi",
-    "unixorn/autoupdate-zgenom",
     "UnknownPlatypus/djangofmt-pre-commit",
     "unum-cloud/ustore-deps",
     "urschrei/polyline-ffi",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1899,
-    "concepts": 2842,
-    "observations": 2861,
-    "repos": 708,
-    "terms": 2770
+    "components": 1896,
+    "concepts": 2840,
+    "observations": 2859,
+    "repos": 707,
+    "terms": 2779
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -687,7 +687,6 @@
     "undeadlist/claude-code-agents",
     "ungoogled-software/ungoogled-chromium-android",
     "ungoogled-software/ungoogled-chromium-archlinux",
-    "unixorn/autoupdate-zgenom",
     "unixorn/awesome-zsh-plugins",
     "unixorn/zsh-quickstart-kit",
     "v2fly/docker",

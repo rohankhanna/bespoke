@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 58,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 14,
-    "terms": 42
+    "components": 51,
+    "concepts": 36,
+    "observations": 36,
+    "repos": 10,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
-    "alphagov/govuk-rfcs",
     "Ayaginu-Sue/Astalia",
     "cbuijs/hagezi",
-    "elastic/logstash-docs",
     "filecoin-project/Allocator-Registry",
-    "jupyterlab/frontends-team-compass",
     "microsoft/microsoft-foundry-for-vscode",
     "NightWatcher314/zotero-pdf2zh-server",
     "sakib-m/Pi-hole-Torrent-Blocklist",
     "sigstore/root-signing-staging",
     "spiffe/spire-examples",
     "standardrb/standard-ruby-action",
-    "universal-ctags/ctags-nightly-build",
-    "uxlfoundation/foundation"
+    "universal-ctags/ctags-nightly-build"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 991,
-    "concepts": 202,
-    "observations": 203,
-    "repos": 36,
-    "terms": 198
+    "components": 905,
+    "concepts": 185,
+    "observations": 186,
+    "repos": 33,
+    "terms": 183
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "AdguardTeam/HostlistsRegistry",
     "AdguardTeam/Scriptlets",
@@ -28,21 +28,18 @@
     "facebook/Rapid",
     "firebase/snippets-web",
     "fontello/svg2ttf",
+    "gitleaks/gitleaks-action",
     "hudochenkov/postcss-sorting",
-    "hyparam/icebird",
-    "keithamus/sort-package-json",
     "Kilian/electron-to-chromium",
     "lo-th/phy",
-    "mdn/data",
     "mdn/fred",
-    "mdn/mdn-http-observatory",
     "mozilla/addons-linter",
     "octokit/graphql-schema",
     "openfl/lime",
     "oss-serverless/serverless",
-    "prisma/ecosystem-tests",
     "ruby/setup-ruby",
     "rvagg/github-webhook-handler",
+    "stylelint/stylelint-config-recommended",
     "sveltejs/dts-buddy",
     "usnistgov/h5wasm",
     "validator/grunt-html",

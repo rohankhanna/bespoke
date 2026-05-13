@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 95,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 1,
-    "terms": 12
+    "components": 146,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 2,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
-    "mui/material-ui"
+    "mui/material-ui",
+    "preactjs/preact"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 70,
-    "concepts": 213,
-    "observations": 214,
-    "repos": 54,
-    "terms": 212
+    "components": 80,
+    "concepts": 209,
+    "observations": 210,
+    "repos": 55,
+    "terms": 209
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "actions/partner-runner-images",
@@ -21,7 +21,6 @@
     "antonbabenko/awesome-terraform-compliance",
     "antonbabenko/terraform-aws-devops",
     "apappascs/mcp-servers-hub",
-    "astro-han/karpathy-llm-wiki",
     "AutoJunjie/awesome-agent-harness",
     "bitrise-io/bitrise-steplib",
     "bloomberg/clang-p2996",
@@ -51,11 +50,13 @@
     "LuaLS/LLS-Addons",
     "luau-lang/rfcs",
     "mason-org/mason-registry",
+    "mdn/mdn-community",
     "MicrosoftDocs/terminal",
     "nimbalyst/nimbalyst",
     "NuGet/docs.microsoft.com-nuget",
     "oak-security/audit-reports",
     "ocaml/opam-repository",
+    "openjs-foundation/cross-project-council",
     "piebald-ai/awesome-gemini-cli",
     "ranpox/awesome-computer-use",
     "rstackjs/awesome-rstack",

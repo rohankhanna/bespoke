@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 344,
-    "concepts": 676,
-    "observations": 677,
-    "repos": 146,
-    "terms": 663
+    "components": 354,
+    "concepts": 698,
+    "observations": 699,
+    "repos": 147,
+    "terms": 688
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
+    "AIDC-AI/Ovis",
     "AILab-CVC/VideoCrafter",
     "alexmojaki/snoop",
     "AlibabaResearch/DAMO-ConvAI",
@@ -22,6 +23,7 @@
     "andialbrecht/sqlparse",
     "andreafrancia/trash-cli",
     "AnswerDotAI/rerankers",
+    "anthropics/claude-code-security-review",
     "apple/ml-hypersim",
     "aqlaboratory/openfold",
     "ARISE-Initiative/robomimic",
@@ -59,7 +61,6 @@
     "facebookresearch/pytorchvideo",
     "Farama-Foundation/Metaworld",
     "fixie-ai/ultravox",
-    "genmoai/mochi",
     "google-deepmind/alphageometry",
     "google-gemini/deprecated-generative-ai-python",
     "google-research/text-to-text-transfer-transformer",
@@ -91,6 +92,7 @@
     "lucidrains/tab-transformer-pytorch",
     "lupantech/AgentFlow",
     "MeetKai/functionary",
+    "meta-llama/llama-models",
     "Minqi824/ADBench",
     "mjpost/sacrebleu",
     "modelscope/3D-Speaker",
@@ -102,10 +104,10 @@
     "NixOS/nixops",
     "nod-ai/AMD-SHARK-Studio",
     "notofonts/noto-cjk",
+    "novnc/websockify",
     "numz/ComfyUI-SeedVR2_VideoUpscaler",
     "nv-tlabs/ASE",
     "NVIDIA/ChatRTX",
-    "NVIDIA/RULER",
     "obsei/obsei",
     "offu/WeRoBot",
     "ollama/ollama-python",
@@ -119,7 +121,6 @@
     "pallets-eco/blinker",
     "Paper2Poster/Paper2Poster",
     "paulocoutinhox/pdfium-lib",
-    "PeterGriffinJin/Search-R1",
     "Phantom-video/HuMo",
     "PKU-Alignment/safe-rlhf",
     "PKU-YuanGroup/LLaVA-CoT",

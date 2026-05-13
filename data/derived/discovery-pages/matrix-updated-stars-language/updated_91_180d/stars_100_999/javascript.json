@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 657,
+    "components": 673,
     "concepts": 110,
     "observations": 110,
-    "repos": 42,
+    "repos": 43,
     "terms": 110
   },
   "facet_version": 1,
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "adriantoine/enzyme-to-json",
     "agenda/agendash",
     "attractivechaos/k8",
     "bramstein/url-template",
+    "Calcium-Ion/neko-api-key-tool",
     "chaijs/deep-eql",
     "charmbracelet/tree-sitter-vhs",
     "dcoapp/app",

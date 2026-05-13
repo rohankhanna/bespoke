@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 183,
-    "concepts": 210,
-    "observations": 210,
+    "components": 182,
+    "concepts": 209,
+    "observations": 209,
     "repos": 34,
-    "terms": 209
+    "terms": 208
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "aws-observability/aws-otel-collector",
@@ -24,7 +24,6 @@
     "cloudwego/biz-demo",
     "cloudwego/hertz-examples",
     "connectrpc/grpcreflect-go",
-    "containers/storage",
     "cpuguy83/go-md2man",
     "DaoCloud/crproxy",
     "ethereum-optimism/asterisc",
@@ -41,6 +40,7 @@
     "liquidmetal-dev/cluster-api-provider-microvm",
     "Masterminds/vcs",
     "mholt/archives",
+    "MicahParks/keyfunc",
     "multiformats/multiaddr",
     "node-real/bsc-erigon",
     "oceanbase/ob-operator",

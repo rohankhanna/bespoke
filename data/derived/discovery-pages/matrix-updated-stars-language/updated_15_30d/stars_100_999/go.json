@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 884,
-    "concepts": 724,
-    "observations": 730,
-    "repos": 118,
-    "terms": 734
+    "components": 899,
+    "concepts": 750,
+    "observations": 756,
+    "repos": 121,
+    "terms": 760
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
-    "2dust/AndroidLibV2rayLite",
     "2dust/AndroidLibXrayLite",
     "a2aproject/a2a-go",
     "AdguardTeam/AdGuardDNS",
@@ -29,6 +28,7 @@
     "apache/pulsar-client-go",
     "appleboy/go-fcm",
     "argoproj-labs/argo-rollouts-manager",
+    "aws-cloudformation/rain",
     "aws/amazon-vpc-resource-controller-k8s",
     "awslabs/soci-snapshotter",
     "Azure/azure-workload-identity",
@@ -45,10 +45,12 @@
     "chainguard-dev/melange",
     "charmbracelet/catwalk",
     "charmbracelet/colorprofile",
+    "ClickHouse/ch-go",
     "cloudflare/go",
     "cloudfoundry/bosh-bootloader",
     "cloudfoundry/bosh-cli",
     "cloudfoundry/gosigar",
+    "cloudwego/eino-examples",
     "coder/code-marketplace",
     "coder/envbuilder",
     "Consensys/gnark-crypto",
@@ -69,7 +71,6 @@
     "go-viper/mapstructure",
     "googleapis/go-genproto",
     "hashicorp/errwrap",
-    "hashicorp/go-discover",
     "hashicorp/terraform-plugin-docs",
     "hashicorp/terraform-plugin-framework",
     "hashicorp/terraform-plugin-go",
@@ -113,8 +114,10 @@
     "openshift/enhancements",
     "openshift/library",
     "opentofu/registry",
+    "oracle/oci-go-sdk",
     "ossf/osv-schema",
     "phiat/claude-esp",
+    "pion/ice",
     "pion/mediadevices",
     "pires/go-proxyproto",
     "prehisle/relay-pulse",

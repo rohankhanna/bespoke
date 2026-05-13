@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2042,
-    "concepts": 1062,
-    "observations": 1068,
-    "repos": 426,
-    "terms": 1071
+    "components": 2043,
+    "concepts": 1069,
+    "observations": 1075,
+    "repos": 432,
+    "terms": 1078
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -30,10 +30,12 @@
     "abapGit/ADT_Backend",
     "abapGit/ADT_Frontend",
     "Accla/D4M.py",
+    "AdaCore/gnatcoll-bindings",
     "AdaCore/gnatcoll-db",
     "adamgreig/ecpdap",
     "adamharrison/lite-xl-terminal",
     "adevinta/actions-lighthouseci-compare",
+    "adhikasp/mcp-youtube",
     "Adlik/model_zoo",
     "Adlik/vllm",
     "adobe-type-tools/aots",
@@ -136,6 +138,8 @@
     "darrelmiller/sharpa2a",
     "databendlabs/opensrv",
     "datafusion-contrib/hdfs-native-object-store",
+    "DavidKinder/Git",
+    "DavidKinder/Windows-Glk",
     "dfki-ric/pclomp",
     "DLR-TS/SUMOLibraries",
     "doraemonkeys/paddleocr",
@@ -219,6 +223,7 @@
     "InteractiveComputerGraphics/blender-sequence-loader",
     "InternScience/SeedBench",
     "ipfs/helia-http-gateway",
+    "IQTLabs/snowglobe",
     "isaacs/clock-mock",
     "jaegertracing/docker-protobuf",
     "JaeZ1205/PS_NBI2k",
@@ -292,6 +297,7 @@
     "MichaelHatherly/REPLicant.jl",
     "microsoft/LinuxTracepoints-Rust",
     "microsoft/local-email-agent",
+    "microsoft/windows-host-process-containers-base-image",
     "mikespook/possum",
     "mingyuanzhou/SiD-LSG",
     "minikube-ci/examples",

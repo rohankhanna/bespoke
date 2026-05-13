@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11501,
-    "concepts": 7871,
-    "observations": 7932,
-    "repos": 1715,
-    "terms": 7868
+    "components": 11524,
+    "concepts": 7884,
+    "observations": 7945,
+    "repos": 1719,
+    "terms": 7882
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -78,6 +78,7 @@
     "alacritty/alacritty",
     "alacritty/vtebench",
     "aldanor/fast-float-rust",
+    "Aleph-Alpha/ts-rs",
     "alex/rust-asn1",
     "alexcrichton/ssh2-rs",
     "alexheretic/ab-glyph",
@@ -528,6 +529,7 @@
     "dora-rs/dora",
     "dotenv-rs/dotenv",
     "DoumanAsh/xxhash-rust",
+    "dprint/dprint-plugin-typescript",
     "drahnr/cargo-spellcheck",
     "drmingdrmer/display-more",
     "dskkato/rjo",
@@ -702,6 +704,8 @@
     "fussybeaver/bollard",
     "g-plane/malva",
     "g-plane/markup_fmt",
+    "g-plane/pretty_jinja",
+    "g-plane/raffia",
     "g1mv/density",
     "gabdube/native-windows-gui",
     "gakonst/ethers-rs",

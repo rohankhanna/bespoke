@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 86,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 21,
-    "terms": 56
+    "components": 89,
+    "concepts": 62,
+    "observations": 62,
+    "repos": 22,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "adobe/spectrum-tokens",
@@ -29,6 +29,7 @@
     "nikitabobko/homebrew-tap",
     "objectbox/objectbox-swift-generator",
     "open-rpc/markdown-gen",
+    "PyThaiNLP/pythainlp-corpus",
     "redis-developer/redis-starter-csharp",
     "shakacode/package_json",
     "stephanj/sonarlint-devoxxgenie-intellij",

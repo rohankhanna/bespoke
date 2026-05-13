@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 170,
-    "concepts": 337,
-    "observations": 337,
-    "repos": 61,
-    "terms": 334
+    "components": 171,
+    "concepts": 332,
+    "observations": 332,
+    "repos": 59,
+    "terms": 328
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
     "AIDC-AI/Marco-o1",
-    "AIDC-AI/Ovis",
     "AmberSahdev/Open-Interface",
     "anapnoe/stable-diffusion-webui-ux",
-    "anthropics/claude-code-security-review",
     "ARISE-Initiative/robosuite",
     "astanin/python-tabulate",
     "Beckschen/TransUNet",
@@ -47,9 +45,7 @@
     "layumi/Person_reID_baseline_pytorch",
     "LTH14/mar",
     "lyuwenyu/RT-DETR",
-    "meta-llama/llama-models",
     "mozillazg/pinyin-data",
-    "novnc/websockify",
     "nunchaku-ai/ComfyUI-nunchaku",
     "nunchaku-ai/nunchaku",
     "NVIDIA-AI-IOT/Lidar_AI_Solution",
@@ -57,6 +53,7 @@
     "om-ai-lab/VLM-R1",
     "open-webui/mcpo",
     "palantir/python-language-server",
+    "pdfminer/pdfminer.six",
     "pfnet/pfrl",
     "Pylons/pyramid",
     "python-semantic-release/python-semantic-release",
@@ -68,6 +65,7 @@
     "shibing624/text2vec",
     "simonw/claude-code-transcripts",
     "the-moonwitch/Cozette",
+    "themix-project/themix-gui",
     "toshas/torch-fidelity",
     "trevin-creator/autoresearch-mlx",
     "turboderp-org/exllamav2",

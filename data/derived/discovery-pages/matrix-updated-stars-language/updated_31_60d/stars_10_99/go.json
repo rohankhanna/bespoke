@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 199,
-    "concepts": 146,
-    "observations": 147,
-    "repos": 41,
-    "terms": 149
+    "components": 212,
+    "concepts": 157,
+    "observations": 158,
+    "repos": 44,
+    "terms": 160
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
+    "antham/ghokin",
+    "apache/dubbo-go-pixiu-samples",
     "Asterisk4Magisk/XrayHelper",
     "astro-han/diffpane",
     "aws/amazon-network-policy-controller-k8s",
@@ -46,6 +48,7 @@
     "kurrent-io/KurrentDB-Client-Go",
     "magodo/tfadd",
     "matelang/jwt-go-aws-kms",
+    "notaryproject/notation-go",
     "opea-project/GenAIInfra",
     "OpenCIDN/ocimirror",
     "scaleway/serverless-examples",

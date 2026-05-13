@@ -3,7 +3,7 @@
     "components": 30,
     "concepts": 59,
     "observations": 59,
-    "repos": 10,
+    "repos": 9,
     "terms": 58
   },
   "facet_version": 1,
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
-    "anthropics/courses",
     "camenduru/stable-diffusion-webui-colab",
     "folke/lazy.nvim",
     "github/copilot.vim",

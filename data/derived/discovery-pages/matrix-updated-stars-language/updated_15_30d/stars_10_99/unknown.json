@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 116,
-    "concepts": 125,
-    "observations": 126,
-    "repos": 37,
-    "terms": 124
+    "components": 120,
+    "concepts": 118,
+    "observations": 119,
+    "repos": 39,
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
+    "alphagov/govuk-rfcs",
     "BioContainers/multi-package-containers",
-    "bleichenbacher-daniel/Rooterberg",
     "canonical/ubuntu-security-notices",
     "cdxeve/awesome-computer-use-agents",
     "charmbracelet/scoop-bucket",
@@ -24,16 +24,17 @@
     "Dexters-Hub/Dexters-Hub",
     "docker/github-builder",
     "eigenfoundation/elips",
+    "elastic/logstash-docs",
     "flinedev/plankit",
     "ganelson/inform-evolution",
     "GDevelopApp/GDevelop-community-list",
     "goharbor/community",
     "google/oss-policies-info",
     "Homebrew/.github",
-    "ipshipyard/ipfs-deploy-action",
     "jakoch/rasterizers",
     "jakoch/vulkan-sdk-arm",
     "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+    "jupyterlab/frontends-team-compass",
     "kubernetes/steering",
     "mypyc/mypyc-benchmark-results",
     "ocaml/platform-blog",
@@ -48,6 +49,7 @@
     "spring-projects/spring-ai-integration-tests",
     "Stardust-SJF/cuvs_rabitq",
     "supabase/scoop-bucket",
+    "uxlfoundation/foundation",
     "w3c/accname",
     "w3c/core-aam",
     "webdriverio/awesome-webdriverio"

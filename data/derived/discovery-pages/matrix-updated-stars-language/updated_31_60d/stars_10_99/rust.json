@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 213,
-    "concepts": 137,
-    "observations": 139,
-    "repos": 34,
-    "terms": 137
+    "components": 223,
+    "concepts": 144,
+    "observations": 146,
+    "repos": 36,
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
+    "alixinne/glsl-lang",
     "antonWetzel/prettypst",
     "Anush008/tokenizers",
     "apache/casbin-actix-casbin-auth",
@@ -30,6 +31,7 @@
     "dcampbell24/mdbook-djot",
     "google/safe-mmio",
     "hermit-os/hermit-rs-template",
+    "idanarye/nu_plugin_skim",
     "jiegec/tantivy-jieba",
     "Kimahriman/hdfs-native",
     "kylebarron/arrow-wasm",

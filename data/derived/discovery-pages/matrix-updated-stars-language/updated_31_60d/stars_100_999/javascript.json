@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1285,
-    "concepts": 356,
-    "observations": 358,
-    "repos": 83,
-    "terms": 363
+    "components": 1324,
+    "concepts": 378,
+    "observations": 380,
+    "repos": 84,
+    "terms": 385
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "absolute-version/commit-and-tag-version",
@@ -25,6 +25,7 @@
     "avwo/whistle-client",
     "badgen/badgen",
     "beve-org/beve",
+    "browserify/resolve",
     "ButTaiwan/bpmfvs",
     "chrisgoringe/cg-use-everywhere",
     "cjoudrey/graphql-schema-linter",
@@ -50,7 +51,7 @@
     "fwcd/tree-sitter-kotlin",
     "googleapis/nodejs-bigtable",
     "GoogleChromeLabs/wasm-feature-detect",
-    "GoogleCloudPlatform/google-cloud-node-todos",
+    "gopasspw/gopassbridge",
     "gruntjs/grunt-contrib-connect",
     "gruntjs/grunt-contrib-cssmin",
     "gruntjs/grunt-contrib-htmlmin",

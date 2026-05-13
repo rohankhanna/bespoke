@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 194,
-    "concepts": 163,
-    "observations": 164,
+    "components": 208,
+    "concepts": 160,
+    "observations": 161,
     "repos": 58,
-    "terms": 160
+    "terms": 157
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "AadSah/ConverSeg",
     "abduznik/git-alchemist",
@@ -53,13 +53,13 @@
     "huggingface/image_gen_aux",
     "imlrz/DeepResearch-Bench-II",
     "inducer/genpy",
-    "IQTLabs/snowglobe",
     "layumi/3D-Magic-Mirror",
     "liran-funaro/sphinx-markdown-builder",
     "Lizw14/Super-CLEVR",
     "Owen-Liuyuxuan/ros2_vision_inference",
     "rdb/panda3d-thirdparty",
     "richardodliu/OpenCodeEval",
+    "rstudio/pins-python",
     "scaleway/serverless-gateway",
     "ServiceNow/webarena-verified",
     "sylabs/singularity-userdocs",

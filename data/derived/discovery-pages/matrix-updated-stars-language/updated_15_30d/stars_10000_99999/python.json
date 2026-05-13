@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1832,
-    "concepts": 1529,
-    "observations": 1534,
-    "repos": 147,
-    "terms": 1555
+    "components": 1846,
+    "concepts": 1532,
+    "observations": 1536,
+    "repos": 148,
+    "terms": 1560
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "3b1b/manim",
@@ -87,8 +87,9 @@
     "langbot-app/LangBot",
     "langchain-ai/deepagents",
     "langchain-ai/langgraph",
-    "letta-ai/letta",
+    "langchain-ai/open_deep_research",
     "LibreTranslate/LibreTranslate",
+    "locustio/locust",
     "magic-wormhole/magic-wormhole",
     "ManimCommunity/manim",
     "matplotlib/matplotlib",
@@ -128,6 +129,7 @@
     "pyodide/pyodide",
     "pypa/pip",
     "pytest-dev/pytest",
+    "python-pillow/Pillow",
     "python-poetry/poetry",
     "python-telegram-bot/python-telegram-bot",
     "python/cpython",
@@ -139,7 +141,6 @@
     "redis/redis-py",
     "searxng/searxng",
     "sgl-project/sglang",
-    "ShishirPatil/gorilla",
     "simonw/datasette",
     "speechbrain/speechbrain",
     "squidfunk/mkdocs-material",
@@ -148,9 +149,9 @@
     "streamlit/streamlit",
     "SWE-agent/SWE-agent",
     "tensorflow/models",
-    "Textualize/rich",
     "Textualize/textual",
     "titanwings/colleague-skill",
+    "treeverse/dvc",
     "ultralytics/ultralytics",
     "ultralytics/yolov3",
     "ultralytics/yolov5",

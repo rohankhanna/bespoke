@@ -3,7 +3,7 @@
     "components": 2,
     "concepts": 1,
     "observations": 1,
-    "repos": 3,
+    "repos": 2,
     "terms": 1
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "danielrosehill/Claude-Filesystem-Organiser-Plugin",
-    "danielrosehill/Claude-Image-Annotation-Plugin",
     "kalavai-net/kalavai-templates"
   ]
 }

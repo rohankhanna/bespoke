@@ -3,7 +3,7 @@
     "components": 67,
     "concepts": 24,
     "observations": 24,
-    "repos": 10,
+    "repos": 11,
     "terms": 24
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
+    "bgw/bincode",
     "databendlabs/iceberg-rust",
     "datafuse-extras/arrow-udf",
     "datafuse-extras/tantivy",

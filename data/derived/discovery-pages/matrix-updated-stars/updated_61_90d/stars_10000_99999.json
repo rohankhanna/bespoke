@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 501,
-    "concepts": 326,
-    "observations": 329,
-    "repos": 55,
-    "terms": 333
+    "concepts": 319,
+    "observations": 322,
+    "repos": 54,
+    "terms": 326
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-12T07:47:44.345415+00:00",
+  "generated_at": "2026-05-13T05:48:18.537624+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -29,7 +29,6 @@
     "facebookresearch/audiocraft",
     "facebookresearch/vggt",
     "floating-ui/floating-ui",
-    "FoundationAgents/OpenManus",
     "git-up/GitUp",
     "go-chi/chi",
     "google-research/vision_transformer",
@@ -44,7 +43,6 @@
     "kyleneideck/backgroundmusic",
     "logaretm/vee-validate",
     "lokesh/color-thief",
-    "lucidrains/denoising-diffusion-pytorch",
     "macrozheng/mall",
     "mathjax/MathJax",
     "microsoft/vscode-extension-samples",
@@ -53,6 +51,7 @@
     "peers/peerjs",
     "PKU-YuanGroup/Open-Sora-Plan",
     "powerline/powerline",
+    "pugjs/pug",
     "QwenLM/Qwen",
     "QwenLM/Qwen-Agent",
     "rubocop/ruby-style-guide",
