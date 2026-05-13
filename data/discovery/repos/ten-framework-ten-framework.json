@@ -1,0 +1,505 @@
+{
+  "components": [
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_check_pr_status.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai_agents.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai_agents.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml"
+    },
+    {
+      "component": "elgohr/Publish-Docker-Github-Action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_for_ai_agents.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_for_ai_agents.yml"
+    },
+    {
+      "component": "elgohr/Publish-Docker-Github-Action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_for_ai_agents.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_node_shared.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cancel_on_merged.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude_code_review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude_code_review.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "ten-framework/ten-vad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "ten-framework/ten-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "@types/mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_check_pr_status.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_check_pr_status.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "Check PR Status (Reusable)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai_agents.yaml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai_agents.yaml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai_agents.yaml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "AI Agents (Build & Test)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "elgohr/Publish-Docker-Github-Action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docker.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "Build Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_for_ai_agents.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_for_ai_agents.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_for_ai_agents.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "elgohr/Publish-Docker-Github-Action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docker_for_ai_agents.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "Build Docker Image for AI Agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_node_shared.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_node_shared.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "Build Node.js Shared Library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cancel_on_merged.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel_on_merged.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "Cancel Workflows on PR Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude_code_review.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude_code_review.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude_code_review.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "CodeQL Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "multi-modal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TEN-framework/ten-framework",
+      "target": "voice",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T13:06:54.970593+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23828
+    },
+    {
+      "path": "package.json",
+      "size": 403
+    },
+    {
+      "path": ".github/workflows/_check_pr_status.yml",
+      "size": 2476
+    },
+    {
+      "path": ".github/workflows/ai_agents.yaml",
+      "size": 3724
+    },
+    {
+      "path": ".github/workflows/build_docker.yml",
+      "size": 1335
+    },
+    {
+      "path": ".github/workflows/build_docker_for_ai_agents.yml",
+      "size": 5630
+    },
+    {
+      "path": ".github/workflows/build_node_shared.yml",
+      "size": 923
+    },
+    {
+      "path": ".github/workflows/cancel_on_merged.yml",
+      "size": 3413
+    },
+    {
+      "path": ".github/workflows/claude_code_review.yml",
+      "size": 2527
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4864
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " Open-source framework for conversational voice AI agents",
+    "fork": false,
+    "full_name": "TEN-framework/ten-framework",
+    "html_url": "https://github.com/TEN-framework/ten-framework",
+    "language": "Python",
+    "pushed_at": "2026-05-13T11:08:30Z",
+    "stargazers_count": 10563,
+    "topics": [
+      "ai",
+      "multi-modal",
+      "real-time",
+      "video",
+      "voice"
+    ],
+    "updated_at": "2026-05-13T12:53:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ten-framework/ten-agent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ten-framework/ten-vad",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check PR Status (Reusable)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_check_pr_status.yml",
+      "term": "Check PR Status (Reusable)"
+    },
+    {
+      "context_snippet": "AI Agents (Build & Test)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai_agents.yaml",
+      "term": "AI Agents (Build & Test)"
+    },
+    {
+      "context_snippet": "Build Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docker.yml",
+      "term": "Build Docker Image"
+    },
+    {
+      "context_snippet": "Build Docker Image for AI Agents",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docker_for_ai_agents.yml",
+      "term": "Build Docker Image for AI Agents"
+    },
+    {
+      "context_snippet": "Build Node.js Shared Library",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_node_shared.yml",
+      "term": "Build Node.js Shared Library"
+    },
+    {
+      "context_snippet": "Cancel Workflows on PR Merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel_on_merged.yml",
+      "term": "Cancel Workflows on PR Merge"
+    },
+    {
+      "context_snippet": "Claude Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude_code_review.yml",
+      "term": "Claude Code Review"
+    },
+    {
+      "context_snippet": "\"CodeQL Analysis\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Analysis"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"readme-top\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"readme-top\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"readme-top\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"readme-top\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2517,6 +2517,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/changeset-release.yml",
       "source_repo": "Zoo-Code-Org/Zoo-Code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comment-icon-preview.yml",
+      "source_repo": "lucide-icons/lucide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_check_pr_status.yml",
+      "source_repo": "TEN-framework/ten-framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ai_agents.yaml",
+      "source_repo": "TEN-framework/ten-framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cancel_on_merged.yml",
+      "source_repo": "TEN-framework/ten-framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "TEN-framework/ten-framework"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -4842,6 +4842,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "adhikasp/mcp-client-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-platforms.yml",
+      "source_repo": "TEN-framework/ten-vad"
     }
   ]
 }

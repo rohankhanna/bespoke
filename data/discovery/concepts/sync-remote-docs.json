@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync Remote Docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TEN-framework/portal",
+      "status": "candidate-context",
+      "text": "Official website of TEN, built on top of Fumadocs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TEN-framework/portal",
+      "status": "candidate-context",
+      "text": "Sync Remote Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TEN-framework/portal",
+      "status": "candidate",
+      "text": "Sync Remote Docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22648,
+      "status": "candidate",
+      "text": "closure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22648,
+      "status": "candidate",
+      "text": "retardation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20479,
+      "status": "candidate",
+      "text": "ohio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20479,
+      "status": "candidate",
+      "text": "roman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20351,
+      "status": "candidate",
+      "text": "can"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync Remote Docs",
+  "concept_id": "sync-remote-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": ".github/workflows/sync-remote-docs.yml",
+      "source_repo": "TEN-framework/portal"
+    }
+  ],
+  "first_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync Remote Docs",
+      "sense_id": "sync-remote-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

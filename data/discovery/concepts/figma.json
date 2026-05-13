@@ -19,6 +19,18 @@
       "source_repo": "BuilderIO/mitosis",
       "status": "candidate-context",
       "text": "@builder.io/mitosis-repo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucide-icons/lucide",
+      "status": "candidate-context",
+      "text": "Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucide-icons/lucide",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "BuilderIO/mitosis",
       "status": "candidate",
       "text": "@builder.io/mitosis-repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucide-icons/lucide",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "BuilderIO/mitosis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": null,
+      "source_repo": "lucide-icons/lucide"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "lexical_providers": [
     "datamuse"
   ],

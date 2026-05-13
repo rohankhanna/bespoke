@@ -48,7 +48,7 @@
   "normalized_form": "publish-libs",
   "observation_id": "eb5c98fa7e429de1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-13T07:12:28.410129+00:00",
+  "observed_at": "2026-05-13T12:58:22.952944+00:00",
   "observed_text": "publish-libs",
   "source_context_snippet": "publish-libs",
   "source_file": ".github/workflows/publish-libs.yaml",

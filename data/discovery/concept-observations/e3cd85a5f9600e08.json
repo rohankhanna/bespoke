@@ -84,7 +84,7 @@
   "normalized_form": "cargo-geiger-release-builder",
   "observation_id": "e3cd85a5f9600e08",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-13T07:12:28.410129+00:00",
+  "observed_at": "2026-05-13T12:58:22.952944+00:00",
   "observed_text": "Cargo-geiger Release Builder",
   "source_context_snippet": "\"Cargo-geiger Release Builder\"",
   "source_file": ".github/workflows/release.yml",

@@ -55,6 +55,18 @@
       "source_repo": "lhotse-speech/lhotse",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MontrealCorpusTools/Montreal-Forced-Aligner",
+      "status": "candidate-context",
+      "text": "Command line utility for forced alignment using Kaldi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MontrealCorpusTools/Montreal-Forced-Aligner",
+      "status": "candidate-context",
+      "text": "![Continuous Integration](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/actions/workflows/main.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "lhotse-speech/lhotse",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MontrealCorpusTools/Montreal-Forced-Aligner",
+      "status": "candidate",
+      "text": "![Continuous Integration](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/actions/workflows/main.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "lhotse-speech/lhotse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": null,
+      "source_repo": "MontrealCorpusTools/Montreal-Forced-Aligner"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "lexical_providers": [
     "datamuse"
   ],

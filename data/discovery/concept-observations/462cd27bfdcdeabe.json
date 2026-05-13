@@ -84,7 +84,7 @@
   "normalized_form": "gateway",
   "observation_id": "462cd27bfdcdeabe",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-13T07:12:28.410129+00:00",
+  "observed_at": "2026-05-13T12:58:22.952944+00:00",
   "observed_text": "gateway",
   "source_context_snippet": "[![Tests](https://github.com/mozilla-ai/gateway/actions/workflows/gateway-tests.yml/badge.svg)](https://github.com/mozilla-ai/gateway/actions/workflows/gateway-tests.yml)",
   "source_file": null,

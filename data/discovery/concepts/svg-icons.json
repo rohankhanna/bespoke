@@ -79,6 +79,18 @@
       "source_repo": "enzet/Roentgen",
       "status": "candidate-context",
       "text": "R\u00f6ntgen is a set of monochrome 14 \u00d7 14 px pixel-aligned icons. All icons are"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucide-icons/lucide",
+      "status": "candidate-context",
+      "text": "Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucide-icons/lucide",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "enzet/Roentgen",
       "status": "candidate",
       "text": "R\u00f6ntgen is a set of monochrome 14 \u00d7 14 px pixel-aligned icons. All icons are"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucide-icons/lucide",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +184,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "carbon-design-system/carbon-icons-svelte"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": null,
+      "source_repo": "lucide-icons/lucide"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "lexical_providers": [
     "datamuse"
   ],

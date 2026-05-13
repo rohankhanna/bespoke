@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "oil"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oils-for-unix/oils",
+      "status": "candidate-context",
+      "text": "Oils is our upgrade path from bash to a better language and runtime.  It's also for Python and JavaScript users who avoid shell!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oils-for-unix/oils",
+      "status": "candidate-context",
+      "text": "oil"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oils-for-unix/oils",
+      "status": "candidate",
+      "text": "oil"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026033,
+      "status": "candidate",
+      "text": "lubricate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025610,
+      "status": "candidate",
+      "text": "lube"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39816820,
+      "status": "candidate",
+      "text": "anele"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39815706,
+      "status": "candidate",
+      "text": "anoint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029892,
+      "status": "candidate",
+      "text": "oil color"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11025,
+      "status": "candidate",
+      "text": "anele"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4036,
+      "status": "candidate",
+      "text": "anoint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2025,
+      "status": "candidate",
+      "text": "lube"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1015,
+      "status": "candidate",
+      "text": "oil color"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35,
+      "status": "candidate",
+      "text": "lubricate"
+    }
+  ],
+  "canonical_name": "oil",
+  "concept_id": "oil",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": ".github/workflows/fast-subset.yml_DISABLED",
+      "source_repo": "oils-for-unix/oils"
+    }
+  ],
+  "first_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "oil",
+      "sense_id": "oil#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

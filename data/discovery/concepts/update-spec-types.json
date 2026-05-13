@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Spec Types"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelcontextprotocol/typescript-sdk",
+      "status": "candidate-context",
+      "text": "The official TypeScript SDK for Model Context Protocol servers and clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/typescript-sdk",
+      "status": "candidate-context",
+      "text": "Update Spec Types"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/typescript-sdk",
+      "status": "candidate",
+      "text": "Update Spec Types"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18882,
+      "status": "candidate",
+      "text": "demo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18717,
+      "status": "candidate",
+      "text": "anchor watch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18717,
+      "status": "candidate",
+      "text": "bank rate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18717,
+      "status": "candidate",
+      "text": "bureau"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18717,
+      "status": "candidate",
+      "text": "classical"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Spec Types",
+  "concept_id": "update-spec-types",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": ".github/workflows/update-spec-types.yml",
+      "source_repo": "modelcontextprotocol/typescript-sdk"
+    }
+  ],
+  "first_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Spec Types",
+      "sense_id": "update-spec-types#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

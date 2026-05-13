@@ -31,6 +31,18 @@
       "source_repo": "mariolukas/HydraPlay",
       "status": "candidate-context",
       "text": "HydraPlay is an easy to use multiroom audio player. HydraPlay provides an integrated web interface to multiple"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matter-js/matter.js",
+      "status": "candidate-context",
+      "text": "A complete typescript implementation of the Matter protocol specification (https://buildwithmatter.com). Includes full support for controller, device, commissioning, secure communications, device types, and cluster definitions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matter-js/matter.js",
+      "status": "candidate-context",
+      "text": "[![license](https://img.shields.io/badge/license-Apache2-green.svg)](https://raw.githubusercontent.com/matter-js/matter.js/master/LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "mariolukas/HydraPlay",
       "status": "candidate",
       "text": "HydraPlay is an easy to use multiroom audio player. HydraPlay provides an integrated web interface to multiple"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matter-js/matter.js",
+      "status": "candidate",
+      "text": "[![license](https://img.shields.io/badge/license-Apache2-green.svg)](https://raw.githubusercontent.com/matter-js/matter.js/master/LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -106,11 +124,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "MagicMirrorOrg/MagicMirror"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": null,
+      "source_repo": "matter-js/matter.js"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "lexical_providers": [
     "datamuse"
   ],

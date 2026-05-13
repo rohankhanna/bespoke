@@ -259,6 +259,18 @@
       "source_repo": "thoughtbot/rcm",
       "status": "candidate-context",
       "text": "rcm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-rust/nix",
+      "status": "candidate-context",
+      "text": "Rust friendly bindings to *nix APIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-rust/nix",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/nix.svg)](https://crates.io/crates/nix)"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +399,12 @@
       "source_repo": "thoughtbot/rcm",
       "status": "candidate",
       "text": "rcm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-rust/nix",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/nix.svg)](https://crates.io/crates/nix)"
     }
   ],
   "candidate_related_terms": [
@@ -571,11 +589,17 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "thoughtbot/rcm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": null,
+      "source_repo": "nix-rust/nix"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A complete typescript implementation of the Matter protocol specification (https://buildwithmatter.com). Includes full support for controller, device, commissioning, secure communications, device types, and cluster definitions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Matter.js Controller vs Chip Device Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Matter.js Controller vs Chip Device Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47199,
+      "status": "candidate",
+      "text": "radar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37085,
+      "status": "candidate",
+      "text": "microcontroller"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31909,
+      "status": "candidate",
+      "text": "race"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31657,
+      "status": "candidate",
+      "text": "joystick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31613,
+      "status": "candidate",
+      "text": "boss"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Matter.js Controller vs Chip Device Tests",
+      "sense_id": "matter.js-controller-vs-chip-device-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "matter.js-controller-vs-chip-device-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "matter.js-controller-vs-chip-device-tests",
+  "observation_id": "98f9686bdf765324",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-13T12:58:22.952944+00:00",
+  "observed_text": "Matter.js Controller vs Chip Device Tests",
+  "source_context_snippet": "Matter.js Controller vs Chip Device Tests",
+  "source_file": ".github/workflows/chip-matterjs-tests.yml",
+  "source_repo": "matter-js/matter.js",
+  "source_repo_description": "A complete typescript implementation of the Matter protocol specification (https://buildwithmatter.com). Includes full support for controller, device, commissioning, secure communications, device types, and cluster definitions."
+}

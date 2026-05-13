@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9",
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -92,6 +92,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/container.yml",
       "source_repo": "apalache-mc/apalache"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_docker.yml",
+      "source_repo": "MontrealCorpusTools/Montreal-Forced-Aligner"
     }
   ]
 }

@@ -459,7 +459,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T09:15:42.359783+00:00",
+  "fetched_at": "2026-05-13T14:20:57.450594+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -479,7 +479,7 @@
     },
     {
       "path": ".github/workflows/linux-lit.yml",
-      "size": 8078
+      "size": 8082
     },
     {
       "path": ".github/workflows/linux-self-hosted.yml",
@@ -487,7 +487,7 @@
     },
     {
       "path": ".github/workflows/linux.yml",
-      "size": 8482
+      "size": 8660
     },
     {
       "path": ".github/workflows/macos-acppllvm.yml",
@@ -511,7 +511,7 @@
     "full_name": "AdaptiveCpp/AdaptiveCpp",
     "html_url": "https://github.com/AdaptiveCpp/AdaptiveCpp",
     "language": "C++",
-    "pushed_at": "2026-05-12T15:46:09Z",
+    "pushed_at": "2026-05-13T12:54:38Z",
     "stargazers_count": 1845,
     "topics": [
       "adaptivecpp",
@@ -526,7 +526,7 @@
       "stdpar",
       "sycl"
     ],
-    "updated_at": "2026-05-12T12:36:30Z"
+    "updated_at": "2026-05-13T12:55:30Z"
   },
   "repo_links": [
     {

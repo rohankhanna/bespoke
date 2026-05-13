@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Docker Image for AI Agents"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TEN-framework/ten-framework",
+      "status": "candidate-context",
+      "text": " Open-source framework for conversational voice AI agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TEN-framework/ten-framework",
+      "status": "candidate-context",
+      "text": "Build Docker Image for AI Agents"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TEN-framework/ten-framework",
+      "status": "candidate",
+      "text": "Build Docker Image for AI Agents"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22449,
+      "status": "candidate",
+      "text": "complex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22106,
+      "status": "candidate",
+      "text": "ark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22106,
+      "status": "candidate",
+      "text": "person"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17905,
+      "status": "candidate",
+      "text": "assessor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17515,
+      "status": "candidate",
+      "text": "loader"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Docker Image for AI Agents",
+  "concept_id": "build-docker-image-for-ai-agents",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": ".github/workflows/build_docker_for_ai_agents.yml",
+      "source_repo": "TEN-framework/ten-framework"
+    }
+  ],
+  "first_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Docker Image for AI Agents",
+      "sense_id": "build-docker-image-for-ai-agents#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

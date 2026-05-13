@@ -188,6 +188,18 @@
       "source_repo": "angular/angular-cli",
       "status": "candidate-context",
       "text": "OpenSSF Scorecard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scop/bash-completion",
+      "status": "candidate-context",
+      "text": "Programmable completion functions for bash"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scop/bash-completion",
+      "status": "candidate-context",
+      "text": "OpenSSF Scorecard"
     }
   ],
   "candidate_glosses": [
@@ -278,6 +290,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "angular/angular-cli",
+      "status": "candidate",
+      "text": "OpenSSF Scorecard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scop/bash-completion",
       "status": "candidate",
       "text": "OpenSSF Scorecard"
     }
@@ -665,11 +683,23 @@
       "observed_at": "2026-05-13T07:12:28.410129+00:00",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": ".github/workflows/scorecard.yaml",
+      "source_repo": "scop/bash-completion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "quickwit-oss/tantivy"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "lexical_providers": [
     "datamuse"
   ],

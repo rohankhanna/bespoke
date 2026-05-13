@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Awesome-LLM-Council-Projects",
+      "target": "aayushbhaskar/opencouncil",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Awesome-LLM-Council-Projects",
+      "target": "aayushm24/presidential-briefing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Awesome-LLM-Council-Projects",
+      "target": "abbhisap/llm-council-sap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Awesome-LLM-Council-Projects",
+      "target": "alterego-987/council-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Awesome-LLM-Council-Projects",
+      "target": "llm-councils",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T13:05:10.620760+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35233
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Index of projects based upon Karpathy's LLM Council model",
+    "fork": false,
+    "full_name": "danielrosehill/Awesome-LLM-Council-Projects",
+    "html_url": "https://github.com/danielrosehill/Awesome-LLM-Council-Projects",
+    "language": null,
+    "pushed_at": "2026-04-23T10:54:31Z",
+    "stargazers_count": 3,
+    "topics": [
+      "llm-councils"
+    ],
+    "updated_at": "2026-05-04T12:48:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aayushbhaskar/opencouncil",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aayushm24/presidential-briefing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abbhisap/llm-council-sap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alterego-987/council-mcp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A curated index of projects in the LLM Council ecosystem \u2014 multi-model deliberation systems where multiple LLMs collaborate, debate, and synthesize answers. Inspired by Andrej Karpathy's original [llm-council](https://github.com/karpathy/llm-council).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-councils"
+    }
+  ]
+}

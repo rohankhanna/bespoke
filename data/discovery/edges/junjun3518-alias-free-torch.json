@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junjun3518/alias-free-torch",
+      "target": "alias-free-gan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junjun3518/alias-free-torch",
+      "target": "aliasing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junjun3518/alias-free-torch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junjun3518/alias-free-torch",
+      "target": "resample",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junjun3518/alias-free-torch",
+      "target": "resample-audio-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junjun3518/alias-free-torch",
+      "target": "torch",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-13T12:58:22.952944+00:00",
+  "source_repo": "junjun3518/alias-free-torch"
+}

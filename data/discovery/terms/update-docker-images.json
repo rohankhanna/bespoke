@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/update-docker-images.yml",
+      "source_repo": "scop/bash-completion"
+    }
+  ],
+  "term": "update-docker-images"
+}

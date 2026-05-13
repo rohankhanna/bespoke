@@ -93,6 +93,18 @@
       "source_repo": "controlplaneio-fluxcd/distribution",
       "status": "candidate-context",
       "text": "Conformance tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelcontextprotocol/typescript-sdk",
+      "status": "candidate-context",
+      "text": "The official TypeScript SDK for Model Context Protocol servers and clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/typescript-sdk",
+      "status": "candidate-context",
+      "text": "Conformance Tests"
     }
   ],
   "candidate_glosses": [
@@ -137,6 +149,12 @@
       "source_repo": "controlplaneio-fluxcd/distribution",
       "status": "candidate",
       "text": "Conformance tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/typescript-sdk",
+      "status": "candidate",
+      "text": "Conformance Tests"
     }
   ],
   "candidate_related_terms": [
@@ -222,11 +240,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/e2e.yaml",
       "source_repo": "controlplaneio-fluxcd/distribution"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "modelcontextprotocol/typescript-sdk"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "lexical_providers": [
     "datamuse"
   ],

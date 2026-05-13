@@ -544,7 +544,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T08:37:57.031536+00:00",
+  "fetched_at": "2026-05-13T14:10:10.144079+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -581,12 +581,12 @@
     "html_url": "https://github.com/ipld/explore.ipld.io",
     "language": "JavaScript",
     "pushed_at": "2026-04-07T13:06:20Z",
-    "stargazers_count": 132,
+    "stargazers_count": 133,
     "topics": [
       "ipfs",
       "ipfs-gui"
     ],
-    "updated_at": "2026-04-07T13:06:37Z"
+    "updated_at": "2026-05-13T10:56:23Z"
   },
   "repo_links": [
     {

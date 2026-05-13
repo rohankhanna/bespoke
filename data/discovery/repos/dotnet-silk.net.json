@@ -568,7 +568,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T08:42:13.438662+00:00",
+  "fetched_at": "2026-05-13T14:15:32.197136+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -621,7 +621,7 @@
     "html_url": "https://github.com/dotnet/Silk.NET",
     "language": "C#",
     "pushed_at": "2026-05-13T07:03:21Z",
-    "stargazers_count": 5037,
+    "stargazers_count": 5038,
     "topics": [
       "3d",
       "audio",
@@ -641,7 +641,7 @@
       "webgpu",
       "wgpu"
     ],
-    "updated_at": "2026-05-12T13:31:55Z"
+    "updated_at": "2026-05-13T11:38:19Z"
   },
   "repo_links": [
     {

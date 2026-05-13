@@ -123,6 +123,18 @@
       "source_repo": "seaweedfs/seaweedfs-cosi-driver",
       "status": "candidate-context",
       "text": "Docker publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FxEmbed/mosaic",
+      "status": "candidate-context",
+      "text": "A multi-image stitcher used by FixTweet written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FxEmbed/mosaic",
+      "status": "candidate-context",
+      "text": "Docker Publish"
     }
   ],
   "candidate_glosses": [
@@ -185,6 +197,12 @@
       "source_repo": "seaweedfs/seaweedfs-cosi-driver",
       "status": "candidate",
       "text": "Docker publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FxEmbed/mosaic",
+      "status": "candidate",
+      "text": "Docker Publish"
     }
   ],
   "candidate_related_terms": [
@@ -288,11 +306,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/docker-publish.yaml",
       "source_repo": "seaweedfs/seaweedfs-cosi-driver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "FxEmbed/mosaic"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "lexical_providers": [
     "datamuse"
   ],

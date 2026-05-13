@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junjun3518/alias-free-torch",
+      "target": "alias-free-gan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junjun3518/alias-free-torch",
+      "target": "aliasing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junjun3518/alias-free-torch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junjun3518/alias-free-torch",
+      "target": "resample",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junjun3518/alias-free-torch",
+      "target": "resample-audio-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junjun3518/alias-free-torch",
+      "target": "torch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T13:06:42.974883+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3123
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 104
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple torch.nn.module implementation of Alias-Free-GAN style filter and resample",
+    "fork": false,
+    "full_name": "junjun3518/alias-free-torch",
+    "html_url": "https://github.com/junjun3518/alias-free-torch",
+    "language": "Python",
+    "pushed_at": "2022-07-26T01:37:10Z",
+    "stargazers_count": 100,
+    "topics": [
+      "alias-free-gan",
+      "aliasing",
+      "pytorch",
+      "resample",
+      "resample-audio-files",
+      "torch"
+    ],
+    "updated_at": "2026-03-10T11:48:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Simple *torch* module implementation of [Alias-Free GAN](https://nvlabs.github.io/alias-free-gan/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alias-free-gan"
+    },
+    {
+      "context_snippet": "Simple *torch* module implementation of [Alias-Free GAN](https://nvlabs.github.io/alias-free-gan/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aliasing"
+    },
+    {
+      "context_snippet": "Simple *torch* module implementation of [Alias-Free GAN](https://nvlabs.github.io/alias-free-gan/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Simple *torch* module implementation of [Alias-Free GAN](https://nvlabs.github.io/alias-free-gan/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resample"
+    },
+    {
+      "context_snippet": "Simple *torch* module implementation of [Alias-Free GAN](https://nvlabs.github.io/alias-free-gan/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resample-audio-files"
+    },
+    {
+      "context_snippet": "Simple *torch* module implementation of [Alias-Free GAN](https://nvlabs.github.io/alias-free-gan/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torch"
+    }
+  ]
+}

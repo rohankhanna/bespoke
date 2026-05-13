@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-13T13:06:41.959958+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2321
+    },
+    {
+      "path": "requirements.txt",
+      "size": 6
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Inspired by \"Neural Networks Fail to Learn Periodic Functions and How to Fix It\"",
+    "fork": false,
+    "full_name": "EdwardDixon/snake",
+    "html_url": "https://github.com/EdwardDixon/snake",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-07-10T22:30:01Z",
+    "stargazers_count": 74,
+    "topics": [],
+    "updated_at": "2026-02-12T09:17:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

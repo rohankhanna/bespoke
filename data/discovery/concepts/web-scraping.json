@@ -151,6 +151,18 @@
       "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-python",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Claude-Local-Web-Capture-Plugin",
+      "status": "candidate-context",
+      "text": "Claude Code plugin: capture geo-restricted web content (Israeli news, prices) via the user's own IP. Headless-first escalation ladder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Local-Web-Capture-Plugin",
+      "status": "candidate-context",
+      "text": "Claude Code plugin for capturing web content **from the user's own machine** \u2014 so every request exits via the user's IP. Built for geo-restricted content (seeded with Israeli news + e-commerce) where hosted scrapers get blocked at the edge."
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-python",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Local-Web-Capture-Plugin",
+      "status": "candidate",
+      "text": "Claude Code plugin for capturing web content **from the user's own machine** \u2014 so every request exits via the user's IP. Built for geo-restricted content (seeded with Israeli news + e-commerce) where hosted scrapers get blocked at the edge."
     }
   ],
   "candidate_related_terms": [],
@@ -442,11 +460,23 @@
       "observed_at": "2026-05-13T07:12:28.410129+00:00",
       "source_file": null,
       "source_repo": "ttlns/Selenium-Driverless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Local-Web-Capture-Plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "lexical_providers": [
     "datamuse"
   ],

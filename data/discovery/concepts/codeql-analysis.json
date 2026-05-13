@@ -443,6 +443,18 @@
       "source_repo": "vincentlaucsb/csv-parser",
       "status": "candidate-context",
       "text": "CodeQL Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TEN-framework/ten-framework",
+      "status": "candidate-context",
+      "text": " Open-source framework for conversational voice AI agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TEN-framework/ten-framework",
+      "status": "candidate-context",
+      "text": "\"CodeQL Analysis\""
     }
   ],
   "candidate_glosses": [
@@ -667,6 +679,12 @@
       "source_repo": "vincentlaucsb/csv-parser",
       "status": "candidate",
       "text": "CodeQL Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TEN-framework/ten-framework",
+      "status": "candidate",
+      "text": "\"CodeQL Analysis\""
     }
   ],
   "candidate_related_terms": [
@@ -962,11 +980,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "vincentlaucsb/csv-parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "TEN-framework/ten-framework"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "lexical_providers": [
     "datamuse"
   ],

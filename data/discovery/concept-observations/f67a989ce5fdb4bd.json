@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official website of TEN, built on top of Fumadocs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sync Remote Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sync Remote Docs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22648,
+      "status": "candidate",
+      "text": "closure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22648,
+      "status": "candidate",
+      "text": "retardation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20479,
+      "status": "candidate",
+      "text": "ohio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20479,
+      "status": "candidate",
+      "text": "roman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20351,
+      "status": "candidate",
+      "text": "can"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync Remote Docs",
+      "sense_id": "sync-remote-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sync-remote-docs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sync-remote-docs",
+  "observation_id": "f67a989ce5fdb4bd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-13T12:58:22.952944+00:00",
+  "observed_text": "Sync Remote Docs",
+  "source_context_snippet": "Sync Remote Docs",
+  "source_file": ".github/workflows/sync-remote-docs.yml",
+  "source_repo": "TEN-framework/portal",
+  "source_repo_description": "Official website of TEN, built on top of Fumadocs"
+}

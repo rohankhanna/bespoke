@@ -393,7 +393,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T09:21:27.690095+00:00",
+  "fetched_at": "2026-05-13T14:27:54.600114+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -422,7 +422,7 @@
     "html_url": "https://github.com/w3c/trusted-types",
     "language": "JavaScript",
     "pushed_at": "2026-04-15T21:38:20Z",
-    "stargazers_count": 659,
+    "stargazers_count": 660,
     "topics": [
       "dom",
       "javascript",
@@ -432,7 +432,7 @@
       "w3c",
       "xss"
     ],
-    "updated_at": "2026-05-12T10:25:05Z"
+    "updated_at": "2026-05-13T13:16:34Z"
   },
   "repo_links": [
     {

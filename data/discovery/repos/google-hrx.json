@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/hrx",
+      "target": "google/hrx-ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/hrx",
+      "target": "rebeccajae/hrx.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/hrx",
+      "target": "nabijaczleweli/hrx.rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/hrx",
+      "target": "can3p/go-hrx",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-13T13:05:13.841655+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6087
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "HRX (Human-Readable Archive): a plain text archive format",
+    "fork": false,
+    "full_name": "google/hrx",
+    "html_url": "https://github.com/google/hrx",
+    "language": "SCSS",
+    "pushed_at": "2025-12-10T22:47:42Z",
+    "stargazers_count": 51,
+    "topics": [],
+    "updated_at": "2026-03-13T12:55:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "can3p/go-hrx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/hrx-ruby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nabijaczleweli/hrx.rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rebeccajae/hrx.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

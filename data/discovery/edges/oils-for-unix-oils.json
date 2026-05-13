@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-builds.yml",
+      "source_repo": "oils-for-unix/oils",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/all-builds.yml",
+      "source_repo": "oils-for-unix/oils",
+      "target": "oils",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-subset.yml_DISABLED",
+      "source_repo": "oils-for-unix/oils",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fast-subset.yml_DISABLED",
+      "source_repo": "oils-for-unix/oils",
+      "target": "oil",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new-report.yml",
+      "source_repo": "oils-for-unix/oils",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new-report.yml",
+      "source_repo": "oils-for-unix/oils",
+      "target": "Generate new report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-wiki.yml",
+      "source_repo": "oils-for-unix/oils",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-wiki.yml",
+      "source_repo": "oils-for-unix/oils",
+      "target": "update-wiki",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-13T12:58:22.952944+00:00",
+  "source_repo": "oils-for-unix/oils"
+}

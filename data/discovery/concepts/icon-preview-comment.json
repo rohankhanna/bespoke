@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "Icon preview comment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucide-icons/lucide",
+      "status": "candidate-context",
+      "text": "Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucide-icons/lucide",
+      "status": "candidate-context",
+      "text": "Icon preview comment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucide-icons/lucide",
+      "status": "candidate",
+      "text": "Icon preview comment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18577,
+      "status": "candidate",
+      "text": "star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18448,
+      "status": "candidate",
+      "text": "express"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18422,
+      "status": "candidate",
+      "text": "advancing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18422,
+      "status": "candidate",
+      "text": "arraign"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Icon preview comment",
+  "concept_id": "icon-preview-comment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": ".github/workflows/comment-icon-preview.yml",
+      "source_repo": "lucide-icons/lucide"
+    }
+  ],
+  "first_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Icon preview comment",
+      "sense_id": "icon-preview-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

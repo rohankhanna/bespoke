@@ -1,0 +1,256 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-subset.yml_DISABLED"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-subset.yml_DISABLED"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-subset.yml_DISABLED"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-subset.yml_DISABLED"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new-report.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new-report.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-wiki.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-builds.yml",
+      "source_repo": "oils-for-unix/oils",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/all-builds.yml",
+      "source_repo": "oils-for-unix/oils",
+      "target": "oils",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-subset.yml_DISABLED",
+      "source_repo": "oils-for-unix/oils",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fast-subset.yml_DISABLED",
+      "source_repo": "oils-for-unix/oils",
+      "target": "oil",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new-report.yml",
+      "source_repo": "oils-for-unix/oils",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new-report.yml",
+      "source_repo": "oils-for-unix/oils",
+      "target": "Generate new report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-wiki.yml",
+      "source_repo": "oils-for-unix/oils",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-wiki.yml",
+      "source_repo": "oils-for-unix/oils",
+      "target": "update-wiki",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T13:05:38.027241+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5284
+    },
+    {
+      "path": ".github/workflows/all-builds.yml",
+      "size": 10789
+    },
+    {
+      "path": ".github/workflows/fast-subset.yml_DISABLED",
+      "size": 3695
+    },
+    {
+      "path": ".github/workflows/new-report.yml",
+      "size": 2002
+    },
+    {
+      "path": ".github/workflows/update-wiki.yml",
+      "size": 1422
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Oils is our upgrade path from bash to a better language and runtime.  It's also for Python and JavaScript users who avoid shell!",
+    "fork": false,
+    "full_name": "oils-for-unix/oils",
+    "html_url": "https://github.com/oils-for-unix/oils",
+    "language": "Python",
+    "pushed_at": "2026-03-14T02:45:05Z",
+    "stargazers_count": 3334,
+    "topics": [],
+    "updated_at": "2026-05-09T15:12:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "oils",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/all-builds.yml",
+      "term": "oils"
+    },
+    {
+      "context_snippet": "oil",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fast-subset.yml_DISABLED",
+      "term": "oil"
+    },
+    {
+      "context_snippet": "Generate new report",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new-report.yml",
+      "term": "Generate new report"
+    },
+    {
+      "context_snippet": "update-wiki",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-wiki.yml",
+      "term": "update-wiki"
+    }
+  ]
+}

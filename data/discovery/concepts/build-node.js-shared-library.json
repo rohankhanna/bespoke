@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Node.js Shared Library"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TEN-framework/ten-framework",
+      "status": "candidate-context",
+      "text": " Open-source framework for conversational voice AI agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TEN-framework/ten-framework",
+      "status": "candidate-context",
+      "text": "Build Node.js Shared Library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TEN-framework/ten-framework",
+      "status": "candidate",
+      "text": "Build Node.js Shared Library"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17875,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17810,
+      "status": "candidate",
+      "text": "custodian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17810,
+      "status": "candidate",
+      "text": "public library"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17810,
+      "status": "candidate",
+      "text": "volume"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17770,
+      "status": "candidate",
+      "text": "mckim"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Node.js Shared Library",
+  "concept_id": "build-node.js-shared-library",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": ".github/workflows/build_node_shared.yml",
+      "source_repo": "TEN-framework/ten-framework"
+    }
+  ],
+  "first_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Node.js Shared Library",
+      "sense_id": "build-node.js-shared-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,7 +1,7 @@
 {
   "component": "marocchino/sticky-pull-request-comment@v2",
   "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
-  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -167,6 +167,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lint-pr.yml",
       "source_repo": "skip-mev/block-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pieroxy/lz-string"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/netlify-deploy.yml",
+      "source_repo": "TEN-framework/portal"
     }
   ]
 }

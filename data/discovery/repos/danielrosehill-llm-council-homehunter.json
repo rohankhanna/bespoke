@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/LLM-Council-Homehunter",
+      "target": "danielrosehill/llm-council-projects",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-13T13:04:51.861225+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3982
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 449
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LLM council for house/apartment hunting \u2014 user provides context + objectives, council recommends a search spec with explicit tradeoffs and compromises",
+    "fork": false,
+    "full_name": "danielrosehill/LLM-Council-Homehunter",
+    "html_url": "https://github.com/danielrosehill/LLM-Council-Homehunter",
+    "language": "Python",
+    "pushed_at": "2026-04-23T10:28:18Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-23T10:28:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/llm-council-projects",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

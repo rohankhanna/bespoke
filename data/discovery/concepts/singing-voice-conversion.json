@@ -19,6 +19,18 @@
       "source_repo": "MoonInTheRiver/NeuralSVB",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PlayVoice/whisper-vits-svc",
+      "status": "candidate-context",
+      "text": "Core Engine of Singing Voice Conversion & Singing Voice Clone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlayVoice/whisper-vits-svc",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "MoonInTheRiver/NeuralSVB",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlayVoice/whisper-vits-svc",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-13T07:12:28.410129+00:00",
       "source_file": null,
       "source_repo": "MoonInTheRiver/NeuralSVB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/whisper-vits-svc"
     }
   ],
   "first_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "lexical_providers": [
     "datamuse"
   ],

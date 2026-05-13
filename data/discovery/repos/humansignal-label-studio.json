@@ -452,7 +452,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T09:20:39.557768+00:00",
+  "fetched_at": "2026-05-13T14:26:54.184234+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -464,7 +464,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 5862
+      "size": 5863
     },
     {
       "path": ".github/workflows/algolia-crawler-hs-docs.yml",
@@ -504,8 +504,8 @@
     "full_name": "HumanSignal/label-studio",
     "html_url": "https://github.com/HumanSignal/label-studio",
     "language": "TypeScript",
-    "pushed_at": "2026-05-13T00:28:34Z",
-    "stargazers_count": 27295,
+    "pushed_at": "2026-05-13T11:00:44Z",
+    "stargazers_count": 27297,
     "topics": [
       "annotation",
       "annotation-tool",
@@ -528,7 +528,7 @@
       "text-annotation",
       "yolo"
     ],
-    "updated_at": "2026-05-13T08:15:16Z"
+    "updated_at": "2026-05-13T11:00:49Z"
   },
   "repo_links": [],
   "terms": [

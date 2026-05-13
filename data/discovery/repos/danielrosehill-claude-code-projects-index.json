@@ -11,28 +11,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-local-web-capture-plugin",
+      "target": "danielrosehill/claude-personal-planning-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-agent-blueprints",
+      "target": "danielrosehill/claude-pr-media-work-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-code-marketplace",
+      "target": "danielrosehill/claude-model-identifier",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-local-ai-agent-research",
+      "target": "danielrosehill/claude-md-chunk",
       "target_type": "repository"
     },
     {
@@ -64,11 +64,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T08:13:11.867971+00:00",
+  "fetched_at": "2026-05-13T13:04:47.762841+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 94743
+      "size": 27169
     },
     {
       "path": "package.json",
@@ -84,34 +84,34 @@
     "full_name": "danielrosehill/Claude-Code-Projects-Index",
     "html_url": "https://github.com/danielrosehill/Claude-Code-Projects-Index",
     "language": "Astro",
-    "pushed_at": "2026-05-04T08:07:33Z",
+    "pushed_at": "2026-05-13T10:35:11Z",
     "stargazers_count": 470,
     "topics": [
       "claude-code",
       "claude-code-cli",
       "index-repos"
     ],
-    "updated_at": "2026-05-12T16:32:20Z"
+    "updated_at": "2026-05-13T10:35:16Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-agent-blueprints",
+      "full_name": "danielrosehill/claude-md-chunk",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-code-marketplace",
+      "full_name": "danielrosehill/claude-model-identifier",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-local-ai-agent-research",
+      "full_name": "danielrosehill/claude-personal-planning-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-local-web-capture-plugin",
+      "full_name": "danielrosehill/claude-pr-media-work-plugin",
       "source_file": "README.md"
     }
   ],

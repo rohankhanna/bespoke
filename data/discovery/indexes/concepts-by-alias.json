@@ -776,6 +776,9 @@
   "acmmm2021": [
     "acmmm2021"
   ],
+  "acoustic-model": [
+    "acoustic-model"
+  ],
   "acquire unity activation file": [
     "acquire-unity-activation-file"
   ],
@@ -1920,6 +1923,9 @@
   "ai - playwright e2e": [
     "ai---playwright-e2e"
   ],
+  "ai agents (build & test)": [
+    "ai-agents-build-test"
+  ],
   "ai assistant: spam detection": [
     "ai-assistant-spam-detection"
   ],
@@ -2574,8 +2580,14 @@
   "algorithms": [
     "algorithms"
   ],
+  "alias-free-gan": [
+    "alias-free-gan"
+  ],
   "aliases": [
     "aliases"
+  ],
+  "aliasing": [
+    "aliasing"
   ],
   "alibaba": [
     "alibaba"
@@ -5691,6 +5703,9 @@
   "auto approve prs by owner": [
     "auto-approve-prs-by-owner"
   ],
+  "auto approve release prs": [
+    "auto-approve-release-prs"
+  ],
   "auto assign": [
     "auto-assign"
   ],
@@ -8196,6 +8211,9 @@
   ],
   "behave": [
     "behave"
+  ],
+  "behavior": [
+    "behavior"
   ],
   "behavioral-cloning": [
     "behavioral-cloning"
@@ -12019,6 +12037,9 @@
   "build docker image": [
     "build-docker-image"
   ],
+  "build docker image for ai agents": [
+    "build-docker-image-for-ai-agents"
+  ],
   "build docker image for pingpub explorer": [
     "build-docker-image-for-pingpub-explorer"
   ],
@@ -12744,6 +12765,9 @@
   ],
   "build node.js": [
     "build-node.js"
+  ],
+  "build node.js shared library": [
+    "build-node.js-shared-library"
   ],
   "build non-gpl ffmpeg from source": [
     "build-non-gpl-ffmpeg-from-source"
@@ -15242,6 +15266,9 @@
   "cancel workflows": [
     "cancel-workflows"
   ],
+  "cancel workflows on pr merge": [
+    "cancel-workflows-on-pr-merge"
+  ],
   "cancel-previous-workflows": [
     "cancel-previous-workflows"
   ],
@@ -16063,6 +16090,9 @@
   ],
   "chandra ci": [
     "chandra-ci"
+  ],
+  "change": [
+    "change"
   ],
   "change log check": [
     "change-log-check"
@@ -17177,6 +17207,9 @@
   "check multiple toolchains": [
     "check-multiple-toolchains"
   ],
+  "check new changelogs": [
+    "check-new-changelogs"
+  ],
   "check new issue": [
     "check-new-issue"
   ],
@@ -17284,6 +17317,9 @@
   ],
   "check pr source branch": [
     "check-pr-source-branch"
+  ],
+  "check pr status (reusable)": [
+    "check-pr-status-reusable"
   ],
   "check pr template": [
     "check-pr-template"
@@ -18076,6 +18112,12 @@
   ],
   "chineseocr": [
     "chineseocr"
+  ],
+  "chip image - build and test": [
+    "chip-image---build-and-test"
+  ],
+  "chip tool tests": [
+    "chip-tool-tests"
   ],
   "chip-design": [
     "chip-design"
@@ -20674,6 +20716,9 @@
   ],
   "close generated prs": [
     "close-generated-prs"
+  ],
+  "close icon requests with brand terms": [
+    "close-icon-requests-with-brand-terms"
   ],
   "close inactive bounties": [
     "close-inactive-bounties"
@@ -23708,6 +23753,9 @@
   "connected-vehicle": [
     "connected-vehicle"
   ],
+  "connectedthings": [
+    "connectedthings"
+  ],
   "connection-pool": [
     "connection-pool"
   ],
@@ -24088,6 +24136,9 @@
   ],
   "continuous integration and delivery": [
     "continuous-integration-and-delivery"
+  ],
+  "continuous integration icons": [
+    "continuous-integration-icons"
   ],
   "continuous releases": [
     "continuous-releases"
@@ -30389,6 +30440,9 @@
   "diff-shades comment": [
     "diff-shades-comment"
   ],
+  "diff-svc": [
+    "diff-svc"
+  ],
   "difference": [
     "difference"
   ],
@@ -30448,6 +30502,9 @@
   ],
   "diffusion-speedup": [
     "diffusion-speedup"
+  ],
+  "diffusion-svc": [
+    "diffusion-svc"
   ],
   "diffusion-transformer": [
     "diffusion-transformer"
@@ -38087,6 +38144,9 @@
   "force-control": [
     "force-control"
   ],
+  "forced-alignment": [
+    "forced-alignment"
+  ],
   "forecast": [
     "forecast"
   ],
@@ -39743,6 +39803,9 @@
   ],
   "generate new release (manual)": [
     "generate-new-release-manual"
+  ],
+  "generate new report": [
+    "generate-new-report"
   ],
   "generate node.js packages": [
     "generate-node.js-packages"
@@ -42569,6 +42632,9 @@
   ],
   "grapheme-cluster": [
     "grapheme-cluster"
+  ],
+  "grapheme-to-phone": [
+    "grapheme-to-phone"
   ],
   "grapheme-to-phoneme": [
     "grapheme-to-phoneme"
@@ -45431,6 +45497,9 @@
   ],
   "icon": [
     "icon"
+  ],
+  "icon preview comment": [
+    "icon-preview-comment"
   ],
   "icon update": [
     "icon-update"
@@ -52060,6 +52129,9 @@
   "line-counter": [
     "line-counter"
   ],
+  "line-editor": [
+    "line-editor"
+  ],
   "linear-algebra": [
     "linear-algebra"
   ],
@@ -52570,6 +52642,9 @@
   "linting libpng": [
     "linting-libpng"
   ],
+  "linting pr": [
+    "linting-pr"
+  ],
   "linting tests": [
     "linting-tests"
   ],
@@ -52642,6 +52717,12 @@
   "linux cpu x64 build": [
     "linux-cpu-x64-build"
   ],
+  "linux cpu x86": [
+    "linux-cpu-x86"
+  ],
+  "linux cuda aarch64": [
+    "linux-cuda-aarch64"
+  ],
   "linux cuda native build": [
     "linux-cuda-native-build"
   ],
@@ -52650,6 +52731,9 @@
   ],
   "linux cuda x64 build": [
     "linux-cuda-x64-build"
+  ],
+  "linux cuda x86": [
+    "linux-cuda-x86"
   ],
   "linux development builds": [
     "linux-development-builds"
@@ -53110,6 +53194,9 @@
   ],
   "llm-council": [
     "llm-council"
+  ],
+  "llm-councils": [
+    "llm-councils"
   ],
   "llm-cpu": [
     "llm-cpu"
@@ -54091,6 +54178,12 @@
   ],
   "lucide": [
     "lucide"
+  ],
+  "lucide angular checks": [
+    "lucide-angular-checks"
+  ],
+  "lucide icons checks": [
+    "lucide-icons-checks"
   ],
   "lucide-astro": [
     "lucide-astro"
@@ -55655,6 +55748,15 @@
   ],
   "matroska": [
     "matroska"
+  ],
+  "matter": [
+    "matter"
+  ],
+  "matter.js controller vs chip device tests": [
+    "matter.js-controller-vs-chip-device-tests"
+  ],
+  "matterprotocol": [
+    "matterprotocol"
   ],
   "matting": [
     "matting"
@@ -59977,6 +60079,9 @@
   "netlify": [
     "netlify"
   ],
+  "netlify deploy": [
+    "netlify-deploy"
+  ],
   "netlify deploy - pr": [
     "netlify-deploy---pr"
   ],
@@ -62418,6 +62523,9 @@
   "official": [
     "official"
   ],
+  "official release": [
+    "official-release"
+  ],
   "official-implementation": [
     "official-implementation"
   ],
@@ -62517,11 +62625,17 @@
   "oidc-server": [
     "oidc-server"
   ],
+  "oil": [
+    "oil"
+  ],
   "oil-git": [
     "oil-git"
   ],
   "oil-nvim": [
     "oil-nvim"
+  ],
+  "oils": [
+    "oils"
   ],
   "oj-gem": [
     "oj-gem"
@@ -69165,6 +69279,9 @@
   "pronunciation": [
     "pronunciation"
   ],
+  "pronunciation-dictionary": [
+    "pronunciation-dictionary"
+  ],
   "proof": [
     "proof"
   ],
@@ -70088,6 +70205,9 @@
   ],
   "publish nightly dev docker image": [
     "publish-nightly-dev-docker-image"
+  ],
+  "publish nightly dev releases": [
+    "publish-nightly-dev-releases"
   ],
   "publish nightly docs": [
     "publish-nightly-docs"
@@ -82388,6 +82508,9 @@
   "sovereign": [
     "sovereign"
   ],
+  "sovits": [
+    "sovits"
+  ],
   "soxr": [
     "soxr"
   ],
@@ -85634,6 +85757,9 @@
   "sync remain prs to jira": [
     "sync-remain-prs-to-jira"
   ],
+  "sync remote docs": [
+    "sync-remote-docs"
+  ],
   "sync repo labels": [
     "sync-repo-labels"
   ],
@@ -87856,6 +87982,9 @@
   ],
   "test plan item validator": [
     "test-plan-item-validator"
+  ],
+  "test platform detection": [
+    "test-platform-detection"
   ],
   "test plugin": [
     "test-plugin"
@@ -93137,6 +93266,9 @@
   "update spec on merge": [
     "update-spec-on-merge"
   ],
+  "update spec types": [
+    "update-spec-types"
+  ],
   "update sponsors": [
     "update-sponsors"
   ],
@@ -93344,6 +93476,9 @@
   "update-docker-hub-image": [
     "update-docker-hub-image"
   ],
+  "update-docker-images": [
+    "update-docker-images"
+  ],
   "update-dotnet-sdk": [
     "update-dotnet-sdk"
   ],
@@ -93394,6 +93529,9 @@
   ],
   "update-versions-with-renovate": [
     "update-versions-with-renovate"
+  ],
+  "update-wiki": [
+    "update-wiki"
   ],
   "updateapilist": [
     "updateapilist"
@@ -95962,6 +96100,9 @@
   ],
   "voice-activity-detection": [
     "voice-activity-detection"
+  ],
+  "voice-agent": [
+    "voice-agent"
   ],
   "voice-ai": [
     "voice-ai"

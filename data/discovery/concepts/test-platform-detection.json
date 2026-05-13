@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Platform Detection"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TEN-framework/ten-vad",
+      "status": "candidate-context",
+      "text": "Voice Activity Detector (VAD) : low-latency, high-performance and lightweight"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TEN-framework/ten-vad",
+      "status": "candidate-context",
+      "text": "Test Platform Detection"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TEN-framework/ten-vad",
+      "status": "candidate",
+      "text": "Test Platform Detection"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18774,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18707,
+      "status": "candidate",
+      "text": "radar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18642,
+      "status": "candidate",
+      "text": "tracking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18512,
+      "status": "candidate",
+      "text": "detecting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18512,
+      "status": "candidate",
+      "text": "discover"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Platform Detection",
+  "concept_id": "test-platform-detection",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": ".github/workflows/test-platforms.yml",
+      "source_repo": "TEN-framework/ten-vad"
+    }
+  ],
+  "first_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Platform Detection",
+      "sense_id": "test-platform-detection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

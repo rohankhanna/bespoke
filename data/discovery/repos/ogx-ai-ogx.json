@@ -321,7 +321,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T09:31:03.579133+00:00",
+  "fetched_at": "2026-05-13T14:39:09.773735+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -329,7 +329,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 24441
+      "size": 24327
     },
     {
       "path": ".github/workflows/README.md",
@@ -361,7 +361,7 @@
     },
     {
       "path": ".github/workflows/dependabot-constraints.yml",
-      "size": 5427
+      "size": 5410
     }
   ],
   "related_repositories": [],
@@ -373,10 +373,10 @@
     "full_name": "ogx-ai/ogx",
     "html_url": "https://github.com/ogx-ai/ogx",
     "language": "Python",
-    "pushed_at": "2026-05-13T09:20:53Z",
-    "stargazers_count": 8370,
+    "pushed_at": "2026-05-13T14:31:29Z",
+    "stargazers_count": 8369,
     "topics": [],
-    "updated_at": "2026-05-13T09:21:12Z"
+    "updated_at": "2026-05-13T13:59:49Z"
   },
   "repo_links": [],
   "terms": [

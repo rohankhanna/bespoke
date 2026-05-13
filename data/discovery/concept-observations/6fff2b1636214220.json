@@ -120,7 +120,7 @@
   "normalized_form": "format",
   "observation_id": "6fff2b1636214220",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-13T07:12:28.410129+00:00",
+  "observed_at": "2026-05-13T12:58:22.952944+00:00",
   "observed_text": "format",
   "source_context_snippet": "format",
   "source_file": ".github/workflows/format.yml",

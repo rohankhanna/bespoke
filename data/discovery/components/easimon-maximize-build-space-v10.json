@@ -1,12 +1,27 @@
 {
   "component": "easimon/maximize-build-space@v10",
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/continuous-integration.yaml",
       "source_repo": "gchq/gaffer-docker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/chip-tool-tests.yml",
+      "source_repo": "matter-js/matter.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-dev-release.yml",
+      "source_repo": "matter-js/matter.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/official-release.yml",
+      "source_repo": "matter-js/matter.js"
     }
   ]
 }

@@ -19,6 +19,18 @@
       "source_repo": "libsndfile/libsamplerate",
       "status": "candidate-context",
       "text": "![Logo](docs/SRC.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junjun3518/alias-free-torch",
+      "status": "candidate-context",
+      "text": "Simple torch.nn.module implementation of Alias-Free-GAN style filter and resample"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junjun3518/alias-free-torch",
+      "status": "candidate-context",
+      "text": "Simple *torch* module implementation of [Alias-Free GAN](https://nvlabs.github.io/alias-free-gan/)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "libsndfile/libsamplerate",
       "status": "candidate",
       "text": "![Logo](docs/SRC.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junjun3518/alias-free-torch",
+      "status": "candidate",
+      "text": "Simple *torch* module implementation of [Alias-Free GAN](https://nvlabs.github.io/alias-free-gan/)."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "libsndfile/libsamplerate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": null,
+      "source_repo": "junjun3518/alias-free-torch"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "lexical_providers": [
     "datamuse"
   ],

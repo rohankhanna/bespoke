@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v9",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -697,6 +697,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dependabot-auto-merge.yml",
       "source_repo": "2mawi2/schaltwerk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/chip-matterjs-tests.yml",
+      "source_repo": "matter-js/matter.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/chip-tool-tests.yml",
+      "source_repo": "matter-js/matter.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-dev-release.yml",
+      "source_repo": "matter-js/matter.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/official-release.yml",
+      "source_repo": "matter-js/matter.js"
     }
   ]
 }

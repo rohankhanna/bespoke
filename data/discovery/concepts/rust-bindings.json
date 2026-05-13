@@ -55,6 +55,18 @@
       "source_repo": "Boddlnagg/midir",
       "status": "candidate-context",
       "text": "Cross-platform, realtime MIDI processing in Rust."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-rust/nix",
+      "status": "candidate-context",
+      "text": "Rust friendly bindings to *nix APIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-rust/nix",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/nix.svg)](https://crates.io/crates/nix)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "Boddlnagg/midir",
       "status": "candidate",
       "text": "Cross-platform, realtime MIDI processing in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-rust/nix",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/nix.svg)](https://crates.io/crates/nix)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "Boddlnagg/midir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": null,
+      "source_repo": "nix-rust/nix"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "lexical_providers": [
     "datamuse"
   ],

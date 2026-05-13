@@ -55,6 +55,30 @@
       "source_repo": "cursorless-dev/cursorless",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Welcome to Cursorless!</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PlayVoice/whisper-vits-svc",
+      "status": "candidate-context",
+      "text": "Core Engine of Singing Voice Conversion & Singing Voice Clone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlayVoice/whisper-vits-svc",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TEN-framework/ten-framework",
+      "status": "candidate-context",
+      "text": " Open-source framework for conversational voice AI agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TEN-framework/ten-framework",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id=\"readme-top\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "cursorless-dev/cursorless",
       "status": "candidate",
       "text": "<h1 align=\"center\">Welcome to Cursorless!</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlayVoice/whisper-vits-svc",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TEN-framework/ten-framework",
+      "status": "candidate",
+      "text": "<div align=\"center\" id=\"readme-top\">"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +220,23 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": null,
       "source_repo": "cursorless-dev/cursorless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/whisper-vits-svc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": null,
+      "source_repo": "TEN-framework/ten-framework"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "lexical_providers": [
     "datamuse"
   ],

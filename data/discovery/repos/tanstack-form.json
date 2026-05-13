@@ -156,12 +156,12 @@
       "source_file": "package.json"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/autofix.yml"
     },
     {
-      "component": "TanStack/config/.github/setup@main",
+      "component": "TanStack/config/.github/setup@e4b48f16568324f76f467aa4c2aac2f05db632c3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/autofix.yml"
     },
@@ -171,79 +171,89 @@
       "source_file": ".github/workflows/autofix.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml"
     },
     {
-      "component": "TanStack/config/.github/setup@main",
+      "component": "TanStack/config/.github/setup@e4b48f16568324f76f467aa4c2aac2f05db632c3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml"
     },
     {
-      "component": "nrwl/nx-set-shas@v4.4.0",
+      "component": "nrwl/nx-set-shas@3e9ad7370203c1e93d109be57f3b72eb0eb511b1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml"
     },
     {
-      "component": "codecov/codecov-action@v4",
+      "component": "codecov/codecov-action@b9fd7d16f6d7d1b5d2bec1a2887e65ceed900238",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml"
     },
     {
-      "component": "TanStack/config/.github/setup@main",
+      "component": "TanStack/config/.github/setup@e4b48f16568324f76f467aa4c2aac2f05db632c3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml"
     },
     {
-      "component": "danielroe/provenance-action@v0.1.1",
+      "component": "danielroe/provenance-action@41bcc969e579d9e29af08ba44fcbfdf95cee6e6c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml"
     },
     {
-      "component": "TanStack/config/.github/setup@main",
+      "component": "TanStack/config/.github/setup@e4b48f16568324f76f467aa4c2aac2f05db632c3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml"
     },
     {
-      "component": "TanStack/config/.github/changeset-preview@main",
+      "component": "TanStack/config/.github/changeset-preview@e4b48f16568324f76f467aa4c2aac2f05db632c3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "TanStack/config/.github/setup@main",
+      "component": "TanStack/config/.github/setup@e4b48f16568324f76f467aa4c2aac2f05db632c3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "changesets/action@v1.7.0",
+      "component": "changesets/action@6a0a831ff30acef54f2c6aa1cbbc1096b066edaf",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "TanStack/config/.github/comment-on-release@main",
+      "component": "TanStack/config/.github/comment-on-release@e4b48f16568324f76f467aa4c2aac2f05db632c3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
+    },
+    {
+      "component": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
     }
   ],
   "edges": [
@@ -468,14 +478,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/autofix.yml",
       "source_repo": "TanStack/form",
-      "target": "actions/checkout@v6.0.2",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/autofix.yml",
       "source_repo": "TanStack/form",
-      "target": "TanStack/config/.github/setup@main",
+      "target": "TanStack/config/.github/setup@e4b48f16568324f76f467aa4c2aac2f05db632c3",
       "target_type": "component"
     },
     {
@@ -489,70 +499,70 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "TanStack/form",
-      "target": "actions/checkout@v6.0.2",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "TanStack/form",
-      "target": "TanStack/config/.github/setup@main",
+      "target": "TanStack/config/.github/setup@e4b48f16568324f76f467aa4c2aac2f05db632c3",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "TanStack/form",
-      "target": "nrwl/nx-set-shas@v4.4.0",
+      "target": "nrwl/nx-set-shas@3e9ad7370203c1e93d109be57f3b72eb0eb511b1",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "TanStack/form",
-      "target": "codecov/codecov-action@v4",
+      "target": "codecov/codecov-action@b9fd7d16f6d7d1b5d2bec1a2887e65ceed900238",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "TanStack/form",
-      "target": "danielroe/provenance-action@v0.1.1",
+      "target": "danielroe/provenance-action@41bcc969e579d9e29af08ba44fcbfdf95cee6e6c",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "TanStack/form",
-      "target": "TanStack/config/.github/changeset-preview@main",
+      "target": "TanStack/config/.github/changeset-preview@e4b48f16568324f76f467aa4c2aac2f05db632c3",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "TanStack/form",
-      "target": "actions/checkout@v6.0.2",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "TanStack/form",
-      "target": "TanStack/config/.github/setup@main",
+      "target": "TanStack/config/.github/setup@e4b48f16568324f76f467aa4c2aac2f05db632c3",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "TanStack/form",
-      "target": "changesets/action@v1.7.0",
+      "target": "changesets/action@6a0a831ff30acef54f2c6aa1cbbc1096b066edaf",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "TanStack/form",
-      "target": "TanStack/config/.github/comment-on-release@main",
+      "target": "TanStack/config/.github/comment-on-release@e4b48f16568324f76f467aa4c2aac2f05db632c3",
       "target_type": "component"
     },
     {
@@ -560,6 +570,27 @@
       "source_file": ".github/workflows/release.yml",
       "source_repo": "TanStack/form",
       "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "TanStack/form",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "TanStack/form",
+      "target": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "TanStack/form",
+      "target": "GitHub Actions Security Analysis",
       "target_type": "term"
     },
     {
@@ -619,7 +650,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T09:23:20.134929+00:00",
+  "fetched_at": "2026-05-13T14:29:55.874561+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -627,19 +658,23 @@
     },
     {
       "path": "package.json",
-      "size": 2775
+      "size": 2774
     },
     {
       "path": ".github/workflows/autofix.yml",
-      "size": 1113
+      "size": 1250
     },
     {
       "path": ".github/workflows/pr.yml",
-      "size": 2102
+      "size": 2811
     },
     {
       "path": ".github/workflows/release.yml",
-      "size": 1224
+      "size": 1483
+    },
+    {
+      "path": ".github/workflows/zizmor.yml",
+      "size": 550
     }
   ],
   "related_repositories": [],
@@ -651,7 +686,7 @@
     "full_name": "TanStack/form",
     "html_url": "https://github.com/TanStack/form",
     "language": "TypeScript",
-    "pushed_at": "2026-05-12T15:45:09Z",
+    "pushed_at": "2026-05-13T13:21:47Z",
     "stargazers_count": 6519,
     "topics": [
       "angular",
@@ -667,7 +702,7 @@
       "yup",
       "zod"
     ],
-    "updated_at": "2026-05-13T04:05:42Z"
+    "updated_at": "2026-05-13T13:31:19Z"
   },
   "repo_links": [],
   "terms": [
@@ -676,6 +711,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release.yml",
       "term": "Release"
+    },
+    {
+      "context_snippet": "GitHub Actions Security Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zizmor.yml",
+      "term": "GitHub Actions Security Analysis"
     },
     {
       "context_snippet": "<div align=\"center\">",

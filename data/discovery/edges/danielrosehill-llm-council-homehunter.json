@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/LLM-Council-Homehunter",
+      "target": "danielrosehill/llm-council-projects",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-13T12:58:22.952944+00:00",
+  "source_repo": "danielrosehill/LLM-Council-Homehunter"
+}

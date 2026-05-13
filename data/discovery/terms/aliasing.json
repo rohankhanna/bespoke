@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "junjun3518/alias-free-torch"
+    }
+  ],
+  "term": "aliasing"
+}

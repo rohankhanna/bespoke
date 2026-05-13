@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Official release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matter-js/matter.js",
+      "status": "candidate-context",
+      "text": "A complete typescript implementation of the Matter protocol specification (https://buildwithmatter.com). Includes full support for controller, device, commissioning, secure communications, device types, and cluster definitions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matter-js/matter.js",
+      "status": "candidate-context",
+      "text": "Official release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matter-js/matter.js",
+      "status": "candidate",
+      "text": "Official release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28089,
+      "status": "candidate",
+      "text": "adware"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28089,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28089,
+      "status": "candidate",
+      "text": "discharged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28089,
+      "status": "candidate",
+      "text": "discharging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28089,
+      "status": "candidate",
+      "text": "pardon"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Official release",
+  "concept_id": "official-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T12:58:22.952944+00:00",
+      "source_file": ".github/workflows/official-release.yml",
+      "source_repo": "matter-js/matter.js"
+    }
+  ],
+  "first_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Official release",
+      "sense_id": "official-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

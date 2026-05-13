@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Local-Web-Capture-Plugin",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Local-Web-Capture-Plugin",
+      "target": "web-scraping",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T13:04:49.735750+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3062
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Claude Code plugin: capture geo-restricted web content (Israeli news, prices) via the user's own IP. Headless-first escalation ladder.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Local-Web-Capture-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Local-Web-Capture-Plugin",
+    "language": "Typst",
+    "pushed_at": "2026-04-23T15:29:06Z",
+    "stargazers_count": 0,
+    "topics": [
+      "claude-code",
+      "web-scraping"
+    ],
+    "updated_at": "2026-04-27T17:42:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Claude Code plugin for capturing web content **from the user's own machine** \u2014 so every request exits via the user's IP. Built for geo-restricted content (seeded with Israeli news + e-commerce) where hosted scrapers get blocked at the edge.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "Claude Code plugin for capturing web content **from the user's own machine** \u2014 so every request exits via the user's IP. Built for geo-restricted content (seeded with Israeli news + e-commerce) where hosted scrapers get blocked at the edge.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-scraping"
+    }
+  ]
+}

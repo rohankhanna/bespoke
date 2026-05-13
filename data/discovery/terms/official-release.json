@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/official-release.yml",
+      "source_repo": "matter-js/matter.js"
+    }
+  ],
+  "term": "Official release"
+}
