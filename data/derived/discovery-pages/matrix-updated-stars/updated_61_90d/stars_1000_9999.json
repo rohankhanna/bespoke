@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2091,
-    "concepts": 1380,
-    "observations": 1382,
+    "components": 2088,
+    "concepts": 1377,
+    "observations": 1379,
     "repos": 269,
-    "terms": 1375
+    "terms": 1371
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -47,7 +47,6 @@
     "arrayfire/arrayfire",
     "astanin/python-tabulate",
     "autofac/Autofac",
-    "avast/retry-go",
     "bats-core/bats-core",
     "bbatsov/projectile",
     "bblanchon/ArduinoJson",
@@ -219,6 +218,7 @@
     "RobinBlomberg/kysely-codegen",
     "rojo-rbx/rojo",
     "rollup/plugins",
+    "romkatv/gitstatus",
     "rrousselGit/provider",
     "rspec/rspec-rails",
     "rust-lang/regex",

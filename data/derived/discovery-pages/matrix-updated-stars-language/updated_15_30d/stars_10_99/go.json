@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 453,
-    "concepts": 293,
-    "observations": 295,
-    "repos": 65,
-    "terms": 289
+    "components": 450,
+    "concepts": 292,
+    "observations": 294,
+    "repos": 64,
+    "terms": 288
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "abhinav/goldmark-anchor",
@@ -52,7 +52,6 @@
     "dlclark/regexp2cg",
     "ebitengine/debugui",
     "energye/cef",
-    "fgrehm/clotilde",
     "gopasspw/git-credential-gopass",
     "gopasspw/gopass-hibp",
     "hashicorp/hcp-sdk-go",

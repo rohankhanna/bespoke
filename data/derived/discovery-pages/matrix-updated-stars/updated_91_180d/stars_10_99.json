@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2043,
-    "concepts": 1069,
-    "observations": 1075,
+    "components": 2041,
+    "concepts": 1067,
+    "observations": 1073,
     "repos": 432,
-    "terms": 1078
+    "terms": 1076
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -37,7 +37,6 @@
     "adevinta/actions-lighthouseci-compare",
     "adhikasp/mcp-youtube",
     "Adlik/model_zoo",
-    "Adlik/vllm",
     "adobe-type-tools/aots",
     "ahrvoje/numerics",
     "ahumenberger/Z3.jl",
@@ -138,6 +137,7 @@
     "darrelmiller/sharpa2a",
     "databendlabs/opensrv",
     "datafusion-contrib/hdfs-native-object-store",
+    "datajuicer/data-juicer-hub",
     "DavidKinder/Git",
     "DavidKinder/Windows-Glk",
     "dfki-ric/pclomp",

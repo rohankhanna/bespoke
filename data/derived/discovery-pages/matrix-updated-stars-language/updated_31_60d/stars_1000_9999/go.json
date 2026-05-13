@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 406,
-    "concepts": 436,
-    "observations": 436,
-    "repos": 72,
-    "terms": 424
+    "components": 423,
+    "concepts": 451,
+    "observations": 451,
+    "repos": 74,
+    "terms": 439
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "aquasecurity/starboard",
     "aquasecurity/tfsec",
@@ -21,6 +21,7 @@
     "azure/aztfexport",
     "bazelbuild/buildtools",
     "bnb-chain/tss-lib",
+    "boyter/scc",
     "btcsuite/btcd",
     "burke/zeus",
     "bytedance/gopkg",
@@ -50,6 +51,7 @@
     "google/starlark-go",
     "gopasspw/gopass",
     "grpc-ecosystem/grpc-health-probe",
+    "hashicorp/go-immutable-radix",
     "hashicorp/go-version",
     "hashicorp/hcl",
     "hashicorp/raft",

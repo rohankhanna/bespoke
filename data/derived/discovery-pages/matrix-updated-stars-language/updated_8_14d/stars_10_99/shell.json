@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 96,
-    "concepts": 138,
-    "observations": 138,
-    "repos": 23,
-    "terms": 137
+    "components": 92,
+    "concepts": 130,
+    "observations": 130,
+    "repos": 22,
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "Alexpux/MINGW-packages",
     "bufbuild/homebrew-buf",
@@ -20,7 +20,6 @@
     "cilium/community",
     "cldwalker/dotfiles",
     "cloudfoundry/cf-deployment-concourse-tasks",
-    "electerm/electerm-web-docker",
     "fcshark-org/route-list",
     "gpac/testsuite",
     "heroku/heroku-buildpack-dotnet",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1731,
-    "concepts": 1608,
-    "observations": 1617,
-    "repos": 190,
-    "terms": 1613
+    "components": 1742,
+    "concepts": 1619,
+    "observations": 1628,
+    "repos": 191,
+    "terms": 1622
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -49,10 +49,10 @@
     "bfenetworks/bfe",
     "bluesky-social/indigo",
     "bnb-chain/bsc",
-    "boyter/scc",
     "bradfitz/gomemcache",
     "bufbuild/protoc-gen-validate",
     "bufbuild/protovalidate",
+    "buger/jsonparser",
     "BurntSushi/toml",
     "bytedance/sonic",
     "C2SP/wycheproof",
@@ -65,7 +65,9 @@
     "charmbracelet/log",
     "ClickHouse/clickhouse-go",
     "cloudflare/circl",
+    "cloudflare/pint",
     "cloudfoundry/cli",
+    "cloudwego/hertz",
     "cloudwego/kitex",
     "cncf/toc",
     "connectrpc/connect-go",
@@ -121,7 +123,6 @@
     "grafana/alloy",
     "hairyhenderson/gomplate",
     "hanselime/paqet",
-    "hashicorp/go-immutable-radix",
     "hashicorp/go-retryablehttp",
     "hashicorp/terraform-provider-azurerm",
     "hashicorp/terraform-provider-helm",

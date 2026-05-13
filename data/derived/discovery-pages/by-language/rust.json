@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11524,
-    "concepts": 7884,
-    "observations": 7945,
-    "repos": 1719,
-    "terms": 7882
+    "components": 11549,
+    "concepts": 7895,
+    "observations": 7956,
+    "repos": 1720,
+    "terms": 7893
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -1330,6 +1330,7 @@
     "release-plz/release-plz",
     "reproto/reproto",
     "rerun-io/rerun",
+    "reubeno/brush",
     "reujab/silver",
     "Riey/cargo-feature",
     "Rigellute/spotify-tui",

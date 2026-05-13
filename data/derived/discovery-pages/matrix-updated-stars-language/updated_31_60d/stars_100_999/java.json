@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 164,
-    "observations": 164,
-    "repos": 21,
-    "terms": 161
+    "components": 102,
+    "concepts": 169,
+    "observations": 169,
+    "repos": 22,
+    "terms": 166
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "apache/camel-examples",
     "apache/doris-flink-connector",
@@ -28,6 +28,7 @@
     "GoogleCloudPlatform/cloud-opensource-java",
     "jpmml/jpmml-sparkml",
     "kreativekorp/bitsnpicas",
+    "mockingbot/react-native-zip-archive",
     "mukel/llama3.java",
     "objectbox/objectbox-examples",
     "redis/redis-om-spring",

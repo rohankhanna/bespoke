@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 852,
-    "concepts": 3601,
-    "observations": 3603,
-    "repos": 920,
-    "terms": 3540
+    "concepts": 3614,
+    "observations": 3616,
+    "repos": 922,
+    "terms": 3553
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -571,6 +571,7 @@
     "MVIG-SJTU/AlphaPose",
     "naoto0804/pytorch-AdaIN",
     "natanielruiz/deep-head-pose",
+    "NATSpeech/NATSpeech",
     "naver/dust3r",
     "naver/mast3r",
     "ncm2/ncm2",
@@ -589,6 +590,7 @@
     "nv-tlabs/lift-splat-shoot",
     "NVIDIA-AI-IOT/torch2trt",
     "NVIDIA-AI-IOT/trt_pose",
+    "NVIDIA/BigVGAN",
     "NVIDIA/MinkowskiEngine",
     "NVIDIA/pix2pixHD",
     "NVIDIA/RULER",

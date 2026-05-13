@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 260,
-    "concepts": 424,
-    "observations": 425,
+    "components": 257,
+    "concepts": 432,
+    "observations": 433,
     "repos": 84,
-    "terms": 420
+    "terms": 428
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "AmusementClub/vs-mlrt",
@@ -26,7 +26,6 @@
     "ashvardanian/ForkUnion",
     "BirolLab/ntHash",
     "bnprks/BPCells",
-    "btzy/nativefiledialog-extended",
     "CarlosDerSeher/snapclient",
     "cloudwu/ltask",
     "containers/conmon",
@@ -57,6 +56,7 @@
     "KhronosGroup/OpenGL-Registry",
     "lastz/lastz",
     "libimobiledevice/libplist",
+    "libLAS/libLAS",
     "libxsmm/libxsmm",
     "littlefs-project/littlefs-fuse",
     "LuisaGroup/LuisaRender",

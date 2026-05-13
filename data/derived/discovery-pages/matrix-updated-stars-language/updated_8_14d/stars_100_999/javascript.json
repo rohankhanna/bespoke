@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 905,
-    "concepts": 185,
-    "observations": 186,
-    "repos": 33,
-    "terms": 183
+    "components": 758,
+    "concepts": 173,
+    "observations": 174,
+    "repos": 31,
+    "terms": 171
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,24 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "AdguardTeam/HostlistsRegistry",
-    "AdguardTeam/Scriptlets",
     "all-contributors/app",
     "americanexpress/jest-json-schema",
     "auth0/node-jwks-rsa",
-    "avoidwork/tiny-lru",
+    "browserslist/caniuse-lite",
     "commitizen/cz-conventional-changelog",
     "conventional-changelog/releaser-tools",
-    "electerm/electerm-web",
     "ember-cli/ember-cli-update",
     "emberjs/ember-test-helpers",
     "facebook/Rapid",
     "firebase/snippets-web",
     "fontello/svg2ttf",
     "gitleaks/gitleaks-action",
-    "hudochenkov/postcss-sorting",
     "Kilian/electron-to-chromium",
     "lo-th/phy",
+    "mafintosh/streamx",
     "mdn/fred",
     "mozilla/addons-linter",
     "octokit/graphql-schema",

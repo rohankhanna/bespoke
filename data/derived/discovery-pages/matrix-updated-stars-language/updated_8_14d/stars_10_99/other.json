@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 679,
-    "concepts": 362,
-    "observations": 365,
-    "repos": 83,
-    "terms": 360
+    "components": 649,
+    "concepts": 334,
+    "observations": 337,
+    "repos": 79,
+    "terms": 332
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "AarshBatra/biteSizedAQ",
-    "abarisani/abarisani.github.io",
     "Accla/d4m",
     "agentclientprotocol/kotlin-sdk",
     "alphagov/govuk_publishing_components",
@@ -32,7 +31,6 @@
     "brave-intl/publishers",
     "cderv/r-bucket",
     "cloudfoundry/bosh-aws-cpi-release",
-    "cloudfoundry/capi-release",
     "cloudfoundry/uaa-release",
     "conservationtechlab/animl-r",
     "controlplaneio-fluxcd/distribution",
@@ -65,13 +63,11 @@
     "JuliaCon/www.juliacon.org",
     "JuliaGeo/GeometryOps.jl",
     "JuliaSparse/SparseArrays.jl",
-    "karafka/karafka-web",
     "kddnewton/sorbet-eraser",
     "Kong/developer.konghq.com",
     "lakekeeper/lakekeeper-charts",
     "LedgerHQ/ledger-app-builder",
     "liuliu/s4nnc",
-    "localstack/localstack-cli",
     "lumen-oss/nurr",
     "melpa/package-build",
     "mesh-iit/ergocub-software",
@@ -83,7 +79,6 @@
     "palladius/gemini-news-crawler",
     "php/doc-es",
     "php/doc-fr",
-    "php/phd",
     "pipecat-ai/docs",
     "r-lib/pkgload",
     "reviewdog/action-actionlint",
@@ -93,6 +88,7 @@
     "ruby/jruby-dev-builder",
     "ruby/ruby-dev-builder",
     "Shopify/rbi-central",
+    "sidlatau/neotest-dart",
     "sigstore/helm-charts",
     "tc39/proposal-amount",
     "triton-inference-server/fil_backend",

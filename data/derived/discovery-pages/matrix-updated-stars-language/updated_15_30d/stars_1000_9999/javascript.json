@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2829,
-    "concepts": 598,
-    "observations": 598,
-    "repos": 87,
-    "terms": 594
+    "components": 3060,
+    "concepts": 625,
+    "observations": 625,
+    "repos": 91,
+    "terms": 619
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "actions/javascript-action",
@@ -62,13 +62,16 @@
     "keepassxreboot/keepassxc-browser",
     "kpdecker/jsdiff",
     "krausest/js-framework-benchmark",
+    "leezng/vue-json-pretty",
     "ljharb/qs",
     "mapbox/geobuf",
     "mapbox/maki",
     "mapbox/node-pre-gyp",
+    "mapbox/pixelmatch",
     "micromatch/picomatch",
     "minio/minio-js",
     "mozilla/rhino",
+    "mozilla/web-ext",
     "newrelic/node-newrelic",
     "NickColley/jest-axe",
     "nodegit/nodegit",
@@ -94,6 +97,7 @@
     "thlorenz/doctoc",
     "tomas/needle",
     "tw-in-js/twind",
+    "umijs/dumi",
     "vizzuhq/vizzu-lib",
     "vueform/vueform",
     "webpack/sass-loader",

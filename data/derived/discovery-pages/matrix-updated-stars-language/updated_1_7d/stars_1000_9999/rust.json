@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 74,
-    "observations": 74,
-    "repos": 7,
-    "terms": 74
+    "components": 118,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 9,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "ash-rs/ash",
     "cordx56/rustowl",
+    "godot-rust/gdext",
     "hermit-os/hermit-rs",
     "josh-project/josh",
     "JuliaLang/juliaup",
     "junhoyeo/tokscale",
-    "lance-format/lance"
+    "lance-format/lance",
+    "reubeno/brush"
   ]
 }

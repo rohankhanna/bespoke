@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 80,
-    "concepts": 209,
-    "observations": 210,
-    "repos": 55,
-    "terms": 209
+    "components": 79,
+    "concepts": 196,
+    "observations": 197,
+    "repos": 53,
+    "terms": 196
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "actions/partner-runner-images",
     "adoptium/temurin21-binaries",
     "ailev/fpf",
     "antonbabenko/awesome-terraform-compliance",
-    "antonbabenko/terraform-aws-devops",
     "apappascs/mcp-servers-hub",
     "AutoJunjie/awesome-agent-harness",
     "bitrise-io/bitrise-steplib",
@@ -27,7 +26,6 @@
     "chromedp/cdproto",
     "cisagov/vulnrichment",
     "cloudflare/skills",
-    "cosmos/awesome-cosmos",
     "CVEProject/automation-working-group",
     "django/deps",
     "dotnet-foundation/projects",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 672,
-    "concepts": 1418,
-    "observations": 1420,
-    "repos": 818,
-    "terms": 1399
+    "components": 679,
+    "concepts": 1421,
+    "observations": 1423,
+    "repos": 819,
+    "terms": 1402
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -47,6 +47,7 @@
     "ada-cheng/CAT-Pruning",
     "Adlik/model_optimizer",
     "Adlik/smoothquantplus",
+    "Adlik/vllm",
     "Advocate99/DragDiffusion",
     "adzierzanowski/timg",
     "aerobounce/Sublime-Pretty-Shell",

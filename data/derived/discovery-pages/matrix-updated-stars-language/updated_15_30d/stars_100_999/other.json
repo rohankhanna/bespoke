@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2945,
-    "concepts": 2295,
-    "observations": 2298,
-    "repos": 378,
-    "terms": 2310
+    "components": 2981,
+    "concepts": 2312,
+    "observations": 2315,
+    "repos": 384,
+    "terms": 2327
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "a2aproject/a2a-dotnet",
     "abap2UI5/abap2UI5",
@@ -84,8 +84,10 @@
     "bkoelman/CSharpGuidelinesAnalyzer",
     "bootscore/bootscore",
     "BorisPolonsky/dify-helm",
+    "brewsci/homebrew-bio",
     "bronson/vim-trailing-whitespace",
     "bryceco/GoMap",
+    "cabo/kramdown-rfc",
     "cachix/git-hooks.nix",
     "caddyserver/website",
     "Calinou/scoop-games",
@@ -93,7 +95,6 @@
     "celo-org/celo-monorepo",
     "cgrindel/rules_swift_package_manager",
     "chainguard-images/images",
-    "chrisgrieser/nvim-rip-substitute",
     "chrisgrieser/nvim-spider",
     "chrisgrieser/nvim-various-textobjs",
     "Civitasv/cmake-tools.nvim",
@@ -166,6 +167,7 @@
     "go-flutter-desktop/examples",
     "google-gemini/gemini-api-quickstart",
     "GoogleCloudPlatform/cluster-toolkit",
+    "GoogleCloudPlatform/dotnet-docs-samples",
     "GoogleCloudPlatform/vertex-ai-samples",
     "gradle/test-retry-gradle-plugin",
     "grafana-community/helm-charts",
@@ -237,6 +239,7 @@
     "KhronosGroup/glTF-Sample-Assets",
     "Kijewski/pyjson5",
     "kirill-grouchnikov/aurora",
+    "kserve/website",
     "kwent/pgbouncerhero",
     "lambdaisland/deep-diff2",
     "lerocha/netflixdb",
@@ -274,7 +277,6 @@
     "NixOS/nixos-homepage",
     "nodejs/build",
     "nrepl/nrepl",
-    "nubank/matcher-combinators",
     "NuGet/NuGet.Client",
     "NVIDIA/nvbench",
     "NVIDIA/spark-rapids",
@@ -333,10 +335,12 @@
     "runtimeverification/evm-semantics",
     "rust-lang/crates.io-index",
     "rust-lang/docker-rust",
+    "saem/vscode-nim",
     "salvadordf/WebView4Delphi",
     "samtools/hts-specs",
     "sbt/sbt-ci-release",
     "sbt/sbt-pgp",
+    "scalameta/nvim-metals",
     "SciML/LabelledArrays.jl",
     "SciML/SciMLStyle",
     "sclorg/postgresql-container",
@@ -386,10 +390,12 @@
     "vuki656/package-info.nvim",
     "w3c/aria",
     "w3c/webdriver-bidi",
+    "weaviate/recipes",
     "WebAssembly/meetings",
     "WebAssembly/threads",
     "wighawag/template-ethereum-contracts",
     "yeesian/ArchGDAL.jl",
+    "yegappan/lsp",
     "zcash/zips",
     "zendesk/racecar"
   ]

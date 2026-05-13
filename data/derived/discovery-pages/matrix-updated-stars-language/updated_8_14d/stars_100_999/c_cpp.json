@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 484,
-    "concepts": 510,
-    "observations": 511,
-    "repos": 79,
-    "terms": 508
+    "components": 441,
+    "concepts": 466,
+    "observations": 467,
+    "repos": 73,
+    "terms": 465
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
-    "antgroup/vsag",
     "apache/iceberg-cpp",
     "arminbiere/cadical",
     "asl/BandageNG",
     "aui-framework/aui",
-    "autowarefoundation/autoware_core",
     "BirolLab/abyss",
     "Blosc/c-blosc2",
     "boostorg/math",
@@ -42,7 +40,6 @@
     "heiher/hev-socks5-tproxy",
     "HybridRobotics/motion_tracking_controller",
     "intel/intel-graphics-compiler",
-    "intel/llm-scaler",
     "intel/ScalableVectorSearch",
     "istio/proxy",
     "j20001970/GDMP",
@@ -54,7 +51,6 @@
     "libimobiledevice/libirecovery",
     "libnice/libnice",
     "libsdl-org/SDL_image",
-    "logicalclocks/rondb",
     "LunarG/gfxreconstruct",
     "LunarG/VulkanTools",
     "Mercury13/unicodia",
@@ -63,7 +59,6 @@
     "NGSolve/netgen",
     "nianticlabs/spz",
     "nix-community/nix-unit",
-    "NVIDIA/pyxis",
     "ofiwg/libfabric",
     "open-telemetry/opentelemetry-dotnet-instrumentation",
     "open-telemetry/opentelemetry-ebpf-instrumentation",
@@ -82,7 +77,6 @@
     "secretflow/spu",
     "shader-slang/slang-rhi",
     "snowballstem/snowball",
-    "sophgo/LLM-TPU",
     "sophgo/tpu-mlir",
     "todbot/hidapitester",
     "trealla-prolog/trealla",

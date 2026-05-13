@@ -1,21 +1,21 @@
 {
   "counts": {
-    "components": 1044,
-    "concepts": 569,
-    "observations": 572,
-    "repos": 115,
-    "terms": 567
+    "components": 1028,
+    "concepts": 565,
+    "observations": 568,
+    "repos": 110,
+    "terms": 563
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
+    "06ketan/slideshot",
     "3mdeb/3mdeb-secpack",
     "abhinav/goldmark-hashtag",
-    "aimeos/ai-monolog",
     "aliyun/alibabacloud-oss-java-sdk-v2",
     "alphagov/stylelint-config-gds",
     "angular/angular-devkit-architect-builds",
@@ -23,8 +23,6 @@
     "anolilab/unplugin-favicons",
     "Azure-Samples/langchain-agent-python",
     "benjamimgois/pascube",
-    "bennyyip/dot-vim",
-    "black-desk/djotfmt",
     "Cebeerre/dnsblocklists",
     "clearml/dropbear",
     "cloudfoundry/wg-app-platform-runtime-ci",
@@ -66,7 +64,6 @@
     "fluent-vue/examples",
     "fluent-vue/unplugin-fluent-vue",
     "fluxcd/flux-schema",
-    "fontsource/download-stat-aggregator",
     "godot-rust/godot4-prebuilt",
     "haskell/ghcup-www",
     "hecrj/llama-server",
@@ -82,9 +79,7 @@
     "ldclabs/ic-cose",
     "LedgerHQ/ledger-app-workflows",
     "linode/karpenter-provider-linode",
-    "lint-staged/lint-staged.sh",
     "lintnet-modules/ghalint",
-    "localstack/homebrew-tap",
     "maltsev/html-minifiers-benchmark",
     "meridianlabs-ai/inspect_harbor",
     "micronaut-projects/micronaut-langchain4j",

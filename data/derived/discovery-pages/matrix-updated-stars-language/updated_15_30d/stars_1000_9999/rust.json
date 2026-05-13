@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1651,
-    "concepts": 1154,
+    "components": 1659,
+    "concepts": 1156,
     "observations": 1161,
-    "repos": 161,
-    "terms": 1166
+    "repos": 162,
+    "terms": 1168
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x676e67/wreq-python",
@@ -94,7 +94,6 @@
     "lalrpop/lalrpop",
     "latex-lsp/texlab",
     "libp2p/rust-libp2p",
-    "LukeMathWalker/cargo-chef",
     "lycheeverse/lychee",
     "maciejhirsz/logos",
     "matter-labs/zksync",
@@ -141,6 +140,7 @@
     "rust-lang/crates.io",
     "rust-lang/docs.rs",
     "rust-lang/git2-rs",
+    "rust-lang/libc",
     "rust-lang/log",
     "rust-lang/miri",
     "rust-lang/rust-bindgen",
@@ -164,6 +164,7 @@
     "tauri-apps/create-tauri-app",
     "testcontainers/testcontainers-rs",
     "tikv/pprof-rs",
+    "time-rs/time",
     "tokio-rs/mini-redis",
     "tokio-rs/mio",
     "tokio-rs/tracing",

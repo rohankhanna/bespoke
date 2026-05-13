@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 102,
-    "concepts": 217,
-    "observations": 217,
-    "repos": 85,
-    "terms": 212
+    "components": 103,
+    "concepts": 220,
+    "observations": 220,
+    "repos": 86,
+    "terms": 215
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "2KAbhishek/ghpm",
     "2KAbhishek/mkrepo",
@@ -95,6 +95,7 @@
     "tiran/cpython-wasm-test",
     "transmissions11/dapptools-template",
     "tuvovan/Zero_DCE_TF",
+    "Vimjas/vim-testbed",
     "wchen342/android-rebuilds",
     "xetdata/xet-tools",
     "yatsuki/v2ray",

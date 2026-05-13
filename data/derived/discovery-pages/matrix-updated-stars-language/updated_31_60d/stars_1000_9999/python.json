@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 567,
-    "concepts": 832,
-    "observations": 832,
-    "repos": 131,
-    "terms": 823
+    "components": 578,
+    "concepts": 835,
+    "observations": 835,
+    "repos": 133,
+    "terms": 826
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "2U1/Qwen-VL-Series-Finetune",
@@ -108,6 +108,7 @@
     "Peterande/D-FINE",
     "Pointcept/Pointcept",
     "PyCQA/flake8-bugbear",
+    "pypa/setuptools",
     "pytest-dev/pytest-cov",
     "PyThaiNLP/pythainlp",
     "python-hyper/h2",
@@ -116,6 +117,7 @@
     "QwenLM/Qwen3-VL-Embedding",
     "RapidAI/RapidOCR",
     "rthalley/dnspython",
+    "RUC-NLPIR/DeepAgent",
     "RUC-NLPIR/FlashRAG",
     "rusty1s/pytorch_scatter",
     "rusty1s/pytorch_sparse",

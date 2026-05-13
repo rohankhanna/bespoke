@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 188,
-    "concepts": 70,
-    "observations": 71,
-    "repos": 51,
-    "terms": 70
+    "components": 195,
+    "concepts": 72,
+    "observations": 73,
+    "repos": 52,
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "a-liashenko/egui",
     "adiSuper94/dns-rs",
@@ -59,6 +59,7 @@
     "ntheanh201/hyper-mcp-release-monitor-id-tool",
     "nugine/simd-benches",
     "OlivierDehaene/candle",
+    "openobserve/promql-parser",
     "passcod/cargo-release-pr-test",
     "ritchie46/simd-json",
     "s3bk/svg",

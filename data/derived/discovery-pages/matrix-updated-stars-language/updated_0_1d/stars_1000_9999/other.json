@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 137,
-    "concepts": 132,
-    "observations": 133,
-    "repos": 12,
-    "terms": 132
+    "components": 145,
+    "concepts": 130,
+    "observations": 132,
+    "repos": 13,
+    "terms": 130
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
+    "babashka/babashka",
     "datalevin/datalevin",
     "dotnet/Silk.NET",
     "firebase/flutterfire",
     "kurrent-io/KurrentDB",
-    "lightning/bolts",
     "microsoft/aspire",
     "microsoft/aspire-samples",
-    "psmux/psmux",
+    "microsoft/PhiCookBook",
     "standardrb/standard",
     "swiftlang/llvm-project",
+    "swiftlang/swift-syntax",
     "TryGhost/node-sqlite3",
     "web-platform-tests/wpt"
   ]

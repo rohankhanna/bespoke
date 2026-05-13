@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 25,
-    "observations": 25,
+    "components": 21,
+    "concepts": 18,
+    "observations": 18,
     "repos": 3,
-    "terms": 25
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "bazel-contrib/bazel-gazelle",
-    "crc-org/crc",
+    "dkron-io/dkron",
     "kubernetes-sigs/karpenter"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 16,
-    "terms": 24
+    "components": 33,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 17,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "agent-sh/glidemq",
     "alvistack/ansible-role-conmon",
@@ -28,6 +28,7 @@
     "HKU-BAL/Clair-skills",
     "ihmcrobotics/repository-group",
     "kubernetes-sigs/provider-ibmcloud-test-infra",
+    "lint-staged/lint-staged.sh",
     "reviewdog/action-composite-template",
     "status-im/nimbus-build-system"
   ]

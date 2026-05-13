@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 193,
+    "components": 191,
     "concepts": 269,
     "observations": 272,
     "repos": 48,
-    "terms": 277
+    "terms": 275
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "2KAbhishek/dots2k",
@@ -22,7 +22,6 @@
     "alpinelinux/aports",
     "amrsa1/Android-Emulator-image",
     "arangrhie/T2T-Polish",
-    "astro-han/claude-pace",
     "bnb-chain/bsc-snapshots",
     "cncf/k8s-conformance",
     "codelibs/docker-fess",
@@ -43,6 +42,7 @@
     "msys2/msys2-installer",
     "nodenv/node-build",
     "numpy/numpy.org",
+    "NVIDIA/enroot",
     "opea-project/GenAIExamples",
     "openshift/release",
     "pacstall/pacstall-programs",

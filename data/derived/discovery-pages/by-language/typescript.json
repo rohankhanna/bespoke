@@ -1,18 +1,19 @@
 {
   "counts": {
-    "components": 61624,
-    "concepts": 10616,
-    "observations": 10651,
-    "repos": 1875,
-    "terms": 10919
+    "components": 61723,
+    "concepts": 10642,
+    "observations": 10677,
+    "repos": 1879,
+    "terms": 10944
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
+    "06ketan/slideshot",
     "0h7z/vscode-julia-format",
     "0no-co/wonka",
     "0x2E/fusion",
@@ -692,6 +693,7 @@
     "fuergaosi233/wechat-chatgpt",
     "fullcalendar/temporal-polyfill",
     "fwcd/vscode-kotlin",
+    "FxEmbed/FxEmbed",
     "gajus/eslint-plugin-slonik",
     "gajus/eslint-plugin-sql",
     "gajus/slonik",
@@ -1291,6 +1293,7 @@
     "Obsidian-TTRPG-Community/fantasy-statblocks",
     "Obsidian-TTRPG-Community/initiative-tracker",
     "obsidianmd/eslint-plugin",
+    "obsidianmd/obsidian-clipper",
     "obsidianmd/obsidian-sample-plugin",
     "oclif/core",
     "oclif/dev-cli",
@@ -1883,6 +1886,7 @@
     "zakhenry/embedme",
     "zenghongtu/react-use-chinese",
     "zhayujie/cow-skill-hub",
+    "Zoo-Code-Org/Zoo-Code",
     "zsio/claude-code-hub",
     "zsviczian/excalibrain",
     "zsviczian/obsidian-excalidraw-plugin",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 572,
-    "concepts": 485,
-    "observations": 488,
+    "components": 589,
+    "concepts": 492,
+    "observations": 495,
     "repos": 82,
-    "terms": 483
+    "terms": 490
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "aboutcode-org/scancode.io",
     "adamchainz/blacken-docs",
     "ag2ai/build-with-ag2",
     "AgileRL/AgileRL",
-    "agno-agi/scout",
     "ai-analyst-lab/ai-analyst",
     "ai-dynamo/aiperf",
     "aigc3d/LAM",
@@ -63,6 +62,7 @@
     "isaac-for-healthcare/i4h-workflows",
     "jawah/charset_normalizer",
     "jolibrain/joliGEN",
+    "jupyter-server/jupyter_server",
     "kubeflow/sdk",
     "librelane/librelane",
     "lightly-ai/lightly-studio",

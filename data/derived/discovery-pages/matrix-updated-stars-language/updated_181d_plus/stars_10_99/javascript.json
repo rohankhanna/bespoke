@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2873,
-    "concepts": 646,
-    "observations": 646,
-    "repos": 265,
-    "terms": 638
+    "components": 2880,
+    "concepts": 649,
+    "observations": 649,
+    "repos": 266,
+    "terms": 641
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
+    "0xDAEF0F/job-searchoor",
     "0xPolygon/pilcom",
     "71/logseq-snippets",
     "A11yance/axobject-query",
@@ -261,7 +262,7 @@
     "tommasongr/nova-vue",
     "topojson/topojson-simplify",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "udacity/FEF-UdaciMeals-Backbone",
     "un-ts/toml-tools",
     "unlight/postcss-import-url",

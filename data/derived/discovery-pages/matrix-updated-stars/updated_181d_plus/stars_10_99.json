@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11286,
-    "concepts": 6489,
-    "observations": 6504,
-    "repos": 3107,
-    "terms": 6449
+    "components": 11301,
+    "concepts": 6498,
+    "observations": 6513,
+    "repos": 3110,
+    "terms": 6458
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -21,6 +21,7 @@
     "0xC0000054/libheif-sharp",
     "0xc0000054/libheif-sharp-samples",
     "0xcafed00d/joystick",
+    "0xDAEF0F/job-searchoor",
     "0xJohnnyboy/scretch.nvim",
     "0xPlaygrounds/rig-onchain-kit",
     "0xPolygon/pilcom",
@@ -132,6 +133,7 @@
     "adisbladis/lix-unit",
     "Adlik/model_optimizer",
     "Adlik/smoothquantplus",
+    "Adlik/vllm",
     "AdnoC/sixel-rs",
     "AdnoC/sixel-sys",
     "adobe-photoshop/generator-panels",
@@ -2893,7 +2895,7 @@
     "TREMA-UNH/trec-car-tools",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",
@@ -2968,6 +2970,7 @@
     "vim-denops/denops-helloworld.vim",
     "vim-denops/denops-shared-server.vim",
     "vim-fall/fall.vim",
+    "Vimjas/vim-testbed",
     "Vinhixus/TornadoVM-Ray-Tracer",
     "vio/bundle-stats-action",
     "violentmonkey/violentmonkey-mx",

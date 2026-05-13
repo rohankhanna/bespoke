@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 336,
-    "concepts": 281,
-    "observations": 286,
-    "repos": 53,
-    "terms": 279
+    "components": 347,
+    "concepts": 288,
+    "observations": 295,
+    "repos": 54,
+    "terms": 286
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "aome510/spotify-player",
     "arxanas/git-branchless",
@@ -44,6 +44,7 @@
     "linebender/resvg",
     "liuchengxu/vim-clap",
     "lldap/lldap",
+    "LukeMathWalker/cargo-chef",
     "mattsse/chromiumoxide",
     "mitsuhiko/insta",
     "mitsuhiko/similar",

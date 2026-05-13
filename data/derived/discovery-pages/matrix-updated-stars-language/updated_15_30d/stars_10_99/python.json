@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 595,
-    "concepts": 393,
-    "observations": 395,
-    "repos": 113,
-    "terms": 407
+    "components": 602,
+    "concepts": 398,
+    "observations": 400,
+    "repos": 114,
+    "terms": 412
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "Accenture/Cymple",
@@ -116,6 +116,7 @@
     "scaleway/serverless-functions-python",
     "scipy/scipy-stubs",
     "Significant-Gravitas/gravitasml",
+    "sigstore/sigstore-conformance",
     "sliamh11/deus",
     "sublimelsp/LSP-ruff",
     "svaningelgem/logprise",

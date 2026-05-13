@@ -1,17 +1,18 @@
 {
   "counts": {
-    "components": 11703,
-    "concepts": 5181,
-    "observations": 5190,
-    "repos": 2320,
-    "terms": 5201
+    "components": 11724,
+    "concepts": 5188,
+    "observations": 5197,
+    "repos": 2324,
+    "terms": 5208
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
+    "06ketan/slideshot",
     "0b01/tigris-and-euphrates",
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -23,6 +24,7 @@
     "0ghny/tlsg10x-cli",
     "0h7z/vscode-julia-format",
     "0k/shyaml-rs",
+    "0x1abin/matter-controller-mcp",
     "0x2a-42/nvim-lelwel",
     "0x4139/cosmos-discord-faucet",
     "0x676e67/0x676e67",
@@ -783,6 +785,7 @@
     "danielrosehill/Homebox-Desktop-Wrapper-AppImage",
     "danielrosehill/Homebox-Projects-Index",
     "danielrosehill/LLM-API-Price-Estimates",
+    "danielrosehill/LLM-Council-Template",
     "danielrosehill/MCP-Network-CUPS",
     "danielrosehill/MCP-Projects-Index",
     "danielrosehill/MCP-Server-Ideas",
@@ -1898,6 +1901,7 @@
     "qdrvm/hunter-binary-cache",
     "qingw-dev/aworld-mcp-servers",
     "qinwang-ai/PolypsAlign",
+    "Qiuner/isometric-contributions-plus",
     "qiuyu96/CoDeF",
     "qliu24/udapart",
     "qri-io/frontend",
@@ -2196,7 +2200,7 @@
     "Triang-jyed-driung/Albatross",
     "triton-inference-server/contrib",
     "triton-inference-server/TensorRT-LLM",
-    "tritondatacenter/node-cmdutil",
+    "TritonDataCenter/node-cmdutil",
     "trufflesecurity/test_keys",
     "tuananh/hyper-mcp",
     "turbofish-org/abci2",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 133,
-    "concepts": 189,
-    "observations": 189,
-    "repos": 15,
-    "terms": 189
+    "components": 116,
+    "concepts": 192,
+    "observations": 192,
+    "repos": 13,
+    "terms": 192
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,18 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
     "Comfy-Org/ComfyUI-Manager",
     "crewAIInc/crewAI",
-    "datalab-to/surya",
     "great-expectations/great_expectations",
     "hiyouga/LlamaFactory",
-    "HKUDS/CLI-Anything",
     "huggingface/pytorch-image-models",
-    "Lightning-AI/pytorch-lightning",
     "ludwig-ai/ludwig",
     "modelscope/DiffSynth-Studio",
+    "modelscope/ms-swift",
     "qubvel-org/segmentation_models.pytorch",
     "run-llama/llama_index",
     "ungoogled-software/ungoogled-chromium"

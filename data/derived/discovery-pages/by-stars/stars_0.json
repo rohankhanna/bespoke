@@ -1,17 +1,18 @@
 {
   "counts": {
-    "components": 2798,
-    "concepts": 1161,
-    "observations": 1165,
-    "repos": 877,
-    "terms": 1192
+    "components": 2805,
+    "concepts": 1167,
+    "observations": 1171,
+    "repos": 881,
+    "terms": 1198
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
+    "06ketan/substack-ops",
     "0ghny/asdf-tlsgcli",
     "0xBigBoss/ghostty-web",
     "1000ch/Sublime-csso",
@@ -371,6 +372,8 @@
     "danielrosehill/lan-manager-plugin",
     "danielrosehill/Linux-Desktop-Tools-Index",
     "danielrosehill/Live-Typing-UX-Research",
+    "danielrosehill/LLM-Council-Decide",
+    "danielrosehill/LLM-Council-Grounded",
     "danielrosehill/Local-ASR-STT-Benchmark",
     "danielrosehill/Local-Claude-Plugin-Install-Research",
     "danielrosehill/Model-Scout-MCP",
@@ -568,6 +571,7 @@
     "jackielii/qmk_firmware",
     "jannerm/doodad",
     "janwilmake/oapis.cli",
+    "JavaHello/javahello.github.io",
     "jbilcke-hf/finetrainers",
     "jonislutheran87/weclaw",
     "josejg/google-research",

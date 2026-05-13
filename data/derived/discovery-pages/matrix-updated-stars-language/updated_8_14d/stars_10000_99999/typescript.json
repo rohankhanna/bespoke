@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3898,
-    "concepts": 752,
-    "observations": 756,
-    "repos": 64,
-    "terms": 750
+    "components": 3735,
+    "concepts": 702,
+    "observations": 706,
+    "repos": 61,
+    "terms": 700
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "aidenybai/react-scan",
     "angular/angular-cli",
@@ -24,7 +24,6 @@
     "aws/aws-cdk",
     "BabylonJS/Babylon.js",
     "better-auth/better-auth",
-    "bytedance/UI-TARS-desktop",
     "calcom/cal.diy",
     "changesets/changesets",
     "cheeriojs/cheerio",
@@ -39,10 +38,8 @@
     "janhq/jan",
     "jhipster/generator-jhipster",
     "jquense/yup",
-    "Kong/insomnia",
     "mapbox/mapbox-gl-js",
     "maplibre/maplibre-gl-js",
-    "marmelab/react-admin",
     "medusajs/medusa",
     "mermaid-js/mermaid",
     "mongodb/node-mongodb-native",

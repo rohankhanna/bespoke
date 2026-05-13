@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 64,
-    "observations": 65,
-    "repos": 6,
-    "terms": 64
+    "components": 102,
+    "concepts": 56,
+    "observations": 57,
+    "repos": 5,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "Aleph-Alpha/ts-rs",
     "apache/datafusion-ballista",
     "databendlabs/databend",
     "dmtrKovalenko/fff",
-    "godot-rust/gdext",
     "intentee/paddler"
   ]
 }

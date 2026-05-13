@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 292,
-    "concepts": 340,
-    "observations": 344,
-    "repos": 64,
-    "terms": 341
+    "components": 298,
+    "concepts": 355,
+    "observations": 359,
+    "repos": 66,
+    "terms": 357
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "alembic/alembic",
     "alibaba/havenask",
@@ -38,6 +38,7 @@
     "go-gl/glfw",
     "google/double-conversion",
     "google/draco",
+    "google/honggfuzz",
     "h2o/picohttpparser",
     "hufrea/byedpi",
     "KhronosGroup/MoltenVK",
@@ -50,6 +51,7 @@
     "microsoft/snmalloc",
     "nalgeon/sqlean",
     "nigels-com/glew",
+    "nihui/opencv-mobile",
     "nmslib/hnswlib",
     "nodemcu/nodemcu-firmware",
     "NVIDIA/cuda-samples",
@@ -62,7 +64,6 @@
     "posva/catimg",
     "redis/hiredis",
     "riscv-software-src/opensbi",
-    "romkatv/gitstatus",
     "SarahWeiii/CoACD",
     "sqlcipher/sqlcipher",
     "SRombauts/SQLiteCpp",
@@ -74,6 +75,7 @@
     "tinyobjloader/tinyobjloader",
     "TuGraph-family/tugraph-db",
     "void-linux/xbps",
+    "vstakhov/libucl",
     "WebAssembly/wabt",
     "xlite-dev/lite.ai.toolkit",
     "ycm-core/ycmd",

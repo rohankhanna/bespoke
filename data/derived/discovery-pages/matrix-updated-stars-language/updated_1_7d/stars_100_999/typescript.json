@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 691,
-    "concepts": 135,
-    "observations": 135,
-    "repos": 19,
-    "terms": 131
+    "components": 601,
+    "concepts": 115,
+    "observations": 115,
+    "repos": 16,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,23 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "Agoric/agoric-sdk",
     "antvis/GPT-Vis",
     "apify/apify-cli",
     "apify/mcpc",
-    "electron/packager",
     "embroider-build/ember-auto-import",
     "hexabot-ai/Hexabot",
-    "huggingface/hf-mcp-server",
     "inversify/monorepo",
-    "lambdalisue/vim-gin",
     "LuaLS/vscode-lua",
-    "mightyiam/eslint-config-love",
     "preactjs/preact-devtools",
     "Rel1cx/eslint-react",
     "safe-fndn/safe-singleton-factory",
     "serversideup/webext-bridge",
     "stx-labs/stacks.js",
+    "unplugin/unplugin-imagemin",
     "xdebug/vscode-php-debug"
   ]
 }

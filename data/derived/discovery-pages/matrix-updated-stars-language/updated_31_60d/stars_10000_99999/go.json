@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 96,
-    "concepts": 123,
-    "observations": 124,
-    "repos": 12,
-    "terms": 119
+    "components": 109,
+    "concepts": 142,
+    "observations": 143,
+    "repos": 14,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "charmbracelet/glow",
+    "charmbracelet/gum",
+    "charmbracelet/vhs",
     "chromedp/chromedp",
     "direnv/direnv",
     "evanw/esbuild",

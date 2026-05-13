@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 504,
-    "concepts": 515,
-    "observations": 516,
+    "components": 506,
+    "concepts": 500,
+    "observations": 501,
     "repos": 44,
-    "terms": 510
+    "terms": 495
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "agentscope-ai/agentscope",
     "agentscope-ai/QwenPaw",
@@ -21,9 +21,11 @@
     "cvat-ai/cvat",
     "dagster-io/dagster",
     "datalab-to/marker",
+    "datalab-to/surya",
     "docling-project/docling",
     "facefusion/facefusion",
     "fastapi/typer",
+    "HKUDS/CLI-Anything",
     "huggingface/datasets",
     "huggingface/lerobot",
     "huggingface/trl",
@@ -33,7 +35,6 @@
     "Lightning-AI/litgpt",
     "lucidrains/vit-pytorch",
     "MetaCubeX/mihomo",
-    "microsoft/agent-lightning",
     "microsoft/promptflow",
     "mitmproxy/mitmproxy",
     "mlflow/mlflow",
@@ -43,7 +44,6 @@
     "pallets/click",
     "pipecat-ai/pipecat",
     "psf/requests",
-    "pyg-team/pytorch_geometric",
     "pypa/pipenv",
     "pypa/pipx",
     "roboflow/supervision",

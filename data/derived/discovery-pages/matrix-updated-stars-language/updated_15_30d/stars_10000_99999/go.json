@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1085,
-    "concepts": 1062,
-    "observations": 1066,
+    "components": 1094,
+    "concepts": 1065,
+    "observations": 1069,
     "repos": 94,
-    "terms": 1050
+    "terms": 1055
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -30,9 +30,7 @@
     "centrifugal/centrifugo",
     "charmbracelet/bubbletea",
     "charmbracelet/crush",
-    "charmbracelet/gum",
     "charmbracelet/lipgloss",
-    "charmbracelet/vhs",
     "cli/cli",
     "coder/coder",
     "containerd/containerd",
@@ -52,7 +50,9 @@
     "getsops/sops",
     "gin-gonic/gin",
     "go-delve/delve",
+    "go-playground/validator",
     "gofiber/fiber",
+    "goharbor/harbor",
     "gohugoio/hugo",
     "golangci/golangci-lint",
     "google/cadvisor",

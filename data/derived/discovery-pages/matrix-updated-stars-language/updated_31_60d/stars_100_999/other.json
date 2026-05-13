@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1127,
-    "concepts": 839,
-    "observations": 842,
-    "repos": 204,
-    "terms": 837
+    "components": 1139,
+    "concepts": 854,
+    "observations": 857,
+    "repos": 206,
+    "terms": 852
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "actboy168/json.lua",
@@ -68,6 +68,7 @@
     "chiron-fonts/chiron-hei-hk",
     "chomosuke/typst-preview.nvim",
     "chrisgrieser/nvim-lsp-endhints",
+    "chrisgrieser/nvim-rip-substitute",
     "clojure-emacs/clj-refactor.el",
     "clojure-emacs/clojure-mode",
     "clojure-emacs/clojure-ts-mode",
@@ -164,6 +165,7 @@
     "n8willis/opentype-shaping-documents",
     "naver/anny",
     "nebula-plugins/nebula-release-plugin",
+    "nubank/matcher-combinators",
     "nvim-mini/mini.diff",
     "nvim-mini/mini.files",
     "nvim-mini/mini.pick",

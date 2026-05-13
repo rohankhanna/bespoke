@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 177,
-    "concepts": 206,
-    "observations": 206,
-    "repos": 87,
-    "terms": 215
+    "components": 170,
+    "concepts": 203,
+    "observations": 203,
+    "repos": 86,
+    "terms": 212
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "aba122/Q-Hawkeye",
     "adhikasp/mcp-youtube",
-    "Adlik/vllm",
     "Alexandre-Delplanque/HerdNet",
     "alexmojaki/pure_eval",
     "alexmojaki/stack_data",

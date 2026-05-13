@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 50,
-    "observations": 50,
+    "components": 49,
+    "concepts": 56,
+    "observations": 56,
     "repos": 7,
-    "terms": 50
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "apalache-mc/apalache",
     "bazel-contrib/rules_kotlin",
     "dwyl/quotes",
-    "elixir-protobuf/protobuf",
     "fsprojects/FSharp.Data.GraphQL",
+    "kurrent-io/KurrentDB-Client-Dotnet",
     "rescript-lang/reanalyze",
     "ROCm/hipBLASLt"
   ]

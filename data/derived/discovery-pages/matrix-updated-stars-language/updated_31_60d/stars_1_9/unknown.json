@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 35,
-    "terms": 39
+    "components": 13,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 36,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "2KAbhishek/BWnB",
@@ -40,6 +40,7 @@
     "danielrosehill/Useful-AI-Agent-Skills",
     "datachainlab/yui-relayer-build",
     "flagos-ai/FlagOS-Robo",
+    "gkr-bot/gkr-bot",
     "hchiam/learning-gh",
     "hchiam/learning-template",
     "lab-cosmo/.github",

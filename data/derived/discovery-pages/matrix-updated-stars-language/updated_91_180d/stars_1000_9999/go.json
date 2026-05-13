@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 184,
-    "observations": 184,
+    "components": 179,
+    "concepts": 188,
+    "observations": 188,
     "repos": 34,
-    "terms": 184
+    "terms": 188
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "aarondl/authboss",
@@ -23,12 +23,12 @@
     "ankitpokhrel/jira-cli",
     "apache/rocketmq-client-go",
     "argoproj-labs/argocd-autopilot",
+    "avast/retry-go",
     "chaisql/chai",
     "charmbracelet/skate",
     "containernetworking/cni",
     "dgraph-io/ristretto",
     "evmos/evmos",
-    "favadi/protoc-go-inject-tag",
     "gin-gonic/contrib",
     "github/git-sizer",
     "instrumenta/kubeval",

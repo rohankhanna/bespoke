@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 899,
-    "concepts": 750,
-    "observations": 756,
-    "repos": 121,
-    "terms": 760
+    "components": 910,
+    "concepts": 764,
+    "observations": 770,
+    "repos": 122,
+    "terms": 774
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "2dust/AndroidLibXrayLite",
     "a2aproject/a2a-go",
@@ -20,6 +20,7 @@
     "AdguardTeam/urlfilter",
     "ai-dynamo/grove",
     "alibaba/loongsuite-go-agent",
+    "aliyun/aliyun-cli",
     "AliyunContainerService/terway",
     "andybalholm/brotli",
     "apache/dubbo-go-pixiu",
@@ -27,6 +28,7 @@
     "apache/dubbo-kubernetes",
     "apache/pulsar-client-go",
     "appleboy/go-fcm",
+    "aquasecurity/trivy-db",
     "argoproj-labs/argo-rollouts-manager",
     "aws-cloudformation/rain",
     "aws/amazon-vpc-resource-controller-k8s",
@@ -44,7 +46,6 @@
     "celo-org/celo-blockchain",
     "chainguard-dev/melange",
     "charmbracelet/catwalk",
-    "charmbracelet/colorprofile",
     "ClickHouse/ch-go",
     "cloudflare/go",
     "cloudfoundry/bosh-bootloader",
@@ -70,7 +71,6 @@
     "go-openapi/swag",
     "go-viper/mapstructure",
     "googleapis/go-genproto",
-    "hashicorp/errwrap",
     "hashicorp/terraform-plugin-docs",
     "hashicorp/terraform-plugin-framework",
     "hashicorp/terraform-plugin-go",
@@ -110,6 +110,7 @@
     "microsoft/hcsshim",
     "monitoring-mixins/mixtool",
     "moul/gotty-client",
+    "OffchainLabs/nitro",
     "open-telemetry/opentelemetry-collector-releases",
     "openshift/enhancements",
     "openshift/library",

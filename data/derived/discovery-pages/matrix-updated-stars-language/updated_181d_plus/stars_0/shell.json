@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 7,
-    "terms": 12
+    "components": 22,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 8,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "cgrindel/bazel_shlib",
@@ -20,6 +20,7 @@
     "Danau5tin/terminal-bench-fork",
     "danielrosehill/batch-claudemd-repo-creator",
     "flathub/io.github.TTimo.GtkRadiant",
+    "JavaHello/javahello.github.io",
     "yatsuki/v2ray-release"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 331,
-    "concepts": 694,
-    "observations": 694,
-    "repos": 194,
-    "terms": 688
+    "concepts": 700,
+    "observations": 700,
+    "repos": 195,
+    "terms": 694
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "0k/shyaml",
     "23andMe/Yamale",
@@ -98,7 +98,6 @@
     "huspacy/huspacy",
     "hustvl/DiffusionDriveV2",
     "hzwer/Practical-RIFE",
-    "IAAR-Shanghai/xFinder",
     "inclusionAI/ASearcher",
     "intel/ai-reference-models",
     "InternRobotics/VLAC",
@@ -129,6 +128,7 @@
     "microsoft/botbuilder-python",
     "microsoft/langchain-for-beginners",
     "microsoft/Samba",
+    "MMMU-Benchmark/MMMU",
     "MontaEllis/Pytorch-Medical-Segmentation",
     "Mountchicken/Resophy",
     "multi-swe-bench/multi-swe-bench",
@@ -180,6 +180,7 @@
     "speechbrain/benchmarks",
     "strands-agents/agent-builder",
     "superclaude-org/supergemini_framework",
+    "TEN-framework/ten-turn-detection",
     "theupdateframework/specification",
     "thorstenMueller/Thorsten-Voice",
     "tpoisonooo/ROGRAG",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3001,
-    "concepts": 1718,
-    "observations": 1725,
+    "components": 2977,
+    "concepts": 1713,
+    "observations": 1720,
     "repos": 460,
-    "terms": 1713
+    "terms": 1708
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x-ximon/acario.nvim",
@@ -230,6 +230,7 @@
     "faressoft/inquirer-checkbox-plus-prompt",
     "fcambus/bdf2sfd",
     "featherbread/hypcast",
+    "fgrehm/clotilde",
     "Fil/d3-tricontour",
     "filip26/iridium-cbor-ld",
     "FindDefinition/cumm",
@@ -275,7 +276,6 @@
     "hermit-os/hermit-rs-template",
     "hipster-labs/jhipster-daily-builds",
     "holochain/kangaroo-electron",
-    "HoneyLuka/uBlacklist",
     "hpcaitech/public_assets",
     "hudochenkov/stylelint-config-hudochenkov",
     "hynek/argon2-cffi-bindings",
@@ -354,6 +354,7 @@
     "metosin/ring-swagger-ui",
     "microsoft/vscode-azurecli",
     "microsoft/vscode-js-debug-companion",
+    "mirage/ptt",
     "MisanthropicBit/neotest-busted",
     "mit-plv/bbv",
     "mozilla-services/shavar",
@@ -366,6 +367,7 @@
     "networkx/nx-parallel",
     "neverendingqs/serverless-dotenv-example",
     "neysofu/reltester",
+    "ngyewch/smile-js",
     "niheaven/scoop-sysinternals",
     "NixOS/nix-installer-action",
     "nodejs/email",
@@ -379,7 +381,6 @@
     "Nsidorenco/neotest-vstest",
     "nvictus/pybbi",
     "nvim-mini/mini.base16",
-    "nvim-mini/mini.deps",
     "nvim-mini/mini.doc",
     "nvim-mini/mini.statusline",
     "oap-project/oap-mllib",
@@ -432,7 +433,6 @@
     "SeleniumHQ/selenium_manager_artifacts",
     "seung-lab/cloud-files",
     "shiweijiezero/R3L",
-    "Shougo/ddu-filter-matcher_substring",
     "Shougo/ddu-ui-ff",
     "sigp/rust-libp2p",
     "skhu101/HumanLiff",

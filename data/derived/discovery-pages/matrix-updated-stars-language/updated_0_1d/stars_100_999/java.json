@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 15,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 4,
-    "terms": 30
+    "components": 28,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 5,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "cloudfoundry/credhub",
     "eclipse-lsp4j/lsp4j",
+    "eclipse-wildwebdeveloper/wildwebdeveloper",
     "ldproxy/ldproxy",
     "spring-projects/spring-tools"
   ]

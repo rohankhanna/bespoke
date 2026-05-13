@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 130,
-    "concepts": 142,
-    "observations": 142,
-    "repos": 20,
-    "terms": 142
+    "components": 110,
+    "concepts": 134,
+    "observations": 134,
+    "repos": 19,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "agentclientprotocol/python-sdk",
     "agentic-box/memora",
@@ -26,7 +26,6 @@
     "gbionics/adam",
     "gbionics/jaxsim",
     "hluaguo/learn-faster-kit",
-    "jupyter-server/jupyter_server",
     "mll-lab-nu/VAGEN",
     "NCAS-CMS/pyfive",
     "pyrtlsdr/pyrtlsdr",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 54520,
-    "concepts": 35200,
-    "observations": 35307,
-    "repos": 5959,
-    "terms": 35113
+    "components": 54608,
+    "concepts": 35242,
+    "observations": 35349,
+    "repos": 5965,
+    "terms": 35154
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -2022,6 +2022,7 @@
     "fussybeaver/bollard",
     "FuzzyGrim/Yamtrack",
     "fwcd/kotlin-language-server",
+    "FxEmbed/FxEmbed",
     "fxia22/pointnet.pytorch",
     "Fyrd/caniuse",
     "Fyusion/LLFF",
@@ -3827,6 +3828,7 @@
     "natefinch/lumberjack",
     "natemoo-re/astro-icon",
     "nats-io/nats.rs",
+    "NATSpeech/NATSpeech",
     "naudio/NAudio",
     "naver/dust3r",
     "naver/mast3r",
@@ -3970,6 +3972,7 @@
     "NVIDIA-Omniverse/PhysX",
     "NVIDIA/accelerated-computing-hub",
     "NVIDIA/apex",
+    "NVIDIA/BigVGAN",
     "NVIDIA/cccl",
     "NVIDIA/ChatRTX",
     "NVIDIA/Cosmos",
@@ -4058,6 +4061,7 @@
     "obsidian-community/obsidian-style-settings",
     "obsidian-community/obsidian-zotero-integration",
     "obsidianmd/obsidian-api",
+    "obsidianmd/obsidian-clipper",
     "obsidianmd/obsidian-sample-plugin",
     "ocaml/dune",
     "ocaml/merlin",
@@ -4372,6 +4376,7 @@
     "pion/example-webrtc-applications",
     "pion/turn",
     "piotrostr/listen",
+    "pipecat-ai/smart-turn",
     "pisa-engine/pisa",
     "piscisaureus/wepoll",
     "PixarAnimationStudios/OpenSubdiv",
@@ -4693,6 +4698,7 @@
     "rest-sh/restish",
     "restic/rest-server",
     "retorquere/zotero-better-bibtex",
+    "reubeno/brush",
     "revfactory/harness",
     "reviewdog/reviewdog",
     "reworkcss/css",

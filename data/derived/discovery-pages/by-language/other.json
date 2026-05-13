@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 26023,
-    "concepts": 22381,
-    "observations": 22453,
-    "repos": 5519,
-    "terms": 22329
+    "components": 26081,
+    "concepts": 22383,
+    "observations": 22455,
+    "repos": 5521,
+    "terms": 22331
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -4671,6 +4671,7 @@
     "sass-contrib/sass-embedded-host-ruby",
     "sass/dart-sass",
     "sass/libsass-net",
+    "sass/sass-spec",
     "sass/sassc-rails",
     "savq/paq-nvim",
     "sawhney17/logseq-hugo-template",
@@ -4786,6 +4787,7 @@
     "shovel-org/Windows-Sysinternals-Bucket",
     "shunsambongi/neotest-testthat",
     "sicmutils/sicmutils",
+    "sidlatau/neotest-dart",
     "SidOfc/carbon.nvim",
     "sigstore/helm-charts",
     "sigstore/root-signing",

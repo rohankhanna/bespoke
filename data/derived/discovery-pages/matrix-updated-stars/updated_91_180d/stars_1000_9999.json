@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2687,
-    "concepts": 2281,
-    "observations": 2291,
-    "repos": 448,
-    "terms": 2251
+    "components": 2690,
+    "concepts": 2285,
+    "observations": 2295,
+    "repos": 449,
+    "terms": 2255
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "99designs/aws-vault",
@@ -63,6 +63,7 @@
     "atanunq/viu",
     "attractivechaos/klib",
     "auto-complete/auto-complete",
+    "avast/retry-go",
     "baaivision/Emu",
     "baaivision/Emu3",
     "bakpakin/Fennel",
@@ -154,7 +155,6 @@
     "facebookresearch/moco",
     "facebookresearch/pytorchvideo",
     "Farama-Foundation/Metaworld",
-    "favadi/protoc-go-inject-tag",
     "fengari-lua/fengari",
     "file-icons/atom",
     "fixie-ai/ultravox",
@@ -350,6 +350,7 @@
     "pganalyze/libpg_query",
     "Phantom-video/HuMo",
     "phar-io/manifest",
+    "pipecat-ai/smart-turn",
     "PKU-Alignment/safe-rlhf",
     "PKU-YuanGroup/LLaVA-CoT",
     "PlexPt/chatgpt-java",

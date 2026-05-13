@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1166,
-    "concepts": 499,
-    "observations": 501,
-    "repos": 413,
-    "terms": 499
+    "components": 1177,
+    "concepts": 502,
+    "observations": 504,
+    "repos": 415,
+    "terms": 502
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -254,6 +254,7 @@
     "itroyano/ustore-operator",
     "jannerm/doodad",
     "janwilmake/oapis.cli",
+    "JavaHello/javahello.github.io",
     "jbilcke-hf/finetrainers",
     "josejg/google-research",
     "joshmedeski/tmux-list",
@@ -349,6 +350,7 @@
     "offline-ai/cli-plugin-cmd-brain.js",
     "OlivierDehaene/candle",
     "oneflow-inc/docker-images",
+    "openobserve/promql-parser",
     "osmosis-labs/block-sdk",
     "panekj/lapce-plugin-rust",
     "passcod/cargo-release-pr-test",

@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 9930,
-    "concepts": 8594,
-    "observations": 8603,
-    "repos": 2248,
-    "terms": 8479
+    "concepts": 8607,
+    "observations": 8616,
+    "repos": 2251,
+    "terms": 8492
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -688,6 +688,7 @@
     "Farama-Foundation/D4RL",
     "FasterDecoding/Medusa",
     "fatchord/WaveRNN",
+    "favadi/protoc-go-inject-tag",
     "fbcotter/pytorch_wavelets",
     "fcsonline/tmux-thumbs",
     "feathericons/react-feather",
@@ -1428,6 +1429,7 @@
     "natanielruiz/deep-head-pose",
     "natefinch/lumberjack",
     "natemoo-re/astro-icon",
+    "NATSpeech/NATSpeech",
     "naver/dust3r",
     "naver/mast3r",
     "ncm2/ncm2",
@@ -1479,6 +1481,7 @@
     "NVIDIA-AI-IOT/jetbot",
     "NVIDIA-AI-IOT/torch2trt",
     "NVIDIA-AI-IOT/trt_pose",
+    "NVIDIA/BigVGAN",
     "NVIDIA/FasterTransformer",
     "NVIDIA/MinkowskiEngine",
     "NVIDIA/nvidia-container-runtime",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 959,
+    "components": 972,
     "concepts": 555,
     "observations": 558,
-    "repos": 84,
+    "repos": 85,
     "terms": 551
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -66,6 +66,7 @@
     "microsoft/unilm",
     "modin-project/modin",
     "MoonshotAI/Kimi-K2",
+    "mozilla/readability",
     "muesli/duf",
     "nari-labs/dia",
     "Netflix/Hystrix",

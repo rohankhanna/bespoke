@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 300,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 4,
-    "terms": 41
+    "components": 315,
+    "concepts": 47,
+    "observations": 47,
+    "repos": 5,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "callstack/react-native-builder-bob",
     "ipfs/ipfs-companion",
     "ipfs/ipfs-webui",
-    "jasonlong/isometric-contributions"
+    "jasonlong/isometric-contributions",
+    "WiseLibs/better-sqlite3"
   ]
 }

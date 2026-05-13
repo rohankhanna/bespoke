@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 405,
-    "concepts": 370,
-    "observations": 372,
+    "components": 410,
+    "concepts": 368,
+    "observations": 370,
     "repos": 117,
-    "terms": 369
+    "terms": 367
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -97,6 +97,7 @@
     "malewicz1337/oil-git.nvim",
     "marbl/T2T-Browser",
     "metosin/ring-swagger-ui",
+    "mirage/ptt",
     "MisanthropicBit/neotest-busted",
     "mit-plv/bbv",
     "mugh/minecraft-bedrock-server-manager",
@@ -106,7 +107,6 @@
     "notomo/vusted",
     "Nsidorenco/neotest-vstest",
     "nvim-mini/mini.base16",
-    "nvim-mini/mini.deps",
     "nvim-mini/mini.doc",
     "nvim-mini/mini.statusline",
     "oap-project/oap-mllib",

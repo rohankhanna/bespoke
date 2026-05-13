@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 172,
-    "concepts": 192,
-    "observations": 194,
-    "repos": 15,
-    "terms": 192
+    "components": 184,
+    "concepts": 193,
+    "observations": 195,
+    "repos": 16,
+    "terms": 193
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "axolotl-ai-cloud/axolotl",
     "Dao-AILab/flash-attention",
@@ -20,13 +20,14 @@
     "fastapi/fastapi",
     "huggingface/sentence-transformers",
     "jax-ml/jax",
-    "modelscope/ms-swift",
+    "Lightning-AI/pytorch-lightning",
     "NVIDIA-NeMo/NeMo",
     "oobabooga/textgen",
     "OpenHands/OpenHands",
     "PDFMathTranslate/PDFMathTranslate",
     "psf/black",
     "pydantic/pydantic",
+    "pyg-team/pytorch_geometric",
     "verl-project/verl",
     "zhayujie/CowAgent"
   ]

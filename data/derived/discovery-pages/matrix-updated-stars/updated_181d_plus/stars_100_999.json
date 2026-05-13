@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 14828,
-    "concepts": 13149,
-    "observations": 13174,
-    "repos": 4369,
-    "terms": 12939
+    "concepts": 13196,
+    "observations": 13221,
+    "repos": 4374,
+    "terms": 12986
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -1874,6 +1874,7 @@
     "HaxeFoundation/dox",
     "haya14busa/is.vim",
     "haydengunraj/COVIDNet-CT",
+    "hayeong0/Diff-HierVC",
     "HazyResearch/based",
     "HazyResearch/lolcats",
     "HCIILAB/M6Doc",
@@ -1985,6 +1986,7 @@
     "i18next/i18next-scanner",
     "i18next/i18next-xhr-backend",
     "i18next/jquery-i18next",
+    "IAAR-Shanghai/xFinder",
     "iamcco/coc-diagnostic",
     "iamcco/coc-flutter",
     "iamcco/diagnostic-languageserver",
@@ -2368,6 +2370,7 @@
     "kendryte/kendryte-standalone-sdk",
     "kennethreitz/requests",
     "KentoNishi/torch-pitch-shift",
+    "keonlee9420/DiffSinger",
     "kepano/obsidian-minimal-publish",
     "kernelsauce/turbo",
     "kesla/node-snappy",
@@ -2580,6 +2583,7 @@
     "lldacing/ComfyUI_PuLID_Flux_ll",
     "lmb-freiburg/robustmvd",
     "lmcgartland/graphene-file-upload",
+    "lmnt-com/diffwave",
     "lmnt-com/wavegrad",
     "lmxyy/sige",
     "lnx-search/rewrk",
@@ -2951,6 +2955,7 @@
     "mongodb-js/electron-squirrel-startup",
     "monitoring-mixins/docs",
     "mono/sdb",
+    "MoonInTheRiver/NeuralSVB",
     "MorganRO8/Lucys_Labyrinth",
     "morrys/wora",
     "mostjs/core",

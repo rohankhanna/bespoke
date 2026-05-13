@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 83,
-    "concepts": 101,
-    "observations": 102,
-    "repos": 11,
-    "terms": 101
+    "components": 87,
+    "concepts": 116,
+    "observations": 117,
+    "repos": 12,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "awslabs/aidlc-workflows",
     "bitsandbytes-foundation/bitsandbytes",
+    "clearml/clearml",
     "Farama-Foundation/Minigrid",
     "funstory-ai/BabelDOC",
     "ggozad/oterm",

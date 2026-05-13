@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 392,
-    "concepts": 435,
-    "observations": 437,
-    "repos": 50,
-    "terms": 434
+    "components": 406,
+    "concepts": 448,
+    "observations": 450,
+    "repos": 52,
+    "terms": 447
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "apache/camel",
@@ -37,6 +37,7 @@
     "FasterXML/jackson-databind",
     "flyway/flyway",
     "google/adk-java",
+    "google/conscrypt",
     "google/error-prone",
     "google/google-java-format",
     "google/j2cl",
@@ -58,6 +59,7 @@
     "rabbitmq/rabbitmq-tutorials",
     "raphw/byte-buddy",
     "react-native-share/react-native-share",
+    "reactor/reactor-core",
     "RoaringBitmap/RoaringBitmap",
     "soot-oss/soot",
     "spotbugs/spotbugs",

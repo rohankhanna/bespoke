@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 212,
-    "concepts": 157,
-    "observations": 158,
-    "repos": 44,
-    "terms": 160
+    "components": 215,
+    "concepts": 158,
+    "observations": 159,
+    "repos": 45,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "antham/ghokin",
@@ -38,6 +38,7 @@
     "EstebanForge/mcp-cli-ent",
     "ethpandaops/xatu",
     "featherbread/hypcast",
+    "fgrehm/clotilde",
     "getlantern/.github",
     "GFW-knocker/AndroidLibXrayLite",
     "gopasspw/gopass-jsonapi",

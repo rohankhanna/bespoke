@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1581,
-    "concepts": 1358,
-    "observations": 1371,
-    "repos": 154,
-    "terms": 1355
+    "components": 1548,
+    "concepts": 1291,
+    "observations": 1301,
+    "repos": 150,
+    "terms": 1288
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-baseline",
     "abapGit/abapGit",
@@ -59,7 +59,6 @@
     "dlemstra/Magick.NET",
     "docker/docs",
     "dotnet/dotnet-docker",
-    "dotnet/msbuild",
     "dotnet/winforms",
     "dotnet/wpf",
     "easylist/easylist",
@@ -86,7 +85,6 @@
     "helix-toolkit/helix-toolkit",
     "intel/llvm",
     "JetBrains/intellij-platform-gradle-plugin",
-    "JetBrains/intellij-platform-plugin-template",
     "JetBrains/intellij-sdk-docs",
     "JetBrains/resharper-unity",
     "jrsoftware/issrc",
@@ -97,7 +95,6 @@
     "jump-dev/JuMP.jl",
     "just-the-docs/just-the-docs",
     "justinmk/vim-dirvish",
-    "karafka/karafka",
     "KhronosGroup/SPIRV-Cross",
     "klauspost/reedsolomon",
     "Kotlin/kotlinx.serialization",
@@ -158,7 +155,6 @@
     "tlaplus/Examples",
     "tuist/XcodeProj",
     "uBlockOrigin/uAssets",
-    "undreamai/LLMUnity",
     "vimwiki/vimwiki",
     "ViscousPot/GitSync",
     "voxpupuli/json-schema",

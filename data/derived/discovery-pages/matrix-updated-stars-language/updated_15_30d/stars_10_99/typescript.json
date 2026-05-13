@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1953,
-    "concepts": 349,
-    "observations": 353,
+    "components": 1944,
+    "concepts": 354,
+    "observations": 358,
     "repos": 72,
-    "terms": 377
+    "terms": 382
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "52-entertainment/vite-plugin-oxlint",
     "addfox/addfox",
@@ -65,7 +65,6 @@
     "mcous/vitest-when",
     "mdjastrzebski/test-renderer",
     "newrelic/opentelemetry-demo",
-    "ngyewch/smile-js",
     "NullVoxPopuli/ember-deep-tracked",
     "oclif/plugin-autocomplete",
     "oclif/plugin-help",
@@ -77,6 +76,7 @@
     "overseedai/viwo",
     "patrickkabwe/create-nitro-module",
     "pinecone-io/pinecone-mcp",
+    "rstackjs/rsbuild-plugin-template",
     "Sec-ant/prettier-plugin-embed",
     "sgcarstrends/sgcarstrends",
     "Shougo/dpp-ext-installer",

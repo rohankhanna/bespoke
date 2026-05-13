@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1474,
+    "components": 1484,
     "concepts": 193,
     "observations": 194,
-    "repos": 121,
+    "repos": 122,
     "terms": 193
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
+    "0x1abin/matter-controller-mcp",
     "0x4139/cosmos-discord-faucet",
     "1000ch/atom-csso",
     "14nrv/serverless-lambda-stripe",

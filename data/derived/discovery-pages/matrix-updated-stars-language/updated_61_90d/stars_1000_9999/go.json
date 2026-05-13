@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 79,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 24,
-    "terms": 92
+    "components": 76,
+    "concepts": 85,
+    "observations": 85,
+    "repos": 23,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "abh/geodns",
-    "avast/retry-go",
     "coder/websocket",
     "dagger/container-use",
     "dghubble/sling",

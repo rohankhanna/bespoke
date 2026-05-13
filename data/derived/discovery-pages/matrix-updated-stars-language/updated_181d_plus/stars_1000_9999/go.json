@@ -3,7 +3,7 @@
     "components": 315,
     "concepts": 632,
     "observations": 632,
-    "repos": 137,
+    "repos": 138,
     "terms": 628
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "0xPolygon/polygon-edge",
     "Adminisme/ServerScan",
@@ -62,6 +62,7 @@
     "divan/expvarmon",
     "dragonflyoss/dragonfly-archived",
     "ericfreese/rat",
+    "favadi/protoc-go-inject-tag",
     "filhodanuvem/gitql",
     "fluxcd/flux",
     "fogleman/gg",

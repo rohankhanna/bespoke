@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 268,
-    "concepts": 288,
-    "observations": 289,
-    "repos": 47,
-    "terms": 291
+    "components": 276,
+    "concepts": 295,
+    "observations": 296,
+    "repos": 48,
+    "terms": 298
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "2noise/ChatTTS",
     "3b1b/videos",
@@ -42,6 +42,7 @@
     "letta-ai/letta",
     "localstack/localstack",
     "microsoft/playwright-python",
+    "mingrammer/diagrams",
     "modelscope/FunASR",
     "openai/gpt-oss",
     "openai/gym",

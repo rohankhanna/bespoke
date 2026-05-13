@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1328,
-    "concepts": 1472,
-    "observations": 1475,
+    "components": 1371,
+    "concepts": 1463,
+    "observations": 1466,
     "repos": 183,
-    "terms": 1460
+    "terms": 1451
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -22,12 +22,14 @@
     "alanxz/rabbitmq-c",
     "AOMediaCodec/libavif",
     "aphrodite-engine/aphrodite-engine",
+    "appium/WebDriverAgent",
     "ARM-software/astc-encoder",
     "ARM-software/ComputeLibrary",
     "avahi/avahi",
     "axboe/liburing",
     "bdwgc/bdwgc",
     "BinomialLLC/basis_universal",
+    "bitcoin-core/secp256k1",
     "Blynk-Technologies/blynk-library",
     "boazsegev/facil.io",
     "boostorg/beast",
@@ -66,7 +68,6 @@
     "google/boringssl",
     "google/gemma.cpp",
     "google/highway",
-    "google/honggfuzz",
     "google/shaderc",
     "google/tcmalloc",
     "google/tensorstore",
@@ -76,6 +77,7 @@
     "herumi/xbyak",
     "HypoPG/hypopg",
     "ibireme/yyjson",
+    "ikawrakow/ik_llama.cpp",
     "infiniflow/infinity",
     "inikep/lzbench",
     "intel/compute-runtime",
@@ -130,7 +132,6 @@
     "ml-explore/mlx-swift",
     "Moddable-OpenSource/moddable",
     "netblue30/firejail",
-    "nihui/opencv-mobile",
     "nihui/waifu2x-ncnn-vulkan",
     "nix-community/nixd",
     "nodejs/node-addon-api",
@@ -186,7 +187,6 @@
     "unum-cloud/USearch",
     "util-linux/util-linux",
     "vectorclass/version2",
-    "vstakhov/libucl",
     "WebAssembly/wasi-libc",
     "webmproject/libwebp",
     "wireshark/wireshark",

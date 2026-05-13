@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 32940,
+    "components": 32953,
     "concepts": 14972,
     "observations": 15027,
-    "repos": 1691,
+    "repos": 1692,
     "terms": 14937
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -1083,6 +1083,7 @@
     "mozilla-mobile/firefox-ios",
     "mozilla/DeepSpeech",
     "mozilla/pdf.js",
+    "mozilla/readability",
     "mozilla/TTS",
     "mpv-player/mpv",
     "Mrs4s/go-cqhttp",

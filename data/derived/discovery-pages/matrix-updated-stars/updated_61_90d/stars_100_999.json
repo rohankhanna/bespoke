@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2632,
-    "concepts": 1581,
-    "observations": 1589,
+    "components": 2635,
+    "concepts": 1569,
+    "observations": 1577,
     "repos": 384,
-    "terms": 1581
+    "terms": 1569
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "2KAbhishek/seeker.nvim",
@@ -84,6 +84,7 @@
     "brentyi/jaxls",
     "BrianPugh/belay",
     "bshall/acoustic-model",
+    "btzy/nativefiledialog-extended",
     "bytedance/Q-Insight",
     "caddyserver/caddy-docker",
     "Calcium-Ion/new-api-horizon",
@@ -262,7 +263,6 @@
     "mindspore-lab/mindnlp",
     "MiniMax-AI/MiniMax-M2.5",
     "mlc-ai/tokenizers-cpp",
-    "MMMU-Benchmark/MMMU",
     "ModelTC/GenRL",
     "mongodb-js/kerberos",
     "MoonshotAI/checkpoint-engine",

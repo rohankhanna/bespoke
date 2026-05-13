@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 49473,
-    "concepts": 34052,
-    "observations": 34156,
-    "repos": 8402,
-    "terms": 33920
+    "components": 49561,
+    "concepts": 34098,
+    "observations": 34202,
+    "repos": 8409,
+    "terms": 33966
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0k/shyaml",
@@ -3659,6 +3659,7 @@
     "haxeui/haxeui-core",
     "haya14busa/is.vim",
     "haydengunraj/COVIDNet-CT",
+    "hayeong0/Diff-HierVC",
     "hazelcast/hazelcast-csharp-client",
     "hazelcast/hazelcast-go-client",
     "hazelcast/hazelcast-nodejs-client",
@@ -4559,6 +4560,7 @@
     "kendryte/nncase",
     "kennethreitz/requests",
     "KentoNishi/torch-pitch-shift",
+    "keonlee9420/DiffSinger",
     "kepano/defuddle-cli",
     "kepano/obsidian-hider",
     "kepano/obsidian-minimal-publish",
@@ -4960,6 +4962,7 @@
     "lmb-freiburg/robustmvd",
     "lmcgartland/graphene-file-upload",
     "lmcinnes/pynndescent",
+    "lmnt-com/diffwave",
     "lmnt-com/wavegrad",
     "lmxyy/sige",
     "lnx-search/rewrk",
@@ -5611,6 +5614,7 @@
     "mono/sdb",
     "MontaEllis/Pytorch-Medical-Segmentation",
     "Mooncake-Labs/moonlink",
+    "MoonInTheRiver/NeuralSVB",
     "MoonshotAI/checkpoint-engine",
     "MorganRO8/Lucys_Labyrinth",
     "morrys/react-relay-offline",
@@ -7040,6 +7044,7 @@
     "SaschaWillems/HowToVulkan",
     "sasha0552/nvidia-pstated",
     "sass/embedded-host-node",
+    "sass/sass-spec",
     "sass/sassc-rails",
     "SassNinja/media-query-plugin",
     "SassNinja/postcss-extract-media-query",
@@ -7573,6 +7578,7 @@
     "teelinsan/camoscio",
     "tegusi/EAGRNet",
     "tekumara/typos-lsp",
+    "TEN-framework/ten-turn-detection",
     "Tencent-Hunyuan/flex-block-attn",
     "TencentARC/MasaCtrl",
     "TencentARC/SEED-Story",
@@ -8403,6 +8409,7 @@
     "zlzeng/DeepFloorplan",
     "zone-eu/zone-mta",
     "zonyitoo/rust-ini",
+    "Zoo-Code-Org/Zoo-Code",
     "zopefoundation/RestrictedPython",
     "ZPdesu/II2S",
     "zsef123/Connected_components_PyTorch",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 265,
-    "concepts": 394,
-    "observations": 394,
-    "repos": 93,
-    "terms": 391
+    "concepts": 377,
+    "observations": 377,
+    "repos": 92,
+    "terms": 374
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "absadiki/pywhispercpp",
     "actionless/pikaur",
@@ -66,7 +66,6 @@
     "magic-wormhole/magic-wormhole-transit-relay",
     "mgaitan/sphinxcontrib-mermaid",
     "mindspore-lab/mindnlp",
-    "MMMU-Benchmark/MMMU",
     "ModelTC/GenRL",
     "MoonshotAI/checkpoint-engine",
     "mr-fatalyst/fastopenapi",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1125,
-    "concepts": 5207,
-    "observations": 5211,
-    "repos": 1766,
-    "terms": 5056
+    "concepts": 5254,
+    "observations": 5258,
+    "repos": 1771,
+    "terms": 5103
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -741,6 +741,7 @@
     "hauntsaninja/no_implicit_optional",
     "HavenFeng/photometric_optimization",
     "HavenFeng/TRUST",
+    "hayeong0/Diff-HierVC",
     "HazyResearch/based",
     "HazyResearch/lolcats",
     "HCIILAB/Scene-Text-Recognition-Recommendations",
@@ -803,6 +804,7 @@
     "HVision-NKU/CamoFormer",
     "HVision-NKU/SRFormer",
     "hysts/anime-face-detector",
+    "IAAR-Shanghai/xFinder",
     "IamCreateAI/Ruyi-Models",
     "ibaiGorordo/ONNX-SAM2-Segment-Anything",
     "IBM/CrossViT",
@@ -954,6 +956,7 @@
     "kelvinxu/arctic-captions",
     "kennethreitz/requests",
     "KentoNishi/torch-pitch-shift",
+    "keonlee9420/DiffSinger",
     "kevinzakka/ibc",
     "kevinzakka/obj2mjcf",
     "khanrc/tcl",
@@ -1033,6 +1036,7 @@
     "lldacing/ComfyUI_PuLID_Flux_ll",
     "lmb-freiburg/robustmvd",
     "lmcgartland/graphene-file-upload",
+    "lmnt-com/diffwave",
     "lmnt-com/wavegrad",
     "lmxyy/sige",
     "locuslab/deq",
@@ -1182,6 +1186,7 @@
     "modelscope/Nexus-Gen",
     "modelscope/scepter",
     "ModelTC/MQBench",
+    "MoonInTheRiver/NeuralSVB",
     "motional/nuplan-devkit",
     "MotrixLab/MotionDiffuse",
     "Mountchicken/Efficient-Deep-Learning",

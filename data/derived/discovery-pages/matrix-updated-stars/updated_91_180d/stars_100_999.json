@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 3544,
-    "concepts": 2702,
-    "observations": 2707,
-    "repos": 684,
-    "terms": 2693
+    "concepts": 2708,
+    "observations": 2713,
+    "repos": 685,
+    "terms": 2699
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "0k/shyaml",
     "10up/action-wordpress-plugin-asset-update",
@@ -314,7 +314,6 @@
     "hustvl/DiffusionDriveV2",
     "hyperbrew/bolt-cep",
     "hzwer/Practical-RIFE",
-    "IAAR-Shanghai/xFinder",
     "IBM/FfDL",
     "IceClear/SeedVR2",
     "igor-makarov/xcake",
@@ -452,6 +451,7 @@
     "mit-han-lab/Block-Sparse-Attention",
     "mit-han-lab/flash-moba",
     "MME-Benchmarks/Video-MME",
+    "MMMU-Benchmark/MMMU",
     "MontaEllis/Pytorch-Medical-Segmentation",
     "morrys/react-relay-offline",
     "Mountchicken/Resophy",
@@ -626,6 +626,7 @@
     "takari/polyglot-maven",
     "TanStack/ranger",
     "taoensso/telemere",
+    "TEN-framework/ten-turn-detection",
     "Tencent-Hunyuan/flex-block-attn",
     "TencentCloudADP/youtu-vl",
     "terraform-aws-modules/terraform-aws-apigateway-v2",

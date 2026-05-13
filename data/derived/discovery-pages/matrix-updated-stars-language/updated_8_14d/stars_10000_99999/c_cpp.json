@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 408,
-    "concepts": 436,
-    "observations": 436,
-    "repos": 38,
-    "terms": 433
+    "components": 383,
+    "concepts": 421,
+    "observations": 421,
+    "repos": 36,
+    "terms": 418
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "apache/thrift",
     "assimp/assimp",
@@ -31,7 +31,6 @@
     "google-deepmind/mujoco",
     "h2o/h2o",
     "ImageMagick/ImageMagick",
-    "iovisor/bcc",
     "jemalloc/jemalloc",
     "jqlang/jq",
     "jrouwe/JoltPhysics",
@@ -50,7 +49,6 @@
     "simdjson/simdjson",
     "v8/v8",
     "winsiderss/systeminformer",
-    "yhirose/cpp-httplib",
     "Z3Prover/z3"
   ]
 }

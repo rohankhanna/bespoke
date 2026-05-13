@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 229,
-    "concepts": 206,
-    "observations": 207,
-    "repos": 35,
-    "terms": 206
+    "components": 222,
+    "concepts": 203,
+    "observations": 204,
+    "repos": 34,
+    "terms": 203
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "Agnuxo1/CAJAL",
@@ -30,7 +30,6 @@
     "HDFGroup/hdf5_plugins",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "honwen/openwrt-dnsmasq-extra",
-    "influxdata/datafusion-udf-wasm",
     "intel-staging/text-generation-webui",
     "ipdxco/github-as-code",
     "jelly-beam/rebar3_ex_doc",

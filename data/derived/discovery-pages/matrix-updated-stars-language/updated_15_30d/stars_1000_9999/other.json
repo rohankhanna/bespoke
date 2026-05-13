@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2359,
-    "concepts": 2132,
-    "observations": 2140,
-    "repos": 308,
-    "terms": 2114
+    "components": 2388,
+    "concepts": 2195,
+    "observations": 2206,
+    "repos": 311,
+    "terms": 2177
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -75,7 +75,6 @@
     "company-mode/company-mode",
     "connectbot/connectbot",
     "ControlzEx/ControlzEx",
-    "cosmos/ibc",
     "coursier/coursier",
     "cpisciotta/xcbeautify",
     "crewAIInc/crewAI-examples",
@@ -107,6 +106,7 @@
     "dotnet/dotnet",
     "dotnet/extensions",
     "dotnet/fsharp",
+    "dotnet/msbuild",
     "dotnet/samples",
     "dotnet/sdk",
     "dotnet/sourcelink",
@@ -162,6 +162,7 @@
     "idris-lang/Idris2",
     "jeremyevans/roda",
     "jeremyevans/sequel",
+    "JetBrains/intellij-platform-plugin-template",
     "JLLeitschuh/ktlint-gradle",
     "jmhobbs/cultofthepartyparrot.com",
     "john-rocky/CoreML-Models",
@@ -175,6 +176,7 @@
     "JuliaPy/PythonCall.jl",
     "junegunn/seoul256.vim",
     "k2-fsa/k2",
+    "karafka/karafka",
     "KhronosGroup/glTF",
     "knative/docs",
     "Kotlin/KEEP",
@@ -307,6 +309,7 @@
     "timholy/Revise.jl",
     "topfunky/gruff",
     "tweag/ormolu",
+    "undreamai/LLMUnity",
     "unslothai/notebooks",
     "vim-test/vim-test",
     "vim/vim-win32-installer",

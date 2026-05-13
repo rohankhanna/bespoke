@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1419,
-    "concepts": 730,
-    "observations": 731,
-    "repos": 198,
-    "terms": 715
+    "components": 1422,
+    "concepts": 732,
+    "observations": 733,
+    "repos": 199,
+    "terms": 717
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "1sh1ro/liangxi-skills",
@@ -128,6 +128,7 @@
     "flagos-ai/llvm-project",
     "forcedotcom/dev-config",
     "gaoyifan/bgptools",
+    "gkr-bot/gkr-bot",
     "gmberton/gmberton.github.io",
     "gost-dom/shaman",
     "graphql/community-wg",

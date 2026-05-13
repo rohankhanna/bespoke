@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 280,
-    "concepts": 96,
-    "observations": 96,
-    "repos": 81,
-    "terms": 96
+    "components": 273,
+    "concepts": 94,
+    "observations": 94,
+    "repos": 80,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "1000ch/Sublime-csso",
     "abap2UI5-addons/popups",
@@ -81,7 +81,6 @@
     "maeste/a2a-tck",
     "Mountchicken/Mountchicken",
     "mudler/vulkan-sdk-arm",
-    "openobserve/promql-parser",
     "openwdl/governance",
     "praw-dev/.github",
     "prestodb/presto-dev",

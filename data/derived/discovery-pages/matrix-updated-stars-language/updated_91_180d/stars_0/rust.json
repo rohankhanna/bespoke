@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 67,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 11,
-    "terms": 24
+    "components": 60,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 10,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "bgw/bincode",
     "databendlabs/iceberg-rust",
@@ -23,7 +23,6 @@
     "EspressoSystems/jellyfish-compat",
     "Keats/os_info",
     "KSXGitHub/personal-crates",
-    "kylebarron/pyo3-file",
-    "openobserve/promql-parser"
+    "kylebarron/pyo3-file"
   ]
 }

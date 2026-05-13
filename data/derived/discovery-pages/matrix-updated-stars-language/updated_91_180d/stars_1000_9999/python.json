@@ -3,7 +3,7 @@
     "components": 354,
     "concepts": 698,
     "observations": 699,
-    "repos": 147,
+    "repos": 148,
     "terms": 688
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "AIDC-AI/Ovis",
     "AILab-CVC/VideoCrafter",
@@ -122,6 +122,7 @@
     "Paper2Poster/Paper2Poster",
     "paulocoutinhox/pdfium-lib",
     "Phantom-video/HuMo",
+    "pipecat-ai/smart-turn",
     "PKU-Alignment/safe-rlhf",
     "PKU-YuanGroup/LLaVA-CoT",
     "PRIME-RL/SimpleVLA-RL",

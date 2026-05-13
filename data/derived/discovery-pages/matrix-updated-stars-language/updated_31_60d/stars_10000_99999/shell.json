@@ -3,7 +3,7 @@
     "components": 35,
     "concepts": 69,
     "observations": 69,
-    "repos": 10,
+    "repos": 9,
     "terms": 62
   },
   "facet_version": 1,
@@ -12,14 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "dockur/windows",
     "githubnext/monaspace",
     "lxgw/LxgwWenKai",
     "oh-my-fish/oh-my-fish",
     "rbenv/rbenv",
-    "romkatv/powerlevel10k",
     "sindresorhus/pure",
     "sorin-ionescu/prezto",
     "tj/n",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3157,
-    "concepts": 680,
-    "observations": 680,
-    "repos": 117,
-    "terms": 729
+    "components": 3256,
+    "concepts": 714,
+    "observations": 714,
+    "repos": 123,
+    "terms": 763
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
@@ -52,6 +52,7 @@
     "EclipseFdn/open-vsx.org",
     "elizaos/elizaos.github.io",
     "evmts/tevm-monorepo",
+    "flathub-infra/website",
     "forcedotcom/code-analyzer",
     "fsouza/prettierd",
     "fullcalendar/temporal-polyfill",
@@ -85,6 +86,7 @@
     "marmelab/FakeRest",
     "matepek/vscode-catch2-test-adapter",
     "MetaCubeX/Yacd-meta",
+    "microsoft/ai-chat-protocol",
     "microsoft/DefinitelyTyped-tools",
     "microsoft/playwright-vscode",
     "microsoft/react-native-gallery",
@@ -92,6 +94,8 @@
     "microsoft/TypeScript-DOM-lib-generator",
     "microsoft/vscode-css-languageservice",
     "microsoft/vscode-java-debug",
+    "milvus-io/milvus-sdk-node",
+    "mmkal/expect-type",
     "mskelton/eslint-plugin-playwright",
     "napi-rs/package-template",
     "nene/prettier-plugin-sql-cst",
@@ -99,6 +103,7 @@
     "nothingislost/obsidian-hover-editor",
     "nyatinte/ccexp",
     "oclif/core",
+    "octokit/action.js",
     "octokit/auth-token.js",
     "octokit/plugin-rest-endpoint-methods.js",
     "octokit/request.js",
@@ -126,6 +131,7 @@
     "TabbyML/pochi",
     "tats-u/markdown-cjk-friendly",
     "timkindberg/jest-when",
+    "tinylibs/tinyexec",
     "tombii/better-ccflare",
     "tony1223/better-agent-terminal",
     "typed-ember/glint",

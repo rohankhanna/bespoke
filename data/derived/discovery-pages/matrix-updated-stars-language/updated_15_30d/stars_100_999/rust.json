@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1220,
-    "concepts": 815,
-    "observations": 823,
-    "repos": 153,
-    "terms": 816
+    "components": 1200,
+    "concepts": 808,
+    "observations": 816,
+    "repos": 151,
+    "terms": 809
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -50,7 +50,6 @@
     "ComunidadAylas/PackSquash",
     "containers/aardvark-dns",
     "containers/netavark",
-    "cosmos/ics23",
     "crate-ci/committed",
     "crisidev/bacon-ls",
     "criterion-rs/criterion.rs",
@@ -130,7 +129,6 @@
     "rust-bitcoin/rust-miniscript",
     "rust-lang/bors",
     "rust-lang/compiler-builtins",
-    "rust-lang/libz-sys",
     "rust-lang/pkg-config-rs",
     "rust-lang/rustc-perf",
     "rust-lang/rustwide",

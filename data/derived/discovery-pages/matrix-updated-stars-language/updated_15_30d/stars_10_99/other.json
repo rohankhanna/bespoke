@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1395,
-    "concepts": 791,
-    "observations": 791,
-    "repos": 205,
-    "terms": 795
+    "components": 1423,
+    "concepts": 818,
+    "observations": 818,
+    "repos": 209,
+    "terms": 822
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "3rd/config",
     "abap2UI5/samples",
+    "abarisani/abarisani.github.io",
     "abe-101/myHebrewDates",
     "AdaCore/gnatcoll-core",
     "AdaCore/langkit",
@@ -56,6 +57,7 @@
     "cjdoris/PreferenceTools.jl",
     "ClementPinard/FlowNetTorch",
     "cloudfoundry/bosh-azure-cpi-release",
+    "cloudfoundry/capi-release",
     "connectbot/termlib",
     "dart-lang/core",
     "dart-lang/ecosystem",
@@ -131,10 +133,12 @@
     "JustusAdam/language-haskell",
     "kahliburke/Kaimon.jl",
     "Kaiede/Bedrockifier",
+    "karafka/karafka-web",
     "kata-containers/www.katacontainers.io",
     "kendryte/k230_canmv_docs",
     "leandrocp/req_embed",
     "lewis6991/async.nvim",
+    "localstack/localstack-cli",
     "logseq/og",
     "luau-lang/site",
     "lxqt/lxqt-build-tools",
@@ -144,7 +148,6 @@
     "mirage/colombe",
     "mirage/mrmime",
     "mirage/ocaml-dkim",
-    "mirage/ptt",
     "mirage/uspf",
     "mmark-md/mmark-cli",
     "mmllr/neotest-swift-testing",
@@ -170,6 +173,7 @@
     "php-toolkit/cli-utils",
     "php-toolkit/pflag",
     "php/doc-ja",
+    "php/phd",
     "PKU-YuanGroup/Helios-Page",
     "plotly/graphing-library-docs",
     "pq-code-package/mldsa-native",

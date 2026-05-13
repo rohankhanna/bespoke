@@ -3,7 +3,7 @@
     "components": 501,
     "concepts": 319,
     "observations": 322,
-    "repos": 54,
+    "repos": 55,
     "terms": 326
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -54,6 +54,7 @@
     "pugjs/pug",
     "QwenLM/Qwen",
     "QwenLM/Qwen-Agent",
+    "romkatv/powerlevel10k",
     "rubocop/ruby-style-guide",
     "serde-rs/serde",
     "sharkdp/hyperfine",

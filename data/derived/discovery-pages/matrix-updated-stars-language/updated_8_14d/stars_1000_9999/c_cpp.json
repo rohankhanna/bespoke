@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 924,
-    "concepts": 854,
-    "observations": 855,
-    "repos": 99,
-    "terms": 847
+    "components": 885,
+    "concepts": 853,
+    "observations": 854,
+    "repos": 97,
+    "terms": 846
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
@@ -20,12 +20,10 @@
     "ai-dynamo/nixl",
     "Andersbakken/rtags",
     "apache/age",
-    "appium/WebDriverAgent",
     "arkime/arkime",
     "async-profiler/async-profiler",
     "autowarefoundation/autoware_universe",
     "aws/aws-sdk-cpp",
-    "bitcoin-core/secp256k1",
     "brave/brave-core",
     "BYVoid/OpenCC",
     "cdcseacave/openMVS",
@@ -56,7 +54,6 @@
     "haproxy/haproxy",
     "heiher/hev-socks5-tunnel",
     "htop-dev/htop",
-    "ikawrakow/ik_llama.cpp",
     "intel/pcm",
     "iree-org/iree",
     "ispc/ispc",
@@ -78,6 +75,7 @@
     "miniupnp/miniupnp",
     "mkazhdan/PoissonRecon",
     "mruby/mruby",
+    "mstorsjo/llvm-mingw",
     "NetHack/NetHack",
     "NVIDIA/DALI",
     "onnxsim/onnxsim",

@@ -1,18 +1,19 @@
 {
   "counts": {
-    "components": 127,
-    "concepts": 48,
-    "observations": 48,
+    "components": 130,
+    "concepts": 50,
+    "observations": 50,
     "repos": 42,
-    "terms": 48
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
+    "06ketan/substack-ops",
     "aidenlab/spacewalk",
     "aidenlab/swtool",
     "angular/angular-build-builds",
@@ -37,7 +38,6 @@
     "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
     "danielrosehill/Claude-Hardware-Spec-Assembly-Plugin",
     "danielrosehill/Claude-Hopper",
-    "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
     "danielrosehill/Claude-Keyboard-Scanner",
     "danielrosehill/Claude-License-Populator-Plugin",
     "danielrosehill/Claude-Linux-AV-Manager-Plugin",

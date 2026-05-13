@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 114,
-    "concepts": 142,
-    "observations": 142,
-    "repos": 19,
-    "terms": 135
+    "components": 120,
+    "concepts": 151,
+    "observations": 151,
+    "repos": 20,
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
+    "aristocratos/btop",
     "bellard/quickjs",
     "cloudwu/skynet",
     "deepseek-ai/FlashMLA",

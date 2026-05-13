@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1226,
-    "concepts": 880,
-    "observations": 884,
-    "repos": 96,
-    "terms": 879
+    "components": 1249,
+    "concepts": 923,
+    "observations": 928,
+    "repos": 99,
+    "terms": 922
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "abpframework/abp",
     "adambard/learnxinyminutes-docs",
@@ -29,7 +29,9 @@
     "aws/amazon-sagemaker-examples",
     "Azure/azure-quickstart-templates",
     "bitcoin/bips",
+    "Blinue/Magpie",
     "cmderdev/cmder",
+    "coil-kt/coil",
     "composer/composer",
     "Cysharp/UniTask",
     "cython/cython",
@@ -109,6 +111,7 @@
     "topjohnwu/Magisk",
     "vim-airline/vim-airline",
     "vim/vim",
-    "winsw/winsw"
+    "winsw/winsw",
+    "xmake-io/xmake"
   ]
 }

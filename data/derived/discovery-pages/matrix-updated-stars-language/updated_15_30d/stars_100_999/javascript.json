@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2107,
-    "concepts": 491,
-    "observations": 499,
-    "repos": 100,
-    "terms": 512
+    "components": 2262,
+    "concepts": 503,
+    "observations": 511,
+    "repos": 103,
+    "terms": 524
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,21 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
     "actions/hello-world-javascript-action",
     "adamlui/ai-web-extensions",
     "AdguardTeam/HostlistCompiler",
+    "AdguardTeam/Scriptlets",
     "agent-sh/agentsys",
     "anonrig/fast-querystring",
     "apache/incubator-seata-website",
     "appium/appium-ios-device",
     "aredridel/node-bin-gen",
     "auth0/node-jws",
+    "avoidwork/tiny-lru",
     "aws/aws-cdk-rfcs",
     "bcomnes/npm-run-all2",
     "bmad-code-org/bmad-module-game-dev-studio",
@@ -41,10 +43,10 @@
     "CVEProject/cve-services",
     "DavidAnson/markdownlint-cli2",
     "dequelabs/axe-core-npm",
-    "devsnek/esvu",
     "dperini/nwsapi",
     "dydxprotocol/v4-clients",
     "eladnava/pikud-haoref-api",
+    "electerm/electerm-web",
     "electron/node-abi",
     "emberjs/ember-qunit",
     "eslint-community/eslint-plugin-n",
@@ -58,6 +60,7 @@
     "graphql/graphql-wg",
     "gruntjs/grunt-contrib-qunit",
     "higlass/higlass",
+    "hudochenkov/postcss-sorting",
     "hyparam/icebird",
     "i18next/i18next-browser-languageDetector",
     "i18next/i18next-fs-backend",

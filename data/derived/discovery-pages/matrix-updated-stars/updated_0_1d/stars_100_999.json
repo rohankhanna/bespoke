@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 351,
-    "concepts": 202,
-    "observations": 202,
-    "repos": 33,
-    "terms": 202
+    "components": 466,
+    "concepts": 237,
+    "observations": 237,
+    "repos": 36,
+    "terms": 237
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "a2aproject/a2a-js",
@@ -27,7 +27,8 @@
     "digitalocean/openapi",
     "dwyl/quotes",
     "eclipse-lsp4j/lsp4j",
-    "elixir-protobuf/protobuf",
+    "eclipse-wildwebdeveloper/wildwebdeveloper",
+    "electron/packager",
     "EmmyLuaLs/emmylua-analyzer-rust",
     "flagos-ai/FlagCX",
     "fluent-vue/fluent-vue",
@@ -36,7 +37,9 @@
     "git-friendly/git-friendly",
     "GoogleCloudPlatform/google-cloud-node-todos",
     "googlefonts/roboto-3-classic",
+    "kurrent-io/KurrentDB-Client-Dotnet",
     "ldproxy/ldproxy",
+    "mightyiam/eslint-config-love",
     "OpenHands/ToM-SWE",
     "rescript-lang/reanalyze",
     "ROCm/hipBLASLt",
@@ -45,6 +48,6 @@
     "skilld-dev/skilld",
     "SpecterOps/AzureHound",
     "spring-projects/spring-tools",
-    "unplugin/unplugin-imagemin"
+    "Zoo-Code-Org/Zoo-Code"
   ]
 }

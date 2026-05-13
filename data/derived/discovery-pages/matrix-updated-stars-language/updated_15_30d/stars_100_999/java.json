@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 322,
-    "concepts": 340,
-    "observations": 340,
-    "repos": 46,
-    "terms": 338
+    "components": 334,
+    "concepts": 373,
+    "observations": 373,
+    "repos": 47,
+    "terms": 371
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
     "apache/commons-jexl",
     "apache/datasketches-java",
     "apache/ignite-3",
+    "apache/rocketmq-clients",
     "beehive-lab/GPULlama3.java",
     "bndtools/bnd",
     "carrot2/carrot2",
     "connectbot/sshlib",
     "Cosium/git-code-format-maven-plugin",
+    "devoxx/DevoxxGenieIDEAPlugin",
     "eclipse-lemminx/lemminx",
     "fabmax/physx-jni",
     "FasterXML/jackson-dataformat-xml",
@@ -47,7 +49,6 @@
     "microsoft/semantic-kernel-java",
     "microsoft/vscode-java-test",
     "milvus-io/milvus-sdk-java",
-    "mockingbot/react-native-zip-archive",
     "quarkiverse/quarkus-langchain4j",
     "reactor/reactor-addons",
     "revelc/formatter-maven-plugin",

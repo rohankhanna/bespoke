@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 36,
-    "observations": 36,
-    "repos": 10,
-    "terms": 36
+    "components": 33,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 9,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "Ayaginu-Sue/Astalia",
     "cbuijs/hagezi",
@@ -20,7 +20,6 @@
     "microsoft/microsoft-foundry-for-vscode",
     "NightWatcher314/zotero-pdf2zh-server",
     "sakib-m/Pi-hole-Torrent-Blocklist",
-    "sigstore/root-signing-staging",
     "spiffe/spire-examples",
     "standardrb/standard-ruby-action",
     "universal-ctags/ctags-nightly-build"

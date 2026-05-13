@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1550,
-    "concepts": 839,
-    "observations": 840,
-    "repos": 286,
-    "terms": 831
+    "components": 1599,
+    "concepts": 843,
+    "observations": 844,
+    "repos": 287,
+    "terms": 835
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2KAbhishek/exercism.nvim",
@@ -118,7 +118,6 @@
     "Cykooz/libheif-sys",
     "dacap/observable",
     "dannyhw/react-native-storybook-starter",
-    "datajuicer/data-juicer-hub",
     "DavidKinder/Windows-Glulxe",
     "dbuenzli/logs",
     "DeanoC/tiny_imageformat",
@@ -171,6 +170,7 @@
     "hedronvision/bazel-make-cc-https-easy",
     "hicchicc/x8y12pxDenkiChip",
     "holochain/hc-spin",
+    "HoneyLuka/uBlacklist",
     "hsimpson/vscode-glsllint",
     "huggingface/image_gen_aux",
     "Humans-of-Julia/StaticWebPages.jl",
@@ -267,6 +267,7 @@
     "SchwarzIT/spectral-intellij-plugin",
     "seaweedfs/seaweedfs-cosi-driver",
     "ServiceNow/webarena-verified",
+    "Shougo/ddu-filter-matcher_substring",
     "Shougo/ddu-kind-file",
     "sigp/ethereum_hashing",
     "smithy-lang/smithy-gradle-plugin",

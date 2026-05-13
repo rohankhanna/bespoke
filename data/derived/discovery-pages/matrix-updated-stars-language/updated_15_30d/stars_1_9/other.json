@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 248,
-    "concepts": 166,
-    "observations": 166,
-    "repos": 68,
-    "terms": 166
+    "concepts": 167,
+    "observations": 167,
+    "repos": 71,
+    "terms": 167
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,19 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "0xPolygonHermez/stark-recurser",
     "actboy168/ltest",
+    "aimeos/ai-monolog",
     "ankane/seaduck",
     "apache/netbeans-antora-ui",
     "appsignal/appsignal-elixir-plug",
     "b-data/jupyterlab-julia-docker-stack",
     "b-data/jupyterlab-mojo-docker-stack",
     "beeware/beeware-docs-tools",
+    "bennyyip/dot-vim",
     "bladeacer/obsi-snip-coll",
     "Blosc/blogsite",
     "cake-contrib/Cake.Markdownlint",
@@ -63,6 +65,7 @@
     "KnotUntied/scoop-fonts",
     "lahma/test262-harness-dotnet",
     "lemire/unicode_lipsum",
+    "localstack/homebrew-tap",
     "Mbed-TLS/mbedtls-test",
     "mitchuski/agentprivacy-docs",
     "mozilla-mobile/fxios-ctl",

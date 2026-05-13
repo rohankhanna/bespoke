@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 28094,
-    "concepts": 14878,
-    "observations": 14928,
-    "repos": 5387,
-    "terms": 14882
+    "components": 28105,
+    "concepts": 14884,
+    "observations": 14934,
+    "repos": 5390,
+    "terms": 14888
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-05-13T05:48:18.537624+00:00",
+  "generated_at": "2026-05-13T09:51:37.391093+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -26,6 +26,7 @@
     "0xc0000054/libheif-sharp-samples",
     "0xC0000054/pdn-ddsfiletype-plus",
     "0xcafed00d/joystick",
+    "0xDAEF0F/job-searchoor",
     "0xJohnnyboy/scretch.nvim",
     "0xNyk/openclaw-to-hermes",
     "0xPlaygrounds/rig-onchain-kit",
@@ -4700,6 +4701,7 @@
     "shovel-org/Windows-Sysinternals-Bucket",
     "shreyashankar/spade-experiments",
     "sideprotocol/ibcswap",
+    "sidlatau/neotest-dart",
     "signalfx/opentelemetry-demo",
     "Significant-Gravitas/gravitasml",
     "sigp/ethereum_hashing",
@@ -5047,7 +5049,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",
@@ -5163,6 +5165,7 @@
     "vim-denops/denops-helloworld.vim",
     "vim-denops/denops-shared-server.vim",
     "vim-fall/fall.vim",
+    "Vimjas/vim-testbed",
     "vincentbernat/vbeterm",
     "vincentlaucsb/experiencer",
     "Vinhixus/TornadoVM-Ray-Tracer",
