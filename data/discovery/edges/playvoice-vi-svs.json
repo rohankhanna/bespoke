@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "maxmax2016/vi-svs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "nvidia/bigvgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "mindslab-ai/univnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "hayeong0/diff-hiervc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "diffsinger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "opencpop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "singing-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "singing-voice-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "visinger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "vits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "vits-svs",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-13T00:41:47.952744+00:00",
+  "source_repo": "PlayVoice/VI-SVS"
+}

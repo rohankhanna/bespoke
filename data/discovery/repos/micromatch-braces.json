@@ -206,7 +206,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T07:31:15.668670+00:00",
+  "fetched_at": "2026-05-13T02:05:20.853947+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -231,7 +231,7 @@
     "html_url": "https://github.com/micromatch/braces",
     "language": "JavaScript",
     "pushed_at": "2025-01-19T20:06:12Z",
-    "stargazers_count": 247,
+    "stargazers_count": 248,
     "topics": [
       "brace-expansion",
       "brace-matching",
@@ -250,7 +250,7 @@
       "regular-expression",
       "tidelift"
     ],
-    "updated_at": "2026-05-10T15:20:24Z"
+    "updated_at": "2026-05-12T12:03:53Z"
   },
   "repo_links": [
     {

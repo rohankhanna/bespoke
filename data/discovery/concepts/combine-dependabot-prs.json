@@ -55,6 +55,18 @@
       "source_repo": "spacemeshos/smapp",
       "status": "candidate-context",
       "text": "\"Combine Dependabot PRs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jasonlong/isometric-contributions",
+      "status": "candidate-context",
+      "text": "Browser extension for rendering an isometric pixel art version of your GitHub contribution graph."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasonlong/isometric-contributions",
+      "status": "candidate-context",
+      "text": "'Combine Dependabot PRs'"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "spacemeshos/smapp",
       "status": "candidate",
       "text": "\"Combine Dependabot PRs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasonlong/isometric-contributions",
+      "status": "candidate",
+      "text": "'Combine Dependabot PRs'"
     }
   ],
   "candidate_related_terms": [
@@ -202,11 +220,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/combine.yml",
       "source_repo": "cargo-generate/cargo-generate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/combinedabot.yml",
+      "source_repo": "jasonlong/isometric-contributions"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "lexical_providers": [
     "datamuse"
   ],

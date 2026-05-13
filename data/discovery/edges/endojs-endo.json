@@ -256,7 +256,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/browser-test.yml",
       "source_repo": "endojs/endo",
-      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -284,14 +284,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "endojs/endo",
-      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "endojs/endo",
-      "target": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "target": "dorny/paths-filter@d1c1ffe0248fe513906c8e24db8ea791d46f8590",
       "target_type": "component"
     },
     {
@@ -319,7 +319,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/depcheck.yml",
       "source_repo": "endojs/endo",
-      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -340,7 +340,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ocapn-guile-interop.yml",
       "source_repo": "endojs/endo",
-      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -375,14 +375,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "endojs/endo",
-      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "endojs/endo",
-      "target": "changesets/action@c48e67d110a68bc90ccf1098e9646092baacaa87",
+      "target": "changesets/action@63a615b9cd06ba9a3e6d13796c7fbcb080a60a0b",
       "target_type": "component"
     },
     {
@@ -438,14 +438,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-action-pins-major.yml",
       "source_repo": "endojs/endo",
-      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-action-pins-major.yml",
       "source_repo": "endojs/endo",
-      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
       "target_type": "component"
     },
     {
@@ -526,6 +526,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-12T18:45:33.862672+00:00",
+  "generated_at": "2026-05-13T00:41:47.952744+00:00",
   "source_repo": "endojs/endo"
 }

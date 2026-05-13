@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -1516,6 +1516,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "nvim-java/nvim-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "shunsambongi/neotest-testthat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "JavaHello/spring-boot.nvim"
     }
   ],
   "term": "neovim"

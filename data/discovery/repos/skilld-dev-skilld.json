@@ -36,6 +36,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "hookable",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "jsonc-parser",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
@@ -266,6 +271,13 @@
       "source_file": "package.json",
       "source_repo": "skilld-dev/skilld",
       "target": "giget",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "skilld-dev/skilld",
+      "target": "hookable",
       "target_type": "component"
     },
     {
@@ -528,7 +540,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T01:56:24.003518+00:00",
+  "fetched_at": "2026-05-13T01:02:33.202070+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -536,7 +548,7 @@
     },
     {
       "path": "package.json",
-      "size": 2638
+      "size": 2666
     },
     {
       "path": ".github/workflows/release.yml",
@@ -556,10 +568,10 @@
     "full_name": "skilld-dev/skilld",
     "html_url": "https://github.com/skilld-dev/skilld",
     "language": "TypeScript",
-    "pushed_at": "2026-05-07T05:37:44Z",
-    "stargazers_count": 269,
+    "pushed_at": "2026-05-12T16:21:50Z",
+    "stargazers_count": 270,
     "topics": [],
-    "updated_at": "2026-05-11T18:56:09Z"
+    "updated_at": "2026-05-12T17:00:27Z"
   },
   "repo_links": [
     {

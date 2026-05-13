@@ -266,11 +266,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "@lobechat/builtin-tool-gtd",
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "@lobechat/builtin-tool-knowledge-base",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
@@ -1936,6 +1931,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lobehub/lobehub",
+      "target": "actions/workflows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobehub",
       "target": "lobehub/lobe-commit",
       "target_type": "repository"
     },
@@ -2308,13 +2310,6 @@
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
       "target": "@lobechat/builtin-tool-group-management",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "lobehub/lobehub",
-      "target": "@lobechat/builtin-tool-gtd",
       "target_type": "component"
     },
     {
@@ -4733,7 +4728,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T01:47:01.269003+00:00",
+  "fetched_at": "2026-05-13T03:12:33.744333+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -4745,7 +4740,7 @@
     },
     {
       "path": "package.json",
-      "size": 22830
+      "size": 22780
     },
     {
       "path": ".github/workflows/auto-i18n.yml",
@@ -4785,8 +4780,8 @@
     "full_name": "lobehub/lobehub",
     "html_url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
-    "pushed_at": "2026-05-12T01:01:50Z",
-    "stargazers_count": 76867,
+    "pushed_at": "2026-05-13T03:06:23Z",
+    "stargazers_count": 76941,
     "topics": [
       "agent",
       "agent-collaboration",
@@ -4801,9 +4796,14 @@
       "mcp",
       "openai"
     ],
-    "updated_at": "2026-05-12T01:37:07Z"
+    "updated_at": "2026-05-13T02:51:52Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "actions/workflows",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "lobehub/lobe-commit",

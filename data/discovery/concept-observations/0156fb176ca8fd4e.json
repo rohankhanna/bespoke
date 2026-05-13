@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Browser extension for rendering an isometric pixel art version of your GitHub contribution graph."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Extension Health Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Extension Health Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33829,
+      "status": "candidate",
+      "text": "medical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33829,
+      "status": "candidate",
+      "text": "revision"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26156,
+      "status": "candidate",
+      "text": "examine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25756,
+      "status": "candidate",
+      "text": "medicare check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25756,
+      "status": "candidate",
+      "text": "medicare payment"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Extension Health Check",
+      "sense_id": "extension-health-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "extension-health-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "extension-health-check",
+  "observation_id": "0156fb176ca8fd4e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-13T00:41:47.952744+00:00",
+  "observed_text": "Extension Health Check",
+  "source_context_snippet": "Extension Health Check",
+  "source_file": ".github/workflows/extension-health-check.yml",
+  "source_repo": "jasonlong/isometric-contributions",
+  "source_repo_description": "Browser extension for rendering an isometric pixel art version of your GitHub contribution graph."
+}

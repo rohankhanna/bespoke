@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-13T02:11:05.269345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Linux-System-Optimisation-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Linux-System-Optimisation-Plugin",
+    "language": null,
+    "pushed_at": "2026-05-03T11:06:08Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-05-04T06:05:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

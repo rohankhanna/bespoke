@@ -91,6 +91,18 @@
       "source_repo": "g-plane/markup_fmt",
       "status": "candidate-context",
       "text": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "g-plane/pretty_jinja",
+      "status": "candidate-context",
+      "text": "Jinja expressions and statements formatter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-plane/pretty_jinja",
+      "status": "candidate-context",
+      "text": "Pretty Jinja is a formatter that formats Jinja expressions and statements."
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "g-plane/markup_fmt",
       "status": "candidate",
       "text": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "g-plane/pretty_jinja",
+      "status": "candidate",
+      "text": "Pretty Jinja is a formatter that formats Jinja expressions and statements."
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +208,17 @@
       "observed_at": "2026-05-12T07:08:14.758954+00:00",
       "source_file": null,
       "source_repo": "g-plane/markup_fmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "g-plane/pretty_jinja"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "lexical_providers": [
     "datamuse"
   ],

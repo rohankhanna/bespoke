@@ -228,7 +228,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T07:23:04.693143+00:00",
+  "fetched_at": "2026-05-13T01:57:09.767970+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -257,7 +257,7 @@
     "html_url": "https://github.com/gitleaks/gitleaks-action",
     "language": "JavaScript",
     "pushed_at": "2026-05-05T18:59:46Z",
-    "stargazers_count": 578,
+    "stargazers_count": 579,
     "topics": [
       "action",
       "actions",
@@ -271,7 +271,7 @@
       "security-tools",
       "static-analysis"
     ],
-    "updated_at": "2026-05-11T13:23:04Z"
+    "updated_at": "2026-05-12T15:49:49Z"
   },
   "repo_links": [
     {

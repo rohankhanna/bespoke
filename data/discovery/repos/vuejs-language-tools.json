@@ -428,7 +428,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T01:55:55.877640+00:00",
+  "fetched_at": "2026-05-13T03:20:26.827871+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -436,7 +436,7 @@
     },
     {
       "path": "package.json",
-      "size": 733
+      "size": 679
     },
     {
       "path": ".github/workflows/auto-fix.yml",
@@ -472,10 +472,10 @@
     "full_name": "vuejs/language-tools",
     "html_url": "https://github.com/vuejs/language-tools",
     "language": "TypeScript",
-    "pushed_at": "2026-05-11T10:55:37Z",
-    "stargazers_count": 6661,
+    "pushed_at": "2026-05-12T21:55:31Z",
+    "stargazers_count": 6662,
     "topics": [],
-    "updated_at": "2026-05-11T10:55:42Z"
+    "updated_at": "2026-05-12T21:48:08Z"
   },
   "repo_links": [],
   "terms": [

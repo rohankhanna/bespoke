@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "obelisk"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jasonlong/isometric-contributions",
+      "status": "candidate-context",
+      "text": "Browser extension for rendering an isometric pixel art version of your GitHub contribution graph."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasonlong/isometric-contributions",
+      "status": "candidate-context",
+      "text": "![Node.js CI](https://github.com/jasonlong/isometric-contributions/workflows/Node.js%20CI/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasonlong/isometric-contributions",
+      "status": "candidate",
+      "text": "![Node.js CI](https://github.com/jasonlong/isometric-contributions/workflows/Node.js%20CI/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39976434,
+      "status": "candidate",
+      "text": "dagger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30015297,
+      "status": "candidate",
+      "text": "needle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048141,
+      "status": "candidate",
+      "text": "monolith"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048140,
+      "status": "candidate",
+      "text": "standing stone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048139,
+      "status": "candidate",
+      "text": "altar stone"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7043,
+      "status": "candidate",
+      "text": "dagger"
+    }
+  ],
+  "canonical_name": "obelisk",
+  "concept_id": "obelisk",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "jasonlong/isometric-contributions"
+    }
+  ],
+  "first_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "obelisk",
+      "sense_id": "obelisk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

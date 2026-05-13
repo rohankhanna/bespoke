@@ -426,11 +426,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T07:12:21.079972+00:00",
+  "fetched_at": "2026-05-13T01:46:28.380579+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 17540
+      "size": 17611
     },
     {
       "path": ".github/workflows/release.binaries.yml",
@@ -458,7 +458,7 @@
     "full_name": "datalevin/datalevin",
     "html_url": "https://github.com/datalevin/datalevin",
     "language": "Clojure",
-    "pushed_at": "2026-05-09T22:38:15Z",
+    "pushed_at": "2026-05-12T22:15:31Z",
     "stargazers_count": 1422,
     "topics": [
       "ai-native",
@@ -470,7 +470,7 @@
       "key-value-store",
       "vector-database"
     ],
-    "updated_at": "2026-05-11T07:26:26Z"
+    "updated_at": "2026-05-12T17:02:52Z"
   },
   "repo_links": [
     {

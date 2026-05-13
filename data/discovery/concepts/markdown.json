@@ -1387,6 +1387,18 @@
       "source_repo": "kepano/defuddle-cli",
       "status": "candidate-context",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kepano/defuddle",
+      "status": "candidate-context",
+      "text": "Get the main content of any page as Markdown."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/defuddle",
+      "status": "candidate-context",
+      "text": "> de\u00b7\u200bfud\u00b7dle /di\u02c8f\u028cdl/ *transitive verb*"
     }
   ],
   "candidate_glosses": [
@@ -2079,6 +2091,12 @@
       "source_repo": "kepano/defuddle-cli",
       "status": "candidate",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/defuddle",
+      "status": "candidate",
+      "text": "> de\u00b7\u200bfud\u00b7dle /di\u02c8f\u028cdl/ *transitive verb*"
     }
   ],
   "candidate_related_terms": [
@@ -3628,11 +3646,41 @@
       "observed_at": "2026-05-12T07:08:14.758954+00:00",
       "source_file": null,
       "source_repo": "kepano/defuddle-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "mixmark-io/turndown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "kepano/defuddle"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "typescript",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-12T18:45:33.862672+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -10712,6 +10712,36 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "kepano/defuddle-cli"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "withastro/prettier-plugin-astro"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "can1357/oh-my-pi"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Kilo-Org/kilocode"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RooCodeInc/Roo-Code"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kepano/defuddle"
     }
   ]
 }

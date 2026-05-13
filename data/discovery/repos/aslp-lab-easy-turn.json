@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ASLP-lab/Easy-Turn",
+      "target": "ten-framework/ten-turn-detection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ASLP-lab/Easy-Turn",
+      "target": "pipecat-ai/smart-turn",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-13T02:12:31.483652+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9129
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open-Source Turn-Taking Detection Model and Dataset for Full-Duplex Spoken Dialogue Systems",
+    "fork": false,
+    "full_name": "ASLP-lab/Easy-Turn",
+    "html_url": "https://github.com/ASLP-lab/Easy-Turn",
+    "language": "Python",
+    "pushed_at": "2026-01-25T08:31:43Z",
+    "stargazers_count": 108,
+    "topics": [],
+    "updated_at": "2026-05-12T15:35:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pipecat-ai/smart-turn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ten-framework/ten-turn-detection",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

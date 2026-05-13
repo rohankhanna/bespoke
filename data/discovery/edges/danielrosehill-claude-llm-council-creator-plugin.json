@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-LLM-Council-Creator-Plugin",
+      "target": "danielrosehill/llm-council-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-LLM-Council-Creator-Plugin",
+      "target": "danielrosehill/llm-council-grounded",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-LLM-Council-Creator-Plugin",
+      "target": "danielrosehill/llm-council-decide",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-13T00:41:47.952744+00:00",
+  "source_repo": "danielrosehill/Claude-LLM-Council-Creator-Plugin"
+}

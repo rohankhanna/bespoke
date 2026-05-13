@@ -1,0 +1,224 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MoonInTheRiver/DiffSinger",
+      "target": "moonintheriver/neuralsvb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MoonInTheRiver/DiffSinger",
+      "target": "natspeech/natspeech",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MoonInTheRiver/DiffSinger",
+      "target": "lmnt-com/diffwave",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MoonInTheRiver/DiffSinger",
+      "target": "keonlee9420/diffsinger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoonInTheRiver/DiffSinger",
+      "target": "aaai2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoonInTheRiver/DiffSinger",
+      "target": "diffusion-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoonInTheRiver/DiffSinger",
+      "target": "diffusion-speedup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoonInTheRiver/DiffSinger",
+      "target": "midi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoonInTheRiver/DiffSinger",
+      "target": "singing-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoonInTheRiver/DiffSinger",
+      "target": "singing-voice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoonInTheRiver/DiffSinger",
+      "target": "singing-voice-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoonInTheRiver/DiffSinger",
+      "target": "singing-voice-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoonInTheRiver/DiffSinger",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MoonInTheRiver/DiffSinger",
+      "target": "text-to-speech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T02:12:20.787913+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6995
+    },
+    {
+      "path": "requirements.txt",
+      "size": 391
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism (SVS & TTS); AAAI 2022; Official code",
+    "fork": false,
+    "full_name": "MoonInTheRiver/DiffSinger",
+    "html_url": "https://github.com/MoonInTheRiver/DiffSinger",
+    "language": "Python",
+    "pushed_at": "2025-03-19T06:51:33Z",
+    "stargazers_count": 4781,
+    "topics": [
+      "aaai2022",
+      "diffusion-model",
+      "diffusion-speedup",
+      "midi",
+      "singing-synthesis",
+      "singing-voice",
+      "singing-voice-database",
+      "singing-voice-synthesis",
+      "speech-synthesis",
+      "text-to-speech",
+      "tts"
+    ],
+    "updated_at": "2026-05-12T02:12:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "keonlee9420/diffsinger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lmnt-com/diffwave",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moonintheriver/neuralsvb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "natspeech/natspeech",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aaai2022"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-model"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-speedup"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-synthesis"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-voice"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-voice-database"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-voice-synthesis"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    }
+  ]
+}

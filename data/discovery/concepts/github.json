@@ -945,6 +945,18 @@
       "source_repo": "inhere/kite",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jasonlong/isometric-contributions",
+      "status": "candidate-context",
+      "text": "Browser extension for rendering an isometric pixel art version of your GitHub contribution graph."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasonlong/isometric-contributions",
+      "status": "candidate-context",
+      "text": "![Node.js CI](https://github.com/jasonlong/isometric-contributions/workflows/Node.js%20CI/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -1415,6 +1427,12 @@
       "source_repo": "inhere/kite",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasonlong/isometric-contributions",
+      "status": "candidate",
+      "text": "![Node.js CI](https://github.com/jasonlong/isometric-contributions/workflows/Node.js%20CI/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -2598,11 +2616,35 @@
       "observed_at": "2026-05-12T07:08:14.758954+00:00",
       "source_file": null,
       "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "remotion-dev/github-unwrapped"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "jasonlong/isometric-contributions"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "lexical_providers": [
     "datamuse"
   ],

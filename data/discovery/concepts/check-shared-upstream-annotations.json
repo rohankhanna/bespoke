@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check shared upstream annotations"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kilo-Org/kilocode",
+      "status": "candidate-context",
+      "text": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kilo-Org/kilocode",
+      "status": "candidate-context",
+      "text": "Check shared upstream annotations"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kilo-Org/kilocode",
+      "status": "candidate",
+      "text": "Check shared upstream annotations"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32390,
+      "status": "candidate",
+      "text": "heat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32390,
+      "status": "candidate",
+      "text": "het"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32322,
+      "status": "candidate",
+      "text": "rule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25465,
+      "status": "candidate",
+      "text": "turnaround"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23932,
+      "status": "candidate",
+      "text": "note"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check shared upstream annotations",
+  "concept_id": "check-shared-upstream-annotations",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/check-opencode-annotations.yml",
+      "source_repo": "Kilo-Org/kilocode"
+    }
+  ],
+  "first_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check shared upstream annotations",
+      "sense_id": "check-shared-upstream-annotations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -359,6 +359,18 @@
       "source_repo": "stack-of-tasks/pinocchio",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Aleph-Alpha/ts-rs",
+      "status": "candidate-context",
+      "text": "Generate TypeScript bindings from Rust types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aleph-Alpha/ts-rs",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" style=\"padding-top: 0; margin-top: 0;\">"
     }
   ],
   "candidate_glosses": [
@@ -535,6 +547,12 @@
       "source_repo": "stack-of-tasks/pinocchio",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aleph-Alpha/ts-rs",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" style=\"padding-top: 0; margin-top: 0;\">"
     }
   ],
   "candidate_related_terms": [
@@ -1982,11 +2000,53 @@
       "observed_at": "2026-05-12T18:45:33.862672+00:00",
       "source_file": null,
       "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/code-generation.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "Aleph-Alpha/ts-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-agent"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T18:45:33.862672+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "lexical_providers": [
     "datamuse"
   ],

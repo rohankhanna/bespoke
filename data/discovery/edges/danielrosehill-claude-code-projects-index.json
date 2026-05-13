@@ -4,6 +4,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "target": "danielrosehill/claude-code-linux-notes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
       "target": "danielrosehill/claude-linux-av-manager-plugin",
       "target_type": "repository"
     },
@@ -11,21 +18,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-linux-system-optimisation-plugin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-llm-council-creator-plugin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
       "target": "danielrosehill/claude-agent-blueprints",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "target": "danielrosehill/claude-code-marketplace",
       "target_type": "repository"
     },
     {
@@ -57,6 +57,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-12T07:08:14.758954+00:00",
+  "generated_at": "2026-05-13T00:41:47.952744+00:00",
   "source_repo": "danielrosehill/Claude-Code-Projects-Index"
 }

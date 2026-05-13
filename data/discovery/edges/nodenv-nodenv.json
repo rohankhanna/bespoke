@@ -39,7 +39,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "nodenv/nodenv",
-      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
       "target_type": "component"
     },
     {
@@ -109,7 +109,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "nodenv/nodenv",
-      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
       "target_type": "component"
     },
     {
@@ -169,6 +169,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-11T18:44:26.583561+00:00",
+  "generated_at": "2026-05-13T00:41:47.952744+00:00",
   "source_repo": "nodenv/nodenv"
 }

@@ -1,0 +1,657 @@
+{
+  "components": [
+    {
+      "component": "@changesets/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@dotenvx/dotenvx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@roo-code/config-typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/glob",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vscode/vsce",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "knip",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mkdirp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "only-allow",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ovsx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "turbo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changeset-release.yml"
+    },
+    {
+      "component": "changesets/action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changeset-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changeset-release.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changeset-release.yml"
+    },
+    {
+      "component": "hmarr/auto-approve-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changeset-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-qa.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-qa.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-qa.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-qa.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marketplace-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website-deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "zoo-code-org/zoo-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "@changesets/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "@dotenvx/dotenvx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "@roo-code/config-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "@types/glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "@vscode/vsce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "knip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "mkdirp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "only-allow",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "ovsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "turbo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changeset-release.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changeset-release.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "changesets/action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changeset-release.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changeset-release.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "hmarr/auto-approve-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changeset-release.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "Changeset Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-release.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-release.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-release.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-release.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "CLI Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-qa.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-qa.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "Code QA Roo Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pages.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pages.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pages.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-pages.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "Deploy docs to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marketplace-publish.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/marketplace-publish.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "Publish Extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-publish.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-publish.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "Nightly Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website-deploy.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website-deploy.yml",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "target": "Deploy roocode.com",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T02:12:07.310527+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3421
+    },
+    {
+      "path": "package.json",
+      "size": 2542
+    },
+    {
+      "path": ".github/workflows/changeset-release.yml",
+      "size": 5162
+    },
+    {
+      "path": ".github/workflows/cli-release.yml",
+      "size": 14058
+    },
+    {
+      "path": ".github/workflows/code-qa.yml",
+      "size": 1789
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 3854
+    },
+    {
+      "path": ".github/workflows/docs-pages.yml",
+      "size": 1514
+    },
+    {
+      "path": ".github/workflows/marketplace-publish.yml",
+      "size": 4256
+    },
+    {
+      "path": ".github/workflows/nightly-publish.yml",
+      "size": 1807
+    },
+    {
+      "path": ".github/workflows/website-deploy.yml",
+      "size": 2020
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Roo Code gives you a whole dev team of AI agents in your code editor.",
+    "fork": false,
+    "full_name": "RooCodeInc/Roo-Code",
+    "html_url": "https://github.com/RooCodeInc/Roo-Code",
+    "language": "TypeScript",
+    "pushed_at": "2026-05-12T22:04:34Z",
+    "stargazers_count": 24031,
+    "topics": [],
+    "updated_at": "2026-05-13T01:18:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zoo-code-org/zoo-code",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Changeset Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changeset-release.yml",
+      "term": "Changeset Release"
+    },
+    {
+      "context_snippet": "CLI Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-release.yml",
+      "term": "CLI Release"
+    },
+    {
+      "context_snippet": "Code QA Roo Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-qa.yml",
+      "term": "Code QA Roo Code"
+    },
+    {
+      "context_snippet": "CodeQL Advanced",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "context_snippet": "Deploy docs to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-pages.yml",
+      "term": "Deploy docs to GitHub Pages"
+    },
+    {
+      "context_snippet": "Publish Extension",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/marketplace-publish.yml",
+      "term": "Publish Extension"
+    },
+    {
+      "context_snippet": "Nightly Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-publish.yml",
+      "term": "Nightly Publish"
+    },
+    {
+      "context_snippet": "Deploy roocode.com",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website-deploy.yml",
+      "term": "Deploy roocode.com"
+    }
+  ]
+}

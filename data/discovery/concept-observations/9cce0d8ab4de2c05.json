@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check shared upstream annotations"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check shared upstream annotations"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32390,
+      "status": "candidate",
+      "text": "heat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32390,
+      "status": "candidate",
+      "text": "het"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32322,
+      "status": "candidate",
+      "text": "rule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25465,
+      "status": "candidate",
+      "text": "turnaround"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23932,
+      "status": "candidate",
+      "text": "note"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check shared upstream annotations",
+      "sense_id": "check-shared-upstream-annotations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-shared-upstream-annotations",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-shared-upstream-annotations",
+  "observation_id": "9cce0d8ab4de2c05",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-13T00:41:47.952744+00:00",
+  "observed_text": "Check shared upstream annotations",
+  "source_context_snippet": "Check shared upstream annotations",
+  "source_file": ".github/workflows/check-opencode-annotations.yml",
+  "source_repo": "Kilo-Org/kilocode",
+  "source_repo_description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent."
+}

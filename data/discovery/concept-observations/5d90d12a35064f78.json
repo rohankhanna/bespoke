@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Model Context Protocol to fetch youtube transcript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[project] name = \"mcp-youtube\" version = \"0.1.0\" description = \"MCP server for fetching YouTube transcripts\" dependencies = [ \"mcp\", \"pydantic>=2.10.2\", \"youtube_transcript_api\", ] [build-system] requires = [\"hatchling\"] build-backend = \"hatchling.build\" [project.scripts] mcp-yo\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[project] name = \"mcp-youtube\" version = \"0.1.0\" description = \"MCP server for fetching YouTube transcripts\" dependencies = [ \"mcp\", \"pydantic>=2.10.2\", \"youtube_transcript_api\", ] [build-system] requires = [\"hatchling\"] build-backend = \"hatchling.build\" [project.scripts] mcp-yo\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "model-context-protocol",
+      "sense_id": "model-context-protocol#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "model-context-protocol",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "model-context-protocol",
+  "observation_id": "5d90d12a35064f78",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-13T00:41:47.952744+00:00",
+  "observed_text": "model-context-protocol",
+  "source_context_snippet": "[project] name = \"mcp-youtube\" version = \"0.1.0\" description = \"MCP server for fetching YouTube transcripts\" dependencies = [ \"mcp\", \"pydantic>=2.10.2\", \"youtube_transcript_api\", ] [build-system] requires = [\"hatchling\"] build-backend = \"hatchling.build\" [project.scripts] mcp-yo\u2026",
+  "source_file": null,
+  "source_repo": "adhikasp/mcp-youtube",
+  "source_repo_description": "Model Context Protocol to fetch youtube transcript"
+}

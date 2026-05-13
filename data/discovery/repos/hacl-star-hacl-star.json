@@ -221,7 +221,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T02:07:43.830682+00:00",
+  "fetched_at": "2026-05-13T03:31:30.701016+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -258,7 +258,7 @@
     "html_url": "https://github.com/hacl-star/hacl-star",
     "language": "F*",
     "pushed_at": "2026-05-10T03:10:17Z",
-    "stargazers_count": 1824,
+    "stargazers_count": 1825,
     "topics": [
       "cryptography",
       "everest",
@@ -271,7 +271,7 @@
       "verification",
       "verified-primitives"
     ],
-    "updated_at": "2026-05-10T17:29:21Z"
+    "updated_at": "2026-05-12T08:00:57Z"
   },
   "repo_links": [
     {

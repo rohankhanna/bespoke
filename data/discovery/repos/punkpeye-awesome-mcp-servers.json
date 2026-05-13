@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-glama.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-glama.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-glama.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "punkpeye/awesome-mcp-servers",
+      "target": "0x1abin/matter-controller-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "punkpeye/awesome-mcp-servers",
+      "target": "06ketan/slideshot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "punkpeye/awesome-mcp-servers",
+      "target": "0xdaef0f/job-searchoor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "punkpeye/awesome-mcp-servers",
+      "target": "06ketan/substack-ops",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-glama.yml",
+      "source_repo": "punkpeye/awesome-mcp-servers",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-glama.yml",
+      "source_repo": "punkpeye/awesome-mcp-servers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-glama.yml",
+      "source_repo": "punkpeye/awesome-mcp-servers",
+      "target": "Check Glama Link",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T02:12:35.737141+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 714154
+    },
+    {
+      "path": ".github/workflows/check-glama.yml",
+      "size": 15666
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of MCP servers.",
+    "fork": false,
+    "full_name": "punkpeye/awesome-mcp-servers",
+    "html_url": "https://github.com/punkpeye/awesome-mcp-servers",
+    "language": null,
+    "pushed_at": "2026-05-02T16:08:17Z",
+    "stargazers_count": 86780,
+    "topics": [
+      "ai",
+      "mcp"
+    ],
+    "updated_at": "2026-05-13T01:43:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "06ketan/slideshot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "06ketan/substack-ops",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0x1abin/matter-controller-mcp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xdaef0f/job-searchoor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check Glama Link",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-glama.yml",
+      "term": "Check Glama Link"
+    }
+  ]
+}

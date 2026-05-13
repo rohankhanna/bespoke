@@ -1,0 +1,491 @@
+{
+  "components": [
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@parcel/config-webextension",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@parcel/reporter-bundle-analyzer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@parcel/reporter-bundle-buddy",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chrome-webstore-upload-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "parcel",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "puppeteer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "web-ext-submit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combinedabot.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extension-health-check.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extension-health-check.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extension-health-check.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extension-health-check.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-safari.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-safari.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "nosir/obelisk.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "qiuner/isometric-contributions-plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "@parcel/config-webextension",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "@parcel/reporter-bundle-analyzer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "@parcel/reporter-bundle-buddy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "chrome-webstore-upload-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "parcel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "puppeteer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "web-ext-submit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combinedabot.yml",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/combinedabot.yml",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "Combine Dependabot PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extension-health-check.yml",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extension-health-check.yml",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extension-health-check.yml",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extension-health-check.yml",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/extension-health-check.yml",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "Extension Health Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "Node.js CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-safari.yml",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-safari.yml",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-safari.yml",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "Release Safari",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "contributions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "isometric",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jasonlong/isometric-contributions",
+      "target": "obelisk",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T02:11:48.944765+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2564
+    },
+    {
+      "path": "package.json",
+      "size": 1763
+    },
+    {
+      "path": ".github/workflows/combinedabot.yml",
+      "size": 6380
+    },
+    {
+      "path": ".github/workflows/extension-health-check.yml",
+      "size": 3020
+    },
+    {
+      "path": ".github/workflows/nodejs.yml",
+      "size": 415
+    },
+    {
+      "path": ".github/workflows/release-safari.yml",
+      "size": 6346
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 4332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Browser extension for rendering an isometric pixel art version of your GitHub contribution graph.",
+    "fork": false,
+    "full_name": "jasonlong/isometric-contributions",
+    "html_url": "https://github.com/jasonlong/isometric-contributions",
+    "language": "JavaScript",
+    "pushed_at": "2026-05-11T18:15:55Z",
+    "stargazers_count": 3669,
+    "topics": [
+      "3d",
+      "contributions",
+      "css",
+      "extension",
+      "github",
+      "isometric",
+      "obelisk"
+    ],
+    "updated_at": "2026-05-12T05:13:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nosir/obelisk.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qiuner/isometric-contributions-plus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Combine Dependabot PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/combinedabot.yml",
+      "term": "Combine Dependabot PRs"
+    },
+    {
+      "context_snippet": "Extension Health Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/extension-health-check.yml",
+      "term": "Extension Health Check"
+    },
+    {
+      "context_snippet": "Node.js CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "term": "Node.js CI"
+    },
+    {
+      "context_snippet": "Release Safari",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-safari.yml",
+      "term": "Release Safari"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/jasonlong/isometric-contributions/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contributions"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/jasonlong/isometric-contributions/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extension"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/jasonlong/isometric-contributions/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/jasonlong/isometric-contributions/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "isometric"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/jasonlong/isometric-contributions/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obelisk"
+    }
+  ]
+}

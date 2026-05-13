@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Safari"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jasonlong/isometric-contributions",
+      "status": "candidate-context",
+      "text": "Browser extension for rendering an isometric pixel art version of your GitHub contribution graph."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasonlong/isometric-contributions",
+      "status": "candidate-context",
+      "text": "Release Safari"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasonlong/isometric-contributions",
+      "status": "candidate",
+      "text": "Release Safari"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12274,
+      "status": "candidate",
+      "text": "trip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11240,
+      "status": "candidate",
+      "text": "home"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11240,
+      "status": "candidate",
+      "text": "http"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11206,
+      "status": "candidate",
+      "text": "shoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11152,
+      "status": "candidate",
+      "text": "lion"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Safari",
+  "concept_id": "release-safari",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/release-safari.yml",
+      "source_repo": "jasonlong/isometric-contributions"
+    }
+  ],
+  "first_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Safari",
+      "sense_id": "release-safari#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

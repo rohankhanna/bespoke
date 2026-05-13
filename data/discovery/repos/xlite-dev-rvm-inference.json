@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T02:01:34.791788+00:00",
+  "fetched_at": "2026-05-13T03:25:29.785590+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -68,7 +68,7 @@
     "html_url": "https://github.com/xlite-dev/RVM-Inference",
     "language": "C++",
     "pushed_at": "2024-07-29T01:07:58Z",
-    "stargazers_count": 141,
+    "stargazers_count": 142,
     "topics": [
       "cpp",
       "matting",
@@ -79,7 +79,7 @@
       "robustvideomatting",
       "tnn"
     ],
-    "updated_at": "2026-04-14T07:26:03Z"
+    "updated_at": "2026-05-13T01:28:54Z"
   },
   "repo_links": [
     {

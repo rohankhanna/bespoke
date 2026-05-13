@@ -84,7 +84,7 @@
   "normalized_form": "publish-hexabot-packages",
   "observation_id": "0e79c36b86b53660",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-12T00:37:36.884355+00:00",
+  "observed_at": "2026-05-13T00:41:47.952744+00:00",
   "observed_text": "Publish Hexabot Packages",
   "source_context_snippet": "Publish Hexabot Packages",
   "source_file": ".github/workflows/npm-publish.yml",

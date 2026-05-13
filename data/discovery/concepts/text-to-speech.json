@@ -565,6 +565,18 @@
       "source_repo": "nari-labs/dia2",
       "status": "candidate-context",
       "text": "![Banner](banner.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MoonInTheRiver/DiffSinger",
+      "status": "candidate-context",
+      "text": "DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism (SVS & TTS); AAAI 2022; Official code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MoonInTheRiver/DiffSinger",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)"
     }
   ],
   "candidate_glosses": [
@@ -849,6 +861,12 @@
       "source_repo": "nari-labs/dia2",
       "status": "candidate",
       "text": "![Banner](banner.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MoonInTheRiver/DiffSinger",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)"
     }
   ],
   "candidate_related_terms": [],
@@ -1312,11 +1330,23 @@
       "observed_at": "2026-05-12T00:37:36.884355+00:00",
       "source_file": null,
       "source_repo": "lifeiteng/vall-e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "lifeiteng/vall-e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "MoonInTheRiver/DiffSinger"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "lexical_providers": [
     "datamuse"
   ],

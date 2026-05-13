@@ -51,7 +51,7 @@
       "source_file": ".github/workflows/backend_build.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_build.yml"
     },
@@ -121,7 +121,12 @@
       "source_file": ".github/workflows/backend_build_darwin.yml"
     },
     {
-      "component": "actions/download-artifact@v4",
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_merge.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_merge.yml"
     },
@@ -310,7 +315,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_build.yml",
       "source_repo": "mudler/LocalAI",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@v7",
       "target_type": "component"
     },
     {
@@ -373,7 +378,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_merge.yml",
       "source_repo": "mudler/LocalAI",
-      "target": "actions/download-artifact@v4",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_merge.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "actions/download-artifact@v8",
       "target_type": "component"
     },
     {
@@ -580,7 +592,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T01:57:41.062356+00:00",
+  "fetched_at": "2026-05-13T03:22:08.397520+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -592,27 +604,27 @@
     },
     {
       "path": "go.mod",
-      "size": 23323
+      "size": 23567
     },
     {
       "path": ".github/workflows/backend.yml",
-      "size": 9405
+      "size": 9919
     },
     {
       "path": ".github/workflows/backend_build.yml",
-      "size": 11051
+      "size": 11550
     },
     {
       "path": ".github/workflows/backend_build_darwin.yml",
-      "size": 12595
+      "size": 13085
     },
     {
       "path": ".github/workflows/backend_merge.yml",
-      "size": 4715
+      "size": 6618
     },
     {
       "path": ".github/workflows/backend_pr.yml",
-      "size": 6551
+      "size": 6713
     },
     {
       "path": ".github/workflows/base-images.yml",
@@ -632,8 +644,8 @@
     "full_name": "mudler/LocalAI",
     "html_url": "https://github.com/mudler/LocalAI",
     "language": "Go",
-    "pushed_at": "2026-05-12T01:33:55Z",
-    "stargazers_count": 46202,
+    "pushed_at": "2026-05-12T22:41:33Z",
+    "stargazers_count": 46222,
     "topics": [
       "agents",
       "ai",
@@ -654,7 +666,7 @@
       "text-generation",
       "tts"
     ],
-    "updated_at": "2026-05-12T00:40:25Z"
+    "updated_at": "2026-05-13T02:57:30Z"
   },
   "repo_links": [
     {

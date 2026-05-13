@@ -368,6 +368,16 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruflo-agent-smoke.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruflo-agent-smoke.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/status-badges.yml"
     },
     {
@@ -379,176 +389,6 @@
       "component": "actions/upload-artifact@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/status-badges.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "pnpm/action-setup@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "pnpm/action-setup@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "pnpm/action-setup@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "pnpm/action-setup@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "pnpm/action-setup@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "pnpm/action-setup@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "pnpm/action-setup@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "pnpm/action-setup@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "pnpm/action-setup@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "pnpm/action-setup@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml"
     }
   ],
   "edges": [
@@ -869,6 +709,27 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruflo-agent-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruflo-agent-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruflo-agent-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "ruflo-agent-smoke",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/status-badges.yml",
       "source_repo": "ruvnet/ruflo",
       "target": "actions/checkout@v4",
@@ -894,34 +755,6 @@
       "source_repo": "ruvnet/ruflo",
       "target": "\ud83d\udcca Status Badges Update",
       "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "pnpm/action-setup@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/setup-node@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/v3-ci.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/upload-artifact@v4",
-      "target_type": "component"
     },
     {
       "edge_type": "repo-topic",
@@ -1043,11 +876,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T02:09:00.253182+00:00",
+  "fetched_at": "2026-05-13T01:19:56.494644+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 24582
+      "size": 25797
     },
     {
       "path": "package.json",
@@ -1063,7 +896,7 @@
     },
     {
       "path": ".github/workflows/cost-tracker-smoke.yml",
-      "size": 2659
+      "size": 2861
     },
     {
       "path": ".github/workflows/integration-tests.yml",
@@ -1078,12 +911,12 @@
       "size": 25515
     },
     {
-      "path": ".github/workflows/status-badges.yml",
-      "size": 6360
+      "path": ".github/workflows/ruflo-agent-smoke.yml",
+      "size": 925
     },
     {
-      "path": ".github/workflows/v3-ci.yml",
-      "size": 24355
+      "path": ".github/workflows/status-badges.yml",
+      "size": 6360
     }
   ],
   "related_repositories": [],
@@ -1095,8 +928,8 @@
     "full_name": "ruvnet/ruflo",
     "html_url": "https://github.com/ruvnet/ruflo",
     "language": "TypeScript",
-    "pushed_at": "2026-05-12T01:40:11Z",
-    "stargazers_count": 49143,
+    "pushed_at": "2026-05-12T18:39:23Z",
+    "stargazers_count": 49765,
     "topics": [
       "agentic-ai",
       "agentic-framework",
@@ -1119,7 +952,7 @@
       "swarm",
       "swarm-intelligence"
     ],
-    "updated_at": "2026-05-12T02:06:13Z"
+    "updated_at": "2026-05-13T01:13:52Z"
   },
   "repo_links": [
     {
@@ -1163,6 +996,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/rollback-manager.yml",
       "term": "\ud83d\udd04 Automated Rollback Manager"
+    },
+    {
+      "context_snippet": "ruflo-agent-smoke",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruflo-agent-smoke.yml",
+      "term": "ruflo-agent-smoke"
     },
     {
       "context_snippet": "\ud83d\udcca Status Badges Update",

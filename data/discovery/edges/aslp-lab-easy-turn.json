@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ASLP-lab/Easy-Turn",
+      "target": "ten-framework/ten-turn-detection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ASLP-lab/Easy-Turn",
+      "target": "pipecat-ai/smart-turn",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-13T00:41:47.952744+00:00",
+  "source_repo": "ASLP-lab/Easy-Turn"
+}

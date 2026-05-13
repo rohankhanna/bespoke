@@ -1543,6 +1543,18 @@
       "source_repo": "BehindTheMath/KosherZmanim",
       "status": "candidate-context",
       "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jasonlong/isometric-contributions",
+      "status": "candidate-context",
+      "text": "Browser extension for rendering an isometric pixel art version of your GitHub contribution graph."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasonlong/isometric-contributions",
+      "status": "candidate-context",
+      "text": "Node.js CI"
     }
   ],
   "candidate_glosses": [
@@ -2311,6 +2323,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "BehindTheMath/KosherZmanim",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasonlong/isometric-contributions",
       "status": "candidate",
       "text": "Node.js CI"
     }
@@ -4636,11 +4654,65 @@
       "observed_at": "2026-05-12T18:45:33.862672+00:00",
       "source_file": ".github/workflows/nodejs.yml",
       "source_repo": "DefinitelyTyped/dts-critic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "geotiffjs/geotiff.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "celestiaorg/protobuf3-solidity-lib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "jasonlong/isometric-contributions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "vipermind/flake-idgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/node_build.yml",
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "DefinitelyTyped/dts-critic"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T18:45:33.862672+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,192 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "maxmax2016/vi-svs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "nvidia/bigvgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "mindslab-ai/univnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "hayeong0/diff-hiervc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "diffsinger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "opencpop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "singing-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "singing-voice-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "visinger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "vits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS",
+      "target": "vits-svs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T02:12:26.070987+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3220
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "VISinger",
+    "description": "Singing Voice Synthesis based on VITS, different from VISinger",
+    "fork": false,
+    "full_name": "PlayVoice/VI-SVS",
+    "html_url": "https://github.com/PlayVoice/VI-SVS",
+    "language": "Python",
+    "pushed_at": "2023-11-13T03:37:39Z",
+    "stargazers_count": 197,
+    "topics": [
+      "diffsinger",
+      "opencpop",
+      "singing-synthesis",
+      "singing-voice-synthesis",
+      "speech-synthesis",
+      "svs",
+      "visinger",
+      "vits",
+      "vits-svs"
+    ],
+    "updated_at": "2026-05-03T17:46:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hayeong0/diff-hiervc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maxmax2016/vi-svs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mindslab-ai/univnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/bigvgan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffsinger"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencpop"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-synthesis"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-voice-synthesis"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visinger"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vits"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vits-svs"
+    }
+  ]
+}

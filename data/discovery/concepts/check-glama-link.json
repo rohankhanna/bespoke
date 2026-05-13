@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Glama Link"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "punkpeye/awesome-mcp-servers",
+      "status": "candidate-context",
+      "text": "A collection of MCP servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "punkpeye/awesome-mcp-servers",
+      "status": "candidate-context",
+      "text": "Check Glama Link"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "punkpeye/awesome-mcp-servers",
+      "status": "candidate",
+      "text": "Check Glama Link"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9711,
+      "status": "candidate",
+      "text": "bridle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9711,
+      "status": "candidate",
+      "text": "bridled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9711,
+      "status": "candidate",
+      "text": "contact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9711,
+      "status": "candidate",
+      "text": "gap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9711,
+      "status": "candidate",
+      "text": "join"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Glama Link",
+  "concept_id": "check-glama-link",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/check-glama.yml",
+      "source_repo": "punkpeye/awesome-mcp-servers"
+    }
+  ],
+  "first_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Glama Link",
+      "sense_id": "check-glama-link#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

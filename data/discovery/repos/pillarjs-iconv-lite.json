@@ -433,7 +433,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T07:30:37.645390+00:00",
+  "fetched_at": "2026-05-13T02:04:39.270790+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -466,14 +466,14 @@
     "html_url": "https://github.com/pillarjs/iconv-lite",
     "language": "JavaScript",
     "pushed_at": "2026-05-01T17:02:24Z",
-    "stargazers_count": 3166,
+    "stargazers_count": 3167,
     "topics": [
       "encoding",
       "encoding-convertors",
       "iconv",
       "javascript"
     ],
-    "updated_at": "2026-04-30T16:43:16Z"
+    "updated_at": "2026-05-12T11:38:43Z"
   },
   "repo_links": [
     {

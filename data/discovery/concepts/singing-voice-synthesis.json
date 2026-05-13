@@ -19,6 +19,30 @@
       "source_repo": "espnet/espnet",
       "status": "candidate-context",
       "text": "<div align=\"left\"><img src=\"doc/image/espnet_logo1.png\" width=\"550\"/></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MoonInTheRiver/DiffSinger",
+      "status": "candidate-context",
+      "text": "DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism (SVS & TTS); AAAI 2022; Official code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MoonInTheRiver/DiffSinger",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PlayVoice/VI-SVS",
+      "status": "candidate-context",
+      "text": "Singing Voice Synthesis based on VITS, different from VISinger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlayVoice/VI-SVS",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "espnet/espnet",
       "status": "candidate",
       "text": "<div align=\"left\"><img src=\"doc/image/espnet_logo1.png\" width=\"550\"/></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MoonInTheRiver/DiffSinger",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlayVoice/VI-SVS",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "espnet/espnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "MoonInTheRiver/DiffSinger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "lexical_providers": [
     "datamuse"
   ],

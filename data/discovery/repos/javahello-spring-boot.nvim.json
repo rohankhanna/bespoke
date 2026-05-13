@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JavaHello/spring-boot.nvim",
+      "target": "javahello/javahello.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JavaHello/spring-boot.nvim",
+      "target": "jdtls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JavaHello/spring-boot.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JavaHello/spring-boot.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JavaHello/spring-boot.nvim",
+      "target": "spring-boot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T01:56:23.769413+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1956
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Neovim + Spring Boot LS",
+    "fork": false,
+    "full_name": "JavaHello/spring-boot.nvim",
+    "html_url": "https://github.com/JavaHello/spring-boot.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-03-29T12:23:15Z",
+    "stargazers_count": 85,
+    "topics": [
+      "jdtls",
+      "neovim",
+      "neovim-plugin",
+      "spring-boot"
+    ],
+    "updated_at": "2026-05-11T20:22:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "javahello/javahello.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[English](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jdtls"
+    },
+    {
+      "context_snippet": "[English](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "[English](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "[English](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-boot"
+    }
+  ]
+}

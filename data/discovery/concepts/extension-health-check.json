@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Extension Health Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jasonlong/isometric-contributions",
+      "status": "candidate-context",
+      "text": "Browser extension for rendering an isometric pixel art version of your GitHub contribution graph."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasonlong/isometric-contributions",
+      "status": "candidate-context",
+      "text": "Extension Health Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasonlong/isometric-contributions",
+      "status": "candidate",
+      "text": "Extension Health Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33829,
+      "status": "candidate",
+      "text": "medical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33829,
+      "status": "candidate",
+      "text": "revision"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26156,
+      "status": "candidate",
+      "text": "examine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25756,
+      "status": "candidate",
+      "text": "medicare check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25756,
+      "status": "candidate",
+      "text": "medicare payment"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Extension Health Check",
+  "concept_id": "extension-health-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/extension-health-check.yml",
+      "source_repo": "jasonlong/isometric-contributions"
+    }
+  ],
+  "first_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Extension Health Check",
+      "sense_id": "extension-health-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

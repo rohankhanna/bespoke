@@ -667,6 +667,9 @@
   "aa64": [
     "2f4f9b9bc32f547a"
   ],
+  "aaai2022": [
+    "46064c652932f3a7"
+  ],
   "aaai2024": [
     "a69905f93227a639"
   ],
@@ -2675,6 +2678,9 @@
   "ai-act": [
     "785c1bedd0a68dd1"
   ],
+  "ai-age": [
+    "88bc248555ba6222"
+  ],
   "ai-agent-framework": [
     "b69f4a76e7bd4dbe"
   ],
@@ -2782,10 +2788,12 @@
     "1a8d11cb6e91f539",
     "4d416d250d3abfda",
     "774d241862144bfb",
+    "b4934842532ed8dd",
     "e6bc6e944340574a"
   ],
   "ai-coding-agent": [
-    "04aa4bf75d651eac"
+    "04aa4bf75d651eac",
+    "eda3170e947446c4"
   ],
   "ai-coding-models": [
     "0d6d3c46bfc1cf37"
@@ -2815,6 +2823,9 @@
   ],
   "ai-detection": [
     "a00608a3aa3ef383"
+  ],
+  "ai-developer-tools": [
+    "ec99f63ec2ae8902"
   ],
   "ai-development": [
     "81378c9740d5c51b"
@@ -4971,6 +4982,7 @@
     "1df88f8459fb3de6",
     "24a4c142459c5062",
     "28b3784601fd2c4d",
+    "295572d8dafb63c2",
     "2b8e6a44fa77dbf1",
     "307cb568b48e4bcf",
     "363027d212b58744",
@@ -7488,6 +7500,7 @@
     "96a262504d54a707",
     "a9190aca84257274",
     "b7ecff3bd33352c5",
+    "ba1f1cf583a47538",
     "bed43fc8b796582f",
     "c58f080ac84f8f7d",
     "f5d710d0ec428c7e"
@@ -8694,6 +8707,9 @@
   ],
   "auto-differentiation": [
     "ee021b1bfe7c917d"
+  ],
+  "auto-docs-dry-run-intake": [
+    "e41ffad46f6f63c8"
   ],
   "auto-encoder": [
     "0af057107f3b4816"
@@ -13238,6 +13254,7 @@
   ],
   "beta": [
     "43fca5ca9e5ebcdb",
+    "6815b38ee2b36043",
     "8a6b82b34cb827ee",
     "8f199731160e56a7"
   ],
@@ -13668,7 +13685,8 @@
   "binding-generator": [
     "449140c5e7058882",
     "456ff7597ea88e9c",
-    "608b903693f6d7e7"
+    "608b903693f6d7e7",
+    "dda4db75ea4fe921"
   ],
   "bindings": [
     "08988cfa9ac9e5ce",
@@ -13687,6 +13705,7 @@
     "b601de9676508a33",
     "c2a19dfaae247893",
     "da33fb84712cfd67",
+    "dce25da0f05f064b",
     "ec0397b60cd345ab",
     "f2bb95ffb51c9cd0"
   ],
@@ -24606,7 +24625,8 @@
     "eb82dfa2262fc739",
     "ed9fed586d05db8a",
     "f36ea7e0f0c36501",
-    "f404f928d5d1ffb0"
+    "f404f928d5d1ffb0",
+    "fd27a7810f5b97a7"
   ],
   "changelog-bot": [
     "ae2c54902d0ed6c8"
@@ -24718,6 +24738,9 @@
   ],
   "changeset-lint": [
     "7ecc56c04f154814"
+  ],
+  "changeset-release": [
+    "081d4dda794e5c12"
   ],
   "changeset-review": [
     "43b637d98450afb9"
@@ -25164,6 +25187,7 @@
     "984aeff8d5b252c1",
     "9b0e29c6145e686e",
     "9c1418c08e2f773a",
+    "9ccfb69b80a9602f",
     "9d5bb14ce34f6417",
     "9f440b47eb60a3b7",
     "a18c9c0c010bd222",
@@ -26077,6 +26101,9 @@
   "check-github-organization-settings-prs": [
     "28510b20368b5590"
   ],
+  "check-glama-link": [
+    "ebed269eeb29f5e2"
+  ],
   "check-golangci-lint": [
     "aa88602ee6015263"
   ],
@@ -26194,6 +26221,9 @@
   ],
   "check-js-build": [
     "87a58f77552c567a"
+  ],
+  "check-kilo-generated-artifacts": [
+    "f2a02807474dda2b"
   ],
   "check-labels": [
     "dd7e1c17e200f05f"
@@ -26379,6 +26409,9 @@
     "2561a2899f4d48bf",
     "2c32e0981d37b129",
     "d6e5315f41dc3cb8"
+  ],
+  "check-org-member": [
+    "cfaea0020feb8313"
   ],
   "check-orka-packer-templates": [
     "64ff8f23bed6dbd2"
@@ -26721,6 +26754,9 @@
   ],
   "check-set-up-build": [
     "26c422427a46f693"
+  ],
+  "check-shared-upstream-annotations": [
+    "9cce0d8ab4de2c05"
   ],
   "check-shebangs-and-filemodes": [
     "5a8eefebb93f47b3",
@@ -30800,6 +30836,7 @@
     "ac4541086e5c7a3d"
   ],
   "cli-release": [
+    "176b51bc32c91ae2",
     "664fbf71e2793577",
     "6c0b24bcc7e05fd2",
     "ebadd82fd823aa35"
@@ -31690,6 +31727,7 @@
     "3549e7f49b7d4b42",
     "4ee5b88a3712138a",
     "589598efbadf33af",
+    "9553243b65b8b157",
     "9ac5ac5bd4400a9a",
     "c06bce38e405355b",
     "ceebd73ff6aabb9b",
@@ -33501,6 +33539,7 @@
     "7afa7f6efd0af335",
     "85bdfcc51da10cdd",
     "87ce2878c09697d3",
+    "9d5ccd0a50542f79",
     "ac1746dbd3f1c936",
     "b1e74dd38a768fc5",
     "c8e8d904443c2a62",
@@ -33575,6 +33614,9 @@
   "code-ownership": [
     "834e92f96ec1d20e",
     "aab5d0d68c2b5a81"
+  ],
+  "code-qa-roo-code": [
+    "bbc3c80048431a86"
   ],
   "code-ql": [
     "e7e9e62dd26a8407"
@@ -34946,6 +34988,7 @@
     "786687410e2abae9",
     "7d48667e7d8cb6d5",
     "84a98fe7d5733b61",
+    "8b594eafe690ef2a",
     "8e3c2ee59652da59",
     "968100e43fe59af3",
     "987855cbae85f874",
@@ -35250,6 +35293,7 @@
     "ccdad9f7219f2429"
   ],
   "coding-assistant": [
+    "5ad4bb4ff22860aa",
     "8d4fbc061b1ef1c1"
   ],
   "coding-font": [
@@ -35758,6 +35802,7 @@
   "combine-dependabot-prs": [
     "3927011944e4faa2",
     "a2f25d19390f8c78",
+    "b4ffdf0edd625a7d",
     "df8b44368637afdd",
     "e42f25b096947af6"
   ],
@@ -38264,6 +38309,7 @@
     "2d9b8e5bbcd6d1b2"
   ],
   "congratsbot": [
+    "208deaf6cb8ab3b9",
     "6c67606bfb15c7d4",
     "a86f4d3c0344b8fd",
     "f89e575cb1aa0165"
@@ -39423,6 +39469,9 @@
   ],
   "contribution-triage---proposal-not-pursuing": [
     "ce4e6dc7a26c96b4"
+  ],
+  "contributions": [
+    "1d71147aaccc9594"
   ],
   "contributions-welcome": [
     "2b59594ccb0ff6d2",
@@ -47408,6 +47457,7 @@
   ],
   "defuddle": [
     "656828d6a32f4927",
+    "9cdb41e0276422af",
     "af8378c310c1345b"
   ],
   "degeneracy": [
@@ -48629,6 +48679,7 @@
     "062b1090c19baa07",
     "11009b09a95267ca",
     "26abd8823b978436",
+    "2a9123aaffaafce2",
     "2cab236516954778",
     "2e8b2036ce04d975",
     "309b6b2f3b889d3e",
@@ -49072,6 +49123,9 @@
   "deploy-reusable-workflow": [
     "6796020599efbb50",
     "96157948852659a1"
+  ],
+  "deploy-roocode.com": [
+    "25e238740b2470e6"
   ],
   "deploy-rust-book": [
     "1396ac06712e53b4",
@@ -50097,6 +50151,7 @@
     "72ec250682d32f50"
   ],
   "dev-release-main": [
+    "51d8429cb30b5f45",
     "f6fcf07784952dcd"
   ],
   "dev-server": [
@@ -50791,6 +50846,9 @@
   "differentialequations": [
     "81067344a27095ef"
   ],
+  "diffsinger": [
+    "9d49b70270fffd0c"
+  ],
   "diffusers": [
     "14111655a7d6ec13",
     "169256ca84bcf319",
@@ -50869,7 +50927,8 @@
     "88c8c98c2a2185d5",
     "8cf882b7c0149e03",
     "92436f272604ea21",
-    "bed2297c4c1cc0f6"
+    "bed2297c4c1cc0f6",
+    "f56a8f2074a54b20"
   ],
   "diffusion-models": [
     "01db68294a169999",
@@ -50970,6 +51029,9 @@
   ],
   "diffusion-probabilistic": [
     "fae41eee1fe3183a"
+  ],
+  "diffusion-speedup": [
+    "97d1c8a266d81a7d"
   ],
   "diffusion-transformer": [
     "0c619eead0c33683",
@@ -54811,6 +54873,7 @@
     "edfb48a14ed2cad3"
   ],
   "dprint": [
+    "20cf08ff73c8329e",
     "3c6edcaec4d98e4c",
     "5155a8e88913b9b2",
     "ae804db9a138fb6e"
@@ -59921,6 +59984,7 @@
     "d4dbc6783af9951f",
     "d62e929263f42475",
     "ef5af068a2430b26",
+    "f8b3e373be04d7aa",
     "faa917fb4934d1c1"
   ],
   "extension-check-release-candidate": [
@@ -59928,6 +59992,9 @@
   ],
   "extension-ci": [
     "95fe1ca7477fff6d"
+  ],
+  "extension-health-check": [
+    "0156fb176ca8fd4e"
   ],
   "extension-issue-to-pull-request-conversion": [
     "d3b58329b3c1bcad"
@@ -63376,6 +63443,7 @@
     "a82f797d3fe651ca",
     "abbc7487664ef10d",
     "ae61272c800c9cc9",
+    "b307ec7f02da31df",
     "b4cd11a6484ab039",
     "b6d9c48fb5711a1f",
     "b9b7730c718ad1f2",
@@ -63507,6 +63575,7 @@
     "4066d4ca3e8bb1c9",
     "416bc6fa8e90479e",
     "4292eeb465a56363",
+    "445c0ddf2b39db9f",
     "47fe418f4c731185",
     "4b83ecf7ff33e36a",
     "5137cda675241c94",
@@ -65453,6 +65522,7 @@
     "01cdca2cb1e79892",
     "0a8ae26806a9a452",
     "0c1b70f593941d65",
+    "0cc9f3acb6fa53af",
     "1d56b39565416682",
     "1fe025e0b564f5ed",
     "2b8f428911cf66d9",
@@ -67438,6 +67508,7 @@
     "854b4c8df3df05a9",
     "8615cfc57a9ec001",
     "873e73a140720130",
+    "88015d60b575c254",
     "8914be58bcdd1490",
     "8d662f6ae94d0edd",
     "94fb2c6cbc5feb9e",
@@ -75070,6 +75141,7 @@
     "d15ce78933f3a8dc",
     "d3f052a9db31f3b7",
     "d7c1107303a02ea3",
+    "d90732df421b710e",
     "d931443676753589",
     "da0074f4139375bb",
     "dd535835abfc154d",
@@ -80298,6 +80370,9 @@
   "isolines": [
     "1a0e40f008b2a627"
   ],
+  "isometric": [
+    "57eec0f9f11d486c"
+  ],
   "isomorphic": [
     "20180a7802c369eb",
     "2a6e55b4e39a0ab6",
@@ -81683,6 +81758,9 @@
   "jdt-server": [
     "71d7c69e473bcfe2"
   ],
+  "jdtls": [
+    "2db6c6c3d871dda7"
+  ],
   "jedi": [
     "119a5c4f7729b77d",
     "f97e5c32ec843d9b"
@@ -81822,7 +81900,8 @@
     "aafdf564d70c2cf1",
     "b7e55b28a614cade",
     "e2c6bb70b6129c03",
-    "ed5bcda3db788b51"
+    "ed5bcda3db788b51",
+    "f6e3ca47fbe590b7"
   ],
   "jetbrains-plugin": [
     "2bc21c25d6b78f61",
@@ -81931,6 +82010,7 @@
     "3afd35a127fc9dce"
   ],
   "jinja": [
+    "5698f35c89c0172f",
     "7d2a11e378ac1155",
     "8241d20f69673f73",
     "9c61211380497c3a",
@@ -81939,6 +82019,7 @@
     "ca66bf3ae4ab2e45"
   ],
   "jinja2": [
+    "1c21a0a61d0a31c5",
     "708516795e529d8c",
     "71cda944ff37c8d4",
     "8271a25dcfe9a3d9",
@@ -94671,6 +94752,7 @@
     "b2d7f6a1d7b65bc7",
     "b32789a41f7ec1e9",
     "b581d8c7aab6b5a5",
+    "b62f20cbe7eff1e5",
     "b6550fe5f10efc00",
     "b786d3ce0979494d",
     "b78a5f7301358bc9",
@@ -96989,6 +97071,7 @@
   "midi": [
     "20b6de101d3a4a77",
     "619b626799378347",
+    "795a748d09013158",
     "7c9b2e290ad71e8a",
     "817ad7fba4530e7f",
     "91a020cd15e176a3",
@@ -98397,6 +98480,7 @@
     "1c1e42050bb60494",
     "43a1ff2f2b5d1861",
     "4d6f5b8ccb9bca7a",
+    "5d90d12a35064f78",
     "5e582173ee1fd147",
     "6377993116f3f878",
     "701b3ba557c06007",
@@ -99954,6 +100038,9 @@
   "multi-process": [
     "39981e252168dddb",
     "c202ab1255ba4b4e"
+  ],
+  "multi-provider": [
+    "c6b658fcd21fddef"
   ],
   "multi-resolution-streams": [
     "4e2139a2b3e41862",
@@ -101604,6 +101691,7 @@
     "842ff2eb12c2960f",
     "891050224ba65881",
     "9bca5c16629b7cc8",
+    "a3af665c774e6712",
     "b075d6466cbb4b65",
     "b17fc5df8af30526",
     "d7dd70c3e7dd1d06",
@@ -101789,6 +101877,7 @@
     "80eb145e10d2d0ef",
     "8319e98515ce3c53",
     "849c8ccb66f8cef1",
+    "868bacba7ad51df6",
     "8a4a1c9bb94d1b55",
     "8af131d420cb1050",
     "8bf9dee587431f1c",
@@ -101905,6 +101994,7 @@
     "e35aefd77a343d5c",
     "e407a8838a0a4f04",
     "e41fabc3798304d0",
+    "e52661b9111e3c2e",
     "e5716004f528d0d1",
     "e74ad7046220ed60",
     "e74ddf318f4bab15",
@@ -102046,6 +102136,7 @@
     "345f4ebf705daafc",
     "348f159ed8dee7cc",
     "396ec31ad362c9e5",
+    "3a3f9e194a83d8c5",
     "3a5fdd61e8b308d7",
     "3a892192314fe5f3",
     "3de22d1dd7d9c4ea",
@@ -103415,6 +103506,7 @@
     "ecc3256d616c5b57"
   ],
   "nightly-publish": [
+    "03b9de11b3669842",
     "057ef15d8dddee8c"
   ],
   "nightly-push": [
@@ -104453,6 +104545,7 @@
     "4648c85884c9326b",
     "46b78fa95e900d21",
     "480e1ef8a2843821",
+    "48f52c034e7262da",
     "4c33b516991a5965",
     "4d30f1ad24481744",
     "4d7e923f41c7cc5e",
@@ -106437,6 +106530,9 @@
     "65ebea52b3be8ab7",
     "8d916eb0327fc9a8",
     "d593079e364b6158"
+  ],
+  "obelisk": [
+    "6a1d8ec7bb0453c3"
   ],
   "obfuscate": [
     "e22fbc80bcb77961"
@@ -108656,6 +108752,9 @@
   ],
   "opencost": [
     "a1153573262d74df"
+  ],
+  "opencpop": [
+    "6c3b1076df314c8c"
   ],
   "opencv": [
     "036c6c425b89ddd2",
@@ -113655,6 +113754,7 @@
     "bfb0f0f88e675b48",
     "c0e74a47b4b100a0",
     "c165cbf59629e029",
+    "c284f19003876a74",
     "c518b77519ae61ce",
     "c6ee24ec9c548339",
     "c751846a6ddeb06c",
@@ -116535,7 +116635,8 @@
   "prerelease": [
     "469bdf22f7d881b9",
     "c8390fc460967178",
-    "e530671703137863"
+    "e530671703137863",
+    "f01df424422caccf"
   ],
   "prerelease-binary": [
     "80b5faa85854e4d2"
@@ -116722,6 +116823,7 @@
     "80f66911a7946fc5",
     "8c88cf315d186372",
     "b2448a4c4ad4092d",
+    "b9ee094954398049",
     "bccfc83d79de6c34",
     "c67a60a5377609e8",
     "cfa3ce034597e9c4",
@@ -118872,6 +118974,7 @@
     "8fec313bea50b0a3",
     "90fa92792bdc5af9",
     "9365269c458a5dbd",
+    "93ce45c7775f30ab",
     "945b0a07ca2f5d57",
     "94c2c56ef812b820",
     "96ca800a60c4ea3e",
@@ -119527,7 +119630,8 @@
   ],
   "publish-extension": [
     "03b22f086f7b77a8",
-    "0d5e86888e8757a5"
+    "0d5e86888e8757a5",
+    "71d4c245cb8bf570"
   ],
   "publish-extension-to-chrome-web-store": [
     "14483e7d26ed8eb9",
@@ -127475,6 +127579,7 @@
     "6a7deb0faa2519c2",
     "6aa9d339f566d601",
     "6ab21a24793d2c91",
+    "6ade23dc4f0e95e8",
     "6adf5a4e1ee72898",
     "6b0f7156ed7c701a",
     "6b2caa4a1d4f686d",
@@ -127864,6 +127969,7 @@
     "a7b60613bfcbfb63",
     "a7c2f9d442e5ea4f",
     "a819f41ccee0ff93",
+    "a87fdeb6cbb525b1",
     "a8bacc4df94cf0db",
     "a94ed8e32ce4837c",
     "aa39cadeece252eb",
@@ -127888,6 +127994,7 @@
     "adec7ab5031f8b5b",
     "adff7b46768d1d1e",
     "ae02b8c7e3937923",
+    "ae12092b343fc426",
     "ae3e8addab1435b1",
     "aea3768c6a907d63",
     "af0e9a7daf874dda",
@@ -127987,6 +128094,7 @@
     "c2583eb1e4665c75",
     "c2625a23e9b53b57",
     "c26d1d55ef8ac8a3",
+    "c28468b2fa3b3595",
     "c2c84f78ab8c41c0",
     "c2d75e658ab06a7b",
     "c2e6ed3c87cd3e6f",
@@ -129730,6 +129838,9 @@
   "release-rustup-toolchain": [
     "9a229cf2e2afc106",
     "c27b9195cef8ccf9"
+  ],
+  "release-safari": [
+    "2358d706efc866af"
   ],
   "release-sass-api": [
     "31a609939f351025"
@@ -133623,6 +133734,9 @@
   "ruff-wf": [
     "0a138ebbed276144"
   ],
+  "ruflo-agent-smoke": [
+    "054768ac72b445da"
+  ],
   "rugged-ci": [
     "41c5b63e333606b2"
   ],
@@ -134819,6 +134933,7 @@
     "25da45f58ab8799a",
     "26355040bec4b161",
     "26b2b9ac8ef7ef4d",
+    "26d5241776b7c3fb",
     "26d559b7777189a9",
     "26fbbd4e9dddb304",
     "27186ada5a534068",
@@ -135233,6 +135348,7 @@
     "acfa2d12271edf23",
     "ade65a5ce73118c5",
     "ae76136feabd995d",
+    "ae8973adafd864cf",
     "aeabd5b8ce316f0c",
     "aefc5f4b10541fb1",
     "af48a5e68f85f00a",
@@ -135717,6 +135833,9 @@
   ],
   "rust-tests": [
     "398febe6eae15e7f"
+  ],
+  "rust-to-typescript": [
+    "80507b740164acf8"
   ],
   "rust-toolchain-upgrade": [
     "0dd4b0b1565aadd1"
@@ -140815,8 +140934,20 @@
   "sing-geosite": [
     "d308f77310587894"
   ],
+  "singing-synthesis": [
+    "66360b1897f9fe90",
+    "b935977a27f1cba1"
+  ],
+  "singing-voice": [
+    "11207e815e8c5ea1"
+  ],
+  "singing-voice-database": [
+    "4c6483d5e43c6e22"
+  ],
   "singing-voice-synthesis": [
-    "2356e3c581606331"
+    "2356e3c581606331",
+    "721f67c1d0522801",
+    "f1fb86506a9fcf32"
   ],
   "single": [
     "1c31c9f9566b2e1f",
@@ -142361,6 +142492,7 @@
     "a3f1c370ce1908e0"
   ],
   "sonnet": [
+    "04bfdc21b8d36c1e",
     "3828c0861534df9c",
     "a7b261fe529f9441",
     "de6ed93533eb824f"
@@ -143242,11 +143374,13 @@
     "4cc8b16b6e06dbeb",
     "5d7613e75b4a2ba5",
     "5d8171bb433d6904",
+    "5ef6d0209e244580",
     "608bfce4d24c1af6",
     "741a88cb798a4b68",
     "82799068963cb813",
     "838ca3ced238ada6",
     "8c8b8c28be6fcb0e",
+    "8d8e3e01132aba33",
     "90538e13498d3c4f",
     "90c41024b6af340e",
     "9570973f06b1d12b",
@@ -143797,6 +143931,7 @@
     "7bd929c3ba40d82d",
     "9c252e931110202e",
     "b2f0960209e16325",
+    "c6dae48b9ce2ed03",
     "da392a25f038ba89",
     "fcb539e10cca6935"
   ],
@@ -144351,7 +144486,8 @@
     "52460665230312dd"
   ],
   "stable-release-tags": [
-    "199b369f615128a2"
+    "199b369f615128a2",
+    "d382e37f723b7b0e"
   ],
   "stable-video-diffusion": [
     "95f2aa11ed0a2378",
@@ -150147,6 +150283,7 @@
     "da3f83bd60e592b9",
     "dd35512eeb8e1c43",
     "dda32254967069c1",
+    "ded190ce9e9682dd",
     "df8cfdb2c72365a9",
     "e23a021a3669f45c",
     "e84b8403eba7f8e7",
@@ -150634,6 +150771,7 @@
     "2f8203fd642a0f76",
     "2f90a0bd2ab4fff8",
     "2fb361dc43b89841",
+    "300590aa28b041cf",
     "30112a927ff7db0f",
     "30595f36aeb28fbe",
     "305ef112927b59b7",
@@ -154284,6 +154422,9 @@
   "testtestframework": [
     "41104af77dd58871"
   ],
+  "testthat": [
+    "23ca7d400f08781a"
+  ],
   "testunit": [
     "20eabe657fe9dad7"
   ],
@@ -154622,6 +154763,7 @@
     "f2f8181731a7a0a0"
   ],
   "text-to-speech": [
+    "01574724caa64413",
     "027054d3a81d336d",
     "19816dd62019df91",
     "271ee8d22044359f",
@@ -158397,6 +158539,7 @@
     "de84f6f1a8475524",
     "e1d982fda19f4d3e",
     "e5bc6a61f4625c7a",
+    "e6bc08b1470aac15",
     "ea1e12872b92c0be",
     "ef37235ab1ad9653",
     "ef9e845f21dabca4",
@@ -163328,6 +163471,7 @@
     "eba88c6e8e97f2ce"
   ],
   "version-bump": [
+    "5cc0b48da4aa841a",
     "90128955f8501035",
     "a6172adfbd495921",
     "cb0533dbf1892c73",
@@ -164629,6 +164773,9 @@
   "visibility-buffer": [
     "c89e8f0cd55839f3"
   ],
+  "visinger": [
+    "70b2f138b57d31ca"
+  ],
   "visio": [
     "250e499960484fef"
   ],
@@ -165338,10 +165485,14 @@
   "vits": [
     "1e4b76d82494c945",
     "2a5cfd26828c2bac",
+    "4d7b765f9cfed3f0",
     "9ac0b92f8d487191",
     "b48589f82bf3fd85",
     "bd42abd5b1073f44",
     "e44688309d18c430"
+  ],
+  "vits-svs": [
+    "1831f6c6afc31f65"
   ],
   "vits2": [
     "710e6c71bb66368c",
@@ -165767,6 +165918,7 @@
     "17cc0e75f182edf6",
     "1b56aeeb89a95e5e",
     "1f954ee8d76ac233",
+    "226ae18b46f5469c",
     "242a724930ec7bf5",
     "278d5f0a431c2d75",
     "2b77fabb4da35a15",
@@ -165844,6 +165996,7 @@
     "23196e046a8d84ab",
     "375177821b65a33d",
     "38464d5e25e588f1",
+    "3e0b06be25927ebf",
     "3f2c66b578398285",
     "53bc0d713897ebe1",
     "553df13642f8e1fe",

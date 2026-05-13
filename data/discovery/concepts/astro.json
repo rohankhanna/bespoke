@@ -139,6 +139,18 @@
       "source_repo": "g-plane/markup_fmt",
       "status": "candidate-context",
       "text": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "status": "candidate-context",
+      "text": "Prettier plugin for Astro"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "status": "candidate-context",
+      "text": "Official Prettier plugin adding support for formatting `.astro` files."
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "g-plane/markup_fmt",
       "status": "candidate",
       "text": "<div align=\"center\"><img src=\"./media/markup_fmt.svg\" width=\"160\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "status": "candidate",
+      "text": "Official Prettier plugin adding support for formatting `.astro` files."
     }
   ],
   "candidate_related_terms": [
@@ -556,11 +574,23 @@
       "observed_at": "2026-05-12T07:08:14.758954+00:00",
       "source_file": null,
       "source_repo": "g-plane/markup_fmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "withastro/prettier-plugin-astro"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "lexical_providers": [
     "datamuse"
   ],

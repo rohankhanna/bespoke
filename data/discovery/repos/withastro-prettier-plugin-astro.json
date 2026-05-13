@@ -1,0 +1,480 @@
+{
+  "components": [
+    {
+      "component": "@astrojs/compiler",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sass-formatter",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@changesets/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-commonjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitest/ui",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-regexp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier-doc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tslib",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "withastro/automation/.github/workflows/congratsbot.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/congrats.yml"
+    },
+    {
+      "component": "withastro/automation/.github/workflows/format.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    },
+    {
+      "component": "changesets/action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "changesets/action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "Ilshidur/action-discord@0.3.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "@astrojs/compiler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "sass-formatter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "@changesets/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "@rollup/plugin-commonjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "@rollup/plugin-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "@vitest/ui",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "eslint-plugin-regexp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "eslint-plugin-prettier-doc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "tslib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/congrats.yml",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "withastro/automation/.github/workflows/congratsbot.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/congrats.yml",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "Congratsbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "withastro/automation/.github/workflows/format.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "changesets/action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "PreRelease",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "changesets/action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "Ilshidur/action-discord@0.3.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "astro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "withastro/prettier-plugin-astro",
+      "target": "prettier",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T02:11:19.810199+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4407
+    },
+    {
+      "path": "package.json",
+      "size": 1613
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1060
+    },
+    {
+      "path": ".github/workflows/congrats.yml",
+      "size": 367
+    },
+    {
+      "path": ".github/workflows/format.yml",
+      "size": 260
+    },
+    {
+      "path": ".github/workflows/prerelease.yml",
+      "size": 839
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1688
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Prettier plugin for Astro",
+    "fork": false,
+    "full_name": "withastro/prettier-plugin-astro",
+    "html_url": "https://github.com/withastro/prettier-plugin-astro",
+    "language": "TypeScript",
+    "pushed_at": "2025-10-13T14:44:21Z",
+    "stargazers_count": 599,
+    "topics": [
+      "astro",
+      "formatter",
+      "plugin",
+      "prettier"
+    ],
+    "updated_at": "2026-05-12T16:50:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Congratsbot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/congrats.yml",
+      "term": "Congratsbot"
+    },
+    {
+      "context_snippet": "Format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "term": "Format"
+    },
+    {
+      "context_snippet": "PreRelease",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prerelease.yml",
+      "term": "PreRelease"
+    },
+    {
+      "context_snippet": "Changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Changelog"
+    },
+    {
+      "context_snippet": "Official Prettier plugin adding support for formatting `.astro` files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "astro"
+    },
+    {
+      "context_snippet": "Official Prettier plugin adding support for formatting `.astro` files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "Official Prettier plugin adding support for formatting `.astro` files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "Official Prettier plugin adding support for formatting `.astro` files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prettier"
+    }
+  ]
+}

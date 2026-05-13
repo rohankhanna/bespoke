@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-13T02:12:32.401877+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6630
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Benchmark for Evaluating Turn-Taking and Overlap Handling in Full-Duplex Spoken Dialogue Models",
+    "fork": false,
+    "full_name": "DanielLin94144/Full-Duplex-Bench",
+    "html_url": "https://github.com/DanielLin94144/Full-Duplex-Bench",
+    "language": "Python",
+    "pushed_at": "2026-05-12T19:23:10Z",
+    "stargazers_count": 177,
+    "topics": [],
+    "updated_at": "2026-05-12T19:23:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

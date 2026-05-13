@@ -351,43 +351,43 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T01:48:04.169499+00:00",
+  "fetched_at": "2026-05-13T03:13:45.792096+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 18860
+      "size": 18857
     },
     {
       "path": ".github/workflows/graphs.yml",
-      "size": 1260
+      "size": 1093
     },
     {
       "path": ".github/workflows/response-time.yml",
-      "size": 1334
+      "size": 1167
     },
     {
       "path": ".github/workflows/setup.yml",
-      "size": 2422
+      "size": 2255
     },
     {
       "path": ".github/workflows/site.yml",
-      "size": 1691
+      "size": 1524
     },
     {
       "path": ".github/workflows/summary.yml",
-      "size": 1271
+      "size": 1104
     },
     {
       "path": ".github/workflows/update-template.yml",
-      "size": 1276
+      "size": 1109
     },
     {
       "path": ".github/workflows/updates.yml",
-      "size": 1207
+      "size": 1040
     },
     {
       "path": ".github/workflows/uptime.yml",
-      "size": 1315
+      "size": 1148
     }
   ],
   "related_repositories": [],
@@ -399,8 +399,8 @@
     "full_name": "upptime/upptime",
     "html_url": "https://github.com/upptime/upptime",
     "language": "Markdown",
-    "pushed_at": "2026-05-11T23:46:40Z",
-    "stargazers_count": 17021,
+    "pushed_at": "2026-05-13T02:56:42Z",
+    "stargazers_count": 17025,
     "topics": [
       "incidents-reports",
       "status",
@@ -409,7 +409,7 @@
       "uptime",
       "uptime-monitor"
     ],
-    "updated_at": "2026-05-12T00:17:34Z"
+    "updated_at": "2026-05-13T02:56:46Z"
   },
   "repo_links": [
     {

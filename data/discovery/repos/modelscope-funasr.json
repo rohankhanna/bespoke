@@ -128,7 +128,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T01:55:08.016087+00:00",
+  "fetched_at": "2026-05-13T03:19:53.071929+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -145,7 +145,7 @@
     "html_url": "https://github.com/modelscope/FunASR",
     "language": "Python",
     "pushed_at": "2026-03-17T12:14:01Z",
-    "stargazers_count": 16024,
+    "stargazers_count": 16043,
     "topics": [
       "audio-visual-speech-recognition",
       "conformer",
@@ -163,7 +163,7 @@
       "voice-activity-detection",
       "whisper"
     ],
-    "updated_at": "2026-05-12T00:41:30Z"
+    "updated_at": "2026-05-13T02:28:11Z"
   },
   "repo_links": [
     {

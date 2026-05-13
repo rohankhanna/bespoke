@@ -1,12 +1,22 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     }
@@ -27,10 +37,24 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "dense-analysis/ale",
+      "target": "vimjas/vim-testbed",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "dense-analysis/ale",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dense-analysis/ale",
+      "target": "rhysd/action-setup-vim@v1",
       "target_type": "component"
     },
     {
@@ -104,19 +128,19 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T07:10:40.449722+00:00",
+  "fetched_at": "2026-05-13T01:45:14.766928+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 32126
+      "size": 31955
     },
     {
       "path": "Dockerfile",
-      "size": 713
+      "size": 1906
     },
     {
       "path": ".github/workflows/main.yml",
-      "size": 996
+      "size": 2633
     }
   ],
   "related_repositories": [],
@@ -128,8 +152,8 @@
     "full_name": "dense-analysis/ale",
     "html_url": "https://github.com/dense-analysis/ale",
     "language": "Vim Script",
-    "pushed_at": "2026-04-15T13:04:59Z",
-    "stargazers_count": 13987,
+    "pushed_at": "2026-05-12T21:34:30Z",
+    "stargazers_count": 13988,
     "topics": [
       "autocomplete",
       "language-server-protocol",
@@ -144,7 +168,7 @@
       "vim-plugin",
       "vim-plugins"
     ],
-    "updated_at": "2026-05-12T00:40:13Z"
+    "updated_at": "2026-05-12T21:34:36Z"
   },
   "repo_links": [
     {
@@ -156,6 +180,11 @@
       "edge_type": "explicit-github-link",
       "full_name": "styled-components/stylelint-processor-styled-components",
       "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vimjas/vim-testbed",
+      "source_file": "Dockerfile"
     }
   ],
   "terms": [

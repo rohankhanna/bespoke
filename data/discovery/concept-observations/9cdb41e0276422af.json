@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Get the main content of any page as Markdown."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> de\u00b7\u200bfud\u00b7dle /di\u02c8f\u028cdl/ *transitive verb*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> de\u00b7\u200bfud\u00b7dle /di\u02c8f\u028cdl/ *transitive verb*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "defuddle",
+      "sense_id": "defuddle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "defuddle",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "defuddle",
+  "observation_id": "9cdb41e0276422af",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-13T00:41:47.952744+00:00",
+  "observed_text": "defuddle",
+  "source_context_snippet": "> de\u00b7\u200bfud\u00b7dle /di\u02c8f\u028cdl/ *transitive verb*",
+  "source_file": null,
+  "source_repo": "kepano/defuddle",
+  "source_repo_description": "Get the main content of any page as Markdown."
+}

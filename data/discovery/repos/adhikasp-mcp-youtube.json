@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adhikasp/mcp-youtube",
+      "target": "model-context-protocol",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-13T02:12:33.349831+00:00",
+  "fetched_files": [
+    {
+      "path": "pyproject.toml",
+      "size": 320
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Model Context Protocol to fetch youtube transcript",
+    "fork": false,
+    "full_name": "adhikasp/mcp-youtube",
+    "html_url": "https://github.com/adhikasp/mcp-youtube",
+    "language": "Python",
+    "pushed_at": "2025-12-02T09:35:44Z",
+    "stargazers_count": 48,
+    "topics": [
+      "mcp",
+      "model-context-protocol"
+    ],
+    "updated_at": "2026-03-22T01:05:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[project] name = \"mcp-youtube\" version = \"0.1.0\" description = \"MCP server for fetching YouTube transcripts\" dependencies = [ \"mcp\", \"pydantic>=2.10.2\", \"youtube_transcript_api\", ] [build-system] requires = [\"hatchling\"] build-backend = \"hatchling.build\" [project.scripts] mcp-yo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-context-protocol"
+    }
+  ]
+}

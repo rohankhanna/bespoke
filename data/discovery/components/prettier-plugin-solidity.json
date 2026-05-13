@@ -1,7 +1,7 @@
 {
   "component": "prettier-plugin-solidity",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

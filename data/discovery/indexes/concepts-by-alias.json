@@ -440,6 +440,9 @@
   "aa64": [
     "aa64"
   ],
+  "aaai2022": [
+    "aaai2022"
+  ],
   "aaai2024": [
     "aaai2024"
   ],
@@ -1968,6 +1971,9 @@
   "ai-act": [
     "ai-act"
   ],
+  "ai-age": [
+    "ai-age"
+  ],
   "ai-agent-framework": [
     "ai-agent-framework"
   ],
@@ -2054,6 +2060,9 @@
   ],
   "ai-detection": [
     "ai-detection"
+  ],
+  "ai-developer-tools": [
+    "ai-developer-tools"
   ],
   "ai-development": [
     "ai-development"
@@ -6068,6 +6077,9 @@
   ],
   "auto-differentiation": [
     "auto-differentiation"
+  ],
+  "auto-docs dry-run intake": [
+    "auto-docs-dry-run-intake"
   ],
   "auto-encoder": [
     "auto-encoder"
@@ -16151,6 +16163,9 @@
   "changeset lint": [
     "changeset-lint"
   ],
+  "changeset release": [
+    "changeset-release"
+  ],
   "changeset review": [
     "changeset-review"
   ],
@@ -16955,6 +16970,9 @@
   "check github organization settings prs": [
     "check-github-organization-settings-prs"
   ],
+  "check glama link": [
+    "check-glama-link"
+  ],
   "check gun": [
     "check-gun"
   ],
@@ -17047,6 +17065,9 @@
   ],
   "check js build": [
     "check-js-build"
+  ],
+  "check kilo generated artifacts": [
+    "check-kilo-generated-artifacts"
   ],
   "check labels": [
     "check-labels"
@@ -17447,6 +17468,9 @@
   "check set-up & build": [
     "check-set-up-build"
   ],
+  "check shared upstream annotations": [
+    "check-shared-upstream-annotations"
+  ],
   "check shebangs and filemodes": [
     "check-shebangs-and-filemodes"
   ],
@@ -17689,6 +17713,9 @@
   ],
   "check-no-warnings": [
     "check-no-warnings"
+  ],
+  "check-org-member": [
+    "check-org-member"
   ],
   "check-params": [
     "check-params"
@@ -21527,6 +21554,9 @@
   "code linting": [
     "code-linting"
   ],
+  "code qa roo code": [
+    "code-qa-roo-code"
+  ],
   "code quality": [
     "code-quality"
   ],
@@ -24175,6 +24205,9 @@
   ],
   "contribution-graph": [
     "contribution-graph"
+  ],
+  "contributions": [
+    "contributions"
   ],
   "contributions-welcome": [
     "contributions-welcome"
@@ -29324,6 +29357,9 @@
   "deploy reusable workflow": [
     "deploy-reusable-workflow"
   ],
+  "deploy roocode.com": [
+    "deploy-roocode.com"
+  ],
   "deploy rust book": [
     "deploy-rust-book"
   ],
@@ -30374,6 +30410,9 @@
   "differentialequations": [
     "differentialequations"
   ],
+  "diffsinger": [
+    "diffsinger"
+  ],
   "diffusers": [
     "diffusers"
   ],
@@ -30388,6 +30427,9 @@
   ],
   "diffusion-probabilistic": [
     "diffusion-probabilistic"
+  ],
+  "diffusion-speedup": [
+    "diffusion-speedup"
   ],
   "diffusion-transformer": [
     "diffusion-transformer"
@@ -35821,6 +35863,9 @@
   ],
   "extension ci": [
     "extension-ci"
+  ],
+  "extension health check": [
+    "extension-health-check"
   ],
   "extension issue to pull request conversion": [
     "extension-issue-to-pull-request-conversion"
@@ -47649,6 +47694,9 @@
   "isolines": [
     "isolines"
   ],
+  "isometric": [
+    "isometric"
+  ],
   "isomorphic": [
     "isomorphic"
   ],
@@ -48413,6 +48461,9 @@
   ],
   "jdt-server": [
     "jdt-server"
+  ],
+  "jdtls": [
+    "jdtls"
   ],
   "jedi": [
     "jedi"
@@ -58651,6 +58702,9 @@
   "multi-process": [
     "multi-process"
   ],
+  "multi-provider": [
+    "multi-provider"
+  ],
   "multi-resolution-streams": [
     "multi-resolution-streams"
   ],
@@ -61995,6 +62049,9 @@
   "oauth2-server": [
     "oauth2-server"
   ],
+  "obelisk": [
+    "obelisk"
+  ],
   "obfuscate": [
     "obfuscate"
   ],
@@ -63179,6 +63236,9 @@
   ],
   "opencost": [
     "opencost"
+  ],
+  "opencpop": [
+    "opencpop"
   ],
   "opencv": [
     "opencv"
@@ -74580,6 +74640,9 @@
   "release rustup-toolchain": [
     "release-rustup-toolchain"
   ],
+  "release safari": [
+    "release-safari"
+  ],
   "release sass-api": [
     "release-sass-api"
   ],
@@ -77268,6 +77331,9 @@
   "ruff-wf": [
     "ruff-wf"
   ],
+  "ruflo-agent-smoke": [
+    "ruflo-agent-smoke"
+  ],
   "rugged ci": [
     "rugged-ci"
   ],
@@ -78164,6 +78230,9 @@
   ],
   "rust-test": [
     "rust-test"
+  ],
+  "rust-to-typescript": [
+    "rust-to-typescript"
   ],
   "rust-tools": [
     "rust-tools"
@@ -81026,6 +81095,15 @@
   ],
   "sing-geosite": [
     "sing-geosite"
+  ],
+  "singing-synthesis": [
+    "singing-synthesis"
+  ],
+  "singing-voice": [
+    "singing-voice"
+  ],
+  "singing-voice-database": [
+    "singing-voice-database"
   ],
   "singing-voice-synthesis": [
     "singing-voice-synthesis"
@@ -88592,6 +88670,9 @@
   "testtestframework": [
     "testtestframework"
   ],
+  "testthat": [
+    "testthat"
+  ],
   "testunit": [
     "testunit"
   ],
@@ -95396,6 +95477,9 @@
   "visibility-buffer": [
     "visibility-buffer"
   ],
+  "visinger": [
+    "visinger"
+  ],
   "visio": [
     "visio"
   ],
@@ -95692,6 +95776,9 @@
   ],
   "vits": [
     "vits"
+  ],
+  "vits-svs": [
+    "vits-svs"
   ],
   "vits2": [
     "vits2"

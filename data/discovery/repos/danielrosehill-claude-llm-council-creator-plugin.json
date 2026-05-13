@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-LLM-Council-Creator-Plugin",
+      "target": "danielrosehill/llm-council-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-LLM-Council-Creator-Plugin",
+      "target": "danielrosehill/llm-council-grounded",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-LLM-Council-Creator-Plugin",
+      "target": "danielrosehill/llm-council-decide",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-13T02:11:06.224676+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1985
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude Code plugin for scaffolding new LLM Council projects (Template / Grounded / Decide / Bespoke)",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-LLM-Council-Creator-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-LLM-Council-Creator-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-23T11:02:26Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-28T13:09:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/llm-council-decide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/llm-council-grounded",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/llm-council-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Kilo generated artifacts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kilo-Org/kilocode",
+      "status": "candidate-context",
+      "text": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kilo-Org/kilocode",
+      "status": "candidate-context",
+      "text": "Check Kilo generated artifacts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kilo-Org/kilocode",
+      "status": "candidate",
+      "text": "Check Kilo generated artifacts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31789,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23470,
+      "status": "candidate",
+      "text": "pound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21843,
+      "status": "candidate",
+      "text": "checks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21719,
+      "status": "candidate",
+      "text": "crush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21509,
+      "status": "candidate",
+      "text": "charge"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Kilo generated artifacts",
+  "concept_id": "check-kilo-generated-artifacts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/check-kilo-generated-artifacts.yml",
+      "source_repo": "Kilo-Org/kilocode"
+    }
+  ],
+  "first_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Kilo generated artifacts",
+      "sense_id": "check-kilo-generated-artifacts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

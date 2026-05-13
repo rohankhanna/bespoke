@@ -8,6 +8,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "turbofish-org/ed",
+      "target": "turbofish-io/ed",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "turbofish-org/ed",
@@ -43,6 +50,6 @@
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-05-12T07:08:14.758954+00:00",
+  "generated_at": "2026-05-13T00:41:47.952744+00:00",
   "source_repo": "turbofish-org/ed"
 }

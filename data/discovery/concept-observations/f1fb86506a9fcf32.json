@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Singing Voice Synthesis based on VITS, different from VISinger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "singing-voice-synthesis",
+      "sense_id": "singing-voice-synthesis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "singing-voice-synthesis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "singing-voice-synthesis",
+  "observation_id": "f1fb86506a9fcf32",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-13T00:41:47.952744+00:00",
+  "observed_text": "singing-voice-synthesis",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "PlayVoice/VI-SVS",
+  "source_repo_description": "Singing Voice Synthesis based on VITS, different from VISinger"
+}

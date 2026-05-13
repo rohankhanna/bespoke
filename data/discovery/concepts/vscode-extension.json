@@ -640,6 +640,18 @@
       "source_repo": "xdebug/vscode-php-debug",
       "status": "candidate-context",
       "text": "[![vs marketplace](https://img.shields.io/vscode-marketplace/v/xdebug.php-debug.svg?label=vs%20marketplace)](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug) [![downloads](https://img.shields.io/vscode-marketplace/d/xdebug.php-debug.svg)](https://marketplace\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kilo-Org/kilocode",
+      "status": "candidate-context",
+      "text": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kilo-Org/kilocode",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -960,6 +972,12 @@
       "source_repo": "xdebug/vscode-php-debug",
       "status": "candidate",
       "text": "[![vs marketplace](https://img.shields.io/vscode-marketplace/v/xdebug.php-debug.svg?label=vs%20marketplace)](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug) [![downloads](https://img.shields.io/vscode-marketplace/d/xdebug.php-debug.svg)](https://marketplace\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kilo-Org/kilocode",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -2383,11 +2401,53 @@
       "observed_at": "2026-05-12T07:08:14.758954+00:00",
       "source_file": null,
       "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "swr1bm86/vscode-idris"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "michaellzc/vscode-hadolint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/vscode-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "Kilo-Org/kilocode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "LuaLS/vscode-lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "lexical_providers": [
     "datamuse"
   ],

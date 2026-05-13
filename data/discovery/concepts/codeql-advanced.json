@@ -715,6 +715,18 @@
       "source_repo": "awslabs/aidlc-workflows",
       "status": "candidate-context",
       "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "status": "candidate-context",
+      "text": "Roo Code gives you a whole dev team of AI agents in your code editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "status": "candidate-context",
+      "text": "CodeQL Advanced"
     }
   ],
   "candidate_glosses": [
@@ -1071,6 +1083,12 @@
       "source_repo": "awslabs/aidlc-workflows",
       "status": "candidate",
       "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "status": "candidate",
+      "text": "CodeQL Advanced"
     }
   ],
   "candidate_related_terms": [
@@ -1972,11 +1990,29 @@
       "observed_at": "2026-05-12T07:08:14.758954+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "googleapis/google-cloud-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "RooCodeInc/Roo-Code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "eclipse-openvsx/openvsx"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "lexical_providers": [
     "datamuse"
   ],

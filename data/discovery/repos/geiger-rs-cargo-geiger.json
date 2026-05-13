@@ -216,7 +216,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T01:42:52.517743+00:00",
+  "fetched_at": "2026-05-13T03:08:39.463513+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -261,9 +261,9 @@
     "html_url": "https://github.com/geiger-rs/cargo-geiger",
     "language": "Rust",
     "pushed_at": "2026-01-11T08:36:51Z",
-    "stargazers_count": 1574,
+    "stargazers_count": 1576,
     "topics": [],
-    "updated_at": "2026-05-11T06:33:46Z"
+    "updated_at": "2026-05-13T01:29:10Z"
   },
   "repo_links": [
     {

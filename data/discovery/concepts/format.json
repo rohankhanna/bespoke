@@ -689,6 +689,18 @@
       "source_repo": "pointfreeco/swift-url-routing",
       "status": "candidate-context",
       "text": "Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "status": "candidate-context",
+      "text": "Prettier plugin for Astro"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "status": "candidate-context",
+      "text": "Format"
     }
   ],
   "candidate_glosses": [
@@ -1031,6 +1043,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pointfreeco/swift-url-routing",
+      "status": "candidate",
+      "text": "Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withastro/prettier-plugin-astro",
       "status": "candidate",
       "text": "Format"
     }
@@ -2335,11 +2353,41 @@
       "observed_at": "2026-05-12T18:45:33.862672+00:00",
       "source_file": ".github/workflows/format.yml",
       "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "withastro/prettier-plugin-astro"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "langchain-ai/langchainjs"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T18:45:33.862672+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "lexical_providers": [
     "datamuse"
   ],

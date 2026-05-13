@@ -318,7 +318,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T18:59:59.056230+00:00",
+  "fetched_at": "2026-05-13T02:29:48.301848+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -351,7 +351,7 @@
     "html_url": "https://github.com/qubvel-org/segmentation_models.pytorch",
     "language": "Python",
     "pushed_at": "2026-05-11T06:57:48Z",
-    "stargazers_count": 11542,
+    "stargazers_count": 11543,
     "topics": [
       "computer-vision",
       "deeplab-v3-plus",
@@ -374,7 +374,7 @@
       "unet-pytorch",
       "unetplusplus"
     ],
-    "updated_at": "2026-05-12T18:43:05Z"
+    "updated_at": "2026-05-13T00:31:26Z"
   },
   "repo_links": [
     {

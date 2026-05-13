@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/code-qa.yml",
+      "source_repo": "RooCodeInc/Roo-Code"
+    }
+  ],
+  "term": "Code QA Roo Code"
+}

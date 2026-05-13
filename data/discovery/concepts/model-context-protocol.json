@@ -241,6 +241,18 @@
       "source_repo": "adhikasp/mcp-client-cli",
       "status": "candidate-context",
       "text": "A simple CLI program to run LLM prompt and implement [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) client."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adhikasp/mcp-youtube",
+      "status": "candidate-context",
+      "text": "Model Context Protocol to fetch youtube transcript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adhikasp/mcp-youtube",
+      "status": "candidate-context",
+      "text": "[project] name = \"mcp-youtube\" version = \"0.1.0\" description = \"MCP server for fetching YouTube transcripts\" dependencies = [ \"mcp\", \"pydantic>=2.10.2\", \"youtube_transcript_api\", ] [build-system] requires = [\"hatchling\"] build-backend = \"hatchling.build\" [project.scripts] mcp-yo\u2026"
     }
   ],
   "candidate_glosses": [
@@ -357,6 +369,12 @@
       "source_repo": "adhikasp/mcp-client-cli",
       "status": "candidate",
       "text": "A simple CLI program to run LLM prompt and implement [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adhikasp/mcp-youtube",
+      "status": "candidate",
+      "text": "[project] name = \"mcp-youtube\" version = \"0.1.0\" description = \"MCP server for fetching YouTube transcripts\" dependencies = [ \"mcp\", \"pydantic>=2.10.2\", \"youtube_transcript_api\", ] [build-system] requires = [\"hatchling\"] build-backend = \"hatchling.build\" [project.scripts] mcp-yo\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -754,11 +772,23 @@
       "observed_at": "2026-05-12T07:08:14.758954+00:00",
       "source_file": null,
       "source_repo": "adhikasp/mcp-client-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "adhikasp/mcp-youtube"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "lexical_providers": [
     "datamuse"
   ],

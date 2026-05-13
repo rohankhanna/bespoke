@@ -247,7 +247,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T07:11:55.555444+00:00",
+  "fetched_at": "2026-05-13T01:46:18.782193+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -272,7 +272,7 @@
     "html_url": "https://github.com/babashka/nbb",
     "language": "Clojure",
     "pushed_at": "2026-04-09T20:23:29Z",
-    "stargazers_count": 952,
+    "stargazers_count": 951,
     "topics": [
       "babashka",
       "clojure",
@@ -282,7 +282,7 @@
       "nodejs",
       "scripting"
     ],
-    "updated_at": "2026-05-09T04:35:25Z"
+    "updated_at": "2026-05-12T08:57:44Z"
   },
   "repo_links": [
     {

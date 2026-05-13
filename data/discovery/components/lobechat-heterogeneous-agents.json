@@ -1,7 +1,7 @@
 {
   "component": "@lobechat/heterogeneous-agents",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

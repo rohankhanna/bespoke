@@ -610,6 +610,18 @@
       "source_repo": "sorbet/sorbet",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Aleph-Alpha/ts-rs",
+      "status": "candidate-context",
+      "text": "Generate TypeScript bindings from Rust types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aleph-Alpha/ts-rs",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" style=\"padding-top: 0; margin-top: 0;\">"
     }
   ],
   "candidate_glosses": [
@@ -912,6 +924,12 @@
       "source_repo": "sorbet/sorbet",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aleph-Alpha/ts-rs",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" style=\"padding-top: 0; margin-top: 0;\">"
     }
   ],
   "candidate_related_terms": [
@@ -1633,11 +1651,29 @@
       "observed_at": "2026-05-12T07:08:14.758954+00:00",
       "source_file": null,
       "source_repo": "wevm/abitype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "wevm/abitype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "Aleph-Alpha/ts-rs"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "lexical_providers": [
     "datamuse"
   ],

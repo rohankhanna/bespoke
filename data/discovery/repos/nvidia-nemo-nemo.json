@@ -326,7 +326,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T19:12:35.484468+00:00",
+  "fetched_at": "2026-05-13T03:01:45.449605+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -378,8 +378,8 @@
     "full_name": "NVIDIA-NeMo/NeMo",
     "html_url": "https://github.com/NVIDIA-NeMo/NeMo",
     "language": "Python",
-    "pushed_at": "2026-05-12T18:37:00Z",
-    "stargazers_count": 17198,
+    "pushed_at": "2026-05-13T00:48:08Z",
+    "stargazers_count": 17199,
     "topics": [
       "asr",
       "deeplearning",
@@ -392,7 +392,7 @@
       "speech-translation",
       "tts"
     ],
-    "updated_at": "2026-05-12T18:27:08Z"
+    "updated_at": "2026-05-13T00:39:37Z"
   },
   "repo_links": [
     {

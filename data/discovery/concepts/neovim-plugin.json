@@ -1897,6 +1897,18 @@
       "source_repo": "nvim-java/nvim-java",
       "status": "candidate-context",
       "text": "![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JavaHello/spring-boot.nvim",
+      "status": "candidate-context",
+      "text": "Neovim + Spring Boot LS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JavaHello/spring-boot.nvim",
+      "status": "candidate-context",
+      "text": "[English](./README_en.md)"
     }
   ],
   "candidate_glosses": [
@@ -2847,6 +2859,12 @@
       "source_repo": "nvim-java/nvim-java",
       "status": "candidate",
       "text": "![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JavaHello/spring-boot.nvim",
+      "status": "candidate",
+      "text": "[English](./README_en.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -5740,11 +5758,65 @@
       "observed_at": "2026-05-12T07:08:14.758954+00:00",
       "source_file": null,
       "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/dashboard-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "famiu/feline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-config.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "JavaHello/spring-boot.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -192,7 +192,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T07:09:15.531892+00:00",
+  "fetched_at": "2026-05-13T01:24:49.865920+00:00",
   "fetched_files": [
     {
       "path": "package.json",
@@ -217,12 +217,12 @@
     "html_url": "https://github.com/mattpocock/ts-reset",
     "language": "TypeScript",
     "pushed_at": "2026-04-01T13:30:54Z",
-    "stargazers_count": 8485,
+    "stargazers_count": 8486,
     "topics": [
       "reset",
       "typescript"
     ],
-    "updated_at": "2026-05-11T15:44:41Z"
+    "updated_at": "2026-05-12T13:33:48Z"
   },
   "repo_links": [
     {

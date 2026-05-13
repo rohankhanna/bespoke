@@ -387,7 +387,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-12T01:41:01.564933+00:00",
+  "fetched_at": "2026-05-13T03:07:10.273962+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -431,7 +431,7 @@
     "full_name": "mongodb/winkerberos",
     "html_url": "https://github.com/mongodb/winkerberos",
     "language": "C",
-    "pushed_at": "2026-04-29T01:10:18Z",
+    "pushed_at": "2026-05-12T19:02:30Z",
     "stargazers_count": 57,
     "topics": [
       "authentication",

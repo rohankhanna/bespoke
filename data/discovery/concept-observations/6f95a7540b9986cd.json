@@ -84,7 +84,7 @@
   "normalized_form": "build-status",
   "observation_id": "6f95a7540b9986cd",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-12T07:08:14.758954+00:00",
+  "observed_at": "2026-05-13T00:41:47.952744+00:00",
   "observed_text": "Build Status",
   "source_context_snippet": "Build Status",
   "source_file": ".github/workflows/test.yml",

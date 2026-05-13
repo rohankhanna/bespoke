@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-05-12T18:45:33.862672+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -576,6 +576,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "hexabot-ai/Hexabot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kilo-Org/kilocode"
     }
   ],
   "term": "chatgpt"

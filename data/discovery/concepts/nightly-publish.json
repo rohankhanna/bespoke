@@ -19,12 +19,30 @@
       "source_repo": "rust-lang/docker-rust",
       "status": "candidate-context",
       "text": "Nightly Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "status": "candidate-context",
+      "text": "Roo Code gives you a whole dev team of AI agents in your code editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RooCodeInc/Roo-Code",
+      "status": "candidate-context",
+      "text": "Nightly Publish"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "rust-lang/docker-rust",
+      "status": "candidate",
+      "text": "Nightly Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RooCodeInc/Roo-Code",
       "status": "candidate",
       "text": "Nightly Publish"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "rust-lang/docker-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/nightly-publish.yml",
+      "source_repo": "RooCodeInc/Roo-Code"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "lexical_providers": [
     "datamuse"
   ],

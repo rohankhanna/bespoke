@@ -117,6 +117,18 @@
       "source_repo": "badmojr/1Hosts",
       "status": "candidate-context",
       "text": "Close Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kilo-Org/kilocode",
+      "status": "candidate-context",
+      "text": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kilo-Org/kilocode",
+      "status": "candidate-context",
+      "text": "close-issues"
     }
   ],
   "candidate_glosses": [
@@ -173,6 +185,12 @@
       "source_repo": "badmojr/1Hosts",
       "status": "candidate",
       "text": "Close Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kilo-Org/kilocode",
+      "status": "candidate",
+      "text": "close-issues"
     }
   ],
   "candidate_related_terms": [
@@ -468,11 +486,23 @@
       "observed_at": "2026-05-12T00:37:36.884355+00:00",
       "source_file": ".github/workflows/issues.yml",
       "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/close-issues.yml",
+      "source_repo": "Kilo-Org/kilocode"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T00:37:36.884355+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "lexical_providers": [
     "datamuse"
   ],

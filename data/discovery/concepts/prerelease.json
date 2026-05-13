@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Prerelease",
-    "prerelease"
+    "prerelease",
+    "PreRelease"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -46,6 +47,18 @@
       "source_repo": "formatjs/formatjs",
       "status": "candidate-context",
       "text": "Prerelease"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "status": "candidate-context",
+      "text": "Prettier plugin for Astro"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "status": "candidate-context",
+      "text": "PreRelease"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +79,12 @@
       "source_repo": "formatjs/formatjs",
       "status": "candidate",
       "text": "Prerelease"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withastro/prettier-plugin-astro",
+      "status": "candidate",
+      "text": "PreRelease"
     }
   ],
   "candidate_related_terms": [
@@ -127,11 +146,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/prerelease.yml",
       "source_repo": "formatjs/formatjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-13T00:41:47.952744+00:00",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "withastro/prettier-plugin-astro"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
   "lexical_providers": [
     "datamuse"
   ],
