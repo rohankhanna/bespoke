@@ -41,17 +41,17 @@
       "source_file": "package.json"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-fix.yml"
     },
     {
-      "component": "pnpm/action-setup@v4",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-fix.yml"
     },
     {
-      "component": "actions/setup-node@v4",
+      "component": "actions/setup-node@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-fix.yml"
     },
@@ -61,17 +61,17 @@
       "source_file": ".github/workflows/auto-fix.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-version.yml"
     },
     {
-      "component": "pnpm/action-setup@v4",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-version.yml"
     },
     {
-      "component": "actions/setup-node@v4",
+      "component": "actions/setup-node@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-version.yml"
     },
@@ -81,97 +81,97 @@
       "source_file": ".github/workflows/auto-version.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/copilot-setup-steps.yml"
     },
     {
-      "component": "pnpm/action-setup@v4",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/copilot-setup-steps.yml"
     },
     {
-      "component": "actions/setup-node@v4",
+      "component": "actions/setup-node@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/copilot-setup-steps.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "pnpm/action-setup@v4",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/setup-node@v4",
+      "component": "actions/setup-node@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "pnpm/action-setup@v4",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/setup-node@v4",
+      "component": "actions/setup-node@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "pnpm/action-setup@v4",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/setup-node@v4",
+      "component": "actions/setup-node@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "pnpm/action-setup@v4",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/setup-node@v4",
+      "component": "actions/setup-node@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-html-data.yml"
     },
     {
-      "component": "pnpm/action-setup@v4",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-html-data.yml"
     },
     {
-      "component": "actions/setup-node@v4",
+      "component": "actions/setup-node@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-html-data.yml"
     },
@@ -182,13 +182,6 @@
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vuejs/language-tools",
-      "target": "volarjs/workspace.",
-      "target_type": "repository"
-    },
     {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
@@ -249,21 +242,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-fix.yml",
       "source_repo": "vuejs/language-tools",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-fix.yml",
       "source_repo": "vuejs/language-tools",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-fix.yml",
       "source_repo": "vuejs/language-tools",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-node@v6",
       "target_type": "component"
     },
     {
@@ -284,21 +277,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-version.yml",
       "source_repo": "vuejs/language-tools",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-version.yml",
       "source_repo": "vuejs/language-tools",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-version.yml",
       "source_repo": "vuejs/language-tools",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-node@v6",
       "target_type": "component"
     },
     {
@@ -319,21 +312,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "vuejs/language-tools",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "vuejs/language-tools",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "vuejs/language-tools",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-node@v6",
       "target_type": "component"
     },
     {
@@ -347,21 +340,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "vuejs/language-tools",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "vuejs/language-tools",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "vuejs/language-tools",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-node@v6",
       "target_type": "component"
     },
     {
@@ -375,21 +368,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "vuejs/language-tools",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "vuejs/language-tools",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "vuejs/language-tools",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-node@v6",
       "target_type": "component"
     },
     {
@@ -403,21 +396,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-html-data.yml",
       "source_repo": "vuejs/language-tools",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-html-data.yml",
       "source_repo": "vuejs/language-tools",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-html-data.yml",
       "source_repo": "vuejs/language-tools",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-node@v6",
       "target_type": "component"
     },
     {
@@ -435,7 +428,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T14:23:56.409648+00:00",
+  "fetched_at": "2026-05-14T01:54:59.558882+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -459,7 +452,7 @@
     },
     {
       "path": ".github/workflows/release.yml",
-      "size": 3016
+      "size": 2864
     },
     {
       "path": ".github/workflows/test.yml",
@@ -467,7 +460,7 @@
     },
     {
       "path": ".github/workflows/update-html-data.yml",
-      "size": 736
+      "size": 709
     }
   ],
   "related_repositories": [],
@@ -479,18 +472,12 @@
     "full_name": "vuejs/language-tools",
     "html_url": "https://github.com/vuejs/language-tools",
     "language": "TypeScript",
-    "pushed_at": "2026-05-12T21:55:31Z",
-    "stargazers_count": 6662,
+    "pushed_at": "2026-05-13T17:00:41Z",
+    "stargazers_count": 6659,
     "topics": [],
-    "updated_at": "2026-05-12T21:48:08Z"
+    "updated_at": "2026-05-14T01:18:41Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "volarjs/workspace.",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Auto Fix",

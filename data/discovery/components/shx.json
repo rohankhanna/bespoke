@@ -1,7 +1,7 @@
 {
   "component": "shx",
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -297,6 +297,26 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "GladysAssistant/Gladys"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "foliojs/fontkit"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge-shelly"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge-somfy-tahoma"
     }
   ]
 }

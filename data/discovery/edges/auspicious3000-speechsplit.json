@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auspicious3000/SpeechSplit",
+      "target": "disentangled-representations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auspicious3000/SpeechSplit",
+      "target": "unsupervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auspicious3000/SpeechSplit",
+      "target": "voice-conversion",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-14T00:43:26.166349+00:00",
+  "source_repo": "auspicious3000/SpeechSplit"
+}

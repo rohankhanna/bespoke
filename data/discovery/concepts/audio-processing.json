@@ -235,6 +235,18 @@
       "source_repo": "AudioLLMs/Awesome-Audio-LLM",
       "status": "candidate-context",
       "text": "We thank the following contributors for their valuable contributions!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flutydeer/audio-slicer",
+      "status": "candidate-context",
+      "text": "A simple GUI application that slices audio with silence detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flutydeer/audio-slicer",
+      "status": "candidate-context",
+      "text": "A simple GUI application that slices audio with silence detection."
     }
   ],
   "candidate_glosses": [
@@ -351,6 +363,12 @@
       "source_repo": "AudioLLMs/Awesome-Audio-LLM",
       "status": "candidate",
       "text": "We thank the following contributors for their valuable contributions!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flutydeer/audio-slicer",
+      "status": "candidate",
+      "text": "A simple GUI application that slices audio with silence detection."
     }
   ],
   "candidate_related_terms": [],
@@ -694,11 +712,23 @@
       "observed_at": "2026-05-13T12:58:22.952944+00:00",
       "source_file": null,
       "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "flutydeer/audio-slicer"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "lexical_providers": [
     "datamuse"
   ],

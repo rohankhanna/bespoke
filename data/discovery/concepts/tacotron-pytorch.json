@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "tacotron-pytorch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auspicious3000/autovc",
+      "status": "candidate-context",
+      "text": "AutoVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auspicious3000/autovc",
+      "status": "candidate-context",
+      "text": "This repository provides a PyTorch implementation of AUTOVC."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auspicious3000/autovc",
+      "status": "candidate",
+      "text": "This repository provides a PyTorch implementation of AUTOVC."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "tacotron-pytorch",
+  "concept_id": "tacotron-pytorch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "auspicious3000/autovc"
+    }
+  ],
+  "first_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tacotron-pytorch",
+      "sense_id": "tacotron-pytorch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

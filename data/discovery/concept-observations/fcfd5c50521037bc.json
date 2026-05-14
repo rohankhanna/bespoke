@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Matterbridge plugin manager for Matter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- eslint-disable markdown/no-multiple-h1 -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- eslint-disable markdown/no-multiple-h1 -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "google-home",
+      "sense_id": "google-home#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "google-home",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "google-home",
+  "observation_id": "fcfd5c50521037bc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-14T00:43:26.166349+00:00",
+  "observed_text": "google-home",
+  "source_context_snippet": "<!-- eslint-disable markdown/no-multiple-h1 -->",
+  "source_file": null,
+  "source_repo": "Luligu/matterbridge",
+  "source_repo_description": "Matterbridge plugin manager for Matter"
+}

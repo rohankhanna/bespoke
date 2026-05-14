@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Node.js CI - Frontend"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Luligu/matterbridge",
+      "status": "candidate-context",
+      "text": "Matterbridge plugin manager for Matter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Luligu/matterbridge",
+      "status": "candidate-context",
+      "text": "Node.js CI - Frontend"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Luligu/matterbridge",
+      "status": "candidate",
+      "text": "Node.js CI - Frontend"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "animation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "animations"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "applet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "applets"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "audio"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Node.js CI - Frontend",
+  "concept_id": "node.js-ci---frontend",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": ".github/workflows/build-frontend.yml",
+      "source_repo": "Luligu/matterbridge"
+    }
+  ],
+  "first_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Node.js CI - Frontend",
+      "sense_id": "node.js-ci---frontend#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

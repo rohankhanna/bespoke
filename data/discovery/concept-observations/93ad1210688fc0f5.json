@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Unofficial Pytorch implementation of SNAC: Speaker-normalized affine coupling layer in flow-based architecture for zero-shot multi-speaker text-to-speech"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the unofficial pytorch implementation of [SNAC](https://arxiv.org/abs/2211.16866)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the unofficial pytorch implementation of [SNAC](https://arxiv.org/abs/2211.16866)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "text-to-speech",
+      "sense_id": "text-to-speech#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "text-to-speech",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "text-to-speech",
+  "observation_id": "93ad1210688fc0f5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-14T00:43:26.166349+00:00",
+  "observed_text": "text-to-speech",
+  "source_context_snippet": "This is the unofficial pytorch implementation of [SNAC](https://arxiv.org/abs/2211.16866)",
+  "source_file": null,
+  "source_repo": "hcy71o/SNAC",
+  "source_repo_description": "Unofficial Pytorch implementation of SNAC: Speaker-normalized affine coupling layer in flow-based architecture for zero-shot multi-speaker text-to-speech"
+}

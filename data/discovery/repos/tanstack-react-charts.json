@@ -933,7 +933,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T14:29:52.109849+00:00",
+  "fetched_at": "2026-05-14T04:11:56.919754+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -950,7 +950,7 @@
   ],
   "related_repositories": [],
   "repo": {
-    "archived": false,
+    "archived": true,
     "default_branch": "beta",
     "description": "\u269b\ufe0f Simple, immersive & interactive charts for React",
     "fork": false,
@@ -966,7 +966,7 @@
       "react",
       "react-motion"
     ],
-    "updated_at": "2026-05-13T04:46:57Z"
+    "updated_at": "2026-05-13T16:47:29Z"
   },
   "repo_links": [
     {

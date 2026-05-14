@@ -310,6 +310,18 @@
       "source_repo": "fmaclen/hollama",
       "status": "candidate-context",
       "text": "Playwright"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clauderic/dnd-kit",
+      "status": "candidate-context",
+      "text": "The modern toolkit for building drag and drop interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clauderic/dnd-kit",
+      "status": "candidate-context",
+      "text": "Playwright"
     }
   ],
   "candidate_glosses": [
@@ -460,6 +472,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fmaclen/hollama",
+      "status": "candidate",
+      "text": "Playwright"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clauderic/dnd-kit",
       "status": "candidate",
       "text": "Playwright"
     }
@@ -681,11 +699,17 @@
       "observed_at": "2026-05-11T00:40:20.012502+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "fmaclen/hollama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "clauderic/dnd-kit"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T00:40:20.012502+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "lexical_providers": [
     "datamuse"
   ],

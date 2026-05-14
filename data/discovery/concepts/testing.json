@@ -2087,6 +2087,18 @@
       "source_repo": "pdfme/pdfme",
       "status": "candidate-context",
       "text": "Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andy-bell101/neotest-java",
+      "status": "candidate-context",
+      "text": "Java plugin for Neotest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andy-bell101/neotest-java",
+      "status": "candidate-context",
+      "text": "Testing"
     }
   ],
   "candidate_glosses": [
@@ -3125,6 +3137,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pdfme/pdfme",
+      "status": "candidate",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andy-bell101/neotest-java",
       "status": "candidate",
       "text": "Testing"
     }
@@ -6387,11 +6405,83 @@
       "observed_at": "2026-05-13T18:45:31.430554+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "pdfme/pdfme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/react-shallow-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "DioxusLabs/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "PraneshASP/vscode-foundry-test-runner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "andy-bell101/neotest-java"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "lexical_providers": [
     "datamuse"
   ],

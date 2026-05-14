@@ -2813,6 +2813,18 @@
       "source_repo": "meta-pytorch/torchcodec",
       "status": "candidate-context",
       "text": "MacOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "version-fox/vfox",
+      "status": "candidate-context",
+      "text": "A cross-platform and extendable version manager with support for Java, Node.js, Golang, Python, Flutter, .NET & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "version-fox/vfox",
+      "status": "candidate-context",
+      "text": "<p style=\"\" align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -4243,6 +4255,12 @@
       "source_repo": "meta-pytorch/torchcodec",
       "status": "candidate",
       "text": "MacOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "version-fox/vfox",
+      "status": "candidate",
+      "text": "<p style=\"\" align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -7766,11 +7784,77 @@
       "observed_at": "2026-05-13T18:45:31.430554+00:00",
       "source_file": null,
       "source_repo": "Alex313031/Thorium-MacOS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": ".github/workflows/macos_wheel.yaml",
+      "source_repo": "meta-pytorch/torchcodec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-MacOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "version-fox/vfox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "lexical_providers": [
     "datamuse"
   ],

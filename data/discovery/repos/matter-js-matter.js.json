@@ -311,28 +311,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "matter-js/matter.js",
-      "target": "iobroker/iobroker.matter",
+      "target": "luligu/matterbridge",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "matter-js/matter.js",
-      "target": "fezvrasta/node-red-matter",
+      "target": "luligu/matterbridge-somfy-tahoma",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "matter-js/matter.js",
-      "target": "antonio-gabriele/zigbee-matter-bridge",
+      "target": "luligu/matterbridge-shelly",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "matter-js/matter.js",
-      "target": "gladysassistant/gladys",
+      "target": "jimbuzbee/matter-controller",
       "target_type": "repository"
     },
     {
@@ -672,7 +672,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T13:07:20.432862+00:00",
+  "fetched_at": "2026-05-14T03:02:55.224535+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -724,7 +724,7 @@
     "full_name": "matter-js/matter.js",
     "html_url": "https://github.com/matter-js/matter.js",
     "language": "TypeScript",
-    "pushed_at": "2026-05-13T12:42:49Z",
+    "pushed_at": "2026-05-14T01:59:28Z",
     "stargazers_count": 794,
     "topics": [
       "connectedthings",
@@ -733,27 +733,27 @@
       "matterprotocol",
       "smarthome"
     ],
-    "updated_at": "2026-05-13T11:19:01Z"
+    "updated_at": "2026-05-14T01:59:31Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "antonio-gabriele/zigbee-matter-bridge",
+      "full_name": "jimbuzbee/matter-controller",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "fezvrasta/node-red-matter",
+      "full_name": "luligu/matterbridge",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "gladysassistant/gladys",
+      "full_name": "luligu/matterbridge-shelly",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "iobroker/iobroker.matter",
+      "full_name": "luligu/matterbridge-somfy-tahoma",
       "source_file": "README.md"
     }
   ],

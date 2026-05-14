@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-14T05:12:51.095571+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3729
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Claude Code plugin: purchasing workflow \u2014 intake, research, compare, evaluate, recommend, market-check, preference memory, and hardware-rig profiling primitives, with general/tech-procurement/recommendations variants.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Purchasing-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Purchasing-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-21T11:46:56Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-28T04:13:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

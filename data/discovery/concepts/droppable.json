@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "droppable"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clauderic/dnd-kit",
+      "status": "candidate-context",
+      "text": "The modern toolkit for building drag and drop interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clauderic/dnd-kit",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clauderic/dnd-kit",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932864,
+      "status": "candidate",
+      "text": "airdroppable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932863,
+      "status": "candidate",
+      "text": "ditchable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932862,
+      "status": "candidate",
+      "text": "jettisonable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932861,
+      "status": "candidate",
+      "text": "drop-proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932860,
+      "status": "candidate",
+      "text": "dumpable"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "droppable",
+  "concept_id": "droppable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "clauderic/dnd-kit"
+    }
+  ],
+  "first_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "droppable",
+      "sense_id": "droppable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

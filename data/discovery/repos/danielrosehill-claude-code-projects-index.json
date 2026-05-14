@@ -11,28 +11,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-personal-planning-plugin",
+      "target": "danielrosehill/claude-purchasing-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-pr-media-work-plugin",
+      "target": "danielrosehill/claude-security-checkup-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-model-identifier",
+      "target": "danielrosehill/claude-research-space-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-md-chunk",
+      "target": "danielrosehill/claude-code-linux-notes",
       "target_type": "repository"
     },
     {
@@ -64,7 +64,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T13:04:47.762841+00:00",
+  "fetched_at": "2026-05-14T03:02:10.738598+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -96,22 +96,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-md-chunk",
+      "full_name": "danielrosehill/claude-code-linux-notes",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-model-identifier",
+      "full_name": "danielrosehill/claude-purchasing-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-personal-planning-plugin",
+      "full_name": "danielrosehill/claude-research-space-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-pr-media-work-plugin",
+      "full_name": "danielrosehill/claude-security-checkup-plugin",
       "source_file": "README.md"
     }
   ],

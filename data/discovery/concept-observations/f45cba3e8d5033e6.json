@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Matterbridge plugin manager for Matter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- eslint-disable markdown/no-multiple-h1 -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- eslint-disable markdown/no-multiple-h1 -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "matterprotocol",
+      "sense_id": "matterprotocol#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "matterprotocol",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "matterprotocol",
+  "observation_id": "f45cba3e8d5033e6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-14T00:43:26.166349+00:00",
+  "observed_text": "matterprotocol",
+  "source_context_snippet": "<!-- eslint-disable markdown/no-multiple-h1 -->",
+  "source_file": null,
+  "source_repo": "Luligu/matterbridge",
+  "source_repo_description": "Matterbridge plugin manager for Matter"
+}

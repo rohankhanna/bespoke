@@ -326,7 +326,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T14:06:37.783888+00:00",
+  "fetched_at": "2026-05-14T03:59:56.305946+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -358,7 +358,7 @@
     },
     {
       "path": ".github/workflows/cicd-approve-test-queue.yml",
-      "size": 6812
+      "size": 10015
     },
     {
       "path": ".github/workflows/cicd-main-speech.yml",
@@ -378,8 +378,8 @@
     "full_name": "NVIDIA-NeMo/NeMo",
     "html_url": "https://github.com/NVIDIA-NeMo/NeMo",
     "language": "Python",
-    "pushed_at": "2026-05-13T13:49:59Z",
-    "stargazers_count": 17203,
+    "pushed_at": "2026-05-14T03:01:09Z",
+    "stargazers_count": 17206,
     "topics": [
       "asr",
       "deeplearning",
@@ -392,7 +392,7 @@
       "speech-translation",
       "tts"
     ],
-    "updated_at": "2026-05-13T13:09:18Z"
+    "updated_at": "2026-05-14T02:54:31Z"
   },
   "repo_links": [
     {

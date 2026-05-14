@@ -1,7 +1,7 @@
 {
   "component": "conda-incubator/setup-miniconda@v3",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -457,6 +457,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "MontrealCorpusTools/Montreal-Forced-Aligner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-minimal.yml",
+      "source_repo": "bmcfee/resampy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bmcfee/resampy"
     }
   ]
 }

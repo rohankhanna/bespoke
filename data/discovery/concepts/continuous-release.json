@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Continuous Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clauderic/dnd-kit",
+      "status": "candidate-context",
+      "text": "The modern toolkit for building drag and drop interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clauderic/dnd-kit",
+      "status": "candidate-context",
+      "text": "Continuous Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clauderic/dnd-kit",
+      "status": "candidate",
+      "text": "Continuous Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36637,
+      "status": "candidate",
+      "text": "continuousness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36636,
+      "status": "candidate",
+      "text": "continuously"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36635,
+      "status": "candidate",
+      "text": "continuous improvement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36634,
+      "status": "candidate",
+      "text": "continual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36633,
+      "status": "candidate",
+      "text": "constant"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Continuous Release",
+  "concept_id": "continuous-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": ".github/workflows/continous-release.yml",
+      "source_repo": "clauderic/dnd-kit"
+    }
+  ],
+  "first_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Continuous Release",
+      "sense_id": "continuous-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

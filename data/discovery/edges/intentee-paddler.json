@@ -102,13 +102,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "intentee/paddler",
-      "target": "ava",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "intentee/paddler",
       "target": "esbuild",
       "target_type": "component"
     },
@@ -194,13 +187,6 @@
       "source_file": "package.json",
       "source_repo": "intentee/paddler",
       "target": "tempy",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "intentee/paddler",
-      "target": "tsimp",
       "target_type": "component"
     },
     {
@@ -372,6 +358,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-13T12:58:22.952944+00:00",
+  "generated_at": "2026-05-14T00:43:26.166349+00:00",
   "source_repo": "intentee/paddler"
 }

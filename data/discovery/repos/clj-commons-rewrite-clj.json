@@ -245,11 +245,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T09:33:29.369007+00:00",
+  "fetched_at": "2026-05-14T02:50:47.140627+00:00",
   "fetched_files": [
     {
       "path": "package.json",
-      "size": 249
+      "size": 250
     },
     {
       "path": ".github/workflows/code-coverage.yml",
@@ -281,10 +281,10 @@
     "full_name": "clj-commons/rewrite-clj",
     "html_url": "https://github.com/clj-commons/rewrite-clj",
     "language": "Clojure",
-    "pushed_at": "2026-05-07T16:44:19Z",
+    "pushed_at": "2026-05-13T19:01:00Z",
     "stargazers_count": 656,
     "topics": [],
-    "updated_at": "2026-05-12T08:17:09Z"
+    "updated_at": "2026-05-13T19:01:03Z"
   },
   "repo_links": [],
   "terms": [

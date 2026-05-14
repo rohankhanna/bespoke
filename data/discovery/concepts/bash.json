@@ -937,6 +937,30 @@
       "source_repo": "scop/bash-completion",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/scop/bash-completion/actions/workflows/ci.yaml/badge.svg)](https://github.com/scop/bash-completion/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "version-fox/vfox",
+      "status": "candidate-context",
+      "text": "A cross-platform and extendable version manager with support for Java, Node.js, Golang, Python, Flutter, .NET & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "version-fox/vfox",
+      "status": "candidate-context",
+      "text": "<p style=\"\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atuinsh/atuin",
+      "status": "candidate-context",
+      "text": "\u2728 Making your shell magical"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atuinsh/atuin",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1401,6 +1425,18 @@
       "source_repo": "scop/bash-completion",
       "status": "candidate",
       "text": "[![CI](https://github.com/scop/bash-completion/actions/workflows/ci.yaml/badge.svg)](https://github.com/scop/bash-completion/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "version-fox/vfox",
+      "status": "candidate",
+      "text": "<p style=\"\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atuinsh/atuin",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2932,11 +2968,47 @@
       "observed_at": "2026-05-13T18:45:31.430554+00:00",
       "source_file": null,
       "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "version-fox/vfox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "atuinsh/atuin"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "lexical_providers": [
     "datamuse"
   ],

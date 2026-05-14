@@ -1,0 +1,305 @@
+{
+  "components": [
+    {
+      "component": "@daybrush/jsdoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@daybrush/release",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cpx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "daybrush-jsdoc-template",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gh-pages",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "intercept-stdout",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna-changelog",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "daybrush/scena",
+      "target": "daybrush/css-styled",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "daybrush/scena",
+      "target": "daybrush/css-to-mat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "daybrush/scena",
+      "target": "daybrush/framework-utils",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "daybrush/scena",
+      "target": "casesandberg/react-color",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/scena",
+      "target": "@daybrush/jsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/scena",
+      "target": "@daybrush/release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/scena",
+      "target": "cpx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/scena",
+      "target": "daybrush-jsdoc-template",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/scena",
+      "target": "gh-pages",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/scena",
+      "target": "intercept-stdout",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/scena",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/scena",
+      "target": "lerna-changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/scena",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/scena",
+      "target": "animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/scena",
+      "target": "keyframes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/scena",
+      "target": "preact",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/scena",
+      "target": "preact-compat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/scena",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/scena",
+      "target": "scene",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/scena",
+      "target": "scenejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/scena",
+      "target": "timeline",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T05:13:10.339201+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8725
+    },
+    {
+      "path": "package.json",
+      "size": 3085
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udfac Scena is a component that represents the timeline of Scene.js. You can control time, properties, and items.",
+    "fork": false,
+    "full_name": "daybrush/scena",
+    "html_url": "https://github.com/daybrush/scena",
+    "language": "TypeScript",
+    "pushed_at": "2023-06-17T18:12:15Z",
+    "stargazers_count": 927,
+    "topics": [
+      "animation",
+      "css",
+      "keyframes",
+      "preact",
+      "preact-compat",
+      "react",
+      "scene",
+      "scenejs",
+      "timeline"
+    ],
+    "updated_at": "2026-05-12T17:59:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casesandberg/react-color",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daybrush/css-styled",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daybrush/css-to-mat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daybrush/framework-utils",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"middle\" ><img src=\"https://raw.githubusercontent.com/daybrush/scena/master/demo/images/logo.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation"
+    },
+    {
+      "context_snippet": "<p align=\"middle\" ><img src=\"https://raw.githubusercontent.com/daybrush/scena/master/demo/images/logo.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keyframes"
+    },
+    {
+      "context_snippet": "<p align=\"middle\" ><img src=\"https://raw.githubusercontent.com/daybrush/scena/master/demo/images/logo.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preact"
+    },
+    {
+      "context_snippet": "<p align=\"middle\" ><img src=\"https://raw.githubusercontent.com/daybrush/scena/master/demo/images/logo.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preact-compat"
+    },
+    {
+      "context_snippet": "<p align=\"middle\" ><img src=\"https://raw.githubusercontent.com/daybrush/scena/master/demo/images/logo.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "<p align=\"middle\" ><img src=\"https://raw.githubusercontent.com/daybrush/scena/master/demo/images/logo.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene"
+    },
+    {
+      "context_snippet": "<p align=\"middle\" ><img src=\"https://raw.githubusercontent.com/daybrush/scena/master/demo/images/logo.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scenejs"
+    },
+    {
+      "context_snippet": "<p align=\"middle\" ><img src=\"https://raw.githubusercontent.com/daybrush/scena/master/demo/images/logo.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "timeline"
+    }
+  ]
+}

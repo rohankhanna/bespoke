@@ -19,6 +19,30 @@
       "source_repo": "biggytruck/SpeechSplit2",
       "status": "candidate-context",
       "text": "Official implementation of [SpeechSplit 2.0: Unsupervised speech disentanglement for voice conversion Without tuning autoencoder Bottlenecks](https://arxiv.org/pdf/2203.14156.pdf)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auspicious3000/AutoPST",
+      "status": "candidate-context",
+      "text": "Global Rhythm Style Transfer Without Text Transcriptions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auspicious3000/AutoPST",
+      "status": "candidate-context",
+      "text": "This repository provides a PyTorch implementation of [AutoPST](https://arxiv.org/abs/2106.08519), which enables unsupervised global prosody conversion without text transcriptions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auspicious3000/SpeechSplit",
+      "status": "candidate-context",
+      "text": "Unsupervised Speech Decomposition Via Triple Information Bottleneck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auspicious3000/SpeechSplit",
+      "status": "candidate-context",
+      "text": "This repository provides a PyTorch implementation of [SpeechSplit](https://arxiv.org/abs/2004.11284), which enables more detailed speaking style conversion by disentangling speech into content, timbre, rhythm and pitch."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "biggytruck/SpeechSplit2",
       "status": "candidate",
       "text": "Official implementation of [SpeechSplit 2.0: Unsupervised speech disentanglement for voice conversion Without tuning autoencoder Bottlenecks](https://arxiv.org/pdf/2203.14156.pdf)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auspicious3000/AutoPST",
+      "status": "candidate",
+      "text": "This repository provides a PyTorch implementation of [AutoPST](https://arxiv.org/abs/2106.08519), which enables unsupervised global prosody conversion without text transcriptions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auspicious3000/SpeechSplit",
+      "status": "candidate",
+      "text": "This repository provides a PyTorch implementation of [SpeechSplit](https://arxiv.org/abs/2004.11284), which enables more detailed speaking style conversion by disentangling speech into content, timbre, rhythm and pitch."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-05-13T18:45:31.430554+00:00",
       "source_file": null,
       "source_repo": "biggytruck/SpeechSplit2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "auspicious3000/AutoPST"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "auspicious3000/SpeechSplit"
     }
   ],
   "first_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "changesets/action@d94a5c301145045a0960133674e003b265942a22",
+  "first_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clauderic/dnd-kit"
+    }
+  ]
+}

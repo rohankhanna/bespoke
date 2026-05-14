@@ -19,6 +19,18 @@
       "source_repo": "r9y9/wavenet_vocoder",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/wavenet_vocoder.svg)](https://pypi.python.org/pypi/wavenet_vocoder)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auspicious3000/autovc",
+      "status": "candidate-context",
+      "text": "AutoVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auspicious3000/autovc",
+      "status": "candidate-context",
+      "text": "This repository provides a PyTorch implementation of AUTOVC."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "r9y9/wavenet_vocoder",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/wavenet_vocoder.svg)](https://pypi.python.org/pypi/wavenet_vocoder)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auspicious3000/autovc",
+      "status": "candidate",
+      "text": "This repository provides a PyTorch implementation of AUTOVC."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "r9y9/wavenet_vocoder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "auspicious3000/autovc"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "lexical_providers": [
     "datamuse"
   ],

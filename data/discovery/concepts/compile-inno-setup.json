@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "compile-inno-setup"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "version-fox/vfox",
+      "status": "candidate-context",
+      "text": "A cross-platform and extendable version manager with support for Java, Node.js, Golang, Python, Flutter, .NET & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "version-fox/vfox",
+      "status": "candidate-context",
+      "text": "compile-inno-setup"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "version-fox/vfox",
+      "status": "candidate",
+      "text": "compile-inno-setup"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "compile-inno-setup",
+  "concept_id": "compile-inno-setup",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": ".github/workflows/compile-inno-setup.yml",
+      "source_repo": "version-fox/vfox"
+    }
+  ],
+  "first_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "compile-inno-setup",
+      "sense_id": "compile-inno-setup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-results.yaml"
+    },
+    {
+      "component": "hustcer/setup-nu@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-results.yaml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-results.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nushell/awesome-nu",
+      "target": "adevore/nu_plugin_adevore",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nushell/awesome-nu",
+      "target": "ainvaltin/nu-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nushell/awesome-nu",
+      "target": "abusch/nu_plugin_semver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nushell/awesome-nu",
+      "target": "a-slice-of-py/nu-aws-service-reference",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-results.yaml",
+      "source_repo": "nushell/awesome-nu",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-results.yaml",
+      "source_repo": "nushell/awesome-nu",
+      "target": "hustcer/setup-nu@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-results.yaml",
+      "source_repo": "nushell/awesome-nu",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-14T03:02:24.702136+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24753
+    },
+    {
+      "path": ".github/workflows/update-results.yaml",
+      "size": 815
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curated list of awesome tools that work within the nu language ecosystem e.g. nushell, scripts, nana, etc.",
+    "fork": false,
+    "full_name": "nushell/awesome-nu",
+    "html_url": "https://github.com/nushell/awesome-nu",
+    "language": "Nushell",
+    "pushed_at": "2026-05-13T06:19:50Z",
+    "stargazers_count": 1344,
+    "topics": [],
+    "updated_at": "2026-05-14T02:53:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a-slice-of-py/nu-aws-service-reference",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abusch/nu_plugin_semver",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adevore/nu_plugin_adevore",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ainvaltin/nu-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

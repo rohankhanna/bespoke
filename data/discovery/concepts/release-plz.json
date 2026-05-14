@@ -458,6 +458,18 @@
       "source_repo": "ros2-rust/ros2_rust",
       "status": "candidate-context",
       "text": "Release-plz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abusch/nu_plugin_semver",
+      "status": "candidate-context",
+      "text": "A nushell plugin to work with semver versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abusch/nu_plugin_semver",
+      "status": "candidate-context",
+      "text": "Release-plz"
     }
   ],
   "candidate_glosses": [
@@ -686,6 +698,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ros2-rust/ros2_rust",
+      "status": "candidate",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abusch/nu_plugin_semver",
       "status": "candidate",
       "text": "Release-plz"
     }
@@ -1036,11 +1054,17 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": ".github/workflows/release-plz.yml",
       "source_repo": "ros2-rust/ros2_rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "abusch/nu_plugin_semver"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "lexical_providers": [
     "datamuse"
   ],

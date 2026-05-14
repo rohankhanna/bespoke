@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -251,6 +251,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "lmnt-com/diffwave"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "hcy71o/SNAC"
     }
   ],
   "term": "text-to-speech"

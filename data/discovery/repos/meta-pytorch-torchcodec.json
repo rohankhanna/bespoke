@@ -541,7 +541,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T13:28:25.661274+00:00",
+  "fetched_at": "2026-05-14T03:55:34.220052+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -573,7 +573,7 @@
     },
     {
       "path": ".github/workflows/linux_wheel.yaml",
-      "size": 5085
+      "size": 5131
     },
     {
       "path": ".github/workflows/macos_wheel.yaml",
@@ -593,10 +593,10 @@
     "full_name": "meta-pytorch/torchcodec",
     "html_url": "https://github.com/meta-pytorch/torchcodec",
     "language": "Python",
-    "pushed_at": "2026-05-13T13:27:24Z",
+    "pushed_at": "2026-05-13T21:03:49Z",
     "stargazers_count": 1064,
     "topics": [],
-    "updated_at": "2026-05-13T12:43:16Z"
+    "updated_at": "2026-05-13T19:22:38Z"
   },
   "repo_links": [
     {

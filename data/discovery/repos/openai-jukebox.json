@@ -1,0 +1,132 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/jukebox",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/jukebox",
+      "target": "generative-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/jukebox",
+      "target": "music",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/jukebox",
+      "target": "paper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/jukebox",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/jukebox",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/jukebox",
+      "target": "vq-vae",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T03:02:47.367770+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17714
+    },
+    {
+      "path": "requirements.txt",
+      "size": 108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Code for the paper \"Jukebox: A Generative Model for Music\"",
+    "fork": false,
+    "full_name": "openai/jukebox",
+    "html_url": "https://github.com/openai/jukebox",
+    "language": "Python",
+    "pushed_at": "2024-06-19T05:14:24Z",
+    "stargazers_count": 8041,
+    "topics": [
+      "audio",
+      "generative-model",
+      "music",
+      "paper",
+      "pytorch",
+      "transformer",
+      "vq-vae"
+    ],
+    "updated_at": "2026-05-13T15:35:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**Status:** Archive (code is provided as-is, no updates expected)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "**Status:** Archive (code is provided as-is, no updates expected)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-model"
+    },
+    {
+      "context_snippet": "**Status:** Archive (code is provided as-is, no updates expected)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music"
+    },
+    {
+      "context_snippet": "**Status:** Archive (code is provided as-is, no updates expected)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paper"
+    },
+    {
+      "context_snippet": "**Status:** Archive (code is provided as-is, no updates expected)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "**Status:** Archive (code is provided as-is, no updates expected)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "**Status:** Archive (code is provided as-is, no updates expected)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vq-vae"
+    }
+  ]
+}

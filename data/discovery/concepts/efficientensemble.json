@@ -19,6 +19,12 @@
       "source_repo": "VITA-Group/FreeTickets",
       "status": "candidate-context",
       "text": "<img src=\"https://github.com/Shiweiliuiiiiiii/FreeTickets/blob/main/FreeTickets.png\" width=\"800\" height=\"300\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VITA-Group/FreeTickets",
+      "status": "candidate-context",
+      "text": "[ICLR 2022] \"Deep Ensembling with No Overhead for either Training or Testing: The All-Round Blessings of Dynamic Sparsity\" by Shiwei Liu, Tianlong Chen, Zahra Atashgahi, Xiaohan Chen, Ghada Sokar, Elena Mocanu, Mykola Pechenizkiy, Zhangyang Wang, Decebal Constantin Mocanu"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +33,12 @@
       "source_repo": "VITA-Group/FreeTickets",
       "status": "candidate",
       "text": "<img src=\"https://github.com/Shiweiliuiiiiiii/FreeTickets/blob/main/FreeTickets.png\" width=\"800\" height=\"300\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VITA-Group/FreeTickets",
+      "status": "candidate",
+      "text": "[ICLR 2022] \"Deep Ensembling with No Overhead for either Training or Testing: The All-Round Blessings of Dynamic Sparsity\" by Shiwei Liu, Tianlong Chen, Zahra Atashgahi, Xiaohan Chen, Ghada Sokar, Elena Mocanu, Mykola Pechenizkiy, Zhangyang Wang, Decebal Constantin Mocanu"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +268,17 @@
       "observed_at": "2026-05-13T12:58:22.952944+00:00",
       "source_file": null,
       "source_repo": "VITA-Group/FreeTickets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/FreeTickets"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "moveable"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daybrush/selecto",
+      "status": "candidate-context",
+      "text": "Selecto.js is a component that allows you to select elements in the drag area using the mouse or touch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daybrush/selecto",
+      "status": "candidate-context",
+      "text": "<p align=\"middle\" ><img src=\"https://daybrush.com/selecto/images/logo.png\" /></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daybrush/selecto",
+      "status": "candidate",
+      "text": "<p align=\"middle\" ><img src=\"https://daybrush.com/selecto/images/logo.png\" /></p>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982904,
+      "status": "candidate",
+      "text": "movable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982092,
+      "status": "candidate",
+      "text": "mobile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39981987,
+      "status": "candidate",
+      "text": "transportable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39978030,
+      "status": "candidate",
+      "text": "transferrable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39975560,
+      "status": "candidate",
+      "text": "transferable"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6045,
+      "status": "candidate",
+      "text": "mobile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1038,
+      "status": "candidate",
+      "text": "movable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1029,
+      "status": "candidate",
+      "text": "transferable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1024,
+      "status": "candidate",
+      "text": "transportable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1014,
+      "status": "candidate",
+      "text": "transferrable"
+    }
+  ],
+  "canonical_name": "moveable",
+  "concept_id": "moveable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "daybrush/selecto"
+    }
+  ],
+  "first_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "moveable",
+      "sense_id": "moveable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,58 @@
+{
+  "components": [
+    {
+      "component": "@matter/nodejs-shell",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JimBuzbee/matter-controller",
+      "target": "project-chip/matter.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JimBuzbee/matter-controller",
+      "target": "@matter/nodejs-shell",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-14T05:13:28.218751+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7162
+    },
+    {
+      "path": "package.json",
+      "size": 453
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple Web-Based Matter controller examples based off of matter.js",
+    "fork": false,
+    "full_name": "JimBuzbee/matter-controller",
+    "html_url": "https://github.com/JimBuzbee/matter-controller",
+    "language": "HTML",
+    "pushed_at": "2025-06-13T19:35:41Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-04-06T01:07:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "project-chip/matter.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

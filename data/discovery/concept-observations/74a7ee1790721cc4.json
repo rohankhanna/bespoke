@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\ude80\ud83d\ude80 This repository serves as a registry for vfox community plugins. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![](https://img.shields.io/github/directory-file-count/version-fox/vfox-plugins%2Fplugins?style=flat&label=Available%20Plugins)](https://vfox.dev/plugins/available.html)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/github/directory-file-count/version-fox/vfox-plugins%2Fplugins?style=flat&label=Available%20Plugins)](https://vfox.dev/plugins/available.html)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vfox-plugin",
+      "sense_id": "vfox-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vfox-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vfox-plugin",
+  "observation_id": "74a7ee1790721cc4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-14T00:43:26.166349+00:00",
+  "observed_text": "vfox-plugin",
+  "source_context_snippet": "[![](https://img.shields.io/github/directory-file-count/version-fox/vfox-plugins%2Fplugins?style=flat&label=Available%20Plugins)](https://vfox.dev/plugins/available.html)",
+  "source_file": null,
+  "source_repo": "version-fox/vfox-plugins",
+  "source_repo_description": "\ud83d\ude80\ud83d\ude80 This repository serves as a registry for vfox community plugins. "
+}

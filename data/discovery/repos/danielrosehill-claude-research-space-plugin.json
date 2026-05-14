@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-14T05:12:51.537702+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3817
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Claude Code plugin: research workflow \u2014 source-log/summarize-sources/deep-dive primitives with deep-research/technical/osint/georeaction/stack/ecosystem/competitor variants.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Research-Space-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Research-Space-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-30T19:00:03Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-30T19:00:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

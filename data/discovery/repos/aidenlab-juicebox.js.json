@@ -6,22 +6,12 @@
       "source_file": "package.json"
     },
     {
-      "component": "@xmldom/xmldom",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "atob",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
     {
       "component": "btoa",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "google-utils",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -97,13 +87,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "aidenlab/juicebox.js",
-      "target": "@xmldom/xmldom",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "aidenlab/juicebox.js",
       "target": "atob",
       "target_type": "component"
     },
@@ -112,13 +95,6 @@
       "source_file": "package.json",
       "source_repo": "aidenlab/juicebox.js",
       "target": "btoa",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "aidenlab/juicebox.js",
-      "target": "google-utils",
       "target_type": "component"
     },
     {
@@ -185,7 +161,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-13T13:21:19.103662+00:00",
+  "fetched_at": "2026-05-14T03:09:20.608905+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -193,7 +169,7 @@
     },
     {
       "path": "package.json",
-      "size": 1619
+      "size": 1529
     }
   ],
   "related_repositories": [],
@@ -205,10 +181,10 @@
     "full_name": "aidenlab/juicebox.js",
     "html_url": "https://github.com/aidenlab/juicebox.js",
     "language": "JavaScript",
-    "pushed_at": "2026-05-11T12:50:09Z",
+    "pushed_at": "2026-05-13T20:54:11Z",
     "stargazers_count": 24,
     "topics": [],
-    "updated_at": "2026-05-11T12:50:25Z"
+    "updated_at": "2026-05-13T20:54:13Z"
   },
   "repo_links": [
     {

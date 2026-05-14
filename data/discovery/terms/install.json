@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -66,6 +66,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "MaulingMonkey/cargo-local-install"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/installer.yml",
+      "source_repo": "ellie/atuin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/installer.yml",
+      "source_repo": "atuinsh/atuin"
     }
   ],
   "term": "install"

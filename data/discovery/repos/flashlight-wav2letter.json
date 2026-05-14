@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flashlight/wav2letter",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flashlight/wav2letter",
+      "target": "end-to-end",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flashlight/wav2letter",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flashlight/wav2letter",
+      "target": "wav2letter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T05:13:22.539046+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3185
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Facebook AI Research's Automatic Speech Recognition Toolkit ",
+    "fork": false,
+    "full_name": "flashlight/wav2letter",
+    "html_url": "https://github.com/flashlight/wav2letter",
+    "language": "C++",
+    "pushed_at": "2026-01-12T07:27:54Z",
+    "stargazers_count": 6444,
+    "topics": [
+      "cpp",
+      "deep-learning",
+      "end-to-end",
+      "speech-recognition",
+      "wav2letter"
+    ],
+    "updated_at": "2026-05-11T09:40:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/flashlight/wav2letter.svg?style=svg)](https://app.circleci.com/pipelines/github/flashlight/wav2letter)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/flashlight/wav2letter.svg?style=svg)](https://app.circleci.com/pipelines/github/flashlight/wav2letter)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "end-to-end"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/flashlight/wav2letter.svg?style=svg)](https://app.circleci.com/pipelines/github/flashlight/wav2letter)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/flashlight/wav2letter.svg?style=svg)](https://app.circleci.com/pipelines/github/flashlight/wav2letter)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wav2letter"
+    }
+  ]
+}

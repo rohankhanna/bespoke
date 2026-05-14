@@ -976,6 +976,18 @@
       "source_repo": "ElectronNET/Electron.NET",
       "status": "candidate-context",
       "text": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "version-fox/vfox",
+      "status": "candidate-context",
+      "text": "A cross-platform and extendable version manager with support for Java, Node.js, Golang, Python, Flutter, .NET & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "version-fox/vfox",
+      "status": "candidate-context",
+      "text": "<p style=\"\" align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1464,6 +1476,12 @@
       "source_repo": "ElectronNET/Electron.NET",
       "status": "candidate",
       "text": "[![Electron.NET Logo](https://github.com/ElectronNET/Electron.NET/raw/main/assets/images/electron.net-logo.png)](https://github.com/ElectronNET/Electron.NET)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "version-fox/vfox",
+      "status": "candidate",
+      "text": "<p style=\"\" align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -3126,11 +3144,47 @@
       "observed_at": "2026-05-13T18:45:31.430554+00:00",
       "source_file": null,
       "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "vimpunk/mio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "version-fox/vfox"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "lexical_providers": [
     "datamuse"
   ],

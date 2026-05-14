@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-14T03:02:25.204512+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 134
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A place to showcase work, be it scripts, gifs, artwork, media, etc.",
+    "fork": false,
+    "full_name": "nushell/showcase",
+    "html_url": "https://github.com/nushell/showcase",
+    "language": null,
+    "pushed_at": "2026-03-07T12:45:16Z",
+    "stargazers_count": 75,
+    "topics": [],
+    "updated_at": "2026-04-21T22:36:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

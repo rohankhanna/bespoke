@@ -303,7 +303,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T14:28:48.557495+00:00",
+  "fetched_at": "2026-05-14T04:11:22.942556+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -356,7 +356,7 @@
     "html_url": "https://github.com/nunchaku-ai/nunchaku",
     "language": "Python",
     "pushed_at": "2026-03-07T06:42:49Z",
-    "stargazers_count": 3841,
+    "stargazers_count": 3843,
     "topics": [
       "comfyui",
       "diffusion-models",
@@ -368,7 +368,7 @@
       "mlsys",
       "quantization"
     ],
-    "updated_at": "2026-05-13T08:31:57Z"
+    "updated_at": "2026-05-13T21:24:19Z"
   },
   "repo_links": [
     {

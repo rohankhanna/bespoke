@@ -1,0 +1,298 @@
+{
+  "components": [
+    {
+      "component": "@daybrush/jsdoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@daybrush/release",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cpx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "daybrush-jsdoc-template",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gh-pages",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "intercept-stdout",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna-changelog",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "daybrush/selecto",
+      "target": "daybrush/scena",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/selecto",
+      "target": "@daybrush/jsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/selecto",
+      "target": "@daybrush/release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/selecto",
+      "target": "cpx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/selecto",
+      "target": "daybrush-jsdoc-template",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/selecto",
+      "target": "gh-pages",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/selecto",
+      "target": "intercept-stdout",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/selecto",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/selecto",
+      "target": "lerna-changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/selecto",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/selecto",
+      "target": "angular",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/selecto",
+      "target": "moveable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/selecto",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/selecto",
+      "target": "scena",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/selecto",
+      "target": "scenejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/selecto",
+      "target": "select",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/selecto",
+      "target": "selectable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/selecto",
+      "target": "selection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/selecto",
+      "target": "selecto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/selecto",
+      "target": "svelte",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T03:02:36.843629+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9410
+    },
+    {
+      "path": "package.json",
+      "size": 4222
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Selecto.js is a component that allows you to select elements in the drag area using the mouse or touch.",
+    "fork": false,
+    "full_name": "daybrush/selecto",
+    "html_url": "https://github.com/daybrush/selecto",
+    "language": "TypeScript",
+    "pushed_at": "2024-06-17T18:43:06Z",
+    "stargazers_count": 2214,
+    "topics": [
+      "angular",
+      "lit",
+      "moveable",
+      "react",
+      "scena",
+      "scenejs",
+      "select",
+      "selectable",
+      "selection",
+      "selecto",
+      "svelte",
+      "vue"
+    ],
+    "updated_at": "2026-05-13T23:55:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daybrush/scena",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"middle\" ><img src=\"https://daybrush.com/selecto/images/logo.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "angular"
+    },
+    {
+      "context_snippet": "<p align=\"middle\" ><img src=\"https://daybrush.com/selecto/images/logo.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "moveable"
+    },
+    {
+      "context_snippet": "<p align=\"middle\" ><img src=\"https://daybrush.com/selecto/images/logo.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "<p align=\"middle\" ><img src=\"https://daybrush.com/selecto/images/logo.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scena"
+    },
+    {
+      "context_snippet": "<p align=\"middle\" ><img src=\"https://daybrush.com/selecto/images/logo.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scenejs"
+    },
+    {
+      "context_snippet": "<p align=\"middle\" ><img src=\"https://daybrush.com/selecto/images/logo.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "select"
+    },
+    {
+      "context_snippet": "<p align=\"middle\" ><img src=\"https://daybrush.com/selecto/images/logo.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "selectable"
+    },
+    {
+      "context_snippet": "<p align=\"middle\" ><img src=\"https://daybrush.com/selecto/images/logo.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "selection"
+    },
+    {
+      "context_snippet": "<p align=\"middle\" ><img src=\"https://daybrush.com/selecto/images/logo.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "selecto"
+    },
+    {
+      "context_snippet": "<p align=\"middle\" ><img src=\"https://daybrush.com/selecto/images/logo.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svelte"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -1254,6 +1254,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/integration_tests_reusable.yml",
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clauderic/dnd-kit"
     }
   ]
 }

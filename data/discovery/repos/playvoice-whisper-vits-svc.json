@@ -5,28 +5,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/whisper-vits-svc",
-      "target": "facebookresearch/speech-resynthesis",
+      "target": "flutydeer/audio-slicer",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/whisper-vits-svc",
-      "target": "brentspell/hifi-gan-bwe",
+      "target": "m4singer/m4singer",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/whisper-vits-svc",
-      "target": "auspicious3000/contentvec",
+      "target": "hcy71o/snac",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/whisper-vits-svc",
-      "target": "biggytruck/speechsplit2",
+      "target": "francis-komizu/sovits",
       "target_type": "repository"
     },
     {
@@ -93,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T19:20:49.906372+00:00",
+  "fetched_at": "2026-05-14T05:13:15.684965+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -114,7 +114,7 @@
     "html_url": "https://github.com/PlayVoice/whisper-vits-svc",
     "language": "Python",
     "pushed_at": "2024-04-23T10:50:32Z",
-    "stargazers_count": 2852,
+    "stargazers_count": 2853,
     "topics": [
       "change",
       "diff-svc",
@@ -127,27 +127,27 @@
       "vits2",
       "voice"
     ],
-    "updated_at": "2026-05-13T13:11:12Z"
+    "updated_at": "2026-05-14T01:37:12Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "auspicious3000/contentvec",
+      "full_name": "flutydeer/audio-slicer",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "biggytruck/speechsplit2",
+      "full_name": "francis-komizu/sovits",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "brentspell/hifi-gan-bwe",
+      "full_name": "hcy71o/snac",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "facebookresearch/speech-resynthesis",
+      "full_name": "m4singer/m4singer",
       "source_file": "README.md"
     }
   ],

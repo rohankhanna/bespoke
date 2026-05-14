@@ -1,7 +1,8 @@
 {
   "aliases": [
     "lint and test",
-    "Lint and test"
+    "Lint and test",
+    "Lint and Test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -80,6 +81,18 @@
       "source_repo": "bxlab/bx-python",
       "status": "candidate-context",
       "text": "Lint and test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "foliojs/pdfkit",
+      "status": "candidate-context",
+      "text": "A JavaScript PDF generation library for Node and the browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foliojs/pdfkit",
+      "status": "candidate-context",
+      "text": "Lint and Test"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +131,12 @@
       "source_repo": "bxlab/bx-python",
       "status": "candidate",
       "text": "Lint and test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "foliojs/pdfkit",
+      "status": "candidate",
+      "text": "Lint and Test"
     }
   ],
   "candidate_related_terms": [
@@ -203,11 +222,17 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/lint-and-test.yaml",
       "source_repo": "Tarektouati/vue-use-web"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "foliojs/pdfkit"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "lexical_providers": [
     "datamuse"
   ],

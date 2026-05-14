@@ -265,6 +265,18 @@
       "source_repo": "nvim-lua/nvim-lua-plugin-template",
       "status": "candidate-context",
       "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sluongng/neotest-bazel",
+      "status": "candidate-context",
+      "text": "A neotest adapter for Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sluongng/neotest-bazel",
+      "status": "candidate-context",
+      "text": "Lint Code Base"
     }
   ],
   "candidate_glosses": [
@@ -397,6 +409,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nvim-lua/nvim-lua-plugin-template",
+      "status": "candidate",
+      "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sluongng/neotest-bazel",
       "status": "candidate",
       "text": "Lint Code Base"
     }
@@ -1066,11 +1084,29 @@
       "observed_at": "2026-05-13T18:45:31.430554+00:00",
       "source_file": ".github/workflows/linter.yml",
       "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": ".github/workflows/super-linter.yml",
+      "source_repo": "pytorch/gloo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "sluongng/neotest-bazel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "crytic/evm_cfg_builder"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "lexical_providers": [
     "datamuse"
   ],

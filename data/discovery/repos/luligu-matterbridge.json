@@ -1,0 +1,1237 @@
+{
+  "components": [
+    {
+      "component": "@matterbridge/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@matterbridge/dgram",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@matterbridge/jest-utils",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@matterbridge/thread",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@matterbridge/types",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@matterbridge/utils",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@matterbridge/vitest-utils",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-ansi-logger",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-persist-manager",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/json",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/markdown",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@jest/globals",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitest/coverage-v8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitest/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cross-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cross-spawn",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-jsdoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-n",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-simple-import-sort",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "marked",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-check-updates",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-24-ubuntu-slim.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-24-ubuntu-slim.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-24-ubuntu-slim.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-24-ubuntu-slim.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-24-ubuntu-slim.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-24-ubuntu-slim.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-alpine.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-alpine.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-alpine.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-alpine.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-alpine.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-chip-test.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-chip-test.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-chip-test.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-chip-test.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-chip-test.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-dev.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-dev.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-dev.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-dev.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-dev.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-dev.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Luligu/matterbridge",
+      "target": "luligu/matterbridge-eve-door",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Luligu/matterbridge",
+      "target": "luligu/matterbridge-eve-energy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Luligu/matterbridge",
+      "target": "andrasg/matterbridge-loxone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Luligu/matterbridge",
+      "target": "andrasg/matterbridge-daikin-ac",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "@matterbridge/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "@matterbridge/dgram",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "@matterbridge/jest-utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "@matterbridge/thread",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "@matterbridge/types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "@matterbridge/utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "@matterbridge/vitest-utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "node-ansi-logger",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "node-persist-manager",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "@eslint/json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "@eslint/markdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "@jest/globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "@vitest/coverage-v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "@vitest/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "cross-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "cross-spawn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "eslint-plugin-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "eslint-plugin-jsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "eslint-plugin-n",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "eslint-plugin-simple-import-sort",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "marked",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "npm-check-updates",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "shx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "ts-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-frontend.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "Node.js CI - Frontend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "Node.js CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "Codecov",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-24-ubuntu-slim.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-24-ubuntu-slim.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-24-ubuntu-slim.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-24-ubuntu-slim.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-24-ubuntu-slim.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-24-ubuntu-slim.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-buildx-24-ubuntu-slim.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "Build Docker Image 24-ubuntu-slim with buildx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-alpine.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-alpine.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-alpine.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-alpine.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-alpine.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-buildx-alpine.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "Build Docker Image alpine with buildx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-chip-test.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-chip-test.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-chip-test.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-chip-test.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-chip-test.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-buildx-chip-test.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "Build Docker Image chip-test with buildx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-dev.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-dev.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-dev.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-dev.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-dev.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-buildx-dev.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-buildx-dev.yml",
+      "source_repo": "Luligu/matterbridge",
+      "target": "Build Docker Image dev with buildx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Luligu/matterbridge",
+      "target": "alexa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Luligu/matterbridge",
+      "target": "bridge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Luligu/matterbridge",
+      "target": "connectedthings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Luligu/matterbridge",
+      "target": "google-home",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Luligu/matterbridge",
+      "target": "homeassistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Luligu/matterbridge",
+      "target": "homekit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Luligu/matterbridge",
+      "target": "matter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Luligu/matterbridge",
+      "target": "matterbridge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Luligu/matterbridge",
+      "target": "matterprotocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Luligu/matterbridge",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Luligu/matterbridge",
+      "target": "siri",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Luligu/matterbridge",
+      "target": "smarthome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Luligu/matterbridge",
+      "target": "somfy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Luligu/matterbridge",
+      "target": "tahoma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Luligu/matterbridge",
+      "target": "zigbee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Luligu/matterbridge",
+      "target": "zigbee2mqtt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T05:13:29.837802+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31112
+    },
+    {
+      "path": "package.json",
+      "size": 23628
+    },
+    {
+      "path": ".github/workflows/build-frontend.yml",
+      "size": 1657
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2520
+    },
+    {
+      "path": ".github/workflows/codecov.yml",
+      "size": 1783
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1954
+    },
+    {
+      "path": ".github/workflows/docker-buildx-24-ubuntu-slim.yml",
+      "size": 2527
+    },
+    {
+      "path": ".github/workflows/docker-buildx-alpine.yml",
+      "size": 2540
+    },
+    {
+      "path": ".github/workflows/docker-buildx-chip-test.yml",
+      "size": 2562
+    },
+    {
+      "path": ".github/workflows/docker-buildx-dev.yml",
+      "size": 3033
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Matterbridge plugin manager for Matter",
+    "fork": false,
+    "full_name": "Luligu/matterbridge",
+    "html_url": "https://github.com/Luligu/matterbridge",
+    "language": "TypeScript",
+    "pushed_at": "2026-05-13T12:14:25Z",
+    "stargazers_count": 895,
+    "topics": [
+      "alexa",
+      "bridge",
+      "connectedthings",
+      "google-home",
+      "homeassistant",
+      "homekit",
+      "iot",
+      "matter",
+      "matterbridge",
+      "matterprotocol",
+      "plugin",
+      "siri",
+      "smarthome",
+      "somfy",
+      "tahoma",
+      "zigbee",
+      "zigbee2mqtt"
+    ],
+    "updated_at": "2026-05-13T17:36:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andrasg/matterbridge-daikin-ac",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andrasg/matterbridge-loxone",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luligu/matterbridge-eve-door",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luligu/matterbridge-eve-energy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Node.js CI - Frontend",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-frontend.yml",
+      "term": "Node.js CI - Frontend"
+    },
+    {
+      "context_snippet": "Node.js CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Node.js CI"
+    },
+    {
+      "context_snippet": "Codecov",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codecov.yml",
+      "term": "Codecov"
+    },
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Build Docker Image 24-ubuntu-slim with buildx",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-buildx-24-ubuntu-slim.yml",
+      "term": "Build Docker Image 24-ubuntu-slim with buildx"
+    },
+    {
+      "context_snippet": "Build Docker Image alpine with buildx",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-buildx-alpine.yml",
+      "term": "Build Docker Image alpine with buildx"
+    },
+    {
+      "context_snippet": "Build Docker Image chip-test with buildx",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-buildx-chip-test.yml",
+      "term": "Build Docker Image chip-test with buildx"
+    },
+    {
+      "context_snippet": "Build Docker Image dev with buildx",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-buildx-dev.yml",
+      "term": "Build Docker Image dev with buildx"
+    },
+    {
+      "context_snippet": "<!-- eslint-disable markdown/no-multiple-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alexa"
+    },
+    {
+      "context_snippet": "<!-- eslint-disable markdown/no-multiple-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bridge"
+    },
+    {
+      "context_snippet": "<!-- eslint-disable markdown/no-multiple-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "connectedthings"
+    },
+    {
+      "context_snippet": "<!-- eslint-disable markdown/no-multiple-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-home"
+    },
+    {
+      "context_snippet": "<!-- eslint-disable markdown/no-multiple-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homeassistant"
+    },
+    {
+      "context_snippet": "<!-- eslint-disable markdown/no-multiple-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homekit"
+    },
+    {
+      "context_snippet": "<!-- eslint-disable markdown/no-multiple-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matter"
+    },
+    {
+      "context_snippet": "<!-- eslint-disable markdown/no-multiple-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matterbridge"
+    },
+    {
+      "context_snippet": "<!-- eslint-disable markdown/no-multiple-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matterprotocol"
+    },
+    {
+      "context_snippet": "<!-- eslint-disable markdown/no-multiple-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "<!-- eslint-disable markdown/no-multiple-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "siri"
+    },
+    {
+      "context_snippet": "<!-- eslint-disable markdown/no-multiple-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smarthome"
+    },
+    {
+      "context_snippet": "<!-- eslint-disable markdown/no-multiple-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "somfy"
+    },
+    {
+      "context_snippet": "<!-- eslint-disable markdown/no-multiple-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tahoma"
+    },
+    {
+      "context_snippet": "<!-- eslint-disable markdown/no-multiple-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zigbee"
+    },
+    {
+      "context_snippet": "<!-- eslint-disable markdown/no-multiple-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zigbee2mqtt"
+    }
+  ]
+}

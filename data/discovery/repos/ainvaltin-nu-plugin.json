@@ -1,0 +1,102 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ainvaltin/nu-plugin",
+      "target": "ainvaltin/nu_plugin_plist",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ainvaltin/nu-plugin",
+      "target": "ainvaltin/nu_plugin_boltdb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ainvaltin/nu-plugin",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ainvaltin/nu-plugin",
+      "target": "nushell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ainvaltin/nu-plugin",
+      "target": "nushell-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T05:13:05.634213+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1257
+    },
+    {
+      "path": "go.mod",
+      "size": 235
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Nushell plugins in Go",
+    "fork": false,
+    "full_name": "ainvaltin/nu-plugin",
+    "html_url": "https://github.com/ainvaltin/nu-plugin",
+    "language": "Go",
+    "pushed_at": "2026-04-12T19:57:06Z",
+    "stargazers_count": 7,
+    "topics": [
+      "go",
+      "golang",
+      "nushell",
+      "nushell-plugin"
+    ],
+    "updated_at": "2026-04-12T19:57:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ainvaltin/nu_plugin_boltdb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ainvaltin/nu_plugin_plist",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/ainvaltin/nu-plugin.svg)](https://pkg.go.dev/github.com/ainvaltin/nu-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/ainvaltin/nu-plugin.svg)](https://pkg.go.dev/github.com/ainvaltin/nu-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nushell"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/ainvaltin/nu-plugin.svg)](https://pkg.go.dev/github.com/ainvaltin/nu-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nushell-plugin"
+    }
+  ]
+}

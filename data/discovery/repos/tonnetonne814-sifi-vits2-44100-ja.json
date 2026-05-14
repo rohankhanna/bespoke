@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tonnetonne814/SiFi-VITS2-44100-Ja",
+      "target": "chomeyama/sifigan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tonnetonne814/SiFi-VITS2-44100-Ja",
+      "target": "ehoogeboom/multinomial_diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tonnetonne814/SiFi-VITS2-44100-Ja",
+      "target": "imdanboy/jets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tonnetonne814/SiFi-VITS2-44100-Ja",
+      "target": "fishaudio/fish-diffusion",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-14T05:13:17.568472+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10002
+    },
+    {
+      "path": "requirements.txt",
+      "size": 391
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DDPM-based Pitch Generation and Pitch Controllable Voice Synthesis.",
+    "fork": false,
+    "full_name": "tonnetonne814/SiFi-VITS2-44100-Ja",
+    "html_url": "https://github.com/tonnetonne814/SiFi-VITS2-44100-Ja",
+    "language": "Python",
+    "pushed_at": "2023-09-25T07:45:01Z",
+    "stargazers_count": 55,
+    "topics": [],
+    "updated_at": "2026-03-23T07:52:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chomeyama/sifigan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ehoogeboom/multinomial_diffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fishaudio/fish-diffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "imdanboy/jets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

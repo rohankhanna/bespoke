@@ -15,13 +15,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ggerganov/whisper.spm",
-      "target": "ggeragnov/whisper.spm",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/swift.yml",
       "source_repo": "ggerganov/whisper.spm",
@@ -36,7 +29,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T14:25:43.904927+00:00",
+  "fetched_at": "2026-05-14T04:09:45.022506+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -59,14 +52,9 @@
     "pushed_at": "2024-05-27T07:34:41Z",
     "stargazers_count": 189,
     "topics": [],
-    "updated_at": "2026-05-01T11:54:33Z"
+    "updated_at": "2026-05-13T17:25:20Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ggeragnov/whisper.spm",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "ggerganov/whisper.cpp",

@@ -253,7 +253,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T13:28:54.611434+00:00",
+  "fetched_at": "2026-05-14T03:55:48.248520+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -261,7 +261,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 4375
+      "size": 4466
     },
     {
       "path": ".github/workflows/benchmark-comment.yml",
@@ -293,7 +293,7 @@
     },
     {
       "path": ".github/workflows/release.yml",
-      "size": 880
+      "size": 972
     }
   ],
   "related_repositories": [],
@@ -305,7 +305,7 @@
     "full_name": "fla-org/flash-linear-attention",
     "html_url": "https://github.com/fla-org/flash-linear-attention",
     "language": "Python",
-    "pushed_at": "2026-05-13T12:38:25Z",
+    "pushed_at": "2026-05-13T18:30:33Z",
     "stargazers_count": 5090,
     "topics": [
       "large-language-models",
@@ -313,7 +313,7 @@
       "natural-language-processing",
       "sequence-modeling"
     ],
-    "updated_at": "2026-05-13T13:22:06Z"
+    "updated_at": "2026-05-13T18:30:48Z"
   },
   "repo_links": [],
   "terms": [

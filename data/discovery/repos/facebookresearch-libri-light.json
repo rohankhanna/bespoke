@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/libri-light",
+      "target": "facebookresearch/wav2letter",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-14T03:02:46.854447+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3464
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "dataset for lightly supervised training using the librivox audio book recordings. https://librivox.org/.",
+    "fork": false,
+    "full_name": "facebookresearch/libri-light",
+    "html_url": "https://github.com/facebookresearch/libri-light",
+    "language": "Python",
+    "pushed_at": "2023-07-11T13:02:28Z",
+    "stargazers_count": 524,
+    "topics": [],
+    "updated_at": "2026-04-15T08:29:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/wav2letter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

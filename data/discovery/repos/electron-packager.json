@@ -146,11 +146,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "tsx",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "typedoc",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -466,13 +461,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "electron/packager",
-      "target": "tsx",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "electron/packager",
       "target": "typedoc",
       "target_type": "component"
     },
@@ -673,7 +661,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T13:17:33.208465+00:00",
+  "fetched_at": "2026-05-14T05:18:15.982544+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -681,7 +669,7 @@
     },
     {
       "path": "package.json",
-      "size": 2687
+      "size": 2665
     },
     {
       "path": ".github/workflows/add-to-project.yml",
@@ -705,7 +693,7 @@
     },
     {
       "path": ".github/workflows/test.yml",
-      "size": 1346
+      "size": 1758
     }
   ],
   "related_repositories": [],
@@ -717,7 +705,7 @@
     "full_name": "electron/packager",
     "html_url": "https://github.com/electron/packager",
     "language": "TypeScript",
-    "pushed_at": "2026-05-13T05:26:30Z",
+    "pushed_at": "2026-05-13T18:39:16Z",
     "stargazers_count": 292,
     "topics": [
       "electron",
@@ -725,7 +713,7 @@
       "hacktoberfest",
       "javascript"
     ],
-    "updated_at": "2026-05-11T05:35:47Z"
+    "updated_at": "2026-05-13T18:39:19Z"
   },
   "repo_links": [
     {

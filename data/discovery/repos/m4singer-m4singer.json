@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-14T05:13:20.049933+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1394
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "M4Singer/M4Singer",
+    "html_url": "https://github.com/M4Singer/M4Singer",
+    "language": "Python",
+    "pushed_at": "2022-12-29T10:23:04Z",
+    "stargazers_count": 228,
+    "topics": [],
+    "updated_at": "2026-04-26T12:10:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

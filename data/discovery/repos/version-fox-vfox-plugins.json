@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_plugin.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_plugin.yaml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_plugin.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_plugin.yaml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_plugin.yaml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_plugin.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "version-fox/vfox-plugins",
+      "target": "version-fox/vfox-plugin-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_plugin.yaml",
+      "source_repo": "version-fox/vfox-plugins",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_plugin.yaml",
+      "source_repo": "version-fox/vfox-plugins",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_plugin.yaml",
+      "source_repo": "version-fox/vfox-plugins",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_plugin.yaml",
+      "source_repo": "version-fox/vfox-plugins",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_plugin.yaml",
+      "source_repo": "version-fox/vfox-plugins",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_plugin.yaml",
+      "source_repo": "version-fox/vfox-plugins",
+      "target": "Update Registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "version-fox/vfox-plugins",
+      "target": "vfox-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T05:13:06.874764+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 971
+    },
+    {
+      "path": ".github/workflows/update_plugin.yaml",
+      "size": 1261
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\ude80\ud83d\ude80 This repository serves as a registry for vfox community plugins. ",
+    "fork": false,
+    "full_name": "version-fox/vfox-plugins",
+    "html_url": "https://github.com/version-fox/vfox-plugins",
+    "language": "Python",
+    "pushed_at": "2026-05-12T21:10:45Z",
+    "stargazers_count": 30,
+    "topics": [
+      "vfox-plugin"
+    ],
+    "updated_at": "2026-05-12T21:10:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "version-fox/vfox-plugin-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Update Registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_plugin.yaml",
+      "term": "Update Registry"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/github/directory-file-count/version-fox/vfox-plugins%2Fplugins?style=flat&label=Available%20Plugins)](https://vfox.dev/plugins/available.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vfox-plugin"
+    }
+  ]
+}

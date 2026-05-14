@@ -2532,6 +2532,9 @@
   "alex": [
     "alex"
   ],
+  "alexa": [
+    "alexa"
+  ],
   "alexeyab-darknet": [
     "alexeyab-darknet"
   ],
@@ -11944,6 +11947,9 @@
   "build deb package": [
     "build-deb-package"
   ],
+  "build debian cockpit matterbridge package": [
+    "build-debian-cockpit-matterbridge-package"
+  ],
   "build debian package": [
     "build-debian-package"
   ],
@@ -12045,6 +12051,18 @@
   ],
   "build docker image": [
     "build-docker-image"
+  ],
+  "build docker image 24-ubuntu-slim with buildx": [
+    "build-docker-image-24-ubuntu-slim-with-buildx"
+  ],
+  "build docker image alpine with buildx": [
+    "build-docker-image-alpine-with-buildx"
+  ],
+  "build docker image chip-test with buildx": [
+    "build-docker-image-chip-test-with-buildx"
+  ],
+  "build docker image dev with buildx": [
+    "build-docker-image-dev-with-buildx"
   ],
   "build docker image for ai agents": [
     "build-docker-image-for-ai-agents"
@@ -19235,6 +19253,9 @@
   "ci-mingw": [
     "ci-mingw"
   ],
+  "ci-minimal": [
+    "ci-minimal"
+  ],
   "ci-mode": [
     "ci-mode"
   ],
@@ -23120,6 +23141,9 @@
   "compile vismatrix": [
     "compile-vismatrix"
   ],
+  "compile-inno-setup": [
+    "compile-inno-setup"
+  ],
   "compile-protobufs": [
     "compile-protobufs"
   ],
@@ -24163,6 +24187,9 @@
   ],
   "continuous integration icons": [
     "continuous-integration-icons"
+  ],
+  "continuous release": [
+    "continuous-release"
   ],
   "continuous releases": [
     "continuous-releases"
@@ -32705,6 +32732,9 @@
   "draft-release": [
     "draft-release"
   ],
+  "drag": [
+    "drag"
+  ],
   "drag-and-drop": [
     "drag-and-drop"
   ],
@@ -32713,6 +32743,9 @@
   ],
   "dragablz": [
     "dragablz"
+  ],
+  "draggable": [
+    "draggable"
   ],
   "draggan": [
     "draggan"
@@ -32821,6 +32854,9 @@
   ],
   "dropdown": [
     "dropdown"
+  ],
+  "droppable": [
+    "droppable"
   ],
   "dropwizard": [
     "dropwizard"
@@ -41913,6 +41949,9 @@
   "google-gemini": [
     "google-gemini"
   ],
+  "google-home": [
+    "google-home"
+  ],
   "google-java-format": [
     "google-java-format"
   ],
@@ -44537,6 +44576,9 @@
   ],
   "homebrew-tap": [
     "homebrew-tap"
+  ],
+  "homekit": [
+    "homekit"
   ],
   "homelab": [
     "homelab"
@@ -47529,6 +47571,9 @@
   "iobroker": [
     "iobroker"
   ],
+  "iobroker-plugin": [
+    "iobroker-plugin"
+  ],
   "ioc-container": [
     "ioc-container"
   ],
@@ -49787,6 +49832,9 @@
   ],
   "keyframe-animation": [
     "keyframe-animation"
+  ],
+  "keyframes": [
+    "keyframes"
   ],
   "keymap": [
     "keymap"
@@ -55833,6 +55881,9 @@
   "matter.js controller vs chip device tests": [
     "matter.js-controller-vs-chip-device-tests"
   ],
+  "matterbridge": [
+    "matterbridge"
+  ],
   "matterprotocol": [
     "matterprotocol"
   ],
@@ -58460,6 +58511,9 @@
   ],
   "move to typst forum": [
     "move-to-typst-forum"
+  ],
+  "moveable": [
+    "moveable"
   ],
   "movie": [
     "movie"
@@ -61352,6 +61406,9 @@
   "node.js ci - dockge": [
     "node.js-ci---dockge"
   ],
+  "node.js ci - frontend": [
+    "node.js-ci---frontend"
+  ],
   "node.js ci - macos-latest": [
     "node.js-ci---macos-latest"
   ],
@@ -62049,6 +62106,9 @@
   "nushell": [
     "nushell"
   ],
+  "nushell-plugin": [
+    "nushell-plugin"
+  ],
   "nushu": [
     "nushu"
   ],
@@ -62228,6 +62288,9 @@
   ],
   "nyu-depth-v2": [
     "nyu-depth-v2"
+  ],
+  "nyucds": [
+    "nyucds"
   ],
   "nyudv2": [
     "nyudv2"
@@ -68294,6 +68357,9 @@
   ],
   "preact-cli-template": [
     "preact-cli-template"
+  ],
+  "preact-compat": [
+    "preact-compat"
   ],
   "preact-devtools": [
     "preact-devtools"
@@ -79119,6 +79185,9 @@
   "scedit": [
     "scedit"
   ],
+  "scena": [
+    "scena"
+  ],
   "scenario": [
     "scenario"
   ],
@@ -79166,6 +79235,9 @@
   ],
   "scenegraph": [
     "scenegraph"
+  ],
+  "scenejs": [
+    "scenejs"
   ],
   "schedule": [
     "schedule"
@@ -79475,6 +79547,9 @@
   ],
   "screen-capture": [
     "screen-capture"
+  ],
+  "screens": [
+    "screens"
   ],
   "screensaver": [
     "screensaver"
@@ -79953,8 +80028,17 @@
   "select": [
     "select"
   ],
+  "selectable": [
+    "selectable"
+  ],
+  "selection": [
+    "selection"
+  ],
   "selectiongan": [
     "selectiongan"
+  ],
+  "selecto": [
+    "selecto"
   ],
   "selector": [
     "selector"
@@ -80381,6 +80465,9 @@
   ],
   "sentry-file": [
     "sentry-file"
+  ],
+  "sentry-plugin": [
+    "sentry-plugin"
   ],
   "seo-tools": [
     "seo-tools"
@@ -81465,6 +81552,9 @@
   "siren": [
     "siren"
   ],
+  "siri": [
+    "siri"
+  ],
   "sisec": [
     "sisec"
   ],
@@ -81923,6 +82013,9 @@
   ],
   "smartstore": [
     "smartstore"
+  ],
+  "smartthings": [
+    "smartthings"
   ],
   "smbscan": [
     "smbscan"
@@ -82421,6 +82514,9 @@
   "something": [
     "en-pronoun-something"
   ],
+  "somfy": [
+    "somfy"
+  ],
   "sonar": [
     "sonar"
   ],
@@ -82519,6 +82615,9 @@
   ],
   "sort": [
     "sort"
+  ],
+  "sortable": [
+    "sortable"
   ],
   "sorter": [
     "sorter"
@@ -86303,6 +86402,9 @@
   "tacotron": [
     "tacotron"
   ],
+  "tacotron-pytorch": [
+    "tacotron-pytorch"
+  ],
   "tacotron2": [
     "tacotron2"
   ],
@@ -86455,6 +86557,9 @@
   ],
   "tags": [
     "tags"
+  ],
+  "tahoma": [
+    "tahoma"
   ],
   "taichi": [
     "taichi"
@@ -95081,6 +95186,9 @@
   "version-manager": [
     "version-manager"
   ],
+  "versionfox ci": [
+    "versionfox-ci"
+  ],
   "versioning": [
     "versioning"
   ],
@@ -95137,6 +95245,12 @@
   ],
   "vfile": [
     "vfile"
+  ],
+  "vfox e2e test": [
+    "vfox-e2e-test"
+  ],
+  "vfox-plugin": [
+    "vfox-plugin"
   ],
   "vggish": [
     "vggish"
@@ -96946,6 +97060,9 @@
   ],
   "watson": [
     "watson"
+  ],
+  "wav2letter": [
+    "wav2letter"
   ],
   "wav2lip": [
     "wav2lip"
@@ -99663,6 +99780,12 @@
   ],
   "zig-package": [
     "zig-package"
+  ],
+  "zigbee": [
+    "zigbee"
+  ],
+  "zigbee2mqtt": [
+    "zigbee2mqtt"
   ],
   "ziglang": [
     "ziglang"

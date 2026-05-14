@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -91,6 +91,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/shellcheck.yml",
       "source_repo": "actions/jekyll-build-pages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "ellie/atuin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "atuinsh/atuin"
     }
   ],
   "term": "Shellcheck"

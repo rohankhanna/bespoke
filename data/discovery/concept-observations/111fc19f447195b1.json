@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Selecto.js is a component that allows you to select elements in the drag area using the mouse or touch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"middle\" ><img src=\"https://daybrush.com/selecto/images/logo.png\" /></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"middle\" ><img src=\"https://daybrush.com/selecto/images/logo.png\" /></p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017068,
+      "status": "candidate",
+      "text": "scene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017067,
+      "status": "candidate",
+      "text": "sc\u00e8ne \u00e0 faire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017066,
+      "status": "candidate",
+      "text": "entr'acte"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017065,
+      "status": "candidate",
+      "text": "setting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017064,
+      "status": "candidate",
+      "text": "stage direction"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scena",
+      "sense_id": "scena#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "scena",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scena",
+  "observation_id": "111fc19f447195b1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-14T00:43:26.166349+00:00",
+  "observed_text": "scena",
+  "source_context_snippet": "<p align=\"middle\" ><img src=\"https://daybrush.com/selecto/images/logo.png\" /></p>",
+  "source_file": null,
+  "source_repo": "daybrush/selecto",
+  "source_repo_description": "Selecto.js is a component that allows you to select elements in the drag area using the mouse or touch."
+}

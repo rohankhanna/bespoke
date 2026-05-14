@@ -526,6 +526,18 @@
       "source_repo": "chromelyapps/Chromely",
       "status": "candidate-context",
       "text": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daybrush/selecto",
+      "status": "candidate-context",
+      "text": "Selecto.js is a component that allows you to select elements in the drag area using the mouse or touch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daybrush/selecto",
+      "status": "candidate-context",
+      "text": "<p align=\"middle\" ><img src=\"https://daybrush.com/selecto/images/logo.png\" /></p>"
     }
   ],
   "candidate_glosses": [
@@ -792,6 +804,12 @@
       "source_repo": "chromelyapps/Chromely",
       "status": "candidate",
       "text": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daybrush/selecto",
+      "status": "candidate",
+      "text": "<p align=\"middle\" ><img src=\"https://daybrush.com/selecto/images/logo.png\" /></p>"
     }
   ],
   "candidate_related_terms": [
@@ -1495,11 +1513,29 @@
       "observed_at": "2026-05-13T18:45:31.430554+00:00",
       "source_file": null,
       "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "daybrush/selecto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "lexical_providers": [
     "datamuse"
   ],

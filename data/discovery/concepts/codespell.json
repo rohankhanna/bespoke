@@ -596,6 +596,30 @@
       "source_repo": "2mawi2/schaltwerk",
       "status": "candidate-context",
       "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ellie/atuin",
+      "status": "candidate-context",
+      "text": "\u2728 Magical shell history"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ellie/atuin",
+      "status": "candidate-context",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atuinsh/atuin",
+      "status": "candidate-context",
+      "text": "\u2728 Making your shell magical"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atuinsh/atuin",
+      "status": "candidate-context",
+      "text": "Codespell"
     }
   ],
   "candidate_glosses": [
@@ -890,6 +914,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "2mawi2/schaltwerk",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ellie/atuin",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atuinsh/atuin",
       "status": "candidate",
       "text": "Codespell"
     }
@@ -1229,11 +1265,23 @@
       "observed_at": "2026-05-12T07:08:14.758954+00:00",
       "source_file": ".github/workflows/codespell.yml",
       "source_repo": "2mawi2/schaltwerk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "ellie/atuin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "atuinsh/atuin"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-12T07:08:14.758954+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "lexical_providers": [
     "datamuse"
   ],

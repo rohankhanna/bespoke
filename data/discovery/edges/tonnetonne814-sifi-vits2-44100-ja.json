@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tonnetonne814/SiFi-VITS2-44100-Ja",
+      "target": "chomeyama/sifigan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tonnetonne814/SiFi-VITS2-44100-Ja",
+      "target": "ehoogeboom/multinomial_diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tonnetonne814/SiFi-VITS2-44100-Ja",
+      "target": "imdanboy/jets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tonnetonne814/SiFi-VITS2-44100-Ja",
+      "target": "fishaudio/fish-diffusion",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-14T00:43:26.166349+00:00",
+  "source_repo": "tonnetonne814/SiFi-VITS2-44100-Ja"
+}

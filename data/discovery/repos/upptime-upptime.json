@@ -116,13 +116,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "upptime/upptime",
-      "target": "topics/upptime",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "upptime/upptime",
       "target": "koj-co/upptime",
       "target_type": "repository"
     },
@@ -358,11 +351,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T14:17:28.953318+00:00",
+  "fetched_at": "2026-05-14T04:05:37.312190+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 18857
+      "size": 18858
     },
     {
       "path": ".github/workflows/graphs.yml",
@@ -406,8 +399,8 @@
     "full_name": "upptime/upptime",
     "html_url": "https://github.com/upptime/upptime",
     "language": "Markdown",
-    "pushed_at": "2026-05-13T03:51:19Z",
-    "stargazers_count": 17025,
+    "pushed_at": "2026-05-14T03:50:53Z",
+    "stargazers_count": 17026,
     "topics": [
       "incidents-reports",
       "status",
@@ -416,17 +409,12 @@
       "uptime",
       "uptime-monitor"
     ],
-    "updated_at": "2026-05-13T03:51:23Z"
+    "updated_at": "2026-05-14T03:50:57Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "koj-co/upptime",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "topics/upptime",
       "source_file": "README.md"
     }
   ],

@@ -48,7 +48,7 @@
   "normalized_form": "docker-coq-action",
   "observation_id": "80b7dd09c087a7d3",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-13T18:45:31.430554+00:00",
+  "observed_at": "2026-05-14T00:43:26.166349+00:00",
   "observed_text": "docker-coq-action",
   "source_context_snippet": "[![reviewdog][reviewdog-badge]][reviewdog-link]",
   "source_file": null,

@@ -184,7 +184,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T13:22:18.565528+00:00",
+  "fetched_at": "2026-05-14T03:09:44.094948+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -221,13 +221,13 @@
     "html_url": "https://github.com/vale-cli/vale",
     "language": "Go",
     "pushed_at": "2026-05-01T19:23:43Z",
-    "stargazers_count": 5381,
+    "stargazers_count": 5382,
     "topics": [
       "linter",
       "linting",
       "vale"
     ],
-    "updated_at": "2026-05-12T11:59:15Z"
+    "updated_at": "2026-05-13T20:58:38Z"
   },
   "repo_links": [
     {

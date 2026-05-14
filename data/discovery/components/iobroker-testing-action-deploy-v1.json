@@ -1,0 +1,12 @@
+{
+  "component": "ioBroker/testing-action-deploy@v1",
+  "first_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-and-release.yml",
+      "source_repo": "ioBroker/plugin-sentry"
+    }
+  ]
+}

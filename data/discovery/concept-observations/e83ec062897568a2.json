@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The modern toolkit for building drag and drop interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Continuous Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Continuous Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36637,
+      "status": "candidate",
+      "text": "continuousness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36636,
+      "status": "candidate",
+      "text": "continuously"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36635,
+      "status": "candidate",
+      "text": "continuous improvement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36634,
+      "status": "candidate",
+      "text": "continual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36633,
+      "status": "candidate",
+      "text": "constant"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Continuous Release",
+      "sense_id": "continuous-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "continuous-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "continuous-release",
+  "observation_id": "e83ec062897568a2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-14T00:43:26.166349+00:00",
+  "observed_text": "Continuous Release",
+  "source_context_snippet": "Continuous Release",
+  "source_file": ".github/workflows/continous-release.yml",
+  "source_repo": "clauderic/dnd-kit",
+  "source_repo_description": "The modern toolkit for building drag and drop interfaces"
+}

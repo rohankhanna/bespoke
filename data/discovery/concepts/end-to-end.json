@@ -91,6 +91,18 @@
       "source_repo": "r9y9/deepvoice3_pytorch",
       "status": "candidate-context",
       "text": "![alt text](assets/banner.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flashlight/wav2letter",
+      "status": "candidate-context",
+      "text": "Facebook AI Research's Automatic Speech Recognition Toolkit "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashlight/wav2letter",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/flashlight/wav2letter.svg?style=svg)](https://app.circleci.com/pipelines/github/flashlight/wav2letter)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "r9y9/deepvoice3_pytorch",
       "status": "candidate",
       "text": "![alt text](assets/banner.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashlight/wav2letter",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/flashlight/wav2letter.svg?style=svg)](https://app.circleci.com/pipelines/github/flashlight/wav2letter)"
     }
   ],
   "candidate_related_terms": [
@@ -406,11 +424,23 @@
       "observed_at": "2026-05-13T12:58:22.952944+00:00",
       "source_file": null,
       "source_repo": "megvii-research/MOTR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "megvii-research/MOTR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "flashlight/wav2letter"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "lexical_providers": [
     "datamuse"
   ],

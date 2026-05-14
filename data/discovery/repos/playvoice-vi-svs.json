@@ -12,7 +12,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/VI-SVS",
-      "target": "sjtmusicteam/muskits",
+      "target": "mindslab-ai/univnet",
       "target_type": "repository"
     },
     {
@@ -26,7 +26,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/VI-SVS",
-      "target": "thuhcsi/diffvar",
+      "target": "tonnetonne814/sifi-vits2-44100-ja",
       "target_type": "repository"
     },
     {
@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T19:20:37.807079+00:00",
+  "fetched_at": "2026-05-14T05:13:13.594827+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -125,17 +125,17 @@
     },
     {
       "edge_type": "explicit-github-link",
+      "full_name": "mindslab-ai/univnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
       "full_name": "playvoice/so-vits-svc-5.0",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "sjtmusicteam/muskits",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "thuhcsi/diffvar",
+      "full_name": "tonnetonne814/sifi-vits2-44100-ja",
       "source_file": "README.md"
     }
   ],

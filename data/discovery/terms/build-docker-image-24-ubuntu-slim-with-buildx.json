@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker-buildx-24-ubuntu-slim.yml",
+      "source_repo": "Luligu/matterbridge"
+    }
+  ],
+  "term": "Build Docker Image 24-ubuntu-slim with buildx"
+}

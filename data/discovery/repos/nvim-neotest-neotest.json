@@ -75,14 +75,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-neotest/neotest",
-      "target": "codymikol/neotest-kotlin.nvim",
+      "target": "stevanmilic/neotest-scala",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-neotest/neotest",
-      "target": "sluongng/neotest-bazel",
+      "target": "codymikol/neotest-kotlin.nvim",
       "target_type": "repository"
     },
     {
@@ -170,7 +170,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T19:00:45.468809+00:00",
+  "fetched_at": "2026-05-14T05:06:16.265711+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -224,7 +224,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "sluongng/neotest-bazel",
+      "full_name": "stevanmilic/neotest-scala",
       "source_file": "README.md"
     }
   ],

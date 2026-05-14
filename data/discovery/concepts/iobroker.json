@@ -19,6 +19,18 @@
       "source_repo": "ioBroker/ioBroker.matter",
       "status": "candidate-context",
       "text": "![Logo](admin/matter.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ioBroker/plugin-sentry",
+      "status": "candidate-context",
+      "text": "Sentry Plugin for ioBroker js-controller and Adapters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ioBroker/plugin-sentry",
+      "status": "candidate-context",
+      "text": "Facilitates the integration of the Sentry error tracking and monitoring service into the js-controller and adapters, allowing developers to monitor and track any errors occurring within ioBroker setups."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ioBroker/ioBroker.matter",
       "status": "candidate",
       "text": "![Logo](admin/matter.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ioBroker/plugin-sentry",
+      "status": "candidate",
+      "text": "Facilitates the integration of the Sentry error tracking and monitoring service into the js-controller and adapters, allowing developers to monitor and track any errors occurring within ioBroker setups."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-13T18:45:31.430554+00:00",
       "source_file": null,
       "source_repo": "ioBroker/ioBroker.matter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "ioBroker/plugin-sentry"
     }
   ],
   "first_seen_at": "2026-05-13T18:45:31.430554+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "lexical_providers": [
     "datamuse"
   ],

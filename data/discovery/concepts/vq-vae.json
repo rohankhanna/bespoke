@@ -19,6 +19,18 @@
       "source_repo": "Mael-zys/T2M-GPT",
       "status": "candidate-context",
       "text": "Pytorch implementation of paper \"T2M-GPT: Generating Human Motion from Textual Descriptions with Discrete Representations\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/jukebox",
+      "status": "candidate-context",
+      "text": "Code for the paper \"Jukebox: A Generative Model for Music\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/jukebox",
+      "status": "candidate-context",
+      "text": "**Status:** Archive (code is provided as-is, no updates expected)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Mael-zys/T2M-GPT",
       "status": "candidate",
       "text": "Pytorch implementation of paper \"T2M-GPT: Generating Human Motion from Textual Descriptions with Discrete Representations\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/jukebox",
+      "status": "candidate",
+      "text": "**Status:** Archive (code is provided as-is, no updates expected)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "Mael-zys/T2M-GPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "openai/jukebox"
     }
   ],
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "lexical_providers": [
     "datamuse"
   ],

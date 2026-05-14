@@ -496,7 +496,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T19:07:51.703262+00:00",
+  "fetched_at": "2026-05-14T05:08:46.807118+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -540,7 +540,7 @@
     "full_name": "apalache-mc/apalache",
     "html_url": "https://github.com/apalache-mc/apalache",
     "language": "Scala",
-    "pushed_at": "2026-05-13T17:52:14Z",
+    "pushed_at": "2026-05-13T19:55:13Z",
     "stargazers_count": 555,
     "topics": [
       "apalache",

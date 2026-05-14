@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "auspicious3000/autovc",
+      "target": "auspicious3000/autopst",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "auspicious3000/autovc",
+      "target": "auspicious3000/speechsplit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auspicious3000/autovc",
+      "target": "generative-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auspicious3000/autovc",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auspicious3000/autovc",
+      "target": "tacotron-pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auspicious3000/autovc",
+      "target": "unsupervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auspicious3000/autovc",
+      "target": "voice-conversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auspicious3000/autovc",
+      "target": "wavenet-vocoder",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T03:02:43.696553+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2944
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AutoVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss",
+    "fork": false,
+    "full_name": "auspicious3000/autovc",
+    "html_url": "https://github.com/auspicious3000/autovc",
+    "language": "Python",
+    "pushed_at": "2024-10-23T00:53:39Z",
+    "stargazers_count": 1094,
+    "topics": [
+      "generative-models",
+      "speech-synthesis",
+      "tacotron-pytorch",
+      "unsupervised-learning",
+      "voice-conversion",
+      "wavenet-vocoder"
+    ],
+    "updated_at": "2026-04-24T06:11:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "auspicious3000/autopst",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "auspicious3000/speechsplit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository provides a PyTorch implementation of AUTOVC.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-models"
+    },
+    {
+      "context_snippet": "This repository provides a PyTorch implementation of AUTOVC.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "This repository provides a PyTorch implementation of AUTOVC.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tacotron-pytorch"
+    },
+    {
+      "context_snippet": "This repository provides a PyTorch implementation of AUTOVC.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unsupervised-learning"
+    },
+    {
+      "context_snippet": "This repository provides a PyTorch implementation of AUTOVC.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-conversion"
+    },
+    {
+      "context_snippet": "This repository provides a PyTorch implementation of AUTOVC.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wavenet-vocoder"
+    }
+  ]
+}

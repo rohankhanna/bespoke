@@ -71,11 +71,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "ava",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "esbuild",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -137,11 +132,6 @@
     },
     {
       "component": "tempy",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "tsimp",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -364,13 +354,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "intentee/paddler",
-      "target": "ava",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "intentee/paddler",
       "target": "esbuild",
       "target_type": "component"
     },
@@ -456,13 +439,6 @@
       "source_file": "package.json",
       "source_repo": "intentee/paddler",
       "target": "tempy",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "intentee/paddler",
-      "target": "tsimp",
       "target_type": "component"
     },
     {
@@ -634,7 +610,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T13:18:48.777595+00:00",
+  "fetched_at": "2026-05-14T05:18:44.630423+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -642,7 +618,7 @@
     },
     {
       "path": "Cargo.toml",
-      "size": 3564
+      "size": 3695
     },
     {
       "path": "Dockerfile",
@@ -650,7 +626,7 @@
     },
     {
       "path": "package.json",
-      "size": 1295
+      "size": 1201
     },
     {
       "path": ".github/workflows/clippy.yml",
@@ -678,8 +654,8 @@
     "full_name": "intentee/paddler",
     "html_url": "https://github.com/intentee/paddler",
     "language": "Rust",
-    "pushed_at": "2026-05-13T01:14:34Z",
-    "stargazers_count": 1558,
+    "pushed_at": "2026-05-13T23:50:50Z",
+    "stargazers_count": 1557,
     "topics": [
       "ai",
       "llamacpp",
@@ -687,7 +663,7 @@
       "llmops",
       "load-balancer"
     ],
-    "updated_at": "2026-05-13T04:26:21Z"
+    "updated_at": "2026-05-13T23:57:28Z"
   },
   "repo_links": [],
   "terms": [

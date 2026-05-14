@@ -90,7 +90,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T09:36:59.137132+00:00",
+  "fetched_at": "2026-05-14T05:04:45.807543+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -114,8 +114,8 @@
     "full_name": "cloudfoundry/credhub",
     "html_url": "https://github.com/cloudfoundry/credhub",
     "language": "Java",
-    "pushed_at": "2026-05-12T22:02:22Z",
-    "stargazers_count": 249,
+    "pushed_at": "2026-05-13T21:36:09Z",
+    "stargazers_count": 250,
     "topics": [
       "bosh",
       "cf-extensions",
@@ -123,7 +123,7 @@
       "credential-manager",
       "credhub"
     ],
-    "updated_at": "2026-05-12T22:02:34Z"
+    "updated_at": "2026-05-13T21:36:08Z"
   },
   "repo_links": [
     {

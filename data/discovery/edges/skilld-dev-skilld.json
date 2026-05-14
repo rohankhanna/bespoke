@@ -130,6 +130,13 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "skilld-dev/skilld",
+      "target": "skilld-protocol",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "skilld-dev/skilld",
       "target": "sqlite-vec",
       "target_type": "component"
     },
@@ -194,6 +201,13 @@
       "source_file": "package.json",
       "source_repo": "skilld-dev/skilld",
       "target": "bumpp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "skilld-dev/skilld",
+      "target": "eslint",
       "target_type": "component"
     },
     {
@@ -274,6 +288,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-13T12:58:22.952944+00:00",
+  "generated_at": "2026-05-14T00:43:26.166349+00:00",
   "source_repo": "skilld-dev/skilld"
 }

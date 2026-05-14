@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Sentry Plugin for ioBroker js-controller and Adapters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Facilitates the integration of the Sentry error tracking and monitoring service into the js-controller and adapters, allowing developers to monitor and track any errors occurring within ioBroker setups."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Facilitates the integration of the Sentry error tracking and monitoring service into the js-controller and adapters, allowing developers to monitor and track any errors occurring within ioBroker setups."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "iobroker",
+      "sense_id": "iobroker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "iobroker",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "iobroker",
+  "observation_id": "8d17aafc3806d778",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-14T00:43:26.166349+00:00",
+  "observed_text": "iobroker",
+  "source_context_snippet": "Facilitates the integration of the Sentry error tracking and monitoring service into the js-controller and adapters, allowing developers to monitor and track any errors occurring within ioBroker setups.",
+  "source_file": null,
+  "source_repo": "ioBroker/plugin-sentry",
+  "source_repo_description": "Sentry Plugin for ioBroker js-controller and Adapters"
+}

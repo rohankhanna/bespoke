@@ -107,7 +107,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T14:04:13.117931+00:00",
+  "fetched_at": "2026-05-14T03:58:42.789059+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -128,7 +128,7 @@
     "html_url": "https://github.com/nonstd-lite/string-view-lite",
     "language": "C++",
     "pushed_at": "2025-11-28T19:57:17Z",
-    "stargazers_count": 471,
+    "stargazers_count": 469,
     "topics": [
       "cpp17",
       "cpp98",
@@ -138,7 +138,7 @@
       "string-view",
       "string-view-implementations"
     ],
-    "updated_at": "2026-04-30T10:56:30Z"
+    "updated_at": "2026-05-13T19:48:14Z"
   },
   "repo_links": [
     {

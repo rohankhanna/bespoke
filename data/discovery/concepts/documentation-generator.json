@@ -115,6 +115,12 @@
       "source_repo": "dauxio/daux.io",
       "status": "candidate-context",
       "text": "[![Latest Version](https://img.shields.io/github/release/dauxio/daux.io.svg?style=flat-square)](https://github.com/dauxio/daux.io/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "insodoc/insomnia-documenter",
+      "status": "candidate-context",
+      "text": "insomnia-documenter \u2014 API documentation generator tool for Insomnia."
     }
   ],
   "candidate_glosses": [
@@ -171,6 +177,12 @@
       "source_repo": "dauxio/daux.io",
       "status": "candidate",
       "text": "[![Latest Version](https://img.shields.io/github/release/dauxio/daux.io.svg?style=flat-square)](https://github.com/dauxio/daux.io/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "insodoc/insomnia-documenter",
+      "status": "candidate",
+      "text": "insomnia-documenter \u2014 API documentation generator tool for Insomnia."
     }
   ],
   "candidate_related_terms": [],
@@ -634,11 +646,23 @@
       "observed_at": "2026-05-13T12:58:22.952944+00:00",
       "source_file": null,
       "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "insodoc/insomnia-documenter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "lexical_providers": [
     "datamuse"
   ],

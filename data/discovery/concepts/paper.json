@@ -187,6 +187,18 @@
       "source_repo": "lmnt-com/diffwave",
       "status": "candidate-context",
       "text": "![PyPI Release](https://img.shields.io/pypi/v/diffwave?label=release) [![License](https://img.shields.io/github/license/lmnt-com/diffwave)](https://github.com/lmnt-com/diffwave/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/jukebox",
+      "status": "candidate-context",
+      "text": "Code for the paper \"Jukebox: A Generative Model for Music\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/jukebox",
+      "status": "candidate-context",
+      "text": "**Status:** Archive (code is provided as-is, no updates expected)"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "lmnt-com/diffwave",
       "status": "candidate",
       "text": "![PyPI Release](https://img.shields.io/pypi/v/diffwave?label=release) [![License](https://img.shields.io/github/license/lmnt-com/diffwave)](https://github.com/lmnt-com/diffwave/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/jukebox",
+      "status": "candidate",
+      "text": "**Status:** Archive (code is provided as-is, no updates expected)"
     }
   ],
   "candidate_related_terms": [
@@ -448,11 +466,17 @@
       "observed_at": "2026-05-13T07:12:28.410129+00:00",
       "source_file": null,
       "source_repo": "lmnt-com/diffwave"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "openai/jukebox"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "lexical_providers": [
     "datamuse"
   ],

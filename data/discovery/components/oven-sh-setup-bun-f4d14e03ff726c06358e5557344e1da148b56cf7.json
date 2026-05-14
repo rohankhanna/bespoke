@@ -1,0 +1,12 @@
+{
+  "component": "oven-sh/setup-bun@f4d14e03ff726c06358e5557344e1da148b56cf7",
+  "first_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clauderic/dnd-kit"
+    }
+  ]
+}

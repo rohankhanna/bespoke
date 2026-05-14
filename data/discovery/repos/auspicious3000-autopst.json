@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auspicious3000/AutoPST",
+      "target": "disentangled-representations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auspicious3000/AutoPST",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auspicious3000/AutoPST",
+      "target": "voice-conversion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T05:13:20.527234+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2709
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Global Rhythm Style Transfer Without Text Transcriptions",
+    "fork": false,
+    "full_name": "auspicious3000/AutoPST",
+    "html_url": "https://github.com/auspicious3000/AutoPST",
+    "language": "Python",
+    "pushed_at": "2024-10-23T02:06:52Z",
+    "stargazers_count": 284,
+    "topics": [
+      "disentangled-representations",
+      "speech-synthesis",
+      "voice-conversion"
+    ],
+    "updated_at": "2026-03-17T07:55:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository provides a PyTorch implementation of [AutoPST](https://arxiv.org/abs/2106.08519), which enables unsupervised global prosody conversion without text transcriptions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "disentangled-representations"
+    },
+    {
+      "context_snippet": "This repository provides a PyTorch implementation of [AutoPST](https://arxiv.org/abs/2106.08519), which enables unsupervised global prosody conversion without text transcriptions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "This repository provides a PyTorch implementation of [AutoPST](https://arxiv.org/abs/2106.08519), which enables unsupervised global prosody conversion without text transcriptions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-conversion"
+    }
+  ]
+}

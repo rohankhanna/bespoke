@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Matterbridge somfy tahoma plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![npm version](https://img.shields.io/npm/v/matterbridge-somfy-tahoma.svg)](https://www.npmjs.com/package/matterbridge-somfy-tahoma)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/matterbridge-somfy-tahoma.svg)](https://www.npmjs.com/package/matterbridge-somfy-tahoma)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9418740,
+      "status": "candidate",
+      "text": "el dorado hills"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9418739,
+      "status": "candidate",
+      "text": "alta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9418738,
+      "status": "candidate",
+      "text": "placerville"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9418737,
+      "status": "candidate",
+      "text": "plumas eureka"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9418736,
+      "status": "candidate",
+      "text": "shingle springs"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tahoma",
+      "sense_id": "tahoma#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tahoma",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tahoma",
+  "observation_id": "f7b2b9b05a359ea5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-14T00:43:26.166349+00:00",
+  "observed_text": "tahoma",
+  "source_context_snippet": "[![npm version](https://img.shields.io/npm/v/matterbridge-somfy-tahoma.svg)](https://www.npmjs.com/package/matterbridge-somfy-tahoma)",
+  "source_file": null,
+  "source_repo": "Luligu/matterbridge-somfy-tahoma",
+  "source_repo_description": "Matterbridge somfy tahoma plugin"
+}

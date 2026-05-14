@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "matter-js/matter.js",
-      "target": "iobroker/iobroker.matter",
+      "target": "luligu/matterbridge",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "matter-js/matter.js",
-      "target": "fezvrasta/node-red-matter",
+      "target": "luligu/matterbridge-somfy-tahoma",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "matter-js/matter.js",
-      "target": "antonio-gabriele/zigbee-matter-bridge",
+      "target": "luligu/matterbridge-shelly",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "matter-js/matter.js",
-      "target": "gladysassistant/gladys",
+      "target": "jimbuzbee/matter-controller",
       "target_type": "repository"
     },
     {
@@ -365,6 +365,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-13T12:58:22.952944+00:00",
+  "generated_at": "2026-05-14T00:43:26.166349+00:00",
   "source_repo": "matter-js/matter.js"
 }

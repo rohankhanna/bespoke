@@ -51,7 +51,7 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -111,7 +111,7 @@
       "source_file": ".github/workflows/publish.yml"
     },
     {
-      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml"
     },
@@ -126,7 +126,7 @@
       "source_file": ".github/workflows/publish.yml"
     },
     {
-      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml"
     },
@@ -236,7 +236,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "SpecterOps/AzureHound",
-      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -313,7 +313,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "SpecterOps/AzureHound",
-      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -334,7 +334,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "SpecterOps/AzureHound",
-      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "target_type": "component"
     },
     {
@@ -380,7 +380,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T13:15:39.387206+00:00",
+  "fetched_at": "2026-05-14T05:17:23.676118+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -408,7 +408,7 @@
     },
     {
       "path": ".github/workflows/publish.yml",
-      "size": 7589
+      "size": 7636
     }
   ],
   "related_repositories": [],
@@ -420,13 +420,13 @@
     "full_name": "SpecterOps/AzureHound",
     "html_url": "https://github.com/SpecterOps/AzureHound",
     "language": "Go",
-    "pushed_at": "2026-05-12T22:34:29Z",
-    "stargazers_count": 904,
+    "pushed_at": "2026-05-13T17:14:00Z",
+    "stargazers_count": 907,
     "topics": [
       "azure",
       "go"
     ],
-    "updated_at": "2026-05-12T16:21:45Z"
+    "updated_at": "2026-05-13T16:25:56Z"
   },
   "repo_links": [
     {

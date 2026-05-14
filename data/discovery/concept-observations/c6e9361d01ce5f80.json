@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AutoVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository provides a PyTorch implementation of AUTOVC."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository provides a PyTorch implementation of AUTOVC."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tacotron-pytorch",
+      "sense_id": "tacotron-pytorch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tacotron-pytorch",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tacotron-pytorch",
+  "observation_id": "c6e9361d01ce5f80",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-14T00:43:26.166349+00:00",
+  "observed_text": "tacotron-pytorch",
+  "source_context_snippet": "This repository provides a PyTorch implementation of AUTOVC.",
+  "source_file": null,
+  "source_repo": "auspicious3000/autovc",
+  "source_repo_description": "AutoVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss"
+}

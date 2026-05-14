@@ -164,7 +164,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T19:08:41.597687+00:00",
+  "fetched_at": "2026-05-14T05:09:05.481977+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -193,7 +193,7 @@
     "html_url": "https://github.com/arkworks-rs/poly-commit",
     "language": "Rust",
     "pushed_at": "2026-04-26T21:03:10Z",
-    "stargazers_count": 429,
+    "stargazers_count": 430,
     "topics": [
       "cryptography",
       "marlin",
@@ -202,7 +202,7 @@
       "rust",
       "sonic"
     ],
-    "updated_at": "2026-04-27T05:16:12Z"
+    "updated_at": "2026-05-13T19:32:53Z"
   },
   "repo_links": [
     {

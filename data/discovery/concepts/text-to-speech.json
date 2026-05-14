@@ -601,6 +601,18 @@
       "source_repo": "lmnt-com/diffwave",
       "status": "candidate-context",
       "text": "![PyPI Release](https://img.shields.io/pypi/v/diffwave?label=release) [![License](https://img.shields.io/github/license/lmnt-com/diffwave)](https://github.com/lmnt-com/diffwave/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hcy71o/SNAC",
+      "status": "candidate-context",
+      "text": "Unofficial Pytorch implementation of SNAC: Speaker-normalized affine coupling layer in flow-based architecture for zero-shot multi-speaker text-to-speech"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hcy71o/SNAC",
+      "status": "candidate-context",
+      "text": "This is the unofficial pytorch implementation of [SNAC](https://arxiv.org/abs/2211.16866)"
     }
   ],
   "candidate_glosses": [
@@ -903,6 +915,12 @@
       "source_repo": "lmnt-com/diffwave",
       "status": "candidate",
       "text": "![PyPI Release](https://img.shields.io/pypi/v/diffwave?label=release) [![License](https://img.shields.io/github/license/lmnt-com/diffwave)](https://github.com/lmnt-com/diffwave/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hcy71o/SNAC",
+      "status": "candidate",
+      "text": "This is the unofficial pytorch implementation of [SNAC](https://arxiv.org/abs/2211.16866)"
     }
   ],
   "candidate_related_terms": [],
@@ -1402,11 +1420,23 @@
       "observed_at": "2026-05-13T12:58:22.952944+00:00",
       "source_file": null,
       "source_repo": "lifeiteng/vall-e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "lifeiteng/vall-e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "hcy71o/SNAC"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "lexical_providers": [
     "datamuse"
   ],

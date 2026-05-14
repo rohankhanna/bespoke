@@ -1,0 +1,64 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flutydeer/audio-slicer",
+      "target": "audio-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flutydeer/audio-slicer",
+      "target": "pyside6",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T05:13:18.266985+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3521
+    },
+    {
+      "path": "requirements.txt",
+      "size": 73
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple GUI application that slices audio with silence detection",
+    "fork": true,
+    "full_name": "flutydeer/audio-slicer",
+    "html_url": "https://github.com/flutydeer/audio-slicer",
+    "language": "Python",
+    "pushed_at": "2026-04-05T19:16:08Z",
+    "stargazers_count": 1451,
+    "topics": [
+      "audio-processing",
+      "gui",
+      "pyside6",
+      "qt6"
+    ],
+    "updated_at": "2026-05-12T16:53:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A simple GUI application that slices audio with silence detection.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-processing"
+    },
+    {
+      "context_snippet": "A simple GUI application that slices audio with silence detection.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyside6"
+    }
+  ]
+}

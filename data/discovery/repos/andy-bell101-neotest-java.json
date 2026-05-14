@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andy-bell101/neotest-java",
+      "target": "rcarriga/neotest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "andy-bell101/neotest-java",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "andy-bell101/neotest-java",
+      "target": "Testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T05:06:17.829335+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1624
+    },
+    {
+      "path": ".github/workflows/testing.yml",
+      "size": 262
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Java plugin for Neotest",
+    "fork": false,
+    "full_name": "andy-bell101/neotest-java",
+    "html_url": "https://github.com/andy-bell101/neotest-java",
+    "language": "Lua",
+    "pushed_at": "2023-12-07T10:39:56Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2023-12-04T16:11:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rcarriga/neotest",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "term": "Testing"
+    }
+  ]
+}

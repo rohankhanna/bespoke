@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -201,6 +201,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release-plz.yml",
       "source_repo": "ros2-rust/ros2_rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "abusch/nu_plugin_semver"
     }
   ],
   "term": "Release-plz"

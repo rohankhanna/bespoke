@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-14T05:13:03.029495+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1266
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Browse and discover AWS Service Authorization Reference interactively in Nushell.",
+    "fork": false,
+    "full_name": "a-slice-of-py/nu-aws-service-reference",
+    "html_url": "https://github.com/a-slice-of-py/nu-aws-service-reference",
+    "language": "Nushell",
+    "pushed_at": "2025-03-24T19:55:15Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-03-24T19:55:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

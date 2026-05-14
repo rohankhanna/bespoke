@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v6",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1882,6 +1882,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test_coverage.yml",
       "source_repo": "junhoyeo/tokscale"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "atuinsh/atuin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "abusch/nu_plugin_semver"
     }
   ]
 }

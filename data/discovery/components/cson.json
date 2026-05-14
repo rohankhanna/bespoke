@@ -1,7 +1,7 @@
 {
   "component": "cson",
   "first_seen_at": "2026-05-06T18:41:14.951242+00:00",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

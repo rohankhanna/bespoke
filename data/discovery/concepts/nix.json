@@ -200,6 +200,30 @@
       "source_repo": "eayus/sirdi",
       "status": "candidate-context",
       "text": "\"nix\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ellie/atuin",
+      "status": "candidate-context",
+      "text": "\u2728 Magical shell history"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ellie/atuin",
+      "status": "candidate-context",
+      "text": "Nix"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atuinsh/atuin",
+      "status": "candidate-context",
+      "text": "\u2728 Making your shell magical"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atuinsh/atuin",
+      "status": "candidate-context",
+      "text": "Nix"
     }
   ],
   "candidate_glosses": [
@@ -298,6 +322,18 @@
       "source_repo": "eayus/sirdi",
       "status": "candidate",
       "text": "\"nix\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ellie/atuin",
+      "status": "candidate",
+      "text": "Nix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atuinsh/atuin",
+      "status": "candidate",
+      "text": "Nix"
     }
   ],
   "candidate_related_terms": [
@@ -707,11 +743,29 @@
       "observed_at": "2026-05-13T12:58:22.952944+00:00",
       "source_file": ".github/workflows/nix.yml",
       "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "ellie/atuin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "atuinsh/atuin"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "lexical_providers": [
     "datamuse"
   ],

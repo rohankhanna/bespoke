@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-14T03:02:11.662269+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2118
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude Code plugin for organising therapy reflections \u2014 pre/post-session notes, goal tracking, voice-memo structuring. Not therapy: organises notes only.",
+    "fork": false,
+    "full_name": "danielrosehill/Therapy-Tracking-Plugin",
+    "html_url": "https://github.com/danielrosehill/Therapy-Tracking-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-28T17:37:11Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-05-08T19:53:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

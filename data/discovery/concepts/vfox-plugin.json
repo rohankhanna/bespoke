@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "vfox-plugin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "version-fox/vfox-plugins",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80\ud83d\ude80 This repository serves as a registry for vfox community plugins. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "version-fox/vfox-plugins",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/github/directory-file-count/version-fox/vfox-plugins%2Fplugins?style=flat&label=Available%20Plugins)](https://vfox.dev/plugins/available.html)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "version-fox/vfox-plugins",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/github/directory-file-count/version-fox/vfox-plugins%2Fplugins?style=flat&label=Available%20Plugins)](https://vfox.dev/plugins/available.html)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vfox-plugin",
+  "concept_id": "vfox-plugin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "version-fox/vfox-plugins"
+    }
+  ],
+  "first_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vfox-plugin",
+      "sense_id": "vfox-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

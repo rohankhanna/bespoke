@@ -222,7 +222,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-13T19:00:26.180157+00:00",
+  "fetched_at": "2026-05-14T05:06:10.996062+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -230,7 +230,7 @@
     },
     {
       "path": "Cargo.toml",
-      "size": 4104
+      "size": 4106
     },
     {
       "path": ".github/workflows/build.yml",
@@ -246,7 +246,7 @@
     },
     {
       "path": ".github/workflows/upload_crates.yml",
-      "size": 548
+      "size": 558
     }
   ],
   "related_repositories": [],
@@ -258,10 +258,10 @@
     "full_name": "EmmyLuaLs/emmylua-analyzer-rust",
     "html_url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust",
     "language": "Rust",
-    "pushed_at": "2026-05-13T12:22:15Z",
-    "stargazers_count": 448,
+    "pushed_at": "2026-05-14T03:38:42Z",
+    "stargazers_count": 450,
     "topics": [],
-    "updated_at": "2026-05-13T12:22:25Z"
+    "updated_at": "2026-05-14T04:43:46Z"
   },
   "repo_links": [
     {

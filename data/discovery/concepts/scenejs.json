@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "scenejs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daybrush/selecto",
+      "status": "candidate-context",
+      "text": "Selecto.js is a component that allows you to select elements in the drag area using the mouse or touch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daybrush/selecto",
+      "status": "candidate-context",
+      "text": "<p align=\"middle\" ><img src=\"https://daybrush.com/selecto/images/logo.png\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daybrush/scena",
+      "status": "candidate-context",
+      "text": "\ud83c\udfac Scena is a component that represents the timeline of Scene.js. You can control time, properties, and items."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daybrush/scena",
+      "status": "candidate-context",
+      "text": "<p align=\"middle\" ><img src=\"https://raw.githubusercontent.com/daybrush/scena/master/demo/images/logo.png\" /></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daybrush/selecto",
+      "status": "candidate",
+      "text": "<p align=\"middle\" ><img src=\"https://daybrush.com/selecto/images/logo.png\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daybrush/scena",
+      "status": "candidate",
+      "text": "<p align=\"middle\" ><img src=\"https://raw.githubusercontent.com/daybrush/scena/master/demo/images/logo.png\" /></p>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "scenejs",
+  "concept_id": "scenejs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "daybrush/selecto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T00:43:26.166349+00:00",
+      "source_file": null,
+      "source_repo": "daybrush/scena"
+    }
+  ],
+  "first_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scenejs",
+      "sense_id": "scenejs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

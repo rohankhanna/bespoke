@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-13T18:45:31.430554+00:00",
+  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -86,6 +86,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "AIGC-Audio/AudioGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/jukebox"
     }
   ],
   "term": "music"
