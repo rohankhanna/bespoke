@@ -1354,11 +1354,35 @@
       "observed_at": "2026-05-14T07:10:22.636771+00:00",
       "source_file": null,
       "source_repo": "vbenjs/vue-vben-admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "fluent-vue/fluent-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-vue-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "antfu-collective/vitesse-webext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "vbenjs/vue-vben-admin"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T07:10:22.636771+00:00",
+  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
   "lexical_providers": [
     "datamuse"
   ],

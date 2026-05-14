@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "eshell"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SqrtMinusOne/eshell-atuin",
+      "status": "candidate-context",
+      "text": "eshell \u2764\ufe0f atuin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SqrtMinusOne/eshell-atuin",
+      "status": "candidate-context",
+      "text": "melpazoid"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SqrtMinusOne/eshell-atuin",
+      "status": "candidate",
+      "text": "melpazoid"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "eshell",
+  "concept_id": "eshell",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "SqrtMinusOne/eshell-atuin"
+    }
+  ],
+  "first_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "eshell",
+      "sense_id": "eshell#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

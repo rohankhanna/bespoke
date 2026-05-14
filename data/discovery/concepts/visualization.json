@@ -2587,11 +2587,23 @@
       "observed_at": "2026-05-14T07:10:22.636771+00:00",
       "source_file": null,
       "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "antvis/GPT-Vis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T07:10:22.636771+00:00",
+  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2696\ufe0f This component is a lightweight, simple line style component."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h2 align=\"middle\">css-styled</h2>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h2 align=\"middle\">css-styled</h2>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995947,
+      "status": "candidate",
+      "text": "titled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30007757,
+      "status": "candidate",
+      "text": "layout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005931,
+      "status": "candidate",
+      "text": "purpose-built"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005789,
+      "status": "candidate",
+      "text": "designed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29996300,
+      "status": "candidate",
+      "text": "intended"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "styled",
+      "sense_id": "styled#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3033,
+      "status": "candidate",
+      "text": "titled"
+    }
+  ],
+  "concept_id": "styled",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "styled",
+  "observation_id": "d9be2c12a9c9614f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-14T12:51:33.279454+00:00",
+  "observed_text": "styled",
+  "source_context_snippet": "<h2 align=\"middle\">css-styled</h2>",
+  "source_file": null,
+  "source_repo": "daybrush/css-styled",
+  "source_repo_description": "\u2696\ufe0f This component is a lightweight, simple line style component."
+}

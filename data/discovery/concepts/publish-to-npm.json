@@ -532,6 +532,42 @@
       "source_repo": "Luligu/matterbridge-somfy-tahoma",
       "status": "candidate-context",
       "text": "Publish to npm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andrasg/matterbridge-daikin-ac",
+      "status": "candidate-context",
+      "text": "A matterbridge plugin for connecting Daikin AC units to matter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrasg/matterbridge-daikin-ac",
+      "status": "candidate-context",
+      "text": "Publish to npm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andrasg/matterbridge-loxone",
+      "status": "candidate-context",
+      "text": "A matterbridge plugin to support Loxone devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrasg/matterbridge-loxone",
+      "status": "candidate-context",
+      "text": "Publish to npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Luligu/matterbridge-eve-door",
+      "status": "candidate-context",
+      "text": "Publish to npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Luligu/matterbridge-eve-energy",
+      "status": "candidate-context",
+      "text": "Publish to npm"
     }
   ],
   "candidate_glosses": [
@@ -802,6 +838,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Luligu/matterbridge-somfy-tahoma",
+      "status": "candidate",
+      "text": "Publish to npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrasg/matterbridge-daikin-ac",
+      "status": "candidate",
+      "text": "Publish to npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrasg/matterbridge-loxone",
+      "status": "candidate",
+      "text": "Publish to npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Luligu/matterbridge-eve-door",
+      "status": "candidate",
+      "text": "Publish to npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Luligu/matterbridge-eve-energy",
       "status": "candidate",
       "text": "Publish to npm"
     }
@@ -1615,11 +1675,53 @@
       "observed_at": "2026-05-14T07:10:22.636771+00:00",
       "source_file": ".github/workflows/npm-publish.yml",
       "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "antvis/GPT-Vis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": ".github/workflows/publish-matterbridge-plugin.yml",
+      "source_repo": "andrasg/matterbridge-daikin-ac"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": ".github/workflows/publish-matterbridge-plugin.yml",
+      "source_repo": "andrasg/matterbridge-loxone"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Luligu/matterbridge-eve-door"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Luligu/matterbridge-eve-energy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": ".github/workflows/github-action-publish-npm.yml",
+      "source_repo": "jxddk/prettier-plugin-nginx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "a2aproject/a2a-js"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T07:10:22.636771+00:00",
+  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
   "lexical_providers": [
     "datamuse"
   ],

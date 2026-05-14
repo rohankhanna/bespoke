@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate and Publish Manifest"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "version-fox/vfox-plugin-template",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 vfox plugin template with GitHub Actions and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "version-fox/vfox-plugin-template",
+      "status": "candidate-context",
+      "text": "Generate and Publish Manifest"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "version-fox/vfox-plugin-template",
+      "status": "candidate",
+      "text": "Generate and Publish Manifest"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17967,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17902,
+      "status": "candidate",
+      "text": "propagate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17874,
+      "status": "candidate",
+      "text": "produce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17856,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17856,
+      "status": "candidate",
+      "text": "develop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate and Publish Manifest",
+  "concept_id": "generate-and-publish-manifest",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "version-fox/vfox-plugin-template"
+    }
+  ],
+  "first_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate and Publish Manifest",
+      "sense_id": "generate-and-publish-manifest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

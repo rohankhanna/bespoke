@@ -490,11 +490,23 @@
       "observed_at": "2026-05-14T07:10:22.636771+00:00",
       "source_file": null,
       "source_repo": "alichherawalla/off-grid-mobile-ai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "alichherawalla/off-grid-mobile-ai"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T07:10:22.636771+00:00",
+  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
   "lexical_providers": [
     "datamuse"
   ],

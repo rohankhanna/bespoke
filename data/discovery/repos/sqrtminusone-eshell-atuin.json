@@ -1,0 +1,110 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/melpazoid.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/melpazoid.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/melpazoid.yml",
+      "source_repo": "SqrtMinusOne/eshell-atuin",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/melpazoid.yml",
+      "source_repo": "SqrtMinusOne/eshell-atuin",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/melpazoid.yml",
+      "source_repo": "SqrtMinusOne/eshell-atuin",
+      "target": "melpazoid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SqrtMinusOne/eshell-atuin",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SqrtMinusOne/eshell-atuin",
+      "target": "eshell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SqrtMinusOne/eshell-atuin",
+      "target": "shell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T12:55:10.628956+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/melpazoid.yml",
+      "size": 1045
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "eshell \u2764\ufe0f atuin",
+    "fork": false,
+    "full_name": "SqrtMinusOne/eshell-atuin",
+    "html_url": "https://github.com/SqrtMinusOne/eshell-atuin",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-02-22T08:02:18Z",
+    "stargazers_count": 38,
+    "topics": [
+      "emacs",
+      "eshell",
+      "shell"
+    ],
+    "updated_at": "2026-02-22T19:43:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "melpazoid",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/melpazoid.yml",
+      "term": "melpazoid"
+    },
+    {
+      "context_snippet": "melpazoid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "melpazoid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eshell"
+    },
+    {
+      "context_snippet": "melpazoid",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    }
+  ]
+}

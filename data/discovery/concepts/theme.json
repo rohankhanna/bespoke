@@ -967,6 +967,18 @@
       "source_repo": "shaunsingh/nord.nvim",
       "status": "candidate-context",
       "text": "![118406380-d78ad580-b649-11eb-945c-5988fa717f39](https://user-images.githubusercontent.com/71196912/128029391-ad55fd41-d5f9-43bd-a795-c11b562f9d6d.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "catppuccin/atuin",
+      "status": "candidate-context",
+      "text": "\ud83d\udc22 Soothing pastel theme for atuin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/atuin",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1443,6 +1455,12 @@
       "source_repo": "shaunsingh/nord.nvim",
       "status": "candidate",
       "text": "![118406380-d78ad580-b649-11eb-945c-5988fa717f39](https://user-images.githubusercontent.com/71196912/128029391-ad55fd41-d5f9-43bd-a795-c11b562f9d6d.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/atuin",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -3664,11 +3682,29 @@
       "observed_at": "2026-05-14T07:10:22.636771+00:00",
       "source_file": null,
       "source_repo": "Biscuit-Theme/biscuit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "catppuccin/atuin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "ahmadawais/base16-shades-of-purple"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "miguelsolorio/vscode-fluent-icons"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T07:10:22.636771+00:00",
+  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
   "lexical_providers": [
     "datamuse"
   ],

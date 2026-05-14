@@ -19,6 +19,18 @@
       "source_repo": "version-fox/vfox-plugins",
       "status": "candidate-context",
       "text": "[![](https://img.shields.io/github/directory-file-count/version-fox/vfox-plugins%2Fplugins?style=flat&label=Available%20Plugins)](https://vfox.dev/plugins/available.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "version-fox/vfox-plugin-template",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 vfox plugin template with GitHub Actions and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "version-fox/vfox-plugin-template",
+      "status": "candidate-context",
+      "text": "This is a [vfox plugin](https://vfox.dev/plugins/create/howto.html) template with CI that package and publish the plugin."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "version-fox/vfox-plugins",
       "status": "candidate",
       "text": "[![](https://img.shields.io/github/directory-file-count/version-fox/vfox-plugins%2Fplugins?style=flat&label=Available%20Plugins)](https://vfox.dev/plugins/available.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "version-fox/vfox-plugin-template",
+      "status": "candidate",
+      "text": "This is a [vfox plugin](https://vfox.dev/plugins/create/howto.html) template with CI that package and publish the plugin."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-14T00:43:26.166349+00:00",
       "source_file": null,
       "source_repo": "version-fox/vfox-plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "version-fox/vfox-plugin-template"
     }
   ],
   "first_seen_at": "2026-05-14T00:43:26.166349+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
   "lexical_providers": [
     "datamuse"
   ],

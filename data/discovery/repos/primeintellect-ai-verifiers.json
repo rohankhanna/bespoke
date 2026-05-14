@@ -61,6 +61,21 @@
       "source_file": ".github/workflows/style.yml"
     },
     {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml"
+    },
+    {
       "component": "peter-evans/repository-dispatch@v3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/sync-docs.yml"
@@ -309,19 +324,19 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T07:25:39.081375+00:00",
+  "fetched_at": "2026-05-14T13:13:14.120281+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 11214
+      "size": 11130
     },
     {
       "path": "pyproject.toml",
-      "size": 6097
+      "size": 6248
     },
     {
       "path": ".github/workflows/README.md",
-      "size": 2105
+      "size": 2389
     },
     {
       "path": ".github/workflows/publish-envs.yml",
@@ -333,7 +348,7 @@
     },
     {
       "path": ".github/workflows/style.yml",
-      "size": 954
+      "size": 1525
     },
     {
       "path": ".github/workflows/sync-docs.yml",
@@ -357,10 +372,10 @@
     "full_name": "PrimeIntellect-ai/verifiers",
     "html_url": "https://github.com/PrimeIntellect-ai/verifiers",
     "language": "Python",
-    "pushed_at": "2026-05-14T07:16:37Z",
+    "pushed_at": "2026-05-14T13:07:58Z",
     "stargazers_count": 4106,
     "topics": [],
-    "updated_at": "2026-05-14T07:16:38Z"
+    "updated_at": "2026-05-14T09:27:40Z"
   },
   "repo_links": [],
   "terms": [

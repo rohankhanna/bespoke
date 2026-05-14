@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "atuin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "catppuccin/atuin",
+      "status": "candidate-context",
+      "text": "\ud83d\udc22 Soothing pastel theme for atuin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/atuin",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/atuin",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "atuin",
+  "concept_id": "atuin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "catppuccin/atuin"
+    }
+  ],
+  "first_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "atuin",
+      "sense_id": "atuin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

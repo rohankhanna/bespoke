@@ -84,7 +84,7 @@
   "normalized_form": "compile-and-lint-code",
   "observation_id": "8ac6377d9ca4ed52",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-14T07:10:22.636771+00:00",
+  "observed_at": "2026-05-14T12:51:33.279454+00:00",
   "observed_text": "Compile and lint code",
   "source_context_snippet": "Compile and lint code",
   "source_file": ".github/workflows/workflow.yml",

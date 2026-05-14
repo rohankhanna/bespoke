@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-14T12:55:32.349161+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1062
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "JETS: Jointly Training FastSpeech2 and HiFi-GAN for End to End Text to Speech",
+    "fork": false,
+    "full_name": "imdanboy/jets",
+    "html_url": "https://github.com/imdanboy/jets",
+    "language": "Python",
+    "pushed_at": "2022-06-06T17:57:08Z",
+    "stargazers_count": 113,
+    "topics": [],
+    "updated_at": "2025-12-06T22:44:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

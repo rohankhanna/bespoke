@@ -1,12 +1,17 @@
 {
   "component": "@daybrush/utils",
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "kakajun/vue3-sketch-ruler"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/css-to-mat"
     }
   ]
 }

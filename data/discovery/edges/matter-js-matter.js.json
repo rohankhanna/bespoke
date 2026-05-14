@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "matter-js/matter.js",
-      "target": "luligu/matterbridge",
+      "target": "project-chip/matter.js",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "matter-js/matter.js",
-      "target": "luligu/matterbridge-somfy-tahoma",
+      "target": "sammachin/node-red-matter-bridge",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "matter-js/matter.js",
-      "target": "luligu/matterbridge-shelly",
+      "target": "riddix/home-assistant-matter-hub",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "matter-js/matter.js",
-      "target": "jimbuzbee/matter-controller",
+      "target": "luligu/matterbridge-zigbee2mqtt",
       "target_type": "repository"
     },
     {
@@ -365,6 +365,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-14T00:43:26.166349+00:00",
+  "generated_at": "2026-05-14T12:51:33.279454+00:00",
   "source_repo": "matter-js/matter.js"
 }

@@ -5418,6 +5418,9 @@
   "attu docker build test": [
     "attu-docker-build-test"
   ],
+  "atuin": [
+    "atuin"
+  ],
   "auction-kiosk": [
     "auction-kiosk"
   ],
@@ -8105,6 +8108,9 @@
   ],
   "bbin": [
     "bbin"
+  ],
+  "bbolt": [
+    "bbolt"
   ],
   "bc lint": [
     "bc-lint"
@@ -35137,6 +35143,9 @@
   "escodegen": [
     "escodegen"
   ],
+  "eshell": [
+    "eshell"
+  ],
   "eshop pull request validation": [
     "eshop-pull-request-validation"
   ],
@@ -39698,6 +39707,9 @@
   ],
   "generate and publish docs": [
     "generate-and-publish-docs"
+  ],
+  "generate and publish manifest": [
+    "generate-and-publish-manifest"
   ],
   "generate and sync files": [
     "generate-and-sync-files"
@@ -52813,6 +52825,9 @@
   "linux cmake": [
     "linux-cmake"
   ],
+  "linux cpu aarch64": [
+    "linux-cpu-aarch64"
+  ],
   "linux cpu arm64 build": [
     "linux-cpu-arm64-build"
   ],
@@ -54109,6 +54124,9 @@
   ],
   "lowcode": [
     "lowcode"
+  ],
+  "loxone": [
+    "loxone"
   ],
   "lpeg": [
     "lpeg"
@@ -56336,6 +56354,9 @@
   ],
   "melpa": [
     "melpa"
+  ],
+  "melpazoid": [
+    "melpazoid"
   ],
   "mem0 memory tests": [
     "mem0-memory-tests"
@@ -75126,6 +75147,9 @@
   "release version": [
     "release-version"
   ],
+  "release version check": [
+    "release-version-check"
+  ],
   "release vs code extension": [
     "release-vs-code-extension"
   ],
@@ -82654,6 +82678,9 @@
   ],
   "soundex": [
     "soundex"
+  ],
+  "soundgenerator": [
+    "soundgenerator"
   ],
   "source": [
     "source"
@@ -95245,6 +95272,9 @@
   ],
   "vfile": [
     "vfile"
+  ],
+  "vfox": [
+    "vfox"
   ],
   "vfox e2e test": [
     "vfox-e2e-test"

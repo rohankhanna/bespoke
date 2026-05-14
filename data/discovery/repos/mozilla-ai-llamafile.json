@@ -204,7 +204,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T05:18:47.391003+00:00",
+  "fetched_at": "2026-05-14T13:02:59.495176+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -240,7 +240,7 @@
     "full_name": "mozilla-ai/llamafile",
     "html_url": "https://github.com/mozilla-ai/llamafile",
     "language": "C++",
-    "pushed_at": "2026-05-13T08:18:35Z",
+    "pushed_at": "2026-05-14T12:55:03Z",
     "stargazers_count": 24435,
     "topics": [
       "cross-platform",
@@ -253,7 +253,7 @@
       "single-file-executable",
       "speech-to-text"
     ],
-    "updated_at": "2026-05-14T05:00:01Z"
+    "updated_at": "2026-05-14T12:54:53Z"
   },
   "repo_links": [
     {

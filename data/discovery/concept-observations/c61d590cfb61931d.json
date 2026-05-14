@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udce6 vfox plugin template with GitHub Actions and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a [vfox plugin](https://vfox.dev/plugins/create/howto.html) template with CI that package and publish the plugin."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a [vfox plugin](https://vfox.dev/plugins/create/howto.html) template with CI that package and publish the plugin."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vfox-plugin",
+      "sense_id": "vfox-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vfox-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vfox-plugin",
+  "observation_id": "c61d590cfb61931d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-14T12:51:33.279454+00:00",
+  "observed_text": "vfox-plugin",
+  "source_context_snippet": "This is a [vfox plugin](https://vfox.dev/plugins/create/howto.html) template with CI that package and publish the plugin.",
+  "source_file": null,
+  "source_repo": "version-fox/vfox-plugin-template",
+  "source_repo_description": "\ud83d\udce6 vfox plugin template with GitHub Actions and more!"
+}

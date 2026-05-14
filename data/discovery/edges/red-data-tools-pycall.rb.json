@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "red-data-tools/pycall.rb",
-      "target": "red-data-tools/pycall.rb.",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "red-data-tools/pycall.rb",
@@ -106,6 +99,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-14T07:10:22.636771+00:00",
+  "generated_at": "2026-05-14T12:51:33.279454+00:00",
   "source_repo": "red-data-tools/pycall.rb"
 }

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An easy to understand TTS / SVS / SVC framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "soundgenerator",
+      "sense_id": "soundgenerator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "soundgenerator",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "soundgenerator",
+  "observation_id": "da2766ec420f47d0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-14T12:51:33.279454+00:00",
+  "observed_text": "soundgenerator",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "fishaudio/fish-diffusion",
+  "source_repo_description": "An easy to understand TTS / SVS / SVC framework"
+}

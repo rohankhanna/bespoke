@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Nushell plugin implemented in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Nushell](https://www.nushell.sh/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Nushell](https://www.nushell.sh/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nushell",
+      "sense_id": "nushell#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nushell",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nushell",
+  "observation_id": "b269e1c37d9c5020",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-14T12:51:33.279454+00:00",
+  "observed_text": "nushell",
+  "source_context_snippet": "[Nushell](https://www.nushell.sh/)",
+  "source_file": null,
+  "source_repo": "ainvaltin/nu_plugin_plist",
+  "source_repo_description": "Nushell plugin implemented in Go"
+}

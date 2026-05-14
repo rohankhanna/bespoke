@@ -175,6 +175,18 @@
       "source_repo": "abistarun/resseract-lite",
       "status": "candidate-context",
       "text": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daybrush/css-styled",
+      "status": "candidate-context",
+      "text": "\u2696\ufe0f This component is a lightweight, simple line style component."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daybrush/css-styled",
+      "status": "candidate-context",
+      "text": "<h2 align=\"middle\">css-styled</h2>"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "abistarun/resseract-lite",
       "status": "candidate",
       "text": "![logo-github](https://github.com/abistarun/resseract-lite/assets/7782937/4f29391e-0a77-4ac4-8290-29ed1e4953b8)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daybrush/css-styled",
+      "status": "candidate",
+      "text": "<h2 align=\"middle\">css-styled</h2>"
     }
   ],
   "candidate_related_terms": [
@@ -615,11 +633,23 @@
       "observed_at": "2026-05-14T00:43:26.166349+00:00",
       "source_file": null,
       "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "daybrush/css-styled"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "beve-org/beve"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ainvaltin/nu_plugin_boltdb",
+      "target": "bbolt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ainvaltin/nu_plugin_boltdb",
+      "target": "boltdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ainvaltin/nu_plugin_boltdb",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ainvaltin/nu_plugin_boltdb",
+      "target": "nushell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ainvaltin/nu_plugin_boltdb",
+      "target": "nushell-plugin",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-14T12:51:33.279454+00:00",
+  "source_repo": "ainvaltin/nu_plugin_boltdb"
+}

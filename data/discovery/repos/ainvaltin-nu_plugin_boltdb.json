@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ainvaltin/nu_plugin_boltdb",
+      "target": "bbolt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ainvaltin/nu_plugin_boltdb",
+      "target": "boltdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ainvaltin/nu_plugin_boltdb",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ainvaltin/nu_plugin_boltdb",
+      "target": "nushell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ainvaltin/nu_plugin_boltdb",
+      "target": "nushell-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T12:55:12.066687+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2405
+    },
+    {
+      "path": "go.mod",
+      "size": 322
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Nushell plugin for bbolt database",
+    "fork": false,
+    "full_name": "ainvaltin/nu_plugin_boltdb",
+    "html_url": "https://github.com/ainvaltin/nu_plugin_boltdb",
+    "language": "Go",
+    "pushed_at": "2026-04-12T22:17:31Z",
+    "stargazers_count": 0,
+    "topics": [
+      "bbolt",
+      "boltdb",
+      "golang",
+      "nushell",
+      "nushell-plugin"
+    ],
+    "updated_at": "2026-04-12T22:17:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[Nushell](https://www.nushell.sh/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bbolt"
+    },
+    {
+      "context_snippet": "[Nushell](https://www.nushell.sh/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boltdb"
+    },
+    {
+      "context_snippet": "[Nushell](https://www.nushell.sh/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[Nushell](https://www.nushell.sh/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nushell"
+    },
+    {
+      "context_snippet": "[Nushell](https://www.nushell.sh/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nushell-plugin"
+    }
+  ]
+}

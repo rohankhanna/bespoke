@@ -1,0 +1,12 @@
+{
+  "component": "jsx-loader",
+  "first_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "sources": [
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "casesandberg/react-color"
+    }
+  ]
+}

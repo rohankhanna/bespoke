@@ -2895,6 +2895,30 @@
       "source_repo": "daybrush/scena",
       "status": "candidate-context",
       "text": "<p align=\"middle\" ><img src=\"https://raw.githubusercontent.com/daybrush/scena/master/demo/images/logo.png\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "casesandberg/react-color",
+      "status": "candidate-context",
+      "text": ":art: Color Pickers from Sketch, Photoshop, Chrome, Github, Twitter & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casesandberg/react-color",
+      "status": "candidate-context",
+      "text": "[![Npm Version][npm-version-image]][npm-version-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daybrush/css-styled",
+      "status": "candidate-context",
+      "text": "\u2696\ufe0f This component is a lightweight, simple line style component."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daybrush/css-styled",
+      "status": "candidate-context",
+      "text": "<h2 align=\"middle\">css-styled</h2>"
     }
   ],
   "candidate_glosses": [
@@ -4343,6 +4367,18 @@
       "source_repo": "daybrush/scena",
       "status": "candidate",
       "text": "<p align=\"middle\" ><img src=\"https://raw.githubusercontent.com/daybrush/scena/master/demo/images/logo.png\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casesandberg/react-color",
+      "status": "candidate",
+      "text": "[![Npm Version][npm-version-image]][npm-version-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daybrush/css-styled",
+      "status": "candidate",
+      "text": "<h2 align=\"middle\">css-styled</h2>"
     }
   ],
   "candidate_related_terms": [
@@ -10977,11 +11013,107 @@
       "observed_at": "2026-05-14T07:10:22.636771+00:00",
       "source_file": null,
       "source_repo": "storybook-eol/addon-smart-knobs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "react/create-react-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "casesandberg/react-color"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "daybrush/css-styled"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "ElemeFE/element-react"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "mui/material-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "fsprojects/FSharp.Data.GraphQL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "vite-pwa/vite-plugin-pwa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/react-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T07:10:22.636771+00:00",
+  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
   "lexical_providers": [
     "datamuse"
   ],

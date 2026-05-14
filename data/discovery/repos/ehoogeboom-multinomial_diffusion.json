@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-14T12:55:28.665099+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1557
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ehoogeboom/multinomial_diffusion",
+    "html_url": "https://github.com/ehoogeboom/multinomial_diffusion",
+    "language": "Python",
+    "pushed_at": "2023-03-21T04:55:16Z",
+    "stargazers_count": 235,
+    "topics": [],
+    "updated_at": "2026-04-24T14:54:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chomeyama/SiFiGAN",
+      "target": "nnsvs/nnsvs",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-14T12:51:33.279454+00:00",
+  "source_repo": "chomeyama/SiFiGAN"
+}

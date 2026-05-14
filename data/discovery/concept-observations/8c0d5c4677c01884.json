@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":art: Color Pickers from Sketch, Photoshop, Chrome, Github, Twitter & more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Npm Version][npm-version-image]][npm-version-url]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Npm Version][npm-version-image]][npm-version-url]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041215,
+      "status": "candidate",
+      "text": "outline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036985,
+      "status": "candidate",
+      "text": "cartoon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036543,
+      "status": "candidate",
+      "text": "chalk out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023121,
+      "status": "candidate",
+      "text": "study"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011964,
+      "status": "candidate",
+      "text": "survey"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sketch",
+      "sense_id": "sketch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32037,
+      "status": "candidate",
+      "text": "adumbrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28041,
+      "status": "candidate",
+      "text": "outline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22047,
+      "status": "candidate",
+      "text": "study"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22047,
+      "status": "candidate",
+      "text": "vignette"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18057,
+      "status": "candidate",
+      "text": "survey"
+    }
+  ],
+  "concept_id": "sketch",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sketch",
+  "observation_id": "8c0d5c4677c01884",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-14T12:51:33.279454+00:00",
+  "observed_text": "sketch",
+  "source_context_snippet": "[![Npm Version][npm-version-image]][npm-version-url]",
+  "source_file": null,
+  "source_repo": "casesandberg/react-color",
+  "source_repo_description": ":art: Color Pickers from Sketch, Photoshop, Chrome, Github, Twitter & more"
+}

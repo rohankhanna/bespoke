@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/atuin",
+      "target": "atuin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/atuin",
+      "target": "catppuccin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/atuin",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T12:55:09.154050+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2399
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udc22 Soothing pastel theme for atuin",
+    "fork": false,
+    "full_name": "catppuccin/atuin",
+    "html_url": "https://github.com/catppuccin/atuin",
+    "language": null,
+    "pushed_at": "2026-03-02T17:47:07Z",
+    "stargazers_count": 52,
+    "topics": [
+      "atuin",
+      "catppuccin",
+      "theme"
+    ],
+    "updated_at": "2026-05-13T17:34:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atuin"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "catppuccin"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

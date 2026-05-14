@@ -67,6 +67,30 @@
       "source_repo": "ainvaltin/nu-plugin",
       "status": "candidate-context",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/ainvaltin/nu-plugin.svg)](https://pkg.go.dev/github.com/ainvaltin/nu-plugin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ainvaltin/nu_plugin_boltdb",
+      "status": "candidate-context",
+      "text": "Nushell plugin for bbolt database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ainvaltin/nu_plugin_boltdb",
+      "status": "candidate-context",
+      "text": "[Nushell](https://www.nushell.sh/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ainvaltin/nu_plugin_plist",
+      "status": "candidate-context",
+      "text": "Nushell plugin implemented in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ainvaltin/nu_plugin_plist",
+      "status": "candidate-context",
+      "text": "[Nushell](https://www.nushell.sh/)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "ainvaltin/nu-plugin",
       "status": "candidate",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/ainvaltin/nu-plugin.svg)](https://pkg.go.dev/github.com/ainvaltin/nu-plugin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ainvaltin/nu_plugin_boltdb",
+      "status": "candidate",
+      "text": "[Nushell](https://www.nushell.sh/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ainvaltin/nu_plugin_plist",
+      "status": "candidate",
+      "text": "[Nushell](https://www.nushell.sh/)"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +172,23 @@
       "observed_at": "2026-05-14T00:43:26.166349+00:00",
       "source_file": null,
       "source_repo": "ainvaltin/nu-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "ainvaltin/nu_plugin_boltdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "ainvaltin/nu_plugin_plist"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
   "lexical_providers": [
     "datamuse"
   ],

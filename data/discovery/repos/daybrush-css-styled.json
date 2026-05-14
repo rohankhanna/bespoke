@@ -1,0 +1,241 @@
+{
+  "components": [
+    {
+      "component": "@daybrush/jsdoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@daybrush/release",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cpx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "daybrush-jsdoc-template",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gh-pages",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "intercept-stdout",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna-changelog",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/css-styled",
+      "target": "@daybrush/jsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/css-styled",
+      "target": "@daybrush/release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/css-styled",
+      "target": "cpx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/css-styled",
+      "target": "daybrush-jsdoc-template",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/css-styled",
+      "target": "gh-pages",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/css-styled",
+      "target": "intercept-stdout",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/css-styled",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/css-styled",
+      "target": "lerna-changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "daybrush/css-styled",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/css-styled",
+      "target": "component",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/css-styled",
+      "target": "lightweight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/css-styled",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/css-styled",
+      "target": "simple",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/css-styled",
+      "target": "style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/css-styled",
+      "target": "styled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daybrush/css-styled",
+      "target": "styled-components",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T12:55:21.498946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2728
+    },
+    {
+      "path": "package.json",
+      "size": 1970
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u2696\ufe0f This component is a lightweight, simple line style component.",
+    "fork": false,
+    "full_name": "daybrush/css-styled",
+    "html_url": "https://github.com/daybrush/css-styled",
+    "language": "TypeScript",
+    "pushed_at": "2024-06-03T09:30:36Z",
+    "stargazers_count": 16,
+    "topics": [
+      "component",
+      "lightweight",
+      "react",
+      "simple",
+      "style",
+      "styled",
+      "styled-components"
+    ],
+    "updated_at": "2025-10-06T09:04:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h2 align=\"middle\">css-styled</h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "component"
+    },
+    {
+      "context_snippet": "<h2 align=\"middle\">css-styled</h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightweight"
+    },
+    {
+      "context_snippet": "<h2 align=\"middle\">css-styled</h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "<h2 align=\"middle\">css-styled</h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simple"
+    },
+    {
+      "context_snippet": "<h2 align=\"middle\">css-styled</h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style"
+    },
+    {
+      "context_snippet": "<h2 align=\"middle\">css-styled</h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "styled"
+    },
+    {
+      "context_snippet": "<h2 align=\"middle\">css-styled</h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "styled-components"
+    }
+  ]
+}

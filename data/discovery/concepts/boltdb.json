@@ -31,6 +31,18 @@
       "source_repo": "asdine/storm",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/asdine/storm.svg)](https://travis-ci.org/asdine/storm)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ainvaltin/nu_plugin_boltdb",
+      "status": "candidate-context",
+      "text": "Nushell plugin for bbolt database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ainvaltin/nu_plugin_boltdb",
+      "status": "candidate-context",
+      "text": "[Nushell](https://www.nushell.sh/)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "asdine/storm",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/asdine/storm.svg)](https://travis-ci.org/asdine/storm)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ainvaltin/nu_plugin_boltdb",
+      "status": "candidate",
+      "text": "[Nushell](https://www.nushell.sh/)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "asdine/storm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "ainvaltin/nu_plugin_boltdb"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
   "lexical_providers": [
     "datamuse"
   ],

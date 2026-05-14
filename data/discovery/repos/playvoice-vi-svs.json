@@ -12,21 +12,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/VI-SVS",
-      "target": "mindslab-ai/univnet",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "PlayVoice/VI-SVS",
       "target": "playvoice/so-vits-svc-5.0",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "PlayVoice/VI-SVS",
-      "target": "tonnetonne814/sifi-vits2-44100-ja",
       "target_type": "repository"
     },
     {
@@ -86,7 +72,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T05:13:13.594827+00:00",
+  "fetched_at": "2026-05-14T12:55:26.053231+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -125,17 +111,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mindslab-ai/univnet",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "playvoice/so-vits-svc-5.0",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tonnetonne814/sifi-vits2-44100-ja",
       "source_file": "README.md"
     }
   ],

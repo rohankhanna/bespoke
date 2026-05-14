@@ -7988,6 +7988,9 @@
   "attu-docker-build-test": [
     "92547393cc4c6734"
   ],
+  "atuin": [
+    "831820653005d1c6"
+  ],
   "auction-kiosk": [
     "62d6413a49c6fa79"
   ],
@@ -12372,6 +12375,9 @@
   "bbin": [
     "d179b69a7afc5af2"
   ],
+  "bbolt": [
+    "05229fd74600d467"
+  ],
   "bc-lint": [
     "6672dc377de0a0fd",
     "75e9409e1bcef091"
@@ -14884,6 +14890,7 @@
   ],
   "boltdb": [
     "118fcbc4d55a052e",
+    "7dcad21eed6ce426",
     "e0e0514eaa5f070a"
   ],
   "bond": [
@@ -17334,6 +17341,8 @@
   ],
   "build-and-lint": [
     "1d9eac25ff727403",
+    "76131895c9b13da3",
+    "83062fe3a558c633",
     "9d8290e0f322f971",
     "c3d506c643e106e5"
   ],
@@ -24067,6 +24076,7 @@
   "catppuccin": [
     "2263c0c464a9c86d",
     "5c05598c0b5a8d8b",
+    "754601a1aba0a5c7",
     "8f3e8e72a0a04cde",
     "9ae6cd3c88db0d09",
     "df07177b2922857a"
@@ -27688,6 +27698,7 @@
     "9b5e7354ef0a2480",
     "9f59da2458d2534e",
     "a9c8c0acf0d1f590",
+    "ae3baa6b88b6f675",
     "aec4d481863f8d73",
     "b10a61292221c42e",
     "b45f53b6a67c21e2",
@@ -34095,12 +34106,14 @@
     "4a7d9665b5c99fa8",
     "66f9e3f288fc3a31",
     "697c45ad875ea8d2",
+    "73617fb1c2d3abd0",
     "7615a0057d26769a",
     "775f7a5410bd8db5",
     "78089feb63327d71",
     "884d4aab0220fe55",
     "8fb5522f4bf30bb2",
     "95eb94b54f9b22f1",
+    "9de1d8d068d588b4",
     "a5a0457d42fac1bc",
     "a96b6cab42b02cca",
     "ae1c32f45d1e3696",
@@ -34603,6 +34616,7 @@
     "69a6bff37ea9921f",
     "69c60a83eb93e715",
     "69ec7a5253a913a8",
+    "6a4fd3b192cfa838",
     "6a96c7b2a87d90b9",
     "6a9fd9f37e821bca",
     "6afdbbd1bbeb21ce",
@@ -35040,6 +35054,7 @@
     "eb157da6d6f0d645",
     "ebb163d07d50769d",
     "ec14bb670a76b1ef",
+    "ec259bd9becaf8c4",
     "eca6ad48de4c1e79",
     "ecc602882e7320d9",
     "ece1e799acf2c28f",
@@ -35808,6 +35823,7 @@
     "7b5879f86f5c4adb"
   ],
   "color-picker": [
+    "3dfc2fb4401171cf",
     "8627c9eab12f77d5",
     "af2cbfaf96142015"
   ],
@@ -37319,6 +37335,7 @@
     "05b7e0cf158b1d8b",
     "1542a47da55741d3",
     "1ed6b60e2fa59072",
+    "3f4cdebe568f12f4",
     "40d75590e434f4f2",
     "60f80880908e1ab0",
     "68c12c00e500dff1",
@@ -51094,6 +51111,7 @@
     "0056af97e62dad52",
     "011f8cce9171c505",
     "0522280d495d5a2e",
+    "10978c1bb2d38203",
     "12535e3b14e938e9",
     "1383bcb11a7fcf04",
     "16329bb0cce1764c",
@@ -57425,6 +57443,7 @@
     "78aa1b941db0c6c0",
     "79e11d0f95968665",
     "80fc4c0481e174f7",
+    "82c6e73769527d21",
     "82f8318424abb331",
     "852cc81068f2ff58",
     "8a3b7ee843019101",
@@ -58769,6 +58788,9 @@
   ],
   "escodegen": [
     "22478211d9b3d628"
+  ],
+  "eshell": [
+    "076da65ab3e16fbf"
   ],
   "eshop-pull-request-validation": [
     "0f2adfa781f9b37d",
@@ -66219,6 +66241,9 @@
   "generate-and-publish-docs": [
     "cf797ba3cfc5657c"
   ],
+  "generate-and-publish-manifest": [
+    "87a7e7ef602c27d1"
+  ],
   "generate-and-sync-files": [
     "8c7f29eca96ee2ad"
   ],
@@ -69297,11 +69322,13 @@
     "05846ea9dbab1e5d",
     "059418bae9965011",
     "05a929bd9a3199f2",
+    "05baf161bc1adc0e",
     "05f54aa2c21f9d74",
     "0764cb173732bf8f",
     "083620e98f784b87",
     "0836b3427dce292c",
     "085e6962d08b9ece",
+    "09603838d62edc95",
     "09848246071372dc",
     "0984d3a6539d8cfa",
     "0a74ff06b81b2e64",
@@ -79033,6 +79060,7 @@
   ],
   "inline-styles": [
     "4890787a61e3267d",
+    "86e14e704ca4ea0e",
     "9438b326f9dd67d8"
   ],
   "inlining-critical-fonts": [
@@ -88188,6 +88216,7 @@
     "18b4141577b82389",
     "2897093384bbcde9",
     "51cff6f67f5a37ba",
+    "76fd8e68de2bdc56",
     "7b8bb5a495e45c07",
     "b06b15d0ba1361a9",
     "b3af05edc0eed53e",
@@ -90192,6 +90221,9 @@
   "linux-containers": [
     "e9b08ced8cd5a576",
     "f247df61dca4b8ab"
+  ],
+  "linux-cpu-aarch64": [
+    "d718f45de44814d2"
   ],
   "linux-cpu-arm64-build": [
     "c49f09acc6796228"
@@ -92359,6 +92391,9 @@
   ],
   "lowcode": [
     "5c262ba924b43b75"
+  ],
+  "loxone": [
+    "bd7dfd7f1988b591"
   ],
   "lpeg": [
     "3f9147e5289953fe",
@@ -95777,6 +95812,7 @@
   ],
   "matterbridge": [
     "50522a751e30386f",
+    "a4ae2a7f22eb9e4e",
     "b11245652c71614b"
   ],
   "matterprotocol": [
@@ -96431,6 +96467,9 @@
     "3f6b7a85a98784ea",
     "ba3286423d532c79",
     "bc83219c681bee1a"
+  ],
+  "melpazoid": [
+    "83f5d85af475f571"
   ],
   "mem0-memory-tests": [
     "0d315907160a6bac"
@@ -105022,6 +105061,7 @@
     "93b6ddbf347e918f",
     "98cbdee6062abcf6",
     "9bc4266c2dbeee8c",
+    "9c3cee9c63282822",
     "9cf2a5538dd5e6a3",
     "9ffeca60f3bb7afa",
     "a32c151566301dd0",
@@ -105047,6 +105087,7 @@
     "bfbadeddbcc6dda4",
     "c18c4412de0d6e35",
     "c1b5954d4de7dcf3",
+    "c42ba7941a2d5bdd",
     "c565f89cd0db45f3",
     "ca00381266f74b72",
     "ca96bc609a6c6a55",
@@ -106485,9 +106526,13 @@
     "2759a52db52e1ba0",
     "8cc985b795975690",
     "a4e988978c111c47",
+    "b269e1c37d9c5020",
+    "b6e9e955b33839de",
     "d6765b6cad6dfc68"
   ],
   "nushell-plugin": [
+    "bd81c53e9cd4c129",
+    "c1b6646f6b236630",
     "dcf9c821d6892d45"
   ],
   "nushu": [
@@ -113160,7 +113205,8 @@
   ],
   "photoshop": [
     "0d0377bb51b81406",
-    "0ee19c9742829e94"
+    "0ee19c9742829e94",
+    "1aeaa42dee340632"
   ],
   "php": [
     "5d868e7b3bcf6ae2"
@@ -121182,10 +121228,12 @@
     "3d649d50cd1beef1",
     "44580b9a15e642d7",
     "48997e2bd045a037",
+    "4b2b7816b1d43d3b",
     "4fbd5d33dcaa1e89",
     "52557481848b4bf8",
     "5649da1861b0db10",
     "5736b2dd794f0380",
+    "5b75f291c5efe035",
     "5c0b86e5a45cbb1c",
     "6428b9e716bcc65b",
     "685d952afd600c88",
@@ -121194,6 +121242,7 @@
     "72e07289974eac90",
     "72e674e7003b4f4f",
     "7dea3d6b3354c1c1",
+    "81dace3c2689c24f",
     "85296ab3405cf1a2",
     "86d8f47ca6f79a9d",
     "8f6e3d78d36878f8",
@@ -121211,6 +121260,7 @@
     "d11b1d4d35037d8d",
     "d7700a4e281f0519",
     "d8031d960e78f943",
+    "d84380e94724c80a",
     "d89fdc46331b9484",
     "dc46d5c408476b6c",
     "e1f70642ba90aaa5",
@@ -123666,6 +123716,7 @@
     "beddf75218406efe",
     "bf3e27578af0ae33",
     "c270066712b63c52",
+    "c372c005812521f1",
     "c38143087724ccfe",
     "c41823d4a99e07ca",
     "c431b736c5ff8600",
@@ -125589,6 +125640,7 @@
     "9581d3ec4ca64a22",
     "9699746b1c1343cc",
     "9743cfa9128cfad5",
+    "98e4c82b2c5351ed",
     "995816ea2c1dbac9",
     "99f10214236b0cbf",
     "9a7ca818c41e4bd0",
@@ -125632,6 +125684,7 @@
     "c95dc93ab0d084c6",
     "ca3d647a96963b25",
     "cb860add0328ea90",
+    "cf15613a73abced8",
     "cfc92f946149a903",
     "d0d7a537fd667075",
     "d13c8fc8d8c9610d",
@@ -125708,7 +125761,8 @@
     "049577307e762f8e",
     "04b88a36288a830d",
     "319c6d19a43c89fd",
-    "3adfe3a29fd8c437"
+    "3adfe3a29fd8c437",
+    "9bb2d3dca70861f6"
   ],
   "react-component-to-image": [
     "ea2d512d367060f4"
@@ -130602,6 +130656,9 @@
     "44bcc4a101fb3f41",
     "60636a1d94df295e",
     "e82dad39b914aa6c"
+  ],
+  "release-version-check": [
+    "5a091a776968f498"
   ],
   "release-vs-code-extension": [
     "1ab0f8f1ec5423f4"
@@ -140850,6 +140907,7 @@
     "e296ce5b652fb050",
     "e349f74f3f067c80",
     "e6976d3d5ea5eff9",
+    "e815b8b3f37d98dc",
     "e8fed47658e41c25",
     "ed45010d2d52cb7e",
     "edcb7903d0db87d2",
@@ -141394,6 +141452,7 @@
     "10c4d7e73fae29b9",
     "3176abb8f4f6fbe5",
     "3ffba7cccd160351",
+    "655a04bd9217cf22",
     "67673fb739abf2b7",
     "722b4d0f93c1217a",
     "7a78746e6043fe9d",
@@ -141792,6 +141851,7 @@
     "f0f6afd518f97e09"
   ],
   "sketch": [
+    "8c0d5c4677c01884",
     "c079298bfd8e9620"
   ],
   "sketchboard": [
@@ -143231,6 +143291,9 @@
   ],
   "soundex": [
     "bfd989224297bb36"
+  ],
+  "soundgenerator": [
+    "da2766ec420f47d0"
   ],
   "source": [
     "6ca2d51a84aadd58",
@@ -146915,6 +146978,7 @@
     "97ee5300aa60ad6d",
     "9cdd8ce3f9c7f9e6",
     "a83da0f4c7589b18",
+    "abca76143d9ad154",
     "ac8441f7ba79d16e",
     "b5bee04244b55130",
     "b7795ac585850939",
@@ -147015,7 +147079,8 @@
     "2456e6dc068d836c"
   ],
   "styled": [
-    "6a0b1503c33d3cf4"
+    "6a0b1503c33d3cf4",
+    "d9be2c12a9c9614f"
   ],
   "styled-components": [
     "14d08ccdb57fe949",
@@ -147024,6 +147089,7 @@
     "346584b1649f1f2b",
     "362166821743d4df",
     "4ac72b71ca19f74f",
+    "6611778eee23d467",
     "6704540836e72ce1",
     "6bf79a39cff6542a",
     "9d4e49e5492c7877",
@@ -150268,6 +150334,7 @@
     "2c335eedfb642b4c",
     "369cba73cfda969f",
     "371b9c055735ce84",
+    "399d7486605a5e74",
     "3e3d39b0c43051f3",
     "3eb0491671ec157a",
     "4b5ea26469f18523",
@@ -155825,6 +155892,7 @@
     "39650f32f8303832",
     "396f63701adefcb8",
     "432753849c62541d",
+    "440cbf895cfbabd2",
     "4aacd4b2f4b2b222",
     "4ba5aed6bfd192e7",
     "4c84c5b842f4555f",
@@ -164392,11 +164460,15 @@
   "vfile": [
     "f897314f381c5a24"
   ],
+  "vfox": [
+    "25d7fda88b0bb2c9"
+  ],
   "vfox-e2e-test": [
     "003742e0d486ea16"
   ],
   "vfox-plugin": [
-    "74a7ee1790721cc4"
+    "74a7ee1790721cc4",
+    "c61d590cfb61931d"
   ],
   "vggish": [
     "9d00c20fe53a48db"

@@ -100,7 +100,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T08:14:05.910029+00:00",
+  "fetched_at": "2026-05-14T14:11:14.568867+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -117,7 +117,7 @@
     "html_url": "https://github.com/clovaai/generative-evaluation-prdc",
     "language": "Python",
     "pushed_at": "2023-01-09T15:19:33Z",
-    "stargazers_count": 271,
+    "stargazers_count": 272,
     "topics": [
       "deep-learning",
       "diversity",
@@ -133,7 +133,7 @@
       "precision",
       "recall"
     ],
-    "updated_at": "2026-05-13T04:16:22Z"
+    "updated_at": "2026-05-14T11:20:18Z"
   },
   "repo_links": [
     {

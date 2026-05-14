@@ -84,7 +84,7 @@
   "normalized_form": "llm-perplexity-evaluation",
   "observation_id": "8664265b5f25ec36",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-14T07:10:22.636771+00:00",
+  "observed_at": "2026-05-14T12:51:33.279454+00:00",
   "observed_text": "LLM Perplexity Evaluation",
   "source_context_snippet": "LLM Perplexity Evaluation",
   "source_file": ".github/workflows/llm-ppl-evaluation.yml",

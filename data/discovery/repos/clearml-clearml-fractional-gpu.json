@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T08:25:57.420754+00:00",
+  "fetched_at": "2026-05-14T14:20:45.800855+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -72,7 +72,7 @@
     "html_url": "https://github.com/clearml/clearml-fractional-gpu",
     "language": null,
     "pushed_at": "2026-03-12T14:25:34Z",
-    "stargazers_count": 92,
+    "stargazers_count": 93,
     "topics": [
       "ai",
       "fractional",
@@ -82,7 +82,7 @@
       "llmops",
       "mlops"
     ],
-    "updated_at": "2026-05-01T00:01:47Z"
+    "updated_at": "2026-05-14T13:36:47Z"
   },
   "repo_links": [
     {

@@ -316,6 +316,18 @@
       "source_repo": "orjangj/neotest-ctest",
       "status": "candidate-context",
       "text": "Style"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daybrush/css-styled",
+      "status": "candidate-context",
+      "text": "\u2696\ufe0f This component is a lightweight, simple line style component."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daybrush/css-styled",
+      "status": "candidate-context",
+      "text": "<h2 align=\"middle\">css-styled</h2>"
     }
   ],
   "candidate_glosses": [
@@ -480,6 +492,12 @@
       "source_repo": "orjangj/neotest-ctest",
       "status": "candidate",
       "text": "Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daybrush/css-styled",
+      "status": "candidate",
+      "text": "<h2 align=\"middle\">css-styled</h2>"
     }
   ],
   "candidate_related_terms": [
@@ -1375,11 +1393,29 @@
       "observed_at": "2026-05-14T07:10:22.636771+00:00",
       "source_file": ".github/workflows/style.yaml",
       "source_repo": "nvim-neotest/neotest-jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": null,
+      "source_repo": "daybrush/css-styled"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T12:51:33.279454+00:00",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T07:10:22.636771+00:00",
+  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
   "lexical_providers": [
     "datamuse"
   ],

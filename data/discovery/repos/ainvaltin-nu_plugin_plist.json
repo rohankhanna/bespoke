@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ainvaltin/nu_plugin_plist",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ainvaltin/nu_plugin_plist",
+      "target": "nushell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ainvaltin/nu_plugin_plist",
+      "target": "nushell-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T12:55:13.560999+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1362
+    },
+    {
+      "path": "go.mod",
+      "size": 315
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Nushell plugin implemented in Go",
+    "fork": false,
+    "full_name": "ainvaltin/nu_plugin_plist",
+    "html_url": "https://github.com/ainvaltin/nu_plugin_plist",
+    "language": "Go",
+    "pushed_at": "2026-04-13T16:42:48Z",
+    "stargazers_count": 0,
+    "topics": [
+      "go",
+      "golang",
+      "nushell",
+      "nushell-plugin"
+    ],
+    "updated_at": "2026-04-13T16:42:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[Nushell](https://www.nushell.sh/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[Nushell](https://www.nushell.sh/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nushell"
+    },
+    {
+      "context_snippet": "[Nushell](https://www.nushell.sh/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nushell-plugin"
+    }
+  ]
+}

@@ -311,28 +311,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "matter-js/matter.js",
-      "target": "luligu/matterbridge",
+      "target": "project-chip/matter.js",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "matter-js/matter.js",
-      "target": "luligu/matterbridge-somfy-tahoma",
+      "target": "sammachin/node-red-matter-bridge",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "matter-js/matter.js",
-      "target": "luligu/matterbridge-shelly",
+      "target": "riddix/home-assistant-matter-hub",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "matter-js/matter.js",
-      "target": "jimbuzbee/matter-controller",
+      "target": "luligu/matterbridge-zigbee2mqtt",
       "target_type": "repository"
     },
     {
@@ -672,7 +672,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T03:02:55.224535+00:00",
+  "fetched_at": "2026-05-14T12:55:41.851945+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -724,7 +724,7 @@
     "full_name": "matter-js/matter.js",
     "html_url": "https://github.com/matter-js/matter.js",
     "language": "TypeScript",
-    "pushed_at": "2026-05-14T01:59:28Z",
+    "pushed_at": "2026-05-14T04:44:47Z",
     "stargazers_count": 794,
     "topics": [
       "connectedthings",
@@ -733,27 +733,27 @@
       "matterprotocol",
       "smarthome"
     ],
-    "updated_at": "2026-05-14T01:59:31Z"
+    "updated_at": "2026-05-14T04:41:37Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jimbuzbee/matter-controller",
+      "full_name": "luligu/matterbridge-zigbee2mqtt",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "luligu/matterbridge",
+      "full_name": "project-chip/matter.js",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "luligu/matterbridge-shelly",
+      "full_name": "riddix/home-assistant-matter-hub",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "luligu/matterbridge-somfy-tahoma",
+      "full_name": "sammachin/node-red-matter-bridge",
       "source_file": "README.md"
     }
   ],
