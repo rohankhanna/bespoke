@@ -318,21 +318,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "matter-js/matter.js",
-      "target": "sammachin/node-red-matter-bridge",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "matter-js/matter.js",
-      "target": "riddix/home-assistant-matter-hub",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "matter-js/matter.js",
-      "target": "luligu/matterbridge-zigbee2mqtt",
+      "target": "weejewel/net.weejewel.matter-bridge",
       "target_type": "repository"
     },
     {
@@ -672,7 +658,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T12:55:41.851945+00:00",
+  "fetched_at": "2026-05-14T22:18:35.581523+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -724,7 +710,7 @@
     "full_name": "matter-js/matter.js",
     "html_url": "https://github.com/matter-js/matter.js",
     "language": "TypeScript",
-    "pushed_at": "2026-05-14T04:44:47Z",
+    "pushed_at": "2026-05-14T19:11:39Z",
     "stargazers_count": 794,
     "topics": [
       "connectedthings",
@@ -733,14 +719,9 @@
       "matterprotocol",
       "smarthome"
     ],
-    "updated_at": "2026-05-14T04:41:37Z"
+    "updated_at": "2026-05-14T19:11:42Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "luligu/matterbridge-zigbee2mqtt",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "project-chip/matter.js",
@@ -748,12 +729,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "riddix/home-assistant-matter-hub",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sammachin/node-red-matter-bridge",
+      "full_name": "weejewel/net.weejewel.matter-bridge",
       "source_file": "README.md"
     }
   ],

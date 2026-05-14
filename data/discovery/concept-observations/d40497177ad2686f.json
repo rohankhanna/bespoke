@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Zigbee \ud83d\udc1d to MQTT bridge \ud83c\udf09, get rid of your proprietary Zigbee bridges \ud83d\udd28"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Issue Bot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Issue Bot"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11548,
+      "status": "candidate",
+      "text": "chromatin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11548,
+      "status": "candidate",
+      "text": "costate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11548,
+      "status": "candidate",
+      "text": "filament"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11548,
+      "status": "candidate",
+      "text": "galea"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11548,
+      "status": "candidate",
+      "text": "numerous"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Bot",
+      "sense_id": "issue-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "issue-bot",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "issue-bot",
+  "observation_id": "d40497177ad2686f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-14T18:43:37.154551+00:00",
+  "observed_text": "Issue Bot",
+  "source_context_snippet": "Issue Bot",
+  "source_file": ".github/workflows/issue_bot.yml",
+  "source_repo": "Koenkk/zigbee2mqtt",
+  "source_repo_description": "Zigbee \ud83d\udc1d to MQTT bridge \ud83c\udf09, get rid of your proprietary Zigbee bridges \ud83d\udd28"
+}

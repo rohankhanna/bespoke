@@ -1,0 +1,12 @@
+{
+  "component": "zigbee-herdsman-converters",
+  "first_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "sources": [
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Koenkk/zigbee2mqtt"
+    }
+  ]
+}

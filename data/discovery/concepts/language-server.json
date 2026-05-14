@@ -1282,11 +1282,23 @@
       "observed_at": "2026-05-14T07:10:22.636771+00:00",
       "source_file": null,
       "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "neovim/nvim-lspconfig"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T07:10:22.636771+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "lexical_providers": [
     "datamuse"
   ],

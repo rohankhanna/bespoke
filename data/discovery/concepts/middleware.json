@@ -1654,11 +1654,29 @@
       "observed_at": "2026-05-14T12:51:33.279454+00:00",
       "source_file": null,
       "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "lexical_providers": [
     "datamuse"
   ],

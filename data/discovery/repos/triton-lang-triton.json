@@ -53,6 +53,16 @@
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests-amd.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests-amd.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration-tests-nvidia.yml"
     },
     {
@@ -323,7 +333,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T13:58:10.347970+00:00",
+  "fetched_at": "2026-05-14T23:03:35.474294+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -351,7 +361,7 @@
     },
     {
       "path": ".github/workflows/integration-tests-amd.yml",
-      "size": 9396
+      "size": 13700
     },
     {
       "path": ".github/workflows/integration-tests-nvidia.yml",
@@ -375,10 +385,10 @@
     "full_name": "triton-lang/triton",
     "html_url": "https://github.com/triton-lang/triton",
     "language": "MLIR",
-    "pushed_at": "2026-05-14T11:44:49Z",
-    "stargazers_count": 19179,
+    "pushed_at": "2026-05-14T22:57:03Z",
+    "stargazers_count": 19183,
     "topics": [],
-    "updated_at": "2026-05-14T11:16:47Z"
+    "updated_at": "2026-05-14T22:57:08Z"
   },
   "repo_links": [
     {

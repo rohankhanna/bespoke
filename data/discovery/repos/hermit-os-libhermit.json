@@ -79,7 +79,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T08:39:41.785917+00:00",
+  "fetched_at": "2026-05-14T21:59:12.835154+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -100,7 +100,7 @@
     "html_url": "https://github.com/hermit-os/libhermit",
     "language": "C",
     "pushed_at": "2021-11-05T09:26:51Z",
-    "stargazers_count": 226,
+    "stargazers_count": 227,
     "topics": [
       "cloud-computing",
       "high-performance-computing",
@@ -111,7 +111,7 @@
       "unikernel",
       "virtualization"
     ],
-    "updated_at": "2026-03-11T15:41:52Z"
+    "updated_at": "2026-05-14T14:07:37Z"
   },
   "repo_links": [
     {

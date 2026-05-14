@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "cantabile-kwok/voiceflow-tts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "majidadibian77/resgrad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "gmltmd789/unitspeech",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "mingjiechen/dyganvc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "diff-svc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "flow-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "grad-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "vits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "vits-svc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "vits2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "voice-change",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-14T18:43:37.154551+00:00",
+  "source_repo": "PlayVoice/Grad-SVC"
+}

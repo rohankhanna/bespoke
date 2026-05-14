@@ -161,7 +161,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-14T13:04:42.217415+00:00",
+  "fetched_at": "2026-05-14T22:50:13.108380+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -169,7 +169,7 @@
     },
     {
       "path": "package.json",
-      "size": 1529
+      "size": 1528
     }
   ],
   "related_repositories": [],
@@ -181,10 +181,10 @@
     "full_name": "aidenlab/juicebox.js",
     "html_url": "https://github.com/aidenlab/juicebox.js",
     "language": "JavaScript",
-    "pushed_at": "2026-05-13T20:54:11Z",
+    "pushed_at": "2026-05-14T14:18:01Z",
     "stargazers_count": 24,
     "topics": [],
-    "updated_at": "2026-05-13T20:54:13Z"
+    "updated_at": "2026-05-14T14:18:04Z"
   },
   "repo_links": [
     {

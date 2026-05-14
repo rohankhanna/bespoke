@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OlaWod/FreeVC",
+      "target": "liusongxiang/ppg-vc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OlaWod/FreeVC",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OlaWod/FreeVC",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OlaWod/FreeVC",
+      "target": "voice-conversion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T22:17:29.720132+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4174
+    },
+    {
+      "path": "requirements.txt",
+      "size": 145
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "FreeVC: Towards High-Quality Text-Free One-Shot Voice Conversion",
+    "fork": false,
+    "full_name": "OlaWod/FreeVC",
+    "html_url": "https://github.com/OlaWod/FreeVC",
+    "language": "Python",
+    "pushed_at": "2025-01-19T16:28:33Z",
+    "stargazers_count": 715,
+    "topics": [
+      "pytorch",
+      "speech",
+      "voice-conversion"
+    ],
+    "updated_at": "2026-05-10T15:21:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liusongxiang/ppg-vc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2210.15418)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2210.15418)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2210.15418)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-conversion"
+    }
+  ]
+}

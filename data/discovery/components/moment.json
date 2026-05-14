@@ -1,7 +1,7 @@
 {
   "component": "moment",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -357,6 +357,11 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "xdebug/vscode-php-debug"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Luligu/matterbridge-zigbee2mqtt"
     }
   ]
 }

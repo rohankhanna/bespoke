@@ -280,11 +280,17 @@
       "observed_at": "2026-05-14T12:51:33.279454+00:00",
       "source_file": null,
       "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "robotology-legacy/gym-ignition"
     }
   ],
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -55,6 +55,30 @@
       "source_repo": "ZDisket/TensorVox",
       "status": "candidate-context",
       "text": "TensorVox is an application designed to enable user-friendly and lightweight neural speech synthesis in the desktop, aimed at increasing accessibility to such technology."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CookiePPP/cookietts",
+      "status": "candidate-context",
+      "text": "[Last Updated 2021] TTS from Cookie. Messy and experimental!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CookiePPP/cookietts",
+      "status": "candidate-context",
+      "text": "Check back in a week. Thanks."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "status": "candidate-context",
+      "text": "\u591a\u4e2aSVC/TTS\u7684C++\u63a8\u7406\u5e93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "ZDisket/TensorVox",
       "status": "candidate",
       "text": "TensorVox is an application designed to enable user-friendly and lightweight neural speech synthesis in the desktop, aimed at increasing accessibility to such technology."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CookiePPP/cookietts",
+      "status": "candidate",
+      "text": "Check back in a week. Thanks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ZDisket/TensorVox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "CookiePPP/cookietts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "lexical_providers": [
     "datamuse"
   ],

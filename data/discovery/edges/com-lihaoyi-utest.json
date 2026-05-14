@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "com-lihaoyi/utest",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "com-lihaoyi/utest",
+      "target": "actions/create-release@v1.1.4",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-14T18:43:37.154551+00:00",
+  "source_repo": "com-lihaoyi/utest"
+}

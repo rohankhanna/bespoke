@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CookiePPP/cookietts",
+      "target": "tacotron2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CookiePPP/cookietts",
+      "target": "waveflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CookiePPP/cookietts",
+      "target": "waveglow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T19:49:45.564450+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1531
+    },
+    {
+      "path": "requirements.txt",
+      "size": 128
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[Last Updated 2021] TTS from Cookie. Messy and experimental!",
+    "fork": false,
+    "full_name": "CookiePPP/cookietts",
+    "html_url": "https://github.com/CookiePPP/cookietts",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-03-24T23:30:27Z",
+    "stargazers_count": 43,
+    "topics": [
+      "tacotron2",
+      "waveflow",
+      "waveglow"
+    ],
+    "updated_at": "2025-12-14T11:11:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check back in a week. Thanks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tacotron2"
+    },
+    {
+      "context_snippet": "Check back in a week. Thanks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "waveflow"
+    },
+    {
+      "context_snippet": "Check back in a week. Thanks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "waveglow"
+    }
+  ]
+}

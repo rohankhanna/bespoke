@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Fail PR to master"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Koenkk/zigbee2mqtt",
+      "status": "candidate-context",
+      "text": "Zigbee \ud83d\udc1d to MQTT bridge \ud83c\udf09, get rid of your proprietary Zigbee bridges \ud83d\udd28"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Koenkk/zigbee2mqtt",
+      "status": "candidate-context",
+      "text": "Fail PR to master"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Koenkk/zigbee2mqtt",
+      "status": "candidate",
+      "text": "Fail PR to master"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19180,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19180,
+      "status": "candidate",
+      "text": "shack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19180,
+      "status": "candidate",
+      "text": "spin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19180,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19095,
+      "status": "candidate",
+      "text": "agent"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Fail PR to master",
+  "concept_id": "fail-pr-to-master",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": ".github/workflows/fail-pr-to-master.yaml",
+      "source_repo": "Koenkk/zigbee2mqtt"
+    }
+  ],
+  "first_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Fail PR to master",
+      "sense_id": "fail-pr-to-master#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

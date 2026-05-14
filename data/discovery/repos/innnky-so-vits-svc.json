@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "innnky/so-vits-svc",
+      "target": "svc-develop-team/so-vits-svc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "innnky/so-vits-svc",
+      "target": "prophesier/diff-svc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "innnky/so-vits-svc",
+      "target": "openvpi/diffsinger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "innnky/so-vits-svc",
+      "target": "narusemioshirakana/moess",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-14T19:49:51.488343+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5861
+    },
+    {
+      "path": "requirements.txt",
+      "size": 328
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "32k",
+    "description": "\u57fa\u4e8evits\u4e0esoftvc\u7684\u6b4c\u58f0\u97f3\u8272\u8f6c\u6362\u6a21\u578b",
+    "fork": false,
+    "full_name": "innnky/so-vits-svc",
+    "html_url": "https://github.com/innnky/so-vits-svc",
+    "language": "Python",
+    "pushed_at": "2024-10-19T16:16:34Z",
+    "stargazers_count": 3786,
+    "topics": [],
+    "updated_at": "2026-05-11T18:02:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "narusemioshirakana/moess",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openvpi/diffsinger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prophesier/diff-svc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "svc-develop-team/so-vits-svc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

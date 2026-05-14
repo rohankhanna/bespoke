@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "@matter/main",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "traverse",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sammachin/node-red-matter-bridge",
+      "target": "@matter/main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sammachin/node-red-matter-bridge",
+      "target": "traverse",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-14T19:50:43.986518+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3400
+    },
+    {
+      "path": "package.json",
+      "size": 1317
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Matter Bridge for Node-RED",
+    "fork": false,
+    "full_name": "sammachin/node-red-matter-bridge",
+    "html_url": "https://github.com/sammachin/node-red-matter-bridge",
+    "language": "JavaScript",
+    "pushed_at": "2025-08-03T19:37:24Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2026-04-29T15:01:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

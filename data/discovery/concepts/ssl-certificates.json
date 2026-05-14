@@ -232,11 +232,17 @@
       "observed_at": "2026-05-14T07:10:22.636771+00:00",
       "source_file": null,
       "source_repo": "nginx-le/nginx-le"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "nginx-le/nginx-le"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T07:10:22.636771+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "lexical_providers": [
     "datamuse"
   ],

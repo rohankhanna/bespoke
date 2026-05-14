@@ -563,7 +563,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T13:09:06.705795+00:00",
+  "fetched_at": "2026-05-14T22:55:31.912444+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -579,7 +579,7 @@
     },
     {
       "path": ".github/workflows/cpp_tests.yaml",
-      "size": 3016
+      "size": 2989
     },
     {
       "path": ".github/workflows/lint.yaml",
@@ -615,10 +615,10 @@
     "full_name": "meta-pytorch/torchcodec",
     "html_url": "https://github.com/meta-pytorch/torchcodec",
     "language": "Python",
-    "pushed_at": "2026-05-14T12:33:51Z",
-    "stargazers_count": 1064,
+    "pushed_at": "2026-05-14T20:03:21Z",
+    "stargazers_count": 1065,
     "topics": [],
-    "updated_at": "2026-05-14T11:48:29Z"
+    "updated_at": "2026-05-14T22:28:36Z"
   },
   "repo_links": [
     {

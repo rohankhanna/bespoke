@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OlaWod/FreeVC",
+      "target": "liusongxiang/ppg-vc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OlaWod/FreeVC",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OlaWod/FreeVC",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OlaWod/FreeVC",
+      "target": "voice-conversion",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-14T18:43:37.154551+00:00",
+  "source_repo": "OlaWod/FreeVC"
+}

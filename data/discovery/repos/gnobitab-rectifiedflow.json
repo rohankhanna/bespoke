@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gnobitab/RectifiedFlow",
+      "target": "gnobitab/instaflow",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-14T22:18:06.366716+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11725
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Implementation of Rectified Flow (ICLR2023 Spotlight)",
+    "fork": false,
+    "full_name": "gnobitab/RectifiedFlow",
+    "html_url": "https://github.com/gnobitab/RectifiedFlow",
+    "language": "Python",
+    "pushed_at": "2024-07-20T21:10:52Z",
+    "stargazers_count": 1600,
+    "topics": [],
+    "updated_at": "2026-05-12T14:27:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gnobitab/instaflow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

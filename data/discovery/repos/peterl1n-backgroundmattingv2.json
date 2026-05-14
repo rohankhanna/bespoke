@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T14:17:16.957584+00:00",
+  "fetched_at": "2026-05-14T23:28:10.964857+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -65,14 +65,14 @@
     "html_url": "https://github.com/PeterL1n/BackgroundMattingV2",
     "language": "Python",
     "pushed_at": "2024-06-19T12:28:16Z",
-    "stargazers_count": 7163,
+    "stargazers_count": 7164,
     "topics": [
       "computer-vision",
       "machine-learning",
       "matting",
       "real-time"
     ],
-    "updated_at": "2026-05-13T11:33:49Z"
+    "updated_at": "2026-05-14T15:39:49Z"
   },
   "repo_links": [
     {

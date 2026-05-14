@@ -43,6 +43,18 @@
       "source_repo": "mdn/yari",
       "status": "candidate-context",
       "text": "Dev Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diffscope/diffscope-project",
+      "status": "candidate-context",
+      "text": "DiffScope project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffscope/diffscope-project",
+      "status": "candidate-context",
+      "text": "Dev Build"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mdn/yari",
+      "status": "candidate",
+      "text": "Dev Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffscope/diffscope-project",
       "status": "candidate",
       "text": "Dev Build"
     }
@@ -142,11 +160,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/dev-build.yml",
       "source_repo": "mdn/yari"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": ".github/workflows/dev-build.yml",
+      "source_repo": "diffscope/diffscope-project"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "lexical_providers": [
     "datamuse"
   ],

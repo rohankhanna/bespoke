@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Release-Alpha",
-    "release-alpha"
+    "release-alpha",
+    "Release Alpha"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "mongodb/node-mongodb-native",
       "status": "candidate-context",
       "text": "release-alpha"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RiDDiX/home-assistant-matter-hub",
+      "status": "candidate-context",
+      "text": "Publish your Home-Assistant Instance using Matter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RiDDiX/home-assistant-matter-hub",
+      "status": "candidate-context",
+      "text": "Release Alpha"
     }
   ],
   "candidate_glosses": [
@@ -46,9 +59,51 @@
       "source_repo": "mongodb/node-mongodb-native",
       "status": "candidate",
       "text": "release-alpha"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RiDDiX/home-assistant-matter-hub",
+      "status": "candidate",
+      "text": "Release Alpha"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28357,
+      "status": "candidate",
+      "text": "beta software"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11871,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10920,
+      "status": "candidate",
+      "text": "communication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10920,
+      "status": "candidate",
+      "text": "entry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10920,
+      "status": "candidate",
+      "text": "lease"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Release-Alpha",
   "concept_id": "release-alpha",
@@ -65,11 +120,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/release-alpha.yml",
       "source_repo": "mongodb/node-mongodb-native"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": ".github/workflows/release-alpha.yml",
+      "source_repo": "RiDDiX/home-assistant-matter-hub"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "lexical_providers": [
     "datamuse"
   ],

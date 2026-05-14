@@ -39,7 +39,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "microsoft/aspire-samples",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -155,6 +155,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-14T07:10:22.636771+00:00",
+  "generated_at": "2026-05-14T18:43:37.154551+00:00",
   "source_repo": "microsoft/aspire-samples"
 }

@@ -2003,11 +2003,35 @@
       "observed_at": "2026-05-14T12:51:33.279454+00:00",
       "source_file": ".github/workflows/e2e.yaml",
       "source_repo": "kubernetes-sigs/karpenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": ".github/workflows/e2e-base.yml",
+      "source_repo": "react/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "kubernetes-sigs/karpenter"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "lexical_providers": [
     "datamuse"
   ],

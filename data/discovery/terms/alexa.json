@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-14T00:43:26.166349+00:00",
-  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -11,6 +11,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Luligu/matterbridge-somfy-tahoma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Luligu/matterbridge-zigbee2mqtt"
     }
   ],
   "term": "alexa"

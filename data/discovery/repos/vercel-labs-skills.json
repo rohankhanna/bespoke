@@ -109,6 +109,11 @@
       "component": "actions/setup-node@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "quuu/ghaction-import-gpg@72c784c2e295f26ec09b0c20761c93711beaa338",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
     }
   ],
   "edges": [
@@ -267,6 +272,13 @@
       "target_type": "component"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vercel-labs/skills",
+      "target": "quuu/ghaction-import-gpg@72c784c2e295f26ec09b0c20761c93711beaa338",
+      "target_type": "component"
+    },
+    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "vercel-labs/skills",
@@ -274,7 +286,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T08:50:19.679000+00:00",
+  "fetched_at": "2026-05-14T22:12:03.098430+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -294,7 +306,7 @@
     },
     {
       "path": ".github/workflows/publish.yml",
-      "size": 4995
+      "size": 3114
     }
   ],
   "related_repositories": [],
@@ -306,10 +318,10 @@
     "full_name": "vercel-labs/skills",
     "html_url": "https://github.com/vercel-labs/skills",
     "language": "TypeScript",
-    "pushed_at": "2026-05-11T12:55:40Z",
-    "stargazers_count": 18422,
+    "pushed_at": "2026-05-14T15:53:51Z",
+    "stargazers_count": 18508,
     "topics": [],
-    "updated_at": "2026-05-14T08:47:23Z"
+    "updated_at": "2026-05-14T22:08:42Z"
   },
   "repo_links": [
     {

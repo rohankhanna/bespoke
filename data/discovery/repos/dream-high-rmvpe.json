@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-14T22:18:05.067467+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Dream-High/RMVPE",
+    "html_url": "https://github.com/Dream-High/RMVPE",
+    "language": "Python",
+    "pushed_at": "2024-01-25T03:24:32Z",
+    "stargazers_count": 319,
+    "topics": [],
+    "updated_at": "2026-05-06T00:55:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

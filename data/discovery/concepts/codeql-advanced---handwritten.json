@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CodeQL Advanced - handwritten"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-cloud-node",
+      "status": "candidate-context",
+      "text": "Google Cloud Client Library for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-node",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced - handwritten\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-node",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced - handwritten\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11500,
+      "status": "candidate",
+      "text": "autograph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11500,
+      "status": "candidate",
+      "text": "codex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11330,
+      "status": "candidate",
+      "text": "scribe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11280,
+      "status": "candidate",
+      "text": "along"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11280,
+      "status": "candidate",
+      "text": "approach"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CodeQL Advanced - handwritten",
+  "concept_id": "codeql-advanced---handwritten",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": ".github/workflows/codeql-handwritten.yml",
+      "source_repo": "googleapis/google-cloud-node"
+    }
+  ],
+  "first_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CodeQL Advanced - handwritten",
+      "sense_id": "codeql-advanced---handwritten#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

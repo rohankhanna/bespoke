@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CookiePPP/cookietts",
+      "target": "tacotron2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CookiePPP/cookietts",
+      "target": "waveflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CookiePPP/cookietts",
+      "target": "waveglow",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-14T18:43:37.154551+00:00",
+  "source_repo": "CookiePPP/cookietts"
+}

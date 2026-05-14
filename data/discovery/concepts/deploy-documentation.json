@@ -566,6 +566,18 @@
       "source_repo": "Velesio/velesio-aiserver",
       "status": "candidate-context",
       "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RiDDiX/home-assistant-matter-hub",
+      "status": "candidate-context",
+      "text": "Publish your Home-Assistant Instance using Matter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RiDDiX/home-assistant-matter-hub",
+      "status": "candidate-context",
+      "text": "Deploy Documentation"
     }
   ],
   "candidate_glosses": [
@@ -848,6 +860,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Velesio/velesio-aiserver",
+      "status": "candidate",
+      "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RiDDiX/home-assistant-matter-hub",
       "status": "candidate",
       "text": "Deploy Documentation"
     }
@@ -1913,11 +1931,35 @@
       "observed_at": "2026-05-14T12:51:33.279454+00:00",
       "source_file": ".github/workflows/deploy-docs.yml",
       "source_repo": "realworld-apps/realworld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": ".github/workflows/asciidoctor.yml",
+      "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "RiDDiX/home-assistant-matter-hub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "realworld-apps/realworld"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "lexical_providers": [
     "datamuse"
   ],

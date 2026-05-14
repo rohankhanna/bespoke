@@ -1,7 +1,7 @@
 {
   "component": "@openstreetmap/id-tagging-schema",
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
-  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

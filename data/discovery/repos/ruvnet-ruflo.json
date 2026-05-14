@@ -278,6 +278,21 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neural-trader-smoke.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neural-trader-smoke.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neural-trader-smoke.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pages.yml"
     },
     {
@@ -374,21 +389,6 @@
       "component": "actions/setup-node@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ruflo-agent-smoke.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/status-badges.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/status-badges.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/status-badges.yml"
     }
   ],
   "edges": [
@@ -632,6 +632,34 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neural-trader-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neural-trader-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neural-trader-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/neural-trader-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "neural-trader-smoke",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pages.yml",
       "source_repo": "ruvnet/ruflo",
       "target": "actions/checkout@v4",
@@ -726,34 +754,6 @@
       "source_file": ".github/workflows/ruflo-agent-smoke.yml",
       "source_repo": "ruvnet/ruflo",
       "target": "ruflo-agent-smoke",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/status-badges.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/status-badges.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/setup-node@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/status-badges.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/upload-artifact@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/status-badges.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "\ud83d\udcca Status Badges Update",
       "target_type": "term"
     },
     {
@@ -876,7 +876,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T08:28:53.495726+00:00",
+  "fetched_at": "2026-05-14T21:29:01.237075+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -903,6 +903,10 @@
       "size": 34131
     },
     {
+      "path": ".github/workflows/neural-trader-smoke.yml",
+      "size": 1741
+    },
+    {
       "path": ".github/workflows/pages.yml",
       "size": 496
     },
@@ -913,10 +917,6 @@
     {
       "path": ".github/workflows/ruflo-agent-smoke.yml",
       "size": 925
-    },
-    {
-      "path": ".github/workflows/status-badges.yml",
-      "size": 6360
     }
   ],
   "related_repositories": [],
@@ -928,8 +928,8 @@
     "full_name": "ruvnet/ruflo",
     "html_url": "https://github.com/ruvnet/ruflo",
     "language": "TypeScript",
-    "pushed_at": "2026-05-14T02:39:25Z",
-    "stargazers_count": 50605,
+    "pushed_at": "2026-05-14T19:32:24Z",
+    "stargazers_count": 50981,
     "topics": [
       "agentic-ai",
       "agentic-framework",
@@ -952,7 +952,7 @@
       "swarm",
       "swarm-intelligence"
     ],
-    "updated_at": "2026-05-14T08:25:03Z"
+    "updated_at": "2026-05-14T21:24:50Z"
   },
   "repo_links": [
     {
@@ -986,6 +986,12 @@
       "term": "\ud83d\udd17 Cross-Agent Integration Tests"
     },
     {
+      "context_snippet": "neural-trader-smoke",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/neural-trader-smoke.yml",
+      "term": "neural-trader-smoke"
+    },
+    {
       "context_snippet": "Deploy Pages",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/pages.yml",
@@ -1002,12 +1008,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/ruflo-agent-smoke.yml",
       "term": "ruflo-agent-smoke"
-    },
-    {
-      "context_snippet": "\ud83d\udcca Status Badges Update",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/status-badges.yml",
-      "term": "\ud83d\udcca Status Badges Update"
     },
     {
       "context_snippet": "<div align=\"center\">",

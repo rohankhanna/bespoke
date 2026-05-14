@@ -1,12 +1,17 @@
 {
   "component": "devmasx/merge-branch@master",
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pr-auto-merge.yml",
       "source_repo": "yuyang0/rrqlite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/merge-master-to-dev.yml",
+      "source_repo": "Koenkk/zigbee2mqtt"
     }
   ]
 }

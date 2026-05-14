@@ -1270,6 +1270,18 @@
       "source_repo": "kubernetes/ingress-nginx",
       "status": "candidate-context",
       "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Koenkk/zigbee2mqtt",
+      "status": "candidate-context",
+      "text": "Zigbee \ud83d\udc1d to MQTT bridge \ud83c\udf09, get rid of your proprietary Zigbee bridges \ud83d\udd28"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Koenkk/zigbee2mqtt",
+      "status": "candidate-context",
+      "text": "Dependency review"
     }
   ],
   "candidate_glosses": [
@@ -1902,6 +1914,12 @@
       "source_repo": "kubernetes/ingress-nginx",
       "status": "candidate",
       "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Koenkk/zigbee2mqtt",
+      "status": "candidate",
+      "text": "Dependency review"
     }
   ],
   "candidate_related_terms": [
@@ -3055,11 +3073,29 @@
       "observed_at": "2026-05-14T12:51:33.279454+00:00",
       "source_file": ".github/workflows/dependency-review.yml",
       "source_repo": "ttlns/Selenium-Driverless"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": ".github/workflows/depreview.yml",
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "ttlns/Selenium-Driverless"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": ".github/workflows/dependency-review.yaml",
+      "source_repo": "Koenkk/zigbee2mqtt"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "lexical_providers": [
     "datamuse"
   ],

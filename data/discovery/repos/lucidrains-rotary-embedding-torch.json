@@ -1,0 +1,126 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lucidrains/rotary-embedding-torch",
+      "target": "lucidrains/pope-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lucidrains/rotary-embedding-torch",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lucidrains/rotary-embedding-torch",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lucidrains/rotary-embedding-torch",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/rotary-embedding-torch",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/rotary-embedding-torch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/rotary-embedding-torch",
+      "target": "positional-encoding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T22:18:08.155524+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6555
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1060
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of Rotary Embeddings, from the Roformer paper, in Pytorch",
+    "fork": false,
+    "full_name": "lucidrains/rotary-embedding-torch",
+    "html_url": "https://github.com/lucidrains/rotary-embedding-torch",
+    "language": "Python",
+    "pushed_at": "2026-01-30T13:44:27Z",
+    "stargazers_count": 812,
+    "topics": [
+      "artificial-intelligence",
+      "deep-learning",
+      "positional-encoding"
+    ],
+    "updated_at": "2026-05-07T07:08:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucidrains/pope-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"./rope.png\" width=\"450px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<img src=\"./rope.png\" width=\"450px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<img src=\"./rope.png\" width=\"450px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "positional-encoding"
+    }
+  ]
+}

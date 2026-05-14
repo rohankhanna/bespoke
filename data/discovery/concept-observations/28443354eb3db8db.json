@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pytorch implementation of the CREPE pitch tracker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">torchcrepe</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">torchcrepe</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972692,
+      "status": "candidate",
+      "text": "french pancake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39914843,
+      "status": "candidate",
+      "text": "crepe paper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39913714,
+      "status": "candidate",
+      "text": "crape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29972779,
+      "status": "candidate",
+      "text": "pancake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29871682,
+      "status": "candidate",
+      "text": "chine"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "crepe",
+      "sense_id": "crepe#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1028,
+      "status": "candidate",
+      "text": "crape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24,
+      "status": "candidate",
+      "text": "crepe paper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "french pancake"
+    }
+  ],
+  "concept_id": "crepe",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "crepe",
+  "observation_id": "28443354eb3db8db",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-14T18:43:37.154551+00:00",
+  "observed_text": "crepe",
+  "source_context_snippet": "<h1 align=\"center\">torchcrepe</h1>",
+  "source_file": null,
+  "source_repo": "maxrmorrison/torchcrepe",
+  "source_repo_description": "Pytorch implementation of the CREPE pitch tracker"
+}

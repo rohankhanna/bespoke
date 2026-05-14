@@ -11,21 +11,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "matter-js/matter.js",
-      "target": "sammachin/node-red-matter-bridge",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "matter-js/matter.js",
-      "target": "riddix/home-assistant-matter-hub",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "matter-js/matter.js",
-      "target": "luligu/matterbridge-zigbee2mqtt",
+      "target": "weejewel/net.weejewel.matter-bridge",
       "target_type": "repository"
     },
     {
@@ -365,6 +351,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-14T12:51:33.279454+00:00",
+  "generated_at": "2026-05-14T18:43:37.154551+00:00",
   "source_repo": "matter-js/matter.js"
 }

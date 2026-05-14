@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gnobitab/RectifiedFlow",
+      "target": "gnobitab/instaflow",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-14T18:43:37.154551+00:00",
+  "source_repo": "gnobitab/RectifiedFlow"
+}

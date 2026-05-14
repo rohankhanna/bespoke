@@ -1,0 +1,196 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "cantabile-kwok/voiceflow-tts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "majidadibian77/resgrad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "gmltmd789/unitspeech",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "mingjiechen/dyganvc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "diff-svc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "flow-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "grad-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "vits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "vits-svc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "vits2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/Grad-SVC",
+      "target": "voice-change",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T22:17:36.677336+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8639
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "20230920-V2-96",
+    "description": "Diffusion Singing Voice Conversion based on Grad-TTS from HuaWei",
+    "fork": false,
+    "full_name": "PlayVoice/Grad-SVC",
+    "html_url": "https://github.com/PlayVoice/Grad-SVC",
+    "language": "Python",
+    "pushed_at": "2023-10-24T07:39:18Z",
+    "stargazers_count": 167,
+    "topics": [
+      "diff-svc",
+      "diffusion",
+      "flow-matching",
+      "grad-tts",
+      "svc",
+      "vits",
+      "vits-svc",
+      "vits2",
+      "voice-change"
+    ],
+    "updated_at": "2026-03-31T02:51:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cantabile-kwok/voiceflow-tts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmltmd789/unitspeech",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "majidadibian77/resgrad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mingjiechen/dyganvc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diff-svc"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flow-matching"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grad-tts"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vits"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vits-svc"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vits2"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-change"
+    }
+  ]
+}

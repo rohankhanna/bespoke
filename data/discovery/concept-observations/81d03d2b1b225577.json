@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Neural network-based singing voice synthesis library for research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![][docs-latest-img]][docs-latest-url]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![][docs-latest-img]][docs-latest-url]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "singing-synthesis",
+      "sense_id": "singing-synthesis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "singing-synthesis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "singing-synthesis",
+  "observation_id": "81d03d2b1b225577",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-14T18:43:37.154551+00:00",
+  "observed_text": "singing-synthesis",
+  "source_context_snippet": "[![][docs-latest-img]][docs-latest-url]",
+  "source_file": null,
+  "source_repo": "nnsvs/nnsvs",
+  "source_repo_description": "Neural network-based singing voice synthesis library for research"
+}

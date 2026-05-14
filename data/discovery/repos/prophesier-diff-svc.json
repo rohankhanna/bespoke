@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-14T22:17:42.230617+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4064
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1850
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Singing Voice Conversion via diffusion model",
+    "fork": false,
+    "full_name": "prophesier/diff-svc",
+    "html_url": "https://github.com/prophesier/diff-svc",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-18T07:42:44Z",
+    "stargazers_count": 2717,
+    "topics": [],
+    "updated_at": "2026-05-03T15:54:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

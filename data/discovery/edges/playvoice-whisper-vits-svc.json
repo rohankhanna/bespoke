@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/whisper-vits-svc",
-      "target": "flutydeer/audio-slicer",
+      "target": "maxrmorrison/torchcrepe",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/whisper-vits-svc",
-      "target": "m4singer/m4singer",
+      "target": "multi-singer/multi-singer.github.io",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/whisper-vits-svc",
-      "target": "hcy71o/snac",
+      "target": "olawod/freevc",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/whisper-vits-svc",
-      "target": "francis-komizu/sovits",
+      "target": "playvoice/grad-svc",
       "target_type": "repository"
     },
     {
@@ -92,6 +92,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-14T00:43:26.166349+00:00",
+  "generated_at": "2026-05-14T18:43:37.154551+00:00",
   "source_repo": "PlayVoice/whisper-vits-svc"
 }

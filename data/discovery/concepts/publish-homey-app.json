@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Homey App"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "athombv/com.athom.matter-bridge",
+      "status": "candidate-context",
+      "text": "Expose Homey Pro's devices to Matter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athombv/com.athom.matter-bridge",
+      "status": "candidate-context",
+      "text": "Publish Homey App"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athombv/com.athom.matter-bridge",
+      "status": "candidate",
+      "text": "Publish Homey App"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18818,
+      "status": "candidate",
+      "text": "demonstrative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18818,
+      "status": "candidate",
+      "text": "editor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11073,
+      "status": "candidate",
+      "text": "pal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11038,
+      "status": "candidate",
+      "text": "cozy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10844,
+      "status": "candidate",
+      "text": "oost"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Homey App",
+  "concept_id": "publish-homey-app",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": ".github/workflows/homey-app-publish.yml",
+      "source_repo": "athombv/com.athom.matter-bridge"
+    }
+  ],
+  "first_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Homey App",
+      "sense_id": "publish-homey-app#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

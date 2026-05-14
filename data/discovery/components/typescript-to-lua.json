@@ -1,12 +1,17 @@
 {
   "component": "typescript-to-lua",
   "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "tomblind/local-lua-debugger-vscode"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "thenbe/neotest-playwright"
     }
   ]
 }

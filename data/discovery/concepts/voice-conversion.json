@@ -199,6 +199,30 @@
       "source_repo": "auspicious3000/SpeechSplit",
       "status": "candidate-context",
       "text": "This repository provides a PyTorch implementation of [SpeechSplit](https://arxiv.org/abs/2004.11284), which enables more detailed speaking style conversion by disentangling speech into content, timbre, rhythm and pitch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OlaWod/FreeVC",
+      "status": "candidate-context",
+      "text": "FreeVC: Towards High-Quality Text-Free One-Shot Voice Conversion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OlaWod/FreeVC",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2210.15418)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "svc-develop-team/so-vits-svc",
+      "status": "candidate-context",
+      "text": "SoftVC VITS Singing Voice Conversion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svc-develop-team/so-vits-svc",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +321,18 @@
       "source_repo": "auspicious3000/SpeechSplit",
       "status": "candidate",
       "text": "This repository provides a PyTorch implementation of [SpeechSplit](https://arxiv.org/abs/2004.11284), which enables more detailed speaking style conversion by disentangling speech into content, timbre, rhythm and pitch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OlaWod/FreeVC",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2210.15418)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svc-develop-team/so-vits-svc",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -400,11 +436,23 @@
       "observed_at": "2026-05-14T00:43:26.166349+00:00",
       "source_file": null,
       "source_repo": "auspicious3000/SpeechSplit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "OlaWod/FreeVC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "svc-develop-team/so-vits-svc"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "lexical_providers": [
     "datamuse"
   ],

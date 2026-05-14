@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -116,6 +116,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/linter.yml",
       "source_repo": "sluongng/neotest-bazel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "rcarriga/nvim-dap"
     }
   ],
   "term": "Lint Code Base"

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[Last Updated 2021] TTS from Cookie. Messy and experimental!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check back in a week. Thanks."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check back in a week. Thanks."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "waveglow",
+      "sense_id": "waveglow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "waveglow",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "waveglow",
+  "observation_id": "8f149eb079ec9ad5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-14T18:43:37.154551+00:00",
+  "observed_text": "waveglow",
+  "source_context_snippet": "Check back in a week. Thanks.",
+  "source_file": null,
+  "source_repo": "CookiePPP/cookietts",
+  "source_repo_description": "[Last Updated 2021] TTS from Cookie. Messy and experimental!"
+}

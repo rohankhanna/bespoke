@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API."
+      "text": "Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API. 100% private."
     },
     {
       "source_kind": "source-snippet",
@@ -84,10 +84,10 @@
   "normalized_form": "build-cuda",
   "observation_id": "610e28138ea6ef22",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-14T12:51:33.279454+00:00",
+  "observed_at": "2026-05-14T18:43:37.154551+00:00",
   "observed_text": "Build CUDA",
   "source_context_snippet": "Build CUDA",
   "source_file": ".github/workflows/build-portable-release-cuda.yml",
   "source_repo": "oobabooga/textgen",
-  "source_repo_description": "Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API."
+  "source_repo_description": "Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API. 100% private."
 }

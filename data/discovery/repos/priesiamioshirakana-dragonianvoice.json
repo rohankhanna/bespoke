@@ -1,0 +1,221 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "narusemioshirakana/dragonianlib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "cnchtu/diffusion-svc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "cnchtu/melpe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "narusemioshirakana/moess",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "bertvits2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "diffsinger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "diffsvc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "hifigan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "onnxruntime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "reflowsvc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "sovits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "tacotron2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "vits",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T22:17:47.076962+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22025
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u591a\u4e2aSVC/TTS\u7684C++\u63a8\u7406\u5e93",
+    "fork": false,
+    "full_name": "PriesiaMioShirakana/DragonianVoice",
+    "html_url": "https://github.com/PriesiaMioShirakana/DragonianVoice",
+    "language": "C",
+    "pushed_at": "2025-05-18T10:10:18Z",
+    "stargazers_count": 1123,
+    "topics": [
+      "bertvits2",
+      "diffsinger",
+      "diffsvc",
+      "hifigan",
+      "onnxruntime",
+      "pytorch",
+      "reflowsvc",
+      "rvc",
+      "sovits",
+      "tacotron2",
+      "tts",
+      "vits"
+    ],
+    "updated_at": "2026-05-14T10:29:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cnchtu/diffusion-svc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cnchtu/melpe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "narusemioshirakana/dragonianlib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "narusemioshirakana/moess",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bertvits2"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffsinger"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffsvc"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hifigan"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnxruntime"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reflowsvc"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sovits"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tacotron2"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vits"
+    }
+  ]
+}

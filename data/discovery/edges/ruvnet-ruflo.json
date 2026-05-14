@@ -240,6 +240,34 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neural-trader-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neural-trader-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neural-trader-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/neural-trader-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "neural-trader-smoke",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pages.yml",
       "source_repo": "ruvnet/ruflo",
       "target": "actions/checkout@v4",
@@ -334,34 +362,6 @@
       "source_file": ".github/workflows/ruflo-agent-smoke.yml",
       "source_repo": "ruvnet/ruflo",
       "target": "ruflo-agent-smoke",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/status-badges.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/status-badges.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/setup-node@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/status-badges.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/upload-artifact@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/status-badges.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "\ud83d\udcca Status Badges Update",
       "target_type": "term"
     },
     {
@@ -484,6 +484,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-14T07:10:22.636771+00:00",
+  "generated_at": "2026-05-14T18:43:37.154551+00:00",
   "source_repo": "ruvnet/ruflo"
 }

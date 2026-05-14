@@ -120,7 +120,7 @@
   "normalized_form": "build",
   "observation_id": "cd32de1bc4698c7d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-14T07:10:22.636771+00:00",
+  "observed_at": "2026-05-14T18:43:37.154551+00:00",
   "observed_text": "Build",
   "source_context_snippet": "Build",
   "source_file": ".github/workflows/build-reusable.yaml",

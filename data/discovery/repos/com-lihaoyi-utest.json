@@ -1,0 +1,63 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/create-release@v1.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "com-lihaoyi/utest",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "com-lihaoyi/utest",
+      "target": "actions/create-release@v1.1.4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-14T19:11:13.363480+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/actions.yml",
+      "size": 1937
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple testing framework for Scala",
+    "fork": false,
+    "full_name": "com-lihaoyi/utest",
+    "html_url": "https://github.com/com-lihaoyi/utest",
+    "language": "Scala",
+    "pushed_at": "2026-01-22T23:21:51Z",
+    "stargazers_count": 508,
+    "topics": [],
+    "updated_at": "2026-02-26T11:32:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

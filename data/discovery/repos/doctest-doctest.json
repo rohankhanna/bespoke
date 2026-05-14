@@ -333,7 +333,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T08:30:41.415011+00:00",
+  "fetched_at": "2026-05-14T21:49:22.901459+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -386,7 +386,7 @@
     "html_url": "https://github.com/doctest/doctest",
     "language": "C++",
     "pushed_at": "2026-05-11T08:52:36Z",
-    "stargazers_count": 6713,
+    "stargazers_count": 6712,
     "topics": [
       "c-plus-plus",
       "cpp",
@@ -403,7 +403,7 @@
       "testing-framework",
       "unit-testing"
     ],
-    "updated_at": "2026-05-14T06:39:28Z"
+    "updated_at": "2026-05-14T13:13:52Z"
   },
   "repo_links": [],
   "terms": [

@@ -739,6 +739,18 @@
       "source_repo": "version-fox/vfox-plugin-template",
       "status": "candidate-context",
       "text": "This is a [vfox plugin](https://vfox.dev/plugins/create/howto.html) template with CI that package and publish the plugin."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mgsalem/Tensorflow-Project-Template",
+      "status": "candidate-context",
+      "text": "A best practice for tensorflow project template architecture. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mgsalem/Tensorflow-Project-Template",
+      "status": "candidate-context",
+      "text": "A simple and well designed structure is essential for any Deep Learning project, so after a lot of practice and contributing in tensorflow projects here's a tensorflow project template that combines **simplcity**, **best practice for folder structure** and **good OOP design**."
     }
   ],
   "candidate_glosses": [
@@ -1107,6 +1119,12 @@
       "source_repo": "version-fox/vfox-plugin-template",
       "status": "candidate",
       "text": "This is a [vfox plugin](https://vfox.dev/plugins/create/howto.html) template with CI that package and publish the plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mgsalem/Tensorflow-Project-Template",
+      "status": "candidate",
+      "text": "A simple and well designed structure is essential for any Deep Learning project, so after a lot of practice and contributing in tensorflow projects here's a tensorflow project template that combines **simplcity**, **best practice for folder structure** and **good OOP design**."
     }
   ],
   "candidate_related_terms": [
@@ -2545,11 +2563,41 @@
       "observed_at": "2026-05-14T12:51:33.279454+00:00",
       "source_file": null,
       "source_repo": "stephenlacy/daz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "jarcane/clojurice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "code-forge-io/open-source-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "mgsalem/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "stephenlacy/daz"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "lexical_providers": [
     "datamuse"
   ],

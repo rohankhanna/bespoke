@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Typescript to lua transpiler. https://typescripttolua.github.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20003384,
+      "status": "candidate",
+      "text": "transcompiler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20003383,
+      "status": "candidate",
+      "text": "transcompilation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20003382,
+      "status": "candidate",
+      "text": "translator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20003381,
+      "status": "candidate",
+      "text": "supercompiler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20003380,
+      "status": "candidate",
+      "text": "transposer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "transpiler",
+      "sense_id": "transpiler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "transpiler",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "transpiler",
+  "observation_id": "1652aa6adb98eabf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-14T18:43:37.154551+00:00",
+  "observed_text": "transpiler",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "TypeScriptToLua/TypeScriptToLua",
+  "source_repo_description": "Typescript to lua transpiler. https://typescripttolua.github.io/"
+}

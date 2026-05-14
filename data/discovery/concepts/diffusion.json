@@ -607,6 +607,30 @@
       "source_repo": "fishaudio/fish-diffusion",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvpi/DiffSinger",
+      "status": "candidate-context",
+      "text": "An advanced singing voice synthesis system with high fidelity, expressiveness, controllability and flexibility based on DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvpi/DiffSinger",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PlayVoice/Grad-SVC",
+      "status": "candidate-context",
+      "text": "Diffusion Singing Voice Conversion based on Grad-TTS from HuaWei"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlayVoice/Grad-SVC",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -907,6 +931,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fishaudio/fish-diffusion",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvpi/DiffSinger",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlayVoice/Grad-SVC",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -2358,11 +2394,59 @@
       "observed_at": "2026-05-14T12:51:33.279454+00:00",
       "source_file": null,
       "source_repo": "xlite-dev/Awesome-DiT-Inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/VisionReward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/whisper-vits-svc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "openvpi/DiffSinger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "xlite-dev/Awesome-DiT-Inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/Grad-SVC"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "lexical_providers": [
     "datamuse"
   ],

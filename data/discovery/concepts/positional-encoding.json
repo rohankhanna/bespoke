@@ -31,6 +31,18 @@
       "source_repo": "liruilong940607/prope",
       "status": "candidate-context",
       "text": "https://www.liruilong.cn/prope/"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/rotary-embedding-torch",
+      "status": "candidate-context",
+      "text": "Implementation of Rotary Embeddings, from the Roformer paper, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/rotary-embedding-torch",
+      "status": "candidate-context",
+      "text": "<img src=\"./rope.png\" width=\"450px\"></img>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "liruilong940607/prope",
       "status": "candidate",
       "text": "https://www.liruilong.cn/prope/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/rotary-embedding-torch",
+      "status": "candidate",
+      "text": "<img src=\"./rope.png\" width=\"450px\"></img>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "liruilong940607/prope"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/rotary-embedding-torch"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "lexical_providers": [
     "datamuse"
   ],

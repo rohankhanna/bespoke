@@ -150,13 +150,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "parruda/swarm",
-      "target": "parruda/claude-swarm.",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "parruda/swarm",
@@ -318,7 +311,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T08:50:52.140170+00:00",
+  "fetched_at": "2026-05-14T22:12:41.598460+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -359,19 +352,14 @@
     "html_url": "https://github.com/parruda/swarm",
     "language": "Ruby",
     "pushed_at": "2026-02-17T02:07:40Z",
-    "stargazers_count": 1711,
+    "stargazers_count": 1712,
     "topics": [],
-    "updated_at": "2026-05-14T08:45:04Z"
+    "updated_at": "2026-05-14T21:24:05Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "parruda/claude-swarm",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "parruda/claude-swarm.",
       "source_file": "README.md"
     }
   ],

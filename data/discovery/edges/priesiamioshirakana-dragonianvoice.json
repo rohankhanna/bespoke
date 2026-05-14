@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "narusemioshirakana/dragonianlib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "cnchtu/diffusion-svc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "cnchtu/melpe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "narusemioshirakana/moess",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "bertvits2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "diffsinger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "diffsvc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "hifigan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "onnxruntime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "reflowsvc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "sovits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "tacotron2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "target": "vits",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-14T18:43:37.154551+00:00",
+  "source_repo": "PriesiaMioShirakana/DragonianVoice"
+}

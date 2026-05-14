@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/fail-pr-to-master.yaml",
+      "source_repo": "Koenkk/zigbee2mqtt"
+    }
+  ],
+  "term": "Fail PR to master"
+}

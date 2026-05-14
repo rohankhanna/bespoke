@@ -5,28 +5,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/whisper-vits-svc",
-      "target": "flutydeer/audio-slicer",
+      "target": "maxrmorrison/torchcrepe",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/whisper-vits-svc",
-      "target": "m4singer/m4singer",
+      "target": "multi-singer/multi-singer.github.io",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/whisper-vits-svc",
-      "target": "hcy71o/snac",
+      "target": "olawod/freevc",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/whisper-vits-svc",
-      "target": "francis-komizu/sovits",
+      "target": "playvoice/grad-svc",
       "target_type": "repository"
     },
     {
@@ -93,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T05:13:15.684965+00:00",
+  "fetched_at": "2026-05-14T22:17:20.141206+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -127,27 +127,27 @@
       "vits2",
       "voice"
     ],
-    "updated_at": "2026-05-14T01:37:12Z"
+    "updated_at": "2026-05-14T20:46:29Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "flutydeer/audio-slicer",
+      "full_name": "maxrmorrison/torchcrepe",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "francis-komizu/sovits",
+      "full_name": "multi-singer/multi-singer.github.io",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hcy71o/snac",
+      "full_name": "olawod/freevc",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "m4singer/m4singer",
+      "full_name": "playvoice/grad-svc",
       "source_file": "README.md"
     }
   ],

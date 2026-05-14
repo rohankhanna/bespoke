@@ -84,7 +84,7 @@
   "normalized_form": "promote-main-to-stable-branch",
   "observation_id": "29a405745453cae7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-14T07:10:22.636771+00:00",
+  "observed_at": "2026-05-14T18:43:37.154551+00:00",
   "observed_text": "Promote main to stable branch",
   "source_context_snippet": "Promote main to stable branch",
   "source_file": ".github/workflows/promote.yml",

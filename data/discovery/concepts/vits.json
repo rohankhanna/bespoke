@@ -103,6 +103,42 @@
       "source_repo": "PlayVoice/whisper-vits-svc",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PlayVoice/Grad-SVC",
+      "status": "candidate-context",
+      "text": "Diffusion Singing Voice Conversion based on Grad-TTS from HuaWei"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlayVoice/Grad-SVC",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "status": "candidate-context",
+      "text": "\u591a\u4e2aSVC/TTS\u7684C++\u63a8\u7406\u5e93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "svc-develop-team/so-vits-svc",
+      "status": "candidate-context",
+      "text": "SoftVC VITS Singing Voice Conversion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svc-develop-team/so-vits-svc",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +187,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "PlayVoice/whisper-vits-svc",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlayVoice/Grad-SVC",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PriesiaMioShirakana/DragonianVoice",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svc-develop-team/so-vits-svc",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -531,11 +585,47 @@
       "observed_at": "2026-05-14T12:51:33.279454+00:00",
       "source_file": null,
       "source_repo": "PlayVoice/vits_chinese"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/whisper-vits-svc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/vits_chinese"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/Grad-SVC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "svc-develop-team/so-vits-svc"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "lexical_providers": [
     "datamuse"
   ],

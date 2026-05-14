@@ -56,12 +56,22 @@
       "source_file": ".github/workflows/build-and-test-snapdragon.yml"
     },
     {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml"
+    },
+    {
       "component": "actions/download-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-and-test-snapdragon.yml"
     },
     {
-      "component": "actions/setup-python@v5",
+      "component": "actions/setup-python@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-and-test-snapdragon.yml"
     },
@@ -317,7 +327,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-and-test-snapdragon.yml",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "actions/setup-python@v5",
+      "target": "actions/setup-python@v6",
       "target_type": "component"
     },
     {
@@ -433,7 +443,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T13:02:56.185486+00:00",
+  "fetched_at": "2026-05-14T22:29:18.373453+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -461,7 +471,7 @@
     },
     {
       "path": ".github/workflows/build-and-test-snapdragon.yml",
-      "size": 3628
+      "size": 4856
     },
     {
       "path": ".github/workflows/build-android.yml",
@@ -485,12 +495,12 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-05-14T12:35:15Z",
-    "stargazers_count": 110066,
+    "pushed_at": "2026-05-14T20:58:58Z",
+    "stargazers_count": 110137,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-05-14T13:00:56Z"
+    "updated_at": "2026-05-14T22:15:20Z"
   },
   "repo_links": [
     {

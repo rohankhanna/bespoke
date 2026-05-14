@@ -249,7 +249,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T00:38:29.277929+00:00",
+  "fetched_at": "2026-05-14T22:02:59.884684+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -285,8 +285,8 @@
     "full_name": "neovim/nvim-lspconfig",
     "html_url": "https://github.com/neovim/nvim-lspconfig",
     "language": "Lua",
-    "pushed_at": "2026-04-29T18:18:48Z",
-    "stargazers_count": 13581,
+    "pushed_at": "2026-05-14T20:42:44Z",
+    "stargazers_count": 13641,
     "topics": [
       "language-server",
       "language-server-protocol",
@@ -296,7 +296,7 @@
       "plugin",
       "vim"
     ],
-    "updated_at": "2026-04-29T22:53:10Z"
+    "updated_at": "2026-05-14T20:42:48Z"
   },
   "repo_links": [],
   "terms": [

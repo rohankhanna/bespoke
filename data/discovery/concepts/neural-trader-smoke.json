@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "neural-trader-smoke"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruvnet/ruflo",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruvnet/ruflo",
+      "status": "candidate-context",
+      "text": "neural-trader-smoke"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruvnet/ruflo",
+      "status": "candidate",
+      "text": "neural-trader-smoke"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "neural-trader-smoke",
+  "concept_id": "neural-trader-smoke",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": ".github/workflows/neural-trader-smoke.yml",
+      "source_repo": "ruvnet/ruflo"
+    }
+  ],
+  "first_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "neural-trader-smoke",
+      "sense_id": "neural-trader-smoke#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

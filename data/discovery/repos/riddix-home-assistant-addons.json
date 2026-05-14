@@ -1,0 +1,73 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-addons.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-addons.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "RiDDiX/home-assistant-addons",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-addons.yaml",
+      "source_repo": "RiDDiX/home-assistant-addons",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-addons.yaml",
+      "source_repo": "RiDDiX/home-assistant-addons",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-14T22:18:47.175784+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1264
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1874
+    },
+    {
+      "path": ".github/workflows/release-addons.yaml",
+      "size": 4314
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": true,
+    "full_name": "RiDDiX/home-assistant-addons",
+    "html_url": "https://github.com/RiDDiX/home-assistant-addons",
+    "language": null,
+    "pushed_at": "2026-05-14T16:09:01Z",
+    "stargazers_count": 93,
+    "topics": [],
+    "updated_at": "2026-05-14T16:09:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

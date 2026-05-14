@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-14T22:17:28.113254+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1143
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Multi-Singer/Multi-Singer.github.io",
+    "html_url": "https://github.com/Multi-Singer/Multi-Singer.github.io",
+    "language": "SCSS",
+    "pushed_at": "2022-11-19T05:27:57Z",
+    "stargazers_count": 81,
+    "topics": [],
+    "updated_at": "2026-04-13T21:43:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

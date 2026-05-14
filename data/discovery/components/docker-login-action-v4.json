@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@v4",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1097,6 +1097,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-test.chip.yml",
       "source_repo": "matter-js/matter.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-alpha.yml",
+      "source_repo": "RiDDiX/home-assistant-matter-hub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "RiDDiX/home-assistant-matter-hub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Koenkk/zigbee2mqtt"
     }
   ]
 }

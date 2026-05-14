@@ -8,13 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dmtrKovalenko/fff",
-      "target": "saghm/frizbee",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "dmtrKovalenko/fff",
@@ -302,6 +295,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-14T07:10:22.636771+00:00",
+  "generated_at": "2026-05-14T18:43:37.154551+00:00",
   "source_repo": "dmtrKovalenko/fff"
 }

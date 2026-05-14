@@ -1,0 +1,210 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openvpi/DiffSinger",
+      "target": "diffscope/diffscope-project",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openvpi/DiffSinger",
+      "target": "gnobitab/rectifiedflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openvpi/DiffSinger",
+      "target": "lucidrains/rotary-embedding-torch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openvpi/DiffSinger",
+      "target": "dream-high/rmvpe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvpi/DiffSinger",
+      "target": "acoustic-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvpi/DiffSinger",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvpi/DiffSinger",
+      "target": "diffussion-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvpi/DiffSinger",
+      "target": "melody-frontend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvpi/DiffSinger",
+      "target": "midi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvpi/DiffSinger",
+      "target": "pitch-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvpi/DiffSinger",
+      "target": "rectified-flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvpi/DiffSinger",
+      "target": "singing-voice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvpi/DiffSinger",
+      "target": "singing-voice-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T19:49:55.849943+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5576
+    },
+    {
+      "path": "requirements.txt",
+      "size": 419
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An advanced singing voice synthesis system with high fidelity, expressiveness, controllability and flexibility based on DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism",
+    "fork": true,
+    "full_name": "openvpi/DiffSinger",
+    "html_url": "https://github.com/openvpi/DiffSinger",
+    "language": "Python",
+    "pushed_at": "2026-05-09T12:55:22Z",
+    "stargazers_count": 3120,
+    "topics": [
+      "acoustic-model",
+      "diffusion",
+      "diffussion-model",
+      "melody-frontend",
+      "midi",
+      "pitch-prediction",
+      "rectified-flow",
+      "singing-voice",
+      "singing-voice-synthesis",
+      "svs"
+    ],
+    "updated_at": "2026-05-14T13:51:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "diffscope/diffscope-project",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dream-high/rmvpe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gnobitab/rectifiedflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucidrains/rotary-embedding-torch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acoustic-model"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffussion-model"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "melody-frontend"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pitch-prediction"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rectified-flow"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-voice"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-voice-synthesis"
+    }
+  ]
+}

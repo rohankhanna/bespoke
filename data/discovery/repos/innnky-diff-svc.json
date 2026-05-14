@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "innnky/diff-svc",
+      "target": "prophesier/diff-svc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-14T19:49:48.582656+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1545
+    },
+    {
+      "path": "requirements.txt",
+      "size": 309
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "An Implementation of Singing Voice Conversion Based on Diffsinger",
+    "fork": false,
+    "full_name": "innnky/diff-svc",
+    "html_url": "https://github.com/innnky/diff-svc",
+    "language": "Python",
+    "pushed_at": "2023-02-20T12:02:48Z",
+    "stargazers_count": 74,
+    "topics": [],
+    "updated_at": "2026-02-22T06:34:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prophesier/diff-svc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

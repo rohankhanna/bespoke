@@ -1,0 +1,206 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml"
+    },
+    {
+      "component": "crate-ci/typos@v1.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nnsvs/nnsvs",
+      "target": "chomeyama/hn-unifiedsourcefiltergan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nnsvs/nnsvs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nnsvs/nnsvs",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nnsvs/nnsvs",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "nnsvs/nnsvs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "nnsvs/nnsvs",
+      "target": "crate-ci/typos@v1.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nnsvs/nnsvs",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nnsvs/nnsvs",
+      "target": "kiritan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nnsvs/nnsvs",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nnsvs/nnsvs",
+      "target": "singing-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nnsvs/nnsvs",
+      "target": "singing-voice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nnsvs/nnsvs",
+      "target": "singing-voice-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T19:49:41.933924+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1312
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 603
+    },
+    {
+      "path": "requirements.txt",
+      "size": 12
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2443
+    },
+    {
+      "path": ".github/workflows/typos.yml",
+      "size": 304
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Neural network-based singing voice synthesis library for research",
+    "fork": false,
+    "full_name": "nnsvs/nnsvs",
+    "html_url": "https://github.com/nnsvs/nnsvs",
+    "language": "Python",
+    "pushed_at": "2023-10-09T15:59:00Z",
+    "stargazers_count": 738,
+    "topics": [
+      "deep-learning",
+      "dnn",
+      "kiritan",
+      "python",
+      "pytorch",
+      "singing-synthesis",
+      "singing-voice",
+      "singing-voice-synthesis"
+    ],
+    "updated_at": "2026-05-06T11:39:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chomeyama/hn-unifiedsourcefiltergan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![][docs-latest-img]][docs-latest-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![][docs-latest-img]][docs-latest-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kiritan"
+    },
+    {
+      "context_snippet": "[![][docs-latest-img]][docs-latest-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![][docs-latest-img]][docs-latest-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-synthesis"
+    },
+    {
+      "context_snippet": "[![][docs-latest-img]][docs-latest-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-voice"
+    },
+    {
+      "context_snippet": "[![][docs-latest-img]][docs-latest-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-voice-synthesis"
+    }
+  ]
+}

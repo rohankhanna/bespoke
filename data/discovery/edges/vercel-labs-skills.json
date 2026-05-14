@@ -155,6 +155,13 @@
       "target_type": "component"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vercel-labs/skills",
+      "target": "quuu/ghaction-import-gpg@72c784c2e295f26ec09b0c20761c93711beaa338",
+      "target_type": "component"
+    },
+    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "vercel-labs/skills",
@@ -162,6 +169,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-14T07:10:22.636771+00:00",
+  "generated_at": "2026-05-14T18:43:37.154551+00:00",
   "source_repo": "vercel-labs/skills"
 }

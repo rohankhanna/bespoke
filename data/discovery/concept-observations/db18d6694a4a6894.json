@@ -84,7 +84,7 @@
   "normalized_form": "run-pytest",
   "observation_id": "db18d6694a4a6894",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-14T07:10:22.636771+00:00",
+  "observed_at": "2026-05-14T18:43:37.154551+00:00",
   "observed_text": "Run pytest",
   "source_context_snippet": "Run pytest",
   "source_file": ".github/workflows/pytest.yml",

@@ -1,0 +1,209 @@
+{
+  "components": [
+    {
+      "component": "@matter/main",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "homey-api",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "p-queue",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@inquirer/prompts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homey-app-publish.yml"
+    },
+    {
+      "component": "athombv/github-action-homey-app-publish@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homey-app-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homey-app-validate.yml"
+    },
+    {
+      "component": "athombv/github-action-homey-app-validate@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homey-app-validate.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homey-app-version.yml"
+    },
+    {
+      "component": "athombv/github-action-homey-app-version@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homey-app-version.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "athombv/com.athom.matter-bridge",
+      "target": "@matter/main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "athombv/com.athom.matter-bridge",
+      "target": "homey-api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "athombv/com.athom.matter-bridge",
+      "target": "p-queue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "athombv/com.athom.matter-bridge",
+      "target": "@inquirer/prompts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homey-app-publish.yml",
+      "source_repo": "athombv/com.athom.matter-bridge",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homey-app-publish.yml",
+      "source_repo": "athombv/com.athom.matter-bridge",
+      "target": "athombv/github-action-homey-app-publish@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/homey-app-publish.yml",
+      "source_repo": "athombv/com.athom.matter-bridge",
+      "target": "Publish Homey App",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homey-app-validate.yml",
+      "source_repo": "athombv/com.athom.matter-bridge",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homey-app-validate.yml",
+      "source_repo": "athombv/com.athom.matter-bridge",
+      "target": "athombv/github-action-homey-app-validate@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/homey-app-validate.yml",
+      "source_repo": "athombv/com.athom.matter-bridge",
+      "target": "Validate Homey App",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homey-app-version.yml",
+      "source_repo": "athombv/com.athom.matter-bridge",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homey-app-version.yml",
+      "source_repo": "athombv/com.athom.matter-bridge",
+      "target": "athombv/github-action-homey-app-version@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/homey-app-version.yml",
+      "source_repo": "athombv/com.athom.matter-bridge",
+      "target": "Update Homey App Version",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T22:18:43.687624+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 870
+    },
+    {
+      "path": "README.txt",
+      "size": 946
+    },
+    {
+      "path": "package.json",
+      "size": 703
+    },
+    {
+      "path": ".github/workflows/homey-app-publish.yml",
+      "size": 478
+    },
+    {
+      "path": ".github/workflows/homey-app-validate.yml",
+      "size": 292
+    },
+    {
+      "path": ".github/workflows/homey-app-version.yml",
+      "size": 1486
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Expose Homey Pro's devices to Matter.",
+    "fork": false,
+    "full_name": "athombv/com.athom.matter-bridge",
+    "html_url": "https://github.com/athombv/com.athom.matter-bridge",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-23T14:43:27Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-02-23T14:44:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish Homey App",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/homey-app-publish.yml",
+      "term": "Publish Homey App"
+    },
+    {
+      "context_snippet": "Validate Homey App",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/homey-app-validate.yml",
+      "term": "Validate Homey App"
+    },
+    {
+      "context_snippet": "Update Homey App Version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/homey-app-version.yml",
+      "term": "Update Homey App Version"
+    }
+  ]
+}

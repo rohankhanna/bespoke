@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2622,6 +2622,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-buildx-dev.yml",
       "source_repo": "Luligu/matterbridge"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "t0bst4r/home-assistant-matter-hub"
     }
   ]
 }

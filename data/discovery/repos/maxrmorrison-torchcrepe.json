@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-librosa-versions.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-librosa-versions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "maxrmorrison/torchcrepe",
+      "target": "marl/crepe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-librosa-versions.yml",
+      "source_repo": "maxrmorrison/torchcrepe",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-librosa-versions.yml",
+      "source_repo": "maxrmorrison/torchcrepe",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-librosa-versions.yml",
+      "source_repo": "maxrmorrison/torchcrepe",
+      "target": "run tests on librosa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maxrmorrison/torchcrepe",
+      "target": "crepe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maxrmorrison/torchcrepe",
+      "target": "pitch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maxrmorrison/torchcrepe",
+      "target": "pitch-tracker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maxrmorrison/torchcrepe",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-14T22:17:24.779834+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7487
+    },
+    {
+      "path": ".github/workflows/test-librosa-versions.yml",
+      "size": 889
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pytorch implementation of the CREPE pitch tracker",
+    "fork": false,
+    "full_name": "maxrmorrison/torchcrepe",
+    "html_url": "https://github.com/maxrmorrison/torchcrepe",
+    "language": "Python",
+    "pushed_at": "2025-05-16T18:24:44Z",
+    "stargazers_count": 514,
+    "topics": [
+      "crepe",
+      "pitch",
+      "pitch-tracker",
+      "pytorch"
+    ],
+    "updated_at": "2026-05-13T20:13:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marl/crepe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "run tests on librosa",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-librosa-versions.yml",
+      "term": "run tests on librosa"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">torchcrepe</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crepe"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">torchcrepe</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pitch"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">torchcrepe</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pitch-tracker"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">torchcrepe</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

@@ -859,6 +859,18 @@
       "source_repo": "paradigmxyz/solar",
       "status": "candidate-context",
       "text": "[![Crates.io](https://img.shields.io/crates/v/solar-compiler.svg)](https://crates.io/crates/solar-compiler)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TypeScriptToLua/TypeScriptToLua",
+      "status": "candidate-context",
+      "text": "Typescript to lua transpiler. https://typescripttolua.github.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TypeScriptToLua/TypeScriptToLua",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1287,6 +1299,12 @@
       "source_repo": "paradigmxyz/solar",
       "status": "candidate",
       "text": "[![Crates.io](https://img.shields.io/crates/v/solar-compiler.svg)](https://crates.io/crates/solar-compiler)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TypeScriptToLua/TypeScriptToLua",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2269,11 +2287,29 @@
       "observed_at": "2026-05-14T12:51:33.279454+00:00",
       "source_file": null,
       "source_repo": "AdaptiveCpp/AdaptiveCpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "TypeScriptToLua/TypeScriptToLua"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T12:51:33.279454+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "lexical_providers": [
     "datamuse"
   ],

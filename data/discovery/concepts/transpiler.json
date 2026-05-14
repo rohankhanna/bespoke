@@ -79,6 +79,18 @@
       "source_repo": "oxc-project/oxc",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TypeScriptToLua/TypeScriptToLua",
+      "status": "candidate-context",
+      "text": "Typescript to lua transpiler. https://typescripttolua.github.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TypeScriptToLua/TypeScriptToLua",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "oxc-project/oxc",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TypeScriptToLua/TypeScriptToLua",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -478,11 +496,23 @@
       "observed_at": "2026-05-14T07:10:22.636771+00:00",
       "source_file": null,
       "source_repo": "abaplint/transpiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "abaplint/transpiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-14T18:43:37.154551+00:00",
+      "source_file": null,
+      "source_repo": "TypeScriptToLua/TypeScriptToLua"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T07:10:22.636771+00:00",
+  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "lexical_providers": [
     "datamuse"
   ],

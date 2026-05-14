@@ -323,46 +323,6 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker.yml"
-    },
-    {
-      "component": "docker/setup-qemu-action@v3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker.yml"
-    },
-    {
-      "component": "docker/setup-buildx-action@v3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker.yml"
-    },
-    {
-      "component": "docker/login-action@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker.yml"
-    },
-    {
-      "component": "ggml-org/free-disk-space@v1.3.1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker.yml"
-    },
-    {
-      "component": "docker/build-push-action@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker.yml"
-    },
-    {
-      "component": "docker/build-push-action@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker.yml"
-    },
-    {
-      "component": "docker/build-push-action@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/editorconfig.yml"
     },
     {
@@ -528,55 +488,6 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker.yml",
-      "source_repo": "jeffzhou2000/ggml-hexagon",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker.yml",
-      "source_repo": "jeffzhou2000/ggml-hexagon",
-      "target": "docker/setup-qemu-action@v3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker.yml",
-      "source_repo": "jeffzhou2000/ggml-hexagon",
-      "target": "docker/setup-buildx-action@v3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker.yml",
-      "source_repo": "jeffzhou2000/ggml-hexagon",
-      "target": "docker/login-action@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker.yml",
-      "source_repo": "jeffzhou2000/ggml-hexagon",
-      "target": "ggml-org/free-disk-space@v1.3.1",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker.yml",
-      "source_repo": "jeffzhou2000/ggml-hexagon",
-      "target": "docker/build-push-action@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/docker.yml",
-      "source_repo": "jeffzhou2000/ggml-hexagon",
-      "target": "Publish Docker image",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/editorconfig.yml",
       "source_repo": "jeffzhou2000/ggml-hexagon",
       "target": "actions/checkout@v4",
@@ -604,7 +515,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T05:18:40.344671+00:00",
+  "fetched_at": "2026-05-14T22:47:58.560276+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -637,10 +548,6 @@
     {
       "path": ".github/workflows/close-issue.yml",
       "size": 938
-    },
-    {
-      "path": ".github/workflows/docker.yml",
-      "size": 8142
     },
     {
       "path": ".github/workflows/editorconfig.yml",
@@ -709,12 +616,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/close-issue.yml",
       "term": "Close inactive issues"
-    },
-    {
-      "context_snippet": "Publish Docker image",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/docker.yml",
-      "term": "Publish Docker image"
     },
     {
       "context_snippet": "EditorConfig Checker",

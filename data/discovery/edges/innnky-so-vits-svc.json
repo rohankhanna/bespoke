@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "innnky/so-vits-svc",
+      "target": "svc-develop-team/so-vits-svc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "innnky/so-vits-svc",
+      "target": "prophesier/diff-svc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "innnky/so-vits-svc",
+      "target": "openvpi/diffsinger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "innnky/so-vits-svc",
+      "target": "narusemioshirakana/moess",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-14T18:43:37.154551+00:00",
+  "source_repo": "innnky/so-vits-svc"
+}
