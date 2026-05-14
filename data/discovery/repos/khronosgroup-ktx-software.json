@@ -443,7 +443,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T04:03:36.412200+00:00",
+  "fetched_at": "2026-05-14T07:37:44.352768+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -495,7 +495,7 @@
     "full_name": "KhronosGroup/KTX-Software",
     "html_url": "https://github.com/KhronosGroup/KTX-Software",
     "language": "C++",
-    "pushed_at": "2026-05-14T02:24:16Z",
+    "pushed_at": "2026-05-14T06:35:00Z",
     "stargazers_count": 1248,
     "topics": [
       "ktx",

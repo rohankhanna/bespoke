@@ -1,7 +1,7 @@
 {
   "component": "@ruvector/rabitq-wasm",
   "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
-  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "last_seen_at": "2026-05-14T07:10:22.636771+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

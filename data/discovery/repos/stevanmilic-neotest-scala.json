@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stevanmilic/neotest-scala",
+      "target": "rcarriga/neotest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stevanmilic/neotest-scala",
+      "target": "com-lihaoyi/utest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stevanmilic/neotest-scala",
+      "target": "rcarriga/nvim-dap",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-14T08:42:49.534104+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2117
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "stevanmilic/neotest-scala",
+    "html_url": "https://github.com/stevanmilic/neotest-scala",
+    "language": "Lua",
+    "pushed_at": "2024-06-08T17:09:33Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2026-02-27T19:10:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "com-lihaoyi/utest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rcarriga/neotest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rcarriga/nvim-dap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

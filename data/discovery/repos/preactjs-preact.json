@@ -827,7 +827,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T04:08:20.197670+00:00",
+  "fetched_at": "2026-05-14T08:16:01.400693+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -879,7 +879,7 @@
     "full_name": "preactjs/preact",
     "html_url": "https://github.com/preactjs/preact",
     "language": "JavaScript",
-    "pushed_at": "2026-05-12T17:40:00Z",
+    "pushed_at": "2026-05-14T07:15:03Z",
     "stargazers_count": 38614,
     "topics": [
       "components",

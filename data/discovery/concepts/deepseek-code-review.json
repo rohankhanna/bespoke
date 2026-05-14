@@ -106,11 +106,17 @@
       "observed_at": "2026-05-14T00:43:26.166349+00:00",
       "source_file": ".github/workflows/deepseek_review.yml",
       "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-14T07:10:22.636771+00:00",
+      "source_file": ".github/workflows/deepseek_review.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
     }
   ],
   "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "last_seen_at": "2026-05-14T07:10:22.636771+00:00",
   "lexical_providers": [
     "datamuse"
   ],

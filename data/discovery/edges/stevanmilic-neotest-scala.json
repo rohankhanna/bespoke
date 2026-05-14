@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stevanmilic/neotest-scala",
+      "target": "rcarriga/neotest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stevanmilic/neotest-scala",
+      "target": "com-lihaoyi/utest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stevanmilic/neotest-scala",
+      "target": "rcarriga/nvim-dap",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-14T07:10:22.636771+00:00",
+  "source_repo": "stevanmilic/neotest-scala"
+}

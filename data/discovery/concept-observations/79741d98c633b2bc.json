@@ -84,7 +84,7 @@
   "normalized_form": "checkpoints",
   "observation_id": "79741d98c633b2bc",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-14T00:43:26.166349+00:00",
+  "observed_at": "2026-05-14T07:10:22.636771+00:00",
   "observed_text": "checkpoints",
   "source_context_snippet": "checkpoints",
   "source_file": ".github/workflows/checkpoints.yml",
