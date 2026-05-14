@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 88,
-    "observations": 89,
-    "repos": 21,
-    "terms": 90
+    "components": 90,
+    "concepts": 94,
+    "observations": 95,
+    "repos": 24,
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
+    "actions/upload-pages-artifact",
     "aslafy-z/helm-git",
     "astro-han/claude-pace",
     "aws/aws-app-mesh-examples",
@@ -29,11 +30,13 @@
     "mklement0/n-install",
     "mosaicml/examples",
     "nginx-le/nginx-le",
+    "numpy/numpy.org",
     "reviewdog/action-misspell",
     "SamNet-dev/paqctl",
     "SWE-bench/experiments",
     "TexasInstruments/edgeai",
     "trailofbits/claude-code-devcontainer",
+    "undeadlist/claude-code-agents",
     "xbdcc/CCommand"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 122,
-    "concepts": 118,
-    "observations": 119,
-    "repos": 17,
-    "terms": 118
+    "components": 183,
+    "concepts": 81,
+    "observations": 81,
+    "repos": 15,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,21 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "Cle2ment/CherryStudio_themes",
     "dwyl/mvp",
-    "Elyahu41/KosherSwift",
     "geocompx/docker",
-    "HDFGroup/hdf5_plugins",
     "jelly-beam/rebar3_ex_doc",
     "karafka/example-apps",
-    "ludwig-ai/ludwig-docs",
-    "mrcjkb/neotest-haskell",
+    "nvim-mini/mini.deps",
     "ocaml-tracing/ocaml-opentelemetry",
     "ocaml-tracing/ocaml-trace",
+    "processing/processing-website",
     "rcasia/neotest-java",
-    "ros2/example_interfaces",
     "siketyan/intellij-rustowl",
+    "TEN-framework/portal",
     "tinted-theming/tinted-xresources",
     "UnknownPlatypus/djangofmt"
   ]

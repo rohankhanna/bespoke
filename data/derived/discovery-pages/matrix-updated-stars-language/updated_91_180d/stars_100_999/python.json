@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 331,
-    "concepts": 700,
-    "observations": 700,
-    "repos": 195,
-    "terms": 694
+    "components": 347,
+    "concepts": 712,
+    "observations": 712,
+    "repos": 196,
+    "terms": 706
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "0k/shyaml",
     "23andMe/Yamale",
@@ -68,6 +68,7 @@
     "CodeClash-ai/CodeClash",
     "corydolphin/flask-cors",
     "CSfufu/Revisual-R1",
+    "dbeley/awesome-lemmy",
     "DengPingFan/PraNet",
     "dualverse-ai/station",
     "enjoy-digital/litesata",
@@ -77,7 +78,6 @@
     "fabio-sim/LightGlue-ONNX",
     "feifeibear/long-context-attention",
     "FlagOpen/RoboOS",
-    "FoundationVision/UniTok",
     "fudan-zvg/PVG",
     "gafniguy/4D-Facial-Avatars",
     "GewelsJI/VPS",
@@ -129,6 +129,7 @@
     "microsoft/langchain-for-beginners",
     "microsoft/Samba",
     "MMMU-Benchmark/MMMU",
+    "ModelTC/GenRL",
     "MontaEllis/Pytorch-Medical-Segmentation",
     "Mountchicken/Resophy",
     "multi-swe-bench/multi-swe-bench",
@@ -152,7 +153,6 @@
     "Parallel-Reasoning/APR",
     "PDillis/stylegan3-fun",
     "perrygeo/python-rasterstats",
-    "Phhofm/models",
     "pinokiofactory/cogstudio",
     "PramaLLC/BEN2",
     "PrithivirajDamodaran/FlashRank",
@@ -184,6 +184,7 @@
     "theupdateframework/specification",
     "thorstenMueller/Thorsten-Voice",
     "tpoisonooo/ROGRAG",
+    "TRI-ML/dgp",
     "triton-inference-server/model_navigator",
     "Tsinghua-MARS-Lab/CVT-Occ",
     "TsinghuaDatabaseGroup/DB-GPT",

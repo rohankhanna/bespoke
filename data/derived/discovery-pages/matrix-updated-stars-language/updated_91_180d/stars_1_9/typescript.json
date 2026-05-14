@@ -3,7 +3,7 @@
     "components": 144,
     "concepts": 29,
     "observations": 29,
-    "repos": 14,
+    "repos": 13,
     "terms": 29
   },
   "facet_version": 1,
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "aleclarson/vite-postgres",
     "danielrosehill/MCP-Network-CUPS",
     "gajus/eslint-plugin-slonik",
     "KSXGitHub/cargo-scripts-builder",
     "lxsmnsyc/sponsors",
-    "mxcl/mash",
     "offline-ai/ai-shell",
     "retracedhq/retraced-js",
     "robbiespeed/metron",

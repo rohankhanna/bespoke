@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 334,
-    "concepts": 373,
-    "observations": 373,
-    "repos": 47,
-    "terms": 371
+    "components": 380,
+    "concepts": 419,
+    "observations": 419,
+    "repos": 53,
+    "terms": 417
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -20,9 +20,11 @@
     "apache/datasketches-java",
     "apache/ignite-3",
     "apache/rocketmq-clients",
+    "apache/spark-kubernetes-operator",
+    "aws-powertools/powertools-lambda-java",
     "beehive-lab/GPULlama3.java",
     "bndtools/bnd",
-    "carrot2/carrot2",
+    "confluentinc/kafka-streams-examples",
     "connectbot/sshlib",
     "Cosium/git-code-format-maven-plugin",
     "devoxx/DevoxxGenieIDEAPlugin",
@@ -36,6 +38,7 @@
     "googleapis/google-api-java-client-services",
     "googleapis/google-auth-library-java",
     "googleapis/google-oauth-java-client",
+    "googleapis/java-bigtable-hbase",
     "graalvm/graal-languages-demos",
     "graalvm/graalvm-demos",
     "graalvm/native-build-tools",
@@ -49,7 +52,9 @@
     "microsoft/semantic-kernel-java",
     "microsoft/vscode-java-test",
     "milvus-io/milvus-sdk-java",
+    "operator-framework/java-operator-sdk",
     "quarkiverse/quarkus-langchain4j",
+    "quarkiverse/quarkus-operator-sdk",
     "reactor/reactor-addons",
     "revelc/formatter-maven-plugin",
     "saalfeldlab/n5",
@@ -60,6 +65,7 @@
     "ThreeTen/threetenbp",
     "Waffle/waffle",
     "wildfly/quickstart",
+    "Xilinx/RapidWright",
     "zilliztech/vts"
   ]
 }

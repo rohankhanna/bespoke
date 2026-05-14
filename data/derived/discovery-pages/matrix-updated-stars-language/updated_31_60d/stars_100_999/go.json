@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 342,
-    "concepts": 260,
-    "observations": 260,
-    "repos": 50,
-    "terms": 258
+    "components": 378,
+    "concepts": 289,
+    "observations": 289,
+    "repos": 54,
+    "terms": 287
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "adrg/xdg",
+    "andybalholm/brotli",
     "aws/aws-app-mesh-controller-for-k8s",
     "aws/aws-xray-daemon",
     "aws/credentials-fetcher",
@@ -27,6 +28,7 @@
     "ChristopherHX/github-act-runner",
     "chromedp/chromedp-proxy",
     "cloudwego/kitex-examples",
+    "coder/code-marketplace",
     "connectrpc/validate-go",
     "cosmos/iavl",
     "docker-library/bashbrew",
@@ -42,10 +44,12 @@
     "hashicorp/errwrap",
     "hashicorp/go-discover",
     "hashicorp/hello-vault-go",
+    "hazelcast/hazelcast-go-client",
     "imjasonh/kontain.me",
     "ipfs/go-cid",
     "ipfs/ipfs-docs",
     "JupiterRider/purego-sdl3",
+    "kubeflow/mpi-operator",
     "kubernetes-sigs/cluster-proportional-autoscaler",
     "kubernetes-sigs/hydrophone",
     "kubernetes-sigs/kubetest2",

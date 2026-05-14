@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 714,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 32,
-    "terms": 91
+    "components": 749,
+    "concepts": 92,
+    "observations": 92,
+    "repos": 33,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "adevinta/actions-lighthouseci-compare",
     "aigc3d/LAM_WebRender",
@@ -24,10 +24,10 @@
     "connectrpc/connect-playwright-es",
     "CyanSalt/commas",
     "dao-xyz/borsh-ts",
-    "dylibso/xtp-bindgen",
     "getyourguide/vue-class-migrator",
     "googleapis/nodejs-logging-bunyan",
     "holochain/launcher",
+    "hsimpson/vscode-glsllint",
     "iccicci/next-json",
     "instana/opentelemetry-demo",
     "ipfs/helia-http-gateway",
@@ -45,6 +45,7 @@
     "remotion-dev/brand",
     "sculptdotfun/viberank",
     "signalfx/opentelemetry-demo",
-    "tracked-tools/ember-async-data"
+    "tracked-tools/ember-async-data",
+    "windsonR/vite-plugin-virtual-html"
   ]
 }

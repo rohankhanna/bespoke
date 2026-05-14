@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2629,
-    "concepts": 442,
-    "observations": 442,
-    "repos": 91,
-    "terms": 446
+    "components": 2667,
+    "concepts": 452,
+    "observations": 452,
+    "repos": 93,
+    "terms": 456
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "101arrowz/fflate",
@@ -36,6 +36,7 @@
     "clauderic/react-tiny-virtual-list",
     "cloudflare/miniflare",
     "ConsenSys-archive/ganache",
+    "daybrush/selecto",
     "dethcrypto/TypeChain",
     "dilanx/craco",
     "domeccleston/sharegpt",
@@ -77,6 +78,7 @@
     "nsfw-filter/nsfw-filter",
     "nuxt/vite",
     "opendatalab/LabelLLM",
+    "pieroxy/lz-string",
     "piotrostr/listen",
     "plantain-00/type-coverage",
     "redis/redis-om-node",

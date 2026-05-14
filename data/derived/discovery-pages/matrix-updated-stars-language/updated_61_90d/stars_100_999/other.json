@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 500,
-    "concepts": 386,
-    "observations": 388,
-    "repos": 99,
-    "terms": 386
+    "components": 485,
+    "concepts": 377,
+    "observations": 379,
+    "repos": 97,
+    "terms": 377
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "4d49/scene-library",
@@ -21,7 +21,6 @@
     "ajevans99/swift-json-schema",
     "akabe/ocaml-jupyter",
     "AndrewRadev/switch.vim",
-    "appwrite/playground-for-web",
     "arnetheduck/nph",
     "aserafin/grape_logging",
     "astral-sh/uv-docker-example",
@@ -102,7 +101,6 @@
     "sol/hpack",
     "stefan-hoeck/idris2-pack",
     "swansonk14/admet_ai",
-    "tc39/proposal-decimal",
     "tensorflow/mlir-hlo",
     "thinca/vim-themis",
     "thu-ml/SpargeAttn",

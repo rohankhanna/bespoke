@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 138,
-    "concepts": 125,
-    "observations": 126,
-    "repos": 40,
-    "terms": 124
+    "components": 140,
+    "concepts": 108,
+    "observations": 109,
+    "repos": 37,
+    "terms": 107
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "alphagov/govuk-rfcs",
     "BioContainers/multi-package-containers",
     "canonical/ubuntu-security-notices",
-    "cdxeve/awesome-computer-use-agents",
     "charmbracelet/scoop-bucket",
     "containerd/project",
     "crewAIInc/skills",
     "Dexters-Hub/Dexters-Hub",
     "docker/github-builder",
-    "eigenfoundation/elips",
     "elastic/logstash-docs",
     "flinedev/plankit",
     "ganelson/inform-evolution",
@@ -31,8 +29,6 @@
     "goharbor/community",
     "google/oss-policies-info",
     "Homebrew/.github",
-    "jakoch/rasterizers",
-    "jakoch/vulkan-sdk-arm",
     "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
     "jupyterlab/frontends-team-compass",
     "kubernetes/steering",
@@ -47,6 +43,7 @@
     "sigstore/community",
     "sigstore/root-signing-staging",
     "simonw/simonwillisonblog-backup",
+    "spiffe/spire-examples",
     "spring-projects/spring-ai-integration-tests",
     "Stardust-SJF/cuvs_rabitq",
     "supabase/scoop-bucket",

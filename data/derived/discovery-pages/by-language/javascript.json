@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 39137,
-    "concepts": 8718,
-    "observations": 8744,
-    "repos": 2069,
-    "terms": 8711
+    "components": 39282,
+    "concepts": 8763,
+    "observations": 8790,
+    "repos": 2075,
+    "terms": 8754
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "0x1abin/matter-controller-mcp",
     "0x4139/cosmos-discord-faucet",
@@ -769,6 +769,8 @@
     "fnproject/flowui",
     "fnproject/ui",
     "foliojs/brotli.js",
+    "foliojs/fontkit",
+    "foliojs/pdfkit",
     "fontello/cubic2quad",
     "fontello/svg2ttf",
     "fontsource/download-stat-aggregator",
@@ -821,6 +823,7 @@
     "giuseppeg/styled-jsx-plugin-postcss",
     "gja/cloudflare-worker-local",
     "gja/create-cloudflare-worker",
+    "GladysAssistant/Gladys",
     "glslify/glslify",
     "go-spatial/fresco",
     "goldfire/howler.js",
@@ -1001,6 +1004,7 @@
     "Intellicode/eslint-plugin-react-native",
     "investtools/extensible-duck",
     "inxilpro/node-app-root-path",
+    "ioBroker/plugin-sentry",
     "iodide-project/iodide",
     "iodide-project/iodide-transpiler",
     "ionide/tree-sitter-fsharp",
@@ -1266,6 +1270,7 @@
     "lukeed/clsx",
     "lukeed/sirv",
     "lukeed/uvu",
+    "Luligu/matterbridge-somfy-tahoma",
     "lutzroeder/netron",
     "luzlab/ajv-formats-draft2019",
     "lydell/next-minimal-routes",
@@ -1633,6 +1638,7 @@
     "Raynos/http-framework",
     "raywo/MMM-NowPlayingOnSpotify",
     "react-native-community/releases",
+    "react/create-react-app",
     "React9k/react-timeline-9000",
     "reactjs/react-a11y",
     "reactjs/react.dev",

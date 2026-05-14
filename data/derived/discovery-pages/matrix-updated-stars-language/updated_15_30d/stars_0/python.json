@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 21,
-    "terms": 40
+    "components": 38,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 22,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "bunburysniper/bleunova-ai-agent",
     "conda-forge/conda-forge-feedstock-ops",
@@ -21,14 +21,15 @@
     "danielrosehill/Hypothesis-Council",
     "danielrosehill/LLM-Council-Decide",
     "danielrosehill/LLM-Council-Grounded",
+    "danielrosehill/LLM-Council-Homehunter",
     "danielrosehill/Repo-Starters-And-Templates-Index",
     "FEniCS/spack-fenics",
+    "flagos-ai/verl-FL",
     "florisheedless915/grok-register",
     "hauntsaninja/mypy",
     "hmellor/vllm",
     "kidshadow79/ogma",
     "l12203685/digital-immortality",
-    "mitchuski/agentprivacy-skills",
     "mohfer/nous-proxy",
     "NightWatcher314/dockgecli",
     "NightWatcher314/npmctl",

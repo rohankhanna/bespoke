@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 243,
-    "concepts": 81,
-    "observations": 81,
-    "repos": 11,
-    "terms": 81
+    "components": 184,
+    "concepts": 64,
+    "observations": 64,
+    "repos": 7,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "anolilab/unplugin-favicons",
     "csm-actions/update-branch-action",
-    "dreamscached/i18next-cli-plugin-svelte",
     "dydxprotocol/v4-localization",
-    "ecyrbe/zodios-plugins",
     "fluent-vue/unplugin-fluent-vue",
     "oclif/plugin-version",
-    "octokit/auth-callback.js",
-    "redhat-developer/app-services-api-guidelines",
     "suzuki-shunsuke/release-js-action"
   ]
 }

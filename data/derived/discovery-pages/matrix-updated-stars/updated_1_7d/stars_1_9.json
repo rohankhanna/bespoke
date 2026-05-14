@@ -1,29 +1,26 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 12,
-    "terms": 29
+    "components": 82,
+    "concepts": 48,
+    "observations": 49,
+    "repos": 9,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
-    "ADNTIO/crispy-bootloader-rp2040-rs",
-    "aidenlab/juicebox-web",
+    "Aayushm24/presidential-briefing",
     "cloudfoundry/credhub-acceptance-tests",
-    "danielrosehill/Voxtype",
-    "edward3h/docker-bds-integration-test",
     "energye/designer",
     "energye/examples",
-    "gookit/cliui",
-    "influxdata/arrow-datafusion",
+    "ioBroker/plugin-sentry",
     "leleliu008/ppkg-formula-repository-official-core",
-    "lxgw/B5XiZhi",
-    "nafg/jewish-date"
+    "Luligu/matterbridge-somfy-tahoma",
+    "nafg/jewish-date",
+    "oscard0m/ts-transformer-remove-named-export"
   ]
 }

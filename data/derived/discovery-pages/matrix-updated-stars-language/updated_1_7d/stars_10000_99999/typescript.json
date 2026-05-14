@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 253,
-    "concepts": 48,
-    "observations": 48,
-    "repos": 6,
-    "terms": 48
+    "components": 560,
+    "concepts": 125,
+    "observations": 125,
+    "repos": 13,
+    "terms": 122
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,19 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "ajv-validator/ajv",
+    "clauderic/dnd-kit",
     "fastapi/full-stack-fastapi-template",
     "googleapis/google-api-nodejs-client",
-    "mobxjs/mobx",
+    "jestjs/jest",
+    "Kilo-Org/kilocode",
+    "langchain-ai/langchainjs",
+    "modelcontextprotocol/typescript-sdk",
+    "realworld-apps/realworld",
+    "Redocly/redoc",
+    "RooCodeInc/Roo-Code",
     "unocss/unocss",
     "vercel-labs/skills"
   ]

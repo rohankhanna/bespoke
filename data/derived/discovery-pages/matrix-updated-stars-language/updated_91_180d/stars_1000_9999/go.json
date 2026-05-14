@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 179,
-    "concepts": 188,
-    "observations": 188,
-    "repos": 34,
-    "terms": 188
+    "components": 182,
+    "concepts": 193,
+    "observations": 193,
+    "repos": 35,
+    "terms": 193
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "aarondl/authboss",
@@ -31,6 +31,7 @@
     "evmos/evmos",
     "gin-gonic/contrib",
     "github/git-sizer",
+    "gobwas/ws",
     "instrumenta/kubeval",
     "jhump/protoreflect",
     "jpillora/cloud-torrent",

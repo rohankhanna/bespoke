@@ -3,7 +3,7 @@
     "components": 1177,
     "concepts": 502,
     "observations": 504,
-    "repos": 415,
+    "repos": 416,
     "terms": 502
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -26,6 +26,7 @@
     "5scontrol/machine-control-js",
     "5sControl/operation-control-js",
     "a-liashenko/egui",
+    "a-slice-of-py/nu-aws-service-reference",
     "A-suozhang/MyPicBed",
     "aadil-runpod/rp-logo",
     "abap2ui5/abap2ui5-build",

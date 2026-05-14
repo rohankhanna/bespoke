@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 96,
-    "concepts": 64,
-    "observations": 64,
-    "repos": 28,
-    "terms": 61
+    "components": 120,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 33,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "42-evey/evey-bridge-plugin",
     "agenmod/okr-skill",
+    "AgnostiqHQ/covalent-executor-template",
+    "aiidateam/plumpy",
+    "alterego-987/council-mcp",
     "ashvardanian/ashvardanian",
     "astroyat/lerobot",
     "axolotl-ai-cloud/ml-cross-entropy",
@@ -30,14 +33,16 @@
     "danielrosehill/donetick-mcp",
     "danielrosehill/Geopol-Forecaster",
     "fixie-ai/evals",
+    "jupyter-xeus/xeus-python-shell",
+    "justinchuby/lintrunner-adapters",
     "KabakaWilliam/trajectorykit",
+    "lace/proximity",
     "ldayton/parable",
     "ldayton/Tongues",
     "lxgw/LxgwWenKai-shared",
     "Mbed-TLS/mbedtls-framework",
     "Mercury13/unicodia-sesh",
     "openelections/openelections-data-sd",
-    "radian-software/gnu-elpa-mirror",
     "ROCm/rbuild",
     "runtimeverification/kup",
     "shadmau/autocouncil",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 90,
-    "concepts": 104,
-    "observations": 104,
-    "repos": 13,
-    "terms": 103
+    "components": 44,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 6,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "archlinuxcn/repo",
     "bitnami/containers",
-    "Botspot/pi-apps",
-    "GrapheneOS/Vanadium",
     "heroku/heroku-buildpack-nodejs",
     "holman/dotfiles",
-    "home-assistant/addons",
     "itzg/docker-minecraft-bedrock-server",
-    "jkroepke/helm-secrets",
-    "mlocati/docker-php-extension-installer",
-    "msys2/MINGW-packages",
-    "rbenv/ruby-build",
-    "YosysHQ/oss-cad-suite-build"
+    "jkroepke/helm-secrets"
   ]
 }

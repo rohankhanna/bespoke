@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 1,
-    "terms": 6
+    "components": 50,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 2,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
-    "facebook/create-react-app"
+    "facebook/create-react-app",
+    "react/create-react-app"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 679,
-    "concepts": 1421,
-    "observations": 1423,
-    "repos": 819,
-    "terms": 1402
+    "concepts": 1423,
+    "observations": 1425,
+    "repos": 821,
+    "terms": 1404
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -420,6 +420,7 @@
     "HazyResearch/prefix-linear-attention",
     "hbai98/SCM",
     "hcy71o/SC-VITS",
+    "hcy71o/SNAC",
     "HDETR/H-Deformable-DETR-mmdet",
     "HDETR/H-PETR-3D",
     "HDETR/H-PETR-Pose",
@@ -642,7 +643,6 @@
     "oxpig/calm",
     "PacificBiosciences/PacBioFileFormats",
     "PaddlePaddle/PaddleHub",
-    "paradoxxxzero/pyls-isort",
     "Parveshiiii/Deepresearch-Agent",
     "patil-suraj/vqgan-jax",
     "pblatter/ettrack",
@@ -759,6 +759,7 @@
     "thudm/multilingual-glm",
     "THUDM/NaturalCodeBench",
     "THUDM/TreeRL",
+    "thuhcsi/DiffVar",
     "tile-ai/tilelang-benchmark",
     "timothybrooks/hallucinating-scenes",
     "tinkoff-ai/katakomba",
@@ -768,6 +769,7 @@
     "tmbdev-archive/webdataset-lightning",
     "tomaarsen/TTSTextNormalization",
     "tongyx361/symeval",
+    "tonnetonne814/SiFi-VITS2-44100-Ja",
     "TonyCrane/manim_projects",
     "TREMA-UNH/trec-car-tools",
     "tsattler/visloc_pseudo_gt_limitations",

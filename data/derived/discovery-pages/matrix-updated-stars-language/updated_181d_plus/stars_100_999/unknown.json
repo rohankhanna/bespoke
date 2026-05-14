@@ -3,7 +3,7 @@
     "components": 122,
     "concepts": 407,
     "observations": 408,
-    "repos": 237,
+    "repos": 238,
     "terms": 407
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -148,6 +148,7 @@
     "klaus2m5/6502_65c02_functional_tests",
     "kwea123/OpenVTuberProject",
     "l4rz/practical-aspects-of-stylegan2-training",
+    "langchain4j/awesome-langchain4j",
     "layumi/Vehicle_reID-Collection",
     "litter-coder/midjourney-proxy-plus",
     "logux/logux",

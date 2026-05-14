@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 758,
-    "concepts": 123,
-    "observations": 123,
-    "repos": 21,
-    "terms": 129
+    "components": 888,
+    "concepts": 141,
+    "observations": 141,
+    "repos": 26,
+    "terms": 147
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "anuraghazra/github-readme-stats",
     "auth0/node-jsonwebtoken",
+    "Automattic/node-canvas",
     "avwo/whistle",
     "be5invis/Sarasa-Gothic",
     "ConardLi/easy-dataset",
@@ -23,17 +24,21 @@
     "eyaltoledano/claude-task-master",
     "hapijs/hapi",
     "hapijs/joi",
+    "immerjs/immer",
     "infernojs/inferno",
     "jquery/jquery-ui",
     "less/less.js",
     "markdown-it/markdown-it",
     "parcel-bundler/parcel",
+    "postcss/autoprefixer",
     "pot-app/pot-desktop",
     "reactjs/react.dev",
     "testing-library/react-testing-library",
     "thomaspark/bootswatch",
+    "tj/commander.js",
     "typicode/husky",
     "typicode/json-server",
+    "vuejs/vue-router",
     "websockets/ws"
   ]
 }

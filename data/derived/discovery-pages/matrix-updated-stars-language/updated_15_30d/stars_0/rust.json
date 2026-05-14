@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 110,
+    "components": 104,
     "concepts": 31,
     "observations": 31,
-    "repos": 17,
+    "repos": 14,
     "terms": 39
   },
   "facet_version": 1,
@@ -12,14 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "aipurposes1587-max/weixin-agent-rs",
     "arckoor/jsonwebtoken",
-    "arckoor/jsonwebtoken-botan",
     "databendlabs/databend-base",
     "datafuse-extras/orc-rust",
-    "fulmicoton-dd/datasketches-rust",
     "guoqingbao/candle",
     "hyper-mcp-rs/arxiv-plugin",
     "hyper-mcp-rs/context7-plugin",
@@ -27,7 +25,6 @@
     "hyper-mcp-rs/defuddle-plugin",
     "jsleekr/skilldigest",
     "mupozg823/codelens-mcp-plugin",
-    "netdur/llama_cpp_rust",
     "PrimeIntellect-ai/router",
     "squidowl/iced",
     "ueno/podman-sequoia"

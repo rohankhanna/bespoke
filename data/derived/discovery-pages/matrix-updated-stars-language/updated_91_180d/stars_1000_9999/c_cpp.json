@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 231,
-    "concepts": 304,
-    "observations": 304,
-    "repos": 53,
-    "terms": 300
+    "components": 233,
+    "concepts": 320,
+    "observations": 320,
+    "repos": 55,
+    "terms": 316
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "adafruit/Adafruit_NeoPixel",
     "AdAway/AdAway",
@@ -31,6 +31,7 @@
     "EKA2L1/EKA2L1",
     "emersion/slurp",
     "espressif/ESP8266_RTOS_SDK",
+    "flashlight/wav2letter",
     "gflags/gflags",
     "github/cmark-gfm",
     "golang-ui/nuklear",
@@ -63,6 +64,7 @@
     "rurban/smhasher",
     "sammycage/lunasvg",
     "sysstat/sysstat",
+    "TEN-framework/ten-vad",
     "thestk/rtmidi",
     "tpoechtrager/osxcross",
     "ulfjack/ryu",

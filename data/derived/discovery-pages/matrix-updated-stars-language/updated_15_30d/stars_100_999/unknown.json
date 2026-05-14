@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 79,
-    "concepts": 196,
-    "observations": 197,
-    "repos": 53,
-    "terms": 196
+    "components": 100,
+    "concepts": 206,
+    "observations": 207,
+    "repos": 55,
+    "terms": 206
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "actions/partner-runner-images",
@@ -34,13 +34,16 @@
     "eryajf/awesome-stars-eryajf",
     "eslint/rfcs",
     "eudk/awesome-ai-tools",
+    "fluxcd/flux2-multi-tenancy",
+    "forcedotcom/cli",
     "gautamkrishnar/gautamkrishnar",
     "ghimiresunil/Top-AI-Tools",
     "github/codeql-cli-binaries",
+    "github/copilot-language-server-release",
     "google/agents-cli",
     "googlefonts/RobotoMono",
+    "graalvm/graalvm-ce-dev-builds",
     "ietf-tools/.github",
-    "integrations/microsoft-teams",
     "ipfs-examples/helia-examples",
     "kitknox/rootshell",
     "kubernetes-sigs/krew-index",
@@ -59,7 +62,6 @@
     "ranpox/awesome-computer-use",
     "rstackjs/awesome-rstack",
     "SamurAIGPT/awesome-openclaw",
-    "sedyh/awesome-ebitengine",
     "servo/project",
     "smithy-lang/awesome-smithy",
     "stripe/openapi",

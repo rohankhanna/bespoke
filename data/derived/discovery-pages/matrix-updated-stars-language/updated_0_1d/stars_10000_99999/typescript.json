@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 733,
-    "concepts": 156,
-    "observations": 158,
-    "repos": 10,
-    "terms": 165
+    "components": 494,
+    "concepts": 119,
+    "observations": 121,
+    "repos": 6,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
+    "fuma-nama/fumadocs",
     "HumanSignal/label-studio",
-    "jestjs/jest",
-    "Kilo-Org/kilocode",
-    "langchain-ai/langchainjs",
     "lobehub/lobehub",
-    "realworld-apps/realworld",
-    "Redocly/redoc",
-    "RooCodeInc/Roo-Code",
+    "lucide-icons/lucide",
     "ruvnet/ruflo",
     "storybookjs/storybook"
   ]

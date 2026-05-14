@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 354,
-    "concepts": 223,
-    "observations": 223,
+    "components": 356,
+    "concepts": 235,
+    "observations": 236,
     "repos": 77,
-    "terms": 220
+    "terms": 232
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
+    "219-design/qt-qml-project-template-with-ci",
     "2KAbhishek/exercism.nvim",
     "ably-labs/realtime-quiz-framework",
     "AceCHQ/TransMatting",
@@ -36,7 +37,6 @@
     "clojure/tools.deps",
     "co-IT/CSharpFunctionalExtensions.HttpResults",
     "codymikol/neotest-kotlin",
-    "DavidKinder/Windows-Glulxe",
     "dbuenzli/logs",
     "devise-i18n/devise-i18n",
     "dominique-unruh/scala-isabelle",

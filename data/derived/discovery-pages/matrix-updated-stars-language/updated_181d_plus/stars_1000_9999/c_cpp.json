@@ -3,7 +3,7 @@
     "components": 338,
     "concepts": 731,
     "observations": 731,
-    "repos": 202,
+    "repos": 203,
     "terms": 722
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "aantron/better-enums",
     "aappleby/smhasher",
@@ -214,6 +214,7 @@
     "vit-vit/CTPL",
     "weiliu89/caffe",
     "xinntao/Real-ESRGAN-ncnn-vulkan",
+    "xiph/LPCNet",
     "zaphoyd/websocketpp",
     "ZipArchive/ZipArchive"
   ]

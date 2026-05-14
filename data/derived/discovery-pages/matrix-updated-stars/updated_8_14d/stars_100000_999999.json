@@ -1,20 +1,19 @@
 {
   "counts": {
-    "components": 164,
-    "concepts": 115,
-    "observations": 116,
-    "repos": 9,
-    "terms": 115
+    "components": 137,
+    "concepts": 107,
+    "observations": 108,
+    "repos": 8,
+    "terms": 107
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "2dust/v2rayN",
-    "anomalyco/opencode",
     "axios/axios",
     "excalidraw/excalidraw",
     "Genymobile/scrcpy",

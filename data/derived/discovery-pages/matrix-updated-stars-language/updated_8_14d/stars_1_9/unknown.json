@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 19,
-    "terms": 23
+    "components": 28,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 18,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "angular/angular-devkit-build-webpack-builds",
     "Cebeerre/dnsblocklists",
@@ -23,14 +23,13 @@
     "danielrosehill/Claude-Image-Production-Plugin",
     "danielrosehill/Claude-KDE-Plasma-Plugin",
     "danielrosehill/Claude-Linux-System-Optimisation-Plugin",
+    "danielrosehill/Claude-Research-Space-Plugin",
     "emacs-straight/emacsmirror-mirror",
     "haskell/ghcup-www",
     "hybridgroup/llama-cpp-builder",
-    "jku/tuf-demo",
+    "lxgw/B5XiZhi",
     "OpenSC/Nightly",
     "pot-app/.github",
-    "sp1-patches/RustCrypto-bigint",
-    "sp1-patches/tiny-keccak",
     "stdlib-js/meetings",
     "szksh-lab/.github"
   ]

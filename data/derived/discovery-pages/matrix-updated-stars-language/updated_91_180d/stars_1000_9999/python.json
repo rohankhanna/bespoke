@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 354,
-    "concepts": 698,
-    "observations": 699,
-    "repos": 148,
-    "terms": 688
+    "components": 362,
+    "concepts": 699,
+    "observations": 700,
+    "repos": 152,
+    "terms": 689
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
+    "AIDC-AI/Marco-o1",
     "AIDC-AI/Ovis",
     "AILab-CVC/VideoCrafter",
     "alexmojaki/snoop",
@@ -44,7 +45,7 @@
     "ClownsharkBatwing/RES4LYF",
     "CLUEbenchmark/CLUE",
     "crossbario/autobahn-python",
-    "crossbario/autobahn-testsuite",
+    "crowsonkb/k-diffusion",
     "cvg/Hierarchical-Localization",
     "davidhalter/jedi-vim",
     "deepseek-ai/DeepSeek-V3.2-Exp",
@@ -118,6 +119,7 @@
     "PaddlePaddle/ERNIE",
     "PaddlePaddle/PaddleSeg",
     "PaddlePaddle/PaddleSlim",
+    "palantir/python-language-server",
     "pallets-eco/blinker",
     "Paper2Poster/Paper2Poster",
     "paulocoutinhox/pdfium-lib",
@@ -133,11 +135,13 @@
     "Python-Markdown/markdown",
     "python-rope/rope",
     "pytorch/extension-cpp",
+    "pyusb/pyusb",
     "QwenLM/Qwen-Image",
     "remsky/Kokoro-FastAPI",
     "RUC-NLPIR/Search-o1",
     "RUC-NLPIR/WebThinker",
     "ShichenLiu/SoftRas",
+    "simonw/claude-code-transcripts",
     "simonw/sqlite-utils",
     "Simple-Efficient/RL-Factory",
     "SublimeLinter/SublimeLinter",

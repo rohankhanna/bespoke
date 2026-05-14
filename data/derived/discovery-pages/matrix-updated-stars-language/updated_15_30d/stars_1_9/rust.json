@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 139,
-    "concepts": 71,
-    "observations": 72,
-    "repos": 24,
-    "terms": 73
+    "components": 181,
+    "concepts": 102,
+    "observations": 103,
+    "repos": 30,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
@@ -12,31 +12,37 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "agent-sh/agent-analyzer",
     "black-desk/djotfmt",
     "bnb-chain/reth-bsc-triedb",
     "bourumir-wyngs/saphyr",
     "curiousdannii/remglk-rs",
+    "dcampbell24/djot-implementations",
+    "Dicklesworthstone/franken_agent_detection",
     "eikarna/hermes-rs",
     "EspressoSystems/espresso-example-l2",
     "EspressoSystems/tide-disco",
     "eth-act/ere-guests",
     "facebookexperimental/cxx",
+    "flathub-infra/flat-manager-hooks",
     "foundry-rs/foundry-core",
+    "hecrj/llama-server",
     "heroku/buildpacks-deb-packages",
+    "Hiroshiba/voicevox_core",
     "huggingface/fuser",
     "image-rs/image-extras",
     "juharris/optify",
     "kensave/agent-memory-rs",
     "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
     "Layr-Labs/hokulea",
-    "netdur/hugind",
+    "ldclabs/ic-cose",
     "oxc-project/oxc-index-vec",
-    "pkgxdev/bpb",
+    "snowflakedb/universal-driver",
+    "sp1-patches/RustCrypto-hashes",
     "tremby/snapmixer",
-    "urschrei/polyline-ffi",
+    "typst/typst-dev-assets",
     "vercel-labs/mdxjs-rs-turbopack"
   ]
 }

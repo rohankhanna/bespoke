@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 59,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 2,
-    "terms": 26
+    "components": 22,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 3,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
-    "mixmark-io/turndown",
-    "vbenjs/vue-vben-admin"
+    "dense-analysis/ale",
+    "meta-llama/llama-cookbook",
+    "mixmark-io/turndown"
   ]
 }

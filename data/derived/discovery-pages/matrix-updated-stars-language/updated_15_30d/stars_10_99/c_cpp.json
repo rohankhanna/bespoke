@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 254,
-    "concepts": 216,
-    "observations": 216,
-    "repos": 51,
-    "terms": 218
+    "components": 282,
+    "concepts": 259,
+    "observations": 259,
+    "repos": 56,
+    "terms": 260
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
+    "0xPolygonHermez/pil2-proofman",
     "8144225309/SuperScalar",
     "acts-project/traccc",
     "ad-si/FlatCV",
     "AFD-Illinois/kharma",
     "agl/jbig2enc",
     "akruphi/far2l",
+    "Antares0982/ssrJSON",
     "apache/pulsar-client-cpp",
     "barak/minidjvu",
     "boostorg/config",
@@ -32,11 +34,12 @@
     "gazebosim/gz-fuel-tools",
     "gazebosim/gz-gui",
     "gazebosim/gz-transport",
+    "hazelcast/hazelcast-cpp-client",
     "ICRAR/crc32c",
     "JFLarvoire/the_silver_searcher",
     "kendryte/canmv_k230",
-    "ksnip/kImageAnnotator",
     "LedgerHQ/app-boilerplate",
+    "LedgerHQ/ledger-secure-sdk",
     "liangshengyong/lanwan",
     "libbitcoin/libbitcoin-database",
     "libbitcoin/libbitcoin-network",
@@ -57,11 +60,13 @@
     "ROCm/rocAL",
     "ROCm/ROCgdb",
     "ROCm/roctracer",
+    "ROCm/rpp",
     "skeeto/dcmake",
     "triton-inference-server/openvino_backend",
     "walbourn/directxmathtest",
     "walbourn/directxtextest",
     "walbourn/directxtktest",
+    "xjb714/xjb",
     "yoshoku/numo-narray-alt",
     "yquake2/ref_vk",
     "yquake2/yquake2remaster"

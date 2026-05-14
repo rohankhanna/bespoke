@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 131,
-    "concepts": 73,
-    "observations": 73,
+    "components": 116,
+    "concepts": 70,
+    "observations": 70,
     "repos": 10,
-    "terms": 73
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
-    "argotorg/hevm",
     "ChristopherHX/runner.server",
-    "clj-commons/rewrite-clj",
+    "dwyl/quotes",
     "elixir-protobuf/protobuf",
     "emacscollective/auto-compile",
+    "fsprojects/FSharp.Data.GraphQL",
     "karafka/rdkafka-ruby",
-    "lite-xl/lite-xl-plugin-manager",
-    "mrcjkb/haskell-tools.nvim",
+    "kurrent-io/KurrentDB-Client-Dotnet",
+    "rescript-lang/reanalyze",
     "sass/sass-spec",
     "WICG/attribution-reporting-api"
   ]

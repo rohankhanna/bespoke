@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 85,
-    "observations": 85,
-    "repos": 17,
-    "terms": 85
+    "components": 74,
+    "concepts": 52,
+    "observations": 52,
+    "repos": 10,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,17 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
+    "ADNTIO/crispy-bootloader-rp2040-rs",
     "criccomini/uniffi-bindgen-node-js",
     "databendlabs/databend-meta",
-    "dcampbell24/djot-implementations",
     "decibri/decibri",
-    "Dicklesworthstone/franken_agent_detection",
-    "flathub-infra/flat-manager-hooks",
     "godot-rust/godot4-prebuilt",
-    "hecrj/llama-server",
     "heroku/buildpacks-php",
     "heroku/buildpacks-procfile",
-    "Hiroshiba/voicevox_core",
+    "influxdata/arrow-datafusion",
     "kurrent-io/KurrentDB-Bridge-Client",
-    "ldclabs/ic-cose",
-    "open-telemetry/opentelemetry-weaver-examples",
-    "snowflakedb/universal-driver",
-    "sp1-patches/RustCrypto-hashes",
-    "typst/typst-dev-assets"
+    "open-telemetry/opentelemetry-weaver-examples"
   ]
 }

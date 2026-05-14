@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 151,
-    "concepts": 97,
-    "observations": 98,
-    "repos": 19,
-    "terms": 96
+    "components": 106,
+    "concepts": 68,
+    "observations": 69,
+    "repos": 13,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
-    "AccessKit/accesskit-c",
-    "apollographql/federation-rs",
-    "asny/three-d-asset",
+    "abusch/nu_plugin_semver",
     "boozook/mdbook-svgbob",
     "fallow-rs/oxc-coverage-instrument",
-    "fonttools/fontspector",
     "heroku/buildpacks-jvm",
     "heroku/buildpacks-nodejs",
     "heroku/buildpacks-python",
     "heroku/libcnb.rs",
     "influxdata/datafusion-udf-wasm",
-    "ldclabs/anda-db",
-    "ldclabs/anda-hippocampus",
     "mdn/rari",
-    "openvm-org/stark-backend",
     "Ralith/lahar",
     "tofay/rustls-openssl",
     "tyrypyrking/egui-ash",

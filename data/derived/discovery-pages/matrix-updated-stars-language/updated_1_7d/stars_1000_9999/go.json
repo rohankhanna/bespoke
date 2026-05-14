@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 3,
-    "terms": 18
+    "components": 18,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 4,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "bazel-contrib/bazel-gazelle",
-    "dkron-io/dkron",
-    "kubernetes-sigs/karpenter"
+    "bazel-contrib/rules_go",
+    "etcd-io/bbolt",
+    "version-fox/vfox"
   ]
 }

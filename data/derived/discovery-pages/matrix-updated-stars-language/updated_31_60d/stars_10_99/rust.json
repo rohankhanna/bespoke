@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 223,
-    "concepts": 144,
-    "observations": 146,
-    "repos": 36,
-    "terms": 144
+    "components": 258,
+    "concepts": 169,
+    "observations": 171,
+    "repos": 39,
+    "terms": 169
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
+    "adumbidiot/lz-str-rs",
     "agentclientprotocol/symposium-acp",
     "alixinne/glsl-lang",
     "antonWetzel/prettypst",
@@ -36,19 +37,21 @@
     "Kimahriman/hdfs-native",
     "kylebarron/arrow-wasm",
     "lambdaclass/libssz",
+    "Layr-Labs/eigensdk-rs",
     "libdeflater/libdeflater",
     "messense/py-promql-parser",
     "near/cargo-near",
     "near/near-workspaces-rs",
     "neysofu/reltester",
     "omerbenamram/pyo3-file",
+    "open-telemetry/opentelemetry-rust-contrib",
     "psmux/omp-manager",
-    "psmux/psnet",
     "psmux/Tmux-Plugin-Panel",
     "randombit/botan-rs",
     "rust-lang/josh-sync",
     "sigp/rust-libp2p",
     "synadia-io/orbit.rs",
+    "tianrking/weixin-agent-rs",
     "Vaishnav-Sabari-Girish/Hayasen"
   ]
 }

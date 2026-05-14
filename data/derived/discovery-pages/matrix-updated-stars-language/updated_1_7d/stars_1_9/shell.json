@@ -3,7 +3,7 @@
     "components": 1,
     "concepts": 2,
     "observations": 2,
-    "repos": 2,
+    "repos": 1,
     "terms": 2
   },
   "facet_version": 1,
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
-    "edward3h/docker-bds-integration-test",
     "leleliu008/ppkg-formula-repository-official-core"
   ]
 }

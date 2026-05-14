@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 87,
-    "concepts": 116,
-    "observations": 117,
+    "concepts": 107,
+    "observations": 108,
     "repos": 12,
-    "terms": 116
+    "terms": 107
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
+    "aws/serverless-application-model",
     "awslabs/aidlc-workflows",
-    "bitsandbytes-foundation/bitsandbytes",
     "clearml/clearml",
     "Farama-Foundation/Minigrid",
     "funstory-ai/BabelDOC",
     "ggozad/oterm",
-    "google-deepmind/sonnet",
+    "google-deepmind/dm-haiku",
+    "google-deepmind/optax",
     "lucidrains/vector-quantize-pytorch",
     "meta-pytorch/captum",
-    "mikel-brostrom/boxmot",
-    "roboflow/maestro",
-    "strob/gentle"
+    "redis/redis-om-python",
+    "roboflow/maestro"
   ]
 }

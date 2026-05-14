@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 4,
-    "terms": 22
+    "components": 11,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 2,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "lumen-oss/luarocks-tag-release",
-    "nvim-mini/mini.deps",
-    "pivotal/credhub-release",
-    "processing/processing-website"
+    "pivotal/credhub-release"
   ]
 }

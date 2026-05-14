@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 7,
-    "terms": 25
+    "components": 44,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 5,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
-    "CADindustries/container",
     "DataDog/opa",
     "DiligentGraphics/json",
     "guaguastandup/guaguastandup",
     "kitknox/helix",
-    "psmux/scoop-tmuxpanel",
-    "sp1-patches/curve25519-dalek"
+    "psmux/scoop-tmuxpanel"
   ]
 }

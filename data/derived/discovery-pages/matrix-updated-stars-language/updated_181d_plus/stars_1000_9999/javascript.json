@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4096,
-    "concepts": 802,
-    "observations": 803,
-    "repos": 234,
-    "terms": 797
+    "components": 4143,
+    "concepts": 814,
+    "observations": 815,
+    "repos": 236,
+    "terms": 808
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "28mm/blast-radius",
     "afc163/fanyi",
@@ -24,6 +24,7 @@
     "amsul/pickadate.js",
     "andersontr15/clean-code-javascript-es",
     "andrewrk/groovebasin",
+    "APIDevTools/swagger-parser",
     "apidoc/apidoc",
     "appbaseio/reactivesearch",
     "arackaf/customize-cra",
@@ -89,6 +90,7 @@
     "fgnass/node-dev",
     "filamentgroup/loadCSS",
     "fkling/astexplorer",
+    "foliojs/fontkit",
     "fregante/GhostText",
     "fridays/next-routes",
     "frostney/react-native-create-library",

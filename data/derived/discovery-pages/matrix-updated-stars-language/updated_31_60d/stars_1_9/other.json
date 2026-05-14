@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 161,
-    "concepts": 79,
-    "observations": 79,
-    "repos": 39,
-    "terms": 78
+    "components": 164,
+    "concepts": 88,
+    "observations": 88,
+    "repos": 41,
+    "terms": 87
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "5E7EN/Garmin-ZmanIQ",
     "abap2UI5-addons/layout-management",
@@ -42,11 +42,13 @@
     "gmberton/gmberton.github.io",
     "hchiam/convenience",
     "helix-toolkit/helix-toolkit.github.io",
+    "joinwell52-ai/joinwell52",
     "konnov/apalache-examples",
     "marcindulak/learning-api-styles-gen-ai-experiments",
     "microsoft/LinuxTracepoints-Net",
     "mpizenberg/elm-test-runner",
     "objectbox/objectbox-swift-spm",
+    "php-toolkit/stdlib",
     "ptsochantaris/trailer-json",
     "rocq-community/docker-base",
     "rocq-community/docker-rocq",

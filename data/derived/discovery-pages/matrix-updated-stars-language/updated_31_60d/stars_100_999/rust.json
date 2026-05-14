@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 291,
-    "concepts": 244,
-    "observations": 249,
-    "repos": 56,
-    "terms": 243
+    "components": 322,
+    "concepts": 272,
+    "observations": 277,
+    "repos": 61,
+    "terms": 271
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
+    "alex/rust-asn1",
     "ashvardanian/StringWars",
     "athre0z/color-backtrace",
     "azdavis/millet",
@@ -37,8 +38,10 @@
     "FedericoPonzi/Horust",
     "filecoin-project/bellperson",
     "firstbatchxyz/dkn-compute-node",
+    "gdesmott/system-deps",
     "getsentry/rust-sourcemap",
     "gimli-rs/addr2line",
+    "gjtorikian/commonmarker",
     "hsivonen/chardetng",
     "in-toto/attestation",
     "iqlusioninc/abscissa",
@@ -56,6 +59,7 @@
     "prove-rs/z3.rs",
     "public-awesome/cw-nfts",
     "quickwit-oss/tantivy-cli",
+    "ramsayleung/rspotify",
     "RazrFalcon/memmap2-rs",
     "rust-analyzer/rowan",
     "rust-lang/crater",
@@ -69,6 +73,7 @@
     "saphyr-rs/saphyr",
     "servo/rust-cssparser",
     "sparsemat/sprs",
+    "Traverse-Research/gpu-allocator",
     "YaLTeR/wl-clipboard-rs"
   ]
 }

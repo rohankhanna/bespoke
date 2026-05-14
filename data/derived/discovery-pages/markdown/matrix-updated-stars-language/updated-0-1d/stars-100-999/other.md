@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Other
 
-Generated at: `2026-05-13T09:51:37.391093+00:00`
+Generated at: `2026-05-14T08:57:55.788728+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 7
-- terms: 56
-- components: 49
-- concepts: 56
-- observations: 56
+- terms: 37
+- components: 45
+- concepts: 37
+- observations: 37
 
 ## Static behavior
 
@@ -26,22 +26,22 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [apalache-mc/apalache](https://github.com/apalache-mc/apalache) | 555 | 2026-05-13T08:10:01Z | Other | Infrastructure/tooling | 11 | 17 | 11 | 11 |
-| [kurrent-io/KurrentDB-Client-Dotnet](https://github.com/kurrent-io/KurrentDB-Client-Dotnet) | 174 | 2026-05-13T07:42:57Z | Other | CLI | 14 | 6 | 14 | 14 |
-| [dwyl/quotes](https://github.com/dwyl/quotes) | 338 | 2026-05-12T22:48:00Z | Other | Infrastructure/tooling | 5 | 12 | 5 | 5 |
-| [fsprojects/FSharp.Data.GraphQL](https://github.com/fsprojects/FSharp.Data.GraphQL) | 407 | 2026-05-12T17:57:41Z | Other | Infrastructure/tooling | 9 | 3 | 9 | 9 |
-| [ROCm/hipBLASLt](https://github.com/ROCm/hipBLASLt) | 113 | 2026-05-12T16:59:32Z | Other | Unknown | 7 | 0 | 7 | 7 |
-| [bazel-contrib/rules_kotlin](https://github.com/bazel-contrib/rules_kotlin) | 365 | 2026-05-12T16:22:44Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
-| [rescript-lang/reanalyze](https://github.com/rescript-lang/reanalyze) | 282 | 2026-05-12T11:53:48Z | Other | Infrastructure/tooling | 5 | 6 | 5 | 5 |
+| [appwrite/playground-for-web](https://github.com/appwrite/playground-for-web) | 109 | 2026-05-14T08:17:02Z | Other | Web app | 3 | 3 | 3 | 3 |
+| [ROCm/hipBLASLt](https://github.com/ROCm/hipBLASLt) | 113 | 2026-05-14T03:02:55Z | Other | Unknown | 7 | 0 | 7 | 7 |
+| [apalache-mc/apalache](https://github.com/apalache-mc/apalache) | 555 | 2026-05-13T19:55:13Z | Other | Infrastructure/tooling | 11 | 17 | 11 | 11 |
+| [clj-commons/rewrite-clj](https://github.com/clj-commons/rewrite-clj) | 656 | 2026-05-13T19:01:00Z | Other | Infrastructure/tooling | 5 | 12 | 5 | 5 |
+| [bazel-contrib/rules_kotlin](https://github.com/bazel-contrib/rules_kotlin) | 365 | 2026-05-13T18:30:58Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
+| [devcontainers/devcontainers.github.io](https://github.com/devcontainers/devcontainers.github.io) | 193 | 2026-05-13T12:02:19Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
+| [danielrosehill/Claude-Code-Projects-Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) | 470 | 2026-05-13T10:35:11Z | Other | CLI | 3 | 1 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [apalache-mc/apalache](https://github.com/apalache-mc/apalache) | 555 | 2026-05-13T08:10:01Z | Other | Infrastructure/tooling | 11 | 17 | 11 | 11 |
-| [fsprojects/FSharp.Data.GraphQL](https://github.com/fsprojects/FSharp.Data.GraphQL) | 407 | 2026-05-12T17:57:41Z | Other | Infrastructure/tooling | 9 | 3 | 9 | 9 |
-| [bazel-contrib/rules_kotlin](https://github.com/bazel-contrib/rules_kotlin) | 365 | 2026-05-12T16:22:44Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
-| [dwyl/quotes](https://github.com/dwyl/quotes) | 338 | 2026-05-12T22:48:00Z | Other | Infrastructure/tooling | 5 | 12 | 5 | 5 |
-| [rescript-lang/reanalyze](https://github.com/rescript-lang/reanalyze) | 282 | 2026-05-12T11:53:48Z | Other | Infrastructure/tooling | 5 | 6 | 5 | 5 |
-| [kurrent-io/KurrentDB-Client-Dotnet](https://github.com/kurrent-io/KurrentDB-Client-Dotnet) | 174 | 2026-05-13T07:42:57Z | Other | CLI | 14 | 6 | 14 | 14 |
-| [ROCm/hipBLASLt](https://github.com/ROCm/hipBLASLt) | 113 | 2026-05-12T16:59:32Z | Other | Unknown | 7 | 0 | 7 | 7 |
+| [clj-commons/rewrite-clj](https://github.com/clj-commons/rewrite-clj) | 656 | 2026-05-13T19:01:00Z | Other | Infrastructure/tooling | 5 | 12 | 5 | 5 |
+| [apalache-mc/apalache](https://github.com/apalache-mc/apalache) | 555 | 2026-05-13T19:55:13Z | Other | Infrastructure/tooling | 11 | 17 | 11 | 11 |
+| [danielrosehill/Claude-Code-Projects-Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) | 470 | 2026-05-13T10:35:11Z | Other | CLI | 3 | 1 | 3 | 3 |
+| [bazel-contrib/rules_kotlin](https://github.com/bazel-contrib/rules_kotlin) | 365 | 2026-05-13T18:30:58Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
+| [devcontainers/devcontainers.github.io](https://github.com/devcontainers/devcontainers.github.io) | 193 | 2026-05-13T12:02:19Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
+| [ROCm/hipBLASLt](https://github.com/ROCm/hipBLASLt) | 113 | 2026-05-14T03:02:55Z | Other | Unknown | 7 | 0 | 7 | 7 |
+| [appwrite/playground-for-web](https://github.com/appwrite/playground-for-web) | 109 | 2026-05-14T08:17:02Z | Other | Web app | 3 | 3 | 3 | 3 |

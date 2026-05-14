@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1935,
-    "concepts": 553,
-    "observations": 556,
-    "repos": 59,
-    "terms": 588
+    "components": 1960,
+    "concepts": 559,
+    "observations": 562,
+    "repos": 60,
+    "terms": 594
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "2dust/v2rayN",
     "996icu/996.ICU",
@@ -59,6 +59,7 @@
     "ollama/ollama",
     "open-webui/open-webui",
     "openclaw/openclaw",
+    "react/create-react-app",
     "rust-lang/rust",
     "Significant-Gravitas/AutoGPT",
     "sindresorhus/awesome",

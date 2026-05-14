@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1032,
-    "concepts": 196,
-    "observations": 196,
-    "repos": 38,
-    "terms": 195
+    "components": 1059,
+    "concepts": 200,
+    "observations": 200,
+    "repos": 39,
+    "terms": 199
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "adaltas/node-http-status",
     "addyosmani/chatty",
@@ -28,6 +28,7 @@
     "cocos/cocos-test-projects",
     "enisdenjo/graphql-sse",
     "gajus/eslint-plugin-sql",
+    "googleapis/nodejs-logging-winston",
     "hyperbrew/bolt-cep",
     "jezweb/roo-commander",
     "jsonquerylang/jsonquery",

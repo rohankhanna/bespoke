@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 1193,
-    "concepts": 255,
-    "observations": 256,
-    "repos": 32,
-    "terms": 289
+    "components": 1220,
+    "concepts": 263,
+    "observations": 264,
+    "repos": 33,
+    "terms": 297
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "affaan-m/everything-claude-code",
     "airbnb/javascript",
     "angular/angular",
+    "anomalyco/opencode",
     "anthropics/claude-code",
     "anthropics/skills",
     "avelino/awesome-go",

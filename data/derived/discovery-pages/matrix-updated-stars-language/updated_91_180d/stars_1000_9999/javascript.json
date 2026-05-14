@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 625,
-    "concepts": 172,
-    "observations": 173,
-    "repos": 34,
-    "terms": 169
+    "components": 594,
+    "concepts": 160,
+    "observations": 161,
+    "repos": 33,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "alexmojaki/birdseye",
     "antimatter15/splat",
-    "APIDevTools/swagger-parser",
     "architect/architect",
     "Blizzard/node-rdkafka",
     "broccolijs/broccoli",

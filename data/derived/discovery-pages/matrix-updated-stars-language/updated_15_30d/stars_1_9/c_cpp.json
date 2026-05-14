@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 164,
-    "concepts": 97,
-    "observations": 97,
-    "repos": 18,
-    "terms": 96
+    "components": 178,
+    "concepts": 101,
+    "observations": 101,
+    "repos": 19,
+    "terms": 100
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "CHIP-SPV/H4I-MKLShim",
@@ -21,6 +21,7 @@
     "danielbernalb/AireCiudadano",
     "DavidKinder/inform",
     "decibri/decibri.cpp",
+    "eddelbuettel/r2u-builder",
     "gbrobro119-star/darksword-kexploit",
     "grizzlypeak3d/feather-tk",
     "lonewolf-jp/convopeq",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 2,
-    "terms": 15
+    "components": 36,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 4,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
+    "alloy-rs/evm",
     "g-plane/raffia",
-    "kurrent-io/KurrentDB-Client-Rust"
+    "kurrent-io/KurrentDB-Client-Rust",
+    "vaporif/parry-guard"
   ]
 }

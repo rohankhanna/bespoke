@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 56,
-    "observations": 56,
+    "components": 45,
+    "concepts": 37,
+    "observations": 37,
     "repos": 7,
-    "terms": 56
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "apalache-mc/apalache",
+    "appwrite/playground-for-web",
     "bazel-contrib/rules_kotlin",
-    "dwyl/quotes",
-    "fsprojects/FSharp.Data.GraphQL",
-    "kurrent-io/KurrentDB-Client-Dotnet",
-    "rescript-lang/reanalyze",
+    "clj-commons/rewrite-clj",
+    "danielrosehill/Claude-Code-Projects-Index",
+    "devcontainers/devcontainers.github.io",
     "ROCm/hipBLASLt"
   ]
 }

@@ -1,26 +1,26 @@
 {
   "counts": {
-    "components": 137,
-    "concepts": 71,
-    "observations": 71,
-    "repos": 38,
-    "terms": 70
+    "components": 124,
+    "concepts": 66,
+    "observations": 66,
+    "repos": 37,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "0xBigBoss/ghostty-web",
     "8144225309/superscalar-mcp",
+    "abbhisap/LLM-Council-SAP",
     "AdaCore/vss-text",
-    "aleclarson/vite-multi-spa",
     "Bearer/homebrew-tap",
-    "CADindustries/container",
     "CharlieFRuan/harbor",
     "ChiehHsinJesseLai/ctm-notebook",
+    "danielJL-altius/israelgrocerymcp",
     "DataDog/go-cmp",
     "DataDog/opa",
     "DiligentGraphics/args",
@@ -45,7 +45,6 @@
     "psmux/scoop-tmuxpanel",
     "saalfeldlab/n5-blosc",
     "samsja/dion",
-    "sp1-patches/curve25519-dalek",
     "stable-haskell/stack",
     "typstyle-rs/prettyless",
     "usdot-fhwa-stol/carma-ns3-adapter",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 962,
-    "concepts": 540,
-    "observations": 540,
-    "repos": 57,
-    "terms": 545
+    "components": 1153,
+    "concepts": 597,
+    "observations": 599,
+    "repos": 64,
+    "terms": 602
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
@@ -30,6 +30,7 @@
     "celo-org/blind-threshold-bls-wasm",
     "certible/superagent-aws-sign",
     "ChadKillingsworth/closure-compiler-npm",
+    "dwyl/phoenix-papertrail-demo",
     "eea/bise-frontend",
     "eea/eea-website-frontend",
     "eea/fise-frontend",
@@ -39,17 +40,20 @@
     "gr2m/octokit-oauth-app-begin-example",
     "h5wasm/h5wasm-plugins",
     "ibm-telemetry/telemetry-config-schema",
-    "istanbuljs/schema",
     "j9t/compressorjs-next",
     "j9t/htaccess-punk",
     "j9t/image-guard",
     "j9t/minifier-benchmarks",
+    "kkomelin/isomorphic-dompurify-playgrounds",
     "ksxnodemodules/static-type-assert",
     "locize/locize-lastused",
+    "maltsev/html-minifiers-benchmark",
     "metosin/open-source",
     "newrelic/csec-node-agent",
     "poolifier/tatami-ng",
     "recap-utr/arg-services",
+    "rvagg/js-bitcoin-block",
+    "sapphiredev/.github",
     "seunghunbae-3svs/solo-cto-agent",
     "stdlib-js/array-float64",
     "stdlib-js/array-int16",
@@ -64,12 +68,15 @@
     "stdlib-js/complex-cmplx",
     "stdlib-js/complex-float32-reviver",
     "stdlib-js/complex-float64-reviver",
+    "stdlib-js/math-base-special-erfcinv",
+    "stdlib-js/math-base-special-erfinv",
     "stdlib-js/ndarray-dtypes",
     "stdlib-js/ndarray-orders",
     "stdlib-js/proxy-ctor",
     "stdlib-js/repl",
     "stealabra5019/grok-enhancer",
     "Taritsyn/AutoprefixerHost",
-    "thetutlage/static"
+    "thetutlage/static",
+    "travi/octokit-auth-netrc"
   ]
 }

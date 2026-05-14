@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 191,
-    "concepts": 137,
-    "observations": 140,
-    "repos": 50,
-    "terms": 135
+    "components": 193,
+    "concepts": 138,
+    "observations": 141,
+    "repos": 51,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "01mf02/hifijson",
+    "acw/simple_asn1",
     "adamgreig/ecpdap",
     "algorealmInc/SwarmNL",
     "antonengelhardt/wasm-oidc-plugin",

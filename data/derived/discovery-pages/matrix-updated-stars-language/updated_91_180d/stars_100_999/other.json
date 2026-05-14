@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 761,
-    "concepts": 737,
-    "observations": 738,
-    "repos": 188,
-    "terms": 731
+    "components": 773,
+    "concepts": 743,
+    "observations": 744,
+    "repos": 189,
+    "terms": 737
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -179,6 +179,7 @@
     "StatisticalRethinkingJulia/TuringModels.jl",
     "status-im/nim-chronicles",
     "taoensso/telemere",
+    "tc39/proposal-decimal",
     "Tencent-Hunyuan/flex-block-attn",
     "terraform-aws-modules/terraform-aws-apigateway-v2",
     "thinkdepthai/Deep_Research",

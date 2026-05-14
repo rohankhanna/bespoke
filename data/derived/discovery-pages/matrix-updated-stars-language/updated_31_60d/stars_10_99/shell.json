@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 88,
-    "observations": 88,
-    "repos": 17,
-    "terms": 88
+    "components": 61,
+    "concepts": 96,
+    "observations": 96,
+    "repos": 18,
+    "terms": 96
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
     "2KAbhishek/tmux-tilit",
     "aiKrice/homebrew-badgetizr",
     "alchemiststudiosDOTai/harness-engineering",
+    "aporthq/aport-agent-guardrails",
     "beehive-lab/docker-tornadovm",
     "ChainSafe/forest-iac",
     "clojure/brew-install",

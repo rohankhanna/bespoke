@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 117,
-    "concepts": 66,
-    "observations": 66,
-    "repos": 26,
-    "terms": 67
+    "components": 124,
+    "concepts": 69,
+    "observations": 69,
+    "repos": 27,
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "1mb-dev/natcheck",
+    "abhinav/goldmark-hashtag",
     "abraxas-365/claudio",
     "aldernero/gaul",
     "anexia/k8s-external-dns-webhook",
@@ -22,7 +23,7 @@
     "cgrindel/swift_gazelle_plugin",
     "cloudfoundry/cc-uploader",
     "cloudfoundry/runtime-ci",
-    "cpu/wycheproof",
+    "datachainlab/lcp-go",
     "dwyl/learn-go",
     "erikceballos/nano-banana-cli",
     "goreleaser/sponsors",

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-13T09:51:37.391093+00:00`
+Generated at: `2026-05-14T08:57:55.788728+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 11
-- terms: 84
-- components: 493
-- concepts: 84
-- observations: 84
+- repos: 6
+- terms: 62
+- components: 284
+- concepts: 62
+- observations: 62
 
 ## Static behavior
 
@@ -26,30 +26,20 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7627 | 2026-05-13T08:05:03Z | TypeScript | Infrastructure/tooling | 17 | 73 | 17 | 17 |
-| [alichherawalla/off-grid-mobile-ai](https://github.com/alichherawalla/off-grid-mobile-ai) | 2068 | 2026-05-13T05:52:22Z | TypeScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |
-| [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | 4366 | 2026-05-13T01:26:26Z | TypeScript | CLI | 6 | 17 | 6 | 6 |
-| [vuejs/language-tools](https://github.com/vuejs/language-tools) | 6662 | 2026-05-12T21:55:31Z | TypeScript | Infrastructure/tooling | 6 | 12 | 6 | 6 |
-| [FxEmbed/FxEmbed](https://github.com/FxEmbed/FxEmbed) | 4546 | 2026-05-12T21:04:52Z | TypeScript | Infrastructure/tooling | 4 | 35 | 4 | 4 |
-| [ebullient/obsidian-admonition](https://github.com/ebullient/obsidian-admonition) | 1267 | 2026-05-12T17:26:50Z | TypeScript | Infrastructure/tooling | 3 | 25 | 3 | 3 |
-| [microsoft/vscode-js-debug](https://github.com/microsoft/vscode-js-debug) | 1946 | 2026-05-12T17:10:21Z | TypeScript | Unknown | 4 | 97 | 4 | 4 |
-| [TanStack/form](https://github.com/TanStack/form) | 6519 | 2026-05-12T15:45:09Z | TypeScript | Infrastructure/tooling | 9 | 40 | 9 | 9 |
-| [typescript-language-server/typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) | 2481 | 2026-05-12T12:28:41Z | TypeScript | Infrastructure/tooling | 6 | 48 | 6 | 6 |
-| [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8442 | 2026-05-12T12:12:52Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
-| [apollographql/apollo-tooling](https://github.com/apollographql/apollo-tooling) | 3042 | 2026-05-12T12:08:57Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
+| [alichherawalla/off-grid-mobile-ai](https://github.com/alichherawalla/off-grid-mobile-ai) | 2083 | 2026-05-14T04:58:25Z | TypeScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |
+| [apollographql/apollo-tooling](https://github.com/apollographql/apollo-tooling) | 3042 | 2026-05-14T00:27:43Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
+| [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8442 | 2026-05-13T21:04:17Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
+| [TanStack/form](https://github.com/TanStack/form) | 6520 | 2026-05-13T17:34:18Z | TypeScript | Infrastructure/tooling | 10 | 49 | 10 | 10 |
+| [vuejs/language-tools](https://github.com/vuejs/language-tools) | 6659 | 2026-05-13T17:00:41Z | TypeScript | Infrastructure/tooling | 6 | 15 | 6 | 6 |
+| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7628 | 2026-05-13T16:20:51Z | TypeScript | Infrastructure/tooling | 17 | 74 | 17 | 17 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8442 | 2026-05-12T12:12:52Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
-| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7627 | 2026-05-13T08:05:03Z | TypeScript | Infrastructure/tooling | 17 | 73 | 17 | 17 |
-| [vuejs/language-tools](https://github.com/vuejs/language-tools) | 6662 | 2026-05-12T21:55:31Z | TypeScript | Infrastructure/tooling | 6 | 12 | 6 | 6 |
-| [TanStack/form](https://github.com/TanStack/form) | 6519 | 2026-05-12T15:45:09Z | TypeScript | Infrastructure/tooling | 9 | 40 | 9 | 9 |
-| [FxEmbed/FxEmbed](https://github.com/FxEmbed/FxEmbed) | 4546 | 2026-05-12T21:04:52Z | TypeScript | Infrastructure/tooling | 4 | 35 | 4 | 4 |
-| [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | 4366 | 2026-05-13T01:26:26Z | TypeScript | CLI | 6 | 17 | 6 | 6 |
-| [apollographql/apollo-tooling](https://github.com/apollographql/apollo-tooling) | 3042 | 2026-05-12T12:08:57Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
-| [typescript-language-server/typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) | 2481 | 2026-05-12T12:28:41Z | TypeScript | Infrastructure/tooling | 6 | 48 | 6 | 6 |
-| [alichherawalla/off-grid-mobile-ai](https://github.com/alichherawalla/off-grid-mobile-ai) | 2068 | 2026-05-13T05:52:22Z | TypeScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |
-| [microsoft/vscode-js-debug](https://github.com/microsoft/vscode-js-debug) | 1946 | 2026-05-12T17:10:21Z | TypeScript | Unknown | 4 | 97 | 4 | 4 |
-| [ebullient/obsidian-admonition](https://github.com/ebullient/obsidian-admonition) | 1267 | 2026-05-12T17:26:50Z | TypeScript | Infrastructure/tooling | 3 | 25 | 3 | 3 |
+| [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8442 | 2026-05-13T21:04:17Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
+| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7628 | 2026-05-13T16:20:51Z | TypeScript | Infrastructure/tooling | 17 | 74 | 17 | 17 |
+| [vuejs/language-tools](https://github.com/vuejs/language-tools) | 6659 | 2026-05-13T17:00:41Z | TypeScript | Infrastructure/tooling | 6 | 15 | 6 | 6 |
+| [TanStack/form](https://github.com/TanStack/form) | 6520 | 2026-05-13T17:34:18Z | TypeScript | Infrastructure/tooling | 10 | 49 | 10 | 10 |
+| [apollographql/apollo-tooling](https://github.com/apollographql/apollo-tooling) | 3042 | 2026-05-14T00:27:43Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
+| [alichherawalla/off-grid-mobile-ai](https://github.com/alichherawalla/off-grid-mobile-ai) | 2083 | 2026-05-14T04:58:25Z | TypeScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |

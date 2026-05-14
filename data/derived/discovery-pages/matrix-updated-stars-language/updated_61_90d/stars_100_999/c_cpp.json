@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 157,
-    "concepts": 160,
-    "observations": 161,
-    "repos": 45,
-    "terms": 157
+    "components": 152,
+    "concepts": 150,
+    "observations": 151,
+    "repos": 42,
+    "terms": 147
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "ARM-software/EndpointAI",
     "arminbiere/aiger",
@@ -20,7 +20,6 @@
     "beached/daw_json_link",
     "btzy/nativefiledialog-extended",
     "CppCXY/EmmyLuaCodeStyle",
-    "creachadair/imath",
     "dacap/clip",
     "Dao-AILab/fast-hadamard-transform",
     "derickr/timelib",
@@ -45,7 +44,6 @@
     "mlc-ai/tokenizers-cpp",
     "mongodb-js/kerberos",
     "numactl/numactl",
-    "nvpro-samples/nvpro_core",
     "refresh-bio/KMC",
     "sasha0552/nvidia-pstated",
     "sheredom/ubench.h",
@@ -56,7 +54,6 @@
     "ValveSoftware/Fossilize",
     "veorq/SipHash",
     "websockets/bufferutil",
-    "xtensor-stack/xtl",
     "xuankuzcr/Global-LVBA",
     "ylsdamxssjxxdd/eva"
   ]

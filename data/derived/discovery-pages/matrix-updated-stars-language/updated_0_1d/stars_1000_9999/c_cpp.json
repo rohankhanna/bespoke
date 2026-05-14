@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 56,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 5,
-    "terms": 62
+    "components": 39,
+    "concepts": 70,
+    "observations": 70,
+    "repos": 6,
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
+    "harfbuzz/harfbuzz",
+    "KhronosGroup/KTX-Software",
+    "Mithril-mine/libmdbx",
     "swiftlang/swift-llbuild",
-    "TrenchBroom/TrenchBroom",
-    "ultrajson/ultrajson",
-    "xtensor-stack/xtensor"
+    "TrenchBroom/TrenchBroom"
   ]
 }

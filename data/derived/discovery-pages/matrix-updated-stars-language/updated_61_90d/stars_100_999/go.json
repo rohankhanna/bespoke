@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 115,
-    "concepts": 142,
-    "observations": 143,
-    "repos": 23,
-    "terms": 142
+    "components": 111,
+    "concepts": 141,
+    "observations": 142,
+    "repos": 22,
+    "terms": 141
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "alexkohler/prealloc",
     "anacrolix/dht",
@@ -22,7 +22,6 @@
     "aws/amazon-ec2-spot-interrupter",
     "aws/amazon-ecs-cni-plugins",
     "box-cli-maker/box-cli-maker",
-    "dop251/goja_nodejs",
     "erigontech/interfaces",
     "GoogleCloudPlatform/docker-credential-gcr",
     "gost-dom/browser",

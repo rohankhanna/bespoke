@@ -3,7 +3,7 @@
     "components": 7,
     "concepts": 24,
     "observations": 24,
-    "repos": 7,
+    "repos": 8,
     "terms": 23
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "agents-squads/agents-squads",
     "alonw0/cc-redalerts-statusline",
     "bendrucker/terraform-configuration-aliases-action",
+    "danielrosehill/Claude-MD-Chunk",
     "eddelbuettel/github-actions",
     "flinedev/customstatusline",
     "tombelieber/claude-backup",

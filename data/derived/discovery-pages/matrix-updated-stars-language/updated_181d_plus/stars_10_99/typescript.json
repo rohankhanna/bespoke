@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3954,
-    "concepts": 507,
-    "observations": 508,
-    "repos": 178,
-    "terms": 518
+    "components": 3990,
+    "concepts": 511,
+    "observations": 512,
+    "repos": 181,
+    "terms": 522
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "101arrowz/compression-streams-polyfill",
     "6/openai-caching-proxy-worker",
@@ -31,6 +31,7 @@
     "anatol-grabowski/datatransfer-files-promise",
     "andreock/AdguardHomeAPI",
     "anselanza/parse-strings-in-object",
+    "antonio-gabriele/zigbee-matter-bridge",
     "Applelo/unplugin-inject-preload",
     "Applelo/vite-plugin-inject-preload",
     "appwrite/playground-for-deno",
@@ -73,6 +74,7 @@
     "djhouseknecht/rollup-plugin-version-injector",
     "dothq/melon",
     "dropbox/ts-transform-react-jsx-source",
+    "dylibso/xtp-bindgen",
     "ember-polyfills/ember-cached-decorator-polyfill",
     "embroider-build/addon-blueprint",
     "endemolshinegroup/cz-github",
@@ -82,6 +84,7 @@
     "ethers-io/ext-provider-multicall",
     "extism/assemblyscript-pdk",
     "fatwang2/search1api-lobechat",
+    "FezVrasta/node-red-matter",
     "filipesilva/obsidian-babashka",
     "frandiox/reactesse-edge-template",
     "frandiox/reactesse-ssr-template",

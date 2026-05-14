@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1591,
-    "concepts": 2953,
-    "observations": 2957,
-    "repos": 1677,
-    "terms": 2957
+    "components": 1605,
+    "concepts": 2961,
+    "observations": 2965,
+    "repos": 1687,
+    "terms": 2965
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "unknown"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nn0/terminal-mac-cheatsheet",
@@ -463,6 +463,7 @@
     "danielrosehill/Audio-Understanding-Test-Prompts",
     "danielrosehill/Awesome-Israeli-Jewish-Home-Assistant",
     "danielrosehill/Awesome-Linux-IDEs",
+    "danielrosehill/Awesome-LLM-Council-Projects",
     "danielrosehill/Awesome-Red-Alerts",
     "danielrosehill/Back-Up-Your-SaaS",
     "danielrosehill/Backup-Planner",
@@ -541,7 +542,13 @@
     "danielrosehill/Claude-Linux-Desktop-Manager",
     "danielrosehill/Claude-Linux-System-Optimisation-Plugin",
     "danielrosehill/Claude-LLM-Council-Creator-Plugin",
+    "danielrosehill/Claude-Model-Identifier",
+    "danielrosehill/Claude-Personal-Planning-Plugin",
+    "danielrosehill/Claude-PR-Media-Work-Plugin",
+    "danielrosehill/Claude-Purchasing-Plugin",
     "danielrosehill/Claude-Rescue",
+    "danielrosehill/Claude-Research-Space-Plugin",
+    "danielrosehill/Claude-Security-Checkup-Plugin",
     "danielrosehill/Claude-Workspace-Reshaping-190426",
     "danielrosehill/Context-Chunker-Assistant",
     "danielrosehill/Context-Projects-Index",
@@ -596,6 +603,7 @@
     "danielrosehill/Speech-And-ASR-Evaluations",
     "danielrosehill/STT-Price-Points-260225",
     "danielrosehill/Subindices",
+    "danielrosehill/Therapy-Tracking-Plugin",
     "danielrosehill/Useful-AI-Agent-Skills",
     "daochenzha/data-centric-AI",
     "DaoCloud/public-binary-files-mirror",
@@ -704,6 +712,7 @@
     "EleutherAI/polyglot",
     "eliemichel/LearnWebGPU-Code",
     "ellerbrock/open-source-badges",
+    "ellie/atuin",
     "ElricLiu/Awesome-One-Click-Deployment",
     "emacs-straight/emacsmirror-mirror",
     "emacs-straight/gnu-elpa-mirror",
@@ -1233,6 +1242,7 @@
     "NuGet/docs.microsoft.com-nuget",
     "NuGet/NuGet.Jobs",
     "numi-hq/open-design",
+    "nushell/showcase",
     "nushu-script/Nyushu",
     "nuxt/framework",
     "nv-dvl/SPAM",

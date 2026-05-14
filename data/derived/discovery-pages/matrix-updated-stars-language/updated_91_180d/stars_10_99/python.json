@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 170,
-    "concepts": 203,
-    "observations": 203,
-    "repos": 86,
-    "terms": 212
+    "components": 172,
+    "concepts": 210,
+    "observations": 210,
+    "repos": 88,
+    "terms": 218
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "aba122/Q-Hawkeye",
@@ -34,6 +34,7 @@
     "Bujiazi/DiCache",
     "ChenMnZ/INT_vs_FP",
     "ChenShawn/MultiModal-Jupyter-Sandbox",
+    "CMBAgents/cmbagent",
     "Coobiw/IE-Critic-R1",
     "danielward27/paramax",
     "EasternJournalist/pipeline",
@@ -64,6 +65,7 @@
     "Justintime50/homebrew-releaser",
     "kandinskylab/kandinsky-5-lora-train",
     "katerinakazantseva/strainy",
+    "layumi/3D-Magic-Mirror",
     "lmgame-org/GRL",
     "marcindulak/stt-mcp-server-linux",
     "microsoft/local-email-agent",

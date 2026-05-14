@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1006,
-    "concepts": 165,
-    "observations": 166,
-    "repos": 36,
-    "terms": 175
+    "components": 979,
+    "concepts": 161,
+    "observations": 162,
+    "repos": 35,
+    "terms": 171
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -26,7 +26,6 @@
     "ethereum/staking-launchpad",
     "fnando/i18n",
     "googleapis/nodejs-datastore",
-    "googleapis/nodejs-logging-winston",
     "h3js/rou3",
     "hyparam/hightable",
     "import-js/eslint-import-resolver-typescript",

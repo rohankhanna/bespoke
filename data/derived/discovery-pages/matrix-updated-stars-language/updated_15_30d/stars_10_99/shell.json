@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 182,
-    "concepts": 167,
-    "observations": 170,
-    "repos": 39,
-    "terms": 165
+    "components": 192,
+    "concepts": 180,
+    "observations": 183,
+    "repos": 43,
+    "terms": 178
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "2KAbhishek/sway2k",
     "acmesh-official/acmetest",
@@ -20,12 +20,13 @@
     "agricidaniel/claude-cybersecurity",
     "alvistack/ansible-role-crun",
     "apache/arrow-testing",
-    "aporthq/aport-agent-guardrails",
     "argoproj-labs/argocd-extension-installer",
     "asdf-community/asdf-pdm",
     "Azure/aaz",
     "bitnami/vulndb",
     "bnb-chain/node-deploy",
+    "bufbuild/homebrew-buf",
+    "cloudfoundry/cf-deployment-concourse-tasks",
     "cloudfoundry/jumpbox-deployment",
     "conda-forge/pinocchio-feedstock",
     "confluentinc/cp-demo",
@@ -48,10 +49,13 @@
     "oneclick/rubyinstaller2-packages",
     "pkgxdev/mash",
     "postmodern/ruby-versions",
+    "quarkusio/quarkus-ecosystem-ci",
     "reviewdog/action-black",
+    "reviewdog/action-depup",
     "reviewdog/action-hadolint",
     "reviewdog/action-shfmt",
     "sclorg/mariadb-container",
-    "tinted-theming/tinted-shell"
+    "tinted-theming/tinted-shell",
+    "tinted-theming/tinted-terminal"
   ]
 }

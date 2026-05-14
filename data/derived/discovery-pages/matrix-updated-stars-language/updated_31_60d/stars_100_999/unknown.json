@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 27,
-    "concepts": 119,
-    "observations": 119,
-    "repos": 33,
-    "terms": 118
+    "concepts": 126,
+    "observations": 126,
+    "repos": 35,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "abubakarsiddik31/claude-skills-collection",
     "adoptium/adoptium",
@@ -35,6 +35,7 @@
     "grpc/proposal",
     "hagezi/dns-servers",
     "helm/community",
+    "integrations/microsoft-teams",
     "lumen-oss/nvim-best-practices",
     "lwpyh/Awesome-MLLM-Reasoning-Collection",
     "lxgw/LxgwZhenKai",
@@ -45,6 +46,7 @@
     "reactwg/react-native-releases",
     "revfactory/harness-100",
     "scott0107000/BoutiqueBitmap7x7",
+    "sedyh/awesome-ebitengine",
     "tc39/how-we-work",
     "web-platform-tests/rfcs"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 4,
-    "terms": 47
+    "components": 15,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 3,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "energye/energy",
-    "gookit/gcli",
     "kelos-dev/kelos",
     "yaling888/quirktiva"
   ]

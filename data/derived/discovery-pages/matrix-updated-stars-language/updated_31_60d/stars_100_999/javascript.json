@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1343,
-    "concepts": 381,
-    "observations": 383,
-    "repos": 85,
-    "terms": 388
+    "components": 1418,
+    "concepts": 399,
+    "observations": 401,
+    "repos": 90,
+    "terms": 406
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "absolute-version/commit-and-tag-version",
     "actions/deploy-pages",
+    "actions/hello-world-javascript-action",
     "adobe/spectrum-design-data",
     "AghayeCoder/tx-ui",
     "ankane/ahoy.js",
@@ -66,6 +67,10 @@
     "kharchenkolab/pagoda2",
     "Level/abstract-level",
     "mapbox/cheap-ruler",
+    "mapbox/mapbox-gl-styles",
+    "mapbox/pbf",
+    "mapbox/tilelive",
+    "mapbox/vector-tile-js",
     "markdown-it/linkify-it",
     "microsoft/vscode-custom-data",
     "mourner/flatqueue",
@@ -77,6 +82,7 @@
     "npm/abbrev-js",
     "npm/rfcs",
     "oblador/react-native-vector-image",
+    "observablehq/stdlib",
     "OffchainLabs/arbitrum-tutorials",
     "photopea/UZIP.js",
     "previm/previm",
@@ -93,7 +99,6 @@
     "terser/html-minifier-terser",
     "testing-library/testing-library-docs",
     "thejoshwolfe/yauzl",
-    "thejoshwolfe/yazl",
     "toon-format/spec",
     "w3c/webidl2.js",
     "webpack/css-minimizer-webpack-plugin",

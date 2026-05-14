@@ -3,7 +3,7 @@
     "components": 89,
     "concepts": 62,
     "observations": 62,
-    "repos": 22,
+    "repos": 21,
     "terms": 59
   },
   "facet_version": 1,
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "adobe/spectrum-tokens",
     "appbaseio/reactivesearch-api-docker",
-    "arya-s/phantty",
     "aspect-build/rules_jasmine",
     "countries/countries-data-yaml",
     "danielrosehill/Agentic-AI-Architecture-Visualisation",

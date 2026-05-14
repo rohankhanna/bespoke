@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 228,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 6,
-    "terms": 43
+    "components": 274,
+    "concepts": 84,
+    "observations": 84,
+    "repos": 8,
+    "terms": 84
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
+    "abaplint/transpiler",
     "electron/packager",
-    "fluent-vue/fluent-vue",
-    "mightyiam/eslint-config-love",
+    "hexabot-ai/Hexabot",
+    "Luligu/matterbridge",
+    "matter-js/matter.js",
     "skilld-dev/skilld",
-    "Zoo-Code-Org/Zoo-Code"
+    "stx-labs/stacks.js"
   ]
 }

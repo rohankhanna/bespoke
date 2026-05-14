@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 987,
-    "concepts": 579,
-    "observations": 580,
-    "repos": 58,
-    "terms": 571
+    "components": 1133,
+    "concepts": 650,
+    "observations": 651,
+    "repos": 65,
+    "terms": 642
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
-    "ajeetdsouza/zoxide",
     "analysis-tools-dev/static-analysis",
     "asciinema/asciinema",
     "ast-grep/ast-grep",
     "astral-sh/uv",
     "Automattic/harper",
     "bevyengine/bevy",
+    "biomejs/biome",
     "BloopAI/vibe-kanban",
     "casey/just",
     "cjpais/Handy",
@@ -38,6 +38,7 @@
     "FuelLabs/sway",
     "getzola/zola",
     "gfx-rs/wgpu",
+    "GitoxideLabs/gitoxide",
     "gitui-org/gitui",
     "gleam-lang/gleam",
     "googleworkspace/cli",
@@ -47,15 +48,19 @@
     "hyperium/tonic",
     "iced-rs/iced",
     "jdx/mise",
+    "jj-vcs/jj",
     "launchbadge/sqlx",
     "microsoft/windows-rs",
     "nearai/ironclaw",
     "openai/codex",
     "orhun/git-cliff",
+    "PyO3/pyo3",
+    "quickwit-oss/quickwit",
     "ratatui/ratatui",
     "rayon-rs/rayon",
     "rust-lang/cargo",
     "rust-lang/rust-clippy",
+    "RustPython/RustPython",
     "Schniz/fnm",
     "seanmonstar/reqwest",
     "seanmonstar/warp",
@@ -64,6 +69,7 @@
     "sharkdp/fd",
     "Spotifyd/spotifyd",
     "starship/starship",
+    "surrealdb/surrealdb",
     "swc-project/swc",
     "tokio-rs/axum",
     "tokio-rs/tokio",
@@ -71,6 +77,7 @@
     "typst/typst",
     "vercel-labs/agent-browser",
     "web-infra-dev/rspack",
+    "zed-industries/zed",
     "zeroclaw-labs/zeroclaw"
   ]
 }

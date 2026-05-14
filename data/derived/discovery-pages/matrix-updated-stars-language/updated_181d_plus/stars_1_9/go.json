@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 158,
-    "concepts": 125,
-    "observations": 125,
-    "repos": 65,
-    "terms": 124
+    "components": 160,
+    "concepts": 126,
+    "observations": 126,
+    "repos": 66,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "0ghny/tlsg10x-cli",
     "13rac1/goldmark-embed",
@@ -31,6 +31,7 @@
     "Binozo/GoStableDiffusion",
     "bored-engineer/httpcache",
     "bors-ng/dockerize",
+    "can3p/go-hrx",
     "canidam/echo-scs-session",
     "chawyehsu/nvm-windows",
     "Chocolate4U/sing-geoip",

@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 273,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 80,
-    "terms": 94
+    "components": 286,
+    "concepts": 99,
+    "observations": 99,
+    "repos": 85,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "1000ch/Sublime-csso",
     "abap2UI5-addons/popups",
     "aldernero/spider",
+    "aleclarson/vite-multi-spa",
     "all-the-noises/data",
     "appscodelabs/liche",
     "artsy/react-native-launch-arguments",
@@ -23,6 +24,7 @@
     "babashka/homebrew-brew",
     "bgw/bincode",
     "biocypher/biocypher-cookiecutter-template",
+    "CADindustries/container",
     "cloudaper/compact_enc_det_fork",
     "czk23/YiTu",
     "danielrosehill/Agent-Deploy",
@@ -35,7 +37,9 @@
     "danielrosehill/Back-Up-Your-SaaS",
     "danielrosehill/BTRFS-Snapper-MCP",
     "danielrosehill/Claude-Interview-062325",
+    "danielrosehill/Claude-Model-Identifier",
     "danielrosehill/Claude-Rescue",
+    "danielrosehill/Claude-Security-Checkup-Plugin",
     "danielrosehill/Data-Projects-Index",
     "danielrosehill/Failover-Internet-Israel-Notes",
     "danielrosehill/git-github-plugin",
@@ -89,6 +93,7 @@
     "rose-pine/homebrew-tap",
     "sarlinpe/pybind11-stubgen",
     "smallscientist1/tilelang",
+    "sp1-patches/curve25519-dalek",
     "stainless-api/tsc-multi",
     "ved015/CogVideoX-5b-Physics_iq_benchmarking",
     "wintercg/fetch",

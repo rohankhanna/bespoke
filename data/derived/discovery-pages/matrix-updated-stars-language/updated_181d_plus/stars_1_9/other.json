@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1074,
-    "concepts": 494,
-    "observations": 494,
-    "repos": 328,
-    "terms": 500
+    "components": 1079,
+    "concepts": 497,
+    "observations": 497,
+    "repos": 329,
+    "terms": 503
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "2KAbhishek/awesome2k",
     "2KAbhishek/rofi2k",
@@ -189,6 +189,7 @@
     "ipfs-shipyard/ansible-ipfs",
     "iron-e/vim-ungrammar",
     "jb55/ln-ws-proxy",
+    "JimBuzbee/matter-controller",
     "jodyvanden/guard-standardrb",
     "JolifantoBambla/shadercl",
     "JolifantoBambla/varjo",
@@ -301,6 +302,7 @@
     "Shiweiliuiiiiiii/SET-MLP-ONE-MILLION-NEURONS",
     "shovel-org/Base",
     "shunsambongi/neotest-testthat",
+    "sluongng/neotest-bazel",
     "SmileYzn/base16",
     "snowplow-incubator/cla-bot",
     "SteffenDE/makeup_syntect",
@@ -340,7 +342,6 @@
     "yaahc/blog.rust-lang.org",
     "yejimeiming/electron-screenshort",
     "yeslogic/corpus",
-    "zscott/pane",
-    "zulacore/completion-tmux"
+    "zscott/pane"
   ]
 }

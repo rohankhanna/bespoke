@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-05-13T09:51:37.391093+00:00`
+Generated at: `2026-05-14T08:57:55.788728+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 6
-- terms: 48
-- components: 34
-- concepts: 48
-- observations: 48
+- repos: 5
+- terms: 49
+- components: 71
+- concepts: 49
+- observations: 49
 
 ## Static behavior
 
@@ -26,20 +26,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [swiftlang/swift](https://github.com/swiftlang/swift) | 69982 | 2026-05-13T08:42:20Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [triton-lang/triton](https://github.com/triton-lang/triton) | 19162 | 2026-05-13T07:48:57Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
-| [upptime/upptime](https://github.com/upptime/upptime) | 17025 | 2026-05-13T03:51:19Z | Other | Infrastructure/tooling | 14 | 8 | 14 | 14 |
-| [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | 42853 | 2026-05-12T22:21:23Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
-| [dense-analysis/ale](https://github.com/dense-analysis/ale) | 13988 | 2026-05-12T21:34:30Z | Other | CLI | 10 | 3 | 10 | 10 |
-| [meta-llama/llama-cookbook](https://github.com/meta-llama/llama-cookbook) | 18330 | 2026-05-12T11:08:24Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
+| [swiftlang/swift](https://github.com/swiftlang/swift) | 69987 | 2026-05-14T07:22:56Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [upptime/upptime](https://github.com/upptime/upptime) | 17026 | 2026-05-14T03:50:53Z | Other | Infrastructure/tooling | 14 | 8 | 14 | 14 |
+| [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | 42911 | 2026-05-14T03:17:48Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
+| [triton-lang/triton](https://github.com/triton-lang/triton) | 19174 | 2026-05-14T01:08:21Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
+| [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) | 32363 | 2026-05-13T20:00:27Z | Other | Infrastructure/tooling | 19 | 45 | 19 | 19 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [swiftlang/swift](https://github.com/swiftlang/swift) | 69982 | 2026-05-13T08:42:20Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | 42853 | 2026-05-12T22:21:23Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
-| [triton-lang/triton](https://github.com/triton-lang/triton) | 19162 | 2026-05-13T07:48:57Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
-| [meta-llama/llama-cookbook](https://github.com/meta-llama/llama-cookbook) | 18330 | 2026-05-12T11:08:24Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
-| [upptime/upptime](https://github.com/upptime/upptime) | 17025 | 2026-05-13T03:51:19Z | Other | Infrastructure/tooling | 14 | 8 | 14 | 14 |
-| [dense-analysis/ale](https://github.com/dense-analysis/ale) | 13988 | 2026-05-12T21:34:30Z | Other | CLI | 10 | 3 | 10 | 10 |
+| [swiftlang/swift](https://github.com/swiftlang/swift) | 69987 | 2026-05-14T07:22:56Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | 42911 | 2026-05-14T03:17:48Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
+| [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) | 32363 | 2026-05-13T20:00:27Z | Other | Infrastructure/tooling | 19 | 45 | 19 | 19 |
+| [triton-lang/triton](https://github.com/triton-lang/triton) | 19174 | 2026-05-14T01:08:21Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
+| [upptime/upptime](https://github.com/upptime/upptime) | 17026 | 2026-05-14T03:50:53Z | Other | Infrastructure/tooling | 14 | 8 | 14 | 14 |

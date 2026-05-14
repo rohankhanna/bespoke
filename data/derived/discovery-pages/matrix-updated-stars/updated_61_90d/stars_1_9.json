@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 496,
-    "concepts": 363,
-    "observations": 363,
-    "repos": 122,
-    "terms": 357
+    "components": 491,
+    "concepts": 362,
+    "observations": 362,
+    "repos": 121,
+    "terms": 356
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "0x676e67/0x676e67",
@@ -44,7 +44,6 @@
     "apostrophecms/starter-kit-astro-essentials",
     "appbaseio/reactivesearch-api-docker",
     "arran4/lemmy_notify",
-    "arya-s/phantty",
     "aspect-build/rules_jasmine",
     "automazeio/proof-go",
     "autowarefoundation/.github",
@@ -65,6 +64,7 @@
     "danielrosehill/Agentic-AI-Architecture-Visualisation",
     "danielrosehill/claude-agent-workspace-generator",
     "danielrosehill/Claude-Dork",
+    "danielrosehill/Claude-MD-Chunk",
     "datachainlab/ethereum-ibc-relay-prover",
     "DavidKinder/Libraries",
     "day50-dev/mcp-search-and-run",
@@ -106,11 +106,11 @@
     "objectbox/objectbox-swift-generator",
     "open-rpc/markdown-gen",
     "OpenCIDN/httpmirror",
-    "orlp/color-backtrace",
     "paolodamico/ruint-uniffi",
     "PBK-B/i18next-cli-vue",
     "piebald-ai/.github",
     "PyThaiNLP/pythainlp-corpus",
+    "radian-software/gnu-elpa-mirror",
     "realworld-apps/nitro-prisma-zod-realworld-example-app",
     "redis-developer/redis-starter-csharp",
     "redis-developer/redis-starter-go",
@@ -120,7 +120,6 @@
     "saalfeldlab/n5-google-cloud",
     "shakacode/package_json",
     "sigp/quick-protobuf",
-    "sp1-patches/curve25519-dalek-ng",
     "stephanj/sonarlint-devoxxgenie-intellij",
     "stephanj/spotbugs-devoxxgenie-plugin",
     "SWE-bench/SWE-smith-envs",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 116,
-    "concepts": 192,
-    "observations": 192,
-    "repos": 13,
-    "terms": 192
+    "components": 95,
+    "concepts": 126,
+    "observations": 127,
+    "repos": 10,
+    "terms": 126
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
-    "Comfy-Org/ComfyUI-Manager",
-    "crewAIInc/crewAI",
-    "great-expectations/great_expectations",
-    "hiyouga/LlamaFactory",
+    "axolotl-ai-cloud/axolotl",
     "huggingface/pytorch-image-models",
-    "ludwig-ai/ludwig",
+    "huggingface/sentence-transformers",
     "modelscope/DiffSynth-Studio",
-    "modelscope/ms-swift",
-    "qubvel-org/segmentation_models.pytorch",
-    "run-llama/llama_index",
-    "ungoogled-software/ungoogled-chromium"
+    "PDFMathTranslate/PDFMathTranslate",
+    "psf/black",
+    "pyg-team/pytorch_geometric",
+    "zhayujie/CowAgent"
   ]
 }

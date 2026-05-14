@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5232,
-    "concepts": 1867,
-    "observations": 1869,
-    "repos": 1316,
-    "terms": 1862
+    "components": 5251,
+    "concepts": 1874,
+    "observations": 1876,
+    "repos": 1323,
+    "terms": 1869
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -133,6 +133,7 @@
     "altendky/qt-tools",
     "AmamiyaRenn/TaichiCourseS1Hw1",
     "amanbolat/zederr",
+    "amiart/qt-lzstring",
     "amilajack/eslint-plugin-compat-demo",
     "AnamuddinAhmad/Portfolio_1",
     "andenacitelli/openapi-endpoint-trimmer",
@@ -284,6 +285,7 @@
     "camenduru/MagicTime-replicate",
     "camenduru/memo-jupyter",
     "camenduru/memo-tost",
+    "can3p/go-hrx",
     "candid82/cljf",
     "canidam/echo-scs-session",
     "caoxiemeihao/blog",
@@ -587,6 +589,7 @@
     "funstory-ai/jobs",
     "funtoo/core-kit",
     "fwcd/atom-ide-kotlin",
+    "FxEmbed/mosaic-reference",
     "g-plane/pretty_jinja",
     "ga4gh/large-scale-genomics-wiki",
     "gabrielschulhof/iotivity-node",
@@ -776,6 +779,7 @@
     "jennifermarsman/PhiRecycling",
     "jessicaStorer88/RepeatMasker_library_CHM13",
     "jianweisun007/athena-sjw",
+    "JimBuzbee/matter-controller",
     "jina-ai/glid-3-xl",
     "jina-ai/swinir",
     "jinfeihan57/p7zip_test_utils",
@@ -973,7 +977,9 @@
     "Muennighoff/sentence-transformers",
     "multipath/fairseq-stable",
     "MunifTanjim/llhttp.lua",
+    "mxcl/mash",
     "my-liminal-space/read-parquet-browser",
+    "nabijaczleweli/hrx.rs",
     "nanxstats/ssw-r",
     "Narsil/cudarc",
     "nasa-petal/PeTaL-db",
@@ -1183,6 +1189,7 @@
     "simonpoole/osm-area-tags",
     "simonw/scrape-san-mateo-fire-dispatch",
     "SivilTaram/tapex_transformers",
+    "sluongng/neotest-bazel",
     "SmileYzn/base16",
     "snowplow-incubator/cla-bot",
     "sokra/triomphe",
@@ -1205,6 +1212,7 @@
     "supabase-community/supabase-samples",
     "surrealdb/license",
     "suzuki-shunsuke/versioning-policy",
+    "SWE-agent/swe-agent-media",
     "SWHL/ProcessLaTeXFormulaTools",
     "swiftgen/eve",
     "TA-Lib/ta-lib-proposal-drafts",
@@ -1326,7 +1334,6 @@
     "ZhengyiLuo/smplx",
     "zscott/pane",
     "ZubinGou/latex2sympy",
-    "zulacore/completion-tmux",
     "zytedata/zyte-smartproxy-playwright",
     "zytedata/zyte-smartproxy-plugin"
   ]

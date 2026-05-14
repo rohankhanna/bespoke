@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 30,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 31,
-    "terms": 26
+    "components": 35,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 32,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "aaron-he-zhu/cite-domain-rating",
     "airowe/claude-a11y-skill",
@@ -36,11 +36,12 @@
     "jupyter-widgets/team-compass",
     "kornia/data",
     "lionel-/biome",
+    "orlp/color-backtrace",
     "rose-pine/.github",
     "sigstore/.github",
     "simonpoole/geocontext",
+    "sp1-patches/curve25519-dalek-ng",
     "steve-todorov/oidc-debugger-action",
-    "SWE-agent/swe-agent-media",
     "Triang-jyed-driung/Albatross",
     "trufflesecurity/test_keys",
     "vercel-labs/include_dir",

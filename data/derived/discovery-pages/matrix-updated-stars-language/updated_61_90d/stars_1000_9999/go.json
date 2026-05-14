@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 76,
-    "concepts": 85,
-    "observations": 85,
+    "concepts": 87,
+    "observations": 87,
     "repos": 23,
-    "terms": 88
+    "terms": 87
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "abh/geodns",
     "coder/websocket",
@@ -22,13 +22,13 @@
     "duke-git/lancet",
     "flashbots/mev-boost",
     "go-rod/rod",
-    "gobwas/ws",
     "golang/oauth2",
     "google/go-cmp",
     "hashicorp/go-metrics",
     "hashicorp/memberlist",
     "isaacphi/mcp-language-server",
     "JohannesKaufmann/html-to-markdown",
+    "mailru/easyjson",
     "mattn/efm-langserver",
     "mozillazg/go-pinyin",
     "OffchainLabs/arbitrum-classic",

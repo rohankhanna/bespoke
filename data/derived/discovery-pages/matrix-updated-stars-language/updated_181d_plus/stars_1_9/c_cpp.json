@@ -3,7 +3,7 @@
     "components": 172,
     "concepts": 119,
     "observations": 119,
-    "repos": 86,
+    "repos": 87,
     "terms": 118
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/zzz",
     "abhilash1910/llm.tpc",
@@ -20,6 +20,7 @@
     "adamharrison/lite-xl-www",
     "afd-illinois/eht-babel",
     "AFD-Illinois/iharm2d_v3",
+    "amiart/qt-lzstring",
     "andreasdr/a-gui",
     "andreasdr/minitscript",
     "andreasdr/yannet",

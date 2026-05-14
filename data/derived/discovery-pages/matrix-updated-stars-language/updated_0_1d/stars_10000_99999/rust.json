@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 2,
-    "terms": 21
+    "components": 59,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 4,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "DioxusLabs/dioxus",
+    "nushell/nushell",
+    "rust-lang/mdBook",
     "rust-lang/rust-analyzer"
   ]
 }

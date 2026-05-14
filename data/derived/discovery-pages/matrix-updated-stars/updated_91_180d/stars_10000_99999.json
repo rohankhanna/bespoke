@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 972,
-    "concepts": 555,
-    "observations": 558,
-    "repos": 85,
-    "terms": 551
+    "components": 983,
+    "concepts": 572,
+    "observations": 575,
+    "repos": 87,
+    "terms": 568
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -64,6 +64,8 @@
     "lucidrains/denoising-diffusion-pytorch",
     "MatsuriDayo/NekoBoxForAndroid",
     "microsoft/unilm",
+    "microsoft/vscode-extension-samples",
+    "minio/minio",
     "modin-project/modin",
     "MoonshotAI/Kimi-K2",
     "mozilla/readability",

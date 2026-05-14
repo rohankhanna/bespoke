@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-05-13T09:51:37.391093+00:00`
+Generated at: `2026-05-14T08:57:55.788728+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 5
-- terms: 63
-- components: 76
-- concepts: 63
-- observations: 63
+- repos: 2
+- terms: 18
+- components: 24
+- concepts: 18
+- observations: 18
 
 ## Static behavior
 
@@ -26,18 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [redis/go-redis](https://github.com/redis/go-redis) | 22083 | 2026-05-12T07:31:35Z | Go | CLI | 11 | 10 | 11 | 11 |
-| [gastownhall/beads](https://github.com/gastownhall/beads) | 23591 | 2026-05-11T22:22:36Z | Go | Infrastructure/tooling | 10 | 35 | 10 | 10 |
+| [redis/go-redis](https://github.com/redis/go-redis) | 22087 | 2026-05-12T07:31:35Z | Go | CLI | 11 | 10 | 11 | 11 |
 | [restic/restic](https://github.com/restic/restic) | 33436 | 2026-05-07T20:59:55Z | Go | Infrastructure/tooling | 7 | 14 | 7 | 7 |
-| [flipped-aurora/gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin) | 24641 | 2026-05-06T14:06:13Z | Go | Infrastructure/tooling | 14 | 7 | 14 | 14 |
-| [apache/casbin](https://github.com/apache/casbin) | 20105 | 2026-05-06T11:15:52Z | Go | Infrastructure/tooling | 21 | 10 | 21 | 21 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [restic/restic](https://github.com/restic/restic) | 33436 | 2026-05-07T20:59:55Z | Go | Infrastructure/tooling | 7 | 14 | 7 | 7 |
-| [flipped-aurora/gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin) | 24641 | 2026-05-06T14:06:13Z | Go | Infrastructure/tooling | 14 | 7 | 14 | 14 |
-| [gastownhall/beads](https://github.com/gastownhall/beads) | 23591 | 2026-05-11T22:22:36Z | Go | Infrastructure/tooling | 10 | 35 | 10 | 10 |
-| [redis/go-redis](https://github.com/redis/go-redis) | 22083 | 2026-05-12T07:31:35Z | Go | CLI | 11 | 10 | 11 | 11 |
-| [apache/casbin](https://github.com/apache/casbin) | 20105 | 2026-05-06T11:15:52Z | Go | Infrastructure/tooling | 21 | 10 | 21 | 21 |
+| [redis/go-redis](https://github.com/redis/go-redis) | 22087 | 2026-05-12T07:31:35Z | Go | CLI | 11 | 10 | 11 | 11 |

@@ -3,7 +3,7 @@
     "components": 14,
     "concepts": 80,
     "observations": 80,
-    "repos": 38,
+    "repos": 37,
     "terms": 91
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "ahmadawais/shades-of-purple-vscode",
@@ -32,7 +32,6 @@
     "GuiWonder/MoonStarsKai",
     "IceClear/SeedVR2",
     "joseluisq/macosx-sdks",
-    "langchain4j/awesome-langchain4j",
     "libp2p/js-libp2p-examples",
     "lightning/blips",
     "lintool/guide",

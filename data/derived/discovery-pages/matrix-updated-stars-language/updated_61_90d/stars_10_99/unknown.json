@@ -3,7 +3,7 @@
     "components": 9,
     "concepts": 45,
     "observations": 45,
-    "repos": 13,
+    "repos": 15,
     "terms": 45
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "apache/.github",
     "astroyat/lerobot-ros",
@@ -25,6 +25,8 @@
     "hchiam/learning",
     "hicchicc/x8y12pxDenkiChip",
     "Lynxe-public/Lynxe-public-prompts",
+    "marko-js/examples",
+    "nushell/showcase",
     "robotology/community",
     "robotology/mesh-support"
   ]

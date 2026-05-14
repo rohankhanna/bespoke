@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 160,
-    "concepts": 143,
-    "observations": 144,
-    "repos": 32,
-    "terms": 140
+    "components": 170,
+    "concepts": 142,
+    "observations": 143,
+    "repos": 36,
+    "terms": 139
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,22 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "agentclientprotocol/java-sdk",
     "apache/arrow-java",
     "apache/camel-quarkus-examples",
-    "apache/flink-connector-pulsar",
     "apache/ignite-extensions",
     "apache/netbeans-mavenutils-nbm-maven-plugin",
     "bazel-contrib/rules_jvm",
     "BerkleyTechnologyServices/restdocs-spec",
+    "BerkleyTechnologyServices/restdocs-spec-example",
     "bsorrentino/java-async-generator",
     "bufbuild/protovalidate-java",
     "cedar-policy/cedar-java",
     "codelibs/fess-crawler",
+    "confluentinc/common",
+    "confluentinc/rest-utils",
     "eclipse-shellwax/shellwax",
     "edward3h/minecraft-webhook",
     "filip26/ld-cli",
@@ -33,17 +35,19 @@
     "googleapis/discovery-artifact-manager",
     "googleapis/java-bigtable",
     "googleapis/java-cloud-bom",
+    "googleapis/sdk-platform-java",
     "GoogleCloudPlatform/opentelemetry-operations-java",
     "hivemq/helm-charts",
     "jpmml/jpmml-h2o",
     "jpmml/jpmml-r",
     "kirill-grouchnikov/ephemeral",
-    "kurrent-io/KurrentDB-Client-Java",
     "m2e-code-quality/m2e-code-quality",
     "mukel/gemma4.java",
     "opensim-org/opensim-gui",
     "simonpoole/OpeningHoursFragment",
+    "smithy-lang/smithy-examples",
     "spiffe/java-spiffe",
+    "usdot-fhwa-stol/carma-cloud",
     "xmlark/msv",
     "yawkat/lz4-java"
   ]

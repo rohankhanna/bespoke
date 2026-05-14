@@ -3,7 +3,7 @@
     "components": 169,
     "concepts": 102,
     "observations": 102,
-    "repos": 93,
+    "repos": 94,
     "terms": 102
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "2KAbhishek/exercism-fetcher",
     "3b/cl-vulkan",
+    "a-slice-of-py/nu-aws-service-reference",
     "abap2ui5/abap2ui5-build",
     "aburousan/azaz",
     "adre5577/contour-tinted",

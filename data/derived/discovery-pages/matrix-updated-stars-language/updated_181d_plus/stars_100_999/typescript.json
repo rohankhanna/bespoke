@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4767,
-    "concepts": 707,
-    "observations": 709,
-    "repos": 196,
-    "terms": 718
+    "components": 4776,
+    "concepts": 715,
+    "observations": 717,
+    "repos": 197,
+    "terms": 725
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "101arrowz/fzstd",
     "1hanzla100/developer-portfolio",
@@ -66,6 +66,7 @@
     "cryptonomic/conseiljs",
     "cvlab-epfl/gaussian-splatting-web",
     "danibram/mocker-data-generator",
+    "daybrush/scena",
     "deathau/sliding-panes-obsidian",
     "delashum/obsidian-checklist-plugin",
     "dimforge/rapier.js",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1901,
-    "concepts": 2844,
-    "observations": 2863,
-    "repos": 709,
-    "terms": 2784
+    "components": 1912,
+    "concepts": 2852,
+    "observations": 2871,
+    "repos": 711,
+    "terms": 2787
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -257,6 +257,7 @@
     "danielrosehill/Claude-Dolphin-Konsole-Actions",
     "danielrosehill/Claude-Filesystem-Organiser-Plugin",
     "danielrosehill/Claude-Image-Annotation-Plugin",
+    "danielrosehill/Claude-MD-Chunk",
     "danielrosehill/Claude-Rudder",
     "danielrosehill/Local-Claude-Plugin-Install-Research",
     "danielrosehill/OpenWebUI-Postgres-Qdrant",
@@ -619,6 +620,7 @@
     "sclorg/s2i-php-container",
     "sclorg/s2i-python-container",
     "sclorg/s2i-ruby-container",
+    "scop/bash-completion",
     "semgrep/mcp-marketplace",
     "sentriz/fish-pipenv",
     "serpro69/claude-in-docker",

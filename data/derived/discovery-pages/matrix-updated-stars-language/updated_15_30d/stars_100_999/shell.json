@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 191,
-    "concepts": 269,
-    "observations": 272,
-    "repos": 48,
+    "components": 190,
+    "concepts": 270,
+    "observations": 273,
+    "repos": 49,
     "terms": 275
   },
   "facet_version": 1,
@@ -12,17 +12,17 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "2KAbhishek/dots2k",
-    "actions/upload-pages-artifact",
     "alexmyczko/fnt",
     "alfredolopez80/multi-agent-ralph-loop",
     "alpinelinux/aports",
     "amrsa1/Android-Emulator-image",
     "arangrhie/T2T-Polish",
     "bnb-chain/bsc-snapshots",
+    "cloudfoundry/bosh-deployment",
     "cncf/k8s-conformance",
     "codelibs/docker-fess",
     "dani-garcia/bw_web_builds",
@@ -33,15 +33,17 @@
     "ericbuess/claude-code-docs",
     "gentoo/guru",
     "getsolus/packages",
+    "harbor-framework/terminal-bench-2",
     "heroku/heroku-buildpack-php",
     "justchokingaround/lobster",
     "jvm-repo-rebuild/reproducible-central",
     "kubernetes/sig-release",
     "lemire/docker_programming_station",
     "lovell/sharp-libvips",
+    "microcai/gentoo-zh",
+    "mozilla/addons",
     "msys2/msys2-installer",
     "nodenv/node-build",
-    "numpy/numpy.org",
     "NVIDIA/enroot",
     "opea-project/GenAIExamples",
     "openshift/release",
@@ -60,7 +62,6 @@
     "termux/repology-metadata",
     "tinted-theming/schemes",
     "tonistiigi/xx",
-    "undeadlist/claude-code-agents",
     "unixorn/zsh-quickstart-kit"
   ]
 }

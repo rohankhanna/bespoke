@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 208,
-    "concepts": 160,
-    "observations": 161,
-    "repos": 58,
-    "terms": 157
+    "components": 206,
+    "concepts": 153,
+    "observations": 154,
+    "repos": 56,
+    "terms": 151
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "AadSah/ConverSeg",
     "abduznik/git-alchemist",
@@ -33,7 +33,6 @@
     "ckan/ckanext-xloader",
     "cldf/segments",
     "clearml/clearml-session",
-    "CMBAgents/cmbagent",
     "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
     "Computer-use-agents/dart-gui",
     "corl-team/VL-DAC",
@@ -53,7 +52,6 @@
     "huggingface/image_gen_aux",
     "imlrz/DeepResearch-Bench-II",
     "inducer/genpy",
-    "layumi/3D-Magic-Mirror",
     "liran-funaro/sphinx-markdown-builder",
     "Lizw14/Super-CLEVR",
     "Owen-Liuyuxuan/ros2_vision_inference",

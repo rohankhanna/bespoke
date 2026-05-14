@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2445,
-    "concepts": 540,
-    "observations": 541,
-    "repos": 73,
-    "terms": 569
+    "components": 2564,
+    "concepts": 580,
+    "observations": 581,
+    "repos": 77,
+    "terms": 609
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "abrahamjuliot/creepjs",
     "actions/download-artifact",
@@ -28,8 +28,10 @@
     "ben-rogerson/twin.macro",
     "boxyhq/saas-starter-kit",
     "butlerx/wetty",
+    "capricorn86/happy-dom",
     "cawa-93/vite-electron-builder",
     "changesets/action",
+    "coder/ghostty-web",
     "ekalinin/sitemap.js",
     "electron/windows-installer",
     "ElMassimo/iles",
@@ -42,6 +44,7 @@
     "golang/vscode-go",
     "google-gemini/starter-applets",
     "google-github-actions/run-gemini-cli",
+    "googleapis/release-please",
     "gpac/mp4box.js",
     "graffle-js/graffle",
     "graphql-hive/graphql-config",
@@ -54,6 +57,7 @@
     "isaacs/node-glob",
     "itgalaxy/favicons",
     "jamiebrynes7/obsidian-todoist-plugin",
+    "jaredwray/keyv",
     "josdejong/svelte-jsoneditor",
     "josStorer/RWKV-Runner",
     "Kaliiiiiiiiii-Vinyzu/patchright",

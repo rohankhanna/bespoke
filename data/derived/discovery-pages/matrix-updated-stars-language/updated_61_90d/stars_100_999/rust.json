@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 199,
-    "concepts": 133,
-    "observations": 133,
-    "repos": 33,
-    "terms": 132
+    "components": 192,
+    "concepts": 122,
+    "observations": 122,
+    "repos": 31,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "Ai00-X/ai00_server",
     "arkworks-rs/r1cs-std",
@@ -28,7 +28,6 @@
     "hecrj/icebreaker",
     "ItsEthra/typst-live",
     "IWANABETHATGUY/tower-lsp-boilerplate",
-    "jimblandy/perf-event",
     "Kampfkarren/selene",
     "KyleMayes/clang-rs",
     "KyleMayes/clang-sys",
@@ -36,7 +35,6 @@
     "mozilla/dump_syms",
     "pdf-rs/pdf_render",
     "prisma/tiberius",
-    "ratatui/templates",
     "risinglightdb/sqllogictest-rs",
     "rust-native-tls/rust-native-tls",
     "rust3ds/ctru-rs",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1644,
-    "concepts": 275,
-    "observations": 276,
-    "repos": 38,
-    "terms": 275
+    "components": 1108,
+    "concepts": 165,
+    "observations": 165,
+    "repos": 24,
+    "terms": 165
   },
   "facet_version": 1,
   "filters": {
@@ -12,45 +12,31 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "alphagov/govuk-frontend",
-    "antfu/eslint-config",
-    "apostrophecms/apostrophe",
     "carbon-design-system/carbon",
     "chaijs/chai",
     "ghostery/ghostery-extension",
-    "GoogleChromeLabs/clooney",
-    "GoogleCloudPlatform/nodejs-docs-samples",
     "heshengtao/super-agent-party",
     "jellyfin/jellyfin-web",
     "jquery/jquery-color",
-    "KhronosGroup/Vulkan-Docs",
-    "LavaMoat/LavaMoat",
-    "mermaid-js/mermaid-cli",
-    "middyjs/middy",
     "MikeMcl/bignumber.js",
     "nodeca/js-yaml",
     "nodejs/Release",
     "openstreetmap/iD",
     "openwrt/luci",
-    "parallel-js/parallel.js",
     "pillarjs/iconv-lite",
     "ranisalt/node-argon2",
-    "RisingStack/react-easy-state",
     "stdlib-js/stdlib",
     "stylelint/stylelint-config-standard",
     "sveltejs/devalue",
     "sveltejs/vite-plugin-svelte",
     "sverweij/dependency-cruiser",
-    "swagger-api/swagger-editor",
     "tapjs/tapjs",
-    "terser/terser",
     "uBlockOrigin/uBOL-home",
-    "unifiedjs/unified",
     "violentmonkey/violentmonkey",
     "WebKit/WebKit",
-    "webpack/webpack-cli",
-    "webpack/webpack-dev-middleware"
+    "webpack/webpack-cli"
   ]
 }

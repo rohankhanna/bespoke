@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 852,
-    "concepts": 3614,
-    "observations": 3616,
-    "repos": 922,
-    "terms": 3553
+    "components": 856,
+    "concepts": 3644,
+    "observations": 3646,
+    "repos": 926,
+    "terms": 3583
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -81,6 +81,7 @@
     "asteroid-team/asteroid",
     "asweigart/pyperclip",
     "attardi/wikiextractor",
+    "auspicious3000/autovc",
     "AutoCodeRoverSG/auto-code-rover",
     "autodistill/autodistill",
     "AutoGPTQ/AutoGPTQ",
@@ -181,6 +182,7 @@
     "continue-revolution/sd-webui-segment-anything",
     "corna/me_cleaner",
     "Coyote-A/ultimate-upscale-for-automatic1111",
+    "crossbario/autobahn-testsuite",
     "cruft/cruft",
     "CSAILVision/gandissect",
     "CSAILVision/places365",
@@ -641,6 +643,7 @@
     "openai/human-eval",
     "openai/image-gpt",
     "openai/improved-diffusion",
+    "openai/jukebox",
     "openai/multiagent-particle-envs",
     "openai/point-e",
     "openai/prm800k",
@@ -692,6 +695,7 @@
     "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
     "pkuliyi2015/sd-webui-stablesr",
     "PlayVoice/vits_chinese",
+    "PlayVoice/whisper-vits-svc",
     "Po-Hsun-Su/pytorch-ssim",
     "Pokee-AI/PokeeResearchOSS",
     "poloclub/diffusiondb",

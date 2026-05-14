@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 207,
-    "concepts": 61,
-    "observations": 61,
-    "repos": 19,
-    "terms": 61
+    "components": 212,
+    "concepts": 62,
+    "observations": 62,
+    "repos": 20,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "a5huynh/vscode-ron",
     "ably-labs/realtime-multiplayer-space-invaders",
@@ -32,6 +32,7 @@
     "L2jLiga/grunt-webfonts",
     "mongodb-js/zstd",
     "OpenHands/openhands-chrome-extension",
+    "Rob--W/proxy-from-env",
     "ruby/setup-ruby-pkgs"
   ]
 }

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 332,
+    "components": 334,
     "concepts": 55,
     "observations": 56,
-    "repos": 18,
+    "repos": 19,
     "terms": 54
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "adobe-photoshop/generator-core",
     "appbaseio/searchbox",
@@ -31,6 +31,7 @@
     "React9k/react-timeline-9000",
     "sindresorhus/multimatch",
     "testing-library/eslint-plugin-jest-dom",
+    "thejoshwolfe/yazl",
     "usnistgov/jsfive"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 95,
-    "concepts": 124,
-    "observations": 124,
-    "repos": 16,
-    "terms": 124
+    "components": 40,
+    "concepts": 56,
+    "observations": 56,
+    "repos": 11,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
-    "all-contributors/allcontributors.org",
     "benchflow-ai/skillsbench",
-    "clj-kondo/clj-kondo",
     "dotnet/reactive",
     "hacl-star/hacl-star",
     "intel/BigDL",
     "lightning/bolts",
-    "minad/consult",
-    "mrcjkb/rustaceanvim",
+    "nushell/awesome-nu",
     "nvim-mini/mini.nvim",
     "nvim-tree/nvim-web-devicons",
     "okd-project/okd",
-    "psmux/psmux",
-    "theJayTea/WritingTools",
-    "truffleruby/truffleruby",
+    "TryGhost/node-sqlite3",
     "xororz/local-dream"
   ]
 }

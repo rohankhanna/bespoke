@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 39,
-    "concepts": 52,
-    "observations": 52,
-    "repos": 84,
-    "terms": 61
+    "components": 44,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 88,
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "alexcrichton/cc-rs",
@@ -46,7 +46,6 @@
     "danielrosehill/AI-Dev-Workspace-Primitives",
     "danielrosehill/AI-Geopol-Projects",
     "danielrosehill/AI-Memory-Layers",
-    "danielrosehill/AI-Memory-Planning-0426",
     "danielrosehill/AI-Presentation-Builders-Index",
     "danielrosehill/AI-Safety-Projects-Index",
     "danielrosehill/Arch-And-Interiors-Index",
@@ -60,6 +59,7 @@
     "danielrosehill/Claude-Browser-Data-Capture-Plugin",
     "danielrosehill/Claude-Budgeting-Plugin",
     "danielrosehill/Claude-Business-Idea-Eval-Plugin",
+    "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
     "danielrosehill/Claude-Career-Plugin",
     "danielrosehill/Claude-Code-Bugs-And-FRs",
     "danielrosehill/Claude-Code-Feedback",
@@ -67,12 +67,15 @@
     "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin",
     "danielrosehill/Claude-Declutter-Genie-Plugin",
     "danielrosehill/Claude-Digital-Printing-Plugin",
+    "danielrosehill/Claude-Github-Explorer-Plugin",
     "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
+    "danielrosehill/Claude-Hopper",
     "danielrosehill/Claude-HTML-Email-Designer-Plugin",
     "danielrosehill/Claude-Israel",
     "danielrosehill/Claude-Jewish-Utilities-Plugin",
     "danielrosehill/Claude-KDE-Plasmoid-Dev-Plugin",
     "danielrosehill/Claude-Knowledge-Documentation-Plugin",
+    "danielrosehill/Claude-Personal-Planning-Plugin",
     "danielrosehill/Claude-Workspace-Reshaping-190426",
     "danielrosehill/DOCS.md",
     "danielrosehill/ENVIRONMENT.md",
@@ -93,9 +96,10 @@
     "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",
     "narutoxdd6/nyro",
     "pragmatical-transshipment598/claude-code-workflows",
+    "qiayuanl/unitree_buildfarm",
     "shouted-numberone752/wechat-agent-connector",
+    "sp1-patches/elliptic-curves",
     "TransferQueue/community_doc",
-    "ublacklist/store-assets",
     "vivianalaced749/vk-calls-tunnel",
     "wendyalbanez/clawui"
   ]

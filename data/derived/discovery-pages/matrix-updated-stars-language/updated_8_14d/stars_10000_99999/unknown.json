@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 5,
-    "terms": 51
+    "components": 15,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 4,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "brave/brave-browser",
-    "firstcontributions/first-contributions",
     "Loyalsoldier/v2ray-rules-dat",
     "obsidianmd/obsidian-releases",
     "punkpeye/awesome-mcp-servers"

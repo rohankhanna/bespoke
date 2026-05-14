@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 495,
-    "concepts": 76,
-    "observations": 76,
-    "repos": 25,
-    "terms": 76
+    "components": 445,
+    "concepts": 71,
+    "observations": 71,
+    "repos": 23,
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
@@ -26,7 +26,6 @@
     "hbenl/vscode-mocha-test-adapter",
     "holochain/hc-spin",
     "HoneyLuka/uBlacklist",
-    "hsimpson/vscode-glsllint",
     "ipfs/js-kubo-rpc-client",
     "janwilmake/openapisearch",
     "nulone/claude-rules-doctor",
@@ -37,7 +36,6 @@
     "Shougo/ddu-filter-matcher_substring",
     "Shougo/ddu-kind-file",
     "stx-labs/connect",
-    "trzsz/tabby-trzsz",
-    "windsonR/vite-plugin-virtual-html"
+    "trzsz/tabby-trzsz"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 179,
-    "concepts": 257,
-    "observations": 258,
-    "repos": 62,
-    "terms": 255
+    "components": 184,
+    "concepts": 267,
+    "observations": 268,
+    "repos": 65,
+    "terms": 265
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "angr/vex",
@@ -30,6 +30,7 @@
     "CGCL-codes/YiTu",
     "chfast/intx",
     "conor42/fast-lzma2",
+    "creachadair/imath",
     "deeptools/pyBigWig",
     "dthuerck/mapmap_cpu",
     "eddelbuettel/rinside",
@@ -61,6 +62,7 @@
     "nihui/ncnn-android-scrfd",
     "nobleo/rviz_satellite",
     "nonstd-lite/string-view-lite",
+    "nvpro-samples/nvpro_core",
     "openxrlab/xrslam",
     "osvenskan/posix_ipc",
     "ParRes/Kernels",
@@ -75,6 +77,7 @@
     "swigger/wechat-ocr",
     "TkTech/can_ada",
     "tomfunkhouser/gaps",
+    "xtensor-stack/xtl",
     "ZDisket/TensorVox"
   ]
 }

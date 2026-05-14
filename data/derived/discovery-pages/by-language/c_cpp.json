@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9264,
-    "concepts": 11001,
-    "observations": 11027,
-    "repos": 2280,
-    "terms": 10910
+    "components": 9266,
+    "concepts": 11018,
+    "observations": 11044,
+    "repos": 2285,
+    "terms": 10927
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0xPolygonHermez/pil2-proofman",
@@ -121,6 +121,7 @@
     "ambrop72/badvpn",
     "amerkoleci/Alimer.Bindings",
     "amerkoleci/joltc",
+    "amiart/qt-lzstring",
     "aminroosta/sqlite_modern_cpp",
     "amir684/esp32c3-red-alert",
     "ampl/mp",
@@ -140,6 +141,7 @@
     "andrewrk/node-groove",
     "andrewtrotman/JASSv2",
     "andy-thomason/Vookoo",
+    "andykras/lz-string-cpp",
     "andyzeng/3dmatch-toolbox",
     "angr/vex",
     "anhero/JsonBox",
@@ -766,6 +768,7 @@
     "flann-lib/flann",
     "flashlight/flashlight",
     "flashlight/text",
+    "flashlight/wav2letter",
     "flashrom/flashrom",
     "flatpak/flatpak",
     "flatpak/flatpak-xdg-utils",
@@ -2052,6 +2055,7 @@
     "Taywee/args",
     "teaxyz/teaBASE",
     "TechEmpower/FrameworkBenchmarks",
+    "TEN-framework/ten-vad",
     "Tencent/ncnn",
     "Tencent/rapidjson",
     "Tencent/TNN",
@@ -2227,6 +2231,7 @@
     "wxinix/wxlib",
     "xinntao/Real-ESRGAN-ncnn-vulkan",
     "xiongzhu666/Sky-Segmentation-and-Post-processing",
+    "xiph/LPCNet",
     "xiph/vorbis",
     "xjb714/xjb",
     "xlab/libvpx-go",

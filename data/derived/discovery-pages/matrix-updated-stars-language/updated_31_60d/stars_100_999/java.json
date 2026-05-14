@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 102,
-    "concepts": 169,
-    "observations": 169,
-    "repos": 22,
-    "terms": 166
+    "components": 109,
+    "concepts": 173,
+    "observations": 173,
+    "repos": 23,
+    "terms": 170
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-13T09:51:37.391093+00:00",
+  "generated_at": "2026-05-14T08:57:55.788728+00:00",
   "repo_ids": [
     "apache/camel-examples",
     "apache/doris-flink-connector",
     "apache/doris-spark-connector",
     "Azure-Samples/agent-openai-java-banking-assistant",
+    "carrot2/carrot2",
     "chromiumembedded/java-cef",
     "eclipse-buildship/buildship",
     "eclipse-tm4e/tm4e",
