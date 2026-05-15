@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 129,
+    "components": 149,
     "concepts": 34,
     "observations": 34,
-    "repos": 10,
+    "repos": 12,
     "terms": 35
   },
   "facet_version": 1,
@@ -12,9 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "aaronlamz/navpress",
+    "aidenlab/spacewalk",
+    "aidenlab/swtool",
     "danielrosehill/Claude-Israel-Shopping-Plugin",
     "fabon-f/temporal-polyfill-comparison",
     "gyf0311/lorekit",

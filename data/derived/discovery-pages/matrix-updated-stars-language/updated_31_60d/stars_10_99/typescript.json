@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 874,
-    "concepts": 136,
-    "observations": 136,
-    "repos": 38,
-    "terms": 140
+    "components": 936,
+    "concepts": 156,
+    "observations": 157,
+    "repos": 41,
+    "terms": 160
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
     "acro5piano/kysely-migration-cli",
+    "agents-squads/squads-cli",
     "apache/incubator-devlake-website",
     "automazeio/proof",
     "aws-samples/aws-sdk-js-notes-app",
@@ -24,7 +25,9 @@
     "bestkolobok/vue3-jsoneditor",
     "blrchen/chatgpt-minimal",
     "buddingnewinsights/proxypal",
+    "buttondown/cli",
     "cahamilton/stylelint-config-property-sort-order-smacss",
+    "electron-userland/electron-windows-msix",
     "ElementsProject/cln-application",
     "gicentre/prettier-plugin-elm",
     "gnosischain/gbc-deposit-ui",

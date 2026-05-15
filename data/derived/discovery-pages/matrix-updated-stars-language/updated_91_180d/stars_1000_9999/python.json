@@ -4,7 +4,7 @@
     "concepts": 699,
     "observations": 700,
     "repos": 152,
-    "terms": 689
+    "terms": 686
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "AIDC-AI/Marco-o1",
     "AIDC-AI/Ovis",

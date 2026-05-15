@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 53
-- terms: 281
-- components: 1307
-- concepts: 282
-- observations: 282
+- repos: 54
+- terms: 288
+- components: 1335
+- concepts: 289
+- observations: 289
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [webtorrent/webtorrent-cli](https://github.com/webtorrent/webtorrent-cli) | 1340 | 2026-04-14T22:15:43Z | JavaScript | CLI | 7 | 28 | 7 | 7 |
 | [GoogleChromeLabs/ProjectVisBug](https://github.com/GoogleChromeLabs/ProjectVisBug) | 5726 | 2026-04-14T01:18:27Z | JavaScript | Infrastructure/tooling | 7 | 30 | 7 | 7 |
 | [mapbox/maki](https://github.com/mapbox/maki) | 1567 | 2026-04-13T23:02:51Z | JavaScript | Unknown | 3 | 11 | 3 | 3 |
 | [ai/size-limit](https://github.com/ai/size-limit) | 6905 | 2026-04-13T19:45:44Z | JavaScript | Infrastructure/tooling | 2 | 27 | 2 | 2 |
@@ -130,6 +131,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sindresorhus/hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy) | 1484 | 2026-04-11T17:52:00Z | JavaScript | CLI | 7 | 0 | 7 | 7 |
 | [jshttp/mime-types](https://github.com/jshttp/mime-types) | 1462 | 2026-04-01T16:54:15Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [crossbario/autobahn-js](https://github.com/crossbario/autobahn-js) | 1449 | 2026-03-21T11:03:15Z | JavaScript | Infrastructure/tooling | 11 | 18 | 11 | 11 |
+| [webtorrent/webtorrent-cli](https://github.com/webtorrent/webtorrent-cli) | 1340 | 2026-04-14T22:15:43Z | JavaScript | CLI | 7 | 28 | 7 | 7 |
 | [mantoni/eslint_d.js](https://github.com/mantoni/eslint_d.js) | 1211 | 2026-04-10T03:25:49Z | JavaScript | Infrastructure/tooling | 8 | 20 | 8 | 8 |
 | [actions/javascript-action](https://github.com/actions/javascript-action) | 1168 | 2026-04-13T10:40:42Z | JavaScript | Infrastructure/tooling | 5 | 26 | 5 | 5 |
 | [ethereum/devp2p](https://github.com/ethereum/devp2p) | 1114 | 2026-03-30T13:14:04Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |

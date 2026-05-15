@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 425,
-    "concepts": 126,
-    "observations": 126,
-    "repos": 22,
-    "terms": 125
+    "components": 410,
+    "concepts": 118,
+    "observations": 118,
+    "repos": 21,
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "Adobe-CEP/CEP-Resources",
     "anandthakker/doiuse",
@@ -34,7 +34,6 @@
     "rollup/plugins",
     "sindresorhus/clipboardy",
     "svg-sprite/svg-sprite",
-    "treosh/lighthouse-ci-action",
-    "typicode/mistcss"
+    "treosh/lighthouse-ci-action"
   ]
 }

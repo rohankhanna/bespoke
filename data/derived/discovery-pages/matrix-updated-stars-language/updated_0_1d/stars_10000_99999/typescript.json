@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 494,
-    "concepts": 119,
-    "observations": 121,
+    "components": 541,
+    "concepts": 118,
+    "observations": 120,
     "repos": 6,
-    "terms": 128
+    "terms": 127
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
-    "fuma-nama/fumadocs",
+    "ChatGPTNextWeb/NextChat",
     "HumanSignal/label-studio",
     "lobehub/lobehub",
-    "lucide-icons/lucide",
     "ruvnet/ruflo",
-    "storybookjs/storybook"
+    "storybookjs/storybook",
+    "vercel-labs/skills"
   ]
 }

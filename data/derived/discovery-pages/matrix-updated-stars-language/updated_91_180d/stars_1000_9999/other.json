@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 378,
-    "concepts": 433,
-    "observations": 435,
-    "repos": 92,
-    "terms": 431
+    "components": 390,
+    "concepts": 440,
+    "observations": 442,
+    "repos": 93,
+    "terms": 443
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "Alexander-Miller/treemacs",
+    "amebalabs/TRex",
     "ankane/dexter",
     "ankane/pgslice",
     "ankane/pgsync",
@@ -39,7 +40,6 @@
     "dempfi/ayu",
     "DotNetAnalyzers/StyleCopAnalyzers",
     "dspinellis/latex-advice",
-    "EleutherAI/pythia",
     "elixir-lang/gen_stage",
     "emacs-lsp/dap-mode",
     "emacs-lsp/lsp-ui",
@@ -99,6 +99,7 @@
     "symfony/cache-contracts",
     "Tencent-Hunyuan/HunyuanDiT",
     "thu-ml/SageAttention",
+    "touchlab/droidconkotlin",
     "tpope/vim-dadbod",
     "tris203/precognition.nvim",
     "VectorSpaceLab/OmniGen",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 140,
-    "concepts": 108,
-    "observations": 109,
-    "repos": 37,
-    "terms": 107
+    "components": 146,
+    "concepts": 110,
+    "observations": 111,
+    "repos": 34,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "alphagov/govuk-rfcs",
     "BioContainers/multi-package-containers",
@@ -23,18 +23,15 @@
     "Dexters-Hub/Dexters-Hub",
     "docker/github-builder",
     "elastic/logstash-docs",
-    "flinedev/plankit",
-    "ganelson/inform-evolution",
+    "filecoin-project/Allocator-Registry",
     "GDevelopApp/GDevelop-community-list",
     "goharbor/community",
     "google/oss-policies-info",
     "Homebrew/.github",
     "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
     "jupyterlab/frontends-team-compass",
-    "kubernetes/steering",
     "mypyc/mypyc-benchmark-results",
     "ocaml/platform-blog",
-    "openobserve/dashboards",
     "pre-commit/mirrors-eslint",
     "prefix-dev/rattler-build-action",
     "qemus/virtiso-whql",

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 31
-- terms: 210
-- components: 171
-- concepts: 215
-- observations: 217
+- repos: 32
+- terms: 234
+- components: 179
+- concepts: 240
+- observations: 242
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [cmderdev/cmder](https://github.com/cmderdev/cmder) | 26878 | 2026-04-14T23:54:02Z | Other | Infrastructure/tooling | 15 | 7 | 16 | 16 |
+| [nikitabobko/AeroSpace](https://github.com/nikitabobko/AeroSpace) | 20534 | 2026-04-14T18:03:21Z | Other | Infrastructure/tooling | 9 | 1 | 9 | 9 |
 | [mikepenz/MaterialDrawer](https://github.com/mikepenz/MaterialDrawer) | 11649 | 2026-04-14T04:54:43Z | Other | Infrastructure/tooling | 18 | 11 | 18 | 18 |
 | [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12243 | 2026-04-14T04:41:07Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [microsoft/OmniParser](https://github.com/microsoft/OmniParser) | 24677 | 2026-04-13T23:45:39Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -55,8 +57,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google/dopamine](https://github.com/google/dopamine) | 10878 | 2026-03-24T18:11:40Z | Other | Framework | 2 | 0 | 2 | 2 |
 | [Swordfish90/cool-retro-term](https://github.com/Swordfish90/cool-retro-term) | 25493 | 2026-03-19T21:20:57Z | Other | CLI | 5 | 5 | 5 | 5 |
 | [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) | 62656 | 2026-03-17T19:17:14Z | Other | Infrastructure/tooling | 19 | 15 | 20 | 20 |
-| [TA-Lib/ta-lib-python](https://github.com/TA-Lib/ta-lib-python) | 11954 | 2026-03-16T16:55:43Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [datawhalechina/happy-llm](https://github.com/datawhalechina/happy-llm) | 29760 | 2026-03-16T02:21:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [TA-Lib/ta-lib-python](https://github.com/TA-Lib/ta-lib-python) | 11956 | 2026-03-16T16:55:43Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -69,14 +70,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [koalaman/shellcheck](https://github.com/koalaman/shellcheck) | 39311 | 2026-04-04T02:03:45Z | Other | Infrastructure/tooling | 5 | 4 | 7 | 7 |
 | [google/styleguide](https://github.com/google/styleguide) | 39230 | 2026-04-09T16:35:19Z | Other | Docs/knowledge | 3 | 0 | 3 | 3 |
 | [openai/CLIP](https://github.com/openai/CLIP) | 33281 | 2026-03-25T18:46:40Z | Other | CLI | 3 | 2 | 3 | 3 |
-| [datawhalechina/happy-llm](https://github.com/datawhalechina/happy-llm) | 29760 | 2026-03-16T02:21:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [fastai/fastai](https://github.com/fastai/fastai) | 27985 | 2026-04-06T03:30:03Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
+| [cmderdev/cmder](https://github.com/cmderdev/cmder) | 26878 | 2026-04-14T23:54:02Z | Other | Infrastructure/tooling | 15 | 7 | 16 | 16 |
 | [LazyVim/LazyVim](https://github.com/LazyVim/LazyVim) | 26000 | 2026-04-02T08:24:54Z | Other | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [Swordfish90/cool-retro-term](https://github.com/Swordfish90/cool-retro-term) | 25493 | 2026-03-19T21:20:57Z | Other | CLI | 5 | 5 | 5 | 5 |
 | [microsoft/OmniParser](https://github.com/microsoft/OmniParser) | 24677 | 2026-04-13T23:45:39Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [heartcombo/devise](https://github.com/heartcombo/devise) | 24347 | 2026-04-10T14:43:55Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [guidance-ai/guidance](https://github.com/guidance-ai/guidance) | 21425 | 2026-04-10T12:34:10Z | Other | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [Seldaek/monolog](https://github.com/Seldaek/monolog) | 21391 | 2026-04-13T12:46:28Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
+| [nikitabobko/AeroSpace](https://github.com/nikitabobko/AeroSpace) | 20534 | 2026-04-14T18:03:21Z | Other | Infrastructure/tooling | 9 | 1 | 9 | 9 |
 | [facebookresearch/sam2](https://github.com/facebookresearch/sam2) | 19070 | 2026-04-07T10:46:51Z | Other | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [Ileriayo/markdown-badges](https://github.com/Ileriayo/markdown-badges) | 16475 | 2026-03-26T06:06:43Z | Other | Infrastructure/tooling | 7 | 5 | 9 | 9 |
 | [fatih/vim-go](https://github.com/fatih/vim-go) | 16231 | 2026-03-28T02:13:15Z | Other | Infrastructure/tooling | 8 | 6 | 8 | 8 |
@@ -85,7 +87,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/language-server-protocol](https://github.com/microsoft/language-server-protocol) | 12780 | 2026-04-08T16:30:34Z | Other | Service/API | 0 | 0 | 0 | 0 |
 | [facebookresearch/dinov2](https://github.com/facebookresearch/dinov2) | 12777 | 2026-04-08T15:11:48Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12243 | 2026-04-14T04:41:07Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [TA-Lib/ta-lib-python](https://github.com/TA-Lib/ta-lib-python) | 11954 | 2026-03-16T16:55:43Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [TA-Lib/ta-lib-python](https://github.com/TA-Lib/ta-lib-python) | 11956 | 2026-03-16T16:55:43Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [mikepenz/MaterialDrawer](https://github.com/mikepenz/MaterialDrawer) | 11649 | 2026-04-14T04:54:43Z | Other | Infrastructure/tooling | 18 | 11 | 18 | 18 |
 | [devicons/devicon](https://github.com/devicons/devicon) | 11575 | 2026-04-02T07:50:53Z | Other | Infrastructure/tooling | 14 | 22 | 14 | 14 |
 | [google/dopamine](https://github.com/google/dopamine) | 10878 | 2026-03-24T18:11:40Z | Other | Framework | 2 | 0 | 2 | 2 |

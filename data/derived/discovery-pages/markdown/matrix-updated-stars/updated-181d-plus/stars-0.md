@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 416
-- terms: 502
-- components: 1177
-- concepts: 502
-- observations: 504
+- repos: 419
+- terms: 503
+- components: 1179
+- concepts: 503
+- observations: 505
 
 ## Static behavior
 
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [JuliaBinaryWrappers/brotli_jll.jl](https://github.com/JuliaBinaryWrappers/brotli_jll.jl) | 0 | 2025-11-15T16:48:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [openobserve/promql-parser](https://github.com/openobserve/promql-parser) | 0 | 2025-11-14T08:05:47Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [radashi-org/radashi-canary](https://github.com/radashi-org/radashi-canary) | 0 | 2025-11-13T19:22:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/A-Better-Jobs-Platform-Notes](https://github.com/danielrosehill/A-Better-Jobs-Platform-Notes) | 0 | 2025-11-11T13:25:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -181,6 +182,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nugine/simd-benches](https://github.com/Nugine/simd-benches) | 0 | 2025-01-29T16:04:35Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [JuliaBinaryWrappers/boost_jll.jl](https://github.com/JuliaBinaryWrappers/boost_jll.jl) | 0 | 2025-01-28T02:39:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JavaHello/javahello.github.io](https://github.com/JavaHello/javahello.github.io) | 0 | 2025-01-14T01:49:52Z | Shell | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [TheSnakeWitcher/hardhat.nvim](https://github.com/TheSnakeWitcher/hardhat.nvim) | 0 | 2025-01-13T19:48:25Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [JuliaBinaryWrappers/Libiconv_jll.jl](https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl) | 0 | 2025-01-13T13:15:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/better-hashnode-backups](https://github.com/danielrosehill/Better-Hashnode-Backups) | 0 | 2025-01-12T10:41:54Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [SebastianGrans/Rich-multiprocess-logging](https://github.com/SebastianGrans/Rich-multiprocess-logging) | 0 | 2025-01-07T12:01:25Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -249,6 +251,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hbenl/vscode-mocha-ssh-example](https://github.com/hbenl/vscode-mocha-ssh-example) | 0 | 2024-06-17T18:38:19Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [JuliaBinaryWrappers/LightGBM_jll.jl](https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl) | 0 | 2024-06-13T17:22:22Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [barche/libcxxwrap_julia_jll.jl](https://github.com/barche/libcxxwrap_julia_jll.jl) | 0 | 2024-06-09T15:09:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [nurikk/fileshare](https://github.com/nurikk/fileshare) | 0 | 2024-05-29T15:46:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [larshp/uccp](https://github.com/larshp/uccp) | 0 | 2024-05-25T08:38:37Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [keathley/finch](https://github.com/keathley/finch) | 0 | 2024-05-22T18:22:23Z | Unknown | CLI | 0 | 3 | 0 | 0 |
 | [kitex-contrib/codec-dubbo-tests](https://github.com/kitex-contrib/codec-dubbo-tests) | 0 | 2024-05-21T06:45:05Z | Go | Infrastructure/tooling | 3 | 9 | 3 | 3 |
@@ -446,6 +449,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [JuliaBinaryWrappers/brotli_jll.jl](https://github.com/JuliaBinaryWrappers/brotli_jll.jl) | 0 | 2025-11-15T16:48:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [openobserve/promql-parser](https://github.com/openobserve/promql-parser) | 0 | 2025-11-14T08:05:47Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [radashi-org/radashi-canary](https://github.com/radashi-org/radashi-canary) | 0 | 2025-11-13T19:22:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/A-Better-Jobs-Platform-Notes](https://github.com/danielrosehill/A-Better-Jobs-Platform-Notes) | 0 | 2025-11-11T13:25:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -602,6 +606,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nugine/simd-benches](https://github.com/Nugine/simd-benches) | 0 | 2025-01-29T16:04:35Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [JuliaBinaryWrappers/boost_jll.jl](https://github.com/JuliaBinaryWrappers/boost_jll.jl) | 0 | 2025-01-28T02:39:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JavaHello/javahello.github.io](https://github.com/JavaHello/javahello.github.io) | 0 | 2025-01-14T01:49:52Z | Shell | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [TheSnakeWitcher/hardhat.nvim](https://github.com/TheSnakeWitcher/hardhat.nvim) | 0 | 2025-01-13T19:48:25Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [JuliaBinaryWrappers/Libiconv_jll.jl](https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl) | 0 | 2025-01-13T13:15:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/better-hashnode-backups](https://github.com/danielrosehill/Better-Hashnode-Backups) | 0 | 2025-01-12T10:41:54Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [SebastianGrans/Rich-multiprocess-logging](https://github.com/SebastianGrans/Rich-multiprocess-logging) | 0 | 2025-01-07T12:01:25Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -670,6 +675,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hbenl/vscode-mocha-ssh-example](https://github.com/hbenl/vscode-mocha-ssh-example) | 0 | 2024-06-17T18:38:19Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [JuliaBinaryWrappers/LightGBM_jll.jl](https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl) | 0 | 2024-06-13T17:22:22Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [barche/libcxxwrap_julia_jll.jl](https://github.com/barche/libcxxwrap_julia_jll.jl) | 0 | 2024-06-09T15:09:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [nurikk/fileshare](https://github.com/nurikk/fileshare) | 0 | 2024-05-29T15:46:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [larshp/uccp](https://github.com/larshp/uccp) | 0 | 2024-05-25T08:38:37Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [keathley/finch](https://github.com/keathley/finch) | 0 | 2024-05-22T18:22:23Z | Unknown | CLI | 0 | 3 | 0 | 0 |
 | [kitex-contrib/codec-dubbo-tests](https://github.com/kitex-contrib/codec-dubbo-tests) | 0 | 2024-05-21T06:45:05Z | Go | Infrastructure/tooling | 3 | 9 | 3 | 3 |

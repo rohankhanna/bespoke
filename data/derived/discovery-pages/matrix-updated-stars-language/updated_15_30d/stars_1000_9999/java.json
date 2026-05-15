@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 545,
-    "concepts": 710,
-    "observations": 712,
-    "repos": 72,
-    "terms": 707
+    "components": 599,
+    "concepts": 786,
+    "observations": 787,
+    "repos": 79,
+    "terms": 783
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "alibaba/spring-ai-alibaba",
@@ -20,11 +20,13 @@
     "apache/camel",
     "apache/flink-kubernetes-operator",
     "apache/hudi",
+    "apache/ignite",
     "apache/logging-log4j2",
     "apache/lucene",
     "apache/netbeans",
     "apache/parquet-java",
     "apache/pdfbox",
+    "apache/phoenix",
     "apache/poi",
     "apache/seatunnel",
     "aws/aws-sdk-java-v2",
@@ -35,11 +37,13 @@
     "castorini/anserini",
     "checkstyle/checkstyle",
     "ClickHouse/clickhouse-java",
+    "cloudfoundry/uaa",
     "codelibs/fess",
     "confluentinc/examples",
     "confluentinc/schema-registry",
     "diffplug/spotless",
     "dlew/joda-time-android",
+    "dropwizard/dropwizard",
     "dylibso/chicory",
     "FasterXML/jackson-annotations",
     "FasterXML/jackson-core",
@@ -60,6 +64,7 @@
     "iterate-ch/cyberduck",
     "jboss-javassist/javassist",
     "JetBrains/intellij-sdk-code-samples",
+    "JetBrains/JetBrainsRuntime",
     "jhipster/prettier-java",
     "jline/jline3",
     "JodaOrg/joda-time",
@@ -70,6 +75,7 @@
     "langgraph4j/langgraph4j",
     "lightbend/config",
     "micronaut-projects/micronaut-core",
+    "moyangzhan/langchain4j-aideepin",
     "open-telemetry/opentelemetry-java",
     "oshi/oshi",
     "peergos/peergos",
@@ -77,7 +83,7 @@
     "raphw/byte-buddy",
     "reactor/BlockHound",
     "reactor/reactor-core",
-    "RoaringBitmap/RoaringBitmap",
+    "smithy-lang/smithy",
     "SonarSource/sonar-java",
     "soot-oss/soot",
     "spotbugs/spotbugs",
@@ -85,6 +91,7 @@
     "spring-ai-alibaba/examples",
     "spring-projects/spring-ai",
     "swagger-api/swagger-core",
+    "testng-team/testng",
     "tlaplus/tlaplus"
   ]
 }

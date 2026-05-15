@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 36,
+    "components": 28,
     "concepts": 20,
     "observations": 20,
-    "repos": 4,
+    "repos": 3,
     "terms": 20
   },
   "facet_version": 1,
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
-    "alloy-rs/evm",
     "g-plane/raffia",
     "kurrent-io/KurrentDB-Client-Rust",
     "vaporif/parry-guard"

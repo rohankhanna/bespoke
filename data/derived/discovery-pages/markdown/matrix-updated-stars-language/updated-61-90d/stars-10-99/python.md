@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 56
-- terms: 151
-- components: 206
-- concepts: 153
-- observations: 154
+- repos: 55
+- terms: 141
+- components: 197
+- concepts: 143
+- observations: 143
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [inducer/codepy](https://github.com/inducer/codepy) | 57 | 2026-03-15T19:48:41Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [rstudio/pins-python](https://github.com/rstudio/pins-python) | 58 | 2026-03-13T17:56:49Z | Python | Infrastructure/tooling | 2 | 14 | 2 | 2 |
 | [amiable-dev/llm-council](https://github.com/amiable-dev/llm-council) | 18 | 2026-03-12T23:26:20Z | Python | Infrastructure/tooling | 12 | 24 | 12 | 12 |
 | [BoosterRobotics/booster_assets](https://github.com/BoosterRobotics/booster_assets) | 15 | 2026-03-12T16:18:17Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -80,8 +81,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [enjoy-digital/litex_hw_ci](https://github.com/enjoy-digital/litex_hw_ci) | 13 | 2026-02-15T23:44:47Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [TungChintao/SkiLa](https://github.com/TungChintao/SkiLa) | 16 | 2026-02-15T08:35:30Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [xuanyuzhang21/RALI](https://github.com/xuanyuzhang21/RALI) | 27 | 2026-02-14T09:14:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [ENCODE-DCC/caper](https://github.com/ENCODE-DCC/caper) | 58 | 2026-02-13T23:09:11Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [xplpc/xplpc](https://github.com/xplpc/xplpc) | 49 | 2026-02-13T19:31:03Z | Python | Infrastructure/tooling | 11 | 12 | 11 | 12 |
 
 ## Repos sorted by stars
 
@@ -104,11 +103,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Embarcadero/PythonEnvironments](https://github.com/Embarcadero/PythonEnvironments) | 62 | 2026-02-27T10:20:06Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [vinlyx/mgzip](https://github.com/vinlyx/mgzip) | 59 | 2026-02-28T11:47:24Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [rstudio/pins-python](https://github.com/rstudio/pins-python) | 58 | 2026-03-13T17:56:49Z | Python | Infrastructure/tooling | 2 | 14 | 2 | 2 |
-| [ENCODE-DCC/caper](https://github.com/ENCODE-DCC/caper) | 58 | 2026-02-13T23:09:11Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [inducer/codepy](https://github.com/inducer/codepy) | 57 | 2026-03-15T19:48:41Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [ckan/ckanext-xloader](https://github.com/ckan/ckanext-xloader) | 56 | 2026-03-10T23:22:36Z | Python | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [richardodliu/OpenCodeEval](https://github.com/richardodliu/OpenCodeEval) | 52 | 2026-03-09T17:32:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [yulewang97/ERDiff](https://github.com/yulewang97/ERDiff) | 51 | 2026-02-23T02:36:43Z | Python | Model/data | 3 | 0 | 3 | 3 |
-| [xplpc/xplpc](https://github.com/xplpc/xplpc) | 49 | 2026-02-13T19:31:03Z | Python | Infrastructure/tooling | 11 | 12 | 11 | 12 |
 | [Lizw14/Super-CLEVR](https://github.com/Lizw14/Super-CLEVR) | 47 | 2026-02-19T21:44:50Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [imlrz/DeepResearch-Bench-II](https://github.com/imlrz/DeepResearch-Bench-II) | 44 | 2026-02-24T09:01:12Z | Python | Model/data | 3 | 0 | 3 | 3 |
 | [rdb/panda3d-thirdparty](https://github.com/rdb/panda3d-thirdparty) | 42 | 2026-02-26T21:25:19Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |

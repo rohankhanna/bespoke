@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 979,
-    "concepts": 161,
-    "observations": 162,
-    "repos": 35,
-    "terms": 171
+    "components": 1076,
+    "concepts": 167,
+    "observations": 168,
+    "repos": 36,
+    "terms": 177
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
     "agentscope-ai/agentscope-studio",
+    "antfu-collective/bumpp",
     "antfu/changelogithub",
-    "antfu/eslint-plugin-antfu",
     "antfu/eslint-plugin-command",
     "augmnt/augments-mcp-server",
     "aymenfurter/ralph",
@@ -43,6 +43,7 @@
     "priceline/design-system",
     "sveltejs/prettier-plugin-svelte",
     "trzsz/trzsz.js",
+    "un-ts/eslint-plugin-import-x",
     "unplugin/unplugin-vue-markdown",
     "vuejs/vue-eslint-parser",
     "windingwind/zotero-plugin-template",

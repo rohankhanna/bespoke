@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,12 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3788 | 2026-05-14T08:15:28Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
-| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1935 | 2026-05-13T21:08:50Z | Java | Infrastructure/tooling | 13 | 23 | 13 | 13 |
+| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3789 | 2026-05-14T23:13:53Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
+| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1936 | 2026-05-14T17:50:41Z | Java | Infrastructure/tooling | 13 | 23 | 13 | 13 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3788 | 2026-05-14T08:15:28Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
-| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1935 | 2026-05-13T21:08:50Z | Java | Infrastructure/tooling | 13 | 23 | 13 | 13 |
+| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3789 | 2026-05-14T23:13:53Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
+| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1936 | 2026-05-14T17:50:41Z | Java | Infrastructure/tooling | 13 | 23 | 13 | 13 |

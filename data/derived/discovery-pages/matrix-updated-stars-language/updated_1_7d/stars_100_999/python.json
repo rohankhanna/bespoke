@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 102,
-    "concepts": 126,
-    "observations": 126,
-    "repos": 19,
-    "terms": 126
+    "components": 121,
+    "concepts": 134,
+    "observations": 134,
+    "repos": 20,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,27 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
+    "15r10nk/inline-snapshot",
+    "adamchainz/blacken-docs",
     "agentic-box/memora",
     "aristoteleo/PantheonOS",
     "bagofwords1/bagofwords",
     "benchflow-ai/benchflow",
-    "clearml/clearml-agent",
     "DanielLin94144/Full-Duplex-Bench",
     "databrickslabs/ucx",
     "djlint/djLint",
     "gbionics/adam",
     "gbionics/jaxsim",
     "googlefonts/roboto-3-classic",
+    "Jamorim-esss/pytest-rich",
     "mll-lab-nu/VAGEN",
     "NCAS-CMS/pyfive",
     "OpenHands/ToM-SWE",
     "pyrtlsdr/pyrtlsdr",
     "TextArena/TextArena",
     "TinyLLaVA/TinyLLaVA_Factory",
-    "tox-dev/filelock",
-    "vale-cli/packages"
+    "tox-dev/filelock"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1307,
-    "concepts": 282,
-    "observations": 282,
-    "repos": 53,
-    "terms": 281
+    "components": 1335,
+    "concepts": 289,
+    "observations": 289,
+    "repos": 54,
+    "terms": 288
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "acss-io/atomizer",
     "actions/javascript-action",
@@ -65,6 +65,7 @@
     "webpack/css-loader",
     "webpack/mini-css-extract-plugin",
     "webpack/postcss-loader",
+    "webtorrent/webtorrent-cli",
     "yeoman/yo",
     "ykdojo/claude-code-tips"
   ]

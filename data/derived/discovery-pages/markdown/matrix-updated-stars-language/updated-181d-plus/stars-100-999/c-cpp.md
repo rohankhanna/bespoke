@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 366
-- terms: 1174
-- components: 654
-- concepts: 1193
-- observations: 1196
+- repos: 367
+- terms: 1175
+- components: 655
+- concepts: 1194
+- observations: 1197
 
 ## Static behavior
 
@@ -124,7 +124,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hiroi-sora/Umi-OCR_runtime_windows](https://github.com/hiroi-sora/Umi-OCR_runtime_windows) | 164 | 2025-03-21T08:09:52Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |
 | [vislearn/dsacstar](https://github.com/vislearn/dsacstar) | 284 | 2025-03-11T08:30:30Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [apache/xerces-c](https://github.com/apache/xerces-c) | 158 | 2025-03-06T13:25:29Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [mit-han-lab/omniserve](https://github.com/mit-han-lab/omniserve) | 837 | 2025-03-06T03:22:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [mit-han-lab/omniserve](https://github.com/mit-han-lab/omniserve) | 838 | 2025-03-06T03:22:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/tensorflow-directml-plugin](https://github.com/microsoft/tensorflow-directml-plugin) | 196 | 2025-02-27T19:03:11Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [WojciechMula/base64simd](https://github.com/WojciechMula/base64simd) | 170 | 2025-02-21T23:00:12Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [Deep-Symmetry/carabiner](https://github.com/Deep-Symmetry/carabiner) | 182 | 2025-02-21T04:01:33Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
@@ -158,6 +158,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tjdevries/tree-sitter-lua](https://github.com/tjdevries/tree-sitter-lua) | 130 | 2024-10-23T23:44:16Z | C/C++ | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [jherico/VulkanExamples](https://github.com/jherico/VulkanExamples) | 357 | 2024-10-18T21:00:29Z | C/C++ | Service/API | 5 | 0 | 5 | 5 |
 | [princeton-vl/DPVO](https://github.com/princeton-vl/DPVO) | 989 | 2024-10-12T23:16:08Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [crvs/KDTree](https://github.com/crvs/KDTree) | 224 | 2024-10-04T20:58:50Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [coin-or/Bonmin](https://github.com/coin-or/Bonmin) | 145 | 2024-09-29T13:20:04Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/tensorflow-directml](https://github.com/microsoft/tensorflow-directml) | 474 | 2024-09-25T14:34:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [kendryte/k230_canmv](https://github.com/kendryte/k230_canmv) | 102 | 2024-09-14T07:31:02Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |
@@ -190,7 +191,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [colmap/pycolmap](https://github.com/colmap/pycolmap) | 993 | 2024-07-09T23:33:38Z | C/C++ | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [mit-han-lab/TinyChatEngine](https://github.com/mit-han-lab/TinyChatEngine) | 953 | 2024-07-04T04:20:45Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [pmneila/PyMCubes](https://github.com/pmneila/PyMCubes) | 788 | 2024-07-03T23:14:20Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [nowar-fonts/Warcraft-Font-Merger](https://github.com/nowar-fonts/Warcraft-Font-Merger) | 710 | 2024-07-01T10:51:12Z | C/C++ | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [nowar-fonts/Warcraft-Font-Merger](https://github.com/nowar-fonts/Warcraft-Font-Merger) | 711 | 2024-07-01T10:51:12Z | C/C++ | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [espressif/ESP8266_NONOS_SDK](https://github.com/espressif/ESP8266_NONOS_SDK) | 972 | 2024-06-27T03:48:21Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [mayah/tinytoml](https://github.com/mayah/tinytoml) | 175 | 2024-06-20T16:20:06Z | C/C++ | Library | 2 | 0 | 2 | 2 |
 | [Konstanty/libmodplug](https://github.com/Konstanty/libmodplug) | 149 | 2024-06-20T02:07:37Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -380,7 +381,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [andikleen/snappy-c](https://github.com/andikleen/snappy-c) | 251 | 2021-11-29T00:04:06Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [dorian3d/DBoW2](https://github.com/dorian3d/DBoW2) | 943 | 2021-11-24T11:28:16Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [hecomi/uDesktopDuplication](https://github.com/hecomi/uDesktopDuplication) | 781 | 2021-11-21T09:26:29Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
-| [hermit-os/libhermit](https://github.com/hermit-os/libhermit) | 226 | 2021-11-05T09:26:51Z | C/C++ | Infrastructure/tooling | 8 | 0 | 8 | 8 |
+| [hermit-os/libhermit](https://github.com/hermit-os/libhermit) | 227 | 2021-11-05T09:26:51Z | C/C++ | Infrastructure/tooling | 8 | 0 | 8 | 8 |
 | [nvpro-samples/optix_advanced_samples](https://github.com/nvpro-samples/optix_advanced_samples) | 459 | 2021-11-02T15:39:31Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [google-coral/edgetpu](https://github.com/google-coral/edgetpu) | 475 | 2021-10-27T17:11:22Z | C/C++ | Service/API | 2 | 0 | 2 | 2 |
 | [vinniefalco/CppCon2018](https://github.com/vinniefalco/CppCon2018) | 131 | 2021-10-12T02:50:13Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -429,7 +430,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [parlance/ctcdecode](https://github.com/parlance/ctcdecode) | 858 | 2024-04-04T14:03:05Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [fcitx/fcitx](https://github.com/fcitx/fcitx) | 856 | 2024-04-27T20:27:19Z | C/C++ | Framework | 0 | 0 | 0 | 0 |
 | [anse1/sqlsmith](https://github.com/anse1/sqlsmith) | 843 | 2025-11-02T15:56:01Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
-| [mit-han-lab/omniserve](https://github.com/mit-han-lab/omniserve) | 837 | 2025-03-06T03:22:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [mit-han-lab/omniserve](https://github.com/mit-han-lab/omniserve) | 838 | 2025-03-06T03:22:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [koide3/ndt_omp](https://github.com/koide3/ndt_omp) | 836 | 2024-08-31T13:05:27Z | C/C++ | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [randy408/libspng](https://github.com/randy408/libspng) | 830 | 2024-06-15T13:27:26Z | C/C++ | Infrastructure/tooling | 14 | 12 | 14 | 14 |
 | [bwa-mem2/bwa-mem2](https://github.com/bwa-mem2/bwa-mem2) | 829 | 2025-10-15T03:58:27Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
@@ -463,7 +464,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [BlueBrain/HighFive](https://github.com/BlueBrain/HighFive) | 723 | 2025-01-09T09:29:48Z | C/C++ | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [paulftw/hiberlite](https://github.com/paulftw/hiberlite) | 722 | 2023-07-24T17:16:55Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [voutcn/megahit](https://github.com/voutcn/megahit) | 711 | 2025-10-28T04:07:04Z | C/C++ | Infrastructure/tooling | 6 | 0 | 6 | 6 |
-| [nowar-fonts/Warcraft-Font-Merger](https://github.com/nowar-fonts/Warcraft-Font-Merger) | 710 | 2024-07-01T10:51:12Z | C/C++ | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [nowar-fonts/Warcraft-Font-Merger](https://github.com/nowar-fonts/Warcraft-Font-Merger) | 711 | 2024-07-01T10:51:12Z | C/C++ | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [inikep/lizard](https://github.com/inikep/lizard) | 702 | 2025-10-09T17:41:20Z | C/C++ | Unknown | 8 | 0 | 8 | 8 |
 | [Mange/rofi-emoji](https://github.com/Mange/rofi-emoji) | 700 | 2025-04-04T21:31:59Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ARM-software/vulkan_best_practice_for_mobile_developers](https://github.com/ARM-software/vulkan_best_practice_for_mobile_developers) | 686 | 2024-08-06T14:42:05Z | C/C++ | Unknown | 7 | 0 | 7 | 7 |
@@ -638,8 +639,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/FishStore](https://github.com/microsoft/FishStore) | 231 | 2023-09-19T19:40:33Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ollix/MetalNanoVG](https://github.com/ollix/MetalNanoVG) | 229 | 2023-12-09T15:51:31Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [EarlhamInst/KAT](https://github.com/EarlhamInst/KAT) | 227 | 2022-11-25T17:32:32Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [hermit-os/libhermit](https://github.com/hermit-os/libhermit) | 227 | 2021-11-05T09:26:51Z | C/C++ | Infrastructure/tooling | 8 | 0 | 8 | 8 |
 | [earlephilhower/mklittlefs](https://github.com/earlephilhower/mklittlefs) | 226 | 2025-10-09T21:39:57Z | C/C++ | Infrastructure/tooling | 1 | 10 | 1 | 1 |
-| [hermit-os/libhermit](https://github.com/hermit-os/libhermit) | 226 | 2021-11-05T09:26:51Z | C/C++ | Infrastructure/tooling | 8 | 0 | 8 | 8 |
+| [crvs/KDTree](https://github.com/crvs/KDTree) | 224 | 2024-10-04T20:58:50Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [dropbox/zxcvbn-ios](https://github.com/dropbox/zxcvbn-ios) | 224 | 2023-10-24T17:18:12Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [kafeiyin00/WHU-HelmetDataset](https://github.com/kafeiyin00/WHU-HelmetDataset) | 221 | 2025-04-07T02:15:44Z | C/C++ | Model/data | 0 | 0 | 0 | 0 |
 | [mcmilk/zstdmt](https://github.com/mcmilk/zstdmt) | 220 | 2025-10-04T18:48:08Z | C/C++ | Infrastructure/tooling | 7 | 1 | 7 | 7 |

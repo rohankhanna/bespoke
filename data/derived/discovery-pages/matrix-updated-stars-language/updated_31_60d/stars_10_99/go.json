@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 230,
-    "concepts": 161,
-    "observations": 162,
-    "repos": 47,
-    "terms": 163
+    "components": 232,
+    "concepts": 168,
+    "observations": 169,
+    "repos": 48,
+    "terms": 170
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "abhinav/goldmark-anchor",
+    "aldernero/sketchy",
     "antham/ghokin",
     "apache/dubbo-go-pixiu-samples",
     "apptainer/sif",
@@ -24,6 +25,7 @@
     "aws/amazon-network-policy-controller-k8s",
     "aws/amazon-vpc-cni-plugins",
     "aws/aws-ebpf-sdk-go",
+    "benchsci/rules_nodejs_gazelle",
     "chrislusf/seaweedfs",
     "chromedp/pdlgen",
     "cjkreklow/t38c",
@@ -34,7 +36,6 @@
     "ctoth/claudio",
     "cyberark/conjur-api-go",
     "darkweak/storages",
-    "datachainlab/ethereum-ibc-relay-chain",
     "depado/bfchroma",
     "EstebanForge/mcp-cli-ent",
     "ethpandaops/xatu",

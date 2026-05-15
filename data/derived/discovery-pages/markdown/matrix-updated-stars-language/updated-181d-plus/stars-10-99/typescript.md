@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 181
-- terms: 522
-- components: 3990
-- concepts: 511
-- observations: 512
+- repos: 183
+- terms: 530
+- components: 4013
+- concepts: 519
+- observations: 520
 
 ## Static behavior
 
@@ -35,6 +35,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [offline-ai/cli](https://github.com/offline-ai/cli) | 81 | 2025-10-24T10:11:24Z | TypeScript | CLI | 8 | 41 | 8 | 8 |
 | [vim-fall/fall.vim](https://github.com/vim-fall/fall.vim) | 95 | 2025-10-18T07:42:17Z | TypeScript | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [weaviate/recipes-ts](https://github.com/weaviate/recipes-ts) | 19 | 2025-10-17T09:35:55Z | TypeScript | Unknown | 6 | 14 | 6 | 6 |
+| [Luligu/zigbee2mqtt-automations](https://github.com/Luligu/zigbee2mqtt-automations) | 73 | 2025-10-16T14:19:06Z | TypeScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [invoke-ai/launcher](https://github.com/invoke-ai/launcher) | 41 | 2025-10-16T06:09:21Z | TypeScript | Infrastructure/tooling | 4 | 83 | 4 | 4 |
 | [danielnappa/tweakgc-cli](https://github.com/DanielNappa/tweakgc-cli) | 18 | 2025-10-11T13:36:17Z | TypeScript | CLI | 0 | 35 | 0 | 0 |
 | [sergiodxa/react-router-i18next-example](https://github.com/sergiodxa/react-router-i18next-example) | 34 | 2025-10-08T18:36:23Z | TypeScript | Infrastructure/tooling | 0 | 25 | 0 | 0 |
@@ -113,6 +114,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [awohletz/electron-prisma-trpc-example](https://github.com/awohletz/electron-prisma-trpc-example) | 99 | 2024-06-23T17:36:54Z | TypeScript | Unknown | 0 | 20 | 0 | 0 |
 | [marmelab/react-admin-helpdesk](https://github.com/marmelab/react-admin-helpdesk) | 64 | 2024-06-21T15:18:13Z | TypeScript | Infrastructure/tooling | 6 | 28 | 6 | 6 |
 | [posthtml/posthtml-render](https://github.com/posthtml/posthtml-render) | 45 | 2024-06-19T10:51:11Z | TypeScript | Infrastructure/tooling | 1 | 24 | 1 | 1 |
+| [daybrush/css-styled](https://github.com/daybrush/css-styled) | 16 | 2024-06-03T09:30:36Z | TypeScript | Unknown | 7 | 9 | 7 | 7 |
 | [google-github-actions/release-please-action](https://github.com/google-github-actions/release-please-action) | 13 | 2024-05-14T00:08:12Z | TypeScript | Infrastructure/tooling | 1 | 18 | 1 | 1 |
 | [oclif/hello-world](https://github.com/oclif/hello-world) | 28 | 2024-04-29T19:23:28Z | TypeScript | CLI | 4 | 23 | 4 | 4 |
 | [trustwallet/web3-react-trust-wallet](https://github.com/trustwallet/web3-react-trust-wallet) | 12 | 2024-04-22T11:30:56Z | TypeScript | Unknown | 0 | 2 | 0 | 0 |
@@ -238,6 +240,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mdn/bob](https://github.com/mdn/bob) | 75 | 2025-05-14T12:10:27Z | TypeScript | Infrastructure/tooling | 6 | 60 | 6 | 6 |
 | [lobehub/chat-plugin-sdk](https://github.com/lobehub/chat-plugin-sdk) | 74 | 2025-07-31T02:13:10Z | TypeScript | Infrastructure/tooling | 5 | 43 | 0 | 0 |
 | [IndexXuan/vite-plugin-env-compatible](https://github.com/IndexXuan/vite-plugin-env-compatible) | 74 | 2024-08-02T15:14:44Z | TypeScript | CLI | 3 | 16 | 3 | 3 |
+| [Luligu/zigbee2mqtt-automations](https://github.com/Luligu/zigbee2mqtt-automations) | 73 | 2025-10-16T14:19:06Z | TypeScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [tatethurston/ProtoScript](https://github.com/tatethurston/ProtoScript) | 72 | 2025-02-23T02:44:01Z | TypeScript | Infrastructure/tooling | 1 | 25 | 1 | 1 |
 | [mdbetancourt/eslint-plugin-neverthrow](https://github.com/mdbetancourt/eslint-plugin-neverthrow) | 70 | 2025-07-25T16:49:41Z | TypeScript | Infrastructure/tooling | 2 | 22 | 2 | 2 |
 | [celo-org/react-celo](https://github.com/celo-org/react-celo) | 68 | 2024-12-03T23:45:30Z | TypeScript | Infrastructure/tooling | 8 | 37 | 8 | 8 |
@@ -358,6 +361,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aaronlamz/vue-next-i18n](https://github.com/aaronlamz/vue-next-i18n) | 17 | 2024-04-09T14:21:16Z | TypeScript | Infrastructure/tooling | 8 | 31 | 8 | 8 |
 | [lobehub/chat-plugin-realtime-weather](https://github.com/lobehub/chat-plugin-realtime-weather) | 17 | 2023-12-15T15:00:45Z | TypeScript | Infrastructure/tooling | 8 | 35 | 8 | 9 |
 | [marionebl/ts-transformer-testing-library](https://github.com/marionebl/ts-transformer-testing-library) | 17 | 2023-01-05T03:26:14Z | TypeScript | Unknown | 0 | 6 | 0 | 0 |
+| [daybrush/css-styled](https://github.com/daybrush/css-styled) | 16 | 2024-06-03T09:30:36Z | TypeScript | Unknown | 7 | 9 | 7 | 7 |
 | [preactjs-templates/widget-typescript](https://github.com/preactjs-templates/widget-typescript) | 16 | 2022-10-20T03:26:43Z | TypeScript | Template/starter | 0 | 0 | 0 | 0 |
 | [fatwang2/search1api-lobechat](https://github.com/fatwang2/search1api-lobechat) | 15 | 2025-03-20T07:38:48Z | TypeScript | Unknown | 0 | 28 | 0 | 0 |
 | [mds1/multicall3-frontend](https://github.com/mds1/multicall3-frontend) | 15 | 2025-03-10T23:04:48Z | TypeScript | Unknown | 0 | 20 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 170,
-    "concepts": 142,
-    "observations": 143,
-    "repos": 36,
-    "terms": 139
+    "components": 172,
+    "concepts": 141,
+    "observations": 142,
+    "repos": 37,
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
+    "Accla/graphulo",
     "agentclientprotocol/java-sdk",
     "apache/arrow-java",
-    "apache/camel-quarkus-examples",
     "apache/ignite-extensions",
     "apache/netbeans-mavenutils-nbm-maven-plugin",
     "bazel-contrib/rules_jvm",
@@ -37,6 +37,7 @@
     "googleapis/java-cloud-bom",
     "googleapis/sdk-platform-java",
     "GoogleCloudPlatform/opentelemetry-operations-java",
+    "heroku/heroku-jvm-application-deployer",
     "hivemq/helm-charts",
     "jpmml/jpmml-h2o",
     "jpmml/jpmml-r",

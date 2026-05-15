@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 322,
+    "components": 330,
     "concepts": 272,
     "observations": 277,
-    "repos": 61,
+    "repos": 63,
     "terms": 271
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
     "alex/rust-asn1",
@@ -50,8 +50,10 @@
     "lambdaclass/lambdaworks",
     "lbcb-sci/herro",
     "LukasKalbertodt/libtest-mimic",
+    "matrix-org/seshat",
     "mitsuhiko/similar-asserts",
     "near/borsh-rs",
+    "nix-community/lorri",
     "nixops4/nixops4",
     "Nugine/simd",
     "PistonDevelopers/glfw-rs",

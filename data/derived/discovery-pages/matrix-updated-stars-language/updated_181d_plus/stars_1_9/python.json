@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 451,
-    "concepts": 333,
-    "observations": 333,
-    "repos": 269,
-    "terms": 336
+    "components": 452,
+    "concepts": 339,
+    "observations": 339,
+    "repos": 270,
+    "terms": 342
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -263,6 +263,7 @@
     "sterlind/peft",
     "tensorchord/envd-quick-start",
     "timfel/racing-all-afternoon",
+    "tinted-theming/tinted-builder-python",
     "TMElyralab/controlnet_aux",
     "TMElyralab/MMCM",
     "tnc-ca-geo/animl-email-relay",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3453,
-    "concepts": 716,
-    "observations": 717,
-    "repos": 99,
-    "terms": 711
+    "components": 3654,
+    "concepts": 743,
+    "observations": 744,
+    "repos": 104,
+    "terms": 738
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "amannn/action-semantic-pull-request",
@@ -77,16 +77,19 @@
     "newrelic/node-newrelic",
     "NickColley/jest-axe",
     "nodegit/nodegit",
+    "nodejs/Release",
     "nodejs/undici",
     "npm/cli",
     "npm/node-semver",
     "observing/pre-commit",
+    "openstreetmap/iD",
     "parallel-js/parallel.js",
     "piebald-ai/claude-code-system-prompts",
     "pmmmwh/react-refresh-webpack-plugin",
     "postcss/postcss-import",
     "postcss/postcss-nested",
     "proj4js/proj4js",
+    "ranisalt/node-argon2",
     "release-it/release-it",
     "reZach/secure-electron-template",
     "RisingStack/react-easy-state",
@@ -94,6 +97,7 @@
     "SabakiHQ/Sabaki",
     "serverless-operations/serverless-step-functions",
     "sindresorhus/np",
+    "sveltejs/vite-plugin-svelte",
     "swagger-api/swagger-editor",
     "tc39/agendas",
     "tc39/test262",
@@ -105,13 +109,14 @@
     "tw-in-js/twind",
     "umijs/dumi",
     "unifiedjs/unified",
+    "violentmonkey/violentmonkey",
     "vizzuhq/vizzu-lib",
     "vueform/vueform",
+    "WebKit/WebKit",
     "webpack/sass-loader",
     "webpack/webpack-dev-middleware",
     "webpack/webpack-dev-server",
     "webtorrent/bittorrent-dht",
-    "webtorrent/webtorrent-cli",
     "yahoo/serialize-javascript"
   ]
 }

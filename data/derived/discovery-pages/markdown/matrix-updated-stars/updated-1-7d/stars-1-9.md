@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1 to 9 stars
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 9
-- terms: 48
-- components: 82
-- concepts: 48
-- observations: 49
+- repos: 8
+- terms: 46
+- components: 87
+- concepts: 46
+- observations: 46
 
 ## Static behavior
 
@@ -30,10 +30,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Luligu/matterbridge-somfy-tahoma](https://github.com/Luligu/matterbridge-somfy-tahoma) | 8 | 2026-05-12T12:04:28Z | JavaScript | Infrastructure/tooling | 16 | 30 | 16 | 16 |
 | [nafg/jewish-date](https://github.com/nafg/jewish-date) | 4 | 2026-05-11T22:24:06Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [cloudfoundry/credhub-acceptance-tests](https://github.com/cloudfoundry/credhub-acceptance-tests) | 2 | 2026-05-11T13:02:12Z | Go | Unknown | 4 | 0 | 4 | 4 |
+| [Luligu/matterbridge-eve-energy](https://github.com/Luligu/matterbridge-eve-energy) | 3 | 2026-05-11T05:38:29Z | JavaScript | Infrastructure/tooling | 4 | 30 | 4 | 4 |
 | [leleliu008/ppkg-formula-repository-official-core](https://github.com/leleliu008/ppkg-formula-repository-official-core) | 3 | 2026-05-09T06:03:08Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [energye/designer](https://github.com/energye/designer) | 9 | 2026-05-08T15:29:20Z | Go | Infrastructure/tooling | 9 | 5 | 9 | 9 |
-| [ioBroker/plugin-sentry](https://github.com/ioBroker/plugin-sentry) | 7 | 2026-05-08T01:12:00Z | JavaScript | Infrastructure/tooling | 6 | 25 | 6 | 7 |
-| [energye/examples](https://github.com/energye/examples) | 4 | 2026-05-08T00:54:50Z | Go | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -41,9 +40,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [energye/designer](https://github.com/energye/designer) | 9 | 2026-05-08T15:29:20Z | Go | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [Luligu/matterbridge-somfy-tahoma](https://github.com/Luligu/matterbridge-somfy-tahoma) | 8 | 2026-05-12T12:04:28Z | JavaScript | Infrastructure/tooling | 16 | 30 | 16 | 16 |
-| [ioBroker/plugin-sentry](https://github.com/ioBroker/plugin-sentry) | 7 | 2026-05-08T01:12:00Z | JavaScript | Infrastructure/tooling | 6 | 25 | 6 | 7 |
 | [nafg/jewish-date](https://github.com/nafg/jewish-date) | 4 | 2026-05-11T22:24:06Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [energye/examples](https://github.com/energye/examples) | 4 | 2026-05-08T00:54:50Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [Luligu/matterbridge-eve-energy](https://github.com/Luligu/matterbridge-eve-energy) | 3 | 2026-05-11T05:38:29Z | JavaScript | Infrastructure/tooling | 4 | 30 | 4 | 4 |
 | [leleliu008/ppkg-formula-repository-official-core](https://github.com/leleliu008/ppkg-formula-repository-official-core) | 3 | 2026-05-09T06:03:08Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [cloudfoundry/credhub-acceptance-tests](https://github.com/cloudfoundry/credhub-acceptance-tests) | 2 | 2026-05-11T13:02:12Z | Go | Unknown | 4 | 0 | 4 | 4 |
 | [Aayushm24/presidential-briefing](https://github.com/Aayushm24/presidential-briefing) | 1 | 2026-05-13T03:11:40Z | Other | Infrastructure/tooling | 9 | 5 | 9 | 9 |

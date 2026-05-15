@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 91
-- terms: 397
-- components: 617
-- concepts: 383
-- observations: 383
+- repos: 92
+- terms: 410
+- components: 645
+- concepts: 396
+- observations: 396
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [heroku/libcnb.rs](https://github.com/heroku/libcnb.rs) | 47 | 2026-05-01T03:44:22Z | Rust | Infrastructure/tooling | 8 | 6 | 8 | 8 |
+| [unrs/unrs-resolver](https://github.com/unrs/unrs-resolver) | 76 | 2026-05-01T01:17:31Z | Rust | Infrastructure/tooling | 9 | 27 | 9 | 9 |
+| [Ralith/lahar](https://github.com/Ralith/lahar) | 40 | 2026-04-30T23:41:34Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [ldclabs/anda-hippocampus](https://github.com/ldclabs/anda-hippocampus) | 43 | 2026-04-30T01:44:36Z | Rust | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [ldclabs/anda-db](https://github.com/ldclabs/anda-db) | 28 | 2026-04-29T23:38:48Z | Rust | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [openvm-org/stark-backend](https://github.com/openvm-org/stark-backend) | 37 | 2026-04-29T21:47:26Z | Rust | Infrastructure/tooling | 8 | 10 | 8 | 8 |
@@ -74,7 +77,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eth-act/zkboost](https://github.com/eth-act/zkboost) | 17 | 2026-04-23T07:53:50Z | Rust | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [eth-act/ere](https://github.com/eth-act/ere) | 82 | 2026-04-23T06:57:12Z | Rust | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [datachainlab/lcp](https://github.com/datachainlab/lcp) | 58 | 2026-04-23T05:03:01Z | Rust | CLI | 6 | 3 | 6 | 6 |
-| [amazon-ion/ion-cli](https://github.com/amazon-ion/ion-cli) | 47 | 2026-04-22T23:55:58Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [celo-org/celo-threshold-bls-rs](https://github.com/celo-org/celo-threshold-bls-rs) | 81 | 2026-04-22T23:28:46Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [bitcoindevkit/bdk_wallet](https://github.com/bitcoindevkit/bdk_wallet) | 46 | 2026-04-22T20:18:41Z | Rust | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [holochain/holochain-serialization](https://github.com/holochain/holochain-serialization) | 50 | 2026-04-22T17:27:26Z | Rust | Infrastructure/tooling | 4 | 8 | 4 | 4 |
@@ -116,7 +118,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sophus-vision/sophus-rs](https://github.com/sophus-vision/sophus-rs) | 94 | 2026-04-15T13:16:13Z | Rust | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [ldclabs/ic-tee](https://github.com/ldclabs/ic-tee) | 18 | 2026-04-15T11:53:17Z | Rust | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [ldclabs/ic-oss](https://github.com/ldclabs/ic-oss) | 32 | 2026-04-15T11:45:47Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 4 |
-| [quininer/x11-clipboard](https://github.com/quininer/x11-clipboard) | 51 | 2026-04-14T14:17:34Z | Rust | CLI | 2 | 1 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -139,6 +140,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eth-act/ere](https://github.com/eth-act/ere) | 82 | 2026-04-23T06:57:12Z | Rust | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [celo-org/celo-threshold-bls-rs](https://github.com/celo-org/celo-threshold-bls-rs) | 81 | 2026-04-22T23:28:46Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [watchexec/clearscreen](https://github.com/watchexec/clearscreen) | 79 | 2026-04-18T23:43:26Z | Rust | CLI | 4 | 1 | 4 | 4 |
+| [unrs/unrs-resolver](https://github.com/unrs/unrs-resolver) | 76 | 2026-05-01T01:17:31Z | Rust | Infrastructure/tooling | 9 | 27 | 9 | 9 |
 | [tracel-ai/cubek](https://github.com/tracel-ai/cubek) | 72 | 2026-04-21T20:47:52Z | Rust | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [0x676e67/wreq-util](https://github.com/0x676e67/wreq-util) | 70 | 2026-04-21T00:55:55Z | Rust | CLI | 14 | 5 | 14 | 14 |
 | [bnb-chain/reth-bsc](https://github.com/bnb-chain/reth-bsc) | 69 | 2026-04-29T06:40:33Z | Rust | Infrastructure/tooling | 3 | 9 | 3 | 3 |
@@ -157,17 +159,17 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [davidhozic/mujoco-rs](https://github.com/davidhozic/mujoco-rs) | 53 | 2026-04-28T20:02:16Z | Rust | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [Dicklesworthstone/frankensearch](https://github.com/Dicklesworthstone/frankensearch) | 53 | 2026-04-25T02:59:04Z | Rust | Infrastructure/tooling | 16 | 8 | 16 | 16 |
 | [rust-bitcoin/corepc](https://github.com/rust-bitcoin/corepc) | 51 | 2026-04-29T00:23:50Z | Rust | Infrastructure/tooling | 4 | 11 | 4 | 4 |
-| [quininer/x11-clipboard](https://github.com/quininer/x11-clipboard) | 51 | 2026-04-14T14:17:34Z | Rust | CLI | 2 | 1 | 2 | 2 |
 | [holochain/holochain-serialization](https://github.com/holochain/holochain-serialization) | 50 | 2026-04-22T17:27:26Z | Rust | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [Systemcluster/kitoken](https://github.com/Systemcluster/kitoken) | 49 | 2026-04-26T21:22:23Z | Rust | Infrastructure/tooling | 9 | 10 | 9 | 9 |
+| [heroku/libcnb.rs](https://github.com/heroku/libcnb.rs) | 47 | 2026-05-01T03:44:22Z | Rust | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [asny/three-d-asset](https://github.com/asny/three-d-asset) | 47 | 2026-04-29T13:00:37Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [amazon-ion/ion-cli](https://github.com/amazon-ion/ion-cli) | 47 | 2026-04-22T23:55:58Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [foundry-rs/foundry-fork-db](https://github.com/foundry-rs/foundry-fork-db) | 47 | 2026-04-20T09:41:05Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [bitcoindevkit/bdk_wallet](https://github.com/bitcoindevkit/bdk_wallet) | 46 | 2026-04-22T20:18:41Z | Rust | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [matter-labs/zksync-crypto](https://github.com/matter-labs/zksync-crypto) | 44 | 2026-04-28T13:44:41Z | Rust | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [ldclabs/anda-hippocampus](https://github.com/ldclabs/anda-hippocampus) | 43 | 2026-04-30T01:44:36Z | Rust | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [watchexec/process-wrap](https://github.com/watchexec/process-wrap) | 43 | 2026-04-18T23:42:13Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [arkworks-rs/std](https://github.com/arkworks-rs/std) | 42 | 2026-04-26T19:08:55Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [Ralith/lahar](https://github.com/Ralith/lahar) | 40 | 2026-04-30T23:41:34Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [apollographql/federation-rs](https://github.com/apollographql/federation-rs) | 40 | 2026-04-29T20:45:36Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [rust-osdev/ovmf-prebuilt](https://github.com/rust-osdev/ovmf-prebuilt) | 38 | 2026-04-29T05:24:52Z | Rust | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [openvm-org/stark-backend](https://github.com/openvm-org/stark-backend) | 37 | 2026-04-29T21:47:26Z | Rust | Infrastructure/tooling | 8 | 10 | 8 | 8 |

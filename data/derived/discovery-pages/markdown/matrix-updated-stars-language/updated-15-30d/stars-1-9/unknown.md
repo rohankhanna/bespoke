@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 50
-- terms: 57
-- components: 48
-- concepts: 57
-- observations: 57
+- repos: 51
+- terms: 49
+- components: 49
+- concepts: 49
+- observations: 49
 
 ## Static behavior
 
@@ -26,6 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [stdlib-js/meetings](https://github.com/stdlib-js/meetings) | 5 | 2026-05-01T06:18:32Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [danielrosehill/Claude-Research-Space-Plugin](https://github.com/danielrosehill/Claude-Research-Space-Plugin) | 1 | 2026-04-30T19:00:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Content-Writing-Plugin](https://github.com/danielrosehill/Claude-Content-Writing-Plugin) | 1 | 2026-04-30T18:47:09Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [OpenSC/Nightly](https://github.com/OpenSC/Nightly) | 5 | 2026-04-30T16:15:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [csm-actions/demo-server](https://github.com/csm-actions/demo-server) | 1 | 2026-04-30T15:42:24Z | Unknown | Infrastructure/tooling | 4 | 3 | 4 | 4 |
+| [danielrosehill/Claude-KDE-Plasma-Plugin](https://github.com/danielrosehill/Claude-KDE-Plasma-Plugin) | 1 | 2026-04-30T15:39:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [hybridgroup/llama-cpp-builder](https://github.com/hybridgroup/llama-cpp-builder) | 8 | 2026-04-30T11:27:01Z | Unknown | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [danielrosehill/Claude-Desktop-Manager-Plugin](https://github.com/danielrosehill/Claude-Desktop-Manager-Plugin) | 1 | 2026-04-30T11:06:06Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [sp1-patches/RustCrypto-bigint](https://github.com/sp1-patches/RustCrypto-bigint) | 1 | 2026-04-29T21:30:56Z | Unknown | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [sp1-patches/tiny-keccak](https://github.com/sp1-patches/tiny-keccak) | 1 | 2026-04-29T17:31:28Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [jku/tuf-demo](https://github.com/jku/tuf-demo) | 8 | 2026-04-29T15:26:09Z | Unknown | Infrastructure/tooling | 5 | 7 | 5 | 5 |
@@ -69,33 +77,27 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Claude-ADHD-Research-Workspace](https://github.com/danielrosehill/Claude-ADHD-Research-Workspace) | 5 | 2026-04-16T13:56:55Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [canonical/ubuntu-desktop-provision-screenshots](https://github.com/canonical/ubuntu-desktop-provision-screenshots) | 3 | 2026-04-15T15:50:40Z | Unknown | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [agent-sh/prepare-delivery](https://github.com/agent-sh/prepare-delivery) | 2 | 2026-04-15T09:02:53Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
-| [agenmod/mirror-skill](https://github.com/agenmod/mirror-skill) | 2 | 2026-04-15T04:01:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [agenmod/steamer-skill](https://github.com/agenmod/steamer-skill) | 1 | 2026-04-15T02:44:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [ai-dynamo/enhancements](https://github.com/ai-dynamo/enhancements) | 8 | 2026-04-14T22:49:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [flinedev/marketplace](https://github.com/FlineDev/Marketplace) | 2 | 2026-04-14T14:42:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Docs-And-Notes-Index](https://github.com/danielrosehill/Docs-And-Notes-Index) | 2 | 2026-04-14T12:07:02Z | Unknown | Docs/knowledge | 2 | 0 | 2 | 2 |
-| [nodejs/web-team](https://github.com/nodejs/web-team) | 5 | 2026-04-14T11:30:18Z | Unknown | Infrastructure/tooling | 6 | 10 | 6 | 6 |
-| [D1DX/morning-skill](https://github.com/D1DX/morning-skill) | 2 | 2026-04-14T09:00:04Z | Unknown | Unknown | 6 | 0 | 6 | 6 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [danielrosehill/Claude-Code-Plugins](https://github.com/danielrosehill/Claude-Code-Plugins) | 9 | 2026-04-21T21:44:33Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
+| [hybridgroup/llama-cpp-builder](https://github.com/hybridgroup/llama-cpp-builder) | 8 | 2026-04-30T11:27:01Z | Unknown | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [jku/tuf-demo](https://github.com/jku/tuf-demo) | 8 | 2026-04-29T15:26:09Z | Unknown | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [AlmaLinux/osv-database](https://github.com/AlmaLinux/osv-database) | 8 | 2026-04-23T12:52:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [conda-forge/ultralytics-feedstock](https://github.com/conda-forge/ultralytics-feedstock) | 8 | 2026-04-21T18:13:29Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [ai-dynamo/enhancements](https://github.com/ai-dynamo/enhancements) | 8 | 2026-04-14T22:49:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [puppetlabs/.github](https://github.com/puppetlabs/.github) | 7 | 2026-04-29T03:05:54Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [hiyouga/llamafactory-community](https://github.com/hiyouga/llamafactory-community) | 7 | 2026-04-26T19:11:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [piebald-ai/piebald-issues](https://github.com/Piebald-AI/piebald-issues) | 7 | 2026-04-16T21:04:31Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [web-platform-tests/results-analysis-cache](https://github.com/web-platform-tests/results-analysis-cache) | 6 | 2026-04-24T12:14:55Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [eternahybridexchange/eterna-mcp](https://github.com/EternaHybridExchange/eterna-mcp) | 6 | 2026-04-17T12:50:01Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
+| [stdlib-js/meetings](https://github.com/stdlib-js/meetings) | 5 | 2026-05-01T06:18:32Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [OpenSC/Nightly](https://github.com/OpenSC/Nightly) | 5 | 2026-04-30T16:15:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [HKUDS/.github](https://github.com/HKUDS/.github) | 5 | 2026-04-26T06:41:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [scalar/starter](https://github.com/scalar/starter) | 5 | 2026-04-24T07:11:20Z | Unknown | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [oobabooga/screenshots](https://github.com/oobabooga/screenshots) | 5 | 2026-04-23T19:22:16Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-ADHD-Research-Workspace](https://github.com/danielrosehill/Claude-ADHD-Research-Workspace) | 5 | 2026-04-16T13:56:55Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
-| [nodejs/web-team](https://github.com/nodejs/web-team) | 5 | 2026-04-14T11:30:18Z | Unknown | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [emacs-straight/gnu-elpa-mirror](https://github.com/emacs-straight/gnu-elpa-mirror) | 4 | 2026-04-29T00:20:16Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [dmBots/DM-J4310-2EC](https://github.com/dmBots/DM-J4310-2EC) | 4 | 2026-04-28T05:50:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [openwebdocs/mdn-bcd-results](https://github.com/openwebdocs/mdn-bcd-results) | 4 | 2026-04-23T06:24:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -109,10 +111,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Subindices](https://github.com/danielrosehill/Subindices) | 2 | 2026-04-25T10:40:53Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [eslint/.github](https://github.com/eslint/.github) | 2 | 2026-04-18T08:20:43Z | Unknown | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [agent-sh/prepare-delivery](https://github.com/agent-sh/prepare-delivery) | 2 | 2026-04-15T09:02:53Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
-| [agenmod/mirror-skill](https://github.com/agenmod/mirror-skill) | 2 | 2026-04-15T04:01:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [flinedev/marketplace](https://github.com/FlineDev/Marketplace) | 2 | 2026-04-14T14:42:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Docs-And-Notes-Index](https://github.com/danielrosehill/Docs-And-Notes-Index) | 2 | 2026-04-14T12:07:02Z | Unknown | Docs/knowledge | 2 | 0 | 2 | 2 |
-| [D1DX/morning-skill](https://github.com/D1DX/morning-skill) | 2 | 2026-04-14T09:00:04Z | Unknown | Unknown | 6 | 0 | 6 | 6 |
+| [danielrosehill/Claude-Research-Space-Plugin](https://github.com/danielrosehill/Claude-Research-Space-Plugin) | 1 | 2026-04-30T19:00:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Content-Writing-Plugin](https://github.com/danielrosehill/Claude-Content-Writing-Plugin) | 1 | 2026-04-30T18:47:09Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [csm-actions/demo-server](https://github.com/csm-actions/demo-server) | 1 | 2026-04-30T15:42:24Z | Unknown | Infrastructure/tooling | 4 | 3 | 4 | 4 |
+| [danielrosehill/Claude-KDE-Plasma-Plugin](https://github.com/danielrosehill/Claude-KDE-Plasma-Plugin) | 1 | 2026-04-30T15:39:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Desktop-Manager-Plugin](https://github.com/danielrosehill/Claude-Desktop-Manager-Plugin) | 1 | 2026-04-30T11:06:06Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [sp1-patches/RustCrypto-bigint](https://github.com/sp1-patches/RustCrypto-bigint) | 1 | 2026-04-29T21:30:56Z | Unknown | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [sp1-patches/tiny-keccak](https://github.com/sp1-patches/tiny-keccak) | 1 | 2026-04-29T17:31:28Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Therapy-Tracking-Plugin](https://github.com/danielrosehill/Therapy-Tracking-Plugin) | 1 | 2026-04-28T17:37:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -130,4 +133,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Claude-PR-Media-Work-Plugin](https://github.com/danielrosehill/Claude-PR-Media-Work-Plugin) | 1 | 2026-04-19T13:02:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [graveyardsfocrdpktv/ethereum-mempool-bot](https://github.com/graveyardsfocrdpktv/Ethereum-mempool-bot) | 1 | 2026-04-19T12:43:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Experiments-And-Evaluations-Index](https://github.com/danielrosehill/Experiments-And-Evaluations-Index) | 1 | 2026-04-17T12:19:04Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
-| [agenmod/steamer-skill](https://github.com/agenmod/steamer-skill) | 1 | 2026-04-15T02:44:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

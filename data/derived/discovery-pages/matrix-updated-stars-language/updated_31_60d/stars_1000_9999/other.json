@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 882,
-    "concepts": 986,
-    "observations": 993,
-    "repos": 168,
-    "terms": 982
+    "components": 917,
+    "concepts": 1039,
+    "observations": 1048,
+    "repos": 176,
+    "terms": 1034
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
     "abo-abo/swiper",
+    "AdguardTeam/AdguardForiOS",
     "airblade/vim-gitgutter",
     "akermu/emacs-libvterm",
     "Alamofire/AlamofireImage",
@@ -116,6 +117,7 @@
     "lunarmodules/busted",
     "macvim-dev/macvim",
     "MagicDuck/grug-far.nvim",
+    "MahApps/MahApps.Metro",
     "manzaltu/claude-code-ide.el",
     "MattesGroeger/vim-bookmarks",
     "mattn/vim-gist",
@@ -124,6 +126,8 @@
     "mfussenegger/nvim-dap",
     "mfussenegger/nvim-lint",
     "michalmuskala/jason",
+    "microsoft/ai-dev-gallery",
+    "microsoft/vscode-codicons",
     "moby/vpnkit",
     "ndmitchell/ghcid",
     "ndmitchell/hlint",
@@ -140,6 +144,7 @@
     "opal/opal",
     "oxalorg/sakura",
     "phodal/auto-dev",
+    "Project-MONAI/tutorials",
     "ptsochantaris/trailer",
     "puppetlabs/puppet",
     "pyenv-win/pyenv-win",
@@ -151,6 +156,7 @@
     "rjpcomputing/luaforwindows",
     "rmcelreath/rethinking",
     "roboflow/notebooks",
+    "ROCm/MIOpen",
     "rom1504/clip-retrieval",
     "rstudio/cheatsheets",
     "ruby/debug",
@@ -179,6 +185,8 @@
     "weavejester/cljfmt",
     "whitequark/parser",
     "wincent/command-t",
+    "wojtekmach/req",
+    "yonaskolb/XcodeGen",
     "yuhonas/free-exercise-db",
     "zarazhangrui/codebase-to-course",
     "zjunlp/EasyEdit"

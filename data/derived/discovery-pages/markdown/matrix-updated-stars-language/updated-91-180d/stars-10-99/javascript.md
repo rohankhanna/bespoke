@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 29
-- terms: 52
-- components: 343
-- concepts: 52
-- observations: 53
+- repos: 32
+- terms: 66
+- components: 374
+- concepts: 66
+- observations: 67
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hchiam/learning-lighthouse-ci](https://github.com/hchiam/learning-lighthouse-ci) | 61 | 2026-02-13T18:42:15Z | JavaScript | Web app | 2 | 3 | 2 | 2 |
+| [coderaiser/try-to-catch](https://github.com/coderaiser/try-to-catch) | 41 | 2026-02-13T11:18:27Z | JavaScript | Infrastructure/tooling | 8 | 14 | 8 | 8 |
+| [coderaiser/try-catch](https://github.com/coderaiser/try-catch) | 19 | 2026-02-13T11:17:03Z | JavaScript | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [ButTaiwan/taigivs](https://github.com/ButTaiwan/taigivs) | 63 | 2026-02-10T12:56:57Z | JavaScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [tc39/proposal-import-bytes](https://github.com/tc39/proposal-import-bytes) | 80 | 2026-02-09T15:42:56Z | JavaScript | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [quarkiverse/quarkiverse](https://github.com/quarkiverse/quarkiverse) | 53 | 2026-02-06T11:25:33Z | JavaScript | Infrastructure/tooling | 6 | 11 | 6 | 6 |
@@ -63,6 +66,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tc39/proposal-import-bytes](https://github.com/tc39/proposal-import-bytes) | 80 | 2026-02-09T15:42:56Z | JavaScript | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [josdejong/typed-function](https://github.com/josdejong/typed-function) | 78 | 2026-01-07T10:06:14Z | JavaScript | Infrastructure/tooling | 1 | 17 | 1 | 1 |
 | [ButTaiwan/taigivs](https://github.com/ButTaiwan/taigivs) | 63 | 2026-02-10T12:56:57Z | JavaScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [hchiam/learning-lighthouse-ci](https://github.com/hchiam/learning-lighthouse-ci) | 61 | 2026-02-13T18:42:15Z | JavaScript | Web app | 2 | 3 | 2 | 2 |
 | [salesforcecli/status](https://github.com/salesforcecli/status) | 58 | 2025-12-02T22:21:45Z | JavaScript | CLI | 1 | 7 | 1 | 1 |
 | [d3x0r/JSOX](https://github.com/d3x0r/JSOX) | 56 | 2025-12-18T05:55:47Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
 | [Arthy000/gherkin-testcafe](https://github.com/Arthy000/gherkin-testcafe) | 55 | 2025-11-17T18:23:45Z | JavaScript | Unknown | 0 | 13 | 0 | 0 |
@@ -72,6 +76,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ykdojo/cc-safe](https://github.com/ykdojo/cc-safe) | 51 | 2025-12-10T01:16:28Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [markdown-it/markdown-it-abbr](https://github.com/markdown-it/markdown-it-abbr) | 50 | 2025-11-21T12:09:31Z | JavaScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [freddyaboulton/gradio-pdf](https://github.com/freddyaboulton/gradio-pdf) | 43 | 2025-11-26T21:30:59Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [coderaiser/try-to-catch](https://github.com/coderaiser/try-to-catch) | 41 | 2026-02-13T11:18:27Z | JavaScript | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [minikube-ci/examples](https://github.com/minikube-ci/examples) | 36 | 2026-01-26T21:35:44Z | JavaScript | Infrastructure/tooling | 1 | 2 | 1 | 2 |
 | [nodejs/Gzemnid](https://github.com/nodejs/Gzemnid) | 35 | 2026-01-10T07:06:58Z | JavaScript | Unknown | 2 | 10 | 2 | 2 |
 | [haskell-actions/run-ormolu](https://github.com/haskell-actions/run-ormolu) | 32 | 2025-11-26T20:23:59Z | JavaScript | Infrastructure/tooling | 0 | 7 | 0 | 0 |
@@ -80,6 +85,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [NEAR-DevHub/neardevhub-bos](https://github.com/NEAR-DevHub/neardevhub-bos) | 25 | 2025-12-22T13:58:44Z | JavaScript | Infrastructure/tooling | 10 | 12 | 10 | 10 |
 | [markdown-it/markdown-it-cjk-breaks](https://github.com/markdown-it/markdown-it-cjk-breaks) | 23 | 2025-11-21T01:06:50Z | JavaScript | Infrastructure/tooling | 0 | 14 | 0 | 0 |
 | [dzeiocom/simple-icons-astro](https://github.com/dzeiocom/simple-icons-astro) | 21 | 2025-12-07T06:17:35Z | JavaScript | Infrastructure/tooling | 8 | 9 | 8 | 8 |
+| [coderaiser/try-catch](https://github.com/coderaiser/try-catch) | 19 | 2026-02-13T11:17:03Z | JavaScript | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [breejs/express-example](https://github.com/breejs/express-example) | 19 | 2026-01-07T08:38:03Z | JavaScript | Unknown | 0 | 25 | 0 | 0 |
 | [ember-cli/broccoli-caching-writer](https://github.com/ember-cli/broccoli-caching-writer) | 17 | 2025-12-15T20:20:33Z | JavaScript | Infrastructure/tooling | 3 | 19 | 3 | 3 |
 | [chaijs/check-error](https://github.com/chaijs/check-error) | 15 | 2026-01-03T23:15:58Z | JavaScript | Infrastructure/tooling | 2 | 8 | 2 | 2 |

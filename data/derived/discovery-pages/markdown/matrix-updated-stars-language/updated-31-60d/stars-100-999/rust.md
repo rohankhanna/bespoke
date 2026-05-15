@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 61
+- repos: 63
 - terms: 271
-- components: 322
+- components: 330
 - concepts: 272
 - observations: 277
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [matrix-org/seshat](https://github.com/matrix-org/seshat) | 113 | 2026-04-14T14:22:49Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
+| [nix-community/lorri](https://github.com/nix-community/lorri) | 856 | 2026-04-14T11:33:39Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [gdesmott/system-deps](https://github.com/gdesmott/system-deps) | 108 | 2026-04-14T07:52:43Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [gjtorikian/commonmarker](https://github.com/gjtorikian/commonmarker) | 546 | 2026-04-14T04:26:55Z | Rust | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [ramsayleung/rspotify](https://github.com/ramsayleung/rspotify) | 741 | 2026-04-14T02:22:16Z | Rust | Infrastructure/tooling | 9 | 5 | 9 | 9 |
@@ -95,6 +97,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dtolnay/trybuild](https://github.com/dtolnay/trybuild) | 965 | 2026-03-25T06:01:25Z | Rust | Infrastructure/tooling | 0 | 10 | 0 | 0 |
 | [RustCrypto/AEADs](https://github.com/RustCrypto/AEADs) | 922 | 2026-04-10T23:24:51Z | Rust | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [nixops4/nixops4](https://github.com/nixops4/nixops4) | 869 | 2026-04-11T09:29:02Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [nix-community/lorri](https://github.com/nix-community/lorri) | 856 | 2026-04-14T11:33:39Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [servo/rust-cssparser](https://github.com/servo/rust-cssparser) | 851 | 2026-03-16T16:52:26Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [rust-analyzer/rowan](https://github.com/rust-analyzer/rowan) | 847 | 2026-04-03T08:50:42Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [dfrg/swash](https://github.com/dfrg/swash) | 840 | 2026-03-26T13:19:27Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
@@ -151,5 +154,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alex/rust-asn1](https://github.com/alex/rust-asn1) | 131 | 2026-04-13T21:58:09Z | Rust | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [cosmos/ics23](https://github.com/cosmos/ics23) | 129 | 2026-04-13T09:02:39Z | Rust | Infrastructure/tooling | 3 | 15 | 3 | 3 |
 | [hsivonen/chardetng](https://github.com/hsivonen/chardetng) | 118 | 2026-03-30T12:24:30Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [matrix-org/seshat](https://github.com/matrix-org/seshat) | 113 | 2026-04-14T14:22:49Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [cedar-policy/cedar-examples](https://github.com/cedar-policy/cedar-examples) | 110 | 2026-03-26T18:35:16Z | Rust | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [gdesmott/system-deps](https://github.com/gdesmott/system-deps) | 108 | 2026-04-14T07:52:43Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 38,
-    "concepts": 40,
-    "observations": 40,
-    "repos": 40,
-    "terms": 40
+    "concepts": 41,
+    "observations": 41,
+    "repos": 41,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "aaronrsun/spec-kit-issue",
     "adiny/moodtrip-hotel-search",
@@ -44,6 +44,7 @@
     "danielrosehill/Networking-Projects-Index",
     "danielrosehill/Patches-Repos-Index",
     "danielrosehill/Price-Research-Index",
+    "danielrosehill/Research-Tools-And-Templates-Index",
     "danielrosehill/Skills-Repos-Index",
     "hermit-os/tokio",
     "kdn36/arrow-rs-object-store",

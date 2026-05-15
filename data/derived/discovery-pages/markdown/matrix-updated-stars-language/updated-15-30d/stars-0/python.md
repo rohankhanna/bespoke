@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · Python
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 22
-- terms: 43
-- components: 38
-- concepts: 38
-- observations: 38
+- repos: 24
+- terms: 47
+- components: 44
+- concepts: 42
+- observations: 42
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [lace/lacecore](https://github.com/lace/lacecore) | 0 | 2026-05-01T07:41:53Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [superfarther/K2V](https://github.com/superfarther/K2V) | 0 | 2026-04-30T09:18:13Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [flagos-ai/verl-FL](https://github.com/flagos-ai/verl-FL) | 0 | 2026-04-30T03:04:30Z | Python | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [danielrosehill/Claude-Israel-Agent-Skills-Plugin](https://github.com/danielrosehill/Claude-Israel-Agent-Skills-Plugin) | 0 | 2026-04-29T08:50:58Z | Python | CLI | 3 | 0 | 3 | 3 |
 | [danielrosehill/Repo-Starters-And-Templates-Index](https://github.com/danielrosehill/Repo-Starters-And-Templates-Index) | 0 | 2026-04-28T10:35:14Z | Python | Template/starter | 3 | 0 | 3 | 3 |
@@ -53,6 +55,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [lace/lacecore](https://github.com/lace/lacecore) | 0 | 2026-05-01T07:41:53Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [superfarther/K2V](https://github.com/superfarther/K2V) | 0 | 2026-04-30T09:18:13Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [flagos-ai/verl-FL](https://github.com/flagos-ai/verl-FL) | 0 | 2026-04-30T03:04:30Z | Python | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [danielrosehill/Claude-Israel-Agent-Skills-Plugin](https://github.com/danielrosehill/Claude-Israel-Agent-Skills-Plugin) | 0 | 2026-04-29T08:50:58Z | Python | CLI | 3 | 0 | 3 | 3 |
 | [danielrosehill/Repo-Starters-And-Templates-Index](https://github.com/danielrosehill/Repo-Starters-And-Templates-Index) | 0 | 2026-04-28T10:35:14Z | Python | Template/starter | 3 | 0 | 3 | 3 |

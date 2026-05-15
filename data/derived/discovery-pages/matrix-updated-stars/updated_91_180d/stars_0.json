@@ -3,7 +3,7 @@
     "components": 286,
     "concepts": 99,
     "observations": 99,
-    "repos": 85,
+    "repos": 84,
     "terms": 99
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "1000ch/Sublime-csso",
     "abap2UI5-addons/popups",
@@ -71,7 +71,6 @@
     "Hitesh-Aggarwal/dotfiles",
     "illusionfield/fourseven-scss",
     "jackielii/qmk_firmware",
-    "JuliaBinaryWrappers/brotli_jll.jl",
     "JuliaBinaryWrappers/Glib_jll.jl",
     "JuliaBinaryWrappers/Libffi_jll.jl",
     "Keats/os_info",

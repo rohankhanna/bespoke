@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · TypeScript
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 38
-- terms: 157
-- components: 809
-- concepts: 148
-- observations: 148
+- repos: 41
+- terms: 194
+- components: 920
+- concepts: 185
+- observations: 185
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [csm-actions/update-branch-action](https://github.com/csm-actions/update-branch-action) | 1 | 2026-04-30T19:38:03Z | TypeScript | Infrastructure/tooling | 10 | 16 | 10 | 10 |
+| [anolilab/unplugin-favicons](https://github.com/anolilab/unplugin-favicons) | 8 | 2026-04-30T19:33:36Z | TypeScript | Infrastructure/tooling | 26 | 91 | 26 | 26 |
+| [dydxprotocol/v4-localization](https://github.com/dydxprotocol/v4-localization) | 5 | 2026-04-30T16:50:55Z | TypeScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [octokit/auth-callback.js](https://github.com/octokit/auth-callback.js) | 3 | 2026-04-29T19:55:28Z | TypeScript | Infrastructure/tooling | 7 | 19 | 7 | 7 |
 | [dreamscached/i18next-cli-plugin-svelte](https://github.com/dreamscached/i18next-cli-plugin-svelte) | 2 | 2026-04-29T17:56:29Z | TypeScript | CLI | 7 | 15 | 7 | 7 |
 | [redhat-developer/app-services-api-guidelines](https://github.com/redhat-developer/app-services-api-guidelines) | 5 | 2026-04-29T14:15:45Z | TypeScript | Infrastructure/tooling | 2 | 3 | 2 | 2 |
@@ -73,10 +76,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [breferrari/shardmind](https://github.com/breferrari/shardmind) | 9 | 2026-04-28T08:36:03Z | TypeScript | Infrastructure/tooling | 1 | 30 | 1 | 1 |
 | [oclif/plugin-commands](https://github.com/oclif/plugin-commands) | 9 | 2026-04-25T05:00:13Z | TypeScript | Infrastructure/tooling | 7 | 40 | 7 | 7 |
 | [ipfs/helia-remote-pinning](https://github.com/ipfs/helia-remote-pinning) | 9 | 2026-04-19T07:11:02Z | TypeScript | Infrastructure/tooling | 8 | 7 | 8 | 8 |
+| [anolilab/unplugin-favicons](https://github.com/anolilab/unplugin-favicons) | 8 | 2026-04-30T19:33:36Z | TypeScript | Infrastructure/tooling | 26 | 91 | 26 | 26 |
 | [analyticsinmotion/wake-word](https://github.com/analyticsinmotion/wake-word) | 7 | 2026-04-15T21:58:43Z | TypeScript | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [qcr/qcr.github.io](https://github.com/qcr/qcr.github.io) | 7 | 2026-04-15T14:42:26Z | TypeScript | Infrastructure/tooling | 3 | 47 | 3 | 3 |
 | [ublacklist/builtin](https://github.com/ublacklist/builtin) | 6 | 2026-04-18T10:07:26Z | TypeScript | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [celo-org/SocialConnect-Twitter](https://github.com/celo-org/SocialConnect-Twitter) | 6 | 2026-04-15T17:49:50Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
+| [dydxprotocol/v4-localization](https://github.com/dydxprotocol/v4-localization) | 5 | 2026-04-30T16:50:55Z | TypeScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [redhat-developer/app-services-api-guidelines](https://github.com/redhat-developer/app-services-api-guidelines) | 5 | 2026-04-29T14:15:45Z | TypeScript | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [ipshipyard/github-mgmt](https://github.com/ipshipyard/github-mgmt) | 5 | 2026-04-28T21:46:23Z | TypeScript | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [rstackjs/rsbuild-plugin-i18next-extractor](https://github.com/rstackjs/rsbuild-plugin-i18next-extractor) | 5 | 2026-04-24T06:17:50Z | TypeScript | CLI | 2 | 14 | 2 | 2 |
@@ -102,6 +107,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [birdofpreyru/react-starter](https://github.com/birdofpreyru/react-starter) | 2 | 2026-04-19T16:52:37Z | TypeScript | Template/starter | 0 | 83 | 0 | 0 |
 | [saminiscool/twitter-ai-agent](https://github.com/Saminiscool/twitter-ai-agent) | 2 | 2026-04-19T13:16:17Z | TypeScript | CLI | 0 | 38 | 0 | 0 |
 | [klodr/mercury-invoicing-mcp](https://github.com/klodr/mercury-invoicing-mcp) | 2 | 2026-04-19T08:42:02Z | TypeScript | Infrastructure/tooling | 3 | 22 | 0 | 0 |
+| [csm-actions/update-branch-action](https://github.com/csm-actions/update-branch-action) | 1 | 2026-04-30T19:38:03Z | TypeScript | Infrastructure/tooling | 10 | 16 | 10 | 10 |
 | [multiformats/github-mgmt](https://github.com/multiformats/github-mgmt) | 1 | 2026-04-28T21:46:35Z | TypeScript | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [ipfs-shipyard/github-mgmt](https://github.com/ipfs-shipyard/github-mgmt) | 1 | 2026-04-28T21:45:52Z | TypeScript | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [dreamiurg/mountaineers-mcp](https://github.com/dreamiurg/mountaineers-mcp) | 1 | 2026-04-20T22:55:47Z | TypeScript | Infrastructure/tooling | 9 | 16 | 9 | 9 |

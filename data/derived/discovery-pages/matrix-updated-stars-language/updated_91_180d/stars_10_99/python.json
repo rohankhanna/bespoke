@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 172,
-    "concepts": 210,
-    "observations": 210,
-    "repos": 88,
-    "terms": 218
+    "components": 184,
+    "concepts": 221,
+    "observations": 222,
+    "repos": 90,
+    "terms": 229
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "aba122/Q-Hawkeye",
@@ -42,6 +42,7 @@
     "edwhu/dreamer4-jax",
     "elm-fluent/elm-fluent",
     "emory-irlab/pyterrier_genrank",
+    "ENCODE-DCC/caper",
     "erkyrath/glk-dev",
     "espressif/conventional-precommit-linter",
     "Finance-LLMs/deep-research-python",
@@ -100,6 +101,7 @@
     "vis-nlp/ChartQAPro",
     "vllm-project/vllm-openvino",
     "vstinner/misc",
+    "xplpc/xplpc",
     "zheng977/MutiAgent4Fraud",
     "zlib-ng/deflatebench"
   ]

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 33136,
-    "concepts": 15052,
-    "observations": 15108,
-    "repos": 1700,
-    "terms": 15008
+    "components": 33257,
+    "concepts": 15106,
+    "observations": 15162,
+    "repos": 1704,
+    "terms": 15059
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -271,6 +271,7 @@
     "carla-simulator/carla",
     "caronc/apprise",
     "Carthage/Carthage",
+    "casesandberg/react-color",
     "casey/just",
     "catchorg/Catch2",
     "catppuccin/catppuccin",
@@ -882,6 +883,7 @@
     "Kludex/starlette",
     "knownsec/404StarLink",
     "koalaman/shellcheck",
+    "Koenkk/zigbee2mqtt",
     "Kong/insomnia",
     "Kong/kong",
     "Konloch/bytecode-viewer",
@@ -1397,6 +1399,7 @@
     "rust-lang/rust-clippy",
     "RustPython/RustPython",
     "ruvnet/ruflo",
+    "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
     "rwaldron/idiomatic.js",
     "ryanmcdermott/clean-code-javascript",
     "ryanoasis/nerd-fonts",
@@ -1503,6 +1506,7 @@
     "super-linter/super-linter",
     "superclaude-org/superclaude_framework",
     "surrealdb/surrealdb",
+    "svc-develop-team/so-vits-svc",
     "sveltejs/kit",
     "sveltejs/svelte",
     "svg/svgo",

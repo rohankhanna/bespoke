@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 22
-- terms: 141
+- repos: 23
+- terms: 149
 - components: 111
-- concepts: 141
-- observations: 142
+- concepts: 149
+- observations: 150
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [JupiterRider/purego-sdl3](https://github.com/JupiterRider/purego-sdl3) | 148 | 2026-03-15T10:47:20Z | Go | Unknown | 8 | 0 | 8 | 8 |
 | [medama-io/medama](https://github.com/medama-io/medama) | 611 | 2026-03-14T01:02:24Z | Go | Infrastructure/tooling | 15 | 12 | 15 | 15 |
 | [hashicorp/raft-boltdb](https://github.com/hashicorp/raft-boltdb) | 705 | 2026-03-13T08:40:26Z | Go | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [itzg/rcon-cli](https://github.com/itzg/rcon-cli) | 215 | 2026-03-12T21:03:03Z | Go | CLI | 5 | 3 | 5 | 5 |
@@ -69,6 +70,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [appbaseio/reactivesearch-api](https://github.com/appbaseio/reactivesearch-api) | 211 | 2026-02-23T18:13:18Z | Go | Infrastructure/tooling | 12 | 13 | 12 | 12 |
 | [hebcal/hebcal](https://github.com/hebcal/hebcal) | 178 | 2026-03-02T23:47:05Z | Go | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [Antonboom/testifylint](https://github.com/Antonboom/testifylint) | 164 | 2026-03-01T09:04:07Z | Go | Infrastructure/tooling | 5 | 6 | 5 | 5 |
+| [JupiterRider/purego-sdl3](https://github.com/JupiterRider/purego-sdl3) | 148 | 2026-03-15T10:47:20Z | Go | Unknown | 8 | 0 | 8 | 8 |
 | [aws/amazon-ec2-spot-interrupter](https://github.com/aws/amazon-ec2-spot-interrupter) | 108 | 2026-03-02T16:44:29Z | Go | CLI | 6 | 3 | 6 | 6 |
 | [argoproj-labs/argocd-rbac-operator](https://github.com/argoproj-labs/argocd-rbac-operator) | 107 | 2026-02-20T22:34:42Z | Go | Infrastructure/tooling | 13 | 19 | 13 | 13 |
 | [erigontech/interfaces](https://github.com/erigontech/interfaces) | 105 | 2026-03-09T19:00:46Z | Go | Unknown | 0 | 0 | 0 | 0 |

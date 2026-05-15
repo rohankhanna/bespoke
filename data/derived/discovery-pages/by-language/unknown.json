@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1605,
-    "concepts": 2961,
-    "observations": 2965,
-    "repos": 1687,
-    "terms": 2965
+    "components": 1607,
+    "concepts": 2964,
+    "observations": 2968,
+    "repos": 1690,
+    "terms": 2968
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "unknown"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nn0/terminal-mac-cheatsheet",
@@ -301,6 +301,7 @@
     "carloandremoreyra/xx",
     "carlosperate/awesome-pyproject",
     "carsakiller/LLS-Addons",
+    "catppuccin/atuin",
     "cavedweller509/LMDeploy-Jetson",
     "cbuijs/hagezi",
     "cdxeve/awesome-computer-use-agents",
@@ -1242,6 +1243,7 @@
     "NuGet/docs.microsoft.com-nuget",
     "NuGet/NuGet.Jobs",
     "numi-hq/open-design",
+    "nurikk/fileshare",
     "nushell/showcase",
     "nushu-script/Nyushu",
     "nuxt/framework",
@@ -1409,6 +1411,7 @@
     "retracedhq/docs",
     "revfactory/harness-100",
     "richgel999/junkdrawer",
+    "RiDDiX/home-assistant-addons",
     "rixo/svelte-hmr",
     "robin1001/qr",
     "robotology/community",

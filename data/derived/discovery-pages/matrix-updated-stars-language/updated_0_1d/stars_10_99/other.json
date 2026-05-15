@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 2,
-    "terms": 18
+    "components": 17,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 3,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
+    "browniebroke/pypackage-template",
     "lumen-oss/luarocks-tag-release",
     "pivotal/credhub-release"
   ]

@@ -3,7 +3,7 @@
     "components": 42,
     "concepts": 32,
     "observations": 32,
-    "repos": 17,
+    "repos": 16,
     "terms": 32
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "10up/.github",
@@ -27,7 +27,6 @@
     "danielrosehill/claude-agent-workspace-generator",
     "danielrosehill/Claude-Dork",
     "gakonst/foundry",
-    "jsdom/.github",
     "newton-physics/newton-governance",
     "piebald-ai/.github",
     "richgel999/junkdrawer"

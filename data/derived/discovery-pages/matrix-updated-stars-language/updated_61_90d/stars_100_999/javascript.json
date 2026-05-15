@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 334,
-    "concepts": 55,
-    "observations": 56,
-    "repos": 19,
-    "terms": 54
+    "components": 319,
+    "concepts": 61,
+    "observations": 62,
+    "repos": 18,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "adobe-photoshop/generator-core",
     "appbaseio/searchbox",
@@ -27,10 +27,9 @@
     "lemire/FastPriorityQueue.js",
     "Mario4272/ag_bridge",
     "prebuild/prebuild-install",
-    "raywo/MMM-NowPlayingOnSpotify",
     "React9k/react-timeline-9000",
+    "RichardLitt/generator-standard-readme",
     "sindresorhus/multimatch",
-    "testing-library/eslint-plugin-jest-dom",
     "thejoshwolfe/yazl",
     "usnistgov/jsfive"
   ]

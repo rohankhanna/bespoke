@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1133,
-    "concepts": 650,
-    "observations": 651,
-    "repos": 65,
-    "terms": 642
+    "components": 1248,
+    "concepts": 766,
+    "observations": 767,
+    "repos": 73,
+    "terms": 758
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
@@ -31,6 +31,7 @@
     "dani-garcia/vaultwarden",
     "diem/diem",
     "diesel-rs/diesel",
+    "emilk/egui",
     "facebook/relay",
     "fish-shell/fish-shell",
     "foundry-rs/foundry",
@@ -41,6 +42,7 @@
     "GitoxideLabs/gitoxide",
     "gitui-org/gitui",
     "gleam-lang/gleam",
+    "google/comprehensive-rust",
     "googleworkspace/cli",
     "helix-editor/helix",
     "huggingface/candle",
@@ -54,10 +56,13 @@
     "nearai/ironclaw",
     "openai/codex",
     "orhun/git-cliff",
+    "oxc-project/oxc",
+    "pola-rs/polars",
     "PyO3/pyo3",
     "quickwit-oss/quickwit",
     "ratatui/ratatui",
     "rayon-rs/rayon",
+    "rolldown/rolldown",
     "rust-lang/cargo",
     "rust-lang/rust-clippy",
     "RustPython/RustPython",
@@ -73,10 +78,13 @@
     "swc-project/swc",
     "tokio-rs/axum",
     "tokio-rs/tokio",
+    "tracel-ai/burn",
     "tree-sitter/tree-sitter",
     "typst/typst",
+    "vectordotdev/vector",
     "vercel-labs/agent-browser",
     "web-infra-dev/rspack",
+    "wezterm/wezterm",
     "zed-industries/zed",
     "zeroclaw-labs/zeroclaw"
   ]

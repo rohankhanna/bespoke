@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 24
-- terms: 97
-- components: 90
-- concepts: 94
-- observations: 95
+- terms: 98
+- components: 88
+- concepts: 95
+- observations: 96
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [EmbarkStudios/cargo-deny-action](https://github.com/EmbarkStudios/cargo-deny-action) | 179 | 2026-04-14T10:46:45Z | Shell | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [undeadlist/claude-code-agents](https://github.com/undeadlist/claude-code-agents) | 123 | 2026-04-13T21:33:09Z | Shell | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [actions/upload-pages-artifact](https://github.com/actions/upload-pages-artifact) | 477 | 2026-04-13T19:24:32Z | Shell | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [numpy/numpy.org](https://github.com/numpy/numpy.org) | 123 | 2026-04-13T17:59:40Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
@@ -37,7 +38,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [crazy-max/xgo](https://github.com/crazy-max/xgo) | 224 | 2026-04-08T23:42:23Z | Shell | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [chaoss/grimoirelab](https://github.com/chaoss/grimoirelab) | 596 | 2026-04-08T22:10:24Z | Shell | Infrastructure/tooling | 11 | 12 | 11 | 11 |
 | [SamNet-dev/paqctl](https://github.com/SamNet-dev/paqctl) | 797 | 2026-04-06T19:45:00Z | Shell | Unknown | 10 | 0 | 10 | 10 |
-| [nginx-le/nginx-le](https://github.com/nginx-le/nginx-le) | 685 | 2026-04-05T04:19:23Z | Shell | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [TexasInstruments/edgeai](https://github.com/TexasInstruments/edgeai) | 158 | 2026-04-04T13:11:31Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 | [aslafy-z/helm-git](https://github.com/aslafy-z/helm-git) | 360 | 2026-04-02T07:54:04Z | Shell | Infrastructure/tooling | 7 | 14 | 7 | 7 |
 | [xbdcc/CCommand](https://github.com/xbdcc/CCommand) | 126 | 2026-03-30T06:05:15Z | Shell | Unknown | 3 | 0 | 3 | 3 |
@@ -59,7 +59,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mklement0/n-install](https://github.com/mklement0/n-install) | 842 | 2026-03-26T11:10:20Z | Shell | Unknown | 2 | 6 | 2 | 2 |
 | [SamNet-dev/paqctl](https://github.com/SamNet-dev/paqctl) | 797 | 2026-04-06T19:45:00Z | Shell | Unknown | 10 | 0 | 10 | 10 |
 | [trailofbits/claude-code-devcontainer](https://github.com/trailofbits/claude-code-devcontainer) | 721 | 2026-04-09T11:23:30Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [nginx-le/nginx-le](https://github.com/nginx-le/nginx-le) | 685 | 2026-04-05T04:19:23Z | Shell | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [chaoss/grimoirelab](https://github.com/chaoss/grimoirelab) | 596 | 2026-04-08T22:10:24Z | Shell | Infrastructure/tooling | 11 | 12 | 11 | 11 |
 | [docker-library/hello-world](https://github.com/docker-library/hello-world) | 540 | 2026-03-23T21:06:54Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [lxgw/LxgwWenKai-Lite](https://github.com/lxgw/LxgwWenKai-Lite) | 529 | 2026-03-17T15:10:36Z | Shell | Infrastructure/tooling | 8 | 6 | 8 | 8 |
@@ -72,6 +71,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [heroku/heroku-buildpack-apt](https://github.com/heroku/heroku-buildpack-apt) | 250 | 2026-04-09T22:13:23Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [mattmc3/zephyr](https://github.com/mattmc3/zephyr) | 229 | 2026-04-09T23:25:36Z | Shell | Framework | 3 | 0 | 3 | 3 |
 | [crazy-max/xgo](https://github.com/crazy-max/xgo) | 224 | 2026-04-08T23:42:23Z | Shell | Infrastructure/tooling | 8 | 11 | 8 | 8 |
+| [EmbarkStudios/cargo-deny-action](https://github.com/EmbarkStudios/cargo-deny-action) | 179 | 2026-04-14T10:46:45Z | Shell | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [TexasInstruments/edgeai](https://github.com/TexasInstruments/edgeai) | 158 | 2026-04-04T13:11:31Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 | [github/super-linter](https://github.com/github/super-linter) | 146 | 2026-03-26T01:18:14Z | Shell | Infrastructure/tooling | 5 | 13 | 5 | 5 |
 | [xbdcc/CCommand](https://github.com/xbdcc/CCommand) | 126 | 2026-03-30T06:05:15Z | Shell | Unknown | 3 | 0 | 3 | 3 |

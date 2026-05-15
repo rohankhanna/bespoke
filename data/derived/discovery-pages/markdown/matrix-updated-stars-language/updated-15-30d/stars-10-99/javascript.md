@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 67
-- terms: 263
-- components: 1084
-- concepts: 256
-- observations: 257
+- repos: 68
+- terms: 271
+- components: 1083
+- concepts: 264
+- observations: 266
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [stdlib-js/google-summer-of-code](https://github.com/stdlib-js/google-summer-of-code) | 78 | 2026-05-01T06:07:03Z | JavaScript | Infrastructure/tooling | 7 | 14 | 7 | 7 |
+| [hyparam/squirreling](https://github.com/hyparam/squirreling) | 32 | 2026-05-01T05:43:15Z | JavaScript | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [coasys/ad4m](https://github.com/coasys/ad4m) | 86 | 2026-04-30T13:11:47Z | JavaScript | Infrastructure/tooling | 13 | 28 | 13 | 14 |
 | [rstackjs/agent-skills](https://github.com/rstackjs/agent-skills) | 64 | 2026-04-30T03:51:49Z | JavaScript | Infrastructure/tooling | 1 | 15 | 1 | 1 |
 | [aws-samples/aws-sdk-js-tests](https://github.com/aws-samples/aws-sdk-js-tests) | 68 | 2026-04-29T19:08:42Z | JavaScript | Library | 4 | 3 | 4 | 4 |
 | [lm-sys/lm-sys.github.io](https://github.com/lm-sys/lm-sys.github.io) | 87 | 2026-04-29T18:36:11Z | JavaScript | Infrastructure/tooling | 1 | 26 | 1 | 1 |
@@ -91,8 +94,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [webtorrent/bittorrent-peerid](https://github.com/webtorrent/bittorrent-peerid) | 69 | 2026-04-16T15:15:29Z | JavaScript | CLI | 8 | 7 | 8 | 8 |
 | [TrigenSoftware/simple-release-action](https://github.com/TrigenSoftware/simple-release-action) | 23 | 2026-04-16T09:44:21Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
 | [evenchange4/graphql.macro-example](https://github.com/evenchange4/graphql.macro-example) | 23 | 2026-04-16T09:31:31Z | JavaScript | Unknown | 3 | 9 | 3 | 3 |
-| [bmad-code-org/bmad-module-creative-intelligence-suite](https://github.com/bmad-code-org/bmad-module-creative-intelligence-suite) | 62 | 2026-04-14T21:10:52Z | JavaScript | Infrastructure/tooling | 4 | 35 | 4 | 4 |
-| [scaleway/serverless-scaleway-functions](https://github.com/scaleway/serverless-scaleway-functions) | 89 | 2026-04-14T15:52:10Z | JavaScript | Infrastructure/tooling | 12 | 15 | 12 | 12 |
 
 ## Repos sorted by stars
 
@@ -103,10 +104,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [peergos/web-ui](https://github.com/Peergos/web-ui) | 94 | 2026-04-18T20:22:02Z | JavaScript | Infrastructure/tooling | 7 | 13 | 0 | 0 |
 | [ultralytics/llm](https://github.com/ultralytics/llm) | 92 | 2026-04-23T21:18:42Z | JavaScript | Infrastructure/tooling | 11 | 6 | 11 | 11 |
 | [ionide/tree-sitter-fsharp](https://github.com/ionide/tree-sitter-fsharp) | 91 | 2026-04-27T13:14:20Z | JavaScript | Infrastructure/tooling | 4 | 17 | 4 | 4 |
-| [scaleway/serverless-scaleway-functions](https://github.com/scaleway/serverless-scaleway-functions) | 89 | 2026-04-14T15:52:10Z | JavaScript | Infrastructure/tooling | 12 | 15 | 12 | 12 |
 | [lm-sys/lm-sys.github.io](https://github.com/lm-sys/lm-sys.github.io) | 87 | 2026-04-29T18:36:11Z | JavaScript | Infrastructure/tooling | 1 | 26 | 1 | 1 |
+| [coasys/ad4m](https://github.com/coasys/ad4m) | 86 | 2026-04-30T13:11:47Z | JavaScript | Infrastructure/tooling | 13 | 28 | 13 | 14 |
 | [tracked-tools/tracked-toolbox](https://github.com/tracked-tools/tracked-toolbox) | 85 | 2026-04-27T19:32:28Z | JavaScript | Infrastructure/tooling | 3 | 15 | 3 | 3 |
 | [hudochenkov/postcss-styled-syntax](https://github.com/hudochenkov/postcss-styled-syntax) | 81 | 2026-04-28T23:10:30Z | JavaScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
+| [stdlib-js/google-summer-of-code](https://github.com/stdlib-js/google-summer-of-code) | 78 | 2026-05-01T06:07:03Z | JavaScript | Infrastructure/tooling | 7 | 14 | 7 | 7 |
 | [locize/i18next-locize-backend](https://github.com/locize/i18next-locize-backend) | 78 | 2026-04-23T06:13:08Z | JavaScript | Infrastructure/tooling | 6 | 21 | 6 | 6 |
 | [i18next/i18next-chained-backend](https://github.com/i18next/i18next-chained-backend) | 76 | 2026-04-22T21:25:11Z | JavaScript | Unknown | 0 | 23 | 0 | 0 |
 | [winstonjs/winston-transport](https://github.com/winstonjs/winston-transport) | 71 | 2026-04-18T03:05:37Z | JavaScript | Infrastructure/tooling | 0 | 17 | 0 | 0 |
@@ -117,7 +119,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rstackjs/agent-skills](https://github.com/rstackjs/agent-skills) | 64 | 2026-04-30T03:51:49Z | JavaScript | Infrastructure/tooling | 1 | 15 | 1 | 1 |
 | [j9t/obsohtml](https://github.com/j9t/obsohtml) | 64 | 2026-04-27T06:14:12Z | JavaScript | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [newrelic/newrelic-node-apollo-server-plugin](https://github.com/newrelic/newrelic-node-apollo-server-plugin) | 62 | 2026-04-20T19:01:41Z | JavaScript | Infrastructure/tooling | 6 | 30 | 6 | 6 |
-| [bmad-code-org/bmad-module-creative-intelligence-suite](https://github.com/bmad-code-org/bmad-module-creative-intelligence-suite) | 62 | 2026-04-14T21:10:52Z | JavaScript | Infrastructure/tooling | 4 | 35 | 4 | 4 |
 | [AdguardTeam/FiltersCompiler](https://github.com/AdguardTeam/FiltersCompiler) | 61 | 2026-04-27T07:51:14Z | JavaScript | Infrastructure/tooling | 5 | 37 | 5 | 5 |
 | [rescript-lang/tree-sitter-rescript](https://github.com/rescript-lang/tree-sitter-rescript) | 59 | 2026-04-26T13:13:26Z | JavaScript | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [jasmine/jasmine-browser-runner](https://github.com/jasmine/jasmine-browser-runner) | 56 | 2026-04-18T15:13:41Z | JavaScript | Web app | 0 | 13 | 0 | 0 |
@@ -135,6 +136,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [galaxyproteomics/tools-galaxyp](https://github.com/galaxyproteomics/tools-galaxyp) | 36 | 2026-04-28T13:36:46Z | JavaScript | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [milvus-io/community](https://github.com/milvus-io/community) | 36 | 2026-04-22T04:09:40Z | JavaScript | Infrastructure/tooling | 4 | 17 | 4 | 4 |
 | [alexellis/arkade-get](https://github.com/alexellis/arkade-get) | 35 | 2026-04-20T22:35:05Z | JavaScript | CLI | 2 | 16 | 2 | 2 |
+| [hyparam/squirreling](https://github.com/hyparam/squirreling) | 32 | 2026-05-01T05:43:15Z | JavaScript | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [web-platform-tests/results-analysis](https://github.com/web-platform-tests/results-analysis) | 31 | 2026-04-24T04:29:59Z | JavaScript | Infrastructure/tooling | 2 | 12 | 2 | 2 |
 | [bufbuild/protobuf-conformance](https://github.com/bufbuild/protobuf-conformance) | 30 | 2026-04-20T17:02:36Z | JavaScript | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [wyyazlz/sheetnext](https://github.com/wyyazlz/sheetnext) | 28 | 2026-04-27T16:17:22Z | JavaScript | Web app | 13 | 2 | 13 | 13 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 100,
-    "concepts": 206,
-    "observations": 207,
-    "repos": 55,
-    "terms": 206
+    "components": 115,
+    "concepts": 210,
+    "observations": 211,
+    "repos": 57,
+    "terms": 210
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
+    "48Club/bsc-snapshots",
     "abhisheknaiidu/abhisheknaiidu",
     "actions/partner-runner-images",
     "adoptium/temurin21-binaries",
@@ -23,6 +24,7 @@
     "AutoJunjie/awesome-agent-harness",
     "bitrise-io/bitrise-steplib",
     "bloomberg/clang-p2996",
+    "box/box-openapi",
     "chromedp/cdproto",
     "cisagov/vulnrichment",
     "cloudflare/skills",
@@ -37,12 +39,14 @@
     "fluxcd/flux2-multi-tenancy",
     "forcedotcom/cli",
     "gautamkrishnar/gautamkrishnar",
+    "getlantern/lantern-binaries",
     "ghimiresunil/Top-AI-Tools",
     "github/codeql-cli-binaries",
     "github/copilot-language-server-release",
     "google/agents-cli",
     "googlefonts/RobotoMono",
     "graalvm/graalvm-ce-dev-builds",
+    "graalvm/mandrel",
     "ietf-tools/.github",
     "ipfs-examples/helia-examples",
     "kitknox/rootshell",
@@ -61,8 +65,6 @@
     "piebald-ai/awesome-gemini-cli",
     "ranpox/awesome-computer-use",
     "rstackjs/awesome-rstack",
-    "SamurAIGPT/awesome-openclaw",
-    "servo/project",
     "smithy-lang/awesome-smithy",
     "stripe/openapi",
     "tinted-theming/home",

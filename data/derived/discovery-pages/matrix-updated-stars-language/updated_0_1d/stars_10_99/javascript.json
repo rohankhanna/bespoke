@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 14,
+    "components": 21,
     "concepts": 0,
     "observations": 0,
-    "repos": 1,
+    "repos": 2,
     "terms": 0
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
+    "aidenlab/hic-straw",
     "aidenlab/juicebox.js"
   ]
 }

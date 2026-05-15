@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 192,
-    "concepts": 180,
-    "observations": 183,
-    "repos": 43,
-    "terms": 178
+    "components": 209,
+    "concepts": 202,
+    "observations": 205,
+    "repos": 48,
+    "terms": 200
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "2KAbhishek/sway2k",
     "acmesh-official/acmetest",
     "AFLplusplus/cov-analysis",
     "agricidaniel/claude-cybersecurity",
+    "Alexpux/MINGW-packages",
     "alvistack/ansible-role-crun",
     "apache/arrow-testing",
     "argoproj-labs/argocd-extension-installer",
@@ -26,6 +27,8 @@
     "bitnami/vulndb",
     "bnb-chain/node-deploy",
     "bufbuild/homebrew-buf",
+    "cilium/community",
+    "cldwalker/dotfiles",
     "cloudfoundry/cf-deployment-concourse-tasks",
     "cloudfoundry/jumpbox-deployment",
     "conda-forge/pinocchio-feedstock",
@@ -41,6 +44,7 @@
     "gentoo-mirror/guru",
     "GoogleCloudPlatform/blueprints",
     "helidon-io/helidon-examples",
+    "heroku/heroku-buildpack-gradle",
     "iterate-ch/profiles",
     "milvus-io/milvus-proto",
     "NixOS/org",
@@ -54,6 +58,7 @@
     "reviewdog/action-depup",
     "reviewdog/action-hadolint",
     "reviewdog/action-shfmt",
+    "rocq-prover/docker-opam-action",
     "sclorg/mariadb-container",
     "tinted-theming/tinted-shell",
     "tinted-theming/tinted-terminal"

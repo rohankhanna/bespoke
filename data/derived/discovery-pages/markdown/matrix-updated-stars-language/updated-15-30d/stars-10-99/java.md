@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · Java
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 36
-- terms: 139
-- components: 170
-- concepts: 142
-- observations: 143
+- repos: 37
+- terms: 138
+- components: 172
+- concepts: 141
+- observations: 142
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [heroku/heroku-jvm-application-deployer](https://github.com/heroku/heroku-jvm-application-deployer) | 56 | 2026-05-01T01:49:09Z | Java | CLI | 4 | 6 | 4 | 4 |
+| [Accla/graphulo](https://github.com/Accla/graphulo) | 82 | 2026-04-30T19:15:30Z | Java | Library | 0 | 0 | 0 | 0 |
 | [googleapis/sdk-platform-java](https://github.com/googleapis/sdk-platform-java) | 93 | 2026-04-30T03:08:47Z | Java | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [confluentinc/rest-utils](https://github.com/confluentinc/rest-utils) | 24 | 2026-04-30T03:05:46Z | Java | Framework | 0 | 0 | 0 | 0 |
 | [confluentinc/common](https://github.com/confluentinc/common) | 15 | 2026-04-30T02:51:36Z | Java | Library | 0 | 0 | 0 | 0 |
@@ -61,7 +63,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [codelibs/fess-crawler](https://github.com/codelibs/fess-crawler) | 36 | 2026-04-19T10:37:09Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [m2e-code-quality/m2e-code-quality](https://github.com/m2e-code-quality/m2e-code-quality) | 96 | 2026-04-16T16:08:59Z | Java | CLI | 7 | 1 | 7 | 7 |
 | [google/guava-beta-checker](https://github.com/google/guava-beta-checker) | 95 | 2026-04-16T02:18:31Z | Java | Infrastructure/tooling | 0 | 3 | 0 | 0 |
-| [apache/camel-quarkus-examples](https://github.com/apache/camel-quarkus-examples) | 94 | 2026-04-14T13:22:30Z | Java | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -69,12 +70,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [m2e-code-quality/m2e-code-quality](https://github.com/m2e-code-quality/m2e-code-quality) | 96 | 2026-04-16T16:08:59Z | Java | CLI | 7 | 1 | 7 | 7 |
 | [google/guava-beta-checker](https://github.com/google/guava-beta-checker) | 95 | 2026-04-16T02:18:31Z | Java | Infrastructure/tooling | 0 | 3 | 0 | 0 |
-| [apache/camel-quarkus-examples](https://github.com/apache/camel-quarkus-examples) | 94 | 2026-04-14T13:22:30Z | Java | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [googleapis/sdk-platform-java](https://github.com/googleapis/sdk-platform-java) | 93 | 2026-04-30T03:08:47Z | Java | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [smithy-lang/smithy-examples](https://github.com/smithy-lang/smithy-examples) | 92 | 2026-04-29T21:44:52Z | Java | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [opensim-org/opensim-gui](https://github.com/opensim-org/opensim-gui) | 92 | 2026-04-28T20:02:24Z | Java | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [googleapis/java-bigtable](https://github.com/googleapis/java-bigtable) | 87 | 2026-04-29T03:14:00Z | Java | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [apache/arrow-java](https://github.com/apache/arrow-java) | 83 | 2026-04-21T13:57:29Z | Java | Infrastructure/tooling | 7 | 9 | 7 | 7 |
+| [Accla/graphulo](https://github.com/Accla/graphulo) | 82 | 2026-04-30T19:15:30Z | Java | Library | 0 | 0 | 0 | 0 |
 | [GoogleCloudPlatform/opentelemetry-operations-java](https://github.com/GoogleCloudPlatform/opentelemetry-operations-java) | 76 | 2026-04-24T20:11:20Z | Java | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [cedar-policy/cedar-java](https://github.com/cedar-policy/cedar-java) | 72 | 2026-04-21T13:52:36Z | Java | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [bufbuild/protovalidate-java](https://github.com/bufbuild/protovalidate-java) | 63 | 2026-04-23T20:00:36Z | Java | Infrastructure/tooling | 6 | 9 | 6 | 6 |
@@ -82,6 +83,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [googleapis/discovery-artifact-manager](https://github.com/googleapis/discovery-artifact-manager) | 59 | 2026-04-23T18:11:06Z | Java | CLI | 3 | 4 | 3 | 3 |
 | [mukel/gemma4.java](https://github.com/mukel/gemma4.java) | 58 | 2026-04-24T16:35:16Z | Java | Unknown | 7 | 0 | 7 | 7 |
 | [apache/ignite-extensions](https://github.com/apache/ignite-extensions) | 57 | 2026-04-24T12:11:09Z | Java | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [heroku/heroku-jvm-application-deployer](https://github.com/heroku/heroku-jvm-application-deployer) | 56 | 2026-05-01T01:49:09Z | Java | CLI | 4 | 6 | 4 | 4 |
 | [bazel-contrib/rules_jvm](https://github.com/bazel-contrib/rules_jvm) | 53 | 2026-04-20T14:25:59Z | Java | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [googleapis/java-cloud-bom](https://github.com/googleapis/java-cloud-bom) | 45 | 2026-04-27T16:10:23Z | Java | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [spiffe/java-spiffe](https://github.com/spiffe/java-spiffe) | 44 | 2026-04-28T21:53:31Z | Java | Infrastructure/tooling | 4 | 9 | 4 | 4 |

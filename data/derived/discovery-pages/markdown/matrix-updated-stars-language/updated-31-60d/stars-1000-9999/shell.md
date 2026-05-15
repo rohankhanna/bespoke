@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Shell
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 16
+- repos: 15
 - terms: 73
 - components: 62
 - concepts: 60
@@ -41,7 +41,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pgsty/pigsty](https://github.com/pgsty/pigsty) | 5057 | 2026-03-23T08:52:07Z | Shell | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [automazeio/ccpm](https://github.com/automazeio/ccpm) | 7996 | 2026-03-18T12:15:24Z | Shell | Unknown | 4 | 0 | 0 | 0 |
 | [lxgw/LxgwWenkaiGB](https://github.com/lxgw/LxgwWenkaiGB) | 1309 | 2026-03-17T15:03:02Z | Shell | Infrastructure/tooling | 7 | 6 | 7 | 7 |
-| [kward/shunit2](https://github.com/kward/shunit2) | 1729 | 2026-03-15T21:14:41Z | Shell | Framework | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -59,7 +58,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [docker-library/wordpress](https://github.com/docker-library/wordpress) | 1951 | 2026-03-27T00:51:57Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [trailofbits/claude-code-config](https://github.com/trailofbits/claude-code-config) | 1870 | 2026-04-02T09:26:12Z | Shell | CLI | 3 | 0 | 3 | 3 |
 | [spiffe/spiffe](https://github.com/spiffe/spiffe) | 1746 | 2026-04-13T17:10:08Z | Shell | Unknown | 3 | 0 | 3 | 3 |
-| [kward/shunit2](https://github.com/kward/shunit2) | 1729 | 2026-03-15T21:14:41Z | Shell | Framework | 0 | 0 | 0 | 0 |
 | [devcontainers/templates](https://github.com/devcontainers/templates) | 1383 | 2026-04-09T11:19:58Z | Shell | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [nvie/git-toolbelt](https://github.com/nvie/git-toolbelt) | 1375 | 2026-04-08T07:35:17Z | Shell | CLI | 1 | 0 | 0 | 0 |
 | [lxgw/LxgwWenkaiGB](https://github.com/lxgw/LxgwWenkaiGB) | 1309 | 2026-03-17T15:03:02Z | Shell | Infrastructure/tooling | 7 | 6 | 7 | 7 |

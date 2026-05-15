@@ -3,7 +3,7 @@
     "components": 14,
     "concepts": 67,
     "observations": 68,
-    "repos": 16,
+    "repos": 15,
     "terms": 63
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "Alex313031/Thorium-Android",
     "Alex313031/Thorium-MacOS",
@@ -28,7 +28,6 @@
     "MiniMax-AI/MiniMax-M2.5",
     "pbatard/UEFI-Shell",
     "peter-evans/enable-pull-request-automerge",
-    "shadowspawn/node-version-usage",
     "TimoBolkart/FLAME-Universe"
   ]
 }

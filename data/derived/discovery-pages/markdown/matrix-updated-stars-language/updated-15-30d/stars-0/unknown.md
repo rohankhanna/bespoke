@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 88
-- terms: 69
-- components: 44
-- concepts: 60
-- observations: 60
+- repos: 103
+- terms: 70
+- components: 48
+- concepts: 61
+- observations: 61
 
 ## Static behavior
 
@@ -26,6 +26,22 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Air-Quality-Toolkit-Plugin](https://github.com/danielrosehill/Air-Quality-Toolkit-Plugin) | 0 | 2026-04-30T20:10:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-License-Populator-Plugin](https://github.com/danielrosehill/Claude-License-Populator-Plugin) | 0 | 2026-04-30T20:03:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-GPG-Ops-Plugin](https://github.com/danielrosehill/Claude-GPG-Ops-Plugin) | 0 | 2026-04-30T19:57:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Background-Removal-Plugin](https://github.com/danielrosehill/Claude-Background-Removal-Plugin) | 0 | 2026-04-30T19:46:16Z | Unknown | CLI | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-AI-Model-Research-Plugin](https://github.com/danielrosehill/Claude-AI-Model-Research-Plugin) | 0 | 2026-04-30T19:37:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Donetick-Plugin](https://github.com/danielrosehill/Claude-Donetick-Plugin) | 0 | 2026-04-30T19:23:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Digital-Evidence-Plugin](https://github.com/danielrosehill/Claude-Digital-Evidence-Plugin) | 0 | 2026-04-30T19:21:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Keyboard-Scanner](https://github.com/danielrosehill/Claude-Keyboard-Scanner) | 0 | 2026-04-30T18:55:40Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Batch-Optical-Archivist-Plugin](https://github.com/danielrosehill/Claude-Batch-Optical-Archivist-Plugin) | 0 | 2026-04-30T17:12:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [csm-actions/demo-client](https://github.com/csm-actions/demo-client) | 0 | 2026-04-30T16:35:51Z | Unknown | CLI | 2 | 4 | 2 | 2 |
+| [danielrosehill/Claude-Favorite-Plugins-Installers-Plugin](https://github.com/danielrosehill/Claude-Favorite-Plugins-Installers-Plugin) | 0 | 2026-04-30T15:45:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-GIMP-Plugin](https://github.com/danielrosehill/Claude-GIMP-Plugin) | 0 | 2026-04-30T15:44:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Get-Toony-Plugin](https://github.com/danielrosehill/Claude-Get-Toony-Plugin) | 0 | 2026-04-30T15:40:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-CopyQ-Scripting-Plugin](https://github.com/danielrosehill/Claude-CopyQ-Scripting-Plugin) | 0 | 2026-04-30T15:38:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Dev-Tools-Plugin](https://github.com/danielrosehill/Claude-Dev-Tools-Plugin) | 0 | 2026-04-30T11:06:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Hardware-Spec-Assembly-Plugin](https://github.com/danielrosehill/Claude-Hardware-Spec-Assembly-Plugin) | 0 | 2026-04-30T08:58:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [sp1-patches/elliptic-curves](https://github.com/sp1-patches/elliptic-curves) | 0 | 2026-04-29T21:30:13Z | Unknown | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [danielrosehill/Claude-Hopper](https://github.com/danielrosehill/Claude-Hopper) | 0 | 2026-04-29T12:39:24Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [qiayuanl/unitree_buildfarm](https://github.com/qiayuanl/unitree_buildfarm) | 0 | 2026-04-29T11:32:14Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -113,12 +129,27 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Speech-And-ASR-Evaluations](https://github.com/danielrosehill/Speech-And-ASR-Evaluations) | 0 | 2026-04-17T12:19:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Agent-Assisted-Purchase-Research-Index](https://github.com/danielrosehill/Agent-Assisted-Purchase-Research-Index) | 0 | 2026-04-16T18:00:32Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
 | [cachix/nix-bindings-rust](https://github.com/cachix/nix-bindings-rust) | 0 | 2026-04-16T15:06:49Z | Unknown | Library | 0 | 0 | 0 | 0 |
-| [danielrosehill/Research-Tools-And-Templates-Index](https://github.com/danielrosehill/Research-Tools-And-Templates-Index) | 0 | 2026-04-14T12:21:21Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Air-Quality-Toolkit-Plugin](https://github.com/danielrosehill/Air-Quality-Toolkit-Plugin) | 0 | 2026-04-30T20:10:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-License-Populator-Plugin](https://github.com/danielrosehill/Claude-License-Populator-Plugin) | 0 | 2026-04-30T20:03:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-GPG-Ops-Plugin](https://github.com/danielrosehill/Claude-GPG-Ops-Plugin) | 0 | 2026-04-30T19:57:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Background-Removal-Plugin](https://github.com/danielrosehill/Claude-Background-Removal-Plugin) | 0 | 2026-04-30T19:46:16Z | Unknown | CLI | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-AI-Model-Research-Plugin](https://github.com/danielrosehill/Claude-AI-Model-Research-Plugin) | 0 | 2026-04-30T19:37:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Donetick-Plugin](https://github.com/danielrosehill/Claude-Donetick-Plugin) | 0 | 2026-04-30T19:23:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Digital-Evidence-Plugin](https://github.com/danielrosehill/Claude-Digital-Evidence-Plugin) | 0 | 2026-04-30T19:21:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Keyboard-Scanner](https://github.com/danielrosehill/Claude-Keyboard-Scanner) | 0 | 2026-04-30T18:55:40Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Batch-Optical-Archivist-Plugin](https://github.com/danielrosehill/Claude-Batch-Optical-Archivist-Plugin) | 0 | 2026-04-30T17:12:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [csm-actions/demo-client](https://github.com/csm-actions/demo-client) | 0 | 2026-04-30T16:35:51Z | Unknown | CLI | 2 | 4 | 2 | 2 |
+| [danielrosehill/Claude-Favorite-Plugins-Installers-Plugin](https://github.com/danielrosehill/Claude-Favorite-Plugins-Installers-Plugin) | 0 | 2026-04-30T15:45:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-GIMP-Plugin](https://github.com/danielrosehill/Claude-GIMP-Plugin) | 0 | 2026-04-30T15:44:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Get-Toony-Plugin](https://github.com/danielrosehill/Claude-Get-Toony-Plugin) | 0 | 2026-04-30T15:40:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-CopyQ-Scripting-Plugin](https://github.com/danielrosehill/Claude-CopyQ-Scripting-Plugin) | 0 | 2026-04-30T15:38:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Dev-Tools-Plugin](https://github.com/danielrosehill/Claude-Dev-Tools-Plugin) | 0 | 2026-04-30T11:06:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Hardware-Spec-Assembly-Plugin](https://github.com/danielrosehill/Claude-Hardware-Spec-Assembly-Plugin) | 0 | 2026-04-30T08:58:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [sp1-patches/elliptic-curves](https://github.com/sp1-patches/elliptic-curves) | 0 | 2026-04-29T21:30:13Z | Unknown | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [danielrosehill/Claude-Hopper](https://github.com/danielrosehill/Claude-Hopper) | 0 | 2026-04-29T12:39:24Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [qiayuanl/unitree_buildfarm](https://github.com/qiayuanl/unitree_buildfarm) | 0 | 2026-04-29T11:32:14Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -206,4 +237,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Speech-And-ASR-Evaluations](https://github.com/danielrosehill/Speech-And-ASR-Evaluations) | 0 | 2026-04-17T12:19:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Agent-Assisted-Purchase-Research-Index](https://github.com/danielrosehill/Agent-Assisted-Purchase-Research-Index) | 0 | 2026-04-16T18:00:32Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
 | [cachix/nix-bindings-rust](https://github.com/cachix/nix-bindings-rust) | 0 | 2026-04-16T15:06:49Z | Unknown | Library | 0 | 0 | 0 | 0 |
-| [danielrosehill/Research-Tools-And-Templates-Index](https://github.com/danielrosehill/Research-Tools-And-Templates-Index) | 0 | 2026-04-14T12:21:21Z | Unknown | Unknown | 1 | 0 | 1 | 1 |

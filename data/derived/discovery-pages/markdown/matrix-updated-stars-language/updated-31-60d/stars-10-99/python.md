@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 94
-- terms: 378
-- components: 416
-- concepts: 376
-- observations: 376
+- repos: 97
+- terms: 384
+- components: 418
+- concepts: 382
+- observations: 382
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [IcyFish332/T3RL](https://github.com/IcyFish332/T3RL) | 47 | 2026-04-15T07:38:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [psyonicinc/ability-hand-api](https://github.com/psyonicinc/ability-hand-api) | 44 | 2026-04-14T16:22:13Z | Python | Service/API | 1 | 0 | 1 | 1 |
+| [pyocd/libusb-package](https://github.com/pyocd/libusb-package) | 39 | 2026-04-14T14:18:38Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [daltonmaag/vttLib](https://github.com/daltonmaag/vttLib) | 22 | 2026-04-14T03:17:29Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [kserve/community](https://github.com/kserve/community) | 16 | 2026-04-14T02:20:27Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [hsliuustc0106/vllm-omni-skills](https://github.com/hsliuustc0106/vllm-omni-skills) | 59 | 2026-04-14T00:43:54Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -102,6 +105,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [VisionXLab/Rise-Video](https://github.com/VisionXLab/Rise-Video) | 28 | 2026-03-26T08:38:05Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [python-pillow/pillow-perf](https://github.com/python-pillow/pillow-perf) | 17 | 2026-03-26T00:42:23Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [ckan/datapusher](https://github.com/ckan/datapusher) | 83 | 2026-03-25T21:38:15Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [lucidrains/PoPE-pytorch](https://github.com/lucidrains/PoPE-pytorch) | 63 | 2026-03-25T18:45:11Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [danielrosehill/Index](https://github.com/danielrosehill/Index) | 10 | 2026-03-25T18:29:33Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [c4ffein/realworld-django-ninja](https://github.com/c4ffein/realworld-django-ninja) | 19 | 2026-03-25T16:17:43Z | Python | Infrastructure/tooling | 11 | 3 | 11 | 11 |
 | [iterate-ch/docs](https://github.com/iterate-ch/docs) | 30 | 2026-03-25T16:12:02Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
@@ -119,7 +123,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [philippemerle/AWS-CloudFormation-Diagrams](https://github.com/philippemerle/AWS-CloudFormation-Diagrams) | 46 | 2026-03-17T16:41:48Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [cvat-ai/datumaro](https://github.com/cvat-ai/datumaro) | 54 | 2026-03-17T11:11:29Z | Python | CLI | 5 | 24 | 5 | 5 |
 | [andyluo7/autoresearch](https://github.com/andyluo7/autoresearch) | 47 | 2026-03-16T21:30:33Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [inducer/codepy](https://github.com/inducer/codepy) | 57 | 2026-03-15T19:48:41Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -147,6 +150,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [networkx/nx-parallel](https://github.com/networkx/nx-parallel) | 67 | 2026-04-01T03:19:25Z | Python | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [libp2p/test-plans](https://github.com/libp2p/test-plans) | 66 | 2026-04-09T01:01:14Z | Python | Infrastructure/tooling | 11 | 10 | 11 | 11 |
 | [bentoml/openllm-models](https://github.com/bentoml/openllm-models) | 63 | 2026-03-26T11:28:58Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [lucidrains/PoPE-pytorch](https://github.com/lucidrains/PoPE-pytorch) | 63 | 2026-03-25T18:45:11Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [BirolLab/tigmint](https://github.com/BirolLab/tigmint) | 63 | 2026-03-24T15:16:02Z | Python | Infrastructure/tooling | 7 | 6 | 8 | 8 |
 | [Accenture/Cymple](https://github.com/Accenture/Cymple) | 61 | 2026-04-13T18:51:17Z | Python | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [ankurhanda/robot-assets](https://github.com/ankurhanda/robot-assets) | 61 | 2026-04-10T22:07:33Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -155,7 +159,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [intel/vc-intrinsics](https://github.com/intel/vc-intrinsics) | 59 | 2026-04-03T18:07:06Z | Python | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [idodov/RedAlert](https://github.com/idodov/RedAlert) | 59 | 2026-04-03T17:08:16Z | Python | Service/API | 7 | 0 | 7 | 7 |
 | [GuyKh/ims-custom-component](https://github.com/GuyKh/ims-custom-component) | 58 | 2026-04-12T08:43:18Z | Python | Infrastructure/tooling | 9 | 5 | 9 | 9 |
-| [inducer/codepy](https://github.com/inducer/codepy) | 57 | 2026-03-15T19:48:41Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [riponazad/echotracker](https://github.com/riponazad/echotracker) | 56 | 2026-04-13T14:11:33Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [skhu101/HumanLiff](https://github.com/skhu101/HumanLiff) | 55 | 2026-04-11T05:28:11Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [optuna/optunahub](https://github.com/optuna/optunahub) | 55 | 2026-04-03T04:47:50Z | Python | Infrastructure/tooling | 12 | 8 | 12 | 12 |
@@ -166,14 +169,17 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [NixOS/branding](https://github.com/NixOS/branding) | 52 | 2026-04-13T22:47:27Z | Python | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [nousresearch/tinker-atropos](https://github.com/NousResearch/tinker-atropos) | 52 | 2026-03-22T21:35:09Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [LedgerHQ/ledgerctl](https://github.com/LedgerHQ/ledgerctl) | 49 | 2026-04-08T15:51:23Z | Python | Infrastructure/tooling | 3 | 9 | 3 | 3 |
+| [IcyFish332/T3RL](https://github.com/IcyFish332/T3RL) | 47 | 2026-04-15T07:38:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [andyluo7/autoresearch](https://github.com/andyluo7/autoresearch) | 47 | 2026-03-16T21:30:33Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [philippemerle/AWS-CloudFormation-Diagrams](https://github.com/philippemerle/AWS-CloudFormation-Diagrams) | 46 | 2026-03-17T16:41:48Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [urschrei/pypolyline](https://github.com/urschrei/pypolyline) | 45 | 2026-04-13T18:45:10Z | Python | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [scasella/nanochat-mlx](https://github.com/scasella/nanochat-mlx) | 45 | 2026-04-11T13:19:11Z | Python | Unknown | 10 | 0 | 10 | 10 |
+| [psyonicinc/ability-hand-api](https://github.com/psyonicinc/ability-hand-api) | 44 | 2026-04-14T16:22:13Z | Python | Service/API | 1 | 0 | 1 | 1 |
 | [seung-lab/cloud-files](https://github.com/seung-lab/cloud-files) | 44 | 2026-03-20T21:02:14Z | Python | CLI | 13 | 2 | 13 | 13 |
 | [iamsashank09/llm-wiki-kit](https://github.com/iamsashank09/llm-wiki-kit) | 43 | 2026-04-08T20:31:04Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [chaoss/grimoirelab-sirmordred](https://github.com/chaoss/grimoirelab-sirmordred) | 40 | 2026-04-08T21:55:59Z | Python | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [BoosterRobotics/booster_train](https://github.com/BoosterRobotics/booster_train) | 40 | 2026-04-02T11:17:33Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [pyocd/libusb-package](https://github.com/pyocd/libusb-package) | 39 | 2026-04-14T14:18:38Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [Significant-Gravitas/gravitasml](https://github.com/Significant-Gravitas/gravitasml) | 35 | 2026-04-14T00:01:23Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [explosion/spacy-alignments](https://github.com/explosion/spacy-alignments) | 35 | 2026-03-27T08:49:51Z | Python | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [lace/polliwog](https://github.com/lace/polliwog) | 34 | 2026-04-10T03:29:42Z | Python | Infrastructure/tooling | 8 | 5 | 8 | 8 |

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2805,
-    "concepts": 1169,
-    "observations": 1173,
-    "repos": 889,
-    "terms": 1200
+    "components": 2837,
+    "concepts": 1182,
+    "observations": 1186,
+    "repos": 894,
+    "terms": 1213
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "0ghny/asdf-tlsgcli",
@@ -67,6 +67,8 @@
     "aidenlab/java-straw",
     "aidenlab/spacewalk",
     "aidenlab/swtool",
+    "ainvaltin/nu_plugin_boltdb",
+    "ainvaltin/nu_plugin_plist",
     "aipurposes1587-max/weixin-agent-rs",
     "akamming/domoticz-snapcast",
     "akira-l/warc_extractor_mnbvc",
@@ -669,6 +671,7 @@
     "lnx-search/memmap2-rs",
     "locize/locize-i18next-vue-example",
     "ltt1598/voxel-challenge",
+    "Luligu/matterbridge-eve-door",
     "LuminalOSS/credstash",
     "luolin101/Visual-SWE-bench",
     "m4rc1e/test-ufr-family",
@@ -739,6 +742,7 @@
     "ntheanh201/hyper-mcp-release-monitor-id-tool",
     "nugine/simd-benches",
     "nur-zaman/sd-webui-tunnels",
+    "nurikk/fileshare",
     "offline-ai/cli-plugin-cmd-brain.js",
     "OlivierDehaene/candle",
     "oneflow-inc/docker-images",
@@ -852,6 +856,7 @@
     "tedsteen/puffin",
     "TelemetryHub/opentelemetry-demo",
     "thanku-all/parse_answer",
+    "TheSnakeWitcher/hardhat.nvim",
     "threesigmaxyz/filplus-allocator-bot",
     "timelic/source-han-serif",
     "tipi-deps/example-mapmap_cpu",

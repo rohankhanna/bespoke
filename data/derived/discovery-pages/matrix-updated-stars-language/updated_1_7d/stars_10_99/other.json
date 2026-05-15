@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 183,
-    "concepts": 81,
-    "observations": 81,
-    "repos": 15,
-    "terms": 81
+    "components": 176,
+    "concepts": 80,
+    "observations": 80,
+    "repos": 14,
+    "terms": 80
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "Cle2ment/CherryStudio_themes",
@@ -25,7 +25,6 @@
     "ocaml-tracing/ocaml-trace",
     "processing/processing-website",
     "rcasia/neotest-java",
-    "siketyan/intellij-rustowl",
     "TEN-framework/portal",
     "tinted-theming/tinted-xresources",
     "UnknownPlatypus/djangofmt"

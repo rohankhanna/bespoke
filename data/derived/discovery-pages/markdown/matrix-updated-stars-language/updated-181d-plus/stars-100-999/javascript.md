@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 368
+- repos: 370
 - terms: 1040
-- components: 4652
+- components: 4661
 - concepts: 1052
 - observations: 1052
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mourner/rbush-knn](https://github.com/mourner/rbush-knn) | 228 | 2025-11-15T10:35:37Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
 | [ValYouW/njsTrace](https://github.com/ValYouW/njsTrace) | 380 | 2025-11-14T14:37:03Z | JavaScript | Unknown | 0 | 6 | 0 | 0 |
 | [ayoubben18/ab-method](https://github.com/ayoubben18/ab-method) | 160 | 2025-11-10T21:57:17Z | JavaScript | Infrastructure/tooling | 1 | 7 | 0 | 0 |
 | [pmndrs/three-stdlib](https://github.com/pmndrs/three-stdlib) | 844 | 2025-11-10T21:21:23Z | JavaScript | Infrastructure/tooling | 5 | 19 | 5 | 5 |
@@ -206,7 +207,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Mathpix/mpx-cli](https://github.com/Mathpix/mpx-cli) | 116 | 2023-11-20T19:34:54Z | JavaScript | CLI | 7 | 16 | 8 | 8 |
 | [rollup/rollup-starter-lib](https://github.com/rollup/rollup-starter-lib) | 991 | 2023-11-17T06:28:02Z | JavaScript | Library | 0 | 4 | 0 | 0 |
 | [TritonDataCenter/node-http-signature](https://github.com/TritonDataCenter/node-http-signature) | 403 | 2023-11-16T18:34:24Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
-| [electron-archive/grunt-electron-installer](https://github.com/electron-archive/grunt-electron-installer) | 399 | 2023-11-16T03:48:57Z | JavaScript | Web app | 0 | 4 | 0 | 0 |
+| [electron-archive/grunt-electron-installer](https://github.com/electron-archive/grunt-electron-installer) | 398 | 2023-11-16T03:48:57Z | JavaScript | Web app | 0 | 4 | 0 | 0 |
 | [APIDevTools/swagger-cli](https://github.com/APIDevTools/swagger-cli) | 517 | 2023-11-15T11:23:27Z | JavaScript | CLI | 7 | 18 | 8 | 8 |
 | [eschnett/zotero-citationcounts](https://github.com/eschnett/zotero-citationcounts) | 929 | 2023-11-09T17:49:37Z | JavaScript | Unknown | 4 | 0 | 4 | 4 |
 | [felixge/node-combined-stream](https://github.com/felixge/node-combined-stream) | 144 | 2023-11-09T07:47:17Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
@@ -362,6 +363,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [i18next/i18next-express-middleware](https://github.com/i18next/i18next-express-middleware) | 203 | 2022-02-12T09:30:13Z | JavaScript | Unknown | 5 | 12 | 5 | 5 |
 | [fjc0k/YApi-X](https://github.com/fjc0k/YApi-X) | 311 | 2022-02-12T09:18:01Z | JavaScript | Infrastructure/tooling | 4 | 123 | 4 | 4 |
 | [i18next/i18next-xhr-backend](https://github.com/i18next/i18next-xhr-backend) | 250 | 2022-02-12T07:34:24Z | JavaScript | Unknown | 3 | 40 | 3 | 3 |
+| [devongovett/blob-stream](https://github.com/devongovett/blob-stream) | 125 | 2022-01-25T14:36:13Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [dwyl/env2](https://github.com/dwyl/env2) | 102 | 2022-01-24T08:58:39Z | JavaScript | Unknown | 0 | 4 | 0 | 0 |
 | [storybook-eol/addon-smart-knobs](https://github.com/storybook-eol/addon-smart-knobs) | 218 | 2022-01-22T12:40:15Z | JavaScript | Infrastructure/tooling | 7 | 32 | 7 | 7 |
 | [loganfsmyth/babel-plugin-transform-decorators-legacy](https://github.com/loganfsmyth/babel-plugin-transform-decorators-legacy) | 814 | 2022-01-18T09:07:36Z | JavaScript | Unknown | 0 | 9 | 0 | 0 |
@@ -545,7 +547,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [feross/simple-get](https://github.com/feross/simple-get) | 404 | 2023-03-15T20:54:46Z | JavaScript | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [TritonDataCenter/node-http-signature](https://github.com/TritonDataCenter/node-http-signature) | 403 | 2023-11-16T18:34:24Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [micromatch/anymatch](https://github.com/micromatch/anymatch) | 401 | 2023-05-18T16:52:59Z | JavaScript | Unknown | 10 | 4 | 10 | 10 |
-| [electron-archive/grunt-electron-installer](https://github.com/electron-archive/grunt-electron-installer) | 399 | 2023-11-16T03:48:57Z | JavaScript | Web app | 0 | 4 | 0 | 0 |
+| [electron-archive/grunt-electron-installer](https://github.com/electron-archive/grunt-electron-installer) | 398 | 2023-11-16T03:48:57Z | JavaScript | Web app | 0 | 4 | 0 | 0 |
 | [songquanpeng/gin-template](https://github.com/songquanpeng/gin-template) | 396 | 2024-12-27T13:15:42Z | JavaScript | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [frinyvonnick/gitmoji-changelog](https://github.com/frinyvonnick/gitmoji-changelog) | 396 | 2024-05-23T14:53:21Z | JavaScript | CLI | 11 | 8 | 11 | 11 |
 | [electron-userland/electron-installer-debian](https://github.com/electron-userland/electron-installer-debian) | 388 | 2025-05-05T08:03:38Z | JavaScript | Infrastructure/tooling | 0 | 22 | 0 | 0 |
@@ -637,6 +639,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [prebuild/prebuildify](https://github.com/prebuild/prebuildify) | 231 | 2024-06-14T07:48:24Z | JavaScript | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [mongodb-js/electron-squirrel-startup](https://github.com/mongodb-js/electron-squirrel-startup) | 231 | 2024-05-13T14:37:21Z | JavaScript | Infrastructure/tooling | 1 | 11 | 1 | 1 |
 | [marella/material-design-icons](https://github.com/marella/material-design-icons) | 229 | 2025-02-12T02:30:40Z | JavaScript | Infrastructure/tooling | 9 | 3 | 9 | 9 |
+| [mourner/rbush-knn](https://github.com/mourner/rbush-knn) | 228 | 2025-11-15T10:35:37Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
 | [usmanyunusov/nanospinner](https://github.com/usmanyunusov/nanospinner) | 227 | 2024-12-10T07:43:30Z | JavaScript | CLI | 4 | 10 | 4 | 4 |
 | [FrLars21/ZoteroCitationCountsManager](https://github.com/FrLars21/ZoteroCitationCountsManager) | 227 | 2024-07-10T06:42:13Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [atom/ide-java](https://github.com/atom/ide-java) | 226 | 2022-09-28T10:52:02Z | JavaScript | Infrastructure/tooling | 3 | 11 | 3 | 3 |
@@ -723,6 +726,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [topojson/topojson-server](https://github.com/topojson/topojson-server) | 128 | 2022-07-20T14:11:07Z | JavaScript | Unknown | 0 | 6 | 0 | 0 |
 | [donasaur/http-proxy-rules](https://github.com/donasaur/http-proxy-rules) | 126 | 2021-08-04T06:58:19Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [infinitered/nsfwjs-mobile](https://github.com/infinitered/nsfwjs-mobile) | 125 | 2023-01-26T13:17:33Z | JavaScript | Unknown | 7 | 20 | 7 | 7 |
+| [devongovett/blob-stream](https://github.com/devongovett/blob-stream) | 125 | 2022-01-25T14:36:13Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [tree-sitter/tree-sitter-julia](https://github.com/tree-sitter/tree-sitter-julia) | 124 | 2025-11-08T05:23:41Z | JavaScript | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [svg-sprite/grunt-svg-sprite](https://github.com/svg-sprite/grunt-svg-sprite) | 124 | 2025-02-20T17:41:04Z | JavaScript | Infrastructure/tooling | 3 | 16 | 3 | 3 |
 | [bradlc/tailwindcss-fluid](https://github.com/bradlc/tailwindcss-fluid) | 124 | 2023-04-23T16:16:16Z | JavaScript | Web app | 2 | 4 | 2 | 2 |

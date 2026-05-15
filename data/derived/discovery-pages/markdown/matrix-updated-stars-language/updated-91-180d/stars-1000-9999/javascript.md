@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 33
-- terms: 158
-- components: 594
-- concepts: 160
-- observations: 161
+- repos: 34
+- terms: 166
+- components: 609
+- concepts: 168
+- observations: 169
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [typicode/mistcss](https://github.com/typicode/mistcss) | 1616 | 2026-02-13T11:39:35Z | JavaScript | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 | [grpc/grpc-web](https://github.com/grpc/grpc-web) | 9201 | 2026-02-07T16:30:59Z | JavaScript | CLI | 5 | 3 | 5 | 5 |
 | [mozilla/webextension-polyfill](https://github.com/mozilla/webextension-polyfill) | 3049 | 2026-02-04T08:43:39Z | JavaScript | Web app | 0 | 31 | 0 | 0 |
 | [sindresorhus/trash-cli](https://github.com/sindresorhus/trash-cli) | 1397 | 2026-02-02T05:21:20Z | JavaScript | Infrastructure/tooling | 0 | 10 | 0 | 0 |
@@ -91,6 +92,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [facebook/fbjs](https://github.com/facebook/fbjs) | 1964 | 2026-01-21T23:17:02Z | JavaScript | Infrastructure/tooling | 0 | 10 | 0 | 0 |
 | [guybedford/es-module-shims](https://github.com/guybedford/es-module-shims) | 1725 | 2026-01-04T01:28:04Z | JavaScript | Infrastructure/tooling | 0 | 21 | 0 | 0 |
 | [alexmojaki/birdseye](https://github.com/alexmojaki/birdseye) | 1713 | 2026-01-11T12:25:17Z | JavaScript | Infrastructure/tooling | 3 | 4 | 4 | 4 |
+| [typicode/mistcss](https://github.com/typicode/mistcss) | 1616 | 2026-02-13T11:39:35Z | JavaScript | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 | [gwudcap/cc-sessions](https://github.com/GWUDCAP/cc-sessions) | 1524 | 2025-12-17T23:16:51Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |
 | [sindresorhus/trash-cli](https://github.com/sindresorhus/trash-cli) | 1397 | 2026-02-02T05:21:20Z | JavaScript | Infrastructure/tooling | 0 | 10 | 0 | 0 |
 | [file-icons/atom](https://github.com/file-icons/atom) | 1366 | 2025-12-28T05:36:10Z | JavaScript | Unknown | 2 | 14 | 2 | 2 |

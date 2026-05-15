@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 329,
-    "concepts": 315,
-    "observations": 317,
-    "repos": 48,
-    "terms": 313
+    "components": 246,
+    "concepts": 246,
+    "observations": 247,
+    "repos": 38,
+    "terms": 246
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,17 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
-    "aboutcode-org/scancode.io",
     "agentclientprotocol/python-sdk",
     "AgileRL/AgileRL",
     "ai-dynamo/aiperf",
-    "aigc3d/LAM",
-    "aiidateam/aiida-core",
     "aio-libs/aiorwlock",
     "aio-libs/pytest-aiohttp",
     "alltheplaces/alltheplaces",
-    "Azure/co-op-translator",
     "Blosc/python-blosc2",
     "castorini/rank_llm",
+    "clearml/clearml-agent",
     "cognizant-ai-lab/neuro-san",
     "cognizant-ai-lab/neuro-san-studio",
     "ComparativeGenomicsToolkit/cactus",
@@ -33,16 +30,12 @@
     "conda/conda-libmamba-solver",
     "cosmos/chain-registry",
     "echonet/dynamic",
-    "enjoy-digital/litepcie",
-    "enjoy-digital/litescope",
+    "fishaudio/audio-preprocess",
+    "fishaudio/fish-diffusion",
     "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
     "flagos-ai/FlagScale",
-    "fsspec/gcsfs",
-    "google/orbax",
-    "heyoeyo/muggled_sam",
     "hluaguo/learn-faster-kit",
     "httpwg/http-extensions",
-    "HumanSignal/label-studio-sdk",
     "jawah/charset_normalizer",
     "jupyter-server/jupyter_server",
     "librelane/librelane",
@@ -51,16 +44,13 @@
     "microsoft/Agents-for-python",
     "NVIDIA/NeMo-text-processing",
     "NVlabs/trajdata",
-    "ogx-ai/ogx-client-python",
     "open-telemetry/opentelemetry-cpp-contrib",
     "PetervanLunteren/AddaxAI",
     "Project-MONAI/model-zoo",
-    "rai-opensource/spatialmath-python",
-    "robometer/robometer",
-    "runtimeverification/k",
     "sigsep/norbert",
     "triton-inference-server/client",
     "universal-ctags/ctags-win32",
-    "unum-bio/USearchMolecules"
+    "unum-bio/USearchMolecules",
+    "vale-cli/packages"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 617,
-    "concepts": 383,
-    "observations": 383,
-    "repos": 91,
-    "terms": 397
+    "components": 645,
+    "concepts": 396,
+    "observations": 396,
+    "repos": 92,
+    "terms": 410
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
     "AccessKit/accesskit-c",
     "ai-dynamo/modelexpress",
-    "amazon-ion/ion-cli",
     "andelf/axcli",
     "andelf/picc",
     "ankane/delta-ruby",
@@ -63,6 +62,7 @@
     "hermit-os/loader",
     "heroku/buildpacks-dotnet",
     "heroku/buildpacks-go",
+    "heroku/libcnb.rs",
     "holochain/holochain-serialization",
     "holochain/holochain-wasmer",
     "hpkewg/hpke-pq",
@@ -86,7 +86,7 @@
     "oxc-project/oxc-sourcemap",
     "paradigmxyz/stateless",
     "phiat/claude-esp-rs",
-    "quininer/x11-clipboard",
+    "Ralith/lahar",
     "rozbb/rust-hpke",
     "rust-bitcoin/corepc",
     "rust-osdev/ovmf-prebuilt",
@@ -100,6 +100,7 @@
     "tracel-ai/burn-onnx",
     "tracel-ai/cubek",
     "typst/typst-assets",
+    "unrs/unrs-resolver",
     "urschrei/rdp",
     "watchexec/clearscreen",
     "watchexec/process-wrap",

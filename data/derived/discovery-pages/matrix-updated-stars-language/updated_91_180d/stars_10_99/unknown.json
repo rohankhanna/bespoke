@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 36,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 36,
-    "terms": 56
+    "concepts": 66,
+    "observations": 66,
+    "repos": 37,
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "aaron-he-zhu/core-eeat-content-benchmark",
@@ -31,6 +31,7 @@
     "eric-haibin-lin/verl-community",
     "FAIR-IMPACT/MOD",
     "getlantern/lantern-forum-cn",
+    "hchiam/learning",
     "HZAI-ZJNU/happy-llm-ppt",
     "JaeZ1205/PS_NBI2k",
     "johandahlberg/awesome-10x-genomics",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1177,
-    "concepts": 502,
-    "observations": 504,
-    "repos": 416,
-    "terms": 502
+    "components": 1179,
+    "concepts": 503,
+    "observations": 505,
+    "repos": 419,
+    "terms": 503
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -263,6 +263,7 @@
     "JuliaBinaryWrappers/Arrow_jll.jl",
     "JuliaBinaryWrappers/Blosc_jll.jl",
     "JuliaBinaryWrappers/boost_jll.jl",
+    "JuliaBinaryWrappers/brotli_jll.jl",
     "JuliaBinaryWrappers/Bzip2_jll.jl",
     "JuliaBinaryWrappers/Fontconfig_jll.jl",
     "JuliaBinaryWrappers/FriBidi_jll.jl",
@@ -348,6 +349,7 @@
     "ntheanh201/hyper-mcp-release-monitor-id-tool",
     "nugine/simd-benches",
     "nur-zaman/sd-webui-tunnels",
+    "nurikk/fileshare",
     "offline-ai/cli-plugin-cmd-brain.js",
     "OlivierDehaene/candle",
     "oneflow-inc/docker-images",
@@ -399,6 +401,7 @@
     "tedsteen/puffin",
     "TelemetryHub/opentelemetry-demo",
     "thanku-all/parse_answer",
+    "TheSnakeWitcher/hardhat.nvim",
     "threesigmaxyz/filplus-allocator-bot",
     "timelic/source-han-serif",
     "tipi-deps/example-mapmap_cpu",

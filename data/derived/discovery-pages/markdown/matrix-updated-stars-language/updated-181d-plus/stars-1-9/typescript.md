@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · TypeScript
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 80
-- terms: 136
-- components: 1354
-- concepts: 140
-- observations: 140
+- repos: 82
+- terms: 138
+- components: 1391
+- concepts: 142
+- observations: 142
 
 ## Static behavior
 
@@ -34,6 +34,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension](https://github.com/LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension) | 1 | 2025-08-11T15:13:49Z | TypeScript | Unknown | 0 | 11 | 0 | 0 |
 | [clams-tech/ln-ws-proxy](https://github.com/clams-tech/ln-ws-proxy) | 6 | 2025-08-09T12:54:56Z | TypeScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [litter-coder/midjourney-proxy-admin](https://github.com/litter-coder/midjourney-proxy-admin) | 8 | 2025-08-03T07:33:39Z | TypeScript | Unknown | 0 | 44 | 0 | 0 |
+| [andrasg/matterbridge-daikin-ac](https://github.com/andrasg/matterbridge-daikin-ac) | 6 | 2025-07-13T14:00:30Z | TypeScript | Infrastructure/tooling | 2 | 23 | 2 | 2 |
 | [Rel1cx/eslint-react-benchmark](https://github.com/Rel1cx/eslint-react-benchmark) | 2 | 2025-06-30T02:51:13Z | TypeScript | Unknown | 0 | 12 | 0 | 0 |
 | [celo-org/socialconnect-template](https://github.com/celo-org/socialconnect-template) | 1 | 2025-06-28T19:50:10Z | TypeScript | Template/starter | 0 | 0 | 0 | 0 |
 | [5sControl/5s-frontend](https://github.com/5sControl/5s-frontend) | 3 | 2025-06-25T13:30:18Z | TypeScript | Infrastructure/tooling | 9 | 59 | 9 | 9 |
@@ -85,6 +86,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cryptonomic/conseiljs-softsigner](https://github.com/Cryptonomic/ConseilJS-softsigner) | 2 | 2023-08-08T19:41:32Z | TypeScript | Infrastructure/tooling | 1 | 28 | 1 | 1 |
 | [ethers-io/ext-signer-ledger](https://github.com/ethers-io/ext-signer-ledger) | 9 | 2023-07-20T22:50:14Z | TypeScript | Unknown | 3 | 9 | 3 | 3 |
 | [Matts966/efm-langserver-vscode](https://github.com/Matts966/efm-langserver-vscode) | 1 | 2023-07-19T06:17:21Z | TypeScript | Unknown | 0 | 6 | 0 | 0 |
+| [daybrush/css-to-mat](https://github.com/daybrush/css-to-mat) | 8 | 2023-06-19T13:58:12Z | TypeScript | Unknown | 0 | 14 | 0 | 0 |
 | [azdavis/sml-libs-scraper](https://github.com/azdavis/sml-libs-scraper) | 4 | 2023-05-31T22:51:11Z | TypeScript | Unknown | 1 | 4 | 1 | 1 |
 | [iov-one/iov-faucet](https://github.com/iov-one/iov-faucet) | 3 | 2023-05-22T02:47:58Z | TypeScript | Infrastructure/tooling | 0 | 26 | 0 | 0 |
 | [coasys/agent-language](https://github.com/coasys/agent-language) | 2 | 2023-04-27T15:46:32Z | TypeScript | Unknown | 0 | 23 | 0 | 0 |
@@ -123,6 +125,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [matafokka/geotiff-3d-dem-viewer](https://github.com/matafokka/geotiff-3d-dem-viewer) | 8 | 2024-04-13T08:12:08Z | TypeScript | Infrastructure/tooling | 1 | 38 | 1 | 1 |
 | [PraneshASP/vscode-foundry-test-runner](https://github.com/PraneshASP/vscode-foundry-test-runner) | 8 | 2023-09-13T05:43:24Z | TypeScript | Unknown | 3 | 8 | 3 | 3 |
 | [startupdevhouse/typescript-functional-extensions-nestjs](https://github.com/startupdevhouse/typescript-functional-extensions-nestjs) | 8 | 2023-09-05T06:55:58Z | TypeScript | Unknown | 0 | 30 | 0 | 0 |
+| [daybrush/css-to-mat](https://github.com/daybrush/css-to-mat) | 8 | 2023-06-19T13:58:12Z | TypeScript | Unknown | 0 | 14 | 0 | 0 |
 | [storybook-eol/addon-graphql](https://github.com/storybook-eol/addon-graphql) | 8 | 2023-01-16T16:27:03Z | TypeScript | Infrastructure/tooling | 1 | 27 | 1 | 1 |
 | [storybookjs/addon-events](https://github.com/storybookjs/addon-events) | 8 | 2023-01-16T16:26:43Z | TypeScript | Infrastructure/tooling | 1 | 27 | 1 | 1 |
 | [Shougo/dpp-ext-local](https://github.com/Shougo/dpp-ext-local) | 7 | 2025-09-11T03:46:46Z | TypeScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
@@ -134,6 +137,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [arvinxx/lobe-plugin-tikzjax](https://github.com/arvinxx/lobe-plugin-tikzjax) | 7 | 2024-01-14T13:35:55Z | TypeScript | Unknown | 0 | 27 | 0 | 0 |
 | [ethers-io/ext-provider-ganache](https://github.com/ethers-io/ext-provider-ganache) | 7 | 2023-08-21T00:47:58Z | TypeScript | Unknown | 4 | 5 | 4 | 4 |
 | [clams-tech/ln-ws-proxy](https://github.com/clams-tech/ln-ws-proxy) | 6 | 2025-08-09T12:54:56Z | TypeScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
+| [andrasg/matterbridge-daikin-ac](https://github.com/andrasg/matterbridge-daikin-ac) | 6 | 2025-07-13T14:00:30Z | TypeScript | Infrastructure/tooling | 2 | 23 | 2 | 2 |
 | [0h7z/vscode-julia-format](https://github.com/0h7z/vscode-julia-format) | 6 | 2025-04-23T04:53:43Z | TypeScript | Unknown | 0 | 8 | 0 | 0 |
 | [nomic-io/nomic-bitcoin-js](https://github.com/nomic-io/nomic-bitcoin-js) | 6 | 2024-10-30T19:02:03Z | TypeScript | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [Chocolate4U/iwmf.ir-Mirror](https://github.com/Chocolate4U/iwmf.ir-Mirror) | 6 | 2024-02-24T09:24:53Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |

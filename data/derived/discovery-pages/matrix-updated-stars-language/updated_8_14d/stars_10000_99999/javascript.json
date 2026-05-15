@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 670,
-    "concepts": 146,
-    "observations": 146,
-    "repos": 16,
-    "terms": 140
+    "components": 449,
+    "concepts": 116,
+    "observations": 116,
+    "repos": 11,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,16 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "4ian/GDevelop",
-    "acornjs/acorn",
     "addyosmani/critical",
     "CesiumGS/cesium",
     "emotion-js/emotion",
     "eslint/eslint",
     "faisalman/ua-parser-js",
     "gorhill/uBlock",
-    "http-party/node-http-proxy",
-    "jsdoc/jsdoc",
-    "mochajs/mocha",
-    "stylelint/stylelint",
     "sveltejs/kit",
     "sveltejs/svelte",
     "yokoffing/Betterfox"

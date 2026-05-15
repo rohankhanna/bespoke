@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 10
+- repos: 12
 - terms: 13
-- components: 58
+- components: 79
 - concepts: 14
 - observations: 14
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hchiam/react-jexcel-redux](https://github.com/hchiam/react-jexcel-redux) | 1 | 2026-02-13T19:20:22Z | JavaScript | Unknown | 0 | 21 | 0 | 0 |
+| [hchiam/chat-app-fcc-react-redux](https://github.com/hchiam/chat-app-fcc-react-redux) | 1 | 2026-02-13T18:08:23Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [ansible-community/presentations](https://github.com/ansible-community/presentations) | 1 | 2026-02-06T17:10:54Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [cpojer/js-codemod](https://github.com/cpojer/js-codemod) | 1 | 2026-02-06T10:44:10Z | JavaScript | Unknown | 0 | 9 | 0 | 0 |
 | [hchiam/learning-redux](https://github.com/hchiam/learning-redux) | 1 | 2026-02-04T07:54:19Z | JavaScript | Unknown | 1 | 0 | 1 | 1 |
@@ -45,6 +47,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [3swordman/tree-sitter-toon](https://github.com/3swordman/tree-sitter-toon) | 5 | 2026-01-16T18:21:16Z | JavaScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [qiuyu96/CoDeF](https://github.com/qiuyu96/CoDeF) | 3 | 2026-01-28T17:09:30Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [lukasz-wronski/Antigravity-Shit-Chat](https://github.com/lukasz-wronski/Antigravity-Shit-Chat) | 2 | 2026-01-17T07:34:52Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
+| [hchiam/react-jexcel-redux](https://github.com/hchiam/react-jexcel-redux) | 1 | 2026-02-13T19:20:22Z | JavaScript | Unknown | 0 | 21 | 0 | 0 |
+| [hchiam/chat-app-fcc-react-redux](https://github.com/hchiam/chat-app-fcc-react-redux) | 1 | 2026-02-13T18:08:23Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [ansible-community/presentations](https://github.com/ansible-community/presentations) | 1 | 2026-02-06T17:10:54Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [cpojer/js-codemod](https://github.com/cpojer/js-codemod) | 1 | 2026-02-06T10:44:10Z | JavaScript | Unknown | 0 | 9 | 0 | 0 |
 | [hchiam/learning-redux](https://github.com/hchiam/learning-redux) | 1 | 2026-02-04T07:54:19Z | JavaScript | Unknown | 1 | 0 | 1 | 1 |

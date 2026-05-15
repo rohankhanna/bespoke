@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 96,
-    "concepts": 79,
-    "observations": 79,
-    "repos": 8,
-    "terms": 79
+    "concepts": 93,
+    "observations": 93,
+    "repos": 7,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "ashvardanian/NumKong",
     "CloudCompare/CloudCompare",
     "doctest/doctest",
-    "libbitcoin/libbitcoin-system",
+    "harfbuzz/harfbuzz",
     "luau-lang/luau",
-    "skeeto/w64devkit",
     "ultrajson/ultrajson",
     "xtensor-stack/xtensor"
   ]

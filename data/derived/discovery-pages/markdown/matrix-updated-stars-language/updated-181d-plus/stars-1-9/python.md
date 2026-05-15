@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 269
-- terms: 336
-- components: 451
-- concepts: 333
-- observations: 333
+- repos: 270
+- terms: 342
+- components: 452
+- concepts: 339
+- observations: 339
 
 ## Static behavior
 
@@ -112,6 +112,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [charlottia/niar](https://github.com/charlottia/niar) | 4 | 2024-10-21T06:44:45Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [Kim-Dongjun/ctm-cifar10](https://github.com/Kim-Dongjun/ctm-cifar10) | 7 | 2024-10-09T18:35:21Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [simonw/scrape-san-mateo-fire-dispatch](https://github.com/simonw/scrape-san-mateo-fire-dispatch) | 2 | 2024-09-10T19:44:18Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [tinted-theming/tinted-builder-python](https://github.com/tinted-theming/tinted-builder-python) | 9 | 2024-09-02T12:02:25Z | Python | Infrastructure/tooling | 6 | 1 | 6 | 6 |
 | [di/packaging_legacy](https://github.com/di/packaging_legacy) | 4 | 2024-08-19T19:38:46Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [ShuoZhang2003/DT-VQA](https://github.com/ShuoZhang2003/DT-VQA) | 7 | 2024-08-16T02:47:44Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [appl-team/TwitterPersonality](https://github.com/appl-team/TwitterPersonality) | 8 | 2024-08-13T20:18:03Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -305,6 +306,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yuan199696/add_text_2_img](https://github.com/yuan199696/add_text_2_img) | 9 | 2025-03-27T14:40:27Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [bentoml/BentoBark](https://github.com/bentoml/BentoBark) | 9 | 2024-12-23T08:25:26Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [echo-yiyiyi/cube](https://github.com/echo-yiyiyi/cube) | 9 | 2024-11-20T17:42:44Z | Python | Model/data | 8 | 0 | 8 | 8 |
+| [tinted-theming/tinted-builder-python](https://github.com/tinted-theming/tinted-builder-python) | 9 | 2024-09-02T12:02:25Z | Python | Infrastructure/tooling | 6 | 1 | 6 | 6 |
 | [basf/neural-fingerprint-uncertainty](https://github.com/basf/neural-fingerprint-uncertainty) | 9 | 2024-07-25T16:43:24Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [adriantheuma/llama2-raven](https://github.com/adriantheuma/llama2-raven) | 9 | 2024-06-18T00:01:03Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [TMElyralab/MMCM](https://github.com/TMElyralab/MMCM) | 9 | 2024-04-28T03:39:07Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |

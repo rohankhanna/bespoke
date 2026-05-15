@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 120,
-    "concepts": 93,
-    "observations": 93,
-    "repos": 33,
-    "terms": 90
+    "components": 118,
+    "concepts": 92,
+    "observations": 92,
+    "repos": 35,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "42-evey/evey-bridge-plugin",
+    "agenmod/distill-protocol-skill",
+    "agenmod/distill-shield-skill",
     "agenmod/okr-skill",
     "AgnostiqHQ/covalent-executor-template",
     "aiidateam/plumpy",
@@ -22,17 +24,17 @@
     "ashvardanian/ashvardanian",
     "astroyat/lerobot",
     "axolotl-ai-cloud/ml-cross-entropy",
-    "BioContainers/singularity-build-bot",
     "Boulaouaney/timmx",
     "cdeust/cortex-cowork",
     "cdxeve/scale-openclaw",
-    "cognizant-ai-lab/neuro-san-cc",
     "conda-forge/cupy-feedstock",
     "CoolCat467/idlemypyextension",
     "danielrosehill/claude-slash-commands",
     "danielrosehill/donetick-mcp",
     "danielrosehill/Geopol-Forecaster",
+    "dora-rs/dora-benchmark",
     "fixie-ai/evals",
+    "Jango-AI-com/morning-cli",
     "jupyter-xeus/xeus-python-shell",
     "justinchuby/lintrunner-adapters",
     "KabakaWilliam/trajectorykit",

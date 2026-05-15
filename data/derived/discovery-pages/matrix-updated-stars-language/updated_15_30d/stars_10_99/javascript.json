@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1084,
-    "concepts": 256,
-    "observations": 257,
-    "repos": 67,
-    "terms": 263
+    "components": 1083,
+    "concepts": 264,
+    "observations": 266,
+    "repos": 68,
+    "terms": 271
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersCompiler",
     "ahmadnassri/node-glob-promise",
@@ -21,9 +21,9 @@
     "apollographql/connectors-community",
     "aws-samples/aws-sdk-js-tests",
     "bmad-code-org/bmad-method-test-architecture-enterprise",
-    "bmad-code-org/bmad-module-creative-intelligence-suite",
     "browserslist/lint",
     "bufbuild/protobuf-conformance",
+    "coasys/ad4m",
     "ember-cli/ember-app-blueprint",
     "Eonic/ProteanCMS",
     "erichlof/AntiGravity-Pool",
@@ -35,6 +35,7 @@
     "GuillaumeGomez/browser-UI-test",
     "hudochenkov/postcss-styled-syntax",
     "hyparam/hyparquet-writer",
+    "hyparam/squirreling",
     "i18next/i18next-chained-backend",
     "i18next/i18next-multiload-backend-adapter",
     "i18next/i18next-resources-to-backend",
@@ -69,8 +70,8 @@
     "readthedocs/addons",
     "rescript-lang/tree-sitter-rescript",
     "rstackjs/agent-skills",
-    "scaleway/serverless-scaleway-functions",
     "semantic-release/error",
+    "stdlib-js/google-summer-of-code",
     "Taritsyn/DartSassHost",
     "tnc-ca-geo/animl-frontend",
     "tracked-tools/tracked-toolbox",

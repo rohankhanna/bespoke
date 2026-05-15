@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 485,
-    "concepts": 377,
-    "observations": 379,
-    "repos": 97,
-    "terms": 377
+    "components": 494,
+    "concepts": 389,
+    "observations": 391,
+    "repos": 99,
+    "terms": 389
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "4d49/scene-library",
@@ -27,11 +27,11 @@
     "autodeployai/ai-serving",
     "aws-ia/terraform-aws-eks-blueprints-addons",
     "aws-samples/prompt-engineering-with-anthropic-claude-v-3",
-    "Azure/arm-ttk",
     "badges/awesome-badges",
     "beam-telemetry/telemetry",
     "beam-telemetry/telemetry_metrics",
     "bhauman/rebel-readline",
+    "BKWLD/laravel-pug",
     "caddyserver/caddy-docker",
     "chakravala/Grassmann.jl",
     "cjohansen/replicant",
@@ -102,14 +102,16 @@
     "stefan-hoeck/idris2-pack",
     "swansonk14/admet_ai",
     "tensorflow/mlir-hlo",
-    "thinca/vim-themis",
     "thu-ml/SpargeAttn",
     "trailofbits/eth-security-toolbox",
     "travis-ci/travis-api",
+    "trezor/cython-hidapi",
     "trptcolin/reply",
     "unxsist/jet-pilot",
     "vlaaad/reveal",
+    "w3c/navigation-timing",
     "WebAssembly/esm-integration",
+    "whatwg/fs",
     "whatyouhide/stream_data"
   ]
 }

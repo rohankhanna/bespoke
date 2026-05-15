@@ -3,7 +3,7 @@
     "components": 89,
     "concepts": 62,
     "observations": 62,
-    "repos": 21,
+    "repos": 22,
     "terms": 59
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "adobe/spectrum-tokens",
@@ -33,6 +33,7 @@
     "shakacode/package_json",
     "stephanj/sonarlint-devoxxgenie-intellij",
     "SWE-bench/SWE-smith-envs",
+    "tanyongkiam/cake_lpr",
     "usnistgov/libhdf5-wasm",
     "vim-fuzzbox/fuzzbox-lsp.vim"
   ]

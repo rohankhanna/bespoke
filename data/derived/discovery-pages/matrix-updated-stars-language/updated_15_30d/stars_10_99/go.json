@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 470,
-    "concepts": 312,
-    "observations": 314,
-    "repos": 67,
-    "terms": 309
+    "components": 501,
+    "concepts": 340,
+    "observations": 342,
+    "repos": 72,
+    "terms": 337
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,19 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "abhinav/goldmark-frontmatter",
     "abhinav/tmux-fastcopy",
-    "aldernero/sketchy",
     "allenreder/cliproxyapi-quota-inspector",
+    "ankitpokhrel/shopctl",
     "apache/datasketches-go",
     "appleboy/drone-lambda",
     "aquasecurity/trivy-java-db",
     "aspect-build/aspect-gazelle",
     "aws-controllers-k8s/code-generator",
     "aws/aws-network-policy-agent",
-    "benchsci/rules_nodejs_gazelle",
     "bitrise-io/stepman",
     "blinklabs-io/bluefin",
     "bootmortis/sing-geosite",
@@ -53,7 +52,10 @@
     "dlclark/regexp2cg",
     "ebitengine/debugui",
     "energye/cef",
+    "energye/lcl",
     "EngFlow/gazelle_cc",
+    "golangci/go-printf-func-name",
+    "golangci/misspell",
     "gopasspw/git-credential-gopass",
     "gopasspw/gopass-hibp",
     "hashicorp/hcp-sdk-go",
@@ -62,6 +64,7 @@
     "ipshipyard/p2p-forge",
     "Kong/kong-operator",
     "kubernetes-sigs/apiserver-runtime",
+    "kubernetes-sigs/karpenter-provider-ibm-cloud",
     "kubernetes-sigs/provider-aws-test-infra",
     "kubernetes-sigs/verify-conformance",
     "magodo/aztft",
@@ -72,6 +75,7 @@
     "openshift/ci-tools",
     "openshift/kubernetes",
     "oracle/karpenter-provider-oci",
+    "philips-labs/dct-notary-admin",
     "philips-labs/tabia",
     "quicksilver-zone/quicksilver",
     "sigstore/helm-sigstore",
@@ -80,6 +84,7 @@
     "terraform-linters/tflint-ruleset-google",
     "transparency-dev/armored-witness",
     "transparency-dev/witness",
-    "usbarmory/tamago-example"
+    "usbarmory/tamago-example",
+    "usbarmory/tamago-sev-example"
   ]
 }

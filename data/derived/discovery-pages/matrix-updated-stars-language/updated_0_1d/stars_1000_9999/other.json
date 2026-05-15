@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 190,
-    "concepts": 176,
-    "observations": 178,
-    "repos": 17,
-    "terms": 174
+    "components": 155,
+    "concepts": 131,
+    "observations": 132,
+    "repos": 12,
+    "terms": 131
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
-    "babashka/babashka",
-    "clj-kondo/clj-kondo",
+    "beam-community/elixir-companies",
     "datalevin/datalevin",
     "dotnet/Silk.NET",
     "elixir-grpc/grpc",
@@ -24,10 +23,6 @@
     "kurrent-io/KurrentDB",
     "microsoft/aspire",
     "microsoft/aspire-samples",
-    "microsoft/PhiCookBook",
-    "nvimdev/lspsaga.nvim",
-    "psmux/psmux",
-    "standardrb/standard",
     "swiftlang/llvm-project",
     "swiftlang/swift-syntax",
     "web-platform-tests/wpt"

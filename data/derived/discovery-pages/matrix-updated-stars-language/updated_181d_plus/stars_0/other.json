@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 169,
-    "concepts": 102,
-    "observations": 102,
-    "repos": 94,
-    "terms": 102
+    "components": 171,
+    "concepts": 103,
+    "observations": 103,
+    "repos": 96,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "2KAbhishek/exercism-fetcher",
     "3b/cl-vulkan",
@@ -65,6 +65,7 @@
     "JuliaBinaryWrappers/Arrow_jll.jl",
     "JuliaBinaryWrappers/Blosc_jll.jl",
     "JuliaBinaryWrappers/boost_jll.jl",
+    "JuliaBinaryWrappers/brotli_jll.jl",
     "JuliaBinaryWrappers/Bzip2_jll.jl",
     "JuliaBinaryWrappers/Fontconfig_jll.jl",
     "JuliaBinaryWrappers/FriBidi_jll.jl",
@@ -101,6 +102,7 @@
     "songquanpeng/blog-theme-bootstrap5",
     "songquanpeng/blog-theme-next",
     "team-acaisia/php-varint",
+    "TheSnakeWitcher/hardhat.nvim",
     "tpoisonooo/textract",
     "userbait/phishing_sites_detector",
     "vany0114/vany0114.github.io",

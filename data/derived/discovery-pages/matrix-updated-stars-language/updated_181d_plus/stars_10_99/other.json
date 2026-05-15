@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1953,
+    "components": 1971,
     "concepts": 1799,
     "observations": 1805,
-    "repos": 796,
+    "repos": 797,
     "terms": 1793
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x7432/asm-ru",
@@ -76,7 +76,6 @@
     "amatsuda/kaminari",
     "amebalabs/SwiftKey",
     "ami-iit/matlab-whole-body-simulator",
-    "amirrezaask/fuzzy.nvim",
     "analogdevicesinc/distiller",
     "anandpiyer/seoul256-emacs",
     "ancorso/LLMWargaming",
@@ -237,6 +236,7 @@
     "coderofsalvation/xrfragment",
     "codertocat/hello-world",
     "company-mode/company-statistics",
+    "CookiePPP/cookietts",
     "corasaurus-hex/fs",
     "corgi-emacs/corgi-packages",
     "cquest/osmfr-cartocss",
@@ -397,7 +397,6 @@
     "haxeui/component-examples",
     "haxeui/haxeui-android",
     "haxeui/haxeui-flixel",
-    "hcarty/mwt",
     "HelloWorld886/xmake-visualstudio",
     "Helsinki-NLP/OPUS-CAT",
     "henryw374/time-literals",
@@ -581,6 +580,7 @@
     "msasanmh/MsmhAgnosticServer",
     "msasanmh/SecureDNSClient",
     "msgpack/website",
+    "Multi-Singer/Multi-Singer.github.io",
     "murmour/mparser",
     "MY1L/Ctrl",
     "myownskyW7/CARAFE",
@@ -744,6 +744,7 @@
     "the-benchmarker/graphql-benchmarks",
     "thedatumorg/VUS",
     "thejoshwolfe/hexdump-zip",
+    "thenbe/neotest-playwright",
     "theutz/neotest-pest",
     "thinca/vim-textobj-between",
     "thoughtpolice/eris",

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 15
-- components: 24
-- concepts: 17
-- observations: 18
+- repos: 3
+- terms: 20
+- components: 36
+- concepts: 23
+- observations: 24
 
 ## Static behavior
 
@@ -26,12 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [nushell/nushell](https://github.com/nushell/nushell) | 39439 | 2026-05-13T17:01:05Z | Rust | Infrastructure/tooling | 9 | 16 | 10 | 10 |
+| [rust-lang/mdBook](https://github.com/rust-lang/mdBook) | 21627 | 2026-05-13T14:26:59Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [atuinsh/atuin](https://github.com/atuinsh/atuin) | 29699 | 2026-05-12T23:37:11Z | Rust | Infrastructure/tooling | 9 | 14 | 11 | 12 |
-| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15183 | 2026-05-12T07:10:23Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [nushell/nushell](https://github.com/nushell/nushell) | 39439 | 2026-05-13T17:01:05Z | Rust | Infrastructure/tooling | 9 | 16 | 10 | 10 |
 | [atuinsh/atuin](https://github.com/atuinsh/atuin) | 29699 | 2026-05-12T23:37:11Z | Rust | Infrastructure/tooling | 9 | 14 | 11 | 12 |
-| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15183 | 2026-05-12T07:10:23Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
+| [rust-lang/mdBook](https://github.com/rust-lang/mdBook) | 21627 | 2026-05-13T14:26:59Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |

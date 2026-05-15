@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 116,
-    "concepts": 70,
-    "observations": 70,
-    "repos": 10,
-    "terms": 70
+    "components": 91,
+    "concepts": 87,
+    "observations": 87,
+    "repos": 13,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
+    "apalache-mc/apalache",
     "ChristopherHX/runner.server",
+    "clj-commons/rewrite-clj",
+    "danielrosehill/Claude-Code-Projects-Index",
+    "devcontainers/devcontainers.github.io",
     "dwyl/quotes",
     "elixir-protobuf/protobuf",
     "emacscollective/auto-compile",
     "fsprojects/FSharp.Data.GraphQL",
-    "karafka/rdkafka-ruby",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "rescript-lang/reanalyze",
-    "sass/sass-spec",
+    "ROCm/hipBLASLt",
     "WICG/attribution-reporting-api"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 6,
-    "terms": 29
+    "components": 18,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 7,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "aliyun/aliyun-oss-java-sdk",
+    "apache/incubator-seata-samples",
     "cjlin1/libsvm",
     "Jigsaw-Code/Intra",
     "lz4/lz4-java",

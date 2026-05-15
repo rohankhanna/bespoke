@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 68,
-    "observations": 69,
-    "repos": 13,
-    "terms": 67
+    "components": 73,
+    "concepts": 51,
+    "observations": 52,
+    "repos": 10,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "abusch/nu_plugin_semver",
     "boozook/mdbook-svgbob",
@@ -20,12 +20,9 @@
     "heroku/buildpacks-jvm",
     "heroku/buildpacks-nodejs",
     "heroku/buildpacks-python",
-    "heroku/libcnb.rs",
     "influxdata/datafusion-udf-wasm",
     "mdn/rari",
-    "Ralith/lahar",
     "tofay/rustls-openssl",
-    "tyrypyrking/egui-ash",
-    "unrs/unrs-resolver"
+    "tyrypyrking/egui-ash"
   ]
 }

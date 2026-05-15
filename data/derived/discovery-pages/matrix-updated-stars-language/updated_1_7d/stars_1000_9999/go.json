@@ -3,7 +3,7 @@
     "components": 18,
     "concepts": 30,
     "observations": 30,
-    "repos": 4,
+    "repos": 5,
     "terms": 29
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "bazel-contrib/bazel-gazelle",
     "bazel-contrib/rules_go",
     "etcd-io/bbolt",
+    "googleapis/google-api-go-client",
     "version-fox/vfox"
   ]
 }

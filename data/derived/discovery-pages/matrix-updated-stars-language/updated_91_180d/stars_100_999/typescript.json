@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1059,
-    "concepts": 200,
-    "observations": 200,
-    "repos": 39,
-    "terms": 199
+    "components": 1083,
+    "concepts": 201,
+    "observations": 201,
+    "repos": 40,
+    "terms": 200
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "adaltas/node-http-status",
     "addyosmani/chatty",
     "akshaykmr/teletype",
     "angular/vscode-ng-language-service",
     "antfu-collective/eslint-vitest-rule-tester",
+    "antfu/eslint-plugin-antfu",
     "antfu/vscode-icons-carbon",
     "Anush008/fastembed-js",
     "axel-op/googlejavaformat-action",

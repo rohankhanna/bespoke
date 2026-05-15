@@ -1,6 +1,6 @@
 # 0 stars
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-05-14T08:57:55.788728+00:00`
 
 ## Counts
 
-- repos: 889
-- terms: 1200
-- components: 2805
-- concepts: 1169
-- observations: 1173
+- repos: 894
+- terms: 1213
+- components: 2837
+- concepts: 1182
+- observations: 1186
 
 ## Static behavior
 
@@ -22,6 +22,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Luligu/matterbridge-eve-door](https://github.com/Luligu/matterbridge-eve-door) | 0 | 2026-05-11T05:36:08Z | JavaScript | Infrastructure/tooling | 4 | 30 | 4 | 4 |
 | [abdeladim-s/pywhispercpp](https://github.com/abdeladim-s/pywhispercpp) | 0 | 2026-05-08T08:13:30Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [clearml/clearml-agent-bootstrap](https://github.com/clearml/clearml-agent-bootstrap) | 0 | 2026-05-06T15:42:50Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Gist-Writer-Plugin](https://github.com/danielrosehill/Claude-Gist-Writer-Plugin) | 0 | 2026-05-05T16:10:20Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
@@ -260,6 +261,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Research-Tools-And-Templates-Index](https://github.com/danielrosehill/Research-Tools-And-Templates-Index) | 0 | 2026-04-14T12:21:21Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [danielrosehill/Claude-Calls-The-Shots](https://github.com/danielrosehill/Claude-Calls-The-Shots) | 0 | 2026-04-14T11:13:59Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [arckoor/jsonwebtoken-botan](https://github.com/arckoor/jsonwebtoken-botan) | 0 | 2026-04-14T03:20:44Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [ainvaltin/nu_plugin_plist](https://github.com/ainvaltin/nu_plugin_plist) | 0 | 2026-04-13T16:42:48Z | Go | Unknown | 3 | 0 | 3 | 3 |
 | [fulmicoton-dd/datasketches-rust](https://github.com/fulmicoton-dd/datasketches-rust) | 0 | 2026-04-13T15:27:23Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [netdur/llama_cpp_rust](https://github.com/netdur/llama_cpp_rust) | 0 | 2026-04-13T14:31:16Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [ublacklist/store-assets](https://github.com/ublacklist/store-assets) | 0 | 2026-04-13T14:23:11Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -267,6 +269,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mitchuski/agentprivacy-skills](https://github.com/mitchuski/agentprivacy-skills) | 0 | 2026-04-13T10:55:54Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [aaronrsun/spec-kit-issue](https://github.com/aaronrsun/spec-kit-issue) | 0 | 2026-04-12T23:36:28Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [eigenwallet/arti](https://github.com/eigenwallet/arti) | 0 | 2026-04-12T23:22:34Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [ainvaltin/nu_plugin_boltdb](https://github.com/ainvaltin/nu_plugin_boltdb) | 0 | 2026-04-12T22:17:31Z | Go | Unknown | 5 | 0 | 5 | 5 |
 | [aayushbhaskar/OpenCouncil](https://github.com/aayushbhaskar/OpenCouncil) | 0 | 2026-04-12T19:12:31Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [abraxas-365/claudio-screenshot](https://github.com/Abraxas-365/claudio-screenshot) | 0 | 2026-04-11T21:36:08Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Libmount_jll.jl](https://github.com/JuliaBinaryWrappers/Libmount_jll.jl) | 0 | 2026-04-11T15:43:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -651,6 +654,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nugine/simd-benches](https://github.com/Nugine/simd-benches) | 0 | 2025-01-29T16:04:35Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [JuliaBinaryWrappers/boost_jll.jl](https://github.com/JuliaBinaryWrappers/boost_jll.jl) | 0 | 2025-01-28T02:39:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JavaHello/javahello.github.io](https://github.com/JavaHello/javahello.github.io) | 0 | 2025-01-14T01:49:52Z | Shell | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [TheSnakeWitcher/hardhat.nvim](https://github.com/TheSnakeWitcher/hardhat.nvim) | 0 | 2025-01-13T19:48:25Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [JuliaBinaryWrappers/Libiconv_jll.jl](https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl) | 0 | 2025-01-13T13:15:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/better-hashnode-backups](https://github.com/danielrosehill/Better-Hashnode-Backups) | 0 | 2025-01-12T10:41:54Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [SebastianGrans/Rich-multiprocess-logging](https://github.com/SebastianGrans/Rich-multiprocess-logging) | 0 | 2025-01-07T12:01:25Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -719,6 +723,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hbenl/vscode-mocha-ssh-example](https://github.com/hbenl/vscode-mocha-ssh-example) | 0 | 2024-06-17T18:38:19Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [JuliaBinaryWrappers/LightGBM_jll.jl](https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl) | 0 | 2024-06-13T17:22:22Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [barche/libcxxwrap_julia_jll.jl](https://github.com/barche/libcxxwrap_julia_jll.jl) | 0 | 2024-06-09T15:09:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [nurikk/fileshare](https://github.com/nurikk/fileshare) | 0 | 2024-05-29T15:46:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [larshp/uccp](https://github.com/larshp/uccp) | 0 | 2024-05-25T08:38:37Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [keathley/finch](https://github.com/keathley/finch) | 0 | 2024-05-22T18:22:23Z | Unknown | CLI | 0 | 3 | 0 | 0 |
 | [kitex-contrib/codec-dubbo-tests](https://github.com/kitex-contrib/codec-dubbo-tests) | 0 | 2024-05-21T06:45:05Z | Go | Infrastructure/tooling | 3 | 9 | 3 | 3 |
@@ -916,6 +921,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Luligu/matterbridge-eve-door](https://github.com/Luligu/matterbridge-eve-door) | 0 | 2026-05-11T05:36:08Z | JavaScript | Infrastructure/tooling | 4 | 30 | 4 | 4 |
 | [abdeladim-s/pywhispercpp](https://github.com/abdeladim-s/pywhispercpp) | 0 | 2026-05-08T08:13:30Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [clearml/clearml-agent-bootstrap](https://github.com/clearml/clearml-agent-bootstrap) | 0 | 2026-05-06T15:42:50Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Gist-Writer-Plugin](https://github.com/danielrosehill/Claude-Gist-Writer-Plugin) | 0 | 2026-05-05T16:10:20Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
@@ -1154,6 +1160,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Research-Tools-And-Templates-Index](https://github.com/danielrosehill/Research-Tools-And-Templates-Index) | 0 | 2026-04-14T12:21:21Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [danielrosehill/Claude-Calls-The-Shots](https://github.com/danielrosehill/Claude-Calls-The-Shots) | 0 | 2026-04-14T11:13:59Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [arckoor/jsonwebtoken-botan](https://github.com/arckoor/jsonwebtoken-botan) | 0 | 2026-04-14T03:20:44Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [ainvaltin/nu_plugin_plist](https://github.com/ainvaltin/nu_plugin_plist) | 0 | 2026-04-13T16:42:48Z | Go | Unknown | 3 | 0 | 3 | 3 |
 | [fulmicoton-dd/datasketches-rust](https://github.com/fulmicoton-dd/datasketches-rust) | 0 | 2026-04-13T15:27:23Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [netdur/llama_cpp_rust](https://github.com/netdur/llama_cpp_rust) | 0 | 2026-04-13T14:31:16Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [ublacklist/store-assets](https://github.com/ublacklist/store-assets) | 0 | 2026-04-13T14:23:11Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -1161,6 +1168,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mitchuski/agentprivacy-skills](https://github.com/mitchuski/agentprivacy-skills) | 0 | 2026-04-13T10:55:54Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [aaronrsun/spec-kit-issue](https://github.com/aaronrsun/spec-kit-issue) | 0 | 2026-04-12T23:36:28Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [eigenwallet/arti](https://github.com/eigenwallet/arti) | 0 | 2026-04-12T23:22:34Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [ainvaltin/nu_plugin_boltdb](https://github.com/ainvaltin/nu_plugin_boltdb) | 0 | 2026-04-12T22:17:31Z | Go | Unknown | 5 | 0 | 5 | 5 |
 | [aayushbhaskar/OpenCouncil](https://github.com/aayushbhaskar/OpenCouncil) | 0 | 2026-04-12T19:12:31Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [abraxas-365/claudio-screenshot](https://github.com/Abraxas-365/claudio-screenshot) | 0 | 2026-04-11T21:36:08Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Libmount_jll.jl](https://github.com/JuliaBinaryWrappers/Libmount_jll.jl) | 0 | 2026-04-11T15:43:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1545,6 +1553,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nugine/simd-benches](https://github.com/Nugine/simd-benches) | 0 | 2025-01-29T16:04:35Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [JuliaBinaryWrappers/boost_jll.jl](https://github.com/JuliaBinaryWrappers/boost_jll.jl) | 0 | 2025-01-28T02:39:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JavaHello/javahello.github.io](https://github.com/JavaHello/javahello.github.io) | 0 | 2025-01-14T01:49:52Z | Shell | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [TheSnakeWitcher/hardhat.nvim](https://github.com/TheSnakeWitcher/hardhat.nvim) | 0 | 2025-01-13T19:48:25Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [JuliaBinaryWrappers/Libiconv_jll.jl](https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl) | 0 | 2025-01-13T13:15:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/better-hashnode-backups](https://github.com/danielrosehill/Better-Hashnode-Backups) | 0 | 2025-01-12T10:41:54Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [SebastianGrans/Rich-multiprocess-logging](https://github.com/SebastianGrans/Rich-multiprocess-logging) | 0 | 2025-01-07T12:01:25Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -1613,6 +1622,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hbenl/vscode-mocha-ssh-example](https://github.com/hbenl/vscode-mocha-ssh-example) | 0 | 2024-06-17T18:38:19Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [JuliaBinaryWrappers/LightGBM_jll.jl](https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl) | 0 | 2024-06-13T17:22:22Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [barche/libcxxwrap_julia_jll.jl](https://github.com/barche/libcxxwrap_julia_jll.jl) | 0 | 2024-06-09T15:09:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [nurikk/fileshare](https://github.com/nurikk/fileshare) | 0 | 2024-05-29T15:46:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [larshp/uccp](https://github.com/larshp/uccp) | 0 | 2024-05-25T08:38:37Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [keathley/finch](https://github.com/keathley/finch) | 0 | 2024-05-22T18:22:23Z | Unknown | CLI | 0 | 3 | 0 | 0 |
 | [kitex-contrib/codec-dubbo-tests](https://github.com/kitex-contrib/codec-dubbo-tests) | 0 | 2024-05-21T06:45:05Z | Go | Infrastructure/tooling | 3 | 9 | 3 | 3 |

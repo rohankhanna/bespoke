@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 796
+- repos: 797
 - terms: 1793
-- components: 1953
+- components: 1971
 - concepts: 1799
 - observations: 1805
 
@@ -355,6 +355,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vis-nlp/ChartGemma](https://github.com/vis-nlp/ChartGemma) | 74 | 2024-07-14T21:29:57Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [lambdalisue/vim-fern-renderer-nerdfont](https://github.com/lambdalisue/vim-fern-renderer-nerdfont) | 81 | 2024-07-13T05:37:13Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [cfrg/draft-irtf-cfrg-hpke](https://github.com/cfrg/draft-irtf-cfrg-hpke) | 51 | 2024-07-10T14:22:12Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [thenbe/neotest-playwright](https://github.com/thenbe/neotest-playwright) | 65 | 2024-07-08T19:34:46Z | Other | Unknown | 0 | 20 | 0 | 0 |
 | [didier-wenzek/ocaml-kafka](https://github.com/didier-wenzek/ocaml-kafka) | 71 | 2024-07-08T18:50:16Z | Other | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [vis-nlp/ChartInstruct](https://github.com/vis-nlp/ChartInstruct) | 27 | 2024-07-06T05:20:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [weavejester/ring-refresh](https://github.com/weavejester/ring-refresh) | 40 | 2024-07-05T19:16:17Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
@@ -579,6 +580,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [myownskyW7/CARAFE](https://github.com/myownskyW7/CARAFE) | 72 | 2023-03-29T13:15:55Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [lambdaisland/funnel-client](https://github.com/lambdaisland/funnel-client) | 10 | 2023-03-28T02:42:22Z | Other | CLI | 0 | 1 | 0 | 0 |
 | [alexandrosstergiou/adaPool](https://github.com/alexandrosstergiou/adaPool) | 85 | 2023-03-27T14:17:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [CookiePPP/cookietts](https://github.com/CookiePPP/cookietts) | 43 | 2023-03-24T23:30:27Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [johan-v-r/LibSassBuilder](https://github.com/johan-v-r/LibSassBuilder) | 96 | 2023-03-22T06:20:27Z | Other | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [antfu/codemirror-theme-vars](https://github.com/antfu/codemirror-theme-vars) | 25 | 2023-03-20T11:36:08Z | Other | Unknown | 0 | 7 | 0 | 0 |
 | [square/bazel_maven_repository](https://github.com/square/bazel_maven_repository) | 38 | 2023-03-18T23:31:46Z | Other | Infrastructure/tooling | 0 | 4 | 0 | 0 |
@@ -630,6 +632,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vany0114/chaos-injection-using-simmy](https://github.com/vany0114/chaos-injection-using-simmy) | 29 | 2022-12-08T01:59:15Z | Other | Service/API | 11 | 0 | 11 | 11 |
 | [egoist/vue-bytesize-icons](https://github.com/egoist/vue-bytesize-icons) | 55 | 2022-12-07T01:01:25Z | Other | Unknown | 3 | 18 | 3 | 3 |
 | [club-soda/club-soda-guide](https://github.com/club-soda/club-soda-guide) | 17 | 2022-11-29T10:48:31Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
+| [Multi-Singer/Multi-Singer.github.io](https://github.com/Multi-Singer/Multi-Singer.github.io) | 81 | 2022-11-19T05:27:57Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [bshepherdson/athens-export](https://github.com/bshepherdson/athens-export) | 58 | 2022-11-16T23:31:24Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [juneedahamed/vc.vim](https://github.com/juneedahamed/vc.vim) | 47 | 2022-11-16T14:07:40Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [joeytwiddle/sexy_scroller.vim](https://github.com/joeytwiddle/sexy_scroller.vim) | 95 | 2022-11-08T09:37:27Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -820,8 +823,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bsless/malli-keys-relations](https://github.com/bsless/malli-keys-relations) | 22 | 2021-05-25T11:55:34Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Dominaezzz/kotlin-imgui](https://github.com/Dominaezzz/kotlin-imgui) | 90 | 2021-05-18T19:58:27Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [kowainik/org](https://github.com/kowainik/org) | 21 | 2021-05-16T07:39:26Z | Other | Docs/knowledge | 4 | 0 | 4 | 4 |
-| [amirrezaask/fuzzy.nvim](https://github.com/amirrezaask/fuzzy.nvim) | 54 | 2021-05-16T06:20:55Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [hcarty/mwt](https://github.com/hcarty/mwt) | 30 | 2021-05-15T23:50:17Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -913,6 +914,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lambdalisue/vim-fern-renderer-nerdfont](https://github.com/lambdalisue/vim-fern-renderer-nerdfont) | 81 | 2024-07-13T05:37:13Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [CodeLunatic/halo-theme-simple-bootstrap](https://github.com/CodeLunatic/halo-theme-simple-bootstrap) | 81 | 2023-12-09T06:36:25Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [iliasprc/COVIDNet](https://github.com/iliasprc/COVIDNet) | 81 | 2023-05-25T12:35:08Z | Other | Unknown | 5 | 0 | 5 | 5 |
+| [Multi-Singer/Multi-Singer.github.io](https://github.com/Multi-Singer/Multi-Singer.github.io) | 81 | 2022-11-19T05:27:57Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [clj-commons/fs](https://github.com/clj-commons/fs) | 80 | 2025-08-06T18:17:26Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaParallel/DTables.jl](https://github.com/JuliaParallel/DTables.jl) | 80 | 2024-04-08T12:57:36Z | Other | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [moritz/json](https://github.com/moritz/json) | 80 | 2023-09-21T13:16:01Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1010,6 +1012,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dashbitco/nimble_ownership](https://github.com/dashbitco/nimble_ownership) | 65 | 2025-10-21T11:08:39Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [OpenGVLab/TPO](https://github.com/OpenGVLab/TPO) | 65 | 2025-07-22T07:47:48Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [abap-ai/mcp](https://github.com/abap-ai/mcp) | 65 | 2025-07-20T08:33:33Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [thenbe/neotest-playwright](https://github.com/thenbe/neotest-playwright) | 65 | 2024-07-08T19:34:46Z | Other | Unknown | 0 | 20 | 0 | 0 |
 | [lambdaisland/chui](https://github.com/lambdaisland/chui) | 65 | 2023-08-01T04:09:09Z | Other | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [LAION-AI/LAION-SAFETY](https://github.com/LAION-AI/LAION-SAFETY) | 65 | 2022-10-14T15:00:30Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [niuiic/code-shot.nvim](https://github.com/niuiic/code-shot.nvim) | 64 | 2025-01-04T01:59:16Z | Other | Unknown | 3 | 0 | 3 | 3 |
@@ -1100,7 +1103,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tc39/proposal-function-pipe-flow](https://github.com/tc39/proposal-function-pipe-flow) | 54 | 2022-08-20T23:20:31Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [stuartsierra/component.repl](https://github.com/stuartsierra/component.repl) | 54 | 2022-03-23T19:34:09Z | Other | Framework | 0 | 0 | 0 | 0 |
 | [domino-osgi/domino](https://github.com/domino-osgi/domino) | 54 | 2021-12-23T10:43:08Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
-| [amirrezaask/fuzzy.nvim](https://github.com/amirrezaask/fuzzy.nvim) | 54 | 2021-05-16T06:20:55Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [openshift/ruby-hello-world](https://github.com/openshift/ruby-hello-world) | 53 | 2025-06-05T13:24:12Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [auriml/Rx-thorax-automatic-captioning](https://github.com/auriml/Rx-thorax-automatic-captioning) | 53 | 2025-02-21T15:59:08Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [aws-ia/terraform-aws-eks-ack-addons](https://github.com/aws-ia/terraform-aws-eks-ack-addons) | 53 | 2024-10-03T15:24:06Z | Other | Infrastructure/tooling | 5 | 7 | 5 | 5 |
@@ -1193,6 +1195,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [archguard/codedb](https://github.com/archguard/codedb) | 43 | 2023-12-09T13:49:26Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [red-data-tools/numpy.rb](https://github.com/red-data-tools/numpy.rb) | 43 | 2023-11-26T16:42:50Z | Other | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [JuliaLogging/TerminalLoggers.jl](https://github.com/JuliaLogging/TerminalLoggers.jl) | 43 | 2023-04-24T20:55:34Z | Other | CLI | 5 | 7 | 5 | 5 |
+| [CookiePPP/cookietts](https://github.com/CookiePPP/cookietts) | 43 | 2023-03-24T23:30:27Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [xtensor-stack/Xtensor.jl](https://github.com/xtensor-stack/Xtensor.jl) | 43 | 2022-07-02T11:52:34Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [high-moctane/asyncomplete-nextword.vim](https://github.com/high-moctane/asyncomplete-nextword.vim) | 43 | 2021-09-13T00:47:41Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [geoffreylitt/ladybug](https://github.com/geoffreylitt/ladybug) | 43 | 2021-08-10T13:54:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1323,7 +1326,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [letmaik/rawpy-notebooks](https://github.com/letmaik/rawpy-notebooks) | 30 | 2023-05-09T20:31:22Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [VBAndCs/eShopOnWeb_VB.NET](https://github.com/VBAndCs/eShopOnWeb_VB.NET) | 30 | 2023-01-06T20:27:41Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [bitzesty/zxcvbn-js](https://github.com/bitzesty/zxcvbn-js) | 30 | 2021-05-31T17:12:19Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [hcarty/mwt](https://github.com/hcarty/mwt) | 30 | 2021-05-15T23:50:17Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [jsuereth/o11y-by-design](https://github.com/jsuereth/o11y-by-design) | 29 | 2025-04-07T15:32:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Azure-Samples/container-apps-jobs](https://github.com/Azure-Samples/container-apps-jobs) | 29 | 2024-04-22T09:31:43Z | Other | CLI | 1 | 3 | 1 | 1 |
 | [JunchengYan/GroundedSAM_OccNeRF](https://github.com/JunchengYan/GroundedSAM_OccNeRF) | 29 | 2023-12-15T02:14:12Z | Other | Unknown | 0 | 0 | 0 | 0 |

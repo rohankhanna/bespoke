@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · Shell
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 14
-- terms: 24
-- components: 21
-- concepts: 24
-- observations: 24
+- repos: 15
+- terms: 25
+- components: 23
+- concepts: 25
+- observations: 25
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [kalavai-net/kalavai-templates](https://github.com/kalavai-net/kalavai-templates) | 0 | 2026-05-01T07:45:12Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [danielrosehill/Claude-Filesystem-Organiser-Plugin](https://github.com/danielrosehill/Claude-Filesystem-Organiser-Plugin) | 0 | 2026-04-30T18:51:27Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Image-Annotation-Plugin](https://github.com/danielrosehill/Claude-Image-Annotation-Plugin) | 0 | 2026-04-28T12:11:55Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Awesome-Hebrew-Fonts](https://github.com/danielrosehill/Awesome-Hebrew-Fonts) | 0 | 2026-04-27T08:54:47Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [kyverno/.github](https://github.com/kyverno/.github) | 0 | 2026-04-27T04:35:10Z | Shell | Infrastructure/tooling | 3 | 4 | 3 | 3 |
@@ -39,12 +41,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DeepWok/mase-docker](https://github.com/DeepWok/mase-docker) | 0 | 2026-04-22T13:43:17Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [gerardtschanz/revenue-os](https://github.com/gerardtschanz/revenue-os) | 0 | 2026-04-19T11:53:17Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Local-Claude-Plugin-Install-Research](https://github.com/danielrosehill/Local-Claude-Plugin-Install-Research) | 0 | 2026-04-16T14:17:02Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Calls-The-Shots](https://github.com/danielrosehill/Claude-Calls-The-Shots) | 0 | 2026-04-14T11:13:59Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [kalavai-net/kalavai-templates](https://github.com/kalavai-net/kalavai-templates) | 0 | 2026-05-01T07:45:12Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [danielrosehill/Claude-Filesystem-Organiser-Plugin](https://github.com/danielrosehill/Claude-Filesystem-Organiser-Plugin) | 0 | 2026-04-30T18:51:27Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Image-Annotation-Plugin](https://github.com/danielrosehill/Claude-Image-Annotation-Plugin) | 0 | 2026-04-28T12:11:55Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Awesome-Hebrew-Fonts](https://github.com/danielrosehill/Awesome-Hebrew-Fonts) | 0 | 2026-04-27T08:54:47Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [kyverno/.github](https://github.com/kyverno/.github) | 0 | 2026-04-27T04:35:10Z | Shell | Infrastructure/tooling | 3 | 4 | 3 | 3 |
@@ -58,4 +61,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DeepWok/mase-docker](https://github.com/DeepWok/mase-docker) | 0 | 2026-04-22T13:43:17Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [gerardtschanz/revenue-os](https://github.com/gerardtschanz/revenue-os) | 0 | 2026-04-19T11:53:17Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Local-Claude-Plugin-Install-Research](https://github.com/danielrosehill/Local-Claude-Plugin-Install-Research) | 0 | 2026-04-16T14:17:02Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Calls-The-Shots](https://github.com/danielrosehill/Claude-Calls-The-Shots) | 0 | 2026-04-14T11:13:59Z | Shell | Unknown | 0 | 0 | 0 | 0 |

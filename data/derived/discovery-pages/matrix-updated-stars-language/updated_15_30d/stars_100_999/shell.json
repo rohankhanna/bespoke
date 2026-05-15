@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 190,
-    "concepts": 270,
-    "observations": 273,
-    "repos": 49,
-    "terms": 275
+    "components": 213,
+    "concepts": 280,
+    "observations": 283,
+    "repos": 51,
+    "terms": 285
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "2KAbhishek/dots2k",
@@ -29,17 +29,19 @@
     "denysdovhan/dotfiles",
     "docker-library/drupal",
     "docker-library/ruby",
-    "EmbarkStudios/cargo-deny-action",
     "ericbuess/claude-code-docs",
     "gentoo/guru",
     "getsolus/packages",
     "harbor-framework/terminal-bench-2",
+    "heroku/heroku-buildpack-java",
     "heroku/heroku-buildpack-php",
+    "itzg/docker-mc-backup",
     "justchokingaround/lobster",
     "jvm-repo-rebuild/reproducible-central",
     "kubernetes/sig-release",
     "lemire/docker_programming_station",
     "lovell/sharp-libvips",
+    "meyayl/docker-languagetool",
     "microcai/gentoo-zh",
     "mozilla/addons",
     "msys2/msys2-installer",

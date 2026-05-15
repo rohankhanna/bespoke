@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "ahmadawais/shades-of-purple-vscode",
     "AppImageCommunity/awesome-appimage",
     "Biscuit-Theme/biscuit",
     "bluescan/proggyfonts",
-    "charm-and-friends/additional-bubbles",
     "chika0801/Xray-examples",
     "CodeBoarding/GeneratedOnBoardings",
     "dalek-cryptography/ed25519-dalek",
@@ -47,6 +46,7 @@
     "pingcap/community",
     "rust-fuzz/trophy-case",
     "sgl-project/sgl-learning-materials",
+    "shadowspawn/node-version-usage",
     "snwfdhmp/awesome-ralph",
     "spring-ai-community/awesome-spring-ai",
     "TencentCloudADP/youtu-vl",

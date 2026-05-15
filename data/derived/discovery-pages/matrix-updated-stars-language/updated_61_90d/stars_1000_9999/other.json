@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 246,
-    "concepts": 313,
-    "observations": 314,
-    "repos": 54,
-    "terms": 318
+    "components": 234,
+    "concepts": 306,
+    "observations": 307,
+    "repos": 52,
+    "terms": 306
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
-    "amebalabs/TRex",
     "analysis-tools-dev/dynamic-analysis",
     "ardalis/ApiEndpoints",
     "autofac/Autofac",
@@ -62,7 +61,6 @@
     "stevearc/aerial.nvim",
     "stevearc/oil.nvim",
     "timdorr/tesla-api",
-    "touchlab/droidconkotlin",
     "v2fly/v2ray-examples",
     "Vigemus/iron.nvim",
     "vkhorikov/CSharpFunctionalExtensions",

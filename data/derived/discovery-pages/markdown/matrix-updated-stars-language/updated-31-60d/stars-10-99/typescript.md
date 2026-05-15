@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 38
-- terms: 140
-- components: 874
-- concepts: 136
-- observations: 136
+- repos: 41
+- terms: 160
+- components: 936
+- concepts: 156
+- observations: 157
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [electron-userland/electron-windows-msix](https://github.com/electron-userland/electron-windows-msix) | 14 | 2026-04-15T00:06:43Z | TypeScript | Infrastructure/tooling | 2 | 13 | 2 | 2 |
+| [agents-squads/squads-cli](https://github.com/agents-squads/squads-cli) | 43 | 2026-04-14T17:49:41Z | TypeScript | CLI | 17 | 29 | 17 | 18 |
+| [buttondown/cli](https://github.com/buttondown/cli) | 10 | 2026-04-14T17:06:59Z | TypeScript | CLI | 1 | 20 | 1 | 1 |
 | [ioBroker/ioBroker.matter](https://github.com/ioBroker/ioBroker.matter) | 47 | 2026-04-14T01:00:33Z | TypeScript | Infrastructure/tooling | 7 | 40 | 7 | 7 |
 | [ngyewch/smile-js](https://github.com/ngyewch/smile-js) | 25 | 2026-04-13T07:33:58Z | TypeScript | Infrastructure/tooling | 1 | 22 | 1 | 1 |
 | [zhayujie/cow-skill-hub](https://github.com/zhayujie/cow-skill-hub) | 19 | 2026-04-12T09:23:38Z | TypeScript | Unknown | 5 | 8 | 5 | 5 |
@@ -83,6 +86,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ioBroker/ioBroker.matter](https://github.com/ioBroker/ioBroker.matter) | 47 | 2026-04-14T01:00:33Z | TypeScript | Infrastructure/tooling | 7 | 40 | 7 | 7 |
 | [ElementsProject/cln-application](https://github.com/ElementsProject/cln-application) | 47 | 2026-04-08T21:30:51Z | TypeScript | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [solidjs-community/storybook](https://github.com/solidjs-community/storybook) | 45 | 2026-04-03T13:23:29Z | TypeScript | Infrastructure/tooling | 2 | 34 | 2 | 2 |
+| [agents-squads/squads-cli](https://github.com/agents-squads/squads-cli) | 43 | 2026-04-14T17:49:41Z | TypeScript | CLI | 17 | 29 | 17 | 18 |
 | [apache/incubator-devlake-website](https://github.com/apache/incubator-devlake-website) | 43 | 2026-03-23T14:31:00Z | TypeScript | Infrastructure/tooling | 5 | 22 | 5 | 5 |
 | [buddingnewinsights/proxypal](https://github.com/buddingnewinsights/proxypal) | 41 | 2026-04-10T18:56:54Z | TypeScript | Infrastructure/tooling | 3 | 39 | 3 | 3 |
 | [automazeio/proof](https://github.com/automazeio/proof) | 41 | 2026-03-23T20:42:52Z | TypeScript | Infrastructure/tooling | 1 | 12 | 1 | 1 |
@@ -100,10 +104,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nanostores/alpine](https://github.com/nanostores/alpine) | 17 | 2026-03-23T11:28:45Z | TypeScript | Infrastructure/tooling | 7 | 21 | 7 | 7 |
 | [absolute-version/absolute-version-js](https://github.com/absolute-version/absolute-version-js) | 16 | 2026-04-07T06:26:52Z | TypeScript | CLI | 8 | 24 | 8 | 8 |
 | [googleapis/google-cloud-node-core](https://github.com/googleapis/google-cloud-node-core) | 16 | 2026-03-19T17:28:24Z | TypeScript | Infrastructure/tooling | 2 | 9 | 2 | 2 |
+| [electron-userland/electron-windows-msix](https://github.com/electron-userland/electron-windows-msix) | 14 | 2026-04-15T00:06:43Z | TypeScript | Infrastructure/tooling | 2 | 13 | 2 | 2 |
 | [holochain/kangaroo-electron](https://github.com/holochain/kangaroo-electron) | 13 | 2026-03-30T13:41:04Z | TypeScript | Infrastructure/tooling | 3 | 41 | 3 | 3 |
 | [microsoft/vscode-js-debug-companion](https://github.com/microsoft/vscode-js-debug-companion) | 12 | 2026-04-08T14:56:59Z | TypeScript | Unknown | 0 | 20 | 0 | 0 |
 | [gnosischain/gbc-deposit-ui](https://github.com/gnosischain/gbc-deposit-ui) | 12 | 2026-04-02T16:46:42Z | TypeScript | Infrastructure/tooling | 5 | 41 | 5 | 5 |
 | [haskell/ghcup-setup](https://github.com/haskell/ghcup-setup) | 11 | 2026-04-07T09:24:11Z | TypeScript | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [privatenumber/is-fs-case-sensitive](https://github.com/privatenumber/is-fs-case-sensitive) | 11 | 2026-03-29T19:20:38Z | TypeScript | Infrastructure/tooling | 5 | 12 | 5 | 5 |
+| [buttondown/cli](https://github.com/buttondown/cli) | 10 | 2026-04-14T17:06:59Z | TypeScript | CLI | 1 | 20 | 1 | 1 |
 | [hyparam/demos](https://github.com/hyparam/demos) | 10 | 2026-04-10T01:10:25Z | TypeScript | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [gr2m/octokit-oauth-app-now-example](https://github.com/gr2m/octokit-oauth-app-now-example) | 10 | 2026-03-21T21:37:40Z | TypeScript | Infrastructure/tooling | 1 | 5 | 1 | 1 |

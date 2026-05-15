@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 105,
-    "concepts": 36,
-    "observations": 37,
-    "repos": 8,
-    "terms": 36
+    "components": 49,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 4,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
-    "aidenlab/hic-straw",
     "apache/doris-opentelemetry-demo",
-    "coasys/ad4m",
-    "hyparam/squirreling",
     "ideditor/schema-builder",
-    "julia-actions/cache",
-    "stdlib-js/google-summer-of-code"
+    "julia-actions/cache"
   ]
 }

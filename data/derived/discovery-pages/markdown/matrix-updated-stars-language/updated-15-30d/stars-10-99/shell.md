@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · Shell
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 43
-- terms: 178
-- components: 192
-- concepts: 180
-- observations: 183
+- repos: 48
+- terms: 200
+- components: 209
+- concepts: 202
+- observations: 205
 
 ## Static behavior
 
@@ -26,6 +26,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [cldwalker/dotfiles](https://github.com/cldwalker/dotfiles) | 16 | 2026-05-01T04:11:52Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [heroku/heroku-buildpack-gradle](https://github.com/heroku/heroku-buildpack-gradle) | 63 | 2026-05-01T03:43:32Z | Shell | Infrastructure/tooling | 7 | 3 | 7 | 7 |
+| [cilium/community](https://github.com/cilium/community) | 21 | 2026-04-30T21:33:05Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [Alexpux/MINGW-packages](https://github.com/Alexpux/MINGW-packages) | 22 | 2026-04-30T11:36:52Z | Shell | Infrastructure/tooling | 2 | 9 | 2 | 2 |
+| [rocq-prover/docker-opam-action](https://github.com/rocq-prover/docker-opam-action) | 15 | 2026-04-30T10:59:59Z | Shell | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [quarkusio/quarkus-ecosystem-ci](https://github.com/quarkusio/quarkus-ecosystem-ci) | 25 | 2026-04-30T01:52:37Z | Shell | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [bufbuild/homebrew-buf](https://github.com/bufbuild/homebrew-buf) | 14 | 2026-04-29T20:50:05Z | Shell | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [tinted-theming/tinted-terminal](https://github.com/tinted-theming/tinted-terminal) | 44 | 2026-04-29T19:14:42Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
@@ -84,6 +89,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [envoyproxy/examples](https://github.com/envoyproxy/examples) | 69 | 2026-04-24T06:06:00Z | Shell | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [bnb-chain/node-deploy](https://github.com/bnb-chain/node-deploy) | 69 | 2026-04-23T02:51:41Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [dependabot/smoke-tests](https://github.com/dependabot/smoke-tests) | 66 | 2026-04-23T19:32:53Z | Shell | Infrastructure/tooling | 9 | 6 | 9 | 9 |
+| [heroku/heroku-buildpack-gradle](https://github.com/heroku/heroku-buildpack-gradle) | 63 | 2026-05-01T03:43:32Z | Shell | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [agricidaniel/claude-cybersecurity](https://github.com/AgriciDaniel/claude-cybersecurity) | 58 | 2026-04-15T09:43:43Z | Shell | Infrastructure/tooling | 10 | 2 | 10 | 10 |
 | [reviewdog/action-hadolint](https://github.com/reviewdog/action-hadolint) | 55 | 2026-04-21T20:09:49Z | Shell | Infrastructure/tooling | 8 | 9 | 8 | 9 |
 | [crazy-max/goxx](https://github.com/crazy-max/goxx) | 51 | 2026-04-23T19:13:07Z | Shell | Infrastructure/tooling | 7 | 10 | 7 | 7 |
@@ -101,13 +107,17 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cloudfoundry/jumpbox-deployment](https://github.com/cloudfoundry/jumpbox-deployment) | 30 | 2026-04-21T21:20:06Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [quarkusio/quarkus-ecosystem-ci](https://github.com/quarkusio/quarkus-ecosystem-ci) | 25 | 2026-04-30T01:52:37Z | Shell | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [cloudfoundry/cf-deployment-concourse-tasks](https://github.com/cloudfoundry/cf-deployment-concourse-tasks) | 24 | 2026-04-29T14:13:17Z | Shell | Unknown | 1 | 0 | 1 | 1 |
+| [Alexpux/MINGW-packages](https://github.com/Alexpux/MINGW-packages) | 22 | 2026-04-30T11:36:52Z | Shell | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [reviewdog/action-depup](https://github.com/reviewdog/action-depup) | 22 | 2026-04-29T16:04:05Z | Shell | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [reviewdog/action-shfmt](https://github.com/reviewdog/action-shfmt) | 22 | 2026-04-21T22:08:25Z | Shell | Infrastructure/tooling | 5 | 10 | 5 | 6 |
 | [containers/automation_images](https://github.com/containers/automation_images) | 22 | 2026-04-21T20:10:17Z | Shell | Infrastructure/tooling | 0 | 7 | 0 | 0 |
+| [cilium/community](https://github.com/cilium/community) | 21 | 2026-04-30T21:33:05Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [conda-forge/pinocchio-feedstock](https://github.com/conda-forge/pinocchio-feedstock) | 20 | 2026-04-22T15:31:29Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [oneclick/rubyinstaller2-packages](https://github.com/oneclick/rubyinstaller2-packages) | 18 | 2026-04-21T10:48:49Z | Shell | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [apache/arrow-testing](https://github.com/apache/arrow-testing) | 18 | 2026-04-20T12:47:58Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 | [2KAbhishek/sway2k](https://github.com/2KAbhishek/sway2k) | 18 | 2026-04-19T06:11:11Z | Shell | Unknown | 10 | 0 | 10 | 10 |
+| [cldwalker/dotfiles](https://github.com/cldwalker/dotfiles) | 16 | 2026-05-01T04:11:52Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [rocq-prover/docker-opam-action](https://github.com/rocq-prover/docker-opam-action) | 15 | 2026-04-30T10:59:59Z | Shell | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [flinedev/tandemkit](https://github.com/FlineDev/TandemKit) | 15 | 2026-04-18T15:56:29Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [bufbuild/homebrew-buf](https://github.com/bufbuild/homebrew-buf) | 14 | 2026-04-29T20:50:05Z | Shell | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [Azure/aaz](https://github.com/Azure/aaz) | 12 | 2026-04-24T06:29:54Z | Shell | CLI | 1 | 2 | 1 | 1 |

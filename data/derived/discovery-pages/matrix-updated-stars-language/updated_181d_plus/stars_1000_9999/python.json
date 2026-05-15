@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 856,
-    "concepts": 3644,
-    "observations": 3646,
-    "repos": 926,
-    "terms": 3583
+    "concepts": 3659,
+    "observations": 3661,
+    "repos": 932,
+    "terms": 3597
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -139,6 +139,7 @@
     "ByteDance-Seed/Bagel",
     "bytedance/byteps",
     "bytedance/DreamO",
+    "bytedance/piano_transcription",
     "BytedTsinghua-SIA/DAPO",
     "BytedTsinghua-SIA/MemAgent",
     "c4urself/bump2version",
@@ -322,6 +323,8 @@
     "GFW-knocker/gfw_resist_tls_proxy",
     "gligen/GLIGEN",
     "glumpy/glumpy",
+    "gnobitab/InstaFlow",
+    "gnobitab/RectifiedFlow",
     "GOATmessi8/RFBNet",
     "google-deepmind/dnc",
     "google-deepmind/graph_nets",
@@ -395,6 +398,7 @@
     "iGhibli/iOS-DeviceSupport",
     "Improbable-AI/walk-these-ways",
     "ingra14m/Deformable-3D-Gaussians",
+    "innnky/so-vits-svc",
     "InsaneLife/ChineseNLPCorpus",
     "intel/intel-extension-for-transformers",
     "InternLM/InternLM",
@@ -510,6 +514,7 @@
     "Maluuba/nlg-eval",
     "mapillary/inplace_abn",
     "MarkFzp/act-plus-plus",
+    "marl/crepe",
     "mbzuai-oryx/Video-ChatGPT",
     "McGill-NLP/webllama",
     "mcordts/cityscapesScripts",
@@ -521,6 +526,7 @@
     "memoavatar/memo",
     "meta-llama/synthetic-data-kit",
     "meta-pytorch/gpt-fast",
+    "mgsalem/Tensorflow-Project-Template",
     "MhLiao/DB",
     "microsoft/AI",
     "microsoft/CodeBERT",

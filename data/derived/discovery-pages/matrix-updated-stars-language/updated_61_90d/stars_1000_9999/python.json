@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 174,
-    "concepts": 340,
-    "observations": 340,
-    "repos": 57,
-    "terms": 336
+    "components": 176,
+    "concepts": 342,
+    "observations": 342,
+    "repos": 59,
+    "terms": 338
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -21,6 +21,7 @@
     "ARISE-Initiative/robosuite",
     "astanin/python-tabulate",
     "Beckschen/TransUNet",
+    "belluzj/fantasque-sans",
     "benjaminp/six",
     "black-forest-labs/flux2",
     "brycedrennan/imaginAIry",
@@ -32,6 +33,7 @@
     "daijro/browserforge",
     "dateutil/dateutil",
     "django/asgiref",
+    "facebookresearch/fvcore",
     "facebookresearch/habitat-lab",
     "google/ml_collections",
     "google/vizier",

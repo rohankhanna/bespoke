@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 329
-- terms: 503
-- components: 1079
-- concepts: 497
-- observations: 497
+- repos: 330
+- terms: 505
+- components: 1083
+- concepts: 499
+- observations: 499
 
 ## Static behavior
 
@@ -262,6 +262,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kgkoutis/TSID.Creator.NET](https://github.com/kgkoutis/TSID.Creator.NET) | 5 | 2023-02-28T22:50:19Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [trailblazer/cells-erb](https://github.com/trailblazer/cells-erb) | 9 | 2023-02-21T23:14:37Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [Xiao0728/ColBERT-PRF-VirtualAppendix](https://github.com/Xiao0728/ColBERT-PRF-VirtualAppendix) | 8 | 2023-02-16T14:59:26Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [rcarriga/nvim-dap](https://github.com/rcarriga/nvim-dap) | 3 | 2023-01-27T09:15:39Z | Other | CLI | 2 | 4 | 2 | 2 |
 | [bennadel/CUID2-For-ColdFusion](https://github.com/bennadel/CUID2-For-ColdFusion) | 2 | 2023-01-26T14:34:57Z | Other | Library | 0 | 0 | 0 | 0 |
 | [trailblazer/cells-hamlit](https://github.com/trailblazer/cells-hamlit) | 7 | 2023-01-25T15:09:37Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [trailblazer/cells-haml](https://github.com/trailblazer/cells-haml) | 5 | 2023-01-25T15:09:13Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
@@ -587,6 +588,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [libcpr/example-cmake-conan](https://github.com/libcpr/example-cmake-conan) | 3 | 2023-05-21T10:41:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [eigenbahn/icecream-cljc](https://github.com/Eigenbahn/icecream-cljc) | 3 | 2023-04-18T15:06:46Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [mreichhoff/requestStorageAccessForOrigin](https://github.com/mreichhoff/requestStorageAccessForOrigin) | 3 | 2023-03-21T21:49:49Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [rcarriga/nvim-dap](https://github.com/rcarriga/nvim-dap) | 3 | 2023-01-27T09:15:39Z | Other | CLI | 2 | 4 | 2 | 2 |
 | [snowplow-incubator/cla-bot](https://github.com/snowplow-incubator/cla-bot) | 3 | 2022-12-01T01:40:29Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [phlegx/money-openexchangerates-bank](https://github.com/phlegx/money-openexchangerates-bank) | 3 | 2022-10-21T17:48:32Z | Other | Unknown | 9 | 0 | 9 | 9 |
 | [avantikalal/rapids-single-cell-examples](https://github.com/avantikalal/rapids-single-cell-examples) | 3 | 2022-05-30T04:34:40Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |

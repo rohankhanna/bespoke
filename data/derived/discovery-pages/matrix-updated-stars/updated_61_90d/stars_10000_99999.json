@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 490,
-    "concepts": 302,
-    "observations": 305,
-    "repos": 53,
-    "terms": 309
+    "components": 488,
+    "concepts": 321,
+    "observations": 324,
+    "repos": 55,
+    "terms": 328
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -24,11 +24,13 @@
     "ComposioHQ/awesome-claude-skills",
     "cool-RR/PySnooper",
     "CorentinJ/Real-Time-Voice-Cloning",
+    "datawhalechina/happy-llm",
     "datawhalechina/llm-universe",
     "egoist/tsup",
     "facebookresearch/audiocraft",
     "facebookresearch/vggt",
     "floating-ui/floating-ui",
+    "FunAudioLLM/CosyVoice",
     "git-up/GitUp",
     "go-chi/chi",
     "google-research/vision_transformer",
@@ -45,6 +47,7 @@
     "lokesh/color-thief",
     "macrozheng/mall",
     "mathjax/MathJax",
+    "microsoft/AirSim",
     "nikic/PHP-Parser",
     "peers/peerjs",
     "PKU-YuanGroup/Open-Sora-Plan",
@@ -60,7 +63,6 @@
     "sql-js/sql.js",
     "TabbyML/tabby",
     "tpope/vim-fugitive",
-    "tqdm/tqdm",
     "vibrantlabsai/ragas",
     "videojs/video.js",
     "Wan-Video/Wan2.1",

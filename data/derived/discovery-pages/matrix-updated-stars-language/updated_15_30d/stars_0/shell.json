@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 14,
-    "terms": 24
+    "components": 23,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 15,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "conda-forge/blis-feedstock",
     "conda-forge/bottom-feedstock",
@@ -20,12 +20,13 @@
     "conda-forge/ergocub-software-feedstock",
     "conda-forge/xeus-cpp-feedstock",
     "danielrosehill/Awesome-Hebrew-Fonts",
-    "danielrosehill/Claude-Calls-The-Shots",
+    "danielrosehill/Claude-Filesystem-Organiser-Plugin",
     "danielrosehill/Claude-Image-Annotation-Plugin",
     "danielrosehill/Local-Claude-Plugin-Install-Research",
     "DeepWok/mase-docker",
     "edward3h/bedrock-viz-from-backups",
     "gerardtschanz/revenue-os",
+    "kalavai-net/kalavai-templates",
     "kyverno/.github",
     "nodenv/node-build-prerelease"
   ]

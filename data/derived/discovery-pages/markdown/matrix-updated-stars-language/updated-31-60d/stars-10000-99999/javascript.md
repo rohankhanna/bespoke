@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 26
-- terms: 147
-- components: 888
-- concepts: 141
-- observations: 141
+- repos: 29
+- terms: 153
+- components: 999
+- concepts: 147
+- observations: 147
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jashkenas/underscore](https://github.com/jashkenas/underscore) | 27341 | 2026-04-14T20:39:16Z | JavaScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
+| [karma-runner/karma](https://github.com/karma-runner/karma) | 11963 | 2026-04-14T19:00:20Z | JavaScript | Infrastructure/tooling | 3 | 65 | 3 | 3 |
+| [browserslist/browserslist](https://github.com/browserslist/browserslist) | 13531 | 2026-04-14T17:08:03Z | JavaScript | Infrastructure/tooling | 2 | 25 | 2 | 2 |
 | [immerjs/immer](https://github.com/immerjs/immer) | 28930 | 2026-04-14T01:20:21Z | JavaScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
 | [vuejs/vue-router](https://github.com/vuejs/vue-router) | 18910 | 2026-04-14T01:14:33Z | JavaScript | Infrastructure/tooling | 2 | 50 | 2 | 2 |
 | [tj/commander.js](https://github.com/tj/commander.js) | 28149 | 2026-04-13T22:33:18Z | JavaScript | Infrastructure/tooling | 2 | 18 | 2 | 2 |
@@ -63,6 +66,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [typicode/husky](https://github.com/typicode/husky) | 34988 | 2026-03-19T23:03:16Z | JavaScript | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [immerjs/immer](https://github.com/immerjs/immer) | 28930 | 2026-04-14T01:20:21Z | JavaScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
 | [tj/commander.js](https://github.com/tj/commander.js) | 28149 | 2026-04-13T22:33:18Z | JavaScript | Infrastructure/tooling | 2 | 18 | 2 | 2 |
+| [jashkenas/underscore](https://github.com/jashkenas/underscore) | 27341 | 2026-04-14T20:39:16Z | JavaScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | 26594 | 2026-03-31T18:24:26Z | JavaScript | Infrastructure/tooling | 8 | 95 | 0 | 0 |
 | [websockets/ws](https://github.com/websockets/ws) | 22743 | 2026-03-21T17:13:48Z | JavaScript | CLI | 8 | 14 | 8 | 8 |
 | [postcss/autoprefixer](https://github.com/postcss/autoprefixer) | 22312 | 2026-04-13T20:45:46Z | JavaScript | Infrastructure/tooling | 4 | 22 | 4 | 4 |
@@ -78,7 +82,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hapijs/hapi](https://github.com/hapijs/hapi) | 14784 | 2026-04-02T08:28:56Z | JavaScript | Infrastructure/tooling | 5 | 31 | 5 | 5 |
 | [thomaspark/bootswatch](https://github.com/thomaspark/bootswatch) | 14764 | 2026-04-07T21:54:06Z | JavaScript | Infrastructure/tooling | 4 | 22 | 4 | 4 |
 | [ConardLi/easy-dataset](https://github.com/ConardLi/easy-dataset) | 14045 | 2026-04-10T06:04:48Z | JavaScript | Infrastructure/tooling | 2 | 63 | 2 | 2 |
+| [browserslist/browserslist](https://github.com/browserslist/browserslist) | 13531 | 2026-04-14T17:08:03Z | JavaScript | Infrastructure/tooling | 2 | 25 | 2 | 2 |
 | [be5invis/Sarasa-Gothic](https://github.com/be5invis/Sarasa-Gothic) | 12160 | 2026-04-11T05:33:25Z | JavaScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |
+| [karma-runner/karma](https://github.com/karma-runner/karma) | 11963 | 2026-04-14T19:00:20Z | JavaScript | Infrastructure/tooling | 3 | 65 | 3 | 3 |
 | [reactjs/react.dev](https://github.com/reactjs/react.dev) | 11733 | 2026-04-09T15:35:10Z | JavaScript | Infrastructure/tooling | 7 | 86 | 7 | 7 |
 | [debug-js/debug](https://github.com/debug-js/debug) | 11442 | 2026-04-01T12:03:30Z | JavaScript | Web app | 6 | 12 | 6 | 6 |
 | [jquery/jquery-ui](https://github.com/jquery/jquery-ui) | 11342 | 2026-04-01T18:13:06Z | JavaScript | Infrastructure/tooling | 5 | 22 | 5 | 5 |

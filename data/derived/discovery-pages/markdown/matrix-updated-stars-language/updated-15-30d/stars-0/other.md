@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · Other
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 28
-- terms: 36
-- components: 54
-- concepts: 30
-- observations: 30
+- repos: 30
+- terms: 41
+- components: 65
+- concepts: 35
+- observations: 35
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [getlantern/guide](https://github.com/getlantern/guide) | 0 | 2026-05-01T05:03:06Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [HumanSignal/label-studio-client-generator](https://github.com/HumanSignal/label-studio-client-generator) | 0 | 2026-04-30T18:49:08Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
+| [netdur/imaged-sdk-examples](https://github.com/netdur/imaged-sdk-examples) | 0 | 2026-04-30T17:13:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Decision-Evaluation-Framework-Plugin](https://github.com/danielrosehill/Claude-Decision-Evaluation-Framework-Plugin) | 0 | 2026-04-28T11:51:10Z | Other | Framework | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Expat_jll.jl](https://github.com/JuliaBinaryWrappers/Expat_jll.jl) | 0 | 2026-04-27T23:30:31Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [arnaud-lb/php-rdkafka-doc](https://github.com/arnaud-lb/php-rdkafka-doc) | 0 | 2026-04-27T16:20:34Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -53,12 +56,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Github-Repo-Org-Question](https://github.com/danielrosehill/Github-Repo-Org-Question) | 0 | 2026-04-16T14:17:04Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [JuliaBinaryWrappers/CUDA_Driver_jll.jl](https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl) | 0 | 2026-04-16T13:43:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/CUDA_Runtime_jll.jl](https://github.com/JuliaBinaryWrappers/CUDA_Runtime_jll.jl) | 0 | 2026-04-16T13:34:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Live-Typing-UX-Research](https://github.com/danielrosehill/Live-Typing-UX-Research) | 0 | 2026-04-14T13:33:10Z | Other | Unknown | 2 | 0 | 2 | 2 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [getlantern/guide](https://github.com/getlantern/guide) | 0 | 2026-05-01T05:03:06Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [HumanSignal/label-studio-client-generator](https://github.com/HumanSignal/label-studio-client-generator) | 0 | 2026-04-30T18:49:08Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
+| [netdur/imaged-sdk-examples](https://github.com/netdur/imaged-sdk-examples) | 0 | 2026-04-30T17:13:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Decision-Evaluation-Framework-Plugin](https://github.com/danielrosehill/Claude-Decision-Evaluation-Framework-Plugin) | 0 | 2026-04-28T11:51:10Z | Other | Framework | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Expat_jll.jl](https://github.com/JuliaBinaryWrappers/Expat_jll.jl) | 0 | 2026-04-27T23:30:31Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [arnaud-lb/php-rdkafka-doc](https://github.com/arnaud-lb/php-rdkafka-doc) | 0 | 2026-04-27T16:20:34Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -86,4 +91,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Github-Repo-Org-Question](https://github.com/danielrosehill/Github-Repo-Org-Question) | 0 | 2026-04-16T14:17:04Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [JuliaBinaryWrappers/CUDA_Driver_jll.jl](https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl) | 0 | 2026-04-16T13:43:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/CUDA_Runtime_jll.jl](https://github.com/JuliaBinaryWrappers/CUDA_Runtime_jll.jl) | 0 | 2026-04-16T13:34:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Live-Typing-UX-Research](https://github.com/danielrosehill/Live-Typing-UX-Research) | 0 | 2026-04-14T13:33:10Z | Other | Unknown | 2 | 0 | 2 | 2 |

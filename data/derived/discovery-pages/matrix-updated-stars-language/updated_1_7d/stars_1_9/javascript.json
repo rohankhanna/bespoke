@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 22,
-    "observations": 23,
+    "components": 71,
+    "concepts": 20,
+    "observations": 20,
     "repos": 3,
-    "terms": 22
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
-    "ioBroker/plugin-sentry",
+    "Luligu/matterbridge-eve-energy",
     "Luligu/matterbridge-somfy-tahoma",
     "oscard0m/ts-transformer-remove-named-export"
   ]

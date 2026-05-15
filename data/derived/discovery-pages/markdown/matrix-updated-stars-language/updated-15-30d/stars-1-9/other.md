@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 71
-- terms: 158
-- components: 245
-- concepts: 158
-- observations: 158
+- repos: 72
+- terms: 175
+- components: 264
+- concepts: 175
+- observations: 175
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [stable-haskell/cabal](https://github.com/stable-haskell/cabal) | 1 | 2026-04-30T10:12:27Z | Other | Infrastructure/tooling | 9 | 12 | 9 | 9 |
+| [lintnet-modules/ghalint](https://github.com/lintnet-modules/ghalint) | 4 | 2026-04-30T09:26:57Z | Other | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [cosmos/security](https://github.com/cosmos/security) | 8 | 2026-04-30T03:33:09Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [benjamimgois/pascube](https://github.com/benjamimgois/pascube) | 8 | 2026-04-29T23:42:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [aimeos/ai-monolog](https://github.com/aimeos/ai-monolog) | 9 | 2026-04-29T09:32:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -96,7 +98,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [knopp/native_toolchain_ninja](https://github.com/knopp/native_toolchain_ninja) | 9 | 2026-04-15T15:59:33Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [lemire/unicode_lipsum](https://github.com/lemire/unicode_lipsum) | 7 | 2026-04-15T13:28:49Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [diffblue/homebrew-cbmc](https://github.com/diffblue/homebrew-cbmc) | 3 | 2026-04-15T10:25:41Z | Other | Infrastructure/tooling | 3 | 8 | 3 | 3 |
-| [ROCm/hipBLAS-common](https://github.com/ROCm/hipBLAS-common) | 6 | 2026-04-14T13:53:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -132,7 +133,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [goreleaser/.github](https://github.com/goreleaser/.github) | 6 | 2026-04-21T18:33:26Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [floxym/financial-chat-finance-nlp-chatbots](https://github.com/Floxym/financial-chat-Finance-NLP-Chatbots) | 6 | 2026-04-19T13:19:53Z | Other | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [KnotUntied/scoop-fonts](https://github.com/KnotUntied/scoop-fonts) | 6 | 2026-04-19T11:29:38Z | Other | Infrastructure/tooling | 8 | 4 | 8 | 8 |
-| [ROCm/hipBLAS-common](https://github.com/ROCm/hipBLAS-common) | 6 | 2026-04-14T13:53:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [NightWatcher314/homebrew-formula](https://github.com/NightWatcher314/homebrew-formula) | 5 | 2026-04-26T14:19:10Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [rmsrosa/rmsrosa.github.io](https://github.com/rmsrosa/rmsrosa.github.io) | 5 | 2026-04-26T12:03:16Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [v-iashin/v-iashin.github.io](https://github.com/v-iashin/v-iashin.github.io) | 5 | 2026-04-25T13:52:44Z | Other | Unknown | 3 | 0 | 3 | 3 |
@@ -143,6 +143,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Mbed-TLS/mbedtls-test](https://github.com/Mbed-TLS/mbedtls-test) | 5 | 2026-04-21T12:35:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [bladeacer/obsi-snip-coll](https://github.com/bladeacer/obsi-snip-coll) | 5 | 2026-04-21T08:43:47Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [standardrb/standard-custom](https://github.com/standardrb/standard-custom) | 5 | 2026-04-20T13:22:29Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [lintnet-modules/ghalint](https://github.com/lintnet-modules/ghalint) | 4 | 2026-04-30T09:26:57Z | Other | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [Humans-of-Julia/BibInternal.jl](https://github.com/Humans-of-Julia/BibInternal.jl) | 4 | 2026-04-27T23:33:07Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [actboy168/ltest](https://github.com/actboy168/ltest) | 4 | 2026-04-22T05:07:22Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [0xPolygonHermez/stark-recurser](https://github.com/0xPolygonHermez/stark-recurser) | 4 | 2026-04-16T08:32:28Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -161,6 +162,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [conda-forge/.cirun](https://github.com/conda-forge/.cirun) | 2 | 2026-04-20T18:39:59Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [gusztavvargadr/aws-vault-chocolatey](https://github.com/gusztavvargadr/aws-vault-chocolatey) | 2 | 2026-04-20T16:14:25Z | Other | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [dm0x23/portfolio-website](https://github.com/dm0x23/Portfolio-website) | 2 | 2026-04-17T16:50:49Z | Other | Web app | 0 | 16 | 0 | 0 |
+| [stable-haskell/cabal](https://github.com/stable-haskell/cabal) | 1 | 2026-04-30T10:12:27Z | Other | Infrastructure/tooling | 9 | 12 | 9 | 9 |
 | [jk10001/aquainsightai](https://github.com/jk10001/aquainsightai) | 1 | 2026-04-28T10:44:12Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [beeware/beeware-docs-tools](https://github.com/beeware/beeware-docs-tools) | 1 | 2026-04-28T00:39:06Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [mozilla-mobile/fxios-ctl](https://github.com/mozilla-mobile/fxios-ctl) | 1 | 2026-04-27T19:54:08Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |

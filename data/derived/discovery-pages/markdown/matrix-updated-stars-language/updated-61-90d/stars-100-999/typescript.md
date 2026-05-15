@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 35
-- terms: 171
-- components: 979
-- concepts: 161
-- observations: 162
+- repos: 36
+- terms: 177
+- components: 1076
+- concepts: 167
+- observations: 168
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [antfu-collective/bumpp](https://github.com/antfu-collective/bumpp) | 924 | 2026-03-16T06:15:05Z | TypeScript | CLI | 1 | 24 | 1 | 1 |
+| [un-ts/eslint-plugin-import-x](https://github.com/un-ts/eslint-plugin-import-x) | 705 | 2026-03-16T05:56:32Z | TypeScript | Infrastructure/tooling | 6 | 97 | 6 | 6 |
 | [augmnt/augments-mcp-server](https://github.com/augmnt/augments-mcp-server) | 121 | 2026-03-13T00:35:42Z | TypeScript | Framework | 7 | 6 | 7 | 7 |
 | [ivo-toby/mcp-openapi-server](https://github.com/ivo-toby/mcp-openapi-server) | 257 | 2026-03-11T16:06:49Z | TypeScript | Infrastructure/tooling | 2 | 30 | 2 | 2 |
 | [hyparam/hightable](https://github.com/hyparam/hightable) | 272 | 2026-03-10T09:32:02Z | TypeScript | Infrastructure/tooling | 10 | 29 | 10 | 10 |
@@ -60,7 +62,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nodejs/llparse](https://github.com/nodejs/llparse) | 621 | 2026-02-14T16:39:03Z | TypeScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
 | [Wykks/ngx-mapbox-gl](https://github.com/Wykks/ngx-mapbox-gl) | 357 | 2026-02-14T12:45:59Z | TypeScript | Infrastructure/tooling | 2 | 69 | 2 | 2 |
 | [vuejs/vue-eslint-parser](https://github.com/vuejs/vue-eslint-parser) | 488 | 2026-02-14T09:54:59Z | TypeScript | Infrastructure/tooling | 6 | 37 | 6 | 6 |
-| [antfu/eslint-plugin-antfu](https://github.com/antfu/eslint-plugin-antfu) | 172 | 2026-02-14T04:44:36Z | TypeScript | Infrastructure/tooling | 1 | 24 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -68,6 +69,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [zsviczian/excalibrain](https://github.com/zsviczian/excalibrain) | 942 | 2026-02-18T07:59:46Z | TypeScript | Unknown | 0 | 25 | 0 | 0 |
 | [antfu/changelogithub](https://github.com/antfu/changelogithub) | 926 | 2026-03-03T04:22:27Z | TypeScript | Infrastructure/tooling | 4 | 23 | 4 | 5 |
+| [antfu-collective/bumpp](https://github.com/antfu-collective/bumpp) | 924 | 2026-03-16T06:15:05Z | TypeScript | CLI | 1 | 24 | 1 | 1 |
 | [janwilmake/openapi-mcp-server](https://github.com/janwilmake/openapi-mcp-server) | 889 | 2026-02-21T12:49:21Z | TypeScript | Service/API | 0 | 2 | 0 | 0 |
 | [import-js/eslint-import-resolver-typescript](https://github.com/import-js/eslint-import-resolver-typescript) | 821 | 2026-03-01T00:39:06Z | TypeScript | Infrastructure/tooling | 7 | 47 | 7 | 7 |
 | [windingwind/zotero-plugin-template](https://github.com/windingwind/zotero-plugin-template) | 817 | 2026-03-09T23:53:42Z | TypeScript | Infrastructure/tooling | 8 | 16 | 8 | 8 |
@@ -75,6 +77,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lobehub/lobe-tts](https://github.com/lobehub/lobe-tts) | 784 | 2026-03-02T14:12:18Z | TypeScript | Infrastructure/tooling | 6 | 52 | 0 | 0 |
 | [priceline/design-system](https://github.com/priceline/design-system) | 727 | 2026-02-27T17:24:39Z | TypeScript | Infrastructure/tooling | 14 | 8 | 14 | 14 |
 | [h3js/rou3](https://github.com/h3js/rou3) | 723 | 2026-03-09T09:17:45Z | TypeScript | Infrastructure/tooling | 0 | 20 | 0 | 0 |
+| [un-ts/eslint-plugin-import-x](https://github.com/un-ts/eslint-plugin-import-x) | 705 | 2026-03-16T05:56:32Z | TypeScript | Infrastructure/tooling | 6 | 97 | 6 | 6 |
 | [nodejs/llparse](https://github.com/nodejs/llparse) | 621 | 2026-02-14T16:39:03Z | TypeScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
 | [unplugin/unplugin-vue-markdown](https://github.com/unplugin/unplugin-vue-markdown) | 619 | 2026-02-26T10:58:16Z | TypeScript | Infrastructure/tooling | 2 | 27 | 2 | 2 |
 | [kamranahmedse/claude-run](https://github.com/kamranahmedse/claude-run) | 586 | 2026-02-23T19:14:04Z | TypeScript | Web app | 0 | 24 | 0 | 0 |
@@ -95,7 +98,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [googleapis/nodejs-datastore](https://github.com/googleapis/nodejs-datastore) | 226 | 2026-02-20T21:15:01Z | TypeScript | CLI | 3 | 41 | 3 | 3 |
 | [yandeu/five-server](https://github.com/yandeu/five-server) | 220 | 2026-02-25T18:19:32Z | TypeScript | Infrastructure/tooling | 1 | 36 | 1 | 1 |
 | [trzsz/trzsz.js](https://github.com/trzsz/trzsz.js) | 199 | 2026-03-06T17:35:00Z | TypeScript | CLI | 10 | 29 | 10 | 10 |
-| [antfu/eslint-plugin-antfu](https://github.com/antfu/eslint-plugin-antfu) | 172 | 2026-02-14T04:44:36Z | TypeScript | Infrastructure/tooling | 1 | 24 | 1 | 1 |
 | [0xtbug/zero-limit](https://github.com/0xtbug/zero-limit) | 155 | 2026-02-27T04:25:53Z | TypeScript | CLI | 8 | 50 | 8 | 8 |
 | [augmnt/augments-mcp-server](https://github.com/augmnt/augments-mcp-server) | 121 | 2026-03-13T00:35:42Z | TypeScript | Framework | 7 | 6 | 7 | 7 |
 | [eckardt/cchistory](https://github.com/eckardt/cchistory) | 107 | 2026-02-28T16:49:23Z | TypeScript | CLI | 3 | 13 | 0 | 0 |

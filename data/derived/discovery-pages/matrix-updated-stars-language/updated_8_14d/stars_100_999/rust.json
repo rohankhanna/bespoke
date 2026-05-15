@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 360,
-    "concepts": 236,
-    "observations": 238,
-    "repos": 34,
-    "terms": 236
+    "components": 267,
+    "concepts": 170,
+    "observations": 172,
+    "repos": 23,
+    "terms": 170
   },
   "facet_version": 1,
   "filters": {
@@ -12,41 +12,30 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "agentclientprotocol/rust-sdk",
-    "cargo-bins/cargo-quickinstall",
-    "cobalt-org/liquid-rust",
+    "attackgoat/vk-graph",
     "conda/rattler",
     "cosmos/solidity-ibc-eureka",
     "Dicklesworthstone/asupersync",
-    "Dicklesworthstone/frankensqlite",
     "dprint/dprint-plugin-typescript",
-    "duckdb/duckdb-rs",
-    "EricLBuehler/candle-vllm",
     "GitoxideLabs/cargo-smart-release",
     "google/mdbook-i18n-helpers",
     "huggingface/hf-mount",
     "huggingface/xet-core",
     "iqlusioninc/crates",
-    "istio/ztunnel",
     "kornia/kornia-rs",
-    "kpcyrd/rebuilderd",
     "left-curve/left-curve",
-    "near/near-cli-rs",
     "near/near-sdk-rs",
     "open-telemetry/weaver",
-    "oxc-project/oxc-resolver",
     "paradigmxyz/solar",
     "prefix-dev/rattler-build",
     "rust-diplomat/diplomat",
     "rust-lang/stdarch",
-    "RustCrypto/elliptic-curves",
     "supabase/wrappers",
     "utilityai/llama-cpp-rs",
-    "vectordotdev/vrl",
     "z-galaxy/zbus",
-    "zaeleus/noodles",
     "ZcashFoundation/zebra"
   ]
 }

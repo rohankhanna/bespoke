@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 50,
-    "terms": 57
+    "components": 49,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 51,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
-    "agenmod/mirror-skill",
-    "agenmod/steamer-skill",
     "agent-sh/prepare-delivery",
-    "ai-dynamo/enhancements",
     "AlmaLinux/osv-database",
     "bell-sw/osv-database",
     "cachix/iocraft",
@@ -27,17 +24,20 @@
     "conda-forge/python-zlib-ng-feedstock",
     "conda-forge/scikit-optimize-feedstock",
     "conda-forge/ultralytics-feedstock",
-    "D1DX/morning-skill",
+    "csm-actions/demo-server",
     "danielrosehill/Awesome-LLM-Council-Projects",
     "danielrosehill/Claude-ADHD-Research-Workspace",
     "danielrosehill/Claude-Code-Plugins",
+    "danielrosehill/Claude-Content-Writing-Plugin",
     "danielrosehill/Claude-Data-Analyst-plugin",
+    "danielrosehill/Claude-Desktop-Manager-Plugin",
     "danielrosehill/Claude-Ideation-Planning-Plugin",
+    "danielrosehill/Claude-KDE-Plasma-Plugin",
     "danielrosehill/Claude-Legal-Investigative-Plugin",
     "danielrosehill/Claude-LLM-Council-Creator-Plugin",
     "danielrosehill/Claude-PR-Media-Work-Plugin",
     "danielrosehill/Claude-Purchasing-Plugin",
-    "danielrosehill/Docs-And-Notes-Index",
+    "danielrosehill/Claude-Research-Space-Plugin",
     "danielrosehill/Experiments-And-Evaluations-Index",
     "danielrosehill/Resources-Lists-Index",
     "danielrosehill/Subindices",
@@ -48,14 +48,14 @@
     "eslint/.github",
     "eternahybridexchange/eterna-mcp",
     "flathub/org.gnome.eog",
-    "flinedev/marketplace",
     "graveyardsfocrdpktv/ethereum-mempool-bot",
     "hiyouga/llamafactory-community",
     "HKUDS/.github",
+    "hybridgroup/llama-cpp-builder",
     "jku/tuf-demo",
     "kyverno/community",
-    "nodejs/web-team",
     "oobabooga/screenshots",
+    "OpenSC/Nightly",
     "openwebdocs/mdn-bcd-results",
     "piebald-ai/piebald-issues",
     "psmux/scoop-psmux",
@@ -63,6 +63,7 @@
     "scalar/starter",
     "sp1-patches/RustCrypto-bigint",
     "sp1-patches/tiny-keccak",
+    "stdlib-js/meetings",
     "web-platform-tests/results-analysis-cache"
   ]
 }

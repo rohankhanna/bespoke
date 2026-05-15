@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 369,
-    "concepts": 283,
-    "observations": 284,
-    "repos": 115,
-    "terms": 282
+    "components": 391,
+    "concepts": 297,
+    "observations": 298,
+    "repos": 118,
+    "terms": 296
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/tdo.nvim",
@@ -32,6 +32,7 @@
     "apache/rocketmq-apis",
     "apostrophecms/starter-kit-astro-apollo",
     "Arthur944/neotest-bun",
+    "asg017/sqlite-hello",
     "auto-complete/fuzzy-el",
     "ayrat555/cargo-mode",
     "bhftbootcamp/YYJSON.jl",
@@ -42,6 +43,7 @@
     "cleanlab/cleanvision-examples",
     "cloudfoundry/cf-uaa-lib",
     "cmacdonald/pyt_splade",
+    "co-IT/CSharpFunctionalExtensions.HttpResults",
     "ColinKennedy/mega.cmdparse",
     "darrelmiller/sharpa2a",
     "DavidKinder/Windows-Glulxe",
@@ -49,6 +51,7 @@
     "dspinellis/bibtools",
     "dwyl/elixir-auth-github",
     "dwyl/elixir-auth-microsoft",
+    "eddelbuettel/tinythemes",
     "emacsorphanage/dart-mode",
     "ethpandaops/optimism-package",
     "EvelynZhang-epiclab/DaTo",

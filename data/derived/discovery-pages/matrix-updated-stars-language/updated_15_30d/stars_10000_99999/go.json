@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1145,
-    "concepts": 1111,
-    "observations": 1115,
-    "repos": 99,
-    "terms": 1101
+    "components": 1268,
+    "concepts": 1260,
+    "observations": 1264,
+    "repos": 108,
+    "terms": 1250
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -33,13 +33,16 @@
     "charmbracelet/crush",
     "charmbracelet/lipgloss",
     "cli/cli",
+    "cloudflare/cloudflared",
     "cloudwego/eino",
+    "cockroachdb/cockroach",
     "coder/coder",
     "containerd/containerd",
     "containerd/nerdctl",
     "containers/skopeo",
     "coredns/coredns",
     "coreybutler/nvm-windows",
+    "dagger/dagger",
     "danielmiessler/fabric",
     "dexidp/dex",
     "dgraph-io/badger",
@@ -48,11 +51,11 @@
     "DNSCrypt/dnscrypt-proxy",
     "docker/compose",
     "dolthub/dolt",
-    "ent/ent",
     "ethereum/EIPs",
     "ethereum/go-ethereum",
     "getsops/sops",
     "gin-gonic/gin",
+    "git-lfs/git-lfs",
     "go-delve/delve",
     "go-playground/validator",
     "go-sql-driver/mysql",
@@ -91,14 +94,19 @@
     "mikefarah/yq",
     "milvus-io/milvus",
     "nats-io/nats-server",
+    "navidrome/navidrome",
     "nektos/act",
     "open-policy-agent/opa",
     "opencontainers/runc",
     "opentofu/opentofu",
+    "ory/kratos",
     "php/frankenphp",
+    "pingcap/tidb",
     "prometheus/node_exporter",
     "prometheus/prometheus",
+    "pulumi/pulumi",
     "quic-go/quic-go",
+    "rclone/rclone",
     "router-for-me/cliproxyapi",
     "rs/zerolog",
     "schollz/croc",
@@ -112,6 +120,7 @@
     "urfave/cli",
     "v2fly/v2ray-core",
     "valyala/fasthttp",
+    "VictoriaMetrics/VictoriaMetrics",
     "wader/fq"
   ]
 }

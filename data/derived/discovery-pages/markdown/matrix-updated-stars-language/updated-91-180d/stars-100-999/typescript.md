@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 39
-- terms: 199
-- components: 1059
-- concepts: 200
-- observations: 200
+- repos: 40
+- terms: 200
+- components: 1083
+- concepts: 201
+- observations: 201
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [antfu/eslint-plugin-antfu](https://github.com/antfu/eslint-plugin-antfu) | 172 | 2026-02-14T04:44:36Z | TypeScript | Infrastructure/tooling | 1 | 24 | 1 | 1 |
 | [googleapis/nodejs-logging-winston](https://github.com/googleapis/nodejs-logging-winston) | 114 | 2026-02-12T17:49:05Z | TypeScript | CLI | 4 | 27 | 4 | 4 |
 | [castwide/vscode-solargraph](https://github.com/castwide/vscode-solargraph) | 435 | 2026-02-11T13:34:32Z | TypeScript | Unknown | 5 | 14 | 5 | 5 |
 | [niieani/gpt-tokenizer](https://github.com/niieani/gpt-tokenizer) | 778 | 2026-02-10T17:50:16Z | TypeScript | Infrastructure/tooling | 13 | 16 | 13 | 13 |
@@ -100,6 +101,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PrismLibrary/Prism-Documentation](https://github.com/PrismLibrary/Prism-Documentation) | 184 | 2025-11-23T19:01:16Z | TypeScript | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 | [weaviate/elysia-frontend](https://github.com/weaviate/elysia-frontend) | 179 | 2026-02-06T15:41:11Z | TypeScript | Infrastructure/tooling | 4 | 74 | 4 | 4 |
 | [Anush008/fastembed-js](https://github.com/Anush008/fastembed-js) | 175 | 2025-12-15T19:06:48Z | TypeScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
+| [antfu/eslint-plugin-antfu](https://github.com/antfu/eslint-plugin-antfu) | 172 | 2026-02-14T04:44:36Z | TypeScript | Infrastructure/tooling | 1 | 24 | 1 | 1 |
 | [snapcast/snapweb](https://github.com/snapcast/snapweb) | 142 | 2025-12-15T14:34:28Z | TypeScript | CLI | 4 | 26 | 4 | 4 |
 | [antfu-collective/eslint-vitest-rule-tester](https://github.com/antfu-collective/eslint-vitest-rule-tester) | 139 | 2026-02-07T01:02:56Z | TypeScript | Infrastructure/tooling | 1 | 22 | 1 | 1 |
 | [SassNinja/postcss-extract-media-query](https://github.com/SassNinja/postcss-extract-media-query) | 139 | 2026-01-21T23:40:03Z | TypeScript | Infrastructure/tooling | 0 | 16 | 0 | 0 |

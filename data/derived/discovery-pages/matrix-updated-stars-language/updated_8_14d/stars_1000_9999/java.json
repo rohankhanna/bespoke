@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 125,
-    "concepts": 149,
-    "observations": 149,
-    "repos": 14,
-    "terms": 149
+    "components": 60,
+    "concepts": 59,
+    "observations": 59,
+    "repos": 6,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "apache/iceberg",
-    "apache/ignite",
-    "apache/phoenix",
     "apache/tomcat",
-    "cloudfoundry/uaa",
-    "dropwizard/dropwizard",
-    "JetBrains/JetBrainsRuntime",
     "mapsforge/mapsforge",
-    "moyangzhan/langchain4j-aideepin",
-    "smithy-lang/smithy",
     "sqlancer/sqlancer",
-    "testng-team/testng",
     "unicode-org/cldr",
     "validator/validator"
   ]

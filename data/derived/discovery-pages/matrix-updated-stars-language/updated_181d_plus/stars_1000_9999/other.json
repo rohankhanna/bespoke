@@ -3,7 +3,7 @@
     "components": 1252,
     "concepts": 1512,
     "observations": 1514,
-    "repos": 410,
+    "repos": 411,
     "terms": 1502
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -111,6 +111,7 @@
     "edwardtufte/tufte-css",
     "efemkay/obsidian-modular-css-layout",
     "eladrich/pixel2style2pixel",
+    "EleutherAI/pythia",
     "elzr/vim-json",
     "emacs-evil/evil",
     "emk/rust-musl-builder",

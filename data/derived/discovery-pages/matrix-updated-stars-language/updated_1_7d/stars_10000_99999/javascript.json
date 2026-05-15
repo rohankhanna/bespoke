@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 3,
-    "terms": 18
+    "components": 119,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 4,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "foliojs/pdfkit",
     "lint-staged/lint-staged",
-    "nwjs/nw.js"
+    "nwjs/nw.js",
+    "preactjs/preact"
   ]
 }

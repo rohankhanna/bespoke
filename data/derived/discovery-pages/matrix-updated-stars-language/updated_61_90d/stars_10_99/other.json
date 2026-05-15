@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 356,
-    "concepts": 235,
-    "observations": 236,
-    "repos": 77,
-    "terms": 232
+    "components": 344,
+    "concepts": 229,
+    "observations": 230,
+    "repos": 76,
+    "terms": 225
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "219-design/qt-qml-project-template-with-ci",
     "2KAbhishek/exercism.nvim",
@@ -25,7 +25,7 @@
     "andys8/git-brunch",
     "ankane/ml-stack",
     "apache/netbeans-antora-site",
-    "asg017/sqlite-hello",
+    "apache/pdfbox-docs",
     "avelino/monotropic-theme-vscode",
     "babashka/sci.configs",
     "benomahony/oil-git.nvim",
@@ -35,7 +35,6 @@
     "camertron/garnet-js",
     "clearml/clearml-helm-charts",
     "clojure/tools.deps",
-    "co-IT/CSharpFunctionalExtensions.HttpResults",
     "codymikol/neotest-kotlin",
     "dbuenzli/logs",
     "devise-i18n/devise-i18n",
@@ -44,7 +43,6 @@
     "dwyl/cid",
     "dwyl/content",
     "dwyl/learn-payment-processing",
-    "eddelbuettel/tinythemes",
     "Embarcadero/Lightweight-Python-Wrappers",
     "Embarcadero/PythonPackages4Delphi",
     "flycheck/flycheck-eglot",
@@ -86,6 +84,7 @@
     "rust-lang/crates-build-env",
     "SchwarzIT/spectral-intellij-plugin",
     "spring-ai-alibaba/website",
+    "SqrtMinusOne/eshell-atuin",
     "standardrb/lint_roller",
     "tarsius/llama",
     "timo/json_fast",

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 22
-- terms: 125
-- components: 425
-- concepts: 126
-- observations: 126
+- repos: 21
+- terms: 117
+- components: 410
+- concepts: 118
+- observations: 118
 
 ## Static behavior
 
@@ -47,7 +47,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [breejs/bree](https://github.com/breejs/bree) | 3285 | 2026-02-17T22:09:07Z | JavaScript | Infrastructure/tooling | 15 | 34 | 15 | 15 |
 | [casparwylie/cascii-core](https://github.com/casparwylie/cascii-core) | 1170 | 2026-02-17T21:01:02Z | JavaScript | Unknown | 4 | 0 | 4 | 4 |
 | [huggingface/transformers.js-examples](https://github.com/huggingface/transformers.js-examples) | 2031 | 2026-02-17T18:29:44Z | JavaScript | Unknown | 2 | 3 | 2 | 2 |
-| [typicode/mistcss](https://github.com/typicode/mistcss) | 1616 | 2026-02-13T11:39:35Z | JavaScript | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -68,7 +67,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [svg-sprite/svg-sprite](https://github.com/svg-sprite/svg-sprite) | 1986 | 2026-02-28T02:34:44Z | JavaScript | Infrastructure/tooling | 9 | 36 | 9 | 9 |
 | [sindresorhus/clipboardy](https://github.com/sindresorhus/clipboardy) | 1972 | 2026-02-24T16:06:39Z | JavaScript | CLI | 0 | 10 | 0 | 0 |
 | [Adobe-CEP/CEP-Resources](https://github.com/Adobe-CEP/CEP-Resources) | 1818 | 2026-02-20T20:59:34Z | JavaScript | Docs/knowledge | 4 | 0 | 4 | 4 |
-| [typicode/mistcss](https://github.com/typicode/mistcss) | 1616 | 2026-02-13T11:39:35Z | JavaScript | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 | [commonmark/commonmark.js](https://github.com/commonmark/commonmark.js) | 1554 | 2026-03-01T10:10:09Z | JavaScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [anandthakker/doiuse](https://github.com/anandthakker/doiuse) | 1304 | 2026-03-10T23:46:29Z | JavaScript | Infrastructure/tooling | 2 | 33 | 2 | 2 |
 | [mrsteele/dotenv-webpack](https://github.com/mrsteele/dotenv-webpack) | 1298 | 2026-03-07T23:31:17Z | JavaScript | Infrastructure/tooling | 8 | 12 | 8 | 8 |

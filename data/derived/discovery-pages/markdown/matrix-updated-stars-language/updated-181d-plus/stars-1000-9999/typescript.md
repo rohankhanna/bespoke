@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 93
-- terms: 456
-- components: 2667
+- repos: 95
+- terms: 461
+- components: 2708
 - concepts: 452
 - observations: 452
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [google-github-actions/auth](https://github.com/google-github-actions/auth) | 1300 | 2025-11-15T11:18:16Z | TypeScript | Infrastructure/tooling | 5 | 24 | 0 | 0 |
+| [MarshallOfSound/electron-devtools-installer](https://github.com/MarshallOfSound/electron-devtools-installer) | 1216 | 2025-11-15T10:37:04Z | TypeScript | Unknown | 0 | 17 | 0 | 0 |
 | [jupyter-widgets/ipywidgets](https://github.com/jupyter-widgets/ipywidgets) | 3308 | 2025-11-07T22:04:05Z | TypeScript | Infrastructure/tooling | 9 | 23 | 9 | 9 |
 | [eleme/morjs](https://github.com/eleme/morjs) | 2095 | 2025-11-06T09:38:31Z | TypeScript | Infrastructure/tooling | 2 | 33 | 2 | 2 |
 | [piotrostr/listen](https://github.com/piotrostr/listen) | 1085 | 2025-11-05T00:31:15Z | TypeScript | Infrastructure/tooling | 5 | 3 | 5 | 5 |
@@ -33,7 +35,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tremorlabs/tremor](https://github.com/tremorlabs/tremor) | 3382 | 2025-10-10T13:08:24Z | TypeScript | Infrastructure/tooling | 6 | 64 | 6 | 6 |
 | [vuejs/vue-class-component](https://github.com/vuejs/vue-class-component) | 5769 | 2025-10-03T22:24:43Z | TypeScript | Unknown | 0 | 33 | 0 | 0 |
 | [graphql/graphql-relay-js](https://github.com/graphql/graphql-relay-js) | 1543 | 2025-10-02T15:13:55Z | TypeScript | Infrastructure/tooling | 2 | 27 | 2 | 2 |
-| [eastlondoner/vibe-tools](https://github.com/eastlondoner/vibe-tools) | 4764 | 2025-08-25T10:10:43Z | TypeScript | Unknown | 0 | 32 | 0 | 0 |
+| [eastlondoner/vibe-tools](https://github.com/eastlondoner/vibe-tools) | 4766 | 2025-08-25T10:10:43Z | TypeScript | Unknown | 0 | 32 | 0 | 0 |
 | [pieroxy/lz-string](https://github.com/pieroxy/lz-string) | 4407 | 2025-08-11T20:23:21Z | TypeScript | Infrastructure/tooling | 0 | 29 | 0 | 0 |
 | [tsdjs/tsd](https://github.com/tsdjs/tsd) | 2552 | 2025-08-05T11:56:46Z | TypeScript | Infrastructure/tooling | 0 | 25 | 0 | 0 |
 | [twibiral/obsidian-execute-code](https://github.com/twibiral/obsidian-execute-code) | 1493 | 2025-08-02T15:54:26Z | TypeScript | Unknown | 5 | 14 | 5 | 5 |
@@ -96,7 +98,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [typings/typings](https://github.com/typings/typings) | 3365 | 2024-01-05T06:14:27Z | TypeScript | Unknown | 4 | 22 | 4 | 4 |
 | [expo/expo-cli](https://github.com/expo/expo-cli) | 2663 | 2023-12-30T13:33:59Z | TypeScript | CLI | 9 | 28 | 9 | 9 |
 | [dilanx/craco](https://github.com/dilanx/craco) | 7437 | 2023-12-29T01:00:10Z | TypeScript | Infrastructure/tooling | 7 | 13 | 7 | 7 |
-| [anse-app/chatgpt-demo](https://github.com/anse-app/chatgpt-demo) | 7975 | 2023-12-27T01:44:01Z | TypeScript | Infrastructure/tooling | 10 | 37 | 10 | 10 |
+| [anse-app/chatgpt-demo](https://github.com/anse-app/chatgpt-demo) | 7974 | 2023-12-27T01:44:01Z | TypeScript | Infrastructure/tooling | 10 | 37 | 10 | 10 |
 | [microsoft/dts-gen](https://github.com/microsoft/dts-gen) | 2427 | 2023-12-15T20:02:03Z | TypeScript | Library | 0 | 15 | 0 | 0 |
 | [improbable-eng/grpc-web](https://github.com/improbable-eng/grpc-web) | 4474 | 2023-09-23T08:13:21Z | TypeScript | Web app | 4 | 4 | 4 | 4 |
 | [fjc0k/docker-YApi](https://github.com/fjc0k/docker-YApi) | 1142 | 2023-08-16T08:49:49Z | TypeScript | Infrastructure/tooling | 11 | 9 | 11 | 11 |
@@ -124,7 +126,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [anse-app/chatgpt-demo](https://github.com/anse-app/chatgpt-demo) | 7975 | 2023-12-27T01:44:01Z | TypeScript | Infrastructure/tooling | 10 | 37 | 10 | 10 |
+| [anse-app/chatgpt-demo](https://github.com/anse-app/chatgpt-demo) | 7974 | 2023-12-27T01:44:01Z | TypeScript | Infrastructure/tooling | 10 | 37 | 10 | 10 |
 | [dilanx/craco](https://github.com/dilanx/craco) | 7437 | 2023-12-29T01:00:10Z | TypeScript | Infrastructure/tooling | 7 | 13 | 7 | 7 |
 | [sindresorhus/modern-normalize](https://github.com/sindresorhus/modern-normalize) | 7308 | 2025-01-11T10:10:45Z | TypeScript | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [ianstormtaylor/superstruct](https://github.com/ianstormtaylor/superstruct) | 7147 | 2024-10-01T02:42:53Z | TypeScript | Infrastructure/tooling | 6 | 17 | 6 | 6 |
@@ -142,7 +144,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vuejs/vue-loader](https://github.com/vuejs/vue-loader) | 4976 | 2024-08-07T07:28:11Z | TypeScript | Infrastructure/tooling | 3 | 52 | 3 | 3 |
 | [electron-vite/electron-vite-vue](https://github.com/electron-vite/electron-vite-vue) | 4858 | 2024-07-25T05:50:36Z | TypeScript | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [haishanh/yacd](https://github.com/haishanh/yacd) | 4796 | 2024-02-08T19:21:29Z | TypeScript | Infrastructure/tooling | 1 | 84 | 1 | 1 |
-| [eastlondoner/vibe-tools](https://github.com/eastlondoner/vibe-tools) | 4764 | 2025-08-25T10:10:43Z | TypeScript | Unknown | 0 | 32 | 0 | 0 |
+| [eastlondoner/vibe-tools](https://github.com/eastlondoner/vibe-tools) | 4766 | 2025-08-25T10:10:43Z | TypeScript | Unknown | 0 | 32 | 0 | 0 |
 | [FormidableLabs/react-live](https://github.com/FormidableLabs/react-live) | 4609 | 2025-01-09T17:09:58Z | TypeScript | Infrastructure/tooling | 5 | 15 | 5 | 5 |
 | [improbable-eng/grpc-web](https://github.com/improbable-eng/grpc-web) | 4474 | 2023-09-23T08:13:21Z | TypeScript | Web app | 4 | 4 | 4 | 4 |
 | [pieroxy/lz-string](https://github.com/pieroxy/lz-string) | 4407 | 2025-08-11T20:23:21Z | TypeScript | Infrastructure/tooling | 0 | 29 | 0 | 0 |
@@ -203,8 +205,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hans/obsidian-citation-plugin](https://github.com/hans/obsidian-citation-plugin) | 1317 | 2024-06-13T07:50:22Z | TypeScript | Infrastructure/tooling | 1 | 32 | 1 | 1 |
 | [Uniswap/v3-periphery](https://github.com/Uniswap/v3-periphery) | 1316 | 2024-08-04T19:54:49Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
 | [liamcain/obsidian-periodic-notes](https://github.com/liamcain/obsidian-periodic-notes) | 1305 | 2024-08-23T22:56:22Z | TypeScript | Infrastructure/tooling | 3 | 28 | 3 | 3 |
+| [google-github-actions/auth](https://github.com/google-github-actions/auth) | 1300 | 2025-11-15T11:18:16Z | TypeScript | Infrastructure/tooling | 5 | 24 | 0 | 0 |
 | [redis/redis-om-node](https://github.com/redis/redis-om-node) | 1253 | 2025-04-09T13:20:58Z | TypeScript | Infrastructure/tooling | 1 | 16 | 1 | 1 |
 | [opendatalab/LabelLLM](https://github.com/opendatalab/LabelLLM) | 1218 | 2025-02-19T01:41:46Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
+| [MarshallOfSound/electron-devtools-installer](https://github.com/MarshallOfSound/electron-devtools-installer) | 1216 | 2025-11-15T10:37:04Z | TypeScript | Unknown | 0 | 17 | 0 | 0 |
 | [sandersn/mini-typescript](https://github.com/sandersn/mini-typescript) | 1201 | 2024-08-17T03:21:18Z | TypeScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [bokub/gradient-string](https://github.com/bokub/gradient-string) | 1192 | 2024-10-12T08:36:03Z | TypeScript | CLI | 5 | 12 | 5 | 5 |
 | [benjamn/ast-types](https://github.com/benjamn/ast-types) | 1172 | 2024-06-12T20:52:04Z | TypeScript | Infrastructure/tooling | 0 | 19 | 0 | 0 |

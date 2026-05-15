@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 385,
-    "concepts": 303,
-    "observations": 310,
-    "repos": 60,
-    "terms": 301
+    "components": 404,
+    "concepts": 312,
+    "observations": 319,
+    "repos": 61,
+    "terms": 310
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "aome510/spotify-player",
     "arxanas/git-branchless",
@@ -25,11 +25,11 @@
     "crossterm-rs/crossterm",
     "David-OConnor/pyflow",
     "dtolnay/anyhow",
-    "dtolnay/proc-macro-workshop",
     "dtolnay/quote",
     "dtolnay/thiserror",
     "emilk/eframe_template",
     "enigo-rs/enigo",
+    "EricLBuehler/mistral.rs",
     "extism/extism",
     "eyre-rs/eyre",
     "ggez/ggez",
@@ -37,6 +37,7 @@
     "google/tarpc",
     "GuillaumeGomez/sysinfo",
     "gyscos/cursive",
+    "hyperium/h2",
     "hyperium/http",
     "hyperledger-solang/solang",
     "jonhoo/inferno",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9266,
-    "concepts": 11018,
-    "observations": 11044,
-    "repos": 2285,
-    "terms": 10927
+    "components": 9286,
+    "concepts": 11045,
+    "observations": 11071,
+    "repos": 2290,
+    "terms": 10952
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0xPolygonHermez/pil2-proofman",
@@ -396,6 +396,7 @@
     "CEED/libCEED",
     "celikin/llama2.c-android-wrapper",
     "celluloid-player/celluloid",
+    "celtera/libremidi",
     "ceres-solver/ceres-solver",
     "CGCL-codes/YiTu",
     "chanzuckerberg/shasta",
@@ -503,6 +504,7 @@
     "CROSS-signature/CROSS-lib-oqs",
     "crossbario/autobahn-cpp",
     "CrowCpp/Crow",
+    "crvs/KDTree",
     "cryspen/hacl-packages",
     "CrystallineCore/Biscuit",
     "csnewman/flutter-go-bridge",
@@ -583,6 +585,7 @@
     "dfki-ric/pclomp",
     "dgl/re-engine-RE2",
     "diffblue/cbmc",
+    "diffscope/diffscope-project",
     "digitalocean/prometheus-client-c",
     "DiligentGraphics/args",
     "DiligentGraphics/DiligentCore",
@@ -1802,6 +1805,8 @@
     "pramsey/pgsql-http",
     "prashnts/pybloomfiltermmap3",
     "PRBonn/kiss-icp",
+    "PriesiaMioShirakana/DragonianLib",
+    "PriesiaMioShirakana/DragonianVoice",
     "princeton-vl/DPVO",
     "probonopd/static-tools",
     "progschj/ThreadPool",

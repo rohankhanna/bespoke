@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 710,
-    "concepts": 227,
-    "observations": 227,
-    "repos": 58,
-    "terms": 220
+    "components": 760,
+    "concepts": 243,
+    "observations": 243,
+    "repos": 60,
+    "terms": 236
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "AdguardTeam/CodeGuidelines",
@@ -21,6 +21,7 @@
     "appwrite/playground-for-node",
     "Azure/azure-api-style-guide",
     "berty/www.berty.tech",
+    "bmad-code-org/bmad-module-creative-intelligence-suite",
     "brody2consult/react-native-module-init",
     "C-Lodder/grunt-postcss",
     "coderaiser/supertape",
@@ -66,6 +67,7 @@
     "nrwl/nx-ai-agents-config",
     "reZach/i18next-electron-fs-backend",
     "reZach/secure-electron-context-menu",
+    "scaleway/serverless-scaleway-functions",
     "storybook-community/addon-queryparams",
     "sveltejs/eslint-config",
     "tc39/proposal-immutable-arraybuffer",

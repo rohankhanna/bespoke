@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars · Python
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
+- repos: 1
 - terms: 6
 - components: 9
 - concepts: 6
@@ -26,12 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 82 | 2026-05-13T23:49:50Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
-| [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-05-13T09:44:10Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 82 | 2026-05-14T19:32:59Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 82 | 2026-05-13T23:49:50Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
-| [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-05-13T09:44:10Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 82 | 2026-05-14T19:32:59Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |

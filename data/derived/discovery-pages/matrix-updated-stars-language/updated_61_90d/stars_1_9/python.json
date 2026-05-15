@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 65,
-    "observations": 65,
-    "repos": 21,
-    "terms": 65
+    "components": 61,
+    "concepts": 66,
+    "observations": 66,
+    "repos": 23,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "agents-x-project/PyVision-RL-Eval",
     "al1-nasir/Research_council",
@@ -21,10 +21,12 @@
     "alexpolonsky/agent-skill-ontopo",
     "ansible-community/collection_bot",
     "babakatwork/loopy_agent",
+    "BioContainers/singularity-build-bot",
     "chaoss/grimoirelab-perceval-mozilla",
     "chaoss/grimoirelab-perceval-opnfv",
     "chaoss/grimoirelab-perceval-puppet",
     "chaoss/grimoirelab-perceval-weblate",
+    "cognizant-ai-lab/neuro-san-cc",
     "day50-dev/mcp-search-and-run",
     "flagos-ai/vllm-FL",
     "flinedev/recall",

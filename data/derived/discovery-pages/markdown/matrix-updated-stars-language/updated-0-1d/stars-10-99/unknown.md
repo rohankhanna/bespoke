@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars · Unknown
 
-Generated at: `2026-05-04T11:50:57.944186+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 1
-- terms: 8
-- components: 0
-- concepts: 8
-- observations: 8
+- terms: 0
+- components: 2
+- concepts: 0
+- observations: 0
 
 ## Static behavior
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [sakib-m/Pi-hole-Torrent-Blocklist](https://github.com/sakib-m/Pi-hole-Torrent-Blocklist) | 40 | 2026-05-04T02:00:09Z | Unknown | Unknown | 8 | 0 | 8 | 8 |
+| [RiDDiX/home-assistant-addons](https://github.com/RiDDiX/home-assistant-addons) | 93 | 2026-05-14T16:09:01Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [sakib-m/Pi-hole-Torrent-Blocklist](https://github.com/sakib-m/Pi-hole-Torrent-Blocklist) | 40 | 2026-05-04T02:00:09Z | Unknown | Unknown | 8 | 0 | 8 | 8 |
+| [RiDDiX/home-assistant-addons](https://github.com/RiDDiX/home-assistant-addons) | 93 | 2026-05-14T16:09:01Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |

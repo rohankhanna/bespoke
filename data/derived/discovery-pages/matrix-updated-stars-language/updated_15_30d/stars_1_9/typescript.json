@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 809,
-    "concepts": 148,
-    "observations": 148,
-    "repos": 38,
-    "terms": 157
+    "components": 920,
+    "concepts": 185,
+    "observations": 185,
+    "repos": 41,
+    "terms": 194
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,20 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "8hobbies/vite-plugin-year",
     "analyticsinmotion/wake-word",
+    "anolilab/unplugin-favicons",
     "birdofpreyru/react-starter",
     "birdofpreyru/react-utils",
     "breferrari/shardmind",
     "celo-org/SocialConnect-Twitter",
     "celo-org/SocialConnect-Twitter-Server-Side",
+    "csm-actions/update-branch-action",
     "dreamiurg/mountaineers-mcp",
     "dreamscached/i18next-cli-plugin-svelte",
+    "dydxprotocol/v4-localization",
     "ecyrbe/zodios-plugins",
     "enxs969/skiller",
     "filecoin-project/github-mgmt",

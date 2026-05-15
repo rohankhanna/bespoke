@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 171,
-    "concepts": 215,
-    "observations": 217,
-    "repos": 31,
-    "terms": 210
+    "components": 179,
+    "concepts": 240,
+    "observations": 242,
+    "repos": 32,
+    "terms": 234
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "adambard/learnxinyminutes-docs",
     "AppFlowy-IO/AppFlowy",
+    "cmderdev/cmder",
     "Cysharp/UniTask",
-    "datawhalechina/happy-llm",
     "devicons/devicon",
     "facebookresearch/dinov2",
     "facebookresearch/dinov3",
@@ -37,6 +37,7 @@
     "microsoft/language-server-protocol",
     "microsoft/OmniParser",
     "mikepenz/MaterialDrawer",
+    "nikitabobko/AeroSpace",
     "nvim-treesitter/nvim-treesitter",
     "openai/CLIP",
     "reasonml/reason",

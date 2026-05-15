@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 773,
-    "concepts": 743,
-    "observations": 744,
-    "repos": 189,
-    "terms": 737
+    "components": 763,
+    "concepts": 736,
+    "observations": 737,
+    "repos": 190,
+    "terms": 730
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -35,6 +35,7 @@
     "Azure-Samples/azure-openai-rag-workshop",
     "Azure-Samples/contoso-creative-writer",
     "Azure/aca-landing-zone-accelerator",
+    "Azure/arm-ttk",
     "Azure/reliable-web-app-pattern-dotnet",
     "Azure/template-analyzer",
     "babashka/scittle",
@@ -64,13 +65,13 @@
     "codeyu/nanoid-net",
     "coin-or/CyLP",
     "com-lihaoyi/cask",
+    "com-lihaoyi/utest",
     "countries/country_select",
     "cross-rs/cross-toolchains",
     "CVEProject/cve-schema",
     "cyberark/conjur",
     "declare-lab/TangoFlux",
     "Deep-Symmetry/afterglow",
-    "Deep-Symmetry/beat-link-trigger",
     "detekt/detekt-intellij-plugin",
     "DL3DV-10K/Dataset",
     "dominicletz/websockex",
@@ -91,7 +92,6 @@
     "excubo-ag/WebCompiler",
     "fdschmidt93/telescope-egrepify.nvim",
     "FiloSottile/homebrew-musl-cross",
-    "flosse/sloc",
     "FluxML/MLJFlux.jl",
     "funcool/promesa",
     "gfredericks/test.chuck",
@@ -182,6 +182,7 @@
     "tc39/proposal-decimal",
     "Tencent-Hunyuan/flex-block-attn",
     "terraform-aws-modules/terraform-aws-apigateway-v2",
+    "thinca/vim-themis",
     "thinkdepthai/Deep_Research",
     "tomas-abrahamsson/gpb",
     "tomekw/hikari-cp",

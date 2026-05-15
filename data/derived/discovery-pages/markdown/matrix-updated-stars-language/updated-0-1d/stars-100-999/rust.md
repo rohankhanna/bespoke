@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Rust
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 3
-- terms: 11
-- components: 17
-- concepts: 11
-- observations: 11
+- terms: 9
+- components: 33
+- concepts: 9
+- observations: 9
 
 ## Static behavior
 
@@ -26,14 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [servo/stylo](https://github.com/servo/stylo) | 276 | 2026-05-14T07:05:19Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 450 | 2026-05-14T03:38:42Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 4 |
-| [nushell/reedline](https://github.com/nushell/reedline) | 768 | 2026-05-13T12:16:46Z | Rust | Infrastructure/tooling | 5 | 5 | 5 | 5 |
+| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 450 | 2026-05-15T07:30:16Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [alloy-rs/svm-rs](https://github.com/alloy-rs/svm-rs) | 284 | 2026-05-14T14:45:45Z | Rust | Infrastructure/tooling | 3 | 21 | 3 | 3 |
+| [servo/stylo](https://github.com/servo/stylo) | 276 | 2026-05-14T13:45:11Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [nushell/reedline](https://github.com/nushell/reedline) | 768 | 2026-05-13T12:16:46Z | Rust | Infrastructure/tooling | 5 | 5 | 5 | 5 |
-| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 450 | 2026-05-14T03:38:42Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 4 |
-| [servo/stylo](https://github.com/servo/stylo) | 276 | 2026-05-14T07:05:19Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 450 | 2026-05-15T07:30:16Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [alloy-rs/svm-rs](https://github.com/alloy-rs/svm-rs) | 284 | 2026-05-14T14:45:45Z | Rust | Infrastructure/tooling | 3 | 21 | 3 | 3 |
+| [servo/stylo](https://github.com/servo/stylo) | 276 | 2026-05-14T13:45:11Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |

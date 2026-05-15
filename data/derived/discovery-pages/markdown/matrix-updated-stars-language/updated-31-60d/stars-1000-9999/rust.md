@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 60
-- terms: 301
-- components: 385
-- concepts: 303
-- observations: 310
+- repos: 61
+- terms: 310
+- components: 404
+- concepts: 312
+- observations: 319
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [EricLBuehler/mistral.rs](https://github.com/EricLBuehler/mistral.rs) | 7085 | 2026-04-15T00:54:49Z | Rust | Infrastructure/tooling | 6 | 17 | 6 | 6 |
+| [hyperium/h2](https://github.com/hyperium/h2) | 1509 | 2026-04-14T15:50:02Z | Rust | CLI | 3 | 6 | 3 | 3 |
 | [snapview/tungstenite-rs](https://github.com/snapview/tungstenite-rs) | 2338 | 2026-04-14T08:52:33Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [rust-lang/log](https://github.com/rust-lang/log) | 2507 | 2026-04-14T06:36:04Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [bytedance/monoio](https://github.com/bytedance/monoio) | 4952 | 2026-04-14T02:55:45Z | Rust | Infrastructure/tooling | 3 | 7 | 3 | 3 |
@@ -85,13 +87,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [David-OConnor/pyflow](https://github.com/David-OConnor/pyflow) | 1337 | 2026-03-21T20:37:57Z | Rust | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [tauri-apps/cargo-mobile2](https://github.com/tauri-apps/cargo-mobile2) | 1827 | 2026-03-19T10:07:22Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [google/argh](https://github.com/google/argh) | 1906 | 2026-03-16T21:41:11Z | Rust | Infrastructure/tooling | 8 | 2 | 8 | 9 |
-| [dtolnay/proc-macro-workshop](https://github.com/dtolnay/proc-macro-workshop) | 4792 | 2026-03-16T04:27:05Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [spacejam/sled](https://github.com/spacejam/sled) | 8975 | 2026-04-04T14:52:13Z | Rust | Infrastructure/tooling | 16 | 5 | 16 | 17 |
+| [EricLBuehler/mistral.rs](https://github.com/EricLBuehler/mistral.rs) | 7085 | 2026-04-15T00:54:49Z | Rust | Infrastructure/tooling | 6 | 17 | 6 | 6 |
 | [aome510/spotify-player](https://github.com/aome510/spotify-player) | 6618 | 2026-04-10T13:53:16Z | Rust | CLI | 11 | 12 | 11 | 11 |
 | [dtolnay/anyhow](https://github.com/dtolnay/anyhow) | 6489 | 2026-03-24T02:44:34Z | Rust | Infrastructure/tooling | 0 | 9 | 0 | 0 |
 | [sharkdp/pastel](https://github.com/sharkdp/pastel) | 6341 | 2026-04-01T02:05:48Z | Rust | CLI | 8 | 7 | 8 | 8 |
@@ -106,7 +108,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [LaurentMazare/tch-rs](https://github.com/LaurentMazare/tch-rs) | 5367 | 2026-03-26T13:24:41Z | Rust | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [bytedance/monoio](https://github.com/bytedance/monoio) | 4952 | 2026-04-14T02:55:45Z | Rust | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [smol-rs/smol](https://github.com/smol-rs/smol) | 4849 | 2026-03-23T14:46:03Z | Rust | Infrastructure/tooling | 7 | 6 | 7 | 7 |
-| [dtolnay/proc-macro-workshop](https://github.com/dtolnay/proc-macro-workshop) | 4792 | 2026-03-16T04:27:05Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [gyscos/cursive](https://github.com/gyscos/cursive) | 4783 | 2026-03-25T02:11:00Z | Rust | CLI | 3 | 1 | 3 | 4 |
 | [tauri-apps/wry](https://github.com/tauri-apps/wry) | 4756 | 2026-04-10T16:09:38Z | Rust | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [ggez/ggez](https://github.com/ggez/ggez) | 4619 | 2026-04-03T10:08:20Z | Rust | Infrastructure/tooling | 8 | 3 | 8 | 8 |
@@ -141,6 +142,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [la10736/rstest](https://github.com/la10736/rstest) | 1552 | 2026-03-26T09:55:13Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [dtolnay/quote](https://github.com/dtolnay/quote) | 1537 | 2026-03-25T06:01:55Z | Rust | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [nabijaczleweli/cargo-update](https://github.com/nabijaczleweli/cargo-update) | 1513 | 2026-04-06T14:46:16Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [hyperium/h2](https://github.com/hyperium/h2) | 1509 | 2026-04-14T15:50:02Z | Rust | CLI | 3 | 6 | 3 | 3 |
 | [hyperledger-solang/solang](https://github.com/hyperledger-solang/solang) | 1376 | 2026-04-03T13:07:23Z | Rust | Infrastructure/tooling | 14 | 12 | 14 | 14 |
 | [David-OConnor/pyflow](https://github.com/David-OConnor/pyflow) | 1337 | 2026-03-21T20:37:57Z | Rust | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [hyperium/http](https://github.com/hyperium/http) | 1325 | 2026-04-03T20:06:34Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |

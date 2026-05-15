@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 2,
-    "terms": 14
+    "components": 69,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 3,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "ipdxco/github-as-code",
-    "nuxt-modules/emotion"
+    "ogx-ai/ogx-client-typescript",
+    "TrigenSoftware/simple-release"
   ]
 }

@@ -3,7 +3,7 @@
     "components": 193,
     "concepts": 138,
     "observations": 141,
-    "repos": 51,
+    "repos": 52,
     "terms": 136
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "acw/simple_asn1",
@@ -45,6 +45,7 @@
     "informalsystems/quint-trace-explorer",
     "jakudlaty/tsid",
     "jean-pierreBoth/probminhash",
+    "jonas-k/coremidi-sys",
     "joseluisq/paket",
     "lindera/lindera-tantivy",
     "linebender/simplecss",

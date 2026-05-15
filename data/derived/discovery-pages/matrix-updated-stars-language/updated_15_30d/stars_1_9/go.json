@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 124,
-    "concepts": 69,
-    "observations": 69,
-    "repos": 27,
-    "terms": 69
+    "components": 134,
+    "concepts": 78,
+    "observations": 78,
+    "repos": 28,
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "1mb-dev/natcheck",
     "abhinav/goldmark-hashtag",
     "abraxas-365/claudio",
-    "aldernero/gaul",
     "anexia/k8s-external-dns-webhook",
     "bitrise-io/bitrise-plugins-step",
     "cgrindel/swift_gazelle_plugin",
@@ -31,8 +30,10 @@
     "k8nstantin/openpraxis",
     "kitknox/tsshd",
     "ksylvan/fabric",
+    "linode/karpenter-provider-linode",
     "petmal/mindtrial",
     "probe-lab/tiros",
+    "Seedloaf/mc-router-discovery",
     "serpro69/capy",
     "transparency-dev/armored-witness-applet",
     "transparency-dev/armored-witness-boot",

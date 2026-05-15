@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 27,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 2,
-    "terms": 19
+    "components": 49,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 3,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "aws-cloudformation/cfn-lint-visual-studio-code",
-    "digitalocean/openapi"
+    "digitalocean/openapi",
+    "GDevelopApp/GDevelop-extensions"
   ]
 }

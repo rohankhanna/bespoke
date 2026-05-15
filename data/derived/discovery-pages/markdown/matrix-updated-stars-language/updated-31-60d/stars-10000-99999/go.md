@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 17
-- terms: 171
-- components: 154
-- concepts: 177
-- observations: 177
+- repos: 18
+- terms: 175
+- components: 162
+- concepts: 181
+- observations: 181
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ent/ent](https://github.com/ent/ent) | 17036 | 2026-04-14T14:59:08Z | Go | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [ory/hydra](https://github.com/ory/hydra) | 17106 | 2026-04-14T07:13:13Z | Go | Infrastructure/tooling | 26 | 36 | 26 | 26 |
 | [hibiken/asynq](https://github.com/hibiken/asynq) | 13170 | 2026-04-13T23:45:25Z | Go | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [shadow1ng/fscan](https://github.com/shadow1ng/fscan) | 13624 | 2026-04-13T22:09:39Z | Go | CLI | 5 | 5 | 5 | 5 |
@@ -58,6 +59,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kubernetes/ingress-nginx](https://github.com/kubernetes/ingress-nginx) | 19497 | 2026-03-23T16:16:29Z | Go | Infrastructure/tooling | 10 | 17 | 10 | 10 |
 | [charmbracelet/vhs](https://github.com/charmbracelet/vhs) | 19465 | 2026-04-13T09:14:30Z | Go | CLI | 11 | 7 | 11 | 11 |
 | [ory/hydra](https://github.com/ory/hydra) | 17106 | 2026-04-14T07:13:13Z | Go | Infrastructure/tooling | 26 | 36 | 26 | 26 |
+| [ent/ent](https://github.com/ent/ent) | 17036 | 2026-04-14T14:59:08Z | Go | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [direnv/direnv](https://github.com/direnv/direnv) | 14989 | 2026-03-31T18:52:06Z | Go | Infrastructure/tooling | 9 | 9 | 12 | 12 |
 | [panjf2000/ants](https://github.com/panjf2000/ants) | 14405 | 2026-04-01T00:40:56Z | Go | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [shadow1ng/fscan](https://github.com/shadow1ng/fscan) | 13624 | 2026-04-13T22:09:39Z | Go | CLI | 5 | 5 | 5 | 5 |

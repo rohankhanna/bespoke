@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
+- repos: 5
 - terms: 11
 - components: 40
 - concepts: 11
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-05-13T09:44:10Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [version-fox/vfox-plugins](https://github.com/version-fox/vfox-plugins) | 30 | 2026-05-12T21:10:45Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [apify/actor-templates](https://github.com/apify/actor-templates) | 54 | 2026-05-11T18:18:30Z | Python | Infrastructure/tooling | 5 | 26 | 5 | 5 |
 | [google-research/mseb](https://github.com/google-research/mseb) | 57 | 2026-05-11T15:54:03Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
@@ -38,4 +39,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google-research/mseb](https://github.com/google-research/mseb) | 57 | 2026-05-11T15:54:03Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [apify/actor-templates](https://github.com/apify/actor-templates) | 54 | 2026-05-11T18:18:30Z | Python | Infrastructure/tooling | 5 | 26 | 5 | 5 |
 | [version-fox/vfox-plugins](https://github.com/version-fox/vfox-plugins) | 30 | 2026-05-12T21:10:45Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-05-13T09:44:10Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-05-10T20:30:00Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |

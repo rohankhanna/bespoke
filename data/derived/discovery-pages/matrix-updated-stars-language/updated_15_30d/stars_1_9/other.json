@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 245,
-    "concepts": 158,
-    "observations": 158,
-    "repos": 71,
-    "terms": 158
+    "components": 264,
+    "concepts": 175,
+    "observations": 175,
+    "repos": 72,
+    "terms": 175
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "0xPolygonHermez/stark-recurser",
@@ -66,6 +66,7 @@
     "KnotUntied/scoop-fonts",
     "lahma/test262-harness-dotnet",
     "lemire/unicode_lipsum",
+    "lintnet-modules/ghalint",
     "localstack/homebrew-tap",
     "Mbed-TLS/mbedtls-test",
     "mitchuski/agentprivacy-docs",
@@ -75,9 +76,9 @@
     "php-rdkafka/php-rdkafka-doc",
     "raku-community-modules/Terminal-WCWidth",
     "rmsrosa/rmsrosa.github.io",
-    "ROCm/hipBLAS-common",
     "ros2-rust/rosidl_rust",
     "Shougo/dpp-ext-lazy",
+    "stable-haskell/cabal",
     "standardrb/standard-custom",
     "tarikmanoar/tarikmanoar",
     "Tengfei-Wang/Tengfei-Wang.github.io",

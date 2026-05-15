@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 416,
-    "concepts": 376,
-    "observations": 376,
-    "repos": 94,
-    "terms": 378
+    "components": 418,
+    "concepts": 382,
+    "observations": 382,
+    "repos": 97,
+    "terms": 384
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "4dn-dcic/tibanna",
@@ -63,8 +63,8 @@
     "hynek/argon2-cffi-bindings",
     "HyperionGray/trio-chrome-devtools-protocol",
     "iamsashank09/llm-wiki-kit",
+    "IcyFish332/T3RL",
     "idodov/RedAlert",
-    "inducer/codepy",
     "intel/ai-containers",
     "intel/vc-intrinsics",
     "ironArray/Caterva2",
@@ -79,6 +79,7 @@
     "LedgerHQ/ledgerctl",
     "libp2p/test-plans",
     "logic-star-ai/swt-bench",
+    "lucidrains/PoPE-pytorch",
     "mborgerson/bintrace",
     "mem0ai/memory-benchmarks",
     "microsoft/vscode-azurecli",
@@ -92,6 +93,8 @@
     "petercorke/ansitable",
     "philippemerle/AWS-CloudFormation-Diagrams",
     "PoseLib/posebench",
+    "psyonicinc/ability-hand-api",
+    "pyocd/libusb-package",
     "python-graphblas/graphblas-algorithms",
     "python-pillow/pillow-perf",
     "redis/redis-py-entraid",

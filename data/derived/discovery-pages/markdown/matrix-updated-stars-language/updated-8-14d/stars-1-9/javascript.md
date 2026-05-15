@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
-- terms: 126
-- components: 190
-- concepts: 127
-- observations: 127
+- repos: 9
+- terms: 132
+- components: 215
+- concepts: 133
+- observations: 134
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ioBroker/plugin-sentry](https://github.com/ioBroker/plugin-sentry) | 7 | 2026-05-08T01:12:00Z | JavaScript | Infrastructure/tooling | 6 | 25 | 6 | 7 |
 | [alphagov/stylelint-config-gds](https://github.com/alphagov/stylelint-config-gds) | 9 | 2026-05-04T04:53:06Z | JavaScript | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [stdlib-js/complex-reviver](https://github.com/stdlib-js/complex-reviver) | 1 | 2026-05-04T03:34:03Z | JavaScript | Infrastructure/tooling | 24 | 20 | 25 | 25 |
 | [stdlib-js/ndarray-fancy](https://github.com/stdlib-js/ndarray-fancy) | 2 | 2026-05-03T08:24:57Z | JavaScript | Infrastructure/tooling | 24 | 40 | 24 | 24 |
@@ -40,6 +41,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [alphagov/stylelint-config-gds](https://github.com/alphagov/stylelint-config-gds) | 9 | 2026-05-04T04:53:06Z | JavaScript | Infrastructure/tooling | 2 | 8 | 2 | 2 |
+| [ioBroker/plugin-sentry](https://github.com/ioBroker/plugin-sentry) | 7 | 2026-05-08T01:12:00Z | JavaScript | Infrastructure/tooling | 6 | 25 | 6 | 7 |
 | [angular/angular-devkit-architect-builds](https://github.com/angular/angular-devkit-architect-builds) | 4 | 2026-05-01T17:59:46Z | JavaScript | Web app | 0 | 2 | 0 | 0 |
 | [stdlib-js/math-base-special-erfcx](https://github.com/stdlib-js/math-base-special-erfcx) | 3 | 2026-05-02T03:34:08Z | JavaScript | Infrastructure/tooling | 20 | 26 | 20 | 20 |
 | [stdlib-js/ndarray-fancy](https://github.com/stdlib-js/ndarray-fancy) | 2 | 2026-05-03T08:24:57Z | JavaScript | Infrastructure/tooling | 24 | 40 | 24 | 24 |

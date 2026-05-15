@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 349,
-    "concepts": 81,
-    "observations": 82,
-    "repos": 11,
-    "terms": 81
+    "components": 264,
+    "concepts": 57,
+    "observations": 58,
+    "repos": 10,
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "blitz-js/blitz",
     "BuilderIO/mitosis",
-    "ChatGPTNextWeb/NextChat",
     "inversify/InversifyJS",
     "jaredpalmer/tsdx",
     "linsa-io/linsa",

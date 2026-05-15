@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 54
-- terms: 287
-- components: 378
-- concepts: 289
-- observations: 289
+- repos: 55
+- terms: 282
+- components: 383
+- concepts: 284
+- observations: 284
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [bernardo-bruning/ollama-copilot](https://github.com/bernardo-bruning/ollama-copilot) | 869 | 2026-04-15T01:53:44Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [jaegertracing/jaeger-idl](https://github.com/jaegertracing/jaeger-idl) | 101 | 2026-04-14T20:43:58Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [kubeflow/mpi-operator](https://github.com/kubeflow/mpi-operator) | 524 | 2026-04-14T03:16:20Z | Go | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [andybalholm/brotli](https://github.com/andybalholm/brotli) | 723 | 2026-04-13T17:17:38Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [hazelcast/hazelcast-go-client](https://github.com/hazelcast/hazelcast-go-client) | 201 | 2026-04-13T12:11:54Z | Go | CLI | 15 | 6 | 15 | 15 |
@@ -79,7 +81,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kubernetes-sigs/kubetest2](https://github.com/kubernetes-sigs/kubetest2) | 396 | 2026-03-17T14:37:41Z | Go | Framework | 1 | 0 | 1 | 1 |
 | [withastro/compiler](https://github.com/withastro/compiler) | 647 | 2026-03-16T14:49:05Z | Go | Infrastructure/tooling | 6 | 20 | 6 | 6 |
 | [opencontainers/runtime-tools](https://github.com/opencontainers/runtime-tools) | 479 | 2026-03-16T12:58:33Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |
-| [JupiterRider/purego-sdl3](https://github.com/JupiterRider/purego-sdl3) | 148 | 2026-03-15T10:47:20Z | Go | Unknown | 8 | 0 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -88,6 +89,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [adrg/xdg](https://github.com/adrg/xdg) | 983 | 2026-04-09T10:22:13Z | Go | Infrastructure/tooling | 19 | 6 | 19 | 19 |
 | [lightninglabs/neutrino](https://github.com/lightninglabs/neutrino) | 973 | 2026-04-02T22:16:32Z | Go | CLI | 6 | 4 | 6 | 6 |
 | [minio/highwayhash](https://github.com/minio/highwayhash) | 949 | 2026-03-21T05:38:40Z | Go | Infrastructure/tooling | 7 | 6 | 7 | 7 |
+| [bernardo-bruning/ollama-copilot](https://github.com/bernardo-bruning/ollama-copilot) | 869 | 2026-04-15T01:53:44Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [phuslu/log](https://github.com/phuslu/log) | 851 | 2026-04-02T17:32:05Z | Go | Infrastructure/tooling | 8 | 4 | 9 | 9 |
 | [stretchr/objx](https://github.com/stretchr/objx) | 851 | 2026-03-20T13:17:27Z | Go | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [kubernetes-sigs/cluster-proportional-autoscaler](https://github.com/kubernetes-sigs/cluster-proportional-autoscaler) | 748 | 2026-03-19T01:07:29Z | Go | Infrastructure/tooling | 2 | 2 | 2 | 2 |
@@ -129,7 +131,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google/trillian-examples](https://github.com/google/trillian-examples) | 175 | 2026-04-09T10:08:47Z | Go | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [ipfs/go-cid](https://github.com/ipfs/go-cid) | 168 | 2026-04-09T19:58:24Z | Go | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [usbarmory/GoTEE](https://github.com/usbarmory/GoTEE) | 151 | 2026-04-10T07:55:43Z | Go | Unknown | 0 | 0 | 0 | 0 |
-| [JupiterRider/purego-sdl3](https://github.com/JupiterRider/purego-sdl3) | 148 | 2026-03-15T10:47:20Z | Go | Unknown | 8 | 0 | 8 | 8 |
 | [docker-library/bashbrew](https://github.com/docker-library/bashbrew) | 142 | 2026-03-31T18:50:19Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [chromedp/chromedp-proxy](https://github.com/chromedp/chromedp-proxy) | 139 | 2026-03-21T00:41:42Z | Go | CLI | 0 | 0 | 0 | 0 |
 | [siderolabs/talos-cloud-controller-manager](https://github.com/siderolabs/talos-cloud-controller-manager) | 136 | 2026-03-30T07:37:50Z | Go | Infrastructure/tooling | 7 | 12 | 7 | 7 |
@@ -139,3 +140,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [charmbracelet/colorprofile](https://github.com/charmbracelet/colorprofile) | 116 | 2026-04-13T09:40:34Z | Go | CLI | 6 | 6 | 6 | 6 |
 | [kubernetes-sigs/hydrophone](https://github.com/kubernetes-sigs/hydrophone) | 116 | 2026-03-22T18:34:14Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [connectrpc/validate-go](https://github.com/connectrpc/validate-go) | 108 | 2026-04-07T18:05:54Z | Go | Infrastructure/tooling | 7 | 4 | 7 | 7 |
+| [jaegertracing/jaeger-idl](https://github.com/jaegertracing/jaeger-idl) | 101 | 2026-04-14T20:43:58Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |

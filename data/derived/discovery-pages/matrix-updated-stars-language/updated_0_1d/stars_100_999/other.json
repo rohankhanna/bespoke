@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 7,
-    "terms": 37
+    "components": 15,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 3,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
-    "apalache-mc/apalache",
     "appwrite/playground-for-web",
     "bazel-contrib/rules_kotlin",
-    "clj-commons/rewrite-clj",
-    "danielrosehill/Claude-Code-Projects-Index",
-    "devcontainers/devcontainers.github.io",
-    "ROCm/hipBLASLt"
+    "karafka/rdkafka-ruby"
   ]
 }

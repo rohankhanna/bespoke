@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10 to 99 stars · Unknown
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
-- terms: 27
-- components: 23
-- concepts: 27
-- observations: 27
+- repos: 7
+- terms: 25
+- components: 17
+- concepts: 25
+- observations: 25
 
 ## Static behavior
 
@@ -33,7 +33,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [NightWatcher314/zotero-pdf2zh-server](https://github.com/NightWatcher314/zotero-pdf2zh-server) | 51 | 2026-05-01T18:24:01Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [standardrb/standard-ruby-action](https://github.com/standardrb/standard-ruby-action) | 17 | 2026-05-01T12:34:53Z | Unknown | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [Ayaginu-Sue/Astalia](https://github.com/Ayaginu-Sue/Astalia) | 23 | 2026-05-01T09:53:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [filecoin-project/Allocator-Registry](https://github.com/filecoin-project/Allocator-Registry) | 13 | 2026-04-30T12:50:31Z | Unknown | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -46,4 +45,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Ayaginu-Sue/Astalia](https://github.com/Ayaginu-Sue/Astalia) | 23 | 2026-05-01T09:53:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [standardrb/standard-ruby-action](https://github.com/standardrb/standard-ruby-action) | 17 | 2026-05-01T12:34:53Z | Unknown | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [universal-ctags/ctags-nightly-build](https://github.com/universal-ctags/ctags-nightly-build) | 13 | 2026-05-04T16:11:28Z | Unknown | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [filecoin-project/Allocator-Registry](https://github.com/filecoin-project/Allocator-Registry) | 13 | 2026-04-30T12:50:31Z | Unknown | Infrastructure/tooling | 2 | 6 | 2 | 2 |

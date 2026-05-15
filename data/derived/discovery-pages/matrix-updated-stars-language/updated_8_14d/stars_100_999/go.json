@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 520,
-    "concepts": 449,
-    "observations": 450,
-    "repos": 51,
-    "terms": 447
+    "components": 383,
+    "concepts": 347,
+    "observations": 348,
+    "repos": 39,
+    "terms": 345
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "apache/iceberg-go",
-    "argoproj-labs/argocd-operator",
-    "Azure/azure-storage-azcopy",
-    "Azure/azure-storage-fuse",
     "Azure/karpenter-provider-azure",
-    "celzero/firestack",
     "charmbracelet/x",
-    "cometbft/cometbft",
-    "controlplaneio-fluxcd/flux-operator",
     "cosmos/evm",
-    "cosmos/gaia",
     "cosmos/ibc-go",
     "cosmos/interchain-security",
     "CosmWasm/wasmd",
     "dgraph-io/dgraph-benchmarks",
     "dydxprotocol/v4-chain",
-    "gofiber/contrib",
+    "energye/energy",
     "gofrs/flock",
     "gookit/cache",
     "gookit/config",
@@ -41,18 +34,14 @@
     "grafana/grafana-plugin-sdk-go",
     "helmfile/vals",
     "istio/api",
-    "istio/tools",
     "itzg/mc-router",
-    "kubernetes-sigs/lws",
     "osmosis-labs/osmosis",
     "pion/interceptor",
     "pion/rtp",
-    "pion/stun",
     "pulumi/pulumi-aws",
     "pulumi/pulumi-azure",
     "pulumi/pulumi-azure-native",
     "pulumi/pulumi-gcp",
-    "runpod/runpodctl",
     "scaleway/scaleway-cli",
     "scaleway/scaleway-sdk-go",
     "seaweedfs/seaweedfs-csi-driver",
@@ -61,9 +50,8 @@
     "sergelogvinov/proxmox-cloud-controller-manager",
     "suzuki-shunsuke/ghalint",
     "suzuki-shunsuke/ghtkn",
-    "suzuki-shunsuke/pinact",
     "sylabs/singularity",
-    "toml-lang/toml-test",
+    "yaling888/quirktiva",
     "yaml/go-yaml"
   ]
 }

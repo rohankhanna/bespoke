@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 10211,
-    "concepts": 10032,
-    "observations": 10064,
-    "repos": 1712,
-    "terms": 9984
+    "concepts": 10040,
+    "observations": 10072,
+    "repos": 1714,
+    "terms": 9992
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -89,6 +89,8 @@
     "aimerneige/miraichess",
     "aimerneige/yukichan-bot",
     "ainvaltin/nu-plugin",
+    "ainvaltin/nu_plugin_boltdb",
+    "ainvaltin/nu_plugin_plist",
     "ajayd-san/gomanagedocker",
     "ajstarks/svgo",
     "ajvb/kala",

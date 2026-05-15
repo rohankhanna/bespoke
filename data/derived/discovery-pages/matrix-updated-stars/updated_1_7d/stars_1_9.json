@@ -1,24 +1,23 @@
 {
   "counts": {
-    "components": 82,
-    "concepts": 48,
-    "observations": 49,
-    "repos": 9,
-    "terms": 48
+    "components": 87,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 8,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "Aayushm24/presidential-briefing",
     "cloudfoundry/credhub-acceptance-tests",
     "energye/designer",
-    "energye/examples",
-    "ioBroker/plugin-sentry",
     "leleliu008/ppkg-formula-repository-official-core",
+    "Luligu/matterbridge-eve-energy",
     "Luligu/matterbridge-somfy-tahoma",
     "nafg/jewish-date",
     "oscard0m/ts-transformer-remove-named-export"

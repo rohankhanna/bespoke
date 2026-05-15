@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 135,
-    "concepts": 217,
-    "observations": 218,
-    "repos": 44,
-    "terms": 210
+    "components": 142,
+    "concepts": 223,
+    "observations": 224,
+    "repos": 45,
+    "terms": 216
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -56,6 +56,7 @@
     "TheAssassin/AppImageLauncher",
     "tzapu/WiFiManager",
     "UB-Mannheim/tesseract",
+    "void-linux/xbps",
     "wang-xinyu/tensorrtx",
     "zardus/preeny"
   ]

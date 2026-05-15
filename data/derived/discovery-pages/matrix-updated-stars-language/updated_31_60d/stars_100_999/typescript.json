@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2084,
-    "concepts": 412,
-    "observations": 412,
-    "repos": 75,
-    "terms": 426
+    "components": 1986,
+    "concepts": 406,
+    "observations": 406,
+    "repos": 74,
+    "terms": 420
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "43081j/picoquery",
@@ -22,7 +22,6 @@
     "aelassas/bookcars",
     "AmElmo/proofshot",
     "amplify-education/serverless-domain-manager",
-    "antfu-collective/bumpp",
     "antfu/skills-npm",
     "appium/appium-adb",
     "aquasecurity/trivy-vscode-extension",
@@ -69,6 +68,7 @@
     "microsoft/vscode-json-languageservice",
     "nashaofu/screenshots",
     "neoclide/coc-java",
+    "nothingislost/obsidian-hover-editor",
     "NVIDIA/OpenShell-Community",
     "Obsidian-TTRPG-Community/initiative-tracker",
     "ory/hydra-login-consent-node",
@@ -84,7 +84,6 @@
     "thesayyn/protoc-gen-ts",
     "tracked-tools/tracked-built-ins",
     "typed-ember/glint",
-    "un-ts/eslint-plugin-import-x",
     "vega/vega-embed",
     "vim-denops/denops.vim",
     "XantreDev/preact-signals",

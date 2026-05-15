@@ -1,25 +1,28 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 8,
-    "terms": 34
+    "components": 86,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 11,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
+    "aidenlab/hic-straw",
     "aidenlab/juicebox.js",
-    "erigontech/mdbx-go",
+    "alloy-rs/evm",
+    "amazon-ion/ion-cli",
+    "browniebroke/pypackage-template",
+    "diffscope/diffscope-project",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "lumen-oss/luarocks-tag-release",
-    "mesh-iit/cad-libraries",
-    "ogx-ai/ogx-client-typescript",
+    "nuxt-modules/emotion",
     "pivotal/credhub-release",
-    "TrigenSoftware/simple-release"
+    "RiDDiX/home-assistant-addons"
   ]
 }

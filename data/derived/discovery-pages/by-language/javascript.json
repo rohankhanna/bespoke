@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 39282,
-    "concepts": 8763,
-    "observations": 8790,
-    "repos": 2075,
-    "terms": 8754
+    "components": 39405,
+    "concepts": 8784,
+    "observations": 8811,
+    "repos": 2081,
+    "terms": 8773
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "0x1abin/matter-controller-mcp",
     "0x4139/cosmos-discord-faucet",
@@ -242,6 +242,7 @@
     "astefanutti/kubebox",
     "astroturfcss/astroturf",
     "Atheos/Atheos",
+    "athombv/com.athom.matter-bridge",
     "atlassian/cz-lerna-changelog",
     "atlassian/lerna-semantic-release",
     "atom-community/autocomplete-plus",
@@ -396,6 +397,7 @@
     "carbon-design-system/carbon-components-vue",
     "carbon-design-system/carbon-icons-angular",
     "cartocss/carto",
+    "casesandberg/react-color",
     "casparwylie/cascii-core",
     "cb1kenobi/hook-emitter",
     "cccs-jc/sql-formatter",
@@ -563,6 +565,7 @@
     "DevExpress/testcafe",
     "DevExpress/testcafe-reporter-nunit",
     "devhammed/insomnia-plugin-documenter",
+    "devongovett/blob-stream",
     "devsnek/esvu",
     "dherault/serverless-offline",
     "digitalbazaar/cborld",
@@ -1270,6 +1273,8 @@
     "lukeed/clsx",
     "lukeed/sirv",
     "lukeed/uvu",
+    "Luligu/matterbridge-eve-door",
+    "Luligu/matterbridge-eve-energy",
     "Luligu/matterbridge-somfy-tahoma",
     "lutzroeder/netron",
     "luzlab/ajv-formats-draft2019",
@@ -1709,6 +1714,7 @@
     "saharmor/dalle-playground",
     "saidudz/chat-ai",
     "salesforcecli/status",
+    "sammachin/node-red-matter-bridge",
     "sanctuary-js/sanctuary-def",
     "sanctuary-js/sanctuary-descending",
     "sanctuary-js/sanctuary-either",

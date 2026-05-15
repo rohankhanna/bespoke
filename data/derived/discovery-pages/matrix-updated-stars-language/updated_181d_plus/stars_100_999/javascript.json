@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 4652,
+    "components": 4661,
     "concepts": 1052,
     "observations": 1052,
-    "repos": 368,
+    "repos": 370,
     "terms": 1040
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "2createStudio/postcss-sprites",
@@ -123,6 +123,7 @@
     "dethcrypto/eth-sdk",
     "developit/jsxobj",
     "developit/vhtml",
+    "devongovett/blob-stream",
     "diracdeltas/spleeter4max",
     "discordjs/RPC",
     "dollarshaveclub/cloudworker",
@@ -271,6 +272,7 @@
     "mklabs/tiny-lr",
     "mlmorg/react-hyperscript",
     "mongodb-js/electron-squirrel-startup",
+    "mourner/rbush-knn",
     "mourner/simpleheat",
     "mozilla/observatory-cli",
     "mozilla/twemoji-colr",

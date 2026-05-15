@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3140,
-    "concepts": 1490,
-    "observations": 1492,
-    "repos": 309,
-    "terms": 1465
+    "components": 3206,
+    "concepts": 1534,
+    "observations": 1536,
+    "repos": 312,
+    "terms": 1509
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -62,6 +62,7 @@
     "bytebot-ai/bytebot",
     "CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers",
     "Carthage/Carthage",
+    "casesandberg/react-color",
     "Chanzhaoyu/chatgpt-web",
     "chatchat-space/Langchain-Chatchat",
     "chenfei-wu/TaskMatrix",
@@ -268,6 +269,7 @@
     "rsms/inter",
     "Rudrabha/Wav2Lip",
     "rust-bakery/nom",
+    "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
     "rwaldron/idiomatic.js",
     "ryanmcdermott/clean-code-javascript",
     "salesforce/LAVIS",
@@ -284,6 +286,7 @@
     "statsd/statsd",
     "styleguidist/react-styleguidist",
     "suno-ai/bark",
+    "svc-develop-team/so-vits-svc",
     "tatsu-lab/stanford_alpaca",
     "Tencent/rapidjson",
     "TencentARC/GFPGAN",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 684,
-    "concepts": 137,
-    "observations": 137,
-    "repos": 26,
-    "terms": 137
+    "components": 394,
+    "concepts": 88,
+    "observations": 88,
+    "repos": 17,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,31 +12,22 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "aggre/ullr",
     "Airfooox/cron-validate",
     "carbon-design-system/carbon-preprocess-svelte",
     "csm-actions/approve-pr-action",
     "csm-actions/securefix-action",
-    "forcedotcom/agents",
-    "ghostery/broken-page-reports",
     "GoogleCloudPlatform/opentelemetry-demo",
     "ibm-telemetry/telemetry-js",
     "iconify/iconify-tailwind",
     "iconify/tools",
     "intlify/cli",
-    "intlify/vue-i18n-extensions",
     "jbaubree/vite-plugin-pages-sitemap",
-    "jest-community/eslint-plugin-jest-extended",
     "julia-actions/install-juliaup",
     "maplibre/maplibre-gl-inspect",
     "microsoft/Agents-for-js",
-    "obsidianmd/eslint-plugin",
-    "prefix-dev/setup-pixi",
-    "rapideditor/location-conflation",
-    "rstackjs/rsbuild-plugin-tailwindcss",
-    "seung-lab/neuroglancer",
     "suzuki-shunsuke/pinact-action",
     "universal-ember/reactiveweb",
     "vincentlaucsb/experiencer"

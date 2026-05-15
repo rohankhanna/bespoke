@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 238
+- repos: 239
 - terms: 407
 - components: 122
 - concepts: 407
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [charm-and-friends/additional-bubbles](https://github.com/charm-and-friends/additional-bubbles) | 145 | 2025-11-15T21:37:01Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [langchain4j/awesome-langchain4j](https://github.com/langchain4j/awesome-langchain4j) | 163 | 2025-11-14T12:21:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [deepseek-ai/awesome-deepseek-coder](https://github.com/deepseek-ai/awesome-deepseek-coder) | 773 | 2025-11-11T06:45:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [eryajf/awesome-github-profile-readme-chinese](https://github.com/eryajf/awesome-github-profile-readme-chinese) | 294 | 2025-11-10T01:21:00Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |
@@ -116,7 +117,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pickhardt/maintainers-wanted](https://github.com/pickhardt/maintainers-wanted) | 482 | 2024-10-19T20:42:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [jakubfoglar/raveo](https://github.com/jakubfoglar/raveo) | 128 | 2024-10-15T16:23:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [aws/aws-app-mesh-roadmap](https://github.com/aws/aws-app-mesh-roadmap) | 346 | 2024-09-24T15:17:36Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
-| [dwyl/learn-api-design](https://github.com/dwyl/learn-api-design) | 880 | 2024-09-11T11:30:58Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
+| [dwyl/learn-api-design](https://github.com/dwyl/learn-api-design) | 881 | 2024-09-11T11:30:58Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [hustvl/LaneGAP](https://github.com/hustvl/LaneGAP) | 153 | 2024-09-11T04:14:39Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [doc-analysis/ReadingBank](https://github.com/doc-analysis/ReadingBank) | 116 | 2024-08-26T18:47:30Z | Unknown | Model/data | 4 | 0 | 4 | 4 |
 | [unified-font-repository/Unified-Font-Repository](https://github.com/unified-font-repository/Unified-Font-Repository) | 117 | 2024-08-24T08:32:09Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -141,7 +142,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [taichi-dev/awesome-taichi](https://github.com/taichi-dev/awesome-taichi) | 677 | 2024-06-13T10:21:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [SkyworkAI/Skywork-MoE](https://github.com/SkyworkAI/Skywork-MoE) | 139 | 2024-06-12T03:42:15Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [github/MVG](https://github.com/github/MVG) | 408 | 2024-06-06T09:18:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [nushu-script/Nyushu](https://github.com/nushu-script/Nyushu) | 262 | 2024-06-06T09:10:29Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
+| [nushu-script/Nyushu](https://github.com/nushu-script/Nyushu) | 263 | 2024-06-06T09:10:29Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
 | [PlexPt/chatgpt-corpus](https://github.com/PlexPt/chatgpt-corpus) | 960 | 2024-05-15T13:06:46Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [chainer-community/awesome-chainer](https://github.com/chainer-community/awesome-chainer) | 135 | 2024-05-11T07:48:30Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ichitenfont/inheritedglyphs](https://github.com/ichitenfont/inheritedglyphs) | 298 | 2024-05-08T21:13:28Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
@@ -275,7 +276,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [thunlp/ToolLearningPapers](https://github.com/thunlp/ToolLearningPapers) | 920 | 2024-07-24T14:03:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [chriskempson/base16](https://github.com/chriskempson/base16) | 918 | 2023-10-12T02:42:54Z | Unknown | Framework | 5 | 0 | 5 | 5 |
 | [syntax-tree/hast](https://github.com/syntax-tree/hast) | 892 | 2025-02-17T12:10:33Z | Unknown | Infrastructure/tooling | 5 | 5 | 5 | 5 |
-| [dwyl/learn-api-design](https://github.com/dwyl/learn-api-design) | 880 | 2024-09-11T11:30:58Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
+| [dwyl/learn-api-design](https://github.com/dwyl/learn-api-design) | 881 | 2024-09-11T11:30:58Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [antonbabenko/serverless.tf](https://github.com/antonbabenko/serverless.tf) | 867 | 2025-03-19T14:56:19Z | Unknown | Infrastructure/tooling | 5 | 0 | 5 | 5 |
 | [tesseract-ocr/langdata](https://github.com/tesseract-ocr/langdata) | 866 | 2025-04-01T10:29:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ndjson/ndjson-spec](https://github.com/ndjson/ndjson-spec) | 818 | 2022-10-20T14:43:02Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -398,8 +399,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AILab-CVC/TaleCrafter](https://github.com/AILab-CVC/TaleCrafter) | 269 | 2024-03-22T11:53:35Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [nicolas-chaulet/torch-points3d](https://github.com/nicolas-chaulet/torch-points3d) | 266 | 2021-12-10T20:17:18Z | Unknown | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [mayhemantt/mayhemantt](https://github.com/mayhemantt/mayhemantt) | 265 | 2023-03-02T09:36:20Z | Unknown | Unknown | 14 | 0 | 14 | 14 |
+| [nushu-script/Nyushu](https://github.com/nushu-script/Nyushu) | 263 | 2024-06-06T09:10:29Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
 | [the-guild-org/Stack](https://github.com/the-guild-org/Stack) | 263 | 2022-08-11T11:53:52Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [nushu-script/Nyushu](https://github.com/nushu-script/Nyushu) | 262 | 2024-06-06T09:10:29Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
 | [YuzukiHD/YuzukiChameleon](https://github.com/YuzukiHD/YuzukiChameleon) | 260 | 2024-06-16T11:51:02Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [microsoft/vscode-discussions](https://github.com/microsoft/vscode-discussions) | 255 | 2024-01-27T00:46:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [dwyl/home](https://github.com/dwyl/home) | 253 | 2024-08-05T22:59:35Z | Unknown | Unknown | 8 | 0 | 8 | 8 |
@@ -459,6 +460,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aialt/awesome-mobile-agents](https://github.com/aialt/awesome-mobile-agents) | 156 | 2024-11-29T12:11:06Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [hustvl/LaneGAP](https://github.com/hustvl/LaneGAP) | 153 | 2024-09-11T04:14:39Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [antfu/vueuse](https://github.com/antfu/vueuse) | 150 | 2021-10-18T03:36:49Z | Unknown | Infrastructure/tooling | 3 | 59 | 3 | 3 |
+| [charm-and-friends/additional-bubbles](https://github.com/charm-and-friends/additional-bubbles) | 145 | 2025-11-15T21:37:01Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [flashbots/mev-share](https://github.com/flashbots/mev-share) | 142 | 2023-07-14T08:23:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [nim-lang/RFCs](https://github.com/nim-lang/RFCs) | 141 | 2023-06-20T14:09:16Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [SkyworkAI/Skywork-MoE](https://github.com/SkyworkAI/Skywork-MoE) | 139 | 2024-06-12T03:42:15Z | Unknown | Model/data | 0 | 0 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Other
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 94
-- terms: 102
-- components: 169
-- concepts: 102
-- observations: 102
+- repos: 96
+- terms: 103
+- components: 171
+- concepts: 103
+- observations: 103
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [JuliaBinaryWrappers/brotli_jll.jl](https://github.com/JuliaBinaryWrappers/brotli_jll.jl) | 0 | 2025-11-15T16:48:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [benkasminbullock/gzip-libdeflate](https://github.com/benkasminbullock/gzip-libdeflate) | 0 | 2025-11-05T11:35:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/GEOS_jll.jl](https://github.com/JuliaBinaryWrappers/GEOS_jll.jl) | 0 | 2025-11-04T00:47:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [aburousan/azaz](https://github.com/aburousan/azaz) | 0 | 2025-10-31T19:51:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -60,6 +61,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaBinaryWrappers/Bzip2_jll.jl](https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl) | 0 | 2025-01-31T16:01:41Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Thrift_jll.jl](https://github.com/JuliaBinaryWrappers/Thrift_jll.jl) | 0 | 2025-01-30T12:22:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/boost_jll.jl](https://github.com/JuliaBinaryWrappers/boost_jll.jl) | 0 | 2025-01-28T02:39:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [TheSnakeWitcher/hardhat.nvim](https://github.com/TheSnakeWitcher/hardhat.nvim) | 0 | 2025-01-13T19:48:25Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [JuliaBinaryWrappers/Libiconv_jll.jl](https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl) | 0 | 2025-01-13T13:15:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Lz4_jll.jl](https://github.com/JuliaBinaryWrappers/Lz4_jll.jl) | 0 | 2024-12-30T16:00:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [2KAbhishek/exercism-fetcher](https://github.com/2KAbhishek/exercism-fetcher) | 0 | 2024-12-01T17:26:26Z | Other | CLI | 4 | 2 | 4 | 4 |
@@ -125,6 +127,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [JuliaBinaryWrappers/brotli_jll.jl](https://github.com/JuliaBinaryWrappers/brotli_jll.jl) | 0 | 2025-11-15T16:48:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [benkasminbullock/gzip-libdeflate](https://github.com/benkasminbullock/gzip-libdeflate) | 0 | 2025-11-05T11:35:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/GEOS_jll.jl](https://github.com/JuliaBinaryWrappers/GEOS_jll.jl) | 0 | 2025-11-04T00:47:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [aburousan/azaz](https://github.com/aburousan/azaz) | 0 | 2025-10-31T19:51:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -159,6 +162,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaBinaryWrappers/Bzip2_jll.jl](https://github.com/JuliaBinaryWrappers/Bzip2_jll.jl) | 0 | 2025-01-31T16:01:41Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Thrift_jll.jl](https://github.com/JuliaBinaryWrappers/Thrift_jll.jl) | 0 | 2025-01-30T12:22:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/boost_jll.jl](https://github.com/JuliaBinaryWrappers/boost_jll.jl) | 0 | 2025-01-28T02:39:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [TheSnakeWitcher/hardhat.nvim](https://github.com/TheSnakeWitcher/hardhat.nvim) | 0 | 2025-01-13T19:48:25Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [JuliaBinaryWrappers/Libiconv_jll.jl](https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl) | 0 | 2025-01-13T13:15:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Lz4_jll.jl](https://github.com/JuliaBinaryWrappers/Lz4_jll.jl) | 0 | 2024-12-30T16:00:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [2KAbhishek/exercism-fetcher](https://github.com/2KAbhishek/exercism-fetcher) | 0 | 2024-12-01T17:26:26Z | Other | CLI | 4 | 2 | 4 | 4 |

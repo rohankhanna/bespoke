@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 114
-- terms: 183
+- repos: 119
+- terms: 194
 - components: 418
-- concepts: 180
-- observations: 182
+- concepts: 191
+- observations: 193
 
 ## Static behavior
 
@@ -25,7 +25,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Live-Typing-UX-Research](https://github.com/danielrosehill/Live-Typing-UX-Research) | 0 | 2026-04-14T13:33:10Z | Other | Unknown | 2 | 0 | 2 | 2 |
+| [danielrosehill/Research-Tools-And-Templates-Index](https://github.com/danielrosehill/Research-Tools-And-Templates-Index) | 0 | 2026-04-14T12:21:21Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
+| [danielrosehill/Claude-Calls-The-Shots](https://github.com/danielrosehill/Claude-Calls-The-Shots) | 0 | 2026-04-14T11:13:59Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [arckoor/jsonwebtoken-botan](https://github.com/arckoor/jsonwebtoken-botan) | 0 | 2026-04-14T03:20:44Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [ainvaltin/nu_plugin_plist](https://github.com/ainvaltin/nu_plugin_plist) | 0 | 2026-04-13T16:42:48Z | Go | Unknown | 3 | 0 | 3 | 3 |
 | [fulmicoton-dd/datasketches-rust](https://github.com/fulmicoton-dd/datasketches-rust) | 0 | 2026-04-13T15:27:23Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [netdur/llama_cpp_rust](https://github.com/netdur/llama_cpp_rust) | 0 | 2026-04-13T14:31:16Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [ublacklist/store-assets](https://github.com/ublacklist/store-assets) | 0 | 2026-04-13T14:23:11Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -33,6 +37,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mitchuski/agentprivacy-skills](https://github.com/mitchuski/agentprivacy-skills) | 0 | 2026-04-13T10:55:54Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [aaronrsun/spec-kit-issue](https://github.com/aaronrsun/spec-kit-issue) | 0 | 2026-04-12T23:36:28Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [eigenwallet/arti](https://github.com/eigenwallet/arti) | 0 | 2026-04-12T23:22:34Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [ainvaltin/nu_plugin_boltdb](https://github.com/ainvaltin/nu_plugin_boltdb) | 0 | 2026-04-12T22:17:31Z | Go | Unknown | 5 | 0 | 5 | 5 |
 | [aayushbhaskar/OpenCouncil](https://github.com/aayushbhaskar/OpenCouncil) | 0 | 2026-04-12T19:12:31Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [abraxas-365/claudio-screenshot](https://github.com/Abraxas-365/claudio-screenshot) | 0 | 2026-04-11T21:36:08Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Libmount_jll.jl](https://github.com/JuliaBinaryWrappers/Libmount_jll.jl) | 0 | 2026-04-11T15:43:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -144,7 +149,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Live-Typing-UX-Research](https://github.com/danielrosehill/Live-Typing-UX-Research) | 0 | 2026-04-14T13:33:10Z | Other | Unknown | 2 | 0 | 2 | 2 |
+| [danielrosehill/Research-Tools-And-Templates-Index](https://github.com/danielrosehill/Research-Tools-And-Templates-Index) | 0 | 2026-04-14T12:21:21Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
+| [danielrosehill/Claude-Calls-The-Shots](https://github.com/danielrosehill/Claude-Calls-The-Shots) | 0 | 2026-04-14T11:13:59Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [arckoor/jsonwebtoken-botan](https://github.com/arckoor/jsonwebtoken-botan) | 0 | 2026-04-14T03:20:44Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [ainvaltin/nu_plugin_plist](https://github.com/ainvaltin/nu_plugin_plist) | 0 | 2026-04-13T16:42:48Z | Go | Unknown | 3 | 0 | 3 | 3 |
 | [fulmicoton-dd/datasketches-rust](https://github.com/fulmicoton-dd/datasketches-rust) | 0 | 2026-04-13T15:27:23Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [netdur/llama_cpp_rust](https://github.com/netdur/llama_cpp_rust) | 0 | 2026-04-13T14:31:16Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [ublacklist/store-assets](https://github.com/ublacklist/store-assets) | 0 | 2026-04-13T14:23:11Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -152,6 +161,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mitchuski/agentprivacy-skills](https://github.com/mitchuski/agentprivacy-skills) | 0 | 2026-04-13T10:55:54Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [aaronrsun/spec-kit-issue](https://github.com/aaronrsun/spec-kit-issue) | 0 | 2026-04-12T23:36:28Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [eigenwallet/arti](https://github.com/eigenwallet/arti) | 0 | 2026-04-12T23:22:34Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [ainvaltin/nu_plugin_boltdb](https://github.com/ainvaltin/nu_plugin_boltdb) | 0 | 2026-04-12T22:17:31Z | Go | Unknown | 5 | 0 | 5 | 5 |
 | [aayushbhaskar/OpenCouncil](https://github.com/aayushbhaskar/OpenCouncil) | 0 | 2026-04-12T19:12:31Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [abraxas-365/claudio-screenshot](https://github.com/Abraxas-365/claudio-screenshot) | 0 | 2026-04-11T21:36:08Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Libmount_jll.jl](https://github.com/JuliaBinaryWrappers/Libmount_jll.jl) | 0 | 2026-04-11T15:43:09Z | Other | Unknown | 0 | 0 | 0 | 0 |

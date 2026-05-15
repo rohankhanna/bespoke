@@ -3,7 +3,7 @@
     "components": 21,
     "concepts": 42,
     "observations": 42,
-    "repos": 10,
+    "repos": 11,
     "terms": 37
   },
   "facet_version": 1,
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "agenticnotetaking/arscontexta",
     "bats-core/bats-core",
     "blader/claudeception",
     "just-containers/s6-overlay",
     "KittyKatt/screenFetch",
+    "kward/shunit2",
     "oschwartz10612/poppler-windows",
     "Pal3love/dream-han-cjk",
     "Pal3love/Source-Han-TrueType",

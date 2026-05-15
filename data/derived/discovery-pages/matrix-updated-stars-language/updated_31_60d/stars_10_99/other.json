@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 453,
-    "concepts": 416,
-    "observations": 417,
-    "repos": 130,
-    "terms": 414
+    "components": 456,
+    "concepts": 417,
+    "observations": 418,
+    "repos": 133,
+    "terms": 415
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -31,7 +31,6 @@
     "ankane/nlopt-ruby",
     "ankane/torchaudio-ruby",
     "ankane/trove",
-    "apache/pdfbox-docs",
     "aperezdc/lua-wcwidth",
     "apollographql/apollo-ios-pagination",
     "appsignal/appsignal-elixir-phoenix",
@@ -94,12 +93,14 @@
     "jeffzi/llscheck",
     "js-temporal/proposal-temporal-v2",
     "JuliaCI/PkgEval.jl",
+    "JuliaGPU/juliagpu.org",
     "JuliaGraphics/ColorVectorSpace.jl",
     "kalbasit/nur-packages",
     "kbenzie/vim-spirv",
     "kendryte/k230_canmv_docs",
     "lambdaisland/open-source",
     "lostromb/concentus.oggfile",
+    "m87-labs/moondream-examples",
     "malewicz1337/oil-git.nvim",
     "marbl/T2T-Browser",
     "metosin/ring-swagger-ui",
@@ -143,6 +144,8 @@
     "V13Axel/neotest-pest",
     "vorburger/blog",
     "w3c/element-timing",
+    "w3c/webmediaapi",
+    "WebAssembly/custom-descriptors",
     "xledger/pod_sql_server"
   ]
 }

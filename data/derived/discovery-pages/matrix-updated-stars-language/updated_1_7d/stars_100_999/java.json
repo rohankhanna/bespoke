@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 3,
-    "terms": 31
+    "components": 17,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 4,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
+    "cloudfoundry/credhub",
     "eclipse-lsp4j/lsp4j",
-    "eclipse-wildwebdeveloper/wildwebdeveloper",
-    "KosherJava/zmanim"
+    "KosherJava/zmanim",
+    "spring-projects/spring-tools"
   ]
 }

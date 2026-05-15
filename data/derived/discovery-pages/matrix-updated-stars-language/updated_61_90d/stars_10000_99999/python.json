@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 64,
-    "concepts": 99,
-    "observations": 99,
+    "components": 57,
+    "concepts": 97,
+    "observations": 97,
     "repos": 16,
-    "terms": 98
+    "terms": 96
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,20 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "Alibaba-NLP/DeepResearch",
     "ComposioHQ/awesome-claude-skills",
     "cool-RR/PySnooper",
     "CorentinJ/Real-Time-Voice-Cloning",
     "facebookresearch/vggt",
+    "FunAudioLLM/CosyVoice",
     "Jiayi-Pan/TinyZero",
     "KlingAIResearch/LivePortrait",
     "PKU-YuanGroup/Open-Sora-Plan",
     "powerline/powerline",
     "QwenLM/Qwen",
     "QwenLM/Qwen-Agent",
-    "tqdm/tqdm",
     "vibrantlabsai/ragas",
     "Wan-Video/Wan2.1",
     "Zulko/moviepy",

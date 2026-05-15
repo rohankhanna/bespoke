@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 42
-- terms: 147
-- components: 152
-- concepts: 150
-- observations: 151
+- repos: 43
+- terms: 148
+- components: 155
+- concepts: 151
+- observations: 152
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Tomas-M/iotop](https://github.com/Tomas-M/iotop) | 654 | 2026-03-15T14:24:24Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [btzy/nativefiledialog-extended](https://github.com/btzy/nativefiledialog-extended) | 986 | 2026-03-14T06:19:19Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [frankmorgner/vsmartcard](https://github.com/frankmorgner/vsmartcard) | 836 | 2026-03-12T21:09:17Z | C/C++ | Infrastructure/tooling | 10 | 4 | 10 | 10 |
 | [stardot/beebasm](https://github.com/stardot/beebasm) | 106 | 2026-03-12T18:42:09Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
@@ -84,6 +85,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dacap/clip](https://github.com/dacap/clip) | 700 | 2026-03-04T17:32:45Z | C/C++ | CLI | 8 | 3 | 8 | 8 |
 | [marbl/canu](https://github.com/marbl/canu) | 700 | 2026-02-24T14:49:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [avaneev/r8brain-free-src](https://github.com/avaneev/r8brain-free-src) | 691 | 2026-03-12T12:57:20Z | C/C++ | Library | 16 | 0 | 16 | 16 |
+| [Tomas-M/iotop](https://github.com/Tomas-M/iotop) | 654 | 2026-03-15T14:24:24Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [eliemichel/LearnWebGPU](https://github.com/eliemichel/LearnWebGPU) | 600 | 2026-03-12T11:24:26Z | C/C++ | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [hhyyrylainen/GodotPckTool](https://github.com/hhyyrylainen/GodotPckTool) | 535 | 2026-02-27T07:02:57Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [lualanes/lanes](https://github.com/LuaLanes/lanes) | 530 | 2026-03-12T10:21:59Z | C/C++ | Library | 0 | 0 | 0 | 0 |

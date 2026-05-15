@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [shadowspawn/node-version-usage](https://github.com/shadowspawn/node-version-usage) | 280 | 2026-02-14T00:44:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lintool/guide](https://github.com/lintool/guide) | 324 | 2026-02-11T23:06:08Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [docker-library/faq](https://github.com/docker-library/faq) | 140 | 2026-02-11T18:18:31Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [bluescan/proggyfonts](https://github.com/bluescan/proggyfonts) | 879 | 2026-02-10T09:17:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -62,7 +63,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GraphBLAS/GraphBLAS-Pointers](https://github.com/GraphBLAS/GraphBLAS-Pointers) | 203 | 2025-11-20T18:09:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [joseluisq/macosx-sdks](https://github.com/joseluisq/macosx-sdks) | 213 | 2025-11-19T22:18:19Z | Unknown | Library | 13 | 0 | 13 | 13 |
 | [deepinsight/inswapper-512-live](https://github.com/deepinsight/inswapper-512-live) | 232 | 2025-11-18T16:11:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [charm-and-friends/additional-bubbles](https://github.com/charm-and-friends/additional-bubbles) | 145 | 2025-11-15T21:37:01Z | Unknown | Library | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -87,6 +87,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lintool/guide](https://github.com/lintool/guide) | 324 | 2026-02-11T23:06:08Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [opendilab/awesome-ui-agents](https://github.com/opendilab/awesome-ui-agents) | 293 | 2025-12-15T14:12:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [mapbox/tilejson-spec](https://github.com/mapbox/tilejson-spec) | 291 | 2026-01-14T18:33:44Z | Unknown | Unknown | 2 | 0 | 3 | 3 |
+| [shadowspawn/node-version-usage](https://github.com/shadowspawn/node-version-usage) | 280 | 2026-02-14T00:44:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [pingcap/community](https://github.com/pingcap/community) | 269 | 2026-01-16T09:06:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [oh-my-fish/packages-main](https://github.com/oh-my-fish/packages-main) | 260 | 2026-01-06T17:40:02Z | Unknown | Infrastructure/tooling | 3 | 1 | 5 | 5 |
 | [thibautmelen/agentic-ai-systems](https://github.com/ThibautMelen/agentic-ai-systems) | 248 | 2025-12-08T13:10:04Z | Unknown | Unknown | 14 | 0 | 0 | 0 |
@@ -100,7 +101,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents](https://github.com/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents) | 170 | 2025-12-02T05:44:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lightning/blips](https://github.com/lightning/blips) | 167 | 2026-01-14T14:28:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [TencentCloudADP/youtu-vl](https://github.com/TencentCloudADP/youtu-vl) | 152 | 2026-02-06T06:22:36Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [charm-and-friends/additional-bubbles](https://github.com/charm-and-friends/additional-bubbles) | 145 | 2025-11-15T21:37:01Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [docker-library/faq](https://github.com/docker-library/faq) | 140 | 2026-02-11T18:18:31Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [GuiWonder/MoonStarsKai](https://github.com/GuiWonder/MoonStarsKai) | 118 | 2026-02-06T12:48:34Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [libp2p/js-libp2p-examples](https://github.com/libp2p/js-libp2p-examples) | 103 | 2026-02-04T11:17:14Z | Unknown | Infrastructure/tooling | 3 | 7 | 3 | 3 |

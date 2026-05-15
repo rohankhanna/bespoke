@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ROCm/hipBLAS-common](https://github.com/ROCm/hipBLAS-common) | 6 | 2026-04-14T13:53:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [php-toolkit/stdlib](https://github.com/php-toolkit/stdlib) | 9 | 2026-04-14T03:02:13Z | Other | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [joinwell52-ai/joinwell52](https://github.com/joinwell52-AI/joinwell52) | 2 | 2026-04-14T02:12:31Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dpep/ice_age_rb](https://github.com/dpep/ice_age_rb) | 8 | 2026-04-13T01:21:42Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
@@ -66,7 +67,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DanielSmith1239/KosherSwift](https://github.com/DanielSmith1239/KosherSwift) | 8 | 2026-03-22T18:06:11Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ATProtoKit/MultiformatsKit](https://github.com/ATProtoKit/MultiformatsKit) | 2 | 2026-03-21T05:54:01Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [flagos-ai/llvm-project](https://github.com/flagos-ai/llvm-project) | 1 | 2026-03-20T02:51:56Z | Other | Infrastructure/tooling | 5 | 9 | 5 | 5 |
-| [tanyongkiam/cake_lpr](https://github.com/tanyongkiam/cake_lpr) | 7 | 2026-03-16T06:01:55Z | Other | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -83,7 +83,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Circuitscape/www.circuitscape.org](https://github.com/Circuitscape/www.circuitscape.org) | 7 | 2026-04-07T05:27:56Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [dwyl/auth_plug_example](https://github.com/dwyl/auth_plug_example) | 7 | 2026-04-03T23:06:16Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [dwyl/ping](https://github.com/dwyl/ping) | 7 | 2026-04-02T11:10:03Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [tanyongkiam/cake_lpr](https://github.com/tanyongkiam/cake_lpr) | 7 | 2026-03-16T06:01:55Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [ROCm/hipBLAS-common](https://github.com/ROCm/hipBLAS-common) | 6 | 2026-04-14T13:53:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [marcindulak/learning-api-styles-gen-ai-experiments](https://github.com/marcindulak/learning-api-styles-gen-ai-experiments) | 6 | 2026-04-08T07:48:26Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [objectbox/objectbox-swift-spm](https://github.com/objectbox/objectbox-swift-spm) | 6 | 2026-03-27T15:10:51Z | Other | Library | 3 | 0 | 3 | 3 |
 | [tnc-ca-geo/animl-ml](https://github.com/tnc-ca-geo/animl-ml) | 5 | 2026-04-10T20:24:45Z | Other | Unknown | 0 | 0 | 0 | 0 |

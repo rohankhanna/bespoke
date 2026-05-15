@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 343,
-    "concepts": 52,
-    "observations": 53,
-    "repos": 29,
-    "terms": 52
+    "components": 374,
+    "concepts": 66,
+    "observations": 67,
+    "repos": 32,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "ameshkov/safari-blocker",
     "Arthy000/gherkin-testcafe",
@@ -23,11 +23,14 @@
     "chaijs/check-error",
     "CheckerNetwork/spark-checker",
     "coderaiser/estrace",
+    "coderaiser/try-catch",
+    "coderaiser/try-to-catch",
     "d3x0r/JSOX",
     "dzeiocom/simple-icons-astro",
     "ember-cli/broccoli-caching-writer",
     "freddyaboulton/gradio-pdf",
     "haskell-actions/run-ormolu",
+    "hchiam/learning-lighthouse-ci",
     "josdejong/typed-function",
     "jupyter-xeus/xeus-javascript",
     "karma-runner/karma-qunit",

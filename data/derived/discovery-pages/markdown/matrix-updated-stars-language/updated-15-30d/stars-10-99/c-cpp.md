@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 56
-- terms: 260
-- components: 282
-- concepts: 259
-- observations: 259
+- repos: 60
+- terms: 284
+- components: 294
+- concepts: 285
+- observations: 285
 
 ## Static behavior
 
@@ -26,6 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [oneapi-src/unified-memory-framework](https://github.com/oneapi-src/unified-memory-framework) | 88 | 2026-05-01T05:41:34Z | C/C++ | Infrastructure/tooling | 14 | 10 | 14 | 14 |
+| [BirolLab/btllib](https://github.com/BirolLab/btllib) | 29 | 2026-04-30T20:54:44Z | C/C++ | Library | 6 | 0 | 6 | 6 |
+| [microsoft/aitour-exploring-cutting-edge-models](https://github.com/microsoft/aitour-exploring-cutting-edge-models) | 76 | 2026-04-30T19:29:08Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
+| [facebook/fb303](https://github.com/facebook/fb303) | 92 | 2026-04-30T19:24:28Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [confluentinc/libserdes](https://github.com/confluentinc/libserdes) | 11 | 2026-04-30T18:31:38Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [jwindgassen/UnrealYAML](https://github.com/jwindgassen/UnrealYAML) | 35 | 2026-04-30T11:40:26Z | C/C++ | Unknown | 7 | 0 | 9 | 9 |
 | [hazelcast/hazelcast-cpp-client](https://github.com/hazelcast/hazelcast-cpp-client) | 90 | 2026-04-30T07:47:28Z | C/C++ | CLI | 24 | 8 | 24 | 24 |
 | [ROCm/rpp](https://github.com/ROCm/rpp) | 72 | 2026-04-29T16:52:27Z | C/C++ | Library | 12 | 0 | 12 | 12 |
 | [LedgerHQ/ledger-secure-sdk](https://github.com/LedgerHQ/ledger-secure-sdk) | 36 | 2026-04-29T16:18:38Z | C/C++ | Infrastructure/tooling | 5 | 10 | 5 | 5 |
@@ -80,8 +86,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fabmax/PhysX](https://github.com/fabmax/PhysX) | 11 | 2026-04-15T19:51:26Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [triton-inference-server/openvino_backend](https://github.com/triton-inference-server/openvino_backend) | 37 | 2026-04-15T18:04:44Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [proxy-wasm/proxy-wasm-cpp-host](https://github.com/proxy-wasm/proxy-wasm-cpp-host) | 92 | 2026-04-15T14:37:53Z | C/C++ | Infrastructure/tooling | 3 | 9 | 3 | 3 |
-| [barak/minidjvu](https://github.com/barak/minidjvu) | 13 | 2026-04-14T21:03:26Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [ROCm/roctracer](https://github.com/ROCm/roctracer) | 84 | 2026-04-14T17:40:05Z | C/C++ | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -93,15 +97,17 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [narugit/smctemp](https://github.com/narugit/smctemp) | 98 | 2026-04-22T23:12:00Z | C/C++ | CLI | 14 | 4 | 14 | 14 |
 | [DeepLink-org/DLSlime](https://github.com/DeepLink-org/DLSlime) | 97 | 2026-04-23T05:49:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [kendryte/canmv_k230](https://github.com/kendryte/canmv_k230) | 94 | 2026-04-28T08:05:10Z | C/C++ | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [facebook/fb303](https://github.com/facebook/fb303) | 92 | 2026-04-30T19:24:28Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [proxy-wasm/proxy-wasm-cpp-host](https://github.com/proxy-wasm/proxy-wasm-cpp-host) | 92 | 2026-04-15T14:37:53Z | C/C++ | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [mitsuba-renderer/nanothread](https://github.com/mitsuba-renderer/nanothread) | 91 | 2026-04-17T23:57:42Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [hazelcast/hazelcast-cpp-client](https://github.com/hazelcast/hazelcast-cpp-client) | 90 | 2026-04-30T07:47:28Z | C/C++ | CLI | 24 | 8 | 24 | 24 |
+| [oneapi-src/unified-memory-framework](https://github.com/oneapi-src/unified-memory-framework) | 88 | 2026-05-01T05:41:34Z | C/C++ | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [JFLarvoire/the_silver_searcher](https://github.com/JFLarvoire/the_silver_searcher) | 86 | 2026-04-19T10:15:18Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [ROCm/roctracer](https://github.com/ROCm/roctracer) | 84 | 2026-04-14T17:40:05Z | C/C++ | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [libbitcoin/libbitcoin-database](https://github.com/libbitcoin/libbitcoin-database) | 83 | 2026-04-25T06:18:46Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [libbitcoin/libbitcoin-network](https://github.com/libbitcoin/libbitcoin-network) | 79 | 2026-04-26T04:40:35Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [lxqt/libqtxdg](https://github.com/lxqt/libqtxdg) | 79 | 2026-04-20T07:04:58Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [DavidKinder/Windows-Inform7](https://github.com/DavidKinder/Windows-Inform7) | 78 | 2026-04-18T16:38:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [microsoft/aitour-exploring-cutting-edge-models](https://github.com/microsoft/aitour-exploring-cutting-edge-models) | 76 | 2026-04-30T19:29:08Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [boostorg/config](https://github.com/boostorg/config) | 76 | 2026-04-23T23:39:52Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [ROCm/rpp](https://github.com/ROCm/rpp) | 72 | 2026-04-29T16:52:27Z | C/C++ | Library | 12 | 0 | 12 | 12 |
 | [ROCm/ROCgdb](https://github.com/ROCm/ROCgdb) | 69 | 2026-04-24T12:30:39Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -125,6 +131,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Antares0982/ssrJSON](https://github.com/Antares0982/ssrJSON) | 37 | 2026-04-29T14:07:59Z | C/C++ | Infrastructure/tooling | 8 | 9 | 9 | 9 |
 | [triton-inference-server/openvino_backend](https://github.com/triton-inference-server/openvino_backend) | 37 | 2026-04-15T18:04:44Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [LedgerHQ/ledger-secure-sdk](https://github.com/LedgerHQ/ledger-secure-sdk) | 36 | 2026-04-29T16:18:38Z | C/C++ | Infrastructure/tooling | 5 | 10 | 5 | 5 |
+| [jwindgassen/UnrealYAML](https://github.com/jwindgassen/UnrealYAML) | 35 | 2026-04-30T11:40:26Z | C/C++ | Unknown | 7 | 0 | 9 | 9 |
+| [BirolLab/btllib](https://github.com/BirolLab/btllib) | 29 | 2026-04-30T20:54:44Z | C/C++ | Library | 6 | 0 | 6 | 6 |
 | [liangshengyong/lanwan](https://github.com/liangshengyong/LanWan) | 29 | 2026-04-19T13:40:33Z | C/C++ | CLI | 2 | 2 | 0 | 0 |
 | [xjb714/xjb](https://github.com/xjb714/xjb) | 28 | 2026-04-29T14:37:00Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [nx10/unigd](https://github.com/nx10/unigd) | 28 | 2026-04-20T16:43:10Z | C/C++ | Infrastructure/tooling | 6 | 15 | 6 | 6 |
@@ -140,6 +148,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [walbourn/directxmathtest](https://github.com/walbourn/directxmathtest) | 16 | 2026-04-27T17:16:07Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |
 | [gazebosim/gz-fuel-tools](https://github.com/gazebosim/gz-fuel-tools) | 16 | 2026-04-23T07:47:23Z | C/C++ | CLI | 15 | 7 | 15 | 15 |
 | [8144225309/SuperScalar](https://github.com/8144225309/SuperScalar) | 16 | 2026-04-18T15:28:05Z | C/C++ | Infrastructure/tooling | 7 | 4 | 7 | 7 |
-| [barak/minidjvu](https://github.com/barak/minidjvu) | 13 | 2026-04-14T21:03:26Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [confluentinc/libserdes](https://github.com/confluentinc/libserdes) | 11 | 2026-04-30T18:31:38Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [fabmax/PhysX](https://github.com/fabmax/PhysX) | 11 | 2026-04-15T19:51:26Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [walbourn/directxtextest](https://github.com/walbourn/directxtextest) | 10 | 2026-04-20T18:20:06Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · Java
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 29
-- terms: 345
-- components: 271
-- concepts: 347
-- observations: 348
+- repos: 34
+- terms: 406
+- components: 357
+- concepts: 408
+- observations: 410
 
 ## Static behavior
 
@@ -26,6 +26,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) | 25240 | 2026-05-01T01:12:05Z | Java | Infrastructure/tooling | 16 | 48 | 16 | 16 |
+| [apache/pulsar](https://github.com/apache/pulsar) | 15217 | 2026-04-30T22:41:01Z | Java | Infrastructure/tooling | 14 | 14 | 14 | 14 |
+| [elastic/logstash](https://github.com/elastic/logstash) | 14845 | 2026-04-30T19:08:30Z | Java | Infrastructure/tooling | 15 | 11 | 15 | 15 |
+| [languagetool-org/languagetool](https://github.com/languagetool-org/languagetool) | 14423 | 2026-04-30T16:33:33Z | Java | Infrastructure/tooling | 8 | 6 | 8 | 9 |
+| [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | 76611 | 2026-04-30T10:22:34Z | Java | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [debezium/debezium](https://github.com/debezium/debezium) | 12674 | 2026-04-30T07:15:26Z | Java | Infrastructure/tooling | 19 | 2 | 19 | 19 |
 | [oracle/graal](https://github.com/oracle/graal) | 21570 | 2026-04-30T06:39:01Z | Java | Infrastructure/tooling | 9 | 5 | 9 | 10 |
 | [apache/kafka](https://github.com/apache/kafka) | 32483 | 2026-04-30T03:39:24Z | Java | Infrastructure/tooling | 10 | 8 | 10 | 10 |
@@ -60,6 +65,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | 76611 | 2026-04-30T10:22:34Z | Java | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | 67517 | 2026-04-19T09:06:34Z | Java | Framework | 3 | 0 | 3 | 3 |
 | [google/guava](https://github.com/google/guava) | 51506 | 2026-04-17T21:56:04Z | Java | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | 49795 | 2026-04-29T16:55:10Z | Java | CLI | 13 | 6 | 13 | 13 |
@@ -75,6 +81,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator) | 26146 | 2026-04-21T16:45:53Z | Java | CLI | 19 | 11 | 19 | 19 |
 | [apache/incubator-seata](https://github.com/apache/incubator-seata) | 25970 | 2026-04-22T08:50:39Z | Java | Infrastructure/tooling | 13 | 14 | 13 | 13 |
 | [bazelbuild/bazel](https://github.com/bazelbuild/bazel) | 25335 | 2026-04-21T11:23:13Z | Java | Infrastructure/tooling | 15 | 13 | 15 | 15 |
+| [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) | 25240 | 2026-05-01T01:12:05Z | Java | Infrastructure/tooling | 16 | 48 | 16 | 16 |
 | [google/gson](https://github.com/google/gson) | 24215 | 2026-04-29T17:03:32Z | Java | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [apache/rocketmq](https://github.com/apache/rocketmq) | 22423 | 2026-04-28T02:35:52Z | Java | Infrastructure/tooling | 16 | 16 | 16 | 16 |
 | [oracle/graal](https://github.com/oracle/graal) | 21570 | 2026-04-30T06:39:01Z | Java | Infrastructure/tooling | 9 | 5 | 9 | 10 |
@@ -82,6 +89,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ben-manes/caffeine](https://github.com/ben-manes/caffeine) | 17616 | 2026-04-23T19:05:09Z | Java | Infrastructure/tooling | 9 | 18 | 9 | 9 |
 | [prestodb/presto](https://github.com/prestodb/presto) | 16698 | 2026-04-23T23:28:11Z | Java | Infrastructure/tooling | 17 | 12 | 17 | 17 |
 | [apache/doris](https://github.com/apache/doris) | 15259 | 2026-04-23T15:28:11Z | Java | Infrastructure/tooling | 22 | 9 | 22 | 22 |
+| [apache/pulsar](https://github.com/apache/pulsar) | 15217 | 2026-04-30T22:41:01Z | Java | Infrastructure/tooling | 14 | 14 | 14 | 14 |
+| [elastic/logstash](https://github.com/elastic/logstash) | 14845 | 2026-04-30T19:08:30Z | Java | Infrastructure/tooling | 15 | 11 | 15 | 15 |
+| [languagetool-org/languagetool](https://github.com/languagetool-org/languagetool) | 14423 | 2026-04-30T16:33:33Z | Java | Infrastructure/tooling | 8 | 6 | 8 | 9 |
 | [debezium/debezium](https://github.com/debezium/debezium) | 12674 | 2026-04-30T07:15:26Z | Java | Infrastructure/tooling | 19 | 2 | 19 | 19 |
 | [langchain4j/langchain4j](https://github.com/langchain4j/langchain4j) | 11812 | 2026-04-29T20:58:02Z | Java | Infrastructure/tooling | 25 | 9 | 25 | 25 |
 | [apple/pkl](https://github.com/apple/pkl) | 11315 | 2026-04-23T21:39:56Z | Java | Infrastructure/tooling | 18 | 11 | 20 | 20 |

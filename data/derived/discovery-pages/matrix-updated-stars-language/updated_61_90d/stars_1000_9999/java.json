@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 7,
-    "terms": 47
+    "components": 15,
+    "concepts": 43,
+    "observations": 43,
+    "repos": 6,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
-    "apache/incubator-seata-samples",
     "caprica/vlcj",
     "json-path/JsonPath",
     "jtablesaw/tablesaw",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 266
-- terms: 641
-- components: 2880
+- repos: 267
+- terms: 640
+- components: 2882
 - concepts: 649
 - observations: 649
 
@@ -53,6 +53,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bebraw/libumd](https://github.com/bebraw/libumd) | 11 | 2025-08-07T06:05:13Z | JavaScript | Unknown | 0 | 8 | 0 | 0 |
 | [mantoni/core_d.js](https://github.com/mantoni/core_d.js) | 67 | 2025-08-04T15:59:18Z | JavaScript | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [dcloudio/hello-uvue](https://github.com/dcloudio/hello-uvue) | 20 | 2025-08-04T08:33:47Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [sammachin/node-red-matter-bridge](https://github.com/sammachin/node-red-matter-bridge) | 33 | 2025-08-03T19:37:24Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [anapnoe/sd-webui-ux](https://github.com/anapnoe/sd-webui-ux) | 80 | 2025-08-01T17:26:09Z | JavaScript | Web app | 0 | 9 | 0 | 0 |
 | [AbelVM/maplibre-preload](https://github.com/AbelVM/maplibre-preload) | 55 | 2025-07-25T07:32:03Z | JavaScript | Unknown | 3 | 0 | 3 | 3 |
 | [curiousdannii/ifvms.js](https://github.com/curiousdannii/ifvms.js) | 97 | 2025-07-12T03:53:35Z | JavaScript | Infrastructure/tooling | 4 | 8 | 4 | 4 |
@@ -285,7 +286,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mikolalysenko/robust-in-sphere](https://github.com/mikolalysenko/robust-in-sphere) | 12 | 2021-08-04T23:24:56Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [mikolalysenko/robust-orientation](https://github.com/mikolalysenko/robust-orientation) | 29 | 2021-08-04T23:20:06Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [npm/npm-lifecycle](https://github.com/npm/npm-lifecycle) | 36 | 2021-08-03T19:07:35Z | JavaScript | Unknown | 0 | 13 | 0 | 0 |
-| [webview2/EdgeSharp.Samples](https://github.com/webview2/EdgeSharp.Samples) | 35 | 2021-07-06T12:41:41Z | JavaScript | Unknown | 14 | 0 | 14 | 14 |
+| [webview2/EdgeSharp.Samples](https://github.com/webview2/EdgeSharp.Samples) | 35 | 2021-07-06T12:41:41Z | JavaScript | Unknown | 13 | 0 | 14 | 14 |
 | [vutran/zel](https://github.com/vutran/zel) | 57 | 2021-06-24T05:39:50Z | JavaScript | Unknown | 6 | 12 | 6 | 6 |
 | [71/logseq-snippets](https://github.com/71/logseq-snippets) | 76 | 2021-06-23T19:32:01Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [fengari-lua/fengari-loader](https://github.com/fengari-lua/fengari-loader) | 30 | 2021-06-23T16:12:05Z | JavaScript | Web app | 3 | 10 | 3 | 3 |
@@ -446,12 +447,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fontello/cubic2quad](https://github.com/fontello/cubic2quad) | 36 | 2023-12-27T17:32:30Z | JavaScript | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [TritonDataCenter/node-extsprintf](https://github.com/TritonDataCenter/node-extsprintf) | 36 | 2021-11-02T21:49:00Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [npm/npm-lifecycle](https://github.com/npm/npm-lifecycle) | 36 | 2021-08-03T19:07:35Z | JavaScript | Unknown | 0 | 13 | 0 | 0 |
-| [webview2/EdgeSharp.Samples](https://github.com/webview2/EdgeSharp.Samples) | 35 | 2021-07-06T12:41:41Z | JavaScript | Unknown | 14 | 0 | 14 | 14 |
+| [webview2/EdgeSharp.Samples](https://github.com/webview2/EdgeSharp.Samples) | 35 | 2021-07-06T12:41:41Z | JavaScript | Unknown | 13 | 0 | 14 | 14 |
 | [fengari-lua/fengari-node-cli](https://github.com/fengari-lua/fengari-node-cli) | 35 | 2021-06-23T16:11:09Z | JavaScript | CLI | 2 | 5 | 2 | 2 |
 | [graphql/defer-stream-wg](https://github.com/graphql/defer-stream-wg) | 34 | 2025-10-02T15:53:41Z | JavaScript | Unknown | 1 | 3 | 1 | 1 |
 | [A11yance/axobject-query](https://github.com/A11yance/axobject-query) | 34 | 2024-12-17T09:13:18Z | JavaScript | Infrastructure/tooling | 0 | 25 | 0 | 0 |
 | [node-gh/gh-jira](https://github.com/node-gh/gh-jira) | 34 | 2022-11-01T21:08:06Z | JavaScript | Unknown | 0 | 6 | 0 | 0 |
 | [adri326/wombot](https://github.com/adri326/wombot) | 34 | 2022-10-19T22:52:25Z | JavaScript | Service/API | 0 | 3 | 0 | 0 |
+| [sammachin/node-red-matter-bridge](https://github.com/sammachin/node-red-matter-bridge) | 33 | 2025-08-03T19:37:24Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [teticio/deej-ai.online-app](https://github.com/teticio/deej-ai.online-app) | 33 | 2025-03-23T22:23:40Z | JavaScript | Infrastructure/tooling | 9 | 61 | 9 | 9 |
 | [standard/standard-packages](https://github.com/standard/standard-packages) | 33 | 2023-09-16T07:25:28Z | JavaScript | Library | 10 | 9 | 10 | 10 |
 | [ipld/js-ipld-git](https://github.com/ipld/js-ipld-git) | 33 | 2021-08-24T13:18:29Z | JavaScript | Unknown | 1 | 12 | 1 | 1 |

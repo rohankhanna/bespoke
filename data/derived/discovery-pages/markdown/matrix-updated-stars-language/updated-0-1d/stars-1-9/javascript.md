@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1 to 9 stars · JavaScript
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [aidenlab/juicebox-web](https://github.com/aidenlab/juicebox-web) | 3 | 2026-05-13T12:03:02Z | JavaScript | Unknown | 0 | 12 | 0 | 0 |
+| [aidenlab/juicebox-web](https://github.com/aidenlab/juicebox-web) | 3 | 2026-05-14T18:49:30Z | JavaScript | Unknown | 0 | 12 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [aidenlab/juicebox-web](https://github.com/aidenlab/juicebox-web) | 3 | 2026-05-13T12:03:02Z | JavaScript | Unknown | 0 | 12 | 0 | 0 |
+| [aidenlab/juicebox-web](https://github.com/aidenlab/juicebox-web) | 3 | 2026-05-14T18:49:30Z | JavaScript | Unknown | 0 | 12 | 0 | 0 |

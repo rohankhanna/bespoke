@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 90,
-    "concepts": 94,
-    "observations": 95,
+    "components": 88,
+    "concepts": 95,
+    "observations": 96,
     "repos": 24,
-    "terms": 97
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "actions/upload-pages-artifact",
     "aslafy-z/helm-git",
@@ -21,6 +21,7 @@
     "chaoss/grimoirelab",
     "crazy-max/xgo",
     "docker-library/hello-world",
+    "EmbarkStudios/cargo-deny-action",
     "github/super-linter",
     "helm/chart-testing-action",
     "heroku/heroku-buildpack-apt",
@@ -29,7 +30,6 @@
     "mattmc3/zephyr",
     "mklement0/n-install",
     "mosaicml/examples",
-    "nginx-le/nginx-le",
     "numpy/numpy.org",
     "reviewdog/action-misspell",
     "SamNet-dev/paqctl",

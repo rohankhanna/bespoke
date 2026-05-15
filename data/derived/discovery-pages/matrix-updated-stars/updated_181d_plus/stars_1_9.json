@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5251,
-    "concepts": 1874,
-    "observations": 1876,
-    "repos": 1323,
-    "terms": 1869
+    "components": 5293,
+    "concepts": 1884,
+    "observations": 1886,
+    "repos": 1328,
+    "terms": 1879
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -137,6 +137,7 @@
     "amilajack/eslint-plugin-compat-demo",
     "AnamuddinAhmad/Portfolio_1",
     "andenacitelli/openapi-endpoint-trimmer",
+    "andrasg/matterbridge-daikin-ac",
     "andreasdr/a-gui",
     "andreasdr/minitscript",
     "andreasdr/yannet",
@@ -433,6 +434,7 @@
     "danielrosehill/Claude-Code-Bash-Aliases",
     "danielrosehill/Claude-Code-Context-Toolkit",
     "danielrosehill/Claude-Code-MCP-Command-Generator",
+    "danielrosehill/claude-code-plugin",
     "danielrosehill/Claude-Code-Repo-Managers-ClaudeMD",
     "danielrosehill/Claude-Deep-Research-Model",
     "danielrosehill/Claude-Is-Awesome",
@@ -465,6 +467,7 @@
     "david-bouyssie/mdbx4s",
     "Davidbrcz/tla-ts-mode",
     "davidkadaria/css-style-guide",
+    "daybrush/css-to-mat",
     "ddisisto/si",
     "deathbeam/difftool.nvim",
     "decypher-ai/checklist",
@@ -1127,6 +1130,7 @@
     "ray-x/files",
     "raybobo/taichi-voxel-challenge",
     "Razenpok/CSharpFunctionalExtensions.UniTask",
+    "rcarriga/nvim-dap",
     "readthedocs/sphinx-build-compatibility",
     "redis-developer/redis-om-autocomplete-demo",
     "redis-stack/homebrew-redis-stack",
@@ -1238,6 +1242,7 @@
     "time-river/vvl.me",
     "timfel/graalpy-jbang",
     "timfel/racing-all-afternoon",
+    "tinted-theming/tinted-builder-python",
     "tinted-theming/tinted-kermit",
     "TMElyralab/controlnet_aux",
     "TMElyralab/diffusers",

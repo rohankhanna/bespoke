@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 8
-- terms: 34
-- components: 94
-- concepts: 34
-- observations: 34
+- repos: 11
+- terms: 38
+- components: 86
+- concepts: 38
+- observations: 38
 
 ## Static behavior
 
@@ -25,24 +25,30 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [aidenlab/hic-straw](https://github.com/aidenlab/hic-straw) | 10 | 2026-05-14T21:59:47Z | JavaScript | CLI | 0 | 7 | 0 | 0 |
+| [pivotal/credhub-release](https://github.com/pivotal/credhub-release) | 37 | 2026-05-14T19:40:56Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 82 | 2026-05-14T19:32:59Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [amazon-ion/ion-cli](https://github.com/amazon-ion/ion-cli) | 47 | 2026-05-14T19:32:14Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-05-14T19:07:44Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
+| [diffscope/diffscope-project](https://github.com/diffscope/diffscope-project) | 19 | 2026-05-14T18:08:39Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [browniebroke/pypackage-template](https://github.com/browniebroke/pypackage-template) | 89 | 2026-05-14T16:46:13Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |
+| [RiDDiX/home-assistant-addons](https://github.com/RiDDiX/home-assistant-addons) | 93 | 2026-05-14T16:09:01Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [aidenlab/juicebox.js](https://github.com/aidenlab/juicebox.js) | 24 | 2026-05-14T14:18:01Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
+| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 80 | 2026-05-14T09:51:02Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-05-14T08:08:47Z | Other | Infrastructure/tooling | 15 | 9 | 15 | 15 |
-| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 82 | 2026-05-13T23:49:50Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
-| [pivotal/credhub-release](https://github.com/pivotal/credhub-release) | 37 | 2026-05-13T23:07:29Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
-| [aidenlab/juicebox.js](https://github.com/aidenlab/juicebox.js) | 24 | 2026-05-13T20:54:11Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
-| [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 20 | 2026-05-13T20:45:23Z | TypeScript | Infrastructure/tooling | 4 | 23 | 4 | 4 |
-| [ogx-ai/ogx-client-typescript](https://github.com/ogx-ai/ogx-client-typescript) | 95 | 2026-05-13T16:48:54Z | TypeScript | Infrastructure/tooling | 3 | 30 | 3 | 3 |
-| [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-05-13T09:44:10Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [erigontech/mdbx-go](https://github.com/erigontech/mdbx-go) | 76 | 2026-05-13T09:16:36Z | C/C++ | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ogx-ai/ogx-client-typescript](https://github.com/ogx-ai/ogx-client-typescript) | 95 | 2026-05-13T16:48:54Z | TypeScript | Infrastructure/tooling | 3 | 30 | 3 | 3 |
-| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 82 | 2026-05-13T23:49:50Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
-| [erigontech/mdbx-go](https://github.com/erigontech/mdbx-go) | 76 | 2026-05-13T09:16:36Z | C/C++ | Infrastructure/tooling | 3 | 7 | 3 | 3 |
+| [RiDDiX/home-assistant-addons](https://github.com/RiDDiX/home-assistant-addons) | 93 | 2026-05-14T16:09:01Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-05-14T19:07:44Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
+| [browniebroke/pypackage-template](https://github.com/browniebroke/pypackage-template) | 89 | 2026-05-14T16:46:13Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |
+| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 82 | 2026-05-14T19:32:59Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 80 | 2026-05-14T09:51:02Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-05-14T08:08:47Z | Other | Infrastructure/tooling | 15 | 9 | 15 | 15 |
-| [pivotal/credhub-release](https://github.com/pivotal/credhub-release) | 37 | 2026-05-13T23:07:29Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
-| [aidenlab/juicebox.js](https://github.com/aidenlab/juicebox.js) | 24 | 2026-05-13T20:54:11Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
-| [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-05-13T09:44:10Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 20 | 2026-05-13T20:45:23Z | TypeScript | Infrastructure/tooling | 4 | 23 | 4 | 4 |
+| [amazon-ion/ion-cli](https://github.com/amazon-ion/ion-cli) | 47 | 2026-05-14T19:32:14Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [pivotal/credhub-release](https://github.com/pivotal/credhub-release) | 37 | 2026-05-14T19:40:56Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [aidenlab/juicebox.js](https://github.com/aidenlab/juicebox.js) | 24 | 2026-05-14T14:18:01Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
+| [diffscope/diffscope-project](https://github.com/diffscope/diffscope-project) | 19 | 2026-05-14T18:08:39Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [aidenlab/hic-straw](https://github.com/aidenlab/hic-straw) | 10 | 2026-05-14T21:59:47Z | JavaScript | CLI | 0 | 7 | 0 | 0 |

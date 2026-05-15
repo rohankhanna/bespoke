@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 45
-- terms: 184
-- components: 1632
-- concepts: 187
-- observations: 188
+- repos: 46
+- terms: 191
+- components: 1683
+- concepts: 194
+- observations: 195
 
 ## Static behavior
 
@@ -32,11 +32,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [adam-p/markdown-here](https://github.com/adam-p/markdown-here) | 60181 | 2025-08-22T00:21:50Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [vuejs/vue-cli](https://github.com/vuejs/vue-cli) | 29596 | 2025-08-21T10:56:30Z | JavaScript | Web app | 0 | 42 | 0 | 0 |
 | [Nozbe/WatermelonDB](https://github.com/Nozbe/WatermelonDB) | 11644 | 2025-08-11T12:09:31Z | JavaScript | Infrastructure/tooling | 7 | 116 | 7 | 7 |
-| [standard/standard](https://github.com/standard/standard) | 29438 | 2025-07-11T08:28:23Z | JavaScript | Infrastructure/tooling | 11 | 20 | 11 | 11 |
-| [statsd/statsd](https://github.com/statsd/statsd) | 18040 | 2025-05-20T07:22:42Z | JavaScript | Infrastructure/tooling | 5 | 8 | 5 | 5 |
+| [standard/standard](https://github.com/standard/standard) | 29439 | 2025-07-11T08:28:23Z | JavaScript | Infrastructure/tooling | 11 | 20 | 11 | 11 |
+| [statsd/statsd](https://github.com/statsd/statsd) | 18041 | 2025-05-20T07:22:42Z | JavaScript | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [feathericons/feather](https://github.com/feathericons/feather) | 25888 | 2025-03-11T02:18:59Z | JavaScript | Infrastructure/tooling | 2 | 19 | 2 | 2 |
 | [bvaughn/react-virtualized](https://github.com/bvaughn/react-virtualized) | 27074 | 2025-01-20T21:42:24Z | JavaScript | Infrastructure/tooling | 10 | 74 | 10 | 10 |
-| [browserify/browserify](https://github.com/browserify/browserify) | 14718 | 2024-12-21T10:04:24Z | JavaScript | Web app | 5 | 61 | 5 | 5 |
+| [browserify/browserify](https://github.com/browserify/browserify) | 14717 | 2024-12-21T10:04:24Z | JavaScript | Web app | 5 | 61 | 5 | 5 |
 | [mishoo/UglifyJS](https://github.com/mishoo/UglifyJS) | 13397 | 2024-11-22T08:11:38Z | JavaScript | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [fantasyland/fantasy-land](https://github.com/fantasyland/fantasy-land) | 10234 | 2024-11-10T21:50:53Z | JavaScript | Unknown | 3 | 1 | 3 | 3 |
 | [petkaantonov/bluebird](https://github.com/petkaantonov/bluebird) | 20572 | 2024-11-07T20:26:46Z | JavaScript | Library | 0 | 25 | 0 | 0 |
@@ -58,6 +58,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chjj/blessed](https://github.com/chjj/blessed) | 11823 | 2024-03-22T10:02:56Z | JavaScript | CLI | 0 | 0 | 0 | 0 |
 | [nuysoft/Mock](https://github.com/nuysoft/Mock) | 19629 | 2024-03-15T01:53:57Z | JavaScript | Unknown | 0 | 11 | 0 | 0 |
 | [jaredpalmer/razzle](https://github.com/jaredpalmer/razzle) | 11050 | 2024-03-11T08:45:43Z | JavaScript | Infrastructure/tooling | 10 | 41 | 10 | 11 |
+| [casesandberg/react-color](https://github.com/casesandberg/react-color) | 12303 | 2024-01-12T23:19:54Z | JavaScript | Unknown | 7 | 51 | 7 | 7 |
 | [yaronn/blessed-contrib](https://github.com/yaronn/blessed-contrib) | 15731 | 2024-01-09T09:13:26Z | JavaScript | CLI | 0 | 23 | 0 | 0 |
 | [kriskowal/q](https://github.com/kriskowal/q) | 15071 | 2023-11-08T10:50:34Z | JavaScript | Library | 0 | 9 | 0 | 0 |
 | [zalmoxisus/redux-devtools-extension](https://github.com/zalmoxisus/redux-devtools-extension) | 13492 | 2023-11-07T11:04:59Z | JavaScript | Unknown | 4 | 55 | 4 | 4 |
@@ -83,7 +84,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [agalwood/Motrix](https://github.com/agalwood/Motrix) | 51558 | 2024-07-11T12:09:20Z | JavaScript | Infrastructure/tooling | 12 | 81 | 12 | 12 |
 | [adobe/brackets](https://github.com/adobe/brackets) | 33074 | 2022-06-12T08:19:24Z | JavaScript | Web app | 0 | 41 | 0 | 0 |
 | [vuejs/vue-cli](https://github.com/vuejs/vue-cli) | 29596 | 2025-08-21T10:56:30Z | JavaScript | Web app | 0 | 42 | 0 | 0 |
-| [standard/standard](https://github.com/standard/standard) | 29438 | 2025-07-11T08:28:23Z | JavaScript | Infrastructure/tooling | 11 | 20 | 11 | 11 |
+| [standard/standard](https://github.com/standard/standard) | 29439 | 2025-07-11T08:28:23Z | JavaScript | Infrastructure/tooling | 11 | 20 | 11 | 11 |
 | [vuejs/vuex](https://github.com/vuejs/vuex) | 28370 | 2024-09-25T13:26:41Z | JavaScript | Infrastructure/tooling | 3 | 41 | 3 | 3 |
 | [YMFE/yapi](https://github.com/YMFE/yapi) | 27731 | 2024-08-12T09:29:34Z | JavaScript | Service/API | 3 | 125 | 3 | 3 |
 | [bvaughn/react-virtualized](https://github.com/bvaughn/react-virtualized) | 27074 | 2025-01-20T21:42:24Z | JavaScript | Infrastructure/tooling | 10 | 74 | 10 | 10 |
@@ -98,7 +99,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [enzymejs/enzyme](https://github.com/enzymejs/enzyme) | 19838 | 2025-10-22T15:55:30Z | JavaScript | Infrastructure/tooling | 16 | 49 | 16 | 16 |
 | [nuysoft/Mock](https://github.com/nuysoft/Mock) | 19629 | 2024-03-15T01:53:57Z | JavaScript | Unknown | 0 | 11 | 0 | 0 |
 | [dropzone/dropzone](https://github.com/dropzone/dropzone) | 18387 | 2024-07-15T15:20:29Z | JavaScript | Infrastructure/tooling | 5 | 29 | 5 | 5 |
-| [statsd/statsd](https://github.com/statsd/statsd) | 18040 | 2025-05-20T07:22:42Z | JavaScript | Infrastructure/tooling | 5 | 8 | 5 | 5 |
+| [statsd/statsd](https://github.com/statsd/statsd) | 18041 | 2025-05-20T07:22:42Z | JavaScript | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [janl/mustache.js](https://github.com/janl/mustache.js) | 16716 | 2024-06-14T19:54:48Z | JavaScript | Infrastructure/tooling | 2 | 16 | 2 | 2 |
 | [faressoft/terminalizer](https://github.com/faressoft/terminalizer) | 16111 | 2024-08-29T00:40:13Z | JavaScript | CLI | 13 | 30 | 16 | 16 |
 | [yaronn/blessed-contrib](https://github.com/yaronn/blessed-contrib) | 15731 | 2024-01-09T09:13:26Z | JavaScript | CLI | 0 | 23 | 0 | 0 |
@@ -106,12 +107,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kriskowal/q](https://github.com/kriskowal/q) | 15071 | 2023-11-08T10:50:34Z | JavaScript | Library | 0 | 9 | 0 | 0 |
 | [bower/bower](https://github.com/bower/bower) | 14926 | 2024-10-13T10:45:05Z | JavaScript | Infrastructure/tooling | 4 | 61 | 4 | 4 |
 | [acdlite/recompose](https://github.com/acdlite/recompose) | 14846 | 2022-09-10T03:59:05Z | JavaScript | Unknown | 0 | 49 | 0 | 0 |
-| [browserify/browserify](https://github.com/browserify/browserify) | 14718 | 2024-12-21T10:04:24Z | JavaScript | Web app | 5 | 61 | 5 | 5 |
+| [browserify/browserify](https://github.com/browserify/browserify) | 14717 | 2024-12-21T10:04:24Z | JavaScript | Web app | 5 | 61 | 5 | 5 |
 | [davidshimjs/qrcodejs](https://github.com/davidshimjs/qrcodejs) | 14275 | 2024-05-01T10:44:40Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [facebookarchive/prepack](https://github.com/facebookarchive/prepack) | 14117 | 2022-02-11T05:19:57Z | JavaScript | Unknown | 1 | 62 | 1 | 1 |
 | [zalmoxisus/redux-devtools-extension](https://github.com/zalmoxisus/redux-devtools-extension) | 13492 | 2023-11-07T11:04:59Z | JavaScript | Unknown | 4 | 55 | 4 | 4 |
 | [mishoo/UglifyJS](https://github.com/mishoo/UglifyJS) | 13397 | 2024-11-22T08:11:38Z | JavaScript | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [amfe/lib-flexible](https://github.com/amfe/lib-flexible) | 12534 | 2023-09-11T10:34:08Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |
+| [casesandberg/react-color](https://github.com/casesandberg/react-color) | 12303 | 2024-01-12T23:19:54Z | JavaScript | Unknown | 7 | 51 | 7 | 7 |
 | [marcotcr/lime](https://github.com/marcotcr/lime) | 12127 | 2024-07-25T20:32:21Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [chjj/blessed](https://github.com/chjj/blessed) | 11823 | 2024-03-22T10:02:56Z | JavaScript | CLI | 0 | 0 | 0 | 0 |
 | [Nozbe/WatermelonDB](https://github.com/Nozbe/WatermelonDB) | 11644 | 2025-08-11T12:09:31Z | JavaScript | Infrastructure/tooling | 7 | 116 | 7 | 7 |

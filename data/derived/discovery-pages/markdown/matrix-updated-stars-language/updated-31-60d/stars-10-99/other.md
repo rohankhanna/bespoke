@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 130
-- terms: 414
-- components: 453
-- concepts: 416
-- observations: 417
+- repos: 133
+- terms: 415
+- components: 456
+- concepts: 417
+- observations: 418
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [JuliaGPU/juliagpu.org](https://github.com/JuliaGPU/juliagpu.org) | 22 | 2026-04-15T03:58:16Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [w3c/webmediaapi](https://github.com/w3c/webmediaapi) | 32 | 2026-04-15T00:22:35Z | Other | Service/API | 0 | 0 | 0 | 0 |
+| [WebAssembly/custom-descriptors](https://github.com/WebAssembly/custom-descriptors) | 10 | 2026-04-15T00:00:53Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [m87-labs/moondream-examples](https://github.com/m87-labs/moondream-examples) | 72 | 2026-04-14T17:00:05Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [kendryte/k230_canmv_docs](https://github.com/kendryte/k230_canmv_docs) | 16 | 2026-04-14T06:17:02Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [hashicorp/hello-vault-dotnet](https://github.com/hashicorp/hello-vault-dotnet) | 31 | 2026-04-14T05:09:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [NitroDevs/FShopOnWeb](https://github.com/NitroDevs/FShopOnWeb) | 27 | 2026-04-14T03:50:55Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -155,7 +159,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [opencontainers/.github](https://github.com/opencontainers/.github) | 55 | 2026-03-16T21:53:30Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [V13Axel/neotest-pest](https://github.com/V13Axel/neotest-pest) | 38 | 2026-03-16T20:41:34Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [coin-or-tools/homebrew-coinor](https://github.com/coin-or-tools/homebrew-coinor) | 12 | 2026-03-16T19:03:19Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [apache/pdfbox-docs](https://github.com/apache/pdfbox-docs) | 32 | 2026-03-15T18:19:33Z | Other | Docs/knowledge | 4 | 8 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -180,6 +183,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ankane/trove](https://github.com/ankane/trove) | 78 | 2026-04-09T18:50:57Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [SciML/sciml.ai](https://github.com/SciML/sciml.ai) | 75 | 2026-03-21T12:34:46Z | Other | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [BirolLab/LINKS](https://github.com/BirolLab/LINKS) | 73 | 2026-03-27T14:46:35Z | Other | Infrastructure/tooling | 8 | 1 | 8 | 8 |
+| [m87-labs/moondream-examples](https://github.com/m87-labs/moondream-examples) | 72 | 2026-04-14T17:00:05Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [inhere/php-sroute](https://github.com/inhere/php-sroute) | 71 | 2026-04-14T03:03:21Z | Other | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [sbcgua/ajson](https://github.com/sbcgua/ajson) | 68 | 2026-04-13T17:12:39Z | Other | Infrastructure/tooling | 6 | 5 | 7 | 7 |
 | [awslabs/aws-lc-verification](https://github.com/awslabs/aws-lc-verification) | 67 | 2026-03-26T14:17:49Z | Other | Infrastructure/tooling | 5 | 1 | 5 | 5 |
@@ -228,10 +232,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [php-toolkit/pflag](https://github.com/php-toolkit/pflag) | 34 | 2026-04-13T10:10:03Z | Other | CLI | 11 | 5 | 11 | 11 |
 | [malewicz1337/oil-git.nvim](https://github.com/malewicz1337/oil-git.nvim) | 34 | 2026-03-17T22:30:13Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [red-data-tools/red-datasets](https://github.com/red-data-tools/red-datasets) | 33 | 2026-04-14T01:43:20Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
+| [w3c/webmediaapi](https://github.com/w3c/webmediaapi) | 32 | 2026-04-15T00:22:35Z | Other | Service/API | 0 | 0 | 0 | 0 |
 | [kbenzie/vim-spirv](https://github.com/kbenzie/vim-spirv) | 32 | 2026-04-11T00:27:50Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [JuliaCI/PkgEval.jl](https://github.com/JuliaCI/PkgEval.jl) | 32 | 2026-04-02T04:55:30Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [apollographql/apollo-ios-pagination](https://github.com/apollographql/apollo-ios-pagination) | 32 | 2026-03-30T17:25:25Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [apache/pdfbox-docs](https://github.com/apache/pdfbox-docs) | 32 | 2026-03-15T18:19:33Z | Other | Docs/knowledge | 4 | 8 | 4 | 4 |
 | [hashicorp/hello-vault-dotnet](https://github.com/hashicorp/hello-vault-dotnet) | 31 | 2026-04-14T05:09:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [bencheeorg/statistex](https://github.com/bencheeorg/statistex) | 30 | 2026-04-11T09:01:31Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [ropensci/allcontributors](https://github.com/ropensci/allcontributors) | 30 | 2026-04-02T10:45:18Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
@@ -251,6 +255,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [contributte/monolog](https://github.com/contributte/monolog) | 24 | 2026-03-29T09:52:31Z | Other | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [dominique-unruh/qrhl-tool](https://github.com/dominique-unruh/qrhl-tool) | 23 | 2026-04-09T21:42:14Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [ocurrent/ocurrent-deployer](https://github.com/ocurrent/ocurrent-deployer) | 23 | 2026-03-31T17:20:28Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
+| [JuliaGPU/juliagpu.org](https://github.com/JuliaGPU/juliagpu.org) | 22 | 2026-04-15T03:58:16Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [oap-project/oap-mllib](https://github.com/oap-project/oap-mllib) | 22 | 2026-03-24T00:41:48Z | Other | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [PKU-YuanGroup/Helios-Page](https://github.com/PKU-YuanGroup/Helios-Page) | 21 | 2026-04-14T03:18:03Z | Other | Model/data | 20 | 0 | 20 | 20 |
 | [php-toolkit/cli-utils](https://github.com/php-toolkit/cli-utils) | 20 | 2026-04-14T02:01:14Z | Other | CLI | 6 | 3 | 6 | 6 |
@@ -287,6 +292,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [coin-or-tools/homebrew-coinor](https://github.com/coin-or-tools/homebrew-coinor) | 12 | 2026-03-16T19:03:19Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [0x-ximon/acario.nvim](https://github.com/0x-ximon/acario.nvim) | 11 | 2026-03-30T16:34:09Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [appsignal/mono](https://github.com/appsignal/mono) | 11 | 2026-03-26T12:28:37Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
+| [WebAssembly/custom-descriptors](https://github.com/WebAssembly/custom-descriptors) | 10 | 2026-04-15T00:00:53Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [ajevans99/swift-mcp-toolkit](https://github.com/ajevans99/swift-mcp-toolkit) | 10 | 2026-04-13T23:40:35Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [xledger/pod_sql_server](https://github.com/xledger/pod_sql_server) | 10 | 2026-04-02T22:45:00Z | Other | Service/API | 0 | 0 | 0 | 0 |
 | [mugh/minecraft-bedrock-server-manager](https://github.com/mugh/minecraft-bedrock-server-manager) | 10 | 2026-03-31T12:07:15Z | Other | Infrastructure/tooling | 0 | 14 | 0 | 0 |

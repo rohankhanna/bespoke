@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 56
-- terms: 143
-- components: 223
-- concepts: 123
-- observations: 123
+- repos: 55
+- terms: 151
+- components: 239
+- concepts: 131
+- observations: 131
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [usdot-fhwa-stol/carma-config](https://github.com/usdot-fhwa-stol/carma-config) | 5 | 2026-04-30T18:18:33Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [usdot-fhwa-stol/cdasim-config](https://github.com/usdot-fhwa-stol/cdasim-config) | 1 | 2026-04-30T12:28:14Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [compiler-research/cppyy](https://github.com/compiler-research/cppyy) | 1 | 2026-04-30T10:43:13Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [demonatic/flash-attention](https://github.com/demonatic/flash-attention) | 3 | 2026-04-30T06:56:20Z | Python | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [zopefoundation/meta](https://github.com/zopefoundation/meta) | 8 | 2026-04-30T06:47:18Z | Python | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [flagos-ai/Megatron-LM-FL](https://github.com/flagos-ai/Megatron-LM-FL) | 4 | 2026-04-30T02:21:15Z | Python | Infrastructure/tooling | 5 | 9 | 5 | 5 |
@@ -78,10 +81,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [audeering/audonnx](https://github.com/audeering/audonnx) | 8 | 2026-04-16T12:58:09Z | Python | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [apptainer/apptainer-userdocs](https://github.com/apptainer/apptainer-userdocs) | 6 | 2026-04-15T17:13:20Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [apptainer/apptainer-admindocs](https://github.com/apptainer/apptainer-admindocs) | 3 | 2026-04-15T17:13:07Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [agenmod/distill-shield-skill](https://github.com/agenmod/distill-shield-skill) | 1 | 2026-04-15T02:44:42Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [agenmod/distill-protocol-skill](https://github.com/agenmod/distill-protocol-skill) | 1 | 2026-04-15T02:44:41Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [dora-rs/dora-benchmark](https://github.com/dora-rs/dora-benchmark) | 9 | 2026-04-14T15:18:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [Jango-AI-com/morning-cli](https://github.com/Jango-AI-com/morning-cli) | 7 | 2026-04-14T11:39:05Z | Python | CLI | 0 | 2 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -91,17 +90,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mlcommons/submissions_algorithms](https://github.com/mlcommons/submissions_algorithms) | 9 | 2026-04-27T17:36:09Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [scaleway/serverless-api-framework-python](https://github.com/scaleway/serverless-api-framework-python) | 9 | 2026-04-27T16:58:01Z | Python | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [plone/cookieplone-templates](https://github.com/plone/cookieplone-templates) | 9 | 2026-04-27T11:10:47Z | Python | Infrastructure/tooling | 6 | 7 | 6 | 6 |
-| [dora-rs/dora-benchmark](https://github.com/dora-rs/dora-benchmark) | 9 | 2026-04-14T15:18:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [zopefoundation/meta](https://github.com/zopefoundation/meta) | 8 | 2026-04-30T06:47:18Z | Python | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [ParisNeo/lollms_client](https://github.com/ParisNeo/lollms_client) | 8 | 2026-04-28T07:44:03Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [ModelCloud/LogBar](https://github.com/ModelCloud/LogBar) | 8 | 2026-04-22T15:12:39Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [onicai/IConfucius](https://github.com/onicai/IConfucius) | 8 | 2026-04-20T12:59:18Z | Python | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [audeering/audonnx](https://github.com/audeering/audonnx) | 8 | 2026-04-16T12:58:09Z | Python | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [chaoss/grimoirelab-toolkit](https://github.com/chaoss/grimoirelab-toolkit) | 7 | 2026-04-16T13:38:44Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
-| [Jango-AI-com/morning-cli](https://github.com/Jango-AI-com/morning-cli) | 7 | 2026-04-14T11:39:05Z | Python | CLI | 0 | 2 | 0 | 0 |
 | [andriykohut/pdm-readiness](https://github.com/andriykohut/pdm-readiness) | 6 | 2026-04-22T03:23:52Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [etanhey/brainlayer](https://github.com/EtanHey/brainlayer) | 6 | 2026-04-18T17:54:55Z | Python | Infrastructure/tooling | 2 | 4 | 0 | 0 |
 | [apptainer/apptainer-userdocs](https://github.com/apptainer/apptainer-userdocs) | 6 | 2026-04-15T17:13:20Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [usdot-fhwa-stol/carma-config](https://github.com/usdot-fhwa-stol/carma-config) | 5 | 2026-04-30T18:18:33Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [atlanhq/atlan-sample-apps](https://github.com/atlanhq/atlan-sample-apps) | 5 | 2026-04-28T16:42:18Z | Python | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [TJC-LP/sanzaru](https://github.com/TJC-LP/sanzaru) | 5 | 2026-04-25T19:24:00Z | Python | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [kalavai-net/kube-watcher](https://github.com/kalavai-net/kube-watcher) | 5 | 2026-04-24T15:25:39Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -128,6 +126,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [caesar0301/soothe](https://github.com/caesar0301/soothe) | 2 | 2026-04-19T11:39:59Z | Python | Infrastructure/tooling | 1 | 3 | 0 | 0 |
 | [verkyyi/tokenman](https://github.com/verkyyi/tokenman) | 2 | 2026-04-19T06:57:48Z | Python | Infrastructure/tooling | 8 | 11 | 0 | 0 |
 | [piqrypt/piqrypt](https://github.com/PiQrypt/piqrypt) | 2 | 2026-04-17T10:34:51Z | Python | Infrastructure/tooling | 2 | 6 | 0 | 0 |
+| [usdot-fhwa-stol/cdasim-config](https://github.com/usdot-fhwa-stol/cdasim-config) | 1 | 2026-04-30T12:28:14Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [compiler-research/cppyy](https://github.com/compiler-research/cppyy) | 1 | 2026-04-30T10:43:13Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [eea/eea-website-backend](https://github.com/eea/eea-website-backend) | 1 | 2026-04-29T15:23:24Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [mozilla-ai/tinyagent](https://github.com/mozilla-ai/tinyagent) | 1 | 2026-04-29T13:40:33Z | Python | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [conda-forge/threadpoolctl-feedstock](https://github.com/conda-forge/threadpoolctl-feedstock) | 1 | 2026-04-24T03:50:03Z | Python | Infrastructure/tooling | 1 | 0 | 1 | 1 |
@@ -141,5 +141,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sunthinks/kvmind](https://github.com/sunthinks/kvmind) | 1 | 2026-04-18T02:03:25Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [xiaochu-1208/interview-assistant-cli](https://github.com/XiaoChu-1208/interview-assistant-CLI) | 1 | 2026-04-17T16:53:54Z | Python | CLI | 1 | 5 | 0 | 0 |
 | [danielrosehill/Audio-Understanding-Bitrate-Eval-0426](https://github.com/danielrosehill/Audio-Understanding-Bitrate-Eval-0426) | 1 | 2026-04-17T12:45:06Z | Python | Unknown | 2 | 0 | 2 | 2 |
-| [agenmod/distill-shield-skill](https://github.com/agenmod/distill-shield-skill) | 1 | 2026-04-15T02:44:42Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [agenmod/distill-protocol-skill](https://github.com/agenmod/distill-protocol-skill) | 1 | 2026-04-15T02:44:41Z | Python | Unknown | 0 | 0 | 0 | 0 |

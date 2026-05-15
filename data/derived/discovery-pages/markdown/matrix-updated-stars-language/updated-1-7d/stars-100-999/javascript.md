@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 21
-- components: 93
-- concepts: 21
-- observations: 21
+- repos: 3
+- terms: 10
+- components: 71
+- concepts: 10
+- observations: 10
 
 ## Static behavior
 
@@ -26,7 +26,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [GDevelopApp/GDevelop-extensions](https://github.com/GDevelopApp/GDevelop-extensions) | 247 | 2026-05-12T22:53:35Z | JavaScript | Infrastructure/tooling | 11 | 22 | 11 | 11 |
 | [GoogleCloudPlatform/google-cloud-node-todos](https://github.com/GoogleCloudPlatform/google-cloud-node-todos) | 114 | 2026-05-12T15:03:14Z | JavaScript | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [Calcium-Ion/new-api-key-tool](https://github.com/Calcium-Ion/new-api-key-tool) | 352 | 2026-05-12T13:38:15Z | JavaScript | Infrastructure/tooling | 0 | 16 | 0 | 0 |
 | [jupyter/nbclassic](https://github.com/jupyter/nbclassic) | 110 | 2026-05-09T13:58:48Z | JavaScript | Infrastructure/tooling | 10 | 47 | 10 | 10 |
@@ -36,6 +35,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [Calcium-Ion/new-api-key-tool](https://github.com/Calcium-Ion/new-api-key-tool) | 352 | 2026-05-12T13:38:15Z | JavaScript | Infrastructure/tooling | 0 | 16 | 0 | 0 |
-| [GDevelopApp/GDevelop-extensions](https://github.com/GDevelopApp/GDevelop-extensions) | 247 | 2026-05-12T22:53:35Z | JavaScript | Infrastructure/tooling | 11 | 22 | 11 | 11 |
 | [GoogleCloudPlatform/google-cloud-node-todos](https://github.com/GoogleCloudPlatform/google-cloud-node-todos) | 114 | 2026-05-12T15:03:14Z | JavaScript | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [jupyter/nbclassic](https://github.com/jupyter/nbclassic) | 110 | 2026-05-09T13:58:48Z | JavaScript | Infrastructure/tooling | 10 | 47 | 10 | 10 |

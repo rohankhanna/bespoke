@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Shell
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 10
-- terms: 66
-- components: 35
-- concepts: 73
-- observations: 73
+- repos: 11
+- terms: 72
+- components: 37
+- concepts: 79
+- observations: 79
 
 ## Static behavior
 
@@ -26,8 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [nodesource/distributions](https://github.com/nodesource/distributions) | 13833 | 2026-04-14T15:56:49Z | Shell | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) | 19400 | 2026-04-13T20:01:47Z | Shell | CLI | 4 | 0 | 4 | 4 |
-| [tj/n](https://github.com/tj/n) | 19523 | 2026-04-12T09:32:18Z | Shell | Unknown | 0 | 3 | 0 | 0 |
+| [tj/n](https://github.com/tj/n) | 19517 | 2026-04-12T09:32:18Z | Shell | Unknown | 0 | 3 | 0 | 0 |
 | [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides) | 16054 | 2026-04-08T18:23:28Z | Shell | Unknown | 9 | 0 | 9 | 9 |
 | [oh-my-fish/oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) | 11277 | 2026-04-07T01:00:45Z | Shell | CLI | 9 | 1 | 10 | 10 |
 | [dockur/windows](https://github.com/dockur/windows) | 51107 | 2026-04-01T21:07:16Z | Shell | Infrastructure/tooling | 14 | 20 | 14 | 14 |
@@ -43,11 +44,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [dockur/windows](https://github.com/dockur/windows) | 51107 | 2026-04-01T21:07:16Z | Shell | Infrastructure/tooling | 14 | 20 | 14 | 14 |
 | [lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai) | 24091 | 2026-03-17T15:15:14Z | Shell | Infrastructure/tooling | 6 | 6 | 6 | 6 |
-| [tj/n](https://github.com/tj/n) | 19523 | 2026-04-12T09:32:18Z | Shell | Unknown | 0 | 3 | 0 | 0 |
+| [tj/n](https://github.com/tj/n) | 19517 | 2026-04-12T09:32:18Z | Shell | Unknown | 0 | 3 | 0 | 0 |
 | [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) | 19400 | 2026-04-13T20:01:47Z | Shell | CLI | 4 | 0 | 4 | 4 |
 | [githubnext/monaspace](https://github.com/githubnext/monaspace) | 19063 | 2026-03-27T23:10:14Z | Shell | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [rbenv/rbenv](https://github.com/rbenv/rbenv) | 16678 | 2026-03-23T23:25:13Z | Shell | Infrastructure/tooling | 5 | 3 | 7 | 7 |
 | [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides) | 16054 | 2026-04-08T18:23:28Z | Shell | Unknown | 9 | 0 | 9 | 9 |
 | [sorin-ionescu/prezto](https://github.com/sorin-ionescu/prezto) | 14513 | 2026-03-23T05:50:18Z | Shell | CLI | 8 | 0 | 9 | 9 |
 | [sindresorhus/pure](https://github.com/sindresorhus/pure) | 14202 | 2026-03-27T13:43:51Z | Shell | CLI | 5 | 0 | 8 | 8 |
+| [nodesource/distributions](https://github.com/nodesource/distributions) | 13833 | 2026-04-14T15:56:49Z | Shell | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [oh-my-fish/oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) | 11277 | 2026-04-07T01:00:45Z | Shell | CLI | 9 | 1 | 10 | 10 |

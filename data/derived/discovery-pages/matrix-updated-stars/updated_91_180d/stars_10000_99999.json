@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 983,
-    "concepts": 572,
-    "observations": 575,
+    "components": 908,
+    "concepts": 569,
+    "observations": 572,
     "repos": 87,
-    "terms": 568
+    "terms": 565
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -28,7 +28,6 @@
     "caolan/async",
     "carbon-app/carbon",
     "chalk/chalk",
-    "ChatGPTNextWeb/NextChat",
     "CISOfy/lynis",
     "cleanlab/cleanlab",
     "containrrr/watchtower",
@@ -89,6 +88,7 @@
     "tachyons-css/tachyons",
     "Tencent-Hunyuan/HunyuanVideo",
     "toml-lang/toml",
+    "tqdm/tqdm",
     "transitive-bullshit/agentic",
     "twbs/bootstrap-sass",
     "unifyai/ivy",

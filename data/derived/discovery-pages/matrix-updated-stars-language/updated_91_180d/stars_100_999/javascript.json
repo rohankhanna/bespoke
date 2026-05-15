@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 667,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 42,
-    "terms": 110
+    "components": 685,
+    "concepts": 112,
+    "observations": 112,
+    "repos": 43,
+    "terms": 112
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "adriantoine/enzyme-to-json",
     "agenda/agendash",
@@ -36,7 +36,6 @@
     "mathjax/MathJax-demos-node",
     "Meteor-Community-Packages/meteor-scss",
     "microsoft/botbuilder-tools",
-    "mourner/rbush-knn",
     "nodejs/abi-stable-node",
     "nodejs/citgm",
     "nodenv/jetbrains-npm",
@@ -44,6 +43,7 @@
     "omnidan/redux-recycle",
     "omnidan/redux-undo-boilerplate",
     "prebuild/prebuild",
+    "raywo/MMM-NowPlayingOnSpotify",
     "restify/errors",
     "RJWadley/stylelint-no-unsupported-browser-features",
     "RReverser/wasm-bindgen-rayon",
@@ -54,6 +54,7 @@
     "stsquad/emacs_chrome",
     "sveltejs/rollup-plugin-svelte",
     "svg-sprite/gulp-svg-sprite",
+    "testing-library/eslint-plugin-jest-dom",
     "tonyganch/gonzales-pe",
     "tree-sitter/tree-sitter-javascript"
   ]

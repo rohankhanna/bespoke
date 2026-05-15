@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 418,
-    "concepts": 180,
-    "observations": 182,
-    "repos": 114,
-    "terms": 183
+    "concepts": 191,
+    "observations": 193,
+    "repos": 119,
+    "terms": 194
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "9romise/eslint-config",
@@ -22,6 +22,8 @@
     "adammes/voyanode",
     "adiny/moodtrip-hotel-search",
     "adipalko/hatraot",
+    "ainvaltin/nu_plugin_boltdb",
+    "ainvaltin/nu_plugin_plist",
     "aldernero/debugui",
     "amoniacou/external-dns-digitalocean-webhook",
     "arckoor/botan-rs",
@@ -49,6 +51,7 @@
     "danielrosehill/Backup-Projects-Index",
     "danielrosehill/brainstorm-solutions-plugin",
     "danielrosehill/Bug-Reports-And-Fixes",
+    "danielrosehill/Claude-Calls-The-Shots",
     "danielrosehill/Context-Projects-Index",
     "danielrosehill/Deployments-Index",
     "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
@@ -65,11 +68,13 @@
     "danielrosehill/Israel-Preparedness-Index",
     "danielrosehill/Jewish-Related-Index",
     "danielrosehill/Linux-Desktop-Tools-Index",
+    "danielrosehill/Live-Typing-UX-Research",
     "danielrosehill/Networking-And-Infrastructure-Index",
     "danielrosehill/Networking-Projects-Index",
     "danielrosehill/Patches-Repos-Index",
     "danielrosehill/Price-Research-Index",
     "danielrosehill/Red-Alert-Monitoring-Stack",
+    "danielrosehill/Research-Tools-And-Templates-Index",
     "danielrosehill/Skills-Repos-Index",
     "datachainlab/cosmos-bsc-ibc-lcp",
     "datachainlab/ibc-parlia-relay",

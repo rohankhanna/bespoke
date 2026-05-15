@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 55
-- terms: 206
-- components: 100
-- concepts: 206
-- observations: 207
+- repos: 57
+- terms: 210
+- components: 115
+- concepts: 210
+- observations: 211
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [getlantern/lantern-binaries](https://github.com/getlantern/lantern-binaries) | 113 | 2026-05-01T02:52:19Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
+| [box/box-openapi](https://github.com/box/box-openapi) | 100 | 2026-04-30T15:48:41Z | Unknown | Infrastructure/tooling | 7 | 8 | 7 | 7 |
+| [graalvm/mandrel](https://github.com/graalvm/mandrel) | 440 | 2026-04-30T14:04:25Z | Unknown | Infrastructure/tooling | 14 | 7 | 14 | 14 |
+| [48Club/bsc-snapshots](https://github.com/48Club/bsc-snapshots) | 191 | 2026-04-30T10:41:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [graalvm/graalvm-ce-dev-builds](https://github.com/graalvm/graalvm-ce-dev-builds) | 104 | 2026-04-30T05:00:30Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [fluxcd/flux2-multi-tenancy](https://github.com/fluxcd/flux2-multi-tenancy) | 595 | 2026-04-30T00:22:13Z | Unknown | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [github/copilot-language-server-release](https://github.com/github/copilot-language-server-release) | 269 | 2026-04-29T23:42:04Z | Unknown | Service/API | 1 | 0 | 1 | 1 |
@@ -79,8 +83,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [github/codeql-cli-binaries](https://github.com/github/codeql-cli-binaries) | 972 | 2026-04-15T10:45:32Z | Unknown | CLI | 1 | 0 | 1 | 1 |
 | [ranpox/awesome-computer-use](https://github.com/ranpox/awesome-computer-use) | 549 | 2026-04-15T09:56:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [bloomberg/clang-p2996](https://github.com/bloomberg/clang-p2996) | 195 | 2026-04-15T09:19:31Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
-| [servo/project](https://github.com/servo/project) | 248 | 2026-04-14T13:31:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [SamurAIGPT/awesome-openclaw](https://github.com/SamurAIGPT/awesome-openclaw) | 892 | 2026-04-14T11:33:44Z | Unknown | Unknown | 18 | 0 | 18 | 18 |
 
 ## Repos sorted by stars
 
@@ -89,7 +91,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [github/codeql-cli-binaries](https://github.com/github/codeql-cli-binaries) | 972 | 2026-04-15T10:45:32Z | Unknown | CLI | 1 | 0 | 1 | 1 |
 | [cloudflare/skills](https://github.com/cloudflare/skills) | 920 | 2026-04-16T12:56:33Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [ghimiresunil/Top-AI-Tools](https://github.com/ghimiresunil/Top-AI-Tools) | 893 | 2026-04-21T15:57:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [SamurAIGPT/awesome-openclaw](https://github.com/SamurAIGPT/awesome-openclaw) | 892 | 2026-04-14T11:33:44Z | Unknown | Unknown | 18 | 0 | 18 | 18 |
 | [emberjs/rfcs](https://github.com/emberjs/rfcs) | 802 | 2026-04-20T15:19:48Z | Unknown | CLI | 8 | 4 | 8 | 8 |
 | [cisagov/vulnrichment](https://github.com/cisagov/vulnrichment) | 757 | 2026-04-24T05:15:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ymcui/MacBERT](https://github.com/ymcui/MacBERT) | 710 | 2026-04-19T01:01:07Z | Unknown | Model/data | 6 | 0 | 6 | 6 |
@@ -104,6 +105,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MicrosoftDocs/terminal](https://github.com/MicrosoftDocs/terminal) | 509 | 2026-04-15T17:30:29Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [stripe/openapi](https://github.com/stripe/openapi) | 474 | 2026-04-21T00:38:44Z | Unknown | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [abhisheknaiidu/abhisheknaiidu](https://github.com/abhisheknaiidu/abhisheknaiidu) | 446 | 2026-04-22T20:39:45Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [graalvm/mandrel](https://github.com/graalvm/mandrel) | 440 | 2026-04-30T14:04:25Z | Unknown | Infrastructure/tooling | 14 | 7 | 14 | 14 |
 | [Uzaaft/awesome-libghostty](https://github.com/Uzaaft/awesome-libghostty) | 433 | 2026-04-16T08:47:27Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [tinted-theming/home](https://github.com/tinted-theming/home) | 425 | 2026-04-21T21:20:23Z | Unknown | Infrastructure/tooling | 6 | 4 | 6 | 7 |
 | [piebald-ai/awesome-gemini-cli](https://github.com/Piebald-AI/awesome-gemini-cli) | 419 | 2026-04-16T13:53:06Z | Unknown | CLI | 10 | 0 | 10 | 10 |
@@ -116,10 +118,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mason-org/mason-registry](https://github.com/mason-org/mason-registry) | 284 | 2026-04-22T02:21:31Z | Unknown | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [github/copilot-language-server-release](https://github.com/github/copilot-language-server-release) | 269 | 2026-04-29T23:42:04Z | Unknown | Service/API | 1 | 0 | 1 | 1 |
 | [smithy-lang/awesome-smithy](https://github.com/smithy-lang/awesome-smithy) | 248 | 2026-04-28T07:07:04Z | Unknown | CLI | 6 | 0 | 6 | 6 |
-| [servo/project](https://github.com/servo/project) | 248 | 2026-04-14T13:31:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [gautamkrishnar/gautamkrishnar](https://github.com/gautamkrishnar/gautamkrishnar) | 247 | 2026-04-16T22:16:28Z | Unknown | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [actions/partner-runner-images](https://github.com/actions/partner-runner-images) | 229 | 2026-04-17T21:29:35Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [bloomberg/clang-p2996](https://github.com/bloomberg/clang-p2996) | 195 | 2026-04-15T09:19:31Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
+| [48Club/bsc-snapshots](https://github.com/48Club/bsc-snapshots) | 191 | 2026-04-30T10:41:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [CVEProject/automation-working-group](https://github.com/CVEProject/automation-working-group) | 184 | 2026-04-22T00:07:51Z | Unknown | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [chromedp/cdproto](https://github.com/chromedp/cdproto) | 178 | 2026-04-27T01:31:51Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [eryajf/awesome-stars-eryajf](https://github.com/eryajf/awesome-stars-eryajf) | 175 | 2026-04-23T01:53:58Z | Unknown | Infrastructure/tooling | 3 | 2 | 3 | 3 |
@@ -136,8 +138,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dotnet/AspNetApiDocs](https://github.com/dotnet/AspNetApiDocs) | 132 | 2026-04-15T16:14:26Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [ietf-tools/.github](https://github.com/ietf-tools/.github) | 119 | 2026-04-17T01:47:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ipfs-examples/helia-examples](https://github.com/ipfs-examples/helia-examples) | 114 | 2026-04-21T11:38:37Z | Unknown | Infrastructure/tooling | 6 | 8 | 6 | 6 |
+| [getlantern/lantern-binaries](https://github.com/getlantern/lantern-binaries) | 113 | 2026-05-01T02:52:19Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [LuaLS/LLS-Addons](https://github.com/LuaLS/LLS-Addons) | 113 | 2026-04-26T02:24:01Z | Unknown | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [LemmyNet/lemmy-docs](https://github.com/LemmyNet/lemmy-docs) | 105 | 2026-04-25T04:27:52Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [antonbabenko/awesome-terraform-compliance](https://github.com/antonbabenko/awesome-terraform-compliance) | 105 | 2026-04-22T06:44:04Z | Unknown | Infrastructure/tooling | 11 | 3 | 11 | 11 |
 | [graalvm/graalvm-ce-dev-builds](https://github.com/graalvm/graalvm-ce-dev-builds) | 104 | 2026-04-30T05:00:30Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [luau-lang/rfcs](https://github.com/luau-lang/rfcs) | 103 | 2026-04-27T21:11:30Z | Unknown | Infrastructure/tooling | 4 | 1 | 4 | 4 |
+| [box/box-openapi](https://github.com/box/box-openapi) | 100 | 2026-04-30T15:48:41Z | Unknown | Infrastructure/tooling | 7 | 8 | 7 | 7 |

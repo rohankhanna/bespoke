@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Shell
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 3
-- components: 3
-- concepts: 3
-- observations: 3
+- repos: 2
+- terms: 11
+- components: 8
+- concepts: 11
+- observations: 11
 
 ## Static behavior
 
@@ -26,10 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ROCm/ROCm](https://github.com/ROCm/ROCm) | 6484 | 2026-05-13T14:53:49Z | Shell | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [webinstall/webi-installers](https://github.com/webinstall/webi-installers) | 2871 | 2026-05-15T00:15:45Z | Shell | Infrastructure/tooling | 8 | 5 | 8 | 8 |
+| [ROCm/ROCm](https://github.com/ROCm/ROCm) | 6486 | 2026-05-14T16:00:26Z | Shell | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ROCm/ROCm](https://github.com/ROCm/ROCm) | 6484 | 2026-05-13T14:53:49Z | Shell | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [ROCm/ROCm](https://github.com/ROCm/ROCm) | 6486 | 2026-05-14T16:00:26Z | Shell | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [webinstall/webi-installers](https://github.com/webinstall/webi-installers) | 2871 | 2026-05-15T00:15:45Z | Shell | Infrastructure/tooling | 8 | 5 | 8 | 8 |

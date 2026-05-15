@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 560,
-    "concepts": 125,
-    "observations": 125,
-    "repos": 13,
-    "terms": 122
+    "components": 653,
+    "concepts": 160,
+    "observations": 160,
+    "repos": 15,
+    "terms": 157
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,22 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "ajv-validator/ajv",
     "clauderic/dnd-kit",
     "fastapi/full-stack-fastapi-template",
+    "fuma-nama/fumadocs",
     "googleapis/google-api-nodejs-client",
     "jestjs/jest",
     "Kilo-Org/kilocode",
+    "Koenkk/zigbee2mqtt",
     "langchain-ai/langchainjs",
+    "lucide-icons/lucide",
     "modelcontextprotocol/typescript-sdk",
     "realworld-apps/realworld",
     "Redocly/redoc",
     "RooCodeInc/Roo-Code",
-    "unocss/unocss",
-    "vercel-labs/skills"
+    "unocss/unocss"
   ]
 }

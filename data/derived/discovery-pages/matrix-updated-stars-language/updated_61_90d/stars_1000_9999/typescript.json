@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 811,
-    "concepts": 103,
-    "observations": 103,
-    "repos": 25,
-    "terms": 107
+    "components": 852,
+    "concepts": 112,
+    "observations": 112,
+    "repos": 27,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "antfu-collective/vitesse",
@@ -21,6 +21,7 @@
     "arktypeio/arktype",
     "coaidev/coai",
     "cosmiconfig/cosmiconfig",
+    "jamiebrynes7/obsidian-todoist-plugin",
     "jnsahaj/tweakcn",
     "jonaskello/tsconfig-paths",
     "jupyter-widgets/ipyleaflet",
@@ -35,6 +36,7 @@
     "standard-schema/standard-schema",
     "stravu/crystal",
     "supermacro/neverthrow",
+    "t0bst4r/home-assistant-matter-hub",
     "tsconfig/bases",
     "ulid/javascript",
     "unjs/unplugin",

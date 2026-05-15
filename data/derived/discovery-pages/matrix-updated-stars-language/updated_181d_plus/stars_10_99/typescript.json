@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3990,
-    "concepts": 511,
-    "observations": 512,
-    "repos": 181,
-    "terms": 522
+    "components": 4013,
+    "concepts": 519,
+    "observations": 520,
+    "repos": 183,
+    "terms": 530
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "101arrowz/compression-streams-polyfill",
     "6/openai-caching-proxy-worker",
@@ -68,6 +68,7 @@
     "danielnappa/tweakgc-cli",
     "dannyhw/expo-template-storybook",
     "darwinai/covidnet_ui",
+    "daybrush/css-styled",
     "DefinitelyTyped/dts-critic",
     "devcontainers/action",
     "DiFuks/ts-overrides-plugin",
@@ -128,6 +129,7 @@
     "lobehub/chat-plugins-gateway",
     "longlho/ts-transform-img",
     "luizbarboza/polyclip-ts",
+    "Luligu/zigbee2mqtt-automations",
     "LumaKernel/ddc-tabnine",
     "macchie/minecraft-bedrock-server-bridge",
     "majo44/storeon-async-router",

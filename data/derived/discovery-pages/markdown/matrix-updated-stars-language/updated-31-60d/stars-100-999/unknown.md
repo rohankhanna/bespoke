@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-14T08:57:55.788728+00:00`
+Generated at: `2026-05-15T07:48:48.712236+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 35
-- terms: 125
+- repos: 37
+- terms: 143
 - components: 27
-- concepts: 126
-- observations: 126
+- concepts: 144
+- observations: 144
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [servo/project](https://github.com/servo/project) | 248 | 2026-04-14T13:31:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [SamurAIGPT/awesome-openclaw](https://github.com/SamurAIGPT/awesome-openclaw) | 892 | 2026-04-14T11:33:44Z | Unknown | Unknown | 18 | 0 | 18 | 18 |
 | [sedyh/awesome-ebitengine](https://github.com/sedyh/awesome-ebitengine) | 960 | 2026-04-13T18:39:21Z | Unknown | Framework | 7 | 0 | 7 | 7 |
 | [integrations/microsoft-teams](https://github.com/integrations/microsoft-teams) | 537 | 2026-04-13T16:06:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [antonbabenko/terraform-aws-devops](https://github.com/antonbabenko/terraform-aws-devops) | 495 | 2026-04-13T09:45:44Z | Unknown | Infrastructure/tooling | 7 | 0 | 7 | 7 |
@@ -69,6 +71,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [preactjs/awesome-preact](https://github.com/preactjs/awesome-preact) | 988 | 2026-04-09T10:49:34Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [sedyh/awesome-ebitengine](https://github.com/sedyh/awesome-ebitengine) | 960 | 2026-04-13T18:39:21Z | Unknown | Framework | 7 | 0 | 7 | 7 |
 | [apple/device-management](https://github.com/apple/device-management) | 907 | 2026-03-25T14:14:40Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [SamurAIGPT/awesome-openclaw](https://github.com/SamurAIGPT/awesome-openclaw) | 892 | 2026-04-14T11:33:44Z | Unknown | Unknown | 18 | 0 | 18 | 18 |
 | [grpc/proposal](https://github.com/grpc/proposal) | 776 | 2026-04-03T18:59:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lxgw/LxgwZhenKai](https://github.com/lxgw/LxgwZhenKai) | 773 | 2026-03-17T15:45:50Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [alchaincyf/steve-jobs-skill](https://github.com/alchaincyf/steve-jobs-skill) | 758 | 2026-04-12T05:11:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -91,6 +94,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [attack68/rateslib](https://github.com/attack68/rateslib) | 336 | 2026-04-09T05:01:17Z | Unknown | Infrastructure/tooling | 24 | 8 | 24 | 24 |
 | [hagezi/dns-servers](https://github.com/hagezi/dns-servers) | 289 | 2026-03-26T23:20:26Z | Unknown | Infrastructure/tooling | 16 | 1 | 16 | 16 |
 | [dotnet/source-build](https://github.com/dotnet/source-build) | 286 | 2026-03-24T16:57:01Z | Unknown | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [servo/project](https://github.com/servo/project) | 248 | 2026-04-14T13:31:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [tc39/how-we-work](https://github.com/tc39/how-we-work) | 218 | 2026-04-10T16:51:26Z | Unknown | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [alchaincyf/elon-musk-skill](https://github.com/alchaincyf/elon-musk-skill) | 217 | 2026-04-10T02:28:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [adoptium/adoptium](https://github.com/adoptium/adoptium) | 183 | 2026-04-08T15:17:42Z | Unknown | CLI | 5 | 0 | 5 | 5 |

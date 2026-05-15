@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 33,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 21,
-    "terms": 33
+    "concepts": 35,
+    "observations": 35,
+    "repos": 22,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-14T08:57:55.788728+00:00",
+  "generated_at": "2026-05-15T07:48:48.712236+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "ashton/neotest-gleam-unitest",
@@ -22,6 +22,7 @@
     "danielrosehill/HFC-Guidance-Flip-Book",
     "danielrosehill/Israel-Civilian-Readiness-Guide",
     "danielrosehill/Israel-First-Aid",
+    "danielrosehill/Live-Typing-UX-Research",
     "JuliaBinaryWrappers/Cairo_jll.jl",
     "JuliaBinaryWrappers/FreeType2_jll.jl",
     "JuliaBinaryWrappers/GettextRuntime_jll.jl",
