@@ -84,7 +84,7 @@
   "normalized_form": "security-checks",
   "observation_id": "36e7b79af7c5d13e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_at": "2026-05-15T18:39:58.785167+00:00",
   "observed_text": "Security Checks",
   "source_context_snippet": "Security Checks",
   "source_file": ".github/workflows/security.yml",

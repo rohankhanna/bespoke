@@ -84,7 +84,7 @@
   "normalized_form": "audit-ci-on-branches",
   "observation_id": "f497508857e3c910",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_at": "2026-05-15T18:39:58.785167+00:00",
   "observed_text": "Audit CI on Branches",
   "source_context_snippet": "Audit CI on Branches",
   "source_file": ".github/workflows/audit-branch-ci.yml",

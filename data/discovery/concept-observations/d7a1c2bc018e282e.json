@@ -84,7 +84,7 @@
   "normalized_form": "test-import",
   "observation_id": "d7a1c2bc018e282e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_at": "2026-05-15T18:39:58.785167+00:00",
   "observed_text": "Test import",
   "source_context_snippet": "Test import",
   "source_file": ".github/workflows/test-import.yml",

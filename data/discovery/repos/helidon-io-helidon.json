@@ -161,13 +161,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "helidon-io/helidon",
-      "target": "heldon-io/helidon",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "helidon-io/helidon",
       "target": "oracle/helidon",
       "target_type": "repository"
     },
@@ -312,7 +305,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T17:11:22.668868+00:00",
+  "fetched_at": "2026-05-15T19:29:42.935006+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -348,7 +341,7 @@
     "full_name": "helidon-io/helidon",
     "html_url": "https://github.com/helidon-io/helidon",
     "language": "Java",
-    "pushed_at": "2026-05-15T14:12:51Z",
+    "pushed_at": "2026-05-15T18:11:01Z",
     "stargazers_count": 3789,
     "topics": [
       "java",
@@ -360,11 +353,6 @@
     "updated_at": "2026-05-15T14:13:11Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "heldon-io/helidon",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "oracle/helidon",

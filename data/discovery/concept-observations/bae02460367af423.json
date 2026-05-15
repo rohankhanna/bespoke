@@ -84,7 +84,7 @@
   "normalized_form": "build-everything-tgw",
   "observation_id": "bae02460367af423",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_at": "2026-05-15T18:39:58.785167+00:00",
   "observed_text": "Build Everything TGW",
   "source_context_snippet": "Build Everything TGW",
   "source_file": ".github/workflows/build-everything-tgw.yml",

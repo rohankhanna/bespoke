@@ -422,7 +422,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T15:31:39.783819+00:00",
+  "fetched_at": "2026-05-15T18:43:11.486429+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -458,7 +458,7 @@
     },
     {
       "path": ".github/workflows/tests-nightly.yml",
-      "size": 3562
+      "size": 3563
     },
     {
       "path": ".github/workflows/tests-pr.yml",
@@ -474,7 +474,7 @@
     "full_name": "bitsandbytes-foundation/bitsandbytes",
     "html_url": "https://github.com/bitsandbytes-foundation/bitsandbytes",
     "language": "Python",
-    "pushed_at": "2026-05-15T14:54:52Z",
+    "pushed_at": "2026-05-15T18:27:01Z",
     "stargazers_count": 8200,
     "topics": [
       "llm",
@@ -483,7 +483,7 @@
       "qlora",
       "quantization"
     ],
-    "updated_at": "2026-05-15T06:29:18Z"
+    "updated_at": "2026-05-15T17:26:06Z"
   },
   "repo_links": [],
   "terms": [

@@ -3,6 +3,26 @@
     {
       "component": "actions/checkout@v2",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagIt.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagIt.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagIt.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagIt.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/getdeps_linux.yml"
     },
     {
@@ -18,6 +38,34 @@
       "source_repo": "facebookarchive/fbzmq",
       "target": "facebook/fbzmq",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagIt.yml",
+      "source_repo": "facebookarchive/fbzmq",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagIt.yml",
+      "source_repo": "facebookarchive/fbzmq",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagIt.yml",
+      "source_repo": "facebookarchive/fbzmq",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagIt.yml",
+      "source_repo": "facebookarchive/fbzmq",
+      "target": "TagIt",
+      "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
@@ -41,11 +89,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T16:02:39.762949+00:00",
+  "fetched_at": "2026-05-15T18:45:45.306790+00:00",
   "fetched_files": [
     {
       "path": "README.md",
       "size": 4743
+    },
+    {
+      "path": ".github/workflows/TagIt.yml",
+      "size": 2733
     },
     {
       "path": ".github/workflows/getdeps_linux.yml",
@@ -74,6 +126,12 @@
     }
   ],
   "terms": [
+    {
+      "context_snippet": "TagIt",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagIt.yml",
+      "term": "TagIt"
+    },
     {
       "context_snippet": "linux",
       "edge_type": "workflow-name",

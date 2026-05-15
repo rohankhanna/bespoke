@@ -84,7 +84,7 @@
   "normalized_form": "sync-to-hf-and-modelscope",
   "observation_id": "b26121da250f748a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_at": "2026-05-15T18:39:58.785167+00:00",
   "observed_text": "Sync to HF and ModelScope",
   "source_context_snippet": "Sync to HF and ModelScope",
   "source_file": ".github/workflows/sync_hf_ms.yml",

@@ -84,7 +84,7 @@
   "normalized_form": "release-cd",
   "observation_id": "f08787cf9d4143d1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_at": "2026-05-15T18:39:58.785167+00:00",
   "observed_text": "Release CD",
   "source_context_snippet": "Release CD",
   "source_file": ".github/workflows/tag.yml",
