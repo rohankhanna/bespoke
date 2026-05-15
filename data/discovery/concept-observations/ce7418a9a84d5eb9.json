@@ -84,7 +84,7 @@
   "normalized_form": "deploy-web4-resources",
   "observation_id": "ce7418a9a84d5eb9",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-15T00:40:36.218046+00:00",
+  "observed_at": "2026-05-15T07:17:00.410973+00:00",
   "observed_text": "Deploy web4 resources",
   "source_context_snippet": "Deploy web4 resources",
   "source_file": ".github/workflows/deploy-web4-resources.yml",

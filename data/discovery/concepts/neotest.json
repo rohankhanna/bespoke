@@ -169,6 +169,18 @@
       "source_repo": "shunsambongi/neotest-testthat",
       "status": "candidate-context",
       "text": "[Neotest](https://github.com/nvim-neotest/neotest) adapter for R packages using [testthat](https://testthat.r-lib.org/) tests."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "volodya-lombrozo/neotest-ruby-minitest",
+      "status": "candidate-context",
+      "text": "Neovim Neotest adapter for Minitest with improved detection and reporter support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "volodya-lombrozo/neotest-ruby-minitest",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -255,6 +267,12 @@
       "source_repo": "shunsambongi/neotest-testthat",
       "status": "candidate",
       "text": "[Neotest](https://github.com/nvim-neotest/neotest) adapter for R packages using [testthat](https://testthat.r-lib.org/) tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "volodya-lombrozo/neotest-ruby-minitest",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)"
     }
   ],
   "candidate_related_terms": [],
@@ -346,11 +364,17 @@
       "observed_at": "2026-05-13T00:41:47.952744+00:00",
       "source_file": null,
       "source_repo": "shunsambongi/neotest-testthat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T07:17:00.410973+00:00",
+      "source_file": null,
+      "source_repo": "volodya-lombrozo/neotest-ruby-minitest"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
   "lexical_providers": [
     "datamuse"
   ],

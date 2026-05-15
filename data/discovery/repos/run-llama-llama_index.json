@@ -331,7 +331,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T03:06:26.246890+00:00",
+  "fetched_at": "2026-05-15T07:21:26.129466+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -384,7 +384,7 @@
     "html_url": "https://github.com/run-llama/llama_index",
     "language": "Python",
     "pushed_at": "2026-05-14T21:19:54Z",
-    "stargazers_count": 49422,
+    "stargazers_count": 49425,
     "topics": [
       "agents",
       "application",
@@ -397,7 +397,7 @@
       "rag",
       "vector-database"
     ],
-    "updated_at": "2026-05-15T02:28:00Z"
+    "updated_at": "2026-05-15T06:40:20Z"
   },
   "repo_links": [
     {

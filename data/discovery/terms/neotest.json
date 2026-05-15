@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -71,6 +71,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "shunsambongi/neotest-testthat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "volodya-lombrozo/neotest-ruby-minitest"
     }
   ],
   "term": "neotest"

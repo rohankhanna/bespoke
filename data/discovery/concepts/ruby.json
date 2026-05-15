@@ -2464,6 +2464,18 @@
       "source_repo": "rspec/rspec-mocks",
       "status": "candidate-context",
       "text": "rspec-mocks is a test-double framework for rspec with support for method stubs,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "volodya-lombrozo/neotest-ruby-minitest",
+      "status": "candidate-context",
+      "text": "Neovim Neotest adapter for Minitest with improved detection and reporter support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "volodya-lombrozo/neotest-ruby-minitest",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -3720,6 +3732,12 @@
       "source_repo": "rspec/rspec-mocks",
       "status": "candidate",
       "text": "rspec-mocks is a test-double framework for rspec with support for method stubs,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "volodya-lombrozo/neotest-ruby-minitest",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -6397,11 +6415,23 @@
       "observed_at": "2026-05-15T00:40:36.218046+00:00",
       "source_file": null,
       "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T07:17:00.410973+00:00",
+      "source_file": null,
+      "source_repo": "volodya-lombrozo/neotest-ruby-minitest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T07:17:00.410973+00:00",
+      "source_file": null,
+      "source_repo": "codeclimate-community/simplecov_json_formatter"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
   "lexical_providers": [
     "datamuse"
   ],

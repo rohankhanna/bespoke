@@ -322,11 +322,17 @@
       "observed_at": "2026-05-15T00:40:36.218046+00:00",
       "source_file": null,
       "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T07:17:00.410973+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-config"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
   "lexical_providers": [
     "datamuse"
   ],

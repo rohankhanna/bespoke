@@ -305,7 +305,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T03:56:04.382128+00:00",
+  "fetched_at": "2026-05-15T07:30:13.750239+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -342,7 +342,7 @@
     "html_url": "https://github.com/helidon-io/helidon",
     "language": "Java",
     "pushed_at": "2026-05-14T23:13:53Z",
-    "stargazers_count": 3788,
+    "stargazers_count": 3789,
     "topics": [
       "java",
       "microprofile",
@@ -350,7 +350,7 @@
       "netty",
       "reactive"
     ],
-    "updated_at": "2026-05-14T14:21:36Z"
+    "updated_at": "2026-05-15T05:23:01Z"
   },
   "repo_links": [
     {

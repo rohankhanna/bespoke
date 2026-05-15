@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release from tag"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "volodya-lombrozo/neotest-ruby-minitest",
+      "status": "candidate-context",
+      "text": "Neovim Neotest adapter for Minitest with improved detection and reporter support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "volodya-lombrozo/neotest-ruby-minitest",
+      "status": "candidate-context",
+      "text": "Release from tag"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "volodya-lombrozo/neotest-ruby-minitest",
+      "status": "candidate",
+      "text": "Release from tag"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22746,
+      "status": "candidate",
+      "text": "cards"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22684,
+      "status": "candidate",
+      "text": "have"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22623,
+      "status": "candidate",
+      "text": "touch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22622,
+      "status": "candidate",
+      "text": "backboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22622,
+      "status": "candidate",
+      "text": "bangle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release from tag",
+  "concept_id": "release-from-tag",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T07:17:00.410973+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "volodya-lombrozo/neotest-ruby-minitest"
+    }
+  ],
+  "first_seen_at": "2026-05-15T07:17:00.410973+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release from tag",
+      "sense_id": "release-from-tag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

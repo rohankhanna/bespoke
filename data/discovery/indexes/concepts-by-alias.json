@@ -74715,6 +74715,9 @@
   "release for testing": [
     "release-for-testing"
   ],
+  "release from tag": [
+    "release-from-tag"
+  ],
   "release gem": [
     "release-gem"
   ],

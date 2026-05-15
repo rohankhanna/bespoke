@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-15T07:17:00.410973+00:00",
+  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "volodya-lombrozo/neotest-ruby-minitest"
+    }
+  ],
+  "term": "Release from tag"
+}

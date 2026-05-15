@@ -43,6 +43,18 @@
       "source_repo": "freerange/mocha",
       "status": "candidate-context",
       "text": "* A Ruby library for [mocking](http://xunitpatterns.com/Mock%20Object.html) and [stubbing](http://xunitpatterns.com/Test%20Stub.html) - but deliberately not (yet) [faking](http://xunitpatterns.com/Fake%20Object.html) or [spying](http://xunitpatterns.com/Test%20Spy.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "volodya-lombrozo/neotest-ruby-minitest",
+      "status": "candidate-context",
+      "text": "Neovim Neotest adapter for Minitest with improved detection and reporter support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "volodya-lombrozo/neotest-ruby-minitest",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "freerange/mocha",
       "status": "candidate",
       "text": "* A Ruby library for [mocking](http://xunitpatterns.com/Mock%20Object.html) and [stubbing](http://xunitpatterns.com/Test%20Stub.html) - but deliberately not (yet) [faking](http://xunitpatterns.com/Fake%20Object.html) or [spying](http://xunitpatterns.com/Test%20Spy.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "volodya-lombrozo/neotest-ruby-minitest",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)"
     }
   ],
   "candidate_related_terms": [],
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": null,
       "source_repo": "freerange/mocha"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T07:17:00.410973+00:00",
+      "source_file": null,
+      "source_repo": "volodya-lombrozo/neotest-ruby-minitest"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
   "lexical_providers": [
     "datamuse"
   ],
