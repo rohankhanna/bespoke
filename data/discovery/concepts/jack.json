@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "jack"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celtera/libremidi",
+      "status": "candidate-context",
+      "text": "A modern C++ MIDI 1 / MIDI 2 real-time & file I/O library. Supports Windows, macOS, Linux and WebMIDI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celtera/libremidi",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/jcelerier/libremidi/workflows/Build/badge.svg)](https://github.com/jcelerier/libremidi/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celtera/libremidi",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/jcelerier/libremidi/workflows/Build/badge.svg)](https://github.com/jcelerier/libremidi/actions)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38835019,
+      "status": "candidate",
+      "text": "jackass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38824148,
+      "status": "candidate",
+      "text": "jack up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38811712,
+      "status": "candidate",
+      "text": "jacklight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38758813,
+      "status": "candidate",
+      "text": "knave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38705116,
+      "status": "candidate",
+      "text": "jak"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21039,
+      "status": "candidate",
+      "text": "knave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19038,
+      "status": "candidate",
+      "text": "jackass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2022,
+      "status": "candidate",
+      "text": "jackfruit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2020,
+      "status": "candidate",
+      "text": "jacklight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1028,
+      "status": "candidate",
+      "text": "jack up"
+    }
+  ],
+  "canonical_name": "jack",
+  "concept_id": "jack",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "celtera/libremidi"
+    }
+  ],
+  "first_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jack",
+      "sense_id": "jack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

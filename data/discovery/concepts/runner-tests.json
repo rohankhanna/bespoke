@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Runner Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atong01/conditional-flow-matching",
+      "status": "candidate-context",
+      "text": "TorchCFM: a Conditional Flow Matching library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atong01/conditional-flow-matching",
+      "status": "candidate-context",
+      "text": "Runner Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atong01/conditional-flow-matching",
+      "status": "candidate",
+      "text": "Runner Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11704,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11495,
+      "status": "candidate",
+      "text": "timed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10632,
+      "status": "candidate",
+      "text": "athlete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10632,
+      "status": "candidate",
+      "text": "bat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10632,
+      "status": "candidate",
+      "text": "car"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Runner Tests",
+  "concept_id": "runner-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/test_runner.yaml",
+      "source_repo": "atong01/conditional-flow-matching"
+    }
+  ],
+  "first_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Runner Tests",
+      "sense_id": "runner-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

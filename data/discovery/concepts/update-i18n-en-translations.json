@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update i18n EN translations"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Nerivec/zigbee2mqtt-windfront",
+      "status": "candidate-context",
+      "text": "Open Source frontend for Zigbee2MQTT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nerivec/zigbee2mqtt-windfront",
+      "status": "candidate-context",
+      "text": "Update i18n EN translations"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nerivec/zigbee2mqtt-windfront",
+      "status": "candidate",
+      "text": "Update i18n EN translations"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17758,
+      "status": "candidate",
+      "text": "translation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16882,
+      "status": "candidate",
+      "text": "bolt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16686,
+      "status": "candidate",
+      "text": "dash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16686,
+      "status": "candidate",
+      "text": "dashed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10055,
+      "status": "candidate",
+      "text": "prick"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update i18n EN translations",
+  "concept_id": "update-i18n-en-translations",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/i18n.yml",
+      "source_repo": "Nerivec/zigbee2mqtt-windfront"
+    }
+  ],
+  "first_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update i18n EN translations",
+      "sense_id": "update-i18n-en-translations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

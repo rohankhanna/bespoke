@@ -918,7 +918,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T22:21:46.263907+00:00",
+  "fetched_at": "2026-05-15T04:11:03.802807+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -946,7 +946,7 @@
     },
     {
       "path": ".github/workflows/ocapn-guile-interop.yml",
-      "size": 16942
+      "size": 18909
     },
     {
       "path": ".github/workflows/release.yml",
@@ -970,7 +970,7 @@
     "full_name": "endojs/endo",
     "html_url": "https://github.com/endojs/endo",
     "language": "JavaScript",
-    "pushed_at": "2026-05-14T21:59:53Z",
+    "pushed_at": "2026-05-15T03:47:49Z",
     "stargazers_count": 1021,
     "topics": [
       "capabilities",
@@ -985,7 +985,7 @@
       "security",
       "supply-chain"
     ],
-    "updated_at": "2026-05-14T21:57:43Z"
+    "updated_at": "2026-05-15T00:48:08Z"
   },
   "repo_links": [
     {

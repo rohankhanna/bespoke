@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "X-LANCE/UniCATS-CTX-vec2wav",
+      "target": "x-lance/unicats-ctx-txt2vec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/UniCATS-CTX-vec2wav",
+      "target": "self-supervised-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/UniCATS-CTX-vec2wav",
+      "target": "semantic-token",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/UniCATS-CTX-vec2wav",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/UniCATS-CTX-vec2wav",
+      "target": "unicats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/UniCATS-CTX-vec2wav",
+      "target": "vocoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/UniCATS-CTX-vec2wav",
+      "target": "vocoding",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-15T00:40:36.218046+00:00",
+  "source_repo": "X-LANCE/UniCATS-CTX-vec2wav"
+}

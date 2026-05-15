@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "TheSnakeWitcher/hardhat.nvim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "TheSnakeWitcher/hardhat.nvim",
+      "target": "nvim-neorocks/luarocks-tag-release@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "TheSnakeWitcher/hardhat.nvim",
+      "target": "LuaRocks release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T00:55:10.762565+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2166
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 548
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "TheSnakeWitcher/hardhat.nvim",
+    "html_url": "https://github.com/TheSnakeWitcher/hardhat.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-01-13T19:48:25Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-01-13T19:48:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "LuaRocks release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "LuaRocks release"
+    }
+  ]
+}

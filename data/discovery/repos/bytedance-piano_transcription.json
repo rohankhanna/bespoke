@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/piano_transcription",
+      "target": "qiuqiangkong/piano_transcription_inference",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/piano_transcription",
+      "target": "bytedance/giantmidi-piano",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/piano_transcription",
+      "target": "research",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T04:08:48.594814+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7514
+    },
+    {
+      "path": "requirements.txt",
+      "size": 129
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "bytedance/piano_transcription",
+    "html_url": "https://github.com/bytedance/piano_transcription",
+    "language": "Python",
+    "pushed_at": "2023-08-18T16:41:03Z",
+    "stargazers_count": 1986,
+    "topics": [
+      "research"
+    ],
+    "updated_at": "2026-05-14T04:05:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedance/giantmidi-piano",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qiuqiangkong/piano_transcription_inference",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Piano transcription is the task of transcribing piano recordings into MIDI files. This repo is the PyTorch implementation of our proposed high-resolution piano transcription system [1].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    }
+  ]
+}

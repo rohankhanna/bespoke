@@ -1,7 +1,7 @@
 {
   "component": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-05-13T07:12:28.410129+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -177,6 +177,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cd.yaml",
       "source_repo": "reubeno/brush"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork"
     }
   ]
 }

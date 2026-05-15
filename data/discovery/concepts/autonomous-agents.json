@@ -217,6 +217,12 @@
       "source_repo": "ruvnet/ruflo",
       "status": "candidate-context",
       "text": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aden-hive/hive",
+      "status": "candidate-context",
+      "text": "hive \u2014 Hive - Aden Agent Framework - Build goal-driven, self-improving AI agents"
     }
   ],
   "candidate_glosses": [
@@ -321,6 +327,12 @@
       "source_repo": "OSU-NLP-Group/TravelPlanner",
       "status": "candidate",
       "text": "<h1 align=\"center\">TravelPlanner<br> A Benchmark for Real-World Planning<br> with Language Agents </h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aden-hive/hive",
+      "status": "candidate",
+      "text": "hive \u2014 Hive - Aden Agent Framework - Build goal-driven, self-improving AI agents"
     }
   ],
   "candidate_related_terms": [],
@@ -1030,11 +1042,23 @@
       "observed_at": "2026-05-14T18:43:37.154551+00:00",
       "source_file": null,
       "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "aden-hive/hive"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "lexical_providers": [
     "datamuse"
   ],

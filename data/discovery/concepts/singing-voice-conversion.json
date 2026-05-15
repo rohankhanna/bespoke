@@ -43,6 +43,18 @@
       "source_repo": "svc-develop-team/so-vits-svc",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PlayVoice/lora-svc",
+      "status": "candidate-context",
+      "text": "singing voice change based on whisper, and lora for singing voice clone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlayVoice/lora-svc",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "svc-develop-team/so-vits-svc",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlayVoice/lora-svc",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -106,11 +124,23 @@
       "observed_at": "2026-05-14T18:43:37.154551+00:00",
       "source_file": null,
       "source_repo": "svc-develop-team/so-vits-svc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/whisper-vits-svc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/lora-svc"
     }
   ],
   "first_seen_at": "2026-05-13T07:12:28.410129+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "lexical_providers": [
     "datamuse"
   ],

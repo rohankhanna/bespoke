@@ -1,0 +1,12 @@
+{
+  "component": "browniebroke/github-actions/.github/workflows/poetry-upgrade.yml@a4a8428c6f76ab8848c94c5a649fa809aacf8688",
+  "first_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/poetry-upgrade.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork"
+    }
+  ]
+}

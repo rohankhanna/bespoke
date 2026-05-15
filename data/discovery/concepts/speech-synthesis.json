@@ -595,6 +595,78 @@
       "source_repo": "auspicious3000/AutoPST",
       "status": "candidate-context",
       "text": "This repository provides a PyTorch implementation of [AutoPST](https://arxiv.org/abs/2106.08519), which enables unsupervised global prosody conversion without text transcriptions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liusongxiang/ppg-vc",
+      "status": "candidate-context",
+      "text": "PPG-Based Voice Conversion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liusongxiang/ppg-vc",
+      "status": "candidate-context",
+      "text": "This paper proposes an any-to-many location-relative, sequence-to-sequence (seq2seq) based, non-parallel voice conversion approach. In this approach, we combine a bottle-neck feature extractor (BNE) with a seq2seq based synthesis module. During the training stage, an encoder-dec\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "X-LANCE/VoiceFlow-TTS",
+      "status": "candidate-context",
+      "text": "[ICASSP 2024] This is the official code for \"VoiceFlow: Efficient Text-to-Speech with Rectified Flow Matching\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-LANCE/VoiceFlow-TTS",
+      "status": "candidate-context",
+      "text": "> This is the official implementation of our ICASSP 2024 paper [VoiceFlow](https://arxiv.org/abs/2309.05027)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Adibian/ResGrad",
+      "status": "candidate-context",
+      "text": "Unofficial implementation of ResGrad: Residual Denoising Diffusion Probabilistic Models for Text to Speech"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adibian/ResGrad",
+      "status": "candidate-context",
+      "text": "[**ResGrad: Residual Denoising Diffusion Probabilistic Models for Text to Speech**](https://arxiv.org/abs/2212.14518)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "status": "candidate-context",
+      "text": "so-vits-svc fork with realtime support, improved interface and more features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "status": "candidate-context",
+      "text": "[\u7b80\u4f53\u4e2d\u6587](README_zh_CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "X-LANCE/UniCATS-CTX-vec2wav",
+      "status": "candidate-context",
+      "text": "[AAAI 2024] Code for CTX-vec2wav in UniCATS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-LANCE/UniCATS-CTX-vec2wav",
+      "status": "candidate-context",
+      "text": "> This is the official implementation of **CTX-vec2wav** vocoder in the AAAI-2024 paper [UniCATS: A Unified Context-Aware Text-to-Speech Framework with Contextual VQ-Diffusion and Vocoding](https://arxiv.org/abs/2306.07547)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bigpon/QPPWG",
+      "status": "candidate-context",
+      "text": "Quasi-Periodic Parallel WaveGAN Pytorch implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigpon/QPPWG",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/pypi/v/qppwg)](https://pypi.org/project/qppwg/) ![](https://img.shields.io/pypi/pyversions/qppwg) ![](https://img.shields.io/pypi/l/qppwg)"
     }
   ],
   "candidate_glosses": [
@@ -891,6 +963,42 @@
       "source_repo": "auspicious3000/AutoPST",
       "status": "candidate",
       "text": "This repository provides a PyTorch implementation of [AutoPST](https://arxiv.org/abs/2106.08519), which enables unsupervised global prosody conversion without text transcriptions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liusongxiang/ppg-vc",
+      "status": "candidate",
+      "text": "This paper proposes an any-to-many location-relative, sequence-to-sequence (seq2seq) based, non-parallel voice conversion approach. In this approach, we combine a bottle-neck feature extractor (BNE) with a seq2seq based synthesis module. During the training stage, an encoder-dec\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-LANCE/VoiceFlow-TTS",
+      "status": "candidate",
+      "text": "> This is the official implementation of our ICASSP 2024 paper [VoiceFlow](https://arxiv.org/abs/2309.05027)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adibian/ResGrad",
+      "status": "candidate",
+      "text": "[**ResGrad: Residual Denoising Diffusion Probabilistic Models for Text to Speech**](https://arxiv.org/abs/2212.14518)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "status": "candidate",
+      "text": "[\u7b80\u4f53\u4e2d\u6587](README_zh_CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-LANCE/UniCATS-CTX-vec2wav",
+      "status": "candidate",
+      "text": "> This is the official implementation of **CTX-vec2wav** vocoder in the AAAI-2024 paper [UniCATS: A Unified Context-Aware Text-to-Speech Framework with Contextual VQ-Diffusion and Vocoding](https://arxiv.org/abs/2306.07547)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigpon/QPPWG",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/pypi/v/qppwg)](https://pypi.org/project/qppwg/) ![](https://img.shields.io/pypi/pyversions/qppwg) ![](https://img.shields.io/pypi/l/qppwg)"
     }
   ],
   "candidate_related_terms": [],
@@ -1726,11 +1834,65 @@
       "observed_at": "2026-05-14T18:43:37.154551+00:00",
       "source_file": null,
       "source_repo": "modelscope/FunCodec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "liusongxiang/ppg-vc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "X-LANCE/VoiceFlow-TTS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "Adibian/ResGrad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "voicepaw/so-vits-svc-fork"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunCodec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "X-LANCE/UniCATS-CTX-vec2wav"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "bigpon/QPPWG"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MingjieChen/DYGANVC",
+      "target": "nii-yamagishilab/vcc2020-database",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MingjieChen/DYGANVC",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-15T01:47:22.833462+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2573
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "demo page https://MingjieChen.github.io/dygan-vc",
+    "fork": false,
+    "full_name": "MingjieChen/DYGANVC",
+    "html_url": "https://github.com/MingjieChen/DYGANVC",
+    "language": "Python",
+    "pushed_at": "2022-04-13T20:03:27Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2025-01-15T16:56:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nii-yamagishilab/vcc2020-database",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/fairseq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

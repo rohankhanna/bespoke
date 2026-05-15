@@ -11,7 +11,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PriesiaMioShirakana/DragonianVoice",
-      "target": "cnchtu/diffusion-svc",
+      "target": "narusemioshirakana/moevoicestudio",
       "target_type": "repository"
     },
     {
@@ -99,6 +99,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-14T18:43:37.154551+00:00",
+  "generated_at": "2026-05-15T00:40:36.218046+00:00",
   "source_repo": "PriesiaMioShirakana/DragonianVoice"
 }

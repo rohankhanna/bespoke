@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -4031,6 +4031,36 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Koenkk/zigbee2mqtt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/hacktoberfest.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Koenkk/zigbee-herdsman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Koenkk/zigbee-herdsman-converters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Nerivec/zigbee2mqtt-windfront"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "browniebroke/pypackage-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "copier-org/copier"
     }
   ],
   "term": "hacktoberfest"

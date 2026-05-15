@@ -1,7 +1,7 @@
 {
   "component": "dtolnay/rust-toolchain@stable",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -4242,6 +4242,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-plz.yml",
       "source_repo": "abusch/nu_plugin_semver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/federation-peer-rust.yml",
+      "source_repo": "ruvnet/ruflo"
     }
   ]
 }

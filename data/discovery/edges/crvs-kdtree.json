@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-single-platform.yml",
+      "source_repo": "crvs/KDTree",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-single-platform.yml",
+      "source_repo": "crvs/KDTree",
+      "target": "CMake on a single platform",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-15T00:40:36.218046+00:00",
+  "source_repo": "crvs/KDTree"
+}

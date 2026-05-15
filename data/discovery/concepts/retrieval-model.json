@@ -19,6 +19,18 @@
       "source_repo": "ArrowLuo/CLIP4Clip",
       "status": "candidate-context",
       "text": "(**July 28, 2021**) Add ViT-B/16 with an extra `--pretrained_clip_name`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "status": "candidate-context",
+      "text": "Easily train a good VC model with voice data <= 10 mins!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ArrowLuo/CLIP4Clip",
       "status": "candidate",
       "text": "(**July 28, 2021**) Add ViT-B/16 with an extra `--pretrained_clip_name`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ArrowLuo/CLIP4Clip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "lexical_providers": [
     "datamuse"
   ],

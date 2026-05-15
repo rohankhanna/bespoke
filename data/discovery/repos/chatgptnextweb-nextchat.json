@@ -1318,11 +1318,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T23:24:39.840514+00:00",
+  "fetched_at": "2026-05-15T05:13:00.204840+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 17276
+      "size": 17447
     },
     {
       "path": "Dockerfile",
@@ -1370,8 +1370,8 @@
     "full_name": "ChatGPTNextWeb/NextChat",
     "html_url": "https://github.com/ChatGPTNextWeb/NextChat",
     "language": "TypeScript",
-    "pushed_at": "2025-12-02T17:05:02Z",
-    "stargazers_count": 87990,
+    "pushed_at": "2026-05-15T01:19:01Z",
+    "stargazers_count": 87992,
     "topics": [
       "calclaude",
       "chatgpt",
@@ -1393,7 +1393,7 @@
       "vercel",
       "webui"
     ],
-    "updated_at": "2026-05-14T19:06:16Z"
+    "updated_at": "2026-05-15T04:59:28Z"
   },
   "repo_links": [
     {

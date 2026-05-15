@@ -84,7 +84,7 @@
   "normalized_form": "version-bump",
   "observation_id": "5cc0b48da4aa841a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-14T18:43:37.154551+00:00",
+  "observed_at": "2026-05-15T00:40:36.218046+00:00",
   "observed_text": "Version Bump",
   "source_context_snippet": "Version Bump",
   "source_file": ".github/workflows/version-bump.yml",

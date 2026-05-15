@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "External Converter Issue"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Koenkk/zigbee-herdsman-converters",
+      "status": "candidate-context",
+      "text": "Collection of device converters to be used with zigbee-herdsman"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Koenkk/zigbee-herdsman-converters",
+      "status": "candidate-context",
+      "text": "External Converter Issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Koenkk/zigbee-herdsman-converters",
+      "status": "candidate",
+      "text": "External Converter Issue"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21044,
+      "status": "candidate",
+      "text": "blow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21044,
+      "status": "candidate",
+      "text": "processor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20896,
+      "status": "candidate",
+      "text": "spontaneous combustion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20750,
+      "status": "candidate",
+      "text": "altoona"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20677,
+      "status": "candidate",
+      "text": "bank"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "External Converter Issue",
+  "concept_id": "external-converter-issue",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/external_converter_issue.yml",
+      "source_repo": "Koenkk/zigbee-herdsman-converters"
+    }
+  ],
+  "first_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "External Converter Issue",
+      "sense_id": "external-converter-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

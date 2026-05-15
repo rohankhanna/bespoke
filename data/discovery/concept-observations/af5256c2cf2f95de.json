@@ -84,7 +84,7 @@
   "normalized_form": "serverless",
   "observation_id": "af5256c2cf2f95de",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-14T18:43:37.154551+00:00",
+  "observed_at": "2026-05-15T00:40:36.218046+00:00",
   "observed_text": "serverless",
   "source_context_snippet": "[![Tests](https://github.com/aws/serverless-application-model/actions/workflows/build.yml/badge.svg)](https://github.com/aws/serverless-application-model/actions/workflows/build.yml)",
   "source_file": null,

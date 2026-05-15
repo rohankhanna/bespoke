@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "singing voice change based on whisper, and lora for singing voice clone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vits-svc",
+      "sense_id": "vits-svc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vits-svc",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vits-svc",
+  "observation_id": "d6eec0d74ce7ffe4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-15T00:40:36.218046+00:00",
+  "observed_text": "vits-svc",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "PlayVoice/lora-svc",
+  "source_repo_description": "singing voice change based on whisper, and lora for singing voice clone"
+}

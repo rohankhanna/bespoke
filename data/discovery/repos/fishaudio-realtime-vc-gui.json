@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pdm-project/setup-pdm@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pdm-project/setup-pdm@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pdm-project/setup-pdm@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fishaudio/realtime-vc-gui",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fishaudio/realtime-vc-gui",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fishaudio/realtime-vc-gui",
+      "target": "pdm-project/setup-pdm@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fishaudio/realtime-vc-gui",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-15T04:08:39.488866+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 916
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1390
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1687
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RTVC: Real-Time Voice Conversion GUI",
+    "fork": false,
+    "full_name": "fishaudio/realtime-vc-gui",
+    "html_url": "https://github.com/fishaudio/realtime-vc-gui",
+    "language": "Python",
+    "pushed_at": "2023-07-21T02:24:59Z",
+    "stargazers_count": 62,
+    "topics": [],
+    "updated_at": "2026-05-11T15:18:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

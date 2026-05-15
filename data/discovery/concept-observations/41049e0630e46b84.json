@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "so-vits-svc fork with realtime support, improved interface and more features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Upgrader"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Upgrader"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012503,
+      "status": "candidate",
+      "text": "updater"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012502,
+      "status": "candidate",
+      "text": "upsizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012501,
+      "status": "candidate",
+      "text": "uplifter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012500,
+      "status": "candidate",
+      "text": "increaser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012499,
+      "status": "candidate",
+      "text": "upstager"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upgrader",
+      "sense_id": "upgrader#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "upgrader",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "upgrader",
+  "observation_id": "41049e0630e46b84",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-15T00:40:36.218046+00:00",
+  "observed_text": "Upgrader",
+  "source_context_snippet": "Upgrader",
+  "source_file": ".github/workflows/upgrader.yml",
+  "source_repo": "voicepaw/so-vits-svc-fork",
+  "source_repo_description": "so-vits-svc fork with realtime support, improved interface and more features."
+}

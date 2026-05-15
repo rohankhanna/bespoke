@@ -84,7 +84,7 @@
   "normalized_form": "bigdl-llm-nightly-build",
   "observation_id": "8757d5221d6f076f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-14T18:43:37.154551+00:00",
+  "observed_at": "2026-05-15T00:40:36.218046+00:00",
   "observed_text": "BigDL-LLM Nightly Build",
   "source_context_snippet": "BigDL-LLM Nightly Build",
   "source_file": ".github/workflows/bigdl-llm-nightly-release.yml",

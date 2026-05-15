@@ -1,0 +1,179 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/UniSpeech",
+      "target": "facebookresearch/voxpopuli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/UniSpeech",
+      "target": "chenzhuo1011/libri_css",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/UniSpeech",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniSpeech",
+      "target": "diarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniSpeech",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniSpeech",
+      "target": "speaker-verification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniSpeech",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniSpeech",
+      "target": "speech-diarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniSpeech",
+      "target": "speech-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniSpeech",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniSpeech",
+      "target": "speech-separation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T04:08:31.538168+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13306
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "UniSpeech  - Large Scale Self-Supervised Learning for Speech",
+    "fork": false,
+    "full_name": "microsoft/UniSpeech",
+    "html_url": "https://github.com/microsoft/UniSpeech",
+    "language": "Python",
+    "pushed_at": "2024-04-05T13:14:48Z",
+    "stargazers_count": 481,
+    "topics": [
+      "diarization",
+      "pytorch",
+      "speaker-verification",
+      "speech",
+      "speech-diarization",
+      "speech-processing",
+      "speech-recognition",
+      "speech-separation"
+    ],
+    "updated_at": "2026-04-22T00:37:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chenzhuo1011/libri_css",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/voxpopuli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/fairseq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!--**Pre-trained models for speech related tasks**-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diarization"
+    },
+    {
+      "context_snippet": "<!--**Pre-trained models for speech related tasks**-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<!--**Pre-trained models for speech related tasks**-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-verification"
+    },
+    {
+      "context_snippet": "<!--**Pre-trained models for speech related tasks**-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "<!--**Pre-trained models for speech related tasks**-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-diarization"
+    },
+    {
+      "context_snippet": "<!--**Pre-trained models for speech related tasks**-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-processing"
+    },
+    {
+      "context_snippet": "<!--**Pre-trained models for speech related tasks**-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "<!--**Pre-trained models for speech related tasks**-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-separation"
+    }
+  ]
+}

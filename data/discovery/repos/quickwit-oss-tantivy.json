@@ -252,7 +252,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T23:06:03.911393+00:00",
+  "fetched_at": "2026-05-15T05:03:01.444076+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -288,13 +288,13 @@
     "full_name": "quickwit-oss/tantivy",
     "html_url": "https://github.com/quickwit-oss/tantivy",
     "language": "Rust",
-    "pushed_at": "2026-05-14T07:55:59Z",
-    "stargazers_count": 15188,
+    "pushed_at": "2026-05-15T02:50:38Z",
+    "stargazers_count": 15190,
     "topics": [
       "rust",
       "search-engine"
     ],
-    "updated_at": "2026-05-14T22:52:20Z"
+    "updated_at": "2026-05-15T01:04:14Z"
   },
   "repo_links": [
     {

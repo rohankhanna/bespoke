@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fishaudio/audio-preprocess",
+      "target": "blair-johnson/batch-whisper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "fishaudio/audio-preprocess",
+      "target": "systran/faster-whisper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fishaudio/audio-preprocess",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fishaudio/audio-preprocess",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fishaudio/audio-preprocess",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-15T04:08:38.575315+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1058
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 797
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 575
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Preprocess Audio for training",
+    "fork": false,
+    "full_name": "fishaudio/audio-preprocess",
+    "html_url": "https://github.com/fishaudio/audio-preprocess",
+    "language": "Python",
+    "pushed_at": "2026-05-04T18:50:41Z",
+    "stargazers_count": 390,
+    "topics": [],
+    "updated_at": "2026-05-12T06:23:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blair-johnson/batch-whisper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "systran/faster-whisper",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

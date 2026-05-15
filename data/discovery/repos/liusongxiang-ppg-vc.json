@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liusongxiang/ppg-vc",
+      "target": "conformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liusongxiang/ppg-vc",
+      "target": "one-shot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liusongxiang/ppg-vc",
+      "target": "phonetic-posteriorgram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liusongxiang/ppg-vc",
+      "target": "ppg-vc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liusongxiang/ppg-vc",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liusongxiang/ppg-vc",
+      "target": "voice-conversion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T01:47:15.607383+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5549
+    },
+    {
+      "path": "requirements.txt",
+      "size": 206
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PPG-Based Voice Conversion",
+    "fork": false,
+    "full_name": "liusongxiang/ppg-vc",
+    "html_url": "https://github.com/liusongxiang/ppg-vc",
+    "language": "Python",
+    "pushed_at": "2022-07-22T01:59:27Z",
+    "stargazers_count": 351,
+    "topics": [
+      "conformer",
+      "one-shot",
+      "phonetic-posteriorgram",
+      "ppg",
+      "ppg-vc",
+      "speech-synthesis",
+      "voice-conversion"
+    ],
+    "updated_at": "2026-05-08T05:30:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This paper proposes an any-to-many location-relative, sequence-to-sequence (seq2seq) based, non-parallel voice conversion approach. In this approach, we combine a bottle-neck feature extractor (BNE) with a seq2seq based synthesis module. During the training stage, an encoder-dec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conformer"
+    },
+    {
+      "context_snippet": "This paper proposes an any-to-many location-relative, sequence-to-sequence (seq2seq) based, non-parallel voice conversion approach. In this approach, we combine a bottle-neck feature extractor (BNE) with a seq2seq based synthesis module. During the training stage, an encoder-dec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "one-shot"
+    },
+    {
+      "context_snippet": "This paper proposes an any-to-many location-relative, sequence-to-sequence (seq2seq) based, non-parallel voice conversion approach. In this approach, we combine a bottle-neck feature extractor (BNE) with a seq2seq based synthesis module. During the training stage, an encoder-dec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phonetic-posteriorgram"
+    },
+    {
+      "context_snippet": "This paper proposes an any-to-many location-relative, sequence-to-sequence (seq2seq) based, non-parallel voice conversion approach. In this approach, we combine a bottle-neck feature extractor (BNE) with a seq2seq based synthesis module. During the training stage, an encoder-dec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ppg-vc"
+    },
+    {
+      "context_snippet": "This paper proposes an any-to-many location-relative, sequence-to-sequence (seq2seq) based, non-parallel voice conversion approach. In this approach, we combine a bottle-neck feature extractor (BNE) with a seq2seq based synthesis module. During the training stage, an encoder-dec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "This paper proposes an any-to-many location-relative, sequence-to-sequence (seq2seq) based, non-parallel voice conversion approach. In this approach, we combine a bottle-neck feature extractor (BNE) with a seq2seq based synthesis module. During the training stage, an encoder-dec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-conversion"
+    }
+  ]
+}

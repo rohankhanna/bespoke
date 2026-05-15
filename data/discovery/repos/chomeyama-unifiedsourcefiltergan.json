@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chomeyama/UnifiedSourceFilterGAN",
+      "target": "bigpon/qppwg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chomeyama/UnifiedSourceFilterGAN",
+      "target": "bigpon/qpnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-15T01:47:23.639604+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5237
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "chomeyama/UnifiedSourceFilterGAN",
+    "html_url": "https://github.com/chomeyama/UnifiedSourceFilterGAN",
+    "language": "Python",
+    "pushed_at": "2022-06-05T17:13:06Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-01-23T02:13:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bigpon/qpnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bigpon/qppwg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

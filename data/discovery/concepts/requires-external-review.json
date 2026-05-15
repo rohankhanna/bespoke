@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Requires external review"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Koenkk/zigbee-herdsman-converters",
+      "status": "candidate-context",
+      "text": "Collection of device converters to be used with zigbee-herdsman"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Koenkk/zigbee-herdsman-converters",
+      "status": "candidate-context",
+      "text": "Requires external review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Koenkk/zigbee-herdsman-converters",
+      "status": "candidate",
+      "text": "Requires external review"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18380,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18333,
+      "status": "candidate",
+      "text": "needs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18333,
+      "status": "candidate",
+      "text": "practicing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18270,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18270,
+      "status": "candidate",
+      "text": "trade"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Requires external review",
+  "concept_id": "requires-external-review",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/requires_review.yml",
+      "source_repo": "Koenkk/zigbee-herdsman-converters"
+    }
+  ],
+  "first_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Requires external review",
+      "sense_id": "requires-external-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

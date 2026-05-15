@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gnobitab/InstaFlow",
+      "target": "magic-research/piecewise-rectified-flow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gnobitab/InstaFlow",
+      "target": "saddam213/onnxstack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gnobitab/InstaFlow",
+      "target": "gnobitab/flowgrad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gnobitab/InstaFlow",
+      "target": "klightz/psf",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-15T01:47:39.202187+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9153
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":zap: InstaFlow! One-Step Stable Diffusion with Rectified Flow (ICLR 2024)",
+    "fork": false,
+    "full_name": "gnobitab/InstaFlow",
+    "html_url": "https://github.com/gnobitab/InstaFlow",
+    "language": "Python",
+    "pushed_at": "2024-06-07T12:25:11Z",
+    "stargazers_count": 1402,
+    "topics": [],
+    "updated_at": "2026-05-12T14:30:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gnobitab/flowgrad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "klightz/psf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "magic-research/piecewise-rectified-flow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saddam213/onnxstack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

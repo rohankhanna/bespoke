@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CNChTu/Diffusion-SVC",
+      "target": "fishaudio/audio-preprocess",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CNChTu/Diffusion-SVC",
+      "target": "rvc-project/retrieval-based-voice-conversion-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CNChTu/Diffusion-SVC",
+      "target": "fishaudio/realtime-vc-gui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CNChTu/Diffusion-SVC",
+      "target": "narusemioshirakana/moevoicestudio",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-15T01:47:25.032482+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14506
+    },
+    {
+      "path": "requirements.txt",
+      "size": 257
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v1_Stable",
+    "description": null,
+    "fork": false,
+    "full_name": "CNChTu/Diffusion-SVC",
+    "html_url": "https://github.com/CNChTu/Diffusion-SVC",
+    "language": "Python",
+    "pushed_at": "2026-01-19T22:04:55Z",
+    "stargazers_count": 479,
+    "topics": [],
+    "updated_at": "2026-05-11T07:39:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fishaudio/audio-preprocess",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fishaudio/realtime-vc-gui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "narusemioshirakana/moevoicestudio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rvc-project/retrieval-based-voice-conversion-webui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

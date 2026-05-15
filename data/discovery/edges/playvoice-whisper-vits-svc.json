@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/whisper-vits-svc",
-      "target": "maxrmorrison/torchcrepe",
+      "target": "playvoice/so-vits-svc-5.0",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/whisper-vits-svc",
-      "target": "multi-singer/multi-singer.github.io",
+      "target": "revsic/torch-nansy",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/whisper-vits-svc",
-      "target": "olawod/freevc",
+      "target": "playvoice/so-vits-svc",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/whisper-vits-svc",
-      "target": "playvoice/grad-svc",
+      "target": "playvoice/vi-svc",
       "target_type": "repository"
     },
     {
@@ -92,6 +92,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-14T18:43:37.154551+00:00",
+  "generated_at": "2026-05-15T00:40:36.218046+00:00",
   "source_repo": "PlayVoice/whisper-vits-svc"
 }

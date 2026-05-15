@@ -613,6 +613,42 @@
       "source_repo": "hcy71o/SNAC",
       "status": "candidate-context",
       "text": "This is the unofficial pytorch implementation of [SNAC](https://arxiv.org/abs/2211.16866)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "X-LANCE/VoiceFlow-TTS",
+      "status": "candidate-context",
+      "text": "[ICASSP 2024] This is the official code for \"VoiceFlow: Efficient Text-to-Speech with Rectified Flow Matching\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-LANCE/VoiceFlow-TTS",
+      "status": "candidate-context",
+      "text": "> This is the official implementation of our ICASSP 2024 paper [VoiceFlow](https://arxiv.org/abs/2309.05027)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gmltmd789/UnitSpeech",
+      "status": "candidate-context",
+      "text": "An official implementation of \"UnitSpeech: Speaker-adaptive Speech Synthesis with Untranscribed Data\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmltmd789/UnitSpeech",
+      "status": "candidate-context",
+      "text": "![model-1](https://github.com/gmltmd789/UnitSpeech/assets/49265950/44cb4991-abb0-44b2-81fd-fce92cc1f3f1)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Adibian/ResGrad",
+      "status": "candidate-context",
+      "text": "Unofficial implementation of ResGrad: Residual Denoising Diffusion Probabilistic Models for Text to Speech"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adibian/ResGrad",
+      "status": "candidate-context",
+      "text": "[**ResGrad: Residual Denoising Diffusion Probabilistic Models for Text to Speech**](https://arxiv.org/abs/2212.14518)"
     }
   ],
   "candidate_glosses": [
@@ -921,6 +957,24 @@
       "source_repo": "hcy71o/SNAC",
       "status": "candidate",
       "text": "This is the unofficial pytorch implementation of [SNAC](https://arxiv.org/abs/2211.16866)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-LANCE/VoiceFlow-TTS",
+      "status": "candidate",
+      "text": "> This is the official implementation of our ICASSP 2024 paper [VoiceFlow](https://arxiv.org/abs/2309.05027)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmltmd789/UnitSpeech",
+      "status": "candidate",
+      "text": "![model-1](https://github.com/gmltmd789/UnitSpeech/assets/49265950/44cb4991-abb0-44b2-81fd-fce92cc1f3f1)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adibian/ResGrad",
+      "status": "candidate",
+      "text": "[**ResGrad: Residual Denoising Diffusion Probabilistic Models for Text to Speech**](https://arxiv.org/abs/2212.14518)"
     }
   ],
   "candidate_related_terms": [],
@@ -1450,11 +1504,35 @@
       "observed_at": "2026-05-14T18:43:37.154551+00:00",
       "source_file": null,
       "source_repo": "lifeiteng/vall-e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "X-LANCE/VoiceFlow-TTS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "gmltmd789/UnitSpeech"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "Adibian/ResGrad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "lifeiteng/vall-e"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "lexical_providers": [
     "datamuse"
   ],

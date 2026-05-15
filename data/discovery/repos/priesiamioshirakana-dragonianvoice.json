@@ -12,7 +12,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PriesiaMioShirakana/DragonianVoice",
-      "target": "cnchtu/diffusion-svc",
+      "target": "narusemioshirakana/moevoicestudio",
       "target_type": "repository"
     },
     {
@@ -100,7 +100,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T22:17:47.076962+00:00",
+  "fetched_at": "2026-05-15T04:09:00.524236+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -137,11 +137,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cnchtu/diffusion-svc",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "cnchtu/melpe",
       "source_file": "README.md"
     },
@@ -153,6 +148,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "narusemioshirakana/moess",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "narusemioshirakana/moevoicestudio",
       "source_file": "README.md"
     }
   ],

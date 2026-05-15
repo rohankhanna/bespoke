@@ -1,0 +1,17 @@
+{
+  "component": "dhkatz/get-version-action@main",
+  "first_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "celtera/libremidi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_python.yml",
+      "source_repo": "celtera/libremidi"
+    }
+  ]
+}

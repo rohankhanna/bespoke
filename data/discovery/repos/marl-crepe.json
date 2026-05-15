@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marl/crepe",
+      "target": "keras",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marl/crepe",
+      "target": "music-information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marl/crepe",
+      "target": "pitch-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marl/crepe",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T01:47:14.357835+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8291
+    },
+    {
+      "path": "requirements.txt",
+      "size": 115
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CREPE: A Convolutional REpresentation for Pitch Estimation -- pre-trained model (ICASSP 2018)",
+    "fork": false,
+    "full_name": "marl/crepe",
+    "html_url": "https://github.com/marl/crepe",
+    "language": "Python",
+    "pushed_at": "2024-08-19T18:12:09Z",
+    "stargazers_count": 1383,
+    "topics": [
+      "keras",
+      "music-information-retrieval",
+      "pitch-estimation",
+      "tensorflow"
+    ],
+    "updated_at": "2026-05-14T07:59:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CREPE Pitch Tracker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keras"
+    },
+    {
+      "context_snippet": "CREPE Pitch Tracker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music-information-retrieval"
+    },
+    {
+      "context_snippet": "CREPE Pitch Tracker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pitch-estimation"
+    },
+    {
+      "context_snippet": "CREPE Pitch Tracker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

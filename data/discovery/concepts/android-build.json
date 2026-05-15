@@ -117,6 +117,18 @@
       "source_repo": "Z3Prover/z3",
       "status": "candidate-context",
       "text": "Android Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celtera/libremidi",
+      "status": "candidate-context",
+      "text": "A modern C++ MIDI 1 / MIDI 2 real-time & file I/O library. Supports Windows, macOS, Linux and WebMIDI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celtera/libremidi",
+      "status": "candidate-context",
+      "text": "Android Build"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Z3Prover/z3",
+      "status": "candidate",
+      "text": "Android Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celtera/libremidi",
       "status": "candidate",
       "text": "Android Build"
     }
@@ -270,11 +288,17 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": ".github/workflows/android-build.yml",
       "source_repo": "Z3Prover/z3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "celtera/libremidi"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "lexical_providers": [
     "datamuse"
   ],

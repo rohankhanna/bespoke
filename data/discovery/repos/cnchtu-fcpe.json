@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-15T04:08:59.871132+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4529
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "CNChTu/FCPE",
+    "html_url": "https://github.com/CNChTu/FCPE",
+    "language": "Python",
+    "pushed_at": "2025-10-14T09:53:02Z",
+    "stargazers_count": 199,
+    "topics": [],
+    "updated_at": "2026-05-14T21:02:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

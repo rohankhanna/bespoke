@@ -1,7 +1,7 @@
 {
   "component": "jidicula/clang-format-action@v4.13.0",
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
-  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

@@ -84,7 +84,7 @@
   "normalized_form": "issue-auto-comment",
   "observation_id": "e91fc1b3cfcc3e00",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-14T18:43:37.154551+00:00",
+  "observed_at": "2026-05-15T00:40:36.218046+00:00",
   "observed_text": "Issue Auto Comment",
   "source_context_snippet": "Issue Auto Comment",
   "source_file": ".github/workflows/issue-auto-comments.yml",

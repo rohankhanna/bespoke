@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/VI-SVC",
+      "target": "playvoice/so-vits-svc-5.0",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVC",
+      "target": "so-vits-svc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVC",
+      "target": "vits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVC",
+      "target": "vits-svc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVC",
+      "target": "vits2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T04:08:24.448144+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "VI-SVC model is just VITS without MAS and DurationPredictor.",
+    "fork": false,
+    "full_name": "PlayVoice/VI-SVC",
+    "html_url": "https://github.com/PlayVoice/VI-SVC",
+    "language": "Python",
+    "pushed_at": "2023-11-09T02:03:22Z",
+    "stargazers_count": 10,
+    "topics": [
+      "so-vits-svc",
+      "vits",
+      "vits-svc",
+      "vits2"
+    ],
+    "updated_at": "2024-09-09T10:27:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "playvoice/so-vits-svc-5.0",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "vits singing voice conversion based on ppg &amp; hubert",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "so-vits-svc"
+    },
+    {
+      "context_snippet": "vits singing voice conversion based on ppg &amp; hubert",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vits"
+    },
+    {
+      "context_snippet": "vits singing voice conversion based on ppg &amp; hubert",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vits-svc"
+    },
+    {
+      "context_snippet": "vits singing voice conversion based on ppg &amp; hubert",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vits2"
+    }
+  ]
+}

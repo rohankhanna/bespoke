@@ -19,12 +19,30 @@
       "source_repo": "icecc/icemon",
       "status": "candidate-context",
       "text": "CMake on a single platform"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crvs/KDTree",
+      "status": "candidate-context",
+      "text": "Simple C++ KD-Tree implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crvs/KDTree",
+      "status": "candidate-context",
+      "text": "CMake on a single platform"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "icecc/icemon",
+      "status": "candidate",
+      "text": "CMake on a single platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crvs/KDTree",
       "status": "candidate",
       "text": "CMake on a single platform"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/cmake-single-platform.yml",
       "source_repo": "icecc/icemon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/cmake-single-platform.yml",
+      "source_repo": "crvs/KDTree"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "lexical_providers": [
     "datamuse"
   ],

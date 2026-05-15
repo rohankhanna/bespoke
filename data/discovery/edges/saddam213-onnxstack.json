@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saddam213/OnnxStack",
+      "target": "cassiebreviu/stablediffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saddam213/OnnxStack",
+      "target": "ssube/onnx-web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saddam213/OnnxStack",
+      "target": "axodox/axodox-machinelearning",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-15T00:40:36.218046+00:00",
+  "source_repo": "saddam213/OnnxStack"
+}

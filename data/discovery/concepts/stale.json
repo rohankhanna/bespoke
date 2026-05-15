@@ -274,6 +274,30 @@
       "source_repo": "Koenkk/zigbee2mqtt",
       "status": "candidate-context",
       "text": "Stale"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Koenkk/zigbee-herdsman",
+      "status": "candidate-context",
+      "text": "A Node.js Zigbee library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Koenkk/zigbee-herdsman",
+      "status": "candidate-context",
+      "text": "Stale"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Koenkk/zigbee-herdsman-converters",
+      "status": "candidate-context",
+      "text": "Collection of device converters to be used with zigbee-herdsman"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Koenkk/zigbee-herdsman-converters",
+      "status": "candidate-context",
+      "text": "Stale"
     }
   ],
   "candidate_glosses": [
@@ -406,6 +430,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Koenkk/zigbee2mqtt",
+      "status": "candidate",
+      "text": "Stale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Koenkk/zigbee-herdsman",
+      "status": "candidate",
+      "text": "Stale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Koenkk/zigbee-herdsman-converters",
       "status": "candidate",
       "text": "Stale"
     }
@@ -655,11 +691,23 @@
       "observed_at": "2026-05-14T18:43:37.154551+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "Koenkk/zigbee2mqtt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "Koenkk/zigbee-herdsman"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "Koenkk/zigbee-herdsman-converters"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "lexical_providers": [
     "datamuse"
   ],

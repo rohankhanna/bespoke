@@ -156,6 +156,55 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "jeffzhou2000/ggml-hexagon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "jeffzhou2000/ggml-hexagon",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "jeffzhou2000/ggml-hexagon",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "jeffzhou2000/ggml-hexagon",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "jeffzhou2000/ggml-hexagon",
+      "target": "ggml-org/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "jeffzhou2000/ggml-hexagon",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "jeffzhou2000/ggml-hexagon",
+      "target": "Publish Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/editorconfig.yml",
       "source_repo": "jeffzhou2000/ggml-hexagon",
       "target": "actions/checkout@v4",
@@ -183,6 +232,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-14T18:43:37.154551+00:00",
+  "generated_at": "2026-05-15T00:40:36.218046+00:00",
   "source_repo": "jeffzhou2000/ggml-hexagon"
 }

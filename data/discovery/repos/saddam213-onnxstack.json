@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saddam213/OnnxStack",
+      "target": "cassiebreviu/stablediffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saddam213/OnnxStack",
+      "target": "ssube/onnx-web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saddam213/OnnxStack",
+      "target": "axodox/axodox-machinelearning",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-15T04:09:16.138500+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1312
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C# Stable Diffusion using ONNX Runtime",
+    "fork": true,
+    "full_name": "saddam213/OnnxStack",
+    "html_url": "https://github.com/saddam213/OnnxStack",
+    "language": "C#",
+    "pushed_at": "2025-12-09T20:35:09Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-01-06T01:25:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "axodox/axodox-machinelearning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cassiebreviu/stablediffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ssube/onnx-web",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

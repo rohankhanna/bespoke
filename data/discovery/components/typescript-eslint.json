@@ -1,7 +1,7 @@
 {
   "component": "typescript-eslint",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -1532,6 +1532,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "Luligu/zigbee2mqtt-automations"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nurikk/zigbee2mqtt-frontend"
     }
   ]
 }

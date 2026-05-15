@@ -319,6 +319,18 @@
       "source_repo": "sayakpaul/maxim-tf",
       "status": "candidate-context",
       "text": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marl/crepe",
+      "status": "candidate-context",
+      "text": "CREPE: A Convolutional REpresentation for Pitch Estimation -- pre-trained model (ICASSP 2018)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marl/crepe",
+      "status": "candidate-context",
+      "text": "CREPE Pitch Tracker"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +489,12 @@
       "source_repo": "sayakpaul/maxim-tf",
       "status": "candidate",
       "text": "[![HugginFace badge](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/sayakpaul/maxim-spaces)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marl/crepe",
+      "status": "candidate",
+      "text": "CREPE Pitch Tracker"
     }
   ],
   "candidate_related_terms": [
@@ -880,11 +898,23 @@
       "observed_at": "2026-05-14T18:43:37.154551+00:00",
       "source_file": null,
       "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "marl/crepe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "lexical_providers": [
     "datamuse"
   ],

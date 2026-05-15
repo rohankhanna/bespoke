@@ -19,6 +19,18 @@
       "source_repo": "haoxiangsnr/spiking-fullsubnet",
       "status": "candidate-context",
       "text": "Spiking-FullSubNet is the 1st Place Winner solution of the Intel N-DNS Challenge (Track 1: Algorithmic). This repository serves as the official implementation of our paper: \"Toward Ultralow-Power Neuromorphic Speech Enhancement With Spiking-FullSubNet\" (IEEE TNNLS, 2025)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Adibian/ResGrad",
+      "status": "candidate-context",
+      "text": "Unofficial implementation of ResGrad: Residual Denoising Diffusion Probabilistic Models for Text to Speech"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adibian/ResGrad",
+      "status": "candidate-context",
+      "text": "[**ResGrad: Residual Denoising Diffusion Probabilistic Models for Text to Speech**](https://arxiv.org/abs/2212.14518)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "haoxiangsnr/spiking-fullsubnet",
       "status": "candidate",
       "text": "Spiking-FullSubNet is the 1st Place Winner solution of the Intel N-DNS Challenge (Track 1: Algorithmic). This repository serves as the official implementation of our paper: \"Toward Ultralow-Power Neuromorphic Speech Enhancement With Spiking-FullSubNet\" (IEEE TNNLS, 2025)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adibian/ResGrad",
+      "status": "candidate",
+      "text": "[**ResGrad: Residual Denoising Diffusion Probabilistic Models for Text to Speech**](https://arxiv.org/abs/2212.14518)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "haoxiangsnr/spiking-fullsubnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "Adibian/ResGrad"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "lexical_providers": [
     "datamuse"
   ],

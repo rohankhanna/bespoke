@@ -5,7 +5,8 @@
     "github pages",
     "Github Pages",
     "Github Pages \ud83c\udf10",
-    "GitHub pages"
+    "GitHub pages",
+    "Github pages"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -956,6 +957,18 @@
       "source_repo": "rr/rr",
       "status": "candidate-context",
       "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celtera/libremidi",
+      "status": "candidate-context",
+      "text": "A modern C++ MIDI 1 / MIDI 2 real-time & file I/O library. Supports Windows, macOS, Linux and WebMIDI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celtera/libremidi",
+      "status": "candidate-context",
+      "text": "Github pages"
     }
   ],
   "candidate_glosses": [
@@ -1432,6 +1445,12 @@
       "source_repo": "rr/rr",
       "status": "candidate",
       "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celtera/libremidi",
+      "status": "candidate",
+      "text": "Github pages"
     }
   ],
   "candidate_related_terms": [
@@ -2879,11 +2898,41 @@
       "observed_at": "2026-05-14T18:43:37.154551+00:00",
       "source_file": ".github/workflows/gh-pages.yml",
       "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "charliie-dev/Logseq-Hugo-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "charliie-dev/Logseq-Hugo-Template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "celtera/libremidi"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "lexical_providers": [
     "datamuse"
   ],

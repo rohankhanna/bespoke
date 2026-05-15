@@ -250,6 +250,18 @@
       "source_repo": "fabmax/physx-js-webidl",
       "status": "candidate-context",
       "text": "Javascript/WASM bindings for Nvidia PhysX 5.6.1."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celtera/libremidi",
+      "status": "candidate-context",
+      "text": "A modern C++ MIDI 1 / MIDI 2 real-time & file I/O library. Supports Windows, macOS, Linux and WebMIDI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celtera/libremidi",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/jcelerier/libremidi/workflows/Build/badge.svg)](https://github.com/jcelerier/libremidi/actions)"
     }
   ],
   "candidate_glosses": [
@@ -372,6 +384,12 @@
       "source_repo": "fabmax/physx-js-webidl",
       "status": "candidate",
       "text": "Javascript/WASM bindings for Nvidia PhysX 5.6.1."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celtera/libremidi",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/jcelerier/libremidi/workflows/Build/badge.svg)](https://github.com/jcelerier/libremidi/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -775,11 +793,23 @@
       "observed_at": "2026-05-14T18:43:37.154551+00:00",
       "source_file": null,
       "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "celtera/libremidi"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "lexical_providers": [
     "datamuse"
   ],

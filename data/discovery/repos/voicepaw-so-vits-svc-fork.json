@@ -1,0 +1,591 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "wagoid/commitlint-github-action@b948419dd99f3fd78a6548d48f94e3df7f6bf3ed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "python-semantic-release/python-semantic-release@350c48fcb3ffcdfd2e0a235206bc2ecea6b69df0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "python-semantic-release/python-semantic-release@350c48fcb3ffcdfd2e0a235206bc2ecea6b69df0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "python-semantic-release/publish-action@310a9983a0ae878b29f3aac778d7c77c1db27378",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "browniebroke/hacktoberfest-labeler-action@72564cc2b8f1cd239fb6880cca150a1b8b6b027b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hacktoberfest.yml"
+    },
+    {
+      "component": "tiangolo/issue-manager@2fb3484ec9279485df8659e8ec73de262431737d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-manager.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml"
+    },
+    {
+      "component": "browniebroke/github-actions/.github/workflows/poetry-upgrade.yml@a4a8428c6f76ab8848c94c5a649fa809aacf8688",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-upgrade.yml"
+    },
+    {
+      "component": "browniebroke/github-actions/.github/workflows/uv-upgrade.yml@a4a8428c6f76ab8848c94c5a649fa809aacf8688",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upgrader.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "fumiama/retrieval-based-voice-conversion-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "all-contributors/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "copier-org/copier",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "browniebroke/pypackage-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "wagoid/commitlint-github-action@b948419dd99f3fd78a6548d48f94e3df7f6bf3ed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "python-semantic-release/python-semantic-release@350c48fcb3ffcdfd2e0a235206bc2ecea6b69df0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "python-semantic-release/publish-action@310a9983a0ae878b29f3aac778d7c77c1db27378",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hacktoberfest.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "browniebroke/hacktoberfest-labeler-action@72564cc2b8f1cd239fb6880cca150a1b8b6b027b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hacktoberfest.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "Hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-manager.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "tiangolo/issue-manager@2fb3484ec9279485df8659e8ec73de262431737d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-manager.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "Issue Manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "Sync Github labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-upgrade.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "browniebroke/github-actions/.github/workflows/poetry-upgrade.yml@a4a8428c6f76ab8848c94c5a649fa809aacf8688",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/poetry-upgrade.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "Upgrader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upgrader.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "browniebroke/github-actions/.github/workflows/uv-upgrade.yml@a4a8428c6f76ab8848c94c5a649fa809aacf8688",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upgrader.yml",
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "Upgrader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "contentvec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "hubert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "lightning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "pytorch-lightning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "realtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "so-vits-svc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "softvc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "sovits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "vits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "voice-changer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voicepaw/so-vits-svc-fork",
+      "target": "voice-conversion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T01:47:33.939073+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34361
+    },
+    {
+      "path": "Dockerfile",
+      "size": 323
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4645
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3678
+    },
+    {
+      "path": ".github/workflows/hacktoberfest.yml",
+      "size": 391
+    },
+    {
+      "path": ".github/workflows/issue-manager.yml",
+      "size": 779
+    },
+    {
+      "path": ".github/workflows/labels.yml",
+      "size": 588
+    },
+    {
+      "path": ".github/workflows/poetry-upgrade.yml",
+      "size": 268
+    },
+    {
+      "path": ".github/workflows/upgrader.yml",
+      "size": 271
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "so-vits-svc fork with realtime support, improved interface and more features.",
+    "fork": false,
+    "full_name": "voicepaw/so-vits-svc-fork",
+    "html_url": "https://github.com/voicepaw/so-vits-svc-fork",
+    "language": "Python",
+    "pushed_at": "2026-05-13T00:56:54Z",
+    "stargazers_count": 9291,
+    "topics": [
+      "contentvec",
+      "deep-learning",
+      "gan",
+      "hubert",
+      "lightning",
+      "pytorch",
+      "pytorch-lightning",
+      "realtime",
+      "so-vits-svc",
+      "softvc",
+      "sovits",
+      "speech-synthesis",
+      "vits",
+      "voice-changer",
+      "voice-conversion"
+    ],
+    "updated_at": "2026-05-14T04:03:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-contributors/all-contributors",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "browniebroke/pypackage-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "copier-org/copier",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fumiama/retrieval-based-voice-conversion-webui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Hacktoberfest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hacktoberfest.yml",
+      "term": "Hacktoberfest"
+    },
+    {
+      "context_snippet": "Issue Manager",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-manager.yml",
+      "term": "Issue Manager"
+    },
+    {
+      "context_snippet": "Sync Github labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labels.yml",
+      "term": "Sync Github labels"
+    },
+    {
+      "context_snippet": "Upgrader",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/poetry-upgrade.yml",
+      "term": "Upgrader"
+    },
+    {
+      "context_snippet": "Upgrader",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upgrader.yml",
+      "term": "Upgrader"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contentvec"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hubert"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightning"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-lightning"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "realtime"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "so-vits-svc"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "softvc"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sovits"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vits"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-changer"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-conversion"
+    }
+  ]
+}

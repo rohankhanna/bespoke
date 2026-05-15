@@ -313,6 +313,12 @@
       "source_repo": "petercorke/ansitable",
       "status": "candidate-context",
       "text": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "status": "candidate-context",
+      "text": "FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim WORKDIR /app EXPOSE 7860 ENV PYTHONUNBUFFERED=1 # # Download all required fonts # ADD \"https://github.com/satbyy/go-noto-universal/releases/download/v7.0/GoNotoKurrent-Regular.ttf\" /app/ # ADD \"https://github.com/timelic/source-\u2026"
     }
   ],
   "candidate_glosses": [
@@ -471,6 +477,12 @@
       "source_repo": "petercorke/ansitable",
       "status": "candidate",
       "text": "[![PyPI version fury.io](https://badge.fury.io/py/ansitable.svg)](https://pypi.python.org/pypi/ansitable/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "status": "candidate",
+      "text": "FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim WORKDIR /app EXPOSE 7860 ENV PYTHONUNBUFFERED=1 # # Download all required fonts # ADD \"https://github.com/satbyy/go-noto-universal/releases/download/v7.0/GoNotoKurrent-Regular.ttf\" /app/ # ADD \"https://github.com/timelic/source-\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -919,11 +931,17 @@
       "observed_at": "2026-05-14T18:43:37.154551+00:00",
       "source_file": null,
       "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "lexical_providers": [
     "datamuse"
   ],

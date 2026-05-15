@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/PoPE-pytorch",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/PoPE-pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/PoPE-pytorch",
+      "target": "positional-embeddings",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T01:47:39.779354+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3185
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1274
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Efficient implementation (and explorations) into polar coordinate positional embedding (PoPE) - from Gopalakrishnan et al. under Schmidhuber",
+    "fork": false,
+    "full_name": "lucidrains/PoPE-pytorch",
+    "html_url": "https://github.com/lucidrains/PoPE-pytorch",
+    "language": "Python",
+    "pushed_at": "2026-03-25T18:45:11Z",
+    "stargazers_count": 63,
+    "topics": [
+      "artificial-intelligence",
+      "deep-learning",
+      "positional-embeddings"
+    ],
+    "updated_at": "2026-04-22T12:12:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"./pope.png\" width=\"400px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<img src=\"./pope.png\" width=\"400px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<img src=\"./pope.png\" width=\"400px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "positional-embeddings"
+    }
+  ]
+}

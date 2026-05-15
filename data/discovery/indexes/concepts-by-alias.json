@@ -2799,6 +2799,9 @@
   "alpinelinux": [
     "alpinelinux"
   ],
+  "alsa": [
+    "alsa"
+  ],
   "altair": [
     "altair"
   ],
@@ -17078,6 +17081,9 @@
   "check hyperlinks and relative path validity": [
     "check-hyperlinks-and-relative-path-validity"
   ],
+  "check i18n": [
+    "check-i18n"
+  ],
   "check i18n keys": [
     "check-i18n-keys"
   ],
@@ -17410,6 +17416,9 @@
   ],
   "check publishing": [
     "check-publishing"
+  ],
+  "check pull format": [
+    "check-pull-format"
   ],
   "check pull request": [
     "check-pull-request"
@@ -20257,6 +20266,9 @@
   ],
   "cleanup old workflow runs": [
     "cleanup-old-workflow-runs"
+  ],
+  "cleanup packages": [
+    "cleanup-packages"
   ],
   "cleanup pr": [
     "cleanup-pr"
@@ -23624,6 +23636,9 @@
   "conditional-detr": [
     "conditional-detr"
   ],
+  "conditional-flow-matching": [
+    "conditional-flow-matching"
+  ],
   "conditional-gan": [
     "conditional-gan"
   ],
@@ -24080,6 +24095,9 @@
   "contentlayer": [
     "contentlayer"
   ],
+  "contentvec": [
+    "contentvec"
+  ],
   "context": [
     "context"
   ],
@@ -24241,6 +24259,9 @@
   ],
   "continuous-integration": [
     "continuous-integration"
+  ],
+  "continuous-normalizing-flows": [
+    "continuous-normalizing-flows"
   ],
   "continuous-profiling": [
     "continuous-profiling"
@@ -24787,6 +24808,9 @@
   ],
   "corefx": [
     "corefx"
+  ],
+  "coremidi": [
+    "coremidi"
   ],
   "coreml": [
     "coreml"
@@ -30485,6 +30509,9 @@
   "dialyzer": [
     "dialyzer"
   ],
+  "diarization": [
+    "diarization"
+  ],
   "dichotomous-image-segmentation": [
     "dichotomous-image-segmentation"
   ],
@@ -31168,6 +31195,9 @@
   ],
   "django-ninja": [
     "django-ninja"
+  ],
+  "django-package": [
+    "django-package"
   ],
   "django-rest-framework": [
     "django-rest-framework"
@@ -36080,6 +36110,9 @@
   "external contributor greeter": [
     "external-contributor-greeter"
   ],
+  "external converter issue": [
+    "external-converter-issue"
+  ],
   "external plugin": [
     "external-plugin"
   ],
@@ -36778,6 +36811,9 @@
   ],
   "federation": [
     "federation"
+  ],
+  "federation-peer-rust": [
+    "federation-peer-rust"
   ],
   "fediverse": [
     "fediverse"
@@ -39743,6 +39779,9 @@
   ],
   "generate and sync files with delete": [
     "generate-and-sync-files-with-delete"
+  ],
+  "generate and sync locale": [
+    "generate-and-sync-locale"
   ],
   "generate and sync recent changes": [
     "generate-and-sync-recent-changes"
@@ -48336,8 +48375,14 @@
   "jaccard": [
     "jaccard"
   ],
+  "jack": [
+    "jack"
+  ],
   "jackal": [
     "jackal"
+  ],
+  "jackaudio": [
+    "jackaudio"
   ],
   "jackson": [
     "jackson"
@@ -56559,6 +56604,9 @@
   "merge dependabot prs automatically": [
     "merge-dependabot-prs-automatically"
   ],
+  "merge dev into main": [
+    "merge-dev-into-main"
+  ],
   "merge docker images": [
     "merge-docker-images"
   ],
@@ -57063,6 +57111,9 @@
   "midi": [
     "midi"
   ],
+  "midi-api": [
+    "midi-api"
+  ],
   "midi-controller": [
     "midi-controller"
   ],
@@ -57077,6 +57128,9 @@
   ],
   "midi-parser-js": [
     "midi-parser-js"
+  ],
+  "midi2": [
+    "midi2"
   ],
   "midjourney": [
     "midjourney"
@@ -63090,6 +63144,9 @@
   "one-class-learning": [
     "one-class-learning"
   ],
+  "one-shot": [
+    "one-shot"
+  ],
   "one-shot-tracker": [
     "one-shot-tracker"
   ],
@@ -65085,6 +65142,9 @@
   "parallel-wavenet": [
     "parallel-wavenet"
   ],
+  "parallel-wavenet-vocoder": [
+    "parallel-wavenet-vocoder"
+  ],
   "parallelhash": [
     "parallelhash"
   ],
@@ -66110,6 +66170,9 @@
   ],
   "phonetic": [
     "phonetic"
+  ],
+  "phonetic-posteriorgram": [
+    "phonetic-posteriorgram"
   ],
   "phonetics": [
     "phonetics"
@@ -67386,6 +67449,9 @@
   "positional-arguments": [
     "positional-arguments"
   ],
+  "positional-embeddings": [
+    "positional-embeddings"
+  ],
   "positional-encoding": [
     "positional-encoding"
   ],
@@ -67724,6 +67790,9 @@
   ],
   "ppc64le": [
     "ppc64le"
+  ],
+  "ppg-vc": [
+    "ppg-vc"
   ],
   "pplcnet": [
     "pplcnet"
@@ -71001,6 +71070,9 @@
   "publish typedoc": [
     "publish-typedoc"
   ],
+  "publish typedoc on github pages": [
+    "publish-typedoc-on-github-pages"
+  ],
   "publish typst package": [
     "publish-typst-package"
   ],
@@ -73722,6 +73794,9 @@
   "rectified-flow": [
     "rectified-flow"
   ],
+  "rectified-flow-matching": [
+    "rectified-flow-matching"
+  ],
   "recurrent": [
     "recurrent"
   ],
@@ -76047,6 +76122,9 @@
   "requirements": [
     "requirements"
   ],
+  "requires external review": [
+    "requires-external-review"
+  ],
   "rerank": [
     "rerank"
   ],
@@ -76136,6 +76214,9 @@
   ],
   "reset gpu allocator": [
     "reset-gpu-allocator"
+  ],
+  "resgrad": [
+    "resgrad"
   ],
   "resharper": [
     "resharper"
@@ -76430,6 +76511,9 @@
   ],
   "retrieval-task": [
     "retrieval-task"
+  ],
+  "retrieve-data": [
+    "retrieve-data"
   ],
   "retro": [
     "retro"
@@ -76997,6 +77081,9 @@
   ],
   "rmarkdown": [
     "rmarkdown"
+  ],
+  "rmvpe": [
+    "rmvpe"
   ],
   "rna-editing": [
     "rna-editing"
@@ -78462,6 +78549,9 @@
   "runner heartbeat": [
     "runner-heartbeat"
   ],
+  "runner tests": [
+    "runner-tests"
+  ],
   "runner updates check (scheduled job)": [
     "runner-updates-check-scheduled-job"
   ],
@@ -78704,6 +78794,9 @@
   ],
   "rusty-rain test": [
     "rusty-rain-test"
+  ],
+  "rvc-project": [
+    "rvc-project"
   ],
   "rwkv": [
     "rwkv"
@@ -80259,6 +80352,9 @@
   "self-supervised-learning": [
     "self-supervised-learning"
   ],
+  "self-supervised-speech": [
+    "self-supervised-speech"
+  ],
   "self-supervision": [
     "self-supervision"
   ],
@@ -80372,6 +80468,9 @@
   ],
   "semantic-similarity": [
     "semantic-similarity"
+  ],
+  "semantic-token": [
+    "semantic-token"
   ],
   "semantic-ui": [
     "semantic-ui"
@@ -82492,6 +82591,9 @@
   "softpipe": [
     "softpipe"
   ],
+  "softvc": [
+    "softvc"
+  ],
   "software": [
     "software"
   ],
@@ -83213,6 +83315,9 @@
   "speech-denoising": [
     "speech-denoising"
   ],
+  "speech-diarization": [
+    "speech-diarization"
+  ],
   "speech-disentanglement": [
     "speech-disentanglement"
   ],
@@ -83254,6 +83359,9 @@
   ],
   "speech-synthesis-model": [
     "speech-synthesis-model"
+  ],
+  "speech-to-sing": [
+    "speech-to-sing"
   ],
   "speech-to-speech": [
     "speech-to-speech"
@@ -85987,6 +86095,9 @@
   ],
   "sync fork": [
     "sync-fork"
+  ],
+  "sync github labels": [
+    "sync-github-labels"
   ],
   "sync github organization settings": [
     "sync-github-organization-settings"
@@ -90376,6 +90487,9 @@
   "torchaudio": [
     "torchaudio"
   ],
+  "torchcfm tests": [
+    "torchcfm-tests"
+  ],
   "torchft 8 gpu integration test": [
     "torchft-8-gpu-integration-test"
   ],
@@ -92323,8 +92437,14 @@
   "uni-app": [
     "uni-app"
   ],
+  "uni-svc": [
+    "uni-svc"
+  ],
   "uniapp": [
     "uniapp"
+  ],
+  "unicats": [
+    "unicats"
   ],
   "unicode": [
     "unicode"
@@ -92559,6 +92679,9 @@
   ],
   "units-of-measure": [
     "units-of-measure"
+  ],
+  "unitspeech": [
+    "unitspeech"
   ],
   "unittest": [
     "unittest"
@@ -93278,6 +93401,9 @@
   "update html data": [
     "update-html-data"
   ],
+  "update i18n en translations": [
+    "update-i18n-en-translations"
+  ],
   "update index page": [
     "update-index-page"
   ],
@@ -93907,6 +94033,9 @@
   ],
   "upgrade-main": [
     "upgrade-main"
+  ],
+  "upgrader": [
+    "upgrader"
   ],
   "upkeep": [
     "upkeep"
@@ -96425,6 +96554,9 @@
   "vocoders": [
     "vocoders"
   ],
+  "vocoding": [
+    "vocoding"
+  ],
   "vocos": [
     "vocos"
   ],
@@ -96467,6 +96599,9 @@
   "voice-conversion": [
     "voice-conversion"
   ],
+  "voice-converter": [
+    "voice-converter"
+  ],
   "voice-detection": [
     "voice-detection"
   ],
@@ -96481,6 +96616,9 @@
   ],
   "voice-synthesis": [
     "voice-synthesis"
+  ],
+  "voicechanger": [
+    "voicechanger"
   ],
   "voicecloning": [
     "voicecloning"
@@ -97633,6 +97771,9 @@
   ],
   "webm": [
     "webm"
+  ],
+  "webmidi": [
+    "webmidi"
   ],
   "webmin": [
     "webmin"

@@ -91,6 +91,18 @@
       "source_repo": "Jungjee/RawNet",
       "status": "candidate-context",
       "text": "Official repository for RawNet, RawNet2, and RawNet3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/UniSpeech",
+      "status": "candidate-context",
+      "text": "UniSpeech  - Large Scale Self-Supervised Learning for Speech"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UniSpeech",
+      "status": "candidate-context",
+      "text": "<!--**Pre-trained models for speech related tasks**-->"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "Jungjee/RawNet",
       "status": "candidate",
       "text": "Official repository for RawNet, RawNet2, and RawNet3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UniSpeech",
+      "status": "candidate",
+      "text": "<!--**Pre-trained models for speech related tasks**-->"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "Jungjee/RawNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/UniSpeech"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "lexical_providers": [
     "datamuse"
   ],

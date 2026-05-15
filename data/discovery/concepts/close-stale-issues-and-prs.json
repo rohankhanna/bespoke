@@ -1330,6 +1330,18 @@
       "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
       "status": "candidate-context",
       "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Nerivec/zigbee2mqtt-windfront",
+      "status": "candidate-context",
+      "text": "Open Source frontend for Zigbee2MQTT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nerivec/zigbee2mqtt-windfront",
+      "status": "candidate-context",
+      "text": "\"Close stale issues and PRs\""
     }
   ],
   "candidate_glosses": [
@@ -1990,6 +2002,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "yaroslavyaroslav/OpenAI-sublime-text",
+      "status": "candidate",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nerivec/zigbee2mqtt-windfront",
       "status": "candidate",
       "text": "\"Close stale issues and PRs\""
     }
@@ -4927,11 +4945,77 @@
       "observed_at": "2026-05-14T18:43:37.154551+00:00",
       "source_file": ".github/workflows/stale.yaml",
       "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "Nerivec/zigbee2mqtt-windfront"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "BirolLab/LINKS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/close-stale.yml",
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ueberauth/oauth2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ldproxy/ldproxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "react-native-webview/react-native-webview"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "lexical_providers": [
     "datamuse"
   ],

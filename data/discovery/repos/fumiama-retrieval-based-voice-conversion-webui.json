@@ -1,0 +1,625 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checksum.yml"
+    },
+    {
+      "component": "actions/setup-go@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checksum.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checksum.yml"
+    },
+    {
+      "component": "actions/stale@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-issue.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "szenius/set-timezone@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/genlocale.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/genlocale.yml"
+    },
+    {
+      "component": "superbrothers/close-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_format.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_format.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_format.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_format.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_format.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_format.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unitest.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unitest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "fumiama/rvc-models-downloader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "openvpi/audio-slicer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "yxlllc/rmvpe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checksum.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checksum.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "actions/setup-go@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checksum.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checksum.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "Calculate and Sync SHA256",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "actions/stale@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "Close Inactive Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "szenius/set-timezone@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "Build and Push Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/genlocale.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/genlocale.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/genlocale.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "Generate and Sync Locale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_format.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "superbrothers/close-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_format.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_format.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_format.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "Check Pull Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_format.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_format.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_format.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push_format.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "Standardize Code Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unitest.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unitest.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unitest.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "Unit Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "audio-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "audio-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "conversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "converter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "rmvpe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "rvc-project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "voice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "voice-changer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "voice-conversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "voicechanger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "voicecloning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "voiceconversion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T04:09:09.734711+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9106
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2616
+    },
+    {
+      "path": ".github/workflows/checksum.yml",
+      "size": 1484
+    },
+    {
+      "path": ".github/workflows/close-issue.yml",
+      "size": 743
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 2121
+    },
+    {
+      "path": ".github/workflows/genlocale.yml",
+      "size": 1160
+    },
+    {
+      "path": ".github/workflows/pull_format.yml",
+      "size": 1305
+    },
+    {
+      "path": ".github/workflows/push_format.yml",
+      "size": 1428
+    },
+    {
+      "path": ".github/workflows/unitest.yml",
+      "size": 3561
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Easily train a good VC model with voice data <= 10 mins!",
+    "fork": false,
+    "full_name": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+    "html_url": "https://github.com/fumiama/Retrieval-based-Voice-Conversion-WebUI",
+    "language": "Python",
+    "pushed_at": "2026-04-18T16:38:13Z",
+    "stargazers_count": 408,
+    "topics": [
+      "audio-analysis",
+      "audio-processing",
+      "conversion",
+      "converter",
+      "rmvpe",
+      "rvc",
+      "rvc-project",
+      "vc",
+      "voice",
+      "voice-changer",
+      "voice-conversion",
+      "voicechanger",
+      "voicecloning",
+      "voiceconversion"
+    ],
+    "updated_at": "2026-05-14T14:39:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fumiama/rvc-models-downloader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openvpi/audio-slicer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yxlllc/rmvpe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Calculate and Sync SHA256",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checksum.yml",
+      "term": "Calculate and Sync SHA256"
+    },
+    {
+      "context_snippet": "Close Inactive Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-issue.yml",
+      "term": "Close Inactive Issues"
+    },
+    {
+      "context_snippet": "Build and Push Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Build and Push Docker Image"
+    },
+    {
+      "context_snippet": "Generate and Sync Locale",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/genlocale.yml",
+      "term": "Generate and Sync Locale"
+    },
+    {
+      "context_snippet": "Check Pull Format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_format.yml",
+      "term": "Check Pull Format"
+    },
+    {
+      "context_snippet": "Standardize Code Format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push_format.yml",
+      "term": "Standardize Code Format"
+    },
+    {
+      "context_snippet": "Unit Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unitest.yml",
+      "term": "Unit Test"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-analysis"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-processing"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversion"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "converter"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rmvpe"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rvc-project"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-changer"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-conversion"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voicechanger"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voicecloning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voiceconversion"
+    }
+  ]
+}

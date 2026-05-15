@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PriesiaMioShirakana/DragonianLib",
+      "target": "narusemioshirakana/dragonianlib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PriesiaMioShirakana/DragonianLib",
+      "target": "yxlllc/ddsp-svc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PriesiaMioShirakana/DragonianLib",
+      "target": "rvc-boss/gpt-sovits",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PriesiaMioShirakana/DragonianLib",
+      "target": "teammoeai/moesr",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-15T00:40:36.218046+00:00",
+  "source_repo": "PriesiaMioShirakana/DragonianLib"
+}

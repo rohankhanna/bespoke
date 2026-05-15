@@ -148,6 +148,18 @@
       "source_repo": "jupyterlab/extension-cookiecutter-js",
       "status": "candidate-context",
       "text": "![Github Actions Status](https://github.com/jupyterlab/extension-cookiecutter-js/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "copier-org/copier",
+      "status": "candidate-context",
+      "text": "Library and command-line utility for rendering projects templates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "copier-org/copier",
+      "status": "candidate-context",
+      "text": "[![Copier](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-grayscale-inverted-border-purple.json)](https://github.com/copier-org/copier)"
     }
   ],
   "candidate_glosses": [
@@ -222,6 +234,12 @@
       "source_repo": "jupyterlab/extension-cookiecutter-js",
       "status": "candidate",
       "text": "![Github Actions Status](https://github.com/jupyterlab/extension-cookiecutter-js/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "copier-org/copier",
+      "status": "candidate",
+      "text": "[![Copier](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-grayscale-inverted-border-purple.json)](https://github.com/copier-org/copier)"
     }
   ],
   "candidate_related_terms": [
@@ -553,11 +571,23 @@
       "observed_at": "2026-05-14T18:43:37.154551+00:00",
       "source_file": null,
       "source_repo": "cookiecutter/cookiecutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "cookiecutter/cookiecutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "copier-org/copier"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "lexical_providers": [
     "datamuse"
   ],

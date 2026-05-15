@@ -151,6 +151,12 @@
       "source_repo": "dlclark/regexp2",
       "status": "candidate-context",
       "text": "Regexp2 is a feature-rich RegExp engine for Go. It doesn't have constant time guarantees like the built-in `regexp` package, but it allows backtracking and is compatible with Perl5 and .NET. You'll likely be better off with the RE2 engine from the `regexp` package and should onl\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/to-regex-range",
+      "status": "candidate-context",
+      "text": "to-regex-range \u2014 Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions."
     }
   ],
   "candidate_glosses": [
@@ -225,6 +231,12 @@
       "source_repo": "dlclark/regexp2",
       "status": "candidate",
       "text": "Regexp2 is a feature-rich RegExp engine for Go. It doesn't have constant time guarantees like the built-in `regexp` package, but it allows backtracking and is compatible with Perl5 and .NET. You'll likely be better off with the RE2 engine from the `regexp` package and should onl\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/to-regex-range",
+      "status": "candidate",
+      "text": "to-regex-range \u2014 Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions."
     }
   ],
   "candidate_related_terms": [],
@@ -1066,11 +1078,29 @@
       "observed_at": "2026-05-14T18:43:37.154551+00:00",
       "source_file": null,
       "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "lexical_providers": [
     "datamuse"
   ],

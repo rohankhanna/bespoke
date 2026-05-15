@@ -1,0 +1,596 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "szenius/set-timezone@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/genlocale.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/genlocale.yml"
+    },
+    {
+      "component": "superbrothers/close-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_format.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_format.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_format.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_format.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_format.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_format.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_dev.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unitest.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unitest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "openvpi/audio-slicer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "yxlllc/rmvpe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "szenius/set-timezone@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "Build and Push Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/genlocale.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/genlocale.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/genlocale.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "Generate and Sync Locale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_format.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "superbrothers/close-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_format.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_format.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_format.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "Check Pull Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_format.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_format.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_format.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push_format.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "Standardize Code Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_dev.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync_dev.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "Merge dev into main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unitest.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unitest.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unitest.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "Unit Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "audio-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "change",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "conversational-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "conversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "converter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "retrieval-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "retrieve-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "so-vits-svc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "sovits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "vits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "voice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "voice-conversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "voice-converter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "target": "voiceconversion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T04:08:43.505627+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7010
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2596
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1306
+    },
+    {
+      "path": "requirements.txt",
+      "size": 754
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 2121
+    },
+    {
+      "path": ".github/workflows/genlocale.yml",
+      "size": 1160
+    },
+    {
+      "path": ".github/workflows/pull_format.yml",
+      "size": 1305
+    },
+    {
+      "path": ".github/workflows/push_format.yml",
+      "size": 1428
+    },
+    {
+      "path": ".github/workflows/sync_dev.yml",
+      "size": 464
+    },
+    {
+      "path": ".github/workflows/unitest.yml",
+      "size": 1396
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Easily train a good VC model with voice data <= 10 mins!",
+    "fork": false,
+    "full_name": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+    "html_url": "https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+    "language": "Python",
+    "pushed_at": "2024-11-24T15:09:44Z",
+    "stargazers_count": 35600,
+    "topics": [
+      "audio-analysis",
+      "change",
+      "conversational-ai",
+      "conversion",
+      "converter",
+      "retrieval-model",
+      "retrieve-data",
+      "rvc",
+      "so-vits-svc",
+      "sovits",
+      "vc",
+      "vits",
+      "voice",
+      "voice-conversion",
+      "voice-converter",
+      "voiceconversion"
+    ],
+    "updated_at": "2026-05-14T22:39:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openvpi/audio-slicer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yxlllc/rmvpe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Push Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Build and Push Docker Image"
+    },
+    {
+      "context_snippet": "Generate and Sync Locale",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/genlocale.yml",
+      "term": "Generate and Sync Locale"
+    },
+    {
+      "context_snippet": "Check Pull Format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_format.yml",
+      "term": "Check Pull Format"
+    },
+    {
+      "context_snippet": "Standardize Code Format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push_format.yml",
+      "term": "Standardize Code Format"
+    },
+    {
+      "context_snippet": "Merge dev into main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync_dev.yml",
+      "term": "Merge dev into main"
+    },
+    {
+      "context_snippet": "Unit Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unitest.yml",
+      "term": "Unit Test"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-analysis"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "change"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversational-ai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversion"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "converter"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retrieval-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retrieve-data"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "so-vits-svc"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sovits"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vits"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-conversion"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-converter"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voiceconversion"
+    }
+  ]
+}

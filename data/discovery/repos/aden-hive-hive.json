@@ -347,12 +347,8 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-14T22:26:53.398239+00:00",
+  "fetched_at": "2026-05-15T04:52:15.515713+00:00",
   "fetched_files": [
-    {
-      "path": "README.md",
-      "size": 16972
-    },
     {
       "path": "package.json",
       "size": 720
@@ -400,7 +396,7 @@
     "html_url": "https://github.com/aden-hive/hive",
     "language": "Python",
     "pushed_at": "2026-05-11T21:46:55Z",
-    "stargazers_count": 10336,
+    "stargazers_count": 10337,
     "topics": [
       "agent",
       "agent-framework",
@@ -417,7 +413,7 @@
       "self-hosted",
       "self-improving"
     ],
-    "updated_at": "2026-05-14T19:23:04Z"
+    "updated_at": "2026-05-15T02:33:41Z"
   },
   "repo_links": [
     {
@@ -464,61 +460,61 @@
       "term": "PR Requirements Enforcement"
     },
     {
-      "context_snippet": "<p align=\"center\">",
+      "context_snippet": "hive \u2014 Hive - Aden Agent Framework - Build goal-driven, self-improving AI agents",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "agent-framework"
     },
     {
-      "context_snippet": "<p align=\"center\">",
+      "context_snippet": "hive \u2014 Hive - Aden Agent Framework - Build goal-driven, self-improving AI agents",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "agent-skills"
     },
     {
-      "context_snippet": "<p align=\"center\">",
+      "context_snippet": "hive \u2014 Hive - Aden Agent Framework - Build goal-driven, self-improving AI agents",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "anthropic"
     },
     {
-      "context_snippet": "<p align=\"center\">",
+      "context_snippet": "hive \u2014 Hive - Aden Agent Framework - Build goal-driven, self-improving AI agents",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "automation"
     },
     {
-      "context_snippet": "<p align=\"center\">",
+      "context_snippet": "hive \u2014 Hive - Aden Agent Framework - Build goal-driven, self-improving AI agents",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "autonomous-agents"
     },
     {
-      "context_snippet": "<p align=\"center\">",
+      "context_snippet": "hive \u2014 Hive - Aden Agent Framework - Build goal-driven, self-improving AI agents",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "harness"
     },
     {
-      "context_snippet": "<p align=\"center\">",
+      "context_snippet": "hive \u2014 Hive - Aden Agent Framework - Build goal-driven, self-improving AI agents",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "harness-engineering"
     },
     {
-      "context_snippet": "<p align=\"center\">",
+      "context_snippet": "hive \u2014 Hive - Aden Agent Framework - Build goal-driven, self-improving AI agents",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "human-in-the-loop"
     },
     {
-      "context_snippet": "<p align=\"center\">",
+      "context_snippet": "hive \u2014 Hive - Aden Agent Framework - Build goal-driven, self-improving AI agents",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "self-hosted"
     },
     {
-      "context_snippet": "<p align=\"center\">",
+      "context_snippet": "hive \u2014 Hive - Aden Agent Framework - Build goal-driven, self-improving AI agents",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "self-improving"

@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Check Pull Format"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "status": "candidate-context",
+      "text": "Easily train a good VC model with voice data <= 10 mins!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "status": "candidate-context",
+      "text": "Check Pull Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "status": "candidate-context",
+      "text": "Easily train a good VC model with voice data <= 10 mins!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "status": "candidate-context",
+      "text": "Check Pull Format"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "status": "candidate",
+      "text": "Check Pull Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "status": "candidate",
+      "text": "Check Pull Format"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34189,
+      "status": "candidate",
+      "text": "rein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26039,
+      "status": "candidate",
+      "text": "rein in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19136,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18385,
+      "status": "candidate",
+      "text": "quiz"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18348,
+      "status": "candidate",
+      "text": "printed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Pull Format",
+  "concept_id": "check-pull-format",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/pull_format.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/pull_format.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI"
+    }
+  ],
+  "first_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Pull Format",
+      "sense_id": "check-pull-format#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

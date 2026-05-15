@@ -1,0 +1,117 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adibian/ResGrad",
+      "target": "majidadibian77/resgrad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adibian/ResGrad",
+      "target": "fastspeech2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adibian/ResGrad",
+      "target": "resgrad",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adibian/ResGrad",
+      "target": "speech-denoising",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adibian/ResGrad",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adibian/ResGrad",
+      "target": "text-to-speech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T04:08:33.541805+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2452
+    },
+    {
+      "path": "requirements.txt",
+      "size": 279
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unofficial implementation of ResGrad: Residual Denoising Diffusion Probabilistic Models for Text to Speech",
+    "fork": false,
+    "full_name": "Adibian/ResGrad",
+    "html_url": "https://github.com/Adibian/ResGrad",
+    "language": "Python",
+    "pushed_at": "2025-02-09T09:12:48Z",
+    "stargazers_count": 20,
+    "topics": [
+      "fastspeech2",
+      "resgrad",
+      "speech-denoising",
+      "speech-synthesis",
+      "text-to-speech"
+    ],
+    "updated_at": "2026-04-01T06:53:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "majidadibian77/resgrad",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[**ResGrad: Residual Denoising Diffusion Probabilistic Models for Text to Speech**](https://arxiv.org/abs/2212.14518)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastspeech2"
+    },
+    {
+      "context_snippet": "[**ResGrad: Residual Denoising Diffusion Probabilistic Models for Text to Speech**](https://arxiv.org/abs/2212.14518)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resgrad"
+    },
+    {
+      "context_snippet": "[**ResGrad: Residual Denoising Diffusion Probabilistic Models for Text to Speech**](https://arxiv.org/abs/2212.14518)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-denoising"
+    },
+    {
+      "context_snippet": "[**ResGrad: Residual Denoising Diffusion Probabilistic Models for Text to Speech**](https://arxiv.org/abs/2212.14518)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "[**ResGrad: Residual Denoising Diffusion Probabilistic Models for Text to Speech**](https://arxiv.org/abs/2212.14518)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    }
+  ]
+}

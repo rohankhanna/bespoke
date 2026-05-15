@@ -19,12 +19,30 @@
       "source_repo": "libusb/libusb",
       "status": "candidate-context",
       "text": "MSYS2 build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celtera/libremidi",
+      "status": "candidate-context",
+      "text": "A modern C++ MIDI 1 / MIDI 2 real-time & file I/O library. Supports Windows, macOS, Linux and WebMIDI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celtera/libremidi",
+      "status": "candidate-context",
+      "text": "MSYS2 build"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "libusb/libusb",
+      "status": "candidate",
+      "text": "MSYS2 build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celtera/libremidi",
       "status": "candidate",
       "text": "MSYS2 build"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/msys2.yml",
       "source_repo": "libusb/libusb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/mingw.yml",
+      "source_repo": "celtera/libremidi"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "lexical_providers": [
     "datamuse"
   ],

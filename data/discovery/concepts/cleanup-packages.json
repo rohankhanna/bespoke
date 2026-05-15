@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cleanup packages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Nerivec/zigbee2mqtt-windfront",
+      "status": "candidate-context",
+      "text": "Open Source frontend for Zigbee2MQTT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nerivec/zigbee2mqtt-windfront",
+      "status": "candidate-context",
+      "text": "Cleanup packages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nerivec/zigbee2mqtt-windfront",
+      "status": "candidate",
+      "text": "Cleanup packages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10630,
+      "status": "candidate",
+      "text": "broom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10630,
+      "status": "candidate",
+      "text": "clearance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10630,
+      "status": "candidate",
+      "text": "remediation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10569,
+      "status": "candidate",
+      "text": "act"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10569,
+      "status": "candidate",
+      "text": "bat"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cleanup packages",
+  "concept_id": "cleanup-packages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/cleanup-packages.yml",
+      "source_repo": "Nerivec/zigbee2mqtt-windfront"
+    }
+  ],
+  "first_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cleanup packages",
+      "sense_id": "cleanup-packages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

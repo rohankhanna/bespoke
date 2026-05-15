@@ -1,0 +1,144 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "X-LANCE/VoiceFlow-TTS",
+      "target": "cantabile-kwok/unicats-ctx-vec2wav",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "X-LANCE/VoiceFlow-TTS",
+      "target": "atong01/conditional-flow-matching",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/VoiceFlow-TTS",
+      "target": "conditional-flow-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/VoiceFlow-TTS",
+      "target": "generative-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/VoiceFlow-TTS",
+      "target": "probabilistic-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/VoiceFlow-TTS",
+      "target": "rectified-flow-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/VoiceFlow-TTS",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/VoiceFlow-TTS",
+      "target": "text-to-speech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T01:47:17.763432+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9679
+    },
+    {
+      "path": "requirements.txt",
+      "size": 439
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICASSP 2024] This is the official code for \"VoiceFlow: Efficient Text-to-Speech with Rectified Flow Matching\"",
+    "fork": false,
+    "full_name": "X-LANCE/VoiceFlow-TTS",
+    "html_url": "https://github.com/X-LANCE/VoiceFlow-TTS",
+    "language": "Python",
+    "pushed_at": "2024-09-03T05:41:17Z",
+    "stargazers_count": 373,
+    "topics": [
+      "conditional-flow-matching",
+      "generative-models",
+      "probabilistic-models",
+      "rectified-flow-matching",
+      "speech-synthesis",
+      "text-to-speech",
+      "tts"
+    ],
+    "updated_at": "2026-05-11T13:21:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atong01/conditional-flow-matching",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cantabile-kwok/unicats-ctx-vec2wav",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> This is the official implementation of our ICASSP 2024 paper [VoiceFlow](https://arxiv.org/abs/2309.05027).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conditional-flow-matching"
+    },
+    {
+      "context_snippet": "> This is the official implementation of our ICASSP 2024 paper [VoiceFlow](https://arxiv.org/abs/2309.05027).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-models"
+    },
+    {
+      "context_snippet": "> This is the official implementation of our ICASSP 2024 paper [VoiceFlow](https://arxiv.org/abs/2309.05027).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "probabilistic-models"
+    },
+    {
+      "context_snippet": "> This is the official implementation of our ICASSP 2024 paper [VoiceFlow](https://arxiv.org/abs/2309.05027).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rectified-flow-matching"
+    },
+    {
+      "context_snippet": "> This is the official implementation of our ICASSP 2024 paper [VoiceFlow](https://arxiv.org/abs/2309.05027).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "> This is the official implementation of our ICASSP 2024 paper [VoiceFlow](https://arxiv.org/abs/2309.05027).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    }
+  ]
+}

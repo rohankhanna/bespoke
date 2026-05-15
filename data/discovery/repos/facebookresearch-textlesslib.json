@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-15T04:08:30.707762+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7243
+    },
+    {
+      "path": "requirements.txt",
+      "size": 156
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Library for Textless Spoken Language Processing",
+    "fork": false,
+    "full_name": "facebookresearch/textlesslib",
+    "html_url": "https://github.com/facebookresearch/textlesslib",
+    "language": "Python",
+    "pushed_at": "2023-08-29T14:47:49Z",
+    "stargazers_count": 558,
+    "topics": [],
+    "updated_at": "2026-04-30T07:29:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

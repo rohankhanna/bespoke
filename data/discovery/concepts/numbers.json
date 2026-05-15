@@ -55,6 +55,12 @@
       "source_repo": "tc39/proposal-amount",
       "status": "candidate-context",
       "text": "**Stage**: 1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/to-regex-range",
+      "status": "candidate-context",
+      "text": "to-regex-range \u2014 Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +87,12 @@
       "source_repo": "tc39/proposal-amount",
       "status": "candidate",
       "text": "**Stage**: 1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/to-regex-range",
+      "status": "candidate",
+      "text": "to-regex-range \u2014 Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions."
     }
   ],
   "candidate_related_terms": [
@@ -416,11 +428,17 @@
       "observed_at": "2026-05-14T18:43:37.154551+00:00",
       "source_file": null,
       "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "lexical_providers": [
     "datamuse"
   ],

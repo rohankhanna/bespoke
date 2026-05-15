@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bigpon/QPPWG",
+      "target": "bigpon/qpnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bigpon/QPPWG",
+      "target": "k2kobayashi/sprocket",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigpon/QPPWG",
+      "target": "neural-vocoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigpon/QPPWG",
+      "target": "parallel-wavenet-vocoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigpon/QPPWG",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigpon/QPPWG",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigpon/QPPWG",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigpon/QPPWG",
+      "target": "wavenet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T04:08:36.132936+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15584
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Quasi-Periodic Parallel WaveGAN Pytorch implementation",
+    "fork": false,
+    "full_name": "bigpon/QPPWG",
+    "html_url": "https://github.com/bigpon/QPPWG",
+    "language": "Python",
+    "pushed_at": "2022-10-29T23:02:09Z",
+    "stargazers_count": 46,
+    "topics": [
+      "neural-vocoder",
+      "parallel-wavenet-vocoder",
+      "pytorch",
+      "real-time",
+      "speech-synthesis",
+      "wavenet"
+    ],
+    "updated_at": "2024-01-23T21:14:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bigpon/qpnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "k2kobayashi/sprocket",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![](https://img.shields.io/pypi/v/qppwg)](https://pypi.org/project/qppwg/) ![](https://img.shields.io/pypi/pyversions/qppwg) ![](https://img.shields.io/pypi/l/qppwg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-vocoder"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/pypi/v/qppwg)](https://pypi.org/project/qppwg/) ![](https://img.shields.io/pypi/pyversions/qppwg) ![](https://img.shields.io/pypi/l/qppwg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel-wavenet-vocoder"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/pypi/v/qppwg)](https://pypi.org/project/qppwg/) ![](https://img.shields.io/pypi/pyversions/qppwg) ![](https://img.shields.io/pypi/l/qppwg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/pypi/v/qppwg)](https://pypi.org/project/qppwg/) ![](https://img.shields.io/pypi/pyversions/qppwg) ![](https://img.shields.io/pypi/l/qppwg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/pypi/v/qppwg)](https://pypi.org/project/qppwg/) ![](https://img.shields.io/pypi/pyversions/qppwg) ![](https://img.shields.io/pypi/l/qppwg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/pypi/v/qppwg)](https://pypi.org/project/qppwg/) ![](https://img.shields.io/pypi/pyversions/qppwg) ![](https://img.shields.io/pypi/l/qppwg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wavenet"
+    }
+  ]
+}

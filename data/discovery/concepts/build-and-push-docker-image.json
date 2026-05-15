@@ -160,6 +160,30 @@
       "source_repo": "bagofwords1/bagofwords",
       "status": "candidate-context",
       "text": "Build and Push Docker Image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "status": "candidate-context",
+      "text": "Easily train a good VC model with voice data <= 10 mins!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "status": "candidate-context",
+      "text": "Build and Push Docker Image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "status": "candidate-context",
+      "text": "Easily train a good VC model with voice data <= 10 mins!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+      "status": "candidate-context",
+      "text": "Build and Push Docker Image"
     }
   ],
   "candidate_glosses": [
@@ -238,6 +262,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "bagofwords1/bagofwords",
+      "status": "candidate",
+      "text": "Build and Push Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "status": "candidate",
+      "text": "Build and Push Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
       "status": "candidate",
       "text": "Build and Push Docker Image"
     }
@@ -421,11 +457,29 @@
       "observed_at": "2026-05-14T18:43:37.154551+00:00",
       "source_file": ".github/workflows/docker-build.yml",
       "source_repo": "aristoteleo/PantheonOS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "aristoteleo/PantheonOS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T00:40:36.218046+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "lexical_providers": [
     "datamuse"
   ],
