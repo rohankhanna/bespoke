@@ -385,6 +385,12 @@
       "source_repo": "bytedance/piano_transcription",
       "status": "candidate-context",
       "text": "Piano transcription is the task of transcribing piano recordings into MIDI files. This repo is the PyTorch implementation of our proposed high-resolution piano transcription system [1]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/GiantMIDI-Piano",
+      "status": "candidate-context",
+      "text": "GiantMIDI-Piano [1] is a classical piano MIDI dataset contains 10,855 MIDI files of 2,786 composers. The curated subset by constraining composer surnames contains 7,236 MIDI files of 1,787 composers. GiantMIDI-Piano are transcribed from live recordings with a high-resolution pia\u2026"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +591,12 @@
       "source_repo": "bytedance/piano_transcription",
       "status": "candidate",
       "text": "Piano transcription is the task of transcribing piano recordings into MIDI files. This repo is the PyTorch implementation of our proposed high-resolution piano transcription system [1]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/GiantMIDI-Piano",
+      "status": "candidate",
+      "text": "GiantMIDI-Piano [1] is a classical piano MIDI dataset contains 10,855 MIDI files of 2,786 composers. The curated subset by constraining composer surnames contains 7,236 MIDI files of 1,787 composers. GiantMIDI-Piano are transcribed from live recordings with a high-resolution pia\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1359,11 +1371,29 @@
       "observed_at": "2026-05-15T00:40:36.218046+00:00",
       "source_file": null,
       "source_repo": "bytedance/piano_transcription"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/GiantMIDI-Piano"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/WebThinker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/acme"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

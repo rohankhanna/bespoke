@@ -55,6 +55,18 @@
       "source_repo": "ai-forever/Kandinsky-2",
       "status": "candidate-context",
       "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MfN9dfmejT8NjXhR353NeP5RzbruHgo7?usp=sharing) \u2014 Inference example"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "status": "candidate-context",
+      "text": "Stable Diffusion web UI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "status": "candidate-context",
+      "text": "A web interface for Stable Diffusion, implemented using Gradio library."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "ai-forever/Kandinsky-2",
       "status": "candidate",
       "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MfN9dfmejT8NjXhR353NeP5RzbruHgo7?usp=sharing) \u2014 Inference example"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "status": "candidate",
+      "text": "A web interface for Stable Diffusion, implemented using Gradio library."
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +136,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ai-forever/Kandinsky-2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

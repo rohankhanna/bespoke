@@ -383,11 +383,17 @@
       "observed_at": "2026-05-15T07:17:00.410973+00:00",
       "source_file": ".github/workflows/bump-homebrew-formula.yml",
       "source_repo": "git-friendly/git-friendly"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/bump-homebrew-formula.yml",
+      "source_repo": "git-friendly/git-friendly"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

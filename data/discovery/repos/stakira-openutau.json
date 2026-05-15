@@ -1,0 +1,515 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "repolevedavaj/install-nsis@v1.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "justalemon/VersionPatcher@v0.7.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "joncloud/makensis-action@v4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "AnimMouse/setup-appimage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin.yml"
+    },
+    {
+      "component": "crowdin/github-action@v2.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml"
+    },
+    {
+      "component": "dev-drprasad/delete-older-releases@v0.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cleanup.yml"
+    },
+    {
+      "component": "actions/stale@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/worldline-build.yml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.18.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/worldline-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/worldline-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/worldline-build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/worldline-build.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/worldline-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "repolevedavaj/install-nsis@v1.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "justalemon/VersionPatcher@v0.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "joncloud/makensis-action@v4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "AnimMouse/setup-appimage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "crowdin/github-action@v2.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crowdin.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "Crowdin Action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cleanup.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "dev-drprasad/delete-older-releases@v0.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-cleanup.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "release-cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "actions/stale@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/worldline-build.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/worldline-build.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "bazel-contrib/setup-bazel@0.18.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/worldline-build.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/worldline-build.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/worldline-build.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/worldline-build.yml",
+      "source_repo": "stakira/OpenUtau",
+      "target": "Worldline Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stakira/OpenUtau",
+      "target": "music",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stakira/OpenUtau",
+      "target": "openutau",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stakira/OpenUtau",
+      "target": "singing-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stakira/OpenUtau",
+      "target": "singing-voice-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stakira/OpenUtau",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stakira/OpenUtau",
+      "target": "utau",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stakira/OpenUtau",
+      "target": "vocal-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stakira/OpenUtau",
+      "target": "vocaloid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stakira/OpenUtau",
+      "target": "vogen",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T17:30:21.373284+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5061
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 8303
+    },
+    {
+      "path": ".github/workflows/crowdin.yml",
+      "size": 2322
+    },
+    {
+      "path": ".github/workflows/pr-test.yml",
+      "size": 728
+    },
+    {
+      "path": ".github/workflows/release-cleanup.yml",
+      "size": 855
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1095
+    },
+    {
+      "path": ".github/workflows/worldline-build.yml",
+      "size": 2034
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Open singing synthesis platform / Open source UTAU successor",
+    "fork": false,
+    "full_name": "stakira/OpenUtau",
+    "html_url": "https://github.com/stakira/OpenUtau",
+    "language": "C#",
+    "pushed_at": "2026-05-08T21:34:24Z",
+    "stargazers_count": 3844,
+    "topics": [
+      "music",
+      "openutau",
+      "singing-synthesis",
+      "singing-voice-synthesis",
+      "speech-synthesis",
+      "utau",
+      "vocal-synthesis",
+      "vocaloid",
+      "vogen"
+    ],
+    "updated_at": "2026-05-15T09:43:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Crowdin Action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crowdin.yml",
+      "term": "Crowdin Action"
+    },
+    {
+      "context_snippet": "release-cleanup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-cleanup.yml",
+      "term": "release-cleanup"
+    },
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark stale issues and pull requests"
+    },
+    {
+      "context_snippet": "Worldline Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/worldline-build.yml",
+      "term": "Worldline Build"
+    },
+    {
+      "context_snippet": "OpenUtau is a free, open-source editor made for the UTAU community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music"
+    },
+    {
+      "context_snippet": "OpenUtau is a free, open-source editor made for the UTAU community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openutau"
+    },
+    {
+      "context_snippet": "OpenUtau is a free, open-source editor made for the UTAU community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-synthesis"
+    },
+    {
+      "context_snippet": "OpenUtau is a free, open-source editor made for the UTAU community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-voice-synthesis"
+    },
+    {
+      "context_snippet": "OpenUtau is a free, open-source editor made for the UTAU community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "OpenUtau is a free, open-source editor made for the UTAU community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utau"
+    },
+    {
+      "context_snippet": "OpenUtau is a free, open-source editor made for the UTAU community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocal-synthesis"
+    },
+    {
+      "context_snippet": "OpenUtau is a free, open-source editor made for the UTAU community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocaloid"
+    },
+    {
+      "context_snippet": "OpenUtau is a free, open-source editor made for the UTAU community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vogen"
+    }
+  ]
+}

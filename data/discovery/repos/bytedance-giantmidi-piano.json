@@ -1,0 +1,48 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/GiantMIDI-Piano",
+      "target": "research",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T13:02:26.760475+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4509
+    },
+    {
+      "path": "requirements.txt",
+      "size": 73
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "bytedance/GiantMIDI-Piano",
+    "html_url": "https://github.com/bytedance/GiantMIDI-Piano",
+    "language": "Python",
+    "pushed_at": "2022-04-17T19:47:19Z",
+    "stargazers_count": 1879,
+    "topics": [
+      "research"
+    ],
+    "updated_at": "2026-05-13T14:43:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GiantMIDI-Piano [1] is a classical piano MIDI dataset contains 10,855 MIDI files of 2,786 composers. The curated subset by constraining composer surnames contains 7,236 MIDI files of 1,787 composers. GiantMIDI-Piano are transcribed from live recordings with a high-resolution pia\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "geekodour/wscribe",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "geekodour/wscribe",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "geekodour/wscribe",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geekodour/wscribe",
+      "target": "audio-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geekodour/wscribe",
+      "target": "transcription",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geekodour/wscribe",
+      "target": "whisper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T15:22:00.061368+00:00",
+  "fetched_files": [
+    {
+      "path": "pyproject.toml",
+      "size": 1132
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1020
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ez audio transcription tool with flexible processing and post-processing options",
+    "fork": false,
+    "full_name": "geekodour/wscribe",
+    "html_url": "https://github.com/geekodour/wscribe",
+    "language": "Python",
+    "pushed_at": "2024-02-01T18:25:40Z",
+    "stargazers_count": 167,
+    "topics": [
+      "audio-processing",
+      "transcription",
+      "whisper"
+    ],
+    "updated_at": "2026-04-14T10:04:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[tool.poetry] name = \"wscribe\" version = \"0.1.5\" description = \"ez audio transcription tool with flexible processing and post-processing options\" authors = [\"Hrishikesh Barman <oss@geekodour.org>\"] homepage = \"https://github.com/geekodour/wscribe\" license = \"MIT\" readme = \"docs/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-processing"
+    },
+    {
+      "context_snippet": "[tool.poetry] name = \"wscribe\" version = \"0.1.5\" description = \"ez audio transcription tool with flexible processing and post-processing options\" authors = [\"Hrishikesh Barman <oss@geekodour.org>\"] homepage = \"https://github.com/geekodour/wscribe\" license = \"MIT\" readme = \"docs/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transcription"
+    },
+    {
+      "context_snippet": "[tool.poetry] name = \"wscribe\" version = \"0.1.5\" description = \"ez audio transcription tool with flexible processing and post-processing options\" authors = [\"Hrishikesh Barman <oss@geekodour.org>\"] homepage = \"https://github.com/geekodour/wscribe\" license = \"MIT\" readme = \"docs/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whisper"
+    }
+  ]
+}

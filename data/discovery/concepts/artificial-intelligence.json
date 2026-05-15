@@ -1819,6 +1819,18 @@
       "source_repo": "lucidrains/PoPE-pytorch",
       "status": "candidate-context",
       "text": "<img src=\"./pope.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kahne/SpeechTransProgress",
+      "status": "candidate-context",
+      "text": "Tracking the progress in end-to-end speech translation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kahne/SpeechTransProgress",
+      "status": "candidate-context",
+      "text": "End-to-End Speech Translation Progress"
     }
   ],
   "candidate_glosses": [
@@ -2727,6 +2739,12 @@
       "source_repo": "lucidrains/PoPE-pytorch",
       "status": "candidate",
       "text": "<img src=\"./pope.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kahne/SpeechTransProgress",
+      "status": "candidate",
+      "text": "End-to-End Speech Translation Progress"
     }
   ],
   "candidate_related_terms": [],
@@ -7276,11 +7294,107 @@
       "observed_at": "2026-05-15T07:17:00.410973+00:00",
       "source_file": null,
       "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "Alibaba-NLP/DeepResearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/vector-quantize-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/langchainrb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "hexabot-ai/Hexabot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "kahne/SpeechTransProgress"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

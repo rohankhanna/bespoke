@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "atsushieno/aap-lv2/.github/workflows/build-dist-app.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atsushieno/aap-lv2-string-machine",
+      "target": "jpcima/string-machine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atsushieno/aap-lv2-string-machine",
+      "target": "atsushieno/android-native-audio-builders",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/aap-lv2-string-machine",
+      "target": "atsushieno/aap-lv2/.github/workflows/build-dist-app.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/aap-lv2-string-machine",
+      "target": "build dist",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T17:29:40.426825+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1976
+    },
+    {
+      "path": ".github/workflows/actions.yml",
+      "size": 138
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AAP port of String-Machine",
+    "fork": false,
+    "full_name": "atsushieno/aap-lv2-string-machine",
+    "html_url": "https://github.com/atsushieno/aap-lv2-string-machine",
+    "language": "CMake",
+    "pushed_at": "2026-05-10T17:50:24Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-05-10T17:50:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atsushieno/android-native-audio-builders",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jpcima/string-machine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build dist",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "term": "build dist"
+    }
+  ]
+}

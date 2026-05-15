@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-15T15:21:40.604512+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of VQ-Diffusion",
+    "fork": false,
+    "full_name": "microsoft/VQ-Diffusion",
+    "html_url": "https://github.com/microsoft/VQ-Diffusion",
+    "language": "Python",
+    "pushed_at": "2024-04-17T09:11:25Z",
+    "stargazers_count": 979,
+    "topics": [],
+    "updated_at": "2026-04-22T02:22:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

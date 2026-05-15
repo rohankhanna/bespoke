@@ -387,7 +387,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T07:26:02.070547+00:00",
+  "fetched_at": "2026-05-15T17:07:26.951636+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -403,7 +403,7 @@
     },
     {
       "path": ".github/workflows/test.yml",
-      "size": 2472
+      "size": 2487
     }
   ],
   "related_repositories": [],
@@ -415,10 +415,10 @@
     "full_name": "browserslist/browserslist",
     "html_url": "https://github.com/browserslist/browserslist",
     "language": "JavaScript",
-    "pushed_at": "2026-04-14T17:08:03Z",
+    "pushed_at": "2026-05-15T10:08:04Z",
     "stargazers_count": 13531,
     "topics": [],
-    "updated_at": "2026-05-14T20:33:09Z"
+    "updated_at": "2026-05-15T10:08:08Z"
   },
   "repo_links": [
     {

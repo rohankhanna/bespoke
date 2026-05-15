@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YatingMusic/ddsp-singing-vocoders",
+      "target": "ismir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YatingMusic/ddsp-singing-vocoders",
+      "target": "singing-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YatingMusic/ddsp-singing-vocoders",
+      "target": "singing-voice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YatingMusic/ddsp-singing-vocoders",
+      "target": "vocoders",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-15T12:50:28.227991+00:00",
+  "source_repo": "YatingMusic/ddsp-singing-vocoders"
+}

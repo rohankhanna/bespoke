@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
-  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -11,6 +11,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "brightmart/text_classification"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "DoodleBears/split-lang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "LlmKira/fast-langdetect"
     }
   ],
   "term": "fasttext"

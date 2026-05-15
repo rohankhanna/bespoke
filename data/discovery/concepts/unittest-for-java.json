@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Unittest for Java"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/budoux",
+      "status": "candidate-context",
+      "text": "Unittest for Java"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/budoux",
+      "status": "candidate",
+      "text": "Unittest for Java"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "coffee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "joe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "mocha"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "asea"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "brew"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Unittest for Java",
+  "concept_id": "unittest-for-java",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/java-unittest.yml",
+      "source_repo": "google/budoux"
+    }
+  ],
+  "first_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Unittest for Java",
+      "sense_id": "unittest-for-java#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

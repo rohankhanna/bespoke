@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AudioRoute/AudioRoute-SDK",
+      "target": "google/patchfield",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-15T17:29:31.547404+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 410
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AudioRoute SDK and sample projects (Delay effect, Simple synth and Hostsample host)",
+    "fork": false,
+    "full_name": "AudioRoute/AudioRoute-SDK",
+    "html_url": "https://github.com/AudioRoute/AudioRoute-SDK",
+    "language": "Java",
+    "pushed_at": "2024-09-04T10:46:03Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2026-04-03T13:03:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/patchfield",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

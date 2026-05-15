@@ -1,0 +1,268 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@4.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "target": "atsushieno/resident-midi-keyboard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "target": "build dist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "target": "JamesIves/github-pages-deploy-action@4.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/compose-audio-controls",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/compose-audio-controls",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/compose-audio-controls",
+      "target": "compose-multiplatform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/compose-audio-controls",
+      "target": "jetpack-compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/compose-audio-controls",
+      "target": "keyboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/compose-audio-controls",
+      "target": "knob-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/compose-audio-controls",
+      "target": "midi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/compose-audio-controls",
+      "target": "midi2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T17:29:58.888467+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6071
+    },
+    {
+      "path": ".github/workflows/actions.yml",
+      "size": 1167
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1251
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "audio controls for Jetpack Compose and Compose for Multiplatform ",
+    "fork": false,
+    "full_name": "atsushieno/compose-audio-controls",
+    "html_url": "https://github.com/atsushieno/compose-audio-controls",
+    "language": "Kotlin",
+    "pushed_at": "2026-05-08T05:48:41Z",
+    "stargazers_count": 12,
+    "topics": [
+      "aap",
+      "android",
+      "audio",
+      "compose-multiplatform",
+      "jetpack-compose",
+      "keyboard",
+      "knob-control",
+      "midi",
+      "midi2"
+    ],
+    "updated_at": "2026-05-08T05:05:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atsushieno/resident-midi-keyboard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build dist",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "term": "build dist"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "![demoapp sshot](docs/images/demoapp-sshot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "![demoapp sshot](docs/images/demoapp-sshot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "![demoapp sshot](docs/images/demoapp-sshot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compose-multiplatform"
+    },
+    {
+      "context_snippet": "![demoapp sshot](docs/images/demoapp-sshot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetpack-compose"
+    },
+    {
+      "context_snippet": "![demoapp sshot](docs/images/demoapp-sshot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keyboard"
+    },
+    {
+      "context_snippet": "![demoapp sshot](docs/images/demoapp-sshot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knob-control"
+    },
+    {
+      "context_snippet": "![demoapp sshot](docs/images/demoapp-sshot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi"
+    },
+    {
+      "context_snippet": "![demoapp sshot](docs/images/demoapp-sshot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi2"
+    }
+  ]
+}

@@ -2962,6 +2962,30 @@
       "source_repo": "version-fox/vfox",
       "status": "candidate-context",
       "text": "<p style=\"\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alsa-project/alsa-lib",
+      "status": "candidate-context",
+      "text": "The Advanced Linux Sound Architecture (ALSA) - library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alsa-project/alsa-lib",
+      "status": "candidate-context",
+      "text": "[![Build alsa-lib](https://github.com/alsa-project/alsa-lib/workflows/Build%20alsa-lib/badge.svg?branch=master)](https://github.com/alsa-project/alsa-lib/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ssube/onnx-web",
+      "status": "candidate-context",
+      "text": "web UI for GPU-accelerated ONNX pipelines like Stable Diffusion, even on Windows and AMD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ssube/onnx-web",
+      "status": "candidate-context",
+      "text": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you"
     }
   ],
   "candidate_glosses": [
@@ -4458,6 +4482,18 @@
       "source_repo": "version-fox/vfox",
       "status": "candidate",
       "text": "<p style=\"\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alsa-project/alsa-lib",
+      "status": "candidate",
+      "text": "[![Build alsa-lib](https://github.com/alsa-project/alsa-lib/workflows/Build%20alsa-lib/badge.svg?branch=master)](https://github.com/alsa-project/alsa-lib/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ssube/onnx-web",
+      "status": "candidate",
+      "text": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you"
     }
   ],
   "candidate_related_terms": [
@@ -9073,11 +9109,95 @@
       "observed_at": "2026-05-15T07:17:00.410973+00:00",
       "source_file": null,
       "source_repo": "Biscuit-Theme/biscuit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "alsa-project/alsa-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "ssube/onnx-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebookarchive/fbzmq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "Biscuit-Theme/biscuit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "doctest/doctest"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

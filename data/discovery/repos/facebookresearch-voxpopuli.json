@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/voxpopuli",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/voxpopuli",
+      "target": "facebookresearch/flashlight",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/voxpopuli",
+      "target": "facebookresearch/cpc_audio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/voxpopuli",
+      "target": "facebookresearch/covost",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-15T13:01:49.257859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32384
+    },
+    {
+      "path": "requirements.txt",
+      "size": 45
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A large-scale multilingual speech corpus for representation learning, semi-supervised learning and interpretation",
+    "fork": false,
+    "full_name": "facebookresearch/voxpopuli",
+    "html_url": "https://github.com/facebookresearch/voxpopuli",
+    "language": "Python",
+    "pushed_at": "2023-04-02T02:52:59Z",
+    "stargazers_count": 573,
+    "topics": [],
+    "updated_at": "2026-05-12T15:32:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/covost",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/cpc_audio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/flashlight",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/fairseq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

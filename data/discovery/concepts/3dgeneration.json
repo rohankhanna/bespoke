@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "3dgeneration"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xxlong0/Wonder3D",
+      "status": "candidate-context",
+      "text": "Single Image to 3D using Cross-Domain Diffusion for 3D Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xxlong0/Wonder3D",
+      "status": "candidate-context",
+      "text": "**\u4e2d\u6587\u7248\u672c [\u4e2d\u6587](README_zh.md)**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xxlong0/Wonder3D",
+      "status": "candidate",
+      "text": "**\u4e2d\u6587\u7248\u672c [\u4e2d\u6587](README_zh.md)**"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "3dgeneration",
+  "concept_id": "3dgeneration",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "xxlong0/Wonder3D"
+    }
+  ],
+  "first_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "3dgeneration",
+      "sense_id": "3dgeneration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

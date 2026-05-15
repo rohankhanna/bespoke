@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BBC-Esq/Faster-Whisper-Transcriber",
+      "target": "audio-recorder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BBC-Esq/Faster-Whisper-Transcriber",
+      "target": "audio-transcribing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BBC-Esq/Faster-Whisper-Transcriber",
+      "target": "audio-transcription",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BBC-Esq/Faster-Whisper-Transcriber",
+      "target": "ctranslate2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BBC-Esq/Faster-Whisper-Transcriber",
+      "target": "faster-whisper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BBC-Esq/Faster-Whisper-Transcriber",
+      "target": "transcribe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BBC-Esq/Faster-Whisper-Transcriber",
+      "target": "transcriber",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T15:21:53.123015+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1599
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Record audio or transcribe files using ctranslate2 and whisper!",
+    "fork": false,
+    "full_name": "BBC-Esq/Faster-Whisper-Transcriber",
+    "html_url": "https://github.com/BBC-Esq/Faster-Whisper-Transcriber",
+    "language": "Python",
+    "pushed_at": "2026-04-28T00:18:28Z",
+    "stargazers_count": 193,
+    "topics": [
+      "audio-recorder",
+      "audio-transcribing",
+      "audio-transcription",
+      "ctranslate2",
+      "faster-whisper",
+      "transcribe",
+      "transcriber"
+    ],
+    "updated_at": "2026-05-15T08:18:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-recorder"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-transcribing"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-transcription"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ctranslate2"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "faster-whisper"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transcribe"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transcriber"
+    }
+  ]
+}

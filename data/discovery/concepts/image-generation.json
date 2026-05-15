@@ -763,6 +763,42 @@
       "source_repo": "AniAggarwal/ecad",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axodox/axodox-machinelearning",
+      "status": "candidate-context",
+      "text": "This repository contains a pure C++ ONNX implementation of multiple offline AI models, such as StableDiffusion (1.5 and XL), ControlNet, Midas, HED and OpenPose."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axodox/axodox-machinelearning",
+      "status": "candidate-context",
+      "text": "This repository contains a pure C++ ONNX implementation of multiple offline AI models, such as StableDiffusion (1.5 and XL), ControlNet, Midas, HED and OpenPose."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ssube/onnx-web",
+      "status": "candidate-context",
+      "text": "web UI for GPU-accelerated ONNX pipelines like Stable Diffusion, even on Windows and AMD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ssube/onnx-web",
+      "status": "candidate-context",
+      "text": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "status": "candidate-context",
+      "text": "Stable Diffusion web UI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "status": "candidate-context",
+      "text": "A web interface for Stable Diffusion, implemented using Gradio library."
     }
   ],
   "candidate_glosses": [
@@ -1143,6 +1179,24 @@
       "source_repo": "AniAggarwal/ecad",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axodox/axodox-machinelearning",
+      "status": "candidate",
+      "text": "This repository contains a pure C++ ONNX implementation of multiple offline AI models, such as StableDiffusion (1.5 and XL), ControlNet, Midas, HED and OpenPose."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ssube/onnx-web",
+      "status": "candidate",
+      "text": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "status": "candidate",
+      "text": "A web interface for Stable Diffusion, implemented using Gradio library."
     }
   ],
   "candidate_related_terms": [],
@@ -2314,11 +2368,47 @@
       "observed_at": "2026-05-15T07:17:00.410973+00:00",
       "source_file": null,
       "source_repo": "showlab/VisorGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "axodox/axodox-machinelearning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "ssube/onnx-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "showlab/VisorGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

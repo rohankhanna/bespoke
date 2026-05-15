@@ -188,6 +188,18 @@
       "source_repo": "apache/tomcat",
       "status": "candidate-context",
       "text": "Coverity Scan"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alsa-project/alsa-lib",
+      "status": "candidate-context",
+      "text": "The Advanced Linux Sound Architecture (ALSA) - library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alsa-project/alsa-lib",
+      "status": "candidate-context",
+      "text": "Coverity Scan"
     }
   ],
   "candidate_glosses": [
@@ -278,6 +290,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apache/tomcat",
+      "status": "candidate",
+      "text": "Coverity Scan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alsa-project/alsa-lib",
       "status": "candidate",
       "text": "Coverity Scan"
     }
@@ -725,11 +743,29 @@
       "observed_at": "2026-05-15T07:17:00.410973+00:00",
       "source_file": ".github/workflows/coverity-scan.yml",
       "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "alsa-project/alsa-lib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/coverity-scan.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "uxlfoundation/oneDNN"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

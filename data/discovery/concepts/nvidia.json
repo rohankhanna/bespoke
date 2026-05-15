@@ -547,6 +547,30 @@
       "source_repo": "Bruce-Lee-LY/cuda_hgemm",
       "status": "candidate-context",
       "text": "Several optimization methods of half-precision general matrix multiplication (HGEMM) using tensor core with WMMA API and MMA PTX instruction. The calculation expression is as follows, where the precision of matrix A (M * K), B (K * N) and C (M * N) is FP16. Through exploring var\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ssube/onnx-web",
+      "status": "candidate-context",
+      "text": "web UI for GPU-accelerated ONNX pipelines like Stable Diffusion, even on Windows and AMD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ssube/onnx-web",
+      "status": "candidate-context",
+      "text": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/cub",
+      "status": "candidate-context",
+      "text": "[ARCHIVED] Cooperative primitives for CUDA C++. See https://github.com/NVIDIA/cccl "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/cub",
+      "status": "candidate-context",
+      "text": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026"
     }
   ],
   "candidate_glosses": [
@@ -819,6 +843,18 @@
       "source_repo": "Bruce-Lee-LY/cuda_hgemm",
       "status": "candidate",
       "text": "Several optimization methods of half-precision general matrix multiplication (HGEMM) using tensor core with WMMA API and MMA PTX instruction. The calculation expression is as follows, where the precision of matrix A (M * K), B (K * N) and C (M * N) is FP16. Through exploring var\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ssube/onnx-web",
+      "status": "candidate",
+      "text": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/cub",
+      "status": "candidate",
+      "text": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1828,11 +1864,47 @@
       "observed_at": "2026-05-15T07:17:00.410973+00:00",
       "source_file": null,
       "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "ssube/onnx-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/cub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "nod-ai/AMD-SHARK-Studio"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,319 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ssube/onnx-web",
+      "target": "amblyopius/stable-diffusion-onnx-fp16",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ssube/onnx-web",
+      "target": "d8ahazard/sd_dreambooth_extension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ssube/onnx-web",
+      "target": "amblyopius/amd-stable-diffusion-onnx-fp16",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ssube/onnx-web",
+      "target": "azuritecoin/onnxdiffusersui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ssube/onnx-web",
+      "target": "ai-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ssube/onnx-web",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ssube/onnx-web",
+      "target": "esrgan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ssube/onnx-web",
+      "target": "flask",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ssube/onnx-web",
+      "target": "generative-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ssube/onnx-web",
+      "target": "gfpgan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ssube/onnx-web",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ssube/onnx-web",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ssube/onnx-web",
+      "target": "nvidia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ssube/onnx-web",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ssube/onnx-web",
+      "target": "reactjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ssube/onnx-web",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ssube/onnx-web",
+      "target": "super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ssube/onnx-web",
+      "target": "text2image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ssube/onnx-web",
+      "target": "upscaling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ssube/onnx-web",
+      "target": "web-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ssube/onnx-web",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T13:03:26.136008+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9560
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "web UI for GPU-accelerated ONNX pipelines like Stable Diffusion, even on Windows and AMD",
+    "fork": false,
+    "full_name": "ssube/onnx-web",
+    "html_url": "https://github.com/ssube/onnx-web",
+    "language": "Python",
+    "pushed_at": "2025-12-02T18:01:48Z",
+    "stargazers_count": 234,
+    "topics": [
+      "ai-art",
+      "amd",
+      "diffusion",
+      "esrgan",
+      "flask",
+      "generative-art",
+      "gfpgan",
+      "image-generation",
+      "linux",
+      "nvidia",
+      "python",
+      "pytorch",
+      "reactjs",
+      "stable-diffusion",
+      "super-resolution",
+      "text2image",
+      "upscaling",
+      "web-app",
+      "windows"
+    ],
+    "updated_at": "2026-04-17T14:13:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amblyopius/amd-stable-diffusion-onnx-fp16",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amblyopius/stable-diffusion-onnx-fp16",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azuritecoin/onnxdiffusersui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "d8ahazard/sd_dreambooth_extension",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-art"
+    },
+    {
+      "context_snippet": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esrgan"
+    },
+    {
+      "context_snippet": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flask"
+    },
+    {
+      "context_snippet": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-art"
+    },
+    {
+      "context_snippet": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gfpgan"
+    },
+    {
+      "context_snippet": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    },
+    {
+      "context_snippet": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactjs"
+    },
+    {
+      "context_snippet": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    },
+    {
+      "context_snippet": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text2image"
+    },
+    {
+      "context_snippet": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "upscaling"
+    },
+    {
+      "context_snippet": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-app"
+    },
+    {
+      "context_snippet": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

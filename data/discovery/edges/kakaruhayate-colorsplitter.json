@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KakaruHayate/ColorSplitter",
+      "target": "resemble-ai/resemblyzer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KakaruHayate/ColorSplitter",
+      "target": "alibaba-damo-academy/3d-speaker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KakaruHayate/ColorSplitter",
+      "target": "aaronz345/gtsinger",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-15T12:50:28.227991+00:00",
+  "source_repo": "KakaruHayate/ColorSplitter"
+}

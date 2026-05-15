@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chenzhuo1011/libri_css",
+      "target": "usnistgov/sctk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chenzhuo1011/libri_css",
+      "target": "jzlianglu/pykaldi2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-15T13:01:45.820814+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11975
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Libri-CSS: dataset and evaluation pipeline",
+    "fork": false,
+    "full_name": "chenzhuo1011/libri_css",
+    "html_url": "https://github.com/chenzhuo1011/libri_css",
+    "language": "Python",
+    "pushed_at": "2023-01-18T09:57:02Z",
+    "stargazers_count": 155,
+    "topics": [],
+    "updated_at": "2026-04-30T03:27:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jzlianglu/pykaldi2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usnistgov/sctk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

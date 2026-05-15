@@ -1,0 +1,194 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axodox/axodox-machinelearning",
+      "target": "controlnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axodox/axodox-machinelearning",
+      "target": "directml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axodox/axodox-machinelearning",
+      "target": "holistically-nested-edge-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axodox/axodox-machinelearning",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axodox/axodox-machinelearning",
+      "target": "midas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axodox/axodox-machinelearning",
+      "target": "mit-license",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axodox/axodox-machinelearning",
+      "target": "native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axodox/axodox-machinelearning",
+      "target": "nuget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axodox/axodox-machinelearning",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axodox/axodox-machinelearning",
+      "target": "openpose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axodox/axodox-machinelearning",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axodox/axodox-machinelearning",
+      "target": "stable-diffusion-xl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T13:03:16.765655+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository contains a pure C++ ONNX implementation of multiple offline AI models, such as StableDiffusion (1.5 and XL), ControlNet, Midas, HED and OpenPose.",
+    "fork": false,
+    "full_name": "axodox/axodox-machinelearning",
+    "html_url": "https://github.com/axodox/axodox-machinelearning",
+    "language": "C++",
+    "pushed_at": "2025-05-29T17:26:00Z",
+    "stargazers_count": 631,
+    "topics": [
+      "controlnet",
+      "cpp",
+      "directml",
+      "holistically-nested-edge-detection",
+      "image-generation",
+      "midas",
+      "mit-license",
+      "native",
+      "nuget",
+      "onnx",
+      "openpose",
+      "stable-diffusion",
+      "stable-diffusion-xl"
+    ],
+    "updated_at": "2026-05-11T18:11:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains a pure C++ ONNX implementation of multiple offline AI models, such as StableDiffusion (1.5 and XL), ControlNet, Midas, HED and OpenPose.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "controlnet"
+    },
+    {
+      "context_snippet": "This repository contains a pure C++ ONNX implementation of multiple offline AI models, such as StableDiffusion (1.5 and XL), ControlNet, Midas, HED and OpenPose.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directml"
+    },
+    {
+      "context_snippet": "This repository contains a pure C++ ONNX implementation of multiple offline AI models, such as StableDiffusion (1.5 and XL), ControlNet, Midas, HED and OpenPose.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "holistically-nested-edge-detection"
+    },
+    {
+      "context_snippet": "This repository contains a pure C++ ONNX implementation of multiple offline AI models, such as StableDiffusion (1.5 and XL), ControlNet, Midas, HED and OpenPose.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "This repository contains a pure C++ ONNX implementation of multiple offline AI models, such as StableDiffusion (1.5 and XL), ControlNet, Midas, HED and OpenPose.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midas"
+    },
+    {
+      "context_snippet": "This repository contains a pure C++ ONNX implementation of multiple offline AI models, such as StableDiffusion (1.5 and XL), ControlNet, Midas, HED and OpenPose.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mit-license"
+    },
+    {
+      "context_snippet": "This repository contains a pure C++ ONNX implementation of multiple offline AI models, such as StableDiffusion (1.5 and XL), ControlNet, Midas, HED and OpenPose.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "native"
+    },
+    {
+      "context_snippet": "This repository contains a pure C++ ONNX implementation of multiple offline AI models, such as StableDiffusion (1.5 and XL), ControlNet, Midas, HED and OpenPose.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuget"
+    },
+    {
+      "context_snippet": "This repository contains a pure C++ ONNX implementation of multiple offline AI models, such as StableDiffusion (1.5 and XL), ControlNet, Midas, HED and OpenPose.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "This repository contains a pure C++ ONNX implementation of multiple offline AI models, such as StableDiffusion (1.5 and XL), ControlNet, Midas, HED and OpenPose.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openpose"
+    },
+    {
+      "context_snippet": "This repository contains a pure C++ ONNX implementation of multiple offline AI models, such as StableDiffusion (1.5 and XL), ControlNet, Midas, HED and OpenPose.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "This repository contains a pure C++ ONNX implementation of multiple offline AI models, such as StableDiffusion (1.5 and XL), ControlNet, Midas, HED and OpenPose.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion-xl"
+    }
+  ]
+}

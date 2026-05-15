@@ -175,6 +175,18 @@
       "source_repo": "celtera/libremidi",
       "status": "candidate-context",
       "text": "[![Build status](https://github.com/jcelerier/libremidi/workflows/Build/badge.svg)](https://github.com/jcelerier/libremidi/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/cub",
+      "status": "candidate-context",
+      "text": "[ARCHIVED] Cooperative primitives for CUDA C++. See https://github.com/NVIDIA/cccl "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/cub",
+      "status": "candidate-context",
+      "text": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "celtera/libremidi",
       "status": "candidate",
       "text": "[![Build status](https://github.com/jcelerier/libremidi/workflows/Build/badge.svg)](https://github.com/jcelerier/libremidi/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/cub",
+      "status": "candidate",
+      "text": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -586,11 +604,29 @@
       "observed_at": "2026-05-15T07:17:00.410973+00:00",
       "source_file": null,
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "celtera/libremidi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/cub"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

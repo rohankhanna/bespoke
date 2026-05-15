@@ -550,6 +550,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "unocss/unocss",
+      "target": "unrun",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "unocss/unocss",
       "target": "vite",
       "target_type": "component"
     },
@@ -736,6 +743,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-15T00:40:36.218046+00:00",
+  "generated_at": "2026-05-15T12:50:28.227991+00:00",
   "source_repo": "unocss/unocss"
 }

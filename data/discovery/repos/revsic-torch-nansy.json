@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-15T13:01:37.464146+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1925
+    },
+    {
+      "path": "requirements.txt",
+      "size": 70
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Torch implementation of NANSY, Neural Analysis and Synthesis, arXiv:2110.14513",
+    "fork": false,
+    "full_name": "revsic/torch-nansy",
+    "html_url": "https://github.com/revsic/torch-nansy",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-02-13T05:43:27Z",
+    "stargazers_count": 64,
+    "topics": [],
+    "updated_at": "2025-04-14T03:30:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "celtera/libremidi",
-      "target": "atsushieno/cmidi2",
+      "target": "jcelerier/libremidi",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "celtera/libremidi",
-      "target": "atsushieno/libremidi-javacpp",
+      "target": "ddiakopoulos/modernmidi",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "celtera/libremidi",
-      "target": "alsa-project/alsa-lib",
+      "target": "mc-117/braneenginedx",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "celtera/libremidi",
-      "target": "cacodemon345/blastthrureborn",
+      "target": "kosua20/midivisualizer",
       "target_type": "repository"
     },
     {
@@ -281,6 +281,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-15T00:40:36.218046+00:00",
+  "generated_at": "2026-05-15T12:50:28.227991+00:00",
   "source_repo": "celtera/libremidi"
 }

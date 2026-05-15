@@ -400,6 +400,18 @@
       "source_repo": "PDFMathTranslate/PDFMathTranslate",
       "status": "candidate-context",
       "text": "FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim WORKDIR /app EXPOSE 7860 ENV PYTHONUNBUFFERED=1 # # Download all required fonts # ADD \"https://github.com/satbyy/go-noto-universal/releases/download/v7.0/GoNotoKurrent-Regular.ttf\" /app/ # ADD \"https://github.com/timelic/source-\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "collabora/WhisperLive",
+      "status": "candidate-context",
+      "text": "A nearly-live implementation of OpenAI's Whisper."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "collabora/WhisperLive",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -600,6 +612,12 @@
       "source_repo": "PDFMathTranslate/PDFMathTranslate",
       "status": "candidate",
       "text": "FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim WORKDIR /app EXPOSE 7860 ENV PYTHONUNBUFFERED=1 # # Download all required fonts # ADD \"https://github.com/satbyy/go-noto-universal/releases/download/v7.0/GoNotoKurrent-Regular.ttf\" /app/ # ADD \"https://github.com/timelic/source-\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "collabora/WhisperLive",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1279,11 +1297,29 @@
       "observed_at": "2026-05-15T00:40:36.218046+00:00",
       "source_file": null,
       "source_repo": "fluent-vue/fluent-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "fluent-vue/fluent-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "collabora/WhisperLive"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

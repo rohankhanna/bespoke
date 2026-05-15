@@ -19,6 +19,18 @@
       "source_repo": "celtera/libremidi",
       "status": "candidate-context",
       "text": "[![Build status](https://github.com/jcelerier/libremidi/workflows/Build/badge.svg)](https://github.com/jcelerier/libremidi/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alsa-project/alsa-lib",
+      "status": "candidate-context",
+      "text": "The Advanced Linux Sound Architecture (ALSA) - library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alsa-project/alsa-lib",
+      "status": "candidate-context",
+      "text": "[![Build alsa-lib](https://github.com/alsa-project/alsa-lib/workflows/Build%20alsa-lib/badge.svg?branch=master)](https://github.com/alsa-project/alsa-lib/actions/workflows/build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "celtera/libremidi",
       "status": "candidate",
       "text": "[![Build status](https://github.com/jcelerier/libremidi/workflows/Build/badge.svg)](https://github.com/jcelerier/libremidi/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alsa-project/alsa-lib",
+      "status": "candidate",
+      "text": "[![Build alsa-lib](https://github.com/alsa-project/alsa-lib/workflows/Build%20alsa-lib/badge.svg?branch=master)](https://github.com/alsa-project/alsa-lib/actions/workflows/build.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -69,11 +87,23 @@
       "observed_at": "2026-05-15T00:40:36.218046+00:00",
       "source_file": null,
       "source_repo": "celtera/libremidi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "alsa-project/alsa-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "celtera/libremidi"
     }
   ],
   "first_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "validation-pipeline",
   "observation_id": "21b25b65c6220b42",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
   "observed_text": "Validation Pipeline",
   "source_context_snippet": "Validation Pipeline",
   "source_file": ".github/workflows/validate.yml",

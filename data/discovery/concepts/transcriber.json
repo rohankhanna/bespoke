@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "transcriber"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BBC-Esq/Faster-Whisper-Transcriber",
+      "status": "candidate-context",
+      "text": "Record audio or transcribe files using ctranslate2 and whisper!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BBC-Esq/Faster-Whisper-Transcriber",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BBC-Esq/Faster-Whisper-Transcriber",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049160,
+      "status": "candidate",
+      "text": "transcriptionist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049159,
+      "status": "candidate",
+      "text": "transcriptor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049158,
+      "status": "candidate",
+      "text": "audio typist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049157,
+      "status": "candidate",
+      "text": "transposer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049156,
+      "status": "candidate",
+      "text": "stenographer"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "transcriber",
+  "concept_id": "transcriber",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "BBC-Esq/Faster-Whisper-Transcriber"
+    }
+  ],
+  "first_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "transcriber",
+      "sense_id": "transcriber#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

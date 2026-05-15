@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-15T17:30:31.113772+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17469
+    },
+    {
+      "path": "requirements.txt",
+      "size": 210
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official code for \"RealFusion: 360\u00b0 Reconstruction of Any Object from a Single Image\" (CVPR 2023)",
+    "fork": false,
+    "full_name": "lukemelas/realfusion",
+    "html_url": "https://github.com/lukemelas/realfusion",
+    "language": "Python",
+    "pushed_at": "2024-06-02T07:04:54Z",
+    "stargazers_count": 562,
+    "topics": [],
+    "updated_at": "2026-05-14T08:08:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

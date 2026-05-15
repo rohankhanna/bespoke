@@ -101,12 +101,12 @@
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "component": "github/codeql-action/init@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "component": "github/codeql-action/analyze@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
@@ -116,7 +116,7 @@
       "source_file": ".github/workflows/coverity.yml"
     },
     {
-      "component": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "component": "actions/labeler@f27b608878404679385c85cfa523b85ccb86e213",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/labeler.yml"
     },
@@ -176,7 +176,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "oneapi-src/level-zero",
+      "target": "vovkos/doxyrest",
       "target_type": "repository"
     },
     {
@@ -309,14 +309,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target": "github/codeql-action/init@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target": "github/codeql-action/analyze@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
       "target_type": "component"
     },
     {
@@ -344,7 +344,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "target": "actions/labeler@f27b608878404679385c85cfa523b85ccb86e213",
       "target_type": "component"
     },
     {
@@ -523,11 +523,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T07:09:48.367964+00:00",
+  "fetched_at": "2026-05-15T17:29:06.253936+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 22169
+      "size": 22383
     },
     {
       "path": "pyproject.toml",
@@ -575,8 +575,8 @@
     "full_name": "uxlfoundation/oneDNN",
     "html_url": "https://github.com/uxlfoundation/oneDNN",
     "language": "C++",
-    "pushed_at": "2026-05-01T05:38:21Z",
-    "stargazers_count": 3984,
+    "pushed_at": "2026-05-15T17:12:04Z",
+    "stargazers_count": 3990,
     "topics": [
       "aarch64",
       "amx",
@@ -597,14 +597,9 @@
       "x86-64",
       "xe-architecture"
     ],
-    "updated_at": "2026-04-30T17:14:55Z"
+    "updated_at": "2026-05-15T17:12:09Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "oneapi-src/level-zero",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "radeonopencompute/rocm",
@@ -618,6 +613,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "rocmsoftwareplatform/rocblas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vovkos/doxyrest",
       "source_file": "README.md"
     }
   ],

@@ -271,6 +271,18 @@
       "source_repo": "junjun3518/alias-free-torch",
       "status": "candidate-context",
       "text": "Simple *torch* module implementation of [Alias-Free GAN](https://nvlabs.github.io/alias-free-gan/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "status": "candidate-context",
+      "text": "Stable Diffusion web UI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "status": "candidate-context",
+      "text": "A web interface for Stable Diffusion, implemented using Gradio library."
     }
   ],
   "candidate_glosses": [
@@ -405,6 +417,12 @@
       "source_repo": "junjun3518/alias-free-torch",
       "status": "candidate",
       "text": "Simple *torch* module implementation of [Alias-Free GAN](https://nvlabs.github.io/alias-free-gan/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "status": "candidate",
+      "text": "A web interface for Stable Diffusion, implemented using Gradio library."
     }
   ],
   "candidate_related_terms": [
@@ -1138,11 +1156,29 @@
       "observed_at": "2026-05-15T00:40:36.218046+00:00",
       "source_file": null,
       "source_repo": "DayBreak-u/yolo-face-with-landmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "DayBreak-u/yolo-face-with-landmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

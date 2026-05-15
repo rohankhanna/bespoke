@@ -121,6 +121,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lumen-oss/rocks.nvim",
+      "target": "topics/rocks-nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lumen-oss/rocks.nvim",
       "target": "echasnovski/mini.deps",
       "target_type": "repository"
     },
@@ -363,7 +370,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T07:37:30.641627+00:00",
+  "fetched_at": "2026-05-15T17:17:51.322904+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -407,7 +414,7 @@
     "full_name": "lumen-oss/rocks.nvim",
     "html_url": "https://github.com/lumen-oss/rocks.nvim",
     "language": "Lua",
-    "pushed_at": "2026-05-03T14:37:58Z",
+    "pushed_at": "2026-05-15T13:54:47Z",
     "stargazers_count": 1030,
     "topics": [
       "lua",
@@ -419,12 +426,17 @@
       "plugin",
       "plugin-manager"
     ],
-    "updated_at": "2026-05-12T01:15:20Z"
+    "updated_at": "2026-05-15T13:54:52Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "echasnovski/mini.deps",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "topics/rocks-nvim",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A liberal plugin hosting library (VST3/AU/LV2/CLAP/AAP/WebCLAP) with fully-featured MIDI 2.0 (UMP + MIDI-CI) frontend where applicable. Create virtual MIDI 2.0 devices using your favorite plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![UAPMD v0.4 example screenshot](docs/images/uapmd-app-v0.4-sshot.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![UAPMD v0.4 example screenshot](docs/images/uapmd-app-v0.4-sshot.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vst3",
+      "sense_id": "vst3#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vst3",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vst3",
+  "observation_id": "5aa85372e3f6f595",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_text": "vst3",
+  "source_context_snippet": "![UAPMD v0.4 example screenshot](docs/images/uapmd-app-v0.4-sshot.png)",
+  "source_file": null,
+  "source_repo": "atsushieno/uapmd",
+  "source_repo_description": "A liberal plugin hosting library (VST3/AU/LV2/CLAP/AAP/WebCLAP) with fully-featured MIDI 2.0 (UMP + MIDI-CI) frontend where applicable. Create virtual MIDI 2.0 devices using your favorite plugins."
+}

@@ -19,6 +19,54 @@
       "source_repo": "unevens/Curvessor",
       "status": "candidate-context",
       "text": "![Curvessor GUI](Images/screenshot.jpg?raw=true 'screenshot')"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/aap-core",
+      "status": "candidate-context",
+      "text": "an Audio Plugin Format/Framework for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-core",
+      "status": "candidate-context",
+      "text": "![](https://github.com/atsushieno/aap-core/workflows/build%20dist/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/aap-juce",
+      "status": "candidate-context",
+      "text": "AAP (Audio Plugins For Android) JUCE integration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-juce",
+      "status": "candidate-context",
+      "text": "This repo is the place where we have the common JUCE integration support modules for [aap-core](https://github.com/atsushieno/aap-core) (AAP), for both plugins and hosts."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/aap-lv2",
+      "status": "candidate-context",
+      "text": "AAP LV2 support: wrapper, the foundation for LV2 plugin ports to Android. See also aap-core Wiki for the list of ports."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-lv2",
+      "status": "candidate-context",
+      "text": "This repository contains LV2 backend (or wrapper, or whatever) support for [Audio Plugins For Android](https://github.com/atsushieno/aap-core), as well as minimum samples."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/uapmd",
+      "status": "candidate-context",
+      "text": "A liberal plugin hosting library (VST3/AU/LV2/CLAP/AAP/WebCLAP) with fully-featured MIDI 2.0 (UMP + MIDI-CI) frontend where applicable. Create virtual MIDI 2.0 devices using your favorite plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/uapmd",
+      "status": "candidate-context",
+      "text": "![UAPMD v0.4 example screenshot](docs/images/uapmd-app-v0.4-sshot.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "unevens/Curvessor",
       "status": "candidate",
       "text": "![Curvessor GUI](Images/screenshot.jpg?raw=true 'screenshot')"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-core",
+      "status": "candidate",
+      "text": "![](https://github.com/atsushieno/aap-core/workflows/build%20dist/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-juce",
+      "status": "candidate",
+      "text": "This repo is the place where we have the common JUCE integration support modules for [aap-core](https://github.com/atsushieno/aap-core) (AAP), for both plugins and hosts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-lv2",
+      "status": "candidate",
+      "text": "This repository contains LV2 backend (or wrapper, or whatever) support for [Audio Plugins For Android](https://github.com/atsushieno/aap-core), as well as minimum samples."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/uapmd",
+      "status": "candidate",
+      "text": "![UAPMD v0.4 example screenshot](docs/images/uapmd-app-v0.4-sshot.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +112,35 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "unevens/Curvessor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/aap-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/aap-juce"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/aap-lv2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/uapmd"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

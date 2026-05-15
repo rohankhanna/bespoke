@@ -602,6 +602,18 @@
       "source_repo": "WisdomShell/text-generation-inference",
       "status": "candidate-context",
       "text": "Build documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ShivamShrirao/diffusers",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image and audio generation in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ShivamShrirao/diffusers",
+      "status": "candidate-context",
+      "text": "Build documentation"
     }
   ],
   "candidate_glosses": [
@@ -902,6 +914,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "WisdomShell/text-generation-inference",
+      "status": "candidate",
+      "text": "Build documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ShivamShrirao/diffusers",
       "status": "candidate",
       "text": "Build documentation"
     }
@@ -2123,11 +2141,35 @@
       "observed_at": "2026-05-15T00:40:36.218046+00:00",
       "source_file": ".github/workflows/build_documentation.yml",
       "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "ShivamShrirao/diffusers"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

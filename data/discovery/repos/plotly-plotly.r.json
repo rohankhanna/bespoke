@@ -212,7 +212,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T07:32:40.729162+00:00",
+  "fetched_at": "2026-05-15T17:13:11.433565+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -237,7 +237,7 @@
     "html_url": "https://github.com/plotly/plotly.R",
     "language": "R",
     "pushed_at": "2026-04-16T21:34:27Z",
-    "stargazers_count": 2667,
+    "stargazers_count": 2666,
     "topics": [
       "d3js",
       "data-visualization",
@@ -250,7 +250,7 @@
       "shiny",
       "webgl"
     ],
-    "updated_at": "2026-05-12T08:23:06Z"
+    "updated_at": "2026-05-15T12:57:30Z"
   },
   "repo_links": [
     {

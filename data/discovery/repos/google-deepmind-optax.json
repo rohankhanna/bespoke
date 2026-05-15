@@ -180,7 +180,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T07:24:03.787799+00:00",
+  "fetched_at": "2026-05-15T17:05:29.543711+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -213,12 +213,12 @@
     "html_url": "https://github.com/google-deepmind/optax",
     "language": "Python",
     "pushed_at": "2026-05-12T16:39:12Z",
-    "stargazers_count": 2266,
+    "stargazers_count": 2267,
     "topics": [
       "machine-learning",
       "optimization"
     ],
-    "updated_at": "2026-05-15T05:58:56Z"
+    "updated_at": "2026-05-15T12:52:00Z"
   },
   "repo_links": [],
   "terms": [

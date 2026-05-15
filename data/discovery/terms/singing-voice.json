@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-13T00:41:47.952744+00:00",
-  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -26,6 +26,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "openvpi/DiffSinger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "YatingMusic/ddsp-singing-vocoders"
     }
   ],
   "term": "singing-voice"

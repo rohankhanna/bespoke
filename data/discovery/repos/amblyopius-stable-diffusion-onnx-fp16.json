@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Amblyopius/Stable-Diffusion-ONNX-FP16",
+      "target": "amblyopius/onnxdiffusersui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Amblyopius/Stable-Diffusion-ONNX-FP16",
+      "target": "azuritecoin/onnxdiffusersui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Amblyopius/Stable-Diffusion-ONNX-FP16",
+      "target": "nod-ai/shark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Amblyopius/Stable-Diffusion-ONNX-FP16",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Amblyopius/Stable-Diffusion-ONNX-FP16",
+      "target": "stablediffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T15:22:55.638640+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17843
+    },
+    {
+      "path": "requirements.txt",
+      "size": 156
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Example code and documentation on how to get Stable Diffusion running with ONNX FP16 models on DirectML. Can run accelerated on all DirectML supported cards including AMD and Intel.",
+    "fork": false,
+    "full_name": "Amblyopius/Stable-Diffusion-ONNX-FP16",
+    "html_url": "https://github.com/Amblyopius/Stable-Diffusion-ONNX-FP16",
+    "language": "Python",
+    "pushed_at": "2023-10-15T14:36:29Z",
+    "stargazers_count": 300,
+    "topics": [
+      "onnx",
+      "stablediffusion"
+    ],
+    "updated_at": "2026-05-14T09:00:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amblyopius/onnxdiffusersui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azuritecoin/onnxdiffusersui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nod-ai/shark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains a conversion tool, some examples, and instructions on how to set up Stable Diffusion with ONNX models.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "This repository contains a conversion tool, some examples, and instructions on how to set up Stable Diffusion with ONNX models.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stablediffusion"
+    }
+  ]
+}

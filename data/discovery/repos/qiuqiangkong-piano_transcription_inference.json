@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-15T13:02:28.356144+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2400
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "qiuqiangkong/piano_transcription_inference",
+    "html_url": "https://github.com/qiuqiangkong/piano_transcription_inference",
+    "language": "Python",
+    "pushed_at": "2025-01-26T02:27:22Z",
+    "stargazers_count": 461,
+    "topics": [],
+    "updated_at": "2026-05-10T17:28:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Stale issue handler'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Stale issue handler'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19592,
+      "status": "candidate",
+      "text": "ice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19234,
+      "status": "candidate",
+      "text": "steal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19134,
+      "status": "candidate",
+      "text": "age"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19111,
+      "status": "candidate",
+      "text": "aec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19111,
+      "status": "candidate",
+      "text": "atomic energy commission"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Stale issue handler",
+      "sense_id": "stale-issue-handler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "stale-issue-handler",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stale-issue-handler",
+  "observation_id": "3b7587f122782d5d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_text": "Stale issue handler",
+  "source_context_snippet": "'Stale issue handler'",
+  "source_file": ".github/workflows/stale.yaml",
+  "source_repo": "d8ahazard/sd_dreambooth_extension",
+  "source_repo_description": null
+}

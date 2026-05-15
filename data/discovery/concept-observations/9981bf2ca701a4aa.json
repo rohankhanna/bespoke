@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A liberal plugin hosting library (VST3/AU/LV2/CLAP/AAP/WebCLAP) with fully-featured MIDI 2.0 (UMP + MIDI-CI) frontend where applicable. Create virtual MIDI 2.0 devices using your favorite plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![UAPMD v0.4 example screenshot](docs/images/uapmd-app-v0.4-sshot.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![UAPMD v0.4 example screenshot](docs/images/uapmd-app-v0.4-sshot.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29807682,
+      "status": "candidate",
+      "text": "musical instrument digital interface"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29763987,
+      "status": "candidate",
+      "text": "pic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29738644,
+      "status": "candidate",
+      "text": "twelve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29699939,
+      "status": "candidate",
+      "text": "noon"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "midi",
+      "sense_id": "midi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "midi",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "midi",
+  "observation_id": "9981bf2ca701a4aa",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_text": "midi",
+  "source_context_snippet": "![UAPMD v0.4 example screenshot](docs/images/uapmd-app-v0.4-sshot.png)",
+  "source_file": null,
+  "source_repo": "atsushieno/uapmd",
+  "source_repo_description": "A liberal plugin hosting library (VST3/AU/LV2/CLAP/AAP/WebCLAP) with fully-featured MIDI 2.0 (UMP + MIDI-CI) frontend where applicable. Create virtual MIDI 2.0 devices using your favorite plugins."
+}

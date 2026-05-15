@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build dist"
+    "Build dist",
+    "build dist"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,162 @@
       "source_repo": "sparkjsdev/spark",
       "status": "candidate-context",
       "text": "Build dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/cmidi2",
+      "status": "candidate-context",
+      "text": "header-only MIDI 2.0 UMP and MIDI-CI binary processor library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/cmidi2",
+      "status": "candidate-context",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/aap-juce",
+      "status": "candidate-context",
+      "text": "AAP (Audio Plugins For Android) JUCE integration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-juce",
+      "status": "candidate-context",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/aap-lv2",
+      "status": "candidate-context",
+      "text": "AAP LV2 support: wrapper, the foundation for LV2 plugin ports to Android. See also aap-core Wiki for the list of ports."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-lv2",
+      "status": "candidate-context",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/ktmidi",
+      "status": "candidate-context",
+      "text": "Kotlin multiplatform library for MIDI access abstraction and data processing for MIDI 1.0, MIDI 2.0, SMF, SMF2 (MIDI Clip File), and MIDI-CI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/ktmidi",
+      "status": "candidate-context",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/android-ci-package-installer",
+      "status": "candidate-context",
+      "text": "Easily install Android apps (apk/aab) from GitHub Actions build artifacts. Also, the repo for AAP (Audio Plugins For Android) APK Installer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/android-ci-package-installer",
+      "status": "candidate-context",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/aap-juce-plugin-host",
+      "status": "candidate-context",
+      "text": "experimental Juce AudioPluginHost port to AAP (Android Audio Plugin) / The development is moved to aap-juce-plugin-host-cmake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-juce-plugin-host",
+      "status": "candidate-context",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/aap-juce-simple-host",
+      "status": "candidate-context",
+      "text": "Audio Plugins For Android (AAP) example simple host for dogfooding aap-juce hosting API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-juce-simple-host",
+      "status": "candidate-context",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/uapmd",
+      "status": "candidate-context",
+      "text": "A liberal plugin hosting library (VST3/AU/LV2/CLAP/AAP/WebCLAP) with fully-featured MIDI 2.0 (UMP + MIDI-CI) frontend where applicable. Create virtual MIDI 2.0 devices using your favorite plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/uapmd",
+      "status": "candidate-context",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/aap-lv2-string-machine",
+      "status": "candidate-context",
+      "text": "AAP port of String-Machine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-lv2-string-machine",
+      "status": "candidate-context",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/android-native-audio-builders",
+      "status": "candidate-context",
+      "text": "Android native library builder script"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/android-native-audio-builders",
+      "status": "candidate-context",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/augene-ng",
+      "status": "candidate-context",
+      "text": "MML + MIDI + Tracktion Engine XML manipulation tool for real production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/augene-ng",
+      "status": "candidate-context",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "status": "candidate-context",
+      "text": "audio controls for Jetpack Compose and Compose for Multiplatform "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "status": "candidate-context",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/fluidsynth-midi-service-j",
+      "status": "candidate-context",
+      "text": "JNA-based fluidsynth MIDI device service effort"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/fluidsynth-midi-service-j",
+      "status": "candidate-context",
+      "text": "build dist"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +184,84 @@
       "source_repo": "sparkjsdev/spark",
       "status": "candidate",
       "text": "Build dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/cmidi2",
+      "status": "candidate",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-juce",
+      "status": "candidate",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-lv2",
+      "status": "candidate",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/ktmidi",
+      "status": "candidate",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/android-ci-package-installer",
+      "status": "candidate",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-juce-plugin-host",
+      "status": "candidate",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-juce-simple-host",
+      "status": "candidate",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/uapmd",
+      "status": "candidate",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-lv2-string-machine",
+      "status": "candidate",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/android-native-audio-builders",
+      "status": "candidate",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/augene-ng",
+      "status": "candidate",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "status": "candidate",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/fluidsynth-midi-service-j",
+      "status": "candidate",
+      "text": "build dist"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +317,101 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/build-dist.yml",
       "source_repo": "sparkjsdev/spark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/cmidi2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/actions_tags.yml",
+      "source_repo": "atsushieno/cmidi2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/build-dist-with-cmake.yml",
+      "source_repo": "atsushieno/aap-juce"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/build-dist-with-projucer.yml",
+      "source_repo": "atsushieno/aap-juce"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/build-dist-app.yml",
+      "source_repo": "atsushieno/aap-lv2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "atsushieno/ktmidi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/android-ci-package-installer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/aap-juce-plugin-host"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/aap-juce-simple-host"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/uapmd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/aap-lv2-string-machine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/android-native-audio-builders"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/augene-ng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/compose-audio-controls"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/fluidsynth-midi-service-j"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

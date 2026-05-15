@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -771,6 +771,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "lucidrains/PoPE-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "kahne/SpeechTransProgress"
     }
   ],
   "term": "artificial-intelligence"

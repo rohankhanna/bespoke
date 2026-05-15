@@ -103,6 +103,18 @@
       "source_repo": "xororz/local-dream",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "status": "candidate-context",
+      "text": "Stable Diffusion web UI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "status": "candidate-context",
+      "text": "A web interface for Stable Diffusion, implemented using Gradio library."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "xororz/local-dream",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "status": "candidate",
+      "text": "A web interface for Stable Diffusion, implemented using Gradio library."
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +250,17 @@
       "observed_at": "2026-05-09T00:39:13.791861+00:00",
       "source_file": null,
       "source_repo": "xororz/local-dream"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T00:39:13.791861+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

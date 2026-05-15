@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexzhou907/PVD",
+      "target": "stevenygd/pointflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexzhou907/PVD",
+      "target": "xiumingzhang/genre-shapehd",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-15T13:03:08.662764+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2903
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "alexzhou907/PVD",
+    "html_url": "https://github.com/alexzhou907/PVD",
+    "language": "Python",
+    "pushed_at": "2024-01-02T10:19:11Z",
+    "stargazers_count": 311,
+    "topics": [],
+    "updated_at": "2026-04-23T11:16:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stevenygd/pointflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xiumingzhang/genre-shapehd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

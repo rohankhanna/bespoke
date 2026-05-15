@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "voice-clone"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RVC-Boss/GPT-SoVITS",
+      "status": "candidate-context",
+      "text": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RVC-Boss/GPT-SoVITS",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RVC-Boss/GPT-SoVITS",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "voice-clone",
+  "concept_id": "voice-clone",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "RVC-Boss/GPT-SoVITS"
+    }
+  ],
+  "first_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "voice-clone",
+      "sense_id": "voice-clone#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -48,7 +48,7 @@
   "normalized_form": "reviewdog",
   "observation_id": "94892d72e86e484c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-15T00:40:36.218046+00:00",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
   "observed_text": "Reviewdog",
   "source_context_snippet": "Reviewdog",
   "source_file": ".github/workflows/reviewdog.yml",

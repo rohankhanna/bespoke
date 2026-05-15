@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yxlllc/pc-ddsp",
+      "target": "yatingmusic/ddsp-singing-vocoders",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-15T15:22:43.920284+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5409
+    },
+    {
+      "path": "requirements.txt",
+      "size": 77
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pitch Controllable DDSP Vocoders",
+    "fork": false,
+    "full_name": "yxlllc/pc-ddsp",
+    "html_url": "https://github.com/yxlllc/pc-ddsp",
+    "language": "Python",
+    "pushed_at": "2024-11-09T15:22:06Z",
+    "stargazers_count": 82,
+    "topics": [],
+    "updated_at": "2026-03-30T09:56:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yatingmusic/ddsp-singing-vocoders",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

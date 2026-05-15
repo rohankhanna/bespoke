@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions_tags.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@4.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions_tags.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atsushieno/cmidi2",
+      "target": "atsushieno/aap-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atsushieno/cmidi2",
+      "target": "atsushieno/aap-lv2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atsushieno/cmidi2",
+      "target": "atsushieno/aap-juce",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atsushieno/cmidi2",
+      "target": "jcelerier/libremidi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/cmidi2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/cmidi2",
+      "target": "build dist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions_tags.yml",
+      "source_repo": "atsushieno/cmidi2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions_tags.yml",
+      "source_repo": "atsushieno/cmidi2",
+      "target": "JamesIves/github-pages-deploy-action@4.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions_tags.yml",
+      "source_repo": "atsushieno/cmidi2",
+      "target": "build dist",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T13:02:35.502560+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1823
+    },
+    {
+      "path": ".github/workflows/actions.yml",
+      "size": 457
+    },
+    {
+      "path": ".github/workflows/actions_tags.yml",
+      "size": 570
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "header-only MIDI 2.0 UMP and MIDI-CI binary processor library",
+    "fork": false,
+    "full_name": "atsushieno/cmidi2",
+    "html_url": "https://github.com/atsushieno/cmidi2",
+    "language": "C",
+    "pushed_at": "2026-02-17T08:15:37Z",
+    "stargazers_count": 66,
+    "topics": [],
+    "updated_at": "2026-05-03T18:49:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atsushieno/aap-core",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atsushieno/aap-juce",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atsushieno/aap-lv2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jcelerier/libremidi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build dist",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "term": "build dist"
+    },
+    {
+      "context_snippet": "build dist",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions_tags.yml",
+      "term": "build dist"
+    }
+  ]
+}

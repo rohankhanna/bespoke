@@ -115,6 +115,18 @@
       "source_repo": "AIGC-Audio/AudioGPT",
       "status": "candidate-context",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2304.12995)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alsa-project/alsa-lib",
+      "status": "candidate-context",
+      "text": "The Advanced Linux Sound Architecture (ALSA) - library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alsa-project/alsa-lib",
+      "status": "candidate-context",
+      "text": "[![Build alsa-lib](https://github.com/alsa-project/alsa-lib/workflows/Build%20alsa-lib/badge.svg?branch=master)](https://github.com/alsa-project/alsa-lib/actions/workflows/build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "AIGC-Audio/AudioGPT",
       "status": "candidate",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2304.12995)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alsa-project/alsa-lib",
+      "status": "candidate",
+      "text": "[![Build alsa-lib](https://github.com/alsa-project/alsa-lib/workflows/Build%20alsa-lib/badge.svg?branch=master)](https://github.com/alsa-project/alsa-lib/actions/workflows/build.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -514,11 +532,23 @@
       "observed_at": "2026-05-15T00:40:36.218046+00:00",
       "source_file": null,
       "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "alsa-project/alsa-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

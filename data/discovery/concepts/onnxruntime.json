@@ -357,6 +357,18 @@
       "source_repo": "PriesiaMioShirakana/DragonianVoice",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cassiebreviu/StableDiffusion",
+      "status": "candidate-context",
+      "text": "Inference Stable Diffusion with C# and ONNX Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cassiebreviu/StableDiffusion",
+      "status": "candidate-context",
+      "text": "This repo contains the logic to do inferencing for the popular Stable Diffusion deep learning model in C#. Stable Diffusion models take a text prompt and create an image that represents the text."
     }
   ],
   "candidate_glosses": [
@@ -533,6 +545,12 @@
       "source_repo": "PriesiaMioShirakana/DragonianVoice",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cassiebreviu/StableDiffusion",
+      "status": "candidate",
+      "text": "This repo contains the logic to do inferencing for the popular Stable Diffusion deep learning model in C#. Stable Diffusion models take a text prompt and create an image that represents the text."
     }
   ],
   "candidate_related_terms": [],
@@ -1164,11 +1182,35 @@
       "observed_at": "2026-05-15T07:17:00.410973+00:00",
       "source_file": null,
       "source_repo": "xlite-dev/RVM-Inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "cassiebreviu/StableDiffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "xlite-dev/RVM-Inference"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

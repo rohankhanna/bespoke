@@ -115,6 +115,78 @@
       "source_repo": "celtera/libremidi",
       "status": "candidate-context",
       "text": "[![Build status](https://github.com/jcelerier/libremidi/workflows/Build/badge.svg)](https://github.com/jcelerier/libremidi/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/ktmidi",
+      "status": "candidate-context",
+      "text": "Kotlin multiplatform library for MIDI access abstraction and data processing for MIDI 1.0, MIDI 2.0, SMF, SMF2 (MIDI Clip File), and MIDI-CI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/ktmidi",
+      "status": "candidate-context",
+      "text": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/ktmidi)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/uapmd",
+      "status": "candidate-context",
+      "text": "A liberal plugin hosting library (VST3/AU/LV2/CLAP/AAP/WebCLAP) with fully-featured MIDI 2.0 (UMP + MIDI-CI) frontend where applicable. Create virtual MIDI 2.0 devices using your favorite plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/uapmd",
+      "status": "candidate-context",
+      "text": "![UAPMD v0.4 example screenshot](docs/images/uapmd-app-v0.4-sshot.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HyperLan-git/Synthmania",
+      "status": "candidate-context",
+      "text": "A midi rhythm game. Simple as that."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HyperLan-git/Synthmania",
+      "status": "candidate-context",
+      "text": "A midi rhythm game. Simple as that."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/augene-ng",
+      "status": "candidate-context",
+      "text": "MML + MIDI + Tracktion Engine XML manipulation tool for real production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/augene-ng",
+      "status": "candidate-context",
+      "text": "[![augene-ng demo 2021-11-18](http://img.youtube.com/vi/GZWBkxWjDfM/0.jpg)](https://www.youtube.com/watch?v=GZWBkxWjDfM \"augene-ng demo 2021-11-18\") (links to youtube video)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "status": "candidate-context",
+      "text": "audio controls for Jetpack Compose and Compose for Multiplatform "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "status": "candidate-context",
+      "text": "![demoapp sshot](docs/images/demoapp-sshot.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/fluidsynth-midi-service-j",
+      "status": "candidate-context",
+      "text": "JNA-based fluidsynth MIDI device service effort"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/fluidsynth-midi-service-j",
+      "status": "candidate-context",
+      "text": "[![fluidsynth-midi-service-j demo](http://img.youtube.com/vi/ZVyDmaV4Ihw/0.jpg)](http://www.youtube.com/watch?v=ZVyDmaV4Ihw \"fluidsynth-midi-service-j demo\")"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +243,42 @@
       "source_repo": "celtera/libremidi",
       "status": "candidate",
       "text": "[![Build status](https://github.com/jcelerier/libremidi/workflows/Build/badge.svg)](https://github.com/jcelerier/libremidi/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/ktmidi",
+      "status": "candidate",
+      "text": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/ktmidi)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/uapmd",
+      "status": "candidate",
+      "text": "![UAPMD v0.4 example screenshot](docs/images/uapmd-app-v0.4-sshot.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HyperLan-git/Synthmania",
+      "status": "candidate",
+      "text": "A midi rhythm game. Simple as that."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/augene-ng",
+      "status": "candidate",
+      "text": "[![augene-ng demo 2021-11-18](http://img.youtube.com/vi/GZWBkxWjDfM/0.jpg)](https://www.youtube.com/watch?v=GZWBkxWjDfM \"augene-ng demo 2021-11-18\") (links to youtube video)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "status": "candidate",
+      "text": "![demoapp sshot](docs/images/demoapp-sshot.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/fluidsynth-midi-service-j",
+      "status": "candidate",
+      "text": "[![fluidsynth-midi-service-j demo](http://img.youtube.com/vi/ZVyDmaV4Ihw/0.jpg)](http://www.youtube.com/watch?v=ZVyDmaV4Ihw \"fluidsynth-midi-service-j demo\")"
     }
   ],
   "candidate_related_terms": [
@@ -717,11 +825,65 @@
       "observed_at": "2026-05-15T07:17:00.410973+00:00",
       "source_file": null,
       "source_repo": "Deep-Symmetry/beat-link-trigger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/afterglow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link-trigger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "celtera/libremidi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/ktmidi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/uapmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "HyperLan-git/Synthmania"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/augene-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/compose-audio-controls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/fluidsynth-midi-service-j"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

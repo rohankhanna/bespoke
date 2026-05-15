@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-15T13:01:38.783074+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2393
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2976
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of Action Matching",
+    "fork": false,
+    "full_name": "necludov/jam",
+    "html_url": "https://github.com/necludov/jam",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-06-05T18:52:56Z",
+    "stargazers_count": 52,
+    "topics": [],
+    "updated_at": "2026-03-28T09:07:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

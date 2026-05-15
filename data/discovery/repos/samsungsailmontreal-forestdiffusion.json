@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-15T13:01:40.141763+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17543
+    },
+    {
+      "path": "requirements.txt",
+      "size": 237
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Generating and Imputing Tabular Data via Diffusion and Flow XGBoost Models",
+    "fork": false,
+    "full_name": "SamsungSAILMontreal/ForestDiffusion",
+    "html_url": "https://github.com/SamsungSAILMontreal/ForestDiffusion",
+    "language": "Python",
+    "pushed_at": "2024-08-06T14:59:14Z",
+    "stargazers_count": 181,
+    "topics": [],
+    "updated_at": "2026-04-13T05:46:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

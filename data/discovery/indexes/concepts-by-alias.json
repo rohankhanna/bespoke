@@ -329,6 +329,9 @@
   "3dge-engine": [
     "3dge-engine"
   ],
+  "3dgeneration": [
+    "3dgeneration"
+  ],
   "3dgs": [
     "3dgs"
   ],
@@ -457,6 +460,9 @@
   ],
   "aaosa": [
     "aaosa"
+  ],
+  "aap-juce": [
+    "aap-juce"
   ],
   "aarch": [
     "aarch"
@@ -3171,6 +3177,9 @@
   "android-arm-cpu": [
     "android-arm-cpu"
   ],
+  "android-audio": [
+    "android-audio"
+  ],
   "android-build-test": [
     "android-build-test"
   ],
@@ -5520,6 +5529,9 @@
   "audio-quantization": [
     "audio-quantization"
   ],
+  "audio-recorder": [
+    "audio-recorder"
+  ],
   "audio-scene-understanding": [
     "audio-scene-understanding"
   ],
@@ -5537,6 +5549,9 @@
   ],
   "audio-to-video": [
     "audio-to-video"
+  ],
+  "audio-transcribing": [
+    "audio-transcribing"
   ],
   "audio-transcription": [
     "audio-transcription"
@@ -5573,6 +5588,9 @@
   ],
   "audioset": [
     "audioset"
+  ],
+  "audiounit": [
+    "audiounit"
   ],
   "audit": [
     "audit"
@@ -10378,6 +10396,9 @@
   "budgeting": [
     "budgeting"
   ],
+  "budoux": [
+    "budoux"
+  ],
   "buf": [
     "buf"
   ],
@@ -10764,6 +10785,9 @@
   ],
   "build all-in-one": [
     "build-all-in-one"
+  ],
+  "build alsa-lib": [
+    "build-alsa-lib"
   ],
   "build amd smi docker image": [
     "build-amd-smi-docker-image"
@@ -11560,6 +11584,9 @@
   "build and upload wheels": [
     "build-and-upload-wheels"
   ],
+  "build and upload windows package": [
+    "build-and-upload-windows-package"
+  ],
   "build and upload wsl msi": [
     "build-and-upload-wsl-msi"
   ],
@@ -11982,6 +12009,9 @@
   ],
   "build default-nightly": [
     "build-default-nightly"
+  ],
+  "build demo": [
+    "build-demo"
   ],
   "build dendron static site": [
     "build-dendron-static-site"
@@ -19793,6 +19823,9 @@
   "clangformat check": [
     "clangformat-check"
   ],
+  "clap": [
+    "clap"
+  ],
   "clash": [
     "clash"
   ],
@@ -26456,6 +26489,9 @@
   "ctransformers": [
     "ctransformers"
   ],
+  "ctranslate2": [
+    "ctranslate2"
+  ],
   "ctrlp": [
     "ctrlp"
   ],
@@ -26464,6 +26500,9 @@
   ],
   "cts": [
     "cts"
+  ],
+  "ctx-txt2vec": [
+    "ctx-txt2vec"
   ],
   "ctypes": [
     "ctypes"
@@ -30089,6 +30128,9 @@
   "detect-file-changes": [
     "detect-file-changes"
   ],
+  "detect-languages": [
+    "detect-languages"
+  ],
   "detectchanges": [
     "detectchanges"
   ],
@@ -30106,6 +30148,9 @@
   ],
   "detection-transformer": [
     "detection-transformer"
+  ],
+  "detectlang": [
+    "detectlang"
   ],
   "detectors aggregation": [
     "detectors-aggregation"
@@ -30514,6 +30559,9 @@
   ],
   "dichotomous-image-segmentation": [
     "dichotomous-image-segmentation"
+  ],
+  "dictation": [
+    "dictation"
   ],
   "dictionary": [
     "dictionary"
@@ -32632,6 +32680,9 @@
   ],
   "download websites": [
     "download-websites"
+  ],
+  "download-file": [
+    "download-file"
   ],
   "download-images": [
     "download-images"
@@ -36599,6 +36650,9 @@
   "faster-sampling": [
     "faster-sampling"
   ],
+  "faster-whisper": [
+    "faster-whisper"
+  ],
   "fastertransformer": [
     "fastertransformer"
   ],
@@ -36655,6 +36709,9 @@
   ],
   "fasttext": [
     "fasttext"
+  ],
+  "fasttext langdetect": [
+    "fasttext-langdetect"
   ],
   "fatiando-a-terra": [
     "fatiando-a-terra"
@@ -38070,6 +38127,9 @@
   ],
   "fluids": [
     "fluids"
+  ],
+  "fluidsynth": [
+    "fluidsynth"
   ],
   "flutter": [
     "flutter"
@@ -43827,6 +43887,9 @@
   "haskell-prelude": [
     "haskell-prelude"
   ],
+  "haskell-stack": [
+    "haskell-stack"
+  ],
   "haskell-syntax": [
     "haskell-syntax"
   ],
@@ -44585,6 +44648,9 @@
   ],
   "holdings": [
     "holdings"
+  ],
+  "holistically-nested-edge-detection": [
+    "holistically-nested-edge-detection"
   ],
   "holochain": [
     "holochain"
@@ -47928,6 +47994,9 @@
   "islands": [
     "islands"
   ],
+  "ismir": [
+    "ismir"
+  ],
   "isnan": [
     "isnan"
   ],
@@ -48846,6 +48915,9 @@
   "jetpack": [
     "jetpack"
   ],
+  "jetpack-compose": [
+    "jetpack-compose"
+  ],
   "jetson": [
     "jetson"
   ],
@@ -49343,6 +49415,9 @@
   ],
   "juce": [
     "juce"
+  ],
+  "juce-android": [
+    "juce-android"
   ],
   "judaism": [
     "judaism"
@@ -50129,6 +50204,9 @@
   ],
   "knn-search": [
     "knn-search"
+  ],
+  "knob-control": [
+    "knob-control"
   ],
   "knobs": [
     "knobs"
@@ -51024,6 +51102,9 @@
   "langchangjs": [
     "langchangjs"
   ],
+  "langdetect": [
+    "langdetect"
+  ],
   "langdev": [
     "langdev"
   ],
@@ -51149,6 +51230,9 @@
   ],
   "languageclient": [
     "languageclient"
+  ],
+  "languagedetector": [
+    "languagedetector"
   ],
   "languagemodel": [
     "languagemodel"
@@ -53043,6 +53127,9 @@
   ],
   "linux-rpm-snap": [
     "linux-rpm-snap"
+  ],
+  "linux-sound-architecture": [
+    "linux-sound-architecture"
   ],
   "linux-terminal": [
     "linux-terminal"
@@ -57096,6 +57183,9 @@
   "mid-40": [
     "mid-40"
   ],
+  "midas": [
+    "midas"
+  ],
   "middleware": [
     "middleware"
   ],
@@ -57113,6 +57203,9 @@
   ],
   "midi-api": [
     "midi-api"
+  ],
+  "midi-ci": [
+    "midi-ci"
   ],
   "midi-controller": [
     "midi-controller"
@@ -63954,6 +64047,9 @@
   "openupm-cli": [
     "openupm-cli"
   ],
+  "openutau": [
+    "openutau"
+  ],
   "openvex": [
     "openvex"
   ],
@@ -63968,6 +64064,9 @@
   ],
   "openvino tokenizers sdl tests": [
     "openvino-tokenizers-sdl-tests"
+  ],
+  "openvino-intel": [
+    "openvino-intel"
   ],
   "openvino-model-zoo": [
     "openvino-model-zoo"
@@ -70635,6 +70734,9 @@
   "publish pacstall docker images": [
     "publish-pacstall-docker-images"
   ],
+  "publish pages": [
+    "publish-pages"
+  ],
   "publish pedestal.io": [
     "publish-pedestal.io"
   ],
@@ -72170,6 +72272,9 @@
   ],
   "python4delphi": [
     "python4delphi"
+  ],
+  "pythonpackage": [
+    "pythonpackage"
   ],
   "pythonvm-rust": [
     "pythonvm-rust"
@@ -75384,6 +75489,9 @@
   "release-checks": [
     "release-checks"
   ],
+  "release-cleanup": [
+    "release-cleanup"
+  ],
   "release-containers": [
     "release-containers"
   ],
@@ -76931,6 +77039,9 @@
   ],
   "rhythm": [
     "rhythm"
+  ],
+  "rhythm-game": [
+    "rhythm-game"
   ],
   "ribbon": [
     "ribbon"
@@ -80622,6 +80733,9 @@
   "sentence-lda": [
     "sentence-lda"
   ],
+  "sentence-segmenter": [
+    "sentence-segmenter"
+  ],
   "sentence-simplification": [
     "sentence-simplification"
   ],
@@ -82859,6 +82973,9 @@
   "soundex": [
     "soundex"
   ],
+  "soundfont": [
+    "soundfont"
+  ],
   "soundgenerator": [
     "soundgenerator"
   ],
@@ -83564,6 +83681,9 @@
   "splines": [
     "splines"
   ],
+  "split": [
+    "split"
+  ],
   "split-learning": [
     "split-learning"
   ],
@@ -83581,6 +83701,12 @@
   ],
   "spoken-forms": [
     "spoken-forms"
+  ],
+  "spoken-language-processing": [
+    "spoken-language-processing"
+  ],
+  "spoken-language-translation": [
+    "spoken-language-translation"
   ],
   "spoken-language-understanding": [
     "spoken-language-understanding"
@@ -83749,6 +83875,9 @@
   ],
   "spritesmith": [
     "spritesmith"
+  ],
+  "sprockets": [
+    "sprockets"
   ],
   "sptk": [
     "sptk"
@@ -84124,6 +84253,9 @@
   ],
   "stale issue closer": [
     "stale-issue-closer"
+  ],
+  "stale issue handler": [
+    "stale-issue-handler"
   ],
   "stale issue labeler": [
     "stale-issue-labeler"
@@ -88007,6 +88139,9 @@
   "test editable with example": [
     "test-editable-with-example"
   ],
+  "test eel": [
+    "test-eel"
+  ],
   "test emacs": [
     "test-emacs"
   ],
@@ -90187,6 +90322,9 @@
   "tls-support": [
     "tls-support"
   ],
+  "tls12": [
+    "tls12"
+  ],
   "tls13": [
     "tls13"
   ],
@@ -90789,6 +90927,12 @@
   ],
   "transcoding": [
     "transcoding"
+  ],
+  "transcribe": [
+    "transcribe"
+  ],
+  "transcriber": [
+    "transcriber"
   ],
   "transcription": [
     "transcription"
@@ -92689,6 +92833,12 @@
   "unittest": [
     "unittest"
   ],
+  "unittest for java": [
+    "unittest-for-java"
+  ],
+  "unittest for javascript": [
+    "unittest-for-javascript"
+  ],
   "unittest-framework": [
     "unittest-framework"
   ],
@@ -94450,6 +94600,9 @@
   ],
   "usrnet": [
     "usrnet"
+  ],
+  "utau": [
+    "utau"
   ],
   "utf-8": [
     "utf-8"
@@ -96548,6 +96701,12 @@
   "vocal-separation": [
     "vocal-separation"
   ],
+  "vocal-synthesis": [
+    "vocal-synthesis"
+  ],
+  "vocaloid": [
+    "vocaloid"
+  ],
   "vocals": [
     "vocals"
   ],
@@ -96562,6 +96721,9 @@
   ],
   "vocos": [
     "vocos"
+  ],
+  "vogen": [
+    "vogen"
   ],
   "voice": [
     "voice"
@@ -96586,6 +96748,12 @@
   ],
   "voice-changer": [
     "voice-changer"
+  ],
+  "voice-clone": [
+    "voice-clone"
+  ],
+  "voice-cloneai": [
+    "voice-cloneai"
   ],
   "voice-cloning": [
     "voice-cloning"
@@ -96712,6 +96880,9 @@
   ],
   "vq-apc": [
     "vq-apc"
+  ],
+  "vq-diffusion": [
+    "vq-diffusion"
   ],
   "vq-vae": [
     "vq-vae"
@@ -98271,6 +98442,9 @@
   "whisper-cpp": [
     "whisper-cpp"
   ],
+  "whisper-tensorrt": [
+    "whisper-tensorrt"
+  ],
   "whispercpp-android-port": [
     "whispercpp-android-port"
   ],
@@ -99095,6 +99269,9 @@
   ],
   "world-record": [
     "world-record"
+  ],
+  "worldline build": [
+    "worldline-build"
   ],
   "would": [
     "en-modal_or_auxiliary-would"

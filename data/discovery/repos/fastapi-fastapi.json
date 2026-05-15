@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e",
+      "component": "actions/add-to-project@5afcf98fcd03f1c2f92c3c83f58ae24323cc57fd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/add-to-project.yml"
     },
@@ -136,7 +136,7 @@
       "source_file": ".github/workflows/label-approved.yml"
     },
     {
-      "component": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "component": "actions/labeler@f27b608878404679385c85cfa523b85ccb86e213",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/labeler.yml"
     },
@@ -165,7 +165,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/add-to-project.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e",
+      "target": "actions/add-to-project@5afcf98fcd03f1c2f92c3c83f58ae24323cc57fd",
       "target_type": "component"
     },
     {
@@ -375,7 +375,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "target": "actions/labeler@f27b608878404679385c85cfa523b85ccb86e213",
       "target_type": "component"
     },
     {
@@ -512,7 +512,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T07:21:48.391232+00:00",
+  "fetched_at": "2026-05-15T16:34:35.980279+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -520,7 +520,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 11110
+      "size": 11069
     },
     {
       "path": ".github/workflows/add-to-project.yml",
@@ -564,8 +564,8 @@
     "full_name": "fastapi/fastapi",
     "html_url": "https://github.com/fastapi/fastapi",
     "language": "Python",
-    "pushed_at": "2026-05-15T07:10:04Z",
-    "stargazers_count": 98213,
+    "pushed_at": "2026-05-15T15:18:28Z",
+    "stargazers_count": 98231,
     "topics": [
       "api",
       "async",
@@ -588,7 +588,7 @@
       "uvicorn",
       "web"
     ],
-    "updated_at": "2026-05-15T07:10:09Z"
+    "updated_at": "2026-05-15T16:31:47Z"
   },
   "repo_links": [
     {

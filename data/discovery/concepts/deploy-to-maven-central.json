@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Deploy to Maven Central"
+    "Deploy to Maven Central",
+    "deploy to Maven Central"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,30 @@
       "source_repo": "beehive-lab/GPULlama3.java",
       "status": "candidate-context",
       "text": "Deploy to Maven Central"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/aap-core",
+      "status": "candidate-context",
+      "text": "an Audio Plugin Format/Framework for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-core",
+      "status": "candidate-context",
+      "text": "deploy to Maven Central"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/aap-lv2",
+      "status": "candidate-context",
+      "text": "AAP LV2 support: wrapper, the foundation for LV2 plugin ports to Android. See also aap-core Wiki for the list of ports."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-lv2",
+      "status": "candidate-context",
+      "text": "deploy to Maven Central"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +52,18 @@
       "source_repo": "beehive-lab/GPULlama3.java",
       "status": "candidate",
       "text": "Deploy to Maven Central"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-core",
+      "status": "candidate",
+      "text": "deploy to Maven Central"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-lv2",
+      "status": "candidate",
+      "text": "deploy to Maven Central"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +113,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/deploy-maven-central.yml",
       "source_repo": "beehive-lab/GPULlama3.java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "atsushieno/aap-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "atsushieno/aap-lv2"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

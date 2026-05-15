@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuergenFleiss/atrain_core",
+      "target": "bandas-center/atrain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuergenFleiss/atrain_core",
+      "target": "guillaumekln/faster-whisper",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-15T17:29:18.746941+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9377
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1455
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": " A multi-platform CLI for offline transcription of speech recordings utilizing state-of-the-art machine learning models. ",
+    "fork": false,
+    "full_name": "JuergenFleiss/atrain_core",
+    "html_url": "https://github.com/JuergenFleiss/atrain_core",
+    "language": "Python",
+    "pushed_at": "2026-04-09T13:28:02Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2026-04-12T10:18:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bandas-center/atrain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guillaumekln/faster-whisper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
-  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -101,6 +101,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "devnen/Chatterbox-TTS-Server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu"
     }
   ],
   "term": "rocm"

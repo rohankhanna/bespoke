@@ -84,7 +84,7 @@
   "normalized_form": "publish-releases-page",
   "observation_id": "f5c1da814311598d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
   "observed_text": "Publish releases page",
   "source_context_snippet": "Publish releases page",
   "source_file": ".github/workflows/gh-pages-releases.yml",

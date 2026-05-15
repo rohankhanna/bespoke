@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An application specialized in image super-resolution for ACGN illustrations and Visual Novel CG. \u4e13\u6ce8\u4e8e\u63d2\u753b/Galgame CG\u7b49ACGN\u9886\u57df\u7684\u56fe\u50cf\u8d85\u5206\u8fa8\u7387\u7684\u5e94\u7528"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "onnxruntime-directml opencv-python git+https://github.com/luoyily/Eel.git"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "onnxruntime-directml opencv-python git+https://github.com/luoyily/Eel.git"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "super-resolution",
+      "sense_id": "super-resolution#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "super-resolution",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "super-resolution",
+  "observation_id": "2b7884e5ca67a69d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_text": "super-resolution",
+  "source_context_snippet": "onnxruntime-directml opencv-python git+https://github.com/luoyily/Eel.git",
+  "source_file": null,
+  "source_repo": "TeamMoeAI/MoeSR",
+  "source_repo_description": "An application specialized in image super-resolution for ACGN illustrations and Visual Novel CG. \u4e13\u6ce8\u4e8e\u63d2\u753b/Galgame CG\u7b49ACGN\u9886\u57df\u7684\u56fe\u50cf\u8d85\u5206\u8fa8\u7387\u7684\u5e94\u7528"
+}

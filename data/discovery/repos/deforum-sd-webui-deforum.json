@@ -172,15 +172,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T07:23:00.448918+00:00",
+  "fetched_at": "2026-05-15T17:04:21.028678+00:00",
   "fetched_files": [
     {
       "path": "README.md",
       "size": 4752
-    },
-    {
-      "path": "requirements.txt",
-      "size": 59
     },
     {
       "path": ".github/workflows/issue_checker.yaml",

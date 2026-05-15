@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuyuan-pal/SyncDreamer",
+      "target": "totoro97/neus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuyuan-pal/SyncDreamer",
+      "target": "guochengqian/magic123",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuyuan-pal/SyncDreamer",
+      "target": "lukemelas/realfusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuyuan-pal/SyncDreamer",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuyuan-pal/SyncDreamer",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuyuan-pal/SyncDreamer",
+      "target": "generative-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuyuan-pal/SyncDreamer",
+      "target": "single-view-reconstruction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T15:22:49.463625+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10408
+    },
+    {
+      "path": "requirements.txt",
+      "size": 344
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2024 Spotlight] SyncDreamer: Generating Multiview-consistent Images from a Single-view Image",
+    "fork": false,
+    "full_name": "liuyuan-pal/SyncDreamer",
+    "html_url": "https://github.com/liuyuan-pal/SyncDreamer",
+    "language": "Python",
+    "pushed_at": "2025-10-26T16:16:49Z",
+    "stargazers_count": 1035,
+    "topics": [
+      "3d-reconstruction",
+      "diffusion-models",
+      "generative-model",
+      "single-view-reconstruction"
+    ],
+    "updated_at": "2026-05-14T04:11:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guochengqian/magic123",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lukemelas/realfusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "totoro97/neus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "SyncDreamer: Generating Multiview-consistent Images from a Single-view Image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "SyncDreamer: Generating Multiview-consistent Images from a Single-view Image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "SyncDreamer: Generating Multiview-consistent Images from a Single-view Image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-model"
+    },
+    {
+      "context_snippet": "SyncDreamer: Generating Multiview-consistent Images from a Single-view Image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-view-reconstruction"
+    }
+  ]
+}

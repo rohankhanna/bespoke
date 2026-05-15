@@ -31,6 +31,18 @@
       "source_repo": "openvpi/DiffSinger",
       "status": "candidate-context",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "status": "candidate-context",
+      "text": "[AAAI 2024] CTX-txt2vec, the acoustic model in UniCATS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "status": "candidate-context",
+      "text": "> This is the official implementation of **CTX-txt2vec** TTS model in the AAAI-2024 paper [UniCATS: A Unified Context-Aware Text-to-Speech Framework with Contextual VQ-Diffusion and Vocoding](https://arxiv.org/abs/2306.07547)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "openvpi/DiffSinger",
       "status": "candidate",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2105.02446)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "status": "candidate",
+      "text": "> This is the official implementation of **CTX-txt2vec** TTS model in the AAAI-2024 paper [UniCATS: A Unified Context-Aware Text-to-Speech Framework with Contextual VQ-Diffusion and Vocoding](https://arxiv.org/abs/2306.07547)."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-14T18:43:37.154551+00:00",
       "source_file": null,
       "source_repo": "openvpi/DiffSinger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec"
     }
   ],
   "first_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T18:43:37.154551+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

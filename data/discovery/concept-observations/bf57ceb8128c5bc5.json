@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[AAAI 2024] CTX-txt2vec, the acoustic model in UniCATS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> This is the official implementation of **CTX-txt2vec** TTS model in the AAAI-2024 paper [UniCATS: A Unified Context-Aware Text-to-Speech Framework with Contextual VQ-Diffusion and Vocoding](https://arxiv.org/abs/2306.07547)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> This is the official implementation of **CTX-txt2vec** TTS model in the AAAI-2024 paper [UniCATS: A Unified Context-Aware Text-to-Speech Framework with Contextual VQ-Diffusion and Vocoding](https://arxiv.org/abs/2306.07547)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "unicats",
+      "sense_id": "unicats#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "unicats",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unicats",
+  "observation_id": "bf57ceb8128c5bc5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_text": "unicats",
+  "source_context_snippet": "> This is the official implementation of **CTX-txt2vec** TTS model in the AAAI-2024 paper [UniCATS: A Unified Context-Aware Text-to-Speech Framework with Contextual VQ-Diffusion and Vocoding](https://arxiv.org/abs/2306.07547).",
+  "source_file": null,
+  "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+  "source_repo_description": "[AAAI 2024] CTX-txt2vec, the acoustic model in UniCATS"
+}

@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows_packages.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baicai-1145/GPT-SoVITS-CPUFast",
+      "target": "lj1995/gpt-sovits",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baicai-1145/GPT-SoVITS-CPUFast",
+      "target": "doodlebears/split-lang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baicai-1145/GPT-SoVITS-CPUFast",
+      "target": "cronrpc/subfix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baicai-1145/GPT-SoVITS-CPUFast",
+      "target": "alibaba-damo-academy/funasr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows_packages.yaml",
+      "source_repo": "baicai-1145/GPT-SoVITS-CPUFast",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_windows_packages.yaml",
+      "source_repo": "baicai-1145/GPT-SoVITS-CPUFast",
+      "target": "Build and Upload Windows Package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T15:22:30.876370+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11609
+    },
+    {
+      "path": "requirements.txt",
+      "size": 327
+    },
+    {
+      "path": ".github/workflows/build_windows_packages.yaml",
+      "size": 1064
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "baicai-1145/GPT-SoVITS-CPUFast",
+    "html_url": "https://github.com/baicai-1145/GPT-SoVITS-CPUFast",
+    "language": "Python",
+    "pushed_at": "2026-05-13T19:17:48Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-05-15T08:15:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba-damo-academy/funasr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cronrpc/subfix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "doodlebears/split-lang",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lj1995/gpt-sovits",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Upload Windows Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_windows_packages.yaml",
+      "term": "Build and Upload Windows Package"
+    }
+  ]
+}

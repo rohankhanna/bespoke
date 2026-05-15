@@ -1,0 +1,12 @@
+{
+  "component": "atsushieno/aap-lv2/.github/workflows/build-dist-app.yml@main",
+  "first_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/aap-lv2-string-machine"
+    }
+  ]
+}

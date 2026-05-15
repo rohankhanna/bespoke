@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "target": "cantabile-kwok/unicats-ctx-vec2wav",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "target": "microsoft/vq-diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "target": "acoustic-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "target": "ctx-txt2vec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "target": "unicats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "target": "vq-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-15T12:50:28.227991+00:00",
+  "source_repo": "X-LANCE/UniCATS-CTX-txt2vec"
+}

@@ -727,6 +727,54 @@
       "source_repo": "openai/jukebox",
       "status": "candidate-context",
       "text": "**Status:** Archive (code is provided as-is, no updates expected)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/aap-core",
+      "status": "candidate-context",
+      "text": "an Audio Plugin Format/Framework for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-core",
+      "status": "candidate-context",
+      "text": "![](https://github.com/atsushieno/aap-core/workflows/build%20dist/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/aap-juce",
+      "status": "candidate-context",
+      "text": "AAP (Audio Plugins For Android) JUCE integration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-juce",
+      "status": "candidate-context",
+      "text": "This repo is the place where we have the common JUCE integration support modules for [aap-core](https://github.com/atsushieno/aap-core) (AAP), for both plugins and hosts."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/aap-lv2",
+      "status": "candidate-context",
+      "text": "AAP LV2 support: wrapper, the foundation for LV2 plugin ports to Android. See also aap-core Wiki for the list of ports."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-lv2",
+      "status": "candidate-context",
+      "text": "This repository contains LV2 backend (or wrapper, or whatever) support for [Audio Plugins For Android](https://github.com/atsushieno/aap-core), as well as minimum samples."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "status": "candidate-context",
+      "text": "audio controls for Jetpack Compose and Compose for Multiplatform "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "status": "candidate-context",
+      "text": "![demoapp sshot](docs/images/demoapp-sshot.png)"
     }
   ],
   "candidate_glosses": [
@@ -1089,6 +1137,30 @@
       "source_repo": "openai/jukebox",
       "status": "candidate",
       "text": "**Status:** Archive (code is provided as-is, no updates expected)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-core",
+      "status": "candidate",
+      "text": "![](https://github.com/atsushieno/aap-core/workflows/build%20dist/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-juce",
+      "status": "candidate",
+      "text": "This repo is the place where we have the common JUCE integration support modules for [aap-core](https://github.com/atsushieno/aap-core) (AAP), for both plugins and hosts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-lv2",
+      "status": "candidate",
+      "text": "This repository contains LV2 backend (or wrapper, or whatever) support for [Audio Plugins For Android](https://github.com/atsushieno/aap-core), as well as minimum samples."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "status": "candidate",
+      "text": "![demoapp sshot](docs/images/demoapp-sshot.png)"
     }
   ],
   "candidate_related_terms": [
@@ -2245,11 +2317,53 @@
       "observed_at": "2026-05-15T07:17:00.410973+00:00",
       "source_file": null,
       "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/aap-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/aap-juce"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/aap-lv2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/compose-audio-controls"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

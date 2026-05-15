@@ -84,7 +84,7 @@
   "normalized_form": "validate-amdshark-studio",
   "observation_id": "6b44abca2c7b414e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
   "observed_text": "Validate AMDShark Studio",
   "source_context_snippet": "Validate AMDShark Studio",
   "source_file": ".github/workflows/test-studio.yml",

@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "xxlong0/Wonder3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "guochengqian/Magic123"
+    }
+  ],
+  "term": "3d-generation"
+}

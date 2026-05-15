@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and Upload Windows Package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and Upload Windows Package"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31582,
+      "status": "candidate",
+      "text": "email"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31438,
+      "status": "candidate",
+      "text": "decal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31378,
+      "status": "candidate",
+      "text": "parcel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22108,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21665,
+      "status": "candidate",
+      "text": "port"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Upload Windows Package",
+      "sense_id": "build-and-upload-windows-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-upload-windows-package",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-upload-windows-package",
+  "observation_id": "5e2c56bc9e022a22",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_text": "Build and Upload Windows Package",
+  "source_context_snippet": "Build and Upload Windows Package",
+  "source_file": ".github/workflows/build_windows_packages.yaml",
+  "source_repo": "RVC-Boss/GPT-SoVITS",
+  "source_repo_description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)"
+}

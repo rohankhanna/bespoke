@@ -1,0 +1,12 @@
+{
+  "component": "axel-op/googlejavaformat-action@c1134ebd196c4cbffb077f9476585b0be8b6afcd",
+  "first_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/style-check.yml",
+      "source_repo": "google/budoux"
+    }
+  ]
+}

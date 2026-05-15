@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "aap-juce"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/aap-juce",
+      "status": "candidate-context",
+      "text": "AAP (Audio Plugins For Android) JUCE integration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-juce",
+      "status": "candidate-context",
+      "text": "This repo is the place where we have the common JUCE integration support modules for [aap-core](https://github.com/atsushieno/aap-core) (AAP), for both plugins and hosts."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/aap-juce-plugin-host",
+      "status": "candidate-context",
+      "text": "experimental Juce AudioPluginHost port to AAP (Android Audio Plugin) / The development is moved to aap-juce-plugin-host-cmake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-juce-plugin-host",
+      "status": "candidate-context",
+      "text": "aap-juce-plugin-host is a port of JUCE AudioPluginHost (`JUCE/extras/AudioPluginHost`) to [aap-juce](https://github.com/atsushieno/aap-juce)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-juce",
+      "status": "candidate",
+      "text": "This repo is the place where we have the common JUCE integration support modules for [aap-core](https://github.com/atsushieno/aap-core) (AAP), for both plugins and hosts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-juce-plugin-host",
+      "status": "candidate",
+      "text": "aap-juce-plugin-host is a port of JUCE AudioPluginHost (`JUCE/extras/AudioPluginHost`) to [aap-juce](https://github.com/atsushieno/aap-juce)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "aap-juce",
+  "concept_id": "aap-juce",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/aap-juce"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/aap-juce-plugin-host"
+    }
+  ],
+  "first_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aap-juce",
+      "sense_id": "aap-juce#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

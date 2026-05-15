@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Single Image to 3D using Cross-Domain Diffusion for 3D Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**\u4e2d\u6587\u7248\u672c [\u4e2d\u6587](README_zh.md)**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**\u4e2d\u6587\u7248\u672c [\u4e2d\u6587](README_zh.md)**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "single-image-to-3d",
+      "sense_id": "single-image-to-3d#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "single-image-to-3d",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "single-image-to-3d",
+  "observation_id": "263ac22bc5089ce2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_text": "single-image-to-3d",
+  "source_context_snippet": "**\u4e2d\u6587\u7248\u672c [\u4e2d\u6587](README_zh.md)**",
+  "source_file": null,
+  "source_repo": "xxlong0/Wonder3D",
+  "source_repo_description": "Single Image to 3D using Cross-Domain Diffusion for 3D Generation"
+}

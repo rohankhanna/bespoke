@@ -571,6 +571,18 @@
       "source_repo": "microsoft/UniSpeech",
       "status": "candidate-context",
       "text": "<!--**Pre-trained models for speech related tasks**-->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SYSTRAN/faster-whisper",
+      "status": "candidate-context",
+      "text": "Faster Whisper transcription with CTranslate2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SYSTRAN/faster-whisper",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/SYSTRAN/faster-whisper/workflows/CI/badge.svg)](https://github.com/SYSTRAN/faster-whisper/actions?query=workflow%3ACI) [![PyPI version](https://badge.fury.io/py/faster-whisper.svg)](https://badge.fury.io/py/faster-whisper)"
     }
   ],
   "candidate_glosses": [
@@ -855,6 +867,12 @@
       "source_repo": "microsoft/UniSpeech",
       "status": "candidate",
       "text": "<!--**Pre-trained models for speech related tasks**-->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SYSTRAN/faster-whisper",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/SYSTRAN/faster-whisper/workflows/CI/badge.svg)](https://github.com/SYSTRAN/faster-whisper/actions?query=workflow%3ACI) [![PyPI version](https://badge.fury.io/py/faster-whisper.svg)](https://badge.fury.io/py/faster-whisper)"
     }
   ],
   "candidate_related_terms": [],
@@ -1942,11 +1960,35 @@
       "observed_at": "2026-05-15T07:17:00.410973+00:00",
       "source_file": null,
       "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "SYSTRAN/faster-whisper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "DemisEom/SpecAugment"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

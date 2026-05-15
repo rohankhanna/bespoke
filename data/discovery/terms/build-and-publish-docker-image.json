@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -61,6 +61,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/publish-docker.yml",
       "source_repo": "LibreTranslate/LibreTranslate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yaml",
+      "source_repo": "RVC-Boss/GPT-SoVITS"
     }
   ],
   "term": "Build and Publish Docker Image"

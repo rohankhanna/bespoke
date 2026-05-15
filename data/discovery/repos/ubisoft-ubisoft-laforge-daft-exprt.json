@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ubisoft/ubisoft-laforge-daft-exprt",
+      "target": "hltsingapore/emotional-speech-data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ubisoft/ubisoft-laforge-daft-exprt",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ubisoft/ubisoft-laforge-daft-exprt",
+      "target": "text-to-speech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T15:21:36.901411+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10558
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Daft-Exprt: Robust Prosody Transfer Across Speakers for Expressive Speech Synthesis",
+    "fork": false,
+    "full_name": "ubisoft/ubisoft-laforge-daft-exprt",
+    "html_url": "https://github.com/ubisoft/ubisoft-laforge-daft-exprt",
+    "language": "Python",
+    "pushed_at": "2023-04-08T08:54:17Z",
+    "stargazers_count": 128,
+    "topics": [
+      "speech-synthesis",
+      "text-to-speech"
+    ],
+    "updated_at": "2026-04-19T21:23:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hltsingapore/emotional-speech-data",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- omit in toc -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "<!-- omit in toc -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    }
+  ]
+}

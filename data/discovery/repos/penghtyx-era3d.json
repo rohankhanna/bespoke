@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-15T15:22:51.597734+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5066
+    },
+    {
+      "path": "requirements.txt",
+      "size": 538
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "pengHTYX/Era3D",
+    "html_url": "https://github.com/pengHTYX/Era3D",
+    "language": "Python",
+    "pushed_at": "2024-12-09T05:41:15Z",
+    "stargazers_count": 640,
+    "topics": [],
+    "updated_at": "2026-05-12T17:00:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

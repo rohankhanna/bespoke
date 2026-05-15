@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HyperLan-git/Synthmania",
+      "target": "game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HyperLan-git/Synthmania",
+      "target": "midi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HyperLan-git/Synthmania",
+      "target": "rhythm-game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HyperLan-git/Synthmania",
+      "target": "synthesizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HyperLan-git/Synthmania",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T17:29:45.453010+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3099
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A midi rhythm game. Simple as that.",
+    "fork": false,
+    "full_name": "HyperLan-git/Synthmania",
+    "html_url": "https://github.com/HyperLan-git/Synthmania",
+    "language": "C++",
+    "pushed_at": "2026-04-16T13:32:41Z",
+    "stargazers_count": 5,
+    "topics": [
+      "cpp",
+      "game",
+      "midi",
+      "rhythm-game",
+      "synthesizer",
+      "vulkan"
+    ],
+    "updated_at": "2026-04-16T13:32:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A midi rhythm game. Simple as that.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game"
+    },
+    {
+      "context_snippet": "A midi rhythm game. Simple as that.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi"
+    },
+    {
+      "context_snippet": "A midi rhythm game. Simple as that.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rhythm-game"
+    },
+    {
+      "context_snippet": "A midi rhythm game. Simple as that.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "synthesizer"
+    },
+    {
+      "context_snippet": "A midi rhythm game. Simple as that.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

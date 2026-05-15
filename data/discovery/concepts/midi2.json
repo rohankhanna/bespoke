@@ -19,6 +19,54 @@
       "source_repo": "celtera/libremidi",
       "status": "candidate-context",
       "text": "[![Build status](https://github.com/jcelerier/libremidi/workflows/Build/badge.svg)](https://github.com/jcelerier/libremidi/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/aap-core",
+      "status": "candidate-context",
+      "text": "an Audio Plugin Format/Framework for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-core",
+      "status": "candidate-context",
+      "text": "![](https://github.com/atsushieno/aap-core/workflows/build%20dist/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/ktmidi",
+      "status": "candidate-context",
+      "text": "Kotlin multiplatform library for MIDI access abstraction and data processing for MIDI 1.0, MIDI 2.0, SMF, SMF2 (MIDI Clip File), and MIDI-CI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/ktmidi",
+      "status": "candidate-context",
+      "text": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/ktmidi)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/uapmd",
+      "status": "candidate-context",
+      "text": "A liberal plugin hosting library (VST3/AU/LV2/CLAP/AAP/WebCLAP) with fully-featured MIDI 2.0 (UMP + MIDI-CI) frontend where applicable. Create virtual MIDI 2.0 devices using your favorite plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/uapmd",
+      "status": "candidate-context",
+      "text": "![UAPMD v0.4 example screenshot](docs/images/uapmd-app-v0.4-sshot.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "status": "candidate-context",
+      "text": "audio controls for Jetpack Compose and Compose for Multiplatform "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "status": "candidate-context",
+      "text": "![demoapp sshot](docs/images/demoapp-sshot.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "celtera/libremidi",
       "status": "candidate",
       "text": "[![Build status](https://github.com/jcelerier/libremidi/workflows/Build/badge.svg)](https://github.com/jcelerier/libremidi/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-core",
+      "status": "candidate",
+      "text": "![](https://github.com/atsushieno/aap-core/workflows/build%20dist/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/ktmidi",
+      "status": "candidate",
+      "text": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/ktmidi)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/uapmd",
+      "status": "candidate",
+      "text": "![UAPMD v0.4 example screenshot](docs/images/uapmd-app-v0.4-sshot.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "status": "candidate",
+      "text": "![demoapp sshot](docs/images/demoapp-sshot.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +112,41 @@
       "observed_at": "2026-05-15T00:40:36.218046+00:00",
       "source_file": null,
       "source_repo": "celtera/libremidi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/aap-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "celtera/libremidi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/ktmidi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/uapmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/compose-audio-controls"
     }
   ],
   "first_seen_at": "2026-05-15T00:40:36.218046+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -400,7 +400,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:04:41.063323+00:00",
+  "fetched_at": "2026-05-15T13:02:58.928094+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -441,7 +441,7 @@
     "html_url": "https://github.com/python-semantic-release/python-semantic-release",
     "language": "Python",
     "pushed_at": "2026-03-02T19:57:01Z",
-    "stargazers_count": 1024,
+    "stargazers_count": 1028,
     "topics": [
       "python",
       "release",
@@ -449,7 +449,7 @@
       "tool",
       "tooling"
     ],
-    "updated_at": "2026-04-24T03:39:56Z"
+    "updated_at": "2026-05-15T09:49:09Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official implementation of SawSing (ISMIR'22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Authors: [Da-Yi Wu](https://github.com/ericwudayi)\\*, [Wen-Yi Hsiao](https://github.com/wayne391)\\*, [Fu-Rong Yang](https://github.com/furongyang)\\*, [Oscar Friedman](https://github.com/OscarFree), Warren Jackson, Scott Bruzenak, Yi-Wen Liu, [Yi-Hsuan Yang](https://github.com/af\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Authors: [Da-Yi Wu](https://github.com/ericwudayi)\\*, [Wen-Yi Hsiao](https://github.com/wayne391)\\*, [Fu-Rong Yang](https://github.com/furongyang)\\*, [Oscar Friedman](https://github.com/OscarFree), Warren Jackson, Scott Bruzenak, Yi-Wen Liu, [Yi-Hsuan Yang](https://github.com/af\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9949546,
+      "status": "candidate",
+      "text": "formant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9949544,
+      "status": "candidate",
+      "text": "vocoid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9949543,
+      "status": "candidate",
+      "text": "transducers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9949542,
+      "status": "candidate",
+      "text": "resonators"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9949541,
+      "status": "candidate",
+      "text": "microphones"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vocoders",
+      "sense_id": "vocoders#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vocoders",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vocoders",
+  "observation_id": "9b4b879c9b262f04",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_text": "vocoders",
+  "source_context_snippet": "Authors: [Da-Yi Wu](https://github.com/ericwudayi)\\*, [Wen-Yi Hsiao](https://github.com/wayne391)\\*, [Fu-Rong Yang](https://github.com/furongyang)\\*, [Oscar Friedman](https://github.com/OscarFree), Warren Jackson, Scott Bruzenak, Yi-Wen Liu, [Yi-Hsuan Yang](https://github.com/af\u2026",
+  "source_file": null,
+  "source_repo": "YatingMusic/ddsp-singing-vocoders",
+  "source_repo_description": "Official implementation of SawSing (ISMIR'22)"
+}

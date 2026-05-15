@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yxlllc/pc-ddsp",
+      "target": "yatingmusic/ddsp-singing-vocoders",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-15T12:50:28.227991+00:00",
+  "source_repo": "yxlllc/pc-ddsp"
+}

@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "atsushieno/aap-juce/.github/workflows/build-dist-with-cmake.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/aap-juce-simple-host",
+      "target": "atsushieno/aap-juce/.github/workflows/build-dist-with-cmake.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/aap-juce-simple-host",
+      "target": "build dist",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T17:29:34.498052+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 763
+    },
+    {
+      "path": ".github/workflows/actions.yml",
+      "size": 146
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Audio Plugins For Android (AAP) example simple host for dogfooding aap-juce hosting API",
+    "fork": false,
+    "full_name": "atsushieno/aap-juce-simple-host",
+    "html_url": "https://github.com/atsushieno/aap-juce-simple-host",
+    "language": "Kotlin",
+    "pushed_at": "2026-05-10T18:55:50Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-05-10T18:55:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build dist",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "term": "build dist"
+    }
+  ]
+}

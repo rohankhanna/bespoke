@@ -4,20 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nod-ai/AMD-SHARK-Studio",
-      "target": "iree-org/iree-turbine",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nod-ai/AMD-SHARK-Studio",
-      "target": "llvm/torch-mlir",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nod-ai/AMD-SHARK-Studio",
       "target": "google/iree",
       "target_type": "repository"
     },
@@ -25,7 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "requirements.txt",
       "source_repo": "nod-ai/AMD-SHARK-Studio",
-      "target": "iree-org/iree-turbine",
+      "target": "nod-ai/amd-shark-modeldev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "nod-ai/diffusers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "xilinx/brevitas",
       "target_type": "repository"
     },
     {
@@ -155,6 +155,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-05-15T12:50:28.227991+00:00",
   "source_repo": "nod-ai/AMD-SHARK-Studio"
 }

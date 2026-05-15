@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-15T15:22:48.286358+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2061
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "camenduru/Wonder3D-colab",
+    "html_url": "https://github.com/camenduru/Wonder3D-colab",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-12-18T19:39:34Z",
+    "stargazers_count": 89,
+    "topics": [],
+    "updated_at": "2026-04-08T14:03:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-to-pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hackebrot/labels",
+      "target": "hackebrot/earth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-checks.yml",
+      "source_repo": "hackebrot/labels",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-checks.yml",
+      "source_repo": "hackebrot/labels",
+      "target": "Run checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-to-pypi.yml",
+      "source_repo": "hackebrot/labels",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-to-pypi.yml",
+      "source_repo": "hackebrot/labels",
+      "target": "Upload to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hackebrot/labels",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hackebrot/labels",
+      "target": "python3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T13:02:54.537277+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5798
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 98
+    },
+    {
+      "path": ".github/workflows/run-checks.yml",
+      "size": 1065
+    },
+    {
+      "path": ".github/workflows/upload-to-pypi.yml",
+      "size": 646
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CLI app for managing GitHub labels for Python 3.6 and newer. \ud83d\udcdd",
+    "fork": false,
+    "full_name": "hackebrot/labels",
+    "html_url": "https://github.com/hackebrot/labels",
+    "language": "Python",
+    "pushed_at": "2024-04-05T12:14:30Z",
+    "stargazers_count": 71,
+    "topics": [
+      "cli",
+      "github",
+      "python",
+      "python3"
+    ],
+    "updated_at": "2025-12-16T00:53:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hackebrot/earth",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-checks.yml",
+      "term": "Run checks"
+    },
+    {
+      "context_snippet": "Upload to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-to-pypi.yml",
+      "term": "Upload to PyPI"
+    },
+    {
+      "context_snippet": "CLI app for managing GitHub labels for Python 3.6 and newer. \ud83d\udcdd",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "CLI app for managing GitHub labels for Python 3.6 and newer. \ud83d\udcdd",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    }
+  ]
+}

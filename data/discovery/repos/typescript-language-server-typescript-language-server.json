@@ -621,7 +621,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T07:36:46.004605+00:00",
+  "fetched_at": "2026-05-15T17:17:05.294120+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -657,7 +657,7 @@
     "full_name": "typescript-language-server/typescript-language-server",
     "html_url": "https://github.com/typescript-language-server/typescript-language-server",
     "language": "TypeScript",
-    "pushed_at": "2026-05-14T18:29:53Z",
+    "pushed_at": "2026-05-15T16:29:38Z",
     "stargazers_count": 2481,
     "topics": [
       "hacktoberfest",

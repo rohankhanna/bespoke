@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-15T17:28:54.264513+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1689
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is the GitHub page for publicly available emotional speech data.",
+    "fork": false,
+    "full_name": "HLTSingapore/Emotional-Speech-Data",
+    "html_url": "https://github.com/HLTSingapore/Emotional-Speech-Data",
+    "language": null,
+    "pushed_at": "2022-01-06T13:31:47Z",
+    "stargazers_count": 391,
+    "topics": [],
+    "updated_at": "2026-05-11T21:54:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

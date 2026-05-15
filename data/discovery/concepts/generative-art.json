@@ -199,6 +199,18 @@
       "source_repo": "processing/processing4",
       "status": "candidate-context",
       "text": "<!-- Uncomment the shield below once the repo is made public -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ssube/onnx-web",
+      "status": "candidate-context",
+      "text": "web UI for GPU-accelerated ONNX pipelines like Stable Diffusion, even on Windows and AMD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ssube/onnx-web",
+      "status": "candidate-context",
+      "text": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "processing/processing4",
       "status": "candidate",
       "text": "<!-- Uncomment the shield below once the repo is made public -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ssube/onnx-web",
+      "status": "candidate",
+      "text": "onnx-web is designed to simplify the process of running Stable Diffusion and other [ONNX models](https://onnx.ai) so you"
     }
   ],
   "candidate_related_terms": [],
@@ -676,11 +694,23 @@
       "observed_at": "2026-05-15T07:17:00.410973+00:00",
       "source_file": null,
       "source_repo": "jina-ai/dalle-flow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "ssube/onnx-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/dalle-flow"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

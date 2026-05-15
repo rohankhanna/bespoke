@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-15T13:02:24.577634+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3822
+    },
+    {
+      "path": "requirements.txt",
+      "size": 445
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python script that slices audio with silence detection",
+    "fork": false,
+    "full_name": "openvpi/audio-slicer",
+    "html_url": "https://github.com/openvpi/audio-slicer",
+    "language": "Python",
+    "pushed_at": "2024-06-08T01:46:28Z",
+    "stargazers_count": 875,
+    "topics": [],
+    "updated_at": "2026-05-15T02:33:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

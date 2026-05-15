@@ -91,6 +91,18 @@
       "source_repo": "aandrew-me/ytDownloader",
       "status": "candidate-context",
       "text": "<img src=\"https://github-production-user-asset-6210df.s3.amazonaws.com/66430340/238887646-33b4cba9-3c45-4042-83d1-b79e94a3a769.png\" style=\"width:80px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fumiama/RVC-Models-Downloader",
+      "status": "candidate-context",
+      "text": "Easy tool to download a batch of files listed in yaml (ex. RVC models in Hugging Face \ud83e\udd17)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fumiama/RVC-Models-Downloader",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README_sc.md) | [\ud55c\uad6d\uc5b4](README_kr.md)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "aandrew-me/ytDownloader",
       "status": "candidate",
       "text": "<img src=\"https://github-production-user-asset-6210df.s3.amazonaws.com/66430340/238887646-33b4cba9-3c45-4042-83d1-b79e94a3a769.png\" style=\"width:80px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fumiama/RVC-Models-Downloader",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README_sc.md) | [\ud55c\uad6d\uc5b4](README_kr.md)"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +238,17 @@
       "observed_at": "2026-05-09T12:31:19.030154+00:00",
       "source_file": null,
       "source_repo": "aandrew-me/ytDownloader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "fumiama/RVC-Models-Downloader"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

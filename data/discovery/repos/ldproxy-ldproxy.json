@@ -67,7 +67,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T05:06:18.491555+00:00",
+  "fetched_at": "2026-05-15T16:19:34.246606+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -91,7 +91,7 @@
     "full_name": "ldproxy/ldproxy",
     "html_url": "https://github.com/ldproxy/ldproxy",
     "language": "Java",
-    "pushed_at": "2026-05-14T09:07:50Z",
+    "pushed_at": "2026-05-15T14:09:32Z",
     "stargazers_count": 103,
     "topics": [
       "ogc",

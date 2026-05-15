@@ -1,0 +1,144 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "target": "cantabile-kwok/unicats-ctx-vec2wav",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "target": "microsoft/vq-diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "target": "acoustic-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "target": "ctx-txt2vec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "target": "unicats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "target": "vq-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T13:01:42.415123+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6311
+    },
+    {
+      "path": "requirements.txt",
+      "size": 352
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[AAAI 2024] CTX-txt2vec, the acoustic model in UniCATS",
+    "fork": false,
+    "full_name": "X-LANCE/UniCATS-CTX-txt2vec",
+    "html_url": "https://github.com/X-LANCE/UniCATS-CTX-txt2vec",
+    "language": "Python",
+    "pushed_at": "2024-11-18T02:48:16Z",
+    "stargazers_count": 64,
+    "topics": [
+      "acoustic-model",
+      "ctx-txt2vec",
+      "speech-synthesis",
+      "text-to-speech",
+      "tts",
+      "unicats",
+      "vq-diffusion"
+    ],
+    "updated_at": "2025-03-23T13:54:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cantabile-kwok/unicats-ctx-vec2wav",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/vq-diffusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> This is the official implementation of **CTX-txt2vec** TTS model in the AAAI-2024 paper [UniCATS: A Unified Context-Aware Text-to-Speech Framework with Contextual VQ-Diffusion and Vocoding](https://arxiv.org/abs/2306.07547).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acoustic-model"
+    },
+    {
+      "context_snippet": "> This is the official implementation of **CTX-txt2vec** TTS model in the AAAI-2024 paper [UniCATS: A Unified Context-Aware Text-to-Speech Framework with Contextual VQ-Diffusion and Vocoding](https://arxiv.org/abs/2306.07547).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ctx-txt2vec"
+    },
+    {
+      "context_snippet": "> This is the official implementation of **CTX-txt2vec** TTS model in the AAAI-2024 paper [UniCATS: A Unified Context-Aware Text-to-Speech Framework with Contextual VQ-Diffusion and Vocoding](https://arxiv.org/abs/2306.07547).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "> This is the official implementation of **CTX-txt2vec** TTS model in the AAAI-2024 paper [UniCATS: A Unified Context-Aware Text-to-Speech Framework with Contextual VQ-Diffusion and Vocoding](https://arxiv.org/abs/2306.07547).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "> This is the official implementation of **CTX-txt2vec** TTS model in the AAAI-2024 paper [UniCATS: A Unified Context-Aware Text-to-Speech Framework with Contextual VQ-Diffusion and Vocoding](https://arxiv.org/abs/2306.07547).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicats"
+    },
+    {
+      "context_snippet": "> This is the official implementation of **CTX-txt2vec** TTS model in the AAAI-2024 paper [UniCATS: A Unified Context-Aware Text-to-Speech Framework with Contextual VQ-Diffusion and Vocoding](https://arxiv.org/abs/2306.07547).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vq-diffusion"
+    }
+  ]
+}

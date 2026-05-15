@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "audio controls for Jetpack Compose and Compose for Multiplatform "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![demoapp sshot](docs/images/demoapp-sshot.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![demoapp sshot](docs/images/demoapp-sshot.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "midi2",
+      "sense_id": "midi2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "midi2",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "midi2",
+  "observation_id": "ac7d794552f8cf02",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_text": "midi2",
+  "source_context_snippet": "![demoapp sshot](docs/images/demoapp-sshot.png)",
+  "source_file": null,
+  "source_repo": "atsushieno/compose-audio-controls",
+  "source_repo_description": "audio controls for Jetpack Compose and Compose for Multiplatform "
+}

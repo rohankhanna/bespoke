@@ -124,11 +124,17 @@
       "observed_at": "2026-05-15T00:40:36.218046+00:00",
       "source_file": ".github/workflows/official-release.yml",
       "source_repo": "matter-js/matter.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/official-release.yml",
+      "source_repo": "matter-js/matter.js"
     }
   ],
   "first_seen_at": "2026-05-13T12:58:22.952944+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -4061,6 +4061,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "copier-org/copier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "python-eel/Eel"
     }
   ],
   "term": "hacktoberfest"

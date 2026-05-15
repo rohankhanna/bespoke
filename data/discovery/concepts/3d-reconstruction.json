@@ -553,6 +553,18 @@
       "source_repo": "hku-mars/FAST-LIVO2",
       "status": "candidate-context",
       "text": "- \ud83d\udd13 **2025-01-23**: Code released!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuyuan-pal/SyncDreamer",
+      "status": "candidate-context",
+      "text": "[ICLR 2024 Spotlight] SyncDreamer: Generating Multiview-consistent Images from a Single-view Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuyuan-pal/SyncDreamer",
+      "status": "candidate-context",
+      "text": "SyncDreamer: Generating Multiview-consistent Images from a Single-view Image"
     }
   ],
   "candidate_glosses": [
@@ -831,6 +843,12 @@
       "source_repo": "hku-mars/FAST-LIVO2",
       "status": "candidate",
       "text": "- \ud83d\udd13 **2025-01-23**: Code released!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuyuan-pal/SyncDreamer",
+      "status": "candidate",
+      "text": "SyncDreamer: Generating Multiview-consistent Images from a Single-view Image"
     }
   ],
   "candidate_related_terms": [],
@@ -1318,11 +1336,23 @@
       "observed_at": "2026-05-15T00:40:36.218046+00:00",
       "source_file": null,
       "source_repo": "astra-vision/LMSCNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "astra-vision/LMSCNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "liuyuan-pal/SyncDreamer"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

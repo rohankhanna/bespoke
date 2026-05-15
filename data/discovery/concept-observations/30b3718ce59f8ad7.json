@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open singing synthesis platform / Open source UTAU successor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "OpenUtau is a free, open-source editor made for the UTAU community."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "OpenUtau is a free, open-source editor made for the UTAU community."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "singing-voice-synthesis",
+      "sense_id": "singing-voice-synthesis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "singing-voice-synthesis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "singing-voice-synthesis",
+  "observation_id": "30b3718ce59f8ad7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_text": "singing-voice-synthesis",
+  "source_context_snippet": "OpenUtau is a free, open-source editor made for the UTAU community.",
+  "source_file": null,
+  "source_repo": "stakira/OpenUtau",
+  "source_repo_description": "Open singing synthesis platform / Open source UTAU successor"
+}

@@ -19,6 +19,18 @@
       "source_repo": "cyw-3d/SAR3D",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xxlong0/Wonder3D",
+      "status": "candidate-context",
+      "text": "Single Image to 3D using Cross-Domain Diffusion for 3D Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xxlong0/Wonder3D",
+      "status": "candidate-context",
+      "text": "**\u4e2d\u6587\u7248\u672c [\u4e2d\u6587](README_zh.md)**"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "cyw-3d/SAR3D",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xxlong0/Wonder3D",
+      "status": "candidate",
+      "text": "**\u4e2d\u6587\u7248\u672c [\u4e2d\u6587](README_zh.md)**"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "cyw-3d/SAR3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "xxlong0/Wonder3D"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

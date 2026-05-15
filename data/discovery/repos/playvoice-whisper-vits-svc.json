@@ -12,21 +12,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/whisper-vits-svc",
-      "target": "revsic/torch-nansy",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "PlayVoice/whisper-vits-svc",
       "target": "playvoice/so-vits-svc",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "PlayVoice/whisper-vits-svc",
-      "target": "playvoice/vi-svc",
       "target_type": "repository"
     },
     {
@@ -93,7 +79,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T04:08:22.467397+00:00",
+  "fetched_at": "2026-05-15T17:28:52.282406+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -138,16 +124,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "playvoice/so-vits-svc-5.0",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "playvoice/vi-svc",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "revsic/torch-nansy",
       "source_file": "README.md"
     }
   ],

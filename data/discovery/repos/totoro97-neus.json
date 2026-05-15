@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-15T15:22:52.651190+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3153
+    },
+    {
+      "path": "requirements.txt",
+      "size": 140
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code release for NeuS",
+    "fork": false,
+    "full_name": "Totoro97/NeuS",
+    "html_url": "https://github.com/Totoro97/NeuS",
+    "language": "Python",
+    "pushed_at": "2024-02-28T08:17:37Z",
+    "stargazers_count": 1771,
+    "topics": [],
+    "updated_at": "2026-05-15T09:23:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

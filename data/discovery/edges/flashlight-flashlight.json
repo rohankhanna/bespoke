@@ -4,7 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "flashlight/flashlight",
-      "target": "arrayfire/arrayfire",
+      "target": "nvidia/cub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flashlight/flashlight",
+      "target": "oneapi-src/onednn",
       "target_type": "repository"
     },
     {
@@ -12,13 +19,6 @@
       "source_file": "README.md",
       "source_repo": "flashlight/flashlight",
       "target": "facebookincubator/gloo",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "flashlight/flashlight",
-      "target": "flashlight/text",
       "target_type": "repository"
     },
     {
@@ -113,6 +113,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-05-15T12:50:28.227991+00:00",
   "source_repo": "flashlight/flashlight"
 }

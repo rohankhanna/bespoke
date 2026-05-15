@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "experimental Juce AudioPluginHost port to AAP (Android Audio Plugin) / The development is moved to aap-juce-plugin-host-cmake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "aap-juce-plugin-host is a port of JUCE AudioPluginHost (`JUCE/extras/AudioPluginHost`) to [aap-juce](https://github.com/atsushieno/aap-juce)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "aap-juce-plugin-host is a port of JUCE AudioPluginHost (`JUCE/extras/AudioPluginHost`) to [aap-juce](https://github.com/atsushieno/aap-juce)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aap-juce",
+      "sense_id": "aap-juce#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "aap-juce",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aap-juce",
+  "observation_id": "d96ef008b1eab617",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_text": "aap-juce",
+  "source_context_snippet": "aap-juce-plugin-host is a port of JUCE AudioPluginHost (`JUCE/extras/AudioPluginHost`) to [aap-juce](https://github.com/atsushieno/aap-juce).",
+  "source_file": null,
+  "source_repo": "atsushieno/aap-juce-plugin-host",
+  "source_repo_description": "experimental Juce AudioPluginHost port to AAP (Android Audio Plugin) / The development is moved to aap-juce-plugin-host-cmake"
+}

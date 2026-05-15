@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xxlong0/Wonder3D",
+      "target": "camenduru/wonder3d-colab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xxlong0/Wonder3D",
+      "target": "penghtyx/era3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xxlong0/Wonder3D",
+      "target": "totoro97/neus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xxlong0/Wonder3D",
+      "target": "liuyuan-pal/syncdreamer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xxlong0/Wonder3D",
+      "target": "3d-aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xxlong0/Wonder3D",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xxlong0/Wonder3D",
+      "target": "3dgeneration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xxlong0/Wonder3D",
+      "target": "single-image-to-3d",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T13:03:15.032019+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13196
+    },
+    {
+      "path": "requirements.txt",
+      "size": 482
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Single Image to 3D using Cross-Domain Diffusion for 3D Generation",
+    "fork": false,
+    "full_name": "xxlong0/Wonder3D",
+    "html_url": "https://github.com/xxlong0/Wonder3D",
+    "language": "Python",
+    "pushed_at": "2025-03-14T07:09:19Z",
+    "stargazers_count": 5373,
+    "topics": [
+      "3d-aigc",
+      "3d-generation",
+      "3dgeneration",
+      "single-image-to-3d"
+    ],
+    "updated_at": "2026-05-14T10:24:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camenduru/wonder3d-colab",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liuyuan-pal/syncdreamer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "penghtyx/era3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "totoro97/neus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**\u4e2d\u6587\u7248\u672c [\u4e2d\u6587](README_zh.md)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-aigc"
+    },
+    {
+      "context_snippet": "**\u4e2d\u6587\u7248\u672c [\u4e2d\u6587](README_zh.md)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-generation"
+    },
+    {
+      "context_snippet": "**\u4e2d\u6587\u7248\u672c [\u4e2d\u6587](README_zh.md)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3dgeneration"
+    },
+    {
+      "context_snippet": "**\u4e2d\u6587\u7248\u672c [\u4e2d\u6587](README_zh.md)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-image-to-3d"
+    }
+  ]
+}

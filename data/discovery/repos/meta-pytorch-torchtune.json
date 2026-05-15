@@ -414,7 +414,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T04:54:04.824079+00:00",
+  "fetched_at": "2026-05-15T15:32:10.789723+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -466,10 +466,10 @@
     "full_name": "meta-pytorch/torchtune",
     "html_url": "https://github.com/meta-pytorch/torchtune",
     "language": "Python",
-    "pushed_at": "2026-05-14T12:09:30Z",
-    "stargazers_count": 5755,
+    "pushed_at": "2026-05-15T12:12:10Z",
+    "stargazers_count": 5754,
     "topics": [],
-    "updated_at": "2026-05-14T23:20:15Z"
+    "updated_at": "2026-05-15T07:13:56Z"
   },
   "repo_links": [
     {

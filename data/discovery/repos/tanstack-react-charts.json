@@ -933,7 +933,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T07:20:05.601821+00:00",
+  "fetched_at": "2026-05-15T16:32:57.535262+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -958,7 +958,7 @@
     "html_url": "https://github.com/TanStack/react-charts",
     "language": "HTML",
     "pushed_at": "2025-03-10T15:24:03Z",
-    "stargazers_count": 3149,
+    "stargazers_count": 3148,
     "topics": [
       "chart",
       "component",
@@ -966,7 +966,7 @@
       "react",
       "react-motion"
     ],
-    "updated_at": "2026-05-13T16:47:29Z"
+    "updated_at": "2026-05-15T10:18:14Z"
   },
   "repo_links": [
     {

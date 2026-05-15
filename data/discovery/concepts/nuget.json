@@ -127,6 +127,18 @@
       "source_repo": "cefsharp/CefSharp.MinimalExample",
       "status": "candidate-context",
       "text": "Minimal example of how the CefSharp library can be used using the official `Nuget` packages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axodox/axodox-machinelearning",
+      "status": "candidate-context",
+      "text": "This repository contains a pure C++ ONNX implementation of multiple offline AI models, such as StableDiffusion (1.5 and XL), ControlNet, Midas, HED and OpenPose."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axodox/axodox-machinelearning",
+      "status": "candidate-context",
+      "text": "This repository contains a pure C++ ONNX implementation of multiple offline AI models, such as StableDiffusion (1.5 and XL), ControlNet, Midas, HED and OpenPose."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "cefsharp/CefSharp.MinimalExample",
       "status": "candidate",
       "text": "Minimal example of how the CefSharp library can be used using the official `Nuget` packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axodox/axodox-machinelearning",
+      "status": "candidate",
+      "text": "This repository contains a pure C++ ONNX implementation of multiple offline AI models, such as StableDiffusion (1.5 and XL), ControlNet, Midas, HED and OpenPose."
     }
   ],
   "candidate_related_terms": [
@@ -298,11 +316,17 @@
       "observed_at": "2026-05-08T06:44:29.884715+00:00",
       "source_file": null,
       "source_repo": "cefsharp/CefSharp.MinimalExample"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "axodox/axodox-machinelearning"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T06:44:29.884715+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

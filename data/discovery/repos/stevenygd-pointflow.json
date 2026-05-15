@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stevenygd/PointFlow",
+      "target": "3d-point-clouds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stevenygd/PointFlow",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stevenygd/PointFlow",
+      "target": "continuous-normalizing-flows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stevenygd/PointFlow",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stevenygd/PointFlow",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stevenygd/PointFlow",
+      "target": "shapes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T13:03:09.935105+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5305
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PointFlow : 3D Point Cloud Generation with Continuous Normalizing Flows",
+    "fork": false,
+    "full_name": "stevenygd/PointFlow",
+    "html_url": "https://github.com/stevenygd/PointFlow",
+    "language": "Python",
+    "pushed_at": "2024-08-07T05:22:08Z",
+    "stargazers_count": 864,
+    "topics": [
+      "3d-point-clouds",
+      "computer-vision",
+      "continuous-normalizing-flows",
+      "machine-learning",
+      "pytorch",
+      "shapes"
+    ],
+    "updated_at": "2026-05-11T08:23:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains a PyTorch implementation of the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-point-clouds"
+    },
+    {
+      "context_snippet": "This repository contains a PyTorch implementation of the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repository contains a PyTorch implementation of the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "continuous-normalizing-flows"
+    },
+    {
+      "context_snippet": "This repository contains a PyTorch implementation of the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This repository contains a PyTorch implementation of the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This repository contains a PyTorch implementation of the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shapes"
+    }
+  ]
+}

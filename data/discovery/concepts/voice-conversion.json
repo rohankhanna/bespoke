@@ -295,6 +295,18 @@
       "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k2kobayashi/sprocket",
+      "status": "candidate-context",
+      "text": "Voice Conversion Tool Kit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2kobayashi/sprocket",
+      "status": "candidate-context",
+      "text": "[![Python Version](https://img.shields.io/badge/Python-3.5%2C%203.6%2C%203.7-green.svg)](https://img.shields.io/badge/Python-3.5%2C%203.6%2C%203.7-green.svg)"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +453,12 @@
       "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2kobayashi/sprocket",
+      "status": "candidate",
+      "text": "[![Python Version](https://img.shields.io/badge/Python-3.5%2C%203.6%2C%203.7-green.svg)](https://img.shields.io/badge/Python-3.5%2C%203.6%2C%203.7-green.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -592,11 +610,17 @@
       "observed_at": "2026-05-15T00:40:36.218046+00:00",
       "source_file": null,
       "source_repo": "fumiama/Retrieval-based-Voice-Conversion-WebUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "k2kobayashi/sprocket"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "publish-mah",
   "observation_id": "7e696bc35ebbd621",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-15T07:17:00.410973+00:00",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
   "observed_text": "Publish Mah",
   "source_context_snippet": "Publish Mah",
   "source_file": ".github/workflows/publish.yml",

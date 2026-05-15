@@ -79,6 +79,30 @@
       "source_repo": "MotrixLab/MotionDiffuse",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xxlong0/Wonder3D",
+      "status": "candidate-context",
+      "text": "Single Image to 3D using Cross-Domain Diffusion for 3D Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xxlong0/Wonder3D",
+      "status": "candidate-context",
+      "text": "**\u4e2d\u6587\u7248\u672c [\u4e2d\u6587](README_zh.md)**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guochengqian/Magic123",
+      "status": "candidate-context",
+      "text": "[ICLR24] Official PyTorch Implementation of Magic123: One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guochengqian/Magic123",
+      "status": "candidate-context",
+      "text": "tqdm rich ninja numpy scipy scikit-learn matplotlib opencv-python imageio imageio-ffmpeg pandas torch torchvision torch-ema einops tensorboard tensorboardX # for gui dearpygui # for grid_tcnn # git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch # for stable-\u2026"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "MotrixLab/MotionDiffuse",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xxlong0/Wonder3D",
+      "status": "candidate",
+      "text": "**\u4e2d\u6587\u7248\u672c [\u4e2d\u6587](README_zh.md)**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guochengqian/Magic123",
+      "status": "candidate",
+      "text": "tqdm rich ninja numpy scipy scikit-learn matplotlib opencv-python imageio imageio-ffmpeg pandas torch torchvision torch-ema einops tensorboard tensorboardX # for gui dearpygui # for grid_tcnn # git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch # for stable-\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +196,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "MotrixLab/MotionDiffuse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "xxlong0/Wonder3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "guochengqian/Magic123"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

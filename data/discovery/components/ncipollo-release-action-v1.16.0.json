@@ -1,0 +1,12 @@
+{
+  "component": "ncipollo/release-action@v1.16.0",
+  "first_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/android-ci-package-installer"
+    }
+  ]
+}

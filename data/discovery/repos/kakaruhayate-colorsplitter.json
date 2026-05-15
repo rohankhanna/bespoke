@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KakaruHayate/ColorSplitter",
+      "target": "resemble-ai/resemblyzer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KakaruHayate/ColorSplitter",
+      "target": "alibaba-damo-academy/3d-speaker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KakaruHayate/ColorSplitter",
+      "target": "aaronz345/gtsinger",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-15T17:30:28.147262+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4333
+    },
+    {
+      "path": "requirements.txt",
+      "size": 119
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A cli tool for split vocal timbre.",
+    "fork": false,
+    "full_name": "KakaruHayate/ColorSplitter",
+    "html_url": "https://github.com/KakaruHayate/ColorSplitter",
+    "language": "Python",
+    "pushed_at": "2026-01-17T03:04:25Z",
+    "stargazers_count": 288,
+    "topics": [],
+    "updated_at": "2026-05-14T16:42:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aaronz345/gtsinger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba-damo-academy/3d-speaker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "resemble-ai/resemblyzer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

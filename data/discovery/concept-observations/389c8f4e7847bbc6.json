@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2728 Split text by languages (e.g. \u4f60\u559c\u6b22\u770b\u30a2\u30cb\u30e1\u5417 -> \u4f60\u559c\u6b22\u770b | \u30a2\u30cb\u30e1 | \u5417) for NLP tasks (e.g. parse, TTS). Powered by fasttext and budoux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033953,
+      "status": "candidate",
+      "text": "divided"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031459,
+      "status": "candidate",
+      "text": "divide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031449,
+      "status": "candidate",
+      "text": "schism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028660,
+      "status": "candidate",
+      "text": "part"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021667,
+      "status": "candidate",
+      "text": "separate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "split",
+      "sense_id": "split#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46079,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25055,
+      "status": "candidate",
+      "text": "burst"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23055,
+      "status": "candidate",
+      "text": "part"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22044,
+      "status": "candidate",
+      "text": "separate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20072,
+      "status": "candidate",
+      "text": "rip"
+    }
+  ],
+  "concept_id": "split",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "split",
+  "observation_id": "389c8f4e7847bbc6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_text": "split",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "DoodleBears/split-lang",
+  "source_repo_description": "\u2728 Split text by languages (e.g. \u4f60\u559c\u6b22\u770b\u30a2\u30cb\u30e1\u5417 -> \u4f60\u559c\u6b22\u770b | \u30a2\u30cb\u30e1 | \u5417) for NLP tasks (e.g. parse, TTS). Powered by fasttext and budoux"
+}

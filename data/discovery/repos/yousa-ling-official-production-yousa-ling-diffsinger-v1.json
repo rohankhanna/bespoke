@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yousa-ling-official-production/yousa-ling-diffsinger-v1",
+      "target": "stakira/openutau",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yousa-ling-official-production/yousa-ling-diffsinger-v1",
+      "target": "kakaruhayate/colorsplitter",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-15T15:22:46.413143+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1698
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u6ce0\u9e22yousa\u7684Diffsinger\u6a21\u578bv1\u7248",
+    "fork": false,
+    "full_name": "yousa-ling-official-production/yousa-ling-diffsinger-v1",
+    "html_url": "https://github.com/yousa-ling-official-production/yousa-ling-diffsinger-v1",
+    "language": null,
+    "pushed_at": "2025-08-29T09:28:27Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2026-05-14T14:02:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kakaruhayate/colorsplitter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stakira/openutau",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

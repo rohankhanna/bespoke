@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Amblyopius/Stable-Diffusion-ONNX-FP16",
+      "target": "amblyopius/onnxdiffusersui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Amblyopius/Stable-Diffusion-ONNX-FP16",
+      "target": "azuritecoin/onnxdiffusersui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Amblyopius/Stable-Diffusion-ONNX-FP16",
+      "target": "nod-ai/shark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Amblyopius/Stable-Diffusion-ONNX-FP16",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Amblyopius/Stable-Diffusion-ONNX-FP16",
+      "target": "stablediffusion",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-15T12:50:28.227991+00:00",
+  "source_repo": "Amblyopius/Stable-Diffusion-ONNX-FP16"
+}

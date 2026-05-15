@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-stack.yaml"
+    },
+    {
+      "component": "freckle/stack-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-stack.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-stack.yaml",
+      "source_repo": "ejconlon/libremidi-haskell",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-stack.yaml",
+      "source_repo": "ejconlon/libremidi-haskell",
+      "target": "freckle/stack-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/haskell-stack.yaml",
+      "source_repo": "ejconlon/libremidi-haskell",
+      "target": "haskell-stack",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T17:29:44.221606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 540
+    },
+    {
+      "path": ".github/workflows/haskell-stack.yaml",
+      "size": 400
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "libremidi bindings for haskell",
+    "fork": false,
+    "full_name": "ejconlon/libremidi-haskell",
+    "html_url": "https://github.com/ejconlon/libremidi-haskell",
+    "language": "Haskell",
+    "pushed_at": "2025-01-08T21:23:55Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-01-08T21:23:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "haskell-stack",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/haskell-stack.yaml",
+      "term": "haskell-stack"
+    }
+  ]
+}

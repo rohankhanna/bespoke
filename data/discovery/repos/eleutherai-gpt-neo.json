@@ -62,7 +62,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T04:54:07.422754+00:00",
+  "fetched_at": "2026-05-15T15:32:14.455953+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -91,7 +91,7 @@
     "html_url": "https://github.com/EleutherAI/gpt-neo",
     "language": "Python",
     "pushed_at": "2022-02-25T06:27:12Z",
-    "stargazers_count": 8281,
+    "stargazers_count": 8280,
     "topics": [
       "gpt",
       "gpt-2",
@@ -99,7 +99,7 @@
       "language-model",
       "transformers"
     ],
-    "updated_at": "2026-05-13T22:49:16Z"
+    "updated_at": "2026-05-15T13:44:51Z"
   },
   "repo_links": [
     {

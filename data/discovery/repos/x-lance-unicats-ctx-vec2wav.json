@@ -2,13 +2,6 @@
   "components": [],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "X-LANCE/UniCATS-CTX-vec2wav",
-      "target": "x-lance/unicats-ctx-txt2vec",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "X-LANCE/UniCATS-CTX-vec2wav",
@@ -51,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T04:08:29.144990+00:00",
+  "fetched_at": "2026-05-15T15:21:38.575411+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -83,13 +76,7 @@
     ],
     "updated_at": "2025-12-24T15:42:10Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "x-lance/unicats-ctx-txt2vec",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "> This is the official implementation of **CTX-vec2wav** vocoder in the AAAI-2024 paper [UniCATS: A Unified Context-Aware Text-to-Speech Framework with Contextual VQ-Diffusion and Vocoding](https://arxiv.org/abs/2306.07547).",

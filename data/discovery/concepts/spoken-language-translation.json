@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "spoken-language-translation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kahne/SpeechTransProgress",
+      "status": "candidate-context",
+      "text": "Tracking the progress in end-to-end speech translation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kahne/SpeechTransProgress",
+      "status": "candidate-context",
+      "text": "End-to-End Speech Translation Progress"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kahne/SpeechTransProgress",
+      "status": "candidate",
+      "text": "End-to-End Speech Translation Progress"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "spoken-language-translation",
+  "concept_id": "spoken-language-translation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "kahne/SpeechTransProgress"
+    }
+  ],
+  "first_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spoken-language-translation",
+      "sense_id": "spoken-language-translation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

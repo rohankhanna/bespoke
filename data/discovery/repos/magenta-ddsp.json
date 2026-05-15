@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "magenta/ddsp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "magenta/ddsp",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "magenta/ddsp",
+      "target": "build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T15:22:40.967892+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13238
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1574
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " DDSP: Differentiable Digital Signal Processing",
+    "fork": false,
+    "full_name": "magenta/ddsp",
+    "html_url": "https://github.com/magenta/ddsp",
+    "language": "Python",
+    "pushed_at": "2026-05-07T12:41:06Z",
+    "stargazers_count": 3272,
+    "topics": [],
+    "updated_at": "2026-05-14T22:07:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    }
+  ]
+}

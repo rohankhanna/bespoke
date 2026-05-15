@@ -1,0 +1,117 @@
+{
+  "aliases": [
+    "Test Eel"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luoyily/Eel",
+      "status": "candidate-context",
+      "text": "A little Python library for making simple Electron-like HTML/JS GUI apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luoyily/Eel",
+      "status": "candidate-context",
+      "text": "Test Eel"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-eel/Eel",
+      "status": "candidate-context",
+      "text": "A little Python library for making simple Electron-like HTML/JS GUI apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-eel/Eel",
+      "status": "candidate-context",
+      "text": "Test Eel"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luoyily/Eel",
+      "status": "candidate",
+      "text": "Test Eel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-eel/Eel",
+      "status": "candidate",
+      "text": "Test Eel"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11735,
+      "status": "candidate",
+      "text": "prick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10858,
+      "status": "candidate",
+      "text": "catadromous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10767,
+      "status": "candidate",
+      "text": "aulostomus maculatus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10767,
+      "status": "candidate",
+      "text": "bite"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Eel",
+  "concept_id": "test-eel",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "luoyily/Eel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "python-eel/Eel"
+    }
+  ],
+  "first_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Eel",
+      "sense_id": "test-eel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

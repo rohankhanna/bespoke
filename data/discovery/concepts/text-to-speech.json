@@ -649,6 +649,54 @@
       "source_repo": "Adibian/ResGrad",
       "status": "candidate-context",
       "text": "[**ResGrad: Residual Denoising Diffusion Probabilistic Models for Text to Speech**](https://arxiv.org/abs/2212.14518)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "status": "candidate-context",
+      "text": "[AAAI 2024] CTX-txt2vec, the acoustic model in UniCATS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "status": "candidate-context",
+      "text": "> This is the official implementation of **CTX-txt2vec** TTS model in the AAAI-2024 paper [UniCATS: A Unified Context-Aware Text-to-Speech Framework with Contextual VQ-Diffusion and Vocoding](https://arxiv.org/abs/2306.07547)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RVC-Boss/GPT-SoVITS",
+      "status": "candidate-context",
+      "text": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RVC-Boss/GPT-SoVITS",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ubisoft/ubisoft-laforge-daft-exprt",
+      "status": "candidate-context",
+      "text": "Daft-Exprt: Robust Prosody Transfer Across Speakers for Expressive Speech Synthesis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ubisoft/ubisoft-laforge-daft-exprt",
+      "status": "candidate-context",
+      "text": "<!-- omit in toc -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "collabora/WhisperLive",
+      "status": "candidate-context",
+      "text": "A nearly-live implementation of OpenAI's Whisper."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "collabora/WhisperLive",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -975,6 +1023,30 @@
       "source_repo": "Adibian/ResGrad",
       "status": "candidate",
       "text": "[**ResGrad: Residual Denoising Diffusion Probabilistic Models for Text to Speech**](https://arxiv.org/abs/2212.14518)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec",
+      "status": "candidate",
+      "text": "> This is the official implementation of **CTX-txt2vec** TTS model in the AAAI-2024 paper [UniCATS: A Unified Context-Aware Text-to-Speech Framework with Contextual VQ-Diffusion and Vocoding](https://arxiv.org/abs/2306.07547)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RVC-Boss/GPT-SoVITS",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ubisoft/ubisoft-laforge-daft-exprt",
+      "status": "candidate",
+      "text": "<!-- omit in toc -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "collabora/WhisperLive",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1528,11 +1600,47 @@
       "observed_at": "2026-05-15T00:40:36.218046+00:00",
       "source_file": null,
       "source_repo": "lifeiteng/vall-e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "X-LANCE/UniCATS-CTX-txt2vec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "Adibian/ResGrad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "RVC-Boss/GPT-SoVITS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "lifeiteng/vall-e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "ubisoft/ubisoft-laforge-daft-exprt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "collabora/WhisperLive"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

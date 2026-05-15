@@ -3,7 +3,8 @@
     "Build Android",
     "build-android",
     "Build-Android",
-    "\ud83e\udd16 Build Android"
+    "\ud83e\udd16 Build Android",
+    "build android"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -118,6 +119,18 @@
       "source_repo": "logseq/og",
       "status": "candidate-context",
       "text": "Build-Android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/uapmd",
+      "status": "candidate-context",
+      "text": "A liberal plugin hosting library (VST3/AU/LV2/CLAP/AAP/WebCLAP) with fully-featured MIDI 2.0 (UMP + MIDI-CI) frontend where applicable. Create virtual MIDI 2.0 devices using your favorite plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/uapmd",
+      "status": "candidate-context",
+      "text": "build android"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +187,12 @@
       "source_repo": "logseq/og",
       "status": "candidate",
       "text": "Build-Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/uapmd",
+      "status": "candidate",
+      "text": "build android"
     }
   ],
   "candidate_related_terms": [
@@ -271,11 +290,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/build-android.yml",
       "source_repo": "logseq/og"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "atsushieno/uapmd"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

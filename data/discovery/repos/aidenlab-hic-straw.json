@@ -94,7 +94,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-15T04:54:56.394110+00:00",
+  "fetched_at": "2026-05-15T15:33:10.222061+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -102,7 +102,7 @@
     },
     {
       "path": "package.json",
-      "size": 1484
+      "size": 1520
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -118,10 +118,10 @@
     "full_name": "aidenlab/hic-straw",
     "html_url": "https://github.com/aidenlab/hic-straw",
     "language": "JavaScript",
-    "pushed_at": "2026-05-14T21:59:47Z",
+    "pushed_at": "2026-05-15T12:58:24Z",
     "stargazers_count": 10,
     "topics": [],
-    "updated_at": "2026-05-14T21:59:50Z"
+    "updated_at": "2026-05-15T12:56:20Z"
   },
   "repo_links": [
     {

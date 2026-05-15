@@ -398,7 +398,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T07:21:54.484782+00:00",
+  "fetched_at": "2026-05-15T16:34:43.200806+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -438,7 +438,7 @@
     },
     {
       "path": ".github/workflows/test.yml",
-      "size": 3532
+      "size": 3547
     }
   ],
   "related_repositories": [],
@@ -450,7 +450,7 @@
     "full_name": "ultrajson/ultrajson",
     "html_url": "https://github.com/ultrajson/ultrajson",
     "language": "C++",
-    "pushed_at": "2026-05-12T17:53:07Z",
+    "pushed_at": "2026-05-15T14:43:27Z",
     "stargazers_count": 4482,
     "topics": [
       "c",
@@ -461,7 +461,7 @@
       "ujson",
       "ultrajson"
     ],
-    "updated_at": "2026-05-12T17:53:13Z"
+    "updated_at": "2026-05-15T14:43:32Z"
   },
   "repo_links": [],
   "terms": [

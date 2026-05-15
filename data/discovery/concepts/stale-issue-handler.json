@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Stale issue handler"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d8ahazard/sd_dreambooth_extension",
+      "status": "candidate-context",
+      "text": "'Stale issue handler'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d8ahazard/sd_dreambooth_extension",
+      "status": "candidate",
+      "text": "'Stale issue handler'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19592,
+      "status": "candidate",
+      "text": "ice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19234,
+      "status": "candidate",
+      "text": "steal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19134,
+      "status": "candidate",
+      "text": "age"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19111,
+      "status": "candidate",
+      "text": "aec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19111,
+      "status": "candidate",
+      "text": "atomic energy commission"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Stale issue handler",
+  "concept_id": "stale-issue-handler",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "d8ahazard/sd_dreambooth_extension"
+    }
+  ],
+  "first_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Stale issue handler",
+      "sense_id": "stale-issue-handler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

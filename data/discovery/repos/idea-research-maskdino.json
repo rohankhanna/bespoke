@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T04:55:21.672002+00:00",
+  "fetched_at": "2026-05-15T15:33:44.703668+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -65,14 +65,14 @@
     "html_url": "https://github.com/IDEA-Research/MaskDINO",
     "language": "Python",
     "pushed_at": "2023-12-20T07:05:03Z",
-    "stargazers_count": 1527,
+    "stargazers_count": 1528,
     "topics": [
       "instance-segmentation",
       "object-detection",
       "panoptic-segmentation",
       "semantic-segmentation"
     ],
-    "updated_at": "2026-05-14T03:39:09Z"
+    "updated_at": "2026-05-15T06:45:58Z"
   },
   "repo_links": [
     {

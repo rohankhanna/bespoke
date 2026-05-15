@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-15T13:01:57.819387+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7682
+    },
+    {
+      "path": "requirements.txt",
+      "size": 74
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Batch Support for OpenAI Whisper",
+    "fork": true,
+    "full_name": "Blair-Johnson/batch-whisper",
+    "html_url": "https://github.com/Blair-Johnson/batch-whisper",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-01-19T16:22:47Z",
+    "stargazers_count": 97,
+    "topics": [],
+    "updated_at": "2026-01-20T18:19:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

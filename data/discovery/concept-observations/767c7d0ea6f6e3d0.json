@@ -79,7 +79,7 @@
   "normalized_form": "release-plan-review",
   "observation_id": "767c7d0ea6f6e3d0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-15T07:17:00.410973+00:00",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
   "observed_text": "Release Plan Review",
   "source_context_snippet": "Release Plan Review",
   "source_file": ".github/workflows/plan-release.yml",

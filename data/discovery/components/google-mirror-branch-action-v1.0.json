@@ -1,7 +1,7 @@
 {
   "component": "google/mirror-branch-action@v1.0",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-05-15T00:40:36.218046+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/mirror-to-master.yml",
       "source_repo": "WebAssembly/function-references"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mirror-main-branch-to-master-branch.yml",
+      "source_repo": "NVIDIA/cub"
     }
   ]
 }

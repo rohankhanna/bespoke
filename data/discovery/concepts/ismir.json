@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ismir"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YatingMusic/ddsp-singing-vocoders",
+      "status": "candidate-context",
+      "text": "Official implementation of SawSing (ISMIR'22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YatingMusic/ddsp-singing-vocoders",
+      "status": "candidate-context",
+      "text": "Authors: [Da-Yi Wu](https://github.com/ericwudayi)\\*, [Wen-Yi Hsiao](https://github.com/wayne391)\\*, [Fu-Rong Yang](https://github.com/furongyang)\\*, [Oscar Friedman](https://github.com/OscarFree), Warren Jackson, Scott Bruzenak, Yi-Wen Liu, [Yi-Hsuan Yang](https://github.com/af\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YatingMusic/ddsp-singing-vocoders",
+      "status": "candidate",
+      "text": "Authors: [Da-Yi Wu](https://github.com/ericwudayi)\\*, [Wen-Yi Hsiao](https://github.com/wayne391)\\*, [Fu-Rong Yang](https://github.com/furongyang)\\*, [Oscar Friedman](https://github.com/OscarFree), Warren Jackson, Scott Bruzenak, Yi-Wen Liu, [Yi-Hsuan Yang](https://github.com/af\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ismir",
+  "concept_id": "ismir",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "YatingMusic/ddsp-singing-vocoders"
+    }
+  ],
+  "first_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ismir",
+      "sense_id": "ismir#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,41 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Cacodemon345/BlastThruReborn",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-15T13:02:40.337389+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1147
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "Cacodemon345/BlastThruReborn",
+    "html_url": "https://github.com/Cacodemon345/BlastThruReborn",
+    "language": "C++",
+    "pushed_at": "2022-03-16T10:45:12Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2024-01-05T00:03:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

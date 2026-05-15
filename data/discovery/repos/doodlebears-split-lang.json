@@ -1,0 +1,240 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DoodleBears/split-lang",
+      "target": "google/budoux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DoodleBears/split-lang",
+      "target": "llmkira/fast-langdetect",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DoodleBears/split-lang",
+      "target": "zafercavdar/fasttext-langdetect",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "DoodleBears/split-lang",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "DoodleBears/split-lang",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DoodleBears/split-lang",
+      "target": "budoux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DoodleBears/split-lang",
+      "target": "detectlang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DoodleBears/split-lang",
+      "target": "fasttext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DoodleBears/split-lang",
+      "target": "i18n",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DoodleBears/split-lang",
+      "target": "langdetect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DoodleBears/split-lang",
+      "target": "language-identification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DoodleBears/split-lang",
+      "target": "languagedetector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DoodleBears/split-lang",
+      "target": "pythonpackage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DoodleBears/split-lang",
+      "target": "sentence-segmenter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DoodleBears/split-lang",
+      "target": "split",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T15:22:33.885417+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 66065
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 798
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u2728 Split text by languages (e.g. \u4f60\u559c\u6b22\u770b\u30a2\u30cb\u30e1\u5417 -> \u4f60\u559c\u6b22\u770b | \u30a2\u30cb\u30e1 | \u5417) for NLP tasks (e.g. parse, TTS). Powered by fasttext and budoux",
+    "fork": false,
+    "full_name": "DoodleBears/split-lang",
+    "html_url": "https://github.com/DoodleBears/split-lang",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-09-18T03:16:32Z",
+    "stargazers_count": 74,
+    "topics": [
+      "budoux",
+      "detectlang",
+      "fasttext",
+      "i18n",
+      "langdetect",
+      "language-identification",
+      "languagedetector",
+      "nlp",
+      "pip",
+      "python",
+      "pythonpackage",
+      "sentence-segmenter",
+      "split",
+      "tts"
+    ],
+    "updated_at": "2026-04-26T05:28:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/budoux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llmkira/fast-langdetect",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zafercavdar/fasttext-langdetect",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "budoux"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detectlang"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fasttext"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "i18n"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langdetect"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-identification"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "languagedetector"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pythonpackage"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sentence-segmenter"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "split"
+    }
+  ]
+}

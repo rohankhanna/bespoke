@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Example code and documentation on how to get Stable Diffusion running with ONNX FP16 models on DirectML. Can run accelerated on all DirectML supported cards including AMD and Intel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains a conversion tool, some examples, and instructions on how to set up Stable Diffusion with ONNX models."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains a conversion tool, some examples, and instructions on how to set up Stable Diffusion with ONNX models."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stablediffusion",
+      "sense_id": "stablediffusion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "stablediffusion",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stablediffusion",
+  "observation_id": "5c3b057087ed2431",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_text": "stablediffusion",
+  "source_context_snippet": "This repository contains a conversion tool, some examples, and instructions on how to set up Stable Diffusion with ONNX models.",
+  "source_file": null,
+  "source_repo": "Amblyopius/Stable-Diffusion-ONNX-FP16",
+  "source_repo_description": "Example code and documentation on how to get Stable Diffusion running with ONNX FP16 models on DirectML. Can run accelerated on all DirectML supported cards including AMD and Intel."
+}

@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/covost",
+      "target": "kahne/speechtransprogress",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/covost",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/covost",
+      "target": "facebookresearch/vizseq",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-15T15:21:43.536667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12117
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "CoVoST: A Large-Scale Multilingual Speech-To-Text Translation Corpus (CC0 Licensed)",
+    "fork": false,
+    "full_name": "facebookresearch/covost",
+    "html_url": "https://github.com/facebookresearch/covost",
+    "language": "Python",
+    "pushed_at": "2021-09-14T21:59:06Z",
+    "stargazers_count": 399,
+    "topics": [],
+    "updated_at": "2026-05-12T19:46:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/vizseq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kahne/speechtransprogress",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/fairseq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,285 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fumiama/RVC-Models-Downloader",
+      "target": "yousa-ling-official-production/yousa-ling-diffsinger-v1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "fumiama/RVC-Models-Downloader",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "fumiama/RVC-Models-Downloader",
+      "target": "actions/setup-go@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "fumiama/RVC-Models-Downloader",
+      "target": "goreleaser/goreleaser-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/RVC-Models-Downloader",
+      "target": "customizable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/RVC-Models-Downloader",
+      "target": "customization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/RVC-Models-Downloader",
+      "target": "download-file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/RVC-Models-Downloader",
+      "target": "download-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/RVC-Models-Downloader",
+      "target": "downloader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/RVC-Models-Downloader",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/RVC-Models-Downloader",
+      "target": "golang-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/RVC-Models-Downloader",
+      "target": "golang-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/RVC-Models-Downloader",
+      "target": "rvc-project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/RVC-Models-Downloader",
+      "target": "tls-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/RVC-Models-Downloader",
+      "target": "tls12",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/RVC-Models-Downloader",
+      "target": "tls13",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/RVC-Models-Downloader",
+      "target": "yaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fumiama/RVC-Models-Downloader",
+      "target": "yaml-configuration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T13:03:03.217005+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3150
+    },
+    {
+      "path": "go.mod",
+      "size": 590
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 527
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Easy tool to download a batch of files listed in yaml (ex. RVC models in Hugging Face \ud83e\udd17).",
+    "fork": false,
+    "full_name": "fumiama/RVC-Models-Downloader",
+    "html_url": "https://github.com/fumiama/RVC-Models-Downloader",
+    "language": "Go",
+    "pushed_at": "2025-11-20T09:06:09Z",
+    "stargazers_count": 143,
+    "topics": [
+      "customizable",
+      "customization",
+      "download-file",
+      "download-manager",
+      "downloader",
+      "golang",
+      "golang-application",
+      "golang-cli",
+      "rvc",
+      "rvc-project",
+      "tls-client",
+      "tls12",
+      "tls13",
+      "yaml",
+      "yaml-configuration"
+    ],
+    "updated_at": "2026-05-03T13:32:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yousa-ling-official-production/yousa-ling-diffsinger-v1",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_sc.md) | [\ud55c\uad6d\uc5b4](README_kr.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "customizable"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_sc.md) | [\ud55c\uad6d\uc5b4](README_kr.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "customization"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_sc.md) | [\ud55c\uad6d\uc5b4](README_kr.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "download-file"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_sc.md) | [\ud55c\uad6d\uc5b4](README_kr.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "download-manager"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_sc.md) | [\ud55c\uad6d\uc5b4](README_kr.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "downloader"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_sc.md) | [\ud55c\uad6d\uc5b4](README_kr.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_sc.md) | [\ud55c\uad6d\uc5b4](README_kr.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-application"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_sc.md) | [\ud55c\uad6d\uc5b4](README_kr.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-cli"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_sc.md) | [\ud55c\uad6d\uc5b4](README_kr.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rvc-project"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_sc.md) | [\ud55c\uad6d\uc5b4](README_kr.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tls-client"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_sc.md) | [\ud55c\uad6d\uc5b4](README_kr.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tls12"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_sc.md) | [\ud55c\uad6d\uc5b4](README_kr.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tls13"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_sc.md) | [\ud55c\uad6d\uc5b4](README_kr.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaml"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_sc.md) | [\ud55c\uad6d\uc5b4](README_kr.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaml-configuration"
+    }
+  ]
+}

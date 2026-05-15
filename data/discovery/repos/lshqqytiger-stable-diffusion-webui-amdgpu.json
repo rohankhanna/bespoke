@@ -1,0 +1,435 @@
+{
+  "components": [
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "runwayml/stable-diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "mcmonkey4eva/sd3-ref",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "rinongal/textual_inversion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "tfernd/hypertile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "Linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/warns_merge_master.yml",
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "Pull requests can't target master branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "ai-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "amdgpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "directml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "image2image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "img2img",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "radeon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "rocm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "text2image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "torch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
+      "target": "txt2img",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T17:30:40.549090+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13208
+    },
+    {
+      "path": "package.json",
+      "size": 185
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 841
+    },
+    {
+      "path": "requirements.txt",
+      "size": 459
+    },
+    {
+      "path": ".github/workflows/on_pull_request.yaml",
+      "size": 1237
+    },
+    {
+      "path": ".github/workflows/run_tests.yaml",
+      "size": 2529
+    },
+    {
+      "path": ".github/workflows/warns_merge_master.yml",
+      "size": 424
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Stable Diffusion web UI",
+    "fork": true,
+    "full_name": "lshqqytiger/stable-diffusion-webui-amdgpu",
+    "html_url": "https://github.com/lshqqytiger/stable-diffusion-webui-amdgpu",
+    "language": "Python",
+    "pushed_at": "2026-03-05T06:27:29Z",
+    "stargazers_count": 2363,
+    "topics": [
+      "ai",
+      "ai-art",
+      "amd",
+      "amdgpu",
+      "deep-learning",
+      "directml",
+      "hip",
+      "image-generation",
+      "image2image",
+      "img2img",
+      "radeon",
+      "rocm",
+      "stable-diffusion",
+      "text2image",
+      "torch",
+      "txt2img",
+      "web"
+    ],
+    "updated_at": "2026-05-15T12:10:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mcmonkey4eva/sd3-ref",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rinongal/textual_inversion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "runwayml/stable-diffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tfernd/hypertile",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "term": "Linter"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Pull requests can't target master branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/warns_merge_master.yml",
+      "term": "Pull requests can't target master branch"
+    },
+    {
+      "context_snippet": "A web interface for Stable Diffusion, implemented using Gradio library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-art"
+    },
+    {
+      "context_snippet": "A web interface for Stable Diffusion, implemented using Gradio library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amdgpu"
+    },
+    {
+      "context_snippet": "A web interface for Stable Diffusion, implemented using Gradio library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "A web interface for Stable Diffusion, implemented using Gradio library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directml"
+    },
+    {
+      "context_snippet": "A web interface for Stable Diffusion, implemented using Gradio library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "A web interface for Stable Diffusion, implemented using Gradio library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image2image"
+    },
+    {
+      "context_snippet": "A web interface for Stable Diffusion, implemented using Gradio library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "img2img"
+    },
+    {
+      "context_snippet": "A web interface for Stable Diffusion, implemented using Gradio library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "radeon"
+    },
+    {
+      "context_snippet": "A web interface for Stable Diffusion, implemented using Gradio library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocm"
+    },
+    {
+      "context_snippet": "A web interface for Stable Diffusion, implemented using Gradio library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "A web interface for Stable Diffusion, implemented using Gradio library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text2image"
+    },
+    {
+      "context_snippet": "A web interface for Stable Diffusion, implemented using Gradio library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torch"
+    },
+    {
+      "context_snippet": "A web interface for Stable Diffusion, implemented using Gradio library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "txt2img"
+    }
+  ]
+}

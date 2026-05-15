@@ -1,0 +1,246 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "chkfung/android-version-actions@v1.2.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "r0adkll/sign-android-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atsushieno/ktmidi",
+      "target": "atsushieno/android-audio-plugin-framework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atsushieno/ktmidi",
+      "target": "atsushieno/compose-audio-controls",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atsushieno/ktmidi",
+      "target": "atsushieno/fluidsynth-midi-service-j",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atsushieno/ktmidi",
+      "target": "atsushieno/augene-ng",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "atsushieno/ktmidi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "atsushieno/ktmidi",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "atsushieno/ktmidi",
+      "target": "chkfung/android-version-actions@v1.2.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "atsushieno/ktmidi",
+      "target": "r0adkll/sign-android-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "atsushieno/ktmidi",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "atsushieno/ktmidi",
+      "target": "build dist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/ktmidi",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/ktmidi",
+      "target": "kotlin-multiplatform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/ktmidi",
+      "target": "midi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/ktmidi",
+      "target": "midi-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/ktmidi",
+      "target": "midi2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/ktmidi",
+      "target": "music",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T15:22:27.909404+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15295
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 4706
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Kotlin multiplatform library for MIDI access abstraction and data processing for MIDI 1.0, MIDI 2.0, SMF, SMF2 (MIDI Clip File), and MIDI-CI.",
+    "fork": false,
+    "full_name": "atsushieno/ktmidi",
+    "html_url": "https://github.com/atsushieno/ktmidi",
+    "language": "Kotlin",
+    "pushed_at": "2026-05-08T04:27:44Z",
+    "stargazers_count": 102,
+    "topics": [
+      "kotlin",
+      "kotlin-multiplatform",
+      "midi",
+      "midi-ci",
+      "midi2",
+      "music"
+    ],
+    "updated_at": "2026-05-08T04:27:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atsushieno/android-audio-plugin-framework",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atsushieno/augene-ng",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atsushieno/compose-audio-controls",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atsushieno/fluidsynth-midi-service-j",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build dist",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build dist"
+    },
+    {
+      "context_snippet": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/ktmidi)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/ktmidi)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin-multiplatform"
+    },
+    {
+      "context_snippet": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/ktmidi)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi"
+    },
+    {
+      "context_snippet": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/ktmidi)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi-ci"
+    },
+    {
+      "context_snippet": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/ktmidi)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi2"
+    },
+    {
+      "context_snippet": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/ktmidi)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music"
+    }
+  ]
+}

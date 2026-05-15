@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MML + MIDI + Tracktion Engine XML manipulation tool for real production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![augene-ng demo 2021-11-18](http://img.youtube.com/vi/GZWBkxWjDfM/0.jpg)](https://www.youtube.com/watch?v=GZWBkxWjDfM \"augene-ng demo 2021-11-18\") (links to youtube video)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![augene-ng demo 2021-11-18](http://img.youtube.com/vi/GZWBkxWjDfM/0.jpg)](https://www.youtube.com/watch?v=GZWBkxWjDfM \"augene-ng demo 2021-11-18\") (links to youtube video)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029465,
+      "status": "candidate",
+      "text": "java"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029464,
+      "status": "candidate",
+      "text": "scala"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029463,
+      "status": "candidate",
+      "text": "object-oriented language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029462,
+      "status": "candidate",
+      "text": "objective-c"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029461,
+      "status": "candidate",
+      "text": "statically-typed language"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kotlin",
+      "sense_id": "kotlin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kotlin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kotlin",
+  "observation_id": "af2b15f3312a88f8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_text": "kotlin",
+  "source_context_snippet": "[![augene-ng demo 2021-11-18](http://img.youtube.com/vi/GZWBkxWjDfM/0.jpg)](https://www.youtube.com/watch?v=GZWBkxWjDfM \"augene-ng demo 2021-11-18\") (links to youtube video)",
+  "source_file": null,
+  "source_repo": "atsushieno/augene-ng",
+  "source_repo_description": "MML + MIDI + Tracktion Engine XML manipulation tool for real production"
+}

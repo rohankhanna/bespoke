@@ -391,6 +391,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "unrun",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "vite",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -1037,6 +1042,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "unocss/unocss",
+      "target": "unrun",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "unocss/unocss",
       "target": "vite",
       "target_type": "component"
     },
@@ -1223,7 +1235,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T05:12:14.598932+00:00",
+  "fetched_at": "2026-05-15T16:28:17.563311+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1231,7 +1243,7 @@
     },
     {
       "path": "package.json",
-      "size": 5207
+      "size": 5236
     },
     {
       "path": ".github/workflows/autofix.yml",
@@ -1259,8 +1271,8 @@
     "full_name": "unocss/unocss",
     "html_url": "https://github.com/unocss/unocss",
     "language": "TypeScript",
-    "pushed_at": "2026-05-09T03:24:40Z",
-    "stargazers_count": 18790,
+    "pushed_at": "2026-05-15T09:06:52Z",
+    "stargazers_count": 18793,
     "topics": [
       "atomic-css",
       "engine",
@@ -1268,7 +1280,7 @@
       "vite-plugin",
       "windicss"
     ],
-    "updated_at": "2026-05-14T20:13:22Z"
+    "updated_at": "2026-05-15T15:55:56Z"
   },
   "repo_links": [],
   "terms": [

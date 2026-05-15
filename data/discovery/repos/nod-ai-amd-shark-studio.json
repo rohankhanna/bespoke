@@ -51,20 +51,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nod-ai/AMD-SHARK-Studio",
-      "target": "iree-org/iree-turbine",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nod-ai/AMD-SHARK-Studio",
-      "target": "llvm/torch-mlir",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nod-ai/AMD-SHARK-Studio",
       "target": "google/iree",
       "target_type": "repository"
     },
@@ -72,7 +58,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "requirements.txt",
       "source_repo": "nod-ai/AMD-SHARK-Studio",
-      "target": "iree-org/iree-turbine",
+      "target": "nod-ai/amd-shark-modeldev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "nod-ai/diffusers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "nod-ai/AMD-SHARK-Studio",
+      "target": "xilinx/brevitas",
       "target_type": "repository"
     },
     {
@@ -202,7 +202,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:14:57.821316+00:00",
+  "fetched_at": "2026-05-15T17:30:35.096314+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -249,7 +249,7 @@
       "nvidia",
       "pytorch"
     ],
-    "updated_at": "2026-04-21T11:05:44Z"
+    "updated_at": "2026-05-13T20:53:15Z"
   },
   "repo_links": [
     {
@@ -259,17 +259,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "iree-org/iree-turbine",
-      "source_file": "README.md"
+      "full_name": "nod-ai/amd-shark-modeldev",
+      "source_file": "requirements.txt"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "llvm/torch-mlir",
-      "source_file": "README.md"
+      "full_name": "nod-ai/diffusers",
+      "source_file": "requirements.txt"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "iree-org/iree-turbine",
+      "full_name": "xilinx/brevitas",
       "source_file": "requirements.txt"
     }
   ],

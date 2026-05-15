@@ -30,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T05:09:49.255877+00:00",
+  "fetched_at": "2026-05-15T16:24:56.380318+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -51,14 +51,14 @@
     "html_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-I2V",
     "language": "Python",
     "pushed_at": "2026-04-07T06:13:09Z",
-    "stargazers_count": 1821,
+    "stargazers_count": 1820,
     "topics": [
       "diffusion-models",
       "image-to-video",
       "image-to-video-generation",
       "videogeneration"
     ],
-    "updated_at": "2026-05-13T01:43:32Z"
+    "updated_at": "2026-05-15T08:55:30Z"
   },
   "repo_links": [],
   "terms": [

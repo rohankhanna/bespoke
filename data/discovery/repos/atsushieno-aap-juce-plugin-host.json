@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "atsushieno/aap-juce/.github/workflows/build-dist-with-projucer.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/aap-juce-plugin-host",
+      "target": "atsushieno/aap-juce/.github/workflows/build-dist-with-projucer.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/aap-juce-plugin-host",
+      "target": "build dist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/aap-juce-plugin-host",
+      "target": "aap-juce",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T17:29:32.871816+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1538
+    },
+    {
+      "path": ".github/workflows/actions.yml",
+      "size": 259
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "experimental Juce AudioPluginHost port to AAP (Android Audio Plugin) / The development is moved to aap-juce-plugin-host-cmake",
+    "fork": false,
+    "full_name": "atsushieno/aap-juce-plugin-host",
+    "html_url": "https://github.com/atsushieno/aap-juce-plugin-host",
+    "language": "Makefile",
+    "pushed_at": "2023-07-17T12:29:53Z",
+    "stargazers_count": 0,
+    "topics": [
+      "aap",
+      "aap-juce"
+    ],
+    "updated_at": "2024-02-07T15:17:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build dist",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "term": "build dist"
+    },
+    {
+      "context_snippet": "aap-juce-plugin-host is a port of JUCE AudioPluginHost (`JUCE/extras/AudioPluginHost`) to [aap-juce](https://github.com/atsushieno/aap-juce).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aap-juce"
+    }
+  ]
+}

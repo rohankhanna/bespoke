@@ -807,7 +807,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T05:11:29.210544+00:00",
+  "fetched_at": "2026-05-15T16:27:08.536242+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -844,7 +844,7 @@
     "html_url": "https://github.com/enzymejs/enzyme",
     "language": "JavaScript",
     "pushed_at": "2025-10-22T15:55:30Z",
-    "stargazers_count": 19838,
+    "stargazers_count": 19839,
     "topics": [
       "assertion-library",
       "assertions",
@@ -861,7 +861,7 @@
       "testing",
       "traversal"
     ],
-    "updated_at": "2026-05-13T14:58:40Z"
+    "updated_at": "2026-05-15T08:15:09Z"
   },
   "repo_links": [
     {

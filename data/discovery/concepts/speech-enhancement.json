@@ -55,6 +55,18 @@
       "source_repo": "haoxiangsnr/spiking-fullsubnet",
       "status": "candidate-context",
       "text": "Spiking-FullSubNet is the 1st Place Winner solution of the Intel N-DNS Challenge (Track 1: Algorithmic). This repository serves as the official implementation of our paper: \"Toward Ultralow-Power Neuromorphic Speech Enhancement With Spiking-FullSubNet\" (IEEE TNNLS, 2025)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k2kobayashi/sprocket",
+      "status": "candidate-context",
+      "text": "Voice Conversion Tool Kit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2kobayashi/sprocket",
+      "status": "candidate-context",
+      "text": "[![Python Version](https://img.shields.io/badge/Python-3.5%2C%203.6%2C%203.7-green.svg)](https://img.shields.io/badge/Python-3.5%2C%203.6%2C%203.7-green.svg)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "haoxiangsnr/spiking-fullsubnet",
       "status": "candidate",
       "text": "Spiking-FullSubNet is the 1st Place Winner solution of the Intel N-DNS Challenge (Track 1: Algorithmic). This repository serves as the official implementation of our paper: \"Toward Ultralow-Power Neuromorphic Speech Enhancement With Spiking-FullSubNet\" (IEEE TNNLS, 2025)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2kobayashi/sprocket",
+      "status": "candidate",
+      "text": "[![Python Version](https://img.shields.io/badge/Python-3.5%2C%203.6%2C%203.7-green.svg)](https://img.shields.io/badge/Python-3.5%2C%203.6%2C%203.7-green.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "haoxiangsnr/spiking-fullsubnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "k2kobayashi/sprocket"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

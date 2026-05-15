@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-15T15:21:42.617505+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7483
+    },
+    {
+      "path": "Dockerfile",
+      "size": 443
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "usnistgov/SCTK",
+    "html_url": "https://github.com/usnistgov/SCTK",
+    "language": "C",
+    "pushed_at": "2023-11-27T14:33:44Z",
+    "stargazers_count": 239,
+    "topics": [],
+    "updated_at": "2026-04-28T09:32:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

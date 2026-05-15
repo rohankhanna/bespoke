@@ -340,6 +340,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "licensee/licensed",
+      "target": "github/licensed.",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/licensed.yml",
       "source_repo": "licensee/licensed",
@@ -536,7 +543,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T07:32:33.746340+00:00",
+  "fetched_at": "2026-05-15T17:13:03.840659+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -569,19 +576,24 @@
     "html_url": "https://github.com/licensee/licensed",
     "language": "Ruby",
     "pushed_at": "2026-04-28T16:00:50Z",
-    "stargazers_count": 1029,
+    "stargazers_count": 1028,
     "topics": [
       "dependencies",
       "license-management",
       "licensing",
       "open-source-licensing"
     ],
-    "updated_at": "2026-04-28T15:28:37Z"
+    "updated_at": "2026-05-15T08:42:56Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "github/licensed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "github/licensed.",
       "source_file": "README.md"
     }
   ],

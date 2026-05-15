@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2kobayashi/sprocket",
+      "target": "speech-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2kobayashi/sprocket",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2kobayashi/sprocket",
+      "target": "sprockets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k2kobayashi/sprocket",
+      "target": "voice-conversion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T13:01:55.557681+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3724
+    },
+    {
+      "path": "requirements.txt",
+      "size": 91
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Voice Conversion Tool Kit",
+    "fork": false,
+    "full_name": "k2kobayashi/sprocket",
+    "html_url": "https://github.com/k2kobayashi/sprocket",
+    "language": "Python",
+    "pushed_at": "2023-02-27T12:32:56Z",
+    "stargazers_count": 609,
+    "topics": [
+      "speech-enhancement",
+      "speech-synthesis",
+      "sprockets",
+      "voice-conversion"
+    ],
+    "updated_at": "2026-05-06T02:54:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Python Version](https://img.shields.io/badge/Python-3.5%2C%203.6%2C%203.7-green.svg)](https://img.shields.io/badge/Python-3.5%2C%203.6%2C%203.7-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-enhancement"
+    },
+    {
+      "context_snippet": "[![Python Version](https://img.shields.io/badge/Python-3.5%2C%203.6%2C%203.7-green.svg)](https://img.shields.io/badge/Python-3.5%2C%203.6%2C%203.7-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "[![Python Version](https://img.shields.io/badge/Python-3.5%2C%203.6%2C%203.7-green.svg)](https://img.shields.io/badge/Python-3.5%2C%203.6%2C%203.7-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sprockets"
+    },
+    {
+      "context_snippet": "[![Python Version](https://img.shields.io/badge/Python-3.5%2C%203.6%2C%203.7-green.svg)](https://img.shields.io/badge/Python-3.5%2C%203.6%2C%203.7-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-conversion"
+    }
+  ]
+}

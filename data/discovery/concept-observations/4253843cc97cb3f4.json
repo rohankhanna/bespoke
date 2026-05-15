@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ez audio transcription tool with flexible processing and post-processing options"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[tool.poetry] name = \"wscribe\" version = \"0.1.5\" description = \"ez audio transcription tool with flexible processing and post-processing options\" authors = [\"Hrishikesh Barman <oss@geekodour.org>\"] homepage = \"https://github.com/geekodour/wscribe\" license = \"MIT\" readme = \"docs/\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[tool.poetry] name = \"wscribe\" version = \"0.1.5\" description = \"ez audio transcription tool with flexible processing and post-processing options\" authors = [\"Hrishikesh Barman <oss@geekodour.org>\"] homepage = \"https://github.com/geekodour/wscribe\" license = \"MIT\" readme = \"docs/\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008895,
+      "status": "candidate",
+      "text": "rustle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39864780,
+      "status": "candidate",
+      "text": "rustling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030457,
+      "status": "candidate",
+      "text": "murmur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022460,
+      "status": "candidate",
+      "text": "rumor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018822,
+      "status": "candidate",
+      "text": "shade"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "whisper",
+      "sense_id": "whisper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28034,
+      "status": "candidate",
+      "text": "rustle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6024,
+      "status": "candidate",
+      "text": "rustling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1029,
+      "status": "candidate",
+      "text": "whispering"
+    }
+  ],
+  "concept_id": "whisper",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "whisper",
+  "observation_id": "4253843cc97cb3f4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_text": "whisper",
+  "source_context_snippet": "[tool.poetry] name = \"wscribe\" version = \"0.1.5\" description = \"ez audio transcription tool with flexible processing and post-processing options\" authors = [\"Hrishikesh Barman <oss@geekodour.org>\"] homepage = \"https://github.com/geekodour/wscribe\" license = \"MIT\" readme = \"docs/\u2026",
+  "source_file": null,
+  "source_repo": "geekodour/wscribe",
+  "source_repo_description": "ez audio transcription tool with flexible processing and post-processing options"
+}

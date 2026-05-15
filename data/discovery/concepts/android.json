@@ -2236,6 +2236,54 @@
       "source_repo": "androidx/media",
       "status": "candidate-context",
       "text": "AndroidX Media is a collection of libraries for implementing media use cases on"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/aap-core",
+      "status": "candidate-context",
+      "text": "an Audio Plugin Format/Framework for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-core",
+      "status": "candidate-context",
+      "text": "![](https://github.com/atsushieno/aap-core/workflows/build%20dist/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/aap-lv2",
+      "status": "candidate-context",
+      "text": "AAP LV2 support: wrapper, the foundation for LV2 plugin ports to Android. See also aap-core Wiki for the list of ports."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-lv2",
+      "status": "candidate-context",
+      "text": "This repository contains LV2 backend (or wrapper, or whatever) support for [Audio Plugins For Android](https://github.com/atsushieno/aap-core), as well as minimum samples."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "status": "candidate-context",
+      "text": "audio controls for Jetpack Compose and Compose for Multiplatform "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "status": "candidate-context",
+      "text": "![demoapp sshot](docs/images/demoapp-sshot.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/fluidsynth-midi-service-j",
+      "status": "candidate-context",
+      "text": "JNA-based fluidsynth MIDI device service effort"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/fluidsynth-midi-service-j",
+      "status": "candidate-context",
+      "text": "[![fluidsynth-midi-service-j demo](http://img.youtube.com/vi/ZVyDmaV4Ihw/0.jpg)](http://www.youtube.com/watch?v=ZVyDmaV4Ihw \"fluidsynth-midi-service-j demo\")"
     }
   ],
   "candidate_glosses": [
@@ -3372,6 +3420,30 @@
       "source_repo": "androidx/media",
       "status": "candidate",
       "text": "AndroidX Media is a collection of libraries for implementing media use cases on"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-core",
+      "status": "candidate",
+      "text": "![](https://github.com/atsushieno/aap-core/workflows/build%20dist/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/aap-lv2",
+      "status": "candidate",
+      "text": "This repository contains LV2 backend (or wrapper, or whatever) support for [Audio Plugins For Android](https://github.com/atsushieno/aap-core), as well as minimum samples."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/compose-audio-controls",
+      "status": "candidate",
+      "text": "![demoapp sshot](docs/images/demoapp-sshot.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/fluidsynth-midi-service-j",
+      "status": "candidate",
+      "text": "[![fluidsynth-midi-service-j demo](http://img.youtube.com/vi/ZVyDmaV4Ihw/0.jpg)](http://www.youtube.com/watch?v=ZVyDmaV4Ihw \"fluidsynth-midi-service-j demo\")"
     }
   ],
   "candidate_related_terms": [
@@ -6082,11 +6154,71 @@
       "observed_at": "2026-05-15T07:17:00.410973+00:00",
       "source_file": null,
       "source_repo": "snapcast/snapdroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "nitaliano/react-native-mapbox-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapdroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/aap-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/aap-lv2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/compose-audio-controls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/fluidsynth-midi-service-j"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

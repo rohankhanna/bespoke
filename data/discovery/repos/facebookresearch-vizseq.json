@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-15T17:28:55.319408+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5285
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Analysis Toolkit for Natural Language Generation (Translation, Captioning, Summarization, etc.)",
+    "fork": false,
+    "full_name": "facebookresearch/vizseq",
+    "html_url": "https://github.com/facebookresearch/vizseq",
+    "language": "Python",
+    "pushed_at": "2026-04-14T02:52:03Z",
+    "stargazers_count": 451,
+    "topics": [],
+    "updated_at": "2026-04-14T02:52:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

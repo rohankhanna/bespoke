@@ -415,6 +415,18 @@
       "source_repo": "openai/jukebox",
       "status": "candidate-context",
       "text": "**Status:** Archive (code is provided as-is, no updates expected)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuyuan-pal/SyncDreamer",
+      "status": "candidate-context",
+      "text": "[ICLR 2024 Spotlight] SyncDreamer: Generating Multiview-consistent Images from a Single-view Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuyuan-pal/SyncDreamer",
+      "status": "candidate-context",
+      "text": "SyncDreamer: Generating Multiview-consistent Images from a Single-view Image"
     }
   ],
   "candidate_glosses": [
@@ -621,6 +633,12 @@
       "source_repo": "openai/jukebox",
       "status": "candidate",
       "text": "**Status:** Archive (code is provided as-is, no updates expected)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuyuan-pal/SyncDreamer",
+      "status": "candidate",
+      "text": "SyncDreamer: Generating Multiview-consistent Images from a Single-view Image"
     }
   ],
   "candidate_related_terms": [],
@@ -1522,11 +1540,35 @@
       "observed_at": "2026-05-15T07:17:00.410973+00:00",
       "source_file": null,
       "source_repo": "zai-org/ImageReward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/generative-evaluation-prdc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/ImageReward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "liuyuan-pal/SyncDreamer"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

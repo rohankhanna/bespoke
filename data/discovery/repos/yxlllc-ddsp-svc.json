@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yxlllc/DDSP-SVC",
+      "target": "openvpi/vocoders",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yxlllc/DDSP-SVC",
+      "target": "openvpi/singingvocoders",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yxlllc/DDSP-SVC",
+      "target": "magenta/ddsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yxlllc/DDSP-SVC",
+      "target": "yxlllc/pc-ddsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yxlllc/DDSP-SVC",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T13:02:52.119738+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8076
+    },
+    {
+      "path": "requirements.txt",
+      "size": 195
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "6.3",
+    "description": "Real-time end-to-end singing voice conversion system based on DDSP (Differentiable Digital Signal Processing)",
+    "fork": false,
+    "full_name": "yxlllc/DDSP-SVC",
+    "html_url": "https://github.com/yxlllc/DDSP-SVC",
+    "language": "Python",
+    "pushed_at": "2026-02-22T09:17:11Z",
+    "stargazers_count": 2559,
+    "topics": [
+      "pytorch"
+    ],
+    "updated_at": "2026-05-14T09:45:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "magenta/ddsp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openvpi/singingvocoders",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openvpi/vocoders",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yxlllc/pc-ddsp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Language: **English** [\u7b80\u4f53\u4e2d\u6587](./cn_README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

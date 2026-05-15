@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BBC-Esq/Faster-Whisper-Transcriber",
+      "target": "audio-recorder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BBC-Esq/Faster-Whisper-Transcriber",
+      "target": "audio-transcribing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BBC-Esq/Faster-Whisper-Transcriber",
+      "target": "audio-transcription",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BBC-Esq/Faster-Whisper-Transcriber",
+      "target": "ctranslate2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BBC-Esq/Faster-Whisper-Transcriber",
+      "target": "faster-whisper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BBC-Esq/Faster-Whisper-Transcriber",
+      "target": "transcribe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BBC-Esq/Faster-Whisper-Transcriber",
+      "target": "transcriber",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-15T12:50:28.227991+00:00",
+  "source_repo": "BBC-Esq/Faster-Whisper-Transcriber"
+}

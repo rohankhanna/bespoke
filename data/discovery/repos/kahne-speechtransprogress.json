@@ -1,0 +1,155 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kahne/SpeechTransProgress",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kahne/SpeechTransProgress",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kahne/SpeechTransProgress",
+      "target": "machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kahne/SpeechTransProgress",
+      "target": "natural-language-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kahne/SpeechTransProgress",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kahne/SpeechTransProgress",
+      "target": "speech-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kahne/SpeechTransProgress",
+      "target": "speech-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kahne/SpeechTransProgress",
+      "target": "spoken-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kahne/SpeechTransProgress",
+      "target": "spoken-language-translation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T17:28:56.215846+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33146
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tracking the progress in end-to-end speech translation",
+    "fork": false,
+    "full_name": "kahne/SpeechTransProgress",
+    "html_url": "https://github.com/kahne/SpeechTransProgress",
+    "language": null,
+    "pushed_at": "2023-10-25T02:03:24Z",
+    "stargazers_count": 260,
+    "topics": [
+      "artificial-intelligence",
+      "machine-translation",
+      "natural-language-generation",
+      "natural-language-processing",
+      "speech-processing",
+      "speech-translation",
+      "spoken-language-processing",
+      "spoken-language-translation"
+    ],
+    "updated_at": "2026-04-27T08:22:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/fairseq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "End-to-End Speech Translation Progress",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "End-to-End Speech Translation Progress",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-translation"
+    },
+    {
+      "context_snippet": "End-to-End Speech Translation Progress",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-generation"
+    },
+    {
+      "context_snippet": "End-to-End Speech Translation Progress",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "End-to-End Speech Translation Progress",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-processing"
+    },
+    {
+      "context_snippet": "End-to-End Speech Translation Progress",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-translation"
+    },
+    {
+      "context_snippet": "End-to-End Speech Translation Progress",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spoken-language-processing"
+    },
+    {
+      "context_snippet": "End-to-End Speech Translation Progress",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spoken-language-translation"
+    }
+  ]
+}

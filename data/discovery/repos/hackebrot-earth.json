@@ -1,0 +1,63 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hackebrot/earth",
+      "target": "pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hackebrot/earth",
+      "target": "python3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T15:22:45.273458+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1282
+    },
+    {
+      "path": "requirements.txt",
+      "size": 54
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Example Python project for my talk: Customizing your pytest test suite \ud83c\udf0d",
+    "fork": false,
+    "full_name": "hackebrot/earth",
+    "html_url": "https://github.com/hackebrot/earth",
+    "language": "Python",
+    "pushed_at": "2024-03-20T15:30:04Z",
+    "stargazers_count": 14,
+    "topics": [
+      "pytest",
+      "python",
+      "python3"
+    ],
+    "updated_at": "2024-03-27T01:13:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Example Python project for my talk: [Customizing your pytest test",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytest"
+    },
+    {
+      "context_snippet": "Example Python project for my talk: [Customizing your pytest test",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    }
+  ]
+}

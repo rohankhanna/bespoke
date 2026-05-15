@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cronrpc/SubFix",
+      "target": "alibaba/funasr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-15T15:22:32.236065+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8099
+    },
+    {
+      "path": "requirements.txt",
+      "size": 86
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SubFix: Efficient Web-Based Audio Subtitle Editing and Multilingual Automatic Annotation Tool.",
+    "fork": false,
+    "full_name": "cronrpc/SubFix",
+    "html_url": "https://github.com/cronrpc/SubFix",
+    "language": "Python",
+    "pushed_at": "2024-02-05T15:43:13Z",
+    "stargazers_count": 210,
+    "topics": [],
+    "updated_at": "2026-03-03T15:25:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/funasr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

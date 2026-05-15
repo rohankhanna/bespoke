@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-07T18:41:02.254946+00:00",
-  "last_seen_at": "2026-05-07T18:41:02.254946+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "yl4579/HiFTNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "YatingMusic/ddsp-singing-vocoders"
     }
   ],
   "term": "vocoders"

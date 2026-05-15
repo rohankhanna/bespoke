@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuergenFleiss/aTrain",
+      "target": "bandas-center/atrain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuergenFleiss/aTrain",
+      "target": "guillaumekln/faster-whisper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "JuergenFleiss/aTrain",
+      "target": "juergenfleiss/atrain_core",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-15T17:29:14.549738+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6316
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1214
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "A GUI tool for offline transcription of speech recordings, including speaker diarization, utilizing state-of-the-art machine learning models.",
+    "fork": false,
+    "full_name": "JuergenFleiss/aTrain",
+    "html_url": "https://github.com/JuergenFleiss/aTrain",
+    "language": "Python",
+    "pushed_at": "2026-04-24T09:08:20Z",
+    "stargazers_count": 1132,
+    "topics": [],
+    "updated_at": "2026-05-13T13:19:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bandas-center/atrain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guillaumekln/faster-whisper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juergenfleiss/atrain_core",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

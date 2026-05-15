@@ -84,7 +84,7 @@
   "normalized_form": "ci-aarch64",
   "observation_id": "01bee63983533555",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
   "observed_text": "CI AArch64",
   "source_context_snippet": "\"CI AArch64\"",
   "source_file": ".github/workflows/ci-aarch64.yml",

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Easy tool to download a batch of files listed in yaml (ex. RVC models in Hugging Face \ud83e\udd17)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README_sc.md) | [\ud55c\uad6d\uc5b4](README_kr.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README_sc.md) | [\ud55c\uad6d\uc5b4](README_kr.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030341,
+      "status": "candidate",
+      "text": "customization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030330,
+      "status": "candidate",
+      "text": "configurable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030151,
+      "status": "candidate",
+      "text": "customize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029894,
+      "status": "candidate",
+      "text": "personalized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029843,
+      "status": "candidate",
+      "text": "personalization"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "customizable",
+      "sense_id": "customizable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "customizable",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "customizable",
+  "observation_id": "295e7e226104eb5f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_text": "customizable",
+  "source_context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_sc.md) | [\ud55c\uad6d\uc5b4](README_kr.md)",
+  "source_file": null,
+  "source_repo": "fumiama/RVC-Models-Downloader",
+  "source_repo_description": "Easy tool to download a batch of files listed in yaml (ex. RVC models in Hugging Face \ud83e\udd17)."
+}

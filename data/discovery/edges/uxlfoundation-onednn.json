@@ -4,7 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "oneapi-src/level-zero",
+      "target": "vovkos/doxyrest",
       "target_type": "repository"
     },
     {
@@ -137,14 +137,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target": "github/codeql-action/init@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target": "github/codeql-action/analyze@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
       "target_type": "component"
     },
     {
@@ -172,7 +172,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "target": "actions/labeler@f27b608878404679385c85cfa523b85ccb86e213",
       "target_type": "component"
     },
     {
@@ -351,6 +351,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "generated_at": "2026-05-15T12:50:28.227991+00:00",
   "source_repo": "uxlfoundation/oneDNN"
 }

@@ -223,6 +223,42 @@
       "source_repo": "openai/jukebox",
       "status": "candidate-context",
       "text": "**Status:** Archive (code is provided as-is, no updates expected)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/ktmidi",
+      "status": "candidate-context",
+      "text": "Kotlin multiplatform library for MIDI access abstraction and data processing for MIDI 1.0, MIDI 2.0, SMF, SMF2 (MIDI Clip File), and MIDI-CI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/ktmidi",
+      "status": "candidate-context",
+      "text": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/ktmidi)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/augene-ng",
+      "status": "candidate-context",
+      "text": "MML + MIDI + Tracktion Engine XML manipulation tool for real production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/augene-ng",
+      "status": "candidate-context",
+      "text": "[![augene-ng demo 2021-11-18](http://img.youtube.com/vi/GZWBkxWjDfM/0.jpg)](https://www.youtube.com/watch?v=GZWBkxWjDfM \"augene-ng demo 2021-11-18\") (links to youtube video)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stakira/OpenUtau",
+      "status": "candidate-context",
+      "text": "Open singing synthesis platform / Open source UTAU successor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stakira/OpenUtau",
+      "status": "candidate-context",
+      "text": "OpenUtau is a free, open-source editor made for the UTAU community."
     }
   ],
   "candidate_glosses": [
@@ -333,6 +369,24 @@
       "source_repo": "openai/jukebox",
       "status": "candidate",
       "text": "**Status:** Archive (code is provided as-is, no updates expected)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/ktmidi",
+      "status": "candidate",
+      "text": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/ktmidi)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/augene-ng",
+      "status": "candidate",
+      "text": "[![augene-ng demo 2021-11-18](http://img.youtube.com/vi/GZWBkxWjDfM/0.jpg)](https://www.youtube.com/watch?v=GZWBkxWjDfM \"augene-ng demo 2021-11-18\") (links to youtube video)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stakira/OpenUtau",
+      "status": "candidate",
+      "text": "OpenUtau is a free, open-source editor made for the UTAU community."
     }
   ],
   "candidate_related_terms": [
@@ -968,11 +1022,41 @@
       "observed_at": "2026-05-15T07:17:00.410973+00:00",
       "source_file": null,
       "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/ktmidi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/augene-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-15T12:50:28.227991+00:00",
+      "source_file": null,
+      "source_repo": "stakira/OpenUtau"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T07:17:00.410973+00:00",
+  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "lexical_providers": [
     "datamuse"
   ],

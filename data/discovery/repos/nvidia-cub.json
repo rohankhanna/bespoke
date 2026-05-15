@@ -1,0 +1,250 @@
+{
+  "components": [
+    {
+      "component": "google/mirror-branch-action@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-main-branch-to-master-branch.yml"
+    },
+    {
+      "component": "wei/git-sync@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-to-legacy-repositories.yml"
+    },
+    {
+      "component": "wei/git-sync@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-to-legacy-repositories.yml"
+    },
+    {
+      "component": "wei/git-sync@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-to-legacy-repositories.yml"
+    },
+    {
+      "component": "wei/git-sync@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-to-legacy-repositories.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-main-branch-to-master-branch.yml",
+      "source_repo": "NVIDIA/cub",
+      "target": "google/mirror-branch-action@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-to-legacy-repositories.yml",
+      "source_repo": "NVIDIA/cub",
+      "target": "wei/git-sync@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cub",
+      "target": "algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cub",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cub",
+      "target": "cpp14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cub",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cub",
+      "target": "cpp20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cub",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cub",
+      "target": "cxx11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cub",
+      "target": "cxx14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cub",
+      "target": "cxx17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cub",
+      "target": "cxx20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cub",
+      "target": "nvidia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/cub",
+      "target": "nvidia-hpc-sdk",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T17:29:00.369425+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10829
+    },
+    {
+      "path": ".github/workflows/mirror-main-branch-to-master-branch.yml",
+      "size": 389
+    },
+    {
+      "path": ".github/workflows/push-to-legacy-repositories.yml",
+      "size": 1463
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "[ARCHIVED] Cooperative primitives for CUDA C++. See https://github.com/NVIDIA/cccl ",
+    "fork": false,
+    "full_name": "NVIDIA/cub",
+    "html_url": "https://github.com/NVIDIA/cub",
+    "language": "Cuda",
+    "pushed_at": "2023-10-09T17:44:21Z",
+    "stargazers_count": 1832,
+    "topics": [
+      "algorithms",
+      "cpp",
+      "cpp11",
+      "cpp14",
+      "cpp17",
+      "cpp20",
+      "cub",
+      "cuda",
+      "cxx",
+      "cxx11",
+      "cxx14",
+      "cxx17",
+      "cxx20",
+      "gpu",
+      "nvidia",
+      "nvidia-hpc-sdk"
+    ],
+    "updated_at": "2026-05-15T04:58:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithms"
+    },
+    {
+      "context_snippet": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp11"
+    },
+    {
+      "context_snippet": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp14"
+    },
+    {
+      "context_snippet": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17"
+    },
+    {
+      "context_snippet": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp20"
+    },
+    {
+      "context_snippet": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cxx11"
+    },
+    {
+      "context_snippet": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cxx14"
+    },
+    {
+      "context_snippet": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cxx17"
+    },
+    {
+      "context_snippet": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cxx20"
+    },
+    {
+      "context_snippet": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    },
+    {
+      "context_snippet": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia-hpc-sdk"
+    }
+  ]
+}

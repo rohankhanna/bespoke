@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openvpi/SingingVocoders",
+      "target": "stakira/openutau",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-15T15:22:42.011921+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4757
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of neural vocoders suitable for singing voice synthesis tasks.",
+    "fork": false,
+    "full_name": "openvpi/SingingVocoders",
+    "html_url": "https://github.com/openvpi/SingingVocoders",
+    "language": "Python",
+    "pushed_at": "2026-03-08T14:02:09Z",
+    "stargazers_count": 153,
+    "topics": [],
+    "updated_at": "2026-05-15T13:30:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stakira/openutau",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/configure-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/deploy-pages@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/stale@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "d8ahazard/sd_dreambooth_extension",
+      "target": "shivamshrirao/diffusers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "d8ahazard/sd_dreambooth_extension",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "d8ahazard/sd_dreambooth_extension",
+      "target": "actions/configure-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "d8ahazard/sd_dreambooth_extension",
+      "target": "actions/upload-pages-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "d8ahazard/sd_dreambooth_extension",
+      "target": "actions/deploy-pages@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "d8ahazard/sd_dreambooth_extension",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "d8ahazard/sd_dreambooth_extension",
+      "target": "actions/stale@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "d8ahazard/sd_dreambooth_extension",
+      "target": "Stale issue handler",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-15T15:22:59.005439+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16692
+    },
+    {
+      "path": "requirements.txt",
+      "size": 242
+    },
+    {
+      "path": ".github/workflows/pages.yaml",
+      "size": 1180
+    },
+    {
+      "path": ".github/workflows/stale.yaml",
+      "size": 600
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "d8ahazard/sd_dreambooth_extension",
+    "html_url": "https://github.com/d8ahazard/sd_dreambooth_extension",
+    "language": "Python",
+    "pushed_at": "2025-09-17T21:59:05Z",
+    "stargazers_count": 1889,
+    "topics": [],
+    "updated_at": "2026-04-28T07:08:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shivamshrirao/diffusers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yaml",
+      "term": "Deploy to GitHub Pages"
+    },
+    {
+      "context_snippet": "'Stale issue handler'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "term": "Stale issue handler"
+    }
+  ]
+}
