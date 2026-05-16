@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/check-versions.yml",
+      "source_repo": "microsoft/openjdk-docker"
+    }
+  ],
+  "term": "Check Expected Versions"
+}

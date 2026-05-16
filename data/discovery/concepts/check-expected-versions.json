@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Expected Versions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/openjdk-docker",
+      "status": "candidate-context",
+      "text": "Repository of Container Images for the official MSFT Build of OpenJDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/openjdk-docker",
+      "status": "candidate-context",
+      "text": "Check Expected Versions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/openjdk-docker",
+      "status": "candidate",
+      "text": "Check Expected Versions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26429,
+      "status": "candidate",
+      "text": "drawee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19277,
+      "status": "candidate",
+      "text": "version"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19250,
+      "status": "candidate",
+      "text": "martini"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19175,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19088,
+      "status": "candidate",
+      "text": "audit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Expected Versions",
+  "concept_id": "check-expected-versions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": ".github/workflows/check-versions.yml",
+      "source_repo": "microsoft/openjdk-docker"
+    }
+  ],
+  "first_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Expected Versions",
+      "sense_id": "check-expected-versions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

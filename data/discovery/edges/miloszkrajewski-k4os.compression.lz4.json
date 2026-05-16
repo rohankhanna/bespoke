@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MiloszKrajewski/K4os.Compression.LZ4",
+      "target": "cyan4973/lz4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MiloszKrajewski/K4os.Compression.LZ4",
+      "target": "kintaro/snappysharp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MiloszKrajewski/K4os.Compression.LZ4",
+      "target": "miloszkrajewski/k4os.hash.xxhash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yml",
+      "source_repo": "MiloszKrajewski/K4os.Compression.LZ4",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yml",
+      "source_repo": "MiloszKrajewski/K4os.Compression.LZ4",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yml",
+      "source_repo": "MiloszKrajewski/K4os.Compression.LZ4",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous.yml",
+      "source_repo": "MiloszKrajewski/K4os.Compression.LZ4",
+      "target": "continuous",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-16T18:25:29.547854+00:00",
+  "source_repo": "MiloszKrajewski/K4os.Compression.LZ4"
+}

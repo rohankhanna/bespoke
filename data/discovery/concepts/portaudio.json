@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "portaudio"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rezonality/zing",
+      "status": "candidate-context",
+      "text": "Audio Integration Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rezonality/zing",
+      "status": "candidate-context",
+      "text": "[Zing](https://github.com/Rezonality/zing) - A Simple Audio Integration Library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rezonality/zing",
+      "status": "candidate",
+      "text": "[Zing](https://github.com/Rezonality/zing) - A Simple Audio Integration Library"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "portaudio",
+  "concept_id": "portaudio",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "Rezonality/zing"
+    }
+  ],
+  "first_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "portaudio",
+      "sense_id": "portaudio#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

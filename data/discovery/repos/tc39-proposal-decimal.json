@@ -203,7 +203,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T10:11:23.790157+00:00",
+  "fetched_at": "2026-05-16T19:35:16.521848+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -232,7 +232,7 @@
     "html_url": "https://github.com/tc39/proposal-decimal",
     "language": "HTML",
     "pushed_at": "2026-02-12T15:35:20Z",
-    "stargazers_count": 619,
+    "stargazers_count": 620,
     "topics": [
       "arithmetic",
       "decimal",
@@ -240,7 +240,7 @@
       "ieee754",
       "javascript"
     ],
-    "updated_at": "2026-05-11T06:05:41Z"
+    "updated_at": "2026-05-16T13:19:37Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,154 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lebaston100/MIDItoOBS",
+      "target": "obsproject/obs-studio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lebaston100/MIDItoOBS",
+      "target": "msiemens/tinydb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lebaston100/MIDItoOBS",
+      "target": "olemb/mido",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lebaston100/MIDItoOBS",
+      "target": "obsproject/obs-websocket",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lebaston100/MIDItoOBS",
+      "target": "midi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lebaston100/MIDItoOBS",
+      "target": "midi-controller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lebaston100/MIDItoOBS",
+      "target": "obs-remote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lebaston100/MIDItoOBS",
+      "target": "obs-studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lebaston100/MIDItoOBS",
+      "target": "obs-websocket",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T19:36:58.122975+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23176
+    },
+    {
+      "path": "requirements.txt",
+      "size": 83
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "(Pre obs-ws 5!!) A python script to use one or multiple midi input device(s) to control OBS-Studio functions without wasting keyboard hotkeys (including some sort of macro support) from anywhere in the network. \"Waiting for a nativ implementation since 2017.\"",
+    "fork": false,
+    "full_name": "lebaston100/MIDItoOBS",
+    "html_url": "https://github.com/lebaston100/MIDItoOBS",
+    "language": "Python",
+    "pushed_at": "2023-04-05T19:08:29Z",
+    "stargazers_count": 194,
+    "topics": [
+      "midi",
+      "midi-controller",
+      "obs-remote",
+      "obs-studio",
+      "obs-websocket",
+      "python"
+    ],
+    "updated_at": "2026-05-04T01:40:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "msiemens/tinydb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "obsproject/obs-studio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "obsproject/obs-websocket",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "olemb/mido",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "As of this commit, miditoobs is officially deprecated and will be/is publicly archived.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi"
+    },
+    {
+      "context_snippet": "As of this commit, miditoobs is officially deprecated and will be/is publicly archived.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi-controller"
+    },
+    {
+      "context_snippet": "As of this commit, miditoobs is officially deprecated and will be/is publicly archived.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obs-remote"
+    },
+    {
+      "context_snippet": "As of this commit, miditoobs is officially deprecated and will be/is publicly archived.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obs-studio"
+    },
+    {
+      "context_snippet": "As of this commit, miditoobs is officially deprecated and will be/is publicly archived.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obs-websocket"
+    }
+  ]
+}

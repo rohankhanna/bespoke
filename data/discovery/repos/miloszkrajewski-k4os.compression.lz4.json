@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MiloszKrajewski/K4os.Compression.LZ4",
+      "target": "cyan4973/lz4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MiloszKrajewski/K4os.Compression.LZ4",
+      "target": "kintaro/snappysharp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MiloszKrajewski/K4os.Compression.LZ4",
+      "target": "miloszkrajewski/k4os.hash.xxhash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yml",
+      "source_repo": "MiloszKrajewski/K4os.Compression.LZ4",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yml",
+      "source_repo": "MiloszKrajewski/K4os.Compression.LZ4",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yml",
+      "source_repo": "MiloszKrajewski/K4os.Compression.LZ4",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous.yml",
+      "source_repo": "MiloszKrajewski/K4os.Compression.LZ4",
+      "target": "continuous",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T19:37:24.359086+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20689
+    },
+    {
+      "path": ".github/workflows/continuous.yml",
+      "size": 1092
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LZ4/LH4HC compression for .NET Standard 1.6/2.0 (formerly known as lz4net) ",
+    "fork": false,
+    "full_name": "MiloszKrajewski/K4os.Compression.LZ4",
+    "html_url": "https://github.com/MiloszKrajewski/K4os.Compression.LZ4",
+    "language": "C#",
+    "pushed_at": "2026-03-28T01:37:26Z",
+    "stargazers_count": 803,
+    "topics": [],
+    "updated_at": "2026-05-15T16:15:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cyan4973/lz4",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kintaro/snappysharp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "miloszkrajewski/k4os.hash.xxhash",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "continuous",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous.yml",
+      "term": "continuous"
+    }
+  ]
+}

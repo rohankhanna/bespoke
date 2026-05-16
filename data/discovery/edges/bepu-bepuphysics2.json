@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bepu/bepuphysics2",
+      "target": "bepu/bepuphysics1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bepu-docs-github.yml",
+      "source_repo": "bepu/bepuphysics2",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bepu-docs-github.yml",
+      "source_repo": "bepu/bepuphysics2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bepu-docs-github.yml",
+      "source_repo": "bepu/bepuphysics2",
+      "target": "peaceiris/actions-gh-pages@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bepu-docs-github.yml",
+      "source_repo": "bepu/bepuphysics2",
+      "target": "Build Bepu Docs for GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-core-publish.yml",
+      "source_repo": "bepu/bepuphysics2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-core-publish.yml",
+      "source_repo": "bepu/bepuphysics2",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-core.yml",
+      "source_repo": "bepu/bepuphysics2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-core.yml",
+      "source_repo": "bepu/bepuphysics2",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bepu/bepuphysics2",
+      "target": "physics-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bepu/bepuphysics2",
+      "target": "physics-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bepu/bepuphysics2",
+      "target": "physics-simulation-library",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-16T18:25:29.547854+00:00",
+  "source_repo": "bepu/bepuphysics2"
+}

@@ -8826,11 +8826,59 @@
       "observed_at": "2026-05-16T12:33:31.261420+00:00",
       "source_file": null,
       "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5Scontrol-manual"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": ".github/workflows/panvimdoc.yaml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "rust-lang/packed_simd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-casbin.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "meta-pytorch/torchft"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T12:33:31.261420+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -321,6 +321,18 @@
       "source_repo": "nvim-telescope/telescope-file-browser.nvim",
       "status": "candidate-context",
       "text": "Generate docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsproject/obs-websocket",
+      "status": "candidate-context",
+      "text": "Remote-control of OBS Studio through WebSocket"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsproject/obs-websocket",
+      "status": "candidate-context",
+      "text": "'Generate docs'"
     }
   ],
   "candidate_glosses": [
@@ -479,6 +491,12 @@
       "source_repo": "nvim-telescope/telescope-file-browser.nvim",
       "status": "candidate",
       "text": "Generate docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsproject/obs-websocket",
+      "status": "candidate",
+      "text": "'Generate docs'"
     }
   ],
   "candidate_related_terms": [
@@ -900,11 +918,23 @@
       "observed_at": "2026-05-16T06:55:35.086614+00:00",
       "source_file": ".github/workflows/docgen.yaml",
       "source_repo": "nvim-neotest/neotest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": ".github/workflows/docgen.yaml",
+      "source_repo": "nvim-neotest/neotest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": ".github/workflows/generate_docs.yml",
+      "source_repo": "obsproject/obs-websocket"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "konele"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heimoshuiyu/whisper-fastapi",
+      "status": "candidate-context",
+      "text": "A very simple whsper Python FastAPI for OpenAI API, Android voice-typing (konele), Home Assistant (wyoming), and a voice-typing script on Linux and MacOS!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heimoshuiyu/whisper-fastapi",
+      "status": "candidate-context",
+      "text": "Whisper-FastAPI is a very simple Python FastAPI interface for konele and OpenAI services. It is based on the `faster-whisper` project and provides an API for konele-like interface, where translations and transcriptions can be obtained by connecting over websockets or POST reques\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heimoshuiyu/whisper-fastapi",
+      "status": "candidate",
+      "text": "Whisper-FastAPI is a very simple Python FastAPI interface for konele and OpenAI services. It is based on the `faster-whisper` project and provides an API for konele-like interface, where translations and transcriptions can be obtained by connecting over websockets or POST reques\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "konele",
+  "concept_id": "konele",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "heimoshuiyu/whisper-fastapi"
+    }
+  ],
+  "first_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "konele",
+      "sense_id": "konele#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

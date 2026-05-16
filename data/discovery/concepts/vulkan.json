@@ -1093,6 +1093,18 @@
       "source_repo": "unknownue/vulkan-tutorial-rust",
       "status": "candidate-context",
       "text": "[package] name = \"vulkan-tutorial-rust\" version = \"1.0.0\" edition = \"2018\" authors = [\"unknownue <usami-ssc@protonmail.com>\"] [dependencies] winit = \"0.20.0\" ash = \"0.29.0\" num = \"0.2\" cgmath = \"0.17.0\" image = \"0.22\" memoffset = \"0.5.1\" tobj = \"0.1.10\" [dependencies.bitflags] v\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rezonality/zing",
+      "status": "candidate-context",
+      "text": "Audio Integration Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rezonality/zing",
+      "status": "candidate-context",
+      "text": "[Zing](https://github.com/Rezonality/zing) - A Simple Audio Integration Library"
     }
   ],
   "candidate_glosses": [
@@ -1641,6 +1653,12 @@
       "source_repo": "unknownue/vulkan-tutorial-rust",
       "status": "candidate",
       "text": "[package] name = \"vulkan-tutorial-rust\" version = \"1.0.0\" edition = \"2018\" authors = [\"unknownue <usami-ssc@protonmail.com>\"] [dependencies] winit = \"0.20.0\" ash = \"0.29.0\" num = \"0.2\" cgmath = \"0.17.0\" image = \"0.22\" memoffset = \"0.5.1\" tobj = \"0.1.10\" [dependencies.bitflags] v\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rezonality/zing",
+      "status": "candidate",
+      "text": "[Zing](https://github.com/Rezonality/zing) - A Simple Audio Integration Library"
     }
   ],
   "candidate_related_terms": [
@@ -3439,11 +3457,41 @@
       "observed_at": "2026-05-16T12:33:31.261420+00:00",
       "source_file": null,
       "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "unknownue/vulkan-tutorial-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "ash-rs/ash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "Rezonality/zing"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T12:33:31.261420+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -179,6 +179,42 @@
       "source_repo": "openjdk/jdk",
       "status": "candidate-context",
       "text": "'Build (macos)'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/openjdk-jdk11u",
+      "status": "candidate-context",
+      "text": "Read-only mirror of https://github.com/openjdk/jdk11u/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/openjdk-jdk11u",
+      "status": "candidate-context",
+      "text": "'Build (macos)'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/openjdk-jdk17u",
+      "status": "candidate-context",
+      "text": "Read-only mirror of https://github.com/openjdk/jdk17u/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/openjdk-jdk17u",
+      "status": "candidate-context",
+      "text": "'Build (macos)'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/openjdk-jdk21u",
+      "status": "candidate-context",
+      "text": "Read-only mirror of openjdk/jdk21u"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/openjdk-jdk21u",
+      "status": "candidate-context",
+      "text": "'Build (macos)'"
     }
   ],
   "candidate_glosses": [
@@ -263,6 +299,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "openjdk/jdk",
+      "status": "candidate",
+      "text": "'Build (macos)'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/openjdk-jdk11u",
+      "status": "candidate",
+      "text": "'Build (macos)'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/openjdk-jdk17u",
+      "status": "candidate",
+      "text": "'Build (macos)'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/openjdk-jdk21u",
       "status": "candidate",
       "text": "'Build (macos)'"
     }
@@ -1075,11 +1129,35 @@
       "observed_at": "2026-05-16T12:33:31.261420+00:00",
       "source_file": ".github/workflows/build-macos.yml",
       "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "microsoft/openjdk-jdk11u"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "microsoft/openjdk-jdk17u"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "microsoft/openjdk-jdk21u"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T12:33:31.261420+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "lexical_providers": [
     "datamuse"
   ],

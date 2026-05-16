@@ -1,7 +1,7 @@
 {
   "component": "events",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

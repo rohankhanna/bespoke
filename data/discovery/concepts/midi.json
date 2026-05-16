@@ -295,6 +295,30 @@
       "source_repo": "cpyarger/obs-midi",
       "status": "candidate-context",
       "text": "Use MIDI devices to trigger events in OBS and visa versa."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rezonality/zing",
+      "status": "candidate-context",
+      "text": "Audio Integration Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rezonality/zing",
+      "status": "candidate-context",
+      "text": "[Zing](https://github.com/Rezonality/zing) - A Simple Audio Integration Library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lebaston100/MIDItoOBS",
+      "status": "candidate-context",
+      "text": "(Pre obs-ws 5!!) A python script to use one or multiple midi input device(s) to control OBS-Studio functions without wasting keyboard hotkeys (including some sort of macro support) from anywhere in the network. \"Waiting for a nativ implementation since 2017.\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lebaston100/MIDItoOBS",
+      "status": "candidate-context",
+      "text": "As of this commit, miditoobs is officially deprecated and will be/is publicly archived."
     }
   ],
   "candidate_glosses": [
@@ -441,6 +465,18 @@
       "source_repo": "cpyarger/obs-midi",
       "status": "candidate",
       "text": "Use MIDI devices to trigger events in OBS and visa versa."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rezonality/zing",
+      "status": "candidate",
+      "text": "[Zing](https://github.com/Rezonality/zing) - A Simple Audio Integration Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lebaston100/MIDItoOBS",
+      "status": "candidate",
+      "text": "As of this commit, miditoobs is officially deprecated and will be/is publicly archived."
     }
   ],
   "candidate_related_terms": [
@@ -1143,11 +1179,41 @@
       "observed_at": "2026-05-16T06:55:35.086614+00:00",
       "source_file": null,
       "source_repo": "cpyarger/obs-midi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/afterglow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link-trigger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "celtera/libremidi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "Rezonality/zing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "lebaston100/MIDItoOBS"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "lexical_providers": [
     "datamuse"
   ],

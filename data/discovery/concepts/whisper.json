@@ -271,6 +271,18 @@
       "source_repo": "geekodour/wscribe",
       "status": "candidate-context",
       "text": "[tool.poetry] name = \"wscribe\" version = \"0.1.5\" description = \"ez audio transcription tool with flexible processing and post-processing options\" authors = [\"Hrishikesh Barman <oss@geekodour.org>\"] homepage = \"https://github.com/geekodour/wscribe\" license = \"MIT\" readme = \"docs/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heimoshuiyu/whisper-fastapi",
+      "status": "candidate-context",
+      "text": "A very simple whsper Python FastAPI for OpenAI API, Android voice-typing (konele), Home Assistant (wyoming), and a voice-typing script on Linux and MacOS!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heimoshuiyu/whisper-fastapi",
+      "status": "candidate-context",
+      "text": "Whisper-FastAPI is a very simple Python FastAPI interface for konele and OpenAI services. It is based on the `faster-whisper` project and provides an API for konele-like interface, where translations and transcriptions can be obtained by connecting over websockets or POST reques\u2026"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +417,12 @@
       "source_repo": "geekodour/wscribe",
       "status": "candidate",
       "text": "[tool.poetry] name = \"wscribe\" version = \"0.1.5\" description = \"ez audio transcription tool with flexible processing and post-processing options\" authors = [\"Hrishikesh Barman <oss@geekodour.org>\"] homepage = \"https://github.com/geekodour/wscribe\" license = \"MIT\" readme = \"docs/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heimoshuiyu/whisper-fastapi",
+      "status": "candidate",
+      "text": "Whisper-FastAPI is a very simple Python FastAPI interface for konele and OpenAI services. It is based on the `faster-whisper` project and provides an API for konele-like interface, where translations and transcriptions can be obtained by connecting over websockets or POST reques\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1508,11 +1526,47 @@
       "observed_at": "2026-05-16T06:55:35.086614+00:00",
       "source_file": null,
       "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "SYSTRAN/faster-whisper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "heimoshuiyu/whisper-fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "collabora/WhisperLive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "lexical_providers": [
     "datamuse"
   ],

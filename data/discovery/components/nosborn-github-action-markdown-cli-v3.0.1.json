@@ -1,0 +1,12 @@
+{
+  "component": "nosborn/github-action-markdown-cli@v3.0.1",
+  "first_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "obsproject/obs-websocket"
+    }
+  ]
+}

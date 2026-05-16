@@ -1,7 +1,7 @@
 {
   "component": "humbletim/setup-vulkan-sdk@v1.2.1",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "helix-toolkit/helix-toolkit-nex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml",
+      "source_repo": "Rezonality/zing"
     }
   ]
 }

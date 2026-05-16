@@ -2746,11 +2746,23 @@
       "observed_at": "2026-05-16T12:33:31.261420+00:00",
       "source_file": ".github/workflows/claude-code-review.yml",
       "source_repo": "vibrantlabsai/ragas"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": ".github/workflows/claude_code_review.yml",
+      "source_repo": "TEN-framework/ten-framework"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T12:33:31.261420+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -103,6 +103,18 @@
       "source_repo": "Evilpasture/Culverin",
       "status": "candidate-context",
       "text": "[![PyPI - Version](https://img.shields.io/pypi/v/culverin)](https://pypi.org/project/culverin/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bepu/bepuphysics2",
+      "status": "candidate-context",
+      "text": "Pure C# 3D real time physics simulation library, now with a higher version number."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bepu/bepuphysics2",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "Evilpasture/Culverin",
       "status": "candidate",
       "text": "[![PyPI - Version](https://img.shields.io/pypi/v/culverin)](https://pypi.org/project/culverin/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bepu/bepuphysics2",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -430,11 +448,17 @@
       "observed_at": "2026-05-16T12:33:31.261420+00:00",
       "source_file": null,
       "source_repo": "gbionics/jaxsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "bepu/bepuphysics2"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T12:33:31.261420+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "lexical_providers": [
     "datamuse"
   ],

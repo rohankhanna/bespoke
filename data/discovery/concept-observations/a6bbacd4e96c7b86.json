@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pure C# 3D real time physics simulation library, now with a higher version number."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "physics-simulation-library",
+      "sense_id": "physics-simulation-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "physics-simulation-library",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "physics-simulation-library",
+  "observation_id": "a6bbacd4e96c7b86",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-16T18:25:29.547854+00:00",
+  "observed_text": "physics-simulation-library",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "bepu/bepuphysics2",
+  "source_repo_description": "Pure C# 3D real time physics simulation library, now with a higher version number."
+}

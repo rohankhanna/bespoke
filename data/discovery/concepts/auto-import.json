@@ -280,11 +280,17 @@
       "observed_at": "2026-05-16T06:55:35.086614+00:00",
       "source_file": null,
       "source_repo": "unplugin/unplugin-vue-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-vue-components"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "lexical_providers": [
     "datamuse"
   ],

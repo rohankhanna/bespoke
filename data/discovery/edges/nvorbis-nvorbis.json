@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVorbis/NVorbis",
+      "target": "naudio/vorbis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVorbis/NVorbis",
+      "target": "opentk/opentk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "NVorbis/NVorbis",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "NVorbis/NVorbis",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nuget.yml",
+      "source_repo": "NVorbis/NVorbis",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nuget.yml",
+      "source_repo": "NVorbis/NVorbis",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-nuget.yml",
+      "source_repo": "NVorbis/NVorbis",
+      "target": "Publish Nuget Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVorbis/NVorbis",
+      "target": "nvorbis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVorbis/NVorbis",
+      "target": "ogg-vorbis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVorbis/NVorbis",
+      "target": "vorbis",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-16T18:25:29.547854+00:00",
+  "source_repo": "NVorbis/NVorbis"
+}

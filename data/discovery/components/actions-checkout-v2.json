@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v2",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-16T12:33:31.261420+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -19287,6 +19287,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pull-request.yml",
       "source_repo": "cpyarger/obs-midi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "NicoG60/TouchMCU"
     }
   ]
 }

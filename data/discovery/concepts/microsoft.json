@@ -343,6 +343,18 @@
       "source_repo": "microsoft/vscode-cmake-tools",
       "status": "candidate-context",
       "text": "<h1 align=center> <img align=center width=48 src=\"res/logo-margin-bottom.png\" alt=\"CMake Logo\"/> CMake Tools </h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/openjdk-docker",
+      "status": "candidate-context",
+      "text": "Repository of Container Images for the official MSFT Build of OpenJDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/openjdk-docker",
+      "status": "candidate-context",
+      "text": "This repository contains the Dockerfiles for the official container images of Microsoft Build of OpenJDK. These images are officially hosted in the [Microsoft Container Registry (MCR)](https://mcr.microsoft.com/en-us/product/openjdk/jdk/about)."
     }
   ],
   "candidate_glosses": [
@@ -513,6 +525,12 @@
       "source_repo": "microsoft/vscode-cmake-tools",
       "status": "candidate",
       "text": "<h1 align=center> <img align=center width=48 src=\"res/logo-margin-bottom.png\" alt=\"CMake Logo\"/> CMake Tools </h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/openjdk-docker",
+      "status": "candidate",
+      "text": "This repository contains the Dockerfiles for the official container images of Microsoft Build of OpenJDK. These images are officially hosted in the [Microsoft Container Registry (MCR)](https://mcr.microsoft.com/en-us/product/openjdk/jdk/about)."
     }
   ],
   "candidate_related_terms": [
@@ -1065,11 +1083,17 @@
       "observed_at": "2026-05-16T12:33:31.261420+00:00",
       "source_file": null,
       "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/openjdk-docker"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T12:33:31.261420+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "lexical_providers": [
     "datamuse"
   ],

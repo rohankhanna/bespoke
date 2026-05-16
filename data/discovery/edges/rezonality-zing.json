@@ -1,0 +1,167 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Rezonality/zing",
+      "target": "shybyte/soundpipe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Rezonality/zing",
+      "target": "portaudio/portaudio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Rezonality/zing",
+      "target": "ikiller1/moodycamel-concurrentqueue",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Rezonality/zing",
+      "target": "marzer/tomlplusplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml",
+      "source_repo": "Rezonality/zing",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml",
+      "source_repo": "Rezonality/zing",
+      "target": "jwlawson/actions-setup-cmake@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml",
+      "source_repo": "Rezonality/zing",
+      "target": "libsdl-org/setup-sdl@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml",
+      "source_repo": "Rezonality/zing",
+      "target": "humbletim/setup-vulkan-sdk@v1.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml",
+      "source_repo": "Rezonality/zing",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/builds.yml",
+      "source_repo": "Rezonality/zing",
+      "target": "Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rezonality/zing",
+      "target": "ableton",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rezonality/zing",
+      "target": "ableton-link",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rezonality/zing",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rezonality/zing",
+      "target": "audio-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rezonality/zing",
+      "target": "audio-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rezonality/zing",
+      "target": "audio-visualizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rezonality/zing",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rezonality/zing",
+      "target": "imgui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rezonality/zing",
+      "target": "midi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rezonality/zing",
+      "target": "portaudio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rezonality/zing",
+      "target": "profiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rezonality/zing",
+      "target": "soundfont",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rezonality/zing",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-16T18:25:29.547854+00:00",
+  "source_repo": "Rezonality/zing"
+}

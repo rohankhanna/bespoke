@@ -1,7 +1,7 @@
 {
   "component": "jwlawson/actions-setup-cmake@v2",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -272,6 +272,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cmake-bintest.yml",
       "source_repo": "HDFGroup/hdf5_plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml",
+      "source_repo": "Rezonality/zing"
     }
   ]
 }

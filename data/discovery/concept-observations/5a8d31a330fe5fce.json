@@ -120,7 +120,7 @@
   "normalized_form": "security",
   "observation_id": "5a8d31a330fe5fce",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-16T06:55:35.086614+00:00",
+  "observed_at": "2026-05-16T18:25:29.547854+00:00",
   "observed_text": "security",
   "source_context_snippet": "![npm bundle size](https://img.shields.io/bundlephobia/minzip/trusted-types.svg)",
   "source_file": null,

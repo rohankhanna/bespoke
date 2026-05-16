@@ -271,6 +271,18 @@
       "source_repo": "geekodour/wscribe",
       "status": "candidate-context",
       "text": "[tool.poetry] name = \"wscribe\" version = \"0.1.5\" description = \"ez audio transcription tool with flexible processing and post-processing options\" authors = [\"Hrishikesh Barman <oss@geekodour.org>\"] homepage = \"https://github.com/geekodour/wscribe\" license = \"MIT\" readme = \"docs/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rezonality/zing",
+      "status": "candidate-context",
+      "text": "Audio Integration Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rezonality/zing",
+      "status": "candidate-context",
+      "text": "[Zing](https://github.com/Rezonality/zing) - A Simple Audio Integration Library"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +417,12 @@
       "source_repo": "geekodour/wscribe",
       "status": "candidate",
       "text": "[tool.poetry] name = \"wscribe\" version = \"0.1.5\" description = \"ez audio transcription tool with flexible processing and post-processing options\" authors = [\"Hrishikesh Barman <oss@geekodour.org>\"] homepage = \"https://github.com/geekodour/wscribe\" license = \"MIT\" readme = \"docs/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rezonality/zing",
+      "status": "candidate",
+      "text": "[Zing](https://github.com/Rezonality/zing) - A Simple Audio Integration Library"
     }
   ],
   "candidate_related_terms": [],
@@ -826,11 +844,23 @@
       "observed_at": "2026-05-16T06:55:35.086614+00:00",
       "source_file": null,
       "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "Rezonality/zing"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "lexical_providers": [
     "datamuse"
   ],

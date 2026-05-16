@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Remote-control of OBS Studio through WebSocket"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Upload Language Files \ud83c\udf10"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Upload Language Files \ud83c\udf10"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27316,
+      "status": "candidate",
+      "text": "perl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23640,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23640,
+      "status": "candidate",
+      "text": "inflection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23619,
+      "status": "candidate",
+      "text": "banker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23619,
+      "status": "candidate",
+      "text": "banking"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upload Language Files \ud83c\udf10",
+      "sense_id": "upload-language-files#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "upload-language-files",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "upload-language-files",
+  "observation_id": "58e15caacda964df",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-16T18:25:29.547854+00:00",
+  "observed_text": "Upload Language Files \ud83c\udf10",
+  "source_context_snippet": "Upload Language Files \ud83c\udf10",
+  "source_file": ".github/workflows/crowdin_upload.yml",
+  "source_repo": "obsproject/obs-websocket",
+  "source_repo_description": "Remote-control of OBS Studio through WebSocket"
+}

@@ -1,0 +1,94 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "heimoshuiyu/whisper-fastapi",
+      "target": "heimoshuiyu/faster-whisper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heimoshuiyu/whisper-fastapi",
+      "target": "fastapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heimoshuiyu/whisper-fastapi",
+      "target": "konele",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heimoshuiyu/whisper-fastapi",
+      "target": "whisper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T19:36:30.969999+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6967
+    },
+    {
+      "path": "Dockerfile",
+      "size": 375
+    },
+    {
+      "path": "requirements.txt",
+      "size": 217
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A very simple whsper Python FastAPI for OpenAI API, Android voice-typing (konele), Home Assistant (wyoming), and a voice-typing script on Linux and MacOS!",
+    "fork": false,
+    "full_name": "heimoshuiyu/whisper-fastapi",
+    "html_url": "https://github.com/heimoshuiyu/whisper-fastapi",
+    "language": "Python",
+    "pushed_at": "2025-12-28T13:59:17Z",
+    "stargazers_count": 75,
+    "topics": [
+      "fastapi",
+      "konele",
+      "openai",
+      "whisper"
+    ],
+    "updated_at": "2026-05-01T09:32:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heimoshuiyu/faster-whisper",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Whisper-FastAPI is a very simple Python FastAPI interface for konele and OpenAI services. It is based on the `faster-whisper` project and provides an API for konele-like interface, where translations and transcriptions can be obtained by connecting over websockets or POST reques\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastapi"
+    },
+    {
+      "context_snippet": "Whisper-FastAPI is a very simple Python FastAPI interface for konele and OpenAI services. It is based on the `faster-whisper` project and provides an API for konele-like interface, where translations and transcriptions can be obtained by connecting over websockets or POST reques\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "konele"
+    },
+    {
+      "context_snippet": "Whisper-FastAPI is a very simple Python FastAPI interface for konele and OpenAI services. It is based on the `faster-whisper` project and provides an API for konele-like interface, where translations and transcriptions can be obtained by connecting over websockets or POST reques\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whisper"
+    }
+  ]
+}

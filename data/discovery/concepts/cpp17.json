@@ -391,6 +391,18 @@
       "source_repo": "boostorg/pfr",
       "status": "candidate-context",
       "text": "This is a C++14 library for very basic reflection that gives you access to structure elements by index and provides other `std::tuple` like methods for user defined types without any macro or boilerplate code."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rezonality/zing",
+      "status": "candidate-context",
+      "text": "Audio Integration Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rezonality/zing",
+      "status": "candidate-context",
+      "text": "[Zing](https://github.com/Rezonality/zing) - A Simple Audio Integration Library"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +597,12 @@
       "source_repo": "boostorg/pfr",
       "status": "candidate",
       "text": "This is a C++14 library for very basic reflection that gives you access to structure elements by index and provides other `std::tuple` like methods for user defined types without any macro or boilerplate code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rezonality/zing",
+      "status": "candidate",
+      "text": "[Zing](https://github.com/Rezonality/zing) - A Simple Audio Integration Library"
     }
   ],
   "candidate_related_terms": [],
@@ -1246,11 +1264,23 @@
       "observed_at": "2026-05-16T12:33:31.261420+00:00",
       "source_file": null,
       "source_repo": "nonstd-lite/string-view-lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "Rezonality/zing"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T12:33:31.261420+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "lexical_providers": [
     "datamuse"
   ],

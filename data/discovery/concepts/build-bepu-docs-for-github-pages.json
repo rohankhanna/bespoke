@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Bepu Docs for GitHub Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bepu/bepuphysics2",
+      "status": "candidate-context",
+      "text": "Pure C# 3D real time physics simulation library, now with a higher version number."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bepu/bepuphysics2",
+      "status": "candidate-context",
+      "text": "Build Bepu Docs for GitHub Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bepu/bepuphysics2",
+      "status": "candidate",
+      "text": "Build Bepu Docs for GitHub Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21878,
+      "status": "candidate",
+      "text": "binding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21848,
+      "status": "candidate",
+      "text": "correspondence school"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21758,
+      "status": "candidate",
+      "text": "album"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21728,
+      "status": "candidate",
+      "text": "glean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21647,
+      "status": "candidate",
+      "text": "page"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Bepu Docs for GitHub Pages",
+  "concept_id": "build-bepu-docs-for-github-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": ".github/workflows/bepu-docs-github.yml",
+      "source_repo": "bepu/bepuphysics2"
+    }
+  ],
+  "first_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Bepu Docs for GitHub Pages",
+      "sense_id": "build-bepu-docs-for-github-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

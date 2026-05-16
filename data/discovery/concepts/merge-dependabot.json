@@ -19,12 +19,30 @@
       "source_repo": "SimonCropp/NaughtyStrings",
       "status": "candidate-context",
       "text": "merge-dependabot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CopyText/TextCopy",
+      "status": "candidate-context",
+      "text": "A cross platform package to copy text to and from the clipboard."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CopyText/TextCopy",
+      "status": "candidate-context",
+      "text": "merge-dependabot"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "SimonCropp/NaughtyStrings",
+      "status": "candidate",
+      "text": "merge-dependabot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CopyText/TextCopy",
       "status": "candidate",
       "text": "merge-dependabot"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/merge-dependabot.yml",
       "source_repo": "SimonCropp/NaughtyStrings"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": ".github/workflows/merge-dependabot.yml",
+      "source_repo": "CopyText/TextCopy"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/milestone-release.yml",
       "source_repo": "SimonCropp/NaughtyStrings"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/milestone-release.yml",
+      "source_repo": "CopyText/TextCopy"
     }
   ],
   "term": "milestone-release"

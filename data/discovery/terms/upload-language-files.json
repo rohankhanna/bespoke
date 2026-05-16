@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/crowdin_upload.yml",
+      "source_repo": "obsproject/obs-websocket"
+    }
+  ],
+  "term": "Upload Language Files \ud83c\udf10"
+}

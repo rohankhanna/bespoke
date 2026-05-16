@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Upload Language Files \ud83c\udf10"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsproject/obs-websocket",
+      "status": "candidate-context",
+      "text": "Remote-control of OBS Studio through WebSocket"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsproject/obs-websocket",
+      "status": "candidate-context",
+      "text": "Upload Language Files \ud83c\udf10"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsproject/obs-websocket",
+      "status": "candidate",
+      "text": "Upload Language Files \ud83c\udf10"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27316,
+      "status": "candidate",
+      "text": "perl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23640,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23640,
+      "status": "candidate",
+      "text": "inflection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23619,
+      "status": "candidate",
+      "text": "banker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23619,
+      "status": "candidate",
+      "text": "banking"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Upload Language Files \ud83c\udf10",
+  "concept_id": "upload-language-files",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": ".github/workflows/crowdin_upload.yml",
+      "source_repo": "obsproject/obs-websocket"
+    }
+  ],
+  "first_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upload Language Files \ud83c\udf10",
+      "sense_id": "upload-language-files#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

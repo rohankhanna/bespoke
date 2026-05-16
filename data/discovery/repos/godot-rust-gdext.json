@@ -260,7 +260,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T09:14:38.080728+00:00",
+  "fetched_at": "2026-05-16T18:33:18.738752+00:00",
   "fetched_files": [
     {
       "path": "Cargo.toml",
@@ -292,15 +292,15 @@
     "full_name": "godot-rust/gdext",
     "html_url": "https://github.com/godot-rust/gdext",
     "language": "Rust",
-    "pushed_at": "2026-05-16T08:50:26Z",
-    "stargazers_count": 4794,
+    "pushed_at": "2026-05-16T11:35:13Z",
+    "stargazers_count": 4798,
     "topics": [
       "game-development",
       "gamedev",
       "godot",
       "rust"
     ],
-    "updated_at": "2026-05-16T08:50:28Z"
+    "updated_at": "2026-05-16T16:09:07Z"
   },
   "repo_links": [],
   "terms": [

@@ -5589,6 +5589,9 @@
   "audio-visual-speech-recognition": [
     "audio-visual-speech-recognition"
   ],
+  "audio-visualizer": [
+    "audio-visualizer"
+  ],
   "audiobooks": [
     "audiobooks"
   ],
@@ -11767,6 +11770,9 @@
   "build benchmarks wheel": [
     "build-benchmarks-wheel"
   ],
+  "build bepu docs for github pages": [
+    "build-bepu-docs-for-github-pages"
+  ],
   "build binaries": [
     "build-binaries"
   ],
@@ -12180,6 +12186,9 @@
   ],
   "build docker images - cuda": [
     "build-docker-images---cuda"
+  ],
+  "build docker images ci": [
+    "build-docker-images-ci"
   ],
   "build docker images for ci": [
     "build-docker-images-for-ci"
@@ -16969,6 +16978,9 @@
   ],
   "check examples": [
     "check-examples"
+  ],
+  "check expected versions": [
+    "check-expected-versions"
   ],
   "check external links": [
     "check-external-links"
@@ -50448,6 +50460,9 @@
   "kompose ci": [
     "kompose-ci"
   ],
+  "konele": [
+    "konele"
+  ],
   "kong": [
     "kong"
   ],
@@ -62643,6 +62658,9 @@
   "nvmrc": [
     "nvmrc"
   ],
+  "nvorbis": [
+    "nvorbis"
+  ],
   "nvrtc": [
     "nvrtc"
   ],
@@ -62817,11 +62835,17 @@
   "obs-plugin": [
     "obs-plugin"
   ],
+  "obs-remote": [
+    "obs-remote"
+  ],
   "obs-studio": [
     "obs-studio"
   ],
   "obs-studio-plugin": [
     "obs-studio-plugin"
+  ],
+  "obs-websocket": [
+    "obs-websocket"
   ],
   "obsei action": [
     "obsei-action"
@@ -66612,6 +66636,9 @@
   "physics-simulation": [
     "physics-simulation"
   ],
+  "physics-simulation-library": [
+    "physics-simulation-library"
+  ],
   "physx": [
     "physx"
   ],
@@ -67673,6 +67700,9 @@
   ],
   "portaspeech": [
     "portaspeech"
+  ],
+  "portaudio": [
+    "portaudio"
   ],
   "portfolio": [
     "portfolio"
@@ -94508,6 +94538,9 @@
   "upload index": [
     "upload-index"
   ],
+  "upload language files \ud83c\udf10": [
+    "upload-language-files"
+  ],
   "upload lightrag-hku package": [
     "upload-lightrag-hku-package"
   ],
@@ -95197,6 +95230,9 @@
   ],
   "validate protobuf files": [
     "validate-protobuf-files"
+  ],
+  "validate published images": [
+    "validate-published-images"
   ],
   "validate publishing functionality": [
     "validate-publishing-functionality"

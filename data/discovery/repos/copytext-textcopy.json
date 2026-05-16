@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "pascalgn/automerge-action@v0.14.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-dependabot.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push-do-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-dependabot.yml",
+      "source_repo": "CopyText/TextCopy",
+      "target": "pascalgn/automerge-action@v0.14.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-dependabot.yml",
+      "source_repo": "CopyText/TextCopy",
+      "target": "merge-dependabot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone-release.yml",
+      "source_repo": "CopyText/TextCopy",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone-release.yml",
+      "source_repo": "CopyText/TextCopy",
+      "target": "milestone-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push-do-docs.yml",
+      "source_repo": "CopyText/TextCopy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-push-do-docs.yml",
+      "source_repo": "CopyText/TextCopy",
+      "target": "on-push-do-docs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T19:37:22.580604+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/merge-dependabot.yml",
+      "size": 440
+    },
+    {
+      "path": ".github/workflows/milestone-release.yml",
+      "size": 6609
+    },
+    {
+      "path": ".github/workflows/on-push-do-docs.yml",
+      "size": 717
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A cross platform package to copy text to and from the clipboard.",
+    "fork": false,
+    "full_name": "CopyText/TextCopy",
+    "html_url": "https://github.com/CopyText/TextCopy",
+    "language": "C#",
+    "pushed_at": "2026-05-12T21:44:47Z",
+    "stargazers_count": 570,
+    "topics": [],
+    "updated_at": "2026-05-12T21:44:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "merge-dependabot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-dependabot.yml",
+      "term": "merge-dependabot"
+    },
+    {
+      "context_snippet": "milestone-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone-release.yml",
+      "term": "milestone-release"
+    },
+    {
+      "context_snippet": "on-push-do-docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-push-do-docs.yml",
+      "term": "on-push-do-docs"
+    }
+  ]
+}

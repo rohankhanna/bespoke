@@ -180,7 +180,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T09:16:03.751319+00:00",
+  "fetched_at": "2026-05-16T18:34:32.884295+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -232,12 +232,12 @@
     "full_name": "jax-ml/jax",
     "html_url": "https://github.com/jax-ml/jax",
     "language": "Python",
-    "pushed_at": "2026-05-16T09:01:03Z",
-    "stargazers_count": 35613,
+    "pushed_at": "2026-05-16T17:47:37Z",
+    "stargazers_count": 35619,
     "topics": [
       "jax"
     ],
-    "updated_at": "2026-05-16T08:41:45Z"
+    "updated_at": "2026-05-16T15:37:32Z"
   },
   "repo_links": [],
   "terms": [

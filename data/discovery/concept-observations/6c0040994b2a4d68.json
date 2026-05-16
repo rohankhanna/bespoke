@@ -48,7 +48,7 @@
   "normalized_form": "hpu-gaudi2-nightly",
   "observation_id": "6c0040994b2a4d68",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-16T06:55:35.086614+00:00",
+  "observed_at": "2026-05-16T18:25:29.547854+00:00",
   "observed_text": "hpu-gaudi2-nightly",
   "source_context_snippet": "hpu-gaudi2-nightly",
   "source_file": ".github/workflows/hpu-gaudi2-nightly.yml",

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -81,6 +81,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build-linux.yml",
       "source_repo": "openjdk/jdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "microsoft/openjdk-jdk11u"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "microsoft/openjdk-jdk17u"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "microsoft/openjdk-jdk21u"
     }
   ],
   "term": "Build Linux"

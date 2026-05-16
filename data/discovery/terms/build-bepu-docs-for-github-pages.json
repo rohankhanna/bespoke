@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/bepu-docs-github.yml",
+      "source_repo": "bepu/bepuphysics2"
+    }
+  ],
+  "term": "Build Bepu Docs for GitHub Pages"
+}

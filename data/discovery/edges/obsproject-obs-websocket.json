@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "obsproject/obs-websocket",
+      "target": "brendonovich/macrograph",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "obsproject/obs-websocket",
+      "target": "dnaka91/obws",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "obsproject/obs-websocket",
+      "target": "dgatwood/v8-libwebsocket-obs-websocket",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "obsproject/obs-websocket",
+      "target": "andreykaipov/goobs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin_upload.yml",
+      "source_repo": "obsproject/obs-websocket",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin_upload.yml",
+      "source_repo": "obsproject/obs-websocket",
+      "target": "obsproject/obs-crowdin-sync/upload@30b5446e3b5eb19595aa68a81ddf896a857302cf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crowdin_upload.yml",
+      "source_repo": "obsproject/obs-websocket",
+      "target": "Upload Language Files \ud83c\udf10",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_docs.yml",
+      "source_repo": "obsproject/obs-websocket",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate_docs.yml",
+      "source_repo": "obsproject/obs-websocket",
+      "target": "Generate docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "obsproject/obs-websocket",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "obsproject/obs-websocket",
+      "target": "nosborn/github-action-markdown-cli@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "obsproject/obs-websocket",
+      "target": "Code Quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "obsproject/obs-websocket",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "obsproject/obs-websocket",
+      "target": "obs-studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "obsproject/obs-websocket",
+      "target": "remote-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "obsproject/obs-websocket",
+      "target": "websocket",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-16T18:25:29.547854+00:00",
+  "source_repo": "obsproject/obs-websocket"
+}

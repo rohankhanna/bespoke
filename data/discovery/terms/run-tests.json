@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-05-16T12:33:31.261420+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -811,6 +811,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/python_test.yml",
       "source_repo": "LlmKira/fast-langdetect"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "microsoft/openjdk-jdk11u"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "microsoft/openjdk-jdk17u"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "microsoft/openjdk-jdk21u"
     }
   ],
   "term": "Run Tests"

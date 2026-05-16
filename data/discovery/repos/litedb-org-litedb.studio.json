@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-16T19:37:30.037141+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 192
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A GUI tool for viewing and editing documents for LiteDB v5",
+    "fork": false,
+    "full_name": "litedb-org/LiteDB.Studio",
+    "html_url": "https://github.com/litedb-org/LiteDB.Studio",
+    "language": "C#",
+    "pushed_at": "2024-11-20T18:06:42Z",
+    "stargazers_count": 940,
+    "topics": [],
+    "updated_at": "2026-05-12T07:04:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

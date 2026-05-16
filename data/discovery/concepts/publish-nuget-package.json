@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Publish NuGet Package",
-    "Publish NuGet package"
+    "Publish NuGet package",
+    "Publish Nuget Package"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -44,6 +45,18 @@
       "source_repo": "Devolutions/IronRDP",
       "status": "candidate-context",
       "text": "Publish NuGet package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVorbis/NVorbis",
+      "status": "candidate-context",
+      "text": "C# Ogg Vorbis decoder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVorbis/NVorbis",
+      "status": "candidate-context",
+      "text": "Publish Nuget Package"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +77,12 @@
       "source_repo": "Devolutions/IronRDP",
       "status": "candidate",
       "text": "Publish NuGet package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVorbis/NVorbis",
+      "status": "candidate",
+      "text": "Publish Nuget Package"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +144,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/nuget-publish.yml",
       "source_repo": "Devolutions/IronRDP"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": ".github/workflows/publish-nuget.yml",
+      "source_repo": "NVorbis/NVorbis"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "lexical_providers": [
     "datamuse"
   ],

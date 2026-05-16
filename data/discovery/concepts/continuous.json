@@ -49,6 +49,18 @@
       "source_repo": "kripken/ammo.js",
       "status": "candidate-context",
       "text": "continuous"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MiloszKrajewski/K4os.Compression.LZ4",
+      "status": "candidate-context",
+      "text": "LZ4/LH4HC compression for .NET Standard 1.6/2.0 (formerly known as lz4net) "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MiloszKrajewski/K4os.Compression.LZ4",
+      "status": "candidate-context",
+      "text": "continuous"
     }
   ],
   "candidate_glosses": [
@@ -73,6 +85,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "kripken/ammo.js",
+      "status": "candidate",
+      "text": "continuous"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MiloszKrajewski/K4os.Compression.LZ4",
       "status": "candidate",
       "text": "continuous"
     }
@@ -352,11 +370,23 @@
       "observed_at": "2026-05-16T00:38:16.846047+00:00",
       "source_file": ".github/workflows/continuous.yaml",
       "source_repo": "googleapis/google-cloud-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": ".github/workflows/continuous.yaml",
+      "source_repo": "googleapis/google-cloud-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": ".github/workflows/continuous.yml",
+      "source_repo": "MiloszKrajewski/K4os.Compression.LZ4"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "lexical_providers": [
     "datamuse"
   ],

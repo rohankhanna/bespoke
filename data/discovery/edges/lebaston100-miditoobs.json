@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lebaston100/MIDItoOBS",
+      "target": "obsproject/obs-studio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lebaston100/MIDItoOBS",
+      "target": "msiemens/tinydb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lebaston100/MIDItoOBS",
+      "target": "olemb/mido",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lebaston100/MIDItoOBS",
+      "target": "obsproject/obs-websocket",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lebaston100/MIDItoOBS",
+      "target": "midi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lebaston100/MIDItoOBS",
+      "target": "midi-controller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lebaston100/MIDItoOBS",
+      "target": "obs-remote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lebaston100/MIDItoOBS",
+      "target": "obs-studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lebaston100/MIDItoOBS",
+      "target": "obs-websocket",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-16T18:25:29.547854+00:00",
+  "source_repo": "lebaston100/MIDItoOBS"
+}

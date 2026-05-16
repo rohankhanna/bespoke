@@ -43,6 +43,18 @@
       "source_repo": "pdeljanov/Symphonia",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVorbis/NVorbis",
+      "status": "candidate-context",
+      "text": "C# Ogg Vorbis decoder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVorbis/NVorbis",
+      "status": "candidate-context",
+      "text": "NVorbis [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ioctlLR/NVorbis?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "pdeljanov/Symphonia",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVorbis/NVorbis",
+      "status": "candidate",
+      "text": "NVorbis [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ioctlLR/NVorbis?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "pdeljanov/Symphonia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T18:25:29.547854+00:00",
+      "source_file": null,
+      "source_repo": "NVorbis/NVorbis"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "lexical_providers": [
     "datamuse"
   ],

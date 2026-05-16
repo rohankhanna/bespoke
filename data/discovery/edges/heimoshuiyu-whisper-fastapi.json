@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "heimoshuiyu/whisper-fastapi",
+      "target": "heimoshuiyu/faster-whisper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heimoshuiyu/whisper-fastapi",
+      "target": "fastapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heimoshuiyu/whisper-fastapi",
+      "target": "konele",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heimoshuiyu/whisper-fastapi",
+      "target": "whisper",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-16T18:25:29.547854+00:00",
+  "source_repo": "heimoshuiyu/whisper-fastapi"
+}

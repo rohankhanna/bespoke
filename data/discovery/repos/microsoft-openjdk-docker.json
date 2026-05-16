@@ -1,0 +1,208 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-versions.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-versions.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-published-images.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-published-images.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-published-images.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "microsoft/openjdk-docker",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "microsoft/openjdk-docker",
+      "target": "Build Docker Images CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-versions.yml",
+      "source_repo": "microsoft/openjdk-docker",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-versions.yml",
+      "source_repo": "microsoft/openjdk-docker",
+      "target": "Check Expected Versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-published-images.yml",
+      "source_repo": "microsoft/openjdk-docker",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-published-images.yml",
+      "source_repo": "microsoft/openjdk-docker",
+      "target": "Validate Published Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/openjdk-docker",
+      "target": "container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/openjdk-docker",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/openjdk-docker",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/openjdk-docker",
+      "target": "microsoft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/openjdk-docker",
+      "target": "openjdk",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T19:37:04.210333+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1345
+    },
+    {
+      "path": ".github/workflows/build-images.yml",
+      "size": 1632
+    },
+    {
+      "path": ".github/workflows/check-versions.yml",
+      "size": 2110
+    },
+    {
+      "path": ".github/workflows/validate-published-images.yml",
+      "size": 2307
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repository of Container Images for the official MSFT Build of OpenJDK",
+    "fork": false,
+    "full_name": "microsoft/openjdk-docker",
+    "html_url": "https://github.com/microsoft/openjdk-docker",
+    "language": "Shell",
+    "pushed_at": "2026-05-11T09:24:43Z",
+    "stargazers_count": 13,
+    "topics": [
+      "container",
+      "docker",
+      "java",
+      "microsoft",
+      "openjdk"
+    ],
+    "updated_at": "2026-05-01T15:59:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Docker Images CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-images.yml",
+      "term": "Build Docker Images CI"
+    },
+    {
+      "context_snippet": "Check Expected Versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-versions.yml",
+      "term": "Check Expected Versions"
+    },
+    {
+      "context_snippet": "Validate Published Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-published-images.yml",
+      "term": "Validate Published Images"
+    },
+    {
+      "context_snippet": "This repository contains the Dockerfiles for the official container images of Microsoft Build of OpenJDK. These images are officially hosted in the [Microsoft Container Registry (MCR)](https://mcr.microsoft.com/en-us/product/openjdk/jdk/about).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container"
+    },
+    {
+      "context_snippet": "This repository contains the Dockerfiles for the official container images of Microsoft Build of OpenJDK. These images are officially hosted in the [Microsoft Container Registry (MCR)](https://mcr.microsoft.com/en-us/product/openjdk/jdk/about).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "This repository contains the Dockerfiles for the official container images of Microsoft Build of OpenJDK. These images are officially hosted in the [Microsoft Container Registry (MCR)](https://mcr.microsoft.com/en-us/product/openjdk/jdk/about).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "This repository contains the Dockerfiles for the official container images of Microsoft Build of OpenJDK. These images are officially hosted in the [Microsoft Container Registry (MCR)](https://mcr.microsoft.com/en-us/product/openjdk/jdk/about).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft"
+    },
+    {
+      "context_snippet": "This repository contains the Dockerfiles for the official container images of Microsoft Build of OpenJDK. These images are officially hosted in the [Microsoft Container Registry (MCR)](https://mcr.microsoft.com/en-us/product/openjdk/jdk/about).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openjdk"
+    }
+  ]
+}
