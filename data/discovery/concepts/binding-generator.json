@@ -55,6 +55,18 @@
       "source_repo": "Aleph-Alpha/ts-rs",
       "status": "candidate-context",
       "text": "<h1 align=\"center\" style=\"padding-top: 0; margin-top: 0;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cginternals/khrbinding-generator",
+      "status": "candidate-context",
+      "text": "A Python generator for the Khronos APIs OpenGL, OpenGL ES, OpenGL SC, and EGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cginternals/khrbinding-generator",
+      "status": "candidate-context",
+      "text": "1. Load XML from Khronos repository"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "Aleph-Alpha/ts-rs",
       "status": "candidate",
       "text": "<h1 align=\"center\" style=\"padding-top: 0; margin-top: 0;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cginternals/khrbinding-generator",
+      "status": "candidate",
+      "text": "1. Load XML from Khronos repository"
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +160,17 @@
       "observed_at": "2026-05-13T00:41:47.952744+00:00",
       "source_file": null,
       "source_repo": "Aleph-Alpha/ts-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "cginternals/khrbinding-generator"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T00:41:47.952744+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

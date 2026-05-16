@@ -13,14 +13,14 @@
     {
       "source_kind": "source-snippet",
       "status": "context-only",
-      "text": "[![Build Status](https://dev.azure.com/usami-ssc/usami-ssc/_apis/build/status/unknownue.vulkan-tutorial-rust?branchName=master)](https://dev.azure.com/usami-ssc/usami-ssc/_build/latest?definitionId=5&branchName=master) [![LICENSE](https://img.shields.io/badge/license-MIT-blue.sv\u2026"
+      "text": "[package] name = \"vulkan-tutorial-rust\" version = \"1.0.0\" edition = \"2018\" authors = [\"unknownue <usami-ssc@protonmail.com>\"] [dependencies] winit = \"0.20.0\" ash = \"0.29.0\" num = \"0.2\" cgmath = \"0.17.0\" image = \"0.22\" memoffset = \"0.5.1\" tobj = \"0.1.10\" [dependencies.bitflags] v\u2026"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "status": "candidate",
-      "text": "[![Build Status](https://dev.azure.com/usami-ssc/usami-ssc/_apis/build/status/unknownue.vulkan-tutorial-rust?branchName=master)](https://dev.azure.com/usami-ssc/usami-ssc/_build/latest?definitionId=5&branchName=master) [![LICENSE](https://img.shields.io/badge/license-MIT-blue.sv\u2026"
+      "text": "[package] name = \"vulkan-tutorial-rust\" version = \"1.0.0\" edition = \"2018\" authors = [\"unknownue <usami-ssc@protonmail.com>\"] [dependencies] winit = \"0.20.0\" ash = \"0.29.0\" num = \"0.2\" cgmath = \"0.17.0\" image = \"0.22\" memoffset = \"0.5.1\" tobj = \"0.1.10\" [dependencies.bitflags] v\u2026"
     }
   ],
   "candidate_primary_bucket": "tool-component",
@@ -63,9 +63,9 @@
   "normalized_form": "vulkan",
   "observation_id": "034056eac392a261",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-16T00:38:16.846047+00:00",
+  "observed_at": "2026-05-16T06:55:35.086614+00:00",
   "observed_text": "vulkan",
-  "source_context_snippet": "[![Build Status](https://dev.azure.com/usami-ssc/usami-ssc/_apis/build/status/unknownue.vulkan-tutorial-rust?branchName=master)](https://dev.azure.com/usami-ssc/usami-ssc/_build/latest?definitionId=5&branchName=master) [![LICENSE](https://img.shields.io/badge/license-MIT-blue.sv\u2026",
+  "source_context_snippet": "[package] name = \"vulkan-tutorial-rust\" version = \"1.0.0\" edition = \"2018\" authors = [\"unknownue <usami-ssc@protonmail.com>\"] [dependencies] winit = \"0.20.0\" ash = \"0.29.0\" num = \"0.2\" cgmath = \"0.17.0\" image = \"0.22\" memoffset = \"0.5.1\" tobj = \"0.1.10\" [dependencies.bitflags] v\u2026",
   "source_file": null,
   "source_repo": "unknownue/vulkan-tutorial-rust",
   "source_repo_description": "Following the vulkan tutorial(https://vulkan-tutorial.com/) using the Rust programming language."

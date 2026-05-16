@@ -379,6 +379,42 @@
       "source_repo": "chromelyapps/Chromely",
       "status": "candidate-context",
       "text": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FreneticLLC/FreneticUtilities",
+      "status": "candidate-context",
+      "text": "Various C# utilities used by Frenetic LLC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FreneticLLC/FreneticUtilities",
+      "status": "candidate-context",
+      "text": "FreneticUtilities"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JamesNK/Newtonsoft.Json",
+      "status": "candidate-context",
+      "text": "Json.NET is a popular high-performance JSON framework for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesNK/Newtonsoft.Json",
+      "status": "candidate-context",
+      "text": "[![NuGet version (Newtonsoft.Json)](https://img.shields.io/nuget/v/Newtonsoft.Json.svg?style=flat-square)](https://www.nuget.org/packages/Newtonsoft.Json/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FreneticLLC/FreneticGameEngine",
+      "status": "candidate-context",
+      "text": "A powerful C# based 3D and 2D game engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FreneticLLC/FreneticGameEngine",
+      "status": "candidate-context",
+      "text": "The Frenetic Game Engine"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +603,24 @@
       "source_repo": "chromelyapps/Chromely",
       "status": "candidate",
       "text": "For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FreneticLLC/FreneticUtilities",
+      "status": "candidate",
+      "text": "FreneticUtilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JamesNK/Newtonsoft.Json",
+      "status": "candidate",
+      "text": "[![NuGet version (Newtonsoft.Json)](https://img.shields.io/nuget/v/Newtonsoft.Json.svg?style=flat-square)](https://www.nuget.org/packages/Newtonsoft.Json/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FreneticLLC/FreneticGameEngine",
+      "status": "candidate",
+      "text": "The Frenetic Game Engine"
     }
   ],
   "candidate_related_terms": [
@@ -814,11 +868,29 @@
       "observed_at": "2026-05-08T12:43:50.373126+00:00",
       "source_file": null,
       "source_repo": "chromelyapps/Chromely"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "FreneticLLC/FreneticUtilities"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "JamesNK/Newtonsoft.Json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "FreneticLLC/FreneticGameEngine"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

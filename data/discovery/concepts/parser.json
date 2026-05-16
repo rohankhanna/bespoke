@@ -1075,6 +1075,18 @@
       "source_repo": "go-playground/form",
       "status": "candidate-context",
       "text": "Package form"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mike-lischke/antlr4ng",
+      "status": "candidate-context",
+      "text": "Next Generation TypeScript runtime for ANTLR4"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mike-lischke/antlr4ng",
+      "status": "candidate-context",
+      "text": "antlr4ng \u2014 Alternative JavaScript/TypeScript runtime for ANTLR4"
     }
   ],
   "candidate_glosses": [
@@ -1611,6 +1623,12 @@
       "source_repo": "go-playground/form",
       "status": "candidate",
       "text": "Package form"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mike-lischke/antlr4ng",
+      "status": "candidate",
+      "text": "antlr4ng \u2014 Alternative JavaScript/TypeScript runtime for ANTLR4"
     }
   ],
   "candidate_related_terms": [
@@ -2470,11 +2488,23 @@
       "observed_at": "2026-05-16T00:38:16.846047+00:00",
       "source_file": null,
       "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "mike-lischke/antlr4ng"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

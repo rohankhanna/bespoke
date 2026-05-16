@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pure Data -  a free real-time computer music system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "pure-data"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "pure-data"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "pure-data",
+      "sense_id": "pure-data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pure-data",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pure-data",
+  "observation_id": "edf6a1571b4223c5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-16T06:55:35.086614+00:00",
+  "observed_text": "pure-data",
+  "source_context_snippet": "pure-data",
+  "source_file": ".github/workflows/puredata.yml",
+  "source_repo": "pure-data/pure-data",
+  "source_repo_description": "Pure Data -  a free real-time computer music system"
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v3",
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -3667,6 +3667,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-release-build.yml",
       "source_repo": "GladysAssistant/Gladys"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "starfishmod/bonjour-service"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "onlxltd/bonjour-service"
     }
   ]
 }

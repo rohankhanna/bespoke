@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v6",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -39812,6 +39812,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/native-libraries-macOS.yaml",
       "source_repo": "java-native-access/jna"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vovkos/axl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "boostorg/pfr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "celtera/avendish-audio-processor-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_vs2022.yml",
+      "source_repo": "celtera/avendish-audio-processor-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "watson/bonjour"
     }
   ]
 }

@@ -295,6 +295,18 @@
       "source_repo": "kubeovn/kube-ovn",
       "status": "candidate-context",
       "text": "<img src=\"https://raw.githubusercontent.com/cncf/artwork/main/projects/kube-ovn/horizontal/color/kube-ovn-horizontal-color.svg\" alt=\"kube_ovn_logo\" width=\"500\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onlxltd/bonjour-service",
+      "status": "candidate-context",
+      "text": "A Bonjour/Zeroconf protocol implementation in TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onlxltd/bonjour-service",
+      "status": "candidate-context",
+      "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/onlxltd/bonjour-service/publish-release.yml?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/bonjour-service?style=flat-square) ![GitHub Release Date](https://img.shields\u2026"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +453,12 @@
       "source_repo": "kubeovn/kube-ovn",
       "status": "candidate",
       "text": "<img src=\"https://raw.githubusercontent.com/cncf/artwork/main/projects/kube-ovn/horizontal/color/kube-ovn-horizontal-color.svg\" alt=\"kube_ovn_logo\" width=\"500\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onlxltd/bonjour-service",
+      "status": "candidate",
+      "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/onlxltd/bonjour-service/publish-release.yml?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/bonjour-service?style=flat-square) ![GitHub Release Date](https://img.shields\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1966,11 +1984,47 @@
       "observed_at": "2026-05-16T00:38:16.846047+00:00",
       "source_file": null,
       "source_repo": "Deep-Symmetry/dysentery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link-trigger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/dysentery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "onlxltd/bonjour-service"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

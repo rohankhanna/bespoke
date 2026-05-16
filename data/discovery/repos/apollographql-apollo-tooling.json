@@ -609,7 +609,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T02:58:35.620063+00:00",
+  "fetched_at": "2026-05-16T09:58:02.996435+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -634,7 +634,7 @@
     "html_url": "https://github.com/apollographql/apollo-tooling",
     "language": "TypeScript",
     "pushed_at": "2026-05-14T00:27:43Z",
-    "stargazers_count": 3042,
+    "stargazers_count": 3041,
     "topics": [
       "code-generation",
       "flow",
@@ -642,7 +642,7 @@
       "swift",
       "typescript"
     ],
-    "updated_at": "2026-04-08T12:51:06Z"
+    "updated_at": "2026-05-16T08:14:18Z"
   },
   "repo_links": [
     {

@@ -2,13 +2,6 @@
   "components": [],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/3D-Speaker",
-      "target": "yuyq96/d-tdnn",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/3D-Speaker",
@@ -79,7 +72,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T00:51:59.078610+00:00",
+  "fetched_at": "2026-05-16T07:57:10.468639+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -115,13 +108,7 @@
     ],
     "updated_at": "2026-05-14T22:29:40Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "yuyq96/d-tdnn",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "<p align=\"center\">",

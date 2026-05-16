@@ -43,6 +43,18 @@
       "source_repo": "hazelcast/hazelcast-cpp-client",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boostorg/pfr",
+      "status": "candidate-context",
+      "text": "std::tuple like methods for user defined types without any macro or boilerplate code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boostorg/pfr",
+      "status": "candidate-context",
+      "text": "This is a C++14 library for very basic reflection that gives you access to structure elements by index and provides other `std::tuple` like methods for user defined types without any macro or boilerplate code."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "hazelcast/hazelcast-cpp-client",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boostorg/pfr",
+      "status": "candidate",
+      "text": "This is a C++14 library for very basic reflection that gives you access to structure elements by index and provides other `std::tuple` like methods for user defined types without any macro or boilerplate code."
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "hazelcast/hazelcast-cpp-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "boostorg/pfr"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

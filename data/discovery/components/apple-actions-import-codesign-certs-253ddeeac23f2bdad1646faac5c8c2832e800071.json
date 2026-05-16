@@ -1,0 +1,12 @@
+{
+  "component": "apple-actions/import-codesign-certs@253ddeeac23f2bdad1646faac5c8c2832e800071",
+  "first_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml",
+      "source_repo": "cpyarger/obs-midi"
+    }
+  ]
+}

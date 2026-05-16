@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ni-midi2 is a C++17 library implementing MIDI2 UMP 1.1 and MIDI CI 1.2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`ni-midi2` is a C++ library for working with MIDI 2 Universal MIDI Packets (UMP) and MIDI-CI 1.2 messages."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`ni-midi2` is a C++ library for working with MIDI 2 Universal MIDI Packets (UMP) and MIDI-CI 1.2 messages."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "midi2",
+      "sense_id": "midi2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "midi2",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "midi2",
+  "observation_id": "94f0341e95cc5760",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-16T06:55:35.086614+00:00",
+  "observed_text": "midi2",
+  "source_context_snippet": "`ni-midi2` is a C++ library for working with MIDI 2 Universal MIDI Packets (UMP) and MIDI-CI 1.2 messages.",
+  "source_file": null,
+  "source_repo": "midi2-dev/ni-midi2",
+  "source_repo_description": "ni-midi2 is a C++17 library implementing MIDI2 UMP 1.1 and MIDI CI 1.2"
+}

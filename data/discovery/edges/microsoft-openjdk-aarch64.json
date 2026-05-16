@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/openjdk-aarch64",
+      "target": "microsoft/openjdk",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-16T06:55:35.086614+00:00",
+  "source_repo": "microsoft/openjdk-aarch64"
+}

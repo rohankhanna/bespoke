@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/format-crash-report-in-issue-body.yml",
+      "source_repo": "microsoft/openjdk"
+    }
+  ],
+  "term": "Format crash report in issue body"
+}

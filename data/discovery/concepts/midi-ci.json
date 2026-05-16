@@ -31,6 +31,18 @@
       "source_repo": "midi2-dev/MIDI2.0Workbench",
       "status": "candidate-context",
       "text": "![img.png](img.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "midi2-dev/ni-midi2",
+      "status": "candidate-context",
+      "text": "ni-midi2 is a C++17 library implementing MIDI2 UMP 1.1 and MIDI CI 1.2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "midi2-dev/ni-midi2",
+      "status": "candidate-context",
+      "text": "`ni-midi2` is a C++ library for working with MIDI 2 Universal MIDI Packets (UMP) and MIDI-CI 1.2 messages."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "midi2-dev/MIDI2.0Workbench",
       "status": "candidate",
       "text": "![img.png](img.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "midi2-dev/ni-midi2",
+      "status": "candidate",
+      "text": "`ni-midi2` is a C++ library for working with MIDI 2 Universal MIDI Packets (UMP) and MIDI-CI 1.2 messages."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-16T00:38:16.846047+00:00",
       "source_file": null,
       "source_repo": "midi2-dev/MIDI2.0Workbench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "midi2-dev/ni-midi2"
     }
   ],
   "first_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

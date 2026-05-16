@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-16T07:18:31.283686+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 457
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "jna-posix",
+    "description": null,
+    "fork": false,
+    "full_name": "jenkinsci/jna-posix",
+    "html_url": "https://github.com/jenkinsci/jna-posix",
+    "language": "Java",
+    "pushed_at": "2022-07-14T23:03:47Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-08-13T11:12:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

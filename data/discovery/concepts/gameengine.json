@@ -19,6 +19,18 @@
       "source_repo": "ggez/ggez",
       "status": "candidate-context",
       "text": "[![ggez logo](docs/ggez-logo-maroon-full.svg)](http://ggez.rs/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FreneticLLC/FreneticGameEngine",
+      "status": "candidate-context",
+      "text": "A powerful C# based 3D and 2D game engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FreneticLLC/FreneticGameEngine",
+      "status": "candidate-context",
+      "text": "The Frenetic Game Engine"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ggez/ggez",
       "status": "candidate",
       "text": "[![ggez logo](docs/ggez-logo-maroon-full.svg)](http://ggez.rs/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FreneticLLC/FreneticGameEngine",
+      "status": "candidate",
+      "text": "The Frenetic Game Engine"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ggez/ggez"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "FreneticLLC/FreneticGameEngine"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

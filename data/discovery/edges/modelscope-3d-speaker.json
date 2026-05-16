@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/3D-Speaker",
-      "target": "yuyq96/d-tdnn",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/3D-Speaker",
@@ -78,6 +71,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-16T00:38:16.846047+00:00",
+  "generated_at": "2026-05-16T06:55:35.086614+00:00",
   "source_repo": "modelscope/3D-Speaker"
 }

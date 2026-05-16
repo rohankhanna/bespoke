@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-16T07:57:20.087332+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2480
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Diffusion-LM ",
+    "fork": false,
+    "full_name": "XiangLi1999/Diffusion-LM",
+    "html_url": "https://github.com/XiangLi1999/Diffusion-LM",
+    "language": "Python",
+    "pushed_at": "2024-08-08T08:49:53Z",
+    "stargazers_count": 1242,
+    "topics": [],
+    "updated_at": "2026-05-12T17:53:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -649,7 +649,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T03:48:59.165247+00:00",
+  "fetched_at": "2026-05-16T10:05:29.428551+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -686,7 +686,7 @@
     "html_url": "https://github.com/graphql-hive/graphql-config",
     "language": "TypeScript",
     "pushed_at": "2026-03-25T21:54:45Z",
-    "stargazers_count": 1201,
+    "stargazers_count": 1200,
     "topics": [
       "apollo",
       "devtools",
@@ -697,7 +697,7 @@
       "relay",
       "the-guild"
     ],
-    "updated_at": "2026-04-28T22:18:12Z"
+    "updated_at": "2026-05-16T08:18:40Z"
   },
   "repo_links": [
     {

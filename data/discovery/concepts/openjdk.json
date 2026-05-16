@@ -67,6 +67,18 @@
       "source_repo": "openjdk/jdk",
       "status": "candidate-context",
       "text": "For build instructions please see the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/openjdk",
+      "status": "candidate-context",
+      "text": "Microsoft Build of OpenJDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/openjdk",
+      "status": "candidate-context",
+      "text": "To learn more about this distribution, visit [microsoft.com/openjdk](https://www.microsoft.com/openjdk)."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "openjdk/jdk",
       "status": "candidate",
       "text": "For build instructions please see the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/openjdk",
+      "status": "candidate",
+      "text": "To learn more about this distribution, visit [microsoft.com/openjdk](https://www.microsoft.com/openjdk)."
     }
   ],
   "candidate_related_terms": [
@@ -376,11 +394,23 @@
       "observed_at": "2026-05-16T00:38:16.846047+00:00",
       "source_file": null,
       "source_repo": "sbt/sbt-jmh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "sbt/sbt-jmh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/openjdk"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

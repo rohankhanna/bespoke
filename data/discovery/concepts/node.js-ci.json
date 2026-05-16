@@ -1639,6 +1639,30 @@
       "source_repo": "nurikk/zigbee2mqtt-frontend",
       "status": "candidate-context",
       "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "starfishmod/bonjour-service",
+      "status": "candidate-context",
+      "text": "A Bonjour/Zeroconf protocol implementation in TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "starfishmod/bonjour-service",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onlxltd/bonjour-service",
+      "status": "candidate-context",
+      "text": "A Bonjour/Zeroconf protocol implementation in TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onlxltd/bonjour-service",
+      "status": "candidate-context",
+      "text": "Node.js CI"
     }
   ],
   "candidate_glosses": [
@@ -2461,6 +2485,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nurikk/zigbee2mqtt-frontend",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "starfishmod/bonjour-service",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onlxltd/bonjour-service",
       "status": "candidate",
       "text": "Node.js CI"
     }
@@ -5344,11 +5380,71 @@
       "observed_at": "2026-05-16T00:38:16.846047+00:00",
       "source_file": ".github/workflows/node.js.yml",
       "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "celestiaorg/protobuf3-solidity-lib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "starfishmod/bonjour-service"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "vipermind/flake-idgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": ".github/workflows/node_build.yml",
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "DefinitelyTyped/dts-critic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "geotiffjs/geotiff.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "onlxltd/bonjour-service"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

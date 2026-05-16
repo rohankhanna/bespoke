@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-16T10:12:50.062453+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Proof of concept | A C++ binding for the OpenGL SC API, generated using the gl.xml specification.",
+    "fork": false,
+    "full_name": "cginternals/glscbinding-poc",
+    "html_url": "https://github.com/cginternals/glscbinding-poc",
+    "language": "C++",
+    "pushed_at": "2024-02-28T09:36:16Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-02-28T09:36:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

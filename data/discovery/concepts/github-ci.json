@@ -308,6 +308,18 @@
       "source_repo": "vovkos/doxyrest_b",
       "status": "candidate-context",
       "text": "GitHub CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vovkos/axl",
+      "status": "candidate-context",
+      "text": "AXL is a lightweight C++ library featuring Java naming convention, non-zero-terminated UTF-8 string slices as the default string-passing model, Lua-based string template engine, incremental regular expression engine, wrappers for many popular libraries, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vovkos/axl",
+      "status": "candidate-context",
+      "text": "GitHub CI"
     }
   ],
   "candidate_glosses": [
@@ -464,6 +476,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "vovkos/doxyrest_b",
+      "status": "candidate",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vovkos/axl",
       "status": "candidate",
       "text": "GitHub CI"
     }
@@ -671,11 +689,17 @@
       "observed_at": "2026-05-16T00:38:16.846047+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "vovkos/doxyrest_b"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vovkos/axl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

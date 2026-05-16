@@ -465,6 +465,18 @@
       "source_repo": "arthuro555/THNK",
       "status": "candidate-context",
       "text": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onlxltd/bonjour-service",
+      "status": "candidate-context",
+      "text": "A Bonjour/Zeroconf protocol implementation in TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onlxltd/bonjour-service",
+      "status": "candidate-context",
+      "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/onlxltd/bonjour-service/publish-release.yml?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/bonjour-service?style=flat-square) ![GitHub Release Date](https://img.shields\u2026"
     }
   ],
   "candidate_glosses": [
@@ -695,6 +707,12 @@
       "source_repo": "arthuro555/THNK",
       "status": "candidate",
       "text": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onlxltd/bonjour-service",
+      "status": "candidate",
+      "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/onlxltd/bonjour-service/publish-release.yml?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/bonjour-service?style=flat-square) ![GitHub Release Date](https://img.shields\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1713,11 +1731,35 @@
       "observed_at": "2026-05-16T00:38:16.846047+00:00",
       "source_file": null,
       "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "Billionmail/BillionMail"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "jupyter-server/jupyter_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "onlxltd/bonjour-service"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

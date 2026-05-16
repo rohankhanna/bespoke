@@ -283,6 +283,18 @@
       "source_repo": "ohmyzsh/ohmyzsh",
       "status": "candidate-context",
       "text": "\ud83d\ude43   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "steinbergmedia/vst3sdk",
+      "status": "candidate-context",
+      "text": "VST 3 Plug-In SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "steinbergmedia/vst3sdk",
+      "status": "candidate-context",
+      "text": "<div style=\"text-align:center\">"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +435,12 @@
       "source_repo": "windicss/plugins",
       "status": "candidate",
       "text": "Collection of plugins for [Windi CSS](https://github.com/windicss/windicss)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "steinbergmedia/vst3sdk",
+      "status": "candidate",
+      "text": "<div style=\"text-align:center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1126,11 +1144,29 @@
       "observed_at": "2026-05-16T00:38:16.846047+00:00",
       "source_file": null,
       "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "steinbergmedia/vst3sdk"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

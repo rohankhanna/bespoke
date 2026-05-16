@@ -190,6 +190,18 @@
       "source_repo": "joelshepherd/tabliss",
       "status": "candidate-context",
       "text": "Push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nhielost/obs-midi-mg",
+      "status": "candidate-context",
+      "text": "Allows MIDI devices to interact with OBS Studio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nhielost/obs-midi-mg",
+      "status": "candidate-context",
+      "text": "Push"
     }
   ],
   "candidate_glosses": [
@@ -280,6 +292,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "joelshepherd/tabliss",
+      "status": "candidate",
+      "text": "Push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nhielost/obs-midi-mg",
       "status": "candidate",
       "text": "Push"
     }
@@ -685,11 +703,23 @@
       "observed_at": "2026-05-16T00:38:16.846047+00:00",
       "source_file": null,
       "source_repo": "Deep-Symmetry/wayang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/wayang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "nhielost/obs-midi-mg"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

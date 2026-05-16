@@ -285,6 +285,18 @@
       "source_repo": "microsoft/vstest",
       "status": "candidate-context",
       "text": "The Visual Studio Test Platform is an open and extensible test platform that runs tests, collects diagnostics data, and reports results. The Test Platform supports running tests written in various test frameworks, and using a pluggable adapter model. Based on user-choice, the de\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boostorg/pfr",
+      "status": "candidate-context",
+      "text": "std::tuple like methods for user defined types without any macro or boilerplate code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boostorg/pfr",
+      "status": "candidate-context",
+      "text": "This is a C++14 library for very basic reflection that gives you access to structure elements by index and provides other `std::tuple` like methods for user defined types without any macro or boilerplate code."
     }
   ],
   "candidate_glosses": [
@@ -425,6 +437,12 @@
       "source_repo": "microsoft/vstest",
       "status": "candidate",
       "text": "The Visual Studio Test Platform is an open and extensible test platform that runs tests, collects diagnostics data, and reports results. The Test Platform supports running tests written in various test frameworks, and using a pluggable adapter model. Based on user-choice, the de\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boostorg/pfr",
+      "status": "candidate",
+      "text": "This is a C++14 library for very basic reflection that gives you access to structure elements by index and provides other `std::tuple` like methods for user defined types without any macro or boilerplate code."
     }
   ],
   "candidate_related_terms": [],
@@ -576,11 +594,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "microsoft/vstest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "boostorg/pfr"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

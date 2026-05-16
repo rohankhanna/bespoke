@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "midi2-dev/ni-midi2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "midi2-dev/ni-midi2",
+      "target": "codecov/codecov-action@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "midi2-dev/ni-midi2",
+      "target": "ni-midi2 CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "midi2-dev/ni-midi2",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "midi2-dev/ni-midi2",
+      "target": "midi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "midi2-dev/ni-midi2",
+      "target": "midi-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "midi2-dev/ni-midi2",
+      "target": "midi2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "midi2-dev/ni-midi2",
+      "target": "music",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-16T06:55:35.086614+00:00",
+  "source_repo": "midi2-dev/ni-midi2"
+}

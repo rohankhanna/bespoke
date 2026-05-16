@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-16T10:13:14.442634+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1006
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LinqPad driver for LiteDB",
+    "fork": false,
+    "full_name": "adospace/litedbpad",
+    "html_url": "https://github.com/adospace/litedbpad",
+    "language": "C#",
+    "pushed_at": "2025-12-29T16:31:44Z",
+    "stargazers_count": 66,
+    "topics": [],
+    "updated_at": "2026-04-01T19:40:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

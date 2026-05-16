@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "steinbergmedia/vst3sdk",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "steinbergmedia/vst3sdk",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "steinbergmedia/vst3sdk",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "steinbergmedia/vst3sdk",
+      "target": "plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "steinbergmedia/vst3sdk",
+      "target": "vst3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "steinbergmedia/vst3sdk",
+      "target": "win32",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-16T06:55:35.086614+00:00",
+  "source_repo": "steinbergmedia/vst3sdk"
+}

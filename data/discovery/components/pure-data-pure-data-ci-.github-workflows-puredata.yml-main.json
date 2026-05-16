@@ -1,0 +1,12 @@
+{
+  "component": "pure-data/pure-data-ci/.github/workflows/puredata.yml@main",
+  "first_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/puredata.yml",
+      "source_repo": "pure-data/pure-data"
+    }
+  ]
+}

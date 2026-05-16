@@ -367,6 +367,30 @@
       "source_repo": "NVIDIA/cub",
       "status": "candidate-context",
       "text": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "midi2-dev/ni-midi2",
+      "status": "candidate-context",
+      "text": "ni-midi2 is a C++17 library implementing MIDI2 UMP 1.1 and MIDI CI 1.2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "midi2-dev/ni-midi2",
+      "status": "candidate-context",
+      "text": "`ni-midi2` is a C++ library for working with MIDI 2 Universal MIDI Packets (UMP) and MIDI-CI 1.2 messages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boostorg/pfr",
+      "status": "candidate-context",
+      "text": "std::tuple like methods for user defined types without any macro or boilerplate code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boostorg/pfr",
+      "status": "candidate-context",
+      "text": "This is a C++14 library for very basic reflection that gives you access to structure elements by index and provides other `std::tuple` like methods for user defined types without any macro or boilerplate code."
     }
   ],
   "candidate_glosses": [
@@ -549,6 +573,18 @@
       "source_repo": "NVIDIA/cub",
       "status": "candidate",
       "text": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "midi2-dev/ni-midi2",
+      "status": "candidate",
+      "text": "`ni-midi2` is a C++ library for working with MIDI 2 Universal MIDI Packets (UMP) and MIDI-CI 1.2 messages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boostorg/pfr",
+      "status": "candidate",
+      "text": "This is a C++14 library for very basic reflection that gives you access to structure elements by index and provides other `std::tuple` like methods for user defined types without any macro or boilerplate code."
     }
   ],
   "candidate_related_terms": [],
@@ -1180,11 +1216,35 @@
       "observed_at": "2026-05-16T00:38:16.846047+00:00",
       "source_file": null,
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "midi2-dev/ni-midi2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "boostorg/pfr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "nonstd-lite/string-view-lite"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

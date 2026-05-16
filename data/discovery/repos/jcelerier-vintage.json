@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-16T07:18:05.508230+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1603
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Declarative audio plug-ins in C++",
+    "fork": false,
+    "full_name": "jcelerier/vintage",
+    "html_url": "https://github.com/jcelerier/vintage",
+    "language": "C++",
+    "pushed_at": "2021-07-19T17:23:13Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2026-02-28T05:22:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

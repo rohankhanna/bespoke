@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FreneticLLC/FreneticUtilities",
+      "target": "freneticllc/freneticgameengine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FreneticLLC/FreneticUtilities",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FreneticLLC/FreneticUtilities",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FreneticLLC/FreneticUtilities",
+      "target": "frenetic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FreneticLLC/FreneticUtilities",
+      "target": "frenetic-utilities",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T07:57:13.240001+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2900
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Various C# utilities used by Frenetic LLC.",
+    "fork": false,
+    "full_name": "FreneticLLC/FreneticUtilities",
+    "html_url": "https://github.com/FreneticLLC/FreneticUtilities",
+    "language": "C#",
+    "pushed_at": "2026-01-12T20:40:03Z",
+    "stargazers_count": 16,
+    "topics": [
+      "c-sharp",
+      "csharp",
+      "dll",
+      "frenetic",
+      "frenetic-utilities"
+    ],
+    "updated_at": "2026-01-12T20:40:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "freneticllc/freneticgameengine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "FreneticUtilities",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "FreneticUtilities",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "FreneticUtilities",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frenetic"
+    },
+    {
+      "context_snippet": "FreneticUtilities",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frenetic-utilities"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Use MIDI devices to trigger events in OBS and vice versa"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "notarize-docker-image-bom"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "notarize-docker-image-bom"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "notarize-docker-image-bom",
+      "sense_id": "notarize-docker-image-bom#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "notarize-docker-image-bom",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "notarize-docker-image-bom",
+  "observation_id": "76fde204894d6171",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-16T06:55:35.086614+00:00",
+  "observed_text": "notarize-docker-image-bom",
+  "source_context_snippet": "notarize-docker-image-bom",
+  "source_file": ".github/workflows/notarize-docker-image-bom.yml",
+  "source_repo": "cpyarger/obs-midi",
+  "source_repo_description": "Use MIDI devices to trigger events in OBS and vice versa"
+}

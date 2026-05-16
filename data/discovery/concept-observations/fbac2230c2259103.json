@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Python generator for the Khronos APIs OpenGL, OpenGL ES, OpenGL SC, and EGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "1. Load XML from Khronos repository"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "1. Load XML from Khronos repository"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "opengl-sc",
+      "sense_id": "opengl-sc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "opengl-sc",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "opengl-sc",
+  "observation_id": "fbac2230c2259103",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-16T06:55:35.086614+00:00",
+  "observed_text": "opengl-sc",
+  "source_context_snippet": "1. Load XML from Khronos repository",
+  "source_file": null,
+  "source_repo": "cginternals/khrbinding-generator",
+  "source_repo_description": "A Python generator for the Khronos APIs OpenGL, OpenGL ES, OpenGL SC, and EGL"
+}

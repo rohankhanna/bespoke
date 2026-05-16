@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "pure-data/pure-data-ci/.github/workflows/puredata.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/puredata.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/puredata.yml",
+      "source_repo": "pure-data/pure-data",
+      "target": "pure-data/pure-data-ci/.github/workflows/puredata.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/puredata.yml",
+      "source_repo": "pure-data/pure-data",
+      "target": "pure-data",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T10:13:02.583296+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 2418
+    },
+    {
+      "path": ".github/workflows/puredata.yml",
+      "size": 295
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pure Data -  a free real-time computer music system",
+    "fork": false,
+    "full_name": "pure-data/pure-data",
+    "html_url": "https://github.com/pure-data/pure-data",
+    "language": "C",
+    "pushed_at": "2026-05-14T16:54:39Z",
+    "stargazers_count": 2008,
+    "topics": [],
+    "updated_at": "2026-05-13T23:18:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "pure-data",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/puredata.yml",
+      "term": "pure-data"
+    }
+  ]
+}

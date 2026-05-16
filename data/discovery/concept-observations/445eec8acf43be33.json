@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A powerful C# based 3D and 2D game engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The Frenetic Game Engine"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The Frenetic Game Engine"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010505,
+      "status": "candidate",
+      "text": "frenzied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009758,
+      "status": "candidate",
+      "text": "agitated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008800,
+      "status": "candidate",
+      "text": "frantic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010642,
+      "status": "candidate",
+      "text": "phrenetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009386,
+      "status": "candidate",
+      "text": "furious"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "frenetic",
+      "sense_id": "frenetic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 55029,
+      "status": "candidate",
+      "text": "agitated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 51035,
+      "status": "candidate",
+      "text": "frantic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34034,
+      "status": "candidate",
+      "text": "frenzied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10025,
+      "status": "candidate",
+      "text": "phrenetic"
+    }
+  ],
+  "concept_id": "frenetic",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "frenetic",
+  "observation_id": "445eec8acf43be33",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-16T06:55:35.086614+00:00",
+  "observed_text": "frenetic",
+  "source_context_snippet": "The Frenetic Game Engine",
+  "source_file": null,
+  "source_repo": "FreneticLLC/FreneticGameEngine",
+  "source_repo_description": "A powerful C# based 3D and 2D game engine."
+}

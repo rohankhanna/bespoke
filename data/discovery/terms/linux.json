@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -1276,6 +1276,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "FluidSynth/fluidsynth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "steinbergmedia/vst3sdk"
     }
   ],
   "term": "linux"

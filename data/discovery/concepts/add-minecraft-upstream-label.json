@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Add Minecraft upstream label"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/openjdk",
+      "status": "candidate-context",
+      "text": "Microsoft Build of OpenJDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/openjdk",
+      "status": "candidate-context",
+      "text": "Add Minecraft upstream label"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/openjdk",
+      "status": "candidate",
+      "text": "Add Minecraft upstream label"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22390,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21956,
+      "status": "candidate",
+      "text": "accent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21956,
+      "status": "candidate",
+      "text": "accent mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21956,
+      "status": "candidate",
+      "text": "acute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21956,
+      "status": "candidate",
+      "text": "acute accent"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add Minecraft upstream label",
+  "concept_id": "add-minecraft-upstream-label",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": ".github/workflows/minecraft-crash-reported-upstream-check.yml",
+      "source_repo": "microsoft/openjdk"
+    }
+  ],
+  "first_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add Minecraft upstream label",
+      "sense_id": "add-minecraft-upstream-label#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

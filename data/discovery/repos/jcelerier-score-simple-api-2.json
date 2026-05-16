@@ -1,0 +1,139 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jit.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jit.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yaml",
+      "source_repo": "jcelerier/score-simple-api-2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/builds.yaml",
+      "source_repo": "jcelerier/score-simple-api-2",
+      "target": "CMake build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jit.yml",
+      "source_repo": "jcelerier/score-simple-api-2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jit.yml",
+      "source_repo": "jcelerier/score-simple-api-2",
+      "target": "JIT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jcelerier/score-simple-api-2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jcelerier/score-simple-api-2",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jcelerier/score-simple-api-2",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T07:18:04.227605+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2294
+    },
+    {
+      "path": ".github/workflows/builds.yaml",
+      "size": 3053
+    },
+    {
+      "path": ".github/workflows/jit.yml",
+      "size": 6109
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 559
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "jcelerier/score-simple-api-2",
+    "html_url": "https://github.com/jcelerier/score-simple-api-2",
+    "language": "C++",
+    "pushed_at": "2022-02-24T21:06:03Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2022-07-12T05:44:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CMake build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/builds.yaml",
+      "term": "CMake build"
+    },
+    {
+      "context_snippet": "JIT",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jit.yml",
+      "term": "JIT"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

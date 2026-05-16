@@ -2,13 +2,6 @@
   "components": [],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "unknownue/vulkan-tutorial-rust",
-      "target": "maikklein/ash",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "unknownue/vulkan-tutorial-rust",
@@ -30,12 +23,8 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T02:58:01.962889+00:00",
+  "fetched_at": "2026-05-16T09:57:28.473379+00:00",
   "fetched_files": [
-    {
-      "path": "README.md",
-      "size": 8848
-    },
     {
       "path": "Cargo.toml",
       "size": 2619
@@ -60,28 +49,22 @@
     ],
     "updated_at": "2026-04-21T06:20:12Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "maikklein/ash",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
-      "context_snippet": "[![Build Status](https://dev.azure.com/usami-ssc/usami-ssc/_apis/build/status/unknownue.vulkan-tutorial-rust?branchName=master)](https://dev.azure.com/usami-ssc/usami-ssc/_build/latest?definitionId=5&branchName=master) [![LICENSE](https://img.shields.io/badge/license-MIT-blue.sv\u2026",
+      "context_snippet": "[package] name = \"vulkan-tutorial-rust\" version = \"1.0.0\" edition = \"2018\" authors = [\"unknownue <usami-ssc@protonmail.com>\"] [dependencies] winit = \"0.20.0\" ash = \"0.29.0\" num = \"0.2\" cgmath = \"0.17.0\" image = \"0.22\" memoffset = \"0.5.1\" tobj = \"0.1.10\" [dependencies.bitflags] v\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "rust"
     },
     {
-      "context_snippet": "[![Build Status](https://dev.azure.com/usami-ssc/usami-ssc/_apis/build/status/unknownue.vulkan-tutorial-rust?branchName=master)](https://dev.azure.com/usami-ssc/usami-ssc/_build/latest?definitionId=5&branchName=master) [![LICENSE](https://img.shields.io/badge/license-MIT-blue.sv\u2026",
+      "context_snippet": "[package] name = \"vulkan-tutorial-rust\" version = \"1.0.0\" edition = \"2018\" authors = [\"unknownue <usami-ssc@protonmail.com>\"] [dependencies] winit = \"0.20.0\" ash = \"0.29.0\" num = \"0.2\" cgmath = \"0.17.0\" image = \"0.22\" memoffset = \"0.5.1\" tobj = \"0.1.10\" [dependencies.bitflags] v\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "tutorial"
     },
     {
-      "context_snippet": "[![Build Status](https://dev.azure.com/usami-ssc/usami-ssc/_apis/build/status/unknownue.vulkan-tutorial-rust?branchName=master)](https://dev.azure.com/usami-ssc/usami-ssc/_build/latest?definitionId=5&branchName=master) [![LICENSE](https://img.shields.io/badge/license-MIT-blue.sv\u2026",
+      "context_snippet": "[package] name = \"vulkan-tutorial-rust\" version = \"1.0.0\" edition = \"2018\" authors = [\"unknownue <usami-ssc@protonmail.com>\"] [dependencies] winit = \"0.20.0\" ash = \"0.29.0\" num = \"0.2\" cgmath = \"0.17.0\" image = \"0.22\" memoffset = \"0.5.1\" tobj = \"0.1.10\" [dependencies.bitflags] v\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "vulkan"

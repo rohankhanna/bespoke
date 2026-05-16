@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vovkos/axl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vovkos/axl",
+      "target": "GitHub CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T07:17:09.032838+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1002
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3617
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AXL is a lightweight C++ library featuring Java naming convention, non-zero-terminated UTF-8 string slices as the default string-passing model, Lua-based string template engine, incremental regular expression engine, wrappers for many popular libraries, etc.",
+    "fork": false,
+    "full_name": "vovkos/axl",
+    "html_url": "https://github.com/vovkos/axl",
+    "language": "C++",
+    "pushed_at": "2026-05-08T12:33:27Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-05-08T12:33:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GitHub CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "GitHub CI"
+    }
+  ]
+}

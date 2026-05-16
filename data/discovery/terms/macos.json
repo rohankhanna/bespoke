@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -1226,6 +1226,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "version-fox/vfox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "steinbergmedia/vst3sdk"
     }
   ],
   "term": "macos"

@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rongjiehuang/ProDiff",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rongjiehuang/ProDiff",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rongjiehuang/ProDiff",
+      "target": "text-to-speech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T07:57:08.968386+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 286
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch Implementation of ProDiff (ACM-MM'22) with a Extremely-Fast diffusion speech synthesis pipeline",
+    "fork": false,
+    "full_name": "Rongjiehuang/ProDiff",
+    "html_url": "https://github.com/Rongjiehuang/ProDiff",
+    "language": "Python",
+    "pushed_at": "2023-04-19T10:08:22Z",
+    "stargazers_count": 432,
+    "topics": [
+      "diffusion-models",
+      "speech-synthesis",
+      "text-to-speech"
+    ],
+    "updated_at": "2025-12-03T19:09:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "matplotlib librosa==0.8.0 tqdm pandas numba==0.53.1 numpy scipy==1.3 PyYAML tensorboardX pyloudnorm setuptools>=41.0.0 g2p_en resemblyzer webrtcvad tensorboard==2.6.0 scikit-learn==0.24.1 scikit-image==0.16.2 textgrid jiwer pycwt PyWavelets praat-parselmouth==0.3.3 jieba einops \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "matplotlib librosa==0.8.0 tqdm pandas numba==0.53.1 numpy scipy==1.3 PyYAML tensorboardX pyloudnorm setuptools>=41.0.0 g2p_en resemblyzer webrtcvad tensorboard==2.6.0 scikit-learn==0.24.1 scikit-image==0.16.2 textgrid jiwer pycwt PyWavelets praat-parselmouth==0.3.3 jieba einops \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "matplotlib librosa==0.8.0 tqdm pandas numba==0.53.1 numpy scipy==1.3 PyYAML tensorboardX pyloudnorm setuptools>=41.0.0 g2p_en resemblyzer webrtcvad tensorboard==2.6.0 scikit-learn==0.24.1 scikit-image==0.16.2 textgrid jiwer pycwt PyWavelets praat-parselmouth==0.3.3 jieba einops \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    }
+  ]
+}

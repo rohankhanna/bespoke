@@ -1,0 +1,112 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "falahati/LiteDBViewer",
+      "target": "mbdavid/litedb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "falahati/LiteDBViewer",
+      "target": "mbdavid/litedb.studio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "falahati/LiteDBViewer",
+      "target": "litedb-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "falahati/LiteDBViewer",
+      "target": "litedb-explorer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "falahati/LiteDBViewer",
+      "target": "litedb-shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "falahati/LiteDBViewer",
+      "target": "litedb-viewer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T10:13:14.939629+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3814
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "LiteDB Viewer is a simple tool that let you open a LiteDB database file and shows its contents; think of it as a GUI for LiteDBShell",
+    "fork": false,
+    "full_name": "falahati/LiteDBViewer",
+    "html_url": "https://github.com/falahati/LiteDBViewer",
+    "language": "Inno Setup",
+    "pushed_at": "2022-02-20T14:49:04Z",
+    "stargazers_count": 298,
+    "topics": [
+      "gui",
+      "litedb-database",
+      "litedb-explorer",
+      "litedb-shell",
+      "litedb-viewer"
+    ],
+    "updated_at": "2026-04-26T16:28:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mbdavid/litedb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mbdavid/litedb.studio",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![](https://img.shields.io/github/license/falahati/LiteDBViewer.svg?style=flat-square)](https://github.com/falahati/LiteDBViewer/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "litedb-database"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/github/license/falahati/LiteDBViewer.svg?style=flat-square)](https://github.com/falahati/LiteDBViewer/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "litedb-explorer"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/github/license/falahati/LiteDBViewer.svg?style=flat-square)](https://github.com/falahati/LiteDBViewer/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "litedb-shell"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/github/license/falahati/LiteDBViewer.svg?style=flat-square)](https://github.com/falahati/LiteDBViewer/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "litedb-viewer"
+    }
+  ]
+}

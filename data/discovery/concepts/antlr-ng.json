@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "antlr-ng"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mike-lischke/antlr4ng",
+      "status": "candidate-context",
+      "text": "Next Generation TypeScript runtime for ANTLR4"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mike-lischke/antlr4ng",
+      "status": "candidate-context",
+      "text": "antlr4ng \u2014 Alternative JavaScript/TypeScript runtime for ANTLR4"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mike-lischke/antlr4ng",
+      "status": "candidate",
+      "text": "antlr4ng \u2014 Alternative JavaScript/TypeScript runtime for ANTLR4"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "antlr-ng",
+  "concept_id": "antlr-ng",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "mike-lischke/antlr4ng"
+    }
+  ],
+  "first_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "antlr-ng",
+      "sense_id": "antlr-ng#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

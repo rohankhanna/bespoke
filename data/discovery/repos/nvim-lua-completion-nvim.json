@@ -23,7 +23,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-16T03:47:23.812763+00:00",
+  "fetched_at": "2026-05-16T10:03:33.841544+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -40,9 +40,9 @@
     "html_url": "https://github.com/nvim-lua/completion-nvim",
     "language": "Lua",
     "pushed_at": "2021-10-12T19:59:47Z",
-    "stargazers_count": 964,
+    "stargazers_count": 963,
     "topics": [],
-    "updated_at": "2026-05-08T04:37:49Z"
+    "updated_at": "2026-05-16T04:29:36Z"
   },
   "repo_links": [
     {

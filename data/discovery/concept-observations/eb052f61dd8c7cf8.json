@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "LiteDB Viewer is a simple tool that let you open a LiteDB database file and shows its contents; think of it as a GUI for LiteDBShell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![](https://img.shields.io/github/license/falahati/LiteDBViewer.svg?style=flat-square)](https://github.com/falahati/LiteDBViewer/blob/master/LICENSE)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/github/license/falahati/LiteDBViewer.svg?style=flat-square)](https://github.com/falahati/LiteDBViewer/blob/master/LICENSE)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "litedb-database",
+      "sense_id": "litedb-database#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "litedb-database",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "litedb-database",
+  "observation_id": "eb052f61dd8c7cf8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-16T06:55:35.086614+00:00",
+  "observed_text": "litedb-database",
+  "source_context_snippet": "[![](https://img.shields.io/github/license/falahati/LiteDBViewer.svg?style=flat-square)](https://github.com/falahati/LiteDBViewer/blob/master/LICENSE)",
+  "source_file": null,
+  "source_repo": "falahati/LiteDBViewer",
+  "source_repo_description": "LiteDB Viewer is a simple tool that let you open a LiteDB database file and shows its contents; think of it as a GUI for LiteDBShell"
+}

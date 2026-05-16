@@ -697,6 +697,30 @@
       "source_repo": "collabora/WhisperLive",
       "status": "candidate-context",
       "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rongjiehuang/GenerSpeech",
+      "status": "candidate-context",
+      "text": "PyTorch Implementation of GenerSpeech (NeurIPS'22): a text-to-speech model towards zero-shot style transfer of OOD custom voice."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rongjiehuang/GenerSpeech",
+      "status": "candidate-context",
+      "text": "matplotlib librosa==0.8.0 tqdm pandas torch torchaudio numba==0.53.1 numpy scipy==1.3 PyYAML tensorboardX pyloudnorm setuptools>=41.0.0 g2p_en resemblyzer webrtcvad tensorboard==2.6.0 scikit-learn==0.24.1 scikit-image==0.16.2 textgrid jiwer pycwt PyWavelets praat-parselmouth==0.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rongjiehuang/ProDiff",
+      "status": "candidate-context",
+      "text": "PyTorch Implementation of ProDiff (ACM-MM'22) with a Extremely-Fast diffusion speech synthesis pipeline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rongjiehuang/ProDiff",
+      "status": "candidate-context",
+      "text": "matplotlib librosa==0.8.0 tqdm pandas numba==0.53.1 numpy scipy==1.3 PyYAML tensorboardX pyloudnorm setuptools>=41.0.0 g2p_en resemblyzer webrtcvad tensorboard==2.6.0 scikit-learn==0.24.1 scikit-image==0.16.2 textgrid jiwer pycwt PyWavelets praat-parselmouth==0.3.3 jieba einops \u2026"
     }
   ],
   "candidate_glosses": [
@@ -1047,6 +1071,18 @@
       "source_repo": "collabora/WhisperLive",
       "status": "candidate",
       "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rongjiehuang/GenerSpeech",
+      "status": "candidate",
+      "text": "matplotlib librosa==0.8.0 tqdm pandas torch torchaudio numba==0.53.1 numpy scipy==1.3 PyYAML tensorboardX pyloudnorm setuptools>=41.0.0 g2p_en resemblyzer webrtcvad tensorboard==2.6.0 scikit-learn==0.24.1 scikit-image==0.16.2 textgrid jiwer pycwt PyWavelets praat-parselmouth==0.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rongjiehuang/ProDiff",
+      "status": "candidate",
+      "text": "matplotlib librosa==0.8.0 tqdm pandas numba==0.53.1 numpy scipy==1.3 PyYAML tensorboardX pyloudnorm setuptools>=41.0.0 g2p_en resemblyzer webrtcvad tensorboard==2.6.0 scikit-learn==0.24.1 scikit-image==0.16.2 textgrid jiwer pycwt PyWavelets praat-parselmouth==0.3.3 jieba einops \u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -1660,11 +1696,41 @@
       "observed_at": "2026-05-16T00:38:16.846047+00:00",
       "source_file": null,
       "source_repo": "lifeiteng/vall-e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "Adibian/ResGrad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "collabora/WhisperLive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "Rongjiehuang/GenerSpeech"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "Rongjiehuang/ProDiff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "lifeiteng/vall-e"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

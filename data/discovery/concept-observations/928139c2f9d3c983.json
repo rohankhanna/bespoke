@@ -48,7 +48,7 @@
   "normalized_form": "dotnet",
   "observation_id": "928139c2f9d3c983",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-05-16T06:55:35.086614+00:00",
   "observed_text": "DotNET",
   "source_context_snippet": "DotNET",
   "source_file": ".github/workflows/ci.net.yaml",

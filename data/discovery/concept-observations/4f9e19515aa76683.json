@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Various C# utilities used by Frenetic LLC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FreneticUtilities"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FreneticUtilities"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "frenetic-utilities",
+      "sense_id": "frenetic-utilities#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "frenetic-utilities",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "frenetic-utilities",
+  "observation_id": "4f9e19515aa76683",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-16T06:55:35.086614+00:00",
+  "observed_text": "frenetic-utilities",
+  "source_context_snippet": "FreneticUtilities",
+  "source_file": null,
+  "source_repo": "FreneticLLC/FreneticUtilities",
+  "source_repo_description": "Various C# utilities used by Frenetic LLC."
+}

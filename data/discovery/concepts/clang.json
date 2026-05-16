@@ -250,6 +250,18 @@
       "source_repo": "root-project/cling",
       "status": "candidate-context",
       "text": "Cling - The Interactive C++ Interpreter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boostorg/pfr",
+      "status": "candidate-context",
+      "text": "std::tuple like methods for user defined types without any macro or boilerplate code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boostorg/pfr",
+      "status": "candidate-context",
+      "text": "This is a C++14 library for very basic reflection that gives you access to structure elements by index and provides other `std::tuple` like methods for user defined types without any macro or boilerplate code."
     }
   ],
   "candidate_glosses": [
@@ -372,6 +384,12 @@
       "source_repo": "root-project/cling",
       "status": "candidate",
       "text": "Cling - The Interactive C++ Interpreter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boostorg/pfr",
+      "status": "candidate",
+      "text": "This is a C++14 library for very basic reflection that gives you access to structure elements by index and provides other `std::tuple` like methods for user defined types without any macro or boilerplate code."
     }
   ],
   "candidate_related_terms": [
@@ -613,11 +631,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "root-project/cling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "boostorg/pfr"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

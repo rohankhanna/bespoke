@@ -1,0 +1,116 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "steinbergmedia/vst3sdk",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "steinbergmedia/vst3sdk",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "steinbergmedia/vst3sdk",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "steinbergmedia/vst3sdk",
+      "target": "plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "steinbergmedia/vst3sdk",
+      "target": "vst3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "steinbergmedia/vst3sdk",
+      "target": "win32",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T10:13:03.283778+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13081
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "VST 3 Plug-In SDK",
+    "fork": false,
+    "full_name": "steinbergmedia/vst3sdk",
+    "html_url": "https://github.com/steinbergmedia/vst3sdk",
+    "language": "CMake",
+    "pushed_at": "2025-11-17T08:47:30Z",
+    "stargazers_count": 2253,
+    "topics": [
+      "audio",
+      "ios",
+      "linux",
+      "macos",
+      "plugins",
+      "sdk",
+      "vst3",
+      "win32"
+    ],
+    "updated_at": "2026-05-15T19:03:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div style=\"text-align:center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "<div style=\"text-align:center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "<div style=\"text-align:center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<div style=\"text-align:center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugins"
+    },
+    {
+      "context_snippet": "<div style=\"text-align:center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vst3"
+    },
+    {
+      "context_snippet": "<div style=\"text-align:center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "win32"
+    }
+  ]
+}

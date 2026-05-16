@@ -27,6 +27,18 @@
       "source_repo": "antlr/antlr4",
       "status": "candidate-context",
       "text": "[![Java 11+](https://img.shields.io/badge/java-11+-4c7e9f.svg)](http://java.oracle.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mike-lischke/antlr4ng",
+      "status": "candidate-context",
+      "text": "Next Generation TypeScript runtime for ANTLR4"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mike-lischke/antlr4ng",
+      "status": "candidate-context",
+      "text": "antlr4ng \u2014 Alternative JavaScript/TypeScript runtime for ANTLR4"
     }
   ],
   "candidate_glosses": [
@@ -41,6 +53,12 @@
       "source_repo": "antlr/antlr4",
       "status": "candidate",
       "text": "[![Java 11+](https://img.shields.io/badge/java-11+-4c7e9f.svg)](http://java.oracle.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mike-lischke/antlr4ng",
+      "status": "candidate",
+      "text": "antlr4ng \u2014 Alternative JavaScript/TypeScript runtime for ANTLR4"
     }
   ],
   "candidate_related_terms": [],
@@ -60,11 +78,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "antlr/antlr4"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "mike-lischke/antlr4ng"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

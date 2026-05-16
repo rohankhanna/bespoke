@@ -19,6 +19,30 @@
       "source_repo": "ad-si/awesome-music-production",
       "status": "candidate-context",
       "text": "{ \"devDependencies\": { \"markdown-toc\": \"^1.2.0\" } }"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nhielost/obs-midi-mg",
+      "status": "candidate-context",
+      "text": "Allows MIDI devices to interact with OBS Studio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nhielost/obs-midi-mg",
+      "status": "candidate-context",
+      "text": "Allows MIDI devices to interact with OBS Studio."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpyarger/obs-midi",
+      "status": "candidate-context",
+      "text": "Use MIDI devices to trigger events in OBS and vice versa"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpyarger/obs-midi",
+      "status": "candidate-context",
+      "text": "Use MIDI devices to trigger events in OBS and visa versa."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "ad-si/awesome-music-production",
       "status": "candidate",
       "text": "{ \"devDependencies\": { \"markdown-toc\": \"^1.2.0\" } }"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nhielost/obs-midi-mg",
+      "status": "candidate",
+      "text": "Allows MIDI devices to interact with OBS Studio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpyarger/obs-midi",
+      "status": "candidate",
+      "text": "Use MIDI devices to trigger events in OBS and visa versa."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-05-11T18:44:26.583561+00:00",
       "source_file": null,
       "source_repo": "ad-si/awesome-music-production"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "nhielost/obs-midi-mg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "cpyarger/obs-midi"
     }
   ],
   "first_seen_at": "2026-05-11T18:44:26.583561+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T18:44:26.583561+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

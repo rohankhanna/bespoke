@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-16T10:12:48.831332+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 93
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2183
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A C++ binding for the EGL API, generated using the egl.xml specification. ",
+    "fork": false,
+    "full_name": "cginternals/eglbinding",
+    "html_url": "https://github.com/cginternals/eglbinding",
+    "language": "C++",
+    "pushed_at": "2024-02-27T10:30:24Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2023-03-01T15:23:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -259,6 +259,42 @@
       "source_repo": "atsushieno/kmmk",
       "status": "candidate-context",
       "text": "![Kmmk Desktop](docs/images/kmmk-desktop.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "midi2-dev/ni-midi2",
+      "status": "candidate-context",
+      "text": "ni-midi2 is a C++17 library implementing MIDI2 UMP 1.1 and MIDI CI 1.2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "midi2-dev/ni-midi2",
+      "status": "candidate-context",
+      "text": "`ni-midi2` is a C++ library for working with MIDI 2 Universal MIDI Packets (UMP) and MIDI-CI 1.2 messages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nhielost/obs-midi-mg",
+      "status": "candidate-context",
+      "text": "Allows MIDI devices to interact with OBS Studio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nhielost/obs-midi-mg",
+      "status": "candidate-context",
+      "text": "Allows MIDI devices to interact with OBS Studio."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpyarger/obs-midi",
+      "status": "candidate-context",
+      "text": "Use MIDI devices to trigger events in OBS and vice versa"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpyarger/obs-midi",
+      "status": "candidate-context",
+      "text": "Use MIDI devices to trigger events in OBS and visa versa."
     }
   ],
   "candidate_glosses": [
@@ -387,6 +423,24 @@
       "source_repo": "atsushieno/kmmk",
       "status": "candidate",
       "text": "![Kmmk Desktop](docs/images/kmmk-desktop.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "midi2-dev/ni-midi2",
+      "status": "candidate",
+      "text": "`ni-midi2` is a C++ library for working with MIDI 2 Universal MIDI Packets (UMP) and MIDI-CI 1.2 messages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nhielost/obs-midi-mg",
+      "status": "candidate",
+      "text": "Allows MIDI devices to interact with OBS Studio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpyarger/obs-midi",
+      "status": "candidate",
+      "text": "Use MIDI devices to trigger events in OBS and visa versa."
     }
   ],
   "candidate_related_terms": [
@@ -1053,11 +1107,47 @@
       "observed_at": "2026-05-16T00:38:16.846047+00:00",
       "source_file": null,
       "source_repo": "atsushieno/kmmk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/afterglow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link-trigger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "celtera/libremidi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "midi2-dev/ni-midi2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "nhielost/obs-midi-mg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "cpyarger/obs-midi"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

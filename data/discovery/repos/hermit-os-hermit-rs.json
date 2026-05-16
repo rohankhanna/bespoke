@@ -205,7 +205,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T03:46:30.390220+00:00",
+  "fetched_at": "2026-05-16T10:02:36.789194+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -234,7 +234,7 @@
     "html_url": "https://github.com/hermit-os/hermit-rs",
     "language": "Rust",
     "pushed_at": "2026-05-11T17:35:52Z",
-    "stargazers_count": 1920,
+    "stargazers_count": 1921,
     "topics": [
       "cloud-computing",
       "high-performance-computing",
@@ -246,7 +246,7 @@
       "unikernel",
       "virtualization"
     ],
-    "updated_at": "2026-05-15T19:57:43Z"
+    "updated_at": "2026-05-16T07:18:27Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,0 +1,625 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "avakar/derive-version@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "avakar/derive-version@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2-preview",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2-preview",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "avakar/derive-version@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2-preview",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2-preview",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "avakar/derive-version@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "apple-actions/import-codesign-certs@253ddeeac23f2bdad1646faac5c8c2832e800071",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2-preview",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "avakar/derive-version@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "scottbrenner/generate-changelog-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2-preview",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml"
+    },
+    {
+      "component": "codenotary/cas-authenticate-docker-bom-github-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/authenticate-docker-image-sbom.yml"
+    },
+    {
+      "component": "codenotary/cas-notarize-docker-image-github-action@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notarize-docker-image-bom.yml"
+    },
+    {
+      "component": "codenotary/cas-notarize-docker-image-bom-github-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notarize-docker-image-bom.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2-preview",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2-preview",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2-preview",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2-preview",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2-preview",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "jcelerier/rtmidi17",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "palakis/obs-websocket",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "lebaston100/miditoobs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "avakar/derive-version@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "microsoft/setup-msbuild@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "actions/upload-artifact@v2-preview",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "apple-actions/import-codesign-certs@253ddeeac23f2bdad1646faac5c8c2832e800071",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "scottbrenner/generate-changelog-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "actions/download-artifact@v2-preview",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI Build and release.yml",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI Build and release.yml",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "CI Multiplatform Build and release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/authenticate-docker-image-sbom.yml",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "codenotary/cas-authenticate-docker-bom-github-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/authenticate-docker-image-sbom.yml",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "authenticate-docker-image-sbom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notarize-docker-image-bom.yml",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "codenotary/cas-notarize-docker-image-github-action@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notarize-docker-image-bom.yml",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "codenotary/cas-notarize-docker-image-bom-github-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notarize-docker-image-bom.yml",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "notarize-docker-image-bom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "microsoft/setup-msbuild@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "actions/upload-artifact@v2-preview",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "cpyarger/obs-midi",
+      "target": "Check pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpyarger/obs-midi",
+      "target": "midi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpyarger/obs-midi",
+      "target": "midi-controller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpyarger/obs-midi",
+      "target": "obs-studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpyarger/obs-midi",
+      "target": "obs-studio-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T10:12:58.978176+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3224
+    },
+    {
+      "path": "requirements.txt",
+      "size": 8
+    },
+    {
+      "path": ".github/workflows/CI Build and release.yml",
+      "size": 30376
+    },
+    {
+      "path": ".github/workflows/authenticate-docker-image-sbom.yml",
+      "size": 681
+    },
+    {
+      "path": ".github/workflows/notarize-docker-image-bom.yml",
+      "size": 830
+    },
+    {
+      "path": ".github/workflows/pull-request.yml",
+      "size": 21888
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Use MIDI devices to trigger events in OBS and vice versa",
+    "fork": true,
+    "full_name": "cpyarger/obs-midi",
+    "html_url": "https://github.com/cpyarger/obs-midi",
+    "language": "C++",
+    "pushed_at": "2022-08-15T03:45:43Z",
+    "stargazers_count": 184,
+    "topics": [
+      "midi",
+      "midi-controller",
+      "obs-studio",
+      "obs-studio-plugin"
+    ],
+    "updated_at": "2026-05-04T01:40:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jcelerier/rtmidi17",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lebaston100/miditoobs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "palakis/obs-websocket",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'CI Multiplatform Build and release'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI Build and release.yml",
+      "term": "CI Multiplatform Build and release"
+    },
+    {
+      "context_snippet": "authenticate-docker-image-sbom",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/authenticate-docker-image-sbom.yml",
+      "term": "authenticate-docker-image-sbom"
+    },
+    {
+      "context_snippet": "notarize-docker-image-bom",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notarize-docker-image-bom.yml",
+      "term": "notarize-docker-image-bom"
+    },
+    {
+      "context_snippet": "'Check pull request'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request.yml",
+      "term": "Check pull request"
+    },
+    {
+      "context_snippet": "Use MIDI devices to trigger events in OBS and visa versa.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi"
+    },
+    {
+      "context_snippet": "Use MIDI devices to trigger events in OBS and visa versa.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi-controller"
+    },
+    {
+      "context_snippet": "Use MIDI devices to trigger events in OBS and visa versa.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obs-studio"
+    },
+    {
+      "context_snippet": "Use MIDI devices to trigger events in OBS and visa versa.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obs-studio-plugin"
+    }
+  ]
+}

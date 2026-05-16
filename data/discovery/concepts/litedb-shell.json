@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "litedb-shell"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "falahati/LiteDBViewer",
+      "status": "candidate-context",
+      "text": "LiteDB Viewer is a simple tool that let you open a LiteDB database file and shows its contents; think of it as a GUI for LiteDBShell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falahati/LiteDBViewer",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/github/license/falahati/LiteDBViewer.svg?style=flat-square)](https://github.com/falahati/LiteDBViewer/blob/master/LICENSE)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "falahati/LiteDBViewer",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/github/license/falahati/LiteDBViewer.svg?style=flat-square)](https://github.com/falahati/LiteDBViewer/blob/master/LICENSE)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "litedb-shell",
+  "concept_id": "litedb-shell",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "falahati/LiteDBViewer"
+    }
+  ],
+  "first_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "litedb-shell",
+      "sense_id": "litedb-shell#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

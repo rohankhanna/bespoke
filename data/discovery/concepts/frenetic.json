@@ -1,0 +1,153 @@
+{
+  "aliases": [
+    "frenetic"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FreneticLLC/FreneticUtilities",
+      "status": "candidate-context",
+      "text": "Various C# utilities used by Frenetic LLC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FreneticLLC/FreneticUtilities",
+      "status": "candidate-context",
+      "text": "FreneticUtilities"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FreneticLLC/FreneticGameEngine",
+      "status": "candidate-context",
+      "text": "A powerful C# based 3D and 2D game engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FreneticLLC/FreneticGameEngine",
+      "status": "candidate-context",
+      "text": "The Frenetic Game Engine"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FreneticLLC/FreneticUtilities",
+      "status": "candidate",
+      "text": "FreneticUtilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FreneticLLC/FreneticGameEngine",
+      "status": "candidate",
+      "text": "The Frenetic Game Engine"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010505,
+      "status": "candidate",
+      "text": "frenzied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009758,
+      "status": "candidate",
+      "text": "agitated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008800,
+      "status": "candidate",
+      "text": "frantic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010642,
+      "status": "candidate",
+      "text": "phrenetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009386,
+      "status": "candidate",
+      "text": "furious"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 55029,
+      "status": "candidate",
+      "text": "agitated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 51035,
+      "status": "candidate",
+      "text": "frantic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34034,
+      "status": "candidate",
+      "text": "frenzied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10025,
+      "status": "candidate",
+      "text": "phrenetic"
+    }
+  ],
+  "canonical_name": "frenetic",
+  "concept_id": "frenetic",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "FreneticLLC/FreneticUtilities"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "FreneticLLC/FreneticGameEngine"
+    }
+  ],
+  "first_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "frenetic",
+      "sense_id": "frenetic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -46,6 +46,18 @@
       "source_repo": "inhere/php-sroute",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/packagist/l/inhere/sroute.svg?style=flat-square)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nhielost/obs-midi-mg",
+      "status": "candidate-context",
+      "text": "Allows MIDI devices to interact with OBS Studio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nhielost/obs-midi-mg",
+      "status": "candidate-context",
+      "text": "Dispatch"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +78,12 @@
       "source_repo": "inhere/php-sroute",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/packagist/l/inhere/sroute.svg?style=flat-square)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nhielost/obs-midi-mg",
+      "status": "candidate",
+      "text": "Dispatch"
     }
   ],
   "candidate_related_terms": [
@@ -421,11 +439,23 @@
       "observed_at": "2026-05-16T00:38:16.846047+00:00",
       "source_file": ".github/workflows/test-dispatch.yml",
       "source_repo": "kurrent-io/KurrentDB-Client-Rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": ".github/workflows/dispatch.yaml",
+      "source_repo": "nhielost/obs-midi-mg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": ".github/workflows/test-dispatch.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

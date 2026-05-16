@@ -84,7 +84,7 @@
   "normalized_form": "coverity",
   "observation_id": "aad0c64c8e25bc42",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-05-16T06:55:35.086614+00:00",
   "observed_text": "Coverity",
   "source_context_snippet": "Coverity",
   "source_file": ".github/workflows/coverity.yaml",

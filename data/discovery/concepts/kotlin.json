@@ -919,6 +919,18 @@
       "source_repo": "jeziellago/compose-markdown",
       "status": "candidate-context",
       "text": "[![](https://androidweekly.net/issues/issue-456/badge)](https://androidweekly.net/issues/issue-456)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kotlin/kotlinx-benchmark",
+      "status": "candidate-context",
+      "text": "Kotlin multiplatform benchmarking toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kotlin/kotlinx-benchmark",
+      "status": "candidate-context",
+      "text": "[![Kotlin Alpha](https://kotl.in/badges/alpha.svg)](https://kotlinlang.org/docs/components-stability.html)"
     }
   ],
   "candidate_glosses": [
@@ -1377,6 +1389,12 @@
       "source_repo": "jeziellago/compose-markdown",
       "status": "candidate",
       "text": "[![](https://androidweekly.net/issues/issue-456/badge)](https://androidweekly.net/issues/issue-456)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kotlin/kotlinx-benchmark",
+      "status": "candidate",
+      "text": "[![Kotlin Alpha](https://kotl.in/badges/alpha.svg)](https://kotlinlang.org/docs/components-stability.html)"
     }
   ],
   "candidate_related_terms": [
@@ -2452,11 +2470,29 @@
       "observed_at": "2026-05-16T00:38:16.846047+00:00",
       "source_file": null,
       "source_repo": "jeziellago/compose-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "Kotlin/kotlinx-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

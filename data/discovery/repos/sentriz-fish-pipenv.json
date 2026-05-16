@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "sentriz/fish-pipenv",
-      "target": "daenney/pyenv",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "sentriz/fish-pipenv",
       "target": "kennethreitz/fish-pipenv",
       "target_type": "repository"
     },
@@ -44,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T03:44:29.368786+00:00",
+  "fetched_at": "2026-05-16T10:00:15.836296+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -61,7 +54,7 @@
     "html_url": "https://github.com/sentriz/fish-pipenv",
     "language": "Shell",
     "pushed_at": "2022-04-19T01:25:42Z",
-    "stargazers_count": 198,
+    "stargazers_count": 197,
     "topics": [
       "fish-shell",
       "fisher",
@@ -69,14 +62,9 @@
       "python",
       "virtualenv"
     ],
-    "updated_at": "2026-04-30T05:20:31Z"
+    "updated_at": "2026-05-16T07:58:54Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "daenney/pyenv",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "kennethreitz/fish-pipenv",

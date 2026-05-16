@@ -1,0 +1,81 @@
+{
+  "components": [
+    {
+      "component": "dns-packet",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "thunky",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mafintosh/multicast-dns",
+      "target": "dns-packet",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mafintosh/multicast-dns",
+      "target": "thunky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mafintosh/multicast-dns",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mafintosh/multicast-dns",
+      "target": "tape",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-16T10:12:42.621414+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4112
+    },
+    {
+      "path": "package.json",
+      "size": 894
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Low level multicast-dns implementation in pure javascript",
+    "fork": false,
+    "full_name": "mafintosh/multicast-dns",
+    "html_url": "https://github.com/mafintosh/multicast-dns",
+    "language": "JavaScript",
+    "pushed_at": "2024-06-14T07:52:28Z",
+    "stargazers_count": 532,
+    "topics": [],
+    "updated_at": "2026-03-19T04:52:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

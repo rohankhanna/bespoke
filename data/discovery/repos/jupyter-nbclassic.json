@@ -798,7 +798,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T03:52:53.103808+00:00",
+  "fetched_at": "2026-05-16T10:10:16.230441+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -851,13 +851,13 @@
     "html_url": "https://github.com/jupyter/nbclassic",
     "language": "JavaScript",
     "pushed_at": "2026-05-09T13:58:48Z",
-    "stargazers_count": 110,
+    "stargazers_count": 111,
     "topics": [
       "jupyter",
       "nbclassic",
       "notebook"
     ],
-    "updated_at": "2026-04-17T19:06:49Z"
+    "updated_at": "2026-05-16T05:21:00Z"
   },
   "repo_links": [
     {

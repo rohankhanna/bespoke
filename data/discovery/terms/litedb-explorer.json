@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "falahati/LiteDBViewer"
+    }
+  ],
+  "term": "litedb-explorer"
+}

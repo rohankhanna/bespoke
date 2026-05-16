@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cginternals/khrbinding-generator",
+      "target": "cginternals/glesbinding",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cginternals/khrbinding-generator",
+      "target": "cginternals/glscbinding",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cginternals/khrbinding-generator",
+      "target": "cginternals/eglbinding",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cginternals/khrbinding-generator",
+      "target": "binding-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cginternals/khrbinding-generator",
+      "target": "opengl-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cginternals/khrbinding-generator",
+      "target": "opengl-es",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cginternals/khrbinding-generator",
+      "target": "opengl-sc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T07:17:41.175942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2666
+    },
+    {
+      "path": "requirements.txt",
+      "size": 23
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Python generator for the Khronos APIs OpenGL, OpenGL ES, OpenGL SC, and EGL",
+    "fork": false,
+    "full_name": "cginternals/khrbinding-generator",
+    "html_url": "https://github.com/cginternals/khrbinding-generator",
+    "language": "C++",
+    "pushed_at": "2025-04-16T09:31:05Z",
+    "stargazers_count": 5,
+    "topics": [
+      "binding-generator",
+      "egl",
+      "opengl-api",
+      "opengl-es",
+      "opengl-sc"
+    ],
+    "updated_at": "2025-04-16T09:31:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cginternals/eglbinding",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cginternals/glesbinding",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cginternals/glscbinding",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "1. Load XML from Khronos repository",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binding-generator"
+    },
+    {
+      "context_snippet": "1. Load XML from Khronos repository",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl-api"
+    },
+    {
+      "context_snippet": "1. Load XML from Khronos repository",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl-es"
+    },
+    {
+      "context_snippet": "1. Load XML from Khronos repository",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl-sc"
+    }
+  ]
+}

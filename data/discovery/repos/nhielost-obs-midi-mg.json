@@ -1,0 +1,352 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-format.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-format.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@9d7c94cfd0a1f3ed45544c887983e9fa900f0564",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nhielost/obs-midi-mg",
+      "target": "cpyarger/obs-midi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "nhielost/obs-midi-mg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "nhielost/obs-midi-mg",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "nhielost/obs-midi-mg",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "nhielost/obs-midi-mg",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "nhielost/obs-midi-mg",
+      "target": "Build Project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-format.yaml",
+      "source_repo": "nhielost/obs-midi-mg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-format.yaml",
+      "source_repo": "nhielost/obs-midi-mg",
+      "target": "Check Code Formatting \ud83d\udee0\ufe0f",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dispatch.yaml",
+      "source_repo": "nhielost/obs-midi-mg",
+      "target": "Dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-pull.yaml",
+      "source_repo": "nhielost/obs-midi-mg",
+      "target": "Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "nhielost/obs-midi-mg",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "nhielost/obs-midi-mg",
+      "target": "softprops/action-gh-release@9d7c94cfd0a1f3ed45544c887983e9fa900f0564",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "nhielost/obs-midi-mg",
+      "target": "Push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nhielost/obs-midi-mg",
+      "target": "midi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nhielost/obs-midi-mg",
+      "target": "midi-controller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nhielost/obs-midi-mg",
+      "target": "midi-messages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nhielost/obs-midi-mg",
+      "target": "obs-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nhielost/obs-midi-mg",
+      "target": "obs-studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nhielost/obs-midi-mg",
+      "target": "obs-studio-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T07:17:53.855812+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1860
+    },
+    {
+      "path": ".github/workflows/build-project.yaml",
+      "size": 11999
+    },
+    {
+      "path": ".github/workflows/check-format.yaml",
+      "size": 600
+    },
+    {
+      "path": ".github/workflows/dispatch.yaml",
+      "size": 402
+    },
+    {
+      "path": ".github/workflows/pr-pull.yaml",
+      "size": 708
+    },
+    {
+      "path": ".github/workflows/push.yaml",
+      "size": 3780
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Allows MIDI devices to interact with OBS Studio.",
+    "fork": false,
+    "full_name": "nhielost/obs-midi-mg",
+    "html_url": "https://github.com/nhielost/obs-midi-mg",
+    "language": "C++",
+    "pushed_at": "2026-03-28T19:59:07Z",
+    "stargazers_count": 215,
+    "topics": [
+      "midi",
+      "midi-controller",
+      "midi-messages",
+      "obs-plugin",
+      "obs-studio",
+      "obs-studio-plugin"
+    ],
+    "updated_at": "2026-05-15T13:41:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cpyarger/obs-midi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-project.yaml",
+      "term": "Build Project"
+    },
+    {
+      "context_snippet": "Check Code Formatting \ud83d\udee0\ufe0f",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-format.yaml",
+      "term": "Check Code Formatting \ud83d\udee0\ufe0f"
+    },
+    {
+      "context_snippet": "Dispatch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dispatch.yaml",
+      "term": "Dispatch"
+    },
+    {
+      "context_snippet": "Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-pull.yaml",
+      "term": "Pull Request"
+    },
+    {
+      "context_snippet": "Push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yaml",
+      "term": "Push"
+    },
+    {
+      "context_snippet": "Allows MIDI devices to interact with OBS Studio.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi"
+    },
+    {
+      "context_snippet": "Allows MIDI devices to interact with OBS Studio.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi-controller"
+    },
+    {
+      "context_snippet": "Allows MIDI devices to interact with OBS Studio.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi-messages"
+    },
+    {
+      "context_snippet": "Allows MIDI devices to interact with OBS Studio.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obs-plugin"
+    },
+    {
+      "context_snippet": "Allows MIDI devices to interact with OBS Studio.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obs-studio"
+    },
+    {
+      "context_snippet": "Allows MIDI devices to interact with OBS Studio.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obs-studio-plugin"
+    }
+  ]
+}

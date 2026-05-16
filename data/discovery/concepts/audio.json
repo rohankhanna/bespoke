@@ -811,6 +811,18 @@
       "source_repo": "celtera/avendish",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "steinbergmedia/vst3sdk",
+      "status": "candidate-context",
+      "text": "VST 3 Plug-In SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "steinbergmedia/vst3sdk",
+      "status": "candidate-context",
+      "text": "<div style=\"text-align:center\">"
     }
   ],
   "candidate_glosses": [
@@ -1215,6 +1227,12 @@
       "source_repo": "celtera/avendish",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "steinbergmedia/vst3sdk",
+      "status": "candidate",
+      "text": "<div style=\"text-align:center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2467,11 +2485,35 @@
       "observed_at": "2026-05-16T00:38:16.846047+00:00",
       "source_file": null,
       "source_repo": "celtera/avendish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "steinbergmedia/vst3sdk"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

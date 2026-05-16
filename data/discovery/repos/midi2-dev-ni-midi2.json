@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "midi2-dev/ni-midi2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "midi2-dev/ni-midi2",
+      "target": "codecov/codecov-action@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "midi2-dev/ni-midi2",
+      "target": "ni-midi2 CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "midi2-dev/ni-midi2",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "midi2-dev/ni-midi2",
+      "target": "midi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "midi2-dev/ni-midi2",
+      "target": "midi-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "midi2-dev/ni-midi2",
+      "target": "midi2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "midi2-dev/ni-midi2",
+      "target": "music",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T07:17:51.123859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10918
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3681
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ni-midi2 is a C++17 library implementing MIDI2 UMP 1.1 and MIDI CI 1.2",
+    "fork": false,
+    "full_name": "midi2-dev/ni-midi2",
+    "html_url": "https://github.com/midi2-dev/ni-midi2",
+    "language": "C++",
+    "pushed_at": "2026-03-24T11:22:34Z",
+    "stargazers_count": 57,
+    "topics": [
+      "cpp",
+      "cpp17",
+      "midi",
+      "midi-ci",
+      "midi2",
+      "music",
+      "ump"
+    ],
+    "updated_at": "2026-05-03T18:51:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ni-midi2 CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "ni-midi2 CI"
+    },
+    {
+      "context_snippet": "`ni-midi2` is a C++ library for working with MIDI 2 Universal MIDI Packets (UMP) and MIDI-CI 1.2 messages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17"
+    },
+    {
+      "context_snippet": "`ni-midi2` is a C++ library for working with MIDI 2 Universal MIDI Packets (UMP) and MIDI-CI 1.2 messages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi"
+    },
+    {
+      "context_snippet": "`ni-midi2` is a C++ library for working with MIDI 2 Universal MIDI Packets (UMP) and MIDI-CI 1.2 messages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi-ci"
+    },
+    {
+      "context_snippet": "`ni-midi2` is a C++ library for working with MIDI 2 Universal MIDI Packets (UMP) and MIDI-CI 1.2 messages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi2"
+    },
+    {
+      "context_snippet": "`ni-midi2` is a C++ library for working with MIDI 2 Universal MIDI Packets (UMP) and MIDI-CI 1.2 messages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music"
+    }
+  ]
+}

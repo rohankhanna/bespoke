@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-16T10:12:49.446183+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 106
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1422
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A C++ binding for the OpenGL ES API, generated using the gl.xml specification.",
+    "fork": false,
+    "full_name": "cginternals/glesbinding",
+    "html_url": "https://github.com/cginternals/glesbinding",
+    "language": "C++",
+    "pushed_at": "2025-03-21T14:32:54Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-04-28T15:59:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

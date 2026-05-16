@@ -145,14 +145,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "celtera/libremidi",
-      "target": "midi2-dev/ni-midi2",
+      "target": "nicog60/touchmcu",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "celtera/libremidi",
-      "target": "nhielost/obs-midi-mg",
+      "target": "rezonality/zing",
       "target_type": "repository"
     },
     {
@@ -408,7 +408,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T03:55:08.328195+00:00",
+  "fetched_at": "2026-05-16T10:12:53.092637+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -453,7 +453,7 @@
     "html_url": "https://github.com/celtera/libremidi",
     "language": "C++",
     "pushed_at": "2026-05-03T14:36:17Z",
-    "stargazers_count": 684,
+    "stargazers_count": 685,
     "topics": [
       "alsa",
       "coremidi",
@@ -467,7 +467,7 @@
       "uwp",
       "webmidi"
     ],
-    "updated_at": "2026-05-13T16:05:03Z"
+    "updated_at": "2026-05-16T06:33:10Z"
   },
   "repo_links": [
     {
@@ -482,12 +482,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "midi2-dev/ni-midi2",
+      "full_name": "nicog60/touchmcu",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "nhielost/obs-midi-mg",
+      "full_name": "rezonality/zing",
       "source_file": "README.md"
     }
   ],

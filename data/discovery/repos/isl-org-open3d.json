@@ -452,7 +452,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T04:03:20.532560+00:00",
+  "fetched_at": "2026-05-16T08:07:50.884591+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -476,7 +476,7 @@
     },
     {
       "path": ".github/workflows/macos.yml",
-      "size": 9759
+      "size": 9654
     },
     {
       "path": ".github/workflows/style.yml",
@@ -504,8 +504,8 @@
     "full_name": "isl-org/Open3D",
     "html_url": "https://github.com/isl-org/Open3D",
     "language": "C++",
-    "pushed_at": "2026-05-15T21:33:41Z",
-    "stargazers_count": 13589,
+    "pushed_at": "2026-05-16T08:00:13Z",
+    "stargazers_count": 13587,
     "topics": [
       "3d",
       "3d-perception",
@@ -528,7 +528,7 @@
       "tensorflow",
       "visualization"
     ],
-    "updated_at": "2026-05-15T17:05:39Z"
+    "updated_at": "2026-05-16T08:00:05Z"
   },
   "repo_links": [],
   "terms": [

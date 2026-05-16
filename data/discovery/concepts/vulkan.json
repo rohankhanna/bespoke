@@ -1087,6 +1087,12 @@
       "source_repo": "HyperLan-git/Synthmania",
       "status": "candidate-context",
       "text": "A midi rhythm game. Simple as that."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unknownue/vulkan-tutorial-rust",
+      "status": "candidate-context",
+      "text": "[package] name = \"vulkan-tutorial-rust\" version = \"1.0.0\" edition = \"2018\" authors = [\"unknownue <usami-ssc@protonmail.com>\"] [dependencies] winit = \"0.20.0\" ash = \"0.29.0\" num = \"0.2\" cgmath = \"0.17.0\" image = \"0.22\" memoffset = \"0.5.1\" tobj = \"0.1.10\" [dependencies.bitflags] v\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1629,6 +1635,12 @@
       "source_repo": "HyperLan-git/Synthmania",
       "status": "candidate",
       "text": "A midi rhythm game. Simple as that."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unknownue/vulkan-tutorial-rust",
+      "status": "candidate",
+      "text": "[package] name = \"vulkan-tutorial-rust\" version = \"1.0.0\" edition = \"2018\" authors = [\"unknownue <usami-ssc@protonmail.com>\"] [dependencies] winit = \"0.20.0\" ash = \"0.29.0\" num = \"0.2\" cgmath = \"0.17.0\" image = \"0.22\" memoffset = \"0.5.1\" tobj = \"0.1.10\" [dependencies.bitflags] v\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -3391,11 +3403,41 @@
       "observed_at": "2026-05-16T00:38:16.846047+00:00",
       "source_file": null,
       "source_repo": "unknownue/vulkan-tutorial-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "unknownue/vulkan-tutorial-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "ash-rs/ash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

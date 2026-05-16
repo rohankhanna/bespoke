@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PyTorch Implementation of GenerSpeech (NeurIPS'22): a text-to-speech model towards zero-shot style transfer of OOD custom voice."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "matplotlib librosa==0.8.0 tqdm pandas torch torchaudio numba==0.53.1 numpy scipy==1.3 PyYAML tensorboardX pyloudnorm setuptools>=41.0.0 g2p_en resemblyzer webrtcvad tensorboard==2.6.0 scikit-learn==0.24.1 scikit-image==0.16.2 textgrid jiwer pycwt PyWavelets praat-parselmouth==0.\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "matplotlib librosa==0.8.0 tqdm pandas torch torchaudio numba==0.53.1 numpy scipy==1.3 PyYAML tensorboardX pyloudnorm setuptools>=41.0.0 g2p_en resemblyzer webrtcvad tensorboard==2.6.0 scikit-learn==0.24.1 scikit-image==0.16.2 textgrid jiwer pycwt PyWavelets praat-parselmouth==0.\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neurips-2022",
+      "sense_id": "neurips-2022#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "neurips-2022",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neurips-2022",
+  "observation_id": "b8647a93e450f1db",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-16T06:55:35.086614+00:00",
+  "observed_text": "neurips-2022",
+  "source_context_snippet": "matplotlib librosa==0.8.0 tqdm pandas torch torchaudio numba==0.53.1 numpy scipy==1.3 PyYAML tensorboardX pyloudnorm setuptools>=41.0.0 g2p_en resemblyzer webrtcvad tensorboard==2.6.0 scikit-learn==0.24.1 scikit-image==0.16.2 textgrid jiwer pycwt PyWavelets praat-parselmouth==0.\u2026",
+  "source_file": null,
+  "source_repo": "Rongjiehuang/GenerSpeech",
+  "source_repo_description": "PyTorch Implementation of GenerSpeech (NeurIPS'22): a text-to-speech model towards zero-shot style transfer of OOD custom voice."
+}

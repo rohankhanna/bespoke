@@ -31,6 +31,18 @@
       "source_repo": "atsushieno/uapmd",
       "status": "candidate-context",
       "text": "![UAPMD v0.4 example screenshot](docs/images/uapmd-app-v0.4-sshot.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "steinbergmedia/vst3sdk",
+      "status": "candidate-context",
+      "text": "VST 3 Plug-In SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "steinbergmedia/vst3sdk",
+      "status": "candidate-context",
+      "text": "<div style=\"text-align:center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "atsushieno/uapmd",
       "status": "candidate",
       "text": "![UAPMD v0.4 example screenshot](docs/images/uapmd-app-v0.4-sshot.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "steinbergmedia/vst3sdk",
+      "status": "candidate",
+      "text": "<div style=\"text-align:center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-15T12:50:28.227991+00:00",
       "source_file": null,
       "source_repo": "atsushieno/uapmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": null,
+      "source_repo": "steinbergmedia/vst3sdk"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "lexical_providers": [
     "datamuse"
   ],

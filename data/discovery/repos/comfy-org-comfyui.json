@@ -178,7 +178,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T05:06:12.355839+00:00",
+  "fetched_at": "2026-05-16T09:13:43.372795+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -230,8 +230,8 @@
     "full_name": "Comfy-Org/ComfyUI",
     "html_url": "https://github.com/Comfy-Org/ComfyUI",
     "language": "Python",
-    "pushed_at": "2026-05-16T03:15:25Z",
-    "stargazers_count": 113098,
+    "pushed_at": "2026-05-16T07:02:57Z",
+    "stargazers_count": 113117,
     "topics": [
       "ai",
       "comfy",
@@ -240,7 +240,7 @@
       "pytorch",
       "stable-diffusion"
     ],
-    "updated_at": "2026-05-16T05:01:29Z"
+    "updated_at": "2026-05-16T09:13:32Z"
   },
   "repo_links": [
     {

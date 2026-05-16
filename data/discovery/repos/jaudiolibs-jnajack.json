@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "jaudiolibs/jnajack",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "jaudiolibs/jnajack",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "jaudiolibs/jnajack",
+      "target": "JNAJack",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T07:18:30.564988+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 84
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 632
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Java bindings to JACK Audio Connection Kit",
+    "fork": false,
+    "full_name": "jaudiolibs/jnajack",
+    "html_url": "https://github.com/jaudiolibs/jnajack",
+    "language": "Java",
+    "pushed_at": "2023-06-08T08:49:46Z",
+    "stargazers_count": 60,
+    "topics": [],
+    "updated_at": "2025-12-09T21:04:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "JNAJack",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "JNAJack"
+    }
+  ]
+}

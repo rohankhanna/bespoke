@@ -1160,6 +1160,9 @@
   "add milestone on a merged pr": [
     "add-milestone-on-a-merged-pr"
   ],
+  "add minecraft upstream label": [
+    "add-minecraft-upstream-label"
+  ],
   "add model like runner": [
     "add-model-like-runner"
   ],
@@ -3601,6 +3604,9 @@
   "antlr grammar validator": [
     "antlr-grammar-validator"
   ],
+  "antlr-ng": [
+    "antlr-ng"
+  ],
   "antlr4": [
     "antlr4"
   ],
@@ -5690,6 +5696,9 @@
   ],
   "auth0": [
     "auth0"
+  ],
+  "authenticate-docker-image-sbom": [
+    "authenticate-docker-image-sbom"
   ],
   "authentication": [
     "authentication"
@@ -9694,6 +9703,15 @@
   ],
   "bonds": [
     "bonds"
+  ],
+  "bonjour": [
+    "bonjour"
+  ],
+  "bonjour-browser": [
+    "bonjour-browser"
+  ],
+  "bonjour-discovery": [
+    "bonjour-discovery"
   ],
   "bonk": [
     "bonk"
@@ -16769,6 +16787,9 @@
   "check code formatting": [
     "check-code-formatting"
   ],
+  "check code formatting \ud83d\udee0\ufe0f": [
+    "check-code-formatting"
+  ],
   "check code quality": [
     "check-code-quality"
   ],
@@ -17284,6 +17305,9 @@
   ],
   "check milestone": [
     "check-milestone"
+  ],
+  "check minecraft crash": [
+    "check-minecraft-crash"
   ],
   "check mkdocs build": [
     "check-mkdocs-build"
@@ -19006,6 +19030,9 @@
   ],
   "ci multi-broker tests": [
     "ci-multi-broker-tests"
+  ],
+  "ci multiplatform build and release": [
+    "ci-multiplatform-build-and-release"
   ],
   "ci node.js": [
     "ci-node.js"
@@ -38537,6 +38564,9 @@
   "format code with black": [
     "format-code-with-black"
   ],
+  "format crash report in issue body": [
+    "format-crash-report-in-issue-body"
+  ],
   "format leaderboard": [
     "format-leaderboard"
   ],
@@ -38872,6 +38902,12 @@
   ],
   "french-touch": [
     "french-touch"
+  ],
+  "frenetic": [
+    "frenetic"
+  ],
+  "frenetic-utilities": [
+    "frenetic-utilities"
   ],
   "frequency": [
     "frequency"
@@ -49125,6 +49161,9 @@
   "jmh-visualizer": [
     "jmh-visualizer"
   ],
+  "jnajack": [
+    "jnajack"
+  ],
   "jni-binding": [
     "jni-binding"
   ],
@@ -53305,6 +53344,21 @@
   "lite-xl": [
     "lite-xl"
   ],
+  "litedb": [
+    "litedb"
+  ],
+  "litedb-database": [
+    "litedb-database"
+  ],
+  "litedb-explorer": [
+    "litedb-explorer"
+  ],
+  "litedb-shell": [
+    "litedb-shell"
+  ],
+  "litedb-viewer": [
+    "litedb-viewer"
+  ],
   "liteflownet": [
     "liteflownet"
   ],
@@ -56424,6 +56478,9 @@
   "mdl benchmark": [
     "mdl-benchmark"
   ],
+  "mdns": [
+    "mdns"
+  ],
   "mdspan version check": [
     "mdspan-version-check"
   ],
@@ -57302,6 +57359,9 @@
   ],
   "midi-js": [
     "midi-js"
+  ],
+  "midi-messages": [
+    "midi-messages"
   ],
   "midi-parser": [
     "midi-parser"
@@ -60939,6 +60999,9 @@
   "ngx-translate": [
     "ngx-translate"
   ],
+  "ni-midi2 ci": [
+    "ni-midi2-ci"
+  ],
   "nickel": [
     "nickel"
   ],
@@ -61948,6 +62011,9 @@
   "not-nanoservices": [
     "not-nanoservices"
   ],
+  "notarize-docker-image-bom": [
+    "notarize-docker-image-bom"
+  ],
   "notary": [
     "notary"
   ],
@@ -62747,6 +62813,15 @@
   ],
   "obs upload": [
     "obs-upload"
+  ],
+  "obs-plugin": [
+    "obs-plugin"
+  ],
+  "obs-studio": [
+    "obs-studio"
+  ],
+  "obs-studio-plugin": [
+    "obs-studio-plugin"
   ],
   "obsei action": [
     "obsei-action"
@@ -63885,6 +63960,9 @@
   "opengl": [
     "opengl"
   ],
+  "opengl-api": [
+    "opengl-api"
+  ],
   "opengl-bindings": [
     "opengl-bindings"
   ],
@@ -63899,6 +63977,9 @@
   ],
   "opengl-library": [
     "opengl-library"
+  ],
+  "opengl-sc": [
+    "opengl-sc"
   ],
   "openid": [
     "openid"
@@ -71697,6 +71778,9 @@
   "pure": [
     "pure"
   ],
+  "pure-data": [
+    "pure-data"
+  ],
   "purecomponent": [
     "purecomponent"
   ],
@@ -74276,6 +74360,12 @@
   ],
   "reflection": [
     "reflection"
+  ],
+  "reflection-library": [
+    "reflection-library"
+  ],
+  "reflections": [
+    "reflections"
   ],
   "reflexo::announce": [
     "reflexo-announce"
@@ -91825,6 +91915,9 @@
   "tuplehash": [
     "tuplehash"
   ],
+  "tuples": [
+    "tuples"
+  ],
   "turbo": [
     "turbo"
   ],
@@ -97097,6 +97190,9 @@
   "vs2019": [
     "vs2019"
   ],
+  "vs2022 build": [
+    "vs2022-build"
+  ],
   "vs2026 build": [
     "vs2026-build"
   ],
@@ -100353,6 +100449,9 @@
   ],
   "zeroconf": [
     "zeroconf"
+  ],
+  "zeroconfig": [
+    "zeroconfig"
   ],
   "zerolog": [
     "zerolog"

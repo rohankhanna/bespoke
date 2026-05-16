@@ -1,0 +1,180 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FreneticLLC/FreneticGameEngine",
+      "target": "bepu/bepuphysics2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FreneticLLC/FreneticGameEngine",
+      "target": "nvorbis/nvorbis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FreneticLLC/FreneticGameEngine",
+      "target": "copytext/textcopy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FreneticLLC/FreneticGameEngine",
+      "target": "miloszkrajewski/k4os.compression.lz4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FreneticLLC/FreneticGameEngine",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FreneticLLC/FreneticGameEngine",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FreneticLLC/FreneticGameEngine",
+      "target": "engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FreneticLLC/FreneticGameEngine",
+      "target": "frenetic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FreneticLLC/FreneticGameEngine",
+      "target": "game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FreneticLLC/FreneticGameEngine",
+      "target": "game-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FreneticLLC/FreneticGameEngine",
+      "target": "gameengine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T10:13:12.659090+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2955
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A powerful C# based 3D and 2D game engine.",
+    "fork": false,
+    "full_name": "FreneticLLC/FreneticGameEngine",
+    "html_url": "https://github.com/FreneticLLC/FreneticGameEngine",
+    "language": "C#",
+    "pushed_at": "2026-05-11T05:20:15Z",
+    "stargazers_count": 56,
+    "topics": [
+      "2d",
+      "3d",
+      "c-sharp",
+      "csharp",
+      "engine",
+      "fge",
+      "frenetic",
+      "game",
+      "game-engine",
+      "gameengine"
+    ],
+    "updated_at": "2026-04-17T14:06:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bepu/bepuphysics2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "copytext/textcopy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "miloszkrajewski/k4os.compression.lz4",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvorbis/nvorbis",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The Frenetic Game Engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "The Frenetic Game Engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "The Frenetic Game Engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "engine"
+    },
+    {
+      "context_snippet": "The Frenetic Game Engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frenetic"
+    },
+    {
+      "context_snippet": "The Frenetic Game Engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game"
+    },
+    {
+      "context_snippet": "The Frenetic Game Engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-engine"
+    },
+    {
+      "context_snippet": "The Frenetic Game Engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gameengine"
+    }
+  ]
+}

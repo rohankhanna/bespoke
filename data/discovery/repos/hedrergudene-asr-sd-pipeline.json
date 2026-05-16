@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hedrergudene/asr-sd-pipeline",
+      "target": "guillaumekln/faster-whisper",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-16T07:17:20.805500+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9137
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Speech recognition & diarisation solution with text alignment, deployed in AML pipelines",
+    "fork": false,
+    "full_name": "hedrergudene/asr-sd-pipeline",
+    "html_url": "https://github.com/hedrergudene/asr-sd-pipeline",
+    "language": "Python",
+    "pushed_at": "2024-05-07T13:00:31Z",
+    "stargazers_count": 101,
+    "topics": [],
+    "updated_at": "2026-03-15T19:39:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guillaumekln/faster-whisper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

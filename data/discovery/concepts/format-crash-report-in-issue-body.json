@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Format crash report in issue body"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/openjdk",
+      "status": "candidate-context",
+      "text": "Microsoft Build of OpenJDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/openjdk",
+      "status": "candidate-context",
+      "text": "Format crash report in issue body"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/openjdk",
+      "status": "candidate",
+      "text": "Format crash report in issue body"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46972,
+      "status": "candidate",
+      "text": "edition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45130,
+      "status": "candidate",
+      "text": "bed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44759,
+      "status": "candidate",
+      "text": "fall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44583,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44558,
+      "status": "candidate",
+      "text": "dashed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Format crash report in issue body",
+  "concept_id": "format-crash-report-in-issue-body",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T06:55:35.086614+00:00",
+      "source_file": ".github/workflows/format-crash-report-in-issue-body.yml",
+      "source_repo": "microsoft/openjdk"
+    }
+  ],
+  "first_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Format crash report in issue body",
+      "sense_id": "format-crash-report-in-issue-body#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

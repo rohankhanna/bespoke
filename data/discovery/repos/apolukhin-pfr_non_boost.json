@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apolukhin/pfr_non_boost",
+      "target": "reflection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T10:13:01.647704+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4912
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Boost.PFR without the boost namespaces",
+    "fork": false,
+    "full_name": "apolukhin/pfr_non_boost",
+    "html_url": "https://github.com/apolukhin/pfr_non_boost",
+    "language": "C++",
+    "pushed_at": "2025-06-21T06:09:14Z",
+    "stargazers_count": 79,
+    "topics": [
+      "reflection"
+    ],
+    "updated_at": "2026-04-21T08:32:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a C++14 library for very basic reflection that gives you access to structure elements by index and provides other `std::tuple` like methods for user defined types without any macro or boilerplate code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reflection"
+    }
+  ]
+}

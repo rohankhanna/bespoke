@@ -1,0 +1,74 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kotlin/kotlinx-benchmark",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kotlin/kotlinx-benchmark",
+      "target": "gradle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kotlin/kotlinx-benchmark",
+      "target": "kotlin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T07:18:05.972423+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15007
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kotlin multiplatform benchmarking toolkit",
+    "fork": false,
+    "full_name": "Kotlin/kotlinx-benchmark",
+    "html_url": "https://github.com/Kotlin/kotlinx-benchmark",
+    "language": "Kotlin",
+    "pushed_at": "2026-05-13T07:32:25Z",
+    "stargazers_count": 634,
+    "topics": [
+      "benchmark",
+      "gradle",
+      "jmh",
+      "jvm",
+      "kotlin"
+    ],
+    "updated_at": "2026-05-12T17:46:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Kotlin Alpha](https://kotl.in/badges/alpha.svg)](https://kotlinlang.org/docs/components-stability.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "[![Kotlin Alpha](https://kotl.in/badges/alpha.svg)](https://kotlinlang.org/docs/components-stability.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle"
+    },
+    {
+      "context_snippet": "[![Kotlin Alpha](https://kotl.in/badges/alpha.svg)](https://kotlinlang.org/docs/components-stability.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/openjdk",
+      "target": "microsoft/openjdk-jdk11u",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/openjdk",
+      "target": "microsoft/openjdk-jdk17u",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/openjdk",
+      "target": "microsoft/openjdk-jdk21u",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/openjdk",
+      "target": "microsoft/openjdk-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-crash-report-in-issue-body.yml",
+      "source_repo": "microsoft/openjdk",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format-crash-report-in-issue-body.yml",
+      "source_repo": "microsoft/openjdk",
+      "target": "Format crash report in issue body",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minecraft-crash-reported-upstream-check.yml",
+      "source_repo": "microsoft/openjdk",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/minecraft-crash-reported-upstream-check.yml",
+      "source_repo": "microsoft/openjdk",
+      "target": "Add Minecraft upstream label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minecraft-crash.yml",
+      "source_repo": "microsoft/openjdk",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/minecraft-crash.yml",
+      "source_repo": "microsoft/openjdk",
+      "target": "Check Minecraft crash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/openjdk",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/openjdk",
+      "target": "openjdk",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-16T06:55:35.086614+00:00",
+  "source_repo": "microsoft/openjdk"
+}
