@@ -2284,6 +2284,42 @@
       "source_repo": "atsushieno/fluidsynth-midi-service-j",
       "status": "candidate-context",
       "text": "[![fluidsynth-midi-service-j demo](http://img.youtube.com/vi/ZVyDmaV4Ihw/0.jpg)](http://www.youtube.com/watch?v=ZVyDmaV4Ihw \"fluidsynth-midi-service-j demo\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "status": "candidate-context",
+      "text": "Resident MIDI Keyboard for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "status": "candidate-context",
+      "text": "|||"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/oboe",
+      "status": "candidate-context",
+      "text": "Oboe is a C++ library that makes it easy to build high-performance audio apps on Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oboe",
+      "status": "candidate-context",
+      "text": "[![Introduction to Oboe video](docs/images/getting-started-video.jpg)](https://www.youtube.com/watch?v=csfHAbr5ilI&list=PLWz5rJ2EKKc_duWv9IPNvx9YBudNMmLSa)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jeziellago/compose-markdown",
+      "status": "candidate-context",
+      "text": "Markdown Text for Android Jetpack Compose \ud83d\udccb."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeziellago/compose-markdown",
+      "status": "candidate-context",
+      "text": "[![](https://androidweekly.net/issues/issue-456/badge)](https://androidweekly.net/issues/issue-456)"
     }
   ],
   "candidate_glosses": [
@@ -3444,6 +3480,24 @@
       "source_repo": "atsushieno/fluidsynth-midi-service-j",
       "status": "candidate",
       "text": "[![fluidsynth-midi-service-j demo](http://img.youtube.com/vi/ZVyDmaV4Ihw/0.jpg)](http://www.youtube.com/watch?v=ZVyDmaV4Ihw \"fluidsynth-midi-service-j demo\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "status": "candidate",
+      "text": "|||"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oboe",
+      "status": "candidate",
+      "text": "[![Introduction to Oboe video](docs/images/getting-started-video.jpg)](https://www.youtube.com/watch?v=csfHAbr5ilI&list=PLWz5rJ2EKKc_duWv9IPNvx9YBudNMmLSa)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeziellago/compose-markdown",
+      "status": "candidate",
+      "text": "[![](https://androidweekly.net/issues/issue-456/badge)](https://androidweekly.net/issues/issue-456)"
     }
   ],
   "candidate_related_terms": [
@@ -6244,11 +6298,71 @@
       "observed_at": "2026-05-15T18:39:58.785167+00:00",
       "source_file": null,
       "source_repo": "snapcast/snapdroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/compose-multiplatform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/resident-midi-keyboard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "google/oboe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "nitaliano/react-native-mapbox-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapdroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "jeziellago/compose-markdown"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

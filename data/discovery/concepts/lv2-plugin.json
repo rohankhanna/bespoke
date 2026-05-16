@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "lv2-plugin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpcima/string-machine",
+      "status": "candidate-context",
+      "text": "Digital model of electronic string ensemble instrument"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpcima/string-machine",
+      "status": "candidate-context",
+      "text": "This is a virtual-analog string ensemble synthesizer."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpcima/string-machine",
+      "status": "candidate",
+      "text": "This is a virtual-analog string ensemble synthesizer."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "lv2-plugin",
+  "concept_id": "lv2-plugin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "jpcima/string-machine"
+    }
+  ],
+  "first_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lv2-plugin",
+      "sense_id": "lv2-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

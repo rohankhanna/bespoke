@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-16T00:51:36.604750+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Abstraction layer around java.nio.file.WatchService that provides a more programmer friendly API to watch file system events.",
+    "fork": false,
+    "full_name": "dogla/filesystem-watcher",
+    "html_url": "https://github.com/dogla/filesystem-watcher",
+    "language": "Java",
+    "pushed_at": "2022-12-11T16:05:28Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2022-12-14T23:26:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

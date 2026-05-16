@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -121,6 +121,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ci-github.yml",
       "source_repo": "rocq-prover/rocq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vovkos/doxyrest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vovkos/doxyrest_b"
     }
   ],
   "term": "GitHub CI"

@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "faust"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpcima/string-machine",
+      "status": "candidate-context",
+      "text": "Digital model of electronic string ensemble instrument"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpcima/string-machine",
+      "status": "candidate-context",
+      "text": "This is a virtual-analog string ensemble synthesizer."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpcima/string-machine",
+      "status": "candidate",
+      "text": "This is a virtual-analog string ensemble synthesizer."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29948399,
+      "status": "candidate",
+      "text": "faustus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29948398,
+      "status": "candidate",
+      "text": "zimmer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050900,
+      "status": "candidate",
+      "text": "fausto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050899,
+      "status": "candidate",
+      "text": "necromancer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050898,
+      "status": "candidate",
+      "text": "conjurer"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14,
+      "status": "candidate",
+      "text": "faustus"
+    }
+  ],
+  "canonical_name": "faust",
+  "concept_id": "faust",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "jpcima/string-machine"
+    }
+  ],
+  "first_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "faust",
+      "sense_id": "faust#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

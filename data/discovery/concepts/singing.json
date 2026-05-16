@@ -1,0 +1,184 @@
+{
+  "aliases": [
+    "singing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AaronZ345/GTSinger",
+      "status": "candidate-context",
+      "text": "Dataset and code of GTSinger(NeurIPS 2024 Spotlight): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronZ345/GTSinger",
+      "status": "candidate-context",
+      "text": "Dataset and code of [GTSinger (NeurIPS 2024 Spotlight)](https://neurips.cc/virtual/2024/poster/97428): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AaronZ345/StyleSinger",
+      "status": "candidate-context",
+      "text": "PyTorch Implementation of StyleSinger(AAAI 2024): Style Transfer for Out-of-Domain Singing Voice Synthesis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronZ345/StyleSinger",
+      "status": "candidate-context",
+      "text": "PyTorch Implementation of [StyleSinger (AAAI 2024)](https://ojs.aaai.org/index.php/AAAI/article/view/29932): Style Transfer for Out-of-Domain Singing Voice Synthesis."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AaronZ345/TCSinger",
+      "status": "candidate-context",
+      "text": "PyTorch Implementation of TCSinger(EMNLP 2024): Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronZ345/TCSinger",
+      "status": "candidate-context",
+      "text": "PyTorch Implementation of [TCSinger (EMNLP 2024)](https://aclanthology.org/2024.emnlp-main.117/): Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronZ345/GTSinger",
+      "status": "candidate",
+      "text": "Dataset and code of [GTSinger (NeurIPS 2024 Spotlight)](https://neurips.cc/virtual/2024/poster/97428): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronZ345/StyleSinger",
+      "status": "candidate",
+      "text": "PyTorch Implementation of [StyleSinger (AAAI 2024)](https://ojs.aaai.org/index.php/AAAI/article/view/29932): Style Transfer for Out-of-Domain Singing Voice Synthesis."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronZ345/TCSinger",
+      "status": "candidate",
+      "text": "PyTorch Implementation of [TCSinger (EMNLP 2024)](https://aclanthology.org/2024.emnlp-main.117/): Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991707,
+      "status": "candidate",
+      "text": "musical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991473,
+      "status": "candidate",
+      "text": "melodic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990831,
+      "status": "candidate",
+      "text": "cantabile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990483,
+      "status": "candidate",
+      "text": "melodious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39947576,
+      "status": "candidate",
+      "text": "vocalizing"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17031,
+      "status": "candidate",
+      "text": "melodious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14032,
+      "status": "candidate",
+      "text": "melodic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12024,
+      "status": "candidate",
+      "text": "cantabile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8041,
+      "status": "candidate",
+      "text": "musical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8037,
+      "status": "candidate",
+      "text": "tattle"
+    }
+  ],
+  "canonical_name": "singing",
+  "concept_id": "singing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "AaronZ345/GTSinger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "AaronZ345/StyleSinger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "AaronZ345/TCSinger"
+    }
+  ],
+  "first_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "singing",
+      "sense_id": "singing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

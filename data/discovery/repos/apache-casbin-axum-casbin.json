@@ -182,7 +182,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T17:34:33.628726+00:00",
+  "fetched_at": "2026-05-16T03:58:09.756736+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -214,7 +214,7 @@
     "full_name": "apache/casbin-axum-casbin",
     "html_url": "https://github.com/apache/casbin-axum-casbin",
     "language": "Rust",
-    "pushed_at": "2026-03-23T12:21:38Z",
+    "pushed_at": "2026-05-15T19:06:09Z",
     "stargazers_count": 69,
     "topics": [
       "abac",

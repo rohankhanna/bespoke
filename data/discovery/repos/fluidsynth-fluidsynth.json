@@ -1,0 +1,582 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api_doc_build.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api_doc_build.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api_doc_build.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api_doc_build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rendering-regression.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/solaris.yml"
+    },
+    {
+      "component": "vmactions/solaris-vm@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/solaris.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml"
+    },
+    {
+      "component": "SonarSource/sonarqube-scan-action/install-build-wrapper@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml"
+    },
+    {
+      "component": "SonarSource/sonarqube-scan-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api_doc_build.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api_doc_build.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api_doc_build.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api_doc_build.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "API Doc & Wiki Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "codespell-project/actions-codespell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "Codespell Linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ios.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "FluidSynth iOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "FluidSynth Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rendering-regression.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rendering-regression.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "Audio Rendering Regression Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/solaris.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/solaris.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "vmactions/solaris-vm@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/solaris.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "FluidSynth Solaris",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "SonarSource/sonarqube-scan-action/install-build-wrapper@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "SonarSource/sonarqube-scan-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "SonarCloud Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "fluidsynth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "midi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "midi-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "midi-player",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "realtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "soundfont-synthesizers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "soundfont2-synthesizer-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "soundfonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "synthesizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluidSynth/fluidsynth",
+      "target": "wavetables",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T00:51:43.628932+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7144
+    },
+    {
+      "path": "Dockerfile",
+      "size": 829
+    },
+    {
+      "path": ".github/workflows/api_doc_build.yml",
+      "size": 2474
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2781
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 458
+    },
+    {
+      "path": ".github/workflows/ios.yml",
+      "size": 3000
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 6189
+    },
+    {
+      "path": ".github/workflows/rendering-regression.yml",
+      "size": 1558
+    },
+    {
+      "path": ".github/workflows/solaris.yml",
+      "size": 1690
+    },
+    {
+      "path": ".github/workflows/sonarcloud.yml",
+      "size": 3246
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Software synthesizer based on the SoundFont 2 specifications",
+    "fork": false,
+    "full_name": "FluidSynth/fluidsynth",
+    "html_url": "https://github.com/FluidSynth/fluidsynth",
+    "language": "C",
+    "pushed_at": "2026-05-01T14:37:05Z",
+    "stargazers_count": 2373,
+    "topics": [
+      "cross-platform",
+      "fluidsynth",
+      "linux",
+      "midi",
+      "midi-files",
+      "midi-player",
+      "realtime",
+      "soundfont-synthesizers",
+      "soundfont2-synthesizer-library",
+      "soundfonts",
+      "synthesizer",
+      "wavetables"
+    ],
+    "updated_at": "2026-05-15T14:32:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "API Doc & Wiki Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api_doc_build.yml",
+      "term": "API Doc & Wiki Build"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Codespell Linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "Codespell Linter"
+    },
+    {
+      "context_snippet": "FluidSynth iOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ios.yml",
+      "term": "FluidSynth iOS"
+    },
+    {
+      "context_snippet": "FluidSynth Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "FluidSynth Linux"
+    },
+    {
+      "context_snippet": "Audio Rendering Regression Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rendering-regression.yml",
+      "term": "Audio Rendering Regression Test"
+    },
+    {
+      "context_snippet": "FluidSynth Solaris",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/solaris.yml",
+      "term": "FluidSynth Solaris"
+    },
+    {
+      "context_snippet": "SonarCloud Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "term": "SonarCloud Workflow"
+    },
+    {
+      "context_snippet": "| | Build Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "| | Build Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fluidsynth"
+    },
+    {
+      "context_snippet": "| | Build Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "| | Build Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi"
+    },
+    {
+      "context_snippet": "| | Build Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi-files"
+    },
+    {
+      "context_snippet": "| | Build Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi-player"
+    },
+    {
+      "context_snippet": "| | Build Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "realtime"
+    },
+    {
+      "context_snippet": "| | Build Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "soundfont-synthesizers"
+    },
+    {
+      "context_snippet": "| | Build Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "soundfont2-synthesizer-library"
+    },
+    {
+      "context_snippet": "| | Build Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "soundfonts"
+    },
+    {
+      "context_snippet": "| | Build Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "synthesizer"
+    },
+    {
+      "context_snippet": "| | Build Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wavetables"
+    }
+  ]
+}

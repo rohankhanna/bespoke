@@ -1,7 +1,7 @@
 {
   "component": "autoprefixer",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -827,6 +827,11 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "2mawi2/schaltwerk"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "geekodour/wscribe-editor"
     }
   ]
 }

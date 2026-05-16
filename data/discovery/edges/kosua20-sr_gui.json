@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "kosua20/sr_gui",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-16T00:38:16.846047+00:00",
+  "source_repo": "kosua20/sr_gui"
+}

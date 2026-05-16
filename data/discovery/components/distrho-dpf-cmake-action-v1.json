@@ -1,0 +1,12 @@
+{
+  "component": "distrho/dpf-cmake-action@v1",
+  "first_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "DISTRHO/DPF"
+    }
+  ]
+}

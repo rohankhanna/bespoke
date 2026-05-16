@@ -408,7 +408,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T18:57:40.654271+00:00",
+  "fetched_at": "2026-05-16T04:53:40.205282+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -460,7 +460,7 @@
     "full_name": "apache/datafusion-ballista-python",
     "html_url": "https://github.com/apache/datafusion-ballista-python",
     "language": "Shell",
-    "pushed_at": "2024-02-10T15:40:40Z",
+    "pushed_at": "2026-05-15T20:25:09Z",
     "stargazers_count": 42,
     "topics": [
       "arrow",

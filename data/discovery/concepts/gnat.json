@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "gnat"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ficorax/cfa",
+      "status": "candidate-context",
+      "text": "CLAP for Ada"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ficorax/cfa",
+      "status": "candidate-context",
+      "text": "CLAP for Ada"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ficorax/cfa",
+      "status": "candidate",
+      "text": "CLAP for Ada"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30016519,
+      "status": "candidate",
+      "text": "midge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30016378,
+      "status": "candidate",
+      "text": "fly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30016235,
+      "status": "candidate",
+      "text": "bug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30016194,
+      "status": "candidate",
+      "text": "mosquito"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29981511,
+      "status": "candidate",
+      "text": "biter"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "gnat",
+  "concept_id": "gnat",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "ficorax/cfa"
+    }
+  ],
+  "first_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gnat",
+      "sense_id": "gnat#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

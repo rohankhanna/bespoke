@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "g200kg/webaudio-controls",
+      "target": "agektmr/webaudio-knob",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "g200kg/webaudio-controls",
+      "target": "ryoyakawai/webaudio-slider",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-16T00:51:33.318913+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1511
+    },
+    {
+      "path": "package.json",
+      "size": 665
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GUI parts library for Web application using WebComponents",
+    "fork": false,
+    "full_name": "g200kg/webaudio-controls",
+    "html_url": "https://github.com/g200kg/webaudio-controls",
+    "language": "JavaScript",
+    "pushed_at": "2025-10-04T14:04:24Z",
+    "stargazers_count": 363,
+    "topics": [],
+    "updated_at": "2026-05-05T12:18:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agektmr/webaudio-knob",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ryoyakawai/webaudio-slider",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

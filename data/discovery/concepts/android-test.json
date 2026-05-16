@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Android Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jeziellago/compose-markdown",
+      "status": "candidate-context",
+      "text": "Markdown Text for Android Jetpack Compose \ud83d\udccb."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeziellago/compose-markdown",
+      "status": "candidate-context",
+      "text": "Android Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeziellago/compose-markdown",
+      "status": "candidate",
+      "text": "Android Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16260,
+      "status": "candidate",
+      "text": "emotion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16260,
+      "status": "candidate",
+      "text": "robot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15367,
+      "status": "candidate",
+      "text": "ash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15367,
+      "status": "candidate",
+      "text": "data"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15367,
+      "status": "candidate",
+      "text": "play"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Android Test",
+  "concept_id": "android-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/android-test.yml",
+      "source_repo": "jeziellago/compose-markdown"
+    }
+  ],
+  "first_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Android Test",
+      "sense_id": "android-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

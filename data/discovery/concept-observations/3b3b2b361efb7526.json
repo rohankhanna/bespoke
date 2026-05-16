@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PyTorch Implementation of TCSinger(EMNLP 2024): Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PyTorch Implementation of [TCSinger (EMNLP 2024)](https://aclanthology.org/2024.emnlp-main.117/): Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PyTorch Implementation of [TCSinger (EMNLP 2024)](https://aclanthology.org/2024.emnlp-main.117/): Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "style-control",
+      "sense_id": "style-control#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "style-control",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "style-control",
+  "observation_id": "3b3b2b361efb7526",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-16T00:38:16.846047+00:00",
+  "observed_text": "style-control",
+  "source_context_snippet": "PyTorch Implementation of [TCSinger (EMNLP 2024)](https://aclanthology.org/2024.emnlp-main.117/): Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control.",
+  "source_file": null,
+  "source_repo": "AaronZ345/TCSinger",
+  "source_repo_description": "PyTorch Implementation of TCSinger(EMNLP 2024): Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-16T03:54:39.876150+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 6979
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "vovkos/luadoxyxml",
+    "html_url": "https://github.com/vovkos/luadoxyxml",
+    "language": "C++",
+    "pushed_at": "2025-12-04T06:05:48Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-12-04T06:05:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

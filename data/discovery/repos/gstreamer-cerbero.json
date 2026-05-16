@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-16T00:51:15.231543+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14565
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1203
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cerbero build system used to build the official upstream GStreamer 1.0 SDK binaries",
+    "fork": false,
+    "full_name": "GStreamer/cerbero",
+    "html_url": "https://github.com/GStreamer/cerbero",
+    "language": "Python",
+    "pushed_at": "2026-05-14T09:29:47Z",
+    "stargazers_count": 103,
+    "topics": [],
+    "updated_at": "2026-05-14T07:49:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

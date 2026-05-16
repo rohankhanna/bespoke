@@ -37,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T17:31:10.915286+00:00",
+  "fetched_at": "2026-05-16T03:55:54.455376+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -62,14 +62,14 @@
     "html_url": "https://github.com/jmsltnv/civitai-data-manager",
     "language": "Python",
     "pushed_at": "2025-07-30T17:37:17Z",
-    "stargazers_count": 58,
+    "stargazers_count": 59,
     "topics": [
       "civitai",
       "flux",
       "safetensors",
       "stable-diffusion"
     ],
-    "updated_at": "2026-04-01T17:21:14Z"
+    "updated_at": "2026-05-15T21:22:34Z"
   },
   "repo_links": [
     {

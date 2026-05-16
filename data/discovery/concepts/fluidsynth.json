@@ -19,6 +19,18 @@
       "source_repo": "atsushieno/fluidsynth-midi-service-j",
       "status": "candidate-context",
       "text": "[![fluidsynth-midi-service-j demo](http://img.youtube.com/vi/ZVyDmaV4Ihw/0.jpg)](http://www.youtube.com/watch?v=ZVyDmaV4Ihw \"fluidsynth-midi-service-j demo\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluidSynth/fluidsynth",
+      "status": "candidate-context",
+      "text": "Software synthesizer based on the SoundFont 2 specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluidSynth/fluidsynth",
+      "status": "candidate-context",
+      "text": "| | Build Status |"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "atsushieno/fluidsynth-midi-service-j",
       "status": "candidate",
       "text": "[![fluidsynth-midi-service-j demo](http://img.youtube.com/vi/ZVyDmaV4Ihw/0.jpg)](http://www.youtube.com/watch?v=ZVyDmaV4Ihw \"fluidsynth-midi-service-j demo\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluidSynth/fluidsynth",
+      "status": "candidate",
+      "text": "| | Build Status |"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-15T12:50:28.227991+00:00",
       "source_file": null,
       "source_repo": "atsushieno/fluidsynth-midi-service-j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "FluidSynth/fluidsynth"
     }
   ],
   "first_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

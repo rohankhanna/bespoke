@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpcima/string-machine",
+      "target": "eminent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpcima/string-machine",
+      "target": "faust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpcima/string-machine",
+      "target": "lv2-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpcima/string-machine",
+      "target": "musical-instrument",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpcima/string-machine",
+      "target": "solina",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpcima/string-machine",
+      "target": "synthesizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpcima/string-machine",
+      "target": "virtual-analog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpcima/string-machine",
+      "target": "vst-plugin",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-16T00:38:16.846047+00:00",
+  "source_repo": "jpcima/string-machine"
+}

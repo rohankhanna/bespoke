@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronZ345/TCSinger",
+      "target": "cross-lingual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronZ345/TCSinger",
+      "target": "singing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronZ345/TCSinger",
+      "target": "singing-voice-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronZ345/TCSinger",
+      "target": "speech-to-sing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronZ345/TCSinger",
+      "target": "style-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronZ345/TCSinger",
+      "target": "style-transfer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronZ345/TCSinger",
+      "target": "zero-shot",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-16T00:38:16.846047+00:00",
+  "source_repo": "AaronZ345/TCSinger"
+}

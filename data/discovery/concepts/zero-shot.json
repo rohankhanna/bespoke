@@ -127,6 +127,30 @@
       "source_repo": "hcy71o/SNAC",
       "status": "candidate-context",
       "text": "This is the unofficial pytorch implementation of [SNAC](https://arxiv.org/abs/2211.16866)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AaronZ345/StyleSinger",
+      "status": "candidate-context",
+      "text": "PyTorch Implementation of StyleSinger(AAAI 2024): Style Transfer for Out-of-Domain Singing Voice Synthesis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronZ345/StyleSinger",
+      "status": "candidate-context",
+      "text": "PyTorch Implementation of [StyleSinger (AAAI 2024)](https://ojs.aaai.org/index.php/AAAI/article/view/29932): Style Transfer for Out-of-Domain Singing Voice Synthesis."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AaronZ345/TCSinger",
+      "status": "candidate-context",
+      "text": "PyTorch Implementation of TCSinger(EMNLP 2024): Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronZ345/TCSinger",
+      "status": "candidate-context",
+      "text": "PyTorch Implementation of [TCSinger (EMNLP 2024)](https://aclanthology.org/2024.emnlp-main.117/): Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "hcy71o/SNAC",
       "status": "candidate",
       "text": "This is the unofficial pytorch implementation of [SNAC](https://arxiv.org/abs/2211.16866)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronZ345/StyleSinger",
+      "status": "candidate",
+      "text": "PyTorch Implementation of [StyleSinger (AAAI 2024)](https://ojs.aaai.org/index.php/AAAI/article/view/29932): Style Transfer for Out-of-Domain Singing Voice Synthesis."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronZ345/TCSinger",
+      "status": "candidate",
+      "text": "PyTorch Implementation of [TCSinger (EMNLP 2024)](https://aclanthology.org/2024.emnlp-main.117/): Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control."
     }
   ],
   "candidate_related_terms": [
@@ -568,11 +604,29 @@
       "observed_at": "2026-05-15T18:39:58.785167+00:00",
       "source_file": null,
       "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "AaronZ345/StyleSinger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "AaronZ345/TCSinger"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

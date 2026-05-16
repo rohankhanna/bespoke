@@ -25,7 +25,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "microsoft/aspire-samples",
-      "target": "docker/setup-docker-action@1a6edb0ba9ac496f6850236981f15d8f9a82254d",
+      "target": "docker/setup-docker-action@b2189fbf2a6592b51fee7cdd93ee2bfaeba733db",
       "target_type": "component"
     },
     {
@@ -39,7 +39,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "microsoft/aspire-samples",
-      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
       "target_type": "component"
     },
     {
@@ -155,6 +155,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-15T18:39:58.785167+00:00",
+  "generated_at": "2026-05-16T00:38:16.846047+00:00",
   "source_repo": "microsoft/aspire-samples"
 }

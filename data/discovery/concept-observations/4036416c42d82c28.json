@@ -84,7 +84,7 @@
   "normalized_form": "build-dist",
   "observation_id": "4036416c42d82c28",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_at": "2026-05-16T00:38:16.846047+00:00",
   "observed_text": "build dist",
   "source_context_snippet": "build dist",
   "source_file": ".github/workflows/actions.yml",

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RickyL-2000/AlignSTS",
+      "target": "rongjiehuang/prodiff",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-16T03:55:32.281317+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4058
+    },
+    {
+      "path": "requirements.txt",
+      "size": 760
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Findings of ACL 2023 | AlignSTS: a speech-to-singing (STS) model based on modality disentanglement and cross-modal alignment",
+    "fork": false,
+    "full_name": "RickyL-2000/AlignSTS",
+    "html_url": "https://github.com/RickyL-2000/AlignSTS",
+    "language": "Python",
+    "pushed_at": "2024-07-05T05:53:45Z",
+    "stargazers_count": 68,
+    "topics": [],
+    "updated_at": "2025-07-19T05:16:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rongjiehuang/prodiff",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

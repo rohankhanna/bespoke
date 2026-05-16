@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI - amdsharktank nightly"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nod-ai/amd-shark-ai",
+      "status": "candidate-context",
+      "text": "AMD-SHARK Inference Modeling and Serving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nod-ai/amd-shark-ai",
+      "status": "candidate-context",
+      "text": "CI - amdsharktank nightly"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nod-ai/amd-shark-ai",
+      "status": "candidate",
+      "text": "CI - amdsharktank nightly"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10477,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10477,
+      "status": "candidate",
+      "text": "irene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10477,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4648,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4556,
+      "status": "candidate",
+      "text": "fucus"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI - amdsharktank nightly",
+  "concept_id": "ci---amdsharktank-nightly",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/ci-amdsharktank-nightly.yml",
+      "source_repo": "nod-ai/amd-shark-ai"
+    }
+  ],
+  "first_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI - amdsharktank nightly",
+      "sense_id": "ci---amdsharktank-nightly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

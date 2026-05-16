@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpcima/string-machine",
+      "target": "eminent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpcima/string-machine",
+      "target": "faust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpcima/string-machine",
+      "target": "lv2-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpcima/string-machine",
+      "target": "musical-instrument",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpcima/string-machine",
+      "target": "solina",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpcima/string-machine",
+      "target": "synthesizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpcima/string-machine",
+      "target": "virtual-analog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpcima/string-machine",
+      "target": "vst-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T00:51:13.183508+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1773
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Digital model of electronic string ensemble instrument",
+    "fork": false,
+    "full_name": "jpcima/string-machine",
+    "html_url": "https://github.com/jpcima/string-machine",
+    "language": "C++",
+    "pushed_at": "2023-11-28T08:44:57Z",
+    "stargazers_count": 76,
+    "topics": [
+      "dpf",
+      "eminent",
+      "faust",
+      "lv2-plugin",
+      "musical-instrument",
+      "solina",
+      "synthesizer",
+      "virtual-analog",
+      "vst-plugin"
+    ],
+    "updated_at": "2026-05-13T20:45:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a virtual-analog string ensemble synthesizer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eminent"
+    },
+    {
+      "context_snippet": "This is a virtual-analog string ensemble synthesizer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "faust"
+    },
+    {
+      "context_snippet": "This is a virtual-analog string ensemble synthesizer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lv2-plugin"
+    },
+    {
+      "context_snippet": "This is a virtual-analog string ensemble synthesizer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "musical-instrument"
+    },
+    {
+      "context_snippet": "This is a virtual-analog string ensemble synthesizer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "solina"
+    },
+    {
+      "context_snippet": "This is a virtual-analog string ensemble synthesizer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "synthesizer"
+    },
+    {
+      "context_snippet": "This is a virtual-analog string ensemble synthesizer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-analog"
+    },
+    {
+      "context_snippet": "This is a virtual-analog string ensemble synthesizer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vst-plugin"
+    }
+  ]
+}

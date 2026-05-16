@@ -261,7 +261,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T19:25:51.700401+00:00",
+  "fetched_at": "2026-05-16T02:57:23.412085+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -293,14 +293,14 @@
     "full_name": "luau-lang/luau",
     "html_url": "https://github.com/luau-lang/luau",
     "language": "C++",
-    "pushed_at": "2026-05-15T18:43:33Z",
+    "pushed_at": "2026-05-15T20:10:14Z",
     "stargazers_count": 5537,
     "topics": [
       "lua",
       "programming-language",
       "scripting-language"
     ],
-    "updated_at": "2026-05-15T19:03:49Z"
+    "updated_at": "2026-05-16T00:18:06Z"
   },
   "repo_links": [
     {

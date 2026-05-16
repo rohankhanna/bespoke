@@ -44,6 +44,18 @@
       "source_repo": "KentoNishi/torch-pitch-shift",
       "status": "candidate-context",
       "text": "Update Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/oboe",
+      "status": "candidate-context",
+      "text": "Oboe is a C++ library that makes it easy to build high-performance audio apps on Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oboe",
+      "status": "candidate-context",
+      "text": "Update Docs"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "KentoNishi/torch-pitch-shift",
+      "status": "candidate",
+      "text": "Update Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oboe",
       "status": "candidate",
       "text": "Update Docs"
     }
@@ -647,11 +665,29 @@
       "observed_at": "2026-05-15T18:39:58.785167+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/update-docs.yml",
+      "source_repo": "google/oboe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "unifyai/ivy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

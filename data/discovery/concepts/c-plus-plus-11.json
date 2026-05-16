@@ -91,6 +91,30 @@
       "source_repo": "bitwizeshift/BackportCpp",
       "status": "candidate-context",
       "text": "![Backport C++](doc/images/backport-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cginternals/cpplocate",
+      "status": "candidate-context",
+      "text": "Cross-platform C++ library providing tools for applications to locate themselves, their data assets as well as dependent modules."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cginternals/cpplocate",
+      "status": "candidate-context",
+      "text": "[//]: # (Comment)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cginternals/glbinding",
+      "status": "candidate-context",
+      "text": "A C++ binding for the OpenGL API, generated using the gl.xml specification. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cginternals/glbinding",
+      "status": "candidate-context",
+      "text": "[//]: # (Comment)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "bitwizeshift/BackportCpp",
       "status": "candidate",
       "text": "![Backport C++](doc/images/backport-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cginternals/cpplocate",
+      "status": "candidate",
+      "text": "[//]: # (Comment)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cginternals/glbinding",
+      "status": "candidate",
+      "text": "[//]: # (Comment)"
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +226,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "bitwizeshift/BackportCpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "cginternals/cpplocate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "cginternals/glbinding"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

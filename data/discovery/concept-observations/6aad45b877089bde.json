@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Music Macro Language to MIDI 1.0 / 2.0 compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/mugene)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/mugene)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kotlin-multiplatform",
+      "sense_id": "kotlin-multiplatform#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kotlin-multiplatform",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kotlin-multiplatform",
+  "observation_id": "6aad45b877089bde",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-16T00:38:16.846047+00:00",
+  "observed_text": "kotlin-multiplatform",
+  "source_context_snippet": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/mugene)",
+  "source_file": null,
+  "source_repo": "atsushieno/mugene-ng",
+  "source_repo_description": "Music Macro Language to MIDI 1.0 / 2.0 compiler"
+}

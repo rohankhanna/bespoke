@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Markdown Text for Android Jetpack Compose \ud83d\udccb."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Android Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Android Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16260,
+      "status": "candidate",
+      "text": "emotion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16260,
+      "status": "candidate",
+      "text": "robot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15367,
+      "status": "candidate",
+      "text": "ash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15367,
+      "status": "candidate",
+      "text": "data"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15367,
+      "status": "candidate",
+      "text": "play"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Android Test",
+      "sense_id": "android-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "android-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "android-test",
+  "observation_id": "b548030397a239a9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-16T00:38:16.846047+00:00",
+  "observed_text": "Android Test",
+  "source_context_snippet": "Android Test",
+  "source_file": ".github/workflows/android-test.yml",
+  "source_repo": "jeziellago/compose-markdown",
+  "source_repo_description": "Markdown Text for Android Jetpack Compose \ud83d\udccb."
+}

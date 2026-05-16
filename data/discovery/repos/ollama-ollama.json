@@ -31,6 +31,11 @@
       "source_file": ".github/workflows/release.yaml"
     },
     {
+      "component": "al-cheb/configure-pagefile-action@v1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
       "component": "actions/cache/restore@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml"
@@ -116,12 +121,12 @@
       "source_file": ".github/workflows/release.yaml"
     },
     {
-      "component": "docker/build-push-action@v6",
+      "component": "docker/login-action@v3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "docker/build-push-action@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml"
     },
@@ -137,6 +142,16 @@
     },
     {
       "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml"
     },
@@ -321,6 +336,13 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "ollama/ollama",
+      "target": "al-cheb/configure-pagefile-action@v1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "ollama/ollama",
       "target": "actions/cache/restore@v4",
       "target_type": "component"
     },
@@ -370,14 +392,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "ollama/ollama",
-      "target": "docker/build-push-action@v6",
+      "target": "docker/login-action@v3",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "ollama/ollama",
-      "target": "docker/login-action@v3",
+      "target": "docker/build-push-action@v6",
       "target_type": "component"
     },
     {
@@ -549,7 +571,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T19:08:11.199462+00:00",
+  "fetched_at": "2026-05-16T04:59:07.095637+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -557,7 +579,7 @@
     },
     {
       "path": "Dockerfile",
-      "size": 10261
+      "size": 10559
     },
     {
       "path": "go.mod",
@@ -569,7 +591,7 @@
     },
     {
       "path": ".github/workflows/release.yaml",
-      "size": 26075
+      "size": 30724
     },
     {
       "path": ".github/workflows/test-install.yaml",
@@ -577,7 +599,7 @@
     },
     {
       "path": ".github/workflows/test.yaml",
-      "size": 14053
+      "size": 14157
     }
   ],
   "related_repositories": [],
@@ -589,8 +611,8 @@
     "full_name": "ollama/ollama",
     "html_url": "https://github.com/ollama/ollama",
     "language": "Go",
-    "pushed_at": "2026-05-15T00:53:17Z",
-    "stargazers_count": 171460,
+    "pushed_at": "2026-05-15T23:23:55Z",
+    "stargazers_count": 171480,
     "topics": [
       "deepseek",
       "gemma",
@@ -608,7 +630,7 @@
       "ollama",
       "qwen"
     ],
-    "updated_at": "2026-05-15T18:42:04Z"
+    "updated_at": "2026-05-16T04:27:28Z"
   },
   "repo_links": [
     {

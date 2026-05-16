@@ -1,0 +1,183 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kosua20/MIDIVisualizer",
+      "target": "kosua20/sr_gui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kosua20/MIDIVisualizer",
+      "target": "jcelerier/rtmidi17",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "kosua20/MIDIVisualizer",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kosua20/MIDIVisualizer",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kosua20/MIDIVisualizer",
+      "target": "actions/upload-release-asset@v1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kosua20/MIDIVisualizer",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kosua20/MIDIVisualizer",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kosua20/MIDIVisualizer",
+      "target": "midi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kosua20/MIDIVisualizer",
+      "target": "midi-visualizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kosua20/MIDIVisualizer",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kosua20/MIDIVisualizer",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T00:51:23.457742+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7620
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 1010
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3339
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A small MIDI visualizer tool, using OpenGL",
+    "fork": false,
+    "full_name": "kosua20/MIDIVisualizer",
+    "html_url": "https://github.com/kosua20/MIDIVisualizer",
+    "language": "C++",
+    "pushed_at": "2025-12-14T20:15:51Z",
+    "stargazers_count": 1248,
+    "topics": [
+      "graphics",
+      "midi",
+      "midi-visualizer",
+      "opengl",
+      "visualization"
+    ],
+    "updated_at": "2026-05-13T16:58:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jcelerier/rtmidi17",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kosua20/sr_gui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "![CI](https://github.com/kosua20/MIDIVisualizer/workflows/CI/badge.svg?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "![CI](https://github.com/kosua20/MIDIVisualizer/workflows/CI/badge.svg?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi"
+    },
+    {
+      "context_snippet": "![CI](https://github.com/kosua20/MIDIVisualizer/workflows/CI/badge.svg?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi-visualizer"
+    },
+    {
+      "context_snippet": "![CI](https://github.com/kosua20/MIDIVisualizer/workflows/CI/badge.svg?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "![CI](https://github.com/kosua20/MIDIVisualizer/workflows/CI/badge.svg?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

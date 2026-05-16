@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "time-delay-neural-network"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuyq96/D-TDNN",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of Densely Connected Time Delay Neural Network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuyq96/D-TDNN",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of Densely Connected Time Delay Neural Network (D-TDNN) in our paper [\"Densely Connected Time Delay Neural Network for Speaker Verification\"](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1275.html) (INTERSPEECH 2020)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuyq96/D-TDNN",
+      "status": "candidate",
+      "text": "PyTorch implementation of Densely Connected Time Delay Neural Network (D-TDNN) in our paper [\"Densely Connected Time Delay Neural Network for Speaker Verification\"](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1275.html) (INTERSPEECH 2020)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "time-delay-neural-network",
+  "concept_id": "time-delay-neural-network",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "yuyq96/D-TDNN"
+    }
+  ],
+  "first_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "time-delay-neural-network",
+      "sense_id": "time-delay-neural-network#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

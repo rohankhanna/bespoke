@@ -30,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T17:34:04.109894+00:00",
+  "fetched_at": "2026-05-16T03:57:48.398902+00:00",
   "fetched_files": [],
   "related_repositories": [],
   "repo": {
@@ -41,7 +41,7 @@
     "full_name": "apache/casbin-casbin.io",
     "html_url": "https://github.com/apache/casbin-casbin.io",
     "language": "HTML",
-    "pushed_at": "2026-03-23T12:21:59Z",
+    "pushed_at": "2026-05-15T19:06:31Z",
     "stargazers_count": 3,
     "topics": [
       "casbin",

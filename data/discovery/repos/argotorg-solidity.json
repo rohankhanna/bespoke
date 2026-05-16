@@ -152,7 +152,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T17:18:52.221962+00:00",
+  "fetched_at": "2026-05-16T03:48:22.282062+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -184,7 +184,7 @@
     "full_name": "argotorg/solidity",
     "html_url": "https://github.com/argotorg/solidity",
     "language": "C++",
-    "pushed_at": "2026-05-15T13:31:30Z",
+    "pushed_at": "2026-05-15T17:49:49Z",
     "stargazers_count": 25637,
     "topics": [
       "blockchain",

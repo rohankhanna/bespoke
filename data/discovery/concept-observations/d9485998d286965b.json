@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Resident MIDI Keyboard for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "|||"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "|||"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jetpack-compose",
+      "sense_id": "jetpack-compose#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jetpack-compose",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jetpack-compose",
+  "observation_id": "d9485998d286965b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-16T00:38:16.846047+00:00",
+  "observed_text": "jetpack-compose",
+  "source_context_snippet": "|||",
+  "source_file": null,
+  "source_repo": "atsushieno/resident-midi-keyboard",
+  "source_repo_description": "Resident MIDI Keyboard for Android"
+}

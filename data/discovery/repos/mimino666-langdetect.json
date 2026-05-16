@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mimino666/langdetect",
+      "target": "shuyo/language-detection",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-16T00:51:52.817025+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3325
+    },
+    {
+      "path": "requirements.txt",
+      "size": 4
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Port of Google's language-detection library to Python.",
+    "fork": false,
+    "full_name": "Mimino666/langdetect",
+    "html_url": "https://github.com/Mimino666/langdetect",
+    "language": "Python",
+    "pushed_at": "2025-03-03T13:07:08Z",
+    "stargazers_count": 1883,
+    "topics": [],
+    "updated_at": "2026-05-10T17:59:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shuyo/language-detection",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

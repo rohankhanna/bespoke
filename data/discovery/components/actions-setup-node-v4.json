@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -10622,6 +10622,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/on_pull_request.yaml",
       "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/vscode-js-debug"
     }
   ]
 }

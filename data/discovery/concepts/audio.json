@@ -775,6 +775,42 @@
       "source_repo": "atsushieno/compose-audio-controls",
       "status": "candidate-context",
       "text": "![demoapp sshot](docs/images/demoapp-sshot.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "free-audio/clap",
+      "status": "candidate-context",
+      "text": "Audio Plugin API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "free-audio/clap",
+      "status": "candidate-context",
+      "text": "<p align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/oboe",
+      "status": "candidate-context",
+      "text": "Oboe is a C++ library that makes it easy to build high-performance audio apps on Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oboe",
+      "status": "candidate-context",
+      "text": "[![Introduction to Oboe video](docs/images/getting-started-video.jpg)](https://www.youtube.com/watch?v=csfHAbr5ilI&list=PLWz5rJ2EKKc_duWv9IPNvx9YBudNMmLSa)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celtera/avendish",
+      "status": "candidate-context",
+      "text": "declarative polyamorous cross-system intermedia objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celtera/avendish",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1161,6 +1197,24 @@
       "source_repo": "atsushieno/compose-audio-controls",
       "status": "candidate",
       "text": "![demoapp sshot](docs/images/demoapp-sshot.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "free-audio/clap",
+      "status": "candidate",
+      "text": "<p align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oboe",
+      "status": "candidate",
+      "text": "[![Introduction to Oboe video](docs/images/getting-started-video.jpg)](https://www.youtube.com/watch?v=csfHAbr5ilI&list=PLWz5rJ2EKKc_duWv9IPNvx9YBudNMmLSa)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celtera/avendish",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2377,11 +2431,47 @@
       "observed_at": "2026-05-15T18:39:58.785167+00:00",
       "source_file": null,
       "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "free-audio/clap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "google/oboe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "celtera/avendish"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

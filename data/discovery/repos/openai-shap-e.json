@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-16T00:52:01.494567+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3252
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generate 3D objects conditioned on text or images",
+    "fork": false,
+    "full_name": "openai/shap-e",
+    "html_url": "https://github.com/openai/shap-e",
+    "language": "Python",
+    "pushed_at": "2024-06-22T19:19:14Z",
+    "stargazers_count": 12246,
+    "topics": [],
+    "updated_at": "2026-05-15T23:54:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

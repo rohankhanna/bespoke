@@ -103,6 +103,18 @@
       "source_repo": "thammegowda/nllb-serve",
       "status": "candidate-context",
       "text": "[![image](http://img.shields.io/pypi/v/nllb-serve.svg)](https://pypi.python.org/pypi/nllb-serve/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AaronZ345/GTSinger",
+      "status": "candidate-context",
+      "text": "Dataset and code of GTSinger(NeurIPS 2024 Spotlight): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronZ345/GTSinger",
+      "status": "candidate-context",
+      "text": "Dataset and code of [GTSinger (NeurIPS 2024 Spotlight)](https://neurips.cc/virtual/2024/poster/97428): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "thammegowda/nllb-serve",
       "status": "candidate",
       "text": "[![image](http://img.shields.io/pypi/v/nllb-serve.svg)](https://pypi.python.org/pypi/nllb-serve/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronZ345/GTSinger",
+      "status": "candidate",
+      "text": "Dataset and code of [GTSinger (NeurIPS 2024 Spotlight)](https://neurips.cc/virtual/2024/poster/97428): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks."
     }
   ],
   "candidate_related_terms": [
@@ -266,11 +284,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "thammegowda/nllb-serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "AaronZ345/GTSinger"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

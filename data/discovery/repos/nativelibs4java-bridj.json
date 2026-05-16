@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nativelibs4java/BridJ",
+      "target": "twall/jna",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nativelibs4java/BridJ",
+      "target": "microsoft/openjdk-aarch64",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nativelibs4java/BridJ",
+      "target": "ochafik/nativelibs4java",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-16T03:55:24.903987+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6891
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BridJ: blazing fast Java / C / C++ interop",
+    "fork": false,
+    "full_name": "nativelibs4java/BridJ",
+    "html_url": "https://github.com/nativelibs4java/BridJ",
+    "language": "Java",
+    "pushed_at": "2024-06-29T02:04:49Z",
+    "stargazers_count": 308,
+    "topics": [],
+    "updated_at": "2026-05-01T16:20:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/openjdk-aarch64",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ochafik/nativelibs4java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "twall/jna",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -799,6 +799,30 @@
       "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
       "status": "candidate-context",
       "text": "A web interface for Stable Diffusion, implemented using Gradio library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Stability-AI/StableSwarmUI",
+      "status": "candidate-context",
+      "text": "StableSwarmUI, A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Stability-AI/StableSwarmUI",
+      "status": "candidate-context",
+      "text": "**StableSwarmUI 0.6.4.1 Beta**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlonzoLeeeooo/LCDG",
+      "status": "candidate-context",
+      "text": "The official code implementation of \"LaCon: Late-Constraint Diffusion for Steerable Guided Image Synthesis\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlonzoLeeeooo/LCDG",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1197,6 +1221,18 @@
       "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
       "status": "candidate",
       "text": "A web interface for Stable Diffusion, implemented using Gradio library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Stability-AI/StableSwarmUI",
+      "status": "candidate",
+      "text": "**StableSwarmUI 0.6.4.1 Beta**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlonzoLeeeooo/LCDG",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -2422,11 +2458,41 @@
       "observed_at": "2026-05-15T18:39:58.785167+00:00",
       "source_file": null,
       "source_repo": "showlab/VisorGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "showlab/VisorGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "Stability-AI/StableSwarmUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "AlonzoLeeeooo/LCDG"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

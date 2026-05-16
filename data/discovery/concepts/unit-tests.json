@@ -1322,6 +1322,18 @@
       "source_repo": "fuma-nama/fumadocs",
       "status": "candidate-context",
       "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jeziellago/compose-markdown",
+      "status": "candidate-context",
+      "text": "Markdown Text for Android Jetpack Compose \ud83d\udccb."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeziellago/compose-markdown",
+      "status": "candidate-context",
+      "text": "Unit Tests"
     }
   ],
   "candidate_glosses": [
@@ -1988,6 +2000,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fuma-nama/fumadocs",
+      "status": "candidate",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeziellago/compose-markdown",
       "status": "candidate",
       "text": "Unit Tests"
     }
@@ -5566,11 +5584,83 @@
       "observed_at": "2026-05-15T18:39:58.785167+00:00",
       "source_file": ".github/workflows/unit_tests.yml",
       "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "datalab-to/surya"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/unittest-mac.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "huggingface/sentence-transformers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "GoogleChrome/related-website-sets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "clj-commons/rewrite-clj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jeziellago/compose-markdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "Redocly/redoc"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

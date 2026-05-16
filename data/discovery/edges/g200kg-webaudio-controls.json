@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "g200kg/webaudio-controls",
+      "target": "agektmr/webaudio-knob",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "g200kg/webaudio-controls",
+      "target": "ryoyakawai/webaudio-slider",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-16T00:38:16.846047+00:00",
+  "source_repo": "g200kg/webaudio-controls"
+}

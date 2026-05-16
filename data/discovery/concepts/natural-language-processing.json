@@ -1147,6 +1147,18 @@
       "source_repo": "kahne/SpeechTransProgress",
       "status": "candidate-context",
       "text": "End-to-End Speech Translation Progress"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/budou",
+      "status": "candidate-context",
+      "text": "Budou is an automatic organizer tool for beautiful line breaking in CJK (Chinese, Japanese, and Korean)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/budou",
+      "status": "candidate-context",
+      "text": "Budou \ud83c\udf47"
     }
   ],
   "candidate_glosses": [
@@ -1719,6 +1731,12 @@
       "source_repo": "kahne/SpeechTransProgress",
       "status": "candidate",
       "text": "End-to-End Speech Translation Progress"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/budou",
+      "status": "candidate",
+      "text": "Budou \ud83c\udf47"
     }
   ],
   "candidate_related_terms": [],
@@ -4498,11 +4516,71 @@
       "observed_at": "2026-05-15T18:39:58.785167+00:00",
       "source_file": null,
       "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "google/budou"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio-transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "lil-lab/nlvr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flash-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "nasa-petal/PeTaL-labeller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "piskvorky/gensim"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

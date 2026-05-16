@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Codespell Linter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluidSynth/fluidsynth",
+      "status": "candidate-context",
+      "text": "Software synthesizer based on the SoundFont 2 specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluidSynth/fluidsynth",
+      "status": "candidate-context",
+      "text": "Codespell Linter"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluidSynth/fluidsynth",
+      "status": "candidate",
+      "text": "Codespell Linter"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Codespell Linter",
+  "concept_id": "codespell-linter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "FluidSynth/fluidsynth"
+    }
+  ],
+  "first_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Codespell Linter",
+      "sense_id": "codespell-linter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

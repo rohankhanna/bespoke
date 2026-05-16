@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "example-plugins"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DISTRHO/DPF",
+      "status": "candidate-context",
+      "text": "DISTRHO Plugin Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DISTRHO/DPF",
+      "status": "candidate-context",
+      "text": "example-plugins"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DISTRHO/DPF",
+      "status": "candidate",
+      "text": "example-plugins"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "example-plugins",
+  "concept_id": "example-plugins",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/example-plugins.yml",
+      "source_repo": "DISTRHO/DPF"
+    }
+  ],
+  "first_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "example-plugins",
+      "sense_id": "example-plugins#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

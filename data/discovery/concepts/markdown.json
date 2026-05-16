@@ -1399,6 +1399,18 @@
       "source_repo": "kepano/defuddle",
       "status": "candidate-context",
       "text": "> de\u00b7\u200bfud\u00b7dle /di\u02c8f\u028cdl/ *transitive verb*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jeziellago/compose-markdown",
+      "status": "candidate-context",
+      "text": "Markdown Text for Android Jetpack Compose \ud83d\udccb."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeziellago/compose-markdown",
+      "status": "candidate-context",
+      "text": "[![](https://androidweekly.net/issues/issue-456/badge)](https://androidweekly.net/issues/issue-456)"
     }
   ],
   "candidate_glosses": [
@@ -2097,6 +2109,12 @@
       "source_repo": "kepano/defuddle",
       "status": "candidate",
       "text": "> de\u00b7\u200bfud\u00b7dle /di\u02c8f\u028cdl/ *transitive verb*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeziellago/compose-markdown",
+      "status": "candidate",
+      "text": "[![](https://androidweekly.net/issues/issue-456/badge)](https://androidweekly.net/issues/issue-456)"
     }
   ],
   "candidate_related_terms": [
@@ -3886,11 +3904,41 @@
       "observed_at": "2026-05-15T18:39:58.785167+00:00",
       "source_file": null,
       "source_repo": "mixmark-io/turndown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "mixmark-io/turndown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "jeziellago/compose-markdown"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

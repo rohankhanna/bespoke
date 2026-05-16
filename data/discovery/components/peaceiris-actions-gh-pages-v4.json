@@ -1,7 +1,7 @@
 {
   "component": "peaceiris/actions-gh-pages@v4",
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -687,6 +687,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/Doc.yml",
       "source_repo": "adumbidiot/lz-str-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml",
+      "source_repo": "google/oboe"
     }
   ]
 }

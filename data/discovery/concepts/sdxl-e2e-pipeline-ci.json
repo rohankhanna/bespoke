@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "SDXL E2E Pipeline CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nod-ai/AMD-SHARK-ModelDev",
+      "status": "candidate-context",
+      "text": "Unified compiler/runtime for interfacing with PyTorch Dynamo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nod-ai/AMD-SHARK-ModelDev",
+      "status": "candidate-context",
+      "text": "SDXL E2E Pipeline CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nod-ai/AMD-SHARK-ModelDev",
+      "status": "candidate",
+      "text": "SDXL E2E Pipeline CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11288,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10510,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10510,
+      "status": "candidate",
+      "text": "fig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10510,
+      "status": "candidate",
+      "text": "leed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10510,
+      "status": "candidate",
+      "text": "non"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "SDXL E2E Pipeline CI",
+  "concept_id": "sdxl-e2e-pipeline-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/test_sdxl.yml",
+      "source_repo": "nod-ai/AMD-SHARK-ModelDev"
+    }
+  ],
+  "first_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "SDXL E2E Pipeline CI",
+      "sense_id": "sdxl-e2e-pipeline-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -19,6 +19,18 @@
       "source_repo": "Deep-Symmetry/open-beat-control",
       "status": "candidate-context",
       "text": "<img align=\"right\" alt=\"Open Beat Control logo\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celtera/avendish",
+      "status": "candidate-context",
+      "text": "declarative polyamorous cross-system intermedia objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celtera/avendish",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Deep-Symmetry/open-beat-control",
       "status": "candidate",
       "text": "<img align=\"right\" alt=\"Open Beat Control logo\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celtera/avendish",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "Deep-Symmetry/open-beat-control"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "celtera/avendish"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

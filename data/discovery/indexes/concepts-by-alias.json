@@ -950,6 +950,9 @@
   "ad-inserter": [
     "ad-inserter"
   ],
+  "ada (gnat)": [
+    "ada-gnat"
+  ],
   "adam": [
     "adam"
   ],
@@ -3162,6 +3165,9 @@
   "android swift sdk": [
     "android-swift-sdk"
   ],
+  "android test": [
+    "android-test"
+  ],
   "android unit tests": [
     "android-unit-tests"
   ],
@@ -3739,6 +3745,9 @@
   ],
   "api diff check": [
     "api-diff-check"
+  ],
+  "api doc & wiki build": [
+    "api-doc-wiki-build"
   ],
   "api docs": [
     "api-docs"
@@ -5438,6 +5447,9 @@
   ],
   "audio": [
     "audio"
+  ],
+  "audio rendering regression test": [
+    "audio-rendering-regression-test"
   ],
   "audio-analysis": [
     "audio-analysis"
@@ -10131,6 +10143,9 @@
   ],
   "breeze linux build": [
     "breeze-linux-build"
+  ],
+  "brevitas": [
+    "brevitas"
   ],
   "brevo": [
     "brevo"
@@ -18503,6 +18518,15 @@
   "ci - address sanitizer (nightly)": [
     "ci---address-sanitizer-nightly"
   ],
+  "ci - amdsharktank": [
+    "ci---amdsharktank"
+  ],
+  "ci - amdsharktank nightly": [
+    "ci---amdsharktank-nightly"
+  ],
+  "ci - amdsharktuner": [
+    "ci---amdsharktuner"
+  ],
   "ci - bazel cpu tests": [
     "ci---bazel-cpu-tests"
   ],
@@ -18673,6 +18697,12 @@
   ],
   "ci - separate results repo": [
     "ci---separate-results-repo"
+  ],
+  "ci - shortfin": [
+    "ci---shortfin"
+  ],
+  "ci - shortfin - sdxl": [
+    "ci---shortfin---sdxl"
   ],
   "ci - test": [
     "ci---test"
@@ -22201,6 +22231,9 @@
   ],
   "codespell check": [
     "codespell-check"
+  ],
+  "codespell linter": [
+    "codespell-linter"
   ],
   "codestyle": [
     "codestyle"
@@ -26974,6 +27007,9 @@
   ],
   "d-nerf": [
     "d-nerf"
+  ],
+  "d-tdnn": [
+    "d-tdnn"
   ],
   "d2-tensorrt-bench": [
     "d2-tensorrt-bench"
@@ -34566,6 +34602,9 @@
   "emergency review bypass": [
     "emergency-review-bypass"
   ],
+  "eminent": [
+    "eminent"
+  ],
   "emmet": [
     "emmet"
   ],
@@ -35747,6 +35786,9 @@
   "example-code": [
     "example-code"
   ],
+  "example-plugins": [
+    "example-plugins"
+  ],
   "example-project": [
     "example-project"
   ],
@@ -35762,11 +35804,23 @@
   "examples dashboard": [
     "examples-dashboard"
   ],
+  "examples diffusion pytest": [
+    "examples-diffusion-pytest"
+  ],
   "examples integration test": [
     "examples-integration-test"
   ],
+  "examples llm pytest": [
+    "examples-llm-pytest"
+  ],
+  "examples pytest": [
+    "examples-pytest"
+  ],
   "examples tests": [
     "examples-tests"
+  ],
+  "examples vision pytest": [
+    "examples-vision-pytest"
   ],
   "examples wasm": [
     "examples-wasm"
@@ -36733,6 +36787,9 @@
   ],
   "fault-tolerant": [
     "fault-tolerant"
+  ],
+  "faust": [
+    "faust"
   ],
   "favicon": [
     "favicon"
@@ -38130,6 +38187,15 @@
   ],
   "fluidsynth": [
     "fluidsynth"
+  ],
+  "fluidsynth ios": [
+    "fluidsynth-ios"
+  ],
+  "fluidsynth linux": [
+    "fluidsynth-linux"
+  ],
+  "fluidsynth solaris": [
+    "fluidsynth-solaris"
   ],
   "flutter": [
     "flutter"
@@ -41501,6 +41567,9 @@
   ],
   "gnark": [
     "gnark"
+  ],
+  "gnat": [
+    "gnat"
   ],
   "gnews": [
     "gnews"
@@ -47535,6 +47604,9 @@
   "interfaces": [
     "interfaces"
   ],
+  "intermedia": [
+    "intermedia"
+  ],
   "intern-s1": [
     "intern-s1"
   ],
@@ -47918,6 +47990,9 @@
   ],
   "iran-israel": [
     "iran-israel"
+  ],
+  "irc": [
+    "irc"
   ],
   "irc-bot": [
     "irc-bot"
@@ -53336,6 +53411,12 @@
   "llama": [
     "llama"
   ],
+  "llama benchmarking 8b tests": [
+    "llama-benchmarking-8b-tests"
+  ],
+  "llama benchmarking tests": [
+    "llama-benchmarking-tests"
+  ],
   "llama cpp rs check": [
     "llama-cpp-rs-check"
   ],
@@ -54532,6 +54613,9 @@
   ],
   "lv-vit": [
     "lv-vit"
+  ],
+  "lv2-plugin": [
+    "lv2-plugin"
   ],
   "lvlm": [
     "lvlm"
@@ -57210,6 +57294,9 @@
   "midi-controller": [
     "midi-controller"
   ],
+  "midi-files": [
+    "midi-files"
+  ],
   "midi-javascript": [
     "midi-javascript"
   ],
@@ -57221,6 +57308,12 @@
   ],
   "midi-parser-js": [
     "midi-parser-js"
+  ],
+  "midi-player": [
+    "midi-player"
+  ],
+  "midi-visualizer": [
+    "midi-visualizer"
   ],
   "midi2": [
     "midi2"
@@ -59599,6 +59692,9 @@
   "music-synthesis": [
     "music-synthesis"
   ],
+  "musical-instrument": [
+    "musical-instrument"
+  ],
   "musicgen": [
     "musicgen"
   ],
@@ -61532,6 +61628,9 @@
   "node-classification": [
     "node-classification"
   ],
+  "node-editor": [
+    "node-editor"
+  ],
   "node-embedding": [
     "node-embedding"
   ],
@@ -62639,6 +62738,9 @@
   ],
   "oblivious-doh": [
     "oblivious-doh"
+  ],
+  "oboe": [
+    "oboe"
   ],
   "obs": [
     "obs"
@@ -63783,6 +63885,9 @@
   "opengl": [
     "opengl"
   ],
+  "opengl-bindings": [
+    "opengl-bindings"
+  ],
   "opengl-cts": [
     "opengl-cts"
   ],
@@ -63791,6 +63896,9 @@
   ],
   "opengl-es-cts": [
     "opengl-es-cts"
+  ],
+  "opengl-library": [
+    "opengl-library"
   ],
   "openid": [
     "openid"
@@ -64493,6 +64601,9 @@
   ],
   "ossf scorecard weekly": [
     "ossf-scorecard-weekly"
+  ],
+  "ossia": [
+    "ossia"
   ],
   "ostree": [
     "ostree"
@@ -67019,6 +67130,9 @@
   ],
   "plugins sync": [
     "plugins-sync"
+  ],
+  "plugins-api": [
+    "plugins-api"
   ],
   "plugins-platform": [
     "plugins-platform"
@@ -80007,6 +80121,9 @@
   "sdxl": [
     "sdxl"
   ],
+  "sdxl e2e pipeline ci": [
+    "sdxl-e2e-pipeline-ci"
+  ],
   "sdxl-turbo": [
     "sdxl-turbo"
   ],
@@ -81753,6 +81870,9 @@
   "sing-geosite": [
     "sing-geosite"
   ],
+  "singing": [
+    "singing"
+  ],
   "singing-synthesis": [
     "singing-synthesis"
   ],
@@ -82795,6 +82915,9 @@
   "solidstart": [
     "solidstart"
   ],
+  "solina": [
+    "solina"
+  ],
   "solo": [
     "solo"
   ],
@@ -82864,6 +82987,9 @@
   ],
   "sonarcloud scan": [
     "sonarcloud-scan"
+  ],
+  "sonarcloud workflow": [
+    "sonarcloud-workflow"
   ],
   "sonarlint": [
     "sonarlint"
@@ -82975,6 +83101,15 @@
   ],
   "soundfont": [
     "soundfont"
+  ],
+  "soundfont-synthesizers": [
+    "soundfont-synthesizers"
+  ],
+  "soundfont2-synthesizer-library": [
+    "soundfont2-synthesizer-library"
+  ],
+  "soundfonts": [
+    "soundfonts"
   ],
   "soundgenerator": [
     "soundgenerator"
@@ -85223,6 +85358,9 @@
   "style-checker": [
     "style-checker"
   ],
+  "style-control": [
+    "style-control"
+  ],
   "style-gan": [
     "style-gan"
   ],
@@ -87209,6 +87347,9 @@
   "technical-indicators": [
     "technical-indicators"
   ],
+  "technique-detection": [
+    "technique-detection"
+  ],
   "technitium-dns-server": [
     "technitium-dns-server"
   ],
@@ -87364,6 +87505,9 @@
   ],
   "temporal-action-localization": [
     "temporal-action-localization"
+  ],
+  "temporal-convolutional-network": [
+    "temporal-convolutional-network"
   ],
   "temporal-differencing-learning": [
     "temporal-differencing-learning"
@@ -87761,6 +87905,9 @@
   "test alloy mixin": [
     "test-alloy-mixin"
   ],
+  "test amdshark": [
+    "test-amdshark"
+  ],
   "test and build": [
     "test-and-build"
   ],
@@ -87862,6 +88009,9 @@
   ],
   "test brev tutorial docker images": [
     "test-brev-tutorial-docker-images"
+  ],
+  "test brevitas-finn integration": [
+    "test-brevitas-finn-integration"
   ],
   "test browserforge compatibility": [
     "test-browserforge-compatibility"
@@ -88058,6 +88208,9 @@
   "test dev container feature": [
     "test-dev-container-feature"
   ],
+  "test develop install": [
+    "test-develop-install"
+  ],
   "test devnet functionality": [
     "test-devnet-functionality"
   ],
@@ -88144,6 +88297,9 @@
   ],
   "test emacs": [
     "test-emacs"
+  ],
+  "test end-to-end flows": [
+    "test-end-to-end-flows"
   ],
   "test environment control": [
     "test-environment-control"
@@ -88774,6 +88930,9 @@
   ],
   "test tools": [
     "test-tools"
+  ],
+  "test turbine models": [
+    "test-turbine-models"
   ],
   "test turnkeyml on azure gpus": [
     "test-turnkeyml-on-azure-gpus"
@@ -90123,6 +90282,9 @@
   ],
   "time zone tests": [
     "time-zone-tests"
+  ],
+  "time-delay-neural-network": [
+    "time-delay-neural-network"
   ],
   "time-expression": [
     "time-expression"
@@ -93185,6 +93347,9 @@
   "update bundle stats": [
     "update-bundle-stats"
   ],
+  "update bundle-repo": [
+    "update-bundle-repo"
+  ],
   "update cache branch": [
     "update-cache-branch"
   ],
@@ -96197,6 +96362,9 @@
   "virtual": [
     "virtual"
   ],
+  "virtual-analog": [
+    "virtual-analog"
+  ],
   "virtual-assistant": [
     "virtual-assistant"
   ],
@@ -96929,6 +97097,9 @@
   "vs2019": [
     "vs2019"
   ],
+  "vs2026 build": [
+    "vs2026-build"
+  ],
   "vscode": [
     "vscode"
   ],
@@ -96988,6 +97159,9 @@
   ],
   "vsmac-codecoverage": [
     "vsmac-codecoverage"
+  ],
+  "vst-plugin": [
+    "vst-plugin"
   ],
   "vst3": [
     "vst3"
@@ -97552,6 +97726,9 @@
   ],
   "wavernn": [
     "wavernn"
+  ],
+  "wavetables": [
+    "wavetables"
   ],
   "wavlm": [
     "wavlm"

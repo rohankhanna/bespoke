@@ -1,0 +1,216 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci.yml"
+    },
+    {
+      "component": "android-actions/setup-android@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml"
+    },
+    {
+      "component": "mattnotmitt/doxygen-action@v1.12.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/oboe",
+      "target": "jbloit/androidlinkaudio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci.yml",
+      "source_repo": "google/oboe",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci.yml",
+      "source_repo": "google/oboe",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci.yml",
+      "source_repo": "google/oboe",
+      "target": "android-actions/setup-android@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci.yml",
+      "source_repo": "google/oboe",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci.yml",
+      "source_repo": "google/oboe",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ci.yml",
+      "source_repo": "google/oboe",
+      "target": "Build CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml",
+      "source_repo": "google/oboe",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml",
+      "source_repo": "google/oboe",
+      "target": "mattnotmitt/doxygen-action@v1.12.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml",
+      "source_repo": "google/oboe",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-docs.yml",
+      "source_repo": "google/oboe",
+      "target": "Update Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/oboe",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/oboe",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/oboe",
+      "target": "oboe",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T00:51:48.546984+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2799
+    },
+    {
+      "path": ".github/workflows/build-ci.yml",
+      "size": 956
+    },
+    {
+      "path": ".github/workflows/update-docs.yml",
+      "size": 489
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Oboe is a C++ library that makes it easy to build high-performance audio apps on Android.",
+    "fork": false,
+    "full_name": "google/oboe",
+    "html_url": "https://github.com/google/oboe",
+    "language": "C++",
+    "pushed_at": "2026-05-14T17:34:37Z",
+    "stargazers_count": 4044,
+    "topics": [
+      "android",
+      "audio",
+      "oboe"
+    ],
+    "updated_at": "2026-05-15T04:32:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jbloit/androidlinkaudio",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ci.yml",
+      "term": "Build CI"
+    },
+    {
+      "context_snippet": "Update Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-docs.yml",
+      "term": "Update Docs"
+    },
+    {
+      "context_snippet": "[![Introduction to Oboe video](docs/images/getting-started-video.jpg)](https://www.youtube.com/watch?v=csfHAbr5ilI&list=PLWz5rJ2EKKc_duWv9IPNvx9YBudNMmLSa)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[![Introduction to Oboe video](docs/images/getting-started-video.jpg)](https://www.youtube.com/watch?v=csfHAbr5ilI&list=PLWz5rJ2EKKc_duWv9IPNvx9YBudNMmLSa)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "[![Introduction to Oboe video](docs/images/getting-started-video.jpg)](https://www.youtube.com/watch?v=csfHAbr5ilI&list=PLWz5rJ2EKKc_duWv9IPNvx9YBudNMmLSa)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oboe"
+    }
+  ]
+}

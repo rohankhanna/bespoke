@@ -1,7 +1,7 @@
 {
   "component": "actions/configure-pages@v3",
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -172,6 +172,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pages.yaml",
       "source_repo": "d8ahazard/sd_dreambooth_extension"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "microsoft/MIDI"
     }
   ]
 }

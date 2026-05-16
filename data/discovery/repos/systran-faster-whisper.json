@@ -48,7 +48,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SYSTRAN/faster-whisper",
-      "target": "geekodour/wscribe-editor",
+      "target": "hedrergudene/asr-sd-pipeline",
       "target_type": "repository"
     },
     {
@@ -136,7 +136,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T17:29:16.551279+00:00",
+  "fetched_at": "2026-05-16T03:54:42.717881+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -161,7 +161,7 @@
     "html_url": "https://github.com/SYSTRAN/faster-whisper",
     "language": "Python",
     "pushed_at": "2025-11-19T14:40:46Z",
-    "stargazers_count": 22922,
+    "stargazers_count": 22935,
     "topics": [
       "deep-learning",
       "inference",
@@ -172,7 +172,7 @@
       "transformer",
       "whisper"
     ],
-    "updated_at": "2026-05-15T17:02:35Z"
+    "updated_at": "2026-05-16T03:31:02Z"
   },
   "repo_links": [
     {
@@ -187,12 +187,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "geekodour/wscribe-editor",
+      "full_name": "ggerganov/whisper.cpp",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ggerganov/whisper.cpp",
+      "full_name": "hedrergudene/asr-sd-pipeline",
       "source_file": "README.md"
     }
   ],

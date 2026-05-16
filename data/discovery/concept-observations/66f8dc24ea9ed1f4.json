@@ -84,7 +84,7 @@
   "normalized_form": "compress-images",
   "observation_id": "66f8dc24ea9ed1f4",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-15T18:39:58.785167+00:00",
+  "observed_at": "2026-05-16T00:38:16.846047+00:00",
   "observed_text": "Compress Images",
   "source_context_snippet": "Compress Images",
   "source_file": ".github/workflows/calibreapp-image-actions.yml",

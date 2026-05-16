@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-16T00:52:01.097536+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5044
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A python package to analyze and compare voices with deep learning",
+    "fork": false,
+    "full_name": "resemble-ai/Resemblyzer",
+    "html_url": "https://github.com/resemble-ai/Resemblyzer",
+    "language": "Python",
+    "pushed_at": "2023-10-12T09:35:22Z",
+    "stargazers_count": 3255,
+    "topics": [],
+    "updated_at": "2026-05-15T08:00:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

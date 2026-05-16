@@ -1,0 +1,12 @@
+{
+  "component": "chkfung/android-version-actions@v1.2.1",
+  "first_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/resident-midi-keyboard"
+    }
+  ]
+}

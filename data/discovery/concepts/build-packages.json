@@ -57,6 +57,18 @@
       "source_repo": "jstkdng/aur",
       "status": "candidate-context",
       "text": "Build packages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nod-ai/amd-shark-ai",
+      "status": "candidate-context",
+      "text": "AMD-SHARK Inference Modeling and Serving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nod-ai/amd-shark-ai",
+      "status": "candidate-context",
+      "text": "Build packages"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jstkdng/aur",
+      "status": "candidate",
+      "text": "Build packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nod-ai/amd-shark-ai",
       "status": "candidate",
       "text": "Build packages"
     }
@@ -150,11 +168,17 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "jstkdng/aur"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/build_packages.yml",
+      "source_repo": "nod-ai/amd-shark-ai"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

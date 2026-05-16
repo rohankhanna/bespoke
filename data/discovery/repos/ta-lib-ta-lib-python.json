@@ -236,7 +236,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T18:05:02.272053+00:00",
+  "fetched_at": "2026-05-16T03:59:34.428819+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -245,6 +245,10 @@
     {
       "path": "Dockerfile",
       "size": 1548
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1490
     },
     {
       "path": "requirements.txt",
@@ -269,7 +273,7 @@
     "html_url": "https://github.com/TA-Lib/ta-lib-python",
     "language": "Cython",
     "pushed_at": "2026-03-16T16:55:43Z",
-    "stargazers_count": 11956,
+    "stargazers_count": 11959,
     "topics": [
       "finance",
       "pattern-recognition",
@@ -278,7 +282,7 @@
       "ta-lib",
       "technical-analysis"
     ],
-    "updated_at": "2026-05-14T20:28:53Z"
+    "updated_at": "2026-05-16T03:05:52Z"
   },
   "repo_links": [],
   "terms": [

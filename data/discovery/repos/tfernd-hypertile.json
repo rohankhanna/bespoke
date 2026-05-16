@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-16T00:52:21.076279+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4769
+    },
+    {
+      "path": "requirements.txt",
+      "size": 12
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "tfernd/HyperTile",
+    "html_url": "https://github.com/tfernd/HyperTile",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-11-12T15:48:43Z",
+    "stargazers_count": 119,
+    "topics": [],
+    "updated_at": "2025-12-27T19:28:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

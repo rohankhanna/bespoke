@@ -23,11 +23,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T01:46:56.995272+00:00",
+  "fetched_at": "2026-05-16T03:55:39.004384+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 2576
+      "size": 2722
     },
     {
       "path": "requirements.txt",
@@ -43,14 +43,14 @@
     "full_name": "yulewang97/ERDiff",
     "html_url": "https://github.com/yulewang97/ERDiff",
     "language": "Python",
-    "pushed_at": "2026-02-23T02:36:43Z",
+    "pushed_at": "2026-05-10T03:53:46Z",
     "stargazers_count": 51,
     "topics": [
       "diffusion-models",
       "domain-adaptation",
       "neural-alignment"
     ],
-    "updated_at": "2026-02-23T02:36:47Z"
+    "updated_at": "2026-05-10T03:53:51Z"
   },
   "repo_links": [],
   "terms": [

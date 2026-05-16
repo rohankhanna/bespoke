@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-16T00:51:25.020473+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2687
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BraneEngine is a 3D game engine, which build with ImGui, PhysX and OpenAL. Engine has supported multiply rendering features, such as SSR, GI probe system, volumtric fog, GTAO, DOF and so on. For game play, engine provides python scipt and graph system. Also, engine provides animation graph based on graph system.",
+    "fork": false,
+    "full_name": "MC-117/BraneEngineDx",
+    "html_url": "https://github.com/MC-117/BraneEngineDx",
+    "language": "C++",
+    "pushed_at": "2025-08-30T09:24:09Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2026-02-17T03:00:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

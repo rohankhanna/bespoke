@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Examples Vision Pytest"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Xilinx/brevitas",
+      "status": "candidate-context",
+      "text": "Brevitas: neural network quantization in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xilinx/brevitas",
+      "status": "candidate-context",
+      "text": "Examples Vision Pytest"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xilinx/brevitas",
+      "status": "candidate",
+      "text": "Examples Vision Pytest"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10719,
+      "status": "candidate",
+      "text": "abstract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10719,
+      "status": "candidate",
+      "text": "abstraction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10719,
+      "status": "candidate",
+      "text": "apotheosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10719,
+      "status": "candidate",
+      "text": "assonance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10719,
+      "status": "candidate",
+      "text": "between"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Examples Vision Pytest",
+  "concept_id": "examples-vision-pytest",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/examples_vision_pytest.yml",
+      "source_repo": "Xilinx/brevitas"
+    }
+  ],
+  "first_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Examples Vision Pytest",
+      "sense_id": "examples-vision-pytest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

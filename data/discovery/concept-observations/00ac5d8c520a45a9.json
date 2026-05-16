@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DISTRHO Plugin Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "example-plugins"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "example-plugins"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "example-plugins",
+      "sense_id": "example-plugins#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "example-plugins",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "example-plugins",
+  "observation_id": "00ac5d8c520a45a9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-16T00:38:16.846047+00:00",
+  "observed_text": "example-plugins",
+  "source_context_snippet": "example-plugins",
+  "source_file": ".github/workflows/example-plugins.yml",
+  "source_repo": "DISTRHO/DPF",
+  "source_repo_description": "DISTRHO Plugin Framework"
+}

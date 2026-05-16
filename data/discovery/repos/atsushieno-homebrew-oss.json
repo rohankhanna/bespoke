@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-16T00:51:09.248729+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 444
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "centered repo for my homebrew tap",
+    "fork": false,
+    "full_name": "atsushieno/homebrew-oss",
+    "html_url": "https://github.com/atsushieno/homebrew-oss",
+    "language": "Ruby",
+    "pushed_at": "2026-03-27T06:19:10Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-27T06:19:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

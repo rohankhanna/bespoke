@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nativelibs4java/JNAerator",
+      "target": "nativelibs4java/bridj",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nativelibs4java/JNAerator",
+      "target": "twall/jna",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nativelibs4java/JNAerator",
+      "target": "ochafik/nativelibs4java",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-16T00:51:50.914579+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1695
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JNAerator: native bindings generator for JNA / BridJ / Node.js",
+    "fork": false,
+    "full_name": "nativelibs4java/JNAerator",
+    "html_url": "https://github.com/nativelibs4java/JNAerator",
+    "language": "Java",
+    "pushed_at": "2025-09-27T03:20:23Z",
+    "stargazers_count": 529,
+    "topics": [],
+    "updated_at": "2026-05-13T00:47:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nativelibs4java/bridj",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ochafik/nativelibs4java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "twall/jna",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

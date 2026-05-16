@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ossia"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celtera/avendish",
+      "status": "candidate-context",
+      "text": "declarative polyamorous cross-system intermedia objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celtera/avendish",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celtera/avendish",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19856321,
+      "status": "candidate",
+      "text": "alternate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19856320,
+      "status": "candidate",
+      "text": "part-song"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19856319,
+      "status": "candidate",
+      "text": "alternant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19856318,
+      "status": "candidate",
+      "text": "obligato"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19856317,
+      "status": "candidate",
+      "text": "\u00e9tude"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ossia",
+  "concept_id": "ossia",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "celtera/avendish"
+    }
+  ],
+  "first_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ossia",
+      "sense_id": "ossia#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

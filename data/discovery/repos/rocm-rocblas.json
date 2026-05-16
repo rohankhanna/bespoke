@@ -16,7 +16,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T10:17:27.286799+00:00",
+  "fetched_at": "2026-05-16T00:50:44.636810+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -32,14 +32,14 @@
     "full_name": "ROCm/rocBLAS",
     "html_url": "https://github.com/ROCm/rocBLAS",
     "language": "C++",
-    "pushed_at": "2026-04-29T15:08:57Z",
-    "stargazers_count": 393,
+    "pushed_at": "2026-05-15T20:15:23Z",
+    "stargazers_count": 394,
     "topics": [
       "blas",
       "hip",
       "rocm"
     ],
-    "updated_at": "2026-04-27T03:29:08Z"
+    "updated_at": "2026-05-07T07:37:57Z"
   },
   "repo_links": [],
   "terms": [

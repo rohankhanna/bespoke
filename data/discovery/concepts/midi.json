@@ -187,6 +187,78 @@
       "source_repo": "atsushieno/fluidsynth-midi-service-j",
       "status": "candidate-context",
       "text": "[![fluidsynth-midi-service-j demo](http://img.youtube.com/vi/ZVyDmaV4Ihw/0.jpg)](http://www.youtube.com/watch?v=ZVyDmaV4Ihw \"fluidsynth-midi-service-j demo\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kosua20/MIDIVisualizer",
+      "status": "candidate-context",
+      "text": "A small MIDI visualizer tool, using OpenGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kosua20/MIDIVisualizer",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/kosua20/MIDIVisualizer/workflows/CI/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/mugene-ng",
+      "status": "candidate-context",
+      "text": "Music Macro Language to MIDI 1.0 / 2.0 compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/mugene-ng",
+      "status": "candidate-context",
+      "text": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/mugene)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "status": "candidate-context",
+      "text": "Resident MIDI Keyboard for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "status": "candidate-context",
+      "text": "|||"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluidSynth/fluidsynth",
+      "status": "candidate-context",
+      "text": "Software synthesizer based on the SoundFont 2 specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluidSynth/fluidsynth",
+      "status": "candidate-context",
+      "text": "| | Build Status |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "status": "candidate-context",
+      "text": "MIDI 2.0 Testing Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "status": "candidate-context",
+      "text": "![img.png](img.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/kmmk",
+      "status": "candidate-context",
+      "text": "Fully featured virtual MIDI 1.0/2.0 keyboard application using Kotlin and Compose for Desktop and Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/kmmk",
+      "status": "candidate-context",
+      "text": "![Kmmk Desktop](docs/images/kmmk-desktop.png)"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +351,42 @@
       "source_repo": "atsushieno/fluidsynth-midi-service-j",
       "status": "candidate",
       "text": "[![fluidsynth-midi-service-j demo](http://img.youtube.com/vi/ZVyDmaV4Ihw/0.jpg)](http://www.youtube.com/watch?v=ZVyDmaV4Ihw \"fluidsynth-midi-service-j demo\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kosua20/MIDIVisualizer",
+      "status": "candidate",
+      "text": "![CI](https://github.com/kosua20/MIDIVisualizer/workflows/CI/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/mugene-ng",
+      "status": "candidate",
+      "text": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/mugene)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "status": "candidate",
+      "text": "|||"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluidSynth/fluidsynth",
+      "status": "candidate",
+      "text": "| | Build Status |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "status": "candidate",
+      "text": "![img.png](img.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/kmmk",
+      "status": "candidate",
+      "text": "![Kmmk Desktop](docs/images/kmmk-desktop.png)"
     }
   ],
   "candidate_related_terms": [
@@ -891,11 +999,65 @@
       "observed_at": "2026-05-15T18:39:58.785167+00:00",
       "source_file": null,
       "source_repo": "Deep-Symmetry/beat-link-trigger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "celtera/libremidi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "kosua20/MIDIVisualizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/mugene-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/resident-midi-keyboard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "FluidSynth/fluidsynth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/afterglow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link-trigger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "midi2-dev/MIDI2.0Workbench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/kmmk"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

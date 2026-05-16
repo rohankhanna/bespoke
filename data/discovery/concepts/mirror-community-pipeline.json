@@ -31,6 +31,18 @@
       "source_repo": "gokyeongryeol/diffusers",
       "status": "candidate-context",
       "text": "Mirror Community Pipeline"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nod-ai/diffusers",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Diffusers for SHARK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nod-ai/diffusers",
+      "status": "candidate-context",
+      "text": "Mirror Community Pipeline"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gokyeongryeol/diffusers",
+      "status": "candidate",
+      "text": "Mirror Community Pipeline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nod-ai/diffusers",
       "status": "candidate",
       "text": "Mirror Community Pipeline"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/mirror_community_pipeline.yml",
       "source_repo": "gokyeongryeol/diffusers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/mirror_community_pipeline.yml",
+      "source_repo": "nod-ai/diffusers"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

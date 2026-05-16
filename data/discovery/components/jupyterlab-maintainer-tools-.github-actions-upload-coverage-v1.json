@@ -1,7 +1,7 @@
 {
   "component": "jupyterlab/maintainer-tools/.github/actions/upload-coverage@v1",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

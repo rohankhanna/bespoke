@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -87,6 +87,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/default.yml",
       "source_repo": "arsenetar/send2trash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_packages.yml",
+      "source_repo": "nod-ai/amd-shark-ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-amdsharktank-nightly.yml",
+      "source_repo": "nod-ai/amd-shark-ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-amdsharktank.yml",
+      "source_repo": "nod-ai/amd-shark-ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-amdsharktuner.yml",
+      "source_repo": "nod-ai/amd-shark-ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-libshortfin.yml",
+      "source_repo": "nod-ai/amd-shark-ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-llama-large-tests.yaml",
+      "source_repo": "nod-ai/amd-shark-ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-llama-quick-tests.yaml",
+      "source_repo": "nod-ai/amd-shark-ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-sdxl.yaml",
+      "source_repo": "nod-ai/amd-shark-ai"
     }
   ]
 }

@@ -14,16 +14,9 @@
       "source_repo": "JuergenFleiss/aTrain",
       "target": "guillaumekln/faster-whisper",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "JuergenFleiss/aTrain",
-      "target": "juergenfleiss/atrain_core",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-15T17:29:14.549738+00:00",
+  "fetched_at": "2026-05-16T03:54:41.932718+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -58,11 +51,6 @@
       "edge_type": "explicit-github-link",
       "full_name": "guillaumekln/faster-whisper",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "juergenfleiss/atrain_core",
-      "source_file": "pyproject.toml"
     }
   ],
   "terms": []

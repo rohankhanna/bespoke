@@ -81,6 +81,18 @@
       "source_repo": "SRombauts/SQLiteCpp",
       "status": "candidate-context",
       "text": "CMake build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celtera/avendish",
+      "status": "candidate-context",
+      "text": "declarative polyamorous cross-system intermedia objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celtera/avendish",
+      "status": "candidate-context",
+      "text": "CMake build"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "SRombauts/SQLiteCpp",
+      "status": "candidate",
+      "text": "CMake build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celtera/avendish",
       "status": "candidate",
       "text": "CMake build"
     }
@@ -198,11 +216,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": ".github/workflows/cmake.yml",
       "source_repo": "SRombauts/SQLiteCpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "celtera/avendish"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

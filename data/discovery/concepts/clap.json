@@ -19,6 +19,54 @@
       "source_repo": "atsushieno/uapmd",
       "status": "candidate-context",
       "text": "![UAPMD v0.4 example screenshot](docs/images/uapmd-app-v0.4-sshot.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "free-audio/clap",
+      "status": "candidate-context",
+      "text": "Audio Plugin API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "free-audio/clap",
+      "status": "candidate-context",
+      "text": "<p align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bremmers/CLAP-for-Delphi",
+      "status": "candidate-context",
+      "text": "Delphi translation of CLAP plugin API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bremmers/CLAP-for-Delphi",
+      "status": "candidate-context",
+      "text": "This is a Delphi translation of the CLAP audio plugin header files from https://github.com/free-audio/clap"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ficorax/cfa",
+      "status": "candidate-context",
+      "text": "CLAP for Ada"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ficorax/cfa",
+      "status": "candidate-context",
+      "text": "CLAP for Ada"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "free-audio/clap-host",
+      "status": "candidate-context",
+      "text": "Reference Host"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "free-audio/clap-host",
+      "status": "candidate-context",
+      "text": "<br/><a href=\"https://repology.org/project/clap-host/versions\" target=\"_blank\" rel=\"noopener\" title=\"Packaging status\"><img src=\"https://repology.org/badge/vertical-allrepos/clap-host.svg\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "atsushieno/uapmd",
       "status": "candidate",
       "text": "![UAPMD v0.4 example screenshot](docs/images/uapmd-app-v0.4-sshot.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "free-audio/clap",
+      "status": "candidate",
+      "text": "<p align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bremmers/CLAP-for-Delphi",
+      "status": "candidate",
+      "text": "This is a Delphi translation of the CLAP audio plugin header files from https://github.com/free-audio/clap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ficorax/cfa",
+      "status": "candidate",
+      "text": "CLAP for Ada"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "free-audio/clap-host",
+      "status": "candidate",
+      "text": "<br/><a href=\"https://repology.org/project/clap-host/versions\" target=\"_blank\" rel=\"noopener\" title=\"Packaging status\"><img src=\"https://repology.org/badge/vertical-allrepos/clap-host.svg\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +184,35 @@
       "observed_at": "2026-05-15T12:50:28.227991+00:00",
       "source_file": null,
       "source_repo": "atsushieno/uapmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "free-audio/clap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "Bremmers/CLAP-for-Delphi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "ficorax/cfa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "free-audio/clap-host"
     }
   ],
   "first_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

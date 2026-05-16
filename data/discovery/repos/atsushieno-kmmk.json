@@ -1,0 +1,171 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@4.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/kmmk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/kmmk",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/kmmk",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/kmmk",
+      "target": "JamesIves/github-pages-deploy-action@4.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/kmmk",
+      "target": "build dist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/kmmk",
+      "target": "jetpack-compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/kmmk",
+      "target": "keyboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/kmmk",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/kmmk",
+      "target": "midi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/kmmk",
+      "target": "music",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T03:55:19.950820+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3315
+    },
+    {
+      "path": ".github/workflows/actions.yml",
+      "size": 1577
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fully featured virtual MIDI 1.0/2.0 keyboard application using Kotlin and Compose for Desktop and Android",
+    "fork": false,
+    "full_name": "atsushieno/kmmk",
+    "html_url": "https://github.com/atsushieno/kmmk",
+    "language": "Kotlin",
+    "pushed_at": "2025-06-14T06:57:14Z",
+    "stargazers_count": 10,
+    "topics": [
+      "jetpack-compose",
+      "keyboard",
+      "kotlin",
+      "midi",
+      "music"
+    ],
+    "updated_at": "2026-04-10T08:02:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build dist",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "term": "build dist"
+    },
+    {
+      "context_snippet": "![Kmmk Desktop](docs/images/kmmk-desktop.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetpack-compose"
+    },
+    {
+      "context_snippet": "![Kmmk Desktop](docs/images/kmmk-desktop.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keyboard"
+    },
+    {
+      "context_snippet": "![Kmmk Desktop](docs/images/kmmk-desktop.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "![Kmmk Desktop](docs/images/kmmk-desktop.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi"
+    },
+    {
+      "context_snippet": "![Kmmk Desktop](docs/images/kmmk-desktop.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music"
+    }
+  ]
+}

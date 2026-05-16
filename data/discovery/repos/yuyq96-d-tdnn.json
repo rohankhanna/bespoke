@@ -1,0 +1,169 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuyq96/D-TDNN",
+      "target": "alibaba-damo-academy/3d-speaker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuyq96/D-TDNN",
+      "target": "d-tdnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuyq96/D-TDNN",
+      "target": "speaker-adaptation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuyq96/D-TDNN",
+      "target": "speaker-diarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuyq96/D-TDNN",
+      "target": "speaker-embedding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuyq96/D-TDNN",
+      "target": "speaker-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuyq96/D-TDNN",
+      "target": "speaker-verification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuyq96/D-TDNN",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuyq96/D-TDNN",
+      "target": "temporal-convolutional-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuyq96/D-TDNN",
+      "target": "time-delay-neural-network",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T03:55:32.661283+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5089
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch implementation of Densely Connected Time Delay Neural Network",
+    "fork": false,
+    "full_name": "yuyq96/D-TDNN",
+    "html_url": "https://github.com/yuyq96/D-TDNN",
+    "language": "Python",
+    "pushed_at": "2023-05-04T09:24:36Z",
+    "stargazers_count": 90,
+    "topics": [
+      "d-tdnn",
+      "speaker-adaptation",
+      "speaker-diarization",
+      "speaker-embedding",
+      "speaker-recognition",
+      "speaker-verification",
+      "speech",
+      "temporal-convolutional-network",
+      "time-delay-neural-network"
+    ],
+    "updated_at": "2025-11-27T16:35:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba-damo-academy/3d-speaker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PyTorch implementation of Densely Connected Time Delay Neural Network (D-TDNN) in our paper [\"Densely Connected Time Delay Neural Network for Speaker Verification\"](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1275.html) (INTERSPEECH 2020).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "d-tdnn"
+    },
+    {
+      "context_snippet": "PyTorch implementation of Densely Connected Time Delay Neural Network (D-TDNN) in our paper [\"Densely Connected Time Delay Neural Network for Speaker Verification\"](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1275.html) (INTERSPEECH 2020).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-adaptation"
+    },
+    {
+      "context_snippet": "PyTorch implementation of Densely Connected Time Delay Neural Network (D-TDNN) in our paper [\"Densely Connected Time Delay Neural Network for Speaker Verification\"](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1275.html) (INTERSPEECH 2020).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-diarization"
+    },
+    {
+      "context_snippet": "PyTorch implementation of Densely Connected Time Delay Neural Network (D-TDNN) in our paper [\"Densely Connected Time Delay Neural Network for Speaker Verification\"](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1275.html) (INTERSPEECH 2020).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-embedding"
+    },
+    {
+      "context_snippet": "PyTorch implementation of Densely Connected Time Delay Neural Network (D-TDNN) in our paper [\"Densely Connected Time Delay Neural Network for Speaker Verification\"](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1275.html) (INTERSPEECH 2020).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-recognition"
+    },
+    {
+      "context_snippet": "PyTorch implementation of Densely Connected Time Delay Neural Network (D-TDNN) in our paper [\"Densely Connected Time Delay Neural Network for Speaker Verification\"](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1275.html) (INTERSPEECH 2020).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-verification"
+    },
+    {
+      "context_snippet": "PyTorch implementation of Densely Connected Time Delay Neural Network (D-TDNN) in our paper [\"Densely Connected Time Delay Neural Network for Speaker Verification\"](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1275.html) (INTERSPEECH 2020).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "PyTorch implementation of Densely Connected Time Delay Neural Network (D-TDNN) in our paper [\"Densely Connected Time Delay Neural Network for Speaker Verification\"](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1275.html) (INTERSPEECH 2020).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "temporal-convolutional-network"
+    },
+    {
+      "context_snippet": "PyTorch implementation of Densely Connected Time Delay Neural Network (D-TDNN) in our paper [\"Densely Connected Time Delay Neural Network for Speaker Verification\"](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1275.html) (INTERSPEECH 2020).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-delay-neural-network"
+    }
+  ]
+}

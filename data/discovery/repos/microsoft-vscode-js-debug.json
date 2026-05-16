@@ -361,12 +361,17 @@
       "source_file": "package.json"
     },
     {
+      "component": "@eslint/eslintrc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "eslint",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
     {
-      "component": "eslint-plugin-header",
+      "component": "eslint-plugin-headers",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -484,6 +489,16 @@
       "component": "@vscode/vsce",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
     }
   ],
   "edges": [
@@ -1002,6 +1017,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "microsoft/vscode-js-debug",
+      "target": "@eslint/eslintrc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/vscode-js-debug",
       "target": "eslint",
       "target_type": "component"
     },
@@ -1009,7 +1031,7 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "microsoft/vscode-js-debug",
-      "target": "eslint-plugin-header",
+      "target": "eslint-plugin-headers",
       "target_type": "component"
     },
     {
@@ -1174,6 +1196,20 @@
       "target_type": "component"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/vscode-js-debug",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/vscode-js-debug",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "microsoft/vscode-js-debug",
@@ -1202,7 +1238,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T17:32:25.488344+00:00",
+  "fetched_at": "2026-05-16T03:56:43.028942+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1210,7 +1246,11 @@
     },
     {
       "path": "package.json",
-      "size": 4862
+      "size": 4897
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1704
     }
   ],
   "related_repositories": [],
@@ -1222,7 +1262,7 @@
     "full_name": "microsoft/vscode-js-debug",
     "html_url": "https://github.com/microsoft/vscode-js-debug",
     "language": "TypeScript",
-    "pushed_at": "2026-05-15T16:52:33Z",
+    "pushed_at": "2026-05-15T23:18:17Z",
     "stargazers_count": 1946,
     "topics": [
       "dap",
@@ -1231,7 +1271,7 @@
       "vscode",
       "vscode-extension"
     ],
-    "updated_at": "2026-05-14T23:26:55Z"
+    "updated_at": "2026-05-15T23:18:20Z"
   },
   "repo_links": [
     {

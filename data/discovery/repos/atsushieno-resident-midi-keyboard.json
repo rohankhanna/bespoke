@@ -1,0 +1,220 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "chkfung/android-version-actions@v1.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "r0adkll/sign-android-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1.18.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "target": "jeziellago/compose-markdown",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "target": "chkfung/android-version-actions@v1.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "target": "r0adkll/sign-android-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "target": "ncipollo/release-action@v1.18.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "target": "build dist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "target": "android-audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "target": "jetpack-compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "target": "midi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "target": "midi2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T00:51:41.208599+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8466
+    },
+    {
+      "path": ".github/workflows/actions.yml",
+      "size": 1939
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Resident MIDI Keyboard for Android",
+    "fork": false,
+    "full_name": "atsushieno/resident-midi-keyboard",
+    "html_url": "https://github.com/atsushieno/resident-midi-keyboard",
+    "language": "Kotlin",
+    "pushed_at": "2026-05-08T08:16:30Z",
+    "stargazers_count": 13,
+    "topics": [
+      "android",
+      "android-audio",
+      "jetpack-compose",
+      "midi",
+      "midi2"
+    ],
+    "updated_at": "2026-05-08T08:16:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jeziellago/compose-markdown",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build dist",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "term": "build dist"
+    },
+    {
+      "context_snippet": "|||",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "|||",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-audio"
+    },
+    {
+      "context_snippet": "|||",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetpack-compose"
+    },
+    {
+      "context_snippet": "|||",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi"
+    },
+    {
+      "context_snippet": "|||",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi2"
+    }
+  ]
+}

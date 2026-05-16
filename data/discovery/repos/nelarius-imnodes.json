@@ -1,0 +1,135 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "seanmiddleditch/gha-setup-ninja@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Nelarius/imnodes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Nelarius/imnodes",
+      "target": "seanmiddleditch/gha-setup-ninja@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Nelarius/imnodes",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Nelarius/imnodes",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Nelarius/imnodes",
+      "target": "imgui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Nelarius/imnodes",
+      "target": "node-editor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Nelarius/imnodes",
+      "target": "tool",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T03:54:53.658850+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9463
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 1206
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A small, dependency-free node editor for dear imgui",
+    "fork": false,
+    "full_name": "Nelarius/imnodes",
+    "html_url": "https://github.com/Nelarius/imnodes",
+    "language": "C++",
+    "pushed_at": "2026-05-13T10:07:48Z",
+    "stargazers_count": 2444,
+    "topics": [
+      "cpp",
+      "gamedev",
+      "imgui",
+      "node-editor",
+      "tool",
+      "ui"
+    ],
+    "updated_at": "2026-05-15T10:26:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">imnodes</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">imnodes</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imgui"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">imnodes</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-editor"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">imnodes</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool"
+    }
+  ]
+}

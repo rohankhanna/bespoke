@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "kosua20/sr_gui",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-16T03:55:11.491849+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7368
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 2375
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A C library providing access to basic GUI elements on Windows, macOS and Linux.",
+    "fork": false,
+    "full_name": "kosua20/sr_gui",
+    "html_url": "https://github.com/kosua20/sr_gui",
+    "language": "C",
+    "pushed_at": "2024-08-16T08:59:14Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-03-01T16:17:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

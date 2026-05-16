@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dataset and code of GTSinger(NeurIPS 2024 Spotlight): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Dataset and code of [GTSinger (NeurIPS 2024 Spotlight)](https://neurips.cc/virtual/2024/poster/97428): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Dataset and code of [GTSinger (NeurIPS 2024 Spotlight)](https://neurips.cc/virtual/2024/poster/97428): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "speech-to-sing",
+      "sense_id": "speech-to-sing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "speech-to-sing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "speech-to-sing",
+  "observation_id": "679fea4e2a1c5c7e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-16T00:38:16.846047+00:00",
+  "observed_text": "speech-to-sing",
+  "source_context_snippet": "Dataset and code of [GTSinger (NeurIPS 2024 Spotlight)](https://neurips.cc/virtual/2024/poster/97428): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks.",
+  "source_file": null,
+  "source_repo": "AaronZ345/GTSinger",
+  "source_repo_description": "Dataset and code of GTSinger(NeurIPS 2024 Spotlight): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks"
+}

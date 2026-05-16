@@ -176,6 +176,54 @@
       "source_repo": "atsushieno/fluidsynth-midi-service-j",
       "status": "candidate-context",
       "text": "build dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/midicci",
+      "status": "candidate-context",
+      "text": "MIDI-CI tools and libraries in C++, and a fully featured software MIDI 2.0 keyboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/midicci",
+      "status": "candidate-context",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/mugene-ng",
+      "status": "candidate-context",
+      "text": "Music Macro Language to MIDI 1.0 / 2.0 compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/mugene-ng",
+      "status": "candidate-context",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "status": "candidate-context",
+      "text": "Resident MIDI Keyboard for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "status": "candidate-context",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/kmmk",
+      "status": "candidate-context",
+      "text": "Fully featured virtual MIDI 1.0/2.0 keyboard application using Kotlin and Compose for Desktop and Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/kmmk",
+      "status": "candidate-context",
+      "text": "build dist"
     }
   ],
   "candidate_glosses": [
@@ -260,6 +308,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "atsushieno/fluidsynth-midi-service-j",
+      "status": "candidate",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/midicci",
+      "status": "candidate",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/mugene-ng",
+      "status": "candidate",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "status": "candidate",
+      "text": "build dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/kmmk",
       "status": "candidate",
       "text": "build dist"
     }
@@ -407,11 +479,41 @@
       "observed_at": "2026-05-15T12:50:28.227991+00:00",
       "source_file": ".github/workflows/actions.yml",
       "source_repo": "atsushieno/fluidsynth-midi-service-j"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "atsushieno/midicci"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/android-ci-package-installer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/mugene-ng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/resident-midi-keyboard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "atsushieno/kmmk"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

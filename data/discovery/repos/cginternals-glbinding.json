@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cginternals/glbinding",
+      "target": "aaronepower/tokei",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cginternals/glbinding",
+      "target": "cginternals/khrbinding-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cginternals/glbinding",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cginternals/glbinding",
+      "target": "C++ CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cginternals/glbinding",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cginternals/glbinding",
+      "target": "c-plus-plus-11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cginternals/glbinding",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cginternals/glbinding",
+      "target": "opengl-bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cginternals/glbinding",
+      "target": "opengl-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T03:55:01.682408+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31503
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1540
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 487
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A C++ binding for the OpenGL API, generated using the gl.xml specification. ",
+    "fork": false,
+    "full_name": "cginternals/glbinding",
+    "html_url": "https://github.com/cginternals/glbinding",
+    "language": "C++",
+    "pushed_at": "2025-10-16T16:45:46Z",
+    "stargazers_count": 873,
+    "topics": [
+      "c-plus-plus",
+      "c-plus-plus-11",
+      "library",
+      "opengl-bindings",
+      "opengl-library"
+    ],
+    "updated_at": "2026-05-12T07:31:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aaronepower/tokei",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cginternals/khrbinding-generator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "C++ CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "C++ CI"
+    },
+    {
+      "context_snippet": "[//]: # (Comment)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "[//]: # (Comment)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus-11"
+    },
+    {
+      "context_snippet": "[//]: # (Comment)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "[//]: # (Comment)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl-bindings"
+    },
+    {
+      "context_snippet": "[//]: # (Comment)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl-library"
+    }
+  ]
+}

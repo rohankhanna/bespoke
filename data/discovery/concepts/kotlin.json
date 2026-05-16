@@ -883,6 +883,42 @@
       "source_repo": "atsushieno/fluidsynth-midi-service-j",
       "status": "candidate-context",
       "text": "[![fluidsynth-midi-service-j demo](http://img.youtube.com/vi/ZVyDmaV4Ihw/0.jpg)](http://www.youtube.com/watch?v=ZVyDmaV4Ihw \"fluidsynth-midi-service-j demo\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/mugene-ng",
+      "status": "candidate-context",
+      "text": "Music Macro Language to MIDI 1.0 / 2.0 compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/mugene-ng",
+      "status": "candidate-context",
+      "text": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/mugene)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/kmmk",
+      "status": "candidate-context",
+      "text": "Fully featured virtual MIDI 1.0/2.0 keyboard application using Kotlin and Compose for Desktop and Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/kmmk",
+      "status": "candidate-context",
+      "text": "![Kmmk Desktop](docs/images/kmmk-desktop.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jeziellago/compose-markdown",
+      "status": "candidate-context",
+      "text": "Markdown Text for Android Jetpack Compose \ud83d\udccb."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeziellago/compose-markdown",
+      "status": "candidate-context",
+      "text": "[![](https://androidweekly.net/issues/issue-456/badge)](https://androidweekly.net/issues/issue-456)"
     }
   ],
   "candidate_glosses": [
@@ -1323,6 +1359,24 @@
       "source_repo": "atsushieno/fluidsynth-midi-service-j",
       "status": "candidate",
       "text": "[![fluidsynth-midi-service-j demo](http://img.youtube.com/vi/ZVyDmaV4Ihw/0.jpg)](http://www.youtube.com/watch?v=ZVyDmaV4Ihw \"fluidsynth-midi-service-j demo\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/mugene-ng",
+      "status": "candidate",
+      "text": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/mugene)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/kmmk",
+      "status": "candidate",
+      "text": "![Kmmk Desktop](docs/images/kmmk-desktop.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeziellago/compose-markdown",
+      "status": "candidate",
+      "text": "[![](https://androidweekly.net/issues/issue-456/badge)](https://androidweekly.net/issues/issue-456)"
     }
   ],
   "candidate_related_terms": [
@@ -2362,11 +2416,47 @@
       "observed_at": "2026-05-15T18:39:58.785167+00:00",
       "source_file": null,
       "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/mugene-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/compose-multiplatform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/kmmk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "jeziellago/compose-markdown"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

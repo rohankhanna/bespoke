@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ada.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ada.yml",
+      "source_repo": "ficorax/cfa",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ada.yml",
+      "source_repo": "ficorax/cfa",
+      "target": "Ada (GNAT)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ficorax/cfa",
+      "target": "clap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ficorax/cfa",
+      "target": "gnat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ficorax/cfa",
+      "target": "plugins-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T03:55:16.752964+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13
+    },
+    {
+      "path": ".github/workflows/ada.yml",
+      "size": 377
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CLAP for Ada",
+    "fork": false,
+    "full_name": "ficorax/cfa",
+    "html_url": "https://github.com/ficorax/cfa",
+    "language": "Ada",
+    "pushed_at": "2025-01-30T19:19:15Z",
+    "stargazers_count": 0,
+    "topics": [
+      "ada",
+      "clap",
+      "gnat",
+      "plugins-api"
+    ],
+    "updated_at": "2025-01-30T19:19:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Ada (GNAT)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ada.yml",
+      "term": "Ada (GNAT)"
+    },
+    {
+      "context_snippet": "CLAP for Ada",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clap"
+    },
+    {
+      "context_snippet": "CLAP for Ada",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gnat"
+    },
+    {
+      "context_snippet": "CLAP for Ada",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugins-api"
+    }
+  ]
+}

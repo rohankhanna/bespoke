@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Digital model of electronic string ensemble instrument"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a virtual-analog string ensemble synthesizer."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a virtual-analog string ensemble synthesizer."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009794,
+      "status": "candidate",
+      "text": "superior"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006729,
+      "status": "candidate",
+      "text": "distinguished"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006046,
+      "status": "candidate",
+      "text": "important"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002705,
+      "status": "candidate",
+      "text": "successful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002301,
+      "status": "candidate",
+      "text": "great"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "eminent",
+      "sense_id": "eminent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48036,
+      "status": "candidate",
+      "text": "important"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37046,
+      "status": "candidate",
+      "text": "great"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34035,
+      "status": "candidate",
+      "text": "lofty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31059,
+      "status": "candidate",
+      "text": "high"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26031,
+      "status": "candidate",
+      "text": "distinguished"
+    }
+  ],
+  "concept_id": "eminent",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "eminent",
+  "observation_id": "188e39e70dab202b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-16T00:38:16.846047+00:00",
+  "observed_text": "eminent",
+  "source_context_snippet": "This is a virtual-analog string ensemble synthesizer.",
+  "source_file": null,
+  "source_repo": "jpcima/string-machine",
+  "source_repo_description": "Digital model of electronic string ensemble instrument"
+}

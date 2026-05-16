@@ -103,6 +103,18 @@
       "source_repo": "atsushieno/ktmidi",
       "status": "candidate-context",
       "text": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/ktmidi)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/mugene-ng",
+      "status": "candidate-context",
+      "text": "Music Macro Language to MIDI 1.0 / 2.0 compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/mugene-ng",
+      "status": "candidate-context",
+      "text": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/mugene)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "atsushieno/ktmidi",
       "status": "candidate",
       "text": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/ktmidi)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/mugene-ng",
+      "status": "candidate",
+      "text": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/mugene)"
     }
   ],
   "candidate_related_terms": [],
@@ -226,11 +244,17 @@
       "observed_at": "2026-05-15T12:50:28.227991+00:00",
       "source_file": null,
       "source_repo": "atsushieno/ktmidi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/mugene-ng"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

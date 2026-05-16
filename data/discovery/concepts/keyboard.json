@@ -73,6 +73,18 @@
       "source_repo": "atsushieno/compose-audio-controls",
       "status": "candidate-context",
       "text": "![demoapp sshot](docs/images/demoapp-sshot.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/kmmk",
+      "status": "candidate-context",
+      "text": "Fully featured virtual MIDI 1.0/2.0 keyboard application using Kotlin and Compose for Desktop and Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/kmmk",
+      "status": "candidate-context",
+      "text": "![Kmmk Desktop](docs/images/kmmk-desktop.png)"
     }
   ],
   "candidate_glosses": [
@@ -111,6 +123,12 @@
       "source_repo": "atsushieno/compose-audio-controls",
       "status": "candidate",
       "text": "![demoapp sshot](docs/images/demoapp-sshot.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/kmmk",
+      "status": "candidate",
+      "text": "![Kmmk Desktop](docs/images/kmmk-desktop.png)"
     }
   ],
   "candidate_related_terms": [
@@ -190,11 +208,17 @@
       "observed_at": "2026-05-15T12:50:28.227991+00:00",
       "source_file": null,
       "source_repo": "atsushieno/compose-audio-controls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/kmmk"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

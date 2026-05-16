@@ -175,7 +175,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T17:34:29.453252+00:00",
+  "fetched_at": "2026-05-16T03:58:06.569775+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -207,7 +207,7 @@
     "full_name": "apache/casbin-actix-casbin-auth",
     "html_url": "https://github.com/apache/casbin-actix-casbin-auth",
     "language": "Rust",
-    "pushed_at": "2026-03-23T12:21:26Z",
+    "pushed_at": "2026-05-15T19:05:46Z",
     "stargazers_count": 58,
     "topics": [
       "abac",

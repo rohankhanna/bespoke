@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aligndiff/aligndiff.github.io",
+      "target": "zibindong/aligndiff-iclr2024",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-16T03:55:39.885676+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 708
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "aligndiff/aligndiff.github.io",
+    "html_url": "https://github.com/aligndiff/aligndiff.github.io",
+    "language": "JavaScript",
+    "pushed_at": "2024-03-10T09:10:44Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2024-11-25T04:17:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zibindong/aligndiff-iclr2024",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -242,6 +242,13 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "iree-org/iree",
+      "target": "rocm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iree-org/iree",
       "target": "runtime",
       "target_type": "term"
     },
@@ -267,6 +274,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "generated_at": "2026-05-16T00:38:16.846047+00:00",
   "source_repo": "iree-org/iree"
 }

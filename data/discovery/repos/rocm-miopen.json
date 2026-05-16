@@ -3,34 +3,13 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ROCm/MIOpen",
-      "target": "rocm/hipblaslt",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ROCm/MIOpen",
-      "target": "rocm/hipblas",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ROCm/MIOpen",
-      "target": "rocm/rocmlir",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
       "source_repo": "ROCm/MIOpen",
-      "target": "pfultz2/cget",
+      "target": "radeonopencompute/rbuild",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-01T10:17:26.297233+00:00",
+  "fetched_at": "2026-05-16T00:50:44.015693+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -54,30 +33,15 @@
     "full_name": "ROCm/MIOpen",
     "html_url": "https://github.com/ROCm/MIOpen",
     "language": "Assembly",
-    "pushed_at": "2026-04-14T13:55:24Z",
-    "stargazers_count": 1186,
+    "pushed_at": "2026-05-04T22:31:38Z",
+    "stargazers_count": 1185,
     "topics": [],
-    "updated_at": "2026-04-24T17:21:40Z"
+    "updated_at": "2026-05-14T12:38:08Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "rocm/hipblas",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rocm/hipblaslt",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rocm/rocmlir",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pfultz2/cget",
+      "full_name": "radeonopencompute/rbuild",
       "source_file": "Dockerfile"
     }
   ],

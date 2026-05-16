@@ -91,6 +91,18 @@
       "source_repo": "validator/validator",
       "status": "candidate-context",
       "text": "With the Nu Html Checker (vnu), you can:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/budou",
+      "status": "candidate-context",
+      "text": "Budou is an automatic organizer tool for beautiful line breaking in CJK (Chinese, Japanese, and Korean)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/budou",
+      "status": "candidate-context",
+      "text": "Budou \ud83c\udf47"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "validator/validator",
       "status": "candidate",
       "text": "With the Nu Html Checker (vnu), you can:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/budou",
+      "status": "candidate",
+      "text": "Budou \ud83c\udf47"
     }
   ],
   "candidate_related_terms": [],
@@ -454,11 +472,23 @@
       "observed_at": "2026-05-15T18:39:58.785167+00:00",
       "source_file": null,
       "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "google/budou"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "opengl-bindings"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cginternals/glbinding",
+      "status": "candidate-context",
+      "text": "A C++ binding for the OpenGL API, generated using the gl.xml specification. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cginternals/glbinding",
+      "status": "candidate-context",
+      "text": "[//]: # (Comment)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cginternals/glbinding",
+      "status": "candidate",
+      "text": "[//]: # (Comment)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "opengl-bindings",
+  "concept_id": "opengl-bindings",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "cginternals/glbinding"
+    }
+  ],
+  "first_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "opengl-bindings",
+      "sense_id": "opengl-bindings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

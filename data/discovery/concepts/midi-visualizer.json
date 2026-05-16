@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "midi-visualizer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kosua20/MIDIVisualizer",
+      "status": "candidate-context",
+      "text": "A small MIDI visualizer tool, using OpenGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kosua20/MIDIVisualizer",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/kosua20/MIDIVisualizer/workflows/CI/badge.svg?branch=master)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kosua20/MIDIVisualizer",
+      "status": "candidate",
+      "text": "![CI](https://github.com/kosua20/MIDIVisualizer/workflows/CI/badge.svg?branch=master)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "midi-visualizer",
+  "concept_id": "midi-visualizer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "kosua20/MIDIVisualizer"
+    }
+  ],
+  "first_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "midi-visualizer",
+      "sense_id": "midi-visualizer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

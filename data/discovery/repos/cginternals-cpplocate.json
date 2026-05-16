@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cginternals/cpplocate",
+      "target": "aaronepower/tokei",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cginternals/cpplocate",
+      "target": "cginternals/glbinding",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cginternals/cpplocate",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cginternals/cpplocate",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cginternals/cpplocate",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cginternals/cpplocate",
+      "target": "c-plus-plus-11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cginternals/cpplocate",
+      "target": "utility-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T00:51:11.957418+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10895
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1247
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1094
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cross-platform C++ library providing tools for applications to locate themselves, their data assets as well as dependent modules.",
+    "fork": false,
+    "full_name": "cginternals/cpplocate",
+    "html_url": "https://github.com/cginternals/cpplocate",
+    "language": "CMake",
+    "pushed_at": "2026-05-11T13:36:27Z",
+    "stargazers_count": 87,
+    "topics": [
+      "c-plus-plus",
+      "c-plus-plus-11",
+      "utility-library"
+    ],
+    "updated_at": "2026-05-11T13:41:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aaronepower/tokei",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cginternals/glbinding",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "[//]: # (Comment)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "[//]: # (Comment)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus-11"
+    },
+    {
+      "context_snippet": "[//]: # (Comment)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utility-library"
+    }
+  ]
+}

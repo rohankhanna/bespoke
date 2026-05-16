@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bremmers/CLAP-for-Delphi",
+      "target": "clap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bremmers/CLAP-for-Delphi",
+      "target": "delphi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bremmers/CLAP-for-Delphi",
+      "target": "plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T03:55:11.932691+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 192
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Delphi translation of CLAP plugin API",
+    "fork": false,
+    "full_name": "Bremmers/CLAP-for-Delphi",
+    "html_url": "https://github.com/Bremmers/CLAP-for-Delphi",
+    "language": "Pascal",
+    "pushed_at": "2025-01-20T19:08:58Z",
+    "stargazers_count": 12,
+    "topics": [
+      "clap",
+      "delphi",
+      "plugin"
+    ],
+    "updated_at": "2026-02-06T17:02:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a Delphi translation of the CLAP audio plugin header files from https://github.com/free-audio/clap",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clap"
+    },
+    {
+      "context_snippet": "This is a Delphi translation of the CLAP audio plugin header files from https://github.com/free-audio/clap",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "delphi"
+    },
+    {
+      "context_snippet": "This is a Delphi translation of the CLAP audio plugin header files from https://github.com/free-audio/clap",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    }
+  ]
+}

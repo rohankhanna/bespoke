@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PyTorch implementation of Densely Connected Time Delay Neural Network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PyTorch implementation of Densely Connected Time Delay Neural Network (D-TDNN) in our paper [\"Densely Connected Time Delay Neural Network for Speaker Verification\"](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1275.html) (INTERSPEECH 2020)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PyTorch implementation of Densely Connected Time Delay Neural Network (D-TDNN) in our paper [\"Densely Connected Time Delay Neural Network for Speaker Verification\"](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1275.html) (INTERSPEECH 2020)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39941113,
+      "status": "candidate",
+      "text": "language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39924738,
+      "status": "candidate",
+      "text": "lecture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39915879,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39911820,
+      "status": "candidate",
+      "text": "talking to"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39888750,
+      "status": "candidate",
+      "text": "delivery"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "speech",
+      "sense_id": "speech#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43060,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17039,
+      "status": "candidate",
+      "text": "lecture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8070,
+      "status": "candidate",
+      "text": "language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6063,
+      "status": "candidate",
+      "text": "delivery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2030,
+      "status": "candidate",
+      "text": "words"
+    }
+  ],
+  "concept_id": "speech",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "speech",
+  "observation_id": "35b13b3f75b30b08",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-16T00:38:16.846047+00:00",
+  "observed_text": "speech",
+  "source_context_snippet": "PyTorch implementation of Densely Connected Time Delay Neural Network (D-TDNN) in our paper [\"Densely Connected Time Delay Neural Network for Speaker Verification\"](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1275.html) (INTERSPEECH 2020).",
+  "source_file": null,
+  "source_repo": "yuyq96/D-TDNN",
+  "source_repo_description": "PyTorch implementation of Densely Connected Time Delay Neural Network"
+}

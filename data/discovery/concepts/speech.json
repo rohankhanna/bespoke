@@ -523,6 +523,18 @@
       "source_repo": "microsoft/UniSpeech",
       "status": "candidate-context",
       "text": "<!--**Pre-trained models for speech related tasks**-->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuyq96/D-TDNN",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of Densely Connected Time Delay Neural Network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuyq96/D-TDNN",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of Densely Connected Time Delay Neural Network (D-TDNN) in our paper [\"Densely Connected Time Delay Neural Network for Speaker Verification\"](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1275.html) (INTERSPEECH 2020)."
     }
   ],
   "candidate_glosses": [
@@ -783,6 +795,12 @@
       "source_repo": "microsoft/UniSpeech",
       "status": "candidate",
       "text": "<!--**Pre-trained models for speech related tasks**-->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuyq96/D-TDNN",
+      "status": "candidate",
+      "text": "PyTorch implementation of Densely Connected Time Delay Neural Network (D-TDNN) in our paper [\"Densely Connected Time Delay Neural Network for Speaker Verification\"](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1275.html) (INTERSPEECH 2020)."
     }
   ],
   "candidate_related_terms": [
@@ -1372,11 +1390,23 @@
       "observed_at": "2026-05-15T18:39:58.785167+00:00",
       "source_file": null,
       "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "yuyq96/D-TDNN"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

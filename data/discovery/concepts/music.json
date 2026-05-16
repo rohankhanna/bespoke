@@ -259,6 +259,42 @@
       "source_repo": "stakira/OpenUtau",
       "status": "candidate-context",
       "text": "OpenUtau is a free, open-source editor made for the UTAU community."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/mugene-ng",
+      "status": "candidate-context",
+      "text": "Music Macro Language to MIDI 1.0 / 2.0 compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/mugene-ng",
+      "status": "candidate-context",
+      "text": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/mugene)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AaronZ345/GTSinger",
+      "status": "candidate-context",
+      "text": "Dataset and code of GTSinger(NeurIPS 2024 Spotlight): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronZ345/GTSinger",
+      "status": "candidate-context",
+      "text": "Dataset and code of [GTSinger (NeurIPS 2024 Spotlight)](https://neurips.cc/virtual/2024/poster/97428): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/kmmk",
+      "status": "candidate-context",
+      "text": "Fully featured virtual MIDI 1.0/2.0 keyboard application using Kotlin and Compose for Desktop and Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/kmmk",
+      "status": "candidate-context",
+      "text": "![Kmmk Desktop](docs/images/kmmk-desktop.png)"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +423,24 @@
       "source_repo": "stakira/OpenUtau",
       "status": "candidate",
       "text": "OpenUtau is a free, open-source editor made for the UTAU community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/mugene-ng",
+      "status": "candidate",
+      "text": "![maven repo](https://img.shields.io/maven-central/v/dev.atsushieno/mugene)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronZ345/GTSinger",
+      "status": "candidate",
+      "text": "Dataset and code of [GTSinger (NeurIPS 2024 Spotlight)](https://neurips.cc/virtual/2024/poster/97428): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/kmmk",
+      "status": "candidate",
+      "text": "![Kmmk Desktop](docs/images/kmmk-desktop.png)"
     }
   ],
   "candidate_related_terms": [
@@ -1064,11 +1118,41 @@
       "observed_at": "2026-05-15T18:39:58.785167+00:00",
       "source_file": null,
       "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/mugene-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "AaronZ345/GTSinger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/kmmk"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

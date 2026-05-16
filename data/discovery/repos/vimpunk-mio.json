@@ -72,7 +72,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T18:47:38.504286+00:00",
+  "fetched_at": "2026-05-16T04:04:02.091396+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -89,7 +89,7 @@
     "html_url": "https://github.com/vimpunk/mio",
     "language": "C++",
     "pushed_at": "2024-02-11T17:37:47Z",
-    "stargazers_count": 1940,
+    "stargazers_count": 1941,
     "topics": [
       "cpp",
       "cpp11",
@@ -102,7 +102,7 @@
       "memory-mapping",
       "mmap"
     ],
-    "updated_at": "2026-05-14T18:29:41Z"
+    "updated_at": "2026-05-15T19:09:55Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Stability-AI/StableSwarmUI",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Stability-AI/StableSwarmUI",
+      "target": "jamesnk/newtonsoft.json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Stability-AI/StableSwarmUI",
+      "target": "freneticllc/freneticutilities",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Stability-AI/StableSwarmUI",
+      "target": "mbdavid/litedb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Stability-AI/StableSwarmUI",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Stability-AI/StableSwarmUI",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Stability-AI/StableSwarmUI",
+      "target": "stablediffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T03:55:37.896463+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12891
+    },
+    {
+      "path": "Dockerfile",
+      "size": 443
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "StableSwarmUI, A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility.",
+    "fork": false,
+    "full_name": "Stability-AI/StableSwarmUI",
+    "html_url": "https://github.com/Stability-AI/StableSwarmUI",
+    "language": "C#",
+    "pushed_at": "2025-03-06T22:26:41Z",
+    "stargazers_count": 4927,
+    "topics": [
+      "ai",
+      "image-generation",
+      "stable-diffusion",
+      "stablediffusion",
+      "ui"
+    ],
+    "updated_at": "2026-05-15T21:18:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "freneticllc/freneticutilities",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jamesnk/newtonsoft.json",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mbdavid/litedb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**StableSwarmUI 0.6.4.1 Beta**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "**StableSwarmUI 0.6.4.1 Beta**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "**StableSwarmUI 0.6.4.1 Beta**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stablediffusion"
+    }
+  ]
+}

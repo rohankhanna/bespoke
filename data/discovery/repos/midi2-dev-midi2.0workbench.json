@@ -1,0 +1,383 @@
+{
+  "components": [
+    {
+      "component": "JSONPath",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ajv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ajv-draft-04",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bonjour-service",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cobs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "commonmark",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json-ptr",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json-stringify-pretty-compact",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lokijs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "midi",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pako",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "path",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pretty-print-json",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sanitize-filename",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "serialport",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tone",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "usb_midi_2",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "electron",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "electron-builder",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "electron-icon-builder",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-gyp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "starfishmod/bonjour-service",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "JSONPath",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "ajv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "ajv-draft-04",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "bonjour-service",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "cobs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "commonmark",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "json-ptr",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "json-stringify-pretty-compact",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "lokijs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "midi",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "pako",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "path",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "pretty-print-json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "sanitize-filename",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "serialport",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "tone",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "usb_midi_2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "electron",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "electron-builder",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "electron-icon-builder",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "node-gyp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "debugging-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "electron-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "midi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "midi-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "midi2-dev/MIDI2.0Workbench",
+      "target": "midi2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T03:54:55.949730+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2475
+    },
+    {
+      "path": "package.json",
+      "size": 2704
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MIDI 2.0 Testing Tool",
+    "fork": false,
+    "full_name": "midi2-dev/MIDI2.0Workbench",
+    "html_url": "https://github.com/midi2-dev/MIDI2.0Workbench",
+    "language": "JavaScript",
+    "pushed_at": "2025-08-07T19:58:50Z",
+    "stargazers_count": 86,
+    "topics": [
+      "debugging-tool",
+      "electron-app",
+      "midi",
+      "midi-ci",
+      "midi2",
+      "ump"
+    ],
+    "updated_at": "2026-04-21T03:32:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "starfishmod/bonjour-service",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![img.png](img.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugging-tool"
+    },
+    {
+      "context_snippet": "![img.png](img.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electron-app"
+    },
+    {
+      "context_snippet": "![img.png](img.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi"
+    },
+    {
+      "context_snippet": "![img.png](img.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi-ci"
+    },
+    {
+      "context_snippet": "![img.png](img.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi2"
+    }
+  ]
+}

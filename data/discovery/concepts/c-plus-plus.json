@@ -1339,6 +1339,42 @@
       "source_repo": "cefsharp/CefSharp",
       "status": "candidate-context",
       "text": "[![CefSharp Logo](logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cginternals/cpplocate",
+      "status": "candidate-context",
+      "text": "Cross-platform C++ library providing tools for applications to locate themselves, their data assets as well as dependent modules."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cginternals/cpplocate",
+      "status": "candidate-context",
+      "text": "[//]: # (Comment)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cginternals/glbinding",
+      "status": "candidate-context",
+      "text": "A C++ binding for the OpenGL API, generated using the gl.xml specification. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cginternals/glbinding",
+      "status": "candidate-context",
+      "text": "[//]: # (Comment)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celtera/avendish",
+      "status": "candidate-context",
+      "text": "declarative polyamorous cross-system intermedia objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celtera/avendish",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -2007,6 +2043,24 @@
       "source_repo": "cefsharp/CefSharp",
       "status": "candidate",
       "text": "[![CefSharp Logo](logo.png)](https://cefsharp.github.io/ \"CefSharp - Embedded Chromium for .NET\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cginternals/cpplocate",
+      "status": "candidate",
+      "text": "[//]: # (Comment)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cginternals/glbinding",
+      "status": "candidate",
+      "text": "[//]: # (Comment)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celtera/avendish",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -4270,11 +4324,65 @@
       "observed_at": "2026-05-15T18:39:58.785167+00:00",
       "source_file": null,
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/librdkafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "cginternals/cpplocate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "cginternals/glbinding"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "celtera/avendish"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -5,28 +5,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "modelscope/3D-Speaker",
-      "target": "butspeechfit/diarizen",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/3D-Speaker",
-      "target": "speechbrain/speechbrain",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/3D-Speaker",
-      "target": "wenet-e2e/wespeaker",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/3D-Speaker",
-      "target": "facebookresearch/vicreg",
+      "target": "yuyq96/d-tdnn",
       "target_type": "repository"
     },
     {
@@ -100,7 +79,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T08:08:20.084278+00:00",
+  "fetched_at": "2026-05-16T00:51:59.078610+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -121,7 +100,7 @@
     "html_url": "https://github.com/modelscope/3D-Speaker",
     "language": "Python",
     "pushed_at": "2025-12-08T07:20:17Z",
-    "stargazers_count": 2921,
+    "stargazers_count": 2935,
     "topics": [
       "3d-speaker",
       "campplus",
@@ -134,27 +113,12 @@
       "speaker-verification",
       "voxceleb"
     ],
-    "updated_at": "2026-04-30T09:09:48Z"
+    "updated_at": "2026-05-14T22:29:40Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "butspeechfit/diarizen",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "facebookresearch/vicreg",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "speechbrain/speechbrain",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "wenet-e2e/wespeaker",
+      "full_name": "yuyq96/d-tdnn",
       "source_file": "README.md"
     }
   ],

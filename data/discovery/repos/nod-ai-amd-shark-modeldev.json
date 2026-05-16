@@ -1,0 +1,227 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_AMDShark.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_AMDShark.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_AMDShark.yml"
+    },
+    {
+      "component": "actions/setup-python@75f3110429a8c05be0e1bf360334e4cced2b63fa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models.yml"
+    },
+    {
+      "component": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_sdxl.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_sdxl.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_sdxl.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_sdxl.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nod-ai/AMD-SHARK-ModelDev",
+      "target": "nod-ai/amd-shark-ai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nod-ai/AMD-SHARK-ModelDev",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nod-ai/AMD-SHARK-ModelDev",
+      "target": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nod-ai/AMD-SHARK-ModelDev",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_AMDShark.yml",
+      "source_repo": "nod-ai/AMD-SHARK-ModelDev",
+      "target": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_AMDShark.yml",
+      "source_repo": "nod-ai/AMD-SHARK-ModelDev",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_AMDShark.yml",
+      "source_repo": "nod-ai/AMD-SHARK-ModelDev",
+      "target": "Test AMDShark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models.yml",
+      "source_repo": "nod-ai/AMD-SHARK-ModelDev",
+      "target": "actions/setup-python@75f3110429a8c05be0e1bf360334e4cced2b63fa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_models.yml",
+      "source_repo": "nod-ai/AMD-SHARK-ModelDev",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_models.yml",
+      "source_repo": "nod-ai/AMD-SHARK-ModelDev",
+      "target": "Test Turbine Models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_sdxl.yml",
+      "source_repo": "nod-ai/AMD-SHARK-ModelDev",
+      "target": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_sdxl.yml",
+      "source_repo": "nod-ai/AMD-SHARK-ModelDev",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_sdxl.yml",
+      "source_repo": "nod-ai/AMD-SHARK-ModelDev",
+      "target": "SDXL E2E Pipeline CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T00:52:08.277924+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1197
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1293
+    },
+    {
+      "path": ".github/workflows/test_AMDShark.yml",
+      "size": 1698
+    },
+    {
+      "path": ".github/workflows/test_models.yml",
+      "size": 3952
+    },
+    {
+      "path": ".github/workflows/test_sdxl.yml",
+      "size": 3287
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unified compiler/runtime for interfacing with PyTorch Dynamo.",
+    "fork": false,
+    "full_name": "nod-ai/AMD-SHARK-ModelDev",
+    "html_url": "https://github.com/nod-ai/AMD-SHARK-ModelDev",
+    "language": "Python",
+    "pushed_at": "2026-05-08T16:45:50Z",
+    "stargazers_count": 100,
+    "topics": [],
+    "updated_at": "2026-03-27T13:42:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nod-ai/amd-shark-ai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Test AMDShark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_AMDShark.yml",
+      "term": "Test AMDShark"
+    },
+    {
+      "context_snippet": "Test Turbine Models",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_models.yml",
+      "term": "Test Turbine Models"
+    },
+    {
+      "context_snippet": "SDXL E2E Pipeline CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_sdxl.yml",
+      "term": "SDXL E2E Pipeline CI"
+    }
+  ]
+}

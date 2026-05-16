@@ -31,6 +31,18 @@
       "source_repo": "atsushieno/aap-juce",
       "status": "candidate-context",
       "text": "This repo is the place where we have the common JUCE integration support modules for [aap-core](https://github.com/atsushieno/aap-core) (AAP), for both plugins and hosts."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "status": "candidate-context",
+      "text": "Resident MIDI Keyboard for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "status": "candidate-context",
+      "text": "|||"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "atsushieno/aap-juce",
       "status": "candidate",
       "text": "This repo is the place where we have the common JUCE integration support modules for [aap-core](https://github.com/atsushieno/aap-core) (AAP), for both plugins and hosts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsushieno/resident-midi-keyboard",
+      "status": "candidate",
+      "text": "|||"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-15T12:50:28.227991+00:00",
       "source_file": null,
       "source_repo": "atsushieno/aap-juce"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "atsushieno/resident-midi-keyboard"
     }
   ],
   "first_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

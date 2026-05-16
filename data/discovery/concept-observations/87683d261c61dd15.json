@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AMD-SHARK Inference Modeling and Serving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Llama Benchmarking 8B Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Llama Benchmarking 8B Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21161,
+      "status": "candidate",
+      "text": "low"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21161,
+      "status": "candidate",
+      "text": "soft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21134,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21108,
+      "status": "candidate",
+      "text": "ball"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21108,
+      "status": "candidate",
+      "text": "bear"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Llama Benchmarking 8B Tests",
+      "sense_id": "llama-benchmarking-8b-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "llama-benchmarking-8b-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "llama-benchmarking-8b-tests",
+  "observation_id": "87683d261c61dd15",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-16T00:38:16.846047+00:00",
+  "observed_text": "Llama Benchmarking 8B Tests",
+  "source_context_snippet": "Llama Benchmarking 8B Tests",
+  "source_file": ".github/workflows/ci-llama-quick-tests.yaml",
+  "source_repo": "nod-ai/amd-shark-ai",
+  "source_repo_description": "AMD-SHARK Inference Modeling and Serving"
+}

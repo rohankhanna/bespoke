@@ -32,6 +32,18 @@
       "source_repo": "crosstype/node-html-markdown",
       "status": "candidate-context",
       "text": "Build (CI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/oboe",
+      "status": "candidate-context",
+      "text": "Oboe is a C++ library that makes it easy to build high-performance audio apps on Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oboe",
+      "status": "candidate-context",
+      "text": "Build CI"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "crosstype/node-html-markdown",
       "status": "candidate",
       "text": "Build (CI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/oboe",
+      "status": "candidate",
+      "text": "Build CI"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "crosstype/node-html-markdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/build-ci.yml",
+      "source_repo": "google/oboe"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

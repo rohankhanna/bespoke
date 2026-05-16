@@ -1,0 +1,287 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "distrho/dpf-cmake-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "distrho/dpf-cmake-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "distrho/dpf-cmake-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "distrho/dpf-cmake-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "distrho/dpf-cmake-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-plugins.yml"
+    },
+    {
+      "component": "distrho/dpf-makefile-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-plugins.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-plugins.yml"
+    },
+    {
+      "component": "distrho/dpf-makefile-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-plugins.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-plugins.yml"
+    },
+    {
+      "component": "distrho/dpf-makefile-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-plugins.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-plugins.yml"
+    },
+    {
+      "component": "distrho/dpf-makefile-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-plugins.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-plugins.yml"
+    },
+    {
+      "component": "distrho/dpf-makefile-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-plugins.yml"
+    },
+    {
+      "component": "Gottox/irc-message-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/irc.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DISTRHO/DPF",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DISTRHO/DPF",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "DISTRHO/DPF",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "DISTRHO/DPF",
+      "target": "distrho/dpf-cmake-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "DISTRHO/DPF",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "DISTRHO/DPF",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-plugins.yml",
+      "source_repo": "DISTRHO/DPF",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-plugins.yml",
+      "source_repo": "DISTRHO/DPF",
+      "target": "distrho/dpf-makefile-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/example-plugins.yml",
+      "source_repo": "DISTRHO/DPF",
+      "target": "example-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/irc.yml",
+      "source_repo": "DISTRHO/DPF",
+      "target": "Gottox/irc-message-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/irc.yml",
+      "source_repo": "DISTRHO/DPF",
+      "target": "irc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T00:51:26.947894+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2232
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 4263
+    },
+    {
+      "path": ".github/workflows/cmake.yml",
+      "size": 3523
+    },
+    {
+      "path": ".github/workflows/example-plugins.yml",
+      "size": 1953
+    },
+    {
+      "path": ".github/workflows/irc.yml",
+      "size": 580
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DISTRHO Plugin Framework",
+    "fork": false,
+    "full_name": "DISTRHO/DPF",
+    "html_url": "https://github.com/DISTRHO/DPF",
+    "language": "C++",
+    "pushed_at": "2026-05-15T21:19:37Z",
+    "stargazers_count": 821,
+    "topics": [],
+    "updated_at": "2026-05-15T20:58:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "cmake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "example-plugins",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/example-plugins.yml",
+      "term": "example-plugins"
+    },
+    {
+      "context_snippet": "irc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/irc.yml",
+      "term": "irc"
+    }
+  ]
+}

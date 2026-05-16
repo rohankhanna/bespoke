@@ -1,0 +1,193 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AaronZ345/GTSinger",
+      "target": "aaronz345/tcsinger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AaronZ345/GTSinger",
+      "target": "aaronz345/stylesinger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AaronZ345/GTSinger",
+      "target": "rickyl-2000/alignsts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronZ345/GTSinger",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronZ345/GTSinger",
+      "target": "multilingual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronZ345/GTSinger",
+      "target": "music",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronZ345/GTSinger",
+      "target": "singing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronZ345/GTSinger",
+      "target": "singing-voice-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronZ345/GTSinger",
+      "target": "speech-to-sing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronZ345/GTSinger",
+      "target": "style-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronZ345/GTSinger",
+      "target": "style-transfer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronZ345/GTSinger",
+      "target": "technique-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T00:51:56.755042+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9847
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dataset and code of GTSinger(NeurIPS 2024 Spotlight): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks",
+    "fork": false,
+    "full_name": "AaronZ345/GTSinger",
+    "html_url": "https://github.com/AaronZ345/GTSinger",
+    "language": "Python",
+    "pushed_at": "2025-08-15T14:41:24Z",
+    "stargazers_count": 364,
+    "topics": [
+      "dataset",
+      "multilingual",
+      "music",
+      "singing",
+      "singing-voice-synthesis",
+      "speech-to-sing",
+      "style-control",
+      "style-transfer",
+      "technique-detection"
+    ],
+    "updated_at": "2026-05-05T15:23:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aaronz345/stylesinger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aaronz345/tcsinger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rickyl-2000/alignsts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dataset and code of [GTSinger (NeurIPS 2024 Spotlight)](https://neurips.cc/virtual/2024/poster/97428): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "Dataset and code of [GTSinger (NeurIPS 2024 Spotlight)](https://neurips.cc/virtual/2024/poster/97428): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multilingual"
+    },
+    {
+      "context_snippet": "Dataset and code of [GTSinger (NeurIPS 2024 Spotlight)](https://neurips.cc/virtual/2024/poster/97428): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music"
+    },
+    {
+      "context_snippet": "Dataset and code of [GTSinger (NeurIPS 2024 Spotlight)](https://neurips.cc/virtual/2024/poster/97428): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing"
+    },
+    {
+      "context_snippet": "Dataset and code of [GTSinger (NeurIPS 2024 Spotlight)](https://neurips.cc/virtual/2024/poster/97428): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-voice-synthesis"
+    },
+    {
+      "context_snippet": "Dataset and code of [GTSinger (NeurIPS 2024 Spotlight)](https://neurips.cc/virtual/2024/poster/97428): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-sing"
+    },
+    {
+      "context_snippet": "Dataset and code of [GTSinger (NeurIPS 2024 Spotlight)](https://neurips.cc/virtual/2024/poster/97428): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style-control"
+    },
+    {
+      "context_snippet": "Dataset and code of [GTSinger (NeurIPS 2024 Spotlight)](https://neurips.cc/virtual/2024/poster/97428): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style-transfer"
+    },
+    {
+      "context_snippet": "Dataset and code of [GTSinger (NeurIPS 2024 Spotlight)](https://neurips.cc/virtual/2024/poster/97428): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "technique-detection"
+    }
+  ]
+}

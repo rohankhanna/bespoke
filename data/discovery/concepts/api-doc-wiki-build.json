@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "API Doc & Wiki Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluidSynth/fluidsynth",
+      "status": "candidate-context",
+      "text": "Software synthesizer based on the SoundFont 2 specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluidSynth/fluidsynth",
+      "status": "candidate-context",
+      "text": "API Doc & Wiki Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluidSynth/fluidsynth",
+      "status": "candidate",
+      "text": "API Doc & Wiki Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31964,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31964,
+      "status": "candidate",
+      "text": "editor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23276,
+      "status": "candidate",
+      "text": "wikia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22172,
+      "status": "candidate",
+      "text": "faq"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21963,
+      "status": "candidate",
+      "text": "keeper"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "API Doc & Wiki Build",
+  "concept_id": "api-doc-wiki-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/api_doc_build.yml",
+      "source_repo": "FluidSynth/fluidsynth"
+    }
+  ],
+  "first_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "API Doc & Wiki Build",
+      "sense_id": "api-doc-wiki-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

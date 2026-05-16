@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "brevitas"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Xilinx/brevitas",
+      "status": "candidate-context",
+      "text": "Brevitas: neural network quantization in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xilinx/brevitas",
+      "status": "candidate-context",
+      "text": "[![Downloads](https://pepy.tech/badge/brevitas)](https://pepy.tech/project/brevitas)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xilinx/brevitas",
+      "status": "candidate",
+      "text": "[![Downloads](https://pepy.tech/badge/brevitas)](https://pepy.tech/project/brevitas)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "brevis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "brevi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "breves"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "breve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "brevia"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "brevitas",
+  "concept_id": "brevitas",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "Xilinx/brevitas"
+    }
+  ],
+  "first_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "brevitas",
+      "sense_id": "brevitas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

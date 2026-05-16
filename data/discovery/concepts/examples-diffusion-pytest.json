@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Examples Diffusion Pytest"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Xilinx/brevitas",
+      "status": "candidate-context",
+      "text": "Brevitas: neural network quantization in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xilinx/brevitas",
+      "status": "candidate-context",
+      "text": "Examples Diffusion Pytest"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xilinx/brevitas",
+      "status": "candidate",
+      "text": "Examples Diffusion Pytest"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10600,
+      "status": "candidate",
+      "text": "demonstration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10600,
+      "status": "candidate",
+      "text": "franchising"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10600,
+      "status": "candidate",
+      "text": "illustrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10522,
+      "status": "candidate",
+      "text": "center"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10522,
+      "status": "candidate",
+      "text": "circulation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Examples Diffusion Pytest",
+  "concept_id": "examples-diffusion-pytest",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/examples_diffusion_pytest.yml",
+      "source_repo": "Xilinx/brevitas"
+    }
+  ],
+  "first_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Examples Diffusion Pytest",
+      "sense_id": "examples-diffusion-pytest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

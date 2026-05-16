@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AaronZ345/StyleSinger",
+      "target": "rongjiehuang/generspeech",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AaronZ345/StyleSinger",
+      "target": "rongjiehuang/prodiff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronZ345/StyleSinger",
+      "target": "singing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronZ345/StyleSinger",
+      "target": "singing-voice-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronZ345/StyleSinger",
+      "target": "style-transfer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronZ345/StyleSinger",
+      "target": "zero-shot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T03:55:29.624150+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7786
+    },
+    {
+      "path": "requirements.txt",
+      "size": 464
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch Implementation of StyleSinger(AAAI 2024): Style Transfer for Out-of-Domain Singing Voice Synthesis",
+    "fork": false,
+    "full_name": "AaronZ345/StyleSinger",
+    "html_url": "https://github.com/AaronZ345/StyleSinger",
+    "language": "Python",
+    "pushed_at": "2025-08-15T14:41:42Z",
+    "stargazers_count": 418,
+    "topics": [
+      "singing",
+      "singing-voice-synthesis",
+      "style-transfer",
+      "zero-shot"
+    ],
+    "updated_at": "2026-05-15T07:20:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rongjiehuang/generspeech",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rongjiehuang/prodiff",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PyTorch Implementation of [StyleSinger (AAAI 2024)](https://ojs.aaai.org/index.php/AAAI/article/view/29932): Style Transfer for Out-of-Domain Singing Voice Synthesis.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing"
+    },
+    {
+      "context_snippet": "PyTorch Implementation of [StyleSinger (AAAI 2024)](https://ojs.aaai.org/index.php/AAAI/article/view/29932): Style Transfer for Out-of-Domain Singing Voice Synthesis.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-voice-synthesis"
+    },
+    {
+      "context_snippet": "PyTorch Implementation of [StyleSinger (AAAI 2024)](https://ojs.aaai.org/index.php/AAAI/article/view/29932): Style Transfer for Out-of-Domain Singing Voice Synthesis.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style-transfer"
+    },
+    {
+      "context_snippet": "PyTorch Implementation of [StyleSinger (AAAI 2024)](https://ojs.aaai.org/index.php/AAAI/article/view/29932): Style Transfer for Out-of-Domain Singing Voice Synthesis.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-shot"
+    }
+  ]
+}

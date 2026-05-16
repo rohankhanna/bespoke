@@ -1462,6 +1462,18 @@
       "source_repo": "alsa-project/alsa-lib",
       "status": "candidate-context",
       "text": "[![Build alsa-lib](https://github.com/alsa-project/alsa-lib/workflows/Build%20alsa-lib/badge.svg?branch=master)](https://github.com/alsa-project/alsa-lib/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cginternals/glbinding",
+      "status": "candidate-context",
+      "text": "A C++ binding for the OpenGL API, generated using the gl.xml specification. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cginternals/glbinding",
+      "status": "candidate-context",
+      "text": "[//]: # (Comment)"
     }
   ],
   "candidate_glosses": [
@@ -2190,6 +2202,12 @@
       "source_repo": "alsa-project/alsa-lib",
       "status": "candidate",
       "text": "[![Build alsa-lib](https://github.com/alsa-project/alsa-lib/workflows/Build%20alsa-lib/badge.svg?branch=master)](https://github.com/alsa-project/alsa-lib/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cginternals/glbinding",
+      "status": "candidate",
+      "text": "[//]: # (Comment)"
     }
   ],
   "candidate_related_terms": [
@@ -3748,11 +3766,35 @@
       "observed_at": "2026-05-15T18:39:58.785167+00:00",
       "source_file": null,
       "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "cginternals/glbinding"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

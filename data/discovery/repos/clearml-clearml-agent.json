@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T19:21:23.741033+00:00",
+  "fetched_at": "2026-05-16T05:07:09.463769+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -111,7 +111,7 @@
     "html_url": "https://github.com/clearml/clearml-agent",
     "language": "Python",
     "pushed_at": "2026-05-07T15:24:26Z",
-    "stargazers_count": 299,
+    "stargazers_count": 300,
     "topics": [
       "clearml-agent",
       "cluster-manager",
@@ -128,7 +128,7 @@
       "trains",
       "trains-agent"
     ],
-    "updated_at": "2026-05-14T10:23:36Z"
+    "updated_at": "2026-05-16T04:02:44Z"
   },
   "repo_links": [],
   "terms": [

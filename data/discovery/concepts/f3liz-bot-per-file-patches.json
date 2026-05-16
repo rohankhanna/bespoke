@@ -190,11 +190,17 @@
       "observed_at": "2026-05-15T12:50:28.227991+00:00",
       "source_file": ".github/workflows/autodiff-per-file-pr.yml",
       "source_repo": "f3liz-casa/noraneko-runtime"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": ".github/workflows/autodiff-per-file-pr.yml",
+      "source_repo": "f3liz-casa/noraneko-runtime"
     }
   ],
   "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

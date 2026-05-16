@@ -541,6 +541,18 @@
       "source_repo": "godot-rust/gdext",
       "status": "candidate-context",
       "text": "[profile.dev] # Skips type/variable debug metadata while keeping file:line info for backtraces. Saves 1-4% build time on clean dev builds. debug = \"line-tables-only\" [workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macro\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Nelarius/imnodes",
+      "status": "candidate-context",
+      "text": "A small, dependency-free node editor for dear imgui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nelarius/imnodes",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">imnodes</h1>"
     }
   ],
   "candidate_glosses": [
@@ -813,6 +825,12 @@
       "source_repo": "godot-rust/gdext",
       "status": "candidate",
       "text": "[profile.dev] # Skips type/variable debug metadata while keeping file:line info for backtraces. Saves 1-4% build time on clean dev builds. debug = \"line-tables-only\" [workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macro\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nelarius/imnodes",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">imnodes</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -2698,11 +2716,59 @@
       "observed_at": "2026-05-15T18:39:58.785167+00:00",
       "source_file": null,
       "source_repo": "ash-rs/ash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "GDevelopApp/GDevelop-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdnative"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "ash-rs/ash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "Nelarius/imnodes"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -55,6 +55,18 @@
       "source_repo": "salvadordf/CEF4Delphi",
       "status": "candidate-context",
       "text": "CEF4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/) for Windows, Linux and MacOS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bremmers/CLAP-for-Delphi",
+      "status": "candidate-context",
+      "text": "Delphi translation of CLAP plugin API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bremmers/CLAP-for-Delphi",
+      "status": "candidate-context",
+      "text": "This is a Delphi translation of the CLAP audio plugin header files from https://github.com/free-audio/clap"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "salvadordf/CEF4Delphi",
       "status": "candidate",
       "text": "CEF4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/) for Windows, Linux and MacOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bremmers/CLAP-for-Delphi",
+      "status": "candidate",
+      "text": "This is a Delphi translation of the CLAP audio plugin header files from https://github.com/free-audio/clap"
     }
   ],
   "candidate_related_terms": [
@@ -412,11 +430,23 @@
       "observed_at": "2026-05-15T18:39:58.785167+00:00",
       "source_file": null,
       "source_repo": "lmbelo/python4delphi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "lmbelo/python4delphi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "Bremmers/CLAP-for-Delphi"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

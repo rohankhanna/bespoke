@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-16T00:52:20.352135+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7311
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "rinongal/textual_inversion",
+    "html_url": "https://github.com/rinongal/textual_inversion",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-02-27T08:16:02Z",
+    "stargazers_count": 3054,
+    "topics": [],
+    "updated_at": "2026-05-06T07:46:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

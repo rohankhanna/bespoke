@@ -733,6 +733,18 @@
       "source_repo": "rai-opensource/spatialmath-python",
       "status": "candidate-context",
       "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kosua20/MIDIVisualizer",
+      "status": "candidate-context",
+      "text": "A small MIDI visualizer tool, using OpenGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kosua20/MIDIVisualizer",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/kosua20/MIDIVisualizer/workflows/CI/badge.svg?branch=master)"
     }
   ],
   "candidate_glosses": [
@@ -1101,6 +1113,12 @@
       "source_repo": "rai-opensource/spatialmath-python",
       "status": "candidate",
       "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kosua20/MIDIVisualizer",
+      "status": "candidate",
+      "text": "![CI](https://github.com/kosua20/MIDIVisualizer/workflows/CI/badge.svg?branch=master)"
     }
   ],
   "candidate_related_terms": [
@@ -2630,11 +2648,47 @@
       "observed_at": "2026-05-15T18:39:58.785167+00:00",
       "source_file": null,
       "source_repo": "Deep-Symmetry/wayang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "kosua20/MIDIVisualizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/spatialmath-matlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/wayang"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

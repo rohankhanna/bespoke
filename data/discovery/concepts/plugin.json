@@ -1546,6 +1546,30 @@
       "source_repo": "Luligu/matterbridge-zigbee2mqtt",
       "status": "candidate-context",
       "text": "[![npm version](https://img.shields.io/npm/v/matterbridge-zigbee2mqtt.svg)](https://www.npmjs.com/package/matterbridge-zigbee2mqtt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "free-audio/clap",
+      "status": "candidate-context",
+      "text": "Audio Plugin API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "free-audio/clap",
+      "status": "candidate-context",
+      "text": "<p align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bremmers/CLAP-for-Delphi",
+      "status": "candidate-context",
+      "text": "Delphi translation of CLAP plugin API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bremmers/CLAP-for-Delphi",
+      "status": "candidate-context",
+      "text": "This is a Delphi translation of the CLAP audio plugin header files from https://github.com/free-audio/clap"
     }
   ],
   "candidate_glosses": [
@@ -2322,6 +2346,18 @@
       "source_repo": "Luligu/matterbridge-zigbee2mqtt",
       "status": "candidate",
       "text": "[![npm version](https://img.shields.io/npm/v/matterbridge-zigbee2mqtt.svg)](https://www.npmjs.com/package/matterbridge-zigbee2mqtt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "free-audio/clap",
+      "status": "candidate",
+      "text": "<p align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bremmers/CLAP-for-Delphi",
+      "status": "candidate",
+      "text": "This is a Delphi translation of the CLAP audio plugin header files from https://github.com/free-audio/clap"
     }
   ],
   "candidate_related_terms": [
@@ -4633,11 +4669,59 @@
       "observed_at": "2026-05-15T18:39:58.785167+00:00",
       "source_file": null,
       "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "free-audio/clap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "bencheeorg/benchee_html"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T00:38:16.846047+00:00",
+      "source_file": null,
+      "source_repo": "Bremmers/CLAP-for-Delphi"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T18:39:58.785167+00:00",
+  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,122 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "seanmiddleditch/gha-setup-ninja@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/delete-package-versions@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "free-audio/clap-host",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "free-audio/clap-host",
+      "target": "seanmiddleditch/gha-setup-ninja@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "free-audio/clap-host",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "free-audio/clap-host",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "free-audio/clap-host",
+      "target": "actions/delete-package-versions@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "free-audio/clap-host",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "free-audio/clap-host",
+      "target": "clap",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T03:55:18.160293+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4488
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 4578
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reference Host",
+    "fork": false,
+    "full_name": "free-audio/clap-host",
+    "html_url": "https://github.com/free-audio/clap-host",
+    "language": "C++",
+    "pushed_at": "2025-11-28T08:41:40Z",
+    "stargazers_count": 99,
+    "topics": [
+      "clap"
+    ],
+    "updated_at": "2026-05-12T17:34:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "<br/><a href=\"https://repology.org/project/clap-host/versions\" target=\"_blank\" rel=\"noopener\" title=\"Packaging status\"><img src=\"https://repology.org/badge/vertical-allrepos/clap-host.svg\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clap"
+    }
+  ]
+}

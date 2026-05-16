@@ -5,21 +5,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "diff-usion/Awesome-Diffusion-Models",
-      "target": "aliborji/gfw",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "diff-usion/Awesome-Diffusion-Models",
-      "target": "aliasgharkhani/slime",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "diff-usion/Awesome-Diffusion-Models",
-      "target": "algolzw/image-restoration-sde",
+      "target": "alonzoleeeooo/lcdg",
       "target_type": "repository"
     },
     {
@@ -27,6 +13,20 @@
       "source_file": "README.md",
       "source_repo": "diff-usion/Awesome-Diffusion-Models",
       "target": "alexwangntl/erdiff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "diff-usion/Awesome-Diffusion-Models",
+      "target": "amazon-science/masked-diffusion-lm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "diff-usion/Awesome-Diffusion-Models",
+      "target": "aligndiff/aligndiff.github.io",
       "target_type": "repository"
     },
     {
@@ -72,7 +72,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T18:37:00.226738+00:00",
+  "fetched_at": "2026-05-16T00:53:43.955176+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -89,7 +89,7 @@
     "html_url": "https://github.com/diff-usion/Awesome-Diffusion-Models",
     "language": "HTML",
     "pushed_at": "2024-08-01T07:11:20Z",
-    "stargazers_count": 12326,
+    "stargazers_count": 12321,
     "topics": [
       "artificial-intelligence",
       "diffusion-models",
@@ -98,7 +98,7 @@
       "score-based",
       "score-matching"
     ],
-    "updated_at": "2026-05-01T13:04:12Z"
+    "updated_at": "2026-05-15T22:36:33Z"
   },
   "repo_links": [
     {
@@ -108,17 +108,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "algolzw/image-restoration-sde",
+      "full_name": "aligndiff/aligndiff.github.io",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "aliasgharkhani/slime",
+      "full_name": "alonzoleeeooo/lcdg",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "aliborji/gfw",
+      "full_name": "amazon-science/masked-diffusion-lm",
       "source_file": "README.md"
     }
   ],

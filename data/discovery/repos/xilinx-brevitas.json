@@ -1,0 +1,488 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml.template"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml.template"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base_reduced.yml.template"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base_reduced.yml.template"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop_install.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop_install.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/end_to_end.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/end_to_end.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_diffusion_pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_diffusion_pytest.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_llm_pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_llm_pytest.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_pytest.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_vision_pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_vision_pytest.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/finn_integration.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/finn_integration.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml.template",
+      "source_repo": "Xilinx/brevitas",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml.template",
+      "source_repo": "Xilinx/brevitas",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base_reduced.yml.template",
+      "source_repo": "Xilinx/brevitas",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base_reduced.yml.template",
+      "source_repo": "Xilinx/brevitas",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop_install.yml",
+      "source_repo": "Xilinx/brevitas",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop_install.yml",
+      "source_repo": "Xilinx/brevitas",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/develop_install.yml",
+      "source_repo": "Xilinx/brevitas",
+      "target": "Test develop install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/end_to_end.yml",
+      "source_repo": "Xilinx/brevitas",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/end_to_end.yml",
+      "source_repo": "Xilinx/brevitas",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/end_to_end.yml",
+      "source_repo": "Xilinx/brevitas",
+      "target": "Test End-to-end flows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_diffusion_pytest.yml",
+      "source_repo": "Xilinx/brevitas",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_diffusion_pytest.yml",
+      "source_repo": "Xilinx/brevitas",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples_diffusion_pytest.yml",
+      "source_repo": "Xilinx/brevitas",
+      "target": "Examples Diffusion Pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_llm_pytest.yml",
+      "source_repo": "Xilinx/brevitas",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_llm_pytest.yml",
+      "source_repo": "Xilinx/brevitas",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples_llm_pytest.yml",
+      "source_repo": "Xilinx/brevitas",
+      "target": "Examples LLM Pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_pytest.yml",
+      "source_repo": "Xilinx/brevitas",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_pytest.yml",
+      "source_repo": "Xilinx/brevitas",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples_pytest.yml",
+      "source_repo": "Xilinx/brevitas",
+      "target": "Examples Pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_vision_pytest.yml",
+      "source_repo": "Xilinx/brevitas",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples_vision_pytest.yml",
+      "source_repo": "Xilinx/brevitas",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples_vision_pytest.yml",
+      "source_repo": "Xilinx/brevitas",
+      "target": "Examples Vision Pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/finn_integration.yml",
+      "source_repo": "Xilinx/brevitas",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/finn_integration.yml",
+      "source_repo": "Xilinx/brevitas",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/finn_integration.yml",
+      "source_repo": "Xilinx/brevitas",
+      "target": "Test Brevitas-FINN integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xilinx/brevitas",
+      "target": "brevitas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xilinx/brevitas",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xilinx/brevitas",
+      "target": "fpga",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xilinx/brevitas",
+      "target": "hardware-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xilinx/brevitas",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xilinx/brevitas",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xilinx/brevitas",
+      "target": "quantization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xilinx/brevitas",
+      "target": "xilinx",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-16T00:52:15.394161+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5073
+    },
+    {
+      "path": ".github/workflows/base.yml.template",
+      "size": 1036
+    },
+    {
+      "path": ".github/workflows/base_reduced.yml.template",
+      "size": 1051
+    },
+    {
+      "path": ".github/workflows/develop_install.yml",
+      "size": 1700
+    },
+    {
+      "path": ".github/workflows/end_to_end.yml",
+      "size": 1496
+    },
+    {
+      "path": ".github/workflows/examples_diffusion_pytest.yml",
+      "size": 1519
+    },
+    {
+      "path": ".github/workflows/examples_llm_pytest.yml",
+      "size": 1489
+    },
+    {
+      "path": ".github/workflows/examples_pytest.yml",
+      "size": 1522
+    },
+    {
+      "path": ".github/workflows/examples_vision_pytest.yml",
+      "size": 1513
+    },
+    {
+      "path": ".github/workflows/finn_integration.yml",
+      "size": 1618
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Brevitas: neural network quantization in PyTorch",
+    "fork": false,
+    "full_name": "Xilinx/brevitas",
+    "html_url": "https://github.com/Xilinx/brevitas",
+    "language": "Python",
+    "pushed_at": "2026-05-11T21:20:37Z",
+    "stargazers_count": 1529,
+    "topics": [
+      "brevitas",
+      "deep-learning",
+      "fpga",
+      "hardware-acceleration",
+      "neural-networks",
+      "ptq",
+      "pytorch",
+      "qat",
+      "quantization",
+      "xilinx"
+    ],
+    "updated_at": "2026-05-14T09:03:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test develop install",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/develop_install.yml",
+      "term": "Test develop install"
+    },
+    {
+      "context_snippet": "Test End-to-end flows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/end_to_end.yml",
+      "term": "Test End-to-end flows"
+    },
+    {
+      "context_snippet": "Examples Diffusion Pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples_diffusion_pytest.yml",
+      "term": "Examples Diffusion Pytest"
+    },
+    {
+      "context_snippet": "Examples LLM Pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples_llm_pytest.yml",
+      "term": "Examples LLM Pytest"
+    },
+    {
+      "context_snippet": "Examples Pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples_pytest.yml",
+      "term": "Examples Pytest"
+    },
+    {
+      "context_snippet": "Examples Vision Pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples_vision_pytest.yml",
+      "term": "Examples Vision Pytest"
+    },
+    {
+      "context_snippet": "Test Brevitas-FINN integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/finn_integration.yml",
+      "term": "Test Brevitas-FINN integration"
+    },
+    {
+      "context_snippet": "[![Downloads](https://pepy.tech/badge/brevitas)](https://pepy.tech/project/brevitas)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brevitas"
+    },
+    {
+      "context_snippet": "[![Downloads](https://pepy.tech/badge/brevitas)](https://pepy.tech/project/brevitas)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![Downloads](https://pepy.tech/badge/brevitas)](https://pepy.tech/project/brevitas)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fpga"
+    },
+    {
+      "context_snippet": "[![Downloads](https://pepy.tech/badge/brevitas)](https://pepy.tech/project/brevitas)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hardware-acceleration"
+    },
+    {
+      "context_snippet": "[![Downloads](https://pepy.tech/badge/brevitas)](https://pepy.tech/project/brevitas)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    },
+    {
+      "context_snippet": "[![Downloads](https://pepy.tech/badge/brevitas)](https://pepy.tech/project/brevitas)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![Downloads](https://pepy.tech/badge/brevitas)](https://pepy.tech/project/brevitas)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    },
+    {
+      "context_snippet": "[![Downloads](https://pepy.tech/badge/brevitas)](https://pepy.tech/project/brevitas)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xilinx"
+    }
+  ]
+}

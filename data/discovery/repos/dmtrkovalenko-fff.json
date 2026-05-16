@@ -270,13 +270,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dmtrKovalenko/fff",
-      "target": "saghm/frizbee",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "dmtrKovalenko/fff",
@@ -564,7 +557,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-15T17:18:47.910523+00:00",
+  "fetched_at": "2026-05-16T03:48:19.331490+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -616,8 +609,8 @@
     "full_name": "dmtrKovalenko/fff",
     "html_url": "https://github.com/dmtrKovalenko/fff",
     "language": "Rust",
-    "pushed_at": "2026-05-15T06:33:10Z",
-    "stargazers_count": 6040,
+    "pushed_at": "2026-05-15T23:58:48Z",
+    "stargazers_count": 6046,
     "topics": [
       "filesearch",
       "lua",
@@ -625,17 +618,12 @@
       "neovim-plugin",
       "rust"
     ],
-    "updated_at": "2026-05-15T16:20:06Z"
+    "updated_at": "2026-05-16T03:05:31Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "dmtrkovalenko/fff.nvim",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "saghm/frizbee",
       "source_file": "README.md"
     }
   ],

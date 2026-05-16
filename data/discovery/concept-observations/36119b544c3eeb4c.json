@@ -48,7 +48,7 @@
   "normalized_form": "gitleaks-action-head",
   "observation_id": "36119b544c3eeb4c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-15T12:50:28.227991+00:00",
+  "observed_at": "2026-05-16T00:38:16.846047+00:00",
   "observed_text": "gitleaks-action-HEAD",
   "source_context_snippet": "gitleaks-action-HEAD",
   "source_file": ".github/workflows/gitleaks-action-HEAD.yml",
