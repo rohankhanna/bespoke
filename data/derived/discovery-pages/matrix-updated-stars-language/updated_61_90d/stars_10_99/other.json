@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 344,
-    "concepts": 229,
-    "observations": 230,
-    "repos": 76,
-    "terms": 225
+    "components": 351,
+    "concepts": 232,
+    "observations": 233,
+    "repos": 80,
+    "terms": 228
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "219-design/qt-qml-project-template-with-ci",
     "2KAbhishek/exercism.nvim",
+    "6cdh/dotfiles",
     "ably-labs/realtime-quiz-framework",
     "AceCHQ/TransMatting",
     "adaszko/tree_climber_rust.nvim",
@@ -36,6 +37,7 @@
     "clearml/clearml-helm-charts",
     "clojure/tools.deps",
     "codymikol/neotest-kotlin",
+    "coin-or-tools/homebrew-coinor",
     "dbuenzli/logs",
     "devise-i18n/devise-i18n",
     "dominique-unruh/scala-isabelle",
@@ -74,6 +76,7 @@
     "ocaml-opam/opam-publish",
     "ocurrent/opam-health-check",
     "onomojo/i18n-timezones",
+    "opencontainers/.github",
     "PacktPublishing/Natural-Language-Processing-with-Flair",
     "patrickgold/jetpref",
     "php/doc-it",
@@ -89,6 +92,7 @@
     "tarsius/llama",
     "timo/json_fast",
     "Triang-jyed-driung/Rapid-Sampling",
-    "typst/typst-flake"
+    "typst/typst-flake",
+    "V13Axel/neotest-pest"
   ]
 }

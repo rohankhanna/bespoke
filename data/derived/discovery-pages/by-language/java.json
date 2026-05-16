@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2798,
-    "concepts": 3515,
-    "observations": 3523,
-    "repos": 629,
-    "terms": 3494
+    "components": 2811,
+    "concepts": 3517,
+    "observations": 3525,
+    "repos": 636,
+    "terms": 3496
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "abapGit/ADT_Frontend",
@@ -102,7 +102,9 @@
     "artsy/react-native-launch-arguments",
     "artyushov/idea-jmh-plugin",
     "asaikali/spring-ai-zero-to-hero",
+    "atsushieno/libremidi-javacpp",
     "atteo/classindex",
+    "AudioRoute/AudioRoute-SDK",
     "avsej/gson.rb",
     "aws-cloudformation/cloudformation-resource-schema",
     "aws-observability/aws-otel-community",
@@ -216,6 +218,7 @@
     "diwand/YapiIdeaUploadPlugin",
     "dlew/joda-time-android",
     "dmis-lab/biobert-pytorch",
+    "dogla/filesystem-watcher",
     "dropbox/mypy-PyCharm-plugin",
     "dropwizard/dropwizard",
     "dylibso/chicory",
@@ -362,6 +365,7 @@
     "iTXTech/mirai-console-loader",
     "JakeWharton/ThreeTenABP",
     "JaneliaSciComp/n5-zstandard",
+    "jaudiolibs/jnajack",
     "java-native-access/jna",
     "jboss-javassist/javassist",
     "jcefmaven/jcefmaven",
@@ -369,6 +373,7 @@
     "jdereg/json-io",
     "jenkinsci/jenkins",
     "jenkinsci/jmh-report-plugin",
+    "jenkinsci/jna-posix",
     "jerrylususu/PaddleOCR-json-java-api",
     "JetBrains/intellij-community",
     "JetBrains/intellij-sdk-code-samples",
@@ -475,6 +480,8 @@
     "multiformats/java-multibase",
     "nacos-group/nacos-spring-project",
     "NationalSecurityAgency/ghidra",
+    "nativelibs4java/BridJ",
+    "nativelibs4java/JNAerator",
     "nativium/nativium-game",
     "nayuki/Nayuki-web-published-code",
     "Netflix/Hystrix",

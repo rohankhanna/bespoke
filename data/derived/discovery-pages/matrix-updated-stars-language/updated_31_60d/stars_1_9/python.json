@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 118,
-    "concepts": 92,
-    "observations": 92,
+    "components": 115,
+    "concepts": 89,
+    "observations": 89,
     "repos": 35,
-    "terms": 89
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "42-evey/evey-bridge-plugin",
     "agenmod/distill-protocol-skill",
@@ -21,6 +21,8 @@
     "AgnostiqHQ/covalent-executor-template",
     "aiidateam/plumpy",
     "alterego-987/council-mcp",
+    "apptainer/apptainer-admindocs",
+    "apptainer/apptainer-userdocs",
     "ashvardanian/ashvardanian",
     "astroyat/lerobot",
     "axolotl-ai-cloud/ml-cross-entropy",
@@ -44,10 +46,8 @@
     "lxgw/LxgwWenKai-shared",
     "Mbed-TLS/mbedtls-framework",
     "Mercury13/unicodia-sesh",
-    "openelections/openelections-data-sd",
     "ROCm/rbuild",
     "runtimeverification/kup",
-    "shadmau/autocouncil",
     "sparklabutah/timewarp"
   ]
 }

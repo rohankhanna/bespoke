@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4776,
-    "concepts": 715,
-    "observations": 717,
-    "repos": 197,
-    "terms": 725
+    "components": 4818,
+    "concepts": 751,
+    "observations": 753,
+    "repos": 200,
+    "terms": 762
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "101arrowz/fzstd",
     "1hanzla100/developer-portfolio",
@@ -138,6 +138,7 @@
     "microsoft/dtslint",
     "microsoft/vscode-node-debug",
     "microsoft/vscode-references-view",
+    "mike-lischke/antlr4ng",
     "milhidaka/webgpu-blas",
     "MiniMax-AI/MiniMax-MCP-JS",
     "mobxjs/mobx-angular",
@@ -156,6 +157,7 @@
     "notiz-dev/prisma-dbml-generator",
     "obartra/ssim",
     "Obsidian-TTRPG-Community/dice-roller",
+    "onlxltd/bonjour-service",
     "openupm/openupm-cli",
     "placemark/flat-drop-files",
     "playwright-community/expect-playwright",
@@ -205,6 +207,7 @@
     "windicss/windicss-intellisense",
     "WisdomShell/codeshell-vscode",
     "withastro/prettier-plugin-astro",
+    "withcatai/catai",
     "wrkout/exercises.json",
     "wylieconlon/lsp-editor-adapter",
     "yaegassy/coc-volar",

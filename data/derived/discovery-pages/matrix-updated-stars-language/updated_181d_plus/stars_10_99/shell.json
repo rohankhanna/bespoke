@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 103,
-    "concepts": 220,
-    "observations": 220,
-    "repos": 86,
-    "terms": 215
+    "components": 90,
+    "concepts": 209,
+    "observations": 209,
+    "repos": 85,
+    "terms": 204
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "2KAbhishek/ghpm",
     "2KAbhishek/mkrepo",
@@ -27,7 +27,6 @@
     "alexandredavi/openssl-lambda-layer",
     "amyreese/zsh-titles",
     "antonbabenko/awsp",
-    "apache/datafusion-ballista-python",
     "apollographql/supergraph-demo-k8s-graph-ops",
     "astrofra/demo-marine-melodies",
     "babashka/pod-babashka-filewatcher",

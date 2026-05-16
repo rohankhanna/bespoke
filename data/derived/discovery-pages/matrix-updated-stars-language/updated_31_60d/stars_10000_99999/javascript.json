@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 999,
-    "concepts": 147,
-    "observations": 147,
-    "repos": 29,
-    "terms": 153
+    "components": 1108,
+    "concepts": 170,
+    "observations": 170,
+    "repos": 32,
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,24 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
+    "ai/nanoid",
     "anuraghazra/github-readme-stats",
     "auth0/node-jsonwebtoken",
     "Automattic/node-canvas",
     "avwo/whistle",
     "be5invis/Sarasa-Gothic",
-    "browserslist/browserslist",
     "ConardLi/easy-dataset",
     "debug-js/debug",
     "eyaltoledano/claude-task-master",
     "hapijs/hapi",
     "hapijs/joi",
+    "http-party/http-server",
     "immerjs/immer",
     "infernojs/inferno",
     "jashkenas/underscore",
+    "josdejong/jsoneditor",
     "jquery/jquery-ui",
     "karma-runner/karma",
     "less/less.js",
@@ -42,6 +44,7 @@
     "typicode/husky",
     "typicode/json-server",
     "vuejs/vue-router",
-    "websockets/ws"
+    "websockets/ws",
+    "welldone-software/why-did-you-render"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 342,
-    "concepts": 64,
-    "observations": 64,
-    "repos": 21,
-    "terms": 64
+    "components": 400,
+    "concepts": 75,
+    "observations": 75,
+    "repos": 24,
+    "terms": 75
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "alibaizhanov/openclaw-mengram",
+    "analyticsinmotion/wake-word",
     "aporthq/aport-spec",
     "aquasecurity/tfsec-azure-pipelines-task",
     "asafr93-rosa/shopping-list-il",
     "Badisi/wdio-harness",
+    "celo-org/SocialConnect-Twitter",
     "curiousdannii/asyncglk",
     "danielrosehill/agent-junction",
     "danielrosehill/GreenInvoice-MCP",
@@ -31,6 +33,7 @@
     "mattiacolombomc/raycast-handy",
     "maxritter/pilot-shell-demo",
     "octokit/openapi-webhooks",
+    "qcr/qcr.github.io",
     "robustmq/robustmq-copilot",
     "storybookjs/addon-jest",
     "tnc-ca-geo/animl-api",

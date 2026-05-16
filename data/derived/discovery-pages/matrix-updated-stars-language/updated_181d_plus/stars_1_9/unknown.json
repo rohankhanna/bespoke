@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 124,
-    "concepts": 166,
-    "observations": 166,
-    "repos": 188,
-    "terms": 164
+    "concepts": 160,
+    "observations": 160,
+    "repos": 187,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "0xnu/rewsury",
     "2KAbhishek/nightblue",
@@ -26,7 +26,6 @@
     "arnetheduck/nph-action",
     "asomoza/image_gen_aux",
     "autowarefoundation/autoware-projects",
-    "ayushsaini00/holi-theme",
     "BhagawatAdhikari/bhagawatadhikari",
     "Biscuit-Theme/alacritty",
     "blockstream/rust-electrum-client",

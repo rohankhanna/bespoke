@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 264,
-    "concepts": 175,
-    "observations": 175,
-    "repos": 72,
-    "terms": 175
+    "components": 270,
+    "concepts": 187,
+    "observations": 187,
+    "repos": 71,
+    "terms": 187
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
-    "0xPolygonHermez/stark-recurser",
     "actboy168/ltest",
     "aimeos/ai-monolog",
     "ankane/seaduck",
@@ -41,10 +40,10 @@
     "curiousdannii/emglken",
     "CVEProject/cve-user-registry-client",
     "cyber404/che-apple-mail-mcp",
-    "diffblue/homebrew-cbmc",
     "dm0x23/portfolio-website",
     "dotenvx/homebrew-brew",
     "enbop/fungi-app",
+    "fern-api/docs",
     "flagos-ai/flir",
     "floxym/financial-chat-finance-nlp-chatbots",
     "fredrikekre/runic-pre-commit",
@@ -61,11 +60,10 @@
     "joinwell52-ai/codeflow-pwa",
     "JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl",
     "JuliaCI/julia-buildkite",
+    "JuliaCI/rootfs-images",
     "KhronosGroup/KTX-Software-CTS",
-    "knopp/native_toolchain_ninja",
     "KnotUntied/scoop-fonts",
     "lahma/test262-harness-dotnet",
-    "lemire/unicode_lipsum",
     "lintnet-modules/ghalint",
     "localstack/homebrew-tap",
     "Mbed-TLS/mbedtls-test",
@@ -80,6 +78,7 @@
     "Shougo/dpp-ext-lazy",
     "stable-haskell/cabal",
     "standardrb/standard-custom",
+    "standardrb/standard-sorbet",
     "tarikmanoar/tarikmanoar",
     "Tengfei-Wang/Tengfei-Wang.github.io",
     "tinted-theming/base16-waybar",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 322,
-    "concepts": 351,
-    "observations": 353,
-    "repos": 56,
-    "terms": 355
+    "components": 369,
+    "concepts": 387,
+    "observations": 389,
+    "repos": 60,
+    "terms": 391
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "2noise/ChatTTS",
     "3b1b/videos",
@@ -47,20 +47,24 @@
     "letta-ai/letta",
     "localstack/localstack",
     "magic-wormhole/magic-wormhole",
+    "microsoft/autogen",
     "microsoft/playwright-python",
+    "microsoft/pyright",
     "mingrammer/diagrams",
     "modelscope/FunASR",
     "openai/evals",
     "openai/gpt-oss",
     "openai/gym",
+    "openai/swarm",
     "openai/tiktoken",
+    "openai/whisper",
     "OpenBMB/ChatDev",
     "PaddlePaddle/PaddleDetection",
+    "PaddlePaddle/PaddleSpeech",
     "pallets/flask",
     "pre-commit/pre-commit",
     "prompt-toolkit/python-prompt-toolkit",
     "QwenLM/Qwen3-Coder",
-    "QwenLM/Qwen3-TTS",
     "resemble-ai/chatterbox",
     "sanic-org/sanic",
     "ShishirPatil/gorilla",

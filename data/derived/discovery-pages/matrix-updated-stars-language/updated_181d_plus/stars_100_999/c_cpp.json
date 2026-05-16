@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 655,
-    "concepts": 1194,
-    "observations": 1197,
-    "repos": 367,
-    "terms": 1175
+    "components": 669,
+    "concepts": 1220,
+    "observations": 1223,
+    "repos": 372,
+    "terms": 1201
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "a-e-k/canvas_ity",
     "a-n-t-h-o-n-y/TermOx",
@@ -56,6 +56,7 @@
     "athena-team/athena",
     "atx/wtype",
     "auriamg/macdylibbundler",
+    "axodox/axodox-machinelearning",
     "Azure-Samples/Cognitive-Services-Voice-Assistant",
     "bagder/fcpp",
     "BayshoreNetworks/yextend",
@@ -79,18 +80,21 @@
     "CaoWGG/TensorRT-CenterNet",
     "caryll/otfcc",
     "catid/leopard",
+    "cginternals/glbinding",
     "chanzuckerberg/shasta",
     "chenkui164/FastASR",
     "chennuo0125-HIT/lidar_imu_calib",
     "chfast/ethash",
     "chongyi-zheng/SMPLpp",
     "clab/fast_align",
+    "CLD2Owners/cld2",
     "cmp-nct/ggllm.cpp",
     "cofyc/dnscrypt-wrapper",
     "coin-or/Bonmin",
     "colmap/pycolmap",
     "Consensys/ethereum-dissectors",
     "cornelk/llama-go",
+    "cpyarger/obs-midi",
     "crawforddoran/quartet",
     "crazyxman/simdjson_php",
     "crossbario/autobahn-cpp",
@@ -355,6 +359,7 @@
     "unittest-cpp/unittest-cpp",
     "unum-cloud/UStore",
     "url-kaist/outlier-robust-radar-odometry",
+    "usnistgov/SCTK",
     "utiasASRL/steam",
     "uzh-rpg/rpg_vikit",
     "vacancy/PreciseRoIPooling",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 27,
-    "concepts": 144,
-    "observations": 144,
-    "repos": 37,
-    "terms": 143
+    "components": 28,
+    "concepts": 150,
+    "observations": 150,
+    "repos": 43,
+    "terms": 149
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "abubakarsiddik31/claude-skills-collection",
     "adoptium/adoptium",
@@ -26,12 +26,16 @@
     "apple/device-management",
     "astro-han/karpathy-llm-wiki",
     "attack68/rateslib",
+    "bloomberg/clang-p2996",
     "cncf/artwork",
     "cosmos/awesome-cosmos",
+    "dotnet-foundation/projects",
+    "dotnet/AspNetApiDocs",
     "dotnet/source-build",
     "e18e/ecosystem-issues",
     "filecoin-project/community",
     "flathub/com.vscodium.codium",
+    "github/codeql-cli-binaries",
     "grpc/proposal",
     "hagezi/dns-servers",
     "helm/community",
@@ -39,17 +43,19 @@
     "lumen-oss/nvim-best-practices",
     "lwpyh/Awesome-MLLM-Reasoning-Collection",
     "lxgw/LxgwZhenKai",
+    "MicrosoftDocs/terminal",
     "near/borsh",
     "neon-bindings/examples",
     "oobabooga/textgen-extensions",
     "preactjs/awesome-preact",
-    "reactwg/react-native-releases",
+    "ranpox/awesome-computer-use",
     "revfactory/harness-100",
     "SamurAIGPT/awesome-openclaw",
     "scott0107000/BoutiqueBitmap7x7",
     "sedyh/awesome-ebitengine",
     "servo/project",
     "tc39/how-we-work",
+    "Uzaaft/awesome-libghostty",
     "web-platform-tests/rfcs"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 865,
-    "concepts": 130,
-    "observations": 130,
-    "repos": 17,
-    "terms": 130
+    "components": 555,
+    "concepts": 98,
+    "observations": 98,
+    "repos": 11,
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
-    "alphagov/govuk-frontend",
     "carbon-design-system/carbon",
     "chaijs/chai",
     "ghostery/ghostery-extension",
     "heshengtao/super-agent-party",
-    "jellyfin/jellyfin-web",
-    "jquery/jquery-color",
+    "ipfs/ipfs-companion",
     "MikeMcl/bignumber.js",
-    "nodeca/js-yaml",
     "openwrt/luci",
-    "pillarjs/iconv-lite",
     "stdlib-js/stdlib",
     "stylelint/stylelint-config-standard",
     "sverweij/dependency-cruiser",
-    "tapjs/tapjs",
-    "uBlockOrigin/uBOL-home",
-    "webpack/webpack-cli"
+    "uBlockOrigin/uBOL-home"
   ]
 }

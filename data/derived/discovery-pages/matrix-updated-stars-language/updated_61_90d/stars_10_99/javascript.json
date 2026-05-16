@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 181,
+    "components": 177,
     "concepts": 48,
     "observations": 48,
-    "repos": 17,
+    "repos": 16,
     "terms": 48
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "a5huynh/vscode-ron",
     "ably-labs/realtime-multiplayer-space-invaders",
@@ -25,7 +25,6 @@
     "hyparam/hysnappy",
     "ipld/js-dag-pb",
     "kibertoad/toad-cache",
-    "kunwar-shah/claudex",
     "L2jLiga/grunt-webfonts",
     "mongodb-js/zstd",
     "OpenHands/openhands-chrome-extension",

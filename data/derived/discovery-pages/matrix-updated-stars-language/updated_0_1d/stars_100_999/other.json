@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 15,
-    "concepts": 18,
-    "observations": 18,
+    "components": 18,
+    "concepts": 32,
+    "observations": 32,
     "repos": 3,
-    "terms": 18
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
-    "appwrite/playground-for-web",
+    "astroautomata/SymbolicRegression.jl",
     "bazel-contrib/rules_kotlin",
-    "karafka/rdkafka-ruby"
+    "ROCm/hipBLASLt"
   ]
 }

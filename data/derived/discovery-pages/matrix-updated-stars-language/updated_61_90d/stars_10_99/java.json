@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 10,
-    "terms": 50
+    "components": 29,
+    "concepts": 59,
+    "observations": 59,
+    "repos": 12,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "Antibrumm/jackson-antpathfilter",
     "apache/netbeans-nbpackage",
@@ -21,6 +21,8 @@
     "clearml/clearml-pycharm-plugin",
     "EXIficient/exificient-for-json",
     "googleapis/java-bigquerystorage",
+    "guyboertje/jrjackson",
+    "padreati/rapaio",
     "piomin/spring-ai-showcase",
     "smithy-lang/smithy-gradle-plugin",
     "tlabs-data/tablesaw-parquet"

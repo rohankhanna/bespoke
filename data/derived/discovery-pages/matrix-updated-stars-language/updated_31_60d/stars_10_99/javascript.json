@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 760,
-    "concepts": 243,
-    "observations": 243,
-    "repos": 60,
-    "terms": 236
+    "components": 776,
+    "concepts": 246,
+    "observations": 246,
+    "repos": 62,
+    "terms": 239
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "AdguardTeam/CodeGuidelines",
@@ -37,6 +37,7 @@
     "ehmicky/node-version-alias",
     "ehmicky/preferred-node-version",
     "electerm/electerm-locales",
+    "evenchange4/graphql.macro-example",
     "faressoft/inquirer-checkbox-plus-prompt",
     "Fil/d3-tricontour",
     "gatsbyjs/gatsby-starter-minimal",
@@ -72,6 +73,7 @@
     "sveltejs/eslint-config",
     "tc39/proposal-immutable-arraybuffer",
     "tc39/proposal-iterator-includes",
+    "TrigenSoftware/simple-release-action",
     "validator/gulp-html",
     "wemake-services/wemake-frontend-styleguide"
   ]

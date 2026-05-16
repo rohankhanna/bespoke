@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 682,
-    "concepts": 1432,
-    "observations": 1434,
-    "repos": 830,
-    "terms": 1411
+    "components": 684,
+    "concepts": 1453,
+    "observations": 1455,
+    "repos": 838,
+    "terms": 1434
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -98,6 +98,7 @@
     "AMAP-ML/RealQA",
     "Amazingren/CIT",
     "Amazingren/CrossMLP",
+    "amazon-science/masked-diffusion-lm",
     "amazon-science/recode",
     "AMD-AGI/Nitro-T",
     "AmericanPresidentJimmyCarter/stable-diffusion",
@@ -412,6 +413,8 @@
     "Ha0Tang/DPGAN",
     "Ha0Tang/ECGAN",
     "Ha0Tang/HCANet",
+    "hackebrot/earth",
+    "hackebrot/labels",
     "hafiidz/latent-diffusion",
     "haibo-qiu/GFNet",
     "HakamShams/Focal_TSMP",
@@ -689,6 +692,7 @@
     "reasoning-machines/CoCoGen",
     "redcaps-dataset/redcaps-downloader",
     "renqibing/MultiAgent4Collusion",
+    "RickyL-2000/AlignSTS",
     "ritzz-ai/PACS",
     "rmbrualla/pycolmap",
     "Roblox/SmoothCache",
@@ -813,6 +817,7 @@
     "wl-zhao/DC-Solver",
     "wordweb/Tiger-qq-bot",
     "WrongProtocol/YuE-exllamav2-UI",
+    "X-LANCE/UniCATS-CTX-txt2vec",
     "xetdata/xetcache",
     "xg-chu/GAGAvatar_track",
     "xg-chu/lightning_track",
@@ -831,6 +836,8 @@
     "young-geng/mlxu",
     "Yuan-ManX/ComfyUI-SkyReels-A2",
     "yuanming-hu/voxel-art",
+    "yuyq96/D-TDNN",
+    "yxlllc/pc-ddsp",
     "ZacharyMeng/PolaFormer",
     "zahraatashgahi/QuickSelection",
     "Zhen-Dong/BitPack",
@@ -838,6 +845,7 @@
     "ZhuiyiTechnology/GAU-alpha",
     "zhuqinghe/RS-Haze",
     "zhxieml/rayinfer",
+    "ZibinDong/AlignDiff-ICLR2024",
     "zigzagcai/varlen_mamba",
     "zlib-ng/pigzbench",
     "zzc-1998/Q-SiT",

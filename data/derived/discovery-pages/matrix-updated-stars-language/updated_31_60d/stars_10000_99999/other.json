@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 179,
-    "concepts": 240,
-    "observations": 242,
-    "repos": 32,
-    "terms": 234
+    "concepts": 239,
+    "observations": 241,
+    "repos": 34,
+    "terms": 233
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "adambard/learnxinyminutes-docs",
     "AppFlowy-IO/AppFlowy",
@@ -24,12 +24,14 @@
     "facebookresearch/sam2",
     "fastai/fastai",
     "fatih/vim-go",
+    "google-gemini/gemini-fullstack-langgraph-quickstart",
     "google/dopamine",
     "google/styleguide",
     "guidance-ai/guidance",
     "heartcombo/devise",
     "ianyh/Amethyst",
     "Ileriayo/markdown-badges",
+    "JamesNK/Newtonsoft.Json",
     "junegunn/fzf.vim",
     "koalaman/shellcheck",
     "Kong/kong",
@@ -44,7 +46,7 @@
     "ryanoasis/nerd-fonts",
     "Seldaek/monolog",
     "Swordfish90/cool-retro-term",
-    "TA-Lib/ta-lib-python",
+    "tmuxinator/tmuxinator",
     "tonsky/FiraCode"
   ]
 }

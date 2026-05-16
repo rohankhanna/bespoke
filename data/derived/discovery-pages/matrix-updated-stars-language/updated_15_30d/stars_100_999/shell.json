@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 213,
-    "concepts": 280,
-    "observations": 283,
-    "repos": 51,
-    "terms": 285
+    "components": 239,
+    "concepts": 298,
+    "observations": 301,
+    "repos": 53,
+    "terms": 303
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
-    "0xNyk/council-of-high-intelligence",
     "2KAbhishek/dots2k",
     "alexmyczko/fnt",
     "alfredolopez80/multi-agent-ralph-loop",
@@ -23,7 +22,6 @@
     "arangrhie/T2T-Polish",
     "bnb-chain/bsc-snapshots",
     "cloudfoundry/bosh-deployment",
-    "cncf/k8s-conformance",
     "codelibs/docker-fess",
     "dani-garcia/bw_web_builds",
     "denysdovhan/dotfiles",
@@ -33,9 +31,12 @@
     "gentoo/guru",
     "getsolus/packages",
     "harbor-framework/terminal-bench-2",
+    "heroku/base-images",
+    "heroku/heroku-buildpack-go",
     "heroku/heroku-buildpack-java",
     "heroku/heroku-buildpack-php",
     "itzg/docker-mc-backup",
+    "jcefmaven/jcefbuild",
     "justchokingaround/lobster",
     "jvm-repo-rebuild/reproducible-central",
     "kubernetes/sig-release",
@@ -59,6 +60,7 @@
     "rz1989s/claude-code-statusline",
     "sclorg/mysql-container",
     "sclorg/s2i-nodejs-container",
+    "sclorg/s2i-php-container",
     "sclorg/s2i-python-container",
     "serpro69/claude-toolbox",
     "termux/repology-metadata",

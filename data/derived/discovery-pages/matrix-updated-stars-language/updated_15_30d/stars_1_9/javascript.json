@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1128,
-    "concepts": 527,
-    "observations": 529,
-    "repos": 55,
-    "terms": 533
+    "components": 1237,
+    "concepts": 594,
+    "observations": 596,
+    "repos": 57,
+    "terms": 600
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
-    "agent-sh/audit-project",
+    "angular/angular-devkit-architect-builds",
     "angular/dev-infra-private-ng-dev-builds",
     "anojndr/grok-to-openai",
-    "apache/netbeans-antora",
     "boa-dev/data",
     "celo-org/blind-threshold-bls-wasm",
     "certible/superagent-aws-sign",
@@ -29,7 +28,6 @@
     "erichlof/Glider-Ball-3D",
     "fontsource/download-stat-aggregator",
     "gauravrathod674/custom-chatbot",
-    "gr2m/octokit-oauth-app-begin-example",
     "h5wasm/h5wasm-plugins",
     "ibm-telemetry/telemetry-config-schema",
     "j9t/compressorjs-next",
@@ -47,6 +45,7 @@
     "rvagg/js-bitcoin-block",
     "sapphiredev/.github",
     "seunghunbae-3svs/solo-cto-agent",
+    "stdlib-js/array-float32",
     "stdlib-js/array-float64",
     "stdlib-js/array-int16",
     "stdlib-js/array-int32",
@@ -60,7 +59,10 @@
     "stdlib-js/complex-cmplx",
     "stdlib-js/complex-float32-reviver",
     "stdlib-js/complex-float64-reviver",
+    "stdlib-js/math-base-special-erf",
+    "stdlib-js/math-base-special-erfc",
     "stdlib-js/math-base-special-erfcinv",
+    "stdlib-js/math-base-special-erfcx",
     "stdlib-js/math-base-special-erfinv",
     "stdlib-js/ndarray-dtypes",
     "stdlib-js/ndarray-orders",

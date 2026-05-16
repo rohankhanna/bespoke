@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 122,
-    "concepts": 407,
-    "observations": 408,
-    "repos": 239,
-    "terms": 407
+    "concepts": 415,
+    "observations": 416,
+    "repos": 242,
+    "terms": 415
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -119,6 +119,7 @@
     "HCIILAB/M6Doc",
     "helm/hub",
     "hiszpanski/osx-arm-linux-toolchains",
+    "HLTSingapore/Emotional-Speech-Data",
     "hpatches/hpatches-dataset",
     "hughfenghen/WebAV-KnowledgeGraph",
     "hustvl/LaneGAP",
@@ -145,6 +146,7 @@
     "jrevels/YASGuide",
     "justinpinkney/awesome-pretrained-stylegan3",
     "Juyong/3DFace",
+    "kahne/SpeechTransProgress",
     "Kim2091/chaiNNer-Templates",
     "klaus2m5/6502_65c02_functional_tests",
     "kwea123/OpenVTuberProject",
@@ -162,6 +164,7 @@
     "michaelkleber/privacy-model",
     "micronaut-projects/micronaut-examples",
     "microsoft/containerregistry",
+    "microsoft/openjdk-aarch64",
     "microsoft/sarif-tutorials",
     "microsoft/vs-tools-for-ai",
     "microsoft/vscode-discussions",

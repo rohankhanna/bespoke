@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 839,
-    "concepts": 147,
-    "observations": 147,
+    "components": 788,
+    "concepts": 134,
+    "observations": 134,
     "repos": 17,
-    "terms": 145
+    "terms": 132
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,24 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
-    "abaplint/transpiler",
     "apify/apify-cli",
     "apify/mcpc",
-    "electron/packager",
+    "Koenkk/zigbee-herdsman",
     "Luligu/matterbridge",
     "Luligu/matterbridge-shelly",
     "Luligu/matterbridge-zigbee2mqtt",
+    "mightyiam/eslint-config-love",
     "Nerivec/zigbee2mqtt-windfront",
     "nurikk/zigbee2mqtt-frontend",
     "preactjs/preact-devtools",
     "Rel1cx/eslint-react",
+    "RiDDiX/home-assistant-matter-hub",
     "serversideup/webext-bridge",
     "skilld-dev/skilld",
-    "stx-labs/stacks.js",
-    "xdebug/vscode-php-debug",
+    "unplugin/unplugin-imagemin",
     "Zoo-Code-Org/Zoo-Code"
   ]
 }

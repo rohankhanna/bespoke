@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 186,
-    "concepts": 210,
-    "observations": 210,
-    "repos": 35,
-    "terms": 209
+    "components": 189,
+    "concepts": 224,
+    "observations": 224,
+    "repos": 36,
+    "terms": 221
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "aws-observability/aws-otel-collector",
@@ -31,6 +31,7 @@
     "FastFilter/xorfilter",
     "fastschema/fastschema",
     "firecracker-microvm/firectl",
+    "fumiama/RVC-Models-Downloader",
     "github/smimesign",
     "google/rpmpack",
     "IBM/FfDL",

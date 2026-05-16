@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 44,
+    "components": 46,
     "concepts": 20,
     "observations": 20,
-    "repos": 5,
+    "repos": 6,
     "terms": 20
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
+    "cwfitzgerald/libtest-mimic",
     "DataDog/opa",
     "DiligentGraphics/json",
     "guaguastandup/guaguastandup",

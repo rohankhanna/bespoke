@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 413,
-    "concepts": 463,
-    "observations": 463,
-    "repos": 61,
-    "terms": 461
+    "components": 387,
+    "concepts": 446,
+    "observations": 446,
+    "repos": 59,
+    "terms": 444
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -24,7 +24,6 @@
     "Apicurio/apicurio-registry",
     "aws-powertools/powertools-lambda-java",
     "aws/smithy-go",
-    "bazel-contrib/rules_jvm_external",
     "beehive-lab/GPULlama3.java",
     "bndtools/bnd",
     "confluentinc/kafka-streams-examples",
@@ -32,7 +31,6 @@
     "Cosium/git-code-format-maven-plugin",
     "devoxx/DevoxxGenieIDEAPlugin",
     "eclipse-lemminx/lemminx",
-    "fabmax/physx-jni",
     "FasterXML/jackson-dataformat-xml",
     "FasterXML/jackson-dataformats-binary",
     "FasterXML/jackson-dataformats-text",
@@ -46,7 +44,7 @@
     "graalvm/graalvm-demos",
     "graalvm/native-build-tools",
     "heroku/webapp-runner",
-    "higress-group/higress-console",
+    "ihmcrobotics/ihmc-open-robotics-software",
     "jpmml/jpmml-lightgbm",
     "jpmml/jpmml-sklearn",
     "jpmml/jpmml-xgboost",
@@ -65,13 +63,13 @@
     "reactor/reactor-addons",
     "revelc/formatter-maven-plugin",
     "saalfeldlab/n5",
+    "samtools/htsjdk",
     "SAP/SapMachine",
     "sevntu-checkstyle/sevntu.checkstyle",
     "spotbugs/sonar-findbugs",
     "swagger-api/swagger-inflector",
     "swagger-api/swagger-parser",
     "ThreeTen/threetenbp",
-    "Waffle/waffle",
     "wildfly/quickstart",
     "Xilinx/RapidWright",
     "zilliztech/vts"

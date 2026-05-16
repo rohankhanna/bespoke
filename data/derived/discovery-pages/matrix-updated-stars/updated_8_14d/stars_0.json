@@ -1,20 +1,20 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 11,
-    "terms": 15
+    "components": 21,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 10,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
-    "angular/angular-build-builds",
+    "abdeladim-s/pywhispercpp",
     "clearml/clearml-agent-bootstrap",
     "danielrosehill/Claude-Agent-Relay-Plugin",
     "danielrosehill/Claude-Gist-Writer-Plugin",
@@ -22,7 +22,6 @@
     "danielrosehill/Claude-Linux-AV-Manager-Plugin",
     "kleisauke/glib",
     "lakekeeper/iceberg-rust",
-    "seanmacavaney/ir-datasets.com",
     "UnknownPlatypus/markup_fmt"
   ]
 }

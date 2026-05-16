@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 134,
-    "concepts": 78,
-    "observations": 78,
-    "repos": 28,
-    "terms": 78
+    "components": 153,
+    "concepts": 89,
+    "observations": 89,
+    "repos": 30,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "1mb-dev/natcheck",
     "abhinav/goldmark-hashtag",
@@ -25,6 +25,8 @@
     "datachainlab/lcp-go",
     "dwyl/learn-go",
     "erikceballos/nano-banana-cli",
+    "exoscale/karpenter-provider-exoscale",
+    "fluxcd/flux-schema",
     "goreleaser/sponsors",
     "huggingface/hf-csi-driver",
     "k8nstantin/openpraxis",

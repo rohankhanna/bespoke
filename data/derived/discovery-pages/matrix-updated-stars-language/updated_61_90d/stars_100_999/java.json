@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 10,
-    "terms": 30
+    "components": 15,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 9,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "Deep-Symmetry/crate-digger",
     "eclipse-aspectj/aspectj",
@@ -22,7 +22,6 @@
     "nayuki/Nayuki-web-published-code",
     "peergos/nabu",
     "scalar-labs/btm",
-    "spring-ai-alibaba/deepresearch",
-    "testng-team/testng-eclipse"
+    "spring-ai-alibaba/deepresearch"
   ]
 }

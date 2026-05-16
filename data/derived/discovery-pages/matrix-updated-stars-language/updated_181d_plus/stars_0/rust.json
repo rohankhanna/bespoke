@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 195,
-    "concepts": 72,
-    "observations": 73,
-    "repos": 52,
-    "terms": 72
+    "components": 203,
+    "concepts": 73,
+    "observations": 74,
+    "repos": 53,
+    "terms": 73
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "a-liashenko/egui",
     "adiSuper94/dns-rs",
@@ -27,6 +27,7 @@
     "CyberHoward/cw-plus-plus",
     "databendlabs/state-machine-api",
     "datachainlab/lcp-cgen",
+    "datafuse-extras/arrow-udf",
     "datafuse-extras/async-backtrace",
     "datafuse-extras/async-recursion",
     "datafuse-extras/logforth",

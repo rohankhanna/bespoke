@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 60,
-    "observations": 60,
-    "repos": 15,
-    "terms": 73
+    "components": 67,
+    "concepts": 64,
+    "observations": 64,
+    "repos": 16,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "automazeio/ccpm",
+    "bluesky-social/pds",
     "containers/toolbox",
     "crosstool-ng/crosstool-ng",
     "devcontainers/templates",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 164,
-    "observations": 164,
-    "repos": 70,
-    "terms": 164
+    "components": 112,
+    "concepts": 165,
+    "observations": 165,
+    "repos": 73,
+    "terms": 165
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "abapGit/ADT_Frontend",
     "abilian/abilian-sbe",
@@ -23,6 +23,7 @@
     "angelozerr/ec4e",
     "apache/pulsar-adapters",
     "asaikali/spring-ai-zero-to-hero",
+    "AudioRoute/AudioRoute-SDK",
     "avsej/gson.rb",
     "bhavuklabs/research4j",
     "BioASQ/Evaluation-Measures",
@@ -57,7 +58,9 @@
     "iamolegga/react-native-launch-arguments",
     "ihmcrobotics/euclid",
     "imfangs/langgraph4j-deep-researcher",
+    "jaudiolibs/jnajack",
     "jenkinsci/jmh-report-plugin",
+    "jenkinsci/jna-posix",
     "jerrylususu/PaddleOCR-json-java-api",
     "JetBrains/spotbugs-intellij-plugin",
     "JodaOrg/joda-time-jsptags",

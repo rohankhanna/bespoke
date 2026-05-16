@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2048,
-    "concepts": 1944,
-    "observations": 1955,
-    "repos": 216,
-    "terms": 1947
+    "components": 2030,
+    "concepts": 1961,
+    "observations": 1972,
+    "repos": 215,
+    "terms": 1963
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "actions/actions-runner-controller",
@@ -44,7 +44,6 @@
     "aws/aws-sdk-go-v2",
     "awslabs/amazon-ecr-credential-helper",
     "awslabs/amazon-eks-ami",
-    "axllent/mailpit",
     "azimjohn/jprq",
     "Bearer/bearer",
     "beclab/Olares",
@@ -54,9 +53,7 @@
     "bradfitz/gomemcache",
     "btcsuite/btcwallet",
     "bufbuild/protoc-gen-validate",
-    "bufbuild/protovalidate",
     "buger/jsonparser",
-    "BurntSushi/toml",
     "bytedance/sonic",
     "C2SP/wycheproof",
     "caddyserver/certmagic",
@@ -113,7 +110,6 @@
     "fluxcd/flux2",
     "fsouza/go-dockerclient",
     "getkin/kin-openapi",
-    "gin-gonic/examples",
     "go-flutter-desktop/go-flutter",
     "go-flutter-desktop/hover",
     "go-logr/logr",
@@ -128,7 +124,7 @@
     "google/syzkaller",
     "google/trillian",
     "GoogleCloudPlatform/berglas",
-    "GoogleContainerTools/container-structure-test",
+    "gookit/color",
     "goreleaser/nfpm",
     "grafana/alloy",
     "hairyhenderson/gomplate",
@@ -173,11 +169,12 @@
     "maragudk/gomponents",
     "mark3labs/mcp-go",
     "Masterminds/semver",
+    "miekg/dns",
     "moby/buildkit",
     "mostlygeek/llama-swap",
-    "nginx-proxy/docker-gen",
     "norwoodj/helm-docs",
     "NVIDIA/gpu-operator",
+    "NVIDIA/k8s-device-plugin",
     "NVIDIA/nvidia-container-toolkit",
     "oapi-codegen/oapi-codegen",
     "onsi/ginkgo",
@@ -197,11 +194,11 @@
     "ory/oathkeeper",
     "osrg/gobgp",
     "peco/peco",
+    "pion/example-webrtc-applications",
     "pion/turn",
     "prometheus-community/windows_exporter",
     "prometheus-operator/prometheus-operator",
     "prometheus/alertmanager",
-    "prometheus/blackbox_exporter",
     "prometheus/client_golang",
     "rabbitmq/amqp091-go",
     "raviqqe/muffet",
@@ -218,6 +215,7 @@
     "SpecterOps/BloodHound",
     "spiffe/spire",
     "stripe/stripe-go",
+    "supabase/cli",
     "sysadminsmedia/homebox",
     "tendermint/tendermint",
     "terraform-linters/tflint",
@@ -226,9 +224,10 @@
     "tofuutils/tenv",
     "tonistiigi/binfmt",
     "trzsz/trzsz-ssh",
+    "umputun/remark42",
     "usbarmory/tamago",
-    "VictoriaMetrics/fastcache",
     "walles/moor",
-    "x-motemen/ghq"
+    "x-motemen/ghq",
+    "XTLS/REALITY"
   ]
 }

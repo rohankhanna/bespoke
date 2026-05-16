@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 159,
-    "observations": 160,
-    "repos": 12,
-    "terms": 159
+    "components": 135,
+    "concepts": 176,
+    "observations": 178,
+    "repos": 14,
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,21 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
-    "Dao-AILab/flash-attention",
+    "aden-hive/hive",
+    "Comfy-Org/ComfyUI-Manager",
     "deepspeedai/DeepSpeed",
     "fastapi/fastapi",
+    "huggingface/sentence-transformers",
     "jax-ml/jax",
     "modelscope/ms-swift",
     "NVIDIA-NeMo/NeMo",
     "oobabooga/textgen",
     "OpenHands/OpenHands",
-    "qubvel-org/segmentation_models.pytorch",
+    "pydantic/pydantic",
     "run-llama/llama_index",
-    "TEN-framework/ten-framework",
-    "verl-project/verl"
+    "verl-project/verl",
+    "zhayujie/CowAgent"
   ]
 }

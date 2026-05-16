@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 514,
-    "concepts": 608,
-    "observations": 608,
-    "repos": 272,
-    "terms": 605
+    "concepts": 617,
+    "observations": 617,
+    "repos": 277,
+    "terms": 614
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
@@ -34,6 +34,7 @@
     "antoonpurnal/clangover",
     "apache/datasketches-postgresql",
     "apnadkarni/tcl-cmark",
+    "apolukhin/pfr_non_boost",
     "apple-oss-distributions/tapi",
     "aqtq314/World.NET",
     "aquaskyline/LRSIM",
@@ -64,6 +65,7 @@
     "btgraham/SparseConvNet",
     "BurntSushi/rust-pcre2",
     "bzotto/rgba_bitmap",
+    "cassioneri/teju_jagua",
     "celikin/llama2.c-android-wrapper",
     "Chlumsky/artery-font-format",
     "chunqian/icecream-c",
@@ -152,6 +154,7 @@
     "Jakuje/virt_cacard",
     "jart/gemma3",
     "jb55/lnsocket",
+    "jcelerier/vintage",
     "jcupitt/libvips",
     "jd-boyd/python-lzo",
     "jeffzhou2000/ggml-hexagon",
@@ -165,6 +168,7 @@
     "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
     "jolibrain/caffe",
     "joto/gdalcpp",
+    "jpcima/string-machine",
     "judofyr/duktape.rb",
     "kagiannis/FPC",
     "kendryte/K230_training_scripts",
@@ -197,6 +201,7 @@
     "marijnheule/drat-trim",
     "Martinsos/opal",
     "mathworks-robotics/mujoco-simulink-blockset",
+    "MC-117/BraneEngineDx",
     "MetaX-MACA/FlashMLA",
     "microsoft/FreeRDP-mirror",
     "microsoft/LinuxTracepoints",

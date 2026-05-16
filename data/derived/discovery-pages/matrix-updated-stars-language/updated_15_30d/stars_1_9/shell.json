@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 40,
-    "observations": 41,
-    "repos": 24,
-    "terms": 40
+    "components": 48,
+    "concepts": 38,
+    "observations": 39,
+    "repos": 21,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "3mdeb/3mdeb-secpack",
-    "agent-sh/glidemq",
     "alvistack/ansible-role-conmon",
     "causely-oss/otel-demo",
     "cdeust/zetetic-team-subagents",
-    "chronosphereio/calyptia-cli",
     "cloudfoundry/wg-app-platform-runtime-ci",
     "conda-forge/fenics-dolfinx-feedstock",
     "conda-forge/nlohmann_json-feedstock",
@@ -30,7 +28,6 @@
     "danielrosehill/Claude-Debugging-Plugin",
     "gazebo-tooling/release-tools",
     "hermit-os/rust-std-hermit",
-    "HKU-BAL/Clair-skills",
     "ihmcrobotics/repository-group",
     "kubernetes-sigs/provider-ibmcloud-test-infra",
     "LedgerHQ/ledger-app-workflows",

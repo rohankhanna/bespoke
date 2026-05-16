@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 383,
-    "concepts": 284,
-    "observations": 284,
-    "repos": 55,
-    "terms": 282
+    "components": 399,
+    "concepts": 316,
+    "observations": 316,
+    "repos": 61,
+    "terms": 314
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "adrg/xdg",
     "andybalholm/brotli",
+    "apache/dubbo-go-pixiu",
     "aws/aws-app-mesh-controller-for-k8s",
     "aws/aws-xray-daemon",
     "aws/credentials-fetcher",
@@ -28,16 +29,20 @@
     "charmbracelet/colorprofile",
     "ChristopherHX/github-act-runner",
     "chromedp/chromedp-proxy",
+    "cloudfoundry/gosigar",
     "cloudwego/kitex-examples",
     "coder/code-marketplace",
     "connectrpc/validate-go",
     "cosmos/iavl",
+    "devgianlu/go-librespot",
     "docker-library/bashbrew",
     "ekalinin/github-markdown-toc.go",
+    "ethereum-optimism/op-geth",
     "ethereum-optimism/superchain-registry",
     "GFW-knocker/Xray-core",
     "go-chi/docgen",
     "go-gl/glow",
+    "go-viper/mapstructure",
     "google/triage-party",
     "google/trillian-examples",
     "gopacket/gopacket",
@@ -54,20 +59,21 @@
     "kubernetes-sigs/cluster-proportional-autoscaler",
     "kubernetes-sigs/hydrophone",
     "kubernetes-sigs/kubetest2",
+    "kubernetes/cri-api",
     "lightninglabs/neutrino",
     "mailru/go-clickhouse",
+    "microsoft/cognitive-services-speech-sdk-go",
     "minio/directpv",
     "minio/highwayhash",
     "notaryproject/notation",
-    "opencontainers/runtime-tools",
     "phuslu/log",
+    "pires/go-proxyproto",
     "prometheus/exporter-toolkit",
     "secretflow/scql",
     "siderolabs/talos-cloud-controller-manager",
     "slsa-framework/slsa-github-generator",
     "stefanlogue/meteor",
     "stretchr/objx",
-    "usbarmory/GoTEE",
-    "withastro/compiler"
+    "usbarmory/GoTEE"
   ]
 }

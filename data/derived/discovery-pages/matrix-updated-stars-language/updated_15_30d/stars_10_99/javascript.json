@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1083,
-    "concepts": 264,
-    "observations": 266,
-    "repos": 68,
-    "terms": 271
+    "components": 1099,
+    "concepts": 267,
+    "observations": 269,
+    "repos": 69,
+    "terms": 274
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
+    "4catalyzer/javascript",
     "AdguardTeam/FiltersCompiler",
     "ahmadnassri/node-glob-promise",
     "alangdm/helium-animated-pages",
@@ -29,7 +30,6 @@
     "erichlof/AntiGravity-Pool",
     "erichlof/PathTracedPong",
     "erichlof/TheSentinel-2nd-Look",
-    "evenchange4/graphql.macro-example",
     "gacts/install-dnscontrol",
     "galaxyproteomics/tools-galaxyp",
     "GuillaumeGomez/browser-UI-test",
@@ -39,10 +39,12 @@
     "i18next/i18next-chained-backend",
     "i18next/i18next-multiload-backend-adapter",
     "i18next/i18next-resources-to-backend",
+    "ideditor/schema-builder",
     "ionide/tree-sitter-fsharp",
     "itsrishika/payment-bypass-bug-lab",
     "j9t/obsohtml",
     "jasmine/jasmine-browser-runner",
+    "julia-actions/cache",
     "kitconcept/volto-light-theme",
     "lm-sys/lm-sys.github.io",
     "locize/i18next-locize-backend",
@@ -75,7 +77,6 @@
     "Taritsyn/DartSassHost",
     "tnc-ca-geo/animl-frontend",
     "tracked-tools/tracked-toolbox",
-    "TrigenSoftware/simple-release-action",
     "ultralytics/llm",
     "web-platform-tests/results-analysis",
     "webtorrent/bittorrent-lsd",

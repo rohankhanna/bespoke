@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 259,
-    "concepts": 171,
-    "observations": 173,
-    "repos": 40,
-    "terms": 171
+    "components": 275,
+    "concepts": 163,
+    "observations": 165,
+    "repos": 42,
+    "terms": 163
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "adumbidiot/lz-str-rs",
     "agentclientprotocol/symposium-acp",
     "alixinne/glsl-lang",
     "antonWetzel/prettypst",
     "Anush008/tokenizers",
-    "apache/casbin-actix-casbin-auth",
-    "apache/casbin-axum-casbin",
     "ashvardanian/NumWars",
     "bencevans/camtrap-detector",
     "bgpkit/bgpkit-broker",
@@ -38,6 +36,8 @@
     "kylebarron/arrow-wasm",
     "lambdaclass/libssz",
     "Layr-Labs/eigensdk-rs",
+    "ldclabs/ic-oss",
+    "ldclabs/ic-tee",
     "libdeflater/libdeflater",
     "messense/py-promql-parser",
     "near/cargo-near",
@@ -51,8 +51,10 @@
     "randombit/botan-rs",
     "rust-lang/josh-sync",
     "sigp/rust-libp2p",
+    "sophus-vision/sophus-rs",
     "synadia-io/orbit.rs",
     "tianrking/weixin-agent-rs",
-    "Vaishnav-Sabari-Girish/Hayasen"
+    "Vaishnav-Sabari-Girish/Hayasen",
+    "Xuanwo/serde-env"
   ]
 }

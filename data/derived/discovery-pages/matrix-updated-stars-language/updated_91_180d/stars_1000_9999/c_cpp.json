@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 233,
-    "concepts": 320,
-    "observations": 320,
-    "repos": 55,
-    "terms": 316
+    "components": 244,
+    "concepts": 327,
+    "observations": 327,
+    "repos": 57,
+    "terms": 323
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "adafruit/Adafruit_NeoPixel",
     "AdAway/AdAway",
@@ -20,6 +20,7 @@
     "asmvik/skhd",
     "attractivechaos/klib",
     "Blosc/c-blosc",
+    "brandur/redis-cell",
     "brianmario/yajl-ruby",
     "bshoshany/thread-pool",
     "cjlin1/liblinear",
@@ -44,6 +45,7 @@
     "jkuhlmann/cgltf",
     "jlblancoc/nanoflann",
     "JoeDog/siege",
+    "kosua20/MIDIVisualizer",
     "libimobiledevice/libimobiledevice",
     "libimobiledevice/usbmuxd",
     "libsndfile/libsndfile",

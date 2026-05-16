@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1986,
-    "concepts": 406,
-    "observations": 406,
-    "repos": 74,
-    "terms": 420
+    "components": 2085,
+    "concepts": 435,
+    "observations": 435,
+    "repos": 82,
+    "terms": 451
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
-    "0no-co/wonka",
     "43081j/picoquery",
     "AbianS/docker-db-manager",
     "actions-cool/issues-helper",
@@ -35,6 +34,7 @@
     "carbon-design-system/carbon-pictograms-svelte",
     "carlrannaberg/claudekit",
     "Charlie85270/Dorothy",
+    "clangd/vscode-clangd",
     "cloydlau/json-editor-vue",
     "connectrpc/connect-query-es",
     "cztomsik/ava",
@@ -48,6 +48,7 @@
     "fastify/demo",
     "filllabs/dependi",
     "google/adk-web",
+    "GoogleCloudPlatform/wombat-dressing-room",
     "graalvm/setup-graalvm",
     "graphql-hive/graphql-eslint",
     "h3js/crossws",
@@ -59,10 +60,14 @@
     "krassowski/jupyterlab-lsp",
     "kylebarron/arrow-js-ffi",
     "latex-lsp/texlab-vscode",
+    "lewislulu/llm-wiki-skill",
     "lobehub/lobe-midjourney-webui",
+    "lucasastorian/llmwiki",
     "mapillary/mapillary-js",
+    "marmelab/FakeRest",
     "matepek/vscode-catch2-test-adapter",
     "MattiasBuelens/web-streams-polyfill",
+    "microsoft/vscode-css-languageservice",
     "microsoft/vscode-debugadapter-node",
     "microsoft/vscode-html-languageservice",
     "microsoft/vscode-json-languageservice",
@@ -77,15 +82,18 @@
     "ruvnet/agentic-flow",
     "shareai-lab/kode-agent-sdk",
     "Siubaak/sval",
+    "snipeship/ccflare",
     "solidjs/templates",
     "storybookjs/test-runner",
     "sudocode-ai/sudocode",
     "testing-library/angular-testing-library",
     "thesayyn/protoc-gen-ts",
+    "timkindberg/jest-when",
     "tracked-tools/tracked-built-ins",
     "typed-ember/glint",
     "vega/vega-embed",
     "vim-denops/denops.vim",
+    "webextension-toolbox/webextension-toolbox",
     "XantreDev/preact-signals",
     "y-lohse/inkjs"
   ]

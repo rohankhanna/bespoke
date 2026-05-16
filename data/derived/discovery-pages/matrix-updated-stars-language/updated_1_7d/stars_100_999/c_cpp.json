@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 5,
-    "terms": 26
+    "components": 37,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 6,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
-    "aburch/simutrans",
+    "atsushieno/aap-core",
+    "celtera/avendish",
     "flagos-ai/FlagCX",
-    "google-deepmind/reverb",
     "kiron1/bazel-compile-commands",
+    "microsoft/MIDI",
     "yoshoku/llama_cpp.rb"
   ]
 }

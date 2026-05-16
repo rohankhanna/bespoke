@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 239,
-    "concepts": 282,
-    "observations": 284,
-    "repos": 31,
-    "terms": 277
+    "components": 128,
+    "concepts": 155,
+    "observations": 157,
+    "repos": 20,
+    "terms": 154
   },
   "facet_version": 1,
   "filters": {
@@ -12,37 +12,26 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "AI-Hypercomputer/maxtext",
     "apify/agent-skills",
     "arcee-ai/mergekit",
     "Breakthrough/PySceneDetect",
-    "eliben/pyelftools",
-    "emissary-ingress/emissary",
-    "fonttools/fonttools",
+    "funstory-ai/BabelDOC",
     "geopandas/geopandas",
     "google-deepmind/dm_control",
     "google-deepmind/sonnet",
-    "h5py/h5py",
     "InternLM/lagent",
+    "lucidrains/vector-quantize-pytorch",
+    "magenta/ddsp",
     "mesonbuild/meson",
     "meta-pytorch/data",
     "mikel-brostrom/boxmot",
-    "NVIDIAGameWorks/kaolin",
-    "omry/omegaconf",
     "PaddlePaddle/FastDeploy",
-    "Project-MONAI/MONAI",
-    "pytest-dev/pytest-asyncio",
     "pytorch/audio",
-    "pytorch/ignite",
-    "pytorch/rl",
-    "pytorch/tensordict",
-    "rasterio/rasterio",
     "starVLA/starVLA",
     "strob/gentle",
-    "TorchIO-project/torchio",
-    "viser-project/viser",
     "vyperlang/vyper",
     "zarr-developers/zarr-python"
   ]

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Python
 
-Generated at: `2026-05-15T07:48:48.712236+00:00`
+Generated at: `2026-05-16T10:28:12.494354+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 79
-- terms: 112
-- components: 163
-- concepts: 112
-- observations: 112
+- repos: 80
+- terms: 115
+- components: 170
+- concepts: 115
+- observations: 115
 
 ## Static behavior
 
@@ -75,6 +75,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zzowenzz/coco_tiny](https://github.com/zzowenzz/COCO_Tiny) | 0 | 2024-05-02T05:23:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [IEI-mjx/Yuan-2.0](https://github.com/IEI-mjx/Yuan-2.0) | 0 | 2024-04-08T12:42:11Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [HReynaud/stylegan-v](https://github.com/HReynaud/stylegan-v) | 0 | 2024-03-20T18:36:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [luoyily/Eel](https://github.com/luoyily/Eel) | 0 | 2024-02-09T10:37:49Z | Python | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [icppWorld/llama2.c](https://github.com/icppWorld/llama2.c) | 0 | 2024-01-12T23:58:12Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [DSaurus/MVDream](https://github.com/DSaurus/MVDream) | 0 | 2023-12-20T06:44:10Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [hashberg-io/multiformats-config](https://github.com/hashberg-io/multiformats-config) | 0 | 2023-12-18T21:34:33Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
@@ -159,6 +160,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zzowenzz/coco_tiny](https://github.com/zzowenzz/COCO_Tiny) | 0 | 2024-05-02T05:23:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [IEI-mjx/Yuan-2.0](https://github.com/IEI-mjx/Yuan-2.0) | 0 | 2024-04-08T12:42:11Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [HReynaud/stylegan-v](https://github.com/HReynaud/stylegan-v) | 0 | 2024-03-20T18:36:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [luoyily/Eel](https://github.com/luoyily/Eel) | 0 | 2024-02-09T10:37:49Z | Python | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [icppWorld/llama2.c](https://github.com/icppWorld/llama2.c) | 0 | 2024-01-12T23:58:12Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [DSaurus/MVDream](https://github.com/DSaurus/MVDream) | 0 | 2023-12-20T06:44:10Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [hashberg-io/multiformats-config](https://github.com/hashberg-io/multiformats-config) | 0 | 2023-12-18T21:34:33Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |

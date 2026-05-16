@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-15T07:48:48.712236+00:00`
+Generated at: `2026-05-16T10:28:12.494354+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 5
-- terms: 60
-- components: 252
-- concepts: 60
-- observations: 61
+- repos: 4
+- terms: 29
+- components: 102
+- concepts: 29
+- observations: 30
 
 ## Static behavior
 
@@ -26,18 +26,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [endojs/endo](https://github.com/endojs/endo) | 1021 | 2026-05-15T03:47:49Z | JavaScript | Infrastructure/tooling | 17 | 50 | 17 | 17 |
-| [module-federation/core](https://github.com/module-federation/core) | 2522 | 2026-05-15T03:12:08Z | JavaScript | Infrastructure/tooling | 13 | 159 | 13 | 13 |
-| [googleapis/google-cloud-node](https://github.com/googleapis/google-cloud-node) | 3157 | 2026-05-15T01:37:26Z | JavaScript | CLI | 11 | 20 | 11 | 12 |
-| [sveltejs/devalue](https://github.com/sveltejs/devalue) | 2734 | 2026-05-14T18:47:01Z | JavaScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
-| [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 5320 | 2026-05-14T15:24:42Z | JavaScript | Infrastructure/tooling | 18 | 9 | 18 | 18 |
+| [endojs/endo](https://github.com/endojs/endo) | 1022 | 2026-05-16T10:06:43Z | JavaScript | Infrastructure/tooling | 17 | 50 | 17 | 17 |
+| [googleapis/google-cloud-node](https://github.com/googleapis/google-cloud-node) | 3159 | 2026-05-15T22:32:38Z | JavaScript | CLI | 11 | 20 | 11 | 12 |
+| [apollographql/eslint-plugin-graphql](https://github.com/apollographql/eslint-plugin-graphql) | 1216 | 2026-05-15T16:57:14Z | JavaScript | Infrastructure/tooling | 1 | 18 | 1 | 1 |
+| [paralleldrive/cuid](https://github.com/paralleldrive/cuid) | 3508 | 2026-05-15T16:29:09Z | JavaScript | Web app | 0 | 14 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 5320 | 2026-05-14T15:24:42Z | JavaScript | Infrastructure/tooling | 18 | 9 | 18 | 18 |
-| [googleapis/google-cloud-node](https://github.com/googleapis/google-cloud-node) | 3157 | 2026-05-15T01:37:26Z | JavaScript | CLI | 11 | 20 | 11 | 12 |
-| [sveltejs/devalue](https://github.com/sveltejs/devalue) | 2734 | 2026-05-14T18:47:01Z | JavaScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
-| [module-federation/core](https://github.com/module-federation/core) | 2522 | 2026-05-15T03:12:08Z | JavaScript | Infrastructure/tooling | 13 | 159 | 13 | 13 |
-| [endojs/endo](https://github.com/endojs/endo) | 1021 | 2026-05-15T03:47:49Z | JavaScript | Infrastructure/tooling | 17 | 50 | 17 | 17 |
+| [paralleldrive/cuid](https://github.com/paralleldrive/cuid) | 3508 | 2026-05-15T16:29:09Z | JavaScript | Web app | 0 | 14 | 0 | 0 |
+| [googleapis/google-cloud-node](https://github.com/googleapis/google-cloud-node) | 3159 | 2026-05-15T22:32:38Z | JavaScript | CLI | 11 | 20 | 11 | 12 |
+| [apollographql/eslint-plugin-graphql](https://github.com/apollographql/eslint-plugin-graphql) | 1216 | 2026-05-15T16:57:14Z | JavaScript | Infrastructure/tooling | 1 | 18 | 1 | 1 |
+| [endojs/endo](https://github.com/endojs/endo) | 1022 | 2026-05-16T10:06:43Z | JavaScript | Infrastructure/tooling | 17 | 50 | 17 | 17 |

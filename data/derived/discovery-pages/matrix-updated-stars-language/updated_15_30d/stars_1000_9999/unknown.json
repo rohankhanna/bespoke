@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 60,
-    "concepts": 114,
-    "observations": 114,
+    "components": 53,
+    "concepts": 160,
+    "observations": 160,
     "repos": 30,
-    "terms": 114
+    "terms": 160
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
     "ad-si/awesome-music-production",
     "alchaincyf/zhangxuefeng-skill",
     "android/skills",
     "aws-controllers-k8s/community",
-    "bbatsov/clojure-style-guide",
     "CocoaPods/Specs",
     "CVEProject/cvelistV5",
     "dotnet/docs",
@@ -29,7 +28,7 @@
     "github/rest-api-description",
     "godotengine/awesome-godot",
     "GyanD/codexffmpeg",
-    "libp2p/specs",
+    "hxehex/russia-mobile-internet-whitelist",
     "logseq/awesome-logseq",
     "mapbox/awesome-vector-tiles",
     "meituan-longcat/LongCat-Flash-Chat",
@@ -42,7 +41,8 @@
     "rust-embedded/wg",
     "rustsec/advisory-db",
     "shuaibiyy/awesome-tf",
-    "tmstack/awesome-persona-skills",
-    "web-padawan/awesome-lit"
+    "web-padawan/awesome-lit",
+    "yokoffing/filterlists",
+    "yokoffing/NextDNS-Config"
   ]
 }

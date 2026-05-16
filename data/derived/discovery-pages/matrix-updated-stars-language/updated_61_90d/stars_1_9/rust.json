@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 9,
-    "terms": 15
+    "components": 60,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 10,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "a16z/arkworks-algebra",
     "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
@@ -20,6 +20,7 @@
     "marxin/mdbook-linkcheck2",
     "near/near-abi-client-rs",
     "near/near-abi-rs",
+    "openobserve/vector",
     "paolodamico/ruint-uniffi",
     "sigp/quick-protobuf",
     "vectordotdev/heim"

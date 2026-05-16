@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 33257,
-    "concepts": 15106,
-    "observations": 15162,
-    "repos": 1704,
-    "terms": 15059
+    "components": 33271,
+    "concepts": 15123,
+    "observations": 15179,
+    "repos": 1708,
+    "terms": 15085
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -793,6 +793,7 @@
     "jaegertracing/jaeger",
     "JaidedAI/EasyOCR",
     "JakeChampion/fetch",
+    "JamesNK/Newtonsoft.Json",
     "jamiebuilds/babel-handbook",
     "janhq/jan",
     "janl/mustache.js",
@@ -1190,6 +1191,7 @@
     "openai/openai-cookbook",
     "openai/openai-node",
     "openai/openai-python",
+    "openai/shap-e",
     "openai/spinningup",
     "openai/swarm",
     "openai/tiktoken",
@@ -1399,6 +1401,7 @@
     "rust-lang/rust-clippy",
     "RustPython/RustPython",
     "ruvnet/ruflo",
+    "RVC-Boss/GPT-SoVITS",
     "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
     "rwaldron/idiomatic.js",
     "ryanmcdermott/clean-code-javascript",
@@ -1524,6 +1527,7 @@
     "sympy/sympy",
     "syncthing/syncthing",
     "systemd/systemd",
+    "SYSTRAN/faster-whisper",
     "TA-Lib/ta-lib-python",
     "TabbyML/tabby",
     "tachyons-css/tachyons",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 362,
-    "concepts": 699,
-    "observations": 700,
-    "repos": 152,
-    "terms": 686
+    "components": 366,
+    "concepts": 703,
+    "observations": 704,
+    "repos": 153,
+    "terms": 694
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
+    "ace-step/ACE-Step",
     "AIDC-AI/Marco-o1",
     "AIDC-AI/Ovis",
     "AILab-CVC/VideoCrafter",
@@ -138,8 +139,8 @@
     "pyusb/pyusb",
     "QwenLM/Qwen-Image",
     "remsky/Kokoro-FastAPI",
-    "RUC-NLPIR/Search-o1",
     "RUC-NLPIR/WebThinker",
+    "shibing624/text2vec",
     "ShichenLiu/SoftRas",
     "simonw/claude-code-transcripts",
     "simonw/sqlite-utils",

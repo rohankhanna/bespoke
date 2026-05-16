@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3750,
-    "concepts": 660,
-    "observations": 663,
+    "components": 3801,
+    "concepts": 672,
+    "observations": 675,
     "repos": 78,
-    "terms": 655
+    "terms": 667
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
+    "11ty/eleventy",
     "acornjs/acorn",
-    "ai/nanoid",
+    "addyosmani/critical",
     "ajaxorg/ace",
     "ampproject/amphtml",
     "arkenfox/user.js",
@@ -33,13 +34,13 @@
     "electron/minimal-repro",
     "expressjs/express",
     "facebook/hermes",
+    "faisalman/ua-parser-js",
     "fastify/fastify",
     "gatsbyjs/gatsby",
     "google/zx",
     "GoogleChrome/lighthouse",
     "graphql/graphql-spec",
     "handlebars-lang/handlebars.js",
-    "http-party/http-server",
     "http-party/node-http-proxy",
     "huggingface/transformers.js",
     "iamkun/dayjs",
@@ -47,7 +48,6 @@
     "jarrodwatts/claude-hud",
     "jashkenas/backbone",
     "jasmine/jasmine",
-    "josdejong/jsoneditor",
     "josdejong/mathjs",
     "jquery/jquery",
     "jsdoc/jsdoc",
@@ -80,6 +80,7 @@
     "SillyTavern/SillyTavern",
     "simple-icons/simple-icons",
     "stylelint/stylelint",
+    "sveltejs/svelte",
     "svg/svgo",
     "swagger-api/swagger-ui",
     "Unitech/pm2",
@@ -88,7 +89,6 @@
     "vercel-labs/agent-skills",
     "webpack/webpack",
     "webtorrent/webtorrent",
-    "welldone-software/why-did-you-render",
     "wix/Detox",
     "yarnpkg/yarn",
     "zloirock/core-js"

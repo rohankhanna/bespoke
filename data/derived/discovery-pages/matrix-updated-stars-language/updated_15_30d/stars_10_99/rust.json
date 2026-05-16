@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 645,
-    "concepts": 396,
-    "observations": 396,
-    "repos": 92,
-    "terms": 410
+    "components": 667,
+    "concepts": 417,
+    "observations": 417,
+    "repos": 93,
+    "terms": 430
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -33,6 +33,7 @@
     "bitcoindevkit/rust-electrum-client",
     "bnb-chain/reth",
     "bnb-chain/reth-bsc",
+    "boozook/mdbook-svgbob",
     "boundless-xyz/kailua",
     "boundless-xyz/steel",
     "bourumir-wyngs/serde-yaml-bw",
@@ -62,6 +63,9 @@
     "hermit-os/loader",
     "heroku/buildpacks-dotnet",
     "heroku/buildpacks-go",
+    "heroku/buildpacks-jvm",
+    "heroku/buildpacks-nodejs",
+    "heroku/buildpacks-python",
     "heroku/libcnb.rs",
     "holochain/holochain-serialization",
     "holochain/holochain-wasmer",
@@ -71,11 +75,10 @@
     "launchdarkly/rust-server-sdk",
     "ldclabs/anda-db",
     "ldclabs/anda-hippocampus",
-    "ldclabs/ic-oss",
-    "ldclabs/ic-tee",
     "major7apps/pensyve",
     "martinthomson/ohttp",
     "matter-labs/zksync-crypto",
+    "mdn/rari",
     "mpizenberg/elm-test-rs",
     "mrcjkb/vimcats",
     "multiformats/rust-cid",
@@ -90,7 +93,6 @@
     "rozbb/rust-hpke",
     "rust-bitcoin/corepc",
     "rust-osdev/ovmf-prebuilt",
-    "sophus-vision/sophus-rs",
     "Sovereign-Labs/rollup-starter",
     "succinctlabs/network",
     "succinctlabs/sp1-cluster",
@@ -104,7 +106,6 @@
     "urschrei/rdp",
     "watchexec/clearscreen",
     "watchexec/process-wrap",
-    "Xuanwo/serde-env",
     "zcash/pasta_curves"
   ]
 }

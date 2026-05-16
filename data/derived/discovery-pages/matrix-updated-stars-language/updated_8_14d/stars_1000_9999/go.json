@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 196,
-    "concepts": 229,
-    "observations": 229,
-    "repos": 20,
-    "terms": 228
+    "components": 118,
+    "concepts": 152,
+    "observations": 152,
+    "repos": 13,
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
@@ -12,27 +12,20 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
+    "bazel-contrib/bazel-gazelle",
     "cosmos/cosmos-sdk",
     "crazy-max/diun",
     "elastic/cloud-on-k8s",
     "erigontech/erigon",
     "go-git/go-git",
     "go-ini/ini",
-    "gookit/color",
     "gookit/goutil",
     "gookit/validate",
     "kubeovn/kube-ovn",
     "letsencrypt/boulder",
     "Loyalsoldier/geoip",
-    "miekg/dns",
-    "NVIDIA/k8s-device-plugin",
-    "open-telemetry/opentelemetry-operator",
-    "pion/example-webrtc-applications",
-    "supabase/cli",
-    "umputun/remark42",
-    "vale-cli/vale",
-    "XTLS/REALITY"
+    "open-telemetry/opentelemetry-operator"
   ]
 }

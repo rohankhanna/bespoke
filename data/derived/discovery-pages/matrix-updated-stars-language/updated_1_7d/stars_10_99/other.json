@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 80,
-    "observations": 80,
-    "repos": 14,
-    "terms": 80
+    "components": 113,
+    "concepts": 72,
+    "observations": 72,
+    "repos": 12,
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
-    "abap2UI5-addons/sql-console",
-    "Cle2ment/CherryStudio_themes",
+    "browniebroke/pypackage-template",
+    "cginternals/cpplocate",
     "dwyl/mvp",
+    "FreneticLLC/FreneticGameEngine",
     "geocompx/docker",
-    "jelly-beam/rebar3_ex_doc",
     "karafka/example-apps",
     "nvim-mini/mini.deps",
-    "ocaml-tracing/ocaml-opentelemetry",
-    "ocaml-tracing/ocaml-trace",
+    "pivotal/credhub-release",
     "processing/processing-website",
     "rcasia/neotest-java",
-    "TEN-framework/portal",
     "tinted-theming/tinted-xresources",
     "UnknownPlatypus/djangofmt"
   ]

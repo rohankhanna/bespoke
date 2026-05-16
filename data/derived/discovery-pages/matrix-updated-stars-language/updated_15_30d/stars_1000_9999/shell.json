@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 184,
-    "concepts": 273,
-    "observations": 275,
-    "repos": 40,
-    "terms": 264
+    "components": 203,
+    "concepts": 299,
+    "observations": 301,
+    "repos": 42,
+    "terms": 292
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "aaron-he-zhu/seo-geo-claude-skills",
     "alrra/dotfiles",
@@ -22,7 +22,6 @@
     "aurutils/aurutils",
     "bblanchon/pdfium-binaries",
     "bioconda/bioconda-recipes",
-    "bluesky-social/pds",
     "Botspot/pi-apps",
     "clangd/clangd",
     "conda-forge/miniforge",
@@ -40,7 +39,10 @@
     "git-quick-stats/git-quick-stats",
     "google/adk-docs",
     "GrapheneOS/Vanadium",
+    "heroku/heroku-buildpack-nodejs",
+    "holman/dotfiles",
     "home-assistant/addons",
+    "jkroepke/helm-secrets",
     "mlocati/docker-php-extension-installer",
     "msys2/MINGW-packages",
     "nix-community/nix-direnv",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 319,
-    "concepts": 61,
-    "observations": 62,
-    "repos": 18,
-    "terms": 60
+    "components": 329,
+    "concepts": 65,
+    "observations": 66,
+    "repos": 20,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "adobe-photoshop/generator-core",
     "appbaseio/searchbox",
@@ -20,6 +20,7 @@
     "AssemblyScript/wabt.js",
     "cmake-js/cmake-js",
     "codota/tabnine-nvim",
+    "executablebooks/sphinx-copybutton",
     "faceyspacey/extract-css-chunks-webpack-plugin",
     "faceyspacey/universal-demo",
     "kepano/defuddle-cli",
@@ -30,6 +31,7 @@
     "React9k/react-timeline-9000",
     "RichardLitt/generator-standard-readme",
     "sindresorhus/multimatch",
+    "TeamMoeAI/MoeSR",
     "thejoshwolfe/yazl",
     "usnistgov/jsfive"
   ]

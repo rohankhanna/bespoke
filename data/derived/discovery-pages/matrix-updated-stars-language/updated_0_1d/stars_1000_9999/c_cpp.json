@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 34,
-    "concepts": 55,
-    "observations": 55,
+    "components": 68,
+    "concepts": 65,
+    "observations": 65,
     "repos": 6,
-    "terms": 55
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
-    "AdaptiveCpp/AdaptiveCpp",
-    "KhronosGroup/KTX-Software",
+    "free-audio/clap",
+    "iree-org/iree",
     "libbitcoin/libbitcoin-system",
-    "Mithril-mine/libmdbx",
-    "swiftlang/swift-llbuild",
-    "TrenchBroom/TrenchBroom"
+    "luau-lang/luau",
+    "ultrajson/ultrajson",
+    "uxlfoundation/oneDNN"
   ]
 }

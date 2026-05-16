@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 541,
-    "concepts": 118,
-    "observations": 120,
-    "repos": 6,
-    "terms": 127
+    "components": 588,
+    "concepts": 140,
+    "observations": 142,
+    "repos": 8,
+    "terms": 149
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
-    "ChatGPTNextWeb/NextChat",
+    "fastapi/full-stack-fastapi-template",
     "HumanSignal/label-studio",
+    "jestjs/jest",
+    "langchain-ai/langchainjs",
     "lobehub/lobehub",
     "ruvnet/ruflo",
     "storybookjs/storybook",

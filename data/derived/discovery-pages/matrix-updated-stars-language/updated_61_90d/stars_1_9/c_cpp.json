@@ -3,7 +3,7 @@
     "components": 19,
     "concepts": 16,
     "observations": 16,
-    "repos": 9,
+    "repos": 8,
     "terms": 16
   },
   "facet_version": 1,
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "AchimPieters/esp32-udp-logger",
     "ankane/torchcodec-ruby",
     "arran4/lemmy_notify",
     "CROSS-signature/CROSS-lib-oqs",
-    "DavidKinder/Libraries",
     "intel/iefs-kernel-updates",
     "yamachu/VoicevoxCoreSwift",
     "ylsdamxssjxxdd/nerv",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 62538,
-    "concepts": 10845,
-    "observations": 10880,
-    "repos": 1908,
-    "terms": 11143
+    "components": 62595,
+    "concepts": 10866,
+    "observations": 10901,
+    "repos": 1911,
+    "terms": 11168
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "06ketan/slideshot",
@@ -1212,6 +1212,7 @@
     "microsoft/vscode-python",
     "microsoft/vscode-references-view",
     "mightyiam/eslint-config-love",
+    "mike-lischke/antlr4ng",
     "milhidaka/webgpu-blas",
     "milvus-io/milvus-sdk-node",
     "MiniMax-AI/cli",
@@ -1362,6 +1363,7 @@
     "omnara-ai/omnara",
     "omril321/automated-notebooklm",
     "onecli/onecli",
+    "onlxltd/bonjour-service",
     "onomojo/i18n-country-translations-js",
     "onomojo/i18n-timezones-js",
     "op7418/codepilot",
@@ -1644,6 +1646,7 @@
     "stainless-api/tsc-multi",
     "standard-schema/standard-schema",
     "standard/eslint-config-standard",
+    "starfishmod/bonjour-service",
     "startupdevhouse/typescript-functional-extensions-nestjs",
     "statoscope/statoscope",
     "steadycursor/steadystart",

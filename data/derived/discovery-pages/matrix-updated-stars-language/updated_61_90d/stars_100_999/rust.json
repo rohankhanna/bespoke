@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 184,
-    "concepts": 121,
-    "observations": 121,
-    "repos": 30,
-    "terms": 120
+    "components": 196,
+    "concepts": 128,
+    "observations": 128,
+    "repos": 33,
+    "terms": 127
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "Ai00-X/ai00_server",
     "arkworks-rs/r1cs-std",
@@ -31,17 +31,20 @@
     "Kampfkarren/selene",
     "KyleMayes/clang-rs",
     "KyleMayes/clang-sys",
+    "LukasKalbertodt/libtest-mimic",
     "matsadler/magnus",
     "mozilla/dump_syms",
     "pdf-rs/pdf_render",
     "prisma/tiberius",
     "rust-native-tls/rust-native-tls",
     "rust3ds/ctru-rs",
+    "servo/rust-cssparser",
     "smol-rs/async-executor",
     "SunDoge/simdjson-rust",
     "typst/comemo",
     "typstyle-rs/typstyle",
     "unicode-rs/unicode-width",
+    "YaLTeR/wl-clipboard-rs",
     "zkcrypto/bls12_381",
     "zkcrypto/jubjub"
   ]

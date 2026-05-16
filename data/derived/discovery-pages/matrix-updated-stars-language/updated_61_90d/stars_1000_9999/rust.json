@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 178,
-    "concepts": 103,
-    "observations": 103,
-    "repos": 21,
-    "terms": 102
+    "components": 165,
+    "concepts": 101,
+    "observations": 102,
+    "repos": 19,
+    "terms": 100
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,21 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "a16z/helios",
     "allan2/dotenvy",
     "brendanzab/codespan",
     "Byron/dua-cli",
-    "Byron/google-apis-rs",
     "crossbeam-rs/crossbeam",
     "dtolnay/proc-macro-workshop",
     "fschutt/printpdf",
+    "google/argh",
     "haleclipse/ccometixline",
     "ImageOptim/gifski",
     "parcel-bundler/lightningcss",
     "pdf-rs/pdf",
-    "rojo-rbx/rojo",
     "rust-lang/regex",
-    "sharkdp/diskus",
     "simd-lite/simd-json",
     "Stebalien/tempfile",
     "tokio-rs/loom",

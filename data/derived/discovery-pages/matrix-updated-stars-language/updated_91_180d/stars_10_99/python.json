@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 184,
-    "concepts": 221,
-    "observations": 222,
-    "repos": 90,
-    "terms": 229
+    "concepts": 224,
+    "observations": 225,
+    "repos": 93,
+    "terms": 232
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "aba122/Q-Hawkeye",
@@ -20,6 +20,7 @@
     "Alexandre-Delplanque/HerdNet",
     "alexmojaki/pure_eval",
     "alexmojaki/stack_data",
+    "AlonzoLeeeooo/LCDG",
     "amaranth-lang/amaranth-stdio",
     "AnonymouX47/termvisage",
     "antgroup/DeepXTrace",
@@ -98,10 +99,12 @@
     "thunlp/BlockFFN",
     "tinted-theming/base24",
     "TransferQueue/TransferQueue",
+    "TungChintao/SkiLa",
     "vis-nlp/ChartQAPro",
     "vllm-project/vllm-openvino",
     "vstinner/misc",
     "xplpc/xplpc",
+    "xuanyuzhang21/RALI",
     "zheng977/MutiAgent4Fraud",
     "zlib-ng/deflatebench"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2146,
-    "concepts": 2920,
-    "observations": 2927,
-    "repos": 928,
-    "terms": 2903
+    "components": 2174,
+    "concepts": 2936,
+    "observations": 2943,
+    "repos": 936,
+    "terms": 2922
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -51,6 +51,7 @@
     "AlexWebLab/bootstrap-5-wordpress-navbar-walker",
     "alfert/propcheck",
     "AliaksandrSiarohin/motion-cosegmentation",
+    "alibaba-damo-academy/PixelRefer",
     "AliFlux/VectorTileRenderer",
     "allenai/pdffigures2",
     "Alloyed/lua-lsp",
@@ -182,6 +183,7 @@
     "carla-simulator/carla-autoware",
     "CarlVerret/csFastFloat",
     "carrierwaveuploader/carrierwave-mongoid",
+    "cassiebreviu/StableDiffusion",
     "castorini/pygaggle",
     "catppuccin/vim",
     "cbaggers/varjo",
@@ -335,6 +337,7 @@
     "facebookresearch/open-eqa",
     "facebookresearch/playtorch",
     "facebookresearch/SWAG",
+    "falahati/LiteDBViewer",
     "Fanael/edit-indirect",
     "Fanael/rainbow-delimiters",
     "Fang-Haoshu/Halpe-FullBody",
@@ -355,6 +358,7 @@
     "Gabriella439/bench",
     "gcalderone/Gnuplot.jl",
     "gcmt/taboo.vim",
+    "geekodour/wscribe-editor",
     "generalized-iou/g-darknet",
     "genome-in-a-bottle/giab_data_indexes",
     "geomagical/lama-with-refiner",
@@ -642,6 +646,7 @@
     "nak1114/rbenv-win",
     "natebosch/vim-lsc",
     "nathom/filetype.nvim",
+    "nativelibs4java/nativelibs4java",
     "naver-ai/DenseDiffusion",
     "net2cn/Real-ESRGAN_GUI",
     "Netflix/PigPen",
@@ -695,6 +700,7 @@
     "openhackathons-org/gpubootcamp",
     "opentracing/opentracing.io",
     "OpenVisualCloud/Dockerfiles",
+    "openvpi/vocoders",
     "OptimalScale/DetGPT",
     "OrleansContrib/OrleansDashboard",
     "oskarnp/odin-tracy",
@@ -731,6 +737,7 @@
     "quil/quil-examples",
     "quinnj/JSON3.jl",
     "r-lib/rcmdcheck",
+    "r-lib/remotes",
     "r9y9/pyopenjtalk",
     "rails/coffee-rails",
     "rails/cssbundling-rails",
@@ -847,6 +854,7 @@
     "Tengfei-Wang/HFGI",
     "teticio/audio-diffusion",
     "teticio/Deej-AI",
+    "tfernd/HyperTile",
     "tgxs002/HPSv2",
     "thedatumorg/TSB-UAD",
     "TheDenk/cogvideox-controlnet",

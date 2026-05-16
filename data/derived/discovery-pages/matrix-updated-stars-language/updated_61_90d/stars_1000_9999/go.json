@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 87,
-    "observations": 87,
-    "repos": 23,
-    "terms": 87
+    "components": 95,
+    "concepts": 106,
+    "observations": 106,
+    "repos": 27,
+    "terms": 105
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "abh/geodns",
+    "bytedance/gopkg",
+    "charmbracelet/glamour",
+    "CloudyKit/jet",
     "coder/websocket",
     "dagger/container-use",
     "dghubble/sling",
@@ -33,6 +36,7 @@
     "mozillazg/go-pinyin",
     "OffchainLabs/arbitrum-classic",
     "opencontainers/image-spec",
+    "opencontainers/runtime-spec",
     "refraction-networking/utls",
     "spf13/pflag",
     "tidwall/btree",

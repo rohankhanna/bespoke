@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 734,
-    "concepts": 304,
-    "observations": 304,
-    "repos": 222,
-    "terms": 333
+    "components": 756,
+    "concepts": 298,
+    "observations": 298,
+    "repos": 221,
+    "terms": 327
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "8144225309/superscalar-cln",
@@ -24,6 +24,7 @@
     "aipurposes1587-max/weixin-agent-rs",
     "alexcrichton/cc-rs",
     "Amtrend/ssh-manager",
+    "angular/angular-build-builds",
     "arckoor/jsonwebtoken",
     "arnaud-lb/php-rdkafka",
     "arnaud-lb/php-rdkafka-doc",
@@ -153,7 +154,6 @@
     "DataDog/vault",
     "datafuse-extras/orc-rust",
     "DeepWok/mase-docker",
-    "dubbo-go-pixiu/dubbo-go-pixiu",
     "Dustinpro/Dustinpro",
     "edward3h/bedrock-viz-from-backups",
     "fabon-f/temporal-polyfill-comparison",
@@ -174,9 +174,7 @@
     "hermit-os/.github",
     "hmellor/vllm",
     "HumanSignal/label-studio-client-generator",
-    "hyper-mcp-rs/arxiv-plugin",
     "hyper-mcp-rs/context7-plugin",
-    "hyper-mcp-rs/crates-io-plugin",
     "hyper-mcp-rs/crypto-price-plugin",
     "hyper-mcp-rs/defuddle-plugin",
     "i18next/i18next-subliminal",
@@ -217,6 +215,7 @@
     "roampal-ai/roampal-labs",
     "robertabao/grok-nvim",
     "saidudz/chat-ai",
+    "seanmacavaney/ir-datasets.com",
     "shoggo-ai/seniorvigil",
     "shouted-numberone752/wechat-agent-connector",
     "shubishere/ai-drawio",

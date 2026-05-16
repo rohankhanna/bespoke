@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 239,
+    "components": 238,
     "concepts": 131,
     "observations": 131,
     "repos": 55,
@@ -12,18 +12,17 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
     "andriykohut/pdm-readiness",
-    "apptainer/apptainer-admindocs",
-    "apptainer/apptainer-userdocs",
     "arielagor/jetbrains-mono-hebrew",
     "astral-sh/versions",
     "astropy/repo_stats",
     "atlanhq/atlan-sample-apps",
     "audeering/audonnx",
+    "Azure-Samples/langchain-agent-python",
     "beneadie/DeepDog_1",
     "bryanh9111/engram",
     "caesar0301/soothe",
@@ -40,6 +39,7 @@
     "etanhey/brainlayer",
     "flagos-ai/Megatron-LM-FL",
     "flagos-ai/TransformerEngine-FL",
+    "flexcyon/docs-en",
     "floxym/financial-chat",
     "frank-syncmarket/skills",
     "gibdd-dps/prizolov-agent-os",

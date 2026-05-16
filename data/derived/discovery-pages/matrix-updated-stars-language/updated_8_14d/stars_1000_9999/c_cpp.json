@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 496,
-    "concepts": 363,
-    "observations": 364,
-    "repos": 42,
-    "terms": 361
+    "components": 292,
+    "concepts": 196,
+    "observations": 197,
+    "repos": 24,
+    "terms": 195
   },
   "facet_version": 1,
   "filters": {
@@ -12,49 +12,31 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "Andersbakken/rtags",
-    "arkime/arkime",
-    "async-profiler/async-profiler",
-    "aws/aws-sdk-cpp",
     "brave/brave-core",
-    "cdcseacave/openMVS",
-    "chromiumembedded/cef",
     "cisco/libsrtp",
     "dmlc/dlpack",
-    "doxygen/doxygen",
-    "DrTimothyAldenDavis/SuiteSparse",
-    "facebook/mvfst",
     "facebookincubator/katran",
     "fnc12/sqlite_orm",
-    "gazebosim/gz-sim",
     "gpac/gpac",
     "GStreamer/gstreamer",
-    "heiher/hev-socks5-tunnel",
-    "KhronosGroup/Vulkan-Hpp",
     "KratosMultiphysics/Kratos",
     "libcpr/cpr",
     "libfuse/libfuse",
-    "luben/zstd-jni",
     "mstorsjo/llvm-mingw",
     "NVIDIA/DALI",
     "OSGeo/gdal",
     "PoseLib/PoseLib",
-    "RainerKuemmerle/g2o",
     "realsenseai/librealsense",
     "riscv-collab/riscv-gnu-toolchain",
-    "RobotLocomotion/drake",
     "skeeto/w64devkit",
     "sorbet/sorbet",
     "stack-of-tasks/pinocchio",
     "swiftlang/swift-corelibs-foundation",
-    "Themaister/Granite",
-    "unicode-org/icu",
     "universal-ctags/ctags",
     "uxlfoundation/oneTBB",
-    "vincentlaucsb/csv-parser",
-    "xtensor-stack/xsimd",
-    "zeux/volk"
+    "vincentlaucsb/csv-parser"
   ]
 }

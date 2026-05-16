@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4661,
+    "components": 4665,
     "concepts": 1052,
     "observations": 1052,
-    "repos": 370,
-    "terms": 1040
+    "repos": 372,
+    "terms": 1041
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "2createStudio/postcss-sprites",
@@ -167,6 +167,7 @@
     "frinyvonnick/gitmoji-changelog",
     "FrLars21/ZoteroCitationCountsManager",
     "fsbahman/apidoc-swagger",
+    "g200kg/webaudio-controls",
     "gajus/babel-plugin-graphql-tag",
     "gajus/write-file-webpack-plugin",
     "getndazn/dazn-lambda-powertools",
@@ -242,6 +243,7 @@
     "lit/lit-element-starter-js",
     "loganfsmyth/babel-plugin-transform-decorators-legacy",
     "madbence/node-drawille-canvas",
+    "mafintosh/multicast-dns",
     "mafintosh/protocol-buffers",
     "mapbox/carto",
     "mapbox/concaveman",

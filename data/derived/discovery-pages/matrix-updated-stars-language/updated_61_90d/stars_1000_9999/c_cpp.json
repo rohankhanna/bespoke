@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 142,
-    "concepts": 223,
-    "observations": 224,
-    "repos": 45,
-    "terms": 216
+    "components": 140,
+    "concepts": 242,
+    "observations": 243,
+    "repos": 46,
+    "terms": 235
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
     "akheron/jansson",
     "Alex313031/thorium",
+    "AlibabaResearch/AdvancedLiterateMachinery",
     "arrayfire/arrayfire",
     "bblanchon/ArduinoJson",
-    "brandur/redis-cell",
     "Chlumsky/msdf-atlas-gen",
     "Chlumsky/msdfgen",
     "coin-or/Ipopt",
+    "duckdb/pg_duckdb",
     "eclipse-paho/paho.mqtt.c",
     "eradman/entr",
     "facebookresearch/habitat-sim",

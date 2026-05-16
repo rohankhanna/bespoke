@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 692,
-    "concepts": 161,
-    "observations": 162,
-    "repos": 27,
-    "terms": 162
+    "components": 698,
+    "concepts": 154,
+    "observations": 155,
+    "repos": 28,
+    "terms": 155
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "actions/checkout",
     "antfu/drauu",
@@ -23,7 +23,6 @@
     "google/gts",
     "googleapis/google-auth-library-nodejs",
     "improbable-eng/ts-protoc-gen",
-    "kentcdodds/cross-env",
     "labring/laf",
     "lokerl/tts-vue",
     "metatool-ai/metamcp",
@@ -35,8 +34,10 @@
     "PaulLeCam/react-leaflet",
     "ricky0123/vad",
     "styleguidist/react-docgen-typescript",
+    "supermacro/neverthrow",
     "tancredi/fantasticon",
     "toddbluhm/env-cmd",
+    "tsconfig/bases",
     "unplugin/unplugin-auto-import",
     "unplugin/unplugin-icons",
     "vercel/ms",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 391,
-    "concepts": 297,
-    "observations": 298,
-    "repos": 118,
-    "terms": 296
+    "components": 389,
+    "concepts": 298,
+    "observations": 299,
+    "repos": 119,
+    "terms": 297
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/tdo.nvim",
@@ -23,6 +23,7 @@
     "abapGit/ADT_Backend",
     "AdaCore/gnatcoll-bindings",
     "adobe-type-tools/aots",
+    "adospace/litedbpad",
     "ahrvoje/numerics",
     "ahumenberger/Z3.jl",
     "aki-0929/PaddleOCRJson.NET",
@@ -36,7 +37,6 @@
     "auto-complete/fuzzy-el",
     "ayrat555/cargo-mode",
     "bhftbootcamp/YYJSON.jl",
-    "bitbeans/minisign-net",
     "bwya77/obsidian-baseline-customization",
     "chakravala/DirectSum.jl",
     "cjohansen/m1p",
@@ -59,6 +59,7 @@
     "falcoframework/Falco.OpenApi",
     "FFTAI/Wiki-GRx-Gym",
     "formigarafa/zxcvbn-rb",
+    "FreneticLLC/FreneticUtilities",
     "friemen/diffit",
     "getgrav/grav-theme-learn2",
     "getumbrel/umbrel-lightning",

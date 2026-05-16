@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 178,
-    "concepts": 175,
-    "observations": 175,
-    "repos": 38,
-    "terms": 173
+    "components": 192,
+    "concepts": 185,
+    "observations": 185,
+    "repos": 40,
+    "terms": 183
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "ada-url/ada-python",
     "ada-url/goada",
@@ -25,10 +25,10 @@
     "bartp5/libtexprintf",
     "BirolLab/arcs",
     "chusitoo/flatbush",
-    "cisco/libacvp",
     "clouren/SPEX",
     "cpmech/tritet",
     "CROSS-signature/CROSS-implementation",
+    "fabmax/PhysX",
     "fcambus/bdf2sfd",
     "flashlight/text",
     "flatpak/xdg-dbus-proxy",
@@ -38,19 +38,21 @@
     "go-skynet/go-ggml-transformers.cpp",
     "grain-lang/binaryen.ml",
     "heal-research/pyoperon",
-    "intel/metrics-discovery",
     "jupyter-xeus/xeus-lua",
     "ksnip/kImageAnnotator",
     "Level/classic-level",
     "libxsmm/tpp-pytorch-extension",
+    "midi2-dev/ni-midi2",
     "mxmlnkn/indexed_bzip2",
     "nvictus/pybbi",
     "onicai/llama_cpp_canister",
+    "proxy-wasm/proxy-wasm-cpp-host",
     "r-lyeh/Spectral",
     "RekGRpth/pg_task",
     "ROCm/roctracer",
     "ssiu/flash-attention-turing",
     "theimpossibleastronaut/rmw",
+    "triton-inference-server/openvino_backend",
     "uael/sv"
   ]
 }

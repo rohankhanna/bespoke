@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 66,
-    "observations": 67,
+    "components": 117,
+    "concepts": 71,
+    "observations": 72,
     "repos": 6,
-    "terms": 66
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
+    "apache/casbin-rs",
     "apache/datafusion-ballista",
-    "crate-ci/cargo-release",
     "databendlabs/databend",
     "dmtrKovalenko/fff",
     "godot-rust/gdext",

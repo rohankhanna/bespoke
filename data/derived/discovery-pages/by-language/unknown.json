@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1607,
-    "concepts": 2964,
-    "observations": 2968,
-    "repos": 1690,
-    "terms": 2968
+    "components": 1608,
+    "concepts": 2971,
+    "observations": 2975,
+    "repos": 1694,
+    "terms": 2975
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "unknown"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nn0/terminal-mac-cheatsheet",
@@ -219,7 +219,6 @@
     "awsdocs/aws-sam-developer-guide",
     "AXERA-TECH/ax-models",
     "Ayaginu-Sue/Astalia",
-    "ayushsaini00/holi-theme",
     "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
     "Azure-Samples/azd-template-artifacts",
     "Azure-Samples/Cognitive-Services-Speech-Devices-SDK",
@@ -908,6 +907,7 @@
     "hiszpanski/osx-arm-linux-toolchains",
     "hiyouga/llamafactory-community",
     "HKUDS/.github",
+    "HLTSingapore/Emotional-Speech-Data",
     "Homebrew/.github",
     "Homebrew/homebrew-bundle",
     "Homebrew/legacy-homebrew",
@@ -1017,6 +1017,7 @@
     "justinpinkney/awesome-pretrained-stylegan3",
     "justjavac/free-programming-books-zh_CN",
     "Juyong/3DFace",
+    "kahne/SpeechTransProgress",
     "kalaiser/awesome-cdk",
     "kazuk/cargo-make-coverage-grcov",
     "kberov/rust-by-example-bg",
@@ -1146,6 +1147,8 @@
     "microsoft/live-share",
     "microsoft/microsoft-foundry-for-vscode",
     "microsoft/nodejs-guidelines",
+    "microsoft/openjdk",
+    "microsoft/openjdk-aarch64",
     "microsoft/sarif-tutorials",
     "microsoft/vs-tools-for-ai",
     "microsoft/vscode-ai-toolkit",
@@ -1686,6 +1689,7 @@
     "yokoffing/NextDNS-Config",
     "YosysHQ/prjtrellis-db",
     "youngsofun/rust-csv",
+    "yousa-ling-official-production/yousa-ling-diffsinger-v1",
     "YoYo000/BlendedMVS",
     "YuzukiHD/YuzukiChameleon",
     "yzyydev/agentic-coding-structure",

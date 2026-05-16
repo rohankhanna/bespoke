@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 908,
-    "concepts": 569,
-    "observations": 572,
-    "repos": 87,
-    "terms": 565
+    "components": 909,
+    "concepts": 573,
+    "observations": 576,
+    "repos": 90,
+    "terms": 569
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -42,6 +42,7 @@
     "FoundationAgents/OpenManus",
     "fsnotify/fsnotify",
     "fullstorydev/grpcurl",
+    "git-up/GitUp",
     "github/copilot.vim",
     "goldfire/howler.js",
     "google/ExoPlayer",
@@ -78,13 +79,16 @@
     "ramda/ramda",
     "RasaHQ/rasa",
     "redux-saga/redux-saga",
+    "rubocop/ruby-style-guide",
     "sczhou/CodeFormer",
+    "sharkdp/hyperfine",
     "slatedocs/slate",
     "snarktank/ralph",
     "songquanpeng/one-api",
     "spf13/viper",
     "Stability-AI/generative-models",
     "streamich/react-use",
+    "SYSTRAN/faster-whisper",
     "tachyons-css/tachyons",
     "Tencent-Hunyuan/HunyuanVideo",
     "toml-lang/toml",
@@ -96,7 +100,6 @@
     "vitejs/awesome-vite",
     "wechaty/wechaty",
     "winstonjs/winston",
-    "XAMPPRocky/tokei",
     "yoheinakajima/babyagi",
     "ziglang/zig",
     "zsh-users/zsh-syntax-highlighting"

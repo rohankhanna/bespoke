@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 163,
-    "concepts": 165,
-    "observations": 168,
-    "repos": 28,
-    "terms": 164
+    "components": 178,
+    "concepts": 175,
+    "observations": 178,
+    "repos": 31,
+    "terms": 174
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "anordal/shellharden",
     "anthropics/claudes-c-compiler",
     "apache/horaedb",
     "atanunq/viu",
+    "Byron/google-apis-rs",
     "dtolnay/cargo-expand",
     "dtolnay/case-studies",
     "erg-lang/erg",
@@ -32,10 +33,12 @@
     "linebender/tiny-skia",
     "Morganamilo/paru",
     "nagisa/rust_libloading",
+    "rojo-rbx/rojo",
     "rust-fuzz/cargo-fuzz",
     "rust-headless-chrome/rust-headless-chrome",
     "sachaos/viddy",
     "sagiegurari/cargo-make",
+    "sharkdp/diskus",
     "tarkah/tickrs",
     "Tencent/tquic",
     "tikv/grpc-rs",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1178,
-    "concepts": 212,
-    "observations": 212,
-    "repos": 33,
-    "terms": 210
+    "components": 704,
+    "concepts": 161,
+    "observations": 161,
+    "repos": 22,
+    "terms": 159
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "agentclientprotocol/typescript-sdk",
     "AgnosticUI/agnosticui",
@@ -21,31 +21,20 @@
     "antvis/GPT-Vis",
     "carbon-design-system/carbon-components-angular",
     "carbon-design-system/sveld",
-    "dydxprotocol/v4-web",
     "embroider-build/ember-auto-import",
-    "embroider-build/embroider",
     "foundry-rs/foundry-toolchain",
     "ftonato/nope-validator",
     "huggingface/hf-mcp-server",
-    "iconify/icon-sets",
-    "intlify/eslint-plugin-vue-i18n",
     "inversify/monorepo",
     "lambdalisue/vim-gin",
-    "LemmyNet/lemmy-js-client",
     "LuaLS/vscode-lua",
     "mswjs/interceptors",
-    "nonara/ts-patch",
     "P4sca1/cron-schedule",
-    "radashi-org/radashi",
     "safe-fndn/safe-singleton-factory",
     "SkepticMystic/breadcrumbs",
-    "smithy-lang/smithy-typescript",
-    "sumup-oss/circuit-ui",
-    "tlaplus/vscode-tlaplus",
-    "unjs/get-port-please",
     "unjs/listhen",
-    "unjs/unimport",
     "victorgarciaesgi/regle",
-    "wevm/abitype"
+    "wevm/abitype",
+    "xdebug/vscode-php-debug"
   ]
 }

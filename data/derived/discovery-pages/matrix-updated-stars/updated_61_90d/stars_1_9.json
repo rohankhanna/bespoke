@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 514,
-    "concepts": 369,
-    "observations": 369,
-    "repos": 123,
-    "terms": 363
+    "components": 534,
+    "concepts": 383,
+    "observations": 383,
+    "repos": 126,
+    "terms": 377
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "0x676e67/0x676e67",
@@ -64,6 +64,7 @@
     "cncf/k8s-conformance-archive",
     "coderaiser/escover",
     "cognizant-ai-lab/neuro-san-cc",
+    "conda-forge/modin-feedstock",
     "countries/countries-data-yaml",
     "CROSS-signature/CROSS-lib-oqs",
     "danielrosehill/Agentic-AI-Architecture-Visualisation",
@@ -71,7 +72,6 @@
     "danielrosehill/Claude-Dork",
     "danielrosehill/Claude-MD-Chunk",
     "datachainlab/ethereum-ibc-relay-prover",
-    "DavidKinder/Libraries",
     "day50-dev/mcp-search-and-run",
     "eddelbuettel/github-actions",
     "empriselab/kortex_description",
@@ -107,6 +107,8 @@
     "objectbox/objectbox-swift-generator",
     "open-rpc/markdown-gen",
     "OpenCIDN/httpmirror",
+    "openelections/openelections-data-sd",
+    "openobserve/vector",
     "paolodamico/ruint-uniffi",
     "PBK-B/i18next-cli-vue",
     "piebald-ai/.github",
@@ -119,6 +121,7 @@
     "REditorSupport/vscode-R-syntax",
     "richgel999/junkdrawer",
     "saalfeldlab/n5-google-cloud",
+    "shadmau/autocouncil",
     "shakacode/package_json",
     "sigp/quick-protobuf",
     "stephanj/sonarlint-devoxxgenie-intellij",

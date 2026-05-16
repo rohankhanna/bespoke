@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 12,
-    "terms": 15
+    "components": 18,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 13,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "1000ch/Sublime-csso",
     "biocypher/biocypher-cookiecutter-template",
@@ -24,6 +24,7 @@
     "danielrosehill/Quick-RMBG",
     "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",
     "maeste/a2a-tck",
+    "nod-ai/diffusers",
     "puffyyy/PCSim",
     "sarlinpe/pybind11-stubgen"
   ]

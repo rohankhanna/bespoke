@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 89,
-    "observations": 90,
-    "repos": 35,
-    "terms": 87
+    "components": 92,
+    "concepts": 94,
+    "observations": 95,
+    "repos": 36,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "3dfxdev/EDGE",
     "AdaCore/gnatcoll-db",
     "adamharrison/lite-xl-terminal",
     "Blosc/hdf5-blosc",
-    "cassioneri/teju_jagua",
     "ccslykx/Starry",
     "coin-or/CHiPPS-ALPS",
     "DavidKinder/Git",
@@ -28,6 +27,7 @@
     "eddelbuettel/rcppfastfloat",
     "eliemichel/dawn-prebuilt",
     "FourierTransformer/lua-simdjson",
+    "free-audio/clap-host",
     "graalvm/polyglot-embedding-demo",
     "HolyBlackCat/box2cpp",
     "ibireme/c_numconv_benchmark",
@@ -40,6 +40,7 @@
     "osmcode/osm-gis-export",
     "osvenskan/sysv_ipc",
     "r-spatial/lwgeom",
+    "r-spatial/s2",
     "RomanArzumanyan/VALI",
     "Taritsyn/LibSassHost",
     "tier4/ndt_omp",

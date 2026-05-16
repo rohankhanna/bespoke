@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 707,
-    "concepts": 101,
-    "observations": 101,
-    "repos": 15,
-    "terms": 104
+    "components": 942,
+    "concepts": 135,
+    "observations": 135,
+    "repos": 19,
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,26 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "actions/starter-workflows",
     "airbnb/visx",
     "alibaba/ice",
     "AndyMik90/Aperant",
+    "ant-design/ant-design-mobile",
     "bvaughn/react-window",
     "catppuccin/catppuccin",
     "chatboxai/chatbox",
     "dzhng/deep-research",
     "fingerprintjs/fingerprintjs",
+    "fission-ai/openspec",
     "GoogleChromeLabs/squoosh",
+    "lerna/lerna",
     "mlc-ai/web-llm",
     "shareai-lab/learn-claude-code",
     "shikijs/shiki",
     "tobi/qmd",
+    "toon-format/toon",
     "vercel/satori"
   ]
 }

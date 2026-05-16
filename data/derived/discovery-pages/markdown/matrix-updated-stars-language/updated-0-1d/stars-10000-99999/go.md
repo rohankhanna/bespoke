@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-05-15T07:48:48.712236+00:00`
+Generated at: `2026-05-16T10:28:12.494354+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 6
-- terms: 78
-- components: 110
-- concepts: 78
-- observations: 78
+- terms: 94
+- components: 107
+- concepts: 94
+- observations: 94
 
 ## Static behavior
 
@@ -26,20 +26,20 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [gastownhall/gastown](https://github.com/gastownhall/gastown) | 15188 | 2026-05-15T04:02:38Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |
-| [QuantumNous/new-api](https://github.com/QuantumNous/new-api) | 33407 | 2026-05-15T03:15:26Z | Go | Infrastructure/tooling | 12 | 24 | 12 | 12 |
-| [mudler/LocalAI](https://github.com/mudler/LocalAI) | 46266 | 2026-05-14T22:23:12Z | Go | Infrastructure/tooling | 20 | 16 | 20 | 20 |
-| [weaviate/weaviate](https://github.com/weaviate/weaviate) | 16181 | 2026-05-14T22:03:56Z | Go | Infrastructure/tooling | 26 | 8 | 26 | 26 |
-| [moby/moby](https://github.com/moby/moby) | 71553 | 2026-05-14T19:13:21Z | Go | Infrastructure/tooling | 5 | 13 | 5 | 5 |
-| [gastownhall/beads](https://github.com/gastownhall/beads) | 23684 | 2026-05-14T19:08:52Z | Go | Infrastructure/tooling | 10 | 35 | 10 | 10 |
+| [weaviate/weaviate](https://github.com/weaviate/weaviate) | 16188 | 2026-05-16T10:01:15Z | Go | Infrastructure/tooling | 26 | 8 | 26 | 26 |
+| [gastownhall/beads](https://github.com/gastownhall/beads) | 23737 | 2026-05-16T09:44:45Z | Go | Infrastructure/tooling | 10 | 35 | 10 | 10 |
+| [mudler/LocalAI](https://github.com/mudler/LocalAI) | 46284 | 2026-05-16T06:57:10Z | Go | Infrastructure/tooling | 20 | 16 | 20 | 20 |
+| [QuantumNous/new-api](https://github.com/QuantumNous/new-api) | 33650 | 2026-05-16T06:54:50Z | Go | Infrastructure/tooling | 12 | 24 | 12 | 12 |
+| [gastownhall/gastown](https://github.com/gastownhall/gastown) | 15226 | 2026-05-15T23:28:07Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |
+| [apache/casbin](https://github.com/apache/casbin) | 20110 | 2026-05-15T19:22:03Z | Go | Infrastructure/tooling | 21 | 10 | 21 | 21 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [moby/moby](https://github.com/moby/moby) | 71553 | 2026-05-14T19:13:21Z | Go | Infrastructure/tooling | 5 | 13 | 5 | 5 |
-| [mudler/LocalAI](https://github.com/mudler/LocalAI) | 46266 | 2026-05-14T22:23:12Z | Go | Infrastructure/tooling | 20 | 16 | 20 | 20 |
-| [QuantumNous/new-api](https://github.com/QuantumNous/new-api) | 33407 | 2026-05-15T03:15:26Z | Go | Infrastructure/tooling | 12 | 24 | 12 | 12 |
-| [gastownhall/beads](https://github.com/gastownhall/beads) | 23684 | 2026-05-14T19:08:52Z | Go | Infrastructure/tooling | 10 | 35 | 10 | 10 |
-| [weaviate/weaviate](https://github.com/weaviate/weaviate) | 16181 | 2026-05-14T22:03:56Z | Go | Infrastructure/tooling | 26 | 8 | 26 | 26 |
-| [gastownhall/gastown](https://github.com/gastownhall/gastown) | 15188 | 2026-05-15T04:02:38Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |
+| [mudler/LocalAI](https://github.com/mudler/LocalAI) | 46284 | 2026-05-16T06:57:10Z | Go | Infrastructure/tooling | 20 | 16 | 20 | 20 |
+| [QuantumNous/new-api](https://github.com/QuantumNous/new-api) | 33650 | 2026-05-16T06:54:50Z | Go | Infrastructure/tooling | 12 | 24 | 12 | 12 |
+| [gastownhall/beads](https://github.com/gastownhall/beads) | 23737 | 2026-05-16T09:44:45Z | Go | Infrastructure/tooling | 10 | 35 | 10 | 10 |
+| [apache/casbin](https://github.com/apache/casbin) | 20110 | 2026-05-15T19:22:03Z | Go | Infrastructure/tooling | 21 | 10 | 21 | 21 |
+| [weaviate/weaviate](https://github.com/weaviate/weaviate) | 16188 | 2026-05-16T10:01:15Z | Go | Infrastructure/tooling | 26 | 8 | 26 | 26 |
+| [gastownhall/gastown](https://github.com/gastownhall/gastown) | 15226 | 2026-05-15T23:28:07Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |

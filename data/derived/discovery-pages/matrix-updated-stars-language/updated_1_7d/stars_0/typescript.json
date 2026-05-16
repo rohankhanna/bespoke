@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 10,
-    "observations": 10,
+    "components": 15,
+    "concepts": 2,
+    "observations": 2,
     "repos": 1,
-    "terms": 10
+    "terms": 2
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T08:29:41.606128+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
-    "ipfs-examples/github-mgmt"
+    "starfishmod/bonjour-service"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 96,
-    "concepts": 93,
-    "observations": 93,
-    "repos": 7,
-    "terms": 92
+    "components": 101,
+    "concepts": 138,
+    "observations": 138,
+    "repos": 13,
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,20 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
+    "AdaptiveCpp/AdaptiveCpp",
     "ashvardanian/NumKong",
     "CloudCompare/CloudCompare",
     "doctest/doctest",
+    "google/oboe",
     "harfbuzz/harfbuzz",
-    "luau-lang/luau",
-    "ultrajson/ultrajson",
+    "KhronosGroup/KTX-Software",
+    "Mithril-mine/libmdbx",
+    "Nelarius/imnodes",
+    "pure-data/pure-data",
+    "swiftlang/swift-llbuild",
+    "TrenchBroom/TrenchBroom",
     "xtensor-stack/xtensor"
   ]
 }

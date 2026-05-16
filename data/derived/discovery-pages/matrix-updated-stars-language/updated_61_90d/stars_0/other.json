@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 21,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 6,
-    "terms": 11
+    "concepts": 14,
+    "observations": 14,
+    "repos": 7,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "AdaCore/vss-text",
     "Bearer/homebrew-tap",
+    "danielrosehill/Israel-First-Aid",
     "mjvolk3/dendron-template",
     "onomojo/i18n-country-translations-ex",
     "onomojo/i18n-timezones-ex",

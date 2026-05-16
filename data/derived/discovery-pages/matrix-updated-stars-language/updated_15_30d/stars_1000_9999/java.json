@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 599,
-    "concepts": 786,
-    "observations": 787,
-    "repos": 79,
-    "terms": 783
+    "components": 611,
+    "concepts": 792,
+    "observations": 793,
+    "repos": 78,
+    "terms": 789
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "alibaba/spring-ai-alibaba",
@@ -20,6 +20,7 @@
     "apache/camel",
     "apache/flink-kubernetes-operator",
     "apache/hudi",
+    "apache/iceberg",
     "apache/ignite",
     "apache/logging-log4j2",
     "apache/lucene",
@@ -30,10 +31,8 @@
     "apache/poi",
     "apache/seatunnel",
     "aws/aws-sdk-java-v2",
-    "beehive-lab/TornadoVM",
     "besu-eth/besu",
     "bonigarcia/webdrivermanager",
-    "brianfrankcooper/YCSB",
     "castorini/anserini",
     "checkstyle/checkstyle",
     "ClickHouse/clickhouse-java",
@@ -55,7 +54,6 @@
     "google/error-prone",
     "google/google-java-format",
     "google/j2cl",
-    "google/tsunami-security-scanner",
     "google/tsunami-security-scanner-plugins",
     "googleapis/google-api-java-client",
     "googleapis/google-cloud-java",
@@ -90,6 +88,7 @@
     "spring-ai-alibaba/DataAgent",
     "spring-ai-alibaba/examples",
     "spring-projects/spring-ai",
+    "sqlancer/sqlancer",
     "swagger-api/swagger-core",
     "testng-team/testng",
     "tlaplus/tlaplus"

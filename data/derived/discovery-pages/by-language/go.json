@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10211,
-    "concepts": 10040,
-    "observations": 10072,
-    "repos": 1714,
-    "terms": 9992
+    "components": 10215,
+    "concepts": 10054,
+    "observations": 10086,
+    "repos": 1715,
+    "terms": 10004
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -755,6 +755,7 @@
     "fsnotify/fsnotify",
     "fsouza/go-dockerclient",
     "fullstorydev/grpcurl",
+    "fumiama/RVC-Models-Downloader",
     "gastownhall/beads",
     "gastownhall/gastown",
     "GeertJohan/go.rice",

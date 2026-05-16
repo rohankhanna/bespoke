@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1252,
-    "concepts": 1512,
-    "observations": 1514,
-    "repos": 411,
-    "terms": 1502
+    "components": 1254,
+    "concepts": 1536,
+    "observations": 1538,
+    "repos": 416,
+    "terms": 1525
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -153,6 +153,7 @@
     "google/vim-codefmt",
     "graphdeco-inria/diff-gaussian-rasterization",
     "Gregwar/Image",
+    "guochengqian/Magic123",
     "h2oai/h2o-tutorials",
     "hadronized/hop.nvim",
     "haml/haml-rails",
@@ -266,6 +267,7 @@
     "nordtheme/nord",
     "nordtheme/vim",
     "NVIDIA-AI-IOT/jetbot",
+    "NVIDIA/cub",
     "NVIDIA/tacotron2",
     "nvim-pack/nvim-spectre",
     "nvim-telescope/telescope-file-browser.nvim",
@@ -310,6 +312,7 @@
     "reworkcss/css",
     "rhysd/clever-f.vim",
     "rhysd/vim-clang-format",
+    "rinongal/textual_inversion",
     "rmcelreath/stat_rethinking_2022",
     "romeovs/creep",
     "rrousselGit/flutter_hooks",
@@ -346,8 +349,10 @@
     "spullara/mustache.java",
     "srush/LLM-Training-Puzzles",
     "srush/Tensor-Puzzles",
+    "Stability-AI/StableSwarmUI",
     "StartBootstrap/startbootstrap-freelancer",
     "state-spaces/s4",
+    "steinbergmedia/vst3sdk",
     "stencilproject/Stencil",
     "stevearc/dressing.nvim",
     "sthalles/SimCLR",

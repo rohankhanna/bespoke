@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1076,
-    "concepts": 167,
-    "observations": 168,
-    "repos": 36,
-    "terms": 177
+    "components": 915,
+    "concepts": 142,
+    "observations": 143,
+    "repos": 32,
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -34,20 +34,16 @@
     "janwilmake/openapi-mcp-server",
     "kamranahmedse/claude-run",
     "lobehub/lobe-charts",
-    "lobehub/lobe-cli-toolbox",
     "lobehub/lobe-tts",
     "Lusito/webextension-polyfill-ts",
     "multiformats/js-multiformats",
-    "nodejs/llparse",
     "Piebald-AI/gemini-cli-desktop",
     "priceline/design-system",
     "sveltejs/prettier-plugin-svelte",
     "trzsz/trzsz.js",
     "un-ts/eslint-plugin-import-x",
     "unplugin/unplugin-vue-markdown",
-    "vuejs/vue-eslint-parser",
     "windingwind/zotero-plugin-template",
-    "Wykks/ngx-mapbox-gl",
     "yandeu/five-server",
     "zsviczian/excalibrain"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 171,
-    "concepts": 103,
-    "observations": 103,
-    "repos": 96,
-    "terms": 103
+    "components": 178,
+    "concepts": 111,
+    "observations": 111,
+    "repos": 100,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "2KAbhishek/exercism-fetcher",
     "3b/cl-vulkan",
@@ -29,6 +29,7 @@
     "artichoke/spec",
     "ashwincc/yolov6-sagemaker",
     "aspecto-io/opentelemetry-demo",
+    "atsushieno/aap-juce-plugin-host",
     "avsm/ocaml-uri",
     "barche/libcxxwrap_julia_jll.jl",
     "benkasminbullock/gzip-libdeflate",
@@ -53,8 +54,10 @@
     "dixyes/ghactionsplay",
     "dom8509/hugo-PaperMod",
     "dop-amin/ches2025-slothy-tutorial",
+    "ejconlon/libremidi-haskell",
     "erick2418/vue-axios-vuex-jwt",
     "exograd/erl-ksuid",
+    "ficorax/cfa",
     "fky2015/navigator.nvim-bug-report",
     "flukexp/llama-piper-go",
     "girishji/ngramview-complete.vim",
@@ -85,6 +88,7 @@
     "juliardi/lite-xl-ayu-theme",
     "jverzani/SymPyPyCall.jl",
     "klowrey/MuJoCo.jl",
+    "kobbikobb/neotest-gradle",
     "larshp/uccp",
     "lifeiteng/lifeiteng.github.com",
     "locize/locize-i18next-vue-example",

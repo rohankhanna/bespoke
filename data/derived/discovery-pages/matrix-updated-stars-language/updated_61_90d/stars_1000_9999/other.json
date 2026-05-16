@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 234,
-    "concepts": 306,
-    "observations": 307,
-    "repos": 52,
-    "terms": 306
+    "components": 204,
+    "concepts": 320,
+    "observations": 321,
+    "repos": 56,
+    "terms": 320
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -21,6 +21,7 @@
     "autofac/Autofac",
     "bbatsov/crux",
     "bbatsov/projectile",
+    "clj-commons/manifold",
     "clojure/clojurescript",
     "cognitect/transit-format",
     "dashbitco/mox",
@@ -31,7 +32,6 @@
     "folke/lazydev.nvim",
     "formtastic/formtastic",
     "freerange/mocha",
-    "Glavin001/atom-beautify",
     "Gonzalo-D-Sales/obsidian-velocity",
     "google/cel-spec",
     "googleapis/elixir-google-api",
@@ -41,6 +41,7 @@
     "jpanther/congo",
     "kaminari/kaminari",
     "lite-xl/lite-xl",
+    "litedb-org/LiteDB",
     "mdn/webassembly-examples",
     "mhinz/vim-signify",
     "mono/CppSharp",
@@ -52,16 +53,19 @@
     "pgpartman/pg_partman",
     "preservim/vimux",
     "pry/pry",
+    "puppetlabs/puppet",
     "rails/tailwindcss-rails",
     "rrousselGit/provider",
     "rspec/rspec-rails",
     "salesforce/BLIP",
     "sbt/sbt-native-packager",
+    "seancorfield/honeysql",
     "steipete/imsg",
     "stevearc/aerial.nvim",
     "stevearc/oil.nvim",
     "timdorr/tesla-api",
     "v2fly/v2ray-examples",
+    "varvet/pundit",
     "Vigemus/iron.nvim",
     "vkhorikov/CSharpFunctionalExtensions",
     "woct0rdho/triton-windows",

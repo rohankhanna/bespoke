@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 342,
-    "observations": 342,
-    "repos": 59,
-    "terms": 338
+    "components": 183,
+    "concepts": 360,
+    "observations": 360,
+    "repos": 63,
+    "terms": 356
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
-    "ace-step/ACE-Step",
     "adrienverge/yamllint",
+    "aigc3d/LHM",
     "AmberSahdev/Open-Interface",
     "anapnoe/stable-diffusion-webui-ux",
     "ARISE-Initiative/robosuite",
@@ -35,16 +35,19 @@
     "django/asgiref",
     "facebookresearch/fvcore",
     "facebookresearch/habitat-lab",
+    "facebookresearch/SlowFast",
     "google/ml_collections",
     "google/vizier",
     "gururise/AlpacaDataCleaned",
     "heshengtao/comfyui_LLM_party",
+    "hyperopt/hyperopt",
     "isl-org/Open3D-ML",
     "jaredks/rumps",
     "keleshev/schema",
     "kijai/ComfyUI-WanVideoWrapper",
     "langfengQ/verl-agent",
     "layumi/Person_reID_baseline_pytorch",
+    "lshqqytiger/stable-diffusion-webui-amdgpu",
     "LTH14/mar",
     "lyuwenyu/RT-DETR",
     "mozillazg/pinyin-data",
@@ -57,13 +60,13 @@
     "open-webui/mcpo",
     "pdfminer/pdfminer.six",
     "pfnet/pfrl",
+    "PyCQA/flake8-bugbear",
     "Pylons/pyramid",
     "python-semantic-release/python-semantic-release",
     "qix-/better-exceptions",
     "randy3k/radian",
     "s3prl/s3prl",
     "SafeAILab/EAGLE",
-    "shibing624/text2vec",
     "the-moonwitch/Cozette",
     "themix-project/themix-gui",
     "toshas/torch-fidelity",
@@ -71,6 +74,7 @@
     "turboderp-org/exllamav2",
     "yangyanli/PointCNN",
     "YosysHQ/icestorm",
+    "yxlllc/DDSP-SVC",
     "ZhengPeng7/BiRefNet",
     "zubair-trabzada/ai-marketing-claude"
   ]

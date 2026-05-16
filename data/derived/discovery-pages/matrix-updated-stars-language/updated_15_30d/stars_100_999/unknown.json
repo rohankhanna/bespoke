@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 115,
-    "concepts": 210,
-    "observations": 211,
-    "repos": 57,
-    "terms": 210
+    "components": 118,
+    "concepts": 215,
+    "observations": 216,
+    "repos": 54,
+    "terms": 215
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "abhisheknaiidu/abhisheknaiidu",
@@ -23,15 +23,12 @@
     "apappascs/mcp-servers-hub",
     "AutoJunjie/awesome-agent-harness",
     "bitrise-io/bitrise-steplib",
-    "bloomberg/clang-p2996",
     "box/box-openapi",
     "chromedp/cdproto",
     "cisagov/vulnrichment",
     "cloudflare/skills",
     "CVEProject/automation-working-group",
     "django/deps",
-    "dotnet-foundation/projects",
-    "dotnet/AspNetApiDocs",
     "emberjs/rfcs",
     "eryajf/awesome-stars-eryajf",
     "eslint/rfcs",
@@ -41,7 +38,6 @@
     "gautamkrishnar/gautamkrishnar",
     "getlantern/lantern-binaries",
     "ghimiresunil/Top-AI-Tools",
-    "github/codeql-cli-binaries",
     "github/copilot-language-server-release",
     "google/agents-cli",
     "googlefonts/RobotoMono",
@@ -56,20 +52,21 @@
     "luau-lang/rfcs",
     "mason-org/mason-registry",
     "mdn/mdn-community",
-    "MicrosoftDocs/terminal",
+    "microsoft/openjdk",
     "nimbalyst/nimbalyst",
     "NuGet/docs.microsoft.com-nuget",
     "oak-security/audit-reports",
     "ocaml/opam-repository",
     "openjs-foundation/cross-project-council",
+    "openwdl/wdl",
     "piebald-ai/awesome-gemini-cli",
-    "ranpox/awesome-computer-use",
     "rstackjs/awesome-rstack",
     "smithy-lang/awesome-smithy",
     "stripe/openapi",
     "tinted-theming/home",
-    "Uzaaft/awesome-libghostty",
+    "triton-inference-server/tensorrtllm_backend",
     "ymcui/MacBERT",
-    "ymcui/PERT"
+    "ymcui/PERT",
+    "yokoffing/Control-D-Config"
   ]
 }

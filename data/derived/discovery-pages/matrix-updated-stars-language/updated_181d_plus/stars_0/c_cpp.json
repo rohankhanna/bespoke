@@ -3,7 +3,7 @@
     "components": 46,
     "concepts": 23,
     "observations": 24,
-    "repos": 17,
+    "repos": 18,
     "terms": 23
   },
   "facet_version": 1,
@@ -12,12 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "acts-project/opendatadetector",
     "boingoing/node-sass",
     "build2-packaging/nlohmann-json",
     "burntsushi/linux",
+    "cginternals/glscbinding-poc",
     "chelini/libxsmm",
     "comit-network/hash_edwards_to_edwards",
     "DiligentGraphics/imgui",

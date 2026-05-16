@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 294,
-    "concepts": 285,
-    "observations": 285,
-    "repos": 60,
-    "terms": 284
+    "components": 325,
+    "concepts": 377,
+    "observations": 377,
+    "repos": 64,
+    "terms": 374
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "8144225309/SuperScalar",
@@ -31,12 +31,18 @@
     "DavidKinder/Windows-Inform7",
     "DeepLink-org/DLSlime",
     "f32c/tools",
-    "fabmax/PhysX",
     "facebook/fb303",
+    "gazebosim/gz-common",
     "gazebosim/gz-fuel-tools",
     "gazebosim/gz-gui",
+    "gazebosim/gz-physics",
+    "gazebosim/gz-rendering",
+    "gazebosim/gz-tools",
     "gazebosim/gz-transport",
     "hazelcast/hazelcast-cpp-client",
+    "HDFGroup/hdf4",
+    "heiher/hev-socks5-core",
+    "heiher/hev-task-system",
     "ICRAR/crc32c",
     "JFLarvoire/the_silver_searcher",
     "jwindgassen/UnrealYAML",
@@ -60,13 +66,11 @@
     "oneapi-src/unified-memory-framework",
     "openucx/xpmem",
     "openvinotoolkit/openvino_tokenizers",
-    "proxy-wasm/proxy-wasm-cpp-host",
     "rapidsai/ucxx",
     "ROCm/rocAL",
     "ROCm/ROCgdb",
     "ROCm/rpp",
     "skeeto/dcmake",
-    "triton-inference-server/openvino_backend",
     "walbourn/directxmathtest",
     "walbourn/directxtextest",
     "walbourn/directxtktest",

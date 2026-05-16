@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 64,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 3,
+    "components": 30,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 4,
     "terms": 32
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
+    "anthropics/claude-cookbooks",
+    "github-linguist/linguist",
     "meta-llama/llama-cookbook",
-    "mixmark-io/turndown",
-    "vbenjs/vue-vben-admin"
+    "neovim/nvim-lspconfig"
   ]
 }

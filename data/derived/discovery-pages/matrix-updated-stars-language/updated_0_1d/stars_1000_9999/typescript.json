@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 333,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 6,
-    "terms": 57
+    "components": 265,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 5,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
-    "alichherawalla/off-grid-mobile-ai",
     "conventional-changelog/conventional-changelog",
     "microsoft/vscode-js-debug",
     "podman-desktop/podman-desktop",

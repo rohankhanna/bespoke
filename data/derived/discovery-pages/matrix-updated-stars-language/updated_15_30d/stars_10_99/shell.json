@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 209,
-    "concepts": 202,
-    "observations": 205,
-    "repos": 48,
-    "terms": 200
+    "components": 228,
+    "concepts": 219,
+    "observations": 222,
+    "repos": 50,
+    "terms": 217
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "2KAbhishek/sway2k",
     "acmesh-official/acmetest",
     "AFLplusplus/cov-analysis",
-    "agricidaniel/claude-cybersecurity",
     "Alexpux/MINGW-packages",
     "alvistack/ansible-role-crun",
     "apache/arrow-testing",
@@ -44,12 +43,13 @@
     "gentoo-mirror/guru",
     "GoogleCloudPlatform/blueprints",
     "helidon-io/helidon-examples",
+    "heroku/heroku-buildpack-dotnet",
     "heroku/heroku-buildpack-gradle",
+    "heroku/heroku-buildpack-jvm-common",
     "iterate-ch/profiles",
     "milvus-io/milvus-proto",
     "NixOS/org",
     "nodenv/nodenv-package-rehash",
-    "oceanbase/docker-images",
     "oneclick/rubyinstaller2-packages",
     "pkgxdev/mash",
     "postmodern/ruby-versions",
@@ -60,6 +60,8 @@
     "reviewdog/action-shfmt",
     "rocq-prover/docker-opam-action",
     "sclorg/mariadb-container",
+    "sclorg/s2i-perl-container",
+    "sclorg/s2i-ruby-container",
     "tinted-theming/tinted-shell",
     "tinted-theming/tinted-terminal"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 172,
-    "concepts": 119,
-    "observations": 119,
-    "repos": 87,
-    "terms": 118
+    "components": 176,
+    "concepts": 126,
+    "observations": 126,
+    "repos": 93,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/zzz",
     "abhilash1910/llm.tpc",
@@ -34,9 +34,13 @@
     "axxie/far2l-jumpword",
     "bnosac/audio.vadwebrtc",
     "buty4649/mruby-terminal-color",
+    "Cacodemon345/BlastThruReborn",
     "CameLLM/CameLLM-Common",
     "CameLLM/CameLLM-Llama",
     "candid82/cljf",
+    "cginternals/eglbinding",
+    "cginternals/glesbinding",
+    "cginternals/khrbinding-generator",
     "Clemapfel/mousetrap",
     "Clemapfel/mousetrap_julia_binding",
     "cpmech/vismatrix",
@@ -67,11 +71,13 @@
     "infradig/imath",
     "Izhido/test262_harness_cpp",
     "jasongin/node-canvas",
+    "jcelerier/score-simple-api-2",
     "jdlph/DTALite",
     "jdlph/MIOCSV",
     "jk-jeon/dtoa-benchmark",
     "jupyter-xeus/xeus-nelson",
     "kantv-ai/FFmpeg",
+    "kosua20/sr_gui",
     "littlefs-project/ramcrc32bd",
     "lockblox/multibase",
     "LuisaGroup/CMakeStarterTemplate",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 164,
+    "components": 176,
     "concepts": 88,
     "observations": 88,
-    "repos": 41,
+    "repos": 45,
     "terms": 87
   },
   "facet_version": 1,
@@ -12,14 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
+    "0xPolygonHermez/stark-recurser",
     "5E7EN/Garmin-ZmanIQ",
     "abap2UI5-addons/layout-management",
     "ada-url/kotlin",
     "Adam-Boesky/astro_SPLASH",
     "alstafeev/midscene-java",
-    "apache/casbin-casbin.io",
     "Asmod4n/mruby-argon2",
     "aspect-build/tools_telemetry",
     "ATProtoKit/MultiformatsKit",
@@ -28,6 +28,7 @@
     "Circuitscape/www.circuitscape.org",
     "clearbluejar/ghidra-python",
     "DanielSmith1239/KosherSwift",
+    "diffblue/homebrew-cbmc",
     "dp111/6502timing",
     "dpep/ice_age_rb",
     "dwyl/auth_plug_example",
@@ -43,7 +44,9 @@
     "hchiam/convenience",
     "helix-toolkit/helix-toolkit.github.io",
     "joinwell52-ai/joinwell52",
+    "knopp/native_toolchain_ninja",
     "konnov/apalache-examples",
+    "lemire/unicode_lipsum",
     "marcindulak/learning-api-styles-gen-ai-experiments",
     "microsoft/LinuxTracepoints-Net",
     "mpizenberg/elm-test-runner",
@@ -54,6 +57,7 @@
     "rocq-community/docker-base",
     "rocq-community/docker-rocq",
     "tnc-ca-geo/animl-ml",
+    "vovkos/doxyrest_b",
     "WebAssembly/compact-import-section"
   ]
 }

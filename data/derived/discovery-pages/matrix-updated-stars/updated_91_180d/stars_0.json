@@ -1,18 +1,19 @@
 {
   "counts": {
-    "components": 286,
-    "concepts": 99,
-    "observations": 99,
-    "repos": 84,
-    "terms": 99
+    "components": 290,
+    "concepts": 106,
+    "observations": 106,
+    "repos": 86,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
+    "0aids/imnodes",
     "1000ch/Sublime-csso",
     "abap2UI5-addons/popups",
     "aldernero/spider",
@@ -51,7 +52,6 @@
     "danielrosehill/Quick-RMBG",
     "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",
     "databendlabs/iceberg-rust",
-    "datafuse-extras/arrow-udf",
     "datafuse-extras/pprof-rs",
     "datafuse-extras/tantivy",
     "datafuse-extras/tantivy-jieba",
@@ -84,6 +84,7 @@
     "maeste/a2a-tck",
     "Mountchicken/Mountchicken",
     "mudler/vulkan-sdk-arm",
+    "nod-ai/diffusers",
     "openwdl/governance",
     "praw-dev/.github",
     "prestodb/presto-dev",
@@ -95,6 +96,7 @@
     "sp1-patches/curve25519-dalek",
     "stainless-api/tsc-multi",
     "ved015/CogVideoX-5b-Physics_iq_benchmarking",
+    "vovkos/luadoxyxml",
     "wintercg/fetch",
     "youngsofun/rust-csv"
   ]

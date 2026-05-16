@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1971,
-    "concepts": 1799,
-    "observations": 1805,
-    "repos": 797,
-    "terms": 1793
+    "components": 1993,
+    "concepts": 1824,
+    "observations": 1830,
+    "repos": 807,
+    "terms": 1818
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x7432/asm-ru",
@@ -122,6 +122,8 @@
     "atom/autocomplete-atom-api",
     "atom/autocomplete-css",
     "atom/language-sql",
+    "atsushieno/fluidsynth-midi-service-j",
+    "atsushieno/kmmk",
     "atteneder/DracoUnityDemo",
     "atusy/felp",
     "atwam/money-historical-bank",
@@ -158,8 +160,10 @@
     "bfenetworks/dashboard",
     "bhauman/flappy-bird-demo-new",
     "binaryoung/jieba-php",
+    "bitbeans/minisign-net",
     "bitzesty/zxcvbn-js",
     "BlackHC/batchbald_redux",
+    "Blair-Johnson/batch-whisper",
     "Bluehouse-Technology/grpc_client",
     "blushingpenguin/Fluent.Net",
     "bmc/classutil",
@@ -173,6 +177,7 @@
     "BotBuilderCommunity/botbuilder-community-tools",
     "bottlenoselabs/imgui-cs",
     "bow-swift/nef-editor-client",
+    "Bremmers/CLAP-for-Delphi",
     "bromite/filters",
     "browserslist/browserslist-useragent-ruby",
     "browserslist/vim-browserslist",
@@ -192,6 +197,7 @@
     "camenduru/MotionDirector-colab",
     "camenduru/PuLID-jupyter",
     "camenduru/simple-knn",
+    "camenduru/Wonder3D-colab",
     "camilledejoye/nvim-lsp-selection-range",
     "carrierwaveuploader/carrierwave-i18n",
     "casper-hansen/AutoAWQ_kernels",
@@ -284,6 +290,7 @@
     "Dominaezzz/kotlin-imgui",
     "domino-osgi/domino",
     "donny741/ruby-lsp-factory_bot",
+    "DoodleBears/split-lang",
     "dotenv-org/examples",
     "dranov/raft-tla",
     "drmargarido/linters",
@@ -434,6 +441,7 @@
     "jfpedroza/neotest-elixir",
     "jgm/lcmark",
     "jinganix/enif_protobuf",
+    "JKamsker/LiteDB.Migration",
     "jllllll/ctransformers-cuBLAS-wheels",
     "jodersky/sbt-gpg",
     "joeytwiddle/sexy_scroller.vim",
@@ -487,7 +495,6 @@
     "kodxana/RunPod-FilleUploader",
     "KONAKONA666/q8_kernels",
     "kornia/kornia-examples",
-    "kowainik/org",
     "KratosMultiphysics/Documentation",
     "kristijanhusak/vim-dirvish-git",
     "kube-libsonnet/kube-libsonnet",
@@ -586,6 +593,7 @@
     "myownskyW7/CARAFE",
     "n-shift/crates.nvim",
     "nalimilan/FreqTables.jl",
+    "necludov/jam",
     "nelsonic/nelsonic.github.io",
     "NickDarvey/whisper",
     "nikitabobko/brew-install-path",
@@ -668,6 +676,7 @@
     "rejeep/commander.el",
     "rejeep/ert-runner.el",
     "restic/builder",
+    "revsic/torch-nansy",
     "rgeirhos/generalisation-humans-DNNs",
     "rgeo/activerecord-mysql2spatial-adapter",
     "rgeo/rgeo-activerecord",
@@ -810,6 +819,7 @@
     "yousty/event_store_client",
     "zcash/pasta",
     "zef/vim-cycle",
+    "zidhuss/neotest-minitest",
     "zone-eu/zmta-webadmin"
   ]
 }

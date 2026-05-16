@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 418,
-    "concepts": 191,
-    "observations": 193,
-    "repos": 119,
-    "terms": 194
+    "components": 432,
+    "concepts": 194,
+    "observations": 195,
+    "repos": 120,
+    "terms": 197
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "9romise/eslint-config",
@@ -29,6 +29,7 @@
     "arckoor/botan-rs",
     "arckoor/jsonwebtoken-botan",
     "ashton/neotest-gleam-unitest",
+    "atsushieno/homebrew-oss",
     "b2agi/exist-is-charter_kr",
     "beurdouche/nss-gk-api",
     "bookcars/bookcars.github.io",
@@ -37,7 +38,6 @@
     "cdeust/cortex-know-when-to-stop-training-model",
     "cmake-wheel/cmeel-example",
     "csjgg/ags-cookbook",
-    "cwfitzgerald/libtest-mimic",
     "danielrosehill/adb-keep-awake",
     "danielrosehill/Agent-Journal",
     "danielrosehill/Agent-Skills",
@@ -64,7 +64,6 @@
     "danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",
     "danielrosehill/Israel-Alert-Map",
     "danielrosehill/Israel-Civilian-Readiness-Guide",
-    "danielrosehill/Israel-First-Aid",
     "danielrosehill/Israel-Preparedness-Index",
     "danielrosehill/Jewish-Related-Index",
     "danielrosehill/Linux-Desktop-Tools-Index",
@@ -81,6 +80,7 @@
     "datafuse-extras/dtparse",
     "devnen/chatterbox-v2",
     "drmingdrmer/display-more",
+    "dubbo-go-pixiu/dubbo-go-pixiu",
     "eigenwallet/arti",
     "ethpandaops/xatu-cbt",
     "fulmicoton-dd/datasketches-rust",
@@ -88,7 +88,8 @@
     "hermit-os/async-executor",
     "hermit-os/safe-mmio",
     "hermit-os/tokio",
-    "iambriccardo/gcp-bigquery-client",
+    "hyper-mcp-rs/arxiv-plugin",
+    "hyper-mcp-rs/crates-io-plugin",
     "iandees/scrapy-camoufox",
     "JuliaBinaryWrappers/Cairo_jll.jl",
     "JuliaBinaryWrappers/FreeType2_jll.jl",

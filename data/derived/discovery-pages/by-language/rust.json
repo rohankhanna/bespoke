@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 11614,
+    "components": 11615,
     "concepts": 7942,
     "observations": 8004,
     "repos": 1728,
@@ -10,7 +10,7 @@
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",

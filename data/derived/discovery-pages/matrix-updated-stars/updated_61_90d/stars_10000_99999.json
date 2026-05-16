@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 488,
+    "components": 493,
     "concepts": 321,
     "observations": 324,
     "repos": 55,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-15T07:48:48.712236+00:00",
+  "generated_at": "2026-05-16T10:28:12.494354+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -31,7 +31,6 @@
     "facebookresearch/vggt",
     "floating-ui/floating-ui",
     "FunAudioLLM/CosyVoice",
-    "git-up/GitUp",
     "go-chi/chi",
     "google-research/vision_transformer",
     "google/leveldb",
@@ -55,14 +54,15 @@
     "pugjs/pug",
     "QwenLM/Qwen",
     "QwenLM/Qwen-Agent",
+    "QwenLM/Qwen3-TTS",
     "romkatv/powerlevel10k",
-    "rubocop/ruby-style-guide",
     "serde-rs/serde",
-    "sharkdp/hyperfine",
     "sirupsen/logrus",
     "sql-js/sql.js",
+    "TA-Lib/ta-lib-python",
     "TabbyML/tabby",
     "tpope/vim-fugitive",
+    "uber-go/zap",
     "vibrantlabsai/ragas",
     "videojs/video.js",
     "Wan-Video/Wan2.1",
