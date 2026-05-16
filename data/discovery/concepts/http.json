@@ -4140,11 +4140,29 @@
       "observed_at": "2026-05-16T06:55:35.086614+00:00",
       "source_file": null,
       "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": null,
+      "source_repo": "vercel/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": null,
+      "source_repo": "ueberauth/oauth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-16T12:33:31.261420+00:00",
   "lexical_providers": [
     "datamuse"
   ],

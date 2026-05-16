@@ -211,7 +211,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T04:51:33.228614+00:00",
+  "fetched_at": "2026-05-16T12:48:15.501924+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -248,11 +248,11 @@
     "html_url": "https://github.com/apache/brpc",
     "language": "C++",
     "pushed_at": "2026-05-15T19:01:38Z",
-    "stargazers_count": 17500,
+    "stargazers_count": 17499,
     "topics": [
       "rpc"
     ],
-    "updated_at": "2026-05-15T18:40:16Z"
+    "updated_at": "2026-05-16T06:25:49Z"
   },
   "repo_links": [
     {

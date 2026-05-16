@@ -84,7 +84,7 @@
   "normalized_form": "issue-translator",
   "observation_id": "b6eafa2a26026775",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-16T06:55:35.086614+00:00",
+  "observed_at": "2026-05-16T12:33:31.261420+00:00",
   "observed_text": "Issue Translator",
   "source_context_snippet": "Issue Translator",
   "source_file": ".github/workflows/issue-translator.yml",

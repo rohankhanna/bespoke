@@ -5782,11 +5782,59 @@
       "observed_at": "2026-05-16T06:55:35.086614+00:00",
       "source_file": null,
       "source_repo": "zai-org/ImageReward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo-I2V"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-16T12:33:31.261420+00:00",
   "lexical_providers": [
     "datamuse"
   ],

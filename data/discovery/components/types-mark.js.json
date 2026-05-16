@@ -1,7 +1,7 @@
 {
   "component": "@types/mark.js",
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-16T12:33:31.261420+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

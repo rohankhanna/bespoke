@@ -3325,11 +3325,35 @@
       "observed_at": "2026-05-16T06:55:35.086614+00:00",
       "source_file": ".github/workflows/pypi-publish.yml",
       "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/chex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google-deepmind/bsuite"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-16T12:33:31.261420+00:00",
   "lexical_providers": [
     "datamuse"
   ],

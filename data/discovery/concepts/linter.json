@@ -8114,11 +8114,41 @@
       "observed_at": "2026-05-16T06:55:35.086614+00:00",
       "source_file": ".github/workflows/test_formatting.yml",
       "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": null,
+      "source_repo": "vale-cli/vale"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": ".github/workflows/CPUTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-16T12:33:31.261420+00:00",
   "lexical_providers": [
     "datamuse"
   ],

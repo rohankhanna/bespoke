@@ -133,7 +133,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T08:11:42.147657+00:00",
+  "fetched_at": "2026-05-16T12:42:56.839872+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -166,7 +166,7 @@
     "html_url": "https://github.com/modelscope/ms-agent",
     "language": "Python",
     "pushed_at": "2026-04-15T06:21:35Z",
-    "stargazers_count": 4254,
+    "stargazers_count": 4256,
     "topics": [
       "agentic-insight",
       "agentic-search",
@@ -175,7 +175,7 @@
       "deep-research",
       "memory"
     ],
-    "updated_at": "2026-05-15T20:35:32Z"
+    "updated_at": "2026-05-16T08:37:30Z"
   },
   "repo_links": [
     {

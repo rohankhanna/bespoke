@@ -29409,11 +29409,47 @@
       "observed_at": "2026-05-16T06:55:35.086614+00:00",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "edenhill/kcat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "vale-cli/vale"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "CloudCompare/CloudCompare"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mui/material-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mongodb/winkerberos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "langflow-ai/langflow"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-16T12:33:31.261420+00:00",
   "lexical_providers": [
     "datamuse"
   ],

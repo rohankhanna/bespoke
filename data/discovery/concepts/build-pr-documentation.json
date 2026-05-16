@@ -1847,11 +1847,23 @@
       "observed_at": "2026-05-16T06:55:35.086614+00:00",
       "source_file": ".github/workflows/build_pr_documentation.yml",
       "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-16T12:33:31.261420+00:00",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "safetensors/safetensors"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-16T12:33:31.261420+00:00",
   "lexical_providers": [
     "datamuse"
   ],

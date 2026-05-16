@@ -84,7 +84,7 @@
   "normalized_form": "label-prs-with-conventional-commits",
   "observation_id": "d02cce881bcfcbeb",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-16T00:38:16.846047+00:00",
+  "observed_at": "2026-05-16T12:33:31.261420+00:00",
   "observed_text": "Label PRs with Conventional Commits",
   "source_context_snippet": "Label PRs with Conventional Commits",
   "source_file": ".github/workflows/conventional-labels.yml",
