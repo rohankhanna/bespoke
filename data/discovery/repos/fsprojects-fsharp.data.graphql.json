@@ -44,6 +44,16 @@
       "component": "actions/setup-dotnet@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.md"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.md"
     }
   ],
   "edges": [
@@ -153,6 +163,20 @@
       "target_type": "term"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.md",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.md",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "fsprojects/FSharp.Data.GraphQL",
@@ -188,7 +212,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T13:06:07.840615+00:00",
+  "fetched_at": "2026-05-17T01:07:13.062582+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -200,7 +224,7 @@
     },
     {
       "path": ".github/workflows/copilot-setup-steps.yml",
-      "size": 1388
+      "size": 1522
     },
     {
       "path": ".github/workflows/publish-ci.yml",
@@ -213,6 +237,10 @@
     {
       "path": ".github/workflows/pull-request.yml",
       "size": 1256
+    },
+    {
+      "path": ".github/workflows/repo-assist.md",
+      "size": 22430
     }
   ],
   "related_repositories": [],
@@ -224,7 +252,7 @@
     "full_name": "fsprojects/FSharp.Data.GraphQL",
     "html_url": "https://github.com/fsprojects/FSharp.Data.GraphQL",
     "language": "F#",
-    "pushed_at": "2026-05-12T17:57:41Z",
+    "pushed_at": "2026-05-17T01:05:00Z",
     "stargazers_count": 407,
     "topics": [
       "fsharp",
@@ -233,7 +261,7 @@
       "react",
       "relay"
     ],
-    "updated_at": "2026-04-20T00:16:15Z"
+    "updated_at": "2026-05-17T00:53:58Z"
   },
   "repo_links": [
     {

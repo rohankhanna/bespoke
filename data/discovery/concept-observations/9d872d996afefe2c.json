@@ -84,7 +84,7 @@
   "normalized_form": "kitti",
   "observation_id": "9d872d996afefe2c",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-16T12:33:31.261420+00:00",
+  "observed_at": "2026-05-17T00:41:31.070805+00:00",
   "observed_text": "kitti",
   "source_context_snippet": "A general 3D Object Detection codebase in PyTorch.",
   "source_file": null,

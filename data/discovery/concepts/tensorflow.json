@@ -6088,11 +6088,47 @@
       "observed_at": "2026-05-16T18:25:29.547854+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T00:41:31.070805+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T00:41:31.070805+00:00",
+      "source_file": null,
+      "source_repo": "mgsalem/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T00:41:31.070805+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T00:41:31.070805+00:00",
+      "source_file": null,
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T00:41:31.070805+00:00",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T00:41:31.070805+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "last_seen_at": "2026-05-17T00:41:31.070805+00:00",
   "lexical_providers": [
     "datamuse"
   ],

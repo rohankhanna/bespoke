@@ -1564,11 +1564,17 @@
       "observed_at": "2026-05-16T18:25:29.547854+00:00",
       "source_file": null,
       "source_repo": "plotly/plotly.R"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T00:41:31.070805+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "last_seen_at": "2026-05-17T00:41:31.070805+00:00",
   "lexical_providers": [
     "datamuse"
   ],

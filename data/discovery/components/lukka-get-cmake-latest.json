@@ -1,7 +1,7 @@
 {
   "component": "lukka/get-cmake@latest",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "last_seen_at": "2026-05-17T00:41:31.070805+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

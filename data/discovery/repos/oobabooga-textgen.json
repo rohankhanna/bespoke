@@ -275,11 +275,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T18:26:20.340024+00:00",
+  "fetched_at": "2026-05-17T01:12:44.536698+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 31049
+      "size": 31047
     },
     {
       "path": ".github/workflows/build-everything-tgw.yml",
@@ -287,27 +287,27 @@
     },
     {
       "path": ".github/workflows/build-portable-release-cuda.yml",
-      "size": 8486
+      "size": 8505
     },
     {
       "path": ".github/workflows/build-portable-release-ik-cuda.yml",
-      "size": 8854
+      "size": 8873
     },
     {
       "path": ".github/workflows/build-portable-release-ik.yml",
-      "size": 8585
+      "size": 8604
     },
     {
       "path": ".github/workflows/build-portable-release-rocm.yml",
-      "size": 8171
+      "size": 8190
     },
     {
       "path": ".github/workflows/build-portable-release-vulkan.yml",
-      "size": 8174
+      "size": 8193
     },
     {
       "path": ".github/workflows/build-portable-release.yml",
-      "size": 9631
+      "size": 9650
     }
   ],
   "related_repositories": [],
@@ -319,10 +319,10 @@
     "full_name": "oobabooga/textgen",
     "html_url": "https://github.com/oobabooga/textgen",
     "language": "Python",
-    "pushed_at": "2026-05-16T17:48:42Z",
-    "stargazers_count": 47136,
+    "pushed_at": "2026-05-17T01:10:26Z",
+    "stargazers_count": 47141,
     "topics": [],
-    "updated_at": "2026-05-16T18:16:46Z"
+    "updated_at": "2026-05-17T01:10:30Z"
   },
   "repo_links": [
     {

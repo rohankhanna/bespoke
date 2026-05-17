@@ -2474,11 +2474,35 @@
       "observed_at": "2026-05-16T18:25:29.547854+00:00",
       "source_file": null,
       "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T00:41:31.070805+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T00:41:31.070805+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T00:41:31.070805+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T00:41:31.070805+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "last_seen_at": "2026-05-17T00:41:31.070805+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -333,7 +333,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T12:51:26.911096+00:00",
+  "fetched_at": "2026-05-17T00:55:34.935319+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -385,10 +385,10 @@
     "full_name": "triton-lang/triton",
     "html_url": "https://github.com/triton-lang/triton",
     "language": "MLIR",
-    "pushed_at": "2026-05-16T12:45:06Z",
-    "stargazers_count": 19193,
+    "pushed_at": "2026-05-16T15:35:16Z",
+    "stargazers_count": 19197,
     "topics": [],
-    "updated_at": "2026-05-16T12:45:12Z"
+    "updated_at": "2026-05-16T21:07:32Z"
   },
   "repo_links": [
     {

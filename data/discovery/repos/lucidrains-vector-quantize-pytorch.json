@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T13:12:51.789852+00:00",
+  "fetched_at": "2026-05-17T01:12:02.979157+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -64,8 +64,8 @@
     "full_name": "lucidrains/vector-quantize-pytorch",
     "html_url": "https://github.com/lucidrains/vector-quantize-pytorch",
     "language": "Python",
-    "pushed_at": "2026-05-08T13:15:40Z",
-    "stargazers_count": 3934,
+    "pushed_at": "2026-05-16T20:45:50Z",
+    "stargazers_count": 3935,
     "topics": [
       "artificial-intelligence",
       "deep-learning",
@@ -73,7 +73,7 @@
       "scalar-quantization",
       "vector-quantization"
     ],
-    "updated_at": "2026-05-15T16:32:00Z"
+    "updated_at": "2026-05-16T20:45:54Z"
   },
   "repo_links": [
     {
