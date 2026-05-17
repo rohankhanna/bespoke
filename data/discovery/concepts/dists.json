@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "dists"
+    "dists",
+    "Dists"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "dingkeyan93/IQA-optimization",
       "status": "candidate-context",
       "text": "This repository re-implemented the existing IQA models with PyTorch, including"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bobfang1992/pytomlpp",
+      "status": "candidate-context",
+      "text": "A python wrapper for tomlplusplus"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bobfang1992/pytomlpp",
+      "status": "candidate-context",
+      "text": "Dists"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "dingkeyan93/IQA-optimization",
       "status": "candidate",
       "text": "This repository re-implemented the existing IQA models with PyTorch, including"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bobfang1992/pytomlpp",
+      "status": "candidate",
+      "text": "Dists"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +97,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "dingkeyan93/IQA-optimization"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": ".github/workflows/dists.yml",
+      "source_repo": "bobfang1992/pytomlpp"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
   "lexical_providers": [
     "datamuse"
   ],

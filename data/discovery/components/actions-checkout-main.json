@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@main",
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-05-17T12:32:36.812189+00:00",
+  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -677,6 +677,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "MontrealCorpusTools/Montreal-Forced-Aligner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compile_hlsl.yml",
+      "source_repo": "floooh/sokol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gen_bindings.yml",
+      "source_repo": "floooh/sokol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "floooh/sokol"
     }
   ]
 }

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "OpenTK GLFW Redistributable"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opentk/glfw-redist",
+      "status": "candidate-context",
+      "text": "Redistributable for GLFW"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentk/glfw-redist",
+      "status": "candidate-context",
+      "text": "OpenTK GLFW Redistributable"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentk/glfw-redist",
+      "status": "candidate",
+      "text": "OpenTK GLFW Redistributable"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "computerised"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "customizable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "customized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "deployable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "directx"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "OpenTK GLFW Redistributable",
+  "concept_id": "opentk-glfw-redistributable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "opentk/glfw-redist"
+    }
+  ],
+  "first_seen_at": "2026-05-17T18:28:54.888436+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "OpenTK GLFW Redistributable",
+      "sense_id": "opentk-glfw-redistributable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

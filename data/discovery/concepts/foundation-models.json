@@ -1534,11 +1534,29 @@
       "observed_at": "2026-05-17T12:32:36.812189+00:00",
       "source_file": null,
       "source_repo": "InternRobotics/Aether"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": null,
+      "source_repo": "InternRobotics/Aether"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T12:32:36.812189+00:00",
+  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
   "lexical_providers": [
     "datamuse"
   ],

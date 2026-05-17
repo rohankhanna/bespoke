@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "altschuler/imgui-knobs",
+      "target": "dgriffin91/imgui-rs-knobs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "altschuler/imgui-knobs",
+      "target": "imgui",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-17T18:33:10.056645+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2847
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Knob widgets for Dear ImGui",
+    "fork": false,
+    "full_name": "altschuler/imgui-knobs",
+    "html_url": "https://github.com/altschuler/imgui-knobs",
+    "language": "C++",
+    "pushed_at": "2026-05-13T07:45:13Z",
+    "stargazers_count": 409,
+    "topics": [
+      "cpp",
+      "gui",
+      "imgui"
+    ],
+    "updated_at": "2026-05-13T16:21:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dgriffin91/imgui-rs-knobs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a port/adaptation of [imgui-rs-knobs](https://github.com/DGriffin91/imgui-rs-knobs), for C++.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imgui"
+    }
+  ]
+}

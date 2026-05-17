@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "The ultimate space for work and life \u2014 to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level \u2014 enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction."
+      "text": "LobeHub organizes your agents into 7\u00d724 operation. It hires, schedules, reports on your entire AI team. You stay in charge \u2014 without staying online."
     },
     {
       "source_kind": "source-snippet",
@@ -84,10 +84,10 @@
   "normalized_form": "bundle-analyzer",
   "observation_id": "0b48a0be2734b89e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-17T00:41:31.070805+00:00",
+  "observed_at": "2026-05-17T18:28:54.888436+00:00",
   "observed_text": "Bundle Analyzer",
   "source_context_snippet": "Bundle Analyzer",
   "source_file": ".github/workflows/bundle-analyzer.yml",
   "source_repo": "lobehub/lobehub",
-  "source_repo_description": "The ultimate space for work and life \u2014 to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level \u2014 enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction."
+  "source_repo_description": "LobeHub organizes your agents into 7\u00d724 operation. It hires, schedules, reports on your entire AI team. You stay in charge \u2014 without staying online."
 }

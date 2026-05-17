@@ -464,6 +464,18 @@
       "source_repo": "aandrew-me/ytDownloader",
       "status": "candidate-context",
       "text": "Build and Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "m-bain/whisperX",
+      "status": "candidate-context",
+      "text": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m-bain/whisperX",
+      "status": "candidate-context",
+      "text": "Build and release"
     }
   ],
   "candidate_glosses": [
@@ -706,6 +718,12 @@
       "source_repo": "aandrew-me/ytDownloader",
       "status": "candidate",
       "text": "Build and Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m-bain/whisperX",
+      "status": "candidate",
+      "text": "Build and release"
     }
   ],
   "candidate_related_terms": [
@@ -1307,11 +1325,23 @@
       "observed_at": "2026-05-17T12:32:36.812189+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": ".github/workflows/build-and-release.yml",
+      "source_repo": "m-bain/whisperX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nsfw-filter/nsfw-filter"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T12:32:36.812189+00:00",
+  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
   "lexical_providers": [
     "datamuse"
   ],

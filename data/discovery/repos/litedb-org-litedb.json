@@ -26,7 +26,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "litedb-org/LiteDB",
-      "target": "namigop/onebella",
+      "target": "rejemy/ultralitedb",
       "target_type": "repository"
     },
     {
@@ -65,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T08:21:23.862794+00:00",
+  "fetched_at": "2026-05-17T18:33:43.853681+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -90,7 +90,7 @@
       "litedb",
       "nosql"
     ],
-    "updated_at": "2026-05-15T18:20:28Z"
+    "updated_at": "2026-05-17T12:50:29Z"
   },
   "repo_links": [
     {
@@ -110,7 +110,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "namigop/onebella",
+      "full_name": "rejemy/ultralitedb",
       "source_file": "README.md"
     }
   ],

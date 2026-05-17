@@ -212,7 +212,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T12:48:59.422806+00:00",
+  "fetched_at": "2026-05-17T19:40:09.166010+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -224,7 +224,7 @@
     },
     {
       "path": ".github/workflows/copilot-setup-steps.yml",
-      "size": 1522
+      "size": 1552
     },
     {
       "path": ".github/workflows/publish-ci.yml",
@@ -240,7 +240,7 @@
     },
     {
       "path": ".github/workflows/repo-assist.md",
-      "size": 22430
+      "size": 22795
     }
   ],
   "related_repositories": [],
@@ -252,7 +252,7 @@
     "full_name": "fsprojects/FSharp.Data.GraphQL",
     "html_url": "https://github.com/fsprojects/FSharp.Data.GraphQL",
     "language": "F#",
-    "pushed_at": "2026-05-17T01:41:15Z",
+    "pushed_at": "2026-05-17T19:33:19Z",
     "stargazers_count": 407,
     "topics": [
       "fsharp",
@@ -261,7 +261,7 @@
       "react",
       "relay"
     ],
-    "updated_at": "2026-05-17T00:53:58Z"
+    "updated_at": "2026-05-17T18:02:23Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SFML/imgui-sfml",
+      "target": "mischa-alff/imgui-backends",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SFML/imgui-sfml",
+      "target": "eliasdaler/cmake-fetchcontent-tutorial-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SFML/imgui-sfml",
+      "target": "eliasdaler/imgui-sfml-fetchcontent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SFML/imgui-sfml",
+      "target": "bincrafters/community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "SFML/imgui-sfml",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "SFML/imgui-sfml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "SFML/imgui-sfml",
+      "target": "DoozyX/clang-format-lint-action@v0.16.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SFML/imgui-sfml",
+      "target": "binding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SFML/imgui-sfml",
+      "target": "imgui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SFML/imgui-sfml",
+      "target": "immediate-gui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SFML/imgui-sfml",
+      "target": "sfml",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-17T18:28:54.888436+00:00",
+  "source_repo": "SFML/imgui-sfml"
+}

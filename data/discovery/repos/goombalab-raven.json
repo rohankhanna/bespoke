@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-17T18:53:54.709921+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11232
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 655
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "goombalab/raven",
+    "html_url": "https://github.com/goombalab/raven",
+    "language": "Python",
+    "pushed_at": "2026-05-11T10:33:11Z",
+    "stargazers_count": 58,
+    "topics": [],
+    "updated_at": "2026-05-17T12:09:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

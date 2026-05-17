@@ -13849,6 +13849,7 @@
     "21d184b704579ebf",
     "31f842853ccf2c7c",
     "5ac0b83aca9056f1",
+    "6b94194d8f5220e1",
     "717445288c2f2f7b",
     "aa3706593114c259",
     "b09bbff2289f8260",
@@ -13885,6 +13886,7 @@
     "c2a19dfaae247893",
     "da33fb84712cfd67",
     "dce25da0f05f064b",
+    "ddf6a3b4bba39135",
     "ec0397b60cd345ab",
     "f2bb95ffb51c9cd0"
   ],
@@ -14404,6 +14406,7 @@
     "6982a7a74709a5d9"
   ],
   "blazingly-fast": [
+    "6d6a29fa09afc045",
     "eec1f60c17b08b4d"
   ],
   "blazor": [
@@ -18006,6 +18009,7 @@
     "e969d63116df2f07",
     "eb565993c15316f9",
     "f6f2f7f6fd3b0cb3",
+    "fc67f985fac78279",
     "fcf765008c5bafb2"
   ],
   "build-and-release-android": [
@@ -21437,6 +21441,7 @@
     "02e382a7a12f9246",
     "0c3e364463758f3e",
     "100d5549c36c3e35",
+    "10290062c7c0c81c",
     "155283b4e27b86e2",
     "1651f88643862f7d",
     "189e48e9e303ef9d",
@@ -52565,7 +52570,8 @@
     "83f5603ef080c065"
   ],
   "dists": [
-    "2fc3b318b2a7220c"
+    "2fc3b318b2a7220c",
+    "5d3dafc7ed5daf34"
   ],
   "dithering-algorithms": [
     "1a4eb85341797dc0"
@@ -78936,7 +78942,9 @@
     "ab6c26b58e38d8c4",
     "cf55421022984fb0",
     "e6594562a866552c",
+    "ea73e923fd887c17",
     "f36bd9a362ef3b74",
+    "f5dcbbd74b801ded",
     "f8ea97a35b99f57a"
   ],
   "imgui-filebrowser": [
@@ -78970,6 +78978,7 @@
     "fee4d7beee5d2c5a"
   ],
   "immediate-gui": [
+    "620ac10651e3bdea",
     "c3fe5e61ffffee6f",
     "e0733a4f55b06d63"
   ],
@@ -110790,6 +110799,9 @@
   "opentimelineio": [
     "571d6dc065991b16"
   ],
+  "opentk-glfw-redistributable": [
+    "8e3f42f813f5d310"
+  ],
   "opentofu": [
     "34188a652ebf40c0",
     "b30fd41737ac8df3",
@@ -112846,6 +112858,7 @@
     "741dbcf84379e1a2",
     "7451cf593a646d74",
     "74891b63ec0b1725",
+    "74c2b7f7bdb1a871",
     "7736cf9d1ecb333b",
     "7801b86f73267e52",
     "7b6d01ac7f9a9559",
@@ -124168,6 +124181,9 @@
   ],
   "python-wheels": [
     "0d608febb6ca7cdc"
+  ],
+  "python-wrapper": [
+    "6c5a270ae352629f"
   ],
   "python2": [
     "207195bebe8e0089",
@@ -137176,6 +137192,7 @@
     "a8d04a90656b762d",
     "a8f67b3e5a1e3d86",
     "a99b490ba4f53480",
+    "a9eec9e8ad5554c4",
     "aa1de9b7ca86303f",
     "aac595ec2b4033a2",
     "ab2818f040ca8df8",
@@ -141802,6 +141819,7 @@
   ],
   "sfml": [
     "4188d2197075f252",
+    "b8a8b51610fb6751",
     "f2dd24b307400e3b"
   ],
   "sft-data": [
@@ -145242,6 +145260,7 @@
     "305275d95418fe86",
     "35b13b3f75b30b08",
     "37bb377c71d5c922",
+    "3833d6c650c52213",
     "49eb38e5759713cf",
     "5c08749e1d1dbf5e",
     "5e8ef3d90bcbf09d",
@@ -145337,6 +145356,7 @@
     "bd34ac785683457c"
   ],
   "speech-recognition": [
+    "03c56bc962453275",
     "0e8c9ce0ae33b73d",
     "1128b8379a929a7e",
     "1706edbe902ae02f",
@@ -145496,6 +145516,7 @@
     "aa84ab72fc4eaeda",
     "aaab5b62e7405e5c",
     "abe03d487cd32b71",
+    "bd75d19e09eb3697",
     "c496b346c5c34e74",
     "d0d52cfa18d493f8",
     "dc74566d6b87df24",
@@ -155928,6 +155949,7 @@
     "37b420b68adfd9fa",
     "37b7863f58ec6d39",
     "388af64fb689b62b",
+    "38d6eb35b7effdb0",
     "3926d0e69f0807da",
     "393cee7fff942098",
     "39758fc2ab84c615",
@@ -158254,6 +158276,7 @@
   "toml": [
     "08ff1acc2f5f8860",
     "2525192984f53176",
+    "54e4ddff16ab082d",
     "6710e52b39a9d19d",
     "7ed1d85447ec3e27",
     "8094e7a36759fd7a",
@@ -158271,7 +158294,8 @@
     "dfe6480310b9cf3f"
   ],
   "toml-parser": [
-    "17260f112c5ac94c"
+    "17260f112c5ac94c",
+    "94ed82778c3e5b94"
   ],
   "toml-parsing": [
     "8b747a85d543f167"
@@ -159967,7 +159991,11 @@
   ],
   "trpc": [
     "1e2a86809c2c29af",
-    "71df62c927b61389"
+    "71df62c927b61389",
+    "85a663804de77fbf"
+  ],
+  "trpc-rs": [
+    "f151eb02d49a77a7"
   ],
   "trpo": [
     "467febe9e6773484"
@@ -171020,6 +171048,7 @@
     "315984236853e5d4",
     "348de4a98cd369ed",
     "3c3bfc8a951ab64c",
+    "3f09c3f91b84652a",
     "4253843cc97cb3f4",
     "55fd5a68664b9f1c",
     "61c2f2a9da7de085",

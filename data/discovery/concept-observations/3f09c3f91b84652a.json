@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">WhisperX</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">WhisperX</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008895,
+      "status": "candidate",
+      "text": "rustle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39864780,
+      "status": "candidate",
+      "text": "rustling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030457,
+      "status": "candidate",
+      "text": "murmur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022460,
+      "status": "candidate",
+      "text": "rumor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018822,
+      "status": "candidate",
+      "text": "shade"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "whisper",
+      "sense_id": "whisper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28034,
+      "status": "candidate",
+      "text": "rustle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6024,
+      "status": "candidate",
+      "text": "rustling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1029,
+      "status": "candidate",
+      "text": "whispering"
+    }
+  ],
+  "concept_id": "whisper",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "whisper",
+  "observation_id": "3f09c3f91b84652a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-17T18:28:54.888436+00:00",
+  "observed_text": "whisper",
+  "source_context_snippet": "<h1 align=\"center\">WhisperX</h1>",
+  "source_file": null,
+  "source_repo": "m-bain/whisperX",
+  "source_repo_description": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)"
+}

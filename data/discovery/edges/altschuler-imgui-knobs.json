@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "altschuler/imgui-knobs",
+      "target": "dgriffin91/imgui-rs-knobs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "altschuler/imgui-knobs",
+      "target": "imgui",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-17T18:28:54.888436+00:00",
+  "source_repo": "altschuler/imgui-knobs"
+}

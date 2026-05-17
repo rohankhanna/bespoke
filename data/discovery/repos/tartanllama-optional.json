@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-17T18:33:09.129142+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4370
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++11/14/17 std::optional with functional-style extensions and reference support",
+    "fork": false,
+    "full_name": "TartanLlama/optional",
+    "html_url": "https://github.com/TartanLlama/optional",
+    "language": "C++",
+    "pushed_at": "2024-06-10T20:36:47Z",
+    "stargazers_count": 922,
+    "topics": [],
+    "updated_at": "2026-04-24T18:37:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

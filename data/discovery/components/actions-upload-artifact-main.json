@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@main",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -112,6 +112,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/auto-complete-cicd-review.yml",
       "source_repo": "HyperionGray/python-chrome-devtools-protocol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compile_hlsl.yml",
+      "source_repo": "floooh/sokol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gen_bindings.yml",
+      "source_repo": "floooh/sokol"
     }
   ]
 }

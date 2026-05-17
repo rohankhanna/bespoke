@@ -106,7 +106,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T13:44:32.602271+00:00",
+  "fetched_at": "2026-05-17T20:00:29.073897+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -131,13 +131,13 @@
     "html_url": "https://github.com/ash-rs/ash",
     "language": "Rust",
     "pushed_at": "2026-05-08T08:28:44Z",
-    "stargazers_count": 2267,
+    "stargazers_count": 2268,
     "topics": [
       "gamedev",
       "rust",
       "vulkan"
     ],
-    "updated_at": "2026-05-17T03:19:05Z"
+    "updated_at": "2026-05-17T19:56:02Z"
   },
   "repo_links": [
     {

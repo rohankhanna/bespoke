@@ -1,7 +1,7 @@
 {
   "component": "throttle",
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
-  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

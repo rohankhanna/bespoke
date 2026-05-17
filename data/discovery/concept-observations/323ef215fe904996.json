@@ -41,12 +41,14 @@
   "definition_status": "unresolved",
   "discovered_via": "repo-topic",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "gulp-tasks",
   "observation_id": "323ef215fe904996",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-17T07:06:43.204320+00:00",
+  "observed_at": "2026-05-17T18:28:54.888436+00:00",
   "observed_text": "gulp-tasks",
   "source_context_snippet": "gulp-nodemon",
   "source_file": null,

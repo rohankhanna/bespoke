@@ -126,7 +126,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T12:42:23.456924+00:00",
+  "fetched_at": "2026-05-17T19:31:31.828796+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -154,8 +154,8 @@
     "full_name": "webinstall/webi-installers",
     "html_url": "https://github.com/webinstall/webi-installers",
     "language": "Shell",
-    "pushed_at": "2026-05-17T04:17:56Z",
-    "stargazers_count": 2874,
+    "pushed_at": "2026-05-17T16:15:11Z",
+    "stargazers_count": 2876,
     "topics": [
       "brew",
       "hacktoberfest",
@@ -166,7 +166,7 @@
       "wsl-ubuntu",
       "wsl2"
     ],
-    "updated_at": "2026-05-17T05:00:49Z"
+    "updated_at": "2026-05-17T16:15:11Z"
   },
   "repo_links": [
     {

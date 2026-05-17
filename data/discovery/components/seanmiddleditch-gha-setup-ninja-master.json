@@ -1,7 +1,7 @@
 {
   "component": "seanmiddleditch/gha-setup-ninja@master",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -262,6 +262,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "free-audio/clap-host"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gen_bindings.yml",
+      "source_repo": "floooh/sokol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "floooh/sokol"
     }
   ]
 }

@@ -127,6 +127,18 @@
       "source_repo": "zeromq/cppzmq",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/zeromq/cppzmq/actions/workflows/ci.yml/badge.svg)](https://github.com/zeromq/cppzmq/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SFML/imgui-sfml",
+      "status": "candidate-context",
+      "text": "Dear ImGui backend for use with SFML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SFML/imgui-sfml",
+      "status": "candidate-context",
+      "text": "ImGui-SFML"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "zeromq/cppzmq",
       "status": "candidate",
       "text": "[![CI](https://github.com/zeromq/cppzmq/actions/workflows/ci.yml/badge.svg)](https://github.com/zeromq/cppzmq/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SFML/imgui-sfml",
+      "status": "candidate",
+      "text": "ImGui-SFML"
     }
   ],
   "candidate_related_terms": [
@@ -328,11 +346,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "zeromq/cppzmq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": null,
+      "source_repo": "SFML/imgui-sfml"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
   "lexical_providers": [
     "datamuse"
   ],

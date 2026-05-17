@@ -272,7 +272,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T08:26:24.820357+00:00",
+  "fetched_at": "2026-05-17T18:40:54.562147+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -284,35 +284,35 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 42
+      "size": 142
     },
     {
       "path": ".github/workflows/add-to-project.yml",
-      "size": 411
+      "size": 526
     },
     {
       "path": ".github/workflows/deploy-production.yml",
-      "size": 1174
+      "size": 1270
     },
     {
       "path": ".github/workflows/deploy-staging.yml",
-      "size": 1150
+      "size": 1243
     },
     {
       "path": ".github/workflows/detect-conflicts.yml",
-      "size": 546
+      "size": 623
     },
     {
       "path": ".github/workflows/issue-manager.yml",
-      "size": 1908
+      "size": 1996
     },
     {
       "path": ".github/workflows/labeler.yml",
-      "size": 897
+      "size": 997
     },
     {
       "path": ".github/workflows/latest-changes.yml",
-      "size": 1189
+      "size": 1471
     }
   ],
   "related_repositories": [],
@@ -324,8 +324,8 @@
     "full_name": "fastapi/full-stack-fastapi-template",
     "html_url": "https://github.com/fastapi/full-stack-fastapi-template",
     "language": "TypeScript",
-    "pushed_at": "2026-05-16T10:12:56Z",
-    "stargazers_count": 43185,
+    "pushed_at": "2026-05-17T10:41:28Z",
+    "stargazers_count": 43198,
     "topics": [
       "backend",
       "chakra-ui",
@@ -347,7 +347,7 @@
       "traefik",
       "typescript"
     ],
-    "updated_at": "2026-05-17T04:50:57Z"
+    "updated_at": "2026-05-17T18:12:09Z"
   },
   "repo_links": [],
   "terms": [

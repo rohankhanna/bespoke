@@ -64290,6 +64290,9 @@
   "opentimelineio": [
     "opentimelineio"
   ],
+  "opentk glfw redistributable": [
+    "opentk-glfw-redistributable"
+  ],
   "opentofu": [
     "opentofu"
   ],
@@ -72524,6 +72527,9 @@
   ],
   "python-wheels": [
     "python-wheels"
+  ],
+  "python-wrapper": [
+    "python-wrapper"
   ],
   "python2": [
     "python2"
@@ -91812,6 +91818,9 @@
   ],
   "trpc": [
     "trpc"
+  ],
+  "trpc-rs": [
+    "trpc-rs"
   ],
   "trpo": [
     "trpo"

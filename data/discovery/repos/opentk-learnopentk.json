@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-17T18:33:39.557497+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 340
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A port of learnopengl.com's tutorials to OpenTK and C#.",
+    "fork": false,
+    "full_name": "opentk/LearnOpenTK",
+    "html_url": "https://github.com/opentk/LearnOpenTK",
+    "language": "C#",
+    "pushed_at": "2025-05-03T23:50:40Z",
+    "stargazers_count": 499,
+    "topics": [],
+    "updated_at": "2026-05-06T10:24:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

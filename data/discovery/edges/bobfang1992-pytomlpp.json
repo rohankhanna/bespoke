@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "burntsushi/toml-test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "conda-forge/pytomlpp-feedstock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml",
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml",
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml",
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml",
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml",
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "DoozyX/clang-format-lint-action@v0.18",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml",
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "actions/download-artifact@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml",
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "pypa/gh-action-pypi-publish@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dists.yml",
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "Dists",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "python-wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "toml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "toml-parser",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-17T18:28:54.888436+00:00",
+  "source_repo": "bobfang1992/pytomlpp"
+}

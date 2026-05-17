@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "opentk/glfw-redist",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "opentk/glfw-redist",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "opentk/glfw-redist",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "opentk/glfw-redist",
+      "target": "OpenTK GLFW Redistributable",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-17T18:33:38.413397+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1340
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1527
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Redistributable for GLFW",
+    "fork": false,
+    "full_name": "opentk/glfw-redist",
+    "html_url": "https://github.com/opentk/glfw-redist",
+    "language": "PowerShell",
+    "pushed_at": "2025-10-19T15:13:08Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-10-19T15:13:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "OpenTK GLFW Redistributable",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "OpenTK GLFW Redistributable"
+    }
+  ]
+}

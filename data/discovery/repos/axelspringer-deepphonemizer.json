@@ -124,7 +124,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T13:35:56.025977+00:00",
+  "fetched_at": "2026-05-17T19:44:57.387342+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -149,7 +149,7 @@
     "html_url": "https://github.com/axelspringer/DeepPhonemizer",
     "language": "Python",
     "pushed_at": "2023-12-08T01:21:20Z",
-    "stargazers_count": 428,
+    "stargazers_count": 427,
     "topics": [
       "deep-learning",
       "g2p",
@@ -160,7 +160,7 @@
       "pytorch",
       "transformer"
     ],
-    "updated_at": "2026-04-27T05:46:31Z"
+    "updated_at": "2026-05-17T14:37:20Z"
   },
   "repo_links": [
     {

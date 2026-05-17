@@ -789,6 +789,18 @@
       "source_repo": "mike-lischke/antlr4ng",
       "status": "candidate-context",
       "text": "Build & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "floooh/sokol",
+      "status": "candidate-context",
+      "text": "minimal cross-platform standalone C headers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "floooh/sokol",
+      "status": "candidate-context",
+      "text": "\"Build & Test\""
     }
   ],
   "candidate_glosses": [
@@ -1187,6 +1199,12 @@
       "source_repo": "mike-lischke/antlr4ng",
       "status": "candidate",
       "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "floooh/sokol",
+      "status": "candidate",
+      "text": "\"Build & Test\""
     }
   ],
   "candidate_related_terms": [
@@ -3972,11 +3990,59 @@
       "observed_at": "2026-05-17T12:32:36.812189+00:00",
       "source_file": ".github/workflows/build-test.yml",
       "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "react/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "floooh/sokol"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Microsoft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Google"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dwyl/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gobackup/gobackup"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T12:32:36.812189+00:00",
+  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
   "lexical_providers": [
     "datamuse"
   ],

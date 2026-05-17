@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "DoozyX/clang-format-lint-action@v0.16.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SFML/imgui-sfml",
+      "target": "mischa-alff/imgui-backends",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SFML/imgui-sfml",
+      "target": "eliasdaler/cmake-fetchcontent-tutorial-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SFML/imgui-sfml",
+      "target": "eliasdaler/imgui-sfml-fetchcontent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SFML/imgui-sfml",
+      "target": "bincrafters/community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "SFML/imgui-sfml",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "SFML/imgui-sfml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "SFML/imgui-sfml",
+      "target": "DoozyX/clang-format-lint-action@v0.16.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SFML/imgui-sfml",
+      "target": "binding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SFML/imgui-sfml",
+      "target": "imgui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SFML/imgui-sfml",
+      "target": "immediate-gui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SFML/imgui-sfml",
+      "target": "sfml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-17T18:33:23.614139+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11273
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3733
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dear ImGui backend for use with SFML",
+    "fork": false,
+    "full_name": "SFML/imgui-sfml",
+    "html_url": "https://github.com/SFML/imgui-sfml",
+    "language": "C++",
+    "pushed_at": "2026-04-27T04:25:01Z",
+    "stargazers_count": 1347,
+    "topics": [
+      "binding",
+      "gui",
+      "imgui",
+      "immediate-gui",
+      "sfml"
+    ],
+    "updated_at": "2026-05-14T11:42:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bincrafters/community",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eliasdaler/cmake-fetchcontent-tutorial-code",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eliasdaler/imgui-sfml-fetchcontent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mischa-alff/imgui-backends",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ImGui-SFML",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binding"
+    },
+    {
+      "context_snippet": "ImGui-SFML",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imgui"
+    },
+    {
+      "context_snippet": "ImGui-SFML",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "immediate-gui"
+    },
+    {
+      "context_snippet": "ImGui-SFML",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sfml"
+    }
+  ]
+}

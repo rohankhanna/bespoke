@@ -1931,6 +1931,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lobehub/lobehub",
+      "target": "actions/workflows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobehub",
       "target": "lobehub/lobe-commit",
       "target_type": "repository"
     },
@@ -4721,7 +4728,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T01:07:29.034704+00:00",
+  "fetched_at": "2026-05-17T19:40:24.815798+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -4733,7 +4740,7 @@
     },
     {
       "path": "package.json",
-      "size": 22875
+      "size": 22876
     },
     {
       "path": ".github/workflows/auto-i18n.yml",
@@ -4768,13 +4775,13 @@
   "repo": {
     "archived": false,
     "default_branch": "canary",
-    "description": "The ultimate space for work and life \u2014 to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level \u2014 enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
+    "description": "LobeHub organizes your agents into 7\u00d724 operation. It hires, schedules, reports on your entire AI team. You stay in charge \u2014 without staying online.",
     "fork": false,
     "full_name": "lobehub/lobehub",
     "html_url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
-    "pushed_at": "2026-05-17T01:04:19Z",
-    "stargazers_count": 77162,
+    "pushed_at": "2026-05-17T19:17:57Z",
+    "stargazers_count": 77205,
     "topics": [
       "agent",
       "agent-collaboration",
@@ -4789,9 +4796,14 @@
       "mcp",
       "openai"
     ],
-    "updated_at": "2026-05-17T01:06:33Z"
+    "updated_at": "2026-05-17T19:31:18Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "actions/workflows",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "lobehub/lobe-commit",

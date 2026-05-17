@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A python wrapper for tomlplusplus"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Conda Status](https://anaconda.org/conda-forge/pytomlpp/badges/version.svg)](https://anaconda.org/conda-forge/pytomlpp)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Conda Status](https://anaconda.org/conda-forge/pytomlpp/badges/version.svg)](https://anaconda.org/conda-forge/pytomlpp)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "python-wrapper",
+      "sense_id": "python-wrapper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "python-wrapper",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "python-wrapper",
+  "observation_id": "6c5a270ae352629f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-17T18:28:54.888436+00:00",
+  "observed_text": "python-wrapper",
+  "source_context_snippet": "[![Conda Status](https://anaconda.org/conda-forge/pytomlpp/badges/version.svg)](https://anaconda.org/conda-forge/pytomlpp)",
+  "source_file": null,
+  "source_repo": "bobfang1992/pytomlpp",
+  "source_repo_description": "A python wrapper for tomlplusplus"
+}

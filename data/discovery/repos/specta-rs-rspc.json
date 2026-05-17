@@ -1,0 +1,134 @@
+{
+  "components": [
+    {
+      "component": "biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "turbo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "specta-rs/rspc",
+      "target": "specta-rs/specta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "specta-rs/rspc",
+      "target": "biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "specta-rs/rspc",
+      "target": "turbo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "specta-rs/rspc",
+      "target": "blazingly-fast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "specta-rs/rspc",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "specta-rs/rspc",
+      "target": "trpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "specta-rs/rspc",
+      "target": "trpc-rs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-17T18:33:27.587815+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2083
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1865
+    },
+    {
+      "path": "package.json",
+      "size": 1064
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A framework for building typesafe web backends in Rust",
+    "fork": false,
+    "full_name": "specta-rs/rspc",
+    "html_url": "https://github.com/specta-rs/rspc",
+    "language": "Rust",
+    "pushed_at": "2025-11-24T10:02:10Z",
+    "stargazers_count": 1376,
+    "topics": [
+      "api",
+      "blazingly-fast",
+      "rust",
+      "trpc",
+      "trpc-rs",
+      "typescript"
+    ],
+    "updated_at": "2026-05-15T07:39:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "specta-rs/specta",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blazingly-fast"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trpc"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trpc-rs"
+    }
+  ]
+}

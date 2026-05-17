@@ -283,6 +283,18 @@
       "source_repo": "heimoshuiyu/whisper-fastapi",
       "status": "candidate-context",
       "text": "Whisper-FastAPI is a very simple Python FastAPI interface for konele and OpenAI services. It is based on the `faster-whisper` project and provides an API for konele-like interface, where translations and transcriptions can be obtained by connecting over websockets or POST reques\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "m-bain/whisperX",
+      "status": "candidate-context",
+      "text": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m-bain/whisperX",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">WhisperX</h1>"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +435,12 @@
       "source_repo": "heimoshuiyu/whisper-fastapi",
       "status": "candidate",
       "text": "Whisper-FastAPI is a very simple Python FastAPI interface for konele and OpenAI services. It is based on the `faster-whisper` project and provides an API for konele-like interface, where translations and transcriptions can be obtained by connecting over websockets or POST reques\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m-bain/whisperX",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">WhisperX</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -1604,11 +1622,47 @@
       "observed_at": "2026-05-17T12:32:36.812189+00:00",
       "source_file": null,
       "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": null,
+      "source_repo": "SYSTRAN/faster-whisper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": null,
+      "source_repo": "m-bain/whisperX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": null,
+      "source_repo": "collabora/WhisperLive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T12:32:36.812189+00:00",
+  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
   "lexical_providers": [
     "datamuse"
   ],

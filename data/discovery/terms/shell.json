@@ -1,6 +1,6 @@
 {
-  "first_seen_at": "2026-05-17T12:32:36.812189+00:00",
-  "last_seen_at": "2026-05-17T12:32:36.812189+00:00",
+  "first_seen_at": "2026-05-17T18:28:54.888436+00:00",
+  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -11,26 +11,6 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "denysdovhan/robbyrussell-node"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "spaceship-prompt/spaceship-prompt"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "ohmyzsh/ohmyzsh"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "nodenv/nodenv"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "nvm-sh/nvm"
     }
   ],
   "term": "shell"

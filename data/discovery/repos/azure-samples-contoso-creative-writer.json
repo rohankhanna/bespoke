@@ -286,7 +286,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T12:46:57.127817+00:00",
+  "fetched_at": "2026-05-17T19:37:28.242944+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -323,7 +323,7 @@
     "html_url": "https://github.com/Azure-Samples/contoso-creative-writer",
     "language": "Bicep",
     "pushed_at": "2026-02-11T11:15:08Z",
-    "stargazers_count": 421,
+    "stargazers_count": 422,
     "topics": [
       "agents",
       "ai-azd-templates",
@@ -336,7 +336,7 @@
       "chatgpt",
       "openai"
     ],
-    "updated_at": "2026-04-30T23:58:54Z"
+    "updated_at": "2026-05-17T14:16:42Z"
   },
   "repo_links": [
     {

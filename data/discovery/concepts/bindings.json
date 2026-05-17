@@ -250,6 +250,18 @@
       "source_repo": "adumbidiot/lz-str-rs",
       "status": "candidate-context",
       "text": "Bindings"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "floooh/sokol",
+      "status": "candidate-context",
+      "text": "minimal cross-platform standalone C headers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "floooh/sokol",
+      "status": "candidate-context",
+      "text": "Bindings"
     }
   ],
   "candidate_glosses": [
@@ -370,6 +382,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "adumbidiot/lz-str-rs",
+      "status": "candidate",
+      "text": "Bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "floooh/sokol",
       "status": "candidate",
       "text": "Bindings"
     }
@@ -847,11 +865,23 @@
       "observed_at": "2026-05-17T07:06:43.204320+00:00",
       "source_file": null,
       "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": ".github/workflows/gen_bindings.yml",
+      "source_repo": "floooh/sokol"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-tracy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
   "lexical_providers": [
     "datamuse"
   ],

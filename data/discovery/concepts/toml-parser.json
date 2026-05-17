@@ -19,6 +19,18 @@
       "source_repo": "marzer/tomlplusplus",
       "status": "candidate-context",
       "text": "[![banner](docs/images/banner.png)][homepage]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bobfang1992/pytomlpp",
+      "status": "candidate-context",
+      "text": "A python wrapper for tomlplusplus"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bobfang1992/pytomlpp",
+      "status": "candidate-context",
+      "text": "[![Conda Status](https://anaconda.org/conda-forge/pytomlpp/badges/version.svg)](https://anaconda.org/conda-forge/pytomlpp)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "marzer/tomlplusplus",
       "status": "candidate",
       "text": "[![banner](docs/images/banner.png)][homepage]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bobfang1992/pytomlpp",
+      "status": "candidate",
+      "text": "[![Conda Status](https://anaconda.org/conda-forge/pytomlpp/badges/version.svg)](https://anaconda.org/conda-forge/pytomlpp)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-17T07:06:43.204320+00:00",
       "source_file": null,
       "source_repo": "marzer/tomlplusplus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T18:28:54.888436+00:00",
+      "source_file": null,
+      "source_repo": "bobfang1992/pytomlpp"
     }
   ],
   "first_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
   "lexical_providers": [
     "datamuse"
   ],

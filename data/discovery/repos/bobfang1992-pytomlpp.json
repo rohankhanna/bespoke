@@ -1,0 +1,238 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml"
+    },
+    {
+      "component": "DoozyX/clang-format-lint-action@v0.18",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "burntsushi/toml-test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "conda-forge/pytomlpp-feedstock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml",
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml",
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml",
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml",
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml",
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "DoozyX/clang-format-lint-action@v0.18",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml",
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "actions/download-artifact@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dists.yml",
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "pypa/gh-action-pypi-publish@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dists.yml",
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "Dists",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "python-wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "toml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bobfang1992/pytomlpp",
+      "target": "toml-parser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-17T18:33:06.670563+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6429
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1562
+    },
+    {
+      "path": ".github/workflows/dists.yml",
+      "size": 3146
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A python wrapper for tomlplusplus",
+    "fork": false,
+    "full_name": "bobfang1992/pytomlpp",
+    "html_url": "https://github.com/bobfang1992/pytomlpp",
+    "language": "C++",
+    "pushed_at": "2025-11-30T02:05:08Z",
+    "stargazers_count": 94,
+    "topics": [
+      "parser",
+      "python",
+      "python-wrapper",
+      "toml",
+      "toml-parser"
+    ],
+    "updated_at": "2026-01-23T12:36:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "burntsushi/toml-test",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conda-forge/pytomlpp-feedstock",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dists",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dists.yml",
+      "term": "Dists"
+    },
+    {
+      "context_snippet": "[![Conda Status](https://anaconda.org/conda-forge/pytomlpp/badges/version.svg)](https://anaconda.org/conda-forge/pytomlpp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "[![Conda Status](https://anaconda.org/conda-forge/pytomlpp/badges/version.svg)](https://anaconda.org/conda-forge/pytomlpp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-wrapper"
+    },
+    {
+      "context_snippet": "[![Conda Status](https://anaconda.org/conda-forge/pytomlpp/badges/version.svg)](https://anaconda.org/conda-forge/pytomlpp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toml"
+    },
+    {
+      "context_snippet": "[![Conda Status](https://anaconda.org/conda-forge/pytomlpp/badges/version.svg)](https://anaconda.org/conda-forge/pytomlpp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toml-parser"
+    }
+  ]
+}
