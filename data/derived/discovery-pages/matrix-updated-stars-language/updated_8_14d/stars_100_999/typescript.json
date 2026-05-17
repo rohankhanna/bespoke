@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 704,
-    "concepts": 161,
-    "observations": 161,
-    "repos": 22,
-    "terms": 159
+    "components": 566,
+    "concepts": 130,
+    "observations": 130,
+    "repos": 16,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,27 +12,21 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
-    "agentclientprotocol/typescript-sdk",
-    "AgnosticUI/agnosticui",
     "Agoric/agoric-sdk",
     "ansible/vscode-ansible",
     "antvis/GPT-Vis",
     "carbon-design-system/carbon-components-angular",
-    "carbon-design-system/sveld",
     "embroider-build/ember-auto-import",
     "foundry-rs/foundry-toolchain",
     "ftonato/nope-validator",
-    "huggingface/hf-mcp-server",
     "inversify/monorepo",
     "lambdalisue/vim-gin",
     "LuaLS/vscode-lua",
     "mswjs/interceptors",
     "P4sca1/cron-schedule",
     "safe-fndn/safe-singleton-factory",
-    "SkepticMystic/breadcrumbs",
-    "unjs/listhen",
     "victorgarciaesgi/regle",
     "wevm/abitype",
     "xdebug/vscode-php-debug"

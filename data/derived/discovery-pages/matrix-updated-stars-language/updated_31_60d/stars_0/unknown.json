@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 40,
-    "terms": 41
+    "components": 22,
+    "concepts": 36,
+    "observations": 36,
+    "repos": 41,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "aaronrsun/spec-kit-issue",
     "adiny/moodtrip-hotel-search",
     "cachix/crossterm",
+    "cachix/nix-bindings-rust",
     "csjgg/ags-cookbook",
+    "danielrosehill/Agent-Assisted-Purchase-Research-Index",
     "danielrosehill/Agent-Journal",
     "danielrosehill/Agent-Skills",
     "danielrosehill/AI-Browser-Tools",
@@ -45,7 +47,6 @@
     "danielrosehill/Price-Research-Index",
     "danielrosehill/Research-Tools-And-Templates-Index",
     "danielrosehill/Skills-Repos-Index",
-    "hermit-os/tokio",
     "kdn36/arrow-rs-object-store",
     "lakekeeper/nats.rs",
     "PetervanLunteren/EcoAssist-metadata",

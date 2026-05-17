@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 246,
-    "concepts": 211,
-    "observations": 211,
-    "repos": 22,
-    "terms": 211
+    "components": 197,
+    "concepts": 152,
+    "observations": 152,
+    "repos": 18,
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "agentclientprotocol/agent-client-protocol",
     "apache/datafusion",
@@ -28,10 +28,6 @@
     "josh-project/josh",
     "JuliaLang/juliaup",
     "lance-format/lance",
-    "MaterializeInc/materialize",
-    "nats-io/nats.rs",
-    "robustmq/robustmq",
-    "ron-rs/ron",
     "ros2-rust/ros2_rust",
     "rust-lang/flate2-rs",
     "rust-lang/portable-simd",

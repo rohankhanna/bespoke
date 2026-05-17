@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 42,
-    "concepts": 30,
-    "observations": 30,
+    "components": 34,
+    "concepts": 28,
+    "observations": 28,
     "repos": 4,
-    "terms": 28
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "nodenv/nodenv",
+    "ROCm/ROCm",
     "scop/bash-completion",
-    "webinstall/webi-installers",
-    "yt-dlp/FFmpeg-Builds"
+    "webinstall/webi-installers"
   ]
 }

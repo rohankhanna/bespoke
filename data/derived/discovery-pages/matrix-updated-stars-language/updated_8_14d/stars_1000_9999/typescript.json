@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1247,
-    "concepts": 262,
-    "observations": 263,
-    "repos": 30,
-    "terms": 260
+    "components": 893,
+    "concepts": 194,
+    "observations": 195,
+    "repos": 21,
+    "terms": 192
   },
   "facet_version": 1,
   "filters": {
@@ -12,37 +12,28 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "antvis/mcp-server-chart",
     "apify/fingerprint-suite",
-    "apollographql/apollo-client-devtools",
     "benchmark-action/github-action-benchmark",
-    "boxlite-ai/boxlite",
-    "carbon-design-system/carbon-components-svelte",
-    "ChromeDevTools/devtools-protocol",
     "cucumber/cucumber-js",
     "cursorless-dev/cursorless",
     "enricoros/big-AGI",
-    "firebase/quickstart-js",
     "Floorp-Projects/Floorp",
+    "google-gemini/live-api-web-console",
     "graphql/graphql-playground",
     "inokawa/virtua",
     "kelektiv/node-cron",
-    "ng-packagr/ng-packagr",
     "NomicFoundation/hardhat",
     "obsidianmd/obsidian-clipper",
     "open-telemetry/opentelemetry-demo",
     "react-cosmos/react-cosmos",
     "safe-fndn/safe-smart-account",
-    "SilentVoid13/Templater",
     "solidjs-community/solid-primitives",
-    "storybookjs/react-native",
-    "timmywil/panzoom",
     "TypeScriptToLua/TypeScriptToLua",
     "unjs/unhead",
     "vite-pwa/vite-plugin-pwa",
-    "vitejs/devtools",
     "withcatai/node-llama-cpp"
   ]
 }

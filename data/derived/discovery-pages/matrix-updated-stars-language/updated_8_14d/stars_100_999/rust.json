@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 146,
-    "concepts": 97,
-    "observations": 98,
-    "repos": 13,
-    "terms": 97
+    "components": 82,
+    "concepts": 67,
+    "observations": 68,
+    "repos": 9,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "aannoo/hcom",
     "agentclientprotocol/rust-sdk",
     "attackgoat/vk-graph",
-    "cosmos/solidity-ibc-eureka",
     "dprint/dprint-plugin-typescript",
     "iqlusioninc/crates",
     "kornia/kornia-rs",
-    "left-curve/left-curve",
     "open-telemetry/weaver",
-    "paradigmxyz/solar",
     "rust-lang/stdarch",
-    "utilityai/llama-cpp-rs",
-    "z-galaxy/zbus"
+    "utilityai/llama-cpp-rs"
   ]
 }

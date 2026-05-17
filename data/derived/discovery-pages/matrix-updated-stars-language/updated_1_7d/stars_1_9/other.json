@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 11,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 3,
-    "terms": 12
+    "concepts": 16,
+    "observations": 16,
+    "repos": 4,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "Aayushm24/presidential-briefing",
+    "apache/casbin-casbin.io",
     "atsushieno/aap-juce-simple-host",
     "nafg/jewish-date"
   ]

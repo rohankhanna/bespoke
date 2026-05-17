@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 179,
-    "concepts": 239,
-    "observations": 241,
-    "repos": 34,
-    "terms": 233
+    "components": 185,
+    "concepts": 267,
+    "observations": 270,
+    "repos": 37,
+    "terms": 260
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "adambard/learnxinyminutes-docs",
+    "alexandresanlim/Badges4-README.md-Profile",
     "AppFlowy-IO/AppFlowy",
+    "AudioKit/AudioKit",
     "cmderdev/cmder",
     "Cysharp/UniTask",
     "devicons/devicon",
@@ -31,6 +33,8 @@
     "heartcombo/devise",
     "ianyh/Amethyst",
     "Ileriayo/markdown-badges",
+    "ImranR98/Obtainium",
+    "isocpp/CppCoreGuidelines",
     "JamesNK/Newtonsoft.Json",
     "junegunn/fzf.vim",
     "koalaman/shellcheck",
@@ -43,7 +47,6 @@
     "nvim-treesitter/nvim-treesitter",
     "openai/CLIP",
     "reasonml/reason",
-    "ryanoasis/nerd-fonts",
     "Seldaek/monolog",
     "Swordfish90/cool-retro-term",
     "tmuxinator/tmuxinator",

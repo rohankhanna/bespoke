@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 611,
-    "concepts": 792,
-    "observations": 793,
-    "repos": 78,
-    "terms": 789
+    "components": 646,
+    "concepts": 816,
+    "observations": 817,
+    "repos": 80,
+    "terms": 813
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "alibaba/spring-ai-alibaba",
@@ -91,6 +91,8 @@
     "sqlancer/sqlancer",
     "swagger-api/swagger-core",
     "testng-team/testng",
-    "tlaplus/tlaplus"
+    "tlaplus/tlaplus",
+    "unicode-org/cldr",
+    "validator/validator"
   ]
 }

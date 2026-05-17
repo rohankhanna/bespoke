@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2581,
-    "concepts": 587,
-    "observations": 596,
-    "repos": 107,
-    "terms": 582
+    "components": 2556,
+    "concepts": 563,
+    "observations": 572,
+    "repos": 104,
+    "terms": 558
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
     "adamlui/ai-web-extensions",
-    "AdguardTeam/HostlistCompiler",
     "AdguardTeam/Scriptlets",
     "all-contributors/app",
     "americanexpress/jest-json-schema",
@@ -51,7 +50,6 @@
     "ember-cli/ember-cli-update",
     "emberjs/ember-qunit",
     "emberjs/ember-test-helpers",
-    "eslint-community/eslint-plugin-n",
     "evenchange4/graphql.macro",
     "facebook/Rapid",
     "fastify/fastify-autoload",
@@ -60,7 +58,6 @@
     "GDevelopApp/GDevelop-examples",
     "GordonChen19/Prompt-Relay",
     "graphql/graphql-over-http",
-    "graphql/graphql-wg",
     "higlass/higlass",
     "hudochenkov/postcss-sorting",
     "hyparam/icebird",
@@ -74,7 +71,6 @@
     "jest-community/jest-junit",
     "keithamus/sort-package-json",
     "Kilian/electron-to-chromium",
-    "kriszyp/lmdb-js",
     "kriszyp/msgpackr",
     "kurrent-io/KurrentDB-Client-NodeJS",
     "lis186/ccxray",
@@ -92,6 +88,7 @@
     "octokit/graphql-schema",
     "OffchainLabs/arbitrum-docs",
     "openfl/lime",
+    "oss-serverless/serverless",
     "plone/volto",
     "poolifier/poolifier",
     "postcss/postcss-cli",

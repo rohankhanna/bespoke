@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 378,
+    "components": 365,
     "concepts": 66,
     "observations": 67,
-    "repos": 33,
+    "repos": 32,
     "terms": 66
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "ameshkov/safari-blocker",
-    "Arthy000/gherkin-testcafe",
     "bevry/domain-browser",
     "breejs/api",
     "breejs/express-example",

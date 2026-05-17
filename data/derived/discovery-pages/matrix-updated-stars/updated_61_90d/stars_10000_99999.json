@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 493,
-    "concepts": 321,
-    "observations": 324,
-    "repos": 55,
-    "terms": 328
+    "components": 556,
+    "concepts": 365,
+    "observations": 368,
+    "repos": 61,
+    "terms": 371
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -34,6 +34,7 @@
     "go-chi/chi",
     "google-research/vision_transformer",
     "google/leveldb",
+    "GoogleChromeLabs/squoosh",
     "guzzle/guzzle",
     "humanlayer/humanlayer",
     "jart/cosmopolitan",
@@ -44,18 +45,22 @@
     "kyleneideck/backgroundmusic",
     "logaretm/vee-validate",
     "lokesh/color-thief",
+    "lxgw/LxgwWenKai",
     "macrozheng/mall",
     "mathjax/MathJax",
     "microsoft/AirSim",
+    "modelscope/FunASR",
     "nikic/PHP-Parser",
     "peers/peerjs",
     "PKU-YuanGroup/Open-Sora-Plan",
     "powerline/powerline",
+    "prompt-toolkit/python-prompt-toolkit",
     "pugjs/pug",
     "QwenLM/Qwen",
     "QwenLM/Qwen-Agent",
     "QwenLM/Qwen3-TTS",
     "romkatv/powerlevel10k",
+    "ryanoasis/nerd-fonts",
     "serde-rs/serde",
     "sirupsen/logrus",
     "sql-js/sql.js",
@@ -66,6 +71,7 @@
     "vibrantlabsai/ragas",
     "videojs/video.js",
     "Wan-Video/Wan2.1",
+    "Wan-Video/Wan2.2",
     "Zulko/moviepy",
     "zylon-ai/private-gpt"
   ]

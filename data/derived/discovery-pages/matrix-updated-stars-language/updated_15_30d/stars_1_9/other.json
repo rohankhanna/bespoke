@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 270,
-    "concepts": 187,
-    "observations": 187,
-    "repos": 71,
-    "terms": 187
+    "components": 277,
+    "concepts": 206,
+    "observations": 206,
+    "repos": 70,
+    "terms": 206
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "actboy168/ltest",
@@ -31,7 +31,6 @@
     "caronc/apprise-docs",
     "celo-org/charts",
     "cgrindel/rules_swiftformat",
-    "cloudfoundry/cf-smoke-tests-release",
     "conda-forge/.cirun",
     "conda-forge/croc-feedstock",
     "conda-forge/pybind11-feedstock",
@@ -46,6 +45,7 @@
     "fern-api/docs",
     "flagos-ai/flir",
     "floxym/financial-chat-finance-nlp-chatbots",
+    "fluent-vue/examples",
     "fredrikekre/runic-pre-commit",
     "googleapis/google-cloud-php-compute",
     "goreleaser/.github",
@@ -67,15 +67,14 @@
     "lintnet-modules/ghalint",
     "localstack/homebrew-tap",
     "Mbed-TLS/mbedtls-test",
-    "mitchuski/agentprivacy-docs",
     "mozilla-mobile/fxios-ctl",
     "moznion/sbt-spotless",
     "NightWatcher314/homebrew-formula",
     "php-rdkafka/php-rdkafka-doc",
+    "pixel-font-studio/fusion-bold-pixel-font",
     "raku-community-modules/Terminal-WCWidth",
     "rmsrosa/rmsrosa.github.io",
     "ros2-rust/rosidl_rust",
-    "Shougo/dpp-ext-lazy",
     "stable-haskell/cabal",
     "standardrb/standard-custom",
     "standardrb/standard-sorbet",

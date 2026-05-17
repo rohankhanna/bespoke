@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 159,
-    "concepts": 25,
-    "observations": 25,
+    "components": 140,
+    "concepts": 33,
+    "observations": 33,
     "repos": 7,
-    "terms": 25
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "AdguardTeam/HostlistsRegistry",
     "browserslist/caniuse-lite",
     "gitleaks/gitleaks-action",
+    "jupyter/nbclassic",
     "mafintosh/streamx",
-    "oss-serverless/serverless",
     "stylelint/stylelint-config-recommended",
     "tc39/eshost"
   ]

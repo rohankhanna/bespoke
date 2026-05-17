@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1108,
-    "concepts": 1114,
-    "observations": 1115,
-    "repos": 193,
-    "terms": 1107
+    "components": 1114,
+    "concepts": 1129,
+    "observations": 1130,
+    "repos": 194,
+    "terms": 1123
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "AcademySoftwareFoundation/Imath",
@@ -23,6 +23,7 @@
     "amerkoleci/joltc",
     "ampl/mp",
     "antgroup/vsag",
+    "apache/iceberg-cpp",
     "apache/pulsar-client-node",
     "ARM-software/CMSIS-NN",
     "arminbiere/cadical",
@@ -69,7 +70,6 @@
     "facil-io/cstl",
     "flagos-ai/FlagTree",
     "flatpak/xdg-desktop-portal",
-    "flavorjones/ruby-c-extensions-explained",
     "flexivrobotics/flexiv_rdk",
     "freebayes/freebayes",
     "freebsd/kyua",
@@ -92,6 +92,7 @@
     "hajimes/mmh3",
     "hamcrest/OCHamcrest",
     "HazyResearch/HipKittens",
+    "heiher/hev-socks5-server",
     "heiher/hev-socks5-tproxy",
     "highfive-devs/highfive",
     "hku-mars/FAST-Calib",
@@ -106,9 +107,7 @@
     "jcmvbkbc/gcc-xtensa",
     "jellyfin/jellyfin-ffmpeg",
     "JokerJohn/DCReg",
-    "JokerJohn/PALoc",
     "jrouwe/JoltPhysics.js",
-    "jupyter-xeus/xeus-python",
     "jupyter-xeus/xwidgets",
     "k2-fsa/sherpa",
     "KDE/breeze-icons",
@@ -135,6 +134,7 @@
     "mapbox/geometry.hpp",
     "mapnik/node-mapnik",
     "marton78/pffft",
+    "Mercury13/unicodia",
     "microsoft/vcpkg-tool",
     "microsoft/WindowsAppSDK-Samples",
     "mitsuba-renderer/drjit",
@@ -199,6 +199,7 @@
     "sophgo/tpu-mlir",
     "sp-nitech/SPTK",
     "tile-ai/tilelang-ascend",
+    "todbot/hidapitester",
     "trealla-prolog/trealla",
     "triton-inference-server/onnxruntime_backend",
     "Unidata/netcdf-c",

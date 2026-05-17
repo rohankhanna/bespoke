@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 39442,
+    "components": 39419,
     "concepts": 8790,
     "observations": 8817,
-    "repos": 2087,
-    "terms": 8782
+    "repos": 2086,
+    "terms": 8779
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "0x1abin/matter-controller-mcp",
     "0x4139/cosmos-discord-faucet",
@@ -770,7 +770,6 @@
     "flekschas/hipiler",
     "florajs/sql-parser",
     "flow-typed/flow-typed",
-    "fnproject/flowui",
     "fnproject/ui",
     "foliojs/brotli.js",
     "foliojs/fontkit",
@@ -1964,7 +1963,7 @@
     "treosh/lighthouse-ci-action",
     "TrigenSoftware/simple-release-action",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "TritonDataCenter/node-http-signature",
     "TritonDataCenter/node-verror",
     "trylovetom/clean-code-javascript",

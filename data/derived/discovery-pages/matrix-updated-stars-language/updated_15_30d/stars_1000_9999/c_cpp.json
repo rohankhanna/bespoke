@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1879,
-    "concepts": 2006,
-    "observations": 2008,
-    "repos": 237,
-    "terms": 1991
+    "components": 1889,
+    "concepts": 2010,
+    "observations": 2011,
+    "repos": 240,
+    "terms": 1994
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/OpenColorIO",
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
     "AcademySoftwareFoundation/OpenShadingLanguage",
     "actor-framework/actor-framework",
-    "AFLplusplus/AFLplusplus",
     "ai-dynamo/nixl",
     "alanxz/rabbitmq-c",
     "AOMediaCodec/libavif",
@@ -47,6 +46,7 @@
     "celluloid-player/celluloid",
     "chrisant996/clink",
     "chromiumembedded/cef",
+    "cisco/libsrtp",
     "citusdata/pg_cron",
     "ckb-next/ckb-next",
     "clice-io/clice",
@@ -74,6 +74,7 @@
     "facebook/proxygen",
     "facebook/wangle",
     "facebookincubator/fizz",
+    "facebookincubator/katran",
     "facebookincubator/velox",
     "Farama-Foundation/Arcade-Learning-Environment",
     "fastfloat/fast_float",
@@ -97,6 +98,7 @@
     "google/tcmalloc",
     "google/wuffs",
     "grizzlypeak3d/DJV",
+    "GStreamer/gstreamer",
     "halide/Halide",
     "haproxy/haproxy",
     "heiher/hev-socks5-tunnel",
@@ -108,7 +110,6 @@
     "infiniflow/infinity",
     "inikep/lzbench",
     "intel/compute-runtime",
-    "intel/isa-l",
     "intel/pcm",
     "ispc/ispc",
     "jarro2783/cxxopts",
@@ -124,6 +125,7 @@
     "kismetwireless/kismet",
     "Kitware/CMake",
     "kokkos/kokkos",
+    "KratosMultiphysics/Kratos",
     "kvcache-ai/Mooncake",
     "leejet/stable-diffusion.cpp",
     "LeelaChessZero/lc0",
@@ -132,6 +134,7 @@
     "libarchive/libarchive",
     "libexpat/libexpat",
     "libffi/libffi",
+    "libfuse/libfuse",
     "libgeos/geos",
     "libjxl/libjxl",
     "LibRaw/LibRaw",
@@ -179,6 +182,7 @@
     "NVIDIA/nccl",
     "NVlabs/tiny-cuda-nn",
     "nvpro-samples/vk_raytracing_tutorial_KHR",
+    "obsproject/obs-websocket",
     "ohler55/oj",
     "onnxsim/onnxsim",
     "open-quantum-safe/liboqs",
@@ -198,6 +202,7 @@
     "PixarAnimationStudios/OpenUSD",
     "plasma-umass/coz",
     "pnggroup/libpng",
+    "PoseLib/PoseLib",
     "PRBonn/kiss-icp",
     "pytorch/FBGEMM",
     "pytorch/gloo",
@@ -209,7 +214,6 @@
     "richgel999/miniz",
     "RoaringBitmap/CRoaring",
     "RobotLocomotion/drake",
-    "ROCm/hip",
     "root-project/cling",
     "sail-sg/envpool",
     "saitoha/libsixel",
@@ -236,8 +240,8 @@
     "unitreerobotics/unitree_sdk2",
     "unum-cloud/USearch",
     "util-linux/util-linux",
+    "vincentlaucsb/csv-parser",
     "WebAssembly/wasi-libc",
-    "webmproject/libwebp",
     "westes/flex",
     "wireshark/wireshark",
     "xtensor-stack/xsimd",
@@ -249,7 +253,6 @@
     "zeux/meshoptimizer",
     "zeux/pugixml",
     "zeux/volk",
-    "zlib-ng/minizip-ng",
-    "zlib-ng/zlib-ng"
+    "zlib-ng/minizip-ng"
   ]
 }

@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 10215,
-    "concepts": 10054,
-    "observations": 10086,
-    "repos": 1715,
-    "terms": 10004
+    "concepts": 10051,
+    "observations": 10083,
+    "repos": 1714,
+    "terms": 10001
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -745,7 +745,6 @@
     "fluxcd/flux2",
     "fnoopv/rueidisstore",
     "fnproject/cli",
-    "fnproject/flow",
     "fnproject/fn",
     "fogleman/gg",
     "FooSoft/md2vim",

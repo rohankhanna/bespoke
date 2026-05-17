@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 184,
-    "concepts": 224,
-    "observations": 225,
-    "repos": 93,
-    "terms": 232
+    "concepts": 227,
+    "observations": 228,
+    "repos": 96,
+    "terms": 235
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
+    "AadSah/ConverSeg",
     "aba122/Q-Hawkeye",
     "adhikasp/mcp-youtube",
     "Alexandre-Delplanque/HerdNet",
@@ -44,6 +45,7 @@
     "elm-fluent/elm-fluent",
     "emory-irlab/pyterrier_genrank",
     "ENCODE-DCC/caper",
+    "enjoy-digital/litex_hw_ci",
     "erkyrath/glk-dev",
     "espressif/conventional-precommit-linter",
     "Finance-LLMs/deep-research-python",
@@ -51,6 +53,7 @@
     "google-deepmind/alphageometry2",
     "HabanaAI/DeepSpeed",
     "haydn-jones/SOAP_JAX",
+    "heimoshuiyu/whisper-fastapi",
     "HuajianUP/360Loc",
     "ichard26/diff-shades",
     "icppWorld/icgpt",

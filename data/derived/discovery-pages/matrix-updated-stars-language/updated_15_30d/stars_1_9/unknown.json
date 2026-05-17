@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 53,
-    "observations": 53,
-    "repos": 52,
-    "terms": 53
+    "components": 58,
+    "concepts": 52,
+    "observations": 52,
+    "repos": 51,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "AlmaLinux/osv-database",
     "angular/angular-devkit-build-webpack-builds",
@@ -26,7 +26,6 @@
     "conda-forge/ultralytics-feedstock",
     "csm-actions/demo-server",
     "danielrosehill/Awesome-LLM-Council-Projects",
-    "danielrosehill/Claude-ADHD-Research-Workspace",
     "danielrosehill/Claude-Code-Plugins",
     "danielrosehill/Claude-Content-Writing-Plugin",
     "danielrosehill/Claude-Data-Analyst-plugin",
@@ -49,6 +48,7 @@
     "eternahybridexchange/eterna-mcp",
     "flathub/org.gnome.eog",
     "graveyardsfocrdpktv/ethereum-mempool-bot",
+    "haskell/ghcup-www",
     "hiyouga/llamafactory-community",
     "HKUDS/.github",
     "hybridgroup/llama-cpp-builder",
@@ -57,7 +57,6 @@
     "oobabooga/screenshots",
     "OpenSC/Nightly",
     "openwebdocs/mdn-bcd-results",
-    "piebald-ai/piebald-issues",
     "psmux/scoop-psmux",
     "puppetlabs/.github",
     "scalar/starter",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 6,
-    "terms": 39
+    "components": 46,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 10,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,17 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
+    "apache/casbin-cpp",
     "atsushieno/aap-core",
     "celtera/avendish",
+    "DISTRHO/DPF",
     "flagos-ai/FlagCX",
     "kiron1/bazel-compile-commands",
     "microsoft/MIDI",
+    "ROCm/hipBLAS",
+    "ROCm/rocBLAS",
     "yoshoku/llama_cpp.rb"
   ]
 }

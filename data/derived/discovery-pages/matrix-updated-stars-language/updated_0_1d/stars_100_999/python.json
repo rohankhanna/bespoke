@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 61,
-    "concepts": 56,
-    "observations": 56,
-    "repos": 6,
-    "terms": 56
+    "components": 26,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 3,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
-    "15r10nk/inline-snapshot",
     "AI-Hypercomputer/maxdiffusion",
-    "aristoteleo/PantheonOS",
-    "Comfy-Org/comfy-cli",
     "scverse/rapids-singlecell",
-    "tox-dev/filelock"
+    "TextArena/TextArena"
   ]
 }

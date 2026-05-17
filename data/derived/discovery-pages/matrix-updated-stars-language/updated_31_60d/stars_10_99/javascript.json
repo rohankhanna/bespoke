@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 776,
-    "concepts": 246,
-    "observations": 246,
+    "components": 771,
+    "concepts": 254,
+    "observations": 254,
     "repos": 62,
-    "terms": 239
+    "terms": 247
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "AdguardTeam/CodeGuidelines",
@@ -49,7 +49,6 @@
     "haskell-actions/run-fourmolu",
     "hectorm/chafa-wasm",
     "hipster-labs/jhipster-daily-builds",
-    "hudochenkov/stylelint-config-hudochenkov",
     "i18next/i18next-icu",
     "ipfs/js-ipfs-utils",
     "ipld/js-dag-cbor",
@@ -75,6 +74,7 @@
     "tc39/proposal-iterator-includes",
     "TrigenSoftware/simple-release-action",
     "validator/gulp-html",
+    "webtorrent/bittorrent-peerid",
     "wemake-services/wemake-frontend-styleguide"
   ]
 }

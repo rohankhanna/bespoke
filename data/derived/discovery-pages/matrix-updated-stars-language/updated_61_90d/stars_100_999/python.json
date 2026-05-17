@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 270,
-    "concepts": 402,
-    "observations": 402,
-    "repos": 102,
-    "terms": 398
+    "components": 284,
+    "concepts": 416,
+    "observations": 416,
+    "repos": 105,
+    "terms": 412
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "absadiki/pywhispercpp",
     "actionless/pikaur",
@@ -68,6 +68,7 @@
     "jayleicn/moment_detr",
     "jsegov/autoresearch-win-rtx",
     "kijai/ComfyUI-DepthAnythingV2",
+    "lessw2020/Ranger21",
     "lxgw/LxgwMarkerGothic",
     "madebyollin/taehv",
     "magic-wormhole/magic-wormhole-transit-relay",
@@ -95,6 +96,7 @@
     "sarugaku/shellingham",
     "scottchiefbaker/dool",
     "securefederatedai/openfederatedlearning",
+    "ServiceNow/AgentLab",
     "Shenyi-Z/TaylorSeer",
     "shibing624/similarities",
     "sony/ctm",
@@ -112,6 +114,7 @@
     "whatwg/meta",
     "WujiangXu/A-mem",
     "WujiangXu/A-mem-sys",
+    "yanring/Megatron-MoE-ModelZoo",
     "YosysHQ/prjtrellis",
     "yuliangguo/3D_Lane_Synthetic_Dataset",
     "zhijian-liu/torchprofile",

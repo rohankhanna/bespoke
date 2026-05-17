@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 199,
-    "concepts": 95,
-    "observations": 95,
-    "repos": 58,
-    "terms": 96
+    "components": 197,
+    "concepts": 94,
+    "observations": 94,
+    "repos": 57,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "abap2UI5-addons/table-maintenance",
     "AdaCore/AdaSAT",
@@ -25,7 +25,6 @@
     "atrodo/WebGPU-Direct",
     "baskeboler/clj-karaoke-lyrics",
     "Blosc/PyData-Global-2025-Tutorial",
-    "cooper1637/SageAttention",
     "datachainlab/lcp-solidity",
     "elixir-makeup/makeup_erlang",
     "erwin-kok/multiformat",

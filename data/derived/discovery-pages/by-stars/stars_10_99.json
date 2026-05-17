@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 28416,
-    "concepts": 15101,
-    "observations": 15153,
-    "repos": 5475,
-    "terms": 15104
+    "components": 28434,
+    "concepts": 15144,
+    "observations": 15196,
+    "repos": 5481,
+    "terms": 15146
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -2660,6 +2660,7 @@
     "heiher/hev-socks5-core",
     "heiher/hev-task-system",
     "heiher/socks5",
+    "heimoshuiyu/whisper-fastapi",
     "heliconialabs/steampunkification",
     "helidon-io/helidon-examples",
     "helix-toolkit/helix-toolkit-nex",
@@ -3728,6 +3729,10 @@
     "microsoft/local-email-agent",
     "microsoft/microsoft-foundry-for-vscode",
     "microsoft/olive-recipes",
+    "microsoft/openjdk-docker",
+    "microsoft/openjdk-jdk11u",
+    "microsoft/openjdk-jdk17u",
+    "microsoft/openjdk-jdk21u",
     "microsoft/openpai-runtime",
     "microsoft/Optimal-Freshness-Crawl-Scheduling",
     "microsoft/Phi3-Chat-WinUI3-Sample",
@@ -4513,6 +4518,7 @@
     "reZach/secure-electron-context-menu",
     "reZach/secure-electron-license-keys",
     "reZach/secure-electron-license-keys-cli",
+    "Rezonality/zing",
     "rgeirhos/generalisation-humans-DNNs",
     "rgeo/activerecord-mysql2spatial-adapter",
     "rgeo/rgeo-activerecord",
@@ -5126,7 +5132,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 607,
-    "concepts": 442,
-    "observations": 443,
-    "repos": 138,
-    "terms": 440
+    "components": 685,
+    "concepts": 454,
+    "observations": 455,
+    "repos": 142,
+    "terms": 452
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -36,7 +36,10 @@
     "apollographql/apollo-ios-pagination",
     "appsignal/appsignal-elixir-phoenix",
     "appsignal/mono",
+    "appwrite/sdk-for-swift",
+    "Ascend/Ascend-CI",
     "aspect-build/rules_cypress",
+    "aspect-build/rules_esbuild",
     "astropy/astropy-project",
     "AvaotaSBC/AvaotaF1",
     "awnist/cson-loader",
@@ -61,6 +64,7 @@
     "crazy-max/yasu",
     "curiosity-ai/hnsw-sharp",
     "DamageLabs/paper_trail_manager",
+    "dart-lang/ecosystem",
     "dharrigan/startrek",
     "docusealco/rllama",
     "dominique-unruh/qrhl-tool",
@@ -78,12 +82,14 @@
     "FluxML/fluxml.github.io",
     "GaloisInc/cryptol-specs",
     "giggls/openstreetmap-carto-de",
+    "google-marketing-solutions/web-performance-lab",
     "google/litmus",
     "googleapis/google-cloud-php-datastore",
     "hashicorp/hello-vault-dotnet",
     "HaxeFlixel/flixel-docs",
     "haxeui/haxeui-guides",
     "henryw374/chronos",
+    "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
     "ibhagwan/ts-vimdoc.nvim",
     "IDAES/idaes-ext",
     "idris-community/idris2-nvim",
@@ -105,9 +111,7 @@
     "kendryte/k230_canmv_docs",
     "lambdaisland/open-source",
     "logseq/og",
-    "lostromb/concentus.oggfile",
     "m87-labs/moondream-examples",
-    "malewicz1337/oil-git.nvim",
     "marbl/T2T-Browser",
     "metosin/ring-swagger-ui",
     "mirage/ptt",

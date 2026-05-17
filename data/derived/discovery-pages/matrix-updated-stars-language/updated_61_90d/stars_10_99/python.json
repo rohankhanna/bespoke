@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 197,
-    "concepts": 140,
-    "observations": 140,
+    "components": 228,
+    "concepts": 150,
+    "observations": 150,
     "repos": 54,
-    "terms": 138
+    "terms": 148
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
-    "AadSah/ConverSeg",
     "abduznik/git-alchemist",
     "agents-x-project/PyVision-RL",
     "Alibaba-Quark/SSP",
@@ -38,9 +37,9 @@
     "Computer-use-agents/dart-gui",
     "corl-team/VL-DAC",
     "cuiziteng/Luminance-GS",
+    "cvat-ai/datumaro",
     "Embarcadero/PythonEnvironments",
     "enjoy-digital/liteiclink",
-    "enjoy-digital/litex_hw_ci",
     "fla-org/flash-bidirectional-linear-attention",
     "foldl/AlphaGeometryRE",
     "galaxyproject/tools-devteam",
@@ -56,6 +55,7 @@
     "liran-funaro/sphinx-markdown-builder",
     "Lizw14/Super-CLEVR",
     "Owen-Liuyuxuan/ros2_vision_inference",
+    "philippemerle/AWS-CloudFormation-Diagrams",
     "rdb/panda3d-thirdparty",
     "richardodliu/OpenCodeEval",
     "rstudio/pins-python",

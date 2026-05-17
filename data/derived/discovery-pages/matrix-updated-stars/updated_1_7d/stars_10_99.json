@@ -1,27 +1,32 @@
 {
   "counts": {
-    "components": 330,
-    "concepts": 186,
-    "observations": 187,
-    "repos": 40,
-    "terms": 186
+    "components": 392,
+    "concepts": 251,
+    "observations": 252,
+    "repos": 47,
+    "terms": 251
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
+    "aidenlab/hic-straw",
+    "aidenlab/juicebox.js",
     "alloy-rs/evm",
     "amazon-ion/ion-cli",
+    "apache/casbin-actix-casbin-auth",
+    "apache/casbin-axum-casbin",
+    "apache/casbin-rust-actix-casbin",
+    "apache/datafusion-ballista-python",
     "apify/actor-templates",
     "atsushieno/aap-juce",
     "atsushieno/aap-lv2",
     "baicai-1145/GPT-SoVITS-CPUFast",
     "browniebroke/pypackage-template",
     "cginternals/cpplocate",
-    "cloudfoundry/bosh-google-cpi-release",
     "cloudfoundry/credhub-cli",
     "compozy/kb",
     "diffscope/diffscope-project",
@@ -40,18 +45,20 @@
     "karafka/example-apps",
     "kurrent-io/KurrentDB-Client-Rust",
     "mesh-iit/cad-libraries",
+    "microsoft/openjdk-docker",
+    "microsoft/openjdk-jdk11u",
+    "microsoft/openjdk-jdk17u",
+    "microsoft/openjdk-jdk21u",
     "mongodb/winkerberos",
+    "nuxt-modules/emotion",
     "nvim-mini/mini.deps",
     "ogx-ai/ogx-client-typescript",
     "pivotal/credhub-release",
     "processing/processing-website",
-    "rcasia/neotest-java",
     "RiDDiX/home-assistant-addons",
-    "tinted-theming/tinted-xresources",
     "TrigenSoftware/simple-release",
     "UnknownPlatypus/djangofmt",
     "vaporif/parry-guard",
-    "version-fox/vfox-plugins",
-    "yulewang97/ERDiff"
+    "version-fox/vfox-plugins"
   ]
 }

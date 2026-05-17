@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 150,
-    "observations": 150,
-    "repos": 43,
-    "terms": 149
+    "components": 27,
+    "concepts": 169,
+    "observations": 169,
+    "repos": 46,
+    "terms": 168
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "abubakarsiddik31/claude-skills-collection",
     "adoptium/adoptium",
@@ -27,6 +27,7 @@
     "astro-han/karpathy-llm-wiki",
     "attack68/rateslib",
     "bloomberg/clang-p2996",
+    "cloudflare/skills",
     "cncf/artwork",
     "cosmos/awesome-cosmos",
     "dotnet-foundation/projects",
@@ -35,21 +36,23 @@
     "e18e/ecosystem-issues",
     "filecoin-project/community",
     "flathub/com.vscodium.codium",
+    "gautamkrishnar/gautamkrishnar",
     "github/codeql-cli-binaries",
     "grpc/proposal",
     "hagezi/dns-servers",
     "helm/community",
+    "ietf-tools/.github",
     "integrations/microsoft-teams",
     "lumen-oss/nvim-best-practices",
     "lwpyh/Awesome-MLLM-Reasoning-Collection",
-    "lxgw/LxgwZhenKai",
     "MicrosoftDocs/terminal",
     "near/borsh",
-    "neon-bindings/examples",
     "oobabooga/textgen-extensions",
+    "piebald-ai/awesome-gemini-cli",
     "preactjs/awesome-preact",
     "ranpox/awesome-computer-use",
     "revfactory/harness-100",
+    "rstackjs/awesome-rstack",
     "SamurAIGPT/awesome-openclaw",
     "scott0107000/BoutiqueBitmap7x7",
     "sedyh/awesome-ebitengine",

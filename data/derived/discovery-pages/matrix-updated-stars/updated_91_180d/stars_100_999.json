@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3832,
-    "concepts": 2825,
-    "observations": 2830,
-    "repos": 709,
-    "terms": 2814
+    "components": 3834,
+    "concepts": 2829,
+    "observations": 2834,
+    "repos": 710,
+    "terms": 2818
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "0k/shyaml",
     "10up/action-wordpress-plugin-asset-update",
@@ -176,6 +176,7 @@
     "clojure/data.json",
     "clojure/data.priority-map",
     "clojure/java.jdbc",
+    "clojure/tools.analyzer",
     "clojure/tools.deps.graph",
     "clojure/tools.namespace",
     "clojure/tools.nrepl",
@@ -307,6 +308,7 @@
     "haoxiangsnr/spiking-fullsubnet",
     "harfbuzz/ttf-parser",
     "haskell/text",
+    "havarddj/typst-preview.el",
     "heiher/sockstun",
     "HelgeSverre/toon-php",
     "helm/chart-releaser-action",
@@ -530,7 +532,6 @@
     "ParRes/Kernels",
     "PaulRBerg/foundry-template",
     "PDillis/stylegan3-fun",
-    "perrygeo/python-rasterstats",
     "pganalyze/pg_query",
     "phillbaker/capybara-mechanize",
     "phodal/chapi",

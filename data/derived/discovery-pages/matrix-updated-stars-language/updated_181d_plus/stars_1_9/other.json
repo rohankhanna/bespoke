@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1090,
-    "concepts": 501,
-    "observations": 501,
-    "repos": 332,
-    "terms": 507
+    "components": 1092,
+    "concepts": 502,
+    "observations": 502,
+    "repos": 333,
+    "terms": 508
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "2KAbhishek/awesome2k",
     "2KAbhishek/rofi2k",
@@ -113,6 +113,7 @@
     "coin-or-tools/BuildTools",
     "compio-rs/compio-logo",
     "connorgmeehan/nest.nvim",
+    "cooper1637/SageAttention",
     "coverband-service/coverband_demo",
     "CrackAndDie/Hypocrite.Services",
     "cryptonomic/conseiljs-reasonml-bindings",

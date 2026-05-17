@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 204,
-    "concepts": 320,
-    "observations": 321,
-    "repos": 56,
-    "terms": 320
+    "components": 206,
+    "concepts": 315,
+    "observations": 316,
+    "repos": 57,
+    "terms": 315
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -21,6 +21,7 @@
     "autofac/Autofac",
     "bbatsov/crux",
     "bbatsov/projectile",
+    "bblimke/webmock",
     "clj-commons/manifold",
     "clojure/clojurescript",
     "cognitect/transit-format",
@@ -41,7 +42,6 @@
     "jpanther/congo",
     "kaminari/kaminari",
     "lite-xl/lite-xl",
-    "litedb-org/LiteDB",
     "mdn/webassembly-examples",
     "mhinz/vim-signify",
     "mono/CppSharp",
@@ -55,6 +55,7 @@
     "pry/pry",
     "puppetlabs/puppet",
     "rails/tailwindcss-rails",
+    "rjpcomputing/luaforwindows",
     "rrousselGit/provider",
     "rspec/rspec-rails",
     "salesforce/BLIP",

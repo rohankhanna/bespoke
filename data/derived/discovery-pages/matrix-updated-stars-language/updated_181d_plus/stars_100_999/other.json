@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2174,
-    "concepts": 2936,
-    "observations": 2943,
-    "repos": 936,
-    "terms": 2922
+    "components": 2176,
+    "concepts": 2940,
+    "observations": 2947,
+    "repos": 938,
+    "terms": 2924
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -557,6 +557,7 @@
     "LintaoAmons/CoolStuffes",
     "LintaoAmons/scratch.nvim",
     "liquidz/dad",
+    "litedb-org/LiteDB.Studio",
     "liuchengxu/eleline.vim",
     "liuchengxu/space-vim-dark",
     "liuchengxu/vim-better-default",
@@ -686,6 +687,7 @@
     "nvim-telescope/telescope-smart-history.nvim",
     "nvim-treesitter/playground",
     "nvimdev/galaxyline.nvim",
+    "NVorbis/NVorbis",
     "ocaml-community/zed",
     "octref/veturpack",
     "ojroques/vim-oscyank",

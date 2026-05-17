@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11416,
-    "concepts": 6562,
-    "observations": 6577,
-    "repos": 3164,
-    "terms": 6522
+    "components": 11536,
+    "concepts": 6573,
+    "observations": 6588,
+    "repos": 3168,
+    "terms": 6532
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -191,6 +191,7 @@
     "ajlende/base16-atlas-scheme",
     "akaihola/graylint",
     "akarnokd/RxJavaJdk9Interop",
+    "aki-0929/PaddleOCRJson.NET",
     "akinsho/dependency-assist.nvim",
     "Akira13641/PasBGFX",
     "akka-js/shocon",
@@ -398,6 +399,7 @@
     "artempyanykh/marksman-vscode",
     "arthur-qiu/FreeNoise-LaVie",
     "arthuro555/THNK",
+    "Arthy000/gherkin-testcafe",
     "Artiprocher/FastSDXL",
     "artofthesmart/hypertext",
     "arturbac/simple_enum",
@@ -1662,6 +1664,7 @@
     "ionelmc/tox-wheel",
     "ipfs-shipyard/nopfs",
     "ipfs/fs-repo-migrations",
+    "ipfs/helia-http-gateway",
     "ipfs/i18n",
     "ipfs/js-ipfs-block-service",
     "ipld/interface-ipld-format",
@@ -2573,6 +2576,7 @@
     "red-data-tools/numpy.rb",
     "redcaps-dataset/redcaps-downloader",
     "reddy-lab-code-research/XLCoST",
+    "redhat-developer/vscode-redhat-telemetry",
     "redis-developer/redis-om-spring-react-todomvc",
     "redis-developer/redis-om-spring-skeleton-app",
     "redis-stack/helm-redis-stack",
@@ -2942,7 +2946,7 @@
     "TREMA-UNH/trec-car-tools",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",

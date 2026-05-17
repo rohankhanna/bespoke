@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 838,
-    "concepts": 1096,
-    "observations": 1100,
-    "repos": 102,
-    "terms": 1102
+    "components": 837,
+    "concepts": 1104,
+    "observations": 1108,
+    "repos": 100,
+    "terms": 1107
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "abseil/abseil-cpp",
@@ -20,7 +20,6 @@
     "alibaba/MNN",
     "apache/arrow",
     "apache/thrift",
-    "ApolloAuto/apollo",
     "apple/foundationdb",
     "arangodb/arangodb",
     "aseprite/aseprite",
@@ -68,7 +67,6 @@
     "ImageMagick/ImageMagick",
     "Immediate-Mode-UI/Nuklear",
     "iovisor/bcc",
-    "jedisct1/libsodium",
     "jemalloc/jemalloc",
     "jonas/tig",
     "k2-fsa/sherpa-onnx",
@@ -77,7 +75,6 @@
     "libvips/libvips",
     "lightgbm-org/LightGBM",
     "LostRuins/koboldcpp",
-    "mawww/kakoune",
     "micropython/micropython",
     "microsoft/mimalloc",
     "microsoft/onnxruntime",
@@ -106,6 +103,7 @@
     "redis/redis",
     "RPCS3/rpcs3",
     "SerenityOS/serenity",
+    "simdjson/simdjson",
     "swaywm/sway",
     "systemd/systemd",
     "taskflow/taskflow",

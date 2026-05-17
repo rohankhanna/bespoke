@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 673,
-    "concepts": 451,
-    "observations": 453,
-    "repos": 122,
-    "terms": 462
+    "components": 664,
+    "concepts": 441,
+    "observations": 443,
+    "repos": 118,
+    "terms": 453
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
-    "activeviam/jdk4py",
     "AFD-Illinois/pyharm",
     "agno-agi/coda",
     "AI-Hypercomputer/pathways-utils",
@@ -74,6 +73,7 @@
     "HabanaAI/vllm-fork",
     "harbor-framework/harbor-cookbook",
     "higlass/clodius",
+    "Hiroshiba/voicevox_engine",
     "HKU-BAL/ClairS-TO",
     "instadeepai/fastpbrl",
     "jfly/shtuff",
@@ -83,8 +83,6 @@
     "mayeut/pep600_compliance",
     "meta-pytorch/MSLK",
     "metatensor/metatensor",
-    "MeteoSwiss/pyart",
-    "MeteoSwiss/pyrad",
     "MGenAI/GRN",
     "microsoft/olive-recipes",
     "ModelCloud/Evalution",
@@ -112,13 +110,11 @@
     "pytest-dev/execnet",
     "pytroll/donfig",
     "qiayuanl/unitree_bringup",
-    "recap-utr/nlp-service",
     "redhat-et/triton-dev-containers",
     "redis/docs",
     "regro/cf-scripts",
     "ROCm/tritonBLAS",
     "rwightman/timm",
-    "RWKV-Vibe/rwkv_lightning",
     "scaleway/serverless-functions-python",
     "scipy/scipy-stubs",
     "scipy/scipy.org",

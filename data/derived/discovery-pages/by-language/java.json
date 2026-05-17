@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2811,
-    "concepts": 3517,
-    "observations": 3525,
-    "repos": 636,
-    "terms": 3496
+    "components": 2823,
+    "concepts": 3535,
+    "observations": 3543,
+    "repos": 638,
+    "terms": 3514
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "abapGit/ADT_Frontend",
@@ -454,6 +454,9 @@
     "microsoft/Generative-AI-for-beginners-java",
     "microsoft/java-debug",
     "microsoft/LangChain4j-for-Beginners",
+    "microsoft/openjdk-jdk11u",
+    "microsoft/openjdk-jdk17u",
+    "microsoft/openjdk-jdk21u",
     "microsoft/semantic-kernel-java",
     "microsoft/vscode-java-test",
     "mikepapadim/devoxx25-demo-gpullama3-langchain4j",
@@ -498,7 +501,6 @@
     "OpenAPITools/openapi-generator",
     "openjdk/jdk",
     "openjdk/jmh",
-    "opensciencemap/vtm",
     "opensim-org/opensim-gui",
     "OpenSPG/openspg",
     "operator-framework/java-operator-sdk",

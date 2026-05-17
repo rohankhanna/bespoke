@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 173,
-    "concepts": 164,
-    "observations": 166,
-    "repos": 14,
-    "terms": 164
+    "components": 79,
+    "concepts": 87,
+    "observations": 88,
+    "repos": 8,
+    "terms": 87
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
-    "apache/casbin-Casbin.NET",
-    "babashka/babashka",
-    "clj-kondo/clj-kondo",
     "datalevin/datalevin",
     "dotnet/Silk.NET",
-    "firebase/flutterfire",
-    "kurrent-io/KurrentDB",
-    "lumen-oss/rocks.nvim",
+    "litedb-org/LiteDB",
     "microsoft/aspire",
     "microsoft/aspire-samples",
-    "psmux/psmux",
     "swiftlang/llvm-project",
     "swiftlang/swift-syntax",
     "web-platform-tests/wpt"

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 389,
-    "concepts": 298,
-    "observations": 299,
-    "repos": 119,
-    "terms": 297
+    "concepts": 309,
+    "observations": 310,
+    "repos": 120,
+    "terms": 308
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/tdo.nvim",
@@ -21,12 +21,12 @@
     "aarroyoc/djota",
     "aarroyoc/doclog",
     "abapGit/ADT_Backend",
+    "AceCHQ/TransMatting",
     "AdaCore/gnatcoll-bindings",
     "adobe-type-tools/aots",
     "adospace/litedbpad",
     "ahrvoje/numerics",
     "ahumenberger/Z3.jl",
-    "aki-0929/PaddleOCRJson.NET",
     "anmolitor/travelm-agency",
     "antonbabenko/serverless.tf-playground",
     "apache/datasketches-python",
@@ -68,6 +68,7 @@
     "GoogleCloudPlatform/getting-started-dotnet",
     "gregorias/toggle.nvim",
     "GunnarFarneback/LocalPackageServer.jl",
+    "hedronvision/bazel-make-cc-https-easy",
     "honwen/openwrt-shadowsocks-rust",
     "hspec/sensei",
     "jaegertracing/docker-protobuf",

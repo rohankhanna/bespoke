@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2798,
-    "concepts": 499,
-    "observations": 503,
-    "repos": 100,
-    "terms": 511
+    "components": 2815,
+    "concepts": 517,
+    "observations": 521,
+    "repos": 101,
+    "terms": 529
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -29,11 +29,14 @@
     "Beaglefoot/prettier-plugin-awk",
     "bolasblack/shadow-cljs-vite-plugin",
     "bufbuild/protovalidate-es",
+    "carbon-design-system/carbon-preprocess-svelte",
     "cargo-bins/release-pr",
     "catppuccin/.github",
     "celo-org/developer-tooling",
     "celo-org/social-connect",
     "coasys/flux",
+    "csm-actions/approve-pr-action",
+    "csm-actions/securefix-action",
     "dannyhw/expo-storybook-starter",
     "darkriszty/MarkdownTablePrettify-VSCodeExt",
     "DataDog/opentelemetry-demo",
@@ -50,10 +53,10 @@
     "forcedotcom/agents",
     "ghostery/broken-page-reports",
     "grafana/profiles-drilldown",
-    "GreptimeTeam/greptimedb-grafana-datasource",
     "gridatek/semantic-icons",
     "hairyf/genapi",
     "hashintel/labs",
+    "ibm-telemetry/telemetry-js",
     "iconify/iconify-tailwind",
     "iconify/tools",
     "intlify/cli",
@@ -73,7 +76,6 @@
     "ldclabs/KIP",
     "llamastack/llama-stack-client-typescript",
     "mcous/vitest-when",
-    "mdjastrzebski/test-renderer",
     "microsoft/Agents-for-js",
     "newrelic/opentelemetry-demo",
     "NullVoxPopuli/ember-deep-tracked",
@@ -106,7 +108,6 @@
     "sapphiredev/shapeshift",
     "SemiAnalysisAI/InferenceX-app",
     "seung-lab/neuroglancer",
-    "Shougo/dpp-ext-installer",
     "slopus/slopus.github.io",
     "suzuki-shunsuke/pinact-action",
     "swagger-api/apidom",

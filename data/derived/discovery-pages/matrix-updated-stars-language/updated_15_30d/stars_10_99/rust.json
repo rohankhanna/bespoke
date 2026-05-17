@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 667,
-    "concepts": 417,
-    "observations": 417,
-    "repos": 93,
-    "terms": 430
+    "components": 652,
+    "concepts": 410,
+    "observations": 410,
+    "repos": 92,
+    "terms": 418
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -42,7 +42,6 @@
     "ClickHouse/clickhousectl",
     "cloudllm-ai/mentisdb",
     "cometbft/cometbft-rs",
-    "crate-ci/imperative",
     "datachainlab/lcp",
     "datafusion-contrib/orc-rust",
     "davidhozic/mujoco-rs",
@@ -58,7 +57,6 @@
     "FxEmbed/mosaic",
     "GreptimeTeam/greptimedb-ingester-rust",
     "GreptimeTeam/promql-parser",
-    "hagan/claudia-statusline",
     "hecrj/iced_palace",
     "hermit-os/loader",
     "heroku/buildpacks-dotnet",
@@ -97,6 +95,7 @@
     "succinctlabs/network",
     "succinctlabs/sp1-cluster",
     "Systemcluster/kitoken",
+    "tofay/rustls-openssl",
     "tombelieber/claude-view",
     "tracel-ai/burn-bench",
     "tracel-ai/burn-onnx",

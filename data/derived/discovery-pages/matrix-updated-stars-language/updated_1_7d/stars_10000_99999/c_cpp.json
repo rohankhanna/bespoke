@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 4,
-    "terms": 24
+    "components": 56,
+    "concepts": 47,
+    "observations": 47,
+    "repos": 5,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
-    "blender/blender",
+    "apache/brpc",
     "DayBreak-u/chineseocr_lite",
-    "ggml-org/ggml",
+    "ggml-org/whisper.cpp",
+    "google-ai-edge/mediapipe",
     "mozilla-ai/llamafile"
   ]
 }

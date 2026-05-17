@@ -3,7 +3,7 @@
     "components": 1993,
     "concepts": 1824,
     "observations": 1830,
-    "repos": 807,
+    "repos": 808,
     "terms": 1818
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x7432/asm-ru",
@@ -53,6 +53,7 @@
     "aibasel/downward-benchmarks",
     "aiya000/vim-ghcid-quickfix",
     "ajinasokan/recharge",
+    "aki-0929/PaddleOCRJson.NET",
     "akinsho/dependency-assist.nvim",
     "Akira13641/PasBGFX",
     "akka-js/shocon",

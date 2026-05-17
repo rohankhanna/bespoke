@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 241,
-    "concepts": 181,
-    "observations": 182,
-    "repos": 37,
-    "terms": 180
+    "components": 193,
+    "concepts": 138,
+    "observations": 139,
+    "repos": 31,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "ADNTIO/crispy-bootloader-rp2040-rs",
@@ -28,10 +28,7 @@
     "energye/designer",
     "energye/examples",
     "Evilpasture/Culverin",
-    "fluent-vue/examples",
-    "fluent-vue/unplugin-fluent-vue",
     "gookit/cliui",
-    "haskell/ghcup-www",
     "influxdata/arrow-datafusion",
     "ioBroker/plugin-sentry",
     "JeremyAnsel/SharpAssimp",
@@ -40,15 +37,12 @@
     "lxgw/B5XiZhi",
     "open-telemetry/opentelemetry-weaver-examples",
     "pacstall/pacup",
-    "pixel-font-studio/fusion-bold-pixel-font",
     "pot-app/.github",
     "PrimeIntellect-ai/renderers",
     "skeeto/aas-sign",
     "stdlib-js/complex-reviver",
     "stdlib-js/ndarray-fancy",
-    "suzuki-shunsuke/release-js-action",
     "triton-inference-server/TensorRT-LLM",
-    "vincentlaucsb/classify_scalar",
     "vovkos/axl"
   ]
 }

@@ -1,49 +1,31 @@
 {
   "counts": {
-    "components": 432,
-    "concepts": 276,
-    "observations": 276,
-    "repos": 32,
-    "terms": 276
+    "components": 195,
+    "concepts": 104,
+    "observations": 104,
+    "repos": 14,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "0no-co/wonka",
-    "15r10nk/inline-snapshot",
-    "a2aproject/a2a-js",
     "abaplint/transpiler",
     "AI-Hypercomputer/maxdiffusion",
-    "apache/casbin-cpp",
-    "aristoteleo/PantheonOS",
-    "astroautomata/SymbolicRegression.jl",
     "aws-cloudformation/cfn-lint-visual-studio-code",
-    "bazel-contrib/rules_jvm_external",
-    "bazel-contrib/rules_kotlin",
-    "Comfy-Org/comfy-cli",
     "confluentinc/librdkafka",
-    "digitalocean/openapi",
-    "DISTRHO/DPF",
-    "eclipse-wildwebdeveloper/wildwebdeveloper",
-    "electron/packager",
     "fluent-vue/fluent-vue",
-    "GDevelopApp/GDevelop-extensions",
+    "fsprojects/FSharp.Data.GraphQL",
     "hexabot-ai/Hexabot",
+    "huggingface/hf-mcp-server",
     "ipsilon/evmone",
-    "ldproxy/ldproxy",
     "matter-js/matter.js",
-    "ROCm/hipBLAS",
-    "ROCm/hipBLASLt",
-    "ROCm/rocBLAS",
     "scverse/rapids-singlecell",
     "servo/stylo",
-    "spring-projects/spring-tools",
-    "stx-labs/stacks.js",
-    "tox-dev/filelock",
-    "Waffle/waffle"
+    "TextArena/TextArena"
   ]
 }

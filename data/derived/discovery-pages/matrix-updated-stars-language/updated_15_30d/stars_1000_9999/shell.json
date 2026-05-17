@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 203,
-    "concepts": 299,
-    "observations": 301,
+    "components": 213,
+    "concepts": 305,
+    "observations": 307,
     "repos": 42,
-    "terms": 292
+    "terms": 298
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "aaron-he-zhu/seo-geo-claude-skills",
     "alrra/dotfiles",
@@ -22,13 +22,13 @@
     "aurutils/aurutils",
     "bblanchon/pdfium-binaries",
     "bioconda/bioconda-recipes",
+    "bitnami/containers",
     "Botspot/pi-apps",
     "clangd/clangd",
     "conda-forge/miniforge",
     "confluentinc/demo-scene",
     "devcontainers/features",
     "devcontainers/images",
-    "diet103/claude-code-infrastructure-showcase",
     "docker-library/docker",
     "docker-library/docs",
     "docker-library/golang",

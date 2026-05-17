@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 145,
-    "concepts": 177,
-    "observations": 177,
-    "repos": 19,
-    "terms": 175
+    "components": 93,
+    "concepts": 139,
+    "observations": 139,
+    "repos": 14,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "charmbracelet/x",
     "CosmWasm/wasmd",
@@ -25,13 +25,8 @@
     "gookit/filter",
     "gookit/gcli",
     "gookit/slog",
-    "istio/api",
     "itzg/mc-router",
     "osmosis-labs/osmosis",
-    "scaleway/scaleway-sdk-go",
-    "seaweedfs/seaweedfs-operator",
-    "sergelogvinov/karpenter-provider-proxmox",
-    "sergelogvinov/proxmox-cloud-controller-manager",
     "yaling888/quirktiva"
   ]
 }

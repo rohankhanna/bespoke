@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 399,
-    "concepts": 201,
-    "observations": 201,
-    "repos": 28,
-    "terms": 201
+    "components": 358,
+    "concepts": 151,
+    "observations": 151,
+    "repos": 20,
+    "terms": 151
   },
   "facet_version": 1,
   "filters": {
@@ -12,33 +12,25 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersRegistry",
     "argotorg/hevm",
     "atsushieno/ktmidi",
-    "cefsharp/CefSharp.MinimalExample",
     "CHIP-SPV/chipStar",
     "cowprotocol/contracts",
     "dbkangaroo/kangaroo",
     "dennisdoomen/CSharpGuidelines",
-    "HOL-Theorem-Prover/HOL",
     "intel/ipex-llm-tutorial",
-    "istio/client-go",
-    "JuliaGraphics/Luxor.jl",
     "jump-dev/NLopt.jl",
-    "KulikDM/pythresh",
     "LibreChat-AI/librechat.ai",
     "lite-xl/lite-xl-plugin-manager",
     "mit-plv/bedrock2",
     "mrcjkb/haskell-tools.nvim",
     "nix-community/haumea",
     "open-telemetry/opentelemetry-helm-charts",
-    "openair-project/openair",
-    "osmlab/editor-layer-index",
     "osmlab/name-suggestion-index",
     "phpstan/phpstan-src",
-    "rafaqz/DimensionalData.jl",
     "sass/sass-spec",
     "sbt/sbt-jmh",
     "Shopify/tapioca"

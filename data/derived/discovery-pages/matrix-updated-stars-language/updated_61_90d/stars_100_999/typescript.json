@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 915,
-    "concepts": 142,
-    "observations": 143,
-    "repos": 32,
-    "terms": 152
+    "components": 983,
+    "concepts": 146,
+    "observations": 147,
+    "repos": 34,
+    "terms": 156
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -39,7 +39,9 @@
     "multiformats/js-multiformats",
     "Piebald-AI/gemini-cli-desktop",
     "priceline/design-system",
+    "solidjs/templates",
     "sveltejs/prettier-plugin-svelte",
+    "testing-library/angular-testing-library",
     "trzsz/trzsz.js",
     "un-ts/eslint-plugin-import-x",
     "unplugin/unplugin-vue-markdown",

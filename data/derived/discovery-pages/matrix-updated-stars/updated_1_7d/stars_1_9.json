@@ -1,20 +1,22 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 10,
-    "terms": 43
+    "components": 115,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 12,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "Aayushm24/presidential-briefing",
     "aidenlab/juicebox-web",
+    "apache/casbin-casbin.io",
+    "apache/casbin-fasthttp-auth",
     "atsushieno/aap-juce-simple-host",
     "atsushieno/midicci",
     "cloudfoundry/credhub-acceptance-tests",

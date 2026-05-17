@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3801,
-    "concepts": 672,
-    "observations": 675,
-    "repos": 78,
-    "terms": 667
+    "components": 3700,
+    "concepts": 657,
+    "observations": 660,
+    "repos": 76,
+    "terms": 650
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "acornjs/acorn",
@@ -21,11 +21,11 @@
     "ampproject/amphtml",
     "arkenfox/user.js",
     "Automattic/mongoose",
-    "avajs/ava",
     "badges/shields",
     "be5invis/Iosevka",
     "bmad-code-org/bmad-method",
     "brianc/node-postgres",
+    "CesiumGS/cesium",
     "commitizen/cz-cli",
     "cure53/DOMPurify",
     "decaporg/decap-cms",
@@ -48,7 +48,6 @@
     "jarrodwatts/claude-hud",
     "jashkenas/backbone",
     "jasmine/jasmine",
-    "josdejong/mathjs",
     "jquery/jquery",
     "jsdoc/jsdoc",
     "jsdom/jsdom",
@@ -80,13 +79,12 @@
     "SillyTavern/SillyTavern",
     "simple-icons/simple-icons",
     "stylelint/stylelint",
+    "sveltejs/kit",
     "sveltejs/svelte",
     "svg/svgo",
     "swagger-api/swagger-ui",
     "Unitech/pm2",
     "validatorjs/validator.js",
-    "vega/vega",
-    "vercel-labs/agent-skills",
     "webpack/webpack",
     "webtorrent/webtorrent",
     "wix/Detox",

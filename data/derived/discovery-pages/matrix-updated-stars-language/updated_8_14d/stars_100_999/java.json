@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 25,
-    "observations": 25,
+    "components": 29,
+    "concepts": 41,
+    "observations": 41,
     "repos": 5,
-    "terms": 25
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "jcefmaven/jcefmaven",
     "jdereg/json-io",
+    "KosherJava/zmanim",
     "mapsforge/vtm",
-    "MarcusWolschon/osmeditor4android",
     "processing/processing4"
   ]
 }

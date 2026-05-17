@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 95,
-    "concepts": 106,
-    "observations": 106,
-    "repos": 27,
-    "terms": 105
+    "components": 101,
+    "concepts": 110,
+    "observations": 110,
+    "repos": 28,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "abh/geodns",
     "bytedance/gopkg",
+    "caddyserver/xcaddy",
     "charmbracelet/glamour",
     "CloudyKit/jet",
     "coder/websocket",

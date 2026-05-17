@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 118,
-    "concepts": 152,
-    "observations": 152,
-    "repos": 13,
-    "terms": 152
+    "components": 75,
+    "concepts": 96,
+    "observations": 96,
+    "repos": 8,
+    "terms": 96
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "bazel-contrib/bazel-gazelle",
     "cosmos/cosmos-sdk",
     "crazy-max/diun",
     "elastic/cloud-on-k8s",
-    "erigontech/erigon",
-    "go-git/go-git",
-    "go-ini/ini",
     "gookit/goutil",
     "gookit/validate",
-    "kubeovn/kube-ovn",
     "letsencrypt/boulder",
-    "Loyalsoldier/geoip",
     "open-telemetry/opentelemetry-operator"
   ]
 }

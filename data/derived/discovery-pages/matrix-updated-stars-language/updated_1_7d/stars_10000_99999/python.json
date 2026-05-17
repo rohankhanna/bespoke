@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 123,
-    "concepts": 141,
-    "observations": 141,
-    "repos": 11,
-    "terms": 141
+    "components": 150,
+    "concepts": 216,
+    "observations": 216,
+    "repos": 15,
+    "terms": 216
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,22 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "567-labs/instructor",
-    "axolotl-ai-cloud/axolotl",
-    "Dao-AILab/flash-attention",
+    "aden-hive/hive",
+    "deepspeedai/DeepSpeed",
+    "fastapi/fastapi",
     "hiyouga/LlamaFactory",
+    "huggingface/sentence-transformers",
     "Lightning-AI/pytorch-lightning",
+    "modelscope/ms-swift",
+    "OpenHands/OpenHands",
     "PDFMathTranslate/PDFMathTranslate",
-    "psf/black",
-    "pyg-team/pytorch_geometric",
     "qubvel-org/segmentation_models.pytorch",
+    "run-llama/llama_index",
     "TEN-framework/ten-framework",
-    "ungoogled-software/ungoogled-chromium"
+    "ungoogled-software/ungoogled-chromium",
+    "verl-project/verl"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 436,
-    "concepts": 447,
-    "observations": 449,
-    "repos": 94,
-    "terms": 450
+    "components": 431,
+    "concepts": 443,
+    "observations": 445,
+    "repos": 92,
+    "terms": 446
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "Alexander-Miller/treemacs",
     "amebalabs/TRex",
@@ -60,7 +60,6 @@
     "haskell/stylish-haskell",
     "hecomi/uLipSync",
     "hoshsadiq/adblock-nocoin-list",
-    "jashkenas/docco",
     "jekip/naive-ui-admin",
     "joaotavora/eglot",
     "justinmk/vim-sneak",
@@ -84,7 +83,6 @@
     "nvim-java/nvim-java",
     "onsails/lspkind.nvim",
     "OpenBMB/MiniCPM",
-    "petertriho/nvim-scrollbar",
     "phar-io/manifest",
     "rafamadriz/friendly-snippets",
     "rails/importmap-rails",

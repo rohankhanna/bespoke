@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 362,
-    "concepts": 537,
-    "observations": 540,
-    "repos": 104,
-    "terms": 532
+    "components": 370,
+    "concepts": 547,
+    "observations": 550,
+    "repos": 105,
+    "terms": 541
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "aibasel/downward",
@@ -38,6 +38,7 @@
     "eddelbuettel/rcppsimdjson",
     "elixir-sqlite/exqlite",
     "eyalz800/zpp_bits",
+    "flavorjones/ruby-c-extensions-explained",
     "freeswitch/sofia-sip",
     "fribidi/fribidi",
     "fujitsu/xbyak_aarch64",
@@ -55,8 +56,9 @@
     "ipsilon/evmc",
     "JokerJohn/Cloud_Map_Evaluation",
     "JokerJohn/MS-Mapping",
+    "JokerJohn/PALoc",
     "jupyter-xeus/xeus",
-    "KhronosGroup/OpenCL-Headers",
+    "jupyter-xeus/xeus-python",
     "KhronosGroup/OpenCL-ICD-Loader",
     "KhronosGroup/OpenGL-Registry",
     "lastz/lastz",
@@ -85,7 +87,6 @@
     "nhielost/obs-midi-mg",
     "NiklasRosenstein/pbzx",
     "NiLuJe/FBInk",
-    "NiLuJe/kfmon",
     "nx10/httpgd",
     "objectbox/objectbox-c",
     "osmcode/libosmium",

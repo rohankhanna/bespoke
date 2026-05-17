@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 167,
-    "concepts": 187,
-    "observations": 187,
-    "repos": 30,
-    "terms": 179
+    "components": 180,
+    "concepts": 206,
+    "observations": 206,
+    "repos": 33,
+    "terms": 198
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
+    "ApolloAuto/apollo",
     "aristocratos/btop",
     "bellard/quickjs",
     "cloudwu/skynet",
@@ -27,9 +28,11 @@
     "google/googletest",
     "google/sanitizers",
     "haiwen/seafile",
+    "jedisct1/libsodium",
     "libevent/libevent",
     "libgit2/libgit2",
     "lz4/lz4",
+    "mawww/kakoune",
     "microsoft/wslg",
     "mobile-shell/mosh",
     "ninja-build/ninja",

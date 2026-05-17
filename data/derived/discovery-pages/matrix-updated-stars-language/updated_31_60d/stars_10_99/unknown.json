@@ -3,7 +3,7 @@
     "components": 31,
     "concepts": 62,
     "observations": 62,
-    "repos": 34,
+    "repos": 35,
     "terms": 62
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
@@ -23,7 +23,6 @@
     "BAI-LAB/Survey-on-AI-Memory",
     "bleichenbacher-daniel/Rooterberg",
     "bmad-code-org/bmad-plugins-marketplace",
-    "bpftrace/user-tools",
     "cdxeve/awesome-computer-use-agents",
     "cedar-policy/cedar-docs",
     "collective/awesome-volto",
@@ -33,6 +32,7 @@
     "eigenfoundation/elips",
     "flinedev/plankit",
     "ganelson/inform-evolution",
+    "GDevelopApp/GDevelop-community-list",
     "getsentry/.github",
     "grpc/grpc-community",
     "ipshipyard/dnslink-action",
@@ -41,6 +41,7 @@
     "jakoch/rasterizers",
     "jakoch/vulkan-sdk-arm",
     "kubernetes/steering",
+    "ocaml/platform-blog",
     "onyx-dot-app/onyx_deep_research_bench",
     "opencontainers/tob",
     "openobserve/dashboards",

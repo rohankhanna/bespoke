@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1099,
-    "concepts": 267,
-    "observations": 269,
-    "repos": 69,
-    "terms": 274
+    "components": 1092,
+    "concepts": 259,
+    "observations": 261,
+    "repos": 68,
+    "terms": 266
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "AdguardTeam/FiltersCompiler",
@@ -80,7 +80,6 @@
     "ultralytics/llm",
     "web-platform-tests/results-analysis",
     "webtorrent/bittorrent-lsd",
-    "webtorrent/bittorrent-peerid",
     "winstonjs/winston-transport",
     "wyyazlz/sheetnext"
   ]

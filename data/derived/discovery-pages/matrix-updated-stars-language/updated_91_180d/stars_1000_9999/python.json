@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 366,
-    "concepts": 703,
-    "observations": 704,
-    "repos": 153,
-    "terms": 694
+    "components": 360,
+    "concepts": 696,
+    "observations": 697,
+    "repos": 151,
+    "terms": 683
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "AIDC-AI/Marco-o1",
@@ -49,7 +49,6 @@
     "crowsonkb/k-diffusion",
     "cvg/Hierarchical-Localization",
     "davidhalter/jedi-vim",
-    "deepseek-ai/DeepSeek-V3.2-Exp",
     "descriptinc/descript-audio-codec",
     "DLYuanGod/TinyGPT-V",
     "dmayboroda/minima",
@@ -101,7 +100,6 @@
     "ModelTC/LightX2V-Qwen-Image-Lightning",
     "mosaicml/streaming",
     "myhub/tr",
-    "mymarilyn/clickhouse-driver",
     "nari-labs/dia2",
     "NixOS/nixops",
     "nod-ai/AMD-SHARK-Studio",

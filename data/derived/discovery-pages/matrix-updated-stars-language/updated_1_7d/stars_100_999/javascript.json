@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 3,
-    "terms": 10
+    "components": 60,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 4,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "Calcium-Ion/new-api-key-tool",
-    "GoogleCloudPlatform/google-cloud-node-todos",
-    "jupyter/nbclassic"
+    "digitalocean/openapi",
+    "GDevelopApp/GDevelop-extensions",
+    "GoogleCloudPlatform/google-cloud-node-todos"
   ]
 }

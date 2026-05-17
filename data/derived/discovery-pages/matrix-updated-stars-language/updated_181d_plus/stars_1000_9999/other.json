@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1254,
-    "concepts": 1536,
-    "observations": 1538,
-    "repos": 416,
-    "terms": 1525
+    "components": 1259,
+    "concepts": 1540,
+    "observations": 1542,
+    "repos": 418,
+    "terms": 1529
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -182,6 +182,7 @@
     "IRkernel/IRkernel",
     "isl-org/ZoeDepth",
     "jalammar/ecco",
+    "jashkenas/docco",
     "jdorn/sql-formatter",
     "jensimmons/cssremedy",
     "jeonsworld/ViT-pytorch",
@@ -287,6 +288,7 @@
     "pesser/stable-diffusion",
     "peteanderson80/bottom-up-attention",
     "petercorke/robotics-toolbox-matlab",
+    "petertriho/nvim-scrollbar",
     "pfalcon/esp-open-sdk",
     "phar-io/version",
     "philferriere/cocoapi",

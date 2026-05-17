@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 2904,
+    "components": 2917,
     "concepts": 654,
     "observations": 654,
-    "repos": 269,
+    "repos": 270,
     "terms": 646
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "0xDAEF0F/job-searchoor",
     "0xPolygon/pilcom",
@@ -47,6 +47,7 @@
     "argosopentech/argospm-index",
     "ariesjia/vue-composition-test-utils",
     "Armour/vue-typescript-admin-mock-server",
+    "Arthy000/gherkin-testcafe",
     "atom/archive-view",
     "atomlinter/linter-markdown",
     "aymenfurter/smartrag",
@@ -265,7 +266,7 @@
     "tommasongr/nova-vue",
     "topojson/topojson-simplify",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "udacity/FEF-UdaciMeals-Backbone",
     "un-ts/toml-tools",
     "unlight/postcss-import-url",

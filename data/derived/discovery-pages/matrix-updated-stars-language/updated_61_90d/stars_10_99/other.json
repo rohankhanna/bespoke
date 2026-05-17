@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 351,
-    "concepts": 232,
-    "observations": 233,
+    "components": 356,
+    "concepts": 228,
+    "observations": 229,
     "repos": 80,
-    "terms": 228
+    "terms": 224
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "219-design/qt-qml-project-template-with-ci",
     "2KAbhishek/exercism.nvim",
     "6cdh/dotfiles",
     "ably-labs/realtime-quiz-framework",
-    "AceCHQ/TransMatting",
     "adaszko/tree_climber_rust.nvim",
     "adelarsq/vim-emoji-icon-theme",
     "AghayeCoder/TX-ThemeHub",
@@ -50,7 +49,6 @@
     "flycheck/flycheck-eglot",
     "FoundationDB/fdb-build-support",
     "HaxeFlixel/haxeflixel.com",
-    "hedronvision/bazel-make-cc-https-easy",
     "Humans-of-Julia/StaticWebPages.jl",
     "ImranR98/obtainium.imranr.dev",
     "informalsystems/audits",
@@ -66,6 +64,8 @@
     "kahliburke/MCPRepl.jl",
     "larshp/abapGitServer",
     "liquidev/lintplus",
+    "lostromb/concentus.oggfile",
+    "malewicz1337/oil-git.nvim",
     "mfussenegger/nlua",
     "MicrosoftDocs/vcpkg-docs",
     "mirage/conan",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 26295,
-    "concepts": 22578,
-    "observations": 22650,
-    "repos": 5589,
-    "terms": 22523
+    "components": 26307,
+    "concepts": 22590,
+    "observations": 22662,
+    "repos": 5594,
+    "terms": 22527
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -839,6 +839,7 @@
     "bensu/doo",
     "benwmills/core-sass-compiler",
     "Beomi/KoAlpaca",
+    "bepu/bepuphysics2",
     "Betterment/betterlint",
     "BetterThanTomorrow/calva-power-tools",
     "BetterThanTomorrow/joyride",
@@ -1378,6 +1379,7 @@
     "coollabsio/coolify",
     "cooper1637/SageAttention",
     "copilot-emacs/copilot.el",
+    "CopyText/TextCopy",
     "corasaurus-hex/fs",
     "coredns/helm",
     "corgi-emacs/corgi",
@@ -3385,6 +3387,7 @@
     "lite-xl/lite-xl-plugins",
     "lite-xl/lite-xl-widgets",
     "litedb-org/LiteDB",
+    "litedb-org/LiteDB.Studio",
     "litex-hub/litex-buildenv-udev",
     "litex-hub/pythondata-cpu-vexriscv",
     "Lithou/Sandbox",
@@ -3711,6 +3714,7 @@
     "MilesCranmer/DispatchDoctor.jl",
     "mileszs/ack.vim",
     "milly/runtray-ps",
+    "MiloszKrajewski/K4os.Compression.LZ4",
     "milvus-io/milvus-sdk-csharp",
     "minad/consult",
     "minad/corfu",
@@ -4048,6 +4052,7 @@
     "nvimdev/nerdicons.nvim",
     "NVlabs/adaptive-prediction",
     "NVlabs/instant-ngp",
+    "NVorbis/NVorbis",
     "OAI/OpenAPI-Specification",
     "oap-project/oap-mllib",
     "objectbox/objectbox-dart",

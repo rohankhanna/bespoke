@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 115,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 35,
-    "terms": 86
+    "components": 136,
+    "concepts": 98,
+    "observations": 98,
+    "repos": 36,
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "42-evey/evey-bridge-plugin",
     "agenmod/distill-protocol-skill",
@@ -25,11 +25,12 @@
     "apptainer/apptainer-userdocs",
     "ashvardanian/ashvardanian",
     "astroyat/lerobot",
+    "audeering/audonnx",
     "axolotl-ai-cloud/ml-cross-entropy",
     "Boulaouaney/timmx",
     "cdeust/cortex-cowork",
     "cdxeve/scale-openclaw",
-    "conda-forge/cupy-feedstock",
+    "chaoss/grimoirelab-toolkit",
     "CoolCat467/idlemypyextension",
     "danielrosehill/claude-slash-commands",
     "danielrosehill/donetick-mcp",
@@ -40,6 +41,7 @@
     "jupyter-xeus/xeus-python-shell",
     "justinchuby/lintrunner-adapters",
     "KabakaWilliam/trajectorykit",
+    "kelp/webdown",
     "lace/proximity",
     "ldayton/parable",
     "ldayton/Tongues",
@@ -47,7 +49,6 @@
     "Mbed-TLS/mbedtls-framework",
     "Mercury13/unicodia-sesh",
     "ROCm/rbuild",
-    "runtimeverification/kup",
-    "sparklabutah/timewarp"
+    "runtimeverification/kup"
   ]
 }

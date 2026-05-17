@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 560,
+    "components": 562,
     "concepts": 419,
     "observations": 422,
-    "repos": 107,
+    "repos": 106,
     "terms": 419
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "4d49/scene-library",
@@ -27,6 +27,7 @@
     "autodeployai/ai-serving",
     "aws-ia/terraform-aws-eks-blueprints-addons",
     "aws-samples/prompt-engineering-with-anthropic-claude-v-3",
+    "Azure-Samples/azureai-samples",
     "badges/awesome-badges",
     "beam-telemetry/telemetry",
     "beam-telemetry/telemetry_metrics",
@@ -41,7 +42,6 @@
     "clojure-emacs/inf-clojure",
     "clojure/core.cache",
     "clojure/core.memoize",
-    "clojure/tools.analyzer",
     "clojure/tools.analyzer.jvm",
     "clojure/tools.build",
     "cognitect/transit-clj",
@@ -69,7 +69,6 @@
     "google-research/nested-transformer",
     "google/CommonLoopUtils",
     "haskell-nix/hnix",
-    "havarddj/typst-preview.el",
     "HaxeFlixel/flixel-demos",
     "iftheshoefritz/solargraph-rails",
     "JetBrains/gradle-changelog-plugin",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1624,
-    "concepts": 434,
-    "observations": 436,
-    "repos": 103,
-    "terms": 465
+    "components": 1715,
+    "concepts": 460,
+    "observations": 462,
+    "repos": 107,
+    "terms": 491
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "absolute-version/commit-and-tag-version",
     "actions/deploy-pages",
     "actions/hello-world-javascript-action",
+    "AdguardTeam/HostlistCompiler",
     "adobe/spectrum-design-data",
     "agent-sh/agentsys",
     "AghayeCoder/tx-ui",
@@ -46,6 +47,7 @@
     "eladnava/pikud-haoref-api",
     "electron/node-abi",
     "ember-cli/ember-exam",
+    "eslint-community/eslint-plugin-n",
     "fabmax/physx-js-webidl",
     "fastify/create-fastify",
     "fastify/example",
@@ -59,6 +61,7 @@
     "googleapis/nodejs-bigtable",
     "GoogleChromeLabs/wasm-feature-detect",
     "gopasspw/gopassbridge",
+    "graphql/graphql-wg",
     "gruntjs/grunt-contrib-connect",
     "gruntjs/grunt-contrib-cssmin",
     "gruntjs/grunt-contrib-htmlmin",
@@ -73,6 +76,7 @@
     "karma-runner/karma-coverage",
     "karma-runner/karma-jasmine",
     "kharchenkolab/pagoda2",
+    "kriszyp/lmdb-js",
     "Level/abstract-level",
     "mapbox/cheap-ruler",
     "mapbox/mapbox-gl-styles",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 50,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 8,
-    "terms": 21
+    "concepts": 18,
+    "observations": 18,
+    "repos": 7,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "apify/actor-templates",
     "baicai-1145/GPT-SoVITS-CPUFast",
@@ -20,7 +20,6 @@
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "intel-staging/text-generation-webui",
     "mesh-iit/cad-libraries",
-    "version-fox/vfox-plugins",
-    "yulewang97/ERDiff"
+    "version-fox/vfox-plugins"
   ]
 }

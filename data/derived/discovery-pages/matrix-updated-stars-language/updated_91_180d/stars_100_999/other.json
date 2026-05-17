@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 758,
-    "concepts": 744,
-    "observations": 745,
-    "repos": 189,
-    "terms": 738
+    "components": 762,
+    "concepts": 748,
+    "observations": 749,
+    "repos": 191,
+    "terms": 742
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -55,6 +55,7 @@
     "clojure/data.json",
     "clojure/data.priority-map",
     "clojure/java.jdbc",
+    "clojure/tools.analyzer",
     "clojure/tools.deps.graph",
     "clojure/tools.namespace",
     "clojure/tools.nrepl",
@@ -100,6 +101,7 @@
     "grpc/grpc-dart",
     "gvvaughan/lyaml",
     "haskell/text",
+    "havarddj/typst-preview.el",
     "HelgeSverre/toon-php",
     "Helsinki-NLP/OPUS-MT-train",
     "HerringtonDarkholme/yats.vim",

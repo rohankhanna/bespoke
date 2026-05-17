@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 3,
-    "terms": 29
+    "components": 39,
+    "concepts": 56,
+    "observations": 56,
+    "repos": 7,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
+    "bazel-contrib/rules_jvm_external",
     "cloudfoundry/credhub",
     "eclipse-lsp4j/lsp4j",
-    "KosherJava/zmanim"
+    "eclipse-wildwebdeveloper/wildwebdeveloper",
+    "ldproxy/ldproxy",
+    "spring-projects/spring-tools",
+    "Waffle/waffle"
   ]
 }

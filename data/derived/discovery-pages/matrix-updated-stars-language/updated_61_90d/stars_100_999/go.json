@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 136,
-    "concepts": 158,
-    "observations": 159,
-    "repos": 25,
-    "terms": 158
+    "components": 143,
+    "concepts": 167,
+    "observations": 168,
+    "repos": 27,
+    "terms": 167
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "alexkohler/prealloc",
     "anacrolix/dht",
@@ -22,6 +22,7 @@
     "aws/amazon-ec2-spot-interrupter",
     "aws/amazon-ecs-cni-plugins",
     "box-cli-maker/box-cli-maker",
+    "cloudwego/kitex-examples",
     "erigontech/interfaces",
     "GoogleCloudPlatform/docker-credential-gcr",
     "gost-dom/browser",
@@ -30,6 +31,7 @@
     "ipfs/go-graphsync",
     "itzg/rcon-cli",
     "JupiterRider/purego-sdl3",
+    "kubernetes-sigs/kubetest2",
     "maykonlsf/semver-cli",
     "medama-io/medama",
     "mholt/acmez",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 10,
-    "terms": 30
+    "components": 98,
+    "concepts": 44,
+    "observations": 44,
+    "repos": 11,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-compiler",
     "actions-cool/.github",
@@ -22,6 +22,7 @@
     "browserslist/browserslist-plausible",
     "coderaiser/escover",
     "heshengtao/desktop-for-sap",
+    "lucabubi/star-history",
     "REditorSupport/vscode-R-syntax",
     "tc39/proposal-intl-keep-trailing-zeros"
   ]

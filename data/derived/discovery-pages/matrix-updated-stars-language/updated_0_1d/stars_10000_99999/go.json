@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 107,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 6,
-    "terms": 94
+    "components": 97,
+    "concepts": 73,
+    "observations": 73,
+    "repos": 5,
+    "terms": 73
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
-    "apache/casbin",
     "gastownhall/beads",
     "gastownhall/gastown",
     "mudler/LocalAI",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2963,
-    "concepts": 659,
-    "observations": 660,
-    "repos": 92,
-    "terms": 691
+    "components": 3165,
+    "concepts": 746,
+    "observations": 747,
+    "repos": 101,
+    "terms": 779
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "abrahamjuliot/creepjs",
     "actions/download-artifact",
@@ -25,6 +25,8 @@
     "antfu/vitesse-nuxt",
     "argos-ci/jest-puppeteer",
     "artsy/README",
+    "av/harbor",
+    "babaohuang/GeminiProChat",
     "badgen/badgen.net",
     "bash-lsp/bash-language-server",
     "ben-rogerson/twin.macro",
@@ -41,6 +43,7 @@
     "emmetio/emmet",
     "enisdenjo/graphql-ws",
     "ethers-io/ethers.js",
+    "firebase/firebase-admin-node",
     "frenic/csstype",
     "gajus/slonik",
     "getsentry/xcodebuildmcp",
@@ -61,6 +64,7 @@
     "Ironclad/rivet",
     "isaacs/node-glob",
     "itgalaxy/favicons",
+    "jaredwray/cacheable",
     "jaredwray/keyv",
     "josdejong/svelte-jsoneditor",
     "josStorer/RWKV-Runner",
@@ -82,9 +86,10 @@
     "microsoft/vscode-languageserver-node",
     "Mobile-Artificial-Intelligence/maid",
     "mutoe/vue3-realworld-example-app",
-    "Myriad-Dreamin/typst.ts",
     "nanbingxyz/5ire",
+    "ngx-translate/core",
     "oclif/oclif",
+    "onecli/onecli",
     "opactorai/claudable",
     "PAIR-code/lit",
     "peter-evans/repository-dispatch",
@@ -98,13 +103,17 @@
     "sql-formatter-org/sql-formatter",
     "statoscope/statoscope",
     "stephenh/ts-proto",
+    "streamich/memfs",
+    "stripe/ai",
     "TfTHacker/obsidian42-brat",
     "the-guild-org/apollo-angular",
     "thx/resvg-js",
+    "TooTallNate/proxy-agents",
     "TypeStrong/ts-loader",
     "unplugin/unplugin-vue-components",
     "vadimdemedes/pastel",
     "vercel/next-learn",
+    "webgpu/webgpu-samples",
     "xojs/xo"
   ]
 }

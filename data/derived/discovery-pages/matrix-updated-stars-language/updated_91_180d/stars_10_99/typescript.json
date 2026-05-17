@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 749,
-    "concepts": 92,
-    "observations": 92,
-    "repos": 33,
-    "terms": 94
+    "components": 642,
+    "concepts": 81,
+    "observations": 81,
+    "repos": 31,
+    "terms": 83
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "adevinta/actions-lighthouseci-compare",
     "aigc3d/LAM_WebRender",
@@ -30,7 +30,6 @@
     "hsimpson/vscode-glsllint",
     "iccicci/next-json",
     "instana/opentelemetry-demo",
-    "ipfs/helia-http-gateway",
     "isaacs/clock-mock",
     "janwilmake/oapis",
     "joliss/node-walk-sync",
@@ -41,7 +40,6 @@
     "omril321/automated-notebooklm",
     "opensearch-project/opentelemetry-demo",
     "PhoenixIllusion/babylonjs-jolt-physics-plugin",
-    "redhat-developer/vscode-redhat-telemetry",
     "remotion-dev/brand",
     "sculptdotfun/viberank",
     "signalfx/opentelemetry-demo",

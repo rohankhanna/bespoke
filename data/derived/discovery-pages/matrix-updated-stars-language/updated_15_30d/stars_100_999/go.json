@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1352,
+    "components": 1355,
     "concepts": 1100,
-    "observations": 1107,
+    "observations": 1104,
     "repos": 160,
-    "terms": 1110
+    "terms": 1108
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "2dust/AndroidLibXrayLite",
     "a2aproject/a2a-go",
@@ -29,7 +29,6 @@
     "apache/pulsar-client-go",
     "appleboy/go-fcm",
     "aquasecurity/trivy-db",
-    "argoproj-labs/argo-rollouts-manager",
     "argoproj-labs/argocd-agent",
     "argoproj-labs/argocd-operator",
     "aws-cloudformation/rain",
@@ -43,7 +42,6 @@
     "Azure/terraform-provider-azapi",
     "bazel-contrib/rules_img",
     "bitrise-io/bitrise",
-    "bitrise-io/envman",
     "boj/redistore",
     "bufbuild/protovalidate-go",
     "buildpacks/lifecycle",
@@ -72,7 +70,6 @@
     "cosmos/interchain-security",
     "CosmWasm/wasmvm",
     "crytic/medusa",
-    "darkweak/souin",
     "dependabot/cli",
     "docker/model-runner",
     "dydxprotocol/v4-chain",
@@ -80,7 +77,6 @@
     "etclabscore/core-geth",
     "ethereum/hive",
     "fnproject/cli",
-    "foxj77/claudectx",
     "go-git/go-billy",
     "go-logr/zapr",
     "go-openapi/strfmt",
@@ -102,6 +98,7 @@
     "hypnoglow/helm-s3",
     "ipfs/boxo",
     "ipfs/rainbow",
+    "istio/api",
     "istio/tools",
     "itzg/mc-monitor",
     "JupiterRider/ffi",
@@ -120,7 +117,6 @@
     "kubernetes/metrics",
     "kubernetes/sample-apiserver",
     "labring/aiproxy",
-    "Layr-Labs/eigenda",
     "letsencrypt/pebble",
     "linxGnu/grocksdb",
     "maragudk/gomponents-starter-kit",
@@ -153,8 +149,12 @@
     "raystack/meteor",
     "runpod/runpodctl",
     "scaleway/scaleway-cli",
+    "scaleway/scaleway-sdk-go",
     "seaweedfs/seaweedfs-csi-driver",
+    "seaweedfs/seaweedfs-operator",
     "secretflow/kuscia",
+    "sergelogvinov/karpenter-provider-proxmox",
+    "sergelogvinov/proxmox-cloud-controller-manager",
     "sethvargo/ratchet",
     "sigstore/fulcio",
     "skenetechnologies/skene",

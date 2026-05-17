@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 534,
-    "concepts": 383,
-    "observations": 383,
-    "repos": 126,
-    "terms": 377
+    "components": 536,
+    "concepts": 390,
+    "observations": 390,
+    "repos": 127,
+    "terms": 384
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "0x676e67/0x676e67",
@@ -64,6 +64,7 @@
     "cncf/k8s-conformance-archive",
     "coderaiser/escover",
     "cognizant-ai-lab/neuro-san-cc",
+    "conda-forge/cupy-feedstock",
     "conda-forge/modin-feedstock",
     "countries/countries-data-yaml",
     "CROSS-signature/CROSS-lib-oqs",
@@ -80,7 +81,6 @@
     "filip26/titanium-jcs",
     "filip26/titanium-rdf-canon",
     "filip26/titanium-rdf-n-quads",
-    "flagos-ai/vllm-FL",
     "flinedev/customstatusline",
     "flinedev/recall",
     "gakonst/foundry",
@@ -97,6 +97,7 @@
     "lace/hobart",
     "Layr-Labs/incredible-squaring-avs-rs",
     "llm-in-sandbox/llm-in-sandbox-rl",
+    "lucabubi/star-history",
     "MarcCote/TextWorld",
     "marxin/mdbook-linkcheck2",
     "near/near-abi-client-rs",
@@ -111,7 +112,6 @@
     "openobserve/vector",
     "paolodamico/ruint-uniffi",
     "PBK-B/i18next-cli-vue",
-    "piebald-ai/.github",
     "PyThaiNLP/pythainlp-corpus",
     "radian-software/gnu-elpa-mirror",
     "realworld-apps/nitro-prisma-zod-realworld-example-app",
@@ -124,6 +124,7 @@
     "shadmau/autocouncil",
     "shakacode/package_json",
     "sigp/quick-protobuf",
+    "sparklabutah/timewarp",
     "stephanj/sonarlint-devoxxgenie-intellij",
     "stephanj/spotbugs-devoxxgenie-plugin",
     "SWE-bench/SWE-smith-envs",

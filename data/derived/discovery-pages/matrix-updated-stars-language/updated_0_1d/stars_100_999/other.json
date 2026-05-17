@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 3,
-    "terms": 32
+    "components": 4,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 1,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
-    "astroautomata/SymbolicRegression.jl",
-    "bazel-contrib/rules_kotlin",
-    "ROCm/hipBLASLt"
+    "fsprojects/FSharp.Data.GraphQL"
   ]
 }

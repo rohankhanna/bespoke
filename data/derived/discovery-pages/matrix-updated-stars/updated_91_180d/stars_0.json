@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 290,
-    "concepts": 106,
-    "observations": 106,
-    "repos": 86,
-    "terms": 106
+    "components": 302,
+    "concepts": 110,
+    "observations": 110,
+    "repos": 87,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "1000ch/Sublime-csso",
@@ -74,6 +74,7 @@
     "JuliaBinaryWrappers/Glib_jll.jl",
     "JuliaBinaryWrappers/Libffi_jll.jl",
     "Keats/os_info",
+    "kitknox/helix",
     "KSXGitHub/aur-packages-builder-1",
     "KSXGitHub/aur-packages-builder-2",
     "KSXGitHub/personal-crates",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 100,
-    "concepts": 120,
-    "observations": 120,
-    "repos": 19,
-    "terms": 120
+    "components": 83,
+    "concepts": 86,
+    "observations": 86,
+    "repos": 15,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,19 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "aburch/simutrans",
     "alsa-project/alsa-lib",
-    "apache/iceberg-cpp",
     "Blosc/c-blosc2",
     "CEED/libCEED",
     "celtera/libremidi",
     "foldl/chatllm.cpp",
     "google-deepmind/reverb",
-    "heiher/hev-socks5-server",
-    "Mercury13/unicodia",
     "open-telemetry/opentelemetry-dotnet-instrumentation",
     "open-telemetry/opentelemetry-ebpf-instrumentation",
     "ouster-lidar/ouster-ros",
     "ros2/common_interfaces",
-    "todbot/hidapitester",
     "tree-sitter-grammars/tree-sitter-markdown",
     "triton-inference-server/core",
     "triton-inference-server/pytorch_backend",

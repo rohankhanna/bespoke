@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 77,
-    "concepts": 77,
-    "observations": 77,
-    "repos": 13,
-    "terms": 77
+    "components": 162,
+    "concepts": 140,
+    "observations": 141,
+    "repos": 18,
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,24 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
+    "apache/casbin-Casbin.NET",
+    "babashka/babashka",
     "beam-community/elixir-companies",
     "benchflow-ai/skillsbench",
+    "clj-kondo/clj-kondo",
     "elixir-grpc/grpc",
-    "hacl-star/hacl-star",
+    "firebase/flutterfire",
+    "kurrent-io/KurrentDB",
     "lightning/bolts",
+    "lumen-oss/rocks.nvim",
     "microsoft/PhiCookBook",
     "nushell/awesome-nu",
-    "nvim-mini/mini.nvim",
     "nvimdev/lspsaga.nvim",
     "okd-project/okd",
+    "psmux/psmux",
     "standardrb/standard",
     "TryGhost/node-sqlite3"
   ]

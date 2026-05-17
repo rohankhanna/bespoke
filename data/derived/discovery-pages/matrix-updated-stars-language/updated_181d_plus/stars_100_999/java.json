@@ -3,7 +3,7 @@
     "components": 87,
     "concepts": 171,
     "observations": 171,
-    "repos": 69,
+    "repos": 68,
     "terms": 171
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "abarisain/dmix",
     "aidenlab/Juicebox",
@@ -67,7 +67,6 @@
     "nativelibs4java/JNAerator",
     "netplex/json-smart-v2",
     "ning/jvm-compressor-benchmark",
-    "opensciencemap/vtm",
     "processing/processing-android",
     "processing/processing-sound",
     "processing/processing-video",

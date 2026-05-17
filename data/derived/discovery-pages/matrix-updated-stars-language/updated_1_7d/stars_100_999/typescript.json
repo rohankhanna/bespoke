@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 788,
-    "concepts": 134,
-    "observations": 134,
-    "repos": 17,
-    "terms": 132
+    "components": 915,
+    "concepts": 156,
+    "observations": 156,
+    "repos": 20,
+    "terms": 154
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
+    "a2aproject/a2a-js",
     "apify/apify-cli",
     "apify/mcpc",
+    "electron/packager",
     "Koenkk/zigbee-herdsman",
     "Luligu/matterbridge",
     "Luligu/matterbridge-shelly",
@@ -29,6 +31,7 @@
     "RiDDiX/home-assistant-matter-hub",
     "serversideup/webext-bridge",
     "skilld-dev/skilld",
+    "stx-labs/stacks.js",
     "unplugin/unplugin-imagemin",
     "Zoo-Code-Org/Zoo-Code"
   ]

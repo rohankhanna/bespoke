@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 92,
-    "concepts": 94,
-    "observations": 95,
-    "repos": 36,
-    "terms": 92
+    "components": 97,
+    "concepts": 108,
+    "observations": 109,
+    "repos": 37,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "3dfxdev/EDGE",
     "AdaCore/gnatcoll-db",
@@ -41,6 +41,7 @@
     "osvenskan/sysv_ipc",
     "r-spatial/lwgeom",
     "r-spatial/s2",
+    "Rezonality/zing",
     "RomanArzumanyan/VALI",
     "Taritsyn/LibSassHost",
     "tier4/ndt_omp",

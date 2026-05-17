@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 267,
-    "concepts": 188,
-    "observations": 192,
-    "repos": 37,
-    "terms": 187
+    "components": 210,
+    "concepts": 153,
+    "observations": 154,
+    "repos": 29,
+    "terms": 153
   },
   "facet_version": 1,
   "filters": {
@@ -12,44 +12,36 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
-    "ameshkov/swift-psl",
     "atsushieno/augene-ng",
     "atsushieno/compose-audio-controls",
     "atsushieno/mugene-ng",
     "atsushieno/resident-midi-keyboard",
-    "bladeacer/flexcyon",
     "Cle2ment/CherryStudio_themes",
-    "countries/countries-data-json",
     "CuatroElixir/spear",
     "cucumber/cucumber-js-examples",
     "dinosaure/blaze",
     "Elyahu41/KosherSwift",
     "FactoryXCode/MfPack",
-    "haskell/ghcup-metadata",
     "HDFGroup/hdf5_plugins",
     "helix-toolkit/helix-toolkit-nex",
     "IBM/hello-carbon-vue3",
     "jelly-beam/rebar3_ex_doc",
     "JuliaGeo/GeometryOps.jl",
-    "JuliaSparse/SparseArrays.jl",
     "ludwig-ai/ludwig-docs",
     "lumen-oss/nurr",
-    "melpa/package-build",
     "mit-plv/coqutil",
     "mrcjkb/neotest-haskell",
-    "MSP-Greg/ruby-loco",
     "ocaml-tracing/ocaml-opentelemetry",
     "ocaml-tracing/ocaml-trace",
-    "robotology/robotology-superbuild",
+    "rcasia/neotest-java",
     "ros2/example_interfaces",
-    "ruby/jruby-dev-builder",
-    "ruby/ruby-dev-builder",
     "Shopify/rbi-central",
     "sidlatau/neotest-dart",
     "siketyan/intellij-rustowl",
-    "TEN-framework/portal"
+    "TEN-framework/portal",
+    "tinted-theming/tinted-xresources"
   ]
 }

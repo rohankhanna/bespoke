@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 117,
-    "concepts": 71,
-    "observations": 72,
-    "repos": 6,
-    "terms": 71
+    "components": 29,
+    "concepts": 21,
+    "observations": 22,
+    "repos": 2,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
-    "apache/casbin-rs",
     "apache/datafusion-ballista",
-    "databendlabs/databend",
-    "dmtrKovalenko/fff",
-    "godot-rust/gdext",
-    "intentee/paddler"
+    "godot-rust/gdext"
   ]
 }

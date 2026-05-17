@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 13,
-    "observations": 13,
-    "repos": 10,
-    "terms": 13
+    "components": 8,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 9,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "abdeladim-s/pywhispercpp",
@@ -21,7 +21,6 @@
     "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
     "danielrosehill/Claude-Linux-AV-Manager-Plugin",
     "kleisauke/glib",
-    "lakekeeper/iceberg-rust",
     "UnknownPlatypus/markup_fmt"
   ]
 }

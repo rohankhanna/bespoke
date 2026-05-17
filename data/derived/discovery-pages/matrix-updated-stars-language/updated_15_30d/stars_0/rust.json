@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 88,
-    "concepts": 25,
-    "observations": 25,
+    "concepts": 22,
+    "observations": 22,
     "repos": 12,
-    "terms": 33
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "aipurposes1587-max/weixin-agent-rs",
     "arckoor/jsonwebtoken",
@@ -22,8 +22,8 @@
     "hyper-mcp-rs/context7-plugin",
     "hyper-mcp-rs/defuddle-plugin",
     "jsleekr/skilldigest",
+    "lakekeeper/iceberg-rust",
     "mupozg823/codelens-mcp-plugin",
-    "PrimeIntellect-ai/router",
     "squidowl/iced",
     "ueno/podman-sequoia"
   ]

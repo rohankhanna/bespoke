@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 183,
-    "concepts": 360,
-    "observations": 360,
-    "repos": 63,
-    "terms": 356
+    "components": 209,
+    "concepts": 411,
+    "observations": 411,
+    "repos": 68,
+    "terms": 405
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "adrienverge/yamllint",
     "aigc3d/LHM",
@@ -20,6 +20,7 @@
     "anapnoe/stable-diffusion-webui-ux",
     "ARISE-Initiative/robosuite",
     "astanin/python-tabulate",
+    "bambinos/bambi",
     "Beckschen/TransUNet",
     "belluzj/fantasque-sans",
     "benjaminp/six",
@@ -33,6 +34,7 @@
     "daijro/browserforge",
     "dateutil/dateutil",
     "django/asgiref",
+    "dynaconf/dynaconf",
     "facebookresearch/fvcore",
     "facebookresearch/habitat-lab",
     "facebookresearch/SlowFast",
@@ -50,6 +52,7 @@
     "lshqqytiger/stable-diffusion-webui-amdgpu",
     "LTH14/mar",
     "lyuwenyu/RT-DETR",
+    "miolini/autoresearch-macos",
     "mozillazg/pinyin-data",
     "nunchaku-ai/ComfyUI-nunchaku",
     "nunchaku-ai/nunchaku",
@@ -57,6 +60,7 @@
     "NVlabs/VILA",
     "oils-for-unix/oils",
     "om-ai-lab/VLM-R1",
+    "open-mmlab/mmaction2",
     "open-webui/mcpo",
     "pdfminer/pdfminer.six",
     "pfnet/pfrl",
@@ -67,6 +71,7 @@
     "randy3k/radian",
     "s3prl/s3prl",
     "SafeAILab/EAGLE",
+    "ServiceNow/BrowserGym",
     "the-moonwitch/Cozette",
     "themix-project/themix-gui",
     "toshas/torch-fidelity",

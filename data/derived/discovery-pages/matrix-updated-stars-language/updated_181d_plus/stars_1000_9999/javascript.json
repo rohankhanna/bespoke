@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4175,
-    "concepts": 821,
-    "observations": 822,
-    "repos": 238,
-    "terms": 815
+    "components": 4237,
+    "concepts": 823,
+    "observations": 824,
+    "repos": 239,
+    "terms": 816
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "28mm/blast-radius",
     "afc163/fanyi",
@@ -43,6 +43,7 @@
     "bokub/chalk-animation",
     "boltpkg/bolt",
     "boo1ean/casual",
+    "broccolijs/broccoli",
     "btford/write-good",
     "bubenshchykov/ngrok",
     "bwiernik/zotero-shortdoi",

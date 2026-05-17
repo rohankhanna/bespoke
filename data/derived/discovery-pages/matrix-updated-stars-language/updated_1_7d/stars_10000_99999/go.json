@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 32,
-    "observations": 33,
-    "repos": 3,
-    "terms": 32
+    "components": 41,
+    "concepts": 53,
+    "observations": 54,
+    "repos": 4,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
+    "apache/casbin",
     "gitleaks/gitleaks",
     "moby/moby",
     "redis/go-redis"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 769,
-    "concepts": 1117,
-    "observations": 1117,
-    "repos": 166,
-    "terms": 1107
+    "components": 791,
+    "concepts": 1129,
+    "observations": 1129,
+    "repos": 169,
+    "terms": 1126
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "2U1/Qwen-VL-Series-Finetune",
@@ -27,9 +27,9 @@
     "asottile/pyupgrade",
     "atlassian-api/atlassian-python-api",
     "aws-cloudformation/aws-cloudformation-templates",
-    "bambinos/bambi",
     "bentoml/BentoML",
     "bpython/bpython",
+    "butaixianran/Stable-Diffusion-Webui-Civitai-Helper",
     "camelot-dev/camelot",
     "caronc/apprise-api",
     "chaofengc/IQA-PyTorch",
@@ -39,6 +39,7 @@
     "cisco-ai-defense/skill-scanner",
     "ClementPinard/SfmLearner-Pytorch",
     "CoinCheung/BiSeNet",
+    "coleifer/huey",
     "containers/podman-compose",
     "crytic/slither",
     "cvg/depthsplat",
@@ -53,7 +54,6 @@
     "docarray/docarray",
     "dolfies/discord.py-self",
     "drivendataorg/cookiecutter-data-science",
-    "dynaconf/dynaconf",
     "EleutherAI/gpt-neox",
     "explosion/spacy-models",
     "facebookincubator/AITemplate",
@@ -94,6 +94,7 @@
     "kislyuk/argcomplete",
     "Knio/dominate",
     "KohakuBlueleaf/LyCORIS",
+    "kohya-ss/sd-scripts",
     "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
     "Kosinkadink/ComfyUI-VideoHelperSuite",
     "kubeflow/katib",
@@ -104,6 +105,7 @@
     "linkchecker/linkchecker",
     "LLaVA-VL/LLaVA-NeXT",
     "LorenEteval/Furious",
+    "mbailey/voicemode",
     "meta-pytorch/attention-gym",
     "meta-pytorch/tnt",
     "michaelfeil/infinity",
@@ -116,9 +118,10 @@
     "miguelgrinberg/python-socketio",
     "miiton/Cica",
     "MiniMax-AI/MiniMax-MCP",
-    "miolini/autoresearch-macos",
     "mjansson/rpmalloc",
+    "mkdocs/catalog",
     "ml-explore/mlx-examples",
+    "mlcommons/training",
     "mll-lab-nu/RAGEN",
     "modelscope/ms-agent",
     "MontrealCorpusTools/Montreal-Forced-Aligner",
@@ -129,11 +132,11 @@
     "nousresearch/atropos",
     "NVIDIA/flownet2-pytorch",
     "NVlabs/Sana",
-    "open-mmlab/mmaction2",
     "OpenGVLab/InternVideo",
     "PaddlePaddle/PaddleClas",
     "PDFMathTranslate-next/PDFMathTranslate-next",
     "Peterande/D-FINE",
+    "PINTO0309/PINTO_model_zoo",
     "PKU-YuanGroup/Helios",
     "PKU-YuanGroup/MagicTime",
     "Pointcept/Pointcept",
@@ -141,6 +144,7 @@
     "pypa/setuptools",
     "pytest-dev/pytest-cov",
     "PyThaiNLP/pythainlp",
+    "python-attrs/attrs",
     "python-hyper/h2",
     "python-poetry/cleo",
     "pyupio/safety",
@@ -153,7 +157,6 @@
     "rusty1s/pytorch_sparse",
     "sanderland/katrain",
     "scrapy-plugins/scrapy-playwright",
-    "ServiceNow/BrowserGym",
     "shareai-lab/claw0",
     "sierra-research/tau-bench",
     "snakers4/silero-vad",
@@ -179,6 +182,6 @@
     "wkentaro/gdown",
     "YanjieZe/GMR",
     "Yelp/dumb-init",
-    "zai-org/GLM-V"
+    "yzhao062/pyod"
   ]
 }

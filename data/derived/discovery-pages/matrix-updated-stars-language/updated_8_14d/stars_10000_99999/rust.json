@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 121,
-    "concepts": 82,
-    "observations": 82,
-    "repos": 5,
-    "terms": 82
+    "components": 106,
+    "concepts": 57,
+    "observations": 57,
+    "repos": 4,
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-16T10:28:12.494354+00:00",
+  "generated_at": "2026-05-17T05:48:14.453196+00:00",
   "repo_ids": [
     "astral-sh/ruff",
-    "qdrant/qdrant",
     "rerun-io/rerun",
     "tw93/Pake",
     "XAMPPRocky/tokei"
