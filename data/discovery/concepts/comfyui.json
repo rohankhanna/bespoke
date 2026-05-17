@@ -415,6 +415,12 @@
       "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
       "status": "candidate-context",
       "text": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "status": "candidate-context",
+      "text": "CLI for using ComfyUI"
     }
   ],
   "candidate_glosses": [
@@ -1810,11 +1816,29 @@
       "observed_at": "2026-05-17T00:41:31.070805+00:00",
       "source_file": null,
       "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T00:41:31.070805+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "lexical_providers": [
     "datamuse"
   ],

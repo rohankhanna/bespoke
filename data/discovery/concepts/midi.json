@@ -319,6 +319,42 @@
       "source_repo": "lebaston100/MIDItoOBS",
       "status": "candidate-context",
       "text": "As of this commit, miditoobs is officially deprecated and will be/is publicly archived."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shriramters/chordcat",
+      "status": "candidate-context",
+      "text": "Chord Naming App with MIDI Support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shriramters/chordcat",
+      "status": "candidate-context",
+      "text": "<img width=\"150px\" src=\"desktop/chordcat.png\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mido/mido",
+      "status": "candidate-context",
+      "text": "MIDI Objects for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mido/mido",
+      "status": "candidate-context",
+      "text": ".. SPDX-FileCopyrightText: 2013 Ole Martin Bjorndalen <ombdalen@gmail.com>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Brendonovich/MacroGraph",
+      "status": "candidate-context",
+      "text": "Visual programming for streamers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Brendonovich/MacroGraph",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +513,24 @@
       "source_repo": "lebaston100/MIDItoOBS",
       "status": "candidate",
       "text": "As of this commit, miditoobs is officially deprecated and will be/is publicly archived."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shriramters/chordcat",
+      "status": "candidate",
+      "text": "<img width=\"150px\" src=\"desktop/chordcat.png\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mido/mido",
+      "status": "candidate",
+      "text": ".. SPDX-FileCopyrightText: 2013 Ole Martin Bjorndalen <ombdalen@gmail.com>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Brendonovich/MacroGraph",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1209,11 +1263,47 @@
       "observed_at": "2026-05-16T18:25:29.547854+00:00",
       "source_file": null,
       "source_repo": "lebaston100/MIDItoOBS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/afterglow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link-trigger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "celtera/libremidi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "shriramters/chordcat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "mido/mido"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "Brendonovich/MacroGraph"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "lexical_providers": [
     "datamuse"
   ],

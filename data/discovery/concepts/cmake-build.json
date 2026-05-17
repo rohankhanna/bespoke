@@ -105,6 +105,18 @@
       "source_repo": "jcelerier/score-simple-api-2",
       "status": "candidate-context",
       "text": "CMake build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PortAudio/portaudio",
+      "status": "candidate-context",
+      "text": "PortAudio is a cross-platform, open-source C language library for real-time audio input and output."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PortAudio/portaudio",
+      "status": "candidate-context",
+      "text": "CMake build"
     }
   ],
   "candidate_glosses": [
@@ -159,6 +171,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jcelerier/score-simple-api-2",
+      "status": "candidate",
+      "text": "CMake build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PortAudio/portaudio",
       "status": "candidate",
       "text": "CMake build"
     }
@@ -258,11 +276,17 @@
       "observed_at": "2026-05-16T06:55:35.086614+00:00",
       "source_file": ".github/workflows/builds.yaml",
       "source_repo": "jcelerier/score-simple-api-2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "PortAudio/portaudio"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "lexical_providers": [
     "datamuse"
   ],

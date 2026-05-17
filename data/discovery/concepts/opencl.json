@@ -259,6 +259,18 @@
       "source_repo": "CHIP-SPV/chipStar",
       "status": "candidate-context",
       "text": "![Unit Tests Intel GPUs](https://github.com/CHIP-SPV/chipStar/workflows/Unit%20Tests%20Intel%20GPUs/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opentk/opentk",
+      "status": "candidate-context",
+      "text": "The Open Toolkit library is a fast, low-level C# wrapper for OpenGL, OpenAL & OpenCL. It also includes windowing, mouse, keyboard and joystick input and a robust and fast math library, giving you everything you need to write your own renderer or game engine. OpenTK can be used standalone or inside a GUI on Windows, Linux, Mac."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentk/opentk",
+      "status": "candidate-context",
+      "text": "OpenTK"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +399,12 @@
       "source_repo": "CHIP-SPV/chipStar",
       "status": "candidate",
       "text": "![Unit Tests Intel GPUs](https://github.com/CHIP-SPV/chipStar/workflows/Unit%20Tests%20Intel%20GPUs/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentk/opentk",
+      "status": "candidate",
+      "text": "OpenTK"
     }
   ],
   "candidate_related_terms": [
@@ -1132,11 +1150,23 @@
       "observed_at": "2026-05-17T00:41:31.070805+00:00",
       "source_file": null,
       "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "opentk/opentk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T00:41:31.070805+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "lexical_providers": [
     "datamuse"
   ],

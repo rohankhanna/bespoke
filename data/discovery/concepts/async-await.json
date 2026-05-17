@@ -79,6 +79,18 @@
       "source_repo": "funcool/promesa",
       "status": "candidate-context",
       "text": "[![Clojars Project](http://clojars.org/funcool/promesa/latest-version.svg)](http://clojars.org/funcool/promesa)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dnaka91/obws",
+      "status": "candidate-context",
+      "text": "The obws (obvious) remote control library for OBS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dnaka91/obws",
+      "status": "candidate-context",
+      "text": "Moved to https://forge.dnaka91.rocks/dnaka91/obws"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "funcool/promesa",
       "status": "candidate",
       "text": "[![Clojars Project](http://clojars.org/funcool/promesa/latest-version.svg)](http://clojars.org/funcool/promesa)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dnaka91/obws",
+      "status": "candidate",
+      "text": "Moved to https://forge.dnaka91.rocks/dnaka91/obws"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "funcool/promesa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "dnaka91/obws"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "lexical_providers": [
     "datamuse"
   ],

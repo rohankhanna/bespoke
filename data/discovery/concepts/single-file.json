@@ -91,6 +91,18 @@
       "source_repo": "nonstd-lite/string-view-lite",
       "status": "candidate-context",
       "text": "[![Language](https://img.shields.io/badge/C%2B%2B-98/11/14/17-blue.svg)](https://en.wikipedia.org/wiki/C%2B%2B#Standardization) [![License](https://img.shields.io/badge/license-BSL-blue.svg)](https://opensource.org/licenses/BSL-1.0) [![Build Status](https://github.com/martinmoen\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marzer/tomlplusplus",
+      "status": "candidate-context",
+      "text": "Header-only TOML config file parser and serializer for C++17."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marzer/tomlplusplus",
+      "status": "candidate-context",
+      "text": "[![banner](docs/images/banner.png)][homepage]"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "nonstd-lite/string-view-lite",
       "status": "candidate",
       "text": "[![Language](https://img.shields.io/badge/C%2B%2B-98/11/14/17-blue.svg)](https://en.wikipedia.org/wiki/C%2B%2B#Standardization) [![License](https://img.shields.io/badge/license-BSL-blue.svg)](https://opensource.org/licenses/BSL-1.0) [![Build Status](https://github.com/martinmoen\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marzer/tomlplusplus",
+      "status": "candidate",
+      "text": "[![banner](docs/images/banner.png)][homepage]"
     }
   ],
   "candidate_related_terms": [],
@@ -658,11 +676,23 @@
       "observed_at": "2026-05-17T00:41:31.070805+00:00",
       "source_file": null,
       "source_repo": "nonstd-lite/string-view-lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T00:41:31.070805+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "lexical_providers": [
     "datamuse"
   ],

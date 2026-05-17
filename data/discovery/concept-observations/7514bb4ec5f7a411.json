@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OBS Studio - Free and open source software for live streaming and screen recording"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "OBS Studio <https://obsproject.com>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "OBS Studio <https://obsproject.com>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "facebook-live",
+      "sense_id": "facebook-live#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "facebook-live",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "facebook-live",
+  "observation_id": "7514bb4ec5f7a411",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-17T07:06:43.204320+00:00",
+  "observed_text": "facebook-live",
+  "source_context_snippet": "OBS Studio <https://obsproject.com>",
+  "source_file": null,
+  "source_repo": "obsproject/obs-studio",
+  "source_repo_description": "OBS Studio - Free and open source software for live streaming and screen recording"
+}

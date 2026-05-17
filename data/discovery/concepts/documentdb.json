@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "documentdb"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "msiemens/tinydb",
+      "status": "candidate-context",
+      "text": "TinyDB is a lightweight document oriented database optimized for your happiness :)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msiemens/tinydb",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/msiemens/tinydb/master/artwork/logo.png"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msiemens/tinydb",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/msiemens/tinydb/master/artwork/logo.png"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "documentdb",
+  "concept_id": "documentdb",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "msiemens/tinydb"
+    }
+  ],
+  "first_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "documentdb",
+      "sense_id": "documentdb#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

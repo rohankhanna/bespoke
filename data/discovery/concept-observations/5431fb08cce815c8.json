@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Header-only TOML config file parser and serializer for C++17."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![banner](docs/images/banner.png)][homepage]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![banner](docs/images/banner.png)][homepage]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "configuration-files",
+      "sense_id": "configuration-files#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "configuration-files",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "configuration-files",
+  "observation_id": "5431fb08cce815c8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-17T07:06:43.204320+00:00",
+  "observed_text": "configuration-files",
+  "source_context_snippet": "[![banner](docs/images/banner.png)][homepage]",
+  "source_file": null,
+  "source_repo": "marzer/tomlplusplus",
+  "source_repo_description": "Header-only TOML config file parser and serializer for C++17."
+}

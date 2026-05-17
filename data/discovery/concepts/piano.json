@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "piano"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RuiVarela/Senos",
+      "status": "candidate-context",
+      "text": "Music exploration app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RuiVarela/Senos",
+      "status": "candidate-context",
+      "text": "Senos is sound exploration tool from a developer point of view."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RuiVarela/Senos",
+      "status": "candidate",
+      "text": "Senos is sound exploration tool from a developer point of view."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042584,
+      "status": "candidate",
+      "text": "pianoforte"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040344,
+      "status": "candidate",
+      "text": "pianissimo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39814617,
+      "status": "candidate",
+      "text": "soft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39810142,
+      "status": "candidate",
+      "text": "softly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042834,
+      "status": "candidate",
+      "text": "forte-piano"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 52054,
+      "status": "candidate",
+      "text": "soft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13033,
+      "status": "candidate",
+      "text": "softly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2033,
+      "status": "candidate",
+      "text": "pianissimo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2031,
+      "status": "candidate",
+      "text": "pianoforte"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8,
+      "status": "candidate",
+      "text": "pianissimo assai"
+    }
+  ],
+  "canonical_name": "piano",
+  "concept_id": "piano",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "RuiVarela/Senos"
+    }
+  ],
+  "first_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "piano",
+      "sense_id": "piano#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

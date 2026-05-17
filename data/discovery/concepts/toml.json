@@ -199,6 +199,18 @@
       "source_repo": "serayuzgur/crates",
       "status": "candidate-context",
       "text": "[![Become a Patron](https://img.shields.io/badge/Support%20Us%20on-Patreon-orange.svg)](https://www.patreon.com/bePatron?u=11468905)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marzer/tomlplusplus",
+      "status": "candidate-context",
+      "text": "Header-only TOML config file parser and serializer for C++17."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marzer/tomlplusplus",
+      "status": "candidate-context",
+      "text": "[![banner](docs/images/banner.png)][homepage]"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "serayuzgur/crates",
       "status": "candidate",
       "text": "[![Become a Patron](https://img.shields.io/badge/Support%20Us%20on-Patreon-orange.svg)](https://www.patreon.com/bePatron?u=11468905)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marzer/tomlplusplus",
+      "status": "candidate",
+      "text": "[![banner](docs/images/banner.png)][homepage]"
     }
   ],
   "candidate_related_terms": [
@@ -448,11 +466,17 @@
       "observed_at": "2026-05-09T12:31:19.030154+00:00",
       "source_file": null,
       "source_repo": "serayuzgur/crates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-09T12:31:19.030154+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "lexical_providers": [
     "datamuse"
   ],

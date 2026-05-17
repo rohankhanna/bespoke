@@ -1,0 +1,467 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marzer/tomlplusplus",
+      "target": "bobfang1992/pytomlpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marzer/tomlplusplus",
+      "target": "tartanllama/optional",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "marzer/tomlplusplus",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "marzer/tomlplusplus",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "marzer/tomlplusplus",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "marzer/tomlplusplus",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "marzer/tomlplusplus",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "marzer/tomlplusplus",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "marzer/tomlplusplus",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "marzer/tomlplusplus",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "marzer/tomlplusplus",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "marzer/tomlplusplus",
+      "target": "gh-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus",
+      "target": "c-plus-plus-17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus",
+      "target": "c-plus-plus-20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus",
+      "target": "configuration-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus",
+      "target": "cplusplus-17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus",
+      "target": "cplusplus-20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus",
+      "target": "cpp20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus",
+      "target": "no-dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus",
+      "target": "serializer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus",
+      "target": "single-file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus",
+      "target": "toml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus",
+      "target": "toml-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus",
+      "target": "toml-parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus",
+      "target": "tomlplusplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus",
+      "target": "unicode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus",
+      "target": "utf-8",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-17T08:20:09.621697+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17664
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 6583
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "size": 1082
+    },
+    {
+      "path": ".github/workflows/gh-pages.yaml",
+      "size": 1237
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Header-only TOML config file parser and serializer for C++17.",
+    "fork": false,
+    "full_name": "marzer/tomlplusplus",
+    "html_url": "https://github.com/marzer/tomlplusplus",
+    "language": "C++",
+    "pushed_at": "2026-05-12T07:16:39Z",
+    "stargazers_count": 2050,
+    "topics": [
+      "c-plus-plus-17",
+      "c-plus-plus-20",
+      "configuration-files",
+      "cplusplus-17",
+      "cplusplus-20",
+      "cpp",
+      "cpp17",
+      "cpp20",
+      "header-only",
+      "json",
+      "no-dependencies",
+      "parser",
+      "serializer",
+      "single-file",
+      "toml",
+      "toml-parser",
+      "toml-parsing",
+      "tomlplusplus",
+      "unicode",
+      "utf-8"
+    ],
+    "updated_at": "2026-05-13T06:47:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bobfang1992/pytomlpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tartanllama/optional",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "gh-pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "term": "gh-pages"
+    },
+    {
+      "context_snippet": "[![banner](docs/images/banner.png)][homepage]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus-17"
+    },
+    {
+      "context_snippet": "[![banner](docs/images/banner.png)][homepage]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus-20"
+    },
+    {
+      "context_snippet": "[![banner](docs/images/banner.png)][homepage]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration-files"
+    },
+    {
+      "context_snippet": "[![banner](docs/images/banner.png)][homepage]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus-17"
+    },
+    {
+      "context_snippet": "[![banner](docs/images/banner.png)][homepage]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus-20"
+    },
+    {
+      "context_snippet": "[![banner](docs/images/banner.png)][homepage]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17"
+    },
+    {
+      "context_snippet": "[![banner](docs/images/banner.png)][homepage]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp20"
+    },
+    {
+      "context_snippet": "[![banner](docs/images/banner.png)][homepage]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "[![banner](docs/images/banner.png)][homepage]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "[![banner](docs/images/banner.png)][homepage]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "no-dependencies"
+    },
+    {
+      "context_snippet": "[![banner](docs/images/banner.png)][homepage]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "[![banner](docs/images/banner.png)][homepage]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serializer"
+    },
+    {
+      "context_snippet": "[![banner](docs/images/banner.png)][homepage]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-file"
+    },
+    {
+      "context_snippet": "[![banner](docs/images/banner.png)][homepage]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toml"
+    },
+    {
+      "context_snippet": "[![banner](docs/images/banner.png)][homepage]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toml-parser"
+    },
+    {
+      "context_snippet": "[![banner](docs/images/banner.png)][homepage]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toml-parsing"
+    },
+    {
+      "context_snippet": "[![banner](docs/images/banner.png)][homepage]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tomlplusplus"
+    },
+    {
+      "context_snippet": "[![banner](docs/images/banner.png)][homepage]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicode"
+    },
+    {
+      "context_snippet": "[![banner](docs/images/banner.png)][homepage]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utf-8"
+    }
+  ]
+}

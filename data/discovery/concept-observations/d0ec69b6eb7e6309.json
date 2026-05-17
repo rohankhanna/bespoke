@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OBS Studio - Free and open source software for live streaming and screen recording"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "OBS Studio <https://obsproject.com>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "OBS Studio <https://obsproject.com>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "youtube-live",
+      "sense_id": "youtube-live#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "youtube-live",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "youtube-live",
+  "observation_id": "d0ec69b6eb7e6309",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-17T07:06:43.204320+00:00",
+  "observed_text": "youtube-live",
+  "source_context_snippet": "OBS Studio <https://obsproject.com>",
+  "source_file": null,
+  "source_repo": "obsproject/obs-studio",
+  "source_repo_description": "OBS Studio - Free and open source software for live streaming and screen recording"
+}

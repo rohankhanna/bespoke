@@ -1699,6 +1699,30 @@
       "source_repo": "JamesNK/Newtonsoft.Json",
       "status": "candidate-context",
       "text": "[![NuGet version (Newtonsoft.Json)](https://img.shields.io/nuget/v/Newtonsoft.Json.svg?style=flat-square)](https://www.nuget.org/packages/Newtonsoft.Json/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marzer/tomlplusplus",
+      "status": "candidate-context",
+      "text": "Header-only TOML config file parser and serializer for C++17."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marzer/tomlplusplus",
+      "status": "candidate-context",
+      "text": "[![banner](docs/images/banner.png)][homepage]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "msiemens/tinydb",
+      "status": "candidate-context",
+      "text": "TinyDB is a lightweight document oriented database optimized for your happiness :)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msiemens/tinydb",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/msiemens/tinydb/master/artwork/logo.png"
     }
   ],
   "candidate_glosses": [
@@ -2547,6 +2571,18 @@
       "source_repo": "JamesNK/Newtonsoft.Json",
       "status": "candidate",
       "text": "[![NuGet version (Newtonsoft.Json)](https://img.shields.io/nuget/v/Newtonsoft.Json.svg?style=flat-square)](https://www.nuget.org/packages/Newtonsoft.Json/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marzer/tomlplusplus",
+      "status": "candidate",
+      "text": "[![banner](docs/images/banner.png)][homepage]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msiemens/tinydb",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/msiemens/tinydb/master/artwork/logo.png"
     }
   ],
   "candidate_related_terms": [
@@ -5361,11 +5397,41 @@
       "observed_at": "2026-05-17T00:41:31.070805+00:00",
       "source_file": null,
       "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "marzer/tomlplusplus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "msiemens/tinydb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T00:41:31.070805+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "lexical_providers": [
     "datamuse"
   ],

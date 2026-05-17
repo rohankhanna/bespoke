@@ -34,6 +34,13 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wiktoriavh/Spectrum",
+      "target": "braweria/spectrum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "wiktoriavh/Spectrum",
       "target": "braweria/spectrum",
@@ -82,8 +89,12 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-16T19:27:26.902815+00:00",
+  "fetched_at": "2026-05-17T07:29:41.056089+00:00",
   "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3720
+    },
     {
       "path": "package.json",
       "size": 656
@@ -108,6 +119,11 @@
     "updated_at": "2026-03-15T03:18:19Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "braweria/spectrum",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "braweria/spectrum",

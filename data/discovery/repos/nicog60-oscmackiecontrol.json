@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml"
+    },
+    {
+      "component": "jurplel/install-qt-action@v2.6.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml"
+    },
+    {
+      "component": "jurplel/install-qt-action@v2.6.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml",
+      "source_repo": "NicoG60/OscMackieControl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml",
+      "source_repo": "NicoG60/OscMackieControl",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml",
+      "source_repo": "NicoG60/OscMackieControl",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml",
+      "source_repo": "NicoG60/OscMackieControl",
+      "target": "jurplel/install-qt-action@v2.6.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml",
+      "source_repo": "NicoG60/OscMackieControl",
+      "target": "actions/upload-artifact@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-17T08:20:07.765306+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1522
+    },
+    {
+      "path": ".github/workflows/ccpp.yml",
+      "size": 1901
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Utility bridge from Mackie Control to OSC",
+    "fork": false,
+    "full_name": "NicoG60/OscMackieControl",
+    "html_url": "https://github.com/NicoG60/OscMackieControl",
+    "language": "C++",
+    "pushed_at": "2022-02-17T18:23:05Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2025-10-28T13:52:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

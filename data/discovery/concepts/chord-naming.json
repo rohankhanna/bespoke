@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "chord-naming"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shriramters/chordcat",
+      "status": "candidate-context",
+      "text": "Chord Naming App with MIDI Support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shriramters/chordcat",
+      "status": "candidate-context",
+      "text": "<img width=\"150px\" src=\"desktop/chordcat.png\" align=\"right\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shriramters/chordcat",
+      "status": "candidate",
+      "text": "<img width=\"150px\" src=\"desktop/chordcat.png\" align=\"right\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "chord-naming",
+  "concept_id": "chord-naming",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "shriramters/chordcat"
+    }
+  ],
+  "first_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chord-naming",
+      "sense_id": "chord-naming#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

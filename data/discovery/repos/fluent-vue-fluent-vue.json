@@ -1,26 +1,6 @@
 {
   "components": [
     {
-      "component": "@fluent/sequence",
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@vue/devtools-api",
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "cached-iterable",
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "vue-demi",
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "@antfu/eslint-config",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -36,52 +16,7 @@
       "source_file": "package.json"
     },
     {
-      "component": "@fluent/bundle",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@fluent/dedent",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@ls-lint/ls-lint",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@types/node",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@vitest/coverage-v8",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@vue/compiler-sfc",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@vue/test-utils",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "eslint",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "execa",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "happy-dom",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -93,56 +28,6 @@
     {
       "component": "lint-staged",
       "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "tsdown",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "typescript",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "vite",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "vitest",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "vue",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "vue-2",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "vue-3",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@fluent/bundle",
-      "edge_type": "package-json:peerDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@vue/composition-api",
-      "edge_type": "package-json:peerDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "vue",
-      "edge_type": "package-json:peerDependencies",
       "source_file": "package.json"
     },
     {
@@ -181,6 +66,16 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
       "component": "actions/checkout@v6.0.2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
@@ -197,41 +92,6 @@
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "demivan/fluent-vue",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "@fluent/sequence",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "@vue/devtools-api",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "cached-iterable",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "vue-demi",
-      "target_type": "component"
-    },
     {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
@@ -257,70 +117,7 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "fluent-vue/fluent-vue",
-      "target": "@fluent/bundle",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "@fluent/dedent",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "@ls-lint/ls-lint",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "@types/node",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "@vitest/coverage-v8",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "@vue/compiler-sfc",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "@vue/test-utils",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
       "target": "eslint",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "execa",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "happy-dom",
       "target_type": "component"
     },
     {
@@ -335,76 +132,6 @@
       "source_file": "package.json",
       "source_repo": "fluent-vue/fluent-vue",
       "target": "lint-staged",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "tsdown",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "typescript",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "vite",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "vitest",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "vue",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "vue-2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "vue-3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:peerDependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "@fluent/bundle",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:peerDependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "@vue/composition-api",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:peerDependencies",
-      "source_file": "package.json",
-      "source_repo": "fluent-vue/fluent-vue",
-      "target": "vue",
       "target_type": "component"
     },
     {
@@ -534,15 +261,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T18:27:38.712429+00:00",
+  "fetched_at": "2026-05-17T07:08:43.354246+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 3916
+      "size": 3165
     },
     {
       "path": "package.json",
-      "size": 3230
+      "size": 828
     },
     {
       "path": ".github/workflows/release.yml",
@@ -550,11 +277,11 @@
     },
     {
       "path": ".github/workflows/size.yml",
-      "size": 452
+      "size": 701
     },
     {
       "path": ".github/workflows/test.yml",
-      "size": 1828
+      "size": 2620
     }
   ],
   "related_repositories": [],
@@ -566,7 +293,7 @@
     "full_name": "fluent-vue/fluent-vue",
     "html_url": "https://github.com/fluent-vue/fluent-vue",
     "language": "TypeScript",
-    "pushed_at": "2026-05-16T12:47:32Z",
+    "pushed_at": "2026-05-16T23:13:09Z",
     "stargazers_count": 276,
     "topics": [
       "ftl",
@@ -582,15 +309,9 @@
       "vue3",
       "vuejs"
     ],
-    "updated_at": "2026-05-09T11:44:33Z"
+    "updated_at": "2026-05-16T23:12:15Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "demivan/fluent-vue",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Release",

@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dnaka91/obws",
+      "target": "async-await",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dnaka91/obws",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dnaka91/obws",
+      "target": "obs-websocket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dnaka91/obws",
+      "target": "remote-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dnaka91/obws",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-17T08:20:45.680310+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 50
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "The obws (obvious) remote control library for OBS",
+    "fork": false,
+    "full_name": "dnaka91/obws",
+    "html_url": "https://github.com/dnaka91/obws",
+    "language": null,
+    "pushed_at": "2026-05-03T13:53:58Z",
+    "stargazers_count": 123,
+    "topics": [
+      "async-await",
+      "hacktoberfest",
+      "obs",
+      "obs-websocket",
+      "remote-control",
+      "rust"
+    ],
+    "updated_at": "2026-05-03T13:54:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Moved to https://forge.dnaka91.rocks/dnaka91/obws",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async-await"
+    },
+    {
+      "context_snippet": "Moved to https://forge.dnaka91.rocks/dnaka91/obws",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Moved to https://forge.dnaka91.rocks/dnaka91/obws",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obs-websocket"
+    },
+    {
+      "context_snippet": "Moved to https://forge.dnaka91.rocks/dnaka91/obws",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "remote-control"
+    },
+    {
+      "context_snippet": "Moved to https://forge.dnaka91.rocks/dnaka91/obws",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

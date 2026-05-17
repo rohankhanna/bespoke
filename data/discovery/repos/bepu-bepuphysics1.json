@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bepu/bepuphysics1",
+      "target": "physics-simulation-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-17T08:21:10.467272+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1912
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pure C# 3D real time physics simulation library. Repo contains only the 1.X.X versions.",
+    "fork": false,
+    "full_name": "bepu/bepuphysics1",
+    "html_url": "https://github.com/bepu/bepuphysics1",
+    "language": "C#",
+    "pushed_at": "2023-06-06T18:08:15Z",
+    "stargazers_count": 426,
+    "topics": [
+      "physics-simulation-library"
+    ],
+    "updated_at": "2026-05-13T09:21:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "*Looking for the newer bepuphysics v2? Head over to its [repository](https://github.com/bepu/bepuphysics2).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics-simulation-library"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-17T08:21:16.534804+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "XXHash for .NET Core 1.1/2.0 & .NET Standard 1.6/2.0",
+    "fork": false,
+    "full_name": "MiloszKrajewski/K4os.Hash.xxHash",
+    "html_url": "https://github.com/MiloszKrajewski/K4os.Hash.xxHash",
+    "language": "C#",
+    "pushed_at": "2022-11-08T18:10:20Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2025-12-29T13:26:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Go client library for OBS Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Image Retention Policy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Image Retention Policy"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19390,
+      "status": "candidate",
+      "text": "reservation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19045,
+      "status": "candidate",
+      "text": "reserve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19022,
+      "status": "candidate",
+      "text": "field"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18937,
+      "status": "candidate",
+      "text": "focus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18915,
+      "status": "candidate",
+      "text": "background"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Image Retention Policy",
+      "sense_id": "image-retention-policy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "image-retention-policy",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "image-retention-policy",
+  "observation_id": "0d06d0ae00ef2112",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-17T07:06:43.204320+00:00",
+  "observed_text": "Image Retention Policy",
+  "source_context_snippet": "Image Retention Policy",
+  "source_file": ".github/workflows/image-retention-policy.yml",
+  "source_repo": "andreykaipov/goobs",
+  "source_repo_description": "Go client library for OBS Studio"
+}

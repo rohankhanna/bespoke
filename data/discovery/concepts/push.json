@@ -202,6 +202,18 @@
       "source_repo": "nhielost/obs-midi-mg",
       "status": "candidate-context",
       "text": "Push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsproject/obs-studio",
+      "status": "candidate-context",
+      "text": "OBS Studio - Free and open source software for live streaming and screen recording"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsproject/obs-studio",
+      "status": "candidate-context",
+      "text": "Push"
     }
   ],
   "candidate_glosses": [
@@ -298,6 +310,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nhielost/obs-midi-mg",
+      "status": "candidate",
+      "text": "Push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsproject/obs-studio",
       "status": "candidate",
       "text": "Push"
     }
@@ -721,11 +739,23 @@
       "observed_at": "2026-05-16T18:25:29.547854+00:00",
       "source_file": null,
       "source_repo": "Deep-Symmetry/wayang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/wayang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "obsproject/obs-studio"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "lexical_providers": [
     "datamuse"
   ],

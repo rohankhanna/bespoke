@@ -19,6 +19,42 @@
       "source_repo": "lebaston100/MIDItoOBS",
       "status": "candidate-context",
       "text": "As of this commit, miditoobs is officially deprecated and will be/is publicly archived."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andreykaipov/goobs",
+      "status": "candidate-context",
+      "text": "Go client library for OBS Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreykaipov/goobs",
+      "status": "candidate-context",
+      "text": "[![Protocol Version][protocol-img]][protocol-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Brendonovich/MacroGraph",
+      "status": "candidate-context",
+      "text": "Visual programming for streamers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Brendonovich/MacroGraph",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dnaka91/obws",
+      "status": "candidate-context",
+      "text": "The obws (obvious) remote control library for OBS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dnaka91/obws",
+      "status": "candidate-context",
+      "text": "Moved to https://forge.dnaka91.rocks/dnaka91/obws"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "lebaston100/MIDItoOBS",
       "status": "candidate",
       "text": "As of this commit, miditoobs is officially deprecated and will be/is publicly archived."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreykaipov/goobs",
+      "status": "candidate",
+      "text": "[![Protocol Version][protocol-img]][protocol-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Brendonovich/MacroGraph",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dnaka91/obws",
+      "status": "candidate",
+      "text": "Moved to https://forge.dnaka91.rocks/dnaka91/obws"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-05-16T18:25:29.547854+00:00",
       "source_file": null,
       "source_repo": "lebaston100/MIDItoOBS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "andreykaipov/goobs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "Brendonovich/MacroGraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "dnaka91/obws"
     }
   ],
   "first_seen_at": "2026-05-16T18:25:29.547854+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "tsgo",
+  "first_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "sources": [
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Brendonovich/MacroGraph"
+    }
+  ]
+}

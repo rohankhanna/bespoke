@@ -31,6 +31,18 @@
       "source_repo": "obsproject/obs-websocket",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable no-inline-html -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dnaka91/obws",
+      "status": "candidate-context",
+      "text": "The obws (obvious) remote control library for OBS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dnaka91/obws",
+      "status": "candidate-context",
+      "text": "Moved to https://forge.dnaka91.rocks/dnaka91/obws"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "obsproject/obs-websocket",
       "status": "candidate",
       "text": "<!-- markdownlint-disable no-inline-html -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dnaka91/obws",
+      "status": "candidate",
+      "text": "Moved to https://forge.dnaka91.rocks/dnaka91/obws"
     }
   ],
   "candidate_related_terms": [
@@ -79,11 +97,17 @@
       "observed_at": "2026-05-16T18:25:29.547854+00:00",
       "source_file": null,
       "source_repo": "obsproject/obs-websocket"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "dnaka91/obws"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "lexical_providers": [
     "datamuse"
   ],

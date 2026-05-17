@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Image Retention Policy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andreykaipov/goobs",
+      "status": "candidate-context",
+      "text": "Go client library for OBS Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreykaipov/goobs",
+      "status": "candidate-context",
+      "text": "Image Retention Policy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreykaipov/goobs",
+      "status": "candidate",
+      "text": "Image Retention Policy"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19390,
+      "status": "candidate",
+      "text": "reservation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19045,
+      "status": "candidate",
+      "text": "reserve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19022,
+      "status": "candidate",
+      "text": "field"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18937,
+      "status": "candidate",
+      "text": "focus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18915,
+      "status": "candidate",
+      "text": "background"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Image Retention Policy",
+  "concept_id": "image-retention-policy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": ".github/workflows/image-retention-policy.yml",
+      "source_repo": "andreykaipov/goobs"
+    }
+  ],
+  "first_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Image Retention Policy",
+      "sense_id": "image-retention-policy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

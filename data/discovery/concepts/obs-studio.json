@@ -55,6 +55,30 @@
       "source_repo": "obsproject/obs-websocket",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable no-inline-html -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andreykaipov/goobs",
+      "status": "candidate-context",
+      "text": "Go client library for OBS Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreykaipov/goobs",
+      "status": "candidate-context",
+      "text": "[![Protocol Version][protocol-img]][protocol-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Brendonovich/MacroGraph",
+      "status": "candidate-context",
+      "text": "Visual programming for streamers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Brendonovich/MacroGraph",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "obsproject/obs-websocket",
       "status": "candidate",
       "text": "<!-- markdownlint-disable no-inline-html -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andreykaipov/goobs",
+      "status": "candidate",
+      "text": "[![Protocol Version][protocol-img]][protocol-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Brendonovich/MacroGraph",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-05-16T18:25:29.547854+00:00",
       "source_file": null,
       "source_repo": "obsproject/obs-websocket"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "andreykaipov/goobs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "Brendonovich/MacroGraph"
     }
   ],
   "first_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "lexical_providers": [
     "datamuse"
   ],

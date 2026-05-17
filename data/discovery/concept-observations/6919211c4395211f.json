@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PortAudio is a cross-platform, open-source C language library for real-time audio input and output."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "MSYS2 autotools build (Windows)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "MSYS2 autotools build (Windows)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9254,
+      "status": "candidate",
+      "text": "allo-tools"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "heteromachinery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "heterotools"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "accra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "accrete"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "MSYS2 autotools build (Windows)",
+      "sense_id": "msys2-autotools-build-windows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "msys2-autotools-build-windows",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "msys2-autotools-build-windows",
+  "observation_id": "6919211c4395211f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-17T07:06:43.204320+00:00",
+  "observed_text": "MSYS2 autotools build (Windows)",
+  "source_context_snippet": "MSYS2 autotools build (Windows)",
+  "source_file": ".github/workflows/autotools_msys2.yml",
+  "source_repo": "PortAudio/portaudio",
+  "source_repo_description": "PortAudio is a cross-platform, open-source C language library for real-time audio input and output."
+}

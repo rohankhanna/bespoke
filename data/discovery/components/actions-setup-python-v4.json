@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-17T00:41:31.070805+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -4942,6 +4942,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pr_dependency_test.yml",
       "source_repo": "nod-ai/diffusers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heimoshuiyu/faster-whisper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "msiemens/tinydb"
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-17T08:21:26.126364+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 540
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A cross platform GUI tool for  LiteDB v5+",
+    "fork": false,
+    "full_name": "namigop/OneBella",
+    "html_url": "https://github.com/namigop/OneBella",
+    "language": "F#",
+    "pushed_at": "2025-08-10T01:52:10Z",
+    "stargazers_count": 357,
+    "topics": [],
+    "updated_at": "2026-04-04T07:45:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

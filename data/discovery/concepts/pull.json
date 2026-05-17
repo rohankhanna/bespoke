@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "pull"
+    "pull",
+    "Pull"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -79,6 +80,18 @@
       "source_repo": "ipfs-examples/example-fork-go-template",
       "status": "candidate-context",
       "text": "pull"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsproject/obs-studio",
+      "status": "candidate-context",
+      "text": "OBS Studio - Free and open source software for live streaming and screen recording"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsproject/obs-studio",
+      "status": "candidate-context",
+      "text": "Pull"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +130,12 @@
       "source_repo": "ipfs-examples/example-fork-go-template",
       "status": "candidate",
       "text": "pull"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsproject/obs-studio",
+      "status": "candidate",
+      "text": "Pull"
     }
   ],
   "candidate_related_terms": [
@@ -232,11 +251,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/sync.yml",
       "source_repo": "ipfs-examples/example-fork-go-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": ".github/workflows/pr-pull.yaml",
+      "source_repo": "obsproject/obs-studio"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "lexical_providers": [
     "datamuse"
   ],

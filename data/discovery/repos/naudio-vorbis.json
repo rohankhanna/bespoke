@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-17T08:21:17.165212+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 825
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vorbis decoder for NAudio",
+    "fork": false,
+    "full_name": "naudio/Vorbis",
+    "html_url": "https://github.com/naudio/Vorbis",
+    "language": "C#",
+    "pushed_at": "2024-03-29T01:33:15Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2026-02-19T22:40:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

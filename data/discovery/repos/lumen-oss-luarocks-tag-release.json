@@ -31,21 +31,6 @@
       "source_file": ".github/workflows/nix-build.yml"
     },
     {
-      "component": "googleapis/release-please-action@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release-please.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release-please.yml"
-    },
-    {
-      "component": "reitermarkus/automerge@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release-please.yml"
-    },
-    {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
@@ -148,34 +133,6 @@
       "source_file": ".github/workflows/nix-build.yml",
       "source_repo": "lumen-oss/luarocks-tag-release",
       "target": "Tests and checks",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release-please.yml",
-      "source_repo": "lumen-oss/luarocks-tag-release",
-      "target": "googleapis/release-please-action@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release-please.yml",
-      "source_repo": "lumen-oss/luarocks-tag-release",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release-please.yml",
-      "source_repo": "lumen-oss/luarocks-tag-release",
-      "target": "reitermarkus/automerge@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/release-please.yml",
-      "source_repo": "lumen-oss/luarocks-tag-release",
-      "target": "release-please",
       "target_type": "term"
     },
     {
@@ -319,7 +276,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T19:27:42.670673+00:00",
+  "fetched_at": "2026-05-17T08:08:29.760131+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -332,10 +289,6 @@
     {
       "path": ".github/workflows/nix-build.yml",
       "size": 860
-    },
-    {
-      "path": ".github/workflows/release-please.yml",
-      "size": 1756
     },
     {
       "path": ".github/workflows/release.yml",
@@ -407,12 +360,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/nix-build.yml",
       "term": "Tests and checks"
-    },
-    {
-      "context_snippet": "release-please",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/release-please.yml",
-      "term": "release-please"
     },
     {
       "context_snippet": "\"Test luarocks release\"",

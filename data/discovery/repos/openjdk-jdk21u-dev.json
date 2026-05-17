@@ -1,0 +1,240 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "source_repo": "openjdk/jdk21u-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "source_repo": "openjdk/jdk21u-dev",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "source_repo": "openjdk/jdk21u-dev",
+      "target": "Build (cross-compile)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "openjdk/jdk21u-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "openjdk/jdk21u-dev",
+      "target": "Build (linux)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "openjdk/jdk21u-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "openjdk/jdk21u-dev",
+      "target": "Build (macos)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "openjdk/jdk21u-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "openjdk/jdk21u-dev",
+      "target": "Build (windows)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "openjdk/jdk21u-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "openjdk/jdk21u-dev",
+      "target": "OpenJDK GHA Sanity Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "openjdk/jdk21u-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "openjdk/jdk21u-dev",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "openjdk/jdk21u-dev",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "openjdk/jdk21u-dev",
+      "target": "Run tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-17T08:21:02.513798+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1077
+    },
+    {
+      "path": ".github/workflows/build-cross-compile.yml",
+      "size": 7519
+    },
+    {
+      "path": ".github/workflows/build-linux.yml",
+      "size": 5068
+    },
+    {
+      "path": ".github/workflows/build-macos.yml",
+      "size": 4068
+    },
+    {
+      "path": ".github/workflows/build-windows.yml",
+      "size": 5213
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 12284
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 7833
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "https://openjdk.org/projects/jdk-updates",
+    "fork": false,
+    "full_name": "openjdk/jdk21u-dev",
+    "html_url": "https://github.com/openjdk/jdk21u-dev",
+    "language": "Java",
+    "pushed_at": "2026-05-15T16:23:54Z",
+    "stargazers_count": 38,
+    "topics": [],
+    "updated_at": "2026-05-13T11:42:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Build (cross-compile)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "term": "Build (cross-compile)"
+    },
+    {
+      "context_snippet": "'Build (linux)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "term": "Build (linux)"
+    },
+    {
+      "context_snippet": "'Build (macos)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "term": "Build (macos)"
+    },
+    {
+      "context_snippet": "'Build (windows)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "term": "Build (windows)"
+    },
+    {
+      "context_snippet": "'OpenJDK GHA Sanity Checks'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "OpenJDK GHA Sanity Checks"
+    },
+    {
+      "context_snippet": "'Run tests'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Run tests"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MSBuild.yml",
+      "source_repo": "PortAudio/portaudio",
+      "target": "microsoft/setup-msbuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MSBuild.yml",
+      "source_repo": "PortAudio/portaudio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/MSBuild.yml",
+      "source_repo": "PortAudio/portaudio",
+      "target": "MSBuild MSVC Project File CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools.yml",
+      "source_repo": "PortAudio/portaudio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools.yml",
+      "source_repo": "PortAudio/portaudio",
+      "target": "lukka/run-vcpkg@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autotools.yml",
+      "source_repo": "PortAudio/portaudio",
+      "target": "autotools build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools_msys2.yml",
+      "source_repo": "PortAudio/portaudio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools_msys2.yml",
+      "source_repo": "PortAudio/portaudio",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autotools_msys2.yml",
+      "source_repo": "PortAudio/portaudio",
+      "target": "MSYS2 autotools build (Windows)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "PortAudio/portaudio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "PortAudio/portaudio",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "PortAudio/portaudio",
+      "target": "lukka/run-vcpkg@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "PortAudio/portaudio",
+      "target": "CMake build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compare_def_files.yml",
+      "source_repo": "PortAudio/portaudio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compare_def_files.yml",
+      "source_repo": "PortAudio/portaudio",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/whitelint.yml",
+      "source_repo": "PortAudio/portaudio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/whitelint.yml",
+      "source_repo": "PortAudio/portaudio",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-17T07:06:43.204320+00:00",
+  "source_repo": "PortAudio/portaudio"
+}

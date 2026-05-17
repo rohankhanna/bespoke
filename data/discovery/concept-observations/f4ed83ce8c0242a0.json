@@ -99,7 +99,7 @@
   "normalized_form": "eclipse",
   "observation_id": "f4ed83ce8c0242a0",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-16T18:25:29.547854+00:00",
+  "observed_at": "2026-05-17T07:06:43.204320+00:00",
   "observed_text": "eclipse",
   "source_context_snippet": "Java binding for the [Language Server Protocol](https://microsoft.github.io/language-server-protocol) and the [Debug Adapter Protocol](https://microsoft.github.io/debug-adapter-protocol).",
   "source_file": null,

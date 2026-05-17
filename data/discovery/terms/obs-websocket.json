@@ -1,11 +1,26 @@
 {
   "first_seen_at": "2026-05-16T18:25:29.547854+00:00",
-  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "lebaston100/MIDItoOBS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "andreykaipov/goobs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Brendonovich/MacroGraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "dnaka91/obws"
     }
   ],
   "term": "obs-websocket"

@@ -103,6 +103,18 @@
       "source_repo": "cginternals/khrbinding-generator",
       "status": "candidate-context",
       "text": "1. Load XML from Khronos repository"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opentk/opentk",
+      "status": "candidate-context",
+      "text": "The Open Toolkit library is a fast, low-level C# wrapper for OpenGL, OpenAL & OpenCL. It also includes windowing, mouse, keyboard and joystick input and a robust and fast math library, giving you everything you need to write your own renderer or game engine. OpenTK can be used standalone or inside a GUI on Windows, Linux, Mac."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentk/opentk",
+      "status": "candidate-context",
+      "text": "OpenTK"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "cginternals/khrbinding-generator",
       "status": "candidate",
       "text": "1. Load XML from Khronos repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opentk/opentk",
+      "status": "candidate",
+      "text": "OpenTK"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-16T06:55:35.086614+00:00",
       "source_file": null,
       "source_repo": "cginternals/khrbinding-generator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "opentk/opentk"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "lexical_providers": [
     "datamuse"
   ],

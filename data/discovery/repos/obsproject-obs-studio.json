@@ -1,0 +1,865 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-project.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-project.yaml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@ebcb5b36ded6beda4ceefea6a8bc4cc885255bb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-project.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "flatpak/flatpak-github-actions/flatpak-builder@b8a638469ea7ec62844d7b6e487b697e6f249576",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-format.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-format.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-format.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-format.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-format.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch.yaml"
+    },
+    {
+      "component": "obsproject/obs-crowdin-sync/download@430665179ed13233af2d83ec192c2ae8c40a29ae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch.yaml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch.yaml"
+    },
+    {
+      "component": "cloudflare/wrangler-action@4c10c1822abba527d820b29e6333e7f5dac2cabd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-pull.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-pull.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-pull.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "flatpak/flatpak-github-actions/flatpak-builder@b8a638469ea7ec62844d7b6e487b697e6f249576",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "flatpak/flatpak-github-actions/flat-manager@b8a638469ea7ec62844d7b6e487b697e6f249576",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "flatpak/flatpak-github-actions/flat-manager@b8a638469ea7ec62844d7b6e487b697e6f249576",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml"
+    },
+    {
+      "component": "cloudflare/wrangler-action@f84a562284fc78278ff9052435d9526f9c718361",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml"
+    },
+    {
+      "component": "actions/upload-artifact/merge@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml"
+    },
+    {
+      "component": "obsproject/obs-studio/.github/workflows/sign-windows.yaml@434f8156847412e4db53287f6286d9230c8e940a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@c062e08bd532815e2082a85e87e3ef29c3e6d191",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled.yaml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@4ebd32341e5b59ae7e1581111aa99d5d34cef962",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled.yaml"
+    },
+    {
+      "component": "obsproject/obs-crowdin-sync/upload@430665179ed13233af2d83ec192c2ae8c40a29ae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled.yaml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sign-windows.yaml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sign-windows.yaml"
+    },
+    {
+      "component": "actions/attest-build-provenance@ef244123eb79f2f7a7e75d99086184180e6d0018",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sign-windows.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sign-windows.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sign-windows.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sign-windows.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-project.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze-project.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "github/codeql-action/upload-sarif@ebcb5b36ded6beda4ceefea6a8bc4cc885255bb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analyze-project.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "Analyze Project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "flatpak/flatpak-github-actions/flatpak-builder@b8a638469ea7ec62844d7b6e487b697e6f249576",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "Build Project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-format.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-format.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "Check Code Formatting \ud83d\udee0\ufe0f",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "obsproject/obs-crowdin-sync/download@430665179ed13233af2d83ec192c2ae8c40a29ae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "cloudflare/wrangler-action@4c10c1822abba527d820b29e6333e7f5dac2cabd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dispatch.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "Dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-pull.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-pull.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "Pull",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "flatpak/flatpak-github-actions/flatpak-builder@b8a638469ea7ec62844d7b6e487b697e6f249576",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "flatpak/flatpak-github-actions/flat-manager@b8a638469ea7ec62844d7b6e487b697e6f249576",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "cloudflare/wrangler-action@f84a562284fc78278ff9052435d9526f9c718361",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "actions/upload-artifact/merge@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "obsproject/obs-studio/.github/workflows/sign-windows.yaml@434f8156847412e4db53287f6286d9230c8e940a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "softprops/action-gh-release@c062e08bd532815e2082a85e87e3ef29c3e6d191",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "Push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "Homebrew/actions/setup-homebrew@4ebd32341e5b59ae7e1581111aa99d5d34cef962",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "obsproject/obs-crowdin-sync/upload@430665179ed13233af2d83ec192c2ae8c40a29ae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "Scheduled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sign-windows.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sign-windows.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sign-windows.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "actions/attest-build-provenance@ef244123eb79f2f7a7e75d99086184180e6d0018",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sign-windows.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sign-windows.yaml",
+      "source_repo": "obsproject/obs-studio",
+      "target": "Sign Windows Project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "obsproject/obs-studio",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "obsproject/obs-studio",
+      "target": "directshow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "obsproject/obs-studio",
+      "target": "facebook-live",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "obsproject/obs-studio",
+      "target": "ffmpeg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "obsproject/obs-studio",
+      "target": "game-capture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "obsproject/obs-studio",
+      "target": "live-streaming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "obsproject/obs-studio",
+      "target": "screen-capture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "obsproject/obs-studio",
+      "target": "twitch-tv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "obsproject/obs-studio",
+      "target": "video-recording",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "obsproject/obs-studio",
+      "target": "youtube-live",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-17T08:20:26.366658+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3139
+    },
+    {
+      "path": ".github/workflows/analyze-project.yaml",
+      "size": 4829
+    },
+    {
+      "path": ".github/workflows/build-project.yaml",
+      "size": 16643
+    },
+    {
+      "path": ".github/workflows/check-format.yaml",
+      "size": 1648
+    },
+    {
+      "path": ".github/workflows/dispatch.yaml",
+      "size": 5339
+    },
+    {
+      "path": ".github/workflows/pr-pull.yaml",
+      "size": 2736
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 9555
+    },
+    {
+      "path": ".github/workflows/push.yaml",
+      "size": 13628
+    },
+    {
+      "path": ".github/workflows/scheduled.yaml",
+      "size": 7960
+    },
+    {
+      "path": ".github/workflows/sign-windows.yaml",
+      "size": 3421
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OBS Studio - Free and open source software for live streaming and screen recording",
+    "fork": false,
+    "full_name": "obsproject/obs-studio",
+    "html_url": "https://github.com/obsproject/obs-studio",
+    "language": "C",
+    "pushed_at": "2026-05-14T01:22:20Z",
+    "stargazers_count": 72446,
+    "topics": [
+      "c",
+      "c-plus-plus",
+      "directshow",
+      "facebook-live",
+      "ffmpeg",
+      "game-capture",
+      "live-streaming",
+      "screen-capture",
+      "twitch-tv",
+      "video-recording",
+      "youtube-live"
+    ],
+    "updated_at": "2026-05-17T07:49:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Analyze Project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analyze-project.yaml",
+      "term": "Analyze Project"
+    },
+    {
+      "context_snippet": "Build Project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-project.yaml",
+      "term": "Build Project"
+    },
+    {
+      "context_snippet": "Check Code Formatting \ud83d\udee0\ufe0f",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-format.yaml",
+      "term": "Check Code Formatting \ud83d\udee0\ufe0f"
+    },
+    {
+      "context_snippet": "Dispatch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dispatch.yaml",
+      "term": "Dispatch"
+    },
+    {
+      "context_snippet": "Pull",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-pull.yaml",
+      "term": "Pull"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yaml",
+      "term": "Push"
+    },
+    {
+      "context_snippet": "Scheduled",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled.yaml",
+      "term": "Scheduled"
+    },
+    {
+      "context_snippet": "Sign Windows Project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sign-windows.yaml",
+      "term": "Sign Windows Project"
+    },
+    {
+      "context_snippet": "OBS Studio <https://obsproject.com>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "OBS Studio <https://obsproject.com>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directshow"
+    },
+    {
+      "context_snippet": "OBS Studio <https://obsproject.com>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "facebook-live"
+    },
+    {
+      "context_snippet": "OBS Studio <https://obsproject.com>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ffmpeg"
+    },
+    {
+      "context_snippet": "OBS Studio <https://obsproject.com>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-capture"
+    },
+    {
+      "context_snippet": "OBS Studio <https://obsproject.com>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "live-streaming"
+    },
+    {
+      "context_snippet": "OBS Studio <https://obsproject.com>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "screen-capture"
+    },
+    {
+      "context_snippet": "OBS Studio <https://obsproject.com>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "twitch-tv"
+    },
+    {
+      "context_snippet": "OBS Studio <https://obsproject.com>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-recording"
+    },
+    {
+      "context_snippet": "OBS Studio <https://obsproject.com>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "youtube-live"
+    }
+  ]
+}

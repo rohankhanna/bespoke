@@ -1,0 +1,12 @@
+{
+  "component": "obsproject/obs-crowdin-sync/download@430665179ed13233af2d83ec192c2ae8c40a29ae",
+  "first_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dispatch.yaml",
+      "source_repo": "obsproject/obs-studio"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OBS Studio - Free and open source software for live streaming and screen recording"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Analyze Project"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Analyze Project"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12134,
+      "status": "candidate",
+      "text": "research"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12089,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12089,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11111,
+      "status": "candidate",
+      "text": "account"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11111,
+      "status": "candidate",
+      "text": "analyse"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Analyze Project",
+      "sense_id": "analyze-project#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "analyze-project",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "analyze-project",
+  "observation_id": "c28c2120b73abc21",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-17T07:06:43.204320+00:00",
+  "observed_text": "Analyze Project",
+  "source_context_snippet": "Analyze Project",
+  "source_file": ".github/workflows/analyze-project.yaml",
+  "source_repo": "obsproject/obs-studio",
+  "source_repo_description": "OBS Studio - Free and open source software for live streaming and screen recording"
+}

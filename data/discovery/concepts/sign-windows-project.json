@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sign Windows Project"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsproject/obs-studio",
+      "status": "candidate-context",
+      "text": "OBS Studio - Free and open source software for live streaming and screen recording"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsproject/obs-studio",
+      "status": "candidate-context",
+      "text": "Sign Windows Project"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsproject/obs-studio",
+      "status": "candidate",
+      "text": "Sign Windows Project"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19607,
+      "status": "candidate",
+      "text": "start"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18721,
+      "status": "candidate",
+      "text": "desktop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18650,
+      "status": "candidate",
+      "text": "screen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18579,
+      "status": "candidate",
+      "text": "sash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18579,
+      "status": "candidate",
+      "text": "tile"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sign Windows Project",
+  "concept_id": "sign-windows-project",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": ".github/workflows/sign-windows.yaml",
+      "source_repo": "obsproject/obs-studio"
+    }
+  ],
+  "first_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sign Windows Project",
+      "sense_id": "sign-windows-project#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

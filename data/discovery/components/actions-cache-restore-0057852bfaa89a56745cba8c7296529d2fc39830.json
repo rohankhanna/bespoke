@@ -1,7 +1,7 @@
 {
   "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/banner-monitor.yml",
       "source_repo": "nrwl/nx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "obsproject/obs-studio"
     }
   ]
 }

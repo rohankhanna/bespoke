@@ -1,0 +1,430 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml"
+    },
+    {
+      "component": "tibdex/github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "magnetikonline/action-golang-cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "magnetikonline/action-golang-cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "snok/container-retention-policy@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-retention-policy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    },
+    {
+      "component": "tibdex/github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-protocol-version.yml"
+    },
+    {
+      "component": "tibdex/github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-protocol-version.yml"
+    },
+    {
+      "component": "magnetikonline/action-golang-cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-protocol-version.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "andreykaipov/goobs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "andreykaipov/goobs",
+      "target": "tibdex/github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "andreykaipov/goobs",
+      "target": "Auto-merge dependabot PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "andreykaipov/goobs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "andreykaipov/goobs",
+      "target": "dorny/paths-filter@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "andreykaipov/goobs",
+      "target": "magnetikonline/action-golang-cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-retention-policy.yml",
+      "source_repo": "andreykaipov/goobs",
+      "target": "snok/container-retention-policy@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image-retention-policy.yml",
+      "source_repo": "andreykaipov/goobs",
+      "target": "Image Retention Policy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "andreykaipov/goobs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "andreykaipov/goobs",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "andreykaipov/goobs",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "andreykaipov/goobs",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "andreykaipov/goobs",
+      "target": "Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "andreykaipov/goobs",
+      "target": "release-drafter/release-drafter@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "andreykaipov/goobs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "andreykaipov/goobs",
+      "target": "tibdex/github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "andreykaipov/goobs",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-protocol-version.yml",
+      "source_repo": "andreykaipov/goobs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-protocol-version.yml",
+      "source_repo": "andreykaipov/goobs",
+      "target": "tibdex/github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-protocol-version.yml",
+      "source_repo": "andreykaipov/goobs",
+      "target": "magnetikonline/action-golang-cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-protocol-version.yml",
+      "source_repo": "andreykaipov/goobs",
+      "target": "Update OBS websocket protocol version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andreykaipov/goobs",
+      "target": "go-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andreykaipov/goobs",
+      "target": "obs-studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andreykaipov/goobs",
+      "target": "obs-websocket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andreykaipov/goobs",
+      "target": "obs-websocket-go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andreykaipov/goobs",
+      "target": "openbroadcaster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andreykaipov/goobs",
+      "target": "openbroadcastersoftware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andreykaipov/goobs",
+      "target": "websockets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-17T08:20:35.750221+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2295
+    },
+    {
+      "path": "go.mod",
+      "size": 500
+    },
+    {
+      "path": ".github/workflows/auto-merge.yml",
+      "size": 693
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2006
+    },
+    {
+      "path": ".github/workflows/image-retention-policy.yml",
+      "size": 547
+    },
+    {
+      "path": ".github/workflows/image.yml",
+      "size": 1583
+    },
+    {
+      "path": ".github/workflows/release-drafter.yml",
+      "size": 1655
+    },
+    {
+      "path": ".github/workflows/update-protocol-version.yml",
+      "size": 2543
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Go client library for OBS Studio",
+    "fork": false,
+    "full_name": "andreykaipov/goobs",
+    "html_url": "https://github.com/andreykaipov/goobs",
+    "language": "Go",
+    "pushed_at": "2026-05-11T09:43:02Z",
+    "stargazers_count": 177,
+    "topics": [
+      "go",
+      "go-client",
+      "obs-studio",
+      "obs-websocket",
+      "obs-websocket-go",
+      "openbroadcaster",
+      "openbroadcastersoftware",
+      "websockets"
+    ],
+    "updated_at": "2026-05-11T09:43:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Auto-merge dependabot PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "term": "Auto-merge dependabot PRs"
+    },
+    {
+      "context_snippet": "Image Retention Policy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image-retention-policy.yml",
+      "term": "Image Retention Policy"
+    },
+    {
+      "context_snippet": "Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image.yml",
+      "term": "Image"
+    },
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "Update OBS websocket protocol version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-protocol-version.yml",
+      "term": "Update OBS websocket protocol version"
+    },
+    {
+      "context_snippet": "[![Protocol Version][protocol-img]][protocol-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "go-client"
+    },
+    {
+      "context_snippet": "[![Protocol Version][protocol-img]][protocol-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obs-studio"
+    },
+    {
+      "context_snippet": "[![Protocol Version][protocol-img]][protocol-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obs-websocket"
+    },
+    {
+      "context_snippet": "[![Protocol Version][protocol-img]][protocol-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obs-websocket-go"
+    },
+    {
+      "context_snippet": "[![Protocol Version][protocol-img]][protocol-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openbroadcaster"
+    },
+    {
+      "context_snippet": "[![Protocol Version][protocol-img]][protocol-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openbroadcastersoftware"
+    },
+    {
+      "context_snippet": "[![Protocol Version][protocol-img]][protocol-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websockets"
+    }
+  ]
+}

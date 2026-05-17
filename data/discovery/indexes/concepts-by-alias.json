@@ -3084,6 +3084,9 @@
   "analyze language trends": [
     "analyze-language-trends"
   ],
+  "analyze project": [
+    "analyze-project"
+  ],
   "analyze pull request": [
     "analyze-pull-request"
   ],
@@ -6824,6 +6827,9 @@
   ],
   "autotools": [
     "autotools"
+  ],
+  "autotools build": [
+    "autotools-build"
   ],
   "autotools build extra": [
     "autotools-build-extra"
@@ -18277,6 +18283,12 @@
   ],
   "choose random assignees": [
     "choose-random-assignees"
+  ],
+  "chord-naming": [
+    "chord-naming"
+  ],
+  "chords": [
+    "chords"
   ],
   "choreo examples tests": [
     "choreo-examples-tests"
@@ -30890,6 +30902,9 @@
   "directory-watcher": [
     "directory-watcher"
   ],
+  "directshow": [
+    "directshow"
+  ],
   "directvoxgo": [
     "directvoxgo"
   ],
@@ -32456,6 +32471,9 @@
   "documentation: update versions": [
     "documentation-update-versions"
   ],
+  "documentdb": [
+    "documentdb"
+  ],
   "documenter": [
     "documenter"
   ],
@@ -33061,6 +33079,9 @@
   ],
   "druid": [
     "druid"
+  ],
+  "drum-machine": [
+    "drum-machine"
   ],
   "drums": [
     "drums"
@@ -36488,6 +36509,9 @@
   "facebook-bot": [
     "facebook-bot"
   ],
+  "facebook-live": [
+    "facebook-live"
+  ],
   "facebook-messenger": [
     "facebook-messenger"
   ],
@@ -39381,6 +39405,9 @@
   "game-2d": [
     "game-2d"
   ],
+  "game-capture": [
+    "game-capture"
+  ],
   "game-development": [
     "game-development"
   ],
@@ -41819,6 +41846,9 @@
   ],
   "go-cli": [
     "go-cli"
+  ],
+  "go-client": [
+    "go-client"
   ],
   "go-color": [
     "go-color"
@@ -46184,6 +46214,9 @@
   ],
   "image digest update": [
     "image-digest-update"
+  ],
+  "image retention policy": [
+    "image-retention-policy"
   ],
   "image-aesthetic-assessment": [
     "image-aesthetic-assessment"
@@ -56118,6 +56151,9 @@
   "math-libraries": [
     "math-libraries"
   ],
+  "math-library": [
+    "math-library"
+  ],
   "math-ocr": [
     "math-ocr"
   ],
@@ -57392,6 +57428,9 @@
   ],
   "midi2": [
     "midi2"
+  ],
+  "midifile": [
+    "midifile"
   ],
   "midjourney": [
     "midjourney"
@@ -59013,6 +59052,9 @@
   "msbuild": [
     "msbuild"
   ],
+  "msbuild msvc project file ci": [
+    "msbuild-msvc-project-file-ci"
+  ],
   "msbuild-debug": [
     "msbuild-debug"
   ],
@@ -59111,6 +59153,9 @@
   ],
   "msys2 aarch64 clang64": [
     "msys2-aarch64-clang64"
+  ],
+  "msys2 autotools build (windows)": [
+    "msys2-autotools-build-windows"
   ],
   "msys2 build": [
     "msys2-build"
@@ -59766,6 +59811,12 @@
   ],
   "music-synthesis": [
     "music-synthesis"
+  ],
+  "music-theory": [
+    "music-theory"
+  ],
+  "music-theory-apps": [
+    "music-theory-apps"
   ],
   "musical-instrument": [
     "musical-instrument"
@@ -62847,6 +62898,9 @@
   "obs-websocket": [
     "obs-websocket"
   ],
+  "obs-websocket-go": [
+    "obs-websocket-go"
+  ],
   "obsei action": [
     "obsei-action"
   ],
@@ -63896,6 +63950,12 @@
   ],
   "openbox-theme": [
     "openbox-theme"
+  ],
+  "openbroadcaster": [
+    "openbroadcaster"
+  ],
+  "openbroadcastersoftware": [
+    "openbroadcastersoftware"
   ],
   "openbsd": [
     "openbsd"
@@ -66662,6 +66722,9 @@
   ],
   "pi-hole-lists": [
     "pi-hole-lists"
+  ],
+  "piano": [
+    "piano"
   ],
   "picamera2": [
     "picamera2"
@@ -71141,6 +71204,9 @@
   ],
   "publish semver tags to luarocks": [
     "publish-semver-tags-to-luarocks"
+  ],
+  "publish server": [
+    "publish-server"
   ],
   "publish site": [
     "publish-site"
@@ -81063,6 +81129,9 @@
   "sequence-transduction": [
     "sequence-transduction"
   ],
+  "sequencer": [
+    "sequencer"
+  ],
   "sequencing": [
     "sequencing"
   ],
@@ -81766,6 +81835,9 @@
   ],
   "sign release": [
     "sign-release"
+  ],
+  "sign windows project": [
+    "sign-windows-project"
   ],
   "sign-language-recognition": [
     "sign-language-recognition"
@@ -83019,6 +83091,9 @@
   ],
   "solid-query": [
     "solid-query"
+  ],
+  "solid-start": [
+    "solid-start"
   ],
   "solid-state-lidar": [
     "solid-state-lidar"
@@ -90760,6 +90835,15 @@
   "toml": [
     "toml"
   ],
+  "toml-parser": [
+    "toml-parser"
+  ],
+  "toml-parsing": [
+    "toml-parsing"
+  ],
+  "tomlplusplus": [
+    "tomlplusplus"
+  ],
   "tomm2017": [
     "tomm2017"
   ],
@@ -92106,6 +92190,9 @@
   ],
   "twitch": [
     "twitch"
+  ],
+  "twitch-tv": [
+    "twitch-tv"
   ],
   "twitter": [
     "twitter"
@@ -93973,6 +94060,9 @@
   ],
   "update obs mirror": [
     "update-obs-mirror"
+  ],
+  "update obs websocket protocol version": [
+    "update-obs-websocket-protocol-version"
   ],
   "update package manifests": [
     "update-package-manifests"
@@ -96146,6 +96236,9 @@
   "video-recognition": [
     "video-recognition"
   ],
+  "video-recording": [
+    "video-recording"
+  ],
   "video-restoration": [
     "video-restoration"
   ],
@@ -97315,6 +97408,9 @@
   ],
   "vton": [
     "vton"
+  ],
+  "vtube-studio": [
+    "vtube-studio"
   ],
   "vtuber": [
     "vtuber"
@@ -100353,6 +100449,9 @@
   ],
   "youtube-downloader": [
     "youtube-downloader"
+  ],
+  "youtube-live": [
+    "youtube-live"
   ],
   "youtubednn": [
     "youtubednn"

@@ -67,6 +67,18 @@
       "source_repo": "FluidSynth/fluidsynth",
       "status": "candidate-context",
       "text": "| | Build Status |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RuiVarela/Senos",
+      "status": "candidate-context",
+      "text": "Music exploration app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RuiVarela/Senos",
+      "status": "candidate-context",
+      "text": "Senos is sound exploration tool from a developer point of view."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "FluidSynth/fluidsynth",
       "status": "candidate",
       "text": "| | Build Status |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RuiVarela/Senos",
+      "status": "candidate",
+      "text": "Senos is sound exploration tool from a developer point of view."
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-05-16T00:38:16.846047+00:00",
       "source_file": null,
       "source_repo": "FluidSynth/fluidsynth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": null,
+      "source_repo": "RuiVarela/Senos"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "lexical_providers": [
     "datamuse"
   ],

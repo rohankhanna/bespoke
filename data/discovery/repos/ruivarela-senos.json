@@ -1,0 +1,136 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RuiVarela/Senos",
+      "target": "floooh/sokol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RuiVarela/Senos",
+      "target": "altschuler/imgui-knobs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RuiVarela/Senos",
+      "target": "jcelerier/libremidi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RuiVarela/Senos",
+      "target": "google/music-synthesizer-for-android",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RuiVarela/Senos",
+      "target": "drum-machine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RuiVarela/Senos",
+      "target": "piano",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RuiVarela/Senos",
+      "target": "sequencer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RuiVarela/Senos",
+      "target": "synthesizer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-17T08:20:19.435488+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2324
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Music exploration app",
+    "fork": false,
+    "full_name": "RuiVarela/Senos",
+    "html_url": "https://github.com/RuiVarela/Senos",
+    "language": "C++",
+    "pushed_at": "2024-03-28T18:23:09Z",
+    "stargazers_count": 92,
+    "topics": [
+      "drum-machine",
+      "dsp",
+      "piano",
+      "sequencer",
+      "synthesizer"
+    ],
+    "updated_at": "2026-05-14T20:11:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "altschuler/imgui-knobs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "floooh/sokol",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/music-synthesizer-for-android",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jcelerier/libremidi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Senos is sound exploration tool from a developer point of view.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drum-machine"
+    },
+    {
+      "context_snippet": "Senos is sound exploration tool from a developer point of view.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "piano"
+    },
+    {
+      "context_snippet": "Senos is sound exploration tool from a developer point of view.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequencer"
+    },
+    {
+      "context_snippet": "Senos is sound exploration tool from a developer point of view.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "synthesizer"
+    }
+  ]
+}

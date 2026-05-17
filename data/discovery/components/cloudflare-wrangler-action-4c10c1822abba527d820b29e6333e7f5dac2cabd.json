@@ -1,0 +1,12 @@
+{
+  "component": "cloudflare/wrangler-action@4c10c1822abba527d820b29e6333e7f5dac2cabd",
+  "first_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dispatch.yaml",
+      "source_repo": "obsproject/obs-studio"
+    }
+  ]
+}

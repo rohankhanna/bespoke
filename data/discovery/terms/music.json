@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -126,6 +126,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "midi2-dev/ni-midi2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "shriramters/chordcat"
     }
   ],
   "term": "music"

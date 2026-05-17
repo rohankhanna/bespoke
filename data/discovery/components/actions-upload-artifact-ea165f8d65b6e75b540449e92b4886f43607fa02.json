@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -762,6 +762,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-test.yml",
       "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "obsproject/obs-studio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "obsproject/obs-studio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sign-windows.yaml",
+      "source_repo": "obsproject/obs-studio"
     }
   ]
 }

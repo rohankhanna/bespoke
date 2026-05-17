@@ -239,6 +239,78 @@
       "source_repo": "microsoft/openjdk-jdk21u",
       "status": "candidate-context",
       "text": "'Build (windows)'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openjdk/jdk11u",
+      "status": "candidate-context",
+      "text": "https://openjdk.org/projects/jdk-updates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk11u",
+      "status": "candidate-context",
+      "text": "'Build (windows)'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openjdk/jdk11u-dev",
+      "status": "candidate-context",
+      "text": "https://openjdk.org/projects/jdk-updates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk11u-dev",
+      "status": "candidate-context",
+      "text": "'Build (windows)'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openjdk/jdk17u",
+      "status": "candidate-context",
+      "text": "https://wiki.openjdk.org/display/JDKUpdates/JDK+17u"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk17u",
+      "status": "candidate-context",
+      "text": "'Build (windows)'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openjdk/jdk17u-dev",
+      "status": "candidate-context",
+      "text": "https://openjdk.org/projects/jdk-updates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk17u-dev",
+      "status": "candidate-context",
+      "text": "'Build (windows)'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openjdk/jdk21u",
+      "status": "candidate-context",
+      "text": "https://openjdk.org/projects/jdk-updates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk21u",
+      "status": "candidate-context",
+      "text": "'Build (windows)'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openjdk/jdk21u-dev",
+      "status": "candidate-context",
+      "text": "https://openjdk.org/projects/jdk-updates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk21u-dev",
+      "status": "candidate-context",
+      "text": "'Build (windows)'"
     }
   ],
   "candidate_glosses": [
@@ -353,6 +425,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/openjdk-jdk21u",
+      "status": "candidate",
+      "text": "'Build (windows)'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk11u",
+      "status": "candidate",
+      "text": "'Build (windows)'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk11u-dev",
+      "status": "candidate",
+      "text": "'Build (windows)'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk17u",
+      "status": "candidate",
+      "text": "'Build (windows)'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk17u-dev",
+      "status": "candidate",
+      "text": "'Build (windows)'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk21u",
+      "status": "candidate",
+      "text": "'Build (windows)'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk21u-dev",
       "status": "candidate",
       "text": "'Build (windows)'"
     }
@@ -547,11 +655,47 @@
       "observed_at": "2026-05-16T18:25:29.547854+00:00",
       "source_file": ".github/workflows/build-windows.yml",
       "source_repo": "microsoft/openjdk-jdk21u"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "openjdk/jdk11u"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "openjdk/jdk11u-dev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "openjdk/jdk17u"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "openjdk/jdk17u-dev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "openjdk/jdk21u"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "openjdk/jdk21u-dev"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "lexical_providers": [
     "datamuse"
   ],

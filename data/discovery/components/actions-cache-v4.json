@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-17T00:41:31.070805+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -6152,6 +6152,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/continuous.yml",
       "source_repo": "MiloszKrajewski/K4os.Compression.LZ4"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "source_repo": "openjdk/jdk11u"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "source_repo": "openjdk/jdk11u-dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "source_repo": "openjdk/jdk17u"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "source_repo": "openjdk/jdk17u-dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "source_repo": "openjdk/jdk21u"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "source_repo": "openjdk/jdk21u-dev"
     }
   ]
 }

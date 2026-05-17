@@ -58,6 +58,18 @@
       "source_repo": "nhielost/obs-midi-mg",
       "status": "candidate-context",
       "text": "Dispatch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsproject/obs-studio",
+      "status": "candidate-context",
+      "text": "OBS Studio - Free and open source software for live streaming and screen recording"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsproject/obs-studio",
+      "status": "candidate-context",
+      "text": "Dispatch"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +94,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nhielost/obs-midi-mg",
+      "status": "candidate",
+      "text": "Dispatch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsproject/obs-studio",
       "status": "candidate",
       "text": "Dispatch"
     }
@@ -463,11 +481,17 @@
       "observed_at": "2026-05-17T00:41:31.070805+00:00",
       "source_file": ".github/workflows/test-dispatch.yml",
       "source_repo": "kurrent-io/KurrentDB-Client-Rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T07:06:43.204320+00:00",
+      "source_file": ".github/workflows/dispatch.yaml",
+      "source_repo": "obsproject/obs-studio"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T00:41:31.070805+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bepu/bepuphysics1",
+      "target": "physics-simulation-library",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-17T07:06:43.204320+00:00",
+  "source_repo": "bepu/bepuphysics1"
+}

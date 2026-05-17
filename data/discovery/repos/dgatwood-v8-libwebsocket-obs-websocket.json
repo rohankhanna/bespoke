@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-17T08:20:45.204431+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2751
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A rough integration of libwebsocket into V8 for integrating obs-websocket into C/C++ tools",
+    "fork": false,
+    "full_name": "dgatwood/v8-libwebsocket-obs-websocket",
+    "html_url": "https://github.com/dgatwood/v8-libwebsocket-obs-websocket",
+    "language": "C++",
+    "pushed_at": "2022-07-12T03:36:44Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-05-11T04:25:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

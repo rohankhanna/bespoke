@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-16T06:55:35.086614+00:00",
-  "last_seen_at": "2026-05-16T18:25:29.547854+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -21,6 +21,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "obsproject/obs-websocket"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "andreykaipov/goobs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Brendonovich/MacroGraph"
     }
   ],
   "term": "obs-studio"

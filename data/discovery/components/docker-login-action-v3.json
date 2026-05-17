@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-17T00:41:31.070805+00:00",
+  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2632,6 +2632,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-publish.yaml",
       "source_repo": "RVC-Boss/GPT-SoVITS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-server.yaml",
+      "source_repo": "Brendonovich/MacroGraph"
     }
   ]
 }
