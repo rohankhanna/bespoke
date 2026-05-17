@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 226,
-    "concepts": 250,
-    "observations": 254,
-    "repos": 57,
-    "terms": 248
+    "components": 240,
+    "concepts": 256,
+    "observations": 260,
+    "repos": 58,
+    "terms": 254
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "Aloxaf/silicon",
     "asciinema/agg",
@@ -69,6 +69,7 @@
     "stepancheg/rust-protobuf",
     "vislyhq/stretch",
     "watchexec/cargo-watch",
+    "wilsonzlin/minify-html",
     "zargony/fuse-rs",
     "zhihu/rucene"
   ]

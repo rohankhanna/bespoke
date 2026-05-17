@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1626,
-    "concepts": 1064,
-    "observations": 1073,
-    "repos": 176,
-    "terms": 1063
+    "components": 1619,
+    "concepts": 1051,
+    "observations": 1059,
+    "repos": 174,
+    "terms": 1050
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "0xPolygonHermez/zisk",
@@ -24,7 +24,6 @@
     "ajrcarey/pdfium-render",
     "akiomik/mado",
     "alexcrichton/ssh2-rs",
-    "alexheretic/glyph-brush",
     "ankane/tokenizers-ruby",
     "antoniusnaumann/cargo-swift",
     "Anush008/fastembed-rs",
@@ -77,7 +76,6 @@
     "EmbarkStudios/cargo-about",
     "enbop/fungi",
     "EricLBuehler/candle-vllm",
-    "esp-rs/esp-idf-hal",
     "esp-rs/esp-idf-sys",
     "esp-rs/espflash",
     "esp-rs/std-training",

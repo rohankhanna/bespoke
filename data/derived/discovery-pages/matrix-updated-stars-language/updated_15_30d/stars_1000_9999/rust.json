@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1943,
-    "concepts": 1420,
-    "observations": 1425,
-    "repos": 180,
-    "terms": 1431
+    "components": 1930,
+    "concepts": 1416,
+    "observations": 1421,
+    "repos": 179,
+    "terms": 1427
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "0xPlaygrounds/rig",
@@ -109,7 +109,6 @@
     "modelcontextprotocol/rust-sdk",
     "mozilla/cbindgen",
     "mozilla/grcov",
-    "mozilla/sccache",
     "mozilla/uniffi-rs",
     "mstange/samply",
     "mthom/scryer-prolog",

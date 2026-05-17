@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 756,
+    "components": 748,
     "concepts": 292,
     "observations": 292,
-    "repos": 214,
+    "repos": 213,
     "terms": 321
   },
   "facet_version": 1,
@@ -11,13 +11,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
+    "06ketan/substack-ops",
     "8144225309/lightning",
     "8144225309/superscalar-cln",
     "8144225309/superscalar-wallet",
     "aaronlamz/navpress",
-    "acevif/swiftformat-nix",
     "AdaCore/vss-extra",
     "aidenlab/spacewalk",
     "aidenlab/swtool",
@@ -148,7 +148,6 @@
     "danielrosehill/Speech-And-ASR-Evaluations",
     "databendlabs/databend-base",
     "DataDog/vault",
-    "datafuse-extras/orc-rust",
     "DeepWok/mase-docker",
     "Dustinpro/Dustinpro",
     "edward3h/bedrock-viz-from-backups",

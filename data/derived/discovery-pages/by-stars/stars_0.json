@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2879,
+    "components": 2882,
     "concepts": 1204,
     "observations": 1208,
-    "repos": 906,
+    "repos": 907,
     "terms": 1235
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "0aids/imnodes",
@@ -544,6 +544,7 @@
     "hbenl/vscode-mocha-ssh-example",
     "hchiam/vite-project-example-minimal",
     "Heap-Hop/if-watch",
+    "heimoshuiyu/faster-whisper",
     "helyim/reed-solomon-erasure",
     "hermit-os/.github",
     "hermit-os/async-executor",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2689,
-    "concepts": 2323,
-    "observations": 2333,
-    "repos": 458,
-    "terms": 2288
+    "components": 2679,
+    "concepts": 2334,
+    "observations": 2344,
+    "repos": 457,
+    "terms": 2303
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "99designs/aws-vault",
@@ -259,6 +259,7 @@
     "kristijanhusak/vim-dadbod-ui",
     "krzysztofzablocki/Sourcery",
     "labring/laf",
+    "layumi/Person_reID_baseline_pytorch",
     "LeCAR-Lab/ASAP",
     "libimobiledevice/libimobiledevice",
     "libimobiledevice/usbmuxd",
@@ -421,7 +422,6 @@
     "tenable/terrascan",
     "Tencent-Hunyuan/HunyuanDiT",
     "Tencent-Hunyuan/HunyuanVideo-Avatar",
-    "Tencent/MimicMotion",
     "Tencent/TFace",
     "Tencent/tquic",
     "TencentARC/SEED-Voken",
@@ -465,7 +465,6 @@
     "WenmuZhou/PytorchOCR",
     "WICG/webcomponents",
     "willisma/SiT",
-    "wilsonzlin/minify-html",
     "XTLS/Xray-install",
     "yeyupiaoling/VoiceprintRecognition-Pytorch",
     "yonaskolb/Mint",

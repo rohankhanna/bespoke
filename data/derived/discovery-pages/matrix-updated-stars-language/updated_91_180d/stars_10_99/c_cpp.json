@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 97,
-    "concepts": 108,
-    "observations": 109,
-    "repos": 37,
-    "terms": 106
+    "concepts": 115,
+    "observations": 116,
+    "repos": 38,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "3dfxdev/EDGE",
     "AdaCore/gnatcoll-db",
@@ -43,6 +43,7 @@
     "r-spatial/s2",
     "Rezonality/zing",
     "RomanArzumanyan/VALI",
+    "shriramters/chordcat",
     "Taritsyn/LibSassHost",
     "tier4/ndt_omp",
     "triton-inference-server/tensorflow_backend",

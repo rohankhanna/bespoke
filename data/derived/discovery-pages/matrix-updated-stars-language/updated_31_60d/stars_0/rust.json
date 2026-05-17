@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 75,
+    "components": 86,
     "concepts": 27,
     "observations": 27,
-    "repos": 17,
+    "repos": 18,
     "terms": 27
   },
   "facet_version": 1,
@@ -12,12 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "arckoor/botan-rs",
     "arckoor/jsonwebtoken-botan",
     "beurdouche/nss-gk-api",
     "datafuse-extras/dtparse",
+    "datafuse-extras/orc-rust",
     "drmingdrmer/display-more",
     "eigenwallet/arti",
     "fulmicoton-dd/datasketches-rust",

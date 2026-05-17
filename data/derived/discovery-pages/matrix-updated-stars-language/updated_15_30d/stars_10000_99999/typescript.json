@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9724,
-    "concepts": 1440,
-    "observations": 1450,
-    "repos": 136,
-    "terms": 1449
+    "components": 9668,
+    "concepts": 1435,
+    "observations": 1445,
+    "repos": 135,
+    "terms": 1444
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
@@ -137,7 +137,6 @@
     "tanweai/pua",
     "typescript-eslint/typescript-eslint",
     "upstash/context7",
-    "vadimdemedes/ink",
     "vercel/swr",
     "vitest-dev/vitest",
     "VSCodeVim/Vim",

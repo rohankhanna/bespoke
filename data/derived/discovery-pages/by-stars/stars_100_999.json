@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 50145,
-    "concepts": 34568,
-    "observations": 34672,
-    "repos": 8531,
-    "terms": 34418
+    "components": 50194,
+    "concepts": 34612,
+    "observations": 34716,
+    "repos": 8538,
+    "terms": 34461
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0k/shyaml",
@@ -580,6 +580,7 @@
     "AndrewRadev/switch.vim",
     "andrewrk/libgroove",
     "andrewrk/node-groove",
+    "andreykaipov/goobs",
     "andy-thomason/Vookoo",
     "andy971022/auto-lama",
     "andybalholm/brotli",
@@ -1228,6 +1229,7 @@
     "bennyxguo/Obsidian-Obsidianite",
     "bensu/doo",
     "benthayer/git-gud",
+    "bepu/bepuphysics1",
     "Ber666/ToolkenGPT",
     "berkerpeksag/astor",
     "berlino/gated_linear_attention",
@@ -1401,6 +1403,7 @@
     "breadwallet/breadwallet-core",
     "Brechtpd/base64",
     "breezedeus/CnSTD",
+    "Brendonovich/MacroGraph",
     "brentonashworth/clj-diff",
     "brentspell/hifi-gan-bwe",
     "brentyi/jaxlie",
@@ -2452,6 +2455,7 @@
     "dmlc/treelite",
     "dmort27/epitran",
     "dmtrKovalenko/zlob",
+    "dnaka91/obws",
     "dnanexus-rnd/GLnexus",
     "DNSCrypt/dnscrypt-protocol",
     "doc-analysis/ReadingBank",
@@ -5817,6 +5821,7 @@
     "nagisa/rust_tracy_client",
     "nak1114/rbenv-win",
     "namepllet/HandOccNet",
+    "namigop/OneBella",
     "namsral/flag",
     "nanbingxyz/mcpsvr",
     "Nanne/pytorch-NetVlad",
@@ -6273,6 +6278,8 @@
     "OpenHands/OpenHands-CLI",
     "OpenHands/software-agent-sdk",
     "OpenHands/ToM-SWE",
+    "openjdk/jdk11u",
+    "openjdk/jdk17u",
     "openjs-foundation/cross-project-council",
     "OpenKMIP/PyKMIP",
     "openlanguagedata/flores",

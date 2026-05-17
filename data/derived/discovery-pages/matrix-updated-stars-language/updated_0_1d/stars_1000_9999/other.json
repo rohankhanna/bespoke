@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 79,
-    "concepts": 87,
-    "observations": 88,
-    "repos": 8,
-    "terms": 87
+    "components": 89,
+    "concepts": 105,
+    "observations": 106,
+    "repos": 10,
+    "terms": 105
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "datalevin/datalevin",
     "dotnet/Silk.NET",
     "litedb-org/LiteDB",
     "microsoft/aspire",
     "microsoft/aspire-samples",
+    "nvim-tree/nvim-web-devicons",
+    "opentk/opentk",
     "swiftlang/llvm-project",
     "swiftlang/swift-syntax",
     "web-platform-tests/wpt"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3165,
+    "components": 3180,
     "concepts": 746,
     "observations": 747,
-    "repos": 101,
-    "terms": 779
+    "repos": 102,
+    "terms": 783
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "abrahamjuliot/creepjs",
     "actions/download-artifact",
@@ -78,6 +78,7 @@
     "lukeautry/tsoa",
     "markdoc/markdoc",
     "mattpocock/ts-reset",
+    "maxritter/pilot-shell",
     "microsoft/genaiscript",
     "microsoft/node-pty",
     "microsoft/playwright-cli",

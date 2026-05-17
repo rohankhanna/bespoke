@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1889,
-    "concepts": 2010,
-    "observations": 2011,
-    "repos": 240,
-    "terms": 1994
+    "components": 1888,
+    "concepts": 1993,
+    "observations": 1994,
+    "repos": 239,
+    "terms": 1977
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/OpenColorIO",
     "AcademySoftwareFoundation/openexr",
@@ -116,7 +116,6 @@
     "jbeder/yaml-cpp",
     "jd-opensource/xllm",
     "jeremycw/httpserver.h",
-    "jolibrain/deepdetect",
     "KhronosGroup/glslang",
     "KhronosGroup/SPIRV-Tools",
     "KhronosGroup/Vulkan-Headers",

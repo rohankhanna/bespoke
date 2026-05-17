@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9746,
+    "components": 9731,
     "concepts": 1758,
     "observations": 1763,
-    "repos": 213,
-    "terms": 1851
+    "repos": 212,
+    "terms": 1847
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -135,7 +135,6 @@
     "lobehub/sd-webui-lobe-theme",
     "mathjax/MathJax-src",
     "matt1398/claude-devtools",
-    "maxritter/pilot-shell",
     "mdn/yari",
     "messageformat/messageformat",
     "microsoft/rnx-kit",

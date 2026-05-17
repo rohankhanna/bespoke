@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 321,
-    "concepts": 346,
-    "observations": 347,
-    "repos": 37,
-    "terms": 344
+    "components": 295,
+    "concepts": 324,
+    "observations": 325,
+    "repos": 35,
+    "terms": 322
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "AdguardTeam/AdGuardSDNSFilter",
     "agenda/agenda",
     "androidx/androidx",
     "badmojr/1Hosts",
-    "coverlet-coverage/coverlet",
     "cvc5/cvc5",
     "DandelionSprout/adfilt",
     "deanmalmgren/textract",
@@ -39,7 +38,6 @@
     "mrcjkb/rustaceanvim",
     "nvim-flutter/flutter-tools.nvim",
     "nvim-mini/mini.nvim",
-    "nvim-tree/nvim-web-devicons",
     "opnsense/plugins",
     "ROCm/MIOpen",
     "rocq-prover/rocq",

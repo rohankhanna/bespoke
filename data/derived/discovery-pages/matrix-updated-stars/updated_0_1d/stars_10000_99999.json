@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 964,
-    "concepts": 390,
-    "observations": 392,
-    "repos": 32,
-    "terms": 394
+    "components": 941,
+    "concepts": 352,
+    "observations": 354,
+    "repos": 30,
+    "terms": 361
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "argotorg/solidity",
     "axolotl-ai-cloud/axolotl",
@@ -22,7 +22,6 @@
     "gastownhall/beads",
     "gastownhall/gastown",
     "ggml-org/ggml",
-    "isl-org/Open3D",
     "jax-ml/jax",
     "jestjs/jest",
     "langchain-ai/langchainjs",
@@ -30,7 +29,6 @@
     "mudler/LocalAI",
     "mui/material-ui",
     "NVIDIA-NeMo/NeMo",
-    "nvm-sh/nvm",
     "oobabooga/textgen",
     "preactjs/preact",
     "psf/black",

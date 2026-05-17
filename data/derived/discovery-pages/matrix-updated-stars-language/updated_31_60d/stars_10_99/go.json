@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 258,
-    "concepts": 191,
-    "observations": 193,
-    "repos": 53,
-    "terms": 187
+    "concepts": 195,
+    "observations": 197,
+    "repos": 54,
+    "terms": 191
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "abhinav/goldmark-anchor",
     "aldernero/sketchy",
+    "allenreder/cliproxyapi-quota-inspector",
     "antham/ghokin",
     "apache/dubbo-go-pixiu-samples",
     "apptainer/sif",

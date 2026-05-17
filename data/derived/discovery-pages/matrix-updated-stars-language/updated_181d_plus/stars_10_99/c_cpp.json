@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 514,
-    "concepts": 617,
-    "observations": 617,
-    "repos": 277,
-    "terms": 614
+    "components": 519,
+    "concepts": 621,
+    "observations": 621,
+    "repos": 279,
+    "terms": 618
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
@@ -213,6 +213,7 @@
     "MooreThreads/MT-flashMLA",
     "mpg/p256-m",
     "newrelic/node-native-metrics",
+    "NicoG60/OscMackieControl",
     "NIFTI-Imaging/nifti_clib",
     "nmoehrle/rayint",
     "novnc/websockify-other",
@@ -243,6 +244,7 @@
     "rpautrat/homography_est",
     "rsylvian/CSVparser",
     "ruby-debug/ruby-debug-base19",
+    "RuiVarela/Senos",
     "rvagg/rpi-newer-crosstools",
     "S95Sedan/Deepspeed-Windows",
     "sainttttt/gemmaJSON",

@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 2061,
-    "concepts": 1163,
-    "observations": 1170,
-    "repos": 456,
-    "terms": 1171
+    "concepts": 1170,
+    "observations": 1177,
+    "repos": 457,
+    "terms": 1178
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -399,6 +399,7 @@
     "sculptdotfun/viberank",
     "shawn0728/ARES",
     "Shopify/quantified",
+    "shriramters/chordcat",
     "signalfx/opentelemetry-demo",
     "SLDGroup/CASCADE",
     "SLDGroup/EffiDec3D",

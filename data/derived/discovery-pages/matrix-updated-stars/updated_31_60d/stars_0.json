@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 426,
-    "concepts": 198,
-    "observations": 199,
-    "repos": 125,
-    "terms": 201
+    "components": 437,
+    "concepts": 203,
+    "observations": 204,
+    "repos": 127,
+    "terms": 206
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "9romise/eslint-config",
@@ -19,6 +19,7 @@
     "aaronrsun/spec-kit-issue",
     "aayushbhaskar/OpenCouncil",
     "abraxas-365/claudio-screenshot",
+    "acevif/swiftformat-nix",
     "adammes/voyanode",
     "adiny/moodtrip-hotel-search",
     "adipalko/hatraot",
@@ -82,6 +83,7 @@
     "datachainlab/cosmos-bsc-ibc-lcp",
     "datachainlab/ibc-parlia-relay",
     "datafuse-extras/dtparse",
+    "datafuse-extras/orc-rust",
     "devnen/chatterbox-v2",
     "drmingdrmer/display-more",
     "dubbo-go-pixiu/dubbo-go-pixiu",

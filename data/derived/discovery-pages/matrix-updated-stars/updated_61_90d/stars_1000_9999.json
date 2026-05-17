@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2098,
-    "concepts": 1522,
-    "observations": 1525,
+    "components": 2094,
+    "concepts": 1508,
+    "observations": 1511,
     "repos": 292,
-    "terms": 1507
+    "terms": 1493
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -133,6 +133,7 @@
     "hashicorp/memberlist",
     "heshengtao/comfyui_LLM_party",
     "hku-mars/FAST-LIVO2",
+    "HKUDS/VideoRAG",
     "hpjansson/chafa",
     "huggingface/transformers.js-examples",
     "hyperopt/hyperopt",
@@ -162,7 +163,6 @@
     "KittyKatt/screenFetch",
     "kward/shunit2",
     "langfengQ/verl-agent",
-    "layumi/Person_reID_baseline_pytorch",
     "leethomason/tinyxml2",
     "libgit2/rugged",
     "libimobiledevice/idevicerestore",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1023,
-    "concepts": 1169,
-    "observations": 1178,
-    "repos": 187,
-    "terms": 1163
+    "components": 1051,
+    "concepts": 1204,
+    "observations": 1213,
+    "repos": 194,
+    "terms": 1198
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -61,8 +61,10 @@
     "ctrlpvim/ctrlp.vim",
     "dakrone/cheshire",
     "dart-lang/http",
+    "dashbitco/broadway",
     "DavBfr/dart_pdf",
     "deivid-rodriguez/pry-byebug",
+    "Denys88/rl_games",
     "dhall-lang/dhall-lang",
     "DmitryTsepelev/store_model",
     "docker-library/python",
@@ -87,6 +89,7 @@
     "ggandor/leap.nvim",
     "ggml-org/llama.vim",
     "gjtorikian/html-proofer",
+    "goharbor/harbor-helm",
     "google-deepmind/tapnet",
     "google/brax",
     "google/jsonnet",
@@ -114,6 +117,7 @@
     "jpsim/Yams",
     "JuliaDocs/Franklin.jl",
     "JuliaPlots/Plots.jl",
+    "junegunn/seoul256.vim",
     "kepano/obsidian-minimal",
     "KhronosGroup/glTF",
     "L3MON4D3/LuaSnip",
@@ -134,7 +138,9 @@
     "mfussenegger/nvim-lint",
     "michalmuskala/jason",
     "microsoft/ai-dev-gallery",
+    "microsoft/Recognizers-Text",
     "microsoft/vscode-codicons",
+    "ml-explore/mlx-swift-examples",
     "moby/vpnkit",
     "ndmitchell/ghcid",
     "ndmitchell/hlint",
@@ -143,6 +149,7 @@
     "nmattia/niv",
     "NVIDIA/nccl-tests",
     "nvim-lua/plenary.nvim",
+    "nvim-neo-tree/neo-tree.nvim",
     "nvim-neorg/neorg",
     "nvim-treesitter/nvim-treesitter-textobjects",
     "nvimdev/dashboard-nvim",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 762,
-    "concepts": 748,
-    "observations": 749,
-    "repos": 191,
-    "terms": 742
+    "components": 764,
+    "concepts": 749,
+    "observations": 750,
+    "repos": 192,
+    "terms": 743
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -92,6 +92,7 @@
     "evadne/etso",
     "excubo-ag/WebCompiler",
     "fdschmidt93/telescope-egrepify.nvim",
+    "filiph/linkcheck",
     "FiloSottile/homebrew-musl-cross",
     "FluxML/MLJFlux.jl",
     "funcool/promesa",

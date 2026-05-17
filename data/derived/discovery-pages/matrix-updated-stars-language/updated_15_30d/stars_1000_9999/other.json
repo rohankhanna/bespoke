@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3381,
-    "concepts": 2883,
-    "observations": 2899,
-    "repos": 390,
-    "terms": 2868
+    "components": 3369,
+    "concepts": 2863,
+    "observations": 2879,
+    "repos": 384,
+    "terms": 2848
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -97,6 +97,7 @@
     "cortinico/kotlin-android-template",
     "countries/countries",
     "coursier/coursier",
+    "coverlet-coverage/coverlet",
     "crewAIInc/crewAI-examples",
     "crosire/reshade-shaders",
     "cssnano/cssnano",
@@ -108,7 +109,6 @@
     "danmayer/coverband",
     "dart-lang/pub",
     "dart-lang/site-www",
-    "dashbitco/broadway",
     "DavHau/nix-portable",
     "day8/re-frame",
     "dcloudio/hello-uniapp",
@@ -116,7 +116,6 @@
     "deepseek-ai/DeepEP",
     "deepseek-ai/DeepGEMM",
     "deivid-rodriguez/byebug",
-    "Denys88/rl_games",
     "dependabot/dependabot-core",
     "detekt/detekt",
     "DiligentGraphics/DiligentEngine",
@@ -174,7 +173,6 @@
     "godotengine/godot-demo-projects",
     "godotengine/godot-docs",
     "godotengine/tps-demo",
-    "goharbor/harbor-helm",
     "gohugoio/hugoDocs",
     "golang/proposal",
     "google/flax",
@@ -219,7 +217,6 @@
     "JuliaPy/PyCall.jl",
     "JuliaPy/PythonCall.jl",
     "JuliaSymbolics/Symbolics.jl",
-    "junegunn/seoul256.vim",
     "just-the-docs/just-the-docs",
     "justinmk/vim-dirvish",
     "k2-fsa/k2",
@@ -258,7 +255,6 @@
     "microsoft/edgeai-for-beginners",
     "microsoft/Generative-AI-for-beginners-dotnet",
     "microsoft/PTVS",
-    "microsoft/Recognizers-Text",
     "microsoft/vscode-docs",
     "microsoft/WinUI-Gallery",
     "MicrosoftEdge/MSEdgeExplainers",
@@ -266,7 +262,6 @@
     "minad/corfu",
     "minad/vertico",
     "minitest/minitest",
-    "ml-explore/mlx-swift-examples",
     "modelcontextprotocol/swift-sdk",
     "modelscope/modelscope-classroom",
     "Morantron/tmux-fingers",
@@ -288,7 +283,6 @@
     "numtide/devshell",
     "NVIDIA/accelerated-computing-hub",
     "nvim-lualine/lualine.nvim",
-    "nvim-neo-tree/neo-tree.nvim",
     "nvim-neotest/neotest",
     "nvim-tree/nvim-tree.lua",
     "objectbox/objectbox-dart",

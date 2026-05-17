@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 3,
-    "terms": 14
+    "components": 33,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 4,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "AI-Hypercomputer/maxdiffusion",
+    "Comfy-Org/comfy-cli",
     "scverse/rapids-singlecell",
     "TextArena/TextArena"
   ]

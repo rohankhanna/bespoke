@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 209,
-    "concepts": 411,
-    "observations": 411,
+    "components": 205,
+    "concepts": 397,
+    "observations": 397,
     "repos": 68,
-    "terms": 405
+    "terms": 391
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "adrienverge/yamllint",
     "aigc3d/LHM",
@@ -42,13 +42,13 @@
     "google/vizier",
     "gururise/AlpacaDataCleaned",
     "heshengtao/comfyui_LLM_party",
+    "HKUDS/VideoRAG",
     "hyperopt/hyperopt",
     "isl-org/Open3D-ML",
     "jaredks/rumps",
     "keleshev/schema",
     "kijai/ComfyUI-WanVideoWrapper",
     "langfengQ/verl-agent",
-    "layumi/Person_reID_baseline_pytorch",
     "lshqqytiger/stable-diffusion-webui-amdgpu",
     "LTH14/mar",
     "lyuwenyu/RT-DETR",

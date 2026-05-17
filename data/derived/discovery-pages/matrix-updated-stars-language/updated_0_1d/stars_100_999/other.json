@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 1,
-    "terms": 9
+    "components": 18,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 2,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
+    "astroautomata/SymbolicRegression.jl",
     "fsprojects/FSharp.Data.GraphQL"
   ]
 }

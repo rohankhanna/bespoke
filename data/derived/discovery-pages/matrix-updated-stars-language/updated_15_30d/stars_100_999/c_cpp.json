@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1114,
-    "concepts": 1129,
-    "observations": 1130,
-    "repos": 194,
-    "terms": 1123
+    "components": 1118,
+    "concepts": 1131,
+    "observations": 1132,
+    "repos": 193,
+    "terms": 1125
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "AcademySoftwareFoundation/Imath",
@@ -36,6 +36,7 @@
     "bfgroup/Lyra",
     "BirolLab/abyss",
     "bitcoin-core/gui",
+    "Blosc/c-blosc2",
     "boazsegev/iodine",
     "BoosterRobotics/booster_robotics_sdk",
     "boostorg/math",
@@ -60,7 +61,6 @@
     "DiligentGraphics/DiligentTools",
     "dmlc/treelite",
     "DOCGroup/ACE_TAO",
-    "DolbyLaboratories/dlb_mp4base",
     "DrTimothyAldenDavis/GraphBLAS",
     "eblerjana/pangenie",
     "enjoy-digital/litex_m2sdr",
@@ -80,7 +80,6 @@
     "gazebosim/gz-sensors",
     "gazebosim/sdformat",
     "gisbi-kim/removert",
-    "GNOME/vte",
     "go-skynet/go-llama.cpp",
     "google/dawn",
     "google/fuzztest",

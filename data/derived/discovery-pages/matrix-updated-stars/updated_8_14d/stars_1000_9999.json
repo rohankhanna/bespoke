@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2158,
-    "concepts": 1166,
-    "observations": 1172,
-    "repos": 135,
-    "terms": 1162
+    "components": 2132,
+    "concepts": 1144,
+    "observations": 1150,
+    "repos": 133,
+    "terms": 1139
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "AdguardTeam/AdGuardSDNSFilter",
     "agenda/agenda",
@@ -40,7 +40,6 @@
     "cordx56/rustowl",
     "cosmos/cosmos-sdk",
     "CosmWasm/cosmwasm",
-    "coverlet-coverage/coverlet",
     "crazy-max/diun",
     "cucumber/cucumber-js",
     "cursorless-dev/cursorless",
@@ -102,7 +101,6 @@
     "NVIDIA/DALI",
     "nvim-flutter/flutter-tools.nvim",
     "nvim-mini/mini.nvim",
-    "nvim-tree/nvim-web-devicons",
     "obsidianmd/obsidian-clipper",
     "open-telemetry/opentelemetry-demo",
     "open-telemetry/opentelemetry-operator",

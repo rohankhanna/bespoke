@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 25,
-    "terms": 49
+    "components": 50,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 26,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
+    "06ketan/substack-ops",
     "bunburysniper/bleunova-ai-agent",
     "conda-forge/conda-forge-feedstock-ops",
     "danielrosehill/Claude-AI-Video-Producer-Plugin",

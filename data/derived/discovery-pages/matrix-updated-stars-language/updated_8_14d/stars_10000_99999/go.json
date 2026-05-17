@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 247,
-    "concepts": 166,
-    "observations": 168,
-    "repos": 12,
-    "terms": 166
+    "components": 126,
+    "concepts": 145,
+    "observations": 147,
+    "repos": 11,
+    "terms": 145
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "cert-manager/cert-manager",
     "cilium/cilium",
     "etcd-io/etcd",
     "flipped-aurora/gin-vue-admin",
-    "go-gitea/gitea",
     "helm/helm",
     "oauth2-proxy/oauth2-proxy",
     "restic/restic",

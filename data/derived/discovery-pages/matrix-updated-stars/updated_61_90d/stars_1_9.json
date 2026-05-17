@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 536,
-    "concepts": 390,
-    "observations": 390,
-    "repos": 127,
-    "terms": 384
+    "components": 568,
+    "concepts": 396,
+    "observations": 396,
+    "repos": 128,
+    "terms": 390
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "0x676e67/0x676e67",
@@ -100,6 +100,7 @@
     "lucabubi/star-history",
     "MarcCote/TextWorld",
     "marxin/mdbook-linkcheck2",
+    "maxritter/pilot-shell-demo",
     "near/near-abi-client-rs",
     "near/near-abi-rs",
     "neuroverseos/neuroverseos-openclaw-governance",

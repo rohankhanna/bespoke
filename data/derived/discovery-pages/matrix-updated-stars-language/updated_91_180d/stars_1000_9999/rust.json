@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 178,
-    "concepts": 175,
-    "observations": 178,
-    "repos": 31,
-    "terms": 174
+    "components": 164,
+    "concepts": 169,
+    "observations": 172,
+    "repos": 30,
+    "terms": 168
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "anordal/shellharden",
@@ -43,7 +43,6 @@
     "Tencent/tquic",
     "tikv/grpc-rs",
     "tokio-rs/bytes",
-    "vi/websocat",
-    "wilsonzlin/minify-html"
+    "vi/websocat"
   ]
 }

@@ -3,7 +3,7 @@
     "components": 24,
     "concepts": 11,
     "observations": 12,
-    "repos": 4,
+    "repos": 3,
     "terms": 11
   },
   "facet_version": 1,
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "abusch/nu_plugin_semver",
     "fallow-rs/oxc-coverage-instrument",
-    "influxdata/datafusion-udf-wasm",
-    "tyrypyrking/egui-ash"
+    "influxdata/datafusion-udf-wasm"
   ]
 }

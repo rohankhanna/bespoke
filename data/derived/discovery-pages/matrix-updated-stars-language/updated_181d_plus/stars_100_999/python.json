@@ -3,8 +3,8 @@
     "components": 1157,
     "concepts": 5405,
     "observations": 5409,
-    "repos": 1831,
-    "terms": 5251
+    "repos": 1833,
+    "terms": 5245
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -243,6 +243,7 @@
     "Beckschen/ViTamin",
     "becxer/cnn-dailymail",
     "behavior-robot-suite/brs-algo",
+    "behavior-robot-suite/brs-ctrl",
     "BellmanTimeHut/DIPO",
     "benedekrozemberczki/DANMF",
     "benjaminr/chrome-devtools-mcp",
@@ -1333,6 +1334,7 @@
     "open-mmlab/MMGEN-FaceStylor",
     "open-webui/openapi-servers",
     "openai/large-scale-curiosity",
+    "OpenBMB/AppCopilot",
     "OpenBMB/BMCook",
     "OpenBMB/BMInf",
     "OpenBMB/CPM-Live",

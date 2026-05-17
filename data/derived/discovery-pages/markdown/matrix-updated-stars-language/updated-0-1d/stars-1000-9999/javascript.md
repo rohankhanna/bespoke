@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-17T05:48:14.453196+00:00`
+Generated at: `2026-05-17T08:38:41.992611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,8 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [endojs/endo](https://github.com/endojs/endo) | 1022 | 2026-05-16T19:10:18Z | JavaScript | Infrastructure/tooling | 17 | 50 | 17 | 17 |
-| [module-federation/core](https://github.com/module-federation/core) | 2522 | 2026-05-16T16:35:32Z | JavaScript | Infrastructure/tooling | 13 | 159 | 13 | 13 |
+| [module-federation/core](https://github.com/module-federation/core) | 2522 | 2026-05-17T07:01:48Z | JavaScript | Infrastructure/tooling | 13 | 159 | 13 | 13 |
+| [endojs/endo](https://github.com/endojs/endo) | 1022 | 2026-05-16T20:19:49Z | JavaScript | Infrastructure/tooling | 17 | 50 | 17 | 17 |
 | [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 5320 | 2026-05-16T12:02:34Z | JavaScript | Infrastructure/tooling | 18 | 9 | 18 | 18 |
 
 ## Repos sorted by stars
@@ -35,5 +35,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 5320 | 2026-05-16T12:02:34Z | JavaScript | Infrastructure/tooling | 18 | 9 | 18 | 18 |
-| [module-federation/core](https://github.com/module-federation/core) | 2522 | 2026-05-16T16:35:32Z | JavaScript | Infrastructure/tooling | 13 | 159 | 13 | 13 |
-| [endojs/endo](https://github.com/endojs/endo) | 1022 | 2026-05-16T19:10:18Z | JavaScript | Infrastructure/tooling | 17 | 50 | 17 | 17 |
+| [module-federation/core](https://github.com/module-federation/core) | 2522 | 2026-05-17T07:01:48Z | JavaScript | Infrastructure/tooling | 13 | 159 | 13 | 13 |
+| [endojs/endo](https://github.com/endojs/endo) | 1022 | 2026-05-16T20:19:49Z | JavaScript | Infrastructure/tooling | 17 | 50 | 17 | 17 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 237,
-    "concepts": 228,
-    "observations": 231,
-    "repos": 51,
-    "terms": 226
+    "components": 240,
+    "concepts": 238,
+    "observations": 241,
+    "repos": 52,
+    "terms": 236
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "2KAbhishek/sway2k",
     "acmesh-official/acmetest",
@@ -25,6 +25,7 @@
     "bitnami/vulndb",
     "bnb-chain/node-deploy",
     "bufbuild/homebrew-buf",
+    "Chocolate4U/Iran-clash-rules",
     "cilium/community",
     "cldwalker/dotfiles",
     "cloudfoundry/cf-deployment-concourse-tasks",

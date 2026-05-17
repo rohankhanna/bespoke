@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 166,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 10,
-    "terms": 107
+    "components": 124,
+    "concepts": 103,
+    "observations": 103,
+    "repos": 9,
+    "terms": 100
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "Aleph-Alpha/ts-rs",
     "apache/casbin-rs",
@@ -20,7 +20,6 @@
     "databendlabs/databend",
     "dmtrKovalenko/fff",
     "hermit-os/hermit-rs",
-    "intentee/paddler",
     "junhoyeo/tokscale",
     "nix-rust/nix",
     "reubeno/brush"

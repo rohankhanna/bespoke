@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 101,
-    "concepts": 58,
-    "observations": 58,
-    "repos": 10,
-    "terms": 58
+    "components": 110,
+    "concepts": 73,
+    "observations": 73,
+    "repos": 11,
+    "terms": 73
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "browniebroke/pypackage-template",
     "cginternals/cpplocate",
@@ -20,6 +20,7 @@
     "FreneticLLC/FreneticGameEngine",
     "geocompx/docker",
     "karafka/example-apps",
+    "lumen-oss/luarocks-tag-release",
     "nvim-mini/mini.deps",
     "pivotal/credhub-release",
     "processing/processing-website",

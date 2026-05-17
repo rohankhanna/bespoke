@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 837,
-    "concepts": 1104,
-    "observations": 1108,
-    "repos": 100,
-    "terms": 1107
+    "components": 846,
+    "concepts": 1113,
+    "observations": 1117,
+    "repos": 101,
+    "terms": 1116
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "abseil/abseil-cpp",
@@ -75,6 +75,7 @@
     "libvips/libvips",
     "lightgbm-org/LightGBM",
     "LostRuins/koboldcpp",
+    "lz4/lz4",
     "micropython/micropython",
     "microsoft/mimalloc",
     "microsoft/onnxruntime",

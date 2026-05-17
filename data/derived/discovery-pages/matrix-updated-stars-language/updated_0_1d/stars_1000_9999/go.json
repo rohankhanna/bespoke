@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 2,
-    "terms": 17
+    "components": 8,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 1,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
-    "crc-org/crc",
-    "googleapis/google-api-go-client"
+    "googleapis/google-cloud-go"
   ]
 }

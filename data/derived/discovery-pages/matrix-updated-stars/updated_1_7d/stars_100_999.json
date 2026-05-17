@@ -1,32 +1,32 @@
 {
   "counts": {
-    "components": 1372,
-    "concepts": 597,
-    "observations": 597,
+    "components": 1381,
+    "concepts": 602,
+    "observations": 602,
     "repos": 88,
-    "terms": 595
+    "terms": 598
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "2mawi2/schaltwerk",
     "a2aproject/a2a-js",
     "adamchainz/blacken-docs",
-    "agentic-box/memora",
     "alloy-rs/svm-rs",
+    "andreykaipov/goobs",
     "apache/casbin-cpp",
     "apalache-mc/apalache",
     "apify/apify-cli",
     "apify/mcpc",
     "appwrite/playground-for-web",
     "aristoteleo/PantheonOS",
-    "astroautomata/SymbolicRegression.jl",
     "atsushieno/aap-core",
+    "aws-cloudformation/cfn-lint-visual-studio-code",
     "bagofwords1/bagofwords",
     "bazel-contrib/rules_jvm_external",
     "bazel-contrib/rules_kotlin",
@@ -35,7 +35,6 @@
     "ChristopherHX/runner.server",
     "clj-commons/rewrite-clj",
     "cloudfoundry/credhub",
-    "Comfy-Org/comfy-cli",
     "CopyText/TextCopy",
     "DanielLin94144/Full-Duplex-Bench",
     "danielrosehill/Claude-Code-Projects-Index",
@@ -60,6 +59,7 @@
     "googlefonts/roboto-3-classic",
     "googlefonts/ufo2ft",
     "GStreamer/cerbero",
+    "hexabot-ai/Hexabot",
     "Jamorim-esss/pytest-rich",
     "karafka/rdkafka-ruby",
     "kelos-dev/kelos",
@@ -80,6 +80,7 @@
     "nurikk/zigbee2mqtt-frontend",
     "nushell/reedline",
     "OpenHands/ToM-SWE",
+    "openjdk/jdk17u",
     "preactjs/preact-devtools",
     "pyOpenSci/software-submission",
     "pyrtlsdr/pyrtlsdr",
@@ -99,7 +100,6 @@
     "unplugin/unplugin-imagemin",
     "Waffle/waffle",
     "WICG/attribution-reporting-api",
-    "yoshoku/llama_cpp.rb",
     "Zoo-Code-Org/Zoo-Code"
   ]
 }

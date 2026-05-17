@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-17T05:48:14.453196+00:00`
+Generated at: `2026-05-17T08:38:41.992611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 20
-- terms: 154
-- components: 915
-- concepts: 156
-- observations: 156
+- repos: 21
+- terms: 173
+- components: 924
+- concepts: 175
+- observations: 175
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hexabot-ai/Hexabot](https://github.com/hexabot-ai/Hexabot) | 953 | 2026-05-16T06:56:54Z | TypeScript | Infrastructure/tooling | 19 | 9 | 19 | 19 |
 | [electron/packager](https://github.com/electron/packager) | 292 | 2026-05-15T22:51:10Z | TypeScript | CLI | 9 | 50 | 9 | 9 |
 | [stx-labs/stacks.js](https://github.com/stx-labs/stacks.js) | 973 | 2026-05-15T16:22:20Z | TypeScript | Infrastructure/tooling | 5 | 43 | 5 | 5 |
 | [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 536 | 2026-05-15T13:25:51Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
@@ -52,6 +53,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [stx-labs/stacks.js](https://github.com/stx-labs/stacks.js) | 973 | 2026-05-15T16:22:20Z | TypeScript | Infrastructure/tooling | 5 | 43 | 5 | 5 |
+| [hexabot-ai/Hexabot](https://github.com/hexabot-ai/Hexabot) | 953 | 2026-05-16T06:56:54Z | TypeScript | Infrastructure/tooling | 19 | 9 | 19 | 19 |
 | [Luligu/matterbridge](https://github.com/Luligu/matterbridge) | 895 | 2026-05-13T12:14:25Z | TypeScript | Infrastructure/tooling | 24 | 43 | 24 | 24 |
 | [RiDDiX/home-assistant-matter-hub](https://github.com/RiDDiX/home-assistant-matter-hub) | 884 | 2026-05-14T16:05:43Z | TypeScript | Infrastructure/tooling | 4 | 31 | 4 | 4 |
 | [mightyiam/eslint-config-love](https://github.com/mightyiam/eslint-config-love) | 817 | 2026-05-14T18:43:01Z | TypeScript | Infrastructure/tooling | 4 | 40 | 4 | 4 |

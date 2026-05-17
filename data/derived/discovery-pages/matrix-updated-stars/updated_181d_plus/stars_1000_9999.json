@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10243,
-    "concepts": 8778,
-    "observations": 8787,
-    "repos": 2298,
-    "terms": 8660
+    "components": 10257,
+    "concepts": 8786,
+    "observations": 8795,
+    "repos": 2300,
+    "terms": 8669
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -2009,6 +2009,7 @@
     "technomancy/leiningen",
     "tencent-ailab/IP-Adapter",
     "Tencent-Hunyuan/HunyuanCustom",
+    "Tencent/MimicMotion",
     "Tencent/TNN",
     "TencentARC/T2I-Adapter",
     "TencentQQGYLab/ELLA",
@@ -2206,6 +2207,7 @@
     "whai362/PVT",
     "WICG/import-maps",
     "wilson1yan/VideoGPT",
+    "wilsonzlin/minify-html",
     "windicss/windicss",
     "WireGuard/wireguard-go",
     "WisdomShell/codeshell",

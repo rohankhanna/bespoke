@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 54993,
-    "concepts": 35632,
-    "observations": 35740,
-    "repos": 6033,
-    "terms": 35523
+    "components": 55018,
+    "concepts": 35677,
+    "observations": 35785,
+    "repos": 6038,
+    "terms": 35572
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -3438,6 +3438,7 @@
     "MarshallOfSound/electron-devtools-installer",
     "martinus/nanobench",
     "martinus/unordered_dense",
+    "marzer/tomlplusplus",
     "MaskRay/ccls",
     "mason-org/mason-lspconfig.nvim",
     "Masterminds/glide",
@@ -3639,6 +3640,7 @@
     "MicrosoftDocs/WSL",
     "MicrosoftEdge/MSEdgeExplainers",
     "middyjs/middy",
+    "mido/mido",
     "miekg/dns",
     "miguelgrinberg/python-socketio",
     "miiton/Cica",
@@ -3814,6 +3816,7 @@
     "msgpack/msgpack-c",
     "msgpack/msgpack-java",
     "msgpack/msgpack-javascript",
+    "msiemens/tinydb",
     "MSPaintIDE/MSPaintIDE",
     "msracver/Deformable-ConvNets",
     "mstange/samply",
@@ -4274,6 +4277,7 @@
     "openstreetmap/iD",
     "OpenTalker/video-retalking",
     "OpenTeleVision/TeleVision",
+    "opentk/opentk",
     "opentracing/opentracing-go",
     "opentracing/specification",
     "openucx/ucx",
@@ -4457,6 +4461,7 @@
     "poloclub/diffusiondb",
     "Polytonic/Glitter",
     "pop-os/cosmic-text",
+    "PortAudio/portaudio",
     "PoseLib/PoseLib",
     "posit-dev/positron",
     "postcss/postcss-import",

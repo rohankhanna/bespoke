@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 7666,
-    "concepts": 4866,
-    "observations": 4884,
+    "components": 7688,
+    "concepts": 4863,
+    "observations": 4881,
     "repos": 1230,
-    "terms": 4846
+    "terms": 4843
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "0x676e67/0x676e67",
@@ -74,7 +74,6 @@
     "AghayeCoder/TX-ThemeHub",
     "agkozak/zcomet",
     "ahyatt/emacs-websocket",
-    "Ai00-X/ai00_server",
     "aiden0z/pptx-renderer",
     "aifoundry-org/et-man",
     "aigc3d/LHM",
@@ -487,7 +486,6 @@
     "filip26/titanium-jcs",
     "filip26/titanium-rdf-canon",
     "filip26/titanium-rdf-n-quads",
-    "filiph/linkcheck",
     "firstbatchxyz/dkn-protocol",
     "Fitzgerald-Porthmouth-Koenigsegg/Planschrift_Project",
     "fla-org/flash-bidirectional-linear-attention",
@@ -596,6 +594,7 @@
     "hhyyrylainen/GodotPckTool",
     "hicchicc/x8y12pxDenkiChip",
     "hku-mars/FAST-LIVO2",
+    "HKUDS/VideoRAG",
     "holochain/hc-spin",
     "HoneyLuka/uBlacklist",
     "hongyuanyu/SPAN",
@@ -730,7 +729,6 @@
     "lassik/emacs-format-all-the-code",
     "Layr-Labs/eigenda-operator-setup",
     "Layr-Labs/incredible-squaring-avs-rs",
-    "layumi/Person_reID_baseline_pytorch",
     "leethomason/tinyxml2",
     "lemire/FastPriorityQueue.js",
     "lemire/simple_fastfloat_benchmark",
@@ -783,6 +781,7 @@
     "mathjax/MathJax-demos-web",
     "matsadler/magnus",
     "mattn/efm-langserver",
+    "maxritter/pilot-shell-demo",
     "maykonlsf/semver-cli",
     "mcabbott/AxisKeys.jl",
     "mdn/webassembly-examples",
@@ -1040,6 +1039,7 @@
     "seancorfield/honeysql",
     "seancorfield/next-jdbc",
     "seaweedfs/seaweedfs-cosi-driver",
+    "secretflow/scql",
     "securefederatedai/openfederatedlearning",
     "serde-rs/serde",
     "ServiceNow/AgentLab",

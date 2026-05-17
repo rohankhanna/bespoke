@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1380,
-    "concepts": 1360,
-    "observations": 1364,
-    "repos": 112,
-    "terms": 1350
+    "components": 1476,
+    "concepts": 1349,
+    "observations": 1353,
+    "repos": 111,
+    "terms": 1339
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
-    "1panel-dev/1panel",
     "99designs/gqlgen",
     "a-h/templ",
     "AdguardTeam/AdGuardHome",
@@ -59,6 +58,7 @@
     "gin-gonic/gin",
     "git-lfs/git-lfs",
     "go-delve/delve",
+    "go-gitea/gitea",
     "go-playground/validator",
     "go-sql-driver/mysql",
     "gofiber/fiber",
@@ -84,7 +84,6 @@
     "istio/istio",
     "jaegertracing/jaeger",
     "jesseduffield/lazygit",
-    "Jguer/yay",
     "joewalnes/websocketd",
     "junegunn/fzf",
     "k3s-io/k3s",

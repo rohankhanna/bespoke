@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1299,
-    "concepts": 874,
-    "observations": 875,
-    "repos": 79,
-    "terms": 865
+    "components": 1286,
+    "concepts": 862,
+    "observations": 863,
+    "repos": 78,
+    "terms": 853
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
@@ -30,7 +30,6 @@
     "ClementTsang/bottom",
     "dani-garcia/vaultwarden",
     "diem/diem",
-    "diesel-rs/diesel",
     "emilk/egui",
     "facebook/flow",
     "facebook/relay",

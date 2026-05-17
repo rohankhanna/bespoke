@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 62595,
-    "concepts": 10866,
-    "observations": 10901,
-    "repos": 1911,
-    "terms": 11163
+    "components": 62626,
+    "concepts": 10880,
+    "observations": 10915,
+    "repos": 1912,
+    "terms": 11182
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "06ketan/slideshot",
@@ -340,6 +340,7 @@
     "brandonroberts/analog-angular-start",
     "breferrari/obsidian-mind",
     "breferrari/shardmind",
+    "Brendonovich/MacroGraph",
     "brillout/vite-plugin-mdx",
     "browserless/browserless",
     "browserslist/browserslist-useragent",

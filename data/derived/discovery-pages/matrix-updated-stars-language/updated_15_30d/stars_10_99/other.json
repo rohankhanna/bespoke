@@ -3,7 +3,7 @@
     "components": 1713,
     "concepts": 1002,
     "observations": 1005,
-    "repos": 245,
+    "repos": 244,
     "terms": 1005
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "3rd/config",
     "AarshBatra/biteSizedAQ",
@@ -231,7 +231,6 @@
     "SciML/Static.jl",
     "ScoopInstaller/PHP",
     "searxng/searx-instances-uptime",
-    "sentientwave/automata",
     "servo/servo.org",
     "sferik/multi_json",
     "shingarov/MachineArithmetic",

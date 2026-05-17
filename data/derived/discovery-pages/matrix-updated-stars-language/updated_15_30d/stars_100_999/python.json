@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1946,
-    "concepts": 1806,
-    "observations": 1812,
-    "repos": 318,
-    "terms": 1813
+    "components": 1945,
+    "concepts": 1803,
+    "observations": 1809,
+    "repos": 316,
+    "terms": 1810
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aboutcode-org/scancode.io",
@@ -67,13 +67,13 @@
     "BBC-Esq/Faster-Whisper-Transcriber",
     "blepping/ComfyUI-bleh",
     "BlinkDL/Albatross",
+    "Blosc/python-blosc2",
     "bonfy/github-trending",
     "bootmortis/iran-hosted-domains",
     "boto/s3transfer",
     "bytedance/Valley",
     "C2SP/C2SP",
     "callowayproject/bump-my-version",
-    "camel-ai/loong",
     "capitalone/datacompy",
     "carla-simulator/scenario_runner",
     "casperdcl/git-fame",
@@ -179,7 +179,6 @@
     "ISEEKYAN/mbridge",
     "jezweb/claude-skills",
     "jolibrain/joliGEN",
-    "joonson/syncnet_python",
     "jquast/wcwidth",
     "json-schema-org/JSON-Schema-Test-Suite",
     "justinfx/fileseq",
@@ -214,7 +213,6 @@
     "mozilla-services/shavar-prod-lists",
     "mozilla/addons-server",
     "mujocolab/mjviser",
-    "multiformats/multicodec",
     "naver/kapture",
     "neggles/animatediff-cli",
     "neo4j-examples/movies-python-bolt",

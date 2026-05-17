@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1521,
-    "concepts": 838,
-    "observations": 840,
-    "repos": 118,
-    "terms": 830
+    "components": 1487,
+    "concepts": 827,
+    "observations": 829,
+    "repos": 116,
+    "terms": 821
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "aannoo/hcom",
     "aburch/simutrans",
@@ -19,6 +19,7 @@
     "AdguardTeam/HostlistsRegistry",
     "agentclientprotocol/python-sdk",
     "agentclientprotocol/rust-sdk",
+    "agentic-box/memora",
     "Agoric/agoric-sdk",
     "ai-dynamo/aiperf",
     "alltheplaces/alltheplaces",
@@ -29,15 +30,11 @@
     "atsushieno/ktmidi",
     "attackgoat/vk-graph",
     "benchflow-ai/benchflow",
-    "Blosc/c-blosc2",
-    "Blosc/python-blosc2",
-    "browserslist/caniuse-lite",
     "carbon-design-system/carbon-components-angular",
     "CEED/libCEED",
     "celtera/libremidi",
     "charmbracelet/x",
     "CHIP-SPV/chipStar",
-    "Chocolate4U/Iran-sing-box-rules",
     "clearml/clearml-agent",
     "cosmos/chain-registry",
     "CosmWasm/wasmd",
@@ -46,6 +43,7 @@
     "deepset-ai/haystack-integrations",
     "dennisdoomen/CSharpGuidelines",
     "dgraph-io/dgraph-benchmarks",
+    "dnaka91/obws",
     "dprint/dprint-plugin-typescript",
     "embroider-build/ember-auto-import",
     "energye/energy",
@@ -113,7 +111,6 @@
     "rust-lang/stdarch",
     "safe-fndn/safe-singleton-factory",
     "sass/sass-spec",
-    "sbt/sbt-jmh",
     "Shopify/tapioca",
     "sigsep/norbert",
     "stylelint/stylelint-config-recommended",
@@ -130,6 +127,7 @@
     "victorgarciaesgi/regle",
     "wevm/abitype",
     "xdebug/vscode-php-debug",
-    "yaling888/quirktiva"
+    "yaling888/quirktiva",
+    "yoshoku/llama_cpp.rb"
   ]
 }

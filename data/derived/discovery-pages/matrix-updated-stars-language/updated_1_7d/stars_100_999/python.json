@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 19,
-    "terms": 110
+    "components": 104,
+    "concepts": 95,
+    "observations": 95,
+    "repos": 17,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "adamchainz/blacken-docs",
-    "agentic-box/memora",
     "aristoteleo/PantheonOS",
     "bagofwords1/bagofwords",
-    "Comfy-Org/comfy-cli",
     "DanielLin94144/Full-Duplex-Bench",
     "databrickslabs/ucx",
     "djlint/djLint",

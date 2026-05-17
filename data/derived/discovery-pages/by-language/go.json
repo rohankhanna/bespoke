@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10215,
-    "concepts": 10051,
-    "observations": 10083,
-    "repos": 1714,
-    "terms": 10001
+    "components": 10224,
+    "concepts": 10063,
+    "observations": 10095,
+    "repos": 1715,
+    "terms": 10013
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -142,6 +142,7 @@
     "anacrolix/torrent",
     "Anaminus/rbxmk",
     "anchore/grype",
+    "andreykaipov/goobs",
     "andybalholm/brotli",
     "anexia/k8s-external-dns-webhook",
     "ankitpokhrel/jira-cli",

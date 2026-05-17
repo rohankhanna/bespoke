@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 461,
-    "concepts": 355,
-    "observations": 362,
-    "repos": 82,
-    "terms": 355
+    "components": 468,
+    "concepts": 368,
+    "observations": 376,
+    "repos": 84,
+    "terms": 368
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "a1phyr/assets_manager",
     "AchetaGames/Epic-Asset-Manager",
     "alex/rust-asn1",
+    "alexheretic/glyph-brush",
     "alloy-rs/core",
     "alloy-rs/examples",
     "ashvardanian/StringWars",
@@ -42,6 +43,7 @@
     "dtolnay/trybuild",
     "dtormoen/tsk-tsk",
     "emilk/egui_plot",
+    "esp-rs/esp-idf-hal",
     "esp-rs/esp-idf-svc",
     "esp-rs/rust",
     "facebookexperimental/allocative",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 552,
-    "concepts": 412,
-    "observations": 418,
-    "repos": 75,
-    "terms": 409
+    "components": 565,
+    "concepts": 416,
+    "observations": 422,
+    "repos": 76,
+    "terms": 413
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "alexpasmantier/television",
@@ -62,6 +62,7 @@
     "mitsuhiko/insta",
     "mitsuhiko/similar",
     "Mooncake-Labs/pg_mooncake",
+    "mozilla/sccache",
     "nabijaczleweli/cargo-update",
     "noib3/nvim-oxi",
     "not-fl3/macroquad",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 489,
-    "concepts": 354,
-    "observations": 356,
-    "repos": 64,
-    "terms": 351
+    "components": 486,
+    "concepts": 344,
+    "observations": 346,
+    "repos": 62,
+    "terms": 341
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "abusch/nu_plugin_semver",
@@ -26,7 +26,6 @@
     "bmwiedemann/openSUSE",
     "braelyn-ai/mob",
     "cbuijs/hagezi",
-    "Chocolate4U/Iran-clash-rules",
     "Cle2ment/CherryStudio_themes",
     "compiler-research/CppInterOp",
     "CuatroElixir/spear",
@@ -69,7 +68,6 @@
     "TEN-framework/portal",
     "tendermint/tm-db",
     "tinted-theming/tinted-xresources",
-    "tyrypyrking/egui-ash",
     "universal-ctags/ctags-nightly-build",
     "universal-ember/reactiveweb",
     "usdot-fhwa-stol/cdasim",

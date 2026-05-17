@@ -3,7 +3,7 @@
     "components": 1993,
     "concepts": 1824,
     "observations": 1830,
-    "repos": 808,
+    "repos": 810,
     "terms": 1818
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x7432/asm-ru",
@@ -571,6 +571,7 @@
     "microsoft/BotBuilder-V3",
     "microsoft/Phi3-Chat-WinUI3-Sample",
     "microsoft/Windows-AppConsult-Samples-UWP",
+    "MiloszKrajewski/K4os.Hash.xxHash",
     "MineDojo/TaskCreationUI",
     "MiniMax-AI/MiniMax-AI.github.io",
     "Minxyzgo/MiraiGoChess",
@@ -594,6 +595,7 @@
     "myownskyW7/CARAFE",
     "n-shift/crates.nvim",
     "nalimilan/FreqTables.jl",
+    "naudio/Vorbis",
     "necludov/jam",
     "nelsonic/nelsonic.github.io",
     "NickDarvey/whisper",

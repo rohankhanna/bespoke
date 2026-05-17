@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 15,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 5,
-    "terms": 34
+    "components": 12,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 4,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
-    "Chocolate4U/Iran-clash-rules",
     "gpac/testsuite",
     "leleliu008/ppkg",
     "PF4Public/gentoo-overlay",

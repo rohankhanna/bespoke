@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1088,
-    "concepts": 641,
-    "observations": 645,
-    "repos": 55,
-    "terms": 634
+    "components": 1128,
+    "concepts": 698,
+    "observations": 702,
+    "repos": 58,
+    "terms": 691
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "academic/awesome-datascience",
@@ -38,6 +38,7 @@
     "hiyouga/LlamaFactory",
     "huggingface/sentence-transformers",
     "HumanSignal/label-studio",
+    "isl-org/Open3D",
     "JetBrains/compose-multiplatform",
     "Kilo-Org/kilocode",
     "Koenkk/zigbee2mqtt",
@@ -50,7 +51,9 @@
     "mozilla-ai/llamafile",
     "neovim/nvim-lspconfig",
     "nushell/nushell",
+    "nvm-sh/nvm",
     "nwjs/nw.js",
+    "obsproject/obs-studio",
     "OpenHands/OpenHands",
     "PDFMathTranslate/PDFMathTranslate",
     "qubvel-org/segmentation_models.pytorch",

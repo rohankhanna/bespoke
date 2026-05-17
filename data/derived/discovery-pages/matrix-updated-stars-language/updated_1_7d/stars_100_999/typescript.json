@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 915,
-    "concepts": 156,
-    "observations": 156,
-    "repos": 20,
-    "terms": 154
+    "components": 924,
+    "concepts": 175,
+    "observations": 175,
+    "repos": 21,
+    "terms": 173
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "a2aproject/a2a-js",
     "apify/apify-cli",
     "apify/mcpc",
     "electron/packager",
+    "hexabot-ai/Hexabot",
     "Koenkk/zigbee-herdsman",
     "Luligu/matterbridge",
     "Luligu/matterbridge-shelly",

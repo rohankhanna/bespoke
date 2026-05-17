@@ -3,7 +3,7 @@
     "components": 685,
     "concepts": 454,
     "observations": 455,
-    "repos": 142,
+    "repos": 143,
     "terms": 452
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -148,6 +148,7 @@
     "Saalvage/AssimpNetter",
     "sbcgua/ajson",
     "SciML/sciml.ai",
+    "sentientwave/automata",
     "tarides/ocaml-eglot",
     "ungoogled-software/ungoogled-chromium-wiki",
     "usbarmory/usbarmory-debian-base_image",

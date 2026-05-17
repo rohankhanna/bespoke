@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2823,
-    "concepts": 3535,
-    "observations": 3543,
-    "repos": 638,
-    "terms": 3514
+    "components": 2847,
+    "concepts": 3571,
+    "observations": 3579,
+    "repos": 644,
+    "terms": 3550
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "abapGit/ADT_Frontend",
@@ -500,6 +500,12 @@
     "open-telemetry/opentelemetry-java",
     "OpenAPITools/openapi-generator",
     "openjdk/jdk",
+    "openjdk/jdk11u",
+    "openjdk/jdk11u-dev",
+    "openjdk/jdk17u",
+    "openjdk/jdk17u-dev",
+    "openjdk/jdk21u",
+    "openjdk/jdk21u-dev",
     "openjdk/jmh",
     "opensim-org/opensim-gui",
     "OpenSPG/openspg",

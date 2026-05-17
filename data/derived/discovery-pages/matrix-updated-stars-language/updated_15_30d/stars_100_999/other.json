@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3530,
-    "concepts": 2644,
-    "observations": 2647,
-    "repos": 438,
-    "terms": 2654
+    "components": 3535,
+    "concepts": 2649,
+    "observations": 2652,
+    "repos": 439,
+    "terms": 2660
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "a2aproject/a2a-dotnet",
@@ -394,6 +394,7 @@
     "saem/vscode-nim",
     "samtools/hts-specs",
     "sbt/sbt-ci-release",
+    "sbt/sbt-jmh",
     "sbt/sbt-pgp",
     "scalameta/nvim-metals",
     "SciML/LabelledArrays.jl",

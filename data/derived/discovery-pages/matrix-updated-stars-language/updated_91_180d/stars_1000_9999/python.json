@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 360,
-    "concepts": 696,
-    "observations": 697,
+    "components": 364,
+    "concepts": 713,
+    "observations": 714,
     "repos": 151,
-    "terms": 683
+    "terms": 703
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "AIDC-AI/Marco-o1",
@@ -88,6 +88,7 @@
     "KaiyangZhou/deep-person-reid",
     "KellerJordan/Muon",
     "KlingAIResearch/ReCamMaster",
+    "layumi/Person_reID_baseline_pytorch",
     "LeCAR-Lab/ASAP",
     "LTH14/JiT",
     "lucidrains/tab-transformer-pytorch",
@@ -148,7 +149,6 @@
     "Sygil-Dev/sygil-webui",
     "Teemu/pytest-sugar",
     "Tencent-Hunyuan/HunyuanVideo-Avatar",
-    "Tencent/MimicMotion",
     "Tencent/TFace",
     "TencentARC/SEED-Voken",
     "tensorflow/agents",

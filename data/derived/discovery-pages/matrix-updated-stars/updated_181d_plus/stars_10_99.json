@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11536,
-    "concepts": 6573,
-    "observations": 6588,
-    "repos": 3168,
-    "terms": 6532
+    "components": 11541,
+    "concepts": 6577,
+    "observations": 6592,
+    "repos": 3172,
+    "terms": 6534
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -2178,6 +2178,7 @@
     "mikolalysenko/robust-orientation",
     "mikolalysenko/typedarray-pool",
     "Mikxox/EnCodec_Trainer",
+    "MiloszKrajewski/K4os.Hash.xxHash",
     "MILVLG/xmchat",
     "MineDojo/TaskCreationUI",
     "MingjieChen/DYGANVC",
@@ -2272,6 +2273,7 @@
     "naman-ntc/fastcode",
     "nanotee/vimdoc-notes",
     "nasa-petal/PeTaL",
+    "naudio/Vorbis",
     "naver/dune",
     "NEAR-DevHub/neardevhub-contract",
     "near/abi",
@@ -2294,6 +2296,7 @@
     "ngoyal2707/Megatron-LM",
     "NickDarvey/whisper",
     "nickspring/charset-normalizer-rs",
+    "NicoG60/OscMackieControl",
     "NIFTI-Imaging/nifti_clib",
     "nikhilvyas/modded-nanogpt-SOAP",
     "nikitabobko/brew-install-path",
@@ -2639,6 +2642,7 @@
     "RUCAIBox/OlymMATH",
     "RUCAIBox/R1-Searcher-plus",
     "rueian/rueidis-benchmark",
+    "RuiVarela/Senos",
     "runtimeverification/k-editor-support",
     "runtimeverification/pyk",
     "rust-bitcoin/rust-bitcoind-json-rpc",
@@ -2946,7 +2950,7 @@
     "TREMA-UNH/trec-car-tools",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",

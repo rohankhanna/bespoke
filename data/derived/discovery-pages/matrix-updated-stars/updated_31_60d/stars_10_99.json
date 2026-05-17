@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4054,
-    "concepts": 2122,
-    "observations": 2130,
-    "repos": 573,
-    "terms": 2132
+    "components": 4080,
+    "concepts": 2138,
+    "observations": 2146,
+    "repos": 577,
+    "terms": 2148
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x-ximon/acario.nvim",
@@ -60,6 +60,7 @@
     "all-the-noises/eval-arena",
     "allenai/beaker-gantry",
     "allenporter/python-google-nest-sdm",
+    "allenreder/cliproxyapi-quota-inspector",
     "aloncarmel/supermeskill",
     "alvistack/ansible-role-crun",
     "am-kantox/md",
@@ -323,6 +324,7 @@
     "hipster-labs/jhipster-daily-builds",
     "HKU-BAL/Clair3-RNA",
     "holochain/kangaroo-electron",
+    "Homebrew/.github",
     "hpcaitech/public_assets",
     "hsliuustc0106/vllm-omni-skills",
     "huangguang1999/ccstatusline-zh",
@@ -461,6 +463,7 @@
     "notomo/vusted",
     "nousresearch/tinker-atropos",
     "npm/json-parse-even-better-errors",
+    "npm/types",
     "nrwl/nx-ai-agents-config",
     "Nsidorenco/neotest-vstest",
     "nvictus/pybbi",
@@ -531,6 +534,7 @@
     "SciML/sciml.ai",
     "Sec-ant/prettier-plugin-embed",
     "SeleniumHQ/selenium_manager_artifacts",
+    "sentientwave/automata",
     "seung-lab/cloud-files",
     "sgcarstrends/sgcarstrends",
     "shiweijiezero/R3L",

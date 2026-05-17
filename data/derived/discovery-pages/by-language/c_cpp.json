@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9417,
-    "concepts": 11255,
-    "observations": 11283,
-    "repos": 2335,
-    "terms": 11161
+    "components": 9454,
+    "concepts": 11310,
+    "observations": 11338,
+    "repos": 2342,
+    "terms": 11216
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0ldsk00l/nestopia",
@@ -604,6 +604,7 @@
     "devkitPro/libctru",
     "dfguan/purge_dups",
     "dfki-ric/pclomp",
+    "dgatwood/v8-libwebsocket-obs-websocket",
     "dgl/re-engine-RE2",
     "diffblue/cbmc",
     "diffscope/diffscope-project",
@@ -1464,6 +1465,7 @@
     "martinus/nanobench",
     "martinus/unordered_dense",
     "marton78/pffft",
+    "marzer/tomlplusplus",
     "MaskRay/ccls",
     "mathworks-robotics/mujoco-simulink-blockset",
     "MatsuriDayo/nekoray",
@@ -1635,6 +1637,7 @@
     "NGSolve/netgen",
     "nhielost/obs-midi-mg",
     "nianticlabs/spz",
+    "NicoG60/OscMackieControl",
     "NicoHood/HID",
     "niessner/Matterport",
     "NIFTI-Imaging/nifti_clib",
@@ -1712,6 +1715,7 @@
     "OAID/Tengine",
     "objectbox/objectbox-c",
     "objectbox/objectbox-sync-examples",
+    "obsproject/obs-studio",
     "obsproject/obs-websocket",
     "oceanbase/oceanbase",
     "ocornut/imgui",
@@ -1828,6 +1832,7 @@
     "pnggroup/libpng",
     "PointCloudLibrary/pcl",
     "politza/pdf-tools",
+    "PortAudio/portaudio",
     "PoseLib/PoseLib",
     "posva/catimg",
     "PotatoOfDoom/CyberFSR2",
@@ -1970,6 +1975,7 @@
     "ruby-numo/numo-narray",
     "ruby/prism",
     "rubyjs/therubyracer",
+    "RuiVarela/Senos",
     "rurban/smhasher",
     "rust-fuzz/libfuzzer",
     "rusty1s/pytorch_cluster",
@@ -2020,6 +2026,7 @@
     "sheredom/subprocess.h",
     "sheredom/ubench.h",
     "SHI-Labs/NATTEN",
+    "shriramters/chordcat",
     "shumatech/BOSSA",
     "simdjson/simdjson",
     "simdutf/simdutf",

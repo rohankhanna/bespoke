@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 65,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 26,
-    "terms": 38
+    "concepts": 27,
+    "observations": 27,
+    "repos": 25,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
-    "acevif/swiftformat-nix",
     "AdaCore/vss-extra",
     "arnaud-lb/php-rdkafka-doc",
     "b2agi/exist-is-charter",

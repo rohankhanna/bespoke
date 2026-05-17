@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 732,
-    "concepts": 114,
-    "observations": 114,
-    "repos": 18,
-    "terms": 114
+    "components": 683,
+    "concepts": 104,
+    "observations": 104,
+    "repos": 17,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "apollographql/apollo-tooling",
@@ -28,7 +28,6 @@
     "podman-desktop/podman-desktop",
     "shareAI-lab/Kode-Agent",
     "shareAI-lab/Kode-CLI",
-    "TanStack/form",
     "typescript-language-server/typescript-language-server",
     "vitejs/vite-plugin-react",
     "vuejs/devtools"

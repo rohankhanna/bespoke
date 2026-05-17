@@ -1,29 +1,33 @@
 {
   "counts": {
-    "components": 195,
-    "concepts": 104,
-    "observations": 104,
-    "repos": 14,
-    "terms": 104
+    "components": 262,
+    "concepts": 136,
+    "observations": 136,
+    "repos": 18,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "abaplint/transpiler",
     "AI-Hypercomputer/maxdiffusion",
-    "aws-cloudformation/cfn-lint-visual-studio-code",
+    "Ai00-X/ai00_server",
+    "astroautomata/SymbolicRegression.jl",
+    "Brendonovich/MacroGraph",
+    "browserslist/caniuse-lite",
+    "Comfy-Org/comfy-cli",
     "confluentinc/librdkafka",
     "fluent-vue/fluent-vue",
     "fsprojects/FSharp.Data.GraphQL",
-    "hexabot-ai/Hexabot",
     "huggingface/hf-mcp-server",
     "ipsilon/evmone",
     "matter-js/matter.js",
+    "openjdk/jdk11u",
     "scverse/rapids-singlecell",
     "servo/stylo",
     "TextArena/TextArena"

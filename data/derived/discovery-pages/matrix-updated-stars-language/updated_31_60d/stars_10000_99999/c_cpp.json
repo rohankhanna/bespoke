@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 180,
-    "concepts": 206,
-    "observations": 206,
-    "repos": 33,
-    "terms": 198
+    "components": 172,
+    "concepts": 197,
+    "observations": 197,
+    "repos": 32,
+    "terms": 189
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "ApolloAuto/apollo",
     "aristocratos/btop",
@@ -31,7 +31,6 @@
     "jedisct1/libsodium",
     "libevent/libevent",
     "libgit2/libgit2",
-    "lz4/lz4",
     "mawww/kakoune",
     "microsoft/wslg",
     "mobile-shell/mosh",

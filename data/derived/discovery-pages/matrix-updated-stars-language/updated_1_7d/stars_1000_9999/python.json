@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 161,
-    "concepts": 177,
-    "observations": 178,
-    "repos": 19,
-    "terms": 177
+    "components": 147,
+    "concepts": 168,
+    "observations": 169,
+    "repos": 18,
+    "terms": 168
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "aigc-apps/VideoX-Fun",
     "aws/serverless-application-model",
@@ -27,7 +27,6 @@
     "google-deepmind/dm-haiku",
     "google-deepmind/optax",
     "google/budoux",
-    "ogx-ai/ogx",
     "roboflow/maestro",
     "safetensors/safetensors",
     "voicepaw/so-vits-svc-fork",

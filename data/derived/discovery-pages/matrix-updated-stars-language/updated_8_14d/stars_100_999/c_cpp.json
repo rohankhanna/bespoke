@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 83,
-    "concepts": 86,
-    "observations": 86,
+    "components": 85,
+    "concepts": 89,
+    "observations": 89,
     "repos": 15,
-    "terms": 85
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "aburch/simutrans",
     "alsa-project/alsa-lib",
-    "Blosc/c-blosc2",
     "CEED/libCEED",
     "celtera/libremidi",
     "foldl/chatllm.cpp",
@@ -28,6 +27,7 @@
     "tree-sitter-grammars/tree-sitter-markdown",
     "triton-inference-server/core",
     "triton-inference-server/pytorch_backend",
-    "ucscGenomeBrowser/kent"
+    "ucscGenomeBrowser/kent",
+    "yoshoku/llama_cpp.rb"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 60,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 4,
-    "terms": 22
+    "components": 73,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 5,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
+    "aws-cloudformation/cfn-lint-visual-studio-code",
     "Calcium-Ion/new-api-key-tool",
     "digitalocean/openapi",
     "GDevelopApp/GDevelop-extensions",

@@ -3,8 +3,8 @@
     "components": 356,
     "concepts": 748,
     "observations": 748,
-    "repos": 202,
-    "terms": 742
+    "repos": 200,
+    "terms": 740
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "0k/shyaml",
     "23andMe/Yamale",
@@ -50,7 +50,6 @@
     "baaivision/Uni3D",
     "baal-org/baal",
     "behave/behave-django",
-    "behavior-robot-suite/brs-ctrl",
     "belambert/edit-distance",
     "bigcode-project/bigcodebench",
     "BoosterRobotics/booster_gym",
@@ -146,7 +145,6 @@
     "nrl-ai/llama-assistant",
     "NVlabs/GTRS",
     "NVlabs/PS3",
-    "OpenBMB/AppCopilot",
     "OpenBMB/infllmv2_cuda_impl",
     "OpenBMB/VisRAG",
     "OpenGVLab/GUI-Odyssey",

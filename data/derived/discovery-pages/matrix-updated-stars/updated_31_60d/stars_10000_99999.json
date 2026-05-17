@@ -1,18 +1,19 @@
 {
   "counts": {
-    "components": 3385,
-    "concepts": 1634,
-    "observations": 1640,
-    "repos": 235,
-    "terms": 1616
+    "components": 3479,
+    "concepts": 1680,
+    "observations": 1686,
+    "repos": 239,
+    "terms": 1662
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
+    "1panel-dev/1panel",
     "2noise/ChatTTS",
     "3b1b/videos",
     "666ghj/MiroFish",
@@ -45,6 +46,7 @@
     "be5invis/Sarasa-Gothic",
     "bellard/quickjs",
     "bvaughn/react-window",
+    "camel-ai/owl",
     "casey/just",
     "catppuccin/catppuccin",
     "charmbracelet/bubbletea",
@@ -70,6 +72,7 @@
     "deepseek-ai/FlashMLA",
     "delgan/loguru",
     "devicons/devicon",
+    "diesel-rs/diesel",
     "direnv/direnv",
     "dockur/windows",
     "dottxt-ai/outlines",
@@ -129,6 +132,7 @@
     "JamesNK/Newtonsoft.Json",
     "jashkenas/underscore",
     "jedisct1/libsodium",
+    "Jguer/yay",
     "josdejong/jsoneditor",
     "josdejong/mathjs",
     "jquery/jquery-ui",
@@ -151,7 +155,6 @@
     "libgit2/libgit2",
     "localstack/localstack",
     "lsd-rs/lsd",
-    "lz4/lz4",
     "magic-wormhole/magic-wormhole",
     "markdown-it/markdown-it",
     "mawww/kakoune",
@@ -237,6 +240,7 @@
     "tsl0922/ttyd",
     "typicode/husky",
     "typicode/json-server",
+    "vadimdemedes/ink",
     "vega/vega",
     "vercel-labs/agent-skills",
     "vercel/satori",

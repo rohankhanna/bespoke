@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4941,
-    "concepts": 1020,
-    "observations": 1022,
-    "repos": 157,
-    "terms": 1045
+    "components": 4890,
+    "concepts": 1010,
+    "observations": 1012,
+    "repos": 155,
+    "terms": 1035
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
@@ -45,13 +45,11 @@
     "cocos/cocos-docs",
     "connectrpc/examples-es",
     "cosmos/cosmjs",
-    "curiousdannii/parchment",
     "daeh/zotero-markdb-connect",
     "danielroe/beasties",
     "decentralized-identity/did-jwt",
     "decentralized-identity/did-resolver",
     "DeterminateSystems/nix-installer-action",
-    "devcontainers/ci",
     "docker/bake-action",
     "docker/setup-qemu-action",
     "dydxprotocol/v4-web",

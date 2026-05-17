@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 791,
-    "concepts": 1129,
-    "observations": 1129,
-    "repos": 169,
-    "terms": 1126
+    "components": 798,
+    "concepts": 1138,
+    "observations": 1138,
+    "repos": 171,
+    "terms": 1135
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "2U1/Qwen-VL-Series-Finetune",
@@ -30,6 +30,7 @@
     "bentoml/BentoML",
     "bpython/bpython",
     "butaixianran/Stable-Diffusion-Webui-Civitai-Helper",
+    "camel-ai/oasis",
     "camelot-dev/camelot",
     "caronc/apprise-api",
     "chaofengc/IQA-PyTorch",
@@ -55,6 +56,7 @@
     "dolfies/discord.py-self",
     "drivendataorg/cookiecutter-data-science",
     "EleutherAI/gpt-neox",
+    "EmergenceAI/Agent-E",
     "explosion/spacy-models",
     "facebookincubator/AITemplate",
     "facebookresearch/mmf",
@@ -70,7 +72,6 @@
     "graphql-python/gql",
     "guaguastandup/zotero-pdf2zh",
     "hiyouga/EasyR1",
-    "HKUDS/VideoRAG",
     "huggingface/finetrainers",
     "huggingface/nanotron",
     "huggingface/optimum",
@@ -115,6 +116,7 @@
     "microsoft/pylance-release",
     "microsoft/TaskWeaver",
     "microsoft/UFO",
+    "mido/mido",
     "miguelgrinberg/python-socketio",
     "miiton/Cica",
     "MiniMax-AI/MiniMax-MCP",

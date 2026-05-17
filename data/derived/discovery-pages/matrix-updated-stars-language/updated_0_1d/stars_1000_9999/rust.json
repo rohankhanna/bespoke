@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 21,
-    "observations": 22,
-    "repos": 2,
-    "terms": 21
+    "components": 71,
+    "concepts": 28,
+    "observations": 29,
+    "repos": 3,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "apache/datafusion-ballista",
-    "godot-rust/gdext"
+    "godot-rust/gdext",
+    "intentee/paddler"
   ]
 }

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10590,
-    "concepts": 7343,
-    "observations": 7370,
-    "repos": 2012,
-    "terms": 7312
+    "components": 10582,
+    "concepts": 7362,
+    "observations": 7389,
+    "repos": 2011,
+    "terms": 7333
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-17T05:48:14.453196+00:00",
+  "generated_at": "2026-05-17T08:38:41.992611+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0aids/imnodes",
@@ -294,7 +294,6 @@
     "beehive-lab/kfusion-tornadovm",
     "beehiveinnovations/pal-mcp-server",
     "behave/behave-django",
-    "behavior-robot-suite/brs-ctrl",
     "belambert/edit-distance",
     "benbalter/jekyll-include-cache",
     "bencodezen/vue-enterprise-boilerplate",
@@ -738,6 +737,7 @@
     "FFTAI/Wiki-GRx-Gym",
     "file-icons/atom",
     "filecoin-project/devgrants",
+    "filiph/linkcheck",
     "FiloSottile/homebrew-musl-cross",
     "FiloSottile/hpke",
     "Finance-LLMs/deep-research-python",
@@ -1160,6 +1160,7 @@
     "layr-labs/eigenlayer-middleware",
     "Layr-Labs/optimism",
     "layumi/3D-Magic-Mirror",
+    "layumi/Person_reID_baseline_pytorch",
     "lc044/wechatmsg",
     "ldayton/bash-oracle",
     "leaktk/gitleaks",
@@ -1453,7 +1454,6 @@
     "opea-project/docs",
     "open-mmlab/mmcv",
     "open-mmlab/mmengine",
-    "OpenBMB/AppCopilot",
     "OpenBMB/CPM.cu",
     "OpenBMB/infllmv2_cuda_impl",
     "OpenBMB/MiniCPM",
@@ -1706,6 +1706,7 @@
     "ShichenLiu/SoftRas",
     "Shopify/quantified",
     "Shopify/svg2vd",
+    "shriramters/chordcat",
     "signalfx/opentelemetry-demo",
     "sigp/xdelta3-rs",
     "sigstore/.github",
@@ -1807,7 +1808,6 @@
     "Tencent-Hunyuan/HunyuanDiT",
     "Tencent-Hunyuan/HunyuanVideo",
     "Tencent-Hunyuan/HunyuanVideo-Avatar",
-    "Tencent/MimicMotion",
     "Tencent/TFace",
     "Tencent/tquic",
     "TencentARC/SEED-Voken",
@@ -1960,7 +1960,6 @@
     "WICG/webcomponents",
     "wilkerlucio/pathom3",
     "willisma/SiT",
-    "wilsonzlin/minify-html",
     "windsonR/vite-plugin-virtual-html",
     "winstonjs/winston",
     "wintercg/fetch",
