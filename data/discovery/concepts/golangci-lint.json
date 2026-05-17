@@ -3530,11 +3530,17 @@
       "observed_at": "2026-05-17T07:06:43.204320+00:00",
       "source_file": ".github/workflows/golangci-lint.yml",
       "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T12:32:36.812189+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "vale-cli/vale"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "last_seen_at": "2026-05-17T12:32:36.812189+00:00",
   "lexical_providers": [
     "datamuse"
   ],

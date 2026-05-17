@@ -1723,11 +1723,29 @@
       "observed_at": "2026-05-17T07:06:43.204320+00:00",
       "source_file": ".github/workflows/build_docker.yml",
       "source_repo": "TEN-framework/ten-framework"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T12:32:36.812189+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T12:32:36.812189+00:00",
+      "source_file": ".github/workflows/docker_build.yaml",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T12:32:36.812189+00:00",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "geocompx/docker"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "last_seen_at": "2026-05-17T12:32:36.812189+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -398,7 +398,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T13:10:38.207161+00:00",
+  "fetched_at": "2026-05-17T12:51:02.344712+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -406,7 +406,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 284
+      "size": 1392
     },
     {
       "path": ".github/workflows/benchmark.yml",
@@ -450,8 +450,8 @@
     "full_name": "ultrajson/ultrajson",
     "html_url": "https://github.com/ultrajson/ultrajson",
     "language": "C++",
-    "pushed_at": "2026-05-15T14:43:27Z",
-    "stargazers_count": 4482,
+    "pushed_at": "2026-05-16T14:58:02Z",
+    "stargazers_count": 4483,
     "topics": [
       "c",
       "decoder",
@@ -461,7 +461,7 @@
       "ujson",
       "ultrajson"
     ],
-    "updated_at": "2026-05-15T14:43:32Z"
+    "updated_at": "2026-05-17T08:00:10Z"
   },
   "repo_links": [],
   "terms": [

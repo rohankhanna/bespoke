@@ -84,7 +84,7 @@
   "normalized_form": "create-executables",
   "observation_id": "7537b8d347892472",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-17T07:06:43.204320+00:00",
+  "observed_at": "2026-05-17T12:32:36.812189+00:00",
   "observed_text": "Create executables",
   "source_context_snippet": "Create executables",
   "source_file": ".github/workflows/build.yml",

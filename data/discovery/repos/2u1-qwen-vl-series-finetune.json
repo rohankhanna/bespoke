@@ -72,7 +72,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T00:52:09.117003+00:00",
+  "fetched_at": "2026-05-17T12:39:18.413374+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -93,7 +93,7 @@
     "html_url": "https://github.com/2U1/Qwen-VL-Series-Finetune",
     "language": "Python",
     "pushed_at": "2026-04-10T20:45:54Z",
-    "stargazers_count": 1864,
+    "stargazers_count": 1865,
     "topics": [
       "multimodal",
       "qwen2-5-vl",
@@ -104,7 +104,7 @@
       "vision-language-model",
       "vlm"
     ],
-    "updated_at": "2026-05-16T01:34:24Z"
+    "updated_at": "2026-05-17T04:08:18Z"
   },
   "repo_links": [
     {

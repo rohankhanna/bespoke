@@ -48330,6 +48330,9 @@
   "issue documentation checker": [
     "issue-documentation-checker"
   ],
+  "issue duplicate check via openhands cloud": [
+    "issue-duplicate-check-via-openhands-cloud"
+  ],
   "issue gate": [
     "issue-gate"
   ],

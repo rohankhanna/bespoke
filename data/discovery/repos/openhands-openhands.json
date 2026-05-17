@@ -93,22 +93,32 @@
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint-fix.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint-fix.yml"
+      "source_file": ".github/workflows/issue-duplicate-checker.yml"
     },
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint-fix.yml"
+      "source_file": ".github/workflows/issue-duplicate-checker.yml"
     },
     {
-      "component": "actions/setup-python@v5",
+      "component": "actions/setup-python@v6",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint-fix.yml"
+      "source_file": ".github/workflows/issue-duplicate-checker.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-duplicate-checker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-duplicate-checker.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-duplicate-checker.yml"
     }
   ],
   "edges": [
@@ -282,30 +292,30 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint-fix.yml",
+      "source_file": ".github/workflows/issue-duplicate-checker.yml",
       "source_repo": "OpenHands/OpenHands",
       "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint-fix.yml",
+      "source_file": ".github/workflows/issue-duplicate-checker.yml",
       "source_repo": "OpenHands/OpenHands",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-python@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint-fix.yml",
+      "source_file": ".github/workflows/issue-duplicate-checker.yml",
       "source_repo": "OpenHands/OpenHands",
-      "target": "actions/setup-python@v5",
+      "target": "actions/github-script@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/lint-fix.yml",
+      "source_file": ".github/workflows/issue-duplicate-checker.yml",
       "source_repo": "OpenHands/OpenHands",
-      "target": "Lint Fix",
+      "target": "Issue Duplicate Check via OpenHands Cloud",
       "target_type": "term"
     },
     {
@@ -337,7 +347,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-16T13:10:26.096281+00:00",
+  "fetched_at": "2026-05-17T12:50:56.323705+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -376,8 +386,8 @@
       "size": 2237
     },
     {
-      "path": ".github/workflows/lint-fix.yml",
-      "size": 3048
+      "path": ".github/workflows/issue-duplicate-checker.yml",
+      "size": 21996
     }
   ],
   "related_repositories": [],
@@ -389,8 +399,8 @@
     "full_name": "OpenHands/OpenHands",
     "html_url": "https://github.com/OpenHands/OpenHands",
     "language": "Python",
-    "pushed_at": "2026-05-16T02:53:56Z",
-    "stargazers_count": 73719,
+    "pushed_at": "2026-05-17T00:44:37Z",
+    "stargazers_count": 73839,
     "topics": [
       "agent",
       "artificial-intelligence",
@@ -402,7 +412,7 @@
       "llm",
       "openai"
     ],
-    "updated_at": "2026-05-16T12:53:07Z"
+    "updated_at": "2026-05-17T12:32:00Z"
   },
   "repo_links": [],
   "terms": [
@@ -449,10 +459,10 @@
       "term": "Docker"
     },
     {
-      "context_snippet": "Lint Fix",
+      "context_snippet": "Issue Duplicate Check via OpenHands Cloud",
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/lint-fix.yml",
-      "term": "Lint Fix"
+      "source_file": ".github/workflows/issue-duplicate-checker.yml",
+      "term": "Issue Duplicate Check via OpenHands Cloud"
     },
     {
       "context_snippet": "<a name=\"readme-top\"></a>",

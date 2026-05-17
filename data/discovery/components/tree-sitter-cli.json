@@ -1,7 +1,7 @@
 {
   "component": "tree-sitter-cli",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "last_seen_at": "2026-05-17T12:32:36.812189+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

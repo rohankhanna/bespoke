@@ -163,7 +163,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T08:09:07.738141+00:00",
+  "fetched_at": "2026-05-17T13:50:22.404471+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -192,12 +192,12 @@
     "html_url": "https://github.com/nvim-neotest/neotest",
     "language": "Lua",
     "pushed_at": "2026-05-01T07:18:33Z",
-    "stargazers_count": 3077,
+    "stargazers_count": 3078,
     "topics": [
       "lua",
       "neovim"
     ],
-    "updated_at": "2026-05-15T11:12:40Z"
+    "updated_at": "2026-05-17T10:03:16Z"
   },
   "repo_links": [
     {

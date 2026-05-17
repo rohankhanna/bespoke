@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue Duplicate Check via OpenHands Cloud"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenHands/OpenHands",
+      "status": "candidate-context",
+      "text": "\ud83d\ude4c OpenHands: AI-Driven Development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/OpenHands",
+      "status": "candidate-context",
+      "text": "Issue Duplicate Check via OpenHands Cloud"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/OpenHands",
+      "status": "candidate",
+      "text": "Issue Duplicate Check via OpenHands Cloud"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44875,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44320,
+      "status": "candidate",
+      "text": "controlled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44320,
+      "status": "candidate",
+      "text": "controlling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39214,
+      "status": "candidate",
+      "text": "stub"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38927,
+      "status": "candidate",
+      "text": "read"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue Duplicate Check via OpenHands Cloud",
+  "concept_id": "issue-duplicate-check-via-openhands-cloud",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T12:32:36.812189+00:00",
+      "source_file": ".github/workflows/issue-duplicate-checker.yml",
+      "source_repo": "OpenHands/OpenHands"
+    }
+  ],
+  "first_seen_at": "2026-05-17T12:32:36.812189+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-17T12:32:36.812189+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Duplicate Check via OpenHands Cloud",
+      "sense_id": "issue-duplicate-check-via-openhands-cloud#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

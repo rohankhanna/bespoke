@@ -1,7 +1,7 @@
 {
   "component": "lodash.values",
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
-  "last_seen_at": "2026-05-17T00:41:31.070805+00:00",
+  "last_seen_at": "2026-05-17T12:32:36.812189+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

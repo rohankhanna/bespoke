@@ -84,7 +84,7 @@
   "normalized_form": "pre-release",
   "observation_id": "76ded9e470ac10d4",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-17T07:06:43.204320+00:00",
+  "observed_at": "2026-05-17T12:32:36.812189+00:00",
   "observed_text": "Pre-Release",
   "source_context_snippet": "Pre-Release",
   "source_file": ".github/workflows/prerelease.yml",

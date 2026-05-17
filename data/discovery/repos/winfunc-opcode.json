@@ -1142,7 +1142,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T08:15:56.853662+00:00",
+  "fetched_at": "2026-05-17T13:54:26.523165+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1191,7 +1191,7 @@
     "html_url": "https://github.com/winfunc/opcode",
     "language": "TypeScript",
     "pushed_at": "2025-10-16T12:05:56Z",
-    "stargazers_count": 21859,
+    "stargazers_count": 21860,
     "topics": [
       "anthropic",
       "anthropic-claude",
@@ -1209,7 +1209,7 @@
       "rust",
       "tauri"
     ],
-    "updated_at": "2026-05-17T04:31:09Z"
+    "updated_at": "2026-05-17T11:01:34Z"
   },
   "repo_links": [
     {

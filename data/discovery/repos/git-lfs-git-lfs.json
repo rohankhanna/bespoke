@@ -242,7 +242,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T01:04:26.537172+00:00",
+  "fetched_at": "2026-05-17T12:47:01.126053+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -271,13 +271,13 @@
     "html_url": "https://github.com/git-lfs/git-lfs",
     "language": "Go",
     "pushed_at": "2026-05-01T05:23:41Z",
-    "stargazers_count": 14260,
+    "stargazers_count": 14261,
     "topics": [
       "git",
       "git-lfs",
       "go"
     ],
-    "updated_at": "2026-05-16T03:29:50Z"
+    "updated_at": "2026-05-17T12:13:43Z"
   },
   "repo_links": [],
   "terms": [

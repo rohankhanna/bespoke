@@ -351,11 +351,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T01:08:17.723611+00:00",
+  "fetched_at": "2026-05-17T12:49:32.777945+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 18861
+      "size": 18859
     },
     {
       "path": ".github/workflows/graphs.yml",
@@ -399,8 +399,8 @@
     "full_name": "upptime/upptime",
     "html_url": "https://github.com/upptime/upptime",
     "language": "Markdown",
-    "pushed_at": "2026-05-16T23:40:50Z",
-    "stargazers_count": 17029,
+    "pushed_at": "2026-05-17T03:55:09Z",
+    "stargazers_count": 17030,
     "topics": [
       "incidents-reports",
       "status",
@@ -409,7 +409,7 @@
       "uptime",
       "uptime-monitor"
     ],
-    "updated_at": "2026-05-16T23:40:54Z"
+    "updated_at": "2026-05-17T10:05:30Z"
   },
   "repo_links": [
     {

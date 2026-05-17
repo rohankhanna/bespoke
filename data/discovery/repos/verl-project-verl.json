@@ -531,11 +531,11 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-17T00:51:05.912109+00:00",
+  "fetched_at": "2026-05-17T12:38:46.318744+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 37279
+      "size": 37248
     },
     {
       "path": "pyproject.toml",
@@ -583,10 +583,10 @@
     "full_name": "verl-project/verl",
     "html_url": "https://github.com/verl-project/verl",
     "language": "Python",
-    "pushed_at": "2026-05-16T02:04:57Z",
-    "stargazers_count": 21336,
+    "pushed_at": "2026-05-17T09:26:31Z",
+    "stargazers_count": 21342,
     "topics": [],
-    "updated_at": "2026-05-16T19:47:31Z"
+    "updated_at": "2026-05-17T12:38:39Z"
   },
   "repo_links": [
     {

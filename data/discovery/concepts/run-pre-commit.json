@@ -436,11 +436,17 @@
       "observed_at": "2026-05-17T00:41:31.070805+00:00",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "Farama-Foundation/Minigrid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-17T12:32:36.812189+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "Farama-Foundation/Minigrid"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T00:41:31.070805+00:00",
+  "last_seen_at": "2026-05-17T12:32:36.812189+00:00",
   "lexical_providers": [
     "datamuse"
   ],

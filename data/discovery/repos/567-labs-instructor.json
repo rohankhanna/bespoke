@@ -344,7 +344,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T00:53:03.871832+00:00",
+  "fetched_at": "2026-05-17T12:39:50.810853+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -376,11 +376,11 @@
     },
     {
       "path": ".github/workflows/scheduled-release.yml",
-      "size": 10212
+      "size": 10283
     },
     {
       "path": ".github/workflows/test.yml",
-      "size": 11495
+      "size": 11553
     },
     {
       "path": ".github/workflows/test_docs.yml",
@@ -396,8 +396,8 @@
     "full_name": "567-labs/instructor",
     "html_url": "https://github.com/567-labs/instructor",
     "language": "Python",
-    "pushed_at": "2026-05-11T09:45:56Z",
-    "stargazers_count": 12965,
+    "pushed_at": "2026-05-17T05:33:59Z",
+    "stargazers_count": 12967,
     "topics": [
       "openai",
       "openai-function-calli",
@@ -406,7 +406,7 @@
       "python",
       "validation"
     ],
-    "updated_at": "2026-05-16T18:10:58Z"
+    "updated_at": "2026-05-17T11:12:19Z"
   },
   "repo_links": [
     {

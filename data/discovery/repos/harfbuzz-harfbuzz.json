@@ -420,7 +420,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T07:13:58.172964+00:00",
+  "fetched_at": "2026-05-17T13:39:45.412007+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -472,7 +472,7 @@
     "full_name": "harfbuzz/harfbuzz",
     "html_url": "https://github.com/harfbuzz/harfbuzz",
     "language": "C++",
-    "pushed_at": "2026-05-16T12:17:50Z",
+    "pushed_at": "2026-05-17T13:24:29Z",
     "stargazers_count": 5641,
     "topics": [
       "aat",
@@ -487,7 +487,7 @@
       "unicode",
       "variable-fonts"
     ],
-    "updated_at": "2026-05-16T12:17:54Z"
+    "updated_at": "2026-05-17T13:24:34Z"
   },
   "repo_links": [],
   "terms": [

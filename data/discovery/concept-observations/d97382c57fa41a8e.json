@@ -84,7 +84,7 @@
   "normalized_form": "bundle-size",
   "observation_id": "d97382c57fa41a8e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-17T07:06:43.204320+00:00",
+  "observed_at": "2026-05-17T12:32:36.812189+00:00",
   "observed_text": "Bundle Size",
   "source_context_snippet": "Bundle Size",
   "source_file": ".github/workflows/bundle-size.yml",

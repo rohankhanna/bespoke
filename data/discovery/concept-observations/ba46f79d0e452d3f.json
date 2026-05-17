@@ -87,7 +87,7 @@
   "normalized_form": "sync",
   "observation_id": "ba46f79d0e452d3f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-16T12:33:31.261420+00:00",
+  "observed_at": "2026-05-17T12:32:36.812189+00:00",
   "observed_text": "Sync",
   "source_context_snippet": "Sync",
   "source_file": ".github/workflows/sync.yml",

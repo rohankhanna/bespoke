@@ -84,7 +84,7 @@
   "normalized_form": "release-new-version",
   "observation_id": "ec2654df371d90bd",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-17T07:06:43.204320+00:00",
+  "observed_at": "2026-05-17T12:32:36.812189+00:00",
   "observed_text": "Release New Version",
   "source_context_snippet": "Release New Version",
   "source_file": ".github/workflows/release.yaml",

@@ -11,6 +11,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clayrisser/sphinx-markdown-parser",
+      "target": "readthedocs/recommonmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clayrisser/sphinx-markdown-parser",
       "target": "rtfd/recommonmark",
       "target_type": "repository"
     },
@@ -20,15 +27,8 @@
       "source_repo": "clayrisser/sphinx-markdown-parser",
       "target": "rtfd/commonmark-py",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clayrisser/sphinx-markdown-parser",
-      "target": "sgenoud/remarkdown",
-      "target_type": "repository"
     }
   ],
-  "generated_at": "2026-05-17T00:41:31.070805+00:00",
+  "generated_at": "2026-05-17T12:32:36.812189+00:00",
   "source_repo": "clayrisser/sphinx-markdown-parser"
 }
