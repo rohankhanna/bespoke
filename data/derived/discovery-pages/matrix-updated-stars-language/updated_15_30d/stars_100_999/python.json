@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1896,
-    "concepts": 1750,
-    "observations": 1756,
+    "components": 1904,
+    "concepts": 1755,
+    "observations": 1762,
     "repos": 305,
-    "terms": 1741
+    "terms": 1746
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aboutcode-org/scancode.io",
@@ -96,6 +96,7 @@
     "conda/conda-lock",
     "conda/grayskull",
     "confluentinc/confluent-kafka-python",
+    "cosmos/chain-registry",
     "CUNY-CL/wikipron",
     "CVHub520/X-AnyLabeling-Server",
     "daaain/claude-code-log",
@@ -139,7 +140,6 @@
     "gmberton/VPR-methods-evaluation",
     "GNOME/adwaita-icon-theme",
     "godotengine/godot-builds",
-    "google-deepmind/distrax",
     "google-deepmind/xmanager",
     "google/cameratrapai",
     "google/fiddle",

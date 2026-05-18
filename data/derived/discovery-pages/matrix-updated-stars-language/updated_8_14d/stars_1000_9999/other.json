@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 154,
-    "concepts": 219,
-    "observations": 219,
-    "repos": 24,
-    "terms": 218
+    "components": 148,
+    "concepts": 211,
+    "observations": 211,
+    "repos": 22,
+    "terms": 210
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "agenda/agenda",
     "badmojr/1Hosts",
     "cvc5/cvc5",
     "DandelionSprout/adfilt",
-    "dotnet/reactive",
     "easylist/easylist",
     "foundry-rs/forge-std",
     "googleapis/google-api-php-client",
@@ -28,7 +27,6 @@
     "jump-dev/JuMP.jl",
     "minad/consult",
     "mrcjkb/rustaceanvim",
-    "nvim-flutter/flutter-tools.nvim",
     "nvim-mini/mini.nvim",
     "opnsense/plugins",
     "ROCm/MIOpen",

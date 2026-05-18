@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1618,
-    "concepts": 862,
-    "observations": 864,
-    "repos": 299,
-    "terms": 858
+    "components": 1628,
+    "concepts": 864,
+    "observations": 866,
+    "repos": 300,
+    "terms": 860
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "219-design/qt-qml-project-template-with-ci",
@@ -45,6 +45,7 @@
     "AniAggarwal/ecad",
     "ankane/ml-stack",
     "Antibrumm/jackson-antpathfilter",
+    "Anush008/tokenizers",
     "apache/.github",
     "apache/incubator-seata-k8s",
     "apache/netbeans-antora-site",

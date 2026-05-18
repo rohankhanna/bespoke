@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-18T05:56:44.543192+00:00`
+Generated at: `2026-05-18T08:07:10.522070+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -14,7 +14,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 - repos: 3
 - terms: 39
-- components: 40
+- components: 42
 - concepts: 39
 - observations: 40
 
@@ -26,9 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2036 | 2026-05-18T06:40:45Z | Rust | Infrastructure/tooling | 13 | 27 | 13 | 14 |
 | [databendlabs/databend](https://github.com/databendlabs/databend) | 9287 | 2026-05-18T00:34:16Z | Rust | Infrastructure/tooling | 18 | 11 | 18 | 18 |
 | [godot-rust/gdext](https://github.com/godot-rust/gdext) | 4804 | 2026-05-17T19:52:46Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
-| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2035 | 2026-05-17T07:29:46Z | Rust | Infrastructure/tooling | 13 | 25 | 13 | 14 |
 
 ## Repos sorted by stars
 
@@ -36,4 +36,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [databendlabs/databend](https://github.com/databendlabs/databend) | 9287 | 2026-05-18T00:34:16Z | Rust | Infrastructure/tooling | 18 | 11 | 18 | 18 |
 | [godot-rust/gdext](https://github.com/godot-rust/gdext) | 4804 | 2026-05-17T19:52:46Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
-| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2035 | 2026-05-17T07:29:46Z | Rust | Infrastructure/tooling | 13 | 25 | 13 | 14 |
+| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2036 | 2026-05-18T06:40:45Z | Rust | Infrastructure/tooling | 13 | 27 | 13 | 14 |

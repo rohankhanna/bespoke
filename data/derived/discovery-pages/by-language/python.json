@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 17716,
-    "concepts": 26673,
-    "observations": 26724,
-    "repos": 6690,
-    "terms": 26457
+    "concepts": 26674,
+    "observations": 26725,
+    "repos": 6689,
+    "terms": 26468
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -2888,7 +2888,6 @@
     "hiyouga/LlamaFactory",
     "hiyouga/vllm",
     "hk-zh/spil",
-    "hkbu-hpml/covidnet3d",
     "hkchengrex/CascadePSP",
     "HKU-BAL/Clair",
     "HKU-BAL/Clair-Mosaic",

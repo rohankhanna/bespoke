@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 50,
+    "components": 48,
     "concepts": 49,
     "observations": 49,
     "repos": 27,
@@ -12,20 +12,20 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "bunburysniper/bleunova-ai-agent",
     "conda-forge/conda-forge-feedstock-ops",
     "danielrosehill/Claude-Agent-Relay-Plugin",
     "danielrosehill/Claude-AI-Video-Producer-Plugin",
+    "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
     "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
     "danielrosehill/Hypothesis-Council",
     "danielrosehill/LLM-Council-Decide",
     "danielrosehill/LLM-Council-Grounded",
     "danielrosehill/LLM-Council-Homehunter",
     "danielrosehill/Repo-Starters-And-Templates-Index",
-    "FEniCS/spack-fenics",
     "flagos-ai/verl-FL",
     "florisheedless915/grok-register",
     "hauntsaninja/mypy",

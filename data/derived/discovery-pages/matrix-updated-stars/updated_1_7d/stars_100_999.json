@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1348,
-    "concepts": 610,
-    "observations": 610,
-    "repos": 91,
-    "terms": 606
+    "components": 1303,
+    "concepts": 577,
+    "observations": 577,
+    "repos": 88,
+    "terms": 575
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "a2aproject/a2a-js",
@@ -28,14 +28,12 @@
     "aristoteleo/PantheonOS",
     "astroautomata/SymbolicRegression.jl",
     "atsushieno/aap-core",
-    "aws-cloudformation/cfn-lint-visual-studio-code",
     "bagofwords1/bagofwords",
     "bazel-contrib/rules_jvm_external",
     "bazel-contrib/rules_kotlin",
     "Brendonovich/MacroGraph",
     "browserslist/caniuse-lite",
     "Calcium-Ion/new-api-key-tool",
-    "ChristopherHX/runner.server",
     "clj-commons/rewrite-clj",
     "cloudfoundry/credhub",
     "CopyText/TextCopy",
@@ -43,7 +41,6 @@
     "danielrosehill/Claude-Code-Projects-Index",
     "databrickslabs/ucx",
     "devcontainers/devcontainers.github.io",
-    "digitalocean/openapi",
     "DISTRHO/DPF",
     "djlint/djLint",
     "dwyl/quotes",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 682,
-    "concepts": 477,
-    "observations": 483,
-    "repos": 85,
-    "terms": 474
+    "components": 700,
+    "concepts": 498,
+    "observations": 504,
+    "repos": 86,
+    "terms": 495
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "alexpasmantier/television",
@@ -40,6 +40,7 @@
     "emilk/eframe_template",
     "enigo-rs/enigo",
     "EricLBuehler/mistral.rs",
+    "eventual-inc/daft",
     "extism/extism",
     "eyre-rs/eyre",
     "ggez/ggez",

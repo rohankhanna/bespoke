@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3844,
-    "concepts": 737,
-    "observations": 738,
-    "repos": 99,
-    "terms": 732
+    "components": 3864,
+    "concepts": 742,
+    "observations": 743,
+    "repos": 100,
+    "terms": 737
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "alphagov/govuk-frontend",
@@ -29,6 +29,7 @@
     "BrowserWorks/waterfox",
     "brunch/brunch",
     "carbon-design-system/carbon",
+    "chaijs/chai",
     "coderaiser/cloudcmd",
     "conventional-changelog/standard-version",
     "DavidAnson/markdownlint",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 98,
-    "concepts": 52,
-    "observations": 52,
-    "repos": 22,
-    "terms": 52
+    "components": 108,
+    "concepts": 54,
+    "observations": 54,
+    "repos": 23,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "alloy-rs/op-alloy",
+    "Anush008/tokenizers",
     "assimelha/cmcp",
     "baerwang/openapi-rs",
     "chris-zen/coremidi",

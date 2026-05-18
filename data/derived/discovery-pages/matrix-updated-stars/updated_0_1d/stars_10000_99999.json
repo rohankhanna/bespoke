@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 761,
-    "concepts": 310,
-    "observations": 312,
-    "repos": 24,
-    "terms": 318
+    "components": 781,
+    "concepts": 360,
+    "observations": 362,
+    "repos": 28,
+    "terms": 366
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "apache/brpc",
     "deepspeedai/DeepSpeed",
@@ -25,10 +25,14 @@
     "Lightning-AI/pytorch-lightning",
     "lobehub/lobehub",
     "modelscope/ms-swift",
+    "mozilla-ai/llamafile",
+    "nwjs/nw.js",
     "oobabooga/textgen",
     "preactjs/preact",
     "pydantic/pydantic",
+    "pyg-team/pytorch_geometric",
     "QuantumNous/new-api",
+    "qubvel-org/segmentation_models.pytorch",
     "rust-lang/rust-analyzer",
     "ruvnet/ruflo",
     "swiftlang/swift",

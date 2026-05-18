@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4353,
-    "concepts": 2224,
-    "observations": 2232,
+    "components": 4343,
+    "concepts": 2222,
+    "observations": 2230,
     "repos": 606,
-    "terms": 2244
+    "terms": 2242
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x-ximon/acario.nvim",
@@ -84,7 +84,6 @@
     "ankurhanda/robot-assets",
     "antham/ghokin",
     "antonWetzel/prettypst",
-    "Anush008/tokenizers",
     "apache/camel-quarkus-examples",
     "apache/datasketches-hive",
     "apache/datasketches-pig",
@@ -348,6 +347,7 @@
     "hyparam/demos",
     "HyperionGray/trio-chrome-devtools-protocol",
     "i18next/i18next-icu",
+    "i18next/react-i18next-gitbook",
     "iamsashank09/llm-wiki-kit",
     "ibhagwan/ts-vimdoc.nvim",
     "IcyFish332/T3RL",

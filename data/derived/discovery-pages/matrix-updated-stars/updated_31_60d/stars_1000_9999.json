@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 9301,
-    "concepts": 5609,
-    "observations": 5634,
-    "repos": 900,
-    "terms": 5686
+    "components": 9378,
+    "concepts": 5644,
+    "observations": 5669,
+    "repos": 901,
+    "terms": 5721
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "1adrianb/face-alignment",
@@ -105,7 +105,6 @@
     "badgen/badgen.net",
     "bash-lsp/bash-language-server",
     "bazelbuild/bazelisk",
-    "bazelbuild/buildtools",
     "bbatsov/clojure-style-guide",
     "bbatsov/emacs-lisp-style-guide",
     "bbatsov/prelude",
@@ -272,6 +271,7 @@
     "espeak-ng/espeak-ng",
     "ethereum/devp2p",
     "ethers-io/ethers.js",
+    "eventual-inc/daft",
     "excon/excon",
     "explosion/spacy-models",
     "expr-lang/expr",
@@ -403,6 +403,7 @@
     "hyperium/h2",
     "hyperium/http",
     "hyperledger-solang/solang",
+    "HypoPG/hypopg",
     "idris-lang/Idris2",
     "igorshubovych/markdownlint-cli",
     "ijl/orjson",
@@ -546,7 +547,6 @@
     "mbailey/voicemode",
     "mcmilk/7-Zip-zstd",
     "meta-pytorch/attention-gym",
-    "meta-pytorch/tnt",
     "metosin/reitit",
     "mfussenegger/nvim-dap",
     "mfussenegger/nvim-lint",
@@ -692,6 +692,7 @@
     "Project-MONAI/tutorials",
     "projectfluent/fluent",
     "prometheus/blackbox_exporter",
+    "prophesier/diff-svc",
     "ptsochantaris/trailer",
     "pyannote/pyannote-audio",
     "PyCQA/bandit",
@@ -862,8 +863,8 @@
     "uuid-rs/uuid",
     "vadimdemedes/pastel",
     "Vchitect/VBench",
-    "vcr/vcr",
     "vectorclass/version2",
+    "vega/vega-lite",
     "vercel/next-learn",
     "VictoriaMetrics/fastcache",
     "vim-test/vim-test",

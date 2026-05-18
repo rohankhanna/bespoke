@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1933,
-    "concepts": 1854,
-    "observations": 1864,
-    "repos": 200,
-    "terms": 1856
+    "components": 1936,
+    "concepts": 1861,
+    "observations": 1871,
+    "repos": 201,
+    "terms": 1863
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "actions/actions-runner-controller",
@@ -91,6 +91,7 @@
     "dundee/gdu",
     "dunglas/mercure",
     "dunglas/vulcain",
+    "elastic/cloud-on-k8s",
     "elastic/go-elasticsearch",
     "elazarl/goproxy",
     "envoyproxy/ai-gateway",

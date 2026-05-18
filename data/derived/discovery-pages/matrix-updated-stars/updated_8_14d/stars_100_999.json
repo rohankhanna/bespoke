@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1326,
-    "concepts": 722,
-    "observations": 724,
-    "repos": 101,
-    "terms": 715
+    "components": 1313,
+    "concepts": 715,
+    "observations": 716,
+    "repos": 100,
+    "terms": 707
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "aannoo/hcom",
@@ -35,7 +35,6 @@
     "charmbracelet/x",
     "CHIP-SPV/chipStar",
     "clearml/clearml-agent",
-    "cosmos/chain-registry",
     "CosmWasm/wasmd",
     "cowprotocol/contracts",
     "dbkangaroo/kangaroo",

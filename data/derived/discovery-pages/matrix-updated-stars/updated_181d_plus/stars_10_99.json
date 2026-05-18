@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 11600,
-    "concepts": 6587,
-    "observations": 6602,
-    "repos": 3178,
-    "terms": 6544
+    "concepts": 6599,
+    "observations": 6614,
+    "repos": 3179,
+    "terms": 6558
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -2407,6 +2407,7 @@
     "OpenVisualCloud/Ad-Insertion-Sample",
     "openxrlab/xrmogen",
     "openxrlab/xrprimer",
+    "openxrlab/xrtailor",
     "operator-framework/java-operator-plugins",
     "optozorax/quad-storage",
     "orangeduck/100style-retarget",

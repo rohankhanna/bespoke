@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 234,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 7,
-    "terms": 51
+    "components": 186,
+    "concepts": 36,
+    "observations": 36,
+    "repos": 5,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
-    "callstack/react-native-builder-bob",
-    "chaijs/chai",
     "ghostery/ghostery-extension",
     "ipfs/ipfs-companion",
     "openwrt/luci",

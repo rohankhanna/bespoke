@@ -3,7 +3,7 @@
     "components": 739,
     "concepts": 481,
     "observations": 482,
-    "repos": 151,
+    "repos": 152,
     "terms": 480
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -92,6 +92,7 @@
     "HaxeFlixel/flixel-docs",
     "haxeui/haxeui-guides",
     "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+    "i18next/react-i18next-gitbook",
     "ibhagwan/ts-vimdoc.nvim",
     "IDAES/idaes-ext",
     "idris-community/idris2-nvim",

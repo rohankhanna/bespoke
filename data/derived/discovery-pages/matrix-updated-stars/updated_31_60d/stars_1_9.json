@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1853,
-    "concepts": 973,
-    "observations": 974,
-    "repos": 282,
-    "terms": 967
+    "components": 1857,
+    "concepts": 974,
+    "observations": 975,
+    "repos": 283,
+    "terms": 968
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "0xPolygonHermez/stark-recurser",
@@ -64,6 +64,7 @@
     "amir684/esp32c3-red-alert",
     "analyticsinmotion/wake-word",
     "ankane/dist-c",
+    "ankane/seaduck",
     "apache/dubbo-go-extensions",
     "apache/netbeans-antora",
     "aporthq/aport-spec",

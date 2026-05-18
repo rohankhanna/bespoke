@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9533,
-    "concepts": 1734,
-    "observations": 1738,
-    "repos": 206,
-    "terms": 1789
+    "components": 9562,
+    "concepts": 1731,
+    "observations": 1735,
+    "repos": 207,
+    "terms": 1786
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -92,6 +92,7 @@
     "fi3ework/vite-plugin-checker",
     "firebase/firebase-js-sdk",
     "firebase/quickstart-js",
+    "Floorp-Projects/Floorp",
     "florianbruniaux/claude-code-ultimate-guide",
     "fontsource/fontsource",
     "ggml-org/llama.vscode",
@@ -119,6 +120,7 @@
     "jest-community/jest-extended",
     "jshttp/cookie",
     "julia-vscode/julia-vscode",
+    "kelektiv/node-cron",
     "kepano/defuddle",
     "kulshekhar/ts-jest",
     "langchain-ai/deepagentsjs",
@@ -205,7 +207,6 @@
     "unjs/unhead",
     "Urigo/graphql-cli",
     "valtyr/prisma-kysely",
-    "vega/vega-lite",
     "vitejs/devtools",
     "VOICEVOX/voicevox",
     "VoltAgent/voltagent",

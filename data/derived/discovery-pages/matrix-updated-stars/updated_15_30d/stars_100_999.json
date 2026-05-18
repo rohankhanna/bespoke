@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 17571,
-    "concepts": 10040,
-    "observations": 10076,
-    "repos": 1654,
-    "terms": 10054
+    "components": 17567,
+    "concepts": 10032,
+    "observations": 10069,
+    "repos": 1650,
+    "terms": 10046
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0x676e67/wreq",
@@ -399,6 +399,7 @@
     "cortinico/kotlin-gradle-plugin-template",
     "cortinico/ktfmt-gradle",
     "Cosium/git-code-format-maven-plugin",
+    "cosmos/chain-registry",
     "cosmos/cosmjs",
     "cosmos/evm",
     "cosmos/gaia",
@@ -558,7 +559,6 @@
     "evaera/moonwave",
     "evenchange4/graphql.macro",
     "executablebooks/MyST-Parser",
-    "EzequielRamis/zimdjson",
     "Ezibenroc/PyRoaringBitMap",
     "f32c/f32c",
     "facebook/fboss",
@@ -648,7 +648,6 @@
     "godotengine/godot-builds",
     "gofiber/contrib",
     "gofrs/flock",
-    "google-deepmind/distrax",
     "google-deepmind/xmanager",
     "google-gemini/gemini-api-quickstart",
     "google/agents-cli",
@@ -748,7 +747,6 @@
     "higlass/higlass",
     "HKU-BAL/Clair3",
     "hku-mars/FAST-Calib",
-    "hkulekci/qdrant-php",
     "HOL-Theorem-Prover/HOL",
     "hshi74/toddlerbot",
     "html5lib/html5lib-tests",
@@ -825,7 +823,6 @@
     "jcefmaven/jcefbuild",
     "jcmvbkbc/gcc-xtensa",
     "jellyfin/jellyfin-ffmpeg",
-    "jeremymailen/kotlinter-gradle",
     "jest-community/jest-junit",
     "jeziellago/compose-markdown",
     "jezweb/claude-skills",
@@ -1085,7 +1082,6 @@
     "mit-ll-responsible-ai/hydra-zen",
     "mit-plv/fiat-crypto",
     "mitsuba-renderer/drjit",
-    "mitsuba-renderer/drjit-core",
     "mlc-ai/relax",
     "mmark-md/mmark",
     "mmkal/expect-type",

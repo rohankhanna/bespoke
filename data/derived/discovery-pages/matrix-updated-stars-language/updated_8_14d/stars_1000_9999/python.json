@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 66,
+    "components": 64,
     "concepts": 91,
     "observations": 94,
-    "repos": 12,
+    "repos": 11,
     "terms": 91
   },
   "facet_version": 1,
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
-    "apify/agent-skills",
     "arcee-ai/mergekit",
     "funstory-ai/BabelDOC",
     "ggozad/oterm",

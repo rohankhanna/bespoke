@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 270,
-    "concepts": 136,
-    "observations": 137,
-    "repos": 15,
-    "terms": 135
+    "components": 254,
+    "concepts": 115,
+    "observations": 116,
+    "repos": 14,
+    "terms": 115
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "Andersbakken/rtags",
     "ashvardanian/NumKong",
@@ -26,7 +26,6 @@
     "riscv-collab/riscv-gnu-toolchain",
     "skeeto/w64devkit",
     "sorbet/sorbet",
-    "stack-of-tasks/pinocchio",
     "swiftlang/swift-corelibs-foundation",
     "uxlfoundation/oneTBB"
   ]

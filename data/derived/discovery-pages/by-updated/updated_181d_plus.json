@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 46742,
-    "concepts": 32831,
-    "observations": 32887,
+    "concepts": 32843,
+    "observations": 32899,
     "repos": 12049,
-    "terms": 32406
+    "terms": 32428
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -5485,7 +5485,6 @@
     "hiyouga/vllm",
     "hjson/hjson-rust",
     "hk-zh/spil",
-    "hkbu-hpml/covidnet3d",
     "hknio/wasmcov",
     "HKU-BAL/Clair",
     "HKU-BAL/Clair-Mosaic",
@@ -8970,6 +8969,7 @@
     "openxrlab/xrnerf",
     "openxrlab/xrprimer",
     "openxrlab/xrsfm",
+    "openxrlab/xrtailor",
     "openxrlab/xrviewer",
     "operator-framework/java-operator-plugins",
     "oppiliappan/scientifica",

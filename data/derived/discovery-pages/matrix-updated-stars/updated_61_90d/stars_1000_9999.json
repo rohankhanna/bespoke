@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2256,
-    "concepts": 1553,
-    "observations": 1556,
-    "repos": 306,
-    "terms": 1539
+    "components": 2260,
+    "concepts": 1557,
+    "observations": 1560,
+    "repos": 308,
+    "terms": 1543
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -48,6 +48,7 @@
     "autofac/Autofac",
     "automazeio/ccpm",
     "bambinos/bambi",
+    "bazelbuild/buildtools",
     "bbatsov/crux",
     "bbatsov/projectile",
     "bblanchon/ArduinoJson",
@@ -302,6 +303,7 @@
     "unjs/unplugin",
     "v2fly/v2ray-examples",
     "varvet/pundit",
+    "vcr/vcr",
     "vercel/serve",
     "Vigemus/iron.nvim",
     "vkhorikov/CSharpFunctionalExtensions",

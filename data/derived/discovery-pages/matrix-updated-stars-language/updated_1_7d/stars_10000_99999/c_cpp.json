@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 58,
-    "observations": 58,
-    "repos": 5,
-    "terms": 58
+    "components": 51,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 4,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "argotorg/solidity",
     "ggml-org/ggml",
     "ggml-org/whisper.cpp",
-    "mozilla-ai/llamafile",
     "obsproject/obs-studio"
   ]
 }

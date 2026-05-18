@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1306,
-    "concepts": 729,
-    "observations": 733,
-    "repos": 62,
-    "terms": 720
+    "components": 1286,
+    "concepts": 679,
+    "observations": 683,
+    "repos": 58,
+    "terms": 667
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
@@ -47,20 +47,16 @@
     "meta-llama/llama-cookbook",
     "moby/moby",
     "modelcontextprotocol/typescript-sdk",
-    "mozilla-ai/llamafile",
     "mudler/LocalAI",
     "mui/material-ui",
     "neovim/nvim-lspconfig",
     "nushell/nushell",
     "NVIDIA-NeMo/NeMo",
     "nvm-sh/nvm",
-    "nwjs/nw.js",
     "obsproject/obs-studio",
     "OpenHands/OpenHands",
     "PDFMathTranslate/PDFMathTranslate",
     "psf/black",
-    "pyg-team/pytorch_geometric",
-    "qubvel-org/segmentation_models.pytorch",
     "quickwit-oss/tantivy",
     "realworld-apps/realworld",
     "redis/go-redis",

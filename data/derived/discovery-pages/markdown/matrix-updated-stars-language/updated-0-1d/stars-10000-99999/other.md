@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-05-18T05:56:44.543192+00:00`
+Generated at: `2026-05-18T08:07:10.522070+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,9 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [triton-lang/triton](https://github.com/triton-lang/triton) | 19207 | 2026-05-18T02:17:17Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [github-linguist/linguist](https://github.com/github-linguist/linguist) | 13471 | 2026-05-17T21:03:07Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [swiftlang/swift](https://github.com/swiftlang/swift) | 69991 | 2026-05-17T19:56:24Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [triton-lang/triton](https://github.com/triton-lang/triton) | 19205 | 2026-05-17T19:17:33Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [dense-analysis/ale](https://github.com/dense-analysis/ale) | 13990 | 2026-05-17T09:57:07Z | Other | CLI | 10 | 3 | 10 | 10 |
 
 ## Repos sorted by stars
@@ -36,6 +36,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [swiftlang/swift](https://github.com/swiftlang/swift) | 69991 | 2026-05-17T19:56:24Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [triton-lang/triton](https://github.com/triton-lang/triton) | 19205 | 2026-05-17T19:17:33Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
+| [triton-lang/triton](https://github.com/triton-lang/triton) | 19207 | 2026-05-18T02:17:17Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [dense-analysis/ale](https://github.com/dense-analysis/ale) | 13990 | 2026-05-17T09:57:07Z | Other | CLI | 10 | 3 | 10 | 10 |
 | [github-linguist/linguist](https://github.com/github-linguist/linguist) | 13471 | 2026-05-17T21:03:07Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |

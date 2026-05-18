@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars
 
-Generated at: `2026-05-18T05:56:44.543192+00:00`
+Generated at: `2026-05-18T08:07:10.522070+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,9 +11,9 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 133
+- repos: 134
 - terms: 231
-- components: 482
+- components: 484
 - concepts: 227
 - observations: 228
 
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [FEniCS/spack-fenics](https://github.com/FEniCS/spack-fenics) | 0 | 2026-04-18T06:51:20Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [foundry-rs/optimism](https://github.com/foundry-rs/optimism) | 0 | 2026-04-17T17:21:17Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [alexcrichton/cc-rs](https://github.com/alexcrichton/cc-rs) | 0 | 2026-04-17T15:43:01Z | Unknown | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [saidudz/chat-ai](https://github.com/saidudz/Chat-AI) | 0 | 2026-04-17T15:26:16Z | JavaScript | Infrastructure/tooling | 1 | 24 | 0 | 0 |
@@ -163,6 +164,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [FEniCS/spack-fenics](https://github.com/FEniCS/spack-fenics) | 0 | 2026-04-18T06:51:20Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [foundry-rs/optimism](https://github.com/foundry-rs/optimism) | 0 | 2026-04-17T17:21:17Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [alexcrichton/cc-rs](https://github.com/alexcrichton/cc-rs) | 0 | 2026-04-17T15:43:01Z | Unknown | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [saidudz/chat-ai](https://github.com/saidudz/Chat-AI) | 0 | 2026-04-17T15:26:16Z | JavaScript | Infrastructure/tooling | 1 | 24 | 0 | 0 |

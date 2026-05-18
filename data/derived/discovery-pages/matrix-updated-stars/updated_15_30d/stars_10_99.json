@@ -3,7 +3,7 @@
     "components": 8098,
     "concepts": 3768,
     "observations": 3786,
-    "repos": 846,
+    "repos": 845,
     "terms": 3790
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "0xPolygonHermez/pil2-proofman",
@@ -424,7 +424,6 @@
     "i18next/i18next-chained-backend",
     "i18next/i18next-multiload-backend-adapter",
     "i18next/i18next-resources-to-backend",
-    "i18next/react-i18next-gitbook",
     "ibm-telemetry/telemetry-js",
     "IBM/hello-carbon-vue3",
     "ibmruntimes/zoslib",

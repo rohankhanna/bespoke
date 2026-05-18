@@ -3,7 +3,7 @@
     "components": 1689,
     "concepts": 980,
     "observations": 983,
-    "repos": 235,
+    "repos": 234,
     "terms": 983
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "3rd/config",
     "AarshBatra/biteSizedAQ",
@@ -117,7 +117,6 @@
     "hexaeder/MCPRepl.jl",
     "Humans-of-Julia/Bibliography.jl",
     "Humans-of-Julia/BibParser.jl",
-    "i18next/react-i18next-gitbook",
     "IBM/hello-carbon-vue3",
     "ibmruntimes/zoslib",
     "inhere/kite",

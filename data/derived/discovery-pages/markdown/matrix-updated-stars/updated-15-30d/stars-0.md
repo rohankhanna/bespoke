@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars
 
-Generated at: `2026-05-18T05:56:44.543192+00:00`
+Generated at: `2026-05-18T08:07:10.522070+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -13,7 +13,7 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 - repos: 208
 - terms: 289
-- components: 683
+- components: 681
 - concepts: 261
 - observations: 261
 
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Claude-Hardware-ID-Annotation-Plugin](https://github.com/danielrosehill/Claude-Hardware-ID-Annotation-Plugin) | 0 | 2026-05-04T08:06:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Agent-Relay-Plugin](https://github.com/danielrosehill/Claude-Agent-Relay-Plugin) | 0 | 2026-05-03T18:35:38Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [kleisauke/glib](https://github.com/kleisauke/glib) | 0 | 2026-05-03T15:23:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Linux-AV-Manager-Plugin](https://github.com/danielrosehill/Claude-Linux-AV-Manager-Plugin) | 0 | 2026-05-03T11:06:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -232,12 +233,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [piqrypt/piqrypt-mcp-server](https://github.com/PiQrypt/piqrypt-mcp-server) | 0 | 2026-04-18T08:14:52Z | Python | Service/API | 0 | 3 | 0 | 0 |
 | [CHIP-SPV/H4I-HipFFT](https://github.com/CHIP-SPV/H4I-HipFFT) | 0 | 2026-04-18T08:08:39Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [CHIP-SPV/H4I-HipSOLVER](https://github.com/CHIP-SPV/H4I-HipSOLVER) | 0 | 2026-04-18T08:08:38Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
-| [FEniCS/spack-fenics](https://github.com/FEniCS/spack-fenics) | 0 | 2026-04-18T06:51:20Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Claude-Hardware-ID-Annotation-Plugin](https://github.com/danielrosehill/Claude-Hardware-ID-Annotation-Plugin) | 0 | 2026-05-04T08:06:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Agent-Relay-Plugin](https://github.com/danielrosehill/Claude-Agent-Relay-Plugin) | 0 | 2026-05-03T18:35:38Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [kleisauke/glib](https://github.com/kleisauke/glib) | 0 | 2026-05-03T15:23:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Linux-AV-Manager-Plugin](https://github.com/danielrosehill/Claude-Linux-AV-Manager-Plugin) | 0 | 2026-05-03T11:06:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -445,4 +446,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [piqrypt/piqrypt-mcp-server](https://github.com/PiQrypt/piqrypt-mcp-server) | 0 | 2026-04-18T08:14:52Z | Python | Service/API | 0 | 3 | 0 | 0 |
 | [CHIP-SPV/H4I-HipFFT](https://github.com/CHIP-SPV/H4I-HipFFT) | 0 | 2026-04-18T08:08:39Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [CHIP-SPV/H4I-HipSOLVER](https://github.com/CHIP-SPV/H4I-HipSOLVER) | 0 | 2026-04-18T08:08:38Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
-| [FEniCS/spack-fenics](https://github.com/FEniCS/spack-fenics) | 0 | 2026-04-18T06:51:20Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |

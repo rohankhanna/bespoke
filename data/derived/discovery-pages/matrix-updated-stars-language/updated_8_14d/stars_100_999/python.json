@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 99,
-    "concepts": 114,
-    "observations": 115,
-    "repos": 19,
-    "terms": 114
+    "components": 86,
+    "concepts": 107,
+    "observations": 107,
+    "repos": 18,
+    "terms": 107
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-18T05:56:44.543192+00:00",
+  "generated_at": "2026-05-18T08:07:10.522070+00:00",
   "repo_ids": [
     "agentclientprotocol/python-sdk",
     "agentic-box/memora",
     "ai-dynamo/aiperf",
     "benchflow-ai/benchflow",
     "clearml/clearml-agent",
-    "cosmos/chain-registry",
     "fishaudio/audio-preprocess",
     "fishaudio/fish-diffusion",
     "flagos-ai/FlagScale",
