@@ -922,6 +922,18 @@
       "source_repo": "DISTRHO/DPF",
       "status": "candidate-context",
       "text": "cmake"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eliasdaler/imgui-sfml-fetchcontent",
+      "status": "candidate-context",
+      "text": "Example of using CMake's FetchContent module and imGui-SFML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliasdaler/imgui-sfml-fetchcontent",
+      "status": "candidate-context",
+      "text": "(WIP) CMake FetchContent example"
     }
   ],
   "candidate_glosses": [
@@ -1380,6 +1392,12 @@
       "source_repo": "DISTRHO/DPF",
       "status": "candidate",
       "text": "cmake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliasdaler/imgui-sfml-fetchcontent",
+      "status": "candidate",
+      "text": "(WIP) CMake FetchContent example"
     }
   ],
   "candidate_related_terms": [
@@ -3355,11 +3373,23 @@
       "observed_at": "2026-05-17T18:28:54.888436+00:00",
       "source_file": null,
       "source_repo": "libsndfile/libsndfile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": null,
+      "source_repo": "eliasdaler/imgui-sfml-fetchcontent"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
+  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +33,24 @@
       "source_repo": "conan-io/cmake-conan",
       "status": "candidate-context",
       "text": "![Build Status](https://github.com/conan-io/cmake-conan/actions/workflows/cmake_conan.yml/badge.svg?branch=develop2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bincrafters/community",
+      "status": "candidate-context",
+      "text": "Central repository for issues and recipes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bincrafters/community",
+      "status": "candidate-context",
+      "text": "conan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bincrafters/community",
+      "status": "candidate-context",
+      "text": "![Bincrafters](docs/logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +65,18 @@
       "source_repo": "conan-io/cmake-conan",
       "status": "candidate",
       "text": "![Build Status](https://github.com/conan-io/cmake-conan/actions/workflows/cmake_conan.yml/badge.svg?branch=develop2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bincrafters/community",
+      "status": "candidate",
+      "text": "conan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bincrafters/community",
+      "status": "candidate",
+      "text": "![Bincrafters](docs/logo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +132,23 @@
       "observed_at": "2026-05-06T00:36:03.937537+00:00",
       "source_file": null,
       "source_repo": "conan-io/cmake-conan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": ".github/workflows/conan.yml",
+      "source_repo": "bincrafters/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": null,
+      "source_repo": "bincrafters/community"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T00:36:03.937537+00:00",
+  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -8948,6 +8948,9 @@
   "bincheck": [
     "bincheck"
   ],
+  "bincrafters": [
+    "bincrafters"
+  ],
   "bindata": [
     "bindata"
   ],
@@ -17296,6 +17299,9 @@
   ],
   "check linting": [
     "check-linting"
+  ],
+  "check locale": [
+    "check-locale"
   ],
   "check locale completeness": [
     "check-locale-completeness"
@@ -28241,6 +28247,9 @@
   "debian-bookworm": [
     "debian-bookworm"
   ],
+  "debian-build": [
+    "debian-build"
+  ],
   "debian-bullseye": [
     "debian-bullseye"
   ],
@@ -37084,6 +37093,9 @@
   ],
   "fetch-api": [
     "fetch-api"
+  ],
+  "fetchcontent": [
+    "fetchcontent"
   ],
   "fets": [
     "fets"
@@ -46652,6 +46664,9 @@
   ],
   "imgui-filebrowser": [
     "imgui-filebrowser"
+  ],
+  "imgui-sfml": [
+    "imgui-sfml"
   ],
   "imgui-wrapper": [
     "imgui-wrapper"
@@ -58515,6 +58530,9 @@
   "modern-browsers": [
     "modern-browsers"
   ],
+  "modern-cmake": [
+    "modern-cmake"
+  ],
   "modern-cpp": [
     "modern-cpp"
   ],
@@ -61193,6 +61211,9 @@
   ],
   "nightly dependency check": [
     "nightly-dependency-check"
+  ],
+  "nightly deploy": [
+    "nightly-deploy"
   ],
   "nightly deps check": [
     "nightly-deps-check"
@@ -67146,6 +67167,9 @@
   "playbooks": [
     "playbooks"
   ],
+  "playdate": [
+    "playdate"
+  ],
   "player": [
     "player"
   ],
@@ -72032,6 +72056,9 @@
   ],
   "push to main": [
     "push-to-main"
+  ],
+  "push to master": [
+    "push-to-master"
   ],
   "push-manifests": [
     "push-manifests"
@@ -78003,6 +78030,9 @@
   "rspatial": [
     "rspatial"
   ],
+  "rspc": [
+    "rspc"
+  ],
   "rspec": [
     "rspec"
   ],
@@ -79143,6 +79173,9 @@
   "rust-library": [
     "rust-library"
   ],
+  "rust-macro": [
+    "rust-macro"
+  ],
   "rust-next": [
     "rust-next"
   ],
@@ -79598,6 +79631,12 @@
   ],
   "save dprint plugin cache": [
     "save-dprint-plugin-cache"
+  ],
+  "save-files": [
+    "save-files"
+  ],
+  "savegame": [
+    "savegame"
   ],
   "savers": [
     "savers"
@@ -83717,6 +83756,9 @@
   "specs": [
     "specs"
   ],
+  "specta": [
+    "specta"
+  ],
   "spectral": [
     "spectral"
   ],
@@ -87460,6 +87502,9 @@
   ],
   "tauri-apps": [
     "tauri-apps"
+  ],
+  "tauri-specta": [
+    "tauri-specta"
   ],
   "tauri-v2": [
     "tauri-v2"

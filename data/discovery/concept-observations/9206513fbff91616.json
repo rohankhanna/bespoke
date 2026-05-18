@@ -84,7 +84,7 @@
   "normalized_form": "official-release",
   "observation_id": "9206513fbff91616",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-17T18:28:54.888436+00:00",
+  "observed_at": "2026-05-18T00:43:20.098172+00:00",
   "observed_text": "Official release",
   "source_context_snippet": "Official release",
   "source_file": ".github/workflows/official-release.yml",

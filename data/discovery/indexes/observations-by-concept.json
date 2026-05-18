@@ -9031,6 +9031,7 @@
     "db742f20d8cf43e8",
     "e34357266606aa14",
     "f041750c46f4be35",
+    "fe442c167b5d3e4f",
     "fe95862df953e761"
   ],
   "auto-merge-beta": [
@@ -13816,6 +13817,9 @@
   "bincheck": [
     "9b69c75ee12a674f"
   ],
+  "bincrafters": [
+    "acc049b440811471"
+  ],
   "bindata": [
     "2ec242dec6f62624"
   ],
@@ -16829,6 +16833,7 @@
     "addc59ef04ccd58d",
     "ade4a19ddda06773",
     "ae3dd9a9fff1c24f",
+    "aeb130df2ded75f8",
     "aeb89f14e9e8f74f",
     "aec19c2e63b1c870",
     "af5a836829e7129a",
@@ -19022,6 +19027,7 @@
     "8a15e6526b3bf593",
     "8bb342949cbfe77f",
     "adb4214fef115058",
+    "ae0864e8777666fd",
     "b09a3fc62a46b4ac",
     "bac014193ae1676a",
     "bbe0e93d9da11237",
@@ -20895,6 +20901,7 @@
     "02676f90fdf20711",
     "1617c2dc95c990fe",
     "169afb2a788e8db1",
+    "1d32b43e0ad70260",
     "6ca3dc322aee5432",
     "a59599452e0e4003",
     "a85636910d678a76",
@@ -26056,6 +26063,7 @@
     "16f3ea22eb24935e",
     "1e250e408097af06",
     "2d2bd2fc11a97c75",
+    "3af9a044497d2112",
     "3d982a07c5b97cad",
     "43dfec4c195053e8",
     "4680bc61f2752376",
@@ -26683,6 +26691,9 @@
   ],
   "check-linting": [
     "de595f377bafa0cb"
+  ],
+  "check-locale": [
+    "53e2c5aed7770b61"
   ],
   "check-locale-completeness": [
     "52c383d5dbad6ef6"
@@ -33234,6 +33245,7 @@
     "1c1a23d841adba3b",
     "1da13bb2ac62b0ba",
     "20dfac5f59d436e0",
+    "22ed3d5ec2dfaf00",
     "256e9f0b6691fecd",
     "278b6a1b4b7258bb",
     "3217870d440d8661",
@@ -37038,7 +37050,8 @@
     "d1cc92c002ffb40d",
     "d6d7e3e7ec3c58e2",
     "da55f06ea6e591e9",
-    "e90afdc9dc99b661"
+    "e90afdc9dc99b661",
+    "fa221cb06150f497"
   ],
   "community-bot": [
     "c4918ad51f6b5d26"
@@ -38423,7 +38436,9 @@
   ],
   "conan": [
     "44ac80372e32f5a0",
-    "46c5fedb8416fcad"
+    "46c5fedb8416fcad",
+    "8324a650484543ae",
+    "eff008d949b661c1"
   ],
   "conan-center": [
     "274e6c62d3fa8eb2"
@@ -45698,6 +45713,7 @@
     "696fcd3643d71145",
     "6ac2e1dbfbaa931c",
     "6b81061fe9004f13",
+    "6c6b05aad8eb0667",
     "6d5ba8c5fe5ce3d0",
     "70510892e6013533",
     "708a27e3929e9431",
@@ -46518,6 +46534,9 @@
   ],
   "debian-bookworm": [
     "873bd92a9e14c1d3"
+  ],
+  "debian-build": [
+    "400b43a43aaecd20"
   ],
   "debian-bullseye": [
     "da0c227cb4651e1a"
@@ -48346,6 +48365,7 @@
     "47827de1cd038bac"
   ],
   "demoscene": [
+    "37d31c169f0075bc",
     "5fedb2f6e632a469"
   ],
   "demultiplexing": [
@@ -50118,7 +50138,8 @@
     "10b6eaa5b7bbeec9"
   ],
   "deploy-web-demo": [
-    "ae6d5ab330a6bf55"
+    "ae6d5ab330a6bf55",
+    "b12cc361dfd4cc19"
   ],
   "deploy-web-github-pages": [
     "00d351a8f260c9ff"
@@ -52224,6 +52245,7 @@
     "16fc574ce393830b",
     "362446a2b60c9e43",
     "6c502afe2ac11b93",
+    "978846074bb5a993",
     "d127e2fba81acc3a",
     "d27ae15e82548378"
   ],
@@ -54209,6 +54231,7 @@
     "93eaa1e4d570167c",
     "9695ae5ce2deac25",
     "9b707daa0098467e",
+    "9efd2be93e8453ea",
     "9f12629717ea24b2",
     "a34a115a8cbaa3b2",
     "a3b029e6386353d3",
@@ -58111,6 +58134,7 @@
   ],
   "embedded": [
     "072195750a8172e2",
+    "12da340434c15696",
     "16df7025302e3b03",
     "1a0efdcf5160c897",
     "24f29a7d82f60305",
@@ -62003,6 +62027,9 @@
   "fetch-api": [
     "6e84b3d62673bf62",
     "ff51c8a2f342b869"
+  ],
+  "fetchcontent": [
+    "b406c3a3dead951a"
   ],
   "fets": [
     "6759abf032ca5eff"
@@ -65899,6 +65926,7 @@
     "e140e1882b6a6a9d"
   ],
   "gamedev": [
+    "0b4580cd11d29b6d",
     "0edbca312a12b38c",
     "13f2a29303879c4b",
     "184d1879139789b8",
@@ -73524,6 +73552,7 @@
     "7bd3f55c3ad52c56",
     "7c5c61105f7eb68d",
     "7ca37fd54ea03b66",
+    "7cb89297b6d7c235",
     "7db6b354a9d77ea8",
     "7e00609c241fef6a",
     "7e0774fc80399bed",
@@ -78937,6 +78966,7 @@
     "018dd72c6f7ba510",
     "314d32e0341c8d20",
     "44bd11e22b651e84",
+    "4fd2dd44ae3f58fc",
     "5337f1b34c5ccf0d",
     "7cae32b161a89467",
     "ab6c26b58e38d8c4",
@@ -78949,6 +78979,9 @@
   ],
   "imgui-filebrowser": [
     "668f42e6c587dfe9"
+  ],
+  "imgui-sfml": [
+    "2d819e7389a85882"
   ],
   "imgui-wrapper": [
     "5c39eee851cb069c"
@@ -84761,6 +84794,7 @@
     "7c43ae75cf96a407",
     "9223f9c46cb370c3",
     "923d9df4230f3c13",
+    "924d1c4ed885eaad",
     "a66f9998d761f0cb",
     "b59163291384d6d8",
     "c56f25543629f729",
@@ -100019,6 +100053,9 @@
   "modern-browsers": [
     "a1110c1cc1791299"
   ],
+  "modern-cmake": [
+    "a97124b69acf2324"
+  ],
   "modern-cpp": [
     "09284152aa18f6be",
     "5c1df3f9e6a985fc",
@@ -104803,6 +104840,9 @@
   "nightly-dependency-check": [
     "2ac72b3b5259de87"
   ],
+  "nightly-deploy": [
+    "659bdb4aeca51e30"
+  ],
   "nightly-deps-check": [
     "0f3619c2ee0d1d57",
     "950b65ce6d5acda9"
@@ -106698,6 +106738,7 @@
     "9d47ca9c7bab41b5"
   ],
   "nosql": [
+    "06663586bd5ed1ef",
     "08810f27cf9839e2",
     "271412780132bf0e",
     "321d18848dcf8c4b",
@@ -108255,7 +108296,8 @@
     "36a98fb7b7003a2c",
     "87c2efe50e57b67d",
     "8baca0098dea235d",
-    "b8da5cf38ae527c3"
+    "b8da5cf38ae527c3",
+    "e02581ac03e8ed6f"
   ],
   "obs-studio-plugin": [
     "8525d927bdeb8fe0",
@@ -115033,6 +115075,9 @@
   ],
   "playbooks": [
     "5d2bc3808b4ae04b"
+  ],
+  "playdate": [
+    "afa21fa7cf7a969c"
   ],
   "player": [
     "09fa50664b543636",
@@ -122753,6 +122798,7 @@
     "350df3d8cfd847b3",
     "37ba9ad257d548dd",
     "3aa7d7f2b9f73b4b",
+    "3e7b66e5366dca6b",
     "425825dc094f11ca",
     "456b4e10d6f4fbc9",
     "463799dc2d7c8486",
@@ -123459,6 +123505,9 @@
     "b9dfef122e3d4b88",
     "ea8b244af6bc04b6",
     "ebcbcd689e7ba6ff"
+  ],
+  "push-to-master": [
+    "6e83d43eccb8f9b2"
   ],
   "pusher": [
     "6373cead5f4576fc"
@@ -128180,6 +128229,7 @@
     "82ba44ad7ab0e77d",
     "bebe70d80fa7766d",
     "c005f556f714925d",
+    "e6c04505566bc868",
     "f743ab5043f7f4fc"
   ],
   "reflection-library": [
@@ -134974,6 +135024,9 @@
   "rspatial": [
     "00b6216ea7fbfc77"
   ],
+  "rspc": [
+    "062ab763e81f5981"
+  ],
   "rspec": [
     "4be56e3cb49a3915",
     "6751a058b1589a5e",
@@ -136667,6 +136720,7 @@
     "0069e5c6484cdc83",
     "0159a186e8e5862b",
     "02d9b9d1d702a2fe",
+    "02dabe08dc2baaa2",
     "0386926eb22e2d0b",
     "03c1756fcae10566",
     "03fc0f747f6eb081",
@@ -137641,6 +137695,9 @@
     "fccc6feff46eadbd",
     "fe601470212852f8"
   ],
+  "rust-macro": [
+    "3746efcdb296e84e"
+  ],
   "rust-minimal": [
     "3783a59e384d33ee"
   ],
@@ -138313,6 +138370,12 @@
   ],
   "save-dprint-plugin-cache": [
     "6616d07edea2ef21"
+  ],
+  "save-files": [
+    "9ddbc6ffadc09898"
+  ],
+  "savegame": [
+    "ce24134bbe18217e"
   ],
   "savers": [
     "47dc58c5018fb041"
@@ -141819,6 +141882,7 @@
   ],
   "sfml": [
     "4188d2197075f252",
+    "acf774d3f0d34d05",
     "b8a8b51610fb6751",
     "f2dd24b307400e3b"
   ],
@@ -145202,6 +145266,9 @@
     "ed0e042ec0e0293a",
     "f15c4e82fcb6042b",
     "f97a740f55a16489"
+  ],
+  "specta": [
+    "7c13bb8c48ba34c0"
   ],
   "spectral": [
     "1d15a00b721d921b",
@@ -151509,6 +151576,9 @@
   ],
   "tauri-apps": [
     "d737f91e35835384"
+  ],
+  "tauri-specta": [
+    "14f81e578c3348f3"
   ],
   "tauri-v2": [
     "620e58236ea320f8"
@@ -160847,6 +160917,7 @@
   ],
   "typesafe": [
     "8c773dcc021f0ad5",
+    "9db88fcc5abdeba0",
     "e31a47824f81da58"
   ],
   "typesafe-config": [
@@ -162212,6 +162283,7 @@
     "5e1c48a1b0d2c0f3",
     "630b33855ace3ebc",
     "6e2158c44ba5f03c",
+    "879dd99dcf22cbd7",
     "8fd76210bb4f59fd",
     "a9fb516f1aa810c7",
     "ab5c11560d308a4f",
@@ -162244,6 +162316,7 @@
     "25bbfc1574aebeb1",
     "2dcb59af6dd5350e",
     "3824c794a77af72a",
+    "706a2facac4f6558",
     "a7aeb8cad0f222ea",
     "fd117705e4e4d8d7",
     "fd420862090759c8"

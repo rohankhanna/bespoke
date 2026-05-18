@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Deploy web demo"
+    "Deploy web demo",
+    "Deploy Web Demo"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "emilk/egui",
       "status": "candidate-context",
       "text": "Deploy web demo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aras-p/demo-pd-cranktheworld",
+      "status": "candidate-context",
+      "text": "A real-time rendering demo for Playdate console"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aras-p/demo-pd-cranktheworld",
+      "status": "candidate-context",
+      "text": "Deploy Web Demo"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "emilk/egui",
       "status": "candidate",
       "text": "Deploy web demo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aras-p/demo-pd-cranktheworld",
+      "status": "candidate",
+      "text": "Deploy Web Demo"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/deploy_web_demo.yml",
       "source_repo": "emilk/egui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "aras-p/demo-pd-cranktheworld"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
   "lexical_providers": [
     "datamuse"
   ],

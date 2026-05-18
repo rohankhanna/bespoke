@@ -1,7 +1,7 @@
 {
   "component": "goreleaser/goreleaser-action@1a80836c5c9d9e5755a25cb59ec6f45a3b5f41a8",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-05-17T12:32:36.812189+00:00",
+  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

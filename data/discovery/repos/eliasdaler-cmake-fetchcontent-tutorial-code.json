@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-18T01:06:17.565658+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 552
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is the code for the \"Using CMake and managing dependencies\" article from my blog",
+    "fork": false,
+    "full_name": "eliasdaler/cmake-fetchcontent-tutorial-code",
+    "html_url": "https://github.com/eliasdaler/cmake-fetchcontent-tutorial-code",
+    "language": "C++",
+    "pushed_at": "2023-02-15T03:19:40Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2026-04-12T13:43:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

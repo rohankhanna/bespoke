@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A real-time rendering demo for Playdate console"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy Web Demo"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy Web Demo"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21129,
+      "status": "candidate",
+      "text": "wire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21108,
+      "status": "candidate",
+      "text": "list"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21108,
+      "status": "candidate",
+      "text": "proofed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21108,
+      "status": "candidate",
+      "text": "proofs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21108,
+      "status": "candidate",
+      "text": "speak"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Web Demo",
+      "sense_id": "deploy-web-demo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-web-demo",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-web-demo",
+  "observation_id": "b12cc361dfd4cc19",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-18T00:43:20.098172+00:00",
+  "observed_text": "Deploy Web Demo",
+  "source_context_snippet": "Deploy Web Demo",
+  "source_file": ".github/workflows/deploy.yml",
+  "source_repo": "aras-p/demo-pd-cranktheworld",
+  "source_repo_description": "A real-time rendering demo for Playdate console"
+}

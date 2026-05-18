@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliasdaler/imgui-sfml-fetchcontent",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliasdaler/imgui-sfml-fetchcontent",
+      "target": "fetchcontent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliasdaler/imgui-sfml-fetchcontent",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliasdaler/imgui-sfml-fetchcontent",
+      "target": "imgui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliasdaler/imgui-sfml-fetchcontent",
+      "target": "imgui-sfml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliasdaler/imgui-sfml-fetchcontent",
+      "target": "modern-cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliasdaler/imgui-sfml-fetchcontent",
+      "target": "sfml",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-18T00:43:20.098172+00:00",
+  "source_repo": "eliasdaler/imgui-sfml-fetchcontent"
+}

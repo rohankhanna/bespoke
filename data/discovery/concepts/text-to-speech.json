@@ -1786,11 +1786,23 @@
       "observed_at": "2026-05-17T18:28:54.888436+00:00",
       "source_file": null,
       "source_repo": "lifeiteng/vall-e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": null,
+      "source_repo": "Adibian/ResGrad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": null,
+      "source_repo": "collabora/WhisperLive"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
+  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
   "lexical_providers": [
     "datamuse"
   ],

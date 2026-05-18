@@ -714,6 +714,18 @@
       "source_repo": "nhielost/obs-midi-mg",
       "status": "candidate-context",
       "text": "Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "status": "candidate-context",
+      "text": "An automation tool for OBS Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "status": "candidate-context",
+      "text": "Pull Request"
     }
   ],
   "candidate_glosses": [
@@ -1062,6 +1074,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nhielost/obs-midi-mg",
+      "status": "candidate",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WarmUpTill/SceneSwitcher",
       "status": "candidate",
       "text": "Pull Request"
     }
@@ -3237,11 +3255,23 @@
       "observed_at": "2026-05-17T18:28:54.888436+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "seancorfield/honeysql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "wevm/abitype"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": ".github/workflows/pr-pull.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
+  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
   "lexical_providers": [
     "datamuse"
   ],

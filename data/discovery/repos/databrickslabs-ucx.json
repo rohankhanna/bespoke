@@ -306,7 +306,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T13:48:58.176952+00:00",
+  "fetched_at": "2026-05-18T00:47:12.962076+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -351,14 +351,14 @@
     "html_url": "https://github.com/databrickslabs/ucx",
     "language": "Python",
     "pushed_at": "2026-05-11T09:01:07Z",
-    "stargazers_count": 307,
+    "stargazers_count": 308,
     "topics": [
       "databricks",
       "databricks-cli-installable",
       "databricks-governance",
       "unity-catalog"
     ],
-    "updated_at": "2026-05-07T10:02:03Z"
+    "updated_at": "2026-05-17T15:13:04Z"
   },
   "repo_links": [
     {

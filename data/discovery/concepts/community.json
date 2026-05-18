@@ -178,6 +178,18 @@
       "source_repo": "deepset-ai/haystack-integrations",
       "status": "candidate-context",
       "text": "This repository is an index of Haystack integrations that can be used with a Haystack Pipeline or Agent."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bincrafters/community",
+      "status": "candidate-context",
+      "text": "Central repository for issues and recipes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bincrafters/community",
+      "status": "candidate-context",
+      "text": "![Bincrafters](docs/logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -264,6 +276,12 @@
       "source_repo": "deepset-ai/haystack-integrations",
       "status": "candidate",
       "text": "This repository is an index of Haystack integrations that can be used with a Haystack Pipeline or Agent."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bincrafters/community",
+      "status": "candidate",
+      "text": "![Bincrafters](docs/logo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -655,11 +673,17 @@
       "observed_at": "2026-05-17T18:28:54.888436+00:00",
       "source_file": null,
       "source_repo": "robotology/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": null,
+      "source_repo": "bincrafters/community"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
+  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
   "lexical_providers": [
     "datamuse"
   ],

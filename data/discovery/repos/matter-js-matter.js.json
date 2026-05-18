@@ -658,7 +658,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T18:34:00.274819+00:00",
+  "fetched_at": "2026-05-18T01:07:01.275643+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -666,7 +666,7 @@
     },
     {
       "path": "package.json",
-      "size": 4762
+      "size": 4929
     },
     {
       "path": ".github/workflows/auto-approve-release.yml",
@@ -710,7 +710,7 @@
     "full_name": "matter-js/matter.js",
     "html_url": "https://github.com/matter-js/matter.js",
     "language": "TypeScript",
-    "pushed_at": "2026-05-17T16:24:06Z",
+    "pushed_at": "2026-05-17T21:13:07Z",
     "stargazers_count": 796,
     "topics": [
       "connectedthings",
@@ -719,7 +719,7 @@
       "matterprotocol",
       "smarthome"
     ],
-    "updated_at": "2026-05-17T13:57:00Z"
+    "updated_at": "2026-05-17T21:12:56Z"
   },
   "repo_links": [
     {

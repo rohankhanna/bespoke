@@ -1,7 +1,7 @@
 {
   "component": "netlify-lambda",
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
-  "last_seen_at": "2026-05-17T12:32:36.812189+00:00",
+  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

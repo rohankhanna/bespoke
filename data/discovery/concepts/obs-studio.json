@@ -79,6 +79,18 @@
       "source_repo": "Brendonovich/MacroGraph",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "status": "candidate-context",
+      "text": "An automation tool for OBS Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "status": "candidate-context",
+      "text": "An automation plugin for OBS Studio."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "Brendonovich/MacroGraph",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "status": "candidate",
+      "text": "An automation plugin for OBS Studio."
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-05-17T07:06:43.204320+00:00",
       "source_file": null,
       "source_repo": "Brendonovich/MacroGraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": null,
+      "source_repo": "WarmUpTill/SceneSwitcher"
     }
   ],
   "first_seen_at": "2026-05-16T06:55:35.086614+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -415,6 +415,18 @@
       "source_repo": "tecbot/gorocksdb",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/tecbot/gorocksdb.svg)](https://travis-ci.org/tecbot/gorocksdb) [![GoDoc](https://godoc.org/github.com/tecbot/gorocksdb?status.svg)](http://godoc.org/github.com/tecbot/gorocksdb)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rejemy/UltraLiteDB",
+      "status": "candidate-context",
+      "text": "A bare-bones C# .NET Key-value Store in a single database file for Unity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rejemy/UltraLiteDB",
+      "status": "candidate-context",
+      "text": "UltraLiteDB is a trimmed down version of LiteDB 4.0 (http://www.litedb.org). Anything that needs Linq or dynamic code generation has been removed to make it work in Unity's IL2CPP AoT runtime environment. Some additional features have been removed to reduce code footprint. What'\u2026"
     }
   ],
   "candidate_glosses": [
@@ -621,6 +633,12 @@
       "source_repo": "tecbot/gorocksdb",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/tecbot/gorocksdb.svg)](https://travis-ci.org/tecbot/gorocksdb) [![GoDoc](https://godoc.org/github.com/tecbot/gorocksdb?status.svg)](http://godoc.org/github.com/tecbot/gorocksdb)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rejemy/UltraLiteDB",
+      "status": "candidate",
+      "text": "UltraLiteDB is a trimmed down version of LiteDB 4.0 (http://www.litedb.org). Anything that needs Linq or dynamic code generation has been removed to make it work in Unity's IL2CPP AoT runtime environment. Some additional features have been removed to reduce code footprint. What'\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1489,11 +1507,35 @@
       "observed_at": "2026-05-17T18:28:54.888436+00:00",
       "source_file": null,
       "source_repo": "littlefs-project/ramrsbd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": null,
+      "source_repo": "rejemy/UltraLiteDB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": null,
+      "source_repo": "littlefs-project/littlefs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": null,
+      "source_repo": "littlefs-project/ramrsbd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": null,
+      "source_repo": "littlefs-project/ramcrc32bd"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
+  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
   "lexical_providers": [
     "datamuse"
   ],

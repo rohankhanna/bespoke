@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Push to master"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "status": "candidate-context",
+      "text": "An automation tool for OBS Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "status": "candidate-context",
+      "text": "Push to master"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "status": "candidate",
+      "text": "Push to master"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "knuckle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11555,
+      "status": "candidate",
+      "text": "boss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11555,
+      "status": "candidate",
+      "text": "proceed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11535,
+      "status": "candidate",
+      "text": "knee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11535,
+      "status": "candidate",
+      "text": "paw"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Push to master",
+  "concept_id": "push-to-master",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher"
+    }
+  ],
+  "first_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Push to master",
+      "sense_id": "push-to-master#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

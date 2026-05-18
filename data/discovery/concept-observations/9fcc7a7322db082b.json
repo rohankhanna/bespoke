@@ -48,7 +48,7 @@
   "normalized_form": "run-ci-script",
   "observation_id": "9fcc7a7322db082b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-17T18:28:54.888436+00:00",
+  "observed_at": "2026-05-18T00:43:20.098172+00:00",
   "observed_text": "run-ci-script",
   "source_context_snippet": "run-ci-script",
   "source_file": ".github/workflows/run-ci-script.yml",

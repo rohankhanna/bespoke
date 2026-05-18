@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An automation tool for OBS Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "An automation plugin for OBS Studio."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "An automation plugin for OBS Studio."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "obs-studio",
+      "sense_id": "obs-studio#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "obs-studio",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "obs-studio",
+  "observation_id": "e02581ac03e8ed6f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-18T00:43:20.098172+00:00",
+  "observed_text": "obs-studio",
+  "source_context_snippet": "An automation plugin for OBS Studio.",
+  "source_file": null,
+  "source_repo": "WarmUpTill/SceneSwitcher",
+  "source_repo_description": "An automation tool for OBS Studio"
+}

@@ -84,7 +84,7 @@
   "normalized_form": "rbac",
   "observation_id": "e9c062121cdb9260",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-17T12:32:36.812189+00:00",
+  "observed_at": "2026-05-18T00:43:20.098172+00:00",
   "observed_text": "rbac",
   "source_context_snippet": "[![Go Version](https://img.shields.io/github/go-mod/go-version/casbin/fasthttp-auth)](https://go.dev/)",
   "source_file": null,

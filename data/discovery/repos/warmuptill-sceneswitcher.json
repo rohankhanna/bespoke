@@ -1,0 +1,346 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v1.13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-format.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-format.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/locale-check.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@d4e8205d7e959a9107da6396278b2f1f07af0f9b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian.yml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian.yml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-debian.yml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "debian-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "jwlawson/actions-setup-cmake@v1.13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "Homebrew/actions/setup-homebrew@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "Build Project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-format.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-format.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "Check Code Formatting \ud83d\udee0\ufe0f",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dispatch.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "Dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/locale-check.yml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/locale-check.yml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "Check locale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-pull.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "softprops/action-gh-release@d4e8205d7e959a9107da6396278b2f1f07af0f9b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "Push to master",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "obs-studio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-18T01:05:57.461815+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1303
+    },
+    {
+      "path": ".github/workflows/build-debian.yml",
+      "size": 1542
+    },
+    {
+      "path": ".github/workflows/build-project.yaml",
+      "size": 12006
+    },
+    {
+      "path": ".github/workflows/check-format.yaml",
+      "size": 622
+    },
+    {
+      "path": ".github/workflows/dispatch.yaml",
+      "size": 402
+    },
+    {
+      "path": ".github/workflows/locale-check.yml",
+      "size": 428
+    },
+    {
+      "path": ".github/workflows/pr-pull.yaml",
+      "size": 708
+    },
+    {
+      "path": ".github/workflows/push.yaml",
+      "size": 3883
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An automation tool for OBS Studio",
+    "fork": false,
+    "full_name": "WarmUpTill/SceneSwitcher",
+    "html_url": "https://github.com/WarmUpTill/SceneSwitcher",
+    "language": "C++",
+    "pushed_at": "2026-05-15T17:15:53Z",
+    "stargazers_count": 1464,
+    "topics": [
+      "obs-studio"
+    ],
+    "updated_at": "2026-05-16T21:49:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "debian-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-debian.yml",
+      "term": "debian-build"
+    },
+    {
+      "context_snippet": "Build Project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-project.yaml",
+      "term": "Build Project"
+    },
+    {
+      "context_snippet": "Check Code Formatting \ud83d\udee0\ufe0f",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-format.yaml",
+      "term": "Check Code Formatting \ud83d\udee0\ufe0f"
+    },
+    {
+      "context_snippet": "Dispatch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dispatch.yaml",
+      "term": "Dispatch"
+    },
+    {
+      "context_snippet": "Check locale",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/locale-check.yml",
+      "term": "Check locale"
+    },
+    {
+      "context_snippet": "Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-pull.yaml",
+      "term": "Pull Request"
+    },
+    {
+      "context_snippet": "Push to master",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yaml",
+      "term": "Push to master"
+    },
+    {
+      "context_snippet": "An automation plugin for OBS Studio.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obs-studio"
+    }
+  ]
+}

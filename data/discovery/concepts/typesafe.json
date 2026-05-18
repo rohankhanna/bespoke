@@ -31,6 +31,18 @@
       "source_repo": "TanStack/router",
       "status": "candidate-context",
       "text": "<img src=\"https://static.scarf.sh/a.png?x-pxid=d988eb79-b0fc-4a2b-8514-6a1ab932d188\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "specta-rs/specta",
+      "status": "candidate-context",
+      "text": "Easily export your Rust types to other languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "specta-rs/specta",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "TanStack/router",
       "status": "candidate",
       "text": "<img src=\"https://static.scarf.sh/a.png?x-pxid=d988eb79-b0fc-4a2b-8514-6a1ab932d188\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "specta-rs/specta",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "TanStack/router"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": null,
+      "source_repo": "specta-rs/specta"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
   "lexical_providers": [
     "datamuse"
   ],

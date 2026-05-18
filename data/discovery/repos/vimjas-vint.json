@@ -60,7 +60,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T13:49:11.625152+00:00",
+  "fetched_at": "2026-05-18T00:47:49.417915+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -81,13 +81,13 @@
     "html_url": "https://github.com/Vimjas/vint",
     "language": "Python",
     "pushed_at": "2023-12-29T07:20:16Z",
-    "stargazers_count": 702,
+    "stargazers_count": 703,
     "topics": [
       "lint",
       "vim",
       "vim-script"
     ],
-    "updated_at": "2026-04-26T10:39:20Z"
+    "updated_at": "2026-05-17T16:59:56Z"
   },
   "repo_links": [
     {

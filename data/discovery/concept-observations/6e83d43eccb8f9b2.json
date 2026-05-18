@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An automation tool for OBS Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Push to master"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Push to master"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "knuckle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11555,
+      "status": "candidate",
+      "text": "boss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11555,
+      "status": "candidate",
+      "text": "proceed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11535,
+      "status": "candidate",
+      "text": "knee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11535,
+      "status": "candidate",
+      "text": "paw"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Push to master",
+      "sense_id": "push-to-master#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "push-to-master",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "push-to-master",
+  "observation_id": "6e83d43eccb8f9b2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-18T00:43:20.098172+00:00",
+  "observed_text": "Push to master",
+  "source_context_snippet": "Push to master",
+  "source_file": ".github/workflows/push.yaml",
+  "source_repo": "WarmUpTill/SceneSwitcher",
+  "source_repo_description": "An automation tool for OBS Studio"
+}

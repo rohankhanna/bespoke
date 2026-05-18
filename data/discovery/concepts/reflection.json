@@ -127,6 +127,18 @@
       "source_repo": "apolukhin/pfr_non_boost",
       "status": "candidate-context",
       "text": "This is a C++14 library for very basic reflection that gives you access to structure elements by index and provides other `std::tuple` like methods for user defined types without any macro or boilerplate code."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "specta-rs/specta",
+      "status": "candidate-context",
+      "text": "Easily export your Rust types to other languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "specta-rs/specta",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "apolukhin/pfr_non_boost",
       "status": "candidate",
       "text": "This is a C++14 library for very basic reflection that gives you access to structure elements by index and provides other `std::tuple` like methods for user defined types without any macro or boilerplate code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "specta-rs/specta",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -328,11 +346,17 @@
       "observed_at": "2026-05-16T06:55:35.086614+00:00",
       "source_file": null,
       "source_repo": "apolukhin/pfr_non_boost"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": null,
+      "source_repo": "specta-rs/specta"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-16T06:55:35.086614+00:00",
+  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
   "lexical_providers": [
     "datamuse"
   ],

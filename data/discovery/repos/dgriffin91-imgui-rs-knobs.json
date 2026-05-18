@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-18T01:06:05.154266+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 210
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A library for designing knobs for imgui-rs",
+    "fork": false,
+    "full_name": "DGriffin91/imgui-rs-knobs",
+    "html_url": "https://github.com/DGriffin91/imgui-rs-knobs",
+    "language": "Rust",
+    "pushed_at": "2022-04-17T16:17:49Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2025-11-19T11:23:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

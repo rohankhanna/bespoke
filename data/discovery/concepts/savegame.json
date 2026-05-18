@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "savegame"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rejemy/UltraLiteDB",
+      "status": "candidate-context",
+      "text": "A bare-bones C# .NET Key-value Store in a single database file for Unity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rejemy/UltraLiteDB",
+      "status": "candidate-context",
+      "text": "UltraLiteDB is a trimmed down version of LiteDB 4.0 (http://www.litedb.org). Anything that needs Linq or dynamic code generation has been removed to make it work in Unity's IL2CPP AoT runtime environment. Some additional features have been removed to reduce code footprint. What'\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rejemy/UltraLiteDB",
+      "status": "candidate",
+      "text": "UltraLiteDB is a trimmed down version of LiteDB 4.0 (http://www.litedb.org). Anything that needs Linq or dynamic code generation has been removed to make it work in Unity's IL2CPP AoT runtime environment. Some additional features have been removed to reduce code footprint. What'\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024789,
+      "status": "candidate",
+      "text": "quicksave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024788,
+      "status": "candidate",
+      "text": "game ball"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024787,
+      "status": "candidate",
+      "text": "game"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024786,
+      "status": "candidate",
+      "text": "game sheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024785,
+      "status": "candidate",
+      "text": "endgame"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "savegame",
+  "concept_id": "savegame",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": null,
+      "source_repo": "rejemy/UltraLiteDB"
+    }
+  ],
+  "first_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "savegame",
+      "sense_id": "savegame#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

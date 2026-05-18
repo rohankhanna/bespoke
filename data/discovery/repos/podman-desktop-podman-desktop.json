@@ -1310,7 +1310,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T18:43:18.166228+00:00",
+  "fetched_at": "2026-05-18T01:16:21.642413+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1363,7 +1363,7 @@
     "html_url": "https://github.com/podman-desktop/podman-desktop",
     "language": "TypeScript",
     "pushed_at": "2026-05-15T12:46:11Z",
-    "stargazers_count": 7643,
+    "stargazers_count": 7644,
     "topics": [
       "container",
       "containers",
@@ -1376,7 +1376,7 @@
       "tray-application",
       "ui"
     ],
-    "updated_at": "2026-05-17T16:13:13Z"
+    "updated_at": "2026-05-17T21:34:49Z"
   },
   "repo_links": [
     {

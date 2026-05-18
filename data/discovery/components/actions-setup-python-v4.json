@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
+  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -4952,6 +4952,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-workflow.yml",
       "source_repo": "msiemens/tinydb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "bincrafters/community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conan.yml",
+      "source_repo": "bincrafters/community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "bincrafters/community"
     }
   ]
 }

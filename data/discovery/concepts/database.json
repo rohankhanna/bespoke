@@ -1579,6 +1579,18 @@
       "source_repo": "msiemens/tinydb",
       "status": "candidate-context",
       "text": ".. image:: https://raw.githubusercontent.com/msiemens/tinydb/master/artwork/logo.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rejemy/UltraLiteDB",
+      "status": "candidate-context",
+      "text": "A bare-bones C# .NET Key-value Store in a single database file for Unity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rejemy/UltraLiteDB",
+      "status": "candidate-context",
+      "text": "UltraLiteDB is a trimmed down version of LiteDB 4.0 (http://www.litedb.org). Anything that needs Linq or dynamic code generation has been removed to make it work in Unity's IL2CPP AoT runtime environment. Some additional features have been removed to reduce code footprint. What'\u2026"
     }
   ],
   "candidate_glosses": [
@@ -2367,6 +2379,12 @@
       "source_repo": "msiemens/tinydb",
       "status": "candidate",
       "text": ".. image:: https://raw.githubusercontent.com/msiemens/tinydb/master/artwork/logo.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rejemy/UltraLiteDB",
+      "status": "candidate",
+      "text": "UltraLiteDB is a trimmed down version of LiteDB 4.0 (http://www.litedb.org). Anything that needs Linq or dynamic code generation has been removed to make it work in Unity's IL2CPP AoT runtime environment. Some additional features have been removed to reduce code footprint. What'\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -5140,11 +5158,47 @@
       "observed_at": "2026-05-17T18:28:54.888436+00:00",
       "source_file": null,
       "source_repo": "kurrent-io/KurrentDB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": null,
+      "source_repo": "nutsdb/nutsdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": null,
+      "source_repo": "litedb-org/LiteDB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": null,
+      "source_repo": "rejemy/UltraLiteDB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": null,
+      "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
+  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
   "lexical_providers": [
     "datamuse"
   ],

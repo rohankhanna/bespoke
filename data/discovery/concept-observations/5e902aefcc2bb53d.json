@@ -120,7 +120,7 @@
   "normalized_form": "installation",
   "observation_id": "5e902aefcc2bb53d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-17T07:06:43.204320+00:00",
+  "observed_at": "2026-05-18T00:43:20.098172+00:00",
   "observed_text": "Installation",
   "source_context_snippet": "Installation",
   "source_file": ".github/workflows/install.yml",

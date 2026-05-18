@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check locale"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "status": "candidate-context",
+      "text": "An automation tool for OBS Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "status": "candidate-context",
+      "text": "Check locale"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "status": "candidate",
+      "text": "Check locale"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11638,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11638,
+      "status": "candidate",
+      "text": "eye"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11638,
+      "status": "candidate",
+      "text": "map"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11638,
+      "status": "candidate",
+      "text": "pen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11567,
+      "status": "candidate",
+      "text": "spot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check locale",
+  "concept_id": "check-locale",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": ".github/workflows/locale-check.yml",
+      "source_repo": "WarmUpTill/SceneSwitcher"
+    }
+  ],
+  "first_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check locale",
+      "sense_id": "check-locale#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

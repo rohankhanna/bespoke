@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "playdate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aras-p/demo-pd-cranktheworld",
+      "status": "candidate-context",
+      "text": "A real-time rendering demo for Playdate console"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aras-p/demo-pd-cranktheworld",
+      "status": "candidate-context",
+      "text": "Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aras-p/demo-pd-cranktheworld",
+      "status": "candidate",
+      "text": "Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000557,
+      "status": "candidate",
+      "text": "sortie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19963727,
+      "status": "candidate",
+      "text": "outlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19937889,
+      "status": "candidate",
+      "text": "output"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19937580,
+      "status": "candidate",
+      "text": "exit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19921498,
+      "status": "candidate",
+      "text": "friend"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "playdate",
+  "concept_id": "playdate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": null,
+      "source_repo": "aras-p/demo-pd-cranktheworld"
+    }
+  ],
+  "first_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "playdate",
+      "sense_id": "playdate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

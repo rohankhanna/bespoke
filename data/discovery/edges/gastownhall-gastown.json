@@ -15,13 +15,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "gastownhall/gastown",
-      "target": "you/repo",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/block-internal-prs.yml",
       "source_repo": "gastownhall/gastown",
@@ -190,6 +183,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-17T12:32:36.812189+00:00",
+  "generated_at": "2026-05-18T00:43:20.098172+00:00",
   "source_repo": "gastownhall/gastown"
 }

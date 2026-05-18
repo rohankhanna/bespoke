@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "debian-build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "status": "candidate-context",
+      "text": "An automation tool for OBS Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "status": "candidate-context",
+      "text": "debian-build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "status": "candidate",
+      "text": "debian-build"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "debian-build",
+  "concept_id": "debian-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-18T00:43:20.098172+00:00",
+      "source_file": ".github/workflows/build-debian.yml",
+      "source_repo": "WarmUpTill/SceneSwitcher"
+    }
+  ],
+  "first_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "debian-build",
+      "sense_id": "debian-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliasdaler/imgui-sfml-fetchcontent",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliasdaler/imgui-sfml-fetchcontent",
+      "target": "fetchcontent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliasdaler/imgui-sfml-fetchcontent",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliasdaler/imgui-sfml-fetchcontent",
+      "target": "imgui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliasdaler/imgui-sfml-fetchcontent",
+      "target": "imgui-sfml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliasdaler/imgui-sfml-fetchcontent",
+      "target": "modern-cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliasdaler/imgui-sfml-fetchcontent",
+      "target": "sfml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-18T01:06:18.390083+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1052
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Example of using CMake's FetchContent module and imGui-SFML",
+    "fork": false,
+    "full_name": "eliasdaler/imgui-sfml-fetchcontent",
+    "html_url": "https://github.com/eliasdaler/imgui-sfml-fetchcontent",
+    "language": "CMake",
+    "pushed_at": "2024-03-25T15:10:58Z",
+    "stargazers_count": 33,
+    "topics": [
+      "cmake",
+      "cpp",
+      "fetchcontent",
+      "gamedev",
+      "imgui",
+      "imgui-sfml",
+      "modern-cmake",
+      "sfml"
+    ],
+    "updated_at": "2025-07-06T13:59:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "(WIP) CMake FetchContent example",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "(WIP) CMake FetchContent example",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fetchcontent"
+    },
+    {
+      "context_snippet": "(WIP) CMake FetchContent example",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "(WIP) CMake FetchContent example",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imgui"
+    },
+    {
+      "context_snippet": "(WIP) CMake FetchContent example",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imgui-sfml"
+    },
+    {
+      "context_snippet": "(WIP) CMake FetchContent example",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modern-cmake"
+    },
+    {
+      "context_snippet": "(WIP) CMake FetchContent example",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sfml"
+    }
+  ]
+}

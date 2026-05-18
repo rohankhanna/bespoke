@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian.yml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debian.yml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-debian.yml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "debian-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "jwlawson/actions-setup-cmake@v1.13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "Homebrew/actions/setup-homebrew@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-project.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "Build Project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-format.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-format.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "Check Code Formatting \ud83d\udee0\ufe0f",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dispatch.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "Dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/locale-check.yml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/locale-check.yml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "Check locale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-pull.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "softprops/action-gh-release@d4e8205d7e959a9107da6396278b2f1f07af0f9b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "Push to master",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WarmUpTill/SceneSwitcher",
+      "target": "obs-studio",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-18T00:43:20.098172+00:00",
+  "source_repo": "WarmUpTill/SceneSwitcher"
+}

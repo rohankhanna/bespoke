@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Example of using CMake's FetchContent module and imGui-SFML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "(WIP) CMake FetchContent example"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "(WIP) CMake FetchContent example"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fetchcontent",
+      "sense_id": "fetchcontent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fetchcontent",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fetchcontent",
+  "observation_id": "b406c3a3dead951a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-18T00:43:20.098172+00:00",
+  "observed_text": "fetchcontent",
+  "source_context_snippet": "(WIP) CMake FetchContent example",
+  "source_file": null,
+  "source_repo": "eliasdaler/imgui-sfml-fetchcontent",
+  "source_repo_description": "Example of using CMake's FetchContent module and imGui-SFML"
+}
