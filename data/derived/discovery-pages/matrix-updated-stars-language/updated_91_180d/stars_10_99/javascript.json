@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 365,
-    "concepts": 66,
-    "observations": 67,
-    "repos": 32,
-    "terms": 66
+    "components": 388,
+    "concepts": 67,
+    "observations": 68,
+    "repos": 33,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "ameshkov/safari-blocker",
     "bevry/domain-browser",
@@ -22,6 +22,7 @@
     "chaijs/check-error",
     "CheckerNetwork/spark-checker",
     "coderaiser/estrace",
+    "coderaiser/mock-import",
     "coderaiser/try-catch",
     "coderaiser/try-to-catch",
     "d3x0r/JSOX",

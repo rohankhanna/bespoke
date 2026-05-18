@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 67,
-    "concepts": 115,
-    "observations": 115,
+    "components": 61,
+    "concepts": 116,
+    "observations": 116,
     "repos": 20,
-    "terms": 115
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
@@ -27,12 +27,12 @@
     "coin-or-tools/ThirdParty-Mumps",
     "conda-forge/poppler-feedstock",
     "conda-forge/spacy-feedstock",
+    "confluentinc/cp-demo",
     "containers/automation",
     "Digidai/product-manager-skills",
     "GoogleCloudPlatform/blueprints",
     "nodenv/node-build-update-defs",
     "oceanbase/docker-images",
-    "quicwg/qlog",
     "robertguss/claude-code-toolkit"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-05-17T08:38:41.992611+00:00`
+Generated at: `2026-05-18T05:56:44.543192+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 10
-- terms: 101
-- components: 108
-- concepts: 101
-- observations: 103
+- repos: 8
+- terms: 98
+- components: 69
+- concepts: 98
+- observations: 100
 
 ## Static behavior
 
@@ -26,28 +26,24 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [jax-ml/jax](https://github.com/jax-ml/jax) | 35620 | 2026-05-17T07:12:50Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 5 |
-| [Comfy-Org/ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) | 14685 | 2026-05-17T01:11:02Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
-| [oobabooga/textgen](https://github.com/oobabooga/textgen) | 47141 | 2026-05-17T01:10:26Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
-| [NVIDIA-NeMo/NeMo](https://github.com/NVIDIA-NeMo/NeMo) | 17221 | 2026-05-16T23:41:23Z | Python | Infrastructure/tooling | 14 | 12 | 14 | 14 |
-| [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention) | 23806 | 2026-05-16T22:03:48Z | Python | Infrastructure/tooling | 5 | 16 | 5 | 5 |
-| [pyg-team/pytorch_geometric](https://github.com/pyg-team/pytorch_geometric) | 23764 | 2026-05-16T19:02:32Z | Python | Infrastructure/tooling | 13 | 8 | 13 | 13 |
-| [psf/black](https://github.com/psf/black) | 41509 | 2026-05-16T18:18:29Z | Python | Infrastructure/tooling | 15 | 13 | 15 | 15 |
-| [axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl) | 11924 | 2026-05-16T17:49:31Z | Python | Infrastructure/tooling | 9 | 12 | 9 | 9 |
-| [pydantic/pydantic](https://github.com/pydantic/pydantic) | 27785 | 2026-05-16T12:41:16Z | Python | Infrastructure/tooling | 17 | 27 | 17 | 17 |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 44527 | 2026-05-16T10:19:31Z | Python | Infrastructure/tooling | 15 | 7 | 15 | 16 |
+| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 31143 | 2026-05-17T18:50:19Z | Python | Infrastructure/tooling | 10 | 8 | 10 | 10 |
+| [oobabooga/textgen](https://github.com/oobabooga/textgen) | 47149 | 2026-05-17T18:24:35Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
+| [jax-ml/jax](https://github.com/jax-ml/jax) | 35624 | 2026-05-17T18:00:35Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 5 |
+| [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 14146 | 2026-05-17T16:50:19Z | Python | Infrastructure/tooling | 22 | 4 | 22 | 22 |
+| [pydantic/pydantic](https://github.com/pydantic/pydantic) | 27789 | 2026-05-17T16:23:42Z | Python | Infrastructure/tooling | 17 | 27 | 17 | 17 |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 44542 | 2026-05-17T11:00:18Z | Python | Infrastructure/tooling | 15 | 7 | 15 | 16 |
+| [verl-project/verl](https://github.com/verl-project/verl) | 21347 | 2026-05-17T09:26:31Z | Python | Infrastructure/tooling | 2 | 11 | 2 | 2 |
+| [deepspeedai/DeepSpeed](https://github.com/deepspeedai/DeepSpeed) | 42348 | 2026-05-17T08:11:12Z | Python | Infrastructure/tooling | 21 | 5 | 21 | 21 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [oobabooga/textgen](https://github.com/oobabooga/textgen) | 47141 | 2026-05-17T01:10:26Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 44527 | 2026-05-16T10:19:31Z | Python | Infrastructure/tooling | 15 | 7 | 15 | 16 |
-| [psf/black](https://github.com/psf/black) | 41509 | 2026-05-16T18:18:29Z | Python | Infrastructure/tooling | 15 | 13 | 15 | 15 |
-| [jax-ml/jax](https://github.com/jax-ml/jax) | 35620 | 2026-05-17T07:12:50Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 5 |
-| [pydantic/pydantic](https://github.com/pydantic/pydantic) | 27785 | 2026-05-16T12:41:16Z | Python | Infrastructure/tooling | 17 | 27 | 17 | 17 |
-| [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention) | 23806 | 2026-05-16T22:03:48Z | Python | Infrastructure/tooling | 5 | 16 | 5 | 5 |
-| [pyg-team/pytorch_geometric](https://github.com/pyg-team/pytorch_geometric) | 23764 | 2026-05-16T19:02:32Z | Python | Infrastructure/tooling | 13 | 8 | 13 | 13 |
-| [NVIDIA-NeMo/NeMo](https://github.com/NVIDIA-NeMo/NeMo) | 17221 | 2026-05-16T23:41:23Z | Python | Infrastructure/tooling | 14 | 12 | 14 | 14 |
-| [Comfy-Org/ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) | 14685 | 2026-05-17T01:11:02Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
-| [axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl) | 11924 | 2026-05-16T17:49:31Z | Python | Infrastructure/tooling | 9 | 12 | 9 | 9 |
+| [oobabooga/textgen](https://github.com/oobabooga/textgen) | 47149 | 2026-05-17T18:24:35Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 44542 | 2026-05-17T11:00:18Z | Python | Infrastructure/tooling | 15 | 7 | 15 | 16 |
+| [deepspeedai/DeepSpeed](https://github.com/deepspeedai/DeepSpeed) | 42348 | 2026-05-17T08:11:12Z | Python | Infrastructure/tooling | 21 | 5 | 21 | 21 |
+| [jax-ml/jax](https://github.com/jax-ml/jax) | 35624 | 2026-05-17T18:00:35Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 5 |
+| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 31143 | 2026-05-17T18:50:19Z | Python | Infrastructure/tooling | 10 | 8 | 10 | 10 |
+| [pydantic/pydantic](https://github.com/pydantic/pydantic) | 27789 | 2026-05-17T16:23:42Z | Python | Infrastructure/tooling | 17 | 27 | 17 | 17 |
+| [verl-project/verl](https://github.com/verl-project/verl) | 21347 | 2026-05-17T09:26:31Z | Python | Infrastructure/tooling | 2 | 11 | 2 | 2 |
+| [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 14146 | 2026-05-17T16:50:19Z | Python | Infrastructure/tooling | 22 | 4 | 22 | 22 |

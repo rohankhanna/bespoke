@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 27,
-    "concepts": 169,
-    "observations": 169,
-    "repos": 46,
-    "terms": 168
+    "concepts": 180,
+    "observations": 180,
+    "repos": 48,
+    "terms": 179
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "abubakarsiddik31/claude-skills-collection",
+    "actions/partner-runner-images",
     "adoptium/adoptium",
     "agamm/claude-code-owasp",
+    "ailev/fpf",
     "alchaincyf/elon-musk-skill",
     "alchaincyf/feynman-skill",
     "alchaincyf/munger-skill",
@@ -40,13 +42,13 @@
     "github/codeql-cli-binaries",
     "grpc/proposal",
     "hagezi/dns-servers",
-    "helm/community",
     "ietf-tools/.github",
     "integrations/microsoft-teams",
     "lumen-oss/nvim-best-practices",
     "lwpyh/Awesome-MLLM-Reasoning-Collection",
     "MicrosoftDocs/terminal",
     "near/borsh",
+    "nimbalyst/nimbalyst",
     "oobabooga/textgen-extensions",
     "piebald-ai/awesome-gemini-cli",
     "preactjs/awesome-preact",

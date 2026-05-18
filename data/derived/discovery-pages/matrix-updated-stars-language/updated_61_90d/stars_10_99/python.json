@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 228,
+    "components": 230,
     "concepts": 150,
     "observations": 150,
     "repos": 54,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "abduznik/git-alchemist",
     "agents-x-project/PyVision-RL",
@@ -25,7 +25,6 @@
     "bigai-nlco/RuleReasoner",
     "BoosterRobotics/booster_assets",
     "bootmortis/ito-gov-mirror",
-    "camel-ai/seta",
     "chaoss/grimoirelab-cereslib",
     "chaoss/grimoirelab-graal",
     "chaoss/grimoirelab-kidash",
@@ -56,6 +55,7 @@
     "Lizw14/Super-CLEVR",
     "Owen-Liuyuxuan/ros2_vision_inference",
     "philippemerle/AWS-CloudFormation-Diagrams",
+    "PoseLib/posebench",
     "rdb/panda3d-thirdparty",
     "richardodliu/OpenCodeEval",
     "rstudio/pins-python",

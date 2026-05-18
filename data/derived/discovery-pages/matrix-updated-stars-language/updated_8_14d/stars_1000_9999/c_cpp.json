@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 264,
-    "concepts": 155,
-    "observations": 156,
-    "repos": 18,
-    "terms": 154
+    "components": 270,
+    "concepts": 136,
+    "observations": 137,
+    "repos": 15,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,22 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "Andersbakken/rtags",
+    "ashvardanian/NumKong",
     "brave/brave-core",
     "CloudCompare/CloudCompare",
-    "dmlc/dlpack",
     "fnc12/sqlite_orm",
     "gpac/gpac",
-    "libcpr/cpr",
     "mstorsjo/llvm-mingw",
     "NVIDIA/DALI",
     "OSGeo/gdal",
-    "realsenseai/librealsense",
     "riscv-collab/riscv-gnu-toolchain",
     "skeeto/w64devkit",
     "sorbet/sorbet",
     "stack-of-tasks/pinocchio",
     "swiftlang/swift-corelibs-foundation",
-    "universal-ctags/ctags",
     "uxlfoundation/oneTBB"
   ]
 }

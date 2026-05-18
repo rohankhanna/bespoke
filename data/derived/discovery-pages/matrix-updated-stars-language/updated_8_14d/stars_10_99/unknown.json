@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 5,
-    "concepts": 13,
-    "observations": 13,
-    "repos": 3,
-    "terms": 13
+    "concepts": 1,
+    "observations": 1,
+    "repos": 1,
+    "terms": 1
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
-    "cbuijs/hagezi",
-    "sakib-m/Pi-hole-Torrent-Blocklist",
     "universal-ctags/ctags-nightly-build"
   ]
 }

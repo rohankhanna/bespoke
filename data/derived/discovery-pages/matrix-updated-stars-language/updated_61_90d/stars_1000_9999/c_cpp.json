@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 140,
-    "concepts": 242,
-    "observations": 243,
-    "repos": 47,
-    "terms": 235
+    "components": 141,
+    "concepts": 255,
+    "observations": 256,
+    "repos": 48,
+    "terms": 248
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -60,6 +60,7 @@
     "UB-Mannheim/tesseract",
     "void-linux/xbps",
     "wang-xinyu/tensorrtx",
+    "xlite-dev/lite.ai.toolkit",
     "zardus/preeny"
   ]
 }

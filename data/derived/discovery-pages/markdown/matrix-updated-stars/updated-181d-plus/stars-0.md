@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars
 
-Generated at: `2026-05-17T08:38:41.992611+00:00`
+Generated at: `2026-05-18T05:56:44.543192+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 427
-- terms: 515
-- components: 1204
-- concepts: 515
-- observations: 517
+- repos: 428
+- terms: 516
+- components: 1207
+- concepts: 516
+- observations: 518
 
 ## Static behavior
 
@@ -53,6 +53,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eigenwallet/dfx-swiss-rs](https://github.com/eigenwallet/dfx-swiss-rs) | 0 | 2025-10-25T14:04:15Z | Rust | Library | 0 | 0 | 0 | 0 |
 | [af-74413592/agentscope](https://github.com/af-74413592/agentscope) | 0 | 2025-10-24T03:13:49Z | Python | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [klowrey/MuJoCo.jl](https://github.com/klowrey/MuJoCo.jl) | 0 | 2025-10-20T05:52:12Z | Other | Infrastructure/tooling | 4 | 13 | 4 | 4 |
+| [opentk/glfw-redist](https://github.com/opentk/glfw-redist) | 0 | 2025-10-19T15:13:08Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [brodybits/create-react-native-module](https://github.com/brodybits/create-react-native-module) | 0 | 2025-10-19T13:13:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cpettitt/dagre-d3](https://github.com/cpettitt/dagre-d3) | 0 | 2025-10-18T02:42:54Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Friendly-Badge](https://github.com/danielrosehill/AI-Friendly-Badge) | 0 | 2025-10-17T00:35:19Z | Other | Unknown | 4 | 0 | 4 | 4 |
@@ -485,6 +486,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eigenwallet/dfx-swiss-rs](https://github.com/eigenwallet/dfx-swiss-rs) | 0 | 2025-10-25T14:04:15Z | Rust | Library | 0 | 0 | 0 | 0 |
 | [af-74413592/agentscope](https://github.com/af-74413592/agentscope) | 0 | 2025-10-24T03:13:49Z | Python | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [klowrey/MuJoCo.jl](https://github.com/klowrey/MuJoCo.jl) | 0 | 2025-10-20T05:52:12Z | Other | Infrastructure/tooling | 4 | 13 | 4 | 4 |
+| [opentk/glfw-redist](https://github.com/opentk/glfw-redist) | 0 | 2025-10-19T15:13:08Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [brodybits/create-react-native-module](https://github.com/brodybits/create-react-native-module) | 0 | 2025-10-19T13:13:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cpettitt/dagre-d3](https://github.com/cpettitt/dagre-d3) | 0 | 2025-10-18T02:42:54Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Friendly-Badge](https://github.com/danielrosehill/AI-Friendly-Badge) | 0 | 2025-10-17T00:35:19Z | Other | Unknown | 4 | 0 | 4 | 4 |

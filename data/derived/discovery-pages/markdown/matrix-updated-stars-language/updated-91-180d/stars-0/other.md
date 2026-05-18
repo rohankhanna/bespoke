@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars · Other
 
-Generated at: `2026-05-17T08:38:41.992611+00:00`
+Generated at: `2026-05-18T05:56:44.543192+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 11
-- terms: 3
-- components: 26
-- concepts: 3
-- observations: 3
+- repos: 12
+- terms: 7
+- components: 31
+- concepts: 7
+- observations: 7
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [AdaCore/vss-text](https://github.com/AdaCore/vss-text) | 0 | 2026-02-16T11:03:35Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [JuliaBinaryWrappers/Glib_jll.jl](https://github.com/JuliaBinaryWrappers/Glib_jll.jl) | 0 | 2026-02-06T15:02:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [haoxiangsnr/IntelNeuromorphicDNSChallenge](https://github.com/haoxiangsnr/IntelNeuromorphicDNSChallenge) | 0 | 2026-01-28T04:17:10Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [danielrosehill/Failover-Internet-Israel-Notes](https://github.com/danielrosehill/Failover-Internet-Israel-Notes) | 0 | 2026-01-25T15:46:49Z | Other | Unknown | 1 | 0 | 1 | 1 |
@@ -42,6 +43,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [AdaCore/vss-text](https://github.com/AdaCore/vss-text) | 0 | 2026-02-16T11:03:35Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [JuliaBinaryWrappers/Glib_jll.jl](https://github.com/JuliaBinaryWrappers/Glib_jll.jl) | 0 | 2026-02-06T15:02:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [haoxiangsnr/IntelNeuromorphicDNSChallenge](https://github.com/haoxiangsnr/IntelNeuromorphicDNSChallenge) | 0 | 2026-01-28T04:17:10Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [danielrosehill/Failover-Internet-Israel-Notes](https://github.com/danielrosehill/Failover-Internet-Israel-Notes) | 0 | 2026-01-25T15:46:49Z | Other | Unknown | 1 | 0 | 1 | 1 |

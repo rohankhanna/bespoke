@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 144,
+    "components": 142,
     "concepts": 83,
     "observations": 83,
-    "repos": 27,
+    "repos": 26,
     "terms": 83
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "1mb-dev/natcheck",
     "abhinav/goldmark-hashtag",
@@ -31,7 +31,6 @@
     "huggingface/hf-csi-driver",
     "k8nstantin/openpraxis",
     "linode/karpenter-provider-linode",
-    "petmal/mindtrial",
     "probe-lab/tiros",
     "Seedloaf/mc-router-discovery",
     "serpro69/capy",

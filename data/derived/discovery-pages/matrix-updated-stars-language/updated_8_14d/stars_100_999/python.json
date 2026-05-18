@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 136,
-    "concepts": 145,
-    "observations": 146,
-    "repos": 23,
-    "terms": 145
+    "components": 99,
+    "concepts": 114,
+    "observations": 115,
+    "repos": 19,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "agentclientprotocol/python-sdk",
     "agentic-box/memora",
     "ai-dynamo/aiperf",
-    "alltheplaces/alltheplaces",
     "benchflow-ai/benchflow",
     "clearml/clearml-agent",
     "cosmos/chain-registry",
@@ -27,14 +26,11 @@
     "gbionics/adam",
     "gbionics/jaxsim",
     "hluaguo/learn-faster-kit",
-    "jawah/charset_normalizer",
     "jupyter-server/jupyter_server",
     "LlmKira/fast-langdetect",
     "nod-ai/AMD-SHARK-ModelDev",
     "NVlabs/trajdata",
-    "open-telemetry/opentelemetry-cpp-contrib",
     "sigsep/norbert",
-    "universal-ctags/ctags-win32",
     "unum-bio/USearchMolecules",
     "vale-cli/packages"
   ]

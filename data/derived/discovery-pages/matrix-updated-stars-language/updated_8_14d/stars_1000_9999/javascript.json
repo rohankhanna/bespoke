@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 266,
-    "concepts": 54,
-    "observations": 54,
-    "repos": 8,
-    "terms": 54
+    "components": 234,
+    "concepts": 51,
+    "observations": 51,
+    "repos": 7,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
-    "carbon-design-system/carbon",
+    "callstack/react-native-builder-bob",
     "chaijs/chai",
     "ghostery/ghostery-extension",
     "ipfs/ipfs-companion",
-    "MikeMcl/bignumber.js",
     "openwrt/luci",
     "stylelint/stylelint-config-standard",
     "uBlockOrigin/uBOL-home"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 435,
-    "concepts": 410,
-    "observations": 410,
-    "repos": 105,
-    "terms": 411
+    "components": 467,
+    "concepts": 431,
+    "observations": 431,
+    "repos": 109,
+    "terms": 435
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "4dn-dcic/tibanna",
@@ -39,6 +39,7 @@
     "BoosterRobotics/booster_train",
     "browser-use/benchmark",
     "c4ffein/realworld-django-ninja",
+    "cdeust/cortex",
     "chaoss/grimoirelab-elk",
     "chaoss/grimoirelab-sirmordred",
     "chaoss/grimoirelab-sortinghat",
@@ -92,18 +93,20 @@
     "microsoft/vscode-azurecli",
     "mozilla-services/shavar",
     "mozilla-services/shavar-list-creation",
+    "mypyc/mypyc-benchmarks",
     "networkx/nx-parallel",
     "nix-community/nur-update",
     "NixOS/branding",
     "nousresearch/tinker-atropos",
     "optuna/optunahub",
     "petercorke/ansitable",
-    "PoseLib/posebench",
     "psyonicinc/ability-hand-api",
+    "pycompression/python-isal",
     "pyocd/libusb-package",
     "python-graphblas/graphblas-algorithms",
     "python-pillow/pillow-perf",
     "recap-utr/nlp-service",
+    "redhat-et/triton-dev-containers",
     "redis/redis-py-entraid",
     "riponazad/echotracker",
     "RWKV-Vibe/rwkv_lightning",
@@ -114,6 +117,7 @@
     "skhu101/HumanLiff",
     "sphinx-contrib/sphinxcontrib-towncrier",
     "sublimelsp/LSP-marksman",
+    "svaningelgem/logprise",
     "TexasInstruments/edgeai-tensorlab",
     "urschrei/pypolyline",
     "VisionXLab/Rise-Video",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 60,
-    "concepts": 55,
-    "observations": 55,
-    "repos": 6,
-    "terms": 55
+    "components": 37,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 5,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "androidx/media",
     "eclipse-jdtls/eclipse.jdt.ls",
-    "eclipse-openvsx/openvsx",
     "helidon-io/helidon",
     "java-native-access/jna",
     "junit-team/junit-framework"

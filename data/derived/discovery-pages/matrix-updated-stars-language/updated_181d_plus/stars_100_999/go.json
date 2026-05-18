@@ -3,7 +3,7 @@
     "components": 521,
     "concepts": 722,
     "observations": 722,
-    "repos": 179,
+    "repos": 180,
     "terms": 710
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "1player/host-spawn",
     "76creates/stickers",
@@ -101,6 +101,7 @@
     "gofrp/tiny-frpc",
     "gonet2/agent",
     "google/gnostic-grpc",
+    "google/rpmpack",
     "goreleaser/godownloader",
     "gorilla/securecookie",
     "gotify/cli",

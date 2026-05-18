@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 205,
-    "concepts": 397,
-    "observations": 397,
-    "repos": 68,
-    "terms": 391
+    "components": 206,
+    "concepts": 407,
+    "observations": 407,
+    "repos": 72,
+    "terms": 401
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "adrienverge/yamllint",
     "aigc3d/LHM",
@@ -37,7 +37,9 @@
     "dynaconf/dynaconf",
     "facebookresearch/fvcore",
     "facebookresearch/habitat-lab",
+    "facebookresearch/pytorch3d",
     "facebookresearch/SlowFast",
+    "google/deepvariant",
     "google/ml_collections",
     "google/vizier",
     "gururise/AlpacaDataCleaned",
@@ -72,6 +74,8 @@
     "s3prl/s3prl",
     "SafeAILab/EAGLE",
     "ServiceNow/BrowserGym",
+    "shareai-lab/claw0",
+    "sierra-research/tau-bench",
     "the-moonwitch/Cozette",
     "themix-project/themix-gui",
     "toshas/torch-fidelity",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 356,
-    "concepts": 748,
-    "observations": 748,
-    "repos": 200,
-    "terms": 740
+    "components": 368,
+    "concepts": 768,
+    "observations": 768,
+    "repos": 203,
+    "terms": 760
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "0k/shyaml",
     "23andMe/Yamale",
@@ -70,8 +70,10 @@
     "corydolphin/flask-cors",
     "CSfufu/Revisual-R1",
     "dbeley/awesome-lemmy",
+    "deepbeepmeep/mmgp",
     "DengPingFan/PraNet",
     "dongjae0107/ELite",
+    "drivendataorg/zamba",
     "dualverse-ai/station",
     "enjoy-digital/litesata",
     "eps696/stylegan2ada",
@@ -199,6 +201,7 @@
     "virtuald/pyhcl",
     "walles/px",
     "wenet-e2e/wetts",
+    "whatwg/meta",
     "wlav/cppyy",
     "worldbench/Robo3D",
     "wudongming97/TopoMLP",

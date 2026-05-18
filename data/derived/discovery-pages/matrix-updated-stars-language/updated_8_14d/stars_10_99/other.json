@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 210,
-    "concepts": 153,
-    "observations": 154,
-    "repos": 29,
-    "terms": 153
+    "components": 170,
+    "concepts": 140,
+    "observations": 141,
+    "repos": 26,
+    "terms": 140
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "atsushieno/augene-ng",
@@ -25,13 +25,11 @@
     "dinosaure/blaze",
     "Elyahu41/KosherSwift",
     "FactoryXCode/MfPack",
+    "FreneticLLC/FreneticGameEngine",
     "HDFGroup/hdf5_plugins",
     "helix-toolkit/helix-toolkit-nex",
-    "IBM/hello-carbon-vue3",
     "jelly-beam/rebar3_ex_doc",
-    "JuliaGeo/GeometryOps.jl",
     "ludwig-ai/ludwig-docs",
-    "lumen-oss/nurr",
     "mit-plv/coqutil",
     "mrcjkb/neotest-haskell",
     "ocaml-tracing/ocaml-opentelemetry",
@@ -39,7 +37,6 @@
     "rcasia/neotest-java",
     "ros2/example_interfaces",
     "Shopify/rbi-central",
-    "sidlatau/neotest-dart",
     "siketyan/intellij-rustowl",
     "TEN-framework/portal",
     "tinted-theming/tinted-xresources"

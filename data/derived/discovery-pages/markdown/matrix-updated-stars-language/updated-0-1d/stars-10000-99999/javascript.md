@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-05-17T08:38:41.992611+00:00`
+Generated at: `2026-05-18T05:56:44.543192+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 24
-- components: 146
-- concepts: 24
-- observations: 24
+- repos: 1
+- terms: 12
+- components: 51
+- concepts: 12
+- observations: 12
 
 ## Static behavior
 
@@ -26,12 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [preactjs/preact](https://github.com/preactjs/preact) | 38623 | 2026-05-16T15:45:26Z | JavaScript | Infrastructure/tooling | 12 | 51 | 12 | 12 |
-| [mui/material-ui](https://github.com/mui/material-ui) | 98353 | 2026-05-16T12:05:48Z | JavaScript | Infrastructure/tooling | 12 | 95 | 12 | 12 |
+| [preactjs/preact](https://github.com/preactjs/preact) | 38627 | 2026-05-17T10:34:05Z | JavaScript | Infrastructure/tooling | 12 | 51 | 12 | 12 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mui/material-ui](https://github.com/mui/material-ui) | 98353 | 2026-05-16T12:05:48Z | JavaScript | Infrastructure/tooling | 12 | 95 | 12 | 12 |
-| [preactjs/preact](https://github.com/preactjs/preact) | 38623 | 2026-05-16T15:45:26Z | JavaScript | Infrastructure/tooling | 12 | 51 | 12 | 12 |
+| [preactjs/preact](https://github.com/preactjs/preact) | 38627 | 2026-05-17T10:34:05Z | JavaScript | Infrastructure/tooling | 12 | 51 | 12 | 12 |

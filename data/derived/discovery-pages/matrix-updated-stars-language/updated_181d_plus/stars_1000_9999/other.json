@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1259,
-    "concepts": 1540,
-    "observations": 1542,
+    "components": 1260,
+    "concepts": 1539,
+    "observations": 1541,
     "repos": 418,
-    "terms": 1529
+    "terms": 1528
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -80,6 +80,7 @@
     "cocodataset/cocoapi",
     "coderjojo/creative-profile-readme",
     "cohama/lexima.vim",
+    "collectiveidea/audited",
     "CommunityToolkit/WindowsCommunityToolkit",
     "CompVis/taming-transformers",
     "creaktive/rainbarf",
@@ -293,7 +294,6 @@
     "phar-io/version",
     "philferriere/cocoapi",
     "plumatic/schema",
-    "preservim/tagbar",
     "preservim/vim-markdown",
     "PRIS-CV/DemoFusion",
     "PrismJS/prism-themes",

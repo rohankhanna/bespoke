@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 96,
-    "concepts": 109,
-    "observations": 110,
-    "repos": 27,
-    "terms": 112
+    "components": 120,
+    "concepts": 124,
+    "observations": 125,
+    "repos": 32,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "actions/upload-pages-artifact",
@@ -22,6 +22,7 @@
     "aws/aws-app-mesh-examples",
     "chaoss/grimoirelab",
     "cncf/k8s-conformance",
+    "codelibs/docker-fess",
     "crazy-max/xgo",
     "docker-library/hello-world",
     "EmbarkStudios/cargo-deny-action",
@@ -29,12 +30,16 @@
     "helm/chart-testing-action",
     "heroku/heroku-buildpack-apt",
     "heroku/heroku-buildpack-pgbouncer",
+    "heroku/heroku-buildpack-php",
+    "kubernetes/sig-release",
     "mattmc3/zephyr",
     "mklement0/n-install",
     "mosaicml/examples",
     "nodenv/node-build",
     "numpy/numpy.org",
     "reviewdog/action-misspell",
+    "rsmdt/the-startup",
+    "rz1989s/claude-code-statusline",
     "SamNet-dev/paqctl",
     "SWE-bench/experiments",
     "TexasInstruments/edgeai",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 148,
-    "concepts": 119,
-    "observations": 120,
-    "repos": 35,
-    "terms": 118
+    "concepts": 131,
+    "observations": 132,
+    "repos": 36,
+    "terms": 130
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "alphagov/govuk-rfcs",
     "Ayaginu-Sue/Astalia",
     "BioContainers/multi-package-containers",
     "canonical/ubuntu-security-notices",
-    "charmbracelet/scoop-bucket",
+    "cbuijs/hagezi",
     "containerd/project",
     "crewAIInc/skills",
     "Dexters-Hub/Dexters-Hub",
@@ -37,6 +37,7 @@
     "qemus/virtiso-whql",
     "quarkiverse/quarkiverse-docs",
     "rstackjs/rstack-design-resources",
+    "sakib-m/Pi-hole-Torrent-Blocklist",
     "sigstore/community",
     "sigstore/root-signing-staging",
     "simonw/simonwillisonblog-backup",

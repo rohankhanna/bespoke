@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 278,
-    "concepts": 211,
-    "observations": 214,
+    "concepts": 212,
+    "observations": 215,
     "repos": 52,
-    "terms": 209
+    "terms": 211
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "alexheretic/ab-glyph",
     "astro/deadnix",
@@ -33,6 +33,7 @@
     "georust/proj",
     "guillaume-be/rust-tokenizers",
     "harfbuzz/ttf-parser",
+    "hecrj/icebreaker",
     "ImageOptim/libimagequant",
     "jimblandy/perf-event",
     "kata-containers/cgroups-rs",
@@ -52,7 +53,6 @@
     "Roblox/foreman",
     "rust-bio/rust-htslib",
     "rust-bitcoin/rust-bitcoincore-rpc",
-    "rust-embedded-community/serde-json-core",
     "rust-lang/backtrace-rs",
     "rust-windowing/gl-rs",
     "rusticstuff/simdutf8",

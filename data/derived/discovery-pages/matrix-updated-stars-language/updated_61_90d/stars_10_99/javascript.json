@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 189,
-    "concepts": 48,
-    "observations": 48,
+    "components": 177,
+    "concepts": 50,
+    "observations": 50,
     "repos": 17,
-    "terms": 48
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "a5huynh/vscode-ron",
     "ably-labs/realtime-multiplayer-space-invaders",
@@ -21,7 +21,6 @@
     "broccolijs/broccoli-plugin",
     "chrisdickinson/varint",
     "coderaiser/estree-to-babel",
-    "coderaiser/mock-import",
     "hudochenkov/stylelint-config-hudochenkov",
     "hyparam/hysnappy",
     "ipld/js-dag-pb",
@@ -30,6 +29,7 @@
     "mongodb-js/zstd",
     "OpenHands/openhands-chrome-extension",
     "Rob--W/proxy-from-env",
-    "ruby/setup-ruby-pkgs"
+    "ruby/setup-ruby-pkgs",
+    "tc39/proposal-immutable-arraybuffer"
   ]
 }

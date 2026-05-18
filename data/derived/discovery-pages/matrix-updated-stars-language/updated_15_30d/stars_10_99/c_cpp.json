@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 325,
-    "concepts": 377,
-    "observations": 377,
-    "repos": 64,
-    "terms": 374
+    "components": 315,
+    "concepts": 375,
+    "observations": 375,
+    "repos": 62,
+    "terms": 372
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "8144225309/SuperScalar",
@@ -27,6 +27,7 @@
     "boostorg/config",
     "BrianPugh/tamp",
     "bufbuild/protovalidate-cc",
+    "compiler-research/CppInterOp",
     "confluentinc/libserdes",
     "DavidKinder/Windows-Inform7",
     "DeepLink-org/DLSlime",
@@ -55,12 +56,9 @@
     "llnl/camp",
     "lxqt/liblxqt",
     "lxqt/libqtxdg",
-    "marciogranzotto/clawd-tank",
     "Mbed-TLS/TF-PSA-Crypto",
     "microsoft/aitour-exploring-cutting-edge-models",
     "milvus-io/milvus-sdk-cpp",
-    "mitsuba-renderer/nanothread",
-    "mybigday/llama.node",
     "narugit/smctemp",
     "nx10/unigd",
     "oneapi-src/unified-memory-framework",

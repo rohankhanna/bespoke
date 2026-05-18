@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1993,
-    "concepts": 1824,
-    "observations": 1830,
-    "repos": 810,
-    "terms": 1818
+    "components": 1994,
+    "concepts": 1826,
+    "observations": 1832,
+    "repos": 811,
+    "terms": 1820
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x7432/asm-ru",
@@ -288,7 +288,6 @@
     "dmitmel/cmp-digraphs",
     "Dogwei/RyuCsharp",
     "dom8509/logseq-to-markdown",
-    "Dominaezzz/kotlin-imgui",
     "domino-osgi/domino",
     "donny741/ruby-lsp-factory_bot",
     "DoodleBears/split-lang",
@@ -318,6 +317,7 @@
     "egoist/vue-bytesize-icons",
     "eki3z/git-cliff.el",
     "elaforge/fast-tags",
+    "eliasdaler/imgui-sfml-fetchcontent",
     "elixir-makeup/makeup_elixir",
     "elixir-makeup/makeup_html",
     "ElsaTam/Obsidian-Stuff",
@@ -676,6 +676,7 @@
     "red-data-tools/matplotlib.rb",
     "red-data-tools/numpy.rb",
     "redis-stack/helm-redis-stack",
+    "rejeep/ansi.el",
     "rejeep/commander.el",
     "rejeep/ert-runner.el",
     "restic/builder",

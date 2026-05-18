@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3910,
-    "concepts": 744,
-    "observations": 745,
-    "repos": 101,
-    "terms": 739
+    "components": 3844,
+    "concepts": 737,
+    "observations": 738,
+    "repos": 99,
+    "terms": 732
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "alphagov/govuk-frontend",
@@ -28,6 +28,7 @@
     "Blockstream/esplora",
     "BrowserWorks/waterfox",
     "brunch/brunch",
+    "carbon-design-system/carbon",
     "coderaiser/cloudcmd",
     "conventional-changelog/standard-version",
     "DavidAnson/markdownlint",
@@ -65,6 +66,7 @@
     "mermaid-js/mermaid-cli",
     "micromatch/picomatch",
     "middyjs/middy",
+    "MikeMcl/bignumber.js",
     "minio/minio-js",
     "mozilla/rhino",
     "mozilla/web-ext",
@@ -74,11 +76,9 @@
     "nodegit/nodegit",
     "nodejs/Release",
     "nodejs/undici",
-    "npm/cli",
     "observing/pre-commit",
     "openstreetmap/iD",
     "parallel-js/parallel.js",
-    "piebald-ai/claude-code-system-prompts",
     "pillarjs/iconv-lite",
     "pmmmwh/react-refresh-webpack-plugin",
     "postcss/postcss-import",
@@ -90,7 +90,6 @@
     "RisingStack/react-easy-state",
     "rullerzhou-afk/clawd-on-desk",
     "SabakiHQ/Sabaki",
-    "serverless-operations/serverless-step-functions",
     "sindresorhus/np",
     "stdlib-js/stdlib",
     "sveltejs/vite-plugin-svelte",
@@ -102,7 +101,6 @@
     "terser/terser",
     "testem/testem",
     "thlorenz/doctoc",
-    "tomas/needle",
     "tw-in-js/twind",
     "umijs/dumi",
     "unifiedjs/unified",

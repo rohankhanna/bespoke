@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 710,
-    "concepts": 153,
-    "observations": 154,
-    "repos": 28,
+    "components": 782,
+    "concepts": 154,
+    "observations": 155,
+    "repos": 30,
     "terms": 154
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
+    "21st-dev/magic-mcp",
     "actions/checkout",
     "antfu/drauu",
     "EventSource/eventsource",
@@ -33,6 +34,7 @@
     "PaulLeCam/react-leaflet",
     "react-native-netinfo/react-native-netinfo",
     "ricky0123/vad",
+    "RobinBlomberg/kysely-codegen",
     "styleguidist/react-docgen-typescript",
     "supermacro/neverthrow",
     "tancredi/fantasticon",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1076,
-    "concepts": 250,
-    "observations": 252,
-    "repos": 67,
-    "terms": 257
+    "components": 1015,
+    "concepts": 245,
+    "observations": 247,
+    "repos": 61,
+    "terms": 252
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,19 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "AdguardTeam/FiltersCompiler",
-    "ahmadnassri/node-glob-promise",
     "alangdm/helium-animated-pages",
     "alexellis/arkade-get",
     "apollographql/connectors-community",
     "aws-samples/aws-sdk-js-tests",
-    "bmad-code-org/bmad-method-test-architecture-enterprise",
     "browserslist/lint",
     "bufbuild/protobuf-conformance",
     "coasys/ad4m",
     "ember-cli/ember-app-blueprint",
     "Eonic/ProteanCMS",
-    "erichlof/AntiGravity-Pool",
-    "erichlof/PathTracedPong",
-    "erichlof/TheSentinel-2nd-Look",
     "gacts/install-dnscontrol",
     "galaxyproteomics/tools-galaxyp",
     "GuillaumeGomez/browser-UI-test",
@@ -79,7 +74,6 @@
     "ultralytics/llm",
     "web-platform-tests/results-analysis",
     "webtorrent/bittorrent-lsd",
-    "winstonjs/winston-transport",
     "wyyazlz/sheetnext"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 983,
-    "concepts": 146,
-    "observations": 147,
-    "repos": 34,
-    "terms": 156
+    "components": 1046,
+    "concepts": 186,
+    "observations": 187,
+    "repos": 38,
+    "terms": 200
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
+    "aelassas/bookcars",
     "agentscope-ai/agentscope-studio",
     "antfu-collective/bumpp",
     "antfu/changelogithub",
@@ -26,6 +27,7 @@
     "ethereum/staking-launchpad",
     "fnando/i18n",
     "googleapis/nodejs-datastore",
+    "graphql-hive/graphql-eslint",
     "h3js/rou3",
     "hyparam/hightable",
     "import-js/eslint-import-resolver-typescript",
@@ -40,8 +42,10 @@
     "Piebald-AI/gemini-cli-desktop",
     "priceline/design-system",
     "solidjs/templates",
+    "sudocode-ai/sudocode",
     "sveltejs/prettier-plugin-svelte",
     "testing-library/angular-testing-library",
+    "thesayyn/protoc-gen-ts",
     "trzsz/trzsz.js",
     "un-ts/eslint-plugin-import-x",
     "unplugin/unplugin-vue-markdown",

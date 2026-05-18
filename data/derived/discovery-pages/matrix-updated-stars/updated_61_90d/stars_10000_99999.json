@@ -1,21 +1,20 @@
 {
   "counts": {
-    "components": 556,
-    "concepts": 365,
-    "observations": 368,
-    "repos": 61,
-    "terms": 371
+    "components": 542,
+    "concepts": 353,
+    "observations": 355,
+    "repos": 60,
+    "terms": 359
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
-    "antlr/antlr4",
     "aria2/aria2",
     "bol-van/zapret",
     "bootandy/dust",

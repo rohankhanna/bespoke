@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-05-17T08:38:41.992611+00:00`
+Generated at: `2026-05-18T05:56:44.543192+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 16
-- components: 23
-- concepts: 16
-- observations: 16
+- repos: 1
+- terms: 10
+- components: 13
+- concepts: 10
+- observations: 10
 
 ## Static behavior
 
@@ -26,12 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16443 | 2026-05-17T06:51:20Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
-| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15203 | 2026-05-16T09:38:35Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
+| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16445 | 2026-05-17T20:04:08Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16443 | 2026-05-17T06:51:20Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
-| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15203 | 2026-05-16T09:38:35Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
+| [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16445 | 2026-05-17T20:04:08Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |

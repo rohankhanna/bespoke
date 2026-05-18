@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-17T08:38:41.992611+00:00`
+Generated at: `2026-05-18T05:56:44.543192+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 13
+- repos: 1
+- terms: 8
 - components: 0
-- concepts: 13
-- observations: 13
+- concepts: 8
+- observations: 8
 
 ## Static behavior
 
@@ -26,12 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka) | 974 | 2026-05-16T19:01:28Z | C/C++ | Library | 8 | 0 | 8 | 8 |
-| [ipsilon/evmone](https://github.com/ipsilon/evmone) | 975 | 2026-05-16T18:48:45Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
+| [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka) | 974 | 2026-05-17T12:43:45Z | C/C++ | Library | 8 | 0 | 8 | 8 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ipsilon/evmone](https://github.com/ipsilon/evmone) | 975 | 2026-05-16T18:48:45Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
-| [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka) | 974 | 2026-05-16T19:01:28Z | C/C++ | Library | 8 | 0 | 8 | 8 |
+| [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka) | 974 | 2026-05-17T12:43:45Z | C/C++ | Library | 8 | 0 | 8 | 8 |

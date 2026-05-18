@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 75,
-    "concepts": 96,
-    "observations": 96,
-    "repos": 8,
-    "terms": 96
+    "components": 58,
+    "concepts": 83,
+    "observations": 83,
+    "repos": 7,
+    "terms": 83
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "bazel-contrib/bazel-gazelle",
-    "cosmos/cosmos-sdk",
     "crazy-max/diun",
     "elastic/cloud-on-k8s",
     "gookit/goutil",

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-17T08:38:41.992611+00:00`
+Generated at: `2026-05-18T05:56:44.543192+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 48
-- components: 218
-- concepts: 48
-- observations: 48
+- repos: 2
+- terms: 21
+- components: 318
+- concepts: 21
+- observations: 21
 
 ## Static behavior
 
@@ -26,14 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [module-federation/core](https://github.com/module-federation/core) | 2522 | 2026-05-17T07:01:48Z | JavaScript | Infrastructure/tooling | 13 | 159 | 13 | 13 |
-| [endojs/endo](https://github.com/endojs/endo) | 1022 | 2026-05-16T20:19:49Z | JavaScript | Infrastructure/tooling | 17 | 50 | 17 | 17 |
-| [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 5320 | 2026-05-16T12:02:34Z | JavaScript | Infrastructure/tooling | 18 | 9 | 18 | 18 |
+| [ipfs/ipfs-webui](https://github.com/ipfs/ipfs-webui) | 1632 | 2026-05-17T12:27:15Z | JavaScript | Infrastructure/tooling | 8 | 159 | 8 | 8 |
+| [module-federation/core](https://github.com/module-federation/core) | 2521 | 2026-05-17T07:01:48Z | JavaScript | Infrastructure/tooling | 13 | 159 | 13 | 13 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 5320 | 2026-05-16T12:02:34Z | JavaScript | Infrastructure/tooling | 18 | 9 | 18 | 18 |
-| [module-federation/core](https://github.com/module-federation/core) | 2522 | 2026-05-17T07:01:48Z | JavaScript | Infrastructure/tooling | 13 | 159 | 13 | 13 |
-| [endojs/endo](https://github.com/endojs/endo) | 1022 | 2026-05-16T20:19:49Z | JavaScript | Infrastructure/tooling | 17 | 50 | 17 | 17 |
+| [module-federation/core](https://github.com/module-federation/core) | 2521 | 2026-05-17T07:01:48Z | JavaScript | Infrastructure/tooling | 13 | 159 | 13 | 13 |
+| [ipfs/ipfs-webui](https://github.com/ipfs/ipfs-webui) | 1632 | 2026-05-17T12:27:15Z | JavaScript | Infrastructure/tooling | 8 | 159 | 8 | 8 |

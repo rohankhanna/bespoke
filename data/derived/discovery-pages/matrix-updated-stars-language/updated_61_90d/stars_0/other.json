@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 8,
-    "terms": 14
+    "components": 27,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 9,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
-    "AdaCore/vss-text",
     "Bearer/homebrew-tap",
+    "bookcars/bookcars.github.io",
     "danielrosehill/Israel-First-Aid",
     "mjvolk3/dendron-template",
     "musicman3/r2-d2",
+    "Nichaojun/Nichaojun.github.io",
     "onomojo/i18n-country-translations-ex",
     "onomojo/i18n-timezones-ex",
     "stable-haskell/stack"

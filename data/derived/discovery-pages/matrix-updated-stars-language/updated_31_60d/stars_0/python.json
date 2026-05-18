@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 15,
-    "terms": 30
+    "components": 32,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 14,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "aayushbhaskar/OpenCouncil",
     "adammes/voyanode",
@@ -22,7 +22,6 @@
     "danielrosehill/Red-Alert-Monitoring-Stack",
     "devnen/chatterbox-v2",
     "iandees/scrapy-camoufox",
-    "marin-community/harbor",
     "mitchuski/agentprivacy-skills",
     "Nambers/ssrJSON-benchmark",
     "nibir1/vaultsim",

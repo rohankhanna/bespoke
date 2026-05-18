@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4890,
-    "concepts": 1010,
-    "observations": 1012,
+    "components": 5033,
+    "concepts": 1034,
+    "observations": 1036,
     "repos": 155,
-    "terms": 1035
+    "terms": 1057
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
@@ -37,6 +37,7 @@
     "bitwarden/directory-connector",
     "blrchen/chatgpt-lite",
     "browserslist/browserslist-useragent-regexp",
+    "carbon-design-system/carbon-components-angular",
     "carbon-design-system/sveld",
     "chainguard-dev/actions",
     "charmbracelet/vhs-action",
@@ -63,6 +64,7 @@
     "folke/esbuild-runner",
     "forcedotcom/code-analyzer",
     "fsouza/prettierd",
+    "ftonato/nope-validator",
     "fullcalendar/temporal-polyfill",
     "github/local-action",
     "glassflow/clickhouse-etl",
@@ -106,12 +108,12 @@
     "milvus-io/milvus-sdk-node",
     "mmkal/expect-type",
     "mskelton/eslint-plugin-playwright",
+    "mswjs/interceptors",
     "napi-rs/package-template",
     "nene/prettier-plugin-sql-cst",
     "nene/sql-parser-cst",
     "nonara/ts-patch",
     "nuxt/bridge",
-    "nyatinte/ccexp",
     "oclif/core",
     "octokit/action.js",
     "octokit/app.js",
@@ -140,9 +142,6 @@
     "sapphiredev/utilities",
     "sass/embedded-host-node",
     "sergiodxa/remix-i18next",
-    "Shougo/ddc.vim",
-    "Shougo/ddu.vim",
-    "Shougo/dpp.vim",
     "SkepticMystic/breadcrumbs",
     "smithy-lang/smithy-typescript",
     "Softeria/ms-365-mcp-server",
@@ -168,6 +167,7 @@
     "unjs/unimport",
     "vibe-log/vibe-log-cli",
     "web-infra-dev/rslib",
-    "web-infra-dev/rstest"
+    "web-infra-dev/rstest",
+    "wevm/abitype"
   ]
 }

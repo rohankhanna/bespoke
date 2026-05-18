@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 80,
-    "concepts": 90,
-    "observations": 91,
-    "repos": 7,
-    "terms": 90
+    "components": 54,
+    "concepts": 43,
+    "observations": 44,
+    "repos": 4,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "dotnet/aspnetcore",
     "dotnet/AspNetCore.Docs",
-    "hagezi/dns-blocklists",
-    "kubernetes-sigs/kubespray",
     "mixmark-io/turndown",
-    "MudBlazor/MudBlazor",
-    "phpstan/phpstan"
+    "MudBlazor/MudBlazor"
   ]
 }

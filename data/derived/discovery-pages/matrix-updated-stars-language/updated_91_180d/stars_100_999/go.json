@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 189,
-    "concepts": 224,
-    "observations": 224,
-    "repos": 36,
-    "terms": 221
+    "components": 196,
+    "concepts": 234,
+    "observations": 234,
+    "repos": 37,
+    "terms": 231
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "aws-observability/aws-otel-collector",
@@ -33,10 +33,10 @@
     "firecracker-microvm/firectl",
     "fumiama/RVC-Models-Downloader",
     "github/smimesign",
-    "google/rpmpack",
     "IBM/FfDL",
     "InftyAI/llmaz",
     "ipfs/go-ds-s3",
+    "ipfs/go-graphsync",
     "kubernetes-sigs/yaml",
     "lightningnetwork/lightning-onion",
     "liquidmetal-dev/cluster-api-provider-microvm",
@@ -48,6 +48,7 @@
     "oceanbase/ob-operator",
     "phodal/coca",
     "proxy-wasm/proxy-wasm-go-sdk",
+    "slinso/goTemplateBenchmark",
     "spacemeshos/go-spacemesh",
     "sugarme/tokenizer"
   ]

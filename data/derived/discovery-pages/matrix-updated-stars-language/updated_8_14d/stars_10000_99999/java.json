@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 2,
-    "terms": 29
+    "components": 4,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 1,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
-    "openjdk/jdk",
-    "redisson/redisson"
+    "openjdk/jdk"
   ]
 }

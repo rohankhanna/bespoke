@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 284,
-    "concepts": 416,
-    "observations": 416,
+    "components": 278,
+    "concepts": 427,
+    "observations": 427,
     "repos": 105,
-    "terms": 412
+    "terms": 423
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "absadiki/pywhispercpp",
     "actionless/pikaur",
+    "Advocate99/DiffGesture",
     "aigc3d/LHM-plusplus",
     "alexei-led/aws-mcp-server",
     "alibaba/TinyNeuralNetwork",
@@ -41,9 +42,7 @@
     "DanCardin/cappa",
     "danielward27/flowjax",
     "dask/fastparquet",
-    "deepbeepmeep/mmgp",
     "djcopley/ShellOracle",
-    "drivendataorg/zamba",
     "facebookresearch/CodeGen",
     "Fitzgerald-Porthmouth-Koenigsegg/Planschrift_Project",
     "FlagOpen/RoboBrain2.5",
@@ -68,6 +67,7 @@
     "jayleicn/moment_detr",
     "jsegov/autoresearch-win-rtx",
     "kijai/ComfyUI-DepthAnythingV2",
+    "lartpang/PySODMetrics",
     "lessw2020/Ranger21",
     "lxgw/LxgwMarkerGothic",
     "madebyollin/taehv",
@@ -111,9 +111,9 @@
     "vietanhdev/samexporter",
     "Visual-Agent/DeepEyesV2",
     "wenet-e2e/WeTextProcessing",
-    "whatwg/meta",
     "WujiangXu/A-mem",
     "WujiangXu/A-mem-sys",
+    "xlite-dev/Awesome-DiT-Inference",
     "yanring/Megatron-MoE-ModelZoo",
     "YosysHQ/prjtrellis",
     "yuliangguo/3D_Lane_Synthetic_Dataset",

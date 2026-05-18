@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 5,
-    "terms": 41
+    "components": 14,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 4,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "jcefmaven/jcefmaven",
     "jdereg/json-io",
     "KosherJava/zmanim",
-    "mapsforge/vtm",
-    "processing/processing4"
+    "mapsforge/vtm"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1953,
-    "concepts": 1310,
-    "observations": 1314,
+    "components": 1965,
+    "concepts": 1341,
+    "observations": 1344,
     "repos": 131,
-    "terms": 1308
+    "terms": 1339
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "abpframework/abp",
@@ -25,7 +25,6 @@
     "apache/apisix",
     "apache/spark",
     "App-vNext/Polly",
-    "apple/container",
     "ardalis/CleanArchitecture",
     "AssemblyScript/assemblyscript",
     "autowarefoundation/autoware",
@@ -71,6 +70,7 @@
     "GoogleContainerTools/distroless",
     "gradle/gradle",
     "hadolint/hadolint",
+    "hagezi/dns-blocklists",
     "Heapy/awesome-kotlin",
     "Homebrew/brew",
     "Homebrew/homebrew-cask",
@@ -87,7 +87,7 @@
     "keeweb/keeweb",
     "koreader/koreader",
     "Kotlin/kotlinx.coroutines",
-    "kubernetes/community",
+    "kubernetes-sigs/kubespray",
     "llvm/llvm-project",
     "logseq/logseq",
     "MagicStack/uvloop",
@@ -113,6 +113,7 @@
     "OpenZeppelin/openzeppelin-contracts",
     "oven-sh/bun",
     "phoenixframework/phoenix",
+    "phpstan/phpstan",
     "PowerShell/PowerShell",
     "rails/rails",
     "rapid7/metasploit-framework",
@@ -123,7 +124,6 @@
     "SaschaWillems/Vulkan",
     "ScoopInstaller/Scoop",
     "sebastianbergmann/phpunit",
-    "semgrep/semgrep",
     "shadowsocks/shadowsocks-android",
     "shap/shap",
     "Shopify/liquid",

@@ -1,23 +1,23 @@
 {
   "counts": {
-    "components": 140,
-    "concepts": 73,
-    "observations": 74,
-    "repos": 42,
-    "terms": 72
+    "components": 155,
+    "concepts": 77,
+    "observations": 78,
+    "repos": 44,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "0xBigBoss/ghostty-web",
     "8144225309/superscalar-mcp",
     "abbhisap/LLM-Council-SAP",
-    "AdaCore/vss-text",
     "Bearer/homebrew-tap",
+    "bookcars/bookcars.github.io",
     "CharlieFRuan/harbor",
     "ChiehHsinJesseLai/ctm-notebook",
     "cwfitzgerald/libtest-mimic",
@@ -35,8 +35,10 @@
     "hermit-os/tokio",
     "iambriccardo/gcp-bigquery-client",
     "jrsoftware/is7z",
+    "marin-community/harbor",
     "mjvolk3/dendron-template",
     "musicman3/r2-d2",
+    "Nichaojun/Nichaojun.github.io",
     "onomojo/i18n-country-translations-data",
     "onomojo/i18n-country-translations-ex",
     "onomojo/i18n-country-translations-go",

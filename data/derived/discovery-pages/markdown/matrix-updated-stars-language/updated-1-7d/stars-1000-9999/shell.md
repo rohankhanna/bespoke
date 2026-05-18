@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · Shell
 
-Generated at: `2026-05-17T08:38:41.992611+00:00`
+Generated at: `2026-05-18T05:56:44.543192+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 26
-- components: 34
-- concepts: 28
-- observations: 28
+- repos: 3
+- terms: 18
+- components: 29
+- concepts: 20
+- observations: 20
 
 ## Static behavior
 
@@ -26,8 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ROCm/ROCm](https://github.com/ROCm/ROCm) | 6496 | 2026-05-16T01:17:56Z | Shell | Infrastructure/tooling | 3 | 3 | 3 | 3 |
-| [webinstall/webi-installers](https://github.com/webinstall/webi-installers) | 2872 | 2026-05-15T00:15:45Z | Shell | Infrastructure/tooling | 8 | 5 | 8 | 8 |
+| [ROCm/ROCm](https://github.com/ROCm/ROCm) | 6499 | 2026-05-16T01:17:56Z | Shell | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [scop/bash-completion](https://github.com/scop/bash-completion) | 3432 | 2026-05-13T08:50:32Z | Shell | Infrastructure/tooling | 6 | 11 | 8 | 8 |
 | [nodenv/nodenv](https://github.com/nodenv/nodenv) | 2375 | 2026-05-12T21:13:37Z | Shell | Infrastructure/tooling | 9 | 15 | 9 | 9 |
 
@@ -35,7 +34,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ROCm/ROCm](https://github.com/ROCm/ROCm) | 6496 | 2026-05-16T01:17:56Z | Shell | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [ROCm/ROCm](https://github.com/ROCm/ROCm) | 6499 | 2026-05-16T01:17:56Z | Shell | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [scop/bash-completion](https://github.com/scop/bash-completion) | 3432 | 2026-05-13T08:50:32Z | Shell | Infrastructure/tooling | 6 | 11 | 8 | 8 |
-| [webinstall/webi-installers](https://github.com/webinstall/webi-installers) | 2872 | 2026-05-15T00:15:45Z | Shell | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [nodenv/nodenv](https://github.com/nodenv/nodenv) | 2375 | 2026-05-12T21:13:37Z | Shell | Infrastructure/tooling | 9 | 15 | 9 | 9 |

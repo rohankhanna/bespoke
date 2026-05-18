@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1232,
-    "concepts": 183,
-    "observations": 184,
-    "repos": 52,
-    "terms": 203
+    "components": 1326,
+    "concepts": 197,
+    "observations": 198,
+    "repos": 57,
+    "terms": 223
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
@@ -20,14 +20,18 @@
     "agents-squads/squads-cli",
     "apache/incubator-devlake-website",
     "automazeio/proof",
+    "ava-labs/avalanche-dapp-sdks",
     "aws-samples/aws-sdk-js-notes-app",
     "awslabs/wdio-aws-device-farm-service",
+    "Beaglefoot/prettier-plugin-awk",
     "bestkolobok/vue3-jsoneditor",
     "blrchen/chatgpt-minimal",
     "buddingnewinsights/proxypal",
     "buttondown/cli",
     "cahamilton/stylelint-config-property-sort-order-smacss",
     "codemirror/language",
+    "darkriszty/MarkdownTablePrettify-VSCodeExt",
+    "dokploy/cli",
     "electron-userland/electron-windows-msix",
     "ElementsProject/cln-application",
     "gicentre/prettier-plugin-elm",
@@ -63,8 +67,9 @@
     "Shougo/dpp-ext-installer",
     "skilld-dev/retriv",
     "solidjs-community/storybook",
-    "storybookjs/addon-coverage",
     "TravisTheTechie/vscode-write-good",
-    "zhayujie/cow-skill-hub"
+    "ylsssq926/relic.skill",
+    "zhayujie/cow-skill-hub",
+    "zuplo/docs"
   ]
 }

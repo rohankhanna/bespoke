@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 178,
-    "concepts": 111,
-    "observations": 111,
-    "repos": 100,
-    "terms": 111
+    "components": 181,
+    "concepts": 112,
+    "observations": 112,
+    "repos": 101,
+    "terms": 112
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "2KAbhishek/exercism-fetcher",
     "3b/cl-vulkan",
@@ -97,6 +97,7 @@
     "MolotovCherry/tree-sitter-wasm",
     "mzr1996/pytorch_sphinx_theme",
     "oneflow-inc/docker-images",
+    "opentk/glfw-redist",
     "pgvector/pgvector-ada",
     "rlancemartin/LLMTest_NeedleInAHaystack",
     "RohanVashisht1234/justperfect",

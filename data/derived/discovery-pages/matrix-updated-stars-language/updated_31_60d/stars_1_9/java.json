@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 5,
-    "terms": 28
+    "components": 16,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 4,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
-    "filip26/copper-multibase",
     "filip26/tree-io",
     "graalvm/mandrel-packaging",
     "revelc/formatter-m2e-configurator",

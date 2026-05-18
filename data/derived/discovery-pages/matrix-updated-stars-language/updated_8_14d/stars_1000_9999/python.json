@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 112,
-    "concepts": 135,
-    "observations": 138,
-    "repos": 17,
-    "terms": 135
+    "components": 66,
+    "concepts": 91,
+    "observations": 94,
+    "repos": 12,
+    "terms": 91
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
-    "AI-Hypercomputer/maxtext",
     "apify/agent-skills",
     "arcee-ai/mergekit",
     "funstory-ai/BabelDOC",
-    "geopandas/geopandas",
+    "ggozad/oterm",
     "google-deepmind/sonnet",
     "magenta/ddsp",
-    "mesonbuild/meson",
     "meta-pytorch/captum",
-    "meta-pytorch/data",
     "mikel-brostrom/boxmot",
     "openvpi/DiffSinger",
     "PaddlePaddle/FastDeploy",
-    "starVLA/starVLA",
     "strob/gentle",
-    "vyperlang/vyper",
-    "zarr-developers/zarr-python"
+    "vyperlang/vyper"
   ]
 }

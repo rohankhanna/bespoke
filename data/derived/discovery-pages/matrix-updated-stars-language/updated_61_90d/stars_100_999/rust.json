@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 179,
-    "concepts": 120,
-    "observations": 120,
+    "components": 182,
+    "concepts": 117,
+    "observations": 118,
     "repos": 32,
-    "terms": 119
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
     "bet4it/udbserver",
@@ -24,7 +24,6 @@
     "filecoin-project/rust-fil-proofs",
     "gfx-rs/rspirv",
     "gwihlidal/vk-mem-rs",
-    "hecrj/icebreaker",
     "ItsEthra/typst-live",
     "IWANABETHATGUY/tower-lsp-boilerplate",
     "Kampfkarren/selene",
@@ -33,6 +32,7 @@
     "LukasKalbertodt/libtest-mimic",
     "matsadler/magnus",
     "mozilla/dump_syms",
+    "near/borsh-rs",
     "pdf-rs/pdf_render",
     "prisma/tiberius",
     "rust-native-tls/rust-native-tls",

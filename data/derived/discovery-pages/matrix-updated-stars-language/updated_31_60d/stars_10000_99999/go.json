@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 206,
-    "concepts": 243,
-    "observations": 243,
-    "repos": 23,
-    "terms": 237
+    "components": 260,
+    "concepts": 286,
+    "observations": 286,
+    "repos": 28,
+    "terms": 282
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "abiosoft/colima",
@@ -21,16 +21,21 @@
     "charmbracelet/gum",
     "charmbracelet/vhs",
     "chromedp/chromedp",
+    "containerd/containerd",
+    "coreybutler/nvm-windows",
+    "danielmiessler/fabric",
     "direnv/direnv",
     "ent/ent",
     "evanw/esbuild",
     "google/cadvisor",
     "hibiken/asynq",
     "Jguer/yay",
+    "kubernetes-sigs/kustomize",
     "kubernetes/ingress-nginx",
     "kubernetes/kompose",
     "labstack/echo",
     "Mrs4s/go-cqhttp",
+    "nektos/act",
     "ory/hydra",
     "panjf2000/ants",
     "panjf2000/gnet",

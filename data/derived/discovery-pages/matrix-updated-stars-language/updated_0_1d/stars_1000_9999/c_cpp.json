@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 2,
-    "terms": 22
+    "components": 16,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 3,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "harfbuzz/harfbuzz",
-    "swiftlang/swift-llbuild"
+    "swiftlang/swift-llbuild",
+    "TrenchBroom/TrenchBroom"
   ]
 }

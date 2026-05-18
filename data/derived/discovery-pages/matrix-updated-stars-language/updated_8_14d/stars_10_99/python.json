@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 29,
+    "components": 17,
     "concepts": 15,
     "observations": 15,
     "repos": 5,
@@ -12,11 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "Agnuxo1/CAJAL",
     "braelyn-ai/mob",
-    "dora-rs/dora-hub",
+    "intel-staging/text-generation-webui",
     "python-jsonschema/referencing",
     "yulewang97/ERDiff"
   ]

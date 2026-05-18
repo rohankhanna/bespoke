@@ -3,7 +3,7 @@
     "components": 4,
     "concepts": 26,
     "observations": 26,
-    "repos": 9,
+    "repos": 10,
     "terms": 26
   },
   "facet_version": 1,
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "akuity/awesome-argo",
     "android/ndk",
     "docker/for-mac",
     "estree/estree",
+    "lxgw/LxgwWenKai-Screen",
     "obsidianmd/obsidian-api",
     "orogene/orogene",
     "r-lyeh/single_file_libs",

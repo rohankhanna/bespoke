@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 764,
-    "concepts": 749,
-    "observations": 750,
-    "repos": 192,
-    "terms": 743
+    "components": 775,
+    "concepts": 752,
+    "observations": 753,
+    "repos": 193,
+    "terms": 746
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -28,6 +28,7 @@
     "ap/vim-buftabline",
     "archguard/archguard",
     "arnetheduck/nim-results",
+    "arnetheduck/nph",
     "astoff/digestif",
     "atomontage/xterm-color",
     "auto-complete/popup-el",

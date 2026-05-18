@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 776,
-    "concepts": 95,
-    "observations": 96,
-    "repos": 8,
-    "terms": 95
+    "components": 204,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 4,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
-    "danny-avila/LibreChat",
-    "maplibre/maplibre-gl-js",
     "mobxjs/mobx",
-    "nrwl/nx",
     "puppeteer/puppeteer",
-    "react-hook-form/react-hook-form",
     "vitejs/vite",
     "vuejs/core"
   ]

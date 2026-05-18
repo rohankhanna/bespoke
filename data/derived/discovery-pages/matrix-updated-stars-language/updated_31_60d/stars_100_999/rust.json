@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 468,
-    "concepts": 368,
-    "observations": 376,
-    "repos": 84,
-    "terms": 368
+    "components": 526,
+    "concepts": 403,
+    "observations": 411,
+    "repos": 90,
+    "terms": 403
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "a1phyr/assets_manager",
     "AchetaGames/Epic-Asset-Manager",
+    "ada-url/rust",
     "alex/rust-asn1",
     "alexheretic/glyph-brush",
     "alloy-rs/core",
@@ -26,13 +27,16 @@
     "azdavis/millet",
     "cargo-lambda/cargo-lambda",
     "cedar-policy/cedar-examples",
+    "cometbft/tendermint-rs",
     "containers/aardvark-dns",
     "cosmos/ics23",
     "cpmech/russell",
     "crate-ci/committed",
+    "criterion-rs/criterion.rs",
     "cryscan/web-rwkv",
     "ctz/graviola",
     "dalance/ptags",
+    "denoland/deno_doc",
     "dfrg/swash",
     "dimforge/parry",
     "djc/tokio-retry",
@@ -63,11 +67,12 @@
     "kaj/ructe",
     "kakoune-lsp/kakoune-lsp",
     "Kampfkarren/full-moon",
+    "kylebarron/parquet-wasm",
     "lambdaclass/lambdaworks",
     "lbcb-sci/herro",
     "matrix-org/seshat",
     "mitsuhiko/similar-asserts",
-    "near/borsh-rs",
+    "nielsgroen/claude-tmux",
     "nix-community/lorri",
     "nixops4/nixops4",
     "Nugine/simd",
@@ -95,6 +100,7 @@
     "sparsemat/sprs",
     "tauri-apps/muda",
     "tikv/jemallocator",
+    "tracel-ai/models",
     "Traverse-Research/gpu-allocator",
     "yeslogic/allsorts",
     "zimbatm/mdsh"

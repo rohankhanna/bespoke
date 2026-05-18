@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 519,
-    "concepts": 621,
-    "observations": 621,
-    "repos": 279,
-    "terms": 618
+    "components": 525,
+    "concepts": 625,
+    "observations": 625,
+    "repos": 282,
+    "terms": 622
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
@@ -39,6 +39,7 @@
     "aqtq314/World.NET",
     "aquaskyline/LRSIM",
     "arangrhie/merfin",
+    "aras-p/demo-pd-cranktheworld",
     "arshajii/ema",
     "arturbac/simple_enum",
     "aseprite/undo",
@@ -59,6 +60,7 @@
     "blackhole89/autopen",
     "bnoordhuis/punycode",
     "BoukeHaarsma23/zenergy",
+    "bqqbarbhg/spear",
     "brj0/nndescent",
     "BrowserJam/jam001",
     "bryanp/llhttp",
@@ -104,6 +106,7 @@
     "electronicsguy/HTTPSRedirect",
     "elem-azar-unis/CRDT-Redis",
     "eliabieri/blnscpp",
+    "eliasdaler/cmake-fetchcontent-tutorial-code",
     "eliemichel/sdl2webgpu",
     "eliemichel/sdl3webgpu",
     "eliemichel/WebGPU-raii",

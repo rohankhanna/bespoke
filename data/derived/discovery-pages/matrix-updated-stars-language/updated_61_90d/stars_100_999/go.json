@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 156,
-    "concepts": 181,
-    "observations": 182,
-    "repos": 28,
-    "terms": 181
+    "components": 151,
+    "concepts": 173,
+    "observations": 174,
+    "repos": 27,
+    "terms": 173
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "alexkohler/prealloc",
     "anacrolix/dht",
@@ -28,9 +28,9 @@
     "gost-dom/browser",
     "hashicorp/raft-boltdb",
     "hebcal/hebcal",
-    "ipfs/go-graphsync",
     "itzg/rcon-cli",
     "JupiterRider/purego-sdl3",
+    "kubernetes-sigs/cluster-proportional-autoscaler",
     "kubernetes-sigs/kubetest2",
     "maykonlsf/semver-cli",
     "medama-io/medama",
@@ -40,7 +40,6 @@
     "omniscale/imposm3",
     "opencontainers/runtime-tools",
     "secretflow/scql",
-    "slinso/goTemplateBenchmark",
     "withastro/compiler"
   ]
 }

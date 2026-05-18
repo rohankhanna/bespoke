@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 270,
-    "concepts": 575,
-    "observations": 575,
-    "repos": 101,
-    "terms": 570
+    "concepts": 583,
+    "observations": 583,
+    "repos": 102,
+    "terms": 578
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "adobe-fonts/source-han-sans",
     "ageitgey/face_recognition",
@@ -101,6 +101,7 @@
     "Rudrabha/Wav2Lip",
     "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
     "Sanster/IOPaint",
+    "sczhou/CodeFormer",
     "SesameAILabs/csm",
     "svc-develop-team/so-vits-svc",
     "tatsu-lab/stanford_alpaca",

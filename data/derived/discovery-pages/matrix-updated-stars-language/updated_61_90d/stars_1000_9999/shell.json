@@ -3,8 +3,8 @@
     "components": 16,
     "concepts": 37,
     "observations": 37,
-    "repos": 11,
-    "terms": 34
+    "repos": 12,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "agenticnotetaking/arscontexta",
+    "automazeio/ccpm",
     "blader/claudeception",
     "just-containers/s6-overlay",
     "KittyKatt/screenFetch",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 53,
-    "observations": 54,
-    "repos": 4,
-    "terms": 53
+    "components": 71,
+    "concepts": 78,
+    "observations": 79,
+    "repos": 6,
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "apache/casbin",
+    "gastownhall/gastown",
     "gitleaks/gitleaks",
     "moby/moby",
+    "mudler/LocalAI",
     "redis/go-redis"
   ]
 }

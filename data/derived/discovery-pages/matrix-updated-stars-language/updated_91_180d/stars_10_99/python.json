@@ -3,7 +3,7 @@
     "components": 184,
     "concepts": 227,
     "observations": 228,
-    "repos": 96,
+    "repos": 97,
     "terms": 235
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -34,6 +34,7 @@
     "BoosterRobotics/booster_deploy",
     "brentyi/jax_dataclasses",
     "Bujiazi/DiCache",
+    "camel-ai/seta",
     "ChenMnZ/INT_vs_FP",
     "ChenShawn/MultiModal-Jupyter-Sandbox",
     "CMBAgents/cmbagent",

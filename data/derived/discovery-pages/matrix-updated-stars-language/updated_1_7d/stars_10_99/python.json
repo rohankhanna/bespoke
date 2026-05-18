@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 50,
-    "concepts": 18,
-    "observations": 18,
+    "components": 47,
+    "concepts": 16,
+    "observations": 16,
     "repos": 7,
-    "terms": 18
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "apify/actor-templates",
     "baicai-1145/GPT-SoVITS-CPUFast",
     "google-research/mseb",
+    "goombalab/raven",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
-    "intel-staging/text-generation-webui",
     "mesh-iit/cad-libraries",
     "version-fox/vfox-plugins"
   ]

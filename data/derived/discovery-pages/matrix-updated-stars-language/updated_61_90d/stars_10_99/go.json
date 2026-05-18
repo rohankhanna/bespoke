@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 125,
-    "concepts": 83,
-    "observations": 83,
-    "repos": 23,
-    "terms": 86
+    "components": 128,
+    "concepts": 96,
+    "observations": 96,
+    "repos": 25,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "AbsaOSS/external-dns-infoblox-webhook",
     "alexellis/fstail",
     "apache/incubator-seata-k8s",
     "aquasecurity/k8s-node-collector",
     "aws-controllers-k8s/runtime",
+    "aws/amazon-vpc-cni-plugins",
     "bartventer/httpcache",
     "caltechlibrary/datatools",
     "casparwylie/cascii-server",
@@ -26,6 +27,7 @@
     "concourse/pool-resource",
     "containerd/release-tool",
     "ctoth/claudio",
+    "cyberark/conjur-api-go",
     "datachainlab/ethereum-ibc-relay-chain",
     "estesp/mquery",
     "filecoin-project/go-data-transfer",

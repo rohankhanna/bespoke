@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 893,
-    "concepts": 194,
-    "observations": 195,
-    "repos": 21,
-    "terms": 192
+    "components": 688,
+    "concepts": 162,
+    "observations": 163,
+    "repos": 15,
+    "terms": 160
   },
   "facet_version": 1,
   "filters": {
@@ -12,28 +12,22 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "antvis/mcp-server-chart",
     "apify/fingerprint-suite",
     "benchmark-action/github-action-benchmark",
     "cucumber/cucumber-js",
-    "cursorless-dev/cursorless",
     "enricoros/big-AGI",
     "Floorp-Projects/Floorp",
-    "google-gemini/live-api-web-console",
     "graphql/graphql-playground",
     "inokawa/virtua",
     "kelektiv/node-cron",
     "NomicFoundation/hardhat",
     "obsidianmd/obsidian-clipper",
     "open-telemetry/opentelemetry-demo",
-    "react-cosmos/react-cosmos",
-    "safe-fndn/safe-smart-account",
-    "solidjs-community/solid-primitives",
-    "TypeScriptToLua/TypeScriptToLua",
-    "unjs/unhead",
     "vite-pwa/vite-plugin-pwa",
+    "vitejs/vite-plugin-react",
     "withcatai/node-llama-cpp"
   ]
 }

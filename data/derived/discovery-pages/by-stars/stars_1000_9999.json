@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 55018,
-    "concepts": 35677,
-    "observations": 35785,
-    "repos": 6038,
-    "terms": 35572
+    "components": 55046,
+    "concepts": 35695,
+    "observations": 35803,
+    "repos": 6042,
+    "terms": 35581
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -1955,6 +1955,7 @@
     "flightlessmango/MangoHud",
     "FlineDev/BartyCrouch",
     "floneum/floneum",
+    "floooh/sokol",
     "Floorp-Projects/Floorp",
     "florianbruniaux/claude-code-ultimate-guide",
     "florisboard/florisboard",
@@ -5010,6 +5011,7 @@
     "servo/html5ever",
     "servo/ipc-channel",
     "servo/pathfinder",
+    "SFML/imgui-sfml",
     "sfujim/TD3",
     "shader-slang/slang",
     "shadow2496/VITON-HD",
@@ -5137,6 +5139,7 @@
     "sparckles/Robyn",
     "sparkjsdev/spark",
     "sparkle-project/Sparkle",
+    "specta-rs/rspc",
     "specta/expecta",
     "specta/specta",
     "SpecterOps/BloodHound",
@@ -5791,6 +5794,7 @@
     "WangDaYeeeeee/GeometricWeather",
     "WangYueFt/dgcnn",
     "wardencommunity/warden",
+    "WarmUpTill/SceneSwitcher",
     "wasabeef/android-gpuimage",
     "wasabeef/glide-transformations",
     "wasm-bindgen/wasm-bindgen",

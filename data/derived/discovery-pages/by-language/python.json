@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 17705,
-    "concepts": 26663,
-    "observations": 26713,
-    "repos": 6688,
-    "terms": 26454
+    "components": 17716,
+    "concepts": 26673,
+    "observations": 26724,
+    "repos": 6690,
+    "terms": 26457
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -1001,6 +1001,7 @@
     "BillyXYB/TransEditor",
     "binary-husky/gpt_academic",
     "binary-husky/void-terminal",
+    "bincrafters/community",
     "Bing-su/adetailer",
     "Bing-su/dddetailer",
     "Bing-su/sd-webui-tunnels",
@@ -2679,6 +2680,7 @@
     "googlefonts/roboto-2",
     "googlefonts/roboto-3-classic",
     "googlefonts/ufo2ft",
+    "goombalab/raven",
     "gordon-code/cuid2",
     "Gorilla-Lab-SCUT/Fantasia3D",
     "gorilla-llm/gorilla-cli",
@@ -3921,6 +3923,7 @@
     "lzyhha/VisualCloze",
     "m-bain/frozen-in-time",
     "m-bain/webvid",
+    "m-bain/whisperX",
     "m4rc1e/test-ufr-family",
     "M4Singer/M4Singer",
     "m87-labs/moondream",
@@ -5361,7 +5364,6 @@
     "readthedocs/commonmark.py",
     "readthedocs/readthedocs-sphinx-ext",
     "readthedocs/readthedocs.org",
-    "readthedocs/recommonmark",
     "readthedocs/sphinx-build-compatibility",
     "real-absolute-AI/NoisyRollout",
     "real-stanford/diffusion_policy",

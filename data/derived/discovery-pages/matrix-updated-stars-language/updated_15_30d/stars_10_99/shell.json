@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 240,
-    "concepts": 238,
-    "observations": 241,
+    "components": 241,
+    "concepts": 232,
+    "observations": 235,
     "repos": 52,
-    "terms": 236
+    "terms": 230
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "2KAbhishek/sway2k",
     "acmesh-official/acmetest",
@@ -31,7 +31,6 @@
     "cloudfoundry/cf-deployment-concourse-tasks",
     "cloudfoundry/jumpbox-deployment",
     "conda-forge/pinocchio-feedstock",
-    "confluentinc/cp-demo",
     "containers/automation_images",
     "crazy-max/goxx",
     "cri-o/packaging",
@@ -63,6 +62,7 @@
     "sclorg/s2i-perl-container",
     "sclorg/s2i-ruby-container",
     "stefantalpalaru/gentoo-overlay",
+    "taginfo/taginfo-projects",
     "tinted-theming/tinted-shell",
     "tinted-theming/tinted-terminal",
     "VOICEVOX/onnxruntime-builder"

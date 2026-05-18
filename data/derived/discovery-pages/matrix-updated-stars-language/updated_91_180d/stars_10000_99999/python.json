@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 181,
-    "concepts": 238,
-    "observations": 240,
-    "repos": 32,
-    "terms": 237
+    "concepts": 230,
+    "observations": 232,
+    "repos": 31,
+    "terms": 229
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "andrewyng/aisuite",
@@ -39,7 +39,6 @@
     "PaddlePaddle/PaddleNLP",
     "QwenLM/Qwen3",
     "RasaHQ/rasa",
-    "sczhou/CodeFormer",
     "Stability-AI/generative-models",
     "SYSTRAN/faster-whisper",
     "Tencent-Hunyuan/HunyuanVideo",

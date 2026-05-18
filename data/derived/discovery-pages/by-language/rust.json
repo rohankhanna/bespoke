@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11615,
-    "concepts": 7942,
-    "observations": 8004,
-    "repos": 1728,
-    "terms": 7934
+    "components": 11620,
+    "concepts": 7953,
+    "observations": 8015,
+    "repos": 1731,
+    "terms": 7944
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -499,6 +499,7 @@
     "Devolutions/IronRDP",
     "dfrg/swash",
     "dgn/oidc-filter",
+    "DGriffin91/imgui-rs-knobs",
     "dgrunwald/rust-cpython",
     "Dherse/comemo",
     "Dicklesworthstone/asupersync",
@@ -1533,6 +1534,8 @@
     "spacemeshos/randomx-rs",
     "spacemeshos/scrypt-jane-rs",
     "sparsemat/sprs",
+    "specta-rs/rspc",
+    "specta-rs/specta",
     "Splode/pomotroid",
     "Spotifyd/spotifyd",
     "spyoungtech/json-five-rs",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1204,
-    "concepts": 515,
-    "observations": 517,
-    "repos": 427,
-    "terms": 515
+    "components": 1207,
+    "concepts": 516,
+    "observations": 518,
+    "repos": 428,
+    "terms": 516
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -362,6 +362,7 @@
     "OlivierDehaene/candle",
     "oneflow-inc/docker-images",
     "openobserve/promql-parser",
+    "opentk/glfw-redist",
     "osmosis-labs/block-sdk",
     "panekj/lapce-plugin-rust",
     "passcod/cargo-release-pr-test",

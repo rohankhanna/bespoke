@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 466,
-    "concepts": 313,
-    "observations": 314,
-    "repos": 64,
-    "terms": 311
+    "components": 451,
+    "concepts": 296,
+    "observations": 297,
+    "repos": 62,
+    "terms": 294
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "abhinav/goldmark-frontmatter",
     "abhinav/tmux-fastcopy",
     "ankitpokhrel/shopctl",
     "apache/datasketches-go",
-    "appleboy/drone-lambda",
     "aquasecurity/trivy-java-db",
     "aspect-build/aspect-gazelle",
     "aws-controllers-k8s/code-generator",
@@ -61,7 +60,6 @@
     "kubernetes-sigs/provider-aws-test-infra",
     "kubernetes-sigs/verify-conformance",
     "magodo/aztft",
-    "MicahParks/jwkset",
     "minio/pkg",
     "muhlba91/external-dns-provider-adguard",
     "openshift/ci-tools",

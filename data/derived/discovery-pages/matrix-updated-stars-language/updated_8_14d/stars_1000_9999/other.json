@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 295,
-    "concepts": 324,
-    "observations": 325,
-    "repos": 35,
-    "terms": 322
+    "components": 154,
+    "concepts": 219,
+    "observations": 219,
+    "repos": 24,
+    "terms": 218
   },
   "facet_version": 1,
   "filters": {
@@ -12,28 +12,20 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
-    "AdguardTeam/AdGuardSDNSFilter",
     "agenda/agenda",
-    "androidx/androidx",
     "badmojr/1Hosts",
     "cvc5/cvc5",
     "DandelionSprout/adfilt",
-    "deanmalmgren/textract",
     "dotnet/reactive",
     "easylist/easylist",
     "foundry-rs/forge-std",
     "googleapis/google-api-php-client",
     "hacl-star/hacl-star",
-    "helix-toolkit/helix-toolkit",
     "intel/BigDL",
-    "jrsoftware/issrc",
-    "JuliaAI/MLJ.jl",
     "JuliaGPU/CUDA.jl",
     "jump-dev/JuMP.jl",
-    "lambdalisue/vim-fern",
-    "MetaCubeX/metacubexd",
     "minad/consult",
     "mrcjkb/rustaceanvim",
     "nvim-flutter/flutter-tools.nvim",
@@ -41,13 +33,10 @@
     "opnsense/plugins",
     "ROCm/MIOpen",
     "rocq-prover/rocq",
-    "ScoopInstaller/Extras",
     "stakira/OpenUtau",
-    "TechnitiumSoftware/DnsServer",
     "theJayTea/WritingTools",
     "truffleruby/truffleruby",
     "uBlockOrigin/uAssets",
-    "xororz/local-dream",
-    "xtdb/xtdb"
+    "xororz/local-dream"
   ]
 }

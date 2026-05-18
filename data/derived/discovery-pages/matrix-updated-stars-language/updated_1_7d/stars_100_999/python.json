@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 104,
-    "concepts": 95,
-    "observations": 95,
+    "components": 108,
+    "concepts": 86,
+    "observations": 86,
     "repos": 17,
-    "terms": 95
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
-    "15r10nk/inline-snapshot",
     "adamchainz/blacken-docs",
     "aristoteleo/PantheonOS",
     "bagofwords1/bagofwords",
@@ -28,7 +27,8 @@
     "mll-lab-nu/VAGEN",
     "NCAS-CMS/pyfive",
     "OpenHands/ToM-SWE",
-    "pyrtlsdr/pyrtlsdr",
+    "scverse/rapids-singlecell",
+    "TextArena/TextArena",
     "TinyLLaVA/TinyLLaVA_Factory",
     "tox-dev/filelock"
   ]

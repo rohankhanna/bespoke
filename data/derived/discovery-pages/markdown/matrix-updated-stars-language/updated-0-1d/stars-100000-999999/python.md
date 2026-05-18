@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100,000 to 999,999 stars · Python
 
-Generated at: `2026-05-17T08:38:41.992611+00:00`
+Generated at: `2026-05-18T05:56:44.543192+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,14 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 113224 | 2026-05-17T03:55:47Z | Python | Infrastructure/tooling | 11 | 7 | 11 | 11 |
-| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 136916 | 2026-05-17T01:10:42Z | Python | Infrastructure/tooling | 20 | 15 | 20 | 20 |
-| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 148271 | 2026-05-17T00:56:14Z | Python | Infrastructure/tooling | 11 | 17 | 11 | 11 |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 136956 | 2026-05-17T22:13:18Z | Python | Infrastructure/tooling | 20 | 15 | 20 | 20 |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 113305 | 2026-05-17T19:43:04Z | Python | Infrastructure/tooling | 11 | 7 | 11 | 11 |
+| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 148369 | 2026-05-17T18:25:02Z | Python | Infrastructure/tooling | 11 | 17 | 11 | 11 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 148271 | 2026-05-17T00:56:14Z | Python | Infrastructure/tooling | 11 | 17 | 11 | 11 |
-| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 136916 | 2026-05-17T01:10:42Z | Python | Infrastructure/tooling | 20 | 15 | 20 | 20 |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 113224 | 2026-05-17T03:55:47Z | Python | Infrastructure/tooling | 11 | 7 | 11 | 11 |
+| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 148369 | 2026-05-17T18:25:02Z | Python | Infrastructure/tooling | 11 | 17 | 11 | 11 |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 136956 | 2026-05-17T22:13:18Z | Python | Infrastructure/tooling | 20 | 15 | 20 | 20 |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 113305 | 2026-05-17T19:43:04Z | Python | Infrastructure/tooling | 11 | 7 | 11 | 11 |

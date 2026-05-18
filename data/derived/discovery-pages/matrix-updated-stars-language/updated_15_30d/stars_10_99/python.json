@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 664,
-    "concepts": 441,
-    "observations": 443,
-    "repos": 118,
-    "terms": 453
+    "components": 645,
+    "concepts": 422,
+    "observations": 424,
+    "repos": 114,
+    "terms": 431
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "AFD-Illinois/pyharm",
@@ -46,7 +46,6 @@
     "carstencodes/simplepycons",
     "castorini/anserini-tools",
     "castorini/umbrela",
-    "cdeust/cortex",
     "channel-io/ch-tts-llasa-rl-grpo",
     "chengzhag/PanFlow",
     "cloudfoundry/community",
@@ -60,6 +59,7 @@
     "datajuicer/data-juicer-agents",
     "dbfixtures/mirakuru",
     "DeterminateSystems/determinate-nix-action",
+    "dora-rs/dora-hub",
     "enjoy-digital/litex-acorn-baseboard",
     "espressif/esp-idf-monitor",
     "ethstaker/ethstaker-deposit-cli",
@@ -86,7 +86,6 @@
     "MGenAI/GRN",
     "microsoft/olive-recipes",
     "ModelCloud/Evalution",
-    "mypyc/mypyc-benchmarks",
     "NeilGirdhar/tjax",
     "neo4j/neo4j-python-driver-rust-ext",
     "NoakLiu/FastCache-xDiT",
@@ -104,13 +103,11 @@
     "plone/cookieplone",
     "pre-commit/sync-pre-commit-deps",
     "py-pdf/sample-files",
-    "pycompression/python-isal",
     "pyodide/pyodide-build",
     "pyodide/pytest-pyodide",
     "pytest-dev/execnet",
     "pytroll/donfig",
     "qiayuanl/unitree_bringup",
-    "redhat-et/triton-dev-containers",
     "redis/docs",
     "regro/cf-scripts",
     "ROCm/tritonBLAS",
@@ -122,7 +119,6 @@
     "sliamh11/deus",
     "sublimelsp/LSP-ruff",
     "sublimelsp/LSP-volar",
-    "svaningelgem/logprise",
     "symgraph/BinAssistMCP",
     "TaWald/nnUNet",
     "terrierteam/pyterrier_pisa",

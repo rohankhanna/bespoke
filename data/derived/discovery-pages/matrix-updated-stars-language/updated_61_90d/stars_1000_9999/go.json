@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 101,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 28,
-    "terms": 109
+    "components": 123,
+    "concepts": 107,
+    "observations": 107,
+    "repos": 29,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "abh/geodns",
     "bytedance/gopkg",
@@ -21,11 +21,11 @@
     "CloudyKit/jet",
     "coder/websocket",
     "dagger/container-use",
+    "ddworken/hishtory",
     "dghubble/sling",
     "dop251/goja",
     "duke-git/lancet",
     "flashbots/mev-boost",
-    "go-rod/rod",
     "golang/oauth2",
     "google/go-cmp",
     "hashicorp/go-metrics",
@@ -38,6 +38,7 @@
     "OffchainLabs/arbitrum-classic",
     "opencontainers/image-spec",
     "opencontainers/runtime-spec",
+    "OwO-Network/DeepLX",
     "refraction-networking/utls",
     "spf13/pflag",
     "tidwall/btree",

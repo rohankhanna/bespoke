@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 170,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 18,
-    "terms": 93
+    "components": 124,
+    "concepts": 86,
+    "observations": 86,
+    "repos": 19,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "CHIP-SPV/H4I-MKLShim",
@@ -21,14 +21,15 @@
     "danielbernalb/AireCiudadano",
     "DavidKinder/inform",
     "eddelbuettel/r2u-builder",
+    "Evilpasture/Culverin",
     "gbrobro119-star/darksword-kexploit",
     "grizzlypeak3d/feather-tk",
     "lonewolf-jp/convopeq",
     "openssh/openssh-portable-selfhosted",
     "ROCm/rocJPEG",
+    "skeeto/aas-sign",
     "stdlib-js/complex-float32-ctor",
     "stdlib-js/complex-float64-ctor",
-    "stdlib-js/ndarray-ctor",
     "vincentlaucsb/classify_scalar",
     "walbourn/directxtk12test",
     "yoshoku/numo-linalg-alt"

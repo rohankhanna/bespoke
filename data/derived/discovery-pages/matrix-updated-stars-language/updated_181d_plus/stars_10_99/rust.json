@@ -3,7 +3,7 @@
     "components": 501,
     "concepts": 377,
     "observations": 380,
-    "repos": 189,
+    "repos": 190,
     "terms": 371
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "0xPlaygrounds/rig-onchain-kit",
     "16arpi/meteo-tui",
@@ -75,6 +75,7 @@
     "ddulesov/clickhouse_driver",
     "derivator/egui_vulkano",
     "dermesser/integer-encoding-rs",
+    "DGriffin91/imgui-rs-knobs",
     "diem/diem-devtools",
     "digama0/frat",
     "domoritz/arrow-wasm",

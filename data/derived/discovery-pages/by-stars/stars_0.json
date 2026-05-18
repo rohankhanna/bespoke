@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2882,
-    "concepts": 1204,
-    "observations": 1208,
-    "repos": 907,
-    "terms": 1235
+    "components": 2885,
+    "concepts": 1206,
+    "observations": 1210,
+    "repos": 909,
+    "terms": 1237
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "0aids/imnodes",
@@ -209,6 +209,7 @@
     "conda-forge/equinox-feedstock",
     "conda-forge/ergocub-software-feedstock",
     "conda-forge/python-isal-feedstock",
+    "conda-forge/pytomlpp-feedstock",
     "conda-forge/textgrad-feedstock",
     "conda-forge/tianshou-feedstock",
     "conda-forge/xeus-cpp-feedstock",
@@ -768,6 +769,7 @@
     "onomojo/i18n-timezones-js",
     "onomojo/i18n-timezones-rs",
     "openobserve/promql-parser",
+    "opentk/glfw-redist",
     "openwdl/governance",
     "osmosis-labs/block-sdk",
     "panekj/lapce-plugin-rust",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 118,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 5,
-    "terms": 37
+    "components": 55,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 3,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "GoogleCloudPlatform/opentelemetry-demo",
-    "julia-actions/install-juliaup",
-    "maplibre/maplibre-gl-inspect",
-    "universal-ember/reactiveweb",
-    "vincentlaucsb/experiencer"
+    "ipdxco/github-as-code",
+    "julia-actions/install-juliaup"
   ]
 }

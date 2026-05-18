@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2815,
-    "concepts": 517,
-    "observations": 521,
-    "repos": 101,
-    "terms": 529
+    "components": 2774,
+    "concepts": 531,
+    "observations": 535,
+    "repos": 98,
+    "terms": 537
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -23,10 +23,8 @@
     "almogdepaz/wolfpack",
     "apollographql/vscode-graphql",
     "appsignal/appsignal-javascript",
-    "ava-labs/avalanche-dapp-sdks",
     "Azure/bicep-deploy",
     "Azure/powershell",
-    "Beaglefoot/prettier-plugin-awk",
     "bolasblack/shadow-cljs-vite-plugin",
     "bufbuild/protovalidate-es",
     "carbon-design-system/carbon-preprocess-svelte",
@@ -38,9 +36,7 @@
     "csm-actions/approve-pr-action",
     "csm-actions/securefix-action",
     "dannyhw/expo-storybook-starter",
-    "darkriszty/MarkdownTablePrettify-VSCodeExt",
     "DataDog/opentelemetry-demo",
-    "dokploy/cli",
     "ecyrbe/zodios-express",
     "elastic/opentelemetry-demo",
     "electron/windows-sign",
@@ -75,6 +71,7 @@
     "KazariEX/dxup",
     "ldclabs/KIP",
     "llamastack/llama-stack-client-typescript",
+    "maplibre/maplibre-gl-inspect",
     "mcous/vitest-when",
     "microsoft/Agents-for-js",
     "newrelic/opentelemetry-demo",
@@ -111,9 +108,9 @@
     "slopus/slopus.github.io",
     "suzuki-shunsuke/pinact-action",
     "swagger-api/apidom",
+    "universal-ember/reactiveweb",
     "vaultwarden/vw_web_builds",
-    "wighawag/rocketh",
-    "ylsssq926/relic.skill",
-    "zuplo/docs"
+    "vincentlaucsb/experiencer",
+    "wighawag/rocketh"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 97,
-    "concepts": 115,
-    "observations": 116,
-    "repos": 38,
-    "terms": 113
+    "components": 117,
+    "concepts": 127,
+    "observations": 128,
+    "repos": 43,
+    "terms": 124
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "3dfxdev/EDGE",
+    "a-n-t-h-o-n-y/signals-light",
     "AdaCore/gnatcoll-db",
     "adamharrison/lite-xl-terminal",
+    "amerkoleci/Alimer.Bindings",
+    "Birch-san/box2d3-wasm",
     "Blosc/hdf5-blosc",
+    "bobfang1992/pytomlpp",
     "ccslykx/Starry",
     "coin-or/CHiPPS-ALPS",
     "DavidKinder/Git",
@@ -39,6 +43,7 @@
     "nativium/nativium",
     "osmcode/osm-gis-export",
     "osvenskan/sysv_ipc",
+    "paoloshasta/shasta",
     "r-spatial/lwgeom",
     "r-spatial/s2",
     "Rezonality/zing",

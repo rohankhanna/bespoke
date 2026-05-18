@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1281,
-    "concepts": 204,
-    "observations": 204,
-    "repos": 36,
-    "terms": 210
+    "components": 1500,
+    "concepts": 233,
+    "observations": 233,
+    "repos": 42,
+    "terms": 239
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "ai/nanoid",
     "anuraghazra/github-readme-stats",
@@ -24,11 +24,14 @@
     "ConardLi/easy-dataset",
     "debug-js/debug",
     "eyaltoledano/claude-task-master",
+    "graphql/graphql-spec",
     "hapijs/hapi",
     "hapijs/joi",
     "http-party/http-server",
+    "iamkun/dayjs",
     "immerjs/immer",
     "infernojs/inferno",
+    "jantimon/html-webpack-plugin",
     "jashkenas/underscore",
     "josdejong/jsoneditor",
     "josdejong/mathjs",
@@ -36,10 +39,12 @@
     "karma-runner/karma",
     "less/less.js",
     "markdown-it/markdown-it",
+    "motdotla/dotenv",
     "parcel-bundler/parcel",
     "postcss/autoprefixer",
     "pot-app/pot-desktop",
     "reactjs/react.dev",
+    "svg/svgo",
     "testing-library/react-testing-library",
     "thomaspark/bootswatch",
     "tj/commander.js",
@@ -49,6 +54,7 @@
     "vercel-labs/agent-skills",
     "vuejs/vue-router",
     "websockets/ws",
-    "welldone-software/why-did-you-render"
+    "welldone-software/why-did-you-render",
+    "yarnpkg/yarn"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5285,
-    "concepts": 1876,
-    "observations": 1878,
-    "repos": 1338,
-    "terms": 1871
+    "components": 5312,
+    "concepts": 1882,
+    "observations": 1884,
+    "repos": 1340,
+    "terms": 1877
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -412,6 +412,7 @@
     "curldivergence/imgui-d3d12-renderer",
     "CVEProject/quality-workgroup",
     "CyanAsterisk/FreeCar-MP",
+    "cyberark/community",
     "cycleg/far-gvfs",
     "Cydral/BAREL",
     "Cydral/Colorify",
@@ -703,6 +704,7 @@
     "hertz-contrib/autotls",
     "hertz-contrib/cache",
     "hertz-contrib/etag",
+    "heshengtao/sap-ai-sheet",
     "hfp/libxsmm",
     "hhu-stups/jupyterlab-prolog-codemirror-extension",
     "HiceS/mirabuf",
@@ -1029,7 +1031,6 @@
     "num42/icon-resizer-swift",
     "nunommc/acts_as_tenant-delayed_job",
     "nuprl/Ag-LiveCodeBench-X",
-    "nvpro-samples/third_party_binaries",
     "NZ99/self-attention-experiments-vision",
     "obahareth/base16-builder-ruby",
     "obsei/demo-workflow-action",
@@ -1149,6 +1150,7 @@
     "Rel1cx/eslint-react-benchmark",
     "render-examples/chatgpt-retrieval-plugin",
     "retracedhq/retraced-go",
+    "retracedhq/retraced-js",
     "rexthinker/rexthinker.github.io",
     "rexwangcc/taichi-voxel-challenge",
     "reZach/easy-redux-undo",
@@ -1271,7 +1273,7 @@
     "travis-ci/travis-packer-build",
     "travis-infrastructure/packer-build",
     "triton-inference-server/contrib",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "turbofish-org/abci2",
     "turner/swt2sw",
     "UBC-NLP/Cheetah",

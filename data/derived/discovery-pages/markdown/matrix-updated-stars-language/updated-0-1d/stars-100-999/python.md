@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Python
 
-Generated at: `2026-05-17T08:38:41.992611+00:00`
+Generated at: `2026-05-18T05:56:44.543192+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 4
-- terms: 23
-- components: 33
-- concepts: 23
-- observations: 23
+- terms: 32
+- components: 34
+- concepts: 32
+- observations: 32
 
 ## Static behavior
 
@@ -26,16 +26,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [Comfy-Org/comfy-cli](https://github.com/Comfy-Org/comfy-cli) | 799 | 2026-05-17T02:36:22Z | Python | CLI | 9 | 7 | 9 | 9 |
-| [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 350 | 2026-05-16T20:07:43Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
-| [TextArena/TextArena](https://github.com/TextArena/TextArena) | 398 | 2026-05-16T15:12:54Z | Python | Model/data | 0 | 0 | 0 | 0 |
-| [scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell) | 370 | 2026-05-16T12:15:26Z | Python | Infrastructure/tooling | 7 | 17 | 7 | 7 |
+| [pyrtlsdr/pyrtlsdr](https://github.com/pyrtlsdr/pyrtlsdr) | 684 | 2026-05-17T17:11:25Z | Python | Infrastructure/tooling | 1 | 10 | 1 | 1 |
+| [Comfy-Org/comfy-cli](https://github.com/Comfy-Org/comfy-cli) | 801 | 2026-05-17T16:49:02Z | Python | CLI | 9 | 7 | 9 | 9 |
+| [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 350 | 2026-05-17T15:22:37Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
+| [15r10nk/inline-snapshot](https://github.com/15r10nk/inline-snapshot) | 729 | 2026-05-17T11:50:24Z | Python | Infrastructure/tooling | 15 | 8 | 15 | 15 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [Comfy-Org/comfy-cli](https://github.com/Comfy-Org/comfy-cli) | 799 | 2026-05-17T02:36:22Z | Python | CLI | 9 | 7 | 9 | 9 |
-| [TextArena/TextArena](https://github.com/TextArena/TextArena) | 398 | 2026-05-16T15:12:54Z | Python | Model/data | 0 | 0 | 0 | 0 |
-| [scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell) | 370 | 2026-05-16T12:15:26Z | Python | Infrastructure/tooling | 7 | 17 | 7 | 7 |
-| [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 350 | 2026-05-16T20:07:43Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
+| [Comfy-Org/comfy-cli](https://github.com/Comfy-Org/comfy-cli) | 801 | 2026-05-17T16:49:02Z | Python | CLI | 9 | 7 | 9 | 9 |
+| [15r10nk/inline-snapshot](https://github.com/15r10nk/inline-snapshot) | 729 | 2026-05-17T11:50:24Z | Python | Infrastructure/tooling | 15 | 8 | 15 | 15 |
+| [pyrtlsdr/pyrtlsdr](https://github.com/pyrtlsdr/pyrtlsdr) | 684 | 2026-05-17T17:11:25Z | Python | Infrastructure/tooling | 1 | 10 | 1 | 1 |
+| [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 350 | 2026-05-17T15:22:37Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |

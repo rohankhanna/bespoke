@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 827,
-    "concepts": 115,
-    "observations": 115,
-    "repos": 25,
-    "terms": 119
+    "components": 945,
+    "concepts": 135,
+    "observations": 135,
+    "repos": 27,
+    "terms": 139
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,28 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
-    "21st-dev/magic-mcp",
+    "actions/download-artifact",
     "antfu-collective/vitesse",
     "antfu-collective/vitesse-lite",
     "antfu-collective/vitesse-webext",
+    "antfu/vitesse-nuxt",
     "arktypeio/arktype",
     "coaidev/coai",
     "cosmiconfig/cosmiconfig",
+    "infinitered/nsfwjs",
     "jamiebrynes7/obsidian-todoist-plugin",
     "jnsahaj/tweakcn",
     "jonaskello/tsconfig-paths",
     "jupyter-widgets/ipyleaflet",
     "Myriad-Dreamin/typst.ts",
+    "nanbingxyz/5ire",
     "obsidian-community/obsidian-kanban",
     "obsidian-community/obsidian-style-settings",
     "obsidian-community/obsidian-zotero-integration",
     "peers/peerjs-server",
     "posva/unplugin-vue-router",
-    "RobinBlomberg/kysely-codegen",
     "snarktank/antfarm",
     "standard-schema/standard-schema",
     "stravu/crystal",

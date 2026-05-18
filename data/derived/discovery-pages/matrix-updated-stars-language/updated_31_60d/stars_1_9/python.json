@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 136,
-    "concepts": 98,
-    "observations": 98,
-    "repos": 36,
-    "terms": 98
+    "components": 147,
+    "concepts": 100,
+    "observations": 100,
+    "repos": 42,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "42-evey/evey-bridge-plugin",
     "agenmod/distill-protocol-skill",
@@ -28,10 +28,12 @@
     "audeering/audonnx",
     "axolotl-ai-cloud/ml-cross-entropy",
     "Boulaouaney/timmx",
+    "bryanh9111/engram",
     "cdeust/cortex-cowork",
     "cdxeve/scale-openclaw",
     "chaoss/grimoirelab-toolkit",
     "CoolCat467/idlemypyextension",
+    "danielrosehill/Audio-Understanding-Bitrate-Eval-0426",
     "danielrosehill/claude-slash-commands",
     "danielrosehill/donetick-mcp",
     "danielrosehill/Geopol-Forecaster",
@@ -48,7 +50,11 @@
     "lxgw/LxgwWenKai-shared",
     "Mbed-TLS/mbedtls-framework",
     "Mercury13/unicodia-sesh",
+    "piqrypt/piqrypt",
     "ROCm/rbuild",
-    "runtimeverification/kup"
+    "runtimeverification/kup",
+    "sunthinks/kvmind",
+    "TexasInstruments/edgeai-tidlrunner",
+    "xiaochu-1208/interview-assistant-cli"
   ]
 }

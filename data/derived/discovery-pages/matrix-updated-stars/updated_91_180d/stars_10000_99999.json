@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 909,
-    "concepts": 573,
-    "observations": 576,
+    "components": 923,
+    "concepts": 577,
+    "observations": 581,
     "repos": 90,
-    "terms": 569
+    "terms": 573
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
     "andrewyng/aisuite",
     "anthropics/claude-quickstarts",
+    "antlr/antlr4",
     "astral-sh/rye",
     "beehiveinnovations/pal-mcp-server",
     "binary-husky/gpt_academic",
@@ -80,7 +81,6 @@
     "RasaHQ/rasa",
     "redux-saga/redux-saga",
     "rubocop/ruby-style-guide",
-    "sczhou/CodeFormer",
     "sharkdp/hyperfine",
     "slatedocs/slate",
     "snarktank/ralph",

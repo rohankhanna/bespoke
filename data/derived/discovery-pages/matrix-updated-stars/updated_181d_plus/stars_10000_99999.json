@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 3206,
-    "concepts": 1534,
-    "observations": 1536,
-    "repos": 313,
-    "terms": 1509
+    "concepts": 1542,
+    "observations": 1544,
+    "repos": 314,
+    "terms": 1517
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -275,6 +275,7 @@
     "ryanmcdermott/clean-code-javascript",
     "salesforce/LAVIS",
     "Sanster/IOPaint",
+    "sczhou/CodeFormer",
     "sdras/awesome-actions",
     "SesameAILabs/csm",
     "SimulatedGREG/electron-vue",

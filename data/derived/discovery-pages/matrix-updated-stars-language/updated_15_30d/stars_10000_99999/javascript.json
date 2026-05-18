@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3700,
-    "concepts": 657,
-    "observations": 660,
-    "repos": 76,
-    "terms": 650
+    "components": 3599,
+    "concepts": 682,
+    "observations": 685,
+    "repos": 74,
+    "terms": 671
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "11ty/eleventy",
+    "4ian/GDevelop",
     "acornjs/acorn",
     "addyosmani/critical",
     "ajaxorg/ace",
@@ -32,6 +33,7 @@
     "easydiffusion/easydiffusion",
     "electerm/electerm",
     "electron/minimal-repro",
+    "eslint/eslint",
     "expressjs/express",
     "facebook/hermes",
     "faisalman/ua-parser-js",
@@ -39,12 +41,10 @@
     "gatsbyjs/gatsby",
     "google/zx",
     "GoogleChrome/lighthouse",
-    "graphql/graphql-spec",
+    "gorhill/uBlock",
     "handlebars-lang/handlebars.js",
     "http-party/node-http-proxy",
     "huggingface/transformers.js",
-    "iamkun/dayjs",
-    "jantimon/html-webpack-plugin",
     "jarrodwatts/claude-hud",
     "jashkenas/backbone",
     "jasmine/jasmine",
@@ -62,7 +62,6 @@
     "microsoft/monaco-editor",
     "mochajs/mocha",
     "moment/luxon",
-    "motdotla/dotenv",
     "mozilla/pdf.js",
     "nock/nock",
     "nodemailer/nodemailer",
@@ -81,14 +80,13 @@
     "stylelint/stylelint",
     "sveltejs/kit",
     "sveltejs/svelte",
-    "svg/svgo",
     "swagger-api/swagger-ui",
     "Unitech/pm2",
     "validatorjs/validator.js",
     "webpack/webpack",
     "webtorrent/webtorrent",
     "wix/Detox",
-    "yarnpkg/yarn",
+    "yokoffing/Betterfox",
     "zloirock/core-js"
   ]
 }

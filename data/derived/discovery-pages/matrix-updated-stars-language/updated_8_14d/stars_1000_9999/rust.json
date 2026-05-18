@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 197,
-    "concepts": 152,
-    "observations": 152,
-    "repos": 18,
-    "terms": 152
+    "components": 179,
+    "concepts": 142,
+    "observations": 142,
+    "repos": 16,
+    "terms": 142
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,22 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "agentclientprotocol/agent-client-protocol",
-    "apache/datafusion",
     "ash-rs/ash",
     "bionic-gpt/bionic-gpt",
     "brave/adblock-rust",
     "cargo-generate/cargo-generate",
     "cordx56/rustowl",
     "CosmWasm/cosmwasm",
-    "databendlabs/openraft",
     "dora-rs/dora",
     "erebe/wstunnel",
     "josh-project/josh",
     "JuliaLang/juliaup",
+    "junhoyeo/tokscale",
     "lance-format/lance",
     "ros2-rust/ros2_rust",
-    "rust-lang/flate2-rs",
     "rust-lang/portable-simd",
     "watchexec/watchexec"
   ]

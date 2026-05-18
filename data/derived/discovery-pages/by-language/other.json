@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 26308,
-    "concepts": 22602,
-    "observations": 22674,
-    "repos": 5599,
-    "terms": 22541
+    "components": 26312,
+    "concepts": 22613,
+    "observations": 22685,
+    "repos": 5604,
+    "terms": 22546
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -1280,6 +1280,7 @@
     "cloudnativeapp/charts",
     "cloudstudio/ollama-laravel",
     "cloudwego/cloudwego.github.io",
+    "cloudwu/deepfuture",
     "clovaai/deep-text-recognition-benchmark",
     "club-soda/club-soda-guide",
     "CLUEbenchmark/pCLUE",
@@ -1687,7 +1688,6 @@
     "dom8509/logseq-to-markdown",
     "DomGries/InnoDependencyInstaller",
     "Dominaezzz/kgl",
-    "Dominaezzz/kotlin-imgui",
     "dominicletz/websockex",
     "dominique-unruh/qrhl-tool",
     "dominique-unruh/scala-isabelle",
@@ -1872,6 +1872,7 @@
     "ElemeFE/element",
     "elementary/icons",
     "EleutherAI/pythia",
+    "eliasdaler/imgui-sfml-fetchcontent",
     "elihunter173/dirbuf.nvim",
     "elixir-ecto/db_connection",
     "elixir-ecto/ecto",
@@ -2325,6 +2326,7 @@
     "google/ksp",
     "google/litmus",
     "google/material-design-lite",
+    "google/music-synthesizer-for-android",
     "google/prompt-to-prompt",
     "google/protobuf-gradle-plugin",
     "google/protobuf.dart",
@@ -4173,6 +4175,8 @@
     "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
     "openstreetmap-carto/openstreetmap-carto",
     "openstreetmap/id-tagging-schema",
+    "opentk/glfw-redist",
+    "opentk/LearnOpenTK",
     "opentk/opentk",
     "opentracing/opentracing.io",
     "openvinotoolkit/openvino_notebooks",
@@ -4530,6 +4534,7 @@
     "rejeep/commander.el",
     "rejeep/ert-runner.el",
     "rejeep/wrap-region.el",
+    "rejemy/UltraLiteDB",
     "renzmann/treesit-auto",
     "replikativ/konserve",
     "rescript-lang/reanalyze",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 85,
-    "concepts": 89,
-    "observations": 89,
+    "components": 86,
+    "concepts": 88,
+    "observations": 88,
     "repos": 15,
-    "terms": 89
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "aburch/simutrans",
     "alsa-project/alsa-lib",
     "CEED/libCEED",
-    "celtera/libremidi",
+    "celtera/avendish",
     "foldl/chatllm.cpp",
     "google-deepmind/reverb",
+    "kiron1/bazel-compile-commands",
     "open-telemetry/opentelemetry-dotnet-instrumentation",
     "open-telemetry/opentelemetry-ebpf-instrumentation",
     "ouster-lidar/ouster-ros",
@@ -27,7 +28,6 @@
     "tree-sitter-grammars/tree-sitter-markdown",
     "triton-inference-server/core",
     "triton-inference-server/pytorch_backend",
-    "ucscGenomeBrowser/kent",
     "yoshoku/llama_cpp.rb"
   ]
 }

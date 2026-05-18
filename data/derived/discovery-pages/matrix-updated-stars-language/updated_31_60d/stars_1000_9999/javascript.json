@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1775,
-    "concepts": 377,
-    "observations": 377,
-    "repos": 67,
-    "terms": 376
+    "components": 1901,
+    "concepts": 397,
+    "observations": 397,
+    "repos": 71,
+    "terms": 396
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "acss-io/atomizer",
     "actions/javascript-action",
@@ -63,17 +63,21 @@
     "mourner/rbush",
     "nksaraf/vinxi",
     "node-fetch/node-fetch",
+    "npm/cli",
     "npm/node-semver",
     "patorjk/figlet.js",
+    "piebald-ai/claude-code-system-prompts",
     "pinojs/pino-pretty",
     "pmndrs/drei",
     "projectfluent/fluent",
     "rgthree/rgthree-comfy",
     "RichardLitt/standard-readme",
+    "serverless-operations/serverless-step-functions",
     "sindresorhus/globby",
     "sindresorhus/hyper-snazzy",
     "styled-components/polished",
     "tc39/agendas",
+    "tomas/needle",
     "webpack/css-loader",
     "webpack/mini-css-extract-plugin",
     "webpack/postcss-loader",

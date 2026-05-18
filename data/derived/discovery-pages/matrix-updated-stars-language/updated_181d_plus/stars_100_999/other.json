@@ -3,8 +3,8 @@
     "components": 2176,
     "concepts": 2941,
     "observations": 2948,
-    "repos": 940,
-    "terms": 2924
+    "repos": 942,
+    "terms": 2923
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -377,6 +377,7 @@
     "google-research-datasets/hiertext",
     "google-research/maxvit",
     "google-research/rlds",
+    "google/music-synthesizer-for-android",
     "google/vim-maktaba",
     "GoogleCloudPlatform/elixir-samples",
     "greglook/puget",
@@ -702,6 +703,7 @@
     "OpenDriveLab/OpenLane-V2",
     "OpenGVLab/InternVL-MMDetSeg",
     "openhackathons-org/gpubootcamp",
+    "opentk/LearnOpenTK",
     "opentracing/opentracing.io",
     "OpenVisualCloud/Dockerfiles",
     "openvpi/vocoders",

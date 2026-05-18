@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 302,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 87,
-    "terms": 110
+    "components": 307,
+    "concepts": 114,
+    "observations": 114,
+    "repos": 88,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "1000ch/Sublime-csso",
     "abap2UI5-addons/popups",
+    "AdaCore/vss-text",
     "aldernero/spider",
     "aleclarson/vite-multi-spa",
     "all-the-noises/data",

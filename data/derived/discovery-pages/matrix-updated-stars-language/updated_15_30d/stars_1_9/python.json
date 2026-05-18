@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 217,
-    "concepts": 121,
-    "observations": 121,
-    "repos": 52,
-    "terms": 138
+    "components": 206,
+    "concepts": 119,
+    "observations": 119,
+    "repos": 46,
+    "terms": 133
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
@@ -23,13 +23,11 @@
     "atlanhq/atlan-sample-apps",
     "Azure-Samples/langchain-agent-python",
     "beneadie/DeepDog_1",
-    "bryanh9111/engram",
     "caesar0301/soothe",
     "cafitac/hermit-agent",
     "cjtruheart/abundance-codex",
     "compiler-research/cppyy",
     "conda-forge/threadpoolctl-feedstock",
-    "danielrosehill/Audio-Understanding-Bitrate-Eval-0426",
     "danielrosehill/LLM-Council-Template",
     "demonatic/flash-attention",
     "dreamiurg/peakbagger-cli",
@@ -52,19 +50,15 @@
     "ParisNeo/lollms_client",
     "penpoen/llm-sugarscape",
     "piqrypt/aiss-standard",
-    "piqrypt/piqrypt",
     "plone/cookieplone-templates",
     "pyrtlsdr/pyrtlsdrlib",
     "rrsaldanha/burp-mcp-agents",
     "scaleway/serverless-api-framework-python",
-    "sunthinks/kvmind",
-    "TexasInstruments/edgeai-tidlrunner",
     "TJC-LP/sanzaru",
     "UnknownPlatypus/djangofmt-pre-commit",
     "usdot-fhwa-stol/carma-config",
     "usdot-fhwa-stol/cdasim-config",
     "verkyyi/tokenman",
-    "xiaochu-1208/interview-assistant-cli",
     "zopefoundation/meta"
   ]
 }

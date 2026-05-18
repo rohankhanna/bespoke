@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 197,
+    "components": 196,
     "concepts": 94,
     "observations": 94,
     "repos": 57,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "abap2UI5-addons/table-maintenance",
     "AdaCore/AdaSAT",
@@ -36,7 +36,6 @@
     "hedronvision/bazel-cc-filesystem-backport",
     "heshengtao/sap-ai-drawio",
     "heshengtao/sap-ai-mermaid",
-    "heshengtao/sap-ai-sheet",
     "infiniflow/resource",
     "jgpc42/jmh-clojure-task",
     "joeldrapper/dispersion",
@@ -67,6 +66,7 @@
     "tensorchord/VectorChord-images",
     "testng-team/testng-team.github.io",
     "typstyle-rs/typstyle-action",
+    "usnistgov/libhdf5-wasm",
     "version-fox/vfox-plugin-template",
     "volodya-lombrozo/neotest-ruby-minitest",
     "XR-Robotics/XRoboToolkit-Orin-Video-Sender",

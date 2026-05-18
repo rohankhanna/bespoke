@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 178,
+    "components": 194,
     "concepts": 92,
     "observations": 92,
-    "repos": 48,
+    "repos": 49,
     "terms": 91
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "0xPolygonHermez/stark-recurser",
     "5E7EN/Garmin-ZmanIQ",
@@ -30,6 +30,7 @@
     "cloudfoundry/cf-smoke-tests-release",
     "DanielSmith1239/KosherSwift",
     "diffblue/homebrew-cbmc",
+    "dm0x23/portfolio-website",
     "dp111/6502timing",
     "dpep/ice_age_rb",
     "dwyl/auth_plug_example",

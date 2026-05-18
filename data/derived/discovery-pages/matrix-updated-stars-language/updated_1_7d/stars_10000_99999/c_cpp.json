@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 80,
-    "concepts": 87,
-    "observations": 87,
-    "repos": 7,
-    "terms": 86
+    "components": 55,
+    "concepts": 58,
+    "observations": 58,
+    "repos": 5,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
-    "apache/brpc",
-    "DayBreak-u/chineseocr_lite",
+    "argotorg/solidity",
+    "ggml-org/ggml",
     "ggml-org/whisper.cpp",
-    "google-ai-edge/mediapipe",
-    "isl-org/Open3D",
     "mozilla-ai/llamafile",
     "obsproject/obs-studio"
   ]

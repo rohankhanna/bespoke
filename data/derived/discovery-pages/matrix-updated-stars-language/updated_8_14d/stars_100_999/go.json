@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 93,
-    "concepts": 139,
-    "observations": 139,
+    "components": 86,
+    "concepts": 131,
+    "observations": 131,
     "repos": 14,
-    "terms": 137
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "charmbracelet/x",
     "CosmWasm/wasmd",
     "dgraph-io/dgraph-benchmarks",
     "energye/energy",
-    "gofrs/flock",
     "gookit/cache",
     "gookit/config",
     "gookit/event",
@@ -27,6 +26,7 @@
     "gookit/slog",
     "itzg/mc-router",
     "osmosis-labs/osmosis",
+    "toml-lang/toml-test",
     "yaling888/quirktiva"
   ]
 }

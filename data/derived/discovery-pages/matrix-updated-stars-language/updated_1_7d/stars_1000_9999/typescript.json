@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 683,
-    "concepts": 104,
-    "observations": 104,
-    "repos": 17,
-    "terms": 104
+    "components": 775,
+    "concepts": 123,
+    "observations": 123,
+    "repos": 18,
+    "terms": 123
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
+    "alichherawalla/off-grid-mobile-ai",
     "apollographql/apollo-tooling",
     "can1357/oh-my-pi",
     "conventional-changelog/conventional-changelog",
@@ -28,8 +29,8 @@
     "podman-desktop/podman-desktop",
     "shareAI-lab/Kode-Agent",
     "shareAI-lab/Kode-CLI",
+    "TanStack/form",
     "typescript-language-server/typescript-language-server",
-    "vitejs/vite-plugin-react",
     "vuejs/devtools"
   ]
 }

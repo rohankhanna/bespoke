@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 568,
-    "concepts": 396,
-    "observations": 396,
-    "repos": 128,
-    "terms": 390
+    "components": 578,
+    "concepts": 424,
+    "observations": 424,
+    "repos": 129,
+    "terms": 418
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "0x676e67/0x676e67",
@@ -53,6 +53,7 @@
     "babakatwork/loopy_agent",
     "Bartheleway/inquirer-table-multiple",
     "bendrucker/terraform-configuration-aliases-action",
+    "BinomialLLC/KTX-Software-Binomial-Fork",
     "BioContainers/singularity-build-bot",
     "birdofpreyru/js-utils",
     "browserslist/browserslist-plausible",
@@ -70,13 +71,13 @@
     "CROSS-signature/CROSS-lib-oqs",
     "danielrosehill/Agentic-AI-Architecture-Visualisation",
     "danielrosehill/claude-agent-workspace-generator",
+    "danielrosehill/Claude-Dolphin-Konsole-Actions",
     "danielrosehill/Claude-Dork",
-    "danielrosehill/Claude-MD-Chunk",
     "datachainlab/ethereum-ibc-relay-prover",
     "day50-dev/mcp-search-and-run",
     "eddelbuettel/github-actions",
     "empriselab/kortex_description",
-    "feloy/tesh",
+    "filip26/copper-multibase",
     "filip26/copper-multicodec",
     "filip26/titanium-jcs",
     "filip26/titanium-rdf-canon",
@@ -84,6 +85,7 @@
     "flinedev/customstatusline",
     "flinedev/recall",
     "gakonst/foundry",
+    "gost-dom/shaman",
     "hailiang-wang/llm-get-started",
     "hermit-os/hermit-gcc",
     "heshengtao/desktop-for-sap",
@@ -134,7 +136,6 @@
     "tc39/proposal-intl-keep-trailing-zeros",
     "tombelieber/claude-backup",
     "tzachar/sqlite_skim",
-    "usnistgov/libhdf5-wasm",
     "vectordotdev/heim",
     "vim-fuzzbox/fuzzbox-lsp.vim",
     "yamachu/VoicevoxCoreSwift",

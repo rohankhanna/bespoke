@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 61,
-    "observations": 61,
-    "repos": 101,
-    "terms": 70
+    "components": 42,
+    "concepts": 58,
+    "observations": 58,
+    "repos": 99,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "8144225309/lightning",
-    "alexcrichton/cc-rs",
     "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
     "begmyratb/floweye-yyyxxx.cc",
     "biparous-blaxploitation156/ciphermind",
@@ -25,12 +24,11 @@
     "conda-forge/conda-lock-feedstock",
     "conda-forge/equinox-feedstock",
     "conda-forge/python-isal-feedstock",
+    "conda-forge/pytomlpp-feedstock",
     "conda-forge/textgrad-feedstock",
     "conda-forge/tianshou-feedstock",
     "csm-actions/demo-client",
     "Culmus/hebrew-fonts",
-    "damacol/ai-hub",
-    "damacol/gemma-4-collection",
     "damacol/google-gemma-2-2b-it",
     "damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
     "damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
@@ -89,6 +87,7 @@
     "danielrosehill/Claude-Keyboard-Scanner",
     "danielrosehill/Claude-Knowledge-Documentation-Plugin",
     "danielrosehill/Claude-License-Populator-Plugin",
+    "danielrosehill/Claude-Linux-AV-Manager-Plugin",
     "danielrosehill/Claude-Personal-Planning-Plugin",
     "danielrosehill/Claude-Workspace-Reshaping-190426",
     "danielrosehill/DOCS.md",
@@ -99,12 +98,11 @@
     "danielrosehill/Israel-Projects-Index",
     "danielrosehill/Jewish-Texts-Reference-Plugin",
     "danielrosehill/lan-manager-plugin",
-    "danielrosehill/My-Benchmarks",
     "danielrosehill/Open-Research-Workspaces-Index",
-    "danielrosehill/Speech-And-ASR-Evaluations",
     "Dustinpro/Dustinpro",
     "foundersieve687/skill-gateway",
     "hermit-os/.github",
+    "kleisauke/glib",
     "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",
     "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",
     "narutoxdd6/nyro",

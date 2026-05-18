@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1715,
-    "concepts": 460,
-    "observations": 462,
-    "repos": 107,
-    "terms": 491
+    "components": 1764,
+    "concepts": 468,
+    "observations": 470,
+    "repos": 110,
+    "terms": 499
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-18T05:56:44.543192+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "absolute-version/commit-and-tag-version",
@@ -24,6 +24,7 @@
     "AghayeCoder/tx-ui",
     "ankane/ahoy.js",
     "apify/awesome-skills",
+    "appium/appium-ios-device",
     "Atheos/Atheos",
     "avwo/whistle-client",
     "badgen/badgen",
@@ -33,6 +34,7 @@
     "ButTaiwan/bpmfvs",
     "chrisgoringe/cg-use-everywhere",
     "cjoudrey/graphql-schema-linter",
+    "cncf/sandbox",
     "comme2e/comm",
     "conventional-changelog/conventional-changelog-config-spec",
     "CyberAP/nanoid-dictionary",
@@ -61,6 +63,7 @@
     "googleapis/nodejs-bigtable",
     "GoogleChromeLabs/wasm-feature-detect",
     "gopasspw/gopassbridge",
+    "graphql/graphql-over-http",
     "graphql/graphql-wg",
     "gruntjs/grunt-contrib-connect",
     "gruntjs/grunt-contrib-cssmin",
@@ -78,6 +81,7 @@
     "kharchenkolab/pagoda2",
     "kriszyp/lmdb-js",
     "Level/abstract-level",
+    "lis186/ccxray",
     "mapbox/cheap-ruler",
     "mapbox/mapbox-gl-styles",
     "mapbox/pbf",
@@ -85,7 +89,6 @@
     "mapbox/vector-tile-js",
     "markdown-it/linkify-it",
     "mattgodbolt/jsbeeb",
-    "microsoft/vscode-custom-data",
     "mourner/flatqueue",
     "mourner/kdbush",
     "mourner/robust-predicates",
