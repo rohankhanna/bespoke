@@ -53,6 +53,21 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-remote-runtime.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-remote-runtime.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-remote-runtime.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-tinker.yml"
     },
     {
@@ -170,6 +185,34 @@
       "source_file": ".github/workflows/test-model-gateway.yml",
       "source_repo": "rllm-org/rllm",
       "target": "Test rllm-model-gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-remote-runtime.yml",
+      "source_repo": "rllm-org/rllm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-remote-runtime.yml",
+      "source_repo": "rllm-org/rllm",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-remote-runtime.yml",
+      "source_repo": "rllm-org/rllm",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-remote-runtime.yml",
+      "source_repo": "rllm-org/rllm",
+      "target": "Test remote runtime",
       "target_type": "term"
     },
     {
@@ -299,7 +342,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T18:56:57.261429+00:00",
+  "fetched_at": "2026-05-18T07:47:01.253536+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -330,6 +373,10 @@
       "size": 813
     },
     {
+      "path": ".github/workflows/test-remote-runtime.yml",
+      "size": 1371
+    },
+    {
       "path": ".github/workflows/test-tinker.yml",
       "size": 917
     }
@@ -343,8 +390,8 @@
     "full_name": "rllm-org/rllm",
     "html_url": "https://github.com/rllm-org/rllm",
     "language": "Python",
-    "pushed_at": "2026-05-17T08:56:15Z",
-    "stargazers_count": 5530,
+    "pushed_at": "2026-05-17T23:59:13Z",
+    "stargazers_count": 5532,
     "topics": [
       "agent-framework",
       "agentic-workflow",
@@ -361,7 +408,7 @@
       "tinker",
       "verl"
     ],
-    "updated_at": "2026-05-17T11:47:32Z"
+    "updated_at": "2026-05-18T05:58:04Z"
   },
   "repo_links": [
     {
@@ -394,6 +441,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/test-model-gateway.yml",
       "term": "Test rllm-model-gateway"
+    },
+    {
+      "context_snippet": "Test remote runtime",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-remote-runtime.yml",
+      "term": "Test remote runtime"
     },
     {
       "context_snippet": "Test Tinker engine",

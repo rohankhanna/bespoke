@@ -109,7 +109,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T18:49:41.569928+00:00",
+  "fetched_at": "2026-05-18T07:40:59.648336+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -134,7 +134,7 @@
     "html_url": "https://github.com/koide3/fast_gicp",
     "language": "C++",
     "pushed_at": "2025-04-24T01:46:48Z",
-    "stargazers_count": 1636,
+    "stargazers_count": 1638,
     "topics": [
       "cpp",
       "cuda",
@@ -149,7 +149,7 @@
       "scan-matching",
       "vgicp"
     ],
-    "updated_at": "2026-05-15T10:56:02Z"
+    "updated_at": "2026-05-18T03:10:21Z"
   },
   "repo_links": [
     {

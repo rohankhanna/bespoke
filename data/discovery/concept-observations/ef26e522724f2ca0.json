@@ -84,7 +84,7 @@
   "normalized_form": "issue-retrieval",
   "observation_id": "ef26e522724f2ca0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-17T18:28:54.888436+00:00",
+  "observed_at": "2026-05-18T07:35:35.489189+00:00",
   "observed_text": "Issue retrieval",
   "source_context_snippet": "Issue retrieval",
   "source_file": ".github/workflows/issue_retrieval.yml",

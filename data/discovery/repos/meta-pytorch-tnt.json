@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T18:52:23.285101+00:00",
+  "fetched_at": "2026-05-18T07:43:11.650087+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -68,8 +68,8 @@
     "full_name": "meta-pytorch/tnt",
     "html_url": "https://github.com/meta-pytorch/tnt",
     "language": "Python",
-    "pushed_at": "2026-04-09T04:46:48Z",
-    "stargazers_count": 1719,
+    "pushed_at": "2026-05-18T07:30:15Z",
+    "stargazers_count": 1720,
     "topics": [
       "deep-learning",
       "machine-learning",
@@ -78,7 +78,7 @@
       "pytorch",
       "reinforcement-learning"
     ],
-    "updated_at": "2026-05-06T09:48:54Z"
+    "updated_at": "2026-05-18T07:30:23Z"
   },
   "repo_links": [
     {

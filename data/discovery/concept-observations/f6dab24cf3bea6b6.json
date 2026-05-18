@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Democratizing Reinforcement Learning for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test remote runtime"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test remote runtime"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22554,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22493,
+      "status": "candidate",
+      "text": "bum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22487,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22358,
+      "status": "candidate",
+      "text": "countdown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18493,
+      "status": "candidate",
+      "text": "duration"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test remote runtime",
+      "sense_id": "test-remote-runtime#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-remote-runtime",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-remote-runtime",
+  "observation_id": "f6dab24cf3bea6b6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-18T07:35:35.489189+00:00",
+  "observed_text": "Test remote runtime",
+  "source_context_snippet": "Test remote runtime",
+  "source_file": ".github/workflows/test-remote-runtime.yml",
+  "source_repo": "rllm-org/rllm",
+  "source_repo_description": "Democratizing Reinforcement Learning for LLMs"
+}

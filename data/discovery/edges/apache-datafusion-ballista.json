@@ -95,14 +95,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "apache/datafusion-ballista",
-      "target": "github/codeql-action/init@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
+      "target": "github/codeql-action/init@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "apache/datafusion-ballista",
-      "target": "github/codeql-action/analyze@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
+      "target": "github/codeql-action/analyze@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
       "target_type": "component"
     },
     {
@@ -309,6 +309,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-17T18:28:54.888436+00:00",
+  "generated_at": "2026-05-18T07:35:35.489189+00:00",
   "source_repo": "apache/datafusion-ballista"
 }

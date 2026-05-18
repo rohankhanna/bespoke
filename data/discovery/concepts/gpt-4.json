@@ -2200,11 +2200,23 @@
       "observed_at": "2026-05-18T00:43:20.098172+00:00",
       "source_file": null,
       "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T07:35:35.489189+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T07:35:35.489189+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "last_seen_at": "2026-05-18T07:35:35.489189+00:00",
   "lexical_providers": [
     "datamuse"
   ],

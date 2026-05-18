@@ -89054,6 +89054,9 @@
   "test release-rust": [
     "test-release-rust"
   ],
+  "test remote runtime": [
+    "test-remote-runtime"
+  ],
   "test report": [
     "test-report"
   ],

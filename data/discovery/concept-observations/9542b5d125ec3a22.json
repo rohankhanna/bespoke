@@ -48,7 +48,7 @@
   "normalized_form": "rbuild",
   "observation_id": "9542b5d125ec3a22",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-17T18:28:54.888436+00:00",
+  "observed_at": "2026-05-18T07:35:35.489189+00:00",
   "observed_text": "rbuild",
   "source_context_snippet": "rbuild",
   "source_file": ".github/workflows/tox.yml",

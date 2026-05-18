@@ -30219,11 +30219,41 @@
       "observed_at": "2026-05-18T00:43:20.098172+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-18T07:35:35.489189+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "vale-cli/vale"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-18T07:35:35.489189+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "CloudCompare/CloudCompare"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-18T07:35:35.489189+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mui/material-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-18T07:35:35.489189+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-18T07:35:35.489189+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mongodb/winkerberos"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "last_seen_at": "2026-05-18T07:35:35.489189+00:00",
   "lexical_providers": [
     "datamuse"
   ],

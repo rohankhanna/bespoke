@@ -1,16 +1,11 @@
 {
-  "first_seen_at": "2026-05-18T00:43:20.098172+00:00",
-  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "first_seen_at": "2026-05-18T07:35:35.489189+00:00",
+  "last_seen_at": "2026-05-18T07:35:35.489189+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "nodenv/nodenv"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "nvm-sh/nvm"
+      "source_repo": "git-quick-stats/git-quick-stats"
     }
   ],
   "term": "shell"

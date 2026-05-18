@@ -58,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T18:52:44.479985+00:00",
+  "fetched_at": "2026-05-18T07:43:30.974285+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -75,14 +75,14 @@
     "html_url": "https://github.com/worldbench/Robo3D",
     "language": "Python",
     "pushed_at": "2025-12-06T11:05:24Z",
-    "stargazers_count": 373,
+    "stargazers_count": 374,
     "topics": [
       "3d-object-detection",
       "autonomous-driving",
       "lidar-segmentation",
       "ood-robustness"
     ],
-    "updated_at": "2026-05-15T16:17:40Z"
+    "updated_at": "2026-05-18T06:26:45Z"
   },
   "repo_links": [
     {
