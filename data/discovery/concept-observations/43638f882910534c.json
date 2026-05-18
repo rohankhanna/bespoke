@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "LobeHub organizes your agents into 7\u00d724 operation. It hires, schedules, reports on your entire AI team. You stay in charge \u2014 without staying online."
+      "text": "\ud83e\udd2f LobeHub is your Chief Agent Operator, organizing your agents into 7\u00d724 operations by hiring, scheduling, and reporting on your entire AI team."
     },
     {
       "source_kind": "source-snippet",
@@ -84,10 +84,10 @@
   "normalized_form": "daily-i18n-update",
   "observation_id": "43638f882910534c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-17T18:28:54.888436+00:00",
+  "observed_at": "2026-05-18T18:44:05.166065+00:00",
   "observed_text": "Daily i18n Update",
   "source_context_snippet": "Daily i18n Update",
   "source_file": ".github/workflows/auto-i18n.yml",
   "source_repo": "lobehub/lobehub",
-  "source_repo_description": "LobeHub organizes your agents into 7\u00d724 operation. It hires, schedules, reports on your entire AI team. You stay in charge \u2014 without staying online."
+  "source_repo_description": "\ud83e\udd2f LobeHub is your Chief Agent Operator, organizing your agents into 7\u00d724 operations by hiring, scheduling, and reporting on your entire AI team."
 }

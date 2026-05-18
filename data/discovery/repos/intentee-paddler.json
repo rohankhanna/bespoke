@@ -610,7 +610,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T18:45:01.296213+00:00",
+  "fetched_at": "2026-05-18T22:15:31.195920+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -654,8 +654,8 @@
     "full_name": "intentee/paddler",
     "html_url": "https://github.com/intentee/paddler",
     "language": "Rust",
-    "pushed_at": "2026-05-16T18:09:13Z",
-    "stargazers_count": 1561,
+    "pushed_at": "2026-05-18T22:15:03Z",
+    "stargazers_count": 1564,
     "topics": [
       "ai",
       "llamacpp",
@@ -663,7 +663,7 @@
       "llmops",
       "load-balancer"
     ],
-    "updated_at": "2026-05-17T13:20:16Z"
+    "updated_at": "2026-05-18T09:01:47Z"
   },
   "repo_links": [],
   "terms": [

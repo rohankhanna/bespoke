@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-18T07:35:35.489189+00:00",
+  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -4161,6 +4161,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "specta-rs/specta"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "MatsDK/TauRPC"
     }
   ],
   "term": "Rust"

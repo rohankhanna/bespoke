@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Automatic Speech Recognition with Speaker Diarization based on OpenAI Whisper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test Run"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test Run"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10070194,
+      "status": "candidate",
+      "text": "testrun"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10070193,
+      "status": "candidate",
+      "text": "trial run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10070192,
+      "status": "candidate",
+      "text": "roadtest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10070191,
+      "status": "candidate",
+      "text": "test drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10070190,
+      "status": "candidate",
+      "text": "practice run"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Run",
+      "sense_id": "test-run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-run",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-run",
+  "observation_id": "1477a32304ed06de",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-18T18:44:05.166065+00:00",
+  "observed_text": "Test Run",
+  "source_context_snippet": "Test Run",
+  "source_file": ".github/workflows/test_run.yml",
+  "source_repo": "MahmoudAshraf97/whisper-diarization",
+  "source_repo_description": "Automatic Speech Recognition with Speaker Diarization based on OpenAI Whisper"
+}

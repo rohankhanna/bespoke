@@ -1,7 +1,7 @@
 {
   "component": "step-security/harden-runner@a5ad31d6a139d249332a2605b85202e8c0b78450",
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
-  "last_seen_at": "2026-05-17T12:32:36.812189+00:00",
+  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/nodenv"
     }
   ]
 }

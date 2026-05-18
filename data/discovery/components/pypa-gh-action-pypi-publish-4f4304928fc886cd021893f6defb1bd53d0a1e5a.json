@@ -1,7 +1,7 @@
 {
   "component": "pypa/gh-action-pypi-publish@4f4304928fc886cd021893f6defb1bd53d0a1e5a",
   "first_seen_at": "2026-05-15T12:50:28.227991+00:00",
-  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

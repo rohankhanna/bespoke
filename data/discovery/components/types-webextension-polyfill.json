@@ -1,7 +1,7 @@
 {
   "component": "@types/webextension-polyfill",
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-05-18T07:35:35.489189+00:00",
+  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

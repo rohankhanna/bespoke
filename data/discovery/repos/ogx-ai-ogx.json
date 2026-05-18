@@ -66,12 +66,12 @@
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/init@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
+      "component": "github/codeql-action/init@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/analyze@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
+      "component": "github/codeql-action/analyze@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
@@ -226,14 +226,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "ogx-ai/ogx",
-      "target": "github/codeql-action/init@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
+      "target": "github/codeql-action/init@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "ogx-ai/ogx",
-      "target": "github/codeql-action/analyze@68bde559dea0fdcac2102bfdf6230c5f70eb485e",
+      "target": "github/codeql-action/analyze@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
       "target_type": "component"
     },
     {
@@ -321,7 +321,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T20:00:43.240766+00:00",
+  "fetched_at": "2026-05-18T21:14:11.212904+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -329,7 +329,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 24355
+      "size": 22389
     },
     {
       "path": ".github/workflows/README.md",
@@ -353,7 +353,7 @@
     },
     {
       "path": ".github/workflows/commit-constraint-updates.yml",
-      "size": 13730
+      "size": 13749
     },
     {
       "path": ".github/workflows/commit-recordings.yml",
@@ -361,7 +361,7 @@
     },
     {
       "path": ".github/workflows/dependabot-constraints.yml",
-      "size": 5410
+      "size": 5412
     }
   ],
   "related_repositories": [],
@@ -373,10 +373,10 @@
     "full_name": "ogx-ai/ogx",
     "html_url": "https://github.com/ogx-ai/ogx",
     "language": "Python",
-    "pushed_at": "2026-05-17T19:38:30Z",
+    "pushed_at": "2026-05-18T19:24:55Z",
     "stargazers_count": 8377,
     "topics": [],
-    "updated_at": "2026-05-17T11:38:25Z"
+    "updated_at": "2026-05-18T19:24:58Z"
   },
   "repo_links": [],
   "terms": [

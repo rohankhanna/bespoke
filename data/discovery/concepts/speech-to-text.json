@@ -331,6 +331,18 @@
       "source_repo": "m-bain/whisperX",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">WhisperX</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "status": "candidate-context",
+      "text": "Automatic Speech Recognition with Speaker Diarization based on OpenAI Whisper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Speaker Diarization Using OpenAI Whisper</h1>"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +507,12 @@
       "source_repo": "m-bain/whisperX",
       "status": "candidate",
       "text": "<h1 align=\"center\">WhisperX</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Speaker Diarization Using OpenAI Whisper</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -1576,11 +1594,41 @@
       "observed_at": "2026-05-18T07:35:35.489189+00:00",
       "source_file": null,
       "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunCodec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "SYSTRAN/faster-whisper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "MahmoudAshraf97/whisper-diarization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-18T07:35:35.489189+00:00",
+  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
   "lexical_providers": [
     "datamuse"
   ],

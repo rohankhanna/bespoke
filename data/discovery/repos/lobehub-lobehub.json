@@ -1931,6 +1931,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lobehub/lobehub",
+      "target": "codespaces/badge.svg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobehub",
       "target": "actions/workflows",
       "target_type": "repository"
     },
@@ -4728,11 +4735,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T19:40:24.815798+00:00",
+  "fetched_at": "2026-05-18T20:59:40.447515+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 59946
+      "size": 34548
     },
     {
       "path": "Dockerfile",
@@ -4775,13 +4782,13 @@
   "repo": {
     "archived": false,
     "default_branch": "canary",
-    "description": "LobeHub organizes your agents into 7\u00d724 operation. It hires, schedules, reports on your entire AI team. You stay in charge \u2014 without staying online.",
+    "description": "\ud83e\udd2f LobeHub is your Chief Agent Operator, organizing your agents into 7\u00d724 operations by hiring, scheduling, and reporting on your entire AI team.",
     "fork": false,
     "full_name": "lobehub/lobehub",
     "html_url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
-    "pushed_at": "2026-05-17T19:17:57Z",
-    "stargazers_count": 77205,
+    "pushed_at": "2026-05-18T20:07:29Z",
+    "stargazers_count": 77269,
     "topics": [
       "agent",
       "agent-collaboration",
@@ -4796,12 +4803,17 @@
       "mcp",
       "openai"
     ],
-    "updated_at": "2026-05-17T19:31:18Z"
+    "updated_at": "2026-05-18T19:55:03Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "actions/workflows",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codespaces/badge.svg",
       "source_file": "README.md"
     },
     {

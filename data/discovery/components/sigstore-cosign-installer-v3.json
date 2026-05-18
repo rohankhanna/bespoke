@@ -1,7 +1,7 @@
 {
   "component": "sigstore/cosign-installer@v3",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/nma_build.yml",
       "source_repo": "f3liz-casa/noraneko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backend_merge.yml",
+      "source_repo": "mudler/LocalAI"
     }
   ]
 }

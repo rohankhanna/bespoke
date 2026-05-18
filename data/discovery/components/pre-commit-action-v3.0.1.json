@@ -1,7 +1,7 @@
 {
   "component": "pre-commit/action@v3.0.1",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-05-18T07:35:35.489189+00:00",
+  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -692,6 +692,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/code-quality.yaml",
       "source_repo": "atong01/conditional-flow-matching"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_run.yml",
+      "source_repo": "MahmoudAshraf97/whisper-diarization"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "MahmoudAshraf97/ctc-forced-aligner"
     }
   ]
 }

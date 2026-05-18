@@ -25,14 +25,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "karafka/example-apps",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "karafka/example-apps",
-      "target": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
+      "target": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "target_type": "component"
     },
     {
@@ -92,6 +92,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-18T00:43:20.098172+00:00",
+  "generated_at": "2026-05-18T18:44:05.166065+00:00",
   "source_repo": "karafka/example-apps"
 }

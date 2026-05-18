@@ -184,6 +184,20 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guard-dependencies.yml",
+      "source_repo": "fastapi/fastapi",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/guard-dependencies.yml",
+      "source_repo": "fastapi/fastapi",
+      "target": "Guard Dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-manager.yml",
       "source_repo": "fastapi/fastapi",
       "target": "tiangolo/issue-manager@2fb3484ec9279485df8659e8ec73de262431737d",
@@ -222,27 +236,6 @@
       "source_file": ".github/workflows/label-approved.yml",
       "source_repo": "fastapi/fastapi",
       "target": "Label Approved",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/labeler.yml",
-      "source_repo": "fastapi/fastapi",
-      "target": "actions/labeler@f27b608878404679385c85cfa523b85ccb86e213",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/labeler.yml",
-      "source_repo": "fastapi/fastapi",
-      "target": "agilepathway/label-checker@c3d16ad512e7cea5961df85ff2486bb774caf3c5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/labeler.yml",
-      "source_repo": "fastapi/fastapi",
-      "target": "Labels",
       "target_type": "term"
     },
     {
@@ -365,6 +358,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-17T18:28:54.888436+00:00",
+  "generated_at": "2026-05-18T18:44:05.166065+00:00",
   "source_repo": "fastapi/fastapi"
 }

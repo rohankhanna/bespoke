@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Run"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "status": "candidate-context",
+      "text": "Automatic Speech Recognition with Speaker Diarization based on OpenAI Whisper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "status": "candidate-context",
+      "text": "Test Run"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "status": "candidate",
+      "text": "Test Run"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10070194,
+      "status": "candidate",
+      "text": "testrun"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10070193,
+      "status": "candidate",
+      "text": "trial run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10070192,
+      "status": "candidate",
+      "text": "roadtest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10070191,
+      "status": "candidate",
+      "text": "test drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10070190,
+      "status": "candidate",
+      "text": "practice run"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Run",
+  "concept_id": "test-run",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": ".github/workflows/test_run.yml",
+      "source_repo": "MahmoudAshraf97/whisper-diarization"
+    }
+  ],
+  "first_seen_at": "2026-05-18T18:44:05.166065+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Run",
+      "sense_id": "test-run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

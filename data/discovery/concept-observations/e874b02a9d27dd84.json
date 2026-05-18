@@ -84,7 +84,7 @@
   "normalized_form": "lock-threads",
   "observation_id": "e874b02a9d27dd84",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-18T00:43:20.098172+00:00",
+  "observed_at": "2026-05-18T18:44:05.166065+00:00",
   "observed_text": "Lock Threads",
   "source_context_snippet": "'Lock Threads'",
   "source_file": ".github/workflows/issue_lock.yml",

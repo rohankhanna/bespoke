@@ -60,7 +60,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T18:34:17.887778+00:00",
+  "fetched_at": "2026-05-18T20:01:20.616324+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -85,11 +85,11 @@
     "html_url": "https://github.com/littlefs-project/littlefs-fuse",
     "language": "C",
     "pushed_at": "2026-03-25T04:16:40Z",
-    "stargazers_count": 212,
+    "stargazers_count": 213,
     "topics": [
       "fuse"
     ],
-    "updated_at": "2026-04-14T13:36:06Z"
+    "updated_at": "2026-05-18T15:49:12Z"
   },
   "repo_links": [
     {

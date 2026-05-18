@@ -37,13 +37,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "requirements.txt",
-      "source_repo": "coaidev/blob-service",
-      "target": "coaidev/markitdown",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yaml",
       "source_repo": "coaidev/blob-service",
@@ -100,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T19:50:57.353430+00:00",
+  "fetched_at": "2026-05-18T21:07:15.280456+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -133,14 +126,14 @@
     "html_url": "https://github.com/coaidev/blob-service",
     "language": "Python",
     "pushed_at": "2025-03-22T11:42:01Z",
-    "stargazers_count": 129,
+    "stargazers_count": 130,
     "topics": [
       "blob",
       "fileparser",
       "ocr",
       "storage"
     ],
-    "updated_at": "2026-04-11T17:42:21Z"
+    "updated_at": "2026-05-18T02:37:09Z"
   },
   "repo_links": [
     {
@@ -152,11 +145,6 @@
       "edge_type": "explicit-github-link",
       "full_name": "deeptrain-community/chatnio-blob-service",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "coaidev/markitdown",
-      "source_file": "requirements.txt"
     }
   ],
   "terms": [

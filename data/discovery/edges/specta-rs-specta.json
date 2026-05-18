@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "specta-rs/specta",
-      "target": "specta-rs/tauri-specta",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "specta-rs/specta",
-      "target": "matsdk/taurpc",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "specta-rs/specta",
@@ -85,6 +71,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-18T00:43:20.098172+00:00",
+  "generated_at": "2026-05-18T18:44:05.166065+00:00",
   "source_repo": "specta-rs/specta"
 }

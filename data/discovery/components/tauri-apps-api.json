@@ -1,7 +1,7 @@
 {
   "component": "@tauri-apps/api",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -102,6 +102,16 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "2mawi2/schaltwerk"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "MatsDK/TauRPC"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "specta-rs/tauri-specta"
     }
   ]
 }

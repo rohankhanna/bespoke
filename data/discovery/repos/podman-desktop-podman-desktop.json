@@ -376,7 +376,7 @@
       "source_file": ".github/workflows/e2e-kubernetes-main.yaml"
     },
     {
-      "component": "mikepenz/action-junit-report@bccf2e31636835cf0874589931c4116687171386",
+      "component": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-kubernetes-main.yaml"
     },
@@ -391,7 +391,7 @@
       "source_file": ".github/workflows/e2e-main-tf.yaml"
     },
     {
-      "component": "mikepenz/action-junit-report@bccf2e31636835cf0874589931c4116687171386",
+      "component": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main-tf.yaml"
     },
@@ -431,7 +431,7 @@
       "source_file": ".github/workflows/e2e-main.yaml"
     },
     {
-      "component": "mikepenz/action-junit-report@bccf2e31636835cf0874589931c4116687171386",
+      "component": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main.yaml"
     },
@@ -461,7 +461,7 @@
       "source_file": ".github/workflows/e2e-main.yaml"
     },
     {
-      "component": "mikepenz/action-junit-report@bccf2e31636835cf0874589931c4116687171386",
+      "component": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main.yaml"
     },
@@ -491,7 +491,7 @@
       "source_file": ".github/workflows/e2e-main.yaml"
     },
     {
-      "component": "mikepenz/action-junit-report@bccf2e31636835cf0874589931c4116687171386",
+      "component": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main.yaml"
     },
@@ -521,7 +521,7 @@
       "source_file": ".github/workflows/managed-configuration.yaml"
     },
     {
-      "component": "mikepenz/action-junit-report@bccf2e31636835cf0874589931c4116687171386",
+      "component": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/managed-configuration.yaml"
     },
@@ -1096,7 +1096,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-kubernetes-main.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "mikepenz/action-junit-report@bccf2e31636835cf0874589931c4116687171386",
+      "target": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
       "target_type": "component"
     },
     {
@@ -1124,7 +1124,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main-tf.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "mikepenz/action-junit-report@bccf2e31636835cf0874589931c4116687171386",
+      "target": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
       "target_type": "component"
     },
     {
@@ -1180,7 +1180,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "mikepenz/action-junit-report@bccf2e31636835cf0874589931c4116687171386",
+      "target": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
       "target_type": "component"
     },
     {
@@ -1229,7 +1229,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/managed-configuration.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "mikepenz/action-junit-report@bccf2e31636835cf0874589931c4116687171386",
+      "target": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
       "target_type": "component"
     },
     {
@@ -1310,7 +1310,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-18T01:16:21.642413+00:00",
+  "fetched_at": "2026-05-18T22:14:24.842427+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1362,7 +1362,7 @@
     "full_name": "podman-desktop/podman-desktop",
     "html_url": "https://github.com/podman-desktop/podman-desktop",
     "language": "TypeScript",
-    "pushed_at": "2026-05-15T12:46:11Z",
+    "pushed_at": "2026-05-18T12:59:29Z",
     "stargazers_count": 7644,
     "topics": [
       "container",
@@ -1376,7 +1376,7 @@
       "tray-application",
       "ui"
     ],
-    "updated_at": "2026-05-17T21:34:49Z"
+    "updated_at": "2026-05-18T21:38:50Z"
   },
   "repo_links": [
     {

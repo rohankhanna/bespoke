@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "@tauri-apps/api",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/clippy-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "specta-rs/tauri-specta",
+      "target": "@tauri-apps/api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "specta-rs/tauri-specta",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "specta-rs/tauri-specta",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "specta-rs/tauri-specta",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "specta-rs/tauri-specta",
+      "target": "rspc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "specta-rs/tauri-specta",
+      "target": "specta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "specta-rs/tauri-specta",
+      "target": "tauri",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "specta-rs/tauri-specta",
+      "target": "typesafey",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-18T20:00:48.797569+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1743
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2287
+    },
+    {
+      "path": "package.json",
+      "size": 119
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1261
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Completely typesafe Tauri commands",
+    "fork": false,
+    "full_name": "specta-rs/tauri-specta",
+    "html_url": "https://github.com/specta-rs/tauri-specta",
+    "language": "Rust",
+    "pushed_at": "2026-05-13T03:05:47Z",
+    "stargazers_count": 717,
+    "topics": [
+      "rspc",
+      "specta",
+      "tauri",
+      "typesafey"
+    ],
+    "updated_at": "2026-05-18T04:32:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rspc"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "specta"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tauri"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typesafey"
+    }
+  ]
+}

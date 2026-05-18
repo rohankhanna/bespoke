@@ -547,6 +547,18 @@
       "source_repo": "m-bain/whisperX",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">WhisperX</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "status": "candidate-context",
+      "text": "Automatic Speech Recognition with Speaker Diarization based on OpenAI Whisper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Speaker Diarization Using OpenAI Whisper</h1>"
     }
   ],
   "candidate_glosses": [
@@ -819,6 +831,12 @@
       "source_repo": "m-bain/whisperX",
       "status": "candidate",
       "text": "<h1 align=\"center\">WhisperX</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Speaker Diarization Using OpenAI Whisper</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -1456,11 +1474,23 @@
       "observed_at": "2026-05-17T18:28:54.888436+00:00",
       "source_file": null,
       "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "MahmoudAshraf97/whisper-diarization"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T18:28:54.888436+00:00",
+  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -301,7 +301,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T19:57:48.303950+00:00",
+  "fetched_at": "2026-05-18T21:12:02.336492+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -329,7 +329,7 @@
     "full_name": "ADNTIO/crispy-bootloader-rp2040-rs",
     "html_url": "https://github.com/ADNTIO/crispy-bootloader-rp2040-rs",
     "language": "Rust",
-    "pushed_at": "2026-05-06T21:28:26Z",
+    "pushed_at": "2026-05-18T09:16:44Z",
     "stargazers_count": 9,
     "topics": [],
     "updated_at": "2026-05-06T21:27:01Z"

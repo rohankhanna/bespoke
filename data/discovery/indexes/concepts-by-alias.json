@@ -43422,6 +43422,9 @@
   "guard": [
     "guard"
   ],
+  "guard dependencies": [
+    "guard-dependencies"
+  ],
   "guard-clause": [
     "guard-clause"
   ],
@@ -68862,6 +68865,9 @@
   "pre-commit-update": [
     "pre-commit-update"
   ],
+  "pre-deploy": [
+    "pre-deploy"
+  ],
   "pre-merge": [
     "pre-merge"
   ],
@@ -82194,6 +82200,9 @@
   "single-sign-on": [
     "single-sign-on"
   ],
+  "single-source": [
+    "single-source"
+  ],
   "single-view": [
     "single-view"
   ],
@@ -89081,6 +89090,9 @@
   "test rsync": [
     "test-rsync"
   ],
+  "test run": [
+    "test-run"
+  ],
   "test run for document generation": [
     "test-run-for-document-generation"
   ],
@@ -92412,6 +92424,9 @@
   ],
   "typesafe-configuration": [
     "typesafe-configuration"
+  ],
+  "typesafey": [
+    "typesafey"
   ],
   "typescipt": [
     "typescipt"

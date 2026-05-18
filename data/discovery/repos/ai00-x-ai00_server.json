@@ -346,7 +346,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T19:49:15.156973+00:00",
+  "fetched_at": "2026-05-18T21:06:04.392619+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -383,7 +383,7 @@
     "html_url": "https://github.com/Ai00-X/ai00_server",
     "language": "Rust",
     "pushed_at": "2026-05-17T09:53:28Z",
-    "stargazers_count": 610,
+    "stargazers_count": 611,
     "topics": [
       "ai",
       "aiagents",
@@ -396,7 +396,7 @@
       "rag",
       "rwkv"
     ],
-    "updated_at": "2026-05-17T09:53:31Z"
+    "updated_at": "2026-05-18T13:20:27Z"
   },
   "repo_links": [
     {

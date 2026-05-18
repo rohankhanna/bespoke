@@ -1120,11 +1120,29 @@
       "observed_at": "2026-05-18T00:43:20.098172+00:00",
       "source_file": ".github/workflows/issue-manager.yml",
       "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": ".github/workflows/issue-manager.yml",
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": ".github/workflows/issue-manager.yaml",
+      "source_repo": "vibrantlabsai/ragas"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": ".github/workflows/issue-manager.yml",
+      "source_repo": "fastapi/full-stack-fastapi-template"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
   "lexical_providers": [
     "datamuse"
   ],

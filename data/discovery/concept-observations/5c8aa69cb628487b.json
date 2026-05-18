@@ -84,7 +84,7 @@
   "normalized_form": "security-scan",
   "observation_id": "5c8aa69cb628487b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-17T18:28:54.888436+00:00",
+  "observed_at": "2026-05-18T18:44:05.166065+00:00",
   "observed_text": "Security Scan",
   "source_context_snippet": "Security Scan",
   "source_file": ".github/workflows/security-scan.yml",

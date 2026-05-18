@@ -373,7 +373,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T19:49:41.719800+00:00",
+  "fetched_at": "2026-05-18T21:06:22.895669+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -422,7 +422,7 @@
     "html_url": "https://github.com/PaddlePaddle/Paddle2ONNX",
     "language": "C++",
     "pushed_at": "2026-03-18T09:31:20Z",
-    "stargazers_count": 920,
+    "stargazers_count": 921,
     "topics": [
       "classification",
       "deploy",
@@ -435,7 +435,7 @@
       "ppocr",
       "ppyoloe"
     ],
-    "updated_at": "2026-05-16T17:18:16Z"
+    "updated_at": "2026-05-18T14:05:43Z"
   },
   "repo_links": [
     {

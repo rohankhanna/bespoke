@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Guard Dependencies"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/fastapi",
+      "status": "candidate-context",
+      "text": "FastAPI framework, high performance, easy to learn, fast to code, ready for production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/fastapi",
+      "status": "candidate-context",
+      "text": "Guard Dependencies"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate-context",
+      "text": "Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate-context",
+      "text": "Guard Dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/fastapi",
+      "status": "candidate",
+      "text": "Guard Dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate",
+      "text": "Guard Dependencies"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13923,
+      "status": "candidate",
+      "text": "peseta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13923,
+      "status": "candidate",
+      "text": "pound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13923,
+      "status": "candidate",
+      "text": "pounded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13182,
+      "status": "candidate",
+      "text": "activate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13182,
+      "status": "candidate",
+      "text": "backcourt"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Guard Dependencies",
+  "concept_id": "guard-dependencies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": ".github/workflows/guard-dependencies.yml",
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": ".github/workflows/guard-dependencies.yml",
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    }
+  ],
+  "first_seen_at": "2026-05-18T18:44:05.166065+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Guard Dependencies",
+      "sense_id": "guard-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

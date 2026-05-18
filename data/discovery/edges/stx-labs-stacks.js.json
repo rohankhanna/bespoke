@@ -39,20 +39,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "stx-labs/stacks.js",
-      "target": "@stacks/eslint-config",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "stx-labs/stacks.js",
-      "target": "@stacks/prettier-config",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "stx-labs/stacks.js",
       "target": "@types/bs58check",
       "target_type": "component"
     },
@@ -61,20 +47,6 @@
       "source_file": "package.json",
       "source_repo": "stx-labs/stacks.js",
       "target": "@types/jest",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "stx-labs/stacks.js",
-      "target": "@typescript-eslint/eslint-plugin",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "stx-labs/stacks.js",
-      "target": "@typescript-eslint/parser",
       "target_type": "component"
     },
     {
@@ -103,34 +75,6 @@
       "source_file": "package.json",
       "source_repo": "stx-labs/stacks.js",
       "target": "esbuild-loader",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "stx-labs/stacks.js",
-      "target": "eslint",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "stx-labs/stacks.js",
-      "target": "eslint-config-prettier",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "stx-labs/stacks.js",
-      "target": "eslint-plugin-import",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "stx-labs/stacks.js",
-      "target": "eslint-plugin-node",
       "target_type": "component"
     },
     {
@@ -186,14 +130,21 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "stx-labs/stacks.js",
-      "target": "path-browserify",
+      "target": "oxfmt",
       "target_type": "component"
     },
     {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "stx-labs/stacks.js",
-      "target": "prettier",
+      "target": "oxlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stx-labs/stacks.js",
+      "target": "path-browserify",
       "target_type": "component"
     },
     {
@@ -270,14 +221,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "stx-labs/stacks.js",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "stx-labs/stacks.js",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -291,21 +242,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-request.yml",
       "source_repo": "stx-labs/stacks.js",
-      "target": "actions/checkout@v3",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-request.yml",
       "source_repo": "stx-labs/stacks.js",
-      "target": "wagoid/commitlint-github-action@v5",
+      "target": "wagoid/commitlint-github-action@b948419dd99f3fd78a6548d48f94e3df7f6bf3ed",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-request.yml",
       "source_repo": "stx-labs/stacks.js",
-      "target": "actions/setup-node@v3",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -326,21 +277,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "stx-labs/stacks.js",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "stx-labs/stacks.js",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "stx-labs/stacks.js",
-      "target": "codecov/codecov-action@v4",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
       "target_type": "component"
     },
     {
@@ -354,14 +305,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/version.yml",
       "source_repo": "stx-labs/stacks.js",
-      "target": "actions/checkout@v3",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/version.yml",
       "source_repo": "stx-labs/stacks.js",
-      "target": "actions/setup-node@v3",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -379,6 +330,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-18T07:35:35.489189+00:00",
+  "generated_at": "2026-05-18T18:44:05.166065+00:00",
   "source_repo": "stx-labs/stacks.js"
 }

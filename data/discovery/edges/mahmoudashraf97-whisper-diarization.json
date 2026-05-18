@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "guillaumekln/faster-whisper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "nvidia/nemo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "mahmoudashraf97/demucs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "mahmoudashraf97/ctc-forced-aligner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_run.yml",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_run.yml",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_run.yml",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_run.yml",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "Test Run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "speaker-diarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "speech-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "whisper",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-18T18:44:05.166065+00:00",
+  "source_repo": "MahmoudAshraf97/whisper-diarization"
+}

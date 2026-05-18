@@ -2038,6 +2038,18 @@
       "source_repo": "gorilla/mux",
       "status": "candidate-context",
       "text": "Security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drmingdrmer/databend-meta",
+      "status": "candidate-context",
+      "text": "Standalone meta-service for Databend, built on OpenRaft."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drmingdrmer/databend-meta",
+      "status": "candidate-context",
+      "text": "Security"
     }
   ],
   "candidate_glosses": [
@@ -3046,6 +3058,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gorilla/mux",
+      "status": "candidate",
+      "text": "Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drmingdrmer/databend-meta",
       "status": "candidate",
       "text": "Security"
     }
@@ -6253,11 +6271,59 @@
       "observed_at": "2026-05-18T00:43:20.098172+00:00",
       "source_file": null,
       "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "w3c/trusted-types"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "drmingdrmer/databend-meta"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
   "lexical_providers": [
     "datamuse"
   ],

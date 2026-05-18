@@ -318,7 +318,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-18T07:41:31.717186+00:00",
+  "fetched_at": "2026-05-18T22:18:23.761608+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -350,7 +350,7 @@
     "full_name": "qubvel-org/segmentation_models.pytorch",
     "html_url": "https://github.com/qubvel-org/segmentation_models.pytorch",
     "language": "Python",
-    "pushed_at": "2026-05-18T05:42:35Z",
+    "pushed_at": "2026-05-18T13:07:29Z",
     "stargazers_count": 11559,
     "topics": [
       "computer-vision",
@@ -374,7 +374,7 @@
       "unet-pytorch",
       "unetplusplus"
     ],
-    "updated_at": "2026-05-18T06:07:32Z"
+    "updated_at": "2026-05-18T14:37:49Z"
   },
   "repo_links": [
     {

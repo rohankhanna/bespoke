@@ -304,11 +304,17 @@
       "observed_at": "2026-05-18T07:35:35.489189+00:00",
       "source_file": null,
       "source_repo": "KlingAIResearch/ReCamMaster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "KlingAIResearch/ReCamMaster"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-18T07:35:35.489189+00:00",
+  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -26,7 +26,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "litedb-org/LiteDB",
-      "target": "rejemy/ultralitedb",
+      "target": "josefnemec/litedbexplorer",
       "target_type": "repository"
     },
     {
@@ -65,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-18T01:06:41.000485+00:00",
+  "fetched_at": "2026-05-18T22:08:47.431326+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -95,6 +95,11 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
+      "full_name": "josefnemec/litedbexplorer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
       "full_name": "lidanger/litedb.wiki_translation_zh-cn",
       "source_file": "README.md"
     },
@@ -106,11 +111,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "mbdavid/litedb.studio",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rejemy/ultralitedb",
       "source_file": "README.md"
     }
   ],

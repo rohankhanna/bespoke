@@ -12,6 +12,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/VI-SVS",
+      "target": "mindslab-ai/univnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/VI-SVS",
       "target": "playvoice/so-vits-svc-5.0",
       "target_type": "repository"
     },
@@ -72,7 +79,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-18T01:05:02.033162+00:00",
+  "fetched_at": "2026-05-18T22:08:02.760607+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -107,6 +114,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "maxmax2016/vi-svs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mindslab-ai/univnet",
       "source_file": "README.md"
     },
     {

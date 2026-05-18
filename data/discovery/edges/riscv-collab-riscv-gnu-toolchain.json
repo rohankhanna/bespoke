@@ -11,7 +11,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-reusable.yaml",
       "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "actions/checkout@v5",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -25,13 +25,6 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-reusable.yaml",
       "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "actions/cache/restore@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-reusable.yaml",
-      "source_repo": "riscv-collab/riscv-gnu-toolchain",
       "target": "actions/cache/restore@v5",
       "target_type": "component"
     },
@@ -39,14 +32,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-reusable.yaml",
       "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "actions/cache/save@v4",
+      "target": "actions/cache/save@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-reusable.yaml",
       "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "actions/upload-artifact@v6",
+      "target": "actions/upload-artifact@v7",
       "target_type": "component"
     },
     {
@@ -67,14 +60,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly-release.yaml",
       "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "actions/checkout@v5",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly-release.yaml",
       "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "actions/download-artifact@v7",
+      "target": "actions/download-artifact@v8",
       "target_type": "component"
     },
     {
@@ -92,6 +85,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-18T00:43:20.098172+00:00",
+  "generated_at": "2026-05-18T18:44:05.166065+00:00",
   "source_repo": "riscv-collab/riscv-gnu-toolchain"
 }

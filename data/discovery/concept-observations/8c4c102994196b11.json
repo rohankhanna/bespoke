@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Single source file FBX loader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Single source file FBX file loader."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Single source file FBX file loader."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "single-source",
+      "sense_id": "single-source#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "single-source",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "single-source",
+  "observation_id": "8c4c102994196b11",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-18T18:44:05.166065+00:00",
+  "observed_text": "single-source",
+  "source_context_snippet": "Single source file FBX file loader.",
+  "source_file": null,
+  "source_repo": "ufbx/ufbx",
+  "source_repo_description": "Single source file FBX loader"
+}

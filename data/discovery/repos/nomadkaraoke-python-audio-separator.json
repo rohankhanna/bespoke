@@ -214,13 +214,6 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nomadkaraoke/python-audio-separator",
-      "target": "your_username/audio-separator",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "nomadkaraoke/python-audio-separator",
       "target": "karaokenerds/python-audio-separator",
@@ -451,7 +444,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T19:56:33.203940+00:00",
+  "fetched_at": "2026-05-18T21:11:12.880359+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -503,17 +496,12 @@
     "full_name": "nomadkaraoke/python-audio-separator",
     "html_url": "https://github.com/nomadkaraoke/python-audio-separator",
     "language": "Python",
-    "pushed_at": "2026-05-17T18:32:25Z",
-    "stargazers_count": 1192,
+    "pushed_at": "2026-05-18T04:50:35Z",
+    "stargazers_count": 1193,
     "topics": [],
-    "updated_at": "2026-05-16T19:21:39Z"
+    "updated_at": "2026-05-18T09:56:13Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "your_username/audio-separator",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "karaokenerds/python-audio-separator",

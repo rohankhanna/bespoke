@@ -84,7 +84,7 @@
   "normalized_form": "cmake",
   "observation_id": "529783982d5ca52b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-18T07:35:35.489189+00:00",
+  "observed_at": "2026-05-18T18:44:05.166065+00:00",
   "observed_text": "CMake",
   "source_context_snippet": "CMake",
   "source_file": ".github/workflows/cmake.yml",

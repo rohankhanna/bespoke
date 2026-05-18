@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-18T00:43:20.098172+00:00",
-  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "specta-rs/specta"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "specta-rs/tauri-specta"
     }
   ],
   "term": "rspc"

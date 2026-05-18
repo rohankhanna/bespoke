@@ -58,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-18T07:38:49.647234+00:00",
+  "fetched_at": "2026-05-18T22:16:39.698812+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -75,7 +75,7 @@
     "html_url": "https://github.com/NVIDIA-Genomics-Research/GenomeWorks",
     "language": "Cuda",
     "pushed_at": "2024-05-03T19:45:20Z",
-    "stargazers_count": 299,
+    "stargazers_count": 300,
     "topics": [
       "alignment",
       "cuda",
@@ -87,7 +87,7 @@
       "poa",
       "python-api"
     ],
-    "updated_at": "2026-05-14T00:08:49Z"
+    "updated_at": "2026-05-18T16:18:13Z"
   },
   "repo_links": [
     {

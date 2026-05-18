@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Automatic Speech Recognition with Speaker Diarization based on OpenAI Whisper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">Speaker Diarization Using OpenAI Whisper</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Speaker Diarization Using OpenAI Whisper</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "speaker-diarization",
+      "sense_id": "speaker-diarization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "speaker-diarization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "speaker-diarization",
+  "observation_id": "f71ccb23c94820ec",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-18T18:44:05.166065+00:00",
+  "observed_text": "speaker-diarization",
+  "source_context_snippet": "<h1 align=\"center\">Speaker Diarization Using OpenAI Whisper</h1>",
+  "source_file": null,
+  "source_repo": "MahmoudAshraf97/whisper-diarization",
+  "source_repo_description": "Automatic Speech Recognition with Speaker Diarization based on OpenAI Whisper"
+}

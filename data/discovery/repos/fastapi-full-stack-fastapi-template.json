@@ -21,6 +21,11 @@
       "source_file": ".github/workflows/detect-conflicts.yml"
     },
     {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guard-dependencies.yml"
+    },
+    {
       "component": "tiangolo/issue-manager@2fb3484ec9279485df8659e8ec73de262431737d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-manager.yml"
@@ -34,16 +39,6 @@
       "component": "agilepathway/label-checker@c3d16ad512e7cea5961df85ff2486bb774caf3c5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/labeler.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/latest-changes.yml"
-    },
-    {
-      "component": "tiangolo/latest-changes@c9d329cb147f0ddf4fb631214e3f838ff17ccbbd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/latest-changes.yml"
     }
   ],
   "edges": [
@@ -105,6 +100,20 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guard-dependencies.yml",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/guard-dependencies.yml",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "target": "Guard Dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-manager.yml",
       "source_repo": "fastapi/full-stack-fastapi-template",
       "target": "tiangolo/issue-manager@2fb3484ec9279485df8659e8ec73de262431737d",
@@ -136,27 +145,6 @@
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "fastapi/full-stack-fastapi-template",
       "target": "Labels",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/latest-changes.yml",
-      "source_repo": "fastapi/full-stack-fastapi-template",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/latest-changes.yml",
-      "source_repo": "fastapi/full-stack-fastapi-template",
-      "target": "tiangolo/latest-changes@c9d329cb147f0ddf4fb631214e3f838ff17ccbbd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/latest-changes.yml",
-      "source_repo": "fastapi/full-stack-fastapi-template",
-      "target": "Latest Changes",
       "target_type": "term"
     },
     {
@@ -272,7 +260,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-18T01:13:51.493013+00:00",
+  "fetched_at": "2026-05-18T22:12:58.834420+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -303,16 +291,16 @@
       "size": 623
     },
     {
+      "path": ".github/workflows/guard-dependencies.yml",
+      "size": 2108
+    },
+    {
       "path": ".github/workflows/issue-manager.yml",
       "size": 1996
     },
     {
       "path": ".github/workflows/labeler.yml",
       "size": 997
-    },
-    {
-      "path": ".github/workflows/latest-changes.yml",
-      "size": 1471
     }
   ],
   "related_repositories": [],
@@ -324,8 +312,8 @@
     "full_name": "fastapi/full-stack-fastapi-template",
     "html_url": "https://github.com/fastapi/full-stack-fastapi-template",
     "language": "TypeScript",
-    "pushed_at": "2026-05-17T10:41:28Z",
-    "stargazers_count": 43202,
+    "pushed_at": "2026-05-18T11:17:28Z",
+    "stargazers_count": 43214,
     "topics": [
       "backend",
       "chakra-ui",
@@ -347,7 +335,7 @@
       "traefik",
       "typescript"
     ],
-    "updated_at": "2026-05-17T20:44:04Z"
+    "updated_at": "2026-05-18T21:30:29Z"
   },
   "repo_links": [],
   "terms": [
@@ -376,6 +364,12 @@
       "term": "Conflict detector"
     },
     {
+      "context_snippet": "Guard Dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/guard-dependencies.yml",
+      "term": "Guard Dependencies"
+    },
+    {
       "context_snippet": "Issue Manager",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/issue-manager.yml",
@@ -386,12 +380,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/labeler.yml",
       "term": "Labels"
-    },
-    {
-      "context_snippet": "Latest Changes",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/latest-changes.yml",
-      "term": "Latest Changes"
     },
     {
       "context_snippet": "<a href=\"https://github.com/fastapi/full-stack-fastapi-template/actions?query=workflow%3A%22Test+Docker+Compose%22\" target=\"_blank\"><img src=\"https://github.com/fastapi/full-stack-fastapi-template/workflows/Test%20Docker%20Compose/badge.svg\" alt=\"Test Docker Compose\"></a>",

@@ -1,0 +1,222 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_run.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_run.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_run.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_run.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_run.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "guillaumekln/faster-whisper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "nvidia/nemo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "mahmoudashraf97/demucs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "mahmoudashraf97/ctc-forced-aligner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_run.yml",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_run.yml",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_run.yml",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_run.yml",
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "Test Run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "speaker-diarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "speech-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahmoudAshraf97/whisper-diarization",
+      "target": "whisper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-18T20:00:20.734769+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5978
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 181
+    },
+    {
+      "path": "requirements.txt",
+      "size": 234
+    },
+    {
+      "path": ".github/workflows/test_run.yml",
+      "size": 1791
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automatic Speech Recognition with Speaker Diarization based on OpenAI Whisper",
+    "fork": false,
+    "full_name": "MahmoudAshraf97/whisper-diarization",
+    "html_url": "https://github.com/MahmoudAshraf97/whisper-diarization",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-02-23T15:56:59Z",
+    "stargazers_count": 5520,
+    "topics": [
+      "asr",
+      "speaker-diarization",
+      "speech",
+      "speech-recognition",
+      "speech-to-text",
+      "whisper"
+    ],
+    "updated_at": "2026-05-17T20:02:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guillaumekln/faster-whisper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/nemo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mahmoudashraf97/ctc-forced-aligner",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mahmoudashraf97/demucs",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test Run",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_run.yml",
+      "term": "Test Run"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Speaker Diarization Using OpenAI Whisper</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-diarization"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Speaker Diarization Using OpenAI Whisper</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Speaker Diarization Using OpenAI Whisper</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Speaker Diarization Using OpenAI Whisper</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Speaker Diarization Using OpenAI Whisper</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whisper"
+    }
+  ]
+}

@@ -84,7 +84,7 @@
   "normalized_form": "security-audit",
   "observation_id": "610cd01ae9d5a749",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-18T00:43:20.098172+00:00",
+  "observed_at": "2026-05-18T18:44:05.166065+00:00",
   "observed_text": "Security audit",
   "source_context_snippet": "Security audit",
   "source_file": ".github/workflows/audit.yml",

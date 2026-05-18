@@ -84,7 +84,7 @@
   "normalized_form": "wasmer",
   "observation_id": "a0bc543258f3f2f3",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-18T00:43:20.098172+00:00",
+  "observed_at": "2026-05-18T18:44:05.166065+00:00",
   "observed_text": "wasmer",
   "source_context_snippet": "Zig bindings for the [Wasmer](https://github.com/wasmerio/wasmer/tree/main/lib/c-api) WebAssembly runtime.",
   "source_file": null,

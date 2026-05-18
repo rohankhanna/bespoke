@@ -185,7 +185,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-18T07:43:50.913550+00:00",
+  "fetched_at": "2026-05-18T20:13:00.805831+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -234,7 +234,7 @@
     "html_url": "https://github.com/meta-pytorch/captum",
     "language": "Python",
     "pushed_at": "2026-05-09T17:42:38Z",
-    "stargazers_count": 5628,
+    "stargazers_count": 5629,
     "topics": [
       "feature-attribution",
       "feature-importance",
@@ -242,7 +242,7 @@
       "interpretable-ai",
       "interpretable-ml"
     ],
-    "updated_at": "2026-05-16T18:42:31Z"
+    "updated_at": "2026-05-18T14:21:59Z"
   },
   "repo_links": [
     {

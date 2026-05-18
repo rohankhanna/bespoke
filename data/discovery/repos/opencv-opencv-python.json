@@ -367,7 +367,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T19:49:48.321820+00:00",
+  "fetched_at": "2026-05-18T21:06:27.633666+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -404,7 +404,7 @@
     "html_url": "https://github.com/opencv/opencv-python",
     "language": "Python",
     "pushed_at": "2026-02-03T07:13:13Z",
-    "stargazers_count": 5256,
+    "stargazers_count": 5257,
     "topics": [
       "manylinux",
       "opencv",
@@ -416,7 +416,7 @@
       "python-3",
       "wheel"
     ],
-    "updated_at": "2026-05-17T10:45:02Z"
+    "updated_at": "2026-05-17T20:06:11Z"
   },
   "repo_links": [
     {

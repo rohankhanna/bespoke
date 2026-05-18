@@ -48,7 +48,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SYSTRAN/faster-whisper",
-      "target": "mahmoudashraf97/whisper-diarization",
+      "target": "purfview/whisper-standalone-win",
       "target_type": "repository"
     },
     {
@@ -136,7 +136,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-18T01:05:22.502755+00:00",
+  "fetched_at": "2026-05-18T22:08:14.349586+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -161,7 +161,7 @@
     "html_url": "https://github.com/SYSTRAN/faster-whisper",
     "language": "Python",
     "pushed_at": "2025-11-19T14:40:46Z",
-    "stargazers_count": 22964,
+    "stargazers_count": 22980,
     "topics": [
       "deep-learning",
       "inference",
@@ -172,7 +172,7 @@
       "transformer",
       "whisper"
     ],
-    "updated_at": "2026-05-17T22:41:05Z"
+    "updated_at": "2026-05-18T21:01:27Z"
   },
   "repo_links": [
     {
@@ -192,7 +192,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mahmoudashraf97/whisper-diarization",
+      "full_name": "purfview/whisper-standalone-win",
       "source_file": "README.md"
     }
   ],

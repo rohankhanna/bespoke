@@ -9,11 +9,11 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-18T07:51:40.317264+00:00",
+  "fetched_at": "2026-05-18T20:53:03.143147+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 11466
+      "size": 11494
     }
   ],
   "related_repositories": [],
@@ -25,10 +25,10 @@
     "full_name": "google-deepmind/xmanager",
     "html_url": "https://github.com/google-deepmind/xmanager",
     "language": "Python",
-    "pushed_at": "2026-04-24T16:55:06Z",
+    "pushed_at": "2026-05-18T13:58:00Z",
     "stargazers_count": 909,
     "topics": [],
-    "updated_at": "2026-05-02T16:07:58Z"
+    "updated_at": "2026-05-18T09:18:57Z"
   },
   "repo_links": [
     {

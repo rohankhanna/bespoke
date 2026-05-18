@@ -691,6 +691,12 @@
       "source_repo": "lobehub/lobehub",
       "status": "candidate-context",
       "text": "LobeHub organizes your agents into 7\u00d724 operation. It hires, schedules, reports on your entire AI team. You stay in charge \u2014 without staying online."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lobehub/lobehub",
+      "status": "candidate-context",
+      "text": "\ud83e\udd2f LobeHub is your Chief Agent Operator, organizing your agents into 7\u00d724 operations by hiring, scheduling, and reporting on your entire AI team."
     }
   ],
   "candidate_glosses": [
@@ -4392,11 +4398,71 @@
       "observed_at": "2026-05-18T07:35:35.489189+00:00",
       "source_file": null,
       "source_repo": "google-gemini/live-api-web-console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "QuantumNous/new-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "chatboxai/chatbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "hexabot-ai/Hexabot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "google-gemini/live-api-web-console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-18T07:35:35.489189+00:00",
+  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -21,6 +21,13 @@
     },
     {
       "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/RepoAgent",
+      "target": "codespaces/badge.svg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "OpenBMB/RepoAgent",
       "target": "logic-10/repoagent",
@@ -118,7 +125,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-18T01:08:09.790734+00:00",
+  "fetched_at": "2026-05-18T22:09:41.320022+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -147,7 +154,7 @@
     "html_url": "https://github.com/OpenBMB/RepoAgent",
     "language": "Python",
     "pushed_at": "2024-12-23T11:48:52Z",
-    "stargazers_count": 964,
+    "stargazers_count": 967,
     "topics": [
       "agent",
       "chatglm",
@@ -163,9 +170,14 @@
       "rag",
       "repo-level-debugging"
     ],
-    "updated_at": "2026-05-16T06:17:13Z"
+    "updated_at": "2026-05-18T12:33:50Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codespaces/badge.svg",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "logic-10/repoagent",

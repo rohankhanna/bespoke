@@ -9,6 +9,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AILab-CVC/VideoCrafter",
+      "target": "stability-ai/stablediffusion",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "AILab-CVC/VideoCrafter",
@@ -30,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-18T07:42:18.347761+00:00",
+  "fetched_at": "2026-05-18T20:12:05.488824+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -51,15 +58,20 @@
     "html_url": "https://github.com/AILab-CVC/VideoCrafter",
     "language": "Python",
     "pushed_at": "2026-01-09T15:01:22Z",
-    "stargazers_count": 5056,
+    "stargazers_count": 5055,
     "topics": [
       "image-to-video",
       "text-to-video",
       "video-generation"
     ],
-    "updated_at": "2026-05-16T20:49:54Z"
+    "updated_at": "2026-05-18T15:42:43Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stability-ai/stablediffusion",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "videocrafter/videocrafter",

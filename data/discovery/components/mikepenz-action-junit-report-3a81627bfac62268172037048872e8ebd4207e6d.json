@@ -1,0 +1,27 @@
+{
+  "component": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
+  "first_seen_at": "2026-05-18T18:44:05.166065+00:00",
+  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-kubernetes-main.yaml",
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-main-tf.yaml",
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-main.yaml",
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/managed-configuration.yaml",
+      "source_repo": "podman-desktop/podman-desktop"
+    }
+  ]
+}

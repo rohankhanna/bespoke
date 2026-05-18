@@ -183,13 +183,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vuejs/language-tools",
-      "target": "volarjs/workspace.",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "vuejs/language-tools",
@@ -435,7 +428,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-17T19:47:05.048128+00:00",
+  "fetched_at": "2026-05-18T21:04:31.109889+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -451,7 +444,7 @@
     },
     {
       "path": ".github/workflows/auto-version.yml",
-      "size": 1302
+      "size": 1286
     },
     {
       "path": ".github/workflows/copilot-setup-steps.yml",
@@ -479,18 +472,12 @@
     "full_name": "vuejs/language-tools",
     "html_url": "https://github.com/vuejs/language-tools",
     "language": "TypeScript",
-    "pushed_at": "2026-05-17T19:41:00Z",
+    "pushed_at": "2026-05-18T11:38:29Z",
     "stargazers_count": 6662,
     "topics": [],
-    "updated_at": "2026-05-17T19:41:04Z"
+    "updated_at": "2026-05-18T11:38:25Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "volarjs/workspace.",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Auto Fix",

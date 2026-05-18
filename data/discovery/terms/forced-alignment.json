@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-13T12:58:22.952944+00:00",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "MontrealCorpusTools/Montreal-Forced-Aligner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "MahmoudAshraf97/ctc-forced-aligner"
     }
   ],
   "term": "forced-alignment"

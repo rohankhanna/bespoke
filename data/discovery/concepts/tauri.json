@@ -151,6 +151,30 @@
       "source_repo": "Brendonovich/MacroGraph",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MatsDK/TauRPC",
+      "status": "candidate-context",
+      "text": "Typesafe IPC layer for Tauri applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MatsDK/TauRPC",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/npm/v/taurpc)](https://www.npmjs.com/package/taurpc) [![](https://img.shields.io/crates/v/taurpc)](https://crates.io/crates/taurpc) [![](https://img.shields.io/docsrs/taurpc)](https://docs.rs/taurpc/) ![](https://img.shields.io/crates/l/taurpc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "specta-rs/tauri-specta",
+      "status": "candidate-context",
+      "text": "Completely typesafe Tauri commands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "specta-rs/tauri-specta",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +249,18 @@
       "source_repo": "Brendonovich/MacroGraph",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MatsDK/TauRPC",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/npm/v/taurpc)](https://www.npmjs.com/package/taurpc) [![](https://img.shields.io/crates/v/taurpc)](https://crates.io/crates/taurpc) [![](https://img.shields.io/docsrs/taurpc)](https://docs.rs/taurpc/) ![](https://img.shields.io/crates/l/taurpc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "specta-rs/tauri-specta",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1066,11 +1102,35 @@
       "observed_at": "2026-05-18T00:43:20.098172+00:00",
       "source_file": null,
       "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "MatsDK/TauRPC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-18T18:44:05.166065+00:00",
+      "source_file": null,
+      "source_repo": "specta-rs/tauri-specta"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
   "lexical_providers": [
     "datamuse"
   ],
