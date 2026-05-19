@@ -1,7 +1,7 @@
 {
   "component": "package-up",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
+  "last_seen_at": "2026-05-19T18:44:49.183462+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

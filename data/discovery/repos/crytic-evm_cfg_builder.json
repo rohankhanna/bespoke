@@ -234,7 +234,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T10:50:35.161605+00:00",
+  "fetched_at": "2026-05-19T18:54:59.915045+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -275,14 +275,14 @@
     "html_url": "https://github.com/crytic/evm_cfg_builder",
     "language": "Python",
     "pushed_at": "2023-06-29T20:08:36Z",
-    "stargazers_count": 127,
+    "stargazers_count": 128,
     "topics": [
       "cfg",
       "ethereum",
       "evm",
       "reversing"
     ],
-    "updated_at": "2026-03-15T17:27:34Z"
+    "updated_at": "2026-05-19T15:04:52Z"
   },
   "repo_links": [
     {

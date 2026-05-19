@@ -11,13 +11,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SYSTRAN/faster-whisper",
-      "target": "pyav-org/pyav",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "SYSTRAN/faster-whisper",
       "target": "bandas-center/atrain",
       "target_type": "repository"
     },
@@ -26,6 +19,13 @@
       "source_file": "README.md",
       "source_repo": "SYSTRAN/faster-whisper",
       "target": "bbc-esq/ctranslate2-faster-whisper-transcriber",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SYSTRAN/faster-whisper",
+      "target": "softcatala/open-dubbing",
       "target_type": "repository"
     },
     {
@@ -99,6 +99,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-19T13:24:05.041483+00:00",
+  "generated_at": "2026-05-19T18:44:49.183462+00:00",
   "source_repo": "SYSTRAN/faster-whisper"
 }

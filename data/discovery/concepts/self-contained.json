@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "self-contained"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eyalroz/printf",
+      "status": "candidate-context",
+      "text": "Tiny, fast(ish), self-contained, fully loaded printf, sprinf etc. implementation; particularly useful in embedded systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eyalroz/printf",
+      "status": "candidate-context",
+      "text": "[![tests passing](https://github.com/eyalroz/printf/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/eyalroz/printf/actions/workflows/build_and_test.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eyalroz/printf",
+      "status": "candidate",
+      "text": "[![tests passing](https://github.com/eyalroz/printf/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/eyalroz/printf/actions/workflows/build_and_test.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997418,
+      "status": "candidate",
+      "text": "poised"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997097,
+      "status": "candidate",
+      "text": "equanimous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996842,
+      "status": "candidate",
+      "text": "composed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994682,
+      "status": "candidate",
+      "text": "self-possessed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39979439,
+      "status": "candidate",
+      "text": "complete"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39034,
+      "status": "candidate",
+      "text": "composed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29032,
+      "status": "candidate",
+      "text": "poised"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28052,
+      "status": "candidate",
+      "text": "complete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19019,
+      "status": "candidate",
+      "text": "equanimous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12034,
+      "status": "candidate",
+      "text": "collected"
+    }
+  ],
+  "canonical_name": "self-contained",
+  "concept_id": "self-contained",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T18:44:49.183462+00:00",
+      "source_file": null,
+      "source_repo": "eyalroz/printf"
+    }
+  ],
+  "first_seen_at": "2026-05-19T18:44:49.183462+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-19T18:44:49.183462+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "self-contained",
+      "sense_id": "self-contained#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

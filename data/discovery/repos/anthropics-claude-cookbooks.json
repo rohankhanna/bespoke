@@ -41,17 +41,17 @@
       "source_file": ".github/workflows/links.yml"
     },
     {
-      "component": "lycheeverse/lychee-action@v2",
+      "component": "lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/links.yml"
     },
     {
-      "component": "lycheeverse/lychee-action@v2",
+      "component": "lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/links.yml"
     },
     {
-      "component": "marocchino/sticky-pull-request-comment@v2",
+      "component": "marocchino/sticky-pull-request-comment@773744901bac0e8cbb5a0dc842800d45e9b2b405",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/links.yml"
     },
@@ -66,7 +66,7 @@
       "source_file": ".github/workflows/lint-format.yml"
     },
     {
-      "component": "astral-sh/setup-uv@v4",
+      "component": "astral-sh/setup-uv@38f3f104447c67c051c4a08e39b64a148898af3a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint-format.yml"
     },
@@ -81,7 +81,7 @@
       "source_file": ".github/workflows/notebook-diff-comment.yml"
     },
     {
-      "component": "astral-sh/setup-uv@v4",
+      "component": "astral-sh/setup-uv@38f3f104447c67c051c4a08e39b64a148898af3a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/notebook-diff-comment.yml"
     },
@@ -91,7 +91,7 @@
       "source_file": ".github/workflows/notebook-quality.yml"
     },
     {
-      "component": "astral-sh/setup-uv@v4",
+      "component": "astral-sh/setup-uv@38f3f104447c67c051c4a08e39b64a148898af3a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/notebook-quality.yml"
     },
@@ -111,7 +111,7 @@
       "source_file": ".github/workflows/notebook-tests.yml"
     },
     {
-      "component": "astral-sh/setup-uv@v4",
+      "component": "astral-sh/setup-uv@38f3f104447c67c051c4a08e39b64a148898af3a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/notebook-tests.yml"
     },
@@ -215,14 +215,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/links.yml",
       "source_repo": "anthropics/claude-cookbooks",
-      "target": "lycheeverse/lychee-action@v2",
+      "target": "lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/links.yml",
       "source_repo": "anthropics/claude-cookbooks",
-      "target": "marocchino/sticky-pull-request-comment@v2",
+      "target": "marocchino/sticky-pull-request-comment@773744901bac0e8cbb5a0dc842800d45e9b2b405",
       "target_type": "component"
     },
     {
@@ -250,7 +250,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint-format.yml",
       "source_repo": "anthropics/claude-cookbooks",
-      "target": "astral-sh/setup-uv@v4",
+      "target": "astral-sh/setup-uv@38f3f104447c67c051c4a08e39b64a148898af3a",
       "target_type": "component"
     },
     {
@@ -278,7 +278,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/notebook-diff-comment.yml",
       "source_repo": "anthropics/claude-cookbooks",
-      "target": "astral-sh/setup-uv@v4",
+      "target": "astral-sh/setup-uv@38f3f104447c67c051c4a08e39b64a148898af3a",
       "target_type": "component"
     },
     {
@@ -299,7 +299,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/notebook-quality.yml",
       "source_repo": "anthropics/claude-cookbooks",
-      "target": "astral-sh/setup-uv@v4",
+      "target": "astral-sh/setup-uv@38f3f104447c67c051c4a08e39b64a148898af3a",
       "target_type": "component"
     },
     {
@@ -334,7 +334,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/notebook-tests.yml",
       "source_repo": "anthropics/claude-cookbooks",
-      "target": "astral-sh/setup-uv@v4",
+      "target": "astral-sh/setup-uv@38f3f104447c67c051c4a08e39b64a148898af3a",
       "target_type": "component"
     },
     {
@@ -359,7 +359,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T13:42:55.672176+00:00",
+  "fetched_at": "2026-05-19T19:09:07.392755+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -383,23 +383,23 @@
     },
     {
       "path": ".github/workflows/links.yml",
-      "size": 5207
+      "size": 5387
     },
     {
       "path": ".github/workflows/lint-format.yml",
-      "size": 5696
+      "size": 5756
     },
     {
       "path": ".github/workflows/notebook-diff-comment.yml",
-      "size": 3246
+      "size": 3306
     },
     {
       "path": ".github/workflows/notebook-quality.yml",
-      "size": 4496
+      "size": 4556
     },
     {
       "path": ".github/workflows/notebook-tests.yml",
-      "size": 8502
+      "size": 8562
     }
   ],
   "related_repositories": [],
@@ -411,10 +411,10 @@
     "full_name": "anthropics/claude-cookbooks",
     "html_url": "https://github.com/anthropics/claude-cookbooks",
     "language": "Jupyter Notebook",
-    "pushed_at": "2026-05-19T13:40:34Z",
-    "stargazers_count": 43318,
+    "pushed_at": "2026-05-19T18:32:41Z",
+    "stargazers_count": 43342,
     "topics": [],
-    "updated_at": "2026-05-19T13:28:18Z"
+    "updated_at": "2026-05-19T18:52:41Z"
   },
   "repo_links": [
     {

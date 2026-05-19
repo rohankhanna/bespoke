@@ -26,7 +26,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "litedb-org/LiteDB",
-      "target": "sheryever/litedbdirectory",
+      "target": "zaid-ajaj/litedb.fsharp",
       "target_type": "repository"
     },
     {
@@ -65,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T13:30:05.925932+00:00",
+  "fetched_at": "2026-05-19T19:01:58.919184+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -110,7 +110,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "sheryever/litedbdirectory",
+      "full_name": "zaid-ajaj/litedb.fsharp",
       "source_file": "README.md"
     }
   ],

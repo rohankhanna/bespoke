@@ -69405,6 +69405,9 @@
   "printf": [
     "printf"
   ],
+  "printf-functions": [
+    "printf-functions"
+  ],
   "printing": [
     "printing"
   ],
@@ -70853,6 +70856,9 @@
   ],
   "publish image": [
     "publish-image"
+  ],
+  "publish image to github package registry": [
+    "publish-image-to-github-package-registry"
   ],
   "publish image-service to dockerhub": [
     "publish-image-service-to-dockerhub"
@@ -76407,6 +76413,9 @@
   "replace-text": [
     "replace-text"
   ],
+  "replacement": [
+    "replacement"
+  ],
   "replicate": [
     "replicate"
   ],
@@ -80796,6 +80805,9 @@
   "self-build": [
     "self-build"
   ],
+  "self-contained": [
+    "self-contained"
+  ],
   "self-describing": [
     "self-describing"
   ],
@@ -84313,6 +84325,12 @@
   ],
   "springframework": [
     "springframework"
+  ],
+  "sprintf": [
+    "sprintf"
+  ],
+  "sprintf-style": [
+    "sprintf-style"
   ],
   "sprite": [
     "sprite"
@@ -97432,6 +97450,9 @@
   ],
   "vpn-service": [
     "vpn-service"
+  ],
+  "vprintf": [
+    "vprintf"
   ],
   "vpype": [
     "vpype"

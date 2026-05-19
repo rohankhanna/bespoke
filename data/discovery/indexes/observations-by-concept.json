@@ -34936,6 +34936,7 @@
     "5fa64989844b08d0",
     "5fa7776e663d8566",
     "5fb596cc827383fe",
+    "600669c0cc3b4451",
     "60339c88334f34d2",
     "609c5a925da811c1",
     "60cc25c2aabd367e",
@@ -58213,7 +58214,8 @@
     "e4a839ba3fe56491",
     "e9ea18c25205b4cf",
     "ebb74a6ab994d04b",
-    "ec7ec73895e09749"
+    "ec7ec73895e09749",
+    "f54d2750ae9a170b"
   ],
   "embedded-audio": [
     "e91fce2c8207cfb8"
@@ -58253,9 +58255,11 @@
     "0f3d7aba6e8c3442"
   ],
   "embedded-systems": [
+    "1fb8a8b588ce3196",
     "23f50219addf8938",
     "4488c1f179c2aebb",
     "4b3f626310b4e9b9",
+    "50e95cb8d4bd4155",
     "d8c4ed320454c97a",
     "f87e4dfc82f600fa"
   ],
@@ -64383,6 +64387,7 @@
     "abbc7487664ef10d",
     "ae61272c800c9cc9",
     "b307ec7f02da31df",
+    "b35eccd516fe5148",
     "b4cd11a6484ab039",
     "b6d9c48fb5711a1f",
     "b9b7730c718ad1f2",
@@ -88208,6 +88213,7 @@
     "19ddbe63b0827842",
     "20145ba90b24f6fc",
     "6d6ad33ddbd3e941",
+    "dd921cabe6f8e513",
     "ed2795e286bb2d40"
   ],
   "libc-hardening-tests": [
@@ -105494,6 +105500,7 @@
     "3647a6321a5bff8b",
     "5cabb06cbc2a166b",
     "60c57e4cf9ca2548",
+    "699de2e97fd3289b",
     "6d8a464239c4200b",
     "9c08ada413d56327",
     "e0e0cf9766d5ab47",
@@ -118473,6 +118480,7 @@
   "presubmit-checks": [
     "593ee8fbe50b8dc5",
     "6f6bdb6041d6441a",
+    "8028e433fb0d8931",
     "ffbefeada85c5637"
   ],
   "presubmit-ci": [
@@ -118786,7 +118794,12 @@
   "printf": [
     "26730d4867244d18",
     "296dc09b5872841f",
+    "cc735cb20a9ff90e",
+    "f86455d22593e7b1",
     "f89a48d710d483c8"
+  ],
+  "printf-functions": [
+    "36de27f4fda444ac"
   ],
   "printing": [
     "a269cf717a219012",
@@ -121506,6 +121519,9 @@
   ],
   "publish-image-service-to-dockerhub": [
     "21c35d63274826a6"
+  ],
+  "publish-image-to-github-package-registry": [
+    "656040a12a8b95ef"
   ],
   "publish-images": [
     "6da5f8dc6563c430",
@@ -132562,6 +132578,9 @@
   "replace-version-placeholders": [
     "093938f9760b0742"
   ],
+  "replacement": [
+    "b20e72455472c2d3"
+  ],
   "replicate": [
     "2ba97438ce07e046"
   ],
@@ -140667,6 +140686,9 @@
   "self-build": [
     "d7f17cc4731c3e5a"
   ],
+  "self-contained": [
+    "72d9d12678571e89"
+  ],
   "self-describing": [
     "404627bb58e30b0a",
     "d957343bcce4f54e",
@@ -144243,7 +144265,9 @@
     "bf75923555c4376d"
   ],
   "snprintf": [
-    "51a9e9d8e2be1462"
+    "51a9e9d8e2be1462",
+    "7f0423c5e8d06d87",
+    "8b39f81a8a1c4c90"
   ],
   "snuvl": [
     "54430bfa3a9a97f0"
@@ -146275,6 +146299,13 @@
   ],
   "springframework": [
     "16b97984ae9e7703"
+  ],
+  "sprintf": [
+    "140c0cc00a29f133",
+    "1aba28c4ceae6d11"
+  ],
+  "sprintf-style": [
+    "4ccf9192b39a368f"
   ],
   "sprite": [
     "8b16b96c35401f9b"
@@ -156413,6 +156444,7 @@
     "9694758343839323",
     "96bd8943cb337561",
     "9754b76ecbec7d7b",
+    "9787c229803eb28e",
     "97b05497a8abec67",
     "980c3f0cf67cc23e",
     "982444aa1f36db33",
@@ -157813,6 +157845,7 @@
     "fe84a9e2ba9e4b12"
   ],
   "threadsafe": [
+    "22b18c7f984f8273",
     "24c2c1a73840f228"
   ],
   "threat-detection": [
@@ -158166,7 +158199,9 @@
     "170765b74bb39423",
     "22f93d3809eb12cb",
     "27888acd59224f03",
+    "377e6e7b900aa94f",
     "9d166d8af259f17f",
+    "a84f4cb2e7ab65f3",
     "f6450d88cccf8d91"
   ],
   "tiny-cuda-nn": [
@@ -158215,6 +158250,7 @@
     "5b781f290297aad3"
   ],
   "tinyprintf": [
+    "3ee36c758baa664f",
     "9e53f24573a3ce44"
   ],
   "tipi.build": [
@@ -164684,6 +164720,7 @@
   ],
   "utility-library": [
     "1929c85c7ed24cd0",
+    "3b5a8d9810a12dba",
     "5e7607846289aee0",
     "b9c31a4cc90592ea",
     "c033b12fd456aba6"
@@ -168592,6 +168629,9 @@
   ],
   "vpn-service": [
     "ed6d13137ec3e787"
+  ],
+  "vprintf": [
+    "e8ee300e2a14f3c3"
   ],
   "vpype": [
     "b1bc6f8bc83a28ce"

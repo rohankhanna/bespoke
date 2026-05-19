@@ -316,11 +316,17 @@
       "observed_at": "2026-05-19T07:24:07.075826+00:00",
       "source_file": ".github/workflows/respond-to-monorepo.yml",
       "source_repo": "storybookjs/frontpage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T18:44:49.183462+00:00",
+      "source_file": ".github/workflows/respond-to-monorepo.yml",
+      "source_repo": "storybookjs/frontpage"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
+  "last_seen_at": "2026-05-19T18:44:49.183462+00:00",
   "lexical_providers": [
     "datamuse"
   ],

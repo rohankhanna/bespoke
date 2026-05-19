@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "sprintf"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eyalroz/printf",
+      "status": "candidate-context",
+      "text": "Tiny, fast(ish), self-contained, fully loaded printf, sprinf etc. implementation; particularly useful in embedded systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eyalroz/printf",
+      "status": "candidate-context",
+      "text": "[![tests passing](https://github.com/eyalroz/printf/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/eyalroz/printf/actions/workflows/build_and_test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mpaland/printf",
+      "status": "candidate-context",
+      "text": "Tiny, fast, non-dependent and fully loaded printf implementation for embedded systems. Extensive test suite passing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpaland/printf",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/mpaland/printf.svg?branch=master)](https://travis-ci.org/mpaland/printf)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eyalroz/printf",
+      "status": "candidate",
+      "text": "[![tests passing](https://github.com/eyalroz/printf/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/eyalroz/printf/actions/workflows/build_and_test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpaland/printf",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/mpaland/printf.svg?branch=master)](https://travis-ci.org/mpaland/printf)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "sprintf",
+  "concept_id": "sprintf",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T18:44:49.183462+00:00",
+      "source_file": null,
+      "source_repo": "eyalroz/printf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T18:44:49.183462+00:00",
+      "source_file": null,
+      "source_repo": "mpaland/printf"
+    }
+  ],
+  "first_seen_at": "2026-05-19T18:44:49.183462+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-19T18:44:49.183462+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sprintf",
+      "sense_id": "sprintf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

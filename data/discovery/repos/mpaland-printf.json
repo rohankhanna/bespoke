@@ -1,0 +1,224 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mpaland/printf",
+      "target": "mpaland/turnkeyboard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mpaland/printf",
+      "target": "embeddedartistry/libc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mpaland/printf",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mpaland/printf",
+      "target": "embedded-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mpaland/printf",
+      "target": "format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mpaland/printf",
+      "target": "libc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mpaland/printf",
+      "target": "no-dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mpaland/printf",
+      "target": "printf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mpaland/printf",
+      "target": "replacement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mpaland/printf",
+      "target": "snprintf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mpaland/printf",
+      "target": "sprintf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mpaland/printf",
+      "target": "threadsafe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mpaland/printf",
+      "target": "tiny",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mpaland/printf",
+      "target": "tinyprintf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-19T19:01:21.480103+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11680
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tiny, fast, non-dependent and fully loaded printf implementation for embedded systems. Extensive test suite passing.",
+    "fork": false,
+    "full_name": "mpaland/printf",
+    "html_url": "https://github.com/mpaland/printf",
+    "language": "C",
+    "pushed_at": "2023-04-03T17:53:29Z",
+    "stargazers_count": 2995,
+    "topics": [
+      "embedded",
+      "embedded-systems",
+      "format",
+      "iot",
+      "libc",
+      "no-dependencies",
+      "printf",
+      "replacement",
+      "snprintf",
+      "sprintf",
+      "threadsafe",
+      "tiny",
+      "tinyprintf"
+    ],
+    "updated_at": "2026-05-19T11:18:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "embeddedartistry/libc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mpaland/turnkeyboard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mpaland/printf.svg?branch=master)](https://travis-ci.org/mpaland/printf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mpaland/printf.svg?branch=master)](https://travis-ci.org/mpaland/printf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded-systems"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mpaland/printf.svg?branch=master)](https://travis-ci.org/mpaland/printf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "format"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mpaland/printf.svg?branch=master)](https://travis-ci.org/mpaland/printf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libc"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mpaland/printf.svg?branch=master)](https://travis-ci.org/mpaland/printf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "no-dependencies"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mpaland/printf.svg?branch=master)](https://travis-ci.org/mpaland/printf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "printf"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mpaland/printf.svg?branch=master)](https://travis-ci.org/mpaland/printf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "replacement"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mpaland/printf.svg?branch=master)](https://travis-ci.org/mpaland/printf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snprintf"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mpaland/printf.svg?branch=master)](https://travis-ci.org/mpaland/printf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sprintf"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mpaland/printf.svg?branch=master)](https://travis-ci.org/mpaland/printf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "threadsafe"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mpaland/printf.svg?branch=master)](https://travis-ci.org/mpaland/printf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tiny"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mpaland/printf.svg?branch=master)](https://travis-ci.org/mpaland/printf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tinyprintf"
+    }
+  ]
+}

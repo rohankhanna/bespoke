@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
-  "last_seen_at": "2026-05-16T00:38:16.846047+00:00",
+  "last_seen_at": "2026-05-19T18:44:49.183462+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -21,6 +21,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "cginternals/cpplocate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "eyalroz/printf"
     }
   ],
   "term": "utility-library"

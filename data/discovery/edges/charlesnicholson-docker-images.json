@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "charlesnicholson/docker-images",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "charlesnicholson/docker-images",
+      "target": "Presubmit Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "charlesnicholson/docker-images",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "charlesnicholson/docker-images",
+      "target": "Publish image to GitHub Package Registry",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-19T18:44:49.183462+00:00",
+  "source_repo": "charlesnicholson/docker-images"
+}

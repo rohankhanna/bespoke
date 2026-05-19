@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "charlesnicholson/docker-images",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "charlesnicholson/docker-images",
+      "target": "Presubmit Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "charlesnicholson/docker-images",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "charlesnicholson/docker-images",
+      "target": "Publish image to GitHub Package Registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-19T19:01:14.841999+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 95
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3519
+    },
+    {
+      "path": ".github/workflows/presubmit.yml",
+      "size": 956
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1623
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Container for my various project CI",
+    "fork": false,
+    "full_name": "charlesnicholson/docker-images",
+    "html_url": "https://github.com/charlesnicholson/docker-images",
+    "language": "Dockerfile",
+    "pushed_at": "2026-02-21T14:34:16Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-02-21T14:34:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Presubmit Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yml",
+      "term": "Presubmit Checks"
+    },
+    {
+      "context_snippet": "Publish image to GitHub Package Registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish image to GitHub Package Registry"
+    }
+  ]
+}

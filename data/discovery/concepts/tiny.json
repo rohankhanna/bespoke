@@ -79,6 +79,30 @@
       "source_repo": "egoist/vue-bytesize-icons",
       "status": "candidate-context",
       "text": "[![NPM version](https://img.shields.io/npm/v/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![NPM downloads](https://img.shields.io/npm/dm/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![CircleCI](https://c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eyalroz/printf",
+      "status": "candidate-context",
+      "text": "Tiny, fast(ish), self-contained, fully loaded printf, sprinf etc. implementation; particularly useful in embedded systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eyalroz/printf",
+      "status": "candidate-context",
+      "text": "[![tests passing](https://github.com/eyalroz/printf/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/eyalroz/printf/actions/workflows/build_and_test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mpaland/printf",
+      "status": "candidate-context",
+      "text": "Tiny, fast, non-dependent and fully loaded printf implementation for embedded systems. Extensive test suite passing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpaland/printf",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/mpaland/printf.svg?branch=master)](https://travis-ci.org/mpaland/printf)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "egoist/vue-bytesize-icons",
       "status": "candidate",
       "text": "[![NPM version](https://img.shields.io/npm/v/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![NPM downloads](https://img.shields.io/npm/dm/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![CircleCI](https://c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eyalroz/printf",
+      "status": "candidate",
+      "text": "[![tests passing](https://github.com/eyalroz/printf/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/eyalroz/printf/actions/workflows/build_and_test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpaland/printf",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/mpaland/printf.svg?branch=master)](https://travis-ci.org/mpaland/printf)"
     }
   ],
   "candidate_related_terms": [
@@ -232,11 +268,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "egoist/vue-bytesize-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T18:44:49.183462+00:00",
+      "source_file": null,
+      "source_repo": "eyalroz/printf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T18:44:49.183462+00:00",
+      "source_file": null,
+      "source_repo": "mpaland/printf"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-19T18:44:49.183462+00:00",
   "lexical_providers": [
     "datamuse"
   ],

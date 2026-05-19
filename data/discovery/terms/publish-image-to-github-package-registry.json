@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-19T18:44:49.183462+00:00",
+  "last_seen_at": "2026-05-19T18:44:49.183462+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "charlesnicholson/docker-images"
+    }
+  ],
+  "term": "Publish image to GitHub Package Registry"
+}

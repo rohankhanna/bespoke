@@ -713,6 +713,18 @@
       "source_repo": "charlesnicholson/nanoprintf",
       "status": "candidate-context",
       "text": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mpaland/printf",
+      "status": "candidate-context",
+      "text": "Tiny, fast, non-dependent and fully loaded printf implementation for embedded systems. Extensive test suite passing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpaland/printf",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/mpaland/printf.svg?branch=master)](https://travis-ci.org/mpaland/printf)"
     }
   ],
   "candidate_glosses": [
@@ -1069,6 +1081,12 @@
       "source_repo": "charlesnicholson/nanoprintf",
       "status": "candidate",
       "text": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpaland/printf",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/mpaland/printf.svg?branch=master)](https://travis-ci.org/mpaland/printf)"
     }
   ],
   "candidate_related_terms": [
@@ -2791,11 +2809,35 @@
       "observed_at": "2026-05-19T13:24:05.041483+00:00",
       "source_file": ".github/workflows/format.yml",
       "source_repo": "langchain-ai/langchainjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T18:44:49.183462+00:00",
+      "source_file": null,
+      "source_repo": "mpaland/printf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T18:44:49.183462+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T18:44:49.183462+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T18:44:49.183462+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-tracy"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-19T13:24:05.041483+00:00",
+  "last_seen_at": "2026-05-19T18:44:49.183462+00:00",
   "lexical_providers": [
     "datamuse"
   ],

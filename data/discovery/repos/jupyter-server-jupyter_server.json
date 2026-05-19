@@ -549,11 +549,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T10:52:35.436098+00:00",
+  "fetched_at": "2026-05-19T18:57:53.235317+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 3694
+      "size": 3695
     },
     {
       "path": "package.json",
@@ -561,7 +561,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 7000
+      "size": 6984
     },
     {
       "path": ".github/workflows/downstream.yml",
@@ -585,7 +585,7 @@
     },
     {
       "path": ".github/workflows/python-tests.yml",
-      "size": 6824
+      "size": 6736
     }
   ],
   "related_repositories": [],
@@ -597,13 +597,13 @@
     "full_name": "jupyter-server/jupyter_server",
     "html_url": "https://github.com/jupyter-server/jupyter_server",
     "language": "Python",
-    "pushed_at": "2026-05-06T07:04:26Z",
+    "pushed_at": "2026-05-19T14:36:31Z",
     "stargazers_count": 558,
     "topics": [
       "jupyter",
       "server"
     ],
-    "updated_at": "2026-05-06T07:04:30Z"
+    "updated_at": "2026-05-19T14:50:22Z"
   },
   "repo_links": [],
   "terms": [
