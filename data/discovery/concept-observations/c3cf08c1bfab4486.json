@@ -84,7 +84,7 @@
   "normalized_form": "cancel-workflows-on-pr-merge",
   "observation_id": "c3cf08c1bfab4486",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-19T07:24:07.075826+00:00",
+  "observed_at": "2026-05-19T13:24:05.041483+00:00",
   "observed_text": "Cancel Workflows on PR Merge",
   "source_context_snippet": "Cancel Workflows on PR Merge",
   "source_file": ".github/workflows/cancel_on_merged.yml",

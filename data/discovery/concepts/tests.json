@@ -7393,6 +7393,30 @@
       "source_repo": "MahmoudAshraf97/demucs",
       "status": "candidate-context",
       "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyAV-Org/PyAV",
+      "status": "candidate-context",
+      "text": "\ufeff\ufeffPythonic bindings for FFmpeg's libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyAV-Org/PyAV",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mity/acutest",
+      "status": "candidate-context",
+      "text": "Simple header-only C/C++ unit testing facility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mity/acutest",
+      "status": "candidate-context",
+      "text": "Home: https://github.com/mity/acutest"
     }
   ],
   "candidate_glosses": [
@@ -11151,6 +11175,18 @@
       "source_repo": "MahmoudAshraf97/demucs",
       "status": "candidate",
       "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyAV-Org/PyAV",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mity/acutest",
+      "status": "candidate",
+      "text": "Home: https://github.com/mity/acutest"
     }
   ],
   "candidate_related_terms": [
@@ -23973,11 +24009,137 @@
       "observed_at": "2026-05-19T07:24:07.075826+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aristoteleo/PantheonOS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "PyAV-Org/PyAV"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": null,
+      "source_repo": "mity/acutest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "wardencommunity/warden"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cookiecutter/cookiecutter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "TencentCloudADP/youtu-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "Farama-Foundation/Minigrid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "dracory/hb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/langchainrb_rails"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/langchainrb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/qdrant-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Shopify/erb_lint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/serverless-application-model"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
+  "last_seen_at": "2026-05-19T13:24:05.041483+00:00",
   "lexical_providers": [
     "datamuse"
   ],

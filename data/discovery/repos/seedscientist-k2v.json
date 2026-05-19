@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SeedScientist/K2V",
+      "target": "open-sciencelab/graphgen",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-19T14:02:28.678216+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5562
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ACL 2026] Knowledge-to-Verification: Exploring RLVR for LLMs in Knowledge-Intensive Domains",
+    "fork": false,
+    "full_name": "SeedScientist/K2V",
+    "html_url": "https://github.com/SeedScientist/K2V",
+    "language": "Python",
+    "pushed_at": "2026-05-19T07:09:55Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-05-19T07:09:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-sciencelab/graphgen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

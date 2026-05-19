@@ -25055,6 +25055,9 @@
   "cors": [
     "cors"
   ],
+  "cortex-m": [
+    "cortex-m"
+  ],
   "cose": [
     "cose"
   ],
@@ -48207,6 +48210,9 @@
   "ismir": [
     "ismir"
   ],
+  "ismir2020": [
+    "ismir2020"
+  ],
   "isnan": [
     "isnan"
   ],
@@ -59028,6 +59034,9 @@
   "mp4box": [
     "mp4box"
   ],
+  "mpaland": [
+    "mpaland"
+  ],
   "mpc-sql": [
     "mpc-sql"
   ],
@@ -59844,6 +59853,9 @@
   ],
   "musdb": [
     "musdb"
+  ],
+  "musdb18": [
+    "musdb18"
   ],
   "musev": [
     "musev"
@@ -72177,6 +72189,9 @@
   "pyautogui": [
     "pyautogui"
   ],
+  "pyav": [
+    "pyav"
+  ],
   "pybind tests": [
     "pybind-tests"
   ],
@@ -82173,6 +82188,9 @@
   "singing-voice-database": [
     "singing-voice-database"
   ],
+  "singing-voice-separation": [
+    "singing-voice-separation"
+  ],
   "singing-voice-synthesis": [
     "singing-voice-synthesis"
   ],
@@ -83000,6 +83018,9 @@
   ],
   "snowpark": [
     "snowpark"
+  ],
+  "snprintf": [
+    "snprintf"
   ],
   "snuvl": [
     "snuvl"
@@ -87455,6 +87476,9 @@
   "taoensso": [
     "taoensso"
   ],
+  "tap-producer": [
+    "tap-producer"
+  ],
   "tape": [
     "tape"
   ],
@@ -88858,6 +88882,9 @@
   ],
   "test mingw": [
     "test-mingw"
+  ],
+  "test mingw-w64": [
+    "test-mingw-w64"
   ],
   "test minihack pypi package": [
     "test-minihack-pypi-package"
@@ -90451,6 +90478,9 @@
   "threads": [
     "threads"
   ],
+  "threadsafe": [
+    "threadsafe"
+  ],
   "threat-detection": [
     "threat-detection"
   ],
@@ -90750,6 +90780,9 @@
   ],
   "tinyml": [
     "tinyml"
+  ],
+  "tinyprintf": [
+    "tinyprintf"
   ],
   "tipi.build": [
     "tipi.build"
@@ -97519,6 +97552,9 @@
   ],
   "vsmac-codecoverage": [
     "vsmac-codecoverage"
+  ],
+  "vsnprintf": [
+    "vsnprintf"
   ],
   "vst-plugin": [
     "vst-plugin"

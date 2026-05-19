@@ -48,7 +48,7 @@
   "normalized_form": "codex-integration-audit",
   "observation_id": "263ba3c70d167382",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-19T07:24:07.075826+00:00",
+  "observed_at": "2026-05-19T13:24:05.041483+00:00",
   "observed_text": "codex-integration-audit",
   "source_context_snippet": "codex-integration-audit",
   "source_file": ".github/workflows/codex-integration-audit.yml",

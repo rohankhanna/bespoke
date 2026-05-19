@@ -562,6 +562,27 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-changelog.yml",
+      "source_repo": "jestjs/jest",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-changelog.yml",
+      "source_repo": "jestjs/jest",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-changelog.yml",
+      "source_repo": "jestjs/jest",
+      "target": "Check Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/close-stale.yml",
       "source_repo": "jestjs/jest",
       "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
@@ -694,41 +715,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-nightly.yml",
-      "source_repo": "jestjs/jest",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-nightly.yml",
-      "source_repo": "jestjs/jest",
-      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-nightly.yml",
-      "source_repo": "jestjs/jest",
-      "target": "SimenB/github-actions-cpu-cores@97330871fe1b7d3529392ea000e3d2c4b357e403",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-nightly.yml",
-      "source_repo": "jestjs/jest",
-      "target": "nick-fields/retry@ad984534de44a9489a53aefd81eb77f87c70dc60",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/test-nightly.yml",
-      "source_repo": "jestjs/jest",
-      "target": "Test",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "jestjs/jest",
@@ -785,6 +771,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-19T07:24:07.075826+00:00",
+  "generated_at": "2026-05-19T13:24:05.041483+00:00",
   "source_repo": "jestjs/jest"
 }

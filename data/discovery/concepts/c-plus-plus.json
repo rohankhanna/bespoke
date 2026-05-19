@@ -1387,6 +1387,18 @@
       "source_repo": "obsproject/obs-studio",
       "status": "candidate-context",
       "text": "OBS Studio <https://obsproject.com>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mity/acutest",
+      "status": "candidate-context",
+      "text": "Simple header-only C/C++ unit testing facility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mity/acutest",
+      "status": "candidate-context",
+      "text": "Home: https://github.com/mity/acutest"
     }
   ],
   "candidate_glosses": [
@@ -2079,6 +2091,12 @@
       "source_repo": "obsproject/obs-studio",
       "status": "candidate",
       "text": "OBS Studio <https://obsproject.com>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mity/acutest",
+      "status": "candidate",
+      "text": "Home: https://github.com/mity/acutest"
     }
   ],
   "candidate_related_terms": [],
@@ -4678,11 +4696,47 @@
       "observed_at": "2026-05-19T07:24:07.075826+00:00",
       "source_file": null,
       "source_repo": "confluentinc/librdkafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": null,
+      "source_repo": "mity/acutest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
+  "last_seen_at": "2026-05-19T13:24:05.041483+00:00",
   "lexical_providers": [
     "datamuse"
   ],

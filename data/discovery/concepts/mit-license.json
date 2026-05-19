@@ -103,6 +103,18 @@
       "source_repo": "axodox/axodox-machinelearning",
       "status": "candidate-context",
       "text": "This repository contains a pure C++ ONNX implementation of multiple offline AI models, such as StableDiffusion (1.5 and XL), ControlNet, Midas, HED and OpenPose."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mity/acutest",
+      "status": "candidate-context",
+      "text": "Simple header-only C/C++ unit testing facility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mity/acutest",
+      "status": "candidate-context",
+      "text": "Home: https://github.com/mity/acutest"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "axodox/axodox-machinelearning",
       "status": "candidate",
       "text": "This repository contains a pure C++ ONNX implementation of multiple offline AI models, such as StableDiffusion (1.5 and XL), ControlNet, Midas, HED and OpenPose."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mity/acutest",
+      "status": "candidate",
+      "text": "Home: https://github.com/mity/acutest"
     }
   ],
   "candidate_related_terms": [],
@@ -886,11 +904,29 @@
       "observed_at": "2026-05-19T07:24:07.075826+00:00",
       "source_file": null,
       "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": null,
+      "source_repo": "mity/acutest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
+  "last_seen_at": "2026-05-19T13:24:05.041483+00:00",
   "lexical_providers": [
     "datamuse"
   ],

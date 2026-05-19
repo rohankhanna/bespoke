@@ -13,14 +13,14 @@
     {
       "source_kind": "source-snippet",
       "status": "context-only",
-      "text": "<!-- #host-reference -->"
+      "text": "<!-- lint disable mui-first-block-heading -->"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "status": "candidate",
-      "text": "<!-- #host-reference -->"
+      "text": "<!-- lint disable mui-first-block-heading -->"
     }
   ],
   "candidate_primary_bucket": "tool-component",
@@ -99,9 +99,9 @@
   "normalized_form": "react",
   "observation_id": "2b999202a2533a18",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-19T07:24:07.075826+00:00",
+  "observed_at": "2026-05-19T13:24:05.041483+00:00",
   "observed_text": "react",
-  "source_context_snippet": "<!-- #host-reference -->",
+  "source_context_snippet": "<!-- lint disable mui-first-block-heading -->",
   "source_file": null,
   "source_repo": "mui/material-ui",
   "source_repo_description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever."

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-19T13:29:05.033460+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7068
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hash map implementation in C. ",
+    "fork": true,
+    "full_name": "oov/hashmap.c",
+    "html_url": "https://github.com/oov/hashmap.c",
+    "language": "C",
+    "pushed_at": "2025-08-21T06:49:23Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-08-21T01:32:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ws-choi/ISMIR2020_U_Nets_SVS",
+      "target": "ismir2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ws-choi/ISMIR2020_U_Nets_SVS",
+      "target": "musdb18",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ws-choi/ISMIR2020_U_Nets_SVS",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ws-choi/ISMIR2020_U_Nets_SVS",
+      "target": "singing-voice-separation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ws-choi/ISMIR2020_U_Nets_SVS",
+      "target": "source-separation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-19T13:29:10.439508+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12289
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A PyTorch Implementation of the paper - Choi, Woosung, et al. \"Investigating u-nets with various intermediate blocks for spectrogram-based singing voice separation.\" 21th International Society for Music Information Retrieval Conference, ISMIR. 2020.",
+    "fork": false,
+    "full_name": "ws-choi/ISMIR2020_U_Nets_SVS",
+    "html_url": "https://github.com/ws-choi/ISMIR2020_U_Nets_SVS",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-07-01T01:09:49Z",
+    "stargazers_count": 80,
+    "topics": [
+      "ismir2020",
+      "musdb18",
+      "pytorch",
+      "singing-voice-separation",
+      "source-separation"
+    ],
+    "updated_at": "2026-01-03T10:59:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A Pytorch Implementation of the paper \"Investigating U-NETS With Various Intermediate Blocks For Spectrogram-based Singing Voice Separation (ISMIR 2020)\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ismir2020"
+    },
+    {
+      "context_snippet": "A Pytorch Implementation of the paper \"Investigating U-NETS With Various Intermediate Blocks For Spectrogram-based Singing Voice Separation (ISMIR 2020)\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "musdb18"
+    },
+    {
+      "context_snippet": "A Pytorch Implementation of the paper \"Investigating U-NETS With Various Intermediate Blocks For Spectrogram-based Singing Voice Separation (ISMIR 2020)\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "A Pytorch Implementation of the paper \"Investigating U-NETS With Various Intermediate Blocks For Spectrogram-based Singing Voice Separation (ISMIR 2020)\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "singing-voice-separation"
+    },
+    {
+      "context_snippet": "A Pytorch Implementation of the paper \"Investigating U-NETS With Various Intermediate Blocks For Spectrogram-based Singing Voice Separation (ISMIR 2020)\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "source-separation"
+    }
+  ]
+}

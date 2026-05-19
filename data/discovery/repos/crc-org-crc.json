@@ -410,7 +410,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T08:48:11.727224+00:00",
+  "fetched_at": "2026-05-19T13:43:23.532919+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -462,7 +462,7 @@
     "full_name": "crc-org/crc",
     "html_url": "https://github.com/crc-org/crc",
     "language": "Go",
-    "pushed_at": "2026-05-19T02:36:13Z",
+    "pushed_at": "2026-05-19T12:04:24Z",
     "stargazers_count": 1384,
     "topics": [
       "cluster",
@@ -475,7 +475,7 @@
       "testing-and-development",
       "virtualization"
     ],
-    "updated_at": "2026-05-18T02:12:45Z"
+    "updated_at": "2026-05-19T12:04:31Z"
   },
   "repo_links": [
     {

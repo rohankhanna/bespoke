@@ -334,11 +334,17 @@
       "observed_at": "2026-05-19T07:24:07.075826+00:00",
       "source_file": ".github/workflows/typo-check.yml",
       "source_repo": "nutsdb/nutsdb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": ".github/workflows/typo-check.yml",
+      "source_repo": "nutsdb/nutsdb"
     }
   ],
   "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
+  "last_seen_at": "2026-05-19T13:24:05.041483+00:00",
   "lexical_providers": [
     "datamuse"
   ],

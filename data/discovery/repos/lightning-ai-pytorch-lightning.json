@@ -251,7 +251,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T09:34:16.339928+00:00",
+  "fetched_at": "2026-05-19T13:58:40.834271+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -275,7 +275,7 @@
     },
     {
       "path": ".github/workflows/_legacy-checkpoints.yml",
-      "size": 5972
+      "size": 6444
     },
     {
       "path": ".github/workflows/call-clear-cache.yml",
@@ -291,7 +291,7 @@
     },
     {
       "path": ".github/workflows/ci-pkg-install.yml",
-      "size": 3982
+      "size": 4311
     }
   ],
   "related_repositories": [],
@@ -303,8 +303,8 @@
     "full_name": "Lightning-AI/pytorch-lightning",
     "html_url": "https://github.com/Lightning-AI/pytorch-lightning",
     "language": "Python",
-    "pushed_at": "2026-05-19T07:28:01Z",
-    "stargazers_count": 31148,
+    "pushed_at": "2026-05-19T11:07:19Z",
+    "stargazers_count": 31150,
     "topics": [
       "ai",
       "artificial-intelligence",
@@ -314,7 +314,7 @@
       "python",
       "pytorch"
     ],
-    "updated_at": "2026-05-19T07:30:55Z"
+    "updated_at": "2026-05-19T12:15:14Z"
   },
   "repo_links": [
     {

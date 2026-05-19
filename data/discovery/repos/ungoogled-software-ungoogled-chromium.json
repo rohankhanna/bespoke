@@ -48,6 +48,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "openbsd/ports",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
       "target": "leo-lb/ungoogled-chromium",
       "target_type": "repository"
     },
@@ -150,11 +157,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T08:40:13.286100+00:00",
+  "fetched_at": "2026-05-19T13:26:40.681710+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 12219
+      "size": 12349
     },
     {
       "path": ".github/workflows/new_version_check.yml",
@@ -178,8 +185,8 @@
     "full_name": "ungoogled-software/ungoogled-chromium",
     "html_url": "https://github.com/ungoogled-software/ungoogled-chromium",
     "language": "Python",
-    "pushed_at": "2026-05-13T20:12:31Z",
-    "stargazers_count": 26641,
+    "pushed_at": "2026-05-19T12:28:09Z",
+    "stargazers_count": 26645,
     "topics": [
       "chromium",
       "control",
@@ -189,7 +196,7 @@
       "privacy",
       "transparency"
     ],
-    "updated_at": "2026-05-19T07:29:23Z"
+    "updated_at": "2026-05-19T12:28:15Z"
   },
   "repo_links": [
     {
@@ -200,6 +207,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "leo-lb/ungoogled-chromium",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbsd/ports",
       "source_file": "README.md"
     }
   ],

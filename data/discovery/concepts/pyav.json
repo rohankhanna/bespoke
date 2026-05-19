@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pyav"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyAV-Org/PyAV",
+      "status": "candidate-context",
+      "text": "\ufeff\ufeffPythonic bindings for FFmpeg's libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyAV-Org/PyAV",
+      "status": "candidate-context",
+      "text": "PyAV"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyAV-Org/PyAV",
+      "status": "candidate",
+      "text": "PyAV"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pyav",
+  "concept_id": "pyav",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": null,
+      "source_repo": "PyAV-Org/PyAV"
+    }
+  ],
+  "first_seen_at": "2026-05-19T13:24:05.041483+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-19T13:24:05.041483+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pyav",
+      "sense_id": "pyav#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

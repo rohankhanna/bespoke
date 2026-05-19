@@ -31,6 +31,18 @@
       "source_repo": "c42f/tinyformat",
       "status": "candidate-context",
       "text": "**tinyformat.h** is a type safe printf replacement library in a single C++"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charlesnicholson/nanoprintf",
+      "status": "candidate-context",
+      "text": "The smallest public printf implementation for its feature set."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesnicholson/nanoprintf",
+      "status": "candidate-context",
+      "text": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "c42f/tinyformat",
       "status": "candidate",
       "text": "**tinyformat.h** is a type safe printf replacement library in a single C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesnicholson/nanoprintf",
+      "status": "candidate",
+      "text": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)"
     }
   ],
   "candidate_related_terms": [
@@ -93,11 +111,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "c42f/tinyformat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": null,
+      "source_repo": "charlesnicholson/nanoprintf"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-19T13:24:05.041483+00:00",
   "lexical_providers": [
     "datamuse"
   ],

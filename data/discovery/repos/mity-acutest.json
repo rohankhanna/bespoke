@@ -1,0 +1,242 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mity/acutest",
+      "target": "mity/cutest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "mity/acutest",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "mity/acutest",
+      "target": "microsoft/setup-msbuild@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "mity/acutest",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mity/acutest",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mity/acutest",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mity/acutest",
+      "target": "mit-license",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mity/acutest",
+      "target": "single-file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mity/acutest",
+      "target": "single-header",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mity/acutest",
+      "target": "tap-producer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mity/acutest",
+      "target": "test-runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mity/acutest",
+      "target": "testing-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mity/acutest",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mity/acutest",
+      "target": "unit-testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-19T13:28:59.075520+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15226
+    },
+    {
+      "path": ".github/workflows/ci-build.yml",
+      "size": 949
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple header-only C/C++ unit testing facility.",
+    "fork": false,
+    "full_name": "mity/acutest",
+    "html_url": "https://github.com/mity/acutest",
+    "language": "C++",
+    "pushed_at": "2024-06-03T05:46:36Z",
+    "stargazers_count": 399,
+    "topics": [
+      "c",
+      "c-plus-plus",
+      "cli",
+      "header-only",
+      "mit-license",
+      "single-file",
+      "single-header",
+      "tap-producer",
+      "test-runner",
+      "testing-tools",
+      "tests",
+      "unit-testing"
+    ],
+    "updated_at": "2026-05-19T09:17:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mity/cutest",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Home: https://github.com/mity/acutest",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "Home: https://github.com/mity/acutest",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "Home: https://github.com/mity/acutest",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mit-license"
+    },
+    {
+      "context_snippet": "Home: https://github.com/mity/acutest",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-file"
+    },
+    {
+      "context_snippet": "Home: https://github.com/mity/acutest",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-header"
+    },
+    {
+      "context_snippet": "Home: https://github.com/mity/acutest",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tap-producer"
+    },
+    {
+      "context_snippet": "Home: https://github.com/mity/acutest",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-runner"
+    },
+    {
+      "context_snippet": "Home: https://github.com/mity/acutest",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing-tools"
+    },
+    {
+      "context_snippet": "Home: https://github.com/mity/acutest",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tests"
+    },
+    {
+      "context_snippet": "Home: https://github.com/mity/acutest",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unit-testing"
+    }
+  ]
+}

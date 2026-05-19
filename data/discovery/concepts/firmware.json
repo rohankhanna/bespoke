@@ -43,6 +43,18 @@
       "source_repo": "nodemcu/nodemcu-firmware",
       "status": "candidate-context",
       "text": "> Lua-based firmware for ESP8266 WiFi SOC"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charlesnicholson/nanoprintf",
+      "status": "candidate-context",
+      "text": "The smallest public printf implementation for its feature set."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesnicholson/nanoprintf",
+      "status": "candidate-context",
+      "text": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "nodemcu/nodemcu-firmware",
       "status": "candidate",
       "text": "> Lua-based firmware for ESP8266 WiFi SOC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesnicholson/nanoprintf",
+      "status": "candidate",
+      "text": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "nodemcu/nodemcu-firmware"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": null,
+      "source_repo": "charlesnicholson/nanoprintf"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-19T13:24:05.041483+00:00",
   "lexical_providers": [
     "datamuse"
   ],

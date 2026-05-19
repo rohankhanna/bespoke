@@ -183,6 +183,13 @@
   ],
   "edges": [
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vuejs/language-tools",
+      "target": "volarjs/workspace.",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "vuejs/language-tools",
@@ -428,7 +435,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T10:31:20.953189+00:00",
+  "fetched_at": "2026-05-19T14:52:28.155120+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -472,12 +479,18 @@
     "full_name": "vuejs/language-tools",
     "html_url": "https://github.com/vuejs/language-tools",
     "language": "TypeScript",
-    "pushed_at": "2026-05-19T05:03:33Z",
+    "pushed_at": "2026-05-19T14:46:22Z",
     "stargazers_count": 6664,
     "topics": [],
-    "updated_at": "2026-05-19T08:55:07Z"
+    "updated_at": "2026-05-19T14:30:11Z"
   },
-  "repo_links": [],
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volarjs/workspace.",
+      "source_file": "README.md"
+    }
+  ],
   "terms": [
     {
       "context_snippet": "Auto Fix",

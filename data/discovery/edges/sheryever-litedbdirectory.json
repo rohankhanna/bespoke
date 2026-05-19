@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sheryever/LiteDBDirectory",
+      "target": "mahytim/lucenenetsqldirectory",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-19T13:24:05.041483+00:00",
+  "source_repo": "sheryever/LiteDBDirectory"
+}

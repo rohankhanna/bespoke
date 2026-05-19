@@ -415,6 +415,18 @@
       "source_repo": "marzer/tomlplusplus",
       "status": "candidate-context",
       "text": "[![banner](docs/images/banner.png)][homepage]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mity/acutest",
+      "status": "candidate-context",
+      "text": "Simple header-only C/C++ unit testing facility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mity/acutest",
+      "status": "candidate-context",
+      "text": "Home: https://github.com/mity/acutest"
     }
   ],
   "candidate_glosses": [
@@ -621,6 +633,12 @@
       "source_repo": "marzer/tomlplusplus",
       "status": "candidate",
       "text": "[![banner](docs/images/banner.png)][homepage]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mity/acutest",
+      "status": "candidate",
+      "text": "Home: https://github.com/mity/acutest"
     }
   ],
   "candidate_related_terms": [
@@ -1666,11 +1684,35 @@
       "observed_at": "2026-05-19T07:24:07.075826+00:00",
       "source_file": null,
       "source_repo": "nonstd-lite/string-view-lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": null,
+      "source_repo": "mity/acutest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": null,
+      "source_repo": "vimpunk/mio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": null,
+      "source_repo": "nonstd-lite/string-view-lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
+  "last_seen_at": "2026-05-19T13:24:05.041483+00:00",
   "lexical_providers": [
     "datamuse"
   ],

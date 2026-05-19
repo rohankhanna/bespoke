@@ -31,6 +31,18 @@
       "source_repo": "kuielab/mdx-net",
       "status": "candidate-context",
       "text": "- [presentation slide](https://ws-choi.github.io/personal/presentations/slide/2021-08-21-aicrowd)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ws-choi/ISMIR2020_U_Nets_SVS",
+      "status": "candidate-context",
+      "text": "A PyTorch Implementation of the paper - Choi, Woosung, et al. \"Investigating u-nets with various intermediate blocks for spectrogram-based singing voice separation.\" 21th International Society for Music Information Retrieval Conference, ISMIR. 2020."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ws-choi/ISMIR2020_U_Nets_SVS",
+      "status": "candidate-context",
+      "text": "A Pytorch Implementation of the paper \"Investigating U-NETS With Various Intermediate Blocks For Spectrogram-based Singing Voice Separation (ISMIR 2020)\""
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "kuielab/mdx-net",
       "status": "candidate",
       "text": "- [presentation slide](https://ws-choi.github.io/personal/presentations/slide/2021-08-21-aicrowd)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ws-choi/ISMIR2020_U_Nets_SVS",
+      "status": "candidate",
+      "text": "A Pytorch Implementation of the paper \"Investigating U-NETS With Various Intermediate Blocks For Spectrogram-based Singing Voice Separation (ISMIR 2020)\""
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-19T07:24:07.075826+00:00",
       "source_file": null,
       "source_repo": "kuielab/mdx-net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": null,
+      "source_repo": "ws-choi/ISMIR2020_U_Nets_SVS"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
+  "last_seen_at": "2026-05-19T13:24:05.041483+00:00",
   "lexical_providers": [
     "datamuse"
   ],

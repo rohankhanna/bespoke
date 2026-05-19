@@ -1,0 +1,372 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "charlesnicholson/docker-images",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "eyalroz/printf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "mpaland/printf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "bsd-license",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "cortex-m",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "embedded-c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "embedded-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "firmware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "libc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "mpaland",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "no-dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "printf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "public-domain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "snprintf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "threadsafe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "tinyprintf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlesnicholson/nanoprintf",
+      "target": "vsnprintf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-19T13:28:45.231010+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23769
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5845
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The smallest public printf implementation for its feature set.",
+    "fork": false,
+    "full_name": "charlesnicholson/nanoprintf",
+    "html_url": "https://github.com/charlesnicholson/nanoprintf",
+    "language": "C++",
+    "pushed_at": "2026-03-29T01:37:10Z",
+    "stargazers_count": 821,
+    "topics": [
+      "bsd-license",
+      "c",
+      "cortex-m",
+      "cpp",
+      "embedded",
+      "embedded-c",
+      "embedded-systems",
+      "firmware",
+      "format",
+      "iot",
+      "libc",
+      "mpaland",
+      "no-dependencies",
+      "printf",
+      "public-domain",
+      "snprintf",
+      "text",
+      "threadsafe",
+      "tinyprintf",
+      "vsnprintf"
+    ],
+    "updated_at": "2026-05-19T13:17:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charlesnicholson/docker-images",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eyalroz/printf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mpaland/printf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bsd-license"
+    },
+    {
+      "context_snippet": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cortex-m"
+    },
+    {
+      "context_snippet": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded"
+    },
+    {
+      "context_snippet": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded-c"
+    },
+    {
+      "context_snippet": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded-systems"
+    },
+    {
+      "context_snippet": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firmware"
+    },
+    {
+      "context_snippet": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "format"
+    },
+    {
+      "context_snippet": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libc"
+    },
+    {
+      "context_snippet": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mpaland"
+    },
+    {
+      "context_snippet": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "no-dependencies"
+    },
+    {
+      "context_snippet": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "printf"
+    },
+    {
+      "context_snippet": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "public-domain"
+    },
+    {
+      "context_snippet": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snprintf"
+    },
+    {
+      "context_snippet": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text"
+    },
+    {
+      "context_snippet": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "threadsafe"
+    },
+    {
+      "context_snippet": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tinyprintf"
+    },
+    {
+      "context_snippet": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vsnprintf"
+    }
+  ]
+}

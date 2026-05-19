@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ws-choi/ISMIR2020_U_Nets_SVS",
+      "target": "ismir2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ws-choi/ISMIR2020_U_Nets_SVS",
+      "target": "musdb18",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ws-choi/ISMIR2020_U_Nets_SVS",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ws-choi/ISMIR2020_U_Nets_SVS",
+      "target": "singing-voice-separation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ws-choi/ISMIR2020_U_Nets_SVS",
+      "target": "source-separation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-19T13:24:05.041483+00:00",
+  "source_repo": "ws-choi/ISMIR2020_U_Nets_SVS"
+}

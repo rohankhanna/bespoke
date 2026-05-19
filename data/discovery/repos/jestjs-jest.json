@@ -396,6 +396,16 @@
       "source_file": "package.json"
     },
     {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-changelog.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-changelog.yml"
+    },
+    {
       "component": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/close-stale.yml"
@@ -514,46 +524,6 @@
       "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/prepare-cache.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-nightly.yml"
-    },
-    {
-      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-nightly.yml"
-    },
-    {
-      "component": "SimenB/github-actions-cpu-cores@97330871fe1b7d3529392ea000e3d2c4b357e403",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-nightly.yml"
-    },
-    {
-      "component": "nick-fields/retry@ad984534de44a9489a53aefd81eb77f87c70dc60",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-nightly.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-nightly.yml"
-    },
-    {
-      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-nightly.yml"
-    },
-    {
-      "component": "SimenB/github-actions-cpu-cores@97330871fe1b7d3529392ea000e3d2c4b357e403",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-nightly.yml"
-    },
-    {
-      "component": "nick-fields/retry@ad984534de44a9489a53aefd81eb77f87c70dc60",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-nightly.yml"
     }
   ],
   "edges": [
@@ -1119,6 +1089,27 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-changelog.yml",
+      "source_repo": "jestjs/jest",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-changelog.yml",
+      "source_repo": "jestjs/jest",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-changelog.yml",
+      "source_repo": "jestjs/jest",
+      "target": "Check Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/close-stale.yml",
       "source_repo": "jestjs/jest",
       "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
@@ -1251,41 +1242,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-nightly.yml",
-      "source_repo": "jestjs/jest",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-nightly.yml",
-      "source_repo": "jestjs/jest",
-      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-nightly.yml",
-      "source_repo": "jestjs/jest",
-      "target": "SimenB/github-actions-cpu-cores@97330871fe1b7d3529392ea000e3d2c4b357e403",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-nightly.yml",
-      "source_repo": "jestjs/jest",
-      "target": "nick-fields/retry@ad984534de44a9489a53aefd81eb77f87c70dc60",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/test-nightly.yml",
-      "source_repo": "jestjs/jest",
-      "target": "Test",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "jestjs/jest",
@@ -1342,7 +1298,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T09:44:05.691085+00:00",
+  "fetched_at": "2026-05-19T14:36:34.679338+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1351,6 +1307,10 @@
     {
       "path": "package.json",
       "size": 8246
+    },
+    {
+      "path": ".github/workflows/check-changelog.yml",
+      "size": 1304
     },
     {
       "path": ".github/workflows/close-stale.yml",
@@ -1370,7 +1330,7 @@
     },
     {
       "path": ".github/workflows/nodejs.yml",
-      "size": 7395
+      "size": 7331
     },
     {
       "path": ".github/workflows/pkg-pr-new.yml",
@@ -1379,10 +1339,6 @@
     {
       "path": ".github/workflows/prepare-cache.yml",
       "size": 780
-    },
-    {
-      "path": ".github/workflows/test-nightly.yml",
-      "size": 2459
     }
   ],
   "related_repositories": [],
@@ -1394,7 +1350,7 @@
     "full_name": "jestjs/jest",
     "html_url": "https://github.com/jestjs/jest",
     "language": "TypeScript",
-    "pushed_at": "2026-05-19T09:20:45Z",
+    "pushed_at": "2026-05-19T12:47:19Z",
     "stargazers_count": 45361,
     "topics": [
       "easy",
@@ -1407,7 +1363,7 @@
       "snapshot",
       "testing"
     ],
-    "updated_at": "2026-05-19T09:21:01Z"
+    "updated_at": "2026-05-19T12:54:33Z"
   },
   "repo_links": [
     {
@@ -1417,6 +1373,12 @@
     }
   ],
   "terms": [
+    {
+      "context_snippet": "Check Changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-changelog.yml",
+      "term": "Check Changelog"
+    },
     {
       "context_snippet": "'Close stale issues and PRs'",
       "edge_type": "workflow-name",
@@ -1458,12 +1420,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/prepare-cache.yml",
       "term": "Prepare CI cache"
-    },
-    {
-      "context_snippet": "Test",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/test-nightly.yml",
-      "term": "Test"
     },
     {
       "context_snippet": "<p align=\"center\">",

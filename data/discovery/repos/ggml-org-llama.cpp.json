@@ -443,7 +443,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T08:49:09.133885+00:00",
+  "fetched_at": "2026-05-19T13:45:38.589159+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -495,12 +495,12 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-05-19T08:43:18Z",
-    "stargazers_count": 111265,
+    "pushed_at": "2026-05-19T12:50:55Z",
+    "stargazers_count": 111350,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-05-19T08:47:20Z"
+    "updated_at": "2026-05-19T13:40:52Z"
   },
   "repo_links": [
     {

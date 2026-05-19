@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "cortex-m"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charlesnicholson/nanoprintf",
+      "status": "candidate-context",
+      "text": "The smallest public printf implementation for its feature set."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesnicholson/nanoprintf",
+      "status": "candidate-context",
+      "text": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlesnicholson/nanoprintf",
+      "status": "candidate",
+      "text": "[![Presubmit Checks](https://github.com/charlesnicholson/nanoprintf/workflows/Presubmit%20Checks/badge.svg)](https://github.com/charlesnicholson/nanoprintf/tree/main/.github/workflows)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cortex-m",
+  "concept_id": "cortex-m",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T13:24:05.041483+00:00",
+      "source_file": null,
+      "source_repo": "charlesnicholson/nanoprintf"
+    }
+  ],
+  "first_seen_at": "2026-05-19T13:24:05.041483+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-19T13:24:05.041483+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cortex-m",
+      "sense_id": "cortex-m#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

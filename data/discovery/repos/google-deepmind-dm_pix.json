@@ -9,6 +9,16 @@
       "component": "actions/setup-python@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
     }
   ],
   "edges": [
@@ -32,6 +42,27 @@
       "source_repo": "google-deepmind/dm_pix",
       "target": "actions/setup-python@v4",
       "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/dm_pix",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/dm_pix",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/dm_pix",
+      "target": "pypi",
+      "target_type": "term"
     },
     {
       "edge_type": "repo-topic",
@@ -62,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T08:55:12.800335+00:00",
+  "fetched_at": "2026-05-19T13:49:41.862124+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -75,6 +106,10 @@
     {
       "path": ".github/workflows/ci.yml",
       "size": 628
+    },
+    {
+      "path": ".github/workflows/pypi-publish.yml",
+      "size": 971
     }
   ],
   "related_repositories": [],
@@ -106,6 +141,12 @@
     }
   ],
   "terms": [
+    {
+      "context_snippet": "pypi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "term": "pypi"
+    },
     {
       "context_snippet": "<img src=\"https://raw.githubusercontent.com/google-deepmind/dm_pix/master/dm_pix/images/pix_logo.png\" title=\"PIX logo\" height=200 width=200>",
       "edge_type": "repo-topic",

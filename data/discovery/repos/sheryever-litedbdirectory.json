@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sheryever/LiteDBDirectory",
+      "target": "mahytim/lucenenetsqldirectory",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-19T13:30:10.729461+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3035
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Lucene.net Directory to store the Lucene.net index files in LiteDB database",
+    "fork": false,
+    "full_name": "sheryever/LiteDBDirectory",
+    "html_url": "https://github.com/sheryever/LiteDBDirectory",
+    "language": "C#",
+    "pushed_at": "2023-02-24T16:24:08Z",
+    "stargazers_count": 72,
+    "topics": [],
+    "updated_at": "2026-04-26T16:28:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mahytim/lucenenetsqldirectory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

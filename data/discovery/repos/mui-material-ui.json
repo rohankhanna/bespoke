@@ -241,11 +241,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "markdownlint-cli2",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "minimatch",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -752,13 +747,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "mui/material-ui",
-      "target": "markdownlint-cli2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "mui/material-ui",
       "target": "minimatch",
       "target_type": "component"
     },
@@ -1071,15 +1059,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T09:36:14.381075+00:00",
+  "fetched_at": "2026-05-19T14:03:11.271598+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 8632
+      "size": 8637
     },
     {
       "path": "package.json",
-      "size": 8685
+      "size": 8597
     },
     {
       "path": ".github/workflows/check-if-pr-has-label.yml",
@@ -1123,8 +1111,8 @@
     "full_name": "mui/material-ui",
     "html_url": "https://github.com/mui/material-ui",
     "language": "JavaScript",
-    "pushed_at": "2026-05-19T07:19:16Z",
-    "stargazers_count": 98362,
+    "pushed_at": "2026-05-19T12:47:03Z",
+    "stargazers_count": 98364,
     "topics": [
       "design-system",
       "material-design",
@@ -1132,7 +1120,7 @@
       "react",
       "react-components"
     ],
-    "updated_at": "2026-05-19T09:31:05Z"
+    "updated_at": "2026-05-19T14:02:51Z"
   },
   "repo_links": [],
   "terms": [
@@ -1179,31 +1167,31 @@
       "term": "Cleanup issue comment"
     },
     {
-      "context_snippet": "<!-- #host-reference -->",
+      "context_snippet": "<!-- lint disable mui-first-block-heading -->",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "design-system"
     },
     {
-      "context_snippet": "<!-- #host-reference -->",
+      "context_snippet": "<!-- lint disable mui-first-block-heading -->",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "material-design"
     },
     {
-      "context_snippet": "<!-- #host-reference -->",
+      "context_snippet": "<!-- lint disable mui-first-block-heading -->",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "material-ui"
     },
     {
-      "context_snippet": "<!-- #host-reference -->",
+      "context_snippet": "<!-- lint disable mui-first-block-heading -->",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "react"
     },
     {
-      "context_snippet": "<!-- #host-reference -->",
+      "context_snippet": "<!-- lint disable mui-first-block-heading -->",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "react-components"
