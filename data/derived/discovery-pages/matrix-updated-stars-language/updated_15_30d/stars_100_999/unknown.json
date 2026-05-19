@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 122,
-    "concepts": 195,
-    "observations": 196,
-    "repos": 52,
-    "terms": 195
+    "concepts": 184,
+    "observations": 185,
+    "repos": 50,
+    "terms": 184
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "abhisheknaiidu/abhisheknaiidu",
@@ -63,8 +63,6 @@
     "stripe/openapi",
     "tinted-theming/home",
     "triton-inference-server/tensorrtllm_backend",
-    "ymcui/MacBERT",
-    "ymcui/PERT",
     "yokoffing/Control-D-Config"
   ]
 }

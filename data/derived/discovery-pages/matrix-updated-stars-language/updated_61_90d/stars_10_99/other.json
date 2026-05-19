@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 355,
-    "concepts": 235,
-    "observations": 236,
-    "repos": 83,
-    "terms": 230
+    "components": 368,
+    "concepts": 248,
+    "observations": 249,
+    "repos": 86,
+    "terms": 243
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "219-design/qt-qml-project-template-with-ci",
     "2KAbhishek/exercism.nvim",
@@ -22,11 +22,11 @@
     "AghayeCoder/TX-ThemeHub",
     "AliRezaBeigy/paqetNG",
     "andys8/git-brunch",
-    "ankane/ml-stack",
     "apache/netbeans-antora-site",
     "apache/pdfbox-docs",
     "AvaotaSBC/AvaotaF1",
     "avelino/monotropic-theme-vscode",
+    "Azure-Samples/openai-chat-backend-fastapi",
     "babashka/sci.configs",
     "benomahony/oil-git.nvim",
     "bokeh/tutorial",
@@ -76,6 +76,7 @@
     "newtheatre/history-project",
     "nicholasjng/nanobind-bazel",
     "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
+    "notaryproject/notaryproject.dev",
     "ocaml-opam/opam-publish",
     "ocurrent/opam-health-check",
     "onomojo/i18n-timezones",
@@ -88,6 +89,7 @@
     "robotology/icub-models",
     "rojo-rbx/rojo.space",
     "rust-lang/crates-build-env",
+    "Saalvage/AssimpNetter",
     "SchwarzIT/spectral-intellij-plugin",
     "spring-ai-alibaba/website",
     "SqrtMinusOne/eshell-atuin",
@@ -96,6 +98,7 @@
     "timo/json_fast",
     "Triang-jyed-driung/Rapid-Sampling",
     "typst/typst-flake",
-    "V13Axel/neotest-pest"
+    "V13Axel/neotest-pest",
+    "w3c/element-timing"
   ]
 }

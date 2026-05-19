@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "components": 5,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 2,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
-    "cloudfoundry/bosh-google-cpi-release"
+    "cloudfoundry/credhub-cli",
+    "compozy/kb"
   ]
 }

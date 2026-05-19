@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 156,
-    "concepts": 165,
-    "observations": 166,
-    "repos": 19,
-    "terms": 164
+    "components": 109,
+    "concepts": 119,
+    "observations": 120,
+    "repos": 13,
+    "terms": 118
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,20 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
-    "aigc-apps/VideoX-Fun",
     "aws/serverless-application-model",
-    "awslabs/aidlc-workflows",
     "bitsandbytes-foundation/bitsandbytes",
     "clearml/clearml",
     "collabora/WhisperLive",
     "copier-org/copier",
-    "Farama-Foundation/Minigrid",
+    "fla-org/flash-linear-attention",
     "google-deepmind/dm-haiku",
-    "google-deepmind/optax",
     "google/budoux",
     "lucidrains/vector-quantize-pytorch",
     "msiemens/tinydb",
-    "redis/redis-om-python",
-    "roboflow/maestro",
     "safetensors/safetensors",
     "voicepaw/so-vits-svc-fork",
-    "Xilinx/brevitas",
     "zai-org/GLM-V"
   ]
 }

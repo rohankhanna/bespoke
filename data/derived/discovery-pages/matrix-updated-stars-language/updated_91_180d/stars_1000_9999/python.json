@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 355,
-    "concepts": 707,
-    "observations": 708,
-    "repos": 149,
-    "terms": 694
+    "components": 363,
+    "concepts": 739,
+    "observations": 740,
+    "repos": 151,
+    "terms": 729
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "AIDC-AI/Marco-o1",
@@ -66,6 +66,7 @@
     "google-gemini/deprecated-generative-ai-python",
     "google-research/text-to-text-transfer-transformer",
     "google/fuzzbench",
+    "google/vizier",
     "graphql-python/graphene-django",
     "gusye1234/nano-graphrag",
     "hako-mikan/sd-webui-regional-prompter",
@@ -151,6 +152,7 @@
     "TencentARC/SEED-Voken",
     "tensorflow/agents",
     "thu-ml/RoboticsDiffusionTransformer",
+    "toshas/torch-fidelity",
     "Trusted-AI/adversarial-robustness-toolbox",
     "uber/petastorm",
     "Visual-Agent/DeepEyes",

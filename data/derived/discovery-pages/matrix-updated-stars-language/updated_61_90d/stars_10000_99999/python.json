@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 64,
-    "concepts": 116,
-    "observations": 116,
-    "repos": 20,
-    "terms": 115
+    "concepts": 136,
+    "observations": 136,
+    "repos": 21,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "Alibaba-NLP/DeepResearch",
     "ComposioHQ/awesome-claude-skills",
@@ -23,6 +23,7 @@
     "Jiayi-Pan/TinyZero",
     "KlingAIResearch/LivePortrait",
     "modelscope/FunASR",
+    "PaddlePaddle/PaddleDetection",
     "PKU-YuanGroup/Open-Sora-Plan",
     "powerline/powerline",
     "prompt-toolkit/python-prompt-toolkit",

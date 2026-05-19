@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 410,
-    "concepts": 118,
-    "observations": 118,
-    "repos": 21,
-    "terms": 117
+    "components": 376,
+    "concepts": 97,
+    "observations": 97,
+    "repos": 19,
+    "terms": 96
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "Adobe-CEP/CEP-Resources",
     "anandthakker/doiuse",
     "apostrophecms/sanitize-html",
     "appbaseio/dejavu",
-    "breejs/bree",
-    "casparwylie/cascii-core",
     "chakra-core/ChakraCore",
     "commonmark/commonmark.js",
     "csstree/csstree",
     "dherault/serverless-offline",
     "dwyl/learn-json-web-tokens",
-    "huggingface/transformers.js-examples",
+    "hughsk/flat",
     "istanbuljs/nyc",
     "microsoft/generative-ai-with-javascript",
     "mrsteele/dotenv-webpack",

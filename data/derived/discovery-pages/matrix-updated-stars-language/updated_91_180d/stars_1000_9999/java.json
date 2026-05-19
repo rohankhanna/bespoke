@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 7,
-    "terms": 33
+    "components": 16,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 6,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "aliyun/aliyun-oss-java-sdk",
     "apache/incubator-seata-samples",
     "cjlin1/libsvm",
-    "Jigsaw-Code/Intra",
     "lz4/lz4-java",
     "PlexPt/chatgpt-java",
     "zeromq/jeromq"

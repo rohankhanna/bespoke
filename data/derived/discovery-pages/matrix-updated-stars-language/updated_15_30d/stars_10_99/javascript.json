@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1015,
-    "concepts": 245,
-    "observations": 247,
-    "repos": 61,
-    "terms": 252
+    "components": 958,
+    "concepts": 243,
+    "observations": 245,
+    "repos": 58,
+    "terms": 243
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "AdguardTeam/FiltersCompiler",
@@ -33,12 +33,10 @@
     "hyparam/squirreling",
     "i18next/i18next-chained-backend",
     "i18next/i18next-multiload-backend-adapter",
-    "i18next/i18next-resources-to-backend",
     "ideditor/schema-builder",
     "ionide/tree-sitter-fsharp",
     "itsrishika/payment-bypass-bug-lab",
     "j9t/obsohtml",
-    "jasmine/jasmine-browser-runner",
     "julia-actions/cache",
     "kitconcept/volto-light-theme",
     "lm-sys/lm-sys.github.io",
@@ -60,7 +58,6 @@
     "octokit/openapi",
     "octokit/openapi-types.ts",
     "patrik-csak/auto-terminal-profile",
-    "peergos/web-ui",
     "r-lyeh/gamebook",
     "rashfael/eslint-plugin-vue-pug",
     "readthedocs/addons",

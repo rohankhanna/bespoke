@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-05-18T08:07:10.522070+00:00`
+Generated at: `2026-05-19T05:53:33.318365+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 269
-- terms: 342
-- components: 452
-- concepts: 339
-- observations: 339
+- repos: 270
+- terms: 344
+- components: 455
+- concepts: 341
+- observations: 341
 
 ## Static behavior
 
@@ -112,6 +112,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [charlottia/niar](https://github.com/charlottia/niar) | 4 | 2024-10-21T06:44:45Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [Kim-Dongjun/ctm-cifar10](https://github.com/Kim-Dongjun/ctm-cifar10) | 7 | 2024-10-09T18:35:21Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [simonw/scrape-san-mateo-fire-dispatch](https://github.com/simonw/scrape-san-mateo-fire-dispatch) | 2 | 2024-09-10T19:44:18Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [MahmoudAshraf97/demucs](https://github.com/MahmoudAshraf97/demucs) | 7 | 2024-09-06T09:43:56Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [tinted-theming/tinted-builder-python](https://github.com/tinted-theming/tinted-builder-python) | 9 | 2024-09-02T12:02:25Z | Python | Infrastructure/tooling | 6 | 1 | 6 | 6 |
 | [di/packaging_legacy](https://github.com/di/packaging_legacy) | 4 | 2024-08-19T19:38:46Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [ShuoZhang2003/DT-VQA](https://github.com/ShuoZhang2003/DT-VQA) | 7 | 2024-08-16T02:47:44Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -351,6 +352,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Force1ess/python-pptx](https://github.com/Force1ess/python-pptx) | 7 | 2025-04-09T07:59:57Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [5Hyeons/StyleTTS2](https://github.com/5Hyeons/StyleTTS2) | 7 | 2025-01-02T05:02:00Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [Kim-Dongjun/ctm-cifar10](https://github.com/Kim-Dongjun/ctm-cifar10) | 7 | 2024-10-09T18:35:21Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [MahmoudAshraf97/demucs](https://github.com/MahmoudAshraf97/demucs) | 7 | 2024-09-06T09:43:56Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [ShuoZhang2003/DT-VQA](https://github.com/ShuoZhang2003/DT-VQA) | 7 | 2024-08-16T02:47:44Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [moojink/dlimp_openvla](https://github.com/moojink/dlimp_openvla) | 7 | 2024-07-12T00:57:36Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [readthedocs/sphinx-build-compatibility](https://github.com/readthedocs/sphinx-build-compatibility) | 7 | 2024-07-03T11:09:34Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |

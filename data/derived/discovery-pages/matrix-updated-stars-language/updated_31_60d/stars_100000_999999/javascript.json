@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
+    "components": 29,
     "concepts": 15,
     "observations": 15,
-    "repos": 1,
-    "terms": 15
+    "repos": 2,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
+    "affaan-m/everything-claude-code",
     "airbnb/javascript"
   ]
 }

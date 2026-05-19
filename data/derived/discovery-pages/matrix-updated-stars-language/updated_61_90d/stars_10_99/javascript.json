@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 177,
+    "components": 168,
     "concepts": 50,
     "observations": 50,
     "repos": 17,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
+    "10up/action-repo-automator",
     "a5huynh/vscode-ron",
     "ably-labs/realtime-multiplayer-space-invaders",
     "acemir/CSSOM",
@@ -25,7 +26,6 @@
     "hyparam/hysnappy",
     "ipld/js-dag-pb",
     "kibertoad/toad-cache",
-    "L2jLiga/grunt-webfonts",
     "mongodb-js/zstd",
     "OpenHands/openhands-chrome-extension",
     "Rob--W/proxy-from-env",

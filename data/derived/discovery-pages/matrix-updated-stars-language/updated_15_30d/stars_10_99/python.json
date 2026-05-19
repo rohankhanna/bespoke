@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 645,
-    "concepts": 422,
-    "observations": 424,
-    "repos": 114,
-    "terms": 431
+    "components": 643,
+    "concepts": 421,
+    "observations": 423,
+    "repos": 113,
+    "terms": 430
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "AFD-Illinois/pyharm",
@@ -45,7 +45,6 @@
     "carstencodes/pdm-bump",
     "carstencodes/simplepycons",
     "castorini/anserini-tools",
-    "castorini/umbrela",
     "channel-io/ch-tts-llasa-rl-grpo",
     "chengzhag/PanFlow",
     "cloudfoundry/community",

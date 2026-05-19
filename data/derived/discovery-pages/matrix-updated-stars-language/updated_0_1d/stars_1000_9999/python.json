@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 92,
-    "concepts": 95,
-    "observations": 95,
-    "repos": 10,
-    "terms": 95
+    "components": 115,
+    "concepts": 111,
+    "observations": 111,
+    "repos": 13,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
+    "aigc-apps/VideoX-Fun",
     "aws-cloudformation/cfn-lint",
-    "fla-org/flash-linear-attention",
+    "google-deepmind/optax",
     "harbor-framework/harbor",
     "meta-pytorch/tnt",
     "meta-pytorch/torchcodec",
@@ -23,6 +24,8 @@
     "nomadkaraoke/python-audio-separator",
     "ogx-ai/ogx",
     "PrimeIntellect-ai/verifiers",
-    "rllm-org/rllm"
+    "redis/redis-om-python",
+    "rllm-org/rllm",
+    "roboflow/maestro"
   ]
 }

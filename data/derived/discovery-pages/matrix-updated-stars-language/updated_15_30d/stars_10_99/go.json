@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 451,
-    "concepts": 296,
-    "observations": 297,
-    "repos": 62,
-    "terms": 294
+    "components": 467,
+    "concepts": 318,
+    "observations": 319,
+    "repos": 64,
+    "terms": 316
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "abhinav/goldmark-frontmatter",
@@ -50,6 +50,8 @@
     "EngFlow/gazelle_cc",
     "golangci/go-printf-func-name",
     "golangci/misspell",
+    "gookit/ini",
+    "gookit/rux",
     "gopasspw/git-credential-gopass",
     "gopasspw/gopass-hibp",
     "ipfs/ipfs-check",

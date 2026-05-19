@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 78,
-    "observations": 79,
-    "repos": 19,
-    "terms": 74
+    "components": 22,
+    "concepts": 86,
+    "observations": 87,
+    "repos": 21,
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
+    "abubakarsiddik31/claude-skills-collection",
     "Alex313031/Thorium-Android",
     "Alex313031/Thorium-MacOS",
     "Calcium-Ion/new-api-horizon",
@@ -25,6 +26,7 @@
     "helm/community",
     "ipfs/devgrants",
     "JuliaDiff/BlueStyle",
+    "lumen-oss/nvim-best-practices",
     "lxgw/lxgw",
     "lxgw/LxgwZhenKai",
     "MiniMax-AI/MiniMax-M2.5",

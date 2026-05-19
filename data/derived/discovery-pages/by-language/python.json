@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 17716,
-    "concepts": 26674,
-    "observations": 26725,
-    "repos": 6689,
-    "terms": 26468
+    "components": 17733,
+    "concepts": 26679,
+    "observations": 26730,
+    "repos": 6688,
+    "terms": 26485
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -125,7 +125,6 @@
     "Accenture/Cymple",
     "Accio-Lab/SwimBird",
     "ace-step/ACE-Step",
-    "aceimnorstuvwxz/toutiao-text-classfication-dataset",
     "ACEnglish/truvari",
     "achembarpu/pockyt",
     "acheong08/EdgeGPT",
@@ -2026,7 +2025,6 @@
     "Edward-Sun/easy-to-hard",
     "Edward-Sun/gpt-accelera",
     "Edward-Sun/RECITE",
-    "edwardzhou130/PolarSeg",
     "edwhu/dreamer4-jax",
     "eea/eea-website-backend",
     "egoschema/EgoSchema",
@@ -2436,7 +2434,6 @@
     "fsspec/sshfs",
     "fsspec/universal_pathlib",
     "ftramer/LM_Memorization",
-    "fuankarion/active-speakers-context",
     "fudan-generative-vision/hallo",
     "fudan-generative-vision/hallo2",
     "fudan-generative-vision/hallo3",
@@ -3604,6 +3601,7 @@
     "kubeflow/xgboost-operator",
     "kubernetes-client/python",
     "kubernetes-sigs/jobset",
+    "kuielab/mdx-net-submission",
     "kumuji/mix3d",
     "KupynOrest/head_detector",
     "kurtmckee/feedparser",
@@ -3946,6 +3944,8 @@
     "magicleap/SuperGluePretrainedNetwork",
     "magicleap/SuperPointPretrainedNetwork",
     "MAGREF-Video/MAGREF",
+    "MahmoudAshraf97/ctc-forced-aligner",
+    "MahmoudAshraf97/demucs",
     "mahmoudnafifi/Deep_White_Balance",
     "mahmoudnafifi/WB_color_augmenter_python",
     "mahyarnajibi/SNIPER",
@@ -4434,7 +4434,6 @@
     "Natyren/WebShop",
     "naver-ai/relabel_imagenet",
     "naver-ai/StyleMapGAN",
-    "naver/deep-image-retrieval",
     "naver/dune",
     "naver/dust3r",
     "naver/kapture",

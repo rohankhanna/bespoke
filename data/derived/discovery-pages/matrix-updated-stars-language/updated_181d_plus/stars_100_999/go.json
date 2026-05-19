@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 521,
-    "concepts": 722,
-    "observations": 722,
-    "repos": 180,
-    "terms": 710
+    "components": 542,
+    "concepts": 740,
+    "observations": 740,
+    "repos": 182,
+    "terms": 728
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "1player/host-spawn",
     "76creates/stickers",
@@ -74,6 +74,7 @@
     "CyanAsterisk/FreeCar",
     "danielgtaylor/apisprout",
     "danielgtaylor/openapi-cli-generator",
+    "DaoCloud/crproxy",
     "DATA-DOG/go-txdb",
     "dghubble/oauth1",
     "dgrr/http2",
@@ -170,6 +171,7 @@
     "skaji/remote-pbcopy-iterm2",
     "songquanpeng/wechat-server",
     "soulteary/amazing-openai-api",
+    "spacemeshos/go-spacemesh",
     "spf13/cobra-cli",
     "starlight-go/starlight",
     "stephenlacy/daz",

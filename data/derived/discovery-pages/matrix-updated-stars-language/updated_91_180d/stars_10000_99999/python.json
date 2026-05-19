@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 181,
-    "concepts": 230,
-    "observations": 232,
-    "repos": 31,
-    "terms": 229
+    "components": 176,
+    "concepts": 220,
+    "observations": 222,
+    "repos": 29,
+    "terms": 219
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "andrewyng/aisuite",
@@ -35,12 +35,10 @@
     "lucidrains/denoising-diffusion-pytorch",
     "microsoft/unilm",
     "modin-project/modin",
-    "nari-labs/dia",
     "PaddlePaddle/PaddleNLP",
     "QwenLM/Qwen3",
     "RasaHQ/rasa",
     "Stability-AI/generative-models",
-    "SYSTRAN/faster-whisper",
     "Tencent-Hunyuan/HunyuanVideo",
     "tqdm/tqdm",
     "unifyai/ivy",

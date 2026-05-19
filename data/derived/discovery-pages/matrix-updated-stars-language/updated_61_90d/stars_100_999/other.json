@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 554,
-    "concepts": 426,
-    "observations": 429,
-    "repos": 108,
-    "terms": 426
+    "components": 565,
+    "concepts": 439,
+    "observations": 442,
+    "repos": 110,
+    "terms": 439
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "4d49/scene-library",
@@ -52,6 +52,8 @@
     "Dao-AILab/causal-conv1d",
     "DarthAffe/StableDiffusion.NET",
     "dashbitco/nimble_options",
+    "djezzzl/factory_trace",
+    "dkubb/adamantium",
     "dkubb/memoizable",
     "dwyl/elixir-auth-google",
     "dwyl/labels",
@@ -79,6 +81,7 @@
     "JuliaGizmos/Blink.jl",
     "JuliaLang/JuliaSyntax.jl",
     "JuliaPlots/GraphRecipes.jl",
+    "JuliaPy/PyPlot.jl",
     "KhronosGroup/EGL-Registry",
     "kowainik/summoner",
     "lambdalisue/vim-nerdfont",
@@ -104,7 +107,6 @@
     "ropensci/git2r",
     "rubocop/rubocop-performance",
     "sandrohanea/whisper.net",
-    "scribd/Weaver",
     "seancorfield/deps-new",
     "seancorfield/next-jdbc",
     "sol/hpack",

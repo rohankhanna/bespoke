@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 86,
-    "concepts": 131,
-    "observations": 131,
-    "repos": 14,
-    "terms": 129
+    "components": 51,
+    "concepts": 78,
+    "observations": 78,
+    "repos": 9,
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
-    "charmbracelet/x",
-    "CosmWasm/wasmd",
+    "andreykaipov/goobs",
     "dgraph-io/dgraph-benchmarks",
     "energye/energy",
-    "gookit/cache",
-    "gookit/config",
-    "gookit/event",
     "gookit/filter",
     "gookit/gcli",
-    "gookit/slog",
-    "itzg/mc-router",
+    "kelos-dev/kelos",
     "osmosis-labs/osmosis",
     "toml-lang/toml-test",
     "yaling888/quirktiva"

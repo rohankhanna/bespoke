@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 108,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 17,
-    "terms": 86
+    "components": 35,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 8,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "adamchainz/blacken-docs",
-    "aristoteleo/PantheonOS",
-    "bagofwords1/bagofwords",
     "DanielLin94144/Full-Duplex-Bench",
-    "databrickslabs/ucx",
-    "djlint/djLint",
+    "flagos-ai/FlagScale",
     "googlefonts/roboto-3-classic",
-    "googlefonts/ufo2ft",
     "GStreamer/cerbero",
-    "Jamorim-esss/pytest-rich",
-    "mll-lab-nu/VAGEN",
-    "NCAS-CMS/pyfive",
     "OpenHands/ToM-SWE",
-    "scverse/rapids-singlecell",
-    "TextArena/TextArena",
-    "TinyLLaVA/TinyLLaVA_Factory",
-    "tox-dev/filelock"
+    "pyrtlsdr/pyrtlsdr",
+    "TextArena/TextArena"
   ]
 }

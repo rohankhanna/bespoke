@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 156,
-    "concepts": 113,
-    "observations": 113,
-    "repos": 65,
-    "terms": 112
+    "components": 167,
+    "concepts": 116,
+    "observations": 116,
+    "repos": 67,
+    "terms": 115
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "0ghny/tlsg10x-cli",
     "13rac1/goldmark-embed",
@@ -57,10 +57,12 @@
     "hertz-contrib/etag",
     "high-moctane/mocword-data",
     "hungran/hyper-mcp-hackernews-tool",
+    "jpincas/htmlfunc",
     "kitex-contrib/config-apollo",
     "kitex-contrib/config-etcd",
     "kong/proxy-wasm-go-rate-limiting",
     "kurrent-io/es-gencert-cli",
+    "Layr-Labs/optimism",
     "lesismal/arpcex",
     "mdigger/htmlx",
     "MicahParks/jcp",

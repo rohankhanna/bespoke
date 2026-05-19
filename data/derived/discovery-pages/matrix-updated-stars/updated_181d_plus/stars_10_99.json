@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11600,
-    "concepts": 6599,
-    "observations": 6614,
-    "repos": 3179,
-    "terms": 6558
+    "components": 11607,
+    "concepts": 6600,
+    "observations": 6615,
+    "repos": 3181,
+    "terms": 6560
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -409,7 +409,6 @@
     "ArulselvanMadhavan/mini_dalle",
     "asaaki/opentelemetry-tide",
     "asaakyan/covidfact",
-    "asafigan/pdfium_rs",
     "asafschers/scoruby",
     "asaikali/spring-ai-zero-to-hero",
     "aseisugiyama/lab_sample_pipelines",
@@ -595,6 +594,7 @@
     "BlinkDL/SmallInitEmb",
     "blockpane/findaccount",
     "blockprotocol/awesome-blocks",
+    "Blosc/hdf5-blosc",
     "blue-pen5805/Stable-Diffusion-Webui-Civitai-Helper",
     "Bluehouse-Technology/grpc_client",
     "bluejekyll/trust-dns",
@@ -630,6 +630,7 @@
     "box2ai-robotics/lerobot-joycon",
     "bozerkins/terraform-provider-dkron",
     "bpkg/term",
+    "bqqbarbhg/bq_websocket",
     "bqqbarbhg/spear",
     "brads3290/cclogviewer",
     "brandonroberts/analog-angular-start",
@@ -1314,6 +1315,7 @@
     "filhodanuvem/polyglot",
     "filipesilva/obsidian-babashka",
     "fillumina/id-encryptor",
+    "Finance-LLMs/deep-research-python",
     "FindDefinition/PCCM",
     "finetunej/transformers",
     "firatkiral/kodibot",
@@ -1351,7 +1353,6 @@
     "fredcamps/lsp-jedi",
     "frotms/image_classification_pytorch",
     "FStarLang/fstar-mode.el",
-    "fuankarion/active-speakers-context",
     "fugro-oss/g2o",
     "fumiama/MoeGoe",
     "fumiama/MoeGoe-Android",
@@ -1449,6 +1450,7 @@
     "google/certificate-transparency-rfcs",
     "google/gfbuild-SPIRV-Tools",
     "google/gnostic-go-generator",
+    "google/gnostic-models",
     "google/google-id-token",
     "google/hrx-ruby",
     "google/mysteryofthreebots",

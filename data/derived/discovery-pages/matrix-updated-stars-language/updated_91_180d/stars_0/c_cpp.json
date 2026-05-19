@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 9,
-    "terms": 10
+    "components": 18,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 8,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "cloudaper/compact_enc_det_fork",
@@ -20,7 +20,6 @@
     "DiligentGraphics/glfw",
     "DiligentGraphics/glslang",
     "DiligentGraphics/googletest",
-    "hermit-os/newlib",
     "smallscientist1/tilelang",
     "vovkos/luadoxyxml"
   ]

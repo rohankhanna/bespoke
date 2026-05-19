@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3864,
-    "concepts": 742,
-    "observations": 743,
-    "repos": 100,
-    "terms": 737
+    "components": 3870,
+    "concepts": 744,
+    "observations": 745,
+    "repos": 102,
+    "terms": 739
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "alphagov/govuk-frontend",
@@ -39,6 +39,7 @@
     "expressjs/body-parser",
     "flow-typed/flow-typed",
     "fullstorydev/grpcui",
+    "ghostery/ghostery-extension",
     "google/docsy",
     "GoogleChrome/web-vitals",
     "GoogleChromeLabs/clooney",
@@ -79,6 +80,7 @@
     "nodejs/undici",
     "observing/pre-commit",
     "openstreetmap/iD",
+    "openwrt/luci",
     "parallel-js/parallel.js",
     "pillarjs/iconv-lite",
     "pmmmwh/react-refresh-webpack-plugin",
@@ -103,11 +105,11 @@
     "testem/testem",
     "thlorenz/doctoc",
     "tw-in-js/twind",
+    "uBlockOrigin/uBOL-home",
     "umijs/dumi",
     "unifiedjs/unified",
     "violentmonkey/violentmonkey",
     "vizzuhq/vizzu-lib",
-    "vueform/vueform",
     "WebKit/WebKit",
     "webpack/webpack-cli",
     "webpack/webpack-dev-middleware",

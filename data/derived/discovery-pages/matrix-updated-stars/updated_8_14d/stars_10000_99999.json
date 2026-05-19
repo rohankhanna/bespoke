@@ -1,23 +1,21 @@
 {
   "counts": {
-    "components": 656,
-    "concepts": 381,
-    "observations": 384,
-    "repos": 38,
-    "terms": 379
+    "components": 517,
+    "concepts": 270,
+    "observations": 271,
+    "repos": 29,
+    "terms": 270
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "academic/awesome-datascience",
     "astral-sh/ruff",
     "blender/blender",
-    "brave/brave-browser",
-    "cilium/cilium",
     "crewAIInc/crewAI",
     "datalab-to/marker",
     "datalab-to/surya",
@@ -30,10 +28,8 @@
     "foliojs/pdfkit",
     "google-deepmind/mujoco",
     "great-expectations/great_expectations",
-    "helm/helm",
     "HKUDS/CLI-Anything",
     "huggingface/pytorch-image-models",
-    "itzg/docker-minecraft-server",
     "jqlang/jq",
     "kepano/obsidian-skills",
     "lint-staged/lint-staged",
@@ -41,15 +37,10 @@
     "mixmark-io/turndown",
     "mobxjs/mobx",
     "modelscope/DiffSynth-Studio",
-    "MudBlazor/MudBlazor",
-    "openjdk/jdk",
-    "protocolbuffers/protobuf",
-    "puppeteer/puppeteer",
     "rerun-io/rerun",
     "restic/restic",
     "vitejs/vite",
     "vuejs/core",
-    "XAMPPRocky/tokei",
-    "Z3Prover/z3"
+    "XAMPPRocky/tokei"
   ]
 }

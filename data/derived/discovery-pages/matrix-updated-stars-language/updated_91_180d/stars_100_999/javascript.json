@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 797,
+    "components": 806,
     "concepts": 112,
     "observations": 112,
-    "repos": 46,
+    "repos": 47,
     "terms": 112
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "adriantoine/enzyme-to-json",
     "agenda/agendash",
@@ -34,6 +34,7 @@
     "latex-lsp/tree-sitter-latex",
     "Level/awesome",
     "lit/lit-element-starter-ts",
+    "Mario4272/ag_bridge",
     "markdown-it/markdown-it-footnote",
     "mathjax/MathJax-demos-node",
     "Meteor-Community-Packages/meteor-scss",

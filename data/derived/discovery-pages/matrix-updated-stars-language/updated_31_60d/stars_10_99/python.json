@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 467,
-    "concepts": 431,
-    "observations": 431,
-    "repos": 109,
-    "terms": 435
+    "components": 469,
+    "concepts": 432,
+    "observations": 432,
+    "repos": 110,
+    "terms": 436
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "4dn-dcic/tibanna",
@@ -39,6 +39,7 @@
     "BoosterRobotics/booster_train",
     "browser-use/benchmark",
     "c4ffein/realworld-django-ninja",
+    "castorini/umbrela",
     "cdeust/cortex",
     "chaoss/grimoirelab-elk",
     "chaoss/grimoirelab-sirmordred",

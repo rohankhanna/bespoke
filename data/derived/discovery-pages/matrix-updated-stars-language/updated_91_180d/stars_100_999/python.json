@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 368,
-    "concepts": 768,
-    "observations": 768,
-    "repos": 203,
-    "terms": 762
+    "components": 358,
+    "concepts": 734,
+    "observations": 734,
+    "repos": 200,
+    "terms": 728
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "0k/shyaml",
     "23andMe/Yamale",
@@ -51,6 +51,7 @@
     "baal-org/baal",
     "behave/behave-django",
     "belambert/edit-distance",
+    "berkerpeksag/astor",
     "bigcode-project/bigcodebench",
     "BoosterRobotics/booster_gym",
     "breezedeus/CnSTD",
@@ -61,7 +62,6 @@
     "chengzhag/PanFusion",
     "ChenMnZ/PrefixQuant",
     "christgau/wsdd",
-    "chyok/ollama-gui",
     "citation-file-format/citation-file-format",
     "clearbluejar/ghidrecomp",
     "clemense/yourdfpy",
@@ -84,6 +84,7 @@
     "FlagOpen/RoboOS",
     "fudan-zvg/PVG",
     "gafniguy/4D-Facial-Avatars",
+    "GANWANSHUI/GaussianOcc",
     "GewelsJI/VPS",
     "GFW-knocker/gfw_resist_tcp_proxy",
     "githubharald/CTCDecoder",
@@ -99,9 +100,7 @@
     "HolyWu/vs-rife",
     "httplib2/httplib2",
     "huggingface/flux-fast",
-    "huspacy/huspacy",
     "hustvl/DiffusionDriveV2",
-    "hzwer/Practical-RIFE",
     "ielab/llm-rankers",
     "inclusionAI/ASearcher",
     "intel/ai-reference-models",
@@ -153,7 +152,6 @@
     "OpenGVLab/OmniQuant",
     "OpenMOSS/FRoM-W1",
     "OpenSparseLLMs/MoM",
-    "OpenTeleVision/AMO",
     "p-doom/jasmine",
     "Parallel-Reasoning/APR",
     "PDillis/stylegan3-fun",
@@ -171,7 +169,6 @@
     "ronaldoussoren/py2app",
     "ros/urdf_parser_py",
     "RT-DETRs/RT-DETRv4",
-    "Saganaki22/OrpheusTTS-WebUI",
     "sail-sg/oat",
     "salesforce/ULIP",
     "SAML-Toolkits/python-saml",

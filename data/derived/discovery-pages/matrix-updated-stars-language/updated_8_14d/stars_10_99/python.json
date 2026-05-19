@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 5,
-    "terms": 13
+    "components": 46,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 7,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "Agnuxo1/CAJAL",
+    "apify/actor-templates",
     "braelyn-ai/mob",
-    "intel-staging/text-generation-webui",
+    "google-research/mseb",
+    "goombalab/raven",
     "python-jsonschema/referencing",
     "yulewang97/ERDiff"
   ]

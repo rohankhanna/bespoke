@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 214,
-    "concepts": 309,
-    "observations": 311,
-    "repos": 42,
-    "terms": 302
+    "components": 213,
+    "concepts": 281,
+    "observations": 283,
+    "repos": 40,
+    "terms": 274
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "aaron-he-zhu/seo-geo-claude-skills",
     "alrra/dotfiles",
@@ -28,7 +28,6 @@
     "clangd/clangd",
     "conda-forge/miniforge",
     "confluentinc/demo-scene",
-    "devcontainers/features",
     "devcontainers/images",
     "docker-library/docker",
     "docker-library/docs",
@@ -37,16 +36,15 @@
     "docker-library/postgres",
     "dtcooper/raspotify",
     "fluxcd/flux2-kustomize-helm-example",
-    "git-quick-stats/git-quick-stats",
     "google/adk-docs",
     "GrapheneOS/Vanadium",
     "heroku/heroku-buildpack-nodejs",
     "holman/dotfiles",
     "home-assistant/addons",
+    "itzg/docker-minecraft-bedrock-server",
     "jkroepke/helm-secrets",
     "mlocati/docker-php-extension-installer",
     "msys2/MINGW-packages",
-    "nix-community/nix-direnv",
     "pacstall/pacstall",
     "pypa/manylinux",
     "rbenv/ruby-build",

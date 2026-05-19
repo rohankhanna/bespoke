@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 315,
-    "concepts": 632,
-    "observations": 632,
-    "repos": 138,
-    "terms": 628
+    "components": 317,
+    "concepts": 637,
+    "observations": 637,
+    "repos": 139,
+    "terms": 633
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "0xPolygon/polygon-edge",
     "Adminisme/ServerScan",
@@ -22,6 +22,7 @@
     "akavel/rsrc",
     "AlecAivazis/survey",
     "alecthomas/go_serialization_benchmarks",
+    "alexedwards/scs",
     "alibaba/sentinel-golang",
     "AliyunContainerService/pouch",
     "apex/log",

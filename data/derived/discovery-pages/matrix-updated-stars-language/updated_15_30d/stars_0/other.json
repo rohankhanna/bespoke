@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
+    "components": 42,
     "concepts": 27,
     "observations": 27,
-    "repos": 25,
-    "terms": 33
+    "repos": 24,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "AdaCore/vss-extra",
     "arnaud-lb/php-rdkafka-doc",
@@ -37,7 +37,6 @@
     "robertabao/grok-nvim",
     "shoggo-ai/seniorvigil",
     "stable-haskell/haskell-language-server",
-    "Strivin0311/strivin0311.github.io",
-    "wblondel/blog"
+    "Strivin0311/strivin0311.github.io"
   ]
 }

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 75,
+    "components": 73,
     "concepts": 92,
     "observations": 92,
-    "repos": 28,
+    "repos": 27,
     "terms": 90
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "4kills/go-libdeflate",
     "apache/incubator-seata-go-samples",
@@ -27,7 +27,6 @@
     "evmos/os",
     "extism/go-pdk",
     "FiloSottile/hpke",
-    "google/gnostic-models",
     "jm33-m0/arc",
     "lesismal/nbio-examples",
     "lukacu/docker-frps",

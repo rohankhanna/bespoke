@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 410,
-    "concepts": 460,
-    "observations": 460,
-    "repos": 61,
-    "terms": 458
+    "components": 415,
+    "concepts": 463,
+    "observations": 463,
+    "repos": 62,
+    "terms": 461
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -45,6 +45,7 @@
     "graalvm/native-build-tools",
     "heroku/webapp-runner",
     "ihmcrobotics/ihmc-open-robotics-software",
+    "jdereg/json-io",
     "jpmml/jpmml-lightgbm",
     "jpmml/jpmml-sklearn",
     "jpmml/jpmml-xgboost",

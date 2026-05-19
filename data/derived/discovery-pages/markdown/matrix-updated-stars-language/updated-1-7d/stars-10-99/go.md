@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-18T08:07:10.522070+00:00`
+Generated at: `2026-05-19T05:53:33.318365+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 8
-- components: 16
-- concepts: 8
-- observations: 8
+- repos: 2
+- terms: 2
+- components: 11
+- concepts: 2
+- observations: 2
 
 ## Static behavior
 
@@ -28,8 +28,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [cloudfoundry/bosh-google-cpi-release](https://github.com/cloudfoundry/bosh-google-cpi-release) | 63 | 2026-05-16T10:16:29Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [joshsymonds/cc-tools](https://github.com/joshsymonds/cc-tools) | 50 | 2026-05-12T16:38:41Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
-| [compozy/kb](https://github.com/compozy/kb) | 43 | 2026-05-12T15:33:44Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [cloudfoundry/credhub-cli](https://github.com/cloudfoundry/credhub-cli) | 43 | 2026-05-11T13:09:59Z | Go | CLI | 5 | 0 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -37,5 +35,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [cloudfoundry/bosh-google-cpi-release](https://github.com/cloudfoundry/bosh-google-cpi-release) | 63 | 2026-05-16T10:16:29Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [joshsymonds/cc-tools](https://github.com/joshsymonds/cc-tools) | 50 | 2026-05-12T16:38:41Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
-| [compozy/kb](https://github.com/compozy/kb) | 43 | 2026-05-12T15:33:44Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [cloudfoundry/credhub-cli](https://github.com/cloudfoundry/credhub-cli) | 43 | 2026-05-11T13:09:59Z | Go | CLI | 5 | 0 | 5 | 5 |

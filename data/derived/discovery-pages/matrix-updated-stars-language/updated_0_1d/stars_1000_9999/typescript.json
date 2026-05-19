@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 50,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 2,
-    "terms": 11
+    "components": 349,
+    "concepts": 64,
+    "observations": 64,
+    "repos": 9,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
-    "safe-fndn/safe-smart-account",
+    "ai-that-works/ai-that-works",
+    "alichherawalla/off-grid-mobile-ai",
+    "conventional-changelog/conventional-changelog",
+    "ebullient/obsidian-admonition",
+    "electron/rebuild",
+    "podman-desktop/podman-desktop",
+    "typescript-language-server/typescript-language-server",
+    "vuejs/devtools",
     "vuejs/language-tools"
   ]
 }

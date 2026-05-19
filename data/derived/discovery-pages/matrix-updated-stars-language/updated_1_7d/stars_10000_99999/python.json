@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 174,
-    "concepts": 188,
-    "observations": 188,
-    "repos": 15,
-    "terms": 185
+    "components": 98,
+    "concepts": 121,
+    "observations": 121,
+    "repos": 10,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
-    "axolotl-ai-cloud/axolotl",
     "Comfy-Org/ComfyUI-Manager",
     "Dao-AILab/flash-attention",
-    "fastapi/fastapi",
     "hiyouga/LlamaFactory",
     "huggingface/sentence-transformers",
-    "NVIDIA-NeMo/NeMo",
-    "OpenHands/OpenHands",
+    "modelscope/ms-swift",
     "PDFMathTranslate/PDFMathTranslate",
-    "psf/black",
     "run-llama/llama_index",
-    "TEN-framework/ten-framework",
     "ungoogled-software/ungoogled-chromium"
   ]
 }

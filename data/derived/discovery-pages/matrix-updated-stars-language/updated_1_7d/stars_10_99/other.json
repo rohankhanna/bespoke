@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 105,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 9,
-    "terms": 59
+    "components": 68,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 5,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "browniebroke/pypackage-template",
-    "cginternals/cpplocate",
-    "dwyl/mvp",
-    "geocompx/docker",
     "lumen-oss/luarocks-tag-release",
     "nvim-mini/mini.deps",
     "pivotal/credhub-release",
-    "processing/processing-website",
-    "UnknownPlatypus/djangofmt"
+    "processing/processing-website"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 583,
-    "concepts": 541,
-    "observations": 544,
-    "repos": 75,
-    "terms": 543
+    "components": 683,
+    "concepts": 619,
+    "observations": 622,
+    "repos": 87,
+    "terms": 638
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
+    "3b1b/manim",
     "3b1b/videos",
     "666ghj/MiroFish",
     "abetlen/llama-cpp-python",
@@ -25,12 +26,14 @@
     "anthropics/claude-plugins-official",
     "assafelovic/gpt-researcher",
     "astral-sh/ty",
+    "browser-use/browser-use",
     "camel-ai/owl",
     "chriskiehl/Gooey",
     "codelucas/newspaper",
     "cookiecutter/cookiecutter",
     "danielgatis/rembg",
     "dask/dask",
+    "davila7/claude-code-templates",
     "deepinsight/insightface",
     "delgan/loguru",
     "dottxt-ai/outlines",
@@ -42,6 +45,8 @@
     "facebook/prophet",
     "facebookresearch/detectron2",
     "fishaudio/fish-speech",
+    "GaiZhenbiao/ChuanhuChatGPT",
+    "getzep/graphiti",
     "github/spec-kit",
     "google/python-fire",
     "google/yapf",
@@ -54,10 +59,12 @@
     "karpathy/autoresearch",
     "karpathy/nanochat",
     "KittenML/KittenTTS",
+    "langchain-ai/deepagents",
     "letta-ai/letta",
     "localstack/localstack",
     "m-bain/whisperX",
     "magic-wormhole/magic-wormhole",
+    "mem0ai/mem0",
     "microsoft/autogen",
     "microsoft/playwright-python",
     "microsoft/pyright",
@@ -70,9 +77,9 @@
     "openai/tiktoken",
     "openai/whisper",
     "OpenBMB/ChatDev",
-    "PaddlePaddle/PaddleDetection",
     "PaddlePaddle/PaddleSpeech",
     "pallets/flask",
+    "pandas-dev/pandas",
     "pre-commit/pre-commit",
     "pydantic/pydantic-ai",
     "python/mypy",
@@ -88,6 +95,11 @@
     "subframe7536/maple-font",
     "superclaude-org/superclaude_framework",
     "Textualize/rich",
-    "thu-ml/tianshou"
+    "thu-ml/tianshou",
+    "titanwings/colleague-skill",
+    "wshobson/agents",
+    "ycm-core/YouCompleteMe",
+    "ymcui/Chinese-BERT-wwm",
+    "ymcui/Chinese-LLaMA-Alpaca"
   ]
 }

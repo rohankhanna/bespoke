@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1207,
-    "concepts": 516,
-    "observations": 518,
-    "repos": 428,
-    "terms": 516
+    "components": 1248,
+    "concepts": 520,
+    "observations": 522,
+    "repos": 431,
+    "terms": 520
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -209,6 +209,7 @@
     "ficorax/cfa",
     "filecoin-project/fvm-test-vectors",
     "fky2015/navigator.nvim-bug-report",
+    "flageval-baai/LRM-Eval",
     "flashinfer-ai/web-data",
     "flathub/io.github.TTimo.GtkRadiant",
     "flukexp/llama-piper-go",
@@ -237,6 +238,7 @@
     "Heap-Hop/if-watch",
     "heimoshuiyu/faster-whisper",
     "helyim/reed-solomon-erasure",
+    "hermit-os/newlib",
     "hermit-os/socket2",
     "HReynaud/stylegan-v",
     "hsivonen/any_all_workaround",
@@ -386,6 +388,7 @@
     "rlancemartin/LLMTest_NeedleInAHaystack",
     "robin1001/qr",
     "RohanVashisht1234/justperfect",
+    "rose-pine/homebrew-tap",
     "rudionrails/yell",
     "s3bk/svg",
     "sa501428/EigenVector",

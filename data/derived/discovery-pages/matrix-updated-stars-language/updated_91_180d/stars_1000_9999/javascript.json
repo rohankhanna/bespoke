@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 515,
-    "concepts": 159,
-    "observations": 160,
-    "repos": 31,
-    "terms": 157
+    "components": 552,
+    "concepts": 180,
+    "observations": 181,
+    "repos": 34,
+    "terms": 178
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "alexmojaki/birdseye",
     "architect/architect",
     "Blizzard/node-rdkafka",
+    "breejs/bree",
+    "casparwylie/cascii-core",
     "cristianbote/goober",
     "developit/microbundle",
     "facebook/fbjs",
@@ -29,6 +31,7 @@
     "guybedford/es-module-lexer",
     "guybedford/es-module-shims",
     "gwudcap/cc-sessions",
+    "huggingface/transformers.js-examples",
     "jasongin/nvs",
     "jimmywarting/StreamSaver.js",
     "jsx-eslint/eslint-plugin-jsx-a11y",

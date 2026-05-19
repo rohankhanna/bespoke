@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1936,
-    "concepts": 1861,
-    "observations": 1871,
-    "repos": 201,
-    "terms": 1863
+    "components": 1956,
+    "concepts": 1923,
+    "observations": 1933,
+    "repos": 203,
+    "terms": 1919
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "actions/actions-runner-controller",
@@ -75,8 +75,8 @@
     "containers/buildah",
     "cortexproject/cortex",
     "cosmos/cosmos-sdk",
+    "crazy-max/diun",
     "cri-o/cri-o",
-    "databus23/helm-diff",
     "DataDog/datadog-agent",
     "dghubble/gologin",
     "Dicklesworthstone/beads_viewer",
@@ -123,6 +123,8 @@
     "google/trillian",
     "GoogleCloudPlatform/berglas",
     "gookit/color",
+    "gookit/goutil",
+    "gookit/validate",
     "goreleaser/nfpm",
     "grafana/alloy",
     "hashicorp/terraform-provider-azurerm",
@@ -142,7 +144,6 @@
     "kubeovn/kube-ovn",
     "kuberhealthy/kuberhealthy",
     "kubernetes-sigs/cluster-api",
-    "kubernetes-sigs/controller-runtime",
     "kubernetes-sigs/cri-tools",
     "kubernetes-sigs/external-dns",
     "kubernetes-sigs/gateway-api",
@@ -156,7 +157,7 @@
     "kubernetes/kubectl",
     "kubernetes/test-infra",
     "kyverno/kyverno",
-    "larksuite/cli",
+    "letsencrypt/boulder",
     "lightningnetwork/lnd",
     "Loyalsoldier/geoip",
     "maragudk/gomponents",
@@ -175,6 +176,7 @@
     "open-policy-agent/gatekeeper",
     "open-telemetry/opentelemetry-collector",
     "open-telemetry/opentelemetry-collector-contrib",
+    "open-telemetry/opentelemetry-operator",
     "opencost/opencost",
     "openshift/installer",
     "openshift/origin",

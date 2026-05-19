@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2507,
-    "concepts": 555,
-    "observations": 564,
-    "repos": 100,
-    "terms": 550
+    "components": 2426,
+    "concepts": 546,
+    "observations": 555,
+    "repos": 99,
+    "terms": 541
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
     "adamlui/ai-web-extensions",
+    "AdguardTeam/HostlistsRegistry",
     "AdguardTeam/Scriptlets",
     "all-contributors/app",
     "americanexpress/jest-json-schema",
@@ -58,7 +59,6 @@
     "higlass/higlass",
     "hudochenkov/postcss-sorting",
     "hyparam/icebird",
-    "i18next/i18next-browser-languageDetector",
     "i18next/i18next-fs-backend",
     "i18next/i18next-http-backend",
     "i18next/i18next-http-middleware",
@@ -71,7 +71,6 @@
     "kriszyp/msgpackr",
     "kurrent-io/KurrentDB-Client-NodeJS",
     "lo-th/phy",
-    "lobehub/lobe-editor",
     "marwin1991/profile-technology-icons",
     "Mathpix/mathpix-markdown-it",
     "matzkoh/prettier-plugin-packagejson",

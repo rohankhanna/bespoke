@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 1,
-    "terms": 6
+    "components": 34,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 5,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-17T08:38:41.992611+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
-    "openjdk/jdk11u"
+    "bazel-contrib/rules_jvm_external",
+    "eclipse-tm4e/tm4e",
+    "eclipse-wildwebdeveloper/wildwebdeveloper",
+    "ldproxy/ldproxy",
+    "spring-projects/spring-tools"
   ]
 }

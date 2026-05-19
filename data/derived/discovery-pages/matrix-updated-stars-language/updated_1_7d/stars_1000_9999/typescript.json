@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 788,
-    "concepts": 113,
-    "observations": 113,
-    "repos": 18,
-    "terms": 113
+    "components": 333,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 8,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
-    "ai-that-works/ai-that-works",
-    "alichherawalla/off-grid-mobile-ai",
     "apollographql/apollo-tooling",
     "can1357/oh-my-pi",
-    "conventional-changelog/conventional-changelog",
-    "ebullient/obsidian-admonition",
-    "electron/rebuild",
     "FxEmbed/FxEmbed",
-    "getagentseal/codeburn",
     "google-gemini/live-api-web-console",
     "Koenkk/zigbee-herdsman-converters",
     "microsoft/vscode-js-debug",
-    "podman-desktop/podman-desktop",
-    "shareAI-lab/Kode-Agent",
-    "shareAI-lab/Kode-CLI",
-    "TanStack/form",
-    "typescript-language-server/typescript-language-server",
-    "vuejs/devtools"
+    "safe-fndn/safe-smart-account",
+    "TanStack/form"
   ]
 }

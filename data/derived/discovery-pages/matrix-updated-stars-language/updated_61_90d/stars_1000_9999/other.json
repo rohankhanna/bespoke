@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 228,
-    "concepts": 320,
-    "observations": 321,
-    "repos": 62,
-    "terms": 319
+    "components": 255,
+    "concepts": 341,
+    "observations": 342,
+    "repos": 67,
+    "terms": 340
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -24,8 +24,10 @@
     "bblimke/webmock",
     "clj-commons/manifold",
     "clojure/clojurescript",
+    "clux/muslrust",
     "cognitect/transit-format",
     "container-storage-interface/spec",
+    "dakrone/cheshire",
     "dashbitco/mox",
     "Deci-AI/super-gradients",
     "dimitri/el-get",
@@ -43,6 +45,9 @@
     "jpanther/congo",
     "kaminari/kaminari",
     "lite-xl/lite-xl",
+    "liuchengxu/vim-which-key",
+    "lunarmodules/busted",
+    "MahmoudAshraf97/whisper-diarization",
     "mdn/webassembly-examples",
     "mhinz/vim-signify",
     "michalmuskala/jason",
@@ -64,7 +69,7 @@
     "rspec/rspec-rails",
     "salesforce/BLIP",
     "sbt/sbt-native-packager",
-    "seancorfield/honeysql",
+    "ScoopInstaller/Install",
     "steipete/imsg",
     "stevearc/aerial.nvim",
     "stevearc/oil.nvim",

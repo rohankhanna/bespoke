@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 14,
-    "concepts": 80,
-    "observations": 80,
-    "repos": 36,
-    "terms": 91
+    "concepts": 67,
+    "observations": 67,
+    "repos": 35,
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "ahmadawais/shades-of-purple-vscode",
@@ -29,7 +29,6 @@
     "GraphBLAS/GraphBLAS-Pointers",
     "GuiWonder/MoonStarsKai",
     "IceClear/SeedVR2",
-    "joseluisq/macosx-sdks",
     "libp2p/js-libp2p-examples",
     "lightning/blips",
     "lintool/guide",

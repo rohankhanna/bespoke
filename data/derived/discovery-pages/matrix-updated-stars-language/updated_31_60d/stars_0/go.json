@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 10,
-    "terms": 22
+    "components": 42,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 11,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "abraxas-365/claudio-screenshot",
     "ainvaltin/nu_plugin_boltdb",
@@ -23,6 +23,7 @@
     "dubbo-go-pixiu/dubbo-go-pixiu",
     "ethpandaops/xatu-cbt",
     "foundry-rs/optimism",
+    "hyper-mcp-rs/crypto-price-plugin",
     "kdubbo/api"
   ]
 }

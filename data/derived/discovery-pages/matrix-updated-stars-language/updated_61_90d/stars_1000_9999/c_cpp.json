@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 141,
-    "concepts": 255,
-    "observations": 256,
-    "repos": 48,
-    "terms": 248
+    "components": 139,
+    "concepts": 248,
+    "observations": 249,
+    "repos": 46,
+    "terms": 241
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -44,7 +44,6 @@
     "memononen/nanovg",
     "microsoft/onnxruntime-inference-examples",
     "mitsuba-renderer/nanogui",
-    "mmorise/World",
     "mutouyun/cpp-ipc",
     "nmoehrle/mvs-texturing",
     "NVIDIA/gdrcopy",
@@ -54,7 +53,6 @@
     "snapcast/snapcast",
     "sqlcipher/sqlcipher",
     "stevengj/nlopt",
-    "svenstaro/rofi-calc",
     "TheAssassin/AppImageLauncher",
     "tzapu/WiFiManager",
     "UB-Mannheim/tesseract",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 13,
-    "terms": 30
+    "components": 41,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 11,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "ai-bot-pro/achatbot-go",
     "bizflycloud/karpenter-provider-bizflycloud",
@@ -21,9 +21,7 @@
     "ethereum-optimism/kurtosis-test",
     "feloy/tesh",
     "gost-dom/webref",
-    "jpincas/htmlfunc",
     "karpeleslab/tpl",
-    "Layr-Labs/optimism",
     "leaktk/gitleaks",
     "redis/go-redis-entraid",
     "tmikus/ahocorasick_rs"

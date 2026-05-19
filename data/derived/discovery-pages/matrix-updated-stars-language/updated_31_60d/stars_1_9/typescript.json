@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 384,
-    "concepts": 69,
-    "observations": 69,
-    "repos": 24,
-    "terms": 73
+    "components": 399,
+    "concepts": 79,
+    "observations": 79,
+    "repos": 26,
+    "terms": 83
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "alibaizhanov/openclaw-mengram",
     "analyticsinmotion/wake-word",
@@ -30,13 +30,15 @@
     "ember-cli/ember-addon-blueprint",
     "hchiam/how-draggable",
     "LogtalkDotOrg/logtalk-for-vscode",
-    "mattiacolombomc/raycast-handy",
+    "neuroverseos/neuroverseos-governance",
     "octokit/openapi-webhooks",
     "qcr/qcr.github.io",
     "robustmq/robustmq-copilot",
     "storybookjs/addon-jest",
     "tnc-ca-geo/animl-api",
     "toyamarinyon/giselle",
-    "Venly/web3-react-venly"
+    "ublacklist/builtin",
+    "Venly/web3-react-venly",
+    "vincent-k2026/codachi"
   ]
 }

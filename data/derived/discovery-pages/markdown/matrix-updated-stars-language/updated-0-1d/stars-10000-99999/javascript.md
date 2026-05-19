@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-05-18T08:07:10.522070+00:00`
+Generated at: `2026-05-19T05:53:33.318365+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,12 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [nwjs/nw.js](https://github.com/nwjs/nw.js) | 41189 | 2026-05-18T01:32:47Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
-| [preactjs/preact](https://github.com/preactjs/preact) | 38627 | 2026-05-17T10:34:05Z | JavaScript | Infrastructure/tooling | 12 | 51 | 12 | 12 |
+| [nwjs/nw.js](https://github.com/nwjs/nw.js) | 41188 | 2026-05-18T23:05:12Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
+| [preactjs/preact](https://github.com/preactjs/preact) | 38631 | 2026-05-18T18:33:52Z | JavaScript | Infrastructure/tooling | 12 | 51 | 12 | 12 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [nwjs/nw.js](https://github.com/nwjs/nw.js) | 41189 | 2026-05-18T01:32:47Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
-| [preactjs/preact](https://github.com/preactjs/preact) | 38627 | 2026-05-17T10:34:05Z | JavaScript | Infrastructure/tooling | 12 | 51 | 12 | 12 |
+| [nwjs/nw.js](https://github.com/nwjs/nw.js) | 41188 | 2026-05-18T23:05:12Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
+| [preactjs/preact](https://github.com/preactjs/preact) | 38631 | 2026-05-18T18:33:52Z | JavaScript | Infrastructure/tooling | 12 | 51 | 12 | 12 |

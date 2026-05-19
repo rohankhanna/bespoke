@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2176,
-    "concepts": 2941,
-    "observations": 2948,
-    "repos": 942,
-    "terms": 2926
+    "components": 2180,
+    "concepts": 2954,
+    "observations": 2961,
+    "repos": 944,
+    "terms": 2938
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -21,6 +21,7 @@
     "31/GodotOnReady",
     "47degrees/github4s",
     "5ec1cff/KsuWebUIStandalone",
+    "7368697661/Origami",
     "AaronC81/sord",
     "aarowill/base16-alacritty",
     "abingham/emacs-ycmd",
@@ -313,7 +314,6 @@
     "elihunter173/dirbuf.nvim",
     "elixir-makeup/makeup",
     "ellisonleao/nvim-plugin-template",
-    "ElmCast/elm-vim",
     "emacs-lsp/lsp-docker",
     "emacsattic/helm-swoop",
     "emard/ulx3s",
@@ -497,6 +497,7 @@
     "junegunn/vader.vim",
     "jupyterlab/extension-cookiecutter-ts",
     "juxt/clip",
+    "juxt/tick",
     "juxt/yada",
     "JWarmenhoven/DBDA-python",
     "kana/vim-flavor",
@@ -939,6 +940,7 @@
     "wl-zhao/VPD",
     "xolox/vim-misc",
     "xolox/vim-session",
+    "xserrat/docker-facebook-demucs",
     "xuorig/graphql-schema_comparator",
     "yandex-research/navigan",
     "yardenfren1996/B-LoRA",

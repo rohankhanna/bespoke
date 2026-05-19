@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 46,
-    "concepts": 23,
-    "observations": 24,
-    "repos": 18,
-    "terms": 23
+    "components": 49,
+    "concepts": 24,
+    "observations": 25,
+    "repos": 19,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "acts-project/opendatadetector",
     "boingoing/node-sass",
@@ -25,6 +25,7 @@
     "eaplatanios/triton",
     "fonwin/libfon9",
     "haixuanTao/frenet_optimal_trajectory_planner",
+    "hermit-os/newlib",
     "meinac/oj-introspect",
     "mikesteglich/coliop",
     "mindreframer/sqlean",

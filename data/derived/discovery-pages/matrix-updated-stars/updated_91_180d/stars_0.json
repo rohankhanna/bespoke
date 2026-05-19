@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 307,
-    "concepts": 114,
-    "observations": 114,
-    "repos": 88,
-    "terms": 114
+    "components": 266,
+    "concepts": 110,
+    "observations": 110,
+    "repos": 85,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "1000ch/Sublime-csso",
@@ -63,12 +63,10 @@
     "Enselic/cargo-public-api",
     "espressosystems/espresso-systems-common",
     "EspressoSystems/jellyfish-compat",
-    "flageval-baai/LRM-Eval",
     "frankkohlhepp/fancy-settings",
     "get-gah/gah-db",
     "grafana/cadvisor",
     "haoxiangsnr/IntelNeuromorphicDNSChallenge",
-    "hermit-os/newlib",
     "Hitesh-Aggarwal/dotfiles",
     "illusionfield/fourseven-scss",
     "jackielii/qmk_firmware",
@@ -92,7 +90,6 @@
     "prestodb/presto-dev",
     "puffyyy/PCSim",
     "rasahq/pytest-sanic",
-    "rose-pine/homebrew-tap",
     "sarlinpe/pybind11-stubgen",
     "smallscientist1/tilelang",
     "sp1-patches/curve25519-dalek",

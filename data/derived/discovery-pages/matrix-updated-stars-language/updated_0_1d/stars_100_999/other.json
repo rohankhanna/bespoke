@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 3,
-    "terms": 33
+    "components": 52,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 5,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
+    "apalache-mc/apalache",
+    "bazel-contrib/rules_kotlin",
     "ChristopherHX/runner.server",
     "fsprojects/FSharp.Data.GraphQL",
     "karafka/rdkafka-ruby"

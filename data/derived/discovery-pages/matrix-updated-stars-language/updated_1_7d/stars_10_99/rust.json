@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 63,
-    "observations": 63,
-    "repos": 8,
-    "terms": 63
+    "components": 39,
+    "concepts": 48,
+    "observations": 48,
+    "repos": 6,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "alloy-rs/evm",
     "amazon-ion/ion-cli",
     "apache/casbin-actix-casbin-auth",
     "apache/casbin-axum-casbin",
     "apache/casbin-rust-actix-casbin",
-    "g-plane/raffia",
-    "kurrent-io/KurrentDB-Client-Rust",
     "vaporif/parry-guard"
   ]
 }

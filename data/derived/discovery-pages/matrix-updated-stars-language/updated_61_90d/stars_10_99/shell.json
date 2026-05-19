@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 23,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 11,
-    "terms": 24
+    "concepts": 20,
+    "observations": 20,
+    "repos": 10,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "Aedelon/claude-code-blueprint",
     "alchemiststudiosDOTai/harness-engineering",
@@ -22,7 +22,6 @@
     "jawwadfirdousi/agent-skills",
     "Layr-Labs/eigenda-operator-setup",
     "lxgw/LxgwWenkaiGB-Lite",
-    "nfnty/pkgbuilds",
     "nodejs/release-keys",
     "quicwg/qlog"
   ]

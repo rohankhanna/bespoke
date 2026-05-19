@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 25,
-    "terms": 27
+    "components": 84,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 27,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -31,6 +31,8 @@
     "lita-xyz/Plonky3",
     "mozilla/midir",
     "Myriad-Dreamin/typst",
+    "near/near-abi-client-rs",
+    "near/near-abi-rs",
     "shesek/electrumd",
     "sigp/xdelta3-rs",
     "tuananh/hyper-mcp",

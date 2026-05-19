@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 856,
-    "concepts": 1124,
-    "observations": 1128,
-    "repos": 102,
-    "terms": 1127
+    "components": 824,
+    "concepts": 1107,
+    "observations": 1111,
+    "repos": 100,
+    "terms": 1111
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "abseil/abseil-cpp",
@@ -54,14 +54,11 @@
     "FFmpeg/FFmpeg",
     "fmtlib/fmt",
     "FreeRDP/FreeRDP",
-    "gabime/spdlog",
     "git/git",
     "gnachman/iTerm2",
     "google/benchmark",
     "google/filament",
-    "google/flatbuffers",
     "google/sentencepiece",
-    "google/skia",
     "grpc/grpc",
     "h2o/h2o",
     "ImageMagick/ImageMagick",
@@ -97,8 +94,8 @@
     "openvinotoolkit/openvino",
     "PaddlePaddle/Paddle",
     "PointCloudLibrary/pcl",
+    "protocolbuffers/protobuf",
     "px4/px4-autopilot",
-    "pybind/pybind11",
     "qemu/qemu",
     "qmk/qmk_firmware",
     "raysan5/raylib",
@@ -115,6 +112,7 @@
     "v8/v8",
     "winsiderss/systeminformer",
     "wolfpld/tracy",
-    "yhirose/cpp-httplib"
+    "yhirose/cpp-httplib",
+    "Z3Prover/z3"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10268,
-    "concepts": 8796,
-    "observations": 8805,
-    "repos": 2303,
-    "terms": 8675
+    "components": 10272,
+    "concepts": 8814,
+    "observations": 8823,
+    "repos": 2306,
+    "terms": 8695
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -97,6 +97,7 @@
     "Alex313031/Mercury",
     "alexanderjeurissen/ranger_devicons",
     "AlexanderKoch-Koch/low_cost_robot",
+    "alexedwards/scs",
     "alexmojaki/heartrate",
     "alexpinel/Dot",
     "alexrozanski/LlamaChat",
@@ -1065,6 +1066,7 @@
     "jiangmiao/auto-pairs",
     "JiaRenChang/PSMNet",
     "jiaweizzhao/GaLore",
+    "Jigsaw-Code/Intra",
     "jik876/hifi-gan",
     "jina-ai/dalle-flow",
     "JingyunLiang/SwinIR",
@@ -1721,6 +1723,7 @@
     "psliwka/vim-smoothie",
     "puma/puma-dev",
     "punica-ai/punica",
+    "Purfview/whisper-standalone-win",
     "pushshift/api",
     "PyCQA/pydocstyle",
     "PyCQA/pyflakes",

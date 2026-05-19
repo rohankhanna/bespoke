@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 87,
+    "components": 112,
     "concepts": 28,
     "observations": 28,
-    "repos": 19,
-    "terms": 28
+    "repos": 22,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "arckoor/botan-rs",
+    "arckoor/jsonwebtoken",
     "arckoor/jsonwebtoken-botan",
     "beurdouche/nss-gk-api",
     "datafuse-extras/dtparse",
@@ -25,8 +26,10 @@
     "hermit-os/safe-mmio",
     "hyper-mcp-rs/arxiv-plugin",
     "hyper-mcp-rs/crates-io-plugin",
+    "jsleekr/skilldigest",
     "kayabaNerve/monero-oxide",
     "MaterializeInc/duckdb-rs",
+    "mupozg823/codelens-mcp-plugin",
     "netdur/llama_cpp_rust",
     "PrimeIntellect-ai/router",
     "prisma/cuid-rust",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 408,
+    "components": 410,
     "concepts": 429,
     "observations": 432,
-    "repos": 166,
+    "repos": 167,
     "terms": 425
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
@@ -104,6 +104,7 @@
     "gogama/httpx",
     "gogama/incite",
     "google/gnostic-go-generator",
+    "google/gnostic-models",
     "goradd/html5tag",
     "gosimple/unidecode",
     "hertz-contrib/casbin",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 108,
-    "concepts": 54,
-    "observations": 54,
-    "repos": 23,
-    "terms": 54
+    "components": 115,
+    "concepts": 63,
+    "observations": 63,
+    "repos": 25,
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "alloy-rs/op-alloy",
@@ -29,11 +29,13 @@
     "filecoin-project/rust-filecoin-proofs-api",
     "fortanix/rust-mbedtls",
     "googlefonts/shaperglot",
+    "hermit-os/hermit-rs-template",
     "jasonjmcghee/ron-lsp",
     "libp2p/if-watch",
     "microsoft/tracing-etw",
     "nebelgrau77/airsniffer-esp32c6",
     "psmux/psnet",
+    "psmux/Tmux-Plugin-Panel",
     "raymondshe/matchengine-raft",
     "sigp/ethereum_hashing",
     "Turbo87/flat-projection-rs"

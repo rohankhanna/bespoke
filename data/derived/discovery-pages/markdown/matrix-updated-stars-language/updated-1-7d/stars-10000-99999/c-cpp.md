@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-18T08:07:10.522070+00:00`
+Generated at: `2026-05-19T05:53:33.318365+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 4
-- terms: 45
-- components: 51
-- concepts: 45
-- observations: 45
+- terms: 41
+- components: 31
+- concepts: 41
+- observations: 41
 
 ## Static behavior
 
@@ -26,9 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14659 | 2026-05-16T13:00:00Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
-| [argotorg/solidity](https://github.com/argotorg/solidity) | 25636 | 2026-05-16T12:05:33Z | C/C++ | Infrastructure/tooling | 11 | 5 | 11 | 11 |
-| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 49803 | 2026-05-15T12:03:18Z | C/C++ | Infrastructure/tooling | 10 | 25 | 10 | 10 |
+| [apache/brpc](https://github.com/apache/brpc) | 17506 | 2026-05-18T02:18:01Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 24462 | 2026-05-18T00:38:01Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |
+| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14663 | 2026-05-16T13:00:00Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [obsproject/obs-studio](https://github.com/obsproject/obs-studio) | 72446 | 2026-05-14T01:22:20Z | C/C++ | Infrastructure/tooling | 19 | 17 | 19 | 19 |
 
 ## Repos sorted by stars
@@ -36,6 +36,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [obsproject/obs-studio](https://github.com/obsproject/obs-studio) | 72446 | 2026-05-14T01:22:20Z | C/C++ | Infrastructure/tooling | 19 | 17 | 19 | 19 |
-| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 49803 | 2026-05-15T12:03:18Z | C/C++ | Infrastructure/tooling | 10 | 25 | 10 | 10 |
-| [argotorg/solidity](https://github.com/argotorg/solidity) | 25636 | 2026-05-16T12:05:33Z | C/C++ | Infrastructure/tooling | 11 | 5 | 11 | 11 |
-| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14659 | 2026-05-16T13:00:00Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 24462 | 2026-05-18T00:38:01Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |
+| [apache/brpc](https://github.com/apache/brpc) | 17506 | 2026-05-18T02:18:01Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14663 | 2026-05-16T13:00:00Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |

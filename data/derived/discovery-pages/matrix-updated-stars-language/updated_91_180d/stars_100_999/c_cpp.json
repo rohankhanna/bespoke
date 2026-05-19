@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 187,
-    "concepts": 286,
-    "observations": 287,
+    "components": 178,
+    "concepts": 283,
+    "observations": 284,
     "repos": 68,
-    "terms": 281
+    "terms": 278
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "angr/vex",
     "appelmar/gdalcubes",
     "appwrite/playground-for-flutter",
     "Ar-Ray-code/YOLOX-ROS",
+    "arminbiere/aiger",
     "ashawkey/cubvh",
     "avaneev/lzav",
     "avaneev/prvhash",
@@ -57,7 +58,6 @@
     "martinmoene/lest",
     "mengyao/Complete-Striped-Smith-Waterman-Library",
     "mit-han-lab/Block-Sparse-Attention",
-    "mit-han-lab/flash-moba",
     "naelstrof/slop",
     "nagisa/rust_tracy_client",
     "neovim/libvterm",

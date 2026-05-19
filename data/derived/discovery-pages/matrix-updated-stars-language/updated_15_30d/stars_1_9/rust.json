@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 197,
-    "concepts": 121,
-    "observations": 122,
+    "components": 188,
+    "concepts": 120,
+    "observations": 121,
     "repos": 33,
-    "terms": 123
+    "terms": 122
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "black-desk/djotfmt",
     "bnb-chain/reth-bsc-triedb",
@@ -24,7 +24,6 @@
     "decibri/decibri",
     "Dicklesworthstone/franken_agent_detection",
     "eikarna/hermes-rs",
-    "EspressoSystems/espresso-example-l2",
     "EspressoSystems/tide-disco",
     "eth-act/ere-guests",
     "facebookexperimental/cxx",
@@ -41,6 +40,7 @@
     "juharris/optify",
     "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
     "ldclabs/ic-cose",
+    "open-telemetry/opentelemetry-weaver-examples",
     "oxc-project/oxc-index-vec",
     "snowflakedb/universal-driver",
     "sp1-patches/RustCrypto-hashes",

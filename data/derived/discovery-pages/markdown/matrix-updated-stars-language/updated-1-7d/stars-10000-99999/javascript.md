@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-05-18T08:07:10.522070+00:00`
+Generated at: `2026-05-19T05:53:33.318365+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,12 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mui/material-ui](https://github.com/mui/material-ui) | 98353 | 2026-05-16T12:05:48Z | JavaScript | Infrastructure/tooling | 12 | 95 | 12 | 12 |
-| [browserslist/browserslist](https://github.com/browserslist/browserslist) | 13531 | 2026-05-15T10:08:04Z | JavaScript | Infrastructure/tooling | 2 | 25 | 2 | 2 |
+| [mui/material-ui](https://github.com/mui/material-ui) | 98355 | 2026-05-16T12:05:48Z | JavaScript | Infrastructure/tooling | 12 | 95 | 12 | 12 |
+| [browserslist/browserslist](https://github.com/browserslist/browserslist) | 13532 | 2026-05-15T10:08:04Z | JavaScript | Infrastructure/tooling | 2 | 25 | 2 | 2 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mui/material-ui](https://github.com/mui/material-ui) | 98353 | 2026-05-16T12:05:48Z | JavaScript | Infrastructure/tooling | 12 | 95 | 12 | 12 |
-| [browserslist/browserslist](https://github.com/browserslist/browserslist) | 13531 | 2026-05-15T10:08:04Z | JavaScript | Infrastructure/tooling | 2 | 25 | 2 | 2 |
+| [mui/material-ui](https://github.com/mui/material-ui) | 98355 | 2026-05-16T12:05:48Z | JavaScript | Infrastructure/tooling | 12 | 95 | 12 | 12 |
+| [browserslist/browserslist](https://github.com/browserslist/browserslist) | 13532 | 2026-05-15T10:08:04Z | JavaScript | Infrastructure/tooling | 2 | 25 | 2 | 2 |

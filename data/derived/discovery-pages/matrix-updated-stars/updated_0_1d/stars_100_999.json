@@ -1,32 +1,52 @@
 {
   "counts": {
-    "components": 195,
-    "concepts": 129,
-    "observations": 129,
-    "repos": 15,
-    "terms": 129
+    "components": 498,
+    "concepts": 272,
+    "observations": 272,
+    "repos": 35,
+    "terms": 272
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
+    "a2aproject/a2a-js",
     "AI-Hypercomputer/maxdiffusion",
-    "Ai00-X/ai00_server",
+    "antvis/GPT-Vis",
+    "apalache-mc/apalache",
+    "aristoteleo/PantheonOS",
     "aws-cloudformation/cfn-lint-visual-studio-code",
+    "bazel-contrib/rules_jvm_external",
+    "bazel-contrib/rules_kotlin",
     "ChristopherHX/runner.server",
     "Comfy-Org/comfy-cli",
     "confluentinc/librdkafka",
-    "digitalocean/openapi",
+    "eclipse-tm4e/tm4e",
+    "eclipse-wildwebdeveloper/wildwebdeveloper",
+    "electron/packager",
     "fsprojects/FSharp.Data.GraphQL",
+    "gbionics/adam",
     "GDevelopApp/GDevelop-extensions",
+    "google-deepmind/xmanager",
+    "googlefonts/ufo2ft",
+    "hexabot-ai/Hexabot",
+    "ipsilon/evmone",
+    "Jamorim-esss/pytest-rich",
     "karafka/rdkafka-ruby",
+    "ldproxy/ldproxy",
     "matter-js/matter.js",
     "mightyiam/eslint-config-love",
-    "pyrtlsdr/pyrtlsdr",
-    "servo/stylo"
+    "NCAS-CMS/pyfive",
+    "scverse/rapids-singlecell",
+    "servo/stylo",
+    "SpecterOps/AzureHound",
+    "spring-projects/spring-tools",
+    "stx-labs/stacks.js",
+    "tox-dev/filelock",
+    "unplugin/unplugin-imagemin"
   ]
 }

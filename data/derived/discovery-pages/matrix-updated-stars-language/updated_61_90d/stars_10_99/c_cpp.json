@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 90,
-    "concepts": 100,
-    "observations": 101,
-    "repos": 34,
-    "terms": 100
+    "components": 72,
+    "concepts": 91,
+    "observations": 91,
+    "repos": 33,
+    "terms": 91
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "accabog/MedianFilter",
     "adamyaxley/Unformat",
+    "AFD-Illinois/ebhlight",
     "aseprite/clip",
     "aseprite/observable",
-    "atsushieno/cmidi2",
     "cisco/libacvp",
     "COMBINE-lab/cuttlefish",
     "dacap/observable",
@@ -44,7 +44,6 @@
     "onicai/llama_cpp_canister",
     "RekGRpth/pg_task",
     "smuellerDD/acvpparser",
-    "tlaplus-community/tree-sitter-tlaplus",
     "undreamai/LlamaLib",
     "VeriSilicon/tflite-vx-delegate",
     "vincentbernat/vbeterm"

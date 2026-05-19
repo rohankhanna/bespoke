@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 206,
-    "concepts": 119,
-    "observations": 119,
-    "repos": 46,
-    "terms": 133
+    "components": 202,
+    "concepts": 126,
+    "observations": 126,
+    "repos": 43,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
-    "adaumann/speckit-preset-fiction-book-writing",
     "andriykohut/pdm-readiness",
     "arielagor/jetbrains-mono-hebrew",
     "astral-sh/versions",
@@ -25,20 +24,17 @@
     "beneadie/DeepDog_1",
     "caesar0301/soothe",
     "cafitac/hermit-agent",
-    "cjtruheart/abundance-codex",
     "compiler-research/cppyy",
     "conda-forge/threadpoolctl-feedstock",
     "danielrosehill/LLM-Council-Template",
     "demonatic/flash-attention",
     "dreamiurg/peakbagger-cli",
     "eea/eea-website-backend",
-    "etanhey/brainlayer",
     "flagos-ai/Megatron-LM-FL",
     "flagos-ai/TransformerEngine-FL",
     "flexcyon/docs-en",
     "floxym/financial-chat",
     "frank-syncmarket/skills",
-    "gibdd-dps/prizolov-agent-os",
     "kalavai-net/kube-watcher",
     "meridianlabs-ai/inspect_harbor",
     "mlcommons/submissions_algorithms",
@@ -55,6 +51,7 @@
     "rrsaldanha/burp-mcp-agents",
     "scaleway/serverless-api-framework-python",
     "TJC-LP/sanzaru",
+    "triton-inference-server/TensorRT-LLM",
     "UnknownPlatypus/djangofmt-pre-commit",
     "usdot-fhwa-stol/carma-config",
     "usdot-fhwa-stol/cdasim-config",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 157,
-    "concepts": 145,
-    "observations": 146,
-    "repos": 19,
-    "terms": 143
+    "components": 117,
+    "concepts": 125,
+    "observations": 126,
+    "repos": 17,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "apache/casbin-Casbin.NET",
     "babashka/babashka",
     "beam-community/elixir-companies",
-    "benchflow-ai/skillsbench",
-    "clj-kondo/clj-kondo",
-    "datalevin/datalevin",
     "elixir-grpc/grpc",
-    "firebase/flutterfire",
     "lightning/bolts",
     "litedb-org/LiteDB",
     "lumen-oss/rocks.nvim",
@@ -30,8 +26,10 @@
     "nushell/awesome-nu",
     "nvim-tree/nvim-web-devicons",
     "nvimdev/lspsaga.nvim",
-    "okd-project/okd",
     "opentk/opentk",
-    "standardrb/standard"
+    "preservim/tagbar",
+    "seancorfield/honeysql",
+    "standardrb/standard",
+    "TryGhost/node-sqlite3"
   ]
 }

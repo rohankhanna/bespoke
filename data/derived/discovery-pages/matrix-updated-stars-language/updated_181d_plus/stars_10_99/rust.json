@@ -3,8 +3,8 @@
     "components": 501,
     "concepts": 377,
     "observations": 380,
-    "repos": 190,
-    "terms": 370
+    "repos": 189,
+    "terms": 371
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "0xPlaygrounds/rig-onchain-kit",
     "16arpi/meteo-tui",
@@ -30,7 +30,6 @@
     "arkworks-rs/spartan",
     "Arnavion/dbus-pure",
     "asaaki/opentelemetry-tide",
-    "asafigan/pdfium_rs",
     "asg017/sqlite-fastrand",
     "ashvardanian/HashEvals",
     "axodotdev/axolotlsay",

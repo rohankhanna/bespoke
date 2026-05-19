@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 30,
-    "concepts": 271,
-    "observations": 271,
-    "repos": 110,
-    "terms": 262
+    "concepts": 283,
+    "observations": 283,
+    "repos": 111,
+    "terms": 274
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "0xAX/erlang-bookmarks",
@@ -95,6 +95,7 @@
     "opentracing/specification",
     "phracker/MacOSX-SDKs",
     "promises-aplus/promises-spec",
+    "Purfview/whisper-standalone-win",
     "QingyongHu/SoTA-Point-Cloud",
     "r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets",
     "ray-project/ray-llm",

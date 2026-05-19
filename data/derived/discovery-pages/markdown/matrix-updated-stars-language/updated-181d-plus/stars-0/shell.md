@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Shell
 
-Generated at: `2026-05-18T08:07:10.522070+00:00`
+Generated at: `2026-05-19T05:53:33.318365+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
-- terms: 13
-- components: 22
-- concepts: 13
-- observations: 13
+- repos: 9
+- terms: 15
+- components: 27
+- concepts: 15
+- observations: 15
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [rose-pine/homebrew-tap](https://github.com/rose-pine/homebrew-tap) | 0 | 2025-11-19T19:53:51Z | Shell | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [danielrosehill/batch-claudemd-repo-creator](https://github.com/danielrosehill/Batch-ClaudeMD-Repo-Creator) | 0 | 2025-10-26T14:17:07Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [Danau5tin/terminal-bench-fork](https://github.com/Danau5tin/terminal-bench-fork) | 0 | 2025-09-16T18:04:50Z | Shell | CLI | 6 | 13 | 6 | 6 |
 | [JavaHello/javahello.github.io](https://github.com/JavaHello/javahello.github.io) | 0 | 2025-01-14T01:49:52Z | Shell | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -39,6 +40,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [rose-pine/homebrew-tap](https://github.com/rose-pine/homebrew-tap) | 0 | 2025-11-19T19:53:51Z | Shell | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [danielrosehill/batch-claudemd-repo-creator](https://github.com/danielrosehill/Batch-ClaudeMD-Repo-Creator) | 0 | 2025-10-26T14:17:07Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [Danau5tin/terminal-bench-fork](https://github.com/Danau5tin/terminal-bench-fork) | 0 | 2025-09-16T18:04:50Z | Shell | CLI | 6 | 13 | 6 | 6 |
 | [JavaHello/javahello.github.io](https://github.com/JavaHello/javahello.github.io) | 0 | 2025-01-14T01:49:52Z | Shell | Infrastructure/tooling | 1 | 4 | 1 | 1 |

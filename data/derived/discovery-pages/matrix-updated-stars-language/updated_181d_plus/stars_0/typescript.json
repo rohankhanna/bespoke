@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 244,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 15,
-    "terms": 45
+    "components": 277,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 16,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "alexgorbatchev/typescript-transform-react-jsx-source",
     "cryptonomic/conseiljs-ledgersigner",
     "featherbread/hypcast-v1",
+    "flageval-baai/LRM-Eval",
     "forcedotcom/change-case-management",
     "Freed-Wu/coc-write-good",
     "kakajun/simple-panzoom",

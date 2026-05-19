@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 229,
+    "components": 209,
     "concepts": 41,
     "observations": 41,
-    "repos": 5,
-    "terms": 51
+    "repos": 4,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
-    "affaan-m/everything-claude-code",
     "axios/axios",
     "facebook/react",
     "mrdoob/three.js",

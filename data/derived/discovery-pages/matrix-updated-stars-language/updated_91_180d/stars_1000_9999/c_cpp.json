@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 243,
-    "concepts": 321,
-    "observations": 321,
-    "repos": 56,
-    "terms": 317
+    "components": 245,
+    "concepts": 328,
+    "observations": 328,
+    "repos": 58,
+    "terms": 324
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "adafruit/Adafruit_NeoPixel",
     "AdAway/AdAway",
@@ -51,6 +51,7 @@
     "martinus/unordered_dense",
     "MaskRay/ccls",
     "MIT-SPARK/TEASER-plusplus",
+    "mmorise/World",
     "naelstrof/maim",
     "nfrechette/acl",
     "NixOS/patchelf",
@@ -64,6 +65,7 @@
     "RobertBeckebans/RBDOOM-3-BFG",
     "rurban/smhasher",
     "sammycage/lunasvg",
+    "svenstaro/rofi-calc",
     "sysstat/sysstat",
     "TEN-framework/ten-vad",
     "thestk/rtmidi",

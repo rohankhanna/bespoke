@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 170,
-    "concepts": 140,
-    "observations": 141,
-    "repos": 26,
-    "terms": 140
+    "components": 180,
+    "concepts": 151,
+    "observations": 152,
+    "repos": 25,
+    "terms": 151
   },
   "facet_version": 1,
   "filters": {
@@ -12,33 +12,32 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "atsushieno/augene-ng",
     "atsushieno/compose-audio-controls",
     "atsushieno/mugene-ng",
     "atsushieno/resident-midi-keyboard",
+    "cginternals/cpplocate",
     "Cle2ment/CherryStudio_themes",
-    "CuatroElixir/spear",
-    "cucumber/cucumber-js-examples",
     "dinosaure/blaze",
+    "dwyl/mvp",
     "Elyahu41/KosherSwift",
     "FactoryXCode/MfPack",
     "FreneticLLC/FreneticGameEngine",
+    "geocompx/docker",
     "HDFGroup/hdf5_plugins",
-    "helix-toolkit/helix-toolkit-nex",
     "jelly-beam/rebar3_ex_doc",
     "ludwig-ai/ludwig-docs",
-    "mit-plv/coqutil",
     "mrcjkb/neotest-haskell",
     "ocaml-tracing/ocaml-opentelemetry",
     "ocaml-tracing/ocaml-trace",
     "rcasia/neotest-java",
     "ros2/example_interfaces",
-    "Shopify/rbi-central",
     "siketyan/intellij-rustowl",
     "TEN-framework/portal",
-    "tinted-theming/tinted-xresources"
+    "tinted-theming/tinted-xresources",
+    "UnknownPlatypus/djangofmt"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1901,
-    "concepts": 397,
-    "observations": 397,
+    "components": 1966,
+    "concepts": 415,
+    "observations": 415,
     "repos": 71,
-    "terms": 396
+    "terms": 414
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "acss-io/atomizer",
     "actions/javascript-action",
@@ -44,7 +44,6 @@
     "GoogleChromeLabs/browser-fs-access",
     "GoogleChromeLabs/ProjectVisBug",
     "hotoo/pinyin",
-    "hughsk/flat",
     "igorshubovych/markdownlint-cli",
     "isaacs/minimatch",
     "istanbuljs/istanbuljs",
@@ -78,6 +77,7 @@
     "styled-components/polished",
     "tc39/agendas",
     "tomas/needle",
+    "vueform/vueform",
     "webpack/css-loader",
     "webpack/mini-css-extract-plugin",
     "webpack/postcss-loader",

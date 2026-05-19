@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 642,
-    "concepts": 403,
-    "observations": 404,
-    "repos": 89,
-    "terms": 411
+    "components": 619,
+    "concepts": 398,
+    "observations": 399,
+    "repos": 85,
+    "terms": 397
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -40,7 +40,6 @@
     "celo-org/celo-threshold-bls-rs",
     "chrisjsewell/markdown-it-pyrs",
     "ClickHouse/clickhousectl",
-    "cloudllm-ai/mentisdb",
     "datachainlab/lcp",
     "datafusion-contrib/orc-rust",
     "davidhozic/mujoco-rs",
@@ -93,15 +92,12 @@
     "succinctlabs/sp1-cluster",
     "Systemcluster/kitoken",
     "tofay/rustls-openssl",
-    "tombelieber/claude-view",
     "tracel-ai/burn-onnx",
     "tracel-ai/cubek",
     "typst/typst-assets",
     "tyrypyrking/egui-ash",
     "unrs/unrs-resolver",
     "urschrei/rdp",
-    "watchexec/clearscreen",
-    "watchexec/process-wrap",
     "zcash/pasta_curves"
   ]
 }

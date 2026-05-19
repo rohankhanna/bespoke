@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1059,
-    "concepts": 1092,
-    "observations": 1093,
-    "repos": 188,
-    "terms": 1086
+    "components": 1069,
+    "concepts": 1081,
+    "observations": 1082,
+    "repos": 189,
+    "terms": 1075
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "AcademySoftwareFoundation/Imath",
@@ -20,6 +20,7 @@
     "actboy168/bee.lua",
     "acts-project/acts",
     "Alpine-DAV/ascent",
+    "alsa-project/alsa-lib",
     "amerkoleci/joltc",
     "ampl/mp",
     "antgroup/vsag",
@@ -46,6 +47,7 @@
     "cjlin1/libmf",
     "ClickHouse/clickhouse-cpp",
     "cloudflare/cloudflare-workers-wasm-demo",
+    "cloudwu/soluna",
     "CloverLabsAI/camoufox",
     "coin-or/Cbc",
     "coin-or/CppAD",
@@ -72,7 +74,6 @@
     "flatpak/xdg-desktop-portal",
     "flexivrobotics/flexiv_rdk",
     "freebayes/freebayes",
-    "freebsd/kyua",
     "freetype/freetype",
     "Frommi/miniz_oxide",
     "ganelson/inweb",
@@ -87,7 +88,6 @@
     "GraphBLAS/LAGraph",
     "grizzlypeak3d/tlRender",
     "hajimes/mmh3",
-    "hamcrest/OCHamcrest",
     "HazyResearch/HipKittens",
     "heiher/hev-socks5-server",
     "heiher/hev-socks5-tproxy",
@@ -125,7 +125,6 @@
     "logicalclocks/rondb",
     "LunarG/gfxreconstruct",
     "LunarG/VulkanTools",
-    "luvit/luv",
     "lxqt/qterminal",
     "lxqt/qtermwidget",
     "mapbox/geometry.hpp",
@@ -150,7 +149,7 @@
     "ofiwg/libfabric",
     "oneapi-src/level-zero",
     "onnx/optimizer",
-    "OpenLightingProject/ola",
+    "open-telemetry/opentelemetry-dotnet-instrumentation",
     "openSUSE/catatonit",
     "openSUSE/libsolv",
     "openvinotoolkit/model_server",
@@ -195,7 +194,9 @@
     "tile-ai/tilelang-ascend",
     "todbot/hidapitester",
     "trealla-prolog/trealla",
+    "triton-inference-server/core",
     "triton-inference-server/onnxruntime_backend",
+    "triton-inference-server/pytorch_backend",
     "ucscGenomeBrowser/kent",
     "Unidata/netcdf-c",
     "uxlfoundation/oneCCL",

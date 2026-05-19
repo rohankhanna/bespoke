@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 661,
-    "concepts": 74,
-    "observations": 75,
-    "repos": 8,
-    "terms": 87
+    "components": 581,
+    "concepts": 63,
+    "observations": 64,
+    "repos": 7,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "angular/angular",
     "anomalyco/opencode",
     "excalidraw/excalidraw",
-    "google-gemini/gemini-cli",
     "langgenius/dify",
     "microsoft/typescript",
     "microsoft/vscode",

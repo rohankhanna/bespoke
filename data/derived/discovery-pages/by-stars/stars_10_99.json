@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 28465,
+    "components": 28470,
     "concepts": 15189,
     "observations": 15241,
-    "repos": 5496,
-    "terms": 15190
+    "repos": 5495,
+    "terms": 15191
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -701,7 +701,6 @@
     "ArulselvanMadhavan/mini_dalle",
     "asaaki/opentelemetry-tide",
     "asaakyan/covidfact",
-    "asafigan/pdfium_rs",
     "asafschers/scoruby",
     "asaikali/spring-ai-zero-to-hero",
     "Ascend/Ascend-CI",
@@ -1091,6 +1090,7 @@
     "bozerkins/terraform-provider-dkron",
     "bpftrace/user-tools",
     "bpkg/term",
+    "bqqbarbhg/bq_websocket",
     "bqqbarbhg/spear",
     "br14n-sol/inquirer-file-selector",
     "brads3290/cclogviewer",
@@ -2316,7 +2316,6 @@
     "frotms/image_classification_pytorch",
     "fsspec/sshfs",
     "FStarLang/fstar-mode.el",
-    "fuankarion/active-speakers-context",
     "fugro-oss/g2o",
     "fumiama/MoeGoe",
     "fumiama/MoeGoe-Android",

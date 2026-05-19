@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2020,
-    "concepts": 1752,
-    "observations": 1755,
-    "repos": 159,
-    "terms": 1776
+    "components": 1920,
+    "concepts": 1654,
+    "observations": 1657,
+    "repos": 146,
+    "terms": 1661
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
-    "3b1b/manim",
     "agentscope-ai/agentscope",
     "agentscope-ai/QwenPaw",
     "agentskills/agentskills",
@@ -30,7 +29,6 @@
     "bentoml/OpenLLM",
     "BerriAI/litellm",
     "BlinkDL/RWKV-LM",
-    "browser-use/browser-use",
     "camel-ai/camel",
     "caronc/apprise",
     "celery/celery",
@@ -42,7 +40,6 @@
     "cvat-ai/cvat",
     "dagster-io/dagster",
     "datalab-to/chandra",
-    "davila7/claude-code-templates",
     "django/django",
     "DLR-RM/stable-baselines3",
     "docling-project/docling",
@@ -57,10 +54,8 @@
     "fastapi/typer",
     "FlagOpen/FlagEmbedding",
     "fossasia/visdom",
-    "GaiZhenbiao/ChuanhuChatGPT",
     "Genesis-Embodied-AI/Genesis",
     "getsentry/sentry",
-    "getzep/graphiti",
     "giampaolo/psutil",
     "google-deepmind/alphafold",
     "google/adk-python",
@@ -84,7 +79,6 @@
     "kovidgoyal/kitty",
     "kvcache-ai/ktransformers",
     "langbot-app/LangBot",
-    "langchain-ai/deepagents",
     "langchain-ai/langgraph",
     "langchain-ai/open_deep_research",
     "LibreTranslate/LibreTranslate",
@@ -93,7 +87,6 @@
     "lucidrains/vit-pytorch",
     "ManimCommunity/manim",
     "matplotlib/matplotlib",
-    "mem0ai/mem0",
     "MetaCubeX/mihomo",
     "microsoft/agent-lightning",
     "microsoft/graphrag",
@@ -120,7 +113,6 @@
     "ostris/ai-toolkit",
     "PaddlePaddle/PaddleOCR",
     "pallets/click",
-    "pandas-dev/pandas",
     "pipecat-ai/pipecat",
     "plotly/dash",
     "plotly/plotly.py",
@@ -156,7 +148,6 @@
     "sympy/sympy",
     "tensorflow/models",
     "Textualize/textual",
-    "titanwings/colleague-skill",
     "treeverse/dvc",
     "triton-inference-server/server",
     "ultralytics/ultralytics",
@@ -168,10 +159,6 @@
     "vllm-project/vllm",
     "voxel51/fiftyone",
     "wandb/wandb",
-    "wkentaro/labelme",
-    "wshobson/agents",
-    "ycm-core/YouCompleteMe",
-    "ymcui/Chinese-BERT-wwm",
-    "ymcui/Chinese-LLaMA-Alpaca"
+    "wkentaro/labelme"
   ]
 }

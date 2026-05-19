@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1326,
-    "concepts": 197,
-    "observations": 198,
-    "repos": 57,
-    "terms": 223
+    "components": 1397,
+    "concepts": 205,
+    "observations": 206,
+    "repos": 59,
+    "terms": 231
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
@@ -37,7 +37,6 @@
     "gicentre/prettier-plugin-elm",
     "gnosischain/gbc-deposit-ui",
     "Godefroy/micdrop",
-    "googleapis/google-cloud-node-core",
     "gr2m/octokit-oauth-app-now-example",
     "GreptimeTeam/greptimedb-grafana-datasource",
     "haskell-actions/setup",
@@ -47,6 +46,8 @@
     "hyparam/demos",
     "ioBroker/ioBroker.matter",
     "ipfs/ipld-explorer-components",
+    "ipikuka/rehype-highlight-code-lines",
+    "ipikuka/remark-flexible-containers",
     "jerseycheese/narraitor",
     "joshwooding/vite-plugin-react-docgen-typescript",
     "labring/fastgpt-plugin",
@@ -56,6 +57,7 @@
     "memoryhole/jjo",
     "microsoft/vscode-js-debug-companion",
     "nanostores/alpine",
+    "newrelic/opentelemetry-demo",
     "ngyewch/smile-js",
     "obi1kenobi/cargo-semver-checks-action",
     "pinecone-io/pinecone-mcp",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 40,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 3,
-    "terms": 2
+    "components": 54,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 4,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "browserslist/caniuse-lite",
     "Calcium-Ion/new-api-key-tool",
+    "digitalocean/openapi",
     "GoogleCloudPlatform/google-cloud-node-todos"
   ]
 }

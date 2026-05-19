@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 285,
-    "concepts": 437,
-    "observations": 437,
-    "repos": 106,
-    "terms": 433
+    "components": 288,
+    "concepts": 444,
+    "observations": 444,
+    "repos": 108,
+    "terms": 440
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "absadiki/pywhispercpp",
     "actionless/pikaur",
@@ -27,7 +27,6 @@
     "amd/Quark",
     "angr/angrop",
     "araffin/sbx",
-    "berkerpeksag/astor",
     "Blosc/python-blosc",
     "brentyi/jaxls",
     "BrianPugh/belay",
@@ -40,13 +39,13 @@
     "cleinc/bts",
     "csslc/PiSA-SR",
     "DanCardin/cappa",
+    "DanceTrack/DanceTrack",
     "danielward27/flowjax",
     "dask/fastparquet",
     "djcopley/ShellOracle",
     "facebookresearch/CodeGen",
     "Fitzgerald-Porthmouth-Koenigsegg/Planschrift_Project",
     "FlagOpen/RoboBrain2.5",
-    "GANWANSHUI/GaussianOcc",
     "gatecat/prjoxide",
     "Gen-Verse/Open-AgentRL",
     "gmberton/CosPlace",
@@ -58,6 +57,7 @@
     "GuiWonder/Shanggu",
     "Helsinki-NLP/Opus-MT",
     "hongyuanyu/SPAN",
+    "huawei-noah/noah-research",
     "hukkin/mdformat",
     "hustvl/Senna",
     "inducer/cgen",
@@ -67,6 +67,7 @@
     "jayleicn/moment_detr",
     "jsegov/autoresearch-win-rtx",
     "kijai/ComfyUI-DepthAnythingV2",
+    "LAION-AI/CLIP_benchmark",
     "lartpang/PySODMetrics",
     "lessw2020/Ranger21",
     "lxgw/LxgwMarkerGothic",
@@ -116,6 +117,7 @@
     "WujiangXu/A-mem-sys",
     "xlite-dev/Awesome-DiT-Inference",
     "yanring/Megatron-MoE-ModelZoo",
+    "yaroslavyaroslav/OpenAI-sublime-text",
     "YosysHQ/prjtrellis",
     "yuliangguo/3D_Lane_Synthetic_Dataset",
     "zhijian-liu/torchprofile",

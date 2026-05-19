@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 182,
-    "concepts": 117,
-    "observations": 118,
-    "repos": 32,
-    "terms": 116
+    "components": 186,
+    "concepts": 135,
+    "observations": 136,
+    "repos": 34,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
+    "ashvardanian/StringWars",
     "bet4it/udbserver",
     "blyxxyz/lexopt",
     "cormacrelf/dark-notify",
@@ -35,6 +36,7 @@
     "near/borsh-rs",
     "pdf-rs/pdf_render",
     "prisma/tiberius",
+    "rust-lang/rfcbot-rs",
     "rust-native-tls/rust-native-tls",
     "rust3ds/ctru-rs",
     "servo/rust-cssparser",

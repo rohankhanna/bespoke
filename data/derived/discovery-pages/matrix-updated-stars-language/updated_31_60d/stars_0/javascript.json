@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 148,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 6,
-    "terms": 44
+    "components": 186,
+    "concepts": 44,
+    "observations": 44,
+    "repos": 8,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "caprica/generator-vlcj",
     "danielrosehill/Israel-Alert-Map",
+    "i18next/i18next-subliminal",
     "Patrick-ring-motive/sval-rhino-gs",
     "saidudz/chat-ai",
     "stdlib-js/dstructs-struct",
-    "stdlib-js/ndarray-dtype-ctor"
+    "stdlib-js/ndarray-dtype-ctor",
+    "tornikepe/ai-chatbot"
   ]
 }

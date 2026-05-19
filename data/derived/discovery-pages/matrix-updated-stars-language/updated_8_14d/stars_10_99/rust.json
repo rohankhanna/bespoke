@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 3,
-    "observations": 3,
-    "repos": 1,
-    "terms": 3
+    "components": 17,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 3,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
-    "influxdata/datafusion-udf-wasm"
+    "g-plane/raffia",
+    "influxdata/datafusion-udf-wasm",
+    "kurrent-io/KurrentDB-Client-Rust"
   ]
 }

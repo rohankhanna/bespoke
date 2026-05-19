@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 578,
-    "concepts": 424,
-    "observations": 424,
-    "repos": 129,
-    "terms": 418
+    "components": 591,
+    "concepts": 427,
+    "observations": 427,
+    "repos": 128,
+    "terms": 421
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "0x676e67/0x676e67",
@@ -41,7 +41,6 @@
     "AlwaysNur/bookbank",
     "andrasg/matterbridge-loxone",
     "ankane/torchcodec-ruby",
-    "ansible-community/collection_bot",
     "apostrophecms/starter-kit-astro-essentials",
     "appbaseio/reactivesearch-api-docker",
     "arran4/lemmy_notify",
@@ -82,6 +81,7 @@
     "filip26/titanium-jcs",
     "filip26/titanium-rdf-canon",
     "filip26/titanium-rdf-n-quads",
+    "flagos-ai/llvm-project",
     "flinedev/customstatusline",
     "flinedev/recall",
     "gakonst/foundry",
@@ -102,9 +102,8 @@
     "lucabubi/star-history",
     "MarcCote/TextWorld",
     "marxin/mdbook-linkcheck2",
+    "mattiacolombomc/raycast-handy",
     "maxritter/pilot-shell-demo",
-    "near/near-abi-client-rs",
-    "near/near-abi-rs",
     "neuroverseos/neuroverseos-openclaw-governance",
     "newton-physics/newton-governance",
     "nikitabobko/homebrew-tap",

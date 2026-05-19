@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 4,
-    "observations": 5,
-    "repos": 2,
-    "terms": 4
+    "components": 7,
+    "concepts": 8,
+    "observations": 9,
+    "repos": 4,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
-    "datachainlab/cosmos-bsc-ibc-lcp",
-    "Saalvage/assimp"
+    "CHIP-SPV/H4I-HipBLAS",
+    "CHIP-SPV/H4I-HipFFT",
+    "CHIP-SPV/H4I-HipSOLVER",
+    "datachainlab/cosmos-bsc-ibc-lcp"
   ]
 }

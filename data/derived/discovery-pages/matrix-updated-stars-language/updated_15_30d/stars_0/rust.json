@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 10,
-    "terms": 29
+    "components": 56,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 8,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,15 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "aipurposes1587-max/weixin-agent-rs",
-    "arckoor/jsonwebtoken",
     "databendlabs/databend-base",
     "guoqingbao/candle",
     "hyper-mcp-rs/context7-plugin",
     "hyper-mcp-rs/defuddle-plugin",
-    "jsleekr/skilldigest",
     "lakekeeper/iceberg-rust",
-    "mupozg823/codelens-mcp-plugin",
-    "squidowl/iced"
+    "squidowl/iced",
+    "UnknownPlatypus/markup_fmt"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 108,
-    "observations": 108,
-    "repos": 13,
-    "terms": 108
+    "components": 29,
+    "concepts": 116,
+    "observations": 116,
+    "repos": 12,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "BradyFU/Awesome-Multimodal-Large-Language-Models",
+    "brave/brave-browser",
     "fffaraz/awesome-cpp",
     "firstcontributions/first-contributions",
     "google/material-design-icons",
     "Loyalsoldier/v2ray-rules-dat",
     "matiassingers/awesome-readme",
     "microsoft/winget-pkgs",
-    "multica-ai/andrej-karpathy-skills",
     "obsidianmd/obsidian-releases",
-    "othneildrew/Best-README-Template",
     "punkpeye/awesome-mcp-servers",
     "tc39/proposals",
     "veggiemonk/awesome-docker"

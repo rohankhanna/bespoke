@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 39,
-    "concepts": 42,
-    "observations": 42,
+    "components": 40,
+    "concepts": 43,
+    "observations": 43,
     "repos": 3,
-    "terms": 42
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "Comfy-Org/ComfyUI",
     "langchain-ai/langchain",

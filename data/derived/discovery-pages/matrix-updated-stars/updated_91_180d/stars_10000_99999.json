@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 923,
-    "concepts": 577,
-    "observations": 581,
-    "repos": 90,
-    "terms": 573
+    "components": 883,
+    "concepts": 563,
+    "observations": 567,
+    "repos": 87,
+    "terms": 559
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -52,7 +52,6 @@
     "horovod/horovod",
     "i3/i3",
     "IdreesInc/Monocraft",
-    "inversify/InversifyJS",
     "JaidedAI/EasyOCR",
     "jaredpalmer/tsdx",
     "jsvine/pdfplumber",
@@ -71,7 +70,6 @@
     "MoonshotAI/Kimi-K2",
     "mozilla/readability",
     "muesli/duf",
-    "nari-labs/dia",
     "Netflix/Hystrix",
     "NVlabs/instant-ngp",
     "PaddlePaddle/PaddleNLP",
@@ -88,7 +86,6 @@
     "spf13/viper",
     "Stability-AI/generative-models",
     "streamich/react-use",
-    "SYSTRAN/faster-whisper",
     "tachyons-css/tachyons",
     "Tencent-Hunyuan/HunyuanVideo",
     "toml-lang/toml",

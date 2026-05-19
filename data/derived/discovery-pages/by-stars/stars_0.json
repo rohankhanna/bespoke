@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2885,
-    "concepts": 1206,
-    "observations": 1210,
-    "repos": 909,
-    "terms": 1237
+    "components": 2891,
+    "concepts": 1207,
+    "observations": 1211,
+    "repos": 910,
+    "terms": 1238
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "0aids/imnodes",
@@ -459,6 +459,7 @@
     "doc-doc/hcrn-bert",
     "dom8509/hugo-PaperMod",
     "dop-amin/ches2025-slothy-tutorial",
+    "drmingdrmer/databend-meta",
     "drmingdrmer/display-more",
     "DSaurus/MVDream",
     "dstein64/media",

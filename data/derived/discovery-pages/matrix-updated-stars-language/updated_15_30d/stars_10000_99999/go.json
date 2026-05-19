@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1466,
-    "concepts": 1383,
-    "observations": 1387,
-    "repos": 111,
-    "terms": 1371
+    "components": 1449,
+    "concepts": 1357,
+    "observations": 1363,
+    "repos": 107,
+    "terms": 1348
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "99designs/gqlgen",
     "a-h/templ",
     "AdguardTeam/AdGuardHome",
-    "ahmetb/kubectx",
     "anchore/grype",
     "apernet/hysteria",
     "aquasecurity/trivy",
@@ -31,8 +30,7 @@
     "caddyserver/caddy",
     "centrifugal/centrifugo",
     "cert-manager/cert-manager",
-    "charmbracelet/crush",
-    "charmbracelet/lipgloss",
+    "cilium/cilium",
     "cli/cli",
     "cloudflare/cloudflared",
     "cloudwego/eino",
@@ -78,6 +76,7 @@
     "hashicorp/nomad",
     "hashicorp/terraform",
     "hashicorp/vault",
+    "helm/helm",
     "ipfs/kubo",
     "istio/istio",
     "jaegertracing/jaeger",
@@ -107,7 +106,6 @@
     "pulumi/pulumi",
     "quic-go/quic-go",
     "rclone/rclone",
-    "router-for-me/cliproxyapi",
     "rqlite/rqlite",
     "rs/zerolog",
     "SagerNet/sing-box",
@@ -119,11 +117,9 @@
     "syncthing/syncthing",
     "thanos-io/thanos",
     "trufflesecurity/trufflehog",
-    "urfave/cli",
     "v2fly/v2ray-core",
     "valyala/fasthttp",
     "VictoriaMetrics/VictoriaMetrics",
-    "wader/fq",
     "XTLS/Xray-core"
   ]
 }

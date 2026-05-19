@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 76,
-    "observations": 76,
-    "repos": 6,
-    "terms": 76
+    "components": 15,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 2,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "bazel-contrib/bazel-gazelle",
-    "crazy-max/diun",
-    "gookit/goutil",
-    "gookit/validate",
-    "letsencrypt/boulder",
-    "open-telemetry/opentelemetry-operator"
+    "version-fox/vfox"
   ]
 }

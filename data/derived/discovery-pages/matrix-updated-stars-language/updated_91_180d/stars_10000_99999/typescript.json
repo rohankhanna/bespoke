@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 264,
-    "concepts": 57,
-    "observations": 58,
-    "repos": 10,
-    "terms": 57
+    "components": 229,
+    "concepts": 53,
+    "observations": 54,
+    "repos": 9,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-19T05:53:33.318365+00:00",
   "repo_ids": [
     "blitz-js/blitz",
     "BuilderIO/mitosis",
-    "inversify/InversifyJS",
     "jaredpalmer/tsdx",
     "linsa-io/linsa",
     "microsoft/vscode-extension-samples",
