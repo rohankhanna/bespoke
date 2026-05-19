@@ -65,13 +65,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "github-linguist/linguist",
-      "target": "codespaces/badge.svg",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "github-linguist/linguist",
@@ -177,7 +170,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-18T21:57:01.901862+00:00",
+  "fetched_at": "2026-05-19T02:04:42.637403+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -206,21 +199,16 @@
     "html_url": "https://github.com/github-linguist/linguist",
     "language": "Ruby",
     "pushed_at": "2026-05-18T16:31:47Z",
-    "stargazers_count": 13473,
+    "stargazers_count": 13475,
     "topics": [
       "language-grammars",
       "language-statistics",
       "linguistic",
       "syntax-highlighting"
     ],
-    "updated_at": "2026-05-18T16:41:50Z"
+    "updated_at": "2026-05-19T01:45:02Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "codespaces/badge.svg",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "github/linguist",

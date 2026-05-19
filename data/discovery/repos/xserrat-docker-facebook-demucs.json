@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xserrat/docker-facebook-demucs",
+      "target": "demucs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xserrat/docker-facebook-demucs",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xserrat/docker-facebook-demucs",
+      "target": "facebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xserrat/docker-facebook-demucs",
+      "target": "facebook-demucs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xserrat/docker-facebook-demucs",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xserrat/docker-facebook-demucs",
+      "target": "music",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-19T02:20:38.632734+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2990
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1407
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dockerized Facebook Demucs library to make it easy its execution",
+    "fork": false,
+    "full_name": "xserrat/docker-facebook-demucs",
+    "html_url": "https://github.com/xserrat/docker-facebook-demucs",
+    "language": "Makefile",
+    "pushed_at": "2024-11-24T18:41:07Z",
+    "stargazers_count": 195,
+    "topics": [
+      "demucs",
+      "docker",
+      "facebook",
+      "facebook-demucs",
+      "machine-learning",
+      "music"
+    ],
+    "updated_at": "2026-05-05T22:13:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository dockerizes [Demucs](https://github.com/adefossez/demucs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "demucs"
+    },
+    {
+      "context_snippet": "This repository dockerizes [Demucs](https://github.com/adefossez/demucs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "This repository dockerizes [Demucs](https://github.com/adefossez/demucs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "facebook"
+    },
+    {
+      "context_snippet": "This repository dockerizes [Demucs](https://github.com/adefossez/demucs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "facebook-demucs"
+    },
+    {
+      "context_snippet": "This repository dockerizes [Demucs](https://github.com/adefossez/demucs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This repository dockerizes [Demucs](https://github.com/adefossez/demucs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music"
+    }
+  ]
+}

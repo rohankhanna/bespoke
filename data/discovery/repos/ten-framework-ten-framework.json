@@ -115,13 +115,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "TEN-framework/ten-framework",
-      "target": "codespaces/badge.svg",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "TEN-framework/ten-framework",
@@ -353,7 +346,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-18T22:08:51.880767+00:00",
+  "fetched_at": "2026-05-19T02:49:52.328805+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -417,11 +410,6 @@
     "updated_at": "2026-05-18T20:08:37Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "codespaces/badge.svg",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "ten-framework/ten-agent",

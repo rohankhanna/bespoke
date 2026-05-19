@@ -53,13 +53,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "python-eel/Eel",
-      "target": "chrisknott/eel",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "python-eel/Eel",
@@ -144,12 +137,8 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-18T22:08:45.164938+00:00",
+  "fetched_at": "2026-05-19T02:49:42.073357+00:00",
   "fetched_files": [
-    {
-      "path": "README.md",
-      "size": 16827
-    },
     {
       "path": "requirements.txt",
       "size": 163
@@ -183,13 +172,7 @@
     ],
     "updated_at": "2026-05-17T14:16:39Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "chrisknott/eel",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "\"CodeQL\"",
@@ -210,7 +193,7 @@
       "term": "Test Eel"
     },
     {
-      "context_snippet": "> [!CAUTION]",
+      "context_snippet": "bottle<1.0.0 bottle-websocket<1.0.0 gevent gevent-websocket<1.0.0 greenlet>=1.0.0,<2.0.0 pyparsing>=3.0.0,<4.0.0 typing-extensions>=4.3.0 importlib_resources>=1.3",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "hacktoberfest"

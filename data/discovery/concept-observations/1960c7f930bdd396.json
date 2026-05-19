@@ -92,7 +92,7 @@
   "normalized_form": "quantization",
   "observation_id": "1960c7f930bdd396",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-18T18:44:05.166065+00:00",
+  "observed_at": "2026-05-19T00:44:50.346858+00:00",
   "observed_text": "quantization",
   "source_context_snippet": "[![CI](https://github.com/SYSTRAN/faster-whisper/workflows/CI/badge.svg)](https://github.com/SYSTRAN/faster-whisper/actions?query=workflow%3ACI) [![PyPI version](https://badge.fury.io/py/faster-whisper.svg)](https://badge.fury.io/py/faster-whisper)",
   "source_file": null,

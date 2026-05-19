@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "facebook-demucs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xserrat/docker-facebook-demucs",
+      "status": "candidate-context",
+      "text": "Dockerized Facebook Demucs library to make it easy its execution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xserrat/docker-facebook-demucs",
+      "status": "candidate-context",
+      "text": "This repository dockerizes [Demucs](https://github.com/adefossez/demucs)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xserrat/docker-facebook-demucs",
+      "status": "candidate",
+      "text": "This repository dockerizes [Demucs](https://github.com/adefossez/demucs)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "facebook-demucs",
+  "concept_id": "facebook-demucs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T00:44:50.346858+00:00",
+      "source_file": null,
+      "source_repo": "xserrat/docker-facebook-demucs"
+    }
+  ],
+  "first_seen_at": "2026-05-19T00:44:50.346858+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-19T00:44:50.346858+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "facebook-demucs",
+      "sense_id": "facebook-demucs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,250 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "guillaumekln/faster-whisper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "subtitleedit/subtitleedit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "uruworks/terosubtitler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "oov/aviutl_subtitler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "ctranslate2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "diarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "faster-whisper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "speaker-diarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "speech-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "subtitles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "transcriber",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "vocal-extractor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "whisper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "whisper-faster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "whisperx",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-19T02:20:33.958676+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4076
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Whisper & Faster-Whisper standalone executables for those who don't want to bother with Python. ",
+    "fork": false,
+    "full_name": "Purfview/whisper-standalone-win",
+    "html_url": "https://github.com/Purfview/whisper-standalone-win",
+    "language": null,
+    "pushed_at": "2025-11-07T19:21:55Z",
+    "stargazers_count": 3035,
+    "topics": [
+      "asr",
+      "ctranslate2",
+      "diarization",
+      "faster-whisper",
+      "openai",
+      "speaker-diarization",
+      "speech-recognition",
+      "speech-to-text",
+      "subtitles",
+      "transcriber",
+      "uvr",
+      "vocal-extractor",
+      "whisper",
+      "whisper-faster",
+      "whisperx"
+    ],
+    "updated_at": "2026-05-17T22:28:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guillaumekln/faster-whisper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oov/aviutl_subtitler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "subtitleedit/subtitleedit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "uruworks/terosubtitler",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2) [![\"Buy Me A Coffee\"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/purfview)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ctranslate2"
+    },
+    {
+      "context_snippet": "[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2) [![\"Buy Me A Coffee\"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/purfview)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diarization"
+    },
+    {
+      "context_snippet": "[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2) [![\"Buy Me A Coffee\"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/purfview)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "faster-whisper"
+    },
+    {
+      "context_snippet": "[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2) [![\"Buy Me A Coffee\"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/purfview)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-diarization"
+    },
+    {
+      "context_snippet": "[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2) [![\"Buy Me A Coffee\"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/purfview)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2) [![\"Buy Me A Coffee\"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/purfview)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text"
+    },
+    {
+      "context_snippet": "[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2) [![\"Buy Me A Coffee\"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/purfview)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subtitles"
+    },
+    {
+      "context_snippet": "[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2) [![\"Buy Me A Coffee\"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/purfview)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transcriber"
+    },
+    {
+      "context_snippet": "[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2) [![\"Buy Me A Coffee\"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/purfview)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocal-extractor"
+    },
+    {
+      "context_snippet": "[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2) [![\"Buy Me A Coffee\"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/purfview)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whisper"
+    },
+    {
+      "context_snippet": "[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2) [![\"Buy Me A Coffee\"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/purfview)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whisper-faster"
+    },
+    {
+      "context_snippet": "[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2) [![\"Buy Me A Coffee\"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/purfview)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whisperx"
+    }
+  ]
+}

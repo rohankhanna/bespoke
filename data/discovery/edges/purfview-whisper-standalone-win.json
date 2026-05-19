@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "guillaumekln/faster-whisper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "subtitleedit/subtitleedit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "uruworks/terosubtitler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "oov/aviutl_subtitler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "ctranslate2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "diarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "faster-whisper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "speaker-diarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "speech-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "subtitles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "transcriber",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "vocal-extractor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "whisper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "whisper-faster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win",
+      "target": "whisperx",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-19T00:44:50.346858+00:00",
+  "source_repo": "Purfview/whisper-standalone-win"
+}

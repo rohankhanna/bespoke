@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "whisperx"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Purfview/whisper-standalone-win",
+      "status": "candidate-context",
+      "text": "Whisper & Faster-Whisper standalone executables for those who don't want to bother with Python. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Purfview/whisper-standalone-win",
+      "status": "candidate-context",
+      "text": "[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2) [![\"Buy Me A Coffee\"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/purfview)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Purfview/whisper-standalone-win",
+      "status": "candidate",
+      "text": "[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2) [![\"Buy Me A Coffee\"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/purfview)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "whisperx",
+  "concept_id": "whisperx",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T00:44:50.346858+00:00",
+      "source_file": null,
+      "source_repo": "Purfview/whisper-standalone-win"
+    }
+  ],
+  "first_seen_at": "2026-05-19T00:44:50.346858+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-19T00:44:50.346858+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "whisperx",
+      "sense_id": "whisperx#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

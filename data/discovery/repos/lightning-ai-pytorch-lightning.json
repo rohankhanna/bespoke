@@ -51,12 +51,12 @@
       "source_file": ".github/workflows/_legacy-checkpoints.yml"
     },
     {
-      "component": "Lightning-AI/utilities/.github/workflows/cleanup-caches.yml@v0.15.3",
+      "component": "Lightning-AI/utilities/.github/workflows/cleanup-caches.yml@86fe1b20b4609835ba9e8c8739cd39707ba76868",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/call-clear-cache.yml"
     },
     {
-      "component": "Lightning-AI/utilities/.github/workflows/cleanup-caches.yml@v0.15.3",
+      "component": "Lightning-AI/utilities/.github/workflows/cleanup-caches.yml@86fe1b20b4609835ba9e8c8739cd39707ba76868",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/call-clear-cache.yml"
     },
@@ -163,7 +163,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/call-clear-cache.yml",
       "source_repo": "Lightning-AI/pytorch-lightning",
-      "target": "Lightning-AI/utilities/.github/workflows/cleanup-caches.yml@v0.15.3",
+      "target": "Lightning-AI/utilities/.github/workflows/cleanup-caches.yml@86fe1b20b4609835ba9e8c8739cd39707ba76868",
       "target_type": "component"
     },
     {
@@ -251,7 +251,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-18T20:13:19.759113+00:00",
+  "fetched_at": "2026-05-19T03:04:31.401184+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -279,7 +279,7 @@
     },
     {
       "path": ".github/workflows/call-clear-cache.yml",
-      "size": 1266
+      "size": 1352
     },
     {
       "path": ".github/workflows/ci-check-md-links.yml",
@@ -303,8 +303,8 @@
     "full_name": "Lightning-AI/pytorch-lightning",
     "html_url": "https://github.com/Lightning-AI/pytorch-lightning",
     "language": "Python",
-    "pushed_at": "2026-05-18T10:10:08Z",
-    "stargazers_count": 31144,
+    "pushed_at": "2026-05-18T21:07:19Z",
+    "stargazers_count": 31145,
     "topics": [
       "ai",
       "artificial-intelligence",
@@ -314,7 +314,7 @@
       "python",
       "pytorch"
     ],
-    "updated_at": "2026-05-18T07:56:00Z"
+    "updated_at": "2026-05-18T23:55:45Z"
   },
   "repo_links": [
     {

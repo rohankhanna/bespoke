@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dockerized Facebook Demucs library to make it easy its execution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository dockerizes [Demucs](https://github.com/adefossez/demucs)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository dockerizes [Demucs](https://github.com/adefossez/demucs)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "demucs",
+      "sense_id": "demucs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "demucs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "demucs",
+  "observation_id": "4b24529202323259",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-19T00:44:50.346858+00:00",
+  "observed_text": "demucs",
+  "source_context_snippet": "This repository dockerizes [Demucs](https://github.com/adefossez/demucs)",
+  "source_file": null,
+  "source_repo": "xserrat/docker-facebook-demucs",
+  "source_repo_description": "Dockerized Facebook Demucs library to make it easy its execution"
+}

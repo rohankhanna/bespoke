@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-19T00:44:50.346858+00:00",
+  "last_seen_at": "2026-05-19T00:44:50.346858+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/block_fork_main_prs.yml",
+      "source_repo": "langchain-ai/langchain"
+    }
+  ],
+  "term": "Block fork main PRs"
+}

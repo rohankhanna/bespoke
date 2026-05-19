@@ -8,13 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "TEN-framework/ten-framework",
-      "target": "codespaces/badge.svg",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "TEN-framework/ten-framework",
@@ -246,6 +239,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-18T18:44:05.166065+00:00",
+  "generated_at": "2026-05-19T00:44:50.346858+00:00",
   "source_repo": "TEN-framework/ten-framework"
 }

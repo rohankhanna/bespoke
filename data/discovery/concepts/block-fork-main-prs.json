@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Block fork main PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate-context",
+      "text": "The agent engineering platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate-context",
+      "text": "Block fork main PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate",
+      "text": "Block fork main PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26480,
+      "status": "candidate",
+      "text": "stock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26080,
+      "status": "candidate",
+      "text": "stocked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26080,
+      "status": "candidate",
+      "text": "stocks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17663,
+      "status": "candidate",
+      "text": "crutch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17630,
+      "status": "candidate",
+      "text": "dichotomy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Block fork main PRs",
+  "concept_id": "block-fork-main-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T00:44:50.346858+00:00",
+      "source_file": ".github/workflows/block_fork_main_prs.yml",
+      "source_repo": "langchain-ai/langchain"
+    }
+  ],
+  "first_seen_at": "2026-05-19T00:44:50.346858+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-19T00:44:50.346858+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Block fork main PRs",
+      "sense_id": "block-fork-main-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

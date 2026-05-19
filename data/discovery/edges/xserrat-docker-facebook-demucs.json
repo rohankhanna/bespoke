@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xserrat/docker-facebook-demucs",
+      "target": "demucs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xserrat/docker-facebook-demucs",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xserrat/docker-facebook-demucs",
+      "target": "facebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xserrat/docker-facebook-demucs",
+      "target": "facebook-demucs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xserrat/docker-facebook-demucs",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xserrat/docker-facebook-demucs",
+      "target": "music",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-19T00:44:50.346858+00:00",
+  "source_repo": "xserrat/docker-facebook-demucs"
+}

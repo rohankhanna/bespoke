@@ -14611,6 +14611,9 @@
   "block-diagram": [
     "79125184a5527d45"
   ],
+  "block-fork-main-prs": [
+    "1e141789c33b2f66"
+  ],
   "block-internal-prs": [
     "6d76a7c5836c35ec"
   ],
@@ -43566,6 +43569,7 @@
     "df88589dea300531"
   ],
   "ctranslate2": [
+    "6ea9aa82269247d2",
     "c4d80fb291d50a5d"
   ],
   "ctrlp": [
@@ -48368,6 +48372,9 @@
     "37d31c169f0075bc",
     "5fedb2f6e632a469"
   ],
+  "demucs": [
+    "4b24529202323259"
+  ],
   "demultiplexing": [
     "08646efec08e233b"
   ],
@@ -51419,6 +51426,7 @@
     "b57f60034c29ebbd"
   ],
   "diarization": [
+    "9abdcf0011b1ec41",
     "ee0d68b96c5ac1de"
   ],
   "dichotomous-image-segmentation": [
@@ -53314,6 +53322,7 @@
     "e8edfab3f52a16c1",
     "ea1ad62c5b370591",
     "ea698bad97c4b446",
+    "eb23c201d3f195df",
     "eb631f669281a91a",
     "ed695b4a5c4e97bf",
     "ed9ff90714c6283d",
@@ -61212,10 +61221,14 @@
   "facebook": [
     "9c610176b0832d19",
     "f586543483c12168",
-    "fccaef11762b5240"
+    "fccaef11762b5240",
+    "fe5f58b7b45dd448"
   ],
   "facebook-bot": [
     "b90625b2fda7ca6f"
+  ],
+  "facebook-demucs": [
+    "7ad2346fc993008d"
   ],
   "facebook-live": [
     "7514bb4ec5f7a411"
@@ -61606,7 +61619,8 @@
     "9b79a0057ac781e4"
   ],
   "faster-whisper": [
-    "2253a9231928d27c"
+    "2253a9231928d27c",
+    "f6b40125aee4a634"
   ],
   "fastertransformer": [
     "061bbf1717675a42"
@@ -93905,6 +93919,7 @@
     "5b1727114edb30c8",
     "5bfe515321df99dc",
     "5c5c08bda23d09b6",
+    "5d01e5fa9d2bc485",
     "5d5d26dd2913e917",
     "5d809402fad6b262",
     "5e5f64fcb7d96454",
@@ -102036,6 +102051,7 @@
     "0e20e6c0beaaa007",
     "1377a1f5fabc04d9",
     "20eae2215cf3d83a",
+    "25689616ae3aacdf",
     "2f8f008061aa1633",
     "3d8ea25e04aa15a2",
     "441f1d79a07e44ce",
@@ -145122,6 +145138,7 @@
     "39b278b4062f4004",
     "9698b524e71f1380",
     "96daf8f11b931e3c",
+    "ca592031ecf32411",
     "d02fe2a93b9e2791",
     "de7f53951068a1cc",
     "eff8eaf18b584ea5",
@@ -145457,6 +145474,7 @@
     "2c155a84431d9f13",
     "3574058128bdc9f5",
     "37a4157d492e4348",
+    "39a669748fc82977",
     "48a1bc0bbb967bde",
     "497e67eaf543e42d",
     "4b72d7b677115f58",
@@ -145592,6 +145610,7 @@
     "30ccd85c2087d73a",
     "3de7a4db99a72c31",
     "47bac65d2495a2cf",
+    "47d69a4ad0bdf64a",
     "4ed50878ee0e8a08",
     "4f74ab5be2a20a7d",
     "510add32802aac14",
@@ -148916,6 +148935,9 @@
   ],
   "substring-search": [
     "851bf23b158f5bbe"
+  ],
+  "subtitles": [
+    "e92d7bdb1eb392e3"
   ],
   "subtle-encoding": [
     "c46d532b56fe2380"
@@ -159114,7 +159136,8 @@
     "e15b6c8db295b878"
   ],
   "transcriber": [
-    "753c41d1fdb427f9"
+    "753c41d1fdb427f9",
+    "c3421f281bc9081d"
   ],
   "transcription": [
     "03b350ec6db929b5",
@@ -168159,6 +168182,9 @@
   "vocal": [
     "80e2ad3a4d28a64d"
   ],
+  "vocal-extractor": [
+    "fcc80e3933b0b0df"
+  ],
   "vocal-remover": [
     "d31cfe8d10571b36"
   ],
@@ -171152,6 +171178,7 @@
     "076b83941a62cf05",
     "0ac47df225ca6f9c",
     "0c7dd815b6d5c336",
+    "1083eeca44aa0d8a",
     "21c39a2f93afd6c5",
     "315984236853e5d4",
     "348de4a98cd369ed",
@@ -171186,11 +171213,17 @@
     "cf3a977136d17a11",
     "d749b15e69ac94bb"
   ],
+  "whisper-faster": [
+    "2734b44e9de1e49a"
+  ],
   "whisper-tensorrt": [
     "3742ff2b8da3b21e"
   ],
   "whispercpp-android-port": [
     "d0befeb16714c285"
+  ],
+  "whisperx": [
+    "4fba7a5f949c3a8e"
   ],
   "white": [
     "0a41fb9cf842ab81"

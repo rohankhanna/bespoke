@@ -43,6 +43,16 @@
     {
       "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lua.yml"
     },
     {
@@ -326,6 +336,13 @@
       "target_type": "component"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-tests.yml",
+      "source_repo": "dmtrKovalenko/fff",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/external-tests.yml",
       "source_repo": "dmtrKovalenko/fff",
@@ -564,7 +581,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-18T22:00:08.894549+00:00",
+  "fetched_at": "2026-05-19T02:09:08.700639+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -580,7 +597,7 @@
     },
     {
       "path": ".github/workflows/external-tests.yml",
-      "size": 3606
+      "size": 6320
     },
     {
       "path": ".github/workflows/lua.yml",
@@ -616,8 +633,8 @@
     "full_name": "dmtrKovalenko/fff",
     "html_url": "https://github.com/dmtrKovalenko/fff",
     "language": "Rust",
-    "pushed_at": "2026-05-18T21:59:31Z",
-    "stargazers_count": 6114,
+    "pushed_at": "2026-05-18T22:34:03Z",
+    "stargazers_count": 6122,
     "topics": [
       "filesearch",
       "lua",
@@ -625,7 +642,7 @@
       "neovim-plugin",
       "rust"
     ],
-    "updated_at": "2026-05-18T21:08:33Z"
+    "updated_at": "2026-05-19T02:04:55Z"
   },
   "repo_links": [
     {

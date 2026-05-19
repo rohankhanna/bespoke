@@ -1,7 +1,7 @@
 {
   "component": "actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1",
   "first_seen_at": "2026-05-18T18:44:05.166065+00:00",
-  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
+  "last_seen_at": "2026-05-19T00:44:50.346858+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/project.yml",
       "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_refresh_model_profiles.yml",
+      "source_repo": "langchain-ai/langchain"
     }
   ]
 }

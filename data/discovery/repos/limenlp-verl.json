@@ -34,6 +34,11 @@
       "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_gsm8k.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_gsm8k_dapo.yml"
     }
   ],
   "edges": [
@@ -120,9 +125,16 @@
       "source_repo": "limenlp/verl",
       "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
       "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_gsm8k_dapo.yml",
+      "source_repo": "limenlp/verl",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-18T20:19:52.109753+00:00",
+  "fetched_at": "2026-05-19T03:07:04.463753+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -159,6 +171,10 @@
     {
       "path": ".github/workflows/e2e_gsm8k.yml",
       "size": 3506
+    },
+    {
+      "path": ".github/workflows/e2e_gsm8k_dapo.yml",
+      "size": 1462
     }
   ],
   "related_repositories": [],

@@ -21,13 +21,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenBMB/RepoAgent",
-      "target": "codespaces/badge.svg",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "OpenBMB/RepoAgent",
       "target": "logic-10/repoagent",
@@ -125,7 +118,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-18T22:09:41.320022+00:00",
+  "fetched_at": "2026-05-19T02:50:58.048814+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -173,11 +166,6 @@
     "updated_at": "2026-05-18T12:33:50Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "codespaces/badge.svg",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "logic-10/repoagent",

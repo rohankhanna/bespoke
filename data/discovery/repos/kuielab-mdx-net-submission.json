@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kuielab/mdx-net-submission",
+      "target": "kuielab/mdx-net",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-19T02:20:37.370613+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1226
+    },
+    {
+      "path": "requirements.txt",
+      "size": 113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "kuielab/mdx-net-submission",
+    "html_url": "https://github.com/kuielab/mdx-net-submission",
+    "language": "Python",
+    "pushed_at": "2023-01-06T05:55:26Z",
+    "stargazers_count": 132,
+    "topics": [],
+    "updated_at": "2025-12-19T02:53:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kuielab/mdx-net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

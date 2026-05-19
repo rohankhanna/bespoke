@@ -43,6 +43,18 @@
       "source_repo": "howdyai/botkit",
       "status": "candidate-context",
       "text": "botkit-packages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xserrat/docker-facebook-demucs",
+      "status": "candidate-context",
+      "text": "Dockerized Facebook Demucs library to make it easy its execution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xserrat/docker-facebook-demucs",
+      "status": "candidate-context",
+      "text": "This repository dockerizes [Demucs](https://github.com/adefossez/demucs)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "howdyai/botkit",
       "status": "candidate",
       "text": "botkit-packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xserrat/docker-facebook-demucs",
+      "status": "candidate",
+      "text": "This repository dockerizes [Demucs](https://github.com/adefossez/demucs)"
     }
   ],
   "candidate_related_terms": [
@@ -424,11 +442,23 @@
       "observed_at": "2026-05-18T18:44:05.166065+00:00",
       "source_file": null,
       "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T00:44:50.346858+00:00",
+      "source_file": null,
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T00:44:50.346858+00:00",
+      "source_file": null,
+      "source_repo": "xserrat/docker-facebook-demucs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
+  "last_seen_at": "2026-05-19T00:44:50.346858+00:00",
   "lexical_providers": [
     "datamuse"
   ],

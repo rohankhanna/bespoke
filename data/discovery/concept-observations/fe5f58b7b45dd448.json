@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dockerized Facebook Demucs library to make it easy its execution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository dockerizes [Demucs](https://github.com/adefossez/demucs)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository dockerizes [Demucs](https://github.com/adefossez/demucs)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29931621,
+      "status": "candidate",
+      "text": "album"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29802545,
+      "status": "candidate",
+      "text": "joke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29733412,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000327,
+      "status": "candidate",
+      "text": "factbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000326,
+      "status": "candidate",
+      "text": "catalogue"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "facebook",
+      "sense_id": "facebook#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "facebook",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "facebook",
+  "observation_id": "fe5f58b7b45dd448",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-19T00:44:50.346858+00:00",
+  "observed_text": "facebook",
+  "source_context_snippet": "This repository dockerizes [Demucs](https://github.com/adefossez/demucs)",
+  "source_file": null,
+  "source_repo": "xserrat/docker-facebook-demucs",
+  "source_repo_description": "Dockerized Facebook Demucs library to make it easy its execution"
+}

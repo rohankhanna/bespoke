@@ -9482,6 +9482,9 @@
   "block": [
     "block"
   ],
+  "block fork main prs": [
+    "block-fork-main-prs"
+  ],
   "block internal prs": [
     "block-internal-prs"
   ],
@@ -28934,6 +28937,9 @@
   "demoscene": [
     "demoscene"
   ],
+  "demucs": [
+    "demucs"
+  ],
   "demultiplexing": [
     "demultiplexing"
   ],
@@ -36517,6 +36523,9 @@
   ],
   "facebook-bot": [
     "facebook-bot"
+  ],
+  "facebook-demucs": [
+    "facebook-demucs"
   ],
   "facebook-live": [
     "facebook-live"
@@ -85865,6 +85874,9 @@
   "substring-search": [
     "substring-search"
   ],
+  "subtitles": [
+    "subtitles"
+  ],
   "subtle-encoding": [
     "subtle-encoding"
   ],
@@ -97160,6 +97172,9 @@
   "vocal": [
     "vocal"
   ],
+  "vocal-extractor": [
+    "vocal-extractor"
+  ],
   "vocal-remover": [
     "vocal-remover"
   ],
@@ -98922,11 +98937,17 @@
   "whisper-cpp": [
     "whisper-cpp"
   ],
+  "whisper-faster": [
+    "whisper-faster"
+  ],
   "whisper-tensorrt": [
     "whisper-tensorrt"
   ],
   "whispercpp-android-port": [
     "whispercpp-android-port"
+  ],
+  "whisperx": [
+    "whisperx"
   ],
   "white": [
     "white"

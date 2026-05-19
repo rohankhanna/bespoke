@@ -81,7 +81,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/call-clear-cache.yml",
       "source_repo": "Lightning-AI/pytorch-lightning",
-      "target": "Lightning-AI/utilities/.github/workflows/cleanup-caches.yml@v0.15.3",
+      "target": "Lightning-AI/utilities/.github/workflows/cleanup-caches.yml@86fe1b20b4609835ba9e8c8739cd39707ba76868",
       "target_type": "component"
     },
     {
@@ -169,6 +169,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-18T18:44:05.166065+00:00",
+  "generated_at": "2026-05-19T00:44:50.346858+00:00",
   "source_repo": "Lightning-AI/pytorch-lightning"
 }

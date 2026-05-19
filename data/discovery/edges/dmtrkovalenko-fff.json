@@ -64,6 +64,13 @@
       "target_type": "component"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-tests.yml",
+      "source_repo": "dmtrKovalenko/fff",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/external-tests.yml",
       "source_repo": "dmtrKovalenko/fff",
@@ -302,6 +309,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-18T18:44:05.166065+00:00",
+  "generated_at": "2026-05-19T00:44:50.346858+00:00",
   "source_repo": "dmtrKovalenko/fff"
 }

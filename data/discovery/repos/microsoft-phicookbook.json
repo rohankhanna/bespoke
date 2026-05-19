@@ -2,13 +2,6 @@
   "components": [],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "microsoft/PhiCookBook",
-      "target": "codespaces/badge.svg",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "microsoft/PhiCookBook",
@@ -93,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-18T20:49:50.561982+00:00",
+  "fetched_at": "2026-05-19T03:07:50.614441+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -128,13 +121,7 @@
     ],
     "updated_at": "2026-05-18T10:06:52Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "codespaces/badge.svg",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "[![Open and use the samples in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/phicookbook)",

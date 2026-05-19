@@ -83,8 +83,15 @@
       "source_repo": "limenlp/verl",
       "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
       "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_gsm8k_dapo.yml",
+      "source_repo": "limenlp/verl",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
     }
   ],
-  "generated_at": "2026-05-18T18:44:05.166065+00:00",
+  "generated_at": "2026-05-19T00:44:50.346858+00:00",
   "source_repo": "limenlp/verl"
 }
