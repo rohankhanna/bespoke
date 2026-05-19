@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kuielab/mdx-net",
+      "target": "ws-choi/ismir2020_u_nets_svs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuielab/mdx-net",
+      "target": "hydra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuielab/mdx-net",
+      "target": "mdx-challenge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuielab/mdx-net",
+      "target": "music-source-separation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuielab/mdx-net",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuielab/mdx-net",
+      "target": "pytorch-lightning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuielab/mdx-net",
+      "target": "source-separation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuielab/mdx-net",
+      "target": "wandb",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-19T07:24:07.075826+00:00",
+  "source_repo": "kuielab/mdx-net"
+}

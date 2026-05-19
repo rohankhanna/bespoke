@@ -11,7 +11,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SYSTRAN/faster-whisper",
-      "target": "purfview/whisper-standalone-win",
+      "target": "pyav-org/pyav",
       "target_type": "repository"
     },
     {
@@ -99,6 +99,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-19T00:44:50.346858+00:00",
+  "generated_at": "2026-05-19T07:24:07.075826+00:00",
   "source_repo": "SYSTRAN/faster-whisper"
 }

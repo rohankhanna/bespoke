@@ -1,7 +1,7 @@
 {
   "component": "hishamhm/gh-actions-luarocks@master",
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-05-18T18:44:05.166065+00:00",
+  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

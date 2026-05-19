@@ -8299,6 +8299,9 @@
   "audio-text-to-text": [
     "6f606efc31b97de8"
   ],
+  "audio-to-text": [
+    "f483eec9edb02630"
+  ],
   "audio-to-video": [
     "32d4a890737399e7"
   ],
@@ -10338,6 +10341,12 @@
     "25031902deba3839",
     "2fbeb810e5e9a524",
     "37b11f0e20ab4c94"
+  ],
+  "aviutl": [
+    "517892ab01095e6d"
+  ],
+  "aviutl-plugin": [
+    "d2024f3561170af8"
   ],
   "avl-tree": [
     "f6bc689faf3cc839"
@@ -14872,6 +14881,9 @@
   "blst-library": [
     "66992bf15d66b739"
   ],
+  "blu-ray": [
+    "41c746355999110f"
+  ],
   "blue": [
     "a1ecf97bb674d7db"
   ],
@@ -18067,6 +18079,9 @@
   "build-and-release-processor": [
     "10bedd64bc645b0f"
   ],
+  "build-and-release-seconv": [
+    "fdf862a0bf408203"
+  ],
   "build-and-release-skynet": [
     "90f5d40da4ef2416"
   ],
@@ -18079,6 +18094,9 @@
   "build-and-release-to-pypi": [
     "604217d160a70b95",
     "9f753993f69a0301"
+  ],
+  "build-and-release-ui": [
+    "9c865a1c8007cc22"
   ],
   "build-and-release-wgc-binaries": [
     "f343ccfbd3baba5a"
@@ -19800,6 +19818,9 @@
   ],
   "build-flashlight": [
     "a9bfb0f8d58dc8bb"
+  ],
+  "build-flatpak": [
+    "f49d0c7c99522a35"
   ],
   "build-font-and-specimen": [
     "0a2fa1d2f7339edd",
@@ -23943,6 +23964,9 @@
   ],
   "captioning-videos": [
     "c35886fa0a4437a2"
+  ],
+  "captions": [
+    "17ed0d36cf25ac5c"
   ],
   "captive": [
     "3bc2f303ee7ab3eb"
@@ -32357,6 +32381,7 @@
     "6b82298e592bfd96",
     "6bece3a69006db33",
     "6dac2a5986aef72a",
+    "6e907817de292837",
     "71823e5f256c0b07",
     "71c0f87751de4266",
     "7971204ba5ee5657",
@@ -40545,6 +40570,9 @@
   ],
   "copilot-chat": [
     "6049c37e7c1865ac"
+  ],
+  "copilot-code-review": [
+    "68c2ba1f47aa9846"
   ],
   "copilot-coding-agent-setup": [
     "ac2cbbd22ae631ef"
@@ -57180,6 +57208,7 @@
     "22e274f56e4e5c2d",
     "2effca095df98e43",
     "32b65107a1c913aa",
+    "38f7a2d5b61946d2",
     "3bc0622c62c21b41",
     "4ea9f1bee5f020c9",
     "535766aa31b1d3d0",
@@ -62118,6 +62147,7 @@
     "b88bcbed98f84174",
     "cde1b6e3e97e324d",
     "da5d8e9b4fd72160",
+    "f1864bdbec2bd173",
     "fd647930f3292cd2"
   ],
   "ffmpeg-android": [
@@ -65004,6 +65034,7 @@
     "25e3571ba701d0fc"
   ],
   "free": [
+    "4c2b2a9ca25f0e14",
     "5bdb248ea5ba5e39",
     "659ce3eb1545f96e",
     "a875147c12302c66",
@@ -77054,7 +77085,8 @@
     "15eea365e5e4aa0b",
     "3c77d2601a46a58a",
     "ea2e3ac391e4672a",
-    "ecee99a2cd28be60"
+    "ecee99a2cd28be60",
+    "ee8fa6752ba58803"
   ],
   "hydrate-go-proxy": [
     "6f7b9fb0ddefcc10",
@@ -90737,6 +90769,7 @@
     "60cc12461b53d03e",
     "6125ee87a3641168",
     "6189e566300b5ceb",
+    "62579739df41cedb",
     "631db127582dc934",
     "6595efc82d4aab7d",
     "6641b3a5b31ba8b2",
@@ -94386,6 +94419,7 @@
     "4a8a75a10fbab8c9",
     "4adc011a7e4d2db4",
     "4bf5e54ab168fcf8",
+    "4cdde5be8bcb5c33",
     "4dae6e59afa88226",
     "4df3ff179f55791b",
     "4f74697885478b0c",
@@ -95160,6 +95194,7 @@
     "36f411f53f8b9a0e"
   ],
   "make": [
+    "1bc9a32f9976bcd7",
     "3bde0e144e129e23",
     "4687d7888cdbc25d",
     "f171a355d2c0aab3"
@@ -95524,7 +95559,8 @@
     "c6b869e3e27ea5d9"
   ],
   "manual-docs-deploy": [
-    "a89cd77f0c200533"
+    "a89cd77f0c200533",
+    "f0b2dcf964ee9180"
   ],
   "manual-docs-versioning": [
     "03f139336cada174",
@@ -97068,6 +97104,9 @@
   ],
   "mdspan-version-check": [
     "81c3f703d3b575eb"
+  ],
+  "mdx-challenge": [
+    "0b460f76b596b695"
   ],
   "mean-bean-ci": [
     "7fc423e4f6ca255f",
@@ -102097,6 +102136,9 @@
   ],
   "music-server": [
     "71e4c683bf904778"
+  ],
+  "music-source-separation": [
+    "afbce3ef459d0be9"
   ],
   "music-synthesis": [
     "7ceb1935bc5e8f63",
@@ -109847,6 +109889,7 @@
     "dea4fc67674f065c",
     "df016784d1cdfc94",
     "e03a7295f6422314",
+    "e07517ae1d53310d",
     "e254441f8d8da26c",
     "e79d48fa086891df",
     "e8b6b4bce4254dac",
@@ -124622,6 +124665,7 @@
     "52a8f8bb00ff31d7",
     "52a93b2a2df4b825",
     "52beb4a3ba56a9dd",
+    "53aac0adf2715603",
     "540f920a9e8ccb9e",
     "541ded94fdaa6bd1",
     "542a24ba9925758f",
@@ -125120,6 +125164,7 @@
     "95b0317e4e195cab",
     "95f5c3bc2d9efc19",
     "a10f4e908929d5d4",
+    "b9643a9236ad8850",
     "c02c0826cf3d845f",
     "cbc7886c3146b3e3",
     "cf37b78a73c89cd8",
@@ -131977,6 +132022,7 @@
     "82c184ec854bb409",
     "8ff47784b0e31d07",
     "99ec529713a75950",
+    "a2807bb87989e7a8",
     "a4c0811da44c3239",
     "b2b7242642ca1ef5",
     "b859cca474003f4b",
@@ -143902,6 +143948,9 @@
     "d75269e0662390ed",
     "e55d363cba3cb334"
   ],
+  "smpte": [
+    "ad7c55d558ee15e4"
+  ],
   "smt-solver": [
     "785fc3dcf1f04d6b"
   ],
@@ -144753,7 +144802,8 @@
     "33e71a6f767ed140"
   ],
   "source-separation": [
-    "00bbbc5401609942"
+    "00bbbc5401609942",
+    "21b71727d7491af6"
   ],
   "source-to-image": [
     "4c95d22a0cde9a88",
@@ -148936,7 +148986,14 @@
   "substring-search": [
     "851bf23b158f5bbe"
   ],
+  "subtitle-editor": [
+    "22ef4cfbfc95881b"
+  ],
+  "subtitler": [
+    "376646e7bc58d127"
+  ],
   "subtitles": [
+    "450f905db7530e7d",
     "e92d7bdb1eb392e3"
   ],
   "subtle-encoding": [
@@ -152687,6 +152744,9 @@
     "0f8157480a8a10a9",
     "a8aa79fb71324cee"
   ],
+  "tero": [
+    "086a3027964204f4"
+  ],
   "terraform": [
     "04295f456d5f0535",
     "17fdea80e5650f77",
@@ -154135,6 +154195,7 @@
     "4865e6fd0dd0d728",
     "50056cf4ccb5dadd",
     "664b1900d13ac193",
+    "967d5c303907c30a",
     "a581c896bd8a3593",
     "ad58918d325c1410",
     "c2c527c7da755319",
@@ -159143,6 +159204,7 @@
     "03b350ec6db929b5",
     "2706b58cb0507f1b",
     "4534596b0965e543",
+    "65684232e70494ac",
     "67aa094fa9cc9c56",
     "7050b8d16ea25a56"
   ],
@@ -169374,7 +169436,8 @@
     "6e579169fadd1ea9",
     "8eac5918112c501d",
     "95d9e52dc91ab2f3",
-    "bcbf0db583475908"
+    "bcbf0db583475908",
+    "cfc6b25f916375bb"
   ],
   "warden": [
     "709cbb1d76b1d07f"
@@ -171187,6 +171250,7 @@
     "4253843cc97cb3f4",
     "55fd5a68664b9f1c",
     "61c2f2a9da7de085",
+    "679a8d45e09fc20a",
     "74a732d2b0286776",
     "7dfe06d6c6190ab8",
     "834b2203849baf56",
@@ -171198,6 +171262,7 @@
     "b1d8ef9a226f8aea",
     "b2a11eff30d36ec4",
     "cc1a6400137222fd",
+    "e4132c45428be3fa",
     "ebdc15734b4f5ffe",
     "f222f6d1d473ec1e",
     "f72c1503fac70d0e"
@@ -171617,6 +171682,7 @@
     "92d16d657d503945",
     "945867bdad68fc04",
     "947ca253ce4d7fe7",
+    "95623f9051d76244",
     "95b5993e8e563dcb",
     "95cb5626529c9bb5",
     "95cc76375bfda835",
@@ -173619,7 +173685,8 @@
     "40a8014e713669b8",
     "453f41c9c2cf26dc",
     "4965bbb82a8ac298",
-    "74b4bc432033ff1e"
+    "74b4bc432033ff1e",
+    "9a57eaffa45e2d33"
   ],
   "ytdownloader": [
     "ae170a6cccfdc815"

@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/check-firebaseai-responses.yml",
       "source_repo": "firebase/firebase-android-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bundle-size-comment.yml",
+      "source_repo": "module-federation/core"
     }
   ]
 }

@@ -79,7 +79,7 @@
   "normalized_form": "labeler-cache-retention",
   "observation_id": "dd0c231ecba9ef2b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-19T00:44:50.346858+00:00",
+  "observed_at": "2026-05-19T07:24:07.075826+00:00",
   "observed_text": "Labeler: Cache Retention",
   "source_context_snippet": "\"Labeler: Cache Retention\"",
   "source_file": ".github/workflows/labeler-cache-retention.yml",

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Flatpak"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SubtitleEdit/subtitleedit",
+      "status": "candidate-context",
+      "text": "the subtitle editor :)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SubtitleEdit/subtitleedit",
+      "status": "candidate-context",
+      "text": "Build Flatpak"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SubtitleEdit/subtitleedit",
+      "status": "candidate",
+      "text": "Build Flatpak"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assemble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "basis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "benefit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "broaden"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Flatpak",
+  "concept_id": "build-flatpak",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T07:24:07.075826+00:00",
+      "source_file": ".github/workflows/build-flatpak.yml",
+      "source_repo": "SubtitleEdit/subtitleedit"
+    }
+  ],
+  "first_seen_at": "2026-05-19T07:24:07.075826+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Flatpak",
+      "sense_id": "build-flatpak#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

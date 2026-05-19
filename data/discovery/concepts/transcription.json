@@ -67,6 +67,18 @@
       "source_repo": "geekodour/wscribe",
       "status": "candidate-context",
       "text": "[tool.poetry] name = \"wscribe\" version = \"0.1.5\" description = \"ez audio transcription tool with flexible processing and post-processing options\" authors = [\"Hrishikesh Barman <oss@geekodour.org>\"] homepage = \"https://github.com/geekodour/wscribe\" license = \"MIT\" readme = \"docs/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "URUWorks/TeroSubtitler",
+      "status": "candidate-context",
+      "text": "Tero Subtitler is an open source, cross-platform, and free subtitle editing software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "URUWorks/TeroSubtitler",
+      "status": "candidate-context",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "geekodour/wscribe",
       "status": "candidate",
       "text": "[tool.poetry] name = \"wscribe\" version = \"0.1.5\" description = \"ez audio transcription tool with flexible processing and post-processing options\" authors = [\"Hrishikesh Barman <oss@geekodour.org>\"] homepage = \"https://github.com/geekodour/wscribe\" license = \"MIT\" readme = \"docs/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "URUWorks/TeroSubtitler",
+      "status": "candidate",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
     }
   ],
   "candidate_related_terms": [
@@ -180,11 +198,17 @@
       "observed_at": "2026-05-15T12:50:28.227991+00:00",
       "source_file": null,
       "source_repo": "geekodour/wscribe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T07:24:07.075826+00:00",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
   "lexical_providers": [
     "datamuse"
   ],

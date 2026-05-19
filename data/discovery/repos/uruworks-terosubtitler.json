@@ -1,0 +1,375 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "ggerganov/whisper.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "uruworks/uw_bluraypgsparser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "alexey-t/encconv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "alexey-t/atflatcontrols",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make.yml",
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make.yml",
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "Make",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "audio-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "blu-ray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "captions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "editor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "ffmpeg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "smpte",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "subtitle-editor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "subtitler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "subtitles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "tero",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "transcription",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "whisper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler",
+      "target": "yt-dlp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-19T08:41:30.233607+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5612
+    },
+    {
+      "path": ".github/workflows/make.pas",
+      "size": 6010
+    },
+    {
+      "path": ".github/workflows/make.yml",
+      "size": 926
+    },
+    {
+      "path": ".github/workflows/setup.ps1",
+      "size": 808
+    },
+    {
+      "path": ".github/workflows/setup.sh",
+      "size": 669
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tero Subtitler is an open source, cross-platform, and free subtitle editing software.",
+    "fork": false,
+    "full_name": "URUWorks/TeroSubtitler",
+    "html_url": "https://github.com/URUWorks/TeroSubtitler",
+    "language": "Pascal",
+    "pushed_at": "2026-04-28T00:21:39Z",
+    "stargazers_count": 450,
+    "topics": [
+      "ai",
+      "audio-to-text",
+      "blu-ray",
+      "captions",
+      "editor",
+      "ffmpeg",
+      "free",
+      "linux",
+      "macos",
+      "mpv",
+      "open-source",
+      "smpte",
+      "subtitle-editor",
+      "subtitler",
+      "subtitles",
+      "tero",
+      "transcription",
+      "whisper",
+      "windows",
+      "yt-dlp"
+    ],
+    "updated_at": "2026-05-14T03:00:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexey-t/atflatcontrols",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexey-t/encconv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/whisper.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "uruworks/uw_bluraypgsparser",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Make",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make.yml",
+      "term": "Make"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-to-text"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blu-ray"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "captions"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "editor"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ffmpeg"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "free"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smpte"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subtitle-editor"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subtitler"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subtitles"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tero"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transcription"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whisper"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yt-dlp"
+    }
+  ]
+}

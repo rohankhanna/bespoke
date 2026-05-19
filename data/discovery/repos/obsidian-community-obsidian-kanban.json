@@ -722,7 +722,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T02:07:55.403094+00:00",
+  "fetched_at": "2026-05-19T10:46:45.754524+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -747,13 +747,13 @@
     "html_url": "https://github.com/obsidian-community/obsidian-kanban",
     "language": "TypeScript",
     "pushed_at": "2026-03-06T17:40:01Z",
-    "stargazers_count": 4282,
+    "stargazers_count": 4283,
     "topics": [
       "obsidian",
       "obsidian-md",
       "obsidian-plugin"
     ],
-    "updated_at": "2026-05-19T00:03:26Z"
+    "updated_at": "2026-05-19T10:25:44Z"
   },
   "repo_links": [
     {

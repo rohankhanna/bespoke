@@ -5568,6 +5568,9 @@
   "audio-text-to-text": [
     "audio-text-to-text"
   ],
+  "audio-to-text": [
+    "audio-to-text"
+  ],
   "audio-to-video": [
     "audio-to-video"
   ],
@@ -6899,6 +6902,12 @@
   ],
   "avif": [
     "avif"
+  ],
+  "aviutl": [
+    "aviutl"
+  ],
+  "aviutl-plugin": [
+    "aviutl-plugin"
   ],
   "avl-tree": [
     "avl-tree"
@@ -9602,6 +9611,9 @@
   "blst-library": [
     "blst-library"
   ],
+  "blu-ray": [
+    "blu-ray"
+  ],
   "blue": [
     "blue"
   ],
@@ -11359,6 +11371,9 @@
   "build and release processor": [
     "build-and-release-processor"
   ],
+  "build and release seconv": [
+    "build-and-release-seconv"
+  ],
   "build and release skynet": [
     "build-and-release-skynet"
   ],
@@ -11370,6 +11385,9 @@
   ],
   "build and release to pypi": [
     "build-and-release-to-pypi"
+  ],
+  "build and release ui": [
+    "build-and-release-ui"
   ],
   "build and release wgc binaries": [
     "build-and-release-wgc-binaries"
@@ -12390,6 +12408,9 @@
   ],
   "build flashlight": [
     "build-flashlight"
+  ],
+  "build flatpak": [
+    "build-flatpak"
   ],
   "build font and specimen": [
     "build-font-and-specimen"
@@ -15502,6 +15523,9 @@
   ],
   "captioning-videos": [
     "captioning-videos"
+  ],
+  "captions": [
+    "captions"
   ],
   "captive": [
     "captive"
@@ -24793,6 +24817,9 @@
   ],
   "copier-template": [
     "copier-template"
+  ],
+  "copilot code review": [
+    "copilot-code-review"
   ],
   "copilot coding agent setup": [
     "copilot-coding-agent-setup"
@@ -56565,6 +56592,9 @@
   "mdspan version check": [
     "mdspan-version-check"
   ],
+  "mdx-challenge": [
+    "mdx-challenge"
+  ],
   "me": [
     "en-pronoun-me"
   ],
@@ -59841,6 +59871,9 @@
   ],
   "music-server": [
     "music-server"
+  ],
+  "music-source-separation": [
+    "music-source-separation"
   ],
   "music-synthesis": [
     "music-synthesis"
@@ -82806,6 +82839,9 @@
   "smplx": [
     "smplx"
   ],
+  "smpte": [
+    "smpte"
+  ],
   "smt-solver": [
     "smt-solver"
   ],
@@ -85874,6 +85910,12 @@
   "substring-search": [
     "substring-search"
   ],
+  "subtitle-editor": [
+    "subtitle-editor"
+  ],
+  "subtitler": [
+    "subtitler"
+  ],
   "subtitles": [
     "subtitles"
   ],
@@ -87979,6 +88021,9 @@
   ],
   "termux": [
     "termux"
+  ],
+  "tero": [
+    "tero"
   ],
   "terraform": [
     "terraform"

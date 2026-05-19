@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@d7906e4ad0b1822421a7e6a35d5ca353c962f410",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-19T00:44:50.346858+00:00",
+  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

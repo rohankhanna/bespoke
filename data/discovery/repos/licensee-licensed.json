@@ -6,7 +6,7 @@
       "source_file": ".github/workflows/licensed.yml"
     },
     {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/licensed.yml"
     },
@@ -21,7 +21,7 @@
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
@@ -41,7 +41,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -51,7 +51,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -61,7 +61,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -81,7 +81,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -96,7 +96,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -111,7 +111,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -121,22 +121,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test.yml"
-    },
-    {
-      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test.yml"
-    },
-    {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -151,7 +136,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -161,7 +146,22 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -181,7 +181,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -196,7 +196,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -211,7 +211,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -226,7 +226,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -241,7 +241,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -256,7 +256,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -276,7 +276,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -291,7 +291,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -311,7 +311,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -326,7 +326,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     }
@@ -340,13 +340,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "licensee/licensed",
-      "target": "github/licensed.",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/licensed.yml",
       "source_repo": "licensee/licensed",
@@ -357,7 +350,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/licensed.yml",
       "source_repo": "licensee/licensed",
-      "target": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "target": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "target_type": "component"
     },
     {
@@ -385,7 +378,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "licensee/licensed",
-      "target": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "target": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "target_type": "component"
     },
     {
@@ -427,7 +420,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "licensee/licensed",
-      "target": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "target": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
       "target_type": "component"
     },
     {
@@ -543,7 +536,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T02:02:54.579731+00:00",
+  "fetched_at": "2026-05-19T10:43:36.442653+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -563,7 +556,7 @@
     },
     {
       "path": ".github/workflows/test.yml",
-      "size": 15488
+      "size": 15586
     }
   ],
   "related_repositories": [],
@@ -575,7 +568,7 @@
     "full_name": "licensee/licensed",
     "html_url": "https://github.com/licensee/licensed",
     "language": "Ruby",
-    "pushed_at": "2026-04-28T16:00:50Z",
+    "pushed_at": "2026-05-19T10:40:28Z",
     "stargazers_count": 1028,
     "topics": [
       "dependencies",
@@ -583,17 +576,12 @@
       "licensing",
       "open-source-licensing"
     ],
-    "updated_at": "2026-05-15T08:42:56Z"
+    "updated_at": "2026-05-19T10:39:16Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "github/licensed",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "github/licensed.",
       "source_file": "README.md"
     }
   ],

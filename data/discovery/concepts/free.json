@@ -115,6 +115,18 @@
       "source_repo": "AnotiaWang/deep-research-web-ui",
       "status": "candidate-context",
       "text": "[English | [\u4e2d\u6587](README_zh.md)]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "URUWorks/TeroSubtitler",
+      "status": "candidate-context",
+      "text": "Tero Subtitler is an open source, cross-platform, and free subtitle editing software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "URUWorks/TeroSubtitler",
+      "status": "candidate-context",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "AnotiaWang/deep-research-web-ui",
       "status": "candidate",
       "text": "[English | [\u4e2d\u6587](README_zh.md)]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "URUWorks/TeroSubtitler",
+      "status": "candidate",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
     }
   ],
   "candidate_related_terms": [
@@ -304,11 +322,17 @@
       "observed_at": "2026-05-08T00:38:13.543216+00:00",
       "source_file": null,
       "source_repo": "AnotiaWang/deep-research-web-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T07:24:07.075826+00:00",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
   "lexical_providers": [
     "datamuse"
   ],

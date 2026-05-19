@@ -1,0 +1,145 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kuielab/mdx-net",
+      "target": "ws-choi/ismir2020_u_nets_svs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuielab/mdx-net",
+      "target": "hydra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuielab/mdx-net",
+      "target": "mdx-challenge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuielab/mdx-net",
+      "target": "music-source-separation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuielab/mdx-net",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuielab/mdx-net",
+      "target": "pytorch-lightning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuielab/mdx-net",
+      "target": "source-separation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuielab/mdx-net",
+      "target": "wandb",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-19T08:41:38.340157+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2008
+    },
+    {
+      "path": "requirements.txt",
+      "size": 718
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "KUIELAB-MDX-Net got the 2nd place on the Leaderboard A and the 3rd place on the Leaderboard B in the MDX-Challenge ISMIR 2021",
+    "fork": false,
+    "full_name": "kuielab/mdx-net",
+    "html_url": "https://github.com/kuielab/mdx-net",
+    "language": "Python",
+    "pushed_at": "2023-02-27T02:01:05Z",
+    "stargazers_count": 241,
+    "topics": [
+      "hydra",
+      "mdx-challenge",
+      "music-source-separation",
+      "pytorch",
+      "pytorch-lightning",
+      "source-separation",
+      "wandb"
+    ],
+    "updated_at": "2026-05-17T20:46:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ws-choi/ismir2020_u_nets_svs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- [presentation slide](https://ws-choi.github.io/personal/presentations/slide/2021-08-21-aicrowd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hydra"
+    },
+    {
+      "context_snippet": "- [presentation slide](https://ws-choi.github.io/personal/presentations/slide/2021-08-21-aicrowd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mdx-challenge"
+    },
+    {
+      "context_snippet": "- [presentation slide](https://ws-choi.github.io/personal/presentations/slide/2021-08-21-aicrowd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music-source-separation"
+    },
+    {
+      "context_snippet": "- [presentation slide](https://ws-choi.github.io/personal/presentations/slide/2021-08-21-aicrowd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "- [presentation slide](https://ws-choi.github.io/personal/presentations/slide/2021-08-21-aicrowd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-lightning"
+    },
+    {
+      "context_snippet": "- [presentation slide](https://ws-choi.github.io/personal/presentations/slide/2021-08-21-aicrowd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "source-separation"
+    },
+    {
+      "context_snippet": "- [presentation slide](https://ws-choi.github.io/personal/presentations/slide/2021-08-21-aicrowd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wandb"
+    }
+  ]
+}

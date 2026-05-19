@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -46,6 +46,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "AnotiaWang/deep-research-web-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler"
     }
   ],
   "term": "free"

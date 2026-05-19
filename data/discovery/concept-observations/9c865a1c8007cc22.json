@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "the subtitle editor :)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and release UI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and release UI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23129,
+      "status": "candidate",
+      "text": "delivery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23098,
+      "status": "candidate",
+      "text": "benefits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18478,
+      "status": "candidate",
+      "text": "design"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18478,
+      "status": "candidate",
+      "text": "desktop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18478,
+      "status": "candidate",
+      "text": "layout"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and release UI",
+      "sense_id": "build-and-release-ui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-release-ui",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-release-ui",
+  "observation_id": "9c865a1c8007cc22",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-19T07:24:07.075826+00:00",
+  "observed_text": "Build and release UI",
+  "source_context_snippet": "Build and release UI",
+  "source_file": ".github/workflows/build-ui.yml",
+  "source_repo": "SubtitleEdit/subtitleedit",
+  "source_repo_description": "the subtitle editor :)"
+}

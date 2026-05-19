@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Copilot code review"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SubtitleEdit/subtitleedit",
+      "status": "candidate-context",
+      "text": "the subtitle editor :)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SubtitleEdit/subtitleedit",
+      "status": "candidate-context",
+      "text": "Copilot code review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SubtitleEdit/subtitleedit",
+      "status": "candidate",
+      "text": "Copilot code review"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23344,
+      "status": "candidate",
+      "text": "han"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22407,
+      "status": "candidate",
+      "text": "foot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22369,
+      "status": "candidate",
+      "text": "crown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22369,
+      "status": "candidate",
+      "text": "crowning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22369,
+      "status": "candidate",
+      "text": "pickup"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Copilot code review",
+  "concept_id": "copilot-code-review",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T07:24:07.075826+00:00",
+      "source_file": ".github/workflows/copilot-code-review.yml",
+      "source_repo": "SubtitleEdit/subtitleedit"
+    }
+  ],
+  "first_seen_at": "2026-05-19T07:24:07.075826+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Copilot code review",
+      "sense_id": "copilot-code-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

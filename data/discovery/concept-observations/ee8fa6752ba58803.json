@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "KUIELAB-MDX-Net got the 2nd place on the Leaderboard A and the 3rd place on the Leaderboard B in the MDX-Challenge ISMIR 2021"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "- [presentation slide](https://ws-choi.github.io/personal/presentations/slide/2021-08-21-aicrowd)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "- [presentation slide](https://ws-choi.github.io/personal/presentations/slide/2021-08-21-aicrowd)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39959481,
+      "status": "candidate",
+      "text": "snake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29964403,
+      "status": "candidate",
+      "text": "lernean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29680248,
+      "status": "candidate",
+      "text": "multiheaded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29669307,
+      "status": "candidate",
+      "text": "glide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29522112,
+      "status": "candidate",
+      "text": "headed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hydra",
+      "sense_id": "hydra#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "snake"
+    }
+  ],
+  "concept_id": "hydra",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hydra",
+  "observation_id": "ee8fa6752ba58803",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-19T07:24:07.075826+00:00",
+  "observed_text": "hydra",
+  "source_context_snippet": "- [presentation slide](https://ws-choi.github.io/personal/presentations/slide/2021-08-21-aicrowd)",
+  "source_file": null,
+  "source_repo": "kuielab/mdx-net",
+  "source_repo_description": "KUIELAB-MDX-Net got the 2nd place on the Leaderboard A and the 3rd place on the Leaderboard B in the MDX-Challenge ISMIR 2021"
+}

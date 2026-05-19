@@ -399,7 +399,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T01:52:32.478596+00:00",
+  "fetched_at": "2026-05-19T10:35:30.308237+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -452,7 +452,7 @@
     "html_url": "https://github.com/securefederatedai/openfederatedlearning",
     "language": "Python",
     "pushed_at": "2026-02-21T16:41:42Z",
-    "stargazers_count": 838,
+    "stargazers_count": 839,
     "topics": [
       "federated-analytics",
       "federated-evaluation",
@@ -461,7 +461,7 @@
       "python",
       "trusted-execution-environment"
     ],
-    "updated_at": "2026-04-24T01:52:54Z"
+    "updated_at": "2026-05-19T03:54:55Z"
   },
   "repo_links": [
     {

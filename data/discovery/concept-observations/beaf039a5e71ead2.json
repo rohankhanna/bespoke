@@ -84,7 +84,7 @@
   "normalized_form": "pr-checks",
   "observation_id": "beaf039a5e71ead2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-19T00:44:50.346858+00:00",
+  "observed_at": "2026-05-19T07:24:07.075826+00:00",
   "observed_text": "PR Checks",
   "source_context_snippet": "PR Checks",
   "source_file": ".github/workflows/pr_checks.yml",

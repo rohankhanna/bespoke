@@ -915,11 +915,23 @@
       "observed_at": "2026-05-19T00:44:50.346858+00:00",
       "source_file": null,
       "source_repo": "NVIDIA-Genomics-Research/GenomeWorks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T07:24:07.075826+00:00",
+      "source_file": null,
+      "source_repo": "layumi/Pedestrian_Alignment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T07:24:07.075826+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-19T00:44:50.346858+00:00",
+  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
   "lexical_providers": [
     "datamuse"
   ],

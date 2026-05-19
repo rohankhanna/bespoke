@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "subtitler"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "URUWorks/TeroSubtitler",
+      "status": "candidate-context",
+      "text": "Tero Subtitler is an open source, cross-platform, and free subtitle editing software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "URUWorks/TeroSubtitler",
+      "status": "candidate-context",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "URUWorks/TeroSubtitler",
+      "status": "candidate",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020775,
+      "status": "candidate",
+      "text": "translator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020774,
+      "status": "candidate",
+      "text": "fansubber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020773,
+      "status": "candidate",
+      "text": "transl."
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020772,
+      "status": "candidate",
+      "text": "transcriptor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020771,
+      "status": "candidate",
+      "text": "trans."
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "subtitler",
+  "concept_id": "subtitler",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T07:24:07.075826+00:00",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler"
+    }
+  ],
+  "first_seen_at": "2026-05-19T07:24:07.075826+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "subtitler",
+      "sense_id": "subtitler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

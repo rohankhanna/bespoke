@@ -46,6 +46,18 @@
       "source_repo": "salvadordf/CEF4Delphi",
       "status": "candidate-context",
       "text": "Make"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "URUWorks/TeroSubtitler",
+      "status": "candidate-context",
+      "text": "Tero Subtitler is an open source, cross-platform, and free subtitle editing software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "URUWorks/TeroSubtitler",
+      "status": "candidate-context",
+      "text": "Make"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +76,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "salvadordf/CEF4Delphi",
+      "status": "candidate",
+      "text": "Make"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "URUWorks/TeroSubtitler",
       "status": "candidate",
       "text": "Make"
     }
@@ -163,11 +181,17 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": ".github/workflows/make.yml",
       "source_repo": "salvadordf/CEF4Delphi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T07:24:07.075826+00:00",
+      "source_file": ".github/workflows/make.yml",
+      "source_repo": "URUWorks/TeroSubtitler"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
   "lexical_providers": [
     "datamuse"
   ],

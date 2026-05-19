@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AviUtl+\u62e1\u5f35\u7de8\u96c6\u306e\u74b0\u5883\u3067 Whisper \u306b\u3088\u308b\u6587\u5b57\u8d77\u3053\u3057\u3092\u3059\u308b\u305f\u3081\u306e\u30d7\u30e9\u30b0\u30a4\u30f3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "releaser"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "releaser"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025150,
+      "status": "candidate",
+      "text": "pheromones"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025149,
+      "status": "candidate",
+      "text": "unleasher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025148,
+      "status": "candidate",
+      "text": "relabeler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025147,
+      "status": "candidate",
+      "text": "revealer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025146,
+      "status": "candidate",
+      "text": "divulger"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "releaser",
+      "sense_id": "releaser#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "releaser",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "releaser",
+  "observation_id": "a2807bb87989e7a8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-19T07:24:07.075826+00:00",
+  "observed_text": "releaser",
+  "source_context_snippet": "releaser",
+  "source_file": ".github/workflows/releaser.yml",
+  "source_repo": "oov/aviutl_subtitler",
+  "source_repo_description": "AviUtl+\u62e1\u5f35\u7de8\u96c6\u306e\u74b0\u5883\u3067 Whisper \u306b\u3088\u308b\u6587\u5b57\u8d77\u3053\u3057\u3092\u3059\u308b\u305f\u3081\u306e\u30d7\u30e9\u30b0\u30a4\u30f3"
+}

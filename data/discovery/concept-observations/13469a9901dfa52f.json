@@ -48,7 +48,7 @@
   "normalized_form": "clippy",
   "observation_id": "13469a9901dfa52f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-18T18:44:05.166065+00:00",
+  "observed_at": "2026-05-19T07:24:07.075826+00:00",
   "observed_text": "clippy",
   "source_context_snippet": "clippy",
   "source_file": ".github/workflows/clippy.yml",

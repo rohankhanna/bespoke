@@ -1,7 +1,7 @@
 {
   "component": "pnpm",
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-05-19T00:44:50.346858+00:00",
+  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

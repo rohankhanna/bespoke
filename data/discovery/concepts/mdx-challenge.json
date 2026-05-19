@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mdx-challenge"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kuielab/mdx-net",
+      "status": "candidate-context",
+      "text": "KUIELAB-MDX-Net got the 2nd place on the Leaderboard A and the 3rd place on the Leaderboard B in the MDX-Challenge ISMIR 2021"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kuielab/mdx-net",
+      "status": "candidate-context",
+      "text": "- [presentation slide](https://ws-choi.github.io/personal/presentations/slide/2021-08-21-aicrowd)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kuielab/mdx-net",
+      "status": "candidate",
+      "text": "- [presentation slide](https://ws-choi.github.io/personal/presentations/slide/2021-08-21-aicrowd)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mdx-challenge",
+  "concept_id": "mdx-challenge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T07:24:07.075826+00:00",
+      "source_file": null,
+      "source_repo": "kuielab/mdx-net"
+    }
+  ],
+  "first_seen_at": "2026-05-19T07:24:07.075826+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mdx-challenge",
+      "sense_id": "mdx-challenge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

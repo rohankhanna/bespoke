@@ -1,7 +1,7 @@
 {
   "component": "errata-ai/vale-action@v2.1.1",
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
-  "last_seen_at": "2026-05-19T00:44:50.346858+00:00",
+  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

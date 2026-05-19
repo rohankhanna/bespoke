@@ -48,7 +48,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SYSTRAN/faster-whisper",
-      "target": "purfview/whisper-standalone-win",
+      "target": "pyav-org/pyav",
       "target_type": "repository"
     },
     {
@@ -136,7 +136,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T02:20:28.910089+00:00",
+  "fetched_at": "2026-05-19T08:41:12.833117+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -161,7 +161,7 @@
     "html_url": "https://github.com/SYSTRAN/faster-whisper",
     "language": "Python",
     "pushed_at": "2025-11-19T14:40:46Z",
-    "stargazers_count": 22982,
+    "stargazers_count": 22988,
     "topics": [
       "deep-learning",
       "inference",
@@ -172,7 +172,7 @@
       "transformer",
       "whisper"
     ],
-    "updated_at": "2026-05-19T01:24:08Z"
+    "updated_at": "2026-05-19T07:26:11Z"
   },
   "repo_links": [
     {
@@ -192,7 +192,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "purfview/whisper-standalone-win",
+      "full_name": "pyav-org/pyav",
       "source_file": "README.md"
     }
   ],

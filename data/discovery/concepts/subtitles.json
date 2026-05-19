@@ -19,6 +19,18 @@
       "source_repo": "Purfview/whisper-standalone-win",
       "status": "candidate-context",
       "text": "[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2) [![\"Buy Me A Coffee\"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/purfview)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "URUWorks/TeroSubtitler",
+      "status": "candidate-context",
+      "text": "Tero Subtitler is an open source, cross-platform, and free subtitle editing software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "URUWorks/TeroSubtitler",
+      "status": "candidate-context",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Purfview/whisper-standalone-win",
       "status": "candidate",
       "text": "[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2) [![\"Buy Me A Coffee\"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/purfview)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "URUWorks/TeroSubtitler",
+      "status": "candidate",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-19T00:44:50.346858+00:00",
       "source_file": null,
       "source_repo": "Purfview/whisper-standalone-win"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-19T07:24:07.075826+00:00",
+      "source_file": null,
+      "source_repo": "URUWorks/TeroSubtitler"
     }
   ],
   "first_seen_at": "2026-05-19T00:44:50.346858+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-19T00:44:50.346858+00:00",
+  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
   "lexical_providers": [
     "datamuse"
   ],

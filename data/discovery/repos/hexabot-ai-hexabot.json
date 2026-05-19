@@ -334,7 +334,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T01:07:24.965165+00:00",
+  "fetched_at": "2026-05-19T09:49:08.902097+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -366,8 +366,8 @@
     "full_name": "hexabot-ai/Hexabot",
     "html_url": "https://github.com/hexabot-ai/Hexabot",
     "language": "TypeScript",
-    "pushed_at": "2026-05-18T14:43:43Z",
-    "stargazers_count": 954,
+    "pushed_at": "2026-05-19T09:42:33Z",
+    "stargazers_count": 955,
     "topics": [
       "agent",
       "agentic",
@@ -390,7 +390,7 @@
       "ollama",
       "workflow"
     ],
-    "updated_at": "2026-05-18T13:44:19Z"
+    "updated_at": "2026-05-19T08:54:07Z"
   },
   "repo_links": [],
   "terms": [

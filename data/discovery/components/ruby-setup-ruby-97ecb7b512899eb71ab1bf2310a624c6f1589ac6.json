@@ -1,7 +1,7 @@
 {
   "component": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
   "first_seen_at": "2026-05-18T18:44:05.166065+00:00",
-  "last_seen_at": "2026-05-19T00:44:50.346858+00:00",
+  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml",
       "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/licensed.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-metro.yml",
+      "source_repo": "module-federation/core"
     }
   ]
 }

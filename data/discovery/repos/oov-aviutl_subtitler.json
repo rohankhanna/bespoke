@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaser.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaser.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oov/aviutl_subtitler",
+      "target": "mity/acutest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oov/aviutl_subtitler",
+      "target": "oov/hashmap.c",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oov/aviutl_subtitler",
+      "target": "mingw-w64/mingw-w64",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oov/aviutl_subtitler",
+      "target": "charlesnicholson/nanoprintf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaser.yml",
+      "source_repo": "oov/aviutl_subtitler",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaser.yml",
+      "source_repo": "oov/aviutl_subtitler",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/releaser.yml",
+      "source_repo": "oov/aviutl_subtitler",
+      "target": "releaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "oov/aviutl_subtitler",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "oov/aviutl_subtitler",
+      "target": "test-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oov/aviutl_subtitler",
+      "target": "aviutl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oov/aviutl_subtitler",
+      "target": "aviutl-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oov/aviutl_subtitler",
+      "target": "whisper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-19T08:41:21.118359+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29972
+    },
+    {
+      "path": ".github/workflows/releaser.yml",
+      "size": 1475
+    },
+    {
+      "path": ".github/workflows/test-build.yml",
+      "size": 292
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AviUtl+\u62e1\u5f35\u7de8\u96c6\u306e\u74b0\u5883\u3067 Whisper \u306b\u3088\u308b\u6587\u5b57\u8d77\u3053\u3057\u3092\u3059\u308b\u305f\u3081\u306e\u30d7\u30e9\u30b0\u30a4\u30f3",
+    "fork": false,
+    "full_name": "oov/aviutl_subtitler",
+    "html_url": "https://github.com/oov/aviutl_subtitler",
+    "language": "C",
+    "pushed_at": "2024-11-30T01:08:59Z",
+    "stargazers_count": 9,
+    "topics": [
+      "aviutl",
+      "aviutl-plugin",
+      "whisper"
+    ],
+    "updated_at": "2026-01-26T15:14:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charlesnicholson/nanoprintf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mingw-w64/mingw-w64",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mity/acutest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oov/hashmap.c",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "releaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/releaser.yml",
+      "term": "releaser"
+    },
+    {
+      "context_snippet": "test-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-build.yml",
+      "term": "test-build"
+    },
+    {
+      "context_snippet": "\ufeffSubtitler.auf",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aviutl"
+    },
+    {
+      "context_snippet": "\ufeffSubtitler.auf",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aviutl-plugin"
+    },
+    {
+      "context_snippet": "\ufeffSubtitler.auf",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whisper"
+    }
+  ]
+}

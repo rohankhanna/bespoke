@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and release SeConv"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SubtitleEdit/subtitleedit",
+      "status": "candidate-context",
+      "text": "the subtitle editor :)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SubtitleEdit/subtitleedit",
+      "status": "candidate-context",
+      "text": "Build and release SeConv"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SubtitleEdit/subtitleedit",
+      "status": "candidate",
+      "text": "Build and release SeConv"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "enlarge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "escape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "outreach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "produce"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and release SeConv",
+  "concept_id": "build-and-release-seconv",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-19T07:24:07.075826+00:00",
+      "source_file": ".github/workflows/build-seconv.yml",
+      "source_repo": "SubtitleEdit/subtitleedit"
+    }
+  ],
+  "first_seen_at": "2026-05-19T07:24:07.075826+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and release SeConv",
+      "sense_id": "build-and-release-seconv#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

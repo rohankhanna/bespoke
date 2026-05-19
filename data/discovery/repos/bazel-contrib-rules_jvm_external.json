@@ -23,7 +23,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T02:54:06.175015+00:00",
+  "fetched_at": "2026-05-19T08:45:47.367288+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -40,12 +40,12 @@
     "html_url": "https://github.com/bazel-contrib/rules_jvm_external",
     "language": "Java",
     "pushed_at": "2026-05-18T08:26:47Z",
-    "stargazers_count": 372,
+    "stargazers_count": 373,
     "topics": [
       "bazel",
       "maven"
     ],
-    "updated_at": "2026-05-18T08:26:53Z"
+    "updated_at": "2026-05-19T08:27:05Z"
   },
   "repo_links": [
     {

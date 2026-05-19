@@ -1,7 +1,7 @@
 {
   "component": "raven-actions/actionlint@205b530c5d9fa8f44ae9ed59f341a0db994aa6f8",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/files.yaml",
       "source_repo": "yaml/go-yaml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "module-federation/core"
     }
   ]
 }
