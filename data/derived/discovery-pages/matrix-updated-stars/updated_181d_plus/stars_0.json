@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1248,
-    "concepts": 520,
-    "observations": 522,
-    "repos": 431,
-    "terms": 520
+    "components": 1258,
+    "concepts": 527,
+    "observations": 529,
+    "repos": 432,
+    "terms": 527
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -355,6 +355,7 @@
     "niveditarufus/suadd",
     "njelich/cargo-near-new-project-template",
     "nlamirault/markdownfmt",
+    "nod-ai/diffusers",
     "nozbe/cavy",
     "ntheanh201/hyper-mcp-release-monitor-id-tool",
     "nugine/simd-benches",

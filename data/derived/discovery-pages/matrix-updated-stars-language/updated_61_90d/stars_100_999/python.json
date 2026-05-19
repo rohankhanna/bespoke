@@ -3,7 +3,7 @@
     "components": 288,
     "concepts": 444,
     "observations": 444,
-    "repos": 108,
+    "repos": 109,
     "terms": 440
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "absadiki/pywhispercpp",
     "actionless/pikaur",
@@ -75,6 +75,7 @@
     "magic-wormhole/magic-wormhole-transit-relay",
     "melMass/comfy_mtb",
     "mgaitan/sphinxcontrib-mermaid",
+    "MIC-DKFZ/dynamic-network-architectures",
     "mindspore-lab/mindnlp",
     "MoonshotAI/checkpoint-engine",
     "mr-fatalyst/fastopenapi",

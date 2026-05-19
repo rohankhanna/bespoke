@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2734,
-    "concepts": 1788,
-    "observations": 1798,
-    "repos": 427,
-    "terms": 1792
+    "components": 2717,
+    "concepts": 1818,
+    "observations": 1828,
+    "repos": 430,
+    "terms": 1821
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "2KAbhishek/seeker.nvim",
@@ -22,6 +22,7 @@
     "abubakarsiddik31/claude-skills-collection",
     "AccountGo/accountgo",
     "actionless/pikaur",
+    "actions-cool/issues-helper",
     "adobe-photoshop/generator-core",
     "Advocate99/DiffGesture",
     "aelassas/bookcars",
@@ -149,7 +150,6 @@
     "ericmj/decimal",
     "erigontech/interfaces",
     "esp-rs/embedded-svc",
-    "esy/esy",
     "ethereum/staking-launchpad",
     "executablebooks/sphinx-copybutton",
     "eza-community/eza-themes",
@@ -223,7 +223,6 @@
     "joshuaulrich/TTR",
     "joshuaulrich/xts",
     "jsegov/autoresearch-win-rtx",
-    "jsk-ros-pkg/jsk_visualization",
     "JuliaDiff/BlueStyle",
     "JuliaEditorSupport/julia-emacs",
     "JuliaEditorSupport/julia-vim",
@@ -277,10 +276,13 @@
     "mebigfatguy/fb-contrib",
     "medama-io/medama",
     "melMass/comfy_mtb",
+    "metosin/ring-swagger",
     "mgaitan/sphinxcontrib-mermaid",
     "mholt/acmez",
+    "MIC-DKFZ/dynamic-network-architectures",
     "microsoft/microsoft-performance-toolkit-sdk",
     "microsoft/vscode-custom-data",
+    "milvus-io/milvus-sdk-csharp",
     "mindspore-lab/mindnlp",
     "MiniMax-AI/MiniMax-M2.5",
     "mlc-ai/tokenizers-cpp",
@@ -327,6 +329,7 @@
     "peergos/nabu",
     "peter-evans/enable-pull-request-automerge",
     "Piebald-AI/gemini-cli-desktop",
+    "prabirshrestha/asyncomplete.vim",
     "prebuild/prebuild-install",
     "prettier/prettier-emacs",
     "priceline/design-system",
@@ -411,6 +414,7 @@
     "usnistgov/jsfive",
     "usnistgov/trec_eval",
     "ValveSoftware/Fossilize",
+    "vcflib/vcflib",
     "veorq/SipHash",
     "vietanhdev/samexporter",
     "Visual-Agent/DeepEyesV2",
@@ -438,7 +442,6 @@
     "zhijian-liu/torchprofile",
     "zhixuan-lin/forgetting-transformer",
     "zkcrypto/bls12_381",
-    "zkcrypto/jubjub",
-    "zsviczian/excalibrain"
+    "zkcrypto/jubjub"
   ]
 }

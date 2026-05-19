@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3550,
-    "concepts": 2557,
-    "observations": 2560,
-    "repos": 416,
-    "terms": 2567
+    "components": 3604,
+    "concepts": 2600,
+    "observations": 2603,
+    "repos": 418,
+    "terms": 2588
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "a2aproject/a2a-dotnet",
@@ -108,6 +108,7 @@
     "cortinico/kotlin-gradle-plugin-template",
     "cortinico/ktfmt-gradle",
     "cosmos/testnets",
+    "cowprotocol/contracts",
     "cp2k/dbcsr",
     "cplusplus/draft",
     "crazy-max/docker-osxcross",
@@ -121,6 +122,7 @@
     "day8/re-com",
     "day8/re-frame-10x",
     "day8/re-frame-template",
+    "dbkangaroo/kangaroo",
     "dennisdoomen/CSharpGuidelines",
     "dhall-lang/dhall-haskell",
     "dmtrKovalenko/zlob",
@@ -210,7 +212,6 @@
     "JohnnyMorganz/luau-lsp",
     "joseluisq/rust-linux-darwin-builder",
     "jrh13/hol-light",
-    "jsonbored/claudepro-directory",
     "julia-vscode/LanguageServer.jl",
     "JuliaArrays/ArrayInterface.jl",
     "JuliaArrays/OffsetArrays.jl",
@@ -249,6 +250,7 @@
     "JuliaSymbolics/SymbolicUtils.jl",
     "JuliaTesting/Aqua.jl",
     "JuliaWeb/HTTP.jl",
+    "jump-dev/NLopt.jl",
     "jverzani/Mustache.jl",
     "k8s-operatorhub/community-operators",
     "karafka/waterdrop",
@@ -295,6 +297,7 @@
     "microsoft/vstest",
     "mihaimaruseac/hindent",
     "MilesCranmer/DispatchDoctor.jl",
+    "mit-plv/bedrock2",
     "mit-plv/fiat-crypto",
     "mmark-md/mmark",
     "MobileNativeFoundation/rules_xcodeproj",
@@ -415,11 +418,10 @@
     "tlaplus/CommunityModules",
     "TuringLang/docs",
     "Unity-Technologies/com.unity.cloud.gltfast",
+    "URUWorks/TeroSubtitler",
     "usnistgov/ACVP",
     "vibhorkum/pg_background",
-    "vim-fuzzbox/fuzzbox.vim",
     "vim/colorschemes",
-    "vladimir-kotikov/clink-completions",
     "w3c/aria",
     "weaviate/recipes",
     "WebAssembly/meetings",

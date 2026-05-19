@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 140,
-    "concepts": 119,
-    "observations": 119,
-    "repos": 32,
-    "terms": 116
+    "components": 143,
+    "concepts": 122,
+    "observations": 122,
+    "repos": 33,
+    "terms": 118
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "abh/geodns",
     "bazelbuild/buildtools",
@@ -28,6 +28,7 @@
     "dop251/goja",
     "duke-git/lancet",
     "flashbots/mev-boost",
+    "goccy/go-json",
     "golang/oauth2",
     "google/go-cmp",
     "hashicorp/go-metrics",

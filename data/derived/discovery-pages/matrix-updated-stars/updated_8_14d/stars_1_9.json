@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 97,
-    "concepts": 46,
-    "observations": 47,
-    "repos": 15,
-    "terms": 46
+    "components": 88,
+    "concepts": 39,
+    "observations": 40,
+    "repos": 14,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "atsushieno/aap-juce-simple-host",
     "danielrosehill/Voxtype",
@@ -21,7 +21,6 @@
     "gookit/cliui",
     "influxdata/arrow-datafusion",
     "ioBroker/plugin-sentry",
-    "kurrent-io/KurrentDB-Bridge-Client",
     "leleliu008/ppkg-formula-repository-official-core",
     "Luligu/matterbridge-eve-energy",
     "lxgw/B5XiZhi",

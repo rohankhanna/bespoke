@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 262,
-    "concepts": 166,
-    "observations": 167,
-    "repos": 34,
-    "terms": 166
+    "components": 282,
+    "concepts": 174,
+    "observations": 175,
+    "repos": 35,
+    "terms": 174
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "aidenlab/hic-straw",
     "aidenlab/juicebox.js",
@@ -24,10 +24,10 @@
     "atsushieno/aap-juce",
     "baicai-1145/GPT-SoVITS-CPUFast",
     "browniebroke/pypackage-template",
-    "cloudfoundry/bosh-google-cpi-release",
     "diffscope/diffscope-project",
     "erigontech/mdbx-go",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
+    "honwen/openwrt-dnsmasq-extra",
     "intel-staging/text-generation-webui",
     "joshsymonds/cc-tools",
     "lumen-oss/luarocks-tag-release",
@@ -45,6 +45,7 @@
     "pivotal/credhub-release",
     "processing/processing-website",
     "RiDDiX/home-assistant-addons",
+    "TrigenSoftware/simple-release",
     "vaporif/parry-guard",
     "version-fox/vfox-plugins"
   ]

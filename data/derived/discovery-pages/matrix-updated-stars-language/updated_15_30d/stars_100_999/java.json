@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 415,
-    "concepts": 463,
-    "observations": 463,
-    "repos": 62,
-    "terms": 461
+    "components": 419,
+    "concepts": 471,
+    "observations": 471,
+    "repos": 64,
+    "terms": 469
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -45,11 +45,13 @@
     "graalvm/native-build-tools",
     "heroku/webapp-runner",
     "ihmcrobotics/ihmc-open-robotics-software",
+    "jcefmaven/jcefmaven",
     "jdereg/json-io",
     "jpmml/jpmml-lightgbm",
     "jpmml/jpmml-sklearn",
     "jpmml/jpmml-xgboost",
     "kirill-grouchnikov/radiance",
+    "mapsforge/vtm",
     "MarcusWolschon/osmeditor4android",
     "michel-kraemer/bson4jackson",
     "microsoft/Generative-AI-for-beginners-java",

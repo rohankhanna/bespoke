@@ -1,19 +1,20 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 6,
-    "terms": 43
+    "components": 73,
+    "concepts": 44,
+    "observations": 44,
+    "repos": 7,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "Aayushm24/presidential-briefing",
+    "ADNTIO/crispy-bootloader-rp2040-rs",
     "aidenlab/juicebox-web",
     "apache/casbin-casbin.io",
     "apache/casbin-fasthttp-auth",

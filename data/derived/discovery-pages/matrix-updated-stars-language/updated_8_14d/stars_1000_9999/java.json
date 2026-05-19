@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 36,
-    "observations": 36,
-    "repos": 4,
-    "terms": 36
+    "components": 24,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 3,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "androidx/media",
     "apache/tomcat",
-    "junit-team/junit-framework",
-    "mapsforge/mapsforge"
+    "junit-team/junit-framework"
   ]
 }

@@ -3,7 +3,7 @@
     "components": 45,
     "concepts": 49,
     "observations": 49,
-    "repos": 25,
+    "repos": 24,
     "terms": 54
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "bunburysniper/bleunova-ai-agent",
@@ -32,7 +32,6 @@
     "hmellor/vllm",
     "l12203685/digital-immortality",
     "lace/lacecore",
-    "mohfer/nous-proxy",
     "NightWatcher314/dockgecli",
     "NightWatcher314/npmctl",
     "roampal-ai/roampal-labs",

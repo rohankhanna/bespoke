@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 432,
-    "concepts": 446,
-    "observations": 448,
-    "repos": 93,
-    "terms": 449
+    "concepts": 449,
+    "observations": 451,
+    "repos": 94,
+    "terms": 452
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "Alexander-Miller/treemacs",
     "amebalabs/TRex",
@@ -69,6 +69,7 @@
     "kristijanhusak/vim-dadbod-ui",
     "krzysztofzablocki/Sourcery",
     "lmbelo/python4delphi",
+    "mdn/webassembly-examples",
     "mds1/multicall3",
     "mfussenegger/nvim-jdtls",
     "microsoft/BotBuilder-Samples",

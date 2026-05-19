@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 178,
-    "concepts": 283,
-    "observations": 284,
-    "repos": 68,
-    "terms": 278
+    "components": 182,
+    "concepts": 284,
+    "observations": 285,
+    "repos": 69,
+    "terms": 279
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "angr/vex",
@@ -48,6 +48,7 @@
     "iwongu/sqlite3pp",
     "jimporter/mettle",
     "JokerJohn/LIO_SAM_6AXIS",
+    "jsk-ros-pkg/jsk_visualization",
     "KhronosGroup/OpenCL-SDK",
     "koide3/small_gicp",
     "Kong/ngx_wasm_module",

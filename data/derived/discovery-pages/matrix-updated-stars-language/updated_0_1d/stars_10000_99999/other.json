@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 36,
-    "observations": 36,
-    "repos": 5,
-    "terms": 36
+    "components": 96,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 7,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "anthropics/claude-cookbooks",
     "github-linguist/linguist",
+    "SubtitleEdit/subtitleedit",
     "swiftlang/swift",
     "triton-lang/triton",
-    "upptime/upptime"
+    "upptime/upptime",
+    "vbenjs/vue-vben-admin"
   ]
 }

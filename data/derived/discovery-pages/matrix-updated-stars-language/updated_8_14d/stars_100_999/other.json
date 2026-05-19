@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 167,
-    "concepts": 88,
-    "observations": 88,
-    "repos": 12,
-    "terms": 88
+    "components": 103,
+    "concepts": 59,
+    "observations": 59,
+    "repos": 9,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "argotorg/hevm",
     "atsushieno/ktmidi",
-    "cowprotocol/contracts",
-    "dbkangaroo/kangaroo",
+    "elixir-protobuf/protobuf",
     "emacscollective/auto-compile",
-    "jump-dev/NLopt.jl",
     "lite-xl/lite-xl-plugin-manager",
-    "mit-plv/bedrock2",
     "mrcjkb/haskell-tools.nvim",
     "sass/sass-spec",
     "Shopify/tapioca",

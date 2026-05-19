@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2791,
-    "concepts": 2404,
-    "observations": 2414,
-    "repos": 464,
-    "terms": 2376
+    "components": 2793,
+    "concepts": 2408,
+    "observations": 2418,
+    "repos": 465,
+    "terms": 2385
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "3Hren/msgpack-rust",
@@ -219,7 +219,6 @@
     "hustvl/DiffusionDrive",
     "hustvl/LightningDiT",
     "hustvl/VAD",
-    "hyperupcall/autoenv",
     "IBM/Project_CodeNet",
     "imgui-rs/imgui-rs",
     "improbable-eng/ts-protoc-gen",
@@ -263,6 +262,7 @@
     "labring/laf",
     "layumi/Person_reID_baseline_pytorch",
     "LeCAR-Lab/ASAP",
+    "libimobiledevice/idevicerestore",
     "libimobiledevice/libimobiledevice",
     "libimobiledevice/usbmuxd",
     "librespot-org/librespot",
@@ -278,6 +278,7 @@
     "markbates/goth",
     "martinus/unordered_dense",
     "MaskRay/ccls",
+    "mdn/webassembly-examples",
     "mds1/multicall3",
     "MeetKai/functionary",
     "meta-llama/llama-models",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 542,
-    "concepts": 740,
-    "observations": 740,
-    "repos": 182,
-    "terms": 728
+    "components": 545,
+    "concepts": 754,
+    "observations": 754,
+    "repos": 183,
+    "terms": 740
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "1player/host-spawn",
     "76creates/stickers",
@@ -89,6 +89,7 @@
     "evanmiller/hecate",
     "fasmide/remotemoe",
     "fasthttp/websocket",
+    "fumiama/RVC-Models-Downloader",
     "getsavvyinc/savvy-cli",
     "github/actions-oidc-debugger",
     "go-chi/cors",

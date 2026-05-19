@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 80,
-    "observations": 80,
-    "repos": 8,
-    "terms": 80
+    "components": 97,
+    "concepts": 101,
+    "observations": 101,
+    "repos": 9,
+    "terms": 100
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "ashvardanian/NumKong",
     "CloudCompare/CloudCompare",
     "gpac/gpac",
+    "marzer/tomlplusplus",
     "mstorsjo/llvm-mingw",
     "OSGeo/gdal",
     "skeeto/w64devkit",

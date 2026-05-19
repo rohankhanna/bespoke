@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 517,
+    "components": 561,
     "concepts": 270,
     "observations": 271,
     "repos": 29,
@@ -11,13 +11,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "academic/awesome-datascience",
+    "ajv-validator/ajv",
     "astral-sh/ruff",
     "blender/blender",
     "crewAIInc/crewAI",
-    "datalab-to/marker",
     "datalab-to/surya",
     "DayBreak-u/chineseocr_lite",
     "dotnet/aspnetcore",

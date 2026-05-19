@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 159,
-    "concepts": 177,
-    "observations": 177,
-    "repos": 19,
-    "terms": 176
+    "components": 128,
+    "concepts": 119,
+    "observations": 119,
+    "repos": 15,
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
-    "doctest/doctest",
     "floooh/sokol",
     "free-audio/clap",
     "google/oboe",
     "iree-org/iree",
     "KhronosGroup/KTX-Software",
-    "libbitcoin/libbitcoin-system",
     "luau-lang/luau",
-    "marzer/tomlplusplus",
     "Mithril-mine/libmdbx",
     "Nelarius/imnodes",
     "PortAudio/portaudio",
@@ -31,7 +28,6 @@
     "ufbx/ufbx",
     "ultrajson/ultrajson",
     "uxlfoundation/oneDNN",
-    "WarmUpTill/SceneSwitcher",
-    "xtensor-stack/xtensor"
+    "WarmUpTill/SceneSwitcher"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 548,
+    "components": 546,
     "concepts": 237,
     "observations": 237,
-    "repos": 187,
-    "terms": 249
+    "repos": 184,
+    "terms": 247
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "8144225309/superscalar-cln",
@@ -50,8 +50,6 @@
     "conda-forge/xeus-cpp-feedstock",
     "csm-actions/demo-client",
     "Culmus/hebrew-fonts",
-    "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf",
-    "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
     "danielrosehill/adb-ops-plugin",
     "danielrosehill/AI-Data-Utilities",
     "danielrosehill/AI-Dev-Repo-Template-1",
@@ -169,7 +167,6 @@
     "lakekeeper/lakekeeper-operator",
     "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",
     "markoswire/remember-me.ai",
-    "mohfer/nous-proxy",
     "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",
     "mukel/gptoss.java",
     "mukel/nemotron3.java",

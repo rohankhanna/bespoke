@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1339,
-    "concepts": 1138,
-    "observations": 1142,
+    "components": 1348,
+    "concepts": 1140,
+    "observations": 1144,
     "repos": 156,
-    "terms": 1136
+    "terms": 1138
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "2dust/AndroidLibXrayLite",
     "a2aproject/a2a-go",
@@ -105,7 +105,6 @@
     "istio/tools",
     "itzg/mc-monitor",
     "itzg/mc-router",
-    "JupiterRider/ffi",
     "knative/community",
     "Kong/deck",
     "kube-rbac-proxy/kube-rbac-proxy",
@@ -133,6 +132,7 @@
     "opentofu/registry",
     "operator-framework/operator-registry",
     "oracle/oci-go-sdk",
+    "osmosis-labs/osmosis",
     "ossf/osv-schema",
     "pion/ice",
     "pion/interceptor",

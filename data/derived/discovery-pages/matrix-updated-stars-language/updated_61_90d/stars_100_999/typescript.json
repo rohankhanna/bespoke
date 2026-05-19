@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1046,
-    "concepts": 186,
-    "observations": 187,
+    "components": 1052,
+    "concepts": 196,
+    "observations": 197,
     "repos": 38,
-    "terms": 200
+    "terms": 210
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
+    "actions-cool/issues-helper",
     "aelassas/bookcars",
     "agentscope-ai/agentscope-studio",
     "antfu-collective/bumpp",
@@ -50,7 +51,6 @@
     "un-ts/eslint-plugin-import-x",
     "unplugin/unplugin-vue-markdown",
     "windingwind/zotero-plugin-template",
-    "yandeu/five-server",
-    "zsviczian/excalibrain"
+    "yandeu/five-server"
   ]
 }

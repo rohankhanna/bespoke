@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1920,
-    "concepts": 1654,
-    "observations": 1657,
-    "repos": 146,
-    "terms": 1661
+    "components": 1884,
+    "concepts": 1620,
+    "observations": 1622,
+    "repos": 144,
+    "terms": 1621
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "agentscope-ai/agentscope",
     "agentscope-ai/QwenPaw",
@@ -40,6 +40,7 @@
     "cvat-ai/cvat",
     "dagster-io/dagster",
     "datalab-to/chandra",
+    "datalab-to/marker",
     "django/django",
     "DLR-RM/stable-baselines3",
     "docling-project/docling",
@@ -79,7 +80,6 @@
     "kovidgoyal/kitty",
     "kvcache-ai/ktransformers",
     "langbot-app/LangBot",
-    "langchain-ai/langgraph",
     "langchain-ai/open_deep_research",
     "LibreTranslate/LibreTranslate",
     "Lightning-AI/litgpt",
@@ -104,7 +104,6 @@
     "NVIDIA/Megatron-LM",
     "NVIDIA/TensorRT-LLM",
     "onnx/onnx",
-    "onyx-dot-app/onyx",
     "openai/openai-agents-python",
     "OpenBMB/MiniCPM-o",
     "opendatalab/MinerU",
@@ -156,7 +155,6 @@
     "unclecode/crawl4ai",
     "unslothai/unsloth",
     "vega/altair",
-    "vllm-project/vllm",
     "voxel51/fiftyone",
     "wandb/wandb",
     "wkentaro/labelme"

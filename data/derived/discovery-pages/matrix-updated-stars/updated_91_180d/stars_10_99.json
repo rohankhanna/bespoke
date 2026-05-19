@@ -1,22 +1,21 @@
 {
   "counts": {
-    "components": 2099,
-    "concepts": 1205,
-    "observations": 1213,
+    "components": 2098,
+    "concepts": 1195,
+    "observations": 1203,
     "repos": 468,
-    "terms": 1212
+    "terms": 1202
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
     "2KAbhishek/pickme.nvim",
-    "2KAbhishek/tdo.nvim",
     "2KAbhishek/termim.nvim",
     "2KAbhishek/tmux-tea",
     "2U1/Gemma3-Finetune",
@@ -146,6 +145,7 @@
     "cpmech/plotpy",
     "crate-ci/gh-install",
     "CyanSalt/commas",
+    "Cykooz/libheif-sys",
     "d3x0r/JSOX",
     "danielward27/paramax",
     "dao-xyz/borsh-ts",

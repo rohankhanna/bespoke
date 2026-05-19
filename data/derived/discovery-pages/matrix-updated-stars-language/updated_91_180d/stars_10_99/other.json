@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 397,
-    "concepts": 306,
-    "observations": 307,
-    "repos": 121,
-    "terms": 305
+    "components": 392,
+    "concepts": 295,
+    "observations": 296,
+    "repos": 120,
+    "terms": 294
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
-    "2KAbhishek/tdo.nvim",
     "2KAbhishek/termim.nvim",
     "64327069/LVAgent",
     "aarroyoc/djota",

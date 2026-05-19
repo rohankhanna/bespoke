@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 321,
-    "concepts": 386,
-    "observations": 386,
-    "repos": 60,
-    "terms": 383
+    "components": 315,
+    "concepts": 379,
+    "observations": 379,
+    "repos": 58,
+    "terms": 376
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "acts-project/traccc",
@@ -44,7 +44,6 @@
     "heiher/hev-socks5-core",
     "heiher/hev-task-system",
     "ICRAR/crc32c",
-    "JFLarvoire/the_silver_searcher",
     "jwindgassen/UnrealYAML",
     "kendryte/canmv_k230",
     "LedgerHQ/app-boilerplate",
@@ -72,7 +71,6 @@
     "walbourn/directxtextest",
     "walbourn/directxtktest",
     "xjb714/xjb",
-    "yoshoku/numo-narray-alt",
     "yquake2/yquake2remaster"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 193,
-    "concepts": 138,
-    "observations": 141,
-    "repos": 52,
-    "terms": 136
+    "components": 197,
+    "concepts": 139,
+    "observations": 142,
+    "repos": 53,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "acw/simple_asn1",
@@ -30,6 +30,7 @@
     "cosmos/ibc-proto-rs",
     "CosmWasm/cw-minus",
     "cpmech/plotpy",
+    "Cykooz/libheif-sys",
     "databendlabs/opensrv",
     "datafusion-contrib/hdfs-native-object-store",
     "Dzordzu/rust-apache-age",

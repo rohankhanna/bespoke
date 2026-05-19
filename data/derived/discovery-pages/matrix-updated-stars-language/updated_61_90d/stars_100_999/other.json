@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 565,
-    "concepts": 439,
-    "observations": 442,
-    "repos": 110,
-    "terms": 439
+    "components": 543,
+    "concepts": 452,
+    "observations": 455,
+    "repos": 112,
+    "terms": 451
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "4d49/scene-library",
@@ -64,7 +64,6 @@
     "Embarcadero/P4D-Data-Sciences",
     "Embarcadero/python4delphi",
     "ericmj/decimal",
-    "esy/esy",
     "fsharp/fslang-design",
     "garuda-linux/firedragon",
     "google-research/nested-transformer",
@@ -90,7 +89,9 @@
     "lifepillar/vim-mucomplete",
     "mathjax/MathJax-demos-web",
     "mcabbott/AxisKeys.jl",
+    "metosin/ring-swagger",
     "microsoft/microsoft-performance-toolkit-sdk",
+    "milvus-io/milvus-sdk-csharp",
     "nebula-plugins/nebula-release-plugin",
     "Nek5000/Nek5000",
     "nim-lang/vscode-nim",
@@ -99,6 +100,7 @@
     "olimorris/neotest-rspec",
     "onomojo/i18n-country-translations",
     "PacificBiosciences/pbmm2",
+    "prabirshrestha/asyncomplete.vim",
     "prettier/prettier-emacs",
     "proper-testing/proper",
     "pug-php/pug",

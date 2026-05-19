@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9517,
-    "concepts": 1728,
-    "observations": 1732,
-    "repos": 202,
-    "terms": 1751
+    "components": 9322,
+    "concepts": 1709,
+    "observations": 1713,
+    "repos": 197,
+    "terms": 1711
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "a-ghorbani/pocketpal-ai",
     "acacode/swagger-typescript-api",
@@ -32,7 +32,6 @@
     "apache/apisix-dashboard",
     "apify/fingerprint-suite",
     "apollographql/apollo-client-devtools",
-    "archestra-ai/archestra",
     "ardatan/graphql-tools",
     "argdown/argdown",
     "artifacthub/hub",
@@ -80,7 +79,6 @@
     "docker/login-action",
     "docker/setup-buildx-action",
     "dotnet/vscode-csharp",
-    "dyoshikawa/rulesync",
     "ecomfe/zrender",
     "ecyrbe/zodios",
     "electron/fiddle",
@@ -126,7 +124,6 @@
     "langchain-ai/deepagentsjs",
     "lewish/asciiflow",
     "libp2p/js-libp2p",
-    "lobehub/sd-webui-lobe-theme",
     "mathjax/MathJax-src",
     "mdn/yari",
     "messageformat/messageformat",
@@ -135,14 +132,12 @@
     "microsoft/vscode-cpptools",
     "microsoft/vscode-python",
     "MiniMax-AI/cli",
-    "mksglu/context-mode",
     "modelcontextprotocol/inspector",
     "mui/mui-x",
     "nanostores/nanostores",
     "netlify/cli",
     "ng-packagr/ng-packagr",
     "ngxson/wllama",
-    "nizos/tdd-guard",
     "nodejs/corepack",
     "nodejs/llhttp",
     "nrwl/nx-console",

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-19T05:53:33.318365+00:00`
+Generated at: `2026-05-19T11:00:38.111939+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 5
-- terms: 37
-- components: 35
-- concepts: 37
-- observations: 37
+- repos: 4
+- terms: 27
+- components: 24
+- concepts: 27
+- observations: 27
 
 ## Static behavior
 
@@ -28,7 +28,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [vale-cli/vale](https://github.com/vale-cli/vale) | 5394 | 2026-05-15T20:51:58Z | Go | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [gobackup/gobackup](https://github.com/gobackup/gobackup) | 2689 | 2026-05-15T02:35:38Z | Go | CLI | 10 | 11 | 10 | 10 |
-| [dkron-io/dkron](https://github.com/dkron-io/dkron) | 4689 | 2026-05-14T19:15:37Z | Go | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [etcd-io/bbolt](https://github.com/etcd-io/bbolt) | 9505 | 2026-05-12T13:55:28Z | Go | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [bazel-contrib/rules_go](https://github.com/bazel-contrib/rules_go) | 1478 | 2026-05-12T11:03:24Z | Go | Unknown | 3 | 0 | 3 | 3 |
 
@@ -38,6 +37,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [etcd-io/bbolt](https://github.com/etcd-io/bbolt) | 9505 | 2026-05-12T13:55:28Z | Go | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [vale-cli/vale](https://github.com/vale-cli/vale) | 5394 | 2026-05-15T20:51:58Z | Go | Infrastructure/tooling | 6 | 10 | 6 | 6 |
-| [dkron-io/dkron](https://github.com/dkron-io/dkron) | 4689 | 2026-05-14T19:15:37Z | Go | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [gobackup/gobackup](https://github.com/gobackup/gobackup) | 2689 | 2026-05-15T02:35:38Z | Go | CLI | 10 | 11 | 10 | 10 |
 | [bazel-contrib/rules_go](https://github.com/bazel-contrib/rules_go) | 1478 | 2026-05-12T11:03:24Z | Go | Unknown | 3 | 0 | 3 | 3 |

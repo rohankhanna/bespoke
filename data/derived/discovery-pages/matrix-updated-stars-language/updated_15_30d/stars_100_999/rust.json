@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1491,
-    "concepts": 986,
-    "observations": 993,
+    "components": 1486,
+    "concepts": 984,
+    "observations": 991,
     "repos": 162,
-    "terms": 979
+    "terms": 977
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "0xPolygonHermez/zisk",
@@ -113,7 +113,6 @@
     "marshallpierce/rust-base64",
     "matter-labs/zksync-airbender",
     "MercuryTechnologies/ghciwatch",
-    "messense/jieba-rs",
     "microsoft/python-environment-tools",
     "mongodb/bson-rust",
     "Mooncake-Labs/moonlink",
@@ -147,6 +146,7 @@
     "rust-lang/rustc-perf",
     "rust-lang/rustwide",
     "rust-lang/socket2",
+    "rust-lang/stdarch",
     "rust-lang/team",
     "rust-random/getrandom",
     "RustCrypto/crypto-bigint",

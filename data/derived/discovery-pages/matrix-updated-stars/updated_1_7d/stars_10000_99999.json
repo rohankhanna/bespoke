@@ -1,28 +1,24 @@
 {
   "counts": {
-    "components": 926,
-    "concepts": 479,
-    "observations": 481,
-    "repos": 42,
-    "terms": 476
+    "components": 684,
+    "concepts": 383,
+    "observations": 385,
+    "repos": 33,
+    "terms": 380
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
-    "567-labs/instructor",
     "aden-hive/hive",
-    "ajv-validator/ajv",
-    "apache/brpc",
     "apache/casbin",
     "atuinsh/atuin",
     "browserslist/browserslist",
     "ChatGPTNextWeb/NextChat",
     "clauderic/dnd-kit",
-    "Comfy-Org/ComfyUI-Manager",
     "Dao-AILab/flash-attention",
     "dense-analysis/ale",
     "DioxusLabs/dioxus",
@@ -37,23 +33,18 @@
     "lucide-icons/lucide",
     "meta-llama/llama-cookbook",
     "modelcontextprotocol/typescript-sdk",
-    "modelscope/ms-swift",
     "mozilla-ai/llamafile",
-    "mui/material-ui",
     "neovim/nvim-lspconfig",
     "nushell/nushell",
     "nvm-sh/nvm",
     "obsproject/obs-studio",
     "PDFMathTranslate/PDFMathTranslate",
-    "QuantumNous/new-api",
-    "quickwit-oss/tantivy",
     "Redocly/redoc",
     "RooCodeInc/Roo-Code",
-    "run-llama/llama_index",
     "rust-lang/mdBook",
+    "rust-lang/rust-analyzer",
     "spaceship-prompt/spaceship-prompt",
     "ungoogled-software/ungoogled-chromium",
-    "vbenjs/vue-vben-admin",
     "vercel-labs/skills"
   ]
 }

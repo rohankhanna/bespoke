@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11903,
-    "concepts": 5286,
-    "observations": 5296,
-    "repos": 2365,
-    "terms": 5305
+    "components": 11905,
+    "concepts": 5291,
+    "observations": 5301,
+    "repos": 2366,
+    "terms": 5310
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0b01/tigris-and-euphrates",
@@ -1817,6 +1817,7 @@
     "ontoportal/documentation",
     "onuralpszr/mmyolo",
     "oobabooga/screenshots",
+    "oov/aviutl_subtitler",
     "open-rpc/markdown-gen",
     "open-telemetry/opentelemetry-weaver-examples",
     "OpenBMB/General-Model-License",
@@ -2237,7 +2238,7 @@
     "Triang-jyed-driung/Albatross",
     "triton-inference-server/contrib",
     "triton-inference-server/TensorRT-LLM",
-    "tritondatacenter/node-cmdutil",
+    "TritonDataCenter/node-cmdutil",
     "trufflesecurity/test_keys",
     "tuananh/hyper-mcp",
     "turbofish-org/abci2",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10272,
-    "concepts": 8814,
-    "observations": 8823,
+    "components": 10274,
+    "concepts": 8821,
+    "observations": 8830,
     "repos": 2306,
-    "terms": 8695
+    "terms": 8697
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -961,6 +961,7 @@
     "hyperhype/hyperscript",
     "hyperic/sigar",
     "hyperopt/hyperopt-sklearn",
+    "hyperupcall/autoenv",
     "hzwer/ECCV2022-RIFE",
     "Hzzone/pytorch-openpose",
     "i-tu/Hasklig",
@@ -1992,7 +1993,6 @@
     "TadasBaltrusaitis/OpenFace",
     "taesungp/contrastive-unpaired-translation",
     "taichi-dev/difftaichi",
-    "taki0112/UGATIT",
     "taku910/mecab",
     "takuseno/d3rlpy",
     "TanStack/react-charts",

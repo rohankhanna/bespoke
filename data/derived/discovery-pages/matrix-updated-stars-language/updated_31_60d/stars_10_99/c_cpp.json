@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 223,
-    "concepts": 194,
-    "observations": 194,
-    "repos": 43,
-    "terms": 192
+    "components": 229,
+    "concepts": 201,
+    "observations": 201,
+    "repos": 45,
+    "terms": 199
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "ada-url/ada-python",
@@ -39,6 +39,7 @@
     "go-skynet/go-ggml-transformers.cpp",
     "grain-lang/binaryen.ml",
     "heal-research/pyoperon",
+    "JFLarvoire/the_silver_searcher",
     "jupyter-xeus/xeus-lua",
     "ksnip/kImageAnnotator",
     "Level/classic-level",
@@ -56,6 +57,7 @@
     "theimpossibleastronaut/rmw",
     "triton-inference-server/openvino_backend",
     "uael/sv",
+    "yoshoku/numo-narray-alt",
     "yquake2/ref_vk"
   ]
 }

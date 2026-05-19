@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 974,
-    "concepts": 135,
-    "observations": 135,
-    "repos": 28,
-    "terms": 164
+    "components": 989,
+    "concepts": 143,
+    "observations": 143,
+    "repos": 29,
+    "terms": 172
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "antfu-collective/vitesse",
@@ -26,6 +26,7 @@
     "jamiebrynes7/obsidian-todoist-plugin",
     "jnsahaj/tweakcn",
     "jonaskello/tsconfig-paths",
+    "josStorer/RWKV-Runner",
     "jupyter-widgets/ipyleaflet",
     "lobehub/lobe-chat-agents",
     "Myriad-Dreamin/typst.ts",

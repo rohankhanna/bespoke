@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 922,
-    "concepts": 1056,
-    "observations": 1063,
-    "repos": 228,
-    "terms": 1072
+    "components": 934,
+    "concepts": 1086,
+    "observations": 1093,
+    "repos": 230,
+    "terms": 1102
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "aaronwong1999/hermesclaw",
     "abey79/vpype",
@@ -33,6 +33,7 @@
     "AIR-Bench/AIR-Bench",
     "akin-ozer/cc-devops-skills",
     "akoumjian/datefinder",
+    "albumentations-team/AlbumentationsX",
     "Alibaba-NLP/qqr",
     "Alibaba-NLP/VRAG",
     "allenai/IFBench",
@@ -77,6 +78,7 @@
     "daniandtheweb/sd.cpp-webui",
     "data-apis/array-api-compat",
     "datasets/country-codes",
+    "datreeio/CRDs-catalog",
     "ddh0/easy-llama",
     "devnen/Dia-TTS-Server",
     "devnen/Kitten-TTS-Server",
@@ -153,7 +155,6 @@
     "marcelm/cutadapt",
     "matthew-brett/delocate",
     "meta-pytorch/torchft",
-    "MIC-DKFZ/dynamic-network-architectures",
     "Mic92/direnv-instant",
     "microsoft/ArchScale",
     "microsoft/multilspy",
@@ -201,6 +202,7 @@
     "rgeirhos/Stylized-ImageNet",
     "roampal-ai/roampal",
     "robot-descriptions/robot_descriptions.py",
+    "RoboTwin-Platform/RMBench",
     "rosetta-rs/argparse-rosetta-rs",
     "rtts/djhtml",
     "RUC-NLPIR/ARPO",

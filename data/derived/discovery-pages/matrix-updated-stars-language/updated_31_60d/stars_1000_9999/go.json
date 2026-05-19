@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 751,
-    "concepts": 758,
-    "observations": 759,
+    "components": 750,
+    "concepts": 764,
+    "observations": 765,
     "repos": 112,
-    "terms": 758
+    "terms": 765
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "1Password/for-open-source",
+    "alecthomas/chroma",
     "alexellis/arkade",
     "appleboy/gorush",
     "apptainer/apptainer",
@@ -53,7 +54,6 @@
     "gin-gonic/examples",
     "go-flutter-desktop/go-flutter",
     "go-redis/redis_rate",
-    "goccy/go-json",
     "goccy/go-yaml",
     "golang-jwt/jwt",
     "golang/mobile",

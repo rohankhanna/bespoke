@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1956,
-    "concepts": 1923,
-    "observations": 1933,
-    "repos": 203,
-    "terms": 1919
+    "components": 1954,
+    "concepts": 1914,
+    "observations": 1924,
+    "repos": 202,
+    "terms": 1910
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "actions/actions-runner-controller",
     "AdguardTeam/dnsproxy",
     "akuity/kargo",
     "akvorado/akvorado",
-    "alecthomas/chroma",
     "alibaba/higress",
     "allegro/bigcache",
     "anacrolix/torrent",

@@ -1,8 +1,8 @@
 {
   "counts": {
-    "components": 1094,
+    "components": 1093,
     "concepts": 1286,
-    "observations": 1296,
+    "observations": 1295,
     "repos": 203,
     "terms": 1288
   },
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -36,7 +36,6 @@
     "apple/swift-log",
     "ardalis/Result",
     "arviz-devs/arviz",
-    "athityakumar/colorls",
     "automazeio/vibeproxy",
     "awaescher/OllamaSharp",
     "aws-ia/terraform-aws-eks-blueprints",
@@ -124,6 +123,7 @@
     "kepano/obsidian-minimal",
     "KhronosGroup/glTF",
     "L3MON4D3/LuaSnip",
+    "lervag/vimtex",
     "libbpf/libbpf-bootstrap",
     "lindawangg/COVID-Net",
     "luarocks/luarocks",

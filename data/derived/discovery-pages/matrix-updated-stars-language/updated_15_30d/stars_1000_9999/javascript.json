@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3870,
-    "concepts": 744,
-    "observations": 745,
+    "components": 3875,
+    "concepts": 747,
+    "observations": 748,
     "repos": 102,
-    "terms": 739
+    "terms": 740
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "alphagov/govuk-frontend",
@@ -91,10 +91,10 @@
     "release-it/release-it",
     "reZach/secure-electron-template",
     "RisingStack/react-easy-state",
-    "rullerzhou-afk/clawd-on-desk",
     "SabakiHQ/Sabaki",
     "sindresorhus/np",
     "stdlib-js/stdlib",
+    "stylelint/stylelint-config-standard",
     "sveltejs/vite-plugin-svelte",
     "sverweij/dependency-cruiser",
     "swagger-api/swagger-editor",

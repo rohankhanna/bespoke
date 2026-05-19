@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15096,
-    "concepts": 13559,
-    "observations": 13585,
-    "repos": 4488,
-    "terms": 13345
+    "components": 15107,
+    "concepts": 13600,
+    "observations": 13626,
+    "repos": 4492,
+    "terms": 13385
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -749,6 +749,7 @@
     "buffer/libemu",
     "buptlihang/CDLA",
     "buraksezer/consistent",
+    "burningwave/core",
     "BurntSushi/cargo-benchcmp",
     "BurntSushi/critcmp",
     "BurntSushi/rust-snappy",
@@ -1659,6 +1660,7 @@
     "FudanVI/benchmarking-chinese-text-recognition",
     "fuenwang/Equirec2Perspec",
     "fuergaosi233/openai-proxy",
+    "fumiama/RVC-Models-Downloader",
     "FunAudioLLM/CV3-Eval",
     "fundamentalvision/Uni-Perceiver",
     "fuxiao0719/GeoWizard",
@@ -2505,6 +2507,7 @@
     "kubemod/kubemod",
     "kubernetes-sigs/apiserver-builder-alpha",
     "kubernetes/design-proposals-archive",
+    "kuielab/mdx-net",
     "kuielab/mdx-net-submission",
     "kumuji/mix3d",
     "KupynOrest/head_detector",
@@ -4292,6 +4295,7 @@
     "weiyithu/SurroundDepth",
     "wemake-services/flake8-eradicate",
     "wemake-services/wemake-vue-template",
+    "wenet-e2e/wetts",
     "wenquanlu/HandRefiner",
     "wescode/lemmy_migrate",
     "WICG/file-system-access",

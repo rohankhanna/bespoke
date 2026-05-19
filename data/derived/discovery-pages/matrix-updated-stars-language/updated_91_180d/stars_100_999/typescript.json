@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1187,
+    "components": 1212,
     "concepts": 202,
     "observations": 202,
-    "repos": 42,
+    "repos": 43,
     "terms": 201
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "adaltas/node-http-status",
     "addyosmani/chatty",
@@ -55,6 +55,7 @@
     "uni-helper/uni-network",
     "vuejs/vue-eslint-parser",
     "weaviate/elysia-frontend",
-    "Wykks/ngx-mapbox-gl"
+    "Wykks/ngx-mapbox-gl",
+    "zsviczian/excalibrain"
   ]
 }

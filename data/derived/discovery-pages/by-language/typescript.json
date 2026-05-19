@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 62634,
+    "components": 62636,
     "concepts": 10881,
     "observations": 10916,
     "repos": 1912,
@@ -10,7 +10,7 @@
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "06ketan/slideshot",

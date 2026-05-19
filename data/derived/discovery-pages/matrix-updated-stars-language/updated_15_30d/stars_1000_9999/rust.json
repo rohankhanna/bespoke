@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1784,
-    "concepts": 1343,
-    "observations": 1348,
-    "repos": 170,
-    "terms": 1349
+    "components": 1779,
+    "concepts": 1362,
+    "observations": 1367,
+    "repos": 169,
+    "terms": 1355
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "0xPlaygrounds/rig",
     "64bit/async-openai",
-    "abraxas-365/langchain-rust",
     "AccessKit/accesskit",
     "actix/actix",
     "actix/examples",
@@ -33,6 +32,7 @@
     "aws/amazon-q-developer-cli",
     "axodotdev/cargo-dist",
     "bheisler/criterion.rs",
+    "bionic-gpt/bionic-gpt",
     "bitcoindevkit/bdk",
     "blacknon/hwatch",
     "bluealloy/revm",
@@ -57,6 +57,7 @@
     "Devolutions/IronRDP",
     "dimforge/kiss3d",
     "dimforge/nalgebra",
+    "dora-rs/dora",
     "dtolnay/cxx",
     "EmbarkStudios/puffin",
     "erebe/wstunnel",
@@ -78,7 +79,6 @@
     "googlefonts/Inconsolata",
     "graphql-rust/juniper",
     "GreptimeTeam/greptimedb",
-    "hashintel/hash",
     "hermit-os/kernel",
     "hickory-dns/hickory-dns",
     "holochain/holochain",
@@ -134,13 +134,11 @@
     "robustmq/robustmq",
     "romanz/electrs",
     "ron-rs/ron",
-    "rusqlite/rusqlite",
     "rust-bitcoin/rust-bitcoin",
     "rust-cli/config-rs",
     "rust-cli/human-panic",
     "rust-cross/cargo-zigbuild",
     "Rust-GPU/rust-gpu",
-    "rust-lang/cc-rs",
     "rust-lang/crates.io",
     "rust-lang/docs.rs",
     "rust-lang/flate2-rs",
@@ -183,6 +181,7 @@
     "VOICEVOX/voicevox_core",
     "vulkano-rs/vulkano",
     "wasm-bindgen/wasm-bindgen",
-    "wasm-bindgen/wasm-pack"
+    "wasm-bindgen/wasm-pack",
+    "watchexec/watchexec"
   ]
 }

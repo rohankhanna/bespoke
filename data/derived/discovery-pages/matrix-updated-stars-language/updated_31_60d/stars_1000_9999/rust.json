@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 783,
-    "concepts": 552,
-    "observations": 558,
-    "repos": 92,
-    "terms": 554
+    "components": 819,
+    "concepts": 563,
+    "observations": 569,
+    "repos": 96,
+    "terms": 578
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "01mf02/jaq",
+    "abraxas-365/langchain-rust",
     "alexpasmantier/television",
     "algesten/ureq",
     "alloy-rs/alloy",
@@ -50,6 +51,7 @@
     "google/tarpc",
     "GuillaumeGomez/sysinfo",
     "gyscos/cursive",
+    "hashintel/hash",
     "hyperium/h2",
     "hyperium/http",
     "hyperledger-solang/solang",
@@ -83,8 +85,10 @@
     "open-telemetry/opentelemetry-rust",
     "openai/harmony",
     "pop-os/cosmic-text",
+    "rusqlite/rusqlite",
     "rust-cli/confy",
     "rust-cli/env_logger",
+    "rust-lang/cc-rs",
     "rust-lang/futures-rs",
     "rust-lang/log",
     "Rust-SDL2/rust-sdl2",

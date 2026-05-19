@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 87,
-    "concepts": 171,
-    "observations": 171,
-    "repos": 68,
-    "terms": 171
+    "components": 92,
+    "concepts": 190,
+    "observations": 190,
+    "repos": 69,
+    "terms": 190
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "abarisain/dmix",
     "aidenlab/Juicebox",
@@ -26,6 +26,7 @@
     "Backblaze/JavaReedSolomon",
     "brettwooldridge/HikariCP-benchmark",
     "btkelly/gnag",
+    "burningwave/core",
     "Byte-Lab/JCoz",
     "carrot2/elasticsearch-carrot2",
     "citiususc/calendula",

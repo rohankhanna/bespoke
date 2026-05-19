@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1069,
-    "concepts": 1081,
-    "observations": 1082,
-    "repos": 189,
-    "terms": 1075
+    "components": 1061,
+    "concepts": 1075,
+    "observations": 1076,
+    "repos": 188,
+    "terms": 1069
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "AcademySoftwareFoundation/Imath",
@@ -148,7 +148,6 @@
     "nvpro-samples/vk_gltf_renderer",
     "ofiwg/libfabric",
     "oneapi-src/level-zero",
-    "onnx/optimizer",
     "open-telemetry/opentelemetry-dotnet-instrumentation",
     "openSUSE/catatonit",
     "openSUSE/libsolv",

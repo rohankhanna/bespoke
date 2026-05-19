@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 10,
-    "observations": 10,
+    "components": 10,
+    "concepts": 6,
+    "observations": 6,
     "repos": 1,
-    "terms": 10
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
-    "rust-lang/rust-analyzer"
+    "quickwit-oss/tantivy"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1632,
-    "concepts": 1348,
-    "observations": 1350,
+    "components": 1635,
+    "concepts": 1345,
+    "observations": 1347,
     "repos": 291,
-    "terms": 1346
+    "terms": 1366
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "actboy168/json.lua",
@@ -172,6 +172,7 @@
     "jeremymailen/kotlinter-gradle",
     "jonatas/fast",
     "jsdoc/jsdoc.github.io",
+    "jsonbored/claudepro-directory",
     "JuliaDebug/JuliaInterpreter.jl",
     "JuliaImGui/CImGui.jl",
     "JuliaInterop/Clang.jl",
@@ -201,7 +202,6 @@
     "melix/jmh-gradle-plugin",
     "metauto-ai/agent-as-a-judge",
     "metosin/jsonista",
-    "metosin/ring-swagger",
     "metosin/spec-tools",
     "microsoft/DirectX-Specs",
     "microsoft/dotnet-framework-docker",
@@ -210,7 +210,6 @@
     "microsoft/vssetup.powershell",
     "microsoft/winget-cli-restsource",
     "MiloszKrajewski/K4os.Compression.LZ4",
-    "milvus-io/milvus-sdk-csharp",
     "MindWorkAI/AI-Studio",
     "mirage/mirage-www",
     "ml-explore/mlx-swift-lm",
@@ -240,7 +239,6 @@
     "paretosecurity/pareto-mac",
     "PKU-YuanGroup/OpenS2V-Nexus",
     "ppwwyyxx/cocoapi",
-    "prabirshrestha/asyncomplete.vim",
     "pry/pry-stack_explorer",
     "purcell/envrc",
     "pybind/pybind11_bazel",
@@ -299,7 +297,9 @@
     "ugexe/zef",
     "ungoogled-software/ungoogled-chromium-debian",
     "usnistgov/ACVP-Server",
+    "vim-fuzzbox/fuzzbox.vim",
     "vim-jp/vital.vim",
+    "vladimir-kotikov/clink-completions",
     "vuki656/package-info.nvim",
     "w3c/web-performance",
     "w3c/webdriver-bidi",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 683,
-    "concepts": 619,
-    "observations": 622,
-    "repos": 87,
-    "terms": 638
+    "components": 723,
+    "concepts": 657,
+    "observations": 661,
+    "repos": 90,
+    "terms": 682
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -60,6 +60,7 @@
     "karpathy/nanochat",
     "KittenML/KittenTTS",
     "langchain-ai/deepagents",
+    "langchain-ai/langgraph",
     "letta-ai/letta",
     "localstack/localstack",
     "m-bain/whisperX",
@@ -69,6 +70,7 @@
     "microsoft/playwright-python",
     "microsoft/pyright",
     "mingrammer/diagrams",
+    "onyx-dot-app/onyx",
     "openai/evals",
     "openai/gpt-oss",
     "openai/gym",
@@ -97,6 +99,7 @@
     "Textualize/rich",
     "thu-ml/tianshou",
     "titanwings/colleague-skill",
+    "vllm-project/vllm",
     "wshobson/agents",
     "ycm-core/YouCompleteMe",
     "ymcui/Chinese-BERT-wwm",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2949,
-    "concepts": 3205,
-    "observations": 3217,
-    "repos": 365,
-    "terms": 3179
+    "components": 2938,
+    "concepts": 3198,
+    "observations": 3210,
+    "repos": 362,
+    "terms": 3170
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "a2aproject/a2a-python",
@@ -173,7 +173,6 @@
     "jmespath/jmespath.py",
     "joerick/pyinstrument",
     "joke2k/django-environ",
-    "JuergenFleiss/aTrain",
     "jupyter/docker-stacks",
     "Kaliiiiiiiiii-Vinyzu/patchright-python",
     "KellerJordan/modded-nanogpt",
@@ -227,7 +226,6 @@
     "mozilla-ai/any-agent",
     "mozilla-ai/any-llm",
     "mozilla/pontoon",
-    "mozillazg/python-pinyin",
     "ms-jpq/chadtree",
     "ms-jpq/coq_nvim",
     "mujocolab/mjlab",
@@ -236,7 +234,6 @@
     "nagadomi/nunif",
     "neo4j/neo4j-python-driver",
     "nerfstudio-project/gsplat",
-    "nesquena/hermes-webui",
     "newton-physics/newton",
     "nix-community/NUR",
     "noahcao/OC_SORT",

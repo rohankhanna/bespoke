@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 601,
+    "components": 603,
     "concepts": 239,
     "observations": 240,
-    "repos": 153,
-    "terms": 259
+    "repos": 156,
+    "terms": 261
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "8144225309/superscalar-docs",
@@ -50,6 +50,8 @@
     "damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
     "damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
     "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf",
+    "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf",
+    "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
     "damacol/meta-llama-llama-3-2-3b",
     "damacol/xai-org-grok-2",
     "danielrosehill/adb-keep-awake",
@@ -134,6 +136,7 @@
     "lakekeeper/nats.rs",
     "MaterializeInc/duckdb-rs",
     "mitchuski/agentprivacy-skills",
+    "mohfer/nous-proxy",
     "mupozg823/codelens-mcp-plugin",
     "Nambers/ssrJSON-benchmark",
     "netdur/llama_cpp_rust",

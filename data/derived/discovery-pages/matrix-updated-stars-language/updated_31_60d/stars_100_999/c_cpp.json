@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 432,
-    "concepts": 586,
-    "observations": 589,
+    "components": 437,
+    "concepts": 584,
+    "observations": 587,
     "repos": 111,
-    "terms": 582
+    "terms": 580
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "aibasel/downward",
@@ -96,6 +96,7 @@
     "NiLuJe/FBInk",
     "nx10/httpgd",
     "objectbox/objectbox-c",
+    "onnx/optimizer",
     "OpenLightingProject/ola",
     "osmcode/libosmium",
     "PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition",
@@ -116,7 +117,6 @@
     "triton-inference-server/python_backend",
     "usdot-fhwa-stol/carma-platform",
     "uxlfoundation/oneMath",
-    "vcflib/vcflib",
     "vectr-ucla/direct_lidar_inertial_odometry",
     "VeriSilicon/TIM-VX",
     "vovkos/doxyrest",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 255,
-    "concepts": 341,
-    "observations": 342,
+    "components": 258,
+    "concepts": 344,
+    "observations": 346,
     "repos": 67,
-    "terms": 340
+    "terms": 343
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
     "analysis-tools-dev/dynamic-analysis",
     "ardalis/ApiEndpoints",
+    "athityakumar/colorls",
     "autofac/Autofac",
     "bbatsov/crux",
     "bbatsov/projectile",
@@ -48,7 +49,6 @@
     "liuchengxu/vim-which-key",
     "lunarmodules/busted",
     "MahmoudAshraf97/whisper-diarization",
-    "mdn/webassembly-examples",
     "mhinz/vim-signify",
     "michalmuskala/jason",
     "mono/CppSharp",

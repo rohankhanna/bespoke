@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 202,
-    "concepts": 126,
-    "observations": 126,
-    "repos": 43,
-    "terms": 137
+    "components": 189,
+    "concepts": 125,
+    "observations": 125,
+    "repos": 41,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "andriykohut/pdm-readiness",
@@ -52,10 +52,8 @@
     "scaleway/serverless-api-framework-python",
     "TJC-LP/sanzaru",
     "triton-inference-server/TensorRT-LLM",
-    "UnknownPlatypus/djangofmt-pre-commit",
     "usdot-fhwa-stol/carma-config",
     "usdot-fhwa-stol/cdasim-config",
-    "verkyyi/tokenman",
     "zopefoundation/meta"
   ]
 }

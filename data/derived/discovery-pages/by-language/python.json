@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 17733,
-    "concepts": 26679,
-    "observations": 26730,
+    "concepts": 26686,
+    "observations": 26737,
     "repos": 6688,
-    "terms": 26485
+    "terms": 26493
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -3601,6 +3601,7 @@
     "kubeflow/xgboost-operator",
     "kubernetes-client/python",
     "kubernetes-sigs/jobset",
+    "kuielab/mdx-net",
     "kuielab/mdx-net-submission",
     "kumuji/mix3d",
     "KupynOrest/head_detector",
@@ -5897,7 +5898,6 @@
     "taichi-dev/voxel-challenge",
     "Taited/clip-score",
     "taki0112/SPADE-Tensorflow",
-    "taki0112/UGATIT",
     "takuma104/diffusers",
     "takuseno/d3rlpy",
     "takuseno/d3rlpy-benchmarks",

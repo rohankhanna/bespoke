@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1397,
-    "concepts": 205,
-    "observations": 206,
-    "repos": 59,
-    "terms": 231
+    "components": 1437,
+    "concepts": 212,
+    "observations": 213,
+    "repos": 61,
+    "terms": 240
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
     "acro5piano/kysely-migration-cli",
     "agents-squads/squads-cli",
+    "almogdepaz/wolfpack",
     "apache/incubator-devlake-website",
     "automazeio/proof",
     "ava-labs/avalanche-dapp-sdks",
@@ -49,6 +50,7 @@
     "ipikuka/rehype-highlight-code-lines",
     "ipikuka/remark-flexible-containers",
     "jerseycheese/narraitor",
+    "jkheadley/instar",
     "joshwooding/vite-plugin-react-docgen-typescript",
     "labring/fastgpt-plugin",
     "literalpie/storybook-framework-qwik",

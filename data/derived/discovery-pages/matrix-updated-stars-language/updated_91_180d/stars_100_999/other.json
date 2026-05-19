@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 771,
-    "concepts": 748,
-    "observations": 749,
-    "repos": 192,
-    "terms": 743
+    "components": 805,
+    "concepts": 751,
+    "observations": 752,
+    "repos": 193,
+    "terms": 746
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -89,6 +89,7 @@
     "emacs-lsp/lsp-treemacs",
     "envato/zxcvbn-ruby",
     "envoyproxy/data-plane-api",
+    "esy/esy",
     "evadne/etso",
     "excubo-ag/WebCompiler",
     "fdschmidt93/telescope-egrepify.nvim",

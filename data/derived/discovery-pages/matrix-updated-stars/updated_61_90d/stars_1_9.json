@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 591,
-    "concepts": 427,
-    "observations": 427,
-    "repos": 128,
-    "terms": 421
+    "components": 601,
+    "concepts": 435,
+    "observations": 435,
+    "repos": 129,
+    "terms": 429
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "0x676e67/0x676e67",
@@ -20,6 +20,7 @@
     "a16z/arkworks-algebra",
     "AchimPieters/esp32-udp-logger",
     "actions-cool/.github",
+    "actions-cool/test-issues-helper",
     "actions-oss/act-cli",
     "adityasugandhi/skillsync-mcp",
     "adobe-type-tools/Adobe-Manga1",

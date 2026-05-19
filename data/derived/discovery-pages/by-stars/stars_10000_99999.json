@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 33297,
-    "concepts": 15151,
-    "observations": 15207,
-    "repos": 1710,
-    "terms": 15112
+    "components": 33315,
+    "concepts": 15157,
+    "observations": 15213,
+    "repos": 1711,
+    "terms": 15118
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -1507,6 +1507,7 @@
     "styleguidist/react-styleguidist",
     "stylelint/stylelint",
     "subframe7536/maple-font",
+    "SubtitleEdit/subtitleedit",
     "suno-ai/bark",
     "super-linter/super-linter",
     "superclaude-org/superclaude_framework",

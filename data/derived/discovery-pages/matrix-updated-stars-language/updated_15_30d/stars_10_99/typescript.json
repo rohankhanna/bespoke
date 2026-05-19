@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2733,
-    "concepts": 528,
-    "observations": 532,
-    "repos": 97,
-    "terms": 534
+    "components": 2693,
+    "concepts": 521,
+    "observations": 525,
+    "repos": 95,
+    "terms": 525
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -20,7 +20,6 @@
     "adyscorpius/logseq-jira",
     "aggre/ullr",
     "Airfooox/cron-validate",
-    "almogdepaz/wolfpack",
     "apollographql/vscode-graphql",
     "appsignal/appsignal-javascript",
     "Azure/bicep-deploy",
@@ -65,7 +64,6 @@
     "jbaubree/sitemap-ts",
     "jbaubree/vite-plugin-pages-sitemap",
     "jest-community/eslint-plugin-jest-extended",
-    "jkheadley/instar",
     "julia-actions/install-juliaup",
     "Kastalien-Research/thoughtbox",
     "KazariEX/dxup",

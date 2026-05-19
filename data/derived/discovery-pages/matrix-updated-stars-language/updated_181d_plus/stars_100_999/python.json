@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1171,
-    "concepts": 5443,
-    "observations": 5448,
-    "repos": 1836,
-    "terms": 5291
+    "components": 1174,
+    "concepts": 5451,
+    "observations": 5456,
+    "repos": 1838,
+    "terms": 5300
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -1017,6 +1017,7 @@
     "kpe/bert-for-tf2",
     "kpertsch/rlds_dataset_builder",
     "krrish94/nerf-pytorch",
+    "kuielab/mdx-net",
     "kuielab/mdx-net-submission",
     "kumuji/mix3d",
     "KupynOrest/head_detector",
@@ -1720,6 +1721,7 @@
     "weaviate/semantic-search-through-wikipedia-with-weaviate",
     "weiyithu/SurroundDepth",
     "wemake-services/flake8-eradicate",
+    "wenet-e2e/wetts",
     "wenquanlu/HandRefiner",
     "wescode/lemmy_migrate",
     "wileewang/TransPixeler",

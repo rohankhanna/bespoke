@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9511,
-    "concepts": 11338,
-    "observations": 11366,
-    "repos": 2355,
-    "terms": 11245
+    "components": 9513,
+    "concepts": 11343,
+    "observations": 11371,
+    "repos": 2356,
+    "terms": 11250
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0ldsk00l/nestopia",
@@ -1743,6 +1743,7 @@
     "onnx/onnx-tensorrt",
     "onnx/optimizer",
     "onnxsim/onnxsim",
+    "oov/aviutl_subtitler",
     "open-quantum-safe/liboqs",
     "open-source-parsers/jsoncpp",
     "open-telemetry/opentelemetry-dotnet-instrumentation",

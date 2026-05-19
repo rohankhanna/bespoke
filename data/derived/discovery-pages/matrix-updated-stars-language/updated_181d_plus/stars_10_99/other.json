@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1994,
-    "concepts": 1838,
-    "observations": 1844,
-    "repos": 812,
-    "terms": 1832
+    "components": 1999,
+    "concepts": 1849,
+    "observations": 1855,
+    "repos": 813,
+    "terms": 1843
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x7432/asm-ru",
@@ -28,6 +28,7 @@
     "20000yshust/SWARM",
     "2KAbhishek/co-author.nvim",
     "2KAbhishek/octohub.nvim",
+    "2KAbhishek/tdo.nvim",
     "2KAbhishek/utils.nvim",
     "a115/exmatrix",
     "aaronjensen/eslintd-fix",

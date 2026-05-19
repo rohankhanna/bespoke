@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 195,
-    "concepts": 189,
-    "observations": 190,
+    "components": 194,
+    "concepts": 196,
+    "observations": 197,
     "repos": 51,
-    "terms": 187
+    "terms": 194
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "apache/rocketmq-client-cpp",
     "arduino-libraries/Ethernet",
@@ -34,7 +34,6 @@
     "haosulab/SAPIEN",
     "hhyyrylainen/GodotPckTool",
     "isciences/exactextract",
-    "jsk-ros-pkg/jsk_visualization",
     "KamilSJaron/smudgeplot",
     "KhronosGroup/OpenCL-Headers",
     "KhronosGroup/OpenGL-Registry",
@@ -60,6 +59,7 @@
     "Tomas-M/iotop",
     "usnistgov/trec_eval",
     "ValveSoftware/Fossilize",
+    "vcflib/vcflib",
     "veorq/SipHash",
     "websockets/bufferutil",
     "xtensor-stack/xtensor-python",

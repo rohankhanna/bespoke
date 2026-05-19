@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3909,
-    "concepts": 2819,
-    "observations": 2824,
+    "components": 3961,
+    "concepts": 2789,
+    "observations": 2794,
     "repos": 714,
-    "terms": 2807
+    "terms": 2779
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "0k/shyaml",
     "10up/action-wordpress-plugin-asset-update",
@@ -147,7 +147,6 @@
     "bshuster-repo/logrus-logstash-hook",
     "Builditluc/wiki-tui",
     "buildpacks/spec",
-    "burningwave/core",
     "BurntSushi/rebar",
     "bvaughn/react-window-infinite-loader",
     "bytedance/BindWeave",
@@ -257,6 +256,7 @@
     "envoyproxy/data-plane-api",
     "eps696/stylegan2ada",
     "erkyrath/glulxe",
+    "esy/esy",
     "ethereum-optimism/asterisc",
     "ethstaker/ethstaker-guides",
     "evadne/etso",
@@ -281,7 +281,6 @@
     "FlagOpen/RoboOS",
     "FluxML/MLJFlux.jl",
     "fudan-zvg/PVG",
-    "fumiama/RVC-Models-Downloader",
     "funcool/promesa",
     "gafniguy/4D-Facial-Avatars",
     "gajus/eslint-plugin-sql",
@@ -366,6 +365,7 @@
     "JokerJohn/LIO_SAM_6AXIS",
     "joshwlewis/unitwise",
     "jpmml/jpmml-evaluator",
+    "jsk-ros-pkg/jsk_visualization",
     "jsonquerylang/jsonquery",
     "jtdaugherty/vty",
     "juji-io/editscript",
@@ -694,7 +694,6 @@
     "weaviate/elysia-frontend",
     "WebAssembly/tool-conventions",
     "wenet-e2e/WenetSpeech",
-    "wenet-e2e/wetts",
     "whatwg/meta",
     "WICG/layout-instability",
     "wilkerlucio/pathom3",
@@ -726,6 +725,7 @@
     "zhiyuanyou/DeQA-Score",
     "zippoxer/recall",
     "zixaphir/Stable-Diffusion-Webui-Civitai-Helper",
-    "zonyitoo/rust-ini"
+    "zonyitoo/rust-ini",
+    "zsviczian/excalibrain"
   ]
 }

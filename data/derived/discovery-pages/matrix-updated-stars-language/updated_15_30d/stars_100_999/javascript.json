@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2426,
-    "concepts": 546,
-    "observations": 555,
+    "components": 2422,
+    "concepts": 529,
+    "observations": 538,
     "repos": 99,
-    "terms": 541
+    "terms": 524
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
@@ -35,7 +35,6 @@
     "chaijs/chai-http",
     "chrisgoringe/cg-image-filter",
     "ClickHouse/agent-skills",
-    "coderaiser/putout",
     "commitizen/cz-conventional-changelog",
     "conda-forge/conda-forge.github.io",
     "conventional-changelog/releaser-tools",
@@ -101,6 +100,7 @@
     "semantic-release/github",
     "semantic-release/npm",
     "speced/respec",
+    "stylelint/stylelint-config-recommended",
     "sveltejs/dts-buddy",
     "Taritsyn/BundleTransformer",
     "tc39/notes",

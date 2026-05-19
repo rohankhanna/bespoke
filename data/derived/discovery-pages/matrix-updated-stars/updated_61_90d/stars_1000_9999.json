@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2303,
-    "concepts": 1546,
-    "observations": 1549,
-    "repos": 313,
-    "terms": 1557
+    "components": 2320,
+    "concepts": 1559,
+    "observations": 1563,
+    "repos": 315,
+    "terms": 1569
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -46,6 +46,7 @@
     "arktypeio/arktype",
     "arrayfire/arrayfire",
     "astanin/python-tabulate",
+    "athityakumar/colorls",
     "autofac/Autofac",
     "automazeio/ccpm",
     "bambinos/bambi",
@@ -110,6 +111,7 @@
     "eradman/entr",
     "estree/estree",
     "ex-aws/ex_aws",
+    "explosion/spacy-models",
     "facebookresearch/co-tracker",
     "facebookresearch/fvcore",
     "facebookresearch/habitat-lab",
@@ -122,6 +124,7 @@
     "formtastic/formtastic",
     "freerange/mocha",
     "fschutt/printpdf",
+    "goccy/go-json",
     "golang/oauth2",
     "google/argh",
     "google/cel-spec",
@@ -159,6 +162,7 @@
     "jnsahaj/tweakcn",
     "JohannesKaufmann/html-to-markdown",
     "jonaskello/tsconfig-paths",
+    "josStorer/RWKV-Runner",
     "jpanther/congo",
     "json-c/json-c",
     "json-path/JsonPath",
@@ -174,7 +178,6 @@
     "langfengQ/verl-agent",
     "leethomason/tinyxml2",
     "libgit2/rugged",
-    "libimobiledevice/idevicerestore",
     "lieff/minimp3",
     "lite-xl/lite-xl",
     "liuchengxu/vim-which-key",
@@ -189,7 +192,6 @@
     "MahmoudAshraf97/whisper-diarization",
     "mailru/easyjson",
     "mattn/efm-langserver",
-    "mdn/webassembly-examples",
     "memononen/nanovg",
     "mhinz/vim-signify",
     "michalmuskala/jason",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3455,
-    "concepts": 2928,
-    "observations": 2944,
-    "repos": 383,
-    "terms": 2904
+    "components": 3447,
+    "concepts": 2921,
+    "observations": 2937,
+    "repos": 382,
+    "terms": 2897
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -215,6 +215,7 @@
     "jruby/jruby",
     "JuliaAI/MLJ.jl",
     "JuliaData/DataFrames.jl",
+    "JuliaGPU/CUDA.jl",
     "JuliaLang/IJulia.jl",
     "JuliaLang/PackageCompiler.jl",
     "JuliaPlots/UnicodePlots.jl",
@@ -233,10 +234,8 @@
     "kubernetes-monitoring/kubernetes-mixin",
     "lambdalisue/vim-fern",
     "ldc-developers/ldc",
-    "lervag/vimtex",
     "lewis6991/gitsigns.nvim",
     "LibreHardwareMonitor/LibreHardwareMonitor",
-    "licensee/licensed",
     "lm-sensors/lm-sensors",
     "lobsters/lobsters",
     "lowRISC/opentitan",

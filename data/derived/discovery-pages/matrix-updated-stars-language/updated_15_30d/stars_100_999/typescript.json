@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5026,
-    "concepts": 1078,
-    "observations": 1080,
-    "repos": 154,
-    "terms": 1080
+    "components": 4874,
+    "concepts": 1067,
+    "observations": 1069,
+    "repos": 150,
+    "terms": 1068
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
@@ -72,9 +72,6 @@
     "glassflow/clickhouse-etl",
     "gradle/actions",
     "graphprotocol/graph-client",
-    "grubersjoe/github-contributions-api",
-    "grubersjoe/react-activity-calendar",
-    "grubersjoe/react-github-calendar",
     "harlan-zw/mdream",
     "haskell/vscode-haskell",
     "heroku/cli",
@@ -157,7 +154,6 @@
     "tats-u/markdown-cjk-friendly",
     "tinylibs/tinyexec",
     "tlaplus/vscode-tlaplus",
-    "tony1223/better-agent-terminal",
     "un-ts/prettier",
     "un-ts/synckit",
     "unjs/c12",

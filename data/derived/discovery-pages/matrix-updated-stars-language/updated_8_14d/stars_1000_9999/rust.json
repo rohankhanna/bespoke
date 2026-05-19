@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 164,
-    "concepts": 123,
-    "observations": 123,
-    "repos": 12,
-    "terms": 120
+    "components": 133,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 9,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "agentclientprotocol/agent-client-protocol",
-    "bionic-gpt/bionic-gpt",
     "cordx56/rustowl",
-    "dora-rs/dora",
     "hermit-os/hermit-rs",
     "josh-project/josh",
     "JuliaLang/juliaup",
     "junhoyeo/tokscale",
     "lance-format/lance",
     "reubeno/brush",
-    "ros2-rust/ros2_rust",
-    "watchexec/watchexec"
+    "ros2-rust/ros2_rust"
   ]
 }

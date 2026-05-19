@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 43,
-    "observations": 44,
-    "repos": 4,
-    "terms": 43
+    "components": 59,
+    "concepts": 80,
+    "observations": 81,
+    "repos": 7,
+    "terms": 80
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
+    "doctest/doctest",
     "harfbuzz/harfbuzz",
+    "libbitcoin/libbitcoin-system",
     "riscv-collab/riscv-gnu-toolchain",
-    "swiftlang/swift-llbuild"
+    "swiftlang/swift-llbuild",
+    "xtensor-stack/xtensor"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 560,
-    "concepts": 396,
-    "observations": 398,
+    "components": 599,
+    "concepts": 382,
+    "observations": 384,
     "repos": 64,
-    "terms": 402
+    "terms": 389
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -49,7 +49,6 @@
     "macrozheng/mall",
     "mathjax/MathJax",
     "microsoft/AirSim",
-    "modelscope/FunASR",
     "nikic/PHP-Parser",
     "PaddlePaddle/PaddleDetection",
     "peers/peerjs",
@@ -71,6 +70,7 @@
     "tpope/vim-fugitive",
     "typicode/husky",
     "uber-go/zap",
+    "vercel/satori",
     "vibrantlabsai/ragas",
     "videojs/video.js",
     "Wan-Video/Wan2.1",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 266,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 85,
-    "terms": 110
+    "components": 256,
+    "concepts": 103,
+    "observations": 103,
+    "repos": 84,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "1000ch/Sublime-csso",
@@ -84,7 +84,6 @@
     "maeste/a2a-tck",
     "Mountchicken/Mountchicken",
     "mudler/vulkan-sdk-arm",
-    "nod-ai/diffusers",
     "openwdl/governance",
     "praw-dev/.github",
     "prestodb/presto-dev",

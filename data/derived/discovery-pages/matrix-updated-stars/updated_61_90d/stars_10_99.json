@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1633,
-    "concepts": 876,
-    "observations": 877,
+    "components": 1631,
+    "concepts": 880,
+    "observations": 881,
     "repos": 304,
-    "terms": 872
+    "terms": 876
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "10up/action-repo-automator",
@@ -55,6 +55,7 @@
     "apache/pdfbox-docs",
     "apache/seatunnel-tools",
     "apostrophecms/apostrophe-astro",
+    "appwrite/playground-for-node",
     "aquasecurity/k8s-node-collector",
     "aquasecurity/setup-trivy",
     "aseprite/clip",
@@ -121,7 +122,6 @@
     "cvat-ai/datumaro",
     "cyberark/conjur-api-go",
     "Cykooz/libheif-rs",
-    "Cykooz/libheif-sys",
     "dacap/observable",
     "DamageLabs/paper_trail_manager",
     "dannyhw/react-native-storybook-starter",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10674,
-    "concepts": 7432,
-    "observations": 7461,
+    "components": 10717,
+    "concepts": 7389,
+    "observations": 7418,
     "repos": 2027,
-    "terms": 7406
+    "terms": 7370
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0aids/imnodes",
@@ -26,7 +26,6 @@
     "24mlight/a-share-mcp-is-just-i-need",
     "2KAbhishek/nerdy.nvim",
     "2KAbhishek/pickme.nvim",
-    "2KAbhishek/tdo.nvim",
     "2KAbhishek/termim.nvim",
     "2KAbhishek/tmux-tea",
     "2U1/Gemma3-Finetune",
@@ -373,7 +372,6 @@
     "buildpacks/spec",
     "Bujiazi/DiCache",
     "buriy/python-readability",
-    "burningwave/core",
     "BurntSushi/rebar",
     "ButTaiwan/taigivs",
     "buttercannfly/AIPex",
@@ -528,6 +526,7 @@
     "cvg/Hierarchical-Localization",
     "CyanSalt/commas",
     "cyberark/conjur",
+    "Cykooz/libheif-sys",
     "czk23/YiTu",
     "cztomczak/cefpython",
     "d3/d3",
@@ -710,6 +709,7 @@
     "espressif/ESP8266_RTOS_SDK",
     "espressosystems/espresso-systems-common",
     "EspressoSystems/jellyfish-compat",
+    "esy/esy",
     "ethereum-optimism/asterisc",
     "ethereum-optimism/kurtosis-test",
     "ethereum/eipw",
@@ -786,7 +786,6 @@
     "fudan-zvg/PVG",
     "fukuball/jieba-php",
     "fullstorydev/grpcurl",
-    "fumiama/RVC-Models-Downloader",
     "funcool/promesa",
     "funstory-ai/BabelDOC-Assets",
     "gafniguy/4D-Facial-Avatars",
@@ -958,7 +957,6 @@
     "hustvl/LightningDiT",
     "hustvl/VAD",
     "hyperbrew/bolt-cep",
-    "hyperupcall/autoenv",
     "HZAI-ZJNU/happy-llm-ppt",
     "i3/i3",
     "ibireme/c_numconv_benchmark",
@@ -1079,6 +1077,7 @@
     "jpmml/r2pmml",
     "jruby/maven-tools",
     "jsdom/.github",
+    "jsk-ros-pkg/jsk_visualization",
     "json-schema-org/.github",
     "jsonquerylang/jsonquery",
     "jsonquerylang/jsonquery-python",
@@ -1189,6 +1188,7 @@
     "Level/community",
     "lh3/gfatools",
     "lh3/yak",
+    "libimobiledevice/idevicerestore",
     "libimobiledevice/libimobiledevice",
     "libimobiledevice/libimobiledevice-glue",
     "libimobiledevice/usbmuxd",
@@ -1283,6 +1283,7 @@
     "MatsDK/TauRPC",
     "MatsuriDayo/NekoBoxForAndroid",
     "mcfletch/pyopengl",
+    "mdn/webassembly-examples",
     "mds1/multicall3",
     "MeetKai/functionary",
     "megvii-research/HiDiffusion",
@@ -1411,7 +1412,6 @@
     "nixprime/cpsm",
     "nobleo/rviz_satellite",
     "nod-ai/AMD-SHARK-Studio",
-    "nod-ai/diffusers",
     "node-real/bsc-erigon",
     "nodejs/abi-stable-node",
     "nodejs/citgm",
@@ -1968,7 +1968,6 @@
     "wechaty/wechaty",
     "weichsel/ZIPFoundation",
     "wenet-e2e/WenetSpeech",
-    "wenet-e2e/wetts",
     "WenmuZhou/PytorchOCR",
     "whatwg/meta",
     "WICG/crash-reporting",
@@ -2038,6 +2037,7 @@
     "zlib-ng/deflatebench",
     "zonyitoo/rust-ini",
     "zsh-users/zsh-syntax-highlighting",
+    "zsviczian/excalibrain",
     "zwowo1997/pack-repo-4ai"
   ]
 }

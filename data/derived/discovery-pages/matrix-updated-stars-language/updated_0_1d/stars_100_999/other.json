@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 52,
+    "components": 40,
     "concepts": 49,
     "observations": 49,
     "repos": 5,
@@ -12,12 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "apalache-mc/apalache",
     "bazel-contrib/rules_kotlin",
-    "ChristopherHX/runner.server",
     "fsprojects/FSharp.Data.GraphQL",
-    "karafka/rdkafka-ruby"
+    "karafka/rdkafka-ruby",
+    "kurrent-io/KurrentDB-Client-Dotnet"
   ]
 }

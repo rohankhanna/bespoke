@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3683,
-    "concepts": 839,
-    "observations": 841,
-    "repos": 118,
-    "terms": 917
+    "components": 3863,
+    "concepts": 850,
+    "observations": 852,
+    "repos": 122,
+    "terms": 949
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "abrahamjuliot/creepjs",
@@ -23,6 +23,7 @@
     "allweonedev/presentation-ai",
     "antfu-collective/vite-ssg",
     "anthropics/claude-code-action",
+    "archestra-ai/archestra",
     "argos-ci/jest-puppeteer",
     "artsy/README",
     "av/harbor",
@@ -40,6 +41,7 @@
     "coder/ghostty-web",
     "devcontainers/cli",
     "docker/metadata-action",
+    "dyoshikawa/rulesync",
     "eemeli/yaml",
     "ekalinin/sitemap.js",
     "electron/windows-installer",
@@ -72,7 +74,6 @@
     "jaredwray/cacheable",
     "jaredwray/keyv",
     "josdejong/svelte-jsoneditor",
-    "josStorer/RWKV-Runner",
     "jupyter-lsp/jupyterlab-lsp",
     "Kaliiiiiiiiii-Vinyzu/patchright",
     "kirodotdev/Kiro",
@@ -84,6 +85,7 @@
     "liveblocks/liveblocks",
     "lobehub/lobe-icons",
     "lobehub/lobe-ui",
+    "lobehub/sd-webui-lobe-theme",
     "lukeautry/tsoa",
     "markdoc/markdoc",
     "matt1398/claude-devtools",
@@ -95,9 +97,11 @@
     "microsoft/tsdoc",
     "microsoft/vscode-eslint",
     "microsoft/vscode-languageserver-node",
+    "mksglu/context-mode",
     "Mobile-Artificial-Intelligence/maid",
     "mutoe/vue3-realworld-example-app",
     "ngx-translate/core",
+    "nizos/tdd-guard",
     "oclif/oclif",
     "onecli/onecli",
     "opactorai/claudable",

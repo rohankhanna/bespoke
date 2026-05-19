@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 958,
-    "concepts": 243,
-    "observations": 245,
-    "repos": 58,
-    "terms": 243
+    "components": 975,
+    "concepts": 249,
+    "observations": 251,
+    "repos": 59,
+    "terms": 249
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "AdguardTeam/FiltersCompiler",
     "alangdm/helium-animated-pages",
     "alexellis/arkade-get",
+    "apache/doris-opentelemetry-demo",
     "apollographql/connectors-community",
     "aws-samples/aws-sdk-js-tests",
     "browserslist/lint",

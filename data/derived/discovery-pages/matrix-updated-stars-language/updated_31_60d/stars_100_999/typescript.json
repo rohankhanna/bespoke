@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2411,
-    "concepts": 475,
-    "observations": 475,
-    "repos": 96,
-    "terms": 526
+    "components": 2532,
+    "concepts": 476,
+    "observations": 476,
+    "repos": 99,
+    "terms": 528
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "43081j/picoquery",
     "AbianS/docker-db-manager",
-    "actions-cool/issues-helper",
     "actions/container-toolkit-action",
     "affaan-m/agentshield",
     "AmElmo/proofshot",
@@ -55,6 +54,9 @@
     "google/adk-web",
     "GoogleCloudPlatform/wombat-dressing-room",
     "graalvm/setup-graalvm",
+    "grubersjoe/github-contributions-api",
+    "grubersjoe/react-activity-calendar",
+    "grubersjoe/react-github-calendar",
     "h3js/crossws",
     "hazelcast/hazelcast-nodejs-client",
     "immersive-translate/zotero-immersivetranslate",
@@ -102,6 +104,7 @@
     "storybookjs/test-runner",
     "timkindberg/jest-when",
     "tombii/better-ccflare",
+    "tony1223/better-agent-terminal",
     "tracked-tools/tracked-built-ins",
     "typed-ember/glint",
     "vega/vega-embed",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 93,
-    "concepts": 108,
-    "observations": 110,
-    "repos": 21,
-    "terms": 107
+    "components": 96,
+    "concepts": 111,
+    "observations": 113,
+    "repos": 22,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "akarnokd/RxJavaFiberInterop",
     "apache/camel-quarkus-examples",
@@ -22,6 +22,7 @@
     "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
     "bobbylight/RSTALanguageSupport",
     "bobbylight/SpellChecker",
+    "codelibs/fess-crawler",
     "codetyio/codety-scanner",
     "dart4e/dart4e",
     "enola-dev/enola",

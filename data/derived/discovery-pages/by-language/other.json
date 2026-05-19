@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 26306,
-    "concepts": 22625,
-    "observations": 22697,
-    "repos": 5604,
-    "terms": 22568
+    "components": 26324,
+    "concepts": 22650,
+    "observations": 22722,
+    "repos": 5606,
+    "terms": 22593
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-05-19T05:53:33.318365+00:00",
+  "generated_at": "2026-05-19T11:00:38.111939+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -5013,6 +5013,7 @@
     "stuartsierra/reloaded",
     "subframe7536/obsidian-theme-maple",
     "subhadarship/kmeans_pytorch",
+    "SubtitleEdit/subtitleedit",
     "sudar/Arduino-Makefile",
     "suketa/nvim-dap-ruby",
     "SuLvXiangXin/diff-gaussian-rasterization",
@@ -5324,6 +5325,7 @@
     "unxsist/jet-pilot",
     "uperl/Kafka-Librd",
     "upptime/upptime",
+    "URUWorks/TeroSubtitler",
     "usbarmory/usbarmory",
     "usbarmory/usbarmory-debian-base_image",
     "userbait/phishing_sites_detector",
