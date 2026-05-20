@@ -136,7 +136,7 @@
       "source_file": ".github/workflows/apply-test-attributes.yml"
     },
     {
-      "component": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-test-attributes.yml"
     },
@@ -191,7 +191,7 @@
       "source_file": ".github/workflows/auto-rerun-transient-ci-failures.yml"
     },
     {
-      "component": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backmerge-release.yml"
     },
@@ -231,7 +231,7 @@
       "source_file": ".github/workflows/backport.yml"
     },
     {
-      "component": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backport.yml"
     },
@@ -357,7 +357,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-test-attributes.yml",
       "source_repo": "microsoft/aspire",
-      "target": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
       "target_type": "component"
     },
     {
@@ -392,7 +392,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backmerge-release.yml",
       "source_repo": "microsoft/aspire",
-      "target": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
       "target_type": "component"
     },
     {
@@ -434,7 +434,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "microsoft/aspire",
-      "target": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
       "target_type": "component"
     },
     {
@@ -522,7 +522,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T15:19:48.817040+00:00",
+  "fetched_at": "2026-05-20T02:19:34.221237+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -574,8 +574,8 @@
     "full_name": "microsoft/aspire",
     "html_url": "https://github.com/microsoft/aspire",
     "language": "C#",
-    "pushed_at": "2026-05-19T15:00:51Z",
-    "stargazers_count": 5951,
+    "pushed_at": "2026-05-20T02:16:44Z",
+    "stargazers_count": 5952,
     "topics": [
       "cloud",
       "dotnet",
@@ -583,7 +583,7 @@
       "python",
       "typescript"
     ],
-    "updated_at": "2026-05-19T15:06:12Z"
+    "updated_at": "2026-05-20T02:10:01Z"
   },
   "repo_links": [],
   "terms": [

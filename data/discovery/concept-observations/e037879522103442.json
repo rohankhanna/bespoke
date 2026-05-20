@@ -84,7 +84,7 @@
   "normalized_form": "node.js-ci",
   "observation_id": "e037879522103442",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-19T13:24:05.041483+00:00",
+  "observed_at": "2026-05-20T00:46:08.525261+00:00",
   "observed_text": "Node.js CI",
   "source_context_snippet": "Node.js CI",
   "source_file": ".github/workflows/ci.yml",

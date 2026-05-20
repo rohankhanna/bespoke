@@ -563,7 +563,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T13:58:30.290568+00:00",
+  "fetched_at": "2026-05-20T00:57:59.077974+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -579,7 +579,7 @@
     },
     {
       "path": ".github/workflows/cpp_tests.yaml",
-      "size": 2989
+      "size": 2985
     },
     {
       "path": ".github/workflows/lint.yaml",
@@ -587,23 +587,23 @@
     },
     {
       "path": ".github/workflows/linux_aarch64_wheel.yaml",
-      "size": 3329
+      "size": 3325
     },
     {
       "path": ".github/workflows/linux_cuda_aarch64_wheel.yaml",
-      "size": 3942
+      "size": 3924
     },
     {
       "path": ".github/workflows/linux_cuda_wheel.yaml",
-      "size": 13948
+      "size": 13942
     },
     {
       "path": ".github/workflows/linux_wheel.yaml",
-      "size": 5131
+      "size": 5111
     },
     {
       "path": ".github/workflows/macos_wheel.yaml",
-      "size": 3379
+      "size": 3361
     }
   ],
   "related_repositories": [],
@@ -615,10 +615,10 @@
     "full_name": "meta-pytorch/torchcodec",
     "html_url": "https://github.com/meta-pytorch/torchcodec",
     "language": "Python",
-    "pushed_at": "2026-05-19T13:33:26Z",
+    "pushed_at": "2026-05-19T16:28:58Z",
     "stargazers_count": 1070,
     "topics": [],
-    "updated_at": "2026-05-19T12:34:24Z"
+    "updated_at": "2026-05-19T15:32:02Z"
   },
   "repo_links": [
     {

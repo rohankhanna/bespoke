@@ -84,7 +84,7 @@
   "normalized_form": "antibot",
   "observation_id": "61a915b7e56f20d5",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-19T13:24:05.041483+00:00",
+  "observed_at": "2026-05-20T00:46:08.525261+00:00",
   "observed_text": "antibot",
   "source_context_snippet": "Detects or even **crashes** (\u274c) webdrivers such as:",
   "source_file": null,

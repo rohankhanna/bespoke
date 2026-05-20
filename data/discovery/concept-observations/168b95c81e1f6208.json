@@ -84,7 +84,7 @@
   "normalized_form": "report-results-to-pr",
   "observation_id": "168b95c81e1f6208",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-19T13:24:05.041483+00:00",
+  "observed_at": "2026-05-20T00:46:08.525261+00:00",
   "observed_text": "Report Results to PR",
   "source_context_snippet": "Report Results to PR",
   "source_file": ".github/workflows/pr-reporter.yml",

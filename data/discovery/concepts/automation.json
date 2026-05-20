@@ -4068,11 +4068,35 @@
       "observed_at": "2026-05-19T18:44:49.183462+00:00",
       "source_file": null,
       "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T00:46:08.525261+00:00",
+      "source_file": null,
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T00:46:08.525261+00:00",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T00:46:08.525261+00:00",
+      "source_file": null,
+      "source_repo": "hexabot-ai/Hexabot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T00:46:08.525261+00:00",
+      "source_file": null,
+      "source_repo": "nginx-le/nginx-le"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-19T18:44:49.183462+00:00",
+  "last_seen_at": "2026-05-20T00:46:08.525261+00:00",
   "lexical_providers": [
     "datamuse"
   ],

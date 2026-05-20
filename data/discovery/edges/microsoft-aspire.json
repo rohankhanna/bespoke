@@ -60,7 +60,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-test-attributes.yml",
       "source_repo": "microsoft/aspire",
-      "target": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
       "target_type": "component"
     },
     {
@@ -95,7 +95,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backmerge-release.yml",
       "source_repo": "microsoft/aspire",
-      "target": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
       "target_type": "component"
     },
     {
@@ -137,7 +137,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "microsoft/aspire",
-      "target": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
       "target_type": "component"
     },
     {
@@ -225,6 +225,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-19T13:24:05.041483+00:00",
+  "generated_at": "2026-05-20T00:46:08.525261+00:00",
   "source_repo": "microsoft/aspire"
 }

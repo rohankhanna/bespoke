@@ -84,7 +84,7 @@
   "normalized_form": "auto-assignment-for-issues",
   "observation_id": "4d42b523f513747b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-19T13:24:05.041483+00:00",
+  "observed_at": "2026-05-20T00:46:08.525261+00:00",
   "observed_text": "Auto assignment for issues",
   "source_context_snippet": "\"Auto assignment for issues\"",
   "source_file": ".github/workflows/auto-assign-issues.yml",

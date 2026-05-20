@@ -48,7 +48,7 @@
   "normalized_form": "citest",
   "observation_id": "1889f4826476dcce",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-19T07:24:07.075826+00:00",
+  "observed_at": "2026-05-20T00:46:08.525261+00:00",
   "observed_text": "citest",
   "source_context_snippet": "citest",
   "source_file": ".github/workflows/citest.yaml",

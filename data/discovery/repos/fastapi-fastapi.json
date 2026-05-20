@@ -500,7 +500,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T15:03:32.853758+00:00",
+  "fetched_at": "2026-05-20T02:06:10.863740+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -508,7 +508,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 11069
+      "size": 10938
     },
     {
       "path": ".github/workflows/add-to-project.yml",
@@ -516,7 +516,7 @@
     },
     {
       "path": ".github/workflows/build-docs.yml",
-      "size": 4142
+      "size": 4475
     },
     {
       "path": ".github/workflows/contributors.yml",
@@ -552,8 +552,8 @@
     "full_name": "fastapi/fastapi",
     "html_url": "https://github.com/fastapi/fastapi",
     "language": "Python",
-    "pushed_at": "2026-05-19T13:42:53Z",
-    "stargazers_count": 98345,
+    "pushed_at": "2026-05-19T23:00:33Z",
+    "stargazers_count": 98356,
     "topics": [
       "api",
       "async",
@@ -576,7 +576,7 @@
       "uvicorn",
       "web"
     ],
-    "updated_at": "2026-05-19T14:56:02Z"
+    "updated_at": "2026-05-20T00:54:33Z"
   },
   "repo_links": [
     {

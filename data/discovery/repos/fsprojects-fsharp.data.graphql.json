@@ -212,7 +212,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T14:43:19.576692+00:00",
+  "fetched_at": "2026-05-20T01:19:33.782873+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -252,7 +252,7 @@
     "full_name": "fsprojects/FSharp.Data.GraphQL",
     "html_url": "https://github.com/fsprojects/FSharp.Data.GraphQL",
     "language": "F#",
-    "pushed_at": "2026-05-18T17:27:41Z",
+    "pushed_at": "2026-05-19T18:54:07Z",
     "stargazers_count": 407,
     "topics": [
       "fsharp",

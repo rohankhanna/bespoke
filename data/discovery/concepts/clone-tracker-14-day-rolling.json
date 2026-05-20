@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Clone Tracker (14-day rolling)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruvnet/ruflo",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruvnet/ruflo",
+      "status": "candidate-context",
+      "text": "Clone Tracker (14-day rolling)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruvnet/ruflo",
+      "status": "candidate",
+      "text": "Clone Tracker (14-day rolling)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10472,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10472,
+      "status": "candidate",
+      "text": "oreo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10472,
+      "status": "candidate",
+      "text": "stock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10463,
+      "status": "candidate",
+      "text": "copyholder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10463,
+      "status": "candidate",
+      "text": "cymograph"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Clone Tracker (14-day rolling)",
+  "concept_id": "clone-tracker-14-day-rolling",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-20T00:46:08.525261+00:00",
+      "source_file": ".github/workflows/clone-tracker.yml",
+      "source_repo": "ruvnet/ruflo"
+    }
+  ],
+  "first_seen_at": "2026-05-20T00:46:08.525261+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-20T00:46:08.525261+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clone Tracker (14-day rolling)",
+      "sense_id": "clone-tracker-14-day-rolling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

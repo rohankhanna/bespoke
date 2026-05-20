@@ -148,6 +148,16 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clone-tracker.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clone-tracker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codex-integration-audit.yml"
     },
     {
@@ -339,76 +349,6 @@
       "component": "actions/deploy-pages@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pages.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rollback-manager.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rollback-manager.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rollback-manager.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rollback-manager.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rollback-manager.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rollback-manager.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rollback-manager.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rollback-manager.yml"
-    },
-    {
-      "component": "actions/download-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rollback-manager.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rollback-manager.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rollback-manager.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rollback-manager.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rollback-manager.yml"
-    },
-    {
-      "component": "actions/github-script@v7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rollback-manager.yml"
     }
   ],
   "edges": [
@@ -558,6 +498,27 @@
       "source_repo": "ruvnet/ruflo",
       "target": "actions/download-artifact@v4",
       "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clone-tracker.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clone-tracker.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clone-tracker.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "Clone Tracker (14-day rolling)",
+      "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
@@ -742,48 +703,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rollback-manager.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rollback-manager.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/setup-node@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rollback-manager.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/upload-artifact@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rollback-manager.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/download-artifact@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rollback-manager.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/github-script@v7",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/rollback-manager.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "\ud83d\udd04 Automated Rollback Manager",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "ruvnet/ruflo",
@@ -903,19 +822,23 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T15:09:17.286714+00:00",
+  "fetched_at": "2026-05-20T02:10:52.195602+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 27082
+      "size": 27098
     },
     {
       "path": "package.json",
-      "size": 4431
+      "size": 4690
     },
     {
       "path": ".github/workflows/ci.yml",
       "size": 10397
+    },
+    {
+      "path": ".github/workflows/clone-tracker.yml",
+      "size": 3038
     },
     {
       "path": ".github/workflows/codex-integration-audit.yml",
@@ -940,10 +863,6 @@
     {
       "path": ".github/workflows/pages.yml",
       "size": 496
-    },
-    {
-      "path": ".github/workflows/rollback-manager.yml",
-      "size": 25515
     }
   ],
   "related_repositories": [],
@@ -955,8 +874,8 @@
     "full_name": "ruvnet/ruflo",
     "html_url": "https://github.com/ruvnet/ruflo",
     "language": "TypeScript",
-    "pushed_at": "2026-05-19T14:21:41Z",
-    "stargazers_count": 53080,
+    "pushed_at": "2026-05-20T02:10:40Z",
+    "stargazers_count": 53245,
     "topics": [
       "agentic-ai",
       "agentic-framework",
@@ -979,7 +898,7 @@
       "swarm",
       "swarm-intelligence"
     ],
-    "updated_at": "2026-05-19T15:06:46Z"
+    "updated_at": "2026-05-20T02:10:43Z"
   },
   "repo_links": [
     {
@@ -994,6 +913,12 @@
     }
   ],
   "terms": [
+    {
+      "context_snippet": "Clone Tracker (14-day rolling)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clone-tracker.yml",
+      "term": "Clone Tracker (14-day rolling)"
+    },
     {
       "context_snippet": "codex-integration-audit",
       "edge_type": "workflow-name",
@@ -1029,12 +954,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/pages.yml",
       "term": "Deploy Pages"
-    },
-    {
-      "context_snippet": "\ud83d\udd04 Automated Rollback Manager",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/rollback-manager.yml",
-      "term": "\ud83d\udd04 Automated Rollback Manager"
     },
     {
       "context_snippet": "<div align=\"center\">",

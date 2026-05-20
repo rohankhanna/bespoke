@@ -2200,11 +2200,23 @@
       "observed_at": "2026-05-19T18:44:49.183462+00:00",
       "source_file": null,
       "source_repo": "obsidian-community/obsidian-kanban"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T00:46:08.525261+00:00",
+      "source_file": null,
+      "source_repo": "obsidian-community/obsidian-zotero-integration"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T00:46:08.525261+00:00",
+      "source_file": null,
+      "source_repo": "javalent/obsidian-leaflet"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-19T18:44:49.183462+00:00",
+  "last_seen_at": "2026-05-20T00:46:08.525261+00:00",
   "lexical_providers": [
     "datamuse"
   ],

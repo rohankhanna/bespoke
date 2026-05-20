@@ -394,11 +394,17 @@
       "observed_at": "2026-05-19T13:24:05.041483+00:00",
       "source_file": null,
       "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T00:46:08.525261+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-19T13:24:05.041483+00:00",
+  "last_seen_at": "2026-05-20T00:46:08.525261+00:00",
   "lexical_providers": [
     "datamuse"
   ],
