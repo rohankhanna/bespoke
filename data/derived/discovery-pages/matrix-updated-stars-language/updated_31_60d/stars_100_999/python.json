@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 979,
-    "concepts": 1125,
-    "observations": 1132,
-    "repos": 239,
-    "terms": 1141
+    "components": 981,
+    "concepts": 1139,
+    "observations": 1146,
+    "repos": 243,
+    "terms": 1155
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "aaronwong1999/hermesclaw",
     "abey79/vpype",
@@ -70,6 +70,7 @@
     "clearbluejar/pyghidra-mcp",
     "clearml/clearml-server",
     "ClementPinard/FlowNetPytorch",
+    "ClementPinard/Pytorch-Correlation-extension",
     "compilerla/conventional-pre-commit",
     "conan-io/cmake-conan",
     "corteva/rioxarray",
@@ -104,6 +105,7 @@
     "FlagOpen/Robo-Dopamine",
     "FoundationVision/InfinityStar",
     "fumiama/Retrieval-based-Voice-Conversion-WebUI",
+    "fzyzcjy/torch_memory_saver",
     "G-Research/ahocorasick_rs",
     "gmberton/MegaLoc",
     "google-deepmind/chex",
@@ -187,6 +189,7 @@
     "nvim-neotest/neotest-python",
     "nvpro-samples/vk_mini_samples",
     "objectbox/objectbox-python",
+    "oh-my-ocr/text_renderer",
     "open-tinker/OpenTinker",
     "openlawlibrary/pygls",
     "optuna/optuna-examples",
@@ -234,6 +237,7 @@
     "TextArena/UnstableBaselines",
     "thinking-machines-lab/tinker",
     "Thinklab-SJTU/Bench2Drive-VL",
+    "TIGER-AI-Lab/VLM2Vec",
     "TorchDR/TorchDR",
     "trailofbits/dropkit",
     "twisted/towncrier",

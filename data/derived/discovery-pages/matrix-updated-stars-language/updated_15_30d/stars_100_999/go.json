@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1319,
-    "concepts": 1106,
-    "observations": 1110,
-    "repos": 152,
-    "terms": 1104
+    "components": 1315,
+    "concepts": 1104,
+    "observations": 1108,
+    "repos": 151,
+    "terms": 1102
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "2dust/AndroidLibXrayLite",
     "a2aproject/a2a-go",
@@ -154,7 +154,6 @@
     "sethvargo/ratchet",
     "sigstore/fulcio",
     "snowflakedb/gosnowflake",
-    "spiffe/go-spiffe",
     "suzuki-shunsuke/ghalint",
     "suzuki-shunsuke/ghtkn",
     "suzuki-shunsuke/pinact",

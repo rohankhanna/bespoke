@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 836,
-    "concepts": 592,
-    "observations": 598,
-    "repos": 99,
-    "terms": 605
+    "components": 848,
+    "concepts": 604,
+    "observations": 610,
+    "repos": 101,
+    "terms": 617
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "abraxas-365/langchain-rust",
@@ -35,6 +35,7 @@
     "chronotope/chrono",
     "crate-ci/typos",
     "crossterm-rs/crossterm",
+    "dalek-cryptography/curve25519-dalek",
     "David-OConnor/pyflow",
     "dimforge/rapier",
     "dtolnay/anyhow",
@@ -98,6 +99,7 @@
     "rust-windowing/winit",
     "ruvnet/ruvector",
     "serde-rs/json",
+    "servo/html5ever",
     "servo/ipc-channel",
     "sharkdp/pastel",
     "smol-rs/smol",

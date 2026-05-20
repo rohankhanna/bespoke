@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3510,
-    "concepts": 2511,
-    "observations": 2514,
-    "repos": 404,
-    "terms": 2500
+    "components": 3434,
+    "concepts": 2466,
+    "observations": 2469,
+    "repos": 396,
+    "terms": 2454
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "a2aproject/a2a-dotnet",
@@ -41,7 +41,6 @@
     "appwrite/sdk-for-apple",
     "appwrite/sdk-for-flutter",
     "appwrite/sdk-generator",
-    "aspect-build/bazel-examples",
     "aspect-build/rules_js",
     "atsign-foundation/noports",
     "augustss/MicroHs",
@@ -131,10 +130,8 @@
     "elixir-image/image",
     "elsa-workflows/elsa-studio",
     "emacs-ess/ESS",
-    "emacs-tree-sitter/tree-sitter-langs",
     "emacscollective/borg",
     "ePages-de/restdocs-api-spec",
-    "Erikvl87/docker-languagetool",
     "erlef/rebar3_hex",
     "esp-rs/esp-idf-template",
     "esp-rs/rust-build",
@@ -163,7 +160,6 @@
     "grafana-community/helm-charts",
     "grafana/jsonnet-libs",
     "grafana/k8s-monitoring-helm",
-    "gregorias/coerce.nvim",
     "gregorias/coop.nvim",
     "GreptimeTeam/dashboard",
     "groundhog2k/helm-charts",
@@ -216,7 +212,6 @@
     "JuliaDebug/Cthulhu.jl",
     "JuliaDebug/Infiltrator.jl",
     "JuliaDiff/ChainRules.jl",
-    "JuliaDiff/ChainRulesCore.jl",
     "JuliaDiff/ForwardDiff.jl",
     "JuliaDocs/Documenter.jl",
     "JuliaFolds/BangBang.jl",
@@ -255,7 +250,6 @@
     "kubernetes/k8s.io",
     "KulikDM/pythresh",
     "kwent/pgbouncerhero",
-    "lambdaisland/deep-diff2",
     "LibreChat-AI/librechat.ai",
     "libvips/build-win64-mxe",
     "licensee/licensee",
@@ -299,7 +293,6 @@
     "nim-lang/langserver",
     "nix-community/haumea",
     "nix-community/nur-combined",
-    "nix-community/nur-packages-template",
     "NixOS/nixos-homepage",
     "NuGet/NuGet.Client",
     "NVIDIA/nvbench",
@@ -339,7 +332,6 @@
     "r-lib/usethis",
     "radian-software/apheleia",
     "rafaqz/DimensionalData.jl",
-    "rafaqz/Rasters.jl",
     "rake-compiler/rake-compiler-dock",
     "rapideditor/country-coder",
     "rapideditor/temaki",

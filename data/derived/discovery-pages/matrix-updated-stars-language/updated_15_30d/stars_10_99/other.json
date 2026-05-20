@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1653,
-    "concepts": 955,
-    "observations": 958,
-    "repos": 228,
-    "terms": 951
+    "components": 1638,
+    "concepts": 944,
+    "observations": 947,
+    "repos": 224,
+    "terms": 940
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "3rd/config",
     "AarshBatra/biteSizedAQ",
@@ -82,7 +82,6 @@
     "dwyl/phoenix-liveview-todo-list-tutorial",
     "eea/eea.rancher.catalog",
     "elixir-webrtc/xav",
-    "emacscollective/epkg",
     "emacsmirror/epkgs",
     "emibcn/badge-action",
     "erlef/website",
@@ -134,7 +133,6 @@
     "JuliaDocs/DocumentationGenerator.jl",
     "JuliaDocs/DocumenterCitations.jl",
     "JuliaDocs/DocumenterInterLinks.jl",
-    "JuliaGenAI/HuggingFaceDatasets.jl",
     "JuliaGeo/GeometryOps.jl",
     "JuliaGeo/LibGEOS.jl",
     "JuliaGeo/Proj.jl",
@@ -142,7 +140,6 @@
     "JuliaMath/FixedPointNumbers.jl",
     "JuliaSMLM/ModelContextProtocol.jl",
     "JuliaSparse/SparseArrays.jl",
-    "jupyterlab/extension-template",
     "JustusAdam/language-haskell",
     "kahliburke/Kaimon.jl",
     "Kaiede/Bedrockifier",
@@ -156,7 +153,6 @@
     "liuliu/s4nnc",
     "localstack/localstack-cli",
     "lumen-oss/nurr",
-    "lxqt/lxqt-build-tools",
     "melpa/package-build",
     "mesh-iit/ergocub-software",
     "meta-pytorch/executorch-examples",

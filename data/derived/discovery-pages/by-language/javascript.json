@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 39448,
+    "components": 39404,
     "concepts": 8790,
     "observations": 8817,
-    "repos": 2087,
-    "terms": 8779
+    "repos": 2086,
+    "terms": 8781
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "0x1abin/matter-controller-mcp",
     "0x4139/cosmos-discord-faucet",
@@ -1964,7 +1964,7 @@
     "treosh/lighthouse-ci-action",
     "TrigenSoftware/simple-release-action",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "TritonDataCenter/node-http-signature",
     "TritonDataCenter/node-verror",
     "trylovetom/clean-code-javascript",
@@ -2007,7 +2007,6 @@
     "vigetlabs/microcosm",
     "vio/bundle-stats-action",
     "violentmonkey/violentmonkey",
-    "violentmonkey/violentmonkey-mx",
     "vipermind/flake-idgen",
     "vitalets/react-native-extended-stylesheet",
     "vitejs/awesome-vite",

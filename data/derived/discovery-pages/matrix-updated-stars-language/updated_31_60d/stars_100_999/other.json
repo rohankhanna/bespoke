@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1725,
-    "concepts": 1418,
-    "observations": 1420,
-    "repos": 301,
-    "terms": 1438
+    "components": 1801,
+    "concepts": 1463,
+    "observations": 1465,
+    "repos": 309,
+    "terms": 1483
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "actboy168/json.lua",
@@ -52,6 +52,7 @@
     "apple/swift-nio-ssh",
     "appsignal/appsignal-elixir",
     "appwrite/sdk-for-dart",
+    "aspect-build/bazel-examples",
     "Atinoda/text-generation-webui-docker",
     "AudioKit/Cookbook",
     "aviatesk/JET.jl",
@@ -141,7 +142,9 @@
     "elixir-lang/elixir-lang.github.com",
     "elixir-sqlite/ecto_sqlite3",
     "emacs-rustic/rustic",
+    "emacs-tree-sitter/tree-sitter-langs",
     "enjoy-digital/usb3_pipe",
+    "Erikvl87/docker-languagetool",
     "ethereum/beacon-APIs",
     "ethereum/builder-specs",
     "ethpandaops/ethereum-helm-charts",
@@ -160,6 +163,7 @@
     "google/protobuf.dart",
     "googleapis/google-cloud-php-storage",
     "GoogleCloudPlatform/vertex-ai-samples",
+    "gregorias/coerce.nvim",
     "hail2u/vim-css3-syntax",
     "harperreed/dotfiles",
     "HaxeFlixel/flixel-ui",
@@ -182,6 +186,7 @@
     "jsdoc/jsdoc.github.io",
     "jsonbored/claudepro-directory",
     "JuliaDebug/JuliaInterpreter.jl",
+    "JuliaDiff/ChainRulesCore.jl",
     "JuliaGeo/GeoInterface.jl",
     "JuliaImGui/CImGui.jl",
     "JuliaInterop/Clang.jl",
@@ -198,6 +203,7 @@
     "koenvzeijl/AspNetCore.SassCompiler",
     "kwn/php-rdkafka-stubs",
     "LAION-AI/laion.ai",
+    "lambdaisland/deep-diff2",
     "Layr-Labs/eigenlayer-contracts",
     "lerocha/netflixdb",
     "less/less-docs",
@@ -228,6 +234,7 @@
     "nacos-group/nacos-group.github.io",
     "nashamri/spacemacs-theme",
     "naver/anny",
+    "nix-community/nur-packages-template",
     "nodejs/build",
     "nrepl/nrepl",
     "nubank/matcher-combinators",
@@ -257,6 +264,7 @@
     "r-lib/styler",
     "r-spatial/stars",
     "radian-software/radian",
+    "rafaqz/Rasters.jl",
     "rails/execjs",
     "RDFLib/OWL-RL",
     "REditorSupport/languageserver",

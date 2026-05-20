@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1922,
-    "concepts": 1936,
-    "observations": 1937,
-    "repos": 232,
-    "terms": 1924
+    "components": 1932,
+    "concepts": 1942,
+    "observations": 1943,
+    "repos": 233,
+    "terms": 1930
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/OpenColorIO",
     "AcademySoftwareFoundation/openexr",
@@ -165,6 +165,7 @@
     "mkazhdan/PoissonRecon",
     "Moddable-OpenSource/moddable",
     "mruby/mruby",
+    "mstorsjo/llvm-mingw",
     "netblue30/firejail",
     "NetHack/NetHack",
     "nix-community/nixd",

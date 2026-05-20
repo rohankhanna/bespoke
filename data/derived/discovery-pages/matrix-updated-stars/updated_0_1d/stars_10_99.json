@@ -1,20 +1,23 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 3,
-    "terms": 7
+    "components": 29,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 6,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
+    "alloy-rs/evm",
     "cloudfoundry/bosh-google-cpi-release",
-    "storybook-community/addon-queryparams",
+    "honwen/openwrt-dnsmasq-extra",
+    "mesh-iit/cad-libraries",
+    "nvim-mini/mini.deps",
     "vaporif/parry-guard"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4237,
-    "concepts": 823,
-    "observations": 824,
-    "repos": 239,
-    "terms": 816
+    "components": 4262,
+    "concepts": 833,
+    "observations": 834,
+    "repos": 240,
+    "terms": 827
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "28mm/blast-radius",
     "afc163/fanyi",
@@ -229,6 +229,7 @@
     "terkelg/prompts",
     "testdouble/testdouble.js",
     "testing-library/dom-testing-library",
+    "testing-library/jest-dom",
     "thx/gogocode",
     "tildeio/rsvp.js",
     "timarney/react-app-rewired",

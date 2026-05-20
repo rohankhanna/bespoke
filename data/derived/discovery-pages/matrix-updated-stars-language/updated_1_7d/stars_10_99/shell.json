@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 13,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 2,
-    "terms": 15
+    "concepts": 11,
+    "observations": 11,
+    "repos": 1,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
-    "apache/datafusion-ballista-python",
-    "honwen/openwrt-dnsmasq-extra"
+    "apache/datafusion-ballista-python"
   ]
 }

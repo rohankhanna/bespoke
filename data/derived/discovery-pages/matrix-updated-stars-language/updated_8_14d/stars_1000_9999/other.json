@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 56,
+    "components": 59,
     "concepts": 95,
     "observations": 95,
-    "repos": 12,
+    "repos": 13,
     "terms": 95
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "benchflow-ai/skillsbench",
     "hacl-star/hacl-star",
@@ -20,6 +20,7 @@
     "lightning/bolts",
     "minad/consult",
     "mrcjkb/rustaceanvim",
+    "nushell/awesome-nu",
     "nvim-mini/mini.nvim",
     "okd-project/okd",
     "stakira/OpenUtau",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3325,
-    "concepts": 2907,
-    "observations": 2923,
-    "repos": 373,
-    "terms": 2883
+    "components": 3281,
+    "concepts": 2846,
+    "observations": 2862,
+    "repos": 367,
+    "terms": 2829
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -37,7 +37,6 @@
     "apollographql/apollo-ios",
     "apollographql/apollo-kotlin",
     "apple/swift-argument-parser",
-    "apple/swift-crypto",
     "apple/swift-nio",
     "apple/swift-protobuf",
     "ARM-software/abi-aa",
@@ -79,8 +78,6 @@
     "chawyehsu/dorado",
     "chef/chef",
     "chromebrew/chromebrew",
-    "cimgui/cimgui",
-    "circe/circe",
     "clojure-emacs/cider",
     "clojure-lsp/clojure-lsp",
     "clojure/clojure-clr",
@@ -147,7 +144,6 @@
     "elm/compiler",
     "elsa-workflows/elsa-core",
     "emacs-helm/helm",
-    "emacs-lsp/lsp-mode",
     "emacs-mirror/emacs",
     "EsotericSoftware/kryo",
     "ethereum/execution-apis",
@@ -213,7 +209,6 @@
     "JuliaGPU/CUDA.jl",
     "JuliaLang/IJulia.jl",
     "JuliaLang/PackageCompiler.jl",
-    "JuliaPlots/UnicodePlots.jl",
     "JuliaPy/PyCall.jl",
     "JuliaPy/PythonCall.jl",
     "JuliaSymbolics/Symbolics.jl",
@@ -384,7 +379,6 @@
     "whatwg/html",
     "whatwg/streams",
     "xiph/rav1e",
-    "xoofx/markdig",
     "xtdb/xtdb",
     "zalando/restful-api-guidelines"
   ]

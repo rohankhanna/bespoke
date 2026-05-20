@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 3,
-    "terms": 22
+    "components": 21,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 2,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "nodenv/nodenv",
-    "scop/bash-completion",
     "webinstall/webi-installers"
   ]
 }

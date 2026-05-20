@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9092,
-    "concepts": 1708,
-    "observations": 1712,
+    "components": 9026,
+    "concepts": 1705,
+    "observations": 1709,
     "repos": 194,
-    "terms": 1698
+    "terms": 1695
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "a-ghorbani/pocketpal-ai",
     "acacode/swagger-typescript-api",
@@ -29,7 +29,7 @@
     "angular-eslint/angular-eslint",
     "AnotiaWang/deep-research-web-ui",
     "antfu-collective/vite-plugin-inspect",
-    "apache/apisix-dashboard",
+    "antvis/mcp-server-chart",
     "apify/fingerprint-suite",
     "apollographql/apollo-client-devtools",
     "ardatan/graphql-tools",

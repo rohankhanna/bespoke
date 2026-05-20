@@ -1,21 +1,20 @@
 {
   "counts": {
-    "components": 945,
-    "concepts": 551,
-    "observations": 553,
+    "components": 929,
+    "concepts": 547,
+    "observations": 549,
     "repos": 60,
-    "terms": 546
+    "terms": 540
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "Aleph-Alpha/ts-rs",
     "androidx/media",
-    "antvis/mcp-server-chart",
     "apache/tomcat",
     "ashvardanian/NumKong",
     "awslabs/aidlc-workflows",
@@ -51,8 +50,8 @@
     "mikel-brostrom/boxmot",
     "minad/consult",
     "mrcjkb/rustaceanvim",
-    "mstorsjo/llvm-mingw",
     "nix-rust/nix",
+    "nushell/awesome-nu",
     "nvim-mini/mini.nvim",
     "obsidianmd/obsidian-clipper",
     "okd-project/okd",
@@ -61,6 +60,7 @@
     "pdfme/pdfme",
     "PyAV-Org/PyAV",
     "reubeno/brush",
+    "scop/bash-completion",
     "shareAI-lab/Kode-Agent",
     "shareAI-lab/Kode-CLI",
     "skeeto/w64devkit",

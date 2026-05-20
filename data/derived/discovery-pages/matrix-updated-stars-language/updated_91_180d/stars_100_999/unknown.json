@@ -3,7 +3,7 @@
     "components": 13,
     "concepts": 60,
     "observations": 60,
-    "repos": 33,
+    "repos": 32,
     "terms": 71
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "AppImageCommunity/awesome-appimage",
@@ -21,7 +21,6 @@
     "chika0801/Xray-examples",
     "CodeBoarding/GeneratedOnBoardings",
     "dalek-cryptography/ed25519-dalek",
-    "DaoCloud/public-binary-files-mirror",
     "docker-library/faq",
     "ethstaker/ethstaker-guides",
     "filecoin-project/devgrants",

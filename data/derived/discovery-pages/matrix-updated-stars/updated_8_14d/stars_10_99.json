@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 349,
-    "concepts": 249,
-    "observations": 250,
-    "repos": 45,
-    "terms": 249
+    "concepts": 246,
+    "observations": 247,
+    "repos": 44,
+    "terms": 246
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "Agnuxo1/CAJAL",
@@ -43,7 +43,6 @@
     "microsoft/openjdk-docker",
     "mongodb/winkerberos",
     "mrcjkb/neotest-haskell",
-    "nvim-mini/mini.deps",
     "ocaml-tracing/ocaml-opentelemetry",
     "ocaml-tracing/ocaml-trace",
     "processing/processing-website",

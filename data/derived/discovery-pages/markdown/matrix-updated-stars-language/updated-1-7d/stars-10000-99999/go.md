@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-05-20T05:54:21.882731+00:00`
+Generated at: `2026-05-20T08:54:03.798798+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 42
-- components: 31
-- concepts: 42
-- observations: 43
+- repos: 2
+- terms: 37
+- components: 18
+- concepts: 37
+- observations: 38
 
 ## Static behavior
 
@@ -26,14 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [moby/moby](https://github.com/moby/moby) | 71571 | 2026-05-18T17:15:11Z | Go | Infrastructure/tooling | 5 | 13 | 5 | 5 |
-| [apache/casbin](https://github.com/apache/casbin) | 20124 | 2026-05-15T19:22:03Z | Go | Infrastructure/tooling | 21 | 10 | 21 | 21 |
-| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 27118 | 2026-05-13T13:53:48Z | Go | CLI | 16 | 8 | 16 | 17 |
+| [apache/casbin](https://github.com/apache/casbin) | 20125 | 2026-05-15T19:22:03Z | Go | Infrastructure/tooling | 21 | 10 | 21 | 21 |
+| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 27133 | 2026-05-13T13:53:48Z | Go | CLI | 16 | 8 | 16 | 17 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [moby/moby](https://github.com/moby/moby) | 71571 | 2026-05-18T17:15:11Z | Go | Infrastructure/tooling | 5 | 13 | 5 | 5 |
-| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 27118 | 2026-05-13T13:53:48Z | Go | CLI | 16 | 8 | 16 | 17 |
-| [apache/casbin](https://github.com/apache/casbin) | 20124 | 2026-05-15T19:22:03Z | Go | Infrastructure/tooling | 21 | 10 | 21 | 21 |
+| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 27133 | 2026-05-13T13:53:48Z | Go | CLI | 16 | 8 | 16 | 17 |
+| [apache/casbin](https://github.com/apache/casbin) | 20125 | 2026-05-15T19:22:03Z | Go | Infrastructure/tooling | 21 | 10 | 21 | 21 |

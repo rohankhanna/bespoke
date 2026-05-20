@@ -3,7 +3,7 @@
     "components": 11,
     "concepts": 6,
     "observations": 6,
-    "repos": 3,
+    "repos": 2,
     "terms": 6
   },
   "facet_version": 1,
@@ -11,10 +11,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "apostrophecms/starter-kit-astro-essentials",
-    "mozilla-ai/otari",
-    "SeedScientist/K2V"
+    "mozilla-ai/otari"
   ]
 }

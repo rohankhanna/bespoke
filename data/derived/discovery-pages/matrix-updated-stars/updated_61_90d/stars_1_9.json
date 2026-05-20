@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 603,
+    "components": 607,
     "concepts": 444,
     "observations": 445,
-    "repos": 131,
+    "repos": 132,
     "terms": 438
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "0x676e67/0x676e67",
@@ -126,6 +126,7 @@
     "redis-developer/redis-starter-java",
     "REditorSupport/vscode-R-syntax",
     "richgel999/junkdrawer",
+    "robustmq/robustmq-copilot",
     "saalfeldlab/n5-google-cloud",
     "shadmau/autocouncil",
     "shakacode/package_json",

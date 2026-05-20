@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4813,
-    "concepts": 1045,
-    "observations": 1047,
-    "repos": 148,
-    "terms": 1046
+    "components": 4819,
+    "concepts": 1049,
+    "observations": 1051,
+    "repos": 149,
+    "terms": 1050
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
@@ -88,6 +88,7 @@
     "kkomelin/isomorphic-dompurify",
     "Kong/kong-manager",
     "kysely-org/kysely-ctl",
+    "lambdalisue/vim-gin",
     "LemmyNet/lemmy-js-client",
     "lerna-lite/lerna-lite",
     "logux/client",

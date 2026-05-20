@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 17739,
-    "concepts": 26690,
-    "observations": 26741,
-    "repos": 6690,
-    "terms": 26495
+    "components": 17744,
+    "concepts": 26694,
+    "observations": 26745,
+    "repos": 6691,
+    "terms": 26490
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -5742,6 +5742,7 @@
     "sniklaus/sepconv-slomo",
     "sniklaus/softmax-splatting",
     "soCzech/TransNetV2",
+    "Softcatala/open-dubbing",
     "songquanpeng/daily-submit",
     "songquanpeng/personal-assistant",
     "songweige/TATS",

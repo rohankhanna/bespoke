@@ -4,7 +4,7 @@
     "concepts": 66,
     "observations": 66,
     "repos": 7,
-    "terms": 65
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "ajv-validator/ajv",
     "clauderic/dnd-kit",

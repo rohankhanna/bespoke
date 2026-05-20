@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2474,
-    "concepts": 1592,
-    "observations": 1596,
-    "repos": 320,
-    "terms": 1602
+    "components": 2484,
+    "concepts": 1588,
+    "observations": 1592,
+    "repos": 321,
+    "terms": 1598
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "3rd/image.nvim",
@@ -219,8 +219,8 @@
     "nanbingxyz/5ire",
     "nanxiaobei/hugo-paper",
     "nesquena/rabl",
+    "nksaraf/vinxi",
     "nmoehrle/mvs-texturing",
-    "nunchaku-ai/ComfyUI-nunchaku",
     "nunchaku-ai/nunchaku",
     "NVIDIA-AI-IOT/Lidar_AI_Solution",
     "NVIDIA/gdrcopy",
@@ -296,6 +296,7 @@
     "svg-sprite/svg-sprite",
     "t0bst4r/home-assistant-matter-hub",
     "tauri-apps/cargo-mobile2",
+    "TencentCloudADP/youtu-agent",
     "the-moonwitch/Cozette",
     "TheAssassin/AppImageLauncher",
     "themix-project/themix-gui",

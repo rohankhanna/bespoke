@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2346,
-    "concepts": 521,
-    "observations": 529,
+    "components": 2350,
+    "concepts": 518,
+    "observations": 526,
     "repos": 95,
-    "terms": 516
+    "terms": 513
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
@@ -33,7 +33,6 @@
     "carbon-design-system/carbon-components-vue",
     "chaijs/chai-http",
     "chrisgoringe/cg-image-filter",
-    "ClickHouse/agent-skills",
     "commitizen/cz-conventional-changelog",
     "conda-forge/conda-forge.github.io",
     "conventional-changelog/releaser-tools",
@@ -68,6 +67,7 @@
     "kriszyp/msgpackr",
     "kurrent-io/KurrentDB-Client-NodeJS",
     "lo-th/phy",
+    "mafintosh/streamx",
     "marwin1991/profile-technology-icons",
     "Mathpix/mathpix-markdown-it",
     "matzkoh/prettier-plugin-packagejson",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4173,
-    "concepts": 904,
-    "observations": 906,
-    "repos": 126,
-    "terms": 1013
+    "components": 4259,
+    "concepts": 913,
+    "observations": 915,
+    "repos": 127,
+    "terms": 1022
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "abrahamjuliot/creepjs",
@@ -22,6 +22,7 @@
     "aleclarson/vite-tsconfig-paths",
     "allweonedev/presentation-ai",
     "anthropics/claude-code-action",
+    "apache/apisix-dashboard",
     "archestra-ai/archestra",
     "argos-ci/jest-puppeteer",
     "artsy/README",

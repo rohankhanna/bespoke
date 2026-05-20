@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1243,
-    "concepts": 527,
-    "observations": 529,
-    "repos": 432,
-    "terms": 527
+    "components": 1244,
+    "concepts": 528,
+    "observations": 530,
+    "repos": 433,
+    "terms": 528
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -199,6 +199,7 @@
     "eric-mitchell/higher",
     "eric-mitchell/transformers",
     "erick2418/vue-axios-vuex-jwt",
+    "espressosystems/espresso-systems-common",
     "ethanzrd/whisper-playground",
     "exograd/erl-ksuid",
     "expenses/trystero",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1037,
-    "concepts": 1393,
-    "observations": 1393,
-    "repos": 209,
-    "terms": 1409
+    "components": 1053,
+    "concepts": 1404,
+    "observations": 1404,
+    "repos": 210,
+    "terms": 1419
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "2U1/Qwen-VL-Series-Finetune",
@@ -124,6 +124,7 @@
     "lmcinnes/umap",
     "LorenEteval/Furious",
     "ltdrdata/ComfyUI-Impact-Pack",
+    "m87-labs/moondream",
     "mbailey/voicemode",
     "meta-pytorch/attention-gym",
     "michaelfeil/infinity",
@@ -167,6 +168,7 @@
     "plastic-labs/honcho",
     "Pointcept/Pointcept",
     "PyCQA/bandit",
+    "pypa/cibuildwheel",
     "pypa/setuptools",
     "pyro-ppl/numpyro",
     "pytest-dev/pytest-cov",
@@ -200,7 +202,6 @@
     "tabatkins/railroad-diagrams",
     "Tencent-Hunyuan/HunyuanVideo-1.5",
     "Tencent-Hunyuan/HunyuanVideo-I2V",
-    "TencentCloudADP/youtu-agent",
     "tensorflow/datasets",
     "Textualize/rich-cli",
     "The-OpenROAD-Project/OpenLane",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1499,
-    "concepts": 989,
-    "observations": 995,
-    "repos": 162,
-    "terms": 982
+    "components": 1485,
+    "concepts": 978,
+    "observations": 984,
+    "repos": 159,
+    "terms": 971
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "0xPolygonHermez/zisk",
@@ -70,7 +70,6 @@
     "EmbarkStudios/cargo-about",
     "enbop/fungi",
     "EricLBuehler/candle-vllm",
-    "esp-rs/esp-idf-sys",
     "esp-rs/espflash",
     "esp-rs/std-training",
     "EspressoSystems/espresso-network",
@@ -119,7 +118,6 @@
     "mozillazg/rust-pinyin",
     "near/near-cli-rs",
     "near/near-sdk-rs",
-    "nix-community/harmonia",
     "nix-community/namaka",
     "NixOS/nix-installer",
     "Nullus157/async-compression",
@@ -144,7 +142,6 @@
     "rust-lang/compiler-builtins",
     "rust-lang/pkg-config-rs",
     "rust-lang/rustc-perf",
-    "rust-lang/rustwide",
     "rust-lang/socket2",
     "rust-lang/stdarch",
     "rust-lang/team",

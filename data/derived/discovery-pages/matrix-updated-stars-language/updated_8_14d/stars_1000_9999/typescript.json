@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 424,
-    "concepts": 91,
-    "observations": 92,
-    "repos": 11,
-    "terms": 91
+    "components": 404,
+    "concepts": 85,
+    "observations": 86,
+    "repos": 10,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
-    "antvis/mcp-server-chart",
     "benchmark-action/github-action-benchmark",
     "can1357/oh-my-pi",
     "enricoros/big-AGI",

@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 3246,
-    "concepts": 1560,
-    "observations": 1562,
-    "repos": 318,
-    "terms": 1534
+    "concepts": 1563,
+    "observations": 1565,
+    "repos": 319,
+    "terms": 1537
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -294,6 +294,7 @@
     "svc-develop-team/so-vits-svc",
     "SYSTRAN/faster-whisper",
     "tatsu-lab/stanford_alpaca",
+    "Tencent-Hunyuan/HunyuanVideo",
     "Tencent/rapidjson",
     "TencentARC/GFPGAN",
     "tensorflow/tensor2tensor",

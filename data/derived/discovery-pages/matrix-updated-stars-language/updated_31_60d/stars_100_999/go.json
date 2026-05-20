@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 510,
-    "concepts": 415,
-    "observations": 418,
-    "repos": 73,
-    "terms": 423
+    "components": 514,
+    "concepts": 417,
+    "observations": 420,
+    "repos": 74,
+    "terms": 425
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "AdguardTeam/AdGuardDNS",
@@ -83,6 +83,7 @@
     "siderolabs/talos-cloud-controller-manager",
     "skenetechnologies/skene",
     "slsa-framework/slsa-github-generator",
+    "spiffe/go-spiffe",
     "stefanlogue/meteor",
     "terraform-linters/tflint-ruleset-aws",
     "terraform-linters/tflint-ruleset-azurerm",

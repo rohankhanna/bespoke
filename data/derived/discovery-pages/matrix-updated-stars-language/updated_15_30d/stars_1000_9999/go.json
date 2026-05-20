@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1890,
-    "concepts": 1830,
-    "observations": 1840,
-    "repos": 195,
-    "terms": 1826
+    "components": 1884,
+    "concepts": 1822,
+    "observations": 1832,
+    "repos": 194,
+    "terms": 1818
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "actions/actions-runner-controller",
     "AdguardTeam/dnsproxy",
@@ -116,7 +116,6 @@
     "google/go-containerregistry",
     "google/syzkaller",
     "google/trillian",
-    "GoogleCloudPlatform/berglas",
     "gookit/color",
     "gookit/goutil",
     "gookit/validate",

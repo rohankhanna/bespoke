@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 130,
-    "concepts": 160,
-    "observations": 161,
-    "repos": 35,
-    "terms": 174
+    "components": 132,
+    "concepts": 162,
+    "observations": 163,
+    "repos": 36,
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "actions/upload-pages-artifact",
@@ -25,6 +25,7 @@
     "cncf/k8s-conformance",
     "codelibs/docker-fess",
     "crazy-max/xgo",
+    "docker-library/drupal",
     "docker-library/hello-world",
     "EmbarkStudios/cargo-deny-action",
     "ericbuess/claude-code-docs",

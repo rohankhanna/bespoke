@@ -1,21 +1,20 @@
 {
   "counts": {
-    "components": 221,
-    "concepts": 185,
-    "observations": 186,
-    "repos": 34,
-    "terms": 185
+    "components": 249,
+    "concepts": 183,
+    "observations": 184,
+    "repos": 32,
+    "terms": 183
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "aidenlab/hic-straw",
     "aidenlab/juicebox.js",
-    "alloy-rs/evm",
     "amazon-ion/ion-cli",
     "apache/casbin-actix-casbin-auth",
     "apache/casbin-axum-casbin",
@@ -30,11 +29,9 @@
     "edge-classic/EDGE-classic",
     "erigontech/mdbx-go",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
-    "honwen/openwrt-dnsmasq-extra",
     "intel-staging/text-generation-webui",
     "karafka/example-apps",
     "lumen-oss/luarocks-tag-release",
-    "mesh-iit/cad-libraries",
     "microsoft/openjdk-jdk11u",
     "microsoft/openjdk-jdk17u",
     "microsoft/openjdk-jdk21u",
@@ -46,6 +43,7 @@
     "openjdk/jdk21u-dev",
     "pivotal/credhub-release",
     "RiDDiX/home-assistant-addons",
+    "storybook-community/addon-queryparams",
     "TrigenSoftware/simple-release"
   ]
 }

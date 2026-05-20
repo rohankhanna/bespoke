@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15167,
-    "concepts": 13665,
-    "observations": 13691,
-    "repos": 4507,
-    "terms": 13446
+    "components": 15177,
+    "concepts": 13684,
+    "observations": 13710,
+    "repos": 4513,
+    "terms": 13463
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -577,6 +577,7 @@
     "baofff/Extended-Analytic-DPM",
     "barisgecer/GANFit",
     "barisgecer/TBGAN",
+    "barsoom/traco",
     "bartolli/claude-code-typescript-hooks",
     "base-repos/base",
     "baygeldin/tantiny",
@@ -1145,6 +1146,7 @@
     "danijar/crafter",
     "DanilaMihailov/beacon.nvim",
     "DaoCloud/crproxy",
+    "DaoCloud/public-binary-files-mirror",
     "dapphub/dappsys",
     "dapphub/ds-test",
     "darkpgmr/DarkLabel",
@@ -2764,6 +2766,7 @@
     "mailhog/mhsendmail",
     "mailru/dbr",
     "MajicDesigns/MD_MAX72XX",
+    "MajicDesigns/MD_Parola",
     "makew0rld/dither",
     "mala-lab/ADBenchmarks-anomaly-detection-datasets",
     "Malabarba/beacon",
@@ -3519,6 +3522,7 @@
     "pulumi/automation-api-examples",
     "py-pdf/benchmarks",
     "pybind/pybind11_json",
+    "PyCQA/eradicate",
     "PyCQA/mccabe",
     "PyCQA/pep8-naming",
     "pyga/parsley",
@@ -3863,6 +3867,7 @@
     "sniklaus/softmax-splatting",
     "sobolevn/misspell-fixer-action",
     "soCzech/TransNetV2",
+    "Softcatala/open-dubbing",
     "softprops/envy",
     "softprops/hubcaps",
     "softprops/recap",
@@ -4465,6 +4470,7 @@
     "yzhangcs/parser",
     "zafercavdar/fasttext-langdetect",
     "zai-org/VisionReward",
+    "Zaid-Ajaj/LiteDB.FSharp",
     "zakhenry/embedme",
     "zalo/mujoco_wasm",
     "zdaxie/PixPro",

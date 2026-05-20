@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1643,
-    "concepts": 253,
-    "observations": 254,
-    "repos": 46,
-    "terms": 261
+    "components": 1706,
+    "concepts": 268,
+    "observations": 269,
+    "repos": 47,
+    "terms": 274
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "ai/nanoid",
     "anuraghazra/github-readme-stats",
@@ -25,6 +25,7 @@
     "ConardLi/easy-dataset",
     "debug-js/debug",
     "eyaltoledano/claude-task-master",
+    "google/zx",
     "graphql/graphql-spec",
     "hapijs/hapi",
     "hapijs/joi",

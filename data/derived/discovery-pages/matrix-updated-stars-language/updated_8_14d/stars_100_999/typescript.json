@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 654,
-    "concepts": 103,
-    "observations": 103,
+    "components": 683,
+    "concepts": 117,
+    "observations": 117,
     "repos": 16,
-    "terms": 99
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "Agoric/agoric-sdk",
@@ -20,9 +20,9 @@
     "apify/mcpc",
     "embroider-build/ember-auto-import",
     "inversify/monorepo",
-    "lambdalisue/vim-gin",
     "LuaLS/vscode-lua",
     "Luligu/matterbridge-shelly",
+    "Luligu/matterbridge-zigbee2mqtt",
     "nurikk/zigbee2mqtt-frontend",
     "preactjs/preact-devtools",
     "Rel1cx/eslint-react",

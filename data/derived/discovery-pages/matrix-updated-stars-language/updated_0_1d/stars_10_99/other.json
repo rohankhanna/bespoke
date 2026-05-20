@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 7,
-    "observations": 7,
+    "components": 0,
+    "concepts": 3,
+    "observations": 3,
     "repos": 1,
-    "terms": 7
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
-    "karafka/example-apps"
+    "nvim-mini/mini.deps"
   ]
 }

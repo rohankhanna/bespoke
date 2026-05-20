@@ -3,7 +3,7 @@
     "components": 176,
     "concepts": 151,
     "observations": 152,
-    "repos": 37,
+    "repos": 36,
     "terms": 148
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "Accla/graphulo",
     "agentclientprotocol/java-sdk",
@@ -49,7 +49,6 @@
     "smithy-lang/smithy-examples",
     "spiffe/java-spiffe",
     "usdot-fhwa-stol/carma-cloud",
-    "xmlark/msv",
     "yawkat/lz4-java"
   ]
 }

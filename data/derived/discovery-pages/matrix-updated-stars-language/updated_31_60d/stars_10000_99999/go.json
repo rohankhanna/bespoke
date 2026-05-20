@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 363,
-    "concepts": 403,
-    "observations": 403,
-    "repos": 39,
-    "terms": 395
+    "components": 375,
+    "concepts": 414,
+    "observations": 416,
+    "repos": 41,
+    "terms": 406
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "abiosoft/colima",
@@ -37,6 +37,7 @@
     "hibiken/asynq",
     "Jguer/yay",
     "junegunn/fzf",
+    "kubernetes-sigs/kind",
     "kubernetes-sigs/kustomize",
     "kubernetes/ingress-nginx",
     "kubernetes/kompose",
@@ -52,6 +53,7 @@
     "slimtoolkit/slim",
     "stretchr/testify",
     "urfave/cli",
+    "valyala/fasthttp",
     "wader/fq"
   ]
 }

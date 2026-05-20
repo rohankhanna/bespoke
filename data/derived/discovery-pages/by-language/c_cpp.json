@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 9531,
-    "concepts": 11396,
-    "observations": 11424,
-    "repos": 2362,
-    "terms": 11302
+    "concepts": 11403,
+    "observations": 11431,
+    "repos": 2363,
+    "terms": 11308
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0ldsk00l/nestopia",
@@ -699,6 +699,7 @@
     "eliemichel/WebGPU-distribution",
     "eliemichel/WebGPU-raii",
     "elixir-sqlite/exqlite",
+    "embeddedartistry/libc",
     "emersion/grim",
     "emersion/slurp",
     "empriselab/gen3_compliant_controllers",

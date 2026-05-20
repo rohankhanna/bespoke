@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 256,
-    "concepts": 103,
-    "observations": 103,
-    "repos": 84,
-    "terms": 103
+    "components": 255,
+    "concepts": 102,
+    "observations": 102,
+    "repos": 83,
+    "terms": 102
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "1000ch/Sublime-csso",
@@ -61,7 +61,6 @@
     "DiligentGraphics/googletest",
     "DiligentGraphics/NuklearUI",
     "Enselic/cargo-public-api",
-    "espressosystems/espresso-systems-common",
     "EspressoSystems/jellyfish-compat",
     "frankkohlhepp/fancy-settings",
     "get-gah/gah-db",

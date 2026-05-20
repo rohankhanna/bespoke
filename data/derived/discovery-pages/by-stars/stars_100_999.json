@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 50273,
-    "concepts": 34715,
-    "observations": 34820,
-    "repos": 8554,
-    "terms": 34575
+    "components": 50278,
+    "concepts": 34730,
+    "observations": 34835,
+    "repos": 8557,
+    "terms": 34585
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0k/shyaml",
@@ -2727,6 +2727,7 @@
     "EmbarkStudios/cargo-about",
     "EmbarkStudios/cargo-deny-action",
     "EmbarkStudios/rpmalloc-rs",
+    "embeddedartistry/libc",
     "ember-cli/ember-cli-update",
     "ember-cli/ember-exam",
     "ember-cli/ember-try",
@@ -7412,6 +7413,7 @@
     "snwfdhmp/awesome-ralph",
     "sobolevn/misspell-fixer-action",
     "soCzech/TransNetV2",
+    "Softcatala/open-dubbing",
     "Softeria/ms-365-mcp-server",
     "softprops/envy",
     "softprops/hubcaps",
@@ -8484,6 +8486,7 @@
     "zai-org/GLM-skills",
     "zai-org/VisionReward",
     "zai-org/z-ai-sdk-python",
+    "Zaid-Ajaj/LiteDB.FSharp",
     "zakhenry/embedme",
     "zalo/mujoco_wasm",
     "zarr-developers/numcodecs",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 3924,
+    "components": 3928,
     "concepts": 2739,
-    "observations": 2744,
-    "repos": 703,
+    "observations": 2745,
+    "repos": 700,
     "terms": 2729
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "0k/shyaml",
     "10up/action-wordpress-plugin-asset-update",
@@ -115,7 +115,6 @@
     "baal-org/baal",
     "babashka/scittle",
     "baldowl/rack_csrf",
-    "barsoom/traco",
     "bazelbuild/stardoc",
     "bazeltools/bazel-deps",
     "bdwgc/libatomic_ops",
@@ -204,7 +203,6 @@
     "CVEProject/cve-schema",
     "dalek-cryptography/ed25519-dalek",
     "DanCardin/cappa",
-    "DaoCloud/public-binary-files-mirror",
     "dbeley/awesome-lemmy",
     "dcoapp/app",
     "declare-lab/TangoFlux",
@@ -293,6 +291,7 @@
     "google/ruy",
     "googleapis/nodejs-logging-winston",
     "googlefonts/fontmake",
+    "gost-dom/browser",
     "gpustack/llama-box",
     "gradle-nexus/publish-plugin",
     "gristlabs/asttokens",
@@ -425,7 +424,6 @@
     "lzyhha/VisualCloze",
     "machow/quartodoc",
     "madebyollin/taesd",
-    "MajicDesigns/MD_Parola",
     "Manishearth/triomphe",
     "ManuelHentschel/VSCode-R-Debugger",
     "mapbox/tilejson-spec",
@@ -545,7 +543,6 @@
     "privacycg/meetings",
     "proxy-wasm/proxy-wasm-cpp-sdk",
     "proxy-wasm/proxy-wasm-go-sdk",
-    "PyCQA/eradicate",
     "pyenv/pyenv-update",
     "pygeobuf/pygeobuf",
     "pypa/get-pip",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 275,
-    "concepts": 597,
-    "observations": 597,
-    "repos": 105,
-    "terms": 591
+    "concepts": 600,
+    "observations": 600,
+    "repos": 106,
+    "terms": 594
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "adobe-fonts/source-han-sans",
     "ageitgey/face_recognition",
@@ -108,6 +108,7 @@
     "svc-develop-team/so-vits-svc",
     "SYSTRAN/faster-whisper",
     "tatsu-lab/stanford_alpaca",
+    "Tencent-Hunyuan/HunyuanVideo",
     "TencentARC/GFPGAN",
     "tensorflow/tensor2tensor",
     "THU-MIG/yolov10",

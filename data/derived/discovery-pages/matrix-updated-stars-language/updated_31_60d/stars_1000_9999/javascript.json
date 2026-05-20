@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1968,
-    "concepts": 414,
-    "observations": 414,
+    "components": 1962,
+    "concepts": 428,
+    "observations": 428,
     "repos": 73,
-    "terms": 414
+    "terms": 428
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "acss-io/atomizer",
     "actions/javascript-action",
@@ -58,10 +58,10 @@
     "mantoni/eslint_d.js",
     "mapbox/delaunator",
     "mapbox/maki",
+    "micromatch/picomatch",
     "microsoft/vscode-recipes",
     "mourner/flatbush",
     "mourner/rbush",
-    "nksaraf/vinxi",
     "node-fetch/node-fetch",
     "npm/cli",
     "npm/node-semver",

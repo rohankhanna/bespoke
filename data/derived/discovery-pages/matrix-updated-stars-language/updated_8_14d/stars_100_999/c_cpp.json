@@ -1,9 +1,9 @@
 {
   "counts": {
     "components": 42,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 6,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 7,
     "terms": 37
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "aburch/simutrans",
+    "altschuler/imgui-knobs",
     "celtera/avendish",
     "kiron1/bazel-compile-commands",
     "ros2/common_interfaces",

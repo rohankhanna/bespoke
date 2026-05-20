@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 707,
+    "components": 703,
     "concepts": 96,
     "observations": 96,
-    "repos": 35,
+    "repos": 34,
     "terms": 105
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "alibaizhanov/openclaw-mengram",
     "analyticsinmotion/wake-word",
@@ -40,7 +40,6 @@
     "neuroverseos/neuroverseos-governance",
     "octokit/openapi-webhooks",
     "qcr/qcr.github.io",
-    "robustmq/robustmq-copilot",
     "saminiscool/twitter-ai-agent",
     "storybookjs/addon-jest",
     "tnc-ca-geo/animl-api",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1191,
-    "concepts": 5468,
-    "observations": 5473,
-    "repos": 1842,
-    "terms": 5316
+    "components": 1198,
+    "concepts": 5473,
+    "observations": 5478,
+    "repos": 1844,
+    "terms": 5318
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -1442,6 +1442,7 @@
     "protossw512/AdaptiveWingLoss",
     "pseeth/torch-stft",
     "py-pdf/benchmarks",
+    "PyCQA/eradicate",
     "PyCQA/mccabe",
     "PyCQA/pep8-naming",
     "pyga/parsley",
@@ -1570,6 +1571,7 @@
     "sniklaus/pytorch-unflow",
     "sniklaus/softmax-splatting",
     "soCzech/TransNetV2",
+    "Softcatala/open-dubbing",
     "songweige/TATS",
     "sony/ai-research-code",
     "sony/nnabla-rl",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 28470,
+    "components": 28425,
     "concepts": 15194,
     "observations": 15246,
-    "repos": 5497,
-    "terms": 15194
+    "repos": 5496,
+    "terms": 15196
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -5147,7 +5147,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",
@@ -5270,7 +5270,6 @@
     "Vinhixus/TornadoVM-Ray-Tracer",
     "vinlyx/mgzip",
     "vio/bundle-stats-action",
-    "violentmonkey/violentmonkey-mx",
     "vipera/cheap-ruler-rs",
     "viperproject/axiom-profiler",
     "viperproject/smt-scope",

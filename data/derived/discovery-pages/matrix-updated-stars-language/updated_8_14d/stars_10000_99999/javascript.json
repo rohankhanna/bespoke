@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 142,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 3,
-    "terms": 19
+    "components": 68,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 2,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
-    "emotion-js/emotion",
     "foliojs/pdfkit",
     "lint-staged/lint-staged"
   ]

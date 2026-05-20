@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1818,
-    "concepts": 1645,
-    "observations": 1652,
-    "repos": 285,
-    "terms": 1636
+    "components": 1816,
+    "concepts": 1631,
+    "observations": 1638,
+    "repos": 281,
+    "terms": 1622
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aboutcode-org/scancode.io",
@@ -77,7 +77,6 @@
     "CERTCC/SSVC",
     "chaoss/grimoirelab-perceval",
     "chengzhag/UCPE",
-    "ClementPinard/Pytorch-Correlation-extension",
     "cognizant-ai-lab/neuro-san",
     "cognizant-ai-lab/neuro-san-studio",
     "ComparativeGenomicsToolkit/cactus",
@@ -125,7 +124,6 @@
     "flagos-ai/FlagGems",
     "fsspec/gcsfs",
     "fsspec/universal_pathlib",
-    "fzyzcjy/torch_memory_saver",
     "galaxyproject/planemo",
     "gmberton/VPR-methods-evaluation",
     "GNOME/adwaita-icon-theme",
@@ -206,7 +204,6 @@
     "NVlabs/trajdata",
     "ogx-ai/llama-stack-client-python",
     "ogx-ai/ogx-client-python",
-    "oh-my-ocr/text_renderer",
     "onnx/turnkeyml",
     "opea-project/GenAIComps",
     "open-telemetry/opentelemetry-cpp-contrib",
@@ -274,7 +271,6 @@
     "SWE-bench/SWE-smith",
     "taylorwilsdon/open-webui-postgres-migration",
     "thedatumorg/TSB-AD",
-    "TIGER-AI-Lab/VLM2Vec",
     "tox-dev/sphinx-autodoc-typehints",
     "triton-inference-server/client",
     "triton-inference-server/model_analyzer",

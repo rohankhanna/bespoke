@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11651,
+    "components": 11619,
     "concepts": 6644,
     "observations": 6659,
     "repos": 3190,
-    "terms": 6602
+    "terms": 6604
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -2108,6 +2108,7 @@
     "markdown-it-rust/markdown-it-plugins.rs",
     "markdown-it/markdown-it-cjk-breaks",
     "markdown-it/markdown-it-deflist",
+    "markdown-it/markdown-it-sub",
     "marl/l3embedding",
     "marmelab/react-admin-helpdesk",
     "martinmoene/catch-lest-other-comparison",
@@ -2967,7 +2968,7 @@
     "TREMA-UNH/trec-car-tools",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",
@@ -3045,7 +3046,6 @@
     "Vimjas/vim-testbed",
     "Vinhixus/TornadoVM-Ray-Tracer",
     "vio/bundle-stats-action",
-    "violentmonkey/violentmonkey-mx",
     "vipera/cheap-ruler-rs",
     "viperproject/axiom-profiler",
     "virtual-puppet-project/mouse-tracker",

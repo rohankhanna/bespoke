@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 786,
-    "concepts": 727,
-    "observations": 728,
-    "repos": 189,
-    "terms": 722
+    "components": 783,
+    "concepts": 726,
+    "observations": 727,
+    "repos": 188,
+    "terms": 721
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -39,7 +39,6 @@
     "Azure/template-analyzer",
     "babashka/scittle",
     "baldowl/rack_csrf",
-    "barsoom/traco",
     "bazeltools/bazel-deps",
     "benbalter/jekyll-include-cache",
     "bfrg/vim-c-cpp-modern",

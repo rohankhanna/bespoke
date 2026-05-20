@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2753,
-    "concepts": 2397,
-    "observations": 2407,
-    "repos": 467,
-    "terms": 2374
+    "components": 2730,
+    "concepts": 2389,
+    "observations": 2399,
+    "repos": 466,
+    "terms": 2362
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2shady4u/godot-sqlite",
@@ -304,7 +304,6 @@
     "mrash/fwknop",
     "msgpack/msgpack-c",
     "msgpack/msgpack-javascript",
-    "muesli/termenv",
     "myclabs/DeepCopy",
     "myhub/tr",
     "naelstrof/maim",
@@ -320,6 +319,7 @@
     "novnc/websockify",
     "numman-ali/openskills",
     "numz/ComfyUI-SeedVR2_VideoUpscaler",
+    "nunchaku-ai/ComfyUI-nunchaku",
     "nutsdb/nutsdb",
     "nv-tlabs/ASE",
     "NVIDIA/ChatRTX",
@@ -435,7 +435,6 @@
     "Tencent/tquic",
     "TencentARC/SEED-Voken",
     "tensorflow/agents",
-    "testing-library/jest-dom",
     "thestk/rtmidi",
     "thu-ml/RoboticsDiffusionTransformer",
     "thu-ml/SageAttention",

@@ -3,7 +3,7 @@
     "components": 313,
     "concepts": 379,
     "observations": 379,
-    "repos": 57,
+    "repos": 55,
     "terms": 374
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "acts-project/traccc",
@@ -51,8 +51,6 @@
     "libbitcoin/libbitcoin-database",
     "libbitcoin/libbitcoin-network",
     "llnl/camp",
-    "lxqt/liblxqt",
-    "lxqt/libqtxdg",
     "Mbed-TLS/TF-PSA-Crypto",
     "microsoft/aitour-exploring-cutting-edge-models",
     "milvus-io/milvus-sdk-cpp",

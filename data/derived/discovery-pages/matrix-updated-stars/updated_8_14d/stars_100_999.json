@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1085,
-    "concepts": 487,
-    "observations": 488,
-    "repos": 72,
-    "terms": 481
+    "components": 1103,
+    "concepts": 504,
+    "observations": 505,
+    "repos": 73,
+    "terms": 496
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "aannoo/hcom",
@@ -20,6 +20,7 @@
     "agentic-box/memora",
     "Agoric/agoric-sdk",
     "Alexey-T/ATFlatControls",
+    "altschuler/imgui-knobs",
     "andreykaipov/goobs",
     "apify/apify-cli",
     "apify/mcpc",
@@ -54,11 +55,11 @@
     "kiron1/bazel-compile-commands",
     "kornia/kornia-rs",
     "KosherJava/zmanim",
-    "lambdalisue/vim-gin",
+    "Kotlin/kotlinx-benchmark",
     "lite-xl/lite-xl-plugin-manager",
     "LuaLS/vscode-lua",
     "Luligu/matterbridge-shelly",
-    "mafintosh/streamx",
+    "Luligu/matterbridge-zigbee2mqtt",
     "mll-lab-nu/VAGEN",
     "mrcjkb/haskell-tools.nvim",
     "nod-ai/AMD-SHARK-ModelDev",

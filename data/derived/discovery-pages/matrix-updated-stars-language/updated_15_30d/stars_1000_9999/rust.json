@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1783,
-    "concepts": 1344,
-    "observations": 1349,
-    "repos": 168,
-    "terms": 1339
+    "components": 1771,
+    "concepts": 1332,
+    "observations": 1337,
+    "repos": 166,
+    "terms": 1327
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "0xPlaygrounds/rig",
@@ -49,7 +49,6 @@
     "CosmWasm/cosmwasm",
     "crev-dev/cargo-crev",
     "cross-rs/cross",
-    "dalek-cryptography/curve25519-dalek",
     "databendlabs/openraft",
     "dathere/qsv",
     "delta-io/delta-rs",
@@ -157,7 +156,6 @@
     "rustsec/rustsec",
     "salsa-rs/salsa",
     "SeaQL/sea-orm",
-    "servo/html5ever",
     "servo/pathfinder",
     "sigp/lighthouse",
     "skim-rs/skim",

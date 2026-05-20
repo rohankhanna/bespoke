@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 455,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 20,
-    "terms": 109
+    "components": 469,
+    "concepts": 113,
+    "observations": 113,
+    "repos": 21,
+    "terms": 112
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "Adobe-CEP/CEP-Resources",
     "anandthakker/doiuse",
@@ -28,6 +28,7 @@
     "istanbuljs/nyc",
     "microsoft/generative-ai-with-javascript",
     "mrsteele/dotenv-webpack",
+    "nksaraf/vinxi",
     "paralleldrive/cuid2",
     "remarkjs/remark",
     "rollup/plugins",

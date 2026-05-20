@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1239,
-    "concepts": 1313,
-    "observations": 1322,
-    "repos": 211,
-    "terms": 1315
+    "components": 1283,
+    "concepts": 1374,
+    "observations": 1383,
+    "repos": 217,
+    "terms": 1369
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -35,6 +35,7 @@
     "ankane/groupdate",
     "ankane/lockbox",
     "apple/containerization",
+    "apple/swift-crypto",
     "apple/swift-log",
     "ardalis/Result",
     "arviz-devs/arviz",
@@ -49,6 +50,8 @@
     "camlworks/dream",
     "castwide/solargraph",
     "chef/bento",
+    "cimgui/cimgui",
+    "circe/circe",
     "clojure/core.async",
     "CocoaPods/Xcodeproj",
     "CommunityToolkit/dotnet",
@@ -76,6 +79,7 @@
     "ElectronNET/Electron.NET",
     "elixir-ecto/postgrex",
     "elixir-plug/plug",
+    "emacs-lsp/lsp-mode",
     "epwalsh/obsidian.nvim",
     "erichlof/THREE.js-PathTracing-Renderer",
     "fcambus/spleen",
@@ -122,6 +126,7 @@
     "jpsim/Yams",
     "JuliaDocs/Franklin.jl",
     "JuliaPlots/Plots.jl",
+    "JuliaPlots/UnicodePlots.jl",
     "junegunn/seoul256.vim",
     "kepano/obsidian-minimal",
     "KhronosGroup/glTF",
@@ -221,6 +226,7 @@
     "whitequark/parser",
     "wincent/command-t",
     "wojtekmach/req",
+    "xoofx/markdig",
     "yonaskolb/XcodeGen",
     "yuhonas/free-exercise-db",
     "zarazhangrui/codebase-to-course",

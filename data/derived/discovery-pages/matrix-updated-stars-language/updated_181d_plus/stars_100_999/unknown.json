@@ -3,7 +3,7 @@
     "components": 123,
     "concepts": 435,
     "observations": 436,
-    "repos": 246,
+    "repos": 247,
     "terms": 435
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -74,6 +74,7 @@
     "CSCSX/LeRobotTutorial-CN",
     "cstrap/python-snippets",
     "cuilimeng/CoAID",
+    "DaoCloud/public-binary-files-mirror",
     "darkpgmr/DarkLabel",
     "DaveH355/clustered-shading",
     "dc-ai-projects/DC-VideoGen",

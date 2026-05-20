@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2751,
-    "concepts": 1863,
-    "observations": 1873,
+    "components": 2742,
+    "concepts": 1859,
+    "observations": 1868,
     "repos": 439,
-    "terms": 1866
+    "terms": 1862
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "2KAbhishek/seeker.nvim",
@@ -149,6 +149,7 @@
     "ElsaTam/obsidian-fancy-a-story",
     "Embarcadero/P4D-Data-Sciences",
     "Embarcadero/python4delphi",
+    "embeddedartistry/libc",
     "emberjs/core-notes",
     "ericmj/decimal",
     "erigontech/interfaces",
@@ -187,7 +188,6 @@
     "GoogleCloudPlatform/docker-credential-gcr",
     "googlefonts/glyphsets",
     "gopacket/gopacket",
-    "gost-dom/browser",
     "graphql-hive/graphql-eslint",
     "GuiWonder/Shanggu",
     "gwihlidal/vk-mem-rs",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 6,
-    "terms": 37
+    "components": 30,
+    "concepts": 62,
+    "observations": 62,
+    "repos": 7,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
+    "alibaba/spring-cloud-alibaba",
     "google/auto",
     "google/guava",
     "Konloch/bytecode-viewer",

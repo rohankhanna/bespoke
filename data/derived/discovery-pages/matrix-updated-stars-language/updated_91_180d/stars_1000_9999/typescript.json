@@ -4,7 +4,7 @@
     "concepts": 149,
     "observations": 150,
     "repos": 29,
-    "terms": 150
+    "terms": 149
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",

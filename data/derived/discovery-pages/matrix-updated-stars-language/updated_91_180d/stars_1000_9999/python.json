@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 361,
-    "concepts": 743,
-    "observations": 744,
-    "repos": 151,
-    "terms": 733
+    "components": 368,
+    "concepts": 755,
+    "observations": 756,
+    "repos": 152,
+    "terms": 742
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "AIDC-AI/Marco-o1",
@@ -108,6 +108,7 @@
     "notofonts/noto-cjk",
     "novnc/websockify",
     "numz/ComfyUI-SeedVR2_VideoUpscaler",
+    "nunchaku-ai/ComfyUI-nunchaku",
     "nv-tlabs/ASE",
     "NVIDIA/ChatRTX",
     "obsei/obsei",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10327,
-    "concepts": 8859,
-    "observations": 8868,
-    "repos": 2310,
-    "terms": 8734
+    "components": 10357,
+    "concepts": 8879,
+    "observations": 8888,
+    "repos": 2312,
+    "terms": 8754
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -1454,6 +1454,7 @@
     "mtrebi/thread-pool",
     "mtshiba/pylyzer",
     "muellan/clipp",
+    "muesli/termenv",
     "multiarch/qemu-user-static",
     "multimodal-art-projection/YuE",
     "MunifTanjim/nui.nvim",
@@ -2037,6 +2038,7 @@
     "Tessil/robin-map",
     "testdouble/testdouble.js",
     "testing-library/dom-testing-library",
+    "testing-library/jest-dom",
     "testing-library/react-hooks-testing-library",
     "Textualize/textual-web",
     "Theano/Theano",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 822,
-    "concepts": 733,
-    "observations": 737,
-    "repos": 98,
-    "terms": 769
+    "components": 832,
+    "concepts": 744,
+    "observations": 748,
+    "repos": 99,
+    "terms": 780
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -27,6 +27,7 @@
     "anthropics/claude-plugins-official",
     "assafelovic/gpt-researcher",
     "astral-sh/ty",
+    "benoitc/gunicorn",
     "browser-use/browser-use",
     "camel-ai/owl",
     "caronc/apprise",

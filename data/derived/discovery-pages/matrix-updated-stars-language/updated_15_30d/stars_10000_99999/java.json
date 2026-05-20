@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 356,
-    "concepts": 432,
-    "observations": 434,
-    "repos": 33,
-    "terms": 429
+    "components": 348,
+    "concepts": 407,
+    "observations": 409,
+    "repos": 32,
+    "terms": 404
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "alibaba/druid",
     "alibaba/nacos",
-    "alibaba/spring-cloud-alibaba",
     "apache/doris",
     "apache/dubbo",
     "apache/incubator-seata",

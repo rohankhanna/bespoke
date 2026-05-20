@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 64,
-    "concepts": 122,
-    "observations": 122,
-    "repos": 20,
-    "terms": 121
+    "concepts": 111,
+    "observations": 111,
+    "repos": 19,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "Alibaba-NLP/DeepResearch",
-    "ComposioHQ/awesome-claude-skills",
     "cool-RR/PySnooper",
     "CorentinJ/Real-Time-Voice-Cloning",
     "facebookresearch/vggt",

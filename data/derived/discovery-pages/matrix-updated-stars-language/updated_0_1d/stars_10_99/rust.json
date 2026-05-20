@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 18,
+    "components": 26,
     "concepts": 5,
     "observations": 5,
-    "repos": 1,
+    "repos": 2,
     "terms": 5
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
+    "alloy-rs/evm",
     "vaporif/parry-guard"
   ]
 }

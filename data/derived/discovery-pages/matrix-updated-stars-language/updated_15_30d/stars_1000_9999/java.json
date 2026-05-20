@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 634,
-    "concepts": 799,
-    "observations": 800,
-    "repos": 77,
-    "terms": 795
+    "components": 618,
+    "concepts": 785,
+    "observations": 786,
+    "repos": 76,
+    "terms": 781
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "alibaba/spring-ai-alibaba",
@@ -22,7 +22,6 @@
     "apache/hudi",
     "apache/iceberg",
     "apache/ignite",
-    "apache/logging-log4j2",
     "apache/lucene",
     "apache/netbeans",
     "apache/parquet-java",

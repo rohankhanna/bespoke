@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1089,
-    "concepts": 1118,
-    "observations": 1119,
-    "repos": 191,
-    "terms": 1112
+    "components": 1086,
+    "concepts": 1108,
+    "observations": 1109,
+    "repos": 188,
+    "terms": 1102
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "AcademySoftwareFoundation/Imath",
@@ -45,7 +45,6 @@
     "boostorg/nowide",
     "CEED/libCEED",
     "celtera/libremidi",
-    "cjlin1/libmf",
     "ClickHouse/clickhouse-cpp",
     "cloudflare/cloudflare-workers-wasm-demo",
     "cloudwu/soluna",
@@ -127,7 +126,6 @@
     "logicalclocks/rondb",
     "LunarG/gfxreconstruct",
     "LunarG/VulkanTools",
-    "lxqt/qterminal",
     "lxqt/qtermwidget",
     "mapbox/geometry.hpp",
     "mapnik/node-mapnik",
@@ -192,7 +190,6 @@
     "snowballstem/snowball",
     "sophgo/LLM-TPU",
     "sophgo/tpu-mlir",
-    "sp-nitech/SPTK",
     "tile-ai/tilelang-ascend",
     "todbot/hidapitester",
     "trealla-prolog/trealla",

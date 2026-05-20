@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 884,
-    "concepts": 560,
-    "observations": 564,
+    "concepts": 568,
+    "observations": 572,
     "repos": 87,
-    "terms": 557
+    "terms": 565
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -31,6 +31,7 @@
     "chalk/chalk",
     "CISOfy/lynis",
     "cleanlab/cleanlab",
+    "ComposioHQ/awesome-claude-skills",
     "containrrr/watchtower",
     "drduh/macOS-Security-and-Privacy-Guide",
     "ekzhang/bore",
@@ -87,7 +88,6 @@
     "Stability-AI/generative-models",
     "streamich/react-use",
     "tachyons-css/tachyons",
-    "Tencent-Hunyuan/HunyuanVideo",
     "toml-lang/toml",
     "tqdm/tqdm",
     "transitive-bullshit/agentic",

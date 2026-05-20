@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 194,
-    "concepts": 196,
-    "observations": 197,
-    "repos": 51,
-    "terms": 194
+    "concepts": 203,
+    "observations": 204,
+    "repos": 52,
+    "terms": 201
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "apache/rocketmq-client-cpp",
     "arduino-libraries/Ethernet",
@@ -27,6 +27,7 @@
     "devkitPro/libctru",
     "douglascrockford/JSMin",
     "eliemichel/LearnWebGPU",
+    "embeddedartistry/libc",
     "frankmorgner/vsmartcard",
     "freebsd/atf",
     "google/effcee",

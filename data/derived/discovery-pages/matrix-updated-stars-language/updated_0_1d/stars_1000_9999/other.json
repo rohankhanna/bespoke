@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 167,
-    "concepts": 129,
-    "observations": 130,
-    "repos": 14,
-    "terms": 129
+    "components": 149,
+    "concepts": 137,
+    "observations": 138,
+    "repos": 12,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "andymass/vim-matchup",
     "clj-kondo/clj-kondo",
@@ -23,10 +23,8 @@
     "licensee/licensed",
     "microsoft/aspire",
     "microsoft/aspire-samples",
-    "standardrb/standard",
+    "psmux/psmux",
     "swiftlang/llvm-project",
-    "swiftlang/swift-syntax",
-    "TryGhost/node-sqlite3",
     "web-platform-tests/wpt"
   ]
 }

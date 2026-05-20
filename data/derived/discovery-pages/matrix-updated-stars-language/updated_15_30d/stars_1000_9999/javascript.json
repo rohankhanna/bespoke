@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3804,
-    "concepts": 735,
-    "observations": 736,
-    "repos": 100,
-    "terms": 729
+    "components": 3796,
+    "concepts": 718,
+    "observations": 719,
+    "repos": 99,
+    "terms": 712
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "alphagov/govuk-frontend",
@@ -64,7 +64,6 @@
     "mapbox/node-pre-gyp",
     "mapbox/pixelmatch",
     "mermaid-js/mermaid-cli",
-    "micromatch/picomatch",
     "middyjs/middy",
     "MikeMcl/bignumber.js",
     "minio/minio-js",

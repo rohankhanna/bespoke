@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2878,
-    "concepts": 3130,
-    "observations": 3142,
-    "repos": 352,
-    "terms": 3101
+    "components": 2859,
+    "concepts": 3114,
+    "observations": 3126,
+    "repos": 350,
+    "terms": 3086
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "a2aproject/a2a-python",
@@ -192,7 +192,6 @@
     "llamastack/llama-stack",
     "LoRexxar/Kunlun-M",
     "lucidrains/x-transformers",
-    "m87-labs/moondream",
     "mapillary/OpenSfM",
     "meituan-longcat/LongCat-Video",
     "mesonbuild/meson",
@@ -282,7 +281,6 @@
     "pymc-devs/pymc",
     "pymupdf/PyMuPDF",
     "pymupdf/pymupdf4llm",
-    "pypa/cibuildwheel",
     "pypa/hatch",
     "pypa/twine",
     "pypa/virtualenv",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 6,
-    "terms": 38
+    "components": 27,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 5,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "bazel-contrib/rules_kotlin",
     "fsprojects/FSharp.Data.GraphQL",
     "karafka/rdkafka-ruby",
-    "kurrent-io/KurrentDB-Client-Dotnet",
     "meshcat-dev/meshcat",
     "openbsd/ports"
   ]

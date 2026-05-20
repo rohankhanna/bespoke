@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 117,
-    "concepts": 138,
-    "observations": 139,
-    "repos": 16,
-    "terms": 138
+    "components": 132,
+    "concepts": 130,
+    "observations": 131,
+    "repos": 17,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "apache/casbin-Casbin.NET",
@@ -23,12 +23,13 @@
     "litedb-org/LiteDB",
     "lumen-oss/rocks.nvim",
     "microsoft/PhiCookBook",
-    "nushell/awesome-nu",
     "nvim-tree/nvim-web-devicons",
     "nvimdev/lspsaga.nvim",
     "opentk/opentk",
     "preservim/tagbar",
-    "psmux/psmux",
-    "seancorfield/honeysql"
+    "seancorfield/honeysql",
+    "standardrb/standard",
+    "swiftlang/swift-syntax",
+    "TryGhost/node-sqlite3"
   ]
 }

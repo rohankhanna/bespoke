@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2189,
-    "concepts": 2978,
-    "observations": 2985,
-    "repos": 947,
-    "terms": 2962
+    "components": 2192,
+    "concepts": 2983,
+    "observations": 2990,
+    "repos": 949,
+    "terms": 2967
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T05:54:21.882731+00:00",
+  "generated_at": "2026-05-20T08:54:03.798798+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -115,6 +115,7 @@
     "bagrat/vim-buffet",
     "baidut/PaQ-2-PiQ",
     "balancer/balancer-core",
+    "barsoom/traco",
     "baygeldin/tantiny",
     "bazelbuild/platforms",
     "bazelbuild/rules_k8s",
@@ -952,6 +953,7 @@
     "Yuanshi9815/Subjects200K",
     "yuttie/comfortable-motion.vim",
     "yuval-alaluf/Attend-and-Excite",
+    "Zaid-Ajaj/LiteDB.FSharp",
     "zefei/vim-wintabs",
     "zhunzhong07/person-re-ranking",
     "ziglang/zig-spec",
