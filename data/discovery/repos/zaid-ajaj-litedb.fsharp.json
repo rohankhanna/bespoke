@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zaid-Ajaj/LiteDB.FSharp",
+      "target": "mbdavid/litedb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zaid-Ajaj/LiteDB.FSharp",
+      "target": "embedded-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zaid-Ajaj/LiteDB.FSharp",
+      "target": "fsharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zaid-Ajaj/LiteDB.FSharp",
+      "target": "litedb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zaid-Ajaj/LiteDB.FSharp",
+      "target": "nosql",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-20T07:39:17.710817+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9505
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Advanced F# Support for LiteDB, an embedded NoSql database for .NET with type-safe query expression through F# quotations",
+    "fork": false,
+    "full_name": "Zaid-Ajaj/LiteDB.FSharp",
+    "html_url": "https://github.com/Zaid-Ajaj/LiteDB.FSharp",
+    "language": "F#",
+    "pushed_at": "2022-12-08T15:21:43Z",
+    "stargazers_count": 185,
+    "topics": [
+      "embedded-database",
+      "fsharp",
+      "litedb",
+      "nosql"
+    ],
+    "updated_at": "2026-04-13T23:07:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mbdavid/litedb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "F# Support for [LiteDB](https://github.com/mbdavid/LiteDB)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded-database"
+    },
+    {
+      "context_snippet": "F# Support for [LiteDB](https://github.com/mbdavid/LiteDB)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fsharp"
+    },
+    {
+      "context_snippet": "F# Support for [LiteDB](https://github.com/mbdavid/LiteDB)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "litedb"
+    },
+    {
+      "context_snippet": "F# Support for [LiteDB](https://github.com/mbdavid/LiteDB)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nosql"
+    }
+  ]
+}

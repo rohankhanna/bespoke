@@ -1489,11 +1489,23 @@
       "observed_at": "2026-05-20T00:46:08.525261+00:00",
       "source_file": null,
       "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "collabora/WhisperLive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T00:46:08.525261+00:00",
+  "last_seen_at": "2026-05-20T07:24:31.235161+00:00",
   "lexical_providers": [
     "datamuse"
   ],

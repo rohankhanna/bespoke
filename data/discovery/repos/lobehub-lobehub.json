@@ -1931,13 +1931,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lobehub/lobehub",
-      "target": "actions/workflows",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
       "target": "lobehub/lobe-commit",
       "target_type": "repository"
     },
@@ -4710,6 +4703,13 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "lobehub/lobehub",
+      "target": "chief-agent-operator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub",
       "target": "deepseek",
       "target_type": "term"
     },
@@ -4726,13 +4726,20 @@
       "source_repo": "lobehub/lobehub",
       "target": "knowledge-base",
       "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub",
+      "target": "skills",
+      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T14:43:40.575170+00:00",
+  "fetched_at": "2026-05-20T08:44:36.424749+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 34548
+      "size": 34803
     },
     {
       "path": "Dockerfile",
@@ -4780,30 +4787,28 @@
     "full_name": "lobehub/lobehub",
     "html_url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
-    "pushed_at": "2026-05-19T14:29:34Z",
-    "stargazers_count": 77335,
+    "pushed_at": "2026-05-20T08:39:06Z",
+    "stargazers_count": 77384,
     "topics": [
       "agent",
       "agent-collaboration",
       "agent-harness",
       "ai",
+      "cao",
       "chatgpt",
+      "chief-agent-operator",
       "claude",
       "deepseek",
       "gemini",
       "gpt",
       "knowledge-base",
       "mcp",
-      "openai"
+      "openai",
+      "skills"
     ],
-    "updated_at": "2026-05-19T14:39:48Z"
+    "updated_at": "2026-05-20T08:38:37Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "actions/workflows",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "lobehub/lobe-commit",
@@ -4875,6 +4880,12 @@
       "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
       "edge_type": "repo-topic",
       "source_file": null,
+      "term": "chief-agent-operator"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
       "term": "deepseek"
     },
     {
@@ -4888,6 +4899,12 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "knowledge-base"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skills"
     }
   ]
 }

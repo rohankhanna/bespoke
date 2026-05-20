@@ -1024,11 +1024,17 @@
       "observed_at": "2026-05-20T00:46:08.525261+00:00",
       "source_file": null,
       "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "libp2p/team-mgmt"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T00:46:08.525261+00:00",
+  "last_seen_at": "2026-05-20T07:24:31.235161+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -9757,6 +9757,9 @@
     "23c866034f92b762",
     "ca2eadf2b3efbfba"
   ],
+  "automatic-dubbing": [
+    "b47eaaed3ecba2fa"
+  ],
   "automatic-generation": [
     "e96ac5b6c14d97e1"
   ],
@@ -15666,6 +15669,9 @@
   ],
   "brightness": [
     "50821d0366a64e32"
+  ],
+  "bringup": [
+    "6fb62a1a0fda01e0"
   ],
   "broadcast": [
     "2ba757ef6695f168",
@@ -27729,6 +27735,9 @@
   ],
   "chia-blockchain": [
     "312789ca7d584d68"
+  ],
+  "chief-agent-operator": [
+    "88172ccb9e096ba3"
   ],
   "child-process": [
     "1fbec115b18cb6cd",
@@ -56042,6 +56051,9 @@
   "dual-encoder": [
     "a7f00290e5095a33"
   ],
+  "dubbing": [
+    "54099bbdf3fd19b8"
+  ],
   "dubbo": [
     "0500fc21374c1711",
     "2c48f0740ba76244",
@@ -58232,6 +58244,7 @@
     "2adf6e634c20e890",
     "6bed60115dec5ca9",
     "e3fe3c2b7d3d3a26",
+    "e9317343890ba038",
     "ee1432bbb89d893d"
   ],
   "embedded-devices": [
@@ -58263,6 +58276,7 @@
     "4488c1f179c2aebb",
     "4b3f626310b4e9b9",
     "50e95cb8d4bd4155",
+    "6eb214bf6ce05abb",
     "d8c4ed320454c97a",
     "f87e4dfc82f600fa"
   ],
@@ -65328,6 +65342,7 @@
     "ccca152dcc29df33",
     "d9874d75d6f1db29",
     "e643a0480d6880ec",
+    "fb1c310233c54479",
     "feaffe0bb689df38"
   ],
   "fsim": [
@@ -73579,6 +73594,7 @@
     "6e37b3f98f6dc069",
     "6e59e0863cd0e107",
     "6e6406fd349999fb",
+    "6e70cbfef25a2a7f",
     "6f1232e2692e4925",
     "6f70781905233878",
     "7008ed0a241c9abe",
@@ -88216,6 +88232,7 @@
     "19ddbe63b0827842",
     "20145ba90b24f6fc",
     "6d6ad33ddbd3e941",
+    "bee250dbb6ac84f7",
     "dd921cabe6f8e513",
     "ed2795e286bb2d40"
   ],
@@ -91331,6 +91348,7 @@
     "fde45a99576077ea"
   ],
   "litedb": [
+    "2b82539a88175eff",
     "b332a098ac087197"
   ],
   "litedb-database": [
@@ -94161,6 +94179,7 @@
     "b907c44f5b438150",
     "b9468405154b736f",
     "b9e050bf523791e9",
+    "baa1e7624fe6f68f",
     "bac21a575b849f9c",
     "bb849c4ca1bb73e0",
     "bc7ef1dd7cfc40b8",
@@ -97763,6 +97782,7 @@
     "03f5dd6ad8dd9007",
     "074f8dbe02009072",
     "26fe83d2e88ef596",
+    "2ccf5435286b035d",
     "3581e219b44bb273",
     "36f56af4fc0f339a",
     "42a9367409cdba2c",
@@ -106854,6 +106874,7 @@
     "588ee2c8eb6a6f2e",
     "5c0c87f1b63fc785",
     "674562f471938e83",
+    "6d464c44ffa59422",
     "75fe7cde45470353",
     "835cc9fd504a75e8",
     "90f5ae9670d80654",
@@ -116223,6 +116244,7 @@
   ],
   "portability": [
     "6283c00bcd042cb5",
+    "b9f27bfae0d2ca80",
     "e634a9d0ca6d2e2c"
   ],
   "portable": [
@@ -143400,6 +143422,7 @@
     "a16c96ba65db8d0d",
     "a411360e8c86995c",
     "a538e326289de82e",
+    "af4fc4087f32cfb5",
     "b4b1d5a444b2a407",
     "b51ed469f9e1202c",
     "b5c6265b7eeb896e",
@@ -154475,6 +154498,7 @@
     "60ac050b65cd0ef1",
     "6b7786604df4844d",
     "757ba28a606a27a7",
+    "830e3dd63eb41d24",
     "89778dbfafc1a8d4",
     "940c4b3610f69556",
     "9c3fe3a81c126f10",
@@ -159705,6 +159729,9 @@
   ],
   "translate-pypy": [
     "e7eee13f2ec51b97"
+  ],
+  "translate-video": [
+    "3e7dbdae6bcc6002"
   ],
   "translation": [
     "07414e898356e0fc",

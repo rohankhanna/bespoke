@@ -37,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T01:06:23.663489+00:00",
+  "fetched_at": "2026-05-20T08:36:24.350949+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -58,7 +58,7 @@
     "html_url": "https://github.com/lcswillems/rl-starter-files",
     "language": "Python",
     "pushed_at": "2024-05-12T22:04:26Z",
-    "stargazers_count": 724,
+    "stargazers_count": 723,
     "topics": [
       "a2c",
       "a3c",
@@ -69,7 +69,7 @@
       "pytorch",
       "reward-shaping"
     ],
-    "updated_at": "2026-05-18T01:37:52Z"
+    "updated_at": "2026-05-20T02:26:37Z"
   },
   "repo_links": [],
   "terms": [

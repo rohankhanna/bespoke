@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lobehub/lobehub",
-      "target": "actions/workflows",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
       "target": "lobehub/lobe-commit",
       "target_type": "repository"
     },
@@ -2783,6 +2776,13 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "lobehub/lobehub",
+      "target": "chief-agent-operator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub",
       "target": "deepseek",
       "target_type": "term"
     },
@@ -2799,8 +2799,15 @@
       "source_repo": "lobehub/lobehub",
       "target": "knowledge-base",
       "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub",
+      "target": "skills",
+      "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-19T13:24:05.041483+00:00",
+  "generated_at": "2026-05-20T07:24:31.235161+00:00",
   "source_repo": "lobehub/lobehub"
 }

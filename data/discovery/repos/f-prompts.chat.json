@@ -1411,7 +1411,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T01:49:40.241203+00:00",
+  "fetched_at": "2026-05-20T08:45:26.559274+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1455,8 +1455,8 @@
     "full_name": "f/prompts.chat",
     "html_url": "https://github.com/f/prompts.chat",
     "language": "HTML",
-    "pushed_at": "2026-05-19T04:29:32Z",
-    "stargazers_count": 162545,
+    "pushed_at": "2026-05-20T04:30:45Z",
+    "stargazers_count": 162559,
     "topics": [
       "ai",
       "artificial-intelligence",
@@ -1477,7 +1477,7 @@
       "prompts-chat",
       "typescript"
     ],
-    "updated_at": "2026-05-20T01:41:37Z"
+    "updated_at": "2026-05-20T08:39:32Z"
   },
   "repo_links": [],
   "terms": [

@@ -276,7 +276,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -326,7 +326,7 @@
       "source_file": ".github/workflows/ocapn-guile-interop.yml"
     },
     {
-      "component": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ocapn-guile-interop.yml"
     },
@@ -690,7 +690,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "endojs/endo",
-      "target": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -739,7 +739,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ocapn-guile-interop.yml",
       "source_repo": "endojs/endo",
-      "target": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -918,7 +918,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T19:04:49.122424+00:00",
+  "fetched_at": "2026-05-20T07:41:33.253744+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -930,7 +930,7 @@
     },
     {
       "path": "package.json",
-      "size": 2740
+      "size": 3089
     },
     {
       "path": ".github/workflows/browser-test.yml",
@@ -938,7 +938,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 15796
+      "size": 15897
     },
     {
       "path": ".github/workflows/depcheck.yml",
@@ -970,7 +970,7 @@
     "full_name": "endojs/endo",
     "html_url": "https://github.com/endojs/endo",
     "language": "JavaScript",
-    "pushed_at": "2026-05-19T09:40:31Z",
+    "pushed_at": "2026-05-20T06:29:10Z",
     "stargazers_count": 1022,
     "topics": [
       "capabilities",
@@ -985,7 +985,7 @@
       "security",
       "supply-chain"
     ],
-    "updated_at": "2026-05-16T01:12:37Z"
+    "updated_at": "2026-05-20T06:26:38Z"
   },
   "repo_links": [
     {

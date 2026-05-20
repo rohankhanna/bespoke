@@ -121,6 +121,46 @@
       "source_file": ".github/workflows/docker-image-nightly.yml"
     },
     {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/electron-build.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/electron-build.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/electron-build.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/electron-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/electron-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/electron-build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/electron-build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/electron-build.yml"
+    },
+    {
       "component": "peakoss/anti-slop@v0.2.1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-check.yml"
@@ -351,6 +391,62 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/electron-build.yml",
+      "source_repo": "QuantumNous/new-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/electron-build.yml",
+      "source_repo": "QuantumNous/new-api",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/electron-build.yml",
+      "source_repo": "QuantumNous/new-api",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/electron-build.yml",
+      "source_repo": "QuantumNous/new-api",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/electron-build.yml",
+      "source_repo": "QuantumNous/new-api",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/electron-build.yml",
+      "source_repo": "QuantumNous/new-api",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/electron-build.yml",
+      "source_repo": "QuantumNous/new-api",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/electron-build.yml",
+      "source_repo": "QuantumNous/new-api",
+      "target": "Build Electron App",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-check.yml",
       "source_repo": "QuantumNous/new-api",
       "target": "peakoss/anti-slop@v0.2.1",
@@ -455,7 +551,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T01:48:55.486493+00:00",
+  "fetched_at": "2026-05-20T08:44:58.506991+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -482,6 +578,10 @@
       "size": 3234
     },
     {
+      "path": ".github/workflows/electron-build.yml",
+      "size": 3882
+    },
+    {
       "path": ".github/workflows/pr-check.yml",
       "size": 1190
     },
@@ -503,8 +603,8 @@
     "full_name": "QuantumNous/new-api",
     "html_url": "https://github.com/QuantumNous/new-api",
     "language": "Go",
-    "pushed_at": "2026-05-19T10:46:21Z",
-    "stargazers_count": 34306,
+    "pushed_at": "2026-05-20T04:47:56Z",
+    "stargazers_count": 34391,
     "topics": [
       "ai-gateway",
       "claude",
@@ -514,7 +614,7 @@
       "openai",
       "rerank"
     ],
-    "updated_at": "2026-05-20T01:11:58Z"
+    "updated_at": "2026-05-20T08:43:52Z"
   },
   "repo_links": [
     {
@@ -541,6 +641,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/docker-image-nightly.yml",
       "term": "Publish Docker image (nightly)"
+    },
+    {
+      "context_snippet": "Build Electron App",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/electron-build.yml",
+      "term": "Build Electron App"
     },
     {
       "context_snippet": "PR Check",

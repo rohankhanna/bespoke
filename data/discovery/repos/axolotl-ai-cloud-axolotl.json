@@ -73,21 +73,6 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint.yml"
-    },
-    {
-      "component": "actions/setup-python@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint.yml"
-    },
-    {
-      "component": "pre-commit/action@v3.0.1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
     {
@@ -391,34 +376,6 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint.yml",
-      "source_repo": "axolotl-ai-cloud/axolotl",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint.yml",
-      "source_repo": "axolotl-ai-cloud/axolotl",
-      "target": "actions/setup-python@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint.yml",
-      "source_repo": "axolotl-ai-cloud/axolotl",
-      "target": "pre-commit/action@v3.0.1",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/lint.yml",
-      "source_repo": "axolotl-ai-cloud/axolotl",
-      "target": "lint",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "axolotl-ai-cloud/axolotl",
       "target": "actions/checkout@v4",
@@ -600,7 +557,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T00:49:05.246760+00:00",
+  "fetched_at": "2026-05-20T08:25:50.554218+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -617,10 +574,6 @@
     {
       "path": ".github/workflows/docs.yml",
       "size": 1030
-    },
-    {
-      "path": ".github/workflows/lint.yml",
-      "size": 713
     },
     {
       "path": ".github/workflows/main.yml",
@@ -652,13 +605,13 @@
     "full_name": "axolotl-ai-cloud/axolotl",
     "html_url": "https://github.com/axolotl-ai-cloud/axolotl",
     "language": "Python",
-    "pushed_at": "2026-05-19T22:17:23Z",
+    "pushed_at": "2026-05-20T06:31:58Z",
     "stargazers_count": 11949,
     "topics": [
       "fine-tuning",
       "llm"
     ],
-    "updated_at": "2026-05-19T22:05:10Z"
+    "updated_at": "2026-05-20T06:25:33Z"
   },
   "repo_links": [],
   "terms": [
@@ -673,12 +626,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/docs.yml",
       "term": "Publish Docs"
-    },
-    {
-      "context_snippet": "lint",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/lint.yml",
-      "term": "lint"
     },
     {
       "context_snippet": "ci-cd",

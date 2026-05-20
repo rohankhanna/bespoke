@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-20T00:46:08.525261+00:00",
+  "last_seen_at": "2026-05-20T07:24:31.235161+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12982,6 +12982,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "eyalroz/printf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Softcatala/open-dubbing"
     }
   ]
 }

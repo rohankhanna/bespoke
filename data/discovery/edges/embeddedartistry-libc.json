@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "embeddedartistry/libc",
+      "target": "embeddedartistry/libmemory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "embeddedartistry/libc",
+      "target": "embeddedartistry/libcpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "embeddedartistry/libc",
+      "target": "embeddedartistry/gdtoa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "embeddedartistry/libc",
+      "target": "embeddedartistry/printf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libc",
+      "target": "bringup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libc",
+      "target": "embedded-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libc",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libc",
+      "target": "libc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libc",
+      "target": "meson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libc",
+      "target": "portability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libc",
+      "target": "test-coverage",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-20T07:24:31.235161+00:00",
+  "source_repo": "embeddedartistry/libc"
+}

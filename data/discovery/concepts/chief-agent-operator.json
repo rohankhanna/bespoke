@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "chief-agent-operator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lobehub/lobehub",
+      "status": "candidate-context",
+      "text": "\ud83e\udd2f LobeHub is your Chief Agent Operator, organizing your agents into 7\u00d724 operations by hiring, scheduling, and reporting on your entire AI team."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lobehub/lobehub",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lobehub/lobehub",
+      "status": "candidate",
+      "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "chief-agent-operator",
+  "concept_id": "chief-agent-operator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub"
+    }
+  ],
+  "first_seen_at": "2026-05-20T07:24:31.235161+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-20T07:24:31.235161+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chief-agent-operator",
+      "sense_id": "chief-agent-operator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

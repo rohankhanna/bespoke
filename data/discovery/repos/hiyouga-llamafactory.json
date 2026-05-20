@@ -412,7 +412,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T01:00:27.021539+00:00",
+  "fetched_at": "2026-05-20T08:32:45.228573+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -461,7 +461,7 @@
     "html_url": "https://github.com/hiyouga/LlamaFactory",
     "language": "Python",
     "pushed_at": "2026-05-19T17:50:01Z",
-    "stargazers_count": 71419,
+    "stargazers_count": 71432,
     "topics": [
       "agent",
       "ai",
@@ -484,7 +484,7 @@
       "rlhf",
       "transformers"
     ],
-    "updated_at": "2026-05-20T00:58:17Z"
+    "updated_at": "2026-05-20T08:05:39Z"
   },
   "repo_links": [
     {

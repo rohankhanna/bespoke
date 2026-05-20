@@ -306,7 +306,7 @@
       "source_file": ".github/workflows/codecov-next.yaml"
     },
     {
-      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "component": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codecov-next.yaml"
     },
@@ -991,7 +991,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codecov-next.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
       "target_type": "component"
     },
     {
@@ -1310,7 +1310,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T19:09:29.613460+00:00",
+  "fetched_at": "2026-05-20T07:45:34.709100+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1362,8 +1362,8 @@
     "full_name": "podman-desktop/podman-desktop",
     "html_url": "https://github.com/podman-desktop/podman-desktop",
     "language": "TypeScript",
-    "pushed_at": "2026-05-19T19:08:30Z",
-    "stargazers_count": 7645,
+    "pushed_at": "2026-05-20T07:33:12Z",
+    "stargazers_count": 7646,
     "topics": [
       "container",
       "containers",
@@ -1376,7 +1376,7 @@
       "tray-application",
       "ui"
     ],
-    "updated_at": "2026-05-19T15:02:39Z"
+    "updated_at": "2026-05-20T06:42:16Z"
   },
   "repo_links": [
     {

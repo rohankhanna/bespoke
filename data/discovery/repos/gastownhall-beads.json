@@ -71,6 +71,16 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
       "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
@@ -619,7 +629,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T18:58:08.273811+00:00",
+  "fetched_at": "2026-05-20T07:36:01.395575+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -631,7 +641,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 14115
+      "size": 16161
     },
     {
       "path": ".github/workflows/cross-version-smoke.yml",
@@ -671,14 +681,14 @@
     "full_name": "gastownhall/beads",
     "html_url": "https://github.com/gastownhall/beads",
     "language": "Go",
-    "pushed_at": "2026-05-19T16:22:35Z",
-    "stargazers_count": 23871,
+    "pushed_at": "2026-05-20T06:24:07Z",
+    "stargazers_count": 23894,
     "topics": [
       "agents",
       "claude-code",
       "coding"
     ],
-    "updated_at": "2026-05-19T18:52:42Z"
+    "updated_at": "2026-05-20T07:33:28Z"
   },
   "repo_links": [],
   "terms": [

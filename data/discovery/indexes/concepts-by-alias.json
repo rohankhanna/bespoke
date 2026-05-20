@@ -6657,6 +6657,9 @@
   "automatic-differentiation": [
     "automatic-differentiation"
   ],
+  "automatic-dubbing": [
+    "automatic-dubbing"
+  ],
   "automatic-generation": [
     "automatic-generation"
   ],
@@ -10224,6 +10227,9 @@
   ],
   "brightness": [
     "brightness"
+  ],
+  "bringup": [
+    "bringup"
   ],
   "broadcast": [
     "broadcast"
@@ -18181,6 +18187,9 @@
   ],
   "chia-blockchain": [
     "chia-blockchain"
+  ],
+  "chief-agent-operator": [
+    "chief-agent-operator"
   ],
   "child-process": [
     "child-process"
@@ -33202,6 +33211,9 @@
   ],
   "dual-encoder": [
     "dual-encoder"
+  ],
+  "dubbing": [
+    "dubbing"
   ],
   "dubbo": [
     "dubbo"
@@ -91590,6 +91602,9 @@
   ],
   "translate pypy": [
     "translate-pypy"
+  ],
+  "translate-video": [
+    "translate-video"
   ],
   "translation": [
     "translation"

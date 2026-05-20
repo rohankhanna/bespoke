@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "libc targeted for embedded systems usage.  Reduced set of functionality (due to embedded nature). Chosen for portability and quick bringup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Embedded Artistry's `libc` is a stripped-down C standard library implementation targeted for microcontroller-based embedded systems."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Embedded Artistry's `libc` is a stripped-down C standard library implementation targeted for microcontroller-based embedded systems."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "test-coverage",
+      "sense_id": "test-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-coverage",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-coverage",
+  "observation_id": "830e3dd63eb41d24",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-20T07:24:31.235161+00:00",
+  "observed_text": "test-coverage",
+  "source_context_snippet": "Embedded Artistry's `libc` is a stripped-down C standard library implementation targeted for microcontroller-based embedded systems.",
+  "source_file": null,
+  "source_repo": "embeddedartistry/libc",
+  "source_repo_description": "libc targeted for embedded systems usage.  Reduced set of functionality (due to embedded nature). Chosen for portability and quick bringup."
+}

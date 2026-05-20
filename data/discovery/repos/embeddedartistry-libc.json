@@ -1,0 +1,178 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "embeddedartistry/libc",
+      "target": "embeddedartistry/libmemory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "embeddedartistry/libc",
+      "target": "embeddedartistry/libcpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "embeddedartistry/libc",
+      "target": "embeddedartistry/gdtoa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "embeddedartistry/libc",
+      "target": "embeddedartistry/printf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libc",
+      "target": "bringup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libc",
+      "target": "embedded-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libc",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libc",
+      "target": "libc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libc",
+      "target": "meson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libc",
+      "target": "portability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libc",
+      "target": "test-coverage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-20T07:38:46.352631+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15140
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "libc targeted for embedded systems usage.  Reduced set of functionality (due to embedded nature). Chosen for portability and quick bringup.",
+    "fork": false,
+    "full_name": "embeddedartistry/libc",
+    "html_url": "https://github.com/embeddedartistry/libc",
+    "language": "C",
+    "pushed_at": "2026-03-17T19:53:04Z",
+    "stargazers_count": 645,
+    "topics": [
+      "bringup",
+      "c",
+      "embedded-systems",
+      "hacktoberfest",
+      "libc",
+      "meson",
+      "portability",
+      "test-coverage"
+    ],
+    "updated_at": "2026-05-13T14:04:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "embeddedartistry/gdtoa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "embeddedartistry/libcpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "embeddedartistry/libmemory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "embeddedartistry/printf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Embedded Artistry's `libc` is a stripped-down C standard library implementation targeted for microcontroller-based embedded systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bringup"
+    },
+    {
+      "context_snippet": "Embedded Artistry's `libc` is a stripped-down C standard library implementation targeted for microcontroller-based embedded systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded-systems"
+    },
+    {
+      "context_snippet": "Embedded Artistry's `libc` is a stripped-down C standard library implementation targeted for microcontroller-based embedded systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Embedded Artistry's `libc` is a stripped-down C standard library implementation targeted for microcontroller-based embedded systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libc"
+    },
+    {
+      "context_snippet": "Embedded Artistry's `libc` is a stripped-down C standard library implementation targeted for microcontroller-based embedded systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meson"
+    },
+    {
+      "context_snippet": "Embedded Artistry's `libc` is a stripped-down C standard library implementation targeted for microcontroller-based embedded systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portability"
+    },
+    {
+      "context_snippet": "Embedded Artistry's `libc` is a stripped-down C standard library implementation targeted for microcontroller-based embedded systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-coverage"
+    }
+  ]
+}

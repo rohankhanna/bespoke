@@ -1,0 +1,72 @@
+{
+  "aliases": [
+    "bringup"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "embeddedartistry/libc",
+      "status": "candidate-context",
+      "text": "libc targeted for embedded systems usage.  Reduced set of functionality (due to embedded nature). Chosen for portability and quick bringup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddedartistry/libc",
+      "status": "candidate-context",
+      "text": "Embedded Artistry's `libc` is a stripped-down C standard library implementation targeted for microcontroller-based embedded systems."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddedartistry/libc",
+      "status": "candidate",
+      "text": "Embedded Artistry's `libc` is a stripped-down C standard library implementation targeted for microcontroller-based embedded systems."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "rear"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "bringup",
+  "concept_id": "bringup",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libc"
+    }
+  ],
+  "first_seen_at": "2026-05-20T07:24:31.235161+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-20T07:24:31.235161+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bringup",
+      "sense_id": "bringup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

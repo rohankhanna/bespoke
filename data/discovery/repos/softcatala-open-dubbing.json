@@ -1,0 +1,214 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Softcatala/open-dubbing",
+      "target": "softcatala/dubbing-service",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Softcatala/open-dubbing",
+      "target": "idiap/coqui-ai-tts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Softcatala/open-dubbing",
+      "target": "rany2/edge-tts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Softcatala/open-dubbing",
+      "target": "google-marketing-solutions/ariel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Softcatala/open-dubbing",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Softcatala/open-dubbing",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Softcatala/open-dubbing",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Softcatala/open-dubbing",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Softcatala/open-dubbing",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Softcatala/open-dubbing",
+      "target": "automatic-dubbing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Softcatala/open-dubbing",
+      "target": "dubbing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Softcatala/open-dubbing",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Softcatala/open-dubbing",
+      "target": "translate-video",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-20T07:38:43.570029+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8915
+    },
+    {
+      "path": "requirements.txt",
+      "size": 276
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4693
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open dubbing is an AI dubbing system which uses machine learning models to automatically translate and synchronize audio dialogue into different languages.",
+    "fork": false,
+    "full_name": "Softcatala/open-dubbing",
+    "html_url": "https://github.com/Softcatala/open-dubbing",
+    "language": "Python",
+    "pushed_at": "2025-07-08T18:46:08Z",
+    "stargazers_count": 393,
+    "topics": [
+      "automatic-dubbing",
+      "dubbing",
+      "machine-learning",
+      "translate-video"
+    ],
+    "updated_at": "2026-05-17T12:39:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-marketing-solutions/ariel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idiap/coqui-ai-tts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rany2/edge-tts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "softcatala/dubbing-service",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI version](https://img.shields.io/pypi/v/open-dubbing.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/open-dubbing/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automatic-dubbing"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://img.shields.io/pypi/v/open-dubbing.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/open-dubbing/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dubbing"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://img.shields.io/pypi/v/open-dubbing.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/open-dubbing/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://img.shields.io/pypi/v/open-dubbing.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/open-dubbing/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "translate-video"
+    }
+  ]
+}

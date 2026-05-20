@@ -580,11 +580,17 @@
       "observed_at": "2026-05-19T07:24:07.075826+00:00",
       "source_file": null,
       "source_repo": "nvim-mini/mini.deps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.deps"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-19T07:24:07.075826+00:00",
+  "last_seen_at": "2026-05-20T07:24:31.235161+00:00",
   "lexical_providers": [
     "datamuse"
   ],

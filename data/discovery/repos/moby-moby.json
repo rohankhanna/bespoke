@@ -31,7 +31,7 @@
       "source_file": ".github/workflows/.test-unit.yml"
     },
     {
-      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "component": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test-unit.yml"
     },
@@ -111,7 +111,7 @@
       "source_file": ".github/workflows/.test.yml"
     },
     {
-      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "component": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml"
     },
@@ -166,7 +166,7 @@
       "source_file": ".github/workflows/.test.yml"
     },
     {
-      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "component": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml"
     },
@@ -241,7 +241,7 @@
       "source_file": ".github/workflows/.windows.yml"
     },
     {
-      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "component": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.windows.yml"
     },
@@ -291,7 +291,7 @@
       "source_file": ".github/workflows/.windows.yml"
     },
     {
-      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "component": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.windows.yml"
     },
@@ -356,7 +356,7 @@
       "source_file": ".github/workflows/arm64.yml"
     },
     {
-      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "component": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/arm64.yml"
     },
@@ -401,7 +401,7 @@
       "source_file": ".github/workflows/arm64.yml"
     },
     {
-      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "component": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/arm64.yml"
     },
@@ -478,7 +478,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test-unit.yml",
       "source_repo": "moby/moby",
-      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
       "target_type": "component"
     },
     {
@@ -541,7 +541,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml",
       "source_repo": "moby/moby",
-      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
       "target_type": "component"
     },
     {
@@ -618,7 +618,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.windows.yml",
       "source_repo": "moby/moby",
-      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
       "target_type": "component"
     },
     {
@@ -667,7 +667,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/arm64.yml",
       "source_repo": "moby/moby",
-      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
       "target_type": "component"
     },
     {
@@ -734,7 +734,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T13:43:51.801106+00:00",
+  "fetched_at": "2026-05-20T07:45:40.533249+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -786,15 +786,15 @@
     "full_name": "moby/moby",
     "html_url": "https://github.com/moby/moby",
     "language": "Go",
-    "pushed_at": "2026-05-18T17:15:11Z",
-    "stargazers_count": 71571,
+    "pushed_at": "2026-05-19T20:50:48Z",
+    "stargazers_count": 71574,
     "topics": [
       "containers",
       "docker",
       "go",
       "golang"
     ],
-    "updated_at": "2026-05-19T10:48:23Z"
+    "updated_at": "2026-05-20T07:11:28Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zaid-Ajaj/LiteDB.FSharp",
+      "target": "mbdavid/litedb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zaid-Ajaj/LiteDB.FSharp",
+      "target": "embedded-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zaid-Ajaj/LiteDB.FSharp",
+      "target": "fsharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zaid-Ajaj/LiteDB.FSharp",
+      "target": "litedb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zaid-Ajaj/LiteDB.FSharp",
+      "target": "nosql",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-20T07:24:31.235161+00:00",
+  "source_repo": "Zaid-Ajaj/LiteDB.FSharp"
+}

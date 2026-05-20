@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "automatic-dubbing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Softcatala/open-dubbing",
+      "status": "candidate-context",
+      "text": "Open dubbing is an AI dubbing system which uses machine learning models to automatically translate and synchronize audio dialogue into different languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Softcatala/open-dubbing",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/open-dubbing.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/open-dubbing/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Softcatala/open-dubbing",
+      "status": "candidate",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/open-dubbing.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/open-dubbing/)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "automatic-dubbing",
+  "concept_id": "automatic-dubbing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "Softcatala/open-dubbing"
+    }
+  ],
+  "first_seen_at": "2026-05-20T07:24:31.235161+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-20T07:24:31.235161+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "automatic-dubbing",
+      "sense_id": "automatic-dubbing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -9736,6 +9736,18 @@
       "source_repo": "python-eel/Eel",
       "status": "candidate-context",
       "text": "bottle<1.0.0 bottle-websocket<1.0.0 gevent gevent-websocket<1.0.0 greenlet>=1.0.0,<2.0.0 pyparsing>=3.0.0,<4.0.0 typing-extensions>=4.3.0 importlib_resources>=1.3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "embeddedartistry/libc",
+      "status": "candidate-context",
+      "text": "libc targeted for embedded systems usage.  Reduced set of functionality (due to embedded nature). Chosen for portability and quick bringup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddedartistry/libc",
+      "status": "candidate-context",
+      "text": "Embedded Artistry's `libc` is a stripped-down C standard library implementation targeted for microcontroller-based embedded systems."
     }
   ],
   "candidate_glosses": [
@@ -14628,6 +14640,12 @@
       "source_repo": "python-eel/Eel",
       "status": "candidate",
       "text": "bottle<1.0.0 bottle-websocket<1.0.0 gevent gevent-websocket<1.0.0 greenlet>=1.0.0,<2.0.0 pyparsing>=3.0.0,<4.0.0 typing-extensions>=4.3.0 importlib_resources>=1.3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddedartistry/libc",
+      "status": "candidate",
+      "text": "Embedded Artistry's `libc` is a stripped-down C standard library implementation targeted for microcontroller-based embedded systems."
     }
   ],
   "candidate_related_terms": [],
@@ -33013,11 +33031,197 @@
       "observed_at": "2026-05-20T00:46:08.525261+00:00",
       "source_file": null,
       "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "litedb-org/LiteDB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "GDevelopApp/GDevelop-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "digitalocean/openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "tox-dev/filelock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "vim-php/phpctags"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/bow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T00:46:08.525261+00:00",
+  "last_seen_at": "2026-05-20T07:24:31.235161+00:00",
   "lexical_providers": [
     "datamuse"
   ],

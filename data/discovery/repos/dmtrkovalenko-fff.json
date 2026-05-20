@@ -91,7 +91,7 @@
       "source_file": ".github/workflows/panvimdoc.yaml"
     },
     {
-      "component": "stefanzweifel/git-auto-commit-action@v6",
+      "component": "peter-evans/create-pull-request@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/panvimdoc.yaml"
     },
@@ -409,7 +409,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/panvimdoc.yaml",
       "source_repo": "dmtrKovalenko/fff",
-      "target": "stefanzweifel/git-auto-commit-action@v6",
+      "target": "peter-evans/create-pull-request@v7",
       "target_type": "component"
     },
     {
@@ -574,11 +574,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T18:50:29.096055+00:00",
+  "fetched_at": "2026-05-20T07:28:53.317982+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 22102
+      "size": 22107
     },
     {
       "path": "Cargo.toml",
@@ -590,27 +590,27 @@
     },
     {
       "path": ".github/workflows/external-tests.yml",
-      "size": 6320
+      "size": 6422
     },
     {
       "path": ".github/workflows/lua.yml",
-      "size": 1443
+      "size": 1545
     },
     {
       "path": ".github/workflows/nix.yml",
-      "size": 680
+      "size": 782
     },
     {
       "path": ".github/workflows/panvimdoc.yaml",
-      "size": 937
+      "size": 2283
     },
     {
       "path": ".github/workflows/release.yaml",
-      "size": 21217
+      "size": 21046
     },
     {
       "path": ".github/workflows/rust.yml",
-      "size": 3565
+      "size": 3667
     },
     {
       "path": ".github/workflows/spelling.yaml",
@@ -626,8 +626,8 @@
     "full_name": "dmtrKovalenko/fff",
     "html_url": "https://github.com/dmtrKovalenko/fff",
     "language": "Rust",
-    "pushed_at": "2026-05-18T22:34:03Z",
-    "stargazers_count": 6154,
+    "pushed_at": "2026-05-20T05:53:22Z",
+    "stargazers_count": 6176,
     "topics": [
       "filesearch",
       "lua",
@@ -635,7 +635,7 @@
       "neovim-plugin",
       "rust"
     ],
-    "updated_at": "2026-05-19T18:26:55Z"
+    "updated_at": "2026-05-20T06:06:20Z"
   },
   "repo_links": [
     {

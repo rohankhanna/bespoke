@@ -106,6 +106,18 @@
       "source_repo": "nix-community/nixd",
       "status": "candidate-context",
       "text": "Meson"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "embeddedartistry/libc",
+      "status": "candidate-context",
+      "text": "libc targeted for embedded systems usage.  Reduced set of functionality (due to embedded nature). Chosen for portability and quick bringup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddedartistry/libc",
+      "status": "candidate-context",
+      "text": "Embedded Artistry's `libc` is a stripped-down C standard library implementation targeted for microcontroller-based embedded systems."
     }
   ],
   "candidate_glosses": [
@@ -156,6 +168,12 @@
       "source_repo": "nix-community/nixd",
       "status": "candidate",
       "text": "Meson"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddedartistry/libc",
+      "status": "candidate",
+      "text": "Embedded Artistry's `libc` is a stripped-down C standard library implementation targeted for microcontroller-based embedded systems."
     }
   ],
   "candidate_related_terms": [
@@ -255,11 +273,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "nix-community/nixd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T07:24:31.235161+00:00",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libc"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-20T07:24:31.235161+00:00",
   "lexical_providers": [
     "datamuse"
   ],
