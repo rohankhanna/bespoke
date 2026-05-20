@@ -4786,11 +4786,35 @@
       "observed_at": "2026-05-20T07:24:31.235161+00:00",
       "source_file": null,
       "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "pymc-devs/pymc-resources"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T07:24:31.235161+00:00",
+  "last_seen_at": "2026-05-20T13:09:20.758636+00:00",
   "lexical_providers": [
     "datamuse"
   ],

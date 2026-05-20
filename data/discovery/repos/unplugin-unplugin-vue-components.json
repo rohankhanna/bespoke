@@ -565,7 +565,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T01:56:25.522662+00:00",
+  "fetched_at": "2026-05-20T13:13:53.708678+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -573,7 +573,7 @@
     },
     {
       "path": "package.json",
-      "size": 2737
+      "size": 2731
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -597,7 +597,7 @@
     "full_name": "unplugin/unplugin-vue-components",
     "html_url": "https://github.com/unplugin/unplugin-vue-components",
     "language": "TypeScript",
-    "pushed_at": "2026-03-23T10:38:50Z",
+    "pushed_at": "2026-05-20T04:37:54Z",
     "stargazers_count": 4283,
     "topics": [
       "auto-import",
@@ -608,7 +608,7 @@
       "vue3",
       "webpack"
     ],
-    "updated_at": "2026-05-14T10:18:33Z"
+    "updated_at": "2026-05-20T04:37:56Z"
   },
   "repo_links": [
     {

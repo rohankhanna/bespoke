@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T01:52:14.177085+00:00",
+  "fetched_at": "2026-05-20T13:10:22.426835+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -72,13 +72,13 @@
     "html_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
     "language": "Python",
     "pushed_at": "2025-11-21T06:36:57Z",
-    "stargazers_count": 12119,
+    "stargazers_count": 12118,
     "topics": [
       "diffusion-models",
       "diffusion-transformer",
       "video-generation"
     ],
-    "updated_at": "2026-05-19T20:18:13Z"
+    "updated_at": "2026-05-20T12:26:17Z"
   },
   "repo_links": [
     {

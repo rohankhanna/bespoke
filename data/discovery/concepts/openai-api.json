@@ -1246,11 +1246,23 @@
       "observed_at": "2026-05-20T00:46:08.525261+00:00",
       "source_file": null,
       "source_repo": "Ai00-X/ai00_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "Ai00-X/ai00_server"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T00:46:08.525261+00:00",
+  "last_seen_at": "2026-05-20T13:09:20.758636+00:00",
   "lexical_providers": [
     "datamuse"
   ],

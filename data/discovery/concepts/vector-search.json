@@ -3238,11 +3238,35 @@
       "observed_at": "2026-05-20T07:24:31.235161+00:00",
       "source_file": null,
       "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/langchainrb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/qdrant-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T07:24:31.235161+00:00",
+  "last_seen_at": "2026-05-20T13:09:20.758636+00:00",
   "lexical_providers": [
     "datamuse"
   ],

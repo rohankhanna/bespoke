@@ -6538,11 +6538,77 @@
       "observed_at": "2026-05-20T07:24:31.235161+00:00",
       "source_file": null,
       "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo-I2V"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "InternScience/AdaptiveDiffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "showlab/VisorGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/Attend-and-Excite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/ImageReward"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T07:24:31.235161+00:00",
+  "last_seen_at": "2026-05-20T13:09:20.758636+00:00",
   "lexical_providers": [
     "datamuse"
   ],

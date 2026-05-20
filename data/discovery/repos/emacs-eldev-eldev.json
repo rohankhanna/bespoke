@@ -115,7 +115,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T02:20:54.052931+00:00",
+  "fetched_at": "2026-05-20T13:34:28.638343+00:00",
   "fetched_files": [
     {
       "path": ".github/workflows/asciidoctor.yml",
@@ -144,14 +144,14 @@
     "html_url": "https://github.com/emacs-eldev/eldev",
     "language": "Emacs Lisp",
     "pushed_at": "2026-01-21T14:52:31Z",
-    "stargazers_count": 255,
+    "stargazers_count": 256,
     "topics": [
       "build-tool",
       "continuous-integration",
       "developer-tools",
       "emacs-lisp"
     ],
-    "updated_at": "2026-04-08T17:45:32Z"
+    "updated_at": "2026-05-20T10:08:32Z"
   },
   "repo_links": [],
   "terms": [

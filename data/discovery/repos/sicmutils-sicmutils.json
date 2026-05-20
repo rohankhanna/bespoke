@@ -490,7 +490,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-19T15:17:25.283178+00:00",
+  "fetched_at": "2026-05-20T13:31:40.547238+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -531,7 +531,7 @@
     "html_url": "https://github.com/sicmutils/sicmutils",
     "language": "Clojure",
     "pushed_at": "2025-06-18T13:30:25Z",
-    "stargazers_count": 823,
+    "stargazers_count": 822,
     "topics": [
       "clojure",
       "differential-geometry",
@@ -543,7 +543,7 @@
       "symbolic-differentiation",
       "symbolic-math"
     ],
-    "updated_at": "2026-04-26T03:31:52Z"
+    "updated_at": "2026-05-20T09:14:15Z"
   },
   "repo_links": [],
   "terms": [

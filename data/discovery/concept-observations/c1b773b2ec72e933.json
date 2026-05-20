@@ -92,7 +92,7 @@
   "normalized_form": "java",
   "observation_id": "c1b773b2ec72e933",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-20T07:24:31.235161+00:00",
+  "observed_at": "2026-05-20T13:09:20.758636+00:00",
   "observed_text": "java",
   "source_context_snippet": "Java binding for the [Language Server Protocol](https://microsoft.github.io/language-server-protocol) and the [Debug Adapter Protocol](https://microsoft.github.io/debug-adapter-protocol).",
   "source_file": null,

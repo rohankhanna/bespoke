@@ -84,7 +84,7 @@
   "normalized_form": "java-ci-with-maven",
   "observation_id": "b77ec85769852956",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-20T00:46:08.525261+00:00",
+  "observed_at": "2026-05-20T13:09:20.758636+00:00",
   "observed_text": "Java CI with Maven",
   "source_context_snippet": "Java CI with Maven",
   "source_file": ".github/workflows/maven.yml",

@@ -347,7 +347,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T02:04:43.018078+00:00",
+  "fetched_at": "2026-05-20T13:20:58.915855+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -363,7 +363,7 @@
     },
     {
       "path": ".github/workflows/aws-torch-latest-full.yml",
-      "size": 11823
+      "size": 15641
     },
     {
       "path": ".github/workflows/aws-torch-latest.yml",
@@ -371,7 +371,7 @@
     },
     {
       "path": ".github/workflows/cpu-torch-latest.yml",
-      "size": 1777
+      "size": 7558
     },
     {
       "path": ".github/workflows/formatting.yml",
@@ -399,8 +399,8 @@
     "full_name": "deepspeedai/DeepSpeed",
     "html_url": "https://github.com/deepspeedai/DeepSpeed",
     "language": "Python",
-    "pushed_at": "2026-05-20T00:30:22Z",
-    "stargazers_count": 42365,
+    "pushed_at": "2026-05-20T10:08:17Z",
+    "stargazers_count": 42368,
     "topics": [
       "billion-parameters",
       "compression",
@@ -416,7 +416,7 @@
       "trillion-parameters",
       "zero"
     ],
-    "updated_at": "2026-05-19T17:02:50Z"
+    "updated_at": "2026-05-20T12:01:40Z"
   },
   "repo_links": [
     {

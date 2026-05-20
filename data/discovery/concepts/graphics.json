@@ -3032,11 +3032,29 @@
       "observed_at": "2026-05-20T07:24:31.235161+00:00",
       "source_file": null,
       "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/spatialmath-matlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T13:09:20.758636+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/wayang"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T07:24:31.235161+00:00",
+  "last_seen_at": "2026-05-20T13:09:20.758636+00:00",
   "lexical_providers": [
     "datamuse"
   ],

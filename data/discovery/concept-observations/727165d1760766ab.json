@@ -48,7 +48,7 @@
   "normalized_form": "cmake-release",
   "observation_id": "727165d1760766ab",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-20T07:24:31.235161+00:00",
+  "observed_at": "2026-05-20T13:09:20.758636+00:00",
   "observed_text": "CMake-Release",
   "source_context_snippet": "CMake-Release",
   "source_file": ".github/workflows/cmake-release.yml",

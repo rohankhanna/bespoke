@@ -188,7 +188,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T02:18:02.783773+00:00",
+  "fetched_at": "2026-05-20T13:32:08.265674+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -216,10 +216,10 @@
     "full_name": "seancorfield/honeysql",
     "html_url": "https://github.com/seancorfield/honeysql",
     "language": "Clojure",
-    "pushed_at": "2026-05-18T02:14:47Z",
+    "pushed_at": "2026-05-20T12:02:57Z",
     "stargazers_count": 1897,
     "topics": [],
-    "updated_at": "2026-05-18T02:14:51Z"
+    "updated_at": "2026-05-20T12:03:02Z"
   },
   "repo_links": [],
   "terms": [
