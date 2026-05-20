@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1954,
-    "concepts": 1914,
-    "observations": 1924,
-    "repos": 202,
-    "terms": 1910
+    "components": 1890,
+    "concepts": 1830,
+    "observations": 1840,
+    "repos": 195,
+    "terms": 1826
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
-    "0xERR0R/blocky",
     "actions/actions-runner-controller",
     "AdguardTeam/dnsproxy",
     "akuity/kargo",
@@ -32,7 +31,6 @@
     "argoproj-labs/argocd-image-updater",
     "argoproj/argo-events",
     "argoproj/argo-rollouts",
-    "ariga/atlas",
     "asaskevich/govalidator",
     "auth0/go-jwt-middleware",
     "autokitteh/autokitteh",
@@ -42,7 +40,6 @@
     "awslabs/amazon-ecr-credential-helper",
     "awslabs/amazon-eks-ami",
     "azimjohn/jprq",
-    "Bearer/bearer",
     "beclab/Olares",
     "bfenetworks/bfe",
     "bluesky-social/indigo",
@@ -70,7 +67,6 @@
     "connectrpc/connect-go",
     "Consensys/gnark",
     "containerd/stargz-snapshotter",
-    "containernetworking/plugins",
     "containers/buildah",
     "cortexproject/cortex",
     "cosmos/cosmos-sdk",
@@ -141,7 +137,6 @@
     "kserve/kserve",
     "kubeflow/trainer",
     "kubeovn/kube-ovn",
-    "kuberhealthy/kuberhealthy",
     "kubernetes-sigs/cluster-api",
     "kubernetes-sigs/cri-tools",
     "kubernetes-sigs/external-dns",
@@ -197,7 +192,6 @@
     "redis/rueidis",
     "replicate/cog",
     "reviewdog/reviewdog",
-    "rhysd/actionlint",
     "securego/gosec",
     "sigstore/cosign",
     "sigstore/gitsign",
@@ -207,7 +201,6 @@
     "stripe/stripe-go",
     "supabase/cli",
     "sysadminsmedia/homebox",
-    "terraform-linters/tflint",
     "tidwall/tile38",
     "tilt-dev/tilt",
     "tonistiigi/binfmt",

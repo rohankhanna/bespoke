@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 824,
-    "concepts": 1107,
-    "observations": 1111,
-    "repos": 100,
-    "terms": 1111
+    "components": 829,
+    "concepts": 1120,
+    "observations": 1124,
+    "repos": 101,
+    "terms": 1114
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "abseil/abseil-cpp",
@@ -56,6 +56,7 @@
     "FreeRDP/FreeRDP",
     "git/git",
     "gnachman/iTerm2",
+    "google-deepmind/mujoco",
     "google/benchmark",
     "google/filament",
     "google/sentencepiece",
@@ -66,6 +67,7 @@
     "iovisor/bcc",
     "jemalloc/jemalloc",
     "jonas/tig",
+    "jqlang/jq",
     "jrouwe/JoltPhysics",
     "k2-fsa/sherpa-onnx",
     "libsdl-org/SDL",
@@ -95,7 +97,6 @@
     "PaddlePaddle/Paddle",
     "PointCloudLibrary/pcl",
     "protocolbuffers/protobuf",
-    "px4/px4-autopilot",
     "qemu/qemu",
     "qmk/qmk_firmware",
     "raysan5/raylib",

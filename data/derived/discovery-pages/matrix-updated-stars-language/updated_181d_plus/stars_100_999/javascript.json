@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4665,
+    "components": 4678,
     "concepts": 1052,
     "observations": 1052,
-    "repos": 372,
-    "terms": 1041
+    "repos": 373,
+    "terms": 1040
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "2createStudio/postcss-sprites",
@@ -250,6 +250,7 @@
     "mapbox/vt-pbf",
     "mapbox/which-polygon",
     "marella/material-design-icons",
+    "markdown-it/markdown-it-footnote",
     "mathiasbynens/jsesc",
     "Mathpix/mpx-cli",
     "mattdesl/esmify",

@@ -1,46 +1,46 @@
 {
   "counts": {
-    "components": 561,
-    "concepts": 270,
-    "observations": 271,
+    "components": 648,
+    "concepts": 295,
+    "observations": 296,
     "repos": 29,
-    "terms": 270
+    "terms": 292
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "academic/awesome-datascience",
     "ajv-validator/ajv",
     "astral-sh/ruff",
+    "atuinsh/atuin",
     "blender/blender",
+    "clauderic/dnd-kit",
     "crewAIInc/crewAI",
     "datalab-to/surya",
     "DayBreak-u/chineseocr_lite",
-    "dotnet/aspnetcore",
-    "dotnet/AspNetCore.Docs",
     "emotion-js/emotion",
-    "etcd-io/etcd",
     "flipped-aurora/gin-vue-admin",
     "foliojs/pdfkit",
-    "google-deepmind/mujoco",
     "great-expectations/great_expectations",
     "HKUDS/CLI-Anything",
     "huggingface/pytorch-image-models",
-    "jqlang/jq",
     "kepano/obsidian-skills",
+    "Kilo-Org/kilocode",
     "lint-staged/lint-staged",
     "ludwig-ai/ludwig",
     "mixmark-io/turndown",
     "mobxjs/mobx",
+    "modelcontextprotocol/typescript-sdk",
     "modelscope/DiffSynth-Studio",
+    "PDFMathTranslate/PDFMathTranslate",
+    "Redocly/redoc",
     "rerun-io/rerun",
     "restic/restic",
-    "vitejs/vite",
-    "vuejs/core",
+    "RooCodeInc/Roo-Code",
     "XAMPPRocky/tokei"
   ]
 }

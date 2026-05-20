@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 496,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 13,
-    "terms": 82
+    "components": 654,
+    "concepts": 103,
+    "observations": 103,
+    "repos": 16,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "Agoric/agoric-sdk",
@@ -22,10 +22,13 @@
     "inversify/monorepo",
     "lambdalisue/vim-gin",
     "LuaLS/vscode-lua",
+    "Luligu/matterbridge-shelly",
+    "nurikk/zigbee2mqtt-frontend",
     "preactjs/preact-devtools",
     "Rel1cx/eslint-react",
     "safe-fndn/safe-singleton-factory",
     "serversideup/webext-bridge",
-    "xdebug/vscode-php-debug"
+    "xdebug/vscode-php-debug",
+    "Zoo-Code-Org/Zoo-Code"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 101,
-    "concepts": 145,
-    "observations": 145,
-    "repos": 16,
-    "terms": 145
+    "components": 56,
+    "concepts": 95,
+    "observations": 95,
+    "repos": 12,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
-    "agenda/agenda",
     "benchflow-ai/skillsbench",
-    "foundry-rs/forge-std",
     "hacl-star/hacl-star",
     "intel/BigDL",
-    "jump-dev/JuMP.jl",
     "lightning/bolts",
     "minad/consult",
     "mrcjkb/rustaceanvim",
     "nvim-mini/mini.nvim",
     "okd-project/okd",
-    "rocq-prover/rocq",
     "stakira/OpenUtau",
     "theJayTea/WritingTools",
     "truffleruby/truffleruby",

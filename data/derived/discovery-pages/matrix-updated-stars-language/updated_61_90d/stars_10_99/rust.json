@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 24,
-    "terms": 62
+    "components": 84,
+    "concepts": 59,
+    "observations": 59,
+    "repos": 23,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
-    "alloy-rs/op-alloy",
     "Anush008/tokenizers",
     "assimelha/cmcp",
     "baerwang/openapi-rs",
@@ -27,16 +26,16 @@
     "filecoin-project/blstrs",
     "filecoin-project/rust-filecoin-proofs-api",
     "fortanix/rust-mbedtls",
-    "googlefonts/shaperglot",
     "hermit-os/hermit-rs-template",
     "jasonjmcghee/ron-lsp",
     "libp2p/if-watch",
     "microsoft/tracing-etw",
     "nebelgrau77/airsniffer-esp32c6",
+    "omerbenamram/pyo3-file",
     "psmux/psnet",
     "psmux/Tmux-Plugin-Panel",
     "raymondshe/matchengine-raft",
-    "sigp/ethereum_hashing",
-    "Turbo87/flat-projection-rs"
+    "Turbo87/flat-projection-rs",
+    "Vaishnav-Sabari-Girish/Hayasen"
   ]
 }

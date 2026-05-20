@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 3,
-    "terms": 37
+    "components": 21,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 2,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "ggml-org/ggml",
-    "mozilla-ai/llamafile",
     "obsproject/obs-studio"
   ]
 }

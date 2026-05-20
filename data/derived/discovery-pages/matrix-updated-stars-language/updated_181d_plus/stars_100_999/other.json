@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2180,
-    "concepts": 2954,
-    "observations": 2961,
-    "repos": 944,
-    "terms": 2938
+    "components": 2189,
+    "concepts": 2978,
+    "observations": 2985,
+    "repos": 947,
+    "terms": 2962
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -247,6 +247,7 @@
     "cszn/FFDNet",
     "cszn/SRMD",
     "cvg/GlueStick",
+    "cyberark/conjur",
     "czytelny/backlog",
     "danielroich/PTI",
     "danielsz/system",
@@ -314,7 +315,9 @@
     "elihunter173/dirbuf.nvim",
     "elixir-makeup/makeup",
     "ellisonleao/nvim-plugin-template",
+    "emacs-lsp/helm-lsp",
     "emacs-lsp/lsp-docker",
+    "emacs-lsp/lsp-java",
     "emacsattic/helm-swoop",
     "emard/ulx3s",
     "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
@@ -597,7 +600,6 @@
     "mdn/interactive-examples",
     "meh/elixir-socket",
     "mentat-collective/emmy",
-    "meshcat-dev/meshcat",
     "MetaGLM/glm-cookbook",
     "metalelf0/jellybeans-nvim",
     "metasoarous/datsync",
@@ -718,6 +720,7 @@
     "petercorke/spatialmath-matlab",
     "pgmpy/pgmpy_tutorials",
     "philoskim/debux",
+    "phodal/shire",
     "pirapira/eth-isabelle",
     "PistonDevelopers/rust-empty",
     "PlexPt/chatgpt-online-springboot",

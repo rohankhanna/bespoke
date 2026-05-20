@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 249,
-    "concepts": 336,
-    "observations": 336,
-    "repos": 59,
-    "terms": 332
+    "components": 257,
+    "concepts": 344,
+    "observations": 344,
+    "repos": 61,
+    "terms": 340
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
+    "2shady4u/godot-sqlite",
     "adafruit/Adafruit_NeoPixel",
     "AdAway/AdAway",
     "ashvardanian/less_slow.cpp",
@@ -62,6 +63,7 @@
     "OpenNMT/CTranslate2",
     "pellepl/spiffs",
     "pganalyze/libpg_query",
+    "PixarAnimationStudios/OpenSubdiv",
     "pothosware/SoapySDR",
     "RobertBeckebans/RBDOOM-3-BFG",
     "rurban/smhasher",

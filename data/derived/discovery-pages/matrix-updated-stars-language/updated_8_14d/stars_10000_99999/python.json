@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 7,
-    "terms": 89
+    "components": 89,
+    "concepts": 109,
+    "observations": 109,
+    "repos": 8,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "crewAIInc/crewAI",
     "datalab-to/surya",
@@ -20,6 +20,7 @@
     "HKUDS/CLI-Anything",
     "huggingface/pytorch-image-models",
     "ludwig-ai/ludwig",
-    "modelscope/DiffSynth-Studio"
+    "modelscope/DiffSynth-Studio",
+    "PDFMathTranslate/PDFMathTranslate"
   ]
 }

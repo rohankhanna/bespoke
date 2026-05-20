@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 523,
-    "concepts": 140,
-    "observations": 141,
-    "repos": 13,
-    "terms": 138
+    "components": 424,
+    "concepts": 91,
+    "observations": 92,
+    "repos": 11,
+    "terms": 91
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "antvis/mcp-server-chart",
     "benchmark-action/github-action-benchmark",
+    "can1357/oh-my-pi",
     "enricoros/big-AGI",
+    "FxEmbed/FxEmbed",
     "getagentseal/codeburn",
-    "NomicFoundation/hardhat",
     "obsidianmd/obsidian-clipper",
-    "open-telemetry/opentelemetry-demo",
     "pdfme/pdfme",
     "shareAI-lab/Kode-Agent",
     "shareAI-lab/Kode-CLI",
-    "vite-pwa/vite-plugin-pwa",
-    "vitejs/vite-plugin-react",
-    "withcatai/node-llama-cpp"
+    "vitejs/vite-plugin-react"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 883,
-    "concepts": 563,
-    "observations": 567,
+    "components": 884,
+    "concepts": 560,
+    "observations": 564,
     "repos": 87,
-    "terms": 559
+    "terms": 557
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -48,7 +48,6 @@
     "goldfire/howler.js",
     "google/ExoPlayer",
     "gulpjs/gulp",
-    "hiroi-sora/Umi-OCR",
     "horovod/horovod",
     "i3/i3",
     "IdreesInc/Monocraft",
@@ -56,6 +55,7 @@
     "jaredpalmer/tsdx",
     "jsvine/pdfplumber",
     "jtoy/awesome-tensorflow",
+    "junegunn/vim-plug",
     "karpathy/llm-council",
     "lc044/wechatmsg",
     "Lightricks/LTX-Video",

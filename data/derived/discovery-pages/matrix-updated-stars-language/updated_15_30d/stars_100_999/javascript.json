@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2422,
-    "concepts": 529,
-    "observations": 538,
-    "repos": 99,
-    "terms": 524
+    "components": 2346,
+    "concepts": 521,
+    "observations": 529,
+    "repos": 95,
+    "terms": 516
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
@@ -21,7 +21,6 @@
     "AdguardTeam/Scriptlets",
     "all-contributors/app",
     "americanexpress/jest-json-schema",
-    "anonrig/fast-querystring",
     "apache/incubator-seata-website",
     "aredridel/node-bin-gen",
     "auth0/node-jwks-rsa",
@@ -42,7 +41,6 @@
     "CVEProject/cve-services",
     "DavidAnson/markdownlint-cli2",
     "dequelabs/axe-core-npm",
-    "dperini/nwsapi",
     "dydxprotocol/v4-clients",
     "electerm/electerm-web",
     "ember-cli/ember-cli-update",
@@ -50,10 +48,10 @@
     "emberjs/ember-test-helpers",
     "evenchange4/graphql.macro",
     "facebook/Rapid",
-    "fastify/fastify-autoload",
     "firebase/snippets-web",
     "fontello/svg2ttf",
     "GDevelopApp/GDevelop-examples",
+    "gitleaks/gitleaks-action",
     "GordonChen19/Prompt-Relay",
     "higlass/higlass",
     "hudochenkov/postcss-sorting",
@@ -78,7 +76,6 @@
     "mdn/mdn-http-observatory",
     "mozilla/addons-linter",
     "neostandard/neostandard",
-    "nodejs/admin",
     "octokit/graphql-schema",
     "OffchainLabs/arbitrum-docs",
     "openfl/lime",
@@ -98,7 +95,6 @@
     "rvagg/github-webhook-handler",
     "semantic-release/commit-analyzer",
     "semantic-release/github",
-    "semantic-release/npm",
     "speced/respec",
     "stylelint/stylelint-config-recommended",
     "sveltejs/dts-buddy",

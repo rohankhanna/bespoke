@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 5,
-    "terms": 29
+    "components": 24,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 4,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "browniebroke/pypackage-template",
+    "karafka/example-apps",
     "lumen-oss/luarocks-tag-release",
-    "nvim-mini/mini.deps",
-    "pivotal/credhub-release",
-    "processing/processing-website"
+    "pivotal/credhub-release"
   ]
 }

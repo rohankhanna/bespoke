@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 488,
-    "concepts": 76,
-    "observations": 76,
+    "components": 471,
+    "concepts": 80,
+    "observations": 80,
     "repos": 26,
-    "terms": 76
+    "terms": 80
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
     "aaaaalexis/obsidian-pseudo-mica",
+    "acro5piano/kysely-migration-cli",
     "aiden0z/pptx-renderer",
     "AlexJPotter/fluentvalidation-ts",
     "br14n-sol/inquirer-file-selector",
@@ -25,7 +26,6 @@
     "googleapis/google-cloud-node-core",
     "googleapis/nodejs-error-reporting",
     "hbenl/vscode-mocha-test-adapter",
-    "holochain/hc-spin",
     "HoneyLuka/uBlacklist",
     "ipfs/js-kubo-rpc-client",
     "janwilmake/openapisearch",

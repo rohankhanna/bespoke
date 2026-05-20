@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 46,
-    "concepts": 67,
-    "observations": 67,
-    "repos": 37,
-    "terms": 67
+    "components": 51,
+    "concepts": 84,
+    "observations": 84,
+    "repos": 40,
+    "terms": 83
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
@@ -27,6 +27,7 @@
     "charmbracelet/scoop-bucket",
     "collective/awesome-volto",
     "CommunitySpecification/Community_Specification",
+    "Dexters-Hub/Dexters-Hub",
     "dragonflyoss/community",
     "eigenfoundation/elips",
     "flinedev/plankit",
@@ -50,6 +51,8 @@
     "SeleniumHQ/selenium_manager_artifacts",
     "simonw/simonwillisonblog-backup",
     "tc39/proposal-duplicate-named-capturing-groups",
-    "uxlfoundation/open-source-working-group"
+    "uxlfoundation/open-source-working-group",
+    "w3c/accname",
+    "w3c/core-aam"
   ]
 }

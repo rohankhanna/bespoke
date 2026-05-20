@@ -3,7 +3,7 @@
     "components": 5362,
     "concepts": 1903,
     "observations": 1905,
-    "repos": 1346,
+    "repos": 1347,
     "terms": 1898
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -1206,6 +1206,7 @@
     "shunsambongi/neotest-testthat",
     "ShuoZhang2003/DT-VQA",
     "siliconflow/oneflow_releases",
+    "simdjson/simdjson-data",
     "simonpoole/osm-area-tags",
     "simonw/scrape-san-mateo-fire-dispatch",
     "SivilTaram/tapex_transformers",
@@ -1279,7 +1280,7 @@
     "travis-ci/travis-packer-build",
     "travis-infrastructure/packer-build",
     "triton-inference-server/contrib",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "turbofish-org/abci2",
     "turner/swt2sw",
     "UBC-NLP/Cheetah",

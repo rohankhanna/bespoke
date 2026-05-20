@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 103,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 9,
-    "terms": 59
+    "components": 120,
+    "concepts": 64,
+    "observations": 64,
+    "repos": 12,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,19 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
+    "Alexey-T/ATFlatControls",
     "argotorg/hevm",
     "atsushieno/ktmidi",
+    "CopyText/TextCopy",
+    "dwyl/quotes",
     "elixir-protobuf/protobuf",
     "emacscollective/auto-compile",
     "lite-xl/lite-xl-plugin-manager",
     "mrcjkb/haskell-tools.nvim",
+    "rescript-lang/reanalyze",
     "sass/sass-spec",
-    "Shopify/tapioca",
     "WICG/attribution-reporting-api"
   ]
 }

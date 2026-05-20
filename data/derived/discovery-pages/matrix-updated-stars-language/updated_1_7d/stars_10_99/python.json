@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 5,
-    "terms": 11
+    "components": 13,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 4,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "baicai-1145/GPT-SoVITS-CPUFast",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "intel-staging/text-generation-webui",
-    "mesh-iit/cad-libraries",
-    "version-fox/vfox-plugins"
+    "mesh-iit/cad-libraries"
   ]
 }

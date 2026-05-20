@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1212,
-    "concepts": 202,
-    "observations": 202,
+    "components": 1213,
+    "concepts": 200,
+    "observations": 200,
     "repos": 43,
-    "terms": 201
+    "terms": 199
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "adaltas/node-http-status",
     "addyosmani/chatty",
@@ -31,13 +31,13 @@
     "gajus/eslint-plugin-sql",
     "googleapis/nodejs-logging-winston",
     "hyperbrew/bolt-cep",
-    "jezweb/roo-commander",
     "jsonquerylang/jsonquery",
     "kepano/obsidian-hider",
     "kutsan/stylelint-config-clean-order",
     "LeDDGroup/typescript-transform-paths",
     "lobehub/lobe-cli-toolbox",
     "lostintangent/gistpad-mcp",
+    "Lusito/webextension-polyfill-ts",
     "ManuelHentschel/VSCode-R-Debugger",
     "matrix-org/matrix-appservice-slack",
     "microsoft/botbuilder-js",

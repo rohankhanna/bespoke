@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 275,
-    "concepts": 593,
-    "observations": 593,
-    "repos": 104,
-    "terms": 588
+    "concepts": 597,
+    "observations": 597,
+    "repos": 105,
+    "terms": 591
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "adobe-fonts/source-han-sans",
     "ageitgey/face_recognition",
@@ -47,6 +47,7 @@
     "graphdeco-inria/gaussian-splatting",
     "guoyww/AnimateDiff",
     "haotian-liu/llava",
+    "hiroi-sora/Umi-OCR",
     "httpie/cli",
     "HumanSignal/labelImg",
     "IDEA-Research/GroundingDINO",

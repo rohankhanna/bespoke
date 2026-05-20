@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 98,
-    "concepts": 112,
-    "observations": 113,
-    "repos": 14,
-    "terms": 112
+    "components": 117,
+    "concepts": 138,
+    "observations": 139,
+    "repos": 16,
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "apache/casbin-Casbin.NET",
     "babashka/babashka",
     "beam-community/elixir-companies",
+    "datalevin/datalevin",
     "elixir-grpc/grpc",
     "litedb-org/LiteDB",
     "lumen-oss/rocks.nvim",
@@ -27,6 +28,7 @@
     "nvimdev/lspsaga.nvim",
     "opentk/opentk",
     "preservim/tagbar",
+    "psmux/psmux",
     "seancorfield/honeysql"
   ]
 }

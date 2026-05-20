@@ -3,7 +3,7 @@
     "components": 21,
     "concepts": 57,
     "observations": 57,
-    "repos": 15,
+    "repos": 16,
     "terms": 56
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "ACh-K/Cubic-11",
     "antonbabenko/terraform-skill",
@@ -25,6 +25,7 @@
     "jorgebucaran/awsm.fish",
     "msgpack/msgpack-c",
     "NVIDIA/Cosmos",
+    "r-lyeh/single_file_libs",
     "sindresorhus/ponyfill",
     "syntax-tree/mdast",
     "tc39/proposal-signals",

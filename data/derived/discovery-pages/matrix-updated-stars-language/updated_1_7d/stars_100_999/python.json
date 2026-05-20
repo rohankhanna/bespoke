@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 7,
-    "terms": 23
+    "components": 55,
+    "concepts": 34,
+    "observations": 34,
+    "repos": 10,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,17 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "adamchainz/blacken-docs",
-    "DanielLin94144/Full-Duplex-Bench",
+    "flagos-ai/FlagScale",
     "gbionics/adam",
+    "google-deepmind/xmanager",
     "GStreamer/cerbero",
-    "OpenHands/ToM-SWE",
+    "Jamorim-esss/pytest-rich",
+    "NCAS-CMS/pyfive",
     "pyrtlsdr/pyrtlsdr",
-    "TextArena/TextArena"
+    "TextArena/TextArena",
+    "tox-dev/filelock"
   ]
 }

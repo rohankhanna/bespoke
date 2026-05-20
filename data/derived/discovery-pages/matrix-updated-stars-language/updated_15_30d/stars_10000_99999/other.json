@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1960,
-    "concepts": 1352,
-    "observations": 1355,
-    "repos": 131,
-    "terms": 1350
+    "components": 1553,
+    "concepts": 1335,
+    "observations": 1339,
+    "repos": 128,
+    "terms": 1326
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "abpframework/abp",
@@ -45,6 +45,8 @@
     "deepset-ai/haystack",
     "Devolutions/UniGetUI",
     "doomemacs/doomemacs",
+    "dotnet/aspnetcore",
+    "dotnet/AspNetCore.Docs",
     "dotnet/core",
     "dotnet/csharplang",
     "dotnet/efcore",
@@ -93,7 +95,6 @@
     "mason-org/mason.nvim",
     "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
     "mdn/content",
-    "metabase/metabase",
     "microsoft/ai-agents-for-beginners",
     "microsoft/fluentui-system-icons",
     "microsoft/mcp-for-beginners",
@@ -111,17 +112,14 @@
     "OAI/OpenAPI-Specification",
     "openai/openai-cookbook",
     "OpenZeppelin/openzeppelin-contracts",
-    "oven-sh/bun",
     "phoenixframework/phoenix",
     "phpstan/phpstan",
     "PowerShell/PowerShell",
     "rails/rails",
     "rapid7/metasploit-framework",
-    "realm/SwiftLint",
     "rubocop/rubocop",
     "ruby/ruby",
     "saadeghi/daisyui",
-    "SaschaWillems/Vulkan",
     "ScoopInstaller/Scoop",
     "sebastianbergmann/phpunit",
     "shadowsocks/shadowsocks-android",
@@ -138,7 +136,6 @@
     "syl20bnr/spacemacs",
     "symfony/symfony",
     "tc39/ecma262",
-    "teamcapybara/capybara",
     "tiann/KernelSU",
     "topjohnwu/Magisk",
     "vim-airline/vim-airline",

@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 3,
-    "observations": 3,
-    "repos": 2,
-    "terms": 3
+    "components": 6,
+    "concepts": 1,
+    "observations": 1,
+    "repos": 1,
+    "terms": 1
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
-    "drmingdrmer/databend-meta",
-    "starfishmod/bonjour-service"
+    "drmingdrmer/databend-meta"
   ]
 }

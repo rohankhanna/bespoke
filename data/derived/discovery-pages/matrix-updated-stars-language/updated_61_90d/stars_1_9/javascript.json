@@ -3,7 +3,7 @@
     "components": 108,
     "concepts": 52,
     "observations": 52,
-    "repos": 12,
+    "repos": 11,
     "terms": 52
   },
   "facet_version": 1,
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-compiler",
     "actions-cool/.github",
     "actions-cool/test-issues-helper",
     "alexpolonsky/agent-skill-maccabi-pharm-search",
-    "apostrophecms/starter-kit-astro-essentials",
     "athombv/com.athom.matter-bridge",
     "browserslist/browserslist-plausible",
     "coderaiser/escover",

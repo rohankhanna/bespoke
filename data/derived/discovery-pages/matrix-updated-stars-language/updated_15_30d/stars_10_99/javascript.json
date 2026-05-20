@@ -3,7 +3,7 @@
     "components": 975,
     "concepts": 249,
     "observations": 251,
-    "repos": 59,
+    "repos": 58,
     "terms": 249
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "AdguardTeam/FiltersCompiler",
@@ -36,7 +36,6 @@
     "i18next/i18next-multiload-backend-adapter",
     "ideditor/schema-builder",
     "ionide/tree-sitter-fsharp",
-    "itsrishika/payment-bypass-bug-lab",
     "j9t/obsohtml",
     "julia-actions/cache",
     "kitconcept/volto-light-theme",

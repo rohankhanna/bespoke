@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
+    "components": 42,
     "concepts": 49,
     "observations": 49,
-    "repos": 24,
-    "terms": 54
+    "repos": 20,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
-    "bunburysniper/bleunova-ai-agent",
     "conda-forge/conda-forge-feedstock-ops",
     "danielrosehill/Claude-Agent-Relay-Plugin",
     "danielrosehill/Claude-AI-Video-Producer-Plugin",
@@ -27,16 +26,13 @@
     "danielrosehill/LLM-Council-Homehunter",
     "danielrosehill/Repo-Starters-And-Templates-Index",
     "flagos-ai/verl-FL",
-    "florisheedless915/grok-register",
     "hauntsaninja/mypy",
     "hmellor/vllm",
-    "l12203685/digital-immortality",
     "lace/lacecore",
     "NightWatcher314/dockgecli",
     "NightWatcher314/npmctl",
     "roampal-ai/roampal-labs",
     "seanmacavaney/ir-datasets.com",
-    "shubishere/ai-drawio",
     "superfarther/K2V"
   ]
 }

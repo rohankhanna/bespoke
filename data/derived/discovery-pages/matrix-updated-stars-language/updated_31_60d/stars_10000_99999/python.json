@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 723,
-    "concepts": 657,
-    "observations": 661,
-    "repos": 90,
-    "terms": 682
+    "components": 822,
+    "concepts": 733,
+    "observations": 737,
+    "repos": 98,
+    "terms": 769
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -20,6 +20,7 @@
     "3b1b/videos",
     "666ghj/MiroFish",
     "abetlen/llama-cpp-python",
+    "aio-libs/aiohttp",
     "alchaincyf/nuwa-skill",
     "alirezarezvani/claude-skills",
     "allenai/olmocr",
@@ -28,6 +29,7 @@
     "astral-sh/ty",
     "browser-use/browser-use",
     "camel-ai/owl",
+    "caronc/apprise",
     "chriskiehl/Gooey",
     "codelucas/newspaper",
     "cookiecutter/cookiecutter",
@@ -36,6 +38,8 @@
     "davila7/claude-code-templates",
     "deepinsight/insightface",
     "delgan/loguru",
+    "django/django",
+    "DLR-RM/stable-baselines3",
     "dottxt-ai/outlines",
     "EleutherAI/lm-evaluation-harness",
     "encode/httpx",
@@ -51,6 +55,7 @@
     "google/python-fire",
     "google/yapf",
     "gruns/icecream",
+    "hesreallyhim/awesome-claude-code",
     "hpcaitech/ColossalAI",
     "hpcaitech/Open-Sora",
     "huggingface/open-r1",
@@ -70,6 +75,7 @@
     "microsoft/playwright-python",
     "microsoft/pyright",
     "mingrammer/diagrams",
+    "nginx-proxy/nginx-proxy",
     "onyx-dot-app/onyx",
     "openai/evals",
     "openai/gpt-oss",
@@ -79,6 +85,7 @@
     "openai/tiktoken",
     "openai/whisper",
     "OpenBMB/ChatDev",
+    "oraios/serena",
     "PaddlePaddle/PaddleSpeech",
     "pallets/flask",
     "pandas-dev/pandas",
@@ -90,6 +97,7 @@
     "resemble-ai/chatterbox",
     "sanic-org/sanic",
     "searxng/searxng",
+    "sgl-project/sglang",
     "ShishirPatil/gorilla",
     "simonw/datasette",
     "spotify/luigi",

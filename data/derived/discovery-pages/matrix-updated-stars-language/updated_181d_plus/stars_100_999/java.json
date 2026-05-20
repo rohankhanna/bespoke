@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 92,
+    "components": 95,
     "concepts": 190,
     "observations": 190,
-    "repos": 69,
+    "repos": 70,
     "terms": 190
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "abarisain/dmix",
     "aidenlab/Juicebox",
@@ -78,6 +78,7 @@
     "snapcast/snapdroid",
     "spring-attic/head-first-reactive-with-spring-and-reactor",
     "spring-attic/reactive-streams-commons",
+    "takari/polyglot-maven",
     "timgifford/maven-buildtime-extension",
     "trustin/os-maven-plugin",
     "tushartushar/DesigniteJava",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1052,
-    "concepts": 196,
-    "observations": 197,
+    "components": 1049,
+    "concepts": 199,
+    "observations": 200,
     "repos": 38,
-    "terms": 210
+    "terms": 213
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -38,7 +38,6 @@
     "kamranahmedse/claude-run",
     "lobehub/lobe-charts",
     "lobehub/lobe-tts",
-    "Lusito/webextension-polyfill-ts",
     "multiformats/js-multiformats",
     "Piebald-AI/gemini-cli-desktop",
     "priceline/design-system",
@@ -47,6 +46,7 @@
     "sveltejs/prettier-plugin-svelte",
     "testing-library/angular-testing-library",
     "thesayyn/protoc-gen-ts",
+    "tracked-tools/tracked-built-ins",
     "trzsz/trzsz.js",
     "un-ts/eslint-plugin-import-x",
     "unplugin/unplugin-vue-markdown",

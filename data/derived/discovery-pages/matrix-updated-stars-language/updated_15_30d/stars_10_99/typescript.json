@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2693,
-    "concepts": 521,
-    "observations": 525,
-    "repos": 95,
-    "terms": 525
+    "components": 2604,
+    "concepts": 505,
+    "observations": 509,
+    "repos": 92,
+    "terms": 505
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
     "addfox/addfox",
-    "adyscorpius/logseq-jira",
     "aggre/ullr",
     "Airfooox/cron-validate",
     "apollographql/vscode-graphql",
@@ -43,7 +42,6 @@
     "ethereum/eip-review-bot",
     "fabon-f/temporal-polyfill-lite",
     "fannheyward/coc-xml",
-    "favware/cliff-jumper",
     "favware/esbuild-plugin-version-injector",
     "forcedotcom/agents",
     "ghostery/broken-page-reports",
@@ -90,7 +88,6 @@
     "OffchainLabs/nitro-testnode",
     "ogx-ai/llama-stack-client-typescript",
     "openwebdocs/mdn-bcd-collector",
-    "overseedai/viwo",
     "patrickkabwe/create-nitro-module",
     "prefix-dev/setup-pixi",
     "prisma-labs/bema",

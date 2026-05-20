@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 121,
-    "concepts": 177,
-    "observations": 177,
-    "repos": 24,
-    "terms": 174
+    "components": 128,
+    "concepts": 183,
+    "observations": 183,
+    "repos": 26,
+    "terms": 180
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "apache/camel-examples",
     "apache/doris-flink-connector",
@@ -20,6 +20,7 @@
     "Azure-Samples/agent-openai-java-banking-assistant",
     "carrot2/carrot2",
     "chromiumembedded/java-cef",
+    "Cosium/git-code-format-maven-plugin",
     "eclipse-buildship/buildship",
     "fabmax/physx-jni",
     "filip26/titanium-json-ld",
@@ -30,6 +31,7 @@
     "higress-group/higress-console",
     "jpmml/jpmml-sparkml",
     "kreativekorp/bitsnpicas",
+    "microsoft/java-debug",
     "mockingbot/react-native-zip-archive",
     "mukel/llama3.java",
     "objectbox/objectbox-examples",

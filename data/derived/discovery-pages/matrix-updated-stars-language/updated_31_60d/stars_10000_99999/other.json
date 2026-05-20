@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 210,
-    "concepts": 285,
-    "observations": 289,
-    "repos": 40,
-    "terms": 278
+    "components": 646,
+    "concepts": 320,
+    "observations": 324,
+    "repos": 45,
+    "terms": 320
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "adambard/learnxinyminutes-docs",
     "alexandresanlim/Badges4-README.md-Profile",
@@ -43,15 +43,20 @@
     "Kong/kong",
     "kubernetes/community",
     "LazyVim/LazyVim",
+    "metabase/metabase",
     "microsoft/language-server-protocol",
     "microsoft/OmniParser",
     "mikepenz/MaterialDrawer",
     "nikitabobko/AeroSpace",
     "nvim-treesitter/nvim-treesitter",
     "openai/CLIP",
+    "oven-sh/bun",
+    "realm/SwiftLint",
     "reasonml/reason",
+    "SaschaWillems/Vulkan",
     "Seldaek/monolog",
     "semgrep/semgrep",
+    "teamcapybara/capybara",
     "tmuxinator/tmuxinator",
     "tonsky/FiraCode"
   ]

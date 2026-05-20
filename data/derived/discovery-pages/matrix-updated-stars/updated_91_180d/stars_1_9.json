@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 681,
-    "concepts": 325,
-    "observations": 327,
-    "repos": 208,
-    "terms": 336
+    "components": 686,
+    "concepts": 327,
+    "observations": 329,
+    "repos": 209,
+    "terms": 338
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -187,10 +187,10 @@
     "Shopify/svg2vd",
     "sigp/xdelta3-rs",
     "sigstore/.github",
-    "simdjson/simdjson-data",
     "simonpoole/geocontext",
     "slunsford/coffee-analytics",
     "sp1-patches/curve25519-dalek-ng",
+    "stephanj/spotbugs-devoxxgenie-plugin",
     "tahv/typos-gitlab-code-quality",
     "tensorchord/VectorChord-images",
     "testng-team/testng-team.github.io",
@@ -204,6 +204,7 @@
     "typstyle-rs/pre-commit-typstyle",
     "typstyle-rs/typstyle-action",
     "typstyle-rs/typstyle-tampermonkey",
+    "URUWorks/UW_BlurayPGSParser",
     "usdot-fhwa-stol/carma-carla-integration",
     "usnistgov/libhdf5-wasm",
     "Vaishnav-Sabari-Girish/Hayasen-Examples",

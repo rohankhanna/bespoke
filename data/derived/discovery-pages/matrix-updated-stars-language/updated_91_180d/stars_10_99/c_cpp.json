@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 133,
-    "concepts": 135,
-    "observations": 137,
-    "repos": 44,
-    "terms": 132
+    "components": 134,
+    "concepts": 137,
+    "observations": 139,
+    "repos": 46,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "3dfxdev/EDGE",
     "a-n-t-h-o-n-y/signals-light",
@@ -41,6 +41,7 @@
     "JuliaInterop/libcxxwrap-julia",
     "lemire/fast_float",
     "nativium/nativium",
+    "o3de/PhysX",
     "osmcode/osm-gis-export",
     "osvenskan/sysv_ipc",
     "paoloshasta/shasta",
@@ -54,6 +55,7 @@
     "tlaplus-community/tree-sitter-tlaplus",
     "triton-inference-server/tensorflow_backend",
     "utiasASRL/lgmath",
+    "vincentbernat/vbeterm",
     "vorot93/libmdbx-rs",
     "XR-Robotics/XRoboToolkit-PC-Service-Pybind",
     "xtensor-stack/xtensor-r",

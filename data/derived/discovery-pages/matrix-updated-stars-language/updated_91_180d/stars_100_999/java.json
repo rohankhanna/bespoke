@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 78,
+    "components": 75,
     "concepts": 94,
     "observations": 94,
-    "repos": 15,
+    "repos": 14,
     "terms": 94
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "apache/seatunnel-web",
     "aws-observability/aws-otel-community",
@@ -27,7 +27,6 @@
     "ipfs-shipyard/gomobile-ipfs",
     "jpmml/jpmml-evaluator",
     "nacos-group/nacos-spring-project",
-    "takari/polyglot-maven",
     "testng-team/testng-eclipse"
   ]
 }

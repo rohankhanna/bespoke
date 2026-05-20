@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 184,
-    "concepts": 207,
-    "observations": 207,
-    "repos": 35,
-    "terms": 207
+    "components": 180,
+    "concepts": 187,
+    "observations": 187,
+    "repos": 34,
+    "terms": 187
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "aarondl/authboss",
@@ -45,7 +45,6 @@
     "rs/cors",
     "shazow/ssh-chat",
     "sony/gobreaker",
-    "tenable/terrascan",
     "tmc/langchaingo",
     "uber-go/goleak",
     "uber-go/mock"

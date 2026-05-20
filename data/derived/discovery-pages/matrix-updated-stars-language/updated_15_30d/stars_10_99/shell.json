@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 242,
-    "concepts": 238,
-    "observations": 241,
-    "repos": 51,
-    "terms": 235
+    "concepts": 241,
+    "observations": 244,
+    "repos": 52,
+    "terms": 238
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "acmesh-official/acmetest",
     "AFLplusplus/cov-analysis",
@@ -39,6 +39,7 @@
     "envoyproxy/examples",
     "fcshark-org/route-list",
     "gentoo-mirror/guru",
+    "gpac/testsuite",
     "helidon-io/helidon-examples",
     "heroku/heroku-buildpack-dotnet",
     "heroku/heroku-buildpack-gradle",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 282,
-    "concepts": 174,
-    "observations": 175,
-    "repos": 35,
-    "terms": 174
+    "components": 221,
+    "concepts": 185,
+    "observations": 186,
+    "repos": 34,
+    "terms": 185
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "aidenlab/hic-straw",
     "aidenlab/juicebox.js",
@@ -24,29 +24,28 @@
     "atsushieno/aap-juce",
     "baicai-1145/GPT-SoVITS-CPUFast",
     "browniebroke/pypackage-template",
+    "cloudfoundry/credhub-cli",
+    "compozy/kb",
     "diffscope/diffscope-project",
+    "edge-classic/EDGE-classic",
     "erigontech/mdbx-go",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "honwen/openwrt-dnsmasq-extra",
     "intel-staging/text-generation-webui",
-    "joshsymonds/cc-tools",
+    "karafka/example-apps",
     "lumen-oss/luarocks-tag-release",
     "mesh-iit/cad-libraries",
     "microsoft/openjdk-jdk11u",
     "microsoft/openjdk-jdk17u",
     "microsoft/openjdk-jdk21u",
-    "mongodb/winkerberos",
-    "nvim-mini/mini.deps",
+    "nuxt-modules/emotion",
     "ogx-ai/ogx-client-typescript",
     "openjdk/jdk11u-dev",
     "openjdk/jdk17u-dev",
     "openjdk/jdk21u",
     "openjdk/jdk21u-dev",
     "pivotal/credhub-release",
-    "processing/processing-website",
     "RiDDiX/home-assistant-addons",
-    "TrigenSoftware/simple-release",
-    "vaporif/parry-guard",
-    "version-fox/vfox-plugins"
+    "TrigenSoftware/simple-release"
   ]
 }

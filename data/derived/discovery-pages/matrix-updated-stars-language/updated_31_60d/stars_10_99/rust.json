@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 314,
-    "concepts": 175,
-    "observations": 177,
+    "components": 317,
+    "concepts": 170,
+    "observations": 172,
     "repos": 50,
-    "terms": 189
+    "terms": 184
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
+    "64bit/commandOK",
     "adumbidiot/lz-str-rs",
     "alixinne/glsl-lang",
+    "andelf/axcli",
     "andelf/picc",
     "antonWetzel/prettypst",
     "ashvardanian/NumWars",
@@ -47,7 +49,6 @@
     "near/cargo-near",
     "near/near-workspaces-rs",
     "neysofu/reltester",
-    "omerbenamram/pyo3-file",
     "open-telemetry/opentelemetry-rust-contrib",
     "phiat/claude-esp-rs",
     "psmux/omp-manager",
@@ -60,7 +61,6 @@
     "tianrking/weixin-agent-rs",
     "tombelieber/claude-view",
     "tracel-ai/burn-bench",
-    "Vaishnav-Sabari-Girish/Hayasen",
     "watchexec/clearscreen",
     "watchexec/process-wrap",
     "Xuanwo/serde-env"

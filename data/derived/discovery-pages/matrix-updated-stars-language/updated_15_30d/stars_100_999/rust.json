@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1486,
-    "concepts": 984,
-    "observations": 991,
+    "components": 1499,
+    "concepts": 989,
+    "observations": 995,
     "repos": 162,
-    "terms": 977
+    "terms": 982
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "0xPolygonHermez/zisk",
     "a16z/jolt",
     "A2-ai/rv",
     "actix/actix-net",
-    "ajrcarey/pdfium-render",
+    "agentclientprotocol/rust-sdk",
     "akiomik/mado",
     "alexcrichton/ssh2-rs",
     "ankane/tokenizers-ruby",
@@ -64,7 +64,6 @@
     "diwic/dbus-rs",
     "djkoloski/rust_serialization_benchmark",
     "dprint/dprint-plugin-typescript",
-    "dtolnay/proc-macro2",
     "duckdb/duckdb-rs",
     "eigenwallet/core",
     "eitsupi/arf",
@@ -124,6 +123,7 @@
     "nix-community/namaka",
     "NixOS/nix-installer",
     "Nullus157/async-compression",
+    "open-telemetry/weaver",
     "openvm-org/openvm",
     "OptiVorbis/OptiVorbis",
     "oschwald/maxminddb-rust",
@@ -165,7 +165,7 @@
     "trifectatechfoundation/zlib-rs",
     "typst/packages",
     "udoprog/genco",
-    "untitaker/hyperlink",
+    "utilityai/llama-cpp-rs",
     "vectordotdev/vrl",
     "Watfaq/PowerSession-rs",
     "Yatekii/imgui-wgpu-rs",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 53,
-    "concepts": 163,
-    "observations": 163,
-    "repos": 30,
-    "terms": 161
+    "concepts": 159,
+    "observations": 159,
+    "repos": 29,
+    "terms": 159
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
     "ad-si/awesome-music-production",
@@ -22,7 +22,6 @@
     "CVEProject/cvelistV5",
     "dotnet/docs",
     "Efficient-ML/Awesome-Model-Quantization",
-    "FasterXML/jackson",
     "flathub/flathub",
     "github/rest-api-description",
     "godotengine/awesome-godot",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 211,
+    "components": 18,
     "concepts": 20,
     "observations": 20,
-    "repos": 4,
+    "repos": 2,
     "terms": 20
   },
   "facet_version": 1,
@@ -12,11 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "8144225309/superscalar-wallet",
-    "fekkak1998/scira",
-    "gopi2211/ralph",
     "ipfs-examples/github-mgmt"
   ]
 }

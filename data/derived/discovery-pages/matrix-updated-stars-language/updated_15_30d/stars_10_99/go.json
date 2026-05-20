@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 467,
-    "concepts": 318,
-    "observations": 319,
-    "repos": 64,
-    "terms": 316
+    "components": 459,
+    "concepts": 311,
+    "observations": 312,
+    "repos": 63,
+    "terms": 309
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "abhinav/goldmark-frontmatter",
@@ -24,7 +24,6 @@
     "aws-controllers-k8s/code-generator",
     "aws/aws-network-policy-agent",
     "bitrise-io/stepman",
-    "blinklabs-io/bluefin",
     "bootmortis/sing-geosite",
     "cloudfoundry/bosh-backup-and-restore",
     "cloudfoundry/bpm-release",
@@ -61,7 +60,6 @@
     "kubernetes-sigs/karpenter-provider-ibm-cloud",
     "kubernetes-sigs/provider-aws-test-infra",
     "kubernetes-sigs/verify-conformance",
-    "magodo/aztft",
     "minio/pkg",
     "muhlba91/external-dns-provider-adguard",
     "openshift/ci-tools",
@@ -73,6 +71,7 @@
     "sigstore/helm-sigstore",
     "sigstore/k8s-manifest-sigstore",
     "sigstore/rekor-tiles",
+    "tendermint/tm-db",
     "terraform-linters/tflint-ruleset-google",
     "transparency-dev/armored-witness",
     "transparency-dev/witness",

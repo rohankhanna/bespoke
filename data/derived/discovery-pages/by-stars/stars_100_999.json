@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 50255,
-    "concepts": 34674,
-    "observations": 34779,
-    "repos": 8549,
-    "terms": 34538
+    "components": 50273,
+    "concepts": 34715,
+    "observations": 34820,
+    "repos": 8554,
+    "terms": 34575
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0k/shyaml",
@@ -414,6 +414,7 @@
     "alexcanessa/typescript-coverage-report",
     "alexcrichton/ssh2-rs",
     "alexei-led/aws-mcp-server",
+    "Alexey-T/ATFlatControls",
     "AlexGraikos/diffusion_priors",
     "alexheretic/ab-glyph",
     "alexheretic/glyph-brush",
@@ -1645,6 +1646,7 @@
     "chaoss/grimoirelab-perceval",
     "ChaoXiao12/Moving-object-detection-DSFNet",
     "ChargePoint/xcparse",
+    "charlesnicholson/nanoprintf",
     "Charlie85270/Dorothy",
     "charm-and-friends/additional-bubbles",
     "charmbracelet/catwalk",
@@ -2873,6 +2875,7 @@
     "ExponentialML/Video-BLIP2-Preprocessor",
     "Extraltodeus/ComfyUI-AutomaticCFG",
     "Extraltodeus/Skimmed_CFG",
+    "eyalroz/printf",
     "eyalz800/serializer",
     "eyalz800/zpp_bits",
     "Eyeline-Labs/CineScale",
@@ -5605,6 +5608,7 @@
     "miner/herbert",
     "minerllabs/minerl",
     "mingukkang/GigaGAN",
+    "mingw-w64/mingw-w64",
     "mingyuanzhou/SiD",
     "MinimalFuture/AgentMesh",
     "MiniMax-AI/MiniMax-M2.1",
@@ -5646,6 +5650,7 @@
     "mitsuhiko/listenfd",
     "mitsuhiko/similar-asserts",
     "mitsuhiko/systemfd",
+    "mity/acutest",
     "miurahr/py7zr",
     "mjording/ttyrec",
     "mkdocstrings/griffe",
@@ -6250,6 +6255,7 @@
     "OpenBMB/UltraEval-Audio",
     "OpenBMB/UltraFeedback",
     "OpenBMB/VisRAG",
+    "openbsd/ports",
     "openclaw/nix-openclaw",
     "opencontainers/artifacts",
     "opencontainers/artwork",
@@ -7016,7 +7022,6 @@
     "rubyjs/libv8",
     "rubyjs/mini_racer",
     "RubyMoney/eu_central_bank",
-    "RUC-NLPIR/ARPO",
     "RUC-NLPIR/Tool-Star",
     "RUCAIBox/LLMBox",
     "RUCAIBox/R1-Searcher",

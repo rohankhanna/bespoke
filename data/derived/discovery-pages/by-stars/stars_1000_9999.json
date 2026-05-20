@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 55082,
-    "concepts": 35716,
-    "observations": 35824,
-    "repos": 6044,
-    "terms": 35615
+    "components": 55089,
+    "concepts": 35732,
+    "observations": 35840,
+    "repos": 6047,
+    "terms": 35629
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -3798,6 +3798,7 @@
     "mozillazg/go-pinyin",
     "mozillazg/pinyin-data",
     "mozillazg/python-pinyin",
+    "mpaland/printf",
     "mpeterv/luacheck",
     "mps-youtube/pafy",
     "mpv-android/mpv-android",
@@ -4554,6 +4555,7 @@
     "Purfview/whisper-standalone-win",
     "pushshift/api",
     "pyannote/pyannote-audio",
+    "PyAV-Org/PyAV",
     "pyca/cryptography",
     "pycontribs/jira",
     "PyCQA/bandit",
@@ -4861,6 +4863,7 @@
     "ruby/rbs",
     "rubyjs/therubyracer",
     "RubyMoney/money",
+    "RUC-NLPIR/ARPO",
     "RUC-NLPIR/DeepAgent",
     "RUC-NLPIR/FlashRAG",
     "RUC-NLPIR/Search-o1",

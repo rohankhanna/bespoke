@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 363,
-    "concepts": 739,
-    "observations": 740,
+    "components": 361,
+    "concepts": 743,
+    "observations": 744,
     "repos": 151,
-    "terms": 729
+    "terms": 733
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "AIDC-AI/Marco-o1",
@@ -48,6 +48,7 @@
     "crossbario/autobahn-python",
     "crowsonkb/k-diffusion",
     "cvg/Hierarchical-Localization",
+    "cvg/LightGlue",
     "davidhalter/jedi-vim",
     "descriptinc/descript-audio-codec",
     "DLYuanGod/TinyGPT-V",
@@ -155,7 +156,6 @@
     "toshas/torch-fidelity",
     "Trusted-AI/adversarial-robustness-toolbox",
     "uber/petastorm",
-    "Visual-Agent/DeepEyes",
     "ViTAE-Transformer/ViTPose",
     "waymo-research/waymo-open-dataset",
     "weaviate/elysia",

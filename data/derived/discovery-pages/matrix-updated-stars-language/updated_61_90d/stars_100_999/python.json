@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 288,
-    "concepts": 444,
-    "observations": 444,
-    "repos": 109,
-    "terms": 440
+    "components": 279,
+    "concepts": 443,
+    "observations": 443,
+    "repos": 108,
+    "terms": 439
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "absadiki/pywhispercpp",
     "actionless/pikaur",
@@ -38,7 +38,6 @@
     "clearml/clearml-serving",
     "cleinc/bts",
     "csslc/PiSA-SR",
-    "DanCardin/cappa",
     "DanceTrack/DanceTrack",
     "danielward27/flowjax",
     "dask/fastparquet",

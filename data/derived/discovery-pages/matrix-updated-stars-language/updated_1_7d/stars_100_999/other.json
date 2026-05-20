@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 71,
-    "observations": 71,
-    "repos": 11,
-    "terms": 71
+    "components": 72,
+    "concepts": 69,
+    "observations": 69,
+    "repos": 9,
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
+    "apalache-mc/apalache",
     "appwrite/playground-for-web",
     "astroautomata/SymbolicRegression.jl",
     "ChristopherHX/runner.server",
     "clj-commons/rewrite-clj",
-    "CopyText/TextCopy",
     "danielrosehill/Claude-Code-Projects-Index",
     "devcontainers/devcontainers.github.io",
-    "dwyl/quotes",
     "Kotlin/kotlinx-benchmark",
-    "rescript-lang/reanalyze",
     "ROCm/hipBLASLt"
   ]
 }

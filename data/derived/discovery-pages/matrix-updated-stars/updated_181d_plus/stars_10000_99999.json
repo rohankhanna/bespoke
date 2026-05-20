@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 3246,
-    "concepts": 1556,
-    "observations": 1558,
-    "repos": 317,
-    "terms": 1531
+    "concepts": 1560,
+    "observations": 1562,
+    "repos": 318,
+    "terms": 1534
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -136,6 +136,7 @@
     "HarisIqbal88/PlotNeuralNet",
     "helm/charts",
     "highlightjs/highlight.js",
+    "hiroi-sora/Umi-OCR",
     "Homebrew/legacy-homebrew",
     "howdyai/botkit",
     "httpie/cli",

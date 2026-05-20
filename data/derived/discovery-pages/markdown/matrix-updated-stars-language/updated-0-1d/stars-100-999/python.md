@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Python
 
-Generated at: `2026-05-19T11:00:38.111939+00:00`
+Generated at: `2026-05-20T05:54:21.882731+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 12
-- terms: 74
-- components: 91
-- concepts: 74
-- observations: 74
+- repos: 9
+- terms: 68
+- components: 84
+- concepts: 68
+- observations: 68
 
 ## Static behavior
 
@@ -26,32 +26,26 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [Comfy-Org/comfy-cli](https://github.com/Comfy-Org/comfy-cli) | 801 | 2026-05-19T10:34:10Z | Python | CLI | 9 | 7 | 9 | 9 |
+| [Comfy-Org/comfy-cli](https://github.com/Comfy-Org/comfy-cli) | 802 | 2026-05-19T20:28:02Z | Python | CLI | 9 | 7 | 9 | 9 |
+| [googlefonts/roboto-3-classic](https://github.com/googlefonts/roboto-3-classic) | 238 | 2026-05-19T19:31:03Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [aristoteleo/PantheonOS](https://github.com/aristoteleo/PantheonOS) | 428 | 2026-05-19T18:51:49Z | Python | Infrastructure/tooling | 14 | 15 | 14 | 14 |
+| [scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell) | 370 | 2026-05-19T18:19:31Z | Python | Infrastructure/tooling | 7 | 17 | 7 | 7 |
+| [googlefonts/ufo2ft](https://github.com/googlefonts/ufo2ft) | 170 | 2026-05-19T15:41:22Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [jupyter-server/jupyter_server](https://github.com/jupyter-server/jupyter_server) | 558 | 2026-05-19T14:36:31Z | Python | Infrastructure/tooling | 8 | 20 | 8 | 8 |
+| [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 350 | 2026-05-19T10:35:18Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [hluaguo/learn-faster-kit](https://github.com/hluaguo/learn-faster-kit) | 319 | 2026-05-19T10:17:39Z | Python | Docs/knowledge | 6 | 0 | 6 | 6 |
-| [scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell) | 370 | 2026-05-19T09:05:32Z | Python | Infrastructure/tooling | 7 | 17 | 7 | 7 |
-| [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 350 | 2026-05-19T08:40:47Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [15r10nk/inline-snapshot](https://github.com/15r10nk/inline-snapshot) | 729 | 2026-05-19T07:27:58Z | Python | Infrastructure/tooling | 15 | 8 | 15 | 15 |
-| [flagos-ai/FlagScale](https://github.com/flagos-ai/FlagScale) | 514 | 2026-05-19T02:15:36Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |
-| [NCAS-CMS/pyfive](https://github.com/NCAS-CMS/pyfive) | 101 | 2026-05-18T21:57:24Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |
-| [tox-dev/filelock](https://github.com/tox-dev/filelock) | 955 | 2026-05-18T17:09:08Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
-| [googlefonts/ufo2ft](https://github.com/googlefonts/ufo2ft) | 170 | 2026-05-18T16:03:05Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [aristoteleo/PantheonOS](https://github.com/aristoteleo/PantheonOS) | 426 | 2026-05-18T15:45:15Z | Python | Infrastructure/tooling | 14 | 15 | 14 | 14 |
-| [google-deepmind/xmanager](https://github.com/google-deepmind/xmanager) | 909 | 2026-05-18T13:58:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [Jamorim-esss/pytest-rich](https://github.com/Jamorim-esss/pytest-rich) | 254 | 2026-05-18T13:13:04Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [tox-dev/filelock](https://github.com/tox-dev/filelock) | 955 | 2026-05-18T17:09:08Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
-| [google-deepmind/xmanager](https://github.com/google-deepmind/xmanager) | 909 | 2026-05-18T13:58:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [Comfy-Org/comfy-cli](https://github.com/Comfy-Org/comfy-cli) | 801 | 2026-05-19T10:34:10Z | Python | CLI | 9 | 7 | 9 | 9 |
+| [Comfy-Org/comfy-cli](https://github.com/Comfy-Org/comfy-cli) | 802 | 2026-05-19T20:28:02Z | Python | CLI | 9 | 7 | 9 | 9 |
 | [15r10nk/inline-snapshot](https://github.com/15r10nk/inline-snapshot) | 729 | 2026-05-19T07:27:58Z | Python | Infrastructure/tooling | 15 | 8 | 15 | 15 |
-| [flagos-ai/FlagScale](https://github.com/flagos-ai/FlagScale) | 514 | 2026-05-19T02:15:36Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |
-| [aristoteleo/PantheonOS](https://github.com/aristoteleo/PantheonOS) | 426 | 2026-05-18T15:45:15Z | Python | Infrastructure/tooling | 14 | 15 | 14 | 14 |
-| [scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell) | 370 | 2026-05-19T09:05:32Z | Python | Infrastructure/tooling | 7 | 17 | 7 | 7 |
-| [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 350 | 2026-05-19T08:40:47Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
+| [jupyter-server/jupyter_server](https://github.com/jupyter-server/jupyter_server) | 558 | 2026-05-19T14:36:31Z | Python | Infrastructure/tooling | 8 | 20 | 8 | 8 |
+| [aristoteleo/PantheonOS](https://github.com/aristoteleo/PantheonOS) | 428 | 2026-05-19T18:51:49Z | Python | Infrastructure/tooling | 14 | 15 | 14 | 14 |
+| [scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell) | 370 | 2026-05-19T18:19:31Z | Python | Infrastructure/tooling | 7 | 17 | 7 | 7 |
+| [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 350 | 2026-05-19T10:35:18Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [hluaguo/learn-faster-kit](https://github.com/hluaguo/learn-faster-kit) | 319 | 2026-05-19T10:17:39Z | Python | Docs/knowledge | 6 | 0 | 6 | 6 |
-| [Jamorim-esss/pytest-rich](https://github.com/Jamorim-esss/pytest-rich) | 254 | 2026-05-18T13:13:04Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
-| [googlefonts/ufo2ft](https://github.com/googlefonts/ufo2ft) | 170 | 2026-05-18T16:03:05Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [NCAS-CMS/pyfive](https://github.com/NCAS-CMS/pyfive) | 101 | 2026-05-18T21:57:24Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |
+| [googlefonts/roboto-3-classic](https://github.com/googlefonts/roboto-3-classic) | 238 | 2026-05-19T19:31:03Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [googlefonts/ufo2ft](https://github.com/googlefonts/ufo2ft) | 170 | 2026-05-19T15:41:22Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |

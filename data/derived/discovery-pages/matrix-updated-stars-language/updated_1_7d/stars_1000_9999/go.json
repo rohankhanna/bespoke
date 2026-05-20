@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 4,
-    "terms": 27
+    "components": 22,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 2,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
-    "bazel-contrib/rules_go",
-    "etcd-io/bbolt",
-    "gobackup/gobackup",
-    "vale-cli/vale"
+    "dkron-io/dkron",
+    "gobackup/gobackup"
   ]
 }

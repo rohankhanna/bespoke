@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 170,
-    "concepts": 55,
-    "observations": 55,
-    "repos": 18,
-    "terms": 55
+    "components": 199,
+    "concepts": 58,
+    "observations": 58,
+    "repos": 19,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "a5huynh/vscode-ron",
@@ -21,6 +21,7 @@
     "apostrophecms/apostrophe-astro",
     "appwrite/playground-for-node",
     "broccolijs/broccoli-plugin",
+    "brody2consult/react-native-module-init",
     "chrisdickinson/varint",
     "coderaiser/estree-to-babel",
     "hudochenkov/stylelint-config-hudochenkov",

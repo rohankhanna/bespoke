@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 197,
-    "concepts": 139,
-    "observations": 142,
-    "repos": 53,
-    "terms": 137
+    "components": 224,
+    "concepts": 142,
+    "observations": 145,
+    "repos": 55,
+    "terms": 140
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "acw/simple_asn1",
     "adamgreig/ecpdap",
     "algorealmInc/SwarmNL",
+    "alloy-rs/op-alloy",
     "antonengelhardt/wasm-oidc-plugin",
     "apache/opendal-ofs",
     "ArjunNair/egui_sdl2_gl",
-    "ashvardanian/StringTape",
     "bincode-org/virtue",
     "BoltzExchange/hold",
     "catch-twenty-two/rust-ssd",
@@ -40,6 +40,7 @@
     "fengkx/jieba-wasm",
     "georust/wkt",
     "germangb/minimp3-rs",
+    "googlefonts/shaperglot",
     "hermit-os/rftrace",
     "ifsheldon/async-openai-wasm",
     "informalsystems/quint-connect",
@@ -60,6 +61,7 @@
     "rukai/winit_input_helper",
     "rust-lang/gccjit.rs",
     "RustCrypto/nacl-compat",
+    "sigp/ethereum_hashing",
     "spacemeshos/post-rs",
     "spyoungtech/json-five-rs",
     "suo/lintrunner",

@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 28470,
-    "concepts": 15189,
-    "observations": 15241,
-    "repos": 5495,
-    "terms": 15190
+    "concepts": 15194,
+    "observations": 15246,
+    "repos": 5497,
+    "terms": 15194
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -364,6 +364,7 @@
     "alexeiva/jura",
     "alexellis/arkade-get",
     "alexellis/fstail",
+    "Alexey-T/EncConv",
     "alexfilatov/borsh",
     "alexhiggins732/BLlamaSharp.ChatGpt.Blazor",
     "alexhoma/routex.js",
@@ -4770,6 +4771,7 @@
     "Shenyi-Z/Cache4Diffusion",
     "Shenyi-Z/DuCa",
     "sherrillmix/vipor",
+    "sheryever/LiteDBDirectory",
     "SHI-Labs/Text2Video-Zero-sd-webui",
     "Shimingyi/ARP-Batch-Retargeting",
     "ShineChen1024/MiaoBi",
@@ -4873,7 +4875,6 @@
     "spacemeshos/smcli",
     "spacemeshos/smrepl",
     "sparsetech/cmark-scala",
-    "spazzymoto/echo-scs-session",
     "SpencerPark/ijava-binder",
     "SpencerPark/jupyter-jvm-basekernel",
     "SpencerPark/MellowD",
@@ -5146,7 +5147,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",
@@ -5381,6 +5382,7 @@
     "wp-cli/dist-archive-command",
     "wp-cli/scaffold-package-command",
     "WrongProtocol/YuE-exllamav2-UI",
+    "ws-choi/ISMIR2020_U_Nets_SVS",
     "wuqs-net/base16-windows-terminal",
     "wuxiyang1996/AutoHallusion",
     "wylieconlon/jsonrpc-ws-proxy",

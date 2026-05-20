@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 122,
-    "concepts": 428,
-    "observations": 429,
-    "repos": 244,
-    "terms": 428
+    "components": 123,
+    "concepts": 435,
+    "observations": 436,
+    "repos": 246,
+    "terms": 435
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -25,6 +25,7 @@
     "adidas/api-guidelines",
     "agl/ed25519",
     "agnostic-apollo/Android-Docs",
+    "ahmadawais/shades-of-purple-vscode",
     "aialt/awesome-mobile-agents",
     "aigc3d/AniGS",
     "AILab-CVC/TaleCrafter",
@@ -114,6 +115,7 @@
     "GoogleChrome/ip-protection",
     "googlefonts/gf-docs",
     "gothinkster/realworld-starter-kit",
+    "GraphBLAS/GraphBLAS-Pointers",
     "h2oai/awesome-h2o",
     "HandaArchitect/obsidian-banner-snippet",
     "haofanwang/T2I-Adapter-for-Diffusers",

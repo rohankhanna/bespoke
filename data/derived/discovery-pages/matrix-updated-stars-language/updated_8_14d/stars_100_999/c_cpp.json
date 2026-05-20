@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 67,
-    "concepts": 71,
-    "observations": 71,
-    "repos": 11,
-    "terms": 71
+    "components": 42,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 6,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "aburch/simutrans",
-    "CEED/libCEED",
     "celtera/avendish",
-    "foldl/chatllm.cpp",
-    "google-deepmind/reverb",
     "kiron1/bazel-compile-commands",
-    "open-telemetry/opentelemetry-ebpf-instrumentation",
-    "ouster-lidar/ouster-ros",
     "ros2/common_interfaces",
     "tree-sitter-grammars/tree-sitter-markdown",
     "yoshoku/llama_cpp.rb"

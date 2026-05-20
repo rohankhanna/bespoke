@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 189,
-    "concepts": 88,
-    "observations": 88,
-    "repos": 50,
-    "terms": 87
+    "components": 195,
+    "concepts": 90,
+    "observations": 90,
+    "repos": 52,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "0xPolygonHermez/stark-recurser",
     "5E7EN/Garmin-ZmanIQ",
@@ -23,12 +23,12 @@
     "ankane/seaduck",
     "Asmod4n/mruby-argon2",
     "aspect-build/tools_telemetry",
-    "ATProtoKit/MultiformatsKit",
     "azure/homebrew-bicep",
     "bolasblack/BlogFront",
     "Circuitscape/www.circuitscape.org",
     "clearbluejar/ghidra-python",
     "cloudfoundry/cf-smoke-tests-release",
+    "cyber404/che-apple-mail-mcp",
     "DanielSmith1239/KosherSwift",
     "diffblue/homebrew-cbmc",
     "dm0x23/portfolio-website",
@@ -42,12 +42,14 @@
     "dylibso/xtp-python-bindgen",
     "elixir-makeup/makeup_syntect",
     "ethpandaops/checkpoint-sync-health-checks",
+    "floxym/financial-chat-finance-nlp-chatbots",
     "gmberton/gmberton.github.io",
     "hchiam/convenience",
     "helix-toolkit/helix-toolkit.github.io",
     "joinwell52-ai/codeflow-pwa",
     "joinwell52-ai/joinwell52",
     "knopp/native_toolchain_ninja",
+    "KnotUntied/scoop-fonts",
     "konnov/apalache-examples",
     "lemire/unicode_lipsum",
     "marcindulak/learning-api-styles-gen-ai-experiments",

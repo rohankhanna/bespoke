@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
+    "components": 40,
     "concepts": 22,
     "observations": 22,
-    "repos": 18,
-    "terms": 24
+    "repos": 22,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,21 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "aayushbhaskar/OpenCouncil",
     "adammes/voyanode",
+    "bunburysniper/bleunova-ai-agent",
     "cdeust/cortex-know-when-to-stop-training-model",
     "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
     "danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",
     "danielrosehill/Red-Alert-Monitoring-Stack",
     "devnen/chatterbox-v2",
     "FEniCS/spack-fenics",
+    "florisheedless915/grok-register",
     "iandees/scrapy-camoufox",
     "kidshadow79/ogma",
+    "l12203685/digital-immortality",
     "mitchuski/agentprivacy-skills",
     "mohfer/nous-proxy",
     "Nambers/ssrJSON-benchmark",
@@ -31,6 +34,7 @@
     "petercorke/sphinx-autorun",
     "piqrypt/piqrypt-mcp-server",
     "redai-infra/TransferQueue",
+    "shubishere/ai-drawio",
     "Systemcluster/tokenizer-bench"
   ]
 }

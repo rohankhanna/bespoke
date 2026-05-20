@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 454,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 30,
-    "terms": 96
+    "components": 707,
+    "concepts": 96,
+    "observations": 96,
+    "repos": 35,
+    "terms": 105
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "alibaizhanov/openclaw-mengram",
     "analyticsinmotion/wake-word",
@@ -20,6 +20,8 @@
     "aquasecurity/tfsec-azure-pipelines-task",
     "asafr93-rosa/shopping-list-il",
     "Badisi/wdio-harness",
+    "birdofpreyru/react-starter",
+    "birdofpreyru/react-utils",
     "celo-org/SocialConnect-Twitter",
     "celo-org/SocialConnect-Twitter-Server-Side",
     "curiousdannii/asyncglk",
@@ -29,14 +31,17 @@
     "dreamiurg/mountaineers-assistant",
     "dylibso/xtp-cpp-bindgen",
     "ember-cli/ember-addon-blueprint",
+    "enxs969/skiller",
     "hchiam/how-draggable",
     "ipfs/helia-remote-pinning",
+    "kimosahy/railroaded",
     "klodr/mercury-invoicing-mcp",
     "LogtalkDotOrg/logtalk-for-vscode",
     "neuroverseos/neuroverseos-governance",
     "octokit/openapi-webhooks",
     "qcr/qcr.github.io",
     "robustmq/robustmq-copilot",
+    "saminiscool/twitter-ai-agent",
     "storybookjs/addon-jest",
     "tnc-ca-geo/animl-api",
     "toyamarinyon/giselle",

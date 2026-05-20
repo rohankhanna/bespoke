@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 601,
-    "concepts": 435,
-    "observations": 435,
-    "repos": 129,
-    "terms": 429
+    "components": 603,
+    "concepts": 444,
+    "observations": 445,
+    "repos": 131,
+    "terms": 438
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "0x676e67/0x676e67",
@@ -30,6 +30,7 @@
     "agents-squads/agents-squads",
     "agents-x-project/PyVision-RL-Eval",
     "aifoundry-org/et-man",
+    "aifoundry-org/riscv-gnu-toolchain",
     "al1-nasir/Research_council",
     "alexpolonsky/agent-skill-jlm-coffee",
     "alexpolonsky/agent-skill-libby-book-monitor",
@@ -42,11 +43,11 @@
     "AlwaysNur/bookbank",
     "andrasg/matterbridge-loxone",
     "ankane/torchcodec-ruby",
-    "apostrophecms/starter-kit-astro-essentials",
     "appbaseio/reactivesearch-api-docker",
     "arran4/lemmy_notify",
     "aspect-build/rules_jasmine",
     "athombv/com.athom.matter-bridge",
+    "ATProtoKit/MultiformatsKit",
     "automazeio/proof-go",
     "autowarefoundation/.github",
     "awni/picochat",
@@ -87,6 +88,7 @@
     "flinedev/recall",
     "gakonst/foundry",
     "gost-dom/shaman",
+    "guoqingbao/flashattn.rs",
     "hailiang-wang/llm-get-started",
     "hermit-os/hermit-gcc",
     "heshengtao/desktop-for-sap",
@@ -94,6 +96,7 @@
     "intel/iefs-kernel-updates",
     "ipfs/helia-delegated-routing-v1-http-api",
     "JLSchuler99/svc-router",
+    "jrsoftware/isscint",
     "jspreadsheet/spreadsheet-react-server",
     "JuliaBinaryWrappers/Zlib_jll.jl",
     "lace/entente",
@@ -129,7 +132,6 @@
     "sigp/quick-protobuf",
     "sparklabutah/timewarp",
     "stephanj/sonarlint-devoxxgenie-intellij",
-    "stephanj/spotbugs-devoxxgenie-plugin",
     "SWE-bench/SWE-smith-envs",
     "sylabs/singularity-admindocs",
     "tanyongkiam/cake_lpr",

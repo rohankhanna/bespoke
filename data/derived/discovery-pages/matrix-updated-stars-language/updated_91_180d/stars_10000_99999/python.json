@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 176,
-    "concepts": 220,
-    "observations": 222,
-    "repos": 29,
-    "terms": 219
+    "concepts": 216,
+    "observations": 218,
+    "repos": 28,
+    "terms": 216
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "andrewyng/aisuite",
@@ -24,7 +24,6 @@
     "cleanlab/cleanlab",
     "FoundationAgents/MetaGPT",
     "FoundationAgents/OpenManus",
-    "hiroi-sora/Umi-OCR",
     "horovod/horovod",
     "IdreesInc/Monocraft",
     "JaidedAI/EasyOCR",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1779,
-    "concepts": 1362,
-    "observations": 1367,
-    "repos": 169,
-    "terms": 1355
+    "components": 1783,
+    "concepts": 1344,
+    "observations": 1349,
+    "repos": 168,
+    "terms": 1339
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "0xPlaygrounds/rig",
@@ -20,6 +20,7 @@
     "AccessKit/accesskit",
     "actix/actix",
     "actix/examples",
+    "agentclientprotocol/agent-client-protocol",
     "ai-dynamo/dynamo",
     "apache/arrow-rs",
     "apache/datafusion",
@@ -34,7 +35,6 @@
     "bheisler/criterion.rs",
     "bionic-gpt/bionic-gpt",
     "bitcoindevkit/bdk",
-    "blacknon/hwatch",
     "bluealloy/revm",
     "boa-dev/boa",
     "brave/adblock-rust",
@@ -100,7 +100,6 @@
     "MaterializeInc/materialize",
     "matter-labs/zksync",
     "medialab/xan",
-    "mfontanini/presenterm",
     "model-checking/kani",
     "modelcontextprotocol/rust-sdk",
     "mozilla/cbindgen",
@@ -116,7 +115,6 @@
     "obi1kenobi/cargo-semver-checks",
     "obi1kenobi/trustfall",
     "paradigmxyz/reth",
-    "pdeljanov/Symphonia",
     "pgcentralfoundation/pgrx",
     "pkgxdev/pkgx",
     "prefix-dev/pixi",
@@ -134,6 +132,7 @@
     "robustmq/robustmq",
     "romanz/electrs",
     "ron-rs/ron",
+    "ros2-rust/ros2_rust",
     "rust-bitcoin/rust-bitcoin",
     "rust-cli/config-rs",
     "rust-cli/human-panic",

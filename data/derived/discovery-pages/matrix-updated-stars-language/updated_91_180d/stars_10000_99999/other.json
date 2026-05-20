@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 30,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 9,
-    "terms": 58
+    "components": 31,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 10,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "camenduru/stable-diffusion-webui-colab",
     "folke/lazy.nvim",
     "github/copilot.vim",
+    "junegunn/vim-plug",
     "MatsuriDayo/NekoBoxForAndroid",
     "NVlabs/instant-ngp",
     "QwenLM/Qwen3-VL",

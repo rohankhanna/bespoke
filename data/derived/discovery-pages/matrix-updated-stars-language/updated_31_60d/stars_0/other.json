@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 24,
-    "terms": 31
+    "components": 49,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 32,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,30 +12,38 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "acevif/swiftformat-nix",
     "ashton/neotest-gleam-unitest",
     "atsushieno/homebrew-oss",
+    "b2agi/exist-is-charter",
     "b2agi/exist-is-charter_kr",
     "cmake-wheel/cmeel-example",
+    "danielrosehill/AI-Ideation-Runs",
+    "danielrosehill/Geopol-Forecast-Council",
+    "danielrosehill/Github-Ideas-And-FRs",
     "danielrosehill/Github-Repo-Org-Question",
     "danielrosehill/HFC-Guidance-Flip-Book",
     "danielrosehill/Israel-Civilian-Readiness-Guide",
     "danielrosehill/Live-Typing-UX-Research",
+    "firestryk/chatgpt-website.github.io",
+    "genuslovoacalixtusiii510/ytp-2026",
     "JuliaBinaryWrappers/Cairo_jll.jl",
     "JuliaBinaryWrappers/CUDA_Driver_jll.jl",
     "JuliaBinaryWrappers/CUDA_Runtime_jll.jl",
     "JuliaBinaryWrappers/FreeType2_jll.jl",
-    "JuliaBinaryWrappers/GettextRuntime_jll.jl",
     "JuliaBinaryWrappers/JpegTurbo_jll.jl",
     "JuliaBinaryWrappers/libaec_jll.jl",
     "JuliaBinaryWrappers/Libmount_jll.jl",
     "JuliaBinaryWrappers/libpng_jll.jl",
     "JuliaBinaryWrappers/Libuuid_jll.jl",
     "kdubbo/client-go",
+    "markoswire/remember-me.ai",
+    "robertabao/grok-nvim",
     "saharmor/saharmor.github.io",
+    "shoggo-ai/seniorvigil",
     "stefanlogue/scoops",
     "wblondel/blog"
   ]

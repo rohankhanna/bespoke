@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1859,
-    "concepts": 500,
-    "observations": 502,
-    "repos": 112,
-    "terms": 531
+    "components": 1945,
+    "concepts": 521,
+    "observations": 524,
+    "repos": 117,
+    "terms": 552
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "absolute-version/commit-and-tag-version",
@@ -23,6 +23,7 @@
     "agent-sh/agentsys",
     "AghayeCoder/tx-ui",
     "ankane/ahoy.js",
+    "anonrig/fast-querystring",
     "apify/awesome-skills",
     "appium/appium-ios-device",
     "Atheos/Atheos",
@@ -42,6 +43,7 @@
     "d3/d3-format",
     "d3/d3-geo-polygon",
     "devsnek/esvu",
+    "dperini/nwsapi",
     "dwyl/hapi-auth-jwt2",
     "dwyl/javascript-todo-list-tutorial",
     "dwyl/learn-postgresql",
@@ -54,6 +56,7 @@
     "fabmax/physx-js-webidl",
     "fastify/create-fastify",
     "fastify/example",
+    "fastify/fastify-autoload",
     "fastify/fastify-cli",
     "fastify/fastify-plugin",
     "fgnass/domino",
@@ -97,6 +100,7 @@
     "mourner/tinyqueue",
     "muratcankoylan/ralph-wiggum-marketer",
     "neverendingqs/serverless-dotenv-plugin",
+    "nodejs/admin",
     "nodejs/TSC",
     "npm/abbrev-js",
     "npm/rfcs",
@@ -112,6 +116,7 @@
     "rtfeldman/node-test-runner",
     "semantic-release/changelog",
     "semantic-release/git",
+    "semantic-release/npm",
     "sethgammon/citadel",
     "sindresorhus/globals",
     "stripe-samples/accept-a-payment",

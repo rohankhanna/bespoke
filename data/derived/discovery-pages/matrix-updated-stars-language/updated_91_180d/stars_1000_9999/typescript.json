@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 782,
-    "concepts": 154,
-    "observations": 155,
-    "repos": 30,
-    "terms": 155
+    "components": 737,
+    "concepts": 149,
+    "observations": 150,
+    "repos": 29,
+    "terms": 150
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
@@ -21,7 +21,6 @@
     "flightcontrolhq/superjson",
     "glimmerjs/glimmer-vm",
     "google/gts",
-    "googleapis/google-auth-library-nodejs",
     "improbable-eng/ts-protoc-gen",
     "labring/laf",
     "lokerl/tts-vue",

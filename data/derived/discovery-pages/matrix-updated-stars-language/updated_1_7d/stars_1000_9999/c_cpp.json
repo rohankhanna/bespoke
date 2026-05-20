@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 128,
-    "concepts": 119,
-    "observations": 119,
+    "components": 137,
+    "concepts": 115,
+    "observations": 116,
     "repos": 15,
-    "terms": 119
+    "terms": 115
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "floooh/sokol",
     "free-audio/clap",
     "google/oboe",
     "iree-org/iree",
     "KhronosGroup/KTX-Software",
-    "luau-lang/luau",
     "Mithril-mine/libmdbx",
     "Nelarius/imnodes",
     "PortAudio/portaudio",
     "pure-data/pure-data",
+    "riscv-collab/riscv-gnu-toolchain",
     "TrenchBroom/TrenchBroom",
     "ufbx/ufbx",
     "ultrajson/ultrajson",

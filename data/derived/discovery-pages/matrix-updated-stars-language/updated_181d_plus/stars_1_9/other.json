@@ -3,7 +3,7 @@
     "components": 1090,
     "concepts": 503,
     "observations": 503,
-    "repos": 334,
+    "repos": 335,
     "terms": 509
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "2KAbhishek/awesome2k",
     "2KAbhishek/rofi2k",
@@ -306,6 +306,7 @@
     "Shiweiliuiiiiiii/SET-MLP-ONE-MILLION-NEURONS",
     "shovel-org/Base",
     "shunsambongi/neotest-testthat",
+    "simdjson/simdjson-data",
     "sluongng/neotest-bazel",
     "SmileYzn/base16",
     "snowplow-incubator/cla-bot",

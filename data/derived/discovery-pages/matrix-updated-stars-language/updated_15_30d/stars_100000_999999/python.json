@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 188,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 5,
-    "terms": 45
+    "components": 169,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 4,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
-    "nousresearch/hermes-agent",
+    "huggingface/transformers",
     "open-webui/open-webui",
     "Significant-Gravitas/AutoGPT",
-    "vinta/awesome-python",
-    "yt-dlp/yt-dlp"
+    "vinta/awesome-python"
   ]
 }

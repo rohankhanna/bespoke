@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 72,
+    "components": 62,
+    "concepts": 71,
     "observations": 72,
     "repos": 6,
-    "terms": 72
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "aden-hive/hive",
-    "Dao-AILab/flash-attention",
-    "hiyouga/LlamaFactory",
     "huggingface/sentence-transformers",
-    "PDFMathTranslate/PDFMathTranslate",
-    "ungoogled-software/ungoogled-chromium"
+    "oobabooga/textgen",
+    "pydantic/pydantic",
+    "pyg-team/pytorch_geometric",
+    "zhayujie/CowAgent"
   ]
 }

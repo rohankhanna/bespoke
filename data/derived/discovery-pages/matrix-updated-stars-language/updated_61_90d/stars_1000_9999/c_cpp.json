@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 135,
-    "concepts": 240,
-    "observations": 241,
-    "repos": 45,
-    "terms": 233
+    "components": 131,
+    "concepts": 233,
+    "observations": 234,
+    "repos": 44,
+    "terms": 226
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
-    "2shady4u/godot-sqlite",
     "akheron/jansson",
+    "alembic/alembic",
     "Alex313031/thorium",
     "AlibabaResearch/AdvancedLiterateMachinery",
     "arrayfire/arrayfire",
@@ -46,7 +46,6 @@
     "mutouyun/cpp-ipc",
     "nmoehrle/mvs-texturing",
     "NVIDIA/gdrcopy",
-    "PixarAnimationStudios/OpenSubdiv",
     "pramsey/pgsql-http",
     "romkatv/gitstatus",
     "snapcast/snapcast",

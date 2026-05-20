@@ -3,14 +3,14 @@
     "components": 10225,
     "concepts": 10063,
     "observations": 10095,
-    "repos": 1715,
+    "repos": 1714,
     "terms": 10013
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -1549,7 +1549,6 @@
     "spacemeshos/poet",
     "spacemeshos/smcli",
     "spacemeshos/smrepl",
-    "spazzymoto/echo-scs-session",
     "SpecterOps/AzureHound",
     "SpecterOps/BloodHound",
     "spf13/cobra",

@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 506,
+    "components": 455,
     "concepts": 112,
     "observations": 112,
     "repos": 13,
@@ -12,20 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
+    "a2aproject/a2a-js",
     "abaplint/transpiler",
     "Brendonovich/MacroGraph",
+    "electron/packager",
     "fluent-vue/fluent-vue",
     "huggingface/hf-mcp-server",
     "Koenkk/zigbee-herdsman",
     "Luligu/matterbridge",
-    "Luligu/matterbridge-shelly",
     "Luligu/matterbridge-zigbee2mqtt",
     "Nerivec/zigbee2mqtt-windfront",
-    "nurikk/zigbee2mqtt-frontend",
     "RiDDiX/home-assistant-matter-hub",
     "skilld-dev/skilld",
-    "Zoo-Code-Org/Zoo-Code"
+    "unplugin/unplugin-imagemin"
   ]
 }

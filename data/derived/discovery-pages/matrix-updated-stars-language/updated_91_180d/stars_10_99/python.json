@@ -3,7 +3,7 @@
     "components": 188,
     "concepts": 229,
     "observations": 230,
-    "repos": 98,
+    "repos": 99,
     "terms": 237
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -85,6 +85,7 @@
     "okuvshynov/cubestat",
     "opea-project/docs",
     "OpenVoiceOS/ovos-tts-plugin-piper",
+    "Owen-Liuyuxuan/ros2_vision_inference",
     "pfnet-research/tgan2",
     "philipy1219/ComfyUI-TaylorSeer",
     "pycompression/python-zlib-ng",

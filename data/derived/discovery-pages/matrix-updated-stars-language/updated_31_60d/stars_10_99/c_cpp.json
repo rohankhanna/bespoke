@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 229,
+    "components": 231,
     "concepts": 201,
     "observations": 201,
-    "repos": 45,
-    "terms": 199
+    "repos": 46,
+    "terms": 201
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "ada-url/ada-python",
@@ -43,6 +43,7 @@
     "jupyter-xeus/xeus-lua",
     "ksnip/kImageAnnotator",
     "Level/classic-level",
+    "liangshengyong/lanwan",
     "libxsmm/tpp-pytorch-extension",
     "marciogranzotto/clawd-tank",
     "midi2-dev/ni-midi2",

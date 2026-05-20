@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 226,
-    "concepts": 148,
-    "observations": 148,
-    "repos": 52,
-    "terms": 146
+    "components": 228,
+    "concepts": 169,
+    "observations": 169,
+    "repos": 53,
+    "terms": 167
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "abduznik/git-alchemist",
     "agents-x-project/PyVision-RL",
+    "ai4colonoscopy/PraNet-V2",
     "Alibaba-Quark/SSP",
     "amiable-dev/llm-council",
     "andyluo7/autoresearch",
@@ -51,7 +52,6 @@
     "inducer/genpy",
     "liran-funaro/sphinx-markdown-builder",
     "Lizw14/Super-CLEVR",
-    "Owen-Liuyuxuan/ros2_vision_inference",
     "philippemerle/AWS-CloudFormation-Diagrams",
     "PoseLib/posebench",
     "rdb/panda3d-thirdparty",
@@ -59,6 +59,7 @@
     "rstudio/pins-python",
     "scaleway/serverless-gateway",
     "ServiceNow/webarena-verified",
+    "seung-lab/cloud-files",
     "sylabs/singularity-userdocs",
     "sympy/sympy-bot",
     "talieisin/britfix",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 72,
-    "concepts": 98,
-    "observations": 99,
+    "components": 88,
+    "concepts": 113,
+    "observations": 114,
     "repos": 12,
-    "terms": 98
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
-    "arcee-ai/mergekit",
     "awslabs/aidlc-workflows",
     "Farama-Foundation/Minigrid",
     "funstory-ai/BabelDOC",
     "ggozad/oterm",
+    "google-deepmind/dm-haiku",
     "google-deepmind/sonnet",
     "magenta/ddsp",
-    "meta-pytorch/captum",
     "mikel-brostrom/boxmot",
     "openvpi/DiffSinger",
-    "strob/gentle",
+    "PyAV-Org/PyAV",
+    "voicepaw/so-vits-svc-fork",
     "Xilinx/brevitas"
   ]
 }

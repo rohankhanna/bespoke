@@ -3,7 +3,7 @@
     "components": 125,
     "concepts": 51,
     "observations": 51,
-    "repos": 16,
+    "repos": 17,
     "terms": 53
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "agent-sh/agent-analyzer",
     "databendlabs/display-more",
@@ -24,6 +24,7 @@
     "gaoyifan/bgptools",
     "hsivonen/chardetng_c",
     "kensave/agent-memory-rs",
+    "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
     "Layr-Labs/hokulea",
     "marin-community/kitoken",
     "netdur/hugind",

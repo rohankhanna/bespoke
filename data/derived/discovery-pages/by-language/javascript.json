@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 39433,
+    "components": 39448,
     "concepts": 8790,
     "observations": 8817,
-    "repos": 2086,
-    "terms": 8781
+    "repos": 2087,
+    "terms": 8779
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "0x1abin/matter-controller-mcp",
     "0x4139/cosmos-discord-faucet",
@@ -1256,6 +1256,7 @@
     "locize/locize",
     "locize/locize-cli",
     "locize/locize-gatsby-example",
+    "locize/locize-i18next-vue-example",
     "locize/locize-lastused",
     "locize/locize-remix-i18next-example",
     "locize/locizify",
@@ -1963,7 +1964,7 @@
     "treosh/lighthouse-ci-action",
     "TrigenSoftware/simple-release-action",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "TritonDataCenter/node-http-signature",
     "TritonDataCenter/node-verror",
     "trylovetom/clean-code-javascript",

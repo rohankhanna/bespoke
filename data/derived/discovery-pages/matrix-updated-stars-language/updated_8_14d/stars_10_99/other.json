@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 180,
-    "concepts": 151,
-    "observations": 152,
+    "components": 231,
+    "concepts": 155,
+    "observations": 156,
     "repos": 25,
-    "terms": 151
+    "terms": 155
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "atsushieno/augene-ng",
@@ -21,18 +21,18 @@
     "atsushieno/resident-midi-keyboard",
     "cginternals/cpplocate",
     "Cle2ment/CherryStudio_themes",
-    "dinosaure/blaze",
     "dwyl/mvp",
     "Elyahu41/KosherSwift",
-    "FactoryXCode/MfPack",
     "FreneticLLC/FreneticGameEngine",
     "geocompx/docker",
     "HDFGroup/hdf5_plugins",
     "jelly-beam/rebar3_ex_doc",
     "ludwig-ai/ludwig-docs",
     "mrcjkb/neotest-haskell",
+    "nvim-mini/mini.deps",
     "ocaml-tracing/ocaml-opentelemetry",
     "ocaml-tracing/ocaml-trace",
+    "processing/processing-website",
     "rcasia/neotest-java",
     "ros2/example_interfaces",
     "siketyan/intellij-rustowl",

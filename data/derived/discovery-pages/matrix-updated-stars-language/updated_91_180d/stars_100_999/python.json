@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 355,
-    "concepts": 733,
-    "observations": 733,
-    "repos": 199,
-    "terms": 727
+    "components": 347,
+    "concepts": 717,
+    "observations": 717,
+    "repos": 196,
+    "terms": 711
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "0k/shyaml",
     "23andMe/Yamale",
@@ -50,7 +50,6 @@
     "baaivision/Uni3D",
     "baal-org/baal",
     "behave/behave-django",
-    "belambert/edit-distance",
     "berkerpeksag/astor",
     "bigcode-project/bigcodebench",
     "BoosterRobotics/booster_gym",
@@ -69,6 +68,7 @@
     "CodeClash-ai/CodeClash",
     "corydolphin/flask-cors",
     "CSfufu/Revisual-R1",
+    "DanCardin/cappa",
     "dbeley/awesome-lemmy",
     "deepbeepmeep/mmgp",
     "DengPingFan/PraNet",
@@ -89,7 +89,6 @@
     "GFW-knocker/gfw_resist_tcp_proxy",
     "githubharald/CTCDecoder",
     "google-deepmind/recurrentgemma",
-    "GoogleChrome/related-website-sets",
     "googlefonts/fontmake",
     "gristlabs/asttokens",
     "Gumpest/SparseVLMs",
@@ -123,9 +122,7 @@
     "lzyhha/VisualCloze",
     "machow/quartodoc",
     "madebyollin/taesd",
-    "mapbox/mason",
     "marin-community/levanter",
-    "mariusvniekerk/condax",
     "mcfletch/pyopengl",
     "meidachen/STPLS3D",
     "metauto-ai/GPTSwarm",

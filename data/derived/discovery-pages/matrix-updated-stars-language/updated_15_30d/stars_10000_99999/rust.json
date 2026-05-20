@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1255,
-    "concepts": 855,
-    "observations": 856,
-    "repos": 75,
-    "terms": 846
+    "components": 1172,
+    "concepts": 826,
+    "observations": 827,
+    "repos": 71,
+    "terms": 817
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
@@ -24,7 +24,6 @@
     "bevyengine/bevy",
     "biomejs/biome",
     "BloopAI/vibe-kanban",
-    "cjpais/Handy",
     "clap-rs/clap",
     "ClementTsang/bottom",
     "dani-garcia/vaultwarden",
@@ -45,7 +44,6 @@
     "google/comprehensive-rust",
     "googleworkspace/cli",
     "helix-editor/helix",
-    "huggingface/candle",
     "huggingface/tokenizers",
     "hyperium/tonic",
     "iced-rs/iced",
@@ -57,7 +55,6 @@
     "LemmyNet/lemmy",
     "microsoft/windows-rs",
     "nearai/ironclaw",
-    "openai/codex",
     "orhun/git-cliff",
     "oxc-project/oxc",
     "pola-rs/polars",
@@ -72,7 +69,6 @@
     "RustPython/RustPython",
     "servo/servo",
     "shadowsocks/shadowsocks-rust",
-    "sharkdp/bat",
     "sharkdp/fd",
     "Spotifyd/spotifyd",
     "starship/starship",

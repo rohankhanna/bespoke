@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 5,
-    "terms": 28
+    "components": 26,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 6,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "atsushieno/aap-lv2",
     "atsushieno/uapmd",
     "bmwiedemann/openSUSE",
+    "mongodb/winkerberos",
     "xuegao-tzx/Fllama",
     "zig-wasm/wasmer-zig-api"
   ]

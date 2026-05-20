@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 128,
-    "concepts": 91,
-    "observations": 91,
-    "repos": 21,
-    "terms": 90
+    "components": 91,
+    "concepts": 64,
+    "observations": 64,
+    "repos": 17,
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "CHIP-SPV/H4I-MKLShim",
@@ -24,13 +24,9 @@
     "DavidKinder/inform",
     "eddelbuettel/r2u-builder",
     "Evilpasture/Culverin",
-    "gbrobro119-star/darksword-kexploit",
     "grizzlypeak3d/feather-tk",
-    "lonewolf-jp/convopeq",
-    "openssh/openssh-portable-selfhosted",
     "ROCm/rocJPEG",
     "skeeto/aas-sign",
-    "stdlib-js/complex-float32-ctor",
     "stdlib-js/complex-float64-ctor",
     "vincentlaucsb/classify_scalar",
     "walbourn/directxtk12test",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 432,
-    "concepts": 449,
-    "observations": 451,
-    "repos": 94,
-    "terms": 452
+    "components": 435,
+    "concepts": 451,
+    "observations": 453,
+    "repos": 95,
+    "terms": 454
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "Alexander-Miller/treemacs",
     "amebalabs/TRex",
@@ -107,6 +107,7 @@
     "vitalets/github-trending-repos",
     "weichsel/ZIPFoundation",
     "WICG/webcomponents",
+    "woct0rdho/triton-windows",
     "yonaskolb/Mint"
   ]
 }

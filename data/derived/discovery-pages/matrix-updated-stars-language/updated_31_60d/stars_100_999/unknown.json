@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 183,
-    "observations": 183,
-    "repos": 48,
-    "terms": 182
+    "components": 26,
+    "concepts": 207,
+    "observations": 207,
+    "repos": 50,
+    "terms": 206
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "actions/partner-runner-images",
     "adoptium/adoptium",
@@ -27,6 +27,7 @@
     "apple/device-management",
     "astro-han/karpathy-llm-wiki",
     "attack68/rateslib",
+    "AutoJunjie/awesome-agent-harness",
     "bloomberg/clang-p2996",
     "cloudflare/skills",
     "cncf/artwork",
@@ -35,6 +36,7 @@
     "dotnet/AspNetApiDocs",
     "dotnet/source-build",
     "e18e/ecosystem-issues",
+    "eudk/awesome-ai-tools",
     "filecoin-project/community",
     "flathub/com.vscodium.codium",
     "gautamkrishnar/gautamkrishnar",

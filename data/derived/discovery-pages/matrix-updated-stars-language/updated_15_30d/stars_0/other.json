@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 42,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 24,
-    "terms": 31
+    "components": 38,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 15,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,30 +12,21 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "AdaCore/vss-extra",
     "arnaud-lb/php-rdkafka-doc",
-    "b2agi/exist-is-charter",
     "conda-forge/cccl-feedstock",
-    "danielrosehill/AI-Ideation-Runs",
     "danielrosehill/Claude-Decision-Evaluation-Framework-Plugin",
     "danielrosehill/Claude-HP5200-Skill-plugin",
     "danielrosehill/Claude-Local-Web-Capture-Plugin",
-    "danielrosehill/Geopol-Forecast-Council",
-    "danielrosehill/Github-Ideas-And-FRs",
     "danielrosehill/Responsible-Agent-Skill-Development",
-    "firestryk/chatgpt-website.github.io",
-    "genuslovoacalixtusiii510/ytp-2026",
     "getlantern/guide",
     "HumanSignal/label-studio-client-generator",
     "JuliaBinaryWrappers/Expat_jll.jl",
     "JuliaBinaryWrappers/GDAL_jll.jl",
-    "markoswire/remember-me.ai",
     "netdur/imaged-sdk-examples",
     "regro/cf-graph-countyfair",
-    "robertabao/grok-nvim",
-    "shoggo-ai/seniorvigil",
     "stable-haskell/haskell-language-server",
     "Strivin0311/strivin0311.github.io"
   ]

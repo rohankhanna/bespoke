@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2532,
-    "concepts": 476,
-    "observations": 476,
-    "repos": 99,
-    "terms": 528
+    "components": 2584,
+    "concepts": 495,
+    "observations": 495,
+    "repos": 100,
+    "terms": 547
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "43081j/picoquery",
     "AbianS/docker-db-manager",
@@ -31,6 +31,7 @@
     "aws-samples/dify-self-hosted-on-aws",
     "badlogic/pi-share-hf",
     "birdofpreyru/react-native-fs",
+    "blrchen/chatgpt-lite",
     "carbon-design-system/carbon-icons-svelte",
     "carbon-design-system/carbon-pictograms-svelte",
     "carlrannaberg/claudekit",
@@ -82,6 +83,7 @@
     "microsoft/vscode-debugadapter-node",
     "microsoft/vscode-html-languageservice",
     "microsoft/vscode-json-languageservice",
+    "mskelton/eslint-plugin-playwright",
     "napi-rs/package-template",
     "nashaofu/screenshots",
     "neoclide/coc-java",
@@ -105,7 +107,6 @@
     "timkindberg/jest-when",
     "tombii/better-ccflare",
     "tony1223/better-agent-terminal",
-    "tracked-tools/tracked-built-ins",
     "typed-ember/glint",
     "vega/vega-embed",
     "vibe-log/vibe-log-cli",

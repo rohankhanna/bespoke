@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 86,
-    "concepts": 117,
-    "observations": 118,
+    "components": 89,
+    "concepts": 108,
+    "observations": 108,
     "repos": 13,
-    "terms": 116
+    "terms": 107
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,20 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
-    "aws/serverless-application-model",
     "bitsandbytes-foundation/bitsandbytes",
     "clearml/clearml",
     "collabora/WhisperLive",
     "copier-org/copier",
     "fla-org/flash-linear-attention",
-    "google-deepmind/dm-haiku",
+    "google-deepmind/optax",
     "google/budoux",
     "lucidrains/vector-quantize-pytorch",
     "meta-pytorch/tnt",
     "msiemens/tinydb",
-    "voicepaw/so-vits-svc-fork",
+    "nomadkaraoke/python-audio-separator",
+    "roboflow/maestro",
     "zai-org/GLM-V"
   ]
 }

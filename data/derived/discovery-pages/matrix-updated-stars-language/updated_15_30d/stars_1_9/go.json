@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 134,
+    "components": 126,
     "concepts": 78,
     "observations": 78,
-    "repos": 25,
-    "terms": 78
+    "repos": 22,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "1mb-dev/natcheck",
     "abhinav/goldmark-hashtag",
-    "abraxas-365/claudio",
     "bitrise-io/bitrise-plugins-step",
     "cgrindel/swift_gazelle_plugin",
     "cloudfoundry/cc-uploader",
@@ -24,12 +23,10 @@
     "cosmos/rosetta",
     "datachainlab/lcp-go",
     "dwyl/learn-go",
-    "erikceballos/nano-banana-cli",
     "exoscale/karpenter-provider-exoscale",
     "fluxcd/flux-schema",
     "goreleaser/sponsors",
     "huggingface/hf-csi-driver",
-    "k8nstantin/openpraxis",
     "linode/karpenter-provider-linode",
     "probe-lab/tiros",
     "Seedloaf/mc-router-discovery",

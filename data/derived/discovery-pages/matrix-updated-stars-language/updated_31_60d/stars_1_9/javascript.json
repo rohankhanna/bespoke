@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 803,
-    "concepts": 476,
-    "observations": 476,
-    "repos": 54,
-    "terms": 478
+    "components": 850,
+    "concepts": 519,
+    "observations": 519,
+    "repos": 58,
+    "terms": 521
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
@@ -26,6 +26,7 @@
     "agent-sh/repo-intel",
     "agent-sh/ship",
     "agent-sh/sync-docs",
+    "anojndr/grok-to-openai",
     "apache/netbeans-antora",
     "BarMalka/super-pharm-stock-checker",
     "brody2consult/react-native-init-func",
@@ -61,12 +62,15 @@
     "stdlib-js/array-dtypes",
     "stdlib-js/array-typed",
     "stdlib-js/array-typed-dtypes",
+    "stdlib-js/complex-cmplx",
+    "stdlib-js/complex-float32-reviver",
     "stdlib-js/ndarray-array",
     "stdlib-js/ndarray-dtype",
     "stdlib-js/ndarray-dtypes",
     "stdlib-js/ndarray-index-modes",
     "stdlib-js/streams-node-stdin",
     "stdlib-js/streams-node-stdout",
+    "stealabra5019/grok-enhancer",
     "Taritsyn/AutoprefixerHost"
   ]
 }

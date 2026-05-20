@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 130,
-    "concepts": 191,
-    "observations": 192,
-    "repos": 51,
-    "terms": 191
+    "components": 131,
+    "concepts": 173,
+    "observations": 174,
+    "repos": 50,
+    "terms": 173
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,25 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "abhisheknaiidu/abhisheknaiidu",
     "adoptium/temurin21-binaries",
     "antonbabenko/awesome-terraform-compliance",
     "apappascs/mcp-servers-hub",
-    "AutoJunjie/awesome-agent-harness",
     "bitrise-io/bitrise-steplib",
     "box/box-openapi",
     "Chocolate4U/Iran-sing-box-rules",
     "chromedp/cdproto",
     "cisagov/vulnrichment",
     "CVEProject/automation-working-group",
+    "deepset-ai/haystack-integrations",
     "django/deps",
     "dnaka91/obws",
     "emberjs/rfcs",
     "eryajf/awesome-stars-eryajf",
     "eslint/rfcs",
-    "eudk/awesome-ai-tools",
     "fluxcd/flux2-multi-tenancy",
     "forcedotcom/cli",
     "getlantern/lantern-binaries",

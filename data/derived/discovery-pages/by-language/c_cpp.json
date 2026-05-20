@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9513,
-    "concepts": 11343,
-    "observations": 11371,
-    "repos": 2356,
-    "terms": 11250
+    "components": 9531,
+    "concepts": 11396,
+    "observations": 11424,
+    "repos": 2362,
+    "terms": 11302
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0ldsk00l/nestopia",
@@ -424,6 +424,7 @@
     "cginternals/glscbinding-poc",
     "cginternals/khrbinding-generator",
     "chanzuckerberg/shasta",
+    "charlesnicholson/nanoprintf",
     "CharlesShang/DCNv2",
     "chelini/libxsmm",
     "chenkui164/FastASR",
@@ -742,6 +743,7 @@
     "Evilpasture/Culverin",
     "existentialaudio/blackhole",
     "extism/c-pdk",
+    "eyalroz/printf",
     "eyalz800/serializer",
     "eyalz800/zpp_bits",
     "eyalz800/zpp_throwing",
@@ -1559,6 +1561,7 @@
     "miloyip/dtoa-benchmark",
     "milvus-io/milvus-sdk-cpp",
     "mindreframer/sqlean",
+    "mingw-w64/mingw-w64",
     "miniupnp/libnatpmp",
     "miniupnp/miniupnp",
     "mintty/mintty",
@@ -1578,6 +1581,7 @@
     "mitsuba-renderer/mitsuba3",
     "mitsuba-renderer/nanogui",
     "mitsuba-renderer/nanothread",
+    "mity/acutest",
     "mjansson/rpmalloc-benchmark",
     "mjording/ttyrec",
     "mkazhdan/PoissonRecon",
@@ -1601,6 +1605,7 @@
     "MosheBerman/KosherCocoa",
     "mozilla-ai/llamafile",
     "mozilla/DeepSpeech",
+    "mpaland/printf",
     "MPEGGroup/mpeg-pcc-tmc13",
     "mpg/p256-m",
     "mpv-player/mpv",
@@ -1744,6 +1749,7 @@
     "onnx/optimizer",
     "onnxsim/onnxsim",
     "oov/aviutl_subtitler",
+    "oov/hashmap.c",
     "open-quantum-safe/liboqs",
     "open-source-parsers/jsoncpp",
     "open-telemetry/opentelemetry-dotnet-instrumentation",

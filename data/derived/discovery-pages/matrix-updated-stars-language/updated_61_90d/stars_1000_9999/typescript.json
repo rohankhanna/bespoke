@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 989,
-    "concepts": 143,
-    "observations": 143,
-    "repos": 29,
-    "terms": 172
+    "components": 1060,
+    "concepts": 149,
+    "observations": 149,
+    "repos": 32,
+    "terms": 178
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "actions/download-artifact",
+    "antfu-collective/vite-ssg",
     "antfu-collective/vitesse",
     "antfu-collective/vitesse-lite",
     "antfu-collective/vitesse-webext",
@@ -22,7 +23,9 @@
     "arktypeio/arktype",
     "coaidev/coai",
     "cosmiconfig/cosmiconfig",
+    "gustavoguichard/string-ts",
     "infinitered/nsfwjs",
+    "Ironclad/rivet",
     "jamiebrynes7/obsidian-todoist-plugin",
     "jnsahaj/tweakcn",
     "jonaskello/tsconfig-paths",

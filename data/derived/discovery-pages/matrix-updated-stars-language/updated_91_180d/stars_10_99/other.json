@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 392,
-    "concepts": 295,
-    "observations": 296,
-    "repos": 120,
-    "terms": 294
+    "concepts": 292,
+    "observations": 293,
+    "repos": 119,
+    "terms": 291
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/termim.nvim",
@@ -103,7 +103,6 @@
     "NielsRogge/tutorials",
     "NorfairKing/feedback",
     "ochorocho/franken-typo3",
-    "opencontainers/oci-conformance",
     "OutlierDetectionJL/OutlierDetection.jl",
     "padreati/rapaio-jupyter-kernel",
     "pagedjs/pagedjs-cli",

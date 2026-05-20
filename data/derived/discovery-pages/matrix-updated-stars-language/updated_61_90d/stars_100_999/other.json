@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 543,
-    "concepts": 452,
-    "observations": 455,
-    "repos": 112,
-    "terms": 451
+    "components": 551,
+    "concepts": 476,
+    "observations": 479,
+    "repos": 117,
+    "terms": 475
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "4d49/scene-library",
@@ -54,6 +54,7 @@
     "dashbitco/nimble_options",
     "djezzzl/factory_trace",
     "dkubb/adamantium",
+    "dkubb/equalizer",
     "dkubb/memoizable",
     "dwyl/elixir-auth-google",
     "dwyl/labels",
@@ -85,6 +86,7 @@
     "kowainik/summoner",
     "lambdalisue/vim-nerdfont",
     "lassik/emacs-format-all-the-code",
+    "lewis6991/hover.nvim",
     "lifepillar/vim-colortemplate",
     "lifepillar/vim-mucomplete",
     "mathjax/MathJax-demos-web",
@@ -109,8 +111,10 @@
     "ropensci/git2r",
     "rubocop/rubocop-performance",
     "sandrohanea/whisper.net",
+    "scssphp/scssphp",
     "seancorfield/deps-new",
     "seancorfield/next-jdbc",
+    "SlRvb/Obsidian--ITS-Theme",
     "sol/hpack",
     "stefan-hoeck/idris2-pack",
     "swansonk14/admet_ai",
@@ -120,6 +124,7 @@
     "travis-ci/travis-api",
     "trezor/cython-hidapi",
     "trptcolin/reply",
+    "ugexe/zef",
     "unxsist/jet-pilot",
     "vlaaad/reveal",
     "w3c/navigation-timing",

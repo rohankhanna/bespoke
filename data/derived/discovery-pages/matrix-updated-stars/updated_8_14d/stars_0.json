@@ -1,22 +1,22 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 8,
-    "observations": 8,
+    "components": 46,
+    "concepts": 7,
+    "observations": 7,
     "repos": 5,
-    "terms": 8
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "abdeladim-s/pywhispercpp",
     "atsushieno/aap-lv2-string-machine",
     "clearml/clearml-agent-bootstrap",
-    "danielrosehill/Claude-Gist-Writer-Plugin",
-    "Luligu/matterbridge-eve-door"
+    "Luligu/matterbridge-eve-door",
+    "starfishmod/bonjour-service"
   ]
 }

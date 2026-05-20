@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 207,
-    "concepts": 277,
-    "observations": 280,
-    "repos": 48,
-    "terms": 274
+    "components": 199,
+    "concepts": 259,
+    "observations": 262,
+    "repos": 46,
+    "terms": 253
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "2KAbhishek/dots2k",
     "alexmyczko/fnt",
@@ -25,7 +25,6 @@
     "denysdovhan/dotfiles",
     "docker-library/drupal",
     "docker-library/ruby",
-    "ericbuess/claude-code-docs",
     "gentoo/guru",
     "getsolus/packages",
     "harbor-framework/terminal-bench-2",
@@ -56,7 +55,6 @@
     "sclorg/s2i-nodejs-container",
     "sclorg/s2i-php-container",
     "sclorg/s2i-python-container",
-    "serpro69/claude-toolbox",
     "termux/repology-metadata",
     "tinted-theming/schemes",
     "tonistiigi/xx",

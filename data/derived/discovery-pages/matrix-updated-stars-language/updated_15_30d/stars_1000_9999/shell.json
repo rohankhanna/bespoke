@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 213,
-    "concepts": 281,
-    "observations": 283,
-    "repos": 40,
-    "terms": 274
+    "components": 205,
+    "concepts": 266,
+    "observations": 266,
+    "repos": 37,
+    "terms": 261
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "aaron-he-zhu/seo-geo-claude-skills",
-    "alrra/dotfiles",
     "anthropics/claude-agent-sdk-typescript",
     "antonbabenko/pre-commit-terraform",
     "aquasecurity/trivy-action",
@@ -25,13 +24,11 @@
     "bioconda/bioconda-recipes",
     "bitnami/containers",
     "Botspot/pi-apps",
-    "clangd/clangd",
     "conda-forge/miniforge",
     "confluentinc/demo-scene",
     "devcontainers/images",
     "docker-library/docker",
     "docker-library/docs",
-    "docker-library/golang",
     "docker-library/official-images",
     "docker-library/postgres",
     "dtcooper/raspotify",

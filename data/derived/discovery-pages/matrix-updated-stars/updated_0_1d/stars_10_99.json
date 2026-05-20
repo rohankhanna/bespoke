@@ -1,24 +1,20 @@
 {
   "counts": {
-    "components": 75,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 7,
-    "terms": 35
+    "components": 57,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 3,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
     "cloudfoundry/bosh-google-cpi-release",
-    "cloudfoundry/credhub-cli",
-    "compozy/kb",
-    "edge-classic/EDGE-classic",
-    "karafka/example-apps",
-    "nuxt-modules/emotion",
-    "storybook-community/addon-queryparams"
+    "storybook-community/addon-queryparams",
+    "vaporif/parry-guard"
   ]
 }

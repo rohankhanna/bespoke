@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 112,
-    "concepts": 54,
-    "observations": 55,
-    "repos": 16,
-    "terms": 54
+    "components": 143,
+    "concepts": 77,
+    "observations": 77,
+    "repos": 17,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,24 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-05-20T05:54:21.882731+00:00",
   "repo_ids": [
-    "aifoundry-org/riscv-gnu-toolchain",
     "amir684/esp32c3-red-alert",
     "ankane/dist-c",
     "Asmod4n/mruby-fast-json",
     "datalevin/dlmdb",
     "decibri/decibri.cpp",
-    "guoqingbao/flashattn.rs",
+    "gbrobro119-star/darksword-kexploit",
     "HyperLan-git/Synthmania",
     "ikonopistsev/mdbxmou",
-    "jrsoftware/isscint",
+    "lonewolf-jp/convopeq",
     "meelgroup/louvain-community",
     "mybigday/whisper.node",
     "mypyc/librt",
     "objectbox/objectbox-sync-examples",
+    "openssh/openssh-portable-selfhosted",
     "rapidsai/rapids-logger",
+    "stdlib-js/complex-float32-ctor",
     "stdlib-js/ndarray-ctor"
   ]
 }
