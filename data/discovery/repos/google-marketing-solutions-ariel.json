@@ -1,0 +1,67 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-marketing-solutions/ariel",
+      "target": "dubbing-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-marketing-solutions/ariel",
+      "target": "google",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-20T19:16:16.739546+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14954
+    },
+    {
+      "path": "Dockerfile",
+      "size": 497
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4008
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A cutting-edge AI dubbing solution designed to enhance the global reach of digital advertising.",
+    "fork": false,
+    "full_name": "google-marketing-solutions/ariel",
+    "html_url": "https://github.com/google-marketing-solutions/ariel",
+    "language": "Python",
+    "pushed_at": "2026-05-19T22:21:14Z",
+    "stargazers_count": 66,
+    "topics": [
+      "ai",
+      "dubbing-ai",
+      "google"
+    ],
+    "updated_at": "2026-05-20T18:50:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dubbing-ai"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google"
+    }
+  ]
+}

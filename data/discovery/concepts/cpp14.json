@@ -223,6 +223,18 @@
       "source_repo": "boostorg/pfr",
       "status": "candidate-context",
       "text": "This is a C++14 library for very basic reflection that gives you access to structure elements by index and provides other `std::tuple` like methods for user defined types without any macro or boilerplate code."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "embeddedartistry/libcpp",
+      "status": "candidate-context",
+      "text": "Embedded Systems C++ Library Support (Currently wraps libcxx)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddedartistry/libcpp",
+      "status": "candidate-context",
+      "text": "This project supplies a C++ standard library and C++ ABI library that can be used for microcontroller-based embedded systems projects."
     }
   ],
   "candidate_glosses": [
@@ -333,6 +345,12 @@
       "source_repo": "boostorg/pfr",
       "status": "candidate",
       "text": "This is a C++14 library for very basic reflection that gives you access to structure elements by index and provides other `std::tuple` like methods for user defined types without any macro or boilerplate code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddedartistry/libcpp",
+      "status": "candidate",
+      "text": "This project supplies a C++ standard library and C++ ABI library that can be used for microcontroller-based embedded systems projects."
     }
   ],
   "candidate_related_terms": [],
@@ -1060,11 +1078,17 @@
       "observed_at": "2026-05-20T13:09:20.758636+00:00",
       "source_file": null,
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libcpp"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T13:09:20.758636+00:00",
+  "last_seen_at": "2026-05-20T18:55:10.976456+00:00",
   "lexical_providers": [
     "datamuse"
   ],

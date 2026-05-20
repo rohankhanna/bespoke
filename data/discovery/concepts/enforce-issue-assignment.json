@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Enforce issue assignment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pydantic/pydantic",
+      "status": "candidate-context",
+      "text": "Data validation using Python type hints"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydantic/pydantic",
+      "status": "candidate-context",
+      "text": "Enforce issue assignment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydantic/pydantic",
+      "status": "candidate",
+      "text": "Enforce issue assignment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18857,
+      "status": "candidate",
+      "text": "exercise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18857,
+      "status": "candidate",
+      "text": "exercising"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18803,
+      "status": "candidate",
+      "text": "contract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18785,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18758,
+      "status": "candidate",
+      "text": "application"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Enforce issue assignment",
+  "concept_id": "enforce-issue-assignment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": ".github/workflows/enforce-issue-assignment.yml",
+      "source_repo": "pydantic/pydantic"
+    }
+  ],
+  "first_seen_at": "2026-05-20T18:55:10.976456+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-20T18:55:10.976456+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Enforce issue assignment",
+      "sense_id": "enforce-issue-assignment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

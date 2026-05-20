@@ -79,6 +79,30 @@
       "source_repo": "embeddedartistry/libc",
       "status": "candidate-context",
       "text": "Embedded Artistry's `libc` is a stripped-down C standard library implementation targeted for microcontroller-based embedded systems."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "embeddedartistry/gdtoa",
+      "status": "candidate-context",
+      "text": "David M. Gay's floating-point conversion library, improved by Embedded Artistry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddedartistry/gdtoa",
+      "status": "candidate-context",
+      "text": "This repository uses [Architecture Decision Records](https://embeddedartistry.com/blog/2018/4/5/documenting-architectural-decisions-within-our-repositories). Please install [`adr-tools`](https://github.com/npryce/adr-tools) to contribute to architecture decisions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "embeddedartistry/libmemory",
+      "status": "candidate-context",
+      "text": "Embedded systems memory management library. Implementations for malloc(), free(), and other useful memory management functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddedartistry/libmemory",
+      "status": "candidate-context",
+      "text": "Embedded Artistry's `libmemory` is a memory management library for embedded systems. If you have a bare metal system and want to use `malloc()`, this library is for you!"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "embeddedartistry/libc",
       "status": "candidate",
       "text": "Embedded Artistry's `libc` is a stripped-down C standard library implementation targeted for microcontroller-based embedded systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddedartistry/gdtoa",
+      "status": "candidate",
+      "text": "This repository uses [Architecture Decision Records](https://embeddedartistry.com/blog/2018/4/5/documenting-architectural-decisions-within-our-repositories). Please install [`adr-tools`](https://github.com/npryce/adr-tools) to contribute to architecture decisions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddedartistry/libmemory",
+      "status": "candidate",
+      "text": "Embedded Artistry's `libmemory` is a memory management library for embedded systems. If you have a bare metal system and want to use `malloc()`, this library is for you!"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +196,23 @@
       "observed_at": "2026-05-20T07:24:31.235161+00:00",
       "source_file": null,
       "source_repo": "embeddedartistry/libc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": null,
+      "source_repo": "embeddedartistry/gdtoa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T07:24:31.235161+00:00",
+  "last_seen_at": "2026-05-20T18:55:10.976456+00:00",
   "lexical_providers": [
     "datamuse"
   ],

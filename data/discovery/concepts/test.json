@@ -12245,6 +12245,18 @@
       "source_repo": "volodya-lombrozo/neotest-ruby-minitest",
       "status": "candidate-context",
       "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "idiap/coqui-ai-TTS",
+      "status": "candidate-context",
+      "text": "\ud83d\udc38\ud83d\udcac - a deep learning toolkit for Text-to-Speech, battle-tested in research and production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idiap/coqui-ai-TTS",
+      "status": "candidate-context",
+      "text": "test"
     }
   ],
   "candidate_glosses": [
@@ -18455,6 +18467,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "volodya-lombrozo/neotest-ruby-minitest",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idiap/coqui-ai-TTS",
       "status": "candidate",
       "text": "test"
     }
@@ -40219,11 +40237,107 @@
       "observed_at": "2026-05-20T13:09:20.758636+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "wemake-services/flake8-eradicate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "idiap/coqui-ai-TTS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "littlefs-project/littlefs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "littlefs-project/ramrsbd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "littlefs-project/ramcrc32bd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Jamorim-esss/pytest-rich"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "intentee/paddler"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T13:09:20.758636+00:00",
+  "last_seen_at": "2026-05-20T18:55:10.976456+00:00",
   "lexical_providers": [
     "datamuse"
   ],

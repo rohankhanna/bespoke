@@ -240,6 +240,20 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce-issue-assignment.yml",
+      "source_repo": "pydantic/pydantic",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce-issue-assignment.yml",
+      "source_repo": "pydantic/pydantic",
+      "target": "Enforce issue assignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration.yml",
       "source_repo": "pydantic/pydantic",
       "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
@@ -323,20 +337,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-pydantic-people.yml",
-      "source_repo": "pydantic/pydantic",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/update-pydantic-people.yml",
-      "source_repo": "pydantic/pydantic",
-      "target": "Pydantic people update",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "pydantic/pydantic",
@@ -407,6 +407,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-20T07:24:31.235161+00:00",
+  "generated_at": "2026-05-20T18:55:10.976456+00:00",
   "source_repo": "pydantic/pydantic"
 }

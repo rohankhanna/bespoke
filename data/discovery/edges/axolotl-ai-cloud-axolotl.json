@@ -79,6 +79,34 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "axolotl-ai-cloud/axolotl",
       "target": "actions/checkout@v4",
@@ -260,6 +288,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-20T07:24:31.235161+00:00",
+  "generated_at": "2026-05-20T18:55:10.976456+00:00",
   "source_repo": "axolotl-ai-cloud/axolotl"
 }

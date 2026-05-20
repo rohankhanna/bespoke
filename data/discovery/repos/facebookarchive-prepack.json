@@ -792,7 +792,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T07:36:56.851658+00:00",
+  "fetched_at": "2026-05-20T19:13:05.669998+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -813,12 +813,12 @@
     "html_url": "https://github.com/facebookarchive/prepack",
     "language": "JavaScript",
     "pushed_at": "2022-02-11T05:19:57Z",
-    "stargazers_count": 14117,
+    "stargazers_count": 14118,
     "topics": [
       "javascript",
       "optimization"
     ],
-    "updated_at": "2026-05-12T04:59:03Z"
+    "updated_at": "2026-05-20T14:02:57Z"
   },
   "repo_links": [
     {

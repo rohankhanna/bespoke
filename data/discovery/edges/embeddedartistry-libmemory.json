@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "bringup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "embedded-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "freelist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "heap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "libc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "malloc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "malloc-free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "memory-allocation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "portability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "rtos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "threadx",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-20T18:55:10.976456+00:00",
+  "source_repo": "embeddedartistry/libmemory"
+}

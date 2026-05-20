@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "embeddedartistry/gdtoa",
+      "target": "npryce/adr-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/gdtoa",
+      "target": "floating-point",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/gdtoa",
+      "target": "libc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-20T19:16:29.487332+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 523
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "David M. Gay's floating-point conversion library, improved by Embedded Artistry",
+    "fork": true,
+    "full_name": "embeddedartistry/gdtoa",
+    "html_url": "https://github.com/embeddedartistry/gdtoa",
+    "language": "C",
+    "pushed_at": "2024-05-21T17:16:48Z",
+    "stargazers_count": 8,
+    "topics": [
+      "floating-point",
+      "libc"
+    ],
+    "updated_at": "2025-09-22T07:39:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "npryce/adr-tools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository uses [Architecture Decision Records](https://embeddedartistry.com/blog/2018/4/5/documenting-architectural-decisions-within-our-repositories). Please install [`adr-tools`](https://github.com/npryce/adr-tools) to contribute to architecture decisions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "floating-point"
+    },
+    {
+      "context_snippet": "This repository uses [Architecture Decision Records](https://embeddedartistry.com/blog/2018/4/5/documenting-architectural-decisions-within-our-repositories). Please install [`adr-tools`](https://github.com/npryce/adr-tools) to contribute to architecture decisions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libc"
+    }
+  ]
+}

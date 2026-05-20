@@ -136,6 +136,18 @@
       "source_repo": "weaviate/Verba",
       "status": "candidate-context",
       "text": "Docker Build and Push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "idiap/coqui-ai-TTS",
+      "status": "candidate-context",
+      "text": "\ud83d\udc38\ud83d\udcac - a deep learning toolkit for Text-to-Speech, battle-tested in research and production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idiap/coqui-ai-TTS",
+      "status": "candidate-context",
+      "text": "\"Docker build and push\""
     }
   ],
   "candidate_glosses": [
@@ -198,6 +210,12 @@
       "source_repo": "weaviate/Verba",
       "status": "candidate",
       "text": "Docker Build and Push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idiap/coqui-ai-TTS",
+      "status": "candidate",
+      "text": "\"Docker build and push\""
     }
   ],
   "candidate_related_terms": [
@@ -319,11 +337,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/docker-image.yml",
       "source_repo": "weaviate/Verba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "idiap/coqui-ai-TTS"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-20T18:55:10.976456+00:00",
   "lexical_providers": [
     "datamuse"
   ],

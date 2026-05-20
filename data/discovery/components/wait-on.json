@@ -1,7 +1,7 @@
 {
   "component": "wait-on",
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-05-20T07:24:31.235161+00:00",
+  "last_seen_at": "2026-05-20T18:55:10.976456+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

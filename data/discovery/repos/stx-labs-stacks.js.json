@@ -31,11 +31,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "conventional-changelog-conventionalcommits",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "esbuild",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -67,11 +62,6 @@
     },
     {
       "component": "jest-module-name-mapper",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "lerna",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -151,12 +141,32 @@
       "source_file": ".github/workflows/publish.yml"
     },
     {
+      "component": "changesets/action@63a615b9cd06ba9a3e6d13796c7fbcb080a60a0b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
       "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml"
     },
     {
       "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "janniks/pull-request-fixed-header@57bc082ecbd040df344747d5b8644af5fad02c95",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml"
     },
@@ -167,26 +177,6 @@
     },
     {
       "component": "wagoid/commitlint-github-action@b948419dd99f3fd78a6548d48f94e3df7f6bf3ed",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pull-request.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pull-request.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pull-request.yml"
-    },
-    {
-      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pull-request.yml"
-    },
-    {
-      "component": "janniks/pull-request-fixed-header@v1.0.1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-request.yml"
     },
@@ -204,21 +194,6 @@
       "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/version.yml"
-    },
-    {
-      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/version.yml"
-    },
-    {
-      "component": "janniks/changesets-action@main",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/version.yml"
     }
   ],
   "edges": [
@@ -226,14 +201,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "stx-labs/stacks.js",
-      "target": "hirosystems/stacks.js",
+      "target": "hirosystems/connect",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "stx-labs/stacks.js",
-      "target": "hirosystems/connect",
+      "target": "hirosystems/stacks.js",
       "target_type": "repository"
     },
     {
@@ -276,13 +251,6 @@
       "source_file": "package.json",
       "source_repo": "stx-labs/stacks.js",
       "target": "assert",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "stx-labs/stacks.js",
-      "target": "conventional-changelog-conventionalcommits",
       "target_type": "component"
     },
     {
@@ -332,13 +300,6 @@
       "source_file": "package.json",
       "source_repo": "stx-labs/stacks.js",
       "target": "jest-module-name-mapper",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "stx-labs/stacks.js",
-      "target": "lerna",
       "target_type": "component"
     },
     {
@@ -454,6 +415,20 @@
       "target_type": "component"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stx-labs/stacks.js",
+      "target": "changesets/action@63a615b9cd06ba9a3e6d13796c7fbcb080a60a0b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stx-labs/stacks.js",
+      "target": "janniks/pull-request-fixed-header@57bc082ecbd040df344747d5b8644af5fad02c95",
+      "target_type": "component"
+    },
+    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "stx-labs/stacks.js",
@@ -472,20 +447,6 @@
       "source_file": ".github/workflows/pull-request.yml",
       "source_repo": "stx-labs/stacks.js",
       "target": "wagoid/commitlint-github-action@b948419dd99f3fd78a6548d48f94e3df7f6bf3ed",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pull-request.yml",
-      "source_repo": "stx-labs/stacks.js",
-      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pull-request.yml",
-      "source_repo": "stx-labs/stacks.js",
-      "target": "janniks/pull-request-fixed-header@v1.0.1",
       "target_type": "component"
     },
     {
@@ -522,45 +483,17 @@
       "source_repo": "stx-labs/stacks.js",
       "target": "tests",
       "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/version.yml",
-      "source_repo": "stx-labs/stacks.js",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/version.yml",
-      "source_repo": "stx-labs/stacks.js",
-      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/version.yml",
-      "source_repo": "stx-labs/stacks.js",
-      "target": "janniks/changesets-action@main",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/version.yml",
-      "source_repo": "stx-labs/stacks.js",
-      "target": "version",
-      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T07:46:22.166721+00:00",
+  "fetched_at": "2026-05-20T19:29:54.892449+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 5500
+      "size": 5532
     },
     {
       "path": "package.json",
-      "size": 2055
+      "size": 2034
     },
     {
       "path": ".github/workflows/pre-run.yml",
@@ -568,19 +501,15 @@
     },
     {
       "path": ".github/workflows/publish.yml",
-      "size": 2734
+      "size": 5825
     },
     {
       "path": ".github/workflows/pull-request.yml",
-      "size": 3260
+      "size": 621
     },
     {
       "path": ".github/workflows/tests.yml",
-      "size": 1160
-    },
-    {
-      "path": ".github/workflows/version.yml",
-      "size": 1502
+      "size": 1153
     }
   ],
   "related_repositories": [],
@@ -592,10 +521,10 @@
     "full_name": "stx-labs/stacks.js",
     "html_url": "https://github.com/stx-labs/stacks.js",
     "language": "TypeScript",
-    "pushed_at": "2026-05-19T20:08:29Z",
+    "pushed_at": "2026-05-20T17:11:36Z",
     "stargazers_count": 973,
     "topics": [],
-    "updated_at": "2026-05-18T15:53:28Z"
+    "updated_at": "2026-05-20T15:47:17Z"
   },
   "repo_links": [
     {
@@ -633,12 +562,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/tests.yml",
       "term": "tests"
-    },
-    {
-      "context_snippet": "version",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/version.yml",
-      "term": "version"
     }
   ]
 }

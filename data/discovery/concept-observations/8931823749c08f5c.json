@@ -84,7 +84,7 @@
   "normalized_form": "ci-3rd-party",
   "observation_id": "8931823749c08f5c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-20T07:24:31.235161+00:00",
+  "observed_at": "2026-05-20T18:55:10.976456+00:00",
   "observed_text": "CI (3rd-party)",
   "source_context_snippet": "CI (3rd-party)",
   "source_file": ".github/workflows/build-3rd-party.yml",

@@ -130,14 +130,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-website.yml",
       "source_repo": "all-contributors/allcontributors.org",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-website.yml",
       "source_repo": "all-contributors/allcontributors.org",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -179,7 +179,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "all-contributors/allcontributors.org",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -193,14 +193,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/sync-translations.yml",
       "source_repo": "all-contributors/allcontributors.org",
-      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/sync-translations.yml",
       "source_repo": "all-contributors/allcontributors.org",
-      "target": "crowdin/github-action@5587c43063e52090026857d386174d2599ad323b",
+      "target": "crowdin/github-action@8868a33591d21088edfc398968173a3b98d51706",
       "target_type": "component"
     },
     {
@@ -260,6 +260,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-20T07:24:31.235161+00:00",
+  "generated_at": "2026-05-20T18:55:10.976456+00:00",
   "source_repo": "all-contributors/allcontributors.org"
 }

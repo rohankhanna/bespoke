@@ -511,6 +511,11 @@
       "source_file": ".github/workflows/docs-update.yml"
     },
     {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce-issue-assignment.yml"
+    },
+    {
       "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration.yml"
@@ -804,11 +809,6 @@
       "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/third-party.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-pydantic-people.yml"
     }
   ],
   "edges": [
@@ -1052,6 +1052,20 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce-issue-assignment.yml",
+      "source_repo": "pydantic/pydantic",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce-issue-assignment.yml",
+      "source_repo": "pydantic/pydantic",
+      "target": "Enforce issue assignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration.yml",
       "source_repo": "pydantic/pydantic",
       "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
@@ -1135,20 +1149,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-pydantic-people.yml",
-      "source_repo": "pydantic/pydantic",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/update-pydantic-people.yml",
-      "source_repo": "pydantic/pydantic",
-      "target": "Pydantic people update",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "pydantic/pydantic",
@@ -1219,7 +1219,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T07:43:37.964034+00:00",
+  "fetched_at": "2026-05-20T19:25:11.832416+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1250,16 +1250,16 @@
       "size": 4532
     },
     {
+      "path": ".github/workflows/enforce-issue-assignment.yml",
+      "size": 2691
+    },
+    {
       "path": ".github/workflows/integration.yml",
       "size": 1244
     },
     {
       "path": ".github/workflows/third-party.yml",
       "size": 34332
-    },
-    {
-      "path": ".github/workflows/update-pydantic-people.yml",
-      "size": 445
     }
   ],
   "related_repositories": [],
@@ -1271,8 +1271,8 @@
     "full_name": "pydantic/pydantic",
     "html_url": "https://github.com/pydantic/pydantic",
     "language": "Python",
-    "pushed_at": "2026-05-19T21:34:44Z",
-    "stargazers_count": 27810,
+    "pushed_at": "2026-05-20T16:03:48Z",
+    "stargazers_count": 27815,
     "topics": [
       "hints",
       "json-schema",
@@ -1286,7 +1286,7 @@
       "python39",
       "validation"
     ],
-    "updated_at": "2026-05-20T07:35:18Z"
+    "updated_at": "2026-05-20T17:27:20Z"
   },
   "repo_links": [],
   "terms": [
@@ -1315,6 +1315,12 @@
       "term": "Publish Documentation"
     },
     {
+      "context_snippet": "Enforce issue assignment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce-issue-assignment.yml",
+      "term": "Enforce issue assignment"
+    },
+    {
       "context_snippet": "Pydantic Family Integration Tests",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/integration.yml",
@@ -1325,12 +1331,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/third-party.yml",
       "term": "Third party tests"
-    },
-    {
-      "context_snippet": "Pydantic people update",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/update-pydantic-people.yml",
-      "term": "Pydantic people update"
     },
     {
       "context_snippet": "[![CI](https://img.shields.io/github/actions/workflow/status/pydantic/pydantic/ci.yml?branch=main&logo=github&label=CI)](https://github.com/pydantic/pydantic/actions?query=event%3Apush+branch%3Amain+workflow%3ACI)",

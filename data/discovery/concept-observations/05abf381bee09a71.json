@@ -84,7 +84,7 @@
   "normalized_form": "release-claudeswarm-gem",
   "observation_id": "05abf381bee09a71",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-20T07:24:31.235161+00:00",
+  "observed_at": "2026-05-20T18:55:10.976456+00:00",
   "observed_text": "Release ClaudeSwarm Gem",
   "source_context_snippet": "Release ClaudeSwarm Gem",
   "source_file": ".github/workflows/release-claude-swarm.yml",

@@ -48,6 +48,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SYSTRAN/faster-whisper",
+      "target": "softcatala/whisper-ctranslate2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SYSTRAN/faster-whisper",
       "target": "bandas-center/atrain",
       "target_type": "repository"
     },
@@ -56,13 +63,6 @@
       "source_file": "README.md",
       "source_repo": "SYSTRAN/faster-whisper",
       "target": "bbc-esq/ctranslate2-faster-whisper-transcriber",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "SYSTRAN/faster-whisper",
-      "target": "softcatala/open-dubbing",
       "target_type": "repository"
     },
     {
@@ -136,7 +136,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T07:38:38.598455+00:00",
+  "fetched_at": "2026-05-20T19:16:08.476533+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -161,7 +161,7 @@
     "html_url": "https://github.com/SYSTRAN/faster-whisper",
     "language": "Python",
     "pushed_at": "2025-11-19T14:40:46Z",
-    "stargazers_count": 23011,
+    "stargazers_count": 23026,
     "topics": [
       "deep-learning",
       "inference",
@@ -172,7 +172,7 @@
       "transformer",
       "whisper"
     ],
-    "updated_at": "2026-05-20T07:11:33Z"
+    "updated_at": "2026-05-20T19:05:56Z"
   },
   "repo_links": [
     {
@@ -192,7 +192,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "softcatala/open-dubbing",
+      "full_name": "softcatala/whisper-ctranslate2",
       "source_file": "README.md"
     }
   ],

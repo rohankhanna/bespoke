@@ -33215,6 +33215,9 @@
   "dubbing": [
     "dubbing"
   ],
+  "dubbing-ai": [
+    "dubbing-ai"
+  ],
   "dubbo": [
     "dubbo"
   ],
@@ -34623,6 +34626,9 @@
   "embedded-c": [
     "embedded-c"
   ],
+  "embedded-cpp": [
+    "embedded-cpp"
+  ],
   "embedded-database": [
     "embedded-database"
   ],
@@ -34643,6 +34649,9 @@
   ],
   "embedded-rust": [
     "embedded-rust"
+  ],
+  "embedded-software": [
+    "embedded-software"
   ],
   "embedded-string-literals": [
     "embedded-string-literals"
@@ -34949,6 +34958,9 @@
   ],
   "enforce git rules": [
     "enforce-git-rules"
+  ],
+  "enforce issue assignment": [
+    "enforce-issue-assignment"
   ],
   "enforce labels": [
     "enforce-labels"
@@ -38980,6 +38992,9 @@
   ],
   "freelancer": [
     "freelancer"
+  ],
+  "freelist": [
+    "freelist"
   ],
   "freenet": [
     "freenet"
@@ -55516,6 +55531,9 @@
   ],
   "malloc": [
     "malloc"
+  ],
+  "malloc-free": [
+    "malloc-free"
   ],
   "malware": [
     "malware"
@@ -90513,6 +90531,9 @@
   ],
   "threadsafe": [
     "threadsafe"
+  ],
+  "threadx": [
+    "threadx"
   ],
   "threat-detection": [
     "threat-detection"

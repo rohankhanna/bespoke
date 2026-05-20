@@ -84,7 +84,7 @@
   "normalized_form": "performance-comparison-for-pull-requests",
   "observation_id": "f693b5244ff0a372",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-20T07:24:31.235161+00:00",
+  "observed_at": "2026-05-20T18:55:10.976456+00:00",
   "observed_text": "Performance Comparison for Pull Requests",
   "source_context_snippet": "Performance Comparison for Pull Requests",
   "source_file": ".github/workflows/performance-pr.yml",

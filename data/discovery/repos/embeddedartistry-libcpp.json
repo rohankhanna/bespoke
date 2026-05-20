@@ -1,0 +1,154 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "embeddedartistry/libcpp",
+      "target": "embeddedartistry/arm-gcc-bleeding-edge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "embeddedartistry/libcpp",
+      "target": "embeddedartistry/libmemory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libcpp",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libcpp",
+      "target": "cpp14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libcpp",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libcpp",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libcpp",
+      "target": "embedded-cpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libcpp",
+      "target": "embedded-software",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libcpp",
+      "target": "embedded-systems",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-20T19:16:32.240607+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13301
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Embedded Systems C++ Library Support (Currently wraps libcxx)",
+    "fork": false,
+    "full_name": "embeddedartistry/libcpp",
+    "html_url": "https://github.com/embeddedartistry/libcpp",
+    "language": "C++",
+    "pushed_at": "2026-04-12T20:02:02Z",
+    "stargazers_count": 96,
+    "topics": [
+      "cpp",
+      "cpp11",
+      "cpp14",
+      "cpp17",
+      "embedded",
+      "embedded-cpp",
+      "embedded-software",
+      "embedded-systems"
+    ],
+    "updated_at": "2025-12-24T17:34:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "embeddedartistry/arm-gcc-bleeding-edge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "embeddedartistry/libmemory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This project supplies a C++ standard library and C++ ABI library that can be used for microcontroller-based embedded systems projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp11"
+    },
+    {
+      "context_snippet": "This project supplies a C++ standard library and C++ ABI library that can be used for microcontroller-based embedded systems projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp14"
+    },
+    {
+      "context_snippet": "This project supplies a C++ standard library and C++ ABI library that can be used for microcontroller-based embedded systems projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17"
+    },
+    {
+      "context_snippet": "This project supplies a C++ standard library and C++ ABI library that can be used for microcontroller-based embedded systems projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded"
+    },
+    {
+      "context_snippet": "This project supplies a C++ standard library and C++ ABI library that can be used for microcontroller-based embedded systems projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded-cpp"
+    },
+    {
+      "context_snippet": "This project supplies a C++ standard library and C++ ABI library that can be used for microcontroller-based embedded systems projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded-software"
+    },
+    {
+      "context_snippet": "This project supplies a C++ standard library and C++ ABI library that can be used for microcontroller-based embedded systems projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded-systems"
+    }
+  ]
+}

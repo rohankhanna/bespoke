@@ -1,7 +1,7 @@
 {
   "component": "@nuxt/typescript-build",
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
-  "last_seen_at": "2026-05-20T07:24:31.235161+00:00",
+  "last_seen_at": "2026-05-20T18:55:10.976456+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

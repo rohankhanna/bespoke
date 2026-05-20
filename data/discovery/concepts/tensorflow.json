@@ -6658,11 +6658,17 @@
       "observed_at": "2026-05-20T13:09:20.758636+00:00",
       "source_file": null,
       "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T13:09:20.758636+00:00",
+  "last_seen_at": "2026-05-20T18:55:10.976456+00:00",
   "lexical_providers": [
     "datamuse"
   ],

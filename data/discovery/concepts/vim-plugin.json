@@ -3142,11 +3142,23 @@
       "observed_at": "2026-05-20T13:09:20.758636+00:00",
       "source_file": null,
       "source_repo": "andymass/vim-matchup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": null,
+      "source_repo": "max-baz/lightline-ale"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T13:09:20.758636+00:00",
+  "last_seen_at": "2026-05-20T18:55:10.976456+00:00",
   "lexical_providers": [
     "datamuse"
   ],

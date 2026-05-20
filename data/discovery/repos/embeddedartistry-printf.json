@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-20T19:16:41.552765+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23515
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tiny, fast(ish), self-contained and fully loaded printf, sprinf etc. implementation, mainly for embedded systems.",
+    "fork": true,
+    "full_name": "embeddedartistry/printf",
+    "html_url": "https://github.com/embeddedartistry/printf",
+    "language": "C",
+    "pushed_at": "2026-03-17T19:48:17Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2026-05-16T14:36:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

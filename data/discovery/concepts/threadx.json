@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "threadx"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "embeddedartistry/libmemory",
+      "status": "candidate-context",
+      "text": "Embedded systems memory management library. Implementations for malloc(), free(), and other useful memory management functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddedartistry/libmemory",
+      "status": "candidate-context",
+      "text": "Embedded Artistry's `libmemory` is a memory management library for embedded systems. If you have a bare metal system and want to use `malloc()`, this library is for you!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddedartistry/libmemory",
+      "status": "candidate",
+      "text": "Embedded Artistry's `libmemory` is a memory management library for embedded systems. If you have a bare metal system and want to use `malloc()`, this library is for you!"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "rtlinux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "freertos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "native posix thread library"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "cosmos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "atom"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "threadx",
+  "concept_id": "threadx",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory"
+    }
+  ],
+  "first_seen_at": "2026-05-20T18:55:10.976456+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-20T18:55:10.976456+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "threadx",
+      "sense_id": "threadx#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

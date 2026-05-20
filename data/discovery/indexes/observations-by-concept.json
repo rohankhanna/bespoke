@@ -15671,7 +15671,8 @@
     "50821d0366a64e32"
   ],
   "bringup": [
-    "6fb62a1a0fda01e0"
+    "6fb62a1a0fda01e0",
+    "861196b0e028c709"
   ],
   "broadcast": [
     "2ba757ef6695f168",
@@ -26113,6 +26114,7 @@
     "6712fd5d8b2fde13"
   ],
   "check-code-quality": [
+    "902bf1c56366ab0e",
     "afb67474e716f043",
     "feab91fce8a0fc3f"
   ],
@@ -35127,6 +35129,7 @@
     "93337ffc8b773046",
     "938b65de144478e4",
     "93a10bdfd1593f39",
+    "93d48ded8d254584",
     "93d8dac65d99aa91",
     "93e47da764f371b8",
     "9438c07eb43ac9c7",
@@ -41579,6 +41582,7 @@
     "6d9553c91522fba1",
     "750d0042524dcb4e",
     "82e880e5ffcc677f",
+    "82f51c6896df6713",
     "93681be65b2ff85b",
     "954ad588a7c7dbcc",
     "9f24ac187934d474",
@@ -41599,6 +41603,7 @@
     "4a88233ad979909a",
     "4acd67e647633cb5",
     "501377bcb564c8a5",
+    "516e9c4fbbf6e50e",
     "5c77a8efcd7b7e4b",
     "9a87edaf078c6767",
     "af5695158330ea3e",
@@ -41632,6 +41637,7 @@
     "9873da265d9366d5",
     "9922e31ec09d2768",
     "a1fba0331c5b59be",
+    "ab633be9b3c1eacd",
     "ac0bad0b8d8a66c1",
     "adc9b8176498a1ea",
     "c3b9e252eb12d542",
@@ -53453,6 +53459,7 @@
     "2e8256ba606aeccc",
     "3322f6857380a09d",
     "4aaa1124d9ac8ea2",
+    "5093658b65318b2f",
     "5fe90a051d74729b",
     "7f9e27a6a23d3a4e",
     "a91b22ca71adaba9",
@@ -56054,6 +56061,9 @@
   "dubbing": [
     "54099bbdf3fd19b8"
   ],
+  "dubbing-ai": [
+    "275fe665b19858ec"
+  ],
   "dubbo": [
     "0500fc21374c1711",
     "2c48f0740ba76244",
@@ -58226,6 +58236,7 @@
     "c627aee4a1ce0b6a",
     "cd5190d284e3cdaa",
     "d0afe16644908fae",
+    "dae972eb2bcc44b5",
     "e4a839ba3fe56491",
     "e9ea18c25205b4cf",
     "ebb74a6ab994d04b",
@@ -58238,6 +58249,9 @@
   "embedded-c": [
     "30ed9fc95bee1f4f",
     "52cff3342c89b0bb"
+  ],
+  "embedded-cpp": [
+    "f03bbbfef3a905cf"
   ],
   "embedded-database": [
     "226304af94441fe5",
@@ -58267,16 +58281,21 @@
   "embedded-rust": [
     "cc06ba358bb3f9b1"
   ],
+  "embedded-software": [
+    "55c3d865ec4148bb"
+  ],
   "embedded-string-literals": [
     "0f3d7aba6e8c3442"
   ],
   "embedded-systems": [
+    "03ac1c8b07bc96ed",
     "1fb8a8b588ce3196",
     "23f50219addf8938",
     "4488c1f179c2aebb",
     "4b3f626310b4e9b9",
     "50e95cb8d4bd4155",
     "6eb214bf6ce05abb",
+    "8bb9428518618eaa",
     "d8c4ed320454c97a",
     "f87e4dfc82f600fa"
   ],
@@ -58778,6 +58797,9 @@
   ],
   "enforce-git-rules": [
     "2451821d373a2e27"
+  ],
+  "enforce-issue-assignment": [
+    "076f7ac5726d7c4c"
   ],
   "enforce-labels": [
     "80d1ffdbbbec4928"
@@ -63652,6 +63674,7 @@
   "floating-point": [
     "0be482669e71d06e",
     "0df41283052b2e08",
+    "3f77e85d8d491bdc",
     "9e85bbca37f85f84",
     "c2674580e26a20fe"
   ],
@@ -65148,6 +65171,9 @@
   ],
   "freelancer": [
     "d19066b32c726fd9"
+  ],
+  "freelist": [
+    "dec7354b1ef7a854"
   ],
   "freenet": [
     "b6e0ef00c64f6909"
@@ -70741,6 +70767,7 @@
     "1e4a3822bb84aff0",
     "247ef1d0f7893efa",
     "273cbc1854f885ae",
+    "35b7d239631ba790",
     "6aea614f29e21630",
     "6e4dd65be615b6e4",
     "6f04a407e8507779",
@@ -74978,6 +75005,7 @@
     "b07cc228e03f7b4a"
   ],
   "heap": [
+    "0e89e3fe5bf31067",
     "3e4aa0c3afdf131b",
     "5cfeec25dd5c79ca"
   ],
@@ -88231,6 +88259,8 @@
   "libc": [
     "19ddbe63b0827842",
     "20145ba90b24f6fc",
+    "285f355fb1541a82",
+    "45a1d0ab86b3c0ca",
     "6d6ad33ddbd3e941",
     "bee250dbb6ac84f7",
     "dd921cabe6f8e513",
@@ -95355,7 +95385,11 @@
   ],
   "malloc": [
     "5433fa891f977bb9",
+    "919196355d1c94ab",
     "f4fc9c5557d0e251"
+  ],
+  "malloc-free": [
+    "e0dad21d7c1aca74"
   ],
   "malware": [
     "335cb1ea1f1ffd97",
@@ -97481,6 +97515,7 @@
   ],
   "memory-allocation": [
     "421cd34d138352d7",
+    "42eb8838ac25ce05",
     "586675e189d44292",
     "dffaef7cd8ecfdad"
   ],
@@ -116245,6 +116280,7 @@
   "portability": [
     "6283c00bcd042cb5",
     "b9f27bfae0d2ca80",
+    "c0cf5e7db35778b7",
     "e634a9d0ca6d2e2c"
   ],
   "portable": [
@@ -135320,6 +135356,7 @@
     "92e9f9c5ddda9ff7"
   ],
   "rtos": [
+    "365665dc8705d05d",
     "d4d84f0f98756fa3"
   ],
   "rtree": [
@@ -145712,6 +145749,7 @@
     "bd93592d635eeb17",
     "cb9d80009edf0831",
     "cc55a1a2b7d85be0",
+    "cca85dc5b286b9b5",
     "ce10def198e02f84",
     "d0e62dc4ba3064da",
     "d1bd8e3340a3bc84",
@@ -148674,7 +148712,8 @@
     "997b2f4ac4bffedf",
     "a6343adf3a33fba0",
     "a8ef06ef89cfc6af",
-    "ad59dc75adbae5ca"
+    "ad59dc75adbae5ca",
+    "fde940cdf08bcfc4"
   ],
   "style-checker": [
     "497eb6f61a5b1fe2"
@@ -153831,6 +153870,7 @@
     "c5139bfdc6551b35",
     "c5470a05f55536a8",
     "c5e70f71770ab76d",
+    "c5ec0c8799f264b4",
     "c61425e4da806d9d",
     "c625708ea1925e70",
     "c6829dcf33c6ff2c",
@@ -157292,6 +157332,7 @@
     "36e8e894bf038fad",
     "37450b1452e08cc6",
     "3a00e04baa8d8bb4",
+    "3d476a73eca777a2",
     "408f9f3b08c1d6fd",
     "51533d01ff5d12b0",
     "563d1811523ed67e",
@@ -157874,6 +157915,9 @@
   "threadsafe": [
     "22b18c7f984f8273",
     "24c2c1a73840f228"
+  ],
+  "threadx": [
+    "7f7257910e86c183"
   ],
   "threat-detection": [
     "5eeff0f2c55237c9"

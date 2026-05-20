@@ -23,13 +23,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "litedb-org/LiteDB",
-      "target": "zaid-ajaj/litedb.fsharp",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "litedb-org/LiteDB",
@@ -65,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T07:39:15.891744+00:00",
+  "fetched_at": "2026-05-20T19:17:33.095006+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -106,11 +99,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "mbdavid/litedb.studio",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "zaid-ajaj/litedb.fsharp",
       "source_file": "README.md"
     }
   ],

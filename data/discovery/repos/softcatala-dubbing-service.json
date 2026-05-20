@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-20T19:16:28.145234+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 845
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Softcatala/dubbing-service",
+    "html_url": "https://github.com/Softcatala/dubbing-service",
+    "language": "Python",
+    "pushed_at": "2025-06-26T05:29:40Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-05-07T01:46:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

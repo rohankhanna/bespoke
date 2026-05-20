@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-marketing-solutions/ariel",
+      "target": "dubbing-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-marketing-solutions/ariel",
+      "target": "google",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-20T18:55:10.976456+00:00",
+  "source_repo": "google-marketing-solutions/ariel"
+}

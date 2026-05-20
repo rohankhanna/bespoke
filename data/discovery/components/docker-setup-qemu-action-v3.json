@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-qemu-action@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-20T13:09:20.758636+00:00",
+  "last_seen_at": "2026-05-20T18:55:10.976456+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1562,6 +1562,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/CI.yml",
       "source_repo": "MahmoudAshraf97/ctc-forced-aligner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "idiap/coqui-ai-TTS"
     }
   ]
 }

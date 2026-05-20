@@ -55,6 +55,18 @@
       "source_repo": "mourner/robust-predicates",
       "status": "candidate-context",
       "text": "Fast robust predicates for computational geometry in JavaScript. Provides reliable 2D and 3D point orientation tests (`orient2d`, `orient3d`, `incircle`, `insphere`) that are not susceptible to floating point errors (without sacrificing performance). A modern port of [Jonathan R\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "embeddedartistry/gdtoa",
+      "status": "candidate-context",
+      "text": "David M. Gay's floating-point conversion library, improved by Embedded Artistry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddedartistry/gdtoa",
+      "status": "candidate-context",
+      "text": "This repository uses [Architecture Decision Records](https://embeddedartistry.com/blog/2018/4/5/documenting-architectural-decisions-within-our-repositories). Please install [`adr-tools`](https://github.com/npryce/adr-tools) to contribute to architecture decisions."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "mourner/robust-predicates",
       "status": "candidate",
       "text": "Fast robust predicates for computational geometry in JavaScript. Provides reliable 2D and 3D point orientation tests (`orient2d`, `orient3d`, `incircle`, `insphere`) that are not susceptible to floating point errors (without sacrificing performance). A modern port of [Jonathan R\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddedartistry/gdtoa",
+      "status": "candidate",
+      "text": "This repository uses [Architecture Decision Records](https://embeddedartistry.com/blog/2018/4/5/documenting-architectural-decisions-within-our-repositories). Please install [`adr-tools`](https://github.com/npryce/adr-tools) to contribute to architecture decisions."
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "mourner/robust-predicates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": null,
+      "source_repo": "embeddedartistry/gdtoa"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-20T18:55:10.976456+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Data validation using Python type hints"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Enforce issue assignment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Enforce issue assignment"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18857,
+      "status": "candidate",
+      "text": "exercise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18857,
+      "status": "candidate",
+      "text": "exercising"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18803,
+      "status": "candidate",
+      "text": "contract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18785,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18758,
+      "status": "candidate",
+      "text": "application"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Enforce issue assignment",
+      "sense_id": "enforce-issue-assignment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "enforce-issue-assignment",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "enforce-issue-assignment",
+  "observation_id": "076f7ac5726d7c4c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-20T18:55:10.976456+00:00",
+  "observed_text": "Enforce issue assignment",
+  "source_context_snippet": "Enforce issue assignment",
+  "source_file": ".github/workflows/enforce-issue-assignment.yml",
+  "source_repo": "pydantic/pydantic",
+  "source_repo_description": "Data validation using Python type hints"
+}

@@ -1,0 +1,185 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "bringup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "embedded-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "freelist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "heap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "libc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "malloc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "malloc-free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "memory-allocation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "portability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "rtos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddedartistry/libmemory",
+      "target": "threadx",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-20T19:16:36.059109+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17028
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Embedded systems memory management library. Implementations for malloc(), free(), and other useful memory management functions",
+    "fork": false,
+    "full_name": "embeddedartistry/libmemory",
+    "html_url": "https://github.com/embeddedartistry/libmemory",
+    "language": "C",
+    "pushed_at": "2026-01-21T18:02:50Z",
+    "stargazers_count": 278,
+    "topics": [
+      "bringup",
+      "c",
+      "embedded-systems",
+      "freelist",
+      "heap",
+      "libc",
+      "malloc",
+      "malloc-free",
+      "memory-allocation",
+      "portability",
+      "rtos",
+      "threadx"
+    ],
+    "updated_at": "2026-05-17T06:18:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Embedded Artistry's `libmemory` is a memory management library for embedded systems. If you have a bare metal system and want to use `malloc()`, this library is for you!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bringup"
+    },
+    {
+      "context_snippet": "Embedded Artistry's `libmemory` is a memory management library for embedded systems. If you have a bare metal system and want to use `malloc()`, this library is for you!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded-systems"
+    },
+    {
+      "context_snippet": "Embedded Artistry's `libmemory` is a memory management library for embedded systems. If you have a bare metal system and want to use `malloc()`, this library is for you!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "freelist"
+    },
+    {
+      "context_snippet": "Embedded Artistry's `libmemory` is a memory management library for embedded systems. If you have a bare metal system and want to use `malloc()`, this library is for you!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heap"
+    },
+    {
+      "context_snippet": "Embedded Artistry's `libmemory` is a memory management library for embedded systems. If you have a bare metal system and want to use `malloc()`, this library is for you!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libc"
+    },
+    {
+      "context_snippet": "Embedded Artistry's `libmemory` is a memory management library for embedded systems. If you have a bare metal system and want to use `malloc()`, this library is for you!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "malloc"
+    },
+    {
+      "context_snippet": "Embedded Artistry's `libmemory` is a memory management library for embedded systems. If you have a bare metal system and want to use `malloc()`, this library is for you!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "malloc-free"
+    },
+    {
+      "context_snippet": "Embedded Artistry's `libmemory` is a memory management library for embedded systems. If you have a bare metal system and want to use `malloc()`, this library is for you!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory-allocation"
+    },
+    {
+      "context_snippet": "Embedded Artistry's `libmemory` is a memory management library for embedded systems. If you have a bare metal system and want to use `malloc()`, this library is for you!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portability"
+    },
+    {
+      "context_snippet": "Embedded Artistry's `libmemory` is a memory management library for embedded systems. If you have a bare metal system and want to use `malloc()`, this library is for you!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rtos"
+    },
+    {
+      "context_snippet": "Embedded Artistry's `libmemory` is a memory management library for embedded systems. If you have a bare metal system and want to use `malloc()`, this library is for you!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "threadx"
+    }
+  ]
+}

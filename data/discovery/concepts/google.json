@@ -319,6 +319,18 @@
       "source_repo": "kubernetes/ingress-gce",
       "status": "candidate-context",
       "text": "[![GitHub release](https://img.shields.io/github/release/kubernetes/ingress-gce.svg)](https://github.com/kubernetes/ingress-gce/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-marketing-solutions/ariel",
+      "status": "candidate-context",
+      "text": "A cutting-edge AI dubbing solution designed to enhance the global reach of digital advertising."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-marketing-solutions/ariel",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +489,12 @@
       "source_repo": "kubernetes/ingress-gce",
       "status": "candidate",
       "text": "[![GitHub release](https://img.shields.io/github/release/kubernetes/ingress-gce.svg)](https://github.com/kubernetes/ingress-gce/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-marketing-solutions/ariel",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -1198,11 +1216,17 @@
       "observed_at": "2026-05-20T13:09:20.758636+00:00",
       "source_file": null,
       "source_repo": "firebase/flutterfire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": null,
+      "source_repo": "google-marketing-solutions/ariel"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T13:09:20.758636+00:00",
+  "last_seen_at": "2026-05-20T18:55:10.976456+00:00",
   "lexical_providers": [
     "datamuse"
   ],

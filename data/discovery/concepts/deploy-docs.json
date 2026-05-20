@@ -3027,11 +3027,23 @@
       "observed_at": "2026-05-20T13:09:20.758636+00:00",
       "source_file": ".github/workflows/deploy-docs.yml",
       "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "redis/redis-om-spring"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "callstack/react-native-builder-bob"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T13:09:20.758636+00:00",
+  "last_seen_at": "2026-05-20T18:55:10.976456+00:00",
   "lexical_providers": [
     "datamuse"
   ],

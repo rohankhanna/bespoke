@@ -406,11 +406,17 @@
       "observed_at": "2026-05-20T07:24:31.235161+00:00",
       "source_file": ".github/workflows/auto-sync.yaml",
       "source_repo": "flagos-ai/FlagCX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-20T18:55:10.976456+00:00",
+      "source_file": ".github/workflows/auto-sync.yaml",
+      "source_repo": "flagos-ai/FlagCX"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T07:24:31.235161+00:00",
+  "last_seen_at": "2026-05-20T18:55:10.976456+00:00",
   "lexical_providers": [
     "datamuse"
   ],

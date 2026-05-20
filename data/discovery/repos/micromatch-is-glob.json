@@ -49,6 +49,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/is-glob",
+      "target": "update/update",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "micromatch/is-glob",
@@ -168,7 +175,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T07:34:29.057507+00:00",
+  "fetched_at": "2026-05-20T19:08:20.842693+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -224,6 +231,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "node-base/base",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "update/update",
       "source_file": "README.md"
     }
   ],
