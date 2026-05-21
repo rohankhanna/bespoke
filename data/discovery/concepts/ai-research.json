@@ -43,6 +43,18 @@
       "source_repo": "danielrosehill/Open-Research-Workspaces-Index",
       "status": "candidate-context",
       "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AMD-AGI/Nitro-1",
+      "status": "candidate-context",
+      "text": "This repo provides a working re-implementation of Latent Adversarial Diffusion Distillation by AMD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AMD-AGI/Nitro-1",
+      "status": "candidate-context",
+      "text": "<div>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "danielrosehill/Open-Research-Workspaces-Index",
       "status": "candidate",
       "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AMD-AGI/Nitro-1",
+      "status": "candidate",
+      "text": "<div>"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-06T12:51:12.481137+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Open-Research-Workspaces-Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T18:45:28.518020+00:00",
+      "source_file": null,
+      "source_repo": "AMD-AGI/Nitro-1"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-06T12:51:12.481137+00:00",
+  "last_seen_at": "2026-05-21T18:45:28.518020+00:00",
   "lexical_providers": [
     "datamuse"
   ],

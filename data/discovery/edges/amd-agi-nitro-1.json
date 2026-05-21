@@ -13,8 +13,29 @@
       "source_repo": "AMD-AGI/Nitro-1",
       "target": "amd-aig-aima/nitro-t",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AMD-AGI/Nitro-1",
+      "target": "ai-research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AMD-AGI/Nitro-1",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AMD-AGI/Nitro-1",
+      "target": "image-generation",
+      "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-21T07:28:23.617453+00:00",
+  "generated_at": "2026-05-21T18:45:28.518020+00:00",
   "source_repo": "AMD-AGI/Nitro-1"
 }

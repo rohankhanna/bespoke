@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This repo provides a working re-implementation of Latent Adversarial Diffusion Distillation by AMD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-generation",
+      "sense_id": "image-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "image-generation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "image-generation",
+  "observation_id": "2bb7ed07eb6a1137",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-21T18:45:28.518020+00:00",
+  "observed_text": "image-generation",
+  "source_context_snippet": "<div>",
+  "source_file": null,
+  "source_repo": "AMD-AGI/Nitro-1",
+  "source_repo_description": "This repo provides a working re-implementation of Latent Adversarial Diffusion Distillation by AMD"
+}

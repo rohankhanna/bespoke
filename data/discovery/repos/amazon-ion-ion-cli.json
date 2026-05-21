@@ -101,7 +101,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T10:18:46.421375+00:00",
+  "fetched_at": "2026-05-21T18:48:23.127221+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -133,10 +133,10 @@
     "full_name": "amazon-ion/ion-cli",
     "html_url": "https://github.com/amazon-ion/ion-cli",
     "language": "Rust",
-    "pushed_at": "2026-05-20T19:11:44Z",
+    "pushed_at": "2026-05-21T15:29:02Z",
     "stargazers_count": 47,
     "topics": [],
-    "updated_at": "2026-05-20T19:11:50Z"
+    "updated_at": "2026-05-21T15:35:48Z"
   },
   "repo_links": [
     {

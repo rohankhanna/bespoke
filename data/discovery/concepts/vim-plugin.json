@@ -3202,11 +3202,29 @@
       "observed_at": "2026-05-21T07:28:23.617453+00:00",
       "source_file": null,
       "source_repo": "andymass/vim-matchup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T18:45:28.518020+00:00",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T18:45:28.518020+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/dashboard-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T18:45:28.518020+00:00",
+      "source_file": null,
+      "source_repo": "andymass/vim-matchup"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
+  "last_seen_at": "2026-05-21T18:45:28.518020+00:00",
   "lexical_providers": [
     "datamuse"
   ],

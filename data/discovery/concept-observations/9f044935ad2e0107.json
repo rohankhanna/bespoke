@@ -84,7 +84,7 @@
   "normalized_form": "gradle",
   "observation_id": "9f044935ad2e0107",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-21T07:28:23.617453+00:00",
+  "observed_at": "2026-05-21T18:45:28.518020+00:00",
   "observed_text": "gradle",
   "source_context_snippet": "[![Build Status](https://github.com/awslabs/smithy-gradle-plugin/workflows/ci/badge.svg)](https://github.com/awslabs/smithy-gradle-plugin/actions/workflows/ci.yml)",
   "source_file": null,

@@ -84,7 +84,7 @@
   "normalized_form": "common-all-tests",
   "observation_id": "4578361b3385ddc5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-21T07:28:23.617453+00:00",
+  "observed_at": "2026-05-21T18:45:28.518020+00:00",
   "observed_text": "Common All Tests",
   "source_context_snippet": "Common All Tests",
   "source_file": ".github/workflows/all_tests_common.yml",

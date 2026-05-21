@@ -29,6 +29,34 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-api-docs.yml",
+      "source_repo": "modelscope/FunASR",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-api-docs.yml",
+      "source_repo": "modelscope/FunASR",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-api-docs.yml",
+      "source_repo": "modelscope/FunASR",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-api-docs.yml",
+      "source_repo": "modelscope/FunASR",
+      "target": "Update API Documentation",
+      "target_type": "term"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunASR",
@@ -127,6 +155,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-21T07:28:23.617453+00:00",
+  "generated_at": "2026-05-21T18:45:28.518020+00:00",
   "source_repo": "modelscope/FunASR"
 }

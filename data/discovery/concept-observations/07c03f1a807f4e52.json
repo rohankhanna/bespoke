@@ -84,7 +84,7 @@
   "normalized_form": "build-ik-cpu",
   "observation_id": "07c03f1a807f4e52",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-21T07:28:23.617453+00:00",
+  "observed_at": "2026-05-21T18:45:28.518020+00:00",
   "observed_text": "Build ik CPU",
   "source_context_snippet": "Build ik CPU",
   "source_file": ".github/workflows/build-portable-release-ik.yml",

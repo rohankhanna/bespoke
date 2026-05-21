@@ -1,7 +1,7 @@
 {
   "component": "peaceiris/actions-gh-pages@v3",
   "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
-  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
+  "last_seen_at": "2026-05-21T18:45:28.518020+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1007,6 +1007,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "evandempsey/podcast-llm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-api-docs.yml",
+      "source_repo": "modelscope/FunASR"
     }
   ]
 }

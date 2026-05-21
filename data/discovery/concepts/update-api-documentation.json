@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update API Documentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate-context",
+      "text": "A Fundamental End-to-End Speech Recognition Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Recognition, Voice Activity Detection, Text Post-processing etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate-context",
+      "text": "Update API Documentation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate",
+      "text": "Update API Documentation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18942,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18875,
+      "status": "candidate",
+      "text": "nail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18875,
+      "status": "candidate",
+      "text": "outtake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18867,
+      "status": "candidate",
+      "text": "shim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18798,
+      "status": "candidate",
+      "text": "daniel"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update API Documentation",
+  "concept_id": "update-api-documentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-21T18:45:28.518020+00:00",
+      "source_file": ".github/workflows/update-api-docs.yml",
+      "source_repo": "modelscope/FunASR"
+    }
+  ],
+  "first_seen_at": "2026-05-21T18:45:28.518020+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-21T18:45:28.518020+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update API Documentation",
+      "sense_id": "update-api-documentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

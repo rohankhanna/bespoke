@@ -1219,6 +1219,18 @@
       "source_repo": "Rongjiehuang/ProDiff",
       "status": "candidate-context",
       "text": "matplotlib librosa==0.8.0 tqdm pandas numba==0.53.1 numpy scipy==1.3 PyYAML tensorboardX pyloudnorm setuptools>=41.0.0 g2p_en resemblyzer webrtcvad tensorboard==2.6.0 scikit-learn==0.24.1 scikit-image==0.16.2 textgrid jiwer pycwt PyWavelets praat-parselmouth==0.3.3 jieba einops \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AMD-AGI/Nitro-1",
+      "status": "candidate-context",
+      "text": "This repo provides a working re-implementation of Latent Adversarial Diffusion Distillation by AMD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AMD-AGI/Nitro-1",
+      "status": "candidate-context",
+      "text": "<div>"
     }
   ],
   "candidate_glosses": [
@@ -1827,6 +1839,12 @@
       "source_repo": "Rongjiehuang/ProDiff",
       "status": "candidate",
       "text": "matplotlib librosa==0.8.0 tqdm pandas numba==0.53.1 numpy scipy==1.3 PyYAML tensorboardX pyloudnorm setuptools>=41.0.0 g2p_en resemblyzer webrtcvad tensorboard==2.6.0 scikit-learn==0.24.1 scikit-image==0.16.2 textgrid jiwer pycwt PyWavelets praat-parselmouth==0.3.3 jieba einops \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AMD-AGI/Nitro-1",
+      "status": "candidate",
+      "text": "<div>"
     }
   ],
   "candidate_related_terms": [],
@@ -6760,11 +6778,89 @@
       "observed_at": "2026-05-21T07:28:23.617453+00:00",
       "source_file": null,
       "source_repo": "zai-org/ImageReward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T18:45:28.518020+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T18:45:28.518020+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T18:45:28.518020+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T18:45:28.518020+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T18:45:28.518020+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T18:45:28.518020+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T18:45:28.518020+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T18:45:28.518020+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T18:45:28.518020+00:00",
+      "source_file": null,
+      "source_repo": "AMD-AGI/Nitro-1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T18:45:28.518020+00:00",
+      "source_file": null,
+      "source_repo": "InternScience/AdaptiveDiffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T18:45:28.518020+00:00",
+      "source_file": null,
+      "source_repo": "showlab/VisorGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T18:45:28.518020+00:00",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/Attend-and-Excite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T18:45:28.518020+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/ImageReward"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
+  "last_seen_at": "2026-05-21T18:45:28.518020+00:00",
   "lexical_providers": [
     "datamuse"
   ],

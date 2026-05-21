@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T10:36:35.183071+00:00",
+  "fetched_at": "2026-05-21T18:51:46.839263+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -69,14 +69,14 @@
     "html_url": "https://github.com/FoundationVision/ByteTrack",
     "language": "Python",
     "pushed_at": "2024-06-19T11:45:05Z",
-    "stargazers_count": 6383,
+    "stargazers_count": 6384,
     "topics": [
       "deployment",
       "multi-object-tracking",
       "pytorch",
       "real-time"
     ],
-    "updated_at": "2026-05-20T23:29:50Z"
+    "updated_at": "2026-05-21T12:59:54Z"
   },
   "repo_links": [
     {

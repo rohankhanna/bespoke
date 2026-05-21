@@ -78,13 +78,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "fla-org/flash-linear-attention",
-      "target": "opennlplab/lightnet",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmark-comment.yml",
       "source_repo": "fla-org/flash-linear-attention",
@@ -260,7 +253,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T10:39:49.858040+00:00",
+  "fetched_at": "2026-05-21T18:54:17.218716+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -322,13 +315,7 @@
     ],
     "updated_at": "2026-05-21T08:15:28Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "opennlplab/lightnet",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Post benchmark comment",

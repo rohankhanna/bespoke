@@ -30,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T11:40:04.195432+00:00",
+  "fetched_at": "2026-05-21T20:06:51.245037+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -51,14 +51,14 @@
     "html_url": "https://github.com/unknownue/vulkan-tutorial-rust",
     "language": "Rust",
     "pushed_at": "2023-06-24T05:33:08Z",
-    "stargazers_count": 533,
+    "stargazers_count": 532,
     "topics": [
       "ash",
       "rust",
       "tutorial",
       "vulkan"
     ],
-    "updated_at": "2026-05-19T18:42:43Z"
+    "updated_at": "2026-05-21T18:51:35Z"
   },
   "repo_links": [
     {

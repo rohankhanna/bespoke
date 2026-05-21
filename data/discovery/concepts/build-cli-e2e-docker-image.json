@@ -316,11 +316,17 @@
       "observed_at": "2026-05-21T07:28:23.617453+00:00",
       "source_file": ".github/workflows/build-cli-e2e-image.yml",
       "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-21T18:45:28.518020+00:00",
+      "source_file": ".github/workflows/build-cli-e2e-image.yml",
+      "source_repo": "microsoft/aspire"
     }
   ],
   "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
+  "last_seen_at": "2026-05-21T18:45:28.518020+00:00",
   "lexical_providers": [
     "datamuse"
   ],
