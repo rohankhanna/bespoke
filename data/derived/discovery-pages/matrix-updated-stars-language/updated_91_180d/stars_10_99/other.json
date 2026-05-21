@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 392,
-    "concepts": 292,
-    "observations": 293,
+    "components": 398,
+    "concepts": 290,
+    "observations": 291,
     "repos": 119,
-    "terms": 291
+    "terms": 289
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/termim.nvim",
@@ -26,7 +26,6 @@
     "adobe-type-tools/aots",
     "adospace/litedbpad",
     "ahrvoje/numerics",
-    "ahumenberger/Z3.jl",
     "ankane/ml-stack",
     "anmolitor/travelm-agency",
     "antonbabenko/serverless.tf-playground",
@@ -45,9 +44,10 @@
     "cloudfoundry/cf-uaa-lib",
     "cmacdonald/pyt_splade",
     "co-IT/CSharpFunctionalExtensions.HttpResults",
+    "codymikol/neotest-kotlin",
     "ColinKennedy/mega.cmdparse",
-    "darrelmiller/sharpa2a",
     "DavidKinder/Windows-Glulxe",
+    "devise-i18n/devise-i18n",
     "drowzy/protobuf_generate",
     "dspinellis/bibtools",
     "dwyl/elixir-auth-github",
@@ -95,6 +95,7 @@
     "lumen-oss/rocks-git.nvim",
     "MichaelHatherly/REPLicant.jl",
     "microsoft/windows-host-process-containers-base-image",
+    "MicrosoftDocs/vcpkg-docs",
     "mirage/ocaml-conduit",
     "mirage/ocaml-uri",
     "mosn/mosn.io",
@@ -119,7 +120,6 @@
     "Shopify/quantified",
     "status-im/nim-json-serialization",
     "status-im/nim-serialization",
-    "status-im/nim-toml-serialization",
     "tc39/proposal-smart-unit-preferences",
     "terrierteam/pyterrier_doc2query",
     "travis-ci/travis-hub",

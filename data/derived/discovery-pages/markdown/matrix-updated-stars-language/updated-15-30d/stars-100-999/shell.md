@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 45
-- terms: 251
-- components: 197
-- concepts: 257
-- observations: 260
+- repos: 43
+- terms: 225
+- components: 184
+- concepts: 231
+- observations: 234
 
 ## Static behavior
 
@@ -69,8 +69,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [denysdovhan/dotfiles](https://github.com/denysdovhan/dotfiles) | 469 | 2026-04-21T16:23:35Z | Shell | Unknown | 6 | 0 | 7 | 7 |
 | [sclorg/s2i-nodejs-container](https://github.com/sclorg/s2i-nodejs-container) | 172 | 2026-04-21T13:01:58Z | Shell | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [docker-library/ruby](https://github.com/docker-library/ruby) | 619 | 2026-04-21T10:39:08Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [unixorn/zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) | 890 | 2026-04-20T17:04:01Z | Shell | Infrastructure/tooling | 14 | 4 | 14 | 14 |
-| [sclorg/mysql-container](https://github.com/sclorg/mysql-container) | 132 | 2026-04-20T12:32:22Z | Shell | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 
 ## Repos sorted by stars
 
@@ -79,7 +77,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [NVIDIA/enroot](https://github.com/NVIDIA/enroot) | 931 | 2026-04-29T05:54:26Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [msys2/msys2-installer](https://github.com/msys2/msys2-installer) | 931 | 2026-04-22T15:54:18Z | Shell | CLI | 1 | 4 | 1 | 1 |
 | [pion/awesome-pion](https://github.com/pion/awesome-pion) | 915 | 2026-04-26T01:09:44Z | Shell | Infrastructure/tooling | 4 | 1 | 4 | 4 |
-| [unixorn/zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) | 890 | 2026-04-20T17:04:01Z | Shell | Infrastructure/tooling | 14 | 4 | 14 | 14 |
 | [justchokingaround/lobster](https://github.com/justchokingaround/lobster) | 873 | 2026-04-22T11:16:58Z | Shell | Infrastructure/tooling | 14 | 5 | 16 | 18 |
 | [heroku/heroku-buildpack-go](https://github.com/heroku/heroku-buildpack-go) | 791 | 2026-05-02T03:13:27Z | Shell | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [rust-cross/rust-musl-cross](https://github.com/rust-cross/rust-musl-cross) | 735 | 2026-04-23T02:25:32Z | Shell | Infrastructure/tooling | 6 | 11 | 6 | 6 |
@@ -113,7 +110,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jvm-repo-rebuild/reproducible-central](https://github.com/jvm-repo-rebuild/reproducible-central) | 141 | 2026-04-22T21:19:51Z | Shell | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [cloudfoundry/bosh-deployment](https://github.com/cloudfoundry/bosh-deployment) | 140 | 2026-04-29T21:23:22Z | Shell | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [reviewdog/action-suggester](https://github.com/reviewdog/action-suggester) | 135 | 2026-04-21T20:05:30Z | Shell | Infrastructure/tooling | 4 | 11 | 4 | 4 |
-| [sclorg/mysql-container](https://github.com/sclorg/mysql-container) | 132 | 2026-04-20T12:32:22Z | Shell | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [jez/dotfiles](https://github.com/jez/dotfiles) | 131 | 2026-05-04T20:37:46Z | Shell | CLI | 2 | 0 | 2 | 2 |
 | [mozilla/addons](https://github.com/mozilla/addons) | 130 | 2026-04-29T22:03:46Z | Shell | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [termux/repology-metadata](https://github.com/termux/repology-metadata) | 128 | 2026-04-23T03:41:24Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |

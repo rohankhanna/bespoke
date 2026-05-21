@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 793,
-    "concepts": 112,
-    "observations": 112,
+    "components": 812,
+    "concepts": 115,
+    "observations": 115,
     "repos": 46,
-    "terms": 112
+    "terms": 115
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "adriantoine/enzyme-to-json",
     "agenda/agendash",
@@ -45,10 +45,10 @@
     "omnidan/redux-recycle",
     "omnidan/redux-undo-boilerplate",
     "prebuild/prebuild",
+    "prebuild/prebuild-install",
     "raywo/MMM-NowPlayingOnSpotify",
     "restify/errors",
     "RJWadley/stylelint-no-unsupported-browser-features",
-    "RReverser/wasm-bindgen-rayon",
     "runegan/jsxbin",
     "rust-lang/lang-team",
     "scripting/reallysimple",

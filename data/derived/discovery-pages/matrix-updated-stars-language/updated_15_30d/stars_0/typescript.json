@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 2,
-    "terms": 20
+    "components": 10,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 1,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
-    "8144225309/superscalar-wallet",
     "ipfs-examples/github-mgmt"
   ]
 }

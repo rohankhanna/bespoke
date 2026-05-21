@@ -3,8 +3,8 @@
     "components": 895,
     "concepts": 3705,
     "observations": 3707,
-    "repos": 949,
-    "terms": 3639
+    "repos": 950,
+    "terms": 3640
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -275,6 +275,7 @@
     "facebookresearch/frankmocap",
     "facebookresearch/higher",
     "facebookresearch/ijepa",
+    "facebookresearch/ImageBind",
     "facebookresearch/mae",
     "facebookresearch/Mask2Former",
     "facebookresearch/MaskFormer",

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Shell
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 12
-- terms: 38
-- components: 16
-- concepts: 37
-- observations: 37
+- repos: 11
+- terms: 35
+- components: 14
+- concepts: 34
+- observations: 34
 
 ## Static behavior
 
@@ -37,7 +37,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [oschwartz10612/poppler-windows](https://github.com/oschwartz10612/poppler-windows) | 1273 | 2026-03-01T09:52:07Z | Shell | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [agenticnotetaking/arscontexta](https://github.com/agenticnotetaking/arscontexta) | 3325 | 2026-02-24T23:54:21Z | Shell | Docs/knowledge | 5 | 0 | 6 | 6 |
 | [blader/claudeception](https://github.com/blader/Claudeception) | 2279 | 2026-02-21T05:10:15Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [just-containers/s6-overlay](https://github.com/just-containers/s6-overlay) | 4450 | 2026-02-19T20:55:43Z | Shell | CLI | 3 | 2 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -46,7 +45,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [automazeio/ccpm](https://github.com/automazeio/ccpm) | 7996 | 2026-03-18T12:15:24Z | Shell | Unknown | 4 | 0 | 0 | 0 |
 | [zplug/zplug](https://github.com/zplug/zplug) | 6020 | 2026-03-04T09:40:33Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [tianon/gosu](https://github.com/tianon/gosu) | 4960 | 2026-03-04T18:27:37Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [just-containers/s6-overlay](https://github.com/just-containers/s6-overlay) | 4450 | 2026-02-19T20:55:43Z | Shell | CLI | 3 | 2 | 3 | 3 |
 | [KittyKatt/screenFetch](https://github.com/KittyKatt/screenFetch) | 4052 | 2026-03-02T03:08:18Z | Shell | CLI | 2 | 0 | 4 | 4 |
 | [agenticnotetaking/arscontexta](https://github.com/agenticnotetaking/arscontexta) | 3325 | 2026-02-24T23:54:21Z | Shell | Docs/knowledge | 5 | 0 | 6 | 6 |
 | [blader/claudeception](https://github.com/blader/Claudeception) | 2279 | 2026-02-21T05:10:15Z | Shell | Unknown | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 251,
-    "concepts": 197,
-    "observations": 197,
-    "repos": 65,
-    "terms": 196
+    "components": 207,
+    "concepts": 170,
+    "observations": 170,
+    "repos": 56,
+    "terms": 170
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "actboy168/ltest",
@@ -27,10 +27,8 @@
     "bladeacer/obsi-snip-coll",
     "Blosc/blogsite",
     "cake-contrib/Cake.Markdownlint",
-    "caronc/apprise-docs",
     "celo-org/charts",
     "cgrindel/rules_swiftformat",
-    "conda-forge/.cirun",
     "conda-forge/croc-feedstock",
     "conda-forge/pybind11-feedstock",
     "conda-forge/scikit-build-core-feedstock",
@@ -40,12 +38,10 @@
     "dotenvx/homebrew-brew",
     "enbop/fungi-app",
     "fern-api/docs",
-    "flagos-ai/flir",
     "fluent-vue/examples",
     "fredrikekre/runic-pre-commit",
     "googleapis/google-cloud-php-compute",
     "goreleaser/.github",
-    "gusztavvargadr/aws-vault-chocolatey",
     "hao-ai-lab/flash-attention-fp4",
     "hchiam/hchiam.github.io",
     "holochain/holonix",
@@ -55,10 +51,8 @@
     "jhugestar/jhugestar.github.io",
     "jk10001/aquainsightai",
     "JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl",
-    "JuliaCI/julia-buildkite",
     "JuliaCI/rootfs-images",
     "KhronosGroup/KTX-Software-CTS",
-    "lahma/test262-harness-dotnet",
     "lintnet-modules/ghalint",
     "localstack/homebrew-tap",
     "Mbed-TLS/mbedtls-test",
@@ -71,13 +65,10 @@
     "rmsrosa/rmsrosa.github.io",
     "ros2-rust/rosidl_rust",
     "stable-haskell/cabal",
-    "standardrb/standard-custom",
     "standardrb/standard-sorbet",
-    "tarikmanoar/tarikmanoar",
     "Tengfei-Wang/Tengfei-Wang.github.io",
     "tinted-theming/base16-waybar",
     "tweag/gazelle_haskell_modules",
-    "v-iashin/v-iashin.github.io",
-    "wavelens/gobgp.nix"
+    "v-iashin/v-iashin.github.io"
   ]
 }

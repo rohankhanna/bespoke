@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 307,
-    "concepts": 218,
-    "observations": 221,
-    "repos": 55,
-    "terms": 217
+    "components": 310,
+    "concepts": 219,
+    "observations": 222,
+    "repos": 56,
+    "terms": 218
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "alexheretic/ab-glyph",
     "astro/deadnix",
@@ -65,6 +65,7 @@
     "stanislav-tkach/os_info",
     "tsonglew/dutis",
     "typst/pdf-writer",
+    "unicode-rs/unicode-width",
     "walles/riff",
     "yaahc/displaydoc",
     "zippoxer/recall",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 686,
-    "concepts": 327,
-    "observations": 329,
-    "repos": 209,
-    "terms": 338
+    "components": 682,
+    "concepts": 334,
+    "observations": 336,
+    "repos": 210,
+    "terms": 345
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -24,6 +24,7 @@
     "AdaCore/prettier-ada",
     "adamharrison/quetta",
     "adrozdenko/error-toon",
+    "Afnanksalal/co-op",
     "ahrefs/opam-check-npm-deps",
     "ai-bot-pro/achatbot-go",
     "ai-bot-pro/pipeline-py",
@@ -121,6 +122,7 @@
     "heyoeyo/toadui",
     "holochain/hc-launch",
     "ihmcrobotics/ekf",
+    "ihmcrobotics/ihmc-build",
     "infiniflow/resource",
     "IWANABETHATGUY/l-lang",
     "JaneliaSciComp/n5-zstandard",
@@ -136,7 +138,6 @@
     "Jumziey/neotest-nix-unit.nvim",
     "jupyter-widgets/team-compass",
     "karpeleslab/tpl",
-    "kojix2/ruby-edlib",
     "kornia/data",
     "KSXGitHub/aur-packages-builder",
     "KSXGitHub/cargo-scripts-builder",
@@ -148,7 +149,6 @@
     "lionel-/biome",
     "lita-xyz/Plonky3",
     "litex-hub/pythondata-cpu-vexriscv",
-    "LucasGinard/AireLibre-iOS",
     "lukasz-wronski/Antigravity-Shit-Chat",
     "lumen-oss/luarocks-build-treesitter-parser",
     "lxsmnsyc/sponsors",
@@ -165,6 +165,7 @@
     "nelson-lang/module_skeleton",
     "nelson-lang/module_skeleton_basic",
     "nvpro-samples/stb",
+    "objectbox/objectbox-swift-generator",
     "ocaml-opam/opam-rt",
     "orlp/color-backtrace",
     "OutlierDetectionJL/OutlierDetectionData.jl",

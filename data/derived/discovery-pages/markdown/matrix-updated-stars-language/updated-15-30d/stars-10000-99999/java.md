@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · Java
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 32
-- terms: 404
-- components: 348
-- concepts: 407
-- observations: 409
+- repos: 31
+- terms: 396
+- components: 343
+- concepts: 399
+- observations: 401
 
 ## Static behavior
 
@@ -57,7 +57,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alibaba/nacos](https://github.com/alibaba/nacos) | 32885 | 2026-04-22T05:32:27Z | Java | Infrastructure/tooling | 23 | 14 | 23 | 23 |
 | [OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator) | 26146 | 2026-04-21T16:45:53Z | Java | CLI | 19 | 11 | 19 | 19 |
 | [bazelbuild/bazel](https://github.com/bazelbuild/bazel) | 25335 | 2026-04-21T11:23:13Z | Java | Infrastructure/tooling | 15 | 13 | 15 | 15 |
-| [resilience4j/resilience4j](https://github.com/resilience4j/resilience4j) | 10643 | 2026-04-20T15:06:18Z | Java | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -93,5 +92,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [langchain4j/langchain4j](https://github.com/langchain4j/langchain4j) | 11812 | 2026-04-29T20:58:02Z | Java | Infrastructure/tooling | 25 | 9 | 25 | 25 |
 | [apple/pkl](https://github.com/apple/pkl) | 11315 | 2026-04-23T21:39:56Z | Java | Infrastructure/tooling | 18 | 11 | 20 | 20 |
 | [clojure/clojure](https://github.com/clojure/clojure) | 10866 | 2026-04-22T19:59:20Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [resilience4j/resilience4j](https://github.com/resilience4j/resilience4j) | 10643 | 2026-04-20T15:06:18Z | Java | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [awsdocs/aws-doc-sdk-examples](https://github.com/awsdocs/aws-doc-sdk-examples) | 10398 | 2026-04-29T14:07:04Z | Java | Infrastructure/tooling | 14 | 13 | 14 | 14 |

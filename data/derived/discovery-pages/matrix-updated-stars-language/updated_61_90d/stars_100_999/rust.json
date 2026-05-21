@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 192,
-    "concepts": 138,
-    "observations": 139,
+    "components": 197,
+    "concepts": 147,
+    "observations": 148,
     "repos": 33,
-    "terms": 137
+    "terms": 146
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
     "ashvardanian/StringWars",
@@ -23,6 +23,7 @@
     "esp-rs/embedded-svc",
     "fast/logforth",
     "filecoin-project/rust-fil-proofs",
+    "firstbatchxyz/dkn-compute-node",
     "gfx-rs/rspirv",
     "gwihlidal/vk-mem-rs",
     "ItsEthra/typst-live",
@@ -43,7 +44,6 @@
     "SunDoge/simdjson-rust",
     "typst/comemo",
     "typstyle-rs/typstyle",
-    "unicode-rs/unicode-width",
     "YaLTeR/wl-clipboard-rs",
     "zkcrypto/bls12_381",
     "zkcrypto/jubjub"

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 39404,
-    "concepts": 8790,
-    "observations": 8817,
-    "repos": 2086,
-    "terms": 8781
+    "components": 39354,
+    "concepts": 8779,
+    "observations": 8806,
+    "repos": 2085,
+    "terms": 8769
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "0x1abin/matter-controller-mcp",
     "0x4139/cosmos-discord-faucet",
@@ -1964,7 +1964,7 @@
     "treosh/lighthouse-ci-action",
     "TrigenSoftware/simple-release-action",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "TritonDataCenter/node-http-signature",
     "TritonDataCenter/node-verror",
     "trylovetom/clean-code-javascript",
@@ -1988,7 +1988,6 @@
     "unifiedjs/unified",
     "Unitech/pm2",
     "unlight/postcss-import-url",
-    "update/update",
     "usmanyunusov/nanospinner",
     "usnistgov/h5wasm",
     "usnistgov/jsfive",

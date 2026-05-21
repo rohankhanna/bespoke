@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · C/C++
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 94
-- terms: 130
-- components: 178
-- concepts: 131
-- observations: 131
+- repos: 96
+- terms: 137
+- components: 181
+- concepts: 138
+- observations: 138
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [kojix2/ruby-edlib](https://github.com/kojix2/ruby-edlib) | 2 | 2025-11-21T10:52:35Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [andreasdr/a-gui](https://github.com/andreasdr/a-gui) | 1 | 2025-11-08T20:41:33Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [andreasdr/yannet](https://github.com/andreasdr/yannet) | 1 | 2025-11-08T20:39:30Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [andreasdr/minitscript](https://github.com/andreasdr/minitscript) | 4 | 2025-11-08T20:37:57Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
@@ -78,6 +79,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MikeSteglich/Cmpl2](https://github.com/MikeSteglich/Cmpl2) | 6 | 2024-07-10T13:37:37Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [hugoif/hugo-unix](https://github.com/hugoif/hugo-unix) | 9 | 2024-07-04T21:43:13Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [romkatv/libgit2](https://github.com/romkatv/libgit2) | 8 | 2024-06-06T09:13:53Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [embeddedartistry/gdtoa](https://github.com/embeddedartistry/gdtoa) | 8 | 2024-05-21T17:16:48Z | C/C++ | Library | 2 | 0 | 2 | 2 |
 | [Cydral/BAREL](https://github.com/Cydral/BAREL) | 4 | 2024-05-14T07:00:30Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [DOGEwbx/llama.cpp](https://github.com/DOGEwbx/llama.cpp) | 3 | 2024-05-08T04:05:22Z | C/C++ | Infrastructure/tooling | 6 | 31 | 6 | 6 |
 | [bnosac/audio.vadwebrtc](https://github.com/bnosac/audio.vadwebrtc) | 1 | 2024-05-06T13:22:29Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
@@ -134,6 +136,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [atteneder/draco](https://github.com/atteneder/draco) | 9 | 2024-01-26T15:14:53Z | C/C++ | Infrastructure/tooling | 2 | 12 | 2 | 2 |
 | [MosheBerman/KosherCocoa](https://github.com/MosheBerman/KosherCocoa) | 8 | 2024-12-01T20:39:46Z | C/C++ | Unknown | 11 | 0 | 11 | 11 |
 | [romkatv/libgit2](https://github.com/romkatv/libgit2) | 8 | 2024-06-06T09:13:53Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [embeddedartistry/gdtoa](https://github.com/embeddedartistry/gdtoa) | 8 | 2024-05-21T17:16:48Z | C/C++ | Library | 2 | 0 | 2 | 2 |
 | [Clemapfel/mousetrap](https://github.com/Clemapfel/mousetrap) | 8 | 2024-02-22T17:13:04Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [d99kris/doxygenmd](https://github.com/d99kris/doxygenmd) | 8 | 2023-01-15T08:24:42Z | C/C++ | Infrastructure/tooling | 4 | 1 | 5 | 5 |
 | [dgatwood/v8-libwebsocket-obs-websocket](https://github.com/dgatwood/v8-libwebsocket-obs-websocket) | 8 | 2022-07-12T03:36:44Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -185,6 +188,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Cydral/FFspider](https://github.com/Cydral/FFspider) | 3 | 2023-08-16T20:29:34Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mackron/vkquake2](https://github.com/mackron/vkQuake2) | 3 | 2022-04-09T00:03:04Z | C/C++ | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [hayguen/greenffts](https://github.com/hayguen/greenffts) | 3 | 2021-06-12T21:12:48Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [kojix2/ruby-edlib](https://github.com/kojix2/ruby-edlib) | 2 | 2025-11-21T10:52:35Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [ntnu-arl/ouster-ros](https://github.com/ntnu-arl/ouster-ros) | 2 | 2025-10-13T16:17:17Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [buty4649/mruby-terminal-color](https://github.com/buty4649/mruby-terminal-color) | 2 | 2025-10-05T09:31:38Z | C/C++ | CLI | 1 | 2 | 1 | 1 |
 | [vpetrigo/median-filter](https://github.com/vpetrigo/median-filter) | 2 | 2025-10-04T17:06:30Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |

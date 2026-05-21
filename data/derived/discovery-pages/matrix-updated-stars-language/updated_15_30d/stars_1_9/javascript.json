@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1138,
-    "concepts": 562,
-    "observations": 564,
-    "repos": 48,
-    "terms": 559
+    "components": 1098,
+    "concepts": 524,
+    "observations": 526,
+    "repos": 46,
+    "terms": 521
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "alphagov/stylelint-config-gds",
     "angular/angular-devkit-architect-builds",
@@ -57,8 +57,6 @@
     "stdlib-js/math-base-special-erfcx",
     "stdlib-js/math-base-special-erfinv",
     "stdlib-js/ndarray-fancy",
-    "stdlib-js/ndarray-orders",
-    "stdlib-js/proxy-ctor",
     "stdlib-js/repl",
     "thetutlage/static",
     "travi/octokit-auth-netrc"

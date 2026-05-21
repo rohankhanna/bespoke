@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars · Go
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 13
-- terms: 26
-- components: 50
-- concepts: 26
-- observations: 26
+- repos: 14
+- terms: 30
+- components: 61
+- concepts: 30
+- observations: 30
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [transparency-dev/armored-witness-common](https://github.com/transparency-dev/armored-witness-common) | 0 | 2026-04-20T11:23:44Z | Go | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [Amtrend/ssh-manager](https://github.com/Amtrend/ssh-manager) | 0 | 2026-04-19T17:00:11Z | Go | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [jonislutheran87/weclaw](https://github.com/jonislutheran87/weclaw) | 0 | 2026-04-19T12:37:21Z | Go | CLI | 0 | 0 | 0 | 0 |
 | [hyper-mcp-rs/crypto-price-plugin](https://github.com/hyper-mcp-rs/crypto-price-plugin) | 0 | 2026-04-19T04:15:28Z | Go | Infrastructure/tooling | 3 | 7 | 3 | 3 |
@@ -44,6 +45,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [transparency-dev/armored-witness-common](https://github.com/transparency-dev/armored-witness-common) | 0 | 2026-04-20T11:23:44Z | Go | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [Amtrend/ssh-manager](https://github.com/Amtrend/ssh-manager) | 0 | 2026-04-19T17:00:11Z | Go | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [jonislutheran87/weclaw](https://github.com/jonislutheran87/weclaw) | 0 | 2026-04-19T12:37:21Z | Go | CLI | 0 | 0 | 0 | 0 |
 | [hyper-mcp-rs/crypto-price-plugin](https://github.com/hyper-mcp-rs/crypto-price-plugin) | 0 | 2026-04-19T04:15:28Z | Go | Infrastructure/tooling | 3 | 7 | 3 | 3 |

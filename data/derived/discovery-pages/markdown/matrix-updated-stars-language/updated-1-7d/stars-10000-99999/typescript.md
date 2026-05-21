@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 7
-- terms: 72
-- components: 267
-- concepts: 72
-- observations: 72
+- repos: 6
+- terms: 50
+- components: 282
+- concepts: 50
+- observations: 50
 
 ## Static behavior
 
@@ -26,22 +26,20 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83457 | 2026-05-18T22:16:00Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
-| [googleapis/google-api-nodejs-client](https://github.com/googleapis/google-api-nodejs-client) | 12151 | 2026-05-18T17:53:10Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
-| [vercel-labs/skills](https://github.com/vercel-labs/skills) | 19338 | 2026-05-16T00:06:17Z | TypeScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
-| [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) | 88051 | 2026-05-15T01:19:01Z | TypeScript | Infrastructure/tooling | 24 | 85 | 24 | 24 |
-| [Koenkk/zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) | 15127 | 2026-05-13T19:16:47Z | TypeScript | Infrastructure/tooling | 8 | 53 | 8 | 8 |
-| [fuma-nama/fumadocs](https://github.com/fuma-nama/fumadocs) | 11830 | 2026-05-13T10:15:57Z | TypeScript | Infrastructure/tooling | 13 | 12 | 13 | 13 |
-| [lucide-icons/lucide](https://github.com/lucide-icons/lucide) | 22562 | 2026-05-13T10:06:25Z | TypeScript | Infrastructure/tooling | 16 | 44 | 16 | 16 |
+| [unocss/unocss](https://github.com/unocss/unocss) | 18808 | 2026-05-20T05:50:31Z | TypeScript | Infrastructure/tooling | 8 | 95 | 8 | 8 |
+| [googleapis/google-api-nodejs-client](https://github.com/googleapis/google-api-nodejs-client) | 12152 | 2026-05-19T22:39:14Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
+| [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | 17692 | 2026-05-19T22:37:46Z | TypeScript | Infrastructure/tooling | 7 | 29 | 7 | 7 |
+| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83458 | 2026-05-18T22:16:00Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [vercel-labs/skills](https://github.com/vercel-labs/skills) | 19414 | 2026-05-16T00:06:17Z | TypeScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
+| [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) | 88057 | 2026-05-15T01:19:01Z | TypeScript | Infrastructure/tooling | 24 | 85 | 24 | 24 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) | 88051 | 2026-05-15T01:19:01Z | TypeScript | Infrastructure/tooling | 24 | 85 | 24 | 24 |
-| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83457 | 2026-05-18T22:16:00Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
-| [lucide-icons/lucide](https://github.com/lucide-icons/lucide) | 22562 | 2026-05-13T10:06:25Z | TypeScript | Infrastructure/tooling | 16 | 44 | 16 | 16 |
-| [vercel-labs/skills](https://github.com/vercel-labs/skills) | 19338 | 2026-05-16T00:06:17Z | TypeScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
-| [Koenkk/zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) | 15127 | 2026-05-13T19:16:47Z | TypeScript | Infrastructure/tooling | 8 | 53 | 8 | 8 |
-| [googleapis/google-api-nodejs-client](https://github.com/googleapis/google-api-nodejs-client) | 12151 | 2026-05-18T17:53:10Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
-| [fuma-nama/fumadocs](https://github.com/fuma-nama/fumadocs) | 11830 | 2026-05-13T10:15:57Z | TypeScript | Infrastructure/tooling | 13 | 12 | 13 | 13 |
+| [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) | 88057 | 2026-05-15T01:19:01Z | TypeScript | Infrastructure/tooling | 24 | 85 | 24 | 24 |
+| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83458 | 2026-05-18T22:16:00Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [vercel-labs/skills](https://github.com/vercel-labs/skills) | 19414 | 2026-05-16T00:06:17Z | TypeScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
+| [unocss/unocss](https://github.com/unocss/unocss) | 18808 | 2026-05-20T05:50:31Z | TypeScript | Infrastructure/tooling | 8 | 95 | 8 | 8 |
+| [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | 17692 | 2026-05-19T22:37:46Z | TypeScript | Infrastructure/tooling | 7 | 29 | 7 | 7 |
+| [googleapis/google-api-nodejs-client](https://github.com/googleapis/google-api-nodejs-client) | 12152 | 2026-05-19T22:39:14Z | TypeScript | CLI | 5 | 47 | 5 | 5 |

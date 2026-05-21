@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 101
-- terms: 617
-- components: 848
-- concepts: 604
-- observations: 610
+- repos: 108
+- terms: 649
+- components: 911
+- concepts: 636
+- observations: 642
 
 ## Static behavior
 
@@ -26,6 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [vadimcn/codelldb](https://github.com/vadimcn/codelldb) | 3205 | 2026-04-21T03:20:56Z | Rust | Infrastructure/tooling | 4 | 28 | 4 | 4 |
+| [flamegraph-rs/flamegraph](https://github.com/flamegraph-rs/flamegraph) | 5898 | 2026-04-20T20:07:18Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [ratatui/mousefood](https://github.com/ratatui/mousefood) | 1235 | 2026-04-20T20:06:25Z | Rust | Infrastructure/tooling | 4 | 8 | 4 | 4 |
+| [mozilla/grcov](https://github.com/mozilla/grcov) | 1340 | 2026-04-20T18:52:28Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [DeterminateSystems/nix-installer](https://github.com/DeterminateSystems/nix-installer) | 3528 | 2026-04-20T16:56:09Z | Rust | Infrastructure/tooling | 15 | 10 | 15 | 15 |
+| [neon-bindings/neon](https://github.com/neon-bindings/neon) | 8405 | 2026-04-20T16:06:17Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |
+| [rust-lang/git2-rs](https://github.com/rust-lang/git2-rs) | 2036 | 2026-04-20T15:43:11Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [proptest-rs/proptest](https://github.com/proptest-rs/proptest) | 2105 | 2026-04-20T09:48:09Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [servo/html5ever](https://github.com/servo/html5ever) | 2567 | 2026-04-20T07:19:52Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [dalek-cryptography/curve25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek) | 1151 | 2026-04-20T06:03:49Z | Rust | Infrastructure/tooling | 11 | 10 | 11 | 11 |
 | [mfontanini/presenterm](https://github.com/mfontanini/presenterm) | 8269 | 2026-04-20T03:52:13Z | Rust | CLI | 9 | 11 | 11 | 11 |
@@ -126,13 +134,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [visioncortex/vtracer](https://github.com/visioncortex/vtracer) | 5957 | 2026-03-23T15:31:45Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 4 |
 | [smol-rs/smol](https://github.com/smol-rs/smol) | 4849 | 2026-03-23T14:46:03Z | Rust | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [Rust-SDL2/rust-sdl2](https://github.com/Rust-SDL2/rust-sdl2) | 2939 | 2026-03-22T12:28:05Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [David-OConnor/pyflow](https://github.com/David-OConnor/pyflow) | 1337 | 2026-03-21T20:37:57Z | Rust | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [spacejam/sled](https://github.com/spacejam/sled) | 8975 | 2026-04-04T14:52:13Z | Rust | Infrastructure/tooling | 16 | 5 | 16 | 17 |
+| [neon-bindings/neon](https://github.com/neon-bindings/neon) | 8405 | 2026-04-20T16:06:17Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [mfontanini/presenterm](https://github.com/mfontanini/presenterm) | 8269 | 2026-04-20T03:52:13Z | Rust | CLI | 9 | 11 | 11 | 11 |
 | [BoundaryML/baml](https://github.com/BoundaryML/baml) | 8015 | 2026-04-18T18:26:25Z | Rust | Infrastructure/tooling | 17 | 26 | 17 | 17 |
 | [napi-rs/napi-rs](https://github.com/napi-rs/napi-rs) | 7683 | 2026-04-17T15:09:54Z | Rust | Infrastructure/tooling | 12 | 43 | 12 | 12 |
@@ -146,6 +154,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lldap/lldap](https://github.com/lldap/lldap) | 6196 | 2026-03-29T08:19:27Z | Rust | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [visioncortex/vtracer](https://github.com/visioncortex/vtracer) | 5957 | 2026-03-23T15:31:45Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 4 |
 | [rust-windowing/winit](https://github.com/rust-windowing/winit) | 5944 | 2026-04-13T19:58:52Z | Rust | Infrastructure/tooling | 9 | 13 | 9 | 9 |
+| [flamegraph-rs/flamegraph](https://github.com/flamegraph-rs/flamegraph) | 5898 | 2026-04-20T20:07:18Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [rust-lang/futures-rs](https://github.com/rust-lang/futures-rs) | 5849 | 2026-04-12T02:42:02Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [alexpasmantier/television](https://github.com/alexpasmantier/television) | 5758 | 2026-04-16T08:05:36Z | Rust | CLI | 17 | 18 | 17 | 17 |
 | [WebAssembly/WASI](https://github.com/WebAssembly/WASI) | 5606 | 2026-04-07T13:41:02Z | Rust | Infrastructure/tooling | 8 | 11 | 8 | 8 |
@@ -176,10 +185,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ruvnet/ruvector](https://github.com/ruvnet/RuVector) | 3800 | 2026-04-18T13:51:27Z | Rust | Infrastructure/tooling | 18 | 13 | 18 | 18 |
 | [google/tarpc](https://github.com/google/tarpc) | 3685 | 2026-03-25T06:11:05Z | Rust | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [01mf02/jaq](https://github.com/01mf02/jaq) | 3569 | 2026-04-16T09:32:45Z | Rust | Infrastructure/tooling | 7 | 10 | 8 | 8 |
+| [DeterminateSystems/nix-installer](https://github.com/DeterminateSystems/nix-installer) | 3528 | 2026-04-20T16:56:09Z | Rust | Infrastructure/tooling | 15 | 10 | 15 | 15 |
 | [lalrpop/lalrpop](https://github.com/lalrpop/lalrpop) | 3466 | 2026-04-16T15:19:11Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [killercup/cargo-edit](https://github.com/killercup/cargo-edit) | 3399 | 2026-04-17T20:10:27Z | Rust | CLI | 4 | 5 | 4 | 4 |
 | [dtolnay/syn](https://github.com/dtolnay/syn) | 3308 | 2026-04-17T01:46:02Z | Rust | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [Canop/bacon](https://github.com/Canop/bacon) | 3214 | 2026-04-15T09:01:45Z | Rust | CLI | 5 | 0 | 5 | 5 |
+| [vadimcn/codelldb](https://github.com/vadimcn/codelldb) | 3205 | 2026-04-21T03:20:56Z | Rust | Infrastructure/tooling | 4 | 28 | 4 | 4 |
 | [pdeljanov/Symphonia](https://github.com/pdeljanov/Symphonia) | 3183 | 2026-04-19T23:59:21Z | Rust | Infrastructure/tooling | 11 | 1 | 11 | 11 |
 | [bvaisvil/zenith](https://github.com/bvaisvil/zenith) | 2999 | 2026-04-13T00:47:22Z | Rust | CLI | 9 | 8 | 9 | 9 |
 | [Rust-SDL2/rust-sdl2](https://github.com/Rust-SDL2/rust-sdl2) | 2939 | 2026-03-22T12:28:05Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -198,9 +209,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [johnnymorganz/stylua](https://github.com/JohnnyMorganz/StyLua) | 2162 | 2026-04-17T00:00:44Z | Rust | Infrastructure/tooling | 13 | 13 | 13 | 13 |
 | [liuchengxu/vim-clap](https://github.com/liuchengxu/vim-clap) | 2138 | 2026-04-06T15:43:17Z | Rust | Infrastructure/tooling | 8 | 12 | 8 | 8 |
 | [rust-lang/cc-rs](https://github.com/rust-lang/cc-rs) | 2115 | 2026-04-19T08:59:07Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [proptest-rs/proptest](https://github.com/proptest-rs/proptest) | 2105 | 2026-04-20T09:48:09Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [algesten/ureq](https://github.com/algesten/ureq) | 2101 | 2026-04-18T12:00:09Z | Rust | CLI | 4 | 6 | 4 | 4 |
 | [jonhoo/inferno](https://github.com/jonhoo/inferno) | 2096 | 2026-04-14T01:05:09Z | Rust | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [pop-os/cosmic-text](https://github.com/pop-os/cosmic-text) | 2040 | 2026-04-10T00:00:12Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [rust-lang/git2-rs](https://github.com/rust-lang/git2-rs) | 2036 | 2026-04-20T15:43:11Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [Keats/jsonwebtoken](https://github.com/Keats/jsonwebtoken) | 2033 | 2026-04-18T19:56:51Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [not-fl3/miniquad](https://github.com/not-fl3/miniquad) | 1988 | 2026-04-13T15:24:02Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [Mooncake-Labs/pg_mooncake](https://github.com/Mooncake-Labs/pg_mooncake) | 1957 | 2026-03-31T05:53:29Z | Rust | Infrastructure/tooling | 7 | 0 | 7 | 7 |
@@ -217,12 +230,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [napi-rs/node-rs](https://github.com/napi-rs/node-rs) | 1430 | 2026-04-17T16:35:29Z | Rust | Infrastructure/tooling | 8 | 24 | 8 | 8 |
 | [cedar-policy/cedar](https://github.com/cedar-policy/cedar) | 1417 | 2026-04-17T18:38:54Z | Rust | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 | [hyperledger-solang/solang](https://github.com/hyperledger-solang/solang) | 1376 | 2026-04-03T13:07:23Z | Rust | Infrastructure/tooling | 14 | 12 | 14 | 14 |
-| [David-OConnor/pyflow](https://github.com/David-OConnor/pyflow) | 1337 | 2026-03-21T20:37:57Z | Rust | Infrastructure/tooling | 1 | 7 | 1 | 1 |
+| [mozilla/grcov](https://github.com/mozilla/grcov) | 1340 | 2026-04-20T18:52:28Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [hyperium/http](https://github.com/hyperium/http) | 1325 | 2026-04-03T20:06:34Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [abraxas-365/langchain-rust](https://github.com/Abraxas-365/langchain-rust) | 1293 | 2026-04-19T08:55:17Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [alloy-rs/alloy](https://github.com/alloy-rs/alloy) | 1271 | 2026-04-18T18:43:09Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [mattsse/chromiumoxide](https://github.com/mattsse/chromiumoxide) | 1260 | 2026-04-03T16:44:24Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [mitsuhiko/similar](https://github.com/mitsuhiko/similar) | 1249 | 2026-04-11T20:18:39Z | Rust | Infrastructure/tooling | 8 | 6 | 8 | 8 |
+| [ratatui/mousefood](https://github.com/ratatui/mousefood) | 1235 | 2026-04-20T20:06:25Z | Rust | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [uuid-rs/uuid](https://github.com/uuid-rs/uuid) | 1204 | 2026-04-16T04:54:44Z | Rust | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [cberner/fuser](https://github.com/cberner/fuser) | 1201 | 2026-04-13T17:36:50Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [dalek-cryptography/curve25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek) | 1151 | 2026-04-20T06:03:49Z | Rust | Infrastructure/tooling | 11 | 10 | 11 | 11 |

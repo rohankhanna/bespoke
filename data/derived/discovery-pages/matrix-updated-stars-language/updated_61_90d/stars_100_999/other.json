@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 551,
-    "concepts": 476,
-    "observations": 479,
-    "repos": 117,
-    "terms": 475
+    "components": 541,
+    "concepts": 474,
+    "observations": 476,
+    "repos": 116,
+    "terms": 473
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "4d49/scene-library",
-    "AccountGo/accountgo",
     "ahyatt/emacs-websocket",
     "ajevans99/swift-json-schema",
     "akabe/ocaml-jupyter",
@@ -47,11 +46,11 @@
     "cognitect/transit-clj",
     "cpp-pm/hunter",
     "csstools/postcss-normalize",
-    "CSU-Radarmet/CSU_RadarTools",
     "Cysharp/ValueTaskSupplement",
     "Dao-AILab/causal-conv1d",
     "DarthAffe/StableDiffusion.NET",
     "dashbitco/nimble_options",
+    "dashbitco/nimble_pool",
     "djezzzl/factory_trace",
     "dkubb/adamantium",
     "dkubb/equalizer",
@@ -84,7 +83,6 @@
     "JuliaPy/PyPlot.jl",
     "KhronosGroup/EGL-Registry",
     "kowainik/summoner",
-    "lambdalisue/vim-nerdfont",
     "lassik/emacs-format-all-the-code",
     "lewis6991/hover.nvim",
     "lifepillar/vim-colortemplate",
@@ -106,6 +104,7 @@
     "prettier/prettier-emacs",
     "proper-testing/proper",
     "pug-php/pug",
+    "queryverse/Query.jl",
     "radian-software/ctrlf",
     "rejemy/UltraLiteDB",
     "ropensci/git2r",

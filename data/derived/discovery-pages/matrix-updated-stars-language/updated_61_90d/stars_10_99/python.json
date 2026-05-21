@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 228,
-    "concepts": 169,
-    "observations": 169,
+    "components": 234,
+    "concepts": 167,
+    "observations": 167,
     "repos": 53,
-    "terms": 167
+    "terms": 165
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,19 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "abduznik/git-alchemist",
     "agents-x-project/PyVision-RL",
     "ai4colonoscopy/PraNet-V2",
     "Alibaba-Quark/SSP",
+    "all-the-noises/eval-arena",
     "amiable-dev/llm-council",
     "andyluo7/autoresearch",
     "AniAggarwal/ecad",
     "apache/parquet-testing",
     "bigai-nlco/RuleReasoner",
     "BoosterRobotics/booster_assets",
-    "bootmortis/ito-gov-mirror",
     "chaoss/grimoirelab-cereslib",
     "chaoss/grimoirelab-graal",
     "chaoss/grimoirelab-kidash",
@@ -39,6 +39,7 @@
     "cvat-ai/datumaro",
     "Embarcadero/PythonEnvironments",
     "enjoy-digital/liteiclink",
+    "FindDefinition/cumm",
     "fla-org/flash-bidirectional-linear-attention",
     "foldl/AlphaGeometryRE",
     "galaxyproject/tools-devteam",
@@ -51,7 +52,6 @@
     "inducer/codepy",
     "inducer/genpy",
     "liran-funaro/sphinx-markdown-builder",
-    "Lizw14/Super-CLEVR",
     "philippemerle/AWS-CloudFormation-Diagrams",
     "PoseLib/posebench",
     "rdb/panda3d-thirdparty",

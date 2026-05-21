@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4881,
-    "concepts": 760,
-    "observations": 762,
-    "repos": 202,
-    "terms": 771
+    "components": 4924,
+    "concepts": 763,
+    "observations": 765,
+    "repos": 203,
+    "terms": 773
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "101arrowz/fzstd",
     "1hanzla100/developer-portfolio",
@@ -25,6 +25,7 @@
     "alloc/vite-plugin-compress",
     "AmesingFlank/taichi.js",
     "andresz1/size-limit-action",
+    "angular/vscode-ng-language-service",
     "ansible/ansible-language-server",
     "antfu/vite-plugin-md",
     "antfu/vscode-theme-vitesse",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 96,
-    "concepts": 111,
-    "observations": 113,
-    "repos": 23,
-    "terms": 110
+    "components": 106,
+    "concepts": 120,
+    "observations": 122,
+    "repos": 25,
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "akarnokd/RxJavaFiberInterop",
     "apache/camel-quarkus-examples",
@@ -20,6 +20,7 @@
     "apache/datasketches-pig",
     "apache/flink-connector-pulsar",
     "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
+    "bazel-contrib/rules_jvm",
     "bobbylight/RSTALanguageSupport",
     "bobbylight/SpellChecker",
     "codelibs/fess-crawler",
@@ -34,6 +35,7 @@
     "kurrent-io/KurrentDB-Client-Java",
     "m2e-code-quality/m2e-code-quality",
     "multiformats/java-multibase",
+    "simonpoole/OpeningHoursFragment",
     "smithy-lang/smithy-dafny",
     "xmlark/msv",
     "zai-org/z-ai-sdk-java"

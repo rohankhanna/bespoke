@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
+    "anacrolix/go-libutp",
     "apache/rocketmq-client-cpp",
     "arduino-libraries/Ethernet",
     "arduino-libraries/Servo",
@@ -24,7 +25,6 @@
     "dacap/clip",
     "Dao-AILab/fast-hadamard-transform",
     "derickr/timelib",
-    "devkitPro/libctru",
     "douglascrockford/JSMin",
     "eliemichel/LearnWebGPU",
     "embeddedartistry/libc",

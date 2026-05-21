@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 949
-- terms: 2967
-- components: 2192
+- repos: 950
+- terms: 2966
+- components: 2195
 - concepts: 2983
 - observations: 2990
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [pythonic-emacs/blacken](https://github.com/pythonic-emacs/blacken) | 197 | 2025-11-21T16:20:46Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [barsoom/traco](https://github.com/barsoom/traco) | 219 | 2025-11-21T05:57:21Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [emacs-lsp/helm-lsp](https://github.com/emacs-lsp/helm-lsp) | 105 | 2025-11-21T04:51:32Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [emacs-lsp/lsp-java](https://github.com/emacs-lsp/lsp-java) | 692 | 2025-11-21T04:46:02Z | Other | Infrastructure/tooling | 8 | 4 | 8 | 8 |
@@ -203,7 +204,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vyokky/LLM-Brained-GUI-Agents-Survey](https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey) | 229 | 2025-06-23T03:29:15Z | Other | Model/data | 3 | 0 | 3 | 3 |
 | [akkadotnet/HOCON](https://github.com/akkadotnet/HOCON) | 142 | 2025-06-19T12:58:39Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [exoscale/coax](https://github.com/exoscale/coax) | 128 | 2025-06-18T14:08:23Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [sicmutils/sicmutils](https://github.com/sicmutils/sicmutils) | 823 | 2025-06-18T13:30:25Z | Other | Infrastructure/tooling | 14 | 16 | 14 | 14 |
+| [sicmutils/sicmutils](https://github.com/sicmutils/sicmutils) | 822 | 2025-06-18T13:30:25Z | Other | Infrastructure/tooling | 14 | 16 | 14 | 14 |
 | [researchmm/STTN](https://github.com/researchmm/STTN) | 548 | 2025-06-18T03:59:02Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [haskell/parsec](https://github.com/haskell/parsec) | 887 | 2025-06-12T21:42:02Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [resemble-ai/monotonic_align](https://github.com/resemble-ai/monotonic_align) | 101 | 2025-06-09T11:04:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -333,7 +334,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tinted-theming/tinted-xfce4-terminal](https://github.com/tinted-theming/tinted-xfce4-terminal) | 199 | 2024-12-31T07:24:08Z | Other | CLI | 9 | 2 | 9 | 9 |
 | [CarlVerret/csFastFloat](https://github.com/CarlVerret/csFastFloat) | 204 | 2024-12-30T15:35:22Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [DarwinAwardWinner/ido-completing-read-plus](https://github.com/DarwinAwardWinner/ido-completing-read-plus) | 248 | 2024-12-28T01:13:12Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [patterns-ai-core/langchainrb_rails](https://github.com/patterns-ai-core/langchainrb_rails) | 337 | 2024-12-25T21:37:30Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [patterns-ai-core/langchainrb_rails](https://github.com/patterns-ai-core/langchainrb_rails) | 336 | 2024-12-25T21:37:30Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [FluxML/FluxTraining.jl](https://github.com/FluxML/FluxTraining.jl) | 122 | 2024-12-25T08:10:06Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [biod/sambamba](https://github.com/biod/sambamba) | 610 | 2024-12-22T11:17:53Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [Modi1987/KST-Kuka-Sunrise-Toolbox](https://github.com/Modi1987/KST-Kuka-Sunrise-Toolbox) | 186 | 2024-12-21T15:55:16Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -511,7 +512,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dvschultz/stylegan2-ada-pytorch](https://github.com/dvschultz/stylegan2-ada-pytorch) | 254 | 2024-05-10T18:13:35Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [nathom/filetype.nvim](https://github.com/nathom/filetype.nvim) | 548 | 2024-05-06T20:04:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [InteractiveComputerGraphics/cuNSearch](https://github.com/InteractiveComputerGraphics/cuNSearch) | 108 | 2024-05-05T09:22:46Z | Other | Library | 2 | 0 | 2 | 2 |
-| [NVIDIA-Genomics-Research/GenomeWorks](https://github.com/NVIDIA-Genomics-Research/GenomeWorks) | 300 | 2024-05-03T19:45:20Z | Other | Library | 7 | 0 | 7 | 7 |
+| [NVIDIA-Genomics-Research/GenomeWorks](https://github.com/NVIDIA-Genomics-Research/GenomeWorks) | 300 | 2024-05-03T19:45:20Z | Other | Library | 6 | 0 | 7 | 7 |
 | [madskristensen/BundlerMinifier](https://github.com/madskristensen/BundlerMinifier) | 626 | 2024-05-03T10:21:02Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [weaviate-tutorials/awesome-moviate](https://github.com/weaviate-tutorials/awesome-moviate) | 101 | 2024-05-02T13:14:19Z | Other | Unknown | 0 | 9 | 0 | 0 |
 | [gevtushenko/llm.c](https://github.com/gevtushenko/llm.c) | 113 | 2024-05-01T00:46:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1043,7 +1044,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [facebookresearch/playtorch](https://github.com/facebookresearch/playtorch) | 830 | 2024-08-15T08:23:06Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [LambdaLabsML/examples](https://github.com/LambdaLabsML/examples) | 828 | 2024-10-18T05:13:31Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [isl-org/lang-seg](https://github.com/isl-org/lang-seg) | 827 | 2024-12-18T16:24:18Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [sicmutils/sicmutils](https://github.com/sicmutils/sicmutils) | 823 | 2025-06-18T13:30:25Z | Other | Infrastructure/tooling | 14 | 16 | 14 | 14 |
+| [sicmutils/sicmutils](https://github.com/sicmutils/sicmutils) | 822 | 2025-06-18T13:30:25Z | Other | Infrastructure/tooling | 14 | 16 | 14 | 14 |
 | [SvenTiigi/SwiftKit](https://github.com/SvenTiigi/SwiftKit) | 821 | 2022-10-22T23:16:25Z | Other | CLI | 6 | 1 | 6 | 6 |
 | [djanderson/aho](https://github.com/djanderson/aho) | 819 | 2021-10-14T05:06:17Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dashbitco/nimble_csv](https://github.com/dashbitco/nimble_csv) | 816 | 2025-11-13T22:07:21Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
@@ -1418,9 +1419,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [StephenMiracle/frankenwp](https://github.com/StephenMiracle/frankenwp) | 338 | 2024-06-05T13:04:30Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 2 |
 | [attr-encrypted/encryptor](https://github.com/attr-encrypted/encryptor) | 337 | 2025-10-12T03:07:46Z | Other | Library | 0 | 0 | 0 | 0 |
 | [mahsanet/NikaNG](https://github.com/mahsanet/NikaNG) | 337 | 2025-02-06T16:22:33Z | Other | Infrastructure/tooling | 4 | 14 | 4 | 5 |
-| [patterns-ai-core/langchainrb_rails](https://github.com/patterns-ai-core/langchainrb_rails) | 337 | 2024-12-25T21:37:30Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [kubeflow/fairing](https://github.com/kubeflow/fairing) | 337 | 2022-04-11T05:28:47Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [vizzuhq/ipyvizzu-story](https://github.com/vizzuhq/ipyvizzu-story) | 336 | 2025-02-26T16:59:01Z | Other | Infrastructure/tooling | 11 | 10 | 11 | 11 |
+| [patterns-ai-core/langchainrb_rails](https://github.com/patterns-ai-core/langchainrb_rails) | 336 | 2024-12-25T21:37:30Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [bluespec/Piccolo](https://github.com/bluespec/Piccolo) | 336 | 2022-01-23T23:41:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [hgourvest/superobject](https://github.com/hgourvest/superobject) | 336 | 2021-10-09T09:12:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [AaronC81/sord](https://github.com/AaronC81/sord) | 332 | 2025-07-07T21:21:09Z | Other | Infrastructure/tooling | 8 | 2 | 8 | 8 |
@@ -1466,7 +1467,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SwiftGen/StencilSwiftKit](https://github.com/SwiftGen/StencilSwiftKit) | 304 | 2023-03-17T06:01:28Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [feiyun0112/machinelearning-samples.zh-cn](https://github.com/feiyun0112/machinelearning-samples.zh-cn) | 302 | 2023-04-29T23:39:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [bottlenoselabs/c2cs](https://github.com/bottlenoselabs/c2cs) | 300 | 2025-09-08T18:34:25Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
-| [NVIDIA-Genomics-Research/GenomeWorks](https://github.com/NVIDIA-Genomics-Research/GenomeWorks) | 300 | 2024-05-03T19:45:20Z | Other | Library | 7 | 0 | 7 | 7 |
+| [NVIDIA-Genomics-Research/GenomeWorks](https://github.com/NVIDIA-Genomics-Research/GenomeWorks) | 300 | 2024-05-03T19:45:20Z | Other | Library | 6 | 0 | 7 | 7 |
 | [adobe-type-tools/cmap-resources](https://github.com/adobe-type-tools/cmap-resources) | 300 | 2023-11-15T12:47:31Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [yandex-research/navigan](https://github.com/yandex-research/navigan) | 300 | 2021-06-22T09:52:59Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [AIGAnimation/CAMDM](https://github.com/AIGAnimation/CAMDM) | 299 | 2025-09-25T12:51:01Z | Other | Model/data | 0 | 0 | 0 | 0 |
@@ -1644,6 +1645,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [omniti-labs/pg_jobmon](https://github.com/omniti-labs/pg_jobmon) | 200 | 2022-05-26T18:44:20Z | Other | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [tinted-theming/tinted-xfce4-terminal](https://github.com/tinted-theming/tinted-xfce4-terminal) | 199 | 2024-12-31T07:24:08Z | Other | CLI | 9 | 2 | 9 | 9 |
 | [CocoaPods/CLAide](https://github.com/CocoaPods/CLAide) | 198 | 2024-02-07T16:59:01Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [pythonic-emacs/blacken](https://github.com/pythonic-emacs/blacken) | 197 | 2025-11-21T16:20:46Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [vlajos/misspell-fixer](https://github.com/vlajos/misspell-fixer) | 197 | 2025-09-19T23:20:15Z | Other | Infrastructure/tooling | 12 | 4 | 12 | 12 |
 | [velocyto-team/velocyto.R](https://github.com/velocyto-team/velocyto.R) | 197 | 2023-09-14T09:22:25Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [atom/language-javascript](https://github.com/atom/language-javascript) | 197 | 2022-09-28T10:52:02Z | Other | Infrastructure/tooling | 0 | 7 | 0 | 0 |

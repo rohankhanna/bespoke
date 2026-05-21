@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 202,
-    "concepts": 250,
-    "observations": 251,
-    "repos": 20,
-    "terms": 247
+    "components": 217,
+    "concepts": 266,
+    "observations": 268,
+    "repos": 22,
+    "terms": 265
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "axolotl-ai-cloud/axolotl",
@@ -27,12 +27,14 @@
     "modelscope/FunASR",
     "modelscope/ms-swift",
     "NVIDIA-NeMo/NeMo",
+    "oobabooga/textgen",
     "OpenHands/OpenHands",
     "psf/black",
     "pydantic/pydantic",
-    "qubvel-org/segmentation_models.pytorch",
     "run-llama/llama_index",
+    "TEN-framework/ten-framework",
     "ungoogled-software/ungoogled-chromium",
-    "verl-project/verl"
+    "verl-project/verl",
+    "zhayujie/CowAgent"
   ]
 }

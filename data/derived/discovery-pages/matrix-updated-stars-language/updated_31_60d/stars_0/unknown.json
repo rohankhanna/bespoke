@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 52,
-    "concepts": 53,
-    "observations": 53,
-    "repos": 77,
-    "terms": 62
+    "concepts": 57,
+    "observations": 57,
+    "repos": 82,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -40,6 +40,7 @@
     "danielrosehill/Agent-Journal",
     "danielrosehill/Agent-Skills",
     "danielrosehill/AI-Browser-Tools",
+    "danielrosehill/AI-Geopol-Projects",
     "danielrosehill/AI-Memory-Planning-0426",
     "danielrosehill/AI-Project-Spec-Pattern",
     "danielrosehill/AI-Projects-Index",
@@ -54,9 +55,13 @@
     "danielrosehill/Claude-Audio-Production-Plugin",
     "danielrosehill/Claude-Budgeting-Plugin",
     "danielrosehill/Claude-Career-Plugin",
+    "danielrosehill/Claude-Code-Feedback",
+    "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
+    "danielrosehill/Claude-HTML-Email-Designer-Plugin",
     "danielrosehill/Claude-Workspace-Reshaping-190426",
     "danielrosehill/Context-Projects-Index",
     "danielrosehill/Deployments-Index",
+    "danielrosehill/Favorite-Code-Libraries",
     "danielrosehill/Geopol-Forecasts-Index",
     "danielrosehill/Geopolitical-And-OSINT-Index",
     "danielrosehill/GitHub-Management-Tools-Index",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 272
+- repos: 273
 - terms: 646
-- components: 2912
+- components: 2925
 - concepts: 654
 - observations: 654
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [markdown-it/markdown-it-abbr](https://github.com/markdown-it/markdown-it-abbr) | 50 | 2025-11-21T12:09:31Z | JavaScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [markdown-it/markdown-it-sub](https://github.com/markdown-it/markdown-it-sub) | 29 | 2025-11-21T08:09:35Z | JavaScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [markdown-it/markdown-it-cjk-breaks](https://github.com/markdown-it/markdown-it-cjk-breaks) | 23 | 2025-11-21T01:06:50Z | JavaScript | Infrastructure/tooling | 0 | 14 | 0 | 0 |
 | [markdown-it/markdown-it-deflist](https://github.com/markdown-it/markdown-it-deflist) | 53 | 2025-11-20T17:08:22Z | JavaScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
@@ -111,7 +112,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [muhajirdev/monad-ui](https://github.com/muhajirdev/monad-ui) | 37 | 2024-08-29T20:42:13Z | JavaScript | Unknown | 3 | 9 | 3 | 3 |
 | [Comfy-Org/ComfyUI_legacy_frontend](https://github.com/Comfy-Org/ComfyUI_legacy_frontend) | 10 | 2024-08-11T14:45:40Z | JavaScript | Web app | 0 | 1 | 0 | 0 |
 | [sumcumo/imagemin-merlin](https://github.com/sumcumo/imagemin-merlin) | 64 | 2024-08-06T16:59:07Z | JavaScript | Unknown | 6 | 9 | 6 | 6 |
-| [TritonDataCenter/node-getopt](https://github.com/TritonDataCenter/node-getopt) | 46 | 2024-08-01T15:11:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [tritondatacenter/node-getopt](https://github.com/TritonDataCenter/node-getopt) | 46 | 2024-08-01T15:11:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [brombal/just-install](https://github.com/brombal/just-install) | 51 | 2024-07-31T23:01:48Z | JavaScript | Unknown | 0 | 3 | 0 | 0 |
 | [pot-app/pot-app-collection-plugin-shanbay](https://github.com/pot-app/pot-app-collection-plugin-shanbay) | 10 | 2024-07-31T00:10:02Z | JavaScript | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [crudo/grunt-testcafe](https://github.com/crudo/grunt-testcafe) | 10 | 2024-07-26T18:22:25Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
@@ -401,6 +402,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [electron-userland/electron-installer-snap](https://github.com/electron-userland/electron-installer-snap) | 53 | 2023-09-09T03:20:27Z | JavaScript | Infrastructure/tooling | 4 | 33 | 4 | 4 |
 | [chinobing/FastAPI-PaddleSpeech-Audio-To-Text](https://github.com/chinobing/FastAPI-PaddleSpeech-Audio-To-Text) | 52 | 2024-04-28T09:26:34Z | JavaScript | Infrastructure/tooling | 4 | 0 | 4 | 4 |
 | [brombal/just-install](https://github.com/brombal/just-install) | 51 | 2024-07-31T23:01:48Z | JavaScript | Unknown | 0 | 3 | 0 | 0 |
+| [markdown-it/markdown-it-abbr](https://github.com/markdown-it/markdown-it-abbr) | 50 | 2025-11-21T12:09:31Z | JavaScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [streamich/spyfs](https://github.com/streamich/spyfs) | 50 | 2025-09-17T05:59:08Z | JavaScript | Unknown | 3 | 18 | 3 | 3 |
 | [ltdrdata/comfyui-connection-helper](https://github.com/ltdrdata/comfyui-connection-helper) | 50 | 2025-04-07T13:49:56Z | JavaScript | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [jonschlinkert/whence](https://github.com/jonschlinkert/whence) | 50 | 2025-02-07T06:00:49Z | JavaScript | Infrastructure/tooling | 17 | 11 | 17 | 17 |
@@ -417,7 +419,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sanctuary-js/sanctuary-either](https://github.com/sanctuary-js/sanctuary-either) | 48 | 2024-11-10T14:54:16Z | JavaScript | Unknown | 2 | 11 | 2 | 2 |
 | [wylieconlon/jsonrpc-ws-proxy](https://github.com/wylieconlon/jsonrpc-ws-proxy) | 48 | 2022-07-18T19:38:17Z | JavaScript | Web app | 0 | 11 | 0 | 0 |
 | [JakePartusch/wait-for-netlify-action](https://github.com/JakePartusch/wait-for-netlify-action) | 47 | 2024-05-20T23:02:05Z | JavaScript | Infrastructure/tooling | 0 | 4 | 0 | 0 |
-| [TritonDataCenter/node-getopt](https://github.com/TritonDataCenter/node-getopt) | 46 | 2024-08-01T15:11:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [tritondatacenter/node-getopt](https://github.com/TritonDataCenter/node-getopt) | 46 | 2024-08-01T15:11:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [jlevy/atom-flowmark](https://github.com/jlevy/atom-flowmark) | 45 | 2023-03-04T09:45:13Z | JavaScript | Unknown | 0 | 17 | 0 | 0 |
 | [GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint](https://github.com/GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint) | 44 | 2025-03-31T09:17:55Z | JavaScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [ethereum/rpc-tests](https://github.com/ethereum/rpc-tests) | 44 | 2023-06-20T16:52:49Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |

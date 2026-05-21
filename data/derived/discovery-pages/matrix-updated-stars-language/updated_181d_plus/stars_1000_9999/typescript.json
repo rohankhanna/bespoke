@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2808,
-    "concepts": 471,
-    "observations": 471,
-    "repos": 98,
-    "terms": 480
+    "components": 2834,
+    "concepts": 475,
+    "observations": 475,
+    "repos": 99,
+    "terms": 484
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "101arrowz/fflate",
@@ -47,6 +47,7 @@
     "electron-vite/electron-vite-vue",
     "eleme/morjs",
     "ElricLiu/AutoGPT-Next-Web",
+    "EventSource/eventsource",
     "expo/expo-cli",
     "felixrieseberg/windows-build-tools",
     "fjc0k/docker-YApi",

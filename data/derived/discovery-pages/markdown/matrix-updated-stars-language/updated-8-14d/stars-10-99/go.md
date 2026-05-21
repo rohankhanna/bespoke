@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 2
-- components: 8
-- concepts: 2
-- observations: 2
+- repos: 1
+- terms: 0
+- components: 0
+- concepts: 0
+- observations: 0
 
 ## Static behavior
 
@@ -26,12 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [joshsymonds/cc-tools](https://github.com/joshsymonds/cc-tools) | 50 | 2026-05-12T16:38:41Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [energye/wv](https://github.com/energye/wv) | 22 | 2026-05-09T01:13:26Z | Go | Framework | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [joshsymonds/cc-tools](https://github.com/joshsymonds/cc-tools) | 50 | 2026-05-12T16:38:41Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [energye/wv](https://github.com/energye/wv) | 22 | 2026-05-09T01:13:26Z | Go | Framework | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9731,
-    "concepts": 1416,
-    "observations": 1427,
-    "repos": 124,
-    "terms": 1412
+    "components": 9517,
+    "concepts": 1384,
+    "observations": 1393,
+    "repos": 120,
+    "terms": 1380
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
@@ -21,7 +21,6 @@
     "ant-design/ant-design",
     "apache/echarts",
     "apache/superset",
-    "apollographql/apollo-client",
     "apollographql/apollo-server",
     "appium/appium",
     "appwrite/appwrite",
@@ -32,7 +31,6 @@
     "bitwarden/clients",
     "bluesky-social/social-app",
     "bokeh/bokeh",
-    "browserless/browserless",
     "bytedance/UI-TARS-desktop",
     "calcom/cal.diy",
     "changesets/changesets",
@@ -58,7 +56,6 @@
     "faker-js/faker",
     "FlowiseAI/Flowise",
     "formatjs/formatjs",
-    "gcanti/fp-ts",
     "google/brotli",
     "GoogleChromeLabs/comlink",
     "grafana/grafana",
@@ -85,13 +82,13 @@
     "medusajs/medusa",
     "mermaid-js/mermaid",
     "microsoft/playwright",
+    "mobxjs/mobx",
     "mongodb/node-mongodb-native",
     "mswjs/msw",
     "nitrojs/nitro",
     "nrwl/nx",
     "nuxt/nuxt",
     "oblador/react-native-vector-icons",
-    "openai/openai-node",
     "openobserve/openobserve",
     "paulmillr/chokidar",
     "pmndrs/react-three-fiber",
@@ -127,7 +124,6 @@
     "typescript-eslint/typescript-eslint",
     "vitejs/vite",
     "vitest-dev/vitest",
-    "VSCodeVim/Vim",
     "vuejs/core",
     "vuejs/vitepress",
     "vueuse/vueuse",

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [anacrolix/go-libutp](https://github.com/anacrolix/go-libutp) | 104 | 2026-03-21T12:03:05Z | C/C++ | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [vcflib/vcflib](https://github.com/vcflib/vcflib) | 676 | 2026-03-20T10:33:33Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [luvit/luvi](https://github.com/luvit/luvi) | 334 | 2026-03-19T22:40:29Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [KhronosGroup/OpenGL-Registry](https://github.com/KhronosGroup/OpenGL-Registry) | 835 | 2026-03-19T05:30:33Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
@@ -77,7 +78,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [marbl/canu](https://github.com/marbl/canu) | 700 | 2026-02-24T14:49:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [isciences/exactextract](https://github.com/isciences/exactextract) | 309 | 2026-02-24T13:44:58Z | C/C++ | Infrastructure/tooling | 5 | 18 | 5 | 5 |
 | [mlc-ai/tokenizers-cpp](https://github.com/mlc-ai/tokenizers-cpp) | 484 | 2026-02-20T22:55:39Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [devkitPro/libctru](https://github.com/devkitPro/libctru) | 925 | 2026-02-19T17:23:39Z | C/C++ | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -85,7 +85,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [btzy/nativefiledialog-extended](https://github.com/btzy/nativefiledialog-extended) | 986 | 2026-03-14T06:19:19Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [libxsmm/libxsmm](https://github.com/libxsmm/libxsmm) | 952 | 2026-03-18T18:05:21Z | C/C++ | Infrastructure/tooling | 17 | 6 | 17 | 17 |
-| [devkitPro/libctru](https://github.com/devkitPro/libctru) | 925 | 2026-02-19T17:23:39Z | C/C++ | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [PaddlePaddle/Paddle2ONNX](https://github.com/PaddlePaddle/Paddle2ONNX) | 921 | 2026-03-18T09:31:20Z | C/C++ | Infrastructure/tooling | 13 | 9 | 13 | 13 |
 | [frankmorgner/vsmartcard](https://github.com/frankmorgner/vsmartcard) | 836 | 2026-03-12T21:09:17Z | C/C++ | Infrastructure/tooling | 10 | 4 | 10 | 10 |
 | [KhronosGroup/OpenGL-Registry](https://github.com/KhronosGroup/OpenGL-Registry) | 835 | 2026-03-19T05:30:33Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
@@ -134,4 +133,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [derickr/timelib](https://github.com/derickr/timelib) | 133 | 2026-03-02T18:19:04Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [sasha0552/nvidia-pstated](https://github.com/sasha0552/nvidia-pstated) | 123 | 2026-02-24T17:38:15Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [stardot/beebasm](https://github.com/stardot/beebasm) | 106 | 2026-03-12T18:42:09Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [anacrolix/go-libutp](https://github.com/anacrolix/go-libutp) | 104 | 2026-03-21T12:03:05Z | C/C++ | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [google/effcee](https://github.com/google/effcee) | 103 | 2026-02-24T15:38:36Z | C/C++ | Library | 3 | 0 | 3 | 3 |

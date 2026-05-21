@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 33
-- terms: 168
-- components: 527
-- concepts: 170
-- observations: 171
+- repos: 34
+- terms: 175
+- components: 531
+- concepts: 177
+- observations: 178
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [chakra-core/ChakraCore](https://github.com/chakra-core/ChakraCore) | 9250 | 2026-02-19T20:35:46Z | JavaScript | Infrastructure/tooling | 15 | 1 | 15 | 15 |
+| [microsoft/generative-ai-with-javascript](https://github.com/microsoft/generative-ai-with-javascript) | 1194 | 2026-02-19T10:27:16Z | JavaScript | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [breejs/bree](https://github.com/breejs/bree) | 3285 | 2026-02-17T22:09:07Z | JavaScript | Infrastructure/tooling | 15 | 34 | 15 | 15 |
 | [casparwylie/cascii-core](https://github.com/casparwylie/cascii-core) | 1170 | 2026-02-17T21:01:02Z | JavaScript | Unknown | 4 | 0 | 4 | 4 |
 | [huggingface/transformers.js-examples](https://github.com/huggingface/transformers.js-examples) | 2031 | 2026-02-17T18:29:44Z | JavaScript | Unknown | 2 | 3 | 2 | 2 |
@@ -58,19 +60,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gautamkrishnar/nothing-private](https://github.com/gautamkrishnar/nothing-private) | 2213 | 2025-12-09T23:14:50Z | JavaScript | Infrastructure/tooling | 13 | 15 | 13 | 13 |
 | [Blizzard/node-rdkafka](https://github.com/Blizzard/node-rdkafka) | 2204 | 2025-12-03T19:21:11Z | JavaScript | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [GoogleChromeLabs/jsvu](https://github.com/GoogleChromeLabs/jsvu) | 2026 | 2025-11-26T13:01:05Z | JavaScript | Infrastructure/tooling | 5 | 18 | 5 | 5 |
-| [songquanpeng/message-pusher](https://github.com/songquanpeng/message-pusher) | 3841 | 2025-11-22T04:22:53Z | JavaScript | Infrastructure/tooling | 16 | 11 | 16 | 16 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [chakra-core/ChakraCore](https://github.com/chakra-core/ChakraCore) | 9250 | 2026-02-19T20:35:46Z | JavaScript | Infrastructure/tooling | 15 | 1 | 15 | 15 |
 | [grpc/grpc-web](https://github.com/grpc/grpc-web) | 9201 | 2026-02-07T16:30:59Z | JavaScript | CLI | 5 | 3 | 5 | 5 |
 | [developit/microbundle](https://github.com/developit/microbundle) | 8138 | 2026-02-01T19:24:38Z | JavaScript | Infrastructure/tooling | 9 | 70 | 9 | 9 |
 | [microsoft/botframework-sdk](https://github.com/microsoft/botframework-sdk) | 7804 | 2025-12-29T17:45:58Z | JavaScript | Framework | 8 | 0 | 8 | 8 |
 | [sindresorhus/execa](https://github.com/sindresorhus/execa) | 7500 | 2026-01-29T03:54:57Z | JavaScript | Infrastructure/tooling | 8 | 31 | 9 | 9 |
 | [gradio-app/fastrtc](https://github.com/gradio-app/fastrtc) | 4586 | 2026-01-12T15:53:57Z | JavaScript | Infrastructure/tooling | 8 | 5 | 8 | 9 |
 | [jimmywarting/StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js) | 4349 | 2026-01-18T14:33:28Z | JavaScript | Unknown | 4 | 0 | 4 | 4 |
-| [songquanpeng/message-pusher](https://github.com/songquanpeng/message-pusher) | 3841 | 2025-11-22T04:22:53Z | JavaScript | Infrastructure/tooling | 16 | 11 | 16 | 16 |
 | [jsx-eslint/eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y) | 3579 | 2026-01-06T02:25:30Z | JavaScript | Infrastructure/tooling | 10 | 52 | 10 | 10 |
 | [breejs/bree](https://github.com/breejs/bree) | 3285 | 2026-02-17T22:09:07Z | JavaScript | Infrastructure/tooling | 15 | 34 | 15 | 15 |
 | [cristianbote/goober](https://github.com/cristianbote/goober) | 3259 | 2026-02-01T09:12:17Z | JavaScript | Infrastructure/tooling | 12 | 29 | 12 | 12 |
@@ -94,6 +95,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sindresorhus/trash-cli](https://github.com/sindresorhus/trash-cli) | 1397 | 2026-02-02T05:21:20Z | JavaScript | Infrastructure/tooling | 0 | 10 | 0 | 0 |
 | [file-icons/atom](https://github.com/file-icons/atom) | 1366 | 2025-12-28T05:36:10Z | JavaScript | Unknown | 2 | 14 | 2 | 2 |
 | [steipete/claude-code-mcp](https://github.com/steipete/claude-code-mcp) | 1236 | 2026-01-01T13:18:45Z | JavaScript | Infrastructure/tooling | 2 | 11 | 2 | 2 |
+| [microsoft/generative-ai-with-javascript](https://github.com/microsoft/generative-ai-with-javascript) | 1194 | 2026-02-19T10:27:16Z | JavaScript | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [TritonDataCenter/node-verror](https://github.com/TritonDataCenter/node-verror) | 1191 | 2026-01-13T22:31:32Z | JavaScript | Unknown | 0 | 3 | 0 | 0 |
 | [casparwylie/cascii-core](https://github.com/casparwylie/cascii-core) | 1170 | 2026-02-17T21:01:02Z | JavaScript | Unknown | 4 | 0 | 4 | 4 |
 | [guybedford/es-module-lexer](https://github.com/guybedford/es-module-lexer) | 1014 | 2025-12-19T10:57:10Z | JavaScript | Infrastructure/tooling | 1 | 12 | 1 | 1 |

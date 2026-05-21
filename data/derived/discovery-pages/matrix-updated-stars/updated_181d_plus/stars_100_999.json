@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15177,
-    "concepts": 13684,
-    "observations": 13710,
-    "repos": 4513,
-    "terms": 13463
+    "components": 15180,
+    "concepts": 13679,
+    "observations": 13705,
+    "repos": 4516,
+    "terms": 13461
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -334,6 +334,7 @@
     "andyzeng/3dmatch-toolbox",
     "angelobreuer/localtunnel.net",
     "angr/heaphopper",
+    "angular/vscode-ng-language-service",
     "anhero/JsonBox",
     "anilmaurya/fast_jsonparser",
     "Anime4KWebBoost/Anime4K-WebGPU",
@@ -1821,6 +1822,7 @@
     "GoogleChromeLabs/jsbi",
     "GoogleCloudPlatform/elixir-samples",
     "GoogleCloudPlatform/nodejs-getting-started",
+    "googlefonts/fontmake",
     "googlefonts/gf-docs",
     "googlefonts/rubik",
     "goreleaser/godownloader",
@@ -3532,6 +3534,7 @@
     "pyrocat101/opal",
     "pytest-dev/cookiecutter-pytest-plugin",
     "python-hyper/h11",
+    "pythonic-emacs/blacken",
     "pytorch/builder",
     "pytorch/elastic",
     "PyYoshi/cChardet",
@@ -3674,6 +3677,7 @@
     "RPM-Robotics-Lab/sRGB-TIR",
     "rranelli/auto-package-update.el",
     "RRethy/nvim-treesitter-textsubjects",
+    "RReverser/wasm-bindgen-rayon",
     "rrwick/Bandage",
     "rsmdt/yell",
     "rspatial/raster",
@@ -4185,7 +4189,6 @@
     "unlimblue/KNN_CUDA",
     "unsplash/comment-on-pr",
     "unum-cloud/UStore",
-    "update/update",
     "uptrace/bunrouter",
     "uptrace/go-clickhouse",
     "urjitbhatia/cozgo",

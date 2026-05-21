@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10357,
-    "concepts": 8879,
-    "observations": 8888,
-    "repos": 2312,
-    "terms": 8754
+    "components": 10394,
+    "concepts": 8899,
+    "observations": 8908,
+    "repos": 2315,
+    "terms": 8774
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -643,6 +643,7 @@
     "ethz-asl/okvis",
     "evalplus/evalplus",
     "evanwashere/mitata",
+    "EventSource/eventsource",
     "EvgenyKashin/stylegan2-distillation",
     "EvolvingLMMs-Lab/open-r1-multimodal",
     "EvolvingLMMs-Lab/Otter",
@@ -673,6 +674,7 @@
     "facebookresearch/frankmocap",
     "facebookresearch/higher",
     "facebookresearch/ijepa",
+    "facebookresearch/ImageBind",
     "facebookresearch/mae",
     "facebookresearch/Mask2Former",
     "facebookresearch/MaskFormer",
@@ -1929,6 +1931,7 @@
     "snap-stanford/pretrain-gnns",
     "snap-stanford/snap",
     "sniklaus/sepconv-slomo",
+    "songquanpeng/message-pusher",
     "sonph/onehalf",
     "sony/nnabla",
     "SonyResearch/micro_diffusion",

@@ -1,46 +1,43 @@
 {
   "counts": {
-    "components": 526,
-    "concepts": 322,
-    "observations": 324,
-    "repos": 29,
-    "terms": 318
+    "components": 532,
+    "concepts": 249,
+    "observations": 249,
+    "repos": 26,
+    "terms": 247
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "aden-hive/hive",
+    "anthropics/claude-cookbooks",
     "apache/brpc",
     "apache/casbin",
     "browserslist/browserslist",
     "ChatGPTNextWeb/NextChat",
     "dense-analysis/ale",
-    "fuma-nama/fumadocs",
     "ggml-org/ggml",
     "ggml-org/whisper.cpp",
-    "github-linguist/linguist",
-    "gitleaks/gitleaks",
     "googleapis/google-api-nodejs-client",
     "JetBrains/compose-multiplatform",
-    "Koenkk/zigbee2mqtt",
-    "lucide-icons/lucide",
+    "langchain-ai/langchainjs",
+    "meta-llama/llama-cookbook",
     "neovim/nvim-lspconfig",
-    "nushell/nushell",
     "nvm-sh/nvm",
     "nwjs/nw.js",
-    "obsproject/obs-studio",
-    "oobabooga/textgen",
+    "preactjs/preact",
     "pyg-team/pytorch_geometric",
+    "QuantumNous/new-api",
+    "qubvel-org/segmentation_models.pytorch",
+    "quickwit-oss/tantivy",
     "realworld-apps/realworld",
-    "spaceship-prompt/spaceship-prompt",
+    "rust-lang/mdBook",
     "SubtitleEdit/subtitleedit",
-    "TEN-framework/ten-framework",
-    "vbenjs/vue-vben-admin",
-    "vercel-labs/skills",
-    "zhayujie/CowAgent"
+    "unocss/unocss",
+    "vercel-labs/skills"
   ]
 }

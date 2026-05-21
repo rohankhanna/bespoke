@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 166
-- terms: 425
-- components: 410
-- concepts: 429
-- observations: 432
+- repos: 169
+- terms: 438
+- components: 424
+- concepts: 442
+- observations: 445
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [cloudfoundry/bosh-deployment-resource](https://github.com/cloudfoundry/bosh-deployment-resource) | 12 | 2025-11-21T22:21:53Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [spacemeshos/poet](https://github.com/spacemeshos/poet) | 24 | 2025-11-21T10:05:07Z | Go | Infrastructure/tooling | 7 | 8 | 7 | 7 |
+| [spacemeshos/smcli](https://github.com/spacemeshos/smcli) | 10 | 2025-11-21T09:06:36Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [google/gnostic-models](https://github.com/google/gnostic-models) | 20 | 2025-11-19T16:49:05Z | Go | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [Layr-Labs/eigensdk-go](https://github.com/Layr-Labs/eigensdk-go) | 75 | 2025-10-30T17:15:11Z | Go | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [ipfs-shipyard/nopfs](https://github.com/ipfs-shipyard/nopfs) | 23 | 2025-10-27T23:33:41Z | Go | Infrastructure/tooling | 7 | 11 | 7 | 7 |
@@ -300,6 +303,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tidwall/btree-benchmark](https://github.com/tidwall/btree-benchmark) | 25 | 2023-09-06T21:49:35Z | Go | Library | 0 | 0 | 0 | 0 |
 | [Jille/raftadmin](https://github.com/Jille/raftadmin) | 25 | 2023-08-24T19:23:17Z | Go | Unknown | 3 | 0 | 3 | 3 |
 | [xrjr/mcutils](https://github.com/xrjr/mcutils) | 25 | 2023-04-14T19:33:19Z | Go | Infrastructure/tooling | 8 | 2 | 8 | 8 |
+| [spacemeshos/poet](https://github.com/spacemeshos/poet) | 24 | 2025-11-21T10:05:07Z | Go | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [tianon/markdownfmt](https://github.com/tianon/markdownfmt) | 24 | 2025-09-18T00:04:02Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [3rd/syslang](https://github.com/3rd/syslang) | 24 | 2025-08-17T23:08:22Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [extism/cli](https://github.com/extism/cli) | 24 | 2025-07-23T19:36:12Z | Go | CLI | 1 | 5 | 1 | 1 |
@@ -351,6 +355,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cdcdx/lotus](https://github.com/cdcdx/lotus) | 13 | 2023-05-11T15:41:33Z | Go | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [superedge/edgeadm](https://github.com/superedge/edgeadm) | 13 | 2023-04-18T09:27:31Z | Go | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [ahmetb/ytdl](https://github.com/ahmetb/ytdl) | 13 | 2021-05-25T17:00:04Z | Go | Infrastructure/tooling | 3 | 0 | 3 | 3 |
+| [cloudfoundry/bosh-deployment-resource](https://github.com/cloudfoundry/bosh-deployment-resource) | 12 | 2025-11-21T22:21:53Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [itzg/entrypoint-demoter](https://github.com/itzg/entrypoint-demoter) | 11 | 2025-09-28T14:42:46Z | Go | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [OpenTreeHole/auth_next](https://github.com/OpenTreeHole/auth_next) | 11 | 2025-08-16T11:23:42Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 2 |
 | [rueian/rueidis-benchmark](https://github.com/rueian/rueidis-benchmark) | 11 | 2025-07-18T03:02:22Z | Go | Unknown | 0 | 0 | 0 | 0 |
@@ -360,6 +365,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [scaleway/serverless-functions-go](https://github.com/scaleway/serverless-functions-go) | 11 | 2023-05-16T16:55:01Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [hertz-contrib/casbin](https://github.com/hertz-contrib/casbin) | 11 | 2023-02-20T05:16:18Z | Go | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [didip/errstack](https://github.com/didip/errstack) | 11 | 2022-11-30T23:55:14Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [spacemeshos/smcli](https://github.com/spacemeshos/smcli) | 10 | 2025-11-21T09:06:36Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [ChrisHirsch/kuberhealthy-storage-check](https://github.com/ChrisHirsch/kuberhealthy-storage-check) | 10 | 2024-07-31T08:50:28Z | Go | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [vmihailenco/go-tinylfu](https://github.com/vmihailenco/go-tinylfu) | 10 | 2023-08-04T09:32:47Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [olric-data/olric-cloud-plugin](https://github.com/olric-data/olric-cloud-plugin) | 10 | 2023-02-25T06:44:38Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |

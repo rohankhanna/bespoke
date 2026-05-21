@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-20T05:54:21.882731+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 909 | 2026-05-18T21:18:01Z | Go | Infrastructure/tooling | 5 | 19 | 5 | 5 |
+| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 910 | 2026-05-19T20:25:25Z | Go | Infrastructure/tooling | 5 | 19 | 5 | 5 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 909 | 2026-05-18T21:18:01Z | Go | Infrastructure/tooling | 5 | 19 | 5 | 5 |
+| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 910 | 2026-05-19T20:25:25Z | Go | Infrastructure/tooling | 5 | 19 | 5 | 5 |

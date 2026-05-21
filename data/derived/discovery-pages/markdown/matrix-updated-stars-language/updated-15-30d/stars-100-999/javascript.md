@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 95
-- terms: 513
-- components: 2350
-- concepts: 518
-- observations: 526
+- repos: 91
+- terms: 486
+- components: 2180
+- concepts: 491
+- observations: 497
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [tc39/eshost](https://github.com/tc39/eshost) | 147 | 2026-05-06T23:54:31Z | JavaScript | CLI | 0 | 23 | 0 | 0 |
 | [mafintosh/streamx](https://github.com/mafintosh/streamx) | 239 | 2026-05-06T08:00:52Z | JavaScript | Infrastructure/tooling | 1 | 11 | 1 | 1 |
 | [gitleaks/gitleaks-action](https://github.com/gitleaks/gitleaks-action) | 586 | 2026-05-05T18:59:46Z | JavaScript | Infrastructure/tooling | 13 | 10 | 13 | 13 |
 | [stylelint/stylelint-config-recommended](https://github.com/stylelint/stylelint-config-recommended) | 400 | 2026-05-05T08:27:02Z | JavaScript | Infrastructure/tooling | 3 | 14 | 3 | 3 |
@@ -116,11 +117,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [conda-forge/conda-forge.github.io](https://github.com/conda-forge/conda-forge.github.io) | 166 | 2026-04-21T13:32:22Z | JavaScript | Infrastructure/tooling | 4 | 31 | 4 | 4 |
 | [unicode-org/message-format-wg](https://github.com/unicode-org/message-format-wg) | 418 | 2026-04-21T12:11:42Z | JavaScript | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [Taritsyn/BundleTransformer](https://github.com/Taritsyn/BundleTransformer) | 139 | 2026-04-21T09:26:36Z | JavaScript | Framework | 0 | 0 | 0 | 0 |
-| [higlass/higlass](https://github.com/higlass/higlass) | 340 | 2026-04-21T03:35:34Z | JavaScript | Infrastructure/tooling | 7 | 89 | 7 | 7 |
-| [semantic-release/github](https://github.com/semantic-release/github) | 509 | 2026-04-20T09:36:09Z | JavaScript | Infrastructure/tooling | 6 | 32 | 6 | 7 |
-| [semantic-release/commit-analyzer](https://github.com/semantic-release/commit-analyzer) | 437 | 2026-04-20T09:20:32Z | JavaScript | Infrastructure/tooling | 9 | 25 | 9 | 10 |
-| [bcomnes/npm-run-all2](https://github.com/bcomnes/npm-run-all2) | 411 | 2026-04-20T09:18:15Z | JavaScript | CLI | 3 | 25 | 3 | 3 |
-| [chaijs/chai-http](https://github.com/chaijs/chai-http) | 639 | 2026-04-20T08:54:45Z | JavaScript | Infrastructure/tooling | 2 | 22 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -154,7 +150,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [postcss/postcss-load-config](https://github.com/postcss/postcss-load-config) | 665 | 2026-04-24T16:17:02Z | JavaScript | Infrastructure/tooling | 1 | 27 | 1 | 1 |
 | [kriszyp/msgpackr](https://github.com/kriszyp/msgpackr) | 657 | 2026-04-27T12:03:35Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
 | [carbon-design-system/carbon-components-vue](https://github.com/carbon-design-system/carbon-components-vue) | 643 | 2026-04-24T23:30:18Z | JavaScript | Infrastructure/tooling | 10 | 58 | 10 | 10 |
-| [chaijs/chai-http](https://github.com/chaijs/chai-http) | 639 | 2026-04-20T08:54:45Z | JavaScript | Infrastructure/tooling | 2 | 22 | 2 | 2 |
 | [facebook/Rapid](https://github.com/facebook/Rapid) | 630 | 2026-05-01T13:18:40Z | JavaScript | Infrastructure/tooling | 4 | 92 | 4 | 4 |
 | [all-contributors/app](https://github.com/all-contributors/app) | 624 | 2026-05-01T00:47:47Z | JavaScript | Infrastructure/tooling | 12 | 16 | 12 | 12 |
 | [rubyjs/mini_racer](https://github.com/rubyjs/mini_racer) | 620 | 2026-04-27T05:46:24Z | JavaScript | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -167,14 +162,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [adamlui/ai-web-extensions](https://github.com/adamlui/ai-web-extensions) | 539 | 2026-04-22T17:37:42Z | JavaScript | Infrastructure/tooling | 16 | 15 | 16 | 16 |
 | [hudochenkov/postcss-sorting](https://github.com/hudochenkov/postcss-sorting) | 532 | 2026-04-29T07:14:26Z | JavaScript | Infrastructure/tooling | 5 | 16 | 5 | 5 |
 | [i18next/i18next-http-backend](https://github.com/i18next/i18next-http-backend) | 522 | 2026-04-23T15:46:04Z | JavaScript | Infrastructure/tooling | 7 | 29 | 7 | 8 |
-| [semantic-release/github](https://github.com/semantic-release/github) | 509 | 2026-04-20T09:36:09Z | JavaScript | Infrastructure/tooling | 6 | 32 | 6 | 7 |
 | [jest-community/jest-junit](https://github.com/jest-community/jest-junit) | 499 | 2026-04-24T13:42:41Z | JavaScript | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [ImranR98/apps.obtainium.imranr.dev](https://github.com/ImranR98/apps.obtainium.imranr.dev) | 496 | 2026-04-23T04:20:01Z | JavaScript | Infrastructure/tooling | 16 | 2 | 16 | 16 |
 | [poolifier/poolifier](https://github.com/poolifier/poolifier) | 450 | 2026-04-23T01:39:48Z | JavaScript | Infrastructure/tooling | 14 | 42 | 14 | 14 |
-| [semantic-release/commit-analyzer](https://github.com/semantic-release/commit-analyzer) | 437 | 2026-04-20T09:20:32Z | JavaScript | Infrastructure/tooling | 9 | 25 | 9 | 10 |
 | [w3c/webref](https://github.com/w3c/webref) | 429 | 2026-05-01T07:26:20Z | JavaScript | Infrastructure/tooling | 8 | 20 | 8 | 8 |
 | [unicode-org/message-format-wg](https://github.com/unicode-org/message-format-wg) | 418 | 2026-04-21T12:11:42Z | JavaScript | Infrastructure/tooling | 3 | 4 | 3 | 3 |
-| [bcomnes/npm-run-all2](https://github.com/bcomnes/npm-run-all2) | 411 | 2026-04-20T09:18:15Z | JavaScript | CLI | 3 | 25 | 3 | 3 |
 | [conventional-changelog/releaser-tools](https://github.com/conventional-changelog/releaser-tools) | 402 | 2026-04-29T18:17:02Z | JavaScript | Unknown | 9 | 12 | 9 | 9 |
 | [stylelint/stylelint-config-recommended](https://github.com/stylelint/stylelint-config-recommended) | 400 | 2026-05-05T08:27:02Z | JavaScript | Infrastructure/tooling | 3 | 14 | 3 | 3 |
 | [neostandard/neostandard](https://github.com/neostandard/neostandard) | 389 | 2026-04-22T07:09:02Z | JavaScript | Infrastructure/tooling | 8 | 28 | 8 | 8 |
@@ -183,7 +175,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [webtorrent/bittorrent-protocol](https://github.com/webtorrent/bittorrent-protocol) | 356 | 2026-04-29T12:38:21Z | JavaScript | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [mozilla/addons-linter](https://github.com/mozilla/addons-linter) | 356 | 2026-04-29T11:24:01Z | JavaScript | CLI | 1 | 59 | 1 | 1 |
 | [sveltejs/dts-buddy](https://github.com/sveltejs/dts-buddy) | 351 | 2026-04-29T20:30:52Z | JavaScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
-| [higlass/higlass](https://github.com/higlass/higlass) | 340 | 2026-04-21T03:35:34Z | JavaScript | Infrastructure/tooling | 7 | 89 | 7 | 7 |
 | [ember-cli/ember-cli-update](https://github.com/ember-cli/ember-cli-update) | 279 | 2026-04-29T19:30:19Z | JavaScript | CLI | 3 | 40 | 3 | 3 |
 | [reviewdog/action-eslint](https://github.com/reviewdog/action-eslint) | 260 | 2026-04-27T09:39:03Z | JavaScript | Infrastructure/tooling | 6 | 15 | 6 | 7 |
 | [emberjs/ember-qunit](https://github.com/emberjs/ember-qunit) | 258 | 2026-04-24T13:11:07Z | JavaScript | Infrastructure/tooling | 4 | 7 | 4 | 4 |
@@ -206,6 +197,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aredridel/node-bin-gen](https://github.com/aredridel/node-bin-gen) | 165 | 2026-04-22T20:22:35Z | JavaScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [electerm/electerm-web](https://github.com/electerm/electerm-web) | 161 | 2026-04-29T09:33:36Z | JavaScript | CLI | 6 | 77 | 6 | 6 |
 | [Kilian/electron-to-chromium](https://github.com/Kilian/electron-to-chromium) | 155 | 2026-05-01T06:02:24Z | JavaScript | Infrastructure/tooling | 6 | 8 | 6 | 6 |
+| [tc39/eshost](https://github.com/tc39/eshost) | 147 | 2026-05-06T23:54:31Z | JavaScript | CLI | 0 | 23 | 0 | 0 |
 | [Taritsyn/BundleTransformer](https://github.com/Taritsyn/BundleTransformer) | 139 | 2026-04-21T09:26:36Z | JavaScript | Framework | 0 | 0 | 0 | 0 |
 | [usnistgov/h5wasm](https://github.com/usnistgov/h5wasm) | 137 | 2026-05-01T19:51:04Z | JavaScript | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [rooklift/ogatak](https://github.com/rooklift/ogatak) | 134 | 2026-04-25T11:30:29Z | JavaScript | Unknown | 3 | 0 | 3 | 3 |

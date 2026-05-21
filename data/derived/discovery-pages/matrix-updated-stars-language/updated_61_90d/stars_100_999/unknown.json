@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 22,
-    "concepts": 86,
-    "observations": 87,
+    "concepts": 81,
+    "observations": 82,
     "repos": 21,
-    "terms": 82
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "abubakarsiddik31/claude-skills-collection",
     "Alex313031/Thorium-Android",
@@ -25,11 +25,11 @@
     "hashicorp/vault-examples",
     "helm/community",
     "ipfs/devgrants",
-    "JuliaDiff/BlueStyle",
     "lumen-oss/nvim-best-practices",
     "lxgw/lxgw",
     "lxgw/LxgwZhenKai",
     "MiniMax-AI/MiniMax-M2.5",
+    "near/borsh",
     "neon-bindings/examples",
     "pbatard/UEFI-Shell",
     "peter-evans/enable-pull-request-automerge",

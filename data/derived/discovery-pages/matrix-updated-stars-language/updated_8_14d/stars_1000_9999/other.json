@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 59,
-    "concepts": 95,
-    "observations": 95,
-    "repos": 13,
-    "terms": 95
+    "components": 43,
+    "concepts": 66,
+    "observations": 66,
+    "repos": 10,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "benchflow-ai/skillsbench",
     "hacl-star/hacl-star",
     "intel/BigDL",
     "lightning/bolts",
-    "minad/consult",
-    "mrcjkb/rustaceanvim",
     "nushell/awesome-nu",
     "nvim-mini/mini.nvim",
+    "nvimdev/lspsaga.nvim",
     "okd-project/okd",
     "stakira/OpenUtau",
-    "theJayTea/WritingTools",
-    "truffleruby/truffleruby",
     "xororz/local-dream"
   ]
 }

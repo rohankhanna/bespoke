@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 16,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 68,
-    "terms": 47
+    "concepts": 43,
+    "observations": 43,
+    "repos": 63,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "cachix/serde-envfile",
     "conda-forge/conda-lock-feedstock",
@@ -26,7 +26,6 @@
     "danielrosehill/AI-Data-Utilities",
     "danielrosehill/AI-Dev-Repo-Template-1",
     "danielrosehill/AI-Dev-Workspace-Primitives",
-    "danielrosehill/AI-Geopol-Projects",
     "danielrosehill/AI-Memory-Layers",
     "danielrosehill/AI-Presentation-Builders-Index",
     "danielrosehill/AI-Safety-Projects-Index",
@@ -42,7 +41,6 @@
     "danielrosehill/Claude-Business-Idea-Eval-Plugin",
     "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
     "danielrosehill/Claude-Code-Bugs-And-FRs",
-    "danielrosehill/Claude-Code-Feedback",
     "danielrosehill/Claude-CopyQ-Scripting-Plugin",
     "danielrosehill/Claude-Data-Annotation-Plugin",
     "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin",
@@ -57,10 +55,8 @@
     "danielrosehill/Claude-Gist-Writer-Plugin",
     "danielrosehill/Claude-Github-Explorer-Plugin",
     "danielrosehill/Claude-GPG-Ops-Plugin",
-    "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
     "danielrosehill/Claude-Hardware-Spec-Assembly-Plugin",
     "danielrosehill/Claude-Hopper",
-    "danielrosehill/Claude-HTML-Email-Designer-Plugin",
     "danielrosehill/Claude-Israel",
     "danielrosehill/Claude-Jewish-Utilities-Plugin",
     "danielrosehill/Claude-KDE-Plasmoid-Dev-Plugin",
@@ -71,7 +67,6 @@
     "danielrosehill/Claude-Personal-Planning-Plugin",
     "danielrosehill/DOCS.md",
     "danielrosehill/ENVIRONMENT.md",
-    "danielrosehill/Favorite-Code-Libraries",
     "danielrosehill/GROUNDING.md",
     "danielrosehill/Israel-Projects-Index",
     "danielrosehill/Jewish-Texts-Reference-Plugin",

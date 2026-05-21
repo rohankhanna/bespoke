@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · TypeScript
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 29
-- terms: 174
-- components: 584
-- concepts: 174
-- observations: 174
+- repos: 26
+- terms: 163
+- components: 540
+- concepts: 163
+- observations: 163
 
 ## Static behavior
 
@@ -52,9 +52,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rstackjs/rsbuild-plugin-i18next-extractor](https://github.com/rstackjs/rsbuild-plugin-i18next-extractor) | 5 | 2026-04-24T06:17:50Z | TypeScript | CLI | 2 | 14 | 2 | 2 |
 | [octokit/auth-unauthenticated.js](https://github.com/octokit/auth-unauthenticated.js) | 5 | 2026-04-23T15:10:13Z | TypeScript | Infrastructure/tooling | 7 | 21 | 7 | 7 |
 | [nicolo-ribaudo/engine262](https://github.com/nicolo-ribaudo/engine262) | 5 | 2026-04-22T10:09:55Z | TypeScript | Infrastructure/tooling | 2 | 42 | 2 | 2 |
-| [dreamiurg/mountaineers-mcp](https://github.com/dreamiurg/mountaineers-mcp) | 1 | 2026-04-20T22:55:47Z | TypeScript | Infrastructure/tooling | 9 | 16 | 9 | 9 |
-| [sass/sync-child-process](https://github.com/sass/sync-child-process) | 2 | 2026-04-20T21:10:44Z | TypeScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
-| [sass/sync-message-port](https://github.com/sass/sync-message-port) | 2 | 2026-04-20T21:09:24Z | TypeScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -82,10 +79,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ipld/github-mgmt](https://github.com/ipld/github-mgmt) | 2 | 2026-04-28T21:46:15Z | TypeScript | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [filecoin-project/github-mgmt](https://github.com/filecoin-project/github-mgmt) | 2 | 2026-04-28T21:44:11Z | TypeScript | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [haskell-actions/hlint-setup](https://github.com/haskell-actions/hlint-setup) | 2 | 2026-04-27T13:34:11Z | TypeScript | Infrastructure/tooling | 1 | 7 | 1 | 1 |
-| [sass/sync-child-process](https://github.com/sass/sync-child-process) | 2 | 2026-04-20T21:10:44Z | TypeScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
-| [sass/sync-message-port](https://github.com/sass/sync-message-port) | 2 | 2026-04-20T21:09:24Z | TypeScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [06ketan/slideshot](https://github.com/06ketan/slideshot) | 1 | 2026-05-03T07:08:07Z | TypeScript | CLI | 2 | 3 | 2 | 2 |
 | [csm-actions/update-branch-action](https://github.com/csm-actions/update-branch-action) | 1 | 2026-04-30T19:38:03Z | TypeScript | Infrastructure/tooling | 10 | 16 | 10 | 10 |
 | [multiformats/github-mgmt](https://github.com/multiformats/github-mgmt) | 1 | 2026-04-28T21:46:35Z | TypeScript | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [ipfs-shipyard/github-mgmt](https://github.com/ipfs-shipyard/github-mgmt) | 1 | 2026-04-28T21:45:52Z | TypeScript | Infrastructure/tooling | 9 | 10 | 9 | 9 |
-| [dreamiurg/mountaineers-mcp](https://github.com/dreamiurg/mountaineers-mcp) | 1 | 2026-04-20T22:55:47Z | TypeScript | Infrastructure/tooling | 9 | 16 | 9 | 9 |

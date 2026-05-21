@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 884,
-    "concepts": 568,
-    "observations": 572,
-    "repos": 87,
-    "terms": 565
+    "components": 866,
+    "concepts": 573,
+    "observations": 577,
+    "repos": 88,
+    "terms": 570
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -21,7 +21,6 @@
     "astral-sh/rye",
     "beehiveinnovations/pal-mcp-server",
     "binary-husky/gpt_academic",
-    "blitz-js/blitz",
     "bmaltais/kohya_ss",
     "BuilderIO/mitosis",
     "bytedance/UI-TARS",
@@ -46,6 +45,7 @@
     "fullstorydev/grpcurl",
     "git-up/GitUp",
     "github/copilot.vim",
+    "go-chi/chi",
     "goldfire/howler.js",
     "google/ExoPlayer",
     "gulpjs/gulp",
@@ -63,6 +63,7 @@
     "linsa-io/linsa",
     "lllyasviel/Fooocus",
     "lucidrains/denoising-diffusion-pytorch",
+    "mathjax/MathJax",
     "MatsuriDayo/NekoBoxForAndroid",
     "microsoft/unilm",
     "microsoft/vscode-extension-samples",

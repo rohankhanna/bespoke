@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 68
-- terms: 47
+- repos: 63
+- terms: 43
 - components: 16
-- concepts: 47
-- observations: 47
+- concepts: 43
+- observations: 43
 
 ## Static behavior
 
@@ -89,11 +89,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Backup-Planner](https://github.com/danielrosehill/Backup-Planner) | 0 | 2026-04-21T11:48:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/adb-ops-plugin](https://github.com/danielrosehill/adb-ops-plugin) | 0 | 2026-04-21T11:44:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Code-Bugs-And-FRs](https://github.com/danielrosehill/Claude-Code-Bugs-And-FRs) | 0 | 2026-04-21T11:02:04Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
-| [danielrosehill/Claude-Code-Feedback](https://github.com/danielrosehill/Claude-Code-Feedback) | 0 | 2026-04-20T22:19:27Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-HTML-Email-Designer-Plugin](https://github.com/danielrosehill/Claude-HTML-Email-Designer-Plugin) | 0 | 2026-04-20T21:43:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Green-Invoice-Ops-Plugin](https://github.com/danielrosehill/Claude-Green-Invoice-Ops-Plugin) | 0 | 2026-04-20T14:44:29Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
-| [danielrosehill/AI-Geopol-Projects](https://github.com/danielrosehill/AI-Geopol-Projects) | 0 | 2026-04-20T11:43:31Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
-| [danielrosehill/Favorite-Code-Libraries](https://github.com/danielrosehill/Favorite-Code-Libraries) | 0 | 2026-04-20T11:22:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -162,8 +157,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Backup-Planner](https://github.com/danielrosehill/Backup-Planner) | 0 | 2026-04-21T11:48:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/adb-ops-plugin](https://github.com/danielrosehill/adb-ops-plugin) | 0 | 2026-04-21T11:44:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Code-Bugs-And-FRs](https://github.com/danielrosehill/Claude-Code-Bugs-And-FRs) | 0 | 2026-04-21T11:02:04Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
-| [danielrosehill/Claude-Code-Feedback](https://github.com/danielrosehill/Claude-Code-Feedback) | 0 | 2026-04-20T22:19:27Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-HTML-Email-Designer-Plugin](https://github.com/danielrosehill/Claude-HTML-Email-Designer-Plugin) | 0 | 2026-04-20T21:43:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Green-Invoice-Ops-Plugin](https://github.com/danielrosehill/Claude-Green-Invoice-Ops-Plugin) | 0 | 2026-04-20T14:44:29Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
-| [danielrosehill/AI-Geopol-Projects](https://github.com/danielrosehill/AI-Geopol-Projects) | 0 | 2026-04-20T11:43:31Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
-| [danielrosehill/Favorite-Code-Libraries](https://github.com/danielrosehill/Favorite-Code-Libraries) | 0 | 2026-04-20T11:22:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

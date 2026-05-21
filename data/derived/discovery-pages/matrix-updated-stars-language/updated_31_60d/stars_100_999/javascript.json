@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1952,
-    "concepts": 525,
-    "observations": 528,
-    "repos": 118,
-    "terms": 556
+    "components": 2145,
+    "concepts": 552,
+    "observations": 557,
+    "repos": 123,
+    "terms": 583
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "absolute-version/commit-and-tag-version",
@@ -29,10 +29,12 @@
     "Atheos/Atheos",
     "avwo/whistle-client",
     "badgen/badgen",
+    "bcomnes/npm-run-all2",
     "beve-org/beve",
     "bmad-code-org/bmad-module-game-dev-studio",
     "browserify/resolve",
     "ButTaiwan/bpmfvs",
+    "chaijs/chai-http",
     "chrisgoringe/cg-use-everywhere",
     "cjoudrey/graphql-schema-linter",
     "ClickHouse/agent-skills",
@@ -74,6 +76,7 @@
     "gruntjs/grunt-contrib-cssmin",
     "gruntjs/grunt-contrib-htmlmin",
     "gruntjs/grunt-contrib-qunit",
+    "higlass/higlass",
     "hudochenkov/stylelint-order",
     "hyparam/hyparquet",
     "i18next/i18next-browser-languageDetector",
@@ -116,7 +119,9 @@
     "rstudio/DT",
     "rtfeldman/node-test-runner",
     "semantic-release/changelog",
+    "semantic-release/commit-analyzer",
     "semantic-release/git",
+    "semantic-release/github",
     "semantic-release/npm",
     "sethgammon/citadel",
     "sindresorhus/globals",

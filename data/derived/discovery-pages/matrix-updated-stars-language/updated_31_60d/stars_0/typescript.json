@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 315,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 10,
-    "terms": 29
+    "components": 323,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 11,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
+    "8144225309/superscalar-wallet",
     "9romise/eslint-config",
     "adipalko/hatraot",
     "fekkak1998/scira",

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 76
-- terms: 781
-- components: 618
-- concepts: 785
-- observations: 786
+- repos: 74
+- terms: 772
+- components: 602
+- concepts: 776
+- observations: 777
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [apache/tomcat](https://github.com/apache/tomcat) | 8163 | 2026-05-06T13:24:43Z | Java | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [mapsforge/mapsforge](https://github.com/mapsforge/mapsforge) | 1371 | 2026-05-05T07:01:32Z | Java | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [unicode-org/cldr](https://github.com/unicode-org/cldr) | 1090 | 2026-05-03T00:00:46Z | Java | Infrastructure/tooling | 9 | 16 | 9 | 9 |
 | [validator/validator](https://github.com/validator/validator) | 1929 | 2026-05-02T10:42:13Z | Java | Infrastructure/tooling | 15 | 19 | 15 | 15 |
@@ -99,9 +100,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [spring-ai-alibaba/examples](https://github.com/spring-ai-alibaba/examples) | 2613 | 2026-04-21T14:44:17Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [codelibs/fess](https://github.com/codelibs/fess) | 1107 | 2026-04-21T13:20:34Z | Java | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [soot-oss/soot](https://github.com/soot-oss/soot) | 3076 | 2026-04-21T09:03:16Z | Java | Infrastructure/tooling | 9 | 4 | 9 | 9 |
-| [googleapis/google-api-java-client](https://github.com/googleapis/google-api-java-client) | 1449 | 2026-04-20T21:14:38Z | Java | CLI | 4 | 6 | 4 | 4 |
-| [googleapis/google-http-java-client](https://github.com/googleapis/google-http-java-client) | 1433 | 2026-04-20T20:46:31Z | Java | CLI | 5 | 8 | 5 | 5 |
-| [spotbugs/spotbugs](https://github.com/spotbugs/spotbugs) | 3865 | 2026-04-20T09:41:42Z | Java | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 
 ## Repos sorted by stars
 
@@ -117,6 +115,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dropwizard/dropwizard](https://github.com/dropwizard/dropwizard) | 8584 | 2026-04-30T19:20:05Z | Java | Infrastructure/tooling | 19 | 13 | 19 | 19 |
 | [apache/beam](https://github.com/apache/beam) | 8556 | 2026-04-30T01:42:15Z | Java | Infrastructure/tooling | 14 | 8 | 14 | 14 |
 | [junit-team/junit4](https://github.com/junit-team/junit4) | 8534 | 2026-04-25T11:30:38Z | Java | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [apache/tomcat](https://github.com/apache/tomcat) | 8163 | 2026-05-06T13:24:43Z | Java | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [swagger-api/swagger-core](https://github.com/swagger-api/swagger-core) | 7521 | 2026-04-28T14:58:40Z | Java | Infrastructure/tooling | 17 | 11 | 17 | 17 |
 | [google/error-prone](https://github.com/google/error-prone) | 7158 | 2026-04-21T23:33:25Z | Java | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [rabbitmq/rabbitmq-tutorials](https://github.com/rabbitmq/rabbitmq-tutorials) | 6884 | 2026-04-23T02:04:09Z | Java | Unknown | 2 | 0 | 2 | 2 |
@@ -133,7 +132,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apache/ignite](https://github.com/apache/ignite) | 5065 | 2026-04-30T11:52:41Z | Java | CLI | 19 | 13 | 19 | 19 |
 | [JodaOrg/joda-time](https://github.com/JodaOrg/joda-time) | 4985 | 2026-04-28T21:38:09Z | Java | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [iterate-ch/cyberduck](https://github.com/iterate-ch/cyberduck) | 4438 | 2026-04-29T11:23:16Z | Java | CLI | 23 | 10 | 23 | 23 |
-| [spotbugs/spotbugs](https://github.com/spotbugs/spotbugs) | 3865 | 2026-04-20T09:41:42Z | Java | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [FasterXML/jackson-databind](https://github.com/FasterXML/jackson-databind) | 3719 | 2026-04-28T20:50:36Z | Java | Infrastructure/tooling | 11 | 11 | 12 | 12 |
 | [apache/lucene](https://github.com/apache/lucene) | 3408 | 2026-04-23T09:41:23Z | Java | Infrastructure/tooling | 13 | 7 | 13 | 13 |
 | [soot-oss/soot](https://github.com/soot-oss/soot) | 3076 | 2026-04-21T09:03:16Z | Java | Infrastructure/tooling | 9 | 4 | 9 | 9 |
@@ -167,8 +165,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [langgraph4j/langgraph4j](https://github.com/langgraph4j/langgraph4j) | 1595 | 2026-04-29T15:43:54Z | Java | Infrastructure/tooling | 9 | 12 | 9 | 9 |
 | [google/adk-java](https://github.com/google/adk-java) | 1499 | 2026-04-23T20:34:30Z | Java | Infrastructure/tooling | 16 | 4 | 16 | 16 |
 | [reactor/BlockHound](https://github.com/reactor/BlockHound) | 1492 | 2026-04-30T07:54:07Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [googleapis/google-api-java-client](https://github.com/googleapis/google-api-java-client) | 1449 | 2026-04-20T21:14:38Z | Java | CLI | 4 | 6 | 4 | 4 |
-| [googleapis/google-http-java-client](https://github.com/googleapis/google-http-java-client) | 1433 | 2026-04-20T20:46:31Z | Java | CLI | 5 | 8 | 5 | 5 |
 | [google/conscrypt](https://github.com/google/conscrypt) | 1385 | 2026-04-29T09:14:13Z | Java | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [mapsforge/mapsforge](https://github.com/mapsforge/mapsforge) | 1371 | 2026-05-05T07:01:32Z | Java | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [moyangzhan/langchain4j-aideepin](https://github.com/moyangzhan/langchain4j-aideepin) | 1263 | 2026-04-30T12:29:44Z | Java | Unknown | 4 | 0 | 4 | 4 |

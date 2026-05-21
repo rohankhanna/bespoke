@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 131,
+    "components": 123,
     "concepts": 233,
     "observations": 234,
-    "repos": 44,
-    "terms": 226
+    "repos": 43,
+    "terms": 227
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "akheron/jansson",
@@ -24,6 +24,7 @@
     "Chlumsky/msdf-atlas-gen",
     "Chlumsky/msdfgen",
     "coin-or/Ipopt",
+    "containers/bubblewrap",
     "duckdb/pg_duckdb",
     "eclipse-paho/paho.mqtt.c",
     "eradman/entr",
@@ -36,11 +37,9 @@
     "hpjansson/chafa",
     "icecc/icecream",
     "ioquake/ioq3",
-    "json-c/json-c",
     "leethomason/tinyxml2",
     "libgit2/rugged",
     "lieff/minimp3",
-    "memononen/nanovg",
     "microsoft/onnxruntime-inference-examples",
     "mitsuba-renderer/nanogui",
     "mutouyun/cpp-ipc",

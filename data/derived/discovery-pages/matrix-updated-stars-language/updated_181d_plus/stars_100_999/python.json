@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1198,
-    "concepts": 5473,
-    "observations": 5478,
-    "repos": 1844,
-    "terms": 5318
+    "components": 1202,
+    "concepts": 5474,
+    "observations": 5479,
+    "repos": 1845,
+    "terms": 5323
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -719,6 +719,7 @@
     "google/unisim",
     "google/vroom",
     "GoogleChrome/related-website-sets",
+    "googlefonts/fontmake",
     "Gorilla-Lab-SCUT/Fantasia3D",
     "got-10k/toolkit",
     "gradsim/gradsim",

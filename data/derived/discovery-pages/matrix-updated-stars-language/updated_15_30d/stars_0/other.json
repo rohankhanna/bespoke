@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 38,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 15,
-    "terms": 24
+    "components": 33,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 14,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
-    "AdaCore/vss-extra",
     "arnaud-lb/php-rdkafka-doc",
     "conda-forge/cccl-feedstock",
     "danielrosehill/Claude-Decision-Evaluation-Framework-Plugin",

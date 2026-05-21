@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 410,
-    "concepts": 429,
-    "observations": 432,
-    "repos": 166,
-    "terms": 425
+    "components": 424,
+    "concepts": 442,
+    "observations": 445,
+    "repos": 169,
+    "terms": 438
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
@@ -62,6 +62,7 @@
     "cjoudrey/gluahttp",
     "ClickHouse/ch-bench",
     "cloudfoundry/auction",
+    "cloudfoundry/bosh-deployment-resource",
     "cloudwego/gjson",
     "cloudwego/hertz-benchmark",
     "cloudwego/thrift-gen-validator",
@@ -159,6 +160,8 @@
     "sideprotocol/ibcswap",
     "skip-mev/block-sdk",
     "someone1/gcp-jwt-go",
+    "spacemeshos/poet",
+    "spacemeshos/smcli",
     "spacemeshos/smrepl",
     "srinathgs/mysqlstore",
     "strangelove-ventures/async-icq",

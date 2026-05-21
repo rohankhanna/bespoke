@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 257,
-    "concepts": 344,
-    "observations": 344,
-    "repos": 61,
-    "terms": 340
+    "components": 269,
+    "concepts": 347,
+    "observations": 347,
+    "repos": 63,
+    "terms": 342
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "2shady4u/godot-sqlite",
     "adafruit/Adafruit_NeoPixel",
@@ -45,6 +45,7 @@
     "jkuhlmann/cgltf",
     "jlblancoc/nanoflann",
     "JoeDog/siege",
+    "json-c/json-c",
     "kosua20/MIDIVisualizer",
     "libimobiledevice/idevicerestore",
     "libimobiledevice/libimobiledevice",
@@ -52,6 +53,7 @@
     "libsndfile/libsndfile",
     "martinus/unordered_dense",
     "MaskRay/ccls",
+    "memononen/nanovg",
     "MIT-SPARK/TEASER-plusplus",
     "mmorise/World",
     "naelstrof/maim",

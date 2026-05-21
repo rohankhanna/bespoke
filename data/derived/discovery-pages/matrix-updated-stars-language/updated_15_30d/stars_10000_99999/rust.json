@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1172,
-    "concepts": 826,
-    "observations": 827,
-    "repos": 71,
-    "terms": 817
+    "components": 1095,
+    "concepts": 823,
+    "observations": 824,
+    "repos": 67,
+    "terms": 814
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
     "alacritty/alacritty",
     "analysis-tools-dev/static-analysis",
-    "asciinema/asciinema",
     "ast-grep/ast-grep",
+    "astral-sh/ruff",
     "Automattic/harper",
     "bevyengine/bevy",
     "biomejs/biome",
@@ -27,10 +27,8 @@
     "clap-rs/clap",
     "ClementTsang/bottom",
     "dani-garcia/vaultwarden",
-    "diem/diem",
     "emilk/egui",
     "facebook/flow",
-    "facebook/relay",
     "firecracker-microvm/firecracker",
     "fish-shell/fish-shell",
     "foundry-rs/foundry",
@@ -63,27 +61,25 @@
     "quickwit-oss/quickwit",
     "ratatui/ratatui",
     "rayon-rs/rayon",
+    "rerun-io/rerun",
     "rolldown/rolldown",
-    "rust-lang/cargo",
     "rust-lang/rust-clippy",
     "RustPython/RustPython",
     "servo/servo",
     "shadowsocks/shadowsocks-rust",
-    "sharkdp/fd",
     "Spotifyd/spotifyd",
     "starship/starship",
     "surrealdb/surrealdb",
     "swc-project/swc",
-    "tokio-rs/tokio",
     "tracel-ai/burn",
     "tree-sitter/tree-sitter",
     "tw93/Pake",
     "typst/typst",
     "vectordotdev/vector",
-    "vercel-labs/agent-browser",
     "wasmerio/wasmer",
     "web-infra-dev/rspack",
     "wezterm/wezterm",
+    "XAMPPRocky/tokei",
     "zed-industries/zed"
   ]
 }

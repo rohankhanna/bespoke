@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 242,
-    "concepts": 241,
-    "observations": 244,
-    "repos": 52,
-    "terms": 238
+    "components": 225,
+    "concepts": 235,
+    "observations": 238,
+    "repos": 49,
+    "terms": 232
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "acmesh-official/acmetest",
     "AFLplusplus/cov-analysis",
     "Alexpux/MINGW-packages",
-    "apache/arrow-testing",
     "argoproj-labs/argocd-extension-installer",
     "asdf-community/asdf-pdm",
     "Azure/aaz",
@@ -32,7 +31,6 @@
     "conda-forge/pinocchio-feedstock",
     "containers/automation_images",
     "crazy-max/goxx",
-    "cri-o/packaging",
     "dependabot/smoke-tests",
     "dotenvx/dotenvx.sh",
     "electerm/electerm-web-docker",
@@ -47,7 +45,6 @@
     "iterate-ch/profiles",
     "leleliu008/ppkg",
     "milvus-io/milvus-proto",
-    "NixOS/org",
     "oneclick/rubyinstaller2-packages",
     "PF4Public/gentoo-overlay",
     "pkgxdev/mash",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 612,
-    "concepts": 396,
-    "observations": 397,
-    "repos": 83,
-    "terms": 395
+    "components": 536,
+    "concepts": 345,
+    "observations": 346,
+    "repos": 74,
+    "terms": 344
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
-    "0x676e67/wreq-util",
     "abusch/nu_plugin_semver",
     "AccessKit/accesskit-c",
     "ai-dynamo/modelexpress",
@@ -33,10 +32,8 @@
     "bnb-chain/reth-bsc",
     "boozook/mdbook-svgbob",
     "boundless-xyz/kailua",
-    "boundless-xyz/steel",
     "bourumir-wyngs/serde-yaml-bw",
     "celo-org/celo-threshold-bls-rs",
-    "chrisjsewell/markdown-it-pyrs",
     "ClickHouse/clickhousectl",
     "datachainlab/lcp",
     "datafusion-contrib/orc-rust",
@@ -46,13 +43,9 @@
     "eth-act/ere",
     "eth-act/zkboost",
     "fallow-rs/oxc-coverage-instrument",
-    "filecoin-project/actors-utils",
     "filecoin-project/builtin-actors",
     "fonttools/fontspector",
-    "fortanix/rustls-mbedtls-provider",
-    "foundry-rs/foundry-fork-db",
     "GreptimeTeam/greptimedb-ingester-rust",
-    "GreptimeTeam/promql-parser",
     "hecrj/iced_palace",
     "hermit-os/loader",
     "heroku/buildpacks-dotnet",
@@ -63,18 +56,17 @@
     "heroku/libcnb.rs",
     "holochain/holochain-serialization",
     "holochain/holochain-wasmer",
+    "influxdata/datafusion-udf-wasm",
     "janrueth/boring-rustls-provider",
     "KWARC/rust-libxml",
     "launchdarkly/rust-server-sdk",
     "ldclabs/anda-db",
     "ldclabs/anda-hippocampus",
-    "major7apps/pensyve",
     "martinthomson/ohttp",
     "matter-labs/zksync-crypto",
     "mdn/rari",
     "mpizenberg/elm-test-rs",
     "mrcjkb/vimcats",
-    "multiformats/rust-cid",
     "napi-rs/mimalloc-safe",
     "near/cargo-near-new-project-template",
     "nico-abram/blondie",
@@ -95,7 +87,6 @@
     "typst/typst-assets",
     "tyrypyrking/egui-ash",
     "unrs/unrs-resolver",
-    "urschrei/rdp",
-    "zcash/pasta_curves"
+    "urschrei/rdp"
   ]
 }

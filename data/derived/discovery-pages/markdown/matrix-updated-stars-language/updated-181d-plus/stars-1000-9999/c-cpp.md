@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -119,7 +119,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [P-H-C/phc-winner-argon2](https://github.com/P-H-C/phc-winner-argon2) | 5273 | 2024-08-06T13:28:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [id-Software/Quake-III-Arena](https://github.com/id-Software/Quake-III-Arena) | 7991 | 2024-08-02T00:20:36Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [li-plus/chatglm.cpp](https://github.com/li-plus/chatglm.cpp) | 2961 | 2024-07-31T06:12:02Z | C/C++ | Infrastructure/tooling | 9 | 10 | 9 | 9 |
-| [flann-lib/flann](https://github.com/flann-lib/flann) | 2371 | 2024-07-29T19:01:47Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [flann-lib/flann](https://github.com/flann-lib/flann) | 2372 | 2024-07-29T19:01:47Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [sass/node-sass](https://github.com/sass/node-sass) | 8477 | 2024-07-24T21:59:31Z | C/C++ | Infrastructure/tooling | 11 | 24 | 11 | 11 |
 | [Squirrel/Squirrel.Windows](https://github.com/Squirrel/Squirrel.Windows) | 7934 | 2024-07-24T10:06:45Z | C/C++ | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [agauniyal/rang](https://github.com/agauniyal/rang) | 1582 | 2024-07-23T07:26:16Z | C/C++ | CLI | 11 | 0 | 11 | 11 |
@@ -130,7 +130,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [progschj/ThreadPool](https://github.com/progschj/ThreadPool) | 8733 | 2024-07-20T12:33:59Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [dmlc/decord](https://github.com/dmlc/decord) | 2463 | 2024-07-17T04:18:40Z | C/C++ | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [kazuho/picojson](https://github.com/kazuho/picojson) | 1154 | 2024-07-13T08:02:44Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [edenhill/kcat](https://github.com/edenhill/kcat) | 5755 | 2024-07-09T16:13:37Z | C/C++ | CLI | 1 | 3 | 1 | 1 |
+| [edenhill/kcat](https://github.com/edenhill/kcat) | 5756 | 2024-07-09T16:13:37Z | C/C++ | CLI | 1 | 3 | 1 | 1 |
 | [strasdat/Sophus](https://github.com/strasdat/Sophus) | 2407 | 2024-07-06T18:06:55Z | C/C++ | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [festvox/flite](https://github.com/festvox/flite) | 1043 | 2024-07-03T04:52:58Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [joan2937/pigpio](https://github.com/joan2937/pigpio) | 1587 | 2024-06-24T15:18:29Z | C/C++ | Library | 0 | 0 | 0 | 0 |
@@ -221,7 +221,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GPUOpen-Effects/FidelityFX-FSR](https://github.com/GPUOpen-Effects/FidelityFX-FSR) | 2161 | 2022-05-22T20:25:43Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [eigenteam/eigen-git-mirror](https://github.com/eigenteam/eigen-git-mirror) | 1820 | 2022-04-17T23:28:42Z | C/C++ | Unknown | 7 | 0 | 7 | 7 |
 | [specta/specta](https://github.com/specta/specta) | 2315 | 2022-02-27T13:22:51Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
-| [machyve/xhyve](https://github.com/machyve/xhyve) | 6444 | 2022-01-29T15:33:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [machyve/xhyve](https://github.com/machyve/xhyve) | 6446 | 2022-01-29T15:33:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [Star-Clouds/CenterFace](https://github.com/Star-Clouds/CenterFace) | 1341 | 2021-11-12T03:44:00Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [chineseocr/darknet-ocr](https://github.com/chineseocr/darknet-ocr) | 1161 | 2021-10-12T22:51:12Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ethz-asl/okvis](https://github.com/ethz-asl/okvis) | 1348 | 2021-08-24T10:19:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -252,14 +252,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stanfordnlp/GloVe](https://github.com/stanfordnlp/GloVe) | 7217 | 2025-07-27T18:05:10Z | C/C++ | Model/data | 0 | 0 | 0 | 0 |
 | [julienxx/terminal-notifier](https://github.com/julienXX/terminal-notifier) | 7150 | 2025-11-02T14:24:58Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [goldendict/goldendict](https://github.com/goldendict/goldendict) | 6571 | 2025-10-11T18:29:12Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [machyve/xhyve](https://github.com/machyve/xhyve) | 6444 | 2022-01-29T15:33:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [machyve/xhyve](https://github.com/machyve/xhyve) | 6446 | 2022-01-29T15:33:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [nodejs/http-parser](https://github.com/nodejs/http-parser) | 6438 | 2022-06-19T08:11:39Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [NVIDIA/FasterTransformer](https://github.com/NVIDIA/FasterTransformer) | 6410 | 2024-03-27T11:25:30Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [cisco/openh264](https://github.com/cisco/openh264) | 6058 | 2025-10-28T09:20:17Z | C/C++ | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [ethereum-mining/ethminer](https://github.com/ethereum-mining/ethminer) | 5952 | 2023-11-01T16:38:07Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [HKUST-Aerial-Robotics/VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono) | 5880 | 2024-08-14T17:28:14Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [rxi/microui](https://github.com/rxi/microui) | 5845 | 2024-08-13T19:01:59Z | C/C++ | Library | 0 | 0 | 0 | 0 |
-| [edenhill/kcat](https://github.com/edenhill/kcat) | 5755 | 2024-07-09T16:13:37Z | C/C++ | CLI | 1 | 3 | 1 | 1 |
+| [edenhill/kcat](https://github.com/edenhill/kcat) | 5756 | 2024-07-09T16:13:37Z | C/C++ | CLI | 1 | 3 | 1 | 1 |
 | [ZipArchive/ZipArchive](https://github.com/ZipArchive/ZipArchive) | 5590 | 2025-10-31T04:29:33Z | C/C++ | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [leela-zero/leela-zero](https://github.com/leela-zero/leela-zero) | 5571 | 2024-05-02T18:00:51Z | C/C++ | Model/data | 0 | 0 | 0 | 0 |
 | [ConfettiFX/The-Forge](https://github.com/ConfettiFX/The-Forge) | 5517 | 2025-07-03T23:20:30Z | C/C++ | Framework | 17 | 0 | 17 | 17 |
@@ -321,7 +321,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dmlc/decord](https://github.com/dmlc/decord) | 2463 | 2024-07-17T04:18:40Z | C/C++ | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [strasdat/Sophus](https://github.com/strasdat/Sophus) | 2407 | 2024-07-06T18:06:55Z | C/C++ | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [HKUST-Aerial-Robotics/A-LOAM](https://github.com/HKUST-Aerial-Robotics/A-LOAM) | 2400 | 2023-10-19T11:18:59Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
-| [flann-lib/flann](https://github.com/flann-lib/flann) | 2371 | 2024-07-29T19:01:47Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [flann-lib/flann](https://github.com/flann-lib/flann) | 2372 | 2024-07-29T19:01:47Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [ben-strasser/fast-cpp-csv-parser](https://github.com/ben-strasser/fast-cpp-csv-parser) | 2353 | 2025-02-02T15:51:35Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [veandco/go-sdl2](https://github.com/veandco/go-sdl2) | 2321 | 2025-02-20T04:55:37Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [specta/specta](https://github.com/specta/specta) | 2315 | 2022-02-27T13:22:51Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |

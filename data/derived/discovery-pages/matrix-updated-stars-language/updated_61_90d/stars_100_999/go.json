@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 174,
-    "concepts": 178,
-    "observations": 178,
-    "repos": 32,
-    "terms": 178
+    "components": 185,
+    "concepts": 190,
+    "observations": 190,
+    "repos": 33,
+    "terms": 190
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "alexkohler/prealloc",
     "anacrolix/dht",
@@ -24,6 +24,7 @@
     "aws/aws-xray-daemon",
     "box-cli-maker/box-cli-maker",
     "cedar-policy/cedar-go",
+    "ChristopherHX/github-act-runner",
     "chromedp/chromedp-proxy",
     "cloudwego/kitex-examples",
     "erigontech/interfaces",

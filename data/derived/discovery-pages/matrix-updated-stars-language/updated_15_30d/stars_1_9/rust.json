@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 192,
-    "concepts": 127,
-    "observations": 128,
-    "repos": 32,
-    "terms": 127
+    "components": 199,
+    "concepts": 135,
+    "observations": 136,
+    "repos": 33,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "black-desk/djotfmt",
     "bnb-chain/reth-bsc-triedb",
@@ -36,6 +36,7 @@
     "Hiroshiba/voicevox_core",
     "huggingface/fuser",
     "image-rs/image-extras",
+    "influxdata/arrow-datafusion",
     "juharris/optify",
     "kurrent-io/KurrentDB-Bridge-Client",
     "ldclabs/ic-cose",

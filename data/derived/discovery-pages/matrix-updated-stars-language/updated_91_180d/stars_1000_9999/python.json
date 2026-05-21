@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 368,
-    "concepts": 755,
-    "observations": 756,
+    "concepts": 758,
+    "observations": 759,
     "repos": 152,
-    "terms": 742
+    "terms": 748
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "AIDC-AI/Marco-o1",
@@ -58,7 +58,6 @@
     "emilianavt/OpenSeeFace",
     "facebookincubator/submitit",
     "facebookresearch/DomainBed",
-    "facebookresearch/ImageBind",
     "facebookresearch/meshrcnn",
     "facebookresearch/pytorchvideo",
     "Farama-Foundation/Metaworld",
@@ -140,6 +139,7 @@
     "QwenLM/Qwen-Image",
     "remsky/Kokoro-FastAPI",
     "RUC-NLPIR/WebThinker",
+    "SafeAILab/EAGLE",
     "shibing624/text2vec",
     "ShichenLiu/SoftRas",
     "simonw/claude-code-transcripts",

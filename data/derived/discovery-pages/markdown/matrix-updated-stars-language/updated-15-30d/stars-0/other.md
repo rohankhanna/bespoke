@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · Other
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 15
-- terms: 24
-- components: 38
-- concepts: 24
-- observations: 24
+- repos: 14
+- terms: 20
+- components: 33
+- concepts: 20
+- observations: 20
 
 ## Static behavior
 
@@ -40,7 +40,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [regro/cf-graph-countyfair](https://github.com/regro/cf-graph-countyfair) | 0 | 2026-04-24T09:16:27Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [danielrosehill/Claude-Local-Web-Capture-Plugin](https://github.com/danielrosehill/Claude-Local-Web-Capture-Plugin) | 0 | 2026-04-23T15:29:06Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [conda-forge/cccl-feedstock](https://github.com/conda-forge/cccl-feedstock) | 0 | 2026-04-23T05:17:57Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [AdaCore/vss-extra](https://github.com/AdaCore/vss-extra) | 0 | 2026-04-20T16:15:56Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -60,4 +59,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [regro/cf-graph-countyfair](https://github.com/regro/cf-graph-countyfair) | 0 | 2026-04-24T09:16:27Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [danielrosehill/Claude-Local-Web-Capture-Plugin](https://github.com/danielrosehill/Claude-Local-Web-Capture-Plugin) | 0 | 2026-04-23T15:29:06Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [conda-forge/cccl-feedstock](https://github.com/conda-forge/cccl-feedstock) | 0 | 2026-04-23T05:17:57Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [AdaCore/vss-extra](https://github.com/AdaCore/vss-extra) | 0 | 2026-04-20T16:15:56Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |

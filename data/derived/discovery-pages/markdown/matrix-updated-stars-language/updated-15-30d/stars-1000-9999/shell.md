@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Shell
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 36
-- terms: 255
-- components: 198
-- concepts: 260
-- observations: 260
+- repos: 34
+- terms: 239
+- components: 177
+- concepts: 244
+- observations: 244
 
 ## Static behavior
 
@@ -60,8 +60,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [docker-library/postgres](https://github.com/docker-library/postgres) | 2470 | 2026-04-21T22:02:34Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [pacstall/pacstall](https://github.com/pacstall/pacstall) | 1608 | 2026-04-21T17:41:47Z | Shell | Infrastructure/tooling | 15 | 8 | 18 | 18 |
 | [conda-forge/miniforge](https://github.com/conda-forge/miniforge) | 9663 | 2026-04-21T13:07:19Z | Shell | Infrastructure/tooling | 6 | 9 | 6 | 6 |
-| [antonbabenko/pre-commit-terraform](https://github.com/antonbabenko/pre-commit-terraform) | 3694 | 2026-04-21T05:15:18Z | Shell | Infrastructure/tooling | 14 | 19 | 14 | 14 |
-| [docker-library/docker](https://github.com/docker-library/docker) | 1442 | 2026-04-20T19:01:50Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -77,7 +75,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mlocati/docker-php-extension-installer](https://github.com/mlocati/docker-php-extension-installer) | 4902 | 2026-04-29T12:35:10Z | Shell | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [bitnami/containers](https://github.com/bitnami/containers) | 4420 | 2026-05-03T00:02:14Z | Shell | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [rbenv/ruby-build](https://github.com/rbenv/ruby-build) | 3967 | 2026-04-29T15:26:30Z | Shell | Infrastructure/tooling | 8 | 3 | 8 | 8 |
-| [antonbabenko/pre-commit-terraform](https://github.com/antonbabenko/pre-commit-terraform) | 3694 | 2026-04-21T05:15:18Z | Shell | Infrastructure/tooling | 14 | 19 | 14 | 14 |
 | [void-linux/void-packages](https://github.com/void-linux/void-packages) | 3172 | 2026-04-22T18:16:44Z | Shell | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [sublimehq/Packages](https://github.com/sublimehq/Packages) | 3005 | 2026-04-25T18:52:18Z | Shell | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [Botspot/pi-apps](https://github.com/Botspot/pi-apps) | 2717 | 2026-04-30T01:15:34Z | Shell | Infrastructure/tooling | 17 | 9 | 17 | 17 |
@@ -96,7 +93,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [confluentinc/demo-scene](https://github.com/confluentinc/demo-scene) | 1566 | 2026-04-28T13:54:41Z | Shell | Unknown | 10 | 0 | 10 | 10 |
 | [rocker-org/rocker](https://github.com/rocker-org/rocker) | 1506 | 2026-04-24T21:53:09Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 | [YosysHQ/oss-cad-suite-build](https://github.com/YosysHQ/oss-cad-suite-build) | 1453 | 2026-04-30T04:25:31Z | Shell | Infrastructure/tooling | 6 | 5 | 6 | 6 |
-| [docker-library/docker](https://github.com/docker-library/docker) | 1442 | 2026-04-20T19:01:50Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [heroku/heroku-buildpack-nodejs](https://github.com/heroku/heroku-buildpack-nodejs) | 1340 | 2026-05-01T21:48:00Z | Shell | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [google/adk-docs](https://github.com/google/adk-docs) | 1311 | 2026-04-22T22:26:27Z | Shell | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [anthropics/claude-agent-sdk-typescript](https://github.com/anthropics/claude-agent-sdk-typescript) | 1308 | 2026-04-22T00:04:37Z | Shell | Infrastructure/tooling | 3 | 3 | 3 | 3 |

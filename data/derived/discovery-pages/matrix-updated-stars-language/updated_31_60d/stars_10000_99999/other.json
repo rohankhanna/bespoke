@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 646,
-    "concepts": 320,
-    "observations": 324,
-    "repos": 45,
-    "terms": 320
+    "components": 737,
+    "concepts": 377,
+    "observations": 381,
+    "repos": 51,
+    "terms": 377
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,18 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "adambard/learnxinyminutes-docs",
+    "Alamofire/Alamofire",
     "alexandresanlim/Badges4-README.md-Profile",
+    "antlr/grammars-v4",
     "apache/spark",
     "AppFlowy-IO/AppFlowy",
     "apple/container",
     "AudioKit/AudioKit",
     "cmderdev/cmder",
+    "composer/composer",
     "Cysharp/UniTask",
     "devicons/devicon",
     "facebookresearch/dinov2",
@@ -28,6 +31,7 @@
     "facebookresearch/sam2",
     "fastai/fastai",
     "fatih/vim-go",
+    "ghostty-org/ghostty",
     "google-gemini/gemini-fullstack-langgraph-quickstart",
     "google/dopamine",
     "google/styleguide",
@@ -47,9 +51,11 @@
     "microsoft/language-server-protocol",
     "microsoft/OmniParser",
     "mikepenz/MaterialDrawer",
+    "NielsRogge/Transformers-Tutorials",
     "nikitabobko/AeroSpace",
     "nvim-treesitter/nvim-treesitter",
     "openai/CLIP",
+    "OpenZeppelin/openzeppelin-contracts",
     "oven-sh/bun",
     "realm/SwiftLint",
     "reasonml/reason",

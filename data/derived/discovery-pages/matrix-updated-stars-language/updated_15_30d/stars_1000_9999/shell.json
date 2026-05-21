@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 198,
-    "concepts": 260,
-    "observations": 260,
-    "repos": 36,
-    "terms": 255
+    "components": 177,
+    "concepts": 244,
+    "observations": 244,
+    "repos": 34,
+    "terms": 239
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "aaron-he-zhu/seo-geo-claude-skills",
     "anthropics/claude-agent-sdk-typescript",
-    "antonbabenko/pre-commit-terraform",
     "aquasecurity/trivy-action",
     "archlinuxcn/repo",
     "aurutils/aurutils",
@@ -26,7 +25,6 @@
     "conda-forge/miniforge",
     "confluentinc/demo-scene",
     "devcontainers/images",
-    "docker-library/docker",
     "docker-library/docs",
     "docker-library/official-images",
     "docker-library/postgres",

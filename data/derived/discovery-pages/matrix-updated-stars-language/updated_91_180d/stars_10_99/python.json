@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 188,
-    "concepts": 229,
-    "observations": 230,
-    "repos": 99,
-    "terms": 237
+    "concepts": 232,
+    "observations": 233,
+    "repos": 101,
+    "terms": 240
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -33,6 +33,7 @@
     "bentoml/BentoLMDeploy",
     "biocypher/project-template",
     "BoosterRobotics/booster_deploy",
+    "bootmortis/ito-gov-mirror",
     "brentyi/jax_dataclasses",
     "Bujiazi/DiCache",
     "camel-ai/seta",
@@ -73,6 +74,7 @@
     "kandinskylab/kandinsky-5-lora-train",
     "katerinakazantseva/strainy",
     "layumi/3D-Magic-Mirror",
+    "Lizw14/Super-CLEVR",
     "lmgame-org/GRL",
     "marcindulak/stt-mcp-server-linux",
     "microsoft/local-email-agent",

@@ -3,7 +3,7 @@
     "components": 455,
     "concepts": 341,
     "observations": 341,
-    "repos": 270,
+    "repos": 271,
     "terms": 344
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -259,6 +259,7 @@
     "ShenhanQian/STAR",
     "ShuoZhang2003/DT-VQA",
     "simonw/scrape-san-mateo-fire-dispatch",
+    "Softcatala/dubbing-service",
     "songquanpeng/daily-submit",
     "sterlind/peft",
     "tensorchord/envd-quick-start",

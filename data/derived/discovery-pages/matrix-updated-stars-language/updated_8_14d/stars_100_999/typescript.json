@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 683,
-    "concepts": 117,
-    "observations": 117,
+    "components": 741,
+    "concepts": 131,
+    "observations": 131,
     "repos": 16,
-    "terms": 113
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,22 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
-    "Agoric/agoric-sdk",
     "apify/apify-cli",
     "apify/mcpc",
-    "embroider-build/ember-auto-import",
-    "inversify/monorepo",
     "LuaLS/vscode-lua",
+    "Luligu/matterbridge",
     "Luligu/matterbridge-shelly",
     "Luligu/matterbridge-zigbee2mqtt",
+    "Nerivec/zigbee2mqtt-windfront",
     "nurikk/zigbee2mqtt-frontend",
     "preactjs/preact-devtools",
     "Rel1cx/eslint-react",
     "safe-fndn/safe-singleton-factory",
     "serversideup/webext-bridge",
+    "skilld-dev/skilld",
     "xdebug/vscode-php-debug",
     "Zoo-Code-Org/Zoo-Code"
   ]

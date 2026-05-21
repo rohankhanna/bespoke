@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3460,
-    "concepts": 647,
-    "observations": 649,
-    "repos": 69,
-    "terms": 636
+    "components": 3340,
+    "concepts": 617,
+    "observations": 618,
+    "repos": 65,
+    "terms": 607
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "4ian/GDevelop",
@@ -20,7 +20,6 @@
     "addyosmani/critical",
     "ajaxorg/ace",
     "ampproject/amphtml",
-    "arkenfox/user.js",
     "Automattic/mongoose",
     "badges/shields",
     "be5invis/Iosevka",
@@ -49,12 +48,10 @@
     "jsdoc/jsdoc",
     "jsdom/jsdom",
     "krisk/Fuse",
-    "Leaflet/Leaflet",
     "lodash/lodash",
     "lovell/sharp",
     "lutzroeder/netron",
     "MagicMirrorOrg/MagicMirror",
-    "markedjs/marked",
     "mdx-js/mdx",
     "microsoft/monaco-editor",
     "mochajs/mocha",
@@ -69,7 +66,6 @@
     "protobufjs/protobuf.js",
     "remy/nodemon",
     "rollup/rollup",
-    "semantic-release/semantic-release",
     "serverless/serverless",
     "SillyTavern/SillyTavern",
     "simple-icons/simple-icons",

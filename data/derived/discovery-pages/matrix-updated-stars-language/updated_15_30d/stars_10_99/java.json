@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 151,
-    "observations": 152,
-    "repos": 36,
-    "terms": 148
+    "components": 171,
+    "concepts": 146,
+    "observations": 147,
+    "repos": 35,
+    "terms": 143
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "Accla/graphulo",
     "agentclientprotocol/java-sdk",
     "apache/arrow-java",
     "apache/ignite-extensions",
     "apache/netbeans-mavenutils-nbm-maven-plugin",
-    "bazel-contrib/rules_jvm",
     "BerkleyTechnologyServices/restdocs-spec",
     "BerkleyTechnologyServices/restdocs-spec-example",
     "bsorrentino/java-async-generator",
@@ -45,10 +44,10 @@
     "mukel/gemma4.java",
     "opensim-org/opensim-gui",
     "qdrant/java-client",
-    "simonpoole/OpeningHoursFragment",
     "smithy-lang/smithy-examples",
     "spiffe/java-spiffe",
     "usdot-fhwa-stol/carma-cloud",
+    "usdot-fhwa-stol/cdasim",
     "yawkat/lz4-java"
   ]
 }

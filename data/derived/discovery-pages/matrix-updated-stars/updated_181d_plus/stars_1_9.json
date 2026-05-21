@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5362,
-    "concepts": 1903,
-    "observations": 1905,
-    "repos": 1347,
-    "terms": 1898
+    "components": 5367,
+    "concepts": 1913,
+    "observations": 1915,
+    "repos": 1351,
+    "terms": 1908
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -541,6 +541,7 @@
     "elixir-makeup/makeup_eex",
     "elixir-makeup/makeup_json",
     "ElliotRoe/wombot",
+    "embeddedartistry/gdtoa",
     "empowerchain/cosmos-chain-directory",
     "energye/golcl",
     "EnokViking/Box2DBeef",
@@ -850,6 +851,7 @@
     "kivikakk/kivikakk",
     "kodyfanz/ethereum_yellowpaper_vn",
     "Koihik/sublime-lua-format",
+    "kojix2/ruby-edlib",
     "kokospalme/java-BC",
     "Kong/official-images",
     "Kong/proxy-wasm-assemblyscript-sdk",
@@ -930,6 +932,7 @@
     "LuaLS/LLS-Addons-Action",
     "lucagoslar/serde-envfile",
     "LucasGinard/AireLibre-Android",
+    "LucasGinard/AireLibre-iOS",
     "luchoturtle/banger-bot",
     "lucthev/collapse-whitespace",
     "luflosi/kitty",
@@ -1213,6 +1216,7 @@
     "sluongng/neotest-bazel",
     "SmileYzn/base16",
     "snowplow-incubator/cla-bot",
+    "Softcatala/dubbing-service",
     "sokra/triomphe",
     "songquanpeng/daily-submit",
     "sony/nnabla-browser",
@@ -1280,7 +1284,7 @@
     "travis-ci/travis-packer-build",
     "travis-infrastructure/packer-build",
     "triton-inference-server/contrib",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "turbofish-org/abci2",
     "turner/swt2sw",
     "UBC-NLP/Cheetah",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1553,
-    "concepts": 1335,
-    "observations": 1339,
-    "repos": 128,
-    "terms": 1326
+    "components": 1462,
+    "concepts": 1278,
+    "observations": 1282,
+    "repos": 122,
+    "terms": 1269
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "abpframework/abp",
     "actions/runner-images",
     "adityatelange/hugo-PaperMod",
-    "Alamofire/Alamofire",
     "AlDanial/cloc",
     "alpinejs/alpine",
-    "antlr/grammars-v4",
     "apache/apisix",
     "App-vNext/Polly",
     "ardalis/CleanArchitecture",
@@ -36,7 +34,6 @@
     "Blinue/Magpie",
     "cefsharp/CefSharp",
     "coil-kt/coil",
-    "composer/composer",
     "coollabsio/coolify",
     "crystal-lang/crystal",
     "cython/cython",
@@ -60,7 +57,6 @@
     "fastlane/fastlane",
     "getgrav/grav",
     "getlantern/lantern",
-    "ghostty-org/ghostty",
     "golang-standards/project-layout",
     "google-deepmind/deepmind-research",
     "google-gemini/cookbook",
@@ -105,13 +101,11 @@
     "MudBlazor/MudBlazor",
     "neovim/neovim",
     "NickeManarin/ScreenToGif",
-    "NielsRogge/Transformers-Tutorials",
     "nim-lang/Nim",
     "NixOS/nixpkgs",
     "nvim-telescope/telescope.nvim",
     "OAI/OpenAPI-Specification",
     "openai/openai-cookbook",
-    "OpenZeppelin/openzeppelin-contracts",
     "phoenixframework/phoenix",
     "phpstan/phpstan",
     "PowerShell/PowerShell",

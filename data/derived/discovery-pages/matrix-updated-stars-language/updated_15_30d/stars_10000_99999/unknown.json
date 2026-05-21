@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 29,
-    "concepts": 116,
-    "observations": 116,
-    "repos": 12,
-    "terms": 116
+    "concepts": 109,
+    "observations": 109,
+    "repos": 11,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "BradyFU/Awesome-Multimodal-Large-Language-Models",
     "brave/brave-browser",
@@ -24,7 +24,6 @@
     "microsoft/winget-pkgs",
     "obsidianmd/obsidian-releases",
     "punkpeye/awesome-mcp-servers",
-    "tc39/proposals",
     "veggiemonk/awesome-docker"
   ]
 }

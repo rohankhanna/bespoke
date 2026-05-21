@@ -1,20 +1,19 @@
 {
   "counts": {
-    "components": 1268,
-    "concepts": 652,
-    "observations": 655,
-    "repos": 51,
-    "terms": 658
+    "components": 1114,
+    "concepts": 644,
+    "observations": 648,
+    "repos": 48,
+    "terms": 650
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "567-labs/instructor",
-    "anthropics/claude-cookbooks",
     "argotorg/solidity",
     "axolotl-ai-cloud/axolotl",
     "Comfy-Org/ComfyUI-Manager",
@@ -25,6 +24,7 @@
     "fastapi/full-stack-fastapi-template",
     "gastownhall/beads",
     "gastownhall/gastown",
+    "github-linguist/linguist",
     "google-ai-edge/mediapipe",
     "grpc/grpc-java",
     "hiyouga/LlamaFactory",
@@ -33,10 +33,8 @@
     "isl-org/Open3D",
     "jax-ml/jax",
     "jestjs/jest",
-    "langchain-ai/langchainjs",
     "Lightning-AI/pytorch-lightning",
     "lobehub/lobehub",
-    "meta-llama/llama-cookbook",
     "moby/moby",
     "modelscope/FunASR",
     "modelscope/ms-swift",
@@ -44,25 +42,24 @@
     "mudler/LocalAI",
     "mui/material-ui",
     "NVIDIA-NeMo/NeMo",
+    "oobabooga/textgen",
     "OpenHands/OpenHands",
-    "preactjs/preact",
     "psf/black",
     "pydantic/pydantic",
-    "QuantumNous/new-api",
-    "qubvel-org/segmentation_models.pytorch",
-    "quickwit-oss/tantivy",
     "redis/go-redis",
     "run-llama/llama_index",
-    "rust-lang/mdBook",
     "rust-lang/rust-analyzer",
     "ruvnet/ruflo",
+    "spaceship-prompt/spaceship-prompt",
     "storybookjs/storybook",
     "swiftlang/swift",
+    "TEN-framework/ten-framework",
     "triton-lang/triton",
     "ungoogled-software/ungoogled-chromium",
-    "unocss/unocss",
     "upptime/upptime",
+    "vbenjs/vue-vben-admin",
     "verl-project/verl",
-    "weaviate/weaviate"
+    "weaviate/weaviate",
+    "zhayujie/CowAgent"
   ]
 }

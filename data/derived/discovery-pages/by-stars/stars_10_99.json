@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 28425,
-    "concepts": 15194,
-    "observations": 15246,
-    "repos": 5496,
-    "terms": 15196
+    "concepts": 15203,
+    "observations": 15255,
+    "repos": 5499,
+    "terms": 15204
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -2044,6 +2044,8 @@
     "Embarcadero/PythonEnvironments",
     "Embarcadero/PythonPackages4Delphi",
     "embarkstudios/buildkite-jobify",
+    "embeddedartistry/libcpp",
+    "embeddedartistry/printf",
     "ember-cli/broccoli-babel-transpiler",
     "ember-cli/broccoli-caching-writer",
     "ember-cli/ember-app-blueprint",
@@ -2452,6 +2454,7 @@
     "google-deepmind/boxoban-levels",
     "google-deepmind/dmvr",
     "google-github-actions/release-please-action",
+    "google-marketing-solutions/ariel",
     "google-marketing-solutions/web-performance-lab",
     "google-marketing-solutions/web-vitals-gtm-template",
     "google-research-datasets/screen2words",
@@ -5147,7 +5150,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",

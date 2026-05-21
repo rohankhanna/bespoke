@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 178,
-    "concepts": 131,
-    "observations": 131,
-    "repos": 94,
-    "terms": 130
+    "components": 181,
+    "concepts": 138,
+    "observations": 138,
+    "repos": 96,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/zzz",
     "abhilash1910/llm.tpc",
@@ -55,6 +55,7 @@
     "DOGEwbx/llama.cpp",
     "dwyl/flutter-stopwatch-tutorial",
     "eddelbuettel/ldlasb",
+    "embeddedartistry/gdtoa",
     "erigontech/silkpre",
     "erwincoumans/bullet3",
     "etodanik/borsh-cpp20",
@@ -78,6 +79,7 @@
     "jk-jeon/dtoa-benchmark",
     "jupyter-xeus/xeus-nelson",
     "kantv-ai/FFmpeg",
+    "kojix2/ruby-edlib",
     "kosua20/sr_gui",
     "littlefs-project/ramcrc32bd",
     "lockblox/multibase",

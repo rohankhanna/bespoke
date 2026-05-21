@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 783,
+    "components": 790,
     "concepts": 726,
     "observations": 727,
-    "repos": 188,
+    "repos": 189,
     "terms": 721
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
     "66RING/tiny-flash-attention",
+    "AccountGo/accountgo",
     "aesalazar/AsteroidsWasm",
     "ahausladen/PdfiumLib",
     "allenai/ScienceWorld",
@@ -67,6 +68,7 @@
     "com-lihaoyi/utest",
     "countries/country_select",
     "cross-rs/cross-toolchains",
+    "CSU-Radarmet/CSU_RadarTools",
     "CVEProject/cve-schema",
     "declare-lab/TangoFlux",
     "Deep-Symmetry/afterglow",
@@ -156,7 +158,6 @@
     "plk/biber",
     "PMunch/nimlsp",
     "privacycg/meetings",
-    "pythonic-emacs/blacken",
     "r-lib/covr",
     "r-lib/revdepcheck",
     "rahul-goel/fused-ssim",

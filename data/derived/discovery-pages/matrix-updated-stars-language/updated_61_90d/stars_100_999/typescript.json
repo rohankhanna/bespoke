@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1049,
-    "concepts": 199,
-    "observations": 200,
-    "repos": 38,
-    "terms": 213
+    "components": 1135,
+    "concepts": 230,
+    "observations": 231,
+    "repos": 40,
+    "terms": 241
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -24,6 +24,8 @@
     "antfu/eslint-plugin-command",
     "augmnt/augments-mcp-server",
     "aymenfurter/ralph",
+    "cloydlau/json-editor-vue",
+    "connectrpc/connect-query-es",
     "eckardt/cchistory",
     "ethereum/staking-launchpad",
     "fnando/i18n",

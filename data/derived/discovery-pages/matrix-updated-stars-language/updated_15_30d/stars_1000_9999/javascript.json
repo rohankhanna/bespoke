@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3796,
-    "concepts": 718,
-    "observations": 719,
-    "repos": 99,
-    "terms": 712
+    "components": 3643,
+    "concepts": 675,
+    "observations": 676,
+    "repos": 94,
+    "terms": 669
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "alphagov/govuk-frontend",
@@ -24,7 +24,6 @@
     "apache/cordova-ios",
     "apostrophecms/apostrophe",
     "appium/appium-inspector",
-    "Automattic/juice",
     "Blockstream/esplora",
     "BrowserWorks/waterfox",
     "carbon-design-system/carbon",
@@ -89,7 +88,6 @@
     "reZach/secure-electron-template",
     "RisingStack/react-easy-state",
     "SabakiHQ/Sabaki",
-    "sindresorhus/np",
     "stdlib-js/stdlib",
     "stylelint/stylelint-config-standard",
     "sveltejs/vite-plugin-svelte",
@@ -101,17 +99,14 @@
     "terser/terser",
     "testem/testem",
     "thlorenz/doctoc",
-    "tw-in-js/twind",
     "uBlockOrigin/uBOL-home",
     "umijs/dumi",
     "unifiedjs/unified",
     "violentmonkey/violentmonkey",
-    "vizzuhq/vizzu-lib",
     "WebKit/WebKit",
     "webpack/webpack-cli",
     "webpack/webpack-dev-middleware",
     "webpack/webpack-dev-server",
-    "webtorrent/bittorrent-dht",
     "yahoo/serialize-javascript"
   ]
 }

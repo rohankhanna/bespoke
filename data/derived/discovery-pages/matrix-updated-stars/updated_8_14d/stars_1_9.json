@@ -1,31 +1,26 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 61,
-    "observations": 62,
-    "repos": 15,
-    "terms": 61
+    "components": 103,
+    "concepts": 50,
+    "observations": 51,
+    "repos": 10,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "Aayushm24/presidential-briefing",
     "atsushieno/aap-juce-simple-host",
-    "danielrosehill/Voxtype",
-    "edward3h/docker-bds-integration-test",
     "energye/designer",
     "energye/examples",
-    "gookit/cliui",
-    "influxdata/arrow-datafusion",
     "ioBroker/plugin-sentry",
     "leleliu008/ppkg-formula-repository-official-core",
     "Luligu/matterbridge-eve-energy",
     "Luligu/matterbridge-somfy-tahoma",
-    "lxgw/B5XiZhi",
     "nafg/jewish-date",
     "vovkos/axl"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 140,
-    "concepts": 149,
-    "observations": 150,
-    "repos": 17,
-    "terms": 148
+    "components": 131,
+    "concepts": 128,
+    "observations": 129,
+    "repos": 14,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "doctest/doctest",
     "floooh/sokol",
@@ -21,12 +21,9 @@
     "harfbuzz/harfbuzz",
     "iree-org/iree",
     "Mithril-mine/libmdbx",
-    "Nelarius/imnodes",
     "PortAudio/portaudio",
     "pure-data/pure-data",
     "riscv-collab/riscv-gnu-toolchain",
-    "swiftlang/swift-llbuild",
-    "TrenchBroom/TrenchBroom",
     "ufbx/ufbx",
     "ultrajson/ultrajson",
     "uxlfoundation/oneDNN",

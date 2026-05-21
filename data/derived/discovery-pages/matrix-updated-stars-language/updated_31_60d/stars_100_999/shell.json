@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 132,
-    "concepts": 162,
-    "observations": 163,
-    "repos": 36,
-    "terms": 176
+    "components": 145,
+    "concepts": 188,
+    "observations": 189,
+    "repos": 38,
+    "terms": 202
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "actions/upload-pages-artifact",
@@ -44,11 +44,13 @@
     "rsmdt/the-startup",
     "rz1989s/claude-code-statusline",
     "SamNet-dev/paqctl",
+    "sclorg/mysql-container",
     "serpro69/claude-toolbox",
     "SWE-bench/experiments",
     "TexasInstruments/edgeai",
     "trailofbits/claude-code-devcontainer",
     "undeadlist/claude-code-agents",
+    "unixorn/zsh-quickstart-kit",
     "xbdcc/CCommand"
   ]
 }

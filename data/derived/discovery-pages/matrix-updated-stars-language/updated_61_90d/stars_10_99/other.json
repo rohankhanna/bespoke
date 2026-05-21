@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 390,
-    "concepts": 255,
-    "observations": 256,
-    "repos": 89,
-    "terms": 250
+    "components": 383,
+    "concepts": 262,
+    "observations": 263,
+    "repos": 87,
+    "terms": 257
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "219-design/qt-qml-project-template-with-ci",
     "2KAbhishek/exercism.nvim",
@@ -37,11 +37,9 @@
     "citation-file-format/ruby-cff",
     "clearml/clearml-helm-charts",
     "clojure/tools.deps",
-    "codymikol/neotest-kotlin",
     "coin-or-tools/homebrew-coinor",
     "DamageLabs/paper_trail_manager",
     "dbuenzli/logs",
-    "devise-i18n/devise-i18n",
     "dominique-unruh/scala-isabelle",
     "DragonFlyBSD/DPorts",
     "dwyl/cid",
@@ -71,7 +69,6 @@
     "lostromb/concentus.oggfile",
     "malewicz1337/oil-git.nvim",
     "mfussenegger/nlua",
-    "MicrosoftDocs/vcpkg-docs",
     "mirage/conan",
     "mit-plv/bbv",
     "Mobile-Artificial-Intelligence/maise",
@@ -94,6 +91,7 @@
     "rust-lang/crates-build-env",
     "Saalvage/AssimpNetter",
     "SchwarzIT/spectral-intellij-plugin",
+    "SciML/sciml.ai",
     "spring-ai-alibaba/website",
     "SqrtMinusOne/eshell-atuin",
     "standardrb/lint_roller",

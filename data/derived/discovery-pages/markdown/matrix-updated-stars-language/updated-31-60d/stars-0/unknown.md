@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 77
-- terms: 62
+- repos: 82
+- terms: 66
 - components: 52
-- concepts: 53
-- observations: 53
+- concepts: 57
+- observations: 57
 
 ## Static behavior
 
@@ -26,6 +26,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Claude-Code-Feedback](https://github.com/danielrosehill/Claude-Code-Feedback) | 0 | 2026-04-20T22:19:27Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-HTML-Email-Designer-Plugin](https://github.com/danielrosehill/Claude-HTML-Email-Designer-Plugin) | 0 | 2026-04-20T21:43:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Green-Invoice-Ops-Plugin](https://github.com/danielrosehill/Claude-Green-Invoice-Ops-Plugin) | 0 | 2026-04-20T14:44:29Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [danielrosehill/AI-Geopol-Projects](https://github.com/danielrosehill/AI-Geopol-Projects) | 0 | 2026-04-20T11:43:31Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [danielrosehill/Favorite-Code-Libraries](https://github.com/danielrosehill/Favorite-Code-Libraries) | 0 | 2026-04-20T11:22:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Culmus/hebrew-fonts](https://github.com/Culmus/hebrew-fonts) | 0 | 2026-04-19T21:43:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Arch-And-Interiors-Index](https://github.com/danielrosehill/Arch-And-Interiors-Index) | 0 | 2026-04-19T17:18:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Workspace-Reshaping-190426](https://github.com/danielrosehill/Claude-Workspace-Reshaping-190426) | 0 | 2026-04-19T14:44:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -108,6 +113,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Claude-Code-Feedback](https://github.com/danielrosehill/Claude-Code-Feedback) | 0 | 2026-04-20T22:19:27Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-HTML-Email-Designer-Plugin](https://github.com/danielrosehill/Claude-HTML-Email-Designer-Plugin) | 0 | 2026-04-20T21:43:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Green-Invoice-Ops-Plugin](https://github.com/danielrosehill/Claude-Green-Invoice-Ops-Plugin) | 0 | 2026-04-20T14:44:29Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [danielrosehill/AI-Geopol-Projects](https://github.com/danielrosehill/AI-Geopol-Projects) | 0 | 2026-04-20T11:43:31Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [danielrosehill/Favorite-Code-Libraries](https://github.com/danielrosehill/Favorite-Code-Libraries) | 0 | 2026-04-20T11:22:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Culmus/hebrew-fonts](https://github.com/Culmus/hebrew-fonts) | 0 | 2026-04-19T21:43:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Arch-And-Interiors-Index](https://github.com/danielrosehill/Arch-And-Interiors-Index) | 0 | 2026-04-19T17:18:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Workspace-Reshaping-190426](https://github.com/danielrosehill/Claude-Workspace-Reshaping-190426) | 0 | 2026-04-19T14:44:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 829,
-    "concepts": 1120,
-    "observations": 1124,
-    "repos": 101,
-    "terms": 1114
+    "components": 801,
+    "concepts": 1084,
+    "observations": 1088,
+    "repos": 96,
+    "terms": 1079
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "abseil/abseil-cpp",
@@ -52,12 +52,9 @@
     "facebook/rocksdb",
     "facebookresearch/faiss",
     "FFmpeg/FFmpeg",
-    "fmtlib/fmt",
     "FreeRDP/FreeRDP",
-    "git/git",
     "gnachman/iTerm2",
     "google-deepmind/mujoco",
-    "google/benchmark",
     "google/filament",
     "google/sentencepiece",
     "grpc/grpc",
@@ -66,7 +63,6 @@
     "Immediate-Mode-UI/Nuklear",
     "iovisor/bcc",
     "jemalloc/jemalloc",
-    "jonas/tig",
     "jqlang/jq",
     "jrouwe/JoltPhysics",
     "k2-fsa/sherpa-onnx",
@@ -83,7 +79,6 @@
     "microsoft/STL",
     "microsoft/winget-cli",
     "microsoft/WSL",
-    "microsoft/WSL2-Linux-Kernel",
     "ml-explore/mlx",
     "mongodb/mongo",
     "mpv-player/mpv",

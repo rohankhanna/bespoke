@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 527,
-    "concepts": 170,
-    "observations": 171,
-    "repos": 33,
-    "terms": 168
+    "components": 531,
+    "concepts": 177,
+    "observations": 178,
+    "repos": 34,
+    "terms": 175
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "alexmojaki/birdseye",
     "architect/architect",
     "Blizzard/node-rdkafka",
     "breejs/bree",
     "casparwylie/cascii-core",
+    "chakra-core/ChakraCore",
     "cristianbote/goober",
     "developit/microbundle",
     "facebook/fbjs",
@@ -36,6 +37,7 @@
     "jimmywarting/StreamSaver.js",
     "jsx-eslint/eslint-plugin-jsx-a11y",
     "microsoft/botframework-sdk",
+    "microsoft/generative-ai-with-javascript",
     "mozilla/webextension-polyfill",
     "omnidan/redux-undo",
     "pburtchaell/redux-promise-middleware",
@@ -43,7 +45,6 @@
     "reactjs/react-a11y",
     "sindresorhus/execa",
     "sindresorhus/trash-cli",
-    "songquanpeng/message-pusher",
     "steipete/claude-code-mcp",
     "TritonDataCenter/node-verror",
     "typicode/mistcss"

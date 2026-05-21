@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1060,
-    "concepts": 149,
-    "observations": 149,
-    "repos": 32,
-    "terms": 178
+    "components": 1189,
+    "concepts": 181,
+    "observations": 181,
+    "repos": 36,
+    "terms": 210
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "antfu-collective/vite-ssg",
@@ -21,8 +21,10 @@
     "antfu-collective/vitesse-webext",
     "antfu/vitesse-nuxt",
     "arktypeio/arktype",
+    "ben-rogerson/twin.macro",
     "coaidev/coai",
     "cosmiconfig/cosmiconfig",
+    "ekalinin/sitemap.js",
     "gustavoguichard/string-ts",
     "infinitered/nsfwjs",
     "Ironclad/rivet",
@@ -43,8 +45,10 @@
     "standard-schema/standard-schema",
     "stravu/crystal",
     "t0bst4r/home-assistant-matter-hub",
+    "TfTHacker/obsidian42-brat",
     "ulid/javascript",
     "unjs/unplugin",
+    "vadimdemedes/pastel",
     "vercel/serve"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 345,
-    "concepts": 716,
-    "observations": 716,
-    "repos": 195,
-    "terms": 710
+    "components": 356,
+    "concepts": 725,
+    "observations": 725,
+    "repos": 197,
+    "terms": 719
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "0k/shyaml",
     "23andMe/Yamale",
     "24mlight/a-share-mcp-is-just-i-need",
+    "absadiki/pywhispercpp",
     "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
     "acl-org/aclpubcheck",
     "adhikasp/mcp-client-cli",
@@ -31,6 +32,7 @@
     "alonw0/web-asset-generator",
     "AMAP-ML/Tree-GRPO",
     "amazon-far/TWIST2",
+    "amd/Quark",
     "AmenRa/retriv",
     "AnonymouX47/term-image",
     "apache/rocketmq-client-python",
@@ -89,7 +91,7 @@
     "GFW-knocker/gfw_resist_tcp_proxy",
     "githubharald/CTCDecoder",
     "google-deepmind/recurrentgemma",
-    "googlefonts/fontmake",
+    "googlefonts/glyphsets",
     "gristlabs/asttokens",
     "Gumpest/SparseVLMs",
     "guoweiyu/NeuroVLA",

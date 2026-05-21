@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 50,
-    "observations": 50,
-    "repos": 5,
-    "terms": 50
+    "components": 55,
+    "concepts": 67,
+    "observations": 67,
+    "repos": 7,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "KhronosGroup/KTX-Software",
     "libbitcoin/libbitcoin-system",
     "luau-lang/luau",
+    "swiftlang/swift-llbuild",
+    "TrenchBroom/TrenchBroom",
     "xtensor-stack/xtensor"
   ]
 }

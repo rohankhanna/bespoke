@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 136,
-    "concepts": 173,
-    "observations": 174,
-    "repos": 13,
-    "terms": 170
+    "components": 113,
+    "concepts": 143,
+    "observations": 144,
+    "repos": 11,
+    "terms": 140
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,18 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "89luca89/distrobox",
     "a2aproject/A2A",
     "acmesh-official/acme.sh",
     "BtbN/FFmpeg-Builds",
     "DaoCloud/public-image-mirror",
-    "dokku/dokku",
     "google/oss-fuzz",
     "itzg/docker-minecraft-server",
     "rockerBOO/awesome-neovim",
     "super-linter/super-linter",
     "termux/termux-packages",
-    "unixorn/awesome-zsh-plugins",
     "VSCodium/vscodium"
   ]
 }

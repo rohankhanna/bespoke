@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 10226,
+    "components": 10233,
     "concepts": 10063,
     "observations": 10095,
     "repos": 1714,
@@ -10,7 +10,7 @@
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",

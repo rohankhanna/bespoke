@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 130,
-    "concepts": 172,
-    "observations": 173,
-    "repos": 49,
-    "terms": 172
+    "components": 120,
+    "concepts": 161,
+    "observations": 162,
+    "repos": 45,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "abhisheknaiidu/abhisheknaiidu",
@@ -26,9 +26,7 @@
     "cisagov/vulnrichment",
     "CVEProject/automation-working-group",
     "deepset-ai/haystack-integrations",
-    "django/deps",
     "dnaka91/obws",
-    "emberjs/rfcs",
     "eryajf/awesome-stars-eryajf",
     "fluxcd/flux2-multi-tenancy",
     "forcedotcom/cli",
@@ -54,12 +52,10 @@
     "microsoft/openjdk",
     "near/NEPs",
     "NuGet/docs.microsoft.com-nuget",
-    "oak-security/audit-reports",
     "ocaml/opam-repository",
     "openjs-foundation/cross-project-council",
     "openwdl/wdl",
     "smithy-lang/awesome-smithy",
-    "stripe/openapi",
     "tinted-theming/home",
     "triton-inference-server/tensorrtllm_backend",
     "yokoffing/Control-D-Config"

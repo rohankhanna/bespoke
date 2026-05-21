@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 62
-- terms: 463
-- components: 412
-- concepts: 465
-- observations: 465
+- repos: 57
+- terms: 436
+- components: 387
+- concepts: 438
+- observations: 438
 
 ## Static behavior
 
@@ -80,14 +80,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/semantic-kernel-java](https://github.com/microsoft/semantic-kernel-java) | 260 | 2026-04-22T17:33:07Z | Java | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [graalvm/native-build-tools](https://github.com/graalvm/native-build-tools) | 445 | 2026-04-22T14:51:35Z | Java | Infrastructure/tooling | 13 | 5 | 13 | 13 |
 | [googleapis/google-api-java-client-services](https://github.com/googleapis/google-api-java-client-services) | 719 | 2026-04-22T14:40:14Z | Java | Infrastructure/tooling | 2 | 6 | 2 | 2 |
-| [eclipse-lemminx/lemminx](https://github.com/eclipse-lemminx/lemminx) | 351 | 2026-04-21T18:20:38Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [eclipse-lemminx/lemminx](https://github.com/eclipse-lemminx/lemminx) | 352 | 2026-04-21T18:20:38Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [FasterXML/woodstox](https://github.com/FasterXML/woodstox) | 248 | 2026-04-21T17:04:16Z | Java | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [swagger-api/swagger-inflector](https://github.com/swagger-api/swagger-inflector) | 170 | 2026-04-21T13:04:19Z | Java | Infrastructure/tooling | 19 | 9 | 19 | 19 |
-| [googleapis/google-auth-library-java](https://github.com/googleapis/google-auth-library-java) | 480 | 2026-04-20T21:17:04Z | Java | CLI | 3 | 4 | 3 | 3 |
-| [googleapis/google-oauth-java-client](https://github.com/googleapis/google-oauth-java-client) | 657 | 2026-04-20T21:14:46Z | Java | CLI | 6 | 9 | 6 | 6 |
-| [microsoft/Generative-AI-for-beginners-java](https://github.com/microsoft/Generative-AI-for-beginners-java) | 398 | 2026-04-20T15:23:18Z | Java | Unknown | 0 | 0 | 0 | 0 |
-| [spotbugs/sonar-findbugs](https://github.com/spotbugs/sonar-findbugs) | 381 | 2026-04-20T13:38:07Z | Java | Infrastructure/tooling | 4 | 8 | 4 | 4 |
-| [graalvm/graal-languages-demos](https://github.com/graalvm/graal-languages-demos) | 101 | 2026-04-20T11:54:29Z | Java | Infrastructure/tooling | 14 | 4 | 14 | 14 |
 
 ## Repos sorted by stars
 
@@ -102,7 +97,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Apicurio/apicurio-registry](https://github.com/Apicurio/apicurio-registry) | 799 | 2026-04-30T11:22:17Z | Java | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [googleapis/google-api-java-client-services](https://github.com/googleapis/google-api-java-client-services) | 719 | 2026-04-22T14:40:14Z | Java | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [graalvm/graalvm-demos](https://github.com/graalvm/graalvm-demos) | 678 | 2026-04-24T14:31:26Z | Java | Infrastructure/tooling | 3 | 2 | 3 | 3 |
-| [googleapis/google-oauth-java-client](https://github.com/googleapis/google-oauth-java-client) | 657 | 2026-04-20T21:14:46Z | Java | CLI | 6 | 9 | 6 | 6 |
 | [devoxx/DevoxxGenieIDEAPlugin](https://github.com/devoxx/DevoxxGenieIDEAPlugin) | 639 | 2026-04-29T08:02:21Z | Java | CLI | 24 | 12 | 24 | 24 |
 | [FasterXML/jackson-dataformat-xml](https://github.com/FasterXML/jackson-dataformat-xml) | 623 | 2026-04-28T20:31:28Z | Java | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [SAP/SapMachine](https://github.com/SAP/SapMachine) | 607 | 2026-05-01T01:08:06Z | Java | Infrastructure/tooling | 13 | 9 | 13 | 13 |
@@ -111,17 +105,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jpmml/jpmml-sklearn](https://github.com/jpmml/jpmml-sklearn) | 540 | 2026-04-28T17:23:57Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [milvus-io/milvus-sdk-java](https://github.com/milvus-io/milvus-sdk-java) | 485 | 2026-04-24T06:45:15Z | Java | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [apache/rocketmq-clients](https://github.com/apache/rocketmq-clients) | 484 | 2026-04-29T05:50:32Z | Java | CLI | 14 | 8 | 14 | 14 |
-| [googleapis/google-auth-library-java](https://github.com/googleapis/google-auth-library-java) | 480 | 2026-04-20T21:17:04Z | Java | CLI | 3 | 4 | 3 | 3 |
 | [MarcusWolschon/osmeditor4android](https://github.com/MarcusWolschon/osmeditor4android) | 455 | 2026-05-02T14:48:44Z | Java | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [FasterXML/jackson-dataformats-text](https://github.com/FasterXML/jackson-dataformats-text) | 451 | 2026-04-28T20:26:24Z | Java | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [graalvm/native-build-tools](https://github.com/graalvm/native-build-tools) | 445 | 2026-04-22T14:51:35Z | Java | Infrastructure/tooling | 13 | 5 | 13 | 13 |
 | [a2aproject/a2a-java](https://github.com/a2aproject/a2a-java) | 399 | 2026-04-22T17:49:52Z | Java | CLI | 14 | 12 | 14 | 14 |
-| [microsoft/Generative-AI-for-beginners-java](https://github.com/microsoft/Generative-AI-for-beginners-java) | 398 | 2026-04-20T15:23:18Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [processing/processing4](https://github.com/processing/processing4) | 394 | 2026-05-03T17:26:27Z | Java | Infrastructure/tooling | 12 | 15 | 12 | 12 |
 | [jdereg/json-io](https://github.com/jdereg/json-io) | 381 | 2026-05-05T03:58:21Z | Java | CLI | 3 | 5 | 3 | 3 |
-| [spotbugs/sonar-findbugs](https://github.com/spotbugs/sonar-findbugs) | 381 | 2026-04-20T13:38:07Z | Java | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [Xilinx/RapidWright](https://github.com/Xilinx/RapidWright) | 370 | 2026-04-29T22:42:44Z | Java | Infrastructure/tooling | 10 | 7 | 10 | 10 |
-| [eclipse-lemminx/lemminx](https://github.com/eclipse-lemminx/lemminx) | 351 | 2026-04-21T18:20:38Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [eclipse-lemminx/lemminx](https://github.com/eclipse-lemminx/lemminx) | 352 | 2026-04-21T18:20:38Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [palantir/javapoet](https://github.com/palantir/javapoet) | 349 | 2026-05-01T07:05:21Z | Java | Library | 1 | 0 | 1 | 1 |
 | [FasterXML/jackson-dataformats-binary](https://github.com/FasterXML/jackson-dataformats-binary) | 346 | 2026-04-28T20:24:44Z | Java | Infrastructure/tooling | 10 | 6 | 10 | 10 |
 | [microsoft/vscode-java-test](https://github.com/microsoft/vscode-java-test) | 331 | 2026-04-27T08:57:21Z | Java | Infrastructure/tooling | 7 | 31 | 7 | 7 |
@@ -154,4 +145,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jpmml/jpmml-xgboost](https://github.com/jpmml/jpmml-xgboost) | 131 | 2026-04-26T12:19:22Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [zilliztech/vts](https://github.com/zilliztech/vts) | 121 | 2026-04-23T13:19:03Z | Java | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [connectbot/sshlib](https://github.com/connectbot/sshlib) | 120 | 2026-04-23T02:34:24Z | Java | Infrastructure/tooling | 5 | 4 | 5 | 5 |
-| [graalvm/graal-languages-demos](https://github.com/graalvm/graal-languages-demos) | 101 | 2026-04-20T11:54:29Z | Java | Infrastructure/tooling | 14 | 4 | 14 | 14 |

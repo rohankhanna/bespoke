@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1646,
-    "concepts": 255,
-    "observations": 255,
-    "repos": 38,
-    "terms": 270
+    "components": 1903,
+    "concepts": 293,
+    "observations": 295,
+    "repos": 43,
+    "terms": 308
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "actions/starter-workflows",
     "airbnb/visx",
     "alibaba/ice",
     "AndyMik90/Aperant",
     "ant-design/ant-design-mobile",
+    "apollographql/apollo-client",
     "badlogic/pi-mono",
+    "browserless/browserless",
     "bvaughn/react-window",
     "catppuccin/catppuccin",
     "chatboxai/chatbox",
@@ -29,6 +31,7 @@
     "fingerprintjs/fingerprintjs",
     "fission-ai/openspec",
     "garrytan/gstack",
+    "gcanti/fp-ts",
     "iOfficeAI/AionUi",
     "lerna/lerna",
     "microsoft/playwright-mcp",
@@ -37,6 +40,7 @@
     "multica-ai/multica",
     "neoclide/coc.nvim",
     "nvidia/nemoclaw",
+    "openai/openai-node",
     "qwenlm/qwen-code",
     "qwibitai/nanoclaw",
     "recharts/recharts",
@@ -51,6 +55,7 @@
     "upstash/context7",
     "vadimdemedes/ink",
     "vercel/swr",
-    "Vinzent03/obsidian-git"
+    "Vinzent03/obsidian-git",
+    "VSCodeVim/Vim"
   ]
 }

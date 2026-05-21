@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 204,
-    "concepts": 388,
-    "observations": 388,
+    "components": 209,
+    "concepts": 387,
+    "observations": 387,
     "repos": 72,
-    "terms": 382
+    "terms": 381
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "adrienverge/yamllint",
     "AgentOps-AI/agentops",
@@ -68,11 +68,11 @@
     "pfnet/pfrl",
     "PyCQA/flake8-bugbear",
     "Pylons/pyramid",
+    "pytest-dev/pytest-cov",
     "python-semantic-release/python-semantic-release",
     "qix-/better-exceptions",
     "randy3k/radian",
     "s3prl/s3prl",
-    "SafeAILab/EAGLE",
     "ServiceNow/BrowserGym",
     "shareai-lab/claw0",
     "sierra-research/tau-bench",

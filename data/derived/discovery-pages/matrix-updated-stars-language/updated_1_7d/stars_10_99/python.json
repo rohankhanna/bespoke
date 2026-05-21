@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 9,
-    "observations": 9,
+    "components": 12,
+    "concepts": 10,
+    "observations": 10,
     "repos": 3,
-    "terms": 9
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
-    "baicai-1145/GPT-SoVITS-CPUFast",
+    "google-marketing-solutions/ariel",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "intel-staging/text-generation-webui"
   ]

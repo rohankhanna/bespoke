@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 703,
-    "concepts": 96,
-    "observations": 96,
-    "repos": 34,
-    "terms": 105
+    "components": 747,
+    "concepts": 107,
+    "observations": 107,
+    "repos": 37,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "alibaizhanov/openclaw-mengram",
     "analyticsinmotion/wake-word",
@@ -29,6 +29,7 @@
     "danielrosehill/GreenInvoice-MCP",
     "dash0hq/opentelemetry-demo",
     "dreamiurg/mountaineers-assistant",
+    "dreamiurg/mountaineers-mcp",
     "dylibso/xtp-cpp-bindgen",
     "ember-cli/ember-addon-blueprint",
     "enxs969/skiller",
@@ -41,6 +42,8 @@
     "octokit/openapi-webhooks",
     "qcr/qcr.github.io",
     "saminiscool/twitter-ai-agent",
+    "sass/sync-child-process",
+    "sass/sync-message-port",
     "storybookjs/addon-jest",
     "tnc-ca-geo/animl-api",
     "toyamarinyon/giselle",

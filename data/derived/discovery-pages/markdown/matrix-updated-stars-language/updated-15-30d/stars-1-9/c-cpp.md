@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · C/C++
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 17
+- repos: 16
 - terms: 63
-- components: 91
+- components: 77
 - concepts: 64
 - observations: 64
 
@@ -42,7 +42,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DavidKinder/inform](https://github.com/DavidKinder/inform) | 2 | 2026-04-23T06:35:15Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [stdlib-js/complex-float64-ctor](https://github.com/stdlib-js/complex-float64-ctor) | 1 | 2026-04-22T03:34:11Z | C/C++ | Infrastructure/tooling | 21 | 24 | 22 | 22 |
 | [CHIP-SPV/H4I-MKLShim](https://github.com/CHIP-SPV/H4I-MKLShim) | 1 | 2026-04-21T09:14:19Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
-| [0xPolygonHermez/pil2-proofman-js](https://github.com/0xPolygonHermez/pil2-proofman-js) | 3 | 2026-04-20T17:33:33Z | C/C++ | Unknown | 0 | 14 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -54,7 +53,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ROCm/rocJPEG](https://github.com/ROCm/rocJPEG) | 7 | 2026-04-24T17:32:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [danielbernalb/AireCiudadano](https://github.com/danielbernalb/AireCiudadano) | 5 | 2026-04-29T01:56:02Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [chrishulbert/brickwarrior](https://github.com/chrishulbert/brickwarrior) | 3 | 2026-05-04T12:01:55Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [0xPolygonHermez/pil2-proofman-js](https://github.com/0xPolygonHermez/pil2-proofman-js) | 3 | 2026-04-20T17:33:33Z | C/C++ | Unknown | 0 | 14 | 0 | 0 |
 | [clearml/dropbear](https://github.com/clearml/dropbear) | 2 | 2026-05-04T07:10:38Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [skeeto/aas-sign](https://github.com/skeeto/aas-sign) | 2 | 2026-05-03T14:14:06Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [yoshoku/numo-linalg-alt](https://github.com/yoshoku/numo-linalg-alt) | 2 | 2026-04-26T14:30:26Z | C/C++ | Infrastructure/tooling | 8 | 6 | 8 | 8 |

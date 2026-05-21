@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 312,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 6,
-    "terms": 41
+    "components": 347,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 5,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
-    "apollographql/apollo-tooling",
-    "ebullient/obsidian-admonition",
+    "alichherawalla/off-grid-mobile-ai",
     "microsoft/vscode-js-debug",
     "podman-desktop/podman-desktop",
     "typescript-language-server/typescript-language-server",
-    "vuejs/language-tools"
+    "vuejs/devtools"
   ]
 }

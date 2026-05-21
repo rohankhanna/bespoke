@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 5,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 1,
+    "terms": 0
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "python",
+    "star_bucket": "stars_100000_999999",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "repo_ids": [
+    "ytdl-org/youtube-dl"
+  ]
+}

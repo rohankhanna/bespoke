@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 128,
-    "concepts": 183,
-    "observations": 183,
-    "repos": 26,
-    "terms": 180
+    "components": 153,
+    "concepts": 210,
+    "observations": 210,
+    "repos": 31,
+    "terms": 207
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "apache/camel-examples",
     "apache/doris-flink-connector",
@@ -25,17 +25,22 @@
     "fabmax/physx-jni",
     "filip26/titanium-json-ld",
     "fnproject/fdk-java",
+    "googleapis/google-auth-library-java",
+    "googleapis/google-oauth-java-client",
     "googleapis/java-bigquery",
     "GoogleCloudPlatform/cloud-bigtable-examples",
     "GoogleCloudPlatform/cloud-opensource-java",
+    "graalvm/graal-languages-demos",
     "higress-group/higress-console",
     "jpmml/jpmml-sparkml",
     "kreativekorp/bitsnpicas",
+    "microsoft/Generative-AI-for-beginners-java",
     "microsoft/java-debug",
     "mockingbot/react-native-zip-archive",
     "mukel/llama3.java",
     "objectbox/objectbox-examples",
     "redis/redis-om-spring",
+    "spotbugs/sonar-findbugs",
     "spring-ai-alibaba/Lynxe",
     "spring-io/spring-javaformat",
     "swagger-api/validator-badge",

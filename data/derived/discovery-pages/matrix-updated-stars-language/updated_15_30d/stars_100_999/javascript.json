@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2350,
-    "concepts": 518,
-    "observations": 526,
-    "repos": 95,
-    "terms": 513
+    "components": 2180,
+    "concepts": 491,
+    "observations": 497,
+    "repos": 91,
+    "terms": 486
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
@@ -27,11 +27,9 @@
     "auth0/node-jws",
     "avoidwork/tiny-lru",
     "aws/aws-cdk-rfcs",
-    "bcomnes/npm-run-all2",
     "Brooooooklyn/snappy",
     "browserslist/update-db",
     "carbon-design-system/carbon-components-vue",
-    "chaijs/chai-http",
     "chrisgoringe/cg-image-filter",
     "commitizen/cz-conventional-changelog",
     "conda-forge/conda-forge.github.io",
@@ -52,7 +50,6 @@
     "GDevelopApp/GDevelop-examples",
     "gitleaks/gitleaks-action",
     "GordonChen19/Prompt-Relay",
-    "higlass/higlass",
     "hudochenkov/postcss-sorting",
     "hyparam/icebird",
     "i18next/i18next-fs-backend",
@@ -93,12 +90,11 @@
     "rubyjs/mini_racer",
     "rvagg/github-webhook",
     "rvagg/github-webhook-handler",
-    "semantic-release/commit-analyzer",
-    "semantic-release/github",
     "speced/respec",
     "stylelint/stylelint-config-recommended",
     "sveltejs/dts-buddy",
     "Taritsyn/BundleTransformer",
+    "tc39/eshost",
     "tc39/notes",
     "tomayac/SVGcode",
     "unicode-org/message-format-wg",

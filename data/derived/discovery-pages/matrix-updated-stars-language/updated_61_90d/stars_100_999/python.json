@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 279,
-    "concepts": 443,
-    "observations": 443,
-    "repos": 108,
-    "terms": 439
+    "components": 281,
+    "concepts": 454,
+    "observations": 455,
+    "repos": 109,
+    "terms": 450
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
-    "absadiki/pywhispercpp",
+    "ACEnglish/truvari",
     "actionless/pikaur",
     "Advocate99/DiffGesture",
     "aigc3d/LHM-plusplus",
@@ -24,7 +24,6 @@
     "amaranth-lang/amaranth-boards",
     "amaranth-lang/amaranth-soc",
     "AMD-AGI/Nitro-E",
-    "amd/Quark",
     "angr/angrop",
     "araffin/sbx",
     "Blosc/python-blosc",
@@ -52,8 +51,8 @@
     "gmberton/VPR-datasets-downloader",
     "google-deepmind/multi_object_datasets",
     "google/adk-python-community",
-    "googlefonts/glyphsets",
     "GuiWonder/Shanggu",
+    "HazyResearch/zoology",
     "Helsinki-NLP/Opus-MT",
     "hongyuanyu/SPAN",
     "huawei-noah/noah-research",
@@ -86,10 +85,12 @@
     "NM512/dreamerv3-torch",
     "NVlabs/GatedDeltaNet",
     "NVlabs/OmniVinci",
+    "open-tinker/OpenTinker",
     "OpenDriveLab/DriveAGI",
     "OpenDriveLab/LaneSegNet",
     "openvpi/SingingVocoders",
     "Osilly/Vision-DeepResearch",
+    "psf/pyperf",
     "PyCQA/modernize",
     "python-hyper/brotlicffi",
     "radekd91/inferno",

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · C/C++
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 17
+- repos: 18
 - terms: 77
-- components: 143
+- components: 157
 - concepts: 77
 - observations: 77
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [0xPolygonHermez/pil2-proofman-js](https://github.com/0xPolygonHermez/pil2-proofman-js) | 3 | 2026-04-20T17:33:33Z | C/C++ | Unknown | 0 | 14 | 0 | 0 |
 | [stdlib-js/complex-float32-ctor](https://github.com/stdlib-js/complex-float32-ctor) | 1 | 2026-04-20T01:34:52Z | C/C++ | Infrastructure/tooling | 22 | 24 | 23 | 23 |
 | [openssh/openssh-portable-selfhosted](https://github.com/openssh/openssh-portable-selfhosted) | 2 | 2026-04-19T23:38:41Z | C/C++ | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [gbrobro119-star/darksword-kexploit](https://github.com/gbrobro119-star/darksword-kexploit) | 1 | 2026-04-19T12:37:45Z | C/C++ | Unknown | 1 | 0 | 0 | 0 |
@@ -54,6 +55,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [datalevin/dlmdb](https://github.com/datalevin/dlmdb) | 6 | 2026-04-04T03:48:00Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [HyperLan-git/Synthmania](https://github.com/HyperLan-git/Synthmania) | 5 | 2026-04-16T13:32:41Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [ikonopistsev/mdbxmou](https://github.com/ikonopistsev/mdbxmou) | 4 | 2026-04-01T13:51:03Z | C/C++ | Infrastructure/tooling | 2 | 7 | 2 | 2 |
+| [0xPolygonHermez/pil2-proofman-js](https://github.com/0xPolygonHermez/pil2-proofman-js) | 3 | 2026-04-20T17:33:33Z | C/C++ | Unknown | 0 | 14 | 0 | 0 |
 | [lonewolf-jp/convopeq](https://github.com/lonewolf-jp/ConvoPeq) | 3 | 2026-04-19T12:04:07Z | C/C++ | Framework | 0 | 0 | 0 | 0 |
 | [stdlib-js/ndarray-ctor](https://github.com/stdlib-js/ndarray-ctor) | 3 | 2026-04-17T11:23:45Z | C/C++ | Infrastructure/tooling | 24 | 58 | 24 | 24 |
 | [ankane/dist-c](https://github.com/ankane/dist-c) | 3 | 2026-04-05T20:45:03Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |

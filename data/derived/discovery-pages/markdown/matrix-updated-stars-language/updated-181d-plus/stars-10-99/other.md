@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 817
-- terms: 1851
-- components: 1999
-- concepts: 1857
-- observations: 1863
+- repos: 820
+- terms: 1857
+- components: 2004
+- concepts: 1863
+- observations: 1869
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ahumenberger/Z3.jl](https://github.com/ahumenberger/Z3.jl) | 72 | 2025-11-22T05:44:26Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [darrelmiller/sharpa2a](https://github.com/darrelmiller/sharpa2a) | 10 | 2025-11-21T23:17:16Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [status-im/nim-toml-serialization](https://github.com/status-im/nim-toml-serialization) | 46 | 2025-11-21T22:59:17Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [opencontainers/oci-conformance](https://github.com/opencontainers/oci-conformance) | 83 | 2025-11-20T22:19:02Z | Other | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [2KAbhishek/tdo.nvim](https://github.com/2KAbhishek/tdo.nvim) | 98 | 2025-11-20T06:13:22Z | Other | Infrastructure/tooling | 11 | 5 | 11 | 11 |
 | [openxrlab/xrtailor](https://github.com/openxrlab/xrtailor) | 48 | 2025-11-19T06:02:03Z | Other | Infrastructure/tooling | 12 | 0 | 12 | 12 |
@@ -985,6 +988,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hasansujon786/nvim-navbuddy](https://github.com/hasansujon786/nvim-navbuddy) | 73 | 2025-05-11T11:20:03Z | Other | Service/API | 0 | 0 | 0 | 0 |
 | [gerschel/sd-web-ui-quickcss](https://github.com/Gerschel/sd-web-ui-quickcss) | 73 | 2024-02-11T23:58:35Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [gdkrmr/lsp-julia](https://github.com/gdkrmr/lsp-julia) | 73 | 2023-09-15T06:55:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [ahumenberger/Z3.jl](https://github.com/ahumenberger/Z3.jl) | 72 | 2025-11-22T05:44:26Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [kdheepak/JuliaFormatter.vim](https://github.com/kdheepak/JuliaFormatter.vim) | 72 | 2025-08-08T03:05:35Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [derekkraan/curl_req](https://github.com/derekkraan/curl_req) | 72 | 2025-05-26T16:39:06Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [Deins/llama.cpp.zig](https://github.com/Deins/llama.cpp.zig) | 72 | 2025-04-14T18:34:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1193,6 +1197,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [anuvyklack/animation.nvim](https://github.com/anuvyklack/animation.nvim) | 47 | 2022-09-18T10:57:42Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [geez0x1/CompliantJointToolbox](https://github.com/geez0x1/CompliantJointToolbox) | 47 | 2022-04-21T14:14:05Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Lyceum/MuJoCo.jl](https://github.com/Lyceum/MuJoCo.jl) | 47 | 2021-10-18T17:24:09Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [status-im/nim-toml-serialization](https://github.com/status-im/nim-toml-serialization) | 46 | 2025-11-21T22:59:17Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [psibi/dhall-mode](https://github.com/psibi/dhall-mode) | 46 | 2025-01-05T14:18:48Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [cefsharp/CefSharp.Wpf.HwndHost](https://github.com/cefsharp/CefSharp.Wpf.HwndHost) | 46 | 2024-12-23T02:12:29Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [aroemers/sibiro](https://github.com/aroemers/sibiro) | 46 | 2024-05-24T19:40:30Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1636,6 +1641,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Hitesh-Aggarwal/feline_theme.nvim](https://github.com/Hitesh-Aggarwal/feline_theme.nvim) | 11 | 2023-03-04T16:56:03Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [EclipseFdn/iot.eclipse.org](https://github.com/EclipseFdn/iot.eclipse.org) | 11 | 2022-03-25T17:46:20Z | Other | CLI | 2 | 2 | 2 | 2 |
 | [codertocat/hello-world](https://github.com/Codertocat/Hello-World) | 11 | 2021-07-27T09:06:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [darrelmiller/sharpa2a](https://github.com/darrelmiller/sharpa2a) | 10 | 2025-11-21T23:17:16Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [nikitabobko/brew-install-path](https://github.com/nikitabobko/brew-install-path) | 10 | 2025-11-12T23:44:28Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [donny741/ruby-lsp-factory_bot](https://github.com/donny741/ruby-lsp-factory_bot) | 10 | 2025-11-12T13:30:52Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [imandra-ai/catapult](https://github.com/imandra-ai/catapult) | 10 | 2025-10-07T14:40:22Z | Other | Infrastructure/tooling | 6 | 6 | 6 | 6 |

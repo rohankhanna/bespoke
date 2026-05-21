@@ -3,7 +3,7 @@
     "components": 1244,
     "concepts": 528,
     "observations": 530,
-    "repos": 433,
+    "repos": 434,
     "terms": 528
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -280,6 +280,7 @@
     "JuliaBinaryWrappers/GTK4_jll.jl",
     "JuliaBinaryWrappers/HDF4_jll.jl",
     "JuliaBinaryWrappers/libadwaita_jll.jl",
+    "JuliaBinaryWrappers/Libffi_jll.jl",
     "JuliaBinaryWrappers/Libiconv_jll.jl",
     "JuliaBinaryWrappers/LightGBM_jll.jl",
     "JuliaBinaryWrappers/LLVMOpenMP_jll.jl",

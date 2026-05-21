@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 598,
-    "concepts": 370,
-    "observations": 372,
+    "components": 623,
+    "concepts": 373,
+    "observations": 375,
     "repos": 62,
-    "terms": 377
+    "terms": 380
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -30,11 +30,11 @@
     "facebookresearch/vggt",
     "floating-ui/floating-ui",
     "FunAudioLLM/CosyVoice",
-    "go-chi/chi",
     "google-research/vision_transformer",
     "google/leveldb",
     "GoogleChromeLabs/squoosh",
     "guzzle/guzzle",
+    "huggingface/text-generation-inference",
     "humanlayer/humanlayer",
     "jart/cosmopolitan",
     "Jiayi-Pan/TinyZero",
@@ -45,7 +45,6 @@
     "lokesh/color-thief",
     "lxgw/LxgwWenKai",
     "macrozheng/mall",
-    "mathjax/MathJax",
     "microsoft/AirSim",
     "nikic/PHP-Parser",
     "PaddlePaddle/PaddleDetection",
@@ -73,6 +72,7 @@
     "videojs/video.js",
     "Wan-Video/Wan2.1",
     "Wan-Video/Wan2.2",
+    "websockets/ws",
     "Zulko/moviepy",
     "zylon-ai/private-gpt"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 123,
-    "concepts": 84,
-    "observations": 84,
-    "repos": 8,
-    "terms": 81
+    "components": 74,
+    "concepts": 64,
+    "observations": 64,
+    "repos": 5,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "Aleph-Alpha/ts-rs",
-    "cordx56/rustowl",
-    "josh-project/josh",
-    "JuliaLang/juliaup",
     "junhoyeo/tokscale",
     "lance-format/lance",
     "nix-rust/nix",

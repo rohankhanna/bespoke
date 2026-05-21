@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 181,
-    "concepts": 274,
-    "observations": 275,
-    "repos": 67,
-    "terms": 269
+    "components": 183,
+    "concepts": 293,
+    "observations": 294,
+    "repos": 69,
+    "terms": 288
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "angr/vex",
@@ -33,9 +33,11 @@
     "conor42/fast-lzma2",
     "creachadair/imath",
     "deeptools/pyBigWig",
+    "devkitPro/libctru",
     "dthuerck/mapmap_cpu",
     "eddelbuettel/rinside",
     "ejoy/lua",
+    "embeddedartistry/libmemory",
     "erkyrath/glulxe",
     "google/ruy",
     "gpustack/llama-box",

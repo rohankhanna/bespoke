@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 29,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 12,
-    "terms": 58
+    "concepts": 47,
+    "observations": 47,
+    "repos": 11,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "Antibrumm/jackson-antpathfilter",
     "apache/netbeans-nbpackage",
@@ -23,7 +23,6 @@
     "googleapis/java-bigquerystorage",
     "guyboertje/jrjackson",
     "padreati/rapaio",
-    "piomin/spring-ai-showcase",
     "smithy-lang/smithy-gradle-plugin",
     "tlabs-data/tablesaw-parquet"
   ]

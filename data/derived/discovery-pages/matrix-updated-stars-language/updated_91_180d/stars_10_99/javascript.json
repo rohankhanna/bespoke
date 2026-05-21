@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 369,
+    "components": 356,
     "concepts": 73,
     "observations": 74,
-    "repos": 31,
+    "repos": 30,
     "terms": 73
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "ameshkov/safari-blocker",
     "bevry/domain-browser",
@@ -37,7 +37,6 @@
     "kunwar-shah/claudex",
     "L2jLiga/grunt-webfonts",
     "LuaLS/vscode-lua-doc",
-    "markdown-it/markdown-it-abbr",
     "minikube-ci/examples",
     "NEAR-DevHub/neardevhub-bos",
     "nodejs/Gzemnid",

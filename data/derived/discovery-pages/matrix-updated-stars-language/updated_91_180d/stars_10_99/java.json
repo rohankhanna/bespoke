@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 38,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 12,
-    "terms": 29
+    "concepts": 41,
+    "observations": 41,
+    "repos": 13,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "Accla/D4M.py",
     "aws-cloudformation/cloudformation-resource-schema",
@@ -25,6 +25,7 @@
     "JodaOrg/joda-time-hibernate",
     "jpmml/jpmml-transpiler",
     "langgraph4j/langgraph4j-examples",
+    "piomin/spring-ai-showcase",
     "zilliztech/kafka-connect-milvus"
   ]
 }

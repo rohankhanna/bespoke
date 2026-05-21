@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 191,
-    "concepts": 95,
-    "observations": 95,
-    "repos": 56,
-    "terms": 96
+    "components": 190,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 57,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "abap2UI5-addons/table-maintenance",
     "AdaCore/AdaSAT",
@@ -35,6 +35,7 @@
     "hedronvision/bazel-cc-filesystem-backport",
     "heshengtao/sap-ai-drawio",
     "heshengtao/sap-ai-mermaid",
+    "ihmcrobotics/ihmc-build",
     "infiniflow/resource",
     "jgpc42/jmh-clojure-task",
     "joeldrapper/dispersion",
@@ -46,13 +47,13 @@
     "Jumziey/neotest-nix-unit.nvim",
     "KSXGitHub/aur-packages-builder",
     "litex-hub/pythondata-cpu-vexriscv",
-    "LucasGinard/AireLibre-iOS",
     "lumen-oss/luarocks-build-treesitter-parser",
     "Melandel/workflow",
     "mirage/coin",
     "mmark-md/flycheck-mmark",
     "nelson-lang/module_skeleton",
     "nelson-lang/module_skeleton_basic",
+    "objectbox/objectbox-swift-generator",
     "ocaml-opam/opam-rt",
     "OutlierDetectionJL/OutlierDetectionData.jl",
     "OutlierDetectionJL/OutlierDetectionNeighbors.jl",

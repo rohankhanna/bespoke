@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4678,
-    "concepts": 1052,
-    "observations": 1052,
+    "components": 4631,
+    "concepts": 1043,
+    "observations": 1043,
     "repos": 373,
-    "terms": 1040
+    "terms": 1031
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "2createStudio/postcss-sprites",
@@ -313,6 +313,7 @@
     "rollup/rollup-starter-app",
     "rollup/rollup-starter-lib",
     "rpl/flow-coverage-report",
+    "RReverser/wasm-bindgen-rayon",
     "SafetyCulture/grpc-web-devtools",
     "saharan/OimoPhysics",
     "sanctuary-js/sanctuary-def",
@@ -369,7 +370,6 @@
     "twolfson/spritesmith",
     "udacity/ud989-pizzamvo",
     "udacity/ud989-retain",
-    "update/update",
     "usmanyunusov/nanospinner",
     "ValYouW/njsTrace",
     "verbose/verb",

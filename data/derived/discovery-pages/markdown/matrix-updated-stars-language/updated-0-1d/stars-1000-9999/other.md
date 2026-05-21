@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 12
-- terms: 137
-- components: 149
-- concepts: 137
-- observations: 138
+- repos: 13
+- terms: 123
+- components: 142
+- concepts: 123
+- observations: 124
 
 ## Static behavior
 
@@ -26,32 +26,34 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1227 | 2026-05-20T08:38:48Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [microsoft/aspire](https://github.com/microsoft/aspire) | 5961 | 2026-05-21T01:52:03Z | Other | Infrastructure/tooling | 9 | 15 | 9 | 9 |
+| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5931 | 2026-05-21T01:47:47Z | Other | Infrastructure/tooling | 24 | 13 | 24 | 24 |
+| [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1227 | 2026-05-21T00:54:38Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3649 | 2026-05-20T21:08:00Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [firebase/flutterfire](https://github.com/firebase/flutterfire) | 9198 | 2026-05-20T17:04:21Z | Other | Infrastructure/tooling | 11 | 28 | 11 | 11 |
+| [googleapis/google-auth-library-php](https://github.com/googleapis/google-auth-library-php) | 1396 | 2026-05-20T15:10:01Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [all-contributors/allcontributors.org](https://github.com/all-contributors/allcontributors.org) | 8046 | 2026-05-20T14:14:24Z | Other | Infrastructure/tooling | 10 | 26 | 10 | 10 |
+| [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5050 | 2026-05-20T14:12:54Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
+| [kurrent-io/KurrentDB](https://github.com/kurrent-io/KurrentDB) | 5798 | 2026-05-20T13:26:12Z | Other | Infrastructure/tooling | 12 | 12 | 12 | 12 |
+| [seancorfield/honeysql](https://github.com/seancorfield/honeysql) | 1897 | 2026-05-20T12:02:57Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1177 | 2026-05-20T11:48:29Z | Other | Infrastructure/tooling | 6 | 13 | 6 | 6 |
+| [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) | 3740 | 2026-05-20T10:39:12Z | Other | Model/data | 12 | 0 | 12 | 12 |
 | [dotnet/reactive](https://github.com/dotnet/reactive) | 7146 | 2026-05-20T06:16:55Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [psmux/psmux](https://github.com/psmux/psmux) | 2052 | 2026-05-20T05:21:19Z | Other | CLI | 16 | 5 | 16 | 16 |
-| [microsoft/aspire](https://github.com/microsoft/aspire) | 5952 | 2026-05-20T02:16:44Z | Other | Infrastructure/tooling | 9 | 15 | 9 | 9 |
-| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5933 | 2026-05-20T01:34:37Z | Other | Infrastructure/tooling | 24 | 13 | 24 | 24 |
-| [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1176 | 2026-05-19T23:54:36Z | Other | Infrastructure/tooling | 6 | 13 | 6 | 6 |
-| [andymass/vim-matchup](https://github.com/andymass/vim-matchup) | 1901 | 2026-05-19T23:48:14Z | Other | Infrastructure/tooling | 11 | 8 | 11 | 11 |
-| [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5049 | 2026-05-19T20:45:30Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
-| [clj-kondo/clj-kondo](https://github.com/clj-kondo/clj-kondo) | 1840 | 2026-05-19T15:16:42Z | Other | Infrastructure/tooling | 9 | 17 | 9 | 9 |
-| [firebase/flutterfire](https://github.com/firebase/flutterfire) | 9199 | 2026-05-19T14:12:28Z | Other | Infrastructure/tooling | 11 | 28 | 11 | 11 |
-| [kurrent-io/KurrentDB](https://github.com/kurrent-io/KurrentDB) | 5798 | 2026-05-19T12:04:27Z | Other | Infrastructure/tooling | 12 | 12 | 12 | 12 |
-| [licensee/licensed](https://github.com/licensee/licensed) | 1028 | 2026-05-19T10:40:28Z | Other | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [firebase/flutterfire](https://github.com/firebase/flutterfire) | 9199 | 2026-05-19T14:12:28Z | Other | Infrastructure/tooling | 11 | 28 | 11 | 11 |
+| [firebase/flutterfire](https://github.com/firebase/flutterfire) | 9198 | 2026-05-20T17:04:21Z | Other | Infrastructure/tooling | 11 | 28 | 11 | 11 |
+| [all-contributors/allcontributors.org](https://github.com/all-contributors/allcontributors.org) | 8046 | 2026-05-20T14:14:24Z | Other | Infrastructure/tooling | 10 | 26 | 10 | 10 |
 | [dotnet/reactive](https://github.com/dotnet/reactive) | 7146 | 2026-05-20T06:16:55Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [microsoft/aspire](https://github.com/microsoft/aspire) | 5952 | 2026-05-20T02:16:44Z | Other | Infrastructure/tooling | 9 | 15 | 9 | 9 |
-| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5933 | 2026-05-20T01:34:37Z | Other | Infrastructure/tooling | 24 | 13 | 24 | 24 |
-| [kurrent-io/KurrentDB](https://github.com/kurrent-io/KurrentDB) | 5798 | 2026-05-19T12:04:27Z | Other | Infrastructure/tooling | 12 | 12 | 12 | 12 |
-| [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5049 | 2026-05-19T20:45:30Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
-| [psmux/psmux](https://github.com/psmux/psmux) | 2052 | 2026-05-20T05:21:19Z | Other | CLI | 16 | 5 | 16 | 16 |
-| [andymass/vim-matchup](https://github.com/andymass/vim-matchup) | 1901 | 2026-05-19T23:48:14Z | Other | Infrastructure/tooling | 11 | 8 | 11 | 11 |
-| [clj-kondo/clj-kondo](https://github.com/clj-kondo/clj-kondo) | 1840 | 2026-05-19T15:16:42Z | Other | Infrastructure/tooling | 9 | 17 | 9 | 9 |
-| [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1227 | 2026-05-20T08:38:48Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1176 | 2026-05-19T23:54:36Z | Other | Infrastructure/tooling | 6 | 13 | 6 | 6 |
-| [licensee/licensed](https://github.com/licensee/licensed) | 1028 | 2026-05-19T10:40:28Z | Other | Infrastructure/tooling | 8 | 17 | 8 | 8 |
+| [microsoft/aspire](https://github.com/microsoft/aspire) | 5961 | 2026-05-21T01:52:03Z | Other | Infrastructure/tooling | 9 | 15 | 9 | 9 |
+| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5931 | 2026-05-21T01:47:47Z | Other | Infrastructure/tooling | 24 | 13 | 24 | 24 |
+| [kurrent-io/KurrentDB](https://github.com/kurrent-io/KurrentDB) | 5798 | 2026-05-20T13:26:12Z | Other | Infrastructure/tooling | 12 | 12 | 12 | 12 |
+| [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5050 | 2026-05-20T14:12:54Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
+| [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) | 3740 | 2026-05-20T10:39:12Z | Other | Model/data | 12 | 0 | 12 | 12 |
+| [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3649 | 2026-05-20T21:08:00Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [seancorfield/honeysql](https://github.com/seancorfield/honeysql) | 1897 | 2026-05-20T12:02:57Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [googleapis/google-auth-library-php](https://github.com/googleapis/google-auth-library-php) | 1396 | 2026-05-20T15:10:01Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1227 | 2026-05-21T00:54:38Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1177 | 2026-05-20T11:48:29Z | Other | Infrastructure/tooling | 6 | 13 | 6 | 6 |

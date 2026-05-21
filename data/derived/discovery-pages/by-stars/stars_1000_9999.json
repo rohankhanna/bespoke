@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 55092,
-    "concepts": 35732,
-    "observations": 35840,
-    "repos": 6047,
-    "terms": 35623
+    "components": 55110,
+    "concepts": 35736,
+    "observations": 35844,
+    "repos": 6048,
+    "terms": 35633
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -2639,6 +2639,7 @@
     "IDEA-Research/MaskDINO",
     "IDEA-Research/Rex-Omni",
     "IDEA-Research/T-Rex",
+    "idiap/coqui-ai-TTS",
     "idiap/fast-transformers",
     "IdreesInc/Miracode",
     "idris-lang/Idris-dev",

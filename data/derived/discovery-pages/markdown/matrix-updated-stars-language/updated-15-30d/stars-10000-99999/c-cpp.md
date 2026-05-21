@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 101
-- terms: 1114
-- components: 829
-- concepts: 1120
-- observations: 1124
+- repos: 96
+- terms: 1079
+- components: 801
+- concepts: 1084
+- observations: 1088
 
 ## Static behavior
 
@@ -122,11 +122,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alibaba/MNN](https://github.com/alibaba/MNN) | 14999 | 2026-04-21T11:31:53Z | C/C++ | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) | 73653 | 2026-04-21T11:29:19Z | C/C++ | Infrastructure/tooling | 15 | 10 | 15 | 15 |
 | [openssl/openssl](https://github.com/openssl/openssl) | 30023 | 2026-04-21T08:57:15Z | C/C++ | Infrastructure/tooling | 12 | 9 | 12 | 12 |
-| [microsoft/WSL2-Linux-Kernel](https://github.com/microsoft/WSL2-Linux-Kernel) | 10318 | 2026-04-20T23:17:29Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [git/git](https://github.com/git/git) | 60495 | 2026-04-20T22:44:44Z | C/C++ | Infrastructure/tooling | 5 | 13 | 6 | 6 |
-| [google/benchmark](https://github.com/google/benchmark) | 10155 | 2026-04-20T20:58:11Z | C/C++ | Infrastructure/tooling | 9 | 7 | 9 | 9 |
-| [jonas/tig](https://github.com/jonas/tig) | 13199 | 2026-04-20T18:00:55Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
-| [fmtlib/fmt](https://github.com/fmtlib/fmt) | 23441 | 2026-04-20T17:29:42Z | C/C++ | Infrastructure/tooling | 18 | 7 | 18 | 18 |
 
 ## Repos sorted by stars
 
@@ -138,7 +133,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) | 73653 | 2026-04-21T11:29:19Z | C/C++ | Infrastructure/tooling | 15 | 10 | 15 | 15 |
 | [ocornut/imgui](https://github.com/ocornut/imgui) | 72744 | 2026-04-22T12:50:21Z | C/C++ | Infrastructure/tooling | 16 | 1 | 16 | 16 |
 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 71182 | 2026-05-04T17:55:52Z | C/C++ | Infrastructure/tooling | 13 | 10 | 13 | 13 |
-| [git/git](https://github.com/git/git) | 60495 | 2026-04-20T22:44:44Z | C/C++ | Infrastructure/tooling | 5 | 13 | 6 | 6 |
 | [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg) | 59393 | 2026-04-29T20:50:52Z | C/C++ | Unknown | 11 | 0 | 11 | 11 |
 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 46992 | 2026-04-21T11:35:12Z | C/C++ | CLI | 21 | 5 | 21 | 21 |
 | [grpc/grpc](https://github.com/grpc/grpc) | 44665 | 2026-04-24T08:03:06Z | C/C++ | Infrastructure/tooling | 4 | 11 | 4 | 4 |
@@ -167,7 +161,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle) | 23850 | 2026-04-24T07:38:24Z | C/C++ | Infrastructure/tooling | 14 | 3 | 14 | 14 |
 | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 23712 | 2026-05-03T04:43:47Z | C/C++ | CLI | 24 | 12 | 27 | 27 |
 | [chromium/chromium](https://github.com/chromium/chromium) | 23493 | 2026-04-24T00:21:20Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
-| [fmtlib/fmt](https://github.com/fmtlib/fmt) | 23441 | 2026-04-20T17:29:42Z | C/C++ | Infrastructure/tooling | 18 | 7 | 18 | 18 |
 | [Tencent/ncnn](https://github.com/Tencent/ncnn) | 23144 | 2026-04-22T11:42:01Z | C/C++ | Infrastructure/tooling | 26 | 8 | 26 | 27 |
 | [iovisor/bcc](https://github.com/iovisor/bcc) | 22388 | 2026-04-29T07:35:48Z | C/C++ | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [micropython/micropython](https://github.com/micropython/micropython) | 21672 | 2026-05-01T12:38:24Z | C/C++ | Infrastructure/tooling | 10 | 5 | 10 | 10 |
@@ -202,7 +195,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [coturn/coturn](https://github.com/coturn/coturn) | 13938 | 2026-05-01T05:32:50Z | C/C++ | Infrastructure/tooling | 12 | 19 | 12 | 12 |
 | [carla-simulator/carla](https://github.com/carla-simulator/carla) | 13900 | 2026-04-30T09:48:53Z | C/C++ | Infrastructure/tooling | 19 | 2 | 19 | 19 |
 | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | 13350 | 2026-05-05T19:36:36Z | C/C++ | Infrastructure/tooling | 7 | 10 | 7 | 7 |
-| [jonas/tig](https://github.com/jonas/tig) | 13199 | 2026-04-20T18:00:55Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [FreeRDP/FreeRDP](https://github.com/FreeRDP/FreeRDP) | 13080 | 2026-04-23T06:58:34Z | C/C++ | CLI | 14 | 8 | 14 | 14 |
 | [qemu/qemu](https://github.com/qemu/qemu) | 13038 | 2026-04-23T17:52:35Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [capnproto/capnproto](https://github.com/capnproto/capnproto) | 13009 | 2026-05-01T23:28:25Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -227,9 +219,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [baldurk/renderdoc](https://github.com/baldurk/renderdoc) | 10655 | 2026-04-28T13:48:06Z | C/C++ | Infrastructure/tooling | 12 | 4 | 12 | 12 |
 | [openframeworks/openFrameworks](https://github.com/openframeworks/openFrameworks) | 10363 | 2026-04-28T19:42:52Z | C/C++ | Infrastructure/tooling | 18 | 10 | 18 | 18 |
 | [LostRuins/koboldcpp](https://github.com/LostRuins/koboldcpp) | 10361 | 2026-04-30T16:07:49Z | C/C++ | Infrastructure/tooling | 17 | 4 | 17 | 17 |
-| [microsoft/WSL2-Linux-Kernel](https://github.com/microsoft/WSL2-Linux-Kernel) | 10318 | 2026-04-20T23:17:29Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) | 10266 | 2026-05-03T14:25:40Z | C/C++ | Infrastructure/tooling | 11 | 10 | 11 | 11 |
 | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | 10168 | 2026-05-01T15:15:41Z | C/C++ | Infrastructure/tooling | 23 | 14 | 23 | 23 |
-| [google/benchmark](https://github.com/google/benchmark) | 10155 | 2026-04-20T20:58:11Z | C/C++ | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [oceanbase/oceanbase](https://github.com/oceanbase/oceanbase) | 10084 | 2026-04-30T01:00:43Z | C/C++ | Infrastructure/tooling | 26 | 10 | 26 | 26 |
 | [bpftrace/bpftrace](https://github.com/bpftrace/bpftrace) | 10080 | 2026-05-01T00:57:20Z | C/C++ | Infrastructure/tooling | 14 | 11 | 14 | 14 |

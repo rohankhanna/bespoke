@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 607,
-    "concepts": 444,
-    "observations": 445,
-    "repos": 132,
-    "terms": 438
+    "components": 606,
+    "concepts": 429,
+    "observations": 430,
+    "repos": 130,
+    "terms": 423
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "0x676e67/0x676e67",
@@ -26,7 +26,6 @@
     "adobe-type-tools/Adobe-Manga1",
     "adobe/spectrum-tokens",
     "adonisjs/.github",
-    "Afnanksalal/co-op",
     "agents-squads/agents-squads",
     "agents-x-project/PyVision-RL-Eval",
     "aifoundry-org/et-man",
@@ -92,7 +91,6 @@
     "hailiang-wang/llm-get-started",
     "hermit-os/hermit-gcc",
     "heshengtao/desktop-for-sap",
-    "ihmcrobotics/ihmc-build",
     "intel/iefs-kernel-updates",
     "ipfs/helia-delegated-routing-v1-http-api",
     "JLSchuler99/svc-router",
@@ -111,13 +109,13 @@
     "neuroverseos/neuroverseos-openclaw-governance",
     "newton-physics/newton-governance",
     "nikitabobko/homebrew-tap",
-    "objectbox/objectbox-swift-generator",
     "open-rpc/markdown-gen",
     "OpenCIDN/httpmirror",
     "openelections/openelections-data-sd",
     "openobserve/vector",
     "paolodamico/ruint-uniffi",
     "PBK-B/i18next-cli-vue",
+    "psmux/scoop-tmuxpanel",
     "PyThaiNLP/pythainlp-corpus",
     "radian-software/gnu-elpa-mirror",
     "realworld-apps/nitro-prisma-zod-realworld-example-app",

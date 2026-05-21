@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 42,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 20,
-    "terms": 49
+    "concepts": 32,
+    "observations": 32,
+    "repos": 19,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T05:56:27.242167+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "conda-forge/conda-forge-feedstock-ops",
@@ -31,7 +31,6 @@
     "lace/lacecore",
     "NightWatcher314/dockgecli",
     "NightWatcher314/npmctl",
-    "roampal-ai/roampal-labs",
     "seanmacavaney/ir-datasets.com",
     "superfarther/K2V"
   ]

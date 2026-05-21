@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-20T08:54:03.798798+00:00`
+Generated at: `2026-05-21T05:56:27.242167+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 73
-- terms: 428
-- components: 1962
-- concepts: 428
-- observations: 428
+- repos: 74
+- terms: 430
+- components: 2054
+- concepts: 430
+- observations: 430
 
 ## Static behavior
 
@@ -26,6 +26,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [tw-in-js/twind](https://github.com/tw-in-js/twind) | 3934 | 2026-04-21T05:07:25Z | JavaScript | Infrastructure/tooling | 7 | 35 | 7 | 7 |
+| [webtorrent/bittorrent-dht](https://github.com/webtorrent/bittorrent-dht) | 1274 | 2026-04-21T04:44:28Z | JavaScript | Infrastructure/tooling | 8 | 19 | 8 | 8 |
+| [Automattic/juice](https://github.com/Automattic/juice) | 3249 | 2026-04-20T16:27:48Z | JavaScript | Infrastructure/tooling | 4 | 15 | 4 | 4 |
+| [vizzuhq/vizzu-lib](https://github.com/vizzuhq/vizzu-lib) | 2009 | 2026-04-20T13:02:16Z | JavaScript | Infrastructure/tooling | 18 | 34 | 18 | 18 |
+| [sindresorhus/np](https://github.com/sindresorhus/np) | 7698 | 2026-04-20T12:11:49Z | JavaScript | CLI | 6 | 50 | 6 | 6 |
 | [micromatch/picomatch](https://github.com/micromatch/picomatch) | 1250 | 2026-04-20T08:37:18Z | JavaScript | Infrastructure/tooling | 17 | 8 | 17 | 17 |
 | [DavidAnson/markdownlint](https://github.com/DavidAnson/markdownlint) | 6021 | 2026-04-20T02:23:53Z | JavaScript | Infrastructure/tooling | 7 | 44 | 8 | 8 |
 | [brunch/brunch](https://github.com/brunch/brunch) | 6758 | 2026-04-19T14:13:39Z | JavaScript | Web app | 4 | 27 | 4 | 4 |
@@ -95,10 +100,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Adobe-CEP/Samples](https://github.com/Adobe-CEP/Samples) | 1076 | 2026-03-24T16:09:31Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [pmndrs/drei](https://github.com/pmndrs/drei) | 9610 | 2026-03-23T19:31:26Z | JavaScript | Infrastructure/tooling | 7 | 82 | 7 | 7 |
 | [mapbox/delaunator](https://github.com/mapbox/delaunator) | 2589 | 2026-03-23T09:52:11Z | JavaScript | Infrastructure/tooling | 6 | 9 | 6 | 6 |
-| [node-fetch/node-fetch](https://github.com/node-fetch/node-fetch) | 8858 | 2026-03-21T22:04:39Z | JavaScript | CLI | 12 | 23 | 12 | 12 |
-| [crossbario/autobahn-js](https://github.com/crossbario/autobahn-js) | 1449 | 2026-03-21T11:03:15Z | JavaScript | Infrastructure/tooling | 11 | 18 | 11 | 11 |
-| [projectfluent/fluent](https://github.com/projectfluent/fluent) | 1641 | 2026-03-21T10:28:57Z | JavaScript | Infrastructure/tooling | 12 | 10 | 12 | 12 |
-| [mourner/flatbush](https://github.com/mourner/flatbush) | 1584 | 2026-03-21T10:11:35Z | JavaScript | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -111,10 +112,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jsx-eslint/eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) | 9280 | 2026-04-01T20:54:24Z | JavaScript | Infrastructure/tooling | 12 | 60 | 12 | 12 |
 | [kpdecker/jsdiff](https://github.com/kpdecker/jsdiff) | 9125 | 2026-04-13T12:42:24Z | JavaScript | Unknown | 0 | 26 | 0 | 0 |
 | [piebald-ai/claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts) | 9112 | 2026-04-17T23:32:30Z | JavaScript | Docs/knowledge | 0 | 0 | 0 | 0 |
-| [node-fetch/node-fetch](https://github.com/node-fetch/node-fetch) | 8858 | 2026-03-21T22:04:39Z | JavaScript | CLI | 12 | 23 | 12 | 12 |
 | [codemirror/dev](https://github.com/codemirror/dev) | 7830 | 2026-04-15T10:24:43Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [hotoo/pinyin](https://github.com/hotoo/pinyin) | 7811 | 2026-04-09T15:33:21Z | JavaScript | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips) | 7809 | 2026-04-02T06:27:19Z | JavaScript | CLI | 1 | 0 | 0 | 0 |
+| [sindresorhus/np](https://github.com/sindresorhus/np) | 7698 | 2026-04-20T12:11:49Z | JavaScript | CLI | 6 | 50 | 6 | 6 |
 | [styled-components/polished](https://github.com/styled-components/polished) | 7659 | 2026-03-26T23:06:08Z | JavaScript | Infrastructure/tooling | 7 | 45 | 7 | 7 |
 | [google/closure-compiler](https://github.com/google/closure-compiler) | 7644 | 2026-04-16T23:44:23Z | JavaScript | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [jspreadsheet/ce](https://github.com/jspreadsheet/ce) | 7162 | 2026-04-10T18:44:30Z | JavaScript | Unknown | 12 | 28 | 12 | 12 |
@@ -133,11 +134,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [webpack/mini-css-extract-plugin](https://github.com/webpack/mini-css-extract-plugin) | 4662 | 2026-03-26T12:25:31Z | JavaScript | Infrastructure/tooling | 3 | 39 | 3 | 3 |
 | [webpack/css-loader](https://github.com/webpack/css-loader) | 4322 | 2026-04-10T10:35:36Z | JavaScript | Infrastructure/tooling | 5 | 49 | 5 | 5 |
 | [yeoman/yo](https://github.com/yeoman/yo) | 3956 | 2026-04-09T21:48:06Z | JavaScript | CLI | 11 | 48 | 11 | 11 |
+| [tw-in-js/twind](https://github.com/tw-in-js/twind) | 3934 | 2026-04-21T05:07:25Z | JavaScript | Infrastructure/tooling | 7 | 35 | 7 | 7 |
 | [webpack/sass-loader](https://github.com/webpack/sass-loader) | 3893 | 2026-04-15T11:37:33Z | JavaScript | Infrastructure/tooling | 9 | 55 | 9 | 9 |
 | [amqp-node/amqplib](https://github.com/amqp-node/amqplib) | 3834 | 2026-03-31T16:52:01Z | JavaScript | CLI | 7 | 8 | 7 | 7 |
 | [gatsbyjs/gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog) | 3515 | 2026-04-15T12:34:37Z | JavaScript | Template/starter | 0 | 17 | 0 | 0 |
 | [isaacs/minimatch](https://github.com/isaacs/minimatch) | 3500 | 2026-03-30T18:11:46Z | JavaScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [gautamkrishnar/blog-post-workflow](https://github.com/gautamkrishnar/blog-post-workflow) | 3387 | 2026-04-16T22:42:05Z | JavaScript | Infrastructure/tooling | 22 | 15 | 22 | 22 |
+| [Automattic/juice](https://github.com/Automattic/juice) | 3249 | 2026-04-20T16:27:48Z | JavaScript | Infrastructure/tooling | 4 | 15 | 4 | 4 |
 | [rgthree/rgthree-comfy](https://github.com/rgthree/rgthree-comfy) | 3027 | 2026-04-07T04:19:01Z | JavaScript | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [patorjk/figlet.js](https://github.com/patorjk/figlet.js) | 2961 | 2026-04-10T03:25:24Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
 | [archiverjs/node-archiver](https://github.com/archiverjs/node-archiver) | 2952 | 2026-04-16T04:58:29Z | JavaScript | Infrastructure/tooling | 6 | 24 | 6 | 6 |
@@ -149,24 +152,23 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sindresorhus/globby](https://github.com/sindresorhus/globby) | 2642 | 2026-03-27T17:29:28Z | JavaScript | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [mapbox/delaunator](https://github.com/mapbox/delaunator) | 2589 | 2026-03-23T09:52:11Z | JavaScript | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [bcoe/c8](https://github.com/bcoe/c8) | 2101 | 2026-04-17T00:04:21Z | JavaScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
+| [vizzuhq/vizzu-lib](https://github.com/vizzuhq/vizzu-lib) | 2009 | 2026-04-20T13:02:16Z | JavaScript | Infrastructure/tooling | 18 | 34 | 18 | 18 |
 | [danmactough/node-feedparser](https://github.com/danmactough/node-feedparser) | 1977 | 2026-03-27T14:57:44Z | JavaScript | Infrastructure/tooling | 0 | 19 | 0 | 0 |
 | [anvaka/panzoom](https://github.com/anvaka/panzoom) | 1971 | 2026-03-30T00:07:56Z | JavaScript | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [gautamkrishnar/motrix-webextension](https://github.com/gautamkrishnar/motrix-webextension) | 1733 | 2026-04-09T09:04:35Z | JavaScript | Infrastructure/tooling | 9 | 26 | 9 | 9 |
 | [Level/level](https://github.com/Level/level) | 1678 | 2026-04-02T01:45:02Z | JavaScript | Infrastructure/tooling | 8 | 19 | 8 | 8 |
 | [pinojs/pino-pretty](https://github.com/pinojs/pino-pretty) | 1659 | 2026-04-06T10:39:09Z | JavaScript | Infrastructure/tooling | 0 | 32 | 0 | 0 |
 | [js-joda/js-joda](https://github.com/js-joda/js-joda) | 1658 | 2026-04-15T18:50:28Z | JavaScript | Infrastructure/tooling | 8 | 52 | 8 | 8 |
-| [projectfluent/fluent](https://github.com/projectfluent/fluent) | 1641 | 2026-03-21T10:28:57Z | JavaScript | Infrastructure/tooling | 12 | 10 | 12 | 12 |
 | [tomas/needle](https://github.com/tomas/needle) | 1629 | 2026-04-17T16:40:07Z | JavaScript | CLI | 1 | 11 | 1 | 1 |
-| [mourner/flatbush](https://github.com/mourner/flatbush) | 1584 | 2026-03-21T10:11:35Z | JavaScript | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [mapbox/maki](https://github.com/mapbox/maki) | 1567 | 2026-04-13T23:02:51Z | JavaScript | Unknown | 3 | 11 | 3 | 3 |
 | [GoogleChromeLabs/browser-fs-access](https://github.com/GoogleChromeLabs/browser-fs-access) | 1564 | 2026-04-15T11:13:02Z | JavaScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [acss-io/atomizer](https://github.com/acss-io/atomizer) | 1551 | 2026-04-08T09:32:16Z | JavaScript | Infrastructure/tooling | 5 | 63 | 5 | 5 |
 | [vueform/vueform](https://github.com/vueform/vueform) | 1494 | 2026-04-18T08:56:55Z | JavaScript | Infrastructure/tooling | 18 | 68 | 18 | 18 |
 | [sindresorhus/hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy) | 1484 | 2026-04-11T17:52:00Z | JavaScript | CLI | 7 | 0 | 7 | 7 |
 | [jshttp/mime-types](https://github.com/jshttp/mime-types) | 1462 | 2026-04-01T16:54:15Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
-| [crossbario/autobahn-js](https://github.com/crossbario/autobahn-js) | 1449 | 2026-03-21T11:03:15Z | JavaScript | Infrastructure/tooling | 11 | 18 | 11 | 11 |
 | [rullerzhou-afk/clawd-on-desk](https://github.com/rullerzhou-afk/clawd-on-desk) | 1418 | 2026-04-19T09:42:35Z | JavaScript | Infrastructure/tooling | 2 | 10 | 0 | 0 |
 | [webtorrent/webtorrent-cli](https://github.com/webtorrent/webtorrent-cli) | 1340 | 2026-04-14T22:15:43Z | JavaScript | CLI | 7 | 28 | 7 | 7 |
+| [webtorrent/bittorrent-dht](https://github.com/webtorrent/bittorrent-dht) | 1274 | 2026-04-21T04:44:28Z | JavaScript | Infrastructure/tooling | 8 | 19 | 8 | 8 |
 | [micromatch/picomatch](https://github.com/micromatch/picomatch) | 1250 | 2026-04-20T08:37:18Z | JavaScript | Infrastructure/tooling | 17 | 8 | 17 | 17 |
 | [mantoni/eslint_d.js](https://github.com/mantoni/eslint_d.js) | 1211 | 2026-04-10T03:25:49Z | JavaScript | Infrastructure/tooling | 8 | 20 | 8 | 8 |
 | [tc39/agendas](https://github.com/tc39/agendas) | 1169 | 2026-04-15T23:46:06Z | JavaScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |
