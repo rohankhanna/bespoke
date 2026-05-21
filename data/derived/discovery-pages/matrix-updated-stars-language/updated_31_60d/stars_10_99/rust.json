@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 400,
-    "concepts": 224,
-    "observations": 226,
-    "repos": 60,
-    "terms": 238
+    "components": 411,
+    "concepts": 236,
+    "observations": 238,
+    "repos": 63,
+    "terms": 250
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -42,8 +42,10 @@
     "google/safe-mmio",
     "GreptimeTeam/promql-parser",
     "hagan/claudia-statusline",
+    "hecrj/iced_palace",
     "hpkewg/hpke-pq",
     "idanarye/nu_plugin_skim",
+    "janrueth/boring-rustls-provider",
     "jiegec/tantivy-jieba",
     "Kimahriman/hdfs-native",
     "kylebarron/arrow-wasm",
@@ -70,6 +72,7 @@
     "tianrking/weixin-agent-rs",
     "tombelieber/claude-view",
     "tracel-ai/burn-bench",
+    "tracel-ai/burn-onnx",
     "watchexec/clearscreen",
     "watchexec/process-wrap",
     "Xuanwo/serde-env",

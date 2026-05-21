@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2481,
-    "concepts": 489,
-    "observations": 492,
-    "repos": 87,
-    "terms": 489
+    "components": 2409,
+    "concepts": 479,
+    "observations": 482,
+    "repos": 84,
+    "terms": 479
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -25,9 +25,7 @@
     "Azure/powershell",
     "bufbuild/protovalidate-es",
     "carbon-design-system/carbon-preprocess-svelte",
-    "cargo-bins/release-pr",
     "catppuccin/.github",
-    "celo-org/developer-tooling",
     "celo-org/social-connect",
     "coasys/flux",
     "csm-actions/approve-pr-action",
@@ -99,7 +97,6 @@
     "swagger-api/apidom",
     "universal-ember/reactiveweb",
     "vaultwarden/vw_web_builds",
-    "vincentlaucsb/experiencer",
-    "wighawag/rocketh"
+    "vincentlaucsb/experiencer"
   ]
 }

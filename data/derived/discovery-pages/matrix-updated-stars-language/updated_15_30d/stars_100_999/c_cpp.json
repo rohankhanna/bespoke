@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1036,
-    "concepts": 1028,
-    "observations": 1029,
-    "repos": 176,
-    "terms": 1023
+    "components": 1024,
+    "concepts": 1026,
+    "observations": 1027,
+    "repos": 174,
+    "terms": 1021
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "AcademySoftwareFoundation/openfx",
@@ -21,7 +21,6 @@
     "Alpine-DAV/ascent",
     "alsa-project/alsa-lib",
     "amerkoleci/joltc",
-    "ampl/mp",
     "antgroup/vsag",
     "apache/iceberg-cpp",
     "apache/pulsar-client-node",
@@ -98,7 +97,6 @@
     "jellyfin/jellyfin-ffmpeg",
     "JokerJohn/DCReg",
     "jrouwe/JoltPhysics.js",
-    "jupyter-xeus/xwidgets",
     "k2-fsa/sherpa",
     "KDE/breeze-icons",
     "KhronosGroup/VK-GL-CTS",

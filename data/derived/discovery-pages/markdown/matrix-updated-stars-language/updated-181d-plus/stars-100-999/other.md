@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-05-21T05:56:27.242167+00:00`
+Generated at: `2026-05-21T12:29:26.648415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 950
-- terms: 2966
+- repos: 952
+- terms: 2970
 - components: 2195
-- concepts: 2983
-- observations: 2990
+- concepts: 2986
+- observations: 2993
 
 ## Static behavior
 
@@ -36,7 +36,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [juxt/tick](https://github.com/juxt/tick) | 639 | 2025-11-19T09:12:12Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [r-lib/remotes](https://github.com/r-lib/remotes) | 356 | 2025-11-16T14:55:44Z | Other | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [alibaba-damo-academy/PixelRefer](https://github.com/alibaba-damo-academy/PixelRefer) | 349 | 2025-11-16T07:54:05Z | Other | Unknown | 4 | 0 | 4 | 4 |
-| [Deep-Symmetry/beat-link-trigger](https://github.com/Deep-Symmetry/beat-link-trigger) | 652 | 2025-11-15T10:37:09Z | Other | Infrastructure/tooling | 7 | 11 | 7 | 7 |
+| [Deep-Symmetry/beat-link-trigger](https://github.com/Deep-Symmetry/beat-link-trigger) | 653 | 2025-11-15T10:37:09Z | Other | Infrastructure/tooling | 7 | 11 | 7 | 7 |
 | [flosse/sloc](https://github.com/flosse/sloc) | 968 | 2025-11-15T10:34:17Z | Other | Unknown | 5 | 8 | 5 | 5 |
 | [crosstype/node-html-markdown](https://github.com/crosstype/node-html-markdown) | 261 | 2025-11-14T03:25:50Z | Other | Infrastructure/tooling | 2 | 15 | 2 | 2 |
 | [dashbitco/nimble_csv](https://github.com/dashbitco/nimble_csv) | 816 | 2025-11-13T22:07:21Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
@@ -512,7 +512,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dvschultz/stylegan2-ada-pytorch](https://github.com/dvschultz/stylegan2-ada-pytorch) | 254 | 2024-05-10T18:13:35Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [nathom/filetype.nvim](https://github.com/nathom/filetype.nvim) | 548 | 2024-05-06T20:04:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [InteractiveComputerGraphics/cuNSearch](https://github.com/InteractiveComputerGraphics/cuNSearch) | 108 | 2024-05-05T09:22:46Z | Other | Library | 2 | 0 | 2 | 2 |
-| [NVIDIA-Genomics-Research/GenomeWorks](https://github.com/NVIDIA-Genomics-Research/GenomeWorks) | 300 | 2024-05-03T19:45:20Z | Other | Library | 6 | 0 | 7 | 7 |
+| [NVIDIA-Genomics-Research/GenomeWorks](https://github.com/NVIDIA-Genomics-Research/GenomeWorks) | 300 | 2024-05-03T19:45:20Z | Other | Library | 7 | 0 | 7 | 7 |
 | [madskristensen/BundlerMinifier](https://github.com/madskristensen/BundlerMinifier) | 626 | 2024-05-03T10:21:02Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [weaviate-tutorials/awesome-moviate](https://github.com/weaviate-tutorials/awesome-moviate) | 101 | 2024-05-02T13:14:19Z | Other | Unknown | 0 | 9 | 0 | 0 |
 | [gevtushenko/llm.c](https://github.com/gevtushenko/llm.c) | 113 | 2024-05-01T00:46:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -606,6 +606,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alexandresanlim/Badges4-README.md-Profile-Dynamic](https://github.com/alexandresanlim/Badges4-README.md-Profile-Dynamic) | 116 | 2023-12-08T11:38:03Z | Other | Unknown | 6 | 0 | 7 | 7 |
 | [NTMC-Community/awesome-neural-models-for-semantic-match](https://github.com/NTMC-Community/awesome-neural-models-for-semantic-match) | 776 | 2023-12-08T09:08:01Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [mirage/ocaml-cow](https://github.com/mirage/ocaml-cow) | 111 | 2023-12-07T19:45:03Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [huggingface/community-events](https://github.com/huggingface/community-events) | 429 | 2023-12-07T15:27:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [zju3dv/mlp_maps](https://github.com/zju3dv/mlp_maps) | 238 | 2023-12-06T08:00:17Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [arecarn/vim-crunch](https://github.com/arecarn/vim-crunch) | 135 | 2023-12-05T18:08:11Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [teelinsan/camoscio](https://github.com/teelinsan/camoscio) | 126 | 2023-12-05T08:54:50Z | Other | Model/data | 4 | 0 | 4 | 4 |
@@ -748,6 +749,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Rishit-dagli/MIRNet-TFJS](https://github.com/Rishit-dagli/MIRNet-TFJS) | 356 | 2023-03-05T20:26:39Z | Other | Infrastructure/tooling | 15 | 4 | 15 | 15 |
 | [JTAmos/Temporal.jl](https://github.com/JTAmos/Temporal.jl) | 100 | 2023-03-03T01:11:31Z | Other | Infrastructure/tooling | 15 | 1 | 15 | 15 |
 | [unsplash/comment-on-pr](https://github.com/unsplash/comment-on-pr) | 152 | 2023-02-27T15:14:24Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
+| [Vaibhavs10/ml-with-audio](https://github.com/Vaibhavs10/ml-with-audio) | 203 | 2023-02-27T13:54:43Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [chaoren/vim-wordmotion](https://github.com/chaoren/vim-wordmotion) | 875 | 2023-02-26T21:15:32Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [mahmoudnafifi/WB_sRGB](https://github.com/mahmoudnafifi/WB_sRGB) | 380 | 2023-02-25T23:07:37Z | Other | Unknown | 16 | 0 | 16 | 16 |
 | [jhclark/multeval](https://github.com/jhclark/multeval) | 205 | 2023-02-25T15:03:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1145,8 +1147,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bow-swift/bow](https://github.com/bow-swift/bow) | 658 | 2022-10-09T21:51:49Z | Other | Infrastructure/tooling | 18 | 5 | 18 | 18 |
 | [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim) | 657 | 2022-08-31T15:25:20Z | Other | CLI | 6 | 0 | 6 | 6 |
 | [jaredly/reason-language-server](https://github.com/jaredly/reason-language-server) | 654 | 2023-05-14T13:50:16Z | Other | Infrastructure/tooling | 1 | 19 | 1 | 1 |
+| [Deep-Symmetry/beat-link-trigger](https://github.com/Deep-Symmetry/beat-link-trigger) | 653 | 2025-11-15T10:37:09Z | Other | Infrastructure/tooling | 7 | 11 | 7 | 7 |
 | [tmhedberg/SimpylFold](https://github.com/tmhedberg/SimpylFold) | 653 | 2022-05-02T17:18:15Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [Deep-Symmetry/beat-link-trigger](https://github.com/Deep-Symmetry/beat-link-trigger) | 652 | 2025-11-15T10:37:09Z | Other | Infrastructure/tooling | 7 | 11 | 7 | 7 |
 | [bwillis/versioncake](https://github.com/bwillis/versioncake) | 652 | 2022-07-21T22:54:25Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 5 |
 | [atom/flight-manual.atom.io](https://github.com/atom/flight-manual.atom.io) | 651 | 2022-12-06T19:34:09Z | Other | Infrastructure/tooling | 3 | 15 | 3 | 3 |
 | [HapticX/happyx](https://github.com/HapticX/happyx) | 650 | 2025-10-02T12:23:43Z | Other | Infrastructure/tooling | 13 | 10 | 13 | 13 |
@@ -1313,6 +1315,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [andythigpen/nvim-coverage](https://github.com/andythigpen/nvim-coverage) | 432 | 2024-12-18T15:42:58Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [isakbm/gitgraph.nvim](https://github.com/isakbm/gitgraph.nvim) | 430 | 2025-06-02T15:47:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [clj-commons/byte-streams](https://github.com/clj-commons/byte-streams) | 429 | 2025-03-30T10:35:54Z | Other | Unknown | 3 | 0 | 3 | 3 |
+| [huggingface/community-events](https://github.com/huggingface/community-events) | 429 | 2023-12-07T15:27:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ChargePoint/xcparse](https://github.com/ChargePoint/xcparse) | 428 | 2024-10-28T21:59:19Z | Other | CLI | 7 | 0 | 7 | 7 |
 | [emard/ulx3s](https://github.com/emard/ulx3s) | 427 | 2025-04-27T13:56:05Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [leafo/magick](https://github.com/leafo/magick) | 426 | 2024-05-17T12:00:10Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -1467,7 +1470,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SwiftGen/StencilSwiftKit](https://github.com/SwiftGen/StencilSwiftKit) | 304 | 2023-03-17T06:01:28Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [feiyun0112/machinelearning-samples.zh-cn](https://github.com/feiyun0112/machinelearning-samples.zh-cn) | 302 | 2023-04-29T23:39:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [bottlenoselabs/c2cs](https://github.com/bottlenoselabs/c2cs) | 300 | 2025-09-08T18:34:25Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
-| [NVIDIA-Genomics-Research/GenomeWorks](https://github.com/NVIDIA-Genomics-Research/GenomeWorks) | 300 | 2024-05-03T19:45:20Z | Other | Library | 6 | 0 | 7 | 7 |
+| [NVIDIA-Genomics-Research/GenomeWorks](https://github.com/NVIDIA-Genomics-Research/GenomeWorks) | 300 | 2024-05-03T19:45:20Z | Other | Library | 7 | 0 | 7 | 7 |
 | [adobe-type-tools/cmap-resources](https://github.com/adobe-type-tools/cmap-resources) | 300 | 2023-11-15T12:47:31Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [yandex-research/navigan](https://github.com/yandex-research/navigan) | 300 | 2021-06-22T09:52:59Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [AIGAnimation/CAMDM](https://github.com/AIGAnimation/CAMDM) | 299 | 2025-09-25T12:51:01Z | Other | Model/data | 0 | 0 | 0 | 0 |
@@ -1638,6 +1641,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [CarlVerret/csFastFloat](https://github.com/CarlVerret/csFastFloat) | 204 | 2024-12-30T15:35:22Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [Doggettx/stable-diffusion](https://github.com/Doggettx/stable-diffusion) | 204 | 2022-10-06T08:51:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dunglas/frankenphp-demo](https://github.com/dunglas/frankenphp-demo) | 203 | 2025-04-14T15:19:00Z | Other | Unknown | 4 | 0 | 4 | 4 |
+| [Vaibhavs10/ml-with-audio](https://github.com/Vaibhavs10/ml-with-audio) | 203 | 2023-02-27T13:54:43Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [AliFlux/VectorTileRenderer](https://github.com/AliFlux/VectorTileRenderer) | 203 | 2022-06-22T16:12:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [cognitect-labs/anomalies](https://github.com/cognitect-labs/anomalies) | 202 | 2024-07-15T17:48:18Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [bow-swift/nef-plugin](https://github.com/bow-swift/nef-plugin) | 201 | 2021-11-11T15:19:12Z | Other | Unknown | 7 | 0 | 7 | 7 |

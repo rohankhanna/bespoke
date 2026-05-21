@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 532,
-    "concepts": 249,
-    "observations": 249,
-    "repos": 26,
-    "terms": 247
+    "components": 430,
+    "concepts": 231,
+    "observations": 231,
+    "repos": 24,
+    "terms": 231
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "anthropics/claude-cookbooks",
@@ -19,25 +19,23 @@
     "apache/casbin",
     "browserslist/browserslist",
     "ChatGPTNextWeb/NextChat",
+    "Dao-AILab/flash-attention",
     "dense-analysis/ale",
     "ggml-org/ggml",
-    "ggml-org/whisper.cpp",
+    "github-linguist/linguist",
     "googleapis/google-api-nodejs-client",
     "JetBrains/compose-multiplatform",
-    "langchain-ai/langchainjs",
     "meta-llama/llama-cookbook",
+    "mui/material-ui",
     "neovim/nvim-lspconfig",
     "nvm-sh/nvm",
     "nwjs/nw.js",
-    "preactjs/preact",
     "pyg-team/pytorch_geometric",
-    "QuantumNous/new-api",
     "qubvel-org/segmentation_models.pytorch",
     "quickwit-oss/tantivy",
-    "realworld-apps/realworld",
     "rust-lang/mdBook",
     "SubtitleEdit/subtitleedit",
-    "unocss/unocss",
+    "TEN-framework/ten-framework",
     "vercel-labs/skills"
   ]
 }

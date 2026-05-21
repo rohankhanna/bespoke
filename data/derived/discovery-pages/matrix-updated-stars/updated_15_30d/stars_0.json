@@ -1,21 +1,20 @@
 {
   "counts": {
-    "components": 292,
-    "concepts": 194,
-    "observations": 194,
-    "repos": 132,
-    "terms": 194
+    "components": 265,
+    "concepts": 186,
+    "observations": 186,
+    "repos": 127,
+    "terms": 186
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "8144225309/superscalar-cln",
-    "aaronlamz/navpress",
     "aidenlab/spacewalk",
     "aidenlab/swtool",
     "angular/angular-build-builds",
@@ -26,7 +25,6 @@
     "conda-forge/blis-feedstock",
     "conda-forge/bottom-feedstock",
     "conda-forge/cccl-feedstock",
-    "conda-forge/conda-forge-feedstock-ops",
     "conda-forge/conda-lock-feedstock",
     "conda-forge/cppinterop-feedstock",
     "conda-forge/diffutils-feedstock",
@@ -38,7 +36,6 @@
     "conda-forge/tianshou-feedstock",
     "conda-forge/xeus-cpp-feedstock",
     "csm-actions/demo-client",
-    "danielrosehill/adb-ops-plugin",
     "danielrosehill/AI-Data-Utilities",
     "danielrosehill/AI-Dev-Repo-Template-1",
     "danielrosehill/AI-Dev-Workspace-Primitives",
@@ -47,7 +44,6 @@
     "danielrosehill/AI-Safety-Projects-Index",
     "danielrosehill/Air-Quality-Toolkit-Plugin",
     "danielrosehill/Awesome-Hebrew-Fonts",
-    "danielrosehill/Backup-Planner",
     "danielrosehill/BUDGET.md",
     "danielrosehill/Claude-ADB-Ops-Plugin",
     "danielrosehill/Claude-Agent-Relay-Plugin",
@@ -59,7 +55,6 @@
     "danielrosehill/Claude-Browser-Data-Capture-Plugin",
     "danielrosehill/Claude-Business-Idea-Eval-Plugin",
     "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
-    "danielrosehill/Claude-Code-Bugs-And-FRs",
     "danielrosehill/Claude-CopyQ-Scripting-Plugin",
     "danielrosehill/Claude-Data-Annotation-Plugin",
     "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin",

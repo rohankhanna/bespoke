@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 274,
-    "concepts": 268,
-    "observations": 268,
-    "repos": 42,
-    "terms": 268
+    "components": 308,
+    "concepts": 330,
+    "observations": 330,
+    "repos": 46,
+    "terms": 330
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
+    "alibaba/MNN",
     "ApolloAuto/apollo",
     "aristocratos/btop",
     "bellard/quickjs",
+    "ClickHouse/ClickHouse",
     "cloudwu/skynet",
     "Cyan4973/xxHash",
     "davatorium/rofi",
@@ -49,10 +51,12 @@
     "NVIDIA/TensorRT",
     "opencv/opencv_contrib",
     "openresty/lua-nginx-module",
+    "openssl/openssl",
     "pgvector/pgvector",
     "px4/px4-autopilot",
     "pybind/pybind11",
     "taichi-dev/taichi",
+    "tesseract-ocr/tesseract",
     "tmux/tmux",
     "tsl0922/ttyd",
     "zeromq/libzmq"

@@ -1,23 +1,26 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 6,
-    "terms": 11
+    "components": 169,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 9,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "alloy-rs/evm",
     "amazon-ion/ion-cli",
+    "f3liz-casa/noraneko",
+    "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "joshsymonds/cc-tools",
-    "mesh-iit/cad-libraries",
-    "nuxt-modules/emotion",
-    "ogx-ai/ogx-client-typescript"
+    "lumen-oss/luarocks-tag-release",
+    "ogx-ai/ogx-client-typescript",
+    "storybook-community/addon-queryparams",
+    "windsonR/vite-plugin-virtual-html"
   ]
 }

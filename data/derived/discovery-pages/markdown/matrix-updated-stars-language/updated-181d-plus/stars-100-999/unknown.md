@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-21T05:56:27.242167+00:00`
+Generated at: `2026-05-21T12:29:26.648415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 247
-- terms: 435
-- components: 123
-- concepts: 435
-- observations: 436
+- repos: 248
+- terms: 437
+- components: 126
+- concepts: 437
+- observations: 438
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ethstaker/ethstaker-guides](https://github.com/ethstaker/ethstaker-guides) | 366 | 2025-11-22T11:59:26Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [DaoCloud/public-binary-files-mirror](https://github.com/DaoCloud/public-binary-files-mirror) | 187 | 2025-11-21T08:49:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ahmadawais/shades-of-purple-vscode](https://github.com/ahmadawais/shades-of-purple-vscode) | 774 | 2025-11-21T02:38:58Z | Unknown | Unknown | 7 | 1 | 7 | 7 |
 | [GraphBLAS/GraphBLAS-Pointers](https://github.com/GraphBLAS/GraphBLAS-Pointers) | 203 | 2025-11-20T18:09:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -365,6 +366,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JafferWilson/Process-Data-of-CNN-DailyMail](https://github.com/JafferWilson/Process-Data-of-CNN-DailyMail) | 382 | 2022-06-25T05:33:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [GoogleChrome/ip-protection](https://github.com/GoogleChrome/ip-protection) | 379 | 2025-11-03T15:01:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [fsharp/fslang-suggestions](https://github.com/fsharp/fslang-suggestions) | 369 | 2025-02-27T11:39:14Z | Unknown | Library | 0 | 0 | 0 | 0 |
+| [ethstaker/ethstaker-guides](https://github.com/ethstaker/ethstaker-guides) | 366 | 2025-11-22T11:59:26Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [sentinel-group/sentinel-awesome](https://github.com/sentinel-group/sentinel-awesome) | 361 | 2022-11-03T08:55:16Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [pzzhang/VinVL](https://github.com/pzzhang/VinVL) | 359 | 2023-07-26T04:00:01Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/vs-tools-for-ai](https://github.com/microsoft/vs-tools-for-ai) | 359 | 2023-06-12T20:27:14Z | Unknown | Model/data | 0 | 0 | 0 | 0 |

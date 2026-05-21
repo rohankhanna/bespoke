@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 28425,
-    "concepts": 15203,
-    "observations": 15255,
-    "repos": 5499,
-    "terms": 15204
+    "concepts": 15208,
+    "observations": 15260,
+    "repos": 5500,
+    "terms": 15210
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -5150,7 +5150,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",
@@ -5437,6 +5437,7 @@
     "yamachu/VoicevoxEngineSharp",
     "yangjianxin1/unsloth",
     "yaohungt/Barlow-Twins-HSIC",
+    "yaph/tts-samples",
     "yatsuki/v2manager",
     "yatsuki/v2ray",
     "yawkat/lz4-java",

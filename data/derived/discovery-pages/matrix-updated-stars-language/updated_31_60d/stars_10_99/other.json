@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 945,
-    "concepts": 637,
-    "observations": 638,
-    "repos": 187,
-    "terms": 643
+    "components": 929,
+    "concepts": 658,
+    "observations": 659,
+    "repos": 190,
+    "terms": 664
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -88,7 +88,6 @@
     "elixir-grpc/grpc-reflection",
     "emacscollective/epkg",
     "ethpandaops/xatu-data",
-    "f3liz-casa/noraneko",
     "flatpak/flatpak-docs",
     "FluxML/fluxml.github.io",
     "foxoman/zed-nim",
@@ -106,6 +105,7 @@
     "haskell/security-advisories",
     "HaxeFlixel/flixel-docs",
     "haxeui/haxeui-guides",
+    "hexaeder/MCPRepl.jl",
     "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
     "Humans-of-Julia/Bibliography.jl",
     "i18next/react-i18next-gitbook",
@@ -153,6 +153,7 @@
     "Mic92/nur-packages",
     "mirage/ptt",
     "MisanthropicBit/neotest-busted",
+    "mrcjkb/haskell-snippets.nvim",
     "mrded/nvim-lsp-notify",
     "mrjones2014/codesettings.nvim",
     "mugh/minecraft-bedrock-server-manager",
@@ -187,6 +188,7 @@
     "sass-contrib/sass-embedded-host-ruby",
     "sbcgua/ajson",
     "sentientwave/automata",
+    "simonpoole/beautified-JOSM-preset",
     "simplecov-ruby/simplecov-html",
     "SimplyDanny/SwiftLintPlugins",
     "standardrb/standard-performance",
@@ -200,6 +202,7 @@
     "w3c/webmediaapi",
     "WebAssembly/custom-descriptors",
     "WebAssembly/custom-page-sizes",
-    "xledger/pod_sql_server"
+    "xledger/pod_sql_server",
+    "yakir8/kosher_dart"
   ]
 }

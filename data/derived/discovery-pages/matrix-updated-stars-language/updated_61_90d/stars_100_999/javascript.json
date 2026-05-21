@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 220,
-    "concepts": 61,
-    "observations": 62,
+    "components": 221,
+    "concepts": 66,
+    "observations": 67,
     "repos": 18,
-    "terms": 60
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "adobe-photoshop/generator-core",
     "appbaseio/searchbox",
@@ -26,9 +26,9 @@
     "kriszyp/cbor-x",
     "lemire/FastPriorityQueue.js",
     "microsoft/vscode-custom-data",
+    "mourner/robust-predicates",
     "React9k/react-timeline-9000",
     "RichardLitt/generator-standard-readme",
-    "sindresorhus/multimatch",
     "TeamMoeAI/MoeSR",
     "thejoshwolfe/yazl",
     "usnistgov/jsfive"

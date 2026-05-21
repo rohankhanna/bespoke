@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 298,
-    "concepts": 375,
-    "observations": 375,
-    "repos": 53,
-    "terms": 370
+    "components": 289,
+    "concepts": 369,
+    "observations": 369,
+    "repos": 51,
+    "terms": 364
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "acts-project/traccc",
     "ad-si/FlatCV",
     "AFD-Illinois/kharma",
-    "agl/jbig2enc",
     "akruphi/far2l",
     "analogdevicesinc/msdk",
     "Antares0982/ssrJSON",
@@ -56,7 +55,6 @@
     "milvus-io/milvus-sdk-cpp",
     "narugit/smctemp",
     "oneapi-src/unified-memory-framework",
-    "openucx/xpmem",
     "openvinotoolkit/openvino_tokenizers",
     "rapidsai/ucxx",
     "ROCm/rocAL",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 123,
-    "concepts": 435,
-    "observations": 436,
-    "repos": 247,
-    "terms": 435
+    "components": 126,
+    "concepts": 437,
+    "observations": 438,
+    "repos": 248,
+    "terms": 437
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -96,6 +96,7 @@
     "ellerbrock/open-source-badges",
     "eryajf/awesome-github-profile-readme-chinese",
     "ethereum/snake-charmers-tactical-manual",
+    "ethstaker/ethstaker-guides",
     "facebookmicrosites/Open-Mapping-At-Facebook",
     "facebookresearch/bitsandbytes",
     "facebookresearch/MovieGenBench",

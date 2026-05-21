@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2814,
-    "concepts": 1910,
-    "observations": 1919,
-    "repos": 441,
-    "terms": 1910
+    "components": 2818,
+    "concepts": 1940,
+    "observations": 1949,
+    "repos": 444,
+    "terms": 1940
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "2KAbhishek/seeker.nvim",
@@ -226,6 +226,8 @@
     "janwilmake/openapi-mcp-server",
     "jayleicn/moment_detr",
     "JetBrains/gradle-changelog-plugin",
+    "JokerJohn/Cloud_Map_Evaluation",
+    "JokerJohn/MS-Mapping",
     "joshuaulrich/TTR",
     "joshuaulrich/xts",
     "jsegov/autoresearch-win-rtx",
@@ -294,6 +296,7 @@
     "mlc-ai/tokenizers-cpp",
     "mongodb-js/kerberos",
     "MoonshotAI/checkpoint-engine",
+    "mourner/robust-predicates",
     "mozilla/dump_syms",
     "mr-fatalyst/fastopenapi",
     "multiformats/go-multiaddr",
@@ -319,6 +322,7 @@
     "NVIDIA/DL4AGX",
     "NVlabs/GatedDeltaNet",
     "NVlabs/OmniVinci",
+    "objectbox/objectbox-python",
     "ocurrent/ocaml-ci",
     "olimorris/neotest-rspec",
     "omerxx/tmux-floax",
@@ -376,7 +380,6 @@
     "Shenyi-Z/TaylorSeer",
     "sheredom/ubench.h",
     "shibing624/similarities",
-    "sindresorhus/multimatch",
     "Slamtec/rplidar_sdk",
     "SlRvb/Obsidian--ITS-Theme",
     "smarco/WFA2-lib",

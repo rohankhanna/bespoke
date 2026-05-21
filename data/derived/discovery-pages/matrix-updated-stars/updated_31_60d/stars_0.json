@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 846,
-    "concepts": 280,
-    "observations": 281,
-    "repos": 208,
-    "terms": 312
+    "components": 873,
+    "concepts": 288,
+    "observations": 289,
+    "repos": 213,
+    "terms": 320
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "8144225309/superscalar-docs",
     "8144225309/superscalar-wallet",
     "9romise/eslint-config",
+    "aaronlamz/navpress",
     "aaronrsun/spec-kit-confluence",
     "aaronrsun/spec-kit-issue",
     "aayushbhaskar/OpenCouncil",
@@ -55,6 +56,7 @@
     "CHIP-SPV/H4I-HipFFT",
     "CHIP-SPV/H4I-HipSOLVER",
     "cmake-wheel/cmeel-example",
+    "conda-forge/conda-forge-feedstock-ops",
     "csjgg/ags-cookbook",
     "Culmus/hebrew-fonts",
     "damacol/ai-hub",
@@ -68,6 +70,7 @@
     "damacol/meta-llama-llama-3-2-3b",
     "damacol/xai-org-grok-2",
     "danielrosehill/adb-keep-awake",
+    "danielrosehill/adb-ops-plugin",
     "danielrosehill/Agent-Assisted-Purchase-Research-Index",
     "danielrosehill/Agent-Journal",
     "danielrosehill/Agent-Skills",
@@ -82,6 +85,7 @@
     "danielrosehill/amd-gpu-fixes",
     "danielrosehill/Arch-And-Interiors-Index",
     "danielrosehill/audio-editing-plugin",
+    "danielrosehill/Backup-Planner",
     "danielrosehill/Backup-Projects-Index",
     "danielrosehill/brainstorm-solutions-plugin",
     "danielrosehill/Bug-Reports-And-Fixes",
@@ -90,6 +94,7 @@
     "danielrosehill/Claude-Budgeting-Plugin",
     "danielrosehill/Claude-Calls-The-Shots",
     "danielrosehill/Claude-Career-Plugin",
+    "danielrosehill/Claude-Code-Bugs-And-FRs",
     "danielrosehill/Claude-Code-Feedback",
     "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
     "danielrosehill/Claude-HTML-Email-Designer-Plugin",

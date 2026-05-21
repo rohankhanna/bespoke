@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1854,
-    "concepts": 1862,
-    "observations": 1863,
-    "repos": 220,
-    "terms": 1850
+    "components": 1817,
+    "concepts": 1814,
+    "observations": 1815,
+    "repos": 214,
+    "terms": 1802
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/OpenColorIO",
     "AcademySoftwareFoundation/openexr",
@@ -27,7 +27,6 @@
     "appium/WebDriverAgent",
     "arkime/arkime",
     "ARM-software/astc-encoder",
-    "ARM-software/ComputeLibrary",
     "async-profiler/async-profiler",
     "autowarefoundation/autoware_universe",
     "aws/aws-sdk-cpp",
@@ -76,7 +75,6 @@
     "FEniCS/dolfinx",
     "FFTW/fftw3",
     "flashrom/flashrom",
-    "flatpak/flatpak",
     "flightlessmango/MangoHud",
     "fluent/fluent-bit",
     "FluidSynth/fluidsynth",
@@ -119,11 +117,9 @@
     "kvcache-ai/Mooncake",
     "leejet/stable-diffusion.cpp",
     "lemonade-sdk/lemonade",
-    "liballeg/allegro5",
     "libarchive/libarchive",
     "libcpr/cpr",
     "libexpat/libexpat",
-    "libffi/libffi",
     "libfuse/libfuse",
     "libjxl/libjxl",
     "LibRaw/LibRaw",
@@ -165,7 +161,6 @@
     "NVIDIA/DALI",
     "NVIDIA/MatX",
     "NVIDIA/nccl",
-    "NVlabs/tiny-cuda-nn",
     "obsproject/obs-websocket",
     "onnxsim/onnxsim",
     "open-quantum-safe/liboqs",
@@ -179,7 +174,6 @@
     "optiscaler/OptiScaler",
     "oracle/graaljs",
     "OSGeo/gdal",
-    "panda3d/panda3d",
     "paullouisageneau/libdatachannel",
     "php-rdkafka/php-rdkafka",
     "PixarAnimationStudios/OpenUSD",

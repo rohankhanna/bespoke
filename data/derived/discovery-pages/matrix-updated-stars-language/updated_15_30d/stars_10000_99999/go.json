@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1314,
-    "concepts": 1226,
-    "observations": 1229,
-    "repos": 94,
-    "terms": 1221
+    "components": 1221,
+    "concepts": 1168,
+    "observations": 1171,
+    "repos": 87,
+    "terms": 1163
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "99designs/gqlgen",
@@ -28,7 +28,6 @@
     "centrifugal/centrifugo",
     "cert-manager/cert-manager",
     "cilium/cilium",
-    "cli/cli",
     "cloudflare/cloudflared",
     "cloudwego/eino",
     "cockroachdb/cockroach",
@@ -36,19 +35,15 @@
     "containers/podman",
     "coredns/coredns",
     "dagger/dagger",
-    "dexidp/dex",
     "dgraph-io/dgraph",
     "distribution/distribution",
     "DNSCrypt/dnscrypt-proxy",
-    "docker/compose",
     "etcd-io/etcd",
     "ethereum/EIPs",
     "ethereum/go-ethereum",
     "flipped-aurora/gin-vue-admin",
     "getsops/sops",
     "gin-gonic/gin",
-    "git-lfs/git-lfs",
-    "go-delve/delve",
     "go-gitea/gitea",
     "go-playground/validator",
     "go-sql-driver/mysql",
@@ -85,7 +80,6 @@
     "oauth2-proxy/oauth2-proxy",
     "open-policy-agent/opa",
     "opencontainers/runc",
-    "opentofu/opentofu",
     "ory/kratos",
     "php/frankenphp",
     "pingcap/tidb",
@@ -104,7 +98,6 @@
     "spf13/cobra",
     "syncthing/syncthing",
     "thanos-io/thanos",
-    "trufflesecurity/trufflehog",
     "v2fly/v2ray-core",
     "VictoriaMetrics/VictoriaMetrics",
     "XTLS/Xray-core"

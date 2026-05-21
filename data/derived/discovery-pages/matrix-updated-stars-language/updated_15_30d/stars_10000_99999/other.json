@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1462,
-    "concepts": 1278,
-    "observations": 1282,
-    "repos": 122,
-    "terms": 1269
+    "components": 1405,
+    "concepts": 1241,
+    "observations": 1245,
+    "repos": 119,
+    "terms": 1233
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "abpframework/abp",
@@ -69,11 +69,8 @@
     "hadolint/hadolint",
     "hagezi/dns-blocklists",
     "Heapy/awesome-kotlin",
-    "Homebrew/brew",
     "Homebrew/homebrew-cask",
-    "Homebrew/homebrew-core",
     "IBM/plex",
-    "jaywcjlove/linux-command",
     "jekyll/jekyll",
     "jellyfin/jellyfin",
     "JetBrains/kotlin",

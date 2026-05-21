@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 675,
-    "concepts": 781,
-    "observations": 787,
-    "repos": 121,
-    "terms": 776
+    "components": 712,
+    "concepts": 829,
+    "observations": 835,
+    "repos": 127,
+    "terms": 824
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "Ableton/link",
     "ada-url/ada",
@@ -20,6 +20,7 @@
     "alibaba/havenask",
     "AOMediaCodec/libavif",
     "apache/singa",
+    "ARM-software/ComputeLibrary",
     "asg017/sqlite-vec",
     "ashvardanian/StringZilla",
     "avahi/avahi",
@@ -44,6 +45,7 @@
     "espeak-ng/espeak-ng",
     "fastfloat/fast_float",
     "felt/tippecanoe",
+    "flatpak/flatpak",
     "go-gl/gl",
     "go-gl/glfw",
     "google/double-conversion",
@@ -64,7 +66,9 @@
     "KhronosGroup/Vulkan-Headers",
     "LeelaChessZero/lc0",
     "lh3/minimap2",
+    "liballeg/allegro5",
     "libbpf/libbpf",
+    "libffi/libffi",
     "libgeos/geos",
     "libjpeg-turbo/libjpeg-turbo",
     "libressl/portable",
@@ -93,6 +97,7 @@
     "NVIDIA-Omniverse/PhysX",
     "NVIDIA/cuda-samples",
     "NVIDIA/libnvidia-container",
+    "NVlabs/tiny-cuda-nn",
     "nvpro-samples/vk_raytracing_tutorial_KHR",
     "OHF-Voice/piper1-gpl",
     "ohler55/oj",
@@ -101,6 +106,7 @@
     "onnx/onnx-tensorrt",
     "openssh/openssh-portable",
     "Overv/VulkanTutorial",
+    "panda3d/panda3d",
     "pisa-engine/pisa",
     "plasma-umass/coz",
     "posva/catimg",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8782,
-    "concepts": 1668,
-    "observations": 1673,
-    "repos": 188,
-    "terms": 1658
+    "components": 8647,
+    "concepts": 1642,
+    "observations": 1647,
+    "repos": 185,
+    "terms": 1632
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
     "actions/cache",
@@ -52,14 +52,12 @@
     "BuilderIO/builder",
     "callstack/react-native-testing-library",
     "carbon-design-system/carbon-components-svelte",
-    "ChainSafe/lodestar",
     "Chevrotain/chevrotain",
     "chhoumann/quickadd",
     "ChromeDevTools/devtools-frontend",
     "ChromeDevTools/devtools-protocol",
     "civitai/civitai",
     "clerk/javascript",
-    "cloudflare/agents",
     "cloudflare/workers-sdk",
     "coder/mux",
     "Comcast/react-data-grid",
@@ -115,7 +113,6 @@
     "kelektiv/node-cron",
     "kepano/defuddle",
     "kulshekhar/ts-jest",
-    "langchain-ai/deepagentsjs",
     "lewish/asciiflow",
     "mathjax/MathJax-src",
     "mdn/yari",

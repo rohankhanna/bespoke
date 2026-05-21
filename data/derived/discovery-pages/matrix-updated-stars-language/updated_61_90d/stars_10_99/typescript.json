@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 476,
-    "concepts": 81,
-    "observations": 81,
-    "repos": 27,
-    "terms": 81
+    "components": 468,
+    "concepts": 79,
+    "observations": 79,
+    "repos": 26,
+    "terms": 79
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
-    "2slides/mcp-2slides",
     "aaaaalexis/obsidian-pseudo-mica",
     "acro5piano/kysely-migration-cli",
     "aiden0z/pptx-renderer",

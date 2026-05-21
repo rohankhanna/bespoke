@@ -1,22 +1,24 @@
 {
   "counts": {
-    "components": 334,
-    "concepts": 92,
-    "observations": 92,
-    "repos": 6,
-    "terms": 94
+    "components": 442,
+    "concepts": 119,
+    "observations": 120,
+    "repos": 8,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "Comfy-Org/ComfyUI",
     "electron/electron",
+    "f/prompts.chat",
     "ggml-org/llama.cpp",
     "langchain-ai/langchain",
+    "langflow-ai/langflow",
     "ollama/ollama",
     "vercel/next.js"
   ]

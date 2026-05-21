@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 393,
-    "concepts": 168,
-    "observations": 168,
-    "repos": 24,
-    "terms": 166
+    "components": 455,
+    "concepts": 197,
+    "observations": 197,
+    "repos": 26,
+    "terms": 195
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "ajeetdsouza/zoxide",
     "asciinema/asciinema",
@@ -24,8 +24,10 @@
     "diesel-rs/diesel",
     "eza-community/eza",
     "facebook/relay",
+    "foundry-rs/foundry",
     "huggingface/candle",
     "hyperium/hyper",
+    "jdx/mise",
     "lsd-rs/lsd",
     "openai/codex",
     "rust-lang/cargo",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15180,
-    "concepts": 13679,
-    "observations": 13705,
-    "repos": 4516,
-    "terms": 13461
+    "components": 15191,
+    "concepts": 13695,
+    "observations": 13721,
+    "repos": 4521,
+    "terms": 13480
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -1465,10 +1465,12 @@
     "ethereum/snake-charmers-tactical-manual",
     "ethereum/tests",
     "ethereum/trin",
+    "ethstaker/ethstaker-guides",
     "ethz-asl/COIN-LIO",
     "eugeneware/gifencoder",
     "EuphoriaYan/zi2zi-pytorch",
     "evalstate/mcp-hfspace",
+    "evandempsey/podcast-llm",
     "evanmiller/hecate",
     "EvelynFan/FaceFormer",
     "evmar/webtreemap",
@@ -1917,6 +1919,7 @@
     "hardcodet/wpf-notifyicon",
     "HarderThenHarder/RLLoggingBoard",
     "harfbuzz/rustybuzz",
+    "harfbuzz/ttf-parser",
     "harningt/luajson",
     "Harry-Zhi/semantic_nerf",
     "harvardnlp/namedtensor",
@@ -2026,6 +2029,7 @@
     "Huangying-Zhan/kitti-odom-eval",
     "huawei-noah/bolt",
     "huawei-noah/Speech-Backbones",
+    "huggingface/community-events",
     "huggingface/controlnet_aux",
     "huggingface/diffusion-fast",
     "hughfenghen/WebAV-KnowledgeGraph",
@@ -4208,6 +4212,7 @@
     "vacancy/Jacinle",
     "vacancy/PreciseRoIPooling",
     "vadimkantorov/caffemodel2pytorch",
+    "Vaibhavs10/ml-with-audio",
     "vale-cli/Microsoft",
     "valida-xyz/valida",
     "valyala/fasttemplate",

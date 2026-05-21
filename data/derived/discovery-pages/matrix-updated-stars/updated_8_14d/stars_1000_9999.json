@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 792,
-    "concepts": 445,
-    "observations": 446,
+    "components": 790,
+    "concepts": 424,
+    "observations": 425,
     "repos": 51,
-    "terms": 438
+    "terms": 417
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "Aleph-Alpha/ts-rs",
     "androidx/media",
@@ -26,6 +26,7 @@
     "enricoros/big-AGI",
     "etcd-io/bbolt",
     "Farama-Foundation/Minigrid",
+    "floooh/sokol",
     "funstory-ai/BabelDOC",
     "FxEmbed/FxEmbed",
     "getagentseal/codeburn",
@@ -39,7 +40,6 @@
     "junhoyeo/tokscale",
     "junit-team/junit-framework",
     "Koenkk/zigbee-herdsman-converters",
-    "lance-format/lance",
     "lightning/bolts",
     "magenta/ddsp",
     "marzer/tomlplusplus",

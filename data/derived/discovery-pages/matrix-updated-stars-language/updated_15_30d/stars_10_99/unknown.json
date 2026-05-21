@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 133,
-    "concepts": 103,
-    "observations": 104,
-    "repos": 29,
-    "terms": 103
+    "concepts": 99,
+    "observations": 100,
+    "repos": 28,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "alphagov/govuk-rfcs",
     "Ayaginu-Sue/Astalia",
@@ -32,7 +32,6 @@
     "prefix-dev/rattler-build-action",
     "qemus/virtiso-whql",
     "quarkiverse/quarkiverse-docs",
-    "rstackjs/rstack-design-resources",
     "sakib-m/Pi-hole-Torrent-Blocklist",
     "sigstore/community",
     "sigstore/root-signing-staging",

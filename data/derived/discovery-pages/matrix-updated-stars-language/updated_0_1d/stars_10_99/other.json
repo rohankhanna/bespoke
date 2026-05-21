@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 3,
-    "observations": 3,
-    "repos": 1,
-    "terms": 3
+    "components": 45,
+    "concepts": 16,
+    "observations": 16,
+    "repos": 2,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
-    "nvim-mini/mini.deps"
+    "f3liz-casa/noraneko",
+    "lumen-oss/luarocks-tag-release"
   ]
 }

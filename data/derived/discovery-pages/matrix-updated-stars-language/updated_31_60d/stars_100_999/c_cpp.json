@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 510,
-    "concepts": 691,
-    "observations": 694,
+    "components": 521,
+    "concepts": 671,
+    "observations": 674,
     "repos": 130,
-    "terms": 686
+    "terms": 666
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/Imath",
     "afbjorklund/lima-gui",
     "aibasel/downward",
+    "ampl/mp",
     "AmusementClub/vs-mlrt",
     "amzn/amzn-drivers",
     "ankane/faiss-ruby",
@@ -71,11 +72,10 @@
     "intel/opencl-clang",
     "intel/QAT_Engine",
     "ipsilon/evmc",
-    "JokerJohn/Cloud_Map_Evaluation",
-    "JokerJohn/MS-Mapping",
     "JokerJohn/PALoc",
     "jupyter-xeus/xeus",
     "jupyter-xeus/xeus-python",
+    "jupyter-xeus/xwidgets",
     "KhronosGroup/OpenCL-ICD-Loader",
     "KhronosGroup/SPIRV-Headers",
     "lastz/lastz",

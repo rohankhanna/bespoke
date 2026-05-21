@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 82,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 5,
-    "terms": 8
+    "components": 62,
+    "concepts": 3,
+    "observations": 3,
+    "repos": 4,
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
-    "aaronlamz/navpress",
     "aidenlab/spacewalk",
     "aidenlab/swtool",
     "angular/angular-build-builds",

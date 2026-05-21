@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 188,
-    "concepts": 232,
-    "observations": 233,
-    "repos": 101,
-    "terms": 240
+    "components": 200,
+    "concepts": 238,
+    "observations": 239,
+    "repos": 102,
+    "terms": 246
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -52,6 +52,7 @@
     "erkyrath/glk-dev",
     "espressif/conventional-precommit-linter",
     "fsspec/sshfs",
+    "galaxyproject/tools-devteam",
     "google-deepmind/alphageometry2",
     "HabanaAI/DeepSpeed",
     "haydn-jones/SOAP_JAX",

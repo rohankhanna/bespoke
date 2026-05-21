@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2656,
-    "concepts": 1635,
-    "observations": 1639,
-    "repos": 325,
-    "terms": 1646
+    "components": 2640,
+    "concepts": 1614,
+    "observations": 1618,
+    "repos": 324,
+    "terms": 1625
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "3rd/image.nvim",
@@ -64,7 +64,6 @@
     "blader/claudeception",
     "brendanzab/codespan",
     "brycedrennan/imaginAIry",
-    "Byron/dua-cli",
     "bytedance/gopkg",
     "bytetriper/RAE",
     "caddyserver/xcaddy",
@@ -274,6 +273,7 @@
     "rrousselGit/provider",
     "rspec/rspec-rails",
     "rust-lang/regex",
+    "Rust-SDL2/rust-sdl2",
     "s3prl/s3prl",
     "salesforce/BLIP",
     "sbt/sbt-native-packager",
@@ -315,7 +315,6 @@
     "trevin-creator/autoresearch-mlx",
     "turboderp-org/exllamav2",
     "tzapu/WiFiManager",
-    "UB-Mannheim/tesseract",
     "ulid/javascript",
     "unjs/unplugin",
     "v2fly/v2ray-examples",

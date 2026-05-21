@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1098,
-    "concepts": 524,
-    "observations": 526,
-    "repos": 46,
-    "terms": 521
+    "components": 1093,
+    "concepts": 514,
+    "observations": 516,
+    "repos": 45,
+    "terms": 511
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "alphagov/stylelint-config-gds",
     "angular/angular-devkit-architect-builds",
@@ -26,7 +26,6 @@
     "eea/fise-frontend",
     "fontsource/download-stat-aggregator",
     "j9t/compressorjs-next",
-    "j9t/htaccess-punk",
     "j9t/image-guard",
     "j9t/minifier-benchmarks",
     "kkomelin/isomorphic-dompurify-playgrounds",

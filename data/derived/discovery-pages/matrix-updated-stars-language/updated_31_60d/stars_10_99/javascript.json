@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 889,
-    "concepts": 273,
-    "observations": 273,
-    "repos": 74,
-    "terms": 273
+    "components": 935,
+    "concepts": 281,
+    "observations": 281,
+    "repos": 76,
+    "terms": 281
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
     "ahmadnassri/node-glob-promise",
@@ -76,6 +76,7 @@
     "nrwl/nx-ai-agents-config",
     "patrik-csak/auto-terminal-profile",
     "peergos/web-ui",
+    "rashfael/eslint-plugin-vue-pug",
     "reZach/i18next-electron-fs-backend",
     "reZach/secure-electron-context-menu",
     "scaleway/serverless-scaleway-functions",
@@ -85,6 +86,7 @@
     "tc39/proposal-iterator-includes",
     "TrigenSoftware/simple-release-action",
     "validator/gulp-html",
+    "webtorrent/bittorrent-lsd",
     "webtorrent/bittorrent-peerid",
     "wemake-services/wemake-frontend-styleguide",
     "winstonjs/winston-transport"

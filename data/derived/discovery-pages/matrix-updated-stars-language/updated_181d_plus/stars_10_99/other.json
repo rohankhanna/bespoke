@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2004,
-    "concepts": 1863,
-    "observations": 1869,
-    "repos": 820,
-    "terms": 1857
+    "components": 2005,
+    "concepts": 1864,
+    "observations": 1870,
+    "repos": 821,
+    "terms": 1858
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x7432/asm-ru",
@@ -477,6 +477,7 @@
     "JuliaImages/juliaimages.github.io",
     "JuliaIO/MsgPack.jl",
     "JuliaLang/SoftGlobalScope.jl",
+    "JuliaLogging/ProgressLogging.jl",
     "JuliaLogging/TerminalLoggers.jl",
     "JuliaML/LearnBase.jl",
     "JuliaParallel/DTables.jl",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3173,
-    "concepts": 2766,
-    "observations": 2782,
-    "repos": 352,
-    "terms": 2749
+    "components": 3123,
+    "concepts": 2715,
+    "observations": 2729,
+    "repos": 344,
+    "terms": 2698
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -102,7 +102,6 @@
     "dart-lang/site-www",
     "DavHau/nix-portable",
     "day8/re-frame",
-    "dcloudio/hello-uniapp",
     "deanmalmgren/textract",
     "decidim/decidim",
     "deepseek-ai/DeepEP",
@@ -160,7 +159,6 @@
     "godotengine/godot-docs",
     "godotengine/tps-demo",
     "golang/proposal",
-    "google/flax",
     "google/ksp",
     "googleapis/google-api-dotnet-client",
     "googleapis/google-api-php-client",
@@ -168,7 +166,6 @@
     "googleapis/google-cloud-dotnet",
     "googleapis/google-cloud-php",
     "googleapis/googleapis",
-    "GoogleCloudPlatform/kubernetes-engine-samples",
     "GoogleCloudPlatform/php-docs-samples",
     "gotify/android",
     "gpu-mode/lectures",
@@ -179,7 +176,6 @@
     "HazyResearch/ThunderKittens",
     "helix-toolkit/helix-toolkit",
     "hooke007/mpv_PlayKit",
-    "ibhagwan/fzf-lua",
     "intel/llvm",
     "jeremyevans/sequel",
     "JetBrains/intellij-platform-gradle-plugin",
@@ -195,7 +191,6 @@
     "JuliaAI/MLJ.jl",
     "JuliaData/DataFrames.jl",
     "JuliaGPU/CUDA.jl",
-    "JuliaLang/IJulia.jl",
     "JuliaLang/PackageCompiler.jl",
     "JuliaPy/PyCall.jl",
     "JuliaPy/PythonCall.jl",
@@ -244,7 +239,6 @@
     "minad/consult",
     "minitest/minitest",
     "modelcontextprotocol/swift-sdk",
-    "modelscope/modelscope-classroom",
     "mpv-android/mpv-android",
     "mrcjkb/rustaceanvim",
     "naudio/NAudio",
@@ -258,7 +252,6 @@
     "nix-community/home-manager",
     "nix-darwin/nix-darwin",
     "NixOS/hydra",
-    "nodejs/docker-node",
     "NuGet/Home",
     "NuGet/NuGetGallery",
     "NVIDIA/accelerated-computing-hub",
@@ -308,7 +301,6 @@
     "rrousselGit/riverpod",
     "ruby-grape/grape",
     "ruby/rake",
-    "ruby/rbs",
     "saghen/blink.cmp",
     "salvadordf/CEF4Delphi",
     "sass/dart-sass",

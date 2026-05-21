@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11651,
-    "concepts": 6663,
-    "observations": 6678,
-    "repos": 3197,
-    "terms": 6622
+    "components": 11652,
+    "concepts": 6664,
+    "observations": 6679,
+    "repos": 3198,
+    "terms": 6624
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -1837,6 +1837,7 @@
     "JuliaImages/juliaimages.github.io",
     "JuliaIO/MsgPack.jl",
     "JuliaLang/SoftGlobalScope.jl",
+    "JuliaLogging/ProgressLogging.jl",
     "JuliaLogging/TerminalLoggers.jl",
     "JuliaML/LearnBase.jl",
     "JuliaParallel/DTables.jl",
@@ -2975,7 +2976,7 @@
     "TREMA-UNH/trec-car-tools",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",

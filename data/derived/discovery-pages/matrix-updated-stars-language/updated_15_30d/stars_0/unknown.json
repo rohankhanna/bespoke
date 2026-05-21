@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 16,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 63,
-    "terms": 43
+    "concepts": 42,
+    "observations": 42,
+    "repos": 60,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "cachix/serde-envfile",
     "conda-forge/conda-lock-feedstock",
@@ -22,7 +22,6 @@
     "conda-forge/textgrad-feedstock",
     "conda-forge/tianshou-feedstock",
     "csm-actions/demo-client",
-    "danielrosehill/adb-ops-plugin",
     "danielrosehill/AI-Data-Utilities",
     "danielrosehill/AI-Dev-Repo-Template-1",
     "danielrosehill/AI-Dev-Workspace-Primitives",
@@ -30,7 +29,6 @@
     "danielrosehill/AI-Presentation-Builders-Index",
     "danielrosehill/AI-Safety-Projects-Index",
     "danielrosehill/Air-Quality-Toolkit-Plugin",
-    "danielrosehill/Backup-Planner",
     "danielrosehill/BUDGET.md",
     "danielrosehill/Claude-ADB-Ops-Plugin",
     "danielrosehill/Claude-AI-Model-Research-Plugin",
@@ -40,7 +38,6 @@
     "danielrosehill/Claude-Browser-Data-Capture-Plugin",
     "danielrosehill/Claude-Business-Idea-Eval-Plugin",
     "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
-    "danielrosehill/Claude-Code-Bugs-And-FRs",
     "danielrosehill/Claude-CopyQ-Scripting-Plugin",
     "danielrosehill/Claude-Data-Annotation-Plugin",
     "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin",

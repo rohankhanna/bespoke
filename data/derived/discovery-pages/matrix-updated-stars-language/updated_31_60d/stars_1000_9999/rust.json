@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 911,
-    "concepts": 636,
-    "observations": 642,
-    "repos": 108,
-    "terms": 649
+    "components": 965,
+    "concepts": 692,
+    "observations": 698,
+    "repos": 111,
+    "terms": 705
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "abraxas-365/langchain-rust",
@@ -36,6 +36,7 @@
     "crate-ci/typos",
     "crossterm-rs/crossterm",
     "dalek-cryptography/curve25519-dalek",
+    "dathere/qsv",
     "DeterminateSystems/nix-installer",
     "dimforge/rapier",
     "dtolnay/anyhow",
@@ -72,6 +73,7 @@
     "liuchengxu/vim-clap",
     "lldap/lldap",
     "LukeMathWalker/cargo-chef",
+    "lycheeverse/lychee",
     "mattsse/chromiumoxide",
     "mfontanini/presenterm",
     "mikeyobrien/ralph-orchestrator",
@@ -101,8 +103,8 @@
     "rust-lang/futures-rs",
     "rust-lang/git2-rs",
     "rust-lang/log",
-    "Rust-SDL2/rust-sdl2",
     "rust-windowing/winit",
+    "rustls/rustls",
     "ruvnet/ruvector",
     "serde-rs/json",
     "servo/html5ever",
@@ -112,6 +114,7 @@
     "snapview/tokio-tungstenite",
     "snapview/tungstenite-rs",
     "spacejam/sled",
+    "SuperCuber/dotter",
     "tauri-apps/wry",
     "testcontainers/testcontainers-rs",
     "tokio-rs/console",

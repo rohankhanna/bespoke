@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9517,
-    "concepts": 1384,
-    "observations": 1393,
-    "repos": 120,
-    "terms": 1380
+    "components": 9446,
+    "concepts": 1369,
+    "observations": 1378,
+    "repos": 118,
+    "terms": 1366
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
@@ -111,8 +111,6 @@
     "renovatebot/renovate",
     "sass/sass",
     "scalar/scalar",
-    "sindresorhus/got",
-    "sindresorhus/ky",
     "sindresorhus/type-fest",
     "slidevjs/slidev",
     "solidjs/solid",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 65,
-    "observations": 66,
+    "components": 54,
+    "concepts": 72,
+    "observations": 73,
     "repos": 7,
-    "terms": 65
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
-    "appwrite/playground-for-web",
     "astroautomata/SymbolicRegression.jl",
     "ChristopherHX/runner.server",
     "fsprojects/FSharp.Data.GraphQL",
+    "karafka/rdkafka-ruby",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
     "openbsd/ports"

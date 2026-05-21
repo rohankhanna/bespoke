@@ -1,23 +1,22 @@
 {
   "counts": {
-    "components": 1637,
-    "concepts": 889,
-    "observations": 890,
-    "repos": 302,
-    "terms": 887
+    "components": 1617,
+    "concepts": 881,
+    "observations": 882,
+    "repos": 300,
+    "terms": 879
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "10up/action-repo-automator",
     "219-design/qt-qml-project-template-with-ci",
     "2KAbhishek/exercism.nvim",
-    "2slides/mcp-2slides",
     "6cdh/dotfiles",
     "a5huynh/vscode-ron",
     "aaaaalexis/obsidian-pseudo-mica",
@@ -158,7 +157,6 @@
     "fonttools/unicodedata2",
     "fortanix/rust-mbedtls",
     "FoundationDB/fdb-build-support",
-    "galaxyproject/tools-devteam",
     "gazebosim/gz-mujoco",
     "googleapis/google-cloud-node-core",
     "googleapis/java-bigquerystorage",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1420,
-    "concepts": 945,
-    "observations": 950,
-    "repos": 151,
-    "terms": 938
+    "components": 1400,
+    "concepts": 934,
+    "observations": 939,
+    "repos": 148,
+    "terms": 927
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "0xPolygonHermez/zisk",
@@ -43,14 +43,12 @@
     "cachix/secretspec",
     "cargo-bins/cargo-quickinstall",
     "cargo-public-api/cargo-public-api",
-    "ChainSafe/forest",
     "ClickHouse/clickhouse-rs",
     "cloudflare/boring",
     "cobalt-org/liquid-rust",
     "Commit-Boost/commit-boost-client",
     "ComunidadAylas/PackSquash",
     "conda/rattler",
-    "containers/netavark",
     "cosmos/solidity-ibc-eureka",
     "cyphar/libpathrs",
     "deven96/ahnlich",
@@ -82,7 +80,6 @@
     "GitoxideLabs/cargo-smart-release",
     "GNOME/librsvg",
     "google/mdbook-i18n-helpers",
-    "hellux/jotdown",
     "helyim/helyim",
     "hermit-os/uhyve",
     "huggingface/hf-hub",

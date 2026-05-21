@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 234,
-    "concepts": 167,
-    "observations": 167,
-    "repos": 53,
-    "terms": 165
+    "components": 222,
+    "concepts": 161,
+    "observations": 161,
+    "repos": 52,
+    "terms": 159
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "abduznik/git-alchemist",
     "agents-x-project/PyVision-RL",
@@ -42,7 +42,6 @@
     "FindDefinition/cumm",
     "fla-org/flash-bidirectional-linear-attention",
     "foldl/AlphaGeometryRE",
-    "galaxyproject/tools-devteam",
     "gazebosim/gz-mujoco",
     "googlefonts/lang",
     "googlefonts/nam-files",

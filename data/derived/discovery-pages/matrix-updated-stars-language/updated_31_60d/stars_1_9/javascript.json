@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 890,
-    "concepts": 557,
-    "observations": 557,
+    "components": 889,
+    "concepts": 566,
+    "observations": 566,
     "repos": 60,
-    "terms": 559
+    "terms": 568
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
@@ -38,7 +38,6 @@
     "ehmicky/normalize-node-version",
     "erichlof/Glider-Ball-3D",
     "f3liz-casa/noraneko-runtime",
-    "fishballapp/inquirer-cli",
     "forcedotcom/dev-config",
     "gauravrathod674/custom-chatbot",
     "gr2m/octokit-oauth-app-begin-example",
@@ -50,6 +49,7 @@
     "ipfs-shipyard/js-mock-ipfs-pinning-service",
     "ipld/js-bitcoin",
     "istanbuljs/schema",
+    "j9t/htaccess-punk",
     "kellyselden/boilerplate-update",
     "Level/read-stream",
     "Level/supports",

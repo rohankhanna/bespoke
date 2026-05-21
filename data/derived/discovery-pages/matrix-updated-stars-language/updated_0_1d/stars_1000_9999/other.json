@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 142,
-    "concepts": 123,
-    "observations": 124,
+    "components": 151,
+    "concepts": 130,
+    "observations": 131,
     "repos": 13,
-    "terms": 123
+    "terms": 130
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
+    "babashka/sci",
     "dotnet/reactive",
     "dotnet/Silk.NET",
     "firebase/flutterfire",
@@ -22,8 +23,7 @@
     "kurrent-io/KurrentDB",
     "microsoft/aspire",
     "microsoft/aspire-samples",
-    "microsoft/PhiCookBook",
-    "seancorfield/honeysql",
+    "psmux/psmux",
     "swiftlang/llvm-project",
     "swiftlang/swift-syntax",
     "web-platform-tests/wpt"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 166,
-    "concepts": 173,
-    "observations": 176,
-    "repos": 31,
-    "terms": 172
+    "components": 176,
+    "concepts": 181,
+    "observations": 184,
+    "repos": 32,
+    "terms": 180
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "anordal/shellharden",
     "anthropics/claudes-c-compiler",
     "apache/horaedb",
     "atanunq/viu",
+    "Byron/dua-cli",
     "Byron/google-apis-rs",
     "dtolnay/cargo-expand",
     "dtolnay/case-studies",

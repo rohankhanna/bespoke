@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 33327,
-    "concepts": 15166,
-    "observations": 15222,
-    "repos": 1712,
-    "terms": 15121
+    "components": 33332,
+    "concepts": 15170,
+    "observations": 15226,
+    "repos": 1713,
+    "terms": 15131
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -1104,6 +1104,7 @@
     "mui/material-ui",
     "multica-ai/andrej-karpathy-skills",
     "multica-ai/multica",
+    "myshell-ai/OpenVoice",
     "nagadomi/waifu2x",
     "nari-labs/dia",
     "NationalSecurityAgency/ghidra",

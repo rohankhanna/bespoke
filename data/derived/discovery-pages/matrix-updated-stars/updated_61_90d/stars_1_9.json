@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 606,
-    "concepts": 429,
-    "observations": 430,
-    "repos": 130,
-    "terms": 423
+    "components": 612,
+    "concepts": 430,
+    "observations": 431,
+    "repos": 132,
+    "terms": 424
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "0x676e67/0x676e67",
@@ -73,6 +73,7 @@
     "danielrosehill/claude-agent-workspace-generator",
     "danielrosehill/Claude-Dolphin-Konsole-Actions",
     "danielrosehill/Claude-Dork",
+    "danielrosehill/Hebrew-TTS-Providers",
     "datachainlab/ethereum-ibc-relay-prover",
     "day50-dev/mcp-search-and-run",
     "eddelbuettel/github-actions",
@@ -82,6 +83,7 @@
     "filip26/titanium-jcs",
     "filip26/titanium-rdf-canon",
     "filip26/titanium-rdf-n-quads",
+    "fishballapp/inquirer-cli",
     "flagos-ai/llvm-project",
     "flinedev/customstatusline",
     "flinedev/recall",

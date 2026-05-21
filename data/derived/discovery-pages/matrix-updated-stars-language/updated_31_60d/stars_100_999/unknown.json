@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 219,
-    "observations": 219,
-    "repos": 54,
-    "terms": 218
+    "components": 48,
+    "concepts": 230,
+    "observations": 230,
+    "repos": 56,
+    "terms": 229
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "actions/partner-runner-images",
     "adoptium/adoptium",
@@ -48,6 +48,8 @@
     "hagezi/dns-servers",
     "ietf-tools/.github",
     "integrations/microsoft-teams",
+    "ipfs-examples/helia-examples",
+    "kubernetes-sigs/krew-index",
     "lwpyh/Awesome-MLLM-Reasoning-Collection",
     "MicrosoftDocs/terminal",
     "nimbalyst/nimbalyst",

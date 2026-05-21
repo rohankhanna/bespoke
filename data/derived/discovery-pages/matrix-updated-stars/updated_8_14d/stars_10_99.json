@@ -1,20 +1,21 @@
 {
   "counts": {
-    "components": 300,
-    "concepts": 193,
-    "observations": 193,
-    "repos": 36,
-    "terms": 193
+    "components": 314,
+    "concepts": 212,
+    "observations": 213,
+    "repos": 39,
+    "terms": 212
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "apify/actor-templates",
+    "atsushieno/aap-juce",
     "atsushieno/aap-lv2",
     "atsushieno/augene-ng",
     "atsushieno/compose-audio-controls",
@@ -36,6 +37,8 @@
     "jelly-beam/rebar3_ex_doc",
     "kurrent-io/KurrentDB-Client-Rust",
     "microsoft/openjdk-docker",
+    "microsoft/openjdk-jdk17u",
+    "microsoft/openjdk-jdk21u",
     "mongodb/winkerberos",
     "ocaml-tracing/ocaml-opentelemetry",
     "ocaml-tracing/ocaml-trace",

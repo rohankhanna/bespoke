@@ -1,23 +1,24 @@
 {
   "counts": {
-    "components": 2091,
-    "concepts": 1195,
-    "observations": 1203,
+    "components": 2081,
+    "concepts": 1198,
+    "observations": 1206,
     "repos": 471,
-    "terms": 1200
+    "terms": 1203
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/termim.nvim",
     "2KAbhishek/tmux-tea",
+    "2slides/mcp-2slides",
     "2U1/Gemma3-Finetune",
     "3dfxdev/EDGE",
     "4kills/go-libdeflate",
@@ -207,6 +208,7 @@
     "FreneticLLC/FreneticUtilities",
     "friemen/diffit",
     "fsspec/sshfs",
+    "galaxyproject/tools-devteam",
     "georust/wkt",
     "germangb/minimp3-rs",
     "getgrav/grav-theme-learn2",
@@ -291,7 +293,6 @@
     "JuliaGraphics/ColorTypes.jl",
     "JuliaGtk/Gtk4Makie.jl",
     "JuliaInterop/libcxxwrap-julia",
-    "JuliaLogging/ProgressLogging.jl",
     "jupyter-xeus/xeus-javascript",
     "Justintime50/homebrew-releaser",
     "kandinskylab/kandinsky-5-lora-train",
@@ -465,7 +466,6 @@
     "WebAssembly/wasi-parallel",
     "webdataset/WebDataset.jl",
     "WICG/crash-reporting",
-    "windsonR/vite-plugin-virtual-html",
     "withastro/.github",
     "worlpaker/go-syntax",
     "xie-lab-ml/piecewise-sparse-attention",

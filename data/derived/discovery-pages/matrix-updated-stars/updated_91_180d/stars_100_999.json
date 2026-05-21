@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3927,
-    "concepts": 2773,
-    "observations": 2779,
-    "repos": 706,
-    "terms": 2763
+    "components": 3936,
+    "concepts": 2779,
+    "observations": 2785,
+    "repos": 707,
+    "terms": 2769
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "0k/shyaml",
     "10up/action-wordpress-plugin-asset-update",
@@ -142,6 +142,7 @@
     "breezedeus/CnSTD",
     "browserslist/browserslist-rs",
     "BrunoBonacci/mulog",
+    "bshall/knn-vc",
     "bshuster-repo/logrus-logstash-hook",
     "Builditluc/wiki-tui",
     "buildpacks/spec",
@@ -256,7 +257,6 @@
     "erkyrath/glulxe",
     "esy/esy",
     "ethereum-optimism/asterisc",
-    "ethstaker/ethstaker-guides",
     "evadne/etso",
     "excubo-ag/WebCompiler",
     "Extraltodeus/Skimmed_CFG",
@@ -308,8 +308,8 @@
     "gvvaughan/lyaml",
     "hako-mikan/sd-webui-supermerger",
     "haoxiangsnr/spiking-fullsubnet",
-    "harfbuzz/ttf-parser",
     "haskell/text",
+    "hasscc/hass-edge-tts",
     "havarddj/typst-preview.el",
     "hecrj/icebreaker",
     "heiher/sockstun",
@@ -613,6 +613,7 @@
     "ShenhanQian/GaussianAvatars",
     "simonw/datasette-lite",
     "sindresorhus/env-paths",
+    "sindresorhus/multimatch",
     "SLDGroup/EMCAD",
     "slinso/goTemplateBenchmark",
     "smol-rs/async-executor",

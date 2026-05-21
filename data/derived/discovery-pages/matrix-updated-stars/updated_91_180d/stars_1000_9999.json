@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2726,
-    "concepts": 2407,
-    "observations": 2417,
-    "repos": 471,
-    "terms": 2383
+    "components": 2749,
+    "concepts": 2435,
+    "observations": 2445,
+    "repos": 474,
+    "terms": 2411
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2shady4u/godot-sqlite",
@@ -88,6 +88,7 @@
     "brightmart/nlp_chinese_corpus",
     "bshoshany/thread-pool",
     "buriy/python-readability",
+    "Byron/dua-cli",
     "Byron/google-apis-rs",
     "ByteDance-Seed/SeedVR",
     "canopyai/Orpheus-TTS",
@@ -416,6 +417,7 @@
     "sindresorhus/ponyfill",
     "sindresorhus/trash-cli",
     "SmiteshP/nvim-navic",
+    "Softcatala/whisper-ctranslate2",
     "sony/gobreaker",
     "specta-rs/rspc",
     "SpinalHDL/VexRiscv",
@@ -456,6 +458,7 @@
     "Trusted-AI/adversarial-robustness-toolbox",
     "tsconfig/bases",
     "typicode/mistcss",
+    "UB-Mannheim/tesseract",
     "uber-go/goleak",
     "uber-go/mock",
     "uber/petastorm",

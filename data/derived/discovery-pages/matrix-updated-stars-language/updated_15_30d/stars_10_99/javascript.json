@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 891,
-    "concepts": 227,
-    "observations": 229,
-    "repos": 51,
-    "terms": 227
+    "components": 845,
+    "concepts": 219,
+    "observations": 221,
+    "repos": 49,
+    "terms": 219
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersCompiler",
     "alangdm/helium-animated-pages",
@@ -54,7 +54,6 @@
     "octokit/openapi",
     "octokit/openapi-types.ts",
     "r-lyeh/gamebook",
-    "rashfael/eslint-plugin-vue-pug",
     "readthedocs/addons",
     "rescript-lang/tree-sitter-rescript",
     "rstackjs/agent-skills",
@@ -63,7 +62,6 @@
     "tracked-tools/tracked-toolbox",
     "ultralytics/llm",
     "web-platform-tests/results-analysis",
-    "webtorrent/bittorrent-lsd",
     "wyyazlz/sheetnext"
   ]
 }

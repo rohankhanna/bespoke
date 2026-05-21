@@ -3,7 +3,7 @@
     "components": 59,
     "concepts": 49,
     "observations": 49,
-    "repos": 50,
+    "repos": 49,
     "terms": 49
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "AlmaLinux/osv-database",
     "angular/angular-devkit-build-webpack-builds",
@@ -36,7 +36,6 @@
     "danielrosehill/Claude-KDE-Plasma-Plugin",
     "danielrosehill/Claude-Linux-System-Optimisation-Plugin",
     "danielrosehill/Claude-LLM-Council-Creator-Plugin",
-    "danielrosehill/Claude-Purchasing-Plugin",
     "danielrosehill/Claude-Research-Space-Plugin",
     "danielrosehill/Resources-Lists-Index",
     "danielrosehill/Subindices",

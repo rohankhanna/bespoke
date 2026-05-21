@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 65,
-    "concepts": 191,
-    "observations": 191,
-    "repos": 47,
-    "terms": 165
+    "concepts": 195,
+    "observations": 195,
+    "repos": 48,
+    "terms": 169
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "AbdBarho/stable-diffusion-webui-docker",
     "adobe-fonts/source-han-serif",
@@ -46,6 +46,7 @@
     "microsoft/vscode-dev-containers",
     "mislav/dotfiles",
     "multiarch/qemu-user-static",
+    "npryce/adr-tools",
     "postmodern/chruby",
     "pyenv/pyenv-installer",
     "pystardust/ytfzf",

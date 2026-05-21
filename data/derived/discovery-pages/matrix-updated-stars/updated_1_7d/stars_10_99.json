@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 213,
-    "concepts": 178,
-    "observations": 179,
-    "repos": 32,
-    "terms": 178
+    "components": 166,
+    "concepts": 140,
+    "observations": 140,
+    "repos": 28,
+    "terms": 140
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "aidenlab/hic-straw",
@@ -20,7 +20,6 @@
     "apache/casbin-axum-casbin",
     "apache/casbin-rust-actix-casbin",
     "apache/datafusion-ballista-python",
-    "atsushieno/aap-juce",
     "browniebroke/pypackage-template",
     "cloudfoundry/bosh-google-cpi-release",
     "cloudfoundry/credhub-cli",
@@ -28,21 +27,18 @@
     "diffscope/diffscope-project",
     "edge-classic/EDGE-classic",
     "google-marketing-solutions/ariel",
-    "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "honwen/openwrt-dnsmasq-extra",
     "intel-staging/text-generation-webui",
     "karafka/example-apps",
-    "lumen-oss/luarocks-tag-release",
+    "mesh-iit/cad-libraries",
     "microsoft/openjdk-jdk11u",
-    "microsoft/openjdk-jdk17u",
-    "microsoft/openjdk-jdk21u",
+    "nuxt-modules/emotion",
     "nvim-mini/mini.deps",
     "openjdk/jdk11u-dev",
     "openjdk/jdk17u-dev",
     "openjdk/jdk21u-dev",
     "pivotal/credhub-release",
     "RiDDiX/home-assistant-addons",
-    "storybook-community/addon-queryparams",
     "TrigenSoftware/simple-release",
     "vaporif/parry-guard"
   ]

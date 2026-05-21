@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 169,
-    "concepts": 151,
-    "observations": 152,
-    "repos": 23,
-    "terms": 151
+    "components": 173,
+    "concepts": 160,
+    "observations": 161,
+    "repos": 24,
+    "terms": 160
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "apache/logging-log4j2",
     "beehive-lab/TornadoVM",
@@ -32,6 +32,7 @@
     "peergos/peergos",
     "react-native-share/react-native-share",
     "RoaringBitmap/RoaringBitmap",
+    "soot-oss/soot",
     "spotbugs/spotbugs",
     "spring-projects/spring-ai-examples",
     "spring-projects/spring-restdocs",

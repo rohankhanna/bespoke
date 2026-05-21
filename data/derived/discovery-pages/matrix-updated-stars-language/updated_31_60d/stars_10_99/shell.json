@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 88,
-    "concepts": 135,
-    "observations": 135,
-    "repos": 26,
-    "terms": 135
+    "components": 100,
+    "concepts": 147,
+    "observations": 147,
+    "repos": 28,
+    "terms": 147
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
@@ -39,6 +39,8 @@
     "nodenv/node-build-update-defs",
     "nodenv/nodenv-package-rehash",
     "oceanbase/docker-images",
-    "robertguss/claude-code-toolkit"
+    "oneclick/rubyinstaller2-packages",
+    "robertguss/claude-code-toolkit",
+    "sclorg/mariadb-container"
   ]
 }

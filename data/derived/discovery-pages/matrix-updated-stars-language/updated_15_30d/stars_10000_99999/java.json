@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 343,
-    "concepts": 399,
-    "observations": 401,
-    "repos": 31,
-    "terms": 396
+    "components": 330,
+    "concepts": 384,
+    "observations": 386,
+    "repos": 30,
+    "terms": 381
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "alibaba/druid",
     "alibaba/nacos",
@@ -24,7 +24,6 @@
     "apache/rocketmq",
     "apple/pkl",
     "awsdocs/aws-doc-sdk-examples",
-    "bazelbuild/bazel",
     "ben-manes/caffeine",
     "bumptech/glide",
     "clojure/clojure",

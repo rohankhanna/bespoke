@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 602,
-    "concepts": 776,
-    "observations": 777,
-    "repos": 74,
-    "terms": 772
+    "components": 598,
+    "concepts": 767,
+    "observations": 768,
+    "repos": 73,
+    "terms": 763
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "alibaba/spring-ai-alibaba",
@@ -78,7 +78,6 @@
     "reactor/reactor-core",
     "smithy-lang/smithy",
     "SonarSource/sonar-java",
-    "soot-oss/soot",
     "spring-ai-alibaba/DataAgent",
     "spring-ai-alibaba/examples",
     "spring-projects/spring-ai",

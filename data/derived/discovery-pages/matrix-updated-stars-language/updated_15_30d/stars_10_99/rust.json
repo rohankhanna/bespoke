@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 536,
-    "concepts": 345,
-    "observations": 346,
-    "repos": 74,
-    "terms": 344
+    "components": 525,
+    "concepts": 333,
+    "observations": 334,
+    "repos": 71,
+    "terms": 332
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "abusch/nu_plugin_semver",
     "AccessKit/accesskit-c",
@@ -46,7 +46,6 @@
     "filecoin-project/builtin-actors",
     "fonttools/fontspector",
     "GreptimeTeam/greptimedb-ingester-rust",
-    "hecrj/iced_palace",
     "hermit-os/loader",
     "heroku/buildpacks-dotnet",
     "heroku/buildpacks-go",
@@ -57,7 +56,6 @@
     "holochain/holochain-serialization",
     "holochain/holochain-wasmer",
     "influxdata/datafusion-udf-wasm",
-    "janrueth/boring-rustls-provider",
     "KWARC/rust-libxml",
     "launchdarkly/rust-server-sdk",
     "ldclabs/anda-db",
@@ -82,7 +80,6 @@
     "succinctlabs/sp1-cluster",
     "Systemcluster/kitoken",
     "tofay/rustls-openssl",
-    "tracel-ai/burn-onnx",
     "tracel-ai/cubek",
     "typst/typst-assets",
     "tyrypyrking/egui-ash",

@@ -3,7 +3,7 @@
     "components": 101,
     "concepts": 68,
     "observations": 68,
-    "repos": 18,
+    "repos": 17,
     "terms": 67
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "1mb-dev/natcheck",
     "abhinav/goldmark-hashtag",
@@ -30,7 +30,6 @@
     "probe-lab/tiros",
     "Seedloaf/mc-router-discovery",
     "transparency-dev/armored-witness-applet",
-    "usbarmory/boot-transparency",
     "walles/ftop"
   ]
 }

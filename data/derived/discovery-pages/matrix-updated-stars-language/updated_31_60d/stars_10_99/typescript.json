@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1633,
-    "concepts": 238,
-    "observations": 240,
-    "repos": 67,
-    "terms": 270
+    "components": 1705,
+    "concepts": 248,
+    "observations": 250,
+    "repos": 70,
+    "terms": 280
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
@@ -31,6 +31,8 @@
     "buddingnewinsights/proxypal",
     "buttondown/cli",
     "cahamilton/stylelint-config-property-sort-order-smacss",
+    "cargo-bins/release-pr",
+    "celo-org/developer-tooling",
     "codemirror/language",
     "darkriszty/MarkdownTablePrettify-VSCodeExt",
     "dokploy/cli",
@@ -78,6 +80,7 @@
     "slopus/slopus.github.io",
     "solidjs-community/storybook",
     "TravisTheTechie/vscode-write-good",
+    "wighawag/rocketh",
     "ylsssq926/relic.skill",
     "zhayujie/cow-skill-hub",
     "zuplo/docs"

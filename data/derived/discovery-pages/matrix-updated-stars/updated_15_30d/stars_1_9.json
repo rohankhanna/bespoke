@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2524,
-    "concepts": 1332,
-    "observations": 1336,
-    "repos": 301,
-    "terms": 1327
+    "components": 2518,
+    "concepts": 1316,
+    "observations": 1320,
+    "repos": 295,
+    "terms": 1311
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0xble/dotagent.nvim",
@@ -45,7 +45,6 @@
     "bennyyip/dot-vim",
     "bitrise-io/bitrise-plugins-step",
     "black-desk/djotfmt",
-    "bladeacer/obsi-snip-coll",
     "Blosc/blogsite",
     "bnb-chain/reth-bsc-triedb",
     "boa-dev/data",
@@ -60,7 +59,6 @@
     "certible/superagent-aws-sign",
     "cgrindel/rules_swiftformat",
     "cgrindel/swift_gazelle_plugin",
-    "CHIP-SPV/H4I-MKLShim",
     "chrishulbert/brickwarrior",
     "clearml/dropbear",
     "cloudfoundry/cc-uploader",
@@ -104,7 +102,6 @@
     "danielrosehill/Claude-KDE-Plasma-Plugin",
     "danielrosehill/Claude-Linux-System-Optimisation-Plugin",
     "danielrosehill/Claude-LLM-Council-Creator-Plugin",
-    "danielrosehill/Claude-Purchasing-Plugin",
     "danielrosehill/Claude-Research-Space-Plugin",
     "danielrosehill/Claude-Rudder",
     "danielrosehill/LLM-Council-Template",
@@ -181,7 +178,6 @@
     "ipld/github-mgmt",
     "ipshipyard/github-mgmt",
     "j9t/compressorjs-next",
-    "j9t/htaccess-punk",
     "j9t/image-guard",
     "j9t/minifier-benchmarks",
     "JeremyAnsel/SharpAssimp",
@@ -292,7 +288,6 @@
     "stdlib-js/repl",
     "suzuki-shunsuke/release-js-action",
     "szksh-lab/.github",
-    "Tengfei-Wang/Tengfei-Wang.github.io",
     "thetutlage/static",
     "tinted-theming/base16-waybar",
     "TJC-LP/sanzaru",
@@ -302,7 +297,6 @@
     "triton-inference-server/TensorRT-LLM",
     "tweag/gazelle_haskell_modules",
     "typst/typst-dev-assets",
-    "usbarmory/boot-transparency",
     "usdot-fhwa-stol/carma-config",
     "usdot-fhwa-stol/cdasim-config",
     "v-iashin/v-iashin.github.io",

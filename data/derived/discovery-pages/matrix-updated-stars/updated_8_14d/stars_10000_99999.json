@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 570,
-    "concepts": 270,
-    "observations": 272,
-    "repos": 25,
-    "terms": 266
+    "components": 550,
+    "concepts": 223,
+    "observations": 225,
+    "repos": 23,
+    "terms": 220
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "academic/awesome-datascience",
     "ajv-validator/ajv",
@@ -22,13 +22,11 @@
     "foliojs/pdfkit",
     "fuma-nama/fumadocs",
     "gitleaks/gitleaks",
-    "huggingface/pytorch-image-models",
     "kepano/obsidian-skills",
     "Kilo-Org/kilocode",
     "Koenkk/zigbee2mqtt",
     "lint-staged/lint-staged",
     "lucide-icons/lucide",
-    "ludwig-ai/ludwig",
     "mixmark-io/turndown",
     "modelcontextprotocol/typescript-sdk",
     "modelscope/DiffSynth-Studio",

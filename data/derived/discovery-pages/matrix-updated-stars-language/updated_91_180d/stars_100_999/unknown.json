@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 65,
-    "observations": 65,
-    "repos": 33,
-    "terms": 76
+    "components": 10,
+    "concepts": 63,
+    "observations": 63,
+    "repos": 32,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "AppImageCommunity/awesome-appimage",
@@ -22,7 +22,6 @@
     "CodeBoarding/GeneratedOnBoardings",
     "dalek-cryptography/ed25519-dalek",
     "docker-library/faq",
-    "ethstaker/ethstaker-guides",
     "filecoin-project/devgrants",
     "GuiWonder/MoonStarsKai",
     "IceClear/SeedVR2",

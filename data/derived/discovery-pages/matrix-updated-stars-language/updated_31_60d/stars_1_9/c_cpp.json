@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 157,
-    "concepts": 77,
-    "observations": 77,
-    "repos": 18,
-    "terms": 77
+    "components": 158,
+    "concepts": 80,
+    "observations": 80,
+    "repos": 19,
+    "terms": 80
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "amir684/esp32c3-red-alert",
     "ankane/dist-c",
     "Asmod4n/mruby-fast-json",
+    "CHIP-SPV/H4I-MKLShim",
     "datalevin/dlmdb",
     "decibri/decibri.cpp",
     "gbrobro119-star/darksword-kexploit",

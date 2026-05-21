@@ -3,7 +3,7 @@
     "components": 1260,
     "concepts": 1539,
     "observations": 1541,
-    "repos": 418,
+    "repos": 417,
     "terms": 1528
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -277,7 +277,6 @@
     "octol/vim-cpp-enhanced-highlight",
     "ojdkbuild/ojdkbuild",
     "OmniSharp/omnisharp-vim",
-    "oneclick/rubyinstaller",
     "onnx/tutorials",
     "open-mmlab/mmagic",
     "openai/mujoco-py",

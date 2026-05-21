@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 356,
-    "concepts": 725,
-    "observations": 725,
-    "repos": 197,
-    "terms": 719
+    "components": 362,
+    "concepts": 736,
+    "observations": 736,
+    "repos": 199,
+    "terms": 730
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "0k/shyaml",
     "23andMe/Yamale",
@@ -56,6 +56,7 @@
     "bigcode-project/bigcodebench",
     "BoosterRobotics/booster_gym",
     "breezedeus/CnSTD",
+    "bshall/knn-vc",
     "BurntSushi/rebar",
     "bytedance/BindWeave",
     "bytedance/SandboxFusion",
@@ -97,6 +98,7 @@
     "guoweiyu/NeuroVLA",
     "hako-mikan/sd-webui-supermerger",
     "haoxiangsnr/spiking-fullsubnet",
+    "hasscc/hass-edge-tts",
     "hkchengrex/CascadePSP",
     "HolyWu/vs-rife",
     "httplib2/httplib2",

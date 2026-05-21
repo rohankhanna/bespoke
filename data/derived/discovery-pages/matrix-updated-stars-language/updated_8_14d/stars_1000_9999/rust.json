@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 74,
-    "concepts": 64,
-    "observations": 64,
-    "repos": 5,
-    "terms": 61
+    "components": 56,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 4,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "Aleph-Alpha/ts-rs",
     "junhoyeo/tokscale",
-    "lance-format/lance",
     "nix-rust/nix",
     "reubeno/brush"
   ]

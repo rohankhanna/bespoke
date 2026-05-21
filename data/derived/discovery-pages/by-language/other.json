@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 26318,
-    "concepts": 22662,
-    "observations": 22734,
-    "repos": 5613,
-    "terms": 22604
+    "components": 26320,
+    "concepts": 22665,
+    "observations": 22737,
+    "repos": 5614,
+    "terms": 22608
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -2594,6 +2594,7 @@
     "HTTPArchive/almanac.httparchive.org",
     "httprb/http",
     "huawei-noah/Speech-Backbones",
+    "huggingface/community-events",
     "huggingface/optimum-intel",
     "huggingface/optimum-neuron",
     "huggingface/swift-coreml-diffusers",
@@ -4120,7 +4121,6 @@
     "OmniSharp/omnisharp-roslyn",
     "OmniSharp/omnisharp-vim",
     "omniti-labs/pg_jobmon",
-    "oneclick/rubyinstaller",
     "oneclick/rubyinstaller2",
     "oneflow-inc/docker-images",
     "ongardie/raft.tla",
@@ -5342,6 +5342,7 @@
     "v-iashin/v-iashin.github.io",
     "V13Axel/neotest-pest",
     "v2fly/v2ray-examples",
+    "Vaibhavs10/ml-with-audio",
     "vale-cli/alex",
     "vale-cli/Google",
     "vale-cli/Joblint",

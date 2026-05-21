@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 480,
-    "concepts": 504,
-    "observations": 507,
-    "repos": 50,
-    "terms": 493
+    "components": 567,
+    "concepts": 560,
+    "observations": 563,
+    "repos": 56,
+    "terms": 549
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "abiosoft/colima",
@@ -27,16 +27,20 @@
     "charmbracelet/lipgloss",
     "charmbracelet/vhs",
     "chromedp/chromedp",
+    "cli/cli",
     "containerd/containerd",
     "containerd/nerdctl",
     "containers/skopeo",
     "coreybutler/nvm-windows",
     "danielmiessler/fabric",
+    "dexidp/dex",
     "dgraph-io/badger",
     "direnv/direnv",
+    "docker/compose",
     "dolthub/dolt",
     "ent/ent",
     "evanw/esbuild",
+    "go-delve/delve",
     "google/cadvisor",
     "goreleaser/goreleaser",
     "hibiken/asynq",
@@ -53,6 +57,7 @@
     "microsoft/typescript-go",
     "Mrs4s/go-cqhttp",
     "nektos/act",
+    "opentofu/opentofu",
     "ory/hydra",
     "panjf2000/ants",
     "panjf2000/gnet",
@@ -61,6 +66,7 @@
     "shadow1ng/fscan",
     "slimtoolkit/slim",
     "stretchr/testify",
+    "trufflesecurity/trufflehog",
     "urfave/cli",
     "valyala/fasthttp",
     "wader/fq"

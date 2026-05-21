@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 217,
-    "concepts": 266,
-    "observations": 268,
-    "repos": 22,
-    "terms": 265
+    "components": 197,
+    "concepts": 274,
+    "observations": 276,
+    "repos": 21,
+    "terms": 274
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "axolotl-ai-cloud/axolotl",
     "Comfy-Org/ComfyUI-Manager",
-    "Dao-AILab/flash-attention",
     "deepspeedai/DeepSpeed",
     "fastapi/fastapi",
     "hiyouga/LlamaFactory",
+    "huggingface/pytorch-image-models",
     "huggingface/sentence-transformers",
     "jax-ml/jax",
     "Lightning-AI/pytorch-lightning",
@@ -32,7 +32,6 @@
     "psf/black",
     "pydantic/pydantic",
     "run-llama/llama_index",
-    "TEN-framework/ten-framework",
     "ungoogled-software/ungoogled-chromium",
     "verl-project/verl",
     "zhayujie/CowAgent"

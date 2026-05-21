@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 559,
-    "concepts": 432,
-    "observations": 432,
-    "repos": 121,
-    "terms": 450
+    "components": 568,
+    "concepts": 441,
+    "observations": 441,
+    "repos": 123,
+    "terms": 459
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "4dn-dcic/tibanna",
@@ -27,6 +27,7 @@
     "allenai/beaker-gantry",
     "allenai/scirepeval",
     "allenporter/python-google-nest-sdm",
+    "AMD-AGI/torchtitan-amd",
     "amyreese/fissix",
     "analyticsinmotion/werpy",
     "ankurhanda/robot-assets",
@@ -134,6 +135,7 @@
     "urschrei/pypolyline",
     "VisionXLab/Rise-Video",
     "w1ndys/ex-cure-skill",
-    "weaviate/agent-skills"
+    "weaviate/agent-skills",
+    "yaph/tts-samples"
   ]
 }

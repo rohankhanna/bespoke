@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 131,
-    "concepts": 128,
-    "observations": 129,
-    "repos": 14,
-    "terms": 128
+    "components": 141,
+    "concepts": 150,
+    "observations": 151,
+    "repos": 15,
+    "terms": 150
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "doctest/doctest",
-    "floooh/sokol",
     "free-audio/clap",
     "google/oboe",
     "harfbuzz/harfbuzz",
     "iree-org/iree",
+    "KhronosGroup/KTX-Software",
     "Mithril-mine/libmdbx",
     "PortAudio/portaudio",
     "pure-data/pure-data",
@@ -27,6 +27,7 @@
     "ufbx/ufbx",
     "ultrajson/ultrajson",
     "uxlfoundation/oneDNN",
-    "WarmUpTill/SceneSwitcher"
+    "WarmUpTill/SceneSwitcher",
+    "xtensor-stack/xtensor"
   ]
 }

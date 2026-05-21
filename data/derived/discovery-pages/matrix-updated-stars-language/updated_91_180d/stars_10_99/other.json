@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 398,
-    "concepts": 290,
-    "observations": 291,
-    "repos": 119,
-    "terms": 289
+    "components": 397,
+    "concepts": 289,
+    "observations": 290,
+    "repos": 118,
+    "terms": 288
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/termim.nvim",
@@ -84,7 +84,6 @@
     "JuliaGraphics/Cairo.jl",
     "JuliaGraphics/ColorTypes.jl",
     "JuliaGtk/Gtk4Makie.jl",
-    "JuliaLogging/ProgressLogging.jl",
     "kigster/puma-daemon",
     "kool-engine/kool-templates",
     "lambdaisland/kaocha-cljs",

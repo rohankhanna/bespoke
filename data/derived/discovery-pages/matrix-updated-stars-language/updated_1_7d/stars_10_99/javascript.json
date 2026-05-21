@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 67,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 4,
-    "terms": 2
+    "components": 31,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 3,
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "aidenlab/hic-straw",
-    "aidenlab/juicebox.js",
-    "storybook-community/addon-queryparams"
+    "aidenlab/juicebox.js"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 246,
-    "concepts": 220,
-    "observations": 220,
-    "repos": 53,
-    "terms": 220
+    "components": 255,
+    "concepts": 226,
+    "observations": 226,
+    "repos": 55,
+    "terms": 226
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "ada-url/ada-python",
     "ada-url/goada",
     "AFD-Illinois/iharm3d",
+    "agl/jbig2enc",
     "aifoundry-org/et-platform",
     "AIWintermuteAI/whispercpp",
     "ankane/stl-cpp",
@@ -56,6 +57,7 @@
     "mybigday/llama.node",
     "nvictus/pybbi",
     "nx10/unigd",
+    "openucx/xpmem",
     "proxy-wasm/proxy-wasm-cpp-host",
     "r-lyeh/Spectral",
     "ROCm/roctracer",

@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "0xDAEF0F/job-searchoor",
     "0xPolygon/pilcom",
@@ -270,7 +270,7 @@
     "tommasongr/nova-vue",
     "topojson/topojson-simplify",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "udacity/FEF-UdaciMeals-Backbone",
     "un-ts/toml-tools",
     "unlight/postcss-import-url",

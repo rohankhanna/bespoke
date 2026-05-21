@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Shell
 
-Generated at: `2026-05-15T07:48:48.712236+00:00`
+Generated at: `2026-05-21T12:29:26.648415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [nginx-le/nginx-le](https://github.com/nginx-le/nginx-le) | 685 | 2026-05-14T18:09:57Z | Shell | Infrastructure/tooling | 7 | 3 | 7 | 7 |
+| [nginx-le/nginx-le](https://github.com/nginx-le/nginx-le) | 686 | 2026-05-21T03:49:42Z | Shell | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [nginx-le/nginx-le](https://github.com/nginx-le/nginx-le) | 685 | 2026-05-14T18:09:57Z | Shell | Infrastructure/tooling | 7 | 3 | 7 | 7 |
+| [nginx-le/nginx-le](https://github.com/nginx-le/nginx-le) | 686 | 2026-05-21T03:49:42Z | Shell | Infrastructure/tooling | 7 | 3 | 7 | 7 |

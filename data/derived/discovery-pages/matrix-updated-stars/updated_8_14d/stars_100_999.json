@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1110,
-    "concepts": 497,
-    "observations": 498,
-    "repos": 70,
-    "terms": 493
+    "components": 1076,
+    "concepts": 479,
+    "observations": 480,
+    "repos": 68,
+    "terms": 475
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "aannoo/hcom",
@@ -22,6 +22,7 @@
     "andreykaipov/goobs",
     "apify/apify-cli",
     "apify/mcpc",
+    "appwrite/playground-for-web",
     "atsushieno/aap-core",
     "atsushieno/ktmidi",
     "attackgoat/vk-graph",
@@ -46,7 +47,7 @@
     "gbionics/jaxsim",
     "git-friendly/git-friendly",
     "GoogleCloudPlatform/google-cloud-node-todos",
-    "gookit/gcli",
+    "GStreamer/cerbero",
     "jupyter/nbclassic",
     "kelos-dev/kelos",
     "kiron1/bazel-compile-commands",
@@ -65,10 +66,8 @@
     "OpenHands/ToM-SWE",
     "openjdk/jdk17u",
     "preactjs/preact-devtools",
-    "pyOpenSci/software-submission",
     "Rel1cx/eslint-react",
     "rescript-lang/reanalyze",
-    "safe-fndn/safe-singleton-factory",
     "sass/sass-spec",
     "serversideup/webext-bridge",
     "skilld-dev/skilld",
@@ -77,7 +76,6 @@
     "TinyLLaVA/TinyLLaVA_Factory",
     "toml-lang/toml-test",
     "TypedDevs/bashunit",
-    "vale-cli/packages",
     "WICG/attribution-reporting-api",
     "xdebug/vscode-php-debug",
     "yaling888/quirktiva",

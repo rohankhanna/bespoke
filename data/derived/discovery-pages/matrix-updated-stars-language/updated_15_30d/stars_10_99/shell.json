@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 225,
-    "concepts": 235,
-    "observations": 238,
-    "repos": 49,
-    "terms": 232
+    "components": 213,
+    "concepts": 223,
+    "observations": 226,
+    "repos": 47,
+    "terms": 220
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "acmesh-official/acmetest",
     "AFLplusplus/cov-analysis",
@@ -45,7 +45,6 @@
     "iterate-ch/profiles",
     "leleliu008/ppkg",
     "milvus-io/milvus-proto",
-    "oneclick/rubyinstaller2-packages",
     "PF4Public/gentoo-overlay",
     "pkgxdev/mash",
     "postmodern/ruby-versions",
@@ -55,7 +54,6 @@
     "reviewdog/action-hadolint",
     "reviewdog/action-shfmt",
     "rocq-prover/docker-opam-action",
-    "sclorg/mariadb-container",
     "sclorg/s2i-perl-container",
     "sclorg/s2i-ruby-container",
     "stefantalpalaru/gentoo-overlay",

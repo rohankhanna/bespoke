@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 2195,
-    "concepts": 2983,
-    "observations": 2990,
-    "repos": 950,
-    "terms": 2966
+    "concepts": 2986,
+    "observations": 2993,
+    "repos": 952,
+    "terms": 2970
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -421,6 +421,7 @@
     "hrsh7th/vim-vsnip",
     "hrsh7th/vim-vsnip-integ",
     "huawei-noah/Speech-Backbones",
+    "huggingface/community-events",
     "hydescarf/Obsidian-Theme-Mado-Miniflow",
     "hyperledger-labs/yui-ibc-solidity",
     "hyperoslo/capistrano-foreman",
@@ -898,6 +899,7 @@
     "unlimblue/KNN_CUDA",
     "unsplash/comment-on-pr",
     "v-iashin/SpecVQGAN",
+    "Vaibhavs10/ml-with-audio",
     "vale-cli/Microsoft",
     "vapor/redis",
     "vasgaowei/TS-CAM",

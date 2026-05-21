@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-21T05:56:27.242167+00:00`
+Generated at: `2026-05-21T12:29:26.648415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 96
-- terms: 1079
-- components: 801
-- concepts: 1084
-- observations: 1088
+- repos: 92
+- terms: 1017
+- components: 767
+- concepts: 1022
+- observations: 1026
 
 ## Static behavior
 
@@ -118,10 +118,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [wolfpld/tracy](https://github.com/wolfpld/tracy) | 15694 | 2026-04-21T16:12:32Z | C/C++ | Infrastructure/tooling | 16 | 10 | 16 | 16 |
 | [apache/arrow](https://github.com/apache/arrow) | 16682 | 2026-04-21T14:56:22Z | C/C++ | Infrastructure/tooling | 11 | 12 | 11 | 11 |
 | [Immediate-Mode-UI/Nuklear](https://github.com/Immediate-Mode-UI/Nuklear) | 11076 | 2026-04-21T14:14:37Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
-| [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 46992 | 2026-04-21T11:35:12Z | C/C++ | CLI | 21 | 5 | 21 | 21 |
-| [alibaba/MNN](https://github.com/alibaba/MNN) | 14999 | 2026-04-21T11:31:53Z | C/C++ | Infrastructure/tooling | 14 | 10 | 14 | 14 |
-| [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) | 73653 | 2026-04-21T11:29:19Z | C/C++ | Infrastructure/tooling | 15 | 10 | 15 | 15 |
-| [openssl/openssl](https://github.com/openssl/openssl) | 30023 | 2026-04-21T08:57:15Z | C/C++ | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 
 ## Repos sorted by stars
 
@@ -130,11 +126,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bitcoin/bitcoin](https://github.com/bitcoin/bitcoin) | 88900 | 2026-04-22T23:20:06Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [opencv/opencv](https://github.com/opencv/opencv) | 87296 | 2026-04-30T06:10:01Z | C/C++ | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [redis/redis](https://github.com/redis/redis) | 73982 | 2026-04-23T12:46:48Z | C/C++ | Infrastructure/tooling | 26 | 14 | 27 | 27 |
-| [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) | 73653 | 2026-04-21T11:29:19Z | C/C++ | Infrastructure/tooling | 15 | 10 | 15 | 15 |
 | [ocornut/imgui](https://github.com/ocornut/imgui) | 72744 | 2026-04-22T12:50:21Z | C/C++ | Infrastructure/tooling | 16 | 1 | 16 | 16 |
 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 71182 | 2026-05-04T17:55:52Z | C/C++ | Infrastructure/tooling | 13 | 10 | 13 | 13 |
 | [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg) | 59393 | 2026-04-29T20:50:52Z | C/C++ | Unknown | 11 | 0 | 11 | 11 |
-| [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 46992 | 2026-04-21T11:35:12Z | C/C++ | CLI | 21 | 5 | 21 | 21 |
 | [grpc/grpc](https://github.com/grpc/grpc) | 44665 | 2026-04-24T08:03:06Z | C/C++ | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [dcloudio/uni-app](https://github.com/dcloudio/uni-app) | 41508 | 2026-04-30T13:02:14Z | C/C++ | Framework | 8 | 0 | 8 | 8 |
 | [curl/curl](https://github.com/curl/curl) | 41364 | 2026-04-22T21:42:17Z | C/C++ | CLI | 25 | 7 | 25 | 25 |
@@ -148,7 +142,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/WSL](https://github.com/microsoft/WSL) | 31958 | 2026-04-22T19:02:57Z | C/C++ | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [facebook/rocksdb](https://github.com/facebook/rocksdb) | 31629 | 2026-04-23T03:41:46Z | C/C++ | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [facebook/folly](https://github.com/facebook/folly) | 30338 | 2026-04-23T01:19:19Z | C/C++ | Infrastructure/tooling | 7 | 15 | 7 | 7 |
-| [openssl/openssl](https://github.com/openssl/openssl) | 30023 | 2026-04-21T08:57:15Z | C/C++ | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [asmvik/yabai](https://github.com/asmvik/yabai) | 28766 | 2026-04-26T13:41:19Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | 28330 | 2026-04-29T14:00:18Z | C/C++ | Infrastructure/tooling | 12 | 12 | 12 | 12 |
 | [mongodb/mongo](https://github.com/mongodb/mongo) | 28273 | 2026-04-30T04:16:30Z | C/C++ | Unknown | 4 | 7 | 4 | 4 |
@@ -188,7 +181,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [systemd/systemd](https://github.com/systemd/systemd) | 16239 | 2026-04-23T22:00:22Z | C/C++ | Infrastructure/tooling | 13 | 17 | 13 | 13 |
 | [wolfpld/tracy](https://github.com/wolfpld/tracy) | 15694 | 2026-04-21T16:12:32Z | C/C++ | Infrastructure/tooling | 16 | 10 | 16 | 16 |
 | [libsdl-org/SDL](https://github.com/libsdl-org/SDL) | 15518 | 2026-05-02T02:50:04Z | C/C++ | Infrastructure/tooling | 5 | 16 | 5 | 5 |
-| [alibaba/MNN](https://github.com/alibaba/MNN) | 14999 | 2026-04-21T11:31:53Z | C/C++ | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [davisking/dlib](https://github.com/davisking/dlib) | 14372 | 2026-04-25T16:13:49Z | C/C++ | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [winsiderss/systeminformer](https://github.com/winsiderss/systeminformer) | 14344 | 2026-04-30T18:49:17Z | C/C++ | Infrastructure/tooling | 23 | 8 | 23 | 23 |
 | [arangodb/arangodb](https://github.com/arangodb/arangodb) | 14151 | 2026-04-24T07:18:39Z | C/C++ | Model/data | 9 | 0 | 9 | 9 |

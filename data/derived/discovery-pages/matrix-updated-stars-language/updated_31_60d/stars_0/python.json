@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 40,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 23,
-    "terms": 46
+    "components": 47,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 24,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "aayushbhaskar/OpenCouncil",
     "adammes/voyanode",
     "bunburysniper/bleunova-ai-agent",
     "cdeust/cortex-know-when-to-stop-training-model",
+    "conda-forge/conda-forge-feedstock-ops",
     "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
     "danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",
     "danielrosehill/Red-Alert-Monitoring-Stack",

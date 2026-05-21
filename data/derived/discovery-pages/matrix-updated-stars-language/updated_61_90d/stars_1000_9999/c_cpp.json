@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 123,
-    "concepts": 233,
-    "observations": 234,
-    "repos": 43,
-    "terms": 227
+    "components": 114,
+    "concepts": 219,
+    "observations": 220,
+    "repos": 42,
+    "terms": 213
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "akheron/jansson",
@@ -52,7 +52,6 @@
     "stevengj/nlopt",
     "TheAssassin/AppImageLauncher",
     "tzapu/WiFiManager",
-    "UB-Mannheim/tesseract",
     "void-linux/xbps",
     "wang-xinyu/tensorrtx",
     "xlite-dev/lite.ai.toolkit",

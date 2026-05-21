@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 700,
-    "concepts": 478,
-    "observations": 488,
-    "repos": 109,
-    "terms": 484
+    "components": 720,
+    "concepts": 489,
+    "observations": 499,
+    "repos": 112,
+    "terms": 495
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "a1phyr/assets_manager",
@@ -29,8 +29,10 @@
     "Boddlnagg/midir",
     "cargo-lambda/cargo-lambda",
     "cedar-policy/cedar-examples",
+    "ChainSafe/forest",
     "cometbft/tendermint-rs",
     "containers/aardvark-dns",
+    "containers/netavark",
     "cosmos/ics23",
     "cpmech/russell",
     "crate-ci/committed",
@@ -68,6 +70,7 @@
     "getsentry/rust-sourcemap",
     "gimli-rs/addr2line",
     "gjtorikian/commonmarker",
+    "hellux/jotdown",
     "hniksic/rust-subprocess",
     "hsivonen/chardetng",
     "in-toto/attestation",

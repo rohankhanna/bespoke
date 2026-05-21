@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1004,
-    "concepts": 308,
-    "observations": 310,
-    "repos": 27,
-    "terms": 305
+    "components": 857,
+    "concepts": 291,
+    "observations": 293,
+    "repos": 25,
+    "terms": 288
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "2dust/v2rayN",
     "angular/angular",
@@ -19,7 +19,6 @@
     "avelino/awesome-go",
     "axios/axios",
     "excalidraw/excalidraw",
-    "facebook/react",
     "facebook/react-native",
     "fatedier/frp",
     "flutter/flutter",
@@ -31,7 +30,6 @@
     "microsoft/generative-ai-for-beginners",
     "microsoft/terminal",
     "microsoft/vscode",
-    "mrdoob/three.js",
     "open-webui/open-webui",
     "rust-lang/rust",
     "Significant-Gravitas/AutoGPT",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2886,
-    "concepts": 527,
-    "observations": 527,
-    "repos": 109,
-    "terms": 588
+    "components": 3065,
+    "concepts": 557,
+    "observations": 557,
+    "repos": 113,
+    "terms": 618
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
+    "1mcp-app/agent",
     "43081j/picoquery",
     "AbianS/docker-db-manager",
     "actions/container-toolkit-action",
@@ -97,8 +98,10 @@
     "NVIDIA/OpenShell-Community",
     "nyatinte/ccexp",
     "Obsidian-TTRPG-Community/initiative-tracker",
+    "octokit/webhooks",
     "OffchainLabs/arbitrum-sdk",
     "open-telemetry/opentelemetry-js-contrib",
+    "opendatalab/labelU-Kit",
     "ory/hydra-login-consent-node",
     "ory/kratos-selfservice-ui-node",
     "PanAeon/vscode-tmgrammar-test",
@@ -111,6 +114,7 @@
     "Shougo/dpp.vim",
     "Siubaak/sval",
     "snipeship/ccflare",
+    "Softeria/ms-365-mcp-server",
     "storybookjs/test-runner",
     "strands-agents/sdk-typescript",
     "timkindberg/jest-when",

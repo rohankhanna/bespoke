@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 6,
-    "terms": 38
+    "components": 44,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 5,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "apalache-mc/apalache",
     "bazel-contrib/rules_kotlin",
     "dwyl/quotes",
-    "karafka/rdkafka-ruby",
     "meshcat-dev/meshcat",
     "ROCm/hipBLASLt"
   ]

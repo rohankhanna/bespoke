@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 10394,
-    "concepts": 8899,
-    "observations": 8908,
+    "concepts": 8903,
+    "observations": 8912,
     "repos": 2315,
-    "terms": 8774
+    "terms": 8779
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -1506,6 +1506,7 @@
     "notofonts/noto-fonts",
     "NovaSky-AI/SkyThought",
     "novicezk/midjourney-proxy",
+    "npryce/adr-tools",
     "nrc/r4cppp",
     "nschloe/meshio",
     "nsf/termbox-go",
@@ -1569,7 +1570,6 @@
     "OmniSharp/omnisharp-vim",
     "ondyari/FaceForensics",
     "One-2-3-45/One-2-3-45",
-    "oneclick/rubyinstaller",
     "oneredoak/claude-code-workflows",
     "onnx/tutorials",
     "open-mmlab/mmagic",

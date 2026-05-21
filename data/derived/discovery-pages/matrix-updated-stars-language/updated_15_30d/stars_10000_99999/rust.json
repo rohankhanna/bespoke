@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1095,
-    "concepts": 823,
-    "observations": 824,
-    "repos": 67,
-    "terms": 814
+    "components": 1033,
+    "concepts": 794,
+    "observations": 795,
+    "repos": 65,
+    "terms": 785
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
@@ -31,7 +31,6 @@
     "facebook/flow",
     "firecracker-microvm/firecracker",
     "fish-shell/fish-shell",
-    "foundry-rs/foundry",
     "FuelLabs/fuel-core",
     "FuelLabs/sway",
     "getzola/zola",
@@ -46,7 +45,6 @@
     "hyperium/tonic",
     "iced-rs/iced",
     "influxdata/influxdb",
-    "jdx/mise",
     "jj-vcs/jj",
     "juspay/hyperswitch",
     "launchbadge/sqlx",

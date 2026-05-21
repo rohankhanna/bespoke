@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-21T05:56:27.242167+00:00`
+Generated at: `2026-05-21T12:29:26.648415+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 19
-- components: 35
-- concepts: 19
-- observations: 19
+- repos: 2
+- terms: 9
+- components: 10
+- concepts: 9
+- observations: 9
 
 ## Static behavior
 
@@ -27,13 +27,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [apache/brpc](https://github.com/apache/brpc) | 17509 | 2026-05-20T04:05:42Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 49934 | 2026-05-19T06:58:43Z | C/C++ | Infrastructure/tooling | 10 | 25 | 10 | 10 |
-| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14666 | 2026-05-16T13:00:00Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14670 | 2026-05-16T13:00:00Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 49934 | 2026-05-19T06:58:43Z | C/C++ | Infrastructure/tooling | 10 | 25 | 10 | 10 |
 | [apache/brpc](https://github.com/apache/brpc) | 17509 | 2026-05-20T04:05:42Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14666 | 2026-05-16T13:00:00Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14670 | 2026-05-16T13:00:00Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |

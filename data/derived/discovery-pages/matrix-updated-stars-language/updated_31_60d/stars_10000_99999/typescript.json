@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1903,
-    "concepts": 293,
-    "observations": 295,
-    "repos": 43,
-    "terms": 308
+    "components": 1974,
+    "concepts": 308,
+    "observations": 310,
+    "repos": 45,
+    "terms": 322
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "actions/starter-workflows",
     "airbnb/visx",
@@ -48,6 +48,8 @@
     "SBoudrias/Inquirer.js",
     "shareai-lab/learn-claude-code",
     "shikijs/shiki",
+    "sindresorhus/got",
+    "sindresorhus/ky",
     "slopus/happy",
     "tanweai/pua",
     "tobi/qmd",

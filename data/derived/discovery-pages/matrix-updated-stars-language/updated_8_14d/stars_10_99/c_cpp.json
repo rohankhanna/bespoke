@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 5,
-    "terms": 32
+    "components": 39,
+    "concepts": 39,
+    "observations": 40,
+    "repos": 6,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
+    "atsushieno/aap-juce",
     "atsushieno/aap-lv2",
     "atsushieno/uapmd",
     "erigontech/mdbx-go",

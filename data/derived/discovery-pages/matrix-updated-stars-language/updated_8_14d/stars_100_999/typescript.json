@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 741,
+    "components": 719,
     "concepts": 131,
     "observations": 131,
-    "repos": 16,
+    "repos": 15,
     "terms": 129
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "apify/apify-cli",
@@ -25,7 +25,6 @@
     "nurikk/zigbee2mqtt-frontend",
     "preactjs/preact-devtools",
     "Rel1cx/eslint-react",
-    "safe-fndn/safe-singleton-factory",
     "serversideup/webext-bridge",
     "skilld-dev/skilld",
     "xdebug/vscode-php-debug",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4520,
-    "concepts": 1007,
-    "observations": 1009,
-    "repos": 141,
-    "terms": 1000
+    "components": 4341,
+    "concepts": 977,
+    "observations": 979,
+    "repos": 137,
+    "terms": 970
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
-    "1mcp-app/agent",
     "abaplint/abaplint",
     "agentclientprotocol/typescript-sdk",
     "AgnosticUI/agnosticui",
@@ -113,9 +112,7 @@
     "octokit/graphql.js",
     "octokit/plugin-rest-endpoint-methods.js",
     "octokit/request.js",
-    "octokit/webhooks",
     "octokit/webhooks.js",
-    "opendatalab/labelU-Kit",
     "OpenZeppelin/openzeppelin-upgrades",
     "optuna/optuna-dashboard",
     "ory/docs",
@@ -133,7 +130,6 @@
     "sergiodxa/remix-i18next",
     "SkepticMystic/breadcrumbs",
     "smithy-lang/smithy-typescript",
-    "Softeria/ms-365-mcp-server",
     "sumup-oss/circuit-ui",
     "sveltejs/eslint-plugin-svelte",
     "sveltejs/svelte-eslint-parser",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4383,
-    "concepts": 922,
-    "observations": 924,
-    "repos": 129,
-    "terms": 1031
+    "components": 4518,
+    "concepts": 948,
+    "observations": 950,
+    "repos": 132,
+    "terms": 1057
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -39,7 +39,9 @@
     "butlerx/wetty",
     "capricorn86/happy-dom",
     "cawa-93/vite-electron-builder",
+    "ChainSafe/lodestar",
     "changesets/action",
+    "cloudflare/agents",
     "cloudflare/agents-starter",
     "coder/ghostty-web",
     "devcontainers/cli",
@@ -80,6 +82,7 @@
     "jupyter-lsp/jupyterlab-lsp",
     "Kaliiiiiiiiii-Vinyzu/patchright",
     "kirodotdev/Kiro",
+    "langchain-ai/deepagentsjs",
     "langchain-ai/langgraphjs",
     "LekoArts/gatsby-themes",
     "letta-ai/claude-subconscious",

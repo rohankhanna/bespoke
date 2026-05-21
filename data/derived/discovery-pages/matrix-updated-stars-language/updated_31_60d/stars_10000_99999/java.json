@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 70,
-    "observations": 70,
-    "repos": 8,
-    "terms": 70
+    "components": 48,
+    "concepts": 85,
+    "observations": 85,
+    "repos": 9,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "alibaba/spring-cloud-alibaba",
+    "bazelbuild/bazel",
     "google/auto",
     "google/guava",
     "Konloch/bytecode-viewer",

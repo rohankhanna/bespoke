@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 50230,
-    "concepts": 34730,
-    "observations": 34835,
-    "repos": 8557,
-    "terms": 34591
+    "components": 50242,
+    "concepts": 34752,
+    "observations": 34857,
+    "repos": 8562,
+    "terms": 34616
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-21T12:29:26.648415+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0k/shyaml",
@@ -1442,6 +1442,7 @@
     "bshall/acoustic-model",
     "bshall/hifigan",
     "bshall/hubert",
+    "bshall/knn-vc",
     "bshall/soft-vc",
     "bshoshany/OGRe",
     "bshuster-repo/logrus-logstash-hook",
@@ -2853,6 +2854,7 @@
     "evadne/etso",
     "evaera/moonwave",
     "evalstate/mcp-hfspace",
+    "evandempsey/podcast-llm",
     "evanmiller/hecate",
     "EvelynFan/FaceFormer",
     "evenchange4/graphql.macro",
@@ -3706,6 +3708,7 @@
     "haskell/parsec",
     "haskell/text",
     "haskell/vscode-haskell",
+    "hasscc/hass-edge-tts",
     "hassony2/manopth",
     "hassony2/obman",
     "hassony2/obman_train",
@@ -3883,6 +3886,7 @@
     "huaweicloud/huaweicloud-sdk-go-v3",
     "hudochenkov/postcss-sorting",
     "hudochenkov/stylelint-order",
+    "huggingface/community-events",
     "huggingface/controlnet_aux",
     "huggingface/diffusion-fast",
     "huggingface/flux-fast",
@@ -8069,6 +8073,7 @@
     "vacancy/Jacinle",
     "vacancy/PreciseRoIPooling",
     "vadimkantorov/caffemodel2pytorch",
+    "Vaibhavs10/ml-with-audio",
     "vale-cli/Microsoft",
     "vale-cli/packages",
     "valida-xyz/valida",
