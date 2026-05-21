@@ -485,7 +485,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T13:16:04.961181+00:00",
+  "fetched_at": "2026-05-21T01:51:24.294848+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -509,7 +509,7 @@
     },
     {
       "path": ".github/workflows/diff_shades_comment.yml",
-      "size": 2492
+      "size": 4382
     },
     {
       "path": ".github/workflows/docker.yml",
@@ -537,7 +537,7 @@
     "full_name": "psf/black",
     "html_url": "https://github.com/psf/black",
     "language": "Python",
-    "pushed_at": "2026-05-19T21:35:03Z",
+    "pushed_at": "2026-05-21T01:13:17Z",
     "stargazers_count": 41518,
     "topics": [
       "autopep8",
@@ -550,7 +550,7 @@
       "python",
       "yapf"
     ],
-    "updated_at": "2026-05-20T13:03:15Z"
+    "updated_at": "2026-05-21T01:13:22Z"
   },
   "repo_links": [],
   "terms": [

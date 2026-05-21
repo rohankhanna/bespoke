@@ -346,11 +346,17 @@
       "observed_at": "2026-05-20T13:09:20.758636+00:00",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml",
       "source_repo": "firebase/flutterfire"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-21T00:45:47.420998+00:00",
+      "source_file": ".github/workflows/e2e_tests_fdc.yaml",
+      "source_repo": "firebase/flutterfire"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T13:09:20.758636+00:00",
+  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -11,7 +11,7 @@
       "source_file": ".github/workflows/_build-image.yml"
     },
     {
-      "component": "docker/setup-buildx-action@v3",
+      "component": "docker/setup-buildx-action@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_build-image.yml"
     },
@@ -66,7 +66,7 @@
       "source_file": ".github/workflows/fe-e2e-tests.yml"
     },
     {
-      "component": "actions/setup-node@v4",
+      "component": "actions/setup-node@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/fe-e2e-tests.yml"
     },
@@ -81,7 +81,7 @@
       "source_file": ".github/workflows/fe-unit-tests.yml"
     },
     {
-      "component": "actions/setup-node@v4",
+      "component": "actions/setup-node@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/fe-unit-tests.yml"
     },
@@ -106,7 +106,7 @@
       "source_file": ".github/workflows/issue-duplicate-checker.yml"
     },
     {
-      "component": "actions/github-script@v7",
+      "component": "actions/github-script@v9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-duplicate-checker.yml"
     },
@@ -140,7 +140,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_build-image.yml",
       "source_repo": "OpenHands/OpenHands",
-      "target": "docker/setup-buildx-action@v3",
+      "target": "docker/setup-buildx-action@v4",
       "target_type": "component"
     },
     {
@@ -238,7 +238,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/fe-e2e-tests.yml",
       "source_repo": "OpenHands/OpenHands",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-node@v6",
       "target_type": "component"
     },
     {
@@ -266,7 +266,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/fe-unit-tests.yml",
       "source_repo": "OpenHands/OpenHands",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-node@v6",
       "target_type": "component"
     },
     {
@@ -308,7 +308,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-duplicate-checker.yml",
       "source_repo": "OpenHands/OpenHands",
-      "target": "actions/github-script@v7",
+      "target": "actions/github-script@v9",
       "target_type": "component"
     },
     {
@@ -347,7 +347,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T08:46:35.834610+00:00",
+  "fetched_at": "2026-05-21T01:03:40.645710+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -355,7 +355,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 7967
+      "size": 7965
     },
     {
       "path": ".github/workflows/_build-image.yml",
@@ -371,7 +371,7 @@
     },
     {
       "path": ".github/workflows/enterprise-check-migrations.yml",
-      "size": 1586
+      "size": 1706
     },
     {
       "path": ".github/workflows/fe-e2e-tests.yml",
@@ -383,11 +383,11 @@
     },
     {
       "path": ".github/workflows/ghcr-build.yml",
-      "size": 2237
+      "size": 2281
     },
     {
       "path": ".github/workflows/issue-duplicate-checker.yml",
-      "size": 21996
+      "size": 22088
     }
   ],
   "related_repositories": [],
@@ -399,8 +399,8 @@
     "full_name": "OpenHands/OpenHands",
     "html_url": "https://github.com/OpenHands/OpenHands",
     "language": "Python",
-    "pushed_at": "2026-05-20T05:09:43Z",
-    "stargazers_count": 74214,
+    "pushed_at": "2026-05-21T00:05:02Z",
+    "stargazers_count": 74283,
     "topics": [
       "agent",
       "artificial-intelligence",
@@ -412,7 +412,7 @@
       "llm",
       "openai"
     ],
-    "updated_at": "2026-05-20T08:46:20Z"
+    "updated_at": "2026-05-21T00:49:22Z"
   },
   "repo_links": [],
   "terms": [

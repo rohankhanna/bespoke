@@ -731,7 +731,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T08:37:41.875900+00:00",
+  "fetched_at": "2026-05-21T00:55:58.443019+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -743,11 +743,11 @@
     },
     {
       "path": ".github/workflows/build.yml",
-      "size": 9621
+      "size": 9577
     },
     {
       "path": ".github/workflows/codeql.yml",
-      "size": 1603
+      "size": 1600
     },
     {
       "path": ".github/workflows/dependencies.yml",
@@ -755,7 +755,7 @@
     },
     {
       "path": ".github/workflows/dev.yml",
-      "size": 2020
+      "size": 2043
     },
     {
       "path": ".github/workflows/dev_pr.yml",
@@ -763,15 +763,15 @@
     },
     {
       "path": ".github/workflows/docker.yml",
-      "size": 3466
+      "size": 3479
     },
     {
       "path": ".github/workflows/docs.yaml",
-      "size": 2344
+      "size": 2341
     },
     {
       "path": ".github/workflows/rust.yml",
-      "size": 11107
+      "size": 11123
     }
   ],
   "related_repositories": [],
@@ -783,7 +783,7 @@
     "full_name": "apache/datafusion-ballista",
     "html_url": "https://github.com/apache/datafusion-ballista",
     "language": "Rust",
-    "pushed_at": "2026-05-20T05:50:02Z",
+    "pushed_at": "2026-05-20T09:15:57Z",
     "stargazers_count": 2037,
     "topics": [
       "arrow",
@@ -796,7 +796,7 @@
       "rust",
       "sql"
     ],
-    "updated_at": "2026-05-20T08:02:55Z"
+    "updated_at": "2026-05-20T09:16:02Z"
   },
   "repo_links": [],
   "terms": [

@@ -13,14 +13,14 @@
     {
       "source_kind": "source-snippet",
       "status": "context-only",
-      "text": "![Project logo](/doc/img/logo/logo-color.png)"
+      "text": "Benchmark on self-hosted runners"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "status": "candidate",
-      "text": "![Project logo](/doc/img/logo/logo-color.png)"
+      "text": "Benchmark on self-hosted runners"
     }
   ],
   "candidate_primary_bucket": "tool-component",
@@ -48,9 +48,9 @@
   "normalized_form": "gpu-computing",
   "observation_id": "ea612ef71cfca3c8",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-20T13:09:20.758636+00:00",
+  "observed_at": "2026-05-21T00:45:47.420998+00:00",
   "observed_text": "gpu-computing",
-  "source_context_snippet": "![Project logo](/doc/img/logo/logo-color.png)",
+  "source_context_snippet": "Benchmark on self-hosted runners",
   "source_file": null,
   "source_repo": "AdaptiveCpp/AdaptiveCpp",
   "source_repo_description": "Compiler for multiple programming models (SYCL, C++ standard parallelism, HIP/CUDA) for CPUs and GPUs from all vendors: The independent, community-driven compiler for C++-based heterogeneous programming models. Lets applications adapt themselves to all the hardware in the system - even at runtime!"

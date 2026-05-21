@@ -119,7 +119,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T08:42:01.623691+00:00",
+  "fetched_at": "2026-05-21T00:59:41.245863+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -140,14 +140,14 @@
     "html_url": "https://github.com/ttlns/brotector",
     "language": "JavaScript",
     "pushed_at": "2024-12-03T14:33:39Z",
-    "stargazers_count": 280,
+    "stargazers_count": 281,
     "topics": [
       "antibot",
       "automation-detection",
       "bot-detection",
       "integrity-protection"
     ],
-    "updated_at": "2026-05-16T08:37:08Z"
+    "updated_at": "2026-05-20T16:46:17Z"
   },
   "repo_links": [
     {

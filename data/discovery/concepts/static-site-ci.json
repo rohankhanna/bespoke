@@ -442,11 +442,17 @@
       "observed_at": "2026-05-20T07:24:31.235161+00:00",
       "source_file": ".github/workflows/site.yml",
       "source_repo": "upptime/upptime"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-21T00:45:47.420998+00:00",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "upptime/upptime"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T07:24:31.235161+00:00",
+  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
   "lexical_providers": [
     "datamuse"
   ],

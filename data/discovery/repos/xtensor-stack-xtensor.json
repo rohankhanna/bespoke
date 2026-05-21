@@ -16,6 +16,21 @@
       "source_file": ".github/workflows/benchmarks.yml"
     },
     {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml"
+    },
+    {
       "component": "actions/checkout@v2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/gh-pages.yml"
@@ -118,6 +133,34 @@
       "source_file": ".github/workflows/benchmarks.yml",
       "source_repo": "xtensor-stack/xtensor",
       "target": "benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "xtensor-stack/xtensor",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "xtensor-stack/xtensor",
+      "target": "mamba-org/setup-micromamba@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "xtensor-stack/xtensor",
+      "target": "CodSpeedHQ/action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "xtensor-stack/xtensor",
+      "target": "CodSpeed",
       "target_type": "term"
     },
     {
@@ -310,15 +353,19 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T08:27:43.212663+00:00",
+  "fetched_at": "2026-05-21T00:47:17.620088+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 15239
+      "size": 15381
     },
     {
       "path": ".github/workflows/benchmarks.yml",
       "size": 3077
+    },
+    {
+      "path": ".github/workflows/codspeed.yml",
+      "size": 1161
     },
     {
       "path": ".github/workflows/gh-pages.yml",
@@ -354,7 +401,7 @@
     "full_name": "xtensor-stack/xtensor",
     "html_url": "https://github.com/xtensor-stack/xtensor",
     "language": "C++",
-    "pushed_at": "2026-05-19T11:38:02Z",
+    "pushed_at": "2026-05-20T09:38:48Z",
     "stargazers_count": 3733,
     "topics": [
       "c-plus-plus-14",
@@ -365,7 +412,7 @@
       "tensors",
       "xsimd-library"
     ],
-    "updated_at": "2026-05-19T06:34:00Z"
+    "updated_at": "2026-05-20T09:38:25Z"
   },
   "repo_links": [],
   "terms": [
@@ -374,6 +421,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/benchmarks.yml",
       "term": "benchmarks"
+    },
+    {
+      "context_snippet": "CodSpeed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codspeed.yml",
+      "term": "CodSpeed"
     },
     {
       "context_snippet": "gh-pages",

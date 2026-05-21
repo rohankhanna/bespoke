@@ -969,11 +969,17 @@
       "observed_at": "2026-05-20T18:55:10.976456+00:00",
       "source_file": null,
       "source_repo": "NVIDIA-Genomics-Research/GenomeWorks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T00:45:47.420998+00:00",
+      "source_file": null,
+      "source_repo": "layumi/Pedestrian_Alignment"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T18:55:10.976456+00:00",
+  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
   "lexical_providers": [
     "datamuse"
   ],

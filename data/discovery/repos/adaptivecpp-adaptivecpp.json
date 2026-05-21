@@ -158,13 +158,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "AdaptiveCpp/AdaptiveCpp",
-      "target": "illuhad/hipsycl",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmark-self-hosted.yml",
       "source_repo": "AdaptiveCpp/AdaptiveCpp",
@@ -459,12 +452,8 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T13:11:17.020792+00:00",
+  "fetched_at": "2026-05-21T01:48:19.428487+00:00",
   "fetched_files": [
-    {
-      "path": "README.md",
-      "size": 8497
-    },
     {
       "path": ".github/workflows/benchmark-self-hosted.yml",
       "size": 2260
@@ -483,7 +472,7 @@
     },
     {
       "path": ".github/workflows/linux-self-hosted.yml",
-      "size": 9332
+      "size": 9488
     },
     {
       "path": ".github/workflows/linux.yml",
@@ -511,8 +500,8 @@
     "full_name": "AdaptiveCpp/AdaptiveCpp",
     "html_url": "https://github.com/AdaptiveCpp/AdaptiveCpp",
     "language": "C++",
-    "pushed_at": "2026-05-19T22:18:02Z",
-    "stargazers_count": 1853,
+    "pushed_at": "2026-05-21T00:27:20Z",
+    "stargazers_count": 1855,
     "topics": [
       "adaptivecpp",
       "compiler",
@@ -526,15 +515,9 @@
       "stdpar",
       "sycl"
     ],
-    "updated_at": "2026-05-19T04:09:34Z"
+    "updated_at": "2026-05-21T00:27:25Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "illuhad/hipsycl",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Benchmark on self-hosted runners",
@@ -591,61 +574,61 @@
       "term": "macOS build"
     },
     {
-      "context_snippet": "![Project logo](/doc/img/logo/logo-color.png)",
+      "context_snippet": "Benchmark on self-hosted runners",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "adaptivecpp"
     },
     {
-      "context_snippet": "![Project logo](/doc/img/logo/logo-color.png)",
+      "context_snippet": "Benchmark on self-hosted runners",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "compiler"
     },
     {
-      "context_snippet": "![Project logo](/doc/img/logo/logo-color.png)",
+      "context_snippet": "Benchmark on self-hosted runners",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gpgpu"
     },
     {
-      "context_snippet": "![Project logo](/doc/img/logo/logo-color.png)",
+      "context_snippet": "Benchmark on self-hosted runners",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gpu-computing"
     },
     {
-      "context_snippet": "![Project logo](/doc/img/logo/logo-color.png)",
+      "context_snippet": "Benchmark on self-hosted runners",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "high-performance"
     },
     {
-      "context_snippet": "![Project logo](/doc/img/logo/logo-color.png)",
+      "context_snippet": "Benchmark on self-hosted runners",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "high-performance-computing"
     },
     {
-      "context_snippet": "![Project logo](/doc/img/logo/logo-color.png)",
+      "context_snippet": "Benchmark on self-hosted runners",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "hipsycl"
     },
     {
-      "context_snippet": "![Project logo](/doc/img/logo/logo-color.png)",
+      "context_snippet": "Benchmark on self-hosted runners",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "opensycl"
     },
     {
-      "context_snippet": "![Project logo](/doc/img/logo/logo-color.png)",
+      "context_snippet": "Benchmark on self-hosted runners",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "stdpar"
     },
     {
-      "context_snippet": "![Project logo](/doc/img/logo/logo-color.png)",
+      "context_snippet": "Benchmark on self-hosted runners",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "sycl"

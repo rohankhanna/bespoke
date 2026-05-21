@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c",
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "last_seen_at": "2026-05-20T13:09:20.758636+00:00",
+  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

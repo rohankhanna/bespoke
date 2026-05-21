@@ -30,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T08:39:21.355380+00:00",
+  "fetched_at": "2026-05-21T00:57:21.841496+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -47,14 +47,14 @@
     "html_url": "https://github.com/ROCm/hipBLAS",
     "language": "C++",
     "pushed_at": "2026-05-15T20:14:59Z",
-    "stargazers_count": 152,
+    "stargazers_count": 151,
     "topics": [
       "blas",
       "cuda",
       "hip",
       "rocm"
     ],
-    "updated_at": "2026-04-27T05:37:12Z"
+    "updated_at": "2026-05-20T23:13:29Z"
   },
   "repo_links": [
     {

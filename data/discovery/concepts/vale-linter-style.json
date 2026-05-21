@@ -1306,11 +1306,23 @@
       "observed_at": "2026-05-20T07:24:31.235161+00:00",
       "source_file": null,
       "source_repo": "vale-cli/Joblint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T00:45:47.420998+00:00",
+      "source_file": null,
+      "source_repo": "vale-cli/Microsoft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T00:45:47.420998+00:00",
+      "source_file": null,
+      "source_repo": "vale-cli/Google"
     }
   ],
   "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T07:24:31.235161+00:00",
+  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
   "lexical_providers": [
     "datamuse"
   ],

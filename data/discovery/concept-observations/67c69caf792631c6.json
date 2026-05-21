@@ -84,7 +84,7 @@
   "normalized_form": "regenerate-matlab-bindings",
   "observation_id": "67c69caf792631c6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-20T07:24:31.235161+00:00",
+  "observed_at": "2026-05-21T00:45:47.420998+00:00",
   "observed_text": "Regenerate MATLAB bindings",
   "source_context_snippet": "Regenerate MATLAB bindings",
   "source_file": ".github/workflows/regenerate-matlab-bindings.yml",

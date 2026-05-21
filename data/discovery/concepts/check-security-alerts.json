@@ -364,11 +364,17 @@
       "observed_at": "2026-05-20T13:09:20.758636+00:00",
       "source_file": ".github/workflows/check-security-alerts.yml",
       "source_repo": "DevExpress/testcafe-reporter-nunit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-21T00:45:47.420998+00:00",
+      "source_file": ".github/workflows/check-security-alerts.yml",
+      "source_repo": "DevExpress/testcafe-reporter-nunit"
     }
   ],
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T13:09:20.758636+00:00",
+  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
   "lexical_providers": [
     "datamuse"
   ],

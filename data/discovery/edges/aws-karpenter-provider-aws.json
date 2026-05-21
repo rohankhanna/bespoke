@@ -11,14 +11,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/approval-comment.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/approval-comment.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -32,7 +32,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-test.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -46,28 +46,28 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codegen.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codegen.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "aws-actions/configure-aws-credentials@61815dcd50bd041e203e49132bacad1fd04d2708",
+      "target": "aws-actions/configure-aws-credentials@d979d5b3a71173a29b74b5b88418bfda9437d885",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codegen.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -81,28 +81,28 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "github/codeql-action/init@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "target": "github/codeql-action/init@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "github/codeql-action/autobuild@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "target": "github/codeql-action/autobuild@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "github/codeql-action/analyze@cdefb33c0f6224e58673d9004f47f7cb3e328b89",
+      "target": "github/codeql-action/analyze@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
       "target_type": "component"
     },
     {
@@ -116,7 +116,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dryrun-gen-pr.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -130,14 +130,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dryrun-gen.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dryrun-gen.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "aws-actions/configure-aws-credentials@61815dcd50bd041e203e49132bacad1fd04d2708",
+      "target": "aws-actions/configure-aws-credentials@d979d5b3a71173a29b74b5b88418bfda9437d885",
       "target_type": "component"
     },
     {
@@ -151,14 +151,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-cleanup.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-cleanup.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "aws-actions/configure-aws-credentials@61815dcd50bd041e203e49132bacad1fd04d2708",
+      "target": "aws-actions/configure-aws-credentials@d979d5b3a71173a29b74b5b88418bfda9437d885",
       "target_type": "component"
     },
     {
@@ -169,6 +169,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-20T13:09:20.758636+00:00",
+  "generated_at": "2026-05-21T00:45:47.420998+00:00",
   "source_repo": "aws/karpenter-provider-aws"
 }

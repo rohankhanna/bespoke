@@ -347,47 +347,47 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T13:20:58.915855+00:00",
+  "fetched_at": "2026-05-21T01:54:30.015124+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 32321
+      "size": 32457
     },
     {
       "path": ".github/workflows/amd-mi200.yml",
-      "size": 2973
+      "size": 3011
     },
     {
       "path": ".github/workflows/aws-accelerate.yml",
-      "size": 3711
+      "size": 3745
     },
     {
       "path": ".github/workflows/aws-torch-latest-full.yml",
-      "size": 15641
+      "size": 15632
     },
     {
       "path": ".github/workflows/aws-torch-latest.yml",
-      "size": 3526
+      "size": 3564
     },
     {
       "path": ".github/workflows/cpu-torch-latest.yml",
-      "size": 7558
+      "size": 7598
     },
     {
       "path": ".github/workflows/formatting.yml",
-      "size": 904
+      "size": 945
     },
     {
       "path": ".github/workflows/hpu-gaudi2-nightly.yml",
-      "size": 2621
+      "size": 2663
     },
     {
       "path": ".github/workflows/hpu-gaudi2.yml",
-      "size": 4928
+      "size": 4962
     },
     {
       "path": ".github/workflows/modal-accelerate.yml",
-      "size": 3196
+      "size": 3227
     }
   ],
   "related_repositories": [],
@@ -399,8 +399,8 @@
     "full_name": "deepspeedai/DeepSpeed",
     "html_url": "https://github.com/deepspeedai/DeepSpeed",
     "language": "Python",
-    "pushed_at": "2026-05-20T10:08:17Z",
-    "stargazers_count": 42368,
+    "pushed_at": "2026-05-21T00:31:51Z",
+    "stargazers_count": 42372,
     "topics": [
       "billion-parameters",
       "compression",
@@ -416,7 +416,7 @@
       "trillion-parameters",
       "zero"
     ],
-    "updated_at": "2026-05-20T12:01:40Z"
+    "updated_at": "2026-05-21T01:49:08Z"
   },
   "repo_links": [
     {

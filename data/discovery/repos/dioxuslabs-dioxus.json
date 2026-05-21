@@ -343,46 +343,6 @@
     {
       "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/merge.yml"
-    },
-    {
-      "component": "korthout/backport-action@v3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/merge.yml"
-    },
-    {
-      "component": "actions/checkout@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/merge.yml"
-    },
-    {
-      "component": "dtolnay/rust-toolchain@nightly",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/merge.yml"
-    },
-    {
-      "component": "Swatinem/rust-cache@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/merge.yml"
-    },
-    {
-      "component": "JamesIves/github-pages-deploy-action@v4.7.3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/merge.yml"
-    },
-    {
-      "component": "actions/checkout@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/merge.yml"
-    },
-    {
-      "component": "codecov/codecov-action@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/merge.yml"
-    },
-    {
-      "component": "actions/checkout@v5",
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/promote.yml"
     },
     {
@@ -591,55 +551,6 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/merge.yml",
-      "source_repo": "DioxusLabs/dioxus",
-      "target": "actions/checkout@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/merge.yml",
-      "source_repo": "DioxusLabs/dioxus",
-      "target": "korthout/backport-action@v3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/merge.yml",
-      "source_repo": "DioxusLabs/dioxus",
-      "target": "dtolnay/rust-toolchain@nightly",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/merge.yml",
-      "source_repo": "DioxusLabs/dioxus",
-      "target": "Swatinem/rust-cache@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/merge.yml",
-      "source_repo": "DioxusLabs/dioxus",
-      "target": "JamesIves/github-pages-deploy-action@v4.7.3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/merge.yml",
-      "source_repo": "DioxusLabs/dioxus",
-      "target": "codecov/codecov-action@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/merge.yml",
-      "source_repo": "DioxusLabs/dioxus",
-      "target": "Backport merged pull request",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/promote.yml",
       "source_repo": "DioxusLabs/dioxus",
       "target": "actions/checkout@v5",
@@ -772,7 +683,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T13:32:54.130669+00:00",
+  "fetched_at": "2026-05-21T02:02:35.131816+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -785,10 +696,6 @@
     {
       "path": ".github/workflows/main.yml",
       "size": 27872
-    },
-    {
-      "path": ".github/workflows/merge.yml",
-      "size": 2908
     },
     {
       "path": ".github/workflows/promote.yml",
@@ -812,8 +719,8 @@
     "full_name": "DioxusLabs/dioxus",
     "html_url": "https://github.com/DioxusLabs/dioxus",
     "language": "Rust",
-    "pushed_at": "2026-05-19T21:53:17Z",
-    "stargazers_count": 36099,
+    "pushed_at": "2026-05-20T16:38:00Z",
+    "stargazers_count": 36100,
     "topics": [
       "android",
       "css",
@@ -829,7 +736,7 @@
       "wasm",
       "web"
     ],
-    "updated_at": "2026-05-20T13:09:19Z"
+    "updated_at": "2026-05-21T01:05:26Z"
   },
   "repo_links": [
     {
@@ -844,12 +751,6 @@
     }
   ],
   "terms": [
-    {
-      "context_snippet": "Backport merged pull request",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/merge.yml",
-      "term": "Backport merged pull request"
-    },
     {
       "context_snippet": "Promote main to stable branch",
       "edge_type": "workflow-name",
