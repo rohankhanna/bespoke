@@ -581,6 +581,18 @@
       "source_repo": "hackebrot/earth",
       "status": "candidate-context",
       "text": "Example Python project for my talk: [Customizing your pytest test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "souzatharsis/podcastfy",
+      "status": "candidate-context",
+      "text": "An Open Source Python alternative to NotebookLM's podcast feature: Transforming Multimodal Content into Captivating Multilingual Audio Conversations with GenAI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "souzatharsis/podcastfy",
+      "status": "candidate-context",
+      "text": "Pytest"
     }
   ],
   "candidate_glosses": [
@@ -871,6 +883,12 @@
       "source_repo": "hackebrot/earth",
       "status": "candidate",
       "text": "Example Python project for my talk: [Customizing your pytest test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "souzatharsis/podcastfy",
+      "status": "candidate",
+      "text": "Pytest"
     }
   ],
   "candidate_related_terms": [
@@ -3974,11 +3992,65 @@
       "observed_at": "2026-05-21T00:45:47.420998+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "google-deepmind/jmp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "souzatharsis/podcastfy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "verbiiyo/rigl-torch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/bsuite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "axelspringer/DeepPhonemizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/jmp"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "lexical_providers": [
     "datamuse"
   ],

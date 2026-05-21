@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vaibhavs10/ml-with-audio",
+      "target": "rhgrossman/pyctcdecode_demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vaibhavs10/ml-with-audio",
+      "target": "wenet-e2e/speech-recognition-papers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vaibhavs10/ml-with-audio",
+      "target": "xcmyz/speech-synthesis-paper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vaibhavs10/ml-with-audio",
+      "target": "digitalphonetics/ims-toucan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vaibhavs10/ml-with-audio",
+      "target": "huggingface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vaibhavs10/ml-with-audio",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vaibhavs10/ml-with-audio",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-21T12:10:32.227659+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5203
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "HF's ML for Audio study group",
+    "fork": false,
+    "full_name": "Vaibhavs10/ml-with-audio",
+    "html_url": "https://github.com/Vaibhavs10/ml-with-audio",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-02-27T13:54:43Z",
+    "stargazers_count": 203,
+    "topics": [
+      "huggingface",
+      "speech-recognition",
+      "speech-synthesis"
+    ],
+    "updated_at": "2026-04-30T15:37:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "digitalphonetics/ims-toucan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rhgrossman/pyctcdecode_demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wenet-e2e/speech-recognition-papers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xcmyz/speech-synthesis-paper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Welcome to the ML for Audio Study Group. Through a series of presentations, paper reading and discussions, we'll explore the field of applying Machine Learning in the Audio domain. Some examples of this are:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface"
+    },
+    {
+      "context_snippet": "Welcome to the ML for Audio Study Group. Through a series of presentations, paper reading and discussions, we'll explore the field of applying Machine Learning in the Audio domain. Some examples of this are:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "Welcome to the ML for Audio Study Group. Through a series of presentations, paper reading and discussions, we'll explore the field of applying Machine Learning in the Audio domain. Some examples of this are:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    }
+  ]
+}

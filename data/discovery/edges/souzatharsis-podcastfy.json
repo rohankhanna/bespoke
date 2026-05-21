@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "evandempsey/podcast-llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-pdf.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-pdf.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "openjournals/openjournals-draft-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-pdf.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-pdf.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-pdf.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "Draft PDF",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "Pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "elevenlabs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "genai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "notebooklm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "podcast",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-21T07:28:23.617453+00:00",
+  "source_repo": "souzatharsis/podcastfy"
+}

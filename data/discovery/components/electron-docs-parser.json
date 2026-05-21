@@ -1,7 +1,7 @@
 {
   "component": "@electron/docs-parser",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-05-20T18:55:10.976456+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

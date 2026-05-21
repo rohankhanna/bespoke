@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshall/knn-vc",
+      "target": "any-to-any",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshall/knn-vc",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshall/knn-vc",
+      "target": "self-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshall/knn-vc",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshall/knn-vc",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshall/knn-vc",
+      "target": "voice-conversion",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-21T07:28:23.617453+00:00",
+  "source_repo": "bshall/knn-vc"
+}

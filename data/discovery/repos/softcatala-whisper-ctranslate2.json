@@ -1,0 +1,225 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Softcatala/whisper-ctranslate2",
+      "target": "huggingface/community-events",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Softcatala/whisper-ctranslate2",
+      "target": "ggerganov/whisper.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Softcatala/whisper-ctranslate2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Softcatala/whisper-ctranslate2",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Softcatala/whisper-ctranslate2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "Softcatala/whisper-ctranslate2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "Softcatala/whisper-ctranslate2",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "Softcatala/whisper-ctranslate2",
+      "target": "Publish to GitHub Container Registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Softcatala/whisper-ctranslate2",
+      "target": "openai-",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Softcatala/whisper-ctranslate2",
+      "target": "openai-whisper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Softcatala/whisper-ctranslate2",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Softcatala/whisper-ctranslate2",
+      "target": "speech-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Softcatala/whisper-ctranslate2",
+      "target": "whisper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-21T07:48:45.527080+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7437
+    },
+    {
+      "path": "Dockerfile",
+      "size": 336
+    },
+    {
+      "path": "requirements.txt",
+      "size": 63
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2381
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 1202
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Whisper command line client compatible with original OpenAI client based on CTranslate2.",
+    "fork": false,
+    "full_name": "Softcatala/whisper-ctranslate2",
+    "html_url": "https://github.com/Softcatala/whisper-ctranslate2",
+    "language": "Python",
+    "pushed_at": "2026-02-14T19:16:02Z",
+    "stargazers_count": 1304,
+    "topics": [
+      "openai-",
+      "openai-whisper",
+      "speech-recognition",
+      "speech-to-text",
+      "whisper"
+    ],
+    "updated_at": "2026-05-20T16:50:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/whisper.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/community-events",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to GitHub Container Registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Publish to GitHub Container Registry"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://img.shields.io/pypi/v/whisper-ctranslate2.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/whisper-ctranslate2/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openai-"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://img.shields.io/pypi/v/whisper-ctranslate2.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/whisper-ctranslate2/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openai-whisper"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://img.shields.io/pypi/v/whisper-ctranslate2.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/whisper-ctranslate2/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://img.shields.io/pypi/v/whisper-ctranslate2.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/whisper-ctranslate2/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://img.shields.io/pypi/v/whisper-ctranslate2.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/whisper-ctranslate2/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whisper"
+    }
+  ]
+}

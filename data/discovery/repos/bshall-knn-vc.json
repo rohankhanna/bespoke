@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshall/knn-vc",
+      "target": "any-to-any",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshall/knn-vc",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshall/knn-vc",
+      "target": "self-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshall/knn-vc",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshall/knn-vc",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshall/knn-vc",
+      "target": "voice-conversion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-21T07:48:49.108836+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8593
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Voice Conversion With Just Nearest Neighbors",
+    "fork": false,
+    "full_name": "bshall/knn-vc",
+    "html_url": "https://github.com/bshall/knn-vc",
+    "language": "Python",
+    "pushed_at": "2026-01-16T18:16:04Z",
+    "stargazers_count": 515,
+    "topics": [
+      "any-to-any",
+      "knn",
+      "pytorch",
+      "self-supervised-learning",
+      "speech",
+      "speech-synthesis",
+      "voice-conversion"
+    ],
+    "updated_at": "2026-05-13T14:41:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The official code repo! This repo contains training and inference code for kNN-VC -- an any-to-any voice conversion model from our paper, \"Voice Conversion With Just k-Nearest Neighbors\". The trained checkpoints are available under the 'Releases' tab and through `torch.hub`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "any-to-any"
+    },
+    {
+      "context_snippet": "The official code repo! This repo contains training and inference code for kNN-VC -- an any-to-any voice conversion model from our paper, \"Voice Conversion With Just k-Nearest Neighbors\". The trained checkpoints are available under the 'Releases' tab and through `torch.hub`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "The official code repo! This repo contains training and inference code for kNN-VC -- an any-to-any voice conversion model from our paper, \"Voice Conversion With Just k-Nearest Neighbors\". The trained checkpoints are available under the 'Releases' tab and through `torch.hub`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised-learning"
+    },
+    {
+      "context_snippet": "The official code repo! This repo contains training and inference code for kNN-VC -- an any-to-any voice conversion model from our paper, \"Voice Conversion With Just k-Nearest Neighbors\". The trained checkpoints are available under the 'Releases' tab and through `torch.hub`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "The official code repo! This repo contains training and inference code for kNN-VC -- an any-to-any voice conversion model from our paper, \"Voice Conversion With Just k-Nearest Neighbors\". The trained checkpoints are available under the 'Releases' tab and through `torch.hub`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "The official code repo! This repo contains training and inference code for kNN-VC -- an any-to-any voice conversion model from our paper, \"Voice Conversion With Just k-Nearest Neighbors\". The trained checkpoints are available under the 'Releases' tab and through `torch.hub`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-conversion"
+    }
+  ]
+}

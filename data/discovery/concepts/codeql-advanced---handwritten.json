@@ -136,11 +136,17 @@
       "observed_at": "2026-05-21T00:45:47.420998+00:00",
       "source_file": ".github/workflows/codeql-handwritten.yml",
       "source_repo": "googleapis/google-cloud-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": ".github/workflows/codeql-handwritten.yml",
+      "source_repo": "googleapis/google-cloud-node"
     }
   ],
   "first_seen_at": "2026-05-14T18:43:37.154551+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "lexical_providers": [
     "datamuse"
   ],

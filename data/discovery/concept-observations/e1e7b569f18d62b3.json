@@ -84,7 +84,7 @@
   "normalized_form": "publish-homey-app",
   "observation_id": "e1e7b569f18d62b3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-20T18:55:10.976456+00:00",
+  "observed_at": "2026-05-21T07:28:23.617453+00:00",
   "observed_text": "Publish Homey App",
   "source_context_snippet": "Publish Homey App",
   "source_file": ".github/workflows/homey-app-publish.yml",

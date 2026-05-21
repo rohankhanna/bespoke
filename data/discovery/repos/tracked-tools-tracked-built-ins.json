@@ -101,31 +101,6 @@
       "source_file": ".github/workflows/CI.yml"
     },
     {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/plan-release.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/plan-release.yml"
-    },
-    {
-      "component": "pnpm/action-setup@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/plan-release.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/plan-release.yml"
-    },
-    {
-      "component": "peter-evans/create-pull-request@v7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/plan-release.yml"
-    },
-    {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml"
@@ -206,41 +181,6 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/plan-release.yml",
-      "source_repo": "tracked-tools/tracked-built-ins",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/plan-release.yml",
-      "source_repo": "tracked-tools/tracked-built-ins",
-      "target": "pnpm/action-setup@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/plan-release.yml",
-      "source_repo": "tracked-tools/tracked-built-ins",
-      "target": "actions/setup-node@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/plan-release.yml",
-      "source_repo": "tracked-tools/tracked-built-ins",
-      "target": "peter-evans/create-pull-request@v7",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/plan-release.yml",
-      "source_repo": "tracked-tools/tracked-built-ins",
-      "target": "Plan Release",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "tracked-tools/tracked-built-ins",
       "target": "actions/checkout@v6",
@@ -303,7 +243,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T13:20:20.229211+00:00",
+  "fetched_at": "2026-05-21T09:20:56.666520+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -316,10 +256,6 @@
     {
       "path": ".github/workflows/CI.yml",
       "size": 4340
-    },
-    {
-      "path": ".github/workflows/plan-release.yml",
-      "size": 3594
     },
     {
       "path": ".github/workflows/publish.yml",
@@ -352,12 +288,6 @@
     }
   ],
   "terms": [
-    {
-      "context_snippet": "Plan Release",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/plan-release.yml",
-      "term": "Plan Release"
-    },
     {
       "context_snippet": "Publish Stable",
       "edge_type": "workflow-name",

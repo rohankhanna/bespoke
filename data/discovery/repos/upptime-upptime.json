@@ -1,42 +1,42 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/graphs.yml"
     },
     {
-      "component": "upptime/uptime-monitor@v1.41.3",
+      "component": "upptime/uptime-monitor@v1.41.4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/graphs.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/response-time.yml"
     },
     {
-      "component": "upptime/uptime-monitor@v1.41.3",
+      "component": "upptime/uptime-monitor@v1.41.4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/response-time.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/setup.yml"
     },
     {
-      "component": "upptime/uptime-monitor@v1.41.3",
+      "component": "upptime/uptime-monitor@v1.41.4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/setup.yml"
     },
     {
-      "component": "upptime/uptime-monitor@v1.41.3",
+      "component": "upptime/uptime-monitor@v1.41.4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/setup.yml"
     },
     {
-      "component": "upptime/uptime-monitor@v1.41.3",
+      "component": "upptime/uptime-monitor@v1.41.4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/setup.yml"
     },
@@ -46,7 +46,7 @@
       "source_file": ".github/workflows/setup.yml"
     },
     {
-      "component": "upptime/uptime-monitor@v1.41.3",
+      "component": "upptime/uptime-monitor@v1.41.4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/setup.yml"
     },
@@ -56,12 +56,12 @@
       "source_file": ".github/workflows/setup.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/site.yml"
     },
     {
-      "component": "upptime/uptime-monitor@v1.41.3",
+      "component": "upptime/uptime-monitor@v1.41.4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/site.yml"
     },
@@ -71,17 +71,17 @@
       "source_file": ".github/workflows/site.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/summary.yml"
     },
     {
-      "component": "upptime/uptime-monitor@v1.41.3",
+      "component": "upptime/uptime-monitor@v1.41.4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/summary.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-template.yml"
     },
@@ -91,7 +91,7 @@
       "source_file": ".github/workflows/update-template.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/updates.yml"
     },
@@ -101,17 +101,24 @@
       "source_file": ".github/workflows/updates.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/uptime.yml"
     },
     {
-      "component": "upptime/uptime-monitor@v1.41.3",
+      "component": "upptime/uptime-monitor@v1.41.4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/uptime.yml"
     }
   ],
   "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "upptime/upptime",
+      "target": "topics/upptime",
+      "target_type": "repository"
+    },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
@@ -123,14 +130,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/graphs.yml",
       "source_repo": "upptime/upptime",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/graphs.yml",
       "source_repo": "upptime/upptime",
-      "target": "upptime/uptime-monitor@v1.41.3",
+      "target": "upptime/uptime-monitor@v1.41.4",
       "target_type": "component"
     },
     {
@@ -144,14 +151,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/response-time.yml",
       "source_repo": "upptime/upptime",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/response-time.yml",
       "source_repo": "upptime/upptime",
-      "target": "upptime/uptime-monitor@v1.41.3",
+      "target": "upptime/uptime-monitor@v1.41.4",
       "target_type": "component"
     },
     {
@@ -165,14 +172,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/setup.yml",
       "source_repo": "upptime/upptime",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/setup.yml",
       "source_repo": "upptime/upptime",
-      "target": "upptime/uptime-monitor@v1.41.3",
+      "target": "upptime/uptime-monitor@v1.41.4",
       "target_type": "component"
     },
     {
@@ -200,14 +207,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/site.yml",
       "source_repo": "upptime/upptime",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/site.yml",
       "source_repo": "upptime/upptime",
-      "target": "upptime/uptime-monitor@v1.41.3",
+      "target": "upptime/uptime-monitor@v1.41.4",
       "target_type": "component"
     },
     {
@@ -228,14 +235,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/summary.yml",
       "source_repo": "upptime/upptime",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/summary.yml",
       "source_repo": "upptime/upptime",
-      "target": "upptime/uptime-monitor@v1.41.3",
+      "target": "upptime/uptime-monitor@v1.41.4",
       "target_type": "component"
     },
     {
@@ -249,7 +256,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-template.yml",
       "source_repo": "upptime/upptime",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
@@ -270,7 +277,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/updates.yml",
       "source_repo": "upptime/upptime",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
@@ -291,14 +298,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/uptime.yml",
       "source_repo": "upptime/upptime",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/uptime.yml",
       "source_repo": "upptime/upptime",
-      "target": "upptime/uptime-monitor@v1.41.3",
+      "target": "upptime/uptime-monitor@v1.41.4",
       "target_type": "component"
     },
     {
@@ -351,7 +358,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T01:02:22.896878+00:00",
+  "fetched_at": "2026-05-21T11:01:21.236936+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -399,8 +406,8 @@
     "full_name": "upptime/upptime",
     "html_url": "https://github.com/upptime/upptime",
     "language": "Markdown",
-    "pushed_at": "2026-05-21T00:00:02Z",
-    "stargazers_count": 17035,
+    "pushed_at": "2026-05-21T09:08:27Z",
+    "stargazers_count": 17036,
     "topics": [
       "incidents-reports",
       "status",
@@ -409,12 +416,17 @@
       "uptime",
       "uptime-monitor"
     ],
-    "updated_at": "2026-05-21T00:00:07Z"
+    "updated_at": "2026-05-21T09:08:30Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "koj-co/upptime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "topics/upptime",
       "source_file": "README.md"
     }
   ],

@@ -31,6 +31,12 @@
       "source_repo": "PlayVoice/vits_chinese",
       "status": "candidate-context",
       "text": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlayVoice/vits_chinese",
+      "status": "candidate-context",
+      "text": "torch==1.9.0 Cython transformers tensorboard WeTextProcessing"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +51,12 @@
       "source_repo": "PlayVoice/vits_chinese",
       "status": "candidate",
       "text": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlayVoice/vits_chinese",
+      "status": "candidate",
+      "text": "torch==1.9.0 Cython transformers tensorboard WeTextProcessing"
     }
   ],
   "candidate_related_terms": [],
@@ -424,11 +436,17 @@
       "observed_at": "2026-05-21T00:45:47.420998+00:00",
       "source_file": null,
       "source_repo": "PlayVoice/vits_chinese"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/vits_chinese"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "lexical_providers": [
     "datamuse"
   ],

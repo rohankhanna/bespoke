@@ -751,6 +751,30 @@
       "source_repo": "rany2/edge-tts",
       "status": "candidate-context",
       "text": "`edge-tts` is a Python module that allows you to use Microsoft Edge's online text-to-speech service from within your Python code or using the provided `edge-tts` or `edge-playback` command."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bshall/knn-vc",
+      "status": "candidate-context",
+      "text": "Voice Conversion With Just Nearest Neighbors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bshall/knn-vc",
+      "status": "candidate-context",
+      "text": "The official code repo! This repo contains training and inference code for kNN-VC -- an any-to-any voice conversion model from our paper, \"Voice Conversion With Just k-Nearest Neighbors\". The trained checkpoints are available under the 'Releases' tab and through `torch.hub`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vaibhavs10/ml-with-audio",
+      "status": "candidate-context",
+      "text": "HF's ML for Audio study group"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vaibhavs10/ml-with-audio",
+      "status": "candidate-context",
+      "text": "Welcome to the ML for Audio Study Group. Through a series of presentations, paper reading and discussions, we'll explore the field of applying Machine Learning in the Audio domain. Some examples of this are:"
     }
   ],
   "candidate_glosses": [
@@ -1125,6 +1149,18 @@
       "source_repo": "rany2/edge-tts",
       "status": "candidate",
       "text": "`edge-tts` is a Python module that allows you to use Microsoft Edge's online text-to-speech service from within your Python code or using the provided `edge-tts` or `edge-playback` command."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bshall/knn-vc",
+      "status": "candidate",
+      "text": "The official code repo! This repo contains training and inference code for kNN-VC -- an any-to-any voice conversion model from our paper, \"Voice Conversion With Just k-Nearest Neighbors\". The trained checkpoints are available under the 'Releases' tab and through `torch.hub`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vaibhavs10/ml-with-audio",
+      "status": "candidate",
+      "text": "Welcome to the ML for Audio Study Group. Through a series of presentations, paper reading and discussions, we'll explore the field of applying Machine Learning in the Audio domain. Some examples of this are:"
     }
   ],
   "candidate_related_terms": [],
@@ -2416,11 +2452,47 @@
       "observed_at": "2026-05-21T00:45:47.420998+00:00",
       "source_file": null,
       "source_repo": "modelscope/FunCodec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/VI-SVS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "Adibian/ResGrad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "bshall/knn-vc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunCodec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "Vaibhavs10/ml-with-audio"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "lexical_providers": [
     "datamuse"
   ],

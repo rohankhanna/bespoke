@@ -84,7 +84,7 @@
   "normalized_form": "pull-requests",
   "observation_id": "1e02cf85b55a71a1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-20T18:55:10.976456+00:00",
+  "observed_at": "2026-05-21T07:28:23.617453+00:00",
   "observed_text": "Pull Requests",
   "source_context_snippet": "Pull Requests",
   "source_file": ".github/workflows/pr.yml",

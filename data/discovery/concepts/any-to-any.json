@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "any-to-any"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bshall/knn-vc",
+      "status": "candidate-context",
+      "text": "Voice Conversion With Just Nearest Neighbors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bshall/knn-vc",
+      "status": "candidate-context",
+      "text": "The official code repo! This repo contains training and inference code for kNN-VC -- an any-to-any voice conversion model from our paper, \"Voice Conversion With Just k-Nearest Neighbors\". The trained checkpoints are available under the 'Releases' tab and through `torch.hub`."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bshall/knn-vc",
+      "status": "candidate",
+      "text": "The official code repo! This repo contains training and inference code for kNN-VC -- an any-to-any voice conversion model from our paper, \"Voice Conversion With Just k-Nearest Neighbors\". The trained checkpoints are available under the 'Releases' tab and through `torch.hub`."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "any-to-any",
+  "concept_id": "any-to-any",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "bshall/knn-vc"
+    }
+  ],
+  "first_seen_at": "2026-05-21T07:28:23.617453+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "any-to-any",
+      "sense_id": "any-to-any#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

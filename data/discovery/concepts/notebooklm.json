@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "notebooklm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "souzatharsis/podcastfy",
+      "status": "candidate-context",
+      "text": "An Open Source Python alternative to NotebookLM's podcast feature: Transforming Multimodal Content into Captivating Multilingual Audio Conversations with GenAI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "souzatharsis/podcastfy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evandempsey/podcast-llm",
+      "status": "candidate-context",
+      "text": "Automatically generate engaging AI podcasts from nothing but an episode title."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evandempsey/podcast-llm",
+      "status": "candidate-context",
+      "text": "![Tests](https://github.com/evandempsey/podcast-llm/actions/workflows/pytest.yml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "souzatharsis/podcastfy",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evandempsey/podcast-llm",
+      "status": "candidate",
+      "text": "![Tests](https://github.com/evandempsey/podcast-llm/actions/workflows/pytest.yml/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "notebooklm",
+  "concept_id": "notebooklm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "souzatharsis/podcastfy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "evandempsey/podcast-llm"
+    }
+  ],
+  "first_seen_at": "2026-05-21T07:28:23.617453+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "notebooklm",
+      "sense_id": "notebooklm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

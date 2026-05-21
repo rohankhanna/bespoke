@@ -91,6 +91,18 @@
       "source_repo": "danielrosehill/donetick-mcp",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/donetick-mcp)](https://pypi.org/project/donetick-mcp/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hasscc/hass-edge-tts",
+      "status": "candidate-context",
+      "text": "\ud83d\udde3\ufe0f Microsoft Edge TTS for Home Assistant, no need for app_key"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hasscc/hass-edge-tts",
+      "status": "candidate-context",
+      "text": "This component is based on the TTS service of Microsoft Edge browser, no need to apply for `app_key`."
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "danielrosehill/donetick-mcp",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/donetick-mcp)](https://pypi.org/project/donetick-mcp/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hasscc/hass-edge-tts",
+      "status": "candidate",
+      "text": "This component is based on the TTS service of Microsoft Edge browser, no need to apply for `app_key`."
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +208,17 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/donetick-mcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "hasscc/hass-edge-tts"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "lexical_providers": [
     "datamuse"
   ],

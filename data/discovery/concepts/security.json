@@ -6553,11 +6553,53 @@
       "observed_at": "2026-05-21T00:45:47.420998+00:00",
       "source_file": null,
       "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "w3c/trusted-types"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "GuyKh/ims-custom-component"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "hasscc/hass-edge-tts"
     }
   ],
   "term": "custom-component"

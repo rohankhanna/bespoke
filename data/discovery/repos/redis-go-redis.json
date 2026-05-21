@@ -294,7 +294,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T19:24:45.332912+00:00",
+  "fetched_at": "2026-05-21T12:18:06.817611+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -306,7 +306,7 @@
     },
     {
       "path": ".github/workflows/build.yml",
-      "size": 2973
+      "size": 2991
     },
     {
       "path": ".github/workflows/codeql-analysis.yml",
@@ -314,7 +314,7 @@
     },
     {
       "path": ".github/workflows/doctests.yaml",
-      "size": 817
+      "size": 835
     },
     {
       "path": ".github/workflows/golangci-lint.yml",
@@ -346,8 +346,8 @@
     "full_name": "redis/go-redis",
     "html_url": "https://github.com/redis/go-redis",
     "language": "Go",
-    "pushed_at": "2026-05-20T15:50:04Z",
-    "stargazers_count": 22101,
+    "pushed_at": "2026-05-21T11:19:00Z",
+    "stargazers_count": 22104,
     "topics": [
       "go",
       "golang",
@@ -355,7 +355,7 @@
       "redis-client",
       "redis-cluster"
     ],
-    "updated_at": "2026-05-20T14:38:41Z"
+    "updated_at": "2026-05-21T11:18:40Z"
   },
   "repo_links": [],
   "terms": [

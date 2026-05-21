@@ -3629,6 +3629,9 @@
     "en-article_or_determiner-any",
     "en-quantifier-any"
   ],
+  "any-to-any": [
+    "any-to-any"
+  ],
   "anybody": [
     "en-pronoun-anybody"
   ],
@@ -4381,6 +4384,9 @@
   ],
   "architecture tests": [
     "architecture-tests"
+  ],
+  "architecture-decision-records": [
+    "architecture-decision-records"
   ],
   "architecture-description-language": [
     "architecture-description-language"
@@ -34069,6 +34075,9 @@
   "edge-tpu": [
     "edge-tpu"
   ],
+  "edge-tts": [
+    "edge-tts"
+  ],
   "edgeadm": [
     "edgeadm"
   ],
@@ -34409,6 +34418,9 @@
   ],
   "elementwise": [
     "elementwise"
+  ],
+  "elevenlabs": [
+    "elevenlabs"
   ],
   "eleventy": [
     "eleventy"
@@ -59064,6 +59076,9 @@
   "mp3-decoder": [
     "mp3-decoder"
   ],
+  "mp3-files": [
+    "mp3-files"
+  ],
   "mp4box": [
     "mp4box"
   ],
@@ -62224,6 +62239,9 @@
   "notebook-jupyter": [
     "notebook-jupyter"
   ],
+  "notebooklm": [
+    "notebooklm"
+  ],
   "notebooks": [
     "notebooks"
   ],
@@ -63969,6 +63987,9 @@
   "openacc": [
     "openacc"
   ],
+  "openai-": [
+    "openai"
+  ],
   "openai-agents": [
     "openai-agents"
   ],
@@ -64004,6 +64025,9 @@
   ],
   "openai-whisper": [
     "openai-whisper"
+  ],
+  "openai-whisper-translation": [
+    "openai-whisper-translation"
   ],
   "openair": [
     "openair"
@@ -71477,6 +71501,9 @@
   ],
   "publish to github": [
     "publish-to-github"
+  ],
+  "publish to github container registry": [
+    "publish-to-github-container-registry"
   ],
   "publish to github packages": [
     "publish-to-github-packages"
@@ -83459,6 +83486,9 @@
   "sound-processing": [
     "sound-processing"
   ],
+  "sound-samples": [
+    "sound-samples"
+  ],
   "soundex": [
     "soundex"
   ],
@@ -83968,6 +83998,9 @@
   ],
   "speech-representation": [
     "speech-representation"
+  ],
+  "speech-samples": [
+    "speech-samples"
   ],
   "speech-separation": [
     "speech-separation"
@@ -99072,6 +99105,9 @@
   "whisper": [
     "whisper"
   ],
+  "whisper-ai": [
+    "whisper-ai"
+  ],
   "whisper-android": [
     "whisper-android"
   ],
@@ -100800,6 +100836,9 @@
   ],
   "zero-shot-transfer": [
     "zero-shot-transfer"
+  ],
+  "zero-shot-tts": [
+    "zero-shot-tts"
   ],
   "zero-trust": [
     "zero-trust"

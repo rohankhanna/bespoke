@@ -366,6 +366,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "@lobechat/business-model-bank",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "@lobechat/business-model-runtime",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
@@ -1696,11 +1701,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "husky",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "import-in-the-middle",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -1927,6 +1927,13 @@
     }
   ],
   "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobehub",
+      "target": "actions/workflows",
+      "target_type": "repository"
+    },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
@@ -2443,6 +2450,13 @@
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
       "target": "@lobechat/business-const",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobehub",
+      "target": "@lobechat/business-model-bank",
       "target_type": "component"
     },
     {
@@ -4311,13 +4325,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
-      "target": "husky",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "lobehub/lobehub",
       "target": "import-in-the-middle",
       "target_type": "component"
     },
@@ -4735,7 +4742,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T08:44:36.424749+00:00",
+  "fetched_at": "2026-05-21T09:02:20.879581+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -4743,11 +4750,11 @@
     },
     {
       "path": "Dockerfile",
-      "size": 11472
+      "size": 11500
     },
     {
       "path": "package.json",
-      "size": 22875
+      "size": 22934
     },
     {
       "path": ".github/workflows/auto-i18n.yml",
@@ -4787,8 +4794,8 @@
     "full_name": "lobehub/lobehub",
     "html_url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
-    "pushed_at": "2026-05-20T08:39:06Z",
-    "stargazers_count": 77384,
+    "pushed_at": "2026-05-21T08:54:48Z",
+    "stargazers_count": 77466,
     "topics": [
       "agent",
       "agent-collaboration",
@@ -4806,9 +4813,14 @@
       "openai",
       "skills"
     ],
-    "updated_at": "2026-05-20T08:38:37Z"
+    "updated_at": "2026-05-21T08:57:05Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "actions/workflows",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "lobehub/lobe-commit",

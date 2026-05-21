@@ -1,0 +1,327 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-pdf.yml"
+    },
+    {
+      "component": "openjournals/openjournals-draft-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-pdf.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-pdf.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-pdf.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "evandempsey/podcast-llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-pdf.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-pdf.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "openjournals/openjournals-draft-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-pdf.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-pdf.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-pdf.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "Draft PDF",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "Pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "elevenlabs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "genai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "notebooklm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "souzatharsis/podcastfy",
+      "target": "podcast",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-21T07:49:01.671420+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10725
+    },
+    {
+      "path": "Dockerfile",
+      "size": 998
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1600
+    },
+    {
+      "path": "requirements.txt",
+      "size": 13460
+    },
+    {
+      "path": ".github/workflows/docker-publish.yml",
+      "size": 2677
+    },
+    {
+      "path": ".github/workflows/draft-pdf.yml",
+      "size": 1215
+    },
+    {
+      "path": ".github/workflows/python-app.yml",
+      "size": 2587
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Open Source Python alternative to NotebookLM's podcast feature: Transforming Multimodal Content into Captivating Multilingual Audio Conversations with GenAI",
+    "fork": false,
+    "full_name": "souzatharsis/podcastfy",
+    "html_url": "https://github.com/souzatharsis/podcastfy",
+    "language": "Python",
+    "pushed_at": "2026-05-04T14:49:10Z",
+    "stargazers_count": 6302,
+    "topics": [
+      "elevenlabs",
+      "gemini",
+      "genai",
+      "notebooklm",
+      "openai",
+      "podcast"
+    ],
+    "updated_at": "2026-05-21T01:17:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evandempsey/podcast-llm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "term": "Docker"
+    },
+    {
+      "context_snippet": "Draft PDF",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-pdf.yml",
+      "term": "Draft PDF"
+    },
+    {
+      "context_snippet": "Pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-app.yml",
+      "term": "Pytest"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elevenlabs"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notebooklm"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "podcast"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "npryce/adr-tools",
+      "target": "architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "npryce/adr-tools",
+      "target": "architecture-decision-records",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "npryce/adr-tools",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "npryce/adr-tools",
+      "target": "markdown",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-21T07:49:10.031952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1832
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Command-line tools for working with Architecture Decision Records",
+    "fork": false,
+    "full_name": "npryce/adr-tools",
+    "html_url": "https://github.com/npryce/adr-tools",
+    "language": "Shell",
+    "pushed_at": "2024-04-25T18:22:02Z",
+    "stargazers_count": 5465,
+    "topics": [
+      "architecture",
+      "architecture-decision-records",
+      "documentation",
+      "markdown"
+    ],
+    "updated_at": "2026-05-20T06:40:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ADR Tools",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "architecture"
+    },
+    {
+      "context_snippet": "ADR Tools",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "architecture-decision-records"
+    },
+    {
+      "context_snippet": "ADR Tools",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "ADR Tools",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`speaches` is an OpenAI API-compatible server supporting streaming transcription, translation, and speech generation. Speach-to-Text is powered by [faster-whisper](https://github.com/SYSTRAN/faster-whisper) and for Text-to-Speech [piper](https://github.com/rhasspy/piper) and [Ko\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`speaches` is an OpenAI API-compatible server supporting streaming transcription, translation, and speech generation. Speach-to-Text is powered by [faster-whisper](https://github.com/SYSTRAN/faster-whisper) and for Text-to-Speech [piper](https://github.com/rhasspy/piper) and [Ko\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "faster-whisper",
+      "sense_id": "faster-whisper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "faster-whisper",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "faster-whisper",
+  "observation_id": "ff73729e47cb0073",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-21T07:28:23.617453+00:00",
+  "observed_text": "faster-whisper",
+  "source_context_snippet": "`speaches` is an OpenAI API-compatible server supporting streaming transcription, translation, and speech generation. Speach-to-Text is powered by [faster-whisper](https://github.com/SYSTRAN/faster-whisper) and for Text-to-Speech [piper](https://github.com/rhasspy/piper) and [Ko\u2026",
+  "source_file": null,
+  "source_repo": "speaches-ai/speaches",
+  "source_repo_description": null
+}

@@ -422,7 +422,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T01:50:31.064167+00:00",
+  "fetched_at": "2026-05-21T11:08:54.895933+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -430,7 +430,7 @@
     },
     {
       "path": "package.json",
-      "size": 1523
+      "size": 1567
     },
     {
       "path": ".github/workflows/codeql-analysis.yml",
@@ -458,10 +458,10 @@
     "full_name": "windsonR/vite-plugin-virtual-html",
     "html_url": "https://github.com/windsonR/vite-plugin-virtual-html",
     "language": "TypeScript",
-    "pushed_at": "2026-02-13T01:36:25Z",
+    "pushed_at": "2026-05-21T07:38:07Z",
     "stargazers_count": 72,
     "topics": [],
-    "updated_at": "2026-03-30T02:23:12Z"
+    "updated_at": "2026-05-21T07:38:11Z"
   },
   "repo_links": [
     {

@@ -451,6 +451,18 @@
       "source_repo": "amirbarda/MagicClay",
       "status": "candidate-context",
       "text": "[Project Page](https://amirbarda.github.io/MagicClay.github.io/) | [Paper](https://arxiv.org/pdf/2403.02460.pdf) |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "souzatharsis/podcastfy",
+      "status": "candidate-context",
+      "text": "An Open Source Python alternative to NotebookLM's podcast feature: Transforming Multimodal Content into Captivating Multilingual Audio Conversations with GenAI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "souzatharsis/podcastfy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -675,6 +687,12 @@
       "source_repo": "amirbarda/MagicClay",
       "status": "candidate",
       "text": "[Project Page](https://amirbarda.github.io/MagicClay.github.io/) | [Paper](https://arxiv.org/pdf/2403.02460.pdf) |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "souzatharsis/podcastfy",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1996,11 +2014,35 @@
       "observed_at": "2026-05-21T00:45:47.420998+00:00",
       "source_file": null,
       "source_repo": "clearml/clearml-fractional-gpu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "souzatharsis/podcastfy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "amirbarda/MagicClay"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-fractional-gpu"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "lexical_providers": [
     "datamuse"
   ],

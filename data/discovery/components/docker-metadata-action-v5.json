@@ -1,7 +1,7 @@
 {
   "component": "docker/metadata-action@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1087,6 +1087,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker.yaml",
       "source_repo": "atuinsh/atuin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "souzatharsis/podcastfy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-and-push.yaml",
+      "source_repo": "speaches-ai/speaches"
     }
   ]
 }

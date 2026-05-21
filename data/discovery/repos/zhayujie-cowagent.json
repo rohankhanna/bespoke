@@ -211,6 +211,13 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "zhayujie/CowAgent",
+      "target": "harness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent",
       "target": "kimi",
       "target_type": "term"
     },
@@ -262,16 +269,9 @@
       "source_repo": "zhayujie/CowAgent",
       "target": "wechat",
       "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "zhayujie/CowAgent",
-      "target": "weixin",
-      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T01:52:49.351787+00:00",
+  "fetched_at": "2026-05-21T11:13:29.528267+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -307,8 +307,8 @@
     "full_name": "zhayujie/CowAgent",
     "html_url": "https://github.com/zhayujie/CowAgent",
     "language": "Python",
-    "pushed_at": "2026-05-20T14:36:57Z",
-    "stargazers_count": 44654,
+    "pushed_at": "2026-05-21T09:33:43Z",
+    "stargazers_count": 44675,
     "topics": [
       "ai",
       "ai-agent",
@@ -318,6 +318,7 @@
       "dingtalk",
       "feishu-bot",
       "gemini",
+      "harness",
       "kimi",
       "linkai",
       "llm",
@@ -328,10 +329,9 @@
       "python3",
       "qwen",
       "skills",
-      "wechat",
-      "weixin"
+      "wechat"
     ],
-    "updated_at": "2026-05-21T01:46:38Z"
+    "updated_at": "2026-05-21T10:59:55Z"
   },
   "repo_links": [
     {
@@ -387,6 +387,12 @@
       "context_snippet": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"550\" /></p>",
       "edge_type": "repo-topic",
       "source_file": null,
+      "term": "harness"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"550\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
       "term": "kimi"
     },
     {
@@ -430,12 +436,6 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "wechat"
-    },
-    {
-      "context_snippet": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"550\" /></p>",
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "term": "weixin"
     }
   ]
 }

@@ -940,7 +940,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T19:29:31.878181+00:00",
+  "fetched_at": "2026-05-21T10:15:57.629443+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -948,7 +948,7 @@
     },
     {
       "path": "package.json",
-      "size": 6136
+      "size": 6167
     },
     {
       "path": ".github/workflows/apply-patches.yml",
@@ -992,8 +992,8 @@
     "full_name": "electron/electron",
     "html_url": "https://github.com/electron/electron",
     "language": "C++",
-    "pushed_at": "2026-05-20T19:20:38Z",
-    "stargazers_count": 121358,
+    "pushed_at": "2026-05-21T09:46:22Z",
+    "stargazers_count": 121366,
     "topics": [
       "c-plus-plus",
       "chrome",
@@ -1005,7 +1005,7 @@
       "v8",
       "works-with-codespaces"
     ],
-    "updated_at": "2026-05-20T18:59:01Z"
+    "updated_at": "2026-05-21T09:00:43Z"
   },
   "repo_links": [],
   "terms": [

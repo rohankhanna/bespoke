@@ -31,6 +31,18 @@
       "source_repo": "koide3/small_gicp",
       "status": "candidate-context",
       "text": "Draft PDF"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "souzatharsis/podcastfy",
+      "status": "candidate-context",
+      "text": "An Open Source Python alternative to NotebookLM's podcast feature: Transforming Multimodal Content into Captivating Multilingual Audio Conversations with GenAI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "souzatharsis/podcastfy",
+      "status": "candidate-context",
+      "text": "Draft PDF"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "koide3/small_gicp",
+      "status": "candidate",
+      "text": "Draft PDF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "souzatharsis/podcastfy",
       "status": "candidate",
       "text": "Draft PDF"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/paper.yml",
       "source_repo": "koide3/small_gicp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": ".github/workflows/draft-pdf.yml",
+      "source_repo": "souzatharsis/podcastfy"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "lexical_providers": [
     "datamuse"
   ],

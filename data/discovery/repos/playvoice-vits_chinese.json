@@ -2,13 +2,6 @@
   "components": [],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "PlayVoice/vits_chinese",
-      "target": "maxmax2016/vits_chinese",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "PlayVoice/vits_chinese",
@@ -51,12 +44,8 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T01:54:15.861107+00:00",
+  "fetched_at": "2026-05-21T09:22:14.295012+00:00",
   "fetched_files": [
-    {
-      "path": "README.md",
-      "size": 10058
-    },
     {
       "path": "requirements.txt",
       "size": 67
@@ -84,46 +73,40 @@
     ],
     "updated_at": "2026-05-16T06:33:53Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "maxmax2016/vits_chinese",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
-      "context_snippet": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)",
+      "context_snippet": "torch==1.9.0 Cython transformers tensorboard WeTextProcessing",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "aishell3"
     },
     {
-      "context_snippet": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)",
+      "context_snippet": "torch==1.9.0 Cython transformers tensorboard WeTextProcessing",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "bert"
     },
     {
-      "context_snippet": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)",
+      "context_snippet": "torch==1.9.0 Cython transformers tensorboard WeTextProcessing",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "bert-vits"
     },
     {
-      "context_snippet": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)",
+      "context_snippet": "torch==1.9.0 Cython transformers tensorboard WeTextProcessing",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "bert-vits2"
     },
     {
-      "context_snippet": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)",
+      "context_snippet": "torch==1.9.0 Cython transformers tensorboard WeTextProcessing",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "naturalspeech"
     },
     {
-      "context_snippet": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)",
+      "context_snippet": "torch==1.9.0 Cython transformers tensorboard WeTextProcessing",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "vits"

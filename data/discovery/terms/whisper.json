@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -141,6 +141,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "URUWorks/TeroSubtitler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Softcatala/whisper-ctranslate2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "speaches-ai/speaches"
     }
   ],
   "term": "whisper"

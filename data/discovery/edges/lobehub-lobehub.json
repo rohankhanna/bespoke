@@ -4,6 +4,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lobehub/lobehub",
+      "target": "actions/workflows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobehub",
       "target": "lobehub/lobe-commit",
       "target_type": "repository"
     },
@@ -516,6 +523,13 @@
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
       "target": "@lobechat/business-const",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobehub",
+      "target": "@lobechat/business-model-bank",
       "target_type": "component"
     },
     {
@@ -2384,13 +2398,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
-      "target": "husky",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "lobehub/lobehub",
       "target": "import-in-the-middle",
       "target_type": "component"
     },
@@ -2808,6 +2815,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-20T07:24:31.235161+00:00",
+  "generated_at": "2026-05-21T07:28:23.617453+00:00",
   "source_repo": "lobehub/lobehub"
 }

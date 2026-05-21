@@ -416,7 +416,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T19:07:32.291077+00:00",
+  "fetched_at": "2026-05-21T12:02:52.942165+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -453,7 +453,7 @@
     "html_url": "https://github.com/jawah/charset_normalizer",
     "language": "Python",
     "pushed_at": "2026-05-03T09:22:13Z",
-    "stargazers_count": 770,
+    "stargazers_count": 769,
     "topics": [
       "chardet",
       "charset-conversion",
@@ -462,7 +462,7 @@
       "python",
       "unicode"
     ],
-    "updated_at": "2026-05-11T12:18:34Z"
+    "updated_at": "2026-05-20T23:26:12Z"
   },
   "repo_links": [
     {

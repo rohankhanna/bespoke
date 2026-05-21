@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/community-events",
+      "target": "vaibhavs10/ml-with-audio",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-21T07:28:23.617453+00:00",
+  "source_repo": "huggingface/community-events"
+}

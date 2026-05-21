@@ -2,7 +2,7 @@
   "component": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {

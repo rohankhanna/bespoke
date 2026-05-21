@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "myshell-ai/OpenVoice",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "myshell-ai/OpenVoice",
+      "target": "voice-clone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "myshell-ai/OpenVoice",
+      "target": "zero-shot-tts",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-21T07:28:23.617453+00:00",
+  "source_repo": "myshell-ai/OpenVoice"
+}

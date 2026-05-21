@@ -571,6 +571,12 @@
       "source_repo": "lonePatient/TorchBlocks",
       "status": "candidate-context",
       "text": "(Work in Progress!!)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlayVoice/vits_chinese",
+      "status": "candidate-context",
+      "text": "torch==1.9.0 Cython transformers tensorboard WeTextProcessing"
     }
   ],
   "candidate_glosses": [
@@ -855,6 +861,12 @@
       "source_repo": "lonePatient/TorchBlocks",
       "status": "candidate",
       "text": "(Work in Progress!!)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PlayVoice/vits_chinese",
+      "status": "candidate",
+      "text": "torch==1.9.0 Cython transformers tensorboard WeTextProcessing"
     }
   ],
   "candidate_related_terms": [
@@ -1900,11 +1912,23 @@
       "observed_at": "2026-05-21T00:45:47.420998+00:00",
       "source_file": null,
       "source_repo": "PlayVoice/vits_chinese"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio-transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/vits_chinese"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "lexical_providers": [
     "datamuse"
   ],

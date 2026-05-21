@@ -1,0 +1,188 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "speaches-ai/speaches",
+      "target": "thewh1teagle/kokoro-onnx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-and-push.yaml",
+      "source_repo": "speaches-ai/speaches",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-and-push.yaml",
+      "source_repo": "speaches-ai/speaches",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-and-push.yaml",
+      "source_repo": "speaches-ai/speaches",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-and-push.yaml",
+      "source_repo": "speaches-ai/speaches",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-and-push.yaml",
+      "source_repo": "speaches-ai/speaches",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-and-push.yaml",
+      "source_repo": "speaches-ai/speaches",
+      "target": "docker-build-and-push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "speaches-ai/speaches",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "speaches-ai/speaches",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "speaches-ai/speaches",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yaml",
+      "source_repo": "speaches-ai/speaches",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yaml",
+      "source_repo": "speaches-ai/speaches",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yaml",
+      "source_repo": "speaches-ai/speaches",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yaml",
+      "source_repo": "speaches-ai/speaches",
+      "target": "publish-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "speaches-ai/speaches",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "speaches-ai/speaches",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "speaches-ai/speaches",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "speaches-ai/speaches",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "speaches-ai/speaches",
+      "target": "docker-compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "speaches-ai/speaches",
+      "target": "faster-whisper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "speaches-ai/speaches",
+      "target": "openai-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "speaches-ai/speaches",
+      "target": "openai-whisper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "speaches-ai/speaches",
+      "target": "openai-whisper-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "speaches-ai/speaches",
+      "target": "transcription",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "speaches-ai/speaches",
+      "target": "whisper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "speaches-ai/speaches",
+      "target": "whisper-ai",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-21T07:28:23.617453+00:00",
+  "source_repo": "speaches-ai/speaches"
+}

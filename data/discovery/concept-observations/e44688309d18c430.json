@@ -13,14 +13,14 @@
     {
       "source_kind": "source-snippet",
       "status": "context-only",
-      "text": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)"
+      "text": "torch==1.9.0 Cython transformers tensorboard WeTextProcessing"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "status": "candidate",
-      "text": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)"
+      "text": "torch==1.9.0 Cython transformers tensorboard WeTextProcessing"
     }
   ],
   "candidate_primary_bucket": "tool-component",
@@ -77,9 +77,9 @@
   "normalized_form": "vits",
   "observation_id": "e44688309d18c430",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-21T00:45:47.420998+00:00",
+  "observed_at": "2026-05-21T07:28:23.617453+00:00",
   "observed_text": "vits",
-  "source_context_snippet": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/maxmax20160403/vits_chinese)",
+  "source_context_snippet": "torch==1.9.0 Cython transformers tensorboard WeTextProcessing",
   "source_file": null,
   "source_repo": "PlayVoice/vits_chinese",
   "source_repo_description": "Best practice TTS based on BERT and VITS with some Natural Speech Features Of Microsoft; Support ONNX streaming out!"

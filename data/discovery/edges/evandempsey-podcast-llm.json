@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "Build and Deploy Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "Publish Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "anthropic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "elevenlabs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "notebooklm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "podcast",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-21T07:28:23.617453+00:00",
+  "source_repo": "evandempsey/podcast-llm"
+}

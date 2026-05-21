@@ -360,7 +360,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T00:57:34.829297+00:00",
+  "fetched_at": "2026-05-21T10:52:37.997255+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -381,12 +381,12 @@
     "html_url": "https://github.com/google-gemini/live-api-web-console",
     "language": "TypeScript",
     "pushed_at": "2026-05-17T08:03:33Z",
-    "stargazers_count": 2545,
+    "stargazers_count": 2547,
     "topics": [
       "gemini",
       "gemini-api"
     ],
-    "updated_at": "2026-05-20T09:12:38Z"
+    "updated_at": "2026-05-21T07:31:16Z"
   },
   "repo_links": [
     {

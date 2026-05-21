@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "myshell-ai/OpenVoice",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "myshell-ai/OpenVoice",
+      "target": "voice-clone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "myshell-ai/OpenVoice",
+      "target": "zero-shot-tts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-21T07:48:52.726767+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3120
+    },
+    {
+      "path": "requirements.txt",
+      "size": 253
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Instant voice cloning by MIT and MyShell. Audio foundation model.",
+    "fork": false,
+    "full_name": "myshell-ai/OpenVoice",
+    "html_url": "https://github.com/myshell-ai/OpenVoice",
+    "language": "Python",
+    "pushed_at": "2025-04-19T16:00:00Z",
+    "stargazers_count": 36544,
+    "topics": [
+      "text-to-speech",
+      "tts",
+      "voice-clone",
+      "zero-shot-tts"
+    ],
+    "updated_at": "2026-05-21T03:10:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-clone"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-shot-tts"
+    }
+  ]
+}

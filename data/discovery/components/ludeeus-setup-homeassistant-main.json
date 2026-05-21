@@ -1,0 +1,12 @@
+{
+  "component": "ludeeus/setup-homeassistant@main",
+  "first_seen_at": "2026-05-21T07:28:23.617453+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "hasscc/hass-edge-tts"
+    }
+  ]
+}

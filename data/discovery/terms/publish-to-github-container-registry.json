@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-21T07:28:23.617453+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "Softcatala/whisper-ctranslate2"
+    }
+  ],
+  "term": "Publish to GitHub Container Registry"
+}

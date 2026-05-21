@@ -1,0 +1,203 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v3.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    },
+    {
+      "component": "home-assistant/actions/hassfest@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    },
+    {
+      "component": "actions/checkout@v3.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    },
+    {
+      "component": "hacs/action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    },
+    {
+      "component": "actions/checkout@v3.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    },
+    {
+      "component": "ludeeus/setup-homeassistant@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hasscc/hass-edge-tts",
+      "target": "ag2s20150909/tts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "hasscc/hass-edge-tts",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "hasscc/hass-edge-tts",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "hasscc/hass-edge-tts",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "hasscc/hass-edge-tts",
+      "target": "actions/checkout@v3.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "hasscc/hass-edge-tts",
+      "target": "home-assistant/actions/hassfest@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "hasscc/hass-edge-tts",
+      "target": "hacs/action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "hasscc/hass-edge-tts",
+      "target": "ludeeus/setup-homeassistant@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "hasscc/hass-edge-tts",
+      "target": "Validate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hasscc/hass-edge-tts",
+      "target": "custom-component",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hasscc/hass-edge-tts",
+      "target": "edge-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hasscc/hass-edge-tts",
+      "target": "home-assistant",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-21T07:48:56.036158+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3625
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 616
+    },
+    {
+      "path": ".github/workflows/validate.yaml",
+      "size": 1396
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udde3\ufe0f Microsoft Edge TTS for Home Assistant, no need for app_key",
+    "fork": false,
+    "full_name": "hasscc/hass-edge-tts",
+    "html_url": "https://github.com/hasscc/hass-edge-tts",
+    "language": "Python",
+    "pushed_at": "2026-01-12T14:19:17Z",
+    "stargazers_count": 480,
+    "topics": [
+      "custom-component",
+      "edge-tts",
+      "home-assistant",
+      "tts"
+    ],
+    "updated_at": "2026-04-29T03:14:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ag2s20150909/tts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Validate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yaml",
+      "term": "Validate"
+    },
+    {
+      "context_snippet": "This component is based on the TTS service of Microsoft Edge browser, no need to apply for `app_key`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "custom-component"
+    },
+    {
+      "context_snippet": "This component is based on the TTS service of Microsoft Edge browser, no need to apply for `app_key`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge-tts"
+    },
+    {
+      "context_snippet": "This component is based on the TTS service of Microsoft Edge browser, no need to apply for `app_key`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "home-assistant"
+    }
+  ]
+}

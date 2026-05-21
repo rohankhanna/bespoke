@@ -84,7 +84,7 @@
   "normalized_form": "static-analysis",
   "observation_id": "b95405a525ca473f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-21T00:45:47.420998+00:00",
+  "observed_at": "2026-05-21T07:28:23.617453+00:00",
   "observed_text": "Static Analysis",
   "source_context_snippet": "Static Analysis",
   "source_file": ".github/workflows/static-analysis.yml",

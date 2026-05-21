@@ -152,6 +152,18 @@
       "source_repo": "vitejs/vite-plugin-react",
       "status": "candidate-context",
       "text": "Publish Package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evandempsey/podcast-llm",
+      "status": "candidate-context",
+      "text": "Automatically generate engaging AI podcasts from nothing but an episode title."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evandempsey/podcast-llm",
+      "status": "candidate-context",
+      "text": "Publish Package"
     }
   ],
   "candidate_glosses": [
@@ -224,6 +236,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "vitejs/vite-plugin-react",
+      "status": "candidate",
+      "text": "Publish Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evandempsey/podcast-llm",
       "status": "candidate",
       "text": "Publish Package"
     }
@@ -671,11 +689,23 @@
       "observed_at": "2026-05-21T00:45:47.420998+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "evandempsey/podcast-llm"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "lexical_providers": [
     "datamuse"
   ],

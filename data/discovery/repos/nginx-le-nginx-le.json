@@ -95,7 +95,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T01:58:44.671120+00:00",
+  "fetched_at": "2026-05-21T11:38:39.731986+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -119,8 +119,8 @@
     "full_name": "nginx-le/nginx-le",
     "html_url": "https://github.com/nginx-le/nginx-le",
     "language": "Shell",
-    "pushed_at": "2026-05-14T18:09:57Z",
-    "stargazers_count": 685,
+    "pushed_at": "2026-05-21T03:49:42Z",
+    "stargazers_count": 686,
     "topics": [
       "automation",
       "docker",
@@ -129,7 +129,7 @@
       "proxy",
       "ssl-certificates"
     ],
-    "updated_at": "2026-05-14T17:54:27Z"
+    "updated_at": "2026-05-21T08:49:37Z"
   },
   "repo_links": [
     {

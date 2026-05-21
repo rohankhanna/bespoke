@@ -241,7 +241,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T01:03:34.402344+00:00",
+  "fetched_at": "2026-05-21T11:03:04.902577+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -281,8 +281,8 @@
     "full_name": "modelscope/ms-swift",
     "html_url": "https://github.com/modelscope/ms-swift",
     "language": "Python",
-    "pushed_at": "2026-05-20T17:48:42Z",
-    "stargazers_count": 14195,
+    "pushed_at": "2026-05-21T10:11:15Z",
+    "stargazers_count": 14207,
     "topics": [
       "deepseek-r1",
       "embedding",
@@ -305,7 +305,7 @@
       "reranker",
       "sft"
     ],
-    "updated_at": "2026-05-20T19:53:19Z"
+    "updated_at": "2026-05-21T10:32:49Z"
   },
   "repo_links": [],
   "terms": [

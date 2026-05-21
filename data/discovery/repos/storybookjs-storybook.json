@@ -291,12 +291,12 @@
       "source_file": ".github/workflows/cron-weekly.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/danger-js.yml"
     },
     {
-      "component": "docker://ghcr.io/danger/danger-js:13.0.5",
+      "component": "docker://ghcr.io/danger/danger-js@sha256:66d5394557aef115c9b8086e9886fc24ee32d82ad222efb83778468538a91ef0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/danger-js.yml"
     },
@@ -693,14 +693,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/danger-js.yml",
       "source_repo": "storybookjs/storybook",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/danger-js.yml",
       "source_repo": "storybookjs/storybook",
-      "target": "docker://ghcr.io/danger/danger-js:13.0.5",
+      "target": "docker://ghcr.io/danger/danger-js@sha256:66d5394557aef115c9b8086e9886fc24ee32d82ad222efb83778468538a91ef0",
       "target_type": "component"
     },
     {
@@ -872,7 +872,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-20T19:02:21.254038+00:00",
+  "fetched_at": "2026-05-21T11:58:13.582060+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -904,7 +904,7 @@
     },
     {
       "path": ".github/workflows/danger-js.yml",
-      "size": 595
+      "size": 4137
     },
     {
       "path": ".github/workflows/duplicate-code-detector.lock.yml",
@@ -924,8 +924,8 @@
     "full_name": "storybookjs/storybook",
     "html_url": "https://github.com/storybookjs/storybook",
     "language": "TypeScript",
-    "pushed_at": "2026-05-20T15:28:10Z",
-    "stargazers_count": 90003,
+    "pushed_at": "2026-05-21T11:52:12Z",
+    "stargazers_count": 90023,
     "topics": [
       "angular",
       "components",
@@ -948,7 +948,7 @@
       "webpack",
       "workshop"
     ],
-    "updated_at": "2026-05-20T18:59:06Z"
+    "updated_at": "2026-05-21T11:44:34Z"
   },
   "repo_links": [
     {

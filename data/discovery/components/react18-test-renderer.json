@@ -1,7 +1,7 @@
 {
   "component": "react18-test-renderer",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-05-20T13:09:20.758636+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

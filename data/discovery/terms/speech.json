@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -231,6 +231,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "MahmoudAshraf97/whisper-diarization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshall/knn-vc"
     }
   ],
   "term": "speech"

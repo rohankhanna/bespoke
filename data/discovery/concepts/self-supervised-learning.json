@@ -355,6 +355,18 @@
       "source_repo": "auspicious3000/contentvec",
       "status": "candidate-context",
       "text": "This repository provides the official PyTorch implementation of [ContentVec](https://arxiv.org/abs/2204.09224)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bshall/knn-vc",
+      "status": "candidate-context",
+      "text": "Voice Conversion With Just Nearest Neighbors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bshall/knn-vc",
+      "status": "candidate-context",
+      "text": "The official code repo! This repo contains training and inference code for kNN-VC -- an any-to-any voice conversion model from our paper, \"Voice Conversion With Just k-Nearest Neighbors\". The trained checkpoints are available under the 'Releases' tab and through `torch.hub`."
     }
   ],
   "candidate_glosses": [
@@ -531,6 +543,12 @@
       "source_repo": "auspicious3000/contentvec",
       "status": "candidate",
       "text": "This repository provides the official PyTorch implementation of [ContentVec](https://arxiv.org/abs/2204.09224)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bshall/knn-vc",
+      "status": "candidate",
+      "text": "The official code repo! This repo contains training and inference code for kNN-VC -- an any-to-any voice conversion model from our paper, \"Voice Conversion With Just k-Nearest Neighbors\". The trained checkpoints are available under the 'Releases' tab and through `torch.hub`."
     }
   ],
   "candidate_related_terms": [],
@@ -1108,11 +1126,23 @@
       "observed_at": "2026-05-21T00:45:47.420998+00:00",
       "source_file": null,
       "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "bshall/knn-vc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "lexical_providers": [
     "datamuse"
   ],

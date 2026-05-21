@@ -355,6 +355,18 @@
       "source_repo": "Purfview/whisper-standalone-win",
       "status": "candidate-context",
       "text": "[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2) [![\"Buy Me A Coffee\"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/purfview)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Softcatala/whisper-ctranslate2",
+      "status": "candidate-context",
+      "text": "Whisper command line client compatible with original OpenAI client based on CTranslate2."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Softcatala/whisper-ctranslate2",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/whisper-ctranslate2.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/whisper-ctranslate2/)"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +543,12 @@
       "source_repo": "Purfview/whisper-standalone-win",
       "status": "candidate",
       "text": "[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=JF5BEQE3YQGH2) [![\"Buy Me A Coffee\"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/purfview)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Softcatala/whisper-ctranslate2",
+      "status": "candidate",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/whisper-ctranslate2.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/whisper-ctranslate2/)"
     }
   ],
   "candidate_related_terms": [],
@@ -1786,11 +1804,41 @@
       "observed_at": "2026-05-21T00:45:47.420998+00:00",
       "source_file": null,
       "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "SYSTRAN/faster-whisper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "Softcatala/whisper-ctranslate2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunCodec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "lexical_providers": [
     "datamuse"
   ],

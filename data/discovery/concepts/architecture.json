@@ -211,6 +211,18 @@
       "source_repo": "vztu/maxim-pytorch",
       "status": "candidate-context",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-hide-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-hide-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "npryce/adr-tools",
+      "status": "candidate-context",
+      "text": "Command-line tools for working with Architecture Decision Records"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npryce/adr-tools",
+      "status": "candidate-context",
+      "text": "ADR Tools"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "vztu/maxim-pytorch",
       "status": "candidate",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-hide-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-hide-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npryce/adr-tools",
+      "status": "candidate",
+      "text": "ADR Tools"
     }
   ],
   "candidate_related_terms": [
@@ -1746,11 +1764,41 @@
       "observed_at": "2026-05-21T00:45:47.420998+00:00",
       "source_file": null,
       "source_repo": "trailblazer/trailblazer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "npryce/adr-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "archguard/codedb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "trailblazer/trailblazer"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -144,6 +144,13 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "zhayujie/CowAgent",
+      "target": "harness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent",
       "target": "kimi",
       "target_type": "term"
     },
@@ -195,15 +202,8 @@
       "source_repo": "zhayujie/CowAgent",
       "target": "wechat",
       "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "zhayujie/CowAgent",
-      "target": "weixin",
-      "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-21T00:45:47.420998+00:00",
+  "generated_at": "2026-05-21T07:28:23.617453+00:00",
   "source_repo": "zhayujie/CowAgent"
 }

@@ -697,6 +697,30 @@
       "source_repo": "lobehub/lobehub",
       "status": "candidate-context",
       "text": "\ud83e\udd2f LobeHub is your Chief Agent Operator, organizing your agents into 7\u00d724 operations by hiring, scheduling, and reporting on your entire AI team."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "souzatharsis/podcastfy",
+      "status": "candidate-context",
+      "text": "An Open Source Python alternative to NotebookLM's podcast feature: Transforming Multimodal Content into Captivating Multilingual Audio Conversations with GenAI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "souzatharsis/podcastfy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evandempsey/podcast-llm",
+      "status": "candidate-context",
+      "text": "Automatically generate engaging AI podcasts from nothing but an episode title."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evandempsey/podcast-llm",
+      "status": "candidate-context",
+      "text": "![Tests](https://github.com/evandempsey/podcast-llm/actions/workflows/pytest.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -1029,6 +1053,18 @@
       "source_repo": "alterego-987/council-mcp",
       "status": "candidate",
       "text": "An MCP server that gives Claude a **review council** \u2014 other LLMs that fact-check Claude's responses before you see them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "souzatharsis/podcastfy",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evandempsey/podcast-llm",
+      "status": "candidate",
+      "text": "![Tests](https://github.com/evandempsey/podcast-llm/actions/workflows/pytest.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -4794,11 +4830,83 @@
       "observed_at": "2026-05-21T00:45:47.420998+00:00",
       "source_file": null,
       "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "souzatharsis/podcastfy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "google-gemini/live-api-web-console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "QuantumNous/new-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "chatboxai/chatbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "hexabot-ai/Hexabot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": null,
+      "source_repo": "evandempsey/podcast-llm"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "lexical_providers": [
     "datamuse"
   ],

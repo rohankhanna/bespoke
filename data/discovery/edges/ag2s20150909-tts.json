@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "Build Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "Build Test",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-21T07:28:23.617453+00:00",
+  "source_repo": "ag2s20150909/TTS"
+}

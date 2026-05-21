@@ -84,7 +84,7 @@
   "normalized_form": "close-new-integration-prs",
   "observation_id": "82e5932ab76530b4",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-21T00:45:47.420998+00:00",
+  "observed_at": "2026-05-21T07:28:23.617453+00:00",
   "observed_text": "Close new integration PRs",
   "source_context_snippet": "\"Close new integration PRs\"",
   "source_file": ".github/workflows/close_new_integration_prs.yml",

@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "Build Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ag2s20150909/TTS",
+      "target": "Build Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-21T10:03:53.310165+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1949
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 977
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "ag2s20150909/TTS",
+    "html_url": "https://github.com/ag2s20150909/TTS",
+    "language": "Java",
+    "pushed_at": "2026-05-14T16:44:18Z",
+    "stargazers_count": 2753,
+    "topics": [],
+    "updated_at": "2026-05-16T00:19:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Build Release"
+    },
+    {
+      "context_snippet": "Build Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Build Test"
+    }
+  ]
+}

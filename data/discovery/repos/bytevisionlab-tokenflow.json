@@ -37,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T01:54:39.496579+00:00",
+  "fetched_at": "2026-05-21T11:16:59.835784+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -54,14 +54,14 @@
     "html_url": "https://github.com/ByteVisionLab/TokenFlow",
     "language": "Python",
     "pushed_at": "2025-08-08T08:32:28Z",
-    "stargazers_count": 460,
+    "stargazers_count": 461,
     "topics": [
       "large-language-models",
       "multimodal-understanding",
       "text-to-image-generation",
       "vector-quantization"
     ],
-    "updated_at": "2026-05-07T07:22:02Z"
+    "updated_at": "2026-05-21T03:40:31Z"
   },
   "repo_links": [
     {

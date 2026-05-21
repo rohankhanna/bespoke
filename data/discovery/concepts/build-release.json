@@ -276,6 +276,12 @@
       "source_repo": "Cysharp/ValueTaskSupplement",
       "status": "candidate-context",
       "text": "Build-Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ag2s20150909/TTS",
+      "status": "candidate-context",
+      "text": "Build Release"
     }
   ],
   "candidate_glosses": [
@@ -410,6 +416,12 @@
       "source_repo": "Cysharp/ValueTaskSupplement",
       "status": "candidate",
       "text": "Build-Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ag2s20150909/TTS",
+      "status": "candidate",
+      "text": "Build Release"
     }
   ],
   "candidate_related_terms": [
@@ -585,11 +597,17 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/build-release.yaml",
       "source_repo": "Cysharp/ValueTaskSupplement"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ag2s20150909/TTS"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "lexical_providers": [
     "datamuse"
   ],

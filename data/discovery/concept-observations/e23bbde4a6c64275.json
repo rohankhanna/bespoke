@@ -84,7 +84,7 @@
   "normalized_form": "benchmark-a-pull-request",
   "observation_id": "e23bbde4a6c64275",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-21T00:45:47.420998+00:00",
+  "observed_at": "2026-05-21T07:28:23.617453+00:00",
   "observed_text": "Benchmark a pull request",
   "source_context_snippet": "Benchmark a pull request",
   "source_file": ".github/workflows/benchmark_pr.yml",

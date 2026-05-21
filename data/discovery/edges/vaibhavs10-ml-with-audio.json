@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vaibhavs10/ml-with-audio",
+      "target": "rhgrossman/pyctcdecode_demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vaibhavs10/ml-with-audio",
+      "target": "wenet-e2e/speech-recognition-papers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vaibhavs10/ml-with-audio",
+      "target": "xcmyz/speech-synthesis-paper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vaibhavs10/ml-with-audio",
+      "target": "digitalphonetics/ims-toucan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vaibhavs10/ml-with-audio",
+      "target": "huggingface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vaibhavs10/ml-with-audio",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vaibhavs10/ml-with-audio",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-21T07:28:23.617453+00:00",
+  "source_repo": "Vaibhavs10/ml-with-audio"
+}

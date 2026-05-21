@@ -1,0 +1,272 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "Build and Deploy Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "Publish Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "anthropic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "elevenlabs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "notebooklm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evandempsey/podcast-llm",
+      "target": "podcast",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-21T10:03:57.000412+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5732
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1781
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2816
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 850
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 631
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 1212
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automatically generate engaging AI podcasts from nothing but an episode title.",
+    "fork": false,
+    "full_name": "evandempsey/podcast-llm",
+    "html_url": "https://github.com/evandempsey/podcast-llm",
+    "language": "Python",
+    "pushed_at": "2025-07-28T13:32:57Z",
+    "stargazers_count": 145,
+    "topics": [
+      "anthropic",
+      "elevenlabs",
+      "gemini",
+      "langchain",
+      "llm",
+      "notebooklm",
+      "openai",
+      "podcast",
+      "tts"
+    ],
+    "updated_at": "2026-05-07T23:57:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Deploy Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Build and Deploy Docs"
+    },
+    {
+      "context_snippet": "Publish Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish Package"
+    },
+    {
+      "context_snippet": "![Tests](https://github.com/evandempsey/podcast-llm/actions/workflows/pytest.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anthropic"
+    },
+    {
+      "context_snippet": "![Tests](https://github.com/evandempsey/podcast-llm/actions/workflows/pytest.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elevenlabs"
+    },
+    {
+      "context_snippet": "![Tests](https://github.com/evandempsey/podcast-llm/actions/workflows/pytest.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "![Tests](https://github.com/evandempsey/podcast-llm/actions/workflows/pytest.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain"
+    },
+    {
+      "context_snippet": "![Tests](https://github.com/evandempsey/podcast-llm/actions/workflows/pytest.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notebooklm"
+    },
+    {
+      "context_snippet": "![Tests](https://github.com/evandempsey/podcast-llm/actions/workflows/pytest.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "podcast"
+    }
+  ]
+}

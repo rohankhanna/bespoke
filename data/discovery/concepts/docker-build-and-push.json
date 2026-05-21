@@ -148,6 +148,12 @@
       "source_repo": "idiap/coqui-ai-TTS",
       "status": "candidate-context",
       "text": "\"Docker build and push\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speaches-ai/speaches",
+      "status": "candidate-context",
+      "text": "docker-build-and-push"
     }
   ],
   "candidate_glosses": [
@@ -216,6 +222,12 @@
       "source_repo": "idiap/coqui-ai-TTS",
       "status": "candidate",
       "text": "\"Docker build and push\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speaches-ai/speaches",
+      "status": "candidate",
+      "text": "docker-build-and-push"
     }
   ],
   "candidate_related_terms": [
@@ -343,11 +355,17 @@
       "observed_at": "2026-05-20T18:55:10.976456+00:00",
       "source_file": ".github/workflows/docker.yaml",
       "source_repo": "idiap/coqui-ai-TTS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-21T07:28:23.617453+00:00",
+      "source_file": ".github/workflows/docker-build-and-push.yaml",
+      "source_repo": "speaches-ai/speaches"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-20T18:55:10.976456+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "lexical_providers": [
     "datamuse"
   ],

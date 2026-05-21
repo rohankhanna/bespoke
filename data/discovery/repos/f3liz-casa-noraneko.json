@@ -146,31 +146,6 @@
       "source_file": ".github/workflows/copilot-setup-steps.yml"
     },
     {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/nma_build.yml"
-    },
-    {
-      "component": "denoland/setup-deno@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/nma_build.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/nma_build.yml"
-    },
-    {
-      "component": "sigstore/cosign-installer@v3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/nma_build.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/nma_build.yml"
-    },
-    {
       "component": "actions/github-script@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/package.yml"
@@ -456,41 +431,6 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/nma_build.yml",
-      "source_repo": "f3liz-casa/noraneko",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/nma_build.yml",
-      "source_repo": "f3liz-casa/noraneko",
-      "target": "denoland/setup-deno@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/nma_build.yml",
-      "source_repo": "f3liz-casa/noraneko",
-      "target": "actions/setup-node@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/nma_build.yml",
-      "source_repo": "f3liz-casa/noraneko",
-      "target": "sigstore/cosign-installer@v3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/nma_build.yml",
-      "source_repo": "f3liz-casa/noraneko",
-      "target": "actions/upload-artifact@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/package.yml",
       "source_repo": "f3liz-casa/noraneko",
       "target": "actions/github-script@v7",
@@ -560,7 +500,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-20T19:15:00.538633+00:00",
+  "fetched_at": "2026-05-21T10:02:44.184592+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -575,12 +515,8 @@
       "size": 523
     },
     {
-      "path": ".github/workflows/nma_build.yml",
-      "size": 7520
-    },
-    {
       "path": ".github/workflows/package.yml",
-      "size": 13790
+      "size": 12581
     },
     {
       "path": ".github/workflows/package_and_publish_alpha.yml",
@@ -588,7 +524,7 @@
     },
     {
       "path": ".github/workflows/publish_alpha.yml",
-      "size": 5247
+      "size": 4395
     }
   ],
   "related_repositories": [],
@@ -600,10 +536,10 @@
     "full_name": "f3liz-casa/noraneko",
     "html_url": "https://github.com/f3liz-casa/noraneko",
     "language": "CSS",
-    "pushed_at": "2026-04-08T01:19:22Z",
+    "pushed_at": "2026-05-21T02:31:29Z",
     "stargazers_count": 87,
     "topics": [],
-    "updated_at": "2026-04-14T09:24:42Z"
+    "updated_at": "2026-05-21T02:22:52Z"
   },
   "repo_links": [
     {

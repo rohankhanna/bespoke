@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-21T00:45:47.420998+00:00",
+  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -311,6 +311,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "rany2/edge-tts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshall/knn-vc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vaibhavs10/ml-with-audio"
     }
   ],
   "term": "speech-synthesis"

@@ -158,7 +158,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-docs.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "cloudflare/wrangler-action@9acf94ace14e7dc412b076f2c5c20b8ce93c79cd",
+      "target": "cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0",
       "target_type": "component"
     },
     {
@@ -358,6 +358,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-21T00:45:47.420998+00:00",
+  "generated_at": "2026-05-21T07:28:23.617453+00:00",
   "source_repo": "fastapi/fastapi"
 }

@@ -16,15 +16,15 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-20T19:16:04.278119+00:00",
+  "fetched_at": "2026-05-21T12:10:14.125386+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 6328
+      "size": 6118
     },
     {
       "path": "pyproject.toml",
-      "size": 1214
+      "size": 1791
     }
   ],
   "related_repositories": [],
@@ -36,10 +36,10 @@
     "full_name": "JuergenFleiss/aTrain",
     "html_url": "https://github.com/JuergenFleiss/aTrain",
     "language": "Python",
-    "pushed_at": "2026-05-19T06:53:25Z",
-    "stargazers_count": 1135,
+    "pushed_at": "2026-05-21T09:27:43Z",
+    "stargazers_count": 1136,
     "topics": [],
-    "updated_at": "2026-05-20T13:28:00Z"
+    "updated_at": "2026-05-21T08:45:25Z"
   },
   "repo_links": [
     {
