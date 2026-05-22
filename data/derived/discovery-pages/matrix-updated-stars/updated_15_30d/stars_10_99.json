@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 6579,
-    "concepts": 3181,
-    "observations": 3194,
-    "repos": 668,
-    "terms": 3158
+    "components": 6557,
+    "concepts": 3157,
+    "observations": 3170,
+    "repos": 664,
+    "terms": 3134
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "1-Platform/op-components",
@@ -69,7 +69,6 @@
     "apache/doris-opentelemetry-demo",
     "apache/ignite-extensions",
     "apache/ignite-website",
-    "apache/netbeans-mavenutils-nbm-maven-plugin",
     "apache/opendal-oli",
     "apache/superset-site",
     "apollographql/apollo-ios-codegen",
@@ -95,11 +94,12 @@
     "AstraZeneca/runnable",
     "atlanhq/application-sdk",
     "atsushieno/android-ci-package-installer",
+    "atsushieno/augene-ng",
     "atsushieno/compose-audio-controls",
     "atsushieno/mugene-ng",
+    "atsushieno/resident-midi-keyboard",
     "atsushieno/uapmd",
     "autodeployai/pypmml",
-    "autonomousvision/plant2",
     "autowarefoundation/autoware_launch",
     "aws-controllers-k8s/code-generator",
     "aws-controllers-k8s/test-infra",
@@ -493,7 +493,6 @@
     "octokit/openapi",
     "octokit/openapi-types.ts",
     "octokit/webhooks-methods.js",
-    "ocurrent/docker-base-images",
     "ocurrent/ocaml-dockerfile",
     "OffchainLabs/arbitrum-chain-sdk",
     "OffchainLabs/nitro-testnode",
@@ -671,13 +670,10 @@
     "walbourn/directxmathtest",
     "web-platform-tests/results-analysis",
     "WebAssembly/shared-everything-threads",
-    "wp-cli/dist-archive-command",
-    "wp-cli/scaffold-package-command",
     "wyyazlz/sheetnext",
     "xhluca/bm25-benchmarks",
     "xjb714/xjb",
     "yamachu/VoicevoxCoreSharp",
-    "yawkat/lz4-java",
     "yquake2/yquake2remaster",
     "zen-xu/pytest-modern",
     "zig-wasm/wasmer-zig-api"

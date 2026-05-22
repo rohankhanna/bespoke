@@ -3,7 +3,7 @@
     "components": 53,
     "concepts": 53,
     "observations": 53,
-    "repos": 8,
+    "repos": 7,
     "terms": 53
   },
   "facet_version": 1,
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "aws/karpenter-provider-aws",
     "bazel-contrib/bazel-gazelle",
     "bazel-contrib/rules_go",
     "crc-org/crc",
     "dkron-io/dkron",
-    "googleapis/google-api-go-client",
     "googleapis/google-cloud-go",
     "vale-cli/vale"
   ]

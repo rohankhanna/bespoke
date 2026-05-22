@@ -1,24 +1,22 @@
 {
   "counts": {
-    "components": 299,
-    "concepts": 192,
-    "observations": 193,
-    "repos": 37,
-    "terms": 192
+    "components": 293,
+    "concepts": 187,
+    "observations": 188,
+    "repos": 36,
+    "terms": 187
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "apify/actor-templates",
     "atsushieno/aap-juce",
     "atsushieno/aap-lv2",
-    "atsushieno/augene-ng",
-    "atsushieno/resident-midi-keyboard",
     "baicai-1145/GPT-SoVITS-CPUFast",
     "browniebroke/pypackage-template",
     "cginternals/cpplocate",
@@ -35,6 +33,7 @@
     "ipdxco/github-as-code",
     "kurrent-io/KurrentDB-Client-Rust",
     "microsoft/openjdk-docker",
+    "microsoft/openjdk-jdk11u",
     "microsoft/openjdk-jdk17u",
     "microsoft/openjdk-jdk21u",
     "mongodb/winkerberos",

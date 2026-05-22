@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1161,
-    "concepts": 1126,
-    "observations": 1129,
-    "repos": 83,
-    "terms": 1121
+    "components": 1136,
+    "concepts": 1117,
+    "observations": 1120,
+    "repos": 82,
+    "terms": 1112
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "99designs/gqlgen",
@@ -92,7 +92,6 @@
     "shirou/gopsutil",
     "slackhq/nebula",
     "spf13/cobra",
-    "syncthing/syncthing",
     "thanos-io/thanos",
     "v2fly/v2ray-core",
     "VictoriaMetrics/VictoriaMetrics",

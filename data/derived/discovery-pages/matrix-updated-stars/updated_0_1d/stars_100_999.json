@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 354,
-    "concepts": 165,
-    "observations": 165,
-    "repos": 29,
-    "terms": 165
+    "components": 434,
+    "concepts": 201,
+    "observations": 201,
+    "repos": 34,
+    "terms": 201
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
     "AI-Hypercomputer/maxdiffusion",
@@ -28,19 +28,24 @@
     "electron/packager",
     "emacscollective/auto-compile",
     "GDevelopApp/GDevelop-extensions",
+    "hexabot-ai/Hexabot",
     "hluaguo/learn-faster-kit",
     "ipsilon/evmone",
     "jupyter-server/jupyter_server",
     "ldproxy/ldproxy",
     "LuaLS/vscode-lua",
+    "matter-js/matter.js",
     "meshcat-dev/meshcat",
+    "mightyiam/eslint-config-love",
     "perrygeo/python-rasterstats",
+    "pyrtlsdr/pyrtlsdr",
     "ROCm/hipBLAS",
     "ROCm/hipBLASLt",
     "safe-fndn/safe-singleton-factory",
     "servo/stylo",
     "SpecterOps/AzureHound",
     "stx-labs/stacks.js",
-    "unplugin/unplugin-imagemin"
+    "unplugin/unplugin-imagemin",
+    "yaling888/quirktiva"
   ]
 }

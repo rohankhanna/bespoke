@@ -1,21 +1,20 @@
 {
   "counts": {
-    "components": 351,
-    "concepts": 303,
-    "observations": 303,
-    "repos": 30,
-    "terms": 303
+    "components": 344,
+    "concepts": 284,
+    "observations": 284,
+    "repos": 29,
+    "terms": 281
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
-    "anthropics/claude-cookbooks",
     "apache/brpc",
     "apache/casbin",
     "browserslist/browserslist",
@@ -26,22 +25,22 @@
     "googleapis/google-api-nodejs-client",
     "huggingface/pytorch-image-models",
     "JetBrains/compose-multiplatform",
-    "langchain-ai/langchainjs",
     "Lightning-AI/pytorch-lightning",
     "meta-llama/llama-cookbook",
     "mozilla-ai/llamafile",
     "nvm-sh/nvm",
     "oobabooga/textgen",
+    "preactjs/preact",
     "psf/black",
     "pyg-team/pytorch_geometric",
-    "QuantumNous/new-api",
     "quickwit-oss/tantivy",
+    "realworld-apps/realworld",
     "run-llama/llama_index",
     "rust-lang/mdBook",
-    "rust-lang/rust-analyzer",
     "spaceship-prompt/spaceship-prompt",
     "SubtitleEdit/subtitleedit",
     "TEN-framework/ten-framework",
-    "ungoogled-software/ungoogled-chromium"
+    "ungoogled-software/ungoogled-chromium",
+    "verl-project/verl"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 138,
-    "concepts": 166,
-    "observations": 168,
-    "repos": 30,
-    "terms": 170
+    "components": 132,
+    "concepts": 159,
+    "observations": 161,
+    "repos": 29,
+    "terms": 163
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "alrra/dotfiles",
     "anthropics/claude-agent-sdk-typescript",
@@ -38,7 +38,6 @@
     "nix-community/nix-direnv",
     "nvie/git-toolbelt",
     "pacstall/pacstall",
-    "pgsty/pigsty",
     "pyenv/pyenv-virtualenv",
     "spiffe/spiffe",
     "trailofbits/claude-code-config",

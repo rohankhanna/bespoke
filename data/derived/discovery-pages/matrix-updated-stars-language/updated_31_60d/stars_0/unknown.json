@@ -3,7 +3,7 @@
     "components": 52,
     "concepts": 58,
     "observations": 58,
-    "repos": 85,
+    "repos": 84,
     "terms": 67
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -92,7 +92,6 @@
     "PetervanLunteren/EcoAssist-metadata",
     "piebald-ai/piebald",
     "pragmatical-transshipment598/claude-code-workflows",
-    "psmux/scoop-omp-manager",
     "semgrep/cursor-plugin",
     "shouted-numberone752/wechat-agent-connector",
     "ublacklist/store-assets",

@@ -3,7 +3,7 @@
     "components": 16,
     "concepts": 42,
     "observations": 42,
-    "repos": 59,
+    "repos": 60,
     "terms": 42
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
+    "abdeladim-s/pywhispercpp",
     "cachix/serde-envfile",
     "conda-forge/conda-lock-feedstock",
     "conda-forge/equinox-feedstock",

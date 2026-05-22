@@ -4,7 +4,7 @@
     "concepts": 152,
     "observations": 153,
     "repos": 13,
-    "terms": 151
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "doctest/doctest",

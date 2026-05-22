@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4065,
-    "concepts": 927,
-    "observations": 929,
-    "repos": 129,
-    "terms": 920
+    "components": 4028,
+    "concepts": 905,
+    "observations": 907,
+    "repos": 127,
+    "terms": 898
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "abaplint/abaplint",
     "agentclientprotocol/typescript-sdk",
@@ -46,9 +46,7 @@
     "decentralized-identity/did-resolver",
     "DeterminateSystems/nix-installer-action",
     "docker/bake-action",
-    "docker/setup-qemu-action",
     "dydxprotocol/v4-web",
-    "EclipseFdn/open-vsx.org",
     "electron-vite/vite-plugin-electron",
     "electron-vite/vite-plugin-electron-renderer",
     "embroider-build/ember-auto-import",

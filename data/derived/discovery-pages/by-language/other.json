@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 26320,
+    "components": 26323,
     "concepts": 22665,
     "observations": 22737,
     "repos": 5613,
@@ -10,7 +10,7 @@
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",

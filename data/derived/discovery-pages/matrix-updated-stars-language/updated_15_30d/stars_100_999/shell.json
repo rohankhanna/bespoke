@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 164,
-    "concepts": 212,
-    "observations": 214,
-    "repos": 38,
-    "terms": 205
+    "components": 160,
+    "concepts": 204,
+    "observations": 206,
+    "repos": 37,
+    "terms": 197
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "2KAbhishek/dots2k",
     "alexmyczko/fnt",
@@ -46,7 +46,6 @@
     "rocker-org/rocker-versioned2",
     "rust-cross/rust-musl-cross",
     "sclorg/s2i-php-container",
-    "sclorg/s2i-python-container",
     "termux/repology-metadata",
     "tinted-theming/schemes",
     "tonistiigi/xx",

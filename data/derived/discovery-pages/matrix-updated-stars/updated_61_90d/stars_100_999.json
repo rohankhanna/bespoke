@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2771,
-    "concepts": 1940,
-    "observations": 1949,
-    "repos": 443,
-    "terms": 1940
+    "components": 2781,
+    "concepts": 1946,
+    "observations": 1955,
+    "repos": 444,
+    "terms": 1946
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "2KAbhishek/seeker.nvim",
@@ -114,7 +114,6 @@
     "codota/tabnine-nvim",
     "cognitect/transit-clj",
     "connectrpc/connect-query-es",
-    "cormacrelf/dark-notify",
     "cowboy8625/rusty-rain",
     "cpp-pm/hunter",
     "CppCXY/EmmyLuaCodeStyle",
@@ -234,6 +233,7 @@
     "JuliaLang/JuliaSyntax.jl",
     "JuliaPlots/GraphRecipes.jl",
     "JuliaPy/PyPlot.jl",
+    "JunoLab/Weave.jl",
     "JupiterRider/purego-sdl3",
     "KamilSJaron/smudgeplot",
     "Kampfkarren/selene",
@@ -338,6 +338,7 @@
     "peergos/nabu",
     "peter-evans/enable-pull-request-automerge",
     "Piebald-AI/gemini-cli-desktop",
+    "ppwwyyxx/cocoapi",
     "prabirshrestha/asyncomplete.vim",
     "prettier/prettier-emacs",
     "priceline/design-system",

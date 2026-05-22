@@ -3,15 +3,15 @@
     "components": 10394,
     "concepts": 8903,
     "observations": 8912,
-    "repos": 2316,
-    "terms": 8778
+    "repos": 2317,
+    "terms": 8777
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -2149,6 +2149,7 @@
     "ubisoft/ubisoft-laforge-animation-dataset",
     "ucbdrive/few-shot-object-detection",
     "ucla-mobility/OpenCDA",
+    "ufal/whisper_streaming",
     "ugorji/go",
     "umdjs/umd",
     "umijs/babel-plugin-import",

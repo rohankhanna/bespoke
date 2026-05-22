@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3319,
-    "concepts": 592,
-    "observations": 592,
-    "repos": 119,
-    "terms": 653
+    "components": 3356,
+    "concepts": 614,
+    "observations": 614,
+    "repos": 121,
+    "terms": 675
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "43081j/picoquery",
@@ -49,6 +49,8 @@
     "decentralized-identity/did-jwt",
     "devcontainers/ci",
     "dezoito/ollama-grid-search",
+    "docker/setup-qemu-action",
+    "EclipseFdn/open-vsx.org",
     "elizaos/elizaos.github.io",
     "elm-tooling/elm-language-client-vscode",
     "elm-tooling/elm-language-server",

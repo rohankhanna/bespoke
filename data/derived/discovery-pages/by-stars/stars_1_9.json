@@ -10,7 +10,7 @@
   "filters": {
     "star_bucket": "stars_1_9"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0b01/tigris-and-euphrates",
@@ -718,7 +718,6 @@
     "Cydral/Dlib-ImageNet-Datasets",
     "Cydral/dlib-models-training",
     "Cydral/FFspider",
-    "d0c-s4vage/lookatme.contrib.qrcode",
     "D1DX/morning-skill",
     "d3ara1n/arcbot",
     "d99kris/doxygenmd",
@@ -1909,6 +1908,7 @@
     "probe-lab/tiros",
     "processing/processing-doclet",
     "project-mirai/mirai-sponsor",
+    "psmux/scoop-omp-manager",
     "psmux/scoop-psmux",
     "psmux/scoop-tmuxpanel",
     "PSteinhaus/PSteinhaus.github.io",
@@ -2242,7 +2242,7 @@
     "Triang-jyed-driung/Albatross",
     "triton-inference-server/contrib",
     "triton-inference-server/TensorRT-LLM",
-    "tritondatacenter/node-cmdutil",
+    "TritonDataCenter/node-cmdutil",
     "trufflesecurity/test_keys",
     "tuananh/hyper-mcp",
     "turbofish-org/abci2",

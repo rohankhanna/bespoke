@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 17804,
-    "concepts": 26778,
-    "observations": 26829,
-    "repos": 6705,
-    "terms": 26585
+    "components": 17806,
+    "concepts": 26784,
+    "observations": 26835,
+    "repos": 6708,
+    "terms": 26590
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -1669,7 +1669,6 @@
     "d-li14/mobilenetv3.pytorch",
     "d0c-s4vage/lookatme",
     "d0c-s4vage/lookatme.contrib.image_ueberzug",
-    "d0c-s4vage/lookatme.contrib.qrcode",
     "d8ahazard/sd_dreambooth_extension",
     "daaain/claude-code-log",
     "DachengLi1/LongChat",
@@ -3508,6 +3507,7 @@
     "katerinakazantseva/strainy",
     "kazuto1011/deeplab-pytorch",
     "KBH00/Semantic-Fast-SAM",
+    "KdaiP/StableTTS",
     "kdexd/virtex",
     "keeeeenw/MicroLlama",
     "keeeeenw/TinyLLaVA_Factory",
@@ -6191,6 +6191,7 @@
     "ubisoft/ubisoft-laforge-ZeroEGGS",
     "ucbdrive/few-shot-object-detection",
     "ucla-mobility/OpenCDA",
+    "ufal/whisper_streaming",
     "ufoym/deepo",
     "UKGovernmentBEIS/inspect_ai",
     "UKGovernmentBEIS/inspect_evals",
@@ -6451,6 +6452,7 @@
     "xingyizhou/CenterNet2",
     "xingyizhou/CenterTrack",
     "XinhaoMei/WavCaps",
+    "xinjli/transphone",
     "xinke-wang/EST-VQA",
     "xinntao/BasicSR-examples",
     "xinntao/EDVR",
@@ -6486,6 +6488,7 @@
     "yale-nlp/MMVU",
     "yaml/pyyaml",
     "yandex/YaLM-100B",
+    "yangdongchao/AcademiCodec",
     "yangdongchao/SoundStorm",
     "yangjianxin1/Firefly",
     "yangjianxin1/Firefly-LLaMA2-Chinese",

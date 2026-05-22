@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 55142,
-    "concepts": 35781,
-    "observations": 35889,
-    "repos": 6055,
-    "terms": 35678
+    "components": 55144,
+    "concepts": 35784,
+    "observations": 35892,
+    "repos": 6057,
+    "terms": 35681
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -1893,6 +1893,7 @@
     "Farama-Foundation/Metaworld",
     "Farama-Foundation/Minigrid",
     "Farama-Foundation/PettingZoo",
+    "faroit/awesome-python-scientific-audio",
     "FasterDecoding/Medusa",
     "FasterXML/jackson",
     "FasterXML/jackson-annotations",
@@ -5642,6 +5643,7 @@
     "ucbdrive/few-shot-object-detection",
     "uccl-project/uccl",
     "ucla-mobility/OpenCDA",
+    "ufal/whisper_streaming",
     "ufbx/ufbx",
     "ufoym/deepo",
     "ugorji/go",

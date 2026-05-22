@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1505,
-    "concepts": 1480,
-    "observations": 1489,
-    "repos": 149,
-    "terms": 1476
+    "components": 1471,
+    "concepts": 1461,
+    "observations": 1469,
+    "repos": 146,
+    "terms": 1457
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "actions/actions-runner-controller",
     "AdguardTeam/dnsproxy",
@@ -23,7 +23,6 @@
     "anthropics/anthropic-sdk-go",
     "apache/apisix-ingress-controller",
     "apache/dubbo-admin",
-    "apache/dubbo-go",
     "apache/incubator-devlake",
     "apache/incubator-seata-go",
     "aquasecurity/trivy-operator",
@@ -98,7 +97,6 @@
     "hashicorp/terraform-provider-helm",
     "helmfile/helmfile",
     "joshmedeski/sesh",
-    "klauspost/pgzip",
     "knative/eventing",
     "knative/serving",
     "ko-build/ko",
@@ -123,7 +121,6 @@
     "Loyalsoldier/geoip",
     "maragudk/gomponents",
     "miekg/dns",
-    "moby/buildkit",
     "mostlygeek/llama-swap",
     "NVIDIA/gpu-operator",
     "NVIDIA/k8s-device-plugin",

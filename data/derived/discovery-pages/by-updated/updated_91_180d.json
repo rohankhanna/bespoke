@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10704,
-    "concepts": 7477,
-    "observations": 7507,
-    "repos": 2047,
-    "terms": 7456
+    "components": 10711,
+    "concepts": 7490,
+    "observations": 7520,
+    "repos": 2050,
+    "terms": 7469
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0aids/imnodes",
@@ -97,7 +97,6 @@
     "ahrefs/opam-check-npm-deps",
     "ahrvoje/numerics",
     "ahujasid/blender-mcp",
-    "ai-bot-pro/achatbot-go",
     "ai-bot-pro/pipeline-py",
     "ai4co/rl4co",
     "aiagenta2z/onekey_mcp_router",
@@ -511,6 +510,7 @@
     "containrrr/watchtower",
     "Coobiw/IE-Critic-R1",
     "Coral-Protocol/coral-rs",
+    "cormacrelf/dark-notify",
     "corydolphin/flask-cors",
     "cosmos/ibc-proto-rs",
     "CosmWasm/cw-minus",
@@ -522,6 +522,7 @@
     "cpputest/cpputest",
     "cpuguy83/go-md2man",
     "crate-ci/gh-install",
+    "CrazyBoyM/llama3-Chinese-chat",
     "creachadair/imath",
     "create-dmg/create-dmg",
     "cristianbote/goober",
@@ -751,6 +752,7 @@
     "falcoframework/Falco.OpenApi",
     "faradayio/cage",
     "Farama-Foundation/Metaworld",
+    "faroit/awesome-python-scientific-audio",
     "FastFilter/xorfilter",
     "fastschema/fastschema",
     "fdschmidt93/telescope-egrepify.nvim",
@@ -2022,6 +2024,7 @@
     "xuanyuzhang21/RALI",
     "Xuyuanp/yanil",
     "yaahc/displaydoc",
+    "yamachu/VoicevoxCoreSwift",
     "yamachu/VoicevoxEngineSharp",
     "yaml/yaml-test-suite",
     "yashsinghcodes/wik",

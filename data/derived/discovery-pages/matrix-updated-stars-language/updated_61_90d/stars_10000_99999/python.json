@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 127,
-    "observations": 127,
-    "repos": 22,
-    "terms": 132
+    "components": 114,
+    "concepts": 134,
+    "observations": 134,
+    "repos": 23,
+    "terms": 139
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "Alibaba-NLP/DeepResearch",
     "cool-RR/PySnooper",
@@ -22,6 +22,7 @@
     "huggingface/text-generation-inference",
     "Jiayi-Pan/TinyZero",
     "KlingAIResearch/LivePortrait",
+    "localstack/localstack",
     "PaddlePaddle/PaddleDetection",
     "PKU-YuanGroup/Open-Sora-Plan",
     "powerline/powerline",

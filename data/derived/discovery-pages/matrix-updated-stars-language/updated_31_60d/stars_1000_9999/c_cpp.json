@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 875,
-    "concepts": 922,
-    "observations": 928,
-    "repos": 141,
-    "terms": 916
+    "components": 881,
+    "concepts": 924,
+    "observations": 930,
+    "repos": 142,
+    "terms": 918
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "Ableton/link",
     "ada-url/ada",
@@ -68,6 +68,7 @@
     "infiniflow/infinity",
     "inikep/lzbench",
     "intel/isa-l",
+    "jarro2783/cxxopts",
     "jbeder/yaml-cpp",
     "jolibrain/deepdetect",
     "KhronosGroup/MoltenVK",
@@ -98,6 +99,7 @@
     "microsoft/wil",
     "mitsuba-renderer/mitsuba3",
     "ml-explore/mlx-swift",
+    "Moddable-OpenSource/moddable",
     "nalgeon/sqlean",
     "netblue30/firejail",
     "nigels-com/glew",
@@ -153,7 +155,6 @@
     "wireshark/wireshark",
     "wjakob/nanobind",
     "ycm-core/ycmd",
-    "zeromq/cppzmq",
     "zlib-ng/zlib-ng"
   ]
 }

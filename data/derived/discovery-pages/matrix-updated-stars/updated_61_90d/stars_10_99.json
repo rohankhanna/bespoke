@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1616,
-    "concepts": 900,
-    "observations": 901,
-    "repos": 301,
-    "terms": 898
+    "components": 1618,
+    "concepts": 901,
+    "observations": 902,
+    "repos": 303,
+    "terms": 899
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -222,6 +222,7 @@
     "Lynxe-public/Lynxe-public-prompts",
     "malewicz1337/oil-git.nvim",
     "marko-js/examples",
+    "matelang/jwt-go-aws-kms",
     "mesh-iit/creo2urdf",
     "mfussenegger/nlua",
     "microsoft/react-native-winrt",
@@ -289,6 +290,7 @@
     "smuellerDD/acvpparser",
     "spring-ai-alibaba/website",
     "SqrtMinusOne/eshell-atuin",
+    "ssiu/flash-attention-turing",
     "standardrb/lint_roller",
     "storybookjs/addon-coverage",
     "stx-labs/connect",

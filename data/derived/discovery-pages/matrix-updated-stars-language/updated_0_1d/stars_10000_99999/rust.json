@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 1,
-    "terms": 11
+    "components": 37,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 2,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
-    "DioxusLabs/dioxus"
+    "DioxusLabs/dioxus",
+    "rust-lang/rust-analyzer"
   ]
 }

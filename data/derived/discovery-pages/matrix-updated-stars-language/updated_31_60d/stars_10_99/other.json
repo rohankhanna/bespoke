@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1004,
-    "concepts": 675,
-    "observations": 676,
-    "repos": 200,
-    "terms": 681
+    "components": 1025,
+    "concepts": 703,
+    "observations": 704,
+    "repos": 203,
+    "terms": 709
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xrsydn/nix-hermes-agent",
@@ -175,6 +175,7 @@
     "nvim-mini/mini.statusline",
     "oap-project/oap-mllib",
     "ocaml-opam/opam2web",
+    "ocurrent/docker-base-images",
     "ocurrent/obuilder",
     "ocurrent/ocluster",
     "ocurrent/ocurrent-deployer",
@@ -212,6 +213,8 @@
     "w3c/webmediaapi",
     "WebAssembly/custom-descriptors",
     "WebAssembly/custom-page-sizes",
+    "wp-cli/dist-archive-command",
+    "wp-cli/scaffold-package-command",
     "xledger/pod_sql_server",
     "yakir8/kosher_dart"
   ]

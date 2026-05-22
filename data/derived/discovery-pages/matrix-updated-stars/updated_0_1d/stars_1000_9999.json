@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1129,
-    "concepts": 470,
-    "observations": 472,
-    "repos": 54,
-    "terms": 470
+    "components": 1166,
+    "concepts": 513,
+    "observations": 516,
+    "repos": 57,
+    "terms": 513
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "apache/datafusion-ballista",
     "apollographql/apollo-tooling",
@@ -30,11 +30,11 @@
     "dkron-io/dkron",
     "dmtrKovalenko/fff",
     "dotnet/reactive",
+    "eclipse-openvsx/openvsx",
     "endojs/endo",
     "firebase/flutterfire",
     "fla-org/flash-linear-attention",
     "godot-rust/gdext",
-    "googleapis/google-api-go-client",
     "googleapis/google-auth-library-php",
     "googleapis/google-cloud-go",
     "googleapis/google-cloud-node",
@@ -46,26 +46,29 @@
     "KhronosGroup/KTX-Software",
     "kurrent-io/KurrentDB",
     "libbitcoin/libbitcoin-system",
+    "meta-pytorch/captum",
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
     "microsoft/aspire",
-    "microsoft/aspire-samples",
     "microsoft/vscode-js-debug",
     "module-federation/core",
     "nvim-tree/nvim-web-devicons",
     "ogx-ai/ogx",
     "podman-desktop/podman-desktop",
     "PrimeIntellect-ai/verifiers",
+    "psmux/psmux",
     "redis/redis-om-python",
     "rllm-org/rllm",
     "ROCm/ROCm",
     "safe-fndn/safe-smart-account",
     "swiftlang/llvm-project",
+    "swiftlang/swift-syntax",
     "TanStack/form",
     "TrenchBroom/TrenchBroom",
     "typescript-language-server/typescript-language-server",
     "vale-cli/vale",
     "vercel/serve",
+    "vuejs/language-tools",
     "web-platform-tests/wpt"
   ]
 }

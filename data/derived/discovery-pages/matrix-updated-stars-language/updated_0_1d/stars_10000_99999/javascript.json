@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 146,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 3,
-    "terms": 29
+    "components": 95,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 2,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "mui/material-ui",
-    "nwjs/nw.js",
-    "preactjs/preact"
+    "nwjs/nw.js"
   ]
 }

@@ -1,22 +1,21 @@
 {
   "counts": {
-    "components": 2878,
-    "concepts": 1339,
-    "observations": 1342,
-    "repos": 187,
-    "terms": 1327
+    "components": 2856,
+    "concepts": 1327,
+    "observations": 1330,
+    "repos": 184,
+    "terms": 1315
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "aannoo/hcom",
     "Aayushm24/presidential-briefing",
     "abap2UI5-addons/sql-console",
-    "abdeladim-s/pywhispercpp",
     "aburch/simutrans",
     "academic/awesome-datascience",
     "adamchainz/blacken-docs",
@@ -39,9 +38,7 @@
     "atsushieno/aap-juce-simple-host",
     "atsushieno/aap-lv2",
     "atsushieno/aap-lv2-string-machine",
-    "atsushieno/augene-ng",
     "atsushieno/midicci",
-    "atsushieno/resident-midi-keyboard",
     "atuinsh/atuin",
     "awslabs/aidlc-workflows",
     "bagofwords1/bagofwords",
@@ -82,7 +79,6 @@
     "foliojs/pdfkit",
     "FreneticLLC/FreneticGameEngine",
     "fuma-nama/fumadocs",
-    "funstory-ai/BabelDOC",
     "FxEmbed/FxEmbed",
     "g-plane/malva",
     "g-plane/markup_fmt",
@@ -130,6 +126,7 @@
     "marzer/tomlplusplus",
     "microsoft/MIDI",
     "microsoft/openjdk-docker",
+    "microsoft/openjdk-jdk11u",
     "microsoft/openjdk-jdk17u",
     "microsoft/openjdk-jdk21u",
     "Mithril-mine/libmdbx",

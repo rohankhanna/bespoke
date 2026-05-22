@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 893,
-    "concepts": 301,
-    "observations": 302,
+    "components": 896,
+    "concepts": 302,
+    "observations": 303,
     "repos": 213,
-    "terms": 333
+    "terms": 334
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "8144225309/superscalar-cln",
@@ -132,6 +132,7 @@
     "danielrosehill/Research-Tools-And-Templates-Index",
     "danielrosehill/Skills-Repos-Index",
     "danielrosehill/Speech-And-ASR-Evaluations",
+    "databendlabs/databend-base",
     "datachainlab/cosmos-bsc-ibc-lcp",
     "datachainlab/ibc-parlia-relay",
     "datafuse-extras/dtparse",
@@ -197,7 +198,6 @@
     "pragmatical-transshipment598/claude-code-workflows",
     "PrimeIntellect-ai/router",
     "prisma/cuid-rust",
-    "psmux/scoop-omp-manager",
     "redai-infra/TransferQueue",
     "redductive/securepixel",
     "roampal-ai/roampal-labs",

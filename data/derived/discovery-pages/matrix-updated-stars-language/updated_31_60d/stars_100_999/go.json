@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 765,
-    "concepts": 617,
-    "observations": 620,
-    "repos": 103,
-    "terms": 625
+    "components": 780,
+    "concepts": 627,
+    "observations": 630,
+    "repos": 105,
+    "terms": 635
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "AdguardTeam/AdGuardDNS",
@@ -20,6 +20,7 @@
     "AliyunContainerService/terway",
     "andybalholm/brotli",
     "apache/dubbo-go-pixiu",
+    "apache/dubbo-go-samples",
     "apache/dubbo-kubernetes",
     "appleboy/go-fcm",
     "argoproj-labs/argo-rollouts-manager",
@@ -68,6 +69,7 @@
     "hashicorp/go-discover",
     "hashicorp/hello-vault-go",
     "hashicorp/terraform-plugin-docs",
+    "hashicorp/terraform-plugin-framework",
     "hashicorp/terraform-plugin-go",
     "hashicorp/terraform-plugin-sdk",
     "hashicorp/terraform-provider-random",

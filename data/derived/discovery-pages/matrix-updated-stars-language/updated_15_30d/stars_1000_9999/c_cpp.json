@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1650,
-    "concepts": 1717,
-    "observations": 1718,
-    "repos": 199,
-    "terms": 1706
+    "components": 1642,
+    "concepts": 1710,
+    "observations": 1711,
+    "repos": 197,
+    "terms": 1699
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/OpenColorIO",
     "AcademySoftwareFoundation/openexr",
@@ -94,7 +94,6 @@
     "intel/compute-runtime",
     "intel/pcm",
     "ispc/ispc",
-    "jarro2783/cxxopts",
     "jd-opensource/xllm",
     "jeremycw/httpserver.h",
     "KhronosGroup/glslang",
@@ -137,7 +136,6 @@
     "miniupnp/miniupnp",
     "mintty/mintty",
     "mkazhdan/PoissonRecon",
-    "Moddable-OpenSource/moddable",
     "mruby/mruby",
     "mstorsjo/llvm-mingw",
     "NetHack/NetHack",

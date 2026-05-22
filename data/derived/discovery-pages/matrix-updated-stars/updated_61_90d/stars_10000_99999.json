@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 642,
-    "concepts": 389,
-    "observations": 391,
-    "repos": 66,
-    "terms": 401
+    "components": 662,
+    "concepts": 396,
+    "observations": 398,
+    "repos": 67,
+    "terms": 408
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -41,6 +41,7 @@
     "KlingAIResearch/LivePortrait",
     "knownsec/404StarLink",
     "kyleneideck/backgroundmusic",
+    "localstack/localstack",
     "logaretm/vee-validate",
     "lokesh/color-thief",
     "lxgw/LxgwWenKai",

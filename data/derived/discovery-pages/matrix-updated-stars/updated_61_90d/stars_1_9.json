@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 623,
-    "concepts": 443,
-    "observations": 444,
-    "repos": 135,
-    "terms": 437
+    "concepts": 440,
+    "observations": 441,
+    "repos": 134,
+    "terms": 434
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "0x676e67/0x676e67",
@@ -144,7 +144,6 @@
     "tzachar/sqlite_skim",
     "vectordotdev/heim",
     "vim-fuzzbox/fuzzbox-lsp.vim",
-    "yamachu/VoicevoxCoreSwift",
     "ylsdamxssjxxdd/nerv",
     "yoshoku/numo-libsvm",
     "zkcrypto/rfcs"

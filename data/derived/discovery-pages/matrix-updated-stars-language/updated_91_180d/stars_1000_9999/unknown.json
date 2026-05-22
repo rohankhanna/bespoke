@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 16,
-    "terms": 56
+    "components": 23,
+    "concepts": 59,
+    "observations": 59,
+    "repos": 17,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "ACh-K/Cubic-11",
     "antonbabenko/terraform-skill",
@@ -20,6 +20,7 @@
     "CLUEbenchmark/CLUECorpus2020",
     "datawhalechina/so-large-lm",
     "facebookresearch/moco",
+    "faroit/awesome-python-scientific-audio",
     "graalvm/graalvm-ce-builds",
     "jest-community/awesome-jest",
     "jorgebucaran/awsm.fish",

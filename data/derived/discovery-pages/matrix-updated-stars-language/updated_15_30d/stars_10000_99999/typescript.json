@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6413,
-    "concepts": 1230,
-    "observations": 1238,
-    "repos": 107,
-    "terms": 1228
+    "components": 6396,
+    "concepts": 1212,
+    "observations": 1220,
+    "repos": 106,
+    "terms": 1210
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
@@ -65,7 +65,6 @@
     "jupyterlab/jupyterlab",
     "Kong/insomnia",
     "kysely-org/kysely",
-    "labring/sealos",
     "lit/lit",
     "louislam/dockge",
     "mapbox/mapbox-gl-js",

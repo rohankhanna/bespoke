@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 519,
-    "concepts": 333,
-    "observations": 334,
-    "repos": 46,
-    "terms": 333
+    "components": 439,
+    "concepts": 297,
+    "observations": 298,
+    "repos": 42,
+    "terms": 297
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "15r10nk/inline-snapshot",
@@ -38,21 +38,17 @@
     "google-deepmind/xmanager",
     "googlefonts/roboto-3-classic",
     "googlefonts/ufo2ft",
-    "hexabot-ai/Hexabot",
     "huggingface/hf-mcp-server",
     "Jamorim-esss/pytest-rich",
     "karafka/rdkafka-ruby",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
-    "matter-js/matter.js",
-    "mightyiam/eslint-config-love",
     "mingw-w64/mingw-w64",
     "NCAS-CMS/pyfive",
     "nginx-le/nginx-le",
     "openbsd/ports",
     "openjdk/jdk11u",
     "pyOpenSci/software-submission",
-    "pyrtlsdr/pyrtlsdr",
     "ROCm/rocBLAS",
     "scverse/rapids-singlecell",
     "spring-projects/spring-tools",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4026,
-    "concepts": 2810,
-    "observations": 2816,
-    "repos": 713,
-    "terms": 2800
+    "components": 4031,
+    "concepts": 2813,
+    "observations": 2819,
+    "repos": 714,
+    "terms": 2803
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "0k/shyaml",
     "10up/action-wordpress-plugin-asset-update",
@@ -196,6 +196,7 @@
     "com-lihaoyi/utest",
     "connectrpc/grpcreflect-go",
     "conor42/fast-lzma2",
+    "cormacrelf/dark-notify",
     "corydolphin/flask-cors",
     "CosmWasm/cw-plus",
     "countries/country_select",

@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 671,
-    "concepts": 324,
-    "observations": 326,
+    "concepts": 327,
+    "observations": 329,
     "repos": 207,
-    "terms": 335
+    "terms": 338
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -26,7 +26,6 @@
     "adrozdenko/error-toon",
     "Afnanksalal/co-op",
     "ahrefs/opam-check-npm-deps",
-    "ai-bot-pro/achatbot-go",
     "ai-bot-pro/pipeline-py",
     "aiagenta2z/onekey_mcp_router",
     "airowe/claude-a11y-skill",
@@ -218,6 +217,7 @@
     "volodya-lombrozo/neotest-ruby-minitest",
     "xazukx/ts-rs",
     "XR-Robotics/XRoboToolkit-Orin-Video-Sender",
+    "yamachu/VoicevoxCoreSwift",
     "zen-eth/multiformats-zig",
     "zwowo1997/pack-repo-4ai"
   ]

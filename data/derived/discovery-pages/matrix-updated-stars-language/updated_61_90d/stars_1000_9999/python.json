@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 204,
-    "concepts": 377,
-    "observations": 377,
-    "repos": 70,
-    "terms": 371
+    "components": 216,
+    "concepts": 394,
+    "observations": 394,
+    "repos": 72,
+    "terms": 388
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "adrienverge/yamllint",
     "AgentOps-AI/agentops",
@@ -30,10 +30,10 @@
     "bytetriper/RAE",
     "ChenmienTan/RL2",
     "cheshire-cat-ai/core",
-    "CrazyBoyM/llama3-Chinese-chat",
     "daijro/browserforge",
     "dateutil/dateutil",
     "django/asgiref",
+    "dolfies/discord.py-self",
     "dynaconf/dynaconf",
     "explosion/spacy-models",
     "facebookresearch/fvcore",
@@ -53,6 +53,7 @@
     "langfengQ/verl-agent",
     "lshqqytiger/stable-diffusion-webui-amdgpu",
     "lyuwenyu/RT-DETR",
+    "microsoft/TaskWeaver",
     "miolini/autoresearch-macos",
     "mozillazg/pinyin-data",
     "nunchaku-ai/nunchaku",
@@ -79,6 +80,7 @@
     "themix-project/themix-gui",
     "trevin-creator/autoresearch-mlx",
     "turboderp-org/exllamav2",
+    "Vchitect/VBench",
     "yangyanli/PointCNN",
     "YosysHQ/icestorm",
     "yxlllc/DDSP-SVC",

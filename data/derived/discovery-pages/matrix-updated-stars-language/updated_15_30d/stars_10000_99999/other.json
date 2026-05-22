@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1341,
-    "concepts": 1164,
-    "observations": 1168,
-    "repos": 109,
-    "terms": 1156
+    "components": 1328,
+    "concepts": 1142,
+    "observations": 1146,
+    "repos": 107,
+    "terms": 1134
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "abpframework/abp",
@@ -91,13 +91,11 @@
     "NickeManarin/ScreenToGif",
     "nim-lang/Nim",
     "NixOS/nixpkgs",
-    "nvim-telescope/telescope.nvim",
     "OAI/OpenAPI-Specification",
     "openai/openai-cookbook",
     "phoenixframework/phoenix",
     "phpstan/phpstan",
     "PowerShell/PowerShell",
-    "rails/rails",
     "rapid7/metasploit-framework",
     "rubocop/rubocop",
     "ruby/ruby",

@@ -3,7 +3,7 @@
     "components": 895,
     "concepts": 3705,
     "observations": 3707,
-    "repos": 950,
+    "repos": 951,
     "terms": 3640
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -880,6 +880,7 @@
     "ubisoft/ubisoft-laforge-animation-dataset",
     "ucbdrive/few-shot-object-detection",
     "ucla-mobility/OpenCDA",
+    "ufal/whisper_streaming",
     "UN-GCPDS/qt-material",
     "Unakar/Logic-RL",
     "unitreerobotics/unitree_rl_gym",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 201,
-    "concepts": 128,
-    "observations": 128,
-    "repos": 25,
-    "terms": 128
+    "components": 235,
+    "concepts": 141,
+    "observations": 141,
+    "repos": 26,
+    "terms": 141
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "aidenlab/hic-straw",
@@ -29,14 +29,15 @@
     "honwen/openwrt-dnsmasq-extra",
     "intel-staging/text-generation-webui",
     "karafka/example-apps",
+    "lumen-oss/luarocks-tag-release",
     "mesh-iit/cad-libraries",
-    "microsoft/openjdk-jdk11u",
     "nuxt-modules/emotion",
     "nvim-mini/mini.deps",
     "openjdk/jdk11u-dev",
     "openjdk/jdk17u-dev",
     "openjdk/jdk21u-dev",
     "storybook-community/addon-queryparams",
-    "vaporif/parry-guard"
+    "vaporif/parry-guard",
+    "windsonR/vite-plugin-virtual-html"
   ]
 }

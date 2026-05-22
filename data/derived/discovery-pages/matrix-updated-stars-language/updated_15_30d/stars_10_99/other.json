@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1421,
-    "concepts": 825,
-    "observations": 829,
-    "repos": 190,
-    "terms": 821
+    "components": 1410,
+    "concepts": 808,
+    "observations": 812,
+    "repos": 189,
+    "terms": 804
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "3rd/config",
     "AarshBatra/biteSizedAQ",
@@ -40,8 +40,10 @@
     "ArmandPhilippot/coldark",
     "ast-grep/ast-grep.github.io",
     "atsushieno/android-ci-package-installer",
+    "atsushieno/augene-ng",
     "atsushieno/compose-audio-controls",
     "atsushieno/mugene-ng",
+    "atsushieno/resident-midi-keyboard",
     "aws-otel/aws-otel.github.io",
     "b-data/jupyterlab-python-docker-stack",
     "b-data/jupyterlab-r-docker-stack",
@@ -145,7 +147,6 @@
     "nodenv/homebrew-nodenv",
     "NVIDIA/DALI_extra",
     "ocaml-tracing/ocaml-tracy",
-    "ocurrent/docker-base-images",
     "ocurrent/ocaml-dockerfile",
     "oliyh/carve.el",
     "open-edge-platform/geti-instant-learn",
@@ -201,8 +202,6 @@
     "uvarc/rivanna-docker",
     "VirtusLab/bazel-steward",
     "WebAssembly/shared-everything-threads",
-    "wp-cli/dist-archive-command",
-    "wp-cli/scaffold-package-command",
     "yamachu/VoicevoxCoreSharp"
   ]
 }

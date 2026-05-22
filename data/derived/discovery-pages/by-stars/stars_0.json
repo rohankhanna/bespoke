@@ -3,14 +3,14 @@
     "components": 2892,
     "concepts": 1209,
     "observations": 1213,
-    "repos": 911,
+    "repos": 910,
     "terms": 1240
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "0aids/imnodes",
@@ -796,7 +796,6 @@
     "PrimeIntellect-ai/router",
     "prisma/cuid-rust",
     "probe-lab/github-mgmt",
-    "psmux/scoop-omp-manager",
     "puffyyy/PCSim",
     "py-cov-action/python-coverage-comment-action-v3-example",
     "qiayuanl/unitree_buildfarm",

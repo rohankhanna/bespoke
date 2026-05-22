@@ -3,7 +3,7 @@
     "components": 46,
     "concepts": 7,
     "observations": 7,
-    "repos": 4,
+    "repos": 3,
     "terms": 7
   },
   "facet_version": 1,
@@ -11,9 +11,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
-    "abdeladim-s/pywhispercpp",
     "atsushieno/aap-lv2-string-machine",
     "Luligu/matterbridge-eve-door",
     "starfishmod/bonjour-service"

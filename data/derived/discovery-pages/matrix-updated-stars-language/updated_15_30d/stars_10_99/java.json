@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 148,
-    "concepts": 127,
-    "observations": 128,
-    "repos": 30,
-    "terms": 124
+    "components": 137,
+    "concepts": 122,
+    "observations": 123,
+    "repos": 28,
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "Accla/graphulo",
     "apache/ignite-extensions",
-    "apache/netbeans-mavenutils-nbm-maven-plugin",
     "BerkleyTechnologyServices/restdocs-spec",
     "BerkleyTechnologyServices/restdocs-spec-example",
     "bufbuild/protovalidate-java",
@@ -42,7 +41,6 @@
     "smithy-lang/smithy-examples",
     "spiffe/java-spiffe",
     "usdot-fhwa-stol/carma-cloud",
-    "usdot-fhwa-stol/cdasim",
-    "yawkat/lz4-java"
+    "usdot-fhwa-stol/cdasim"
   ]
 }

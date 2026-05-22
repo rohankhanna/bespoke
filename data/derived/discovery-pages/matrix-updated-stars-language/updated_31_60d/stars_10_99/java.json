@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 129,
-    "concepts": 139,
-    "observations": 141,
-    "repos": 30,
-    "terms": 138
+    "components": 140,
+    "concepts": 144,
+    "observations": 146,
+    "repos": 32,
+    "terms": 143
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "agentclientprotocol/java-sdk",
     "akarnokd/RxJavaFiberInterop",
@@ -21,6 +21,7 @@
     "apache/datasketches-hive",
     "apache/datasketches-pig",
     "apache/flink-connector-pulsar",
+    "apache/netbeans-mavenutils-nbm-maven-plugin",
     "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
     "bazel-contrib/rules_jvm",
     "bobbylight/RSTALanguageSupport",
@@ -43,6 +44,7 @@
     "simonpoole/OpeningHoursFragment",
     "smithy-lang/smithy-dafny",
     "xmlark/msv",
+    "yawkat/lz4-java",
     "zai-org/z-ai-sdk-java"
   ]
 }

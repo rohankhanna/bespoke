@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 10,
-    "terms": 35
+    "components": 20,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 11,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "agenticnotetaking/arscontexta",
     "automazeio/ccpm",
@@ -22,6 +22,7 @@
     "oschwartz10612/poppler-windows",
     "Pal3love/dream-han-cjk",
     "Pal3love/Source-Han-TrueType",
+    "pgsty/pigsty",
     "tianon/gosu",
     "zplug/zplug"
   ]

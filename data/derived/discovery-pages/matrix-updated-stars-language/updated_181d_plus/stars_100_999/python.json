@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1206,
-    "concepts": 5482,
-    "observations": 5487,
-    "repos": 1844,
-    "terms": 5331
+    "components": 1208,
+    "concepts": 5487,
+    "observations": 5492,
+    "repos": 1847,
+    "terms": 5335
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -988,6 +988,7 @@
     "kanadeblisst00/wechat_ocr",
     "kanishkg/cognitive-behaviors",
     "katerakelly/oyster",
+    "KdaiP/StableTTS",
     "kdexd/virtex",
     "keeeeenw/MicroLlama",
     "KellerJordan/cifar10-airbench",
@@ -1756,6 +1757,7 @@
     "xindongzhang/ECBSR",
     "xinge008/Cylinder3D",
     "XinhaoMei/WavCaps",
+    "xinjli/transphone",
     "xinntao/BasicSR-examples",
     "xinntao/facexlib",
     "xinntao/HandyView",
@@ -1770,6 +1772,7 @@
     "xuchen-ethz/snarf",
     "XuyangBai/TransFusion",
     "xy-guo/MVSNet_pytorch",
+    "yangdongchao/AcademiCodec",
     "yangdongchao/SoundStorm",
     "yangjianxin1/Firefly-LLaMA2-Chinese",
     "yangjianxin1/LLMPruner",

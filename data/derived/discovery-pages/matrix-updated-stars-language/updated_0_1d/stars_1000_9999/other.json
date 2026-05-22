@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 143,
-    "concepts": 104,
-    "observations": 104,
-    "repos": 12,
-    "terms": 104
+    "components": 139,
+    "concepts": 116,
+    "observations": 116,
+    "repos": 13,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "babashka/sci",
     "clj-kondo/clj-kondo",
@@ -22,9 +22,10 @@
     "googleapis/google-auth-library-php",
     "kurrent-io/KurrentDB",
     "microsoft/aspire",
-    "microsoft/aspire-samples",
     "nvim-tree/nvim-web-devicons",
+    "psmux/psmux",
     "swiftlang/llvm-project",
+    "swiftlang/swift-syntax",
     "web-platform-tests/wpt"
   ]
 }

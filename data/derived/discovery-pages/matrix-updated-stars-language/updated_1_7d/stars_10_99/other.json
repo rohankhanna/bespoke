@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 43,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 3,
-    "terms": 11
+    "components": 52,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 4,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "f3liz-casa/noraneko",
     "karafka/example-apps",
+    "lumen-oss/luarocks-tag-release",
     "nvim-mini/mini.deps"
   ]
 }

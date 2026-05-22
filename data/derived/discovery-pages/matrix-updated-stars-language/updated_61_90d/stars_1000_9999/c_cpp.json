@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 122,
-    "concepts": 224,
-    "observations": 225,
-    "repos": 43,
-    "terms": 218
+    "components": 124,
+    "concepts": 229,
+    "observations": 230,
+    "repos": 44,
+    "terms": 223
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "akheron/jansson",
@@ -56,6 +56,7 @@
     "void-linux/xbps",
     "wang-xinyu/tensorrtx",
     "xlite-dev/lite.ai.toolkit",
-    "zardus/preeny"
+    "zardus/preeny",
+    "zeromq/cppzmq"
   ]
 }

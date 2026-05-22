@@ -3,7 +3,7 @@
     "components": 44,
     "concepts": 72,
     "observations": 72,
-    "repos": 59,
+    "repos": 60,
     "terms": 72
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "2KAbhishek/BWnB",
@@ -69,6 +69,7 @@
     "nodejs/web-team",
     "nttstar/insightface-resources",
     "piebald-ai/piebald-issues",
+    "psmux/scoop-omp-manager",
     "ScoopInstaller/.github",
     "sigstore/architecture-docs",
     "sp1-patches/bn",

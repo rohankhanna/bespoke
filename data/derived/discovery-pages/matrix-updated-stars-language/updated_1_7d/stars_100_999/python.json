@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 97,
-    "concepts": 69,
-    "observations": 69,
-    "repos": 13,
-    "terms": 69
+    "components": 87,
+    "concepts": 68,
+    "observations": 68,
+    "repos": 12,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "aristoteleo/PantheonOS",
@@ -23,7 +23,6 @@
     "googlefonts/ufo2ft",
     "Jamorim-esss/pytest-rich",
     "NCAS-CMS/pyfive",
-    "pyrtlsdr/pyrtlsdr",
     "scverse/rapids-singlecell",
     "TextArena/TextArena",
     "tox-dev/filelock"

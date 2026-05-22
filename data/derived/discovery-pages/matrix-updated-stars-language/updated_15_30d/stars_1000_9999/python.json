@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2486,
-    "concepts": 2640,
-    "observations": 2651,
-    "repos": 289,
-    "terms": 2621
+    "components": 2463,
+    "concepts": 2605,
+    "observations": 2616,
+    "repos": 283,
+    "terms": 2587
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "a2aproject/a2a-python",
@@ -71,7 +71,6 @@
     "codespell-project/codespell",
     "coin-or/pulp",
     "commonmark/commonmark-spec",
-    "conan-io/conan-center-index",
     "conda/conda",
     "confluentinc/cp-all-in-one",
     "containers/ramalama",
@@ -99,6 +98,7 @@
     "fonttools/fonttools",
     "fsspec/filesystem_spec",
     "fsspec/s3fs",
+    "funstory-ai/BabelDOC",
     "FuzzyGrim/Yamtrack",
     "galaxyproject/galaxy",
     "geopandas/geopandas",
@@ -127,7 +127,6 @@
     "intel/neural-compressor",
     "InternLM/lagent",
     "InternLM/lmdeploy",
-    "InternLM/Tutorial",
     "InternLM/xtuner",
     "isaac-sim/IsaacLab",
     "jawah/niquests",
@@ -140,7 +139,6 @@
     "kubeflow/spark-operator",
     "kubernetes-client/python",
     "LawRefBook/Laws",
-    "LazyAGI/LazyLLM",
     "leggedrobotics/rsl_rl",
     "lhotse-speech/lhotse",
     "librosa/librosa",
@@ -159,7 +157,6 @@
     "mesonbuild/meson",
     "meta-pytorch/data",
     "meta-pytorch/torchrec",
-    "mherrmann/helium",
     "MIC-DKFZ/nnUNet",
     "microsoft/agent-framework",
     "microsoft/CameraTraps",
@@ -172,7 +169,6 @@
     "milvus-io/pymilvus",
     "miurahr/aqtinstall",
     "mjun0812/flash-attention-prebuild-wheels",
-    "ml-explore/mlx-lm",
     "ModelCloud/GPTQModel",
     "modelscope/evalscope",
     "ModelTC/LightLLM",
@@ -206,7 +202,6 @@
     "open-telemetry/opentelemetry-python",
     "open-telemetry/opentelemetry-python-contrib",
     "OpenBMB/UltraRAG",
-    "opendatalab/labelU",
     "OpenDroneMap/ODM",
     "openvinotoolkit/nncf",
     "openvinotoolkit/open_model_zoo",
@@ -256,7 +251,6 @@
     "roboflow/inference",
     "scikit-image/scikit-image",
     "secretflow/secretflow",
-    "shapely/shapely",
     "shenweichen/DeepCTR",
     "shenweichen/GraphEmbedding",
     "shibing624/MedicalGPT",

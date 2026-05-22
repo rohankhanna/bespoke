@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 254,
-    "concepts": 85,
-    "observations": 85,
-    "repos": 9,
-    "terms": 85
+    "components": 184,
+    "concepts": 50,
+    "observations": 50,
+    "repos": 6,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "abaplint/transpiler",
     "antvis/GPT-Vis",
     "Brendonovich/MacroGraph",
     "fluent-vue/fluent-vue",
-    "hexabot-ai/Hexabot",
-    "huggingface/hf-mcp-server",
-    "matter-js/matter.js",
-    "mightyiam/eslint-config-love"
+    "huggingface/hf-mcp-server"
   ]
 }

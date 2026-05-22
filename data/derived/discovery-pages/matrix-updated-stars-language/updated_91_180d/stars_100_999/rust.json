@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 326,
-    "concepts": 226,
-    "observations": 229,
-    "repos": 56,
-    "terms": 225
+    "components": 331,
+    "concepts": 229,
+    "observations": 232,
+    "repos": 57,
+    "terms": 228
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "alexheretic/ab-glyph",
     "astro/deadnix",
@@ -22,6 +22,7 @@
     "browserslist/browserslist-rs",
     "Builditluc/wiki-tui",
     "callum-oakley/json5-rs",
+    "cormacrelf/dark-notify",
     "CosmWasm/cw-plus",
     "cuviper/autocfg",
     "dimforge/simba",

@@ -3,7 +3,7 @@
     "components": 455,
     "concepts": 341,
     "observations": 341,
-    "repos": 272,
+    "repos": 271,
     "terms": 344
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -103,7 +103,6 @@
     "CREAsTIVE/LSP-rustowl",
     "csstree/sublimelinter-contrib-csstree",
     "ctz/hpke-py",
-    "d0c-s4vage/lookatme.contrib.qrcode",
     "dani-maarouf/psqlparse2",
     "danielrosehill/Agent-SDK-Env-Setup",
     "danielrosehill/Agentic-Context-Development-Interview-Demo",

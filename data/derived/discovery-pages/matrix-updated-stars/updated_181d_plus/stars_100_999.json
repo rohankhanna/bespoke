@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15189,
-    "concepts": 13695,
-    "observations": 13721,
-    "repos": 4518,
-    "terms": 13480
+    "components": 15191,
+    "concepts": 13717,
+    "observations": 13743,
+    "repos": 4522,
+    "terms": 13499
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -1311,6 +1311,7 @@
     "Doubiiu/CodeTalker",
     "dougbrion/pytorch-classification-uncertainty",
     "dpfried/incoder",
+    "dqqcasia/awesome-speech-translation",
     "dracula/dracula-ui",
     "dranjan/python-plyfile",
     "drduh/Purse",
@@ -2431,6 +2432,7 @@
     "katerakelly/oyster",
     "kaylorchen/rk3588-yolo-demo",
     "kayru/Probulator",
+    "KdaiP/StableTTS",
     "kdexd/virtex",
     "kdheepak/tabline.nvim",
     "Keboo/MaterialDesignInXaml.Examples",
@@ -4379,6 +4381,7 @@
     "xindongzhang/ECBSR",
     "xinge008/Cylinder3D",
     "XinhaoMei/WavCaps",
+    "xinjli/transphone",
     "xinntao/BasicSR-examples",
     "xinntao/facexlib",
     "xinntao/HandyFigure",
@@ -4407,6 +4410,7 @@
     "xzfc/cached-nix-shell",
     "yaegassy/coc-volar",
     "yandex-research/navigan",
+    "yangdongchao/AcademiCodec",
     "yangdongchao/SoundStorm",
     "yangjianxin1/Firefly-LLaMA2-Chinese",
     "yangjianxin1/LLMPruner",

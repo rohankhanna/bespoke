@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 45,
-    "concepts": 128,
-    "observations": 128,
-    "repos": 22,
-    "terms": 128
+    "concepts": 125,
+    "observations": 125,
+    "repos": 21,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "ad-si/awesome-music-production",
     "aws-controllers-k8s/community",
@@ -33,7 +33,6 @@
     "QwenLM/Qwen3.6",
     "runetfreedom/russia-v2ray-rules-dat",
     "rustsec/advisory-db",
-    "web-padawan/awesome-lit",
     "yokoffing/filterlists",
     "yokoffing/NextDNS-Config"
   ]

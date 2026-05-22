@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 189,
-    "concepts": 162,
-    "observations": 162,
-    "repos": 48,
-    "terms": 162
+    "components": 167,
+    "concepts": 161,
+    "observations": 161,
+    "repos": 47,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "aimeos/ai-monolog",
-    "apache/netbeans-antora-ui",
     "appsignal/appsignal-elixir-plug",
     "b-data/jupyterlab-julia-docker-stack",
     "b-data/jupyterlab-mojo-docker-stack",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4690,
-    "concepts": 1015,
-    "observations": 1017,
-    "repos": 137,
-    "terms": 1124
+    "components": 4748,
+    "concepts": 1023,
+    "observations": 1025,
+    "repos": 138,
+    "terms": 1132
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -147,6 +147,7 @@
     "TypeStrong/ts-loader",
     "vega/vega-lite",
     "vercel/next-learn",
+    "vuejs/eslint-plugin-vue",
     "webgpu/webgpu-samples",
     "wighawag/hardhat-deploy",
     "withastro/starlight",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2645,
-    "concepts": 1275,
-    "observations": 1275,
-    "repos": 374,
-    "terms": 1297
+    "components": 2674,
+    "concepts": 1280,
+    "observations": 1280,
+    "repos": 377,
+    "terms": 1302
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "0xPolygonHermez/pil2-proofman-js",
@@ -70,6 +70,7 @@
     "anojndr/grok-to-openai",
     "apache/dubbo-go-extensions",
     "apache/netbeans-antora",
+    "apache/netbeans-antora-ui",
     "aporthq/aport-spec",
     "apptainer/apptainer-admindocs",
     "apptainer/apptainer-userdocs",
@@ -80,6 +81,7 @@
     "Asmod4n/mruby-argon2",
     "Asmod4n/mruby-fast-json",
     "aspect-build/tools_telemetry",
+    "astropy/repo_stats",
     "astroyat/lerobot",
     "audeering/audonnx",
     "axolotl-ai-cloud/ml-cross-entropy",
@@ -309,6 +311,7 @@
     "piqrypt/piqrypt",
     "pkgxdev/bpb",
     "poolifier/tatami-ng",
+    "psmux/scoop-omp-manager",
     "ptsochantaris/trailer-json",
     "pyrtlsdr/pyrtlsdrlib",
     "qcr/qcr.github.io",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2630,
-    "concepts": 1593,
-    "observations": 1597,
-    "repos": 320,
-    "terms": 1604
+    "components": 2650,
+    "concepts": 1622,
+    "observations": 1626,
+    "repos": 324,
+    "terms": 1633
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "3rd/image.nvim",
@@ -86,7 +86,6 @@
     "containers/bubblewrap",
     "coocood/freecache",
     "cosmiconfig/cosmiconfig",
-    "CrazyBoyM/llama3-Chinese-chat",
     "crossbario/autobahn-js",
     "crossbeam-rs/crossbeam",
     "csstree/csstree",
@@ -105,6 +104,7 @@
     "dimitri/el-get",
     "django/asgiref",
     "docker/for-mac",
+    "dolfies/discord.py-self",
     "dop251/goja",
     "dtolnay/proc-macro-workshop",
     "duckdb/pg_duckdb",
@@ -201,6 +201,7 @@
     "mhinz/vim-signify",
     "michalmuskala/jason",
     "microsoft/onnxruntime-inference-examples",
+    "microsoft/TaskWeaver",
     "minio/operator",
     "miolini/autoresearch-macos",
     "mitsuba-renderer/nanogui",
@@ -250,6 +251,7 @@
     "peers/peerjs-server",
     "pfnet/pfrl",
     "pgpartman/pg_partman",
+    "pgsty/pigsty",
     "posva/unplugin-vue-router",
     "preservim/vimux",
     "projectfluent/fluent",
@@ -318,6 +320,7 @@
     "v2fly/v2ray-examples",
     "vadimdemedes/pastel",
     "varvet/pundit",
+    "Vchitect/VBench",
     "vcr/vcr",
     "vkhorikov/CSharpFunctionalExtensions",
     "void-linux/xbps",
@@ -329,6 +332,7 @@
     "yxlllc/DDSP-SVC",
     "z-x-yang/Segment-and-Track-Anything",
     "zardus/preeny",
+    "zeromq/cppzmq",
     "ZhengPeng7/BiRefNet",
     "zkcrypto/bellman",
     "zplug/zplug",

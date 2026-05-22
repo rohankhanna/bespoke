@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1199,
-    "concepts": 1194,
-    "observations": 1196,
-    "repos": 164,
-    "terms": 1195
+    "components": 1233,
+    "concepts": 1213,
+    "observations": 1216,
+    "repos": 167,
+    "terms": 1214
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
     "alecthomas/chroma",
     "alexellis/arkade",
     "alibaba/higress",
+    "apache/dubbo-go",
     "appleboy/gorush",
     "apptainer/apptainer",
     "aquasecurity/starboard",
@@ -110,6 +111,7 @@
     "istio/community",
     "itchyny/gojq",
     "klauspost/compress",
+    "klauspost/pgzip",
     "korotovsky/slack-mcp-server",
     "kuberhealthy/kuberhealthy",
     "kubernetes-sigs/controller-runtime",
@@ -127,6 +129,7 @@
     "Masterminds/semver",
     "mattn/goreman",
     "maypok86/otter",
+    "moby/buildkit",
     "mvdan/sh",
     "nginx-proxy/docker-gen",
     "nikolaydubina/go-recipes",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2982,
-    "concepts": 2080,
-    "observations": 2081,
-    "repos": 329,
-    "terms": 2070
+    "components": 2952,
+    "concepts": 2061,
+    "observations": 2062,
+    "repos": 326,
+    "terms": 2051
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "abap2UI5/abap2UI5",
@@ -75,7 +75,6 @@
     "clojure-emacs/orchard",
     "clojure-emacs/refactor-nrepl",
     "cloudfoundry/cloud_controller_ng",
-    "cloudwego/cloudwego.github.io",
     "cmullaparthi/ibrowse",
     "codiume/orbit",
     "cognitect-labs/aws-api",
@@ -222,7 +221,6 @@
     "mapbox/mapbox-maps-android",
     "mapbox/mapbox-maps-ios",
     "marella/material-symbols",
-    "MasterJ93/ATProtoKit",
     "mbj/unparser",
     "melange-re/melange",
     "metosin/schema-tools",
@@ -339,7 +337,6 @@
     "w3c/aria",
     "weaviate/recipes",
     "WebAssembly/meetings",
-    "WebAssembly/threads",
     "yegappan/lsp",
     "zcash/zips",
     "zephyr-data-specs/GMNS"

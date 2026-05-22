@@ -11,7 +11,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -100,6 +100,7 @@
     "agentsea/mllm",
     "agentsea/skillpacks",
     "agentsea/threadmem",
+    "ai-bot-pro/achatbot-go",
     "aidenlab/JuiceboxGUI",
     "aidenlab/pyStraw",
     "aiidateam/archive-path",
@@ -419,7 +420,6 @@
     "Cydral/Dlib-ImageNet-Datasets",
     "Cydral/dlib-models-training",
     "Cydral/FFspider",
-    "d0c-s4vage/lookatme.contrib.qrcode",
     "d3ara1n/arcbot",
     "d99kris/doxygenmd",
     "dabevlohn/rand16",
@@ -1289,7 +1289,7 @@
     "travis-ci/travis-packer-build",
     "travis-infrastructure/packer-build",
     "triton-inference-server/contrib",
-    "tritondatacenter/node-cmdutil",
+    "TritonDataCenter/node-cmdutil",
     "turbofish-org/abci2",
     "turner/swt2sw",
     "UBC-NLP/Cheetah",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2769,
-    "concepts": 2479,
-    "observations": 2489,
-    "repos": 484,
-    "terms": 2455
+    "components": 2771,
+    "concepts": 2486,
+    "observations": 2496,
+    "repos": 486,
+    "terms": 2462
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2shady4u/godot-sqlite",
@@ -120,6 +120,7 @@
     "containernetworking/cni",
     "cpm-cmake/CPM.cmake",
     "cpputest/cpputest",
+    "CrazyBoyM/llama3-Chinese-chat",
     "create-dmg/create-dmg",
     "cristianbote/goober",
     "crossbario/autobahn-python",
@@ -162,6 +163,7 @@
     "facebookresearch/moco",
     "facebookresearch/pytorchvideo",
     "Farama-Foundation/Metaworld",
+    "faroit/awesome-python-scientific-audio",
     "fengari-lua/fengari",
     "file-icons/atom",
     "fixie-ai/ultravox",

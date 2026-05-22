@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 179,
-    "concepts": 137,
-    "observations": 138,
-    "repos": 32,
-    "terms": 136
+    "components": 174,
+    "concepts": 134,
+    "observations": 135,
+    "repos": 31,
+    "terms": 133
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
     "ashvardanian/StringWars",
     "bet4it/udbserver",
     "blyxxyz/lexopt",
-    "cormacrelf/dark-notify",
     "cowboy8625/rusty-rain",
     "esp-rs/embedded-svc",
     "fast/logforth",

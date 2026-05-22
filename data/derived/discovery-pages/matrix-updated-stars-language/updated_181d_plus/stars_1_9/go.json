@@ -3,7 +3,7 @@
     "components": 167,
     "concepts": 116,
     "observations": 116,
-    "repos": 67,
+    "repos": 68,
     "terms": 115
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "0ghny/tlsg10x-cli",
     "13rac1/goldmark-embed",
@@ -20,6 +20,7 @@
     "aarondl/authboss-clientstate",
     "adalkiran/go-inventa",
     "adalkiran/inventa-examples",
+    "ai-bot-pro/achatbot-go",
     "akhettar/gin-jwt-cognito",
     "alexellis/discord-updater",
     "amanbolat/zederr",

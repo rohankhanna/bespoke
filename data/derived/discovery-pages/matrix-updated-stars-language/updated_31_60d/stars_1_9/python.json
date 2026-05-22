@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 212,
-    "concepts": 131,
-    "observations": 131,
-    "repos": 60,
-    "terms": 148
+    "components": 219,
+    "concepts": 135,
+    "observations": 135,
+    "repos": 61,
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "adaumann/speckit-preset-fiction-book-writing",
     "agenmod/distill-protocol-skill",
@@ -25,6 +25,7 @@
     "apptainer/apptainer-admindocs",
     "apptainer/apptainer-userdocs",
     "ashvardanian/ashvardanian",
+    "astropy/repo_stats",
     "astroyat/lerobot",
     "audeering/audonnx",
     "axolotl-ai-cloud/ml-cross-entropy",

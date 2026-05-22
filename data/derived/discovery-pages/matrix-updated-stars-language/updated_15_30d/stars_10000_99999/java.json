@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 305,
-    "concepts": 342,
-    "observations": 344,
-    "repos": 28,
-    "terms": 339
+    "components": 288,
+    "concepts": 328,
+    "observations": 330,
+    "repos": 26,
+    "terms": 325
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
-    "alibaba/druid",
     "apache/doris",
     "apache/dubbo",
-    "apache/incubator-seata",
     "apache/kafka",
     "apache/pulsar",
     "apache/rocketmq",

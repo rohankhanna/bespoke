@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 50249,
-    "concepts": 34768,
-    "observations": 34873,
-    "repos": 8562,
-    "terms": 34632
+    "components": 50251,
+    "concepts": 34790,
+    "observations": 34895,
+    "repos": 8566,
+    "terms": 34650
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0k/shyaml",
@@ -2525,6 +2525,7 @@
     "dperini/nwsapi",
     "dpfried/incoder",
     "dprint/dprint-plugin-typescript",
+    "dqqcasia/awesome-speech-translation",
     "dracula/dracula-ui",
     "drahnr/cargo-spellcheck",
     "dranjan/python-plyfile",
@@ -4616,6 +4617,7 @@
     "kaylorchen/rk3588-yolo-demo",
     "kayru/Probulator",
     "KBH00/Semantic-Fast-SAM",
+    "KdaiP/StableTTS",
     "KDE/breeze-icons",
     "kdexd/virtex",
     "kdheepak/panvimdoc",
@@ -8346,6 +8348,7 @@
     "xingchensong/S3Tokenizer",
     "xinge008/Cylinder3D",
     "XinhaoMei/WavCaps",
+    "xinjli/transphone",
     "xinntao/BasicSR-examples",
     "xinntao/facexlib",
     "xinntao/HandyFigure",
@@ -8388,6 +8391,7 @@
     "yaml/yaml-test-suite",
     "yandeu/five-server",
     "yandex-research/navigan",
+    "yangdongchao/AcademiCodec",
     "yangdongchao/SoundStorm",
     "yangjianxin1/Firefly-LLaMA2-Chinese",
     "yangjianxin1/LLMPruner",

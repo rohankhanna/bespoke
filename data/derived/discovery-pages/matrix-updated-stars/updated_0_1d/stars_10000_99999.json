@@ -1,18 +1,19 @@
 {
   "counts": {
-    "components": 1240,
-    "concepts": 602,
-    "observations": 607,
-    "repos": 45,
-    "terms": 611
+    "components": 1250,
+    "concepts": 621,
+    "observations": 626,
+    "repos": 46,
+    "terms": 630
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
+    "anthropics/claude-cookbooks",
     "argotorg/solidity",
     "axolotl-ai-cloud/axolotl",
     "deepspeedai/DeepSpeed",
@@ -33,6 +34,7 @@
     "isl-org/Open3D",
     "jax-ml/jax",
     "jestjs/jest",
+    "langchain-ai/langchainjs",
     "lobehub/lobehub",
     "moby/moby",
     "modelscope/FunASR",
@@ -42,11 +44,11 @@
     "NVIDIA-NeMo/NeMo",
     "nwjs/nw.js",
     "OpenHands/OpenHands",
-    "preactjs/preact",
     "pydantic/pydantic",
+    "QuantumNous/new-api",
     "qubvel-org/segmentation_models.pytorch",
-    "realworld-apps/realworld",
     "redis/go-redis",
+    "rust-lang/rust-analyzer",
     "ruvnet/ruflo",
     "storybookjs/storybook",
     "swiftlang/swift",
@@ -55,7 +57,6 @@
     "upptime/upptime",
     "vbenjs/vue-vben-admin",
     "vercel-labs/skills",
-    "verl-project/verl",
     "weaviate/weaviate",
     "zhayujie/CowAgent"
   ]

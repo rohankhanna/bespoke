@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 976,
-    "concepts": 758,
-    "observations": 759,
-    "repos": 62,
-    "terms": 749
+    "components": 964,
+    "concepts": 747,
+    "observations": 748,
+    "repos": 61,
+    "terms": 739
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
@@ -29,7 +29,6 @@
     "emilk/egui",
     "facebook/flow",
     "firecracker-microvm/firecracker",
-    "fish-shell/fish-shell",
     "FuelLabs/fuel-core",
     "FuelLabs/sway",
     "getzola/zola",

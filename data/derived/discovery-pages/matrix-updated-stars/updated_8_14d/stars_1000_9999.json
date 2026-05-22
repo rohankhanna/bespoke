@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 746,
-    "concepts": 443,
-    "observations": 444,
-    "repos": 53,
-    "terms": 436
+    "components": 730,
+    "concepts": 436,
+    "observations": 437,
+    "repos": 52,
+    "terms": 429
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "ag2s20150909/TTS",
     "Aleph-Alpha/ts-rs",
@@ -27,7 +27,6 @@
     "etcd-io/bbolt",
     "Farama-Foundation/Minigrid",
     "floooh/sokol",
-    "funstory-ai/BabelDOC",
     "FxEmbed/FxEmbed",
     "getagentseal/codeburn",
     "ggozad/oterm",

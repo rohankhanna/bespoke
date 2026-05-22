@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 605,
-    "concepts": 466,
-    "observations": 468,
-    "repos": 129,
-    "terms": 483
+    "concepts": 468,
+    "observations": 470,
+    "repos": 130,
+    "terms": 485
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "4dn-dcic/tibanna",
@@ -35,6 +35,7 @@
     "ant-research/pointelligence",
     "archlizheng/frontend-slides-editable",
     "AstarVienna/ScopeSim",
+    "autonomousvision/plant2",
     "autowarefoundation/autoware-github-actions",
     "Azure-Samples/azureai-travel-agent-python",
     "beeware/briefcase-template",

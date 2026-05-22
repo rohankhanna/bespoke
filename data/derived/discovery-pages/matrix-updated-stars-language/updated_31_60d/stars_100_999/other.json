@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2322,
-    "concepts": 1874,
-    "observations": 1878,
-    "repos": 379,
-    "terms": 1893
+    "components": 2337,
+    "concepts": 1884,
+    "observations": 1888,
+    "repos": 380,
+    "terms": 1903
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T05:53:46.403083+00:00",
+  "generated_at": "2026-05-22T09:03:12.687315+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "a2aproject/a2a-dotnet",
@@ -120,6 +120,7 @@
     "clojure-emacs/clojure-mode",
     "clojure-emacs/clojure-ts-mode",
     "cloudstudio/ollama-laravel",
+    "cloudwego/cloudwego.github.io",
     "cloudwu/deepfuture",
     "cncf/foundation",
     "CocoaPods/Molinillo",
@@ -239,7 +240,6 @@
     "JuliaRegistries/Registrator.jl",
     "JuliaStats/MultivariateStats.jl",
     "JuliaTesting/Aqua.jl",
-    "JunoLab/Weave.jl",
     "just-the-docs/just-the-docs-template",
     "jverzani/Mustache.jl",
     "kdheepak/panvimdoc",
@@ -257,6 +257,7 @@
     "malaysia-ai/malaya",
     "mapillary/mapillary_sls",
     "martinthomson/i-d-template",
+    "MasterJ93/ATProtoKit",
     "matthewjberger/scoop-nerd-fonts",
     "mattn/webapi-vim",
     "Mc-Zen/tidy",
@@ -310,7 +311,6 @@
     "petercorke/bdsim",
     "phronmophobic/llama.clj",
     "PKU-YuanGroup/OpenS2V-Nexus",
-    "ppwwyyxx/cocoapi",
     "pry/pry-stack_explorer",
     "purcell/envrc",
     "pybind/pybind11_bazel",
@@ -388,6 +388,7 @@
     "vuki656/package-info.nvim",
     "w3c/web-performance",
     "w3c/webdriver-bidi",
+    "WebAssembly/threads",
     "WebKitForWindows/WebKitRequirements",
     "wighawag/template-ethereum-contracts",
     "wuphilipp/gello_mechanical",
