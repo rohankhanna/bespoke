@@ -1,0 +1,151 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shawn0728/OpenSearch-VL",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shawn0728/OpenSearch-VL",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shawn0728/OpenSearch-VL",
+      "target": "alibaba-nlp/vision-deepresearch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shawn0728/OpenSearch-VL",
+      "target": "deep-research-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shawn0728/OpenSearch-VL",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shawn0728/OpenSearch-VL",
+      "target": "opensource",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shawn0728/OpenSearch-VL",
+      "target": "search-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shawn0728/OpenSearch-VL",
+      "target": "think-with-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shawn0728/OpenSearch-VL",
+      "target": "vlm-agent",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-22T14:17:13.970758+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28965
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udd0d OpenSearch-VL provides a fully open recipe for training strong multimodal deep search agents through high-quality data curation, diverse visual/search tools, and fatal-aware agentic reinforcement learning.",
+    "fork": false,
+    "full_name": "shawn0728/OpenSearch-VL",
+    "html_url": "https://github.com/shawn0728/OpenSearch-VL",
+    "language": "Python",
+    "pushed_at": "2026-05-19T05:52:18Z",
+    "stargazers_count": 194,
+    "topics": [
+      "deep-research-agent",
+      "multimodal",
+      "opensource",
+      "search-agent",
+      "think-with-image",
+      "vlm-agent"
+    ],
+    "updated_at": "2026-05-22T08:04:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba-nlp/vision-deepresearch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-research-agent"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opensource"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "search-agent"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "think-with-image"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vlm-agent"
+    }
+  ]
+}

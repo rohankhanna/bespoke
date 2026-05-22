@@ -106,7 +106,7 @@
   "normalized_form": "coverage",
   "observation_id": "d09758e14b6c059b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T00:44:15.720901+00:00",
+  "observed_at": "2026-05-22T13:06:06.618387+00:00",
   "observed_text": "Coverage",
   "source_context_snippet": "Coverage",
   "source_file": ".github/workflows/coverage.yaml",

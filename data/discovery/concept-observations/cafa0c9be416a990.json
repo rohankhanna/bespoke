@@ -84,7 +84,7 @@
   "normalized_form": "check-pr-title",
   "observation_id": "cafa0c9be416a990",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T07:24:26.652079+00:00",
+  "observed_at": "2026-05-22T13:06:06.618387+00:00",
   "observed_text": "Check PR Title",
   "source_context_snippet": "Check PR Title",
   "source_file": ".github/workflows/check-pr-title.yml",

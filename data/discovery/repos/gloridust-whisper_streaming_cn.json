@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Gloridust/whisper_streaming_CN",
+      "target": "guillaumekln/faster-whisper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Gloridust/whisper_streaming_CN",
+      "target": "linto-ai/whisper-timestamped",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Gloridust/whisper_streaming_CN",
+      "target": "pe-trik/transformers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-22T13:26:03.446656+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9095
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Whisper realtime streaming for long speech-to-text transcription and translation",
+    "fork": true,
+    "full_name": "Gloridust/whisper_streaming_CN",
+    "html_url": "https://github.com/Gloridust/whisper_streaming_CN",
+    "language": "Python",
+    "pushed_at": "2024-04-09T16:37:52Z",
+    "stargazers_count": 61,
+    "topics": [],
+    "updated_at": "2026-05-16T08:05:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guillaumekln/faster-whisper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "linto-ai/whisper-timestamped",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pe-trik/transformers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

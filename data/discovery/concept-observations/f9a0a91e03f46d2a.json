@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fun-ASR is an end-to-end speech recognition large model launched by Tongyi Lab. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u300c[\u7b80\u4f53\u4e2d\u6587](README_zh.md)\u300d|\u300cEnglish\u300d"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u300c[\u7b80\u4f53\u4e2d\u6587](README_zh.md)\u300d|\u300cEnglish\u300d"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999786,
+      "status": "candidate",
+      "text": "audio frequency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966109,
+      "status": "candidate",
+      "text": "sound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029693,
+      "status": "candidate",
+      "text": "aural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029607,
+      "status": "candidate",
+      "text": "audiological"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029289,
+      "status": "candidate",
+      "text": "auditory"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "audio",
+      "sense_id": "audio#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24068,
+      "status": "candidate",
+      "text": "sound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26,
+      "status": "candidate",
+      "text": "audio frequency"
+    }
+  ],
+  "concept_id": "audio",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "audio",
+  "observation_id": "f9a0a91e03f46d2a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-22T13:06:06.618387+00:00",
+  "observed_text": "audio",
+  "source_context_snippet": "\u300c[\u7b80\u4f53\u4e2d\u6587](README_zh.md)\u300d|\u300cEnglish\u300d",
+  "source_file": null,
+  "source_repo": "FunAudioLLM/Fun-ASR",
+  "source_repo_description": "Fun-ASR is an end-to-end speech recognition large model launched by Tongyi Lab. "
+}

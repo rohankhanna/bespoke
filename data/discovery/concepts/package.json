@@ -394,6 +394,18 @@
       "source_repo": "browniebroke/pypackage-template",
       "status": "candidate-context",
       "text": "[![CI Status](https://img.shields.io/github/actions/workflow/status/browniebroke/pypackage-template/ci.yml?branch=main&label=Test&logo=github&style=flat-square)](https://github.com/browniebroke/pypackage-template/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AppliedAcousticsChalmers/sound_field_analysis-py",
+      "status": "candidate-context",
+      "text": "Analyze, visualize, and process sound field data recorded by spherical microphone arrays."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppliedAcousticsChalmers/sound_field_analysis-py",
+      "status": "candidate-context",
+      "text": "Sound Field Analysis toolbox for Python"
     }
   ],
   "candidate_glosses": [
@@ -588,6 +600,12 @@
       "source_repo": "browniebroke/pypackage-template",
       "status": "candidate",
       "text": "[![CI Status](https://img.shields.io/github/actions/workflow/status/browniebroke/pypackage-template/ci.yml?branch=main&label=Test&logo=github&style=flat-square)](https://github.com/browniebroke/pypackage-template/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppliedAcousticsChalmers/sound_field_analysis-py",
+      "status": "candidate",
+      "text": "Sound Field Analysis toolbox for Python"
     }
   ],
   "candidate_related_terms": [
@@ -2364,11 +2382,35 @@
       "observed_at": "2026-05-22T07:24:26.652079+00:00",
       "source_file": ".github/workflows/package.yml",
       "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": ".github/workflows/package.yml",
+      "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "rainbend/frp-notify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "AppliedAcousticsChalmers/sound_field_analysis-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": ".github/workflows/ci-pkg-install.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T07:24:26.652079+00:00",
+  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
   "lexical_providers": [
     "datamuse"
   ],

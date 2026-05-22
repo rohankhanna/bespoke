@@ -84,7 +84,7 @@
   "normalized_form": "gateway-typecheck",
   "observation_id": "54346854014eab98",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T07:24:26.652079+00:00",
+  "observed_at": "2026-05-22T13:06:06.618387+00:00",
   "observed_text": "Gateway Typecheck",
   "source_context_snippet": "Gateway Typecheck",
   "source_file": ".github/workflows/gateway-typecheck.yml",

@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FunAudioLLM/Fun-ASR",
+      "target": "yuekaizhang/fun-asr-vllm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/Fun-ASR",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/Fun-ASR",
+      "target": "audio-language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/Fun-ASR",
+      "target": "audio-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/Fun-ASR",
+      "target": "fun-asr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/Fun-ASR",
+      "target": "multimodal-large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/Fun-ASR",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/Fun-ASR",
+      "target": "speaker-diarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/Fun-ASR",
+      "target": "speech-recognition",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-22T13:06:06.618387+00:00",
+  "source_repo": "FunAudioLLM/Fun-ASR"
+}

@@ -823,6 +823,18 @@
       "source_repo": "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
       "status": "candidate-context",
       "text": "A systematic evaluation of audio multimodal model capabilities using structured test prompts, a natural voice recording, and programmatic output generation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shawn0728/OpenSearch-VL",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0d OpenSearch-VL provides a fully open recipe for training strong multimodal deep search agents through high-quality data curation, diverse visual/search tools, and fatal-aware agentic reinforcement learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shawn0728/OpenSearch-VL",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1233,6 +1245,12 @@
       "source_repo": "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
       "status": "candidate",
       "text": "A systematic evaluation of audio multimodal model capabilities using structured test prompts, a natural voice recording, and programmatic output generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shawn0728/OpenSearch-VL",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -3514,11 +3532,35 @@
       "observed_at": "2026-05-22T07:24:26.652079+00:00",
       "source_file": null,
       "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "shawn0728/OpenSearch-VL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Qwen-VL-Series-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/maestro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-swift"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T07:24:26.652079+00:00",
+  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
   "lexical_providers": [
     "datamuse"
   ],

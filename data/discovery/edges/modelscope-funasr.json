@@ -4,21 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "modelscope/FunASR",
-      "target": "funaudiollm/fun-asr",
+      "target": "akshay090/svg-banners",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "modelscope/FunASR",
-      "target": "funaudiollm/sensevoice",
+      "target": "alibaba-damo-academy/funasr",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "modelscope/FunASR",
-      "target": "modelscope/funclip",
+      "target": "alibaba-damo-academy/funcodec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "modelscope/FunASR",
+      "target": "alibaba/funasr",
       "target_type": "repository"
     },
     {
@@ -148,6 +155,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-22T07:24:26.652079+00:00",
+  "generated_at": "2026-05-22T13:06:06.618387+00:00",
   "source_repo": "modelscope/FunASR"
 }

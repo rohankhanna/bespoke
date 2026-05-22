@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "alibaba/funasr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "lovemefan/sensevoice.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "pengzhendong/streaming-sensevoice",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "lifeiteng/omnisensevoice",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "audio-event-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "cross-lingual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "gpt-4o",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "multilingual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "speech-emotion-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "speech-to-text",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-22T13:06:06.618387+00:00",
+  "source_repo": "FunAudioLLM/SenseVoice"
+}

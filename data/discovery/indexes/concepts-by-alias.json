@@ -86,6 +86,9 @@
   "3d-aigc": [
     "3d-aigc"
   ],
+  "3d-audio": [
+    "3d-audio"
+  ],
   "3d-body-recovery": [
     "3d-body-recovery"
   ],
@@ -5430,6 +5433,12 @@
   "attention-model": [
     "attention-model"
   ],
+  "attention-network": [
+    "attention-network"
+  ],
+  "attention-seq2seq": [
+    "attention-seq2seq"
+  ],
   "attention-transfer-network": [
     "attention-transfer-network"
   ],
@@ -5510,6 +5519,9 @@
   ],
   "audio-evaluation": [
     "audio-evaluation"
+  ],
+  "audio-event-classification": [
+    "audio-event-classification"
   ],
   "audio-features": [
     "audio-features"
@@ -8965,6 +8977,9 @@
   ],
   "binarytree": [
     "binarytree"
+  ],
+  "binauralaudio": [
+    "binauralaudio"
   ],
   "bincheck": [
     "bincheck"
@@ -28586,6 +28601,9 @@
   "deep-research": [
     "deep-research"
   ],
+  "deep-research-agent": [
+    "deep-research-agent"
+  ],
   "deep-researcher": [
     "deep-researcher"
   ],
@@ -39285,6 +39303,9 @@
   "fumadocs": [
     "fumadocs"
   ],
+  "fun-asr": [
+    "fun-asr"
+  ],
   "functests": [
     "functests"
   ],
@@ -42845,6 +42866,9 @@
   ],
   "gradio-interface": [
     "gradio-interface"
+  ],
+  "gradio-python-llm": [
+    "gradio-python-llm"
   ],
   "gradle": [
     "gradle"
@@ -66573,6 +66597,9 @@
   "pffft": [
     "pffft"
   ],
+  "pflow": [
+    "pflow"
+  ],
   "pg-partition-manager": [
     "pg-partition-manager"
   ],
@@ -80928,6 +80955,9 @@
   "self-hosted runner (benchmark)": [
     "self-hosted-runner-benchmark"
   ],
+  "self-hosted runner (check runner status)": [
+    "self-hosted-runner-check-runner-status"
+  ],
   "self-hosted runner (push)": [
     "self-hosted-runner-push"
   ],
@@ -84080,6 +84110,9 @@
   "speechllm": [
     "speechllm"
   ],
+  "speechpy": [
+    "speechpy"
+  ],
   "speechrecognition": [
     "speechrecognition"
   ],
@@ -84148,6 +84181,12 @@
   ],
   "sphereface": [
     "sphereface"
+  ],
+  "spherical-harmonics": [
+    "spherical-harmonics"
+  ],
+  "spherical-microphone-array": [
+    "spherical-microphone-array"
   ],
   "sphinx": [
     "sphinx"
@@ -86056,6 +86095,9 @@
   ],
   "subtitles": [
     "subtitles"
+  ],
+  "subtitles-generator": [
+    "subtitles-generator"
   ],
   "subtle-encoding": [
     "subtle-encoding"
@@ -90527,6 +90569,9 @@
   ],
   "they": [
     "en-pronoun-they"
+  ],
+  "think-with-image": [
+    "think-with-image"
   ],
   "third party deps scan": [
     "third-party-deps-scan"
@@ -96563,6 +96608,9 @@
   "video-streaming": [
     "video-streaming"
   ],
+  "video-subtitles": [
+    "video-subtitles"
+  ],
   "video-summarization": [
     "video-summarization"
   ],
@@ -97330,6 +97378,9 @@
   ],
   "vllm": [
     "vllm"
+  ],
+  "vlm-agent": [
+    "vlm-agent"
   ],
   "vlm-r1": [
     "vlm-r1"

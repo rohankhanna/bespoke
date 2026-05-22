@@ -1,0 +1,217 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "alibaba/funasr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "lovemefan/sensevoice.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "pengzhendong/streaming-sensevoice",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "lifeiteng/omnisensevoice",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "audio-event-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "cross-lingual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "gpt-4o",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "multilingual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "speech-emotion-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "target": "speech-to-text",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-22T14:32:01.368370+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19643
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1067
+    },
+    {
+      "path": "requirements.txt",
+      "size": 113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Multilingual Voice Understanding Model",
+    "fork": false,
+    "full_name": "FunAudioLLM/SenseVoice",
+    "html_url": "https://github.com/FunAudioLLM/SenseVoice",
+    "language": "Python",
+    "pushed_at": "2026-05-19T15:33:33Z",
+    "stargazers_count": 8201,
+    "topics": [
+      "ai",
+      "aigc",
+      "asr",
+      "audio-event-classification",
+      "cross-lingual",
+      "gpt-4o",
+      "llm",
+      "multilingual",
+      "python",
+      "pytorch",
+      "speech-emotion-recognition",
+      "speech-recognition",
+      "speech-to-text"
+    ],
+    "updated_at": "2026-05-22T11:03:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/funasr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lifeiteng/omnisensevoice",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lovemefan/sensevoice.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pengzhendong/streaming-sensevoice",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-event-classification"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-lingual"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4o"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multilingual"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-emotion-recognition"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text"
+    }
+  ]
+}

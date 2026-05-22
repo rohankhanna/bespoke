@@ -55,6 +55,18 @@
       "source_repo": "JiahuiYu/generative_inpainting",
       "status": "candidate-context",
       "text": "![version](https://img.shields.io/badge/version-v2.0.0-green.svg?style=plastic)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linto-ai/whisper-timestamped",
+      "status": "candidate-context",
+      "text": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linto-ai/whisper-timestamped",
+      "status": "candidate-context",
+      "text": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "JiahuiYu/generative_inpainting",
       "status": "candidate",
       "text": "![version](https://img.shields.io/badge/version-v2.0.0-green.svg?style=plastic)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linto-ai/whisper-timestamped",
+      "status": "candidate",
+      "text": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "JiahuiYu/generative_inpainting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
   "lexical_providers": [
     "datamuse"
   ],

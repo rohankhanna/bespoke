@@ -1,0 +1,152 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "target": "conda-forge/openblas-feedstock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "target": "yoggy/sendosc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "target": "jackaudio/jack2-releases",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "target": "3d-audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "target": "binauralaudio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "target": "real-time-rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "target": "signal-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "target": "spherical-harmonics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "target": "spherical-microphone-array",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-22T13:26:34.000625+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30688
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Real-Time Spherical Array Renderer for binaural reproduction in Python",
+    "fork": false,
+    "full_name": "AppliedAcousticsChalmers/ReTiSAR",
+    "html_url": "https://github.com/AppliedAcousticsChalmers/ReTiSAR",
+    "language": "Python",
+    "pushed_at": "2023-12-02T18:31:24Z",
+    "stargazers_count": 80,
+    "topics": [
+      "3d-audio",
+      "binauralaudio",
+      "python",
+      "real-time-rendering",
+      "signal-processing",
+      "spherical-harmonics",
+      "spherical-microphone-array"
+    ],
+    "updated_at": "2026-04-29T12:06:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conda-forge/openblas-feedstock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jackaudio/jack2-releases",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yoggy/sendosc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Implementation of the Real-Time Spherical Array Renderer for binaural reproduction in Python [[1]](#references)[[2]](#references).<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-audio"
+    },
+    {
+      "context_snippet": "Implementation of the Real-Time Spherical Array Renderer for binaural reproduction in Python [[1]](#references)[[2]](#references).<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binauralaudio"
+    },
+    {
+      "context_snippet": "Implementation of the Real-Time Spherical Array Renderer for binaural reproduction in Python [[1]](#references)[[2]](#references).<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time-rendering"
+    },
+    {
+      "context_snippet": "Implementation of the Real-Time Spherical Array Renderer for binaural reproduction in Python [[1]](#references)[[2]](#references).<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "signal-processing"
+    },
+    {
+      "context_snippet": "Implementation of the Real-Time Spherical Array Renderer for binaural reproduction in Python [[1]](#references)[[2]](#references).<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spherical-harmonics"
+    },
+    {
+      "context_snippet": "Implementation of the Real-Time Spherical Array Renderer for binaural reproduction in Python [[1]](#references)[[2]](#references).<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spherical-microphone-array"
+    }
+  ]
+}

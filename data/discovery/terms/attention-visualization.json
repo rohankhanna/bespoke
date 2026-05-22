@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "hila-chefer/Transformer-Explainability"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped"
     }
   ],
   "term": "attention-visualization"

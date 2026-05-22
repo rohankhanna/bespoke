@@ -84,7 +84,7 @@
   "normalized_form": "lint-github-workflows",
   "observation_id": "afe455da22b6a088",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T00:44:15.720901+00:00",
+  "observed_at": "2026-05-22T13:06:06.618387+00:00",
   "observed_text": "Lint GitHub Workflows",
   "source_context_snippet": "Lint GitHub Workflows",
   "source_file": ".github/workflows/actionlint.yml",

@@ -187,6 +187,18 @@
       "source_repo": "melizeche/AireLibre",
       "status": "candidate-context",
       "text": "AireLibre es una respuesta de la comunidad a la necesidad de saber sobre la calidad del aire de manera libre, colaborativa y descentralizada."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shawn0728/OpenSearch-VL",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0d OpenSearch-VL provides a fully open recipe for training strong multimodal deep search agents through high-quality data curation, diverse visual/search tools, and fatal-aware agentic reinforcement learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shawn0728/OpenSearch-VL",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "melizeche/AireLibre",
       "status": "candidate",
       "text": "AireLibre es una respuesta de la comunidad a la necesidad de saber sobre la calidad del aire de manera libre, colaborativa y descentralizada."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shawn0728/OpenSearch-VL",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1606,11 +1624,35 @@
       "observed_at": "2026-05-22T07:24:26.652079+00:00",
       "source_file": null,
       "source_repo": "pyOpenSci/software-submission"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "pyOpenSci/software-submission"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "shawn0728/OpenSearch-VL"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T07:24:26.652079+00:00",
+  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
   "lexical_providers": [
     "datamuse"
   ],

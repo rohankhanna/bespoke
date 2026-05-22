@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fishaudio/vocoder",
+      "target": "charactr-platform/vocos",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-22T13:06:06.618387+00:00",
+  "source_repo": "fishaudio/vocoder"
+}

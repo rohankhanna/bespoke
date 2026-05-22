@@ -1,0 +1,98 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "AppliedAcousticsChalmers/sound_field_analysis-py",
+      "target": "andresperezlopez/pysofaconventions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "AppliedAcousticsChalmers/sound_field_analysis-py",
+      "target": "gabrielelanaro/pyquante",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppliedAcousticsChalmers/sound_field_analysis-py",
+      "target": "analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppliedAcousticsChalmers/sound_field_analysis-py",
+      "target": "package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppliedAcousticsChalmers/sound_field_analysis-py",
+      "target": "sound",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-22T13:26:36.567331+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 9967
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Analyze, visualize, and process sound field data recorded by spherical microphone arrays.",
+    "fork": false,
+    "full_name": "AppliedAcousticsChalmers/sound_field_analysis-py",
+    "html_url": "https://github.com/AppliedAcousticsChalmers/sound_field_analysis-py",
+    "language": "Python",
+    "pushed_at": "2022-12-29T19:32:17Z",
+    "stargazers_count": 106,
+    "topics": [
+      "analysis",
+      "package",
+      "python",
+      "sound"
+    ],
+    "updated_at": "2026-01-21T07:15:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andresperezlopez/pysofaconventions",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gabrielelanaro/pyquante",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Sound Field Analysis toolbox for Python",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analysis"
+    },
+    {
+      "context_snippet": "Sound Field Analysis toolbox for Python",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package"
+    },
+    {
+      "context_snippet": "Sound Field Analysis toolbox for Python",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sound"
+    }
+  ]
+}

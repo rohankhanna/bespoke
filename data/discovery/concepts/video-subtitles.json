@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "video-subtitles"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/FunClip",
+      "status": "candidate-context",
+      "text": "Open-source, accurate and easy-to-use video speech recognition & clipping tool, LLM based AI clipping intergrated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunClip",
+      "status": "candidate-context",
+      "text": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunClip",
+      "status": "candidate",
+      "text": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "video-subtitles",
+  "concept_id": "video-subtitles",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip"
+    }
+  ],
+  "first_seen_at": "2026-05-22T13:06:06.618387+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "video-subtitles",
+      "sense_id": "video-subtitles#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

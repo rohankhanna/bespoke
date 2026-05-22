@@ -31,6 +31,18 @@
       "source_repo": "nvpro-samples/vk_gltf_renderer",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "status": "candidate-context",
+      "text": "Real-Time Spherical Array Renderer for binaural reproduction in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "status": "candidate-context",
+      "text": "Implementation of the Real-Time Spherical Array Renderer for binaural reproduction in Python [[1]](#references)[[2]](#references).<br/>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "nvpro-samples/vk_gltf_renderer",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "status": "candidate",
+      "text": "Implementation of the Real-Time Spherical Array Renderer for binaural reproduction in Python [[1]](#references)[[2]](#references).<br/>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "nvpro-samples/vk_gltf_renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
   "lexical_providers": [
     "datamuse"
   ],

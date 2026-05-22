@@ -55,6 +55,18 @@
       "source_repo": "AudioLLMs/Awesome-Audio-LLM",
       "status": "candidate-context",
       "text": "We thank the following contributors for their valuable contributions!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FunAudioLLM/Fun-ASR",
+      "status": "candidate-context",
+      "text": "Fun-ASR is an end-to-end speech recognition large model launched by Tongyi Lab. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FunAudioLLM/Fun-ASR",
+      "status": "candidate-context",
+      "text": "\u300c[\u7b80\u4f53\u4e2d\u6587](README_zh.md)\u300d|\u300cEnglish\u300d"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "AudioLLMs/Awesome-Audio-LLM",
       "status": "candidate",
       "text": "We thank the following contributors for their valuable contributions!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FunAudioLLM/Fun-ASR",
+      "status": "candidate",
+      "text": "\u300c[\u7b80\u4f53\u4e2d\u6587](README_zh.md)\u300d|\u300cEnglish\u300d"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": null,
       "source_repo": "AudioLLMs/Awesome-Audio-LLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/Fun-ASR"
     }
   ],
   "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
   "lexical_providers": [
     "datamuse"
   ],

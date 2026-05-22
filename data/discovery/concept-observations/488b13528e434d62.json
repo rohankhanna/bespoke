@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fun-ASR is an end-to-end speech recognition large model launched by Tongyi Lab. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u300c[\u7b80\u4f53\u4e2d\u6587](README_zh.md)\u300d|\u300cEnglish\u300d"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u300c[\u7b80\u4f53\u4e2d\u6587](README_zh.md)\u300d|\u300cEnglish\u300d"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "audio-language-model",
+      "sense_id": "audio-language-model#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "audio-language-model",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "audio-language-model",
+  "observation_id": "488b13528e434d62",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-22T13:06:06.618387+00:00",
+  "observed_text": "audio-language-model",
+  "source_context_snippet": "\u300c[\u7b80\u4f53\u4e2d\u6587](README_zh.md)\u300d|\u300cEnglish\u300d",
+  "source_file": null,
+  "source_repo": "FunAudioLLM/Fun-ASR",
+  "source_repo_description": "Fun-ASR is an end-to-end speech recognition large model launched by Tongyi Lab. "
+}

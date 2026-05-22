@@ -48,14 +48,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SYSTRAN/faster-whisper",
-      "target": "bandas-center/atrain",
+      "target": "zh-plus/open-lyrics",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SYSTRAN/faster-whisper",
-      "target": "ufal/whisper_streaming",
+      "target": "bandas-center/atrain",
       "target_type": "repository"
     },
     {
@@ -136,7 +136,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T07:29:08.331932+00:00",
+  "fetched_at": "2026-05-22T13:26:05.840730+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -161,7 +161,7 @@
     "html_url": "https://github.com/SYSTRAN/faster-whisper",
     "language": "Python",
     "pushed_at": "2025-11-19T14:40:46Z",
-    "stargazers_count": 23064,
+    "stargazers_count": 23070,
     "topics": [
       "deep-learning",
       "inference",
@@ -172,7 +172,7 @@
       "transformer",
       "whisper"
     ],
-    "updated_at": "2026-05-22T07:18:50Z"
+    "updated_at": "2026-05-22T11:34:43Z"
   },
   "repo_links": [
     {
@@ -192,7 +192,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ufal/whisper_streaming",
+      "full_name": "zh-plus/open-lyrics",
       "source_file": "README.md"
     }
   ],

@@ -204,7 +204,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T07:39:30.311894+00:00",
+  "fetched_at": "2026-05-22T14:09:34.255722+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -240,7 +240,7 @@
     "full_name": "mozilla-ai/llamafile",
     "html_url": "https://github.com/mozilla-ai/llamafile",
     "language": "C++",
-    "pushed_at": "2026-05-20T16:27:04Z",
+    "pushed_at": "2026-05-22T12:29:19Z",
     "stargazers_count": 24486,
     "topics": [
       "cross-platform",

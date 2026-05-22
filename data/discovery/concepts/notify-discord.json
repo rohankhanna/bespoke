@@ -784,11 +784,23 @@
       "observed_at": "2026-05-22T00:44:15.720901+00:00",
       "source_file": ".github/workflows/discord.yml",
       "source_repo": "google/vim-maktaba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": ".github/workflows/discord.yml",
+      "source_repo": "google/vim-maktaba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": ".github/workflows/discord.yml",
+      "source_repo": "google/vim-glaive"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T00:44:15.720901+00:00",
+  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
   "lexical_providers": [
     "datamuse"
   ],

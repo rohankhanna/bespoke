@@ -84,7 +84,7 @@
   "normalized_form": "test-adam-with-conda-forge-dependencies",
   "observation_id": "771bfb2d25dcb195",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T07:24:26.652079+00:00",
+  "observed_at": "2026-05-22T13:06:06.618387+00:00",
   "observed_text": "Test adam with conda-forge dependencies",
   "source_context_snippet": "Test adam with conda-forge dependencies",
   "source_file": ".github/workflows/conda-forge-tests.yml",

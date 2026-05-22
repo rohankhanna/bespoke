@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "vlm-agent"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shawn0728/OpenSearch-VL",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0d OpenSearch-VL provides a fully open recipe for training strong multimodal deep search agents through high-quality data curation, diverse visual/search tools, and fatal-aware agentic reinforcement learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shawn0728/OpenSearch-VL",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shawn0728/OpenSearch-VL",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vlm-agent",
+  "concept_id": "vlm-agent",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "shawn0728/OpenSearch-VL"
+    }
+  ],
+  "first_seen_at": "2026-05-22T13:06:06.618387+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vlm-agent",
+      "sense_id": "vlm-agent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

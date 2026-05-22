@@ -99,13 +99,6 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rllm-org/rllm",
-      "target": "shawn0728/opensearch-vl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
       "source_repo": "rllm-org/rllm",
       "target": "volcengine/verl",
@@ -392,7 +385,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T07:49:05.404791+00:00",
+  "fetched_at": "2026-05-22T14:17:17.784429+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -465,11 +458,6 @@
     "updated_at": "2026-05-22T07:02:53Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "shawn0728/opensearch-vl",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "volcengine/verl",

@@ -168,6 +168,13 @@
   ],
   "edges": [
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "databendlabs/databend",
+      "target": "datafuse-extras/lance",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bindings.python.yml",
       "source_repo": "databendlabs/databend",
@@ -441,7 +448,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T07:35:31.346889+00:00",
+  "fetched_at": "2026-05-22T13:32:18.006486+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -449,7 +456,7 @@
     },
     {
       "path": "Cargo.toml",
-      "size": 24918
+      "size": 26099
     },
     {
       "path": "pyproject.toml",
@@ -493,7 +500,7 @@
     "full_name": "databendlabs/databend",
     "html_url": "https://github.com/databendlabs/databend",
     "language": "Rust",
-    "pushed_at": "2026-05-22T07:13:55Z",
+    "pushed_at": "2026-05-22T12:35:58Z",
     "stargazers_count": 9293,
     "topics": [
       "ai",
@@ -511,9 +518,15 @@
       "vector-database",
       "vector-search"
     ],
-    "updated_at": "2026-05-22T07:13:59Z"
+    "updated_at": "2026-05-22T10:20:53Z"
   },
-  "repo_links": [],
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datafuse-extras/lance",
+      "source_file": "Cargo.toml"
+    }
+  ],
   "terms": [
     {
       "context_snippet": "Build Tool",

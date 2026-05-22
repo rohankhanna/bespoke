@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "astorfi/speechpy",
+      "target": "astorfi/speech_feature_extraction",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "astorfi/speechpy",
+      "target": "jameslyons/python_speech_features",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astorfi/speechpy",
+      "target": "feature-extraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astorfi/speechpy",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astorfi/speechpy",
+      "target": "speechpy",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-22T13:06:06.618387+00:00",
+  "source_repo": "astorfi/speechpy"
+}

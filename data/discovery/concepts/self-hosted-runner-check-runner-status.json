@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Self-hosted runner (check runner status)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pe-trik/transformers",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pe-trik/transformers",
+      "status": "candidate-context",
+      "text": "Self-hosted runner (check runner status)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pe-trik/transformers",
+      "status": "candidate",
+      "text": "Self-hosted runner (check runner status)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9254,
+      "status": "candidate",
+      "text": "web-based"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "cloud-based"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "hosted externally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "admiral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "aide"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Self-hosted runner (check runner status)",
+  "concept_id": "self-hosted-runner-check-runner-status",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": ".github/workflows/check_runner_status.yml",
+      "source_repo": "pe-trik/transformers"
+    }
+  ],
+  "first_seen_at": "2026-05-22T13:06:06.618387+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Self-hosted runner (check runner status)",
+      "sense_id": "self-hosted-runner-check-runner-status#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

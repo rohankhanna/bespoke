@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "spherical-harmonics"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "status": "candidate-context",
+      "text": "Real-Time Spherical Array Renderer for binaural reproduction in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "status": "candidate-context",
+      "text": "Implementation of the Real-Time Spherical Array Renderer for binaural reproduction in Python [[1]](#references)[[2]](#references).<br/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "status": "candidate",
+      "text": "Implementation of the Real-Time Spherical Array Renderer for binaural reproduction in Python [[1]](#references)[[2]](#references).<br/>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "spherical-harmonics",
+  "concept_id": "spherical-harmonics",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR"
+    }
+  ],
+  "first_seen_at": "2026-05-22T13:06:06.618387+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spherical-harmonics",
+      "sense_id": "spherical-harmonics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

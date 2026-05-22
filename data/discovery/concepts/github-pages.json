@@ -3522,11 +3522,29 @@
       "observed_at": "2026-05-22T07:24:26.652079+00:00",
       "source_file": null,
       "source_repo": "charliie-dev/Logseq-Hugo-Template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "celtera/libremidi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T07:24:26.652079+00:00",
+  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
   "lexical_providers": [
     "datamuse"
   ],

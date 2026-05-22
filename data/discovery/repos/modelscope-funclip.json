@@ -1,0 +1,170 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "modelscope/FunClip",
+      "target": "akshay090/svg-banners",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "modelscope/FunClip",
+      "target": "alibaba-damo-academy/funasr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "modelscope/FunClip",
+      "target": "alibaba-damo-academy/funclip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip",
+      "target": "gradio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip",
+      "target": "gradio-python-llm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip",
+      "target": "speech-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip",
+      "target": "subtitles-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip",
+      "target": "video-clip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip",
+      "target": "video-subtitles",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-22T14:32:04.023750+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10469
+    },
+    {
+      "path": "requirements.txt",
+      "size": 153
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open-source, accurate and easy-to-use video speech recognition & clipping tool, LLM based AI clipping intergrated.",
+    "fork": false,
+    "full_name": "modelscope/FunClip",
+    "html_url": "https://github.com/modelscope/FunClip",
+    "language": "Python",
+    "pushed_at": "2026-05-19T18:20:39Z",
+    "stargazers_count": 5627,
+    "topics": [
+      "gradio",
+      "gradio-python-llm",
+      "llm",
+      "speech-recognition",
+      "speech-to-text",
+      "subtitles-generator",
+      "video-clip",
+      "video-subtitles"
+    ],
+    "updated_at": "2026-05-22T08:02:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akshay090/svg-banners",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba-damo-academy/funasr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba-damo-academy/funclip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradio"
+    },
+    {
+      "context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradio-python-llm"
+    },
+    {
+      "context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text"
+    },
+    {
+      "context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subtitles-generator"
+    },
+    {
+      "context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-clip"
+    },
+    {
+      "context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-subtitles"
+    }
+  ]
+}

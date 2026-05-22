@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -21,6 +21,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build-docker-images.yml",
       "source_repo": "moojink/transformers-openvla-oft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-docker-images.yml",
+      "source_repo": "pe-trik/transformers"
     }
   ],
   "term": "Build Docker images (scheduled)"

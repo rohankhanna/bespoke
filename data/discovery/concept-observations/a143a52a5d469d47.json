@@ -99,7 +99,7 @@
   "normalized_form": "nightly",
   "observation_id": "a143a52a5d469d47",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T00:44:15.720901+00:00",
+  "observed_at": "2026-05-22T13:06:06.618387+00:00",
   "observed_text": "nightly",
   "source_context_snippet": "nightly",
   "source_file": ".github/workflows/nightly.yml",

@@ -1,0 +1,130 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "p0p4k/pflowtts_pytorch",
+      "target": "p0p4k/vits2_pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "p0p4k/pflowtts_pytorch",
+      "target": "cantabile-kwok/voiceflow-tts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p0p4k/pflowtts_pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p0p4k/pflowtts_pytorch",
+      "target": "flow-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p0p4k/pflowtts_pytorch",
+      "target": "pflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p0p4k/pflowtts_pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p0p4k/pflowtts_pytorch",
+      "target": "text-to-speech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-22T13:26:24.056491+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13333
+    },
+    {
+      "path": "requirements.txt",
+      "size": 888
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unofficial implementation of NVIDIA P-Flow TTS paper",
+    "fork": false,
+    "full_name": "p0p4k/pflowtts_pytorch",
+    "html_url": "https://github.com/p0p4k/pflowtts_pytorch",
+    "language": "Python",
+    "pushed_at": "2024-12-24T00:53:24Z",
+    "stargazers_count": 229,
+    "topics": [
+      "deep-learning",
+      "flow-matching",
+      "pflow",
+      "pytorch",
+      "text-to-speech",
+      "tts"
+    ],
+    "updated_at": "2026-04-01T06:54:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cantabile-kwok/voiceflow-tts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "p0p4k/vits2_pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Unofficial implementation of the paper [P-Flow: A Fast and Data-Efficient Zero-Shot TTS through Speech Prompting](https://openreview.net/pdf?id=zNA7u7wtIN) by NVIDIA.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Unofficial implementation of the paper [P-Flow: A Fast and Data-Efficient Zero-Shot TTS through Speech Prompting](https://openreview.net/pdf?id=zNA7u7wtIN) by NVIDIA.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flow-matching"
+    },
+    {
+      "context_snippet": "Unofficial implementation of the paper [P-Flow: A Fast and Data-Efficient Zero-Shot TTS through Speech Prompting](https://openreview.net/pdf?id=zNA7u7wtIN) by NVIDIA.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pflow"
+    },
+    {
+      "context_snippet": "Unofficial implementation of the paper [P-Flow: A Fast and Data-Efficient Zero-Shot TTS through Speech Prompting](https://openreview.net/pdf?id=zNA7u7wtIN) by NVIDIA.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Unofficial implementation of the paper [P-Flow: A Fast and Data-Efficient Zero-Shot TTS through Speech Prompting](https://openreview.net/pdf?id=zNA7u7wtIN) by NVIDIA.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    }
+  ]
+}

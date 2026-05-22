@@ -1,6 +1,13 @@
 {
   "edges": [
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "databendlabs/databend",
+      "target": "datafuse-extras/lance",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bindings.python.yml",
       "source_repo": "databendlabs/databend",
@@ -274,6 +281,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-22T07:24:26.652079+00:00",
+  "generated_at": "2026-05-22T13:06:06.618387+00:00",
   "source_repo": "databendlabs/databend"
 }

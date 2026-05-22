@@ -97,6 +97,9 @@
     "92b076664d588a62",
     "a98e37ea08926f83"
   ],
+  "3d-audio": [
+    "6fa66d65daddb1da"
+  ],
   "3d-body-recovery": [
     "96fae478e8c100e1"
   ],
@@ -1692,6 +1695,7 @@
     "77d24eeccedcad6d"
   ],
   "add-model-like-runner": [
+    "12a60b69084f0766",
     "70fbb146bd1521e1",
     "7be07b8bf8bbc5c9"
   ],
@@ -3262,6 +3266,7 @@
     "3daad60c1494e098",
     "5576521e49feefc2",
     "5cc44d61df7d5088",
+    "607dfc29d990bd1c",
     "64344685832cad30",
     "8888d53b0abf0a43",
     "9e150580dd29bd20",
@@ -4118,6 +4123,7 @@
     "81290b6ac70e8f0d",
     "8b04a70a18402552",
     "8cbe1b9290218e43",
+    "95c18ca81f463632",
     "ae5f6289b0ac73cb",
     "c0888bf7c2d47d00",
     "c1a4f8ae0a1f4530",
@@ -7987,6 +7993,7 @@
     "054e357cabae88d5",
     "6a047e67217a27dc",
     "79561d701cf0be15",
+    "92ec4856e2e509a4",
     "98218c2443eab061"
   ],
   "attention-matrix": [
@@ -8015,6 +8022,7 @@
     "a1cf5f734df8aaaa",
     "b1c4d0af3854bf73",
     "b73746331f6e5585",
+    "c699cd41cc49b28b",
     "e44f2eb92df5d57f",
     "ea6b65488ff051c9",
     "ee06a2a7f6cfeb2d",
@@ -8031,14 +8039,22 @@
   "attention-model": [
     "3694ed1cfb4ec7a0",
     "390b5f4bc0001faf",
+    "49899bb994724817",
     "5919adbb2ced0fde",
     "654dc0fc38be0cde"
+  ],
+  "attention-network": [
+    "8d9172bf1c20ca23"
+  ],
+  "attention-seq2seq": [
+    "f95fda6125903828"
   ],
   "attention-transfer-network": [
     "28d31461973389a8"
   ],
   "attention-visualization": [
-    "6189e520ec7d6c10"
+    "6189e520ec7d6c10",
+    "af83ff46e971f7f2"
   ],
   "attest": [
     "8362a21686f87146"
@@ -8138,6 +8154,7 @@
     "edd6bc522391b899",
     "f00a09003e5d326f",
     "f57a9fe09aeb90b7",
+    "f9a0a91e03f46d2a",
     "fc8acbe10b984792",
     "fd19fe56e4e537ab"
   ],
@@ -8196,6 +8213,9 @@
   "audio-evaluation": [
     "eb8563323a987ff1"
   ],
+  "audio-event-classification": [
+    "bafb90629872d786"
+  ],
   "audio-features": [
     "2cecda95d3ee5824"
   ],
@@ -8230,6 +8250,7 @@
     "aa1a5618309c425c"
   ],
   "audio-language-model": [
+    "488b13528e434d62",
     "93b7fc052d99153f"
   ],
   "audio-library": [
@@ -8325,6 +8346,7 @@
   "audio-understanding": [
     "509f832613aaa91a",
     "74b0c2ea98040224",
+    "e4c0c6fa93ec4468",
     "e53337c99f907d30",
     "e56674d19e9c329c"
   ],
@@ -9149,6 +9171,7 @@
     "19f43b1f10af1e66"
   ],
   "auto-publish": [
+    "09e61bf1d4881954",
     "15190473b80383ab",
     "954bea9ddb29bdfd"
   ],
@@ -13839,6 +13862,9 @@
   ],
   "binarytree": [
     "af7c1436be6d0738"
+  ],
+  "binauralaudio": [
+    "ce4de83f41b058d3"
   ],
   "bincheck": [
     "9b69c75ee12a674f"
@@ -19516,7 +19542,8 @@
     "e7caec5cace28438"
   ],
   "build-docker-images-past-ci": [
-    "a7d357970260d720"
+    "a7d357970260d720",
+    "c65ac89e1ebb19c3"
   ],
   "build-docker-images-releases": [
     "8b09c7628d0ade2c"
@@ -19525,6 +19552,7 @@
     "079ad0add8ac7ac2"
   ],
   "build-docker-images-scheduled": [
+    "197ecc2bdee73854",
     "253263ad4d5a1946",
     "27933b24c67ec5f7",
     "4d2d2a89d42f4fdb",
@@ -19661,6 +19689,7 @@
     "d45a4191fc9c9a7a",
     "d67b078498a40153",
     "d98a4ae588702cb8",
+    "dbf28a07e491ea2c",
     "dd1e2a102ea36e6e",
     "ddc48b9aa014e37b",
     "df178f3a0cc74852",
@@ -20886,6 +20915,7 @@
     "037b26ff79b45905",
     "0dec307bef18b543",
     "1256a9b9c8ce08bf",
+    "12c1c1fa41c38ee4",
     "15b6eae41493942f",
     "17654cb48fd4ffaf",
     "1dea0321b31a995a",
@@ -42876,6 +42906,7 @@
     "aa28ebf143731e12"
   ],
   "cross-lingual": [
+    "4068fcf886707729",
     "80173965258707df",
     "a77db03871156cdc",
     "db13d17e1f26fa73"
@@ -47385,6 +47416,7 @@
     "83acb51b42592984",
     "83de947ff9ce2d99",
     "847765e94aecf8f0",
+    "849170e5fcfbebc7",
     "84b9ffe8b681c0a5",
     "84c28a672a207132",
     "84cf287575cd538e",
@@ -47731,7 +47763,8 @@
     "ff12a4250d5e8d38",
     "ff1f83b0c79254c4",
     "ff8128fdf170be7d",
-    "ff9e5382f2f07788"
+    "ff9e5382f2f07788",
+    "ff9e8586cfb5dd66"
   ],
   "deep-learning-algorithms": [
     "86b332d1dba1fa21"
@@ -47845,6 +47878,9 @@
     "b03cc39ce2405038",
     "b5a0cc097301eaae",
     "f462a67cf8aaae6b"
+  ],
+  "deep-research-agent": [
+    "affcafe66bfbd54b"
   ],
   "deep-researcher": [
     "cd991b910b13f787"
@@ -48291,6 +48327,7 @@
   ],
   "delete-dev-documentation": [
     "2c9cb6d140d503ec",
+    "c6449ddbc8e85659",
     "efe3c39a93515d34",
     "f430a9263c30dc79",
     "f7fd4c8d2a332ede"
@@ -61954,6 +61991,7 @@
   "feature-extraction": [
     "1761fda3cef7e33a",
     "4508135fcd61f7ef",
+    "6c4476bf2e153f74",
     "787fa76b098d17c6",
     "d0e2feadc585a6b4"
   ],
@@ -63798,6 +63836,7 @@
     "2ffa45b61ddb6669",
     "424497cd064cf131",
     "a6988d1fe15d20f9",
+    "bf0430bc38cf41a3",
     "eaf8d3114da46503"
   ],
   "flow-propagation": [
@@ -65574,6 +65613,9 @@
   ],
   "fumadocs": [
     "bda60af2f1eb60ef"
+  ],
+  "fun-asr": [
+    "1c3c36caf8f6ba08"
   ],
   "functests": [
     "ec8a3bbdb0537bc0"
@@ -71475,6 +71517,7 @@
     "744abdcb595b6cbe"
   ],
   "gpt-4o": [
+    "23558b40031bc64d",
     "3b2d727708aa5a12",
     "484d86753e71c1ab",
     "7b6b20006643fcc4",
@@ -71863,6 +71906,7 @@
     "866c22d895e488dd",
     "94ef3bd0b810c7c7",
     "9b9d260258200685",
+    "a4d0f397c846d6d0",
     "cfe7cb30b2f973e4",
     "d05c7e46f7f76e79",
     "e1ca1ac6ef0620aa"
@@ -71873,6 +71917,9 @@
   "gradio-interface": [
     "08a795a30b054597",
     "3ae5309614c58dfd"
+  ],
+  "gradio-python-llm": [
+    "7c52348c2bfd092a"
   ],
   "gradle": [
     "0658cf74a6552a1c",
@@ -94402,6 +94449,7 @@
     "f8ee65804a28f4fe",
     "f98c0d312bd39c17",
     "fa7d28a7fd3c0d04",
+    "fb566eff0fe50e58",
     "fbb92b4aa0678297",
     "fe1822ea43a8aa8a",
     "fe2787d2886e5166",
@@ -101845,6 +101893,7 @@
   ],
   "multilingual": [
     "0308e0bd5cf7f59d",
+    "23f94753601fc840",
     "36bea79f4183cc72",
     "4ed29d0a259e7c2b",
     "532a070848bf7430",
@@ -101855,6 +101904,7 @@
     "af3b04e850325c41"
   ],
   "multilingual-models": [
+    "406f4f6a6e36da2d",
     "48ede270b35dd06d"
   ],
   "multilingual-nlp": [
@@ -101926,6 +101976,7 @@
     "78dcb40b1b6f77cd",
     "8071fb449309ef90",
     "8a1f9638bb7aa844",
+    "8a5dbe221a8c9130",
     "8aa0f0b169b6af92",
     "9319d167a544bee6",
     "9439ada80ebea120",
@@ -102024,6 +102075,7 @@
     "bfb938f463dc701d",
     "c07fba7b995b611f",
     "c381d02b7481a17f",
+    "cb7d5300345734e2",
     "cc64d2986d7f6b35",
     "ce85782a24b366fe",
     "ea4ed66b5ac376be",
@@ -110915,6 +110967,7 @@
   ],
   "opensource": [
     "0402dd287a3b3713",
+    "0e4029ae99d7a8d3",
     "311767d7068ed325",
     "34fd36eea1a2ee2a",
     "4f7fbc88f448e841",
@@ -112163,7 +112216,8 @@
     "da62dcb93d5244c5",
     "dadefab233c74906",
     "eab34ba308b2f4e7",
-    "f6a46eee51bdfc63"
+    "f6a46eee51bdfc63",
+    "ffac836ded166688"
   ],
   "package-and-frontend-build-test": [
     "1461d63d872938de"
@@ -114303,6 +114357,9 @@
   ],
   "pffft": [
     "4282a43bbfd6608c"
+  ],
+  "pflow": [
+    "d32e83dab9cc9788"
   ],
   "pg-partition-manager": [
     "6115ec94cd636cbe"
@@ -124551,6 +124608,7 @@
     "2692c15a8e042e6a",
     "273bf4836d8577a1",
     "2cb9163db6077173",
+    "305f9267a0de46ed",
     "35c088f26d84813e",
     "35db2709a927bb3a",
     "3bde0f352a62131e",
@@ -124818,6 +124876,7 @@
     "33c74159bc6ed8f3",
     "33ecaad7cb3536cb",
     "33f0f190bdad2049",
+    "34ddb02b5bd52678",
     "354e66354270a037",
     "3559999d9ad9f408",
     "35ad7834bef884b5",
@@ -124909,6 +124968,7 @@
     "56d8542e8531c0a6",
     "56fae6d906170cb6",
     "5751273c3e91451e",
+    "576d40994826f1ac",
     "57dd4401efaf2b1c",
     "582c8ffc6e24136e",
     "586b6786db8a52c1",
@@ -125131,6 +125191,7 @@
     "a99a3df14071f565",
     "aa055cb58d662ea4",
     "aa5ed7f473465a65",
+    "aa6b83a062aa6b46",
     "aaa5f7f2134fc335",
     "ab6f8627043db4e7",
     "ab7c68c1335d39a3",
@@ -125276,6 +125337,7 @@
     "e403394e4108baa1",
     "e426f75245e575fe",
     "e42acfdffd729e0b",
+    "e441749f38aa6a4d",
     "e453e54bf11ad4cc",
     "e48e8ee56bc8c507",
     "e53a6b62fcae0810",
@@ -127791,6 +127853,7 @@
   ],
   "real-time-rendering": [
     "88fc0db87463c210",
+    "d192333f1cafd2f5",
     "da49efc7c447e67d"
   ],
   "real-world": [
@@ -140019,6 +140082,7 @@
   "search-agent": [
     "2831268b56737f17",
     "4f08f00f9eff0816",
+    "74d2ef8be86e5bd3",
     "84b0600f012cf709"
   ],
   "search-and-replace": [
@@ -140964,6 +141028,9 @@
   ],
   "self-hosted-runner-benchmark": [
     "3475244a446bbee2"
+  ],
+  "self-hosted-runner-check-runner-status": [
+    "d186f99eff0ea848"
   ],
   "self-hosted-runner-nightly-scheduled": [
     "acccebadcd5ede12"
@@ -142862,7 +142929,8 @@
   "signal-processing": [
     "006aa7b0788bcbc4",
     "424cad0f945ab558",
-    "61555b5265f8a5d3"
+    "61555b5265f8a5d3",
+    "ab94c8db7ce71deb"
   ],
   "signal-slot": [
     "676d2a9b75c03d78"
@@ -144973,6 +145041,7 @@
   "sound": [
     "21fc378657d742a0",
     "232a26b688c208ce",
+    "2744e055f0eeba20",
     "2793f21b4c110aa8",
     "2e9b0a59af5f0b9c",
     "4564425ea73d2d82",
@@ -145441,7 +145510,9 @@
   ],
   "speaker-diarization": [
     "0de77cbb1ce42316",
+    "1543b8a4266e71b8",
     "39b278b4062f4004",
+    "711f2e079876febc",
     "9698b524e71f1380",
     "96daf8f11b931e3c",
     "ca592031ecf32411",
@@ -145690,6 +145761,7 @@
     "aafbad1d1ca42a55",
     "aee96f84e065a6d6",
     "b1b2d888d0b3f097",
+    "b7ee74da834744b0",
     "ba63619a210ba112",
     "bb3305b85ca8b8e0",
     "be09f5db08613a66",
@@ -145737,6 +145809,7 @@
     "c5008b588e01b054"
   ],
   "speech-emotion-recognition": [
+    "158b6bd2b28feca3",
     "3ffba4200921e5de"
   ],
   "speech-engine": [
@@ -145761,6 +145834,7 @@
     "56eb42235d5042d6",
     "7886547cf2e7d89f",
     "87a3b69e91356efd",
+    "8cf239240669256d",
     "ac82a440cd75044d",
     "b651a5d02cc663e1",
     "d818176a14aa2008",
@@ -145775,6 +145849,7 @@
     "03c56bc962453275",
     "0e8c9ce0ae33b73d",
     "1128b8379a929a7e",
+    "16961d4a2c0f230b",
     "1706edbe902ae02f",
     "1735698603cc1ece",
     "18f4dcc3b1dc2760",
@@ -145787,6 +145862,7 @@
     "3574058128bdc9f5",
     "37a4157d492e4348",
     "39a669748fc82977",
+    "3bc334b7d9592187",
     "48a1bc0bbb967bde",
     "497e67eaf543e42d",
     "4b72d7b677115f58",
@@ -145794,6 +145870,7 @@
     "507c1e8801c44a99",
     "51bb274bed8e95e1",
     "5438f5a6be0b273e",
+    "57256251958baba1",
     "5c0f060961ff6748",
     "5f57df5721555bd9",
     "61d04c14bf7f8b57",
@@ -145821,6 +145898,8 @@
     "d0e3a525707e169f",
     "d26bd8b18b299264",
     "d3701a9322c3ea29",
+    "dbfb80a33314431e",
+    "dfb9dca45370d093",
     "e341c5fa515dda58",
     "e417cd4ffc1a248b",
     "f737dca49d7a6a6d",
@@ -145931,6 +146010,7 @@
   "speech-to-text": [
     "0952fde9a530eb4b",
     "0be9718f1be2dbd4",
+    "11914322cf53b112",
     "1b078b20082f10c7",
     "269e64c25db62c93",
     "30ccd85c2087d73a",
@@ -145944,6 +146024,7 @@
     "65888414e72caffd",
     "6d29050f5edd9461",
     "7386b735e26b008f",
+    "7cef73cbff5b93c1",
     "8bbae9f1db9a106c",
     "9cdcd4a2f1f02641",
     "a228449ba1a5ed1d",
@@ -145958,7 +146039,8 @@
     "dc74566d6b87df24",
     "e3bcb5ea5d3d571c",
     "e5ffe9a85bb429ca",
-    "e9d0d70072a9b939"
+    "e9d0d70072a9b939",
+    "fe3a7d48875bfb55"
   ],
   "speech-to-text-translation": [
     "1c039120c88ec537"
@@ -145990,6 +146072,9 @@
   ],
   "speechllm": [
     "26e13993a8b94701"
+  ],
+  "speechpy": [
+    "52209ce06ef5824c"
   ],
   "speechrecognition": [
     "e4b9894adf031cb3"
@@ -146133,6 +146218,12 @@
   ],
   "sphereface": [
     "90b2359f24a42605"
+  ],
+  "spherical-harmonics": [
+    "9b5915bdcf45cb81"
+  ],
+  "spherical-microphone-array": [
+    "53f8d74151c59533"
   ],
   "sphinx": [
     "145bca58270f22f3",
@@ -149281,6 +149372,9 @@
   "subtitles": [
     "450f905db7530e7d",
     "e92d7bdb1eb392e3"
+  ],
+  "subtitles-generator": [
+    "abe4212731e8c374"
   ],
   "subtle-encoding": [
     "c46d532b56fe2380"
@@ -157530,6 +157624,7 @@
     "d04dda8b88affc6c",
     "d0a0a21104296896",
     "d2ed7b271e85fd29",
+    "d61ba7c09af218ff",
     "d68c584fef452eb1",
     "dd8dd765c356f1e0",
     "e630c4641d0fe60c",
@@ -157986,6 +158081,9 @@
   "thesis": [
     "089a35791f471bf2",
     "ba4f82d7c53ca1da"
+  ],
+  "think-with-image": [
+    "a6d35cbc8bcd8e7f"
   ],
   "third-party-deps-scan": [
     "e8c834f8ee1172d4"
@@ -159868,6 +159966,7 @@
     "cf83cbcccb39870b",
     "cf8826c960484976",
     "d4910e2e71307c63",
+    "dd03f6c9577f070a",
     "e52b2a1399478bf8",
     "e53619a42f9d4d8e",
     "e5b22a8044d5b826",
@@ -166713,7 +166812,8 @@
     "ef1bca835bfe6030"
   ],
   "video-clip": [
-    "7e719949b9f40d59"
+    "7e719949b9f40d59",
+    "9ea89e4e34faa0d4"
   ],
   "video-clip-retrieval": [
     "5da0b0fdc58dbbcd"
@@ -167019,6 +167119,9 @@
   ],
   "video-streaming": [
     "c1211c69a5d23f0b"
+  ],
+  "video-subtitles": [
+    "c9446013a86fc939"
   ],
   "video-summarization": [
     "4f8547efdaab3745",
@@ -168517,6 +168620,9 @@
     "da1a02d56bffb773",
     "ebb4cee235f5c84b",
     "fc9d2103f4a562c6"
+  ],
+  "vlm-agent": [
+    "49acc7a0159dee91"
   ],
   "vlm-r1": [
     "1b2a1dd330b16e39"
@@ -171598,6 +171704,7 @@
     "55fd5a68664b9f1c",
     "61c2f2a9da7de085",
     "679a8d45e09fc20a",
+    "69a5094cda41e017",
     "74a732d2b0286776",
     "7b82bc368b20ca21",
     "7dfe06d6c6190ab8",

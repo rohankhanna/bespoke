@@ -121,6 +121,30 @@
       "source_repo": "modelscope/FunASR",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linto-ai/whisper-timestamped",
+      "status": "candidate-context",
+      "text": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linto-ai/whisper-timestamped",
+      "status": "candidate-context",
+      "text": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FunAudioLLM/Fun-ASR",
+      "status": "candidate-context",
+      "text": "Fun-ASR is an end-to-end speech recognition large model launched by Tongyi Lab. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FunAudioLLM/Fun-ASR",
+      "status": "candidate-context",
+      "text": "\u300c[\u7b80\u4f53\u4e2d\u6587](README_zh.md)\u300d|\u300cEnglish\u300d"
     }
   ],
   "candidate_glosses": [
@@ -183,6 +207,18 @@
       "source_repo": "modelscope/FunASR",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linto-ai/whisper-timestamped",
+      "status": "candidate",
+      "text": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FunAudioLLM/Fun-ASR",
+      "status": "candidate",
+      "text": "\u300c[\u7b80\u4f53\u4e2d\u6587](README_zh.md)\u300d|\u300cEnglish\u300d"
     }
   ],
   "candidate_related_terms": [],
@@ -598,11 +634,29 @@
       "observed_at": "2026-05-22T07:24:26.652079+00:00",
       "source_file": null,
       "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/Fun-ASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T07:24:26.652079+00:00",
+  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
   "lexical_providers": [
     "datamuse"
   ],

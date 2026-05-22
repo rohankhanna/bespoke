@@ -827,7 +827,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T08:42:38.049296+00:00",
+  "fetched_at": "2026-05-22T14:31:43.935977+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -880,7 +880,7 @@
     "html_url": "https://github.com/preactjs/preact",
     "language": "JavaScript",
     "pushed_at": "2026-05-21T06:29:50Z",
-    "stargazers_count": 38646,
+    "stargazers_count": 38649,
     "topics": [
       "components",
       "dom",
@@ -890,7 +890,7 @@
       "vdom",
       "virtual-dom"
     ],
-    "updated_at": "2026-05-22T08:28:25Z"
+    "updated_at": "2026-05-22T13:49:57Z"
   },
   "repo_links": [
     {

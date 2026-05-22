@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "speech-processing",
+      "sense_id": "speech-processing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "speech-processing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "speech-processing",
+  "observation_id": "8cf239240669256d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-22T13:06:06.618387+00:00",
+  "observed_text": "speech-processing",
+  "source_context_snippet": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence.",
+  "source_file": null,
+  "source_repo": "linto-ai/whisper-timestamped",
+  "source_repo_description": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence"
+}

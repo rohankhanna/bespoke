@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@v2",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-05-22T07:24:26.652079+00:00",
+  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1152,6 +1152,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build_docker_images.yml",
       "source_repo": "nod-ai/diffusers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-images.yml",
+      "source_repo": "pe-trik/transformers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-past-ci-docker-images.yml",
+      "source_repo": "pe-trik/transformers"
     }
   ]
 }

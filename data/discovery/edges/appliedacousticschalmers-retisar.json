@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "target": "conda-forge/openblas-feedstock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "target": "yoggy/sendosc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "target": "jackaudio/jack2-releases",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "target": "3d-audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "target": "binauralaudio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "target": "real-time-rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "target": "signal-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "target": "spherical-harmonics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppliedAcousticsChalmers/ReTiSAR",
+      "target": "spherical-microphone-array",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-22T13:06:06.618387+00:00",
+  "source_repo": "AppliedAcousticsChalmers/ReTiSAR"
+}

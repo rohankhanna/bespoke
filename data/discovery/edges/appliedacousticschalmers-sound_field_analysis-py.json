@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "AppliedAcousticsChalmers/sound_field_analysis-py",
+      "target": "andresperezlopez/pysofaconventions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "AppliedAcousticsChalmers/sound_field_analysis-py",
+      "target": "gabrielelanaro/pyquante",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppliedAcousticsChalmers/sound_field_analysis-py",
+      "target": "analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppliedAcousticsChalmers/sound_field_analysis-py",
+      "target": "package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppliedAcousticsChalmers/sound_field_analysis-py",
+      "target": "sound",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-22T13:06:06.618387+00:00",
+  "source_repo": "AppliedAcousticsChalmers/sound_field_analysis-py"
+}

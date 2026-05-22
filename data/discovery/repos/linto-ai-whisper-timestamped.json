@@ -1,0 +1,335 @@
+{
+  "components": [
+    {
+      "component": "etils-actions/pypi-auto-publish@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "linto-ai/whisper-timestamped",
+      "target": "amsehili/auditok",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "linto-ai/whisper-timestamped",
+      "target": "etils-actions/pypi-auto-publish@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "linto-ai/whisper-timestamped",
+      "target": "Auto-publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped",
+      "target": "attention-is-all-you-need",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped",
+      "target": "attention-mechanism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped",
+      "target": "attention-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped",
+      "target": "attention-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped",
+      "target": "attention-seq2seq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped",
+      "target": "attention-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped",
+      "target": "multilingual-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped",
+      "target": "speaker-diarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped",
+      "target": "speech-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped",
+      "target": "speech-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped",
+      "target": "whisper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-22T13:26:09.678373+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33018
+    },
+    {
+      "path": "Dockerfile",
+      "size": 922
+    },
+    {
+      "path": "requirements.txt",
+      "size": 33
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 536
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence",
+    "fork": false,
+    "full_name": "linto-ai/whisper-timestamped",
+    "html_url": "https://github.com/linto-ai/whisper-timestamped",
+    "language": "Python",
+    "pushed_at": "2025-09-09T07:04:36Z",
+    "stargazers_count": 2812,
+    "topics": [
+      "asr",
+      "attention-is-all-you-need",
+      "attention-mechanism",
+      "attention-model",
+      "attention-network",
+      "attention-seq2seq",
+      "attention-visualization",
+      "deep-learning",
+      "machine-learning",
+      "multilingual-models",
+      "python",
+      "python3",
+      "pytorch",
+      "speaker-diarization",
+      "speech",
+      "speech-processing",
+      "speech-recognition",
+      "speech-to-text",
+      "transformers",
+      "whisper"
+    ],
+    "updated_at": "2026-05-20T23:06:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amsehili/auditok",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto-publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Auto-publish"
+    },
+    {
+      "context_snippet": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-is-all-you-need"
+    },
+    {
+      "context_snippet": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-mechanism"
+    },
+    {
+      "context_snippet": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-model"
+    },
+    {
+      "context_snippet": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-network"
+    },
+    {
+      "context_snippet": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-seq2seq"
+    },
+    {
+      "context_snippet": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-visualization"
+    },
+    {
+      "context_snippet": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multilingual-models"
+    },
+    {
+      "context_snippet": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-diarization"
+    },
+    {
+      "context_snippet": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-processing"
+    },
+    {
+      "context_snippet": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text"
+    },
+    {
+      "context_snippet": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whisper"
+    }
+  ]
+}

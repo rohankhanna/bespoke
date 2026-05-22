@@ -367,6 +367,42 @@
       "source_repo": "Softcatala/whisper-ctranslate2",
       "status": "candidate-context",
       "text": "[![PyPI version](https://img.shields.io/pypi/v/whisper-ctranslate2.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/whisper-ctranslate2/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linto-ai/whisper-timestamped",
+      "status": "candidate-context",
+      "text": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linto-ai/whisper-timestamped",
+      "status": "candidate-context",
+      "text": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "status": "candidate-context",
+      "text": "Multilingual Voice Understanding Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "status": "candidate-context",
+      "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md))"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/FunClip",
+      "status": "candidate-context",
+      "text": "Open-source, accurate and easy-to-use video speech recognition & clipping tool, LLM based AI clipping intergrated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunClip",
+      "status": "candidate-context",
+      "text": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +585,24 @@
       "source_repo": "Softcatala/whisper-ctranslate2",
       "status": "candidate",
       "text": "[![PyPI version](https://img.shields.io/pypi/v/whisper-ctranslate2.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/whisper-ctranslate2/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linto-ai/whisper-timestamped",
+      "status": "candidate",
+      "text": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FunAudioLLM/SenseVoice",
+      "status": "candidate",
+      "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md))"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunClip",
+      "status": "candidate",
+      "text": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)"
     }
   ],
   "candidate_related_terms": [],
@@ -1894,11 +1948,47 @@
       "observed_at": "2026-05-22T07:24:26.652079+00:00",
       "source_file": null,
       "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "SYSTRAN/faster-whisper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "linto-ai/whisper-timestamped"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "FunAudioLLM/SenseVoice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T13:06:06.618387+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T07:24:26.652079+00:00",
+  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
   "lexical_providers": [
     "datamuse"
   ],
