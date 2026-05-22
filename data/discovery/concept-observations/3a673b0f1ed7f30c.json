@@ -48,7 +48,7 @@
   "normalized_form": "cost-tracker-smoke",
   "observation_id": "3a673b0f1ed7f30c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T07:24:26.652079+00:00",
+  "observed_at": "2026-05-22T18:43:38.426013+00:00",
   "observed_text": "cost-tracker-smoke",
   "source_context_snippet": "cost-tracker-smoke",
   "source_file": ".github/workflows/cost-tracker-smoke.yml",

@@ -48,7 +48,7 @@
   "normalized_form": "update-sqlite",
   "observation_id": "3c45bac1258a9662",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T13:06:06.618387+00:00",
+  "observed_at": "2026-05-22T18:43:38.426013+00:00",
   "observed_text": "update-sqlite",
   "source_context_snippet": "update-sqlite",
   "source_file": ".github/workflows/update-sqlite.yml",

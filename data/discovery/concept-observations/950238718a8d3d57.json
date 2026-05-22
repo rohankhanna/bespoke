@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Transcribe and translate voice into LRC file using Whisper and LLMs (GPT, Claude, et,al). \u4f7f\u7528whisper\u548cLLM(GPT\uff0cClaude\u7b49)\u6765\u8f6c\u5f55\u3001\u7ffb\u8bd1\u4f60\u7684\u97f3\u9891\u4e3a\u5b57\u5e55\u6587\u4ef6\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/openlrc)](https://pypi.org/project/openlrc/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/openlrc)](https://pypi.org/project/openlrc/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032306,
+      "status": "candidate",
+      "text": "language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029704,
+      "status": "candidate",
+      "text": "lyrical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016789,
+      "status": "candidate",
+      "text": "coloratura"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39973666,
+      "status": "candidate",
+      "text": "emotional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39921074,
+      "status": "candidate",
+      "text": "words"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lyrics",
+      "sense_id": "lyrics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lyrics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lyrics",
+  "observation_id": "950238718a8d3d57",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-22T18:43:38.426013+00:00",
+  "observed_text": "lyrics",
+  "source_context_snippet": "[![PyPI](https://img.shields.io/pypi/v/openlrc)](https://pypi.org/project/openlrc/)",
+  "source_file": null,
+  "source_repo": "zh-plus/openlrc",
+  "source_repo_description": "Transcribe and translate voice into LRC file using Whisper and LLMs (GPT, Claude, et,al). \u4f7f\u7528whisper\u548cLLM(GPT\uff0cClaude\u7b49)\u6765\u8f6c\u5f55\u3001\u7ffb\u8bd1\u4f60\u7684\u97f3\u9891\u4e3a\u5b57\u5e55\u6587\u4ef6\u3002"
+}

@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-wheels.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-wheels.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-wheels.yml",
+      "source_repo": "lifeiteng/OmniSenseVoice",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-wheels.yml",
+      "source_repo": "lifeiteng/OmniSenseVoice",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-wheels.yml",
+      "source_repo": "lifeiteng/OmniSenseVoice",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-wheels.yml",
+      "source_repo": "lifeiteng/OmniSenseVoice",
+      "target": "Publish Source Distribution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lifeiteng/OmniSenseVoice",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lifeiteng/OmniSenseVoice",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lifeiteng/OmniSenseVoice",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lifeiteng/OmniSenseVoice",
+      "target": "Run Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-22T21:01:14.251227+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2646
+    },
+    {
+      "path": ".github/workflows/publish-wheels.yml",
+      "size": 1979
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1535
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Omni SenseVoice: High-Speed Speech Recognition with words timestamps \ud83d\udde3\ufe0f\ud83c\udfaf",
+    "fork": false,
+    "full_name": "lifeiteng/OmniSenseVoice",
+    "html_url": "https://github.com/lifeiteng/OmniSenseVoice",
+    "language": "Python",
+    "pushed_at": "2025-12-10T05:17:31Z",
+    "stargazers_count": 893,
+    "topics": [],
+    "updated_at": "2026-05-20T14:48:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish Source Distribution",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-wheels.yml",
+      "term": "Publish Source Distribution"
+    },
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Run Tests"
+    }
+  ]
+}

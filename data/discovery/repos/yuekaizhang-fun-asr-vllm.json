@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuekaizhang/Fun-ASR-vllm",
+      "target": "speechcolab/leaderboard",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-22T21:01:05.683265+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5740
+    },
+    {
+      "path": "requirements.txt",
+      "size": 85
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fun-ASR is an end-to-end speech recognition large model launched by Tongyi Lab. ",
+    "fork": true,
+    "full_name": "yuekaizhang/Fun-ASR-vllm",
+    "html_url": "https://github.com/yuekaizhang/Fun-ASR-vllm",
+    "language": "Python",
+    "pushed_at": "2026-01-14T05:44:39Z",
+    "stargazers_count": 99,
+    "topics": [],
+    "updated_at": "2026-05-22T02:09:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "speechcolab/leaderboard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,451 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-rc.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@a06a81a03ee405af7f2048a818ed3f03bbf83c7b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-rc.yml"
+    },
+    {
+      "component": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-comment-trigger.yml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@bf47d102fdb849e755b0b0023ea3e81a44b6f570",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-comment-trigger.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buf-publish.yml"
+    },
+    {
+      "component": "bufbuild/buf-setup-action@a47c93e0b1648d5651a065437926377d060baa99",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buf-publish.yml"
+    },
+    {
+      "component": "bufbuild/buf-push-action@a654ff18effe4641ebea4a4ce242c49800728459",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buf-publish.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-publish.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-publish.yml"
+    },
+    {
+      "component": "rust-lang/crates-io-auth-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-publish.yml"
+    },
+    {
+      "component": "albertlockett/publish-crates@85f0989f1298bc3889830b5fc28122c7586efeec",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-publish.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-publish.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-benchmarks.yml"
+    },
+    {
+      "component": "google-github-actions/auth@c200f3691d83b41bf9bbd8638997a462592937ed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-benchmarks.yml"
+    },
+    {
+      "component": "bencherdev/bencher@8151077aa7b1bceaac11c4b308265417cae60e2b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-benchmarks.yml"
+    },
+    {
+      "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-benchmarks.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@3ac52d0da9f8ec9ca7b4dc23bb477e36ef9c77a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@26ec041249acb0a944c0a47b6c0c13f05dbc5b44",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-rc.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-rc.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "softprops/action-gh-release@a06a81a03ee405af7f2048a818ed3f03bbf83c7b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve-rc.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "Approve RC",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-comment-trigger.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-comment-trigger.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "peter-evans/repository-dispatch@bf47d102fdb849e755b0b0023ea3e81a44b6f570",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-comment-trigger.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "Benchmark Comment Trigger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "Run benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buf-publish.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buf-publish.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "bufbuild/buf-setup-action@a47c93e0b1648d5651a065437926377d060baa99",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buf-publish.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "bufbuild/buf-push-action@a654ff18effe4641ebea4a4ce242c49800728459",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buf-publish.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "Publish protobuf to BSR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-publish.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-publish.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-publish.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-publish.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "albertlockett/publish-crates@85f0989f1298bc3889830b5fc28122c7586efeec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo-publish.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "Publish Rust crate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-benchmarks.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-benchmarks.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "google-github-actions/auth@c200f3691d83b41bf9bbd8638997a462592937ed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-benchmarks.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "bencherdev/bencher@8151077aa7b1bceaac11c4b308265417cae60e2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-benchmarks.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-benchmarks.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-benchmarks.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "Run Regression Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "anthropics/claude-code-action@3ac52d0da9f8ec9ca7b4dc23bb477e36ef9c77a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "anthropics/claude-code-action@26ec041249acb0a944c0a47b6c0c13f05dbc5b44",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "datafuse-extras/lance",
+      "target": "Claude Code",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-22T20:01:40.292675+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8420
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 8082
+    },
+    {
+      "path": ".github/workflows/approve-rc.yml",
+      "size": 4568
+    },
+    {
+      "path": ".github/workflows/benchmark-comment-trigger.yml",
+      "size": 2051
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 1084
+    },
+    {
+      "path": ".github/workflows/buf-publish.yml",
+      "size": 739
+    },
+    {
+      "path": ".github/workflows/cargo-publish.yml",
+      "size": 4024
+    },
+    {
+      "path": ".github/workflows/ci-benchmarks.yml",
+      "size": 2754
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yml",
+      "size": 2536
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 2430
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..",
+    "fork": true,
+    "full_name": "datafuse-extras/lance",
+    "html_url": "https://github.com/datafuse-extras/lance",
+    "language": "Rust",
+    "pushed_at": "2026-04-17T07:53:42Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-17T07:53:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Approve RC",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve-rc.yml",
+      "term": "Approve RC"
+    },
+    {
+      "context_snippet": "Benchmark Comment Trigger",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-comment-trigger.yml",
+      "term": "Benchmark Comment Trigger"
+    },
+    {
+      "context_snippet": "Run benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "Run benchmarks"
+    },
+    {
+      "context_snippet": "Publish protobuf to BSR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buf-publish.yml",
+      "term": "Publish protobuf to BSR"
+    },
+    {
+      "context_snippet": "Publish Rust crate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo-publish.yml",
+      "term": "Publish Rust crate"
+    },
+    {
+      "context_snippet": "Run Regression Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-benchmarks.yml",
+      "term": "Run Regression Benchmarks"
+    },
+    {
+      "context_snippet": "Claude Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "term": "Claude Code Review"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    }
+  ]
+}

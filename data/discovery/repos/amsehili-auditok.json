@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "amsehili/auditok",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "amsehili/auditok",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "amsehili/auditok",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amsehili/auditok",
+      "target": "audio-activities",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amsehili/auditok",
+      "target": "audio-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amsehili/auditok",
+      "target": "audio-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amsehili/auditok",
+      "target": "voice-activity-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amsehili/auditok",
+      "target": "voice-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-22T19:55:29.133833+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 12385
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2627
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1045
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An audio/acoustic activity detection and audio segmentation tool",
+    "fork": false,
+    "full_name": "amsehili/auditok",
+    "html_url": "https://github.com/amsehili/auditok",
+    "language": "Python",
+    "pushed_at": "2026-05-14T20:27:15Z",
+    "stargazers_count": 848,
+    "topics": [
+      "audio-activities",
+      "audio-data",
+      "audio-segmentation",
+      "vad",
+      "voice-activity-detection",
+      "voice-detection"
+    ],
+    "updated_at": "2026-05-22T12:12:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": ".. image:: https://raw.githubusercontent.com/amsehili/auditok/0cef3df7e8064707a7f3624669b3b838cb60523b/doc/figures/auditok-logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-activities"
+    },
+    {
+      "context_snippet": ".. image:: https://raw.githubusercontent.com/amsehili/auditok/0cef3df7e8064707a7f3624669b3b838cb60523b/doc/figures/auditok-logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-data"
+    },
+    {
+      "context_snippet": ".. image:: https://raw.githubusercontent.com/amsehili/auditok/0cef3df7e8064707a7f3624669b3b838cb60523b/doc/figures/auditok-logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-segmentation"
+    },
+    {
+      "context_snippet": ".. image:: https://raw.githubusercontent.com/amsehili/auditok/0cef3df7e8064707a7f3624669b3b838cb60523b/doc/figures/auditok-logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-activity-detection"
+    },
+    {
+      "context_snippet": ".. image:: https://raw.githubusercontent.com/amsehili/auditok/0cef3df7e8064707a7f3624669b3b838cb60523b/doc/figures/auditok-logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-detection"
+    }
+  ]
+}

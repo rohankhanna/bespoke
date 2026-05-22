@@ -11,21 +11,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_build-image.yml",
       "source_repo": "OpenHands/OpenHands",
-      "target": "docker/login-action@v4",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_build-image.yml",
       "source_repo": "OpenHands/OpenHands",
-      "target": "docker/setup-buildx-action@v4",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_build-image.yml",
       "source_repo": "OpenHands/OpenHands",
-      "target": "docker/build-push-action@v7",
+      "target": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
       "target_type": "component"
     },
     {
@@ -88,14 +88,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/enterprise-check-migrations.yml",
       "source_repo": "OpenHands/OpenHands",
-      "target": "peter-evans/find-comment@v4",
+      "target": "peter-evans/find-comment@b30e6a3c0ed37e7c023ccd3f1db5c6c0b0c23aad",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/enterprise-check-migrations.yml",
       "source_repo": "OpenHands/OpenHands",
-      "target": "peter-evans/create-or-update-comment@v5",
+      "target": "peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9",
       "target_type": "component"
     },
     {
@@ -170,30 +170,30 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/issue-duplicate-checker.yml",
+      "source_file": ".github/workflows/issue-opened.yml",
       "source_repo": "OpenHands/OpenHands",
       "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/issue-duplicate-checker.yml",
+      "source_file": ".github/workflows/issue-opened.yml",
       "source_repo": "OpenHands/OpenHands",
       "target": "actions/setup-python@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/issue-duplicate-checker.yml",
+      "source_file": ".github/workflows/issue-opened.yml",
       "source_repo": "OpenHands/OpenHands",
       "target": "actions/github-script@v9",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/issue-duplicate-checker.yml",
+      "source_file": ".github/workflows/issue-opened.yml",
       "source_repo": "OpenHands/OpenHands",
-      "target": "Issue Duplicate Check via OpenHands Cloud",
+      "target": "Issue Opened Automation",
       "target_type": "term"
     },
     {
@@ -225,6 +225,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-22T13:06:06.618387+00:00",
+  "generated_at": "2026-05-22T18:43:38.426013+00:00",
   "source_repo": "OpenHands/OpenHands"
 }

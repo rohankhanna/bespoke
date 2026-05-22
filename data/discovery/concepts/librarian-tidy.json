@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "librarian tidy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-cloud-go",
+      "status": "candidate-context",
+      "text": "Google Cloud Client Libraries for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-go",
+      "status": "candidate-context",
+      "text": "librarian tidy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-go",
+      "status": "candidate",
+      "text": "librarian tidy"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10643,
+      "status": "candidate",
+      "text": "index"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10643,
+      "status": "candidate",
+      "text": "indexing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10643,
+      "status": "candidate",
+      "text": "quiet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10643,
+      "status": "candidate",
+      "text": "shelve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10643,
+      "status": "candidate",
+      "text": "stacks"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "librarian tidy",
+  "concept_id": "librarian-tidy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": ".github/workflows/librarian_tidy.yml",
+      "source_repo": "googleapis/google-cloud-go"
+    }
+  ],
+  "first_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "librarian tidy",
+      "sense_id": "librarian-tidy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

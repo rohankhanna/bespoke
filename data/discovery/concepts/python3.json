@@ -1033,6 +1033,18 @@
       "source_repo": "linto-ai/whisper-timestamped",
       "status": "candidate-context",
       "text": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nttcslab-sp/kaldiio",
+      "status": "candidate-context",
+      "text": "A pure python module for reading and writing kaldi ark files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nttcslab-sp/kaldiio",
+      "status": "candidate-context",
+      "text": "[![pypi](https://img.shields.io/pypi/v/kaldiio.svg)](https://pypi.python.org/pypi/kaldiio)"
     }
   ],
   "candidate_glosses": [
@@ -1545,6 +1557,12 @@
       "source_repo": "linto-ai/whisper-timestamped",
       "status": "candidate",
       "text": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nttcslab-sp/kaldiio",
+      "status": "candidate",
+      "text": "[![pypi](https://img.shields.io/pypi/v/kaldiio.svg)](https://pypi.python.org/pypi/kaldiio)"
     }
   ],
   "candidate_related_terms": [],
@@ -4942,11 +4960,65 @@
       "observed_at": "2026-05-22T13:06:06.618387+00:00",
       "source_file": null,
       "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": null,
+      "source_repo": "thedatumorg/VUS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": null,
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": null,
+      "source_repo": "nttcslab-sp/kaldiio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
+  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,91 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p0p4k/vits2_pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p0p4k/vits2_pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p0p4k/vits2_pytorch",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p0p4k/vits2_pytorch",
+      "target": "vits2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-22T19:55:37.950404+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9273
+    },
+    {
+      "path": "requirements.txt",
+      "size": 228
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "unofficial vits2-TTS implementation in pytorch",
+    "fork": false,
+    "full_name": "p0p4k/vits2_pytorch",
+    "html_url": "https://github.com/p0p4k/vits2_pytorch",
+    "language": "Python",
+    "pushed_at": "2024-03-28T08:54:14Z",
+    "stargazers_count": 548,
+    "topics": [
+      "deep-learning",
+      "pytorch",
+      "text-to-speech",
+      "tts",
+      "vits2"
+    ],
+    "updated_at": "2026-05-02T15:49:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Unofficial implementation of the [VITS2 paper](https://arxiv.org/abs/2307.16430), sequel to [VITS paper](https://arxiv.org/abs/2106.06103). (thanks to the authors for their work!)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Unofficial implementation of the [VITS2 paper](https://arxiv.org/abs/2307.16430), sequel to [VITS paper](https://arxiv.org/abs/2106.06103). (thanks to the authors for their work!)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Unofficial implementation of the [VITS2 paper](https://arxiv.org/abs/2307.16430), sequel to [VITS paper](https://arxiv.org/abs/2106.06103). (thanks to the authors for their work!)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "Unofficial implementation of the [VITS2 paper](https://arxiv.org/abs/2307.16430), sequel to [VITS paper](https://arxiv.org/abs/2106.06103). (thanks to the authors for their work!)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vits2"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Source Distribution"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lifeiteng/OmniSenseVoice",
+      "status": "candidate-context",
+      "text": "Omni SenseVoice: High-Speed Speech Recognition with words timestamps \ud83d\udde3\ufe0f\ud83c\udfaf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lifeiteng/OmniSenseVoice",
+      "status": "candidate-context",
+      "text": "Publish Source Distribution"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lifeiteng/OmniSenseVoice",
+      "status": "candidate",
+      "text": "Publish Source Distribution"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35670,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25837,
+      "status": "candidate",
+      "text": "acoustic spectrum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25837,
+      "status": "candidate",
+      "text": "sound spectrum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25837,
+      "status": "candidate",
+      "text": "spectrobolometer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20347,
+      "status": "candidate",
+      "text": "issue"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Source Distribution",
+  "concept_id": "publish-source-distribution",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": ".github/workflows/publish-wheels.yml",
+      "source_repo": "lifeiteng/OmniSenseVoice"
+    }
+  ],
+  "first_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Source Distribution",
+      "sense_id": "publish-source-distribution#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

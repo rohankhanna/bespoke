@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p0p4k/vits2_pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p0p4k/vits2_pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p0p4k/vits2_pytorch",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p0p4k/vits2_pytorch",
+      "target": "vits2",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-22T18:43:38.426013+00:00",
+  "source_repo": "p0p4k/vits2_pytorch"
+}

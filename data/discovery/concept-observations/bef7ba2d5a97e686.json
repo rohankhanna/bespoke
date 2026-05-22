@@ -84,7 +84,7 @@
   "normalized_form": "greetings",
   "observation_id": "bef7ba2d5a97e686",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T07:24:26.652079+00:00",
+  "observed_at": "2026-05-22T18:43:38.426013+00:00",
   "observed_text": "Greetings",
   "source_context_snippet": "Greetings",
   "source_file": ".github/workflows/greetings.yml",

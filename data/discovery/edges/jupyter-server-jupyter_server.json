@@ -1,6 +1,13 @@
 {
   "edges": [
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyter-server/jupyter_server",
+      "target": "jupyter/.",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "jupyter-server/jupyter_server",
@@ -232,6 +239,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-22T13:06:06.618387+00:00",
+  "generated_at": "2026-05-22T18:43:38.426013+00:00",
   "source_repo": "jupyter-server/jupyter_server"
 }

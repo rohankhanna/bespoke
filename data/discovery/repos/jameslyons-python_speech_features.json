@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-22T19:55:53.818227+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4214
+    },
+    {
+      "path": "requirements.txt",
+      "size": 55
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This library provides common speech features for ASR including MFCCs and filterbank energies.",
+    "fork": false,
+    "full_name": "jameslyons/python_speech_features",
+    "html_url": "https://github.com/jameslyons/python_speech_features",
+    "language": "Python",
+    "pushed_at": "2021-10-20T10:08:48Z",
+    "stargazers_count": 2422,
+    "topics": [],
+    "updated_at": "2026-05-20T06:02:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

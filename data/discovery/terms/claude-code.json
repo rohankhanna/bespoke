@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
+  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -1206,6 +1206,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "pdfme/pdfme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "datafuse-extras/lance"
     }
   ],
   "term": "Claude Code"

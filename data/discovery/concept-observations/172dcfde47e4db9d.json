@@ -84,7 +84,7 @@
   "normalized_form": "integration-tests-client-side",
   "observation_id": "172dcfde47e4db9d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T07:24:26.652079+00:00",
+  "observed_at": "2026-05-22T18:43:38.426013+00:00",
   "observed_text": "Integration Tests (Client-side)",
   "source_context_snippet": "Integration Tests (Client-side)",
   "source_file": ".github/workflows/integration-tests.yml",

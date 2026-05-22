@@ -1596,6 +1596,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "@vitejs/devtools",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "@vitejs/plugin-react",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -4178,6 +4183,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
+      "target": "@vitejs/devtools",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobehub",
       "target": "@vitejs/plugin-react",
       "target_type": "component"
     },
@@ -4742,7 +4754,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T08:38:31.881599+00:00",
+  "fetched_at": "2026-05-22T20:55:17.528490+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -4754,7 +4766,7 @@
     },
     {
       "path": "package.json",
-      "size": 22934
+      "size": 23107
     },
     {
       "path": ".github/workflows/auto-i18n.yml",
@@ -4794,8 +4806,8 @@
     "full_name": "lobehub/lobehub",
     "html_url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
-    "pushed_at": "2026-05-22T08:35:31Z",
-    "stargazers_count": 77512,
+    "pushed_at": "2026-05-22T20:04:38Z",
+    "stargazers_count": 77538,
     "topics": [
       "agent",
       "agent-collaboration",
@@ -4813,7 +4825,7 @@
       "openai",
       "skills"
     ],
-    "updated_at": "2026-05-22T08:27:28Z"
+    "updated_at": "2026-05-22T20:37:59Z"
   },
   "repo_links": [
     {

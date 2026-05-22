@@ -442,11 +442,17 @@
       "observed_at": "2026-05-22T07:24:26.652079+00:00",
       "source_file": null,
       "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T07:24:26.652079+00:00",
+  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
   "lexical_providers": [
     "datamuse"
   ],

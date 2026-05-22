@@ -1,7 +1,7 @@
 {
   "component": "FedericoCarboni/setup-ffmpeg@v2",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/runTest.yml",
       "source_repo": "JetBrains/intellij-ui-test-robot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zh-plus/openlrc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dispatch_CI.yml",
+      "source_repo": "zh-plus/openlrc"
     }
   ]
 }

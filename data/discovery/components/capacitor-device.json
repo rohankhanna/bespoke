@@ -1,7 +1,7 @@
 {
   "component": "@capacitor/device",
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
+  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

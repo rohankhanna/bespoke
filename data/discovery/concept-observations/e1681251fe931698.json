@@ -84,7 +84,7 @@
   "normalized_form": "publish-to-winget",
   "observation_id": "e1681251fe931698",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T13:06:06.618387+00:00",
+  "observed_at": "2026-05-22T18:43:38.426013+00:00",
   "observed_text": "Publish to Winget",
   "source_context_snippet": "Publish to Winget",
   "source_file": ".github/workflows/winget.yml",

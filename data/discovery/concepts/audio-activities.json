@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "audio-activities"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amsehili/auditok",
+      "status": "candidate-context",
+      "text": "An audio/acoustic activity detection and audio segmentation tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amsehili/auditok",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/amsehili/auditok/0cef3df7e8064707a7f3624669b3b838cb60523b/doc/figures/auditok-logo.png"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amsehili/auditok",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/amsehili/auditok/0cef3df7e8064707a7f3624669b3b838cb60523b/doc/figures/auditok-logo.png"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "audio-activities",
+  "concept_id": "audio-activities",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": null,
+      "source_repo": "amsehili/auditok"
+    }
+  ],
+  "first_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "audio-activities",
+      "sense_id": "audio-activities#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

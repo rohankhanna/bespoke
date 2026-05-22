@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Omni SenseVoice: High-Speed Speech Recognition with words timestamps \ud83d\udde3\ufe0f\ud83c\udfaf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish Source Distribution"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish Source Distribution"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35670,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25837,
+      "status": "candidate",
+      "text": "acoustic spectrum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25837,
+      "status": "candidate",
+      "text": "sound spectrum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25837,
+      "status": "candidate",
+      "text": "spectrobolometer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20347,
+      "status": "candidate",
+      "text": "issue"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Source Distribution",
+      "sense_id": "publish-source-distribution#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-source-distribution",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-source-distribution",
+  "observation_id": "5f262ac17ca12018",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-22T18:43:38.426013+00:00",
+  "observed_text": "Publish Source Distribution",
+  "source_context_snippet": "Publish Source Distribution",
+  "source_file": ".github/workflows/publish-wheels.yml",
+  "source_repo": "lifeiteng/OmniSenseVoice",
+  "source_repo_description": "Omni SenseVoice: High-Speed Speech Recognition with words timestamps \ud83d\udde3\ufe0f\ud83c\udfaf"
+}

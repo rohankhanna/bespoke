@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuekaizhang/Fun-ASR-vllm",
+      "target": "speechcolab/leaderboard",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-22T18:43:38.426013+00:00",
+  "source_repo": "yuekaizhang/Fun-ASR-vllm"
+}

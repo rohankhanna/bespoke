@@ -2,7 +2,7 @@
   "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
+  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -1304,6 +1304,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/sign-windows.yaml",
       "source_repo": "obsproject/obs-studio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/approve-rc.yml",
+      "source_repo": "datafuse-extras/lance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "datafuse-extras/lance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/buf-publish.yml",
+      "source_repo": "datafuse-extras/lance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo-publish.yml",
+      "source_repo": "datafuse-extras/lance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-benchmarks.yml",
+      "source_repo": "datafuse-extras/lance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "datafuse-extras/lance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "datafuse-extras/lance"
     }
   ]
 }

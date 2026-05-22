@@ -352,11 +352,17 @@
       "observed_at": "2026-05-22T13:06:06.618387+00:00",
       "source_file": ".github/workflows/checkpoints.yml",
       "source_repo": "limenlp/verl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": ".github/workflows/checkpoints.yml",
+      "source_repo": "limenlp/verl"
     }
   ],
   "first_seen_at": "2026-05-06T18:41:14.951242+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
+  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
   "lexical_providers": [
     "datamuse"
   ],

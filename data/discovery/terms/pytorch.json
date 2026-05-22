@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
+  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -3406,6 +3406,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "FunAudioLLM/SenseVoice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "p0p4k/vits2_pytorch"
     }
   ],
   "term": "pytorch"

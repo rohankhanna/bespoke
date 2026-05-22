@@ -6051,6 +6051,7 @@
     "334b1fbfe3a4fa67"
   ],
   "approve-rc": [
+    "bb4290387f9fd9a4",
     "d024e2c05d4af7de"
   ],
   "approve-renovate-pr": [
@@ -8158,6 +8159,9 @@
     "fc8acbe10b984792",
     "fd19fe56e4e537ab"
   ],
+  "audio-activities": [
+    "b482d8d7447ef312"
+  ],
   "audio-analysis": [
     "2be010e9c4a8fa64",
     "90eaf0e5bf2ec15e",
@@ -8182,6 +8186,9 @@
   "audio-compression": [
     "08a07f968b9e2232",
     "523570db4206819c"
+  ],
+  "audio-data": [
+    "f57b049a0adc2d14"
   ],
   "audio-data-augmentation": [
     "1c700d5370a7d634",
@@ -8316,6 +8323,9 @@
   ],
   "audio-scene-understanding": [
     "f9e5f90a63ef6180"
+  ],
+  "audio-segmentation": [
+    "09abe97b6d1e2e88"
   ],
   "audio-separation": [
     "8c15e3dd87f98062"
@@ -9320,6 +9330,9 @@
     "91f3f1dd8d9d9b19",
     "a029ef167fbd1a59",
     "ec358333d54e329a"
+  ],
+  "auto-subtitle": [
+    "20e3a002b48ddc6e"
   ],
   "auto-swap-labels": [
     "335c8f6a92c92153"
@@ -11863,7 +11876,8 @@
     "4119dcbe216351c5",
     "6de63cf02da64fbd",
     "85159a834d990849",
-    "98a8c504b4e5dc88"
+    "98a8c504b4e5dc88",
+    "f099e0d31ac66dc5"
   ],
   "bandit-algorithms": [
     "092f6a9dc9b58644"
@@ -13038,7 +13052,8 @@
     "70c0cae6cf57ee90"
   ],
   "benchmark-comment-trigger": [
-    "0b682f4bd6cec201"
+    "0b682f4bd6cec201",
+    "b15995485cd7b589"
   ],
   "benchmark-compare": [
     "859eb0d06b890a7c"
@@ -19100,6 +19115,7 @@
     "adb4214fef115058",
     "ae0864e8777666fd",
     "b09a3fc62a46b4ac",
+    "b9c4b6db139c6454",
     "bac014193ae1676a",
     "bbe0e93d9da11237",
     "c167b728c21cdc75",
@@ -28789,6 +28805,9 @@
   "ci-db": [
     "70cdeb01dde9612f"
   ],
+  "ci-debug": [
+    "c597a823d3f912f9"
+  ],
   "ci-dgraph-core-tests": [
     "5eecf7596774e825"
   ],
@@ -30591,6 +30610,7 @@
     "d27cb27168948dea",
     "d3ccdc7001c914cb",
     "d3e637345c446e95",
+    "d4683cdeca4d956c",
     "d496f8e7aa646469",
     "d50a68838fb76856",
     "d6ee7e884eee2e15",
@@ -30742,6 +30762,7 @@
     "d8499183b4fe236a",
     "da0cf5b249a40db4",
     "dd8cb907648e0154",
+    "e7fe3d6e85f11fe9",
     "eae6b46936ea8110",
     "ee74f96bdcbefa9d",
     "ee7d83224f0f248b",
@@ -35532,6 +35553,7 @@
     "f8b02ff4c7e39ee5",
     "f8fd4cd53e66b581",
     "f921e0b36d857077",
+    "f96438068f86c905",
     "f99079e030866f88",
     "f9dbf235dcc543d2",
     "fa98a7ab039750b1",
@@ -47549,6 +47571,7 @@
     "ba288d3605b96dc2",
     "ba327068de463ac8",
     "ba343389702b6ba5",
+    "ba47b4ec3b6cd8be",
     "ba91d63676f70abf",
     "baa95f8da6abf1b6",
     "bb25452888a0af0d",
@@ -61790,6 +61813,7 @@
   ],
   "faster-whisper": [
     "2253a9231928d27c",
+    "e58cd5e8fc755fc7",
     "f6b40125aee4a634",
     "ff73729e47cb0073"
   ],
@@ -62417,7 +62441,8 @@
     "c8a7048bb40ba5f9"
   ],
   "file-formats": [
-    "3331d32dc3e057a8"
+    "3331d32dc3e057a8",
+    "ff0a136836f51cdb"
   ],
   "file-icons": [
     "d93f952eb1a52d18"
@@ -62562,6 +62587,7 @@
     "749575f9571fa39b"
   ],
   "fileio": [
+    "31cbad1eded61cdc",
     "9772d95d3d8ac87b"
   ],
   "filelock": [
@@ -82004,6 +82030,9 @@
   "issue-open-workflow": [
     "df6aa2c7d50a261b"
   ],
+  "issue-opened-automation": [
+    "24be498f6ba841e6"
+  ],
   "issue-opened-triage": [
     "50e052b5670be029",
     "6d489d8133eb33cf"
@@ -84731,6 +84760,7 @@
   ],
   "kaldi": [
     "0a19967e9e019aa2",
+    "42ab032784e74ccb",
     "9cdf64a156fb3e19",
     "c4e50df39f5204d6",
     "d7c8044182de88d9",
@@ -88507,6 +88537,9 @@
   "libpq": [
     "27d9992aeb54e196"
   ],
+  "librarian-tidy": [
+    "0601e9dddc95b503"
+  ],
   "libraries": [
     "2478f878dd515c71",
     "82456f4ae9a015f1",
@@ -90709,6 +90742,9 @@
     "fad954fe8558fe79",
     "fc141b1ef724ea49",
     "ffc652366b510504"
+  ],
+  "linter-and-test": [
+    "cbf8d23c4c64afce"
   ],
   "linter-config": [
     "f6e2b4842198b8cf"
@@ -93793,6 +93829,12 @@
   ],
   "lyria": [
     "cddf7d673967ef5d"
+  ],
+  "lyrics": [
+    "950238718a8d3d57"
+  ],
+  "lyrics-generator": [
+    "77ef57b1feb8c470"
   ],
   "lyrics-synced": [
     "ca36ca584f49ba44"
@@ -110236,6 +110278,7 @@
     "3a2ad1059b4755b8",
     "3bef9b08c4fac1cc",
     "452bef638a81c7dc",
+    "47c70b65a293652b",
     "4b33816791f5a1fb",
     "57258f312faf3675",
     "5fad76eb916bbc27",
@@ -110822,6 +110865,9 @@
   ],
   "openllm": [
     "bade4c57bc655a97"
+  ],
+  "openlrc": [
+    "c486671c931881a1"
   ],
   "openmmlab": [
     "1bb09beaf3917907",
@@ -122170,6 +122216,7 @@
     "dc46c22200ced175"
   ],
   "publish-protobuf-to-bsr": [
+    "b73f51005c788ee0",
     "bde14b4e7b347ec4"
   ],
   "publish-pubgrub-to-crates.io": [
@@ -122359,6 +122406,7 @@
     "5e64639e612140fa"
   ],
   "publish-rust-crate": [
+    "52019fcd8b73d578",
     "601e02aafc0c569e"
   ],
   "publish-rustdoc-on-github-pages": [
@@ -122410,6 +122458,9 @@
   "publish-snapshot-release": [
     "b8d9f9fe3caa9039",
     "c2a5db032960c121"
+  ],
+  "publish-source-distribution": [
+    "5f262ac17ca12018"
   ],
   "publish-spec-to-gh-pages": [
     "c5d9382274d3a21b"
@@ -123610,6 +123661,9 @@
   "pure-data": [
     "edf6a1571b4223c5"
   ],
+  "pure-python": [
+    "e0fd86646a571387"
+  ],
   "purecomponent": [
     "b0b4df0cd8c56bee"
   ],
@@ -124585,6 +124639,7 @@
   ],
   "python2": [
     "207195bebe8e0089",
+    "902c17dfdf11d6cb",
     "a2fc49e07b91a0d3",
     "e1d98c5997b22bf2"
   ],
@@ -124668,6 +124723,7 @@
     "e5c0ef0b974e5fbf",
     "e6f01530052b4380",
     "eb668c2df210277b",
+    "ec0fe838076c1867",
     "f3e0871d4dbfbfdb",
     "f5f1752affbdc2cf",
     "fb53946cfa0c097d",
@@ -124774,6 +124830,7 @@
     "11f29a696a7b402a",
     "121f14308084b8e9",
     "12e3b8435cb60f5b",
+    "1312565f80dd9678",
     "138f0875ea2f364a",
     "144119f1fdd7aed9",
     "14866764c0320d69",
@@ -129978,6 +130035,7 @@
     "8da3c0ba81f195b5",
     "8dacd4285ae41ba8",
     "8dd4dcd69acfbc78",
+    "8de60befe9711d96",
     "8df450540e20cbb3",
     "8e0a1763078294ab",
     "8e70ba64a464c70f",
@@ -136083,6 +136141,7 @@
   "run-benchmarks": [
     "2bc7790493ddbd8a",
     "34f75dfd0f369963",
+    "3b70837d61c1099d",
     "4fd948f8f633822b",
     "6101714f780effcf",
     "737c7de7dfcd5b88",
@@ -136594,6 +136653,7 @@
     "57744ddd516f71e3"
   ],
   "run-regression-benchmarks": [
+    "d21df20c42e634a6",
     "db43cd3f7af00490"
   ],
   "run-release-bot": [
@@ -136727,6 +136787,7 @@
     "305a699807361eed",
     "306bcbaabefaa533",
     "31565fd37c89f195",
+    "31d61d8f9c87ad45",
     "3671118308d26871",
     "36e79557d5647ef5",
     "382ae99e4cb3002b",
@@ -145893,6 +145954,7 @@
     "ad86445fc8adffab",
     "b4d7a545a9cfc383",
     "ba2883ad1703fb39",
+    "bbeb2a1baefeafed",
     "c4b0f98c4f425882",
     "ca63e52d55d8e363",
     "d0e3a525707e169f",
@@ -146010,6 +146072,7 @@
   "speech-to-text": [
     "0952fde9a530eb4b",
     "0be9718f1be2dbd4",
+    "0e7b0d23a443c14e",
     "11914322cf53b112",
     "1b078b20082f10c7",
     "269e64c25db62c93",
@@ -149365,6 +149428,9 @@
   ],
   "subtitle-editor": [
     "22ef4cfbfc95881b"
+  ],
+  "subtitle-translation": [
+    "ef08ca9437767034"
   ],
   "subtitler": [
     "376646e7bc58d127"
@@ -157629,6 +157695,7 @@
     "dd8dd765c356f1e0",
     "e630c4641d0fe60c",
     "ea816cdccff332e0",
+    "eebec1b41f87167e",
     "f255bfcd2ea4ed8b",
     "fc2c11d6abf8b12e"
   ],
@@ -159620,6 +159687,7 @@
     "3f0753ff0f7ccbed"
   ],
   "transcribe": [
+    "2c70867b085a7fd2",
     "e15b6c8db295b878"
   ],
   "transcriber": [
@@ -168545,6 +168613,7 @@
     "5892b3982b4ed18b",
     "710e6c71bb66368c",
     "8cbb053e9f8d3a34",
+    "f62a2b54494c27af",
     "fc0a0f8a592e7f02"
   ],
   "vivado": [
@@ -168757,6 +168826,7 @@
     "00824189b5bdc545",
     "38b46ebc3b670f3c",
     "5823369d427d409b",
+    "85990f3e05c0f457",
     "8a5a078aefd0073a",
     "c635c007080a199c",
     "da03ff0b164fa3fa",
@@ -168846,7 +168916,8 @@
     "18a7abf7f11a5753"
   ],
   "voice-detection": [
-    "7c74166ae4282747"
+    "7c74166ae4282747",
+    "84c8f907f30db692"
   ],
   "voice-mode": [
     "710d3dd70e315378"
@@ -168867,6 +168938,9 @@
     "0c22998f95fbbd11",
     "d21e4a19f1176d3f",
     "d6d26e678ea67d05"
+  ],
+  "voice-to-text": [
+    "accf43bd0ad1f066"
   ],
   "voicechanger": [
     "4071116ccc3b8a69"
@@ -171717,6 +171791,7 @@
     "b1d8ef9a226f8aea",
     "b2a11eff30d36ec4",
     "cc1a6400137222fd",
+    "d229a6f14d32a2fc",
     "e4132c45428be3fa",
     "ebdc15734b4f5ffe",
     "f222f6d1d473ec1e",

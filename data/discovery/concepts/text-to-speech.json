@@ -781,6 +781,18 @@
       "source_repo": "p0p4k/pflowtts_pytorch",
       "status": "candidate-context",
       "text": "Unofficial implementation of the paper [P-Flow: A Fast and Data-Efficient Zero-Shot TTS through Speech Prompting](https://openreview.net/pdf?id=zNA7u7wtIN) by NVIDIA."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "p0p4k/vits2_pytorch",
+      "status": "candidate-context",
+      "text": "unofficial vits2-TTS implementation in pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "p0p4k/vits2_pytorch",
+      "status": "candidate-context",
+      "text": "Unofficial implementation of the [VITS2 paper](https://arxiv.org/abs/2307.16430), sequel to [VITS paper](https://arxiv.org/abs/2106.06103). (thanks to the authors for their work!)"
     }
   ],
   "candidate_glosses": [
@@ -1173,6 +1185,12 @@
       "source_repo": "p0p4k/pflowtts_pytorch",
       "status": "candidate",
       "text": "Unofficial implementation of the paper [P-Flow: A Fast and Data-Efficient Zero-Shot TTS through Speech Prompting](https://openreview.net/pdf?id=zNA7u7wtIN) by NVIDIA."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "p0p4k/vits2_pytorch",
+      "status": "candidate",
+      "text": "Unofficial implementation of the [VITS2 paper](https://arxiv.org/abs/2307.16430), sequel to [VITS paper](https://arxiv.org/abs/2106.06103). (thanks to the authors for their work!)"
     }
   ],
   "candidate_related_terms": [],
@@ -2122,11 +2140,41 @@
       "observed_at": "2026-05-22T13:06:06.618387+00:00",
       "source_file": null,
       "source_repo": "lifeiteng/vall-e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": null,
+      "source_repo": "Adibian/ResGrad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": null,
+      "source_repo": "X-LANCE/VoiceFlow-TTS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": null,
+      "source_repo": "p0p4k/vits2_pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": null,
+      "source_repo": "collabora/WhisperLive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": null,
+      "source_repo": "lifeiteng/vall-e"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
+  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
   "lexical_providers": [
     "datamuse"
   ],

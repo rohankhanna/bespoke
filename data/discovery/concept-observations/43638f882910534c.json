@@ -84,7 +84,7 @@
   "normalized_form": "daily-i18n-update",
   "observation_id": "43638f882910534c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T07:24:26.652079+00:00",
+  "observed_at": "2026-05-22T18:43:38.426013+00:00",
   "observed_text": "Daily i18n Update",
   "source_context_snippet": "Daily i18n Update",
   "source_file": ".github/workflows/auto-i18n.yml",

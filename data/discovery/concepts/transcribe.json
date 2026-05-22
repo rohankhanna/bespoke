@@ -19,6 +19,18 @@
       "source_repo": "BBC-Esq/Faster-Whisper-Transcriber",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zh-plus/openlrc",
+      "status": "candidate-context",
+      "text": "Transcribe and translate voice into LRC file using Whisper and LLMs (GPT, Claude, et,al). \u4f7f\u7528whisper\u548cLLM(GPT\uff0cClaude\u7b49)\u6765\u8f6c\u5f55\u3001\u7ffb\u8bd1\u4f60\u7684\u97f3\u9891\u4e3a\u5b57\u5e55\u6587\u4ef6\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zh-plus/openlrc",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/openlrc)](https://pypi.org/project/openlrc/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "BBC-Esq/Faster-Whisper-Transcriber",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zh-plus/openlrc",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/openlrc)](https://pypi.org/project/openlrc/)"
     }
   ],
   "candidate_related_terms": [
@@ -193,11 +211,23 @@
       "observed_at": "2026-05-22T13:06:06.618387+00:00",
       "source_file": null,
       "source_repo": "BBC-Esq/Faster-Whisper-Transcriber"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": null,
+      "source_repo": "BBC-Esq/Faster-Whisper-Transcriber"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": null,
+      "source_repo": "zh-plus/openlrc"
     }
   ],
   "first_seen_at": "2026-05-15T12:50:28.227991+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
+  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pengzhendong/streaming-sensevoice",
+      "target": "xiangyuecn/recorder",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-22T21:01:18.899579+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 677
+    },
+    {
+      "path": "requirements.txt",
+      "size": 131
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pseudo Streaming SenseVoice with Hotwords",
+    "fork": false,
+    "full_name": "pengzhendong/streaming-sensevoice",
+    "html_url": "https://github.com/pengzhendong/streaming-sensevoice",
+    "language": "Python",
+    "pushed_at": "2025-03-13T10:43:24Z",
+    "stargazers_count": 449,
+    "topics": [],
+    "updated_at": "2026-05-20T23:07:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xiangyuecn/recorder",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

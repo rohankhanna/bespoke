@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "source_repo": "lovemefan/SenseVoice.cpp"
+    }
+  ],
+  "term": "CI-debug"
+}

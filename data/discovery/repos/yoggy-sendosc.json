@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yoggy/sendosc",
+      "target": "arturoc/oscpack",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-22T19:55:49.445902+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2058
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "sendosc is a simple command-line tool for sending OSC packet.",
+    "fork": false,
+    "full_name": "yoggy/sendosc",
+    "html_url": "https://github.com/yoggy/sendosc",
+    "language": "C++",
+    "pushed_at": "2021-12-26T10:03:42Z",
+    "stargazers_count": 166,
+    "topics": [],
+    "updated_at": "2026-04-27T02:42:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arturoc/oscpack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

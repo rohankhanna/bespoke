@@ -739,7 +739,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T08:50:43.945996+00:00",
+  "fetched_at": "2026-05-22T21:11:18.819275+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -792,7 +792,7 @@
     "html_url": "https://github.com/cocos/cocos-engine",
     "language": "C++",
     "pushed_at": "2026-02-11T12:59:32Z",
-    "stargazers_count": 9608,
+    "stargazers_count": 9610,
     "topics": [
       "3d",
       "cocos",
@@ -809,7 +809,7 @@
       "webgl2",
       "webgpu"
     ],
-    "updated_at": "2026-05-22T08:36:26Z"
+    "updated_at": "2026-05-22T16:56:19Z"
   },
   "repo_links": [
     {

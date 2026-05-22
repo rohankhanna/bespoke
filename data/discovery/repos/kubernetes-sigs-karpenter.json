@@ -110,6 +110,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/karpenter",
+      "target": "huaweiclouddeveloper/karpenter-provider-huawei",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/approval-comment.yaml",
       "source_repo": "kubernetes-sigs/karpenter",
@@ -285,11 +292,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T14:31:04.794455+00:00",
+  "fetched_at": "2026-05-22T20:59:50.570491+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 6143
+      "size": 6227
     },
     {
       "path": "go.mod",
@@ -337,15 +344,20 @@
     "full_name": "kubernetes-sigs/karpenter",
     "html_url": "https://github.com/kubernetes-sigs/karpenter",
     "language": "Go",
-    "pushed_at": "2026-05-20T21:42:45Z",
-    "stargazers_count": 1903,
+    "pushed_at": "2026-05-22T20:12:46Z",
+    "stargazers_count": 1904,
     "topics": [],
-    "updated_at": "2026-05-22T13:02:33Z"
+    "updated_at": "2026-05-22T20:12:53Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "aws/karpenter-core",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huaweiclouddeveloper/karpenter-provider-huawei",
       "source_file": "README.md"
     }
   ],

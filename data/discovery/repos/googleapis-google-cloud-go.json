@@ -103,6 +103,16 @@
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/librarian_tidy.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/librarian_tidy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/third_party_check.yml"
     },
     {
@@ -114,16 +124,6 @@
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/third_party_check.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/vet.yml"
-    },
-    {
-      "component": "actions/setup-go@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/vet.yml"
     }
   ],
   "edges": [
@@ -255,38 +255,38 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/third_party_check.yml",
+      "source_file": ".github/workflows/librarian_tidy.yml",
       "source_repo": "googleapis/google-cloud-go",
       "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/third_party_check.yml",
-      "source_repo": "googleapis/google-cloud-go",
-      "target": "actions/setup-go@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/vet.yml",
-      "source_repo": "googleapis/google-cloud-go",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/vet.yml",
+      "source_file": ".github/workflows/librarian_tidy.yml",
       "source_repo": "googleapis/google-cloud-go",
       "target": "actions/setup-go@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/vet.yml",
+      "source_file": ".github/workflows/librarian_tidy.yml",
       "source_repo": "googleapis/google-cloud-go",
-      "target": "vet",
+      "target": "librarian tidy",
       "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third_party_check.yml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third_party_check.yml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
     },
     {
       "edge_type": "repo-topic",
@@ -331,7 +331,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T14:31:18.122264+00:00",
+  "fetched_at": "2026-05-22T21:00:10.362731+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -362,16 +362,16 @@
       "size": 1930
     },
     {
+      "path": ".github/workflows/librarian_tidy.yml",
+      "size": 1029
+    },
+    {
       "path": ".github/workflows/third_party_check.yml",
       "size": 1463
     },
     {
       "path": ".github/workflows/vet.sh",
       "size": 3790
-    },
-    {
-      "path": ".github/workflows/vet.yml",
-      "size": 606
     }
   ],
   "related_repositories": [],
@@ -383,8 +383,8 @@
     "full_name": "googleapis/google-cloud-go",
     "html_url": "https://github.com/googleapis/google-cloud-go",
     "language": "Go",
-    "pushed_at": "2026-05-22T13:39:41Z",
-    "stargazers_count": 4456,
+    "pushed_at": "2026-05-22T20:09:06Z",
+    "stargazers_count": 4455,
     "topics": [
       "cloud-bigquery",
       "cloud-datastore",
@@ -394,7 +394,7 @@
       "golang",
       "google-cloud"
     ],
-    "updated_at": "2026-05-22T11:47:11Z"
+    "updated_at": "2026-05-22T20:09:12Z"
   },
   "repo_links": [
     {
@@ -423,10 +423,10 @@
       "term": "generation-check"
     },
     {
-      "context_snippet": "vet",
+      "context_snippet": "librarian tidy",
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/vet.yml",
-      "term": "vet"
+      "source_file": ".github/workflows/librarian_tidy.yml",
+      "term": "librarian tidy"
     },
     {
       "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/cloud.google.com/go.svg)](https://pkg.go.dev/cloud.google.com/go)",

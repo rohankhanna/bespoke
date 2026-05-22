@@ -130,7 +130,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agent-scan.yml",
       "source_repo": "storybookjs/storybook",
-      "target": "MatteoGabriele/agentscan-action@a584774dd15cabe6df4c6ab45fc43514a3b56b2d",
+      "target": "MatteoGabriele/agentscan-action@f41545309db947a68e22ed2643f182e754f4d41a",
       "target_type": "component"
     },
     {
@@ -400,6 +400,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-22T13:06:06.618387+00:00",
+  "generated_at": "2026-05-22T18:43:38.426013+00:00",
   "source_repo": "storybookjs/storybook"
 }

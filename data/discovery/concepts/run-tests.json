@@ -1979,6 +1979,18 @@
       "source_repo": "openjdk/jdk21u-dev",
       "status": "candidate-context",
       "text": "'Run tests'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lifeiteng/OmniSenseVoice",
+      "status": "candidate-context",
+      "text": "Omni SenseVoice: High-Speed Speech Recognition with words timestamps \ud83d\udde3\ufe0f\ud83c\udfaf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lifeiteng/OmniSenseVoice",
+      "status": "candidate-context",
+      "text": "Run Tests"
     }
   ],
   "candidate_glosses": [
@@ -2989,6 +3001,12 @@
       "source_repo": "openjdk/jdk21u-dev",
       "status": "candidate",
       "text": "'Run tests'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lifeiteng/OmniSenseVoice",
+      "status": "candidate",
+      "text": "Run Tests"
     }
   ],
   "candidate_related_terms": [
@@ -7412,11 +7430,71 @@
       "observed_at": "2026-05-22T13:06:06.618387+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "marin-community/haliax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "google/vim-maktaba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nodists/nodist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "apisyouwonthate/style-guide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": ".github/workflows/github-action-run-tests.yml",
+      "source_repo": "jxddk/prettier-plugin-nginx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lifeiteng/OmniSenseVoice"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
+  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
   "lexical_providers": [
     "datamuse"
   ],

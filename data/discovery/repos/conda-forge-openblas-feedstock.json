@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/openblas-feedstock",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/openblas-feedstock",
+      "target": "Build conda package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-22T19:55:46.673097+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20261
+    },
+    {
+      "path": ".github/workflows/conda-build.yml",
+      "size": 7193
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A conda-smithy repository for openblas.",
+    "fork": false,
+    "full_name": "conda-forge/openblas-feedstock",
+    "html_url": "https://github.com/conda-forge/openblas-feedstock",
+    "language": "Shell",
+    "pushed_at": "2026-04-24T01:00:54Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-04-24T01:01:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build conda package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "term": "Build conda package"
+    }
+  ]
+}

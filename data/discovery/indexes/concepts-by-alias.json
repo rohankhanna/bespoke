@@ -5475,6 +5475,9 @@
   "audio rendering regression test": [
     "audio-rendering-regression-test"
   ],
+  "audio-activities": [
+    "audio-activities"
+  ],
   "audio-analysis": [
     "audio-analysis"
   ],
@@ -5492,6 +5495,9 @@
   ],
   "audio-compression": [
     "audio-compression"
+  ],
+  "audio-data": [
+    "audio-data"
   ],
   "audio-data-augmentation": [
     "audio-data-augmentation"
@@ -5573,6 +5579,9 @@
   ],
   "audio-scene-understanding": [
     "audio-scene-understanding"
+  ],
+  "audio-segmentation": [
+    "audio-segmentation"
   ],
   "audio-separation": [
     "audio-separation"
@@ -6350,6 +6359,9 @@
   ],
   "auto-sort and update spelling allowlist": [
     "auto-sort-and-update-spelling-allowlist"
+  ],
+  "auto-subtitle": [
+    "auto-subtitle"
   ],
   "auto-tuning": [
     "auto-tuning"
@@ -19375,6 +19387,9 @@
   ],
   "ci-cygwin": [
     "ci-cygwin"
+  ],
+  "ci-debug": [
+    "ci-debug"
   ],
   "ci-dgraph-core-tests": [
     "ci-dgraph-core-tests"
@@ -48540,6 +48555,9 @@
   "issue open workflow": [
     "issue-open-workflow"
   ],
+  "issue opened automation": [
+    "issue-opened-automation"
+  ],
   "issue opened triage": [
     "issue-opened-triage"
   ],
@@ -52294,6 +52312,9 @@
   "libpq": [
     "libpq"
   ],
+  "librarian tidy": [
+    "librarian-tidy"
+  ],
   "libraries": [
     "libraries"
   ],
@@ -53187,6 +53208,9 @@
   ],
   "linter": [
     "linter"
+  ],
+  "linter and test": [
+    "linter-and-test"
   ],
   "linter tests": [
     "linter-tests"
@@ -54883,6 +54907,12 @@
   ],
   "lyria": [
     "lyria"
+  ],
+  "lyrics": [
+    "lyrics"
+  ],
+  "lyrics-generator": [
+    "lyrics-generator"
   ],
   "lyrics-synced": [
     "lyrics-synced"
@@ -64287,6 +64317,9 @@
   "openllm": [
     "openllm"
   ],
+  "openlrc": [
+    "openlrc"
+  ],
   "openmmlab": [
     "openmmlab"
   ],
@@ -71442,6 +71475,9 @@
   "publish snapshot release": [
     "publish-snapshot-release"
   ],
+  "publish source distribution": [
+    "publish-source-distribution"
+  ],
   "publish spec to gh-pages": [
     "publish-spec-to-gh-pages"
   ],
@@ -72086,6 +72122,9 @@
   ],
   "pure-data": [
     "pure-data"
+  ],
+  "pure-python": [
+    "pure-python"
   ],
   "purecomponent": [
     "purecomponent"
@@ -86090,6 +86129,9 @@
   "subtitle-editor": [
     "subtitle-editor"
   ],
+  "subtitle-translation": [
+    "subtitle-translation"
+  ],
   "subtitler": [
     "subtitler"
   ],
@@ -97528,6 +97570,9 @@
   ],
   "voice-synthesis": [
     "voice-synthesis"
+  ],
+  "voice-to-text": [
+    "voice-to-text"
   ],
   "voicechanger": [
     "voicechanger"

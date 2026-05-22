@@ -718,11 +718,17 @@
       "observed_at": "2026-05-22T13:06:06.618387+00:00",
       "source_file": ".github/workflows/_build.yml",
       "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "Dao-AILab/flash-attention"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
+  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
   "lexical_providers": [
     "datamuse"
   ],

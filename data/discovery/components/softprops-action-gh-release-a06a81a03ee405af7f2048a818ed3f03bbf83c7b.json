@@ -1,7 +1,7 @@
 {
   "component": "softprops/action-gh-release@a06a81a03ee405af7f2048a818ed3f03bbf83c7b",
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
+  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -142,6 +142,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/approve-rc.yml",
       "source_repo": "lance-format/lance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/approve-rc.yml",
+      "source_repo": "datafuse-extras/lance"
     }
   ]
 }

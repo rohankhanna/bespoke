@@ -48,7 +48,7 @@
   "normalized_form": "aws-torch-latest-full",
   "observation_id": "1c1fe8d6f3c70d90",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T07:24:26.652079+00:00",
+  "observed_at": "2026-05-22T18:43:38.426013+00:00",
   "observed_text": "aws-torch-latest-full",
   "source_context_snippet": "aws-torch-latest-full",
   "source_file": ".github/workflows/aws-torch-latest-full.yml",

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Port of Funasr's Sense-voice model in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CI-debug"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CI-debug"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI-debug",
+      "sense_id": "ci-debug#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ci-debug",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ci-debug",
+  "observation_id": "c597a823d3f912f9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-22T18:43:38.426013+00:00",
+  "observed_text": "CI-debug",
+  "source_context_snippet": "CI-debug",
+  "source_file": ".github/workflows/build-debug.yaml",
+  "source_repo": "lovemefan/SenseVoice.cpp",
+  "source_repo_description": "Port of Funasr's Sense-voice model in C/C++"
+}

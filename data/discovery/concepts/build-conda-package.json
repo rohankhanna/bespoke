@@ -403,6 +403,18 @@
       "source_repo": "conda-forge/pytomlpp-feedstock",
       "status": "candidate-context",
       "text": "Build conda package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/openblas-feedstock",
+      "status": "candidate-context",
+      "text": "A conda-smithy repository for openblas."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/openblas-feedstock",
+      "status": "candidate-context",
+      "text": "Build conda package"
     }
   ],
   "candidate_glosses": [
@@ -601,6 +613,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "conda-forge/pytomlpp-feedstock",
+      "status": "candidate",
+      "text": "Build conda package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/openblas-feedstock",
       "status": "candidate",
       "text": "Build conda package"
     }
@@ -844,11 +862,17 @@
       "observed_at": "2026-05-18T00:43:20.098172+00:00",
       "source_file": ".github/workflows/conda-build.yml",
       "source_repo": "conda-forge/pytomlpp-feedstock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/openblas-feedstock"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-18T00:43:20.098172+00:00",
+  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
   "lexical_providers": [
     "datamuse"
   ],

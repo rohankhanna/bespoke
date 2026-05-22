@@ -67,6 +67,18 @@
       "source_repo": "MontrealCorpusTools/Montreal-Forced-Aligner",
       "status": "candidate-context",
       "text": "![Continuous Integration](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/actions/workflows/main.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nttcslab-sp/kaldiio",
+      "status": "candidate-context",
+      "text": "A pure python module for reading and writing kaldi ark files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nttcslab-sp/kaldiio",
+      "status": "candidate-context",
+      "text": "[![pypi](https://img.shields.io/pypi/v/kaldiio.svg)](https://pypi.python.org/pypi/kaldiio)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "MontrealCorpusTools/Montreal-Forced-Aligner",
       "status": "candidate",
       "text": "![Continuous Integration](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/actions/workflows/main.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nttcslab-sp/kaldiio",
+      "status": "candidate",
+      "text": "[![pypi](https://img.shields.io/pypi/v/kaldiio.svg)](https://pypi.python.org/pypi/kaldiio)"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-05-13T12:58:22.952944+00:00",
       "source_file": null,
       "source_repo": "MontrealCorpusTools/Montreal-Forced-Aligner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T18:43:38.426013+00:00",
+      "source_file": null,
+      "source_repo": "nttcslab-sp/kaldiio"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-13T12:58:22.952944+00:00",
+  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
   "lexical_providers": [
     "datamuse"
   ],
