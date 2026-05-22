@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 64
+- repos: 65
 - terms: 356
-- components: 278
+- components: 279
 - concepts: 361
 - observations: 361
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [pramsey/pgsql-http](https://github.com/pramsey/pgsql-http) | 1571 | 2026-02-20T16:55:58Z | C/C++ | CLI | 0 | 1 | 0 | 0 |
 | [UB-Mannheim/tesseract](https://github.com/UB-Mannheim/tesseract) | 4256 | 2026-02-20T12:13:37Z | C/C++ | Infrastructure/tooling | 14 | 9 | 14 | 14 |
 | [json-c/json-c](https://github.com/json-c/json-c) | 3261 | 2026-02-20T00:05:53Z | C/C++ | Infrastructure/tooling | 2 | 11 | 3 | 3 |
 | [memononen/nanovg](https://github.com/memononen/nanovg) | 5615 | 2026-02-19T13:29:32Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
@@ -140,6 +141,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [libsndfile/libsndfile](https://github.com/libsndfile/libsndfile) | 1696 | 2025-12-16T06:36:09Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [pellepl/spiffs](https://github.com/pellepl/spiffs) | 1613 | 2026-02-10T05:45:57Z | C/C++ | Unknown | 8 | 0 | 8 | 8 |
 | [golang-ui/nuklear](https://github.com/golang-ui/nuklear) | 1604 | 2025-12-29T09:12:46Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [pramsey/pgsql-http](https://github.com/pramsey/pgsql-http) | 1571 | 2026-02-20T16:55:58Z | C/C++ | CLI | 0 | 1 | 0 | 0 |
 | [nfrechette/acl](https://github.com/nfrechette/acl) | 1550 | 2025-11-26T02:28:49Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
 | [gulrak/filesystem](https://github.com/gulrak/filesystem) | 1527 | 2025-12-31T21:23:00Z | C/C++ | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [brianmario/yajl-ruby](https://github.com/brianmario/yajl-ruby) | 1490 | 2025-12-27T20:08:46Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |

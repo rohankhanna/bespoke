@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1974,
-    "concepts": 308,
-    "observations": 310,
-    "repos": 45,
-    "terms": 322
+    "components": 5007,
+    "concepts": 447,
+    "observations": 450,
+    "repos": 56,
+    "terms": 460
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "actions/starter-workflows",
     "airbnb/visx",
@@ -20,19 +20,27 @@
     "AndyMik90/Aperant",
     "ant-design/ant-design-mobile",
     "apollographql/apollo-client",
+    "babel/babel",
     "badlogic/pi-mono",
     "browserless/browserless",
     "bvaughn/react-window",
     "catppuccin/catppuccin",
     "chatboxai/chatbox",
+    "CherryHQ/cherry-studio",
     "diegomura/react-pdf",
     "dzhng/deep-research",
+    "elastic/kibana",
     "everyinc/compound-engineering-plugin",
+    "expo/expo",
     "fingerprintjs/fingerprintjs",
     "fission-ai/openspec",
     "garrytan/gstack",
     "gcanti/fp-ts",
+    "graphql/graphiql",
     "iOfficeAI/AionUi",
+    "juice-shop/juice-shop",
+    "KaTeX/KaTeX",
+    "labring/FastGPT",
     "lerna/lerna",
     "microsoft/playwright-mcp",
     "mlc-ai/web-llm",
@@ -54,10 +62,13 @@
     "tanweai/pua",
     "tobi/qmd",
     "toon-format/toon",
+    "typescript-eslint/typescript-eslint",
     "upstash/context7",
     "vadimdemedes/ink",
     "vercel/swr",
     "Vinzent03/obsidian-git",
-    "VSCodeVim/Vim"
+    "VSCodeVim/Vim",
+    "xtermjs/xterm.js",
+    "xyflow/xyflow"
   ]
 }

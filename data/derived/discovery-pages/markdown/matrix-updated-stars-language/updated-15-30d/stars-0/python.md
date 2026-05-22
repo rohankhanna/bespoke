@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · Python
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 18
-- terms: 30
-- components: 35
-- concepts: 30
-- observations: 30
+- repos: 17
+- terms: 26
+- components: 28
+- concepts: 26
+- observations: 26
 
 ## Static behavior
 
@@ -43,7 +43,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/LLM-Council-Homehunter](https://github.com/danielrosehill/LLM-Council-Homehunter) | 0 | 2026-04-23T10:28:18Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/LLM-Council-Decide](https://github.com/danielrosehill/LLM-Council-Decide) | 0 | 2026-04-23T10:25:30Z | Python | Framework | 0 | 0 | 0 | 0 |
 | [hmellor/vllm](https://github.com/hmellor/vllm) | 0 | 2026-04-22T15:54:48Z | Python | Infrastructure/tooling | 6 | 7 | 6 | 6 |
-| [hauntsaninja/mypy](https://github.com/hauntsaninja/mypy) | 0 | 2026-04-22T04:46:56Z | Python | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -66,4 +65,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/LLM-Council-Homehunter](https://github.com/danielrosehill/LLM-Council-Homehunter) | 0 | 2026-04-23T10:28:18Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/LLM-Council-Decide](https://github.com/danielrosehill/LLM-Council-Decide) | 0 | 2026-04-23T10:25:30Z | Python | Framework | 0 | 0 | 0 | 0 |
 | [hmellor/vllm](https://github.com/hmellor/vllm) | 0 | 2026-04-22T15:54:48Z | Python | Infrastructure/tooling | 6 | 7 | 6 | 6 |
-| [hauntsaninja/mypy](https://github.com/hauntsaninja/mypy) | 0 | 2026-04-22T04:46:56Z | Python | Infrastructure/tooling | 4 | 7 | 4 | 4 |

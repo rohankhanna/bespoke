@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 568,
-    "concepts": 441,
-    "observations": 441,
-    "repos": 123,
-    "terms": 459
+    "components": 605,
+    "concepts": 466,
+    "observations": 468,
+    "repos": 129,
+    "terms": 483
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "4dn-dcic/tibanna",
@@ -30,8 +30,11 @@
     "AMD-AGI/torchtitan-amd",
     "amyreese/fissix",
     "analyticsinmotion/werpy",
+    "angr/archinfo",
     "ankurhanda/robot-assets",
+    "ant-research/pointelligence",
     "archlizheng/frontend-slides-editable",
+    "AstarVienna/ScopeSim",
     "autowarefoundation/autoware-github-actions",
     "Azure-Samples/azureai-travel-agent-python",
     "beeware/briefcase-template",
@@ -67,6 +70,7 @@
     "explosion/spacy-alignments",
     "explosion/weasel",
     "facebookresearch/mosaic",
+    "GaloisInc/BLST-Verification",
     "googleapis/python-pubsublite",
     "GuyKh/ims-custom-component",
     "higlass/clodius",
@@ -107,7 +111,6 @@
     "networkx/nx-parallel",
     "nix-community/nur-update",
     "NixOS/branding",
-    "nousresearch/tinker-atropos",
     "optuna/optunahub",
     "ParisNeo/safe_store",
     "petercorke/ansitable",
@@ -115,6 +118,7 @@
     "pycompression/python-isal",
     "pyocd/libusb-package",
     "pyodide/pyodide-build",
+    "pyodide/pytest-pyodide",
     "pytest-dev/execnet",
     "python-graphblas/graphblas-algorithms",
     "python-pillow/pillow-perf",
@@ -124,6 +128,7 @@
     "riponazad/echotracker",
     "RWKV-Vibe/rwkv_lightning",
     "scasella/nanochat-mlx",
+    "scipy/scipy-stubs",
     "shiweijiezero/R3L",
     "Significant-Gravitas/gravitasml",
     "skhu101/HumanLiff",
@@ -132,6 +137,7 @@
     "sublimelsp/LSP-marksman",
     "svaningelgem/logprise",
     "TexasInstruments/edgeai-tensorlab",
+    "typeshed-internal/stub_uploader",
     "urschrei/pypolyline",
     "VisionXLab/Rise-Video",
     "w1ndys/ex-cure-skill",

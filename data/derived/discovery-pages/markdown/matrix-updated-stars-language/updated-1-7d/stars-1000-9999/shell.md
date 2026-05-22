@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · Shell
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,12 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [webinstall/webi-installers](https://github.com/webinstall/webi-installers) | 2883 | 2026-05-18T18:37:57Z | Shell | Infrastructure/tooling | 8 | 5 | 8 | 8 |
+| [webinstall/webi-installers](https://github.com/webinstall/webi-installers) | 2885 | 2026-05-18T18:37:57Z | Shell | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [nodenv/nodenv](https://github.com/nodenv/nodenv) | 2375 | 2026-05-18T15:42:24Z | Shell | Infrastructure/tooling | 9 | 16 | 9 | 9 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [webinstall/webi-installers](https://github.com/webinstall/webi-installers) | 2883 | 2026-05-18T18:37:57Z | Shell | Infrastructure/tooling | 8 | 5 | 8 | 8 |
+| [webinstall/webi-installers](https://github.com/webinstall/webi-installers) | 2885 | 2026-05-18T18:37:57Z | Shell | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [nodenv/nodenv](https://github.com/nodenv/nodenv) | 2375 | 2026-05-18T15:42:24Z | Shell | Infrastructure/tooling | 9 | 16 | 9 | 9 |

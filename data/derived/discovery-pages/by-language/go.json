@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10233,
-    "concepts": 10063,
-    "observations": 10095,
-    "repos": 1714,
-    "terms": 10013
+    "components": 10242,
+    "concepts": 10076,
+    "observations": 10108,
+    "repos": 1715,
+    "terms": 10026
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -288,6 +288,7 @@
     "berachain/polaris",
     "bernardo-bruning/ollama-copilot",
     "bet365/jingo",
+    "betterleaks/betterleaks",
     "bfenetworks/api-server",
     "bfenetworks/bfe",
     "bfenetworks/conf-agent",

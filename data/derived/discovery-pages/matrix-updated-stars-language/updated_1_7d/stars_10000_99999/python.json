@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 65,
-    "observations": 65,
-    "repos": 5,
-    "terms": 65
+    "components": 102,
+    "concepts": 139,
+    "observations": 139,
+    "repos": 12,
+    "terms": 139
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,19 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
+    "567-labs/instructor",
     "aden-hive/hive",
+    "Comfy-Org/ComfyUI-Manager",
     "Dao-AILab/flash-attention",
+    "huggingface/pytorch-image-models",
+    "Lightning-AI/pytorch-lightning",
+    "oobabooga/textgen",
+    "psf/black",
     "pyg-team/pytorch_geometric",
-    "qubvel-org/segmentation_models.pytorch",
-    "TEN-framework/ten-framework"
+    "run-llama/llama_index",
+    "TEN-framework/ten-framework",
+    "ungoogled-software/ungoogled-chromium"
   ]
 }

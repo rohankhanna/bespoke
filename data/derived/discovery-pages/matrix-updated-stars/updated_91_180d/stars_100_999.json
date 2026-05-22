@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3936,
-    "concepts": 2779,
-    "observations": 2785,
-    "repos": 707,
-    "terms": 2769
+    "components": 4026,
+    "concepts": 2810,
+    "observations": 2816,
+    "repos": 713,
+    "terms": 2800
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0k/shyaml",
     "10up/action-wordpress-plugin-asset-update",
@@ -74,6 +74,7 @@
     "Ar-Ray-code/YOLOX-ROS",
     "archguard/archguard",
     "archlinux/archlinux-repro",
+    "argoproj-labs/argocd-rbac-operator",
     "argosopentech/argos-train",
     "arminbiere/aiger",
     "arnetheduck/nim-results",
@@ -294,6 +295,7 @@
     "google-deepmind/recurrentgemma",
     "google-research/vmoe",
     "google/ruy",
+    "googleapis/nodejs-datastore",
     "googleapis/nodejs-logging-winston",
     "googlefonts/glyphsets",
     "gost-dom/browser",
@@ -333,6 +335,7 @@
     "Imagick/imagick",
     "Improbable-AI/VisionProTeleop",
     "inclusionAI/ASearcher",
+    "inducer/cgen",
     "InftyAI/llmaz",
     "inkle/ink-unity-integration",
     "intel/ai-reference-models",
@@ -463,6 +466,7 @@
     "MiniMax-AI/MiniMax-M2.1",
     "minio/docs",
     "mit-han-lab/Block-Sparse-Attention",
+    "mlc-ai/tokenizers-cpp",
     "MME-Benchmarks/Video-MME",
     "MMMU-Benchmark/MMMU",
     "ModelTC/GenRL",
@@ -643,6 +647,7 @@
     "TEN-framework/ten-turn-detection",
     "Tencent-Hunyuan/flex-block-attn",
     "TencentCloudADP/youtu-vl",
+    "tensorflow/build",
     "terraform-aws-modules/terraform-aws-apigateway-v2",
     "testing-library/eslint-plugin-jest-dom",
     "testng-team/testng-eclipse",
@@ -671,6 +676,7 @@
     "tulerfeng/Video-R1",
     "tvogels/pyexr",
     "typst/pdf-writer",
+    "typstyle-rs/typstyle",
     "uni-helper/uni-network",
     "unicode-rs/unicode-width",
     "v-iashin/video_features",

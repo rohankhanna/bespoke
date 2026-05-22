@@ -3,7 +3,7 @@
     "components": 275,
     "concepts": 603,
     "observations": 603,
-    "repos": 107,
+    "repos": 108,
     "terms": 597
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "adobe-fonts/source-han-sans",
     "ageitgey/face_recognition",
@@ -55,6 +55,7 @@
     "jina-ai/clip-as-service",
     "jina-ai/serve",
     "junyanz/pytorch-CycleGAN-and-pix2pix",
+    "karpathy/llm-council",
     "karpathy/minbpe",
     "karpathy/minGPT",
     "karpathy/nanoGPT",

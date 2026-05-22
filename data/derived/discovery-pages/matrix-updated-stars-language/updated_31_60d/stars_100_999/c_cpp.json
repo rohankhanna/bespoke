@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 521,
-    "concepts": 671,
-    "observations": 674,
-    "repos": 130,
-    "terms": 666
+    "components": 542,
+    "concepts": 691,
+    "observations": 694,
+    "repos": 136,
+    "terms": 686
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/Imath",
+    "actboy168/bee.lua",
     "afbjorklund/lima-gui",
     "aibasel/downward",
     "ampl/mp",
@@ -69,6 +70,7 @@
     "hku-mars/FAST-Calib",
     "ifduyue/python-xxhash",
     "intel/gmmlib",
+    "intel/intel-ipsec-mb",
     "intel/opencl-clang",
     "intel/QAT_Engine",
     "ipsilon/evmc",
@@ -88,6 +90,7 @@
     "LuisaGroup/LuisaRender",
     "luvit/luv",
     "lxqt/qterminal",
+    "lxqt/qtermwidget",
     "mapbox/geometry.hpp",
     "mapbox/mapnik-vector-tile",
     "mapbox/protozero",
@@ -122,8 +125,11 @@
     "powturbo/TurboBench",
     "proxytunnel/proxytunnel",
     "ptsochantaris/emeltal",
+    "pyg-team/pyg-lib",
     "RoaringBitmap/croaring-rs",
     "roboception/cvkit",
+    "ROCm/composable_kernel",
+    "ruby-debug/debase",
     "rusty1s/pytorch_cluster",
     "samtools/bcftools",
     "SHI-Labs/NATTEN",

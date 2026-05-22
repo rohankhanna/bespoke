@@ -1,28 +1,27 @@
 {
   "counts": {
-    "components": 550,
-    "concepts": 223,
-    "observations": 225,
-    "repos": 23,
-    "terms": 220
+    "components": 620,
+    "concepts": 228,
+    "observations": 229,
+    "repos": 22,
+    "terms": 225
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "academic/awesome-datascience",
     "ajv-validator/ajv",
     "atuinsh/atuin",
     "blender/blender",
+    "ChatGPTNextWeb/NextChat",
     "clauderic/dnd-kit",
     "DayBreak-u/chineseocr_lite",
     "foliojs/pdfkit",
     "fuma-nama/fumadocs",
-    "gitleaks/gitleaks",
-    "kepano/obsidian-skills",
     "Kilo-Org/kilocode",
     "Koenkk/zigbee2mqtt",
     "lint-staged/lint-staged",
@@ -30,11 +29,11 @@
     "mixmark-io/turndown",
     "modelcontextprotocol/typescript-sdk",
     "modelscope/DiffSynth-Studio",
+    "neovim/nvim-lspconfig",
     "nushell/nushell",
     "obsproject/obs-studio",
     "PDFMathTranslate/PDFMathTranslate",
     "Redocly/redoc",
-    "restic/restic",
     "RooCodeInc/Roo-Code"
   ]
 }

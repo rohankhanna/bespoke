@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 137
-- terms: 970
-- components: 4341
-- concepts: 977
-- observations: 979
+- repos: 129
+- terms: 920
+- components: 4065
+- concepts: 927
+- observations: 929
 
 ## Static behavior
 
@@ -155,14 +155,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sveltejs/eslint-plugin-svelte](https://github.com/sveltejs/eslint-plugin-svelte) | 401 | 2026-04-22T09:17:29Z | TypeScript | Infrastructure/tooling | 9 | 42 | 9 | 9 |
 | [EclipseFdn/open-vsx.org](https://github.com/EclipseFdn/open-vsx.org) | 325 | 2026-04-22T08:38:38Z | TypeScript | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [docker/setup-qemu-action](https://github.com/docker/setup-qemu-action) | 567 | 2026-04-22T06:14:09Z | TypeScript | Infrastructure/tooling | 12 | 27 | 12 | 12 |
-| [kysely-org/kysely-ctl](https://github.com/kysely-org/kysely-ctl) | 300 | 2026-04-22T01:06:09Z | TypeScript | CLI | 15 | 36 | 15 | 15 |
-| [github/local-action](https://github.com/github/local-action) | 407 | 2026-04-22T00:59:58Z | TypeScript | Infrastructure/tooling | 5 | 54 | 5 | 5 |
-| [decentralized-identity/did-jwt](https://github.com/decentralized-identity/did-jwt) | 371 | 2026-04-21T23:05:26Z | TypeScript | Infrastructure/tooling | 3 | 50 | 3 | 3 |
-| [microsoft/DefinitelyTyped-tools](https://github.com/microsoft/DefinitelyTyped-tools) | 411 | 2026-04-21T22:45:45Z | TypeScript | Infrastructure/tooling | 7 | 25 | 7 | 7 |
-| [alexlafroscia/vite-plugin-handlebars](https://github.com/alexlafroscia/vite-plugin-handlebars) | 206 | 2026-04-21T22:12:17Z | TypeScript | Infrastructure/tooling | 4 | 20 | 4 | 4 |
-| [aws/aws-iot-device-sdk-js-v2](https://github.com/aws/aws-iot-device-sdk-js-v2) | 238 | 2026-04-21T18:26:28Z | TypeScript | CLI | 6 | 27 | 6 | 6 |
-| [babel/website](https://github.com/babel/website) | 774 | 2026-04-21T18:19:40Z | TypeScript | Web app | 4 | 45 | 4 | 4 |
-| [safe-global/safe-deployments](https://github.com/safe-global/safe-deployments) | 177 | 2026-04-21T12:57:36Z | TypeScript | Infrastructure/tooling | 6 | 19 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -186,7 +178,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AgnosticUI/agnosticui](https://github.com/AgnosticUI/agnosticui) | 802 | 2026-05-02T14:09:38Z | TypeScript | CLI | 15 | 5 | 15 | 15 |
 | [aws-samples/swift-chat](https://github.com/aws-samples/swift-chat) | 797 | 2026-04-24T09:49:51Z | TypeScript | Infrastructure/tooling | 18 | 4 | 18 | 18 |
 | [SkepticMystic/breadcrumbs](https://github.com/SkepticMystic/breadcrumbs) | 776 | 2026-05-02T17:09:23Z | TypeScript | Infrastructure/tooling | 5 | 41 | 5 | 5 |
-| [babel/website](https://github.com/babel/website) | 774 | 2026-04-21T18:19:40Z | TypeScript | Web app | 4 | 45 | 4 | 4 |
 | [optuna/optuna-dashboard](https://github.com/optuna/optuna-dashboard) | 771 | 2026-04-23T01:44:51Z | TypeScript | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [js-temporal/temporal-polyfill](https://github.com/js-temporal/temporal-polyfill) | 761 | 2026-04-22T17:36:58Z | TypeScript | Infrastructure/tooling | 2 | 28 | 2 | 2 |
 | [luciopaiva/heapify](https://github.com/luciopaiva/heapify) | 742 | 2026-04-27T09:01:14Z | TypeScript | Infrastructure/tooling | 9 | 14 | 9 | 9 |
@@ -226,12 +217,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [oxc-project/eslint-plugin-oxlint](https://github.com/oxc-project/eslint-plugin-oxlint) | 440 | 2026-04-27T14:52:41Z | TypeScript | Infrastructure/tooling | 6 | 20 | 6 | 6 |
 | [Kong/kong-manager](https://github.com/Kong/kong-manager) | 432 | 2026-04-24T02:57:52Z | TypeScript | Infrastructure/tooling | 9 | 59 | 9 | 9 |
 | [tlaplus/vscode-tlaplus](https://github.com/tlaplus/vscode-tlaplus) | 421 | 2026-05-01T19:41:08Z | TypeScript | Infrastructure/tooling | 7 | 44 | 7 | 7 |
-| [microsoft/DefinitelyTyped-tools](https://github.com/microsoft/DefinitelyTyped-tools) | 411 | 2026-04-21T22:45:45Z | TypeScript | Infrastructure/tooling | 7 | 25 | 7 | 7 |
-| [github/local-action](https://github.com/github/local-action) | 407 | 2026-04-22T00:59:58Z | TypeScript | Infrastructure/tooling | 5 | 54 | 5 | 5 |
 | [sveltejs/eslint-plugin-svelte](https://github.com/sveltejs/eslint-plugin-svelte) | 401 | 2026-04-22T09:17:29Z | TypeScript | Infrastructure/tooling | 9 | 42 | 9 | 9 |
 | [cocos/cocos-docs](https://github.com/cocos/cocos-docs) | 386 | 2026-04-29T02:38:37Z | TypeScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [TanStack/config](https://github.com/TanStack/config) | 378 | 2026-05-01T01:28:00Z | TypeScript | Infrastructure/tooling | 3 | 22 | 3 | 3 |
-| [decentralized-identity/did-jwt](https://github.com/decentralized-identity/did-jwt) | 371 | 2026-04-21T23:05:26Z | TypeScript | Infrastructure/tooling | 3 | 50 | 3 | 3 |
 | [embroider-build/ember-auto-import](https://github.com/embroider-build/ember-auto-import) | 359 | 2026-05-06T20:07:13Z | TypeScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |
 | [tinylibs/tinyexec](https://github.com/tinylibs/tinyexec) | 355 | 2026-04-29T07:39:16Z | TypeScript | Infrastructure/tooling | 2 | 16 | 2 | 2 |
 | [Agoric/agoric-sdk](https://github.com/Agoric/agoric-sdk) | 354 | 2026-05-06T22:06:16Z | TypeScript | Infrastructure/tooling | 5 | 48 | 5 | 5 |
@@ -251,7 +239,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ClickHouse/clickhouse-js](https://github.com/ClickHouse/clickhouse-js) | 309 | 2026-04-29T16:46:56Z | TypeScript | CLI | 13 | 36 | 13 | 13 |
 | [bitwarden/directory-connector](https://github.com/bitwarden/directory-connector) | 307 | 2026-04-29T19:53:51Z | TypeScript | Infrastructure/tooling | 17 | 101 | 17 | 17 |
 | [unjs/get-port-please](https://github.com/unjs/get-port-please) | 300 | 2026-05-01T19:36:18Z | TypeScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
-| [kysely-org/kysely-ctl](https://github.com/kysely-org/kysely-ctl) | 300 | 2026-04-22T01:06:09Z | TypeScript | CLI | 15 | 36 | 15 | 15 |
 | [oclif/core](https://github.com/oclif/core) | 297 | 2026-04-28T13:40:30Z | TypeScript | CLI | 9 | 73 | 9 | 9 |
 | [docker/bake-action](https://github.com/docker/bake-action) | 292 | 2026-04-24T07:46:59Z | TypeScript | Infrastructure/tooling | 12 | 30 | 12 | 12 |
 | [nuxt/bridge](https://github.com/nuxt/bridge) | 288 | 2026-05-01T05:54:08Z | TypeScript | Infrastructure/tooling | 6 | 36 | 6 | 8 |
@@ -266,7 +253,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/react-native-gallery](https://github.com/microsoft/react-native-gallery) | 254 | 2026-04-23T05:06:08Z | TypeScript | Unknown | 0 | 24 | 0 | 0 |
 | [privatenumber/get-tsconfig](https://github.com/privatenumber/get-tsconfig) | 248 | 2026-04-30T03:22:12Z | TypeScript | Infrastructure/tooling | 7 | 18 | 7 | 7 |
 | [astral-sh/ruff-action](https://github.com/astral-sh/ruff-action) | 243 | 2026-04-23T10:55:59Z | TypeScript | Infrastructure/tooling | 6 | 28 | 6 | 6 |
-| [aws/aws-iot-device-sdk-js-v2](https://github.com/aws/aws-iot-device-sdk-js-v2) | 238 | 2026-04-21T18:26:28Z | TypeScript | CLI | 6 | 27 | 6 | 6 |
 | [forcedotcom/code-analyzer](https://github.com/forcedotcom/code-analyzer) | 237 | 2026-04-27T08:10:52Z | TypeScript | Infrastructure/tooling | 8 | 42 | 8 | 8 |
 | [inversify/monorepo](https://github.com/inversify/monorepo) | 232 | 2026-05-06T17:33:12Z | TypeScript | Infrastructure/tooling | 11 | 24 | 13 | 13 |
 | [DeterminateSystems/nix-installer-action](https://github.com/DeterminateSystems/nix-installer-action) | 231 | 2026-04-23T06:41:58Z | TypeScript | Infrastructure/tooling | 3 | 23 | 3 | 3 |
@@ -274,14 +260,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [P4sca1/cron-schedule](https://github.com/P4sca1/cron-schedule) | 216 | 2026-05-04T20:47:08Z | TypeScript | Infrastructure/tooling | 15 | 12 | 15 | 15 |
 | [octokit/action.js](https://github.com/octokit/action.js) | 210 | 2026-04-29T09:31:22Z | TypeScript | CLI | 7 | 25 | 7 | 7 |
 | [nene/prettier-plugin-sql-cst](https://github.com/nene/prettier-plugin-sql-cst) | 210 | 2026-04-27T19:49:44Z | TypeScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
-| [alexlafroscia/vite-plugin-handlebars](https://github.com/alexlafroscia/vite-plugin-handlebars) | 206 | 2026-04-21T22:12:17Z | TypeScript | Infrastructure/tooling | 4 | 20 | 4 | 4 |
 | [i18next/i18next-cli](https://github.com/i18next/i18next-cli) | 203 | 2026-04-29T10:23:34Z | TypeScript | CLI | 5 | 35 | 5 | 5 |
 | [milvus-io/milvus-sdk-node](https://github.com/milvus-io/milvus-sdk-node) | 195 | 2026-04-29T07:14:18Z | TypeScript | CLI | 5 | 27 | 5 | 5 |
 | [octokit/app.js](https://github.com/octokit/app.js) | 187 | 2026-04-29T16:06:48Z | TypeScript | Infrastructure/tooling | 7 | 27 | 7 | 7 |
 | [nene/sql-parser-cst](https://github.com/nene/sql-parser-cst) | 186 | 2026-04-29T19:42:42Z | TypeScript | Infrastructure/tooling | 1 | 19 | 1 | 1 |
 | [graphprotocol/graph-client](https://github.com/graphprotocol/graph-client) | 185 | 2026-04-23T22:20:43Z | TypeScript | Infrastructure/tooling | 5 | 28 | 5 | 5 |
 | [sapphiredev/utilities](https://github.com/sapphiredev/utilities) | 184 | 2026-04-29T15:05:16Z | TypeScript | Infrastructure/tooling | 16 | 43 | 16 | 16 |
-| [safe-global/safe-deployments](https://github.com/safe-global/safe-deployments) | 177 | 2026-04-21T12:57:36Z | TypeScript | Infrastructure/tooling | 6 | 19 | 6 | 6 |
 | [intlify/eslint-plugin-vue-i18n](https://github.com/intlify/eslint-plugin-vue-i18n) | 176 | 2026-05-01T18:33:38Z | TypeScript | Infrastructure/tooling | 6 | 64 | 6 | 6 |
 | [microsoft/ai-chat-protocol](https://github.com/microsoft/ai-chat-protocol) | 174 | 2026-04-29T07:16:44Z | TypeScript | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [octokit/auth-app.js](https://github.com/octokit/auth-app.js) | 172 | 2026-04-29T15:48:22Z | TypeScript | Infrastructure/tooling | 7 | 27 | 7 | 7 |

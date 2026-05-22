@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 550,
-    "concepts": 405,
-    "observations": 407,
-    "repos": 100,
-    "terms": 398
+    "components": 513,
+    "concepts": 380,
+    "observations": 380,
+    "repos": 93,
+    "terms": 374
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "AFD-Illinois/pyharm",
@@ -22,12 +22,9 @@
     "All-Hands-AI/OpenHands-Cloud",
     "allenai/cached_path",
     "analogdevicesinc/ai8x-synthesis",
-    "angr/archinfo",
     "ansible/ansible-compat",
-    "ant-research/pointelligence",
     "arcaputo3/mcp-server-whisper",
     "Ascend/TransferQueue",
-    "AstarVienna/ScopeSim",
     "AstraZeneca/runnable",
     "atlanhq/application-sdk",
     "autodeployai/pypmml",
@@ -56,7 +53,6 @@
     "espressif/esp-idf-monitor",
     "executablebooks/mdit-py-plugins",
     "flagos-ai/vllm-plugin-FL",
-    "GaloisInc/BLST-Verification",
     "gentoo/api-gentoo-org",
     "gordon-code/cuid2",
     "graalvm/oracle-graalvm-ea-builds",
@@ -91,7 +87,6 @@
     "plone/cookieplone",
     "pre-commit/sync-pre-commit-deps",
     "py-pdf/sample-files",
-    "pyodide/pytest-pyodide",
     "python-jsonschema/referencing",
     "pytroll/donfig",
     "qiayuanl/unitree_bringup",
@@ -100,7 +95,6 @@
     "ROCm/tritonBLAS",
     "rwightman/timm",
     "scaleway/serverless-functions-python",
-    "scipy/scipy-stubs",
     "scipy/scipy.org",
     "sigstore/sigstore-conformance",
     "sublimelsp/LSP-ruff",
@@ -111,7 +105,6 @@
     "theupdateframework/tuf-on-ci",
     "Thinklab-SJTU/Bench2Drive-Speed",
     "TigreGotico/phoonnx",
-    "typeshed-internal/stub_uploader",
     "xhluca/bm25-benchmarks",
     "zen-xu/pytest-modern"
   ]

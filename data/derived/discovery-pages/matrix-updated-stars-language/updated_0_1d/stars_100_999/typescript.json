@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 160,
-    "concepts": 44,
-    "observations": 44,
+    "components": 184,
+    "concepts": 25,
+    "observations": 25,
     "repos": 6,
-    "terms": 44
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
-    "hexabot-ai/Hexabot",
-    "matter-js/matter.js",
+    "electron/packager",
+    "LuaLS/vscode-lua",
     "safe-fndn/safe-singleton-factory",
     "stx-labs/stacks.js",
     "unplugin/unplugin-imagemin"

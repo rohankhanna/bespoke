@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 2,
-    "terms": 17
+    "components": 3,
+    "concepts": 16,
+    "observations": 16,
+    "repos": 1,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
-    "diffscope/diffscope-project",
     "edge-classic/EDGE-classic"
   ]
 }

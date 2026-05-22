@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 101,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 12,
-    "terms": 45
+    "components": 40,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 9,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "appwrite/playground-for-web",
-    "atsushieno/ktmidi",
     "clj-commons/rewrite-clj",
     "CopyText/TextCopy",
     "danielrosehill/Claude-Code-Projects-Index",
     "devcontainers/devcontainers.github.io",
     "elixir-protobuf/protobuf",
-    "emacscollective/auto-compile",
     "Kotlin/kotlinx-benchmark",
     "rescript-lang/reanalyze",
-    "sass/sass-spec",
     "WICG/attribution-reporting-api"
   ]
 }

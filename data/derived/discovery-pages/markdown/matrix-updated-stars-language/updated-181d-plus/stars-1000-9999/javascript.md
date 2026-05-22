@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -84,7 +84,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jshint/jshint](https://github.com/jshint/jshint) | 9070 | 2025-02-13T17:18:03Z | JavaScript | Unknown | 0 | 23 | 0 | 0 |
 | [timarney/react-app-rewired](https://github.com/timarney/react-app-rewired) | 9858 | 2025-02-13T03:23:53Z | JavaScript | Web app | 6 | 2 | 6 | 6 |
 | [vitalets/react-native-extended-stylesheet](https://github.com/vitalets/react-native-extended-stylesheet) | 2933 | 2025-02-05T16:37:19Z | JavaScript | Unknown | 7 | 18 | 7 | 7 |
-| [wenda-LLM/wenda](https://github.com/wenda-LLM/wenda) | 6180 | 2025-01-23T12:55:35Z | JavaScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [wenda-LLM/wenda](https://github.com/wenda-LLM/wenda) | 6179 | 2025-01-23T12:55:35Z | JavaScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [vueuse/vue-demi](https://github.com/vueuse/vue-demi) | 3135 | 2025-01-22T09:27:29Z | JavaScript | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [nodejs/readable-stream](https://github.com/nodejs/readable-stream) | 1045 | 2025-01-07T10:06:21Z | JavaScript | Infrastructure/tooling | 6 | 36 | 6 | 6 |
 | [bjornharrtell/jsts](https://github.com/bjornharrtell/jsts) | 1552 | 2025-01-02T19:25:48Z | JavaScript | Infrastructure/tooling | 1 | 19 | 1 | 1 |
@@ -212,7 +212,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vuejs-templates/webpack](https://github.com/vuejs-templates/webpack) | 9653 | 2023-03-01T12:48:02Z | JavaScript | Web app | 0 | 1 | 0 | 0 |
 | [steelbrain/linter](https://github.com/steelbrain/linter) | 1088 | 2023-02-20T08:53:20Z | JavaScript | Infrastructure/tooling | 0 | 30 | 0 | 0 |
 | [que-etc/resize-observer-polyfill](https://github.com/que-etc/resize-observer-polyfill) | 1754 | 2023-01-27T12:16:31Z | JavaScript | Service/API | 4 | 18 | 4 | 4 |
-| [ElemeFE/element-react](https://github.com/ElemeFE/element-react) | 2837 | 2023-01-14T21:13:08Z | JavaScript | Web app | 4 | 55 | 4 | 4 |
+| [ElemeFE/element-react](https://github.com/ElemeFE/element-react) | 2838 | 2023-01-14T21:13:08Z | JavaScript | Web app | 4 | 55 | 4 | 4 |
 | [peggyrayzis/react-native-create-bridge](https://github.com/peggyrayzis/react-native-create-bridge) | 1022 | 2023-01-12T09:51:27Z | JavaScript | CLI | 6 | 17 | 6 | 6 |
 | [jackspirou/clientjs](https://github.com/jackspirou/clientjs) | 2225 | 2023-01-08T17:39:54Z | JavaScript | Unknown | 0 | 27 | 0 | 0 |
 | [iodide-project/iodide](https://github.com/iodide-project/iodide) | 1500 | 2023-01-06T01:32:43Z | JavaScript | Infrastructure/tooling | 0 | 97 | 0 | 0 |
@@ -311,7 +311,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fkling/astexplorer](https://github.com/fkling/astexplorer) | 6532 | 2024-04-26T13:48:46Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
 | [pa7/heatmap.js](https://github.com/pa7/heatmap.js) | 6370 | 2023-10-31T03:05:44Z | JavaScript | Library | 14 | 6 | 14 | 14 |
 | [slap-editor/slap](https://github.com/slap-editor/slap) | 6186 | 2021-11-01T04:47:39Z | JavaScript | CLI | 0 | 15 | 0 | 0 |
-| [wenda-LLM/wenda](https://github.com/wenda-LLM/wenda) | 6180 | 2025-01-23T12:55:35Z | JavaScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [wenda-LLM/wenda](https://github.com/wenda-LLM/wenda) | 6179 | 2025-01-23T12:55:35Z | JavaScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [thx/gogocode](https://github.com/thx/gogocode) | 6085 | 2024-04-11T02:24:33Z | JavaScript | Web app | 3 | 8 | 3 | 3 |
 | [nodeca/pako](https://github.com/nodeca/pako) | 6066 | 2024-06-27T10:02:41Z | JavaScript | Infrastructure/tooling | 2 | 15 | 2 | 2 |
 | [cuckoosandbox/cuckoo](https://github.com/cuckoosandbox/cuckoo) | 5950 | 2022-05-03T16:17:48Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
@@ -384,7 +384,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [babel/babel-eslint](https://github.com/babel/babel-eslint) | 2949 | 2021-08-18T15:39:05Z | JavaScript | Unknown | 3 | 29 | 3 | 3 |
 | [vitalets/react-native-extended-stylesheet](https://github.com/vitalets/react-native-extended-stylesheet) | 2933 | 2025-02-05T16:37:19Z | JavaScript | Unknown | 7 | 18 | 7 | 7 |
 | [coreybutler/node-windows](https://github.com/coreybutler/node-windows) | 2933 | 2024-10-01T21:28:07Z | JavaScript | Infrastructure/tooling | 6 | 7 | 6 | 6 |
-| [ElemeFE/element-react](https://github.com/ElemeFE/element-react) | 2837 | 2023-01-14T21:13:08Z | JavaScript | Web app | 4 | 55 | 4 | 4 |
+| [ElemeFE/element-react](https://github.com/ElemeFE/element-react) | 2838 | 2023-01-14T21:13:08Z | JavaScript | Web app | 4 | 55 | 4 | 4 |
 | [dwyl/learn-tdd](https://github.com/dwyl/learn-tdd) | 2780 | 2025-10-13T16:20:21Z | JavaScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [arackaf/customize-cra](https://github.com/arackaf/customize-cra) | 2771 | 2023-10-06T20:33:24Z | JavaScript | Web app | 0 | 17 | 0 | 0 |
 | [saharmor/dalle-playground](https://github.com/saharmor/dalle-playground) | 2746 | 2024-06-03T22:19:37Z | JavaScript | Unknown | 9 | 0 | 9 | 9 |

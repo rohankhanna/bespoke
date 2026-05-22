@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 15191,
+    "components": 15189,
     "concepts": 13695,
     "observations": 13721,
-    "repos": 4521,
+    "repos": 4518,
     "terms": 13480
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -296,7 +296,6 @@
     "amazon-science/mxeval",
     "amazon-science/tgl",
     "Amblyopius/Stable-Diffusion-ONNX-FP16",
-    "AMD-AGI/Nitro-1",
     "amebalabs/Esse",
     "AmenRa/ranx",
     "AmesingFlank/taichi.js",
@@ -924,7 +923,6 @@
     "clayrisser/sphinx-markdown-builder",
     "clcarwin/convert_torch_to_pytorch",
     "clcarwin/sphereface_pytorch",
-    "CLD2Owners/cld2",
     "cldwalker/logseq-query",
     "clean-css/clean-css-cli",
     "cleanunicorn/ethereum-smartcontract-template",
@@ -3415,7 +3413,6 @@
     "PengYu-Team/GEODE_dataset",
     "PepsRyuu/nollup",
     "perdoch/hesaff",
-    "perrygeo/python-rasterstats",
     "pesser/pytorch_diffusion",
     "peteanderson80/Up-Down-Captioner",
     "petercorke/RVC3-python",
@@ -4323,6 +4320,7 @@
     "weiyithu/SurroundDepth",
     "wemake-services/flake8-eradicate",
     "wemake-services/wemake-vue-template",
+    "wenet-e2e/speech-recognition-papers",
     "wenet-e2e/wetts",
     "wenquanlu/HandRefiner",
     "wescode/lemmy_migrate",
@@ -4393,7 +4391,6 @@
     "xlite-dev/RVM-Inference",
     "xmlyqing00/AFB-URR",
     "xmoanvaf/llava-phi",
-    "xolox/vim-misc",
     "xolox/vim-session",
     "xserrat/docker-facebook-demucs",
     "xtensor-stack/xtensor-blas",

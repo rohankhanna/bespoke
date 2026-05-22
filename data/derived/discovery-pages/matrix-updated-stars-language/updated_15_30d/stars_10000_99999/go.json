@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1221,
-    "concepts": 1168,
-    "observations": 1171,
-    "repos": 87,
-    "terms": 1163
+    "components": 1161,
+    "concepts": 1126,
+    "observations": 1129,
+    "repos": 83,
+    "terms": 1121
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "99designs/gqlgen",
@@ -31,7 +31,6 @@
     "cloudflare/cloudflared",
     "cloudwego/eino",
     "cockroachdb/cockroach",
-    "coder/coder",
     "containers/podman",
     "coredns/coredns",
     "dagger/dagger",
@@ -50,7 +49,6 @@
     "gofiber/fiber",
     "goharbor/harbor",
     "gohugoio/hugo",
-    "golangci/golangci-lint",
     "google/go-github",
     "google/gvisor",
     "GoogleContainerTools/skaffold",
@@ -63,15 +61,12 @@
     "hajimehoshi/ebiten",
     "hashicorp/consul",
     "hashicorp/nomad",
-    "hashicorp/terraform",
     "hashicorp/vault",
     "helm/helm",
     "ipfs/kubo",
     "istio/istio",
     "jaegertracing/jaeger",
-    "jesseduffield/lazygit",
     "joewalnes/websocketd",
-    "kubernetes/kops",
     "kubernetes/minikube",
     "mikefarah/yq",
     "milvus-io/milvus",
@@ -89,6 +84,7 @@
     "pulumi/pulumi",
     "quic-go/quic-go",
     "rclone/rclone",
+    "restic/restic",
     "rqlite/rqlite",
     "SagerNet/sing-box",
     "schollz/croc",

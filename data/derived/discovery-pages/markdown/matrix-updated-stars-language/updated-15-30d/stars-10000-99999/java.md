@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · Java
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 30
-- terms: 381
-- components: 330
-- concepts: 384
-- observations: 386
+- repos: 28
+- terms: 339
+- components: 305
+- concepts: 342
+- observations: 344
 
 ## Static behavior
 
@@ -54,8 +54,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [clojure/clojure](https://github.com/clojure/clojure) | 10866 | 2026-04-22T19:59:20Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [apache/incubator-seata](https://github.com/apache/incubator-seata) | 25970 | 2026-04-22T08:50:39Z | Java | Infrastructure/tooling | 13 | 14 | 13 | 13 |
 | [alibaba/druid](https://github.com/alibaba/druid) | 28196 | 2026-04-22T06:07:52Z | Java | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [alibaba/nacos](https://github.com/alibaba/nacos) | 32885 | 2026-04-22T05:32:27Z | Java | Infrastructure/tooling | 23 | 14 | 23 | 23 |
-| [OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator) | 26146 | 2026-04-21T16:45:53Z | Java | CLI | 19 | 11 | 19 | 19 |
 
 ## Repos sorted by stars
 
@@ -68,10 +66,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bumptech/glide](https://github.com/bumptech/glide) | 35025 | 2026-04-29T21:48:39Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [netty/netty](https://github.com/netty/netty) | 34937 | 2026-04-29T20:23:34Z | Java | Infrastructure/tooling | 5 | 15 | 5 | 5 |
 | [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium) | 34054 | 2026-04-23T15:36:32Z | Java | Infrastructure/tooling | 13 | 12 | 13 | 13 |
-| [alibaba/nacos](https://github.com/alibaba/nacos) | 32885 | 2026-04-22T05:32:27Z | Java | Infrastructure/tooling | 23 | 14 | 23 | 23 |
 | [apache/kafka](https://github.com/apache/kafka) | 32483 | 2026-04-30T03:39:24Z | Java | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [alibaba/druid](https://github.com/alibaba/druid) | 28196 | 2026-04-22T06:07:52Z | Java | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator) | 26146 | 2026-04-21T16:45:53Z | Java | CLI | 19 | 11 | 19 | 19 |
 | [apache/incubator-seata](https://github.com/apache/incubator-seata) | 25970 | 2026-04-22T08:50:39Z | Java | Infrastructure/tooling | 13 | 14 | 13 | 13 |
 | [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) | 25240 | 2026-05-01T01:12:05Z | Java | Infrastructure/tooling | 16 | 48 | 16 | 16 |
 | [redisson/redisson](https://github.com/redisson/redisson) | 24314 | 2026-05-03T08:51:25Z | Java | CLI | 20 | 6 | 21 | 21 |

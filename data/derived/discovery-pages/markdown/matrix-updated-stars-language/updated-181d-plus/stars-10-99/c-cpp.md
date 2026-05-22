@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 284
-- terms: 623
-- components: 530
-- concepts: 626
-- observations: 626
+- repos: 285
+- terms: 624
+- components: 533
+- concepts: 627
+- observations: 627
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [triton-inference-server/tensorflow_backend](https://github.com/triton-inference-server/tensorflow_backend) | 56 | 2025-11-22T19:42:34Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [Blosc/hdf5-blosc](https://github.com/Blosc/hdf5-blosc) | 46 | 2025-11-19T12:27:33Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [cassioneri/teju_jagua](https://github.com/cassioneri/teju_jagua) | 38 | 2025-11-16T23:52:18Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [probonopd/static-tools](https://github.com/probonopd/static-tools) | 37 | 2025-11-08T15:50:39Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -404,6 +405,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [unevens/oversimple](https://github.com/unevens/oversimple) | 58 | 2021-12-10T12:25:36Z | C/C++ | Library | 6 | 0 | 6 | 6 |
 | [RobertBeckebans/TrenchBroomBFG](https://github.com/RobertBeckebans/TrenchBroomBFG) | 57 | 2025-08-25T13:14:43Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [giuseppe/become-root](https://github.com/giuseppe/become-root) | 57 | 2022-01-24T09:56:06Z | C/C++ | Unknown | 6 | 0 | 6 | 6 |
+| [triton-inference-server/tensorflow_backend](https://github.com/triton-inference-server/tensorflow_backend) | 56 | 2025-11-22T19:42:34Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [eliemichel/sdl2webgpu](https://github.com/eliemichel/sdl2webgpu) | 56 | 2025-04-18T21:15:32Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [kobolabs/liblzma](https://github.com/kobolabs/liblzma) | 56 | 2024-07-02T15:07:33Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [elem-azar-unis/CRDT-Redis](https://github.com/elem-azar-unis/CRDT-Redis) | 55 | 2023-03-14T07:03:32Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |

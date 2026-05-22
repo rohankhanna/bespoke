@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 90,
-    "observations": 91,
-    "repos": 11,
-    "terms": 90
+    "components": 79,
+    "concepts": 89,
+    "observations": 90,
+    "repos": 10,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "awslabs/aidlc-workflows",
     "copier-org/copier",
@@ -20,7 +20,6 @@
     "funstory-ai/BabelDOC",
     "ggozad/oterm",
     "google-deepmind/dm-haiku",
-    "magenta/ddsp",
     "openvpi/DiffSinger",
     "PyAV-Org/PyAV",
     "voicepaw/so-vits-svc-fork",

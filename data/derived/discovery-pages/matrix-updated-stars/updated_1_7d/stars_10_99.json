@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 166,
-    "concepts": 140,
-    "observations": 140,
-    "repos": 28,
-    "terms": 140
+    "components": 201,
+    "concepts": 128,
+    "observations": 128,
+    "repos": 25,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "aidenlab/hic-straw",
@@ -20,12 +20,11 @@
     "apache/casbin-axum-casbin",
     "apache/casbin-rust-actix-casbin",
     "apache/datafusion-ballista-python",
-    "browniebroke/pypackage-template",
     "cloudfoundry/bosh-google-cpi-release",
     "cloudfoundry/credhub-cli",
     "compozy/kb",
-    "diffscope/diffscope-project",
     "edge-classic/EDGE-classic",
+    "f3liz-casa/noraneko",
     "google-marketing-solutions/ariel",
     "honwen/openwrt-dnsmasq-extra",
     "intel-staging/text-generation-webui",
@@ -37,9 +36,7 @@
     "openjdk/jdk11u-dev",
     "openjdk/jdk17u-dev",
     "openjdk/jdk21u-dev",
-    "pivotal/credhub-release",
-    "RiDDiX/home-assistant-addons",
-    "TrigenSoftware/simple-release",
+    "storybook-community/addon-queryparams",
     "vaporif/parry-guard"
   ]
 }

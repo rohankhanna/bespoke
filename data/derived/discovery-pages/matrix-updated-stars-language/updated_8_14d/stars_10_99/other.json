@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 198,
-    "concepts": 109,
-    "observations": 109,
-    "repos": 19,
-    "terms": 109
+    "components": 183,
+    "concepts": 97,
+    "observations": 97,
+    "repos": 16,
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,21 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "atsushieno/augene-ng",
-    "atsushieno/compose-audio-controls",
-    "atsushieno/mugene-ng",
     "atsushieno/resident-midi-keyboard",
+    "browniebroke/pypackage-template",
     "cginternals/cpplocate",
     "Cle2ment/CherryStudio_themes",
     "dwyl/mvp",
     "FreneticLLC/FreneticGameEngine",
     "geocompx/docker",
-    "jelly-beam/rebar3_ex_doc",
     "ocaml-tracing/ocaml-opentelemetry",
     "ocaml-tracing/ocaml-trace",
     "processing/processing-website",
     "rcasia/neotest-java",
-    "siketyan/intellij-rustowl",
     "TEN-framework/portal",
     "tinted-theming/tinted-xresources",
     "UnknownPlatypus/djangofmt"

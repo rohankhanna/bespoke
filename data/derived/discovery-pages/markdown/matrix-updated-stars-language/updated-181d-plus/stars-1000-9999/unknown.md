@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Unknown
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 111
+- repos: 112
 - terms: 274
 - components: 30
 - concepts: 283
@@ -115,6 +115,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chenking2020/FindTheChatGPTer](https://github.com/chenking2020/FindTheChatGPTer) | 2016 | 2023-08-14T07:18:09Z | Unknown | Unknown | 19 | 0 | 19 | 19 |
 | [promises-aplus/promises-spec](https://github.com/promises-aplus/promises-spec) | 1840 | 2023-08-02T03:40:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [crownpku/Awesome-Chinese-NLP](https://github.com/crownpku/Awesome-Chinese-NLP) | 7931 | 2023-07-27T02:54:52Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
+| [wenet-e2e/speech-synthesis-paper](https://github.com/wenet-e2e/speech-synthesis-paper) | 1071 | 2023-07-24T06:46:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [thunlp/PromptPapers](https://github.com/thunlp/PromptPapers) | 4302 | 2023-07-17T09:54:36Z | Unknown | Model/data | 7 | 0 | 7 | 7 |
 | [openlm-research/open_llama](https://github.com/openlm-research/open_llama) | 7530 | 2023-07-16T13:42:13Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [iaolo/iA-Fonts](https://github.com/iaolo/iA-Fonts) | 4066 | 2023-06-16T16:21:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -247,6 +248,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lxgw/yozai-font](https://github.com/lxgw/yozai-font) | 1128 | 2025-09-12T06:38:10Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [NVIDIA/nvidia-container-runtime](https://github.com/NVIDIA/nvidia-container-runtime) | 1123 | 2023-10-27T13:58:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [dothq/browser](https://github.com/dothq/browser) | 1089 | 2024-12-25T12:14:58Z | Unknown | Infrastructure/tooling | 9 | 1 | 9 | 9 |
+| [wenet-e2e/speech-synthesis-paper](https://github.com/wenet-e2e/speech-synthesis-paper) | 1071 | 2023-07-24T06:46:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [jaydenseric/graphql-multipart-request-spec](https://github.com/jaydenseric/graphql-multipart-request-spec) | 1054 | 2025-03-05T06:37:13Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [ichitenfont/I.Ming](https://github.com/ichitenfont/I.Ming) | 1043 | 2024-04-24T17:04:13Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [marbl/CHM13](https://github.com/marbl/CHM13) | 1037 | 2025-07-14T15:51:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5367,
-    "concepts": 1913,
-    "observations": 1915,
-    "repos": 1351,
-    "terms": 1908
+    "components": 5378,
+    "concepts": 1923,
+    "observations": 1925,
+    "repos": 1356,
+    "terms": 1918
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -486,6 +486,7 @@
     "Deep-Symmetry/lib-carabiner",
     "Deep-Symmetry/ola-clojure",
     "defund-labs/interquery",
+    "deiga/nodenv-default-npmrc",
     "denar90/lightouse-ci-netlify-preact",
     "DeprecatedGoModules/redigo",
     "derhuerst/tap-min",
@@ -812,6 +813,7 @@
     "jrobinso/hdf5-indexer",
     "jruby/jruby-examples",
     "jruby/ruby-maven",
+    "jtdaugherty/vty-crossplatform",
     "jtdaugherty/vty-unix",
     "JuliaBinaryWrappers/Zstd_jll.jl",
     "JuliaComputing/Registrator.jl",
@@ -1012,6 +1014,8 @@
     "ncitron/ethereum_hashing",
     "near/near-abi-js",
     "near/near-devcontainers",
+    "nelson-lang/module_skeleton",
+    "nelson-lang/module_skeleton_basic",
     "nelson-lang/nelson-minimalist-core",
     "neulab/explainaboard_client",
     "NeuralVox/OpenPhonemizer-GPL",
@@ -1162,6 +1166,7 @@
     "rexthinker/rexthinker.github.io",
     "rexwangcc/taichi-voxel-challenge",
     "reZach/easy-redux-undo",
+    "rhgrossman/pyctcdecode_demo",
     "rhoban/maple",
     "rhysd/ss",
     "rigellute/scoop-bucket",
@@ -1284,7 +1289,7 @@
     "travis-ci/travis-packer-build",
     "travis-infrastructure/packer-build",
     "triton-inference-server/contrib",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "turbofish-org/abci2",
     "turner/swt2sw",
     "UBC-NLP/Cheetah",

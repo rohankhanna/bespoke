@@ -3,7 +3,7 @@
     "components": 183,
     "concepts": 293,
     "observations": 294,
-    "repos": 69,
+    "repos": 70,
     "terms": 288
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "angr/vex",
@@ -60,6 +60,7 @@
     "martinmoene/lest",
     "mengyao/Complete-Striped-Smith-Waterman-Library",
     "mit-han-lab/Block-Sparse-Attention",
+    "mlc-ai/tokenizers-cpp",
     "naelstrof/slop",
     "nagisa/rust_tracy_client",
     "nihui/ncnn-android-nanodet",

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 32
-- terms: 180
-- components: 176
-- concepts: 181
-- observations: 184
+- repos: 34
+- terms: 190
+- components: 186
+- concepts: 191
+- observations: 194
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [tokio-rs/loom](https://github.com/tokio-rs/loom) | 2682 | 2026-02-20T20:40:49Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [fschutt/printpdf](https://github.com/fschutt/printpdf) | 1065 | 2026-02-20T17:49:30Z | Rust | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [Byron/dua-cli](https://github.com/Byron/dua-cli) | 5815 | 2026-02-20T08:14:57Z | Rust | CLI | 8 | 10 | 8 | 8 |
 | [rojo-rbx/rojo](https://github.com/rojo-rbx/rojo) | 1543 | 2026-02-14T19:10:36Z | Rust | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [Byron/google-apis-rs](https://github.com/Byron/google-apis-rs) | 1131 | 2026-02-14T15:06:39Z | Rust | CLI | 0 | 2 | 0 | 0 |
@@ -78,6 +80,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rust-headless-chrome/rust-headless-chrome](https://github.com/rust-headless-chrome/rust-headless-chrome) | 2896 | 2026-02-03T22:22:38Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [erg-lang/erg](https://github.com/erg-lang/erg) | 2855 | 2025-12-04T02:20:50Z | Rust | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [apache/horaedb](https://github.com/apache/horaedb) | 2834 | 2026-02-05T18:30:54Z | Rust | Infrastructure/tooling | 14 | 8 | 14 | 14 |
+| [tokio-rs/loom](https://github.com/tokio-rs/loom) | 2682 | 2026-02-20T20:40:49Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [anthropics/claudes-c-compiler](https://github.com/anthropics/claudes-c-compiler) | 2632 | 2026-02-05T17:14:51Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [tokio-rs/bytes](https://github.com/tokio-rs/bytes) | 2205 | 2026-02-04T15:15:37Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [dtolnay/case-studies](https://github.com/dtolnay/case-studies) | 2011 | 2025-12-20T05:11:26Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
@@ -95,3 +98,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GREsau/schemars](https://github.com/GREsau/schemars) | 1333 | 2026-02-03T21:21:01Z | Rust | Infrastructure/tooling | 2 | 4 | 3 | 3 |
 | [sharkdp/diskus](https://github.com/sharkdp/diskus) | 1208 | 2026-02-14T12:04:30Z | Rust | CLI | 5 | 5 | 5 | 5 |
 | [Byron/google-apis-rs](https://github.com/Byron/google-apis-rs) | 1131 | 2026-02-14T15:06:39Z | Rust | CLI | 0 | 2 | 0 | 0 |
+| [fschutt/printpdf](https://github.com/fschutt/printpdf) | 1065 | 2026-02-20T17:49:30Z | Rust | Infrastructure/tooling | 9 | 7 | 9 | 9 |

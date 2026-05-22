@@ -3,7 +3,7 @@
     "components": 3271,
     "concepts": 1578,
     "observations": 1580,
-    "repos": 321,
+    "repos": 322,
     "terms": 1552
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -166,6 +166,7 @@
     "kaldi-asr/kaldi",
     "karpathy/char-rnn",
     "karpathy/llama2.c",
+    "karpathy/llm-council",
     "karpathy/llm.c",
     "karpathy/micrograd",
     "karpathy/minbpe",

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 73
-- terms: 763
-- components: 598
-- concepts: 767
-- observations: 768
+- repos: 68
+- terms: 730
+- components: 565
+- concepts: 734
+- observations: 735
 
 ## Static behavior
 
@@ -94,11 +94,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apache/lucene](https://github.com/apache/lucene) | 3408 | 2026-04-23T09:41:23Z | Java | Infrastructure/tooling | 13 | 7 | 13 | 13 |
 | [rabbitmq/rabbitmq-tutorials](https://github.com/rabbitmq/rabbitmq-tutorials) | 6884 | 2026-04-23T02:04:09Z | Java | Unknown | 2 | 0 | 2 | 2 |
 | [raphw/byte-buddy](https://github.com/raphw/byte-buddy) | 6818 | 2026-04-22T23:08:03Z | Java | Infrastructure/tooling | 9 | 8 | 9 | 9 |
-| [spring-ai-alibaba/DataAgent](https://github.com/spring-ai-alibaba/DataAgent) | 1826 | 2026-04-22T05:13:12Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
-| [open-telemetry/opentelemetry-java](https://github.com/open-telemetry/opentelemetry-java) | 2390 | 2026-04-22T00:52:49Z | Java | Infrastructure/tooling | 10 | 14 | 10 | 10 |
-| [google/error-prone](https://github.com/google/error-prone) | 7158 | 2026-04-21T23:33:25Z | Java | Infrastructure/tooling | 3 | 6 | 3 | 3 |
-| [spring-ai-alibaba/examples](https://github.com/spring-ai-alibaba/examples) | 2613 | 2026-04-21T14:44:17Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [codelibs/fess](https://github.com/codelibs/fess) | 1107 | 2026-04-21T13:20:34Z | Java | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 
 ## Repos sorted by stars
 
@@ -116,7 +111,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [junit-team/junit4](https://github.com/junit-team/junit4) | 8534 | 2026-04-25T11:30:38Z | Java | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [apache/tomcat](https://github.com/apache/tomcat) | 8163 | 2026-05-06T13:24:43Z | Java | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [swagger-api/swagger-core](https://github.com/swagger-api/swagger-core) | 7521 | 2026-04-28T14:58:40Z | Java | Infrastructure/tooling | 17 | 11 | 17 | 17 |
-| [google/error-prone](https://github.com/google/error-prone) | 7158 | 2026-04-21T23:33:25Z | Java | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [rabbitmq/rabbitmq-tutorials](https://github.com/rabbitmq/rabbitmq-tutorials) | 6884 | 2026-04-23T02:04:09Z | Java | Unknown | 2 | 0 | 2 | 2 |
 | [raphw/byte-buddy](https://github.com/raphw/byte-buddy) | 6818 | 2026-04-22T23:08:03Z | Java | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [hazelcast/hazelcast](https://github.com/hazelcast/hazelcast) | 6575 | 2026-04-30T06:21:01Z | Java | Infrastructure/tooling | 19 | 2 | 19 | 19 |
@@ -140,11 +134,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tlaplus/tlaplus](https://github.com/tlaplus/tlaplus) | 2892 | 2026-04-29T17:10:19Z | Java | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [bonigarcia/webdrivermanager](https://github.com/bonigarcia/webdrivermanager) | 2685 | 2026-04-24T15:17:19Z | Java | Infrastructure/tooling | 12 | 11 | 12 | 12 |
 | [dlew/joda-time-android](https://github.com/dlew/joda-time-android) | 2620 | 2026-04-29T22:50:38Z | Java | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [spring-ai-alibaba/examples](https://github.com/spring-ai-alibaba/examples) | 2613 | 2026-04-21T14:44:17Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [aws/aws-sdk-java-v2](https://github.com/aws/aws-sdk-java-v2) | 2575 | 2026-04-29T21:35:41Z | Java | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [firebase/firebase-android-sdk](https://github.com/firebase/firebase-android-sdk) | 2505 | 2026-04-29T21:59:38Z | Java | Infrastructure/tooling | 22 | 17 | 22 | 22 |
 | [confluentinc/schema-registry](https://github.com/confluentinc/schema-registry) | 2428 | 2026-04-30T03:48:09Z | Java | Unknown | 10 | 0 | 12 | 12 |
-| [open-telemetry/opentelemetry-java](https://github.com/open-telemetry/opentelemetry-java) | 2390 | 2026-04-22T00:52:49Z | Java | Infrastructure/tooling | 10 | 14 | 10 | 10 |
 | [FasterXML/jackson-core](https://github.com/FasterXML/jackson-core) | 2361 | 2026-04-28T20:49:53Z | Java | Infrastructure/tooling | 10 | 11 | 11 | 11 |
 | [smithy-lang/smithy](https://github.com/smithy-lang/smithy) | 2252 | 2026-04-30T20:23:24Z | Java | CLI | 8 | 15 | 8 | 8 |
 | [apache/poi](https://github.com/apache/poi) | 2223 | 2026-04-23T18:04:02Z | Java | Infrastructure/tooling | 10 | 6 | 10 | 10 |
@@ -153,7 +145,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [googleapis/google-cloud-java](https://github.com/googleapis/google-cloud-java) | 2031 | 2026-04-29T21:29:34Z | Java | CLI | 11 | 10 | 11 | 11 |
 | [validator/validator](https://github.com/validator/validator) | 1929 | 2026-05-02T10:42:13Z | Java | Infrastructure/tooling | 15 | 19 | 15 | 15 |
 | [JetBrains/JetBrainsRuntime](https://github.com/JetBrains/JetBrainsRuntime) | 1876 | 2026-05-01T06:15:56Z | Java | Infrastructure/tooling | 10 | 5 | 10 | 10 |
-| [spring-ai-alibaba/DataAgent](https://github.com/spring-ai-alibaba/DataAgent) | 1826 | 2026-04-22T05:13:12Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [besu-eth/besu](https://github.com/besu-eth/besu) | 1800 | 2026-04-23T23:40:06Z | Java | CLI | 12 | 13 | 12 | 12 |
 | [jline/jline3](https://github.com/jline/jline3) | 1763 | 2026-04-29T19:43:17Z | Java | CLI | 6 | 10 | 6 | 6 |
 | [sqlancer/sqlancer](https://github.com/sqlancer/sqlancer) | 1728 | 2026-05-02T05:46:49Z | Java | Infrastructure/tooling | 10 | 11 | 10 | 10 |
@@ -169,7 +160,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SonarSource/sonar-java](https://github.com/SonarSource/sonar-java) | 1206 | 2026-04-29T15:42:19Z | Java | Infrastructure/tooling | 20 | 14 | 20 | 20 |
 | [jhipster/prettier-java](https://github.com/jhipster/prettier-java) | 1203 | 2026-04-27T06:46:51Z | Java | Infrastructure/tooling | 7 | 26 | 7 | 7 |
 | [castorini/anserini](https://github.com/castorini/anserini) | 1109 | 2026-04-26T19:36:54Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
-| [codelibs/fess](https://github.com/codelibs/fess) | 1107 | 2026-04-21T13:20:34Z | Java | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [unicode-org/cldr](https://github.com/unicode-org/cldr) | 1090 | 2026-05-03T00:00:46Z | Java | Infrastructure/tooling | 9 | 16 | 9 | 9 |
 | [FasterXML/jackson-annotations](https://github.com/FasterXML/jackson-annotations) | 1062 | 2026-04-24T20:16:38Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [dylibso/chicory](https://github.com/dylibso/chicory) | 1056 | 2026-04-28T04:09:44Z | Java | Infrastructure/tooling | 9 | 10 | 9 | 9 |

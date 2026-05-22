@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 64,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 6,
-    "terms": 50
+    "components": 73,
+    "concepts": 69,
+    "observations": 69,
+    "repos": 9,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "ashvardanian/NumKong",
     "CloudCompare/CloudCompare",
     "floooh/sokol",
+    "google/oboe",
     "marzer/tomlplusplus",
+    "Mithril-mine/libmdbx",
     "Nelarius/imnodes",
-    "skeeto/w64devkit"
+    "PortAudio/portaudio",
+    "pure-data/pure-data"
   ]
 }

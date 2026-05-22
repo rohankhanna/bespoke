@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 185,
-    "concepts": 190,
-    "observations": 190,
+    "components": 170,
+    "concepts": 181,
+    "observations": 181,
     "repos": 33,
-    "terms": 190
+    "terms": 181
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "alexkohler/prealloc",
     "anacrolix/dht",
     "Antonboom/testifylint",
     "appbaseio/reactivesearch-api",
-    "argoproj-labs/argocd-rbac-operator",
     "aws/amazon-ec2-spot-interrupter",
     "aws/amazon-ecs-cni-plugins",
     "aws/aws-xray-daemon",
@@ -35,6 +34,7 @@
     "itzg/rcon-cli",
     "JupiterRider/purego-sdl3",
     "kubernetes-sigs/cluster-proportional-autoscaler",
+    "kubernetes-sigs/hydrophone",
     "kubernetes-sigs/kubetest2",
     "maykonlsf/semver-cli",
     "medama-io/medama",

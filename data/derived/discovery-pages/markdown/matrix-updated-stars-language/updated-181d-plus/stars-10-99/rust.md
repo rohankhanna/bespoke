@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 190
-- terms: 378
-- components: 505
-- concepts: 384
-- observations: 387
+- repos: 191
+- terms: 380
+- components: 512
+- concepts: 386
+- observations: 389
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [algorealmInc/SwarmNL](https://github.com/algorealmInc/SwarmNL) | 32 | 2025-11-23T04:43:46Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [ashvardanian/StringTape](https://github.com/ashvardanian/StringTape) | 29 | 2025-11-21T00:44:00Z | Rust | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [servo/unicode-bidi](https://github.com/servo/unicode-bidi) | 84 | 2025-11-11T17:53:27Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [AndersTrier/reed-solomon-simd](https://github.com/AndersTrier/reed-solomon-simd) | 80 | 2025-11-04T21:15:39Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -313,6 +314,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [confio/cw-ibc-demo](https://github.com/confio/cw-ibc-demo) | 33 | 2024-08-15T09:42:51Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [zakarumych/sierra](https://github.com/zakarumych/sierra) | 33 | 2024-06-28T07:41:06Z | Rust | Infrastructure/tooling | 11 | 6 | 11 | 11 |
 | [srcres258/learnopengl-rust](https://github.com/srcres258/learnopengl-rust) | 33 | 2024-06-01T12:03:11Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [algorealmInc/SwarmNL](https://github.com/algorealmInc/SwarmNL) | 32 | 2025-11-23T04:43:46Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [Xuanwo/serfig](https://github.com/Xuanwo/serfig) | 32 | 2025-09-08T11:46:24Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [georust/polyline](https://github.com/georust/polyline) | 32 | 2025-07-26T15:49:02Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [pangenome/vcfbub](https://github.com/pangenome/vcfbub) | 32 | 2025-06-12T15:11:36Z | Rust | Unknown | 0 | 0 | 0 | 0 |

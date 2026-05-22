@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 372,
-    "concepts": 764,
-    "observations": 765,
-    "repos": 153,
-    "terms": 754
+    "components": 381,
+    "concepts": 786,
+    "observations": 787,
+    "repos": 157,
+    "terms": 776
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "AIDC-AI/Marco-o1",
@@ -51,6 +51,7 @@
     "cvg/LightGlue",
     "davidhalter/jedi-vim",
     "descriptinc/descript-audio-codec",
+    "DigitalPhonetics/IMS-Toucan",
     "DLYuanGod/TinyGPT-V",
     "dmayboroda/minima",
     "docker/docker-py",
@@ -58,6 +59,7 @@
     "emilianavt/OpenSeeFace",
     "facebookincubator/submitit",
     "facebookresearch/DomainBed",
+    "facebookresearch/habitat-lab",
     "facebookresearch/meshrcnn",
     "facebookresearch/pytorchvideo",
     "Farama-Foundation/Metaworld",
@@ -91,6 +93,7 @@
     "layumi/Person_reID_baseline_pytorch",
     "LeCAR-Lab/ASAP",
     "LTH14/JiT",
+    "LTH14/mar",
     "lucidrains/tab-transformer-pytorch",
     "lupantech/AgentFlow",
     "MeetKai/functionary",
@@ -154,6 +157,7 @@
     "Tencent/TFace",
     "TencentARC/SEED-Voken",
     "tensorflow/agents",
+    "thewh1teagle/kokoro-onnx",
     "thu-ml/RoboticsDiffusionTransformer",
     "toshas/torch-fidelity",
     "Trusted-AI/adversarial-robustness-toolbox",

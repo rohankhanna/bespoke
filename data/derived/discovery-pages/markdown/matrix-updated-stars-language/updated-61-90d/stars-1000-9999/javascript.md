@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 23
-- terms: 130
+- repos: 22
+- terms: 126
 - components: 515
-- concepts: 131
-- observations: 131
+- concepts: 127
+- observations: 127
 
 ## Static behavior
 
@@ -48,7 +48,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [appbaseio/dejavu](https://github.com/appbaseio/dejavu) | 8463 | 2026-02-24T14:48:25Z | JavaScript | Infrastructure/tooling | 15 | 45 | 15 | 15 |
 | [istanbuljs/nyc](https://github.com/istanbuljs/nyc) | 5762 | 2026-02-23T14:50:00Z | JavaScript | CLI | 3 | 39 | 3 | 3 |
 | [dwyl/learn-json-web-tokens](https://github.com/dwyl/learn-json-web-tokens) | 4186 | 2026-02-23T12:48:07Z | JavaScript | Web app | 0 | 8 | 0 | 0 |
-| [Adobe-CEP/CEP-Resources](https://github.com/Adobe-CEP/CEP-Resources) | 1818 | 2026-02-20T20:59:34Z | JavaScript | Docs/knowledge | 4 | 0 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -69,7 +68,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [svg-sprite/svg-sprite](https://github.com/svg-sprite/svg-sprite) | 1986 | 2026-02-28T02:34:44Z | JavaScript | Infrastructure/tooling | 9 | 36 | 9 | 9 |
 | [sindresorhus/clipboardy](https://github.com/sindresorhus/clipboardy) | 1972 | 2026-02-24T16:06:39Z | JavaScript | CLI | 0 | 10 | 0 | 0 |
 | [hughsk/flat](https://github.com/hughsk/flat) | 1818 | 2026-03-19T17:45:04Z | JavaScript | Infrastructure/tooling | 0 | 3 | 0 | 0 |
-| [Adobe-CEP/CEP-Resources](https://github.com/Adobe-CEP/CEP-Resources) | 1818 | 2026-02-20T20:59:34Z | JavaScript | Docs/knowledge | 4 | 0 | 4 | 4 |
 | [projectfluent/fluent](https://github.com/projectfluent/fluent) | 1641 | 2026-03-21T10:28:57Z | JavaScript | Infrastructure/tooling | 12 | 10 | 12 | 12 |
 | [mourner/flatbush](https://github.com/mourner/flatbush) | 1584 | 2026-03-21T10:11:35Z | JavaScript | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [commonmark/commonmark.js](https://github.com/commonmark/commonmark.js) | 1554 | 2026-03-01T10:10:09Z | JavaScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |

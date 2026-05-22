@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2176,
-    "concepts": 488,
-    "observations": 494,
-    "repos": 89,
-    "terms": 483
+    "components": 2091,
+    "concepts": 470,
+    "observations": 476,
+    "repos": 84,
+    "terms": 465
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "aadsm/jschardet",
-    "actions/create-github-app-token",
     "adamlui/ai-web-extensions",
     "AdguardTeam/HostlistsRegistry",
     "AdguardTeam/Scriptlets",
@@ -28,11 +27,9 @@
     "avoidwork/tiny-lru",
     "aws/aws-cdk-rfcs",
     "Brooooooklyn/snappy",
-    "browserslist/update-db",
     "carbon-design-system/carbon-components-vue",
     "chrisgoringe/cg-image-filter",
     "commitizen/cz-conventional-changelog",
-    "conda-forge/conda-forge.github.io",
     "conventional-changelog/releaser-tools",
     "csstools/cssdb",
     "CVEProject/cve-services",
@@ -80,9 +77,7 @@
     "plone/volto",
     "poolifier/poolifier",
     "postcss/postcss-cli",
-    "postcss/postcss-js",
     "postcss/postcss-load-config",
-    "postcss/sugarss",
     "prisma/ecosystem-tests",
     "reviewdog/action-eslint",
     "rooklift/ogatak",

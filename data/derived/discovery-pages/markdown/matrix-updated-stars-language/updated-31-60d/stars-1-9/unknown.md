@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 56
-- terms: 68
-- components: 36
-- concepts: 68
-- observations: 68
+- repos: 59
+- terms: 72
+- components: 44
+- concepts: 72
+- observations: 72
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Claude-Code-Plugins](https://github.com/danielrosehill/Claude-Code-Plugins) | 9 | 2026-04-21T21:44:33Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
+| [cachix/iocraft](https://github.com/cachix/iocraft) | 1 | 2026-04-21T19:19:04Z | Unknown | CLI | 2 | 7 | 2 | 2 |
+| [conda-forge/ultralytics-feedstock](https://github.com/conda-forge/ultralytics-feedstock) | 8 | 2026-04-21T18:13:29Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [danielrosehill/Claude-Purchasing-Plugin](https://github.com/danielrosehill/Claude-Purchasing-Plugin) | 1 | 2026-04-21T11:46:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [flathub/org.gnome.eog](https://github.com/flathub/org.gnome.eog) | 1 | 2026-04-20T16:40:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Legal-Investigative-Plugin](https://github.com/danielrosehill/Claude-Legal-Investigative-Plugin) | 1 | 2026-04-19T13:12:01Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -87,6 +90,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Claude-Code-Plugins](https://github.com/danielrosehill/Claude-Code-Plugins) | 9 | 2026-04-21T21:44:33Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
+| [conda-forge/ultralytics-feedstock](https://github.com/conda-forge/ultralytics-feedstock) | 8 | 2026-04-21T18:13:29Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [ai-dynamo/enhancements](https://github.com/ai-dynamo/enhancements) | 8 | 2026-04-14T22:49:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [dpc/crev-proofs](https://github.com/dpc/crev-proofs) | 8 | 2026-04-14T02:58:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [datachainlab/yui-relayer-build](https://github.com/datachainlab/yui-relayer-build) | 8 | 2026-03-30T07:44:01Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
@@ -123,6 +128,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [2KAbhishek/BWnB](https://github.com/2KAbhishek/BWnB) | 2 | 2026-04-06T05:19:37Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [danielrosehill/Homebox-Projects-Index](https://github.com/danielrosehill/Homebox-Projects-Index) | 2 | 2026-03-27T17:15:08Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [hchiam/learning-template](https://github.com/hchiam/learning-template) | 2 | 2026-03-26T00:04:39Z | Unknown | Infrastructure/tooling | 0 | 6 | 0 | 0 |
+| [cachix/iocraft](https://github.com/cachix/iocraft) | 1 | 2026-04-21T19:19:04Z | Unknown | CLI | 2 | 7 | 2 | 2 |
 | [danielrosehill/Claude-Purchasing-Plugin](https://github.com/danielrosehill/Claude-Purchasing-Plugin) | 1 | 2026-04-21T11:46:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [flathub/org.gnome.eog](https://github.com/flathub/org.gnome.eog) | 1 | 2026-04-20T16:40:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Legal-Investigative-Plugin](https://github.com/danielrosehill/Claude-Legal-Investigative-Plugin) | 1 | 2026-04-19T13:12:01Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

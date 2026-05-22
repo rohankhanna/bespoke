@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · Unknown
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 11
-- terms: 109
+- repos: 12
+- terms: 115
 - components: 29
-- concepts: 109
-- observations: 109
+- concepts: 115
+- observations: 115
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | 30458 | 2026-05-07T20:24:08Z | Unknown | CLI | 6 | 0 | 6 | 6 |
 | [brave/brave-browser](https://github.com/brave/brave-browser) | 22437 | 2026-05-04T16:19:32Z | Unknown | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) | 19612 | 2026-05-02T22:34:48Z | Unknown | Infrastructure/tooling | 20 | 3 | 20 | 20 |
 | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 86780 | 2026-05-02T16:08:17Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -47,6 +48,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions) | 53749 | 2026-04-30T02:57:51Z | Unknown | Infrastructure/tooling | 11 | 2 | 11 | 11 |
 | [google/material-design-icons](https://github.com/google/material-design-icons) | 53221 | 2026-04-24T03:13:07Z | Unknown | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker) | 35912 | 2026-04-28T20:42:31Z | Unknown | Infrastructure/tooling | 21 | 5 | 21 | 21 |
+| [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | 30458 | 2026-05-07T20:24:08Z | Unknown | CLI | 6 | 0 | 6 | 6 |
 | [brave/brave-browser](https://github.com/brave/brave-browser) | 22437 | 2026-05-04T16:19:32Z | Unknown | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme) | 20843 | 2026-04-26T20:52:35Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) | 19612 | 2026-05-02T22:34:48Z | Unknown | Infrastructure/tooling | 20 | 3 | 20 | 20 |

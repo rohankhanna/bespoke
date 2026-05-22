@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 210
-- terms: 345
-- components: 682
-- concepts: 334
-- observations: 336
+- repos: 207
+- terms: 335
+- components: 671
+- concepts: 324
+- observations: 326
 
 ## Static behavior
 
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [empriselab/kortex_description](https://github.com/empriselab/kortex_description) | 2 | 2026-02-20T16:26:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [objectbox/objectbox-swift-generator](https://github.com/objectbox/objectbox-swift-generator) | 7 | 2026-02-19T23:43:53Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [Afnanksalal/co-op](https://github.com/Afnanksalal/co-op) | 4 | 2026-02-19T18:31:50Z | TypeScript | Model/data | 14 | 0 | 14 | 14 |
 | [ihmcrobotics/ihmc-build](https://github.com/ihmcrobotics/ihmc-build) | 4 | 2026-02-19T18:17:29Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -231,10 +232,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [KSXGitHub/aur-packages-builder](https://github.com/KSXGitHub/aur-packages-builder) | 6 | 2025-11-24T08:39:57Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [KSXGitHub/personal-pacman-packages](https://github.com/KSXGitHub/personal-pacman-packages) | 1 | 2025-11-24T08:39:15Z | Shell | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [ai-bot-pro/achatbot-go](https://github.com/ai-bot-pro/achatbot-go) | 9 | 2025-11-23T08:10:13Z | Go | Unknown | 0 | 0 | 0 | 0 |
-| [jtdaugherty/vty-crossplatform](https://github.com/jtdaugherty/vty-crossplatform) | 4 | 2025-11-22T23:42:43Z | Other | Library | 0 | 0 | 0 | 0 |
-| [nelson-lang/module_skeleton_basic](https://github.com/nelson-lang/module_skeleton_basic) | 1 | 2025-11-22T19:31:19Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [nelson-lang/module_skeleton](https://github.com/nelson-lang/module_skeleton) | 2 | 2025-11-22T19:01:18Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
-| [deiga/nodenv-default-npmrc](https://github.com/deiga/nodenv-default-npmrc) | 1 | 2025-11-22T14:27:53Z | Shell | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -336,7 +333,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [adamharrison/quetta](https://github.com/adamharrison/quetta) | 4 | 2025-12-06T21:25:14Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [aiagenta2z/onekey_mcp_router](https://github.com/aiagenta2z/onekey_mcp_router) | 4 | 2025-12-04T04:45:41Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [geopandas/governance](https://github.com/geopandas/governance) | 4 | 2025-11-27T17:18:36Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [jtdaugherty/vty-crossplatform](https://github.com/jtdaugherty/vty-crossplatform) | 4 | 2025-11-22T23:42:43Z | Other | Library | 0 | 0 | 0 | 0 |
 | [haya14busa/github-used-by](https://github.com/haya14busa/github-used-by) | 3 | 2026-02-08T07:33:49Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [qiuyu96/CoDeF](https://github.com/qiuyu96/CoDeF) | 3 | 2026-01-28T17:09:30Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [nvpro-samples/stb](https://github.com/nvpro-samples/stb) | 3 | 2026-01-27T04:22:12Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -355,6 +351,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [atrodo/WebGPU-Direct](https://github.com/atrodo/WebGPU-Direct) | 3 | 2025-11-26T05:19:53Z | Other | Service/API | 5 | 0 | 5 | 5 |
 | [funstory-ai/BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets) | 3 | 2025-11-25T10:46:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaML/MLCore.jl](https://github.com/JuliaML/MLCore.jl) | 3 | 2025-11-24T13:47:21Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
+| [empriselab/kortex_description](https://github.com/empriselab/kortex_description) | 2 | 2026-02-20T16:26:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [piebald-ai/.github](https://github.com/Piebald-AI/.github) | 2 | 2026-02-15T15:31:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [jsdom/.github](https://github.com/jsdom/.github) | 2 | 2026-02-14T05:28:09Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ethereum-optimism/kurtosis-test](https://github.com/ethereum-optimism/kurtosis-test) | 2 | 2026-02-10T00:33:59Z | Go | Unknown | 0 | 0 | 0 | 0 |
@@ -394,7 +391,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hermit-os/gcc](https://github.com/hermit-os/gcc) | 2 | 2025-11-27T13:19:08Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [hermit-os/binutils](https://github.com/hermit-os/binutils) | 2 | 2025-11-27T13:18:46Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [jgburet/asdf-dotenvx](https://github.com/jgburet/asdf-dotenvx) | 2 | 2025-11-24T22:25:17Z | Shell | Infrastructure/tooling | 3 | 6 | 3 | 4 |
-| [nelson-lang/module_skeleton](https://github.com/nelson-lang/module_skeleton) | 2 | 2025-11-22T19:01:18Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [stephanj/spotbugs-devoxxgenie-plugin](https://github.com/stephanj/spotbugs-devoxxgenie-plugin) | 1 | 2026-02-18T11:44:20Z | Java | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [danielrosehill/Claude-MD-Chunk](https://github.com/danielrosehill/Claude-MD-Chunk) | 1 | 2026-02-17T01:41:11Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [feloy/tesh](https://github.com/feloy/tesh) | 1 | 2026-02-16T13:20:48Z | Go | Infrastructure/tooling | 3 | 4 | 3 | 3 |
@@ -448,5 +444,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Ai-Workspace-Planning-Notes](https://github.com/danielrosehill/Ai-Workspace-Planning-Notes) | 1 | 2025-11-25T13:27:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [JaneliaSciComp/n5-zstandard](https://github.com/JaneliaSciComp/n5-zstandard) | 1 | 2025-11-24T14:41:36Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [KSXGitHub/personal-pacman-packages](https://github.com/KSXGitHub/personal-pacman-packages) | 1 | 2025-11-24T08:39:15Z | Shell | Infrastructure/tooling | 3 | 2 | 3 | 3 |
-| [nelson-lang/module_skeleton_basic](https://github.com/nelson-lang/module_skeleton_basic) | 1 | 2025-11-22T19:31:19Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [deiga/nodenv-default-npmrc](https://github.com/deiga/nodenv-default-npmrc) | 1 | 2025-11-22T14:27:53Z | Shell | Infrastructure/tooling | 3 | 7 | 3 | 3 |

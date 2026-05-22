@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Unknown
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 44
-- terms: 97
-- components: 61
-- concepts: 98
-- observations: 98
+- repos: 47
+- terms: 104
+- components: 68
+- concepts: 105
+- observations: 105
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [qemus/virtiso-whql](https://github.com/qemus/virtiso-whql) | 48 | 2026-04-22T03:26:48Z | Unknown | Infrastructure/tooling | 7 | 5 | 7 | 7 |
+| [containerd/project](https://github.com/containerd/project) | 79 | 2026-04-21T16:50:51Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [crewAIInc/skills](https://github.com/crewAIInc/skills) | 10 | 2026-04-21T15:38:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [rstackjs/rstack-design-resources](https://github.com/rstackjs/rstack-design-resources) | 17 | 2026-04-21T08:43:28Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [google/oss-policies-info](https://github.com/google/oss-policies-info) | 33 | 2026-04-20T16:05:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [webdriverio/awesome-webdriverio](https://github.com/webdriverio/awesome-webdriverio) | 52 | 2026-04-20T12:37:16Z | Unknown | Infrastructure/tooling | 5 | 5 | 5 | 5 |
@@ -81,6 +84,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pre-commit/mirrors-eslint](https://github.com/pre-commit/mirrors-eslint) | 85 | 2026-04-18T08:30:05Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [AppImage/AppImageSpec](https://github.com/AppImage/AppImageSpec) | 85 | 2026-04-03T11:48:26Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [openobserve/dashboards](https://github.com/openobserve/dashboards) | 82 | 2026-04-14T15:09:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [containerd/project](https://github.com/containerd/project) | 79 | 2026-04-21T16:50:51Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [CommunitySpecification/Community_Specification](https://github.com/CommunitySpecification/Community_Specification) | 77 | 2026-03-23T15:51:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [w3c/accname](https://github.com/w3c/accname) | 67 | 2026-04-19T15:47:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [alchaincyf/taleb-skill](https://github.com/alchaincyf/taleb-skill) | 65 | 2026-04-10T02:29:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -88,6 +92,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ipshipyard/ipfs-deploy-action](https://github.com/ipshipyard/ipfs-deploy-action) | 59 | 2026-04-12T20:57:33Z | Unknown | Infrastructure/tooling | 13 | 3 | 13 | 13 |
 | [webdriverio/awesome-webdriverio](https://github.com/webdriverio/awesome-webdriverio) | 52 | 2026-04-20T12:37:16Z | Unknown | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [Homebrew/.github](https://github.com/Homebrew/.github) | 52 | 2026-04-17T08:17:11Z | Unknown | Infrastructure/tooling | 3 | 10 | 3 | 3 |
+| [qemus/virtiso-whql](https://github.com/qemus/virtiso-whql) | 48 | 2026-04-22T03:26:48Z | Unknown | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [ganelson/inform-evolution](https://github.com/ganelson/inform-evolution) | 47 | 2026-04-15T05:49:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [w3c/core-aam](https://github.com/w3c/core-aam) | 46 | 2026-04-19T15:47:52Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [simonw/simonwillisonblog-backup](https://github.com/simonw/simonwillisonblog-backup) | 44 | 2026-04-19T01:07:00Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -116,6 +121,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [flinedev/plankit](https://github.com/FlineDev/PlanKit) | 11 | 2026-04-14T14:41:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cdxeve/awesome-computer-use-agents](https://github.com/cdxeve/awesome-computer-use-agents) | 11 | 2026-04-14T03:17:18Z | Unknown | CLI | 0 | 0 | 0 | 0 |
 | [ithiria894/awesome-claude-code-hooks](https://github.com/ithiria894/awesome-claude-code-hooks) | 11 | 2026-03-24T21:08:05Z | Unknown | Infrastructure/tooling | 7 | 1 | 7 | 7 |
+| [crewAIInc/skills](https://github.com/crewAIInc/skills) | 10 | 2026-04-21T15:38:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [jakoch/rasterizers](https://github.com/jakoch/rasterizers) | 10 | 2026-04-13T13:58:17Z | Unknown | Infrastructure/tooling | 12 | 5 | 12 | 12 |
 | [bleichenbacher-daniel/Rooterberg](https://github.com/bleichenbacher-daniel/Rooterberg) | 10 | 2026-04-12T20:51:00Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ipshipyard/dnslink-action](https://github.com/ipshipyard/dnslink-action) | 10 | 2026-04-11T18:15:12Z | Unknown | Infrastructure/tooling | 3 | 3 | 3 | 3 |

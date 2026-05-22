@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 222,
-    "concepts": 161,
-    "observations": 161,
-    "repos": 52,
-    "terms": 159
+    "components": 217,
+    "concepts": 160,
+    "observations": 160,
+    "repos": 51,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "abduznik/git-alchemist",
     "agents-x-project/PyVision-RL",
@@ -38,7 +38,6 @@
     "cuiziteng/Luminance-GS",
     "cvat-ai/datumaro",
     "Embarcadero/PythonEnvironments",
-    "enjoy-digital/liteiclink",
     "FindDefinition/cumm",
     "fla-org/flash-bidirectional-linear-attention",
     "foldl/AlphaGeometryRE",
@@ -49,8 +48,8 @@
     "Han-Cao/collapse-bubble",
     "imlrz/DeepResearch-Bench-II",
     "inducer/codepy",
-    "inducer/genpy",
     "liran-funaro/sphinx-markdown-builder",
+    "nousresearch/tinker-atropos",
     "philippemerle/AWS-CloudFormation-Diagrams",
     "PoseLib/posebench",
     "rdb/panda3d-thirdparty",

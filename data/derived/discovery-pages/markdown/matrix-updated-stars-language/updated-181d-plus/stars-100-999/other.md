@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 952
+- repos: 951
 - terms: 2970
 - components: 2195
 - concepts: 2986
@@ -434,7 +434,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rsmdt/yell](https://github.com/rsmdt/yell) | 311 | 2024-08-17T03:15:49Z | Other | Library | 0 | 0 | 0 | 0 |
 | [geekodour/wscribe-editor](https://github.com/geekodour/wscribe-editor) | 146 | 2024-08-16T07:04:16Z | Other | Web app | 0 | 19 | 0 | 0 |
 | [bigcode-project/bigcode-dataset](https://github.com/bigcode-project/bigcode-dataset) | 492 | 2024-08-15T13:42:30Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [facebookresearch/playtorch](https://github.com/facebookresearch/playtorch) | 830 | 2024-08-15T08:23:06Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [facebookresearch/playtorch](https://github.com/facebookresearch/playtorch) | 831 | 2024-08-15T08:23:06Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [fwcd/kotlin-debug-adapter](https://github.com/fwcd/kotlin-debug-adapter) | 149 | 2024-08-13T16:42:06Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [johmsalas/text-case.nvim](https://github.com/johmsalas/text-case.nvim) | 554 | 2024-08-07T21:02:23Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [OptimalScale/DetGPT](https://github.com/OptimalScale/DetGPT) | 787 | 2024-08-07T14:49:11Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -549,7 +549,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [scala-interop/slinc](https://github.com/scala-interop/slinc) | 112 | 2024-02-29T12:27:10Z | Other | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [Clemapfel/Mousetrap.jl](https://github.com/Clemapfel/Mousetrap.jl) | 457 | 2024-02-28T14:54:55Z | Other | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [petercorke/spatialmath-matlab](https://github.com/petercorke/spatialmath-matlab) | 221 | 2024-02-27T21:05:58Z | Other | Unknown | 9 | 0 | 9 | 9 |
-| [bennyxguo/Obsidian-Obsidianite](https://github.com/bennyxguo/Obsidian-Obsidianite) | 371 | 2024-02-26T17:42:12Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [bennyxguo/Obsidian-Obsidianite](https://github.com/bennyxguo/Obsidian-Obsidianite) | 372 | 2024-02-26T17:42:12Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dapphub/ds-test](https://github.com/dapphub/ds-test) | 234 | 2024-02-22T23:25:21Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [project-everest/vale](https://github.com/project-everest/vale) | 307 | 2024-02-22T22:45:28Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [segeljakt/vim-silicon](https://github.com/segeljakt/vim-silicon) | 414 | 2024-02-19T10:04:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -977,7 +977,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jakeheis/Ice](https://github.com/jakeheis/Ice) | 387 | 2021-05-31T04:25:00Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [safwank/Numerix](https://github.com/safwank/Numerix) | 192 | 2021-05-30T22:44:10Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [TuSimple/tusimple-benchmark](https://github.com/TuSimple/tusimple-benchmark) | 591 | 2021-05-28T18:08:53Z | Other | Model/data | 0 | 0 | 0 | 0 |
-| [xolox/vim-misc](https://github.com/xolox/vim-misc) | 363 | 2021-05-22T15:22:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -1043,7 +1042,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cncf/tag-app-delivery](https://github.com/cncf/tag-app-delivery) | 833 | 2025-09-09T15:33:20Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [Azure-Samples/azure-search-openai-demo-csharp](https://github.com/Azure-Samples/azure-search-openai-demo-csharp) | 833 | 2025-07-29T20:22:37Z | Other | Infrastructure/tooling | 11 | 9 | 11 | 11 |
 | [princeton-vl/lietorch](https://github.com/princeton-vl/lietorch) | 831 | 2025-05-10T03:09:41Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [facebookresearch/playtorch](https://github.com/facebookresearch/playtorch) | 830 | 2024-08-15T08:23:06Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [facebookresearch/playtorch](https://github.com/facebookresearch/playtorch) | 831 | 2024-08-15T08:23:06Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [LambdaLabsML/examples](https://github.com/LambdaLabsML/examples) | 828 | 2024-10-18T05:13:31Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [isl-org/lang-seg](https://github.com/isl-org/lang-seg) | 827 | 2024-12-18T16:24:18Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [sicmutils/sicmutils](https://github.com/sicmutils/sicmutils) | 822 | 2025-06-18T13:30:25Z | Other | Infrastructure/tooling | 14 | 16 | 14 | 14 |
@@ -1372,10 +1371,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [processing/processing-docs](https://github.com/processing/processing-docs) | 374 | 2023-01-09T13:12:50Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [jdanielmourao/obsidian-sanctum](https://github.com/jdanielmourao/obsidian-sanctum) | 373 | 2024-08-04T11:35:13Z | Other | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [bokkypoobah/BokkyPooBahsDateTimeLibrary](https://github.com/bokkypoobah/BokkyPooBahsDateTimeLibrary) | 373 | 2022-08-05T09:08:43Z | Other | Library | 4 | 0 | 4 | 4 |
+| [bennyxguo/Obsidian-Obsidianite](https://github.com/bennyxguo/Obsidian-Obsidianite) | 372 | 2024-02-26T17:42:12Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [nimterop/nimterop](https://github.com/nimterop/nimterop) | 372 | 2023-04-03T18:20:41Z | Other | Library | 4 | 0 | 4 | 4 |
 | [wjdp/htmltest](https://github.com/wjdp/htmltest) | 371 | 2025-01-20T23:29:27Z | Other | CLI | 7 | 10 | 7 | 7 |
 | [v-iashin/SpecVQGAN](https://github.com/v-iashin/SpecVQGAN) | 371 | 2024-07-12T09:05:58Z | Other | Infrastructure/tooling | 13 | 0 | 13 | 13 |
-| [bennyxguo/Obsidian-Obsidianite](https://github.com/bennyxguo/Obsidian-Obsidianite) | 371 | 2024-02-26T17:42:12Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/mastering-github-copilot-for-dotnet-csharp-developers](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers) | 369 | 2025-10-24T08:53:05Z | Other | Infrastructure/tooling | 18 | 4 | 18 | 18 |
 | [Tangshitao/QuadTreeAttention](https://github.com/Tangshitao/QuadTreeAttention) | 368 | 2024-04-23T06:29:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [fab13n/metalua](https://github.com/fab13n/metalua) | 368 | 2024-01-16T11:00:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1386,7 +1385,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [filecoin-project/specs](https://github.com/filecoin-project/specs) | 364 | 2025-07-10T07:01:00Z | Other | Infrastructure/tooling | 4 | 32 | 4 | 4 |
 | [microsoft/onnxruntime-training-examples](https://github.com/microsoft/onnxruntime-training-examples) | 364 | 2024-10-23T17:45:38Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [espressif/esp-idf-template](https://github.com/espressif/esp-idf-template) | 363 | 2022-04-30T12:35:48Z | Other | Template/starter | 0 | 0 | 0 | 0 |
-| [xolox/vim-misc](https://github.com/xolox/vim-misc) | 363 | 2021-05-22T15:22:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [storopoli/Bayesian-Statistics](https://github.com/storopoli/Bayesian-Statistics) | 362 | 2025-11-01T00:06:45Z | Other | Infrastructure/tooling | 13 | 6 | 13 | 13 |
 | [catppuccin/vim](https://github.com/catppuccin/vim) | 362 | 2025-08-11T21:46:00Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [jllllll/bitsandbytes-windows-webui](https://github.com/jllllll/bitsandbytes-windows-webui) | 361 | 2023-11-18T15:40:24Z | Other | Infrastructure/tooling | 4 | 9 | 4 | 4 |

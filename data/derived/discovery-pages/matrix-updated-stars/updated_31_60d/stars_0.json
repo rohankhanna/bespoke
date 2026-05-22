@@ -1,19 +1,20 @@
 {
   "counts": {
-    "components": 873,
-    "concepts": 288,
-    "observations": 289,
+    "components": 893,
+    "concepts": 301,
+    "observations": 302,
     "repos": 213,
-    "terms": 320
+    "terms": 333
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "8144225309/lightning",
+    "8144225309/superscalar-cln",
     "8144225309/superscalar-docs",
     "8144225309/superscalar-wallet",
     "9romise/eslint-config",
@@ -152,7 +153,9 @@
     "gerardtschanz/revenue-os",
     "gopi2211/ralph",
     "grubersjoe/react-activity-calendar-tests",
+    "guoqingbao/candle",
     "gyf0311/lorekit",
+    "hauntsaninja/mypy",
     "hermit-os/safe-mmio",
     "hyper-mcp-rs/arxiv-plugin",
     "hyper-mcp-rs/crates-io-plugin",
@@ -172,8 +175,6 @@
     "JuliaBinaryWrappers/Libuuid_jll.jl",
     "kayabaNerve/monero-oxide",
     "kdn36/arrow-rs-object-store",
-    "kdubbo/api",
-    "kdubbo/client-go",
     "kidshadow79/ogma",
     "l12203685/digital-immortality",
     "lakekeeper/nats.rs",
@@ -190,7 +191,6 @@
     "neuroverseos/negotiator",
     "nibir1/vaultsim",
     "Patrick-ring-motive/sval-rhino-gs",
-    "petercorke/sphinx-autorun",
     "PetervanLunteren/EcoAssist-metadata",
     "piebald-ai/piebald",
     "piqrypt/piqrypt-mcp-server",

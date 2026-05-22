@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11906,
-    "concepts": 5294,
-    "observations": 5304,
+    "components": 11895,
+    "concepts": 5288,
+    "observations": 5298,
     "repos": 2371,
-    "terms": 5313
+    "terms": 5307
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0b01/tigris-and-euphrates",
@@ -1712,7 +1712,6 @@
     "momentique/source-code-security-audit-reviewer",
     "moojink/dlimp_openvla",
     "MosheBerman/KosherCocoa",
-    "mozilla-ai/otari",
     "mozilla-ai/tinyagent",
     "mozilla-mobile/fxios-ctl",
     "mozilla/midir",
@@ -1986,6 +1985,7 @@
     "rexthinker/rexthinker.github.io",
     "rexwangcc/taichi-voxel-challenge",
     "reZach/easy-redux-undo",
+    "rhgrossman/pyctcdecode_demo",
     "rhoban/maple",
     "rhysd/ss",
     "richgel999/junkdrawer",
@@ -2242,7 +2242,7 @@
     "Triang-jyed-driung/Albatross",
     "triton-inference-server/contrib",
     "triton-inference-server/TensorRT-LLM",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "trufflesecurity/test_keys",
     "tuananh/hyper-mcp",
     "turbofish-org/abci2",

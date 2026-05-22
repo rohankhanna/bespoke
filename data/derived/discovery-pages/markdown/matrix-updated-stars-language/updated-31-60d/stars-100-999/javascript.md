@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 124
-- terms: 581
-- components: 2140
-- concepts: 550
-- observations: 555
+- repos: 129
+- terms: 599
+- components: 2225
+- concepts: 568
+- observations: 573
 
 ## Static behavior
 
@@ -26,6 +26,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [actions/create-github-app-token](https://github.com/actions/create-github-app-token) | 790 | 2026-04-21T16:56:11Z | JavaScript | Infrastructure/tooling | 8 | 15 | 8 | 8 |
+| [postcss/postcss-js](https://github.com/postcss/postcss-js) | 669 | 2026-04-21T15:52:22Z | JavaScript | Infrastructure/tooling | 2 | 12 | 2 | 2 |
+| [postcss/sugarss](https://github.com/postcss/sugarss) | 719 | 2026-04-21T15:35:27Z | JavaScript | Infrastructure/tooling | 2 | 10 | 2 | 2 |
+| [browserslist/update-db](https://github.com/browserslist/update-db) | 769 | 2026-04-21T15:32:34Z | JavaScript | CLI | 2 | 17 | 2 | 2 |
+| [conda-forge/conda-forge.github.io](https://github.com/conda-forge/conda-forge.github.io) | 166 | 2026-04-21T13:32:22Z | JavaScript | Infrastructure/tooling | 4 | 31 | 4 | 4 |
 | [unicode-org/message-format-wg](https://github.com/unicode-org/message-format-wg) | 418 | 2026-04-21T12:11:42Z | JavaScript | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [Taritsyn/BundleTransformer](https://github.com/Taritsyn/BundleTransformer) | 139 | 2026-04-21T09:26:36Z | JavaScript | Framework | 0 | 0 | 0 | 0 |
 | [higlass/higlass](https://github.com/higlass/higlass) | 340 | 2026-04-21T03:35:34Z | JavaScript | Infrastructure/tooling | 7 | 89 | 7 | 7 |
@@ -169,21 +174,25 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [thejoshwolfe/yauzl](https://github.com/thejoshwolfe/yauzl) | 801 | 2026-04-01T11:46:55Z | JavaScript | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [dwyl/hapi-auth-jwt2](https://github.com/dwyl/hapi-auth-jwt2) | 796 | 2026-04-02T23:29:17Z | JavaScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
 | [browserify/resolve](https://github.com/browserify/resolve) | 793 | 2026-04-13T04:29:25Z | JavaScript | Infrastructure/tooling | 12 | 36 | 12 | 12 |
+| [actions/create-github-app-token](https://github.com/actions/create-github-app-token) | 790 | 2026-04-21T16:56:11Z | JavaScript | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 | [gruntjs/grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin) | 790 | 2026-03-25T21:51:57Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [fgnass/domino](https://github.com/fgnass/domino) | 787 | 2026-03-26T17:09:50Z | JavaScript | Service/API | 0 | 4 | 0 | 0 |
 | [coderaiser/putout](https://github.com/coderaiser/putout) | 784 | 2026-04-19T10:43:58Z | JavaScript | Infrastructure/tooling | 20 | 18 | 20 | 20 |
 | [dwyl/javascript-todo-list-tutorial](https://github.com/dwyl/javascript-todo-list-tutorial) | 782 | 2026-04-01T20:26:49Z | JavaScript | Infrastructure/tooling | 14 | 11 | 14 | 14 |
 | [karma-runner/karma-coverage](https://github.com/karma-runner/karma-coverage) | 770 | 2026-04-15T03:14:59Z | JavaScript | Infrastructure/tooling | 2 | 40 | 2 | 2 |
+| [browserslist/update-db](https://github.com/browserslist/update-db) | 769 | 2026-04-21T15:32:34Z | JavaScript | CLI | 2 | 17 | 2 | 2 |
 | [npm/rfcs](https://github.com/npm/rfcs) | 767 | 2026-03-24T15:01:35Z | JavaScript | CLI | 11 | 7 | 11 | 11 |
 | [agent-sh/agentsys](https://github.com/agent-sh/agentsys) | 743 | 2026-04-15T08:43:46Z | JavaScript | CLI | 18 | 12 | 0 | 0 |
 | [fastify/fastify-cli](https://github.com/fastify/fastify-cli) | 723 | 2026-04-08T18:56:09Z | JavaScript | CLI | 5 | 37 | 5 | 5 |
 | [muratcankoylan/ralph-wiggum-marketer](https://github.com/muratcankoylan/ralph-wiggum-marketer) | 721 | 2026-04-09T14:00:57Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |
 | [markdown-it/linkify-it](https://github.com/markdown-it/linkify-it) | 720 | 2026-03-26T14:27:31Z | JavaScript | Infrastructure/tooling | 0 | 18 | 0 | 0 |
+| [postcss/sugarss](https://github.com/postcss/sugarss) | 719 | 2026-04-21T15:35:27Z | JavaScript | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [ehmicky/nve](https://github.com/ehmicky/nve) | 711 | 2026-04-11T15:03:10Z | JavaScript | CLI | 14 | 22 | 16 | 16 |
 | [gruntjs/grunt-contrib-connect](https://github.com/gruntjs/grunt-contrib-connect) | 709 | 2026-04-07T03:36:11Z | JavaScript | Infrastructure/tooling | 1 | 15 | 1 | 1 |
 | [cjoudrey/graphql-schema-linter](https://github.com/cjoudrey/graphql-schema-linter) | 705 | 2026-04-08T20:42:43Z | JavaScript | Unknown | 2 | 14 | 2 | 2 |
 | [mourner/kdbush](https://github.com/mourner/kdbush) | 698 | 2026-03-30T00:53:02Z | JavaScript | Infrastructure/tooling | 5 | 7 | 6 | 6 |
 | [nodejs/TSC](https://github.com/nodejs/TSC) | 678 | 2026-04-15T11:25:17Z | JavaScript | Infrastructure/tooling | 5 | 3 | 5 | 5 |
+| [postcss/postcss-js](https://github.com/postcss/postcss-js) | 669 | 2026-04-21T15:52:22Z | JavaScript | Infrastructure/tooling | 2 | 12 | 2 | 2 |
 | [Atheos/Atheos](https://github.com/Atheos/Atheos) | 665 | 2026-04-07T15:25:03Z | JavaScript | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [w3c/trusted-types](https://github.com/w3c/trusted-types) | 660 | 2026-04-15T21:38:20Z | JavaScript | Infrastructure/tooling | 4 | 28 | 4 | 4 |
 | [zone-eu/zone-mta](https://github.com/zone-eu/zone-mta) | 659 | 2026-04-09T07:58:57Z | JavaScript | Infrastructure/tooling | 2 | 41 | 2 | 2 |
@@ -261,6 +270,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apify/awesome-skills](https://github.com/apify/awesome-skills) | 174 | 2026-04-07T08:14:23Z | JavaScript | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [appium/appium-ios-device](https://github.com/appium/appium-ios-device) | 171 | 2026-04-17T17:21:02Z | JavaScript | Infrastructure/tooling | 3 | 29 | 3 | 3 |
 | [npm/abbrev-js](https://github.com/npm/abbrev-js) | 167 | 2026-03-23T15:38:30Z | JavaScript | CLI | 8 | 11 | 8 | 8 |
+| [conda-forge/conda-forge.github.io](https://github.com/conda-forge/conda-forge.github.io) | 166 | 2026-04-21T13:32:22Z | JavaScript | Infrastructure/tooling | 4 | 31 | 4 | 4 |
 | [Level/abstract-level](https://github.com/Level/abstract-level) | 163 | 2026-04-01T02:31:54Z | JavaScript | Infrastructure/tooling | 6 | 26 | 6 | 6 |
 | [fastify/example](https://github.com/fastify/example) | 150 | 2026-04-08T18:56:37Z | JavaScript | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [bmad-code-org/bmad-module-game-dev-studio](https://github.com/bmad-code-org/bmad-module-game-dev-studio) | 144 | 2026-04-15T02:37:49Z | JavaScript | Infrastructure/tooling | 4 | 36 | 4 | 4 |

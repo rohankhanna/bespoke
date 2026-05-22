@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · C/C++
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 19
-- terms: 80
-- components: 158
-- concepts: 80
-- observations: 80
+- repos: 20
+- terms: 101
+- components: 182
+- concepts: 102
+- observations: 102
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [stdlib-js/complex-float64-ctor](https://github.com/stdlib-js/complex-float64-ctor) | 1 | 2026-04-22T03:34:11Z | C/C++ | Infrastructure/tooling | 21 | 24 | 22 | 22 |
 | [CHIP-SPV/H4I-MKLShim](https://github.com/CHIP-SPV/H4I-MKLShim) | 1 | 2026-04-21T09:14:19Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [0xPolygonHermez/pil2-proofman-js](https://github.com/0xPolygonHermez/pil2-proofman-js) | 3 | 2026-04-20T17:33:33Z | C/C++ | Unknown | 0 | 14 | 0 | 0 |
 | [stdlib-js/complex-float32-ctor](https://github.com/stdlib-js/complex-float32-ctor) | 1 | 2026-04-20T01:34:52Z | C/C++ | Infrastructure/tooling | 22 | 24 | 23 | 23 |
@@ -64,6 +65,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rapidsai/rapids-logger](https://github.com/rapidsai/rapids-logger) | 2 | 2026-04-16T17:38:34Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [Asmod4n/mruby-fast-json](https://github.com/Asmod4n/mruby-fast-json) | 2 | 2026-04-04T16:05:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [meelgroup/louvain-community](https://github.com/meelgroup/louvain-community) | 2 | 2026-04-01T22:22:47Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
+| [stdlib-js/complex-float64-ctor](https://github.com/stdlib-js/complex-float64-ctor) | 1 | 2026-04-22T03:34:11Z | C/C++ | Infrastructure/tooling | 21 | 24 | 22 | 22 |
 | [CHIP-SPV/H4I-MKLShim](https://github.com/CHIP-SPV/H4I-MKLShim) | 1 | 2026-04-21T09:14:19Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [stdlib-js/complex-float32-ctor](https://github.com/stdlib-js/complex-float32-ctor) | 1 | 2026-04-20T01:34:52Z | C/C++ | Infrastructure/tooling | 22 | 24 | 23 | 23 |
 | [gbrobro119-star/darksword-kexploit](https://github.com/gbrobro119-star/darksword-kexploit) | 1 | 2026-04-19T12:37:45Z | C/C++ | Unknown | 1 | 0 | 0 | 0 |

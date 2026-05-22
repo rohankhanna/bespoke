@@ -3,14 +3,14 @@
     "components": 26320,
     "concepts": 22665,
     "observations": 22737,
-    "repos": 5614,
+    "repos": 5613,
     "terms": 22608
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -5550,7 +5550,6 @@
     "xledger/pod_sql_server",
     "xledger/pod_tsql_scriptdom",
     "xmake-io/xmake",
-    "xolox/vim-misc",
     "xolox/vim-session",
     "xoofx/CppAst.NET",
     "xoofx/markdig",

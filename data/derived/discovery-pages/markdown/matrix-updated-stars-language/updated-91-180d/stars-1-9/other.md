@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 57
-- terms: 94
-- components: 190
-- concepts: 93
-- observations: 93
+- repos: 55
+- terms: 87
+- components: 186
+- concepts: 86
+- observations: 86
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [empriselab/kortex_description](https://github.com/empriselab/kortex_description) | 2 | 2026-02-20T16:26:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [objectbox/objectbox-swift-generator](https://github.com/objectbox/objectbox-swift-generator) | 7 | 2026-02-19T23:43:53Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [ihmcrobotics/ihmc-build](https://github.com/ihmcrobotics/ihmc-build) | 4 | 2026-02-19T18:17:29Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [usnistgov/libhdf5-wasm](https://github.com/usnistgov/libhdf5-wasm) | 9 | 2026-02-16T19:15:13Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -80,9 +81,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ocaml-opam/opam-rt](https://github.com/ocaml-opam/opam-rt) | 8 | 2025-11-25T18:13:06Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [JuliaML/MLCore.jl](https://github.com/JuliaML/MLCore.jl) | 3 | 2025-11-24T13:47:21Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [KSXGitHub/aur-packages-builder](https://github.com/KSXGitHub/aur-packages-builder) | 6 | 2025-11-24T08:39:57Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [jtdaugherty/vty-crossplatform](https://github.com/jtdaugherty/vty-crossplatform) | 4 | 2025-11-22T23:42:43Z | Other | Library | 0 | 0 | 0 | 0 |
-| [nelson-lang/module_skeleton_basic](https://github.com/nelson-lang/module_skeleton_basic) | 1 | 2025-11-22T19:31:19Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [nelson-lang/module_skeleton](https://github.com/nelson-lang/module_skeleton) | 2 | 2025-11-22T19:01:18Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -119,7 +117,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [elixir-makeup/makeup_erlang](https://github.com/elixir-makeup/makeup_erlang) | 4 | 2026-01-18T16:20:48Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [ahrefs/opam-check-npm-deps](https://github.com/ahrefs/opam-check-npm-deps) | 4 | 2025-12-24T03:18:43Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [adamharrison/quetta](https://github.com/adamharrison/quetta) | 4 | 2025-12-06T21:25:14Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
-| [jtdaugherty/vty-crossplatform](https://github.com/jtdaugherty/vty-crossplatform) | 4 | 2025-11-22T23:42:43Z | Other | Library | 0 | 0 | 0 | 0 |
 | [haya14busa/github-used-by](https://github.com/haya14busa/github-used-by) | 3 | 2026-02-08T07:33:49Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [volodya-lombrozo/neotest-ruby-minitest](https://github.com/volodya-lombrozo/neotest-ruby-minitest) | 3 | 2026-01-15T13:58:25Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [jgpc42/jmh-clojure-task](https://github.com/jgpc42/jmh-clojure-task) | 3 | 2026-01-10T20:20:51Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -129,12 +126,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [OutlierDetectionJL/OutlierDetectionNeighbors.jl](https://github.com/OutlierDetectionJL/OutlierDetectionNeighbors.jl) | 3 | 2025-12-03T13:46:41Z | Other | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [atrodo/WebGPU-Direct](https://github.com/atrodo/WebGPU-Direct) | 3 | 2025-11-26T05:19:53Z | Other | Service/API | 5 | 0 | 5 | 5 |
 | [JuliaML/MLCore.jl](https://github.com/JuliaML/MLCore.jl) | 3 | 2025-11-24T13:47:21Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
+| [empriselab/kortex_description](https://github.com/empriselab/kortex_description) | 2 | 2026-02-20T16:26:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/libcxxwrap_julia_jll.jl](https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl) | 2 | 2026-02-07T12:31:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [erwin-kok/multiformat](https://github.com/erwin-kok/multiformat) | 2 | 2026-01-17T09:39:25Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [joeldrapper/dispersion](https://github.com/joeldrapper/dispersion) | 2 | 2026-01-16T15:56:23Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [heshengtao/sap-ai-drawio](https://github.com/heshengtao/sap-ai-drawio) | 2 | 2026-01-02T17:10:42Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [mirage/coin](https://github.com/mirage/coin) | 2 | 2025-11-29T10:18:49Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [nelson-lang/module_skeleton](https://github.com/nelson-lang/module_skeleton) | 2 | 2025-11-22T19:01:18Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [Jumziey/neotest-nix-unit.nvim](https://github.com/Jumziey/neotest-nix-unit.nvim) | 1 | 2026-02-08T22:22:52Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [hchiam/learning-ngrok](https://github.com/hchiam/learning-ngrok) | 1 | 2026-02-03T20:40:38Z | Other | Unknown | 0 | 5 | 0 | 0 |
 | [URUWorks/UW_BlurayPGSParser](https://github.com/URUWorks/UW_BlurayPGSParser) | 1 | 2026-02-01T19:46:28Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -144,4 +141,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [saddam213/OnnxStack](https://github.com/saddam213/OnnxStack) | 1 | 2025-12-09T20:35:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [slunsford/coffee-analytics](https://github.com/slunsford/coffee-analytics) | 1 | 2025-11-27T01:50:12Z | Other | Infrastructure/tooling | 2 | 5 | 0 | 0 |
 | [datachainlab/lcp-solidity](https://github.com/datachainlab/lcp-solidity) | 1 | 2025-11-26T11:45:44Z | Other | Infrastructure/tooling | 1 | 12 | 1 | 1 |
-| [nelson-lang/module_skeleton_basic](https://github.com/nelson-lang/module_skeleton_basic) | 1 | 2025-11-22T19:31:19Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |

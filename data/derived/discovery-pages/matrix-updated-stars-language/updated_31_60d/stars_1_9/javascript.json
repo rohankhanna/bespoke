@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 889,
-    "concepts": 566,
-    "observations": 566,
-    "repos": 60,
-    "terms": 568
+    "components": 907,
+    "concepts": 586,
+    "observations": 586,
+    "repos": 61,
+    "terms": 587
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
     "agent-sh/can-i-help",
-    "agent-sh/deslop",
     "agent-sh/drift-detect",
     "agent-sh/enhance",
     "agent-sh/next-task",
@@ -55,6 +54,7 @@
     "Level/supports",
     "Level/transcoder",
     "poolifier/tatami-ng",
+    "recap-utr/arg-services",
     "seunghunbae-3svs/solo-cto-agent",
     "stdlib-js/array-buffer",
     "stdlib-js/array-complex128",
@@ -64,6 +64,7 @@
     "stdlib-js/array-typed-dtypes",
     "stdlib-js/complex-cmplx",
     "stdlib-js/complex-float32-reviver",
+    "stdlib-js/complex-float64-reviver",
     "stdlib-js/ndarray-array",
     "stdlib-js/ndarray-dtype",
     "stdlib-js/ndarray-dtypes",

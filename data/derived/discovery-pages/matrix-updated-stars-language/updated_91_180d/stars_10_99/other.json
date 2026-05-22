@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 397,
-    "concepts": 289,
-    "observations": 290,
-    "repos": 118,
-    "terms": 288
+    "components": 400,
+    "concepts": 290,
+    "observations": 291,
+    "repos": 119,
+    "terms": 289
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/termim.nvim",
@@ -102,6 +102,7 @@
     "nelson-lang/nelson-website",
     "NielsRogge/tutorials",
     "NorfairKing/feedback",
+    "ocaml-opam/opam-publish",
     "ochorocho/franken-typo3",
     "OutlierDetectionJL/OutlierDetection.jl",
     "padreati/rapaio-jupyter-kernel",

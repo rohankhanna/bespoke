@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1094,
-    "concepts": 937,
-    "observations": 941,
-    "repos": 129,
-    "terms": 935
+    "components": 1062,
+    "concepts": 919,
+    "observations": 923,
+    "repos": 125,
+    "terms": 917
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "2dust/AndroidLibXrayLite",
     "a2aproject/a2a-go",
@@ -22,7 +22,6 @@
     "aliyun/aliyun-cli",
     "apache/dubbo-go-hessian2",
     "apache/dubbo-go-samples",
-    "apache/dubbo-kubernetes",
     "apache/iceberg-go",
     "apache/pulsar-client-go",
     "aquasecurity/trivy-db",
@@ -62,6 +61,7 @@
     "dgraph-io/dgraph-benchmarks",
     "docker/model-runner",
     "dydxprotocol/v4-chain",
+    "energye/energy",
     "ethereum/hive",
     "fnproject/cli",
     "go-git/go-billy",
@@ -78,7 +78,6 @@
     "gookit/slog",
     "grafana/grafana-plugin-sdk-go",
     "hashicorp/terraform-plugin-framework",
-    "hashicorp/terraform-plugin-sdk",
     "helmfile/vals",
     "huaweicloud/huaweicloud-sdk-go-v3",
     "hybridgroup/yzma",
@@ -90,9 +89,7 @@
     "itzg/mc-monitor",
     "itzg/mc-router",
     "Kong/deck",
-    "kube-rbac-proxy/kube-rbac-proxy",
     "kubecfg/kubecfg",
-    "kubernetes-sigs/custom-metrics-apiserver",
     "kubernetes-sigs/dra-driver-nvidia-gpu",
     "kubernetes-sigs/karpenter-provider-cluster-api",
     "kubernetes-sigs/lws",
@@ -104,11 +101,9 @@
     "maragudk/gomponents-starter-kit",
     "mattn/go-isatty",
     "microsoft/dcp",
-    "monitoring-mixins/mixtool",
     "moul/gotty-client",
     "OffchainLabs/nitro",
     "openshift/enhancements",
-    "opentofu/registry",
     "operator-framework/operator-registry",
     "oracle/oci-go-sdk",
     "osmosis-labs/osmosis",
@@ -130,7 +125,6 @@
     "seaweedfs/seaweedfs-operator",
     "sergelogvinov/karpenter-provider-proxmox",
     "sergelogvinov/proxmox-cloud-controller-manager",
-    "sethvargo/ratchet",
     "sigstore/fulcio",
     "snowflakedb/gosnowflake",
     "suzuki-shunsuke/ghalint",
@@ -138,10 +132,12 @@
     "suzuki-shunsuke/pinact",
     "sylabs/singularity",
     "theupdateframework/go-tuf",
+    "toml-lang/toml-test",
     "trzsz/tsshd",
     "usbarmory/go-boot",
     "web-infra-dev/rslint",
     "web-platform-tests/wpt.fyi",
+    "yaling888/quirktiva",
     "yaml/go-yaml"
   ]
 }

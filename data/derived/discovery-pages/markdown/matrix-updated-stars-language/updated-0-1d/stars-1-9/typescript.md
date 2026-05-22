@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1 to 9 stars · TypeScript
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [Venly/web3-react-venly](https://github.com/Venly/web3-react-venly) | 1 | 2026-05-21T10:53:40Z | TypeScript | Infrastructure/tooling | 5 | 7 | 5 | 5 |
+| [Venly/web3-react-venly](https://github.com/Venly/web3-react-venly) | 1 | 2026-05-21T10:55:35Z | TypeScript | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [Venly/web3-react-venly](https://github.com/Venly/web3-react-venly) | 1 | 2026-05-21T10:53:40Z | TypeScript | Infrastructure/tooling | 5 | 7 | 5 | 5 |
+| [Venly/web3-react-venly](https://github.com/Venly/web3-react-venly) | 1 | 2026-05-21T10:55:35Z | TypeScript | Infrastructure/tooling | 5 | 7 | 5 | 5 |

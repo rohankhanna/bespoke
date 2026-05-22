@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Unknown
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 21
-- terms: 56
-- components: 37
-- concepts: 56
-- observations: 56
+- repos: 24
+- terms: 68
+- components: 40
+- concepts: 68
+- observations: 68
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust) | 7820 | 2026-04-22T02:59:34Z | Unknown | Infrastructure/tooling | 7 | 3 | 7 | 7 |
+| [rust-embedded/wg](https://github.com/rust-embedded/wg) | 2122 | 2026-04-21T19:12:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) | 1578 | 2026-04-21T15:27:19Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [alchaincyf/zhangxuefeng-skill](https://github.com/alchaincyf/zhangxuefeng-skill) | 6316 | 2026-04-21T05:28:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [godotengine/awesome-godot](https://github.com/godotengine/awesome-godot) | 9864 | 2026-04-20T21:01:20Z | Unknown | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [ratatui/awesome-ratatui](https://github.com/ratatui/awesome-ratatui) | 1651 | 2026-04-20T19:04:52Z | Unknown | Infrastructure/tooling | 5 | 3 | 5 | 5 |
@@ -40,7 +43,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [FuelLabs/fuel-specs](https://github.com/FuelLabs/fuel-specs) | 1785 | 2026-04-14T08:54:16Z | Unknown | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [libp2p/libp2p](https://github.com/libp2p/libp2p) | 3026 | 2026-04-11T11:19:19Z | Unknown | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [skills-directory/skill-codex](https://github.com/skills-directory/skill-codex) | 1170 | 2026-04-10T08:15:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [macfuse/macfuse](https://github.com/macfuse/macfuse) | 9665 | 2026-04-09T14:11:41Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
+| [macfuse/macfuse](https://github.com/macfuse/macfuse) | 9666 | 2026-04-09T14:11:41Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [esbatmop/MNBVC](https://github.com/esbatmop/MNBVC) | 4173 | 2026-04-06T13:06:53Z | Unknown | Unknown | 6 | 0 | 6 | 6 |
 | [behisecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) | 8594 | 2026-04-01T08:24:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [bbatsov/emacs-lisp-style-guide](https://github.com/bbatsov/emacs-lisp-style-guide) | 1129 | 2026-03-31T12:31:44Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
@@ -54,8 +57,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [godotengine/awesome-godot](https://github.com/godotengine/awesome-godot) | 9864 | 2026-04-20T21:01:20Z | Unknown | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [FasterXML/jackson](https://github.com/FasterXML/jackson) | 9705 | 2026-04-19T23:22:28Z | Unknown | Unknown | 2 | 0 | 4 | 4 |
-| [macfuse/macfuse](https://github.com/macfuse/macfuse) | 9665 | 2026-04-09T14:11:41Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
+| [macfuse/macfuse](https://github.com/macfuse/macfuse) | 9666 | 2026-04-09T14:11:41Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [behisecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) | 8594 | 2026-04-01T08:24:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust) | 7820 | 2026-04-22T02:59:34Z | Unknown | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [pditommaso/awesome-pipeline](https://github.com/pditommaso/awesome-pipeline) | 6569 | 2026-04-17T09:32:07Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [shuaibiyy/awesome-tf](https://github.com/shuaibiyy/awesome-tf) | 6361 | 2026-04-20T07:52:26Z | Unknown | Infrastructure/tooling | 8 | 0 | 8 | 8 |
 | [alchaincyf/zhangxuefeng-skill](https://github.com/alchaincyf/zhangxuefeng-skill) | 6316 | 2026-04-21T05:28:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -65,10 +69,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [android/skills](https://github.com/android/skills) | 3477 | 2026-04-17T09:28:34Z | Unknown | Infrastructure/tooling | 2 | 1 | 0 | 0 |
 | [libp2p/libp2p](https://github.com/libp2p/libp2p) | 3026 | 2026-04-11T11:19:19Z | Unknown | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [MicrosoftDocs/WSL](https://github.com/MicrosoftDocs/WSL) | 2294 | 2026-04-16T17:23:01Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [rust-embedded/wg](https://github.com/rust-embedded/wg) | 2122 | 2026-04-21T19:12:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/vscode-ai-toolkit](https://github.com/microsoft/vscode-ai-toolkit) | 1958 | 2026-03-24T08:24:41Z | Unknown | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [FuelLabs/fuel-specs](https://github.com/FuelLabs/fuel-specs) | 1785 | 2026-04-14T08:54:16Z | Unknown | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [libp2p/specs](https://github.com/libp2p/specs) | 1764 | 2026-04-15T17:38:36Z | Unknown | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [ratatui/awesome-ratatui](https://github.com/ratatui/awesome-ratatui) | 1651 | 2026-04-20T19:04:52Z | Unknown | Infrastructure/tooling | 5 | 3 | 5 | 5 |
+| [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) | 1578 | 2026-04-21T15:27:19Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [skills-directory/skill-codex](https://github.com/skills-directory/skill-codex) | 1170 | 2026-04-10T08:15:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [bbatsov/emacs-lisp-style-guide](https://github.com/bbatsov/emacs-lisp-style-guide) | 1129 | 2026-03-31T12:31:44Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [WebAssembly/proposals](https://github.com/WebAssembly/proposals) | 1124 | 2026-03-24T18:25:27Z | Unknown | Unknown | 1 | 0 | 1 | 1 |

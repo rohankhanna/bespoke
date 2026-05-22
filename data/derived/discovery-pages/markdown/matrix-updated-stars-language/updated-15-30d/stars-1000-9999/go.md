@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 165
-- terms: 1606
-- components: 1620
-- concepts: 1610
-- observations: 1619
+- repos: 149
+- terms: 1476
+- components: 1505
+- concepts: 1480
+- observations: 1489
 
 ## Static behavior
 
@@ -175,22 +175,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [klauspost/pgzip](https://github.com/klauspost/pgzip) | 1192 | 2026-04-22T08:41:12Z | Go | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [moby/buildkit](https://github.com/moby/buildkit) | 9916 | 2026-04-22T08:16:33Z | Go | Infrastructure/tooling | 13 | 19 | 13 | 14 |
 | [apache/dubbo-go](https://github.com/apache/dubbo-go) | 4916 | 2026-04-22T06:28:57Z | Go | Infrastructure/tooling | 5 | 9 | 5 | 5 |
-| [google/go-containerregistry](https://github.com/google/go-containerregistry) | 3832 | 2026-04-22T02:34:20Z | Go | CLI | 12 | 9 | 12 | 12 |
-| [eryajf/chatgpt-dingtalk](https://github.com/eryajf/chatgpt-dingtalk) | 2115 | 2026-04-22T01:50:29Z | Go | Infrastructure/tooling | 13 | 14 | 13 | 13 |
-| [osrg/gobgp](https://github.com/osrg/gobgp) | 4036 | 2026-04-22T01:44:22Z | Go | Infrastructure/tooling | 1 | 6 | 1 | 1 |
-| [dlclark/regexp2](https://github.com/dlclark/regexp2) | 1164 | 2026-04-22T01:28:10Z | Go | Unknown | 5 | 0 | 5 | 5 |
-| [ethereum-optimism/optimism](https://github.com/ethereum-optimism/optimism) | 6414 | 2026-04-22T01:11:27Z | Go | Infrastructure/tooling | 7 | 4 | 7 | 7 |
-| [aws/amazon-ecs-agent](https://github.com/aws/amazon-ecs-agent) | 2153 | 2026-04-21T22:23:37Z | Go | Infrastructure/tooling | 10 | 3 | 10 | 10 |
-| [containers/buildah](https://github.com/containers/buildah) | 8746 | 2026-04-21T21:35:51Z | Go | Infrastructure/tooling | 9 | 5 | 9 | 9 |
-| [openshift/installer](https://github.com/openshift/installer) | 1541 | 2026-04-21T20:17:15Z | Go | Unknown | 0 | 0 | 0 | 0 |
-| [caddyserver/certmagic](https://github.com/caddyserver/certmagic) | 5536 | 2026-04-21T20:11:53Z | Go | Infrastructure/tooling | 7 | 2 | 7 | 7 |
-| [elastic/go-elasticsearch](https://github.com/elastic/go-elasticsearch) | 6042 | 2026-04-21T18:21:01Z | Go | CLI | 11 | 11 | 11 | 11 |
-| [cncf/toc](https://github.com/cncf/toc) | 1835 | 2026-04-21T18:17:52Z | Go | Infrastructure/tooling | 8 | 7 | 8 | 8 |
-| [cortexproject/cortex](https://github.com/cortexproject/cortex) | 5785 | 2026-04-21T16:15:42Z | Go | Infrastructure/tooling | 8 | 14 | 8 | 8 |
-| [int128/kubelogin](https://github.com/int128/kubelogin) | 2267 | 2026-04-21T15:03:51Z | Go | Infrastructure/tooling | 11 | 13 | 11 | 11 |
-| [aws/aws-node-termination-handler](https://github.com/aws/aws-node-termination-handler) | 1750 | 2026-04-21T14:05:46Z | Go | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [cloudfoundry/cli](https://github.com/cloudfoundry/cli) | 1911 | 2026-04-21T13:02:04Z | Go | CLI | 11 | 16 | 11 | 11 |
-| [prometheus-operator/prometheus-operator](https://github.com/prometheus-operator/prometheus-operator) | 9901 | 2026-04-21T12:42:51Z | Go | Infrastructure/tooling | 10 | 4 | 10 | 10 |
 
 ## Repos sorted by stars
 
@@ -198,7 +182,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [go-swagger/go-swagger](https://github.com/go-swagger/go-swagger) | 9973 | 2026-04-24T16:34:32Z | Go | Infrastructure/tooling | 11 | 14 | 11 | 11 |
 | [moby/buildkit](https://github.com/moby/buildkit) | 9916 | 2026-04-22T08:16:33Z | Go | Infrastructure/tooling | 13 | 19 | 13 | 14 |
-| [prometheus-operator/prometheus-operator](https://github.com/prometheus-operator/prometheus-operator) | 9901 | 2026-04-21T12:42:51Z | Go | Infrastructure/tooling | 10 | 4 | 10 | 10 |
 | [kubernetes/client-go](https://github.com/kubernetes/client-go) | 9802 | 2026-04-23T03:38:26Z | Go | CLI | 1 | 0 | 1 | 1 |
 | [tilt-dev/tilt](https://github.com/tilt-dev/tilt) | 9667 | 2026-04-24T20:18:03Z | Go | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [tidwall/tile38](https://github.com/tidwall/tile38) | 9627 | 2026-04-24T20:09:52Z | Go | Infrastructure/tooling | 6 | 2 | 6 | 6 |
@@ -210,7 +193,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kubernetes-sigs/external-dns](https://github.com/kubernetes-sigs/external-dns) | 8913 | 2026-04-22T18:57:54Z | Go | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 | [kubernetes/autoscaler](https://github.com/kubernetes/autoscaler) | 8828 | 2026-04-23T18:35:14Z | Go | Infrastructure/tooling | 6 | 9 | 6 | 8 |
 | [securego/gosec](https://github.com/securego/gosec) | 8804 | 2026-04-28T07:32:42Z | Go | Infrastructure/tooling | 9 | 18 | 9 | 9 |
-| [containers/buildah](https://github.com/containers/buildah) | 8746 | 2026-04-21T21:35:51Z | Go | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [miekg/dns](https://github.com/miekg/dns) | 8678 | 2026-05-01T20:56:11Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [openshift/origin](https://github.com/openshift/origin) | 8647 | 2026-04-29T23:46:21Z | Go | Infrastructure/tooling | 11 | 0 | 11 | 11 |
 | [prometheus/alertmanager](https://github.com/prometheus/alertmanager) | 8447 | 2026-04-29T17:32:31Z | Go | Infrastructure/tooling | 15 | 13 | 15 | 15 |
@@ -232,23 +214,19 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [elazarl/goproxy](https://github.com/elazarl/goproxy) | 6671 | 2026-04-30T16:50:49Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [external-secrets/external-secrets](https://github.com/external-secrets/external-secrets) | 6577 | 2026-04-28T11:12:29Z | Go | Infrastructure/tooling | 11 | 14 | 11 | 11 |
 | [opencost/opencost](https://github.com/opencost/opencost) | 6517 | 2026-04-29T19:35:16Z | Go | Infrastructure/tooling | 16 | 15 | 16 | 16 |
-| [ethereum-optimism/optimism](https://github.com/ethereum-optimism/optimism) | 6414 | 2026-04-22T01:11:27Z | Go | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [bfenetworks/bfe](https://github.com/bfenetworks/bfe) | 6241 | 2026-04-27T05:25:10Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [actions/actions-runner-controller](https://github.com/actions/actions-runner-controller) | 6189 | 2026-04-23T13:48:32Z | Go | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [google/syzkaller](https://github.com/google/syzkaller) | 6136 | 2026-04-23T17:35:02Z | Go | Infrastructure/tooling | 12 | 12 | 12 | 12 |
-| [elastic/go-elasticsearch](https://github.com/elastic/go-elasticsearch) | 6042 | 2026-04-21T18:21:01Z | Go | CLI | 11 | 11 | 11 | 11 |
 | [knative/serving](https://github.com/knative/serving) | 6037 | 2026-04-23T12:45:19Z | Go | Infrastructure/tooling | 18 | 15 | 18 | 18 |
 | [anacrolix/torrent](https://github.com/anacrolix/torrent) | 6012 | 2026-04-23T05:30:21Z | Go | CLI | 7 | 6 | 7 | 7 |
 | [sysadminsmedia/homebox](https://github.com/sysadminsmedia/homebox) | 5988 | 2026-04-28T23:32:04Z | Go | Infrastructure/tooling | 12 | 17 | 12 | 12 |
 | [Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip) | 5964 | 2026-05-02T13:55:40Z | Go | Infrastructure/tooling | 20 | 2 | 20 | 20 |
 | [prometheus/client_golang](https://github.com/prometheus/client_golang) | 5943 | 2026-04-22T18:06:50Z | Go | Infrastructure/tooling | 6 | 13 | 6 | 6 |
 | [cockroachdb/pebble](https://github.com/cockroachdb/pebble) | 5871 | 2026-04-30T03:45:09Z | Go | Infrastructure/tooling | 6 | 10 | 6 | 6 |
-| [cortexproject/cortex](https://github.com/cortexproject/cortex) | 5785 | 2026-04-21T16:15:42Z | Go | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [letsencrypt/boulder](https://github.com/letsencrypt/boulder) | 5701 | 2026-05-05T00:00:42Z | Go | Infrastructure/tooling | 10 | 6 | 10 | 10 |
 | [buger/jsonparser](https://github.com/buger/jsonparser) | 5611 | 2026-04-29T05:50:48Z | Go | Infrastructure/tooling | 4 | 7 | 6 | 6 |
 | [cri-o/cri-o](https://github.com/cri-o/cri-o) | 5601 | 2026-04-23T00:27:48Z | Go | Infrastructure/tooling | 16 | 13 | 16 | 16 |
 | [dundee/gdu](https://github.com/dundee/gdu) | 5592 | 2026-04-29T21:42:42Z | Go | CLI | 9 | 12 | 9 | 9 |
-| [caddyserver/certmagic](https://github.com/caddyserver/certmagic) | 5536 | 2026-04-21T20:11:53Z | Go | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [umputun/remark42](https://github.com/umputun/remark42) | 5486 | 2026-05-01T21:52:28Z | Go | Infrastructure/tooling | 13 | 13 | 13 | 13 |
 | [kserve/kserve](https://github.com/kserve/kserve) | 5400 | 2026-04-29T20:45:22Z | Go | Infrastructure/tooling | 25 | 12 | 25 | 25 |
 | [ory/keto](https://github.com/ory/keto) | 5326 | 2026-04-29T14:40:37Z | Go | Infrastructure/tooling | 18 | 33 | 18 | 18 |
@@ -265,10 +243,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [open-policy-agent/gatekeeper](https://github.com/open-policy-agent/gatekeeper) | 4205 | 2026-04-28T21:06:23Z | Go | Infrastructure/tooling | 16 | 11 | 16 | 16 |
 | [kubernetes-sigs/cluster-api](https://github.com/kubernetes-sigs/cluster-api) | 4198 | 2026-04-30T20:11:24Z | Go | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [apache/dubbo-admin](https://github.com/apache/dubbo-admin) | 4049 | 2026-04-22T23:48:33Z | Go | Infrastructure/tooling | 7 | 8 | 7 | 7 |
-| [osrg/gobgp](https://github.com/osrg/gobgp) | 4036 | 2026-04-22T01:44:22Z | Go | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [kubernetes/test-infra](https://github.com/kubernetes/test-infra) | 4004 | 2026-04-23T08:22:46Z | Go | Unknown | 1 | 29 | 1 | 1 |
 | [connectrpc/connect-go](https://github.com/connectrpc/connect-go) | 3868 | 2026-04-23T14:55:47Z | Go | Infrastructure/tooling | 6 | 4 | 6 | 6 |
-| [google/go-containerregistry](https://github.com/google/go-containerregistry) | 3832 | 2026-04-22T02:34:20Z | Go | CLI | 12 | 9 | 12 | 12 |
 | [mostlygeek/llama-swap](https://github.com/mostlygeek/llama-swap) | 3760 | 2026-05-01T02:51:45Z | Go | Infrastructure/tooling | 14 | 14 | 14 | 14 |
 | [NVIDIA/k8s-device-plugin](https://github.com/NVIDIA/k8s-device-plugin) | 3738 | 2026-05-01T20:14:42Z | Go | Infrastructure/tooling | 9 | 14 | 9 | 9 |
 | [google/trillian](https://github.com/google/trillian) | 3723 | 2026-04-23T09:00:25Z | Go | Infrastructure/tooling | 8 | 11 | 8 | 8 |
@@ -308,22 +284,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [onsi/gomega](https://github.com/onsi/gomega) | 2336 | 2026-04-29T01:02:39Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [spiffe/spire](https://github.com/spiffe/spire) | 2330 | 2026-04-29T16:04:22Z | Go | Infrastructure/tooling | 7 | 14 | 7 | 7 |
 | [kubeovn/kube-ovn](https://github.com/kubeovn/kube-ovn) | 2323 | 2026-05-02T14:13:08Z | Go | Infrastructure/tooling | 13 | 17 | 13 | 13 |
-| [int128/kubelogin](https://github.com/int128/kubelogin) | 2267 | 2026-04-21T15:03:51Z | Go | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 | [pion/turn](https://github.com/pion/turn) | 2200 | 2026-05-01T01:48:56Z | Go | CLI | 17 | 8 | 17 | 17 |
 | [akvorado/akvorado](https://github.com/akvorado/akvorado) | 2185 | 2026-04-29T20:05:53Z | Go | CLI | 10 | 13 | 10 | 10 |
 | [supabase/cli](https://github.com/supabase/cli) | 2180 | 2026-05-02T03:25:36Z | Go | CLI | 14 | 17 | 14 | 14 |
-| [aws/amazon-ecs-agent](https://github.com/aws/amazon-ecs-agent) | 2153 | 2026-04-21T22:23:37Z | Go | Infrastructure/tooling | 10 | 3 | 10 | 10 |
-| [eryajf/chatgpt-dingtalk](https://github.com/eryajf/chatgpt-dingtalk) | 2115 | 2026-04-22T01:50:29Z | Go | Infrastructure/tooling | 13 | 14 | 13 | 13 |
 | [kubeflow/trainer](https://github.com/kubeflow/trainer) | 2095 | 2026-04-30T15:01:16Z | Go | Infrastructure/tooling | 18 | 8 | 18 | 18 |
 | [dghubble/gologin](https://github.com/dghubble/gologin) | 1953 | 2026-04-26T04:21:28Z | Go | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [usbarmory/tamago](https://github.com/usbarmory/tamago) | 1928 | 2026-04-30T13:17:15Z | Go | Unknown | 0 | 0 | 0 | 0 |
-| [cloudfoundry/cli](https://github.com/cloudfoundry/cli) | 1911 | 2026-04-21T13:02:04Z | Go | CLI | 11 | 16 | 11 | 11 |
 | [bradfitz/gomemcache](https://github.com/bradfitz/gomemcache) | 1868 | 2026-04-22T23:20:11Z | Go | CLI | 4 | 2 | 4 | 4 |
 | [operator-framework/operator-lifecycle-manager](https://github.com/operator-framework/operator-lifecycle-manager) | 1853 | 2026-04-29T15:43:57Z | Go | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [aquasecurity/trivy-operator](https://github.com/aquasecurity/trivy-operator) | 1851 | 2026-04-22T16:15:23Z | Go | Infrastructure/tooling | 18 | 25 | 18 | 18 |
-| [cncf/toc](https://github.com/cncf/toc) | 1835 | 2026-04-21T18:17:52Z | Go | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [maragudk/gomponents](https://github.com/maragudk/gomponents) | 1821 | 2026-04-29T12:40:42Z | Go | Infrastructure/tooling | 3 | 4 | 3 | 3 |
-| [aws/aws-node-termination-handler](https://github.com/aws/aws-node-termination-handler) | 1750 | 2026-04-21T14:05:46Z | Go | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [Consensys/gnark](https://github.com/Consensys/gnark) | 1707 | 2026-04-27T03:12:59Z | Go | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [apache/incubator-seata-go](https://github.com/apache/incubator-seata-go) | 1705 | 2026-04-22T11:23:33Z | Go | Infrastructure/tooling | 9 | 12 | 9 | 9 |
 | [envoyproxy/go-control-plane](https://github.com/envoyproxy/go-control-plane) | 1689 | 2026-04-23T14:46:16Z | Go | Infrastructure/tooling | 5 | 9 | 5 | 5 |
@@ -333,7 +303,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chainguard-dev/apko](https://github.com/chainguard-dev/apko) | 1593 | 2026-04-23T19:45:33Z | Go | Infrastructure/tooling | 9 | 13 | 9 | 9 |
 | [gookit/color](https://github.com/gookit/color) | 1584 | 2026-05-01T15:13:20Z | Go | CLI | 16 | 7 | 17 | 17 |
 | [envoyproxy/ai-gateway](https://github.com/envoyproxy/ai-gateway) | 1569 | 2026-04-29T13:15:14Z | Go | Infrastructure/tooling | 12 | 13 | 12 | 12 |
-| [openshift/installer](https://github.com/openshift/installer) | 1541 | 2026-04-21T20:17:15Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [knative/eventing](https://github.com/knative/eventing) | 1540 | 2026-04-23T11:01:15Z | Go | Infrastructure/tooling | 16 | 13 | 16 | 16 |
 | [containerd/stargz-snapshotter](https://github.com/containerd/stargz-snapshotter) | 1530 | 2026-04-22T21:07:45Z | Go | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [digitalocean/godo](https://github.com/digitalocean/godo) | 1530 | 2026-04-22T10:50:35Z | Go | CLI | 4 | 5 | 4 | 4 |
@@ -349,7 +318,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [auth0/go-jwt-middleware](https://github.com/auth0/go-jwt-middleware) | 1201 | 2026-04-29T15:36:48Z | Go | Infrastructure/tooling | 6 | 8 | 6 | 7 |
 | [kubernetes-sigs/sig-storage-local-static-provisioner](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner) | 1192 | 2026-04-28T03:22:47Z | Go | Infrastructure/tooling | 7 | 11 | 7 | 7 |
 | [klauspost/pgzip](https://github.com/klauspost/pgzip) | 1192 | 2026-04-22T08:41:12Z | Go | Infrastructure/tooling | 1 | 6 | 1 | 1 |
-| [dlclark/regexp2](https://github.com/dlclark/regexp2) | 1164 | 2026-04-22T01:28:10Z | Go | Unknown | 5 | 0 | 5 | 5 |
 | [gookit/validate](https://github.com/gookit/validate) | 1128 | 2026-05-05T02:27:40Z | Go | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [apache/apisix-ingress-controller](https://github.com/apache/apisix-ingress-controller) | 1127 | 2026-04-27T10:18:53Z | Go | Infrastructure/tooling | 17 | 9 | 17 | 17 |
 | [google/certificate-transparency-go](https://github.com/google/certificate-transparency-go) | 1124 | 2026-04-23T08:45:16Z | Go | Infrastructure/tooling | 4 | 10 | 4 | 4 |

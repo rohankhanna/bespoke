@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 69
+- repos: 70
 - terms: 288
 - components: 183
 - concepts: 293
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mlc-ai/tokenizers-cpp](https://github.com/mlc-ai/tokenizers-cpp) | 484 | 2026-02-20T22:55:39Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [devkitPro/libctru](https://github.com/devkitPro/libctru) | 925 | 2026-02-19T17:23:39Z | C/C++ | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [jsk-ros-pkg/jsk_visualization](https://github.com/jsk-ros-pkg/jsk_visualization) | 357 | 2026-02-18T07:25:38Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [arminbiere/aiger](https://github.com/arminbiere/aiger) | 101 | 2026-02-17T12:49:07Z | C/C++ | Library | 0 | 0 | 0 | 0 |
@@ -119,6 +120,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [avaneev/lzav](https://github.com/avaneev/lzav) | 526 | 2026-01-27T03:04:06Z | C/C++ | Unknown | 16 | 0 | 16 | 16 |
 | [beached/daw_json_link](https://github.com/beached/daw_json_link) | 503 | 2026-02-16T21:46:19Z | C/C++ | Infrastructure/tooling | 11 | 6 | 14 | 14 |
 | [mit-han-lab/Block-Sparse-Attention](https://github.com/mit-han-lab/Block-Sparse-Attention) | 502 | 2026-01-18T02:55:56Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |
+| [mlc-ai/tokenizers-cpp](https://github.com/mlc-ai/tokenizers-cpp) | 484 | 2026-02-20T22:55:39Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ParRes/Kernels](https://github.com/ParRes/Kernels) | 473 | 2026-01-27T21:53:40Z | C/C++ | Infrastructure/tooling | 16 | 1 | 16 | 16 |
 | [nonstd-lite/string-view-lite](https://github.com/nonstd-lite/string-view-lite) | 469 | 2025-11-28T19:57:17Z | C/C++ | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [bdwgc/libatomic_ops](https://github.com/bdwgc/libatomic_ops) | 447 | 2026-01-22T19:30:17Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |

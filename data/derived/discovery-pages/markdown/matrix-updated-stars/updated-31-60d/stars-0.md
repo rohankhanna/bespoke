@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -12,10 +12,10 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 ## Counts
 
 - repos: 213
-- terms: 320
-- components: 873
-- concepts: 288
-- observations: 289
+- terms: 333
+- components: 893
+- concepts: 301
+- observations: 302
 
 ## Static behavior
 
@@ -25,6 +25,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hauntsaninja/mypy](https://github.com/hauntsaninja/mypy) | 0 | 2026-04-22T04:46:56Z | Python | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [guoqingbao/candle](https://github.com/guoqingbao/candle) | 0 | 2026-04-21T15:17:12Z | Rust | Infrastructure/tooling | 4 | 14 | 4 | 4 |
+| [8144225309/superscalar-cln](https://github.com/8144225309/superscalar-cln) | 0 | 2026-04-21T15:01:50Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [danielrosehill/Backup-Planner](https://github.com/danielrosehill/Backup-Planner) | 0 | 2026-04-21T11:48:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/adb-ops-plugin](https://github.com/danielrosehill/adb-ops-plugin) | 0 | 2026-04-21T11:44:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Code-Bugs-And-FRs](https://github.com/danielrosehill/Claude-Code-Bugs-And-FRs) | 0 | 2026-04-21T11:02:04Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
@@ -235,14 +238,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Hebrew-Tech-Vocab](https://github.com/danielrosehill/Hebrew-Tech-Vocab) | 0 | 2026-03-24T17:27:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Nambers/ssrJSON-benchmark](https://github.com/Nambers/ssrJSON-benchmark) | 0 | 2026-03-23T20:11:45Z | Python | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [Systemcluster/tokenizer-bench](https://github.com/Systemcluster/tokenizer-bench) | 0 | 2026-03-23T18:30:29Z | Python | Model/data | 3 | 0 | 3 | 3 |
-| [petercorke/sphinx-autorun](https://github.com/petercorke/sphinx-autorun) | 0 | 2026-03-23T04:45:12Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
-| [kdubbo/client-go](https://github.com/kdubbo/client-go) | 0 | 2026-03-22T20:05:55Z | Other | CLI | 0 | 0 | 0 | 0 |
-| [kdubbo/api](https://github.com/kdubbo/api) | 0 | 2026-03-22T19:21:06Z | Go | Service/API | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hauntsaninja/mypy](https://github.com/hauntsaninja/mypy) | 0 | 2026-04-22T04:46:56Z | Python | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [guoqingbao/candle](https://github.com/guoqingbao/candle) | 0 | 2026-04-21T15:17:12Z | Rust | Infrastructure/tooling | 4 | 14 | 4 | 4 |
+| [8144225309/superscalar-cln](https://github.com/8144225309/superscalar-cln) | 0 | 2026-04-21T15:01:50Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [danielrosehill/Backup-Planner](https://github.com/danielrosehill/Backup-Planner) | 0 | 2026-04-21T11:48:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/adb-ops-plugin](https://github.com/danielrosehill/adb-ops-plugin) | 0 | 2026-04-21T11:44:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Code-Bugs-And-FRs](https://github.com/danielrosehill/Claude-Code-Bugs-And-FRs) | 0 | 2026-04-21T11:02:04Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
@@ -453,6 +456,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Hebrew-Tech-Vocab](https://github.com/danielrosehill/Hebrew-Tech-Vocab) | 0 | 2026-03-24T17:27:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Nambers/ssrJSON-benchmark](https://github.com/Nambers/ssrJSON-benchmark) | 0 | 2026-03-23T20:11:45Z | Python | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [Systemcluster/tokenizer-bench](https://github.com/Systemcluster/tokenizer-bench) | 0 | 2026-03-23T18:30:29Z | Python | Model/data | 3 | 0 | 3 | 3 |
-| [petercorke/sphinx-autorun](https://github.com/petercorke/sphinx-autorun) | 0 | 2026-03-23T04:45:12Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
-| [kdubbo/client-go](https://github.com/kdubbo/client-go) | 0 | 2026-03-22T20:05:55Z | Other | CLI | 0 | 0 | 0 | 0 |
-| [kdubbo/api](https://github.com/kdubbo/api) | 0 | 2026-03-22T19:21:06Z | Go | Service/API | 0 | 0 | 0 | 0 |

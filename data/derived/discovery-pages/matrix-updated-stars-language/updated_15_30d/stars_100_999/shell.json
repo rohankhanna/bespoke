@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 182,
-    "concepts": 229,
-    "observations": 232,
-    "repos": 42,
-    "terms": 223
+    "components": 164,
+    "concepts": 212,
+    "observations": 214,
+    "repos": 38,
+    "terms": 205
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "2KAbhishek/dots2k",
     "alexmyczko/fnt",
@@ -22,7 +22,6 @@
     "Chocolate4U/Iran-v2ray-rules",
     "cloudfoundry/bosh-deployment",
     "dani-garcia/bw_web_builds",
-    "denysdovhan/dotfiles",
     "gentoo/guru",
     "getsolus/packages",
     "harbor-framework/terminal-bench-2",
@@ -41,20 +40,17 @@
     "mozilla/addons",
     "msys2/msys2-installer",
     "NVIDIA/enroot",
-    "opea-project/GenAIExamples",
     "openshift/release",
     "pacstall/pacstall-programs",
     "pion/awesome-pion",
-    "reviewdog/action-shellcheck",
-    "reviewdog/action-suggester",
     "rocker-org/rocker-versioned2",
     "rust-cross/rust-musl-cross",
-    "sclorg/s2i-nodejs-container",
     "sclorg/s2i-php-container",
     "sclorg/s2i-python-container",
     "termux/repology-metadata",
     "tinted-theming/schemes",
     "tonistiigi/xx",
+    "TypedDevs/bashunit",
     "ungoogled-software/ungoogled-chromium-archlinux"
   ]
 }

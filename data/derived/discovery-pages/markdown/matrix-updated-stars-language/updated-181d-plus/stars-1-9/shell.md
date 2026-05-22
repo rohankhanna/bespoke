@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Shell
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 46
-- terms: 98
-- components: 60
-- concepts: 104
-- observations: 105
+- repos: 47
+- terms: 101
+- components: 67
+- concepts: 107
+- observations: 108
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [deiga/nodenv-default-npmrc](https://github.com/deiga/nodenv-default-npmrc) | 1 | 2025-11-22T14:27:53Z | Shell | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [lite-xl/lite-xl-build-box](https://github.com/lite-xl/lite-xl-build-box) | 7 | 2025-11-19T21:43:47Z | Shell | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [Bioconductor/bioc2u](https://github.com/Bioconductor/bioc2u) | 5 | 2025-11-06T01:42:39Z | Shell | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [danielrosehill/AI-Developer-Notebook](https://github.com/danielrosehill/AI-Developer-Notebook) | 1 | 2025-10-25T23:51:04Z | Shell | Unknown | 4 | 0 | 4 | 4 |
@@ -69,7 +70,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jinfeihan57/p7zip_test_utils](https://github.com/jinfeihan57/p7zip_test_utils) | 3 | 2022-08-21T13:13:05Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [rigellute/scoop-bucket](https://github.com/Rigellute/scoop-bucket) | 7 | 2022-04-08T14:58:32Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [hayguen/pffft_benchmarks](https://github.com/hayguen/pffft_benchmarks) | 3 | 2022-01-19T21:46:00Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [TritonDataCenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
+| [tritondatacenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
 | [marcoonroad/cuid](https://github.com/marcoonroad/cuid) | 1 | 2021-08-13T23:30:19Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 | [junkblocker/calibre-zaw-source](https://github.com/junkblocker/calibre-zaw-source) | 4 | 2021-06-15T13:20:42Z | Shell | Unknown | 5 | 0 | 5 | 5 |
 
@@ -85,7 +86,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [to4iki/ai-project-rules](https://github.com/to4iki/ai-project-rules) | 7 | 2025-04-24T16:18:24Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [2KAbhishek/git-sync](https://github.com/2KAbhishek/git-sync) | 7 | 2024-12-15T06:10:05Z | Shell | Unknown | 6 | 0 | 6 | 6 |
 | [rigellute/scoop-bucket](https://github.com/Rigellute/scoop-bucket) | 7 | 2022-04-08T14:58:32Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [TritonDataCenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
+| [tritondatacenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
 | [christgau/wsdd-gentoo](https://github.com/christgau/wsdd-gentoo) | 6 | 2025-05-12T19:13:29Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [containerd/project-checks](https://github.com/containerd/project-checks) | 6 | 2025-03-04T14:18:11Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [mathew-fleisch/asdf-semver](https://github.com/mathew-fleisch/asdf-semver) | 6 | 2024-02-26T01:52:17Z | Shell | Infrastructure/tooling | 3 | 4 | 3 | 3 |
@@ -109,6 +110,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Kong/official-images](https://github.com/Kong/official-images) | 2 | 2025-06-05T09:11:09Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [dotenvx/heroku-buildpack-dotenvx](https://github.com/dotenvx/heroku-buildpack-dotenvx) | 2 | 2024-06-14T02:46:39Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [jandamm/zgenom-ext-release](https://github.com/jandamm/zgenom-ext-release) | 2 | 2023-05-04T21:13:29Z | Shell | Unknown | 3 | 0 | 4 | 4 |
+| [deiga/nodenv-default-npmrc](https://github.com/deiga/nodenv-default-npmrc) | 1 | 2025-11-22T14:27:53Z | Shell | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [danielrosehill/AI-Developer-Notebook](https://github.com/danielrosehill/AI-Developer-Notebook) | 1 | 2025-10-25T23:51:04Z | Shell | Unknown | 4 | 0 | 4 | 4 |
 | [danielrosehill/bash-alias-manager-claude](https://github.com/danielrosehill/Bash-Alias-Manager-Claude) | 1 | 2025-10-25T22:56:35Z | Shell | Unknown | 1 | 0 | 2 | 2 |
 | [aws-samples/sample-vllm-on-eks-with-dlc](https://github.com/aws-samples/sample-vllm-on-eks-with-dlc) | 1 | 2025-10-01T19:58:46Z | Shell | Unknown | 0 | 0 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 17
-- components: 7
-- concepts: 17
-- observations: 17
+- repos: 1
+- terms: 16
+- components: 3
+- concepts: 16
+- observations: 16
 
 ## Static behavior
 
@@ -27,11 +27,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [edge-classic/EDGE-classic](https://github.com/edge-classic/EDGE-classic) | 97 | 2026-05-18T19:46:48Z | C/C++ | Infrastructure/tooling | 16 | 3 | 16 | 16 |
-| [diffscope/diffscope-project](https://github.com/diffscope/diffscope-project) | 19 | 2026-05-14T18:08:39Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [edge-classic/EDGE-classic](https://github.com/edge-classic/EDGE-classic) | 97 | 2026-05-18T19:46:48Z | C/C++ | Infrastructure/tooling | 16 | 3 | 16 | 16 |
-| [diffscope/diffscope-project](https://github.com/diffscope/diffscope-project) | 19 | 2026-05-14T18:08:39Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |

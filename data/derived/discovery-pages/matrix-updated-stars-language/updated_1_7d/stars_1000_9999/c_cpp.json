@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 141,
-    "concepts": 150,
-    "observations": 151,
-    "repos": 15,
-    "terms": 150
+    "components": 132,
+    "concepts": 152,
+    "observations": 153,
+    "repos": 13,
+    "terms": 151
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
+    "AdaptiveCpp/AdaptiveCpp",
     "doctest/doctest",
     "free-audio/clap",
-    "google/oboe",
     "harfbuzz/harfbuzz",
     "iree-org/iree",
-    "KhronosGroup/KTX-Software",
-    "Mithril-mine/libmdbx",
-    "PortAudio/portaudio",
-    "pure-data/pure-data",
+    "luau-lang/luau",
     "riscv-collab/riscv-gnu-toolchain",
+    "swiftlang/swift-llbuild",
     "ufbx/ufbx",
     "ultrajson/ultrajson",
     "uxlfoundation/oneDNN",

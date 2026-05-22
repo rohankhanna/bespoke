@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 411,
-    "concepts": 236,
-    "observations": 238,
-    "repos": 63,
-    "terms": 250
+    "components": 426,
+    "concepts": 246,
+    "observations": 248,
+    "repos": 66,
+    "terms": 260
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -29,6 +29,7 @@
     "Calsign/gazelle_rust",
     "celestiaorg/hana",
     "chrisjsewell/markdown-it-pyrs",
+    "ClickHouse/clickhousectl",
     "cloudllm-ai/mentisdb",
     "cometbft/cometbft-rs",
     "cpmech/gemlab",
@@ -60,6 +61,7 @@
     "near/cargo-near",
     "near/near-workspaces-rs",
     "neysofu/reltester",
+    "nico-abram/blondie",
     "open-telemetry/opentelemetry-rust-contrib",
     "phiat/claude-esp-rs",
     "psmux/omp-manager",
@@ -73,6 +75,7 @@
     "tombelieber/claude-view",
     "tracel-ai/burn-bench",
     "tracel-ai/burn-onnx",
+    "tracel-ai/cubek",
     "watchexec/clearscreen",
     "watchexec/process-wrap",
     "Xuanwo/serde-env",

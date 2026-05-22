@@ -3,14 +3,14 @@
     "components": 9532,
     "concepts": 11424,
     "observations": 11452,
-    "repos": 2367,
-    "terms": 11331
+    "repos": 2366,
+    "terms": 11330
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0ldsk00l/nestopia",
@@ -460,7 +460,6 @@
     "cjlin1/libmf",
     "ckb-next/ckb-next",
     "clab/fast_align",
-    "CLD2Owners/cld2",
     "clearml/dropbear",
     "Clemapfel/mousetrap",
     "Clemapfel/mousetrap_julia_binding",

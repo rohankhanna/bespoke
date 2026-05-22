@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 158,
-    "concepts": 80,
-    "observations": 80,
-    "repos": 19,
-    "terms": 80
+    "components": 182,
+    "concepts": 102,
+    "observations": 102,
+    "repos": 20,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "amir684/esp32c3-red-alert",
@@ -32,6 +32,7 @@
     "openssh/openssh-portable-selfhosted",
     "rapidsai/rapids-logger",
     "stdlib-js/complex-float32-ctor",
+    "stdlib-js/complex-float64-ctor",
     "stdlib-js/ndarray-ctor"
   ]
 }

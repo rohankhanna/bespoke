@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars · Rust
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
+- repos: 9
 - terms: 20
-- components: 51
+- components: 54
 - concepts: 20
 - observations: 20
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [typstyle-rs/prettyless](https://github.com/typstyle-rs/prettyless) | 0 | 2026-02-20T13:55:19Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [bgw/bincode](https://github.com/bgw/bincode) | 0 | 2026-02-11T10:45:28Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [EspressoSystems/jellyfish-compat](https://github.com/EspressoSystems/jellyfish-compat) | 0 | 2026-02-10T11:15:09Z | Rust | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [kylebarron/pyo3-file](https://github.com/kylebarron/pyo3-file) | 0 | 2026-02-09T19:31:43Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -39,6 +40,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [typstyle-rs/prettyless](https://github.com/typstyle-rs/prettyless) | 0 | 2026-02-20T13:55:19Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [bgw/bincode](https://github.com/bgw/bincode) | 0 | 2026-02-11T10:45:28Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [EspressoSystems/jellyfish-compat](https://github.com/EspressoSystems/jellyfish-compat) | 0 | 2026-02-10T11:15:09Z | Rust | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [kylebarron/pyo3-file](https://github.com/kylebarron/pyo3-file) | 0 | 2026-02-09T19:31:43Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |

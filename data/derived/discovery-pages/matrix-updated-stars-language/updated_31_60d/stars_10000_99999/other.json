@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 794,
-    "concepts": 414,
-    "observations": 418,
-    "repos": 54,
-    "terms": 413
+    "components": 858,
+    "concepts": 491,
+    "observations": 495,
+    "repos": 64,
+    "terms": 490
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "adambard/learnxinyminutes-docs",
     "Alamofire/Alamofire",
@@ -25,14 +25,19 @@
     "cmderdev/cmder",
     "composer/composer",
     "Cysharp/UniTask",
+    "dart-lang/sdk",
     "devicons/devicon",
+    "dotnet/core",
+    "dotnet/eShop",
     "facebookresearch/dinov2",
     "facebookresearch/dinov3",
     "facebookresearch/sam2",
     "fastai/fastai",
     "fatih/vim-go",
     "ghostty-org/ghostty",
+    "google-deepmind/deepmind-research",
     "google-gemini/gemini-fullstack-langgraph-quickstart",
+    "google-research/google-research",
     "google/dopamine",
     "google/styleguide",
     "guidance-ai/guidance",
@@ -50,10 +55,14 @@
     "Kong/kong",
     "kubernetes/community",
     "LazyVim/LazyVim",
+    "llvm/llvm-project",
     "metabase/metabase",
     "microsoft/language-server-protocol",
     "microsoft/OmniParser",
+    "microsoft/semantic-kernel",
+    "microsoft/vcpkg",
     "mikepenz/MaterialDrawer",
+    "neovim/neovim",
     "NielsRogge/Transformers-Tutorials",
     "nikitabobko/AeroSpace",
     "nvim-treesitter/nvim-treesitter",
@@ -65,6 +74,7 @@
     "SaschaWillems/Vulkan",
     "Seldaek/monolog",
     "semgrep/semgrep",
+    "Solido/awesome-flutter",
     "teamcapybara/capybara",
     "tmuxinator/tmuxinator",
     "tonsky/FiraCode"

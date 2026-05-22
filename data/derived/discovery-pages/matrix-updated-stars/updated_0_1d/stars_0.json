@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 15,
+    "components": 0,
     "concepts": 0,
     "observations": 0,
     "repos": 1,
@@ -11,8 +11,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-20T08:54:03.798798+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
-    "locize/locize-i18next-vue-example"
+    "kleisauke/glib"
   ]
 }

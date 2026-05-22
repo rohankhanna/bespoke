@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 82
-- terms: 102
-- components: 255
-- concepts: 102
-- observations: 102
+- repos: 83
+- terms: 99
+- components: 260
+- concepts: 99
+- observations: 99
 
 ## Static behavior
 
@@ -25,6 +25,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mjvolk3/dendron-template](https://github.com/Mjvolk3/Dendron-Template) | 0 | 2026-02-20T15:48:17Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
+| [typstyle-rs/prettyless](https://github.com/typstyle-rs/prettyless) | 0 | 2026-02-20T13:55:19Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [AdaCore/vss-text](https://github.com/AdaCore/vss-text) | 0 | 2026-02-16T11:03:35Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [kitknox/helix](https://github.com/kitknox/helix) | 0 | 2026-02-16T05:27:20Z | Unknown | Infrastructure/tooling | 4 | 12 | 4 | 4 |
 | [CADindustries/container](https://github.com/CADindustries/container) | 0 | 2026-02-13T06:46:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -106,12 +108,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [KSXGitHub/aur-packages-builder-2](https://github.com/KSXGitHub/aur-packages-builder-2) | 0 | 2025-11-24T12:27:23Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [KSXGitHub/aur-packages-builder-1](https://github.com/KSXGitHub/aur-packages-builder-1) | 0 | 2025-11-24T12:27:18Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [rasahq/pytest-sanic](https://github.com/RasaHQ/pytest-sanic) | 0 | 2025-11-24T12:02:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [smallscientist1/tilelang](https://github.com/smallscientist1/tilelang) | 0 | 2025-11-22T13:10:37Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mjvolk3/dendron-template](https://github.com/Mjvolk3/Dendron-Template) | 0 | 2026-02-20T15:48:17Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
+| [typstyle-rs/prettyless](https://github.com/typstyle-rs/prettyless) | 0 | 2026-02-20T13:55:19Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [AdaCore/vss-text](https://github.com/AdaCore/vss-text) | 0 | 2026-02-16T11:03:35Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [kitknox/helix](https://github.com/kitknox/helix) | 0 | 2026-02-16T05:27:20Z | Unknown | Infrastructure/tooling | 4 | 12 | 4 | 4 |
 | [CADindustries/container](https://github.com/CADindustries/container) | 0 | 2026-02-13T06:46:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -193,4 +196,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [KSXGitHub/aur-packages-builder-2](https://github.com/KSXGitHub/aur-packages-builder-2) | 0 | 2025-11-24T12:27:23Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [KSXGitHub/aur-packages-builder-1](https://github.com/KSXGitHub/aur-packages-builder-1) | 0 | 2025-11-24T12:27:18Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [rasahq/pytest-sanic](https://github.com/RasaHQ/pytest-sanic) | 0 | 2025-11-24T12:02:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [smallscientist1/tilelang](https://github.com/smallscientist1/tilelang) | 0 | 2025-11-22T13:10:37Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |

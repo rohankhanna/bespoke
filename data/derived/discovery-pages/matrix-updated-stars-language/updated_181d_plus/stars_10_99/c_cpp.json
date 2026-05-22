@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 530,
-    "concepts": 626,
-    "observations": 626,
-    "repos": 284,
-    "terms": 623
+    "components": 533,
+    "concepts": 627,
+    "observations": 627,
+    "repos": 285,
+    "terms": 624
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
@@ -275,6 +275,7 @@
     "tidwall/redcon.c",
     "tomz/liblinear-ruby-swig",
     "tpoechtrager/xar",
+    "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "trufanov-nok/minidjvu-mod",
     "TTimo/bspc",

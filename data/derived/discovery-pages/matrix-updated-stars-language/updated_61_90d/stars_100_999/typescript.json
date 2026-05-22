@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1135,
-    "concepts": 230,
-    "observations": 231,
-    "repos": 40,
-    "terms": 241
+    "components": 1116,
+    "concepts": 242,
+    "observations": 243,
+    "repos": 41,
+    "terms": 253
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -29,7 +29,6 @@
     "eckardt/cchistory",
     "ethereum/staking-launchpad",
     "fnando/i18n",
-    "googleapis/nodejs-datastore",
     "graphql-hive/graphql-eslint",
     "h3js/rou3",
     "hyparam/hightable",
@@ -52,7 +51,9 @@
     "trzsz/trzsz.js",
     "un-ts/eslint-plugin-import-x",
     "unplugin/unplugin-vue-markdown",
+    "vim-denops/denops.vim",
     "windingwind/zotero-plugin-template",
+    "XantreDev/preact-signals",
     "yandeu/five-server"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 49
-- terms: 96
-- components: 188
-- concepts: 97
-- observations: 98
+- repos: 50
+- terms: 98
+- components: 183
+- concepts: 99
+- observations: 100
 
 ## Static behavior
 
@@ -25,6 +25,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [petercorke/sphinx-autorun](https://github.com/petercorke/sphinx-autorun) | 0 | 2026-03-23T04:45:12Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
+| [kdubbo/client-go](https://github.com/kdubbo/client-go) | 0 | 2026-03-22T20:05:55Z | Other | CLI | 0 | 0 | 0 | 0 |
+| [kdubbo/api](https://github.com/kdubbo/api) | 0 | 2026-03-22T19:21:06Z | Go | Service/API | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/GettextRuntime_jll.jl](https://github.com/JuliaBinaryWrappers/GettextRuntime_jll.jl) | 0 | 2026-03-21T02:10:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [vaporif/rvx](https://github.com/vaporif/rvx) | 0 | 2026-03-20T18:15:45Z | Rust | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [musicman3/cruder](https://github.com/musicman3/Cruder) | 0 | 2026-03-19T17:19:23Z | Other | Unknown | 9 | 0 | 9 | 9 |
@@ -72,13 +75,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [0xBigBoss/ghostty-web](https://github.com/0xBigBoss/ghostty-web) | 0 | 2026-02-24T02:47:12Z | TypeScript | Infrastructure/tooling | 1 | 13 | 1 | 1 |
 | [charlesnicholson/docker-images](https://github.com/charlesnicholson/docker-images) | 0 | 2026-02-21T14:34:16Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [jrsoftware/is7z](https://github.com/jrsoftware/is7z) | 0 | 2026-02-21T12:11:44Z | C/C++ | Unknown | 2 | 0 | 3 | 3 |
-| [mjvolk3/dendron-template](https://github.com/Mjvolk3/Dendron-Template) | 0 | 2026-02-20T15:48:17Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
-| [typstyle-rs/prettyless](https://github.com/typstyle-rs/prettyless) | 0 | 2026-02-20T13:55:19Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [petercorke/sphinx-autorun](https://github.com/petercorke/sphinx-autorun) | 0 | 2026-03-23T04:45:12Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
+| [kdubbo/client-go](https://github.com/kdubbo/client-go) | 0 | 2026-03-22T20:05:55Z | Other | CLI | 0 | 0 | 0 | 0 |
+| [kdubbo/api](https://github.com/kdubbo/api) | 0 | 2026-03-22T19:21:06Z | Go | Service/API | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/GettextRuntime_jll.jl](https://github.com/JuliaBinaryWrappers/GettextRuntime_jll.jl) | 0 | 2026-03-21T02:10:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [vaporif/rvx](https://github.com/vaporif/rvx) | 0 | 2026-03-20T18:15:45Z | Rust | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [musicman3/cruder](https://github.com/musicman3/Cruder) | 0 | 2026-03-19T17:19:23Z | Other | Unknown | 9 | 0 | 9 | 9 |
@@ -126,5 +130,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [0xBigBoss/ghostty-web](https://github.com/0xBigBoss/ghostty-web) | 0 | 2026-02-24T02:47:12Z | TypeScript | Infrastructure/tooling | 1 | 13 | 1 | 1 |
 | [charlesnicholson/docker-images](https://github.com/charlesnicholson/docker-images) | 0 | 2026-02-21T14:34:16Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [jrsoftware/is7z](https://github.com/jrsoftware/is7z) | 0 | 2026-02-21T12:11:44Z | C/C++ | Unknown | 2 | 0 | 3 | 3 |
-| [mjvolk3/dendron-template](https://github.com/Mjvolk3/Dendron-Template) | 0 | 2026-02-20T15:48:17Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
-| [typstyle-rs/prettyless](https://github.com/typstyle-rs/prettyless) | 0 | 2026-02-20T13:55:19Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |

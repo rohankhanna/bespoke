@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 838
-- terms: 1434
-- components: 684
-- concepts: 1453
-- observations: 1455
+- terms: 1442
+- components: 691
+- concepts: 1461
+- observations: 1463
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [OpenVoiceOS/ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | 35 | 2025-11-22T13:16:23Z | Python | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [Finance-LLMs/deep-research-python](https://github.com/Finance-LLMs/deep-research-python) | 69 | 2025-11-19T17:01:15Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [Adlik/vllm](https://github.com/Adlik/vllm) | 12 | 2025-11-14T07:50:57Z | Python | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [cedricrupb/code_ast](https://github.com/cedricrupb/code_ast) | 70 | 2025-11-11T17:30:52Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -863,7 +864,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AnonSubm2021/TransStyleGAN](https://github.com/AnonSubm2021/TransStyleGAN) | 72 | 2021-06-04T06:29:41Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [darwinai/FibrosisNet](https://github.com/darwinai/FibrosisNet) | 14 | 2021-05-26T19:36:12Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [yeyupiaoling/PaddlePaddle-MTCNN](https://github.com/yeyupiaoling/PaddlePaddle-MTCNN) | 24 | 2021-05-26T00:55:36Z | Python | Unknown | 3 | 0 | 3 | 3 |
-| [midsdsy/LOD-Net](https://github.com/midsdsy/LOD-Net) | 21 | 2021-05-22T15:35:01Z | Python | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -1364,6 +1364,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [6gsn/marine](https://github.com/6gsn/marine) | 36 | 2022-09-20T01:26:27Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [generalizable-neural-performer/bodyfitting](https://github.com/generalizable-neural-performer/bodyfitting) | 36 | 2022-04-30T03:09:07Z | Python | Framework | 0 | 0 | 0 | 0 |
 | [kwea123/Unity_live_caption](https://github.com/kwea123/Unity_live_caption) | 36 | 2022-04-21T06:58:42Z | Python | Service/API | 9 | 0 | 9 | 9 |
+| [OpenVoiceOS/ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | 35 | 2025-11-22T13:16:23Z | Python | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [rainx0r/metaworld-algorithms](https://github.com/rainx0r/metaworld-algorithms) | 35 | 2025-08-20T09:57:26Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [MCG-NJU/FlowDCN](https://github.com/MCG-NJU/FlowDCN) | 35 | 2024-12-23T09:10:32Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [HaoyiZhu/RealRobot](https://github.com/HaoyiZhu/RealRobot) | 35 | 2024-11-25T09:58:16Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -1546,7 +1547,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/openpai-runtime](https://github.com/microsoft/openpai-runtime) | 21 | 2022-05-24T07:57:44Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [layumi/HQ-Market](https://github.com/layumi/HQ-Market) | 21 | 2022-05-12T14:20:01Z | Python | Model/data | 4 | 0 | 4 | 4 |
 | [abc403/smca-replication](https://github.com/abc403/SMCA-replication) | 21 | 2021-07-24T12:27:38Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [midsdsy/LOD-Net](https://github.com/midsdsy/LOD-Net) | 21 | 2021-05-22T15:35:01Z | Python | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [SLDGroup/EfficientMedNeXt](https://github.com/SLDGroup/EfficientMedNeXt) | 20 | 2025-09-24T11:29:45Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [Adibian/ResGrad](https://github.com/Adibian/ResGrad) | 20 | 2025-02-09T09:12:48Z | Python | Model/data | 5 | 0 | 5 | 5 |
 | [rmbrualla/pycolmap](https://github.com/rmbrualla/pycolmap) | 20 | 2024-07-28T09:46:45Z | Python | Unknown | 0 | 0 | 0 | 0 |

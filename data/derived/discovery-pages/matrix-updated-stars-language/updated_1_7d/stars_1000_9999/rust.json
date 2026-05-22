@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 86,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 6,
-    "terms": 51
+    "components": 38,
+    "concepts": 36,
+    "observations": 36,
+    "repos": 4,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "apache/casbin-rs",
     "ash-rs/ash",
     "crate-ci/cargo-release",
-    "godot-rust/gdext",
-    "hermit-os/hermit-rs",
-    "intentee/paddler"
+    "hermit-os/hermit-rs"
   ]
 }

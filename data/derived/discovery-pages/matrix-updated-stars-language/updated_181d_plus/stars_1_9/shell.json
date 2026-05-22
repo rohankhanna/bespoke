@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 60,
-    "concepts": 104,
-    "observations": 105,
-    "repos": 46,
-    "terms": 98
+    "components": 67,
+    "concepts": 107,
+    "observations": 108,
+    "repos": 47,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -38,6 +38,7 @@
     "danielrosehill/bash-alias-manager-claude",
     "danielrosehill/Claude-Code-MCP-Command-Generator",
     "danielrosehill/Claude-Code-Repo-Managers-ClaudeMD",
+    "deiga/nodenv-default-npmrc",
     "dotenvx/heroku-buildpack-dotenvx",
     "electerm/electerm-resource",
     "funtoo/core-kit",
@@ -58,7 +59,7 @@
     "rigellute/scoop-bucket",
     "spack/migrate-package-prs",
     "to4iki/ai-project-rules",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "videojs/admin"
   ]
 }

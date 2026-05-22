@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 213,
-    "concepts": 223,
-    "observations": 226,
-    "repos": 47,
-    "terms": 220
+    "components": 174,
+    "concepts": 195,
+    "observations": 195,
+    "repos": 40,
+    "terms": 192
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "acmesh-official/acmetest",
-    "AFLplusplus/cov-analysis",
     "Alexpux/MINGW-packages",
     "argoproj-labs/argocd-extension-installer",
     "asdf-community/asdf-pdm",
@@ -27,16 +26,13 @@
     "cilium/community",
     "cldwalker/dotfiles",
     "cloudfoundry/cf-deployment-concourse-tasks",
-    "cloudfoundry/jumpbox-deployment",
     "conda-forge/pinocchio-feedstock",
-    "containers/automation_images",
     "crazy-max/goxx",
     "dependabot/smoke-tests",
     "dotenvx/dotenvx.sh",
     "electerm/electerm-web-docker",
     "envoyproxy/examples",
     "fcshark-org/route-list",
-    "gentoo-mirror/guru",
     "gpac/testsuite",
     "helidon-io/helidon-examples",
     "heroku/heroku-buildpack-dotnet",
@@ -49,10 +45,7 @@
     "pkgxdev/mash",
     "postmodern/ruby-versions",
     "quarkusio/quarkus-ecosystem-ci",
-    "reviewdog/action-black",
     "reviewdog/action-depup",
-    "reviewdog/action-hadolint",
-    "reviewdog/action-shfmt",
     "rocq-prover/docker-opam-action",
     "sclorg/s2i-perl-container",
     "sclorg/s2i-ruby-container",

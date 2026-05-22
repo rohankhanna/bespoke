@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 6
-- terms: 57
-- components: 26
-- concepts: 57
-- observations: 57
+- repos: 7
+- terms: 60
+- components: 33
+- concepts: 60
+- observations: 60
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mobile-shell/mosh](https://github.com/mobile-shell/mosh) | 13838 | 2026-03-22T20:20:13Z | C/C++ | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [microsoft/AirSim](https://github.com/microsoft/AirSim) | 18146 | 2026-03-15T23:17:10Z | C/C++ | Infrastructure/tooling | 21 | 5 | 21 | 21 |
 | [bol-van/zapret](https://github.com/bol-van/zapret) | 15155 | 2026-03-12T17:55:20Z | C/C++ | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [google/leveldb](https://github.com/google/leveldb) | 38976 | 2026-03-11T04:06:29Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
@@ -43,3 +44,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kyleneideck/backgroundmusic](https://github.com/kyleneideck/BackgroundMusic) | 18855 | 2026-02-22T06:03:50Z | C/C++ | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [microsoft/AirSim](https://github.com/microsoft/AirSim) | 18146 | 2026-03-15T23:17:10Z | C/C++ | Infrastructure/tooling | 21 | 5 | 21 | 21 |
 | [bol-van/zapret](https://github.com/bol-van/zapret) | 15155 | 2026-03-12T17:55:20Z | C/C++ | Infrastructure/tooling | 10 | 9 | 10 | 10 |
+| [mobile-shell/mosh](https://github.com/mobile-shell/mosh) | 13838 | 2026-03-22T20:20:13Z | C/C++ | Infrastructure/tooling | 3 | 7 | 3 | 3 |

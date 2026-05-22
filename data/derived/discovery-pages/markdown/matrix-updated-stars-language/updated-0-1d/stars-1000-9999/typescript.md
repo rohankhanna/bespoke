@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 43
-- components: 297
-- concepts: 43
-- observations: 43
+- repos: 8
+- terms: 60
+- components: 414
+- concepts: 60
+- observations: 60
 
 ## Static behavior
 
@@ -26,16 +26,24 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7650 | 2026-05-21T12:20:36Z | TypeScript | Infrastructure/tooling | 17 | 76 | 17 | 17 |
-| [typescript-language-server/typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) | 2490 | 2026-05-21T06:34:32Z | TypeScript | Infrastructure/tooling | 6 | 48 | 6 | 6 |
-| [microsoft/vscode-js-debug](https://github.com/microsoft/vscode-js-debug) | 1948 | 2026-05-20T18:09:55Z | TypeScript | Infrastructure/tooling | 4 | 101 | 4 | 4 |
-| [alichherawalla/off-grid-mobile-ai](https://github.com/alichherawalla/off-grid-mobile-ai) | 2163 | 2026-05-20T12:46:16Z | TypeScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |
+| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7650 | 2026-05-21T23:31:26Z | TypeScript | Infrastructure/tooling | 17 | 76 | 17 | 17 |
+| [typescript-language-server/typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) | 2491 | 2026-05-21T22:11:39Z | TypeScript | Infrastructure/tooling | 6 | 50 | 6 | 6 |
+| [TanStack/form](https://github.com/TanStack/form) | 6539 | 2026-05-21T22:06:42Z | TypeScript | Infrastructure/tooling | 10 | 49 | 10 | 10 |
+| [vercel/serve](https://github.com/vercel/serve) | 9852 | 2026-05-21T21:12:56Z | TypeScript | CLI | 5 | 29 | 5 | 5 |
+| [safe-fndn/safe-smart-account](https://github.com/safe-fndn/safe-smart-account) | 2146 | 2026-05-21T20:06:23Z | TypeScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
+| [microsoft/vscode-js-debug](https://github.com/microsoft/vscode-js-debug) | 1948 | 2026-05-21T16:01:12Z | TypeScript | Infrastructure/tooling | 4 | 101 | 4 | 4 |
+| [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8447 | 2026-05-21T15:35:33Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
+| [apollographql/apollo-tooling](https://github.com/apollographql/apollo-tooling) | 3041 | 2026-05-21T14:08:21Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7650 | 2026-05-21T12:20:36Z | TypeScript | Infrastructure/tooling | 17 | 76 | 17 | 17 |
-| [typescript-language-server/typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) | 2490 | 2026-05-21T06:34:32Z | TypeScript | Infrastructure/tooling | 6 | 48 | 6 | 6 |
-| [alichherawalla/off-grid-mobile-ai](https://github.com/alichherawalla/off-grid-mobile-ai) | 2163 | 2026-05-20T12:46:16Z | TypeScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |
-| [microsoft/vscode-js-debug](https://github.com/microsoft/vscode-js-debug) | 1948 | 2026-05-20T18:09:55Z | TypeScript | Infrastructure/tooling | 4 | 101 | 4 | 4 |
+| [vercel/serve](https://github.com/vercel/serve) | 9852 | 2026-05-21T21:12:56Z | TypeScript | CLI | 5 | 29 | 5 | 5 |
+| [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8447 | 2026-05-21T15:35:33Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
+| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7650 | 2026-05-21T23:31:26Z | TypeScript | Infrastructure/tooling | 17 | 76 | 17 | 17 |
+| [TanStack/form](https://github.com/TanStack/form) | 6539 | 2026-05-21T22:06:42Z | TypeScript | Infrastructure/tooling | 10 | 49 | 10 | 10 |
+| [apollographql/apollo-tooling](https://github.com/apollographql/apollo-tooling) | 3041 | 2026-05-21T14:08:21Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
+| [typescript-language-server/typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) | 2491 | 2026-05-21T22:11:39Z | TypeScript | Infrastructure/tooling | 6 | 50 | 6 | 6 |
+| [safe-fndn/safe-smart-account](https://github.com/safe-fndn/safe-smart-account) | 2146 | 2026-05-21T20:06:23Z | TypeScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
+| [microsoft/vscode-js-debug](https://github.com/microsoft/vscode-js-debug) | 1948 | 2026-05-21T16:01:12Z | TypeScript | Infrastructure/tooling | 4 | 101 | 4 | 4 |

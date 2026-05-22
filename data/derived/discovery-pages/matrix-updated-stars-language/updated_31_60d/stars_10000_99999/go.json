@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 567,
-    "concepts": 560,
-    "observations": 563,
-    "repos": 56,
-    "terms": 549
+    "components": 641,
+    "concepts": 609,
+    "observations": 612,
+    "repos": 61,
+    "terms": 598
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "abiosoft/colima",
@@ -28,6 +28,7 @@
     "charmbracelet/vhs",
     "chromedp/chromedp",
     "cli/cli",
+    "coder/coder",
     "containerd/containerd",
     "containerd/nerdctl",
     "containers/skopeo",
@@ -41,9 +42,12 @@
     "ent/ent",
     "evanw/esbuild",
     "go-delve/delve",
+    "golangci/golangci-lint",
     "google/cadvisor",
     "goreleaser/goreleaser",
+    "hashicorp/terraform",
     "hibiken/asynq",
+    "jesseduffield/lazygit",
     "Jguer/yay",
     "junegunn/fzf",
     "k3s-io/k3s",
@@ -51,6 +55,7 @@
     "kubernetes-sigs/kustomize",
     "kubernetes/ingress-nginx",
     "kubernetes/kompose",
+    "kubernetes/kops",
     "labstack/echo",
     "lima-vm/lima",
     "micro/go-micro",

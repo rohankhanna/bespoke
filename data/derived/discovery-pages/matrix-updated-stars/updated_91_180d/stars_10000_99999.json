@@ -3,7 +3,7 @@
     "components": 866,
     "concepts": 573,
     "observations": 577,
-    "repos": 88,
+    "repos": 87,
     "terms": 570
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -57,7 +57,6 @@
     "jsvine/pdfplumber",
     "jtoy/awesome-tensorflow",
     "junegunn/vim-plug",
-    "karpathy/llm-council",
     "lc044/wechatmsg",
     "Lightricks/LTX-Video",
     "linsa-io/linsa",

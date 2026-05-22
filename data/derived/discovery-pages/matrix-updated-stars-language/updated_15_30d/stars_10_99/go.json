@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 384,
-    "concepts": 278,
-    "observations": 279,
-    "repos": 56,
-    "terms": 276
+    "components": 317,
+    "concepts": 215,
+    "observations": 216,
+    "repos": 48,
+    "terms": 214
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
-    "abhinav/goldmark-frontmatter",
-    "abhinav/tmux-fastcopy",
     "ankitpokhrel/shopctl",
     "apache/datasketches-go",
     "aquasecurity/trivy-java-db",
@@ -35,11 +33,8 @@
     "danielgtaylor/mexpr",
     "danielgtaylor/shorthand",
     "datachainlab/cosmos-ethereum-ibc-lcp",
-    "davidkarlsen/flyway-operator",
-    "defilantech/LLMKube",
     "DevExpGbb/gh-devlake",
     "dianlight/gollama.cpp",
-    "dlclark/regexp2cg",
     "ebitengine/debugui",
     "energye/cef",
     "energye/lcl",
@@ -55,7 +50,6 @@
     "kubernetes-sigs/karpenter-provider-ibm-cloud",
     "kubernetes-sigs/provider-aws-test-infra",
     "kubernetes-sigs/verify-conformance",
-    "minio/pkg",
     "muhlba91/external-dns-provider-adguard",
     "openshift/ci-tools",
     "openshift/kubernetes",
@@ -64,9 +58,7 @@
     "philips-labs/tabia",
     "sigstore/helm-sigstore",
     "sigstore/k8s-manifest-sigstore",
-    "sigstore/rekor-tiles",
     "tendermint/tm-db",
-    "terraform-linters/tflint-ruleset-google",
     "transparency-dev/witness",
     "usbarmory/tamago-example",
     "usbarmory/tamago-sev-example"

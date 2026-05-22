@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 29
-- components: 18
-- concepts: 30
-- observations: 30
+- repos: 3
+- terms: 36
+- components: 29
+- concepts: 37
+- observations: 37
 
 ## Static behavior
 
@@ -26,10 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [gobackup/gobackup](https://github.com/gobackup/gobackup) | 2690 | 2026-05-15T02:35:38Z | Go | CLI | 10 | 11 | 10 | 10 |
 | [etcd-io/bbolt](https://github.com/etcd-io/bbolt) | 9505 | 2026-05-12T13:55:28Z | Go | Infrastructure/tooling | 8 | 3 | 8 | 8 |
-| [bazel-contrib/rules_go](https://github.com/bazel-contrib/rules_go) | 1478 | 2026-05-12T11:03:24Z | Go | Unknown | 3 | 0 | 3 | 3 |
 | [version-fox/vfox](https://github.com/version-fox/vfox) | 3874 | 2026-05-11T22:37:45Z | Go | CLI | 18 | 15 | 19 | 19 |
-| [bazel-contrib/bazel-gazelle](https://github.com/bazel-contrib/bazel-gazelle) | 1392 | 2026-05-08T15:46:08Z | Go | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -37,5 +36,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [etcd-io/bbolt](https://github.com/etcd-io/bbolt) | 9505 | 2026-05-12T13:55:28Z | Go | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [version-fox/vfox](https://github.com/version-fox/vfox) | 3874 | 2026-05-11T22:37:45Z | Go | CLI | 18 | 15 | 19 | 19 |
-| [bazel-contrib/rules_go](https://github.com/bazel-contrib/rules_go) | 1478 | 2026-05-12T11:03:24Z | Go | Unknown | 3 | 0 | 3 | 3 |
-| [bazel-contrib/bazel-gazelle](https://github.com/bazel-contrib/bazel-gazelle) | 1392 | 2026-05-08T15:46:08Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [gobackup/gobackup](https://github.com/gobackup/gobackup) | 2690 | 2026-05-15T02:35:38Z | Go | CLI | 10 | 11 | 10 | 10 |

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 50242,
-    "concepts": 34752,
-    "observations": 34857,
+    "components": 50249,
+    "concepts": 34768,
+    "observations": 34873,
     "repos": 8562,
-    "terms": 34616
+    "terms": 34632
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0k/shyaml",
@@ -1241,6 +1241,7 @@
     "bet4it/udbserver",
     "bethgelab/model-vs-human",
     "bethgelab/stylize-datasets",
+    "betterleaks/betterleaks",
     "BetterThanTomorrow/joyride",
     "bevacqua/insane",
     "beve-org/beve",
@@ -1763,7 +1764,6 @@
     "claytonfarr/ralph-playbook",
     "clcarwin/convert_torch_to_pytorch",
     "clcarwin/sphereface_pytorch",
-    "CLD2Owners/cld2",
     "cldwalker/logseq-query",
     "clean-css/clean-css-cli",
     "cleanlab/examples",
@@ -8254,6 +8254,7 @@
     "weiyithu/SurroundDepth",
     "wemake-services/flake8-eradicate",
     "wemake-services/wemake-vue-template",
+    "wenet-e2e/speech-recognition-papers",
     "wenet-e2e/WenetSpeech",
     "wenet-e2e/WeTextProcessing",
     "wenet-e2e/wetts",
@@ -8359,7 +8360,6 @@
     "xlite-dev/RVM-Inference",
     "xmlyqing00/AFB-URR",
     "xmoanvaf/llava-phi",
-    "xolox/vim-misc",
     "xolox/vim-session",
     "xoofx/CppAst.NET",
     "XPixelGroup/DepictQA",

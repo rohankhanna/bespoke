@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 387,
-    "concepts": 438,
-    "observations": 438,
-    "repos": 57,
-    "terms": 436
+    "components": 365,
+    "concepts": 409,
+    "observations": 409,
+    "repos": 54,
+    "terms": 407
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -29,12 +29,10 @@
     "confluentinc/kafka-streams-examples",
     "connectbot/sshlib",
     "devoxx/DevoxxGenieIDEAPlugin",
-    "eclipse-lemminx/lemminx",
     "FasterXML/jackson-dataformat-xml",
     "FasterXML/jackson-dataformats-binary",
     "FasterXML/jackson-dataformats-text",
     "FasterXML/jackson-modules-base",
-    "FasterXML/woodstox",
     "googleapis/google-api-java-client-services",
     "googleapis/java-bigtable-hbase",
     "graalvm/graalvm-demos",
@@ -65,7 +63,6 @@
     "samtools/htsjdk",
     "SAP/SapMachine",
     "sevntu-checkstyle/sevntu.checkstyle",
-    "swagger-api/swagger-inflector",
     "swagger-api/swagger-parser",
     "ThreeTen/threetenbp",
     "wildfly/quickstart",

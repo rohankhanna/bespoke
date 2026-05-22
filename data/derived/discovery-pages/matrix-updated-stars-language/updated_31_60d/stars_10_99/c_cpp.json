@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 255,
-    "concepts": 226,
-    "observations": 226,
-    "repos": 55,
-    "terms": 226
+    "components": 270,
+    "concepts": 221,
+    "observations": 221,
+    "repos": 56,
+    "terms": 221
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "ada-url/ada-python",
@@ -22,6 +22,7 @@
     "aifoundry-org/et-platform",
     "AIWintermuteAI/whispercpp",
     "ankane/stl-cpp",
+    "apache/pulsar-client-cpp",
     "barak/minidjvu",
     "bartp5/libtexprintf",
     "BirolLab/arcs",
@@ -38,10 +39,10 @@
     "flatpak/xdg-dbus-proxy",
     "galaxyproject/KegAlign",
     "GaoYusong/llm.cpp",
-    "gershnik/wsdd-native",
     "go-skynet/go-ggml-transformers.cpp",
     "grain-lang/binaryen.ml",
     "heal-research/pyoperon",
+    "ICRAR/crc32c",
     "JFLarvoire/the_silver_searcher",
     "jupyter-xeus/xeus-lua",
     "ksnip/kImageAnnotator",

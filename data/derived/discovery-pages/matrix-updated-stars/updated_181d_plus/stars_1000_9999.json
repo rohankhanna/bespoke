@@ -3,15 +3,15 @@
     "components": 10394,
     "concepts": 8903,
     "observations": 8912,
-    "repos": 2315,
-    "terms": 8779
+    "repos": 2316,
+    "terms": 8778
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -2219,6 +2219,7 @@
     "welltop-cn/ComfyUI-TeaCache",
     "wenda-LLM/wenda",
     "wendux/fly",
+    "wenet-e2e/speech-synthesis-paper",
     "whai362/PVT",
     "WICG/import-maps",
     "wilson1yan/VideoGPT",

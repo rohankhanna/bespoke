@@ -3,14 +3,14 @@
     "components": 1611,
     "concepts": 2989,
     "observations": 2993,
-    "repos": 1698,
+    "repos": 1700,
     "terms": 2993
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "unknown"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nn0/terminal-mac-cheatsheet",
@@ -1665,6 +1665,8 @@
     "WeikaiTan/Toronto-3D",
     "wencuecryforme/mysoul.skill",
     "wendyalbanez/clawui",
+    "wenet-e2e/speech-recognition-papers",
+    "wenet-e2e/speech-synthesis-paper",
     "wenet-e2e/wenet-contributors",
     "wesfloyd/avs-context-prompt",
     "wez/finl_unicode",

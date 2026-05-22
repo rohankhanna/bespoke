@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 127
-- terms: 186
-- components: 265
-- concepts: 186
-- observations: 186
+- repos: 123
+- terms: 170
+- components: 240
+- concepts: 170
+- observations: 170
 
 ## Static behavior
 
@@ -30,7 +30,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [UnknownPlatypus/markup_fmt](https://github.com/UnknownPlatypus/markup_fmt) | 0 | 2026-05-04T21:44:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [danielrosehill/Claude-Hardware-ID-Annotation-Plugin](https://github.com/danielrosehill/Claude-Hardware-ID-Annotation-Plugin) | 0 | 2026-05-04T08:06:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Agent-Relay-Plugin](https://github.com/danielrosehill/Claude-Agent-Relay-Plugin) | 0 | 2026-05-03T18:35:38Z | Python | Service/API | 0 | 0 | 0 | 0 |
-| [kleisauke/glib](https://github.com/kleisauke/glib) | 0 | 2026-05-03T15:23:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Linux-AV-Manager-Plugin](https://github.com/danielrosehill/Claude-Linux-AV-Manager-Plugin) | 0 | 2026-05-03T11:06:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [06ketan/substack-ops](https://github.com/06ketan/substack-ops) | 0 | 2026-05-03T07:02:25Z | Python | CLI | 5 | 3 | 5 | 5 |
 | [lakekeeper/iceberg-rust](https://github.com/lakekeeper/iceberg-rust) | 0 | 2026-05-02T22:52:17Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
@@ -149,9 +148,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rltakashige/mlx-jaccl-fix-small-recv](https://github.com/rltakashige/mlx-jaccl-fix-small-recv) | 0 | 2026-04-22T12:30:12Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [cachix/serde-envfile](https://github.com/cachix/serde-envfile) | 0 | 2026-04-22T10:39:58Z | Unknown | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [databendlabs/databend-base](https://github.com/databendlabs/databend-base) | 0 | 2026-04-22T08:55:03Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [hauntsaninja/mypy](https://github.com/hauntsaninja/mypy) | 0 | 2026-04-22T04:46:56Z | Python | Infrastructure/tooling | 4 | 7 | 4 | 4 |
-| [guoqingbao/candle](https://github.com/guoqingbao/candle) | 0 | 2026-04-21T15:17:12Z | Rust | Infrastructure/tooling | 4 | 14 | 4 | 4 |
-| [8144225309/superscalar-cln](https://github.com/8144225309/superscalar-cln) | 0 | 2026-04-21T15:01:50Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -162,7 +158,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [UnknownPlatypus/markup_fmt](https://github.com/UnknownPlatypus/markup_fmt) | 0 | 2026-05-04T21:44:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [danielrosehill/Claude-Hardware-ID-Annotation-Plugin](https://github.com/danielrosehill/Claude-Hardware-ID-Annotation-Plugin) | 0 | 2026-05-04T08:06:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Agent-Relay-Plugin](https://github.com/danielrosehill/Claude-Agent-Relay-Plugin) | 0 | 2026-05-03T18:35:38Z | Python | Service/API | 0 | 0 | 0 | 0 |
-| [kleisauke/glib](https://github.com/kleisauke/glib) | 0 | 2026-05-03T15:23:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Linux-AV-Manager-Plugin](https://github.com/danielrosehill/Claude-Linux-AV-Manager-Plugin) | 0 | 2026-05-03T11:06:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [06ketan/substack-ops](https://github.com/06ketan/substack-ops) | 0 | 2026-05-03T07:02:25Z | Python | CLI | 5 | 3 | 5 | 5 |
 | [lakekeeper/iceberg-rust](https://github.com/lakekeeper/iceberg-rust) | 0 | 2026-05-02T22:52:17Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
@@ -281,6 +276,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rltakashige/mlx-jaccl-fix-small-recv](https://github.com/rltakashige/mlx-jaccl-fix-small-recv) | 0 | 2026-04-22T12:30:12Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [cachix/serde-envfile](https://github.com/cachix/serde-envfile) | 0 | 2026-04-22T10:39:58Z | Unknown | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [databendlabs/databend-base](https://github.com/databendlabs/databend-base) | 0 | 2026-04-22T08:55:03Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [hauntsaninja/mypy](https://github.com/hauntsaninja/mypy) | 0 | 2026-04-22T04:46:56Z | Python | Infrastructure/tooling | 4 | 7 | 4 | 4 |
-| [guoqingbao/candle](https://github.com/guoqingbao/candle) | 0 | 2026-04-21T15:17:12Z | Rust | Infrastructure/tooling | 4 | 14 | 4 | 4 |
-| [8144225309/superscalar-cln](https://github.com/8144225309/superscalar-cln) | 0 | 2026-04-21T15:01:50Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |

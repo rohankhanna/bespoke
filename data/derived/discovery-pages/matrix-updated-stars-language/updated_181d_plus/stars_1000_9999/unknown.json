@@ -3,7 +3,7 @@
     "components": 30,
     "concepts": 283,
     "observations": 283,
-    "repos": 111,
+    "repos": 112,
     "terms": 274
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "0xAX/erlang-bookmarks",
@@ -119,6 +119,7 @@
     "travis-ci/travis-ci",
     "unitycontainer/unity",
     "vuejs/rfcs",
+    "wenet-e2e/speech-synthesis-paper",
     "withfig/fig",
     "xaoyaoo/pywxdump",
     "zapret-info/z-i",

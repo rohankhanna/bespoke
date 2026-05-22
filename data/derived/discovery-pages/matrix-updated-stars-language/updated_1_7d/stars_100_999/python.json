@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 10,
-    "terms": 49
+    "components": 97,
+    "concepts": 69,
+    "observations": 69,
+    "repos": 13,
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,19 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
+    "aristoteleo/PantheonOS",
     "flagos-ai/FlagScale",
     "gbionics/adam",
     "google-deepmind/xmanager",
     "googlefonts/roboto-3-classic",
     "googlefonts/ufo2ft",
-    "hluaguo/learn-faster-kit",
     "Jamorim-esss/pytest-rich",
+    "NCAS-CMS/pyfive",
+    "pyrtlsdr/pyrtlsdr",
+    "scverse/rapids-singlecell",
     "TextArena/TextArena",
     "tox-dev/filelock"
   ]

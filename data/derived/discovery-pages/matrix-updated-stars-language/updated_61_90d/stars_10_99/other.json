@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 383,
-    "concepts": 262,
-    "observations": 263,
-    "repos": 87,
-    "terms": 257
+    "concepts": 267,
+    "observations": 268,
+    "repos": 88,
+    "terms": 262
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
+    "0xC0000054/pdn-ddsfiletype-plus",
     "219-design/qt-qml-project-template-with-ci",
     "2KAbhishek/exercism.nvim",
     "6cdh/dotfiles",
@@ -64,6 +65,7 @@
     "JunoLab/Atom.jl",
     "jupyter-xeus/xeus-python-wheel",
     "kahliburke/MCPRepl.jl",
+    "kalbasit/nur-packages",
     "larshp/abapGitServer",
     "liquidev/lintplus",
     "lostromb/concentus.oggfile",
@@ -76,7 +78,6 @@
     "nicholasjng/nanobind-bazel",
     "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
     "notaryproject/notaryproject.dev",
-    "ocaml-opam/opam-publish",
     "ocurrent/opam-health-check",
     "onomojo/i18n-timezones",
     "opencontainers/.github",

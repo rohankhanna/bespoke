@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 255,
-    "concepts": 102,
-    "observations": 102,
-    "repos": 82,
-    "terms": 102
+    "components": 260,
+    "concepts": 99,
+    "observations": 99,
+    "repos": 83,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "1000ch/Sublime-csso",
@@ -80,6 +80,7 @@
     "llamagate/diff",
     "LuminalOSS/credstash",
     "maeste/a2a-tck",
+    "mjvolk3/dendron-template",
     "Mountchicken/Mountchicken",
     "mudler/vulkan-sdk-arm",
     "openwdl/governance",
@@ -88,9 +89,9 @@
     "puffyyy/PCSim",
     "rasahq/pytest-sanic",
     "sarlinpe/pybind11-stubgen",
-    "smallscientist1/tilelang",
     "sp1-patches/curve25519-dalek",
     "stainless-api/tsc-multi",
+    "typstyle-rs/prettyless",
     "ved015/CogVideoX-5b-Physics_iq_benchmarking",
     "vovkos/luadoxyxml",
     "wintercg/fetch",

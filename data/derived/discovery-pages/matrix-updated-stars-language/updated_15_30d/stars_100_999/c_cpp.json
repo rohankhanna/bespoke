@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1024,
-    "concepts": 1026,
-    "observations": 1027,
-    "repos": 174,
-    "terms": 1021
+    "components": 1003,
+    "concepts": 1006,
+    "observations": 1007,
+    "repos": 168,
+    "terms": 1001
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "AcademySoftwareFoundation/openfx",
-    "actboy168/bee.lua",
     "acts-project/acts",
     "Alpine-DAV/ascent",
     "alsa-project/alsa-lib",
@@ -88,7 +87,6 @@
     "HybridRobotics/motion_tracking_controller",
     "iamaisim/ProjectAirSim",
     "intel/intel-graphics-compiler",
-    "intel/intel-ipsec-mb",
     "intel/llm-scaler",
     "intel/ScalableVectorSearch",
     "istio/proxy",
@@ -115,7 +113,6 @@
     "logicalclocks/rondb",
     "LunarG/gfxreconstruct",
     "LunarG/VulkanTools",
-    "lxqt/qtermwidget",
     "mapnik/node-mapnik",
     "marton78/pffft",
     "Mercury13/unicodia",
@@ -146,7 +143,6 @@
     "pbatard/Mosby",
     "pkgxdev/pantry",
     "pqrs-org/Karabiner-DriverKit-VirtualHIDDevice",
-    "pyg-team/pyg-lib",
     "pygobject/pycairo",
     "qbs/qbs",
     "rapidsai/rmm",
@@ -156,7 +152,6 @@
     "rmagick/rmagick",
     "robotology/yarp",
     "ROCm/AMDMIGraphX",
-    "ROCm/composable_kernel",
     "ROCm/MIVisionX",
     "ROCm/mori",
     "ROCm/rccl",
@@ -164,7 +159,6 @@
     "ros/urdfdom",
     "ros2/common_interfaces",
     "rspatial/terra",
-    "ruby-debug/debase",
     "ruby/prism",
     "samdauwe/webgpu-native-examples",
     "samtools/htslib",

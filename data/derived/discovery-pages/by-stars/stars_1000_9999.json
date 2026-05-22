@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 55136,
-    "concepts": 35769,
-    "observations": 35877,
-    "repos": 6052,
-    "terms": 35668
+    "components": 55142,
+    "concepts": 35781,
+    "observations": 35889,
+    "repos": 6055,
+    "terms": 35678
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -1472,6 +1472,7 @@
     "diffplug/spotless",
     "digitalocean/doctl",
     "digitalocean/godo",
+    "DigitalPhonetics/IMS-Toucan",
     "dilanx/craco",
     "DiligentGraphics/DiligentEngine",
     "dimforge/kiss3d",
@@ -5443,6 +5444,7 @@
     "theskumar/python-dotenv",
     "thestk/rtmidi",
     "theupdateframework/python-tuf",
+    "thewh1teagle/kokoro-onnx",
     "TheZoraiz/ascii-image-converter",
     "thheller/shadow-cljs",
     "thiagopradi/octopus",
@@ -5859,6 +5861,7 @@
     "wemake-services/wemake-python-styleguide",
     "wenda-LLM/wenda",
     "wendux/fly",
+    "wenet-e2e/speech-synthesis-paper",
     "wenet-e2e/wenet",
     "wenet-e2e/wespeaker",
     "WenmuZhou/PytorchOCR",

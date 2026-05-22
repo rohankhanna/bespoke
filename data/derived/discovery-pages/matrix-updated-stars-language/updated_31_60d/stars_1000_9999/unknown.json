@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 56,
-    "observations": 56,
-    "repos": 21,
-    "terms": 56
+    "components": 40,
+    "concepts": 68,
+    "observations": 68,
+    "repos": 24,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
+    "0xNyk/awesome-hermes-agent",
     "alchaincyf/zhangxuefeng-skill",
     "android/skills",
     "bbatsov/clojure-style-guide",
@@ -31,6 +32,8 @@
     "MicrosoftDocs/WSL",
     "pditommaso/awesome-pipeline",
     "ratatui/awesome-ratatui",
+    "rust-embedded/awesome-embedded-rust",
+    "rust-embedded/wg",
     "shuaibiyy/awesome-tf",
     "skills-directory/skill-codex",
     "tmstack/awesome-persona-skills",

@@ -1,20 +1,19 @@
 {
   "counts": {
-    "components": 265,
-    "concepts": 186,
-    "observations": 186,
-    "repos": 127,
-    "terms": 186
+    "components": 240,
+    "concepts": 170,
+    "observations": 170,
+    "repos": 123,
+    "terms": 170
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
-    "8144225309/superscalar-cln",
     "aidenlab/spacewalk",
     "aidenlab/swtool",
     "angular/angular-build-builds",
@@ -106,8 +105,6 @@
     "edward3h/bedrock-viz-from-backups",
     "flagos-ai/verl-FL",
     "getlantern/guide",
-    "guoqingbao/candle",
-    "hauntsaninja/mypy",
     "hermit-os/.github",
     "hmellor/vllm",
     "HumanSignal/label-studio-client-generator",
@@ -118,7 +115,6 @@
     "JuliaBinaryWrappers/GDAL_jll.jl",
     "kalavai-net/kalavai-templates",
     "kdubbo/xds-api",
-    "kleisauke/glib",
     "kyverno/.github",
     "lace/lacecore",
     "lakekeeper/iceberg-rust",

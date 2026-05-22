@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 3,
-    "terms": 26
+    "components": 10,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 1,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
-    "dkron-io/dkron",
-    "gobackup/gobackup",
-    "vale-cli/vale"
+    "kubernetes-sigs/karpenter"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 767,
-    "concepts": 1022,
-    "observations": 1026,
-    "repos": 92,
-    "terms": 1017
+    "components": 723,
+    "concepts": 956,
+    "observations": 959,
+    "repos": 85,
+    "terms": 951
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
-    "abseil/abseil-cpp",
     "Alexays/Waybar",
-    "apache/arrow",
     "apache/thrift",
     "apple/foundationdb",
     "arangodb/arangodb",
-    "aseprite/aseprite",
     "asmvik/yabai",
     "assimp/assimp",
     "baldurk/renderdoc",
@@ -58,7 +55,6 @@
     "grpc/grpc",
     "h2o/h2o",
     "ImageMagick/ImageMagick",
-    "Immediate-Mode-UI/Nuklear",
     "iovisor/bcc",
     "jemalloc/jemalloc",
     "jqlang/jq",
@@ -75,9 +71,7 @@
     "microsoft/onnxruntime",
     "microsoft/react-native-windows",
     "microsoft/STL",
-    "microsoft/winget-cli",
     "microsoft/WSL",
-    "ml-explore/mlx",
     "mongodb/mongo",
     "mpv-player/mpv",
     "NixOS/nix",
@@ -103,7 +97,6 @@
     "uNetworking/uWebSockets",
     "v8/v8",
     "winsiderss/systeminformer",
-    "wolfpld/tracy",
     "yhirose/cpp-httplib",
     "Z3Prover/z3"
   ]

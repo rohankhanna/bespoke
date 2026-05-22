@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -80,8 +80,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [joelshepherd/tabliss](https://github.com/joelshepherd/tabliss) | 2752 | 2024-08-19T21:13:10Z | TypeScript | Infrastructure/tooling | 5 | 44 | 5 | 5 |
 | [sandersn/mini-typescript](https://github.com/sandersn/mini-typescript) | 1201 | 2024-08-17T03:21:18Z | TypeScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [vuejs/vue-loader](https://github.com/vuejs/vue-loader) | 4976 | 2024-08-07T07:28:11Z | TypeScript | Infrastructure/tooling | 3 | 52 | 3 | 3 |
-| [nsfw-filter/nsfw-filter](https://github.com/nsfw-filter/nsfw-filter) | 1761 | 2024-08-07T04:44:06Z | TypeScript | Infrastructure/tooling | 11 | 57 | 11 | 11 |
-| [Uniswap/v3-periphery](https://github.com/Uniswap/v3-periphery) | 1317 | 2024-08-04T19:54:49Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
+| [nsfw-filter/nsfw-filter](https://github.com/nsfw-filter/nsfw-filter) | 1762 | 2024-08-07T04:44:06Z | TypeScript | Infrastructure/tooling | 11 | 57 | 11 | 11 |
+| [Uniswap/v3-periphery](https://github.com/Uniswap/v3-periphery) | 1316 | 2024-08-04T19:54:49Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
 | [egoist/esbuild-register](https://github.com/egoist/esbuild-register) | 1015 | 2024-07-25T13:46:42Z | TypeScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
 | [electron-vite/electron-vite-vue](https://github.com/electron-vite/electron-vite-vue) | 4858 | 2024-07-25T05:50:36Z | TypeScript | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [vercel/modelfusion](https://github.com/vercel/modelfusion) | 1319 | 2024-07-19T15:17:19Z | TypeScript | Infrastructure/tooling | 13 | 14 | 13 | 13 |
@@ -187,7 +187,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/BotFramework-Emulator](https://github.com/microsoft/BotFramework-Emulator) | 1895 | 2025-07-17T16:55:26Z | TypeScript | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 | [googleapis/google-auth-library-nodejs](https://github.com/googleapis/google-auth-library-nodejs) | 1882 | 2025-11-20T21:08:50Z | TypeScript | CLI | 5 | 45 | 5 | 5 |
 | [sveltejs/svelte-preprocess](https://github.com/sveltejs/svelte-preprocess) | 1788 | 2025-01-13T09:21:19Z | TypeScript | Infrastructure/tooling | 4 | 30 | 4 | 4 |
-| [nsfw-filter/nsfw-filter](https://github.com/nsfw-filter/nsfw-filter) | 1761 | 2024-08-07T04:44:06Z | TypeScript | Infrastructure/tooling | 11 | 57 | 11 | 11 |
+| [nsfw-filter/nsfw-filter](https://github.com/nsfw-filter/nsfw-filter) | 1762 | 2024-08-07T04:44:06Z | TypeScript | Infrastructure/tooling | 11 | 57 | 11 | 11 |
 | [domeccleston/sharegpt](https://github.com/domeccleston/sharegpt) | 1757 | 2024-09-25T19:21:08Z | TypeScript | Unknown | 1 | 0 | 1 | 1 |
 | [node-gh/gh](https://github.com/node-gh/gh) | 1705 | 2021-06-04T17:53:51Z | TypeScript | CLI | 4 | 48 | 4 | 4 |
 | [antfu/esno](https://github.com/antfu/esno) | 1612 | 2024-09-29T00:24:25Z | TypeScript | Unknown | 5 | 5 | 5 | 5 |
@@ -209,8 +209,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [plantain-00/type-coverage](https://github.com/plantain-00/type-coverage) | 1345 | 2024-10-25T00:18:37Z | TypeScript | CLI | 1 | 15 | 1 | 1 |
 | [remotion-dev/github-unwrapped-2022](https://github.com/remotion-dev/github-unwrapped-2022) | 1321 | 2023-04-04T06:53:57Z | TypeScript | Unknown | 3 | 33 | 3 | 3 |
 | [vercel/modelfusion](https://github.com/vercel/modelfusion) | 1319 | 2024-07-19T15:17:19Z | TypeScript | Infrastructure/tooling | 13 | 14 | 13 | 13 |
-| [Uniswap/v3-periphery](https://github.com/Uniswap/v3-periphery) | 1317 | 2024-08-04T19:54:49Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
 | [hans/obsidian-citation-plugin](https://github.com/hans/obsidian-citation-plugin) | 1317 | 2024-06-13T07:50:22Z | TypeScript | Infrastructure/tooling | 1 | 32 | 1 | 1 |
+| [Uniswap/v3-periphery](https://github.com/Uniswap/v3-periphery) | 1316 | 2024-08-04T19:54:49Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
 | [liamcain/obsidian-periodic-notes](https://github.com/liamcain/obsidian-periodic-notes) | 1305 | 2024-08-23T22:56:22Z | TypeScript | Infrastructure/tooling | 3 | 28 | 3 | 3 |
 | [google-github-actions/auth](https://github.com/google-github-actions/auth) | 1300 | 2025-11-15T11:18:16Z | TypeScript | Infrastructure/tooling | 5 | 24 | 0 | 0 |
 | [redis/redis-om-node](https://github.com/redis/redis-om-node) | 1253 | 2025-04-09T13:20:58Z | TypeScript | Infrastructure/tooling | 1 | 16 | 1 | 1 |

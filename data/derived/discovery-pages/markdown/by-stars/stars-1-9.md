@@ -1,6 +1,6 @@
 # 1 to 9 stars
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 ## Active filters
 
@@ -9,10 +9,10 @@ Generated at: `2026-05-21T12:29:26.648415+00:00`
 ## Counts
 
 - repos: 2371
-- terms: 5313
-- components: 11906
-- concepts: 5294
-- observations: 5304
+- terms: 5307
+- components: 11895
+- concepts: 5288
+- observations: 5298
 
 ## Static behavior
 
@@ -22,8 +22,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [Venly/web3-react-venly](https://github.com/Venly/web3-react-venly) | 1 | 2026-05-21T10:53:40Z | TypeScript | Infrastructure/tooling | 5 | 7 | 5 | 5 |
-| [mozilla-ai/otari](https://github.com/mozilla-ai/otari) | 9 | 2026-05-21T09:55:11Z | Python | Infrastructure/tooling | 6 | 11 | 6 | 6 |
+| [Venly/web3-react-venly](https://github.com/Venly/web3-react-venly) | 1 | 2026-05-21T10:55:35Z | TypeScript | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [apostrophecms/starter-kit-astro-essentials](https://github.com/apostrophecms/starter-kit-astro-essentials) | 6 | 2026-05-19T15:14:55Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [SeedScientist/K2V](https://github.com/SeedScientist/K2V) | 2 | 2026-05-19T07:09:55Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [cloudfoundry/credhub-acceptance-tests](https://github.com/cloudfoundry/credhub-acceptance-tests) | 2 | 2026-05-18T13:01:37Z | Go | Unknown | 4 | 0 | 4 | 4 |
@@ -2281,6 +2280,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [greglook/lein-cprint](https://github.com/greglook/lein-cprint) | 4 | 2022-01-21T00:46:14Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [qri-io/frontend](https://github.com/qri-io/frontend) | 3 | 2022-01-20T16:56:51Z | TypeScript | Infrastructure/tooling | 0 | 98 | 0 | 0 |
 | [hayguen/pffft_benchmarks](https://github.com/hayguen/pffft_benchmarks) | 3 | 2022-01-19T21:46:00Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [rhgrossman/pyctcdecode_demo](https://github.com/rhgrossman/pyctcdecode_demo) | 5 | 2022-01-16T21:25:13Z | Python | Library | 0 | 0 | 0 | 0 |
 | [artemhlezin/webgpu-gerstner-waves](https://github.com/artemhlezin/webgpu-gerstner-waves) | 9 | 2022-01-12T21:01:58Z | TypeScript | Web app | 0 | 12 | 0 | 0 |
 | [SelimaC/Tutorial-SCADS-Summer-School-2020-Scalable-Deep-Learning](https://github.com/SelimaC/Tutorial-SCADS-Summer-School-2020-Scalable-Deep-Learning) | 8 | 2022-01-11T11:20:07Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [lydell/next-minimal-routes](https://github.com/lydell/next-minimal-routes) | 5 | 2022-01-11T07:48:36Z | JavaScript | Unknown | 0 | 25 | 0 | 0 |
@@ -2314,7 +2314,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [745165806/PaddleSpeechTask](https://github.com/745165806/PaddleSpeechTask) | 8 | 2021-11-05T02:33:50Z | Python | Library | 0 | 0 | 0 | 0 |
 | [pedromtcosta/fluentassertions.csharpfunctionalextensions](https://github.com/pedromtcosta/FluentAssertions.CSharpFunctionalExtensions) | 8 | 2021-11-03T20:59:02Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [jiweimaster/lfs](https://github.com/JiweiMaster/lfs) | 1 | 2021-11-03T03:14:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [TritonDataCenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
+| [tritondatacenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
 | [unitycontainer/aspnet-webapi](https://github.com/unitycontainer/aspnet-webapi) | 9 | 2021-10-31T18:10:05Z | Other | Library | 0 | 0 | 0 | 0 |
 | [bow-swift/nef-editor-server](https://github.com/bow-swift/nef-editor-server) | 7 | 2021-10-31T17:05:52Z | Other | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [go-bun/go-http-routing-benchmark](https://github.com/go-bun/go-http-routing-benchmark) | 4 | 2021-10-21T06:48:19Z | Go | Unknown | 0 | 0 | 0 | 0 |
@@ -2398,7 +2398,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mozilla-ai/otari](https://github.com/mozilla-ai/otari) | 9 | 2026-05-21T09:55:11Z | Python | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [ADNTIO/crispy-bootloader-rp2040-rs](https://github.com/ADNTIO/crispy-bootloader-rp2040-rs) | 9 | 2026-05-18T09:16:44Z | Rust | Infrastructure/tooling | 1 | 16 | 1 | 1 |
 | [energye/designer](https://github.com/energye/designer) | 9 | 2026-05-08T15:29:20Z | Go | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [cosmos/rosetta](https://github.com/cosmos/rosetta) | 9 | 2026-05-05T03:35:26Z | Go | Infrastructure/tooling | 10 | 13 | 10 | 10 |
@@ -2945,7 +2944,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [allenai/scifact-evaluator](https://github.com/allenai/scifact-evaluator) | 7 | 2021-12-29T06:10:06Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [euagendas/semeval_8_2022_ia_downloader](https://github.com/euagendas/semeval_8_2022_ia_downloader) | 7 | 2021-12-15T14:58:16Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [brentyi/fannypack](https://github.com/brentyi/fannypack) | 7 | 2021-11-10T01:12:20Z | Python | Infrastructure/tooling | 5 | 4 | 5 | 5 |
-| [TritonDataCenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
+| [tritondatacenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
 | [bow-swift/nef-editor-server](https://github.com/bow-swift/nef-editor-server) | 7 | 2021-10-31T17:05:52Z | Other | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [IndexXuan/vue-enterprise-boilerplate](https://github.com/IndexXuan/vue-enterprise-boilerplate) | 7 | 2021-08-09T08:12:03Z | JavaScript | CLI | 0 | 47 | 0 | 0 |
 | [AjayThorve/Spatial-Analytics-Viz](https://github.com/AjayThorve/Spatial-Analytics-Viz) | 7 | 2021-08-04T01:03:04Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -3355,6 +3354,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Cacodemon345/BlastThruReborn](https://github.com/Cacodemon345/BlastThruReborn) | 5 | 2022-03-16T10:45:12Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [my-liminal-space/read-parquet-browser](https://github.com/my-liminal-space/read-parquet-browser) | 5 | 2022-03-12T20:49:04Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [alexcrichton/git2-rs](https://github.com/alexcrichton/git2-rs) | 5 | 2022-03-10T17:03:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [rhgrossman/pyctcdecode_demo](https://github.com/rhgrossman/pyctcdecode_demo) | 5 | 2022-01-16T21:25:13Z | Python | Library | 0 | 0 | 0 | 0 |
 | [lydell/next-minimal-routes](https://github.com/lydell/next-minimal-routes) | 5 | 2022-01-11T07:48:36Z | JavaScript | Unknown | 0 | 25 | 0 | 0 |
 | [scottemmons/youngs-cql](https://github.com/scottemmons/youngs-cql) | 5 | 2021-12-10T04:16:42Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [indexxuan/vite-plugin-vue-cli](https://github.com/IndexXuan/vite-plugin-vue-cli) | 5 | 2021-09-22T01:45:12Z | TypeScript | CLI | 1 | 31 | 1 | 1 |
@@ -4272,7 +4272,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dotnet-foundation/wg-corporate-relations](https://github.com/dotnet-foundation/wg-corporate-relations) | 2 | 2021-07-29T12:27:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [atom-community/autocomplete-plus](https://github.com/atom-community/autocomplete-plus) | 2 | 2021-07-21T23:48:09Z | JavaScript | Unknown | 0 | 15 | 0 | 0 |
 | [kaminari/kaminari-mongo_mapper](https://github.com/kaminari/kaminari-mongo_mapper) | 2 | 2021-05-25T03:37:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [Venly/web3-react-venly](https://github.com/Venly/web3-react-venly) | 1 | 2026-05-21T10:53:40Z | TypeScript | Infrastructure/tooling | 5 | 7 | 5 | 5 |
+| [Venly/web3-react-venly](https://github.com/Venly/web3-react-venly) | 1 | 2026-05-21T10:55:35Z | TypeScript | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [oscard0m/ts-transformer-remove-named-export](https://github.com/oscard0m/ts-transformer-remove-named-export) | 1 | 2026-05-18T12:51:05Z | JavaScript | Unknown | 0 | 11 | 0 | 0 |
 | [Aayushm24/presidential-briefing](https://github.com/Aayushm24/presidential-briefing) | 1 | 2026-05-13T03:11:40Z | Other | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [atsushieno/aap-juce-simple-host](https://github.com/atsushieno/aap-juce-simple-host) | 1 | 2026-05-10T18:55:50Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |

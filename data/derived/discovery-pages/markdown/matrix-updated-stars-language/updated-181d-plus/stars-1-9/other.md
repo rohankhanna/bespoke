@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 336
-- terms: 512
-- components: 1092
-- concepts: 506
-- observations: 506
+- repos: 339
+- terms: 519
+- components: 1096
+- concepts: 513
+- observations: 513
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jtdaugherty/vty-crossplatform](https://github.com/jtdaugherty/vty-crossplatform) | 4 | 2025-11-22T23:42:43Z | Other | Library | 0 | 0 | 0 | 0 |
+| [nelson-lang/module_skeleton_basic](https://github.com/nelson-lang/module_skeleton_basic) | 1 | 2025-11-22T19:31:19Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [nelson-lang/module_skeleton](https://github.com/nelson-lang/module_skeleton) | 2 | 2025-11-22T19:01:18Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [LucasGinard/AireLibre-iOS](https://github.com/LucasGinard/AireLibre-iOS) | 6 | 2025-11-22T03:07:49Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [simdjson/simdjson-data](https://github.com/simdjson/simdjson-data) | 6 | 2025-11-21T02:46:48Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [anotherlusitano/SpectrumPlus](https://github.com/anotherlusitano/SpectrumPlus) | 5 | 2025-11-20T00:30:28Z | Other | Infrastructure/tooling | 0 | 6 | 0 | 0 |
@@ -533,6 +536,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [m00qek/matcher_combinators.lua](https://github.com/m00qek/matcher_combinators.lua) | 5 | 2022-05-17T23:44:55Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [arecarn/vim-selection](https://github.com/arecarn/vim-selection) | 5 | 2021-08-30T19:18:32Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dgellow/idris-docker-image](https://github.com/dgellow/idris-docker-image) | 5 | 2021-06-09T14:33:53Z | Other | Infrastructure/tooling | 5 | 0 | 5 | 5 |
+| [jtdaugherty/vty-crossplatform](https://github.com/jtdaugherty/vty-crossplatform) | 4 | 2025-11-22T23:42:43Z | Other | Library | 0 | 0 | 0 | 0 |
 | [XR-Robotics/XRoboToolkit-RobotVision-PC](https://github.com/XR-Robotics/XRoboToolkit-RobotVision-PC) | 4 | 2025-08-20T01:45:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [jpbruyere/CrowEdit](https://github.com/jpbruyere/CrowEdit) | 4 | 2025-08-16T20:17:10Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [bugarela/tla-input](https://github.com/bugarela/tla-input) | 4 | 2025-04-16T16:26:57Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -609,6 +613,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lyceum/lyceummujocoviz.jl](https://github.com/Lyceum/LyceumMuJoCoViz.jl) | 3 | 2021-09-25T04:29:45Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [buraksezer/olric-kubernetes](https://github.com/buraksezer/olric-kubernetes) | 3 | 2021-08-17T21:00:10Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Shiweiliuiiiiiii/SET-MLP-ONE-MILLION-NEURONS](https://github.com/Shiweiliuiiiiiii/SET-MLP-ONE-MILLION-NEURONS) | 3 | 2021-06-10T04:57:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [nelson-lang/module_skeleton](https://github.com/nelson-lang/module_skeleton) | 2 | 2025-11-22T19:01:18Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [evoskuil/visual-studio-template](https://github.com/evoskuil/visual-studio-template) | 2 | 2025-11-13T01:43:40Z | Other | Library | 0 | 0 | 0 | 0 |
 | [clojurephant/clojurephant-tooling](https://github.com/clojurephant/clojurephant-tooling) | 2 | 2025-11-06T22:26:27Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [cdeust/ai-prd-builder](https://github.com/cdeust/ai-prd-builder) | 2 | 2025-10-04T11:17:25Z | Other | Model/data | 0 | 0 | 0 | 0 |
@@ -657,6 +662,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hchiam/learning-alpine](https://github.com/hchiam/learning-alpine) | 2 | 2021-09-19T22:21:48Z | Other | Unknown | 0 | 5 | 0 | 0 |
 | [kahgeh/ls-crates.nvim](https://github.com/kahgeh/ls-crates.nvim) | 2 | 2021-07-31T13:44:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [kaminari/kaminari-mongo_mapper](https://github.com/kaminari/kaminari-mongo_mapper) | 2 | 2021-05-25T03:37:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [nelson-lang/module_skeleton_basic](https://github.com/nelson-lang/module_skeleton_basic) | 1 | 2025-11-22T19:31:19Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [heshengtao/sap-ai-sheet](https://github.com/heshengtao/sap-ai-sheet) | 1 | 2025-11-18T13:13:24Z | Other | Unknown | 1 | 4 | 1 | 1 |
 | [cooper1637/SageAttention](https://github.com/cooper1637/SageAttention) | 1 | 2025-11-18T03:58:21Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [rocker-org/bspm](https://github.com/rocker-org/bspm) | 1 | 2025-11-02T22:44:52Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 82,
-    "concepts": 123,
-    "observations": 123,
-    "repos": 20,
-    "terms": 122
+    "components": 94,
+    "concepts": 127,
+    "observations": 127,
+    "repos": 22,
+    "terms": 132
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "Alibaba-NLP/DeepResearch",
     "cool-RR/PySnooper",
@@ -29,6 +29,8 @@
     "QwenLM/Qwen",
     "QwenLM/Qwen-Agent",
     "QwenLM/Qwen3-TTS",
+    "rany2/edge-tts",
+    "superclaude-org/superclaude_framework",
     "vibrantlabsai/ragas",
     "Wan-Video/Wan2.1",
     "Wan-Video/Wan2.2",

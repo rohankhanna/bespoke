@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 207,
-    "concepts": 167,
-    "observations": 167,
-    "repos": 54,
-    "terms": 167
+    "components": 189,
+    "concepts": 162,
+    "observations": 162,
+    "repos": 48,
+    "terms": 162
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
-    "actboy168/ltest",
     "aimeos/ai-monolog",
     "apache/netbeans-antora-ui",
     "appsignal/appsignal-elixir-plug",
@@ -33,16 +32,13 @@
     "conda-forge/scikit-build-core-feedstock",
     "cosmos/security",
     "curiousdannii/emglken",
-    "CVEProject/cve-user-registry-client",
     "dotenvx/homebrew-brew",
     "enbop/fungi-app",
     "fern-api/docs",
     "fluent-vue/examples",
     "fredrikekre/runic-pre-commit",
     "googleapis/google-cloud-php-compute",
-    "goreleaser/.github",
     "hao-ai-lab/flash-attention-fp4",
-    "hchiam/hchiam.github.io",
     "holochain/holonix",
     "Humans-of-Julia/BibInternal.jl",
     "JeremyAnsel/SharpAssimp",
@@ -54,13 +50,11 @@
     "KhronosGroup/KTX-Software-CTS",
     "lintnet-modules/ghalint",
     "localstack/homebrew-tap",
-    "Mbed-TLS/mbedtls-test",
     "mozilla-mobile/fxios-ctl",
     "moznion/sbt-spotless",
     "NightWatcher314/homebrew-formula",
     "php-rdkafka/php-rdkafka-doc",
     "pixel-font-studio/fusion-bold-pixel-font",
-    "raku-community-modules/Terminal-WCWidth",
     "rmsrosa/rmsrosa.github.io",
     "ros2-rust/rosidl_rust",
     "stable-haskell/cabal",

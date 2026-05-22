@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 34
-- terms: 175
+- repos: 35
+- terms: 179
 - components: 531
-- concepts: 177
-- observations: 178
+- concepts: 181
+- observations: 182
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Adobe-CEP/CEP-Resources](https://github.com/Adobe-CEP/CEP-Resources) | 1818 | 2026-02-20T20:59:34Z | JavaScript | Docs/knowledge | 4 | 0 | 4 | 4 |
 | [chakra-core/ChakraCore](https://github.com/chakra-core/ChakraCore) | 9251 | 2026-02-19T20:35:46Z | JavaScript | Infrastructure/tooling | 15 | 1 | 15 | 15 |
 | [microsoft/generative-ai-with-javascript](https://github.com/microsoft/generative-ai-with-javascript) | 1194 | 2026-02-19T10:27:16Z | JavaScript | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [breejs/bree](https://github.com/breejs/bree) | 3285 | 2026-02-17T22:09:07Z | JavaScript | Infrastructure/tooling | 15 | 34 | 15 | 15 |
@@ -88,6 +89,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fengari-lua/fengari](https://github.com/fengari-lua/fengari) | 1991 | 2026-01-02T13:02:57Z | JavaScript | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [pburtchaell/redux-promise-middleware](https://github.com/pburtchaell/redux-promise-middleware) | 1975 | 2026-01-30T18:25:34Z | JavaScript | Unknown | 5 | 19 | 5 | 5 |
 | [facebook/fbjs](https://github.com/facebook/fbjs) | 1964 | 2026-01-21T23:17:02Z | JavaScript | Infrastructure/tooling | 0 | 10 | 0 | 0 |
+| [Adobe-CEP/CEP-Resources](https://github.com/Adobe-CEP/CEP-Resources) | 1818 | 2026-02-20T20:59:34Z | JavaScript | Docs/knowledge | 4 | 0 | 4 | 4 |
 | [guybedford/es-module-shims](https://github.com/guybedford/es-module-shims) | 1725 | 2026-01-04T01:28:04Z | JavaScript | Infrastructure/tooling | 0 | 21 | 0 | 0 |
 | [alexmojaki/birdseye](https://github.com/alexmojaki/birdseye) | 1713 | 2026-01-11T12:25:17Z | JavaScript | Infrastructure/tooling | 3 | 4 | 4 | 4 |
 | [typicode/mistcss](https://github.com/typicode/mistcss) | 1616 | 2026-02-13T11:39:35Z | JavaScript | Infrastructure/tooling | 8 | 15 | 8 | 8 |

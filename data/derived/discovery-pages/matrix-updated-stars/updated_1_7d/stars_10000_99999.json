@@ -1,41 +1,47 @@
 {
   "counts": {
-    "components": 430,
-    "concepts": 231,
-    "observations": 231,
-    "repos": 24,
-    "terms": 231
+    "components": 351,
+    "concepts": 303,
+    "observations": 303,
+    "repos": 30,
+    "terms": 303
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
+    "567-labs/instructor",
     "aden-hive/hive",
     "anthropics/claude-cookbooks",
     "apache/brpc",
     "apache/casbin",
     "browserslist/browserslist",
-    "ChatGPTNextWeb/NextChat",
+    "Comfy-Org/ComfyUI-Manager",
     "Dao-AILab/flash-attention",
     "dense-analysis/ale",
-    "ggml-org/ggml",
     "github-linguist/linguist",
     "googleapis/google-api-nodejs-client",
+    "huggingface/pytorch-image-models",
     "JetBrains/compose-multiplatform",
+    "langchain-ai/langchainjs",
+    "Lightning-AI/pytorch-lightning",
     "meta-llama/llama-cookbook",
-    "mui/material-ui",
-    "neovim/nvim-lspconfig",
+    "mozilla-ai/llamafile",
     "nvm-sh/nvm",
-    "nwjs/nw.js",
+    "oobabooga/textgen",
+    "psf/black",
     "pyg-team/pytorch_geometric",
-    "qubvel-org/segmentation_models.pytorch",
+    "QuantumNous/new-api",
     "quickwit-oss/tantivy",
+    "run-llama/llama_index",
     "rust-lang/mdBook",
+    "rust-lang/rust-analyzer",
+    "spaceship-prompt/spaceship-prompt",
     "SubtitleEdit/subtitleedit",
     "TEN-framework/ten-framework",
-    "vercel-labs/skills"
+    "ungoogled-software/ungoogled-chromium"
   ]
 }

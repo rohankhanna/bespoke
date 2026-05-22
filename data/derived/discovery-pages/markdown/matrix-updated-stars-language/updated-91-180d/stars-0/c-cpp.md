@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars · C/C++
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
-- terms: 9
-- components: 18
-- concepts: 9
-- observations: 9
+- repos: 7
+- terms: 5
+- components: 13
+- concepts: 5
+- observations: 5
 
 ## Static behavior
 
@@ -33,7 +33,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [czk23/YiTu](https://github.com/czk23/YiTu) | 0 | 2026-01-07T05:54:31Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [cloudaper/compact_enc_det_fork](https://github.com/cloudaper/compact_enc_det_fork) | 0 | 2025-12-26T10:05:11Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [vovkos/luadoxyxml](https://github.com/vovkos/luadoxyxml) | 0 | 2025-12-04T06:05:48Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [smallscientist1/tilelang](https://github.com/smallscientist1/tilelang) | 0 | 2025-11-22T13:10:37Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -46,4 +45,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [czk23/YiTu](https://github.com/czk23/YiTu) | 0 | 2026-01-07T05:54:31Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [cloudaper/compact_enc_det_fork](https://github.com/cloudaper/compact_enc_det_fork) | 0 | 2025-12-26T10:05:11Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [vovkos/luadoxyxml](https://github.com/vovkos/luadoxyxml) | 0 | 2025-12-04T06:05:48Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [smallscientist1/tilelang](https://github.com/smallscientist1/tilelang) | 0 | 2025-11-22T13:10:37Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |

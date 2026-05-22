@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1033,
-    "concepts": 794,
-    "observations": 795,
-    "repos": 65,
-    "terms": 785
+    "components": 976,
+    "concepts": 758,
+    "observations": 759,
+    "repos": 62,
+    "terms": 749
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
@@ -21,7 +21,6 @@
     "ast-grep/ast-grep",
     "astral-sh/ruff",
     "Automattic/harper",
-    "bevyengine/bevy",
     "biomejs/biome",
     "BloopAI/vibe-kanban",
     "clap-rs/clap",
@@ -42,7 +41,6 @@
     "googleworkspace/cli",
     "helix-editor/helix",
     "huggingface/tokenizers",
-    "hyperium/tonic",
     "iced-rs/iced",
     "influxdata/influxdb",
     "jj-vcs/jj",
@@ -51,7 +49,6 @@
     "LemmyNet/lemmy",
     "microsoft/windows-rs",
     "nearai/ironclaw",
-    "orhun/git-cliff",
     "oxc-project/oxc",
     "pola-rs/polars",
     "PyO3/pyo3",

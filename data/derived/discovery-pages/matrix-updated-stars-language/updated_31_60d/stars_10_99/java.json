@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 120,
-    "observations": 122,
-    "repos": 25,
-    "terms": 119
+    "components": 129,
+    "concepts": 139,
+    "observations": 141,
+    "repos": 30,
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
+    "agentclientprotocol/java-sdk",
     "akarnokd/RxJavaFiberInterop",
+    "apache/arrow-java",
     "apache/camel-quarkus-examples",
     "apache/datasketches-hive",
     "apache/datasketches-pig",
@@ -23,6 +25,8 @@
     "bazel-contrib/rules_jvm",
     "bobbylight/RSTALanguageSupport",
     "bobbylight/SpellChecker",
+    "bsorrentino/java-async-generator",
+    "cedar-policy/cedar-java",
     "codelibs/fess-crawler",
     "codetyio/codety-scanner",
     "dart4e/dart4e",
@@ -32,6 +36,7 @@
     "google/guava-beta-checker",
     "ipld/java-cid",
     "iterate-ch/rococoa",
+    "kirill-grouchnikov/ephemeral",
     "kurrent-io/KurrentDB-Client-Java",
     "m2e-code-quality/m2e-code-quality",
     "multiformats/java-multibase",

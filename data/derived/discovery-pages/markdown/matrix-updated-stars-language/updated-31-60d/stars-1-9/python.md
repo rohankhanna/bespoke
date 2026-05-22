@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 59
-- terms: 142
-- components: 201
-- concepts: 125
-- observations: 125
+- repos: 60
+- terms: 148
+- components: 212
+- concepts: 131
+- observations: 131
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [andriykohut/pdm-readiness](https://github.com/andriykohut/pdm-readiness) | 6 | 2026-04-22T03:23:52Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
+| [pyrtlsdr/pyrtlsdrlib](https://github.com/pyrtlsdr/pyrtlsdrlib) | 5 | 2026-04-21T23:41:50Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [dreamiurg/peakbagger-cli](https://github.com/dreamiurg/peakbagger-cli) | 3 | 2026-04-20T19:35:08Z | Python | CLI | 10 | 14 | 10 | 10 |
 | [onicai/IConfucius](https://github.com/onicai/IConfucius) | 8 | 2026-04-20T12:59:18Z | Python | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [beneadie/DeepDog_1](https://github.com/beneadie/DeepDog_1) | 5 | 2026-04-20T01:52:47Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -84,7 +86,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fixie-ai/evals](https://github.com/fixie-ai/evals) | 7 | 2026-03-24T23:22:05Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [Boulaouaney/timmx](https://github.com/Boulaouaney/timmx) | 4 | 2026-03-24T14:28:03Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [Mercury13/unicodia-sesh](https://github.com/Mercury13/unicodia-sesh) | 3 | 2026-03-23T13:21:58Z | Python | Unknown | 5 | 0 | 5 | 5 |
-| [42-evey/evey-bridge-plugin](https://github.com/42-evey/evey-bridge-plugin) | 7 | 2026-03-22T15:07:23Z | Python | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -102,11 +103,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Jango-AI-com/morning-cli](https://github.com/Jango-AI-com/morning-cli) | 7 | 2026-04-14T11:39:05Z | Python | CLI | 0 | 2 | 0 | 0 |
 | [ROCm/rbuild](https://github.com/ROCm/rbuild) | 7 | 2026-04-04T03:59:16Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [fixie-ai/evals](https://github.com/fixie-ai/evals) | 7 | 2026-03-24T23:22:05Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [42-evey/evey-bridge-plugin](https://github.com/42-evey/evey-bridge-plugin) | 7 | 2026-03-22T15:07:23Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [andriykohut/pdm-readiness](https://github.com/andriykohut/pdm-readiness) | 6 | 2026-04-22T03:23:52Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [etanhey/brainlayer](https://github.com/EtanHey/brainlayer) | 6 | 2026-04-18T17:54:55Z | Python | Infrastructure/tooling | 2 | 4 | 0 | 0 |
 | [apptainer/apptainer-userdocs](https://github.com/apptainer/apptainer-userdocs) | 6 | 2026-04-15T17:13:20Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [justinchuby/lintrunner-adapters](https://github.com/justinchuby/lintrunner-adapters) | 6 | 2026-04-13T15:14:34Z | Python | CLI | 12 | 9 | 12 | 12 |
 | [KabakaWilliam/trajectorykit](https://github.com/KabakaWilliam/trajectorykit) | 6 | 2026-03-26T21:03:40Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
+| [pyrtlsdr/pyrtlsdrlib](https://github.com/pyrtlsdr/pyrtlsdrlib) | 5 | 2026-04-21T23:41:50Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [beneadie/DeepDog_1](https://github.com/beneadie/DeepDog_1) | 5 | 2026-04-20T01:52:47Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [floxym/financial-chat](https://github.com/Floxym/financial-chat) | 5 | 2026-04-19T13:20:11Z | Python | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [gibdd-dps/prizolov-agent-os](https://github.com/GIBDD-DPS/prizolov-agent-os) | 5 | 2026-04-18T09:26:30Z | Python | Infrastructure/tooling | 1 | 4 | 0 | 0 |

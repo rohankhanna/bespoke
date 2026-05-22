@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 162,
-    "concepts": 104,
-    "observations": 104,
-    "repos": 32,
-    "terms": 104
+    "components": 151,
+    "concepts": 98,
+    "observations": 98,
+    "repos": 30,
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
-    "andriykohut/pdm-readiness",
     "arielagor/jetbrains-mono-hebrew",
     "astral-sh/versions",
     "astropy/repo_stats",
@@ -39,7 +38,6 @@
     "ParisNeo/lollms_client",
     "plone/cookieplone-templates",
     "PrimeIntellect-ai/renderers",
-    "pyrtlsdr/pyrtlsdrlib",
     "scaleway/serverless-api-framework-python",
     "TJC-LP/sanzaru",
     "triton-inference-server/TensorRT-LLM",

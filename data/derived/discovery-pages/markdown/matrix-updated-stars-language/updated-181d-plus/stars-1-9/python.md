@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 271
+- repos: 272
 - terms: 344
 - components: 455
 - concepts: 341
@@ -277,6 +277,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MikeSteglich/pyCmpl3](https://github.com/MikeSteglich/pyCmpl3) | 2 | 2022-02-18T17:28:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [kishwarshafin/T2T_polishing_scripts](https://github.com/kishwarshafin/T2T_polishing_scripts) | 7 | 2022-02-17T22:48:08Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [bitergia/grimoirelab-perceval-finos](https://github.com/Bitergia/grimoirelab-perceval-finos) | 1 | 2022-02-14T06:47:29Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [rhgrossman/pyctcdecode_demo](https://github.com/rhgrossman/pyctcdecode_demo) | 5 | 2022-01-16T21:25:13Z | Python | Library | 0 | 0 | 0 | 0 |
 | [SelimaC/Tutorial-SCADS-Summer-School-2020-Scalable-Deep-Learning](https://github.com/SelimaC/Tutorial-SCADS-Summer-School-2020-Scalable-Deep-Learning) | 8 | 2022-01-11T11:20:07Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [VeriSilicon/tvm](https://github.com/VeriSilicon/tvm) | 9 | 2021-12-31T08:36:16Z | Python | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [allenai/scifact-evaluator](https://github.com/allenai/scifact-evaluator) | 7 | 2021-12-29T06:10:06Z | Python | Model/data | 0 | 0 | 0 | 0 |
@@ -419,6 +420,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cognitiveailab/t5-scienceworld](https://github.com/cognitiveailab/t5-scienceworld) | 5 | 2022-11-03T06:08:04Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [meteoswiss-mdr/pyart](https://github.com/meteoswiss-mdr/pyart) | 5 | 2022-07-06T18:55:00Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [18fadly-anthony/rookie](https://github.com/18fadly-anthony/rookie) | 5 | 2022-04-07T02:50:03Z | Python | Library | 1 | 0 | 1 | 1 |
+| [rhgrossman/pyctcdecode_demo](https://github.com/rhgrossman/pyctcdecode_demo) | 5 | 2022-01-16T21:25:13Z | Python | Library | 0 | 0 | 0 | 0 |
 | [scottemmons/youngs-cql](https://github.com/scottemmons/youngs-cql) | 5 | 2021-12-10T04:16:42Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [ranchlai/sound_classification](https://github.com/ranchlai/sound_classification) | 5 | 2021-08-25T10:35:30Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [keeeeenw/TinyLLaVA_Factory](https://github.com/keeeeenw/TinyLLaVA_Factory) | 4 | 2025-08-27T02:49:55Z | Python | Framework | 0 | 0 | 0 | 0 |

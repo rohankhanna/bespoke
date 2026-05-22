@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 28425,
-    "concepts": 15208,
-    "observations": 15260,
+    "components": 28433,
+    "concepts": 15214,
+    "observations": 15266,
     "repos": 5500,
-    "terms": 15210
+    "terms": 15216
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -3758,7 +3758,6 @@
     "MicrosoftDocs/vcpkg-docs",
     "midi2-dev/MIDI2.0Workbench",
     "midi2-dev/ni-midi2",
-    "midsdsy/LOD-Net",
     "mightymo77/MightyMos-Cheat-Code-Pack",
     "mikecheninoulu/Unsupervised_IEPGAN",
     "mikepapadim/llama2.tornadovm.java",
@@ -3851,6 +3850,7 @@
     "motrixapp/motrix-install-assistant",
     "Mountchicken/CodeCookbook",
     "Mozer/YuE-extend",
+    "mozilla-ai/otari",
     "mozilla-mobile/shared-docs",
     "mozilla-services/shavar",
     "mozilla-services/shavar-list-creation",
@@ -5150,7 +5150,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 455,
-    "concepts": 197,
-    "observations": 197,
-    "repos": 26,
-    "terms": 195
+    "components": 512,
+    "concepts": 233,
+    "observations": 233,
+    "repos": 29,
+    "terms": 231
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "ajeetdsouza/zoxide",
     "asciinema/asciinema",
     "astral-sh/uv",
+    "bevyengine/bevy",
     "casey/just",
     "cjpais/Handy",
     "dandavison/delta",
@@ -27,9 +28,11 @@
     "foundry-rs/foundry",
     "huggingface/candle",
     "hyperium/hyper",
+    "hyperium/tonic",
     "jdx/mise",
     "lsd-rs/lsd",
     "openai/codex",
+    "orhun/git-cliff",
     "rust-lang/cargo",
     "Schniz/fnm",
     "seanmonstar/reqwest",

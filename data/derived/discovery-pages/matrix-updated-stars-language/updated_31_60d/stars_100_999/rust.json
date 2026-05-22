@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 720,
-    "concepts": 489,
-    "observations": 499,
-    "repos": 112,
-    "terms": 495
+    "components": 791,
+    "concepts": 535,
+    "observations": 546,
+    "repos": 119,
+    "terms": 541
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "a1phyr/assets_manager",
     "AchetaGames/Epic-Asset-Manager",
+    "actix/actix-net",
     "ada-url/rust",
     "agent-sh/agnix",
     "ajrcarey/pdfium-render",
@@ -53,6 +54,7 @@
     "dtolnay/ref-cast",
     "dtolnay/trybuild",
     "dtormoen/tsk-tsk",
+    "EmbarkStudios/cargo-about",
     "emilk/egui_plot",
     "esp-rs/esp-idf-hal",
     "esp-rs/esp-idf-svc",
@@ -93,6 +95,7 @@
     "nixops4/nixops4",
     "Nugine/simd",
     "PistonDevelopers/glfw-rs",
+    "Plonky3/Plonky3",
     "posit-dev/air",
     "prove-rs/z3.rs",
     "proxy-wasm/proxy-wasm-rust-sdk",
@@ -102,10 +105,12 @@
     "ramsayleung/rspotify",
     "RazrFalcon/memmap2-rs",
     "rust-analyzer/rowan",
+    "rust-lang/bors",
     "rust-lang/crater",
     "rust-lang/libz-sys",
     "rust-lang/rustwide",
     "rust-lang/socket2",
+    "rust-lang/team",
     "rust-mobile/rust-android-examples",
     "rust-nvml/nvml-wrapper",
     "RustCrypto/AEADs",
@@ -116,7 +121,9 @@
     "saphyr-rs/saphyr",
     "shiinamiyuki/akari_render",
     "smol-rs/async-task",
+    "Sovereign-Labs/sovereign-sdk",
     "sparsemat/sprs",
+    "succinctlabs/op-succinct",
     "tauri-apps/muda",
     "tekumara/typos-lsp",
     "tikv/jemallocator",

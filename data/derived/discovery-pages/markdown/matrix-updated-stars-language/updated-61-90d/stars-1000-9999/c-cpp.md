@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 42
-- terms: 213
-- components: 114
-- concepts: 219
-- observations: 220
+- repos: 43
+- terms: 218
+- components: 122
+- concepts: 224
+- observations: 225
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [redis/hiredis](https://github.com/redis/hiredis) | 6651 | 2026-03-22T22:29:49Z | C/C++ | CLI | 3 | 9 | 3 | 3 |
+| [bugaevc/wl-clipboard](https://github.com/bugaevc/wl-clipboard) | 2290 | 2026-03-22T18:51:25Z | C/C++ | CLI | 2 | 0 | 2 | 2 |
 | [containers/bubblewrap](https://github.com/containers/bubblewrap) | 6847 | 2026-03-21T18:07:08Z | C/C++ | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [alembic/alembic](https://github.com/alembic/alembic) | 1154 | 2026-03-20T23:54:10Z | C/C++ | CLI | 1 | 4 | 1 | 1 |
 | [xlite-dev/lite.ai.toolkit](https://github.com/xlite-dev/lite.ai.toolkit) | 4407 | 2026-03-19T02:59:30Z | C/C++ | Infrastructure/tooling | 13 | 1 | 13 | 13 |
@@ -40,7 +42,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lieff/minimp3](https://github.com/lieff/minimp3) | 1884 | 2026-03-12T19:47:55Z | C/C++ | Library | 13 | 0 | 13 | 13 |
 | [NVIDIA/gdrcopy](https://github.com/NVIDIA/gdrcopy) | 1373 | 2026-03-12T16:30:20Z | C/C++ | Library | 6 | 0 | 6 | 6 |
 | [nmoehrle/mvs-texturing](https://github.com/nmoehrle/mvs-texturing) | 1074 | 2026-03-11T18:53:37Z | C/C++ | Unknown | 1 | 0 | 2 | 2 |
-| [snapcast/snapcast](https://github.com/snapcast/snapcast) | 7650 | 2026-03-10T14:27:11Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
+| [snapcast/snapcast](https://github.com/snapcast/snapcast) | 7651 | 2026-03-10T14:27:11Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [leethomason/tinyxml2](https://github.com/leethomason/tinyxml2) | 5750 | 2026-03-10T01:18:18Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [ioquake/ioq3](https://github.com/ioquake/ioq3) | 2735 | 2026-03-09T11:01:13Z | C/C++ | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [TheAssassin/AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) | 7935 | 2026-03-09T04:21:55Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -67,7 +69,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/onnxruntime-inference-examples](https://github.com/microsoft/onnxruntime-inference-examples) | 1634 | 2026-02-24T00:18:26Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [flashlight/flashlight](https://github.com/flashlight/flashlight) | 5440 | 2026-02-23T12:39:08Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [mitsuba-renderer/nanogui](https://github.com/mitsuba-renderer/nanogui) | 1785 | 2026-02-22T19:39:55Z | C/C++ | Infrastructure/tooling | 1 | 8 | 1 | 1 |
-| [pramsey/pgsql-http](https://github.com/pramsey/pgsql-http) | 1571 | 2026-02-20T16:55:58Z | C/C++ | CLI | 0 | 1 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -76,12 +77,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gperftools/gperftools](https://github.com/gperftools/gperftools) | 8942 | 2026-03-08T17:06:07Z | C/C++ | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [TheAssassin/AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) | 7935 | 2026-03-09T04:21:55Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [wang-xinyu/tensorrtx](https://github.com/wang-xinyu/tensorrtx) | 7755 | 2026-03-07T10:45:14Z | C/C++ | Infrastructure/tooling | 20 | 3 | 20 | 20 |
-| [snapcast/snapcast](https://github.com/snapcast/snapcast) | 7650 | 2026-03-10T14:27:11Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
+| [snapcast/snapcast](https://github.com/snapcast/snapcast) | 7651 | 2026-03-10T14:27:11Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [tzapu/WiFiManager](https://github.com/tzapu/WiFiManager) | 7164 | 2026-02-25T01:11:14Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [bblanchon/ArduinoJson](https://github.com/bblanchon/ArduinoJson) | 7147 | 2026-03-03T17:03:44Z | C/C++ | Infrastructure/tooling | 9 | 10 | 10 | 10 |
 | [sqlcipher/sqlcipher](https://github.com/sqlcipher/sqlcipher) | 7101 | 2026-03-17T13:41:17Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [Alex313031/thorium](https://github.com/Alex313031/thorium) | 7077 | 2026-03-14T04:02:03Z | C/C++ | Unknown | 16 | 0 | 17 | 17 |
 | [containers/bubblewrap](https://github.com/containers/bubblewrap) | 6847 | 2026-03-21T18:07:08Z | C/C++ | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [redis/hiredis](https://github.com/redis/hiredis) | 6651 | 2026-03-22T22:29:49Z | C/C++ | CLI | 3 | 9 | 3 | 3 |
 | [google/snappy](https://github.com/google/snappy) | 6562 | 2026-03-06T22:30:42Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [leethomason/tinyxml2](https://github.com/leethomason/tinyxml2) | 5750 | 2026-03-10T01:18:18Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [eradman/entr](https://github.com/eradman/entr) | 5554 | 2026-03-02T21:22:21Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
@@ -98,6 +100,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [duckdb/pg_duckdb](https://github.com/duckdb/pg_duckdb) | 3063 | 2026-03-16T09:08:43Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [ioquake/ioq3](https://github.com/ioquake/ioq3) | 2735 | 2026-03-09T11:01:13Z | C/C++ | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [eclipse-paho/paho.mqtt.c](https://github.com/eclipse-paho/paho.mqtt.c) | 2303 | 2026-03-06T09:47:52Z | C/C++ | CLI | 9 | 2 | 9 | 9 |
+| [bugaevc/wl-clipboard](https://github.com/bugaevc/wl-clipboard) | 2290 | 2026-03-22T18:51:25Z | C/C++ | CLI | 2 | 0 | 2 | 2 |
 | [libgit2/rugged](https://github.com/libgit2/rugged) | 2289 | 2026-02-28T18:12:44Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [stevengj/nlopt](https://github.com/stevengj/nlopt) | 2210 | 2026-03-13T22:19:47Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [mutouyun/cpp-ipc](https://github.com/mutouyun/cpp-ipc) | 2187 | 2026-03-14T04:54:40Z | C/C++ | Infrastructure/tooling | 5 | 2 | 5 | 5 |
@@ -109,7 +112,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [coin-or/Ipopt](https://github.com/coin-or/Ipopt) | 1742 | 2026-03-06T08:54:06Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [zardus/preeny](https://github.com/zardus/preeny) | 1647 | 2026-03-06T03:53:59Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/onnxruntime-inference-examples](https://github.com/microsoft/onnxruntime-inference-examples) | 1634 | 2026-02-24T00:18:26Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [pramsey/pgsql-http](https://github.com/pramsey/pgsql-http) | 1571 | 2026-02-20T16:55:58Z | C/C++ | CLI | 0 | 1 | 0 | 0 |
 | [NVIDIA/gdrcopy](https://github.com/NVIDIA/gdrcopy) | 1373 | 2026-03-12T16:30:20Z | C/C++ | Library | 6 | 0 | 6 | 6 |
 | [Chlumsky/msdf-atlas-gen](https://github.com/Chlumsky/msdf-atlas-gen) | 1229 | 2026-03-05T15:06:56Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [alembic/alembic](https://github.com/alembic/alembic) | 1154 | 2026-03-20T23:54:10Z | C/C++ | CLI | 1 | 4 | 1 | 1 |

@@ -3,7 +3,7 @@
     "components": 2195,
     "concepts": 2986,
     "observations": 2993,
-    "repos": 952,
+    "repos": 951,
     "terms": 2970
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -945,7 +945,6 @@
     "wjdp/htmltest",
     "wl-zhao/UniPC",
     "wl-zhao/VPD",
-    "xolox/vim-misc",
     "xolox/vim-session",
     "xserrat/docker-facebook-demucs",
     "xuorig/graphql-schema_comparator",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 4,
-    "terms": 29
+    "components": 29,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 3,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
-    "bazel-contrib/bazel-gazelle",
-    "bazel-contrib/rules_go",
     "etcd-io/bbolt",
+    "gobackup/gobackup",
     "version-fox/vfox"
   ]
 }

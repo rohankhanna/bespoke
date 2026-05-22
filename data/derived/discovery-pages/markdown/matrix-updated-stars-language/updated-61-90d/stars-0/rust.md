@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars · Rust
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
+- repos: 7
 - terms: 11
-- components: 35
+- components: 32
 - concepts: 11
 - observations: 12
 
@@ -33,7 +33,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [onomojo/i18n-country-translations-rs](https://github.com/onomojo/i18n-country-translations-rs) | 0 | 2026-03-08T01:22:49Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [onomojo/i18n-timezones-rs](https://github.com/onomojo/i18n-timezones-rs) | 0 | 2026-03-08T01:22:42Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [EspressoSystems/commit](https://github.com/EspressoSystems/commit) | 0 | 2026-03-03T16:37:22Z | Rust | Infrastructure/tooling | 3 | 9 | 3 | 3 |
-| [typstyle-rs/prettyless](https://github.com/typstyle-rs/prettyless) | 0 | 2026-02-20T13:55:19Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -46,4 +45,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [onomojo/i18n-country-translations-rs](https://github.com/onomojo/i18n-country-translations-rs) | 0 | 2026-03-08T01:22:49Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [onomojo/i18n-timezones-rs](https://github.com/onomojo/i18n-timezones-rs) | 0 | 2026-03-08T01:22:42Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [EspressoSystems/commit](https://github.com/EspressoSystems/commit) | 0 | 2026-03-03T16:37:22Z | Rust | Infrastructure/tooling | 3 | 9 | 3 | 3 |
-| [typstyle-rs/prettyless](https://github.com/typstyle-rs/prettyless) | 0 | 2026-02-20T13:55:19Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |

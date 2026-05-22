@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 719,
-    "concepts": 131,
-    "observations": 131,
-    "repos": 15,
-    "terms": 129
+    "components": 771,
+    "concepts": 136,
+    "observations": 136,
+    "repos": 16,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "apify/apify-cli",
     "apify/mcpc",
-    "LuaLS/vscode-lua",
+    "Koenkk/zigbee-herdsman",
     "Luligu/matterbridge",
     "Luligu/matterbridge-shelly",
     "Luligu/matterbridge-zigbee2mqtt",
@@ -25,6 +25,7 @@
     "nurikk/zigbee2mqtt-frontend",
     "preactjs/preact-devtools",
     "Rel1cx/eslint-react",
+    "RiDDiX/home-assistant-matter-hub",
     "serversideup/webext-bridge",
     "skilld-dev/skilld",
     "xdebug/vscode-php-debug",

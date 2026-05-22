@@ -3,7 +3,7 @@
     "components": 16,
     "concepts": 42,
     "observations": 42,
-    "repos": 60,
+    "repos": 59,
     "terms": 42
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "cachix/serde-envfile",
     "conda-forge/conda-lock-feedstock",
@@ -70,7 +70,6 @@
     "danielrosehill/Open-Research-Workspaces-Index",
     "Dustinpro/Dustinpro",
     "hermit-os/.github",
-    "kleisauke/glib",
     "qiayuanl/unitree_buildfarm",
     "sp1-patches/elliptic-curves",
     "TransferQueue/community_doc"

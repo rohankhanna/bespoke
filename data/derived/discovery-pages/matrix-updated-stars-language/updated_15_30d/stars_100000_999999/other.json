@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 104,
-    "concepts": 71,
-    "observations": 72,
-    "repos": 4,
-    "terms": 71
+    "components": 99,
+    "concepts": 46,
+    "observations": 47,
+    "repos": 3,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "2dust/v2rayN",
-    "flutter/flutter",
     "microsoft/generative-ai-for-beginners",
     "twbs/bootstrap"
   ]

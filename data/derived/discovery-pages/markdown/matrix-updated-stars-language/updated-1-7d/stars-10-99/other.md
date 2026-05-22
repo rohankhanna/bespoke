@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 20
-- components: 15
-- concepts: 20
-- observations: 20
+- repos: 3
+- terms: 11
+- components: 43
+- concepts: 11
+- observations: 11
 
 ## Static behavior
 
@@ -26,16 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [f3liz-casa/noraneko](https://github.com/f3liz-casa/noraneko) | 87 | 2026-05-21T02:31:29Z | Other | Infrastructure/tooling | 1 | 36 | 1 | 1 |
 | [nvim-mini/mini.deps](https://github.com/nvim-mini/mini.deps) | 97 | 2026-05-19T14:00:49Z | Other | Library | 3 | 0 | 3 | 3 |
 | [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-05-18T14:44:17Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [pivotal/credhub-release](https://github.com/pivotal/credhub-release) | 37 | 2026-05-14T19:40:56Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
-| [browniebroke/pypackage-template](https://github.com/browniebroke/pypackage-template) | 89 | 2026-05-14T16:46:13Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [nvim-mini/mini.deps](https://github.com/nvim-mini/mini.deps) | 97 | 2026-05-19T14:00:49Z | Other | Library | 3 | 0 | 3 | 3 |
-| [browniebroke/pypackage-template](https://github.com/browniebroke/pypackage-template) | 89 | 2026-05-14T16:46:13Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |
+| [f3liz-casa/noraneko](https://github.com/f3liz-casa/noraneko) | 87 | 2026-05-21T02:31:29Z | Other | Infrastructure/tooling | 1 | 36 | 1 | 1 |
 | [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-05-18T14:44:17Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [pivotal/credhub-release](https://github.com/pivotal/credhub-release) | 37 | 2026-05-14T19:40:56Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 109,
-    "concepts": 150,
-    "observations": 151,
-    "repos": 43,
-    "terms": 150
+    "components": 89,
+    "concepts": 130,
+    "observations": 130,
+    "repos": 36,
+    "terms": 130
   },
   "facet_version": 1,
   "filters": {
@@ -12,29 +12,25 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "abhisheknaiidu/abhisheknaiidu",
     "adoptium/temurin21-binaries",
     "antonbabenko/awesome-terraform-compliance",
-    "apappascs/mcp-servers-hub",
     "bitrise-io/bitrise-steplib",
     "box/box-openapi",
     "Chocolate4U/Iran-sing-box-rules",
     "chromedp/cdproto",
     "cisagov/vulnrichment",
-    "CVEProject/automation-working-group",
     "deepset-ai/haystack-integrations",
     "dnaka91/obws",
     "eryajf/awesome-stars-eryajf",
     "fluxcd/flux2-multi-tenancy",
     "forcedotcom/cli",
     "getlantern/lantern-binaries",
-    "ghimiresunil/Top-AI-Tools",
     "github/copilot-language-server-release",
     "google/agents-cli",
-    "googlefonts/RobotoMono",
     "graalvm/graalvm-ce-dev-builds",
     "graalvm/mandrel",
     "kitknox/rootshell",
@@ -45,16 +41,13 @@
     "lxgw/LxgwXiHei",
     "lxgw/LxgwZhiSong",
     "maplibre/awesome-maplibre",
-    "mason-org/mason-registry",
     "mdn/mdn-community",
     "microsoft/openjdk",
     "near/NEPs",
     "NuGet/docs.microsoft.com-nuget",
-    "ocaml/opam-repository",
     "openjs-foundation/cross-project-council",
     "openwdl/wdl",
     "smithy-lang/awesome-smithy",
-    "tinted-theming/home",
     "triton-inference-server/tensorrtllm_backend",
     "yokoffing/Control-D-Config"
   ]

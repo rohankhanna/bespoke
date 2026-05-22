@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2409,
-    "concepts": 479,
-    "observations": 482,
-    "repos": 84,
-    "terms": 479
+    "components": 2334,
+    "concepts": 456,
+    "observations": 459,
+    "repos": 80,
+    "terms": 456
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -21,7 +21,6 @@
     "Airfooox/cron-validate",
     "apollographql/vscode-graphql",
     "appsignal/appsignal-javascript",
-    "Azure/bicep-deploy",
     "Azure/powershell",
     "bufbuild/protovalidate-es",
     "carbon-design-system/carbon-preprocess-svelte",
@@ -34,7 +33,6 @@
     "DataDog/opentelemetry-demo",
     "ecyrbe/zodios-express",
     "elastic/opentelemetry-demo",
-    "electron/windows-sign",
     "emscripten-forge/mambajs",
     "fabon-f/temporal-polyfill-lite",
     "fannheyward/coc-xml",
@@ -51,7 +49,6 @@
     "intlify/cli",
     "intlify/vue-i18n-extensions",
     "ipfs/github-mgmt",
-    "jaegertracing/documentation",
     "jakebailey/pyright-action",
     "jakoch/install-vulkan-sdk-action",
     "jbaubree/sitemap-ts",
@@ -59,7 +56,6 @@
     "jest-community/eslint-plugin-jest-extended",
     "julia-actions/install-juliaup",
     "Kastalien-Research/thoughtbox",
-    "KazariEX/dxup",
     "ldclabs/KIP",
     "llamastack/llama-stack-client-typescript",
     "maplibre/maplibre-gl-inspect",

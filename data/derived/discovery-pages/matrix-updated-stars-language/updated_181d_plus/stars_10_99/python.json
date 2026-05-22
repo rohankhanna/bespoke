@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 684,
-    "concepts": 1453,
-    "observations": 1455,
+    "components": 691,
+    "concepts": 1461,
+    "observations": 1463,
     "repos": 838,
-    "terms": 1434
+    "terms": 1442
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -578,7 +578,6 @@
     "microsoft/Optimal-Freshness-Crawl-Scheduling",
     "microsoft/tdqn",
     "microsoft/TREC-2019-Deep-Learning",
-    "midsdsy/LOD-Net",
     "mikecheninoulu/Unsupervised_IEPGAN",
     "Mikxox/EnCodec_Trainer",
     "MingjieChen/DYGANVC",
@@ -641,6 +640,7 @@
     "OpenNLPLab/HGRN2",
     "OpenSparseLLMs/Skip-DiT",
     "OpenVisualCloud/Ad-Insertion-Sample",
+    "OpenVoiceOS/ovos-tts-plugin-piper",
     "openxrlab/xrmogen",
     "orangeduck/100style-retarget",
     "orangeduck/GenoViewPython",

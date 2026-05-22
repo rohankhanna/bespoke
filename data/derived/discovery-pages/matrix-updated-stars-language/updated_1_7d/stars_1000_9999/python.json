@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 118,
-    "concepts": 154,
-    "observations": 155,
-    "repos": 18,
-    "terms": 153
+    "components": 108,
+    "concepts": 139,
+    "observations": 140,
+    "repos": 17,
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "aigc-apps/VideoX-Fun",
     "aws/serverless-application-model",
@@ -24,12 +24,11 @@
     "lucidrains/vector-quantize-pytorch",
     "meta-pytorch/captum",
     "meta-pytorch/tnt",
-    "meta-pytorch/torchtune",
     "msiemens/tinydb",
     "nomadkaraoke/python-audio-separator",
-    "rllm-org/rllm",
     "roboflow/maestro",
     "safetensors/safetensors",
+    "speaches-ai/speaches",
     "strob/gentle",
     "zai-org/GLM-V"
   ]

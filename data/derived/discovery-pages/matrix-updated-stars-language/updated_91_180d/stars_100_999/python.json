@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 362,
-    "concepts": 736,
-    "observations": 736,
-    "repos": 199,
-    "terms": 730
+    "components": 365,
+    "concepts": 739,
+    "observations": 739,
+    "repos": 200,
+    "terms": 733
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0k/shyaml",
     "23andMe/Yamale",
@@ -106,6 +106,7 @@
     "hustvl/DiffusionDriveV2",
     "ielab/llm-rankers",
     "inclusionAI/ASearcher",
+    "inducer/cgen",
     "intel/ai-reference-models",
     "InternRobotics/VLAC",
     "InternScience/SciReason",

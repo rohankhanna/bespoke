@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 188,
-    "concepts": 97,
-    "observations": 98,
-    "repos": 49,
-    "terms": 96
+    "components": 183,
+    "concepts": 99,
+    "observations": 100,
+    "repos": 50,
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0xBigBoss/ghostty-web",
     "8144225309/superscalar-mcp",
@@ -38,8 +38,9 @@
     "iambriccardo/gcp-bigquery-client",
     "jrsoftware/is7z",
     "JuliaBinaryWrappers/GettextRuntime_jll.jl",
+    "kdubbo/api",
+    "kdubbo/client-go",
     "marin-community/harbor",
-    "mjvolk3/dendron-template",
     "musicman3/cruder",
     "musicman3/r2-d2",
     "Nichaojun/Nichaojun.github.io",
@@ -53,11 +54,11 @@
     "onomojo/i18n-timezones-go",
     "onomojo/i18n-timezones-js",
     "onomojo/i18n-timezones-rs",
+    "petercorke/sphinx-autorun",
     "saalfeldlab/n5-blosc",
     "Saalvage/assimp",
     "samsja/dion",
     "stable-haskell/stack",
-    "typstyle-rs/prettyless",
     "usdot-fhwa-stol/carma-ns3-adapter",
     "vaporif/rvx",
     "yoshoku/numo-liblinear",

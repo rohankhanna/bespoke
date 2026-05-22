@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 308,
-    "concepts": 330,
-    "observations": 330,
-    "repos": 46,
-    "terms": 330
+    "components": 345,
+    "concepts": 393,
+    "observations": 394,
+    "repos": 52,
+    "terms": 393
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
+    "abseil/abseil-cpp",
     "alibaba/MNN",
+    "apache/arrow",
     "ApolloAuto/apollo",
     "aristocratos/btop",
+    "aseprite/aseprite",
     "bellard/quickjs",
     "ClickHouse/ClickHouse",
     "cloudwu/skynet",
@@ -36,14 +39,16 @@
     "google/sanitizers",
     "google/skia",
     "haiwen/seafile",
+    "Immediate-Mode-UI/Nuklear",
     "jedisct1/libsodium",
     "jonas/tig",
     "libevent/libevent",
     "libgit2/libgit2",
     "mawww/kakoune",
+    "microsoft/winget-cli",
     "microsoft/WSL2-Linux-Kernel",
     "microsoft/wslg",
-    "mobile-shell/mosh",
+    "ml-explore/mlx",
     "ninja-build/ninja",
     "nlohmann/json",
     "nothings/stb",
@@ -59,6 +64,7 @@
     "tesseract-ocr/tesseract",
     "tmux/tmux",
     "tsl0922/ttyd",
+    "wolfpld/tracy",
     "zeromq/libzmq"
   ]
 }

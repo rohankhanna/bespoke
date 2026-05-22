@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 197,
-    "concepts": 147,
-    "observations": 148,
-    "repos": 33,
-    "terms": 146
+    "components": 179,
+    "concepts": 137,
+    "observations": 138,
+    "repos": 32,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
     "ashvardanian/StringWars",
@@ -43,7 +43,6 @@
     "servo/rust-cssparser",
     "SunDoge/simdjson-rust",
     "typst/comemo",
-    "typstyle-rs/typstyle",
     "YaLTeR/wl-clipboard-rs",
     "zkcrypto/bls12_381",
     "zkcrypto/jubjub"

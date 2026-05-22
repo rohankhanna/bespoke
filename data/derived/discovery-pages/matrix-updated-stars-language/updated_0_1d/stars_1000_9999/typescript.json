@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 297,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 4,
-    "terms": 43
+    "components": 414,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 8,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
-    "alichherawalla/off-grid-mobile-ai",
+    "apollographql/apollo-tooling",
+    "conventional-changelog/conventional-changelog",
     "microsoft/vscode-js-debug",
     "podman-desktop/podman-desktop",
-    "typescript-language-server/typescript-language-server"
+    "safe-fndn/safe-smart-account",
+    "TanStack/form",
+    "typescript-language-server/typescript-language-server",
+    "vercel/serve"
   ]
 }

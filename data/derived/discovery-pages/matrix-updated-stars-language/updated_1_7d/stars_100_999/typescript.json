@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 330,
-    "concepts": 71,
-    "observations": 71,
-    "repos": 10,
-    "terms": 71
+    "components": 254,
+    "concepts": 85,
+    "observations": 85,
+    "repos": 9,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "abaplint/transpiler",
     "antvis/GPT-Vis",
     "Brendonovich/MacroGraph",
-    "electron/packager",
     "fluent-vue/fluent-vue",
+    "hexabot-ai/Hexabot",
     "huggingface/hf-mcp-server",
-    "Koenkk/zigbee-herdsman",
-    "mightyiam/eslint-config-love",
-    "RiDDiX/home-assistant-matter-hub"
+    "matter-js/matter.js",
+    "mightyiam/eslint-config-love"
   ]
 }

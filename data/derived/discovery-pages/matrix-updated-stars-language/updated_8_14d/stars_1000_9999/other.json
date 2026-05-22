@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 43,
-    "concepts": 66,
-    "observations": 66,
-    "repos": 10,
-    "terms": 66
+    "components": 57,
+    "concepts": 77,
+    "observations": 77,
+    "repos": 11,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
+    "beam-community/elixir-companies",
     "benchflow-ai/skillsbench",
+    "elixir-grpc/grpc",
     "hacl-star/hacl-star",
     "intel/BigDL",
     "lightning/bolts",
@@ -22,7 +24,6 @@
     "nvim-mini/mini.nvim",
     "nvimdev/lspsaga.nvim",
     "okd-project/okd",
-    "stakira/OpenUtau",
-    "xororz/local-dream"
+    "stakira/OpenUtau"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -59,7 +59,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MiniMax-AI/MiniMax-MCP-JS](https://github.com/MiniMax-AI/MiniMax-MCP-JS) | 121 | 2025-07-22T03:50:37Z | TypeScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [keeweb/keeweb-connect](https://github.com/keeweb/keeweb-connect) | 121 | 2025-07-15T19:41:30Z | TypeScript | Infrastructure/tooling | 2 | 34 | 2 | 2 |
 | [timqian/bambot](https://github.com/timqian/bambot) | 939 | 2025-07-14T09:49:10Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
-| [javalent/obsidian-leaflet](https://github.com/javalent/obsidian-leaflet) | 691 | 2025-07-09T16:26:30Z | TypeScript | Infrastructure/tooling | 4 | 54 | 4 | 4 |
+| [javalent/obsidian-leaflet](https://github.com/javalent/obsidian-leaflet) | 690 | 2025-07-09T16:26:30Z | TypeScript | Infrastructure/tooling | 4 | 54 | 4 | 4 |
 | [mike-lischke/antlr4ng](https://github.com/mike-lischke/antlr4ng) | 134 | 2025-07-05T11:27:44Z | TypeScript | Infrastructure/tooling | 6 | 22 | 6 | 6 |
 | [wemake-services/wemake-vue-template](https://github.com/wemake-services/wemake-vue-template) | 728 | 2025-07-04T12:41:28Z | TypeScript | Infrastructure/tooling | 10 | 19 | 10 | 10 |
 | [kyryl-opens-ml/no-ocr](https://github.com/kyryl-opens-ml/no-ocr) | 184 | 2025-06-30T09:07:25Z | TypeScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
@@ -72,7 +72,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [scalabel/scalabel](https://github.com/scalabel/scalabel) | 661 | 2025-04-17T07:52:51Z | TypeScript | Infrastructure/tooling | 4 | 137 | 4 | 4 |
 | [sinclairzx81/typebox-codegen](https://github.com/sinclairzx81/typebox-codegen) | 203 | 2025-04-13T01:13:44Z | TypeScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [ipfs-shipyard/is-ipfs](https://github.com/ipfs-shipyard/is-ipfs) | 128 | 2025-03-28T18:06:12Z | TypeScript | Infrastructure/tooling | 5 | 10 | 5 | 5 |
-| [Obsidian-TTRPG-Community/dice-roller](https://github.com/Obsidian-TTRPG-Community/dice-roller) | 336 | 2025-03-24T12:58:23Z | TypeScript | Infrastructure/tooling | 2 | 38 | 2 | 2 |
+| [Obsidian-TTRPG-Community/dice-roller](https://github.com/Obsidian-TTRPG-Community/dice-roller) | 335 | 2025-03-24T12:58:23Z | TypeScript | Infrastructure/tooling | 2 | 38 | 2 | 2 |
 | [lxsmnsyc/solid-labels](https://github.com/lxsmnsyc/solid-labels) | 256 | 2025-03-14T03:07:12Z | TypeScript | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [stacks-archive/gaia](https://github.com/stacks-archive/gaia) | 757 | 2025-03-11T20:17:21Z | TypeScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
 | [simonwep/nanopop](https://github.com/simonwep/nanopop) | 719 | 2025-03-09T15:47:33Z | TypeScript | Infrastructure/tooling | 4 | 13 | 4 | 4 |
@@ -265,7 +265,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [wemake-services/wemake-vue-template](https://github.com/wemake-services/wemake-vue-template) | 728 | 2025-07-04T12:41:28Z | TypeScript | Infrastructure/tooling | 10 | 19 | 10 | 10 |
 | [simonwep/nanopop](https://github.com/simonwep/nanopop) | 719 | 2025-03-09T15:47:33Z | TypeScript | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [jezweb/roo-commander](https://github.com/jezweb/roo-commander) | 718 | 2025-11-20T23:23:12Z | TypeScript | Unknown | 2 | 11 | 2 | 2 |
-| [javalent/obsidian-leaflet](https://github.com/javalent/obsidian-leaflet) | 691 | 2025-07-09T16:26:30Z | TypeScript | Infrastructure/tooling | 4 | 54 | 4 | 4 |
+| [javalent/obsidian-leaflet](https://github.com/javalent/obsidian-leaflet) | 690 | 2025-07-09T16:26:30Z | TypeScript | Infrastructure/tooling | 4 | 54 | 4 | 4 |
 | [antfu/vscode-theme-vitesse](https://github.com/antfu/vscode-theme-vitesse) | 689 | 2025-08-22T01:15:13Z | TypeScript | Infrastructure/tooling | 5 | 19 | 5 | 5 |
 | [possibilities/claude-composer](https://github.com/possibilities/claude-composer) | 678 | 2025-07-31T02:29:50Z | TypeScript | Infrastructure/tooling | 1 | 22 | 0 | 0 |
 | [dimforge/rapier.js](https://github.com/dimforge/rapier.js) | 671 | 2025-11-05T18:27:54Z | TypeScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
@@ -322,7 +322,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fannheyward/coc-marketplace](https://github.com/fannheyward/coc-marketplace) | 351 | 2025-02-10T23:27:12Z | TypeScript | Unknown | 1 | 3 | 1 | 1 |
 | [johnlindquist/claude-hooks](https://github.com/johnlindquist/claude-hooks) | 350 | 2025-08-08T03:19:00Z | TypeScript | Infrastructure/tooling | 3 | 36 | 0 | 0 |
 | [sawhney17/logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger) | 345 | 2025-05-30T11:54:22Z | TypeScript | Infrastructure/tooling | 3 | 19 | 3 | 3 |
-| [Obsidian-TTRPG-Community/dice-roller](https://github.com/Obsidian-TTRPG-Community/dice-roller) | 336 | 2025-03-24T12:58:23Z | TypeScript | Infrastructure/tooling | 2 | 38 | 2 | 2 |
+| [Obsidian-TTRPG-Community/dice-roller](https://github.com/Obsidian-TTRPG-Community/dice-roller) | 335 | 2025-03-24T12:58:23Z | TypeScript | Infrastructure/tooling | 2 | 38 | 2 | 2 |
 | [CodeGeeX/codegeex-vscode-extension](https://github.com/CodeGeeX/codegeex-vscode-extension) | 335 | 2023-04-12T12:14:12Z | TypeScript | Unknown | 0 | 14 | 0 | 0 |
 | [antfu/vue-global-api](https://github.com/antfu/vue-global-api) | 335 | 2021-08-24T07:36:05Z | TypeScript | Service/API | 0 | 15 | 0 | 0 |
 | [electron-userland/electron-wix-msi](https://github.com/electron-userland/electron-wix-msi) | 330 | 2025-10-29T22:10:39Z | TypeScript | Unknown | 4 | 27 | 4 | 4 |

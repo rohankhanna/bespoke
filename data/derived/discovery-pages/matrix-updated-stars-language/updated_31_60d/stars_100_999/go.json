@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 732,
-    "concepts": 587,
-    "observations": 590,
-    "repos": 97,
-    "terms": 595
+    "components": 765,
+    "concepts": 617,
+    "observations": 620,
+    "repos": 103,
+    "terms": 625
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "AdguardTeam/AdGuardDNS",
@@ -20,6 +20,7 @@
     "AliyunContainerService/terway",
     "andybalholm/brotli",
     "apache/dubbo-go-pixiu",
+    "apache/dubbo-kubernetes",
     "appleboy/go-fcm",
     "argoproj-labs/argo-rollouts-manager",
     "aws/amazon-vpc-resource-controller-k8s",
@@ -68,6 +69,7 @@
     "hashicorp/hello-vault-go",
     "hashicorp/terraform-plugin-docs",
     "hashicorp/terraform-plugin-go",
+    "hashicorp/terraform-plugin-sdk",
     "hashicorp/terraform-provider-random",
     "hashicorp/terraform-provider-scaffolding-framework",
     "hazelcast/hazelcast-go-client",
@@ -78,10 +80,11 @@
     "jaegertracing/jaeger-idl",
     "JupiterRider/ffi",
     "knative/community",
+    "kube-rbac-proxy/kube-rbac-proxy",
     "kubeflow/mpi-operator",
     "kubernetes-sigs/boskos",
     "kubernetes-sigs/controller-tools",
-    "kubernetes-sigs/hydrophone",
+    "kubernetes-sigs/custom-metrics-apiserver",
     "kubernetes/cri-api",
     "Layr-Labs/eigenda",
     "letsencrypt/pebble",
@@ -92,9 +95,11 @@
     "microsoft/cognitive-services-speech-sdk-go",
     "microsoft/hcsshim",
     "minio/directpv",
+    "monitoring-mixins/mixtool",
     "notaryproject/notation",
     "open-telemetry/opentelemetry-collector-releases",
     "openshift/library",
+    "opentofu/registry",
     "phiat/claude-esp",
     "phuslu/log",
     "pires/go-proxyproto",
@@ -102,6 +107,7 @@
     "prometheus/exporter-toolkit",
     "raystack/meteor",
     "secretflow/kuscia",
+    "sethvargo/ratchet",
     "siderolabs/talos-cloud-controller-manager",
     "skenetechnologies/skene",
     "slsa-framework/slsa-github-generator",

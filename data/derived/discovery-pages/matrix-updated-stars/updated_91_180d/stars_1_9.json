@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 682,
-    "concepts": 334,
-    "observations": 336,
-    "repos": 210,
-    "terms": 345
+    "components": 671,
+    "concepts": 324,
+    "observations": 326,
+    "repos": 207,
+    "terms": 335
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -86,9 +86,9 @@
     "DavidKinder/Glulxe",
     "DavidKinder/Libraries",
     "dbubel/intake",
-    "deiga/nodenv-default-npmrc",
     "drewlinsley/pathfinder",
     "elixir-makeup/makeup_erlang",
+    "empriselab/kortex_description",
     "enzet/iconscript",
     "erwin-kok/multiformat",
     "ethereum-optimism/kurtosis-test",
@@ -130,7 +130,6 @@
     "jgpc42/jmh-clojure-task",
     "joeldrapper/dispersion",
     "jsdom/.github",
-    "jtdaugherty/vty-crossplatform",
     "JuliaAI/LearnDataFrontEnds.jl",
     "JuliaBinaryWrappers/libcxxwrap_julia_jll.jl",
     "JuliaML/MLCore.jl",
@@ -162,8 +161,6 @@
     "Myriad-Dreamin/typst",
     "near/near-abi-client-rs",
     "near/near-abi-rs",
-    "nelson-lang/module_skeleton",
-    "nelson-lang/module_skeleton_basic",
     "nvpro-samples/stb",
     "objectbox/objectbox-swift-generator",
     "ocaml-opam/opam-rt",

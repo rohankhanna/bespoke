@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 12
-- terms: 45
-- components: 101
-- concepts: 45
-- observations: 45
+- repos: 9
+- terms: 35
+- components: 40
+- concepts: 35
+- observations: 35
 
 ## Static behavior
 
@@ -35,9 +35,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rescript-lang/reanalyze](https://github.com/rescript-lang/reanalyze) | 283 | 2026-05-12T11:53:48Z | Other | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [elixir-protobuf/protobuf](https://github.com/elixir-protobuf/protobuf) | 899 | 2026-05-12T09:47:13Z | Other | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [WICG/attribution-reporting-api](https://github.com/WICG/attribution-reporting-api) | 458 | 2026-05-11T19:13:32Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [emacscollective/auto-compile](https://github.com/emacscollective/auto-compile) | 181 | 2026-05-11T15:50:46Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [atsushieno/ktmidi](https://github.com/atsushieno/ktmidi) | 102 | 2026-05-08T04:27:44Z | Other | CLI | 7 | 5 | 7 | 7 |
-| [sass/sass-spec](https://github.com/sass/sass-spec) | 211 | 2026-05-07T21:10:33Z | Other | Infrastructure/tooling | 2 | 55 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -50,8 +47,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Claude-Code-Projects-Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) | 470 | 2026-05-13T10:35:11Z | Other | CLI | 3 | 1 | 3 | 3 |
 | [WICG/attribution-reporting-api](https://github.com/WICG/attribution-reporting-api) | 458 | 2026-05-11T19:13:32Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [rescript-lang/reanalyze](https://github.com/rescript-lang/reanalyze) | 283 | 2026-05-12T11:53:48Z | Other | Infrastructure/tooling | 5 | 6 | 5 | 5 |
-| [sass/sass-spec](https://github.com/sass/sass-spec) | 211 | 2026-05-07T21:10:33Z | Other | Infrastructure/tooling | 2 | 55 | 2 | 2 |
 | [devcontainers/devcontainers.github.io](https://github.com/devcontainers/devcontainers.github.io) | 193 | 2026-05-13T12:02:19Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
-| [emacscollective/auto-compile](https://github.com/emacscollective/auto-compile) | 181 | 2026-05-11T15:50:46Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [appwrite/playground-for-web](https://github.com/appwrite/playground-for-web) | 109 | 2026-05-14T08:17:02Z | Other | Web app | 3 | 3 | 3 | 3 |
-| [atsushieno/ktmidi](https://github.com/atsushieno/ktmidi) | 102 | 2026-05-08T04:27:44Z | Other | CLI | 7 | 5 | 7 | 7 |

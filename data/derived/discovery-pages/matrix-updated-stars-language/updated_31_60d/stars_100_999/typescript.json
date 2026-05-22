@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3065,
-    "concepts": 557,
-    "observations": 557,
-    "repos": 113,
-    "terms": 618
+    "components": 3319,
+    "concepts": 592,
+    "observations": 592,
+    "repos": 119,
+    "terms": 653
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "43081j/picoquery",
     "AbianS/docker-db-manager",
     "actions/container-toolkit-action",
     "affaan-m/agentshield",
+    "alexlafroscia/vite-plugin-handlebars",
     "AmElmo/proofshot",
     "amplify-education/serverless-domain-manager",
     "antfu/skills-npm",
@@ -31,6 +32,8 @@
     "avli/clojureVSCode",
     "aws-actions/aws-secretsmanager-get-secrets",
     "aws-samples/dify-self-hosted-on-aws",
+    "aws/aws-iot-device-sdk-js-v2",
+    "babel/website",
     "badlogic/pi-share-hf",
     "birdofpreyru/react-native-fs",
     "blrchen/chatgpt-lite",
@@ -43,6 +46,7 @@
     "curiousdannii/parchment",
     "cztomsik/ava",
     "daeh/zotero-citation-tally",
+    "decentralized-identity/did-jwt",
     "devcontainers/ci",
     "dezoito/ollama-grid-search",
     "elizaos/elizaos.github.io",
@@ -54,6 +58,7 @@
     "fastify/demo",
     "filllabs/dependi",
     "giselles-ai/giselle",
+    "github/local-action",
     "google/adk-web",
     "GoogleCloudPlatform/wombat-dressing-room",
     "graalvm/setup-graalvm",
@@ -71,6 +76,7 @@
     "Kaliiiiiiiiii-Vinyzu/patchright-nodejs",
     "krassowski/jupyterlab-lsp",
     "kylebarron/arrow-js-ffi",
+    "kysely-org/kysely-ctl",
     "latex-lsp/texlab-vscode",
     "lewislulu/llm-wiki-skill",
     "lobehub/lobe-chat-plugins",
@@ -84,6 +90,7 @@
     "matepek/vscode-catch2-test-adapter",
     "MattiasBuelens/web-streams-polyfill",
     "MetaCubeX/Yacd-meta",
+    "microsoft/DefinitelyTyped-tools",
     "microsoft/TypeScript-DOM-lib-generator",
     "microsoft/vscode-css-languageservice",
     "microsoft/vscode-debugadapter-node",
@@ -107,6 +114,7 @@
     "PanAeon/vscode-tmgrammar-test",
     "retracedhq/retraced",
     "ruvnet/agentic-flow",
+    "safe-global/safe-deployments",
     "sass/embedded-host-node",
     "shareai-lab/kode-agent-sdk",
     "Shougo/ddc.vim",
@@ -123,9 +131,7 @@
     "typed-ember/glint",
     "vega/vega-embed",
     "vibe-log/vibe-log-cli",
-    "vim-denops/denops.vim",
     "webextension-toolbox/webextension-toolbox",
-    "XantreDev/preact-signals",
     "y-lohse/inkjs"
   ]
 }

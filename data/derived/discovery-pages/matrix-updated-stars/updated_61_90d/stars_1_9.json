@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 612,
-    "concepts": 430,
-    "observations": 431,
-    "repos": 132,
-    "terms": 424
+    "components": 623,
+    "concepts": 443,
+    "observations": 444,
+    "repos": 135,
+    "terms": 437
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "0x676e67/0x676e67",
     "0xPolygonHermez/pil2-compiler",
     "10up/.github",
+    "42-evey/evey-bridge-plugin",
     "a16z/arkworks-algebra",
     "AchimPieters/esp32-udp-logger",
     "actions-cool/.github",
@@ -26,6 +27,7 @@
     "adobe-type-tools/Adobe-Manga1",
     "adobe/spectrum-tokens",
     "adonisjs/.github",
+    "agent-sh/deslop",
     "agents-squads/agents-squads",
     "agents-x-project/PyVision-RL-Eval",
     "aifoundry-org/et-man",
@@ -62,6 +64,7 @@
     "chaoss/grimoirelab-perceval-opnfv",
     "chaoss/grimoirelab-perceval-puppet",
     "chaoss/grimoirelab-perceval-weblate",
+    "clearbluejar/ghidra-python",
     "cncf/k8s-conformance-archive",
     "coderaiser/escover",
     "cognizant-ai-lab/neuro-san-cc",
@@ -74,10 +77,10 @@
     "danielrosehill/Claude-Dolphin-Konsole-Actions",
     "danielrosehill/Claude-Dork",
     "danielrosehill/Hebrew-TTS-Providers",
+    "DanielSmith1239/KosherSwift",
     "datachainlab/ethereum-ibc-relay-prover",
     "day50-dev/mcp-search-and-run",
     "eddelbuettel/github-actions",
-    "empriselab/kortex_description",
     "filip26/copper-multibase",
     "filip26/copper-multicodec",
     "filip26/titanium-jcs",

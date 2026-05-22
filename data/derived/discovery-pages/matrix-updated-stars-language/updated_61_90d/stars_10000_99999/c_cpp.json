@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 6,
-    "terms": 57
+    "components": 33,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 7,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "aria2/aria2",
     "bol-van/zapret",
     "google/leveldb",
     "jart/cosmopolitan",
     "kyleneideck/backgroundmusic",
-    "microsoft/AirSim"
+    "microsoft/AirSim",
+    "mobile-shell/mosh"
   ]
 }

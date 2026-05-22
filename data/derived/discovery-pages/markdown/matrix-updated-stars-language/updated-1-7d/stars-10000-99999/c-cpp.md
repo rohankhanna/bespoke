@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 2
-- terms: 9
+- terms: 17
 - components: 10
-- concepts: 9
-- observations: 9
+- concepts: 17
+- observations: 17
 
 ## Static behavior
 
@@ -26,12 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [apache/brpc](https://github.com/apache/brpc) | 17509 | 2026-05-20T04:05:42Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14670 | 2026-05-16T13:00:00Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 24483 | 2026-05-20T16:27:04Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |
+| [apache/brpc](https://github.com/apache/brpc) | 17508 | 2026-05-20T04:05:42Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [apache/brpc](https://github.com/apache/brpc) | 17509 | 2026-05-20T04:05:42Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14670 | 2026-05-16T13:00:00Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 24483 | 2026-05-20T16:27:04Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |
+| [apache/brpc](https://github.com/apache/brpc) | 17508 | 2026-05-20T04:05:42Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -70,14 +70,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AppImage/AppImageKit](https://github.com/AppImage/AppImageKit) | 9306 | 2025-06-09T05:35:59Z | C/C++ | Library | 6 | 0 | 6 | 6 |
 | [davisking/dlib-models](https://github.com/davisking/dlib-models) | 1612 | 2025-05-28T01:33:39Z | C/C++ | Model/data | 0 | 0 | 0 | 0 |
 | [PaddlePaddle/Paddle-Lite](https://github.com/PaddlePaddle/Paddle-Lite) | 7248 | 2025-05-22T12:07:25Z | C/C++ | Unknown | 8 | 0 | 8 | 8 |
-| [misyltoad/VPhysics-Jolt](https://github.com/misyltoad/VPhysics-Jolt) | 1414 | 2025-05-18T22:14:27Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [misyltoad/VPhysics-Jolt](https://github.com/misyltoad/VPhysics-Jolt) | 1415 | 2025-05-18T22:14:27Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [PriesiaMioShirakana/DragonianVoice](https://github.com/PriesiaMioShirakana/DragonianVoice) | 1122 | 2025-05-18T10:10:18Z | C/C++ | Unknown | 10 | 0 | 10 | 10 |
 | [google/glog](https://github.com/google/glog) | 7365 | 2025-05-17T11:51:44Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [Tencent/TNN](https://github.com/Tencent/TNN) | 4631 | 2025-05-09T07:33:14Z | C/C++ | Infrastructure/tooling | 17 | 8 | 17 | 17 |
 | [aklomp/base64](https://github.com/aklomp/base64) | 1003 | 2025-05-06T18:19:59Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [microsoft/msix-packaging](https://github.com/microsoft/msix-packaging) | 1051 | 2025-04-28T18:04:30Z | C/C++ | Library | 1 | 0 | 1 | 1 |
 | [kkos/oniguruma](https://github.com/kkos/oniguruma) | 2518 | 2025-04-24T12:42:35Z | C/C++ | Infrastructure/tooling | 4 | 7 | 4 | 4 |
-| [koide3/fast_gicp](https://github.com/koide3/fast_gicp) | 1638 | 2025-04-24T01:46:48Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
+| [koide3/fast_gicp](https://github.com/koide3/fast_gicp) | 1639 | 2025-04-24T01:46:48Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [zaphoyd/websocketpp](https://github.com/zaphoyd/websocketpp) | 7675 | 2025-04-19T14:02:47Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
 | [hiroi-sora/PaddleOCR-json](https://github.com/hiroi-sora/PaddleOCR-json) | 1477 | 2025-04-07T14:43:56Z | C/C++ | Service/API | 2 | 0 | 3 | 3 |
 | [torch/torch7](https://github.com/torch/torch7) | 9117 | 2025-03-31T20:16:24Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -119,7 +119,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [P-H-C/phc-winner-argon2](https://github.com/P-H-C/phc-winner-argon2) | 5273 | 2024-08-06T13:28:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [id-Software/Quake-III-Arena](https://github.com/id-Software/Quake-III-Arena) | 7991 | 2024-08-02T00:20:36Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [li-plus/chatglm.cpp](https://github.com/li-plus/chatglm.cpp) | 2961 | 2024-07-31T06:12:02Z | C/C++ | Infrastructure/tooling | 9 | 10 | 9 | 9 |
-| [flann-lib/flann](https://github.com/flann-lib/flann) | 2372 | 2024-07-29T19:01:47Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [flann-lib/flann](https://github.com/flann-lib/flann) | 2371 | 2024-07-29T19:01:47Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [sass/node-sass](https://github.com/sass/node-sass) | 8477 | 2024-07-24T21:59:31Z | C/C++ | Infrastructure/tooling | 11 | 24 | 11 | 11 |
 | [Squirrel/Squirrel.Windows](https://github.com/Squirrel/Squirrel.Windows) | 7934 | 2024-07-24T10:06:45Z | C/C++ | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [agauniyal/rang](https://github.com/agauniyal/rang) | 1582 | 2024-07-23T07:26:16Z | C/C++ | CLI | 11 | 0 | 11 | 11 |
@@ -321,7 +321,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dmlc/decord](https://github.com/dmlc/decord) | 2463 | 2024-07-17T04:18:40Z | C/C++ | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [strasdat/Sophus](https://github.com/strasdat/Sophus) | 2407 | 2024-07-06T18:06:55Z | C/C++ | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [HKUST-Aerial-Robotics/A-LOAM](https://github.com/HKUST-Aerial-Robotics/A-LOAM) | 2400 | 2023-10-19T11:18:59Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
-| [flann-lib/flann](https://github.com/flann-lib/flann) | 2372 | 2024-07-29T19:01:47Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [flann-lib/flann](https://github.com/flann-lib/flann) | 2371 | 2024-07-29T19:01:47Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [ben-strasser/fast-cpp-csv-parser](https://github.com/ben-strasser/fast-cpp-csv-parser) | 2353 | 2025-02-02T15:51:35Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [veandco/go-sdl2](https://github.com/veandco/go-sdl2) | 2321 | 2025-02-20T04:55:37Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [specta/specta](https://github.com/specta/specta) | 2315 | 2022-02-27T13:22:51Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
@@ -366,7 +366,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [k2-fsa/sherpa-ncnn](https://github.com/k2-fsa/sherpa-ncnn) | 1672 | 2025-10-20T02:16:19Z | C/C++ | Infrastructure/tooling | 13 | 11 | 13 | 13 |
 | [tpruvot/ccminer](https://github.com/tpruvot/ccminer) | 1657 | 2024-03-09T17:37:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [rubyjs/therubyracer](https://github.com/rubyjs/therubyracer) | 1655 | 2023-12-04T13:55:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [koide3/fast_gicp](https://github.com/koide3/fast_gicp) | 1638 | 2025-04-24T01:46:48Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
+| [koide3/fast_gicp](https://github.com/koide3/fast_gicp) | 1639 | 2025-04-24T01:46:48Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [kmammou/v-hacd](https://github.com/kmammou/v-hacd) | 1620 | 2025-09-18T17:37:25Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [davisking/dlib-models](https://github.com/davisking/dlib-models) | 1612 | 2025-05-28T01:33:39Z | C/C++ | Model/data | 0 | 0 | 0 | 0 |
 | [google/highwayhash](https://github.com/google/highwayhash) | 1600 | 2024-04-18T16:08:17Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -385,7 +385,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Tessil/robin-map](https://github.com/Tessil/robin-map) | 1467 | 2025-11-02T19:30:02Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [adishavit/argh](https://github.com/adishavit/argh) | 1429 | 2025-01-21T09:38:36Z | C/C++ | CLI | 9 | 0 | 9 | 9 |
 | [LunarG/VulkanSamples](https://github.com/LunarG/VulkanSamples) | 1420 | 2021-07-28T18:49:36Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [misyltoad/VPhysics-Jolt](https://github.com/misyltoad/VPhysics-Jolt) | 1414 | 2025-05-18T22:14:27Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [misyltoad/VPhysics-Jolt](https://github.com/misyltoad/VPhysics-Jolt) | 1415 | 2025-05-18T22:14:27Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [cr-marcstevens/sha1collisiondetection](https://github.com/cr-marcstevens/sha1collisiondetection) | 1394 | 2025-10-30T19:26:00Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
 | [HKUST-Aerial-Robotics/FUEL](https://github.com/HKUST-Aerial-Robotics/FUEL) | 1394 | 2024-11-19T06:06:55Z | C/C++ | Framework | 4 | 0 | 4 | 4 |
 | [NVIDIA/VideoProcessingFramework](https://github.com/NVIDIA/VideoProcessingFramework) | 1379 | 2024-06-10T14:16:44Z | C/C++ | Infrastructure/tooling | 4 | 3 | 4 | 4 |

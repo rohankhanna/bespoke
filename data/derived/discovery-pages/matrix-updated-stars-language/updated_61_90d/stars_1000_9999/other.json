@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 263,
-    "concepts": 364,
-    "observations": 366,
-    "repos": 68,
-    "terms": 363
+    "components": 270,
+    "concepts": 366,
+    "observations": 368,
+    "repos": 69,
+    "terms": 365
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -57,6 +57,7 @@
     "mono/CppSharp",
     "msasanmh/DNSveil",
     "nanxiaobei/hugo-paper",
+    "ndmitchell/hlint",
     "nesquena/rabl",
     "omniauth/omniauth",
     "onnx/models",
@@ -64,6 +65,7 @@
     "pgpartman/pg_partman",
     "preservim/vimux",
     "pry/pry",
+    "ptsochantaris/trailer",
     "puppetlabs/puppet",
     "rjpcomputing/luaforwindows",
     "rmcelreath/rethinking",
@@ -79,7 +81,6 @@
     "v2fly/v2ray-examples",
     "varvet/pundit",
     "vcr/vcr",
-    "Vigemus/iron.nvim",
     "vkhorikov/CSharpFunctionalExtensions",
     "z-x-yang/Segment-and-Track-Anything"
   ]

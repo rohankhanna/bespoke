@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 525,
-    "concepts": 333,
-    "observations": 334,
-    "repos": 71,
-    "terms": 332
+    "components": 510,
+    "concepts": 323,
+    "observations": 324,
+    "repos": 68,
+    "terms": 322
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "abusch/nu_plugin_semver",
     "AccessKit/accesskit-c",
@@ -34,7 +34,6 @@
     "boundless-xyz/kailua",
     "bourumir-wyngs/serde-yaml-bw",
     "celo-org/celo-threshold-bls-rs",
-    "ClickHouse/clickhousectl",
     "datachainlab/lcp",
     "datafusion-contrib/orc-rust",
     "davidhozic/mujoco-rs",
@@ -67,7 +66,6 @@
     "mrcjkb/vimcats",
     "napi-rs/mimalloc-safe",
     "near/cargo-near-new-project-template",
-    "nico-abram/blondie",
     "openvm-org/stark-backend",
     "oxc-project/oxc-sourcemap",
     "paradigmxyz/stateless",
@@ -80,7 +78,6 @@
     "succinctlabs/sp1-cluster",
     "Systemcluster/kitoken",
     "tofay/rustls-openssl",
-    "tracel-ai/cubek",
     "typst/typst-assets",
     "tyrypyrking/egui-ash",
     "unrs/unrs-resolver",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11652,
-    "concepts": 6664,
-    "observations": 6679,
-    "repos": 3198,
-    "terms": 6624
+    "components": 11676,
+    "concepts": 6680,
+    "observations": 6695,
+    "repos": 3201,
+    "terms": 6640
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -237,6 +237,7 @@
     "Alexsussa/AIDM",
     "AlexSWong/COVID-Net",
     "alfredbaudisch/raylib-cimgui",
+    "algorealmInc/SwarmNL",
     "ali-ramadhan/DocumenterCitations.jl",
     "AliaksandrSiarohin/pose-evaluation",
     "aliborji/GFW",
@@ -556,6 +557,7 @@
     "Berrysoft/fish-msys2",
     "berty/community",
     "BestBurning/platform_device_id",
+    "bevry/domain-browser",
     "bfenetworks/dashboard",
     "bgokden/veri",
     "bhauman/flappy-bird-demo-new",
@@ -2187,7 +2189,6 @@
     "microsoft/Windows-AppConsult-Samples-UWP",
     "microsoft/winmd",
     "midi2-dev/MIDI2.0Workbench",
-    "midsdsy/LOD-Net",
     "mightymo77/MightyMos-Cheat-Code-Pack",
     "mikecheninoulu/Unsupervised_IEPGAN",
     "mikepapadim/llama2.tornadovm.java",
@@ -2419,6 +2420,7 @@
     "opentracing/basictracer-go",
     "OpenTreeHole/auth_next",
     "OpenVisualCloud/Ad-Insertion-Sample",
+    "OpenVoiceOS/ovos-tts-plugin-piper",
     "openxrlab/xrmogen",
     "openxrlab/xrprimer",
     "openxrlab/xrtailor",
@@ -2974,9 +2976,10 @@
     "trapd00r/vim-syntax-vidir-ls",
     "travis-ci/gh",
     "TREMA-UNH/trec-car-tools",
+    "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",

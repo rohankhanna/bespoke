@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 505,
-    "concepts": 384,
-    "observations": 387,
-    "repos": 190,
-    "terms": 378
+    "components": 512,
+    "concepts": 386,
+    "observations": 389,
+    "repos": 191,
+    "terms": 380
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0xPlaygrounds/rig-onchain-kit",
     "16arpi/meteo-tui",
@@ -20,6 +20,7 @@
     "adamgreig/jtagdap",
     "AdnoC/sixel-rs",
     "AdnoC/sixel-sys",
+    "algorealmInc/SwarmNL",
     "aloucks/spng-rs",
     "AndersTrier/reed-solomon-simd",
     "andreivasiliu/cybersub",

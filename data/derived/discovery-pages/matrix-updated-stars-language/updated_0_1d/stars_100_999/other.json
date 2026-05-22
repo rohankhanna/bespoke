@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 28,
-    "observations": 28,
+    "components": 33,
+    "concepts": 24,
+    "observations": 24,
     "repos": 5,
-    "terms": 28
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "apalache-mc/apalache",
     "bazel-contrib/rules_kotlin",
-    "dwyl/quotes",
+    "emacscollective/auto-compile",
     "meshcat-dev/meshcat",
     "ROCm/hipBLASLt"
   ]

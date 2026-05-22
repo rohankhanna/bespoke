@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 278,
+    "components": 279,
     "concepts": 361,
     "observations": 361,
-    "repos": 64,
+    "repos": 65,
     "terms": 356
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "2shady4u/godot-sqlite",
     "adafruit/Adafruit_NeoPixel",
@@ -67,6 +67,7 @@
     "pganalyze/libpg_query",
     "PixarAnimationStudios/OpenSubdiv",
     "pothosware/SoapySDR",
+    "pramsey/pgsql-http",
     "RobertBeckebans/RBDOOM-3-BFG",
     "rurban/smhasher",
     "sammycage/lunasvg",

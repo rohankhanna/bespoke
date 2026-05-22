@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1189,
-    "concepts": 181,
-    "observations": 181,
+    "components": 1179,
+    "concepts": 177,
+    "observations": 177,
     "repos": 36,
-    "terms": 210
+    "terms": 206
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "antfu-collective/vite-ssg",
@@ -28,6 +28,7 @@
     "gustavoguichard/string-ts",
     "infinitered/nsfwjs",
     "Ironclad/rivet",
+    "isaacs/node-glob",
     "jamiebrynes7/obsidian-todoist-plugin",
     "jnsahaj/tweakcn",
     "jonaskello/tsconfig-paths",
@@ -48,7 +49,6 @@
     "TfTHacker/obsidian42-brat",
     "ulid/javascript",
     "unjs/unplugin",
-    "vadimdemedes/pastel",
-    "vercel/serve"
+    "vadimdemedes/pastel"
   ]
 }

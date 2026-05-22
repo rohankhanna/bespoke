@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 147,
-    "concepts": 190,
-    "observations": 191,
-    "repos": 39,
-    "terms": 204
+    "components": 172,
+    "concepts": 225,
+    "observations": 227,
+    "repos": 44,
+    "terms": 238
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "actions/upload-pages-artifact",
@@ -25,6 +25,7 @@
     "cncf/k8s-conformance",
     "codelibs/docker-fess",
     "crazy-max/xgo",
+    "denysdovhan/dotfiles",
     "docker-library/drupal",
     "docker-library/hello-world",
     "docker-library/ruby",
@@ -41,11 +42,15 @@
     "mosaicml/examples",
     "nodenv/node-build",
     "numpy/numpy.org",
+    "opea-project/GenAIExamples",
     "reviewdog/action-misspell",
+    "reviewdog/action-shellcheck",
+    "reviewdog/action-suggester",
     "rsmdt/the-startup",
     "rz1989s/claude-code-statusline",
     "SamNet-dev/paqctl",
     "sclorg/mysql-container",
+    "sclorg/s2i-nodejs-container",
     "serpro69/claude-toolbox",
     "SWE-bench/experiments",
     "TexasInstruments/edgeai",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 2,
-    "terms": 16
+    "components": 16,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 3,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
-    "f3liz-casa/noraneko",
-    "lumen-oss/luarocks-tag-release"
+    "jelly-beam/rebar3_ex_doc",
+    "lumen-oss/luarocks-tag-release",
+    "pivotal/credhub-release"
   ]
 }

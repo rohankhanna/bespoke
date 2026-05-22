@@ -3,7 +3,7 @@
     "components": 61,
     "concepts": 30,
     "observations": 30,
-    "repos": 14,
+    "repos": 13,
     "terms": 30
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "abraxas-365/claudio-screenshot",
     "ainvaltin/nu_plugin_boltdb",
@@ -26,7 +26,6 @@
     "foundry-rs/optimism",
     "hyper-mcp-rs/crypto-price-plugin",
     "jonislutheran87/weclaw",
-    "kdubbo/api",
     "transparency-dev/armored-witness-common"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 355,
-    "concepts": 71,
-    "observations": 71,
-    "repos": 9,
-    "terms": 71
+    "components": 274,
+    "concepts": 53,
+    "observations": 53,
+    "repos": 8,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "can1357/oh-my-pi",
-    "enricoros/big-AGI",
     "FxEmbed/FxEmbed",
     "getagentseal/codeburn",
     "Koenkk/zigbee-herdsman-converters",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 64,
-    "concepts": 93,
-    "observations": 93,
-    "repos": 14,
-    "terms": 93
+    "concepts": 81,
+    "observations": 81,
+    "repos": 13,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "adamchainz/blacken-docs",
     "agentic-box/memora",
     "bagofwords1/bagofwords",
     "benchflow-ai/benchflow",
-    "clearml/clearml-agent",
     "DanielLin94144/Full-Duplex-Bench",
     "databrickslabs/ucx",
     "djlint/djLint",

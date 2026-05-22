@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1244,
-    "concepts": 528,
-    "observations": 530,
-    "repos": 434,
-    "terms": 528
+    "components": 1249,
+    "concepts": 532,
+    "observations": 534,
+    "repos": 435,
+    "terms": 532
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -401,6 +401,7 @@
     "ShenhanQian/nvdiffrast",
     "shesek/rust-jsonrpc",
     "simrat39/rust-tools-demos",
+    "smallscientist1/tilelang",
     "songquanpeng/blog-theme-bootstrap",
     "songquanpeng/blog-theme-bootstrap5",
     "songquanpeng/blog-theme-next",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -131,7 +131,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/vscode-remote-try-rust](https://github.com/microsoft/vscode-remote-try-rust) | 327 | 2024-04-12T07:36:35Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [LaurentMazare/diffusers-rs](https://github.com/LaurentMazare/diffusers-rs) | 591 | 2024-04-04T07:51:51Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [chyh1990/yaml-rust](https://github.com/chyh1990/yaml-rust) | 645 | 2024-03-25T12:42:02Z | Rust | Unknown | 1 | 0 | 2 | 2 |
-| [lnx-search/rewrk](https://github.com/lnx-search/rewrk) | 582 | 2024-03-25T12:30:23Z | Rust | Infrastructure/tooling | 5 | 9 | 5 | 6 |
+| [lnx-search/rewrk](https://github.com/lnx-search/rewrk) | 581 | 2024-03-25T12:30:23Z | Rust | Infrastructure/tooling | 5 | 9 | 5 | 6 |
 | [frankfralick/dripgrep](https://github.com/frankfralick/dripgrep) | 167 | 2024-03-12T00:06:23Z | Rust | CLI | 0 | 0 | 0 | 0 |
 | [blitz-js/next-superjson-plugin](https://github.com/blitz-js/next-superjson-plugin) | 216 | 2024-03-03T05:24:27Z | Rust | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [njsmith/posy](https://github.com/njsmith/posy) | 300 | 2024-03-01T04:38:11Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
@@ -167,7 +167,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rojo-rbx/remodel](https://github.com/rojo-rbx/remodel) | 175 | 2023-07-22T21:02:57Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [rust-lang/rust-semverver](https://github.com/rust-lang/rust-semverver) | 631 | 2023-07-17T03:21:55Z | Rust | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [gsingh93/trace](https://github.com/gsingh93/trace) | 339 | 2023-07-04T17:12:38Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [unknownue/vulkan-tutorial-rust](https://github.com/unknownue/vulkan-tutorial-rust) | 533 | 2023-06-24T05:33:08Z | Rust | Unknown | 3 | 0 | 3 | 3 |
+| [unknownue/vulkan-tutorial-rust](https://github.com/unknownue/vulkan-tutorial-rust) | 532 | 2023-06-24T05:33:08Z | Rust | Unknown | 3 | 0 | 3 | 3 |
 | [Misterio77/flavours](https://github.com/Misterio77/flavours) | 589 | 2023-06-13T14:16:11Z | Rust | CLI | 8 | 5 | 8 | 9 |
 | [prataprc/xorfilter](https://github.com/prataprc/xorfilter) | 145 | 2023-06-06T09:21:16Z | Rust | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [softprops/hubcaps](https://github.com/softprops/hubcaps) | 288 | 2023-05-20T23:08:12Z | Rust | Infrastructure/tooling | 4 | 3 | 4 | 4 |
@@ -244,11 +244,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [LaurentMazare/diffusers-rs](https://github.com/LaurentMazare/diffusers-rs) | 591 | 2024-04-04T07:51:51Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [infinyon/node-bindgen](https://github.com/infinyon/node-bindgen) | 589 | 2025-01-13T13:14:53Z | Rust | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [Misterio77/flavours](https://github.com/Misterio77/flavours) | 589 | 2023-06-13T14:16:11Z | Rust | CLI | 8 | 5 | 8 | 9 |
-| [lnx-search/rewrk](https://github.com/lnx-search/rewrk) | 582 | 2024-03-25T12:30:23Z | Rust | Infrastructure/tooling | 5 | 9 | 5 | 6 |
+| [lnx-search/rewrk](https://github.com/lnx-search/rewrk) | 581 | 2024-03-25T12:30:23Z | Rust | Infrastructure/tooling | 5 | 9 | 5 | 6 |
 | [danburkert/memmap-rs](https://github.com/danburkert/memmap-rs) | 574 | 2022-02-13T09:20:58Z | Rust | Service/API | 0 | 0 | 0 | 0 |
 | [fu5ha/rayn](https://github.com/fu5ha/rayn) | 554 | 2022-10-10T16:27:40Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [vmware-labs/wasm-workers-server](https://github.com/vmware-labs/wasm-workers-server) | 541 | 2024-06-02T19:18:22Z | Rust | Infrastructure/tooling | 9 | 8 | 9 | 10 |
-| [unknownue/vulkan-tutorial-rust](https://github.com/unknownue/vulkan-tutorial-rust) | 533 | 2023-06-24T05:33:08Z | Rust | Unknown | 3 | 0 | 3 | 3 |
+| [unknownue/vulkan-tutorial-rust](https://github.com/unknownue/vulkan-tutorial-rust) | 532 | 2023-06-24T05:33:08Z | Rust | Unknown | 3 | 0 | 3 | 3 |
 | [wooorm/mdxjs-rs](https://github.com/wooorm/mdxjs-rs) | 527 | 2025-06-12T08:00:06Z | Rust | Infrastructure/tooling | 3 | 3 | 4 | 4 |
 | [rust-ethereum/ethabi](https://github.com/rust-ethereum/ethabi) | 525 | 2023-08-16T17:41:09Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [RazrFalcon/roxmltree](https://github.com/RazrFalcon/roxmltree) | 523 | 2025-10-12T10:42:08Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |

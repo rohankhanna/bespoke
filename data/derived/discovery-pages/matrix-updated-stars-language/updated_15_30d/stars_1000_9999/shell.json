@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 177,
-    "concepts": 244,
-    "observations": 244,
-    "repos": 34,
-    "terms": 239
+    "components": 146,
+    "concepts": 206,
+    "observations": 206,
+    "repos": 29,
+    "terms": 204
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "aaron-he-zhu/seo-geo-claude-skills",
-    "anthropics/claude-agent-sdk-typescript",
     "aquasecurity/trivy-action",
     "archlinuxcn/repo",
     "aurutils/aurutils",
     "bioconda/bioconda-recipes",
     "bitnami/containers",
     "Botspot/pi-apps",
-    "conda-forge/miniforge",
     "confluentinc/demo-scene",
-    "devcontainers/images",
     "docker-library/docs",
     "docker-library/official-images",
-    "docker-library/postgres",
     "dtcooper/raspotify",
     "fluxcd/flux2-kustomize-helm-example",
     "google/adk-docs",
@@ -39,7 +35,6 @@
     "jkroepke/helm-secrets",
     "mlocati/docker-php-extension-installer",
     "msys2/MINGW-packages",
-    "pacstall/pacstall",
     "pypa/manylinux",
     "rbenv/ruby-build",
     "rocker-org/rocker",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2140,
-    "concepts": 550,
-    "observations": 555,
-    "repos": 124,
-    "terms": 581
+    "components": 2225,
+    "concepts": 568,
+    "observations": 573,
+    "repos": 129,
+    "terms": 599
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "absolute-version/commit-and-tag-version",
+    "actions/create-github-app-token",
     "actions/deploy-pages",
     "actions/hello-world-javascript-action",
     "AdguardTeam/HostlistCompiler",
@@ -33,6 +34,7 @@
     "beve-org/beve",
     "bmad-code-org/bmad-module-game-dev-studio",
     "browserify/resolve",
+    "browserslist/update-db",
     "ButTaiwan/bpmfvs",
     "chaijs/chai-http",
     "chrisgoringe/cg-use-everywhere",
@@ -41,6 +43,7 @@
     "cncf/sandbox",
     "coderaiser/putout",
     "comme2e/comm",
+    "conda-forge/conda-forge.github.io",
     "conventional-changelog/conventional-changelog-config-spec",
     "CyberAP/nanoid-dictionary",
     "d3/d3-format",
@@ -112,6 +115,8 @@
     "octokit/request-action",
     "OffchainLabs/arbitrum-tutorials",
     "photopea/UZIP.js",
+    "postcss/postcss-js",
+    "postcss/sugarss",
     "previm/previm",
     "projectfluent/fluent.js",
     "protocolbuffers/protobuf-javascript",

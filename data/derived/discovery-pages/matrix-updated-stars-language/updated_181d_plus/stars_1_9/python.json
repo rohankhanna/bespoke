@@ -3,7 +3,7 @@
     "components": 455,
     "concepts": 341,
     "observations": 341,
-    "repos": 271,
+    "repos": 272,
     "terms": 344
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -250,6 +250,7 @@
     "reginald-mclean/Metaworld",
     "render-examples/chatgpt-retrieval-plugin",
     "rexwangcc/taichi-voxel-challenge",
+    "rhgrossman/pyctcdecode_demo",
     "rochacbruno/dynaconf-mirror",
     "schedul-xor/nextzen2oscimv4",
     "scicode-bench/scicode-bench.github.io",

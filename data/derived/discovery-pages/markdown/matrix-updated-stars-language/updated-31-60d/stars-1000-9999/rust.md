@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 111
-- terms: 705
-- components: 965
-- concepts: 692
-- observations: 698
+- repos: 122
+- terms: 770
+- components: 1043
+- concepts: 757
+- observations: 763
 
 ## Static behavior
 
@@ -26,6 +26,17 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [tracel-ai/cubecl](https://github.com/tracel-ai/cubecl) | 2102 | 2026-04-21T22:20:38Z | Rust | Infrastructure/tooling | 6 | 6 | 6 | 6 |
+| [tauri-apps/create-tauri-app](https://github.com/tauri-apps/create-tauri-app) | 1556 | 2026-04-21T22:09:39Z | Rust | Infrastructure/tooling | 6 | 11 | 6 | 6 |
+| [kata-containers/kata-containers](https://github.com/kata-containers/kata-containers) | 7794 | 2026-04-21T21:38:55Z | Rust | Infrastructure/tooling | 14 | 11 | 14 | 14 |
+| [googlefonts/Inconsolata](https://github.com/googlefonts/Inconsolata) | 1541 | 2026-04-21T21:11:24Z | Rust | Unknown | 3 | 0 | 3 | 3 |
+| [BurntSushi/aho-corasick](https://github.com/BurntSushi/aho-corasick) | 1233 | 2026-04-21T20:54:23Z | Rust | Infrastructure/tooling | 5 | 2 | 5 | 5 |
+| [bluealloy/revm](https://github.com/bluealloy/revm) | 2176 | 2026-04-21T20:06:50Z | Rust | Infrastructure/tooling | 11 | 13 | 11 | 11 |
+| [trishume/syntect](https://github.com/trishume/syntect) | 2320 | 2026-04-21T19:34:27Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [rust-lang/docs.rs](https://github.com/rust-lang/docs.rs) | 1142 | 2026-04-21T18:00:25Z | Rust | Infrastructure/tooling | 4 | 12 | 4 | 4 |
+| [toml-rs/toml](https://github.com/toml-rs/toml) | 1028 | 2026-04-21T15:23:26Z | Rust | Infrastructure/tooling | 8 | 11 | 8 | 8 |
+| [medialab/xan](https://github.com/medialab/xan) | 3912 | 2026-04-21T15:19:50Z | Rust | CLI | 3 | 3 | 3 | 3 |
+| [rust-windowing/glutin](https://github.com/rust-windowing/glutin) | 2079 | 2026-04-21T14:53:15Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [dathere/qsv](https://github.com/dathere/qsv) | 3609 | 2026-04-21T12:00:29Z | Rust | Infrastructure/tooling | 25 | 12 | 25 | 25 |
 | [SuperCuber/dotter](https://github.com/SuperCuber/dotter) | 1944 | 2026-04-21T11:22:17Z | Rust | Infrastructure/tooling | 13 | 5 | 13 | 13 |
 | [lycheeverse/lychee](https://github.com/lycheeverse/lychee) | 3523 | 2026-04-21T10:04:30Z | Rust | Infrastructure/tooling | 13 | 18 | 13 | 13 |
@@ -146,6 +157,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [neon-bindings/neon](https://github.com/neon-bindings/neon) | 8405 | 2026-04-20T16:06:17Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [mfontanini/presenterm](https://github.com/mfontanini/presenterm) | 8269 | 2026-04-20T03:52:13Z | Rust | CLI | 9 | 11 | 11 | 11 |
 | [BoundaryML/baml](https://github.com/BoundaryML/baml) | 8015 | 2026-04-18T18:26:25Z | Rust | Infrastructure/tooling | 17 | 26 | 17 | 17 |
+| [kata-containers/kata-containers](https://github.com/kata-containers/kata-containers) | 7794 | 2026-04-21T21:38:55Z | Rust | Infrastructure/tooling | 14 | 11 | 14 | 14 |
 | [napi-rs/napi-rs](https://github.com/napi-rs/napi-rs) | 7683 | 2026-04-17T15:09:54Z | Rust | Infrastructure/tooling | 12 | 43 | 12 | 12 |
 | [rustls/rustls](https://github.com/rustls/rustls) | 7355 | 2026-04-21T09:16:20Z | Rust | Infrastructure/tooling | 6 | 22 | 6 | 6 |
 | [mozilla/sccache](https://github.com/mozilla/sccache) | 7189 | 2026-04-17T07:19:15Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
@@ -183,6 +195,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rusqlite/rusqlite](https://github.com/rusqlite/rusqlite) | 4155 | 2026-04-19T10:10:04Z | Rust | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [arxanas/git-branchless](https://github.com/arxanas/git-branchless) | 4050 | 2026-04-01T23:33:14Z | Rust | CLI | 9 | 13 | 9 | 9 |
 | [crossterm-rs/crossterm](https://github.com/crossterm-rs/crossterm) | 4010 | 2026-04-08T18:58:28Z | Rust | CLI | 7 | 2 | 7 | 7 |
+| [medialab/xan](https://github.com/medialab/xan) | 3912 | 2026-04-21T15:19:50Z | Rust | CLI | 3 | 3 | 3 | 3 |
 | [crate-ci/typos](https://github.com/crate-ci/typos) | 3902 | 2026-04-16T19:22:27Z | Rust | CLI | 7 | 14 | 7 | 7 |
 | [chronotope/chrono](https://github.com/chronotope/chrono) | 3836 | 2026-04-06T05:47:44Z | Rust | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [linebender/resvg](https://github.com/linebender/resvg) | 3808 | 2026-04-09T18:28:45Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 3 |
@@ -210,13 +223,17 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rust-lang/log](https://github.com/rust-lang/log) | 2507 | 2026-04-14T06:36:04Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [snapview/tokio-tungstenite](https://github.com/snapview/tokio-tungstenite) | 2440 | 2026-03-31T14:33:49Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [snapview/tungstenite-rs](https://github.com/snapview/tungstenite-rs) | 2338 | 2026-04-14T08:52:33Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [trishume/syntect](https://github.com/trishume/syntect) | 2320 | 2026-04-21T19:34:27Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [EmbarkStudios/cargo-deny](https://github.com/EmbarkStudios/cargo-deny) | 2273 | 2026-04-15T12:44:36Z | Rust | Infrastructure/tooling | 8 | 9 | 8 | 8 |
+| [bluealloy/revm](https://github.com/bluealloy/revm) | 2176 | 2026-04-21T20:06:50Z | Rust | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 | [johnnymorganz/stylua](https://github.com/JohnnyMorganz/StyLua) | 2162 | 2026-04-17T00:00:44Z | Rust | Infrastructure/tooling | 13 | 13 | 13 | 13 |
 | [liuchengxu/vim-clap](https://github.com/liuchengxu/vim-clap) | 2138 | 2026-04-06T15:43:17Z | Rust | Infrastructure/tooling | 8 | 12 | 8 | 8 |
 | [rust-lang/cc-rs](https://github.com/rust-lang/cc-rs) | 2115 | 2026-04-19T08:59:07Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [proptest-rs/proptest](https://github.com/proptest-rs/proptest) | 2105 | 2026-04-20T09:48:09Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [tracel-ai/cubecl](https://github.com/tracel-ai/cubecl) | 2102 | 2026-04-21T22:20:38Z | Rust | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [algesten/ureq](https://github.com/algesten/ureq) | 2101 | 2026-04-18T12:00:09Z | Rust | CLI | 4 | 6 | 4 | 4 |
 | [jonhoo/inferno](https://github.com/jonhoo/inferno) | 2096 | 2026-04-14T01:05:09Z | Rust | Infrastructure/tooling | 3 | 11 | 3 | 3 |
+| [rust-windowing/glutin](https://github.com/rust-windowing/glutin) | 2079 | 2026-04-21T14:53:15Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [pop-os/cosmic-text](https://github.com/pop-os/cosmic-text) | 2040 | 2026-04-10T00:00:12Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [rust-lang/git2-rs](https://github.com/rust-lang/git2-rs) | 2036 | 2026-04-20T15:43:11Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [Keats/jsonwebtoken](https://github.com/Keats/jsonwebtoken) | 2033 | 2026-04-18T19:56:51Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
@@ -228,7 +245,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eyre-rs/eyre](https://github.com/eyre-rs/eyre) | 1740 | 2026-04-10T10:57:05Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [enigo-rs/enigo](https://github.com/enigo-rs/enigo) | 1703 | 2026-03-30T10:34:01Z | Rust | Infrastructure/tooling | 10 | 2 | 10 | 10 |
 | [asny/three-d](https://github.com/asny/three-d) | 1616 | 2026-04-17T17:15:00Z | Rust | Infrastructure/tooling | 6 | 3 | 6 | 6 |
+| [tauri-apps/create-tauri-app](https://github.com/tauri-apps/create-tauri-app) | 1556 | 2026-04-21T22:09:39Z | Rust | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [la10736/rstest](https://github.com/la10736/rstest) | 1552 | 2026-03-26T09:55:13Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
+| [googlefonts/Inconsolata](https://github.com/googlefonts/Inconsolata) | 1541 | 2026-04-21T21:11:24Z | Rust | Unknown | 3 | 0 | 3 | 3 |
 | [dtolnay/quote](https://github.com/dtolnay/quote) | 1537 | 2026-03-25T06:01:55Z | Rust | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [hashintel/hash](https://github.com/hashintel/hash) | 1519 | 2026-04-19T08:43:04Z | Rust | Infrastructure/tooling | 13 | 19 | 0 | 0 |
 | [nabijaczleweli/cargo-update](https://github.com/nabijaczleweli/cargo-update) | 1513 | 2026-04-06T14:46:16Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -243,13 +262,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mattsse/chromiumoxide](https://github.com/mattsse/chromiumoxide) | 1260 | 2026-04-03T16:44:24Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [mitsuhiko/similar](https://github.com/mitsuhiko/similar) | 1249 | 2026-04-11T20:18:39Z | Rust | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [ratatui/mousefood](https://github.com/ratatui/mousefood) | 1235 | 2026-04-20T20:06:25Z | Rust | Infrastructure/tooling | 4 | 8 | 4 | 4 |
+| [BurntSushi/aho-corasick](https://github.com/BurntSushi/aho-corasick) | 1233 | 2026-04-21T20:54:23Z | Rust | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [uuid-rs/uuid](https://github.com/uuid-rs/uuid) | 1204 | 2026-04-16T04:54:44Z | Rust | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [cberner/fuser](https://github.com/cberner/fuser) | 1201 | 2026-04-13T17:36:50Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [dalek-cryptography/curve25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek) | 1151 | 2026-04-20T06:03:49Z | Rust | Infrastructure/tooling | 11 | 10 | 11 | 11 |
+| [rust-lang/docs.rs](https://github.com/rust-lang/docs.rs) | 1142 | 2026-04-21T18:00:25Z | Rust | Infrastructure/tooling | 4 | 12 | 4 | 4 |
 | [emilk/eframe_template](https://github.com/emilk/eframe_template) | 1120 | 2026-03-27T10:42:35Z | Rust | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [noib3/nvim-oxi](https://github.com/noib3/nvim-oxi) | 1116 | 2026-04-06T10:01:24Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [servo/ipc-channel](https://github.com/servo/ipc-channel) | 1110 | 2026-04-02T22:16:09Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [testcontainers/testcontainers-rs](https://github.com/testcontainers/testcontainers-rs) | 1066 | 2026-04-15T20:56:41Z | Rust | Infrastructure/tooling | 10 | 12 | 10 | 10 |
 | [rust-cli/env_logger](https://github.com/rust-cli/env_logger) | 1045 | 2026-04-17T02:12:30Z | Rust | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [rust-cli/confy](https://github.com/rust-cli/confy) | 1031 | 2026-04-13T12:46:24Z | Rust | CLI | 3 | 5 | 3 | 3 |
+| [toml-rs/toml](https://github.com/toml-rs/toml) | 1028 | 2026-04-21T15:23:26Z | Rust | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [blacknon/hwatch](https://github.com/blacknon/hwatch) | 1016 | 2026-04-20T02:22:32Z | Rust | CLI | 7 | 5 | 7 | 7 |

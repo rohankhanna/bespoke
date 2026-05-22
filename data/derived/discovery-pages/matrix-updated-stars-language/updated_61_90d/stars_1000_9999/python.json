@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 209,
-    "concepts": 387,
-    "observations": 387,
-    "repos": 72,
-    "terms": 381
+    "components": 204,
+    "concepts": 377,
+    "observations": 377,
+    "repos": 70,
+    "terms": 371
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "adrienverge/yamllint",
     "AgentOps-AI/agentops",
@@ -37,7 +37,6 @@
     "dynaconf/dynaconf",
     "explosion/spacy-models",
     "facebookresearch/fvcore",
-    "facebookresearch/habitat-lab",
     "facebookresearch/pytorch3d",
     "facebookresearch/SlowFast",
     "google/deepvariant",
@@ -53,7 +52,6 @@
     "kijai/ComfyUI-WanVideoWrapper",
     "langfengQ/verl-agent",
     "lshqqytiger/stable-diffusion-webui-amdgpu",
-    "LTH14/mar",
     "lyuwenyu/RT-DETR",
     "miolini/autoresearch-macos",
     "mozillazg/pinyin-data",

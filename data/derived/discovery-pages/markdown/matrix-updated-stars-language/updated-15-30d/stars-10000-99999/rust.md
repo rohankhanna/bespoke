@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 65
-- terms: 785
-- components: 1033
-- concepts: 794
-- observations: 795
+- repos: 62
+- terms: 749
+- components: 976
+- concepts: 758
+- observations: 759
 
 ## Static behavior
 
@@ -88,9 +88,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [typst/typst](https://github.com/typst/typst) | 52949 | 2026-04-22T12:41:50Z | Rust | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) | 58907 | 2026-04-22T12:29:35Z | Rust | Infrastructure/tooling | 13 | 13 | 13 | 13 |
 | [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) | 33254 | 2026-04-22T06:48:26Z | Rust | CLI | 10 | 12 | 11 | 11 |
-| [bevyengine/bevy](https://github.com/bevyengine/bevy) | 45691 | 2026-04-22T05:03:26Z | Rust | Infrastructure/tooling | 13 | 10 | 13 | 13 |
-| [orhun/git-cliff](https://github.com/orhun/git-cliff) | 11754 | 2026-04-21T16:48:07Z | Rust | CLI | 19 | 33 | 19 | 19 |
-| [hyperium/tonic](https://github.com/hyperium/tonic) | 11986 | 2026-04-21T16:40:37Z | Rust | CLI | 4 | 14 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -105,7 +102,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [typst/typst](https://github.com/typst/typst) | 52949 | 2026-04-22T12:41:50Z | Rust | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [tw93/Pake](https://github.com/tw93/Pake) | 48393 | 2026-05-03T15:05:14Z | Rust | Infrastructure/tooling | 17 | 48 | 17 | 17 |
 | [astral-sh/ruff](https://github.com/astral-sh/ruff) | 47401 | 2026-05-06T18:10:34Z | Rust | Infrastructure/tooling | 14 | 40 | 14 | 14 |
-| [bevyengine/bevy](https://github.com/bevyengine/bevy) | 45691 | 2026-04-22T05:03:26Z | Rust | Infrastructure/tooling | 13 | 10 | 13 | 13 |
 | [helix-editor/helix](https://github.com/helix-editor/helix) | 44167 | 2026-04-28T23:25:11Z | Rust | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [aaif-goose/goose](https://github.com/aaif-goose/goose) | 43154 | 2026-04-24T18:00:26Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 42572 | 2026-05-01T11:40:46Z | Rust | Infrastructure/tooling | 19 | 19 | 19 | 19 |
@@ -151,9 +147,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rayon-rs/rayon](https://github.com/rayon-rs/rayon) | 12916 | 2026-04-23T20:07:00Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [web-infra-dev/rspack](https://github.com/web-infra-dev/rspack) | 12632 | 2026-04-23T15:03:14Z | Rust | Infrastructure/tooling | 16 | 21 | 16 | 16 |
 | [microsoft/windows-rs](https://github.com/microsoft/windows-rs) | 12128 | 2026-04-24T04:33:01Z | Rust | Infrastructure/tooling | 11 | 4 | 11 | 11 |
-| [hyperium/tonic](https://github.com/hyperium/tonic) | 11986 | 2026-04-21T16:40:37Z | Rust | CLI | 4 | 14 | 4 | 4 |
 | [nearai/ironclaw](https://github.com/nearai/ironclaw) | 11944 | 2026-04-23T21:55:32Z | Rust | Infrastructure/tooling | 7 | 17 | 7 | 7 |
-| [orhun/git-cliff](https://github.com/orhun/git-cliff) | 11754 | 2026-04-21T16:48:07Z | Rust | CLI | 19 | 33 | 19 | 19 |
 | [GitoxideLabs/gitoxide](https://github.com/GitoxideLabs/gitoxide) | 11257 | 2026-04-29T15:29:35Z | Rust | CLI | 7 | 13 | 7 | 7 |
 | [quickwit-oss/quickwit](https://github.com/quickwit-oss/quickwit) | 11122 | 2026-04-30T08:26:12Z | Rust | Infrastructure/tooling | 17 | 20 | 17 | 17 |
 | [huggingface/tokenizers](https://github.com/huggingface/tokenizers) | 10684 | 2026-04-27T15:48:00Z | Rust | Infrastructure/tooling | 13 | 17 | 13 | 13 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 181,
-    "observations": 184,
-    "repos": 32,
-    "terms": 180
+    "components": 186,
+    "concepts": 191,
+    "observations": 194,
+    "repos": 34,
+    "terms": 190
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "anordal/shellharden",
@@ -24,6 +24,7 @@
     "dtolnay/cargo-expand",
     "dtolnay/case-studies",
     "erg-lang/erg",
+    "fschutt/printpdf",
     "geiger-rs/cargo-geiger",
     "godot-rust/gdnative",
     "GREsau/schemars",
@@ -45,6 +46,7 @@
     "Tencent/tquic",
     "tikv/grpc-rs",
     "tokio-rs/bytes",
+    "tokio-rs/loom",
     "vi/websocat"
   ]
 }

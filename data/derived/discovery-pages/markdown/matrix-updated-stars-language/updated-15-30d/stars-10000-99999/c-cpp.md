@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-21T12:29:26.648415+00:00`
+Generated at: `2026-05-22T05:53:46.403083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 92
-- terms: 1017
-- components: 767
-- concepts: 1022
-- observations: 1026
+- repos: 85
+- terms: 951
+- components: 723
+- concepts: 956
+- observations: 959
 
 ## Static behavior
 
@@ -111,13 +111,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ocornut/imgui](https://github.com/ocornut/imgui) | 72744 | 2026-04-22T12:50:21Z | C/C++ | Infrastructure/tooling | 16 | 1 | 16 | 16 |
 | [Tencent/ncnn](https://github.com/Tencent/ncnn) | 23144 | 2026-04-22T11:42:01Z | C/C++ | Infrastructure/tooling | 26 | 8 | 26 | 27 |
 | [google/sentencepiece](https://github.com/google/sentencepiece) | 11780 | 2026-04-22T10:21:57Z | C/C++ | Infrastructure/tooling | 7 | 10 | 7 | 7 |
-| [ml-explore/mlx](https://github.com/ml-explore/mlx) | 25630 | 2026-04-22T04:13:24Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [aseprite/aseprite](https://github.com/aseprite/aseprite) | 36669 | 2026-04-21T19:13:01Z | C/C++ | Infrastructure/tooling | 20 | 11 | 20 | 20 |
-| [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp) | 17209 | 2026-04-21T19:11:07Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [microsoft/winget-cli](https://github.com/microsoft/winget-cli) | 25727 | 2026-04-21T17:40:35Z | C/C++ | CLI | 7 | 2 | 7 | 8 |
-| [wolfpld/tracy](https://github.com/wolfpld/tracy) | 15694 | 2026-04-21T16:12:32Z | C/C++ | Infrastructure/tooling | 16 | 10 | 16 | 16 |
-| [apache/arrow](https://github.com/apache/arrow) | 16682 | 2026-04-21T14:56:22Z | C/C++ | Infrastructure/tooling | 11 | 12 | 11 | 11 |
-| [Immediate-Mode-UI/Nuklear](https://github.com/Immediate-Mode-UI/Nuklear) | 11076 | 2026-04-21T14:14:37Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -134,7 +127,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [curl/curl](https://github.com/curl/curl) | 41364 | 2026-04-22T21:42:17Z | C/C++ | CLI | 25 | 7 | 25 | 25 |
 | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | 39808 | 2026-04-23T06:02:08Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [duckdb/duckdb](https://github.com/duckdb/duckdb) | 37872 | 2026-05-01T14:55:41Z | C/C++ | Infrastructure/tooling | 14 | 7 | 14 | 14 |
-| [aseprite/aseprite](https://github.com/aseprite/aseprite) | 36669 | 2026-04-21T19:13:01Z | C/C++ | Infrastructure/tooling | 20 | 11 | 20 | 20 |
 | [mpv-player/mpv](https://github.com/mpv-player/mpv) | 34912 | 2026-04-22T23:38:48Z | C/C++ | CLI | 11 | 15 | 11 | 11 |
 | [jqlang/jq](https://github.com/jqlang/jq) | 34624 | 2026-05-05T13:48:30Z | C/C++ | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [SerenityOS/serenity](https://github.com/SerenityOS/serenity) | 33118 | 2026-05-01T06:54:43Z | C/C++ | Infrastructure/tooling | 14 | 9 | 14 | 14 |
@@ -148,8 +140,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | 27884 | 2026-04-24T01:13:43Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [emscripten-core/emscripten](https://github.com/emscripten-core/emscripten) | 27341 | 2026-05-02T09:32:51Z | C/C++ | Infrastructure/tooling | 8 | 28 | 8 | 8 |
 | [libuv/libuv](https://github.com/libuv/libuv) | 26801 | 2026-04-28T14:25:37Z | C/C++ | Infrastructure/tooling | 12 | 6 | 12 | 12 |
-| [microsoft/winget-cli](https://github.com/microsoft/winget-cli) | 25727 | 2026-04-21T17:40:35Z | C/C++ | CLI | 7 | 2 | 7 | 8 |
-| [ml-explore/mlx](https://github.com/ml-explore/mlx) | 25630 | 2026-04-22T04:13:24Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [v8/v8](https://github.com/v8/v8) | 24998 | 2026-04-30T08:36:43Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle) | 23850 | 2026-04-24T07:38:24Z | C/C++ | Infrastructure/tooling | 14 | 3 | 14 | 14 |
 | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 23712 | 2026-05-03T04:43:47Z | C/C++ | CLI | 24 | 12 | 27 | 27 |
@@ -168,18 +158,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [espressif/esp-idf](https://github.com/espressif/esp-idf) | 17964 | 2026-05-01T03:43:48Z | C/C++ | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [gnachman/iTerm2](https://github.com/gnachman/iTerm2) | 17448 | 2026-04-23T07:08:03Z | C/C++ | CLI | 1 | 3 | 1 | 1 |
 | [microsoft/react-native-windows](https://github.com/microsoft/react-native-windows) | 17241 | 2026-04-23T00:58:07Z | C/C++ | Infrastructure/tooling | 10 | 26 | 10 | 10 |
-| [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp) | 17209 | 2026-04-21T19:11:07Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [bkaradzic/bgfx](https://github.com/bkaradzic/bgfx) | 16968 | 2026-04-23T16:38:22Z | C/C++ | Infrastructure/tooling | 16 | 4 | 16 | 16 |
 | [swaywm/sway](https://github.com/swaywm/sway) | 16854 | 2026-04-26T14:35:50Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [espressif/arduino-esp32](https://github.com/espressif/arduino-esp32) | 16696 | 2026-05-01T00:53:21Z | C/C++ | Infrastructure/tooling | 10 | 15 | 10 | 10 |
-| [apache/arrow](https://github.com/apache/arrow) | 16682 | 2026-04-21T14:56:22Z | C/C++ | Infrastructure/tooling | 11 | 12 | 11 | 11 |
 | [NixOS/nix](https://github.com/NixOS/nix) | 16671 | 2026-04-23T00:37:08Z | C/C++ | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [AaronFeng753/Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI) | 16481 | 2026-04-28T11:37:48Z | C/C++ | Unknown | 20 | 0 | 20 | 20 |
 | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 16421 | 2026-04-29T07:03:39Z | C/C++ | CLI | 11 | 16 | 11 | 11 |
 | [ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick) | 16300 | 2026-04-29T21:57:47Z | C/C++ | Infrastructure/tooling | 14 | 13 | 14 | 14 |
 | [apple/foundationdb](https://github.com/apple/foundationdb) | 16272 | 2026-04-23T06:52:40Z | C/C++ | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [systemd/systemd](https://github.com/systemd/systemd) | 16239 | 2026-04-23T22:00:22Z | C/C++ | Infrastructure/tooling | 13 | 17 | 13 | 13 |
-| [wolfpld/tracy](https://github.com/wolfpld/tracy) | 15694 | 2026-04-21T16:12:32Z | C/C++ | Infrastructure/tooling | 16 | 10 | 16 | 16 |
 | [libsdl-org/SDL](https://github.com/libsdl-org/SDL) | 15518 | 2026-05-02T02:50:04Z | C/C++ | Infrastructure/tooling | 5 | 16 | 5 | 5 |
 | [davisking/dlib](https://github.com/davisking/dlib) | 14372 | 2026-04-25T16:13:49Z | C/C++ | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [winsiderss/systeminformer](https://github.com/winsiderss/systeminformer) | 14344 | 2026-04-30T18:49:17Z | C/C++ | Infrastructure/tooling | 23 | 8 | 23 | 23 |
@@ -203,7 +190,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [h2o/h2o](https://github.com/h2o/h2o) | 11448 | 2026-04-30T02:04:42Z | C/C++ | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [libvips/libvips](https://github.com/libvips/libvips) | 11258 | 2026-04-23T17:07:21Z | C/C++ | Infrastructure/tooling | 15 | 6 | 15 | 15 |
 | [Alexays/Waybar](https://github.com/Alexays/Waybar) | 11172 | 2026-04-22T18:50:48Z | C/C++ | Infrastructure/tooling | 13 | 10 | 13 | 13 |
-| [Immediate-Mode-UI/Nuklear](https://github.com/Immediate-Mode-UI/Nuklear) | 11076 | 2026-04-21T14:14:37Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [microsoft/STL](https://github.com/microsoft/STL) | 11028 | 2026-04-24T07:37:25Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [PointCloudLibrary/pcl](https://github.com/PointCloudLibrary/pcl) | 10974 | 2026-05-01T15:28:24Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [apache/thrift](https://github.com/apache/thrift) | 10915 | 2026-05-01T06:45:13Z | C/C++ | CLI | 16 | 36 | 16 | 16 |

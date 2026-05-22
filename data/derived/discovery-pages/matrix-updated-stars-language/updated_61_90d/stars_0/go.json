@@ -3,7 +3,7 @@
     "components": 2,
     "concepts": 1,
     "observations": 1,
-    "repos": 3,
+    "repos": 4,
     "terms": 1
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-22T05:53:46.403083+00:00",
   "repo_ids": [
     "DataDog/go-cmp",
+    "kdubbo/api",
     "onomojo/i18n-country-translations-go",
     "onomojo/i18n-timezones-go"
   ]
