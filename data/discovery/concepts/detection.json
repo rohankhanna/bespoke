@@ -1924,11 +1924,29 @@
       "observed_at": "2026-05-21T18:45:28.518020+00:00",
       "source_file": null,
       "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T00:44:15.720901+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DAB-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T00:44:15.720901+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T00:44:15.720901+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T18:45:28.518020+00:00",
+  "last_seen_at": "2026-05-22T00:44:15.720901+00:00",
   "lexical_providers": [
     "datamuse"
   ],

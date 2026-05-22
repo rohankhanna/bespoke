@@ -4042,11 +4042,53 @@
       "observed_at": "2026-05-21T18:45:28.518020+00:00",
       "source_file": null,
       "source_repo": "zai-org/CogVLM2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T00:44:15.720901+00:00",
+      "source_file": null,
+      "source_repo": "EleutherAI/gpt-neo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T00:44:15.720901+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T00:44:15.720901+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T00:44:15.720901+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/PhiCookBook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T00:44:15.720901+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T00:44:15.720901+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T00:44:15.720901+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM2"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T18:45:28.518020+00:00",
+  "last_seen_at": "2026-05-22T00:44:15.720901+00:00",
   "lexical_providers": [
     "datamuse"
   ],

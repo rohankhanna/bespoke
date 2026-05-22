@@ -26,7 +26,7 @@
       "source_file": ".github/workflows/.test-unit.yml"
     },
     {
-      "component": "docker/bake-action@a66e1c87e2eca0503c343edf1d208c716d54b8a8",
+      "component": "docker/bake-action@6614cfa25eff9a0b2b2697efb0b6159e7680d584",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test-unit.yml"
     },
@@ -66,7 +66,7 @@
       "source_file": ".github/workflows/.test.yml"
     },
     {
-      "component": "docker/bake-action@a66e1c87e2eca0503c343edf1d208c716d54b8a8",
+      "component": "docker/bake-action@6614cfa25eff9a0b2b2697efb0b6159e7680d584",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml"
     },
@@ -86,7 +86,7 @@
       "source_file": ".github/workflows/.test.yml"
     },
     {
-      "component": "docker/bake-action@a66e1c87e2eca0503c343edf1d208c716d54b8a8",
+      "component": "docker/bake-action@6614cfa25eff9a0b2b2697efb0b6159e7680d584",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml"
     },
@@ -106,7 +106,7 @@
       "source_file": ".github/workflows/.test.yml"
     },
     {
-      "component": "docker/bake-action@a66e1c87e2eca0503c343edf1d208c716d54b8a8",
+      "component": "docker/bake-action@6614cfa25eff9a0b2b2697efb0b6159e7680d584",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml"
     },
@@ -161,7 +161,7 @@
       "source_file": ".github/workflows/.test.yml"
     },
     {
-      "component": "docker/bake-action@a66e1c87e2eca0503c343edf1d208c716d54b8a8",
+      "component": "docker/bake-action@6614cfa25eff9a0b2b2697efb0b6159e7680d584",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml"
     },
@@ -321,7 +321,7 @@
       "source_file": ".github/workflows/arm64.yml"
     },
     {
-      "component": "docker/bake-action@a66e1c87e2eca0503c343edf1d208c716d54b8a8",
+      "component": "docker/bake-action@6614cfa25eff9a0b2b2697efb0b6159e7680d584",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/arm64.yml"
     },
@@ -331,7 +331,7 @@
       "source_file": ".github/workflows/arm64.yml"
     },
     {
-      "component": "docker/bake-action@a66e1c87e2eca0503c343edf1d208c716d54b8a8",
+      "component": "docker/bake-action@6614cfa25eff9a0b2b2697efb0b6159e7680d584",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/arm64.yml"
     },
@@ -351,7 +351,7 @@
       "source_file": ".github/workflows/arm64.yml"
     },
     {
-      "component": "docker/bake-action@a66e1c87e2eca0503c343edf1d208c716d54b8a8",
+      "component": "docker/bake-action@6614cfa25eff9a0b2b2697efb0b6159e7680d584",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/arm64.yml"
     },
@@ -396,7 +396,7 @@
       "source_file": ".github/workflows/arm64.yml"
     },
     {
-      "component": "docker/bake-action@a66e1c87e2eca0503c343edf1d208c716d54b8a8",
+      "component": "docker/bake-action@6614cfa25eff9a0b2b2697efb0b6159e7680d584",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/arm64.yml"
     },
@@ -426,7 +426,7 @@
       "source_file": ".github/workflows/arm64.yml"
     },
     {
-      "component": "docker/github-builder/.github/workflows/bake.yml@c2782c55efa56a01b9c30021db8f5ec3993228a3",
+      "component": "docker/github-builder/.github/workflows/bake.yml@073833262a23a17675c95c4541ab063b7646756b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bin-image.yml"
     }
@@ -471,7 +471,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test-unit.yml",
       "source_repo": "moby/moby",
-      "target": "docker/bake-action@a66e1c87e2eca0503c343edf1d208c716d54b8a8",
+      "target": "docker/bake-action@6614cfa25eff9a0b2b2697efb0b6159e7680d584",
       "target_type": "component"
     },
     {
@@ -520,7 +520,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml",
       "source_repo": "moby/moby",
-      "target": "docker/bake-action@a66e1c87e2eca0503c343edf1d208c716d54b8a8",
+      "target": "docker/bake-action@6614cfa25eff9a0b2b2697efb0b6159e7680d584",
       "target_type": "component"
     },
     {
@@ -646,7 +646,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/arm64.yml",
       "source_repo": "moby/moby",
-      "target": "docker/bake-action@a66e1c87e2eca0503c343edf1d208c716d54b8a8",
+      "target": "docker/bake-action@6614cfa25eff9a0b2b2697efb0b6159e7680d584",
       "target_type": "component"
     },
     {
@@ -702,7 +702,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bin-image.yml",
       "source_repo": "moby/moby",
-      "target": "docker/github-builder/.github/workflows/bake.yml@c2782c55efa56a01b9c30021db8f5ec3993228a3",
+      "target": "docker/github-builder/.github/workflows/bake.yml@073833262a23a17675c95c4541ab063b7646756b",
       "target_type": "component"
     },
     {
@@ -734,7 +734,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T12:21:42.938701+00:00",
+  "fetched_at": "2026-05-22T01:15:20.779442+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -786,15 +786,15 @@
     "full_name": "moby/moby",
     "html_url": "https://github.com/moby/moby",
     "language": "Go",
-    "pushed_at": "2026-05-21T12:00:47Z",
-    "stargazers_count": 71583,
+    "pushed_at": "2026-05-22T00:24:33Z",
+    "stargazers_count": 71584,
     "topics": [
       "containers",
       "docker",
       "go",
       "golang"
     ],
-    "updated_at": "2026-05-21T12:01:00Z"
+    "updated_at": "2026-05-22T00:24:40Z"
   },
   "repo_links": [
     {

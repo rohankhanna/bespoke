@@ -31,6 +31,18 @@
       "source_repo": "remsky/Kokoro-FastAPI",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thewh1teagle/kokoro-onnx",
+      "status": "candidate-context",
+      "text": "TTS with kokoro and onnx runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thewh1teagle/kokoro-onnx",
+      "status": "candidate-context",
+      "text": "![Python Version](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "remsky/Kokoro-FastAPI",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thewh1teagle/kokoro-onnx",
+      "status": "candidate",
+      "text": "![Python Version](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "remsky/Kokoro-FastAPI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T00:44:15.720901+00:00",
+      "source_file": null,
+      "source_repo": "thewh1teagle/kokoro-onnx"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-22T00:44:15.720901+00:00",
   "lexical_providers": [
     "datamuse"
   ],

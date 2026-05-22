@@ -473,11 +473,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T19:05:49.766832+00:00",
+  "fetched_at": "2026-05-22T02:10:03.608103+00:00",
   "fetched_files": [
     {
       "path": "package.json",
-      "size": 2663
+      "size": 2664
     },
     {
       "path": ".github/workflows/ci.yaml",
@@ -501,7 +501,7 @@
     "full_name": "vercel/serve",
     "html_url": "https://github.com/vercel/serve",
     "language": "TypeScript",
-    "pushed_at": "2026-05-21T17:26:01Z",
+    "pushed_at": "2026-05-21T21:12:56Z",
     "stargazers_count": 9852,
     "topics": [
       "cli",
@@ -509,7 +509,7 @@
       "http",
       "node"
     ],
-    "updated_at": "2026-05-21T09:38:52Z"
+    "updated_at": "2026-05-21T21:13:00Z"
   },
   "repo_links": [],
   "terms": [

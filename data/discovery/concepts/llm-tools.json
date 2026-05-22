@@ -79,6 +79,18 @@
       "source_repo": "agentscope-ai/QwenPaw",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "betterleaks/betterleaks",
+      "status": "candidate-context",
+      "text": "Scan the world (for secrets)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "betterleaks/betterleaks",
+      "status": "candidate-context",
+      "text": "```"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "agentscope-ai/QwenPaw",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "betterleaks/betterleaks",
+      "status": "candidate",
+      "text": "```"
     }
   ],
   "candidate_related_terms": [],
@@ -172,11 +190,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "agentscope-ai/QwenPaw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T00:44:15.720901+00:00",
+      "source_file": null,
+      "source_repo": "betterleaks/betterleaks"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-22T00:44:15.720901+00:00",
   "lexical_providers": [
     "datamuse"
   ],

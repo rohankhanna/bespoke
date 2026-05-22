@@ -115,6 +115,18 @@
       "source_repo": "pyupio/safety",
       "status": "candidate-context",
       "text": "[![safety](https://cdn.safetycli.com/images/cli_readme_header.png)](https://docs.safetycli.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "betterleaks/betterleaks",
+      "status": "candidate-context",
+      "text": "Scan the world (for secrets)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "betterleaks/betterleaks",
+      "status": "candidate-context",
+      "text": "```"
     }
   ],
   "candidate_glosses": [
@@ -165,6 +177,12 @@
       "source_repo": "pyupio/safety",
       "status": "candidate",
       "text": "[![safety](https://cdn.safetycli.com/images/cli_readme_header.png)](https://docs.safetycli.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "betterleaks/betterleaks",
+      "status": "candidate",
+      "text": "```"
     }
   ],
   "candidate_related_terms": [
@@ -591,11 +609,23 @@
       "observed_at": "2026-05-21T07:28:23.617453+00:00",
       "source_file": null,
       "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T00:44:15.720901+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T00:44:15.720901+00:00",
+      "source_file": null,
+      "source_repo": "betterleaks/betterleaks"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
+  "last_seen_at": "2026-05-22T00:44:15.720901+00:00",
   "lexical_providers": [
     "datamuse"
   ],

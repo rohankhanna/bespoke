@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wenet-e2e/speech-recognition-papers",
+      "target": "xingchensong/speech-recognition-papers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-22T01:04:26.671543+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13907
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Towards hot directions in industrial end to end speech recognition",
+    "fork": false,
+    "full_name": "wenet-e2e/speech-recognition-papers",
+    "html_url": "https://github.com/wenet-e2e/speech-recognition-papers",
+    "language": null,
+    "pushed_at": "2021-11-30T08:28:52Z",
+    "stargazers_count": 330,
+    "topics": [],
+    "updated_at": "2026-04-09T01:09:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xingchensong/speech-recognition-papers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

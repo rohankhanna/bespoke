@@ -571,6 +571,18 @@
       "source_repo": "bshall/knn-vc",
       "status": "candidate-context",
       "text": "The official code repo! This repo contains training and inference code for kNN-VC -- an any-to-any voice conversion model from our paper, \"Voice Conversion With Just k-Nearest Neighbors\". The trained checkpoints are available under the 'Releases' tab and through `torch.hub`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DigitalPhonetics/IMS-Toucan",
+      "status": "candidate-context",
+      "text": "Controllable and fast Text-to-Speech for over 7000 languages!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DigitalPhonetics/IMS-Toucan",
+      "status": "candidate-context",
+      "text": "<p align=\"right\">"
     }
   ],
   "candidate_glosses": [
@@ -855,6 +867,12 @@
       "source_repo": "bshall/knn-vc",
       "status": "candidate",
       "text": "The official code repo! This repo contains training and inference code for kNN-VC -- an any-to-any voice conversion model from our paper, \"Voice Conversion With Just k-Nearest Neighbors\". The trained checkpoints are available under the 'Releases' tab and through `torch.hub`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DigitalPhonetics/IMS-Toucan",
+      "status": "candidate",
+      "text": "<p align=\"right\">"
     }
   ],
   "candidate_related_terms": [
@@ -1558,11 +1576,23 @@
       "observed_at": "2026-05-21T18:45:28.518020+00:00",
       "source_file": null,
       "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T00:44:15.720901+00:00",
+      "source_file": null,
+      "source_repo": "DigitalPhonetics/IMS-Toucan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T00:44:15.720901+00:00",
+      "source_file": null,
+      "source_repo": "DemisEom/SpecAugment"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T18:45:28.518020+00:00",
+  "last_seen_at": "2026-05-22T00:44:15.720901+00:00",
   "lexical_providers": [
     "datamuse"
   ],

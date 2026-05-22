@@ -187,6 +187,18 @@
       "source_repo": "inhere/kite",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DigitalPhonetics/IMS-Toucan",
+      "status": "candidate-context",
+      "text": "Controllable and fast Text-to-Speech for over 7000 languages!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DigitalPhonetics/IMS-Toucan",
+      "status": "candidate-context",
+      "text": "<p align=\"right\">"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "inhere/kite",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DigitalPhonetics/IMS-Toucan",
+      "status": "candidate",
+      "text": "<p align=\"right\">"
     }
   ],
   "candidate_related_terms": [
@@ -682,11 +700,23 @@
       "observed_at": "2026-05-21T07:28:23.617453+00:00",
       "source_file": null,
       "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T00:44:15.720901+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T00:44:15.720901+00:00",
+      "source_file": null,
+      "source_repo": "DigitalPhonetics/IMS-Toucan"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
+  "last_seen_at": "2026-05-22T00:44:15.720901+00:00",
   "lexical_providers": [
     "datamuse"
   ],

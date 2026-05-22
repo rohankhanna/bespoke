@@ -46,7 +46,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "dtolnay/rust-toolchain@1.94.0",
+      "component": "dtolnay/rust-toolchain@master",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -111,7 +111,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "dtolnay/rust-toolchain@1.92.0",
+      "component": "dtolnay/rust-toolchain@master",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -131,7 +131,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "dtolnay/rust-toolchain@1.92.0",
+      "component": "dtolnay/rust-toolchain@master",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -151,7 +151,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "dtolnay/rust-toolchain@1.92.0",
+      "component": "dtolnay/rust-toolchain@master",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -176,7 +176,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "dtolnay/rust-toolchain@1.92.0",
+      "component": "dtolnay/rust-toolchain@master",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -231,7 +231,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "dtolnay/rust-toolchain@1.92.0",
+      "component": "dtolnay/rust-toolchain@master",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -256,7 +256,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "dtolnay/rust-toolchain@1.92.0",
+      "component": "dtolnay/rust-toolchain@master",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -316,7 +316,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "dtolnay/rust-toolchain@1.92.0",
+      "component": "dtolnay/rust-toolchain@master",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -339,11 +339,6 @@
       "component": "jkelleyrtp/cache-nix-action@jk/use-warpbuild",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
-    },
-    {
-      "component": "actions/checkout@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/promote.yml"
     },
     {
       "component": "actions/checkout@v5",
@@ -462,7 +457,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "DioxusLabs/dioxus",
-      "target": "dtolnay/rust-toolchain@1.94.0",
+      "target": "dtolnay/rust-toolchain@master",
       "target_type": "component"
     },
     {
@@ -490,13 +485,6 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "DioxusLabs/dioxus",
-      "target": "dtolnay/rust-toolchain@1.92.0",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml",
-      "source_repo": "DioxusLabs/dioxus",
       "target": "actions/upload-artifact@v6",
       "target_type": "component"
     },
@@ -505,13 +493,6 @@
       "source_file": ".github/workflows/main.yml",
       "source_repo": "DioxusLabs/dioxus",
       "target": "actions/setup-node@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/main.yml",
-      "source_repo": "DioxusLabs/dioxus",
-      "target": "dtolnay/rust-toolchain@master",
       "target_type": "component"
     },
     {
@@ -548,20 +529,6 @@
       "source_repo": "DioxusLabs/dioxus",
       "target": "jkelleyrtp/cache-nix-action@jk/use-warpbuild",
       "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/promote.yml",
-      "source_repo": "DioxusLabs/dioxus",
-      "target": "actions/checkout@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/promote.yml",
-      "source_repo": "DioxusLabs/dioxus",
-      "target": "Promote main to stable branch",
-      "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
@@ -683,7 +650,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T20:10:55.581528+00:00",
+  "fetched_at": "2026-05-22T03:07:44.736948+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -691,19 +658,15 @@
     },
     {
       "path": "Cargo.toml",
-      "size": 31173
+      "size": 30839
     },
     {
       "path": ".github/workflows/main.yml",
-      "size": 27872
-    },
-    {
-      "path": ".github/workflows/promote.yml",
-      "size": 1696
+      "size": 28545
     },
     {
       "path": ".github/workflows/publish.yml",
-      "size": 7946
+      "size": 7982
     },
     {
       "path": ".github/workflows/setup-dev-drive.ps1",
@@ -719,7 +682,7 @@
     "full_name": "DioxusLabs/dioxus",
     "html_url": "https://github.com/DioxusLabs/dioxus",
     "language": "Rust",
-    "pushed_at": "2026-05-21T19:54:09Z",
+    "pushed_at": "2026-05-21T23:02:21Z",
     "stargazers_count": 36104,
     "topics": [
       "android",
@@ -736,7 +699,7 @@
       "wasm",
       "web"
     ],
-    "updated_at": "2026-05-21T19:14:47Z"
+    "updated_at": "2026-05-22T02:43:13Z"
   },
   "repo_links": [
     {
@@ -751,12 +714,6 @@
     }
   ],
   "terms": [
-    {
-      "context_snippet": "Promote main to stable branch",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/promote.yml",
-      "term": "Promote main to stable branch"
-    },
     {
       "context_snippet": "Publish CLI",
       "edge_type": "workflow-name",

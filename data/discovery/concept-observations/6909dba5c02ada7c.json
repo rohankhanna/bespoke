@@ -84,7 +84,7 @@
   "normalized_form": "test-downstream",
   "observation_id": "6909dba5c02ada7c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-21T07:28:23.617453+00:00",
+  "observed_at": "2026-05-22T00:44:15.720901+00:00",
   "observed_text": "Test Downstream",
   "source_context_snippet": "Test Downstream",
   "source_file": ".github/workflows/downstream.yml",

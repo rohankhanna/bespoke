@@ -388,11 +388,17 @@
       "observed_at": "2026-05-21T18:45:28.518020+00:00",
       "source_file": ".github/workflows/pull_request.yaml",
       "source_repo": "vmware-archive/buildkit-cli-for-kubectl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T00:44:15.720901+00:00",
+      "source_file": ".github/workflows/pull_request.yaml",
+      "source_repo": "vmware-archive/buildkit-cli-for-kubectl"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T18:45:28.518020+00:00",
+  "last_seen_at": "2026-05-22T00:44:15.720901+00:00",
   "lexical_providers": [
     "datamuse"
   ],

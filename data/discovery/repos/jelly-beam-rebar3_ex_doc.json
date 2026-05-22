@@ -138,7 +138,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T19:08:48.205738+00:00",
+  "fetched_at": "2026-05-22T02:13:58.246586+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -162,7 +162,7 @@
     "full_name": "jelly-beam/rebar3_ex_doc",
     "html_url": "https://github.com/jelly-beam/rebar3_ex_doc",
     "language": "Erlang",
-    "pushed_at": "2026-05-09T01:46:21Z",
+    "pushed_at": "2026-05-22T02:02:17Z",
     "stargazers_count": 48,
     "topics": [
       "rebar3-plugin"

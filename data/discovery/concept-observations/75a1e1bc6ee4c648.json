@@ -84,7 +84,7 @@
   "normalized_form": "build-kantv",
   "observation_id": "75a1e1bc6ee4c648",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-21T18:45:28.518020+00:00",
+  "observed_at": "2026-05-22T00:44:15.720901+00:00",
   "observed_text": "build kantv",
   "source_context_snippet": "build kantv",
   "source_file": ".github/workflows/build.yml",

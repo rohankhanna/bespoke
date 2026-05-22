@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wenet-e2e/speech-recognition-papers",
+      "target": "xingchensong/speech-recognition-papers",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-22T00:44:15.720901+00:00",
+  "source_repo": "wenet-e2e/speech-recognition-papers"
+}

@@ -7617,6 +7617,9 @@
   "backport pull request": [
     "backport-pull-request"
   ],
+  "backport release": [
+    "backport-release"
+  ],
   "backport reminder": [
     "backport-reminder"
   ],
@@ -20026,6 +20029,9 @@
   ],
   "claude ai assistant": [
     "claude-ai-assistant"
+  ],
+  "claude answer issue": [
+    "claude-answer-issue"
   ],
   "claude assistant": [
     "claude-assistant"
@@ -37165,6 +37171,9 @@
   ],
   "fetch and rebase": [
     "fetch-and-rebase"
+  ],
+  "fetch voices": [
+    "fetch-voices"
   ],
   "fetch-access-token": [
     "fetch-access-token"

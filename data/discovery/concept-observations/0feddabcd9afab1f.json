@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Controllable and fast Text-to-Speech for over 7000 languages!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"right\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"right\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "speech-synthesis",
+      "sense_id": "speech-synthesis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "speech-synthesis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "speech-synthesis",
+  "observation_id": "0feddabcd9afab1f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-22T00:44:15.720901+00:00",
+  "observed_text": "speech-synthesis",
+  "source_context_snippet": "<p align=\"right\">",
+  "source_file": null,
+  "source_repo": "DigitalPhonetics/IMS-Toucan",
+  "source_repo_description": "Controllable and fast Text-to-Speech for over 7000 languages!"
+}

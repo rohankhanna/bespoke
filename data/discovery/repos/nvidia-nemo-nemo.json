@@ -31,21 +31,6 @@
       "source_file": ".github/workflows/_bump_mcore_tag.yml"
     },
     {
-      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_cicd_preflight.yml@v0.74.0",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-docs.yml"
-    },
-    {
-      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_docs.yml@v0.83.0",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-docs.yml"
-    },
-    {
-      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_test_publish_wheel.yml@v0.94.1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-test-publish-wheel.yml"
-    },
-    {
       "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_cherry_pick.yml@v0.63.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cherry-pick-release-commit.yml"
@@ -119,6 +104,76 @@
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cicd-main-unit-tests.yml"
+    },
+    {
+      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_cicd_preflight.yml@v0.89.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-answer.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-answer.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-answer.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-answer.yml"
     }
   ],
   "edges": [
@@ -187,34 +242,6 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-docs.yml",
-      "source_repo": "NVIDIA-NeMo/NeMo",
-      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_cicd_preflight.yml@v0.74.0",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-docs.yml",
-      "source_repo": "NVIDIA-NeMo/NeMo",
-      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_docs.yml@v0.83.0",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/build-docs.yml",
-      "source_repo": "NVIDIA-NeMo/NeMo",
-      "target": "Build docs",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-test-publish-wheel.yml",
-      "source_repo": "NVIDIA-NeMo/NeMo",
-      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_test_publish_wheel.yml@v0.94.1",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cherry-pick-release-commit.yml",
       "source_repo": "NVIDIA-NeMo/NeMo",
       "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_cherry_pick.yml@v0.63.0",
@@ -267,6 +294,76 @@
       "source_file": ".github/workflows/cicd-main-unit-tests.yml",
       "source_repo": "NVIDIA-NeMo/NeMo",
       "target": "NeMo Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_cicd_preflight.yml@v0.89.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "CICD NeMo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-answer.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-answer.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-answer.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-answer.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "Claude Answer Issue",
       "target_type": "term"
     },
     {
@@ -326,7 +423,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T19:01:17.224457+00:00",
+  "fetched_at": "2026-05-22T02:04:05.735215+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -345,14 +442,6 @@
       "size": 1826
     },
     {
-      "path": ".github/workflows/build-docs.yml",
-      "size": 2553
-    },
-    {
-      "path": ".github/workflows/build-test-publish-wheel.yml",
-      "size": 1244
-    },
-    {
       "path": ".github/workflows/cherry-pick-release-commit.yml",
       "size": 352
     },
@@ -367,6 +456,14 @@
     {
       "path": ".github/workflows/cicd-main-unit-tests.yml",
       "size": 4113
+    },
+    {
+      "path": ".github/workflows/cicd-main.yml",
+      "size": 14323
+    },
+    {
+      "path": ".github/workflows/claude-answer.yml",
+      "size": 2042
     }
   ],
   "related_repositories": [],
@@ -378,8 +475,8 @@
     "full_name": "NVIDIA-NeMo/NeMo",
     "html_url": "https://github.com/NVIDIA-NeMo/NeMo",
     "language": "Python",
-    "pushed_at": "2026-05-21T15:54:51Z",
-    "stargazers_count": 17243,
+    "pushed_at": "2026-05-21T23:20:01Z",
+    "stargazers_count": 17244,
     "topics": [
       "asr",
       "deeplearning",
@@ -392,7 +489,7 @@
       "speech-translation",
       "tts"
     ],
-    "updated_at": "2026-05-21T15:25:48Z"
+    "updated_at": "2026-05-21T23:20:07Z"
   },
   "repo_links": [
     {
@@ -420,12 +517,6 @@
       "term": "~Bump Megatron Tag template"
     },
     {
-      "context_snippet": "Build docs",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/build-docs.yml",
-      "term": "Build docs"
-    },
-    {
       "context_snippet": "Approve Test Queue",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/cicd-approve-test-queue.yml",
@@ -442,6 +533,18 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/cicd-main-unit-tests.yml",
       "term": "NeMo Unit Tests"
+    },
+    {
+      "context_snippet": "CICD NeMo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "term": "CICD NeMo"
+    },
+    {
+      "context_snippet": "Claude Answer Issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-answer.yml",
+      "term": "Claude Answer Issue"
     },
     {
       "context_snippet": "[![Project Status: Active -- The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",

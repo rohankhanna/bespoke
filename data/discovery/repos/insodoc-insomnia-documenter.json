@@ -493,7 +493,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T19:05:46.864426+00:00",
+  "fetched_at": "2026-05-22T02:09:59.669702+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -518,7 +518,7 @@
     "html_url": "https://github.com/insodoc/insomnia-documenter",
     "language": "JavaScript",
     "pushed_at": "2023-05-12T21:40:34Z",
-    "stargazers_count": 501,
+    "stargazers_count": 500,
     "topics": [
       "documentation",
       "documentation-generator",
@@ -527,7 +527,7 @@
       "insomnia-export",
       "static-site"
     ],
-    "updated_at": "2026-03-11T17:17:40Z"
+    "updated_at": "2026-05-21T23:21:20Z"
   },
   "repo_links": [
     {

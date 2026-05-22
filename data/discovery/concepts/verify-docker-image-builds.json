@@ -454,11 +454,17 @@
       "observed_at": "2026-05-21T18:45:28.518020+00:00",
       "source_file": ".github/workflows/verify-docker-build.yml",
       "source_repo": "amazon-ion/ion-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T00:44:15.720901+00:00",
+      "source_file": ".github/workflows/verify-docker-build.yml",
+      "source_repo": "amazon-ion/ion-cli"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T18:45:28.518020+00:00",
+  "last_seen_at": "2026-05-22T00:44:15.720901+00:00",
   "lexical_providers": [
     "datamuse"
   ],

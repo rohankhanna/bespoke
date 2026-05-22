@@ -247,11 +247,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T11:54:37.258944+00:00",
+  "fetched_at": "2026-05-22T03:14:05.495266+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 27470
+      "size": 27690
     },
     {
       "path": "Dockerfile",
@@ -283,8 +283,8 @@
     "full_name": "gitleaks/gitleaks",
     "html_url": "https://github.com/gitleaks/gitleaks",
     "language": "Go",
-    "pushed_at": "2026-05-13T13:53:48Z",
-    "stargazers_count": 27170,
+    "pushed_at": "2026-05-21T12:29:44Z",
+    "stargazers_count": 27188,
     "topics": [
       "ai-powered",
       "ci-cd",
@@ -307,7 +307,7 @@
       "security",
       "security-tools"
     ],
-    "updated_at": "2026-05-21T10:37:18Z"
+    "updated_at": "2026-05-22T03:11:44Z"
   },
   "repo_links": [],
   "terms": [

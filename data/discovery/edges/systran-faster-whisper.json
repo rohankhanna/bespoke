@@ -11,14 +11,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SYSTRAN/faster-whisper",
-      "target": "speaches-ai/speaches",
+      "target": "bandas-center/atrain",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SYSTRAN/faster-whisper",
-      "target": "bandas-center/atrain",
+      "target": "ufal/whisper_streaming",
       "target_type": "repository"
     },
     {
@@ -99,6 +99,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-21T07:28:23.617453+00:00",
+  "generated_at": "2026-05-22T00:44:15.720901+00:00",
   "source_repo": "SYSTRAN/faster-whisper"
 }

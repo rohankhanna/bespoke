@@ -201,6 +201,11 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
+      "component": "pnpm/action-setup@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
       "component": "actions/setup-node@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
@@ -212,6 +217,11 @@
     },
     {
       "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml"
     },
@@ -231,12 +241,17 @@
       "source_file": ".github/workflows/size-limit.yaml"
     },
     {
+      "component": "pnpm/action-setup@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size-limit.yaml"
+    },
+    {
       "component": "actions/setup-node@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/size-limit.yaml"
     },
     {
-      "component": "andresz1/size-limit-action@v1",
+      "component": "andresz1/size-limit-action@v1.8.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/size-limit.yaml"
     }
@@ -526,6 +541,13 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
+      "target": "pnpm/action-setup@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "typescript-language-server/typescript-language-server",
       "target": "actions/setup-node@v6",
       "target_type": "component"
     },
@@ -541,6 +563,13 @@
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
       "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "typescript-language-server/typescript-language-server",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -582,6 +611,13 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/size-limit.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
+      "target": "pnpm/action-setup@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size-limit.yaml",
+      "source_repo": "typescript-language-server/typescript-language-server",
       "target": "actions/setup-node@v6",
       "target_type": "component"
     },
@@ -589,7 +625,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/size-limit.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
-      "target": "andresz1/size-limit-action@v1",
+      "target": "andresz1/size-limit-action@v1.8.0",
       "target_type": "component"
     },
     {
@@ -621,7 +657,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T11:52:03.137880+00:00",
+  "fetched_at": "2026-05-22T03:12:22.474626+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -629,15 +665,15 @@
     },
     {
       "path": "package.json",
-      "size": 2848
+      "size": 2467
     },
     {
       "path": ".github/workflows/ci.yaml",
-      "size": 828
+      "size": 832
     },
     {
       "path": ".github/workflows/release.yaml",
-      "size": 1119
+      "size": 1155
     },
     {
       "path": ".github/workflows/semantic-commits.yaml",
@@ -645,7 +681,7 @@
     },
     {
       "path": ".github/workflows/size-limit.yaml",
-      "size": 736
+      "size": 697
     }
   ],
   "related_repositories": [],
@@ -657,8 +693,8 @@
     "full_name": "typescript-language-server/typescript-language-server",
     "html_url": "https://github.com/typescript-language-server/typescript-language-server",
     "language": "TypeScript",
-    "pushed_at": "2026-05-21T06:34:32Z",
-    "stargazers_count": 2490,
+    "pushed_at": "2026-05-21T22:11:39Z",
+    "stargazers_count": 2491,
     "topics": [
       "hacktoberfest",
       "language-server",
@@ -666,7 +702,7 @@
       "lsp",
       "typescript"
     ],
-    "updated_at": "2026-05-21T06:34:31Z"
+    "updated_at": "2026-05-21T23:19:24Z"
   },
   "repo_links": [],
   "terms": [

@@ -84,7 +84,7 @@
   "normalized_form": "agents-ci",
   "observation_id": "2f22192d57f0f5b2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-21T07:28:23.617453+00:00",
+  "observed_at": "2026-05-22T00:44:15.720901+00:00",
   "observed_text": "Agents CI",
   "source_context_snippet": "Agents CI",
   "source_file": ".github/workflows/agents.yml",

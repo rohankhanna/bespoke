@@ -11610,6 +11610,9 @@
   "backport-pull-request": [
     "16b34f38c0b2b05c"
   ],
+  "backport-release": [
+    "c7db3aa048bcd02a"
+  ],
   "backport-reminder": [
     "5ba1a7608c671523"
   ],
@@ -29594,6 +29597,7 @@
     "38025304b08eff45",
     "3e7b8683b7f37192",
     "45781e1a16169662",
+    "53009e5296d96a34",
     "543689e44722100b",
     "56e132a7c494c3d9",
     "5f1d04ec2a5d232a",
@@ -29622,6 +29626,7 @@
   ],
   "cicd-nemo": [
     "36f52000617d66ec",
+    "e2b890aa65e5833d",
     "eac0a73778e4e971"
   ],
   "cicd-nemo-aligner": [
@@ -30350,6 +30355,9 @@
   ],
   "claude-ai-assistant": [
     "e51c89d8ff0f02b7"
+  ],
+  "claude-answer-issue": [
+    "b9bb2fcebc6779ff"
   ],
   "claude-api": [
     "031a7f2364155a14",
@@ -42560,7 +42568,8 @@
   "credentials": [
     "3189c8a41ee481a0",
     "89e58996811a231d",
-    "be3de370081a746b"
+    "be3de370081a746b",
+    "d531ba7e6e8563a4"
   ],
   "credhub": [
     "27646aeb73aef280",
@@ -47433,6 +47442,7 @@
     "a0bbea0546453c62",
     "a0d4a9955c8a9e9c",
     "a0dfdebb95ce029a",
+    "a1cc957f7a79f1af",
     "a1d74fa3f94c530d",
     "a35a28f5769731d2",
     "a39600761d3cd6ab",
@@ -51053,6 +51063,7 @@
     "396d6b3833d91262",
     "3faedf246e43b757",
     "41c2cbe7e77bb990",
+    "484c1090f839b18c",
     "4d5b6324a2aefe98",
     "4f729eae10a4850d",
     "501c0dbaab667721",
@@ -51242,6 +51253,7 @@
     "586f763e5ce528b1",
     "5f947d7659580db6",
     "64438623f40aa620",
+    "6bfd2e182b133bb1",
     "6cfe9bbfbbe01316",
     "6d73ec50e63f670e",
     "6e7187322b7a07ed",
@@ -51303,7 +51315,8 @@
     "b138f5867fa2f99c",
     "b1d581b11a8cd4a6",
     "bd39258d215ba479",
-    "edd66143df8b4ca3"
+    "edd66143df8b4ca3",
+    "f6dce895bb2314f9"
   ],
   "devsecops-tools": [
     "d7b5d8aa946290e0"
@@ -62154,6 +62167,9 @@
     "6e84b3d62673bf62",
     "ff51c8a2f342b869"
   ],
+  "fetch-voices": [
+    "600ea14476ea2ba0"
+  ],
   "fetchcontent": [
     "b406c3a3dead951a"
   ],
@@ -68597,6 +68613,7 @@
     "aef0491e9bee2124",
     "afa330588c8b8c22",
     "b217fb96d5ce4a45",
+    "b76bc2cbdd892acb",
     "b807fb0cd7225463",
     "b90c8111c91c32a5",
     "cd453c280e14a98d",
@@ -69272,6 +69289,7 @@
   "gitleaks": [
     "00e1655c78f3988e",
     "202b91bca1b98190",
+    "3d16be691296379f",
     "586ef927eb710a41",
     "68f52aacc3c46250",
     "724561fd83ab5b5e",
@@ -70262,6 +70280,7 @@
     "5a230cc3c11ea09d",
     "5ad898c863140d66",
     "5c041cc4a92cf9c3",
+    "5c52149f34a9f34e",
     "5c6c990004c49d5a",
     "5d74a52c9689da87",
     "5f1374c07b0b9627",
@@ -85460,6 +85479,7 @@
     "dbc6199e89a48a32"
   ],
   "kokoro": [
+    "61c0fbc735f9605b",
     "98974d52505cd57f",
     "c2fd2774edcea7d6"
   ],
@@ -92105,6 +92125,7 @@
   ],
   "llm-tools": [
     "0c05f5a3b0a581d2",
+    "137f1db649f4fa23",
     "63fea04ddd0d2bf9",
     "64606c40f8a5587d",
     "749d650dbd7e6047",
@@ -109723,6 +109744,7 @@
     "460ea17e19b678f5",
     "469c5ef16481b806",
     "499569243d767115",
+    "4ae0a9e172d5a535",
     "51de786143ccc3a7",
     "5449c0fa9af32433",
     "56a66981638c2734",
@@ -120945,6 +120967,7 @@
     "c6986895c7313905",
     "c7724def11d3674a",
     "c813aa22bba92024",
+    "c9252d0adfa46ae8",
     "c988dec34e213000",
     "c9e523922fa12220",
     "ca5d68eada5efffb",
@@ -124742,6 +124765,7 @@
     "2b6ead6ddd883665",
     "2bded9248545748f",
     "2be04525db35e409",
+    "2bee740dc4cac17a",
     "2c4de802a71f363f",
     "2cb08a2cb492814d",
     "2ccb979b3dda8fff",
@@ -129079,6 +129103,7 @@
     "0b838c1ada7225f9",
     "0ba7c5ea3617dea0",
     "0bab5eb3e9ae050f",
+    "0bae581ee647eb32",
     "0bdca18785c72098",
     "0bdddd0c29b1119d",
     "0be5dbe3d0bade5c",
@@ -140083,6 +140108,7 @@
   ],
   "secret": [
     "0a34575c3cfaca1c",
+    "0e0f74126dbdaf53",
     "6565b4cd0231ad82",
     "cb1628b912101770",
     "fe89f34bc741557d"
@@ -140137,6 +140163,7 @@
     "0547a3bcad3878a0"
   ],
   "secrets": [
+    "29ccc04bf4f6ccd1",
     "3205fff27da5cfef",
     "5d1834c52bdb042b",
     "7d77e2583f4fff7a",
@@ -145638,6 +145665,7 @@
     "be09f5db08613a66",
     "c54ae77fa9279b5d",
     "c6564d7ac2855165",
+    "c7b0012410741919",
     "c7ca84c1f763eb9b",
     "cb652f42b49462f6",
     "d36bb13aab951fd4",
@@ -145702,6 +145730,7 @@
     "4e326a0284f668a0",
     "56eb42235d5042d6",
     "7886547cf2e7d89f",
+    "ac82a440cd75044d",
     "b651a5d02cc663e1",
     "d818176a14aa2008",
     "d8f7b62324c531fa",
@@ -145783,6 +145812,7 @@
     "05dc1ccb5a66fc87",
     "0649fb49abd5e64a",
     "0dcbce5aabf28995",
+    "0feddabcd9afab1f",
     "2280e61eacd90180",
     "2800edd4d56eb46c",
     "29a9f3592e07fedb",
@@ -153857,6 +153887,7 @@
     "ade78acde630a755",
     "ade9416c3bf6a901",
     "adecee6bc544f953",
+    "ae4c7e5da7d7683f",
     "ae57e311674f4528",
     "aebc1845d9e36f94",
     "aed1bfc800f245e2",
@@ -154114,6 +154145,7 @@
     "edafaccaba9a32a0",
     "edfbecf15975ceb2",
     "ee44a90f98bb38fb",
+    "ee7397ec55162224",
     "eea49eb607521c8f",
     "eeaec118ce37e19c",
     "eeebf6d354f7feba",
@@ -157404,6 +157436,7 @@
     "03e4288f4795046c",
     "122a982808ef51ef",
     "19816dd62019df91",
+    "22f11a185cc7140c",
     "271ee8d22044359f",
     "2aa6c06ae6c44bef",
     "2be2939ddfbdfa18",
@@ -158866,6 +158899,7 @@
     "d71926729fa97590",
     "d88447872501c38d",
     "ddaf2da5fa01514b",
+    "f0586ac8e497ef3f",
     "f653a3533d6a899f",
     "fe0eec2a947e1c5a"
   ],

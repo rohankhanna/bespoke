@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wenet-e2e/speech-synthesis-paper",
+      "target": "faroit/awesome-python-scientific-audio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wenet-e2e/speech-synthesis-paper",
+      "target": "erogol/tts-papers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wenet-e2e/speech-synthesis-paper",
+      "target": "seungwonpark/awesome-tts-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wenet-e2e/speech-synthesis-paper",
+      "target": "dqqcasia/awesome-speech-translation",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-22T01:04:31.650771+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34500
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "List of speech synthesis papers.",
+    "fork": false,
+    "full_name": "wenet-e2e/speech-synthesis-paper",
+    "html_url": "https://github.com/wenet-e2e/speech-synthesis-paper",
+    "language": null,
+    "pushed_at": "2023-07-24T06:46:12Z",
+    "stargazers_count": 1071,
+    "topics": [],
+    "updated_at": "2026-05-20T23:10:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dqqcasia/awesome-speech-translation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erogol/tts-papers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "faroit/awesome-python-scientific-audio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seungwonpark/awesome-tts-samples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

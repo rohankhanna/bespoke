@@ -58,15 +58,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T12:06:14.020352+00:00",
+  "fetched_at": "2026-05-22T01:00:27.917635+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 7551
+      "size": 7716
     },
     {
       "path": "pyproject.toml",
-      "size": 1179
+      "size": 1196
     }
   ],
   "related_repositories": [],
@@ -78,7 +78,7 @@
     "full_name": "hluaguo/learn-faster-kit",
     "html_url": "https://github.com/hluaguo/learn-faster-kit",
     "language": "Python",
-    "pushed_at": "2026-05-19T10:17:39Z",
+    "pushed_at": "2026-05-21T21:14:55Z",
     "stargazers_count": 320,
     "topics": [
       "claude-code",
@@ -89,7 +89,7 @@
       "spaced-repetition",
       "study"
     ],
-    "updated_at": "2026-05-19T22:05:42Z"
+    "updated_at": "2026-05-21T21:14:59Z"
   },
   "repo_links": [
     {

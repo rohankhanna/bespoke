@@ -6,6 +6,16 @@
       "source_file": ".github/workflows/api-node-template.yml"
     },
     {
+      "component": "actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport_release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport_release.yaml"
+    },
+    {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-ai-co-authors.yml"
@@ -63,6 +73,27 @@
       "source_file": ".github/workflows/api-node-template.yml",
       "source_repo": "Comfy-Org/ComfyUI",
       "target": "Append API Node PR template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport_release.yaml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport_release.yaml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport_release.yaml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "Backport Release",
       "target_type": "term"
     },
     {
@@ -143,13 +174,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/release-webhook.yml",
-      "source_repo": "Comfy-Org/ComfyUI",
-      "target": "Release Webhook",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "Comfy-Org/ComfyUI",
@@ -178,11 +202,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T20:00:08.457763+00:00",
+  "fetched_at": "2026-05-22T02:56:53.091720+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 30111
+      "size": 30117
     },
     {
       "path": "pyproject.toml",
@@ -195,6 +219,10 @@
     {
       "path": ".github/workflows/api-node-template.yml",
       "size": 2244
+    },
+    {
+      "path": ".github/workflows/backport_release.yaml",
+      "size": 21572
     },
     {
       "path": ".github/workflows/check-ai-co-authors.yml",
@@ -215,10 +243,6 @@
     {
       "path": ".github/workflows/release-stable-all.yml",
       "size": 1849
-    },
-    {
-      "path": ".github/workflows/release-webhook.yml",
-      "size": 6601
     }
   ],
   "related_repositories": [],
@@ -230,8 +254,8 @@
     "full_name": "Comfy-Org/ComfyUI",
     "html_url": "https://github.com/Comfy-Org/ComfyUI",
     "language": "Python",
-    "pushed_at": "2026-05-21T19:58:06Z",
-    "stargazers_count": 113872,
+    "pushed_at": "2026-05-22T02:52:43Z",
+    "stargazers_count": 113908,
     "topics": [
       "ai",
       "comfy",
@@ -240,7 +264,7 @@
       "pytorch",
       "stable-diffusion"
     ],
-    "updated_at": "2026-05-21T19:47:46Z"
+    "updated_at": "2026-05-22T02:52:44Z"
   },
   "repo_links": [
     {
@@ -260,6 +284,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/api-node-template.yml",
       "term": "Append API Node PR template"
+    },
+    {
+      "context_snippet": "Backport Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport_release.yaml",
+      "term": "Backport Release"
     },
     {
       "context_snippet": "Check AI Co-Authors",
@@ -290,12 +320,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release-stable-all.yml",
       "term": "Release Stable All Portable Versions"
-    },
-    {
-      "context_snippet": "Release Webhook",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/release-webhook.yml",
-      "term": "Release Webhook"
     },
     {
       "context_snippet": "<div align=\"center\">",

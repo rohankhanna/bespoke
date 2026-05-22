@@ -326,6 +326,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "@vscode/vsce",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "chai",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -482,11 +487,6 @@
     },
     {
       "component": "typescript",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@vscode/vsce",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -968,6 +968,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "microsoft/vscode-js-debug",
+      "target": "@vscode/vsce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/vscode-js-debug",
       "target": "chai",
       "target_type": "component"
     },
@@ -1189,13 +1196,6 @@
       "target_type": "component"
     },
     {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "microsoft/vscode-js-debug",
-      "target": "@vscode/vsce",
-      "target_type": "component"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "microsoft/vscode-js-debug",
@@ -1238,7 +1238,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-21T12:13:45.510758+00:00",
+  "fetched_at": "2026-05-22T01:07:45.561295+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1262,7 +1262,7 @@
     "full_name": "microsoft/vscode-js-debug",
     "html_url": "https://github.com/microsoft/vscode-js-debug",
     "language": "TypeScript",
-    "pushed_at": "2026-05-20T18:09:55Z",
+    "pushed_at": "2026-05-21T16:01:12Z",
     "stargazers_count": 1948,
     "topics": [
       "dap",
@@ -1271,7 +1271,7 @@
       "vscode",
       "vscode-extension"
     ],
-    "updated_at": "2026-05-20T18:09:59Z"
+    "updated_at": "2026-05-21T16:02:53Z"
   },
   "repo_links": [
     {

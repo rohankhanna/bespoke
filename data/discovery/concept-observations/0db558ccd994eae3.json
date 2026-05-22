@@ -84,7 +84,7 @@
   "normalized_form": "spam-self-promotion-check",
   "observation_id": "0db558ccd994eae3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-21T18:45:28.518020+00:00",
+  "observed_at": "2026-05-22T00:44:15.720901+00:00",
   "observed_text": "Spam & Self-Promotion Check",
   "source_context_snippet": "\"Spam & Self-Promotion Check\"",
   "source_file": ".github/workflows/spam-check.md",

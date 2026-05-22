@@ -1,7 +1,7 @@
 {
   "component": "@antfu/install-pkg",
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
-  "last_seen_at": "2026-05-21T18:45:28.518020+00:00",
+  "last_seen_at": "2026-05-22T00:44:15.720901+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

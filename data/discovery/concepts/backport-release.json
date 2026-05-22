@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Backport Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "status": "candidate-context",
+      "text": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "status": "candidate-context",
+      "text": "Backport Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "status": "candidate",
+      "text": "Backport Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "abandonment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "abreaction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "absolution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "absolve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "absolved"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Backport Release",
+  "concept_id": "backport-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T00:44:15.720901+00:00",
+      "source_file": ".github/workflows/backport_release.yaml",
+      "source_repo": "Comfy-Org/ComfyUI"
+    }
+  ],
+  "first_seen_at": "2026-05-22T00:44:15.720901+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-22T00:44:15.720901+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Backport Release",
+      "sense_id": "backport-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,170 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DigitalPhonetics/IMS-Toucan",
+      "target": "kdaip/stabletts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DigitalPhonetics/IMS-Toucan",
+      "target": "xinjli/transphone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DigitalPhonetics/IMS-Toucan",
+      "target": "yangdongchao/academicodec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DigitalPhonetics/IMS-Toucan",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DigitalPhonetics/IMS-Toucan",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DigitalPhonetics/IMS-Toucan",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DigitalPhonetics/IMS-Toucan",
+      "target": "speech-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DigitalPhonetics/IMS-Toucan",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DigitalPhonetics/IMS-Toucan",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DigitalPhonetics/IMS-Toucan",
+      "target": "toolkit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-22T01:04:23.092490+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20455
+    },
+    {
+      "path": "requirements.txt",
+      "size": 685
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "MassiveScaleToucan",
+    "description": "Controllable and fast Text-to-Speech for over 7000 languages!",
+    "fork": false,
+    "full_name": "DigitalPhonetics/IMS-Toucan",
+    "html_url": "https://github.com/DigitalPhonetics/IMS-Toucan",
+    "language": "Python",
+    "pushed_at": "2026-01-25T14:45:14Z",
+    "stargazers_count": 2198,
+    "topics": [
+      "deep-learning",
+      "pytorch",
+      "speech",
+      "speech-processing",
+      "speech-synthesis",
+      "text-to-speech",
+      "toolkit",
+      "tts"
+    ],
+    "updated_at": "2026-05-20T23:03:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kdaip/stabletts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xinjli/transphone",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yangdongchao/academicodec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<p align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<p align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "<p align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-processing"
+    },
+    {
+      "context_snippet": "<p align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "<p align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "<p align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toolkit"
+    }
+  ]
+}

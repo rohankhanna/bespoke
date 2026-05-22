@@ -284,6 +284,13 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
+      "target": "pnpm/action-setup@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "typescript-language-server/typescript-language-server",
       "target": "actions/setup-node@v6",
       "target_type": "component"
     },
@@ -299,6 +306,13 @@
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
       "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "typescript-language-server/typescript-language-server",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -340,6 +354,13 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/size-limit.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
+      "target": "pnpm/action-setup@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size-limit.yaml",
+      "source_repo": "typescript-language-server/typescript-language-server",
       "target": "actions/setup-node@v6",
       "target_type": "component"
     },
@@ -347,7 +368,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/size-limit.yaml",
       "source_repo": "typescript-language-server/typescript-language-server",
-      "target": "andresz1/size-limit-action@v1",
+      "target": "andresz1/size-limit-action@v1.8.0",
       "target_type": "component"
     },
     {
@@ -379,6 +400,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-21T07:28:23.617453+00:00",
+  "generated_at": "2026-05-22T00:44:15.720901+00:00",
   "source_repo": "typescript-language-server/typescript-language-server"
 }
