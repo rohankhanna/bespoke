@@ -151,6 +151,18 @@
       "source_repo": "FoundationVision/UniTok",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xinjli/transphone",
+      "status": "candidate-context",
+      "text": "phoneme tokenizer and grapheme-to-phoneme model for 8k languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinjli/transphone",
+      "status": "candidate-context",
+      "text": "![CI Test](https://github.com/xinjli/transphone/actions/workflows/python.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "FoundationVision/UniTok",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinjli/transphone",
+      "status": "candidate",
+      "text": "![CI Test](https://github.com/xinjli/transphone/actions/workflows/python.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -694,11 +712,23 @@
       "observed_at": "2026-05-22T00:44:15.720901+00:00",
       "source_file": null,
       "source_repo": "lindera/lindera-tantivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T07:24:26.652079+00:00",
+      "source_file": null,
+      "source_repo": "xinjli/transphone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T07:24:26.652079+00:00",
+      "source_file": null,
+      "source_repo": "lindera/lindera-tantivy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T00:44:15.720901+00:00",
+  "last_seen_at": "2026-05-22T07:24:26.652079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

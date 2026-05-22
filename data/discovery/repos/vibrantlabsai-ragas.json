@@ -324,7 +324,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T02:48:19.946114+00:00",
+  "fetched_at": "2026-05-22T08:41:30.682838+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -377,13 +377,13 @@
     "html_url": "https://github.com/vibrantlabsai/ragas",
     "language": "Python",
     "pushed_at": "2026-02-24T07:47:19Z",
-    "stargazers_count": 14005,
+    "stargazers_count": 14007,
     "topics": [
       "evaluation",
       "llm",
       "llmops"
     ],
-    "updated_at": "2026-05-22T02:01:26Z"
+    "updated_at": "2026-05-22T05:50:22Z"
   },
   "repo_links": [],
   "terms": [

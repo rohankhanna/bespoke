@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KdaiP/StableTTS",
+      "target": "fishaudio/vocoder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KdaiP/StableTTS",
+      "target": "p0p4k/pflowtts_pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KdaiP/StableTTS",
+      "target": "colstone/multi-langs_dictionary",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KdaiP/StableTTS",
+      "target": "atonyxu/multi-langs_dictionary",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-22T07:24:26.652079+00:00",
+  "source_repo": "KdaiP/StableTTS"
+}

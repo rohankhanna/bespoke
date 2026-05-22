@@ -31,6 +31,18 @@
       "source_repo": "CUNY-CL/wikipron",
       "status": "candidate-context",
       "text": "[![PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xinjli/transphone",
+      "status": "candidate-context",
+      "text": "phoneme tokenizer and grapheme-to-phoneme model for 8k languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinjli/transphone",
+      "status": "candidate-context",
+      "text": "![CI Test](https://github.com/xinjli/transphone/actions/workflows/python.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "CUNY-CL/wikipron",
       "status": "candidate",
       "text": "[![PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinjli/transphone",
+      "status": "candidate",
+      "text": "![CI Test](https://github.com/xinjli/transphone/actions/workflows/python.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "CUNY-CL/wikipron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T07:24:26.652079+00:00",
+      "source_file": null,
+      "source_repo": "xinjli/transphone"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-22T07:24:26.652079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

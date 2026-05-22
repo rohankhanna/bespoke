@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "faroit/awesome-python-scientific-audio",
+      "target": "appliedacousticschalmers/sound_field_analysis-py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "faroit/awesome-python-scientific-audio",
+      "target": "astorfi/speechpy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "faroit/awesome-python-scientific-audio",
+      "target": "aliutkus/commonfate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "faroit/awesome-python-scientific-audio",
+      "target": "appliedacousticschalmers/retisar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "faroit/awesome-python-scientific-audio",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "faroit/awesome-python-scientific-audio",
+      "target": "docker://dkhamsing/awesome_bot:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faroit/awesome-python-scientific-audio",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faroit/awesome-python-scientific-audio",
+      "target": "awesome-list",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-22T07:24:26.652079+00:00",
+  "source_repo": "faroit/awesome-python-scientific-audio"
+}

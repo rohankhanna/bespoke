@@ -9,13 +9,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "coqui-ai/TTS-papers",
-      "target": "tianrengao/squeezewave",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "coqui-ai/TTS-papers",
@@ -51,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T22:17:37.321440+00:00",
+  "fetched_at": "2026-05-22T07:29:29.336121+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -68,7 +61,7 @@
     "html_url": "https://github.com/coqui-ai/TTS-papers",
     "language": null,
     "pushed_at": "2024-07-04T15:36:15Z",
-    "stargazers_count": 727,
+    "stargazers_count": 728,
     "topics": [
       "coqui-ai",
       "deep-learning",
@@ -77,14 +70,9 @@
       "speech",
       "tts"
     ],
-    "updated_at": "2026-04-19T14:51:07Z"
+    "updated_at": "2026-05-22T02:12:34Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tianrengao/squeezewave",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "ttaoretw/semi-tts",

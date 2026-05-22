@@ -48,7 +48,7 @@
   "normalized_form": "codeql",
   "observation_id": "294fe15a2806fb5d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T00:44:15.720901+00:00",
+  "observed_at": "2026-05-22T07:24:26.652079+00:00",
   "observed_text": "CodeQL",
   "source_context_snippet": "\"CodeQL\"",
   "source_file": ".github/workflows/codeql-analysis.yaml",

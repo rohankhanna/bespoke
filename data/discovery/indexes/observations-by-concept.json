@@ -8095,6 +8095,7 @@
     "4fe054edbe0b0305",
     "523354eda79b5194",
     "5493dbfcd7fa9ff2",
+    "5645170fc0c6092d",
     "5b0623579f0f1fcd",
     "5fe25f7c5df36427",
     "6031a4c682fcd90c",
@@ -10574,6 +10575,7 @@
     "6c3cd8ba36a6ee1a",
     "6cf2b45be0e5f649",
     "718a33bb3a484861",
+    "72555a8b7c2747bb",
     "75364bf535e6e145",
     "765ee9972e4cdf48",
     "78e4df61ef79b05e",
@@ -24311,6 +24313,9 @@
     "0143e33d6b2c7d80",
     "86caf6d9e965cc49"
   ],
+  "cascaded-speech-translation": [
+    "298c00a323445439"
+  ],
   "cascading-style-sheets": [
     "1bf3439d7b230aff"
   ],
@@ -29388,6 +29393,7 @@
     "4da78bf449f72bae",
     "72671f6a8a3bd6c2",
     "7fb06793b054d9c2",
+    "84a145c1c0a8c97a",
     "8c6621b3e086c3c3",
     "8df10135474e7d84",
     "dd852ea8ba13b75f"
@@ -52284,6 +52290,9 @@
     "8e7e57eedcea05cf",
     "c03536183382e07b",
     "f0f7adac420042b6"
+  ],
+  "disfluency-detection": [
+    "ec467ffa8b09f650"
   ],
   "disk": [
     "0c7b8e2a29d38a8e",
@@ -86966,6 +86975,7 @@
     "3aa1b4fd1f8494c1",
     "4f52129f6692172f",
     "624f5e46d400c3fe",
+    "6c37de9e41074a56",
     "7c4e9c47351d5efa",
     "813072211972ebbd",
     "89b8985a7f275a00",
@@ -94448,6 +94458,7 @@
     "0aa0e0de39e0c20d",
     "2061b0d38b98fd42",
     "2104dae79a4464e9",
+    "3e2a91b665657e0c",
     "442334d7fc602a39",
     "4cc5829fcf9e1cfe",
     "527b52f394fbef1d",
@@ -102027,6 +102038,12 @@
     "bcf5a197f8a3aaab",
     "c169fb37c6fc6b8d"
   ],
+  "multimodal-machine-learning": [
+    "59ad854b43783f81"
+  ],
+  "multimodal-machine-translation": [
+    "9a51bad7f32fe72b"
+  ],
   "multimodal-models": [
     "15af673a5b53b8a6"
   ],
@@ -102970,7 +102987,8 @@
     "ef673e468c768d18",
     "f22e977565aae451",
     "fa10f88bc95ddf65",
-    "fce1921cd84374ec"
+    "fce1921cd84374ec",
+    "fda8e25d31b58119"
   ],
   "natural-language-understanding": [
     "245dc4f7f0e19bb0",
@@ -106862,6 +106880,9 @@
     "38284b510f94a42f",
     "60867c9ee8f34ed5",
     "c8a45695d13326c9"
+  ],
+  "non-autoregressive-translation": [
+    "7ea88ed1f5f04ce9"
   ],
   "non-blind": [
     "50cea27228b22e56"
@@ -114459,6 +114480,9 @@
   "phoneme": [
     "b0fab13add21d191"
   ],
+  "phoneme-conversion": [
+    "c05054a40b52c9c0"
+  ],
   "phoneme-prediction": [
     "e49949bf3a7c7055"
   ],
@@ -114479,6 +114503,7 @@
     "29e9ca49f4ed044c"
   ],
   "phonetics": [
+    "12352a2eac2e5e51",
     "21e3ba27a45eb19f",
     "3bc7ebd0977de8ad"
   ],
@@ -123484,7 +123509,8 @@
     "7ca00c0a97a1c3b4"
   ],
   "punctuation-restoration": [
-    "064a7a8d90e77961"
+    "064a7a8d90e77961",
+    "e8801cdeda534cc9"
   ],
   "pundit": [
     "832a229ca7f23daa"
@@ -143194,6 +143220,9 @@
     "78785cd1d81423a7",
     "a2d4d56e0bad9827"
   ],
+  "simultaneous-translation": [
+    "be09cb28b0c5e703"
+  ],
   "sinatra": [
     "3230f80148f934bb",
     "a073bff7df79af3a"
@@ -145651,6 +145680,7 @@
     "7a10b2dbf2945fee",
     "7e48128db2f40b52",
     "8bea56fc332f8af8",
+    "8d6c42db8ac059a1",
     "9e5b4d4cd5e6d1b5",
     "9e76242f73783a9e",
     "9f81983b3d124696",
@@ -145730,6 +145760,7 @@
     "4e326a0284f668a0",
     "56eb42235d5042d6",
     "7886547cf2e7d89f",
+    "87a3b69e91356efd",
     "ac82a440cd75044d",
     "b651a5d02cc663e1",
     "d818176a14aa2008",
@@ -145748,6 +145779,7 @@
     "1735698603cc1ece",
     "18f4dcc3b1dc2760",
     "1950d7b483fe3eef",
+    "20b25f3ea2461eed",
     "226255266af7f251",
     "22de1ecddc4aad47",
     "2a3029c0bccc0241",
@@ -145811,6 +145843,7 @@
   "speech-synthesis": [
     "05dc1ccb5a66fc87",
     "0649fb49abd5e64a",
+    "0896b8b9c1c0ce6b",
     "0dcbce5aabf28995",
     "0feddabcd9afab1f",
     "2280e61eacd90180",
@@ -145889,7 +145922,11 @@
   ],
   "speech-to-speech": [
     "86fe69a5e82f3656",
+    "91a7969ca9fd3ed1",
     "dfaf21a67481d0af"
+  ],
+  "speech-to-subtitles": [
+    "0d4add220707a359"
   ],
   "speech-to-text": [
     "0952fde9a530eb4b",
@@ -145931,6 +145968,7 @@
   ],
   "speech-translation": [
     "5ee2843d2ea9ae21",
+    "60c24d143f2493e1",
     "62980daca5902be2",
     "6a8e7a4ca00ca1a2",
     "77f1b0a6e78e9d99",
@@ -154950,6 +154988,9 @@
   "test-fzf-on-macos": [
     "bbb66c66713420f2"
   ],
+  "test-gateway-manager": [
+    "976905a54905c492"
+  ],
   "test-gdal-latest": [
     "df2bc712f9995403"
   ],
@@ -157537,6 +157578,9 @@
     "6131caaeea573cc4",
     "a8183031cdf59a07"
   ],
+  "text-translation": [
+    "09a5db966e2a48a0"
+  ],
   "text-ui": [
     "627625ca1108b564"
   ],
@@ -158700,6 +158744,7 @@
     "8b7ebebd31aac0c2",
     "908dfea6a99d29e5",
     "9df3e81ab81abdfb",
+    "c8f43e23092532a6",
     "cd02acd45f96dc75",
     "ce4fbfd9cb322067",
     "ef167ffab1c7e2d4",

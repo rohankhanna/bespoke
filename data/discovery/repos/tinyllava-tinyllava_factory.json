@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T01:55:01.516374+00:00",
+  "fetched_at": "2026-05-22T07:46:49.710341+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -72,7 +72,7 @@
     "html_url": "https://github.com/TinyLLaVA/TinyLLaVA_Factory",
     "language": "Python",
     "pushed_at": "2026-05-11T13:22:42Z",
-    "stargazers_count": 979,
+    "stargazers_count": 980,
     "topics": [
       "large-multimodal-models",
       "llama",
@@ -82,7 +82,7 @@
       "transformers",
       "vision-language"
     ],
-    "updated_at": "2026-05-21T03:39:05Z"
+    "updated_at": "2026-05-22T03:53:35Z"
   },
   "repo_links": [
     {

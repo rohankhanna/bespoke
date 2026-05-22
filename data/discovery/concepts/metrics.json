@@ -2785,11 +2785,29 @@
       "observed_at": "2026-05-22T00:44:15.720901+00:00",
       "source_file": null,
       "source_repo": "statsd/statsd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T07:24:26.652079+00:00",
+      "source_file": ".github/workflows/metrics.yaml",
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T07:24:26.652079+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T07:24:26.652079+00:00",
+      "source_file": null,
+      "source_repo": "statsd/statsd"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T00:44:15.720901+00:00",
+  "last_seen_at": "2026-05-22T07:24:26.652079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

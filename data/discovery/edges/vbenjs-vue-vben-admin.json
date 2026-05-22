@@ -137,6 +137,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "vbenjs/vue-vben-admin",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vbenjs/vue-vben-admin",
       "target": "happy-dom",
       "target_type": "component"
     },
@@ -382,7 +389,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-labeled.yml",
       "source_repo": "vbenjs/vue-vben-admin",
-      "target": "actions-cool/issues-helper@v3",
+      "target": "actions-cool/issues-helper-backup@d65454423c6fbbd20026b9b499d403f79422ac69",
       "target_type": "component"
     },
     {
@@ -477,6 +484,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-22T00:44:15.720901+00:00",
+  "generated_at": "2026-05-22T07:24:26.652079+00:00",
   "source_repo": "vbenjs/vue-vben-admin"
 }

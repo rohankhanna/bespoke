@@ -91,6 +91,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "happy-dom",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -286,17 +291,17 @@
       "source_file": ".github/workflows/issue-close-require.yml"
     },
     {
-      "component": "actions-cool/issues-helper@v3",
+      "component": "actions-cool/issues-helper-backup@d65454423c6fbbd20026b9b499d403f79422ac69",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-labeled.yml"
     },
     {
-      "component": "actions-cool/issues-helper@v3",
+      "component": "actions-cool/issues-helper-backup@d65454423c6fbbd20026b9b499d403f79422ac69",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-labeled.yml"
     },
     {
-      "component": "actions-cool/issues-helper@v3",
+      "component": "actions-cool/issues-helper-backup@d65454423c6fbbd20026b9b499d403f79422ac69",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-labeled.yml"
     }
@@ -433,6 +438,13 @@
       "source_file": "package.json",
       "source_repo": "vbenjs/vue-vben-admin",
       "target": "cspell",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vbenjs/vue-vben-admin",
+      "target": "eslint",
       "target_type": "component"
     },
     {
@@ -684,7 +696,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-labeled.yml",
       "source_repo": "vbenjs/vue-vben-admin",
-      "target": "actions-cool/issues-helper@v3",
+      "target": "actions-cool/issues-helper-backup@d65454423c6fbbd20026b9b499d403f79422ac69",
       "target_type": "component"
     },
     {
@@ -779,7 +791,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T02:51:23.482508+00:00",
+  "fetched_at": "2026-05-22T08:43:54.379018+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -787,7 +799,7 @@
     },
     {
       "path": "package.json",
-      "size": 3834
+      "size": 3870
     },
     {
       "path": ".github/workflows/build.yml",
@@ -819,7 +831,7 @@
     },
     {
       "path": ".github/workflows/issue-labeled.yml",
-      "size": 1499
+      "size": 1634
     }
   ],
   "related_repositories": [],
@@ -831,8 +843,8 @@
     "full_name": "vbenjs/vue-vben-admin",
     "html_url": "https://github.com/vbenjs/vue-vben-admin",
     "language": "Vue",
-    "pushed_at": "2026-05-21T23:26:12Z",
-    "stargazers_count": 32426,
+    "pushed_at": "2026-05-22T05:30:28Z",
+    "stargazers_count": 32428,
     "topics": [
       "admin-template",
       "ant-design",
@@ -849,7 +861,7 @@
       "vue3",
       "vuex"
     ],
-    "updated_at": "2026-05-22T02:02:59Z"
+    "updated_at": "2026-05-22T08:28:11Z"
   },
   "repo_links": [
     {

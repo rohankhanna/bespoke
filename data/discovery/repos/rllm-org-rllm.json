@@ -38,6 +38,21 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gateway-manager.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gateway-manager.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gateway-manager.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-model-gateway.yml"
     },
     {
@@ -82,6 +97,13 @@
     }
   ],
   "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rllm-org/rllm",
+      "target": "shawn0728/opensearch-vl",
+      "target_type": "repository"
+    },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
@@ -157,6 +179,34 @@
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "rllm-org/rllm",
       "target": "Pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gateway-manager.yml",
+      "source_repo": "rllm-org/rllm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gateway-manager.yml",
+      "source_repo": "rllm-org/rllm",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gateway-manager.yml",
+      "source_repo": "rllm-org/rllm",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-gateway-manager.yml",
+      "source_repo": "rllm-org/rllm",
+      "target": "Test gateway manager",
       "target_type": "term"
     },
     {
@@ -342,11 +392,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T01:58:11.573635+00:00",
+  "fetched_at": "2026-05-22T07:49:05.404791+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 11133
+      "size": 11366
     },
     {
       "path": "Dockerfile",
@@ -367,6 +417,10 @@
     {
       "path": ".github/workflows/pre-commit.yml",
       "size": 995
+    },
+    {
+      "path": ".github/workflows/test-gateway-manager.yml",
+      "size": 994
     },
     {
       "path": ".github/workflows/test-model-gateway.yml",
@@ -390,8 +444,8 @@
     "full_name": "rllm-org/rllm",
     "html_url": "https://github.com/rllm-org/rllm",
     "language": "Python",
-    "pushed_at": "2026-05-21T23:57:15Z",
-    "stargazers_count": 5549,
+    "pushed_at": "2026-05-22T05:11:07Z",
+    "stargazers_count": 5550,
     "topics": [
       "agent-framework",
       "agentic-workflow",
@@ -408,9 +462,14 @@
       "tinker",
       "verl"
     ],
-    "updated_at": "2026-05-21T19:53:58Z"
+    "updated_at": "2026-05-22T07:02:53Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shawn0728/opensearch-vl",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "volcengine/verl",
@@ -435,6 +494,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/pre-commit.yml",
       "term": "Pre-commit"
+    },
+    {
+      "context_snippet": "Test gateway manager",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-gateway-manager.yml",
+      "term": "Test gateway manager"
     },
     {
       "context_snippet": "Test rllm-model-gateway",

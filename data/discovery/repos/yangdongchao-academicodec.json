@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-22T07:29:20.382121+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 57
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AcademiCodec: An Open Source Audio Codec Model for Academic Research",
+    "fork": false,
+    "full_name": "yangdongchao/AcademiCodec",
+    "html_url": "https://github.com/yangdongchao/AcademiCodec",
+    "language": "Python",
+    "pushed_at": "2023-12-27T08:22:56Z",
+    "stargazers_count": 674,
+    "topics": [],
+    "updated_at": "2026-05-19T05:05:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

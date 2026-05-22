@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "docker://dkhamsing/awesome_bot:latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "faroit/awesome-python-scientific-audio",
+      "target": "appliedacousticschalmers/sound_field_analysis-py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "faroit/awesome-python-scientific-audio",
+      "target": "astorfi/speechpy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "faroit/awesome-python-scientific-audio",
+      "target": "aliutkus/commonfate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "faroit/awesome-python-scientific-audio",
+      "target": "appliedacousticschalmers/retisar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "faroit/awesome-python-scientific-audio",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "faroit/awesome-python-scientific-audio",
+      "target": "docker://dkhamsing/awesome_bot:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faroit/awesome-python-scientific-audio",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faroit/awesome-python-scientific-audio",
+      "target": "awesome-list",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-22T07:29:55.315506+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22551
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 276
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " Curated list of python software and packages related to scientific research in audio",
+    "fork": false,
+    "full_name": "faroit/awesome-python-scientific-audio",
+    "html_url": "https://github.com/faroit/awesome-python-scientific-audio",
+    "language": null,
+    "pushed_at": "2026-01-19T16:18:45Z",
+    "stargazers_count": 1692,
+    "topics": [
+      "audio",
+      "awesome-list",
+      "python"
+    ],
+    "updated_at": "2026-05-16T20:56:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aliutkus/commonfate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appliedacousticschalmers/retisar",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appliedacousticschalmers/sound_field_analysis-py",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "astorfi/speechpy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://github.com/faroit/awesome-python-scientific-audio/workflows/CI/badge.svg)](https://github.com/faro\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://github.com/faroit/awesome-python-scientific-audio/workflows/CI/badge.svg)](https://github.com/faro\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    }
+  ]
+}

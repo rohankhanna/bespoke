@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T02:48:06.381894+00:00",
+  "fetched_at": "2026-05-22T08:41:20.338271+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -65,13 +65,13 @@
     "html_url": "https://github.com/zai-org/VisualGLM-6B",
     "language": "Python",
     "pushed_at": "2024-08-23T07:45:06Z",
-    "stargazers_count": 4159,
+    "stargazers_count": 4158,
     "topics": [
       "chatglm-6b",
       "gpt",
       "multi-modal"
     ],
-    "updated_at": "2026-05-11T08:46:21Z"
+    "updated_at": "2026-05-22T07:18:27Z"
   },
   "repo_links": [
     {

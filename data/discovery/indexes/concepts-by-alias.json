@@ -15743,6 +15743,9 @@
   "cascade-rcnn": [
     "cascade-rcnn"
   ],
+  "cascaded-speech-translation": [
+    "cascaded-speech-translation"
+  ],
   "cascading-style-sheets": [
     "cascading-style-sheets"
   ],
@@ -31135,6 +31138,9 @@
   ],
   "disentangled-representations": [
     "disentangled-representations"
+  ],
+  "disfluency-detection": [
+    "disfluency-detection"
   ],
   "disk": [
     "disk"
@@ -59743,6 +59749,12 @@
   "multimodal-learning": [
     "multimodal-learning"
   ],
+  "multimodal-machine-learning": [
+    "multimodal-machine-learning"
+  ],
+  "multimodal-machine-translation": [
+    "multimodal-machine-translation"
+  ],
   "multimodal-models": [
     "multimodal-models"
   ],
@@ -62110,6 +62122,9 @@
   ],
   "non-autoregressive": [
     "non-autoregressive"
+  ],
+  "non-autoregressive-translation": [
+    "non-autoregressive-translation"
   ],
   "non-blind": [
     "non-blind"
@@ -66680,6 +66695,9 @@
   ],
   "phoneme": [
     "phoneme"
+  ],
+  "phoneme-conversion": [
+    "phoneme-conversion"
   ],
   "phoneme-prediction": [
     "phoneme-prediction"
@@ -82235,6 +82253,9 @@
   "simulink": [
     "simulink"
   ],
+  "simultaneous-translation": [
+    "simultaneous-translation"
+  ],
   "sinatra": [
     "sinatra"
   ],
@@ -84028,6 +84049,9 @@
   ],
   "speech-to-speech": [
     "speech-to-speech"
+  ],
+  "speech-to-subtitles": [
+    "speech-to-subtitles"
   ],
   "speech-to-text": [
     "speech-to-text"
@@ -88799,6 +88823,9 @@
   "test fzf on macos": [
     "test-fzf-on-macos"
   ],
+  "test gateway manager": [
+    "test-gateway-manager"
+  ],
   "test gdal latest": [
     "test-gdal-latest"
   ],
@@ -90217,6 +90244,9 @@
   ],
   "text-to-video-generation": [
     "text-to-video-generation"
+  ],
+  "text-translation": [
+    "text-translation"
   ],
   "text-ui": [
     "text-ui"

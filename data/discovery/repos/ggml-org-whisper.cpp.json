@@ -804,7 +804,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T02:52:02.569548+00:00",
+  "fetched_at": "2026-05-22T08:44:23.683884+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -844,8 +844,8 @@
     "full_name": "ggml-org/whisper.cpp",
     "html_url": "https://github.com/ggml-org/whisper.cpp",
     "language": "C++",
-    "pushed_at": "2026-05-21T08:59:59Z",
-    "stargazers_count": 49981,
+    "pushed_at": "2026-05-22T06:27:35Z",
+    "stargazers_count": 49992,
     "topics": [
       "inference",
       "openai",
@@ -854,7 +854,7 @@
       "transformer",
       "whisper"
     ],
-    "updated_at": "2026-05-22T02:50:42Z"
+    "updated_at": "2026-05-22T08:03:19Z"
   },
   "repo_links": [
     {

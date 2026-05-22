@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KdaiP/StableTTS",
+      "target": "fishaudio/vocoder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KdaiP/StableTTS",
+      "target": "p0p4k/pflowtts_pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KdaiP/StableTTS",
+      "target": "colstone/multi-langs_dictionary",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KdaiP/StableTTS",
+      "target": "atonyxu/multi-langs_dictionary",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-22T07:29:17.302275+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6940
+    },
+    {
+      "path": "requirements.txt",
+      "size": 639
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Next-generation TTS model using flow-matching and DiT, inspired by Stable Diffusion 3",
+    "fork": false,
+    "full_name": "KdaiP/StableTTS",
+    "html_url": "https://github.com/KdaiP/StableTTS",
+    "language": "Python",
+    "pushed_at": "2024-09-13T04:40:56Z",
+    "stargazers_count": 437,
+    "topics": [],
+    "updated_at": "2026-05-19T12:40:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atonyxu/multi-langs_dictionary",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "colstone/multi-langs_dictionary",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fishaudio/vocoder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "p0p4k/pflowtts_pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

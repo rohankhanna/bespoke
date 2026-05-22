@@ -21,28 +21,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "modelscope/FunASR",
-      "target": "akshay090/svg-banners",
+      "target": "funaudiollm/fun-asr",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "modelscope/FunASR",
-      "target": "alibaba-damo-academy/funasr",
+      "target": "funaudiollm/sensevoice",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "modelscope/FunASR",
-      "target": "alibaba-damo-academy/funcodec",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/FunASR",
-      "target": "alibaba/funasr",
+      "target": "modelscope/funclip",
       "target_type": "repository"
     },
     {
@@ -172,11 +165,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T02:50:08.000205+00:00",
+  "fetched_at": "2026-05-22T08:42:55.143763+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 38009
+      "size": 6126
     },
     {
       "path": ".github/workflows/update-api-docs.yml",
@@ -192,8 +185,8 @@
     "full_name": "modelscope/FunASR",
     "html_url": "https://github.com/modelscope/FunASR",
     "language": "Python",
-    "pushed_at": "2026-05-22T02:17:56Z",
-    "stargazers_count": 16171,
+    "pushed_at": "2026-05-22T07:11:34Z",
+    "stargazers_count": 16183,
     "topics": [
       "audio-visual-speech-recognition",
       "conformer",
@@ -211,27 +204,22 @@
       "voice-activity-detection",
       "whisper"
     ],
-    "updated_at": "2026-05-21T22:04:40Z"
+    "updated_at": "2026-05-22T07:54:08Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "akshay090/svg-banners",
+      "full_name": "funaudiollm/fun-asr",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "alibaba-damo-academy/funasr",
+      "full_name": "funaudiollm/sensevoice",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "alibaba-damo-academy/funcodec",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "alibaba/funasr",
+      "full_name": "modelscope/funclip",
       "source_file": "README.md"
     }
   ],
@@ -243,85 +231,85 @@
       "term": "Update API Documentation"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "audio-visual-speech-recognition"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "conformer"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "dfsmn"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "paraformer"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "pretrained-model"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "punctuation"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "pytorch"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "rnnt"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "speaker-diarization"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "speech-recognition"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "speechgpt"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "speechllm"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "voice-activity-detection"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "whisper"

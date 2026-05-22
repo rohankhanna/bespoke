@@ -1,0 +1,58 @@
+{
+  "aliases": [
+    "text-translation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "status": "candidate-context",
+      "text": "This is a paper list for speech translation."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "status": "candidate",
+      "text": "This is a paper list for speech translation."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "text-translation",
+  "concept_id": "text-translation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T07:24:26.652079+00:00",
+      "source_file": null,
+      "source_repo": "dqqcasia/awesome-speech-translation"
+    }
+  ],
+  "first_seen_at": "2026-05-22T07:24:26.652079+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-22T07:24:26.652079+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "text-translation",
+      "sense_id": "text-translation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

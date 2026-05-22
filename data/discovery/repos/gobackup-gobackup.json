@@ -380,7 +380,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T03:00:46.262450+00:00",
+  "fetched_at": "2026-05-22T08:51:05.479742+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -429,7 +429,7 @@
     "html_url": "https://github.com/gobackup/gobackup",
     "language": "Go",
     "pushed_at": "2026-05-15T02:35:38Z",
-    "stargazers_count": 2690,
+    "stargazers_count": 2691,
     "topics": [
       "backup",
       "cli",
@@ -438,7 +438,7 @@
       "postgresql",
       "redis"
     ],
-    "updated_at": "2026-05-20T15:09:09Z"
+    "updated_at": "2026-05-22T07:53:57Z"
   },
   "repo_links": [
     {

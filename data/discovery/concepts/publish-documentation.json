@@ -1667,11 +1667,29 @@
       "observed_at": "2026-05-22T00:44:15.720901+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T07:24:26.652079+00:00",
+      "source_file": ".github/workflows/docs-update.yml",
+      "source_repo": "pydantic/pydantic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T07:24:26.652079+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T07:24:26.652079+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "electron/packager"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T00:44:15.720901+00:00",
+  "last_seen_at": "2026-05-22T07:24:26.652079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

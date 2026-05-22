@@ -1,0 +1,317 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "target": "microsofttranslator/mslt-corpus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "target": "mhn226/espnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "target": "formiel/speech-translation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "target": "cascaded-speech-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "target": "disfluency-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "target": "machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "target": "multimodal-machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "target": "multimodal-machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "target": "non-autoregressive-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "target": "punctuation-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "target": "simultaneous-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "target": "speech-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "target": "speech-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "target": "speech-to-subtitles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "target": "speech-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "target": "text-translation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-22T07:29:24.642613+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 37284
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": true,
+    "full_name": "dqqcasia/awesome-speech-translation",
+    "html_url": "https://github.com/dqqcasia/awesome-speech-translation",
+    "language": null,
+    "pushed_at": "2021-11-10T10:28:56Z",
+    "stargazers_count": 179,
+    "topics": [
+      "cascaded-speech-translation",
+      "disfluency-detection",
+      "machine-translation",
+      "multimodal-machine-learning",
+      "multimodal-machine-translation",
+      "natural-language-processing",
+      "non-autoregressive-translation",
+      "punctuation-restoration",
+      "simultaneous-translation",
+      "speech",
+      "speech-processing",
+      "speech-recognition",
+      "speech-synthesis",
+      "speech-to-speech",
+      "speech-to-subtitles",
+      "speech-translation",
+      "text-translation"
+    ],
+    "updated_at": "2025-08-06T18:38:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "formiel/speech-translation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mhn226/espnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsofttranslator/mslt-corpus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/fairseq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a paper list for speech translation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cascaded-speech-translation"
+    },
+    {
+      "context_snippet": "This is a paper list for speech translation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "disfluency-detection"
+    },
+    {
+      "context_snippet": "This is a paper list for speech translation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-translation"
+    },
+    {
+      "context_snippet": "This is a paper list for speech translation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-machine-learning"
+    },
+    {
+      "context_snippet": "This is a paper list for speech translation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-machine-translation"
+    },
+    {
+      "context_snippet": "This is a paper list for speech translation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "This is a paper list for speech translation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "non-autoregressive-translation"
+    },
+    {
+      "context_snippet": "This is a paper list for speech translation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "punctuation-restoration"
+    },
+    {
+      "context_snippet": "This is a paper list for speech translation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simultaneous-translation"
+    },
+    {
+      "context_snippet": "This is a paper list for speech translation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "This is a paper list for speech translation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-processing"
+    },
+    {
+      "context_snippet": "This is a paper list for speech translation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "This is a paper list for speech translation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "This is a paper list for speech translation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-speech"
+    },
+    {
+      "context_snippet": "This is a paper list for speech translation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-subtitles"
+    },
+    {
+      "context_snippet": "This is a paper list for speech translation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-translation"
+    },
+    {
+      "context_snippet": "This is a paper list for speech translation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-translation"
+    }
+  ]
+}

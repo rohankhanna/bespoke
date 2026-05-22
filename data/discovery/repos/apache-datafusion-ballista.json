@@ -731,7 +731,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T02:04:38.008215+00:00",
+  "fetched_at": "2026-05-22T08:31:54.677806+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -783,7 +783,7 @@
     "full_name": "apache/datafusion-ballista",
     "html_url": "https://github.com/apache/datafusion-ballista",
     "language": "Rust",
-    "pushed_at": "2026-05-21T18:47:55Z",
+    "pushed_at": "2026-05-22T05:05:40Z",
     "stargazers_count": 2038,
     "topics": [
       "arrow",
@@ -796,7 +796,7 @@
       "rust",
       "sql"
     ],
-    "updated_at": "2026-05-21T19:37:55Z"
+    "updated_at": "2026-05-22T05:05:40Z"
   },
   "repo_links": [],
   "terms": [

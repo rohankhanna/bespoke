@@ -84,7 +84,7 @@
   "normalized_form": "publish-kurrentdb-macros",
   "observation_id": "3e252071876d2ced",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T00:44:15.720901+00:00",
+  "observed_at": "2026-05-22T07:24:26.652079+00:00",
   "observed_text": "Publish kurrentdb-macros",
   "source_context_snippet": "Publish kurrentdb-macros",
   "source_file": ".github/workflows/publish-macros.yml",

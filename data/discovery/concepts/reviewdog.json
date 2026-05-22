@@ -3817,11 +3817,23 @@
       "observed_at": "2026-05-22T00:44:15.720901+00:00",
       "source_file": ".github/workflows/reviewdog.yml",
       "source_repo": "lambdalisue/vim-glyph-palette"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T07:24:26.652079+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "nutsdb/nutsdb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-22T07:24:26.652079+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "preservim/tagbar"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T00:44:15.720901+00:00",
+  "last_seen_at": "2026-05-22T07:24:26.652079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

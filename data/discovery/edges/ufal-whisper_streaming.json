@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ufal/whisper_streaming",
+      "target": "guillaumekln/faster-whisper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ufal/whisper_streaming",
+      "target": "linto-ai/whisper-timestamped",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ufal/whisper_streaming",
+      "target": "pe-trik/transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ufal/whisper_streaming",
+      "target": "gloridust/whisper_streaming_cn",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-22T07:24:26.652079+00:00",
+  "source_repo": "ufal/whisper_streaming"
+}

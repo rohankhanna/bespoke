@@ -1,7 +1,7 @@
 {
   "component": "@react-three/fiber",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-21T18:45:28.518020+00:00",
+  "last_seen_at": "2026-05-22T07:24:26.652079+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

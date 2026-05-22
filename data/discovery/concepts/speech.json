@@ -583,6 +583,12 @@
       "source_repo": "DigitalPhonetics/IMS-Toucan",
       "status": "candidate-context",
       "text": "<p align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "status": "candidate-context",
+      "text": "This is a paper list for speech translation."
     }
   ],
   "candidate_glosses": [
@@ -873,6 +879,12 @@
       "source_repo": "DigitalPhonetics/IMS-Toucan",
       "status": "candidate",
       "text": "<p align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dqqcasia/awesome-speech-translation",
+      "status": "candidate",
+      "text": "This is a paper list for speech translation."
     }
   ],
   "candidate_related_terms": [
@@ -1588,11 +1600,29 @@
       "observed_at": "2026-05-22T00:44:15.720901+00:00",
       "source_file": null,
       "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T07:24:26.652079+00:00",
+      "source_file": null,
+      "source_repo": "dqqcasia/awesome-speech-translation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T07:24:26.652079+00:00",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS-papers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T07:24:26.652079+00:00",
+      "source_file": null,
+      "source_repo": "DemisEom/SpecAugment"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T00:44:15.720901+00:00",
+  "last_seen_at": "2026-05-22T07:24:26.652079+00:00",
   "lexical_providers": [
     "datamuse"
   ],

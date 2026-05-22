@@ -347,7 +347,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T02:18:16.676168+00:00",
+  "fetched_at": "2026-05-22T08:40:04.043164+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -399,8 +399,8 @@
     "full_name": "OpenHands/OpenHands",
     "html_url": "https://github.com/OpenHands/OpenHands",
     "language": "Python",
-    "pushed_at": "2026-05-22T01:39:54Z",
-    "stargazers_count": 74441,
+    "pushed_at": "2026-05-22T07:10:08Z",
+    "stargazers_count": 74482,
     "topics": [
       "agent",
       "artificial-intelligence",
@@ -412,7 +412,7 @@
       "llm",
       "openai"
     ],
-    "updated_at": "2026-05-22T02:16:18Z"
+    "updated_at": "2026-05-22T08:32:51Z"
   },
   "repo_links": [],
   "terms": [

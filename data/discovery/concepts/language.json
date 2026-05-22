@@ -523,6 +523,18 @@
       "source_repo": "vyperlang/vyper",
       "status": "candidate-context",
       "text": "<img src=\"https://raw.githubusercontent.com/vyperlang/vyper/master/docs/logo.svg?sanitize=true\" alt=\"\" width=\"110\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xinjli/transphone",
+      "status": "candidate-context",
+      "text": "phoneme tokenizer and grapheme-to-phoneme model for 8k languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinjli/transphone",
+      "status": "candidate-context",
+      "text": "![CI Test](https://github.com/xinjli/transphone/actions/workflows/python.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -783,6 +795,12 @@
       "source_repo": "vyperlang/vyper",
       "status": "candidate",
       "text": "<img src=\"https://raw.githubusercontent.com/vyperlang/vyper/master/docs/logo.svg?sanitize=true\" alt=\"\" width=\"110\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinjli/transphone",
+      "status": "candidate",
+      "text": "![CI Test](https://github.com/xinjli/transphone/actions/workflows/python.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -1870,11 +1888,23 @@
       "observed_at": "2026-05-22T00:44:15.720901+00:00",
       "source_file": null,
       "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T07:24:26.652079+00:00",
+      "source_file": null,
+      "source_repo": "xinjli/transphone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-22T07:24:26.652079+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T00:44:15.720901+00:00",
+  "last_seen_at": "2026-05-22T07:24:26.652079+00:00",
   "lexical_providers": [
     "datamuse"
   ],
