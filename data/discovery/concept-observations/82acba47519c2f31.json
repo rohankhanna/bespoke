@@ -84,7 +84,7 @@
   "normalized_form": "build-docs",
   "observation_id": "82acba47519c2f31",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T18:43:38.426013+00:00",
+  "observed_at": "2026-05-23T00:43:18.102458+00:00",
   "observed_text": "Build Docs",
   "source_context_snippet": "Build Docs",
   "source_file": ".github/workflows/build-docs.yaml",

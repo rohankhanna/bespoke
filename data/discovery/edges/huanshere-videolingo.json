@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Huanshere/VideoLingo",
+      "target": "mangiucugna/json_repair",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Huanshere/VideoLingo",
+      "target": "ai-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Huanshere/VideoLingo",
+      "target": "dubbing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Huanshere/VideoLingo",
+      "target": "localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Huanshere/VideoLingo",
+      "target": "video-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Huanshere/VideoLingo",
+      "target": "voice-cloning",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-23T00:43:18.102458+00:00",
+  "source_repo": "Huanshere/VideoLingo"
+}

@@ -84,7 +84,7 @@
   "normalized_form": "close-stale-issues",
   "observation_id": "6dac2a5986aef72a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T18:43:38.426013+00:00",
+  "observed_at": "2026-05-23T00:43:18.102458+00:00",
   "observed_text": "Close Stale Issues",
   "source_context_snippet": "Close Stale Issues",
   "source_file": ".github/workflows/close_tale_issue.yaml",

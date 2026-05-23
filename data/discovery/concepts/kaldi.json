@@ -79,6 +79,18 @@
       "source_repo": "nttcslab-sp/kaldiio",
       "status": "candidate-context",
       "text": "[![pypi](https://img.shields.io/pypi/v/kaldiio.svg)](https://pypi.python.org/pypi/kaldiio)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pykaldi/pykaldi",
+      "status": "candidate-context",
+      "text": "A Python wrapper for Kaldi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykaldi/pykaldi",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"docs/_static/pykaldi-logo-dark.png\" width=\"40%\"/></p>"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "nttcslab-sp/kaldiio",
       "status": "candidate",
       "text": "[![pypi](https://img.shields.io/pypi/v/kaldiio.svg)](https://pypi.python.org/pypi/kaldiio)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykaldi/pykaldi",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"docs/_static/pykaldi-logo-dark.png\" width=\"40%\"/></p>"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +214,17 @@
       "observed_at": "2026-05-22T18:43:38.426013+00:00",
       "source_file": null,
       "source_repo": "nttcslab-sp/kaldiio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "pykaldi/pykaldi"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
   "lexical_providers": [
     "datamuse"
   ],

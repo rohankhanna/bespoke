@@ -3276,11 +3276,35 @@
       "observed_at": "2026-05-22T18:43:38.426013+00:00",
       "source_file": null,
       "source_repo": "zai-org/VisionReward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/whisper-vits-svc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
   "lexical_providers": [
     "datamuse"
   ],

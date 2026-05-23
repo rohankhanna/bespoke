@@ -84,7 +84,7 @@
   "normalized_form": "benchmark-worker",
   "observation_id": "ea63cbb79a8a3f21",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T18:43:38.426013+00:00",
+  "observed_at": "2026-05-23T00:43:18.102458+00:00",
   "observed_text": "Benchmark Worker",
   "source_context_snippet": "Benchmark Worker",
   "source_file": ".github/workflows/run-bench.yml",

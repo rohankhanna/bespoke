@@ -4542,11 +4542,35 @@
       "observed_at": "2026-05-22T18:43:38.426013+00:00",
       "source_file": null,
       "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "vercel/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "ueberauth/oauth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
   "lexical_providers": [
     "datamuse"
   ],

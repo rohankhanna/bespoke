@@ -3532,11 +3532,29 @@
       "observed_at": "2026-05-22T18:43:38.426013+00:00",
       "source_file": null,
       "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
   "lexical_providers": [
     "datamuse"
   ],

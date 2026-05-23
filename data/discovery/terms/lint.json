@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -2706,6 +2706,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/lint.yaml",
       "source_repo": "speaches-ai/speaches"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "HuaweiCloudDeveloper/karpenter-provider-huawei"
     }
   ],
   "term": "lint"

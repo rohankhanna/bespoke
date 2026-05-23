@@ -1,22 +1,7 @@
 {
-  "first_seen_at": "2026-05-22T18:43:38.426013+00:00",
-  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "first_seen_at": "2026-05-23T00:43:18.102458+00:00",
+  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
   "sources": [
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "denysdovhan/robbyrussell-node"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "spaceship-prompt/spaceship-prompt"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "ohmyzsh/ohmyzsh"
-    },
     {
       "discovered_via": "repo-topic",
       "source_file": null,

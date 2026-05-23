@@ -1,0 +1,261 @@
+{
+  "components": [
+    {
+      "component": "easimon/maximize-build-space@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pykaldi/pykaldi",
+      "target": "google/protobuf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pykaldi/pykaldi",
+      "target": "pykaldi/clif",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pykaldi/pykaldi",
+      "target": "pykaldi/kaldi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pykaldi/pykaldi",
+      "target": "bootphon/shennong",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pykaldi/pykaldi",
+      "target": "easimon/maximize-build-space@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pykaldi/pykaldi",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pykaldi/pykaldi",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pykaldi/pykaldi",
+      "target": "Build and Test PyKaldi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pykaldi/pykaldi",
+      "target": "clif",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pykaldi/pykaldi",
+      "target": "feature-extraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pykaldi/pykaldi",
+      "target": "kaldi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pykaldi/pykaldi",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pykaldi/pykaldi",
+      "target": "numpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pykaldi/pykaldi",
+      "target": "openfst",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pykaldi/pykaldi",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pykaldi/pykaldi",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pykaldi/pykaldi",
+      "target": "wrapper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-23T01:02:47.783410+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35075
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2318
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Python wrapper for Kaldi",
+    "fork": false,
+    "full_name": "pykaldi/pykaldi",
+    "html_url": "https://github.com/pykaldi/pykaldi",
+    "language": "Python",
+    "pushed_at": "2025-11-30T20:55:37Z",
+    "stargazers_count": 1035,
+    "topics": [
+      "asr",
+      "clif",
+      "feature-extraction",
+      "kaldi",
+      "language-model",
+      "numpy",
+      "openfst",
+      "python",
+      "speech",
+      "speech-recognition",
+      "wrapper"
+    ],
+    "updated_at": "2026-04-20T13:35:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bootphon/shennong",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/protobuf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pykaldi/clif",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pykaldi/kaldi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Test PyKaldi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Build and Test PyKaldi"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/_static/pykaldi-logo-dark.png\" width=\"40%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clif"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/_static/pykaldi-logo-dark.png\" width=\"40%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feature-extraction"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/_static/pykaldi-logo-dark.png\" width=\"40%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kaldi"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/_static/pykaldi-logo-dark.png\" width=\"40%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/_static/pykaldi-logo-dark.png\" width=\"40%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/_static/pykaldi-logo-dark.png\" width=\"40%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openfst"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/_static/pykaldi-logo-dark.png\" width=\"40%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/_static/pykaldi-logo-dark.png\" width=\"40%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/_static/pykaldi-logo-dark.png\" width=\"40%\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wrapper"
+    }
+  ]
+}

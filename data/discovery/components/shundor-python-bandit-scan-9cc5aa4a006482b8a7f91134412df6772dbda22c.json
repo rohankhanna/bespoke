@@ -1,7 +1,7 @@
 {
   "component": "shundor/python-bandit-scan@9cc5aa4a006482b8a7f91134412df6772dbda22c",
   "first_seen_at": "2026-05-22T18:43:38.426013+00:00",
-  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

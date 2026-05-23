@@ -16129,11 +16129,95 @@
       "observed_at": "2026-05-22T18:43:38.426013+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "holochain/launcher"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vercel-labs/skills"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-keywords"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "serverless/serverless-python-requirements"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Redocly/redoc"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
   "lexical_providers": [
     "datamuse"
   ],

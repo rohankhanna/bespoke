@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "python wrapper for kaldi's native I/O"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "build-wheels-macos"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "build-wheels-macos"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-wheels-macos",
+      "sense_id": "build-wheels-macos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-wheels-macos",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-wheels-macos",
+  "observation_id": "cabbeed95d62f28f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-23T00:43:18.102458+00:00",
+  "observed_text": "build-wheels-macos",
+  "source_context_snippet": "build-wheels-macos",
+  "source_file": ".github/workflows/build-wheels-macos.yaml",
+  "source_repo": "csukuangfj/kaldi_native_io",
+  "source_repo_description": "python wrapper for kaldi's native I/O"
+}

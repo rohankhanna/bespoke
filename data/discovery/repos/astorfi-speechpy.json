@@ -9,13 +9,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.rst",
-      "source_repo": "astorfi/speechpy",
-      "target": "jameslyons/python_speech_features",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "astorfi/speechpy",
@@ -37,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T19:55:52.139793+00:00",
+  "fetched_at": "2026-05-23T01:02:55.201390+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -71,11 +64,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "astorfi/speech_feature_extraction",
-      "source_file": "README.rst"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jameslyons/python_speech_features",
       "source_file": "README.rst"
     }
   ],

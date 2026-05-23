@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-23T00:43:18.102458+00:00",
+  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-win32.yaml",
+      "source_repo": "csukuangfj/kaldi_native_io"
+    }
+  ],
+  "term": "build-wheels-win32"
+}

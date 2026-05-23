@@ -2164,11 +2164,35 @@
       "observed_at": "2026-05-22T18:43:38.426013+00:00",
       "source_file": null,
       "source_repo": "2U1/Llama3.2-Vision-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "nrl-ai/llama-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Llama3.2-Vision-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
   "lexical_providers": [
     "datamuse"
   ],

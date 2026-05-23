@@ -48,7 +48,7 @@
   "normalized_form": "auto-update",
   "observation_id": "b6f732315987e845",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T18:43:38.426013+00:00",
+  "observed_at": "2026-05-23T00:43:18.102458+00:00",
   "observed_text": "Auto-update",
   "source_context_snippet": "Auto-update",
   "source_file": ".github/workflows/auto-update.yml",

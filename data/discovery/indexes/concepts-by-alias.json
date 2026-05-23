@@ -2283,6 +2283,9 @@
   "ai-training": [
     "ai-training"
   ],
+  "ai-translation": [
+    "ai-translation"
+  ],
   "ai-video-generator": [
     "ai-video-generator"
   ],
@@ -11590,6 +11593,9 @@
   "build and test project": [
     "build-and-test-project"
   ],
+  "build and test pykaldi": [
+    "build-and-test-pykaldi"
+  ],
   "build and test pyrefly website": [
     "build-and-test-pyrefly-website"
   ],
@@ -14296,6 +14302,9 @@
   "build-packages": [
     "build-packages"
   ],
+  "build-pip": [
+    "build-pip"
+  ],
   "build-pkg": [
     "build-pkg"
   ],
@@ -14388,6 +14397,12 @@
   ],
   "build-wheels-linux": [
     "build-wheels-linux"
+  ],
+  "build-wheels-macos": [
+    "build-wheels-macos"
+  ],
+  "build-wheels-win32": [
+    "build-wheels-win32"
   ],
   "build-windows": [
     "build-windows"
@@ -20755,6 +20770,9 @@
   ],
   "clienthello": [
     "clienthello"
+  ],
+  "clif": [
+    "clif"
   ],
   "cliff": [
     "cliff"
@@ -64257,6 +64275,9 @@
   "openframeworks": [
     "openframeworks"
   ],
+  "openfst": [
+    "openfst"
+  ],
   "opengl": [
     "opengl"
   ],
@@ -96676,6 +96697,9 @@
   ],
   "video-to-video-translation": [
     "video-to-video-translation"
+  ],
+  "video-translation": [
+    "video-translation"
   ],
   "video-understanding": [
     "video-understanding"

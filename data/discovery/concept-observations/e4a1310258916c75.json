@@ -84,7 +84,7 @@
   "normalized_form": "graphite-ci-optimizer",
   "observation_id": "e4a1310258916c75",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T18:43:38.426013+00:00",
+  "observed_at": "2026-05-23T00:43:18.102458+00:00",
   "observed_text": "Graphite CI Optimizer",
   "source_context_snippet": "Graphite CI Optimizer",
   "source_file": ".github/workflows/graphite_ci_optimizer.yml",

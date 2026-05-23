@@ -1,7 +1,7 @@
 {
   "component": "Azure/setup-azd@v2",
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

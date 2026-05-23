@@ -751,6 +751,18 @@
       "source_repo": "BAI-LAB/MemoryOS",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pykaldi/pykaldi",
+      "status": "candidate-context",
+      "text": "A Python wrapper for Kaldi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykaldi/pykaldi",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"docs/_static/pykaldi-logo-dark.png\" width=\"40%\"/></p>"
     }
   ],
   "candidate_glosses": [
@@ -1125,6 +1137,12 @@
       "source_repo": "BAI-LAB/MemoryOS",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykaldi/pykaldi",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"docs/_static/pykaldi-logo-dark.png\" width=\"40%\"/></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -4204,11 +4222,59 @@
       "observed_at": "2026-05-22T18:43:38.426013+00:00",
       "source_file": null,
       "source_repo": "reasoning-machines/pal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "pykaldi/pykaldi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "EleutherAI/gpt-neo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/PhiCookBook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
   "lexical_providers": [
     "datamuse"
   ],

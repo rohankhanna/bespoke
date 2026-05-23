@@ -428,13 +428,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "MetaCubeX/Yacd-meta",
-      "target": "yaling888/clash-dashboard",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "MetaCubeX/Yacd-meta",
       "target": "metacubex/yacd",
       "target_type": "repository"
     },
@@ -1027,7 +1020,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T19:54:30.111513+00:00",
+  "fetched_at": "2026-05-23T01:00:53.534954+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1069,11 +1062,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "yaling888/clash",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "yaling888/clash-dashboard",
       "source_file": "README.md"
     }
   ],

@@ -598,6 +598,18 @@
       "source_repo": "aannoo/hcom",
       "status": "candidate-context",
       "text": "Build Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "status": "candidate-context",
+      "text": "python wrapper for kaldi's native I/O"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "status": "candidate-context",
+      "text": "build-wheels"
     }
   ],
   "candidate_glosses": [
@@ -900,6 +912,12 @@
       "source_repo": "aannoo/hcom",
       "status": "candidate",
       "text": "Build Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "status": "candidate",
+      "text": "build-wheels"
     }
   ],
   "candidate_related_terms": [
@@ -2029,11 +2047,29 @@
       "observed_at": "2026-05-22T18:43:38.426013+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "csukuangfj/kaldi_native_io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Dao-AILab/flash-attention"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
   "lexical_providers": [
     "datamuse"
   ],

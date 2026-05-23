@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Huanshere/VideoLingo",
+      "target": "mangiucugna/json_repair",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Huanshere/VideoLingo",
+      "target": "ai-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Huanshere/VideoLingo",
+      "target": "dubbing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Huanshere/VideoLingo",
+      "target": "localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Huanshere/VideoLingo",
+      "target": "video-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Huanshere/VideoLingo",
+      "target": "voice-cloning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-23T01:02:22.582053+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8083
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2125
+    },
+    {
+      "path": "requirements.txt",
+      "size": 696
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Netflix-level subtitle cutting, translation, alignment, and even dubbing - one-click fully automated AI video subtitle team | Netflix\u7ea7\u5b57\u5e55\u5207\u5272\u3001\u7ffb\u8bd1\u3001\u5bf9\u9f50\u3001\u751a\u81f3\u52a0\u4e0a\u914d\u97f3\uff0c\u4e00\u952e\u5168\u81ea\u52a8\u89c6\u9891\u642c\u8fd0AI\u5b57\u5e55\u7ec4",
+    "fork": false,
+    "full_name": "Huanshere/VideoLingo",
+    "html_url": "https://github.com/Huanshere/VideoLingo",
+    "language": "Python",
+    "pushed_at": "2026-03-24T21:12:50Z",
+    "stargazers_count": 17114,
+    "topics": [
+      "ai-translation",
+      "dubbing",
+      "localization",
+      "video-translation",
+      "voice-cloning"
+    ],
+    "updated_at": "2026-05-23T00:56:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mangiucugna/json_repair",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-translation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dubbing"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localization"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-translation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-cloning"
+    }
+  ]
+}

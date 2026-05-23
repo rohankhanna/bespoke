@@ -199,6 +199,18 @@
       "source_repo": "tecbot/gorocksdb",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/tecbot/gorocksdb.svg)](https://travis-ci.org/tecbot/gorocksdb) [![GoDoc](https://godoc.org/github.com/tecbot/gorocksdb?status.svg)](http://godoc.org/github.com/tecbot/gorocksdb)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pykaldi/pykaldi",
+      "status": "candidate-context",
+      "text": "A Python wrapper for Kaldi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykaldi/pykaldi",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"docs/_static/pykaldi-logo-dark.png\" width=\"40%\"/></p>"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "tecbot/gorocksdb",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/tecbot/gorocksdb.svg)](https://travis-ci.org/tecbot/gorocksdb) [![GoDoc](https://godoc.org/github.com/tecbot/gorocksdb?status.svg)](http://godoc.org/github.com/tecbot/gorocksdb)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykaldi/pykaldi",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"docs/_static/pykaldi-logo-dark.png\" width=\"40%\"/></p>"
     }
   ],
   "candidate_related_terms": [
@@ -472,11 +490,17 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": null,
       "source_repo": "tecbot/gorocksdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "pykaldi/pykaldi"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
   "lexical_providers": [
     "datamuse"
   ],

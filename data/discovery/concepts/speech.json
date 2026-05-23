@@ -601,6 +601,18 @@
       "source_repo": "linto-ai/whisper-timestamped",
       "status": "candidate-context",
       "text": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pykaldi/pykaldi",
+      "status": "candidate-context",
+      "text": "A Python wrapper for Kaldi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykaldi/pykaldi",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"docs/_static/pykaldi-logo-dark.png\" width=\"40%\"/></p>"
     }
   ],
   "candidate_glosses": [
@@ -903,6 +915,12 @@
       "source_repo": "linto-ai/whisper-timestamped",
       "status": "candidate",
       "text": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykaldi/pykaldi",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"docs/_static/pykaldi-logo-dark.png\" width=\"40%\"/></p>"
     }
   ],
   "candidate_related_terms": [
@@ -1648,11 +1666,17 @@
       "observed_at": "2026-05-22T18:43:38.426013+00:00",
       "source_file": null,
       "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "pykaldi/pykaldi"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
   "lexical_providers": [
     "datamuse"
   ],

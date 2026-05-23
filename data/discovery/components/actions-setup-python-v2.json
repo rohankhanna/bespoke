@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v2",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -3677,6 +3677,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/python.yml",
       "source_repo": "xinjli/transphone"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pykaldi/pykaldi"
     }
   ]
 }

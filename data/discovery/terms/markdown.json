@@ -1,12 +1,7 @@
 {
-  "first_seen_at": "2026-05-22T18:43:38.426013+00:00",
-  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "first_seen_at": "2026-05-23T00:43:18.102458+00:00",
+  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
   "sources": [
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
-    },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
@@ -16,11 +11,6 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "clayrisser/sphinx-markdown-builder"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "mixmark-io/turndown"
     }
   ],
   "term": "markdown"

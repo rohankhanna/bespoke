@@ -499,6 +499,18 @@
       "source_repo": "petercorke/bdsim",
       "status": "candidate-context",
       "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pykaldi/pykaldi",
+      "status": "candidate-context",
+      "text": "A Python wrapper for Kaldi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykaldi/pykaldi",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"docs/_static/pykaldi-logo-dark.png\" width=\"40%\"/></p>"
     }
   ],
   "candidate_glosses": [
@@ -747,6 +759,12 @@
       "source_repo": "petercorke/bdsim",
       "status": "candidate",
       "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykaldi/pykaldi",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"docs/_static/pykaldi-logo-dark.png\" width=\"40%\"/></p>"
     }
   ],
   "candidate_related_terms": [
@@ -2488,11 +2506,35 @@
       "observed_at": "2026-05-22T18:43:38.426013+00:00",
       "source_file": null,
       "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "pykaldi/pykaldi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": null,
+      "source_repo": "unifyai/ivy"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
   "lexical_providers": [
     "datamuse"
   ],

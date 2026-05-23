@@ -451,6 +451,18 @@
       "source_repo": "apify/apify-cli",
       "status": "candidate-context",
       "text": "E2E Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HuaweiCloudDeveloper/karpenter-provider-huawei",
+      "status": "candidate-context",
+      "text": "Huawei Cloud Karpenter Provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HuaweiCloudDeveloper/karpenter-provider-huawei",
+      "status": "candidate-context",
+      "text": "E2E Tests"
     }
   ],
   "candidate_glosses": [
@@ -673,6 +685,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apify/apify-cli",
+      "status": "candidate",
+      "text": "E2E Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HuaweiCloudDeveloper/karpenter-provider-huawei",
       "status": "candidate",
       "text": "E2E Tests"
     }
@@ -2866,11 +2884,41 @@
       "observed_at": "2026-05-22T18:43:38.426013+00:00",
       "source_file": ".github/workflows/e2e_tests.yml",
       "source_repo": "electron-userland/electron-windows-msix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/external-tests.yml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "gastownhall/gastown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/e2e_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T00:43:18.102458+00:00",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "HuaweiCloudDeveloper/karpenter-provider-huawei"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
   "lexical_providers": [
     "datamuse"
   ],

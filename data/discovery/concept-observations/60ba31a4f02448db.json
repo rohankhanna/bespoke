@@ -84,7 +84,7 @@
   "normalized_form": "close-and-lock-inactive-threads",
   "observation_id": "60ba31a4f02448db",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T18:43:38.426013+00:00",
+  "observed_at": "2026-05-23T00:43:18.102458+00:00",
   "observed_text": "Close and lock inactive threads",
   "source_context_snippet": "Close and lock inactive threads",
   "source_file": ".github/workflows/inactive.yml",

@@ -1,0 +1,223 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pip.yml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pip.yml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "microsoft/setup-msbuild@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pip.yml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pip.yml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "build-pip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-aarch64.yaml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-aarch64.yaml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-aarch64.yaml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "pypa/cibuildwheel@v2.21.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-aarch64.yaml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-aarch64.yaml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "build-wheels-aarch64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos.yaml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos.yaml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "pypa/cibuildwheel@v2.21.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos.yaml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-macos.yaml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "build-wheels-macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-win32.yaml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-win32.yaml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "pypa/cibuildwheel@v2.21.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-win32.yaml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-win32.yaml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "build-wheels-win32",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "pypa/cibuildwheel@v2.21.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "build-wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "microsoft/setup-msbuild@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_conda_macos.yml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_conda_macos.yml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_conda_macos.yml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_conda_ubuntu.yml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_conda_ubuntu.yml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_conda_ubuntu.yml",
+      "source_repo": "csukuangfj/kaldi_native_io",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-23T00:43:18.102458+00:00",
+  "source_repo": "csukuangfj/kaldi_native_io"
+}

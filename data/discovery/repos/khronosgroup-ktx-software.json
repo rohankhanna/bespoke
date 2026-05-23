@@ -441,9 +441,16 @@
       "source_repo": "KhronosGroup/KTX-Software",
       "target": "textures",
       "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/KTX-Software",
+      "target": "vulkan",
+      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T20:52:29.448839+00:00",
+  "fetched_at": "2026-05-23T02:15:15.592832+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -495,15 +502,16 @@
     "full_name": "KhronosGroup/KTX-Software",
     "html_url": "https://github.com/KhronosGroup/KTX-Software",
     "language": "C++",
-    "pushed_at": "2026-05-22T11:28:06Z",
+    "pushed_at": "2026-05-23T01:30:09Z",
     "stargazers_count": 1257,
     "topics": [
       "ktx",
       "ktx-library",
       "opengl",
-      "textures"
+      "textures",
+      "vulkan"
     ],
-    "updated_at": "2026-05-22T11:28:12Z"
+    "updated_at": "2026-05-22T23:20:38Z"
   },
   "repo_links": [
     {
@@ -565,6 +573,12 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "textures"
+    },
+    {
+      "context_snippet": "<!-- Copyright 2013-2020 Mark Callow -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
     }
   ]
 }

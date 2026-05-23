@@ -3153,6 +3153,9 @@
     "bdcc22499083482d",
     "c95711d57ca35b55"
   ],
+  "ai-translation": [
+    "7fbf24940b42173a"
+  ],
   "ai-triage": [
     "2a05ac330a829ae2",
     "e0b6b890f69b7e80",
@@ -16216,6 +16219,7 @@
     "05a9d1d2ef953241",
     "05aaa2a21324c635",
     "05b8c0fa7fe66b43",
+    "0660b467d16bfb09",
     "06887369b1e22824",
     "06a3cb20289ae19c",
     "06beaaa325773d01",
@@ -18497,6 +18501,9 @@
   ],
   "build-and-test-project": [
     "fa4aec7a561e2955"
+  ],
+  "build-and-test-pykaldi": [
+    "4a1864b9500fc732"
   ],
   "build-and-test-pyrefly-website": [
     "5f791291fb47e2c8"
@@ -20854,6 +20861,9 @@
   "build-pages": [
     "f418a4bb0e45806c"
   ],
+  "build-pip": [
+    "551e8c03c5369f65"
+  ],
   "build-pipeline-reusable": [
     "6ef931515d969534"
   ],
@@ -22045,6 +22055,7 @@
     "2df80ed65bcc4b7c",
     "2f2c8159ee7ce49d",
     "399ce28febafee0a",
+    "3d3dde41ff5e45f3",
     "3e63b05d3a7fc701",
     "3e6a86d6d0701114",
     "3e83f8721fd6c0dc",
@@ -22087,6 +22098,7 @@
     "fb5c41f9b3b1a895"
   ],
   "build-wheels-aarch64": [
+    "6eb2cfb38319dfc6",
     "eff498b558996bc3"
   ],
   "build-wheels-and-deploy": [
@@ -22139,6 +22151,9 @@
   "build-wheels-linux": [
     "b403c54b61893f8f"
   ],
+  "build-wheels-macos": [
+    "cabbeed95d62f28f"
+  ],
   "build-wheels-metal": [
     "614b81db319642fa"
   ],
@@ -22157,6 +22172,9 @@
   ],
   "build-wheels-release-windows-only": [
     "0c66924d12bdc323"
+  ],
+  "build-wheels-win32": [
+    "28bf96bbc2ac50d9"
   ],
   "build-win32": [
     "113d084ebdf434d0"
@@ -30481,6 +30499,7 @@
     "320fd6232736639c",
     "3342fd21b4894c90",
     "33b20962f6f92b98",
+    "33ee1a3f1ba88c40",
     "374798ae9dc9d9cf",
     "37785c0380310972",
     "37a2459a38b2327d",
@@ -30719,6 +30738,7 @@
     "10516d5ece411ce3",
     "11e8badc1329df69",
     "1a32ebe4ff1dd31a",
+    "1bb154f3126f4626",
     "28bb65655d5ead9a",
     "2e5ebed8d82b9213",
     "311deb7ed10831c7",
@@ -31586,6 +31606,9 @@
   ],
   "clienthello": [
     "8110937ca254644b"
+  ],
+  "clif": [
+    "05be6f380eca0f02"
   ],
   "cliff": [
     "4f7f4321097d1f25"
@@ -56162,7 +56185,8 @@
     "a7f00290e5095a33"
   ],
   "dubbing": [
-    "54099bbdf3fd19b8"
+    "54099bbdf3fd19b8",
+    "7871150ea224c722"
   ],
   "dubbing-ai": [
     "275fe665b19858ec"
@@ -56760,6 +56784,7 @@
   ],
   "e2e-tests": [
     "005d94f0f7585949",
+    "02e3ba8698235a8d",
     "0730449e7de386e6",
     "0bdc337bcc5a7b99",
     "0e2bad52ffefbed2",
@@ -62017,7 +62042,8 @@
     "4508135fcd61f7ef",
     "6c4476bf2e153f74",
     "787fa76b098d17c6",
-    "d0e2feadc585a6b4"
+    "d0e2feadc585a6b4",
+    "f797b155cb8c329d"
   ],
   "feature-flags": [
     "62eb1ee5fc7dc135"
@@ -84764,7 +84790,8 @@
     "9cdf64a156fb3e19",
     "c4e50df39f5204d6",
     "d7c8044182de88d9",
-    "e7eac38e39bceb9a"
+    "e7eac38e39bceb9a",
+    "ef3c3462f8653518"
   ],
   "kaldi-asr": [
     "63f8a309ebd70a5c"
@@ -87185,6 +87212,7 @@
     "8c1b50b961cf83a7",
     "8d71df548b6ffc7c",
     "8e0522498b9e1121",
+    "99fbaa930549d084",
     "9fa341883a86b878",
     "a0806178b0c8181a",
     "a32847a5f331cadb",
@@ -89554,6 +89582,7 @@
     "0fe2bdce0ec0f09d",
     "10869ac47c57a841",
     "10f4fecf63c986c9",
+    "11f94503bd2dc56d",
     "121c848510428ee9",
     "122a60864c3d9ea7",
     "1330fdf1dc4a5408",
@@ -92663,6 +92692,7 @@
     "cef10dd1bb483870",
     "d06fb2471ca01dc9",
     "d4fd708401f7494c",
+    "d947d6b7ccc7877d",
     "d9db10a7d01db731",
     "e0090368c1b851c1",
     "e356d1a58d1e4efe",
@@ -107780,6 +107810,7 @@
     "7531a534f8b2405c",
     "7c56b1403520b135",
     "806169adb3b65ac8",
+    "81ab4c84128c7593",
     "913d37c247ef4605",
     "b1cc427af8863fba",
     "bcf2daacf48f8a84",
@@ -110714,6 +110745,9 @@
   ],
   "openframeworks": [
     "63e542a6a34ba2b1"
+  ],
+  "openfst": [
+    "724684f54029c9f2"
   ],
   "opengl": [
     "029990eca6ff6ef5",
@@ -132385,6 +132419,7 @@
     "33eabadac000f712",
     "4e378a78ce57961d",
     "729b7cc1b6ae4385",
+    "9b58a1ef00aaae26",
     "a4f16aa5c6d1a2dd",
     "aae3eac23e5d700b",
     "b10b60095bf451b9",
@@ -145805,6 +145840,7 @@
     "3833d6c650c52213",
     "4276ed6d9b69faa1",
     "49eb38e5759713cf",
+    "51382ae84ebcb138",
     "5c08749e1d1dbf5e",
     "5e8ef3d90bcbf09d",
     "60eb972aae4c4ea0",
@@ -145942,6 +145978,7 @@
     "7244fe4440d8cf68",
     "7376473dbce6075c",
     "813303d2c79e3cd0",
+    "84332eb1f37d3079",
     "890a5c190a219c3a",
     "894f16e185826dfb",
     "9213bd4132204896",
@@ -156998,6 +157035,7 @@
     "dbb5809cbb80391f",
     "dc7087e4283adb16",
     "dc71b396c9b0ee76",
+    "dc8364e120b99ecc",
     "dd3c68555945d37e",
     "df8d0b865c632e1b",
     "dfc0c7248ca9cae8",
@@ -167225,6 +167263,9 @@
   "video-to-video-translation": [
     "f78efd292c29befd"
   ],
+  "video-translation": [
+    "3e17ee00e191b351"
+  ],
   "video-understanding": [
     "1a342de502ee6c8b",
     "1db4b431c60ee1ed",
@@ -168863,6 +168904,7 @@
     "00add7687f968bdf",
     "126148a50ec0d82b",
     "18c673379f171d53",
+    "4e11735d0fb14dc8",
     "77594db32bde340b",
     "7b737a9ba63020bd",
     "82467a7918da579f",
@@ -169605,6 +169647,7 @@
   "vulkan": [
     "01561be7f130242c",
     "034056eac392a261",
+    "07cac080eadca32a",
     "0abf1e4ce13c2ae0",
     "0c00b345d353fed3",
     "18164cc3e3631e3d",
@@ -173118,6 +173161,7 @@
     "ac5ba622f4a15da0",
     "c2e749633402ffa1",
     "c3cbae2221477e86",
+    "d21629f2ca1b59f0",
     "dea0e40ffdc2e922",
     "ef99af7f6e5448a4"
   ],

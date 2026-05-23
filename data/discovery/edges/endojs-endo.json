@@ -403,7 +403,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/typedoc-gh-pages.yml",
       "source_repo": "endojs/endo",
-      "target": "actions/configure-pages@1f0c5cde4bc74cd7e1254d0cb4de8d49e9068c7d",
+      "target": "actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d",
       "target_type": "component"
     },
     {
@@ -526,6 +526,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-22T18:43:38.426013+00:00",
+  "generated_at": "2026-05-23T00:43:18.102458+00:00",
   "source_repo": "endojs/endo"
 }

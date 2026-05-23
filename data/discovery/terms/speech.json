@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -251,6 +251,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "linto-ai/whisper-timestamped"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "pykaldi/pykaldi"
     }
   ],
   "term": "speech"

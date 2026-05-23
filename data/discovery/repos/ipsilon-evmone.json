@@ -58,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T19:47:51.189036+00:00",
+  "fetched_at": "2026-05-23T00:51:16.585906+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -78,7 +78,7 @@
     "full_name": "ipsilon/evmone",
     "html_url": "https://github.com/ipsilon/evmone",
     "language": "C++",
-    "pushed_at": "2026-05-22T17:42:26Z",
+    "pushed_at": "2026-05-22T21:20:33Z",
     "stargazers_count": 974,
     "topics": [
       "blockchain",
