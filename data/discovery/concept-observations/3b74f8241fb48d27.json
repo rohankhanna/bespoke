@@ -84,7 +84,7 @@
   "normalized_form": "jsr",
   "observation_id": "3b74f8241fb48d27",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T18:43:38.426013+00:00",
+  "observed_at": "2026-05-23T12:33:08.399245+00:00",
   "observed_text": "jsr",
   "source_context_snippet": "jsr",
   "source_file": ".github/workflows/jsr.yml",

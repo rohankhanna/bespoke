@@ -610,6 +610,18 @@
       "source_repo": "csukuangfj/kaldi_native_io",
       "status": "candidate-context",
       "text": "build-wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "status": "candidate-context",
+      "text": "Kaldi-compatible online fbank extractor without external dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "status": "candidate-context",
+      "text": "build-wheels"
     }
   ],
   "candidate_glosses": [
@@ -916,6 +928,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "csukuangfj/kaldi_native_io",
+      "status": "candidate",
+      "text": "build-wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
       "status": "candidate",
       "text": "build-wheels"
     }
@@ -2065,11 +2083,17 @@
       "observed_at": "2026-05-23T00:43:18.102458+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-23T12:33:08.399245+00:00",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
+  "last_seen_at": "2026-05-23T12:33:08.399245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

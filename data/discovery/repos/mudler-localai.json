@@ -604,7 +604,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T21:03:18.975462+00:00",
+  "fetched_at": "2026-05-23T12:36:42.164302+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -632,7 +632,7 @@
     },
     {
       "path": ".github/workflows/backend_merge.yml",
-      "size": 8612
+      "size": 8613
     },
     {
       "path": ".github/workflows/backend_pr.yml",
@@ -656,8 +656,8 @@
     "full_name": "mudler/LocalAI",
     "html_url": "https://github.com/mudler/LocalAI",
     "language": "Go",
-    "pushed_at": "2026-05-22T21:01:24Z",
-    "stargazers_count": 46416,
+    "pushed_at": "2026-05-23T10:38:13Z",
+    "stargazers_count": 46425,
     "topics": [
       "agents",
       "ai",
@@ -678,7 +678,7 @@
       "text-generation",
       "tts"
     ],
-    "updated_at": "2026-05-22T21:01:28Z"
+    "updated_at": "2026-05-23T11:45:32Z"
   },
   "repo_links": [
     {

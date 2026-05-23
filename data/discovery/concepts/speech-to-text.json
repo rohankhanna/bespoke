@@ -415,6 +415,18 @@
       "source_repo": "zh-plus/openlrc",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/openlrc)](https://pypi.org/project/openlrc/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate-context",
+      "text": "A Fundamental End-to-End Speech Recognition Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Recognition, Voice Activity Detection, Text Post-processing etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate-context",
+      "text": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'"
     }
   ],
   "candidate_glosses": [
@@ -621,6 +633,12 @@
       "source_repo": "zh-plus/openlrc",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/openlrc)](https://pypi.org/project/openlrc/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate",
+      "text": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'"
     }
   ],
   "candidate_related_terms": [],
@@ -2056,11 +2074,35 @@
       "observed_at": "2026-05-23T00:43:18.102458+00:00",
       "source_file": null,
       "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T12:33:08.399245+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T12:33:08.399245+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunCodec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T12:33:08.399245+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T12:33:08.399245+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
+  "last_seen_at": "2026-05-23T12:33:08.399245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

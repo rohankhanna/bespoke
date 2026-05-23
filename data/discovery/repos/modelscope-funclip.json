@@ -26,14 +26,28 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunClip",
-      "target": "gradio",
+      "target": "ai-tools",
       "target_type": "term"
     },
     {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunClip",
-      "target": "gradio-python-llm",
+      "target": "ai-video-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip",
+      "target": "content-creation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip",
+      "target": "gradio",
       "target_type": "term"
     },
     {
@@ -68,11 +82,25 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunClip",
+      "target": "video-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip",
+      "target": "video-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip",
       "target": "video-subtitles",
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T21:01:26.194662+00:00",
+  "fetched_at": "2026-05-23T12:34:19.227254+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -93,18 +121,22 @@
     "html_url": "https://github.com/modelscope/FunClip",
     "language": "Python",
     "pushed_at": "2026-05-19T18:20:39Z",
-    "stargazers_count": 5628,
+    "stargazers_count": 5629,
     "topics": [
+      "ai-tools",
+      "ai-video-editing",
+      "content-creation",
       "gradio",
-      "gradio-python-llm",
       "llm",
       "speech-recognition",
       "speech-to-text",
       "subtitles-generator",
       "video-clip",
+      "video-editing",
+      "video-processing",
       "video-subtitles"
     ],
-    "updated_at": "2026-05-22T18:35:14Z"
+    "updated_at": "2026-05-23T06:48:26Z"
   },
   "repo_links": [
     {
@@ -128,13 +160,25 @@
       "context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",
       "edge_type": "repo-topic",
       "source_file": null,
-      "term": "gradio"
+      "term": "ai-tools"
     },
     {
       "context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",
       "edge_type": "repo-topic",
       "source_file": null,
-      "term": "gradio-python-llm"
+      "term": "ai-video-editing"
+    },
+    {
+      "context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "content-creation"
+    },
+    {
+      "context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradio"
     },
     {
       "context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",
@@ -159,6 +203,18 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "video-clip"
+    },
+    {
+      "context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-editing"
+    },
+    {
+      "context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-processing"
     },
     {
       "context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",

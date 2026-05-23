@@ -2286,6 +2286,9 @@
   "ai-translation": [
     "ai-translation"
   ],
+  "ai-video-editing": [
+    "ai-video-editing"
+  ],
   "ai-video-generator": [
     "ai-video-generator"
   ],
@@ -14401,8 +14404,17 @@
   "build-wheels-macos": [
     "build-wheels-macos"
   ],
+  "build-wheels-macos-arm64": [
+    "build-wheels-macos-arm64"
+  ],
+  "build-wheels-macos-x64": [
+    "build-wheels-macos-x64"
+  ],
   "build-wheels-win32": [
     "build-wheels-win32"
+  ],
+  "build-wheels-win64": [
+    "build-wheels-win64"
   ],
   "build-windows": [
     "build-windows"
@@ -33263,6 +33275,9 @@
   "dtcwt": [
     "dtcwt"
   ],
+  "dtmf": [
+    "dtmf"
+  ],
   "dtoa": [
     "dtoa"
   ],
@@ -37015,6 +37030,9 @@
   ],
   "favicons-generator": [
     "favicons-generator"
+  ],
+  "fbank": [
+    "fbank"
   ],
   "fbgemm ci": [
     "fbgemm-ci"
@@ -48774,6 +48792,9 @@
   "iwarp": [
     "iwarp"
   ],
+  "iwyu": [
+    "iwyu"
+  ],
   "j2cl": [
     "j2cl"
   ],
@@ -50072,6 +50093,9 @@
   ],
   "kaldi-asr": [
     "kaldi-asr"
+  ],
+  "kaldi-compatible": [
+    "kaldi-compatible"
   ],
   "kalman-filter": [
     "kalman-filter"
@@ -53461,6 +53485,9 @@
   "linux-legacy-docker": [
     "linux-legacy-docker"
   ],
+  "linux-macos": [
+    "linux-macos"
+  ],
   "linux-nightly-install": [
     "linux-nightly-install"
   ],
@@ -54898,6 +54925,9 @@
   ],
   "luxor": [
     "luxor"
+  ],
+  "luyin": [
+    "luyin"
   ],
   "lv-vit": [
     "lv-vit"
@@ -59746,6 +59776,9 @@
   "multilingual": [
     "multilingual"
   ],
+  "multilingual-asr": [
+    "multilingual-asr"
+  ],
   "multilingual-models": [
     "multilingual-models"
   ],
@@ -63806,6 +63839,9 @@
   ],
   "online-alignment": [
     "online-alignment"
+  ],
+  "online-fbank": [
+    "online-fbank"
   ],
   "online-forms": [
     "online-forms"
@@ -83606,6 +83642,9 @@
   "sound-processing": [
     "sound-processing"
   ],
+  "sound-record": [
+    "sound-record"
+  ],
   "sound-samples": [
     "sound-samples"
   ],
@@ -89809,6 +89848,9 @@
   ],
   "test-wf": [
     "test-wf"
+  ],
+  "test-wheel": [
+    "test-wheel"
   ],
   "test-wheels": [
     "test-wheels"
@@ -99269,6 +99311,9 @@
   ],
   "whisper-ai": [
     "whisper-ai"
+  ],
+  "whisper-alternative": [
+    "whisper-alternative"
   ],
   "whisper-android": [
     "whisper-android"

@@ -1,0 +1,555 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-aarch64.yaml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-aarch64.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-aarch64.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos-arm64.yaml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos-arm64.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos-arm64.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos-x64.yaml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos-x64.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos-x64.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-win32.yaml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-win32.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-win32.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-win64.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-win64.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-win64.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iwyu.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iwyu.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iwyu.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iwyu.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iwyu.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iwyu.yaml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iwyu.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-macos.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-macos.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-wheel.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-wheel.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-aarch64.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-aarch64.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "pypa/cibuildwheel@v3.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-aarch64.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-aarch64.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "build-wheels-aarch64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos-arm64.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos-arm64.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "pypa/cibuildwheel@v3.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos-arm64.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-macos-arm64.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "build-wheels-macos-arm64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos-x64.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos-x64.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "pypa/cibuildwheel@v3.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos-x64.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-macos-x64.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "build-wheels-macos-x64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-win32.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-win32.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "pypa/cibuildwheel@v3.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-win32.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-win32.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "build-wheels-win32",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-win64.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-win64.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-win64.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-win64.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "build-wheels-win64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "pypa/cibuildwheel@v3.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "build-wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iwyu.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iwyu.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iwyu.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iwyu.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/iwyu.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "iwyu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-macos.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-macos.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-macos.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "linux-macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-wheel.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-wheel.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-wheel.yaml",
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "test-wheel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "fbank",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "kaldi-compatible",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csukuangfj/kaldi-native-fbank",
+      "target": "online-fbank",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-23T12:34:05.329598+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2597
+    },
+    {
+      "path": ".github/workflows/build-wheels-aarch64.yaml",
+      "size": 1763
+    },
+    {
+      "path": ".github/workflows/build-wheels-macos-arm64.yaml",
+      "size": 1493
+    },
+    {
+      "path": ".github/workflows/build-wheels-macos-x64.yaml",
+      "size": 1531
+    },
+    {
+      "path": ".github/workflows/build-wheels-win32.yaml",
+      "size": 1497
+    },
+    {
+      "path": ".github/workflows/build-wheels-win64.yaml",
+      "size": 1424
+    },
+    {
+      "path": ".github/workflows/build-wheels.yaml",
+      "size": 2025
+    },
+    {
+      "path": ".github/workflows/iwyu.yaml",
+      "size": 4395
+    },
+    {
+      "path": ".github/workflows/linux-macos.yaml",
+      "size": 1829
+    },
+    {
+      "path": ".github/workflows/test-wheel.yaml",
+      "size": 1289
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kaldi-compatible online fbank extractor without external dependencies",
+    "fork": false,
+    "full_name": "csukuangfj/kaldi-native-fbank",
+    "html_url": "https://github.com/csukuangfj/kaldi-native-fbank",
+    "language": "C++",
+    "pushed_at": "2025-10-09T02:26:42Z",
+    "stargazers_count": 148,
+    "topics": [
+      "cpp",
+      "fbank",
+      "kaldi-compatible",
+      "online-fbank",
+      "python"
+    ],
+    "updated_at": "2026-05-20T23:09:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build-wheels-aarch64",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-aarch64.yaml",
+      "term": "build-wheels-aarch64"
+    },
+    {
+      "context_snippet": "build-wheels-macos-arm64",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-macos-arm64.yaml",
+      "term": "build-wheels-macos-arm64"
+    },
+    {
+      "context_snippet": "build-wheels-macos-x64",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-macos-x64.yaml",
+      "term": "build-wheels-macos-x64"
+    },
+    {
+      "context_snippet": "build-wheels-win32",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-win32.yaml",
+      "term": "build-wheels-win32"
+    },
+    {
+      "context_snippet": "build-wheels-win64",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-win64.yaml",
+      "term": "build-wheels-win64"
+    },
+    {
+      "context_snippet": "build-wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "term": "build-wheels"
+    },
+    {
+      "context_snippet": "iwyu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/iwyu.yaml",
+      "term": "iwyu"
+    },
+    {
+      "context_snippet": "linux-macos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-macos.yaml",
+      "term": "linux-macos"
+    },
+    {
+      "context_snippet": "test-wheel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-wheel.yaml",
+      "term": "test-wheel"
+    },
+    {
+      "context_snippet": "Kaldi-compatible online fbank feature extractor without external dependencies.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fbank"
+    },
+    {
+      "context_snippet": "Kaldi-compatible online fbank feature extractor without external dependencies.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kaldi-compatible"
+    },
+    {
+      "context_snippet": "Kaldi-compatible online fbank feature extractor without external dependencies.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "online-fbank"
+    }
+  ]
+}

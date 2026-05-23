@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lovemefan/paraformer.cpp",
+      "target": "ggerganov/ggml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lovemefan/paraformer.cpp",
+      "target": "alibaba-damo-academy/funasr",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-23T12:33:08.399245+00:00",
+  "source_repo": "lovemefan/paraformer.cpp"
+}

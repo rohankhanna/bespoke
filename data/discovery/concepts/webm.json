@@ -19,6 +19,18 @@
       "source_repo": "FFmpeg/FFmpeg",
       "status": "candidate-context",
       "text": "FFmpeg is a collection of libraries and tools to process multimedia content"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xiangyuecn/Recorder",
+      "status": "candidate-context",
+      "text": "html5 js \u5f55\u97f3 mp3 wav ogg webm amr g711a g711u \u683c\u5f0f\uff0c\u652f\u6301pc\u548cAndroid\u3001iOS\u90e8\u5206Web\u6d4f\u89c8\u5668\u3001Hybrid App\uff08\u63d0\u4f9bAndroid iOS App\u6e90\u7801\uff09\u3001\u5fae\u4fe1\uff0c\u63d0\u4f9bASR\u8bed\u97f3\u8bc6\u522b\u8f6c\u6587\u5b57 H5\u7248\u8bed\u97f3\u901a\u8bdd\u804a\u5929\u793a\u4f8b DTMF\u7f16\u7801\u89e3\u7801"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xiangyuecn/Recorder",
+      "status": "candidate-context",
+      "text": "**\u3010[\u6e90GitHub\u4ed3\u5e93](https://github.com/xiangyuecn/Recorder)\u3011 | \u3010[Gitee\u955c\u50cf\u5e93](https://gitee.com/xiangyuecn/Recorder)\u3011\u672c\u6587\u6863\u4e2d\u9ed8\u8ba4\u4f7f\u7528[github.io\u90e8\u7f72\u7684\u94fe\u63a5](https://xiangyuecn.github.io/Recorder/)\uff0c\u5982\u679c\u65e0\u6cd5\u8bbf\u95ee\uff0c\u8bf7\u76f4\u63a5\u4e0b\u8f7d\u4ed3\u5e93\u6e90\u7801\u5230\u672c\u5730\u7136\u540e\u53cc\u51fb\u6253\u5f00html\u6587\u4ef6\u8bbf\u95ee\u3002**"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "FFmpeg/FFmpeg",
       "status": "candidate",
       "text": "FFmpeg is a collection of libraries and tools to process multimedia content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xiangyuecn/Recorder",
+      "status": "candidate",
+      "text": "**\u3010[\u6e90GitHub\u4ed3\u5e93](https://github.com/xiangyuecn/Recorder)\u3011 | \u3010[Gitee\u955c\u50cf\u5e93](https://gitee.com/xiangyuecn/Recorder)\u3011\u672c\u6587\u6863\u4e2d\u9ed8\u8ba4\u4f7f\u7528[github.io\u90e8\u7f72\u7684\u94fe\u63a5](https://xiangyuecn.github.io/Recorder/)\uff0c\u5982\u679c\u65e0\u6cd5\u8bbf\u95ee\uff0c\u8bf7\u76f4\u63a5\u4e0b\u8f7d\u4ed3\u5e93\u6e90\u7801\u5230\u672c\u5730\u7136\u540e\u53cc\u51fb\u6253\u5f00html\u6587\u4ef6\u8bbf\u95ee\u3002**"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "FFmpeg/FFmpeg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T12:33:08.399245+00:00",
+      "source_file": null,
+      "source_repo": "xiangyuecn/Recorder"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-23T12:33:08.399245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

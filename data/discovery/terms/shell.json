@@ -1,21 +1,21 @@
 {
-  "first_seen_at": "2026-05-23T00:43:18.102458+00:00",
-  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
+  "first_seen_at": "2026-05-23T12:33:08.399245+00:00",
+  "last_seen_at": "2026-05-23T12:33:08.399245+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "nodenv/nodenv"
+      "source_repo": "denysdovhan/robbyrussell-node"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "nvm-sh/nvm"
+      "source_repo": "spaceship-prompt/spaceship-prompt"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "git-quick-stats/git-quick-stats"
+      "source_repo": "ohmyzsh/ohmyzsh"
     }
   ],
   "term": "shell"

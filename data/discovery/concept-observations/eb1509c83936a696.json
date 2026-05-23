@@ -43,7 +43,7 @@
   "normalized_form": "tagbot",
   "observation_id": "eb1509c83936a696",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-22T18:43:38.426013+00:00",
+  "observed_at": "2026-05-23T12:33:08.399245+00:00",
   "observed_text": "TagBot",
   "source_context_snippet": "TagBot",
   "source_file": ".github/workflows/TagBot.yml",

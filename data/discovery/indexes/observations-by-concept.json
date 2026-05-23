@@ -3128,6 +3128,7 @@
     "02a3590c386d529c",
     "12d122f899efb5fa",
     "32d63c948f1825e7",
+    "3ac0bf874863f9ca",
     "588660d777dba307",
     "5dd303404881606c",
     "618599ae465ff867",
@@ -3166,6 +3167,9 @@
   ],
   "ai-update-docs": [
     "7dd255eaa49eb6e2"
+  ],
+  "ai-video-editing": [
+    "39305c08ae227eb4"
   ],
   "ai-video-generator": [
     "278a433d1f5353f8"
@@ -8159,6 +8163,7 @@
     "f00a09003e5d326f",
     "f57a9fe09aeb90b7",
     "f9a0a91e03f46d2a",
+    "f9a1b8c3a64d7346",
     "fc8acbe10b984792",
     "fd19fe56e4e537ab"
   ],
@@ -13011,6 +13016,7 @@
     "e6ec22d4790c38e9",
     "e732c2ee715a6636",
     "e7500536189abea3",
+    "e78f18c5981121f9",
     "e7c9077cb1569142",
     "e80c21396c1f4137",
     "eb538be3beff924c",
@@ -13211,6 +13217,7 @@
   "benchmarking": [
     "200711ed5fdab7e5",
     "21648a58c4f3db73",
+    "2950c0d91252677c",
     "2ca4adca8f9f5f3a",
     "365fc4fe1cdc4fa5",
     "3f7f5e0abd726206",
@@ -15872,6 +15879,7 @@
     "ac822b0393e7bc14",
     "afe148a91b8ac5ba",
     "b04f11b7dc8a512c",
+    "b33e6c5fb83841f6",
     "b4a5605c9aba4b12",
     "b4d14c5260948bdc",
     "c070a5df9ec6c076",
@@ -22071,6 +22079,7 @@
     "612965a8367f9803",
     "6915ccad78898a43",
     "6b17fbbbdc0ce39e",
+    "6c68a7fece629b70",
     "6c88336b8bf7383c",
     "744fe3f94f1421d8",
     "7c5a9b6b7b11e35e",
@@ -22098,6 +22107,7 @@
     "fb5c41f9b3b1a895"
   ],
   "build-wheels-aarch64": [
+    "26e0cf3313f0c633",
     "6eb2cfb38319dfc6",
     "eff498b558996bc3"
   ],
@@ -22154,6 +22164,12 @@
   "build-wheels-macos": [
     "cabbeed95d62f28f"
   ],
+  "build-wheels-macos-arm64": [
+    "ec7eedd4b1cdd678"
+  ],
+  "build-wheels-macos-x64": [
+    "993dabd7fe4d8548"
+  ],
   "build-wheels-metal": [
     "614b81db319642fa"
   ],
@@ -22174,7 +22190,11 @@
     "0c66924d12bdc323"
   ],
   "build-wheels-win32": [
-    "28bf96bbc2ac50d9"
+    "28bf96bbc2ac50d9",
+    "9ebf6e8c2315e7cb"
+  ],
+  "build-wheels-win64": [
+    "aba8773104c5d18e"
   ],
   "build-win32": [
     "113d084ebdf434d0"
@@ -39543,6 +39563,7 @@
   ],
   "content-creation": [
     "acc67e70999562e1",
+    "b2ca78b414f52acc",
     "e49be00858906ab4"
   ],
   "content-management": [
@@ -56158,6 +56179,9 @@
   "dtcwt": [
     "7a8ff09441096e97"
   ],
+  "dtmf": [
+    "3fcb831075c7bdbb"
+  ],
   "dtoa": [
     "5be325479b15c721",
     "5be95016ceccf6e3"
@@ -61976,6 +62000,9 @@
   ],
   "favicons-generator": [
     "5bf77b8843b73769"
+  ],
+  "fbank": [
+    "cd04ac8915ab5f6e"
   ],
   "fbgemm-ci": [
     "557fb40129e65c74"
@@ -76414,6 +76441,7 @@
     "a34106af74aaeaf9",
     "a69e486050c6abf2",
     "afe26985dea805d1",
+    "b5c1fbe25a106a6e",
     "b91a20df66886998",
     "c0c54cc0dc7570c8",
     "c1764860fb956f25",
@@ -76532,6 +76560,7 @@
     "789aba81375965c5",
     "8615b58e8849c3cd",
     "a0080f8f6f9e8523",
+    "ac42dd1c8e4cfe3d",
     "ad70936ec5535e8b",
     "b660e2a5c767bfb0",
     "bb292bc80ffb44c4",
@@ -82339,6 +82368,9 @@
   "iwarp": [
     "7cbd0114952a64f7"
   ],
+  "iwyu": [
+    "bfc9b2bb0e7a818f"
+  ],
   "j2cl": [
     "af7bea407e97cd53"
   ],
@@ -84795,6 +84827,9 @@
   ],
   "kaldi-asr": [
     "63f8a309ebd70a5c"
+  ],
+  "kaldi-compatible": [
+    "3bde66ae30bba46a"
   ],
   "kalman-filter": [
     "6eb5c6b896f6589b",
@@ -91385,6 +91420,9 @@
   "linux-local-build-and-test": [
     "bb73bdd265ccc244"
   ],
+  "linux-macos": [
+    "69f315932a53d809"
+  ],
   "linux-nightly-install": [
     "f22f33a74a088e82"
   ],
@@ -93830,6 +93868,9 @@
   ],
   "luxor": [
     "478c3d4339b121e8"
+  ],
+  "luyin": [
+    "143fa80df7ce925a"
   ],
   "lv-vit": [
     "59a78fe5540c3acc"
@@ -101975,6 +102016,9 @@
     "9ea5d7bdc9a3abc8",
     "af3b04e850325c41"
   ],
+  "multilingual-asr": [
+    "71f6b4d64cc95da1"
+  ],
   "multilingual-models": [
     "406f4f6a6e36da2d",
     "48ede270b35dd06d"
@@ -109755,6 +109799,9 @@
   ],
   "online-alignment": [
     "15c0e6345b400bc8"
+  ],
+  "online-fbank": [
+    "33dec7ccb0459f66"
   ],
   "online-forms": [
     "688ffca85be56d49"
@@ -128251,6 +128298,7 @@
   "record": [
     "439b72554392f76e",
     "643b800d3417a07f",
+    "7eddee47b4ca230b",
     "9dc18dc0eea3a56e"
   ],
   "record-expected": [
@@ -128262,11 +128310,13 @@
   "recorder": [
     "18d41ff9fc47a964",
     "34b0d9280607bdd2",
-    "9b3f695bd659f092"
+    "9b3f695bd659f092",
+    "c4f47ac91402c28b"
   ],
   "recording": [
     "3ceae5f64dae4447",
     "72e52df0825696ba",
+    "842095587e37ea90",
     "8a81ea3ae68be286",
     "ae18c47ece91cb5d",
     "f1c56f57f4b0c356"
@@ -145159,6 +145209,9 @@
     "5f49d0d0aa456eb5",
     "a3b23bbf2ab59934"
   ],
+  "sound-record": [
+    "08758a328b305858"
+  ],
   "sound-samples": [
     "f30b6044077b137d"
   ],
@@ -145825,6 +145878,7 @@
   ],
   "speech": [
     "00310d2e70e3f1a2",
+    "041f32429d258388",
     "13829e72996fd827",
     "162d3ccafdb2077d",
     "1b0acf988f25a422",
@@ -145944,6 +145998,7 @@
   ],
   "speech-recognition": [
     "03c56bc962453275",
+    "0d5058a228e28b30",
     "0e8c9ce0ae33b73d",
     "1128b8379a929a7e",
     "16961d4a2c0f230b",
@@ -146122,6 +146177,7 @@
     "510add32802aac14",
     "6143671dfaa6567c",
     "65888414e72caffd",
+    "692118cb89b181e7",
     "6d29050f5edd9461",
     "7386b735e26b008f",
     "7cef73cbff5b93c1",
@@ -156064,6 +156120,9 @@
   "test-wf": [
     "a38abb429c4bc9db"
   ],
+  "test-wheel": [
+    "a7437810b890003b"
+  ],
   "test-wheels": [
     "003ce6aff5aa092a",
     "175206f7e4b5616c"
@@ -159734,6 +159793,7 @@
   ],
   "transcription": [
     "03b350ec6db929b5",
+    "2332070f4c7113d0",
     "2706b58cb0507f1b",
     "4534596b0965e543",
     "65684232e70494ac",
@@ -166973,7 +167033,8 @@
     "c415f5f0d77d27d5",
     "d577acf898b00bd4",
     "e5582d64b51b5286",
-    "eb2ce0d5c4a9518f"
+    "eb2ce0d5c4a9518f",
+    "fb6604ba251c56a1"
   ],
   "video-embed": [
     "2ed9e2d4e08d7997"
@@ -167157,6 +167218,7 @@
     "1fa349054f9cbdb3",
     "377c21fa0e20ff6a",
     "4aaab496462de24a",
+    "4ba6ea8e90236982",
     "804d6a93a6a9b65e",
     "bc406145580122e2",
     "df9e38ef242dad50",
@@ -171013,6 +171075,7 @@
     "879c2211517a988e"
   ],
   "webm": [
+    "5bc7868055e3c636",
     "92843235820d0df5"
   ],
   "webmidi": [
@@ -171171,6 +171234,7 @@
     "2dc6b910ab6f6fef",
     "4acd7b11a361c799",
     "558317afe231e72e",
+    "5ca539235456dbcd",
     "6a79dd01da08853c",
     "6ee6a1d54525029c",
     "7374aabd0b32697c",
@@ -171842,6 +171906,9 @@
   ],
   "whisper-ai": [
     "15d1c82289b294ad"
+  ],
+  "whisper-alternative": [
+    "1ebbc5bc45eb06ca"
   ],
   "whisper-android": [
     "bb3b2ad5faede6d4"

@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SpeechColab/Leaderboard",
+      "target": "nvidia/nemo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpeechColab/Leaderboard",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpeechColab/Leaderboard",
+      "target": "benchmarking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpeechColab/Leaderboard",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpeechColab/Leaderboard",
+      "target": "speech-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-23T12:33:43.990098+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19587
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SpeechIO Leaderboard: a large, robust, comprehensive, benchmarking platform for Automatic Speech Recognition.",
+    "fork": false,
+    "full_name": "SpeechColab/Leaderboard",
+    "html_url": "https://github.com/SpeechColab/Leaderboard",
+    "language": "Python",
+    "pushed_at": "2025-03-29T11:59:55Z",
+    "stargazers_count": 545,
+    "topics": [
+      "asr",
+      "benchmark",
+      "benchmarking",
+      "speech",
+      "speech-recognition"
+    ],
+    "updated_at": "2026-05-15T23:40:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/nemo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![result](misc/SpeechIO_TIOBE_2024_08.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "![result](misc/SpeechIO_TIOBE_2024_08.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmarking"
+    },
+    {
+      "context_snippet": "![result](misc/SpeechIO_TIOBE_2024_08.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "![result](misc/SpeechIO_TIOBE_2024_08.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    }
+  ]
+}

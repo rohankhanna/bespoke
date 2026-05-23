@@ -352,6 +352,18 @@
       "source_repo": "danielrosehill/Local-ASR-STT-Benchmark",
       "status": "candidate-context",
       "text": "# STT Benchmarking Dependencies # Core STT engines faster-whisper>=1.0.0 openai-whisper>=20231117 # Evaluation metrics jiwer>=3.0.0 # Audio processing soundfile>=0.12.0 librosa>=0.10.0 pydub>=0.25.0 # Data handling & analysis numpy>=1.24.0 pandas<2.0 # Keep <2.0 for TTS compatib\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SpeechColab/Leaderboard",
+      "status": "candidate-context",
+      "text": "SpeechIO Leaderboard: a large, robust, comprehensive, benchmarking platform for Automatic Speech Recognition."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpeechColab/Leaderboard",
+      "status": "candidate-context",
+      "text": "![result](misc/SpeechIO_TIOBE_2024_08.png)"
     }
   ],
   "candidate_glosses": [
@@ -528,6 +540,12 @@
       "source_repo": "danielrosehill/Local-ASR-STT-Benchmark",
       "status": "candidate",
       "text": "# STT Benchmarking Dependencies # Core STT engines faster-whisper>=1.0.0 openai-whisper>=20231117 # Evaluation metrics jiwer>=3.0.0 # Audio processing soundfile>=0.12.0 librosa>=0.10.0 pydub>=0.25.0 # Data handling & analysis numpy>=1.24.0 pandas<2.0 # Keep <2.0 for TTS compatib\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpeechColab/Leaderboard",
+      "status": "candidate",
+      "text": "![result](misc/SpeechIO_TIOBE_2024_08.png)"
     }
   ],
   "candidate_related_terms": [
@@ -1465,11 +1483,17 @@
       "observed_at": "2026-05-23T00:43:18.102458+00:00",
       "source_file": null,
       "source_repo": "bencheeorg/benchee_html"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-23T12:33:08.399245+00:00",
+      "source_file": null,
+      "source_repo": "SpeechColab/Leaderboard"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
+  "last_seen_at": "2026-05-23T12:33:08.399245+00:00",
   "lexical_providers": [
     "datamuse"
   ],

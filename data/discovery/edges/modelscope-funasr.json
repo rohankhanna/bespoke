@@ -60,13 +60,6 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunASR",
-      "target": "audio-visual-speech-recognition",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "modelscope/FunASR",
       "target": "conformer",
       "target_type": "term"
     },
@@ -74,7 +67,7 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunASR",
-      "target": "dfsmn",
+      "target": "multilingual-asr",
       "target_type": "term"
     },
     {
@@ -109,13 +102,6 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunASR",
-      "target": "rnnt",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "modelscope/FunASR",
       "target": "speaker-diarization",
       "target_type": "term"
     },
@@ -130,7 +116,7 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunASR",
-      "target": "speechgpt",
+      "target": "speech-to-text",
       "target_type": "term"
     },
     {
@@ -144,6 +130,13 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunASR",
+      "target": "transcription",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR",
       "target": "voice-activity-detection",
       "target_type": "term"
     },
@@ -151,10 +144,10 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunASR",
-      "target": "whisper",
+      "target": "whisper-alternative",
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-22T18:43:38.426013+00:00",
+  "generated_at": "2026-05-23T12:33:08.399245+00:00",
   "source_repo": "modelscope/FunASR"
 }
