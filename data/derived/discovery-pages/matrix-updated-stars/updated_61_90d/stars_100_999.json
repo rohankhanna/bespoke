@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2877,
-    "concepts": 1970,
-    "observations": 1980,
-    "repos": 453,
-    "terms": 1969
+    "components": 2879,
+    "concepts": 1971,
+    "observations": 1981,
+    "repos": 454,
+    "terms": 1970
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "2KAbhishek/seeker.nvim",
@@ -379,6 +379,7 @@
     "scalar-labs/btm",
     "scottchiefbaker/dool",
     "scssphp/scssphp",
+    "sdbds/SageAttention-for-windows",
     "seancorfield/deps-new",
     "seancorfield/next-jdbc",
     "secretflow/scql",

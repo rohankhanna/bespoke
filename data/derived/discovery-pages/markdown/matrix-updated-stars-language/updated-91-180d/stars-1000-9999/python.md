@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-05-23T05:46:34.953431+00:00`
+Generated at: `2026-05-23T07:23:00.685421+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 158
-- terms: 769
+- repos: 157
+- terms: 766
 - components: 382
-- concepts: 782
-- observations: 783
+- concepts: 778
+- observations: 779
 
 ## Static behavior
 
@@ -183,7 +183,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [allenai/OLMo](https://github.com/allenai/OLMo) | 6489 | 2025-11-24T19:13:15Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [docker/docker-py](https://github.com/docker/docker-py) | 7175 | 2025-11-24T13:24:54Z | Python | Infrastructure/tooling | 4 | 5 | 5 | 5 |
 | [InternLM/HuixiangDou](https://github.com/InternLM/HuixiangDou) | 2486 | 2025-11-24T11:17:29Z | Python | Infrastructure/tooling | 11 | 3 | 11 | 11 |
-| [ShichenLiu/SoftRas](https://github.com/ShichenLiu/SoftRas) | 1287 | 2025-11-24T06:47:24Z | Python | Unknown | 3 | 0 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -323,7 +322,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DLYuanGod/TinyGPT-V](https://github.com/DLYuanGod/TinyGPT-V) | 1314 | 2026-02-05T02:24:26Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [Softcatala/whisper-ctranslate2](https://github.com/Softcatala/whisper-ctranslate2) | 1304 | 2026-02-14T19:16:02Z | Python | CLI | 6 | 4 | 6 | 6 |
 | [hustvl/VAD](https://github.com/hustvl/VAD) | 1298 | 2026-01-31T08:13:44Z | Python | Unknown | 2 | 0 | 2 | 2 |
-| [ShichenLiu/SoftRas](https://github.com/ShichenLiu/SoftRas) | 1287 | 2025-11-24T06:47:24Z | Python | Unknown | 3 | 0 | 4 | 4 |
 | [yeyupiaoling/VoiceprintRecognition-Pytorch](https://github.com/yeyupiaoling/VoiceprintRecognition-Pytorch) | 1274 | 2025-12-17T13:07:59Z | Python | Model/data | 5 | 0 | 5 | 5 |
 | [mjpost/sacrebleu](https://github.com/mjpost/sacrebleu) | 1239 | 2026-01-12T17:22:40Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [Phantom-video/HuMo](https://github.com/Phantom-video/HuMo) | 1217 | 2026-01-25T17:14:34Z | Python | Unknown | 0 | 0 | 0 | 0 |

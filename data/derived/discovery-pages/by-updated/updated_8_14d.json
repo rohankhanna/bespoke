@@ -1,20 +1,19 @@
 {
   "counts": {
-    "components": 2813,
-    "concepts": 1468,
-    "observations": 1472,
-    "repos": 196,
-    "terms": 1454
+    "components": 2803,
+    "concepts": 1472,
+    "observations": 1476,
+    "repos": 194,
+    "terms": 1458
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "Aayushm24/presidential-briefing",
-    "abap2UI5-addons/sql-console",
     "academic/awesome-datascience",
     "adamchainz/blacken-docs",
     "ag2s20150909/TTS",
@@ -126,7 +125,6 @@
     "KosherJava/zmanim",
     "Kotlin/kotlinx-benchmark",
     "kurrent-io/KurrentDB-Client-Rust",
-    "leleliu008/ppkg-formula-repository-official-core",
     "lightning/bolts",
     "lint-staged/lint-staged",
     "lucide-icons/lucide",
@@ -158,6 +156,7 @@
     "nushell/reedline",
     "nvim-mini/mini.nvim",
     "nvimdev/lspsaga.nvim",
+    "nvm-sh/nvm",
     "obsproject/obs-studio",
     "okd-project/okd",
     "OpenHands/ToM-SWE",
@@ -173,7 +172,6 @@
     "preactjs/preact-devtools",
     "processing/processing-website",
     "pure-data/pure-data",
-    "PyAV-Org/PyAV",
     "rcasia/neotest-java",
     "Redocly/redoc",
     "Rel1cx/eslint-react",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1059,
-    "concepts": 707,
-    "observations": 711,
-    "repos": 84,
-    "terms": 705
+    "components": 1075,
+    "concepts": 730,
+    "observations": 735,
+    "repos": 86,
+    "terms": 728
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
+    "abpframework/abp",
     "adambard/learnxinyminutes-docs",
     "Alamofire/Alamofire",
     "alexandresanlim/Badges4-README.md-Profile",
@@ -31,6 +32,7 @@
     "deepset-ai/haystack",
     "devicons/devicon",
     "dotnet/core",
+    "dotnet/csharplang",
     "dotnet/eShop",
     "dotnet/runtime",
     "elixir-lang/elixir",

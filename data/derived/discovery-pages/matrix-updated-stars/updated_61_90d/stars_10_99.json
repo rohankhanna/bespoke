@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1709,
-    "concepts": 931,
-    "observations": 932,
-    "repos": 311,
-    "terms": 929
+    "components": 1718,
+    "concepts": 936,
+    "observations": 937,
+    "repos": 312,
+    "terms": 934
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -163,6 +163,7 @@
     "FoundationDB/fdb-build-support",
     "gazebosim/gz-mujoco",
     "gershnik/wsdd-native",
+    "getsentry/.github",
     "googleapis/google-cloud-node-core",
     "googleapis/java-bigquerystorage",
     "googleapis/nodejs-error-reporting",

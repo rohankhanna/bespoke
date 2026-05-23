@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4033,
-    "concepts": 2802,
-    "observations": 2808,
-    "repos": 718,
-    "terms": 2792
+    "components": 4025,
+    "concepts": 2799,
+    "observations": 2805,
+    "repos": 717,
+    "terms": 2789
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "0k/shyaml",
     "10up/action-wordpress-plugin-asset-update",
@@ -376,7 +376,6 @@
     "JuliaDocs/LiveServer.jl",
     "JuliaInterop/CxxWrap.jl",
     "JuliaML/MLUtils.jl",
-    "JuliaPlots/StatsPlots.jl",
     "JuliaPy/Conda.jl",
     "JuliaStrings/LaTeXStrings.jl",
     "JunyaoHu/common_metrics_on_video_quality",

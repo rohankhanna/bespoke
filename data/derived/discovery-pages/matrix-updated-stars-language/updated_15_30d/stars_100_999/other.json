@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2607,
-    "concepts": 1822,
-    "observations": 1822,
-    "repos": 293,
-    "terms": 1812
+    "components": 2564,
+    "concepts": 1789,
+    "observations": 1789,
+    "repos": 289,
+    "terms": 1779
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "abap2UI5/abap2UI5",
@@ -34,7 +34,6 @@
     "appwrite/sdk-for-flutter",
     "appwrite/sdk-generator",
     "argotorg/hevm",
-    "aspect-build/rules_js",
     "atsign-foundation/noports",
     "atsushieno/ktmidi",
     "augustss/MicroHs",
@@ -61,7 +60,6 @@
     "castacks/tartanair_tools",
     "cefsharp/CefSharp.MinimalExample",
     "celo-org/celo-monorepo",
-    "chainguard-images/images",
     "CHIP-SPV/chipStar",
     "Civitasv/cmake-tools.nvim",
     "clojure-emacs/orchard",
@@ -224,7 +222,6 @@
     "nim-lang/langserver",
     "nix-community/haumea",
     "NuGet/NuGet.Client",
-    "NVIDIA/spark-rapids",
     "ocaml-ppx/ocamlformat",
     "ocaml/ocaml-lsp",
     "ocamllabs/vscode-ocaml-platform",
@@ -264,7 +261,6 @@
     "ropensci/software-review",
     "rr/rr",
     "rubocop/rubocop-rails",
-    "ruby/gem_rbs_collection",
     "ruby/json",
     "ruby/typeprof",
     "runtimeverification/evm-semantics",

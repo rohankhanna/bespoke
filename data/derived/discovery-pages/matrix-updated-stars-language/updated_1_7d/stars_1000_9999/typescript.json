@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 523,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 13,
-    "terms": 94
+    "components": 558,
+    "concepts": 99,
+    "observations": 99,
+    "repos": 14,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "alichherawalla/off-grid-mobile-ai",
@@ -21,6 +21,7 @@
     "ebullient/obsidian-admonition",
     "electron/rebuild",
     "podman-desktop/podman-desktop",
+    "safe-fndn/safe-smart-account",
     "TanStack/form",
     "typescript-language-server/typescript-language-server",
     "unplugin/unplugin-vue-components",

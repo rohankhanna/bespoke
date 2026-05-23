@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1463,
-    "concepts": 1549,
-    "observations": 1556,
-    "repos": 321,
-    "terms": 1562
+    "components": 1512,
+    "concepts": 1571,
+    "observations": 1579,
+    "repos": 327,
+    "terms": 1583
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -90,6 +90,7 @@
     "compilerla/conventional-pre-commit",
     "conda-forge/conda-smithy",
     "conda/grayskull",
+    "confluentinc/confluent-kafka-python",
     "corteva/rioxarray",
     "crytic/crytic-compile",
     "crytic/pyevmasm",
@@ -239,12 +240,14 @@
     "notofonts/nototools",
     "nuprl/MultiPL-E",
     "NVIDIA-NeMo/Emerging-Optimizers",
+    "NVIDIA-NeMo/Megatron-Bridge",
     "nvim-neotest/neotest-python",
     "nvpro-samples/vk_mini_samples",
     "ogx-ai/llama-stack-client-python",
     "oh-my-ocr/text_renderer",
     "OpenBMB/BMTrain",
     "OpenBMB/UltraEval-Audio",
+    "OpenHands/OpenHands-CLI",
     "openlawlibrary/pygls",
     "optuna/optuna-examples",
     "OSGeo/PROJ-data",
@@ -256,6 +259,7 @@
     "petercorke/machinevision-toolbox-python",
     "pettingllms-ai/PettingLLMs",
     "pfultz2/cget",
+    "PhoenixZ810/RISEBench",
     "pimutils/todoman",
     "pipecat-ai/pipecat-examples",
     "PKU-YuanGroup/ChronoMagic-Bench",
@@ -279,6 +283,7 @@
     "python-poetry/poetry-plugin-bundle",
     "python/typing_extensions",
     "QubesOS/qubes-secpack",
+    "redai-infra/Relax",
     "replicate/cog-examples",
     "rgeirhos/Stylized-ImageNet",
     "Rhoban/onshape-to-robot",
@@ -293,6 +298,7 @@
     "ryjoxtechnologies/octopoda-os",
     "SandAI-org/MagiAttention",
     "scrapinghub/article-extraction-benchmark",
+    "searxng/searx-instances",
     "Slicer/light-the-torch",
     "spesmilo/electrumx",
     "spylang/spy",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1120,
-    "concepts": 735,
-    "observations": 736,
-    "repos": 213,
-    "terms": 741
+    "components": 1130,
+    "concepts": 741,
+    "observations": 742,
+    "repos": 214,
+    "terms": 747
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xrsydn/nix-hermes-agent",
@@ -204,6 +204,7 @@
     "rubygems/release-gem",
     "rust-lang-ru/rust-by-example",
     "SAP/abap-file-formats",
+    "SAP/abap-file-formats-tools",
     "sass-contrib/sass-embedded-host-ruby",
     "sbcgua/ajson",
     "sbt/sbt-java-formatter",

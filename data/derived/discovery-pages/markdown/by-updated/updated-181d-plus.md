@@ -1,6 +1,6 @@
 # Updated more than 180 days ago
 
-Generated at: `2026-05-23T05:46:34.953431+00:00`
+Generated at: `2026-05-23T07:23:00.685421+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 ## Counts
 
-- repos: 12191
-- terms: 33094
-- components: 47399
-- concepts: 33516
-- observations: 33572
+- repos: 12193
+- terms: 33100
+- components: 47407
+- concepts: 33523
+- observations: 33579
 
 ## Static behavior
 
@@ -22,6 +22,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ShichenLiu/SoftRas](https://github.com/ShichenLiu/SoftRas) | 1287 | 2025-11-24T06:47:24Z | Python | Unknown | 3 | 0 | 4 | 4 |
+| [JuliaPlots/StatsPlots.jl](https://github.com/JuliaPlots/StatsPlots.jl) | 450 | 2025-11-24T06:04:34Z | Other | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [JuliaData/DataFramesMeta.jl](https://github.com/JuliaData/DataFramesMeta.jl) | 497 | 2025-11-24T05:20:57Z | Other | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [bhftbootcamp/YYJSON.jl](https://github.com/bhftbootcamp/YYJSON.jl) | 13 | 2025-11-24T05:19:37Z | Other | Infrastructure/tooling | 4 | 12 | 5 | 5 |
 | [JuliaGraphics/Colors.jl](https://github.com/JuliaGraphics/Colors.jl) | 223 | 2025-11-24T05:10:56Z | Other | Infrastructure/tooling | 14 | 11 | 14 | 14 |
@@ -14480,6 +14482,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kwea123/ngp_pl](https://github.com/kwea123/ngp_pl) | 1289 | 2023-06-16T01:03:45Z | Other | Unknown | 6 | 0 | 7 | 7 |
 | [tianzhi0549/CTPN](https://github.com/tianzhi0549/CTPN) | 1288 | 2021-10-15T05:17:41Z | Other | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [ericfreese/rat](https://github.com/ericfreese/rat) | 1288 | 2021-09-23T15:29:04Z | Go | CLI | 2 | 0 | 3 | 3 |
+| [ShichenLiu/SoftRas](https://github.com/ShichenLiu/SoftRas) | 1287 | 2025-11-24T06:47:24Z | Python | Unknown | 3 | 0 | 4 | 4 |
 | [mitsuba-renderer/enoki](https://github.com/mitsuba-renderer/enoki) | 1287 | 2025-02-06T04:46:44Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [TencentQQGYLab/ELLA](https://github.com/TencentQQGYLab/ELLA) | 1286 | 2024-07-17T10:02:15Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [tensorflow/community](https://github.com/tensorflow/community) | 1282 | 2024-05-07T21:18:25Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -16393,6 +16396,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ymcui/cmrc2018](https://github.com/ymcui/cmrc2018) | 453 | 2022-06-15T01:04:26Z | Python | Model/data | 4 | 0 | 4 | 4 |
 | [avalonstrel/GatedConvolution_pytorch](https://github.com/avalonstrel/GatedConvolution_pytorch) | 453 | 2021-06-17T14:49:45Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [aigc3d/AniGS](https://github.com/aigc3d/AniGS) | 452 | 2025-03-13T19:01:23Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
+| [JuliaPlots/StatsPlots.jl](https://github.com/JuliaPlots/StatsPlots.jl) | 450 | 2025-11-24T06:04:34Z | Other | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [JIA-Lab-research/PointGroup](https://github.com/JIA-Lab-research/PointGroup) | 450 | 2024-07-25T10:16:23Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [Mathux/TEMOS](https://github.com/Mathux/TEMOS) | 450 | 2023-12-13T18:39:05Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [drj11/pypng](https://github.com/drj11/pypng) | 450 | 2023-04-12T09:57:08Z | Python | Library | 0 | 0 | 0 | 0 |

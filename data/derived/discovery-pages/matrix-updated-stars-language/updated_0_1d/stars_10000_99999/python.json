@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 175,
-    "concepts": 198,
-    "observations": 200,
-    "repos": 14,
-    "terms": 195
+    "components": 167,
+    "concepts": 179,
+    "observations": 181,
+    "repos": 13,
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "axolotl-ai-cloud/axolotl",
@@ -25,7 +25,6 @@
     "OpenHands/OpenHands",
     "psf/black",
     "pydantic/pydantic",
-    "qubvel-org/segmentation_models.pytorch",
     "verl-project/verl",
     "zhayujie/CowAgent"
   ]

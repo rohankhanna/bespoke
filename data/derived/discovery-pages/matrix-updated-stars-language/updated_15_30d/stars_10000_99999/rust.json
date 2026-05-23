@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 822,
-    "concepts": 611,
-    "observations": 611,
-    "repos": 51,
-    "terms": 606
+    "components": 797,
+    "concepts": 587,
+    "observations": 587,
+    "repos": 49,
+    "terms": 582
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "alacritty/alacritty",
@@ -52,12 +52,10 @@
     "rolldown/rolldown",
     "rust-lang/rust-clippy",
     "RustPython/RustPython",
-    "servo/servo",
     "shadowsocks/shadowsocks-rust",
     "surrealdb/surrealdb",
     "swc-project/swc",
     "tracel-ai/burn",
-    "tree-sitter/tree-sitter",
     "tw93/Pake",
     "vectordotdev/vector",
     "wasmerio/wasmer",

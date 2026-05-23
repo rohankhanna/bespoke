@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 666,
-    "concepts": 380,
-    "observations": 381,
-    "repos": 40,
-    "terms": 374
+    "components": 691,
+    "concepts": 404,
+    "observations": 405,
+    "repos": 42,
+    "terms": 398
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "actix/actix-web",
     "ajeetdsouza/zoxide",
@@ -45,12 +45,14 @@
     "Schniz/fnm",
     "seanmonstar/reqwest",
     "seanmonstar/warp",
+    "servo/servo",
     "sharkdp/bat",
     "sharkdp/fd",
     "Spotifyd/spotifyd",
     "starship/starship",
     "tokio-rs/axum",
     "tokio-rs/tokio",
+    "tree-sitter/tree-sitter",
     "typst/typst",
     "vercel-labs/agent-browser",
     "zeroclaw-labs/zeroclaw"

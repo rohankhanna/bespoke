@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 489,
-    "concepts": 282,
-    "observations": 284,
-    "repos": 74,
-    "terms": 296
+    "components": 496,
+    "concepts": 292,
+    "observations": 294,
+    "repos": 75,
+    "terms": 306
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -41,6 +41,7 @@
     "datachainlab/lcp",
     "datafusion-contrib/datafusion-orc",
     "dcampbell24/mdbook-djot",
+    "eth-act/ere",
     "filecoin-project/actors-utils",
     "fortanix/rustls-mbedtls-provider",
     "foundry-rs/foundry-fork-db",

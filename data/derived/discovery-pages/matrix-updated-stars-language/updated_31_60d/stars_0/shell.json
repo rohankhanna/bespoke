@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 2,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 9,
-    "terms": 6
+    "concepts": 7,
+    "observations": 7,
+    "repos": 10,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "aaronrsun/spec-kit-confluence",
     "conda-forge/blis-feedstock",
     "conda-forge/bottom-feedstock",
+    "conda-forge/diffutils-feedstock",
     "danielrosehill/adb-keep-awake",
     "danielrosehill/AMD-GPU-DP-Hotplug-Fix",
     "danielrosehill/Claude-Calls-The-Shots",

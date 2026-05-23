@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 658,
-    "concepts": 504,
-    "observations": 506,
-    "repos": 140,
-    "terms": 521
+    "components": 665,
+    "concepts": 512,
+    "observations": 514,
+    "repos": 141,
+    "terms": 529
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "4dn-dcic/tibanna",
@@ -120,6 +120,7 @@
     "networkx/nx-parallel",
     "nix-community/nur-update",
     "NixOS/branding",
+    "OpenHands/benchmarks",
     "optuna/optuna-integration",
     "optuna/optunahub",
     "ParisNeo/safe_store",

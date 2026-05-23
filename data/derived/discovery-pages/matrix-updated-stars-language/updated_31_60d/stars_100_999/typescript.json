@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3726,
-    "concepts": 699,
-    "observations": 699,
-    "repos": 134,
-    "terms": 760
+    "components": 3749,
+    "concepts": 702,
+    "observations": 702,
+    "repos": 135,
+    "terms": 763
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "43081j/picoquery",
@@ -53,6 +53,7 @@
     "cztomsik/ava",
     "daeh/zotero-citation-tally",
     "decentralized-identity/did-jwt",
+    "DeterminateSystems/nix-installer-action",
     "devcontainers/ci",
     "dezoito/ollama-grid-search",
     "docker/setup-qemu-action",

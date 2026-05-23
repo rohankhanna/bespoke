@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1348,
-    "concepts": 1222,
-    "observations": 1226,
-    "repos": 141,
-    "terms": 1249
+    "components": 1352,
+    "concepts": 1238,
+    "observations": 1242,
+    "repos": 142,
+    "terms": 1265
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -27,6 +27,7 @@
     "alirezarezvani/claude-skills",
     "allenai/olmocr",
     "anthropics/claude-plugins-official",
+    "apache/tvm",
     "assafelovic/gpt-researcher",
     "astral-sh/ty",
     "benoitc/gunicorn",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 104,
-    "observations": 105,
-    "repos": 10,
-    "terms": 104
+    "components": 79,
+    "concepts": 96,
+    "observations": 97,
+    "repos": 9,
+    "terms": 96
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "aws-cloudformation/cfn-lint",
     "bitsandbytes-foundation/bitsandbytes",
@@ -22,7 +22,6 @@
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
     "PrimeIntellect-ai/verifiers",
-    "redis/redis-om-python",
     "rllm-org/rllm"
   ]
 }

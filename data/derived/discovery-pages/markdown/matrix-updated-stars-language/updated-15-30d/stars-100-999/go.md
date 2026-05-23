@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-23T05:46:34.953431+00:00`
+Generated at: `2026-05-23T07:23:00.685421+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 114
-- terms: 874
-- components: 990
-- concepts: 876
-- observations: 877
+- repos: 113
+- terms: 871
+- components: 982
+- concepts: 873
+- observations: 874
 
 ## Static behavior
 
@@ -139,7 +139,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kubernetes/sample-apiserver](https://github.com/kubernetes/sample-apiserver) | 599 | 2026-04-23T11:46:16Z | Go | Service/API | 1 | 0 | 1 | 1 |
 | [bazel-contrib/rules_img](https://github.com/bazel-contrib/rules_img) | 113 | 2026-04-23T11:34:05Z | Go | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [maragudk/gomponents-starter-kit](https://github.com/maragudk/gomponents-starter-kit) | 101 | 2026-04-23T11:33:16Z | Go | Infrastructure/tooling | 5 | 7 | 5 | 5 |
-| [ossf/osv-schema](https://github.com/ossf/osv-schema) | 245 | 2026-04-23T05:54:51Z | Go | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -223,7 +222,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [toml-lang/toml-test](https://github.com/toml-lang/toml-test) | 261 | 2026-05-07T18:55:15Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [kubernetes/apiextensions-apiserver](https://github.com/kubernetes/apiextensions-apiserver) | 258 | 2026-04-23T11:46:29Z | Go | Service/API | 1 | 0 | 1 | 1 |
 | [grafana/grafana-plugin-sdk-go](https://github.com/grafana/grafana-plugin-sdk-go) | 249 | 2026-05-01T13:43:43Z | Go | Infrastructure/tooling | 10 | 7 | 10 | 10 |
-| [ossf/osv-schema](https://github.com/ossf/osv-schema) | 245 | 2026-04-23T05:54:51Z | Go | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [suzuki-shunsuke/ghalint](https://github.com/suzuki-shunsuke/ghalint) | 238 | 2026-05-01T12:44:30Z | Go | CLI | 8 | 5 | 8 | 8 |
 | [web-platform-tests/wpt.fyi](https://github.com/web-platform-tests/wpt.fyi) | 233 | 2026-04-23T17:46:19Z | Go | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [apache/dubbo-go-hessian2](https://github.com/apache/dubbo-go-hessian2) | 231 | 2026-04-29T13:02:57Z | Go | Infrastructure/tooling | 10 | 5 | 10 | 10 |

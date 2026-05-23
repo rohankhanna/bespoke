@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 695,
-    "concepts": 451,
-    "observations": 453,
-    "repos": 47,
-    "terms": 451
+    "components": 640,
+    "concepts": 422,
+    "observations": 424,
+    "repos": 43,
+    "terms": 422
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "aws-cloudformation/cfn-lint",
     "aws/karpenter-provider-aws",
@@ -23,7 +23,6 @@
     "datalevin/datalevin",
     "dkron-io/dkron",
     "dmtrKovalenko/fff",
-    "dotnet/reactive",
     "eclipse-jdtls/eclipse.jdt.ls",
     "eclipse-openvsx/openvsx",
     "endojs/endo",
@@ -50,10 +49,7 @@
     "microsoft/PhiCookBook",
     "microsoft/vscode-js-debug",
     "PrimeIntellect-ai/verifiers",
-    "psmux/psmux",
-    "redis/redis-om-python",
     "rllm-org/rllm",
-    "safe-fndn/safe-smart-account",
     "swiftlang/llvm-project",
     "swiftlang/swift-llbuild",
     "swiftlang/swift-syntax",

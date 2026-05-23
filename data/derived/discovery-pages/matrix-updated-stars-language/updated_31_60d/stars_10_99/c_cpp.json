@@ -3,7 +3,7 @@
     "components": 311,
     "concepts": 280,
     "observations": 280,
-    "repos": 60,
+    "repos": 61,
     "terms": 280
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "ad-si/FlatCV",
@@ -34,6 +34,7 @@
     "clouren/SPEX",
     "cpmech/tritet",
     "DavidKinder/Windows-Inform7",
+    "DeepLink-org/DLSlime",
     "embeddedartistry/libcpp",
     "f32c/tools",
     "fabmax/PhysX",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 652,
-    "concepts": 500,
-    "observations": 502,
-    "repos": 121,
-    "terms": 499
+    "components": 654,
+    "concepts": 501,
+    "observations": 503,
+    "repos": 122,
+    "terms": 500
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "4d49/scene-library",
@@ -115,6 +115,7 @@
     "rubocop/rubocop-performance",
     "sandrohanea/whisper.net",
     "scssphp/scssphp",
+    "sdbds/SageAttention-for-windows",
     "seancorfield/deps-new",
     "seancorfield/next-jdbc",
     "SlRvb/Obsidian--ITS-Theme",

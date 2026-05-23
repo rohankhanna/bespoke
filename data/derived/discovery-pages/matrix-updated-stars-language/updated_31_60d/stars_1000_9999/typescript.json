@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6164,
-    "concepts": 1199,
-    "observations": 1203,
-    "repos": 159,
-    "terms": 1306
+    "components": 6227,
+    "concepts": 1214,
+    "observations": 1218,
+    "repos": 161,
+    "terms": 1321
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
     "abrahamjuliot/creepjs",
     "actions/cache",
     "actions/setup-java",
+    "actions/setup-node",
+    "actions/setup-python",
     "actions/toolkit",
     "actions/typescript-action",
     "actions/upload-artifact",

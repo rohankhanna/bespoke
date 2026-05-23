@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-05-23T05:46:34.953431+00:00`
+Generated at: `2026-05-23T07:23:00.685421+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 15
-- terms: 76
-- components: 99
-- concepts: 76
-- observations: 76
+- repos: 16
+- terms: 77
+- components: 109
+- concepts: 77
+- observations: 77
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [pyrtlsdr/pyrtlsdr](https://github.com/pyrtlsdr/pyrtlsdr) | 685 | 2026-05-22T05:50:37Z | Python | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [hluaguo/learn-faster-kit](https://github.com/hluaguo/learn-faster-kit) | 321 | 2026-05-21T21:14:55Z | Python | Docs/knowledge | 6 | 0 | 6 | 6 |
 | [AMD-AGI/Nitro-1](https://github.com/AMD-AGI/Nitro-1) | 124 | 2026-05-21T15:12:49Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [jupyter-server/jupyter_server](https://github.com/jupyter-server/jupyter_server) | 558 | 2026-05-21T09:46:00Z | Python | Infrastructure/tooling | 8 | 20 | 8 | 8 |
@@ -48,6 +49,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [tox-dev/filelock](https://github.com/tox-dev/filelock) | 955 | 2026-05-18T17:09:08Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [google-deepmind/xmanager](https://github.com/google-deepmind/xmanager) | 909 | 2026-05-18T13:58:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [pyrtlsdr/pyrtlsdr](https://github.com/pyrtlsdr/pyrtlsdr) | 685 | 2026-05-22T05:50:37Z | Python | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [jupyter-server/jupyter_server](https://github.com/jupyter-server/jupyter_server) | 558 | 2026-05-21T09:46:00Z | Python | Infrastructure/tooling | 8 | 20 | 8 | 8 |
 | [flagos-ai/FlagScale](https://github.com/flagos-ai/FlagScale) | 513 | 2026-05-20T11:48:08Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [aristoteleo/PantheonOS](https://github.com/aristoteleo/PantheonOS) | 428 | 2026-05-20T18:40:49Z | Python | Infrastructure/tooling | 14 | 15 | 14 | 14 |

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 5,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 2,
-    "terms": 4
+    "concepts": 3,
+    "observations": 3,
+    "repos": 1,
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
-    "buty4649/mruby-yyjson",
-    "conda-forge/cppinterop-feedstock"
+    "buty4649/mruby-yyjson"
   ]
 }

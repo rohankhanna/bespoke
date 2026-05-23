@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1353,
-    "concepts": 782,
-    "observations": 786,
+    "components": 1362,
+    "concepts": 783,
+    "observations": 787,
     "repos": 180,
-    "terms": 778
+    "terms": 779
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "AarshBatra/biteSizedAQ",
+    "abap2UI5-addons/sql-console",
     "abap2UI5/samples",
     "abarisani/abarisani.github.io",
     "abe-101/myHebrewDates",
@@ -169,7 +170,6 @@
     "ruby/ruby-builder",
     "ruby/ruby-dev-builder",
     "saghen/blink.lib",
-    "SAP/abap-file-formats-tools",
     "sbt/sbt-osgi",
     "scientific-python/scientific-python-hugo-theme",
     "SciML/Static.jl",

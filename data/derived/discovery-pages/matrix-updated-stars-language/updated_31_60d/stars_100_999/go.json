@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 837,
-    "concepts": 660,
-    "observations": 666,
-    "repos": 113,
-    "terms": 668
+    "components": 845,
+    "concepts": 663,
+    "observations": 669,
+    "repos": 114,
+    "terms": 671
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "AdguardTeam/AdGuardDNS",
@@ -109,6 +109,7 @@
     "openshift/enhancements",
     "openshift/library",
     "opentofu/registry",
+    "ossf/osv-schema",
     "phiat/claude-esp",
     "phuslu/log",
     "pires/go-proxyproto",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 382,
-    "concepts": 782,
-    "observations": 783,
-    "repos": 158,
-    "terms": 769
+    "concepts": 778,
+    "observations": 779,
+    "repos": 157,
+    "terms": 766
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "AIDC-AI/Marco-o1",
@@ -145,7 +145,6 @@
     "RUC-NLPIR/WebThinker",
     "SafeAILab/EAGLE",
     "shibing624/text2vec",
-    "ShichenLiu/SoftRas",
     "simonw/claude-code-transcripts",
     "simonw/sqlite-utils",
     "Simple-Efficient/RL-Factory",

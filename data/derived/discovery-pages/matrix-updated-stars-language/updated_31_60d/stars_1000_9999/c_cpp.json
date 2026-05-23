@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 994,
-    "concepts": 1081,
-    "observations": 1087,
-    "repos": 157,
-    "terms": 1075
+    "components": 998,
+    "concepts": 1089,
+    "observations": 1095,
+    "repos": 158,
+    "terms": 1083
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -130,6 +130,7 @@
     "oneapi-src/oneAPI-samples",
     "onnx/onnx-tensorrt",
     "openssh/openssh-portable",
+    "openxla/xla",
     "Overv/VulkanTutorial",
     "panda3d/panda3d",
     "pisa-engine/pisa",

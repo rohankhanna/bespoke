@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-05-23T05:46:34.953431+00:00`
+Generated at: `2026-05-23T07:23:00.685421+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 953
-- terms: 2994
-- components: 2215
-- concepts: 3010
-- observations: 3017
+- repos: 954
+- terms: 2997
+- components: 2223
+- concepts: 3013
+- observations: 3020
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [JuliaPlots/StatsPlots.jl](https://github.com/JuliaPlots/StatsPlots.jl) | 450 | 2025-11-24T06:04:34Z | Other | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [JuliaData/DataFramesMeta.jl](https://github.com/JuliaData/DataFramesMeta.jl) | 497 | 2025-11-24T05:20:57Z | Other | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [JuliaGraphics/Colors.jl](https://github.com/JuliaGraphics/Colors.jl) | 223 | 2025-11-24T05:10:56Z | Other | Infrastructure/tooling | 14 | 11 | 14 | 14 |
 | [pythonic-emacs/blacken](https://github.com/pythonic-emacs/blacken) | 197 | 2025-11-21T16:20:46Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
@@ -1300,6 +1301,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Clemapfel/Mousetrap.jl](https://github.com/Clemapfel/Mousetrap.jl) | 457 | 2024-02-28T14:54:55Z | Other | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [bshall/soft-vc](https://github.com/bshall/soft-vc) | 456 | 2024-03-14T11:24:46Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [tc39/proposal-module-expressions](https://github.com/tc39/proposal-module-expressions) | 454 | 2022-12-19T11:10:38Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [JuliaPlots/StatsPlots.jl](https://github.com/JuliaPlots/StatsPlots.jl) | 450 | 2025-11-24T06:04:34Z | Other | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [google/music-synthesizer-for-android](https://github.com/google/music-synthesizer-for-android) | 450 | 2021-11-23T01:38:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Shopify/better-html](https://github.com/Shopify/better-html) | 449 | 2025-09-18T18:09:07Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [harvardnlp/namedtensor](https://github.com/harvardnlp/namedtensor) | 448 | 2022-07-29T12:22:27Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |

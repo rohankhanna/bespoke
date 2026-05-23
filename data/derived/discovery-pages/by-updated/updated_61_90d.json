@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9060,
-    "concepts": 5615,
-    "observations": 5635,
-    "repos": 1368,
-    "terms": 5625
+    "components": 9069,
+    "concepts": 5616,
+    "observations": 5636,
+    "repos": 1369,
+    "terms": 5626
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "0xBigBoss/ghostty-web",
@@ -568,6 +568,7 @@
     "gazebosim/gz-mujoco",
     "Gen-Verse/Open-AgentRL",
     "gershnik/wsdd-native",
+    "getsentry/.github",
     "gfx-rs/rspirv",
     "glennhickey/red",
     "gmberton/CosPlace",
@@ -781,7 +782,6 @@
     "kward/shunit2",
     "KyleMayes/clang-rs",
     "KyleMayes/clang-sys",
-    "kyleneideck/backgroundmusic",
     "lace/entente",
     "lace/hobart",
     "LAION-AI/CLIP_benchmark",
@@ -1153,6 +1153,7 @@
     "ScoopInstaller/Install",
     "scottchiefbaker/dool",
     "scssphp/scssphp",
+    "sdbds/SageAttention-for-windows",
     "seancorfield/deps-new",
     "seancorfield/next-jdbc",
     "seaweedfs/seaweedfs-cosi-driver",

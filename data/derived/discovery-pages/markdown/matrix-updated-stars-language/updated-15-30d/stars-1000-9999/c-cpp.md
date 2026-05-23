@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-23T05:46:34.953431+00:00`
+Generated at: `2026-05-23T07:23:00.685421+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 179
-- terms: 1509
-- components: 1499
-- concepts: 1520
-- observations: 1521
+- repos: 178
+- terms: 1501
+- components: 1495
+- concepts: 1512
+- observations: 1513
 
 ## Static behavior
 
@@ -204,7 +204,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [util-linux/util-linux](https://github.com/util-linux/util-linux) | 3129 | 2026-04-23T12:09:24Z | C/C++ | Infrastructure/tooling | 6 | 13 | 6 | 6 |
 | [CLIUtils/CLI11](https://github.com/CLIUtils/CLI11) | 4254 | 2026-04-23T12:07:56Z | C/C++ | CLI | 12 | 19 | 12 | 12 |
 | [ganelson/inform](https://github.com/ganelson/inform) | 1584 | 2026-04-23T09:13:42Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
-| [openxla/xla](https://github.com/openxla/xla) | 4195 | 2026-04-23T06:35:20Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -266,7 +265,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [onnxsim/onnxsim](https://github.com/onnxsim/onnxsim) | 4330 | 2026-04-29T13:45:07Z | C/C++ | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [obsproject/obs-websocket](https://github.com/obsproject/obs-websocket) | 4295 | 2026-05-01T15:15:19Z | C/C++ | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [CLIUtils/CLI11](https://github.com/CLIUtils/CLI11) | 4254 | 2026-04-23T12:07:56Z | C/C++ | CLI | 12 | 19 | 12 | 12 |
-| [openxla/xla](https://github.com/openxla/xla) | 4195 | 2026-04-23T06:35:20Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [facebookincubator/velox](https://github.com/facebookincubator/velox) | 4102 | 2026-04-23T18:43:55Z | C/C++ | Infrastructure/tooling | 9 | 19 | 9 | 9 |
 | [RobotLocomotion/drake](https://github.com/RobotLocomotion/drake) | 4014 | 2026-05-01T14:11:43Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [westes/flex](https://github.com/westes/flex) | 4004 | 2026-04-30T12:22:48Z | C/C++ | Infrastructure/tooling | 6 | 3 | 6 | 6 |

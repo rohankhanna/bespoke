@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1890,
-    "concepts": 1839,
-    "observations": 1850,
-    "repos": 295,
-    "terms": 1831
+    "components": 1950,
+    "concepts": 1870,
+    "observations": 1881,
+    "repos": 301,
+    "terms": 1862
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "0xAX/asm",
     "aaaaalexis/obsidian-cupertino",
@@ -129,6 +129,7 @@
     "GlitchEnzo/NuGetForUnity",
     "goharbor/harbor-helm",
     "gohugoio/hugoDocs",
+    "golang/proposal",
     "google-deepmind/tapnet",
     "google/brax",
     "google/flax",
@@ -142,6 +143,7 @@
     "gpuweb/gpuweb",
     "grain-lang/grain",
     "grosser/parallel_tests",
+    "grpc/grpc-dotnet",
     "haleclipse/claudix",
     "haskell/haskell-language-server",
     "heartcombo/has_scope",
@@ -178,6 +180,7 @@
     "L3MON4D3/LuaSnip",
     "lervag/vimtex",
     "libbpf/libbpf-bootstrap",
+    "lowRISC/opentitan",
     "luarocks/luarocks",
     "macvim-dev/macvim",
     "MagicDuck/grug-far.nvim",
@@ -204,6 +207,7 @@
     "Morantron/tmux-fingers",
     "mpv-android/mpv-android",
     "ndmitchell/ghcid",
+    "NethermindEth/nethermind",
     "netwide-assembler/nasm",
     "ninenines/cowboy",
     "NixOS/hydra",
@@ -226,6 +230,7 @@
     "OmniSharp/omnisharp-roslyn",
     "open-telemetry/opentelemetry-specification",
     "oxalorg/sakura",
+    "pagedjs/pagedjs",
     "phodal/auto-dev",
     "pinterest/ktlint",
     "plotly/plotly.R",
@@ -276,6 +281,7 @@
     "socketry/async",
     "stan-dev/rstan",
     "steipete/peekaboo",
+    "stevearc/conform.nvim",
     "stevearc/overseer.nvim",
     "svenfuchs/rails-i18n",
     "swiftbar/SwiftBar",

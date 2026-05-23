@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 10418,
-    "concepts": 8938,
-    "observations": 8947,
-    "repos": 2320,
-    "terms": 8812
+    "concepts": 8942,
+    "observations": 8951,
+    "repos": 2321,
+    "terms": 8815
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -1897,6 +1897,7 @@
     "sheerun/vim-polyglot",
     "shenweichen/AlgoNotes",
     "sheredom/subprocess.h",
+    "ShichenLiu/SoftRas",
     "ShieldMnt/invisible-watermark",
     "ShivamShrirao/diffusers",
     "Shougo/dein.vim",

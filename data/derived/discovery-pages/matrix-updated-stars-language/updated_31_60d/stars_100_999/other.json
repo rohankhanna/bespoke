@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2600,
-    "concepts": 2117,
-    "observations": 2122,
-    "repos": 409,
-    "terms": 2135
+    "components": 2641,
+    "concepts": 2149,
+    "observations": 2154,
+    "repos": 412,
+    "terms": 2167
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "a2aproject/a2a-dotnet",
@@ -61,6 +61,7 @@
     "appsignal/appsignal-ruby",
     "appwrite/sdk-for-dart",
     "aspect-build/bazel-examples",
+    "aspect-build/rules_js",
     "Atinoda/text-generation-webui-docker",
     "AudioKit/Cookbook",
     "aviatesk/JET.jl",
@@ -112,6 +113,7 @@
     "cbl-dart/cbl-dart",
     "cedar-policy/cedar-spec",
     "cgrindel/rules_swift_package_manager",
+    "chainguard-images/images",
     "ChenyunWu/PhraseCutDataset",
     "chep/copilot-chat.el",
     "chomosuke/typst-preview.nvim",
@@ -310,6 +312,7 @@
     "nrepl/nrepl",
     "nubank/matcher-combinators",
     "NVIDIA/nvbench",
+    "NVIDIA/spark-rapids",
     "nvim-mini/mini.animate",
     "nvim-mini/mini.diff",
     "nvim-mini/mini.files",
@@ -359,6 +362,7 @@
     "Roshanjossey/code-contributions",
     "rrrene/html_sanitize_ex",
     "rubocop/rubocop-ast",
+    "ruby/gem_rbs_collection",
     "ruby/psych",
     "ruby/ruby-bench",
     "ruby/spec",
@@ -371,7 +375,6 @@
     "samtools/hts-specs",
     "SciML/ColPrac",
     "SciML/SciMLStyle",
-    "sdbds/SageAttention-for-windows",
     "sebastienros/esprima-dotnet",
     "semver/semver.org",
     "shakacode/shakapacker",

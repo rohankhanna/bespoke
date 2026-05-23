@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-23T05:46:34.953431+00:00`
+Generated at: `2026-05-23T07:23:00.685421+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 17
-- components: 179
-- concepts: 17
-- observations: 17
+- repos: 3
+- terms: 12
+- components: 144
+- concepts: 12
+- observations: 12
 
 ## Static behavior
 
@@ -29,7 +29,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google-gemini/live-api-web-console](https://github.com/google-gemini/live-api-web-console) | 2549 | 2026-05-23T01:14:01Z | TypeScript | Web app | 2 | 28 | 2 | 2 |
 | [microsoft/vscode-js-debug](https://github.com/microsoft/vscode-js-debug) | 1948 | 2026-05-22T20:23:26Z | TypeScript | Infrastructure/tooling | 4 | 101 | 4 | 4 |
 | [vuejs/language-tools](https://github.com/vuejs/language-tools) | 6667 | 2026-05-22T07:26:41Z | TypeScript | Infrastructure/tooling | 6 | 15 | 6 | 6 |
-| [safe-fndn/safe-smart-account](https://github.com/safe-fndn/safe-smart-account) | 2147 | 2026-05-22T07:10:25Z | TypeScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -37,5 +36,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [vuejs/language-tools](https://github.com/vuejs/language-tools) | 6667 | 2026-05-22T07:26:41Z | TypeScript | Infrastructure/tooling | 6 | 15 | 6 | 6 |
 | [google-gemini/live-api-web-console](https://github.com/google-gemini/live-api-web-console) | 2549 | 2026-05-23T01:14:01Z | TypeScript | Web app | 2 | 28 | 2 | 2 |
-| [safe-fndn/safe-smart-account](https://github.com/safe-fndn/safe-smart-account) | 2147 | 2026-05-22T07:10:25Z | TypeScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
 | [microsoft/vscode-js-debug](https://github.com/microsoft/vscode-js-debug) | 1948 | 2026-05-22T20:23:26Z | TypeScript | Infrastructure/tooling | 4 | 101 | 4 | 4 |

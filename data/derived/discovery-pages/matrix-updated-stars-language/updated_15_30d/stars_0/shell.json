@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 21,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 11,
-    "terms": 21
+    "concepts": 20,
+    "observations": 20,
+    "repos": 10,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "clearml/clearml-agent-bootstrap",
-    "conda-forge/diffutils-feedstock",
     "conda-forge/ergocub-software-feedstock",
     "conda-forge/xeus-cpp-feedstock",
     "danielrosehill/Awesome-Hebrew-Fonts",

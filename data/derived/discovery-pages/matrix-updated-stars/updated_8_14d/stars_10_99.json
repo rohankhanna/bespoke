@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 300,
-    "concepts": 232,
-    "observations": 233,
-    "repos": 39,
-    "terms": 232
+    "components": 281,
+    "concepts": 225,
+    "observations": 226,
+    "repos": 38,
+    "terms": 225
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
-    "abap2UI5-addons/sql-console",
     "aidenlab/hic-straw",
     "aidenlab/juicebox.js",
     "apache/casbin-actix-casbin-auth",

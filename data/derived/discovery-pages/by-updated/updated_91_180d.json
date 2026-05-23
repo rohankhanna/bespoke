@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10709,
-    "concepts": 7519,
-    "observations": 7549,
-    "repos": 2063,
-    "terms": 7494
+    "components": 10703,
+    "concepts": 7517,
+    "observations": 7547,
+    "repos": 2062,
+    "terms": 7493
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0aids/imnodes",
@@ -1129,7 +1129,6 @@
     "JuliaML/MLCore.jl",
     "JuliaML/MLUtils.jl",
     "julianrubisch/pronto-standardrb",
-    "JuliaPlots/StatsPlots.jl",
     "JuliaPy/Conda.jl",
     "JuliaStrings/LaTeXStrings.jl",
     "Jumziey/neotest-nix-unit.nvim",
@@ -1190,6 +1189,7 @@
     "kutsan/stylelint-config-clean-order",
     "kwonoj/swc-plugin-coverage-instrument",
     "kylebarron/pyo3-file",
+    "kyleneideck/backgroundmusic",
     "L2jLiga/grunt-webfonts",
     "labring/laf",
     "LAION-AI/audio-dataset",
@@ -1745,7 +1745,6 @@
     "ShenhanQian/GaussianAvatars",
     "shesek/electrumd",
     "shibing624/text2vec",
-    "ShichenLiu/SoftRas",
     "Shopify/quantified",
     "Shopify/svg2vd",
     "shriramters/chordcat",

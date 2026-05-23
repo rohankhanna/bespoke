@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars
 
-Generated at: `2026-05-23T05:46:34.953431+00:00`
+Generated at: `2026-05-23T07:23:00.685421+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 112
-- terms: 149
+- repos: 110
+- terms: 147
 - components: 217
-- concepts: 149
-- observations: 149
+- concepts: 147
+- observations: 147
 
 ## Static behavior
 
@@ -135,8 +135,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/LLM-Council-Homehunter](https://github.com/danielrosehill/LLM-Council-Homehunter) | 0 | 2026-04-23T10:28:18Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/LLM-Council-Decide](https://github.com/danielrosehill/LLM-Council-Decide) | 0 | 2026-04-23T10:25:30Z | Python | Framework | 0 | 0 | 0 | 0 |
 | [DataDog/vault](https://github.com/DataDog/vault) | 0 | 2026-04-23T09:08:34Z | Go | Infrastructure/tooling | 5 | 10 | 5 | 5 |
-| [conda-forge/diffutils-feedstock](https://github.com/conda-forge/diffutils-feedstock) | 0 | 2026-04-23T07:16:40Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
-| [conda-forge/cppinterop-feedstock](https://github.com/conda-forge/cppinterop-feedstock) | 0 | 2026-04-23T05:52:16Z | C/C++ | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -252,5 +250,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/LLM-Council-Homehunter](https://github.com/danielrosehill/LLM-Council-Homehunter) | 0 | 2026-04-23T10:28:18Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/LLM-Council-Decide](https://github.com/danielrosehill/LLM-Council-Decide) | 0 | 2026-04-23T10:25:30Z | Python | Framework | 0 | 0 | 0 | 0 |
 | [DataDog/vault](https://github.com/DataDog/vault) | 0 | 2026-04-23T09:08:34Z | Go | Infrastructure/tooling | 5 | 10 | 5 | 5 |
-| [conda-forge/diffutils-feedstock](https://github.com/conda-forge/diffutils-feedstock) | 0 | 2026-04-23T07:16:40Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
-| [conda-forge/cppinterop-feedstock](https://github.com/conda-forge/cppinterop-feedstock) | 0 | 2026-04-23T05:52:16Z | C/C++ | Infrastructure/tooling | 1 | 0 | 1 | 1 |

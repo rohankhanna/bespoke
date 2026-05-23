@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1499,
-    "concepts": 1520,
-    "observations": 1521,
-    "repos": 179,
-    "terms": 1509
+    "components": 1495,
+    "concepts": 1512,
+    "observations": 1513,
+    "repos": 178,
+    "terms": 1501
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
@@ -142,7 +142,6 @@
     "OpenSC/OpenSC",
     "opensim-org/opensim-core",
     "openucx/ucx",
-    "openxla/xla",
     "optiscaler/OptiScaler",
     "oracle/graaljs",
     "OSGeo/gdal",

@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 2757,
-    "concepts": 2482,
-    "observations": 2492,
-    "repos": 487,
-    "terms": 2454
+    "concepts": 2478,
+    "observations": 2488,
+    "repos": 486,
+    "terms": 2451
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2shady4u/godot-sqlite",
@@ -418,7 +418,6 @@
     "sharkdp/diskus",
     "shazow/ssh-chat",
     "shibing624/text2vec",
-    "ShichenLiu/SoftRas",
     "siliconflow/onediff",
     "simonw/claude-code-transcripts",
     "simonw/sqlite-utils",

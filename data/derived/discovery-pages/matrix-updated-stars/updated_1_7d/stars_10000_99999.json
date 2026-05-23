@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 380,
-    "concepts": 266,
-    "observations": 267,
-    "repos": 27,
-    "terms": 263
+    "components": 404,
+    "concepts": 299,
+    "observations": 300,
+    "repos": 29,
+    "terms": 296
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "Comfy-Org/ComfyUI-Manager",
     "deepspeedai/DeepSpeed",
     "dense-analysis/ale",
+    "ggml-org/whisper.cpp",
     "git-lfs/git-lfs",
     "github-linguist/linguist",
     "gitleaks/gitleaks",
@@ -24,13 +25,14 @@
     "hiyouga/LlamaFactory",
     "huggingface/pytorch-image-models",
     "huggingface/sentence-transformers",
+    "isl-org/Open3D",
     "Lightning-AI/pytorch-lightning",
     "meta-llama/llama-cookbook",
-    "nvm-sh/nvm",
     "nwjs/nw.js",
     "oobabooga/textgen",
     "preactjs/preact",
     "pyg-team/pytorch_geometric",
+    "qubvel-org/segmentation_models.pytorch",
     "quickwit-oss/tantivy",
     "realworld-apps/realworld",
     "run-llama/llama_index",

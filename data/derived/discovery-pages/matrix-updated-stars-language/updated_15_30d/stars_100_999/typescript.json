@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3704,
-    "concepts": 826,
-    "observations": 828,
-    "repos": 115,
-    "terms": 819
+    "components": 3681,
+    "concepts": 823,
+    "observations": 825,
+    "repos": 114,
+    "terms": 816
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "agentclientprotocol/typescript-sdk",
     "AgnosticUI/agnosticui",
@@ -38,7 +38,6 @@
     "daeh/zotero-markdb-connect",
     "danielroe/beasties",
     "decentralized-identity/did-resolver",
-    "DeterminateSystems/nix-installer-action",
     "docker/bake-action",
     "dydxprotocol/v4-web",
     "electron-vite/vite-plugin-electron",

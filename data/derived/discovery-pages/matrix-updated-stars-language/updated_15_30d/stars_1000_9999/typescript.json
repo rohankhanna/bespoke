@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7014,
-    "concepts": 1398,
-    "observations": 1401,
-    "repos": 157,
-    "terms": 1390
+    "components": 6951,
+    "concepts": 1383,
+    "observations": 1386,
+    "repos": 155,
+    "terms": 1375
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
-    "actions/setup-node",
-    "actions/setup-python",
     "AdguardTeam/AdguardBrowserExtension",
     "adobe/spectrum-web-components",
     "aeharding/voyager",

@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 923,
-    "concepts": 325,
-    "observations": 326,
-    "repos": 223,
-    "terms": 357
+    "concepts": 327,
+    "observations": 328,
+    "repos": 225,
+    "terms": 359
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "8144225309/superscalar-cln",
@@ -63,6 +63,8 @@
     "conda-forge/cccl-feedstock",
     "conda-forge/conda-forge-feedstock-ops",
     "conda-forge/conda-lock-feedstock",
+    "conda-forge/cppinterop-feedstock",
+    "conda-forge/diffutils-feedstock",
     "conda-forge/python-isal-feedstock",
     "conda-forge/pytomlpp-feedstock",
     "csjgg/ags-cookbook",

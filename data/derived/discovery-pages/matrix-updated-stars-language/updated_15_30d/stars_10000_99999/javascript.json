@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2475,
-    "concepts": 464,
-    "observations": 465,
-    "repos": 49,
-    "terms": 457
+    "components": 2460,
+    "concepts": 453,
+    "observations": 454,
+    "repos": 48,
+    "terms": 446
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "4ian/GDevelop",
@@ -20,7 +20,6 @@
     "addyosmani/critical",
     "ampproject/amphtml",
     "Automattic/mongoose",
-    "be5invis/Iosevka",
     "CesiumGS/cesium",
     "cure53/DOMPurify",
     "easydiffusion/easydiffusion",

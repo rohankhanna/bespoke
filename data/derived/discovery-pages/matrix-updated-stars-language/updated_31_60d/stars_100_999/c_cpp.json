@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 633,
-    "concepts": 732,
-    "observations": 735,
-    "repos": 149,
-    "terms": 727
+    "components": 640,
+    "concepts": 736,
+    "observations": 739,
+    "repos": 150,
+    "terms": 731
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/Imath",
     "actboy168/bee.lua",
@@ -136,6 +136,7 @@
     "proxytunnel/proxytunnel",
     "ptsochantaris/emeltal",
     "pyg-team/pyg-lib",
+    "qbs/qbs",
     "rapidsai/rmm",
     "raylib-extras/rlImGui",
     "RoaringBitmap/croaring-rs",

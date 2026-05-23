@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 102,
-    "observations": 102,
+    "components": 60,
+    "concepts": 104,
+    "observations": 104,
     "repos": 45,
-    "terms": 101
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
@@ -34,7 +34,7 @@
     "flinedev/plankit",
     "ganelson/inform-evolution",
     "GDevelopApp/GDevelop-community-list",
-    "getsentry/.github",
+    "goharbor/community",
     "google/oss-policies-info",
     "grpc/grpc-community",
     "Homebrew/.github",

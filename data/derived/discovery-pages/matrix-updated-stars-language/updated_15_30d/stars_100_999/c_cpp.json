@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 911,
-    "concepts": 962,
-    "observations": 963,
-    "repos": 154,
-    "terms": 956
+    "components": 904,
+    "concepts": 958,
+    "observations": 959,
+    "repos": 153,
+    "terms": 952
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -133,7 +133,6 @@
     "pkgxdev/pantry",
     "pqrs-org/Karabiner-DriverKit-VirtualHIDDevice",
     "pygobject/pycairo",
-    "qbs/qbs",
     "RcppCore/Rcpp",
     "realh/roxterm",
     "rmagick/rmagick",

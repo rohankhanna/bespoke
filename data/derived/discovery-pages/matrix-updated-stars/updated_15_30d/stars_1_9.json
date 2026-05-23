@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2167,
-    "concepts": 1198,
-    "observations": 1203,
-    "repos": 259,
-    "terms": 1195
+    "components": 2168,
+    "concepts": 1199,
+    "observations": 1204,
+    "repos": 255,
+    "terms": 1196
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0xble/dotagent.nvim",
@@ -34,7 +34,6 @@
     "b-data/jupyterlab-julia-docker-stack",
     "b-data/jupyterlab-mojo-docker-stack",
     "beeware/beeware-docs-tools",
-    "bell-sw/osv-database",
     "benjamimgois/pascube",
     "bennyyip/dot-vim",
     "bitrise-io/bitrise-plugins-step",
@@ -57,7 +56,6 @@
     "compiler-research/cppyy-backend",
     "compiler-research/CPyCppyy",
     "conda-forge/captum-feedstock",
-    "conda-forge/croc-feedstock",
     "conda-forge/fenics-dolfinx-feedstock",
     "conda-forge/openblas-feedstock",
     "conda-forge/pyfive-feedstock",
@@ -92,7 +90,6 @@
     "danielrosehill/Voxtype",
     "databendlabs/databend-meta",
     "datachainlab/lcp-go",
-    "DavidKinder/inform",
     "dcampbell24/djot-implementations",
     "decibri/decibri",
     "demonatic/flash-attention",
@@ -172,10 +169,10 @@
     "KhronosGroup/KTX-Software-CTS",
     "kkomelin/isomorphic-dompurify-playgrounds",
     "ksxnodemodules/static-type-assert",
-    "kubernetes-sigs/provider-ibmcloud-test-infra",
     "kurrent-io/KurrentDB-Bridge-Client",
     "ldclabs/ic-cose",
     "LedgerHQ/ledger-app-workflows",
+    "leleliu008/ppkg-formula-repository-official-core",
     "linode/karpenter-provider-linode",
     "lint-staged/lint-staged.sh",
     "lintnet-modules/ghalint",
@@ -200,7 +197,6 @@
     "oobabooga/screenshots",
     "open-telemetry/opentelemetry-weaver-examples",
     "OpenSC/Nightly",
-    "openwebdocs/mdn-bcd-results",
     "OsgiliathEnterprise/acp-langgraph-langchain-bridge",
     "oxc-project/oxc-index-vec",
     "pacstall/pacup",

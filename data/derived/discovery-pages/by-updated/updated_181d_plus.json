@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 47399,
-    "concepts": 33516,
-    "observations": 33572,
-    "repos": 12191,
-    "terms": 33094
+    "components": 47407,
+    "concepts": 33523,
+    "observations": 33579,
+    "repos": 12193,
+    "terms": 33100
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -6542,6 +6542,7 @@
     "JuliaML/LearnBase.jl",
     "JuliaParallel/DTables.jl",
     "JuliaPlots/RecipesBase.jl",
+    "JuliaPlots/StatsPlots.jl",
     "JuliaPy/Pandas.jl",
     "JuliaPy/pyjulia",
     "JuliaPy/SymPy.jl",
@@ -10312,6 +10313,7 @@
     "shesek/rust-jsonrpc",
     "SHI-Labs/Text2Video-Zero-sd-webui",
     "shibing624/ChatPDF",
+    "ShichenLiu/SoftRas",
     "ShieldMnt/invisible-watermark",
     "shikiw/OPERA",
     "shikras/shikra",

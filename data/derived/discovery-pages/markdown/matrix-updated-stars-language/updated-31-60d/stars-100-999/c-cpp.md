@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-23T05:46:34.953431+00:00`
+Generated at: `2026-05-23T07:23:00.685421+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 149
-- terms: 727
-- components: 633
-- concepts: 732
-- observations: 735
+- repos: 150
+- terms: 731
+- components: 640
+- concepts: 736
+- observations: 739
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [qbs/qbs](https://github.com/qbs/qbs) | 178 | 2026-04-23T07:18:10Z | C/C++ | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [rapidsai/rmm](https://github.com/rapidsai/rmm) | 693 | 2026-04-23T04:28:56Z | C/C++ | Infrastructure/tooling | 8 | 21 | 8 | 8 |
 | [Frommi/miniz_oxide](https://github.com/Frommi/miniz_oxide) | 233 | 2026-04-22T22:51:54Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [nss-dev/nss](https://github.com/nss-dev/nss) | 179 | 2026-04-22T22:27:07Z | C/C++ | Infrastructure/tooling | 3 | 4 | 3 | 3 |
@@ -303,6 +304,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [boostorg/nowide](https://github.com/boostorg/nowide) | 188 | 2026-04-22T14:14:46Z | C/C++ | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [ptsochantaris/emeltal](https://github.com/ptsochantaris/emeltal) | 188 | 2026-04-03T17:09:24Z | C/C++ | Model/data | 9 | 0 | 9 | 9 |
 | [nss-dev/nss](https://github.com/nss-dev/nss) | 179 | 2026-04-22T22:27:07Z | C/C++ | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [qbs/qbs](https://github.com/qbs/qbs) | 178 | 2026-04-23T07:18:10Z | C/C++ | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [freebsd/kyua](https://github.com/freebsd/kyua) | 175 | 2026-04-18T18:16:04Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
 | [appium/appium-mac2-driver](https://github.com/appium/appium-mac2-driver) | 174 | 2026-04-15T05:08:28Z | C/C++ | Infrastructure/tooling | 9 | 37 | 9 | 9 |
 | [RoaringBitmap/croaring-rs](https://github.com/RoaringBitmap/croaring-rs) | 166 | 2026-04-03T01:43:53Z | C/C++ | Infrastructure/tooling | 6 | 4 | 6 | 7 |

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-05-23T05:46:34.953431+00:00`
+Generated at: `2026-05-23T07:23:00.685421+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 18
-- terms: 138
-- components: 97
-- concepts: 140
-- observations: 140
+- repos: 19
+- terms: 146
+- components: 112
+- concepts: 148
+- observations: 148
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1311 | 2026-05-22T07:21:32Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 | [JuergenFleiss/aTrain](https://github.com/JuergenFleiss/aTrain) | 1138 | 2026-05-22T05:26:10Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [ogx-ai/ogx](https://github.com/ogx-ai/ogx) | 8384 | 2026-05-21T13:25:43Z | Python | Infrastructure/tooling | 9 | 16 | 9 | 9 |
 | [speaches-ai/speaches](https://github.com/speaches-ai/speaches) | 3312 | 2026-05-20T18:31:38Z | Python | Infrastructure/tooling | 13 | 7 | 13 | 13 |
@@ -63,6 +64,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aigc-apps/VideoX-Fun](https://github.com/aigc-apps/VideoX-Fun) | 2092 | 2026-05-20T11:50:37Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [meta-pytorch/tnt](https://github.com/meta-pytorch/tnt) | 1720 | 2026-05-18T07:30:15Z | Python | Library | 5 | 0 | 5 | 5 |
 | [strob/gentle](https://github.com/strob/gentle) | 1698 | 2026-05-19T17:59:52Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
+| [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1311 | 2026-05-22T07:21:32Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 | [nomadkaraoke/python-audio-separator](https://github.com/nomadkaraoke/python-audio-separator) | 1197 | 2026-05-18T23:24:52Z | Python | CLI | 8 | 15 | 8 | 8 |
 | [FunAudioLLM/Fun-ASR](https://github.com/FunAudioLLM/Fun-ASR) | 1163 | 2026-05-19T15:28:20Z | Python | Model/data | 8 | 0 | 8 | 8 |
 | [JuergenFleiss/aTrain](https://github.com/JuergenFleiss/aTrain) | 1138 | 2026-05-22T05:26:10Z | Python | Model/data | 0 | 0 | 0 | 0 |

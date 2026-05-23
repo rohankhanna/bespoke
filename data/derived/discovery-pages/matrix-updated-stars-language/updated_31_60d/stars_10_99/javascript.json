@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1057,
-    "concepts": 291,
-    "observations": 291,
-    "repos": 83,
-    "terms": 291
+    "components": 1078,
+    "concepts": 297,
+    "observations": 297,
+    "repos": 84,
+    "terms": 297
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
     "ahmadnassri/node-glob-promise",
@@ -68,6 +68,7 @@
     "kellyselden/eslint-plugin-json-files",
     "Level/browser-level",
     "Level/memory-level",
+    "locize/i18next-locize-backend",
     "locize/locize-cli",
     "mapbox/node-srs",
     "mapbox/node-tilejson",

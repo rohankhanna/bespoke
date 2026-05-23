@@ -3,7 +3,7 @@
     "components": 182,
     "concepts": 102,
     "observations": 102,
-    "repos": 19,
+    "repos": 20,
     "terms": 101
   },
   "facet_version": 1,
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "ankane/dist-c",
     "Asmod4n/mruby-fast-json",
     "CHIP-SPV/H4I-MKLShim",
     "datalevin/dlmdb",
+    "DavidKinder/inform",
     "decibri/decibri.cpp",
     "gbrobro119-star/darksword-kexploit",
     "HyperLan-git/Synthmania",

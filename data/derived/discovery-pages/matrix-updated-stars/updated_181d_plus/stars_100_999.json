@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15275,
-    "concepts": 13799,
-    "observations": 13825,
-    "repos": 4539,
-    "terms": 13577
+    "components": 15283,
+    "concepts": 13802,
+    "observations": 13828,
+    "repos": 4540,
+    "terms": 13580
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -2382,6 +2382,7 @@
     "JuliaInterop/Cxx.jl",
     "JuliaInterop/NBInclude.jl",
     "JuliaPlots/RecipesBase.jl",
+    "JuliaPlots/StatsPlots.jl",
     "JuliaPy/Pandas.jl",
     "JuliaPy/pyjulia",
     "JuliaPy/SymPy.jl",

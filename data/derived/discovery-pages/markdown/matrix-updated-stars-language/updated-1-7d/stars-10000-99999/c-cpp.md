@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T07:23:00.685421+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 2
-- terms: 17
-- components: 10
-- concepts: 17
-- observations: 17
+- terms: 31
+- components: 32
+- concepts: 31
+- observations: 31
 
 ## Static behavior
 
@@ -26,12 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 24486 | 2026-05-20T16:27:04Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |
-| [apache/brpc](https://github.com/apache/brpc) | 17508 | 2026-05-20T04:05:42Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [isl-org/Open3D](https://github.com/isl-org/Open3D) | 13606 | 2026-05-22T06:49:27Z | C/C++ | Infrastructure/tooling | 21 | 7 | 21 | 21 |
+| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 50011 | 2026-05-22T06:27:35Z | C/C++ | Infrastructure/tooling | 10 | 25 | 10 | 10 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 24486 | 2026-05-20T16:27:04Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |
-| [apache/brpc](https://github.com/apache/brpc) | 17508 | 2026-05-20T04:05:42Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 50011 | 2026-05-22T06:27:35Z | C/C++ | Infrastructure/tooling | 10 | 25 | 10 | 10 |
+| [isl-org/Open3D](https://github.com/isl-org/Open3D) | 13606 | 2026-05-22T06:49:27Z | C/C++ | Infrastructure/tooling | 21 | 7 | 21 | 21 |

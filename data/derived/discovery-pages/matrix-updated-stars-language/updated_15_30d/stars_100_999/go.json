@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 990,
-    "concepts": 876,
-    "observations": 877,
-    "repos": 114,
-    "terms": 874
+    "components": 982,
+    "concepts": 873,
+    "observations": 874,
+    "repos": 113,
+    "terms": 871
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "2dust/AndroidLibXrayLite",
     "a2aproject/a2a-go",
@@ -98,7 +98,6 @@
     "operator-framework/operator-registry",
     "oracle/oci-go-sdk",
     "osmosis-labs/osmosis",
-    "ossf/osv-schema",
     "pion/ice",
     "pion/interceptor",
     "pion/mediadevices",

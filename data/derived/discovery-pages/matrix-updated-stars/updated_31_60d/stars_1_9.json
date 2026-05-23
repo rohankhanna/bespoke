@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 2896,
-    "concepts": 1315,
-    "observations": 1315,
-    "repos": 391,
-    "terms": 1340
+    "concepts": 1316,
+    "observations": 1316,
+    "repos": 396,
+    "terms": 1341
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "0xPolygonHermez/pil2-proofman-js",
@@ -84,6 +84,7 @@
     "azure/homebrew-bicep",
     "Badisi/wdio-harness",
     "BarMalka/super-pharm-stock-checker",
+    "bell-sw/osv-database",
     "beneadie/DeepDog_1",
     "birdofpreyru/react-starter",
     "birdofpreyru/react-utils",
@@ -120,6 +121,7 @@
     "codelibs/fess-ds-box",
     "collective/mrs-developer",
     "conda-forge/.cirun",
+    "conda-forge/croc-feedstock",
     "conda-forge/nlohmann_json-feedstock",
     "conda-forge/pgvector-feedstock",
     "conda-forge/pybind11-feedstock",
@@ -166,6 +168,7 @@
     "datachainlab/yui-relayer-build",
     "DataDog/trivy",
     "datalevin/dlmdb",
+    "DavidKinder/inform",
     "decibri/decibri.cpp",
     "Deep-Symmetry/asciidoctor-bytefield",
     "diffblue/homebrew-cbmc",
@@ -273,6 +276,7 @@
     "konnov/apalache-examples",
     "konsoletyper/teavm-site",
     "ksylvan/fabric",
+    "kubernetes-sigs/provider-ibmcloud-test-infra",
     "kyverno/community",
     "lab-cosmo/.github",
     "lace/proximity",
@@ -316,6 +320,7 @@
     "octokit/openapi-webhooks",
     "onicai/IConfucius",
     "openssh/openssh-portable-selfhosted",
+    "openwebdocs/mdn-bcd-results",
     "penpoen/llm-sugarscape",
     "petmal/mindtrial",
     "php-toolkit/stdlib",

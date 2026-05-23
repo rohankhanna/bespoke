@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-05-23T05:46:34.953431+00:00`
+Generated at: `2026-05-23T07:23:00.685421+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 49
-- terms: 457
-- components: 2475
-- concepts: 464
-- observations: 465
+- repos: 48
+- terms: 446
+- components: 2460
+- concepts: 453
+- observations: 454
 
 ## Static behavior
 
@@ -74,7 +74,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cure53/DOMPurify](https://github.com/cure53/DOMPurify) | 16918 | 2026-04-23T14:29:58Z | JavaScript | Infrastructure/tooling | 14 | 38 | 14 | 15 |
 | [electron/minimal-repro](https://github.com/electron/minimal-repro) | 11465 | 2026-04-23T13:35:27Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons) | 24968 | 2026-04-23T09:11:44Z | JavaScript | Infrastructure/tooling | 24 | 37 | 24 | 24 |
-| [be5invis/Iosevka](https://github.com/be5invis/Iosevka) | 22135 | 2026-04-23T07:17:19Z | JavaScript | Infrastructure/tooling | 11 | 15 | 11 | 11 |
 
 ## Repos sorted by stars
 
@@ -101,7 +100,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MagicMirrorOrg/MagicMirror](https://github.com/MagicMirrorOrg/MagicMirror) | 23487 | 2026-04-29T04:32:24Z | JavaScript | Infrastructure/tooling | 12 | 51 | 12 | 12 |
 | [mochajs/mocha](https://github.com/mochajs/mocha) | 22884 | 2026-04-30T12:30:55Z | JavaScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |
 | [4ian/GDevelop](https://github.com/4ian/GDevelop) | 22578 | 2026-05-03T14:32:10Z | JavaScript | Infrastructure/tooling | 19 | 7 | 23 | 23 |
-| [be5invis/Iosevka](https://github.com/be5invis/Iosevka) | 22135 | 2026-04-23T07:17:19Z | JavaScript | Infrastructure/tooling | 11 | 15 | 11 | 11 |
 | [jsdom/jsdom](https://github.com/jsdom/jsdom) | 21568 | 2026-04-30T08:52:21Z | JavaScript | Infrastructure/tooling | 5 | 44 | 5 | 5 |
 | [sveltejs/kit](https://github.com/sveltejs/kit) | 20476 | 2026-05-02T20:33:26Z | JavaScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [krisk/Fuse](https://github.com/krisk/Fuse) | 20228 | 2026-04-28T20:27:41Z | JavaScript | Infrastructure/tooling | 5 | 28 | 5 | 5 |

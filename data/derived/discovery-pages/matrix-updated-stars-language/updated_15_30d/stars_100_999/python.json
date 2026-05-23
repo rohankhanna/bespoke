@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1317,
-    "concepts": 1211,
-    "observations": 1217,
-    "repos": 199,
-    "terms": 1206
+    "components": 1268,
+    "concepts": 1189,
+    "observations": 1194,
+    "repos": 193,
+    "terms": 1185
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "aboutcode-org/scancode.io",
     "ag2ai/build-with-ag2",
@@ -69,7 +69,6 @@
     "conda/conda-build",
     "conda/conda-libmamba-solver",
     "conda/conda-lock",
-    "confluentinc/confluent-kafka-python",
     "cosmos/chain-registry",
     "CVHub520/X-AnyLabeling-Server",
     "danny-avila/rag_api",
@@ -144,7 +143,6 @@
     "nod-ai/AMD-SHARK-ModelDev",
     "notofonts/notofonts.github.io",
     "numpy/numpydoc",
-    "NVIDIA-NeMo/Megatron-Bridge",
     "NVIDIA-NeMo/Run",
     "NVIDIA/JAX-Toolbox",
     "NVIDIA/NeMo-text-processing",
@@ -156,12 +154,10 @@
     "open-telemetry/opentelemetry-cpp-contrib",
     "open-thoughts/OpenThoughts-Agent",
     "opendatacube/datacube-core",
-    "OpenHands/OpenHands-CLI",
     "OpenHands/software-agent-sdk",
     "OSU-NLP-Group/GUI-Agents-Paper-List",
     "PetervanLunteren/AddaxAI",
     "PFCCLab/PPOCRLabel",
-    "PhoenixZ810/RISEBench",
     "plotly/Kaleido",
     "Project-MONAI/model-zoo",
     "prometheus-community/ansible",
@@ -174,7 +170,6 @@
     "pypdfium2-team/pypdfium2",
     "rai-opensource/spatialmath-python",
     "RDFLib/pyLODE",
-    "redai-infra/Relax",
     "robometer/robometer",
     "ROCm/flash-attention",
     "ROCm/TheRock",
@@ -182,7 +177,6 @@
     "scicode-bench/SciCode",
     "scikit-build/scikit-build-core",
     "ScoopInstaller/Nirsoft",
-    "searxng/searx-instances",
     "SemiAnalysisAI/InferenceX",
     "ServiceNow/WorkArena",
     "seung-lab/cloud-volume",

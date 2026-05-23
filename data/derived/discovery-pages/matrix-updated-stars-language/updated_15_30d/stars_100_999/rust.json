@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1175,
-    "concepts": 812,
-    "observations": 817,
-    "repos": 120,
-    "terms": 807
+    "components": 1168,
+    "concepts": 809,
+    "observations": 814,
+    "repos": 119,
+    "terms": 804
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "0xPolygonHermez/zisk",
@@ -62,7 +62,6 @@
     "EspressoSystems/espresso-network",
     "evaera/moonwave",
     "facebookexperimental/rust-shed",
-    "fancy-regex/fancy-regex",
     "filecoin-project/filecoin-ffi",
     "flatgeobuf/flatgeobuf",
     "GitoxideLabs/cargo-smart-release",

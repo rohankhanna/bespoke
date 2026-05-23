@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 475,
-    "concepts": 547,
-    "observations": 549,
-    "repos": 65,
-    "terms": 547
+    "components": 494,
+    "concepts": 576,
+    "observations": 578,
+    "repos": 69,
+    "terms": 576
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "abseil/abseil-cpp",
     "Alexays/Waybar",
     "alibaba/MNN",
     "apache/arrow",
     "ApolloAuto/apollo",
+    "apple/foundationdb",
     "aristocratos/btop",
     "aseprite/aseprite",
     "bitcoin/bitcoin",
@@ -32,11 +33,14 @@
     "facebook/hhvm",
     "facebook/rocksdb",
     "facebook/zstd",
+    "facebookresearch/faiss",
     "fmtlib/fmt",
+    "FreeRDP/FreeRDP",
     "g-truc/glm",
     "gabime/spdlog",
     "git/git",
     "glfw/glfw",
+    "gnachman/iTerm2",
     "google/benchmark",
     "google/flatbuffers",
     "google/googletest",

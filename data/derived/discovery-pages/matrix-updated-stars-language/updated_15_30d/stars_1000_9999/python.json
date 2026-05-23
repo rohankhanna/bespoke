@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2111,
-    "concepts": 2359,
-    "observations": 2367,
-    "repos": 259,
-    "terms": 2341
+    "components": 2090,
+    "concepts": 2330,
+    "observations": 2338,
+    "repos": 256,
+    "terms": 2312
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "a2aproject/a2a-python",
@@ -20,7 +20,6 @@
     "AcademySoftwareFoundation/OpenTimelineIO",
     "adapter-hub/adapters",
     "ag2ai/ag2",
-    "AgentR1/Agent-R1",
     "agentscope-ai/ReMe",
     "agiresearch/AIOS",
     "AI-Hypercomputer/maxtext",
@@ -101,7 +100,6 @@
     "google-deepmind/mujoco_warp",
     "google-deepmind/sonnet",
     "google-research/scenic",
-    "GoogleCloudPlatform/agent-starter-pack",
     "gpustack/gpustack",
     "h5py/h5py",
     "hacs/integration",
@@ -113,7 +111,6 @@
     "ibis-project/ibis",
     "inclusionAI/AReaL",
     "inclusionAI/AWorld",
-    "intel/auto-round",
     "InternLM/lagent",
     "InternLM/xtuner",
     "isaac-sim/IsaacLab",
@@ -158,7 +155,6 @@
     "mjun0812/flash-attention-prebuild-wheels",
     "ModelCloud/GPTQModel",
     "modelscope/evalscope",
-    "ModelTC/LightLLM",
     "ModelTC/LightX2V",
     "MoonshotAI/kimi-cli",
     "mozilla-ai/any-agent",
@@ -199,6 +195,7 @@
     "praw-dev/praw",
     "PrimeIntellect-ai/prime-rl",
     "Project-MONAI/MONAI",
+    "PyAV-Org/PyAV",
     "pycontribs/jira",
     "PyCQA/flake8",
     "PyCQA/isort",

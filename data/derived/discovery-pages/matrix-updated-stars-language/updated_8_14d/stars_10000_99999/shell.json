@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 11,
-    "observations": 11,
+    "components": 16,
+    "concepts": 17,
+    "observations": 17,
     "repos": 1,
-    "terms": 11
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-18T08:07:10.522070+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
-    "itzg/docker-minecraft-server"
+    "nvm-sh/nvm"
   ]
 }

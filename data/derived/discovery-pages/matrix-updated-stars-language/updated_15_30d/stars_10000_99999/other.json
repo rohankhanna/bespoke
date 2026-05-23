@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1154,
-    "concepts": 955,
-    "observations": 959,
-    "repos": 90,
-    "terms": 946
+    "components": 1138,
+    "concepts": 932,
+    "observations": 935,
+    "repos": 88,
+    "terms": 923
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
-    "abpframework/abp",
     "actions/runner-images",
     "adityatelange/hugo-PaperMod",
     "AlDanial/cloc",
@@ -40,7 +39,6 @@
     "doomemacs/doomemacs",
     "dotnet/aspnetcore",
     "dotnet/AspNetCore.Docs",
-    "dotnet/csharplang",
     "dotnet/efcore",
     "dotnet/orleans",
     "dotnet/roslyn",

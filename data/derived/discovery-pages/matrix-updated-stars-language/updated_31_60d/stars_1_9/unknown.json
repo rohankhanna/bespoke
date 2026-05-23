@@ -3,7 +3,7 @@
     "components": 44,
     "concepts": 74,
     "observations": 74,
-    "repos": 62,
+    "repos": 64,
     "terms": 74
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "2KAbhishek/BWnB",
@@ -24,6 +24,7 @@
     "agent-sh/prepare-delivery",
     "AI-Agent-Hub/mcp-marketplace",
     "ai-dynamo/enhancements",
+    "bell-sw/osv-database",
     "cachix/iocraft",
     "canonical/ubuntu-desktop-provision-screenshots",
     "conda-forge/python-zlib-ng-feedstock",
@@ -70,6 +71,7 @@
     "llvm/torch-mlir-release",
     "nodejs/web-team",
     "nttstar/insightface-resources",
+    "openwebdocs/mdn-bcd-results",
     "piebald-ai/piebald-issues",
     "psmux/scoop-omp-manager",
     "ScoopInstaller/.github",

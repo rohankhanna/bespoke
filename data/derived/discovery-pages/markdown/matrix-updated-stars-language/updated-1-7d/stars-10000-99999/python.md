@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-05-23T05:46:34.953431+00:00`
+Generated at: `2026-05-23T07:23:00.685421+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 12
-- terms: 145
-- components: 90
-- concepts: 145
-- observations: 145
+- repos: 13
+- terms: 164
+- components: 98
+- concepts: 164
+- observations: 164
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [qubvel-org/segmentation_models.pytorch](https://github.com/qubvel-org/segmentation_models.pytorch) | 11567 | 2026-05-22T05:51:34Z | Python | Infrastructure/tooling | 19 | 8 | 19 | 19 |
 | [deepspeedai/DeepSpeed](https://github.com/deepspeedai/DeepSpeed) | 42387 | 2026-05-21T22:28:42Z | Python | Infrastructure/tooling | 21 | 5 | 21 | 21 |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | 18710 | 2026-05-21T10:05:01Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 71515 | 2026-05-21T09:26:32Z | Python | Infrastructure/tooling | 18 | 13 | 18 | 18 |
@@ -54,4 +55,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | 18710 | 2026-05-21T10:05:01Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [Comfy-Org/ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) | 14760 | 2026-05-20T20:53:50Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [567-labs/instructor](https://github.com/567-labs/instructor) | 13001 | 2026-05-20T14:39:54Z | Python | Infrastructure/tooling | 10 | 9 | 10 | 10 |
+| [qubvel-org/segmentation_models.pytorch](https://github.com/qubvel-org/segmentation_models.pytorch) | 11567 | 2026-05-22T05:51:34Z | Python | Infrastructure/tooling | 19 | 8 | 19 | 19 |
 | [TEN-framework/ten-framework](https://github.com/TEN-framework/ten-framework) | 10602 | 2026-05-20T08:21:14Z | Python | Infrastructure/tooling | 12 | 11 | 12 | 12 |

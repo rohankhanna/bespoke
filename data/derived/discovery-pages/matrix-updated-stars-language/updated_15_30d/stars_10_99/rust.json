@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 447,
-    "concepts": 287,
-    "observations": 288,
-    "repos": 60,
-    "terms": 286
+    "components": 440,
+    "concepts": 277,
+    "observations": 278,
+    "repos": 59,
+    "terms": 276
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "abusch/nu_plugin_semver",
     "AccessKit/accesskit-c",
@@ -34,7 +34,6 @@
     "davidhozic/mujoco-rs",
     "Dicklesworthstone/frankensearch",
     "eopb/cargo-override",
-    "eth-act/ere",
     "eth-act/zkboost",
     "fallow-rs/oxc-coverage-instrument",
     "filecoin-project/builtin-actors",

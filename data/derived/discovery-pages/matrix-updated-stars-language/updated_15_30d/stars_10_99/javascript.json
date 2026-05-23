@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 712,
-    "concepts": 201,
-    "observations": 203,
-    "repos": 41,
-    "terms": 201
+    "components": 691,
+    "concepts": 195,
+    "observations": 197,
+    "repos": 40,
+    "terms": 195
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersCompiler",
     "alangdm/helium-animated-pages",
@@ -33,7 +33,6 @@
     "julia-actions/cache",
     "kitconcept/volto-light-theme",
     "lm-sys/lm-sys.github.io",
-    "locize/i18next-locize-backend",
     "locize/locize",
     "locize/locizify",
     "mainmatter/ember-vite-codemod",

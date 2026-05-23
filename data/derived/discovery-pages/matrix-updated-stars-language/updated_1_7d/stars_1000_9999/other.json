@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 116,
-    "concepts": 110,
-    "observations": 111,
-    "repos": 13,
-    "terms": 110
+    "components": 121,
+    "concepts": 126,
+    "observations": 127,
+    "repos": 15,
+    "terms": 126
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "andymass/vim-matchup",
     "babashka/sci",
+    "dotnet/reactive",
     "dotnet/Silk.NET",
     "googleapis/google-auth-library-php",
     "licensee/licensed",
@@ -25,6 +26,7 @@
     "nvim-tree/nvim-web-devicons",
     "opentk/opentk",
     "preservim/tagbar",
+    "psmux/psmux",
     "seancorfield/honeysql",
     "standardrb/standard"
   ]

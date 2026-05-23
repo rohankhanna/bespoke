@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1804,
-    "concepts": 2158,
-    "observations": 2162,
-    "repos": 299,
-    "terms": 2161
+    "components": 1831,
+    "concepts": 2191,
+    "observations": 2195,
+    "repos": 303,
+    "terms": 2194
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T05:46:34.953431+00:00",
+  "generated_at": "2026-05-23T07:23:00.685421+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "2U1/Qwen-VL-Series-Finetune",
     "6551Team/opennews-mcp",
     "abseil/abseil-py",
     "agent-infra/sandbox",
+    "AgentR1/Agent-R1",
     "agno-agi/dash",
     "agricidaniel/claude-ads",
     "agricidaniel/claude-seo",
@@ -119,6 +120,7 @@
     "googleapis/google-api-python-client",
     "googleapis/google-cloud-python",
     "googleapis/python-genai",
+    "GoogleCloudPlatform/agent-starter-pack",
     "graphql-python/gql",
     "guaguastandup/zotero-pdf2zh",
     "haosulab/ManiSkill",
@@ -139,6 +141,7 @@
     "ijl/orjson",
     "illuin-tech/colpali",
     "inducer/pycuda",
+    "intel/auto-round",
     "intel/intel-extension-for-pytorch",
     "intel/neural-compressor",
     "intelligent-machine-learning/dlrover",
@@ -201,6 +204,7 @@
     "mll-lab-nu/RAGEN",
     "modelscope/modelscope",
     "modelscope/ms-agent",
+    "ModelTC/LightLLM",
     "MontrealCorpusTools/Montreal-Forced-Aligner",
     "mosaicml/composer",
     "mosaicml/llm-foundry",
