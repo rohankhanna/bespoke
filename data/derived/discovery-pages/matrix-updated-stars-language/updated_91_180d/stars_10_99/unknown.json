@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 36,
-    "concepts": 73,
-    "observations": 73,
-    "repos": 39,
-    "terms": 78
+    "concepts": 69,
+    "observations": 69,
+    "repos": 37,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "aaron-he-zhu/core-eeat-content-benchmark",
@@ -22,8 +22,6 @@
     "astro/deadnix-action",
     "astroyat/lerobot-ros",
     "automazeio/open-royalties",
-    "BingguangHao/BalanceSFT",
-    "bl-ue/tweakcc-system-prompts",
     "cedar-policy/rfcs",
     "cloudrepo-io/founder-os",
     "conda-forge/cfep",

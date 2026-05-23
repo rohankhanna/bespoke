@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 54
-- terms: 138
-- components: 217
-- concepts: 140
-- observations: 143
+- repos: 55
+- terms: 139
+- components: 218
+- concepts: 141
+- observations: 144
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [dsxmachina/rfm](https://github.com/dsxmachina/rfm) | 26 | 2026-02-21T16:57:19Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [sigp/ethereum_hashing](https://github.com/sigp/ethereum_hashing) | 14 | 2026-02-19T01:02:00Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [googlefonts/shaperglot](https://github.com/googlefonts/shaperglot) | 52 | 2026-02-18T21:03:36Z | Rust | Infrastructure/tooling | 2 | 13 | 2 | 2 |
 | [alloy-rs/op-alloy](https://github.com/alloy-rs/op-alloy) | 87 | 2026-02-18T14:17:23Z | Rust | Infrastructure/tooling | 6 | 13 | 6 | 6 |
@@ -119,6 +120,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zeng3ld/claude-session-restore](https://github.com/ZENG3LD/claude-session-restore) | 30 | 2026-01-26T07:54:26Z | Rust | CLI | 0 | 0 | 0 | 0 |
 | [suo/lintrunner](https://github.com/suo/lintrunner) | 30 | 2026-01-24T06:56:37Z | Rust | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [01mf02/hifijson](https://github.com/01mf02/hifijson) | 27 | 2025-12-15T15:09:14Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [dsxmachina/rfm](https://github.com/dsxmachina/rfm) | 26 | 2026-02-21T16:57:19Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [MaterializeInc/rust-postgres](https://github.com/MaterializeInc/rust-postgres) | 21 | 2025-12-11T16:00:43Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [ifsheldon/async-openai-wasm](https://github.com/ifsheldon/async-openai-wasm) | 21 | 2025-12-02T07:40:33Z | Rust | Library | 0 | 0 | 0 | 0 |
 | [Cykooz/libheif-sys](https://github.com/Cykooz/libheif-sys) | 19 | 2026-02-18T06:41:14Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |

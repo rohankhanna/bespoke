@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 2,
-    "terms": 5
+    "components": 9,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 1,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
-    "jelly-beam/rebar3_ex_doc",
-    "pivotal/credhub-release"
+    "lumen-oss/luarocks-tag-release"
   ]
 }

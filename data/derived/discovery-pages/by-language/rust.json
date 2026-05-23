@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11656,
-    "concepts": 7961,
-    "observations": 8023,
-    "repos": 1733,
-    "terms": 7952
+    "components": 11672,
+    "concepts": 7969,
+    "observations": 8031,
+    "repos": 1734,
+    "terms": 7960
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -461,6 +461,7 @@
     "datafuse-extras/async-recursion",
     "datafuse-extras/clickhouse_driver",
     "datafuse-extras/dtparse",
+    "datafuse-extras/lance",
     "datafuse-extras/logforth",
     "datafuse-extras/orc-rust",
     "datafuse-extras/recursive",

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars · Python
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,12 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mozilla-ai/otari](https://github.com/mozilla-ai/otari) | 10 | 2026-05-22T07:46:50Z | Python | Infrastructure/tooling | 6 | 11 | 6 | 6 |
-| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 83 | 2026-05-21T23:28:44Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 83 | 2026-05-22T22:47:43Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [mozilla-ai/otari](https://github.com/mozilla-ai/otari) | 11 | 2026-05-22T07:46:50Z | Python | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 83 | 2026-05-21T23:28:44Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
-| [mozilla-ai/otari](https://github.com/mozilla-ai/otari) | 10 | 2026-05-22T07:46:50Z | Python | Infrastructure/tooling | 6 | 11 | 6 | 6 |
+| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 83 | 2026-05-22T22:47:43Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [mozilla-ai/otari](https://github.com/mozilla-ai/otari) | 11 | 2026-05-22T07:46:50Z | Python | Infrastructure/tooling | 6 | 11 | 6 | 6 |

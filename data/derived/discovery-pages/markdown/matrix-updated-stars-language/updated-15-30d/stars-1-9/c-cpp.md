@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · C/C++
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 14
-- terms: 39
-- components: 52
-- concepts: 39
-- observations: 39
+- repos: 15
+- terms: 40
+- components: 53
+- concepts: 40
+- observations: 40
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [vovkos/axl](https://github.com/vovkos/axl) | 4 | 2026-05-08T12:33:27Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [chrishulbert/brickwarrior](https://github.com/chrishulbert/brickwarrior) | 3 | 2026-05-04T12:01:55Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [clearml/dropbear](https://github.com/clearml/dropbear) | 2 | 2026-05-04T07:10:38Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [skeeto/aas-sign](https://github.com/skeeto/aas-sign) | 2 | 2026-05-03T14:14:06Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -50,6 +51,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Evilpasture/Culverin](https://github.com/Evilpasture/Culverin) | 7 | 2026-05-03T12:12:54Z | C/C++ | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 | [ROCm/rocJPEG](https://github.com/ROCm/rocJPEG) | 7 | 2026-04-24T17:32:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [danielbernalb/AireCiudadano](https://github.com/danielbernalb/AireCiudadano) | 5 | 2026-04-29T01:56:02Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [vovkos/axl](https://github.com/vovkos/axl) | 4 | 2026-05-08T12:33:27Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [chrishulbert/brickwarrior](https://github.com/chrishulbert/brickwarrior) | 3 | 2026-05-04T12:01:55Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [clearml/dropbear](https://github.com/clearml/dropbear) | 2 | 2026-05-04T07:10:38Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [skeeto/aas-sign](https://github.com/skeeto/aas-sign) | 2 | 2026-05-03T14:14:06Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 26
-- terms: 64
+- terms: 59
 - components: 62
-- concepts: 64
-- observations: 64
+- concepts: 59
+- observations: 59
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Mercury13/unicodia-sesh](https://github.com/Mercury13/unicodia-sesh) | 3 | 2026-03-23T13:21:58Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [42-evey/evey-bridge-plugin](https://github.com/42-evey/evey-bridge-plugin) | 7 | 2026-03-22T15:07:23Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [sparklabutah/timewarp](https://github.com/sparklabutah/timewarp) | 1 | 2026-03-18T01:24:09Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [conda-forge/cupy-feedstock](https://github.com/conda-forge/cupy-feedstock) | 5 | 2026-03-17T17:45:13Z | Python | Infrastructure/tooling | 1 | 0 | 1 | 1 |
@@ -51,7 +52,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sylabs/singularity-admindocs](https://github.com/sylabs/singularity-admindocs) | 3 | 2026-02-26T16:38:29Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [alexpolonsky/agent-skill-jlm-coffee](https://github.com/alexpolonsky/agent-skill-jlm-coffee) | 1 | 2026-02-26T07:13:39Z | Python | Unknown | 9 | 0 | 9 | 9 |
 | [agents-x-project/PyVision-RL-Eval](https://github.com/agents-x-project/PyVision-RL-Eval) | 2 | 2026-02-25T03:28:28Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [alexpolonsky/agent-skill-libby-book-monitor](https://github.com/alexpolonsky/agent-skill-libby-book-monitor) | 2 | 2026-02-21T10:35:07Z | Python | Library | 10 | 0 | 10 | 10 |
 
 ## Repos sorted by stars
 
@@ -72,13 +72,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chaoss/grimoirelab-perceval-weblate](https://github.com/chaoss/grimoirelab-perceval-weblate) | 4 | 2026-03-03T09:10:01Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [chaoss/grimoirelab-perceval-mozilla](https://github.com/chaoss/grimoirelab-perceval-mozilla) | 4 | 2026-03-03T09:09:58Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [lace/entente](https://github.com/lace/entente) | 4 | 2026-02-27T18:15:42Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
+| [Mercury13/unicodia-sesh](https://github.com/Mercury13/unicodia-sesh) | 3 | 2026-03-23T13:21:58Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [cognizant-ai-lab/neuro-san-cc](https://github.com/cognizant-ai-lab/neuro-san-cc) | 3 | 2026-03-16T06:14:27Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [alexpolonsky/agent-skill-ontopo](https://github.com/alexpolonsky/agent-skill-ontopo) | 3 | 2026-03-13T11:11:41Z | Python | Unknown | 8 | 0 | 8 | 8 |
 | [sylabs/singularity-admindocs](https://github.com/sylabs/singularity-admindocs) | 3 | 2026-02-26T16:38:29Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [babakatwork/loopy_agent](https://github.com/babakatwork/loopy_agent) | 2 | 2026-03-11T20:33:26Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [chaoss/grimoirelab-perceval-opnfv](https://github.com/chaoss/grimoirelab-perceval-opnfv) | 2 | 2026-03-03T09:09:57Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [agents-x-project/PyVision-RL-Eval](https://github.com/agents-x-project/PyVision-RL-Eval) | 2 | 2026-02-25T03:28:28Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [alexpolonsky/agent-skill-libby-book-monitor](https://github.com/alexpolonsky/agent-skill-libby-book-monitor) | 2 | 2026-02-21T10:35:07Z | Python | Library | 10 | 0 | 10 | 10 |
 | [sparklabutah/timewarp](https://github.com/sparklabutah/timewarp) | 1 | 2026-03-18T01:24:09Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [lace/hobart](https://github.com/lace/hobart) | 1 | 2026-03-03T19:46:12Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [chaoss/grimoirelab-perceval-puppet](https://github.com/chaoss/grimoirelab-perceval-puppet) | 1 | 2026-03-03T09:09:49Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |

@@ -1,29 +1,33 @@
 {
   "counts": {
-    "components": 293,
-    "concepts": 187,
-    "observations": 188,
-    "repos": 36,
-    "terms": 187
+    "components": 300,
+    "concepts": 232,
+    "observations": 233,
+    "repos": 39,
+    "terms": 232
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
+    "aidenlab/hic-straw",
+    "aidenlab/juicebox.js",
+    "apache/casbin-actix-casbin-auth",
+    "apache/casbin-axum-casbin",
+    "apache/casbin-rust-actix-casbin",
+    "apache/datafusion-ballista-python",
     "apify/actor-templates",
     "atsushieno/aap-juce",
     "atsushieno/aap-lv2",
     "baicai-1145/GPT-SoVITS-CPUFast",
     "browniebroke/pypackage-template",
     "cginternals/cpplocate",
-    "Cle2ment/CherryStudio_themes",
     "diffscope/diffscope-project",
     "dwyl/mvp",
-    "energye/wv",
     "erigontech/mdbx-go",
     "FreneticLLC/FreneticGameEngine",
     "g-plane/raffia",
@@ -37,17 +41,16 @@
     "microsoft/openjdk-jdk17u",
     "microsoft/openjdk-jdk21u",
     "mongodb/winkerberos",
-    "ocaml-tracing/ocaml-opentelemetry",
-    "ocaml-tracing/ocaml-trace",
+    "openjdk/jdk11u-dev",
+    "openjdk/jdk17u-dev",
     "openjdk/jdk21u",
+    "openjdk/jdk21u-dev",
     "processing/processing-website",
     "rcasia/neotest-java",
     "RiDDiX/home-assistant-addons",
-    "TEN-framework/portal",
     "tinted-theming/tinted-xresources",
     "UnknownPlatypus/djangofmt",
     "version-fox/vfox-plugins",
-    "xuegao-tzx/Fllama",
     "yulewang97/ERDiff"
   ]
 }

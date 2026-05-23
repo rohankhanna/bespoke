@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Unknown
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 278
-- terms: 321
+- repos: 280
+- terms: 325
 - components: 197
-- concepts: 321
-- observations: 321
+- concepts: 325
+- observations: 325
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [BingguangHao/BalanceSFT](https://github.com/BingguangHao/BalanceSFT) | 55 | 2025-11-24T03:50:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [bl-ue/tweakcc-system-prompts](https://github.com/bl-ue/tweakcc-system-prompts) | 37 | 2025-11-23T18:05:33Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [PyCQA/bandit-action](https://github.com/PyCQA/bandit-action) | 26 | 2025-11-20T23:59:48Z | Unknown | Unknown | 6 | 0 | 6 | 6 |
 | [AlefAlefAlef/gveret-levin](https://github.com/AlefAlefAlef/gveret-levin) | 12 | 2025-11-14T13:52:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [VectorSpaceLab/Vis-IR](https://github.com/VectorSpaceLab/Vis-IR) | 11 | 2025-11-10T07:30:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -385,6 +387,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Warren2060/ChillDuanSans](https://github.com/Warren2060/ChillDuanSans) | 56 | 2024-11-11T04:15:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [pandorgan/APT-36K](https://github.com/pandorgan/APT-36K) | 56 | 2023-07-06T05:23:52Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [ichitenfont/suppchara](https://github.com/ichitenfont/suppchara) | 56 | 2022-09-07T02:05:40Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [BingguangHao/BalanceSFT](https://github.com/BingguangHao/BalanceSFT) | 55 | 2025-11-24T03:50:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [JokerJohn/MS-Dataset](https://github.com/JokerJohn/MS-Dataset) | 55 | 2025-01-22T12:29:07Z | Unknown | Model/data | 4 | 0 | 4 | 4 |
 | [austinEng/webgpu-samples](https://github.com/austinEng/webgpu-samples) | 54 | 2024-03-06T00:27:16Z | Unknown | Infrastructure/tooling | 2 | 28 | 2 | 2 |
 | [mse-group/Slides](https://github.com/mse-group/Slides) | 53 | 2024-09-25T03:35:28Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -418,6 +421,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [heliconialabs/steampunkification](https://github.com/heliconialabs/steampunkification) | 40 | 2025-07-24T13:23:16Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [OloOcki/tum-facade](https://github.com/OloOcki/tum-facade) | 40 | 2024-11-06T13:48:16Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [heshengtao/Let-LLM-party](https://github.com/heshengtao/Let-LLM-party) | 39 | 2025-05-05T10:38:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [bl-ue/tweakcc-system-prompts](https://github.com/bl-ue/tweakcc-system-prompts) | 37 | 2025-11-23T18:05:33Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [theupdateframework/taps](https://github.com/theupdateframework/taps) | 37 | 2025-08-28T11:36:17Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [0nutation/SLMTokBench](https://github.com/0nutation/SLMTokBench) | 37 | 2023-08-29T04:11:40Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [high-moctane/nextword-data](https://github.com/high-moctane/nextword-data) | 37 | 2022-02-19T16:39:16Z | Unknown | Model/data | 2 | 0 | 2 | 2 |

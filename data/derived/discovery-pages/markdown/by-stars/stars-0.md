@@ -1,6 +1,6 @@
 # 0 stars
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-05-22T09:03:12.687315+00:00`
 
 ## Counts
 
-- repos: 910
-- terms: 1240
-- components: 2892
-- concepts: 1209
-- observations: 1213
+- repos: 911
+- terms: 1248
+- components: 2908
+- concepts: 1217
+- observations: 1221
 
 ## Static behavior
 
@@ -249,6 +249,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/My-Benchmarks](https://github.com/danielrosehill/My-Benchmarks) | 0 | 2026-04-17T12:20:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Speech-And-ASR-Evaluations](https://github.com/danielrosehill/Speech-And-ASR-Evaluations) | 0 | 2026-04-17T12:19:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [stdlib-js/ndarray-dtype-ctor](https://github.com/stdlib-js/ndarray-dtype-ctor) | 0 | 2026-04-17T11:17:11Z | JavaScript | Infrastructure/tooling | 25 | 30 | 25 | 25 |
+| [datafuse-extras/lance](https://github.com/datafuse-extras/lance) | 0 | 2026-04-17T07:53:42Z | Rust | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [datafuse-extras/orc-rust](https://github.com/datafuse-extras/orc-rust) | 0 | 2026-04-17T07:53:37Z | Rust | Infrastructure/tooling | 0 | 11 | 0 | 0 |
 | [acevif/swiftformat-nix](https://github.com/acevif/swiftformat-nix) | 0 | 2026-04-17T06:23:08Z | Other | Library | 5 | 0 | 5 | 5 |
 | [danielrosehill/Agent-Assisted-Purchase-Research-Index](https://github.com/danielrosehill/Agent-Assisted-Purchase-Research-Index) | 0 | 2026-04-16T18:00:32Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
@@ -1164,6 +1165,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/My-Benchmarks](https://github.com/danielrosehill/My-Benchmarks) | 0 | 2026-04-17T12:20:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Speech-And-ASR-Evaluations](https://github.com/danielrosehill/Speech-And-ASR-Evaluations) | 0 | 2026-04-17T12:19:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [stdlib-js/ndarray-dtype-ctor](https://github.com/stdlib-js/ndarray-dtype-ctor) | 0 | 2026-04-17T11:17:11Z | JavaScript | Infrastructure/tooling | 25 | 30 | 25 | 25 |
+| [datafuse-extras/lance](https://github.com/datafuse-extras/lance) | 0 | 2026-04-17T07:53:42Z | Rust | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [datafuse-extras/orc-rust](https://github.com/datafuse-extras/orc-rust) | 0 | 2026-04-17T07:53:37Z | Rust | Infrastructure/tooling | 0 | 11 | 0 | 0 |
 | [acevif/swiftformat-nix](https://github.com/acevif/swiftformat-nix) | 0 | 2026-04-17T06:23:08Z | Other | Library | 5 | 0 | 5 | 5 |
 | [danielrosehill/Agent-Assisted-Purchase-Research-Index](https://github.com/danielrosehill/Agent-Assisted-Purchase-Research-Index) | 0 | 2026-04-16T18:00:32Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |

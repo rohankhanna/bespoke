@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 159,
-    "concepts": 87,
-    "observations": 88,
-    "repos": 19,
-    "terms": 86
+    "components": 194,
+    "concepts": 97,
+    "observations": 99,
+    "repos": 23,
+    "terms": 96
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "a16z/helios",
     "allan2/dotenvy",
     "brendanzab/codespan",
     "crossbeam-rs/crossbeam",
     "David-OConnor/pyflow",
+    "dtolnay/anyhow",
     "dtolnay/proc-macro-workshop",
+    "dtolnay/thiserror",
     "google/argh",
     "haleclipse/ccometixline",
     "ImageOptim/gifski",
@@ -28,10 +30,12 @@
     "rust-lang/regex",
     "Rust-SDL2/rust-sdl2",
     "simd-lite/simd-json",
+    "smol-rs/smol",
     "Stebalien/tempfile",
     "tauri-apps/cargo-mobile2",
     "tokio-rs/prost",
     "tower-rs/tower",
+    "visioncortex/vtracer",
     "zkcrypto/bellman"
   ]
 }

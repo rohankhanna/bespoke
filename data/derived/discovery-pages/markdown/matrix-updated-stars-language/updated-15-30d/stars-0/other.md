@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · Other
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 14
-- terms: 20
-- components: 33
-- concepts: 20
-- observations: 20
+- repos: 13
+- terms: 19
+- components: 32
+- concepts: 19
+- observations: 19
 
 ## Static behavior
 
@@ -39,7 +39,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Strivin0311/strivin0311.github.io](https://github.com/Strivin0311/strivin0311.github.io) | 0 | 2026-04-24T14:33:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [regro/cf-graph-countyfair](https://github.com/regro/cf-graph-countyfair) | 0 | 2026-04-24T09:16:27Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [danielrosehill/Claude-Local-Web-Capture-Plugin](https://github.com/danielrosehill/Claude-Local-Web-Capture-Plugin) | 0 | 2026-04-23T15:29:06Z | Other | Unknown | 2 | 0 | 2 | 2 |
-| [conda-forge/cccl-feedstock](https://github.com/conda-forge/cccl-feedstock) | 0 | 2026-04-23T05:17:57Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -58,4 +57,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Strivin0311/strivin0311.github.io](https://github.com/Strivin0311/strivin0311.github.io) | 0 | 2026-04-24T14:33:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [regro/cf-graph-countyfair](https://github.com/regro/cf-graph-countyfair) | 0 | 2026-04-24T09:16:27Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [danielrosehill/Claude-Local-Web-Capture-Plugin](https://github.com/danielrosehill/Claude-Local-Web-Capture-Plugin) | 0 | 2026-04-23T15:29:06Z | Other | Unknown | 2 | 0 | 2 | 2 |
-| [conda-forge/cccl-feedstock](https://github.com/conda-forge/cccl-feedstock) | 0 | 2026-04-23T05:17:57Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |

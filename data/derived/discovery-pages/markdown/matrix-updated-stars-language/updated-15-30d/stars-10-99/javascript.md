@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 44
-- terms: 202
-- components: 760
-- concepts: 202
-- observations: 204
+- repos: 41
+- terms: 201
+- components: 712
+- concepts: 201
+- observations: 203
 
 ## Static behavior
 
@@ -67,9 +67,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [octokit/app-permissions](https://github.com/octokit/app-permissions) | 14 | 2026-04-23T14:56:25Z | JavaScript | Infrastructure/tooling | 8 | 12 | 8 | 8 |
 | [octokit/openapi](https://github.com/octokit/openapi) | 50 | 2026-04-23T13:29:21Z | JavaScript | Infrastructure/tooling | 12 | 22 | 12 | 12 |
 | [locize/i18next-locize-backend](https://github.com/locize/i18next-locize-backend) | 78 | 2026-04-23T06:13:08Z | JavaScript | Infrastructure/tooling | 6 | 21 | 6 | 6 |
-| [mypyc/mypy_mypyc-wheels](https://github.com/mypyc/mypy_mypyc-wheels) | 21 | 2026-04-22T23:38:28Z | JavaScript | Infrastructure/tooling | 1 | 7 | 1 | 1 |
-| [i18next/i18next-chained-backend](https://github.com/i18next/i18next-chained-backend) | 76 | 2026-04-22T21:25:11Z | JavaScript | Unknown | 0 | 23 | 0 | 0 |
-| [i18next/i18next-multiload-backend-adapter](https://github.com/i18next/i18next-multiload-backend-adapter) | 19 | 2026-04-22T17:59:55Z | JavaScript | Unknown | 0 | 18 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -84,7 +81,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hudochenkov/postcss-styled-syntax](https://github.com/hudochenkov/postcss-styled-syntax) | 81 | 2026-04-28T23:10:30Z | JavaScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [stdlib-js/google-summer-of-code](https://github.com/stdlib-js/google-summer-of-code) | 78 | 2026-05-01T06:07:03Z | JavaScript | Infrastructure/tooling | 7 | 14 | 7 | 7 |
 | [locize/i18next-locize-backend](https://github.com/locize/i18next-locize-backend) | 78 | 2026-04-23T06:13:08Z | JavaScript | Infrastructure/tooling | 6 | 21 | 6 | 6 |
-| [i18next/i18next-chained-backend](https://github.com/i18next/i18next-chained-backend) | 76 | 2026-04-22T21:25:11Z | JavaScript | Unknown | 0 | 23 | 0 | 0 |
 | [aws-samples/aws-sdk-js-tests](https://github.com/aws-samples/aws-sdk-js-tests) | 68 | 2026-04-29T19:08:42Z | JavaScript | Library | 4 | 3 | 4 | 4 |
 | [rstackjs/agent-skills](https://github.com/rstackjs/agent-skills) | 64 | 2026-04-30T03:51:49Z | JavaScript | Infrastructure/tooling | 1 | 15 | 1 | 1 |
 | [j9t/obsohtml](https://github.com/j9t/obsohtml) | 64 | 2026-04-27T06:14:12Z | JavaScript | Infrastructure/tooling | 2 | 7 | 2 | 2 |
@@ -102,9 +98,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [wyyazlz/sheetnext](https://github.com/wyyazlz/sheetnext) | 28 | 2026-04-27T16:17:22Z | JavaScript | Web app | 13 | 2 | 13 | 13 |
 | [tnc-ca-geo/animl-frontend](https://github.com/tnc-ca-geo/animl-frontend) | 24 | 2026-04-23T20:11:11Z | JavaScript | Infrastructure/tooling | 3 | 87 | 3 | 3 |
 | [nodejs/nodejs-dist-indexer](https://github.com/nodejs/nodejs-dist-indexer) | 22 | 2026-04-29T12:24:28Z | JavaScript | Infrastructure/tooling | 3 | 9 | 3 | 3 |
-| [mypyc/mypy_mypyc-wheels](https://github.com/mypyc/mypy_mypyc-wheels) | 21 | 2026-04-22T23:38:28Z | JavaScript | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [apollographql/connectors-community](https://github.com/apollographql/connectors-community) | 20 | 2026-04-28T23:41:07Z | JavaScript | Unknown | 2 | 6 | 2 | 2 |
-| [i18next/i18next-multiload-backend-adapter](https://github.com/i18next/i18next-multiload-backend-adapter) | 19 | 2026-04-22T17:59:55Z | JavaScript | Unknown | 0 | 18 | 0 | 0 |
 | [octokit/create-octokit-project.js](https://github.com/octokit/create-octokit-project.js) | 18 | 2026-04-29T10:03:27Z | JavaScript | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [mainmatter/ember-vite-codemod](https://github.com/mainmatter/ember-vite-codemod) | 18 | 2026-04-24T08:55:00Z | JavaScript | Infrastructure/tooling | 2 | 41 | 2 | 2 |
 | [ideditor/schema-builder](https://github.com/ideditor/schema-builder) | 17 | 2026-05-01T12:18:03Z | JavaScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |

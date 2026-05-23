@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4631,
-    "concepts": 1043,
-    "observations": 1043,
-    "repos": 373,
-    "terms": 1032
+    "components": 4648,
+    "concepts": 1048,
+    "observations": 1048,
+    "repos": 374,
+    "terms": 1036
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "2createStudio/postcss-sprites",
@@ -360,6 +360,7 @@
     "TooTallNate/ref",
     "topojson/topojson-client",
     "topojson/topojson-server",
+    "tree-sitter/tree-sitter-javascript",
     "tree-sitter/tree-sitter-julia",
     "tree-sitter/tree-sitter-python",
     "tree-sitter/tree-sitter-regex",

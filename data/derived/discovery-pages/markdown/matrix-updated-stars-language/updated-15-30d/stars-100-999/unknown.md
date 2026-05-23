@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 35
-- terms: 119
-- components: 86
-- concepts: 119
-- observations: 119
+- repos: 30
+- terms: 106
+- components: 75
+- concepts: 106
+- observations: 106
 
 ## Static behavior
 
@@ -56,11 +56,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [adoptium/temurin21-binaries](https://github.com/adoptium/temurin21-binaries) | 143 | 2026-04-25T02:09:54Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [bitrise-io/bitrise-steplib](https://github.com/bitrise-io/bitrise-steplib) | 164 | 2026-04-24T07:11:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cisagov/vulnrichment](https://github.com/cisagov/vulnrichment) | 757 | 2026-04-24T05:15:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [eryajf/awesome-stars-eryajf](https://github.com/eryajf/awesome-stars-eryajf) | 175 | 2026-04-23T01:53:58Z | Unknown | Infrastructure/tooling | 3 | 2 | 3 | 3 |
-| [NuGet/docs.microsoft.com-nuget](https://github.com/NuGet/docs.microsoft.com-nuget) | 158 | 2026-04-23T01:13:18Z | Unknown | Docs/knowledge | 1 | 0 | 1 | 1 |
-| [google/agents-cli](https://github.com/google/agents-cli) | 667 | 2026-04-22T22:11:50Z | Unknown | CLI | 7 | 6 | 7 | 7 |
-| [kitknox/rootshell](https://github.com/kitknox/rootshell) | 174 | 2026-04-22T21:07:37Z | Unknown | CLI | 0 | 0 | 0 | 0 |
-| [abhisheknaiidu/abhisheknaiidu](https://github.com/abhisheknaiidu/abhisheknaiidu) | 446 | 2026-04-22T20:39:45Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -70,11 +65,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [triton-inference-server/tensorrtllm_backend](https://github.com/triton-inference-server/tensorrtllm_backend) | 934 | 2026-05-01T20:05:08Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [openwdl/wdl](https://github.com/openwdl/wdl) | 852 | 2026-05-01T23:23:02Z | Unknown | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [cisagov/vulnrichment](https://github.com/cisagov/vulnrichment) | 757 | 2026-04-24T05:15:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [google/agents-cli](https://github.com/google/agents-cli) | 667 | 2026-04-22T22:11:50Z | Unknown | CLI | 7 | 6 | 7 | 7 |
 | [fluxcd/flux2-multi-tenancy](https://github.com/fluxcd/flux2-multi-tenancy) | 595 | 2026-04-30T00:22:13Z | Unknown | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [forcedotcom/cli](https://github.com/forcedotcom/cli) | 553 | 2026-04-29T18:51:06Z | Unknown | CLI | 4 | 13 | 4 | 4 |
 | [openjs-foundation/cross-project-council](https://github.com/openjs-foundation/cross-project-council) | 529 | 2026-04-28T17:03:48Z | Unknown | Infrastructure/tooling | 3 | 9 | 3 | 3 |
-| [abhisheknaiidu/abhisheknaiidu](https://github.com/abhisheknaiidu/abhisheknaiidu) | 446 | 2026-04-22T20:39:45Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [graalvm/mandrel](https://github.com/graalvm/mandrel) | 440 | 2026-04-30T14:04:25Z | Unknown | Infrastructure/tooling | 14 | 7 | 14 | 14 |
 | [yokoffing/Control-D-Config](https://github.com/yokoffing/Control-D-Config) | 434 | 2026-05-01T21:36:39Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [microsoft/openjdk](https://github.com/microsoft/openjdk) | 341 | 2026-05-02T01:38:26Z | Unknown | Infrastructure/tooling | 5 | 1 | 5 | 5 |
@@ -86,10 +79,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [near/NEPs](https://github.com/near/NEPs) | 237 | 2026-05-05T10:18:36Z | Unknown | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [48Club/bsc-snapshots](https://github.com/48Club/bsc-snapshots) | 191 | 2026-04-30T10:41:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [chromedp/cdproto](https://github.com/chromedp/cdproto) | 178 | 2026-04-27T01:31:51Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [eryajf/awesome-stars-eryajf](https://github.com/eryajf/awesome-stars-eryajf) | 175 | 2026-04-23T01:53:58Z | Unknown | Infrastructure/tooling | 3 | 2 | 3 | 3 |
-| [kitknox/rootshell](https://github.com/kitknox/rootshell) | 174 | 2026-04-22T21:07:37Z | Unknown | CLI | 0 | 0 | 0 | 0 |
 | [bitrise-io/bitrise-steplib](https://github.com/bitrise-io/bitrise-steplib) | 164 | 2026-04-24T07:11:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [NuGet/docs.microsoft.com-nuget](https://github.com/NuGet/docs.microsoft.com-nuget) | 158 | 2026-04-23T01:13:18Z | Unknown | Docs/knowledge | 1 | 0 | 1 | 1 |
 | [mdn/mdn-community](https://github.com/mdn/mdn-community) | 153 | 2026-04-28T10:36:43Z | Unknown | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [adoptium/temurin21-binaries](https://github.com/adoptium/temurin21-binaries) | 143 | 2026-04-25T02:09:54Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lxgw/LxgwZhiSong](https://github.com/lxgw/LxgwZhiSong) | 124 | 2026-05-03T17:17:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

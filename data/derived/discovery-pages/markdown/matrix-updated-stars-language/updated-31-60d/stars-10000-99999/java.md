@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Java
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 13
-- terms: 141
-- components: 90
-- concepts: 141
-- observations: 141
+- repos: 14
+- terms: 145
+- components: 96
+- concepts: 145
+- observations: 145
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [clojure/clojure](https://github.com/clojure/clojure) | 10866 | 2026-04-22T19:59:20Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [apache/incubator-seata](https://github.com/apache/incubator-seata) | 25970 | 2026-04-22T08:50:39Z | Java | Infrastructure/tooling | 13 | 14 | 13 | 13 |
 | [alibaba/druid](https://github.com/alibaba/druid) | 28196 | 2026-04-22T06:07:52Z | Java | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [alibaba/nacos](https://github.com/alibaba/nacos) | 32885 | 2026-04-22T05:32:27Z | Java | Infrastructure/tooling | 23 | 14 | 23 | 23 |
@@ -55,5 +56,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bazelbuild/bazel](https://github.com/bazelbuild/bazel) | 25335 | 2026-04-21T11:23:13Z | Java | Infrastructure/tooling | 15 | 13 | 15 | 15 |
 | [ReactiveX/RxAndroid](https://github.com/ReactiveX/RxAndroid) | 20001 | 2026-03-24T13:48:27Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [Konloch/bytecode-viewer](https://github.com/Konloch/bytecode-viewer) | 15500 | 2026-04-02T20:22:54Z | Java | Infrastructure/tooling | 17 | 3 | 17 | 17 |
+| [clojure/clojure](https://github.com/clojure/clojure) | 10866 | 2026-04-22T19:59:20Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [resilience4j/resilience4j](https://github.com/resilience4j/resilience4j) | 10643 | 2026-04-20T15:06:18Z | Java | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [google/auto](https://github.com/google/auto) | 10556 | 2026-04-15T21:25:44Z | Java | Infrastructure/tooling | 0 | 4 | 0 | 0 |

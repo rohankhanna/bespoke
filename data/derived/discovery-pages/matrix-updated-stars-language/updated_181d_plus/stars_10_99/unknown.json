@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 197,
-    "concepts": 321,
-    "observations": 321,
-    "repos": 278,
-    "terms": 321
+    "concepts": 325,
+    "observations": 325,
+    "repos": 280,
+    "terms": 325
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "0nutation/SLMTokBench",
     "0nutation/SpeechAgents",
@@ -55,10 +55,12 @@
     "Azure-Samples/Cognitive-Services-Speech-Devices-SDK",
     "babel/rfcs",
     "bandali/rust-for-c",
+    "BingguangHao/BalanceSFT",
     "BingguangHao/RLFC",
     "bitcoin-core/bitcoin-devwiki",
     "bjl101501/CherryStudio-Claudestyle-dynamic",
     "bjorn3/rustc_codegen_cranelift",
+    "bl-ue/tweakcc-system-prompts",
     "blockprotocol/awesome-blocks",
     "bluejekyll/trust-dns",
     "bokub/prettier-config",

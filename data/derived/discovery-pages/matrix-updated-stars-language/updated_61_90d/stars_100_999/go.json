@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 170,
-    "concepts": 181,
-    "observations": 181,
-    "repos": 33,
-    "terms": 181
+    "components": 167,
+    "concepts": 173,
+    "observations": 173,
+    "repos": 32,
+    "terms": 173
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "alexkohler/prealloc",
     "anacrolix/dht",
@@ -36,7 +36,6 @@
     "kubernetes-sigs/cluster-proportional-autoscaler",
     "kubernetes-sigs/hydrophone",
     "kubernetes-sigs/kubetest2",
-    "maykonlsf/semver-cli",
     "medama-io/medama",
     "mholt/acmez",
     "minio/highwayhash",

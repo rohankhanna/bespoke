@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1179,
-    "concepts": 177,
-    "observations": 177,
-    "repos": 36,
-    "terms": 206
+    "components": 1228,
+    "concepts": 187,
+    "observations": 187,
+    "repos": 37,
+    "terms": 216
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "antfu-collective/vite-ssg",
@@ -44,6 +44,7 @@
     "posva/unplugin-vue-router",
     "snarktank/antfarm",
     "standard-schema/standard-schema",
+    "stephenh/ts-proto",
     "stravu/crystal",
     "t0bst4r/home-assistant-matter-hub",
     "TfTHacker/obsidian42-brat",

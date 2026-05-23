@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 92
-- terms: 203
-- components: 71
-- concepts: 211
-- observations: 213
+- repos: 93
+- terms: 204
+- components: 75
+- concepts: 212
+- observations: 214
 
 ## Static behavior
 
@@ -92,6 +92,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pmer/tla-bin](https://github.com/pmer/tla-bin) | 172 | 2023-04-27T19:04:11Z | Shell | CLI | 4 | 0 | 4 | 4 |
 | [ungoogled-software/ungoogled-chromium-android](https://github.com/ungoogled-software/ungoogled-chromium-android) | 612 | 2023-04-19T22:40:06Z | Shell | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [fsaintjacques/semver-tool](https://github.com/fsaintjacques/semver-tool) | 817 | 2023-02-15T17:40:26Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [jackaudio/jack2-releases](https://github.com/jackaudio/jack2-releases) | 108 | 2023-02-03T01:05:56Z | Shell | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [lukechilds/gifgen](https://github.com/lukechilds/gifgen) | 565 | 2023-01-22T12:21:49Z | Shell | Unknown | 2 | 0 | 2 | 2 |
 | [lxgw/simple-cjk-font-magisk-module-template](https://github.com/lxgw/simple-cjk-font-magisk-module-template) | 249 | 2023-01-20T04:15:48Z | Shell | Template/starter | 3 | 0 | 3 | 3 |
 | [vmware-archive/tgik](https://github.com/vmware-archive/tgik) | 830 | 2023-01-06T21:43:28Z | Shell | Unknown | 0 | 0 | 0 | 0 |
@@ -214,4 +215,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jcmvbkbc/crosstool-NG](https://github.com/jcmvbkbc/crosstool-NG) | 114 | 2024-06-03T17:19:14Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [steeve/cross-compiler](https://github.com/steeve/cross-compiler) | 113 | 2022-09-23T23:02:40Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [koreader/koxtoolchain](https://github.com/koreader/koxtoolchain) | 112 | 2025-05-10T18:47:51Z | Shell | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [jackaudio/jack2-releases](https://github.com/jackaudio/jack2-releases) | 108 | 2023-02-03T01:05:56Z | Shell | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [eclipse-embed-cdt/org.eclipse.epp.packages](https://github.com/eclipse-embed-cdt/org.eclipse.epp.packages) | 105 | 2021-11-07T14:13:19Z | Shell | CLI | 3 | 0 | 3 | 3 |

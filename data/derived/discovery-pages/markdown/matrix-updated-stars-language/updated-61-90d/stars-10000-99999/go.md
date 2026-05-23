@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 5
-- components: 7
-- concepts: 5
-- observations: 5
+- repos: 4
+- terms: 23
+- components: 26
+- concepts: 23
+- observations: 23
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [chromedp/chromedp](https://github.com/chromedp/chromedp) | 13001 | 2026-03-23T21:40:20Z | Go | Infrastructure/tooling | 8 | 2 | 8 | 8 |
+| [kubernetes/ingress-nginx](https://github.com/kubernetes/ingress-nginx) | 19497 | 2026-03-23T16:16:29Z | Go | Infrastructure/tooling | 10 | 17 | 10 | 10 |
 | [uber-go/zap](https://github.com/uber-go/zap) | 24416 | 2026-03-16T16:29:11Z | Go | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [sirupsen/logrus](https://github.com/sirupsen/logrus) | 25711 | 2026-03-09T21:36:22Z | Go | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 
@@ -35,3 +37,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [sirupsen/logrus](https://github.com/sirupsen/logrus) | 25711 | 2026-03-09T21:36:22Z | Go | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [uber-go/zap](https://github.com/uber-go/zap) | 24416 | 2026-03-16T16:29:11Z | Go | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [kubernetes/ingress-nginx](https://github.com/kubernetes/ingress-nginx) | 19497 | 2026-03-23T16:16:29Z | Go | Infrastructure/tooling | 10 | 17 | 10 | 10 |
+| [chromedp/chromedp](https://github.com/chromedp/chromedp) | 13001 | 2026-03-23T21:40:20Z | Go | Infrastructure/tooling | 8 | 2 | 8 | 8 |

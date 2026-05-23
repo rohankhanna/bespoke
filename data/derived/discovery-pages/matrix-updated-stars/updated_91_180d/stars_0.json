@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 260,
-    "concepts": 99,
-    "observations": 99,
-    "repos": 83,
-    "terms": 99
+    "components": 261,
+    "concepts": 104,
+    "observations": 104,
+    "repos": 85,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "1000ch/Sublime-csso",
@@ -27,6 +27,7 @@
     "bgw/bincode",
     "biocypher/biocypher-cookiecutter-template",
     "CADindustries/container",
+    "charlesnicholson/docker-images",
     "cloudaper/compact_enc_det_fork",
     "czk23/YiTu",
     "danielrosehill/Agent-Deploy",
@@ -69,6 +70,7 @@
     "Hitesh-Aggarwal/dotfiles",
     "illusionfield/fourseven-scss",
     "jackielii/qmk_firmware",
+    "jrsoftware/is7z",
     "JuliaBinaryWrappers/Glib_jll.jl",
     "Keats/os_info",
     "kitknox/helix",

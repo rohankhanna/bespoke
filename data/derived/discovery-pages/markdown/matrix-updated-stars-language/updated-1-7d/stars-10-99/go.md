@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 6
-- components: 8
-- concepts: 6
-- observations: 6
+- repos: 4
+- terms: 8
+- components: 16
+- concepts: 8
+- observations: 8
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [joshsymonds/cc-tools](https://github.com/joshsymonds/cc-tools) | 50 | 2026-05-21T19:07:14Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [cloudfoundry/bosh-google-cpi-release](https://github.com/cloudfoundry/bosh-google-cpi-release) | 63 | 2026-05-19T13:34:13Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [compozy/kb](https://github.com/compozy/kb) | 44 | 2026-05-19T03:48:50Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [cloudfoundry/credhub-cli](https://github.com/cloudfoundry/credhub-cli) | 43 | 2026-05-18T13:11:04Z | Go | CLI | 5 | 0 | 5 | 5 |
@@ -35,5 +36,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [cloudfoundry/bosh-google-cpi-release](https://github.com/cloudfoundry/bosh-google-cpi-release) | 63 | 2026-05-19T13:34:13Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [joshsymonds/cc-tools](https://github.com/joshsymonds/cc-tools) | 50 | 2026-05-21T19:07:14Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [compozy/kb](https://github.com/compozy/kb) | 44 | 2026-05-19T03:48:50Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [cloudfoundry/credhub-cli](https://github.com/cloudfoundry/credhub-cli) | 43 | 2026-05-18T13:11:04Z | Go | CLI | 5 | 0 | 5 | 5 |

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 22
-- terms: 126
-- components: 515
-- concepts: 127
-- observations: 127
+- repos: 24
+- terms: 139
+- components: 606
+- concepts: 140
+- observations: 140
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [pmndrs/drei](https://github.com/pmndrs/drei) | 9610 | 2026-03-23T19:31:26Z | JavaScript | Infrastructure/tooling | 7 | 82 | 7 | 7 |
+| [mapbox/delaunator](https://github.com/mapbox/delaunator) | 2589 | 2026-03-23T09:52:11Z | JavaScript | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [node-fetch/node-fetch](https://github.com/node-fetch/node-fetch) | 8858 | 2026-03-21T22:04:39Z | JavaScript | CLI | 12 | 23 | 12 | 12 |
 | [crossbario/autobahn-js](https://github.com/crossbario/autobahn-js) | 1449 | 2026-03-21T11:03:15Z | JavaScript | Infrastructure/tooling | 11 | 18 | 11 | 11 |
 | [projectfluent/fluent](https://github.com/projectfluent/fluent) | 1641 | 2026-03-21T10:28:57Z | JavaScript | Infrastructure/tooling | 12 | 10 | 12 | 12 |
@@ -53,6 +55,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [pmndrs/drei](https://github.com/pmndrs/drei) | 9610 | 2026-03-23T19:31:26Z | JavaScript | Infrastructure/tooling | 7 | 82 | 7 | 7 |
 | [node-fetch/node-fetch](https://github.com/node-fetch/node-fetch) | 8858 | 2026-03-21T22:04:39Z | JavaScript | CLI | 12 | 23 | 12 | 12 |
 | [remarkjs/remark](https://github.com/remarkjs/remark) | 8842 | 2026-02-24T19:08:59Z | JavaScript | Infrastructure/tooling | 4 | 16 | 5 | 5 |
 | [appbaseio/dejavu](https://github.com/appbaseio/dejavu) | 8463 | 2026-02-24T14:48:25Z | JavaScript | Infrastructure/tooling | 15 | 45 | 15 | 15 |
@@ -63,6 +66,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rollup/plugins](https://github.com/rollup/plugins) | 3753 | 2026-03-12T15:49:55Z | JavaScript | Infrastructure/tooling | 7 | 29 | 7 | 7 |
 | [paralleldrive/cuid2](https://github.com/paralleldrive/cuid2) | 3343 | 2026-03-04T21:32:47Z | JavaScript | Infrastructure/tooling | 0 | 21 | 0 | 0 |
 | [nksaraf/vinxi](https://github.com/nksaraf/vinxi) | 2784 | 2026-03-21T06:47:01Z | JavaScript | Infrastructure/tooling | 3 | 14 | 3 | 3 |
+| [mapbox/delaunator](https://github.com/mapbox/delaunator) | 2589 | 2026-03-23T09:52:11Z | JavaScript | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [csstree/csstree](https://github.com/csstree/csstree) | 2096 | 2026-03-05T14:58:51Z | JavaScript | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [cerebral/cerebral](https://github.com/cerebral/cerebral) | 1997 | 2026-03-20T11:04:12Z | JavaScript | Infrastructure/tooling | 13 | 79 | 13 | 13 |
 | [svg-sprite/svg-sprite](https://github.com/svg-sprite/svg-sprite) | 1986 | 2026-02-28T02:34:44Z | JavaScript | Infrastructure/tooling | 9 | 36 | 9 | 9 |

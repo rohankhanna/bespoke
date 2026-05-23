@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 417
-- terms: 1528
-- components: 1260
-- concepts: 1539
-- observations: 1541
+- repos: 418
+- terms: 1531
+- components: 1281
+- concepts: 1542
+- observations: 1544
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [vitalets/github-trending-repos](https://github.com/vitalets/github-trending-repos) | 2927 | 2025-11-23T14:16:02Z | Other | Unknown | 3 | 21 | 3 | 3 |
 | [collectiveidea/audited](https://github.com/collectiveidea/audited) | 3492 | 2025-11-18T19:05:29Z | Other | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [petertriho/nvim-scrollbar](https://github.com/petertriho/nvim-scrollbar) | 1040 | 2025-11-17T11:06:08Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [jashkenas/docco](https://github.com/jashkenas/docco) | 3571 | 2025-11-17T10:31:55Z | Other | Web app | 0 | 5 | 0 | 0 |
@@ -147,7 +148,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stevearc/dressing.nvim](https://github.com/stevearc/dressing.nvim) | 1978 | 2025-02-12T17:34:03Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [EdenEast/nightfox.nvim](https://github.com/EdenEast/nightfox.nvim) | 3976 | 2025-02-09T17:21:50Z | Other | Infrastructure/tooling | 13 | 7 | 13 | 14 |
 | [AckslD/nvim-neoclip.lua](https://github.com/AckslD/nvim-neoclip.lua) | 1128 | 2025-02-09T13:45:59Z | Other | CLI | 2 | 4 | 2 | 2 |
-| [advimman/lama](https://github.com/advimman/lama) | 9971 | 2025-02-05T08:41:52Z | Other | Unknown | 16 | 0 | 16 | 16 |
+| [advimman/lama](https://github.com/advimman/lama) | 9972 | 2025-02-05T08:41:52Z | Other | Unknown | 16 | 0 | 16 | 16 |
 | [YangLing0818/RPG-DiffusionMaster](https://github.com/YangLing0818/RPG-DiffusionMaster) | 1844 | 2025-02-01T13:28:48Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [CanCanCommunity/cancancan](https://github.com/CanCanCommunity/cancancan) | 5672 | 2025-01-27T07:26:12Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) | 4311 | 2025-01-14T16:03:57Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
@@ -190,7 +191,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Gregwar/Image](https://github.com/Gregwar/Image) | 1010 | 2024-09-23T15:02:03Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [xuebinqin/DIS](https://github.com/xuebinqin/DIS) | 2539 | 2024-09-23T06:27:07Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [spullara/mustache.java](https://github.com/spullara/mustache.java) | 1949 | 2024-09-19T23:06:56Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [instantX-research/InstantStyle](https://github.com/instantX-research/InstantStyle) | 2006 | 2024-09-18T09:33:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [instantX-research/InstantStyle](https://github.com/instantX-research/InstantStyle) | 2007 | 2024-09-18T09:33:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [wilson1yan/VideoGPT](https://github.com/wilson1yan/VideoGPT) | 1078 | 2024-09-18T03:33:55Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dovecoteescapee/ByeDPIAndroid](https://github.com/dovecoteescapee/ByeDPIAndroid) | 5267 | 2024-09-05T06:01:40Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [projectkudu/kudu](https://github.com/projectkudu/kudu) | 3145 | 2024-09-04T17:33:18Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -265,7 +266,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DiffEqML/torchdyn](https://github.com/DiffEqML/torchdyn) | 1563 | 2024-05-02T02:44:43Z | Other | Infrastructure/tooling | 13 | 6 | 13 | 13 |
 | [ai-forever/Kandinsky-2](https://github.com/ai-forever/Kandinsky-2) | 2814 | 2024-05-01T17:03:31Z | Other | Model/data | 9 | 0 | 9 | 9 |
 | [IRkernel/IRkernel](https://github.com/IRkernel/IRkernel) | 1693 | 2024-04-30T07:24:08Z | Other | Infrastructure/tooling | 3 | 5 | 3 | 3 |
-| [project-mirai/mirai-api-http](https://github.com/project-mirai/mirai-api-http) | 1665 | 2024-04-24T05:31:09Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [project-mirai/mirai-api-http](https://github.com/project-mirai/mirai-api-http) | 1664 | 2024-04-24T05:31:09Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [ThePrimeagen/.dotfiles](https://github.com/ThePrimeagen/.dotfiles) | 3456 | 2024-04-24T01:43:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/CodeXGLUE](https://github.com/microsoft/CodeXGLUE) | 1817 | 2024-04-23T06:09:50Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [kan-bayashi/ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN) | 1639 | 2024-04-22T02:36:29Z | Other | Infrastructure/tooling | 11 | 4 | 11 | 11 |
@@ -448,7 +449,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [advimman/lama](https://github.com/advimman/lama) | 9971 | 2025-02-05T08:41:52Z | Other | Unknown | 16 | 0 | 16 | 16 |
+| [advimman/lama](https://github.com/advimman/lama) | 9972 | 2025-02-05T08:41:52Z | Other | Unknown | 16 | 0 | 16 | 16 |
 | [daylerees/colour-schemes](https://github.com/daylerees/colour-schemes) | 9298 | 2024-01-08T11:55:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [github/semantic](https://github.com/github/semantic) | 9053 | 2025-04-01T16:36:44Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [thoughtbot/paperclip](https://github.com/thoughtbot/paperclip) | 9015 | 2023-07-13T17:57:58Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -598,6 +599,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DatabaseCleaner/database_cleaner](https://github.com/DatabaseCleaner/database_cleaner) | 2961 | 2025-07-07T18:56:23Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [tpope/vim-abolish](https://github.com/tpope/vim-abolish) | 2943 | 2024-08-07T21:16:02Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dwyl/repo-badges](https://github.com/dwyl/repo-badges) | 2933 | 2024-12-30T16:09:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [vitalets/github-trending-repos](https://github.com/vitalets/github-trending-repos) | 2927 | 2025-11-23T14:16:02Z | Other | Unknown | 3 | 21 | 3 | 3 |
 | [state-spaces/s4](https://github.com/state-spaces/s4) | 2893 | 2024-07-17T17:04:39Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [zju3dv/LoFTR](https://github.com/zju3dv/LoFTR) | 2875 | 2024-05-31T06:54:41Z | Other | Unknown | 2 | 0 | 3 | 3 |
 | [bhauman/lein-figwheel](https://github.com/bhauman/lein-figwheel) | 2874 | 2024-03-26T22:29:38Z | Other | Unknown | 5 | 0 | 5 | 5 |
@@ -683,7 +685,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [garbas/vim-snipmate](https://github.com/garbas/vim-snipmate) | 2020 | 2025-05-14T11:55:17Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [attr-encrypted/attr_encrypted](https://github.com/attr-encrypted/attr_encrypted) | 2017 | 2025-10-12T03:08:39Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [tinghuiz/SfMLearner](https://github.com/tinghuiz/SfMLearner) | 2016 | 2021-10-26T05:58:09Z | Other | Framework | 5 | 0 | 5 | 5 |
-| [instantX-research/InstantStyle](https://github.com/instantX-research/InstantStyle) | 2006 | 2024-09-18T09:33:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [instantX-research/InstantStyle](https://github.com/instantX-research/InstantStyle) | 2007 | 2024-09-18T09:33:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Raimondi/delimitMate](https://github.com/Raimondi/delimitMate) | 2003 | 2024-08-06T06:02:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [botuniverse/onebot](https://github.com/botuniverse/onebot) | 2003 | 2023-07-06T08:42:00Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [folke/neodev.nvim](https://github.com/folke/neodev.nvim) | 2000 | 2024-07-06T10:06:35Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
@@ -740,7 +742,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [efemkay/obsidian-modular-css-layout](https://github.com/efemkay/obsidian-modular-css-layout) | 1693 | 2024-09-01T09:11:48Z | Other | Unknown | 0 | 0 | 1 | 1 |
 | [IRkernel/IRkernel](https://github.com/IRkernel/IRkernel) | 1693 | 2024-04-30T07:24:08Z | Other | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [ErwinM/acts_as_tenant](https://github.com/ErwinM/acts_as_tenant) | 1689 | 2025-04-16T14:18:59Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [project-mirai/mirai-api-http](https://github.com/project-mirai/mirai-api-http) | 1665 | 2024-04-24T05:31:09Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [project-mirai/mirai-api-http](https://github.com/project-mirai/mirai-api-http) | 1664 | 2024-04-24T05:31:09Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [reworkcss/css](https://github.com/reworkcss/css) | 1646 | 2024-04-12T08:01:23Z | Other | Unknown | 0 | 7 | 0 | 0 |
 | [kan-bayashi/ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN) | 1639 | 2024-04-22T02:36:29Z | Other | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [moses-smt/mosesdecoder](https://github.com/moses-smt/mosesdecoder) | 1625 | 2025-03-28T17:01:39Z | Other | Unknown | 0 | 0 | 0 | 0 |

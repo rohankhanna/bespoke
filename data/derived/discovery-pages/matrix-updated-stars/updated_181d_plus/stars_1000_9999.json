@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10394,
-    "concepts": 8903,
-    "observations": 8912,
-    "repos": 2317,
-    "terms": 8777
+    "components": 10418,
+    "concepts": 8938,
+    "observations": 8947,
+    "repos": 2320,
+    "terms": 8812
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -450,7 +450,6 @@
     "crossbario/autobahn-testsuite",
     "crownpku/Awesome-Chinese-NLP",
     "cruft/cruft",
-    "CSAILVision/gandissect",
     "CSAILVision/places365",
     "CSAILVision/semantic-segmentation-pytorch",
     "css/csso",
@@ -1037,6 +1036,7 @@
     "JakeWharton/ThreeTenABP",
     "jalammar/ecco",
     "jameslittle230/stork",
+    "jameslyons/python_speech_features",
     "JaneaSystems/nodejs-mobile",
     "jankovicsandras/imagetracerjs",
     "jannerm/diffuser",
@@ -1216,6 +1216,7 @@
     "LiheYoung/Depth-Anything",
     "Linaom1214/TensorRT-For-YOLO-Series",
     "Linaqruf/kohya-trainer",
+    "linto-ai/whisper-timestamped",
     "LinusU/node-appdmg",
     "Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB",
     "Liu-xiandong/How_to_optimize_in_GPU",
@@ -1688,6 +1689,7 @@
     "PixArt-alpha/PixArt-alpha",
     "PixArt-alpha/PixArt-sigma",
     "pixielabs/cavy",
+    "PKU-Alignment/safe-rlhf",
     "PKU-YuanGroup/MoE-LLaVA",
     "PKU-YuanGroup/Video-LLaVA",
     "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
@@ -2187,6 +2189,7 @@
     "vislyhq/stretch",
     "Visual-Agent/DeepEyes",
     "vit-vit/CTPL",
+    "vitalets/github-trending-repos",
     "vitalets/react-native-extended-stylesheet",
     "vmihailenco/msgpack",
     "vmihailenco/taskq",

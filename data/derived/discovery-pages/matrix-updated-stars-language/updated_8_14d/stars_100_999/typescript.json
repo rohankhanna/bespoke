@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 771,
-    "concepts": 136,
-    "observations": 136,
-    "repos": 16,
-    "terms": 134
+    "components": 725,
+    "concepts": 130,
+    "observations": 130,
+    "repos": 15,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "apify/apify-cli",
@@ -28,7 +28,6 @@
     "RiDDiX/home-assistant-matter-hub",
     "serversideup/webext-bridge",
     "skilld-dev/skilld",
-    "xdebug/vscode-php-debug",
     "Zoo-Code-Org/Zoo-Code"
   ]
 }

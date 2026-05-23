@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 439,
-    "concepts": 465,
-    "observations": 467,
-    "repos": 98,
-    "terms": 468
+    "components": 424,
+    "concepts": 470,
+    "observations": 472,
+    "repos": 99,
+    "terms": 473
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
+    "3rd/image.nvim",
     "Alexander-Miller/treemacs",
     "amebalabs/TRex",
     "ankane/dexter",
@@ -60,6 +61,7 @@
     "haskell/stylish-haskell",
     "hecomi/uLipSync",
     "hoshsadiq/adblock-nocoin-list",
+    "IDEA-Research/Rex-Omni",
     "jekip/naive-ui-admin",
     "joaotavora/eglot",
     "justinmk/vim-sneak",
@@ -107,7 +109,6 @@
     "tris203/precognition.nvim",
     "VectorSpaceLab/OmniGen",
     "Vigemus/iron.nvim",
-    "vitalets/github-trending-repos",
     "weichsel/ZIPFoundation",
     "WICG/webcomponents",
     "woct0rdho/triton-windows",

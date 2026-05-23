@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 88
-- terms: 262
-- components: 383
-- concepts: 267
-- observations: 268
+- repos: 91
+- terms: 276
+- components: 393
+- concepts: 281
+- observations: 282
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [oap-project/oap-mllib](https://github.com/oap-project/oap-mllib) | 22 | 2026-03-24T00:41:48Z | Other | Infrastructure/tooling | 3 | 5 | 3 | 3 |
+| [am-kantox/md](https://github.com/am-kantox/md) | 87 | 2026-03-23T14:36:04Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [adinhodovic/argo-cd-mixin](https://github.com/adinhodovic/argo-cd-mixin) | 93 | 2026-03-23T13:03:29Z | Other | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [kalbasit/nur-packages](https://github.com/kalbasit/nur-packages) | 14 | 2026-03-23T05:52:23Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [0xC0000054/pdn-ddsfiletype-plus](https://github.com/0xC0000054/pdn-ddsfiletype-plus) | 89 | 2026-03-22T23:48:30Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [SciML/sciml.ai](https://github.com/SciML/sciml.ai) | 75 | 2026-03-21T12:34:46Z | Other | Infrastructure/tooling | 11 | 4 | 11 | 11 |
@@ -122,10 +125,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DragonFlyBSD/DPorts](https://github.com/DragonFlyBSD/DPorts) | 94 | 2026-03-13T23:31:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [IQVIA-ML/LightGBM.jl](https://github.com/IQVIA-ML/LightGBM.jl) | 94 | 2026-03-10T12:32:20Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [andys8/git-brunch](https://github.com/andys8/git-brunch) | 94 | 2026-02-28T14:27:03Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |
+| [adinhodovic/argo-cd-mixin](https://github.com/adinhodovic/argo-cd-mixin) | 93 | 2026-03-23T13:03:29Z | Other | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [dbuenzli/logs](https://github.com/dbuenzli/logs) | 92 | 2026-03-10T20:18:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [revfactory/claude-code-harness](https://github.com/revfactory/claude-code-harness) | 90 | 2026-03-06T01:10:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [benomahony/oil-git.nvim](https://github.com/benomahony/oil-git.nvim) | 90 | 2026-03-02T13:16:03Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [0xC0000054/pdn-ddsfiletype-plus](https://github.com/0xC0000054/pdn-ddsfiletype-plus) | 89 | 2026-03-22T23:48:30Z | Other | Unknown | 5 | 0 | 5 | 5 |
+| [am-kantox/md](https://github.com/am-kantox/md) | 87 | 2026-03-23T14:36:04Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [JuliaGtk/Gtk4.jl](https://github.com/JuliaGtk/Gtk4.jl) | 87 | 2026-03-05T12:03:53Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [mfussenegger/nlua](https://github.com/mfussenegger/nlua) | 83 | 2026-03-04T12:15:06Z | Other | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [rust-lang/crates-build-env](https://github.com/rust-lang/crates-build-env) | 78 | 2026-03-06T15:53:56Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -186,6 +191,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jfmengels/elm-review-unused](https://github.com/jfmengels/elm-review-unused) | 25 | 2026-03-05T16:34:00Z | Other | Infrastructure/tooling | 1 | 11 | 1 | 1 |
 | [NitroDevs/CSharpFunctionalExtensions.FluentAssertions](https://github.com/NitroDevs/CSharpFunctionalExtensions.FluentAssertions) | 25 | 2026-03-01T09:43:45Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [Mobile-Artificial-Intelligence/maise](https://github.com/Mobile-Artificial-Intelligence/maise) | 24 | 2026-03-09T05:39:38Z | Other | Infrastructure/tooling | 13 | 6 | 13 | 13 |
+| [oap-project/oap-mllib](https://github.com/oap-project/oap-mllib) | 22 | 2026-03-24T00:41:48Z | Other | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [babashka/sci.configs](https://github.com/babashka/sci.configs) | 22 | 2026-03-10T11:14:56Z | Other | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [Embarcadero/PythonPackages4Delphi](https://github.com/Embarcadero/PythonPackages4Delphi) | 22 | 2026-02-27T10:30:41Z | Other | Library | 0 | 0 | 0 | 0 |
 | [dwyl/content](https://github.com/dwyl/content) | 21 | 2026-03-11T08:59:37Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |

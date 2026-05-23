@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 41
+- repos: 40
 - terms: 253
-- components: 1116
+- components: 1114
 - concepts: 242
 - observations: 243
 
@@ -66,7 +66,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yandeu/five-server](https://github.com/yandeu/five-server) | 220 | 2026-02-25T18:19:32Z | TypeScript | Infrastructure/tooling | 1 | 36 | 1 | 1 |
 | [antfu/eslint-plugin-command](https://github.com/antfu/eslint-plugin-command) | 369 | 2026-02-25T04:52:02Z | TypeScript | Infrastructure/tooling | 3 | 32 | 3 | 3 |
 | [kamranahmedse/claude-run](https://github.com/kamranahmedse/claude-run) | 586 | 2026-02-23T19:14:04Z | TypeScript | Web app | 0 | 24 | 0 | 0 |
-| [janwilmake/openapi-mcp-server](https://github.com/janwilmake/openapi-mcp-server) | 889 | 2026-02-21T12:49:21Z | TypeScript | Service/API | 0 | 2 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -74,7 +73,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [antfu/changelogithub](https://github.com/antfu/changelogithub) | 926 | 2026-03-03T04:22:27Z | TypeScript | Infrastructure/tooling | 4 | 23 | 4 | 5 |
 | [antfu-collective/bumpp](https://github.com/antfu-collective/bumpp) | 924 | 2026-03-16T06:15:05Z | TypeScript | CLI | 1 | 24 | 1 | 1 |
-| [janwilmake/openapi-mcp-server](https://github.com/janwilmake/openapi-mcp-server) | 889 | 2026-02-21T12:49:21Z | TypeScript | Service/API | 0 | 2 | 0 | 0 |
 | [graphql-hive/graphql-eslint](https://github.com/graphql-hive/graphql-eslint) | 835 | 2026-03-18T17:19:45Z | TypeScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |
 | [import-js/eslint-import-resolver-typescript](https://github.com/import-js/eslint-import-resolver-typescript) | 821 | 2026-03-01T00:39:06Z | TypeScript | Infrastructure/tooling | 7 | 47 | 7 | 7 |
 | [windingwind/zotero-plugin-template](https://github.com/windingwind/zotero-plugin-template) | 817 | 2026-03-09T23:53:42Z | TypeScript | Infrastructure/tooling | 8 | 16 | 8 | 8 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 270,
-    "concepts": 221,
-    "observations": 221,
-    "repos": 55,
-    "terms": 221
+    "components": 311,
+    "concepts": 280,
+    "observations": 280,
+    "repos": 60,
+    "terms": 280
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
+    "ad-si/FlatCV",
     "ada-url/ada-python",
     "ada-url/goada",
     "AFD-Illinois/iharm3d",
+    "AFD-Illinois/kharma",
     "agl/jbig2enc",
     "aifoundry-org/et-platform",
     "AIWintermuteAI/whispercpp",
@@ -26,10 +28,11 @@
     "barak/minidjvu",
     "bartp5/libtexprintf",
     "BirolLab/arcs",
+    "BrianPugh/tamp",
+    "bufbuild/protovalidate-cc",
     "chusitoo/flatbush",
     "clouren/SPEX",
     "cpmech/tritet",
-    "CROSS-signature/CROSS-implementation",
     "DavidKinder/Windows-Inform7",
     "embeddedartistry/libcpp",
     "f32c/tools",
@@ -52,10 +55,12 @@
     "lxqt/liblxqt",
     "lxqt/libqtxdg",
     "marciogranzotto/clawd-tank",
+    "Mbed-TLS/TF-PSA-Crypto",
     "midi2-dev/ni-midi2",
     "mitsuba-renderer/nanothread",
     "mxmlnkn/indexed_bzip2",
     "mybigday/llama.node",
+    "narugit/smctemp",
     "nvictus/pybbi",
     "nx10/unigd",
     "openucx/xpmem",

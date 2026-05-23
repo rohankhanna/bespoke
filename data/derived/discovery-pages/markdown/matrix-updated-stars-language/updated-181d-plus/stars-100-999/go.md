@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 183
-- terms: 740
-- components: 545
-- concepts: 754
-- observations: 754
+- repos: 184
+- terms: 749
+- components: 552
+- concepts: 763
+- observations: 763
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [liquidmetal-dev/cluster-api-provider-microvm](https://github.com/liquidmetal-dev/cluster-api-provider-microvm) | 145 | 2025-11-24T03:38:20Z | Go | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [fumiama/RVC-Models-Downloader](https://github.com/fumiama/RVC-Models-Downloader) | 143 | 2025-11-20T09:06:09Z | Go | CLI | 12 | 3 | 14 | 14 |
 | [spacemeshos/go-spacemesh](https://github.com/spacemeshos/go-spacemesh) | 777 | 2025-11-20T02:14:21Z | Go | Infrastructure/tooling | 14 | 16 | 14 | 14 |
 | [DaoCloud/crproxy](https://github.com/DaoCloud/crproxy) | 547 | 2025-11-20T01:04:47Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -364,6 +365,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vulkan-go/demos](https://github.com/vulkan-go/demos) | 156 | 2023-01-26T08:02:40Z | Go | Service/API | 5 | 0 | 5 | 5 |
 | [lesismal/go-websocket-benchmark](https://github.com/lesismal/go-websocket-benchmark) | 152 | 2025-05-22T11:11:45Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [urjitbhatia/cozgo](https://github.com/urjitbhatia/cozgo) | 146 | 2024-07-03T22:45:55Z | Go | Unknown | 4 | 0 | 4 | 4 |
+| [liquidmetal-dev/cluster-api-provider-microvm](https://github.com/liquidmetal-dev/cluster-api-provider-microvm) | 145 | 2025-11-24T03:38:20Z | Go | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [fumiama/RVC-Models-Downloader](https://github.com/fumiama/RVC-Models-Downloader) | 143 | 2025-11-20T09:06:09Z | Go | CLI | 12 | 3 | 14 | 14 |
 | [albrow/forms](https://github.com/albrow/forms) | 142 | 2022-12-16T03:14:57Z | Go | Library | 0 | 0 | 0 | 0 |
 | [albertito/dnss](https://github.com/albertito/dnss) | 140 | 2025-06-08T19:09:23Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |

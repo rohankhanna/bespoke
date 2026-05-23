@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 127,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 5,
-    "terms": 33
+    "components": 152,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 6,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "pugjs/pug",
     "sql-js/sql.js",
     "typicode/husky",
+    "typicode/json-server",
     "videojs/video.js",
     "websockets/ws"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 58,
-    "observations": 58,
-    "repos": 84,
-    "terms": 67
+    "components": 56,
+    "concepts": 63,
+    "observations": 63,
+    "repos": 89,
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -22,8 +22,12 @@
     "begmyratb/floweye-yyyxxx.cc",
     "biparous-blaxploitation156/ciphermind",
     "cachix/nix-bindings-rust",
+    "cachix/serde-envfile",
     "carloandremoreyra/xx",
     "chafingdishposition355/go-skills",
+    "conda-forge/conda-lock-feedstock",
+    "conda-forge/python-isal-feedstock",
+    "conda-forge/pytomlpp-feedstock",
     "csjgg/ags-cookbook",
     "Culmus/hebrew-fonts",
     "damacol/ai-hub",
@@ -83,6 +87,7 @@
     "danielrosehill/Research-Tools-And-Templates-Index",
     "danielrosehill/Skills-Repos-Index",
     "danielrosehill/Speech-And-ASR-Evaluations",
+    "Dustinpro/Dustinpro",
     "foundersieve687/skill-gateway",
     "kdn36/arrow-rs-object-store",
     "lakekeeper/nats.rs",

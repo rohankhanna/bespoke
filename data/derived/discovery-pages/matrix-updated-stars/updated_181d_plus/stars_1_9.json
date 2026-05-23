@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5378,
-    "concepts": 1923,
-    "observations": 1925,
-    "repos": 1356,
-    "terms": 1918
+    "components": 5391,
+    "concepts": 1930,
+    "observations": 1932,
+    "repos": 1359,
+    "terms": 1925
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -195,6 +195,7 @@
     "asonnleitner/highwayhash-wasm",
     "astronomyk/SimCADO",
     "atom-community/autocomplete-plus",
+    "atonyxu/Multi-langs_Dictionary",
     "atsign-foundation/at_app",
     "atsushieno/android-native-audio-builders",
     "atsushieno/libremidi-javacpp",
@@ -383,6 +384,7 @@
     "cognitiveailab/t5-scienceworld",
     "coin-or-tools/BuildTools",
     "coin-or-tools/ThirdParty-ASL",
+    "colstone/Multi-langs_Dictionary",
     "comit-network/monero-rs",
     "compio-rs/compio-logo",
     "conda-incubator/conda-suggest",
@@ -595,7 +597,6 @@
     "fonts-archive/MaruBuri",
     "Force1ess/python-pptx",
     "forerosantiago/irc-translate-bot",
-    "formtastic/formtastic_i18n",
     "franziskuskiefer/cose-rust",
     "fugue-project/fugue-jupyter",
     "funcmike/swift-coz",
@@ -975,6 +976,7 @@
     "meteoswiss-mdr/pyart",
     "meteoswiss/pyrad-examples",
     "mhdawson/node-sqlite3",
+    "mhn226/espnet",
     "MicahParks/jcp",
     "Michaeljurado42/SPANDEX",
     "micromatch/expand-braces",
@@ -1082,6 +1084,7 @@
     "paper-trail-gem/paper_trail-sinatra",
     "patmyron/cfn-lint-online",
     "paulbutcher/clj-migratus",
+    "pe-trik/transformers",
     "pedromtcosta/fluentassertions.csharpfunctionalextensions",
     "peergos/nabu-chat",
     "pepsryuu/create-nollup-app",
@@ -1289,7 +1292,7 @@
     "travis-ci/travis-packer-build",
     "travis-infrastructure/packer-build",
     "triton-inference-server/contrib",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "turbofish-org/abci2",
     "turner/swt2sw",
     "UBC-NLP/Cheetah",

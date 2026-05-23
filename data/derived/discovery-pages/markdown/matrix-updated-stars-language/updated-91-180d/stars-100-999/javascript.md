@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 47
-- terms: 115
-- components: 820
-- concepts: 115
-- observations: 115
+- terms: 117
+- components: 852
+- concepts: 117
+- observations: 117
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [React9k/react-timeline-9000](https://github.com/React9k/react-timeline-9000) | 293 | 2026-02-21T23:19:06Z | JavaScript | Infrastructure/tooling | 7 | 49 | 7 | 7 |
 | [sindresorhus/multimatch](https://github.com/sindresorhus/multimatch) | 306 | 2026-02-20T10:27:53Z | JavaScript | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [prebuild/prebuild-install](https://github.com/prebuild/prebuild-install) | 115 | 2026-02-19T18:18:57Z | JavaScript | CLI | 5 | 22 | 5 | 5 |
 | [Mario4272/ag_bridge](https://github.com/Mario4272/ag_bridge) | 111 | 2026-02-17T18:38:00Z | JavaScript | Infrastructure/tooling | 0 | 9 | 0 | 0 |
@@ -72,7 +73,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [restify/errors](https://github.com/restify/errors) | 145 | 2025-11-25T21:17:12Z | JavaScript | Infrastructure/tooling | 0 | 17 | 0 | 0 |
 | [bramstein/url-template](https://github.com/bramstein/url-template) | 194 | 2025-11-25T10:59:46Z | JavaScript | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [charmbracelet/tree-sitter-vhs](https://github.com/charmbracelet/tree-sitter-vhs) | 116 | 2025-11-24T11:43:55Z | JavaScript | Infrastructure/tooling | 2 | 10 | 2 | 2 |
-| [tree-sitter/tree-sitter-javascript](https://github.com/tree-sitter/tree-sitter-javascript) | 473 | 2025-11-24T01:08:30Z | JavaScript | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -88,7 +88,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stsquad/emacs_chrome](https://github.com/stsquad/emacs_chrome) | 538 | 2026-01-05T09:07:01Z | JavaScript | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [lit/lit-element-starter-ts](https://github.com/lit/lit-element-starter-ts) | 535 | 2025-12-23T21:58:37Z | JavaScript | Unknown | 0 | 22 | 0 | 0 |
 | [sveltejs/rollup-plugin-svelte](https://github.com/sveltejs/rollup-plugin-svelte) | 514 | 2025-12-02T21:45:54Z | JavaScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
-| [tree-sitter/tree-sitter-javascript](https://github.com/tree-sitter/tree-sitter-javascript) | 473 | 2025-11-24T01:08:30Z | JavaScript | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [RJWadley/stylelint-no-unsupported-browser-features](https://github.com/RJWadley/stylelint-no-unsupported-browser-features) | 451 | 2026-02-03T18:34:40Z | JavaScript | Infrastructure/tooling | 6 | 28 | 6 | 6 |
 | [microsoft/botbuilder-tools](https://github.com/microsoft/botbuilder-tools) | 446 | 2025-12-03T00:43:38Z | JavaScript | Web app | 8 | 21 | 8 | 8 |
 | [prebuild/prebuild](https://github.com/prebuild/prebuild) | 444 | 2026-02-07T12:12:56Z | JavaScript | CLI | 4 | 25 | 4 | 4 |
@@ -102,6 +101,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Level/awesome](https://github.com/Level/awesome) | 315 | 2026-01-02T17:51:12Z | JavaScript | Infrastructure/tooling | 7 | 21 | 7 | 7 |
 | [Meteor-Community-Packages/meteor-scss](https://github.com/Meteor-Community-Packages/meteor-scss) | 310 | 2025-12-15T13:27:57Z | JavaScript | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [sindresorhus/multimatch](https://github.com/sindresorhus/multimatch) | 306 | 2026-02-20T10:27:53Z | JavaScript | Infrastructure/tooling | 0 | 8 | 0 | 0 |
+| [React9k/react-timeline-9000](https://github.com/React9k/react-timeline-9000) | 293 | 2026-02-21T23:19:06Z | JavaScript | Infrastructure/tooling | 7 | 49 | 7 | 7 |
 | [nodejs/abi-stable-node](https://github.com/nodejs/abi-stable-node) | 248 | 2025-12-05T15:13:25Z | JavaScript | Service/API | 2 | 0 | 2 | 2 |
 | [faceyspacey/universal-demo](https://github.com/faceyspacey/universal-demo) | 230 | 2026-02-16T17:43:26Z | JavaScript | Web app | 0 | 59 | 0 | 0 |
 | [raywo/MMM-NowPlayingOnSpotify](https://github.com/raywo/MMM-NowPlayingOnSpotify) | 214 | 2026-02-13T15:49:04Z | JavaScript | Unknown | 0 | 8 | 0 | 0 |

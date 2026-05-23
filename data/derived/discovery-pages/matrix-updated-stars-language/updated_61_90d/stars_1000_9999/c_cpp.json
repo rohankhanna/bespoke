@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 124,
-    "concepts": 229,
-    "observations": 230,
-    "repos": 44,
-    "terms": 223
+    "components": 154,
+    "concepts": 262,
+    "observations": 263,
+    "repos": 47,
+    "terms": 256
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "akheron/jansson",
     "alembic/alembic",
     "Alex313031/thorium",
     "AlibabaResearch/AdvancedLiterateMachinery",
+    "apache/singa",
     "arrayfire/arrayfire",
+    "ashvardanian/StringZilla",
     "bblanchon/ArduinoJson",
     "bugaevc/wl-clipboard",
     "Chlumsky/msdf-atlas-gen",
@@ -51,6 +53,7 @@
     "snapcast/snapcast",
     "sqlcipher/sqlcipher",
     "stevengj/nlopt",
+    "TechEmpower/FrameworkBenchmarks",
     "TheAssassin/AppImageLauncher",
     "tzapu/WiFiManager",
     "void-linux/xbps",

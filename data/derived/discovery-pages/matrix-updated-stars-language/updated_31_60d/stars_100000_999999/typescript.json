@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 249,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 3,
-    "terms": 24
+    "components": 589,
+    "concepts": 52,
+    "observations": 53,
+    "repos": 6,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
+    "angular/angular",
     "google-gemini/gemini-cli",
+    "langgenius/dify",
     "microsoft/typescript",
+    "microsoft/vscode",
     "openclaw/openclaw"
   ]
 }

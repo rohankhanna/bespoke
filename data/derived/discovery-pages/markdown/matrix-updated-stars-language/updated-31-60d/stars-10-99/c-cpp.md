@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 55
-- terms: 221
-- components: 270
-- concepts: 221
-- observations: 221
+- repos: 60
+- terms: 280
+- components: 311
+- concepts: 280
+- observations: 280
 
 ## Static behavior
 
@@ -26,6 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [BrianPugh/tamp](https://github.com/BrianPugh/tamp) | 65 | 2026-04-23T01:48:02Z | C/C++ | Infrastructure/tooling | 15 | 19 | 15 | 15 |
+| [AFD-Illinois/kharma](https://github.com/AFD-Illinois/kharma) | 58 | 2026-04-22T23:18:58Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
+| [narugit/smctemp](https://github.com/narugit/smctemp) | 98 | 2026-04-22T23:12:00Z | C/C++ | CLI | 14 | 4 | 14 | 14 |
+| [ad-si/FlatCV](https://github.com/ad-si/FlatCV) | 47 | 2026-04-22T19:25:38Z | C/C++ | CLI | 14 | 7 | 14 | 14 |
+| [Mbed-TLS/TF-PSA-Crypto](https://github.com/Mbed-TLS/TF-PSA-Crypto) | 45 | 2026-04-22T19:09:15Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
+| [bufbuild/protovalidate-cc](https://github.com/bufbuild/protovalidate-cc) | 25 | 2026-04-22T11:47:59Z | C/C++ | Infrastructure/tooling | 11 | 11 | 11 | 11 |
 | [ICRAR/crc32c](https://github.com/ICRAR/crc32c) | 48 | 2026-04-22T04:15:39Z | C/C++ | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [apache/pulsar-client-cpp](https://github.com/apache/pulsar-client-cpp) | 69 | 2026-04-22T03:19:15Z | C/C++ | CLI | 9 | 11 | 9 | 9 |
 | [openucx/xpmem](https://github.com/openucx/xpmem) | 23 | 2026-04-21T10:15:45Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
@@ -80,12 +86,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ada-url/goada](https://github.com/ada-url/goada) | 60 | 2026-03-26T18:13:28Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [bartp5/libtexprintf](https://github.com/bartp5/libtexprintf) | 71 | 2026-03-24T22:35:22Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [midi2-dev/ni-midi2](https://github.com/midi2-dev/ni-midi2) | 57 | 2026-03-24T11:22:34Z | C/C++ | Infrastructure/tooling | 6 | 2 | 6 | 6 |
-| [CROSS-signature/CROSS-implementation](https://github.com/CROSS-signature/CROSS-implementation) | 13 | 2026-03-23T17:42:20Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [narugit/smctemp](https://github.com/narugit/smctemp) | 98 | 2026-04-22T23:12:00Z | C/C++ | CLI | 14 | 4 | 14 | 14 |
 | [Level/classic-level](https://github.com/Level/classic-level) | 98 | 2026-04-01T04:04:51Z | C/C++ | Infrastructure/tooling | 7 | 30 | 7 | 7 |
 | [embeddedartistry/libcpp](https://github.com/embeddedartistry/libcpp) | 96 | 2026-04-12T20:02:02Z | C/C++ | Library | 7 | 0 | 7 | 7 |
 | [BirolLab/arcs](https://github.com/BirolLab/arcs) | 95 | 2026-04-01T17:56:45Z | C/C++ | Infrastructure/tooling | 11 | 1 | 12 | 12 |
@@ -108,16 +114,20 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apache/pulsar-client-cpp](https://github.com/apache/pulsar-client-cpp) | 69 | 2026-04-22T03:19:15Z | C/C++ | CLI | 9 | 11 | 9 | 9 |
 | [lxqt/liblxqt](https://github.com/lxqt/liblxqt) | 69 | 2026-04-20T07:16:03Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [ada-url/ada-python](https://github.com/ada-url/ada-python) | 67 | 2026-04-09T20:21:49Z | C/C++ | Infrastructure/tooling | 4 | 8 | 4 | 4 |
+| [BrianPugh/tamp](https://github.com/BrianPugh/tamp) | 65 | 2026-04-23T01:48:02Z | C/C++ | Infrastructure/tooling | 15 | 19 | 15 | 15 |
 | [go-skynet/go-ggml-transformers.cpp](https://github.com/go-skynet/go-ggml-transformers.cpp) | 65 | 2026-04-07T13:51:50Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [AIWintermuteAI/whispercpp](https://github.com/AIWintermuteAI/whispercpp) | 64 | 2026-04-01T13:01:02Z | C/C++ | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [agl/jbig2enc](https://github.com/agl/jbig2enc) | 61 | 2026-04-21T08:45:09Z | C/C++ | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [yquake2/ref_vk](https://github.com/yquake2/ref_vk) | 60 | 2026-04-18T15:17:43Z | C/C++ | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [marciogranzotto/clawd-tank](https://github.com/marciogranzotto/clawd-tank) | 60 | 2026-04-17T13:36:43Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [ada-url/goada](https://github.com/ada-url/goada) | 60 | 2026-03-26T18:13:28Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [AFD-Illinois/kharma](https://github.com/AFD-Illinois/kharma) | 58 | 2026-04-22T23:18:58Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [midi2-dev/ni-midi2](https://github.com/midi2-dev/ni-midi2) | 57 | 2026-03-24T11:22:34Z | C/C++ | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [grain-lang/binaryen.ml](https://github.com/grain-lang/binaryen.ml) | 52 | 2026-04-08T23:22:15Z | C/C++ | Infrastructure/tooling | 7 | 13 | 7 | 7 |
 | [ICRAR/crc32c](https://github.com/ICRAR/crc32c) | 48 | 2026-04-22T04:15:39Z | C/C++ | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [GaoYusong/llm.cpp](https://github.com/GaoYusong/llm.cpp) | 48 | 2026-04-07T08:43:15Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [ad-si/FlatCV](https://github.com/ad-si/FlatCV) | 47 | 2026-04-22T19:25:38Z | C/C++ | CLI | 14 | 7 | 14 | 14 |
+| [Mbed-TLS/TF-PSA-Crypto](https://github.com/Mbed-TLS/TF-PSA-Crypto) | 45 | 2026-04-22T19:09:15Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [fcambus/bdf2sfd](https://github.com/fcambus/bdf2sfd) | 41 | 2026-04-10T13:35:59Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [galaxyproject/KegAlign](https://github.com/galaxyproject/KegAlign) | 40 | 2026-03-27T09:08:00Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [aifoundry-org/et-platform](https://github.com/aifoundry-org/et-platform) | 39 | 2026-04-09T14:37:22Z | C/C++ | Infrastructure/tooling | 0 | 6 | 0 | 0 |
@@ -125,6 +135,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nvictus/pybbi](https://github.com/nvictus/pybbi) | 36 | 2026-04-06T01:15:35Z | C/C++ | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [liangshengyong/lanwan](https://github.com/liangshengyong/LanWan) | 29 | 2026-04-19T13:40:33Z | C/C++ | CLI | 2 | 2 | 0 | 0 |
 | [nx10/unigd](https://github.com/nx10/unigd) | 28 | 2026-04-20T16:43:10Z | C/C++ | Infrastructure/tooling | 6 | 15 | 6 | 6 |
+| [bufbuild/protovalidate-cc](https://github.com/bufbuild/protovalidate-cc) | 25 | 2026-04-22T11:47:59Z | C/C++ | Infrastructure/tooling | 11 | 11 | 11 | 11 |
 | [f32c/tools](https://github.com/f32c/tools) | 25 | 2026-04-20T11:19:32Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [openucx/xpmem](https://github.com/openucx/xpmem) | 23 | 2026-04-21T10:15:45Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [chusitoo/flatbush](https://github.com/chusitoo/flatbush) | 23 | 2026-04-08T01:41:10Z | C/C++ | Infrastructure/tooling | 13 | 5 | 13 | 13 |
@@ -138,6 +149,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [clouren/SPEX](https://github.com/clouren/SPEX) | 15 | 2026-04-08T18:45:01Z | C/C++ | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [barak/minidjvu](https://github.com/barak/minidjvu) | 13 | 2026-04-14T21:03:26Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ankane/stl-cpp](https://github.com/ankane/stl-cpp) | 13 | 2026-04-05T20:35:57Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [CROSS-signature/CROSS-implementation](https://github.com/CROSS-signature/CROSS-implementation) | 13 | 2026-03-23T17:42:20Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [fabmax/PhysX](https://github.com/fabmax/PhysX) | 11 | 2026-04-15T19:51:26Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [walbourn/directxtextest](https://github.com/walbourn/directxtextest) | 10 | 2026-04-20T18:20:06Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |

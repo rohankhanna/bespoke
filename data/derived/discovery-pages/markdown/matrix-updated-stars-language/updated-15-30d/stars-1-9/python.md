@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 29
-- terms: 94
-- components: 144
-- concepts: 94
-- observations: 94
+- repos: 26
+- terms: 87
+- components: 132
+- concepts: 87
+- observations: 87
 
 ## Static behavior
 
@@ -52,9 +52,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [conda-forge/threadpoolctl-feedstock](https://github.com/conda-forge/threadpoolctl-feedstock) | 1 | 2026-04-24T03:50:03Z | Python | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [danielrosehill/LLM-Council-Template](https://github.com/danielrosehill/LLM-Council-Template) | 2 | 2026-04-23T10:28:21Z | Python | Template/starter | 0 | 0 | 0 | 0 |
 | [5sControl/5s-backend](https://github.com/5sControl/5s-backend) | 2 | 2026-04-23T07:54:59Z | Python | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [arielagor/jetbrains-mono-hebrew](https://github.com/arielagor/jetbrains-mono-hebrew) | 1 | 2026-04-22T20:14:06Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [ModelCloud/Defuser](https://github.com/ModelCloud/Defuser) | 2 | 2026-04-22T16:37:44Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
-| [ModelCloud/LogBar](https://github.com/ModelCloud/LogBar) | 8 | 2026-04-22T15:12:39Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -67,7 +64,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [plone/cookieplone-templates](https://github.com/plone/cookieplone-templates) | 9 | 2026-04-27T11:10:47Z | Python | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [zopefoundation/meta](https://github.com/zopefoundation/meta) | 8 | 2026-04-30T06:47:18Z | Python | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [ParisNeo/lollms_client](https://github.com/ParisNeo/lollms_client) | 8 | 2026-04-28T07:44:03Z | Python | CLI | 0 | 0 | 0 | 0 |
-| [ModelCloud/LogBar](https://github.com/ModelCloud/LogBar) | 8 | 2026-04-22T15:12:39Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [usdot-fhwa-stol/carma-config](https://github.com/usdot-fhwa-stol/carma-config) | 5 | 2026-04-30T18:18:33Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [atlanhq/atlan-sample-apps](https://github.com/atlanhq/atlan-sample-apps) | 5 | 2026-04-28T16:42:18Z | Python | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [TJC-LP/sanzaru](https://github.com/TJC-LP/sanzaru) | 5 | 2026-04-25T19:24:00Z | Python | Infrastructure/tooling | 3 | 7 | 3 | 3 |
@@ -79,7 +75,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [triton-inference-server/TensorRT-LLM](https://github.com/triton-inference-server/TensorRT-LLM) | 2 | 2026-05-04T20:08:12Z | Python | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [danielrosehill/LLM-Council-Template](https://github.com/danielrosehill/LLM-Council-Template) | 2 | 2026-04-23T10:28:21Z | Python | Template/starter | 0 | 0 | 0 | 0 |
 | [5sControl/5s-backend](https://github.com/5sControl/5s-backend) | 2 | 2026-04-23T07:54:59Z | Python | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [ModelCloud/Defuser](https://github.com/ModelCloud/Defuser) | 2 | 2026-04-22T16:37:44Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [danielrosehill/Voxtype](https://github.com/danielrosehill/Voxtype) | 1 | 2026-05-06T13:50:37Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [PrimeIntellect-ai/renderers](https://github.com/PrimeIntellect-ai/renderers) | 1 | 2026-05-05T17:04:46Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [flexcyon/docs-en](https://github.com/flexcyon/docs-en) | 1 | 2026-05-01T08:28:41Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
@@ -88,4 +83,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eea/eea-website-backend](https://github.com/eea/eea-website-backend) | 1 | 2026-04-29T15:23:24Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [mozilla-ai/tinyagent](https://github.com/mozilla-ai/tinyagent) | 1 | 2026-04-29T13:40:33Z | Python | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [conda-forge/threadpoolctl-feedstock](https://github.com/conda-forge/threadpoolctl-feedstock) | 1 | 2026-04-24T03:50:03Z | Python | Infrastructure/tooling | 1 | 0 | 1 | 1 |
-| [arielagor/jetbrains-mono-hebrew](https://github.com/arielagor/jetbrains-mono-hebrew) | 1 | 2026-04-22T20:14:06Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |

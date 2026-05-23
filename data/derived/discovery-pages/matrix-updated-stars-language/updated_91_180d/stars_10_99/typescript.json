@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 597,
-    "concepts": 76,
-    "observations": 76,
-    "repos": 31,
-    "terms": 78
+    "components": 599,
+    "concepts": 83,
+    "observations": 83,
+    "repos": 33,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "2slides/mcp-2slides",
     "adevinta/actions-lighthouseci-compare",
     "aigc3d/LAM_WebRender",
+    "AlexJPotter/fluentvalidation-ts",
     "androidStern-personal/openclaw-mcp-adapter",
     "atom-yang/aumi",
     "c2corg/browserslist-update-action",
@@ -34,6 +35,7 @@
     "instana/opentelemetry-demo",
     "isaacs/clock-mock",
     "janwilmake/oapis",
+    "janwilmake/openapisearch",
     "joliss/node-walk-sync",
     "libp2p/github-mgmt",
     "lnbc1QWFyb24/lnmessage",

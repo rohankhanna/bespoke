@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 113,
-    "concepts": 141,
-    "observations": 141,
-    "repos": 13,
-    "terms": 141
+    "components": 90,
+    "concepts": 145,
+    "observations": 145,
+    "repos": 12,
+    "terms": 145
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,19 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "567-labs/instructor",
-    "aden-hive/hive",
     "Comfy-Org/ComfyUI-Manager",
-    "Dao-AILab/flash-attention",
+    "deepspeedai/DeepSpeed",
+    "hiyouga/LlamaFactory",
     "huggingface/pytorch-image-models",
+    "huggingface/sentence-transformers",
     "Lightning-AI/pytorch-lightning",
     "oobabooga/textgen",
-    "psf/black",
     "pyg-team/pytorch_geometric",
     "run-llama/llama_index",
     "TEN-framework/ten-framework",
-    "ungoogled-software/ungoogled-chromium",
-    "verl-project/verl"
+    "ungoogled-software/ungoogled-chromium"
   ]
 }

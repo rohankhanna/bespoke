@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 73,
-    "concepts": 69,
-    "observations": 69,
-    "repos": 9,
-    "terms": 68
+    "components": 100,
+    "concepts": 116,
+    "observations": 116,
+    "repos": 12,
+    "terms": 115
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "ashvardanian/NumKong",
-    "CloudCompare/CloudCompare",
     "floooh/sokol",
+    "free-audio/clap",
     "google/oboe",
+    "iree-org/iree",
     "marzer/tomlplusplus",
     "Mithril-mine/libmdbx",
     "Nelarius/imnodes",
     "PortAudio/portaudio",
-    "pure-data/pure-data"
+    "pure-data/pure-data",
+    "uxlfoundation/oneDNN",
+    "WarmUpTill/SceneSwitcher"
   ]
 }

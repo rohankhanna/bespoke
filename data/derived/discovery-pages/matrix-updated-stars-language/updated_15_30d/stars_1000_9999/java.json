@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 565,
-    "concepts": 734,
-    "observations": 735,
-    "repos": 68,
-    "terms": 730
+    "components": 557,
+    "concepts": 723,
+    "observations": 724,
+    "repos": 66,
+    "terms": 719
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "alibaba/spring-ai-alibaba",
@@ -69,8 +69,6 @@
     "micronaut-projects/micronaut-core",
     "moyangzhan/langchain4j-aideepin",
     "oshi/oshi",
-    "rabbitmq/rabbitmq-tutorials",
-    "raphw/byte-buddy",
     "reactor/BlockHound",
     "reactor/reactor-core",
     "smithy-lang/smithy",

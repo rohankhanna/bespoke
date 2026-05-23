@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 19,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 1,
-    "terms": 5
+    "components": 26,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 2,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
+    "betterleaks/betterleaks",
     "SpecterOps/AzureHound"
   ]
 }

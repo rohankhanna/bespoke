@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 545,
-    "concepts": 754,
-    "observations": 754,
-    "repos": 183,
-    "terms": 740
+    "components": 552,
+    "concepts": 763,
+    "observations": 763,
+    "repos": 184,
+    "terms": 749
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "1player/host-spawn",
     "76creates/stickers",
@@ -132,6 +132,7 @@
     "kubernetes-sigs/apiserver-builder-alpha",
     "layr-labs/incredible-squaring-avs",
     "lesismal/go-websocket-benchmark",
+    "liquidmetal-dev/cluster-api-provider-microvm",
     "localtunnel/go-localtunnel",
     "Logiase/MiraiGo-Template",
     "LumaAI-API/Luma-API",

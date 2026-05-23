@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 866,
-    "concepts": 573,
-    "observations": 577,
+    "components": 871,
+    "concepts": 567,
+    "observations": 571,
     "repos": 87,
-    "terms": 570
+    "terms": 564
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -22,6 +22,7 @@
     "beehiveinnovations/pal-mcp-server",
     "binary-husky/gpt_academic",
     "bmaltais/kohya_ss",
+    "bootandy/dust",
     "BuilderIO/mitosis",
     "bytedance/UI-TARS",
     "camenduru/stable-diffusion-webui-colab",
@@ -46,7 +47,6 @@
     "git-up/GitUp",
     "github/copilot.vim",
     "go-chi/chi",
-    "goldfire/howler.js",
     "google/ExoPlayer",
     "gulpjs/gulp",
     "horovod/horovod",

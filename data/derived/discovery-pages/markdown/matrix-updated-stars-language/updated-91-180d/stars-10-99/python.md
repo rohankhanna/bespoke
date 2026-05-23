@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 103
-- terms: 239
-- components: 195
-- concepts: 231
-- observations: 232
+- repos: 104
+- terms: 242
+- components: 201
+- concepts: 234
+- observations: 235
 
 ## Static behavior
 
@@ -74,6 +74,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [biocypher/project-template](https://github.com/biocypher/project-template) | 13 | 2026-01-15T15:12:28Z | Python | Template/starter | 0 | 0 | 0 | 0 |
 | [HuajianUP/360Loc](https://github.com/HuajianUP/360Loc) | 37 | 2026-01-15T08:41:30Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [icppWorld/icgpt](https://github.com/icppWorld/icgpt) | 17 | 2026-01-14T11:52:22Z | Python | Unknown | 2 | 43 | 2 | 2 |
+| [yuekaizhang/Fun-ASR-vllm](https://github.com/yuekaizhang/Fun-ASR-vllm) | 99 | 2026-01-14T05:44:39Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [saltstack/libnacl](https://github.com/saltstack/libnacl) | 84 | 2026-01-13T23:41:02Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [SLDGroup/MK-UNet](https://github.com/SLDGroup/MK-UNet) | 69 | 2026-01-12T20:08:54Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [MINT-SJTU/STI-Bench](https://github.com/MINT-SJTU/STI-Bench) | 38 | 2026-01-12T14:23:56Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -92,6 +93,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [okuvshynov/cubestat](https://github.com/okuvshynov/cubestat) | 27 | 2025-12-30T00:23:38Z | Python | Infrastructure/tooling | 7 | 6 | 0 | 0 |
 | [heimoshuiyu/whisper-fastapi](https://github.com/heimoshuiyu/whisper-fastapi) | 75 | 2025-12-28T13:59:17Z | Python | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [bentoml/BentoLMDeploy](https://github.com/bentoml/BentoLMDeploy) | 22 | 2025-12-26T17:35:13Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [InternScience/SciReason](https://github.com/InternScience/SciReason) | 86 | 2025-12-26T09:33:55Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [EasternJournalist/pipeline](https://github.com/EasternJournalist/pipeline) | 13 | 2025-12-26T09:28:11Z | Python | Framework | 0 | 0 | 0 | 0 |
 | [ReneHollander/rep0st](https://github.com/ReneHollander/rep0st) | 37 | 2025-12-25T16:07:05Z | Python | Unknown | 0 | 8 | 0 | 0 |
 | [BoosterRobotics/booster_deploy](https://github.com/BoosterRobotics/booster_deploy) | 22 | 2025-12-25T11:27:47Z | Python | Framework | 0 | 0 | 0 | 0 |
@@ -128,12 +130,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [katerinakazantseva/strainy](https://github.com/katerinakazantseva/strainy) | 94 | 2025-11-25T13:30:03Z | Python | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [echo840/LIRA](https://github.com/echo840/LIRA) | 21 | 2025-11-25T04:43:25Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [AnonymouX47/termvisage](https://github.com/AnonymouX47/termvisage) | 94 | 2025-11-24T07:23:39Z | Python | CLI | 11 | 2 | 11 | 11 |
-| [erkyrath/glk-dev](https://github.com/erkyrath/glk-dev) | 20 | 2025-11-23T16:42:29Z | Python | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [yuekaizhang/Fun-ASR-vllm](https://github.com/yuekaizhang/Fun-ASR-vllm) | 99 | 2026-01-14T05:44:39Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [SLDGroup/CASCADE](https://github.com/SLDGroup/CASCADE) | 99 | 2025-11-26T18:49:52Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [mingyuanzhou/SiD-LSG](https://github.com/mingyuanzhou/SiD-LSG) | 97 | 2025-12-04T18:07:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [antgroup/DeepXTrace](https://github.com/antgroup/DeepXTrace) | 95 | 2026-01-16T09:03:31Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -145,6 +147,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [layumi/3D-Magic-Mirror](https://github.com/layumi/3D-Magic-Mirror) | 89 | 2026-02-13T04:35:23Z | Python | Unknown | 5 | 0 | 6 | 6 |
 | [ssitu/ComfyUI_restart_sampling](https://github.com/ssitu/ComfyUI_restart_sampling) | 89 | 2025-12-06T03:42:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [nomfoundation/font](https://github.com/nomfoundation/font) | 88 | 2025-11-27T01:26:34Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [InternScience/SciReason](https://github.com/InternScience/SciReason) | 86 | 2025-12-26T09:33:55Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [fsspec/sshfs](https://github.com/fsspec/sshfs) | 85 | 2026-01-26T07:32:24Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [saltstack/libnacl](https://github.com/saltstack/libnacl) | 84 | 2026-01-13T23:41:02Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [edwhu/dreamer4-jax](https://github.com/edwhu/dreamer4-jax) | 84 | 2025-11-28T17:31:31Z | Python | Unknown | 2 | 0 | 2 | 2 |
@@ -215,7 +218,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [InternScience/SeedBench](https://github.com/InternScience/SeedBench) | 22 | 2025-12-19T09:10:03Z | Python | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [echo840/LIRA](https://github.com/echo840/LIRA) | 21 | 2025-11-25T04:43:25Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [jhogsett/VFIformer-WebUI](https://github.com/jhogsett/VFIformer-WebUI) | 20 | 2026-02-02T11:43:27Z | Python | Infrastructure/tooling | 7 | 2 | 7 | 7 |
-| [erkyrath/glk-dev](https://github.com/erkyrath/glk-dev) | 20 | 2025-11-23T16:42:29Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [thunlp/BlockFFN](https://github.com/thunlp/BlockFFN) | 19 | 2026-01-10T01:34:51Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [Coobiw/IE-Critic-R1](https://github.com/Coobiw/IE-Critic-R1) | 19 | 2025-11-26T20:24:23Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [shawn0728/ARES](https://github.com/shawn0728/ARES) | 18 | 2026-02-03T09:00:35Z | Python | Infrastructure/tooling | 10 | 0 | 10 | 10 |

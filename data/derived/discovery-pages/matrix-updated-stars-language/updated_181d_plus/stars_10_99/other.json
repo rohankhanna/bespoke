@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2005,
-    "concepts": 1864,
-    "observations": 1870,
-    "repos": 821,
-    "terms": 1858
+    "components": 2017,
+    "concepts": 1869,
+    "observations": 1875,
+    "repos": 823,
+    "terms": 1862
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x7432/asm-ru",
@@ -30,6 +30,7 @@
     "2KAbhishek/octohub.nvim",
     "2KAbhishek/tdo.nvim",
     "2KAbhishek/utils.nvim",
+    "64327069/LVAgent",
     "a115/exmatrix",
     "aaronjensen/eslintd-fix",
     "abap-ai/mcp",
@@ -163,6 +164,7 @@
     "bennyyip/plugpac.vim",
     "bfenetworks/dashboard",
     "bhauman/flappy-bird-demo-new",
+    "bhftbootcamp/YYJSON.jl",
     "binaryoung/jieba-php",
     "bitbeans/minisign-net",
     "bitzesty/zxcvbn-js",

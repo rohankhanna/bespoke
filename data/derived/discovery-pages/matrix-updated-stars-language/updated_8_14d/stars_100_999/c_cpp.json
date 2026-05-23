@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 39,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 7,
-    "terms": 42
+    "components": 41,
+    "concepts": 51,
+    "observations": 51,
+    "repos": 9,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
-    "aburch/simutrans",
     "altschuler/imgui-knobs",
+    "apache/casbin-cpp",
     "atsushieno/aap-core",
     "celtera/avendish",
+    "DISTRHO/DPF",
     "kiron1/bazel-compile-commands",
     "microsoft/MIDI",
+    "ROCm/rocBLAS",
     "yoshoku/llama_cpp.rb"
   ]
 }

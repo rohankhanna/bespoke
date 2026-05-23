@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 146,
-    "concepts": 206,
-    "observations": 206,
-    "repos": 29,
-    "terms": 204
+    "components": 124,
+    "concepts": 173,
+    "observations": 173,
+    "repos": 23,
+    "terms": 171
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "aaron-he-zhu/seo-geo-claude-skills",
-    "aquasecurity/trivy-action",
     "archlinuxcn/repo",
     "aurutils/aurutils",
     "bioconda/bioconda-recipes",
     "bitnami/containers",
     "Botspot/pi-apps",
     "confluentinc/demo-scene",
-    "docker-library/docs",
-    "docker-library/official-images",
     "dtcooper/raspotify",
     "fluxcd/flux2-kustomize-helm-example",
-    "google/adk-docs",
     "GrapheneOS/Vanadium",
     "heroku/heroku-buildpack-nodejs",
     "holman/dotfiles",
@@ -38,9 +34,7 @@
     "pypa/manylinux",
     "rbenv/ruby-build",
     "rocker-org/rocker",
-    "rvm/rvm",
     "sublimehq/Packages",
-    "void-linux/void-packages",
     "YosysHQ/oss-cad-suite-build",
     "zsh-users/zsh-completions"
   ]

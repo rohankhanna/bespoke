@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 53
-- terms: 223
-- components: 195
-- concepts: 225
-- observations: 226
+- repos: 55
+- terms: 235
+- components: 203
+- concepts: 237
+- observations: 238
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [LuisaGroup/LuisaRender](https://github.com/LuisaGroup/LuisaRender) | 603 | 2026-03-24T04:36:58Z | C/C++ | Infrastructure/tooling | 11 | 5 | 11 | 11 |
+| [eclipse-cyclonedds/cyclonedds-cxx](https://github.com/eclipse-cyclonedds/cyclonedds-cxx) | 138 | 2026-03-23T11:50:47Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [JokerJohn/MS-Mapping](https://github.com/JokerJohn/MS-Mapping) | 356 | 2026-03-22T06:40:04Z | C/C++ | Unknown | 13 | 0 | 13 | 13 |
 | [JokerJohn/Cloud_Map_Evaluation](https://github.com/JokerJohn/Cloud_Map_Evaluation) | 458 | 2026-03-22T06:35:28Z | C/C++ | Infrastructure/tooling | 9 | 1 | 9 | 9 |
 | [anacrolix/go-libutp](https://github.com/anacrolix/go-libutp) | 104 | 2026-03-21T12:03:05Z | C/C++ | Infrastructure/tooling | 8 | 2 | 8 | 8 |
@@ -102,6 +104,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vcflib/vcflib](https://github.com/vcflib/vcflib) | 676 | 2026-03-20T10:33:33Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [Tomas-M/iotop](https://github.com/Tomas-M/iotop) | 654 | 2026-03-15T14:24:24Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [embeddedartistry/libc](https://github.com/embeddedartistry/libc) | 645 | 2026-03-17T19:53:04Z | C/C++ | Unknown | 7 | 0 | 7 | 7 |
+| [LuisaGroup/LuisaRender](https://github.com/LuisaGroup/LuisaRender) | 603 | 2026-03-24T04:36:58Z | C/C++ | Infrastructure/tooling | 11 | 5 | 11 | 11 |
 | [eliemichel/LearnWebGPU](https://github.com/eliemichel/LearnWebGPU) | 600 | 2026-03-12T11:24:26Z | C/C++ | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [Slamtec/rplidar_sdk](https://github.com/Slamtec/rplidar_sdk) | 548 | 2026-03-17T04:22:50Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [hhyyrylainen/GodotPckTool](https://github.com/hhyyrylainen/GodotPckTool) | 535 | 2026-02-27T07:02:57Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 4 |
@@ -132,6 +135,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [websockets/bufferutil](https://github.com/websockets/bufferutil) | 167 | 2026-03-07T18:15:51Z | C/C++ | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [CppCXY/EmmyLuaCodeStyle](https://github.com/CppCXY/EmmyLuaCodeStyle) | 165 | 2026-02-25T02:50:40Z | C/C++ | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [freebsd/atf](https://github.com/freebsd/atf) | 145 | 2026-03-10T21:09:03Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [eclipse-cyclonedds/cyclonedds-cxx](https://github.com/eclipse-cyclonedds/cyclonedds-cxx) | 138 | 2026-03-23T11:50:47Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [derickr/timelib](https://github.com/derickr/timelib) | 133 | 2026-03-02T18:19:04Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [sasha0552/nvidia-pstated](https://github.com/sasha0552/nvidia-pstated) | 123 | 2026-02-24T17:38:15Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [stardot/beebasm](https://github.com/stardot/beebasm) | 106 | 2026-03-12T18:42:09Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |

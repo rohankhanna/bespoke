@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 339
+- repos: 338
 - terms: 519
 - components: 1096
 - concepts: 513
@@ -364,7 +364,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dgellow/idris-docker-image](https://github.com/dgellow/idris-docker-image) | 5 | 2021-06-09T14:33:53Z | Other | Infrastructure/tooling | 5 | 0 | 5 | 5 |
 | [kaminari/kaminari-data_mapper](https://github.com/kaminari/kaminari-data_mapper) | 4 | 2021-05-25T03:57:16Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [kaminari/kaminari-mongo_mapper](https://github.com/kaminari/kaminari-mongo_mapper) | 2 | 2021-05-25T03:37:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [formtastic/formtastic_i18n](https://github.com/formtastic/formtastic_i18n) | 6 | 2021-05-23T20:29:41Z | Other | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -496,7 +495,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lyceum/lyceummujoco.jl](https://github.com/Lyceum/LyceumMuJoCo.jl) | 6 | 2021-09-23T21:33:39Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [lyceum/lyceumbase.jl](https://github.com/Lyceum/LyceumBase.jl) | 6 | 2021-09-16T22:39:32Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [kristijanhusak/completion-tags](https://github.com/kristijanhusak/completion-tags) | 6 | 2021-06-28T17:15:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [formtastic/formtastic_i18n](https://github.com/formtastic/formtastic_i18n) | 6 | 2021-05-23T20:29:41Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [anotherlusitano/SpectrumPlus](https://github.com/anotherlusitano/SpectrumPlus) | 5 | 2025-11-20T00:30:28Z | Other | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [redis-stack/homebrew-redis-stack](https://github.com/redis-stack/homebrew-redis-stack) | 5 | 2025-11-03T14:07:34Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [deathbeam/difftool.nvim](https://github.com/deathbeam/difftool.nvim) | 5 | 2025-10-12T20:57:40Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |

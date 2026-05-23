@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 573,
-    "concepts": 495,
-    "observations": 497,
-    "repos": 119,
-    "terms": 494
+    "components": 652,
+    "concepts": 500,
+    "observations": 502,
+    "repos": 121,
+    "terms": 499
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "4d49/scene-library",
+    "agrafix/elm-bridge",
     "ahyatt/emacs-websocket",
     "ajevans99/swift-json-schema",
     "akabe/ocaml-jupyter",
@@ -45,6 +46,7 @@
     "clojure/tools.build",
     "cognitect/transit-clj",
     "cpp-pm/hunter",
+    "crivotz/nv-ide",
     "csstools/postcss-normalize",
     "Cysharp/ValueTaskSupplement",
     "Dao-AILab/causal-conv1d",
@@ -93,6 +95,7 @@
     "metosin/ring-swagger",
     "microsoft/microsoft-performance-toolkit-sdk",
     "milvus-io/milvus-sdk-csharp",
+    "moyangzhan/langchain4j-aideepin-admin",
     "nebula-plugins/nebula-release-plugin",
     "Nek5000/Nek5000",
     "nim-lang/vscode-nim",
@@ -107,7 +110,6 @@
     "proper-testing/proper",
     "pug-php/pug",
     "queryverse/Query.jl",
-    "radian-software/ctrlf",
     "rejemy/UltraLiteDB",
     "ropensci/git2r",
     "rubocop/rubocop-performance",
@@ -118,7 +120,7 @@
     "SlRvb/Obsidian--ITS-Theme",
     "sol/hpack",
     "stefan-hoeck/idris2-pack",
-    "swansonk14/admet_ai",
+    "stellar/soroban-examples",
     "SymbolicML/DynamicExpressions.jl",
     "tensorflow/mlir-hlo",
     "thu-ml/SpargeAttn",

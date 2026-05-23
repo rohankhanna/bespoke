@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 6,
-    "terms": 2
+    "components": 2,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 9,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,16 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "aaronrsun/spec-kit-confluence",
+    "conda-forge/blis-feedstock",
+    "conda-forge/bottom-feedstock",
     "danielrosehill/adb-keep-awake",
     "danielrosehill/AMD-GPU-DP-Hotplug-Fix",
     "danielrosehill/Claude-Calls-The-Shots",
     "danielrosehill/Local-Claude-Plugin-Install-Research",
+    "DeepWok/mase-docker",
     "gerardtschanz/revenue-os"
   ]
 }

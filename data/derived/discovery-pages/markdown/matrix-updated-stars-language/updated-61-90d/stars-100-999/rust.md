@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 31
-- terms: 133
-- components: 174
-- concepts: 134
-- observations: 135
+- repos: 34
+- terms: 135
+- components: 199
+- concepts: 136
+- observations: 138
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [dtolnay/ref-cast](https://github.com/dtolnay/ref-cast) | 219 | 2026-03-24T02:43:31Z | Rust | Infrastructure/tooling | 0 | 11 | 0 | 0 |
+| [dtolnay/readonly](https://github.com/dtolnay/readonly) | 265 | 2026-03-24T02:37:41Z | Rust | Infrastructure/tooling | 0 | 10 | 0 | 0 |
+| [AchetaGames/Epic-Asset-Manager](https://github.com/AchetaGames/Epic-Asset-Manager) | 501 | 2026-03-23T13:47:23Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 3 |
 | [firstbatchxyz/dkn-compute-node](https://github.com/firstbatchxyz/dkn-compute-node) | 228 | 2026-03-21T10:43:07Z | Rust | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [lambdaclass/lambdaworks](https://github.com/lambdaclass/lambdaworks) | 731 | 2026-03-20T16:27:57Z | Rust | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [rust-lang/rfcbot-rs](https://github.com/rust-lang/rfcbot-rs) | 166 | 2026-03-19T23:41:39Z | Rust | Infrastructure/tooling | 4 | 0 | 4 | 4 |
@@ -67,6 +70,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Kampfkarren/selene](https://github.com/Kampfkarren/selene) | 763 | 2026-03-03T21:50:32Z | Rust | Infrastructure/tooling | 7 | 18 | 7 | 7 |
 | [lambdaclass/lambdaworks](https://github.com/lambdaclass/lambdaworks) | 731 | 2026-03-20T16:27:57Z | Rust | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [typst/comemo](https://github.com/typst/comemo) | 595 | 2026-03-13T10:29:41Z | Rust | Infrastructure/tooling | 5 | 3 | 5 | 5 |
+| [AchetaGames/Epic-Asset-Manager](https://github.com/AchetaGames/Epic-Asset-Manager) | 501 | 2026-03-23T13:47:23Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 3 |
 | [filecoin-project/rust-fil-proofs](https://github.com/filecoin-project/rust-fil-proofs) | 500 | 2026-03-09T10:07:13Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [gfx-rs/rspirv](https://github.com/gfx-rs/rspirv) | 492 | 2026-03-13T15:49:48Z | Rust | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [YaLTeR/wl-clipboard-rs](https://github.com/YaLTeR/wl-clipboard-rs) | 475 | 2026-03-16T08:25:58Z | Rust | CLI | 3 | 8 | 3 | 3 |
@@ -77,7 +81,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [blyxxyz/lexopt](https://github.com/blyxxyz/lexopt) | 387 | 2026-02-28T22:40:58Z | Rust | CLI | 4 | 1 | 4 | 4 |
 | [zkcrypto/bls12_381](https://github.com/zkcrypto/bls12_381) | 360 | 2026-02-25T03:11:36Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [IWANABETHATGUY/tower-lsp-boilerplate](https://github.com/IWANABETHATGUY/tower-lsp-boilerplate) | 282 | 2026-03-04T13:35:04Z | Rust | Infrastructure/tooling | 0 | 19 | 0 | 0 |
+| [dtolnay/readonly](https://github.com/dtolnay/readonly) | 265 | 2026-03-24T02:37:41Z | Rust | Infrastructure/tooling | 0 | 10 | 0 | 0 |
 | [firstbatchxyz/dkn-compute-node](https://github.com/firstbatchxyz/dkn-compute-node) | 228 | 2026-03-21T10:43:07Z | Rust | Infrastructure/tooling | 10 | 8 | 10 | 10 |
+| [dtolnay/ref-cast](https://github.com/dtolnay/ref-cast) | 219 | 2026-03-24T02:43:31Z | Rust | Infrastructure/tooling | 0 | 11 | 0 | 0 |
 | [fast/logforth](https://github.com/fast/logforth) | 216 | 2026-02-24T02:51:27Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [gwihlidal/vk-mem-rs](https://github.com/gwihlidal/vk-mem-rs) | 201 | 2026-02-23T20:57:57Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [KyleMayes/clang-rs](https://github.com/KyleMayes/clang-rs) | 200 | 2026-02-25T21:34:02Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |

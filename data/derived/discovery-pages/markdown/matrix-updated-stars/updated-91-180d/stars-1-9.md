@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 207
-- terms: 338
+- repos: 211
+- terms: 371
 - components: 671
-- concepts: 327
-- observations: 329
+- concepts: 360
+- observations: 362
 
 ## Static behavior
 
@@ -25,6 +25,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [0x2a-42/nvim-lelwel](https://github.com/0x2a-42/nvim-lelwel) | 1 | 2026-02-21T21:44:59Z | Other | Unknown | 2 | 0 | 2 | 2 |
+| [alexpolonsky/agent-skill-strikeradar](https://github.com/alexpolonsky/agent-skill-strikeradar) | 1 | 2026-02-21T10:35:08Z | TypeScript | Unknown | 11 | 0 | 11 | 11 |
+| [alexpolonsky/agent-skill-libby-book-monitor](https://github.com/alexpolonsky/agent-skill-libby-book-monitor) | 2 | 2026-02-21T10:35:07Z | Python | Library | 10 | 0 | 10 | 10 |
+| [alexpolonsky/agent-skill-maccabi-pharm-search](https://github.com/alexpolonsky/agent-skill-maccabi-pharm-search) | 2 | 2026-02-21T10:35:04Z | JavaScript | Unknown | 10 | 0 | 10 | 10 |
 | [yamachu/VoicevoxCoreSwift](https://github.com/yamachu/VoicevoxCoreSwift) | 7 | 2026-02-21T08:14:17Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [empriselab/kortex_description](https://github.com/empriselab/kortex_description) | 2 | 2026-02-20T16:26:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [objectbox/objectbox-swift-generator](https://github.com/objectbox/objectbox-swift-generator) | 7 | 2026-02-19T23:43:53Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -351,6 +355,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [atrodo/WebGPU-Direct](https://github.com/atrodo/WebGPU-Direct) | 3 | 2025-11-26T05:19:53Z | Other | Service/API | 5 | 0 | 5 | 5 |
 | [funstory-ai/BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets) | 3 | 2025-11-25T10:46:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaML/MLCore.jl](https://github.com/JuliaML/MLCore.jl) | 3 | 2025-11-24T13:47:21Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
+| [alexpolonsky/agent-skill-libby-book-monitor](https://github.com/alexpolonsky/agent-skill-libby-book-monitor) | 2 | 2026-02-21T10:35:07Z | Python | Library | 10 | 0 | 10 | 10 |
+| [alexpolonsky/agent-skill-maccabi-pharm-search](https://github.com/alexpolonsky/agent-skill-maccabi-pharm-search) | 2 | 2026-02-21T10:35:04Z | JavaScript | Unknown | 10 | 0 | 10 | 10 |
 | [empriselab/kortex_description](https://github.com/empriselab/kortex_description) | 2 | 2026-02-20T16:26:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [piebald-ai/.github](https://github.com/Piebald-AI/.github) | 2 | 2026-02-15T15:31:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [jsdom/.github](https://github.com/jsdom/.github) | 2 | 2026-02-14T05:28:09Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -391,6 +397,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hermit-os/gcc](https://github.com/hermit-os/gcc) | 2 | 2025-11-27T13:19:08Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [hermit-os/binutils](https://github.com/hermit-os/binutils) | 2 | 2025-11-27T13:18:46Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [jgburet/asdf-dotenvx](https://github.com/jgburet/asdf-dotenvx) | 2 | 2025-11-24T22:25:17Z | Shell | Infrastructure/tooling | 3 | 6 | 3 | 4 |
+| [0x2a-42/nvim-lelwel](https://github.com/0x2a-42/nvim-lelwel) | 1 | 2026-02-21T21:44:59Z | Other | Unknown | 2 | 0 | 2 | 2 |
+| [alexpolonsky/agent-skill-strikeradar](https://github.com/alexpolonsky/agent-skill-strikeradar) | 1 | 2026-02-21T10:35:08Z | TypeScript | Unknown | 11 | 0 | 11 | 11 |
 | [stephanj/spotbugs-devoxxgenie-plugin](https://github.com/stephanj/spotbugs-devoxxgenie-plugin) | 1 | 2026-02-18T11:44:20Z | Java | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [danielrosehill/Claude-MD-Chunk](https://github.com/danielrosehill/Claude-MD-Chunk) | 1 | 2026-02-17T01:41:11Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [feloy/tesh](https://github.com/feloy/tesh) | 1 | 2026-02-16T13:20:48Z | Go | Infrastructure/tooling | 3 | 4 | 3 | 3 |

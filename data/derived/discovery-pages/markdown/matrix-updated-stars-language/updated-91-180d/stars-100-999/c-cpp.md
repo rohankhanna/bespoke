@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 70
-- terms: 288
-- components: 183
-- concepts: 293
-- observations: 294
+- repos: 69
+- terms: 277
+- components: 175
+- concepts: 282
+- observations: 283
 
 ## Static behavior
 
@@ -83,6 +83,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [avaneev/prvhash](https://github.com/avaneev/prvhash) | 326 | 2025-12-25T17:53:39Z | C/C++ | Unknown | 17 | 0 | 17 | 17 |
 | [ejoy/lua](https://github.com/ejoy/lua) | 116 | 2025-12-23T15:58:01Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [erkyrath/glulxe](https://github.com/erkyrath/glulxe) | 122 | 2025-12-22T03:53:59Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [lovemefan/SenseVoice.cpp](https://github.com/lovemefan/SenseVoice.cpp) | 550 | 2025-12-19T10:50:03Z | C/C++ | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [nobleo/rviz_satellite](https://github.com/nobleo/rviz_satellite) | 659 | 2025-12-18T12:37:39Z | C/C++ | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [lh3/gfatools](https://github.com/lh3/gfatools) | 250 | 2025-12-16T18:06:21Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [tomfunkhouser/gaps](https://github.com/tomfunkhouser/gaps) | 103 | 2025-12-16T16:56:46Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -94,8 +95,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [isciences/exactextractr](https://github.com/isciences/exactextractr) | 305 | 2025-12-01T15:50:27Z | C/C++ | Library | 2 | 0 | 2 | 2 |
 | [dthuerck/mapmap_cpu](https://github.com/dthuerck/mapmap_cpu) | 107 | 2025-11-29T07:35:21Z | C/C++ | Infrastructure/tooling | 11 | 1 | 11 | 11 |
 | [nonstd-lite/string-view-lite](https://github.com/nonstd-lite/string-view-lite) | 469 | 2025-11-28T19:57:17Z | C/C++ | Infrastructure/tooling | 7 | 1 | 7 | 7 |
-| [gpustack/llama-box](https://github.com/gpustack/llama-box) | 295 | 2025-11-24T00:45:50Z | C/C++ | Infrastructure/tooling | 6 | 12 | 6 | 6 |
-| [libimobiledevice/libimobiledevice-glue](https://github.com/libimobiledevice/libimobiledevice-glue) | 110 | 2025-11-24T00:34:15Z | C/C++ | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -117,6 +116,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rmsalinas/DBow3](https://github.com/rmsalinas/DBow3) | 567 | 2026-01-07T06:59:52Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [openxrlab/xrslam](https://github.com/openxrlab/xrslam) | 565 | 2026-02-10T21:58:38Z | C/C++ | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [nvpro-samples/nvpro_core](https://github.com/nvpro-samples/nvpro_core) | 550 | 2026-02-12T10:39:19Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
+| [lovemefan/SenseVoice.cpp](https://github.com/lovemefan/SenseVoice.cpp) | 550 | 2025-12-19T10:50:03Z | C/C++ | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [avaneev/lzav](https://github.com/avaneev/lzav) | 526 | 2026-01-27T03:04:06Z | C/C++ | Unknown | 16 | 0 | 16 | 16 |
 | [beached/daw_json_link](https://github.com/beached/daw_json_link) | 503 | 2026-02-16T21:46:19Z | C/C++ | Infrastructure/tooling | 11 | 6 | 14 | 14 |
 | [mit-han-lab/Block-Sparse-Attention](https://github.com/mit-han-lab/Block-Sparse-Attention) | 502 | 2026-01-18T02:55:56Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |
@@ -136,7 +136,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nagisa/rust_tracy_client](https://github.com/nagisa/rust_tracy_client) | 307 | 2026-01-05T01:09:49Z | C/C++ | CLI | 1 | 4 | 1 | 1 |
 | [isciences/exactextractr](https://github.com/isciences/exactextractr) | 305 | 2025-12-01T15:50:27Z | C/C++ | Library | 2 | 0 | 2 | 2 |
 | [intel/isa-l_crypto](https://github.com/intel/isa-l_crypto) | 295 | 2026-01-22T17:04:40Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [gpustack/llama-box](https://github.com/gpustack/llama-box) | 295 | 2025-11-24T00:45:50Z | C/C++ | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [ashawkey/cubvh](https://github.com/ashawkey/cubvh) | 287 | 2026-01-27T14:20:05Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [embeddedartistry/libmemory](https://github.com/embeddedartistry/libmemory) | 278 | 2026-01-21T18:02:50Z | C/C++ | Library | 11 | 0 | 11 | 11 |
 | [CGCL-codes/YiTu](https://github.com/CGCL-codes/YiTu) | 254 | 2026-01-07T12:34:31Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -165,7 +164,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [erkyrath/glulxe](https://github.com/erkyrath/glulxe) | 122 | 2025-12-22T03:53:59Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ejoy/lua](https://github.com/ejoy/lua) | 116 | 2025-12-23T15:58:01Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [angr/vex](https://github.com/angr/vex) | 114 | 2026-02-01T07:47:54Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [libimobiledevice/libimobiledevice-glue](https://github.com/libimobiledevice/libimobiledevice-glue) | 110 | 2025-11-24T00:34:15Z | C/C++ | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [dthuerck/mapmap_cpu](https://github.com/dthuerck/mapmap_cpu) | 107 | 2025-11-29T07:35:21Z | C/C++ | Infrastructure/tooling | 11 | 1 | 11 | 11 |
 | [intel/torch-ccl](https://github.com/intel/torch-ccl) | 104 | 2025-12-31T04:43:22Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [tomfunkhouser/gaps](https://github.com/tomfunkhouser/gaps) | 103 | 2025-12-16T16:56:46Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

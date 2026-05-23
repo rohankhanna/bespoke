@@ -3,7 +3,7 @@
     "components": 424,
     "concepts": 442,
     "observations": 445,
-    "repos": 169,
+    "repos": 168,
     "terms": 438
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
@@ -99,7 +99,6 @@
     "go-logr/glogr",
     "go-logr/stdr",
     "go-logr/zerologr",
-    "go-sql-driver/sql-benchmark",
     "go-woo/protoc-gen-echo",
     "gogama/flatgeobuf",
     "gogama/httpx",

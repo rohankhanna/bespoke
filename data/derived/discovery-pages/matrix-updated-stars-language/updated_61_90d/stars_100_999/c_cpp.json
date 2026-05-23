@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 195,
-    "concepts": 225,
-    "observations": 226,
-    "repos": 53,
-    "terms": 223
+    "components": 203,
+    "concepts": 237,
+    "observations": 238,
+    "repos": 55,
+    "terms": 235
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "anacrolix/go-libutp",
     "apache/rocketmq-client-cpp",
@@ -26,6 +26,7 @@
     "Dao-AILab/fast-hadamard-transform",
     "derickr/timelib",
     "douglascrockford/JSMin",
+    "eclipse-cyclonedds/cyclonedds-cxx",
     "eliemichel/LearnWebGPU",
     "embeddedartistry/libc",
     "frankmorgner/vsmartcard",
@@ -43,6 +44,7 @@
     "lexxmark/winflexbison",
     "libxsmm/libxsmm",
     "lualanes/lanes",
+    "LuisaGroup/LuisaRender",
     "luvit/luvi",
     "marbl/canu",
     "mongodb-js/kerberos",

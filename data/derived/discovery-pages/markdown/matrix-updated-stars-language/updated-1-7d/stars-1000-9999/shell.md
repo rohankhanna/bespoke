@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · Shell
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 17
-- components: 21
-- concepts: 17
-- observations: 17
+- repos: 3
+- terms: 20
+- components: 24
+- concepts: 20
+- observations: 20
 
 ## Static behavior
 
@@ -26,12 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ROCm/ROCm](https://github.com/ROCm/ROCm) | 6519 | 2026-05-21T22:54:17Z | Shell | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [webinstall/webi-installers](https://github.com/webinstall/webi-installers) | 2885 | 2026-05-18T18:37:57Z | Shell | Infrastructure/tooling | 8 | 5 | 8 | 8 |
-| [nodenv/nodenv](https://github.com/nodenv/nodenv) | 2375 | 2026-05-18T15:42:24Z | Shell | Infrastructure/tooling | 9 | 16 | 9 | 9 |
+| [nodenv/nodenv](https://github.com/nodenv/nodenv) | 2377 | 2026-05-18T15:42:24Z | Shell | Infrastructure/tooling | 9 | 16 | 9 | 9 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ROCm/ROCm](https://github.com/ROCm/ROCm) | 6519 | 2026-05-21T22:54:17Z | Shell | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [webinstall/webi-installers](https://github.com/webinstall/webi-installers) | 2885 | 2026-05-18T18:37:57Z | Shell | Infrastructure/tooling | 8 | 5 | 8 | 8 |
-| [nodenv/nodenv](https://github.com/nodenv/nodenv) | 2375 | 2026-05-18T15:42:24Z | Shell | Infrastructure/tooling | 9 | 16 | 9 | 9 |
+| [nodenv/nodenv](https://github.com/nodenv/nodenv) | 2377 | 2026-05-18T15:42:24Z | Shell | Infrastructure/tooling | 9 | 16 | 9 | 9 |

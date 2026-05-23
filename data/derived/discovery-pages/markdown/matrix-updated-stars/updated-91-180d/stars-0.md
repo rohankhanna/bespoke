@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 83
-- terms: 99
-- components: 260
-- concepts: 99
-- observations: 99
+- repos: 85
+- terms: 103
+- components: 261
+- concepts: 104
+- observations: 104
 
 ## Static behavior
 
@@ -25,6 +25,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [charlesnicholson/docker-images](https://github.com/charlesnicholson/docker-images) | 0 | 2026-02-21T14:34:16Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [jrsoftware/is7z](https://github.com/jrsoftware/is7z) | 0 | 2026-02-21T12:11:44Z | C/C++ | Unknown | 2 | 0 | 3 | 3 |
 | [mjvolk3/dendron-template](https://github.com/Mjvolk3/Dendron-Template) | 0 | 2026-02-20T15:48:17Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [typstyle-rs/prettyless](https://github.com/typstyle-rs/prettyless) | 0 | 2026-02-20T13:55:19Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [AdaCore/vss-text](https://github.com/AdaCore/vss-text) | 0 | 2026-02-16T11:03:35Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -113,6 +115,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [charlesnicholson/docker-images](https://github.com/charlesnicholson/docker-images) | 0 | 2026-02-21T14:34:16Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [jrsoftware/is7z](https://github.com/jrsoftware/is7z) | 0 | 2026-02-21T12:11:44Z | C/C++ | Unknown | 2 | 0 | 3 | 3 |
 | [mjvolk3/dendron-template](https://github.com/Mjvolk3/Dendron-Template) | 0 | 2026-02-20T15:48:17Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [typstyle-rs/prettyless](https://github.com/typstyle-rs/prettyless) | 0 | 2026-02-20T13:55:19Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [AdaCore/vss-text](https://github.com/AdaCore/vss-text) | 0 | 2026-02-16T11:03:35Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |

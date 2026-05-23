@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 19
-- terms: 86
-- components: 159
-- concepts: 87
-- observations: 88
+- repos: 23
+- terms: 96
+- components: 194
+- concepts: 97
+- observations: 99
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [dtolnay/anyhow](https://github.com/dtolnay/anyhow) | 6489 | 2026-03-24T02:44:34Z | Rust | Infrastructure/tooling | 0 | 9 | 0 | 0 |
+| [dtolnay/thiserror](https://github.com/dtolnay/thiserror) | 5403 | 2026-03-24T02:34:35Z | Rust | Infrastructure/tooling | 0 | 10 | 0 | 0 |
+| [visioncortex/vtracer](https://github.com/visioncortex/vtracer) | 5957 | 2026-03-23T15:31:45Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 4 |
+| [smol-rs/smol](https://github.com/smol-rs/smol) | 4849 | 2026-03-23T14:46:03Z | Rust | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [Rust-SDL2/rust-sdl2](https://github.com/Rust-SDL2/rust-sdl2) | 2939 | 2026-03-22T12:28:05Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [David-OConnor/pyflow](https://github.com/David-OConnor/pyflow) | 1337 | 2026-03-21T20:37:57Z | Rust | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [tauri-apps/cargo-mobile2](https://github.com/tauri-apps/cargo-mobile2) | 1827 | 2026-03-19T10:07:22Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
@@ -52,7 +56,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam) | 8418 | 2026-02-22T20:58:32Z | Rust | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 | [parcel-bundler/lightningcss](https://github.com/parcel-bundler/lightningcss) | 7519 | 2026-03-12T19:03:05Z | Rust | Infrastructure/tooling | 8 | 44 | 8 | 8 |
+| [dtolnay/anyhow](https://github.com/dtolnay/anyhow) | 6489 | 2026-03-24T02:44:34Z | Rust | Infrastructure/tooling | 0 | 9 | 0 | 0 |
+| [visioncortex/vtracer](https://github.com/visioncortex/vtracer) | 5957 | 2026-03-23T15:31:45Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 4 |
 | [ImageOptim/gifski](https://github.com/ImageOptim/gifski) | 5493 | 2026-02-28T18:28:50Z | Rust | Infrastructure/tooling | 6 | 2 | 6 | 6 |
+| [dtolnay/thiserror](https://github.com/dtolnay/thiserror) | 5403 | 2026-03-24T02:34:35Z | Rust | Infrastructure/tooling | 0 | 10 | 0 | 0 |
+| [smol-rs/smol](https://github.com/smol-rs/smol) | 4849 | 2026-03-23T14:46:03Z | Rust | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [dtolnay/proc-macro-workshop](https://github.com/dtolnay/proc-macro-workshop) | 4792 | 2026-03-16T04:27:05Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [tokio-rs/prost](https://github.com/tokio-rs/prost) | 4671 | 2026-03-02T05:32:37Z | Rust | Infrastructure/tooling | 3 | 16 | 3 | 3 |
 | [tower-rs/tower](https://github.com/tower-rs/tower) | 4172 | 2026-02-24T22:54:27Z | Rust | Infrastructure/tooling | 5 | 8 | 5 | 5 |

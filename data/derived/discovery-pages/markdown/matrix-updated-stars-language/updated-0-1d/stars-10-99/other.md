@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars · Other
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 5
-- components: 7
-- concepts: 5
-- observations: 5
+- repos: 1
+- terms: 15
+- components: 9
+- concepts: 15
+- observations: 15
 
 ## Static behavior
 
@@ -26,12 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [jelly-beam/rebar3_ex_doc](https://github.com/jelly-beam/rebar3_ex_doc) | 48 | 2026-05-22T02:02:17Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [pivotal/credhub-release](https://github.com/pivotal/credhub-release) | 37 | 2026-05-21T21:02:41Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-05-22T08:34:57Z | Other | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [jelly-beam/rebar3_ex_doc](https://github.com/jelly-beam/rebar3_ex_doc) | 48 | 2026-05-22T02:02:17Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [pivotal/credhub-release](https://github.com/pivotal/credhub-release) | 37 | 2026-05-21T21:02:41Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-05-22T08:34:57Z | Other | Infrastructure/tooling | 15 | 9 | 15 | 15 |

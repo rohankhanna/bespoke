@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 34
-- terms: 122
-- components: 143
-- concepts: 126
-- observations: 126
+- repos: 36
+- terms: 131
+- components: 153
+- concepts: 135
+- observations: 135
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [darccio/mergo](https://github.com/darccio/mergo) | 3100 | 2026-03-23T21:56:10Z | Go | Infrastructure/tooling | 9 | 10 | 9 | 9 |
+| [chromedp/examples](https://github.com/chromedp/examples) | 1251 | 2026-03-23T21:41:34Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [go-redis/redis_rate](https://github.com/go-redis/redis_rate) | 1014 | 2026-03-22T02:05:55Z | Go | Unknown | 4 | 0 | 4 | 4 |
 | [goccy/go-json](https://github.com/goccy/go-json) | 3660 | 2026-03-20T09:41:37Z | Go | Infrastructure/tooling | 2 | 3 | 3 | 3 |
 | [minio/operator](https://github.com/minio/operator) | 1426 | 2026-03-20T00:04:08Z | Go | Infrastructure/tooling | 6 | 11 | 6 | 6 |
@@ -80,6 +82,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JohannesKaufmann/html-to-markdown](https://github.com/JohannesKaufmann/html-to-markdown) | 3609 | 2026-03-02T11:06:58Z | Go | CLI | 4 | 4 | 6 | 6 |
 | [opencontainers/runtime-spec](https://github.com/opencontainers/runtime-spec) | 3603 | 2026-03-17T08:31:31Z | Go | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [charmbracelet/glamour](https://github.com/charmbracelet/glamour) | 3420 | 2026-03-16T09:03:18Z | Go | CLI | 8 | 9 | 9 | 9 |
+| [darccio/mergo](https://github.com/darccio/mergo) | 3100 | 2026-03-23T21:56:10Z | Go | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [ddworken/hishtory](https://github.com/ddworken/hishtory) | 3073 | 2026-03-18T23:18:46Z | Go | CLI | 10 | 17 | 12 | 12 |
 | [spf13/pflag](https://github.com/spf13/pflag) | 2731 | 2026-03-05T10:20:58Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [refraction-networking/utls](https://github.com/refraction-networking/utls) | 2353 | 2026-03-11T22:53:20Z | Go | CLI | 10 | 2 | 10 | 10 |
@@ -96,6 +99,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [flashbots/mev-boost](https://github.com/flashbots/mev-boost) | 1423 | 2026-02-23T16:48:55Z | Go | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [caddyserver/xcaddy](https://github.com/caddyserver/xcaddy) | 1420 | 2026-03-17T14:59:59Z | Go | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [CloudyKit/jet](https://github.com/CloudyKit/jet) | 1397 | 2026-03-16T21:14:42Z | Go | Template/starter | 3 | 0 | 3 | 3 |
+| [chromedp/examples](https://github.com/chromedp/examples) | 1251 | 2026-03-23T21:41:34Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [tidwall/btree](https://github.com/tidwall/btree) | 1213 | 2026-02-28T09:44:19Z | Go | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [bazelbuild/buildtools](https://github.com/bazelbuild/buildtools) | 1169 | 2026-03-19T08:02:35Z | Go | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [go-redis/redis_rate](https://github.com/go-redis/redis_rate) | 1014 | 2026-03-22T02:05:55Z | Go | Unknown | 4 | 0 | 4 | 4 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 400,
-    "concepts": 290,
-    "observations": 291,
-    "repos": 119,
-    "terms": 289
+    "components": 388,
+    "concepts": 285,
+    "observations": 286,
+    "repos": 117,
+    "terms": 285
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/termim.nvim",
-    "64327069/LVAgent",
     "aarroyoc/djota",
     "aarroyoc/doclog",
     "abapGit/ADT_Backend",
@@ -36,7 +35,6 @@
     "asg017/sqlite-hello",
     "auto-complete/fuzzy-el",
     "ayrat555/cargo-mode",
-    "bhftbootcamp/YYJSON.jl",
     "bwya77/obsidian-baseline-customization",
     "chakravala/DirectSum.jl",
     "cjohansen/m1p",

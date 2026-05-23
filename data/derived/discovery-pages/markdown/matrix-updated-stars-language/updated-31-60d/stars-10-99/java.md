@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Java
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 32
-- terms: 143
-- components: 140
-- concepts: 144
-- observations: 146
+- repos: 33
+- terms: 157
+- components: 148
+- concepts: 160
+- observations: 162
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [filip26/ld-cli](https://github.com/filip26/ld-cli) | 32 | 2026-04-22T09:17:06Z | Java | CLI | 14 | 8 | 16 | 16 |
 | [apache/netbeans-mavenutils-nbm-maven-plugin](https://github.com/apache/netbeans-mavenutils-nbm-maven-plugin) | 16 | 2026-04-22T08:22:30Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [yawkat/lz4-java](https://github.com/yawkat/lz4-java) | 43 | 2026-04-22T08:08:18Z | Java | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [bsorrentino/java-async-generator](https://github.com/bsorrentino/java-async-generator) | 15 | 2026-04-21T22:06:31Z | Java | Infrastructure/tooling | 4 | 8 | 4 | 4 |
@@ -85,6 +86,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [agentclientprotocol/java-sdk](https://github.com/agentclientprotocol/java-sdk) | 39 | 2026-04-21T18:22:58Z | Java | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [codelibs/fess-crawler](https://github.com/codelibs/fess-crawler) | 36 | 2026-04-19T10:37:09Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [glaforge/adk-java-maven-template](https://github.com/glaforge/adk-java-maven-template) | 35 | 2026-03-30T15:49:31Z | Java | Template/starter | 0 | 0 | 0 | 0 |
+| [filip26/ld-cli](https://github.com/filip26/ld-cli) | 32 | 2026-04-22T09:17:06Z | Java | CLI | 14 | 8 | 16 | 16 |
 | [Azure-Samples/agent-openai-java-banking-assistant-langgraph4j](https://github.com/Azure-Samples/agent-openai-java-banking-assistant-langgraph4j) | 25 | 2026-04-07T09:54:53Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [xmlark/msv](https://github.com/xmlark/msv) | 24 | 2026-04-20T06:27:41Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [kirill-grouchnikov/ephemeral](https://github.com/kirill-grouchnikov/ephemeral) | 23 | 2026-04-21T17:57:02Z | Java | Unknown | 3 | 0 | 3 | 3 |

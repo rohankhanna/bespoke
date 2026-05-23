@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 365,
-    "concepts": 409,
-    "observations": 409,
-    "repos": 54,
-    "terms": 407
+    "components": 323,
+    "concepts": 361,
+    "observations": 361,
+    "repos": 48,
+    "terms": 359
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
-    "a2aproject/a2a-java",
     "allegro/hermes",
     "apache/commons-jexl",
-    "apache/datasketches-java",
     "apache/ignite-3",
     "apache/rocketmq-clients",
     "apache/spark-kubernetes-operator",
@@ -27,16 +25,13 @@
     "beehive-lab/GPULlama3.java",
     "bndtools/bnd",
     "confluentinc/kafka-streams-examples",
-    "connectbot/sshlib",
     "devoxx/DevoxxGenieIDEAPlugin",
     "FasterXML/jackson-dataformat-xml",
     "FasterXML/jackson-dataformats-binary",
     "FasterXML/jackson-dataformats-text",
     "FasterXML/jackson-modules-base",
-    "googleapis/google-api-java-client-services",
     "googleapis/java-bigtable-hbase",
     "graalvm/graalvm-demos",
-    "graalvm/native-build-tools",
     "heroku/webapp-runner",
     "ihmcrobotics/ihmc-open-robotics-software",
     "jcefmaven/jcefmaven",
@@ -49,7 +44,6 @@
     "MarcusWolschon/osmeditor4android",
     "michel-kraemer/bson4jackson",
     "microsoft/LangChain4j-for-Beginners",
-    "microsoft/semantic-kernel-java",
     "microsoft/vscode-java-test",
     "milvus-io/milvus-sdk-java",
     "operator-framework/java-operator-sdk",

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 43
-- terms: 199
-- components: 1211
-- concepts: 200
-- observations: 200
+- terms: 191
+- components: 1196
+- concepts: 192
+- observations: 192
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [janwilmake/openapi-mcp-server](https://github.com/janwilmake/openapi-mcp-server) | 889 | 2026-02-21T12:49:21Z | TypeScript | Service/API | 0 | 2 | 0 | 0 |
 | [googleapis/nodejs-datastore](https://github.com/googleapis/nodejs-datastore) | 226 | 2026-02-20T21:15:01Z | TypeScript | CLI | 3 | 41 | 3 | 3 |
 | [Lusito/webextension-polyfill-ts](https://github.com/Lusito/webextension-polyfill-ts) | 398 | 2026-02-18T20:44:51Z | TypeScript | Web app | 0 | 12 | 0 | 0 |
 | [zsviczian/excalibrain](https://github.com/zsviczian/excalibrain) | 942 | 2026-02-18T07:59:46Z | TypeScript | Unknown | 0 | 25 | 0 | 0 |
@@ -68,7 +69,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kepano/obsidian-hider](https://github.com/kepano/obsidian-hider) | 526 | 2025-12-14T15:04:22Z | TypeScript | Web app | 3 | 8 | 3 | 3 |
 | [TanStack/ranger](https://github.com/TanStack/ranger) | 830 | 2025-12-06T12:39:09Z | TypeScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
 | [ManuelHentschel/VSCode-R-Debugger](https://github.com/ManuelHentschel/VSCode-R-Debugger) | 195 | 2025-11-27T14:51:35Z | TypeScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
-| [PrismLibrary/Prism-Documentation](https://github.com/PrismLibrary/Prism-Documentation) | 184 | 2025-11-23T19:01:16Z | TypeScript | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -76,6 +76,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [bvaughn/react-window-infinite-loader](https://github.com/bvaughn/react-window-infinite-loader) | 949 | 2026-01-12T22:52:35Z | TypeScript | Infrastructure/tooling | 4 | 32 | 4 | 4 |
 | [zsviczian/excalibrain](https://github.com/zsviczian/excalibrain) | 942 | 2026-02-18T07:59:46Z | TypeScript | Unknown | 0 | 25 | 0 | 0 |
+| [janwilmake/openapi-mcp-server](https://github.com/janwilmake/openapi-mcp-server) | 889 | 2026-02-21T12:49:21Z | TypeScript | Service/API | 0 | 2 | 0 | 0 |
 | [TanStack/ranger](https://github.com/TanStack/ranger) | 830 | 2025-12-06T12:39:09Z | TypeScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
 | [addyosmani/chatty](https://github.com/addyosmani/chatty) | 812 | 2026-02-07T18:28:42Z | TypeScript | Infrastructure/tooling | 3 | 51 | 3 | 3 |
 | [niieani/gpt-tokenizer](https://github.com/niieani/gpt-tokenizer) | 778 | 2026-02-10T17:50:16Z | TypeScript | Infrastructure/tooling | 13 | 16 | 13 | 13 |
@@ -104,7 +105,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lostintangent/gistpad-mcp](https://github.com/lostintangent/gistpad-mcp) | 189 | 2026-01-16T17:58:32Z | TypeScript | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [kutsan/stylelint-config-clean-order](https://github.com/kutsan/stylelint-config-clean-order) | 186 | 2026-02-10T14:36:48Z | TypeScript | Infrastructure/tooling | 5 | 28 | 5 | 5 |
 | [celo-org/celo-composer](https://github.com/celo-org/celo-composer) | 186 | 2025-12-18T03:37:27Z | TypeScript | Web app | 7 | 21 | 7 | 7 |
-| [PrismLibrary/Prism-Documentation](https://github.com/PrismLibrary/Prism-Documentation) | 184 | 2025-11-23T19:01:16Z | TypeScript | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 | [weaviate/elysia-frontend](https://github.com/weaviate/elysia-frontend) | 179 | 2026-02-06T15:41:11Z | TypeScript | Infrastructure/tooling | 4 | 74 | 4 | 4 |
 | [Anush008/fastembed-js](https://github.com/Anush008/fastembed-js) | 175 | 2025-12-15T19:06:48Z | TypeScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [antfu/eslint-plugin-antfu](https://github.com/antfu/eslint-plugin-antfu) | 172 | 2026-02-14T04:44:36Z | TypeScript | Infrastructure/tooling | 1 | 24 | 1 | 1 |

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 373
-- terms: 1032
-- components: 4631
-- concepts: 1043
-- observations: 1043
+- repos: 374
+- terms: 1036
+- components: 4648
+- concepts: 1048
+- observations: 1048
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [tree-sitter/tree-sitter-javascript](https://github.com/tree-sitter/tree-sitter-javascript) | 473 | 2025-11-24T01:08:30Z | JavaScript | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [RReverser/wasm-bindgen-rayon](https://github.com/RReverser/wasm-bindgen-rayon) | 294 | 2025-11-21T15:04:23Z | JavaScript | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [markdown-it/markdown-it-footnote](https://github.com/markdown-it/markdown-it-footnote) | 241 | 2025-11-21T02:07:31Z | JavaScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [mourner/rbush-knn](https://github.com/mourner/rbush-knn) | 228 | 2025-11-15T10:35:37Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
@@ -356,7 +357,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [CyanoHao/Resource-Han-Rounded](https://github.com/CyanoHao/Resource-Han-Rounded) | 526 | 2022-05-06T23:25:13Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [bhauman/flappy-bird-demo](https://github.com/bhauman/flappy-bird-demo) | 148 | 2022-05-05T16:42:36Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [gotwarlost/istanbul-middleware](https://github.com/gotwarlost/istanbul-middleware) | 188 | 2022-05-05T00:41:47Z | JavaScript | Service/API | 0 | 9 | 0 | 0 |
-| [denysdovhan/robbyrussell-node](https://github.com/denysdovhan/robbyrussell-node) | 177 | 2022-04-24T16:37:28Z | JavaScript | Unknown | 4 | 9 | 4 | 4 |
+| [denysdovhan/robbyrussell-node](https://github.com/denysdovhan/robbyrussell-node) | 177 | 2022-04-24T16:37:28Z | JavaScript | Unknown | 3 | 9 | 4 | 4 |
 | [alferov/awesome-gulp](https://github.com/alferov/awesome-gulp) | 625 | 2022-04-12T16:51:43Z | JavaScript | Template/starter | 4 | 17 | 4 | 4 |
 | [Raynos/http-framework](https://github.com/Raynos/http-framework) | 521 | 2022-04-12T07:16:37Z | JavaScript | Web app | 0 | 30 | 0 | 0 |
 | [axeldelafosse/expo-next-monorepo-example](https://github.com/axeldelafosse/expo-next-monorepo-example) | 286 | 2022-04-04T22:31:31Z | JavaScript | Unknown | 6 | 1 | 6 | 6 |
@@ -524,6 +525,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bevacqua/insane](https://github.com/bevacqua/insane) | 483 | 2024-05-06T10:46:15Z | JavaScript | Unknown | 2 | 4 | 3 | 3 |
 | [kesla/node-snappy](https://github.com/kesla/node-snappy) | 477 | 2021-07-16T05:13:44Z | JavaScript | Library | 0 | 11 | 0 | 0 |
 | [eugeneware/gifencoder](https://github.com/eugeneware/gifencoder) | 477 | 2021-05-31T18:57:27Z | JavaScript | Service/API | 0 | 8 | 0 | 0 |
+| [tree-sitter/tree-sitter-javascript](https://github.com/tree-sitter/tree-sitter-javascript) | 473 | 2025-11-24T01:08:30Z | JavaScript | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [project-mirai/awesome-mirai](https://github.com/project-mirai/awesome-mirai) | 471 | 2023-12-14T14:33:22Z | JavaScript | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [electron-userland/electron-installer-windows](https://github.com/electron-userland/electron-installer-windows) | 471 | 2022-12-12T19:03:19Z | JavaScript | Infrastructure/tooling | 0 | 22 | 0 | 0 |
 | [commitizen/conventional-commit-types](https://github.com/commitizen/conventional-commit-types) | 468 | 2021-06-05T01:07:56Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |
@@ -682,7 +684,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [newrelic/opensource-website](https://github.com/newrelic/opensource-website) | 180 | 2024-09-11T23:39:34Z | JavaScript | Infrastructure/tooling | 4 | 60 | 4 | 4 |
 | [ajv-validator/ajv-i18n](https://github.com/ajv-validator/ajv-i18n) | 179 | 2024-01-19T17:37:50Z | JavaScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [mzgoddard/preact-render-spy](https://github.com/mzgoddard/preact-render-spy) | 178 | 2023-01-12T09:51:40Z | JavaScript | Unknown | 4 | 16 | 4 | 4 |
-| [denysdovhan/robbyrussell-node](https://github.com/denysdovhan/robbyrussell-node) | 177 | 2022-04-24T16:37:28Z | JavaScript | Unknown | 4 | 9 | 4 | 4 |
+| [denysdovhan/robbyrussell-node](https://github.com/denysdovhan/robbyrussell-node) | 177 | 2022-04-24T16:37:28Z | JavaScript | Unknown | 3 | 9 | 4 | 4 |
 | [paulirish/devtools-timeline-model](https://github.com/paulirish/devtools-timeline-model) | 176 | 2022-11-02T10:27:41Z | JavaScript | Unknown | 0 | 6 | 0 | 0 |
 | [bartolli/claude-code-typescript-hooks](https://github.com/bartolli/claude-code-typescript-hooks) | 175 | 2025-08-26T17:11:20Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [scarf-sh/scarf-js](https://github.com/scarf-sh/scarf-js) | 174 | 2024-11-22T17:04:13Z | JavaScript | Infrastructure/tooling | 0 | 5 | 0 | 0 |

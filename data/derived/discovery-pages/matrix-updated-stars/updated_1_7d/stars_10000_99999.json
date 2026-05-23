@@ -1,37 +1,35 @@
 {
   "counts": {
-    "components": 344,
-    "concepts": 284,
-    "observations": 284,
-    "repos": 29,
-    "terms": 281
+    "components": 380,
+    "concepts": 266,
+    "observations": 267,
+    "repos": 27,
+    "terms": 263
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "567-labs/instructor",
-    "aden-hive/hive",
-    "apache/brpc",
-    "apache/casbin",
-    "browserslist/browserslist",
     "Comfy-Org/ComfyUI-Manager",
-    "Dao-AILab/flash-attention",
+    "deepspeedai/DeepSpeed",
     "dense-analysis/ale",
+    "git-lfs/git-lfs",
     "github-linguist/linguist",
+    "gitleaks/gitleaks",
     "googleapis/google-api-nodejs-client",
+    "hiyouga/LlamaFactory",
     "huggingface/pytorch-image-models",
-    "JetBrains/compose-multiplatform",
+    "huggingface/sentence-transformers",
     "Lightning-AI/pytorch-lightning",
     "meta-llama/llama-cookbook",
-    "mozilla-ai/llamafile",
     "nvm-sh/nvm",
+    "nwjs/nw.js",
     "oobabooga/textgen",
     "preactjs/preact",
-    "psf/black",
     "pyg-team/pytorch_geometric",
     "quickwit-oss/tantivy",
     "realworld-apps/realworld",
@@ -41,6 +39,6 @@
     "SubtitleEdit/subtitleedit",
     "TEN-framework/ten-framework",
     "ungoogled-software/ungoogled-chromium",
-    "verl-project/verl"
+    "unocss/unocss"
   ]
 }

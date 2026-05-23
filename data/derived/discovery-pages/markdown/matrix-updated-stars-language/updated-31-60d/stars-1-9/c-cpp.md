@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · C/C++
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 20
+- repos: 19
 - terms: 101
 - components: 182
 - concepts: 102
@@ -45,7 +45,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [meelgroup/louvain-community](https://github.com/meelgroup/louvain-community) | 2 | 2026-04-01T22:22:47Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [ikonopistsev/mdbxmou](https://github.com/ikonopistsev/mdbxmou) | 4 | 2026-04-01T13:51:03Z | C/C++ | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [objectbox/objectbox-sync-examples](https://github.com/objectbox/objectbox-sync-examples) | 1 | 2026-03-31T07:55:23Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [amir684/esp32c3-red-alert](https://github.com/amir684/esp32c3-red-alert) | 1 | 2026-03-23T10:12:57Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -70,4 +69,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stdlib-js/complex-float32-ctor](https://github.com/stdlib-js/complex-float32-ctor) | 1 | 2026-04-20T01:34:52Z | C/C++ | Infrastructure/tooling | 22 | 24 | 23 | 23 |
 | [gbrobro119-star/darksword-kexploit](https://github.com/gbrobro119-star/darksword-kexploit) | 1 | 2026-04-19T12:37:45Z | C/C++ | Unknown | 1 | 0 | 0 | 0 |
 | [objectbox/objectbox-sync-examples](https://github.com/objectbox/objectbox-sync-examples) | 1 | 2026-03-31T07:55:23Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [amir684/esp32c3-red-alert](https://github.com/amir684/esp32c3-red-alert) | 1 | 2026-03-23T10:12:57Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

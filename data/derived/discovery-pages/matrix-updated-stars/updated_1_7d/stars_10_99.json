@@ -1,25 +1,19 @@
 {
   "counts": {
-    "components": 235,
-    "concepts": 141,
-    "observations": 141,
-    "repos": 26,
-    "terms": 141
+    "components": 218,
+    "concepts": 66,
+    "observations": 66,
+    "repos": 20,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
-    "aidenlab/hic-straw",
-    "aidenlab/juicebox.js",
-    "apache/casbin-actix-casbin-auth",
-    "apache/casbin-axum-casbin",
-    "apache/casbin-rust-actix-casbin",
-    "apache/datafusion-ballista-python",
     "cloudfoundry/bosh-google-cpi-release",
     "cloudfoundry/credhub-cli",
     "compozy/kb",
@@ -28,15 +22,15 @@
     "google-marketing-solutions/ariel",
     "honwen/openwrt-dnsmasq-extra",
     "intel-staging/text-generation-webui",
+    "jelly-beam/rebar3_ex_doc",
+    "joshsymonds/cc-tools",
     "karafka/example-apps",
-    "lumen-oss/luarocks-tag-release",
     "mesh-iit/cad-libraries",
-    "nuxt-modules/emotion",
     "nvim-mini/mini.deps",
-    "openjdk/jdk11u-dev",
-    "openjdk/jdk17u-dev",
-    "openjdk/jdk21u-dev",
+    "ogx-ai/ogx-client-typescript",
+    "pivotal/credhub-release",
     "storybook-community/addon-queryparams",
+    "TrigenSoftware/simple-release",
     "vaporif/parry-guard",
     "windsonR/vite-plugin-virtual-html"
   ]

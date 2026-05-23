@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · Shell
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 40
-- terms: 192
-- components: 174
-- concepts: 195
-- observations: 195
+- repos: 35
+- terms: 182
+- components: 161
+- concepts: 185
+- observations: 185
 
 ## Static behavior
 
@@ -61,11 +61,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [crazy-max/goxx](https://github.com/crazy-max/goxx) | 51 | 2026-04-23T19:13:07Z | Shell | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [bitnami/vulndb](https://github.com/bitnami/vulndb) | 35 | 2026-04-23T18:12:49Z | Shell | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [iterate-ch/profiles](https://github.com/iterate-ch/profiles) | 33 | 2026-04-23T07:59:52Z | Shell | Infrastructure/tooling | 4 | 1 | 4 | 4 |
-| [bnb-chain/node-deploy](https://github.com/bnb-chain/node-deploy) | 69 | 2026-04-23T02:51:41Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [asdf-community/asdf-pdm](https://github.com/asdf-community/asdf-pdm) | 10 | 2026-04-22T22:06:36Z | Shell | Infrastructure/tooling | 5 | 4 | 5 | 5 |
-| [argoproj-labs/argocd-extension-installer](https://github.com/argoproj-labs/argocd-extension-installer) | 40 | 2026-04-22T17:27:45Z | Shell | Infrastructure/tooling | 3 | 6 | 3 | 3 |
-| [conda-forge/pinocchio-feedstock](https://github.com/conda-forge/pinocchio-feedstock) | 20 | 2026-04-22T15:31:29Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [milvus-io/milvus-proto](https://github.com/milvus-io/milvus-proto) | 46 | 2026-04-22T10:09:39Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -78,17 +73,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Chocolate4U/Iran-clash-rules](https://github.com/Chocolate4U/Iran-clash-rules) | 71 | 2026-05-03T07:33:34Z | Shell | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [electerm/electerm-web-docker](https://github.com/electerm/electerm-web-docker) | 71 | 2026-04-29T09:34:48Z | Shell | CLI | 8 | 4 | 8 | 8 |
 | [envoyproxy/examples](https://github.com/envoyproxy/examples) | 69 | 2026-04-24T06:06:00Z | Shell | Infrastructure/tooling | 3 | 7 | 3 | 3 |
-| [bnb-chain/node-deploy](https://github.com/bnb-chain/node-deploy) | 69 | 2026-04-23T02:51:41Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [dependabot/smoke-tests](https://github.com/dependabot/smoke-tests) | 66 | 2026-04-23T19:32:53Z | Shell | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [heroku/heroku-buildpack-gradle](https://github.com/heroku/heroku-buildpack-gradle) | 63 | 2026-05-01T03:43:32Z | Shell | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [sclorg/s2i-ruby-container](https://github.com/sclorg/s2i-ruby-container) | 55 | 2026-05-01T17:59:18Z | Shell | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [stefantalpalaru/gentoo-overlay](https://github.com/stefantalpalaru/gentoo-overlay) | 52 | 2026-05-02T13:32:00Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [crazy-max/goxx](https://github.com/crazy-max/goxx) | 51 | 2026-04-23T19:13:07Z | Shell | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [acmesh-official/acmetest](https://github.com/acmesh-official/acmetest) | 48 | 2026-04-24T20:32:07Z | Shell | Infrastructure/tooling | 9 | 9 | 9 | 9 |
-| [milvus-io/milvus-proto](https://github.com/milvus-io/milvus-proto) | 46 | 2026-04-22T10:09:39Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [tinted-theming/tinted-terminal](https://github.com/tinted-theming/tinted-terminal) | 44 | 2026-04-29T19:14:42Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [heroku/heroku-buildpack-jvm-common](https://github.com/heroku/heroku-buildpack-jvm-common) | 43 | 2026-05-01T22:44:08Z | Shell | Infrastructure/tooling | 7 | 4 | 7 | 7 |
-| [argoproj-labs/argocd-extension-installer](https://github.com/argoproj-labs/argocd-extension-installer) | 40 | 2026-04-22T17:27:45Z | Shell | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [helidon-io/helidon-examples](https://github.com/helidon-io/helidon-examples) | 35 | 2026-04-27T15:59:53Z | Shell | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [bitnami/vulndb](https://github.com/bitnami/vulndb) | 35 | 2026-04-23T18:12:49Z | Shell | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [leleliu008/ppkg](https://github.com/leleliu008/ppkg) | 33 | 2026-05-04T08:15:44Z | Shell | CLI | 9 | 5 | 10 | 10 |
@@ -99,7 +91,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Alexpux/MINGW-packages](https://github.com/Alexpux/MINGW-packages) | 22 | 2026-04-30T11:36:52Z | Shell | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [reviewdog/action-depup](https://github.com/reviewdog/action-depup) | 22 | 2026-04-29T16:04:05Z | Shell | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [cilium/community](https://github.com/cilium/community) | 21 | 2026-04-30T21:33:05Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
-| [conda-forge/pinocchio-feedstock](https://github.com/conda-forge/pinocchio-feedstock) | 20 | 2026-04-22T15:31:29Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [sclorg/s2i-perl-container](https://github.com/sclorg/s2i-perl-container) | 17 | 2026-05-01T11:32:10Z | Shell | Infrastructure/tooling | 11 | 9 | 11 | 11 |
 | [cldwalker/dotfiles](https://github.com/cldwalker/dotfiles) | 16 | 2026-05-01T04:11:52Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [VOICEVOX/onnxruntime-builder](https://github.com/VOICEVOX/onnxruntime-builder) | 15 | 2026-05-02T17:17:13Z | Shell | Infrastructure/tooling | 3 | 10 | 3 | 3 |
@@ -110,4 +101,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Azure/aaz](https://github.com/Azure/aaz) | 12 | 2026-04-24T06:29:54Z | Shell | CLI | 1 | 2 | 1 | 1 |
 | [heroku/heroku-buildpack-dotnet](https://github.com/heroku/heroku-buildpack-dotnet) | 10 | 2026-05-01T23:34:13Z | Shell | Infrastructure/tooling | 11 | 7 | 11 | 11 |
 | [dotenvx/dotenvx.sh](https://github.com/dotenvx/dotenvx.sh) | 10 | 2026-04-27T15:52:28Z | Shell | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [asdf-community/asdf-pdm](https://github.com/asdf-community/asdf-pdm) | 10 | 2026-04-22T22:06:36Z | Shell | Infrastructure/tooling | 5 | 4 | 5 | 5 |

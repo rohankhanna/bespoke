@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 12
-- terms: 113
-- components: 110
-- concepts: 113
-- observations: 114
+- repos: 10
+- terms: 104
+- components: 94
+- concepts: 104
+- observations: 105
 
 ## Static behavior
 
@@ -26,32 +26,28 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [PrimeIntellect-ai/verifiers](https://github.com/PrimeIntellect-ai/verifiers) | 4125 | 2026-05-22T08:16:20Z | Python | Infrastructure/tooling | 7 | 11 | 7 | 7 |
-| [meta-pytorch/captum](https://github.com/meta-pytorch/captum) | 5631 | 2026-05-22T07:44:42Z | Python | Infrastructure/tooling | 11 | 3 | 11 | 12 |
-| [meta-pytorch/torchcodec](https://github.com/meta-pytorch/torchcodec) | 1073 | 2026-05-22T07:26:38Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |
+| [harbor-framework/harbor](https://github.com/harbor-framework/harbor) | 2076 | 2026-05-23T02:05:05Z | Python | CLI | 9 | 8 | 9 | 9 |
+| [meta-pytorch/captum](https://github.com/meta-pytorch/captum) | 5631 | 2026-05-23T01:18:04Z | Python | Infrastructure/tooling | 11 | 3 | 11 | 12 |
+| [fla-org/flash-linear-attention](https://github.com/fla-org/flash-linear-attention) | 5124 | 2026-05-22T23:33:52Z | Python | Infrastructure/tooling | 13 | 7 | 13 | 13 |
+| [rllm-org/rllm](https://github.com/rllm-org/rllm) | 5551 | 2026-05-22T23:13:51Z | Python | Infrastructure/tooling | 21 | 6 | 21 | 21 |
+| [PrimeIntellect-ai/verifiers](https://github.com/PrimeIntellect-ai/verifiers) | 4126 | 2026-05-22T19:14:47Z | Python | Infrastructure/tooling | 7 | 11 | 7 | 7 |
+| [bitsandbytes-foundation/bitsandbytes](https://github.com/bitsandbytes-foundation/bitsandbytes) | 8223 | 2026-05-22T19:12:07Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |
+| [meta-pytorch/torchcodec](https://github.com/meta-pytorch/torchcodec) | 1074 | 2026-05-22T12:19:43Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |
+| [meta-pytorch/torchtune](https://github.com/meta-pytorch/torchtune) | 5757 | 2026-05-22T12:19:39Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
+| [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 2618 | 2026-05-22T10:07:14Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1311 | 2026-05-22T07:21:32Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
-| [JuergenFleiss/aTrain](https://github.com/JuergenFleiss/aTrain) | 1136 | 2026-05-22T05:26:10Z | Python | Model/data | 0 | 0 | 0 | 0 |
-| [harbor-framework/harbor](https://github.com/harbor-framework/harbor) | 2063 | 2026-05-22T05:18:14Z | Python | CLI | 9 | 8 | 9 | 9 |
-| [rllm-org/rllm](https://github.com/rllm-org/rllm) | 5550 | 2026-05-22T05:11:07Z | Python | Infrastructure/tooling | 21 | 6 | 21 | 21 |
-| [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 2618 | 2026-05-21T21:54:03Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
-| [fla-org/flash-linear-attention](https://github.com/fla-org/flash-linear-attention) | 5123 | 2026-05-21T20:39:08Z | Python | Infrastructure/tooling | 13 | 7 | 13 | 13 |
-| [bitsandbytes-foundation/bitsandbytes](https://github.com/bitsandbytes-foundation/bitsandbytes) | 8221 | 2026-05-21T14:22:44Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |
-| [ogx-ai/ogx](https://github.com/ogx-ai/ogx) | 8384 | 2026-05-21T13:25:43Z | Python | Infrastructure/tooling | 9 | 16 | 9 | 9 |
-| [meta-pytorch/torchtune](https://github.com/meta-pytorch/torchtune) | 5757 | 2026-05-21T12:32:48Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ogx-ai/ogx](https://github.com/ogx-ai/ogx) | 8384 | 2026-05-21T13:25:43Z | Python | Infrastructure/tooling | 9 | 16 | 9 | 9 |
-| [bitsandbytes-foundation/bitsandbytes](https://github.com/bitsandbytes-foundation/bitsandbytes) | 8221 | 2026-05-21T14:22:44Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |
-| [meta-pytorch/torchtune](https://github.com/meta-pytorch/torchtune) | 5757 | 2026-05-21T12:32:48Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
-| [meta-pytorch/captum](https://github.com/meta-pytorch/captum) | 5631 | 2026-05-22T07:44:42Z | Python | Infrastructure/tooling | 11 | 3 | 11 | 12 |
-| [rllm-org/rllm](https://github.com/rllm-org/rllm) | 5550 | 2026-05-22T05:11:07Z | Python | Infrastructure/tooling | 21 | 6 | 21 | 21 |
-| [fla-org/flash-linear-attention](https://github.com/fla-org/flash-linear-attention) | 5123 | 2026-05-21T20:39:08Z | Python | Infrastructure/tooling | 13 | 7 | 13 | 13 |
-| [PrimeIntellect-ai/verifiers](https://github.com/PrimeIntellect-ai/verifiers) | 4125 | 2026-05-22T08:16:20Z | Python | Infrastructure/tooling | 7 | 11 | 7 | 7 |
-| [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 2618 | 2026-05-21T21:54:03Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
-| [harbor-framework/harbor](https://github.com/harbor-framework/harbor) | 2063 | 2026-05-22T05:18:14Z | Python | CLI | 9 | 8 | 9 | 9 |
+| [bitsandbytes-foundation/bitsandbytes](https://github.com/bitsandbytes-foundation/bitsandbytes) | 8223 | 2026-05-22T19:12:07Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |
+| [meta-pytorch/torchtune](https://github.com/meta-pytorch/torchtune) | 5757 | 2026-05-22T12:19:39Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
+| [meta-pytorch/captum](https://github.com/meta-pytorch/captum) | 5631 | 2026-05-23T01:18:04Z | Python | Infrastructure/tooling | 11 | 3 | 11 | 12 |
+| [rllm-org/rllm](https://github.com/rllm-org/rllm) | 5551 | 2026-05-22T23:13:51Z | Python | Infrastructure/tooling | 21 | 6 | 21 | 21 |
+| [fla-org/flash-linear-attention](https://github.com/fla-org/flash-linear-attention) | 5124 | 2026-05-22T23:33:52Z | Python | Infrastructure/tooling | 13 | 7 | 13 | 13 |
+| [PrimeIntellect-ai/verifiers](https://github.com/PrimeIntellect-ai/verifiers) | 4126 | 2026-05-22T19:14:47Z | Python | Infrastructure/tooling | 7 | 11 | 7 | 7 |
+| [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 2618 | 2026-05-22T10:07:14Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
+| [harbor-framework/harbor](https://github.com/harbor-framework/harbor) | 2076 | 2026-05-23T02:05:05Z | Python | CLI | 9 | 8 | 9 | 9 |
 | [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1311 | 2026-05-22T07:21:32Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
-| [JuergenFleiss/aTrain](https://github.com/JuergenFleiss/aTrain) | 1136 | 2026-05-22T05:26:10Z | Python | Model/data | 0 | 0 | 0 | 0 |
-| [meta-pytorch/torchcodec](https://github.com/meta-pytorch/torchcodec) | 1073 | 2026-05-22T07:26:38Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |
+| [meta-pytorch/torchcodec](https://github.com/meta-pytorch/torchcodec) | 1074 | 2026-05-22T12:19:43Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |

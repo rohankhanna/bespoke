@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 270,
-    "concepts": 366,
-    "observations": 368,
-    "repos": 69,
-    "terms": 365
+    "components": 264,
+    "concepts": 363,
+    "observations": 365,
+    "repos": 68,
+    "terms": 362
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
-    "3rd/image.nvim",
     "activerecord-hackery/ransack",
     "analysis-tools-dev/dynamic-analysis",
     "ardalis/ApiEndpoints",
@@ -44,7 +43,7 @@
     "google/cel-spec",
     "googleapis/elixir-google-api",
     "grangier/python-goose",
-    "IDEA-Research/Rex-Omni",
+    "Intellindust-AI-Lab/DEIMv2",
     "javan/whenever",
     "jpanther/congo",
     "lindawangg/COVID-Net",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 160,
-    "concepts": 204,
-    "observations": 206,
-    "repos": 37,
-    "terms": 197
+    "components": 106,
+    "concepts": 156,
+    "observations": 156,
+    "repos": 27,
+    "terms": 151
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "2KAbhishek/dots2k",
     "alexmyczko/fnt",
@@ -21,9 +21,6 @@
     "bnb-chain/bsc-snapshots",
     "Chocolate4U/Iran-v2ray-rules",
     "cloudfoundry/bosh-deployment",
-    "dani-garcia/bw_web_builds",
-    "gentoo/guru",
-    "getsolus/packages",
     "harbor-framework/terminal-bench-2",
     "heroku/base-images",
     "heroku/heroku-buildpack-go",
@@ -31,24 +28,17 @@
     "itzg/docker-mc-backup",
     "jcefmaven/jcefbuild",
     "jez/dotfiles",
-    "justchokingaround/lobster",
-    "jvm-repo-rebuild/reproducible-central",
-    "lemire/docker_programming_station",
     "lovell/sharp-libvips",
     "meyayl/docker-languagetool",
     "microcai/gentoo-zh",
     "mozilla/addons",
-    "msys2/msys2-installer",
     "NVIDIA/enroot",
     "openshift/release",
     "pacstall/pacstall-programs",
     "pion/awesome-pion",
     "rocker-org/rocker-versioned2",
-    "rust-cross/rust-musl-cross",
     "sclorg/s2i-php-container",
-    "termux/repology-metadata",
     "tinted-theming/schemes",
-    "tonistiigi/xx",
     "TypedDevs/bashunit",
     "ungoogled-software/ungoogled-chromium-archlinux"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 131,
-    "concepts": 136,
-    "observations": 138,
-    "repos": 45,
-    "terms": 133
+    "concepts": 138,
+    "observations": 140,
+    "repos": 46,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "3dfxdev/EDGE",
     "a-n-t-h-o-n-y/signals-light",
@@ -38,6 +38,7 @@
     "icppWorld/icpp_llm",
     "jdlph/OpenDTA",
     "jokkebk/JUnzip",
+    "jrsoftware/iscompress",
     "JuliaInterop/libcxxwrap-julia",
     "lemire/fast_float",
     "nativium/nativium",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 365,
-    "concepts": 739,
-    "observations": 739,
-    "repos": 200,
-    "terms": 733
+    "components": 379,
+    "concepts": 759,
+    "observations": 759,
+    "repos": 203,
+    "terms": 753
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "0k/shyaml",
     "23andMe/Yamale",
@@ -40,7 +40,6 @@
     "arsenetar/send2trash",
     "ashvardanian/less_slow.py",
     "ASLP-lab/Easy-Turn",
-    "ASLP-lab/OSUM",
     "autonomousvision/carla_garage",
     "autonomousvision/plant",
     "aws-cloudformation/aws-cloudformation-samples",
@@ -72,6 +71,7 @@
     "corydolphin/flask-cors",
     "CSfufu/Revisual-R1",
     "DanCardin/cappa",
+    "danielward27/flowjax",
     "dbeley/awesome-lemmy",
     "deepbeepmeep/mmgp",
     "DengPingFan/PraNet",
@@ -109,8 +109,8 @@
     "inducer/cgen",
     "intel/ai-reference-models",
     "InternRobotics/VLAC",
-    "InternScience/SciReason",
     "InternScience/StructEqTable-Deploy",
+    "j-bennet/wharfee",
     "JettHu/ComfyUI-TCD",
     "JettHu/ComfyUI_TGate",
     "jimmyyhwu/tidybot2",
@@ -120,6 +120,7 @@
     "kingbri1/flash-attention",
     "LAION-AI/audio-dataset",
     "lebrice/SimpleParsing",
+    "lifeiteng/OmniSenseVoice",
     "liruilong940607/prope",
     "lldacing/ComfyUI_Patches_ll",
     "lucidrains/rotary-embedding-torch",
@@ -176,6 +177,7 @@
     "SAML-Toolkits/python3-saml",
     "SarahWeiii/pamo",
     "sayakpaul/diffusers-torchao",
+    "securefederatedai/openfederatedlearning",
     "ServiceNow/TapeAgents",
     "ShenhanQian/GaussianAvatars",
     "SLDGroup/EMCAD",
@@ -196,6 +198,7 @@
     "tulerfeng/Video-R1",
     "tvogels/pyexr",
     "v-iashin/video_features",
+    "vietanhdev/samexporter",
     "virtuald/pyhcl",
     "walles/px",
     "whatwg/meta",

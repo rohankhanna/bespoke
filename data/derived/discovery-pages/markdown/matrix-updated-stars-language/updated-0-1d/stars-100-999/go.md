@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Go
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 18
-- components: 26
-- concepts: 18
-- observations: 18
+- repos: 1
+- terms: 0
+- components: 0
+- concepts: 0
+- observations: 0
 
 ## Static behavior
 
@@ -26,14 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [yaling888/quirktiva](https://github.com/yaling888/quirktiva) | 278 | 2026-05-22T06:45:28Z | Go | Unknown | 0 | 0 | 0 | 0 |
-| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 910 | 2026-05-21T21:10:34Z | Go | Infrastructure/tooling | 5 | 19 | 5 | 5 |
-| [betterleaks/betterleaks](https://github.com/betterleaks/betterleaks) | 965 | 2026-05-21T21:06:46Z | Go | Infrastructure/tooling | 13 | 7 | 13 | 13 |
+| [yaling888/quirktiva](https://github.com/yaling888/quirktiva) | 278 | 2026-05-22T18:00:58Z | Go | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [betterleaks/betterleaks](https://github.com/betterleaks/betterleaks) | 965 | 2026-05-21T21:06:46Z | Go | Infrastructure/tooling | 13 | 7 | 13 | 13 |
-| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 910 | 2026-05-21T21:10:34Z | Go | Infrastructure/tooling | 5 | 19 | 5 | 5 |
-| [yaling888/quirktiva](https://github.com/yaling888/quirktiva) | 278 | 2026-05-22T06:45:28Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [yaling888/quirktiva](https://github.com/yaling888/quirktiva) | 278 | 2026-05-22T18:00:58Z | Go | Unknown | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 468,
-    "concepts": 79,
-    "observations": 79,
-    "repos": 26,
-    "terms": 79
+    "components": 536,
+    "concepts": 88,
+    "observations": 88,
+    "repos": 28,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "aaaaalexis/obsidian-pseudo-mica",
     "acro5piano/kysely-migration-cli",
     "aiden0z/pptx-renderer",
-    "AlexJPotter/fluentvalidation-ts",
+    "apache/incubator-devlake-website",
+    "automazeio/proof",
     "br14n-sol/inquirer-file-selector",
     "ClickHouse/opentelemetry-demo",
     "dannyhw/react-native-storybook-starter",
@@ -28,8 +29,9 @@
     "hbenl/vscode-mocha-test-adapter",
     "HoneyLuka/uBlacklist",
     "ipfs/js-kubo-rpc-client",
-    "janwilmake/openapisearch",
     "klaudworks/ralph-meets-rex",
+    "literalpie/storybook-framework-qwik",
+    "nanostores/alpine",
     "nulone/claude-rules-doctor",
     "pkgxdev/brewkit",
     "pkgxdev/dev",

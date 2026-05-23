@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 51
-- terms: 158
-- components: 217
-- concepts: 160
-- observations: 160
+- repos: 53
+- terms: 165
+- components: 227
+- concepts: 167
+- observations: 167
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [IST-DASLab/Quartet-II](https://github.com/IST-DASLab/Quartet-II) | 70 | 2026-03-23T13:53:39Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [logic-star-ai/swt-bench](https://github.com/logic-star-ai/swt-bench) | 76 | 2026-03-23T10:01:52Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [nousresearch/tinker-atropos](https://github.com/NousResearch/tinker-atropos) | 52 | 2026-03-22T21:35:09Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [all-the-noises/eval-arena](https://github.com/all-the-noises/eval-arena) | 34 | 2026-03-21T22:09:14Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [FindDefinition/cumm](https://github.com/FindDefinition/cumm) | 84 | 2026-03-21T10:09:46Z | Python | Infrastructure/tooling | 1 | 6 | 1 | 1 |
@@ -88,10 +90,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [FindDefinition/cumm](https://github.com/FindDefinition/cumm) | 84 | 2026-03-21T10:09:46Z | Python | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [apache/parquet-testing](https://github.com/apache/parquet-testing) | 84 | 2026-03-04T06:49:07Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [GuiWonder/HuayingMincho](https://github.com/GuiWonder/HuayingMincho) | 82 | 2026-03-04T11:58:13Z | Python | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [logic-star-ai/swt-bench](https://github.com/logic-star-ai/swt-bench) | 76 | 2026-03-23T10:01:52Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [yxlllc/RMVPE](https://github.com/yxlllc/RMVPE) | 76 | 2026-03-12T15:18:46Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [fla-org/flash-bidirectional-linear-attention](https://github.com/fla-org/flash-bidirectional-linear-attention) | 75 | 2026-03-01T04:06:49Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [cuiziteng/Luminance-GS](https://github.com/cuiziteng/Luminance-GS) | 75 | 2026-02-25T02:40:31Z | Python | Unknown | 5 | 0 | 6 | 6 |
 | [liran-funaro/sphinx-markdown-builder](https://github.com/liran-funaro/sphinx-markdown-builder) | 71 | 2026-03-11T10:44:56Z | Python | Infrastructure/tooling | 5 | 2 | 6 | 6 |
+| [IST-DASLab/Quartet-II](https://github.com/IST-DASLab/Quartet-II) | 70 | 2026-03-23T13:53:39Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [agents-x-project/PyVision-RL](https://github.com/agents-x-project/PyVision-RL) | 70 | 2026-02-25T09:05:48Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [Embarcadero/PythonEnvironments](https://github.com/Embarcadero/PythonEnvironments) | 62 | 2026-02-27T10:20:06Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [vinlyx/mgzip](https://github.com/vinlyx/mgzip) | 59 | 2026-02-28T11:47:24Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |

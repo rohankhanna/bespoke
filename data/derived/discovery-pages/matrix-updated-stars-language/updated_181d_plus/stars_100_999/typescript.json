@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4924,
-    "concepts": 763,
-    "observations": 765,
-    "repos": 203,
-    "terms": 774
+    "components": 4941,
+    "concepts": 771,
+    "observations": 773,
+    "repos": 204,
+    "terms": 782
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "101arrowz/fzstd",
     "1hanzla100/developer-portfolio",
@@ -169,6 +169,7 @@
     "possibilities/claude-composer",
     "pragmagic/vscode-nim",
     "preactjs-templates/typescript",
+    "PrismLibrary/Prism-Documentation",
     "proposal-signals/signal-polyfill",
     "proposal-signals/signal-utils",
     "Qard/onchange",

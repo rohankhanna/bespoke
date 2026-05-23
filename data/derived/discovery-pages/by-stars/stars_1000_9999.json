@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 55144,
-    "concepts": 35784,
-    "observations": 35892,
-    "repos": 6057,
-    "terms": 35681
+    "components": 55149,
+    "concepts": 35833,
+    "observations": 35941,
+    "repos": 6062,
+    "terms": 35723
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -1286,7 +1286,6 @@
     "crytic/building-secure-contracts",
     "crytic/echidna",
     "crytic/slither",
-    "CSAILVision/gandissect",
     "CSAILVision/places365",
     "CSAILVision/semantic-segmentation-pytorch",
     "css/csso",
@@ -2034,6 +2033,8 @@
     "fugue-project/fugue",
     "fukuball/jieba-php",
     "fullstorydev/grpcui",
+    "FunAudioLLM/Fun-ASR",
+    "FunAudioLLM/SenseVoice",
     "fundamentalvision/BEVFormer",
     "fundamentalvision/Deformable-DETR",
     "FunnyWolf/Viper",
@@ -2773,6 +2774,7 @@
     "jalammar/ecco",
     "JamesIves/github-pages-deploy-action",
     "jameslittle230/stork",
+    "jameslyons/python_speech_features",
     "jamiebrynes7/obsidian-todoist-plugin",
     "JaneaSystems/nodejs-mobile",
     "jankovicsandras/imagetracerjs",
@@ -3269,6 +3271,7 @@
     "linebender/tiny-skia",
     "linkchecker/linkchecker",
     "linkedin/Liger-Kernel",
+    "linto-ai/whisper-timestamped",
     "LinusU/node-appdmg",
     "Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB",
     "liquidmetal-dev/flintlock",
@@ -3745,6 +3748,7 @@
     "modelcontextprotocol/swift-sdk",
     "modelscope/3D-Speaker",
     "modelscope/evalscope",
+    "modelscope/FunClip",
     "modelscope/modelscope",
     "modelscope/modelscope-classroom",
     "modelscope/ms-agent",
@@ -4575,6 +4579,7 @@
     "pyenv/pyenv-installer",
     "pyenv/pyenv-virtualenv",
     "PyImageSearch/imutils",
+    "pykaldi/pykaldi",
     "pykeen/pykeen",
     "pykeio/ort",
     "pylint-dev/pylint",

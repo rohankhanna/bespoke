@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,9 +13,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 4
-- terms: 36
-- components: 38
-- concepts: 36
+- terms: 35
+- components: 51
+- concepts: 35
 - observations: 36
 
 ## Static behavior
@@ -26,16 +26,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2038 | 2026-05-22T05:05:40Z | Rust | Infrastructure/tooling | 13 | 27 | 13 | 14 |
 | [ash-rs/ash](https://github.com/ash-rs/ash) | 2267 | 2026-05-20T11:47:53Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1561 | 2026-05-20T09:18:54Z | Rust | Infrastructure/tooling | 9 | 17 | 9 | 9 |
 | [hermit-os/hermit-rs](https://github.com/hermit-os/hermit-rs) | 1920 | 2026-05-19T12:40:59Z | Rust | Infrastructure/tooling | 10 | 5 | 10 | 10 |
-| [apache/casbin-rs](https://github.com/apache/casbin-rs) | 1109 | 2026-05-15T19:19:06Z | Rust | Infrastructure/tooling | 14 | 14 | 14 | 14 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [ash-rs/ash](https://github.com/ash-rs/ash) | 2267 | 2026-05-20T11:47:53Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [apache/datafusion-ballista](https://github.com/apache/datafusion-ballista) | 2038 | 2026-05-22T05:05:40Z | Rust | Infrastructure/tooling | 13 | 27 | 13 | 14 |
 | [hermit-os/hermit-rs](https://github.com/hermit-os/hermit-rs) | 1920 | 2026-05-19T12:40:59Z | Rust | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1561 | 2026-05-20T09:18:54Z | Rust | Infrastructure/tooling | 9 | 17 | 9 | 9 |
-| [apache/casbin-rs](https://github.com/apache/casbin-rs) | 1109 | 2026-05-15T19:19:06Z | Rust | Infrastructure/tooling | 14 | 14 | 14 | 14 |

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 2
-- components: 16
-- concepts: 2
-- observations: 2
+- repos: 2
+- terms: 13
+- components: 38
+- concepts: 13
+- observations: 13
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [GDevelopApp/GDevelop-extensions](https://github.com/GDevelopApp/GDevelop-extensions) | 249 | 2026-05-21T10:20:07Z | JavaScript | Infrastructure/tooling | 11 | 22 | 11 | 11 |
 | [browserslist/caniuse-lite](https://github.com/browserslist/caniuse-lite) | 609 | 2026-05-17T05:33:17Z | JavaScript | Infrastructure/tooling | 2 | 16 | 2 | 2 |
 
 ## Repos sorted by stars
@@ -33,3 +34,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [browserslist/caniuse-lite](https://github.com/browserslist/caniuse-lite) | 609 | 2026-05-17T05:33:17Z | JavaScript | Infrastructure/tooling | 2 | 16 | 2 | 2 |
+| [GDevelopApp/GDevelop-extensions](https://github.com/GDevelopApp/GDevelop-extensions) | 249 | 2026-05-21T10:20:07Z | JavaScript | Infrastructure/tooling | 11 | 22 | 11 | 11 |

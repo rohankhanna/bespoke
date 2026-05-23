@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 45
-- terms: 246
-- components: 176
-- concepts: 233
-- observations: 235
+- repos: 53
+- terms: 288
+- components: 227
+- concepts: 277
+- observations: 281
 
 ## Static behavior
 
@@ -26,6 +26,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [termux/repology-metadata](https://github.com/termux/repology-metadata) | 128 | 2026-04-23T03:41:24Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [rust-cross/rust-musl-cross](https://github.com/rust-cross/rust-musl-cross) | 735 | 2026-04-23T02:25:32Z | Shell | Infrastructure/tooling | 6 | 11 | 6 | 6 |
+| [tonistiigi/xx](https://github.com/tonistiigi/xx) | 554 | 2026-04-23T01:14:22Z | Shell | Infrastructure/tooling | 9 | 11 | 9 | 9 |
+| [gentoo/guru](https://github.com/gentoo/guru) | 276 | 2026-04-22T21:33:15Z | Shell | Infrastructure/tooling | 4 | 4 | 4 | 4 |
+| [jvm-repo-rebuild/reproducible-central](https://github.com/jvm-repo-rebuild/reproducible-central) | 141 | 2026-04-22T21:19:51Z | Shell | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [lemire/docker_programming_station](https://github.com/lemire/docker_programming_station) | 159 | 2026-04-22T19:21:56Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
+| [getsolus/packages](https://github.com/getsolus/packages) | 126 | 2026-04-22T17:30:44Z | Shell | Infrastructure/tooling | 4 | 5 | 4 | 4 |
+| [msys2/msys2-installer](https://github.com/msys2/msys2-installer) | 931 | 2026-04-22T15:54:18Z | Shell | CLI | 1 | 4 | 1 | 1 |
+| [justchokingaround/lobster](https://github.com/justchokingaround/lobster) | 873 | 2026-04-22T11:16:58Z | Shell | Infrastructure/tooling | 14 | 5 | 16 | 18 |
+| [dani-garcia/bw_web_builds](https://github.com/dani-garcia/bw_web_builds) | 366 | 2026-04-22T10:35:58Z | Shell | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [sclorg/s2i-python-container](https://github.com/sclorg/s2i-python-container) | 270 | 2026-04-22T08:32:11Z | Shell | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [opea-project/GenAIExamples](https://github.com/opea-project/GenAIExamples) | 730 | 2026-04-21T21:00:57Z | Shell | Infrastructure/tooling | 12 | 5 | 12 | 12 |
 | [reviewdog/action-shellcheck](https://github.com/reviewdog/action-shellcheck) | 120 | 2026-04-21T20:35:09Z | Shell | Infrastructure/tooling | 5 | 5 | 5 | 6 |
@@ -69,36 +79,38 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [github/super-linter](https://github.com/github/super-linter) | 146 | 2026-03-26T01:18:14Z | Shell | Infrastructure/tooling | 5 | 13 | 5 | 5 |
 | [mosaicml/examples](https://github.com/mosaicml/examples) | 468 | 2026-03-25T20:11:02Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [aws/aws-app-mesh-examples](https://github.com/aws/aws-app-mesh-examples) | 867 | 2026-03-25T18:30:07Z | Shell | Service/API | 2 | 0 | 2 | 2 |
-| [docker-library/hello-world](https://github.com/docker-library/hello-world) | 540 | 2026-03-23T21:06:54Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [heroku/heroku-buildpack-pgbouncer](https://github.com/heroku/heroku-buildpack-pgbouncer) | 335 | 2026-03-23T15:46:57Z | Shell | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [msys2/msys2-installer](https://github.com/msys2/msys2-installer) | 931 | 2026-04-22T15:54:18Z | Shell | CLI | 1 | 4 | 1 | 1 |
 | [cncf/k8s-conformance](https://github.com/cncf/k8s-conformance) | 926 | 2026-04-15T23:24:11Z | Shell | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [unixorn/zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) | 890 | 2026-04-20T17:04:01Z | Shell | Infrastructure/tooling | 14 | 4 | 14 | 14 |
+| [justchokingaround/lobster](https://github.com/justchokingaround/lobster) | 873 | 2026-04-22T11:16:58Z | Shell | Infrastructure/tooling | 14 | 5 | 16 | 18 |
 | [aws/aws-app-mesh-examples](https://github.com/aws/aws-app-mesh-examples) | 867 | 2026-03-25T18:30:07Z | Shell | Service/API | 2 | 0 | 2 | 2 |
 | [mklement0/n-install](https://github.com/mklement0/n-install) | 842 | 2026-03-26T11:10:20Z | Shell | Unknown | 2 | 6 | 2 | 2 |
 | [ericbuess/claude-code-docs](https://github.com/ericbuess/claude-code-docs) | 820 | 2026-04-19T12:07:03Z | Shell | Infrastructure/tooling | 2 | 3 | 0 | 0 |
 | [heroku/heroku-buildpack-php](https://github.com/heroku/heroku-buildpack-php) | 816 | 2026-04-17T22:26:53Z | Shell | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [SamNet-dev/paqctl](https://github.com/SamNet-dev/paqctl) | 797 | 2026-04-06T19:45:00Z | Shell | Unknown | 10 | 0 | 10 | 10 |
+| [rust-cross/rust-musl-cross](https://github.com/rust-cross/rust-musl-cross) | 735 | 2026-04-23T02:25:32Z | Shell | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [opea-project/GenAIExamples](https://github.com/opea-project/GenAIExamples) | 730 | 2026-04-21T21:00:57Z | Shell | Infrastructure/tooling | 12 | 5 | 12 | 12 |
 | [trailofbits/claude-code-devcontainer](https://github.com/trailofbits/claude-code-devcontainer) | 721 | 2026-04-09T11:23:30Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [docker-library/ruby](https://github.com/docker-library/ruby) | 619 | 2026-04-21T10:39:08Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [kubernetes/sig-release](https://github.com/kubernetes/sig-release) | 607 | 2026-04-17T17:37:05Z | Shell | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [chaoss/grimoirelab](https://github.com/chaoss/grimoirelab) | 596 | 2026-04-08T22:10:24Z | Shell | Infrastructure/tooling | 11 | 12 | 11 | 11 |
-| [docker-library/hello-world](https://github.com/docker-library/hello-world) | 540 | 2026-03-23T21:06:54Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [tonistiigi/xx](https://github.com/tonistiigi/xx) | 554 | 2026-04-23T01:14:22Z | Shell | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [actions/upload-pages-artifact](https://github.com/actions/upload-pages-artifact) | 477 | 2026-04-13T19:24:32Z | Shell | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [denysdovhan/dotfiles](https://github.com/denysdovhan/dotfiles) | 469 | 2026-04-21T16:23:35Z | Shell | Unknown | 6 | 0 | 7 | 7 |
 | [mosaicml/examples](https://github.com/mosaicml/examples) | 468 | 2026-03-25T20:11:02Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [0xNyk/council-of-high-intelligence](https://github.com/0xNyk/council-of-high-intelligence) | 446 | 2026-04-15T19:19:28Z | Shell | Model/data | 7 | 0 | 7 | 7 |
 | [rz1989s/claude-code-statusline](https://github.com/rz1989s/claude-code-statusline) | 427 | 2026-04-17T17:11:17Z | Shell | CLI | 5 | 7 | 0 | 0 |
+| [dani-garcia/bw_web_builds](https://github.com/dani-garcia/bw_web_builds) | 366 | 2026-04-22T10:35:58Z | Shell | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [aslafy-z/helm-git](https://github.com/aslafy-z/helm-git) | 360 | 2026-04-02T07:54:04Z | Shell | Infrastructure/tooling | 7 | 14 | 7 | 7 |
-| [heroku/heroku-buildpack-pgbouncer](https://github.com/heroku/heroku-buildpack-pgbouncer) | 335 | 2026-03-23T15:46:57Z | Shell | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [helm/chart-testing-action](https://github.com/helm/chart-testing-action) | 291 | 2026-03-30T01:04:11Z | Shell | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [docker-library/drupal](https://github.com/docker-library/drupal) | 290 | 2026-04-20T08:44:57Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [nodenv/node-build](https://github.com/nodenv/node-build) | 290 | 2026-04-16T11:22:56Z | Shell | Infrastructure/tooling | 10 | 13 | 10 | 10 |
+| [gentoo/guru](https://github.com/gentoo/guru) | 276 | 2026-04-22T21:33:15Z | Shell | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [sclorg/s2i-python-container](https://github.com/sclorg/s2i-python-container) | 270 | 2026-04-22T08:32:11Z | Shell | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [SWE-bench/experiments](https://github.com/SWE-bench/experiments) | 259 | 2026-03-29T17:52:22Z | Shell | Model/data | 0 | 0 | 0 | 0 |
 | [rsmdt/the-startup](https://github.com/rsmdt/the-startup) | 255 | 2026-04-17T11:42:47Z | Shell | Infrastructure/tooling | 3 | 4 | 0 | 0 |
@@ -107,12 +119,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [crazy-max/xgo](https://github.com/crazy-max/xgo) | 224 | 2026-04-08T23:42:23Z | Shell | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [EmbarkStudios/cargo-deny-action](https://github.com/EmbarkStudios/cargo-deny-action) | 179 | 2026-04-14T10:46:45Z | Shell | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [sclorg/s2i-nodejs-container](https://github.com/sclorg/s2i-nodejs-container) | 172 | 2026-04-21T13:01:58Z | Shell | Infrastructure/tooling | 7 | 4 | 7 | 7 |
+| [lemire/docker_programming_station](https://github.com/lemire/docker_programming_station) | 159 | 2026-04-22T19:21:56Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [TexasInstruments/edgeai](https://github.com/TexasInstruments/edgeai) | 158 | 2026-04-04T13:11:31Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 | [arangrhie/T2T-Polish](https://github.com/arangrhie/T2T-Polish) | 152 | 2026-04-17T00:15:03Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [github/super-linter](https://github.com/github/super-linter) | 146 | 2026-03-26T01:18:14Z | Shell | Infrastructure/tooling | 5 | 13 | 5 | 5 |
+| [jvm-repo-rebuild/reproducible-central](https://github.com/jvm-repo-rebuild/reproducible-central) | 141 | 2026-04-22T21:19:51Z | Shell | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [reviewdog/action-suggester](https://github.com/reviewdog/action-suggester) | 135 | 2026-04-21T20:05:30Z | Shell | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [sclorg/mysql-container](https://github.com/sclorg/mysql-container) | 132 | 2026-04-20T12:32:22Z | Shell | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [serpro69/claude-toolbox](https://github.com/serpro69/claude-toolbox) | 129 | 2026-04-19T16:16:01Z | Shell | Infrastructure/tooling | 19 | 5 | 18 | 18 |
+| [termux/repology-metadata](https://github.com/termux/repology-metadata) | 128 | 2026-04-23T03:41:24Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [getsolus/packages](https://github.com/getsolus/packages) | 126 | 2026-04-22T17:30:44Z | Shell | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [xbdcc/CCommand](https://github.com/xbdcc/CCommand) | 126 | 2026-03-30T06:05:15Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [undeadlist/claude-code-agents](https://github.com/undeadlist/claude-code-agents) | 123 | 2026-04-13T21:33:09Z | Shell | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [numpy/numpy.org](https://github.com/numpy/numpy.org) | 123 | 2026-04-13T17:59:40Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · Shell
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 14
-- terms: 25
-- components: 23
-- concepts: 25
-- observations: 25
+- repos: 11
+- terms: 21
+- components: 21
+- concepts: 21
+- observations: 21
 
 ## Static behavior
 
@@ -37,9 +37,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [edward3h/bedrock-viz-from-backups](https://github.com/edward3h/bedrock-viz-from-backups) | 0 | 2026-04-24T01:53:19Z | Shell | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [conda-forge/ergocub-software-feedstock](https://github.com/conda-forge/ergocub-software-feedstock) | 0 | 2026-04-23T12:46:07Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [conda-forge/diffutils-feedstock](https://github.com/conda-forge/diffutils-feedstock) | 0 | 2026-04-23T07:16:40Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
-| [conda-forge/bottom-feedstock](https://github.com/conda-forge/bottom-feedstock) | 0 | 2026-04-23T05:06:25Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
-| [conda-forge/blis-feedstock](https://github.com/conda-forge/blis-feedstock) | 0 | 2026-04-23T05:02:51Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [DeepWok/mase-docker](https://github.com/DeepWok/mase-docker) | 0 | 2026-04-22T13:43:17Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -56,6 +53,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [edward3h/bedrock-viz-from-backups](https://github.com/edward3h/bedrock-viz-from-backups) | 0 | 2026-04-24T01:53:19Z | Shell | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [conda-forge/ergocub-software-feedstock](https://github.com/conda-forge/ergocub-software-feedstock) | 0 | 2026-04-23T12:46:07Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [conda-forge/diffutils-feedstock](https://github.com/conda-forge/diffutils-feedstock) | 0 | 2026-04-23T07:16:40Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
-| [conda-forge/bottom-feedstock](https://github.com/conda-forge/bottom-feedstock) | 0 | 2026-04-23T05:06:25Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
-| [conda-forge/blis-feedstock](https://github.com/conda-forge/blis-feedstock) | 0 | 2026-04-23T05:02:51Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [DeepWok/mase-docker](https://github.com/DeepWok/mase-docker) | 0 | 2026-04-22T13:43:17Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |

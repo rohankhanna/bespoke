@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1211,
-    "concepts": 200,
-    "observations": 200,
+    "components": 1196,
+    "concepts": 192,
+    "observations": 192,
     "repos": 43,
-    "terms": 199
+    "terms": 191
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "adaltas/node-http-status",
     "addyosmani/chatty",
@@ -31,6 +31,7 @@
     "googleapis/nodejs-datastore",
     "googleapis/nodejs-logging-winston",
     "hyperbrew/bolt-cep",
+    "janwilmake/openapi-mcp-server",
     "jsonquerylang/jsonquery",
     "kepano/obsidian-hider",
     "kutsan/stylelint-config-clean-order",
@@ -47,7 +48,6 @@
     "nodejs/llparse",
     "Obsidian-TTRPG-Community/fantasy-statblocks",
     "posthtml/posthtml-parser",
-    "PrismLibrary/Prism-Documentation",
     "SassNinja/postcss-extract-media-query",
     "snapcast/snapweb",
     "TanStack/ranger",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10242,
-    "concepts": 10076,
-    "observations": 10108,
+    "components": 10248,
+    "concepts": 10081,
+    "observations": 10113,
     "repos": 1715,
-    "terms": 10026
+    "terms": 10031
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -812,7 +812,6 @@
     "go-rod/rod",
     "go-spatial/tegola",
     "go-sql-driver/mysql",
-    "go-sql-driver/sql-benchmark",
     "go-swagger/go-swagger",
     "go-viper/mapstructure",
     "go-woo/protoc-gen-echo",
@@ -986,6 +985,7 @@
     "high-moctane/nextword",
     "hinshun/vt10x",
     "huaweicloud/huaweicloud-sdk-go-v3",
+    "HuaweiCloudDeveloper/karpenter-provider-huawei",
     "huggingface/hf-csi-driver",
     "hungran/hyper-mcp-hackernews-tool",
     "hybridgroup/yzma",

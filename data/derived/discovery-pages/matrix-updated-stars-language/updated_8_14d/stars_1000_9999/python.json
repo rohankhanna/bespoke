@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 63,
-    "concepts": 82,
-    "observations": 83,
-    "repos": 9,
-    "terms": 82
+    "components": 87,
+    "concepts": 103,
+    "observations": 104,
+    "repos": 12,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "awslabs/aidlc-workflows",
+    "collabora/WhisperLive",
     "copier-org/copier",
     "Farama-Foundation/Minigrid",
     "ggozad/oterm",
     "google-deepmind/dm-haiku",
+    "google/budoux",
     "openvpi/DiffSinger",
     "PyAV-Org/PyAV",
     "voicepaw/so-vits-svc-fork",
-    "Xilinx/brevitas"
+    "Xilinx/brevitas",
+    "zai-org/GLM-V"
   ]
 }

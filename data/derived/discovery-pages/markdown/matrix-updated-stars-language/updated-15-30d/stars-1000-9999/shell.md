@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Shell
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 29
-- terms: 204
-- components: 146
-- concepts: 206
-- observations: 206
+- repos: 23
+- terms: 171
+- components: 124
+- concepts: 173
+- observations: 173
 
 ## Static behavior
 
@@ -49,12 +49,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bioconda/bioconda-recipes](https://github.com/bioconda/bioconda-recipes) | 1805 | 2026-04-23T19:19:52Z | Shell | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [aurutils/aurutils](https://github.com/aurutils/aurutils) | 1039 | 2026-04-23T13:21:14Z | Shell | Infrastructure/tooling | 6 | 1 | 6 | 6 |
 | [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions) | 7743 | 2026-04-23T10:52:06Z | Shell | Unknown | 2 | 0 | 3 | 3 |
-| [docker-library/docs](https://github.com/docker-library/docs) | 5274 | 2026-04-23T01:18:32Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
-| [docker-library/official-images](https://github.com/docker-library/official-images) | 6943 | 2026-04-23T00:54:22Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [google/adk-docs](https://github.com/google/adk-docs) | 1311 | 2026-04-22T22:26:27Z | Shell | Infrastructure/tooling | 5 | 7 | 5 | 5 |
-| [void-linux/void-packages](https://github.com/void-linux/void-packages) | 3172 | 2026-04-22T18:16:44Z | Shell | Infrastructure/tooling | 6 | 7 | 6 | 6 |
-| [rvm/rvm](https://github.com/rvm/rvm) | 5192 | 2026-04-22T12:14:53Z | Shell | Infrastructure/tooling | 9 | 2 | 9 | 9 |
-| [aquasecurity/trivy-action](https://github.com/aquasecurity/trivy-action) | 1300 | 2026-04-22T10:11:00Z | Shell | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 
 ## Repos sorted by stars
 
@@ -62,14 +56,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions) | 7743 | 2026-04-23T10:52:06Z | Shell | Unknown | 2 | 0 | 3 | 3 |
 | [holman/dotfiles](https://github.com/holman/dotfiles) | 7723 | 2026-05-01T15:19:12Z | Shell | Unknown | 1 | 0 | 2 | 2 |
-| [docker-library/official-images](https://github.com/docker-library/official-images) | 6943 | 2026-04-23T00:54:22Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [docker-library/docs](https://github.com/docker-library/docs) | 5274 | 2026-04-23T01:18:32Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
-| [rvm/rvm](https://github.com/rvm/rvm) | 5192 | 2026-04-22T12:14:53Z | Shell | Infrastructure/tooling | 9 | 2 | 9 | 9 |
 | [dtcooper/raspotify](https://github.com/dtcooper/raspotify) | 5120 | 2026-04-24T07:54:17Z | Shell | CLI | 9 | 5 | 9 | 9 |
 | [mlocati/docker-php-extension-installer](https://github.com/mlocati/docker-php-extension-installer) | 4902 | 2026-04-29T12:35:10Z | Shell | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [bitnami/containers](https://github.com/bitnami/containers) | 4420 | 2026-05-03T00:02:14Z | Shell | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [rbenv/ruby-build](https://github.com/rbenv/ruby-build) | 3967 | 2026-04-29T15:26:30Z | Shell | Infrastructure/tooling | 8 | 3 | 8 | 8 |
-| [void-linux/void-packages](https://github.com/void-linux/void-packages) | 3172 | 2026-04-22T18:16:44Z | Shell | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [sublimehq/Packages](https://github.com/sublimehq/Packages) | 3005 | 2026-04-25T18:52:18Z | Shell | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [Botspot/pi-apps](https://github.com/Botspot/pi-apps) | 2717 | 2026-04-30T01:15:34Z | Shell | Infrastructure/tooling | 17 | 9 | 17 | 17 |
 | [msys2/MINGW-packages](https://github.com/msys2/MINGW-packages) | 2669 | 2026-04-29T19:08:33Z | Shell | Infrastructure/tooling | 2 | 9 | 2 | 2 |
@@ -85,7 +75,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rocker-org/rocker](https://github.com/rocker-org/rocker) | 1506 | 2026-04-24T21:53:09Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 | [YosysHQ/oss-cad-suite-build](https://github.com/YosysHQ/oss-cad-suite-build) | 1453 | 2026-04-30T04:25:31Z | Shell | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [heroku/heroku-buildpack-nodejs](https://github.com/heroku/heroku-buildpack-nodejs) | 1340 | 2026-05-01T21:48:00Z | Shell | Infrastructure/tooling | 8 | 7 | 8 | 8 |
-| [google/adk-docs](https://github.com/google/adk-docs) | 1311 | 2026-04-22T22:26:27Z | Shell | Infrastructure/tooling | 5 | 7 | 5 | 5 |
-| [aquasecurity/trivy-action](https://github.com/aquasecurity/trivy-action) | 1300 | 2026-04-22T10:11:00Z | Shell | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [fluxcd/flux2-kustomize-helm-example](https://github.com/fluxcd/flux2-kustomize-helm-example) | 1259 | 2026-04-28T09:46:22Z | Shell | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [aurutils/aurutils](https://github.com/aurutils/aurutils) | 1039 | 2026-04-23T13:21:14Z | Shell | Infrastructure/tooling | 6 | 1 | 6 | 6 |

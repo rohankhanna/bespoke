@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 510,
-    "concepts": 323,
-    "observations": 324,
-    "repos": 68,
-    "terms": 322
+    "components": 447,
+    "concepts": 287,
+    "observations": 288,
+    "repos": 60,
+    "terms": 286
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "abusch/nu_plugin_semver",
     "AccessKit/accesskit-c",
@@ -22,19 +22,14 @@
     "ankane/safetensors-ruby",
     "apache/opendal-oli",
     "apollographql/federation-rs",
-    "arkworks-rs/spongefish",
     "arkworks-rs/std",
     "asny/three-d-asset",
     "astral-sh/pubgrub",
-    "bitcoindevkit/bdk_wallet",
     "bitcoindevkit/rust-electrum-client",
     "bnb-chain/reth",
     "bnb-chain/reth-bsc",
     "boozook/mdbook-svgbob",
-    "boundless-xyz/kailua",
     "bourumir-wyngs/serde-yaml-bw",
-    "celo-org/celo-threshold-bls-rs",
-    "datachainlab/lcp",
     "datafusion-contrib/orc-rust",
     "davidhozic/mujoco-rs",
     "Dicklesworthstone/frankensearch",
@@ -52,7 +47,6 @@
     "heroku/buildpacks-nodejs",
     "heroku/buildpacks-python",
     "heroku/libcnb.rs",
-    "holochain/holochain-serialization",
     "holochain/holochain-wasmer",
     "influxdata/datafusion-udf-wasm",
     "KWARC/rust-libxml",
@@ -73,8 +67,6 @@
     "rozbb/rust-hpke",
     "rust-bitcoin/corepc",
     "rust-osdev/ovmf-prebuilt",
-    "Sovereign-Labs/rollup-starter",
-    "succinctlabs/network",
     "succinctlabs/sp1-cluster",
     "Systemcluster/kitoken",
     "tofay/rustls-openssl",

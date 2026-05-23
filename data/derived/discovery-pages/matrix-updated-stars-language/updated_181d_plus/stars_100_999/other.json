@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2195,
-    "concepts": 2986,
-    "observations": 2993,
-    "repos": 951,
-    "terms": 2970
+    "components": 2215,
+    "concepts": 3010,
+    "observations": 3017,
+    "repos": 953,
+    "terms": 2994
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -488,11 +488,13 @@
     "JTAmos/Temporal.jl",
     "JuliaAnimators/Javis.jl",
     "JuliaArrays/AxisArrays.jl",
+    "JuliaData/DataFramesMeta.jl",
     "JuliaData/IndexedTables.jl",
     "JuliaData/JuliaDB.jl",
     "JuliaData/SplitApplyCombine.jl",
     "JuliaData/TypedTables.jl",
     "JuliaDynamics/InteractiveDynamics.jl",
+    "JuliaGraphics/Colors.jl",
     "JuliaGraphics/Gtk.jl",
     "JuliaInterop/Cxx.jl",
     "JuliaInterop/NBInclude.jl",

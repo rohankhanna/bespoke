@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1094,
-    "concepts": 491,
-    "observations": 494,
-    "repos": 44,
-    "terms": 489
+    "components": 944,
+    "concepts": 478,
+    "observations": 481,
+    "repos": 40,
+    "terms": 476
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "alphagov/stylelint-config-gds",
     "angular/angular-devkit-architect-builds",
-    "angular/dev-infra-private-ng-dev-builds",
     "boa-dev/data",
     "celo-org/blind-threshold-bls-wasm",
-    "certible/superagent-aws-sign",
     "dwyl/phoenix-papertrail-demo",
     "eea/bise-frontend",
     "eea/eea-website-frontend",
@@ -31,10 +29,8 @@
     "j9t/minifier-benchmarks",
     "kkomelin/isomorphic-dompurify-playgrounds",
     "ksxnodemodules/static-type-assert",
-    "locize/locize-lastused",
     "maltsev/html-minifiers-benchmark",
     "metosin/open-source",
-    "newrelic/csec-node-agent",
     "rvagg/js-bitcoin-block",
     "sapphiredev/.github",
     "stdlib-js/array-float32",

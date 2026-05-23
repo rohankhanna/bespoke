@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 77,
-    "observations": 77,
-    "repos": 11,
-    "terms": 77
+    "components": 67,
+    "concepts": 83,
+    "observations": 84,
+    "repos": 12,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
+    "apache/casbin-Casbin.NET",
+    "babashka/babashka",
     "beam-community/elixir-companies",
     "benchflow-ai/skillsbench",
     "elixir-grpc/grpc",
     "hacl-star/hacl-star",
-    "intel/BigDL",
     "lightning/bolts",
+    "lumen-oss/rocks.nvim",
     "nushell/awesome-nu",
     "nvim-mini/mini.nvim",
     "nvimdev/lspsaga.nvim",
-    "okd-project/okd",
-    "stakira/OpenUtau"
+    "okd-project/okd"
   ]
 }

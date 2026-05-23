@@ -3,14 +3,14 @@
     "components": 26323,
     "concepts": 22665,
     "observations": 22737,
-    "repos": 5613,
-    "terms": 22608
+    "repos": 5612,
+    "terms": 22603
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -2140,7 +2140,6 @@
     "foojayio/badges",
     "formigarafa/zxcvbn-rb",
     "formtastic/formtastic",
-    "formtastic/formtastic_i18n",
     "FoundationDB/fdb-build-support",
     "FoundationVision/VAR",
     "foundry-rs/forge-std",

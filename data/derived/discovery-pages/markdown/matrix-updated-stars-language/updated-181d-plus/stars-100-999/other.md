@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 951
-- terms: 2970
-- components: 2195
-- concepts: 2986
-- observations: 2993
+- repos: 953
+- terms: 2994
+- components: 2215
+- concepts: 3010
+- observations: 3017
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [JuliaData/DataFramesMeta.jl](https://github.com/JuliaData/DataFramesMeta.jl) | 497 | 2025-11-24T05:20:57Z | Other | Infrastructure/tooling | 10 | 9 | 10 | 10 |
+| [JuliaGraphics/Colors.jl](https://github.com/JuliaGraphics/Colors.jl) | 223 | 2025-11-24T05:10:56Z | Other | Infrastructure/tooling | 14 | 11 | 14 | 14 |
 | [pythonic-emacs/blacken](https://github.com/pythonic-emacs/blacken) | 197 | 2025-11-21T16:20:46Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [barsoom/traco](https://github.com/barsoom/traco) | 219 | 2025-11-21T05:57:21Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [emacs-lsp/helm-lsp](https://github.com/emacs-lsp/helm-lsp) | 105 | 2025-11-21T04:51:32Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
@@ -74,7 +76,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nextjournal/clerk-demo](https://github.com/nextjournal/clerk-demo) | 180 | 2025-10-20T16:08:28Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [MoyuruAizawa/Cropify](https://github.com/MoyuruAizawa/Cropify) | 208 | 2025-10-20T08:35:23Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [privacycg/storage-access](https://github.com/privacycg/storage-access) | 248 | 2025-10-18T13:57:41Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [privacycg/CHIPS](https://github.com/privacycg/CHIPS) | 190 | 2025-10-17T13:22:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [privacycg/CHIPS](https://github.com/privacycg/CHIPS) | 191 | 2025-10-17T13:22:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [AnyPortal/AnyPortal](https://github.com/AnyPortal/AnyPortal) | 518 | 2025-10-17T13:09:40Z | Other | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [mdn/interactive-examples](https://github.com/mdn/interactive-examples) | 745 | 2025-10-17T10:23:12Z | Other | Infrastructure/tooling | 13 | 24 | 13 | 13 |
 | [bagder/roffit](https://github.com/bagder/roffit) | 116 | 2025-10-16T06:16:14Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
@@ -1259,6 +1261,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [srush/Autodiff-Puzzles](https://github.com/srush/Autodiff-Puzzles) | 500 | 2024-10-18T20:24:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [opentk/LearnOpenTK](https://github.com/opentk/LearnOpenTK) | 499 | 2025-05-03T23:50:40Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [google-research/maxvit](https://github.com/google-research/maxvit) | 499 | 2023-06-02T00:28:27Z | Other | Model/data | 11 | 0 | 11 | 11 |
+| [JuliaData/DataFramesMeta.jl](https://github.com/JuliaData/DataFramesMeta.jl) | 497 | 2025-11-24T05:20:57Z | Other | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [idavidrein/gpqa](https://github.com/idavidrein/gpqa) | 497 | 2024-09-30T21:12:05Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [detekt/sonar-detekt](https://github.com/detekt/sonar-detekt) | 497 | 2024-01-06T10:29:09Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [ivodolenc/aspekta](https://github.com/ivodolenc/aspekta) | 496 | 2025-05-09T11:00:55Z | Other | Infrastructure/tooling | 9 | 3 | 9 | 9 |
@@ -1600,6 +1603,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [quinnj/JSON3.jl](https://github.com/quinnj/JSON3.jl) | 225 | 2025-10-10T04:49:47Z | Other | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [ziglang/zig-spec](https://github.com/ziglang/zig-spec) | 225 | 2025-08-21T08:27:48Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [domkm/silk](https://github.com/domkm/silk) | 224 | 2022-01-04T23:48:51Z | Other | Unknown | 7 | 0 | 7 | 7 |
+| [JuliaGraphics/Colors.jl](https://github.com/JuliaGraphics/Colors.jl) | 223 | 2025-11-24T05:10:56Z | Other | Infrastructure/tooling | 14 | 11 | 14 | 14 |
 | [datadesk/california-coronavirus-data](https://github.com/datadesk/california-coronavirus-data) | 223 | 2023-06-06T17:50:15Z | Other | Infrastructure/tooling | 11 | 2 | 11 | 11 |
 | [kwea123/nsff_pl](https://github.com/kwea123/nsff_pl) | 223 | 2022-11-13T23:24:39Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [unit-mesh/choco-builder](https://github.com/unit-mesh/choco-builder) | 222 | 2024-07-24T01:45:29Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
@@ -1658,8 +1662,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rgeo/rgeo-geojson](https://github.com/rgeo/rgeo-geojson) | 193 | 2024-10-10T10:57:29Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [thu-nics/DiTFastAttn](https://github.com/thu-nics/DiTFastAttn) | 192 | 2025-01-14T06:06:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [safwank/Numerix](https://github.com/safwank/Numerix) | 192 | 2021-05-30T22:44:10Z | Other | Unknown | 4 | 0 | 4 | 4 |
+| [privacycg/CHIPS](https://github.com/privacycg/CHIPS) | 191 | 2025-10-17T13:22:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [BLAKE3-team/BLAKE3-specs](https://github.com/BLAKE3-team/BLAKE3-specs) | 191 | 2022-06-27T20:54:20Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [privacycg/CHIPS](https://github.com/privacycg/CHIPS) | 190 | 2025-10-17T13:22:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [jupyterlab/extension-cookiecutter-ts](https://github.com/jupyterlab/extension-cookiecutter-ts) | 189 | 2024-09-03T21:16:14Z | Other | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [filipradenovic/cnnimageretrieval](https://github.com/filipradenovic/cnnimageretrieval) | 188 | 2022-06-02T18:54:49Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [myrjola/diminish.el](https://github.com/myrjola/diminish.el) | 187 | 2022-09-09T08:47:45Z | Other | Model/data | 0 | 0 | 0 | 0 |

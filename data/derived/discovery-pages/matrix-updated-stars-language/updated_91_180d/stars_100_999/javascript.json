@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 820,
-    "concepts": 115,
-    "observations": 115,
+    "components": 852,
+    "concepts": 117,
+    "observations": 117,
     "repos": 47,
-    "terms": 115
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "adriantoine/enzyme-to-json",
     "agenda/agendash",
@@ -47,6 +47,7 @@
     "prebuild/prebuild",
     "prebuild/prebuild-install",
     "raywo/MMM-NowPlayingOnSpotify",
+    "React9k/react-timeline-9000",
     "restify/errors",
     "RJWadley/stylelint-no-unsupported-browser-features",
     "runegan/jsxbin",
@@ -59,7 +60,6 @@
     "svg-sprite/gulp-svg-sprite",
     "testing-library/eslint-plugin-jest-dom",
     "tonyganch/gonzales-pe",
-    "tree-sitter/tree-sitter-javascript",
     "watson/bonjour"
   ]
 }

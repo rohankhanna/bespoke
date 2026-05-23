@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -14,7 +14,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 - repos: 19
 - terms: 58
-- components: 199
+- components: 203
 - concepts: 58
 - observations: 58
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [npm/json-parse-even-better-errors](https://github.com/npm/json-parse-even-better-errors) | 27 | 2026-03-23T15:38:29Z | JavaScript | CLI | 8 | 11 | 8 | 8 |
 | [brody2consult/react-native-module-init](https://github.com/brody2consult/react-native-module-init) | 65 | 2026-03-20T16:55:31Z | JavaScript | Infrastructure/tooling | 3 | 29 | 3 | 3 |
 | [appwrite/playground-for-node](https://github.com/appwrite/playground-for-node) | 72 | 2026-03-20T07:03:55Z | JavaScript | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [10up/action-repo-automator](https://github.com/10up/action-repo-automator) | 21 | 2026-03-20T00:24:29Z | JavaScript | Infrastructure/tooling | 6 | 12 | 6 | 6 |
@@ -44,7 +45,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ipld/js-dag-pb](https://github.com/ipld/js-dag-pb) | 15 | 2026-03-01T16:00:09Z | JavaScript | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [apostrophecms/apostrophe-astro](https://github.com/apostrophecms/apostrophe-astro) | 14 | 2026-02-26T20:20:18Z | JavaScript | Unknown | 0 | 3 | 0 | 0 |
 | [broccolijs/broccoli-plugin](https://github.com/broccolijs/broccoli-plugin) | 25 | 2026-02-24T17:44:07Z | JavaScript | Infrastructure/tooling | 2 | 33 | 2 | 2 |
-| [hyparam/hysnappy](https://github.com/hyparam/hysnappy) | 27 | 2026-02-22T03:58:48Z | JavaScript | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -60,7 +60,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [a5huynh/vscode-ron](https://github.com/a5huynh/vscode-ron) | 53 | 2026-03-10T19:53:55Z | JavaScript | Unknown | 2 | 3 | 2 | 2 |
 | [tc39/proposal-immutable-arraybuffer](https://github.com/tc39/proposal-immutable-arraybuffer) | 36 | 2026-03-18T18:12:16Z | JavaScript | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [coderaiser/estree-to-babel](https://github.com/coderaiser/estree-to-babel) | 35 | 2026-03-04T11:29:52Z | JavaScript | Infrastructure/tooling | 7 | 22 | 7 | 7 |
-| [hyparam/hysnappy](https://github.com/hyparam/hysnappy) | 27 | 2026-02-22T03:58:48Z | JavaScript | Infrastructure/tooling | 8 | 7 | 8 | 8 |
+| [npm/json-parse-even-better-errors](https://github.com/npm/json-parse-even-better-errors) | 27 | 2026-03-23T15:38:29Z | JavaScript | CLI | 8 | 11 | 8 | 8 |
 | [OpenHands/openhands-chrome-extension](https://github.com/OpenHands/openhands-chrome-extension) | 26 | 2026-03-07T07:02:50Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [broccolijs/broccoli-plugin](https://github.com/broccolijs/broccoli-plugin) | 25 | 2026-02-24T17:44:07Z | JavaScript | Infrastructure/tooling | 2 | 33 | 2 | 2 |
 | [acemir/CSSOM](https://github.com/acemir/CSSOM) | 24 | 2026-03-13T12:59:51Z | JavaScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |

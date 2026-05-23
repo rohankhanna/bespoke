@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 19,
-    "observations": 20,
-    "repos": 6,
-    "terms": 19
+    "components": 22,
+    "concepts": 23,
+    "observations": 24,
+    "repos": 7,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "8144225309/superscalar-cln",
     "arnaud-lb/php-rdkafka",
     "CHIP-SPV/H4I-HipBLAS",
     "CHIP-SPV/H4I-HipFFT",
     "CHIP-SPV/H4I-HipSOLVER",
-    "datachainlab/cosmos-bsc-ibc-lcp"
+    "datachainlab/cosmos-bsc-ibc-lcp",
+    "rltakashige/mlx-jaccl-fix-small-recv"
   ]
 }

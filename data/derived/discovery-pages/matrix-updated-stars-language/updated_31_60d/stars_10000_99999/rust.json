@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 524,
-    "concepts": 244,
-    "observations": 244,
-    "repos": 30,
-    "terms": 241
+    "components": 666,
+    "concepts": 380,
+    "observations": 381,
+    "repos": 40,
+    "terms": 374
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,28 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
+    "actix/actix-web",
     "ajeetdsouza/zoxide",
+    "analysis-tools-dev/static-analysis",
     "asciinema/asciinema",
+    "ast-grep/ast-grep",
     "astral-sh/uv",
     "bevyengine/bevy",
     "casey/just",
     "cjpais/Handy",
     "dandavison/delta",
+    "dani-garcia/vaultwarden",
     "diem/diem",
     "diesel-rs/diesel",
     "eza-community/eza",
     "facebook/relay",
     "fish-shell/fish-shell",
     "foundry-rs/foundry",
+    "gfx-rs/wgpu",
+    "gitui-org/gitui",
+    "googleworkspace/cli",
     "huggingface/candle",
     "hyperium/hyper",
     "hyperium/tonic",
@@ -40,8 +47,11 @@
     "seanmonstar/warp",
     "sharkdp/bat",
     "sharkdp/fd",
+    "Spotifyd/spotifyd",
+    "starship/starship",
     "tokio-rs/axum",
     "tokio-rs/tokio",
+    "typst/typst",
     "vercel-labs/agent-browser",
     "zeroclaw-labs/zeroclaw"
   ]

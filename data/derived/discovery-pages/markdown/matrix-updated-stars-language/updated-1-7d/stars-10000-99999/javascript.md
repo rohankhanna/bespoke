@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 2
-- terms: 14
-- components: 76
-- concepts: 14
-- observations: 14
+- terms: 17
+- components: 51
+- concepts: 17
+- observations: 17
 
 ## Static behavior
 
@@ -26,12 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [preactjs/preact](https://github.com/preactjs/preact) | 38646 | 2026-05-21T06:29:50Z | JavaScript | Infrastructure/tooling | 12 | 51 | 12 | 12 |
-| [browserslist/browserslist](https://github.com/browserslist/browserslist) | 13536 | 2026-05-15T10:08:04Z | JavaScript | Infrastructure/tooling | 2 | 25 | 2 | 2 |
+| [nwjs/nw.js](https://github.com/nwjs/nw.js) | 41184 | 2026-05-22T03:58:21Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
+| [preactjs/preact](https://github.com/preactjs/preact) | 38652 | 2026-05-21T06:29:50Z | JavaScript | Infrastructure/tooling | 12 | 51 | 12 | 12 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [preactjs/preact](https://github.com/preactjs/preact) | 38646 | 2026-05-21T06:29:50Z | JavaScript | Infrastructure/tooling | 12 | 51 | 12 | 12 |
-| [browserslist/browserslist](https://github.com/browserslist/browserslist) | 13536 | 2026-05-15T10:08:04Z | JavaScript | Infrastructure/tooling | 2 | 25 | 2 | 2 |
+| [nwjs/nw.js](https://github.com/nwjs/nw.js) | 41184 | 2026-05-22T03:58:21Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
+| [preactjs/preact](https://github.com/preactjs/preact) | 38652 | 2026-05-21T06:29:50Z | JavaScript | Infrastructure/tooling | 12 | 51 | 12 | 12 |

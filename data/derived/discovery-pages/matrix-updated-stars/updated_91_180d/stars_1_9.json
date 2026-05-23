@@ -1,20 +1,21 @@
 {
   "counts": {
     "components": 671,
-    "concepts": 327,
-    "observations": 329,
-    "repos": 207,
-    "terms": 338
+    "concepts": 360,
+    "observations": 362,
+    "repos": 211,
+    "terms": 371
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
+    "0x2a-42/nvim-lelwel",
     "3swordman/tree-sitter-toon",
     "aaron-he-zhu/cite-domain-rating",
     "abap2UI5-addons/table-maintenance",
@@ -31,6 +32,9 @@
     "airowe/claude-a11y-skill",
     "AIxCyberChallenge/example-crs-architecture",
     "aleclarson/vite-postgres",
+    "alexpolonsky/agent-skill-libby-book-monitor",
+    "alexpolonsky/agent-skill-maccabi-pharm-search",
+    "alexpolonsky/agent-skill-strikeradar",
     "anchordotdev/puma-acme",
     "AnshulGora/portfolio_template_v1",
     "ansible-community/collection_bot",

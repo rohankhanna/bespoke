@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 34
-- terms: 106
+- terms: 104
 - components: 75
-- concepts: 106
-- observations: 106
+- concepts: 104
+- observations: 104
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [CROSS-signature/CROSS-implementation](https://github.com/CROSS-signature/CROSS-implementation) | 13 | 2026-03-23T17:42:20Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ssiu/flash-attention-turing](https://github.com/ssiu/flash-attention-turing) | 89 | 2026-03-23T07:13:12Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [gershnik/wsdd-native](https://github.com/gershnik/wsdd-native) | 81 | 2026-03-22T13:13:37Z | C/C++ | Infrastructure/tooling | 17 | 4 | 17 | 17 |
 | [AFD-Illinois/ebhlight](https://github.com/AFD-Illinois/ebhlight) | 17 | 2026-03-19T20:27:04Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -59,7 +60,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [COMBINE-lab/cuttlefish](https://github.com/COMBINE-lab/cuttlefish) | 92 | 2026-02-26T14:58:24Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [flatpak/flatpak-xdg-utils](https://github.com/flatpak/flatpak-xdg-utils) | 40 | 2026-02-25T17:11:58Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [fmtlib/format-benchmark](https://github.com/fmtlib/format-benchmark) | 54 | 2026-02-23T16:35:35Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [jrsoftware/iscompress](https://github.com/jrsoftware/iscompress) | 35 | 2026-02-21T12:09:43Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -90,12 +90,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [adamyaxley/Unformat](https://github.com/adamyaxley/Unformat) | 44 | 2026-03-02T02:42:57Z | C/C++ | Library | 11 | 0 | 11 | 11 |
 | [fonttools/unicodedata2](https://github.com/fonttools/unicodedata2) | 40 | 2026-03-05T15:27:43Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [flatpak/flatpak-xdg-utils](https://github.com/flatpak/flatpak-xdg-utils) | 40 | 2026-02-25T17:11:58Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [jrsoftware/iscompress](https://github.com/jrsoftware/iscompress) | 35 | 2026-02-21T12:09:43Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [lemire/simple_fastfloat_benchmark](https://github.com/lemire/simple_fastfloat_benchmark) | 31 | 2026-03-10T16:09:34Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [aseprite/clip](https://github.com/aseprite/clip) | 28 | 2026-03-04T17:37:52Z | C/C++ | CLI | 1 | 3 | 1 | 1 |
 | [embeddedartistry/printf](https://github.com/embeddedartistry/printf) | 23 | 2026-03-17T19:48:17Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [AFD-Illinois/ebhlight](https://github.com/AFD-Illinois/ebhlight) | 17 | 2026-03-19T20:27:04Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [gozaltech/espeak-ng-sapi](https://github.com/gozaltech/espeak-ng-sapi) | 15 | 2026-03-15T11:54:58Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
+| [CROSS-signature/CROSS-implementation](https://github.com/CROSS-signature/CROSS-implementation) | 13 | 2026-03-23T17:42:20Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ilyabrilev/biosim4](https://github.com/ilyabrilev/biosim4) | 13 | 2026-03-09T20:33:39Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [jupyter-xeus/xeus-zmq](https://github.com/jupyter-xeus/xeus-zmq) | 11 | 2026-03-04T22:03:29Z | C/C++ | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [aseprite/observable](https://github.com/aseprite/observable) | 10 | 2026-03-10T12:21:36Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |

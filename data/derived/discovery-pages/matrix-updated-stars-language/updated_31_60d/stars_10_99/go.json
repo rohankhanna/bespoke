@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 419,
-    "concepts": 303,
-    "observations": 305,
-    "repos": 68,
-    "terms": 298
+    "components": 481,
+    "concepts": 342,
+    "observations": 344,
+    "repos": 76,
+    "terms": 337
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "abhinav/goldmark-anchor",
@@ -24,10 +24,13 @@
     "apache/dubbo-go-pixiu-samples",
     "appleboy/drone-lambda",
     "apptainer/sif",
+    "aspect-build/aspect-gazelle",
     "Asterisk4Magisk/XrayHelper",
     "astro-han/diffpane",
+    "aws-controllers-k8s/code-generator",
     "aws/amazon-network-policy-controller-k8s",
     "aws/aws-ebpf-sdk-go",
+    "aws/aws-network-policy-agent",
     "benchsci/rules_nodejs_gazelle",
     "blinklabs-io/bluefin",
     "celo-org/op-geth",
@@ -40,6 +43,7 @@
     "cometbft/cometbft-db",
     "connectrpc/conformance",
     "connectrpc/grpchealth-go",
+    "containers/container-libs",
     "cosmos/cosmos-db",
     "darkweak/storages",
     "davidkarlsen/flyway-operator",
@@ -61,12 +65,16 @@
     "Infisical/go-sdk",
     "ionos-cloud/external-dns-ionos-webhook",
     "ipfs/gateway-conformance",
+    "ipshipyard/p2p-forge",
+    "kubernetes-sigs/apiserver-runtime",
+    "kubernetes-sigs/verify-conformance",
     "kurrent-io/KurrentDB-Client-Go",
     "magodo/aztft",
     "magodo/tfadd",
     "MicahParks/jwkset",
     "minio/pkg",
     "MShekow/directory-checksum",
+    "muhlba91/external-dns-provider-adguard",
     "notaryproject/notation-core-go",
     "notaryproject/notation-go",
     "opea-project/GenAIInfra",

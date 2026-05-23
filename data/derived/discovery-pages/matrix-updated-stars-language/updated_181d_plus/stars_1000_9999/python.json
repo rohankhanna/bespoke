@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 895,
-    "concepts": 3705,
-    "observations": 3707,
-    "repos": 951,
-    "terms": 3640
+    "components": 898,
+    "concepts": 3737,
+    "observations": 3739,
+    "repos": 953,
+    "terms": 3671
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -186,7 +186,6 @@
     "Coyote-A/ultimate-upscale-for-automatic1111",
     "crossbario/autobahn-testsuite",
     "cruft/cruft",
-    "CSAILVision/gandissect",
     "CSAILVision/places365",
     "CSAILVision/semantic-segmentation-pytorch",
     "cszn/BSRGAN",
@@ -416,6 +415,7 @@
     "IST-DASLab/gptq",
     "IST-DASLab/marlin",
     "jadore801120/attention-is-all-you-need-pytorch",
+    "jameslyons/python_speech_features",
     "jannerm/diffuser",
     "Janspiry/Image-Super-Resolution-via-Iterative-Refinement",
     "Janspiry/Palette-Image-to-Image-Diffusion-Models",
@@ -481,6 +481,7 @@
     "Lightning-AI/lit-llama",
     "LiheYoung/Depth-Anything",
     "Linaom1214/TensorRT-For-YOLO-Series",
+    "linto-ai/whisper-timestamped",
     "Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB",
     "LiuHC0428/LAW-GPT",
     "liuhuanyong/CrimeKgAssitant",
@@ -706,6 +707,7 @@
     "Picsart-AI-Research/Text2Video-Zero",
     "PixArt-alpha/PixArt-alpha",
     "PixArt-alpha/PixArt-sigma",
+    "PKU-Alignment/safe-rlhf",
     "PKU-YuanGroup/MoE-LLaVA",
     "PKU-YuanGroup/Video-LLaVA",
     "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 790,
-    "concepts": 726,
-    "observations": 727,
+    "components": 773,
+    "concepts": 703,
+    "observations": 704,
     "repos": 189,
-    "terms": 721
+    "terms": 698
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -116,10 +116,8 @@
     "joshwlewis/unitwise",
     "jtdaugherty/vty",
     "juji-io/editscript",
-    "JuliaData/DataFramesMeta.jl",
     "JuliaDebug/SnoopCompile.jl",
     "JuliaDocs/LiveServer.jl",
-    "JuliaGraphics/Colors.jl",
     "JuliaInterop/CxxWrap.jl",
     "JuliaML/MLUtils.jl",
     "JuliaPlots/StatsPlots.jl",
@@ -160,6 +158,7 @@
     "privacycg/meetings",
     "r-lib/covr",
     "r-lib/revdepcheck",
+    "radian-software/ctrlf",
     "rahul-goel/fused-ssim",
     "rails/sprockets",
     "rake-compiler/rake-compiler",
@@ -177,6 +176,7 @@
     "spk/money-open-exchange-rates",
     "StatisticalRethinkingJulia/TuringModels.jl",
     "status-im/nim-chronicles",
+    "swansonk14/admet_ai",
     "taoensso/telemere",
     "tc39/proposal-decimal",
     "Tencent-Hunyuan/flex-block-attn",

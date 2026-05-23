@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 132,
-    "concepts": 159,
-    "observations": 161,
-    "repos": 29,
-    "terms": 163
+    "components": 154,
+    "concepts": 192,
+    "observations": 194,
+    "repos": 35,
+    "terms": 196
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "alrra/dotfiles",
     "anthropics/claude-agent-sdk-typescript",
     "antonbabenko/pre-commit-terraform",
+    "aquasecurity/trivy-action",
     "bblanchon/pdfium-binaries",
     "bluesky-social/pds",
     "clangd/clangd",
@@ -28,19 +29,24 @@
     "devcontainers/templates",
     "diet103/claude-code-infrastructure-showcase",
     "docker-library/docker",
+    "docker-library/docs",
     "docker-library/golang",
+    "docker-library/official-images",
     "docker-library/postgres",
     "docker-library/wordpress",
     "frankbria/ralph-claude-code",
     "git-quick-stats/git-quick-stats",
+    "google/adk-docs",
     "jonmosco/kube-ps1",
     "matryer/xbar-plugins",
     "nix-community/nix-direnv",
     "nvie/git-toolbelt",
     "pacstall/pacstall",
     "pyenv/pyenv-virtualenv",
+    "rvm/rvm",
     "spiffe/spiffe",
     "trailofbits/claude-code-config",
+    "void-linux/void-packages",
     "zdharma-continuum/zinit",
     "zilliztech/attu"
   ]

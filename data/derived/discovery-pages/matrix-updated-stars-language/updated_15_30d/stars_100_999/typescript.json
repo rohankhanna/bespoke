@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4028,
-    "concepts": 905,
-    "observations": 907,
-    "repos": 127,
-    "terms": 898
+    "components": 3704,
+    "concepts": 826,
+    "observations": 828,
+    "repos": 115,
+    "terms": 819
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
-    "abaplint/abaplint",
     "agentclientprotocol/typescript-sdk",
     "AgnosticUI/agnosticui",
     "Agoric/agoric-sdk",
     "ansible/vscode-ansible",
     "antfu/eslint-flat-config-utils",
-    "antfu/starter-ts",
     "antvis/chart-visualization-skills",
     "apollographql/federation",
     "appium/appium-xcuitest-driver",
@@ -29,15 +27,11 @@
     "astral-sh/ruff-action",
     "aws-samples/swift-chat",
     "azat-io/eslint-plugin-de-morgan",
-    "Azure/cli",
-    "Azure/login",
     "bitwarden/directory-connector",
     "browserslist/browserslist-useragent-regexp",
     "carbon-design-system/carbon-components-angular",
     "carbon-design-system/sveld",
     "chainguard-dev/actions",
-    "charmbracelet/vhs-action",
-    "circlefin/stablecoin-evm",
     "ClickHouse/clickhouse-js",
     "cocos/cocos-docs",
     "cosmos/cosmjs",
@@ -62,7 +56,6 @@
     "glassflow/clickhouse-etl",
     "gradle/actions",
     "graphprotocol/graph-client",
-    "harlan-zw/mdream",
     "haskell/vscode-haskell",
     "heroku/cli",
     "i18next/i18next-cli",
@@ -72,7 +65,6 @@
     "inversify/monorepo",
     "ipfs/js-ipfsd-ctl",
     "jbaubree/vite-plugin-sitemap",
-    "js-temporal/temporal-polyfill",
     "jsonwebtoken/jsonwebtoken.github.io",
     "julia-actions/setup-julia",
     "jurplel/install-qt-action",
@@ -80,12 +72,10 @@
     "Kong/kong-manager",
     "lambdalisue/vim-gin",
     "LemmyNet/lemmy-js-client",
-    "lerna-lite/lerna-lite",
     "luciopaiva/heapify",
     "microsoft/ai-chat-protocol",
     "microsoft/cognitive-services-speech-sdk-js",
     "microsoft/playwright-vscode",
-    "microsoft/react-native-gallery",
     "microsoft/security-devops-action",
     "microsoft/vscode-java-debug",
     "milvus-io/milvus-sdk-node",
@@ -104,8 +94,6 @@
     "octokit/plugin-rest-endpoint-methods.js",
     "octokit/request.js",
     "octokit/webhooks.js",
-    "OpenZeppelin/openzeppelin-upgrades",
-    "optuna/optuna-dashboard",
     "ory/docs",
     "oxc-project/eslint-plugin-oxlint",
     "P4sca1/cron-schedule",
@@ -121,7 +109,6 @@
     "SkepticMystic/breadcrumbs",
     "smithy-lang/smithy-typescript",
     "sumup-oss/circuit-ui",
-    "sveltejs/eslint-plugin-svelte",
     "sveltejs/svelte-eslint-parser",
     "TabbyML/pochi",
     "TanStack/config",
@@ -140,6 +127,7 @@
     "victorgarciaesgi/regle",
     "web-infra-dev/rslib",
     "web-infra-dev/rstest",
-    "wevm/abitype"
+    "wevm/abitype",
+    "xdebug/vscode-php-debug"
   ]
 }

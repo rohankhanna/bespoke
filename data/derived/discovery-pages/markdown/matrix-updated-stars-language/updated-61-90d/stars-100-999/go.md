@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 33
-- terms: 181
-- components: 170
-- concepts: 181
-- observations: 181
+- repos: 32
+- terms: 173
+- components: 167
+- concepts: 173
+- observations: 173
 
 ## Static behavior
 
@@ -58,7 +58,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [omniscale/imposm3](https://github.com/omniscale/imposm3) | 772 | 2026-02-25T08:49:11Z | Go | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [appbaseio/reactivesearch-api](https://github.com/appbaseio/reactivesearch-api) | 211 | 2026-02-23T18:13:18Z | Go | Infrastructure/tooling | 12 | 13 | 12 | 12 |
 | [multiformats/go-multiaddr](https://github.com/multiformats/go-multiaddr) | 295 | 2026-02-23T09:04:41Z | Go | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [maykonlsf/semver-cli](https://github.com/maykonlsf/semver-cli) | 100 | 2026-02-21T15:17:38Z | Go | CLI | 8 | 3 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -96,4 +95,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aws/amazon-ec2-spot-interrupter](https://github.com/aws/amazon-ec2-spot-interrupter) | 108 | 2026-03-02T16:44:29Z | Go | CLI | 6 | 3 | 6 | 6 |
 | [erigontech/interfaces](https://github.com/erigontech/interfaces) | 105 | 2026-03-09T19:00:46Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [aws/amazon-ecs-cni-plugins](https://github.com/aws/amazon-ecs-cni-plugins) | 100 | 2026-03-06T20:17:01Z | Go | Unknown | 1 | 0 | 1 | 1 |
-| [maykonlsf/semver-cli](https://github.com/maykonlsf/semver-cli) | 100 | 2026-02-21T15:17:38Z | Go | CLI | 8 | 3 | 8 | 8 |

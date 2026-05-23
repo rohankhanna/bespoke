@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 29
-- terms: 68
-- components: 349
-- concepts: 68
-- observations: 69
+- repos: 30
+- terms: 76
+- components: 356
+- concepts: 76
+- observations: 77
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hyparam/hysnappy](https://github.com/hyparam/hysnappy) | 27 | 2026-02-22T03:58:48Z | JavaScript | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [L2jLiga/grunt-webfonts](https://github.com/L2jLiga/grunt-webfonts) | 10 | 2026-02-18T04:04:10Z | JavaScript | Infrastructure/tooling | 6 | 21 | 6 | 6 |
 | [coderaiser/mock-import](https://github.com/coderaiser/mock-import) | 26 | 2026-02-16T20:40:46Z | JavaScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [kunwar-shah/claudex](https://github.com/kunwar-shah/claudex) | 81 | 2026-02-14T18:09:15Z | JavaScript | Infrastructure/tooling | 0 | 4 | 0 | 0 |
@@ -75,6 +76,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [minikube-ci/examples](https://github.com/minikube-ci/examples) | 36 | 2026-01-26T21:35:44Z | JavaScript | Infrastructure/tooling | 1 | 2 | 1 | 2 |
 | [nodejs/Gzemnid](https://github.com/nodejs/Gzemnid) | 35 | 2026-01-10T07:06:58Z | JavaScript | Unknown | 2 | 10 | 2 | 2 |
 | [haskell-actions/run-ormolu](https://github.com/haskell-actions/run-ormolu) | 32 | 2025-11-26T20:23:59Z | JavaScript | Infrastructure/tooling | 0 | 7 | 0 | 0 |
+| [hyparam/hysnappy](https://github.com/hyparam/hysnappy) | 27 | 2026-02-22T03:58:48Z | JavaScript | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [coderaiser/mock-import](https://github.com/coderaiser/mock-import) | 26 | 2026-02-16T20:40:46Z | JavaScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [NEAR-DevHub/neardevhub-bos](https://github.com/NEAR-DevHub/neardevhub-bos) | 25 | 2025-12-22T13:58:44Z | JavaScript | Infrastructure/tooling | 10 | 12 | 10 | 10 |
 | [dzeiocom/simple-icons-astro](https://github.com/dzeiocom/simple-icons-astro) | 21 | 2025-12-07T06:17:35Z | JavaScript | Infrastructure/tooling | 8 | 9 | 8 | 8 |

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 60
-- terms: 42
-- components: 16
-- concepts: 42
-- observations: 42
+- repos: 55
+- terms: 37
+- components: 12
+- concepts: 37
+- observations: 37
 
 ## Static behavior
 
@@ -81,11 +81,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/AI-Presentation-Builders-Index](https://github.com/danielrosehill/AI-Presentation-Builders-Index) | 0 | 2026-04-23T13:11:27Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [conda-forge/equinox-feedstock](https://github.com/conda-forge/equinox-feedstock) | 0 | 2026-04-23T12:45:27Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [danielrosehill/Claude-Israel](https://github.com/danielrosehill/Claude-Israel) | 0 | 2026-04-23T12:34:17Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
-| [conda-forge/conda-lock-feedstock](https://github.com/conda-forge/conda-lock-feedstock) | 0 | 2026-04-23T05:44:24Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
-| [Dustinpro/Dustinpro](https://github.com/Dustinpro/Dustinpro) | 0 | 2026-04-22T21:16:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [conda-forge/pytomlpp-feedstock](https://github.com/conda-forge/pytomlpp-feedstock) | 0 | 2026-04-22T19:50:06Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
-| [conda-forge/python-isal-feedstock](https://github.com/conda-forge/python-isal-feedstock) | 0 | 2026-04-22T19:38:39Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
-| [cachix/serde-envfile](https://github.com/cachix/serde-envfile) | 0 | 2026-04-22T10:39:58Z | Unknown | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -146,8 +141,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/AI-Presentation-Builders-Index](https://github.com/danielrosehill/AI-Presentation-Builders-Index) | 0 | 2026-04-23T13:11:27Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [conda-forge/equinox-feedstock](https://github.com/conda-forge/equinox-feedstock) | 0 | 2026-04-23T12:45:27Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [danielrosehill/Claude-Israel](https://github.com/danielrosehill/Claude-Israel) | 0 | 2026-04-23T12:34:17Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
-| [conda-forge/conda-lock-feedstock](https://github.com/conda-forge/conda-lock-feedstock) | 0 | 2026-04-23T05:44:24Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
-| [Dustinpro/Dustinpro](https://github.com/Dustinpro/Dustinpro) | 0 | 2026-04-22T21:16:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [conda-forge/pytomlpp-feedstock](https://github.com/conda-forge/pytomlpp-feedstock) | 0 | 2026-04-22T19:50:06Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
-| [conda-forge/python-isal-feedstock](https://github.com/conda-forge/python-isal-feedstock) | 0 | 2026-04-22T19:38:39Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
-| [cachix/serde-envfile](https://github.com/cachix/serde-envfile) | 0 | 2026-04-22T10:39:58Z | Unknown | Infrastructure/tooling | 2 | 4 | 2 | 2 |

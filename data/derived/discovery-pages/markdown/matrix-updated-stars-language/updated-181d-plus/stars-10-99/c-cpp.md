@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 285
-- terms: 624
-- components: 533
-- concepts: 627
-- observations: 627
+- repos: 286
+- terms: 630
+- components: 540
+- concepts: 633
+- observations: 633
 
 ## Static behavior
 
@@ -121,6 +121,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [reddy-lab-code-research/XLCoST](https://github.com/reddy-lab-code-research/XLCoST) | 94 | 2025-01-21T03:06:19Z | C/C++ | Model/data | 2 | 0 | 2 | 2 |
 | [dpryan79/libBigWig](https://github.com/dpryan79/libBigWig) | 81 | 2025-01-17T15:00:07Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [apple-oss-distributions/tapi](https://github.com/apple-oss-distributions/tapi) | 22 | 2025-01-14T05:02:13Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [csukuangfj/kaldi_native_io](https://github.com/csukuangfj/kaldi_native_io) | 27 | 2025-01-09T05:39:15Z | C/C++ | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [NIFTI-Imaging/nifti_clib](https://github.com/NIFTI-Imaging/nifti_clib) | 46 | 2024-12-20T19:35:31Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [garyservin/linka-firmware](https://github.com/garyservin/linka-firmware) | 12 | 2024-12-11T15:48:59Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [tidwall/redcon.c](https://github.com/tidwall/redcon.c) | 59 | 2024-12-08T16:18:51Z | C/C++ | Framework | 0 | 0 | 0 | 0 |
@@ -517,6 +518,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bzotto/rgba_bitmap](https://github.com/bzotto/rgba_bitmap) | 28 | 2024-06-03T16:08:12Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [jcelerier/vintage](https://github.com/jcelerier/vintage) | 28 | 2021-07-19T17:23:13Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [andrewtrotman/JASSv2](https://github.com/andrewtrotman/JASSv2) | 27 | 2025-09-05T04:55:35Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
+| [csukuangfj/kaldi_native_io](https://github.com/csukuangfj/kaldi_native_io) | 27 | 2025-01-09T05:39:15Z | C/C++ | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [dogtagpki/coolkey](https://github.com/dogtagpki/coolkey) | 27 | 2024-02-13T23:13:20Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [kriszyp/lmdbx-js](https://github.com/kriszyp/lmdbx-js) | 27 | 2023-03-12T04:06:20Z | C/C++ | Infrastructure/tooling | 1 | 19 | 1 | 1 |
 | [MC-117/BraneEngineDx](https://github.com/MC-117/BraneEngineDx) | 26 | 2025-08-30T09:24:09Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 216,
-    "concepts": 394,
-    "observations": 394,
-    "repos": 72,
-    "terms": 388
+    "components": 246,
+    "concepts": 419,
+    "observations": 419,
+    "repos": 76,
+    "terms": 415
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "adrienverge/yamllint",
     "AgentOps-AI/agentops",
@@ -45,14 +45,17 @@
     "heshengtao/comfyui_LLM_party",
     "HKUDS/VideoRAG",
     "hyperopt/hyperopt",
+    "Intellindust-AI-Lab/DEIM",
     "isl-org/Open3D-ML",
     "jaredks/rumps",
+    "jeffallan/claude-skills",
     "jiaaro/pydub",
     "keleshev/schema",
     "kijai/ComfyUI-WanVideoWrapper",
     "langfengQ/verl-agent",
     "lshqqytiger/stable-diffusion-webui-amdgpu",
     "lyuwenyu/RT-DETR",
+    "michaelfeil/infinity",
     "microsoft/TaskWeaver",
     "miolini/autoresearch-macos",
     "mozillazg/pinyin-data",
@@ -69,6 +72,7 @@
     "Pylons/pyramid",
     "pytest-dev/pytest-cov",
     "python-semantic-release/python-semantic-release",
+    "pyupio/safety",
     "qix-/better-exceptions",
     "randy3k/radian",
     "s3prl/s3prl",

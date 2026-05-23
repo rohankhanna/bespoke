@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 32,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 7,
-    "terms": 15
+    "concepts": 13,
+    "observations": 13,
+    "repos": 6,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "DiligentGraphics/args",
     "glennhickey/red",
-    "jrsoftware/is7z",
     "Saalvage/assimp",
     "usdot-fhwa-stol/carma-ns3-adapter",
     "yoshoku/numo-liblinear",

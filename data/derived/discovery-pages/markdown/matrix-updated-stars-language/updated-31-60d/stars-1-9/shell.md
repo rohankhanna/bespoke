@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · Shell
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 17
-- terms: 23
+- repos: 19
+- terms: 25
 - components: 40
-- concepts: 27
-- observations: 27
+- concepts: 29
+- observations: 29
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [conda-forge/pgvector-feedstock](https://github.com/conda-forge/pgvector-feedstock) | 7 | 2026-04-22T13:53:43Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [conda-forge/nlohmann_json-feedstock](https://github.com/conda-forge/nlohmann_json-feedstock) | 4 | 2026-04-22T11:31:59Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [status-im/nimbus-build-system](https://github.com/status-im/nimbus-build-system) | 9 | 2026-04-22T01:16:01Z | Shell | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [reviewdog/action-composite-template](https://github.com/reviewdog/action-composite-template) | 5 | 2026-04-21T20:56:05Z | Shell | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [hermit-os/rust-std-hermit](https://github.com/hermit-os/rust-std-hermit) | 9 | 2026-04-20T09:19:26Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
@@ -52,9 +54,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hermit-os/rust-std-hermit](https://github.com/hermit-os/rust-std-hermit) | 9 | 2026-04-20T09:19:26Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [chronosphereio/calyptia-cli](https://github.com/chronosphereio/calyptia-cli) | 9 | 2026-04-15T17:14:57Z | Shell | CLI | 1 | 0 | 1 | 1 |
 | [marcindulak/ralph-wiggum-bdd](https://github.com/marcindulak/ralph-wiggum-bdd) | 9 | 2026-04-12T07:50:42Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [conda-forge/pgvector-feedstock](https://github.com/conda-forge/pgvector-feedstock) | 7 | 2026-04-22T13:53:43Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [alvistack/ansible-role-conmon](https://github.com/alvistack/ansible-role-conmon) | 7 | 2026-04-17T04:37:38Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [0ghny/shellx](https://github.com/0ghny/shellx) | 7 | 2026-04-08T13:26:05Z | Shell | Infrastructure/tooling | 2 | 13 | 4 | 4 |
 | [reviewdog/action-composite-template](https://github.com/reviewdog/action-composite-template) | 5 | 2026-04-21T20:56:05Z | Shell | Infrastructure/tooling | 5 | 12 | 5 | 5 |
+| [conda-forge/nlohmann_json-feedstock](https://github.com/conda-forge/nlohmann_json-feedstock) | 4 | 2026-04-22T11:31:59Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [HKU-BAL/Clair-skills](https://github.com/HKU-BAL/Clair-skills) | 4 | 2026-04-16T07:26:19Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [agent-sh/glidemq](https://github.com/agent-sh/glidemq) | 4 | 2026-04-15T09:02:49Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [semgrep/mcp-marketplace](https://github.com/semgrep/mcp-marketplace) | 3 | 2026-04-10T23:28:35Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |

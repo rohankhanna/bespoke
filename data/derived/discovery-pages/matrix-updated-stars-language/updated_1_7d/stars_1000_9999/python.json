@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 105,
-    "concepts": 128,
-    "observations": 128,
-    "repos": 16,
-    "terms": 127
+    "components": 97,
+    "concepts": 140,
+    "observations": 140,
+    "repos": 18,
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,25 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "aigc-apps/VideoX-Fun",
     "aws/serverless-application-model",
     "clearml/clearml",
-    "collabora/WhisperLive",
+    "FunAudioLLM/Fun-ASR",
+    "FunAudioLLM/SenseVoice",
     "google-deepmind/optax",
-    "google/budoux",
     "InternScience/GraphGen",
+    "JuergenFleiss/aTrain",
     "lucidrains/vector-quantize-pytorch",
     "meta-pytorch/tnt",
+    "modelscope/FunClip",
     "msiemens/tinydb",
     "nomadkaraoke/python-audio-separator",
+    "ogx-ai/ogx",
     "roboflow/maestro",
     "safetensors/safetensors",
     "speaches-ai/speaches",
-    "strob/gentle",
-    "zai-org/GLM-V"
+    "strob/gentle"
   ]
 }

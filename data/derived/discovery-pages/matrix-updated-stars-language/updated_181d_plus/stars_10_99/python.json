@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 691,
-    "concepts": 1461,
-    "observations": 1463,
-    "repos": 838,
-    "terms": 1442
+    "concepts": 1467,
+    "observations": 1469,
+    "repos": 841,
+    "terms": 1447
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -126,6 +126,7 @@
     "apple/ml-entropy-reconstruction",
     "apple/ml-sid-dit",
     "appletea233/Temporal-R1",
+    "AppliedAcousticsChalmers/ReTiSAR",
     "AQA6666/SCP-116K-open",
     "aquaskyline/clair",
     "archinetai/a-unet",
@@ -341,6 +342,7 @@
     "emibcn/pywisp",
     "epicure/llama2.js",
     "erezinman/loguru-config",
+    "erkyrath/glk-dev",
     "ESandML/FCBFormer",
     "ethancaballero/description2code",
     "ethansmith2000/comfy-todo",
@@ -391,6 +393,7 @@
     "gisbi-kim/mini-kitti-publisher",
     "givkashi/Focal-Unet",
     "gligen/diffusers",
+    "Gloridust/whisper_streaming_CN",
     "gnobitab/FlowGrad",
     "google-deepmind/dmvr",
     "google-research/hit-gan",

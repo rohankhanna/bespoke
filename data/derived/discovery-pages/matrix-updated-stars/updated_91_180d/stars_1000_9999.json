@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 2771,
-    "concepts": 2486,
-    "observations": 2496,
-    "repos": 486,
-    "terms": 2462
+    "components": 2757,
+    "concepts": 2482,
+    "observations": 2492,
+    "repos": 487,
+    "terms": 2454
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2shady4u/godot-sqlite",
     "3Hren/msgpack-rust",
+    "3rd/image.nvim",
     "99designs/aws-vault",
     "aarondl/authboss",
     "ace-step/ACE-Step",
@@ -228,6 +229,7 @@
     "hustvl/LightningDiT",
     "hustvl/VAD",
     "IBM/Project_CodeNet",
+    "IDEA-Research/Rex-Omni",
     "imgui-rs/imgui-rs",
     "improbable-eng/ts-protoc-gen",
     "Instagram/LibCST",
@@ -369,7 +371,6 @@
     "phar-io/manifest",
     "pipecat-ai/smart-turn",
     "PixarAnimationStudios/OpenSubdiv",
-    "PKU-Alignment/safe-rlhf",
     "PKU-YuanGroup/LLaVA-CoT",
     "PlexPt/chatgpt-java",
     "postmodern/ruby-install",
@@ -381,6 +382,7 @@
     "protocolbuffers/protobuf-go",
     "prs-eth/Marigold",
     "PyCQA/pycodestyle",
+    "pykaldi/pykaldi",
     "python-lsp/python-lsp-server",
     "Python-Markdown/markdown",
     "python-rope/rope",
@@ -483,7 +485,6 @@
     "Vigemus/iron.nvim",
     "VirusTotal/yara",
     "ViTAE-Transformer/ViTPose",
-    "vitalets/github-trending-repos",
     "waymo-research/waymo-open-dataset",
     "weaviate/elysia",
     "web-arena-x/webarena",

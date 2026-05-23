@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 31
-- terms: 78
-- components: 597
-- concepts: 76
-- observations: 76
+- repos: 33
+- terms: 85
+- components: 599
+- concepts: 83
+- observations: 83
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [AlexJPotter/fluentvalidation-ts](https://github.com/AlexJPotter/fluentvalidation-ts) | 98 | 2026-02-21T18:25:22Z | TypeScript | Infrastructure/tooling | 7 | 2 | 7 | 7 |
+| [janwilmake/openapisearch](https://github.com/janwilmake/openapisearch) | 60 | 2026-02-21T12:49:32Z | TypeScript | Service/API | 0 | 0 | 0 | 0 |
 | [2slides/mcp-2slides](https://github.com/2slides/mcp-2slides) | 29 | 2026-02-20T08:17:02Z | TypeScript | Service/API | 2 | 8 | 2 | 2 |
 | [holochain/hc-spin](https://github.com/holochain/hc-spin) | 30 | 2026-02-18T20:55:12Z | TypeScript | CLI | 1 | 28 | 1 | 1 |
 | [hsimpson/vscode-glsllint](https://github.com/hsimpson/vscode-glsllint) | 92 | 2026-02-12T18:52:35Z | TypeScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
@@ -62,6 +64,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [AlexJPotter/fluentvalidation-ts](https://github.com/AlexJPotter/fluentvalidation-ts) | 98 | 2026-02-21T18:25:22Z | TypeScript | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [sculptdotfun/viberank](https://github.com/sculptdotfun/viberank) | 95 | 2026-01-26T03:24:17Z | TypeScript | Unknown | 0 | 28 | 0 | 0 |
 | [hsimpson/vscode-glsllint](https://github.com/hsimpson/vscode-glsllint) | 92 | 2026-02-12T18:52:35Z | TypeScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [CyanSalt/commas](https://github.com/CyanSalt/commas) | 76 | 2025-12-05T08:12:58Z | TypeScript | CLI | 2 | 70 | 2 | 2 |
@@ -70,6 +73,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [holochain/launcher](https://github.com/holochain/launcher) | 71 | 2026-01-09T15:19:51Z | TypeScript | Infrastructure/tooling | 4 | 64 | 4 | 4 |
 | [remotion-dev/brand](https://github.com/remotion-dev/brand) | 68 | 2025-12-12T09:28:21Z | TypeScript | Infrastructure/tooling | 4 | 27 | 4 | 4 |
 | [googleapis/nodejs-logging-bunyan](https://github.com/googleapis/nodejs-logging-bunyan) | 64 | 2026-02-05T18:05:46Z | TypeScript | CLI | 4 | 30 | 4 | 4 |
+| [janwilmake/openapisearch](https://github.com/janwilmake/openapisearch) | 60 | 2026-02-21T12:49:32Z | TypeScript | Service/API | 0 | 0 | 0 | 0 |
 | [aigc3d/LAM_WebRender](https://github.com/aigc3d/LAM_WebRender) | 55 | 2025-12-25T08:38:15Z | TypeScript | Web app | 0 | 4 | 0 | 0 |
 | [dao-xyz/borsh-ts](https://github.com/dao-xyz/borsh-ts) | 50 | 2025-12-31T15:08:17Z | TypeScript | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 | [c2corg/browserslist-update-action](https://github.com/c2corg/browserslist-update-action) | 44 | 2026-02-06T07:12:46Z | TypeScript | Infrastructure/tooling | 2 | 29 | 2 | 2 |

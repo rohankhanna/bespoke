@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 140,
-    "concepts": 144,
-    "observations": 146,
-    "repos": 32,
-    "terms": 143
+    "components": 148,
+    "concepts": 160,
+    "observations": 162,
+    "repos": 33,
+    "terms": 157
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "agentclientprotocol/java-sdk",
     "akarnokd/RxJavaFiberInterop",
@@ -33,6 +33,7 @@
     "dart4e/dart4e",
     "enola-dev/enola",
     "filip26/iridium-cbor-ld",
+    "filip26/ld-cli",
     "glaforge/adk-java-maven-template",
     "google/guava-beta-checker",
     "ipld/java-cid",

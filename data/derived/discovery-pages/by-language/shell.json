@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1917,
-    "concepts": 2864,
-    "observations": 2883,
-    "repos": 713,
-    "terms": 2796
+    "components": 1922,
+    "concepts": 2866,
+    "observations": 2885,
+    "repos": 715,
+    "terms": 2798
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -211,6 +211,7 @@
     "conda-forge/fenics-dolfinx-feedstock",
     "conda-forge/miniforge",
     "conda-forge/nlohmann_json-feedstock",
+    "conda-forge/openblas-feedstock",
     "conda-forge/pgvector-feedstock",
     "conda-forge/pinocchio-feedstock",
     "conda-forge/poppler-feedstock",
@@ -405,6 +406,7 @@
     "itzg/docker-mc-backup",
     "itzg/docker-minecraft-bedrock-server",
     "itzg/docker-minecraft-server",
+    "jackaudio/jack2-releases",
     "jandamm/zgenom",
     "jandamm/zgenom-ext-eval",
     "jandamm/zgenom-ext-release",
@@ -684,7 +686,7 @@
     "transmissions11/dapptools-template",
     "trapd00r/LS_COLORS",
     "tremby/imgur.sh",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "tuvovan/Zero_DCE_TF",
     "twain47/Open-SVG-Map-Icons",
     "TypedDevs/bashunit",

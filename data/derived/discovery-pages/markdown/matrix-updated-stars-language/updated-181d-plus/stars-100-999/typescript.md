@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 203
-- terms: 774
-- components: 4924
-- concepts: 763
-- observations: 765
+- repos: 204
+- terms: 782
+- components: 4941
+- concepts: 771
+- observations: 773
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [PrismLibrary/Prism-Documentation](https://github.com/PrismLibrary/Prism-Documentation) | 184 | 2025-11-23T19:01:16Z | TypeScript | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 | [angular/vscode-ng-language-service](https://github.com/angular/vscode-ng-language-service) | 797 | 2025-11-21T20:24:54Z | TypeScript | Infrastructure/tooling | 3 | 43 | 3 | 3 |
 | [jezweb/roo-commander](https://github.com/jezweb/roo-commander) | 718 | 2025-11-20T23:23:12Z | TypeScript | Unknown | 2 | 11 | 2 | 2 |
 | [morrys/react-relay-offline](https://github.com/morrys/react-relay-offline) | 238 | 2025-11-18T19:39:21Z | TypeScript | Infrastructure/tooling | 7 | 52 | 7 | 7 |
@@ -103,7 +104,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fjc0k/yapi-to-typescript](https://github.com/fjc0k/yapi-to-typescript) | 472 | 2024-11-21T07:14:18Z | TypeScript | Infrastructure/tooling | 8 | 52 | 8 | 8 |
 | [Beaglefoot/awk-language-server](https://github.com/Beaglefoot/awk-language-server) | 116 | 2024-11-19T02:51:26Z | TypeScript | CLI | 5 | 8 | 5 | 5 |
 | [caoxiemeihao/electron-vite-samples](https://github.com/caoxiemeihao/electron-vite-samples) | 263 | 2024-11-16T13:19:33Z | TypeScript | Unknown | 8 | 1 | 8 | 8 |
-| [jonaskello/tsconfig-paths-webpack-plugin](https://github.com/jonaskello/tsconfig-paths-webpack-plugin) | 622 | 2024-11-15T07:09:05Z | TypeScript | Infrastructure/tooling | 0 | 27 | 0 | 0 |
+| [jonaskello/tsconfig-paths-webpack-plugin](https://github.com/jonaskello/tsconfig-paths-webpack-plugin) | 623 | 2024-11-15T07:09:05Z | TypeScript | Infrastructure/tooling | 0 | 27 | 0 | 0 |
 | [Qard/onchange](https://github.com/Qard/onchange) | 828 | 2024-11-09T06:33:47Z | TypeScript | Unknown | 0 | 11 | 0 | 0 |
 | [rameshvarun/netplayjs](https://github.com/rameshvarun/netplayjs) | 562 | 2024-10-10T07:40:04Z | TypeScript | Infrastructure/tooling | 10 | 2 | 10 | 10 |
 | [ansible/ansible-language-server](https://github.com/ansible/ansible-language-server) | 250 | 2024-10-09T18:11:47Z | TypeScript | Infrastructure/tooling | 5 | 45 | 5 | 5 |
@@ -272,7 +273,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [scalabel/scalabel](https://github.com/scalabel/scalabel) | 661 | 2025-04-17T07:52:51Z | TypeScript | Infrastructure/tooling | 4 | 137 | 4 | 4 |
 | [cvlab-epfl/gaussian-splatting-web](https://github.com/cvlab-epfl/gaussian-splatting-web) | 659 | 2024-03-13T18:06:45Z | TypeScript | Unknown | 0 | 18 | 0 | 0 |
 | [antfu/vite-plugin-md](https://github.com/antfu/vite-plugin-md) | 636 | 2023-11-25T19:31:38Z | TypeScript | Infrastructure/tooling | 4 | 42 | 6 | 6 |
-| [jonaskello/tsconfig-paths-webpack-plugin](https://github.com/jonaskello/tsconfig-paths-webpack-plugin) | 622 | 2024-11-15T07:09:05Z | TypeScript | Infrastructure/tooling | 0 | 27 | 0 | 0 |
+| [jonaskello/tsconfig-paths-webpack-plugin](https://github.com/jonaskello/tsconfig-paths-webpack-plugin) | 623 | 2024-11-15T07:09:05Z | TypeScript | Infrastructure/tooling | 0 | 27 | 0 | 0 |
 | [underfin/vite-plugin-vue2](https://github.com/underfin/vite-plugin-vue2) | 619 | 2023-02-16T23:10:02Z | TypeScript | Infrastructure/tooling | 0 | 54 | 0 | 0 |
 | [mhartington/nvim-typescript](https://github.com/mhartington/nvim-typescript) | 612 | 2021-07-28T14:13:48Z | TypeScript | Unknown | 1 | 0 | 1 | 1 |
 | [withastro/prettier-plugin-astro](https://github.com/withastro/prettier-plugin-astro) | 599 | 2025-10-13T14:44:21Z | TypeScript | Infrastructure/tooling | 8 | 23 | 8 | 8 |
@@ -374,6 +375,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mgmeyers/obsidian-contextual-typography](https://github.com/mgmeyers/obsidian-contextual-typography) | 193 | 2024-06-16T20:29:20Z | TypeScript | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [Dogtiti/AutoGPT-Next-Web](https://github.com/Dogtiti/AutoGPT-Next-Web) | 190 | 2023-12-11T15:01:19Z | TypeScript | Infrastructure/tooling | 3 | 75 | 3 | 3 |
 | [frandiox/vitesse-ssr-template](https://github.com/frandiox/vitesse-ssr-template) | 190 | 2021-11-30T17:06:21Z | TypeScript | Template/starter | 3 | 31 | 3 | 3 |
+| [PrismLibrary/Prism-Documentation](https://github.com/PrismLibrary/Prism-Documentation) | 184 | 2025-11-23T19:01:16Z | TypeScript | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 | [kyryl-opens-ml/no-ocr](https://github.com/kyryl-opens-ml/no-ocr) | 184 | 2025-06-30T09:07:25Z | TypeScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [iohub/collama](https://github.com/iohub/collama) | 181 | 2025-01-30T11:38:43Z | TypeScript | Infrastructure/tooling | 11 | 43 | 11 | 11 |
 | [Kingwl/monaco-volar](https://github.com/Kingwl/monaco-volar) | 181 | 2023-12-16T23:31:46Z | TypeScript | Infrastructure/tooling | 3 | 20 | 3 | 3 |

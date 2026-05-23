@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 60
-- terms: 72
+- repos: 62
+- terms: 74
 - components: 44
-- concepts: 72
-- observations: 72
+- concepts: 74
+- observations: 74
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [conda-forge/scikit-optimize-feedstock](https://github.com/conda-forge/scikit-optimize-feedstock) | 3 | 2026-04-23T00:37:15Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [conda-forge/python-zlib-ng-feedstock](https://github.com/conda-forge/python-zlib-ng-feedstock) | 1 | 2026-04-22T19:47:29Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [kyverno/community](https://github.com/kyverno/community) | 3 | 2026-04-22T15:23:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Code-Plugins](https://github.com/danielrosehill/Claude-Code-Plugins) | 9 | 2026-04-21T21:44:33Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [cachix/iocraft](https://github.com/cachix/iocraft) | 1 | 2026-04-21T19:19:04Z | Unknown | CLI | 2 | 7 | 2 | 2 |
 | [conda-forge/ultralytics-feedstock](https://github.com/conda-forge/ultralytics-feedstock) | 8 | 2026-04-21T18:13:29Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -85,7 +88,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ada-url/url-various-datasets](https://github.com/ada-url/url-various-datasets) | 5 | 2026-03-25T20:07:19Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [danielrosehill/claude-code-sysadmin-workspaces-index](https://github.com/danielrosehill/Claude-Code-Sysadmin-Workspaces-Index) | 1 | 2026-03-25T16:18:31Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [hchiam/learning-gh](https://github.com/hchiam/learning-gh) | 1 | 2026-03-24T22:42:44Z | Unknown | CLI | 0 | 0 | 0 | 0 |
-| [aaronrsun/spec-kit-checkpoint](https://github.com/aaronrsun/spec-kit-checkpoint) | 4 | 2026-03-24T03:13:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -112,7 +114,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ada-url/url-various-datasets](https://github.com/ada-url/url-various-datasets) | 5 | 2026-03-25T20:07:19Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [1sh1ro/liangxi-skills](https://github.com/1sh1ro/liangxi-skills) | 4 | 2026-04-10T17:37:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [vega/.github](https://github.com/vega/.github) | 4 | 2026-03-27T17:16:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [aaronrsun/spec-kit-checkpoint](https://github.com/aaronrsun/spec-kit-checkpoint) | 4 | 2026-03-24T03:13:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [conda-forge/scikit-optimize-feedstock](https://github.com/conda-forge/scikit-optimize-feedstock) | 3 | 2026-04-23T00:37:15Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [kyverno/community](https://github.com/kyverno/community) | 3 | 2026-04-22T15:23:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [canonical/ubuntu-desktop-provision-screenshots](https://github.com/canonical/ubuntu-desktop-provision-screenshots) | 3 | 2026-04-15T15:50:40Z | Unknown | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [sp1-patches/bn](https://github.com/sp1-patches/bn) | 3 | 2026-04-10T07:53:20Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [eslint/.github](https://github.com/eslint/.github) | 2 | 2026-04-18T08:20:43Z | Unknown | Infrastructure/tooling | 3 | 3 | 3 | 3 |
@@ -129,6 +132,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [2KAbhishek/BWnB](https://github.com/2KAbhishek/BWnB) | 2 | 2026-04-06T05:19:37Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [danielrosehill/Homebox-Projects-Index](https://github.com/danielrosehill/Homebox-Projects-Index) | 2 | 2026-03-27T17:15:08Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [hchiam/learning-template](https://github.com/hchiam/learning-template) | 2 | 2026-03-26T00:04:39Z | Unknown | Infrastructure/tooling | 0 | 6 | 0 | 0 |
+| [conda-forge/python-zlib-ng-feedstock](https://github.com/conda-forge/python-zlib-ng-feedstock) | 1 | 2026-04-22T19:47:29Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [cachix/iocraft](https://github.com/cachix/iocraft) | 1 | 2026-04-21T19:19:04Z | Unknown | CLI | 2 | 7 | 2 | 2 |
 | [danielrosehill/Claude-Purchasing-Plugin](https://github.com/danielrosehill/Claude-Purchasing-Plugin) | 1 | 2026-04-21T11:46:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [flathub/org.gnome.eog](https://github.com/flathub/org.gnome.eog) | 1 | 2026-04-20T16:40:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

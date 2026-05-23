@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 540,
-    "concepts": 163,
-    "observations": 163,
-    "repos": 26,
-    "terms": 163
+    "components": 498,
+    "concepts": 161,
+    "observations": 161,
+    "repos": 25,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "8hobbies/vite-plugin-year",
@@ -30,7 +30,6 @@
     "ipld/github-mgmt",
     "ipshipyard/github-mgmt",
     "multiformats/github-mgmt",
-    "nicolo-ribaudo/engine262",
     "oclif/plugin-commands",
     "oclif/plugin-search",
     "oclif/plugin-version",

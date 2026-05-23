@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 68
-- terms: 730
-- components: 565
-- concepts: 734
-- observations: 735
+- repos: 66
+- terms: 719
+- components: 557
+- concepts: 723
+- observations: 724
 
 ## Static behavior
 
@@ -92,8 +92,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [diffplug/spotless](https://github.com/diffplug/spotless) | 5427 | 2026-04-23T11:56:48Z | Java | Infrastructure/tooling | 15 | 8 | 15 | 15 |
 | [apache/netbeans](https://github.com/apache/netbeans) | 3046 | 2026-04-23T10:43:45Z | Java | Infrastructure/tooling | 8 | 9 | 8 | 9 |
 | [apache/lucene](https://github.com/apache/lucene) | 3408 | 2026-04-23T09:41:23Z | Java | Infrastructure/tooling | 13 | 7 | 13 | 13 |
-| [rabbitmq/rabbitmq-tutorials](https://github.com/rabbitmq/rabbitmq-tutorials) | 6884 | 2026-04-23T02:04:09Z | Java | Unknown | 2 | 0 | 2 | 2 |
-| [raphw/byte-buddy](https://github.com/raphw/byte-buddy) | 6818 | 2026-04-22T23:08:03Z | Java | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 
 ## Repos sorted by stars
 
@@ -111,8 +109,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [junit-team/junit4](https://github.com/junit-team/junit4) | 8534 | 2026-04-25T11:30:38Z | Java | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [apache/tomcat](https://github.com/apache/tomcat) | 8163 | 2026-05-06T13:24:43Z | Java | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [swagger-api/swagger-core](https://github.com/swagger-api/swagger-core) | 7521 | 2026-04-28T14:58:40Z | Java | Infrastructure/tooling | 17 | 11 | 17 | 17 |
-| [rabbitmq/rabbitmq-tutorials](https://github.com/rabbitmq/rabbitmq-tutorials) | 6884 | 2026-04-23T02:04:09Z | Java | Unknown | 2 | 0 | 2 | 2 |
-| [raphw/byte-buddy](https://github.com/raphw/byte-buddy) | 6818 | 2026-04-22T23:08:03Z | Java | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [hazelcast/hazelcast](https://github.com/hazelcast/hazelcast) | 6575 | 2026-04-30T06:21:01Z | Java | Infrastructure/tooling | 19 | 2 | 19 | 19 |
 | [micronaut-projects/micronaut-core](https://github.com/micronaut-projects/micronaut-core) | 6402 | 2026-04-30T06:26:22Z | Java | Infrastructure/tooling | 14 | 25 | 14 | 14 |
 | [lightbend/config](https://github.com/lightbend/config) | 6296 | 2026-04-28T10:35:49Z | Java | Infrastructure/tooling | 4 | 3 | 4 | 4 |

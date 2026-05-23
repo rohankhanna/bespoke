@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 189
-- terms: 721
-- components: 790
-- concepts: 726
-- observations: 727
+- terms: 698
+- components: 773
+- concepts: 703
+- observations: 704
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [swansonk14/admet_ai](https://github.com/swansonk14/admet_ai) | 297 | 2026-02-22T01:11:44Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [radian-software/ctrlf](https://github.com/radian-software/ctrlf) | 367 | 2026-02-21T19:39:54Z | Other | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [AccountGo/accountgo](https://github.com/AccountGo/accountgo) | 436 | 2026-02-19T20:36:44Z | Other | CLI | 0 | 8 | 0 | 0 |
 | [CSU-Radarmet/CSU_RadarTools](https://github.com/CSU-Radarmet/CSU_RadarTools) | 100 | 2026-02-19T19:14:53Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [esy/esy](https://github.com/esy/esy) | 857 | 2026-02-18T07:57:09Z | Other | Infrastructure/tooling | 3 | 34 | 3 | 3 |
@@ -213,8 +215,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ocaml-wasm/wasm_of_ocaml](https://github.com/ocaml-wasm/wasm_of_ocaml) | 281 | 2025-11-24T16:58:25Z | Other | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [RobotecAI/ros2-for-unity](https://github.com/RobotecAI/ros2-for-unity) | 618 | 2025-11-24T08:11:58Z | Other | Unknown | 8 | 0 | 8 | 8 |
 | [JuliaPlots/StatsPlots.jl](https://github.com/JuliaPlots/StatsPlots.jl) | 450 | 2025-11-24T06:04:34Z | Other | Infrastructure/tooling | 3 | 8 | 3 | 3 |
-| [JuliaData/DataFramesMeta.jl](https://github.com/JuliaData/DataFramesMeta.jl) | 497 | 2025-11-24T05:20:57Z | Other | Infrastructure/tooling | 10 | 9 | 10 | 10 |
-| [JuliaGraphics/Colors.jl](https://github.com/JuliaGraphics/Colors.jl) | 223 | 2025-11-24T05:10:56Z | Other | Infrastructure/tooling | 14 | 11 | 14 | 14 |
 
 ## Repos sorted by stars
 
@@ -287,7 +287,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [renzmann/treesit-auto](https://github.com/renzmann/treesit-auto) | 513 | 2026-02-10T20:10:35Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [com-lihaoyi/utest](https://github.com/com-lihaoyi/utest) | 508 | 2026-01-22T23:21:51Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [66RING/tiny-flash-attention](https://github.com/66RING/tiny-flash-attention) | 507 | 2026-01-20T11:24:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [JuliaData/DataFramesMeta.jl](https://github.com/JuliaData/DataFramesMeta.jl) | 497 | 2025-11-24T05:20:57Z | Other | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [seattlerb/ruby_parser](https://github.com/seattlerb/ruby_parser) | 483 | 2025-12-21T02:02:20Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [auto-complete/popup-el](https://github.com/auto-complete/popup-el) | 472 | 2025-12-31T16:22:34Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [Deep-Symmetry/afterglow](https://github.com/Deep-Symmetry/afterglow) | 471 | 2025-12-21T05:12:00Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
@@ -316,6 +315,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [evadne/etso](https://github.com/evadne/etso) | 384 | 2026-01-08T05:52:29Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [plk/biber](https://github.com/plk/biber) | 381 | 2025-12-31T20:49:07Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [kaarmu/typst.vim](https://github.com/kaarmu/typst.vim) | 376 | 2025-12-17T11:39:14Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [radian-software/ctrlf](https://github.com/radian-software/ctrlf) | 367 | 2026-02-21T19:39:54Z | Other | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [WebAssembly/tool-conventions](https://github.com/WebAssembly/tool-conventions) | 364 | 2026-01-29T20:14:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [allenai/ScienceWorld](https://github.com/allenai/ScienceWorld) | 354 | 2025-12-03T20:46:01Z | Other | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [rescript-lang/rescript-vscode](https://github.com/rescript-lang/rescript-vscode) | 351 | 2026-02-04T06:35:35Z | Other | Infrastructure/tooling | 2 | 17 | 2 | 2 |
@@ -330,6 +330,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [loqusion/typix](https://github.com/loqusion/typix) | 312 | 2026-02-07T08:51:26Z | Other | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [cnuernber/charred](https://github.com/cnuernber/charred) | 310 | 2026-01-30T15:57:11Z | Other | Infrastructure/tooling | 3 | 5 | 4 | 4 |
 | [astoff/digestif](https://github.com/astoff/digestif) | 303 | 2025-12-02T12:20:15Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
+| [swansonk14/admet_ai](https://github.com/swansonk14/admet_ai) | 297 | 2026-02-22T01:11:44Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [kakajun/vue3-sketch-ruler](https://github.com/kakajun/vue3-sketch-ruler) | 293 | 2026-01-13T03:01:43Z | Other | Infrastructure/tooling | 1 | 57 | 1 | 1 |
 | [ankane/groupdate.sql](https://github.com/ankane/groupdate.sql) | 288 | 2025-12-31T20:36:57Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [joshwlewis/unitwise](https://github.com/joshwlewis/unitwise) | 286 | 2025-11-27T14:41:34Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -351,7 +352,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gvvaughan/lyaml](https://github.com/gvvaughan/lyaml) | 229 | 2026-01-03T16:47:02Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [donut-party/system](https://github.com/donut-party/system) | 228 | 2026-01-19T16:43:20Z | Other | Library | 0 | 0 | 0 | 0 |
 | [gfredericks/test.chuck](https://github.com/gfredericks/test.chuck) | 224 | 2026-02-07T17:53:58Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
-| [JuliaGraphics/Colors.jl](https://github.com/JuliaGraphics/Colors.jl) | 223 | 2025-11-24T05:10:56Z | Other | Infrastructure/tooling | 14 | 11 | 14 | 14 |
 | [rahul-goel/fused-ssim](https://github.com/rahul-goel/fused-ssim) | 221 | 2026-02-02T20:28:23Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Azure/aca-landing-zone-accelerator](https://github.com/Azure/aca-landing-zone-accelerator) | 218 | 2026-01-26T21:39:48Z | Other | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [emacs-lsp/lsp-dart](https://github.com/emacs-lsp/lsp-dart) | 213 | 2026-02-14T23:54:28Z | Other | CLI | 16 | 4 | 16 | 16 |

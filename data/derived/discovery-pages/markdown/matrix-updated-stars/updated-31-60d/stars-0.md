@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 213
-- terms: 334
-- components: 896
-- concepts: 302
-- observations: 303
+- repos: 223
+- terms: 357
+- components: 923
+- concepts: 325
+- observations: 326
 
 ## Static behavior
 
@@ -25,6 +25,17 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [conda-forge/conda-lock-feedstock](https://github.com/conda-forge/conda-lock-feedstock) | 0 | 2026-04-23T05:44:24Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [conda-forge/cccl-feedstock](https://github.com/conda-forge/cccl-feedstock) | 0 | 2026-04-23T05:17:57Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [conda-forge/bottom-feedstock](https://github.com/conda-forge/bottom-feedstock) | 0 | 2026-04-23T05:06:25Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [conda-forge/blis-feedstock](https://github.com/conda-forge/blis-feedstock) | 0 | 2026-04-23T05:02:51Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [Dustinpro/Dustinpro](https://github.com/Dustinpro/Dustinpro) | 0 | 2026-04-22T21:16:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [conda-forge/pytomlpp-feedstock](https://github.com/conda-forge/pytomlpp-feedstock) | 0 | 2026-04-22T19:50:06Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [conda-forge/python-isal-feedstock](https://github.com/conda-forge/python-isal-feedstock) | 0 | 2026-04-22T19:38:39Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [hmellor/vllm](https://github.com/hmellor/vllm) | 0 | 2026-04-22T15:54:48Z | Python | Infrastructure/tooling | 6 | 7 | 6 | 6 |
+| [DeepWok/mase-docker](https://github.com/DeepWok/mase-docker) | 0 | 2026-04-22T13:43:17Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [rltakashige/mlx-jaccl-fix-small-recv](https://github.com/rltakashige/mlx-jaccl-fix-small-recv) | 0 | 2026-04-22T12:30:12Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [cachix/serde-envfile](https://github.com/cachix/serde-envfile) | 0 | 2026-04-22T10:39:58Z | Unknown | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [databendlabs/databend-base](https://github.com/databendlabs/databend-base) | 0 | 2026-04-22T08:55:03Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [hauntsaninja/mypy](https://github.com/hauntsaninja/mypy) | 0 | 2026-04-22T04:46:56Z | Python | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [guoqingbao/candle](https://github.com/guoqingbao/candle) | 0 | 2026-04-21T15:17:12Z | Rust | Infrastructure/tooling | 4 | 14 | 4 | 4 |
@@ -123,6 +134,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/My-Benchmarks](https://github.com/danielrosehill/My-Benchmarks) | 0 | 2026-04-17T12:20:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Speech-And-ASR-Evaluations](https://github.com/danielrosehill/Speech-And-ASR-Evaluations) | 0 | 2026-04-17T12:19:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [stdlib-js/ndarray-dtype-ctor](https://github.com/stdlib-js/ndarray-dtype-ctor) | 0 | 2026-04-17T11:17:11Z | JavaScript | Infrastructure/tooling | 25 | 30 | 25 | 25 |
+| [datafuse-extras/lance](https://github.com/datafuse-extras/lance) | 0 | 2026-04-17T07:53:42Z | Rust | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [datafuse-extras/orc-rust](https://github.com/datafuse-extras/orc-rust) | 0 | 2026-04-17T07:53:37Z | Rust | Infrastructure/tooling | 0 | 11 | 0 | 0 |
 | [acevif/swiftformat-nix](https://github.com/acevif/swiftformat-nix) | 0 | 2026-04-17T06:23:08Z | Other | Library | 5 | 0 | 5 | 5 |
 | [danielrosehill/Agent-Assisted-Purchase-Research-Index](https://github.com/danielrosehill/Agent-Assisted-Purchase-Research-Index) | 0 | 2026-04-16T18:00:32Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
@@ -236,13 +248,22 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaBinaryWrappers/FreeType2_jll.jl](https://github.com/JuliaBinaryWrappers/FreeType2_jll.jl) | 0 | 2026-03-24T20:57:32Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [adipalko/hatraot](https://github.com/adipalko/hatraot) | 0 | 2026-03-24T20:13:43Z | TypeScript | Unknown | 0 | 14 | 0 | 0 |
 | [danielrosehill/Hebrew-Tech-Vocab](https://github.com/danielrosehill/Hebrew-Tech-Vocab) | 0 | 2026-03-24T17:27:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [Nambers/ssrJSON-benchmark](https://github.com/Nambers/ssrJSON-benchmark) | 0 | 2026-03-23T20:11:45Z | Python | Infrastructure/tooling | 2 | 9 | 2 | 2 |
-| [Systemcluster/tokenizer-bench](https://github.com/Systemcluster/tokenizer-bench) | 0 | 2026-03-23T18:30:29Z | Python | Model/data | 3 | 0 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [conda-forge/conda-lock-feedstock](https://github.com/conda-forge/conda-lock-feedstock) | 0 | 2026-04-23T05:44:24Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [conda-forge/cccl-feedstock](https://github.com/conda-forge/cccl-feedstock) | 0 | 2026-04-23T05:17:57Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [conda-forge/bottom-feedstock](https://github.com/conda-forge/bottom-feedstock) | 0 | 2026-04-23T05:06:25Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [conda-forge/blis-feedstock](https://github.com/conda-forge/blis-feedstock) | 0 | 2026-04-23T05:02:51Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [Dustinpro/Dustinpro](https://github.com/Dustinpro/Dustinpro) | 0 | 2026-04-22T21:16:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [conda-forge/pytomlpp-feedstock](https://github.com/conda-forge/pytomlpp-feedstock) | 0 | 2026-04-22T19:50:06Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [conda-forge/python-isal-feedstock](https://github.com/conda-forge/python-isal-feedstock) | 0 | 2026-04-22T19:38:39Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [hmellor/vllm](https://github.com/hmellor/vllm) | 0 | 2026-04-22T15:54:48Z | Python | Infrastructure/tooling | 6 | 7 | 6 | 6 |
+| [DeepWok/mase-docker](https://github.com/DeepWok/mase-docker) | 0 | 2026-04-22T13:43:17Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [rltakashige/mlx-jaccl-fix-small-recv](https://github.com/rltakashige/mlx-jaccl-fix-small-recv) | 0 | 2026-04-22T12:30:12Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [cachix/serde-envfile](https://github.com/cachix/serde-envfile) | 0 | 2026-04-22T10:39:58Z | Unknown | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [databendlabs/databend-base](https://github.com/databendlabs/databend-base) | 0 | 2026-04-22T08:55:03Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [hauntsaninja/mypy](https://github.com/hauntsaninja/mypy) | 0 | 2026-04-22T04:46:56Z | Python | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [guoqingbao/candle](https://github.com/guoqingbao/candle) | 0 | 2026-04-21T15:17:12Z | Rust | Infrastructure/tooling | 4 | 14 | 4 | 4 |
@@ -341,6 +362,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/My-Benchmarks](https://github.com/danielrosehill/My-Benchmarks) | 0 | 2026-04-17T12:20:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Speech-And-ASR-Evaluations](https://github.com/danielrosehill/Speech-And-ASR-Evaluations) | 0 | 2026-04-17T12:19:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [stdlib-js/ndarray-dtype-ctor](https://github.com/stdlib-js/ndarray-dtype-ctor) | 0 | 2026-04-17T11:17:11Z | JavaScript | Infrastructure/tooling | 25 | 30 | 25 | 25 |
+| [datafuse-extras/lance](https://github.com/datafuse-extras/lance) | 0 | 2026-04-17T07:53:42Z | Rust | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [datafuse-extras/orc-rust](https://github.com/datafuse-extras/orc-rust) | 0 | 2026-04-17T07:53:37Z | Rust | Infrastructure/tooling | 0 | 11 | 0 | 0 |
 | [acevif/swiftformat-nix](https://github.com/acevif/swiftformat-nix) | 0 | 2026-04-17T06:23:08Z | Other | Library | 5 | 0 | 5 | 5 |
 | [danielrosehill/Agent-Assisted-Purchase-Research-Index](https://github.com/danielrosehill/Agent-Assisted-Purchase-Research-Index) | 0 | 2026-04-16T18:00:32Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
@@ -454,5 +476,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaBinaryWrappers/FreeType2_jll.jl](https://github.com/JuliaBinaryWrappers/FreeType2_jll.jl) | 0 | 2026-03-24T20:57:32Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [adipalko/hatraot](https://github.com/adipalko/hatraot) | 0 | 2026-03-24T20:13:43Z | TypeScript | Unknown | 0 | 14 | 0 | 0 |
 | [danielrosehill/Hebrew-Tech-Vocab](https://github.com/danielrosehill/Hebrew-Tech-Vocab) | 0 | 2026-03-24T17:27:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [Nambers/ssrJSON-benchmark](https://github.com/Nambers/ssrJSON-benchmark) | 0 | 2026-03-23T20:11:45Z | Python | Infrastructure/tooling | 2 | 9 | 2 | 2 |
-| [Systemcluster/tokenizer-bench](https://github.com/Systemcluster/tokenizer-bench) | 0 | 2026-03-23T18:30:29Z | Python | Model/data | 3 | 0 | 3 | 3 |

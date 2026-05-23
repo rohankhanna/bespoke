@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 14
-- terms: 94
+- repos: 16
+- terms: 104
 - components: 75
-- concepts: 94
-- observations: 94
+- concepts: 104
+- observations: 104
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [f4b6a3/ulid-creator](https://github.com/f4b6a3/ulid-creator) | 447 | 2026-02-21T23:39:11Z | Java | Library | 4 | 0 | 4 | 4 |
+| [f4b6a3/tsid-creator](https://github.com/f4b6a3/tsid-creator) | 542 | 2026-02-21T17:23:27Z | Java | Library | 6 | 0 | 6 | 6 |
 | [testng-team/testng-eclipse](https://github.com/testng-team/testng-eclipse) | 197 | 2026-02-15T06:56:21Z | Java | CLI | 1 | 2 | 1 | 1 |
 | [aws-observability/aws-otel-community](https://github.com/aws-observability/aws-otel-community) | 113 | 2026-02-12T19:03:31Z | Java | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [Azure-Samples/azure-search-openai-demo-java](https://github.com/Azure-Samples/azure-search-openai-demo-java) | 128 | 2026-02-09T16:20:41Z | Java | Infrastructure/tooling | 7 | 13 | 7 | 7 |
@@ -50,6 +52,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fizzed/rocker](https://github.com/fizzed/rocker) | 781 | 2026-01-21T15:33:27Z | Java | Infrastructure/tooling | 9 | 2 | 9 | 9 |
 | [nacos-group/nacos-spring-project](https://github.com/nacos-group/nacos-spring-project) | 767 | 2025-12-15T08:32:58Z | Java | Framework | 5 | 0 | 5 | 5 |
 | [heiher/sockstun](https://github.com/heiher/sockstun) | 675 | 2026-01-17T14:44:00Z | Java | Infrastructure/tooling | 8 | 3 | 8 | 8 |
+| [f4b6a3/tsid-creator](https://github.com/f4b6a3/tsid-creator) | 542 | 2026-02-21T17:23:27Z | Java | Library | 6 | 0 | 6 | 6 |
+| [f4b6a3/ulid-creator](https://github.com/f4b6a3/ulid-creator) | 447 | 2026-02-21T23:39:11Z | Java | Library | 4 | 0 | 4 | 4 |
 | [ipfs-shipyard/gomobile-ipfs](https://github.com/ipfs-shipyard/gomobile-ipfs) | 354 | 2026-01-05T18:35:02Z | Java | Infrastructure/tooling | 13 | 16 | 13 | 13 |
 | [Deep-Symmetry/beat-link](https://github.com/Deep-Symmetry/beat-link) | 275 | 2025-12-07T20:14:26Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [eclipse-corrosion/corrosion](https://github.com/eclipse-corrosion/corrosion) | 242 | 2025-12-12T09:08:22Z | Java | CLI | 6 | 4 | 6 | 6 |

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 7
-- terms: 47
-- components: 20
-- concepts: 47
-- observations: 47
+- repos: 8
+- terms: 52
+- components: 27
+- concepts: 52
+- observations: 52
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [xerial/snappy-java](https://github.com/xerial/snappy-java) | 1080 | 2026-03-23T22:12:23Z | Java | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [msgpack/msgpack-java](https://github.com/msgpack/msgpack-java) | 1465 | 2026-03-16T23:43:12Z | Java | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [srikanth-lingala/zip4j](https://github.com/srikanth-lingala/zip4j) | 2215 | 2026-03-11T10:14:04Z | Java | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [locationtech/jts](https://github.com/locationtech/jts) | 2208 | 2026-03-06T01:53:09Z | Java | Infrastructure/tooling | 12 | 3 | 12 | 12 |
@@ -45,3 +46,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [locationtech/jts](https://github.com/locationtech/jts) | 2208 | 2026-03-06T01:53:09Z | Java | Infrastructure/tooling | 12 | 3 | 12 | 12 |
 | [msgpack/msgpack-java](https://github.com/msgpack/msgpack-java) | 1465 | 2026-03-16T23:43:12Z | Java | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [caprica/vlcj](https://github.com/caprica/vlcj) | 1236 | 2026-02-22T21:07:55Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [xerial/snappy-java](https://github.com/xerial/snappy-java) | 1080 | 2026-03-23T22:12:23Z | Java | Infrastructure/tooling | 5 | 7 | 5 | 5 |

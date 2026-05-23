@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 3,
-    "terms": 22
+    "components": 37,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 4,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "astral-sh/rye",
+    "bootandy/dust",
     "ekzhang/bore",
     "sharkdp/hyperfine"
   ]

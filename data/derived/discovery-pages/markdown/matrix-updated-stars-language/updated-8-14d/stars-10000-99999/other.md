@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 2
-- terms: 17
-- components: 21
-- concepts: 17
-- observations: 17
+- terms: 23
+- components: 12
+- concepts: 23
+- observations: 23
 
 ## Static behavior
 
@@ -26,12 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [JetBrains/compose-multiplatform](https://github.com/JetBrains/compose-multiplatform) | 19057 | 2026-05-15T11:05:10Z | Other | Infrastructure/tooling | 13 | 5 | 13 | 13 |
 | [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | 13641 | 2026-05-14T20:42:44Z | Other | Infrastructure/tooling | 10 | 7 | 10 | 10 |
-| [mixmark-io/turndown](https://github.com/mixmark-io/turndown) | 11188 | 2026-05-09T00:57:33Z | Other | Infrastructure/tooling | 7 | 14 | 7 | 7 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [JetBrains/compose-multiplatform](https://github.com/JetBrains/compose-multiplatform) | 19057 | 2026-05-15T11:05:10Z | Other | Infrastructure/tooling | 13 | 5 | 13 | 13 |
 | [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | 13641 | 2026-05-14T20:42:44Z | Other | Infrastructure/tooling | 10 | 7 | 10 | 10 |
-| [mixmark-io/turndown](https://github.com/mixmark-io/turndown) | 11188 | 2026-05-09T00:57:33Z | Other | Infrastructure/tooling | 7 | 14 | 7 | 7 |

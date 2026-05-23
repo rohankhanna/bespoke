@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 125,
-    "observations": 125,
-    "repos": 21,
-    "terms": 125
+    "components": 28,
+    "concepts": 90,
+    "observations": 90,
+    "repos": 15,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,27 +12,21 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "ad-si/awesome-music-production",
-    "aws-controllers-k8s/community",
     "CocoaPods/Specs",
     "CVEProject/cvelistV5",
-    "dotnet/docs",
     "Efficient-ML/Awesome-Model-Quantization",
-    "flathub/flathub",
     "github/rest-api-description",
     "GyanD/codexffmpeg",
     "hxehex/russia-mobile-internet-whitelist",
     "logseq/awesome-logseq",
     "lxgw/LxgwNeoXiHei",
     "lxgw/LxgwNeoZhiSong",
-    "mapbox/awesome-vector-tiles",
     "meituan-longcat/LongCat-Flash-Chat",
     "MicrosoftDocs/cpp-docs",
-    "QwenLM/Qwen3.6",
     "runetfreedom/russia-v2ray-rules-dat",
-    "rustsec/advisory-db",
     "yokoffing/filterlists",
     "yokoffing/NextDNS-Config"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 13,
-    "observations": 13,
-    "repos": 7,
-    "terms": 13
+    "components": 27,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 9,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "abbhisap/LLM-Council-SAP",
     "CharlieFRuan/harbor",
     "ChiehHsinJesseLai/ctm-notebook",
     "danielJL-altius/israelgrocerymcp",
     "marin-community/harbor",
+    "Nambers/ssrJSON-benchmark",
     "petercorke/sphinx-autorun",
-    "samsja/dion"
+    "samsja/dion",
+    "Systemcluster/tokenizer-bench"
   ]
 }

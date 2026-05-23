@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 740,
-    "concepts": 102,
-    "observations": 102,
-    "repos": 36,
-    "terms": 111
+    "components": 755,
+    "concepts": 98,
+    "observations": 98,
+    "repos": 35,
+    "terms": 107
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "alibaizhanov/openclaw-mengram",
     "analyticsinmotion/wake-word",
     "aporthq/aport-spec",
-    "aquasecurity/tfsec-azure-pipelines-task",
-    "asafr93-rosa/shopping-list-il",
     "Badisi/wdio-harness",
     "birdofpreyru/react-starter",
     "birdofpreyru/react-utils",
@@ -39,6 +37,7 @@
     "klodr/mercury-invoicing-mcp",
     "LogtalkDotOrg/logtalk-for-vscode",
     "neuroverseos/neuroverseos-governance",
+    "nicolo-ribaudo/engine262",
     "octokit/openapi-webhooks",
     "qcr/qcr.github.io",
     "saminiscool/twitter-ai-agent",

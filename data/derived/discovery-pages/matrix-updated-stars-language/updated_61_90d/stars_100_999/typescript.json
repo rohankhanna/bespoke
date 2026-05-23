@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1116,
+    "components": 1114,
     "concepts": 242,
     "observations": 243,
-    "repos": 41,
+    "repos": 40,
     "terms": 253
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -35,7 +35,6 @@
     "import-js/eslint-import-resolver-typescript",
     "inciteful-xyz/inciteful-zotero-plugin",
     "ivo-toby/mcp-openapi-server",
-    "janwilmake/openapi-mcp-server",
     "kamranahmedse/claude-run",
     "lobehub/lobe-charts",
     "lobehub/lobe-tts",

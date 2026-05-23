@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 381,
-    "concepts": 791,
-    "observations": 792,
+    "components": 382,
+    "concepts": 782,
+    "observations": 783,
     "repos": 158,
-    "terms": 781
+    "terms": 769
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "AIDC-AI/Marco-o1",
@@ -129,12 +129,12 @@
     "paulocoutinhox/pdfium-lib",
     "Phantom-video/HuMo",
     "pipecat-ai/smart-turn",
-    "PKU-Alignment/safe-rlhf",
     "PKU-YuanGroup/LLaVA-CoT",
     "PRIME-RL/SimpleVLA-RL",
     "protectai/llm-guard",
     "prs-eth/Marigold",
     "PyCQA/pycodestyle",
+    "pykaldi/pykaldi",
     "python-lsp/python-lsp-server",
     "Python-Markdown/markdown",
     "python-rope/rope",

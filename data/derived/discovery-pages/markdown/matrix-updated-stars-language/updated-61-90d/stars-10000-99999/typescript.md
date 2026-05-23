@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
-- terms: 49
-- components: 281
-- concepts: 41
-- observations: 41
+- repos: 9
+- terms: 56
+- components: 296
+- concepts: 48
+- observations: 48
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [AndyMik90/Aperant](https://github.com/AndyMik90/Aperant) | 14287 | 2026-03-23T19:47:59Z | TypeScript | Infrastructure/tooling | 7 | 15 | 7 | 7 |
 | [vercel/satori](https://github.com/vercel/satori) | 13294 | 2026-03-20T06:56:49Z | TypeScript | Infrastructure/tooling | 1 | 39 | 0 | 0 |
 | [GoogleChromeLabs/squoosh](https://github.com/GoogleChromeLabs/squoosh) | 25138 | 2026-03-17T21:57:27Z | TypeScript | Infrastructure/tooling | 1 | 39 | 1 | 1 |
 | [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) | 10485 | 2026-03-07T22:34:40Z | TypeScript | Infrastructure/tooling | 7 | 17 | 0 | 0 |
@@ -41,6 +42,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [floating-ui/floating-ui](https://github.com/floating-ui/floating-ui) | 32585 | 2026-03-03T03:02:11Z | TypeScript | Infrastructure/tooling | 13 | 43 | 13 | 13 |
 | [GoogleChromeLabs/squoosh](https://github.com/GoogleChromeLabs/squoosh) | 25138 | 2026-03-17T21:57:27Z | TypeScript | Infrastructure/tooling | 1 | 39 | 1 | 1 |
+| [AndyMik90/Aperant](https://github.com/AndyMik90/Aperant) | 14287 | 2026-03-23T19:47:59Z | TypeScript | Infrastructure/tooling | 7 | 15 | 7 | 7 |
 | [lokesh/color-thief](https://github.com/lokesh/color-thief) | 13569 | 2026-03-06T07:27:24Z | TypeScript | Infrastructure/tooling | 0 | 12 | 0 | 0 |
 | [peers/peerjs](https://github.com/peers/peerjs) | 13309 | 2026-02-27T00:49:47Z | TypeScript | Infrastructure/tooling | 9 | 39 | 9 | 9 |
 | [vercel/satori](https://github.com/vercel/satori) | 13294 | 2026-03-20T06:56:49Z | TypeScript | Infrastructure/tooling | 1 | 39 | 0 | 0 |

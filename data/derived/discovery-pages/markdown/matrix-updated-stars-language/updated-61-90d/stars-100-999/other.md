@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 119
-- terms: 494
-- components: 573
-- concepts: 495
-- observations: 497
+- repos: 121
+- terms: 499
+- components: 652
+- concepts: 500
+- observations: 502
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [stellar/soroban-examples](https://github.com/stellar/soroban-examples) | 105 | 2026-03-23T14:10:24Z | Other | Infrastructure/tooling | 2 | 10 | 2 | 2 |
+| [agrafix/elm-bridge](https://github.com/agrafix/elm-bridge) | 106 | 2026-03-23T13:07:01Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [moyangzhan/langchain4j-aideepin-admin](https://github.com/moyangzhan/langchain4j-aideepin-admin) | 119 | 2026-03-23T11:01:44Z | Other | Docs/knowledge | 0 | 72 | 0 | 0 |
+| [crivotz/nv-ide](https://github.com/crivotz/nv-ide) | 647 | 2026-03-23T10:40:01Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [JunoLab/Weave.jl](https://github.com/JunoLab/Weave.jl) | 852 | 2026-03-23T07:44:56Z | Other | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [ppwwyyxx/cocoapi](https://github.com/ppwwyyxx/cocoapi) | 169 | 2026-03-23T06:36:26Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [SymbolicML/DynamicExpressions.jl](https://github.com/SymbolicML/DynamicExpressions.jl) | 132 | 2026-03-23T03:50:34Z | Other | Infrastructure/tooling | 12 | 17 | 12 | 12 |
@@ -143,8 +147,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ropensci/git2r](https://github.com/ropensci/git2r) | 223 | 2026-02-22T19:05:45Z | Other | CLI | 6 | 5 | 6 | 6 |
 | [beam-telemetry/telemetry_metrics](https://github.com/beam-telemetry/telemetry_metrics) | 245 | 2026-02-22T17:17:07Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [mathjax/MathJax-demos-web](https://github.com/mathjax/MathJax-demos-web) | 296 | 2026-02-22T12:03:05Z | Other | Unknown | 0 | 6 | 0 | 0 |
-| [swansonk14/admet_ai](https://github.com/swansonk14/admet_ai) | 297 | 2026-02-22T01:11:44Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [radian-software/ctrlf](https://github.com/radian-software/ctrlf) | 367 | 2026-02-21T19:39:54Z | Other | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -178,6 +180,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cpp-pm/hunter](https://github.com/cpp-pm/hunter) | 672 | 2026-03-13T10:03:05Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [sol/hpack](https://github.com/sol/hpack) | 666 | 2026-03-07T21:40:49Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [bhauman/figwheel-main](https://github.com/bhauman/figwheel-main) | 650 | 2026-03-17T03:45:33Z | Other | Unknown | 4 | 0 | 4 | 4 |
+| [crivotz/nv-ide](https://github.com/crivotz/nv-ide) | 647 | 2026-03-23T10:40:01Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [vlaaad/reveal](https://github.com/vlaaad/reveal) | 629 | 2026-03-03T21:31:11Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [scssphp/scssphp](https://github.com/scssphp/scssphp) | 628 | 2026-03-20T13:32:07Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [unxsist/jet-pilot](https://github.com/unxsist/jet-pilot) | 626 | 2026-03-09T18:34:55Z | Other | CLI | 8 | 86 | 8 | 8 |
@@ -208,7 +211,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaGizmos/Blink.jl](https://github.com/JuliaGizmos/Blink.jl) | 373 | 2026-02-26T15:25:09Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [dkubb/adamantium](https://github.com/dkubb/adamantium) | 368 | 2026-03-19T20:10:12Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [google/CommonLoopUtils](https://github.com/google/CommonLoopUtils) | 368 | 2026-03-03T00:45:15Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
-| [radian-software/ctrlf](https://github.com/radian-software/ctrlf) | 367 | 2026-02-21T19:39:54Z | Other | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [aws-samples/prompt-engineering-with-anthropic-claude-v-3](https://github.com/aws-samples/prompt-engineering-with-anthropic-claude-v-3) | 360 | 2026-03-01T16:54:43Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [bbatsov/super-save](https://github.com/bbatsov/super-save) | 355 | 2026-03-18T12:14:19Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [ahyatt/emacs-websocket](https://github.com/ahyatt/emacs-websocket) | 348 | 2026-03-01T01:57:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -219,7 +221,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaEditorSupport/julia-emacs](https://github.com/JuliaEditorSupport/julia-emacs) | 315 | 2026-02-26T15:42:09Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [akabe/ocaml-jupyter](https://github.com/akabe/ocaml-jupyter) | 312 | 2026-03-12T18:11:12Z | Other | Infrastructure/tooling | 12 | 7 | 12 | 12 |
 | [travis-ci/travis-api](https://github.com/travis-ci/travis-api) | 298 | 2026-03-06T10:15:03Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [swansonk14/admet_ai](https://github.com/swansonk14/admet_ai) | 297 | 2026-02-22T01:11:44Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [whatwg/fs](https://github.com/whatwg/fs) | 296 | 2026-03-15T09:09:17Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [mathjax/MathJax-demos-web](https://github.com/mathjax/MathJax-demos-web) | 296 | 2026-02-22T12:03:05Z | Other | Unknown | 0 | 6 | 0 | 0 |
 | [elixir-ecto/myxql](https://github.com/elixir-ecto/myxql) | 295 | 2026-03-11T15:50:24Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
@@ -260,12 +261,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [IST-DASLab/Quartet](https://github.com/IST-DASLab/Quartet) | 122 | 2026-03-18T15:37:47Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [w3c/navigation-timing](https://github.com/w3c/navigation-timing) | 121 | 2026-03-16T07:30:57Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [clojure/tools.analyzer.jvm](https://github.com/clojure/tools.analyzer.jvm) | 120 | 2026-03-05T12:17:42Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
+| [moyangzhan/langchain4j-aideepin-admin](https://github.com/moyangzhan/langchain4j-aideepin-admin) | 119 | 2026-03-23T11:01:44Z | Other | Docs/knowledge | 0 | 72 | 0 | 0 |
 | [ocurrent/ocaml-ci](https://github.com/ocurrent/ocaml-ci) | 118 | 2026-03-06T17:06:03Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [olimorris/neotest-rspec](https://github.com/olimorris/neotest-rspec) | 114 | 2026-03-06T17:14:42Z | Other | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [nim-lang/vscode-nim](https://github.com/nim-lang/vscode-nim) | 114 | 2026-02-26T06:19:08Z | Other | Unknown | 3 | 10 | 3 | 3 |
 | [dkubb/memoizable](https://github.com/dkubb/memoizable) | 112 | 2026-03-04T02:11:39Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [Embarcadero/P4D-Data-Sciences](https://github.com/Embarcadero/P4D-Data-Sciences) | 107 | 2026-02-27T10:21:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [agrafix/elm-bridge](https://github.com/agrafix/elm-bridge) | 106 | 2026-03-23T13:07:01Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [DarthAffe/StableDiffusion.NET](https://github.com/DarthAffe/StableDiffusion.NET) | 106 | 2026-03-03T20:18:26Z | Other | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [4d49/scene-library](https://github.com/4d49/scene-library) | 106 | 2026-02-23T04:44:33Z | Other | Unknown | 7 | 0 | 7 | 7 |
+| [stellar/soroban-examples](https://github.com/stellar/soroban-examples) | 105 | 2026-03-23T14:10:24Z | Other | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [Embarcadero/python4delphi](https://github.com/Embarcadero/python4delphi) | 103 | 2026-02-27T10:11:39Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ajevans99/swift-json-schema](https://github.com/ajevans99/swift-json-schema) | 101 | 2026-03-06T14:50:05Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 24,
-    "terms": 49
+    "components": 47,
+    "concepts": 43,
+    "observations": 43,
+    "repos": 23,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "aayushbhaskar/OpenCouncil",
     "adammes/voyanode",
@@ -26,17 +26,16 @@
     "FEniCS/spack-fenics",
     "florisheedless915/grok-register",
     "hauntsaninja/mypy",
+    "hmellor/vllm",
     "iandees/scrapy-camoufox",
     "kidshadow79/ogma",
     "l12203685/digital-immortality",
     "mitchuski/agentprivacy-skills",
     "mohfer/nous-proxy",
-    "Nambers/ssrJSON-benchmark",
     "nibir1/vaultsim",
     "piqrypt/piqrypt-mcp-server",
     "redai-infra/TransferQueue",
     "roampal-ai/roampal-labs",
-    "shubishere/ai-drawio",
-    "Systemcluster/tokenizer-bench"
+    "shubishere/ai-drawio"
   ]
 }

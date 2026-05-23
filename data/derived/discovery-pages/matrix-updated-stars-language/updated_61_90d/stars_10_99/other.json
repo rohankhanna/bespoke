@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 383,
-    "concepts": 267,
-    "observations": 268,
-    "repos": 88,
-    "terms": 262
+    "components": 393,
+    "concepts": 281,
+    "observations": 282,
+    "repos": 91,
+    "terms": 276
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "0xC0000054/pdn-ddsfiletype-plus",
     "219-design/qt-qml-project-template-with-ci",
@@ -20,8 +20,10 @@
     "6cdh/dotfiles",
     "ably-labs/realtime-quiz-framework",
     "adaszko/tree_climber_rust.nvim",
+    "adinhodovic/argo-cd-mixin",
     "AghayeCoder/TX-ThemeHub",
     "AliRezaBeigy/paqetNG",
+    "am-kantox/md",
     "andys8/git-brunch",
     "apache/netbeans-antora-site",
     "apache/pdfbox-docs",
@@ -78,6 +80,7 @@
     "nicholasjng/nanobind-bazel",
     "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
     "notaryproject/notaryproject.dev",
+    "oap-project/oap-mllib",
     "ocurrent/opam-health-check",
     "onomojo/i18n-timezones",
     "opencontainers/.github",

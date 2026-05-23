@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1260,
-    "concepts": 1539,
-    "observations": 1541,
-    "repos": 417,
-    "terms": 1528
+    "components": 1281,
+    "concepts": 1542,
+    "observations": 1544,
+    "repos": 418,
+    "terms": 1531
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -407,6 +407,7 @@
     "twosigma/beakerx",
     "tylin/coco-caption",
     "vform666/variant-form",
+    "vitalets/github-trending-repos",
     "voidlabs/mosaico",
     "wardencommunity/warden",
     "wbthomason/packer.nvim",

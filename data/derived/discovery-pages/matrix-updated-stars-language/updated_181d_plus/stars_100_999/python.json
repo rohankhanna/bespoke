@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1208,
-    "concepts": 5487,
-    "observations": 5492,
-    "repos": 1847,
-    "terms": 5335
+    "components": 1211,
+    "concepts": 5510,
+    "observations": 5515,
+    "repos": 1855,
+    "terms": 5355
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -177,6 +177,7 @@
     "apple/ARKitScenes",
     "apple/ml-cross-entropy",
     "apple/ToolSandbox",
+    "AppliedAcousticsChalmers/sound_field_analysis-py",
     "aquaskyline/Clairvoyante",
     "aras62/PIE",
     "aras62/PIEPredict",
@@ -196,8 +197,10 @@
     "ashleysommer/sanic-cors",
     "ashleysommer/sanic-restplus",
     "askbudi/roundtable",
+    "ASLP-lab/OSUM",
     "assafelovic/gptr-mcp",
     "AssemblyAI-Community/MinImagen",
+    "astorfi/speechpy",
     "astramind-ai/Mixture-of-depths",
     "Atten4Vis/ConditionalDETR",
     "AudioLLMs/AudioBench",
@@ -1198,6 +1201,7 @@
     "microsoft/UniSpeech",
     "microsoft/UniVL",
     "microsoft/VQ-Diffusion",
+    "MicrosoftTranslator/Text-Translation-API-V3-Python",
     "mila-iqia/babyai",
     "MILVLG/prophet",
     "minar09/cp-vton-plus",
@@ -1297,6 +1301,7 @@
     "nonebot/aiocqhttp",
     "notmahi/bet",
     "NTMC-Community/MatchZoo-py",
+    "nttcslab-sp/kaldiio",
     "NUAAXQ/MLCVNet",
     "nunchaku-ai/deepcompressor",
     "NUS-HPC-AI-Lab/Enhance-A-Video",
@@ -1383,6 +1388,8 @@
     "OscarXZQ/weight-selection",
     "OSU-NLP-Group/TravelPlanner",
     "p-lambda/wilds",
+    "p0p4k/pflowtts_pytorch",
+    "p0p4k/vits2_pytorch",
     "PacificBiosciences/pbsv",
     "PaddlePaddle/Paddle3D",
     "PaddlePaddle/PaddleSports",
@@ -1400,6 +1407,7 @@
     "PeizeSun/TransTrack",
     "pengHTYX/Era3D",
     "PengYu-Team/GEODE_dataset",
+    "pengzhendong/streaming-sensevoice",
     "pesser/pytorch_diffusion",
     "Peterisfar/YOLOV3",
     "PeterWang512/CNNDetection",

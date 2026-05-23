@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 45
-- terms: 133
+- repos: 46
+- terms: 135
 - components: 131
-- concepts: 136
-- observations: 138
+- concepts: 138
+- observations: 140
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jrsoftware/iscompress](https://github.com/jrsoftware/iscompress) | 35 | 2026-02-21T12:09:43Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [vincentbernat/vbeterm](https://github.com/vincentbernat/vbeterm) | 23 | 2026-02-18T19:41:32Z | C/C++ | CLI | 2 | 1 | 2 | 2 |
 | [o3de/PhysX](https://github.com/o3de/PhysX) | 81 | 2026-02-18T16:24:39Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [tlaplus-community/tree-sitter-tlaplus](https://github.com/tlaplus-community/tree-sitter-tlaplus) | 75 | 2026-02-17T16:55:51Z | C/C++ | Infrastructure/tooling | 8 | 16 | 8 | 8 |
@@ -103,6 +104,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [utiasASRL/lgmath](https://github.com/utiasASRL/lgmath) | 42 | 2026-02-10T21:11:04Z | C/C++ | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [amerkoleci/Alimer.Bindings](https://github.com/amerkoleci/Alimer.Bindings) | 40 | 2026-02-16T17:34:29Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [Rezonality/zing](https://github.com/Rezonality/zing) | 40 | 2026-02-08T16:43:37Z | C/C++ | Infrastructure/tooling | 14 | 5 | 14 | 14 |
+| [jrsoftware/iscompress](https://github.com/jrsoftware/iscompress) | 35 | 2026-02-21T12:09:43Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [graalvm/polyglot-embedding-demo](https://github.com/graalvm/polyglot-embedding-demo) | 35 | 2025-12-10T12:23:06Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [tier4/ndt_omp](https://github.com/tier4/ndt_omp) | 31 | 2026-01-08T04:12:18Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [DLR-TS/SUMOLibraries](https://github.com/DLR-TS/SUMOLibraries) | 27 | 2025-12-16T11:30:44Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |

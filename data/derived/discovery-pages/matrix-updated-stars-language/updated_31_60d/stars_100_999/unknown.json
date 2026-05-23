@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 261,
-    "observations": 262,
-    "repos": 63,
-    "terms": 260
+    "components": 82,
+    "concepts": 274,
+    "observations": 275,
+    "repos": 68,
+    "terms": 273
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
+    "abhisheknaiidu/abhisheknaiidu",
     "actions/partner-runner-images",
     "adoptium/adoptium",
     "agamm/claude-code-owasp",
@@ -41,6 +42,7 @@
     "dotnet/source-build",
     "e18e/ecosystem-issues",
     "emberjs/rfcs",
+    "eryajf/awesome-stars-eryajf",
     "eslint/rfcs",
     "eudk/awesome-ai-tools",
     "filecoin-project/community",
@@ -48,17 +50,20 @@
     "gautamkrishnar/gautamkrishnar",
     "ghimiresunil/Top-AI-Tools",
     "github/codeql-cli-binaries",
+    "google/agents-cli",
     "googlefonts/RobotoMono",
     "grpc/proposal",
     "hagezi/dns-servers",
     "ietf-tools/.github",
     "integrations/microsoft-teams",
     "ipfs-examples/helia-examples",
+    "kitknox/rootshell",
     "kubernetes-sigs/krew-index",
     "lwpyh/Awesome-MLLM-Reasoning-Collection",
     "mason-org/mason-registry",
     "MicrosoftDocs/terminal",
     "nimbalyst/nimbalyst",
+    "NuGet/docs.microsoft.com-nuget",
     "oak-security/audit-reports",
     "ocaml/opam-repository",
     "oobabooga/textgen-extensions",

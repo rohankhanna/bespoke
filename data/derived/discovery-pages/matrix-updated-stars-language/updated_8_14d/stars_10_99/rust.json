@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 2,
-    "terms": 15
+    "components": 19,
+    "concepts": 56,
+    "observations": 56,
+    "repos": 5,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-22T09:03:12.687315+00:00",
+  "generated_at": "2026-05-23T05:46:34.953431+00:00",
   "repo_ids": [
+    "apache/casbin-actix-casbin-auth",
+    "apache/casbin-axum-casbin",
+    "apache/casbin-rust-actix-casbin",
     "g-plane/raffia",
     "kurrent-io/KurrentDB-Client-Rust"
   ]

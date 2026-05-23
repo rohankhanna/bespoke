@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Unknown
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 39
-- terms: 78
+- repos: 37
+- terms: 74
 - components: 36
-- concepts: 73
-- observations: 73
+- concepts: 69
+- observations: 69
 
 ## Static behavior
 
@@ -63,8 +63,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [airlift/codestyle](https://github.com/airlift/codestyle) | 69 | 2025-11-28T16:46:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [rose-pine/rose-pine-template](https://github.com/rose-pine/rose-pine-template) | 49 | 2025-11-27T22:12:08Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [lxgw/ext-characters](https://github.com/lxgw/ext-characters) | 20 | 2025-11-26T06:59:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [BingguangHao/BalanceSFT](https://github.com/BingguangHao/BalanceSFT) | 55 | 2025-11-24T03:50:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [bl-ue/tweakcc-system-prompts](https://github.com/bl-ue/tweakcc-system-prompts) | 37 | 2025-11-23T18:05:33Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -74,7 +72,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tony/claude-code-riper-5](https://github.com/tony/claude-code-riper-5) | 82 | 2026-02-08T00:20:22Z | Unknown | Unknown | 6 | 0 | 0 | 0 |
 | [hicchicc/x8y12pxDenkiChip](https://github.com/hicchicc/x8y12pxDenkiChip) | 75 | 2026-02-20T05:51:02Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [airlift/codestyle](https://github.com/airlift/codestyle) | 69 | 2025-11-28T16:46:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [BingguangHao/BalanceSFT](https://github.com/BingguangHao/BalanceSFT) | 55 | 2025-11-24T03:50:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [1ilkhamov/opencode-hermes-multiagent](https://github.com/1ilkhamov/opencode-hermes-multiagent) | 53 | 2025-12-31T14:58:10Z | Unknown | Unknown | 0 | 3 | 0 | 0 |
 | [Level/community](https://github.com/Level/community) | 50 | 2026-01-04T21:14:37Z | Unknown | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [rose-pine/rose-pine-template](https://github.com/rose-pine/rose-pine-template) | 49 | 2025-11-27T22:12:08Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
@@ -82,7 +79,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dredozubov/prd-generator](https://github.com/dredozubov/prd-generator) | 43 | 2026-01-14T10:29:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [vega/schema](https://github.com/vega/schema) | 41 | 2026-01-14T00:51:47Z | Unknown | Unknown | 3 | 0 | 4 | 4 |
 | [eric-haibin-lin/verl-community](https://github.com/eric-haibin-lin/verl-community) | 41 | 2025-12-07T16:53:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [bl-ue/tweakcc-system-prompts](https://github.com/bl-ue/tweakcc-system-prompts) | 37 | 2025-11-23T18:05:33Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [FAIR-IMPACT/MOD](https://github.com/FAIR-IMPACT/MOD) | 36 | 2025-12-22T10:03:25Z | Unknown | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [LINs-lab/RCGM](https://github.com/LINs-lab/RCGM) | 35 | 2026-02-04T12:51:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [HZAI-ZJNU/happy-llm-ppt](https://github.com/HZAI-ZJNU/happy-llm-ppt) | 33 | 2026-02-04T00:50:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

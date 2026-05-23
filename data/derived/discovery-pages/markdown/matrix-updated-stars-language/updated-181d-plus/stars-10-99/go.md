@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-22T09:03:12.687315+00:00`
+Generated at: `2026-05-23T05:46:34.953431+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 169
+- repos: 168
 - terms: 438
 - components: 424
 - concepts: 442
@@ -194,7 +194,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [trknhr/2048-go](https://github.com/trknhr/2048-go) | 26 | 2021-08-12T19:01:40Z | Go | CLI | 1 | 0 | 1 | 1 |
 | [chenjiandongx/pls](https://github.com/chenjiandongx/pls) | 84 | 2021-06-16T17:14:05Z | Go | CLI | 2 | 0 | 2 | 2 |
 | [ahmetb/ytdl](https://github.com/ahmetb/ytdl) | 13 | 2021-05-25T17:00:04Z | Go | Infrastructure/tooling | 3 | 0 | 3 | 3 |
-| [go-sql-driver/sql-benchmark](https://github.com/go-sql-driver/sql-benchmark) | 81 | 2021-05-23T21:33:25Z | Go | Library | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -216,7 +215,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [brads3290/cclogviewer](https://github.com/Brads3290/cclogviewer) | 81 | 2025-08-08T08:13:50Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [opentracing/basictracer-go](https://github.com/opentracing/basictracer-go) | 81 | 2023-03-06T16:09:22Z | Go | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [thetirefire/badidea](https://github.com/thetirefire/badidea) | 81 | 2023-02-06T23:58:51Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [go-sql-driver/sql-benchmark](https://github.com/go-sql-driver/sql-benchmark) | 81 | 2021-05-23T21:33:25Z | Go | Library | 0 | 0 | 0 | 0 |
 | [vulkan-go/asche](https://github.com/vulkan-go/asche) | 78 | 2022-10-23T12:41:01Z | Go | Framework | 4 | 0 | 4 | 4 |
 | [vmihailenco/go-cache-benchmark](https://github.com/vmihailenco/go-cache-benchmark) | 77 | 2023-10-28T05:24:07Z | Go | Unknown | 5 | 0 | 5 | 5 |
 | [filecoin-project/go-fil-markets](https://github.com/filecoin-project/go-fil-markets) | 77 | 2023-08-16T16:34:41Z | Go | Unknown | 0 | 1 | 0 | 0 |
