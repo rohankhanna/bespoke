@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 691,
-    "concepts": 1467,
-    "observations": 1469,
-    "repos": 841,
-    "terms": 1447
+    "components": 693,
+    "concepts": 1478,
+    "observations": 1480,
+    "repos": 843,
+    "terms": 1458
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -116,6 +116,7 @@
     "anindita127/Complextext2animation",
     "AnonSubm2021/TransStyleGAN",
     "AnonymousCervine/depth-image-io-for-SDWebui",
+    "AnonymouX47/termvisage",
     "AnswerDotAI/fastkmeans",
     "antgroup/OmniKV",
     "antidot/pyckson",
@@ -330,6 +331,7 @@
     "eaeful/WechatOCR_umi_plugin",
     "easonnie/combine-FEVER-NSMN",
     "eblerjana/genotyping-pipelines",
+    "echo840/LIRA",
     "ECNU-ICALK/MELO",
     "ecordell/pymacaroons",
     "EdinburghNLP/opus-100-corpus",

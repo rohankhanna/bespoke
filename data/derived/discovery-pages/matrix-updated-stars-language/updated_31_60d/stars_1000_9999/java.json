@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 207,
-    "concepts": 199,
-    "observations": 200,
-    "repos": 30,
-    "terms": 199
+    "components": 280,
+    "concepts": 316,
+    "observations": 318,
+    "repos": 40,
+    "terms": 316
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,23 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
+    "agents-flex/agents-flex",
+    "apache/camel",
     "apache/logging-log4j2",
+    "apache/lucene",
+    "apache/netbeans",
+    "apache/poi",
     "beehive-lab/TornadoVM",
+    "besu-eth/besu",
     "bobbylight/RSyntaxTextArea",
     "brianfrankcooper/YCSB",
     "codelibs/fess",
+    "diffplug/spotless",
+    "google/adk-java",
     "google/error-prone",
+    "google/google-java-format",
     "google/j2cl",
     "google/tsunami-security-scanner",
     "googleapis/google-api-java-client",
@@ -32,6 +41,7 @@
     "objectbox/objectbox-java",
     "open-telemetry/opentelemetry-java",
     "openjdk/jmh",
+    "oshi/oshi",
     "peergos/peergos",
     "rabbitmq/rabbitmq-tutorials",
     "raphw/byte-buddy",

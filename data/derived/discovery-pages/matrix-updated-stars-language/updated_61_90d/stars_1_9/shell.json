@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 8,
-    "terms": 25
+    "components": 12,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 10,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "agents-squads/agents-squads",
     "alonw0/cc-redalerts-statusline",
@@ -20,6 +20,8 @@
     "danielrosehill/Claude-Dolphin-Konsole-Actions",
     "eddelbuettel/github-actions",
     "flinedev/customstatusline",
+    "hchiam/learning-bash-scripts",
+    "serpro69/claude-in-docker",
     "tombelieber/claude-backup",
     "tzachar/sqlite_skim"
   ]

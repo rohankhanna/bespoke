@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 125,
-    "concepts": 85,
-    "observations": 86,
-    "repos": 24,
-    "terms": 85
+    "components": 68,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 17,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,30 +12,23 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "alphagov/govuk-rfcs",
     "Ayaginu-Sue/Astalia",
     "BioContainers/multi-package-containers",
-    "canonical/ubuntu-security-notices",
     "cbuijs/hagezi",
-    "docker/github-builder",
     "elastic/logstash-docs",
     "filecoin-project/Allocator-Registry",
     "jupyterlab/frontends-team-compass",
     "microsoft/microsoft-foundry-for-vscode",
-    "mypyc/mypyc-benchmark-results",
     "NightWatcher314/zotero-pdf2zh-server",
     "prefix-dev/rattler-build-action",
-    "quarkiverse/quarkiverse-docs",
     "sakib-m/Pi-hole-Torrent-Blocklist",
-    "sigstore/community",
     "sigstore/root-signing-staging",
     "spiffe/spire-examples",
     "spring-projects/spring-ai-integration-tests",
     "standardrb/standard-ruby-action",
-    "Stardust-SJF/cuvs_rabitq",
-    "supabase/scoop-bucket",
     "universal-ctags/ctags-nightly-build",
     "uxlfoundation/foundation"
   ]

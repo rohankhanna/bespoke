@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 552,
-    "concepts": 763,
-    "observations": 763,
-    "repos": 184,
-    "terms": 749
+    "components": 559,
+    "concepts": 765,
+    "observations": 765,
+    "repos": 186,
+    "terms": 751
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "1player/host-spawn",
     "76creates/stickers",
@@ -69,6 +69,7 @@
     "containers/storage",
     "cosmos/mainnet",
     "cosmos/relayer",
+    "cpuguy83/go-md2man",
     "creasty/defaults",
     "cruise-automation/isopod",
     "CyanAsterisk/FreeCar",
@@ -154,6 +155,7 @@
     "moby/ipvs",
     "mozilla/tls-observatory",
     "muesli/reflow",
+    "multiformats/multiaddr",
     "namsral/flag",
     "Netflix/go-expect",
     "NVIDIA/gpu-feature-discovery",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2223,
-    "concepts": 3013,
-    "observations": 3020,
-    "repos": 954,
-    "terms": 2997
+    "components": 2234,
+    "concepts": 3026,
+    "observations": 3033,
+    "repos": 957,
+    "terms": 3010
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -508,6 +508,7 @@
     "juxt/tick",
     "juxt/yada",
     "JWarmenhoven/DBDA-python",
+    "k-takata/minpac",
     "kana/vim-flavor",
     "kana/vim-vspec",
     "kayru/Probulator",
@@ -700,6 +701,7 @@
     "nvimdev/galaxyline.nvim",
     "NVorbis/NVorbis",
     "ocaml-community/zed",
+    "ocaml-wasm/wasm_of_ocaml",
     "octref/veturpack",
     "ojroques/vim-oscyank",
     "okfn/messytables",
@@ -779,6 +781,7 @@
     "rishikksh20/FastSpeech2",
     "Rishit-dagli/MIRNet-TFJS",
     "rlxone/multisoundchanger",
+    "RobotecAI/ros2-for-unity",
     "rocker-org/geospatial",
     "rocker-org/rocker-versioned",
     "romgrk/fzy-lua-native",

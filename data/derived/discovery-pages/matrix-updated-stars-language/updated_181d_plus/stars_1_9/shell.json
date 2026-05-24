@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 67,
-    "concepts": 107,
-    "observations": 108,
-    "repos": 47,
-    "terms": 101
+    "components": 77,
+    "concepts": 114,
+    "observations": 116,
+    "repos": 51,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -49,14 +49,18 @@
     "jandamm/zgenom-ext-release",
     "jandamm/zgenom-ext-run",
     "janniks/sips",
+    "jgburet/asdf-dotenvx",
     "jinfeihan57/p7zip_test_utils",
     "junkblocker/calibre-zaw-source",
     "Kong/official-images",
+    "KSXGitHub/personal-pacman-packages",
     "lite-xl/lite-xl-build-box",
     "llllvvuu/efm-tool-definitions.yaml",
     "marcoonroad/cuid",
     "mathew-fleisch/asdf-semver",
+    "pykaldi/kaldi",
     "rigellute/scoop-bucket",
+    "Sbozzolo/libvterm-mirror",
     "spack/migrate-package-prs",
     "to4iki/ai-project-rules",
     "tritondatacenter/node-cmdutil",

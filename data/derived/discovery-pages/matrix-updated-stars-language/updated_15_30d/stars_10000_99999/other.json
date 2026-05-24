@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1138,
-    "concepts": 932,
-    "observations": 935,
-    "repos": 88,
-    "terms": 923
+    "components": 1029,
+    "concepts": 845,
+    "observations": 848,
+    "repos": 79,
+    "terms": 836
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "actions/runner-images",
     "adityatelange/hugo-PaperMod",
-    "AlDanial/cloc",
     "alpinejs/alpine",
     "apache/apisix",
     "App-vNext/Polly",
@@ -39,16 +38,11 @@
     "doomemacs/doomemacs",
     "dotnet/aspnetcore",
     "dotnet/AspNetCore.Docs",
-    "dotnet/efcore",
-    "dotnet/orleans",
-    "dotnet/roslyn",
     "drduh/YubiKey-Guide",
     "exelban/stats",
-    "fastlane/fastlane",
     "getgrav/grav",
     "getlantern/lantern",
     "golang-standards/project-layout",
-    "google/fonts",
     "google/material-design-lite",
     "gradle/gradle",
     "hadolint/hadolint",
@@ -58,7 +52,6 @@
     "IBM/plex",
     "jellyfin/jellyfin",
     "jgm/pandoc",
-    "jupyter/notebook",
     "keeweb/keeweb",
     "koreader/koreader",
     "Kotlin/kotlinx.coroutines",
@@ -98,9 +91,7 @@
     "symfony/symfony",
     "tc39/ecma262",
     "tiann/KernelSU",
-    "topjohnwu/Magisk",
     "vim-airline/vim-airline",
-    "vim/vim",
     "xmake-io/xmake"
   ]
 }

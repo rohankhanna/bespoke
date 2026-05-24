@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1096,
-    "concepts": 513,
-    "observations": 513,
-    "repos": 338,
-    "terms": 519
+    "components": 1105,
+    "concepts": 517,
+    "observations": 517,
+    "repos": 340,
+    "terms": 523
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "2KAbhishek/awesome2k",
     "2KAbhishek/rofi2k",
@@ -203,6 +203,7 @@
     "jtdaugherty/vty-unix",
     "JuliaBinaryWrappers/Zstd_jll.jl",
     "JuliaComputing/Registrator.jl",
+    "JuliaML/MLCore.jl",
     "JuliaReducePkg/ReduceLinAlg.jl",
     "JuliaStrings/LibTeXPrintf.jl",
     "jupyterlab/vscode-config-template",
@@ -219,6 +220,7 @@
     "korewaChino/koboldCppDocker",
     "kreativekorp/u8m",
     "kristijanhusak/completion-tags",
+    "KSXGitHub/aur-packages-builder",
     "kurrent-io/EventStoreDB-Client-Dotnet-Legacy",
     "kvfrans/tfds_builders",
     "L-Trump/logseq-publish-docker",

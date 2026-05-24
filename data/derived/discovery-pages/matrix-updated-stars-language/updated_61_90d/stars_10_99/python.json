@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 227,
-    "concepts": 167,
-    "observations": 167,
-    "repos": 53,
-    "terms": 165
+    "components": 241,
+    "concepts": 178,
+    "observations": 178,
+    "repos": 55,
+    "terms": 175
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "abduznik/git-alchemist",
     "agents-x-project/PyVision-RL",
@@ -24,6 +24,7 @@
     "AniAggarwal/ecad",
     "apache/parquet-testing",
     "bigai-nlco/RuleReasoner",
+    "BirolLab/tigmint",
     "BoosterRobotics/booster_assets",
     "chaoss/grimoirelab-cereslib",
     "chaoss/grimoirelab-graal",
@@ -48,6 +49,7 @@
     "Han-Cao/collapse-bubble",
     "imlrz/DeepResearch-Bench-II",
     "inducer/codepy",
+    "ironArray/Caterva2",
     "IST-DASLab/Quartet-II",
     "liran-funaro/sphinx-markdown-builder",
     "logic-star-ai/swt-bench",

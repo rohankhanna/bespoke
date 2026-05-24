@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 100,
-    "concepts": 116,
-    "observations": 116,
+    "components": 103,
+    "concepts": 112,
+    "observations": 112,
     "repos": 12,
-    "terms": 115
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
-    "ashvardanian/NumKong",
     "floooh/sokol",
     "free-audio/clap",
     "google/oboe",
@@ -24,6 +23,7 @@
     "Nelarius/imnodes",
     "PortAudio/portaudio",
     "pure-data/pure-data",
+    "ultrajson/ultrajson",
     "uxlfoundation/oneDNN",
     "WarmUpTill/SceneSwitcher"
   ]

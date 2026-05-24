@@ -3,7 +3,7 @@
     "components": 540,
     "concepts": 633,
     "observations": 633,
-    "repos": 286,
+    "repos": 287,
     "terms": 630
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
@@ -199,6 +199,7 @@
     "llandsmeer/inkvt",
     "llnl/Adiak",
     "llnl/RAJA-project-template",
+    "lovemefan/paraformer.cpp",
     "LuisaGroup/LuisaShaderToy",
     "madler/brotli",
     "Maher4Ever/wdm",

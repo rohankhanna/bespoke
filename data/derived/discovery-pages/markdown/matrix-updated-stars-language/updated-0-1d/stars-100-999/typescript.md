@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-23T07:23:00.685421+00:00`
+Generated at: `2026-05-24T05:51:44.692497+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 5
-- terms: 49
-- components: 149
-- concepts: 49
-- observations: 49
+- repos: 2
+- terms: 13
+- components: 65
+- concepts: 13
+- observations: 13
 
 ## Static behavior
 
@@ -26,18 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 542 | 2026-05-22T15:32:15Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
-| [abaplint/transpiler](https://github.com/abaplint/transpiler) | 101 | 2026-05-22T13:29:22Z | TypeScript | Infrastructure/tooling | 5 | 31 | 5 | 5 |
-| [stx-labs/stacks.js](https://github.com/stx-labs/stacks.js) | 974 | 2026-05-22T11:04:42Z | TypeScript | Infrastructure/tooling | 5 | 54 | 5 | 5 |
-| [matter-js/matter.js](https://github.com/matter-js/matter.js) | 807 | 2026-05-22T10:20:50Z | TypeScript | Infrastructure/tooling | 12 | 21 | 12 | 12 |
-| [hexabot-ai/Hexabot](https://github.com/hexabot-ai/Hexabot) | 959 | 2026-05-22T10:16:24Z | TypeScript | Infrastructure/tooling | 19 | 9 | 19 | 19 |
+| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 544 | 2026-05-23T13:44:56Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
+| [abaplint/transpiler](https://github.com/abaplint/transpiler) | 101 | 2026-05-23T07:37:21Z | TypeScript | Infrastructure/tooling | 5 | 31 | 5 | 5 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [stx-labs/stacks.js](https://github.com/stx-labs/stacks.js) | 974 | 2026-05-22T11:04:42Z | TypeScript | Infrastructure/tooling | 5 | 54 | 5 | 5 |
-| [hexabot-ai/Hexabot](https://github.com/hexabot-ai/Hexabot) | 959 | 2026-05-22T10:16:24Z | TypeScript | Infrastructure/tooling | 19 | 9 | 19 | 19 |
-| [matter-js/matter.js](https://github.com/matter-js/matter.js) | 807 | 2026-05-22T10:20:50Z | TypeScript | Infrastructure/tooling | 12 | 21 | 12 | 12 |
-| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 542 | 2026-05-22T15:32:15Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
-| [abaplint/transpiler](https://github.com/abaplint/transpiler) | 101 | 2026-05-22T13:29:22Z | TypeScript | Infrastructure/tooling | 5 | 31 | 5 | 5 |
+| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 544 | 2026-05-23T13:44:56Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
+| [abaplint/transpiler](https://github.com/abaplint/transpiler) | 101 | 2026-05-23T07:37:21Z | TypeScript | Infrastructure/tooling | 5 | 31 | 5 | 5 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 194,
-    "concepts": 97,
-    "observations": 99,
+    "components": 180,
+    "concepts": 92,
+    "observations": 95,
     "repos": 23,
-    "terms": 96
+    "terms": 91
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "a16z/helios",
     "allan2/dotenvy",
     "brendanzab/codespan",
-    "crossbeam-rs/crossbeam",
     "David-OConnor/pyflow",
     "dtolnay/anyhow",
     "dtolnay/proc-macro-workshop",
     "dtolnay/thiserror",
     "google/argh",
+    "gyscos/cursive",
     "haleclipse/ccometixline",
     "ImageOptim/gifski",
     "parcel-bundler/lightningcss",

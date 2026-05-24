@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 6,
-    "terms": 40
+    "components": 161,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 7,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
+    "less/less.js",
     "pugjs/pug",
     "sql-js/sql.js",
     "typicode/husky",

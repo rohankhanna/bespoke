@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 166,
+    "components": 170,
     "concepts": 112,
     "observations": 112,
-    "repos": 101,
+    "repos": 103,
     "terms": 112
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "2KAbhishek/exercism-fetcher",
     "3b/cl-vulkan",
@@ -90,6 +90,8 @@
     "jverzani/SymPyPyCall.jl",
     "klowrey/MuJoCo.jl",
     "kobbikobb/neotest-gradle",
+    "KSXGitHub/aur-packages-builder-1",
+    "KSXGitHub/aur-packages-builder-2",
     "larshp/uccp",
     "lifeiteng/lifeiteng.github.com",
     "madhephaestus/MuJoCoTest",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 424,
-    "concepts": 442,
-    "observations": 445,
-    "repos": 168,
-    "terms": 438
+    "components": 428,
+    "concepts": 443,
+    "observations": 446,
+    "repos": 169,
+    "terms": 439
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
@@ -176,6 +176,7 @@
     "urfave/cli-docs",
     "vmihailenco/go-cache-benchmark",
     "vmihailenco/go-tinylfu",
+    "vmware/pmd-next-gen",
     "vulkan-go/asche",
     "wintoncode/vault-plugin-auth-kerberos",
     "xrjr/mcutils",

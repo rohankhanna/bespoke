@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 203,
-    "concepts": 237,
-    "observations": 238,
-    "repos": 55,
-    "terms": 235
+    "components": 205,
+    "concepts": 241,
+    "observations": 242,
+    "repos": 58,
+    "terms": 239
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "anacrolix/go-libutp",
     "apache/rocketmq-client-cpp",
@@ -35,6 +35,7 @@
     "google/kmsan",
     "haosulab/SAPIEN",
     "hhyyrylainen/GodotPckTool",
+    "intel/gmmlib",
     "isciences/exactextract",
     "JokerJohn/Cloud_Map_Evaluation",
     "JokerJohn/MS-Mapping",
@@ -43,10 +44,12 @@
     "KhronosGroup/OpenGL-Registry",
     "lexxmark/winflexbison",
     "libxsmm/libxsmm",
+    "littlefs-project/littlefs-fuse",
     "lualanes/lanes",
     "LuisaGroup/LuisaRender",
     "luvit/luvi",
     "marbl/canu",
+    "microsoft/xlang",
     "mongodb-js/kerberos",
     "NiLuJe/kfmon",
     "numactl/numactl",

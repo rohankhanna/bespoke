@@ -3,7 +3,7 @@
     "components": 42,
     "concepts": 33,
     "observations": 33,
-    "repos": 19,
+    "repos": 20,
     "terms": 33
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "10up/.github",
@@ -30,6 +30,7 @@
     "danielrosehill/Claude-Dork",
     "danielrosehill/Hebrew-TTS-Providers",
     "gakonst/foundry",
+    "hchiam/learning-gh",
     "newton-physics/newton-governance",
     "psmux/scoop-tmuxpanel",
     "richgel999/junkdrawer"

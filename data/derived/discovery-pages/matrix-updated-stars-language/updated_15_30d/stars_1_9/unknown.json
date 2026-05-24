@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 51,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 41,
-    "terms": 43
+    "concepts": 39,
+    "observations": 39,
+    "repos": 36,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,20 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
-    "AlmaLinux/osv-database",
     "angular/angular-devkit-build-webpack-builds",
     "calda/SwiftFormat-nightly",
     "Cebeerre/dnsblocklists",
     "conda-forge/captum-feedstock",
     "conda-forge/pyfive-feedstock",
     "csm-actions/demo-server",
-    "danielrosehill/Awesome-LLM-Council-Projects",
     "danielrosehill/Claude-Content-Writing-Plugin",
-    "danielrosehill/Claude-Data-Analyst-plugin",
     "danielrosehill/Claude-Desktop-Manager-Plugin",
     "danielrosehill/Claude-Ideation-Planning-Plugin",
     "danielrosehill/Claude-Image-Production-Plugin",
     "danielrosehill/Claude-KDE-Plasma-Plugin",
     "danielrosehill/Claude-Linux-System-Optimisation-Plugin",
-    "danielrosehill/Claude-LLM-Council-Creator-Plugin",
     "danielrosehill/Claude-Research-Space-Plugin",
     "danielrosehill/Resources-Lists-Index",
     "danielrosehill/Subindices",
@@ -44,7 +40,6 @@
     "hybridgroup/llama-cpp-builder",
     "jku/tuf-demo",
     "lxgw/B5XiZhi",
-    "oobabooga/screenshots",
     "OpenSC/Nightly",
     "pot-app/.github",
     "psmux/scoop-psmux",

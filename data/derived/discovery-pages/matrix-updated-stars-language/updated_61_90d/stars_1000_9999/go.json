@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 153,
-    "concepts": 135,
-    "observations": 135,
-    "repos": 36,
-    "terms": 131
+    "components": 174,
+    "concepts": 142,
+    "observations": 142,
+    "repos": 39,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "abh/geodns",
     "bazelbuild/buildtools",
@@ -34,6 +34,7 @@
     "goccy/go-json",
     "golang/oauth2",
     "google/go-cmp",
+    "google/go-jsonnet",
     "hashicorp/go-metrics",
     "hashicorp/memberlist",
     "isaacphi/mcp-language-server",
@@ -48,7 +49,9 @@
     "OwO-Network/DeepLX",
     "refraction-networking/utls",
     "spf13/pflag",
+    "stripe/stripe-mock",
     "tidwall/btree",
-    "xtaci/smux"
+    "xtaci/smux",
+    "yuin/goldmark"
   ]
 }

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 39,
+    "components": 35,
     "concepts": 10,
     "observations": 10,
-    "repos": 13,
+    "repos": 11,
     "terms": 10
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "AdaCore/vss-text",
@@ -23,8 +23,6 @@
     "haoxiangsnr/IntelNeuromorphicDNSChallenge",
     "Hitesh-Aggarwal/dotfiles",
     "JuliaBinaryWrappers/Glib_jll.jl",
-    "KSXGitHub/aur-packages-builder-1",
-    "KSXGitHub/aur-packages-builder-2",
     "mjvolk3/dendron-template",
     "ved015/CogVideoX-5b-Physics_iq_benchmarking"
   ]

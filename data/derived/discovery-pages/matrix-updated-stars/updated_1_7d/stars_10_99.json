@@ -1,20 +1,20 @@
 {
   "counts": {
-    "components": 218,
-    "concepts": 66,
-    "observations": 66,
-    "repos": 20,
-    "terms": 66
+    "components": 244,
+    "concepts": 71,
+    "observations": 71,
+    "repos": 21,
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
-    "cloudfoundry/bosh-google-cpi-release",
+    "amazon-ion/ion-cli",
     "cloudfoundry/credhub-cli",
     "compozy/kb",
     "edge-classic/EDGE-classic",
@@ -24,8 +24,9 @@
     "intel-staging/text-generation-webui",
     "jelly-beam/rebar3_ex_doc",
     "joshsymonds/cc-tools",
-    "karafka/example-apps",
     "mesh-iit/cad-libraries",
+    "mozilla-ai/otari",
+    "nuxt-modules/emotion",
     "nvim-mini/mini.deps",
     "ogx-ai/ogx-client-typescript",
     "pivotal/credhub-release",

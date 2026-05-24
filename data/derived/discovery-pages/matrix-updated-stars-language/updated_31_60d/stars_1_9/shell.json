@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 40,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 20,
-    "terms": 25
+    "components": 37,
+    "concepts": 31,
+    "observations": 31,
+    "repos": 21,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "agent-sh/glidemq",
@@ -20,10 +20,12 @@
     "causely-oss/otel-demo",
     "cdeust/zetetic-team-subagents",
     "chronosphereio/calyptia-cli",
+    "conda-forge/fenics-dolfinx-feedstock",
     "conda-forge/nlohmann_json-feedstock",
+    "conda-forge/openblas-feedstock",
     "conda-forge/pgvector-feedstock",
+    "danielrosehill/Claude-Data-Wrangler-plugin",
     "eea/eea.docker.gitflow",
-    "hchiam/learning-bash-scripts",
     "hermit-os/rust-std-hermit",
     "HKU-BAL/Clair-skills",
     "ihmcrobotics/repository-group",
@@ -32,7 +34,6 @@
     "rapidsai/gha-tools",
     "reviewdog/action-composite-template",
     "semgrep/mcp-marketplace",
-    "serpro69/claude-in-docker",
     "status-im/nimbus-build-system"
   ]
 }

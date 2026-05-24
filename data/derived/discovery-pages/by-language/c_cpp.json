@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9547,
-    "concepts": 11432,
-    "observations": 11460,
-    "repos": 2369,
-    "terms": 11337
+    "components": 9556,
+    "concepts": 11444,
+    "observations": 11472,
+    "repos": 2372,
+    "terms": 11348
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0ldsk00l/nestopia",
@@ -536,6 +536,7 @@
     "cryspen/hacl-packages",
     "CrystallineCore/Biscuit",
     "csnewman/flutter-go-bridge",
+    "csukuangfj/kaldi-native-fbank",
     "csukuangfj/kaldi_native_io",
     "curl/curl",
     "cusplibrary/cusplibrary",
@@ -1420,6 +1421,7 @@
     "lostromb/concentus",
     "LostRuins/koboldcpp",
     "louisdx/cxx-prettyprint",
+    "lovemefan/paraformer.cpp",
     "lovemefan/SenseVoice.cpp",
     "lrjconan/GRAN",
     "lualanes/lanes",
@@ -1888,6 +1890,7 @@
     "pybind/pybind11_json",
     "pyg-team/pyg-lib",
     "pygobject/pycairo",
+    "pykaldi/clif",
     "PyMesh/carve",
     "PyMesh/PyMesh",
     "pytorch/FBGEMM",

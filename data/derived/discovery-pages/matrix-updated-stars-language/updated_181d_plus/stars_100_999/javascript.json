@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4648,
-    "concepts": 1048,
-    "observations": 1048,
-    "repos": 374,
-    "terms": 1036
+    "components": 4671,
+    "concepts": 1050,
+    "observations": 1050,
+    "repos": 376,
+    "terms": 1038
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "2createStudio/postcss-sprites",
@@ -69,6 +69,7 @@
     "beizhedenglong/react-hooks-lib",
     "ben-eb/gulp-csso",
     "benface/tailwindcss-gradients",
+    "BenzLeung/benz-amr-recorder",
     "bevacqua/insane",
     "bhauman/flappy-bird-demo",
     "bholloway/resolve-url-loader",
@@ -87,6 +88,7 @@
     "bublejs/buble",
     "captainsafia/fony",
     "cferdinandi/gumshoe",
+    "charmbracelet/tree-sitter-vhs",
     "chhoumann/Templater_Templates",
     "chrismccord/phoenix_chat_example",
     "chrisvoncsefalvay/claude-d3js-skill",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1057,
-    "concepts": 599,
-    "observations": 599,
-    "repos": 65,
-    "terms": 600
+    "components": 1203,
+    "concepts": 593,
+    "observations": 593,
+    "repos": 67,
+    "terms": 594
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
@@ -23,17 +23,18 @@
     "agent-sh/onboard",
     "agent-sh/perf",
     "agent-sh/repo-intel",
-    "agent-sh/ship",
     "agent-sh/sync-docs",
     "angular/dev-infra-private-ng-dev-builds",
     "anojndr/grok-to-openai",
     "apache/netbeans-antora",
     "BarMalka/super-pharm-stock-checker",
-    "brody2consult/react-native-init-func",
     "certible/superagent-aws-sign",
     "ChadKillingsworth/closure-compiler-npm",
     "collective/mrs-developer",
     "Deep-Symmetry/asciidoctor-bytefield",
+    "eea/bise-frontend",
+    "eea/eea-website-frontend",
+    "eea/fise-frontend",
     "ehmicky/fetch-node-website",
     "ehmicky/get-node-cli",
     "ehmicky/normalize-node-version",
@@ -56,6 +57,7 @@
     "Level/supports",
     "Level/transcoder",
     "locize/locize-lastused",
+    "metosin/open-source",
     "newrelic/csec-node-agent",
     "poolifier/tatami-ng",
     "recap-utr/arg-services",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 208,
-    "concepts": 281,
-    "observations": 281,
-    "repos": 39,
-    "terms": 278
+    "components": 207,
+    "concepts": 295,
+    "observations": 295,
+    "repos": 40,
+    "terms": 295
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "apache/camel-examples",
@@ -20,6 +20,7 @@
     "apache/doris-flink-connector",
     "apache/doris-spark-connector",
     "Azure-Samples/agent-openai-java-banking-assistant",
+    "beehive-lab/GPULlama3.java",
     "carrot2/carrot2",
     "chromiumembedded/java-cef",
     "connectbot/sshlib",
@@ -28,7 +29,6 @@
     "eclipse-lemminx/lemminx",
     "fabmax/physx-jni",
     "FasterXML/woodstox",
-    "filip26/titanium-json-ld",
     "fnproject/fdk-java",
     "googleapis/google-api-java-client-services",
     "googleapis/google-auth-library-java",
@@ -52,6 +52,7 @@
     "spring-io/spring-javaformat",
     "swagger-api/swagger-inflector",
     "swagger-api/validator-badge",
-    "ysbing/YADB"
+    "ysbing/YADB",
+    "zilliztech/vts"
   ]
 }

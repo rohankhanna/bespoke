@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 167,
-    "concepts": 179,
-    "observations": 181,
-    "repos": 13,
-    "terms": 176
+    "components": 64,
+    "concepts": 67,
+    "observations": 68,
+    "repos": 6,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
-    "aden-hive/hive",
+    "567-labs/instructor",
     "axolotl-ai-cloud/axolotl",
     "Dao-AILab/flash-attention",
-    "fastapi/fastapi",
     "jax-ml/jax",
     "modelscope/FunASR",
-    "modelscope/ms-swift",
-    "NVIDIA-NeMo/NeMo",
-    "OpenHands/OpenHands",
-    "psf/black",
-    "pydantic/pydantic",
-    "verl-project/verl",
-    "zhayujie/CowAgent"
+    "OpenHands/OpenHands"
   ]
 }

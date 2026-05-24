@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-23T07:23:00.685421+00:00`
+Generated at: `2026-05-24T05:51:44.692497+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 8
-- components: 17
-- concepts: 8
-- observations: 8
+- repos: 3
+- terms: 14
+- components: 30
+- concepts: 14
+- observations: 14
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [servo/stylo](https://github.com/servo/stylo) | 280 | 2026-05-22T13:55:49Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 454 | 2026-05-22T11:10:02Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [Ai00-X/ai00_server](https://github.com/Ai00-X/ai00_server) | 613 | 2026-05-17T09:53:28Z | Rust | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 
 ## Repos sorted by stars
@@ -33,3 +35,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [Ai00-X/ai00_server](https://github.com/Ai00-X/ai00_server) | 613 | 2026-05-17T09:53:28Z | Rust | Infrastructure/tooling | 8 | 17 | 8 | 8 |
+| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 454 | 2026-05-22T11:10:02Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [servo/stylo](https://github.com/servo/stylo) | 280 | 2026-05-22T13:55:49Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |

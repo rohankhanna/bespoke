@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 122,
-    "concepts": 96,
-    "observations": 96,
-    "repos": 10,
-    "terms": 96
+    "components": 70,
+    "concepts": 75,
+    "observations": 76,
+    "repos": 6,
+    "terms": 75
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "clj-kondo/clj-kondo",
-    "datalevin/datalevin",
-    "firebase/flutterfire",
-    "kurrent-io/KurrentDB",
+    "dotnet/Silk.NET",
     "microsoft/aspire",
-    "microsoft/PhiCookBook",
     "swiftlang/llvm-project",
     "swiftlang/swift-syntax",
-    "TryGhost/node-sqlite3",
     "web-platform-tests/wpt"
   ]
 }

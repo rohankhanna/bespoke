@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 98,
-    "concepts": 71,
-    "observations": 71,
-    "repos": 18,
-    "terms": 70
+    "components": 91,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 16,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "1mb-dev/natcheck",
     "abhinav/goldmark-hashtag",
@@ -28,9 +28,7 @@
     "gookit/cliui",
     "huggingface/hf-csi-driver",
     "linode/karpenter-provider-linode",
-    "probe-lab/tiros",
     "Seedloaf/mc-router-discovery",
-    "transparency-dev/armored-witness-applet",
-    "walles/ftop"
+    "transparency-dev/armored-witness-applet"
   ]
 }

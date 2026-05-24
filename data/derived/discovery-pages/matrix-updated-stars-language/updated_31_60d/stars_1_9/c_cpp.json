@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 182,
-    "concepts": 102,
-    "observations": 102,
-    "repos": 20,
-    "terms": 101
+    "components": 188,
+    "concepts": 104,
+    "observations": 104,
+    "repos": 21,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "ankane/dist-c",
     "Asmod4n/mruby-fast-json",
     "CHIP-SPV/H4I-MKLShim",
+    "compiler-research/CPyCppyy",
     "datalevin/dlmdb",
     "DavidKinder/inform",
     "decibri/decibri.cpp",

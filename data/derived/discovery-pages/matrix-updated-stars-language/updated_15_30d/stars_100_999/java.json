@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 323,
-    "concepts": 361,
-    "observations": 361,
-    "repos": 48,
-    "terms": 359
+    "concepts": 352,
+    "observations": 352,
+    "repos": 47,
+    "terms": 350
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "allegro/hermes",
     "apache/commons-jexl",
@@ -22,7 +22,6 @@
     "Apicurio/apicurio-registry",
     "aws-powertools/powertools-lambda-java",
     "aws/smithy-go",
-    "beehive-lab/GPULlama3.java",
     "bndtools/bnd",
     "confluentinc/kafka-streams-examples",
     "devoxx/DevoxxGenieIDEAPlugin",
@@ -40,6 +39,7 @@
     "jpmml/jpmml-sklearn",
     "jpmml/jpmml-xgboost",
     "kirill-grouchnikov/radiance",
+    "KosherJava/zmanim",
     "mapsforge/vtm",
     "MarcusWolschon/osmeditor4android",
     "michel-kraemer/bson4jackson",
@@ -60,7 +60,6 @@
     "swagger-api/swagger-parser",
     "ThreeTen/threetenbp",
     "wildfly/quickstart",
-    "Xilinx/RapidWright",
-    "zilliztech/vts"
+    "Xilinx/RapidWright"
   ]
 }

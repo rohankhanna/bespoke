@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11915,
+    "components": 11909,
     "concepts": 5300,
     "observations": 5310,
-    "repos": 2376,
+    "repos": 2377,
     "terms": 5319
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0b01/tigris-and-euphrates",
@@ -1198,7 +1198,6 @@
     "hayguen/pffft_benchmarks",
     "hbenl/vscode-extension-samples",
     "hbenl/vscode-mocha-docker-example",
-    "hbenl/vscode-test-adapter-remoting-util",
     "hchiam/_2DNote",
     "hchiam/anonymous-input",
     "hchiam/astro-calendar",
@@ -1934,6 +1933,8 @@
     "pwnwriter/PTN11",
     "py-cov-action/python-coverage-comment-action-v2-example",
     "pydantic/pydantic-docs",
+    "pykaldi/clif",
+    "pykaldi/kaldi",
     "pyrtlsdr/pyrtlsdrlib",
     "PyThaiNLP/pythainlp-corpus",
     "qcr/qcr.github.io",

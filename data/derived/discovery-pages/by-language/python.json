@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 17837,
-    "concepts": 26894,
-    "observations": 26945,
-    "repos": 6730,
-    "terms": 26688
+    "components": 17842,
+    "concepts": 26925,
+    "observations": 26976,
+    "repos": 6733,
+    "terms": 26719
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -1075,6 +1075,7 @@
     "bootmortis/iran-hosted-domains",
     "bootmortis/ito-gov-mirror",
     "bootphon/phonemizer",
+    "bootphon/shennong",
     "boppreh/keyboard",
     "boppreh/mouse",
     "borisdayma/dalle-mini",
@@ -3977,6 +3978,7 @@
     "mamba-org/quetz",
     "mamba-org/quetz-client",
     "mamba-org/quetz-sql-authenticator",
+    "mangiucugna/json_repair",
     "manim-kindergarten/manim",
     "manim-kindergarten/manim_sandbox",
     "ManimCommunity/manim",
@@ -5803,6 +5805,7 @@
     "speaches-ai/speaches",
     "speechbrain/benchmarks",
     "speechbrain/speechbrain",
+    "SpeechColab/Leaderboard",
     "speechio/chinese_text_normalization",
     "spencer-tb/ethereum-spec-evm-resolver",
     "spesmilo/electrumx",

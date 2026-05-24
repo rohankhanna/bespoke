@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 99,
-    "concepts": 78,
-    "observations": 78,
-    "repos": 23,
-    "terms": 74
+    "components": 109,
+    "concepts": 86,
+    "observations": 86,
+    "repos": 25,
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
+    "abap2UI5-addons/layout-management",
     "Adam-Boesky/astro_SPLASH",
     "adobe/spectrum-tokens",
     "appbaseio/reactivesearch-api-docker",
+    "Asmod4n/mruby-argon2",
     "aspect-build/rules_jasmine",
     "ATProtoKit/MultiformatsKit",
     "clearbluejar/ghidra-python",

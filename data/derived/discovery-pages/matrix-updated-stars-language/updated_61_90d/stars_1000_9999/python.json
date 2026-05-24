@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 246,
-    "concepts": 419,
-    "observations": 419,
-    "repos": 76,
-    "terms": 415
+    "components": 242,
+    "concepts": 417,
+    "observations": 417,
+    "repos": 75,
+    "terms": 413
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "adrienverge/yamllint",
     "AgentOps-AI/agentops",
@@ -24,14 +24,15 @@
     "bambinos/bambi",
     "Beckschen/TransUNet",
     "belluzj/fantasque-sans",
-    "benjaminp/six",
     "black-forest-labs/flux2",
     "brycedrennan/imaginAIry",
     "bytetriper/RAE",
     "ChenmienTan/RL2",
     "cheshire-cat-ai/core",
     "daijro/browserforge",
+    "databricks/megablocks",
     "dateutil/dateutil",
+    "DepthAnything/Depth-Anything-V2",
     "django/asgiref",
     "dolfies/discord.py-self",
     "dynaconf/dynaconf",
@@ -51,7 +52,6 @@
     "jeffallan/claude-skills",
     "jiaaro/pydub",
     "keleshev/schema",
-    "kijai/ComfyUI-WanVideoWrapper",
     "langfengQ/verl-agent",
     "lshqqytiger/stable-diffusion-webui-amdgpu",
     "lyuwenyu/RT-DETR",
@@ -87,7 +87,6 @@
     "Vchitect/VBench",
     "yangyanli/PointCNN",
     "YosysHQ/icestorm",
-    "yxlllc/DDSP-SVC",
     "ZhengPeng7/BiRefNet",
     "zubair-trabzada/ai-marketing-claude"
   ]

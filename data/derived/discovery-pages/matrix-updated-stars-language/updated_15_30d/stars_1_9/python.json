@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 132,
-    "concepts": 87,
-    "observations": 87,
-    "repos": 26,
-    "terms": 87
+    "components": 125,
+    "concepts": 79,
+    "observations": 79,
+    "repos": 23,
+    "terms": 79
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
-    "5sControl/5s-backend",
     "astral-sh/versions",
     "atlanhq/atlan-sample-apps",
     "Azure-Samples/langchain-agent-python",
     "compiler-research/cppyy",
-    "conda-forge/threadpoolctl-feedstock",
-    "danielrosehill/LLM-Council-Template",
     "danielrosehill/Voxtype",
     "demonatic/flash-attention",
     "eea/eea-website-backend",

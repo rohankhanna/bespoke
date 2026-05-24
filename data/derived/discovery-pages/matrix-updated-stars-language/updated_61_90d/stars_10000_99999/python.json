@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 114,
-    "concepts": 134,
-    "observations": 134,
-    "repos": 24,
-    "terms": 139
+    "concepts": 139,
+    "observations": 139,
+    "repos": 26,
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "Alibaba-NLP/DeepResearch",
     "chriskiehl/Gooey",
@@ -20,6 +20,7 @@
     "CorentinJ/Real-Time-Voice-Cloning",
     "facebookresearch/vggt",
     "FunAudioLLM/CosyVoice",
+    "Huanshere/VideoLingo",
     "huggingface/text-generation-inference",
     "Jiayi-Pan/TinyZero",
     "KlingAIResearch/LivePortrait",
@@ -30,6 +31,7 @@
     "prompt-toolkit/python-prompt-toolkit",
     "QwenLM/Qwen",
     "QwenLM/Qwen-Agent",
+    "QwenLM/Qwen3-Coder",
     "QwenLM/Qwen3-TTS",
     "rany2/edge-tts",
     "superclaude-org/superclaude_framework",

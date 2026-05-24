@@ -3,7 +3,7 @@
     "components": 47,
     "concepts": 43,
     "observations": 43,
-    "repos": 23,
+    "repos": 27,
     "terms": 50
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "aayushbhaskar/OpenCouncil",
     "adammes/voyanode",
@@ -20,7 +20,11 @@
     "cdeust/cortex-know-when-to-stop-training-model",
     "conda-forge/conda-forge-feedstock-ops",
     "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
+    "danielrosehill/Hypothesis-Council",
     "danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",
+    "danielrosehill/LLM-Council-Decide",
+    "danielrosehill/LLM-Council-Grounded",
+    "danielrosehill/LLM-Council-Homehunter",
     "danielrosehill/Red-Alert-Monitoring-Stack",
     "devnen/chatterbox-v2",
     "FEniCS/spack-fenics",

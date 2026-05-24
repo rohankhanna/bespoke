@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 1,
-    "terms": 15
+    "components": 26,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 3,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
+    "dwyl/mvp",
+    "karafka/example-apps",
     "lumen-oss/luarocks-tag-release"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 3,
-    "terms": 19
+    "components": 35,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 4,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "anthropics/skills",
     "nousresearch/hermes-agent",
+    "Significant-Gravitas/AutoGPT",
     "yt-dlp/yt-dlp"
   ]
 }

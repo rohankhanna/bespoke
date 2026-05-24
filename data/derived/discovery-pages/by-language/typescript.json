@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 62649,
+    "components": 62644,
     "concepts": 10885,
     "observations": 10920,
-    "repos": 1912,
+    "repos": 1911,
     "terms": 11186
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "06ketan/slideshot",
@@ -811,7 +811,6 @@
     "hazelcast/hazelcast-nodejs-client",
     "hbenl/vscode-extension-samples",
     "hbenl/vscode-mocha-test-adapter",
-    "hbenl/vscode-test-adapter-remoting-util",
     "hchiam/astro-calendar",
     "hchiam/how-draggable",
     "hchiam/learning-angular",

@@ -3,7 +3,7 @@
     "components": 20,
     "concepts": 20,
     "observations": 20,
-    "repos": 11,
+    "repos": 12,
     "terms": 20
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "Bearer/homebrew-tap",
     "bookcars/bookcars.github.io",
     "danielrosehill/Israel-First-Aid",
+    "JuliaBinaryWrappers/FreeType2_jll.jl",
     "JuliaBinaryWrappers/GettextRuntime_jll.jl",
     "kdubbo/client-go",
     "musicman3/cruder",

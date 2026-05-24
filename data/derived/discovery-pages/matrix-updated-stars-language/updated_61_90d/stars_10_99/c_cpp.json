@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 75,
-    "concepts": 104,
-    "observations": 104,
-    "repos": 34,
-    "terms": 104
+    "components": 81,
+    "concepts": 114,
+    "observations": 114,
+    "repos": 36,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "accabog/MedianFilter",
     "adamyaxley/Unformat",
     "AFD-Illinois/ebhlight",
     "aseprite/clip",
     "aseprite/observable",
+    "bartp5/libtexprintf",
     "cisco/libacvp",
     "COMBINE-lab/cuttlefish",
     "CROSS-signature/CROSS-implementation",
@@ -42,6 +43,7 @@
     "lemire/simple_fastfloat_benchmark",
     "mesh-iit/creo2urdf",
     "microsoft/react-native-winrt",
+    "midi2-dev/ni-midi2",
     "onicai/llama_cpp_canister",
     "RekGRpth/pg_task",
     "smuellerDD/acvpparser",

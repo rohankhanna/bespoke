@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 175,
-    "concepts": 177,
-    "observations": 177,
-    "repos": 33,
-    "terms": 177
+    "components": 173,
+    "concepts": 176,
+    "observations": 176,
+    "repos": 32,
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "99designs/aws-vault",
-    "aarondl/authboss",
     "achannarasappa/ticker",
     "ajvb/kala",
     "ameshkov/dnslookup",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 18,
-    "terms": 28
+    "components": 19,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 20,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "aquasecurity/setup-trivy",
     "bpftrace/user-tools",
@@ -26,6 +26,8 @@
     "ethereum/beacon-metrics",
     "getsentry/.github",
     "googlefonts/emoji-metadata",
+    "grpc/grpc-community",
+    "ithiria894/awesome-claude-code-hooks",
     "Lynxe-public/Lynxe-public-prompts",
     "marko-js/examples",
     "nushell/showcase",

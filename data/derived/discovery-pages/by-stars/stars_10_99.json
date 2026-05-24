@@ -3,14 +3,14 @@
     "components": 28446,
     "concepts": 15229,
     "observations": 15281,
-    "repos": 5504,
+    "repos": 5505,
     "terms": 15230
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -3541,6 +3541,7 @@
     "Looong01/pyg-rocm-build",
     "loscrossos/lib_flashattention",
     "lostromb/concentus.oggfile",
+    "lovemefan/paraformer.cpp",
     "loyd/fixnum",
     "lread/test-doc-blocks",
     "lshqqytiger/triton",

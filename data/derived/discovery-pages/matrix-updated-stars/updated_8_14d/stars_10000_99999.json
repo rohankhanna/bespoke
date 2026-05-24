@@ -1,33 +1,30 @@
 {
   "counts": {
-    "components": 660,
-    "concepts": 273,
-    "observations": 274,
-    "repos": 24,
-    "terms": 270
+    "components": 592,
+    "concepts": 256,
+    "observations": 257,
+    "repos": 21,
+    "terms": 253
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "academic/awesome-datascience",
     "ajv-validator/ajv",
     "apache/casbin",
     "atuinsh/atuin",
-    "blender/blender",
     "browserslist/browserslist",
     "ChatGPTNextWeb/NextChat",
     "clauderic/dnd-kit",
     "DayBreak-u/chineseocr_lite",
-    "foliojs/pdfkit",
     "fuma-nama/fumadocs",
     "JetBrains/compose-multiplatform",
     "Kilo-Org/kilocode",
     "Koenkk/zigbee2mqtt",
-    "lint-staged/lint-staged",
     "lucide-icons/lucide",
     "modelcontextprotocol/typescript-sdk",
     "neovim/nvim-lspconfig",

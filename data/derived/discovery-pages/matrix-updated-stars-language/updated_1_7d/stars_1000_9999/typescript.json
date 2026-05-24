@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 558,
-    "concepts": 99,
-    "observations": 99,
-    "repos": 14,
-    "terms": 99
+    "components": 687,
+    "concepts": 105,
+    "observations": 105,
+    "repos": 16,
+    "terms": 105
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "alichherawalla/off-grid-mobile-ai",
@@ -20,6 +20,8 @@
     "conventional-changelog/conventional-changelog",
     "ebullient/obsidian-admonition",
     "electron/rebuild",
+    "google-gemini/live-api-web-console",
+    "microsoft/vscode-js-debug",
     "podman-desktop/podman-desktop",
     "safe-fndn/safe-smart-account",
     "TanStack/form",

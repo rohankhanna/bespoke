@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2667,
-    "concepts": 446,
-    "observations": 448,
-    "repos": 66,
-    "terms": 449
+    "components": 2987,
+    "concepts": 515,
+    "observations": 518,
+    "repos": 72,
+    "terms": 518
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "ai/nanoid",
     "ajaxorg/ace",
@@ -29,8 +29,11 @@
     "brianc/node-postgres",
     "commitizen/cz-cli",
     "ConardLi/easy-dataset",
+    "cure53/DOMPurify",
     "debug-js/debug",
     "decaporg/decap-cms",
+    "electron/minimal-repro",
+    "expressjs/express",
     "eyaltoledano/claude-task-master",
     "fastify/fastify",
     "google/zx",
@@ -53,8 +56,8 @@
     "jquery/jquery-ui",
     "karma-runner/karma",
     "Leaflet/Leaflet",
-    "less/less.js",
     "lodash/lodash",
+    "lovell/sharp",
     "markdown-it/markdown-it",
     "markedjs/marked",
     "motdotla/dotenv",
@@ -67,8 +70,10 @@
     "PrismJS/prism",
     "reactjs/react.dev",
     "remy/nodemon",
+    "rollup/rollup",
     "semantic-release/semantic-release",
     "serverless/serverless",
+    "simple-icons/simple-icons",
     "svg/svgo",
     "testing-library/react-testing-library",
     "thomaspark/bootswatch",
@@ -79,6 +84,7 @@
     "webpack/webpack",
     "webtorrent/webtorrent",
     "welldone-software/why-did-you-render",
-    "yarnpkg/yarn"
+    "yarnpkg/yarn",
+    "zloirock/core-js"
   ]
 }

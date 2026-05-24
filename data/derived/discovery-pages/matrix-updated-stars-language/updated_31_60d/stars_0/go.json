@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 61,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 13,
-    "terms": 30
+    "components": 71,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 15,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "abraxas-365/claudio-screenshot",
     "ainvaltin/nu_plugin_boltdb",
@@ -21,11 +21,13 @@
     "amoniacou/external-dns-digitalocean-webhook",
     "Amtrend/ssh-manager",
     "datachainlab/ibc-parlia-relay",
+    "DataDog/vault",
     "dubbo-go-pixiu/dubbo-go-pixiu",
     "ethpandaops/xatu-cbt",
     "foundry-rs/optimism",
     "hyper-mcp-rs/crypto-price-plugin",
     "jonislutheran87/weclaw",
+    "kdubbo/xds-api",
     "transparency-dev/armored-witness-common"
   ]
 }

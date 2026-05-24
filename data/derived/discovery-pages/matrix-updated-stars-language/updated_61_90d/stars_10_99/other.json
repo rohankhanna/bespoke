@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 393,
-    "concepts": 281,
-    "observations": 282,
-    "repos": 91,
-    "terms": 276
+    "components": 410,
+    "concepts": 294,
+    "observations": 295,
+    "repos": 93,
+    "terms": 290
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "0xC0000054/pdn-ddsfiletype-plus",
     "219-design/qt-qml-project-template-with-ci",
@@ -47,15 +47,18 @@
     "DragonFlyBSD/DPorts",
     "dwyl/cid",
     "dwyl/content",
+    "dwyl/elixir-auth-google-demo",
+    "dwyl/email",
     "dwyl/learn-payment-processing",
     "Embarcadero/Lightweight-Python-Wrappers",
     "Embarcadero/PythonPackages4Delphi",
     "flycheck/flycheck-eglot",
     "FoundationDB/fdb-build-support",
+    "GaloisInc/cryptol-specs",
     "HaxeFlixel/haxeflixel.com",
     "henryw374/chronos",
-    "ImranR98/obtainium.imranr.dev",
     "informalsystems/audits",
+    "informalsystems/choreo",
     "informalsystems/quint-llm-kit",
     "IQVIA-ML/LightGBM.jl",
     "jakewvincent/texmagic.nvim",
@@ -97,7 +100,6 @@
     "SchwarzIT/spectral-intellij-plugin",
     "SciML/sciml.ai",
     "spring-ai-alibaba/website",
-    "SqrtMinusOne/eshell-atuin",
     "standardrb/lint_roller",
     "tarsius/llama",
     "timo/json_fast",

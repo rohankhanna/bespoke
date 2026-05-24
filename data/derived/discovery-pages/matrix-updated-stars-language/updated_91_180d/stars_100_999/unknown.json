@@ -3,7 +3,7 @@
     "components": 10,
     "concepts": 63,
     "observations": 63,
-    "repos": 32,
+    "repos": 31,
     "terms": 74
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "AppImageCommunity/awesome-appimage",
@@ -34,7 +34,6 @@
     "MiniMax-AI/MiniMax-M2.1",
     "MME-Benchmarks/Video-MME",
     "ntnu-arl/lidar_degeneracy_datasets",
-    "NVIDIA/RTX-AI-Toolkit",
     "oh-my-fish/packages-main",
     "opendilab/awesome-ui-agents",
     "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents",

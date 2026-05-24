@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 83,
-    "concepts": 58,
-    "observations": 58,
-    "repos": 22,
-    "terms": 58
+    "concepts": 62,
+    "observations": 62,
+    "repos": 23,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "Anush008/tokenizers",
@@ -21,6 +21,7 @@
     "chris-zen/coremidi",
     "CosmWasm/cw-storage-plus",
     "Cykooz/libheif-rs",
+    "dcampbell24/mdbook-djot",
     "dgn/oidc-filter",
     "filecoin-project/blstrs",
     "filecoin-project/rust-filecoin-proofs-api",

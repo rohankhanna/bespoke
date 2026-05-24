@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1444,
-    "concepts": 142,
-    "observations": 142,
+    "components": 1448,
+    "concepts": 151,
+    "observations": 151,
     "repos": 84,
-    "terms": 138
+    "terms": 147
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "0h7z/vscode-julia-format",
     "1000ch/vscode-csso",
@@ -53,7 +53,6 @@
     "finehow/bingsearch-plugin",
     "FxEmbed/mosaic-reference",
     "hbenl/vscode-extension-samples",
-    "hbenl/vscode-test-adapter-remoting-util",
     "hchiam/astro-calendar",
     "hchiam/learning-angular",
     "hchiam/learning-vite",
@@ -90,6 +89,7 @@
     "retracedhq/retraced-js",
     "robb-j/nova-yaml",
     "sajal353/r3f-jolt",
+    "scaleway/serverless-functions-node",
     "Shougo/dpp-ext-local",
     "Shougo/dpp-ext-toml",
     "sony/nnabla-browser",

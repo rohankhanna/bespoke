@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11695,
-    "concepts": 6701,
-    "observations": 6716,
-    "repos": 3208,
-    "terms": 6659
+    "components": 11715,
+    "concepts": 6720,
+    "observations": 6735,
+    "repos": 3215,
+    "terms": 6678
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -326,6 +326,7 @@
     "anmolitor/protoc-gen-elm",
     "AnonSubm2021/TransStyleGAN",
     "AnonymousCervine/depth-image-io-for-SDWebui",
+    "AnonymouX47/termvisage",
     "anselanza/parse-strings-in-object",
     "anshckr/fix-js",
     "AnswerDotAI/fastkmeans",
@@ -1170,6 +1171,7 @@
     "eaze/tide-sqlx",
     "eb2ai/My-Checklists-and-Icons",
     "eblerjana/genotyping-pipelines",
+    "echo840/LIRA",
     "eclipse-acute/aCute",
     "eclipse-archived/dartboard",
     "EclipseFdn/iot.eclipse.org",
@@ -1843,6 +1845,7 @@
     "JuliaDocs/DemoCards.jl",
     "JuliaDocs/FranklinTemplates.jl",
     "JuliaEditorSupport/julia-ts-mode",
+    "JuliaGraphics/ColorTypes.jl",
     "JuliaImages/juliaimages.github.io",
     "JuliaIO/MsgPack.jl",
     "JuliaLang/SoftGlobalScope.jl",
@@ -2056,6 +2059,7 @@
     "loocapro/reth-bsc",
     "look4u-ok/video-slicer",
     "loscrossos/lib_flashattention",
+    "lovemefan/paraformer.cpp",
     "lshqqytiger/triton",
     "ltdrdata/comfyui-connection-helper",
     "LTH14/torch-fidelity",
@@ -2215,6 +2219,8 @@
     "miquelmassot/g2o-python",
     "miquelmassot/g2o-python-examples",
     "mirage/emile",
+    "mirage/ocaml-conduit",
+    "mirage/ocaml-uri",
     "Misterio77/dotfiles",
     "Mivg/SLED",
     "mjansson/rpmalloc-benchmark",
@@ -3082,6 +3088,7 @@
     "vmanoj1996/mujoco-demo",
     "vmihailenco/go-cache-benchmark",
     "vmihailenco/go-tinylfu",
+    "vmware/pmd-next-gen",
     "vueuse/vueuse-vue2-example",
     "vueuse/vueuse-vue3-example",
     "vulkan-go/asche",

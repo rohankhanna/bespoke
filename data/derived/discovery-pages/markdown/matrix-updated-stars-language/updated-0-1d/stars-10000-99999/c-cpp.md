@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-23T07:23:00.685421+00:00`
+Generated at: `2026-05-24T05:51:44.692497+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 5
-- terms: 51
-- components: 40
-- concepts: 51
-- observations: 51
+- repos: 2
+- terms: 34
+- components: 18
+- concepts: 34
+- observations: 34
 
 ## Static behavior
 
@@ -26,18 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [argotorg/solidity](https://github.com/argotorg/solidity) | 25640 | 2026-05-22T22:20:37Z | C/C++ | Infrastructure/tooling | 11 | 5 | 11 | 11 |
-| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 24490 | 2026-05-22T20:18:59Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |
-| [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | 35303 | 2026-05-22T19:12:07Z | C/C++ | Infrastructure/tooling | 18 | 21 | 18 | 18 |
-| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14679 | 2026-05-22T14:54:07Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
-| [apache/brpc](https://github.com/apache/brpc) | 17506 | 2026-05-22T12:13:53Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 71263 | 2026-05-23T23:00:18Z | C/C++ | Infrastructure/tooling | 13 | 11 | 13 | 13 |
+| [isl-org/Open3D](https://github.com/isl-org/Open3D) | 13609 | 2026-05-23T22:29:32Z | C/C++ | Infrastructure/tooling | 21 | 7 | 21 | 21 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | 35303 | 2026-05-22T19:12:07Z | C/C++ | Infrastructure/tooling | 18 | 21 | 18 | 18 |
-| [argotorg/solidity](https://github.com/argotorg/solidity) | 25640 | 2026-05-22T22:20:37Z | C/C++ | Infrastructure/tooling | 11 | 5 | 11 | 11 |
-| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 24490 | 2026-05-22T20:18:59Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |
-| [apache/brpc](https://github.com/apache/brpc) | 17506 | 2026-05-22T12:13:53Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14679 | 2026-05-22T14:54:07Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 71263 | 2026-05-23T23:00:18Z | C/C++ | Infrastructure/tooling | 13 | 11 | 13 | 13 |
+| [isl-org/Open3D](https://github.com/isl-org/Open3D) | 13609 | 2026-05-23T22:29:32Z | C/C++ | Infrastructure/tooling | 21 | 7 | 21 | 21 |

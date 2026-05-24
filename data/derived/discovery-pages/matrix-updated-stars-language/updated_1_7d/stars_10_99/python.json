@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 3,
-    "terms": 4
+    "components": 14,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 4,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "google-marketing-solutions/ariel",
     "intel-staging/text-generation-webui",
-    "mesh-iit/cad-libraries"
+    "mesh-iit/cad-libraries",
+    "mozilla-ai/otari"
   ]
 }

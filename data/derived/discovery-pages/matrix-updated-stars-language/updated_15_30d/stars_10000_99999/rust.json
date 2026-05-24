@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 797,
-    "concepts": 587,
-    "observations": 587,
-    "repos": 49,
-    "terms": 582
+    "components": 683,
+    "concepts": 514,
+    "observations": 514,
+    "repos": 41,
+    "terms": 509
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "alacritty/alacritty",
@@ -25,11 +25,8 @@
     "emilk/egui",
     "facebook/flow",
     "firecracker-microvm/firecracker",
-    "FuelLabs/fuel-core",
-    "FuelLabs/sway",
     "getzola/zola",
     "GitoxideLabs/gitoxide",
-    "gleam-lang/gleam",
     "google/comprehensive-rust",
     "helix-editor/helix",
     "huggingface/tokenizers",
@@ -37,17 +34,13 @@
     "influxdata/influxdb",
     "jj-vcs/jj",
     "juspay/hyperswitch",
-    "launchbadge/sqlx",
     "LemmyNet/lemmy",
-    "microsoft/windows-rs",
-    "nearai/ironclaw",
     "oxc-project/oxc",
     "pola-rs/polars",
     "PyO3/pyo3",
     "qdrant/qdrant",
     "quickwit-oss/quickwit",
     "ratatui/ratatui",
-    "rayon-rs/rayon",
     "rerun-io/rerun",
     "rolldown/rolldown",
     "rust-lang/rust-clippy",
@@ -59,7 +52,6 @@
     "tw93/Pake",
     "vectordotdev/vector",
     "wasmerio/wasmer",
-    "web-infra-dev/rspack",
     "wezterm/wezterm",
     "XAMPPRocky/tokei",
     "zed-industries/zed"

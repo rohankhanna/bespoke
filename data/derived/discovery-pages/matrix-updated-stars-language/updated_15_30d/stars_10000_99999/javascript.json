@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2460,
-    "concepts": 453,
-    "observations": 454,
-    "repos": 48,
-    "terms": 446
+    "components": 2199,
+    "concepts": 393,
+    "observations": 393,
+    "repos": 43,
+    "terms": 386
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "4ian/GDevelop",
@@ -21,15 +21,13 @@
     "ampproject/amphtml",
     "Automattic/mongoose",
     "CesiumGS/cesium",
-    "cure53/DOMPurify",
     "easydiffusion/easydiffusion",
     "electerm/electerm",
-    "electron/minimal-repro",
     "emotion-js/emotion",
     "eslint/eslint",
-    "expressjs/express",
     "facebook/hermes",
     "faisalman/ua-parser-js",
+    "foliojs/pdfkit",
     "gatsbyjs/gatsby",
     "GoogleChrome/lighthouse",
     "gorhill/uBlock",
@@ -38,7 +36,7 @@
     "jsdoc/jsdoc",
     "jsdom/jsdom",
     "krisk/Fuse",
-    "lovell/sharp",
+    "lint-staged/lint-staged",
     "lutzroeder/netron",
     "MagicMirrorOrg/MagicMirror",
     "mdx-js/mdx",
@@ -50,9 +48,7 @@
     "novnc/noVNC",
     "plotly/plotly.js",
     "protobufjs/protobuf.js",
-    "rollup/rollup",
     "SillyTavern/SillyTavern",
-    "simple-icons/simple-icons",
     "stylelint/stylelint",
     "sveltejs/kit",
     "sveltejs/svelte",
@@ -60,7 +56,6 @@
     "Unitech/pm2",
     "validatorjs/validator.js",
     "wix/Detox",
-    "yokoffing/Betterfox",
-    "zloirock/core-js"
+    "yokoffing/Betterfox"
   ]
 }

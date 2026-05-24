@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 292,
-    "concepts": 61,
-    "observations": 61,
+    "components": 297,
+    "concepts": 68,
+    "observations": 68,
     "repos": 10,
-    "terms": 61
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,17 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "antvis/GPT-Vis",
-    "Brendonovich/MacroGraph",
     "electron/packager",
-    "fluent-vue/fluent-vue",
-    "huggingface/hf-mcp-server",
+    "hexabot-ai/Hexabot",
     "LuaLS/vscode-lua",
+    "matter-js/matter.js",
     "mightyiam/eslint-config-love",
     "safe-fndn/safe-singleton-factory",
+    "stx-labs/stacks.js",
     "unplugin/unplugin-imagemin"
   ]
 }

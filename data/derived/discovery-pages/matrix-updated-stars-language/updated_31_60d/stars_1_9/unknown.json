@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 44,
-    "concepts": 74,
-    "observations": 74,
-    "repos": 64,
-    "terms": 74
+    "concepts": 78,
+    "observations": 78,
+    "repos": 68,
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "2KAbhishek/BWnB",
@@ -24,6 +24,7 @@
     "agent-sh/prepare-delivery",
     "AI-Agent-Hub/mcp-marketplace",
     "ai-dynamo/enhancements",
+    "AlmaLinux/osv-database",
     "bell-sw/osv-database",
     "cachix/iocraft",
     "canonical/ubuntu-desktop-provision-screenshots",
@@ -38,12 +39,15 @@
     "danielrosehill/AI-Harnesses",
     "danielrosehill/AI-Synthesised-Perspectives",
     "danielrosehill/Architectural-Plans-Index",
+    "danielrosehill/Awesome-LLM-Council-Projects",
     "danielrosehill/Awesome-Red-Alerts",
     "danielrosehill/Claude-ADHD-Research-Workspace",
     "danielrosehill/Claude-AI-Attribution-Plugin",
     "danielrosehill/Claude-Code-Plugins",
     "danielrosehill/claude-code-sysadmin-workspaces-index",
+    "danielrosehill/Claude-Data-Analyst-plugin",
     "danielrosehill/Claude-Legal-Investigative-Plugin",
+    "danielrosehill/Claude-LLM-Council-Creator-Plugin",
     "danielrosehill/Claude-PR-Media-Work-Plugin",
     "danielrosehill/Claude-Purchasing-Plugin",
     "danielrosehill/Docs-And-Notes-Index",
@@ -62,7 +66,6 @@
     "flinedev/marketplace",
     "gkr-bot/gkr-bot",
     "graveyardsfocrdpktv/ethereum-mempool-bot",
-    "hchiam/learning-gh",
     "hchiam/learning-template",
     "kyverno/community",
     "lab-cosmo/.github",
@@ -71,6 +74,7 @@
     "llvm/torch-mlir-release",
     "nodejs/web-team",
     "nttstar/insightface-resources",
+    "oobabooga/screenshots",
     "openwebdocs/mdn-bcd-results",
     "piebald-ai/piebald-issues",
     "psmux/scoop-omp-manager",

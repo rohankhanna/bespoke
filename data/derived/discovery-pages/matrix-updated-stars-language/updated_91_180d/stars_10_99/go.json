@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 65,
-    "concepts": 91,
-    "observations": 91,
+    "concepts": 92,
+    "observations": 92,
     "repos": 26,
-    "terms": 87
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "4kills/go-libdeflate",
     "apache/incubator-seata-go-samples",
@@ -34,11 +34,11 @@
     "mikespook/possum",
     "objectbox/objectbox-generator",
     "panmari/cuckoofilter",
+    "rose-pine/rose-pine-bloom",
     "roy2220/osc52pty",
     "rpcxio/rpcx-etcd",
     "theplant/htmlgo",
     "urfave/cli-altsrc",
-    "vmware/pmd-next-gen",
     "worlpaker/go-syntax"
   ]
 }

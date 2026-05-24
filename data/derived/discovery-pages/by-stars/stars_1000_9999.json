@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 55149,
-    "concepts": 35833,
-    "observations": 35941,
-    "repos": 6062,
-    "terms": 35723
+    "components": 55156,
+    "concepts": 35864,
+    "observations": 35972,
+    "repos": 6064,
+    "terms": 35753
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -3413,6 +3413,7 @@
     "mamba-org/mamba",
     "mamoe/mirai-console",
     "manateelazycat/lsp-bridge",
+    "mangiucugna/json_repair",
     "mantoni/eslint_d.js",
     "manzaltu/claude-code-ide.el",
     "mapbox/awesome-vector-tiles",
@@ -5918,6 +5919,7 @@
     "xdit-project/xDiT",
     "xerial/snappy-java",
     "XiangLi1999/Diffusion-LM",
+    "xiangyuecn/Recorder",
     "Xilinx/brevitas",
     "xingyizhou/CenterNet",
     "xingyizhou/CenterNet2",

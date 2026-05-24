@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 755,
-    "concepts": 98,
-    "observations": 98,
+    "components": 762,
+    "concepts": 99,
+    "observations": 99,
     "repos": 35,
-    "terms": 107
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "alibaizhanov/openclaw-mengram",
     "analyticsinmotion/wake-word",
@@ -25,7 +25,6 @@
     "curiousdannii/asyncglk",
     "danielrosehill/agent-junction",
     "danielrosehill/GreenInvoice-MCP",
-    "dash0hq/opentelemetry-demo",
     "dreamiurg/mountaineers-assistant",
     "dreamiurg/mountaineers-mcp",
     "dylibso/xtp-cpp-bindgen",
@@ -38,6 +37,7 @@
     "LogtalkDotOrg/logtalk-for-vscode",
     "neuroverseos/neuroverseos-governance",
     "nicolo-ribaudo/engine262",
+    "octokit/auth-unauthenticated.js",
     "octokit/openapi-webhooks",
     "qcr/qcr.github.io",
     "saminiscool/twitter-ai-agent",

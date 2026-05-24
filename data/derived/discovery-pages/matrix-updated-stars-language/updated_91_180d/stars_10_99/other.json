@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 388,
-    "concepts": 285,
-    "observations": 286,
-    "repos": 117,
-    "terms": 285
+    "components": 376,
+    "concepts": 282,
+    "observations": 283,
+    "repos": 116,
+    "terms": 281
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/termim.nvim",
@@ -71,6 +71,7 @@
     "honwen/openwrt-shadowsocks-rust",
     "hspec/sensei",
     "Humans-of-Julia/StaticWebPages.jl",
+    "ImranR98/obtainium.imranr.dev",
     "jaegertracing/docker-protobuf",
     "JamieMair/MuJoCo.jl",
     "JezerM/oil-lsp-diagnostics.nvim",
@@ -80,7 +81,6 @@
     "jpmml/r2pmml",
     "jruby/maven-tools",
     "JuliaGraphics/Cairo.jl",
-    "JuliaGraphics/ColorTypes.jl",
     "JuliaGtk/Gtk4Makie.jl",
     "kigster/puma-daemon",
     "kool-engine/kool-templates",
@@ -93,8 +93,6 @@
     "MichaelHatherly/REPLicant.jl",
     "microsoft/windows-host-process-containers-base-image",
     "MicrosoftDocs/vcpkg-docs",
-    "mirage/ocaml-conduit",
-    "mirage/ocaml-uri",
     "mosn/mosn.io",
     "mvz/non-digest-assets",
     "nelson-lang/nelson-website",
@@ -116,6 +114,7 @@
     "sbcgua/abap-string-map",
     "SciML/SciMLTutorialsOutput",
     "Shopify/quantified",
+    "SqrtMinusOne/eshell-atuin",
     "status-im/nim-json-serialization",
     "status-im/nim-serialization",
     "tc39/proposal-smart-unit-preferences",

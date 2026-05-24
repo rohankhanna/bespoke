@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 161,
-    "concepts": 185,
-    "observations": 185,
-    "repos": 35,
-    "terms": 182
+    "components": 131,
+    "concepts": 165,
+    "observations": 165,
+    "repos": 31,
+    "terms": 162
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "acmesh-official/acmetest",
     "Alexpux/MINGW-packages",
     "Azure/aaz",
-    "bitnami/vulndb",
     "bufbuild/homebrew-buf",
     "Chocolate4U/Iran-clash-rules",
     "cilium/community",
     "cldwalker/dotfiles",
     "cloudfoundry/cf-deployment-concourse-tasks",
-    "crazy-max/goxx",
-    "dependabot/smoke-tests",
     "dotenvx/dotenvx.sh",
     "electerm/electerm-web-docker",
     "envoyproxy/examples",
@@ -34,7 +31,6 @@
     "heroku/heroku-buildpack-dotnet",
     "heroku/heroku-buildpack-gradle",
     "heroku/heroku-buildpack-jvm-common",
-    "iterate-ch/profiles",
     "leleliu008/ppkg",
     "PF4Public/gentoo-overlay",
     "pkgxdev/mash",

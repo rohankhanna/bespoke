@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 50280,
-    "concepts": 34840,
-    "observations": 34945,
-    "repos": 8581,
-    "terms": 34694
+    "components": 50301,
+    "concepts": 34856,
+    "observations": 34961,
+    "repos": 8585,
+    "terms": 34710
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0k/shyaml",
@@ -1233,6 +1233,7 @@
     "bennyxguo/Obsidian-Obsidianite",
     "bensu/doo",
     "benthayer/git-gud",
+    "BenzLeung/benz-amr-recorder",
     "bepu/bepuphysics1",
     "Ber666/ToolkenGPT",
     "berkerpeksag/astor",
@@ -1369,6 +1370,7 @@
     "boostorg/multiprecision",
     "boostorg/nowide",
     "bootmortis/iran-hosted-domains",
+    "bootphon/shennong",
     "bootscore/bootscore",
     "boppreh/mouse",
     "boquila/boquilahub",
@@ -2105,6 +2107,7 @@
     "CSU-Radarmet/CSU_RadarTools",
     "csuhan/OneLLM",
     "csuhan/s2anet",
+    "csukuangfj/kaldi-native-fbank",
     "csurfer/pyheat",
     "cswry/OSEDiff",
     "cswry/SeeSR",
@@ -7476,6 +7479,7 @@
     "SpecterOps/SharpHoundCommon",
     "speechbrain/benchmarks",
     "SpeechColab/GigaSpeech",
+    "SpeechColab/Leaderboard",
     "speechio/chinese_text_normalization",
     "spesmilo/electrumx",
     "spf13/cobra-cli",

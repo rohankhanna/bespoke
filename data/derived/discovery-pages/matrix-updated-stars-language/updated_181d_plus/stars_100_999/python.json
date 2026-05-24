@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1211,
-    "concepts": 5510,
-    "observations": 5515,
-    "repos": 1855,
-    "terms": 5355
+    "components": 1215,
+    "concepts": 5530,
+    "observations": 5535,
+    "repos": 1858,
+    "terms": 5375
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -159,6 +159,7 @@
     "angr/heaphopper",
     "animelover1984/youtube-dl",
     "Anirudh257/strm",
+    "AnonymouX47/term-image",
     "AnswerDotAI/byaldi",
     "antao97/dgcnn.pytorch",
     "antonbabenko/modules.tf-lambda",
@@ -277,6 +278,7 @@
     "boheumd/MA-LMM",
     "bojone/t5_in_bert4keras",
     "bonfy/qiandao",
+    "bootphon/shennong",
     "boppreh/mouse",
     "botaoye/OSTrack",
     "bowang-lab/MedSAM2",
@@ -1591,6 +1593,7 @@
     "sourcery-ai/python-best-practices-cookiecutter",
     "spacewalk01/depth-anything-tensorrt",
     "spcl/QuaRot",
+    "SpeechColab/Leaderboard",
     "speechio/chinese_text_normalization",
     "SSL92/hyperIQA",
     "SSRSGJYD/NeuralTexture",

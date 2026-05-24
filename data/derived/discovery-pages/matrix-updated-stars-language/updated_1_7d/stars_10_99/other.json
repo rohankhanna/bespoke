@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 50,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 5,
-    "terms": 16
+    "components": 43,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 4,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "f3liz-casa/noraneko",
     "jelly-beam/rebar3_ex_doc",
-    "karafka/example-apps",
     "nvim-mini/mini.deps",
     "pivotal/credhub-release"
   ]

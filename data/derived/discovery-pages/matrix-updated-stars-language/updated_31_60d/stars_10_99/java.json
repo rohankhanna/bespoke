@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 148,
-    "concepts": 160,
-    "observations": 162,
-    "repos": 33,
-    "terms": 157
+    "components": 150,
+    "concepts": 150,
+    "observations": 151,
+    "repos": 32,
+    "terms": 148
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "agentclientprotocol/java-sdk",
     "akarnokd/RxJavaFiberInterop",
@@ -27,21 +27,20 @@
     "bobbylight/RSTALanguageSupport",
     "bobbylight/SpellChecker",
     "bsorrentino/java-async-generator",
+    "bufbuild/protovalidate-java",
     "cedar-policy/cedar-java",
     "codelibs/fess-crawler",
     "codetyio/codety-scanner",
     "dart4e/dart4e",
     "enola-dev/enola",
-    "filip26/iridium-cbor-ld",
     "filip26/ld-cli",
     "glaforge/adk-java-maven-template",
     "google/guava-beta-checker",
-    "ipld/java-cid",
+    "googleapis/discovery-artifact-manager",
     "iterate-ch/rococoa",
     "kirill-grouchnikov/ephemeral",
     "kurrent-io/KurrentDB-Client-Java",
     "m2e-code-quality/m2e-code-quality",
-    "multiformats/java-multibase",
     "simonpoole/OpeningHoursFragment",
     "smithy-lang/smithy-dafny",
     "xmlark/msv",

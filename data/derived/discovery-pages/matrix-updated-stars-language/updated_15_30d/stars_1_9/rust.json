@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 187,
-    "concepts": 121,
-    "observations": 122,
-    "repos": 31,
-    "terms": 121
+    "components": 177,
+    "concepts": 114,
+    "observations": 115,
+    "repos": 28,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,17 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "black-desk/djotfmt",
     "bnb-chain/reth-bsc-triedb",
     "bourumir-wyngs/saphyr",
     "criccomini/uniffi-bindgen-node-js",
-    "curiousdannii/remglk-rs",
     "databendlabs/databend-meta",
     "dcampbell24/djot-implementations",
     "decibri/decibri",
     "Dicklesworthstone/franken_agent_detection",
     "EspressoSystems/tide-disco",
-    "eth-act/ere-guests",
-    "facebookexperimental/cxx",
     "flathub-infra/flat-manager-hooks",
     "godot-rust/godot4-prebuilt",
     "hecrj/llama-server",

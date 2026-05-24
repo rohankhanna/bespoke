@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 195,
-    "concepts": 78,
-    "observations": 79,
-    "repos": 20,
-    "terms": 77
+    "components": 229,
+    "concepts": 113,
+    "observations": 114,
+    "repos": 23,
+    "terms": 112
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
-    "adobe-photoshop/generator-core",
+    "AghayeCoder/tx-ui",
+    "ankane/ahoy.js",
     "appbaseio/searchbox",
     "asdf-vm/actions",
     "AssemblyScript/wabt.js",
@@ -29,6 +30,8 @@
     "microsoft/vscode-custom-data",
     "mourner/robust-predicates",
     "npm/abbrev-js",
+    "npm/rfcs",
+    "oblador/react-native-vector-image",
     "RichardLitt/generator-standard-readme",
     "rstudio/DT",
     "TeamMoeAI/MoeSR",

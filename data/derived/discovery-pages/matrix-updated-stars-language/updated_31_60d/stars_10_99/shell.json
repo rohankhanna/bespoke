@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 185,
-    "observations": 188,
-    "repos": 39,
-    "terms": 185
+    "components": 182,
+    "concepts": 205,
+    "observations": 208,
+    "repos": 43,
+    "terms": 205
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
@@ -27,6 +27,7 @@
     "argoproj-labs/argocd-extension-installer",
     "asdf-community/asdf-pdm",
     "beehive-lab/docker-tornadovm",
+    "bitnami/vulndb",
     "bnb-chain/node-deploy",
     "ChainSafe/forest-iac",
     "clojure/brew-install",
@@ -38,11 +39,14 @@
     "confluentinc/cp-demo",
     "containers/automation",
     "containers/automation_images",
+    "crazy-max/goxx",
     "cri-o/packaging",
+    "dependabot/smoke-tests",
     "Digidai/product-manager-skills",
     "flinedev/tandemkit",
     "gentoo-mirror/guru",
     "GoogleCloudPlatform/blueprints",
+    "iterate-ch/profiles",
     "milvus-io/milvus-proto",
     "NixOS/org",
     "nodenv/node-build-update-defs",

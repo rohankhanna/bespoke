@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 199,
-    "concepts": 136,
-    "observations": 138,
-    "repos": 34,
-    "terms": 135
+    "components": 203,
+    "concepts": 139,
+    "observations": 141,
+    "repos": 35,
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
     "arkworks-rs/r1cs-std",
@@ -26,6 +26,7 @@
     "fast/logforth",
     "filecoin-project/rust-fil-proofs",
     "firstbatchxyz/dkn-compute-node",
+    "getsentry/rust-sourcemap",
     "gfx-rs/rspirv",
     "gwihlidal/vk-mem-rs",
     "ItsEthra/typst-live",

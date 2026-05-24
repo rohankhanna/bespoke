@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 186,
-    "concepts": 191,
-    "observations": 194,
+    "components": 199,
+    "concepts": 195,
+    "observations": 198,
     "repos": 34,
-    "terms": 190
+    "terms": 194
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "anordal/shellharden",
@@ -21,6 +21,7 @@
     "atanunq/viu",
     "Byron/dua-cli",
     "Byron/google-apis-rs",
+    "crossbeam-rs/crossbeam",
     "dtolnay/cargo-expand",
     "dtolnay/case-studies",
     "erg-lang/erg",
@@ -41,7 +42,6 @@
     "sachaos/viddy",
     "sagiegurari/cargo-make",
     "sharkdp/diskus",
-    "specta-rs/rspc",
     "tarkah/tickrs",
     "Tencent/tquic",
     "tikv/grpc-rs",

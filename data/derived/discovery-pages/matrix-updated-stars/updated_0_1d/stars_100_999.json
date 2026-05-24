@@ -1,40 +1,31 @@
 {
   "counts": {
-    "components": 272,
-    "concepts": 191,
-    "observations": 191,
-    "repos": 24,
-    "terms": 191
+    "components": 198,
+    "concepts": 99,
+    "observations": 99,
+    "repos": 15,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
-    "15r10nk/inline-snapshot",
     "a2aproject/a2a-js",
     "abaplint/transpiler",
-    "AI-Hypercomputer/maxdiffusion",
-    "all-contributors/app",
     "apalache-mc/apalache",
     "aws-cloudformation/cfn-lint-visual-studio-code",
-    "Comfy-Org/comfy-cli",
+    "bazel-contrib/rules_kotlin",
     "confluentinc/librdkafka",
-    "digitalocean/openapi",
-    "EmmyLuaLs/emmylua-analyzer-rust",
-    "flagos-ai/FlagCX",
-    "hexabot-ai/Hexabot",
-    "ipsilon/evmone",
-    "ldproxy/ldproxy",
-    "matter-js/matter.js",
-    "perrygeo/python-rasterstats",
-    "ROCm/hipBLASLt",
-    "servo/stylo",
-    "spring-projects/spring-tools",
-    "stx-labs/stacks.js",
+    "flagos-ai/FlagScale",
+    "fsprojects/FSharp.Data.GraphQL",
+    "jupyter/nbclassic",
+    "pyrtlsdr/pyrtlsdr",
+    "scverse/rapids-singlecell",
     "SublimeText/AFileIcon",
+    "TinyLLaVA/TinyLLaVA_Factory",
     "yaling888/quirktiva",
     "zh-plus/openlrc"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1075,
-    "concepts": 730,
-    "observations": 735,
-    "repos": 86,
-    "terms": 728
+    "components": 1184,
+    "concepts": 815,
+    "observations": 820,
+    "repos": 94,
+    "terms": 813
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "abpframework/abp",
     "adambard/learnxinyminutes-docs",
     "Alamofire/Alamofire",
+    "AlDanial/cloc",
     "alexandresanlim/Badges4-README.md-Profile",
     "antlr/grammars-v4",
     "apache/spark",
@@ -33,20 +34,24 @@
     "devicons/devicon",
     "dotnet/core",
     "dotnet/csharplang",
+    "dotnet/efcore",
     "dotnet/eShop",
+    "dotnet/orleans",
+    "dotnet/roslyn",
     "dotnet/runtime",
     "elixir-lang/elixir",
     "facebookresearch/dinov2",
     "facebookresearch/dinov3",
     "facebookresearch/sam2",
     "fastai/fastai",
+    "fastlane/fastlane",
     "fatih/vim-go",
     "ghostty-org/ghostty",
     "google-deepmind/deepmind-research",
     "google-gemini/cookbook",
     "google-gemini/gemini-fullstack-langgraph-quickstart",
     "google-research/google-research",
-    "google/dopamine",
+    "google/fonts",
     "google/styleguide",
     "GoogleCloudPlatform/generative-ai",
     "GoogleContainerTools/distroless",
@@ -65,6 +70,7 @@
     "jordansissel/fpm",
     "JuliaLang/julia",
     "junegunn/fzf.vim",
+    "jupyter/notebook",
     "koalaman/shellcheck",
     "Kong/kong",
     "kubernetes/community",
@@ -99,6 +105,8 @@
     "teamcapybara/capybara",
     "tmuxinator/tmuxinator",
     "tonsky/FiraCode",
+    "topjohnwu/Magisk",
+    "vim/vim",
     "winsw/winsw"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 765,
-    "concepts": 700,
-    "observations": 701,
-    "repos": 188,
-    "terms": 695
+    "components": 769,
+    "concepts": 706,
+    "observations": 707,
+    "repos": 189,
+    "terms": 701
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
+    "4d49/scene-library",
     "66RING/tiny-flash-attention",
     "AccountGo/accountgo",
     "aesalazar/AsteroidsWasm",
@@ -41,6 +42,7 @@
     "babashka/scittle",
     "baldowl/rack_csrf",
     "bazeltools/bazel-deps",
+    "beam-telemetry/telemetry_metrics",
     "benbalter/jekyll-include-cache",
     "bfrg/vim-c-cpp-modern",
     "bioinf-jku/TTUR",
@@ -122,7 +124,6 @@
     "JuliaML/MLUtils.jl",
     "JuliaPy/Conda.jl",
     "JuliaStrings/LaTeXStrings.jl",
-    "k-takata/minpac",
     "k0kubun/hamlit",
     "kaarmu/typst.vim",
     "kakajun/vue3-sketch-ruler",
@@ -137,6 +138,7 @@
     "loqusion/typix",
     "lunacookies/vim-colors-xcode",
     "marilari88/neotest-vitest",
+    "mathjax/MathJax-demos-web",
     "megvii-research/HiDiffusion",
     "mfussenegger/nvim-dap-python",
     "microsoft/botbuilder-dotnet",
@@ -146,7 +148,6 @@
     "nghorbani/human_body_prior",
     "nschum/SwiftHamcrest",
     "nvimdev/guard.nvim",
-    "ocaml-wasm/wasm_of_ocaml",
     "olbrich/ruby-units",
     "OpenBMB/CPM.cu",
     "PaulRBerg/foundry-template",
@@ -165,7 +166,7 @@
     "reasonml/reasonml.github.io",
     "renzmann/treesit-auto",
     "rescript-lang/rescript-vscode",
-    "RobotecAI/ros2-for-unity",
+    "ropensci/git2r",
     "ruby-formatter/rufo",
     "saagarjha/unxip",
     "SciML/SciMLTutorials.jl",

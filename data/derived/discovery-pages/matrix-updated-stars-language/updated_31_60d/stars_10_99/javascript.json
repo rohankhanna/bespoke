@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1078,
-    "concepts": 297,
-    "observations": 297,
-    "repos": 84,
-    "terms": 297
+    "components": 1293,
+    "concepts": 350,
+    "observations": 350,
+    "repos": 93,
+    "terms": 350
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
     "ahmadnassri/node-glob-promise",
@@ -69,11 +69,14 @@
     "Level/browser-level",
     "Level/memory-level",
     "locize/i18next-locize-backend",
+    "locize/locize",
     "locize/locize-cli",
+    "locize/locizify",
     "mapbox/node-srs",
     "mapbox/node-tilejson",
     "mapbox/point-geometry",
     "mapbox/tiletype",
+    "mapbox/vtvalidate",
     "milvus-io/community",
     "mypyc/mypy_mypyc-wheels",
     "neverendingqs/serverless-dotenv-example",
@@ -82,6 +85,9 @@
     "nodejs/email",
     "npm/types",
     "nrwl/nx-ai-agents-config",
+    "octokit/app-permissions",
+    "octokit/openapi",
+    "octokit/openapi-types.ts",
     "patrik-csak/auto-terminal-profile",
     "peergos/web-ui",
     "rashfael/eslint-plugin-vue-pug",
@@ -92,8 +98,11 @@
     "sveltejs/eslint-config",
     "Taritsyn/DartSassHost",
     "tc39/proposal-iterator-includes",
+    "tnc-ca-geo/animl-frontend",
     "TrigenSoftware/simple-release-action",
+    "ultralytics/llm",
     "validator/gulp-html",
+    "web-platform-tests/results-analysis",
     "webtorrent/bittorrent-lsd",
     "webtorrent/bittorrent-peerid",
     "wemake-services/wemake-frontend-styleguide",

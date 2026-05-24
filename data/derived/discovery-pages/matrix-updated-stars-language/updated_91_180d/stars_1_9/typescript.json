@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 91,
-    "concepts": 54,
-    "observations": 54,
-    "repos": 13,
-    "terms": 54
+    "components": 107,
+    "concepts": 63,
+    "observations": 63,
+    "repos": 14,
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,18 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
+    "adityasugandhi/skillsync-mcp",
     "Afnanksalal/co-op",
     "aleclarson/vite-postgres",
     "alexpolonsky/agent-skill-strikeradar",
+    "birdofpreyru/js-utils",
     "danielrosehill/MCP-Network-CUPS",
     "gajus/eslint-plugin-slonik",
     "KSXGitHub/cargo-scripts-builder",
     "lxsmnsyc/sponsors",
     "robbiespeed/metron",
-    "scaleway/serverless-functions-node",
     "The-Focus-AI/buttondown-skill",
     "typstyle-rs/typstyle-tampermonkey",
     "vim-fall/deno-fall-extra",

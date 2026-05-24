@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 665,
-    "concepts": 512,
-    "observations": 514,
-    "repos": 141,
-    "terms": 529
+    "components": 688,
+    "concepts": 522,
+    "observations": 524,
+    "repos": 145,
+    "terms": 540
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "4dn-dcic/tibanna",
@@ -33,6 +33,7 @@
     "analyticsinmotion/werpy",
     "angr/archinfo",
     "ankurhanda/robot-assets",
+    "ansible/ansible-compat",
     "ant-research/pointelligence",
     "archlizheng/frontend-slides-editable",
     "Ascend/TransferQueue",
@@ -43,7 +44,6 @@
     "Azure-Samples/azureai-travel-agent-python",
     "beeware/briefcase-template",
     "bentoml/openllm-models",
-    "BirolLab/tigmint",
     "BoosterRobotics/booster_train",
     "browser-use/benchmark",
     "bufbuild/protovalidate-python",
@@ -60,6 +60,7 @@
     "cloudartisan/cloudartisan.github.io",
     "cmake-wheel/cmeel",
     "collinear-ai/yc-bench",
+    "conda-forge/admin-requests",
     "conda-forge/conda-forge-repodata-patches-feedstock",
     "costiash/claude-code-docs",
     "crs4/rocrate-validator",
@@ -69,6 +70,7 @@
     "databrickslabs/pylint-plugin",
     "datajuicer/data-juicer-agents",
     "dathere/datapusher-plus",
+    "DeterminateSystems/determinate-nix-action",
     "devexp-db/distgen",
     "dreamiurg/claude-mountaineering-skills",
     "enjoy-digital/litex-acorn-baseboard",
@@ -92,7 +94,6 @@
     "idodov/RedAlert",
     "intel/ai-containers",
     "intel/vc-intrinsics",
-    "ironArray/Caterva2",
     "iterate-ch/docs",
     "jawah/wassima",
     "JuergenFleiss/atrain_core",
@@ -107,8 +108,10 @@
     "libp2p/test-plans",
     "Looong01/pyg-rocm-build",
     "lucidrains/PoPE-pytorch",
+    "mayeut/pep600_compliance",
     "mborgerson/bintrace",
     "mem0ai/memory-benchmarks",
+    "meta-pytorch/MSLK",
     "metatensor/metatensor",
     "MeteoSwiss/pyart",
     "MeteoSwiss/pyrad",
@@ -120,6 +123,7 @@
     "networkx/nx-parallel",
     "nix-community/nur-update",
     "NixOS/branding",
+    "notofonts/notobuilder",
     "OpenHands/benchmarks",
     "optuna/optuna-integration",
     "optuna/optunahub",

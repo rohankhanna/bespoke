@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 131,
-    "concepts": 87,
-    "observations": 87,
-    "repos": 26,
-    "terms": 92
+    "components": 140,
+    "concepts": 105,
+    "observations": 105,
+    "repos": 28,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "AbsaOSS/external-dns-infoblox-webhook",
     "alexellis/fstail",
@@ -22,6 +22,7 @@
     "aws/amazon-vpc-cni-plugins",
     "bartventer/httpcache",
     "chromedp/pdlgen",
+    "cjkreklow/t38c",
     "cloudfoundry/buildpackapplifecycle",
     "concourse/pool-resource",
     "containerd/release-tool",
@@ -34,9 +35,10 @@
     "hyperledger-labs/yui-relayer",
     "ipfs/go-ipfs-example-plugin",
     "ipfs/go-log",
+    "kurrent-io/KurrentDB-Client-Go",
     "matelang/jwt-go-aws-kms",
     "multiformats/go-varint",
-    "rose-pine/rose-pine-bloom",
+    "OpenCIDN/ocimirror",
     "seaweedfs/seaweedfs-cosi-driver",
     "wzshiming/repimage",
     "zoom/karpenter-oci"

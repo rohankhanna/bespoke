@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 124,
-    "concepts": 173,
-    "observations": 173,
-    "repos": 23,
-    "terms": 171
+    "components": 127,
+    "concepts": 159,
+    "observations": 159,
+    "repos": 21,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "aaron-he-zhu/seo-geo-claude-skills",
     "archlinuxcn/repo",
-    "aurutils/aurutils",
-    "bioconda/bioconda-recipes",
     "bitnami/containers",
     "Botspot/pi-apps",
     "confluentinc/demo-scene",
@@ -36,6 +34,6 @@
     "rocker-org/rocker",
     "sublimehq/Packages",
     "YosysHQ/oss-cad-suite-build",
-    "zsh-users/zsh-completions"
+    "yt-dlp/FFmpeg-Builds"
   ]
 }

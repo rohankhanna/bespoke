@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 382,
-    "concepts": 778,
-    "observations": 779,
-    "repos": 157,
-    "terms": 766
+    "components": 370,
+    "concepts": 749,
+    "observations": 750,
+    "repos": 156,
+    "terms": 738
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "AIDC-AI/Marco-o1",
@@ -20,7 +20,6 @@
     "AILab-CVC/VideoCrafter",
     "alexmojaki/snoop",
     "AlibabaResearch/DAMO-ConvAI",
-    "allenai/OLMo",
     "alteryx/featuretools",
     "andialbrecht/sqlparse",
     "andreafrancia/trash-cli",
@@ -33,6 +32,7 @@
     "baaivision/Emu",
     "baaivision/Emu3",
     "bazelbuild/starlark",
+    "benjaminp/six",
     "BlinkDL/ChatRWKV",
     "breezedeus/CnOCR",
     "buriy/python-readability",
@@ -55,7 +55,6 @@
     "DigitalPhonetics/IMS-Toucan",
     "DLYuanGod/TinyGPT-V",
     "dmayboroda/minima",
-    "docker/docker-py",
     "ekalinin/nodeenv",
     "emilianavt/OpenSeeFace",
     "facebookincubator/submitit",
@@ -83,13 +82,12 @@
     "Instagram/LibCST",
     "intel/ipex-llm",
     "IntelLabs/fastRAG",
-    "InternLM/HuixiangDou",
-    "iver56/torch-audiomentations",
     "jazzband/django-configurations",
     "jessevig/bertviz",
     "junyanz/CatPapers",
     "KaiyangZhou/deep-person-reid",
     "KellerJordan/Muon",
+    "kijai/ComfyUI-WanVideoWrapper",
     "KlingAIResearch/ReCamMaster",
     "layumi/Person_reID_baseline_pytorch",
     "LeCAR-Lab/ASAP",
@@ -170,6 +168,7 @@
     "WenmuZhou/PytorchOCR",
     "willisma/SiT",
     "yeyupiaoling/VoiceprintRecognition-Pytorch",
-    "Yuliang-Liu/Monkey"
+    "Yuliang-Liu/Monkey",
+    "yxlllc/DDSP-SVC"
   ]
 }

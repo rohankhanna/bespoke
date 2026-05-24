@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 281,
-    "concepts": 225,
-    "observations": 226,
-    "repos": 38,
-    "terms": 225
+    "components": 259,
+    "concepts": 191,
+    "observations": 192,
+    "repos": 34,
+    "terms": 191
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "aidenlab/hic-straw",
     "aidenlab/juicebox.js",
@@ -26,7 +26,6 @@
     "browniebroke/pypackage-template",
     "cginternals/cpplocate",
     "diffscope/diffscope-project",
-    "dwyl/mvp",
     "erigontech/mdbx-go",
     "FreneticLLC/FreneticGameEngine",
     "g-plane/raffia",
@@ -45,11 +44,8 @@
     "openjdk/jdk21u",
     "openjdk/jdk21u-dev",
     "processing/processing-website",
-    "rcasia/neotest-java",
     "RiDDiX/home-assistant-addons",
-    "tinted-theming/tinted-xresources",
     "UnknownPlatypus/djangofmt",
-    "version-fox/vfox-plugins",
-    "yulewang97/ERDiff"
+    "version-fox/vfox-plugins"
   ]
 }

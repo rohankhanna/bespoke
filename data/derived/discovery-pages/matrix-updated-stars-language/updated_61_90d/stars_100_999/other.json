@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 654,
-    "concepts": 501,
-    "observations": 503,
+    "components": 655,
+    "concepts": 506,
+    "observations": 508,
     "repos": 122,
-    "terms": 500
+    "terms": 505
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
-    "4d49/scene-library",
+    "actboy168/json.lua",
     "agrafix/elm-bridge",
     "ahyatt/emacs-websocket",
     "ajevans99/swift-json-schema",
@@ -27,10 +27,11 @@
     "aws-ia/terraform-aws-eks-blueprints-addons",
     "aws-samples/prompt-engineering-with-anthropic-claude-v-3",
     "Azure-Samples/azureai-samples",
+    "Azure/appservice-landing-zone-accelerator",
+    "babashka/cli",
     "badges/awesome-badges",
     "bbatsov/super-save",
     "beam-telemetry/telemetry",
-    "beam-telemetry/telemetry_metrics",
     "bhauman/figwheel-main",
     "bhauman/rebel-readline",
     "BKWLD/laravel-pug",
@@ -60,6 +61,7 @@
     "dwyl/elixir-auth-google",
     "dwyl/labels",
     "dwyl/phoenix-liveview-chat-example",
+    "dwyl/phoenix-todo-list-tutorial",
     "elixir-ecto/myxql",
     "elm-explorations/test",
     "ElsaTam/obsidian-fancy-a-story",
@@ -90,7 +92,6 @@
     "lewis6991/hover.nvim",
     "lifepillar/vim-colortemplate",
     "lifepillar/vim-mucomplete",
-    "mathjax/MathJax-demos-web",
     "mcabbott/AxisKeys.jl",
     "metosin/ring-swagger",
     "microsoft/microsoft-performance-toolkit-sdk",
@@ -111,7 +112,6 @@
     "pug-php/pug",
     "queryverse/Query.jl",
     "rejemy/UltraLiteDB",
-    "ropensci/git2r",
     "rubocop/rubocop-performance",
     "sandrohanea/whisper.net",
     "scssphp/scssphp",

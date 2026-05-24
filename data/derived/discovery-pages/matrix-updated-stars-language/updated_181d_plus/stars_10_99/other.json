@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2017,
-    "concepts": 1869,
-    "observations": 1875,
-    "repos": 823,
-    "terms": 1862
+    "components": 2031,
+    "concepts": 1876,
+    "observations": 1882,
+    "repos": 826,
+    "terms": 1869
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x7432/asm-ru",
@@ -476,6 +476,7 @@
     "JuliaDocs/DemoCards.jl",
     "JuliaDocs/FranklinTemplates.jl",
     "JuliaEditorSupport/julia-ts-mode",
+    "JuliaGraphics/ColorTypes.jl",
     "JuliaImages/juliaimages.github.io",
     "JuliaIO/MsgPack.jl",
     "JuliaLang/SoftGlobalScope.jl",
@@ -584,6 +585,8 @@
     "Minxyzgo/MiraiGoChess",
     "miquelmassot/g2o-python-examples",
     "mirage/emile",
+    "mirage/ocaml-conduit",
+    "mirage/ocaml-uri",
     "Misterio77/dotfiles",
     "monatis/german-tts",
     "monolifed/theme16",

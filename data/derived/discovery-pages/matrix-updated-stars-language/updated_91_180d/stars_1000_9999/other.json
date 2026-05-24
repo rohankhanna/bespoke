@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 424,
-    "concepts": 470,
-    "observations": 472,
+    "components": 428,
+    "concepts": 471,
+    "observations": 473,
     "repos": 99,
-    "terms": 473
+    "terms": 474
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "Alexander-Miller/treemacs",
@@ -79,7 +79,6 @@
     "microsoft/mssql-docker",
     "microsoft/Security-101",
     "microsoft/TextWorld",
-    "mislav/will_paginate",
     "monaqa/dial.nvim",
     "mrash/fwknop",
     "myclabs/DeepCopy",
@@ -97,6 +96,7 @@
     "richfelker/musl-cross-make",
     "ruby-i18n/i18n",
     "Samsung/netcoredbg",
+    "sbt/sbt-native-packager",
     "siliconflow/onediff",
     "sindresorhus/Gifski",
     "SmiteshP/nvim-navic",

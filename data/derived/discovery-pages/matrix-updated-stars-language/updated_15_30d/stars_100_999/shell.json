@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 156,
-    "observations": 156,
-    "repos": 26,
-    "terms": 151
+    "components": 103,
+    "concepts": 143,
+    "observations": 143,
+    "repos": 23,
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "2KAbhishek/dots2k",
-    "alexmyczko/fnt",
-    "alpinelinux/aports",
     "amrsa1/Android-Emulator-image",
-    "bnb-chain/bsc-snapshots",
     "Chocolate4U/Iran-v2ray-rules",
     "cloudfoundry/bosh-deployment",
     "harbor-framework/terminal-bench-2",

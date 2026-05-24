@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 279,
-    "concepts": 361,
-    "observations": 361,
-    "repos": 65,
-    "terms": 356
+    "components": 287,
+    "concepts": 362,
+    "observations": 362,
+    "repos": 66,
+    "terms": 357
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "2shady4u/godot-sqlite",
     "adafruit/Adafruit_NeoPixel",
@@ -55,6 +55,7 @@
     "MaskRay/ccls",
     "memononen/nanovg",
     "MIT-SPARK/TEASER-plusplus",
+    "mitsuba-renderer/nanogui",
     "mmorise/World",
     "naelstrof/maim",
     "nfrechette/acl",

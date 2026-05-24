@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1249,
+    "components": 1253,
     "concepts": 532,
     "observations": 534,
-    "repos": 435,
+    "repos": 438,
     "terms": 532
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-23T07:23:00.685421+00:00",
+  "generated_at": "2026-05-24T05:51:44.692497+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -305,6 +305,8 @@
     "kong/proxy-wasm-assemblyscript-rate-limiting",
     "koreader/koreader-artwork",
     "krallin/probminhash",
+    "KSXGitHub/aur-packages-builder-1",
+    "KSXGitHub/aur-packages-builder-2",
     "KSXGitHub/parallel-disk-usage-0.20.0-benchmarks",
     "lace/tri-again",
     "larshp/uccp",
@@ -383,6 +385,7 @@
     "py-cov-action/python-coverage-comment-action-v3-example",
     "QuantuMope/GroundingDINO",
     "radashi-org/radashi-canary",
+    "rasahq/pytest-sanic",
     "redcaps-dataset/pytorch-retinaface",
     "redis-om/redis-om-dotnet",
     "renll/flash-linear-attention",
