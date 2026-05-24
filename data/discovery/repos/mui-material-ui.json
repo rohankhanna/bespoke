@@ -1059,7 +1059,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-24T09:19:52.433998+00:00",
+  "fetched_at": "2026-05-24T18:45:54.018273+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1111,8 +1111,8 @@
     "full_name": "mui/material-ui",
     "html_url": "https://github.com/mui/material-ui",
     "language": "JavaScript",
-    "pushed_at": "2026-05-22T15:30:24Z",
-    "stargazers_count": 98366,
+    "pushed_at": "2026-05-24T14:52:30Z",
+    "stargazers_count": 98369,
     "topics": [
       "design-system",
       "material-design",
@@ -1120,7 +1120,7 @@
       "react",
       "react-components"
     ],
-    "updated_at": "2026-05-24T06:09:32Z"
+    "updated_at": "2026-05-24T17:49:27Z"
   },
   "repo_links": [],
   "terms": [

@@ -353,7 +353,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-24T08:36:09.756588+00:00",
+  "fetched_at": "2026-05-24T18:39:48.245840+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -402,7 +402,7 @@
     "html_url": "https://github.com/xtensor-stack/xtensor",
     "language": "C++",
     "pushed_at": "2026-05-20T09:38:48Z",
-    "stargazers_count": 3736,
+    "stargazers_count": 3735,
     "topics": [
       "c-plus-plus-14",
       "c-plus-plus-17",
@@ -412,7 +412,7 @@
       "tensors",
       "xsimd-library"
     ],
-    "updated_at": "2026-05-23T21:35:16Z"
+    "updated_at": "2026-05-24T17:35:55Z"
   },
   "repo_links": [],
   "terms": [

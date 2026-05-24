@@ -1,21 +1,11 @@
 {
-  "first_seen_at": "2026-05-24T12:36:47.955733+00:00",
-  "last_seen_at": "2026-05-24T12:36:47.955733+00:00",
+  "first_seen_at": "2026-05-24T18:29:15.298835+00:00",
+  "last_seen_at": "2026-05-24T18:29:15.298835+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "babashka/babashka"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "micromatch/micromatch"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "nvm-sh/nvm"
+      "source_repo": "git-quick-stats/git-quick-stats"
     }
   ],
   "term": "bash"
