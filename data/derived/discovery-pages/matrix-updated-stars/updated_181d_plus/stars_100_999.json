@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15336,
-    "concepts": 13851,
-    "observations": 13877,
-    "repos": 4552,
-    "terms": 13629
+    "components": 15341,
+    "concepts": 13852,
+    "observations": 13878,
+    "repos": 4554,
+    "terms": 13636
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -577,6 +577,7 @@
     "baidut/PaQ-2-PiQ",
     "balancer/balancer-core",
     "balazik/ComfyUI-PuLID-Flux",
+    "baldowl/rack_csrf",
     "baofff/Analytic-DPM",
     "baofff/Extended-Analytic-DPM",
     "barisgecer/GANFit",
@@ -1306,7 +1307,6 @@
     "Dominaezzz/kgl",
     "domkm/silk",
     "donasaur/http-proxy-rules",
-    "donydchen/ganimation_replicate",
     "donydchen/mvsplat360",
     "dora-rs/dora-lerobot",
     "dorian3d/DBoW2",
@@ -2534,6 +2534,7 @@
     "krzysztofzablocki/AutomaticSettings",
     "ksachdeva/rethinking-tensorflow-probability",
     "ksuid/ksuid",
+    "ku1ik/rainbow",
     "kubeflow/fairing",
     "kubeflow/pytorch-operator",
     "kubemod/kubemod",
@@ -3740,6 +3741,7 @@
     "rust-lang/unsafe-code-guidelines",
     "rust-rse/reed-solomon-erasure",
     "rust-secure-code/safety-dance",
+    "rust-windowing/gl-rs",
     "rust3ds/ctru-rs-old",
     "RustAudio/lewton",
     "RustPython/Parser",

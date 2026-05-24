@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 55,
-    "observations": 55,
-    "repos": 17,
-    "terms": 55
+    "components": 66,
+    "concepts": 53,
+    "observations": 53,
+    "repos": 16,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "alphagov/govuk-rfcs",
     "Ayaginu-Sue/Astalia",
@@ -27,7 +27,6 @@
     "sakib-m/Pi-hole-Torrent-Blocklist",
     "sigstore/root-signing-staging",
     "spiffe/spire-examples",
-    "spring-projects/spring-ai-integration-tests",
     "standardrb/standard-ruby-action",
     "universal-ctags/ctags-nightly-build",
     "uxlfoundation/foundation"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2165,
-    "concepts": 2586,
-    "observations": 2592,
-    "repos": 349,
-    "terms": 2584
+    "components": 2191,
+    "concepts": 2612,
+    "observations": 2619,
+    "repos": 353,
+    "terms": 2610
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "2U1/Qwen-VL-Series-Finetune",
@@ -128,6 +128,7 @@
     "google-deepmind/bsuite",
     "google-deepmind/mujoco_menagerie",
     "google-research/FLAN",
+    "google-research/scenic",
     "google-research/t5x",
     "google/adk-samples",
     "google/clusterfuzz",
@@ -163,7 +164,6 @@
     "intel/auto-round",
     "intel/intel-extension-for-pytorch",
     "intel/neural-compressor",
-    "intelligent-machine-learning/dlrover",
     "InternLM/lmdeploy",
     "InternLM/Tutorial",
     "InternLM/xtuner",
@@ -209,6 +209,7 @@
     "ltdrdata/ComfyUI-Impact-Pack",
     "m87-labs/moondream",
     "mbailey/voicemode",
+    "meituan-longcat/LongCat-Video",
     "meta-pytorch/attention-gym",
     "mherrmann/helium",
     "MichaelGrupp/evo",
@@ -250,6 +251,7 @@
     "nousresearch/atropos",
     "NovaSky-AI/SkyRL",
     "NVIDIA-NeMo/DataDesigner",
+    "NVIDIA-NeMo/RL",
     "NVIDIA/apex",
     "NVIDIA/flownet2-pytorch",
     "NVIDIA/TransformerEngine",
@@ -261,8 +263,8 @@
     "open-thought/reasoning-gym",
     "OpenBMB/UltraRAG",
     "opendatalab/labelU",
-    "OpenGVLab/InternVideo",
     "OpenRLHF/OpenRLHF",
+    "openvinotoolkit/nncf",
     "PaddlePaddle/PaddleClas",
     "PaddlePaddle/PaddleX",
     "ParisNeo/lollms-webui",
@@ -313,6 +315,7 @@
     "rusty1s/pytorch_sparse",
     "sanderland/katrain",
     "scrapy-plugins/scrapy-playwright",
+    "secretflow/secretflow",
     "shapely/shapely",
     "shenweichen/DeepCTR-Torch",
     "shenweichen/DeepMatch",
@@ -362,6 +365,7 @@
     "ymcui/Chinese-ELECTRA",
     "ymcui/Chinese-LLaMA-Alpaca-2",
     "ymcui/Chinese-XLNet",
+    "Yuliang-Liu/MonkeyOCR",
     "yzhao062/pyod"
   ]
 }

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 67,
+    "components": 68,
     "concepts": 110,
     "observations": 110,
-    "repos": 30,
+    "repos": 32,
     "terms": 110
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
     "alchaincyf/zhangxuefeng-skill",
@@ -21,6 +21,7 @@
     "bbatsov/clojure-style-guide",
     "bbatsov/emacs-lisp-style-guide",
     "behisecc/awesome-claude-skills",
+    "CocoaPods/Specs",
     "CVEProject/cvelistV5",
     "dotnet/docs",
     "esbatmop/MNBVC",
@@ -33,6 +34,7 @@
     "libp2p/specs",
     "macfuse/macfuse",
     "mapbox/awesome-vector-tiles",
+    "meituan-longcat/LongCat-Flash-Chat",
     "MicrosoftDocs/WSL",
     "pditommaso/awesome-pipeline",
     "QwenLM/Qwen3.6",

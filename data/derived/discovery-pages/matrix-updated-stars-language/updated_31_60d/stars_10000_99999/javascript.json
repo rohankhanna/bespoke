@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2987,
-    "concepts": 515,
-    "observations": 518,
-    "repos": 72,
-    "terms": 518
+    "components": 3104,
+    "concepts": 541,
+    "observations": 544,
+    "repos": 74,
+    "terms": 544
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "ai/nanoid",
     "ajaxorg/ace",
@@ -32,6 +32,7 @@
     "cure53/DOMPurify",
     "debug-js/debug",
     "decaporg/decap-cms",
+    "electerm/electerm",
     "electron/minimal-repro",
     "expressjs/express",
     "eyaltoledano/claude-task-master",
@@ -68,6 +69,7 @@
     "pot-app/pot-desktop",
     "prettier/prettier",
     "PrismJS/prism",
+    "protobufjs/protobuf.js",
     "reactjs/react.dev",
     "remy/nodemon",
     "rollup/rollup",

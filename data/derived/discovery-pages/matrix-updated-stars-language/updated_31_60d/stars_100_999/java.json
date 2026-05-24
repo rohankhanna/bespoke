@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 207,
-    "concepts": 295,
-    "observations": 295,
-    "repos": 40,
-    "terms": 295
+    "components": 213,
+    "concepts": 303,
+    "observations": 303,
+    "repos": 41,
+    "terms": 303
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "apache/camel-examples",
@@ -43,6 +43,7 @@
     "microsoft/Generative-AI-for-beginners-java",
     "microsoft/java-debug",
     "microsoft/semantic-kernel-java",
+    "milvus-io/milvus-sdk-java",
     "mockingbot/react-native-zip-archive",
     "mukel/llama3.java",
     "objectbox/objectbox-examples",

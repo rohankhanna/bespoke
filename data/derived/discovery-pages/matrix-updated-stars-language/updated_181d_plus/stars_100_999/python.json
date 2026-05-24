@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1215,
-    "concepts": 5530,
-    "observations": 5535,
-    "repos": 1858,
-    "terms": 5375
+    "concepts": 5521,
+    "observations": 5526,
+    "repos": 1857,
+    "terms": 5369
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -514,7 +514,6 @@
     "django/channels_redis",
     "dmis-lab/bioasq-biobert",
     "doc-doc/NExT-QA",
-    "donydchen/ganimation_replicate",
     "donydchen/mvsplat360",
     "dora-rs/dora-lerobot",
     "dougbrion/pytorch-classification-uncertainty",

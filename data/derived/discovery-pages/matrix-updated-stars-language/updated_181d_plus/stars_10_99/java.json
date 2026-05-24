@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 112,
-    "concepts": 165,
-    "observations": 165,
-    "repos": 73,
-    "terms": 165
+    "components": 116,
+    "concepts": 167,
+    "observations": 167,
+    "repos": 74,
+    "terms": 167
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "abapGit/ADT_Frontend",
     "abilian/abilian-sbe",
@@ -39,6 +39,7 @@
     "DerekCook/CoreMidi4J",
     "dgileadi/dg.jdt.ls.decompiler",
     "didalgolab/ai-intellij-plugin",
+    "du00cs/json-repairj",
     "eclipse-acute/aCute",
     "eclipse-archived/dartboard",
     "editorconfig/editorconfig-core-java",

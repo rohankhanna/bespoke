@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 50301,
-    "concepts": 34856,
-    "observations": 34961,
-    "repos": 8585,
+    "concepts": 34847,
+    "observations": 34952,
+    "repos": 8584,
     "terms": 34710
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0k/shyaml",
@@ -2502,7 +2502,6 @@
     "donasaur/http-proxy-rules",
     "dongjae0107/ELite",
     "donut-party/system",
-    "donydchen/ganimation_replicate",
     "donydchen/mvsplat360",
     "doolijb/serene-pub",
     "dop251/goja_nodejs",

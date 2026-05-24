@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 9,
-    "terms": 51
+    "components": 35,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 8,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "altschuler/imgui-knobs",
     "apache/casbin-cpp",
@@ -21,7 +21,6 @@
     "DISTRHO/DPF",
     "kiron1/bazel-compile-commands",
     "microsoft/MIDI",
-    "ROCm/rocBLAS",
-    "yoshoku/llama_cpp.rb"
+    "ROCm/rocBLAS"
   ]
 }

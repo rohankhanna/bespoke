@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11715,
-    "concepts": 6720,
-    "observations": 6735,
-    "repos": 3215,
-    "terms": 6678
+    "components": 11724,
+    "concepts": 6722,
+    "observations": 6737,
+    "repos": 3217,
+    "terms": 6680
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -1120,6 +1120,7 @@
     "dskkato/rjo",
     "dslisleedh/IGConv",
     "dslisleedh/PLKSR",
+    "du00cs/json-repairj",
     "dubbogo/dubbo-go-benchmark",
     "ducnt9907/ColonFormer",
     "dukesoferl/re2",
@@ -1859,6 +1860,7 @@
     "juneedahamed/vc.vim",
     "junjiehe96/AnyStory",
     "jupyter-server/team-compass",
+    "jupyter-xeus/xeus-javascript",
     "jupyterlab/extension-cookiecutter-js",
     "jupyterlab/mimerender-cookiecutter-ts",
     "justinjfu/doodad",
@@ -2992,7 +2994,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",

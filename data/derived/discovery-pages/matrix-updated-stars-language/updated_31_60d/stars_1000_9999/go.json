@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1654,
-    "concepts": 1603,
-    "observations": 1608,
-    "repos": 206,
-    "terms": 1605
+    "components": 1674,
+    "concepts": 1598,
+    "observations": 1603,
+    "repos": 207,
+    "terms": 1600
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
     "actions/actions-runner-controller",
     "AdguardTeam/dnsproxy",
+    "akuity/kargo",
     "alecthomas/chroma",
     "alexellis/arkade",
     "alibaba/higress",
+    "allegro/bigcache",
     "anacrolix/torrent",
     "apache/dubbo-admin",
     "apache/dubbo-go",
@@ -28,7 +30,6 @@
     "appleboy/gorush",
     "apptainer/apptainer",
     "aquasecurity/starboard",
-    "aquasecurity/tfsec",
     "aquasecurity/trivy-operator",
     "ariga/atlas",
     "arl/statsviz",

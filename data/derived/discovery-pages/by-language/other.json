@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 26323,
+    "components": 26324,
     "concepts": 22665,
     "observations": 22737,
-    "repos": 5612,
-    "terms": 22603
+    "repos": 5611,
+    "terms": 22608
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -1112,6 +1112,7 @@
     "cgrindel/bazel-starlib",
     "cgrindel/rules_swift_package_manager",
     "cgrindel/rules_swiftformat",
+    "cgxjdzz/jsonRepair",
     "Ch4t4r/Nebulo",
     "chainguard-dev/rules_apko",
     "chainguard-images/images",
@@ -3134,9 +3135,7 @@
     "kakaobrain/rq-vae-transformer",
     "kalbasit/nur-packages",
     "kaminari/kaminari",
-    "kaminari/kaminari-data_mapper",
     "kaminari/kaminari-grape",
-    "kaminari/kaminari-mongo_mapper",
     "kan-bayashi/ParallelWaveGAN",
     "kana/vim-altr",
     "kana/vim-flavor",

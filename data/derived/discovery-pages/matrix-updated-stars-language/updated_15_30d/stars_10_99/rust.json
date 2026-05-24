@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 377,
-    "concepts": 247,
-    "observations": 248,
-    "repos": 50,
-    "terms": 246
+    "components": 366,
+    "concepts": 243,
+    "observations": 244,
+    "repos": 48,
+    "terms": 242
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "abusch/nu_plugin_semver",
     "AccessKit/accesskit-c",
-    "ankane/delta-ruby",
-    "ankane/iceberg-ruby",
     "apollographql/federation-rs",
     "arkworks-rs/std",
     "asny/three-d-asset",

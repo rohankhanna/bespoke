@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 790,
-    "concepts": 812,
-    "observations": 813,
-    "repos": 133,
-    "terms": 809
+    "components": 769,
+    "concepts": 778,
+    "observations": 779,
+    "repos": 128,
+    "terms": 776
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -54,7 +54,6 @@
     "flexivrobotics/flexiv_rdk",
     "foldl/chatllm.cpp",
     "freetype/freetype",
-    "ganelson/inweb",
     "garglk/garglk",
     "gazebosim/sdformat",
     "gisbi-kim/removert",
@@ -96,7 +95,6 @@
     "LunarG/VulkanTools",
     "mapnik/node-mapnik",
     "Mercury13/unicodia",
-    "microsoft/WindowsAppSDK-Samples",
     "msoos/cryptominisat",
     "murat-dogan/node-datachannel",
     "nelson-lang/nelson",
@@ -109,11 +107,9 @@
     "open-telemetry/opentelemetry-dotnet-instrumentation",
     "open-telemetry/opentelemetry-ebpf-instrumentation",
     "openSUSE/libsolv",
-    "openvinotoolkit/model_server",
     "OpenVisualCloud/Media-Transport-Library",
     "optiscaler/OptiPatcher",
     "ouster-lidar/ouster-ros",
-    "pantoniou/libfyaml",
     "pkgxdev/pantry",
     "pqrs-org/Karabiner-DriverKit-VirtualHIDDevice",
     "pygobject/pycairo",
@@ -122,7 +118,6 @@
     "rmagick/rmagick",
     "robotology/yarp",
     "ROCm/AMDMIGraphX",
-    "ROCm/mori",
     "ROCm/rccl",
     "ROCm/rocm-systems",
     "ros/urdfdom",
@@ -130,7 +125,6 @@
     "rspatial/terra",
     "ruby/prism",
     "samtools/htslib",
-    "secretflow/heu",
     "secretflow/spu",
     "shader-slang/slang-rhi",
     "snowballstem/snowball",
@@ -146,6 +140,7 @@
     "Unidata/netcdf-c",
     "uxlfoundation/oneDAL",
     "uxlfoundation/oneDPL",
-    "VectorDB-NTU/RaBitQ-Library"
+    "VectorDB-NTU/RaBitQ-Library",
+    "yoshoku/llama_cpp.rb"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 479,
-    "concepts": 610,
-    "observations": 612,
-    "repos": 55,
-    "terms": 606
+    "components": 455,
+    "concepts": 562,
+    "observations": 563,
+    "repos": 50,
+    "terms": 559
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "apache/thrift",
-    "arangodb/arangodb",
     "asmvik/yabai",
     "assimp/assimp",
     "baldurk/renderdoc",
@@ -38,8 +37,6 @@
     "espressif/esp-idf",
     "FFmpeg/FFmpeg",
     "google-deepmind/mujoco",
-    "google/filament",
-    "grpc/grpc",
     "h2o/h2o",
     "ImageMagick/ImageMagick",
     "iovisor/bcc",
@@ -53,13 +50,11 @@
     "LostRuins/koboldcpp",
     "lz4/lz4",
     "micropython/micropython",
-    "microsoft/STL",
     "mongodb/mongo",
     "oceanbase/oceanbase",
     "opencv/opencv",
     "openframeworks/openFrameworks",
     "openvinotoolkit/openvino",
-    "PaddlePaddle/Paddle",
     "PointCloudLibrary/pcl",
     "qmk/qmk_firmware",
     "SerenityOS/serenity",

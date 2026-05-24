@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 131,
-    "concepts": 165,
-    "observations": 165,
-    "repos": 31,
-    "terms": 162
+    "components": 122,
+    "concepts": 161,
+    "observations": 161,
+    "repos": 29,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "acmesh-official/acmetest",
     "Alexpux/MINGW-packages",
-    "Azure/aaz",
     "bufbuild/homebrew-buf",
     "Chocolate4U/Iran-clash-rules",
     "cilium/community",
@@ -24,7 +23,6 @@
     "cloudfoundry/cf-deployment-concourse-tasks",
     "dotenvx/dotenvx.sh",
     "electerm/electerm-web-docker",
-    "envoyproxy/examples",
     "fcshark-org/route-list",
     "gpac/testsuite",
     "helidon-io/helidon-examples",

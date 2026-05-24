@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 180,
-    "concepts": 92,
-    "observations": 95,
-    "repos": 23,
-    "terms": 91
+    "components": 192,
+    "concepts": 101,
+    "observations": 104,
+    "repos": 25,
+    "terms": 100
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "a16z/helios",
     "allan2/dotenvy",
@@ -20,8 +20,10 @@
     "David-OConnor/pyflow",
     "dtolnay/anyhow",
     "dtolnay/proc-macro-workshop",
+    "dtolnay/quote",
     "dtolnay/thiserror",
     "google/argh",
+    "google/tarpc",
     "gyscos/cursive",
     "haleclipse/ccometixline",
     "ImageOptim/gifski",

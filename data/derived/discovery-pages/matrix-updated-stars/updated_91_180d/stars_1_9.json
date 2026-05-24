@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 677,
-    "concepts": 366,
-    "observations": 367,
-    "repos": 208,
-    "terms": 377
+    "components": 694,
+    "concepts": 375,
+    "observations": 376,
+    "repos": 209,
+    "terms": 386
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -188,6 +188,7 @@
     "simonpoole/geocontext",
     "slunsford/coffee-analytics",
     "sp1-patches/curve25519-dalek-ng",
+    "stephanj/sonarlint-devoxxgenie-intellij",
     "stephanj/spotbugs-devoxxgenie-plugin",
     "tahv/typos-gitlab-code-quality",
     "tensorchord/VectorChord-images",

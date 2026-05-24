@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1026,
-    "concepts": 1011,
-    "observations": 1015,
-    "repos": 91,
-    "terms": 995
+    "components": 1036,
+    "concepts": 1025,
+    "observations": 1029,
+    "repos": 92,
+    "terms": 1009
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -66,6 +66,7 @@
     "hashicorp/terraform",
     "hashicorp/vault",
     "hibiken/asynq",
+    "jaegertracing/jaeger",
     "jesseduffield/lazygit",
     "Jguer/yay",
     "junegunn/fzf",

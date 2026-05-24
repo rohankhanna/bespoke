@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1756,
-    "concepts": 1943,
-    "observations": 1949,
-    "repos": 209,
-    "terms": 1930
+    "components": 1722,
+    "concepts": 1890,
+    "observations": 1895,
+    "repos": 203,
+    "terms": 1877
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "abhiTronix/vidgear",
@@ -81,7 +81,6 @@
     "google-deepmind/mujoco_playground",
     "google-deepmind/mujoco_warp",
     "google-deepmind/sonnet",
-    "google-research/scenic",
     "gpustack/gpustack",
     "h5py/h5py",
     "hacs/integration",
@@ -109,7 +108,6 @@
     "lucidrains/x-transformers",
     "magenta/ddsp",
     "mapillary/OpenSfM",
-    "meituan-longcat/LongCat-Video",
     "mesonbuild/meson",
     "meta-pytorch/data",
     "meta-pytorch/torchrec",
@@ -134,7 +132,6 @@
     "neo4j/neo4j-python-driver",
     "nerfstudio-project/gsplat",
     "newton-physics/newton",
-    "NVIDIA-NeMo/RL",
     "NVIDIA/Isaac-GR00T",
     "NVIDIA/Model-Optimizer",
     "NVIDIA/warp",
@@ -147,7 +144,6 @@
     "open-telemetry/opentelemetry-python",
     "open-telemetry/opentelemetry-python-contrib",
     "OpenDroneMap/ODM",
-    "openvinotoolkit/nncf",
     "openvinotoolkit/open_model_zoo",
     "openvpi/DiffSinger",
     "OptimalScale/LMFlow",
@@ -184,7 +180,6 @@
     "RLinf/RLinf",
     "roboflow/inference",
     "scikit-image/scikit-image",
-    "secretflow/secretflow",
     "shenweichen/DeepCTR",
     "shenweichen/GraphEmbedding",
     "shibing624/MedicalGPT",
@@ -221,7 +216,6 @@
     "xbpeng/MimicKit",
     "xdit-project/xDiT",
     "xorbitsai/inference",
-    "Yuliang-Liu/MonkeyOCR",
     "zarr-developers/zarr-python"
   ]
 }

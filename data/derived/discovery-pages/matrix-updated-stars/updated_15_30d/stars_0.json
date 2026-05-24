@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 201,
-    "concepts": 125,
-    "observations": 125,
-    "repos": 93,
-    "terms": 125
+    "components": 190,
+    "concepts": 114,
+    "observations": 114,
+    "repos": 90,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "abdeladim-s/pywhispercpp",
@@ -95,16 +95,13 @@
     "netdur/imaged-sdk-examples",
     "NightWatcher314/dockgecli",
     "NightWatcher314/npmctl",
-    "nodenv/node-build-prerelease",
     "qiayuanl/unitree_buildfarm",
-    "regro/cf-graph-countyfair",
     "seanmacavaney/ir-datasets.com",
     "sp1-patches/elliptic-curves",
     "squidowl/iced",
     "stable-haskell/haskell-language-server",
     "Strivin0311/strivin0311.github.io",
     "superfarther/K2V",
-    "TransferQueue/community_doc",
     "UnknownPlatypus/markup_fmt"
   ]
 }

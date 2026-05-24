@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 189,
-    "concepts": 223,
-    "observations": 224,
-    "repos": 34,
-    "terms": 222
+    "components": 196,
+    "concepts": 230,
+    "observations": 231,
+    "repos": 35,
+    "terms": 229
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "argoproj-labs/argocd-rbac-operator",
@@ -42,6 +42,7 @@
     "maykonlsf/semver-cli",
     "mholt/archives",
     "MicahParks/keyfunc",
+    "multiformats/go-multiaddr",
     "node-real/bsc-erigon",
     "oceanbase/ob-operator",
     "phodal/coca",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4106,
-    "concepts": 776,
-    "observations": 776,
-    "repos": 145,
-    "terms": 837
+    "components": 4167,
+    "concepts": 798,
+    "observations": 798,
+    "repos": 147,
+    "terms": 859
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "43081j/picoquery",
@@ -35,7 +35,9 @@
     "avli/clojureVSCode",
     "aws-actions/aws-secretsmanager-get-secrets",
     "aws-samples/dify-self-hosted-on-aws",
+    "aws-samples/swift-chat",
     "aws/aws-iot-device-sdk-js-v2",
+    "azat-io/eslint-plugin-de-morgan",
     "Azure/cli",
     "Azure/login",
     "babel/website",
@@ -57,6 +59,7 @@
     "DeterminateSystems/nix-installer-action",
     "devcontainers/ci",
     "dezoito/ollama-grid-search",
+    "docker/bake-action",
     "docker/setup-qemu-action",
     "EclipseFdn/open-vsx.org",
     "elizaos/elizaos.github.io",
@@ -66,7 +69,6 @@
     "fannheyward/coc-sql",
     "fannheyward/create-coc-extension",
     "fastify/demo",
-    "filllabs/dependi",
     "giselles-ai/giselle",
     "github/local-action",
     "google/adk-web",

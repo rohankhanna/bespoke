@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-24T05:51:44.692497+00:00`
+Generated at: `2026-05-24T09:49:57.442696+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 17
-- components: 10
-- concepts: 17
-- observations: 17
+- repos: 1
+- terms: 0
+- components: 0
+- concepts: 0
+- observations: 0
 
 ## Static behavior
 
@@ -26,12 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [crc-org/crc](https://github.com/crc-org/crc) | 1384 | 2026-05-23T08:15:26Z | Go | Infrastructure/tooling | 17 | 10 | 17 | 17 |
-| [googleapis/google-api-go-client](https://github.com/googleapis/google-api-go-client) | 4440 | 2026-05-23T07:36:51Z | Go | Service/API | 0 | 0 | 0 | 0 |
+| [googleapis/google-api-go-client](https://github.com/googleapis/google-api-go-client) | 4440 | 2026-05-24T07:38:49Z | Go | Service/API | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [googleapis/google-api-go-client](https://github.com/googleapis/google-api-go-client) | 4440 | 2026-05-23T07:36:51Z | Go | Service/API | 0 | 0 | 0 | 0 |
-| [crc-org/crc](https://github.com/crc-org/crc) | 1384 | 2026-05-23T08:15:26Z | Go | Infrastructure/tooling | 17 | 10 | 17 | 17 |
+| [googleapis/google-api-go-client](https://github.com/googleapis/google-api-go-client) | 4440 | 2026-05-24T07:38:49Z | Go | Service/API | 0 | 0 | 0 | 0 |

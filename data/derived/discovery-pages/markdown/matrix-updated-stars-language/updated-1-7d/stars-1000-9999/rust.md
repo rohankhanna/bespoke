@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-24T05:51:44.692497+00:00`
+Generated at: `2026-05-24T09:49:57.442696+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 4
-- terms: 33
-- components: 47
-- concepts: 33
-- observations: 33
+- terms: 29
+- components: 68
+- concepts: 29
+- observations: 29
 
 ## Static behavior
 
@@ -26,8 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff) | 6266 | 2026-05-22T19:35:17Z | Rust | Infrastructure/tooling | 11 | 23 | 11 | 11 |
-| [ash-rs/ash](https://github.com/ash-rs/ash) | 2269 | 2026-05-20T11:47:53Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [intentee/paddler](https://github.com/intentee/paddler) | 1572 | 2026-05-23T06:49:47Z | Rust | Infrastructure/tooling | 7 | 44 | 7 | 7 |
+| [ash-rs/ash](https://github.com/ash-rs/ash) | 2271 | 2026-05-20T11:47:53Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1561 | 2026-05-20T09:18:54Z | Rust | Infrastructure/tooling | 9 | 17 | 9 | 9 |
 | [hermit-os/hermit-rs](https://github.com/hermit-os/hermit-rs) | 1920 | 2026-05-19T12:40:59Z | Rust | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 
@@ -35,7 +35,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff) | 6266 | 2026-05-22T19:35:17Z | Rust | Infrastructure/tooling | 11 | 23 | 11 | 11 |
-| [ash-rs/ash](https://github.com/ash-rs/ash) | 2269 | 2026-05-20T11:47:53Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [ash-rs/ash](https://github.com/ash-rs/ash) | 2271 | 2026-05-20T11:47:53Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [hermit-os/hermit-rs](https://github.com/hermit-os/hermit-rs) | 1920 | 2026-05-19T12:40:59Z | Rust | Infrastructure/tooling | 10 | 5 | 10 | 10 |
+| [intentee/paddler](https://github.com/intentee/paddler) | 1572 | 2026-05-23T06:49:47Z | Rust | Infrastructure/tooling | 7 | 44 | 7 | 7 |
 | [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1561 | 2026-05-20T09:18:54Z | Rust | Infrastructure/tooling | 9 | 17 | 9 | 9 |

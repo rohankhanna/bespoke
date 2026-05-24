@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1218,
-    "concepts": 1238,
-    "observations": 1238,
-    "repos": 145,
-    "terms": 1230
+    "components": 1187,
+    "concepts": 1202,
+    "observations": 1202,
+    "repos": 140,
+    "terms": 1194
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
@@ -48,14 +48,12 @@
     "eclipse-sumo/sumo",
     "elfmz/far2l",
     "facebook/fbthrift",
-    "facebook/igl",
     "facebook/mvfst",
     "facebook/proxygen",
     "facebook/wangle",
     "facebookincubator/fizz",
     "facebookincubator/katran",
     "Farama-Foundation/Arcade-Learning-Environment",
-    "FEniCS/dolfinx",
     "flashrom/flashrom",
     "flightlessmango/MangoHud",
     "FluidSynth/fluidsynth",
@@ -97,11 +95,9 @@
     "microsoft/DirectML",
     "microsoft/DirectXTex",
     "microsoft/DirectXTK",
-    "microsoft/DirectXTK12",
     "microsoft/onnxruntime-genai",
     "microsoft/SPTAG",
     "miniupnp/miniupnp",
-    "mintty/mintty",
     "mkazhdan/PoissonRecon",
     "mruby/mruby",
     "mstorsjo/llvm-mingw",
@@ -124,7 +120,6 @@
     "PixarAnimationStudios/OpenUSD",
     "PoseLib/PoseLib",
     "PRBonn/kiss-icp",
-    "pytorch/FBGEMM",
     "qt-creator/qt-creator",
     "RainerKuemmerle/g2o",
     "realsenseai/librealsense",

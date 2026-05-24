@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 12,
-    "terms": 9
+    "components": 16,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 13,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "aaronrsun/spec-kit-confluence",
     "conda-forge/blis-feedstock",
@@ -25,6 +25,7 @@
     "danielrosehill/Local-Claude-Plugin-Install-Research",
     "DeepWok/mase-docker",
     "edward3h/bedrock-viz-from-backups",
-    "gerardtschanz/revenue-os"
+    "gerardtschanz/revenue-os",
+    "nodenv/node-build-prerelease"
   ]
 }

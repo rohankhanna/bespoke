@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4822,
-    "concepts": 990,
-    "observations": 994,
-    "repos": 86,
-    "terms": 988
+    "components": 4634,
+    "concepts": 972,
+    "observations": 976,
+    "repos": 85,
+    "terms": 970
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
@@ -26,7 +26,6 @@
     "aws/aws-cdk",
     "BabylonJS/Babylon.js",
     "better-auth/better-auth",
-    "bitwarden/clients",
     "bokeh/bokeh",
     "bytedance/UI-TARS-desktop",
     "calcom/cal.diy",

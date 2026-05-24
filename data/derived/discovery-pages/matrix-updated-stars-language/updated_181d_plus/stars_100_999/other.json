@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2234,
-    "concepts": 3026,
-    "observations": 3033,
-    "repos": 957,
-    "terms": 3010
+    "components": 2238,
+    "concepts": 3032,
+    "observations": 3039,
+    "repos": 959,
+    "terms": 3016
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -115,6 +115,7 @@
     "bagrat/vim-buffet",
     "baidut/PaQ-2-PiQ",
     "balancer/balancer-core",
+    "baldowl/rack_csrf",
     "barsoom/traco",
     "baygeldin/tantiny",
     "bazelbuild/platforms",
@@ -532,6 +533,7 @@
     "krrish94/chamferdist",
     "krzysztofzablocki/AutomaticSettings",
     "ksachdeva/rethinking-tensorflow-probability",
+    "ku1ik/rainbow",
     "kubeflow/fairing",
     "kubeflow/pytorch-operator",
     "kubernetes/design-proposals-archive",

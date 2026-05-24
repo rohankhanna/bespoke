@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 160,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 4,
-    "terms": 44
+    "components": 282,
+    "concepts": 82,
+    "observations": 84,
+    "repos": 6,
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "googleapis/google-api-nodejs-client",
     "HumanSignal/label-studio",
+    "jestjs/jest",
     "realworld-apps/realworld",
+    "storybookjs/storybook",
     "unocss/unocss"
   ]
 }

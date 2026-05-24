@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3063,
-    "concepts": 657,
-    "observations": 657,
-    "repos": 102,
-    "terms": 654
+    "components": 3107,
+    "concepts": 676,
+    "observations": 676,
+    "repos": 103,
+    "terms": 673
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "acss-io/atomizer",
@@ -90,6 +90,7 @@
     "pmmmwh/react-refresh-webpack-plugin",
     "postcss/postcss-nested",
     "proj4js/proj4js",
+    "release-it/release-it",
     "reZach/secure-electron-template",
     "rgthree/rgthree-comfy",
     "RichardLitt/standard-readme",

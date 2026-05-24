@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 701,
-    "concepts": 510,
-    "observations": 512,
-    "repos": 60,
-    "terms": 499
+    "components": 650,
+    "concepts": 472,
+    "observations": 473,
+    "repos": 57,
+    "terms": 460
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "ag2s20150909/TTS",
     "Aleph-Alpha/ts-rs",
@@ -19,7 +19,6 @@
     "apache/casbin-Casbin.NET",
     "apache/casbin-rs",
     "awslabs/aidlc-workflows",
-    "babashka/babashka",
     "beam-community/elixir-companies",
     "benchflow-ai/skillsbench",
     "can1357/oh-my-pi",
@@ -41,7 +40,6 @@
     "iree-org/iree",
     "jasonlong/isometric-contributions",
     "java-native-access/jna",
-    "junhoyeo/tokscale",
     "junit-team/junit-framework",
     "Koenkk/zigbee-herdsman-converters",
     "lightning/bolts",
@@ -65,7 +63,6 @@
     "scop/bash-completion",
     "shareAI-lab/Kode-Agent",
     "shareAI-lab/Kode-CLI",
-    "ultrajson/ultrajson",
     "uxlfoundation/oneDNN",
     "version-fox/vfox",
     "vitejs/vite-plugin-react",

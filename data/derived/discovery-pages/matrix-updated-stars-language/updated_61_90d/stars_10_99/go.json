@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 140,
-    "concepts": 105,
-    "observations": 105,
-    "repos": 28,
-    "terms": 110
+    "components": 119,
+    "concepts": 84,
+    "observations": 84,
+    "repos": 25,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "AbsaOSS/external-dns-infoblox-webhook",
     "alexellis/fstail",
@@ -33,11 +33,8 @@
     "estesp/mquery",
     "filecoin-project/go-data-transfer",
     "hyperledger-labs/yui-relayer",
-    "ipfs/go-ipfs-example-plugin",
-    "ipfs/go-log",
     "kurrent-io/KurrentDB-Client-Go",
     "matelang/jwt-go-aws-kms",
-    "multiformats/go-varint",
     "OpenCIDN/ocimirror",
     "seaweedfs/seaweedfs-cosi-driver",
     "wzshiming/repimage",

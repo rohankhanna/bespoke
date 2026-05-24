@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1238,
-    "concepts": 204,
-    "observations": 204,
+    "components": 1280,
+    "concepts": 219,
+    "observations": 219,
     "repos": 38,
-    "terms": 233
+    "terms": 248
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "antfu-collective/vite-ssg",
@@ -22,6 +22,7 @@
     "antfu/vitesse-nuxt",
     "arktypeio/arktype",
     "ben-rogerson/twin.macro",
+    "boxyhq/saas-starter-kit",
     "coaidev/coai",
     "cosmiconfig/cosmiconfig",
     "ekalinin/sitemap.js",
@@ -31,7 +32,6 @@
     "isaacs/node-glob",
     "jamiebrynes7/obsidian-todoist-plugin",
     "jnsahaj/tweakcn",
-    "jonaskello/tsconfig-paths",
     "josStorer/RWKV-Runner",
     "jupyter-widgets/ipyleaflet",
     "lobehub/lobe-chat-agents",

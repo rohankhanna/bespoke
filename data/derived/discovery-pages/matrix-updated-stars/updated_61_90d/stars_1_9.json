@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 662,
-    "concepts": 436,
-    "observations": 437,
-    "repos": 145,
-    "terms": 425
+    "components": 645,
+    "concepts": 427,
+    "observations": 428,
+    "repos": 144,
+    "terms": 416
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "0xPolygonHermez/pil2-compiler",
@@ -146,7 +146,6 @@
     "shakacode/package_json",
     "sigp/quick-protobuf",
     "sparklabutah/timewarp",
-    "stephanj/sonarlint-devoxxgenie-intellij",
     "SWE-bench/SWE-smith-envs",
     "sylabs/singularity-admindocs",
     "tanyongkiam/cake_lpr",

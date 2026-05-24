@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 559,
-    "concepts": 318,
-    "observations": 320,
-    "repos": 83,
-    "terms": 332
+    "components": 571,
+    "concepts": 323,
+    "observations": 325,
+    "repos": 86,
+    "terms": 337
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -21,6 +21,8 @@
     "alixinne/glsl-lang",
     "andelf/axcli",
     "andelf/picc",
+    "ankane/delta-ruby",
+    "ankane/iceberg-ruby",
     "ankane/safetensors-ruby",
     "antonWetzel/prettypst",
     "apache/opendal-oli",
@@ -77,6 +79,7 @@
     "neysofu/reltester",
     "nico-abram/blondie",
     "open-telemetry/opentelemetry-rust-contrib",
+    "oramasearch/llm_json",
     "paradigmxyz/stateless",
     "phiat/claude-esp-rs",
     "psmux/omp-manager",

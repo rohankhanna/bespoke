@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 989,
-    "concepts": 1003,
-    "observations": 1007,
-    "repos": 162,
-    "terms": 999
+    "concepts": 1009,
+    "observations": 1013,
+    "repos": 163,
+    "terms": 1005
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "aboutcode-org/scancode.io",
     "ag2ai/build-with-ag2",
     "agencyenterprise/PromptInject",
     "agentclientprotocol/python-sdk",
+    "agentic-box/memora",
     "agentscope-ai/Trinity-RFT",
     "AgileRL/AgileRL",
     "agno-agi/scout",

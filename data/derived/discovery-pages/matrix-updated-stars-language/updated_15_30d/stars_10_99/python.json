@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 406,
-    "concepts": 309,
-    "observations": 309,
-    "repos": 74,
-    "terms": 303
+    "components": 390,
+    "concepts": 301,
+    "observations": 301,
+    "repos": 73,
+    "terms": 295
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "agno-agi/coda",
@@ -47,7 +47,6 @@
     "gordon-code/cuid2",
     "graalvm/oracle-graalvm-ea-builds",
     "GreptimeTeam/demo-scene",
-    "HabanaAI/vllm-fork",
     "Hiroshiba/voicevox_engine",
     "HKU-BAL/ClairS-TO",
     "instadeepai/fastpbrl",

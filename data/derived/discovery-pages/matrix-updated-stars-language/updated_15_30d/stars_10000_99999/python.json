@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 874,
-    "concepts": 842,
-    "observations": 844,
-    "repos": 76,
-    "terms": 836
+    "components": 848,
+    "concepts": 821,
+    "observations": 823,
+    "repos": 74,
+    "terms": 815
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "agentscope-ai/agentscope",
     "agentscope-ai/QwenPaw",
@@ -32,7 +32,6 @@
     "google/magika",
     "great-expectations/great_expectations",
     "HKUDS/CLI-Anything",
-    "HKUDS/LightRAG",
     "HKUDS/RAG-Anything",
     "huggingface/datasets",
     "huggingface/lerobot",
@@ -57,7 +56,6 @@
     "modelscope/DiffSynth-Studio",
     "networkx/networkx",
     "nodejs/node-gyp",
-    "numpy/numpy",
     "OpenBMB/MiniCPM-o",
     "opendatalab/MinerU",
     "optuna/optuna",

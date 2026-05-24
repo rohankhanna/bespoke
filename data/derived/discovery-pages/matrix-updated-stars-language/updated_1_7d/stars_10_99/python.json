@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 4,
-    "terms": 10
+    "components": 23,
+    "concepts": 16,
+    "observations": 16,
+    "repos": 5,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "google-marketing-solutions/ariel",
+    "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "intel-staging/text-generation-webui",
     "mesh-iit/cad-libraries",
     "mozilla-ai/otari"

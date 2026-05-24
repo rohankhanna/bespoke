@@ -1,28 +1,29 @@
 {
   "counts": {
-    "components": 779,
-    "concepts": 299,
-    "observations": 302,
-    "repos": 24,
-    "terms": 308
+    "components": 728,
+    "concepts": 359,
+    "observations": 361,
+    "repos": 28,
+    "terms": 368
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "567-labs/instructor",
-    "anthropics/claude-cookbooks",
     "axolotl-ai-cloud/axolotl",
+    "Comfy-Org/ComfyUI-Manager",
     "Dao-AILab/flash-attention",
+    "deepspeedai/DeepSpeed",
+    "fastapi/fastapi",
     "fastapi/full-stack-fastapi-template",
     "gastownhall/beads",
     "gastownhall/gastown",
     "isl-org/Open3D",
     "jax-ml/jax",
-    "jestjs/jest",
     "langchain-ai/langchainjs",
     "lobehub/lobehub",
     "modelscope/FunASR",
@@ -30,12 +31,15 @@
     "nwjs/nw.js",
     "OpenHands/OpenHands",
     "protocolbuffers/protobuf",
+    "QuantumNous/new-api",
     "rust-lang/rust-analyzer",
     "ruvnet/ruflo",
-    "storybookjs/storybook",
     "swiftlang/swift",
     "triton-lang/triton",
     "upptime/upptime",
-    "vercel-labs/skills"
+    "vercel-labs/skills",
+    "verl-project/verl",
+    "weaviate/weaviate",
+    "zhayujie/CowAgent"
   ]
 }

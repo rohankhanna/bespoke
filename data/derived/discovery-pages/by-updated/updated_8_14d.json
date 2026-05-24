@@ -1,23 +1,22 @@
 {
   "counts": {
-    "components": 2752,
-    "concepts": 1424,
-    "observations": 1428,
-    "repos": 190,
-    "terms": 1408
+    "components": 2701,
+    "concepts": 1376,
+    "observations": 1379,
+    "repos": 186,
+    "terms": 1359
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "Aayushm24/presidential-briefing",
     "academic/awesome-datascience",
     "adamchainz/blacken-docs",
     "ag2s20150909/TTS",
-    "agentic-box/memora",
     "aidenlab/hic-straw",
     "aidenlab/juicebox-web",
     "aidenlab/juicebox.js",
@@ -50,7 +49,6 @@
     "atsushieno/midicci",
     "atuinsh/atuin",
     "awslabs/aidlc-workflows",
-    "babashka/babashka",
     "bagofwords1/bagofwords",
     "baicai-1145/GPT-SoVITS-CPUFast",
     "beam-community/elixir-companies",
@@ -77,6 +75,7 @@
     "diffscope/diffscope-project",
     "DISTRHO/DPF",
     "djlint/djLint",
+    "drmingdrmer/databend-meta",
     "eclipse-lsp4j/lsp4j",
     "elixir-grpc/grpc",
     "elixir-protobuf/protobuf",
@@ -111,7 +110,6 @@
     "jasonlong/isometric-contributions",
     "java-native-access/jna",
     "JetBrains/compose-multiplatform",
-    "junhoyeo/tokscale",
     "junit-team/junit-framework",
     "kelos-dev/kelos",
     "Kilo-Org/kilocode",
@@ -188,7 +186,6 @@
     "specta-rs/tauri-specta",
     "starfishmod/bonjour-service",
     "TextArena/TextArena",
-    "ultrajson/ultrajson",
     "UnknownPlatypus/djangofmt",
     "uxlfoundation/oneDNN",
     "version-fox/vfox",
@@ -199,7 +196,6 @@
     "WarmUpTill/SceneSwitcher",
     "WICG/attribution-reporting-api",
     "Xilinx/brevitas",
-    "yoshoku/llama_cpp.rb",
     "zai-org/GLM-V",
     "Zoo-Code-Org/Zoo-Code"
   ]

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 244,
-    "concepts": 71,
-    "observations": 71,
-    "repos": 21,
-    "terms": 71
+    "components": 262,
+    "concepts": 92,
+    "observations": 92,
+    "repos": 23,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "amazon-ion/ion-cli",
@@ -20,10 +20,12 @@
     "edge-classic/EDGE-classic",
     "f3liz-casa/noraneko",
     "google-marketing-solutions/ariel",
+    "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "honwen/openwrt-dnsmasq-extra",
     "intel-staging/text-generation-webui",
     "jelly-beam/rebar3_ex_doc",
     "joshsymonds/cc-tools",
+    "lumen-oss/luarocks-tag-release",
     "mesh-iit/cad-libraries",
     "mozilla-ai/otari",
     "nuxt-modules/emotion",

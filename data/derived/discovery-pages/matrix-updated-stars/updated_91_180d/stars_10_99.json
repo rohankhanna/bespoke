@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2052,
-    "concepts": 1185,
-    "observations": 1193,
-    "repos": 470,
-    "terms": 1190
+    "components": 2074,
+    "concepts": 1211,
+    "observations": 1219,
+    "repos": 473,
+    "terms": 1216
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -49,6 +49,7 @@
     "AlexJPotter/fluentvalidation-ts",
     "alexmojaki/pure_eval",
     "alexmojaki/stack_data",
+    "AliRezaBeigy/paqetNG",
     "alloy-rs/op-alloy",
     "AlonzoLeeeooo/LCDG",
     "amaranth-lang/amaranth-stdio",
@@ -255,6 +256,8 @@
     "InteractiveComputerGraphics/blender-sequence-loader",
     "InternScience/SciReason",
     "InternScience/SeedBench",
+    "ipfs/go-ipfs-example-plugin",
+    "ipfs/go-log",
     "IQTLabs/snowglobe",
     "isaacs/clock-mock",
     "jaegertracing/docker-protobuf",
@@ -292,7 +295,6 @@
     "JuliaGraphics/Cairo.jl",
     "JuliaGtk/Gtk4Makie.jl",
     "JuliaInterop/libcxxwrap-julia",
-    "jupyter-xeus/xeus-javascript",
     "Justintime50/homebrew-releaser",
     "kandinskylab/kandinsky-5-lora-train",
     "karma-runner/karma-qunit",
@@ -341,6 +343,7 @@
     "modelscope/ms-enclave",
     "mohammadtavakoli78/beam",
     "mosn/mosn.io",
+    "multiformats/go-varint",
     "mvz/non-digest-assets",
     "nanostores/angular",
     "nativium/nativium",

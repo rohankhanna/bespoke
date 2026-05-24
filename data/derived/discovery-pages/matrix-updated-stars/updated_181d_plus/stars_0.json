@@ -3,7 +3,7 @@
     "components": 1253,
     "concepts": 532,
     "observations": 534,
-    "repos": 438,
+    "repos": 437,
     "terms": 532
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -119,7 +119,6 @@
     "CodeBoarding/atlassian-python-api",
     "coderaiser/c8-reproduce",
     "cogito233/mini_webarena",
-    "comit-network/hash_edwards_to_edwards",
     "Commit-Boost/blstrs",
     "ComunidadAylas/glsl-lang",
     "conda-forge/bloscpack-feedstock",

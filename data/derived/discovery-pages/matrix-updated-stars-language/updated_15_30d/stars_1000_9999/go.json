@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1019,
-    "concepts": 1055,
-    "observations": 1061,
-    "repos": 102,
-    "terms": 1051
+    "components": 987,
+    "concepts": 1037,
+    "observations": 1043,
+    "repos": 100,
+    "terms": 1033
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
-    "akuity/kargo",
     "akvorado/akvorado",
-    "allegro/bigcache",
     "anthropics/anthropic-sdk-go",
     "apache/apisix-ingress-controller",
     "apache/incubator-devlake",

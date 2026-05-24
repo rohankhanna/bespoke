@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 62644,
-    "concepts": 10885,
-    "observations": 10920,
-    "repos": 1911,
-    "terms": 11186
+    "components": 62679,
+    "concepts": 10889,
+    "observations": 10924,
+    "repos": 1913,
+    "terms": 11191
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "06ketan/slideshot",
@@ -303,6 +303,7 @@
     "benchmark-action/github-action-benchmark",
     "benjamn/ast-types",
     "benjamn/recast",
+    "BenzLeung/test-amr-react",
     "berniegp/mock-xmlhttprequest",
     "berty/berty",
     "bestkolobok/vue3-jsoneditor",
@@ -959,6 +960,7 @@
     "jonaskello/tsconfig-paths",
     "jonaskello/tsconfig-paths-webpack-plugin",
     "josdejong/immutable-json-patch",
+    "josdejong/jsonrepair",
     "josdejong/svelte-jsoneditor",
     "joshwooding/vite-plugin-react-docgen-typescript",
     "josStorer/RWKV-Runner",

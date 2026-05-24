@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3063,
-    "concepts": 2417,
-    "observations": 2422,
-    "repos": 445,
-    "terms": 2434
+    "components": 3071,
+    "concepts": 2426,
+    "observations": 2431,
+    "repos": 446,
+    "terms": 2443
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "a2aproject/a2a-dotnet",
@@ -182,6 +182,7 @@
     "eddelbuettel/r2u",
     "elastic/docs",
     "elementary/icons",
+    "elixir-ecto/db_connection",
     "elixir-ecto/ecto_sql",
     "elixir-lang/elixir-lang.github.com",
     "elixir-sqlite/ecto_sqlite3",
@@ -216,7 +217,6 @@
     "giaf/blasfeo",
     "go-flutter-desktop/examples",
     "google-gemini/gemini-api-quickstart",
-    "google/protobuf.dart",
     "googleapis/google-cloud-php-storage",
     "GoogleCloudPlatform/cluster-toolkit",
     "GoogleCloudPlatform/vertex-ai-samples",
@@ -418,6 +418,7 @@
     "spotbugs/spotbugs-maven-plugin",
     "standardrb/standard-rails",
     "status-im/nimbus-eth1",
+    "status-im/nimbus-eth2",
     "stevemolitor/claude-code.el",
     "stevemolitor/monet",
     "stijnvdb88/Snap.Net",

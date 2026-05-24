@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 688,
-    "concepts": 522,
-    "observations": 524,
-    "repos": 145,
-    "terms": 540
+    "components": 704,
+    "concepts": 530,
+    "observations": 532,
+    "repos": 146,
+    "terms": 548
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "4dn-dcic/tibanna",
@@ -82,6 +82,7 @@
     "GaloisInc/BLST-Verification",
     "googleapis/python-pubsublite",
     "GuyKh/ims-custom-component",
+    "HabanaAI/vllm-fork",
     "harbor-framework/harbor-cookbook",
     "higlass/clodius",
     "HKU-BAL/Clair3-RNA",

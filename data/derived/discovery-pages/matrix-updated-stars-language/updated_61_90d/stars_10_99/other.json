@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 410,
-    "concepts": 294,
-    "observations": 295,
+    "components": 404,
+    "concepts": 290,
+    "observations": 291,
     "repos": 93,
-    "terms": 290
+    "terms": 286
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "0xC0000054/pdn-ddsfiletype-plus",
     "219-design/qt-qml-project-template-with-ci",
@@ -22,7 +22,6 @@
     "adaszko/tree_climber_rust.nvim",
     "adinhodovic/argo-cd-mixin",
     "AghayeCoder/TX-ThemeHub",
-    "AliRezaBeigy/paqetNG",
     "am-kantox/md",
     "andys8/git-brunch",
     "apache/netbeans-antora-site",
@@ -75,6 +74,7 @@
     "liquidev/lintplus",
     "lostromb/concentus.oggfile",
     "malewicz1337/oil-git.nvim",
+    "metosin/ring-swagger-ui",
     "mfussenegger/nlua",
     "mirage/conan",
     "mit-plv/bbv",

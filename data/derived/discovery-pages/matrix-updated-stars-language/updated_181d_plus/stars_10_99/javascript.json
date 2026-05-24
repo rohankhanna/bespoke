@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 2932,
+    "components": 2937,
     "concepts": 659,
     "observations": 659,
-    "repos": 274,
+    "repos": 275,
     "terms": 651
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "0xDAEF0F/job-searchoor",
     "0xPolygon/pilcom",
@@ -173,6 +173,7 @@
     "jonschlinkert/whence",
     "jrobinso/hdf5-indexed-reader",
     "jsdom/jsdom-devtools-formatter",
+    "jupyter-xeus/xeus-javascript",
     "kaloureyes3/v4-clients",
     "kawanet/int64-buffer",
     "kellyselden/merge-package.json",
@@ -271,7 +272,7 @@
     "tommasongr/nova-vue",
     "topojson/topojson-simplify",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "udacity/FEF-UdaciMeals-Backbone",
     "un-ts/toml-tools",
     "unlight/postcss-import-url",

@@ -3,7 +3,7 @@
     "components": 1105,
     "concepts": 517,
     "observations": 517,
-    "repos": 340,
+    "repos": 339,
     "terms": 523
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "2KAbhishek/awesome2k",
     "2KAbhishek/rofi2k",
@@ -93,6 +93,7 @@
     "cbarrete/completion-vcard",
     "cdeust/ai-prd-builder",
     "cgrindel/bazel-doc",
+    "cgxjdzz/jsonRepair",
     "changjiashuai/kotlin-multiaddr",
     "changjiashuai/kotlin-multibase",
     "charlottia/ava",
@@ -211,9 +212,7 @@
     "jverzani/SymPyCore.jl",
     "jw3126/LibGEOSMakie.jl",
     "kahgeh/ls-crates.nvim",
-    "kaminari/kaminari-data_mapper",
     "kaminari/kaminari-grape",
-    "kaminari/kaminari-mongo_mapper",
     "kaorahi/visual_MCTS",
     "kgkoutis/TSID.Creator.NET",
     "kodyfanz/ethereum_yellowpaper_vn",

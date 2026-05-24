@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11673,
-    "concepts": 7970,
-    "observations": 8032,
-    "repos": 1734,
-    "terms": 7961
+    "components": 11674,
+    "concepts": 7971,
+    "observations": 8033,
+    "repos": 1735,
+    "terms": 7963
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -1242,6 +1242,7 @@
     "openvm-org/stark-backend",
     "OptiVorbis/OptiVorbis",
     "optozorax/quad-storage",
+    "oramasearch/llm_json",
     "orhun/git-cliff",
     "orhun/tuitar",
     "orlp/recursive",

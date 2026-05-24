@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 805,
-    "concepts": 477,
-    "observations": 478,
-    "repos": 50,
-    "terms": 471
+    "components": 830,
+    "concepts": 486,
+    "observations": 487,
+    "repos": 51,
+    "terms": 480
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "actix/actix-web",
     "ajeetdsouza/zoxide",
@@ -21,6 +21,7 @@
     "ast-grep/ast-grep",
     "astral-sh/uv",
     "bevyengine/bevy",
+    "BloopAI/vibe-kanban",
     "casey/just",
     "cjpais/Handy",
     "dandavison/delta",

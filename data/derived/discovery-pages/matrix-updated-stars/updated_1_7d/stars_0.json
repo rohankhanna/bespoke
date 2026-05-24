@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 1,
-    "observations": 1,
-    "repos": 3,
-    "terms": 1
+    "components": 15,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 2,
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
-    "drmingdrmer/databend-meta",
     "kleisauke/glib",
     "locize/locize-i18next-vue-example"
   ]

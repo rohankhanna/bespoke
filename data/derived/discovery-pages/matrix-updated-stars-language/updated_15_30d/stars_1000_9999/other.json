@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2180,
-    "concepts": 2023,
-    "observations": 2037,
-    "repos": 243,
-    "terms": 2013
+    "components": 2088,
+    "concepts": 1958,
+    "observations": 1972,
+    "repos": 236,
+    "terms": 1948
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-baseline",
     "aaubry/YamlDotNet",
@@ -65,7 +65,6 @@
     "crosire/reshade-shaders",
     "csstools/postcss-plugins",
     "cvc5/cvc5",
-    "Cysharp/MagicOnion",
     "d12frosted/homebrew-emacs-plus",
     "dafny-lang/dafny",
     "DandelionSprout/adfilt",
@@ -77,15 +76,12 @@
     "deanmalmgren/textract",
     "detekt/detekt",
     "DiligentGraphics/DiligentEngine",
-    "djblue/portal",
     "dlemstra/Magick.NET",
-    "docker-library/php",
     "docker/docs",
     "dorssel/usbipd-win",
     "dotfiles/dotfiles.github.com",
     "dotnet/dotnet-docker",
     "dotnet/msbuild",
-    "dotnet/sdk",
     "dotnet/winforms",
     "dotnet/wpf",
     "dusty-nv/jetson-containers",
@@ -105,7 +101,6 @@
     "FStarLang/FStar",
     "fzyzcjy/flutter_rust_bridge",
     "gaoyifan/china-operator-ip",
-    "getsentry/sentry-cocoa",
     "github/codeql",
     "github/markup",
     "godotengine/godot-demo-projects",
@@ -152,7 +147,6 @@
     "ldc-developers/ldc",
     "lewis6991/gitsigns.nvim",
     "LibreHardwareMonitor/LibreHardwareMonitor",
-    "lm-sensors/lm-sensors",
     "lobsters/lobsters",
     "LuaLS/lua-language-server",
     "MacPaw/OpenAI",
@@ -196,7 +190,6 @@
     "opnsense/plugins",
     "patterns-ai-core/langchainrb",
     "pedestal/pedestal",
-    "php/pie",
     "pradyunsg/furo",
     "presidentbeef/brakeman",
     "PrismLibrary/Prism",

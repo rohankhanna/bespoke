@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 769,
-    "concepts": 706,
-    "observations": 707,
-    "repos": 189,
-    "terms": 701
+    "components": 765,
+    "concepts": 700,
+    "observations": 701,
+    "repos": 187,
+    "terms": 695
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -40,7 +40,6 @@
     "Azure/reliable-web-app-pattern-dotnet",
     "Azure/template-analyzer",
     "babashka/scittle",
-    "baldowl/rack_csrf",
     "bazeltools/bazel-deps",
     "beam-telemetry/telemetry_metrics",
     "benbalter/jekyll-include-cache",
@@ -131,7 +130,6 @@
     "KhronosGroup/glTF-Validator",
     "Kolaru/MathTeXEngine.jl",
     "kowainik/relude",
-    "ku1ik/rainbow",
     "layr-labs/eigenlayer-middleware",
     "libvips/ruby-vips",
     "LintaoAmons/cd-project.nvim",

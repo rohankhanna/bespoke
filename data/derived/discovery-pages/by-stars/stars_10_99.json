@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 28446,
-    "concepts": 15229,
-    "observations": 15281,
-    "repos": 5505,
-    "terms": 15230
+    "components": 28451,
+    "concepts": 15232,
+    "observations": 15284,
+    "repos": 5507,
+    "terms": 15233
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -1894,6 +1894,7 @@
     "dslisleedh/PLKSR",
     "dspinellis/bibtools",
     "dsxmachina/rfm",
+    "du00cs/json-repairj",
     "dubbogo/dubbo-go-benchmark",
     "ducnt9907/ColonFormer",
     "dukesoferl/re2",
@@ -4211,6 +4212,7 @@
     "optuna/optunahub-web",
     "oracle-quickstart/oci-o11y-solutions",
     "oracle/karpenter-provider-oci",
+    "oramasearch/llm_json",
     "orangeduck/100style-retarget",
     "orangeduck/GenoViewPython",
     "orangeduck/interact-retarget",
@@ -5154,7 +5156,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",

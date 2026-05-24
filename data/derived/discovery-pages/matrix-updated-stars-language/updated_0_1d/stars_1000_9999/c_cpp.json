@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 2,
-    "terms": 15
+    "components": 64,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 3,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
+    "ashvardanian/NumKong",
     "KhronosGroup/KTX-Software",
-    "swiftlang/swift-llbuild"
+    "ultrajson/ultrajson"
   ]
 }

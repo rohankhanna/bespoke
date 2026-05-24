@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 11,
-    "observations": 11,
+    "components": 16,
+    "concepts": 21,
+    "observations": 21,
     "repos": 1,
-    "terms": 11
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-21T05:56:27.242167+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
-    "langflow-ai/langflow"
+    "langchain-ai/langchain"
   ]
 }

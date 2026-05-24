@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2640,
-    "concepts": 460,
-    "observations": 461,
-    "repos": 65,
-    "terms": 457
+    "components": 2596,
+    "concepts": 441,
+    "observations": 442,
+    "repos": 64,
+    "terms": 438
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "alphagov/govuk-frontend",
     "amannn/action-semantic-pull-request",
@@ -59,7 +59,6 @@
     "pillarjs/iconv-lite",
     "postcss/postcss-import",
     "ranisalt/node-argon2",
-    "release-it/release-it",
     "RisingStack/react-easy-state",
     "stdlib-js/stdlib",
     "stylelint/stylelint-config-standard",

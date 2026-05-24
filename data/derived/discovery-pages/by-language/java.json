@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2852,
-    "concepts": 3573,
-    "observations": 3581,
-    "repos": 645,
-    "terms": 3552
+    "components": 2856,
+    "concepts": 3575,
+    "observations": 3583,
+    "repos": 646,
+    "terms": 3554
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "abapGit/ADT_Frontend",
@@ -222,6 +222,7 @@
     "dogla/filesystem-watcher",
     "dropbox/mypy-PyCharm-plugin",
     "dropwizard/dropwizard",
+    "du00cs/json-repairj",
     "dylibso/chicory",
     "eclipse-acute/aCute",
     "eclipse-archived/dartboard",

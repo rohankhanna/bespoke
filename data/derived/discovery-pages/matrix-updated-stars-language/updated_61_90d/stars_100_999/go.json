@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 183,
-    "concepts": 180,
-    "observations": 180,
-    "repos": 33,
-    "terms": 180
+    "components": 176,
+    "concepts": 173,
+    "observations": 173,
+    "repos": 32,
+    "terms": 173
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "alexkohler/prealloc",
     "anacrolix/dht",
@@ -40,7 +40,6 @@
     "medama-io/medama",
     "mholt/acmez",
     "minio/highwayhash",
-    "multiformats/go-multiaddr",
     "nikepan/clickhouse-bulk",
     "omniscale/imposm3",
     "opencontainers/runtime-tools",

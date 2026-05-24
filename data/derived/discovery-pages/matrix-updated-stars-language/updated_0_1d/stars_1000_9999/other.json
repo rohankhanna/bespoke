@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 70,
-    "concepts": 75,
-    "observations": 76,
-    "repos": 6,
-    "terms": 75
+    "components": 102,
+    "concepts": 111,
+    "observations": 113,
+    "repos": 10,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
-    "clj-kondo/clj-kondo",
+    "babashka/babashka",
+    "babashka/sci",
+    "datalevin/datalevin",
     "dotnet/Silk.NET",
     "microsoft/aspire",
+    "microsoft/aspire-samples",
+    "psmux/psmux",
     "swiftlang/llvm-project",
     "swiftlang/swift-syntax",
     "web-platform-tests/wpt"

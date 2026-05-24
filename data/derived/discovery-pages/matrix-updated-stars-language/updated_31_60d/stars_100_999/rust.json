@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 1104,
+    "components": 1096,
     "concepts": 784,
     "observations": 794,
     "repos": 157,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -63,7 +63,6 @@
     "DoumanAsh/xxhash-rust",
     "drahnr/cargo-spellcheck",
     "dtolnay/proc-macro2",
-    "dtolnay/trybuild",
     "dtormoen/tsk-tsk",
     "eigenwallet/core",
     "EmbarkStudios/cargo-about",
@@ -139,6 +138,7 @@
     "rust-lang/bors",
     "rust-lang/crater",
     "rust-lang/libz-sys",
+    "rust-lang/pkg-config-rs",
     "rust-lang/rustc-perf",
     "rust-lang/rustwide",
     "rust-lang/socket2",

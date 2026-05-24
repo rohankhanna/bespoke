@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8,
-    "concepts": 7,
-    "observations": 7,
+    "components": 4,
+    "concepts": 10,
+    "observations": 10,
     "repos": 1,
-    "terms": 7
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
-    "eclipse-jdtls/eclipse.jdt.ls"
+    "helidon-io/helidon"
   ]
 }

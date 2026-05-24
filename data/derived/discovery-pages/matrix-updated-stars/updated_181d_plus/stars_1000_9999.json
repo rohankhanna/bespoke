@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10440,
+    "components": 10448,
     "concepts": 8987,
     "observations": 8996,
-    "repos": 2328,
-    "terms": 8859
+    "repos": 2330,
+    "terms": 8860
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -1862,6 +1862,7 @@
     "sail-sg/EditAnything",
     "sail-sg/poolformer",
     "Saiyan-World/goku",
+    "SakuraLLM/SakuraLLM",
     "salesforce/ALBEF",
     "salesforce/awd-lstm-lm",
     "salesforce/CodeGen",
@@ -2034,6 +2035,7 @@
     "Tencent-Hunyuan/HunyuanCustom",
     "Tencent/MimicMotion",
     "Tencent/TNN",
+    "TencentARC/SEED-Voken",
     "TencentARC/T2I-Adapter",
     "TencentQQGYLab/ELLA",
     "tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation",

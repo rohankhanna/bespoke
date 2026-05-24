@@ -1,21 +1,20 @@
 {
   "counts": {
-    "components": 1061,
-    "concepts": 410,
-    "observations": 410,
-    "repos": 63,
-    "terms": 408
+    "components": 1055,
+    "concepts": 399,
+    "observations": 399,
+    "repos": 61,
+    "terms": 397
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "adamchainz/blacken-docs",
-    "agentic-box/memora",
     "alloy-rs/svm-rs",
     "altschuler/imgui-knobs",
     "amsehili/auditok",
@@ -74,7 +73,6 @@
     "TextArena/TextArena",
     "Waffle/waffle",
     "WICG/attribution-reporting-api",
-    "yoshoku/llama_cpp.rb",
     "Zoo-Code-Org/Zoo-Code"
   ]
 }

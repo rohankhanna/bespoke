@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1949,
-    "concepts": 1114,
-    "observations": 1119,
-    "repos": 228,
-    "terms": 1111
+    "components": 1933,
+    "concepts": 1103,
+    "observations": 1108,
+    "repos": 225,
+    "terms": 1100
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0xble/dotagent.nvim",
@@ -32,7 +32,6 @@
     "beeware/beeware-docs-tools",
     "benjamimgois/pascube",
     "bennyyip/dot-vim",
-    "bitrise-io/bitrise-plugins-step",
     "black-desk/djotfmt",
     "Blosc/blogsite",
     "bnb-chain/reth-bsc-triedb",
@@ -188,10 +187,8 @@
     "rmsrosa/rmsrosa.github.io",
     "ROCm/rocJPEG",
     "ros2-rust/rosidl_rust",
-    "rstackjs/rsbuild-plugin-i18next-extractor",
     "rvagg/js-bitcoin-block",
     "sapphiredev/.github",
-    "scalar/starter",
     "scaleway/serverless-api-framework-python",
     "Seedloaf/mc-router-discovery",
     "skeeto/aas-sign",

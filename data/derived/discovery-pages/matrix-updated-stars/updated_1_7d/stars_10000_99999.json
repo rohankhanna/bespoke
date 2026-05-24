@@ -1,26 +1,24 @@
 {
   "counts": {
-    "components": 780,
-    "concepts": 576,
-    "observations": 578,
-    "repos": 48,
-    "terms": 570
+    "components": 832,
+    "concepts": 517,
+    "observations": 520,
+    "repos": 44,
+    "terms": 517
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "aden-hive/hive",
+    "anthropics/claude-cookbooks",
     "apache/brpc",
     "argotorg/solidity",
-    "Comfy-Org/ComfyUI-Manager",
-    "deepspeedai/DeepSpeed",
     "dense-analysis/ale",
     "DioxusLabs/dioxus",
-    "fastapi/fastapi",
     "ggml-org/ggml",
     "ggml-org/whisper.cpp",
     "git-lfs/git-lfs",
@@ -33,6 +31,7 @@
     "huggingface/pytorch-image-models",
     "huggingface/sentence-transformers",
     "HumanSignal/label-studio",
+    "jestjs/jest",
     "Lightning-AI/pytorch-lightning",
     "meta-llama/llama-cookbook",
     "moby/moby",
@@ -45,7 +44,6 @@
     "psf/black",
     "pydantic/pydantic",
     "pyg-team/pytorch_geometric",
-    "QuantumNous/new-api",
     "qubvel-org/segmentation_models.pytorch",
     "quickwit-oss/tantivy",
     "realworld-apps/realworld",
@@ -53,13 +51,11 @@
     "run-llama/llama_index",
     "rust-lang/mdBook",
     "spaceship-prompt/spaceship-prompt",
+    "storybookjs/storybook",
     "SubtitleEdit/subtitleedit",
     "TEN-framework/ten-framework",
     "ungoogled-software/ungoogled-chromium",
     "unocss/unocss",
-    "vbenjs/vue-vben-admin",
-    "verl-project/verl",
-    "weaviate/weaviate",
-    "zhayujie/CowAgent"
+    "vbenjs/vue-vben-admin"
   ]
 }

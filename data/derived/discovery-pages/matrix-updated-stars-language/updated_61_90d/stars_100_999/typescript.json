@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1131,
-    "concepts": 247,
-    "observations": 248,
-    "repos": 41,
-    "terms": 258
+    "components": 1136,
+    "concepts": 261,
+    "observations": 262,
+    "repos": 42,
+    "terms": 272
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -28,6 +28,7 @@
     "connectrpc/connect-query-es",
     "eckardt/cchistory",
     "ethereum/staking-launchpad",
+    "filllabs/dependi",
     "fnando/i18n",
     "graphql-hive/graphql-eslint",
     "h3js/rou3",

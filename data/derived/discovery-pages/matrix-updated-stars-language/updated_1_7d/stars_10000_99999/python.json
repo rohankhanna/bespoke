@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 201,
-    "concepts": 285,
-    "observations": 286,
-    "repos": 20,
-    "terms": 282
+    "components": 151,
+    "concepts": 218,
+    "observations": 218,
+    "repos": 15,
+    "terms": 218
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "aden-hive/hive",
-    "Comfy-Org/ComfyUI-Manager",
-    "deepspeedai/DeepSpeed",
-    "fastapi/fastapi",
     "hiyouga/LlamaFactory",
     "huggingface/pytorch-image-models",
     "huggingface/sentence-transformers",
@@ -31,8 +28,6 @@
     "qubvel-org/segmentation_models.pytorch",
     "run-llama/llama_index",
     "TEN-framework/ten-framework",
-    "ungoogled-software/ungoogled-chromium",
-    "verl-project/verl",
-    "zhayujie/CowAgent"
+    "ungoogled-software/ungoogled-chromium"
   ]
 }

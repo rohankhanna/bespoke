@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 572,
-    "concepts": 722,
-    "observations": 724,
-    "repos": 80,
-    "terms": 721
+    "components": 596,
+    "concepts": 770,
+    "observations": 773,
+    "repos": 85,
+    "terms": 768
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "abseil/abseil-cpp",
     "Alexays/Waybar",
@@ -20,6 +20,7 @@
     "apache/arrow",
     "ApolloAuto/apollo",
     "apple/foundationdb",
+    "arangodb/arangodb",
     "aristocratos/btop",
     "aseprite/aseprite",
     "bitcoin/bitcoin",
@@ -45,11 +46,13 @@
     "glfw/glfw",
     "gnachman/iTerm2",
     "google/benchmark",
+    "google/filament",
     "google/flatbuffers",
     "google/googletest",
     "google/sanitizers",
     "google/sentencepiece",
     "google/skia",
+    "grpc/grpc",
     "haiwen/seafile",
     "Immediate-Mode-UI/Nuklear",
     "jedisct1/libsodium",
@@ -61,6 +64,7 @@
     "microsoft/mimalloc",
     "microsoft/onnxruntime",
     "microsoft/react-native-windows",
+    "microsoft/STL",
     "microsoft/winget-cli",
     "microsoft/WSL",
     "microsoft/WSL2-Linux-Kernel",
@@ -77,6 +81,7 @@
     "opencv/opencv_contrib",
     "openresty/lua-nginx-module",
     "openssl/openssl",
+    "PaddlePaddle/Paddle",
     "pgvector/pgvector",
     "px4/px4-autopilot",
     "pybind/pybind11",

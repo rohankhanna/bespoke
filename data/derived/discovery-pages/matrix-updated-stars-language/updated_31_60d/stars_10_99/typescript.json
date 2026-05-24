@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2284,
-    "concepts": 338,
-    "observations": 341,
-    "repos": 85,
-    "terms": 370
+    "components": 2254,
+    "concepts": 337,
+    "observations": 340,
+    "repos": 84,
+    "terms": 369
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
@@ -91,7 +91,6 @@
     "sgcarstrends/sgcarstrends",
     "Shougo/ddu-ui-ff",
     "Shougo/dpp-ext-installer",
-    "skilld-dev/retriv",
     "slopus/slopus.github.io",
     "solidjs-community/storybook",
     "vaultwarden/vw_web_builds",

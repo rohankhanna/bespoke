@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1362,
-    "concepts": 857,
-    "observations": 858,
-    "repos": 236,
-    "terms": 861
+    "concepts": 871,
+    "observations": 872,
+    "repos": 237,
+    "terms": 875
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xrsydn/nix-hermes-agent",
@@ -58,6 +58,7 @@
     "Azure-Samples/openai-chat-app-entra-auth-local",
     "Azure/bicep-extensibility",
     "b-data/jupyterlab-python-docker-stack",
+    "b-data/jupyterlab-r-docker-stack",
     "babashka/babashka.nrepl",
     "baskeboler/cljs-karaoke-client",
     "bazel-contrib/rules_d",
@@ -107,6 +108,7 @@
     "foo-dogsquared/hugo-mod-simple-icons",
     "foxoman/zed-nim",
     "fredrikekre/runic-action",
+    "ganelson/intest",
     "getgrav/grav-plugin-problems",
     "giggls/openstreetmap-carto-de",
     "google-marketing-solutions/web-performance-lab",
@@ -171,7 +173,6 @@
     "m87-labs/moondream-examples",
     "marbl/T2T-Browser",
     "meta-pytorch/executorch-examples",
-    "metosin/ring-swagger-ui",
     "Mic92/nur-packages",
     "mirage/mrmime",
     "mirage/ocaml-dkim",

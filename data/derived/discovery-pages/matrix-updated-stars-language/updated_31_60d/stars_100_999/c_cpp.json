@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 752,
-    "concepts": 878,
-    "observations": 881,
-    "repos": 167,
-    "terms": 870
+    "components": 779,
+    "concepts": 917,
+    "observations": 920,
+    "repos": 173,
+    "terms": 909
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/Imath",
     "actboy168/bee.lua",
@@ -71,6 +71,7 @@
     "Frommi/miniz_oxide",
     "fujitsu/xbyak_aarch64",
     "g-truc/gli",
+    "ganelson/inweb",
     "gazebosim/gz-sensors",
     "gbionics/idyntree",
     "ghostty-org/ghostling",
@@ -115,6 +116,7 @@
     "microsoft/jericho",
     "microsoft/Tutel",
     "microsoft/vcpkg-tool",
+    "microsoft/WindowsAppSDK-Samples",
     "mikolmogorov/Flye",
     "mitsuba-renderer/drjit",
     "mitsuba-renderer/drjit-core",
@@ -138,9 +140,11 @@
     "onnx/optimizer",
     "OpenLightingProject/ola",
     "openSUSE/catatonit",
+    "openvinotoolkit/model_server",
     "openvinotoolkit/openvino.genai",
     "osmcode/libosmium",
     "PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition",
+    "pantoniou/libfyaml",
     "pauldmccarthy/indexed_gzip",
     "paullouisageneau/libjuice",
     "pbatard/Mosby",
@@ -156,11 +160,13 @@
     "roboception/cvkit",
     "ROCm/composable_kernel",
     "ROCm/MIVisionX",
+    "ROCm/mori",
     "ruby-debug/debase",
     "rusty1s/pytorch_cluster",
     "samdauwe/webgpu-native-examples",
     "samtools/bcftools",
     "SaschaWillems/HowToVulkan",
+    "secretflow/heu",
     "SHI-Labs/NATTEN",
     "Solo5/solo5",
     "sp-nitech/SPTK",

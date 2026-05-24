@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4017,
-    "concepts": 2788,
-    "observations": 2794,
-    "repos": 715,
-    "terms": 2778
+    "components": 4019,
+    "concepts": 2785,
+    "observations": 2791,
+    "repos": 713,
+    "terms": 2775
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "0k/shyaml",
     "10up/action-wordpress-plugin-asset-update",
@@ -117,7 +117,6 @@
     "baaivision/Uni3D",
     "baal-org/baal",
     "babashka/scittle",
-    "baldowl/rack_csrf",
     "bazelbuild/stardoc",
     "bazeltools/bazel-deps",
     "bdwgc/libatomic_ops",
@@ -396,7 +395,6 @@
     "Kolaru/MathTeXEngine.jl",
     "Kong/ngx_wasm_module",
     "kowainik/relude",
-    "ku1ik/rainbow",
     "kubernetes-sigs/yaml",
     "kutsan/stylelint-config-clean-order",
     "kwonoj/swc-plugin-coverage-instrument",
@@ -476,6 +474,7 @@
     "MSxDOS/ntapi",
     "mtkennerly/shawl",
     "multi-swe-bench/multi-swe-bench",
+    "multiformats/go-multiaddr",
     "multiformats/multihash",
     "multimodal-reasoning-lab/Bagel-Zebra-CoT",
     "mxmlnkn/rapidgzip",
@@ -594,7 +593,6 @@
     "rust-lang/backtrace-rs",
     "rust-lang/lang-team",
     "rust-native-tls/rust-native-tls",
-    "rust-windowing/gl-rs",
     "rusticstuff/simdutf8",
     "saagarjha/unxip",
     "sagiegurari/duckscript",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1794,
-    "concepts": 1021,
-    "observations": 1023,
-    "repos": 327,
-    "terms": 1018
+    "components": 1767,
+    "concepts": 996,
+    "observations": 998,
+    "repos": 324,
+    "terms": 993
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -41,7 +41,6 @@
     "alchemiststudiosDOTai/harness-engineering",
     "alexellis/fstail",
     "Alibaba-Quark/SSP",
-    "AliRezaBeigy/paqetNG",
     "all-the-noises/eval-arena",
     "am-kantox/md",
     "amiable-dev/llm-council",
@@ -201,8 +200,6 @@
     "informalsystems/quint-llm-kit",
     "intel/intel-extension-for-openxla",
     "intel/metrics-discovery",
-    "ipfs/go-ipfs-example-plugin",
-    "ipfs/go-log",
     "ipfs/js-kubo-rpc-client",
     "ipld/java-cid",
     "ipld/js-dag-pb",
@@ -242,6 +239,7 @@
     "marko-js/examples",
     "matelang/jwt-go-aws-kms",
     "mesh-iit/creo2urdf",
+    "metosin/ring-swagger-ui",
     "mfussenegger/nlua",
     "microsoft/react-native-winrt",
     "microsoft/tracing-etw",
@@ -250,7 +248,6 @@
     "mit-plv/bbv",
     "Mobile-Artificial-Intelligence/maise",
     "mongodb-js/zstd",
-    "multiformats/go-varint",
     "multiformats/java-multibase",
     "nanostores/alpine",
     "nebelgrau77/airsniffer-esp32c6",

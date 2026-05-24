@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 951,
-    "concepts": 762,
-    "observations": 768,
-    "repos": 129,
-    "terms": 770
+    "components": 954,
+    "concepts": 765,
+    "observations": 771,
+    "repos": 130,
+    "terms": 773
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "a2aproject/a2a-go",
@@ -48,6 +48,7 @@
     "charmbracelet/catwalk",
     "charmbracelet/colorprofile",
     "cloudflare/go",
+    "cloudfoundry/bosh-bootloader",
     "cloudfoundry/gosigar",
     "coder/code-marketplace",
     "coder/envbuilder",

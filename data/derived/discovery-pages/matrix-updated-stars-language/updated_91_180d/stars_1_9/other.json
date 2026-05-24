@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 177,
-    "concepts": 84,
-    "observations": 84,
-    "repos": 54,
-    "terms": 85
+    "components": 194,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 55,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "abap2UI5-addons/table-maintenance",
@@ -59,6 +59,7 @@
     "saddam213/OnnxStack",
     "Shopify/svg2vd",
     "slunsford/coffee-analytics",
+    "stephanj/sonarlint-devoxxgenie-intellij",
     "tensorchord/VectorChord-images",
     "testng-team/testng-team.github.io",
     "typstyle-rs/typstyle-action",

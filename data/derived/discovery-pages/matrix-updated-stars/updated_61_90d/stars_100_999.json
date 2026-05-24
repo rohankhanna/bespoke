@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2965,
-    "concepts": 2055,
-    "observations": 2065,
-    "repos": 468,
-    "terms": 2051
+    "components": 2973,
+    "concepts": 2062,
+    "observations": 2072,
+    "repos": 469,
+    "terms": 2058
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "2KAbhishek/seeker.nvim",
@@ -148,6 +148,7 @@
     "douglascrockford/JSMin",
     "dtolnay/readonly",
     "dtolnay/ref-cast",
+    "dtolnay/trybuild",
     "dwyl/elixir-auth-google",
     "dwyl/labels",
     "dwyl/phoenix-liveview-chat-example",
@@ -173,6 +174,7 @@
     "fast/logforth",
     "filecoin-project/rust-fil-proofs",
     "filip26/titanium-json-ld",
+    "filllabs/dependi",
     "firstbatchxyz/dkn-compute-node",
     "Fitzgerald-Porthmouth-Koenigsegg/Planschrift_Project",
     "FlagOpen/RoboBrain2.5",
@@ -317,7 +319,6 @@
     "moyangzhan/langchain4j-aideepin-admin",
     "mozilla/dump_syms",
     "mr-fatalyst/fastopenapi",
-    "multiformats/go-multiaddr",
     "multiformats/js-multiformats",
     "naver/multi-hmr",
     "nayuki/Nayuki-web-published-code",

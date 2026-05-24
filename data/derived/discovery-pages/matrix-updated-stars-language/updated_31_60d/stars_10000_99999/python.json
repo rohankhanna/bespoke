@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1751,
-    "concepts": 1481,
-    "observations": 1485,
-    "repos": 159,
-    "terms": 1507
+    "components": 1777,
+    "concepts": 1502,
+    "observations": 1506,
+    "repos": 161,
+    "terms": 1528
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -85,6 +85,7 @@
     "gradio-app/gradio",
     "gruns/icecream",
     "hesreallyhim/awesome-claude-code",
+    "HKUDS/LightRAG",
     "home-assistant/core",
     "hpcaitech/ColossalAI",
     "hpcaitech/Open-Sora",
@@ -116,6 +117,7 @@
     "modelcontextprotocol/python-sdk",
     "nginx-proxy/nginx-proxy",
     "numba/numba",
+    "numpy/numpy",
     "NVIDIA/Megatron-LM",
     "NVIDIA/TensorRT-LLM",
     "onnx/onnx",

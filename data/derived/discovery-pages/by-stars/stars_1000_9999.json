@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 55156,
-    "concepts": 35864,
-    "observations": 35972,
-    "repos": 6064,
-    "terms": 35753
+    "components": 55186,
+    "concepts": 35867,
+    "observations": 35975,
+    "repos": 6066,
+    "terms": 35760
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-24T09:49:57.442696+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -2896,6 +2896,7 @@
     "jorgebucaran/fisher",
     "jorgebucaran/nvm.fish",
     "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
+    "josdejong/jsonrepair",
     "josdejong/svelte-jsoneditor",
     "jose-elias-alvarez/null-ls.nvim",
     "josh-project/josh",
@@ -4956,6 +4957,7 @@
     "sail-sg/poolformer",
     "saitoha/libsixel",
     "Saiyan-World/goku",
+    "SakuraLLM/SakuraLLM",
     "salesforce/ALBEF",
     "salesforce/awd-lstm-lm",
     "salesforce/BLIP",
