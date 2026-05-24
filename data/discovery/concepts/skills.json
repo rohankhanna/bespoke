@@ -280,6 +280,18 @@
       "source_repo": "lobehub/lobehub",
       "status": "candidate-context",
       "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruvnet/ruflo",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruvnet/ruflo",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -414,6 +426,12 @@
       "source_repo": "lobehub/lobehub",
       "status": "candidate",
       "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruvnet/ruflo",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1057,11 +1075,23 @@
       "observed_at": "2026-05-24T00:44:26.398961+00:00",
       "source_file": null,
       "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
+  "last_seen_at": "2026-05-24T07:15:32.140894+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -48,7 +48,7 @@
   "normalized_form": "test-install",
   "observation_id": "8a417be0b9267a15",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-24T00:44:26.398961+00:00",
+  "observed_at": "2026-05-24T07:15:32.140894+00:00",
   "observed_text": "test-install",
   "source_context_snippet": "test-install",
   "source_file": ".github/workflows/test-install.yaml",

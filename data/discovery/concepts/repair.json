@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "repair"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "josdejong/jsonrepair",
+      "status": "candidate-context",
+      "text": "Repair invalid JSON documents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josdejong/jsonrepair",
+      "status": "candidate-context",
+      "text": "Repair invalid JSON documents."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josdejong/jsonrepair",
+      "status": "candidate",
+      "text": "Repair invalid JSON documents."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003022,
+      "status": "candidate",
+      "text": "mending"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002953,
+      "status": "candidate",
+      "text": "mend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002855,
+      "status": "candidate",
+      "text": "fixing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002595,
+      "status": "candidate",
+      "text": "restore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993761,
+      "status": "candidate",
+      "text": "reparation"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19038,
+      "status": "candidate",
+      "text": "mend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15040,
+      "status": "candidate",
+      "text": "reparation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14037,
+      "status": "candidate",
+      "text": "resort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13043,
+      "status": "candidate",
+      "text": "restore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9069,
+      "status": "candidate",
+      "text": "fix"
+    }
+  ],
+  "canonical_name": "repair",
+  "concept_id": "repair",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": null,
+      "source_repo": "josdejong/jsonrepair"
+    }
+  ],
+  "first_seen_at": "2026-05-24T07:15:32.140894+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-24T07:15:32.140894+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "repair",
+      "sense_id": "repair#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

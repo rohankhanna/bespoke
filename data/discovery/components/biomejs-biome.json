@@ -1,7 +1,7 @@
 {
   "component": "@biomejs/biome",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
+  "last_seen_at": "2026-05-24T07:15:32.140894+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -792,6 +792,11 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "Brendonovich/MacroGraph"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "josdejong/jsonrepair"
     }
   ]
 }

@@ -73,6 +73,18 @@
       "source_repo": "edward3h/minecraft-webhook",
       "status": "candidate-context",
       "text": "Java CI with Gradle"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "du00cs/json-repairj",
+      "status": "candidate-context",
+      "text": "A java library to repair broken JSON strings, particularly useful for handling malformed JSON output from Large Language Models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "du00cs/json-repairj",
+      "status": "candidate-context",
+      "text": "Java CI with Gradle"
     }
   ],
   "candidate_glosses": [
@@ -109,6 +121,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "edward3h/minecraft-webhook",
+      "status": "candidate",
+      "text": "Java CI with Gradle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "du00cs/json-repairj",
       "status": "candidate",
       "text": "Java CI with Gradle"
     }
@@ -190,11 +208,17 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": ".github/workflows/gradle-ci.yml",
       "source_repo": "edward3h/minecraft-webhook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "du00cs/json-repairj"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-24T07:15:32.140894+00:00",
   "lexical_providers": [
     "datamuse"
   ],

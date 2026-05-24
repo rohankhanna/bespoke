@@ -25,27 +25,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/FunASR",
-      "target": "alibaba-damo-academy/funasr",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/FunASR",
-      "target": "alibaba-damo-academy/funcodec",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/FunASR",
-      "target": "alibaba/funasr",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-api-docs.yml",
       "source_repo": "modelscope/FunASR",
@@ -200,11 +179,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-24T02:06:04.785000+00:00",
+  "fetched_at": "2026-05-24T09:34:13.118230+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 39731
+      "size": 9228
     },
     {
       "path": ".github/workflows/update-api-docs.yml",
@@ -220,8 +199,8 @@
     "full_name": "modelscope/FunASR",
     "html_url": "https://github.com/modelscope/FunASR",
     "language": "Python",
-    "pushed_at": "2026-05-23T22:03:24Z",
-    "stargazers_count": 16214,
+    "pushed_at": "2026-05-24T09:27:03Z",
+    "stargazers_count": 16231,
     "topics": [
       "asr",
       "audio",
@@ -244,27 +223,12 @@
       "voice-activity-detection",
       "whisper-alternative"
     ],
-    "updated_at": "2026-05-24T01:03:00Z"
+    "updated_at": "2026-05-24T09:27:07Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "akshay090/svg-banners",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "alibaba-damo-academy/funasr",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "alibaba-damo-academy/funcodec",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "alibaba/funasr",
       "source_file": "README.md"
     }
   ],
@@ -276,109 +240,109 @@
       "term": "Update API Documentation"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "audio"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "chinese"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "conformer"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "deep-learning"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "emotion-recognition"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "multilingual-asr"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "paraformer"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "pretrained-model"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "punctuation"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "pytorch"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "real-time"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "speaker-diarization"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "speech-recognition"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "speech-to-text"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "speechllm"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "transcription"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "voice-activity-detection"
     },
     {
-      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "whisper-alternative"

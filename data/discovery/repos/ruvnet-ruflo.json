@@ -776,13 +776,6 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "ruvnet/ruflo",
-      "target": "claude-code-skills",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "ruvnet/ruflo",
       "target": "mcp-server",
       "target_type": "term"
     },
@@ -811,6 +804,13 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "ruvnet/ruflo",
+      "target": "skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo",
       "target": "swarm",
       "target_type": "term"
     },
@@ -822,7 +822,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-23T12:48:20.231976+00:00",
+  "fetched_at": "2026-05-24T09:41:42.216767+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -874,8 +874,8 @@
     "full_name": "ruvnet/ruflo",
     "html_url": "https://github.com/ruvnet/ruflo",
     "language": "TypeScript",
-    "pushed_at": "2026-05-23T08:53:35Z",
-    "stargazers_count": 54309,
+    "pushed_at": "2026-05-24T07:21:55Z",
+    "stargazers_count": 54588,
     "topics": [
       "agentic-ai",
       "agentic-framework",
@@ -889,16 +889,16 @@
       "anthropic-claude",
       "autonomous-agents",
       "claude-code",
-      "claude-code-skills",
       "codex",
       "mcp-server",
       "model-context-protocol",
       "multi-agent",
       "multi-agent-systems",
+      "skills",
       "swarm",
       "swarm-intelligence"
     ],
-    "updated_at": "2026-05-23T12:24:54Z"
+    "updated_at": "2026-05-24T09:23:05Z"
   },
   "repo_links": [
     {
@@ -1019,12 +1019,6 @@
       "context_snippet": "<div align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
-      "term": "claude-code-skills"
-    },
-    {
-      "context_snippet": "<div align=\"center\">",
-      "edge_type": "repo-topic",
-      "source_file": null,
       "term": "mcp-server"
     },
     {
@@ -1044,6 +1038,12 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "multi-agent-systems"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skills"
     },
     {
       "context_snippet": "<div align=\"center\">",

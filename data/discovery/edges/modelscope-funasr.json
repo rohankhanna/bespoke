@@ -8,27 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/FunASR",
-      "target": "alibaba-damo-academy/funasr",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/FunASR",
-      "target": "alibaba-damo-academy/funcodec",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/FunASR",
-      "target": "alibaba/funasr",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-api-docs.yml",
       "source_repo": "modelscope/FunASR",
@@ -183,6 +162,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-24T00:44:26.398961+00:00",
+  "generated_at": "2026-05-24T07:15:32.140894+00:00",
   "source_repo": "modelscope/FunASR"
 }

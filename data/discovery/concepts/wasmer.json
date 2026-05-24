@@ -418,11 +418,17 @@
       "observed_at": "2026-05-24T00:44:26.398961+00:00",
       "source_file": null,
       "source_repo": "zig-wasm/wasmer-zig-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": null,
+      "source_repo": "zig-wasm/wasmer-zig-api"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
+  "last_seen_at": "2026-05-24T07:15:32.140894+00:00",
   "lexical_providers": [
     "datamuse"
   ],

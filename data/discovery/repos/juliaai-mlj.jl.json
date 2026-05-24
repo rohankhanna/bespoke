@@ -239,7 +239,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-23T12:45:56.032539+00:00",
+  "fetched_at": "2026-05-24T09:40:19.531325+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -268,7 +268,7 @@
     "html_url": "https://github.com/JuliaAI/MLJ.jl",
     "language": "Julia",
     "pushed_at": "2026-05-03T20:40:19Z",
-    "stargazers_count": 1919,
+    "stargazers_count": 1922,
     "topics": [
       "classification",
       "clustering",
@@ -285,7 +285,7 @@
       "tuning",
       "tuning-parameters"
     ],
-    "updated_at": "2026-05-21T03:17:19Z"
+    "updated_at": "2026-05-24T06:11:28Z"
   },
   "repo_links": [],
   "terms": [

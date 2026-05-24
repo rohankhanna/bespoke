@@ -1,0 +1,195 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "distributive-network/pythonmonkey",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "ryanmarcus/dirty-json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "@babel/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "@babel/plugin-transform-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "@babel/preset-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "@commitlint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "@commitlint/config-conventional",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "cpy-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "del-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "standard-version",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "tinybench",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "uglify-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "josdejong/jsonrepair",
+      "target": "Node.js CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "josdejong/jsonrepair",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "josdejong/jsonrepair",
+      "target": "repair",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-24T07:15:32.140894+00:00",
+  "source_repo": "josdejong/jsonrepair"
+}

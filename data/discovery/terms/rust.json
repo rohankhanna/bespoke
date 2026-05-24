@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
+  "last_seen_at": "2026-05-24T07:15:32.140894+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -4166,6 +4166,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "MatsDK/TauRPC"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "oramasearch/llm_json"
     }
   ],
   "term": "Rust"

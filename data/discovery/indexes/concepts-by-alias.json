@@ -76614,6 +76614,9 @@
   "reorder-versions": [
     "reorder-versions"
   ],
+  "repair": [
+    "repair"
+  ],
   "repair-tool": [
     "repair-tool"
   ],

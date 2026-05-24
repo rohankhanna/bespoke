@@ -1,16 +1,5 @@
 {
-  "components": [
-    {
-      "component": "actions/checkout@v1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "actions/setup-python@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    }
-  ],
+  "components": [],
   "edges": [
     {
       "edge_type": "explicit-github-link",
@@ -27,27 +16,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml",
-      "source_repo": "chipsalliance/python-fpga-interchange",
-      "target": "actions/checkout@v1",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml",
-      "source_repo": "chipsalliance/python-fpga-interchange",
-      "target": "actions/setup-python@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/ci.yml",
-      "source_repo": "chipsalliance/python-fpga-interchange",
-      "target": "CI tests",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "chipsalliance/python-fpga-interchange",
@@ -55,7 +23,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-24T00:45:49.509555+00:00",
+  "fetched_at": "2026-05-24T08:16:25.617406+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -64,10 +32,6 @@
     {
       "path": "requirements.txt",
       "size": 214
-    },
-    {
-      "path": ".github/workflows/ci.yml",
-      "size": 1406
     },
     {
       "path": ".github/workflows/format.sh",
@@ -111,12 +75,6 @@
     }
   ],
   "terms": [
-    {
-      "context_snippet": "CI tests",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/ci.yml",
-      "term": "CI tests"
-    },
     {
       "context_snippet": "This python module is designed to read and write FPGA interchange files, and",
       "edge_type": "repo-topic",

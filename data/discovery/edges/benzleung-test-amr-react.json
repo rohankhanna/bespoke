@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/test-amr-react",
+      "target": "@testing-library/jest-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/test-amr-react",
+      "target": "@testing-library/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/test-amr-react",
+      "target": "@testing-library/user-event",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/test-amr-react",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/test-amr-react",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/test-amr-react",
+      "target": "@types/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/test-amr-react",
+      "target": "@types/react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/test-amr-react",
+      "target": "benz-amr-recorder",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/test-amr-react",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/test-amr-react",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/test-amr-react",
+      "target": "react-scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/test-amr-react",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/test-amr-react",
+      "target": "web-vitals",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-24T07:15:32.140894+00:00",
+  "source_repo": "BenzLeung/test-amr-react"
+}

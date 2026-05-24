@@ -1735,6 +1735,18 @@
       "source_repo": "mangiucugna/json_repair",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/json-repair)](https://pypi.org/project/json-repair/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "josdejong/jsonrepair",
+      "status": "candidate-context",
+      "text": "Repair invalid JSON documents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josdejong/jsonrepair",
+      "status": "candidate-context",
+      "text": "Repair invalid JSON documents."
     }
   ],
   "candidate_glosses": [
@@ -2601,6 +2613,12 @@
       "source_repo": "mangiucugna/json_repair",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/json-repair)](https://pypi.org/project/json-repair/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josdejong/jsonrepair",
+      "status": "candidate",
+      "text": "Repair invalid JSON documents."
     }
   ],
   "candidate_related_terms": [
@@ -6207,11 +6225,65 @@
       "observed_at": "2026-05-24T00:44:26.398961+00:00",
       "source_file": null,
       "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": null,
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": null,
+      "source_repo": "josdejong/jsonrepair"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp.Samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/quotes"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
+  "last_seen_at": "2026-05-24T07:15:32.140894+00:00",
   "lexical_providers": [
     "datamuse"
   ],

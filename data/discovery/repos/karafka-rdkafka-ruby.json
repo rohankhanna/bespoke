@@ -559,7 +559,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-23T00:53:01.659108+00:00",
+  "fetched_at": "2026-05-24T08:20:00.025677+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -611,7 +611,7 @@
     "full_name": "karafka/rdkafka-ruby",
     "html_url": "https://github.com/karafka/rdkafka-ruby",
     "language": "Ruby",
-    "pushed_at": "2026-05-20T09:58:19Z",
+    "pushed_at": "2026-05-23T11:35:12Z",
     "stargazers_count": 403,
     "topics": [
       "apache-kafka",
@@ -621,7 +621,7 @@
       "librdkafka",
       "ruby"
     ],
-    "updated_at": "2026-05-20T09:58:23Z"
+    "updated_at": "2026-05-23T11:35:15Z"
   },
   "repo_links": [],
   "terms": [

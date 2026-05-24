@@ -5671,11 +5671,53 @@
       "observed_at": "2026-05-24T00:44:26.398961+00:00",
       "source_file": null,
       "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "ggerganov/whisper.spm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/bow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
+  "last_seen_at": "2026-05-24T07:15:32.140894+00:00",
   "lexical_providers": [
     "datamuse"
   ],

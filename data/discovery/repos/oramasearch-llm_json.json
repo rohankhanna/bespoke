@@ -1,0 +1,63 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "oramasearch/llm_json",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "oramasearch/llm_json",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-24T08:25:20.653697+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1295
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 454
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 316
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust crate to fix malformed JSON outputs from LLMs",
+    "fork": false,
+    "full_name": "oramasearch/llm_json",
+    "html_url": "https://github.com/oramasearch/llm_json",
+    "language": "Rust",
+    "pushed_at": "2026-03-26T15:13:19Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-05-19T06:51:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    }
+  ]
+}

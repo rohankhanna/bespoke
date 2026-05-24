@@ -1003,7 +1003,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-22T21:15:27.417516+00:00",
+  "fetched_at": "2026-05-24T07:28:36.784083+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1032,7 +1032,7 @@
     "html_url": "https://github.com/emotion-js/emotion",
     "language": "JavaScript",
     "pushed_at": "2026-05-06T07:42:22Z",
-    "stargazers_count": 18012,
+    "stargazers_count": 18014,
     "topics": [
       "babel-plugin",
       "css",
@@ -1041,7 +1041,7 @@
       "react",
       "reactjs"
     ],
-    "updated_at": "2026-05-22T06:07:53Z"
+    "updated_at": "2026-05-23T07:36:24Z"
   },
   "repo_links": [
     {

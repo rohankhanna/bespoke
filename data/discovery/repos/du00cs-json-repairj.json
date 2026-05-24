@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "du00cs/json-repairj",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "du00cs/json-repairj",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "du00cs/json-repairj",
+      "target": "gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "du00cs/json-repairj",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "du00cs/json-repairj",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "du00cs/json-repairj",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "du00cs/json-repairj",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "du00cs/json-repairj",
+      "target": "gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "du00cs/json-repairj",
+      "target": "Java CI with Gradle",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-24T08:25:16.980762+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1518
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1909
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1177
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A java library to repair broken JSON strings, particularly useful for handling malformed JSON output from Large Language Models.",
+    "fork": false,
+    "full_name": "du00cs/json-repairj",
+    "html_url": "https://github.com/du00cs/json-repairj",
+    "language": "Java",
+    "pushed_at": "2025-09-08T13:52:38Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-04-28T10:06:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "Java CI with Gradle",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Java CI with Gradle"
+    }
+  ]
+}

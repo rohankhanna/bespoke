@@ -600,7 +600,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-24T01:03:32.265447+00:00",
+  "fetched_at": "2026-05-24T08:34:13.015781+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -653,12 +653,12 @@
     "html_url": "https://github.com/axolotl-ai-cloud/axolotl",
     "language": "Python",
     "pushed_at": "2026-05-23T19:55:01Z",
-    "stargazers_count": 11956,
+    "stargazers_count": 11955,
     "topics": [
       "fine-tuning",
       "llm"
     ],
-    "updated_at": "2026-05-23T10:41:16Z"
+    "updated_at": "2026-05-24T04:46:33Z"
   },
   "repo_links": [],
   "terms": [

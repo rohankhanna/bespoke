@@ -115,6 +115,12 @@
       "source_repo": "modelscope/FunASR",
       "status": "candidate-context",
       "text": "Industrial-grade speech recognition toolkit. 170x realtime, 50+ languages, speaker diarization, emotion detection \u2014 all in 3 lines of Python. Production-ready."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate-context",
+      "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +177,12 @@
       "source_repo": "amsehili/auditok",
       "status": "candidate",
       "text": ".. image:: https://raw.githubusercontent.com/amsehili/auditok/0cef3df7e8064707a7f3624669b3b838cb60523b/doc/figures/auditok-logo.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate",
+      "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)"
     }
   ],
   "candidate_related_terms": [],
@@ -592,11 +604,17 @@
       "observed_at": "2026-05-24T00:44:26.398961+00:00",
       "source_file": null,
       "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T07:15:32.140894+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
+  "last_seen_at": "2026-05-24T07:15:32.140894+00:00",
   "lexical_providers": [
     "datamuse"
   ],

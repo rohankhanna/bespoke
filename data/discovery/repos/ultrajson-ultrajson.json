@@ -398,11 +398,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-23T02:22:49.464735+00:00",
+  "fetched_at": "2026-05-24T09:39:18.786274+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 8342
+      "size": 8747
     },
     {
       "path": "pyproject.toml",
@@ -450,7 +450,7 @@
     "full_name": "ultrajson/ultrajson",
     "html_url": "https://github.com/ultrajson/ultrajson",
     "language": "C++",
-    "pushed_at": "2026-05-16T14:58:02Z",
+    "pushed_at": "2026-05-23T23:47:52Z",
     "stargazers_count": 4484,
     "topics": [
       "c",
@@ -461,7 +461,7 @@
       "ujson",
       "ultrajson"
     ],
-    "updated_at": "2026-05-22T05:33:00Z"
+    "updated_at": "2026-05-23T23:47:56Z"
   },
   "repo_links": [],
   "terms": [

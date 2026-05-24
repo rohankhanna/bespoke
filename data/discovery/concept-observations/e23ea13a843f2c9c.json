@@ -84,7 +84,7 @@
   "normalized_form": "docker-based-ci",
   "observation_id": "e23ea13a843f2c9c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-24T00:44:26.398961+00:00",
+  "observed_at": "2026-05-24T07:15:32.140894+00:00",
   "observed_text": "Docker-based CI",
   "source_context_snippet": "Docker-based CI",
   "source_file": ".github/workflows/python-demo.yml",

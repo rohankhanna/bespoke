@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SakuraLLM/SakuraLLM",
+      "target": "hillya51/lunatranslator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SakuraLLM/SakuraLLM",
+      "target": "fkiliver/sakuratranslator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SakuraLLM/SakuraLLM",
+      "target": "fkiliver/rpgmaker_llama_translator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SakuraLLM/SakuraLLM",
+      "target": "dmmaze/ballonstranslator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "SakuraLLM/SakuraLLM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "SakuraLLM/SakuraLLM",
+      "target": "Jimver/cuda-toolkit@v0.2.11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "SakuraLLM/SakuraLLM",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "SakuraLLM/SakuraLLM",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "SakuraLLM/SakuraLLM",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "SakuraLLM/SakuraLLM",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "SakuraLLM/SakuraLLM",
+      "target": "anzz1/action-create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "SakuraLLM/SakuraLLM",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-24T07:15:32.140894+00:00",
+  "source_repo": "SakuraLLM/SakuraLLM"
+}

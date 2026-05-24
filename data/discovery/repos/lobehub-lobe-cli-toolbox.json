@@ -639,7 +639,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-23T02:19:08.581364+00:00",
+  "fetched_at": "2026-05-24T09:30:15.948067+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -680,7 +680,7 @@
     "html_url": "https://github.com/lobehub/lobe-cli-toolbox",
     "language": "TypeScript",
     "pushed_at": "2026-02-15T00:32:39Z",
-    "stargazers_count": 409,
+    "stargazers_count": 410,
     "topics": [
       "ai",
       "ai-commit",
@@ -697,7 +697,7 @@
       "lobehub",
       "openai"
     ],
-    "updated_at": "2026-05-21T17:55:44Z"
+    "updated_at": "2026-05-23T02:22:20Z"
   },
   "repo_links": [
     {
