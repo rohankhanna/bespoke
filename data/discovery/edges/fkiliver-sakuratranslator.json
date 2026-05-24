@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fkiliver/SakuraTranslator",
+      "target": "bbepis/xunity.autotranslator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "fkiliver/SakuraTranslator",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "fkiliver/SakuraTranslator",
+      "target": "microsoft/setup-msbuild@v1.1",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-24T12:36:47.955733+00:00",
+  "source_repo": "fkiliver/SakuraTranslator"
+}

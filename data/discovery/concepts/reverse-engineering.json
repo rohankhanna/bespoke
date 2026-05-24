@@ -91,6 +91,18 @@
       "source_repo": "ttlns/Selenium-Driverless",
       "status": "candidate-context",
       "text": "Note: This project is moving away from the selenium syntax"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HIllya51/LunaTranslator",
+      "status": "candidate-context",
+      "text": "\u89c6\u89c9\u5c0f\u8bf4\u7ffb\u8bd1\u5668 / Visual Novel Translator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HIllya51/LunaTranslator",
+      "status": "candidate-context",
+      "text": "Build"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "ttlns/Selenium-Driverless",
       "status": "candidate",
       "text": "Note: This project is moving away from the selenium syntax"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HIllya51/LunaTranslator",
+      "status": "candidate",
+      "text": "Build"
     }
   ],
   "candidate_related_terms": [
@@ -940,11 +958,23 @@
       "observed_at": "2026-05-24T07:15:32.140894+00:00",
       "source_file": null,
       "source_repo": "ttlns/Selenium-Driverless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T12:36:47.955733+00:00",
+      "source_file": null,
+      "source_repo": "symgraph/BinAssistMCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T12:36:47.955733+00:00",
+      "source_file": null,
+      "source_repo": "HIllya51/LunaTranslator"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-24T07:15:32.140894+00:00",
+  "last_seen_at": "2026-05-24T12:36:47.955733+00:00",
   "lexical_providers": [
     "datamuse"
   ],

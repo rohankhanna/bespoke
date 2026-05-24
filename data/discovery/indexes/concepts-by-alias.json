@@ -6369,6 +6369,9 @@
   "auto-subtitle": [
     "auto-subtitle"
   ],
+  "auto-translation": [
+    "auto-translation"
+  ],
   "auto-tuning": [
     "auto-tuning"
   ],
@@ -14532,6 +14535,9 @@
   ],
   "buildlight": [
     "buildlight"
+  ],
+  "buildlunahook": [
+    "buildlunahook"
   ],
   "buildnotify": [
     "buildnotify"
@@ -22855,6 +22861,9 @@
   ],
   "comfyui-workflow": [
     "comfyui-workflow"
+  ],
+  "comics": [
+    "comics"
   ],
   "comirec": [
     "comirec"
@@ -39575,6 +39584,9 @@
   ],
   "galaxyproj": [
     "galaxyproj"
+  ],
+  "galgame": [
+    "galgame"
   ],
   "gallery": [
     "gallery"
@@ -72897,6 +72909,9 @@
   "python4delphi": [
     "python4delphi"
   ],
+  "pythonmonkey": [
+    "pythonmonkey"
+  ],
   "pythonpackage": [
     "pythonpackage"
   ],
@@ -88577,6 +88592,9 @@
   "test and publish new release": [
     "test-and-publish-new-release"
   ],
+  "test and publish suite": [
+    "test-and-publish-suite"
+  ],
   "test and release": [
     "test-and-release"
   ],
@@ -97282,6 +97300,9 @@
   ],
   "visual-localization": [
     "visual-localization"
+  ],
+  "visual-novel": [
+    "visual-novel"
   ],
   "visual-object-tracking": [
     "visual-object-tracking"

@@ -1,7 +1,7 @@
 {
   "component": "@slack/web-api",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-05-24T07:15:32.140894+00:00",
+  "last_seen_at": "2026-05-24T12:36:47.955733+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

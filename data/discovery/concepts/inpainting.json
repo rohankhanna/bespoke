@@ -139,6 +139,18 @@
       "source_repo": "xororz/local-dream",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmMaze/BallonsTranslator",
+      "status": "candidate-context",
+      "text": "\u6df1\u5ea6\u5b66\u4e60\u8f85\u52a9\u6f2b\u753b\u7ffb\u8bd1\u5de5\u5177, \u652f\u6301\u4e00\u952e\u673a\u7ffb\u548c\u7b80\u5355\u7684\u56fe\u50cf/\u6587\u672c\u7f16\u8f91 | Yet another computer-aided comic/manga translation tool powered by deeplearning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmMaze/BallonsTranslator",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "xororz/local-dream",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmMaze/BallonsTranslator",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [
@@ -1888,11 +1906,17 @@
       "observed_at": "2026-05-24T07:15:32.140894+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T12:36:47.955733+00:00",
+      "source_file": null,
+      "source_repo": "dmMaze/BallonsTranslator"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-24T07:15:32.140894+00:00",
+  "last_seen_at": "2026-05-24T12:36:47.955733+00:00",
   "lexical_providers": [
     "datamuse"
   ],

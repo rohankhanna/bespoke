@@ -1,0 +1,12 @@
+{
+  "component": "jurplel/install-qt-action@v3.3.0",
+  "first_seen_at": "2026-05-24T12:36:47.955733+00:00",
+  "last_seen_at": "2026-05-24T12:36:47.955733+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/buildlunahook.yml",
+      "source_repo": "HIllya51/LunaTranslator"
+    }
+  ]
+}

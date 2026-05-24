@@ -1747,6 +1747,18 @@
       "source_repo": "josdejong/jsonrepair",
       "status": "candidate-context",
       "text": "Repair invalid JSON documents."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RyanMarcus/dirty-json",
+      "status": "candidate-context",
+      "text": "A parser for invalid JSON"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RyanMarcus/dirty-json",
+      "status": "candidate-context",
+      "text": "[ ![Codeship Status for RyanMarcus/dirty-json](https://codeship.com/projects/cbc19870-2e42-0132-d30c-4adef3b19db7/status)](https://www.codeship.io/projects/39346) [![Coverage Status](https://coveralls.io/repos/github/RyanMarcus/dirty-json/badge.svg?branch=master)](https://covera\u2026"
     }
   ],
   "candidate_glosses": [
@@ -2619,6 +2631,12 @@
       "source_repo": "josdejong/jsonrepair",
       "status": "candidate",
       "text": "Repair invalid JSON documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RyanMarcus/dirty-json",
+      "status": "candidate",
+      "text": "[ ![Codeship Status for RyanMarcus/dirty-json](https://codeship.com/projects/cbc19870-2e42-0132-d30c-4adef3b19db7/status)](https://www.codeship.io/projects/39346) [![Coverage Status](https://coveralls.io/repos/github/RyanMarcus/dirty-json/badge.svg?branch=master)](https://covera\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -6279,11 +6297,29 @@
       "observed_at": "2026-05-24T07:15:32.140894+00:00",
       "source_file": null,
       "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T12:36:47.955733+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T12:36:47.955733+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T12:36:47.955733+00:00",
+      "source_file": null,
+      "source_repo": "RyanMarcus/dirty-json"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-24T07:15:32.140894+00:00",
+  "last_seen_at": "2026-05-24T12:36:47.955733+00:00",
   "lexical_providers": [
     "datamuse"
   ],

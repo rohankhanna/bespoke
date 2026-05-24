@@ -19,6 +19,18 @@
       "source_repo": "evanwashere/mitata",
       "status": "candidate-context",
       "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "status": "candidate-context",
+      "text": "A Mozilla SpiderMonkey JavaScript engine embedded into the Python VM, using the Python engine to provide the JS host environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "status": "candidate-context",
+      "text": "[![Test and Publish Suite](https://github.com/Distributive-Network/PythonMonkey/actions/workflows/test-and-publish.yaml/badge.svg)](https://github.com/Distributive-Network/PythonMonkey/actions/workflows/test-and-publish.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "evanwashere/mitata",
       "status": "candidate",
       "text": "mitata \u2014 benchmark tooling that loves you \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "status": "candidate",
+      "text": "[![Test and Publish Suite](https://github.com/Distributive-Network/PythonMonkey/actions/workflows/test-and-publish.yaml/badge.svg)](https://github.com/Distributive-Network/PythonMonkey/actions/workflows/test-and-publish.yaml)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "evanwashere/mitata"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T12:36:47.955733+00:00",
+      "source_file": null,
+      "source_repo": "Distributive-Network/PythonMonkey"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-24T12:36:47.955733+00:00",
   "lexical_providers": [
     "datamuse"
   ],

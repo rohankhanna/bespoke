@@ -1,0 +1,254 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dmMaze/BallonsTranslator",
+      "target": "dmmaze/comic-text-detector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dmMaze/BallonsTranslator",
+      "target": "jeffersonqin/yuzumarker.fontdetection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dmMaze/BallonsTranslator",
+      "target": "dmmaze/pypatchmatchinpaint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dmMaze/BallonsTranslator",
+      "target": "bropines/deeplx-vercel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmMaze/BallonsTranslator",
+      "target": "auto-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmMaze/BallonsTranslator",
+      "target": "chinese-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmMaze/BallonsTranslator",
+      "target": "comics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmMaze/BallonsTranslator",
+      "target": "computer-aided-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmMaze/BallonsTranslator",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmMaze/BallonsTranslator",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmMaze/BallonsTranslator",
+      "target": "inpainting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmMaze/BallonsTranslator",
+      "target": "manga",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmMaze/BallonsTranslator",
+      "target": "pyqt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmMaze/BallonsTranslator",
+      "target": "pyqt6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmMaze/BallonsTranslator",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmMaze/BallonsTranslator",
+      "target": "scene-text-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-24T13:15:38.521036+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9019
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1216
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "\u6df1\u5ea6\u5b66\u4e60\u8f85\u52a9\u6f2b\u753b\u7ffb\u8bd1\u5de5\u5177, \u652f\u6301\u4e00\u952e\u673a\u7ffb\u548c\u7b80\u5355\u7684\u56fe\u50cf/\u6587\u672c\u7f16\u8f91 | Yet another computer-aided comic/manga translation tool powered by deeplearning",
+    "fork": false,
+    "full_name": "dmMaze/BallonsTranslator",
+    "html_url": "https://github.com/dmMaze/BallonsTranslator",
+    "language": "Python",
+    "pushed_at": "2026-05-06T13:46:18Z",
+    "stargazers_count": 4800,
+    "topics": [
+      "auto-translation",
+      "chinese-translation",
+      "comics",
+      "computer-aided-translation",
+      "computer-vision",
+      "deep-learning",
+      "inpainting",
+      "manga",
+      "ocr",
+      "pyqt",
+      "pyqt6",
+      "pytorch",
+      "qt",
+      "qt6",
+      "scene-text-detection"
+    ],
+    "updated_at": "2026-05-24T12:02:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bropines/deeplx-vercel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmmaze/comic-text-detector",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmmaze/pypatchmatchinpaint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jeffersonqin/yuzumarker.fontdetection",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auto-translation"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-translation"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comics"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-aided-translation"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inpainting"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manga"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyqt"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyqt6"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-text-detection"
+    }
+  ]
+}

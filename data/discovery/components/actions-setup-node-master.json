@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@master",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-05-24T07:15:32.140894+00:00",
+  "last_seen_at": "2026-05-24T12:36:47.955733+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -77,6 +77,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/e2e-test.yml",
       "source_repo": "firebase/firebase-js-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docbuild.yml",
+      "source_repo": "HIllya51/LunaTranslator"
     }
   ]
 }

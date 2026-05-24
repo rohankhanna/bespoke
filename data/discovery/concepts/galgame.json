@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "galgame"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HIllya51/LunaTranslator",
+      "status": "candidate-context",
+      "text": "\u89c6\u89c9\u5c0f\u8bf4\u7ffb\u8bd1\u5668 / Visual Novel Translator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HIllya51/LunaTranslator",
+      "status": "candidate-context",
+      "text": "Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HIllya51/LunaTranslator",
+      "status": "candidate",
+      "text": "Build"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "galgame",
+  "concept_id": "galgame",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T12:36:47.955733+00:00",
+      "source_file": null,
+      "source_repo": "HIllya51/LunaTranslator"
+    }
+  ],
+  "first_seen_at": "2026-05-24T12:36:47.955733+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-24T12:36:47.955733+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "galgame",
+      "sense_id": "galgame#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

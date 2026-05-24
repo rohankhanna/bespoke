@@ -57,6 +57,18 @@
       "source_repo": "LibreTranslate/LibreTranslate",
       "status": "candidate-context",
       "text": "[Try it online!](https://libretranslate.com) | [API Docs](https://docs.libretranslate.com) | [Community Forum](https://community.libretranslate.com/) | [Bluesky](https://bsky.app/profile/libretranslate.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HIllya51/LunaTranslator",
+      "status": "candidate-context",
+      "text": "\u89c6\u89c9\u5c0f\u8bf4\u7ffb\u8bd1\u5668 / Visual Novel Translator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HIllya51/LunaTranslator",
+      "status": "candidate-context",
+      "text": "Build"
     }
   ],
   "candidate_glosses": [
@@ -83,6 +95,12 @@
       "source_repo": "LibreTranslate/LibreTranslate",
       "status": "candidate",
       "text": "[Try it online!](https://libretranslate.com) | [API Docs](https://docs.libretranslate.com) | [Community Forum](https://community.libretranslate.com/) | [Bluesky](https://bsky.app/profile/libretranslate.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HIllya51/LunaTranslator",
+      "status": "candidate",
+      "text": "Build"
     }
   ],
   "candidate_related_terms": [
@@ -165,11 +183,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "LibreTranslate/LibreTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T12:36:47.955733+00:00",
+      "source_file": null,
+      "source_repo": "HIllya51/LunaTranslator"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-24T12:36:47.955733+00:00",
   "lexical_providers": [
     "datamuse"
   ],

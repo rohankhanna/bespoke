@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "buildlunahook"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HIllya51/LunaTranslator",
+      "status": "candidate-context",
+      "text": "\u89c6\u89c9\u5c0f\u8bf4\u7ffb\u8bd1\u5668 / Visual Novel Translator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HIllya51/LunaTranslator",
+      "status": "candidate-context",
+      "text": "buildlunahook"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HIllya51/LunaTranslator",
+      "status": "candidate",
+      "text": "buildlunahook"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "buildlunahook",
+  "concept_id": "buildlunahook",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-24T12:36:47.955733+00:00",
+      "source_file": ".github/workflows/buildlunahook.yml",
+      "source_repo": "HIllya51/LunaTranslator"
+    }
+  ],
+  "first_seen_at": "2026-05-24T12:36:47.955733+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-24T12:36:47.955733+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "buildlunahook",
+      "sense_id": "buildlunahook#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

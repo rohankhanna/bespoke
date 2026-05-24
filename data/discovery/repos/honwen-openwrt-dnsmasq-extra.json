@@ -37,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-24T08:24:24.654258+00:00",
+  "fetched_at": "2026-05-24T13:14:03.869515+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -53,7 +53,7 @@
     "full_name": "honwen/openwrt-dnsmasq-extra",
     "html_url": "https://github.com/honwen/openwrt-dnsmasq-extra",
     "language": "Shell",
-    "pushed_at": "2026-05-20T03:23:03Z",
+    "pushed_at": "2026-05-24T12:18:23Z",
     "stargazers_count": 35,
     "topics": [
       "chnroute",
@@ -62,7 +62,7 @@
       "lede",
       "openwrt"
     ],
-    "updated_at": "2026-05-20T03:23:08Z"
+    "updated_at": "2026-05-24T12:18:28Z"
   },
   "repo_links": [
     {

@@ -84,7 +84,7 @@
   "normalized_form": "chip-image---build-and-test",
   "observation_id": "d915671b3a197304",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-24T07:15:32.140894+00:00",
+  "observed_at": "2026-05-24T12:36:47.955733+00:00",
   "observed_text": "CHIP Image - Build and Test",
   "source_context_snippet": "CHIP Image - Build and Test",
   "source_file": ".github/workflows/build-test.chip.yml",

@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/upload-sarif@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
   "first_seen_at": "2026-05-18T18:44:05.166065+00:00",
-  "last_seen_at": "2026-05-24T07:15:32.140894+00:00",
+  "last_seen_at": "2026-05-24T12:36:47.955733+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

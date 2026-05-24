@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "mtkennerly/poetry-dynamic-versioning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "distributive-network/pythonmonkey-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "distributive-network/pythonmonkey-crypto-js-fullstack-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "fawazahmed0/action-debug@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "appleboy/scp-action@v0.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "Test and Publish Suite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-mozcentral-version.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-mozcentral-version.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "pythonmonkey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "spidermonkey",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-24T12:36:47.955733+00:00",
+  "source_repo": "Distributive-Network/PythonMonkey"
+}

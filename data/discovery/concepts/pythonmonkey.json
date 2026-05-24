@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pythonmonkey"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "status": "candidate-context",
+      "text": "A Mozilla SpiderMonkey JavaScript engine embedded into the Python VM, using the Python engine to provide the JS host environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "status": "candidate-context",
+      "text": "[![Test and Publish Suite](https://github.com/Distributive-Network/PythonMonkey/actions/workflows/test-and-publish.yaml/badge.svg)](https://github.com/Distributive-Network/PythonMonkey/actions/workflows/test-and-publish.yaml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "status": "candidate",
+      "text": "[![Test and Publish Suite](https://github.com/Distributive-Network/PythonMonkey/actions/workflows/test-and-publish.yaml/badge.svg)](https://github.com/Distributive-Network/PythonMonkey/actions/workflows/test-and-publish.yaml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pythonmonkey",
+  "concept_id": "pythonmonkey",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T12:36:47.955733+00:00",
+      "source_file": null,
+      "source_repo": "Distributive-Network/PythonMonkey"
+    }
+  ],
+  "first_seen_at": "2026-05-24T12:36:47.955733+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-24T12:36:47.955733+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pythonmonkey",
+      "sense_id": "pythonmonkey#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,353 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "fawazahmed0/action-debug@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "appleboy/scp-action@v0.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-mozcentral-version.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-mozcentral-version.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "mtkennerly/poetry-dynamic-versioning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "distributive-network/pythonmonkey-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "distributive-network/pythonmonkey-crypto-js-fullstack-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "fawazahmed0/action-debug@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "appleboy/scp-action@v0.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "Test and Publish Suite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-mozcentral-version.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-mozcentral-version.yaml",
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "pythonmonkey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Distributive-Network/PythonMonkey",
+      "target": "spidermonkey",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-24T13:15:55.775073+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21666
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2627
+    },
+    {
+      "path": ".github/workflows/test-and-publish.yaml",
+      "size": 21264
+    },
+    {
+      "path": ".github/workflows/update-mozcentral-version.yaml",
+      "size": 1940
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Mozilla SpiderMonkey JavaScript engine embedded into the Python VM, using the Python engine to provide the JS host environment.",
+    "fork": false,
+    "full_name": "Distributive-Network/PythonMonkey",
+    "html_url": "https://github.com/Distributive-Network/PythonMonkey",
+    "language": "C++",
+    "pushed_at": "2026-04-21T21:42:50Z",
+    "stargazers_count": 965,
+    "topics": [
+      "cpp",
+      "javascript",
+      "python",
+      "pythonmonkey",
+      "spidermonkey"
+    ],
+    "updated_at": "2026-05-20T03:40:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "distributive-network/pythonmonkey-crypto-js-fullstack-example",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "distributive-network/pythonmonkey-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mtkennerly/poetry-dynamic-versioning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Test and Publish Suite'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-and-publish.yaml",
+      "term": "Test and Publish Suite"
+    },
+    {
+      "context_snippet": "[![Test and Publish Suite](https://github.com/Distributive-Network/PythonMonkey/actions/workflows/test-and-publish.yaml/badge.svg)](https://github.com/Distributive-Network/PythonMonkey/actions/workflows/test-and-publish.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pythonmonkey"
+    },
+    {
+      "context_snippet": "[![Test and Publish Suite](https://github.com/Distributive-Network/PythonMonkey/actions/workflows/test-and-publish.yaml/badge.svg)](https://github.com/Distributive-Network/PythonMonkey/actions/workflows/test-and-publish.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spidermonkey"
+    }
+  ]
+}

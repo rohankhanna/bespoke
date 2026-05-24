@@ -67,6 +67,18 @@
       "source_repo": "steinbergmedia/vst3sdk",
       "status": "candidate-context",
       "text": "<div style=\"text-align:center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HIllya51/LunaTranslator",
+      "status": "candidate-context",
+      "text": "\u89c6\u89c9\u5c0f\u8bf4\u7ffb\u8bd1\u5668 / Visual Novel Translator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HIllya51/LunaTranslator",
+      "status": "candidate-context",
+      "text": "Build"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "steinbergmedia/vst3sdk",
       "status": "candidate",
       "text": "<div style=\"text-align:center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HIllya51/LunaTranslator",
+      "status": "candidate",
+      "text": "Build"
     }
   ],
   "candidate_related_terms": [
@@ -664,11 +682,17 @@
       "observed_at": "2026-05-24T07:15:32.140894+00:00",
       "source_file": null,
       "source_repo": "webview2/EdgeSharp.Samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T12:36:47.955733+00:00",
+      "source_file": null,
+      "source_repo": "HIllya51/LunaTranslator"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-24T07:15:32.140894+00:00",
+  "last_seen_at": "2026-05-24T12:36:47.955733+00:00",
   "lexical_providers": [
     "datamuse"
   ],

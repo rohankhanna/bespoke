@@ -9349,6 +9349,9 @@
   "auto-tag-release": [
     "59dfac5cc917b6ec"
   ],
+  "auto-translation": [
+    "1a5226cbbc5b982d"
+  ],
   "auto-triage-issues": [
     "a84cfef3e8e098c9"
   ],
@@ -16984,6 +16987,7 @@
     "c0965e37130a193c",
     "c0bbbb452c0d6d48",
     "c0cf645e356e8ea9",
+    "c0dacb260080511b",
     "c24cf99b1bf3ed63",
     "c2540ce2bface9b6",
     "c2665021f18a2dce",
@@ -22502,6 +22506,9 @@
   "buildlight": [
     "fe5c16cd904318e4"
   ],
+  "buildlunahook": [
+    "13531028016b34b2"
+  ],
   "buildnotify": [
     "fb67a27b7773ea6e"
   ],
@@ -28017,7 +28024,8 @@
   "chinese-translation": [
     "38ac407d2b3844e5",
     "6afe3a87f93ad1a5",
-    "7723efdf8d85ce0e"
+    "7723efdf8d85ce0e",
+    "92ed928547bd9d83"
   ],
   "chinese-tts": [
     "3b9ab7e9ef368ce8",
@@ -36576,6 +36584,9 @@
   "comfyui-workflow": [
     "3cbf5eb322e6a0a4"
   ],
+  "comics": [
+    "945be11e3cf4e94d"
+  ],
   "comirec": [
     "da1b45184eccc0f0"
   ],
@@ -38222,7 +38233,8 @@
     "74d3d84edc3da861"
   ],
   "computer-aided-translation": [
-    "4a23caaefe54cbed"
+    "4a23caaefe54cbed",
+    "7efde656f636d727"
   ],
   "computer-algebra": [
     "2495bdce8baae8d5",
@@ -38358,6 +38370,7 @@
     "22defd2c0facd7b5",
     "22f1b68b3cf85173",
     "244e8a2f7678e667",
+    "24f71e7951020b16",
     "25bf163ab03215b4",
     "2660a59551038b97",
     "28666331f50a7757",
@@ -47700,6 +47713,7 @@
     "cfbcc9aa40bdd22e",
     "d0129e8b0ae315b8",
     "d0a67ad9b07ab3cd",
+    "d14921540d97d2ea",
     "d164b9c6a05a260e",
     "d178c018a3478048",
     "d1e3e5154e3a2092",
@@ -66077,6 +66091,9 @@
   "galaxyproj": [
     "eef72a7623c092b3"
   ],
+  "galgame": [
+    "766d10f50169be06"
+  ],
   "gallery": [
     "2b553507c2424167",
     "dd5da4de75c45195"
@@ -80110,6 +80127,7 @@
     "2078815eb20de138",
     "274cda5352deeb6e",
     "71b8c76b6c8a6551",
+    "9d8b3304ed4e6603",
     "a239d2582aa73629",
     "ad42a53bfe52794e",
     "be330c924ae81eee",
@@ -83902,6 +83920,7 @@
     "d1ecf4c9de5f8cc4",
     "d1f91949bdf96428",
     "d2e9939a422cc448",
+    "d5d1bb509ddbb8b5",
     "d6a0231ec1da1607",
     "d7efb6606cfef860",
     "da80b5fe69bfe5b0",
@@ -95753,6 +95772,7 @@
     "534549fed8106b58"
   ],
   "manga": [
+    "27b03a625dcd67c6",
     "48052dc9fbd05158",
     "af1d34e5c33bbc7b"
   ],
@@ -113298,6 +113318,7 @@
     "5a0f8725445a1726",
     "790fb5c0c14824c1",
     "7e7171e1343c5006",
+    "8ed748d18c8a587c",
     "9095466cefbccdcf",
     "95af4bec706b34f9",
     "99af402790db39f6",
@@ -124427,7 +124448,8 @@
   "pyqt": [
     "2dd99cc5f929c107",
     "90621d52eb5b2116",
-    "f0c7253b6bfa3811"
+    "f0c7253b6bfa3811",
+    "f8faa1ee12834377"
   ],
   "pyqt5": [
     "18f02caf6f776287",
@@ -124438,7 +124460,8 @@
   "pyqt6": [
     "46780822b3f3029a",
     "be7ab6f5463bb8b9",
-    "c2c78e829adb6902"
+    "c2c78e829adb6902",
+    "fb59edf23d1666f3"
   ],
   "pyramid": [
     "d6a9e4e8b26175a2"
@@ -124878,6 +124901,9 @@
   "python4delphi": [
     "79532d7faf999bd4"
   ],
+  "pythonmonkey": [
+    "227f13a21ddb58e4"
+  ],
   "pythonpackage": [
     "6f8d9b4297c18974"
   ],
@@ -125052,6 +125078,7 @@
     "38c7acae879bf943",
     "3958bbf2781d7dce",
     "398c0b11a4a8a5d7",
+    "3a8947cbb1da29b1",
     "3b0c93875af1ed9e",
     "3b78f95877ef29b9",
     "3bc1022144d85109",
@@ -130303,6 +130330,7 @@
     "a4871d19190fa0cf",
     "a49e9da4166944ba",
     "a4f2b8ced4c85d3a",
+    "a514ea391475e99d",
     "a57fda7cd5e15f38",
     "a58c20d8222be20d",
     "a6492926da0f5ef2",
@@ -133493,6 +133521,7 @@
   ],
   "resiliency": [
     "2c180038742e39c1",
+    "3c76f42f3e818b82",
     "3d19b661eb27d443",
     "51c8fa588dea1bea",
     "6d99179182940253",
@@ -134181,7 +134210,8 @@
     "858440b4fecc077f",
     "93dc504450a8ed8e",
     "cb180107b1113583",
-    "cedb99b19884336e"
+    "cedb99b19884336e",
+    "d7936f7556d746c2"
   ],
   "reverse-image-search": [
     "49bb9db5bafd99a4",
@@ -139289,6 +139319,7 @@
     "95add8607b5c1d56"
   ],
   "scene-text-detection": [
+    "aa444293fa3ce71e",
     "cb27a159b1cfe391",
     "d1e3cf516ea67b78",
     "ec34d818a61cc145",
@@ -146492,7 +146523,8 @@
     "75c556cc0159645a"
   ],
   "spidermonkey": [
-    "4e704a306c307208"
+    "4e704a306c307208",
+    "6cc8ecc1cc698a41"
   ],
   "spies": [
     "898924366c479e00"
@@ -154678,6 +154710,9 @@
   "test-and-publish-new-release": [
     "7040b54a964e8670"
   ],
+  "test-and-publish-suite": [
+    "5258912a952eeabc"
+  ],
   "test-and-release": [
     "65029ea8eb3cb825",
     "6b0b3e372b55c201",
@@ -160306,6 +160341,7 @@
   "translator": [
     "6f3f00234b67f27c",
     "8b407cbd4679f17c",
+    "9157009323d58ca7",
     "b7389c5659adb35a",
     "e249d1906feac5a4"
   ],
@@ -168302,6 +168338,9 @@
     "c59f75f31cd6bf45",
     "c8e731ed8f959645"
   ],
+  "visual-novel": [
+    "790555fc60eb89fc"
+  ],
   "visual-object-tracking": [
     "454c9ca5ec1999a7",
     "d2e3c7fed92d9db3"
@@ -172177,6 +172216,7 @@
   ],
   "win32": [
     "2c0005217e3389eb",
+    "66354583463c5bdf",
     "76cd5eb23ccbac34",
     "aaa85d2630974377",
     "d6070d978ab35eb1",

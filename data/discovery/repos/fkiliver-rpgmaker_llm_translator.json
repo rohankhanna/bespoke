@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fkiliver/RPGMaker_LLM_Translator",
+      "target": "sakurallm/sakura-13b-galgame",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-24T13:15:44.791330+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 871
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "fkiliver/RPGMaker_LLM_Translator",
+    "html_url": "https://github.com/fkiliver/RPGMaker_LLM_Translator",
+    "language": "Python",
+    "pushed_at": "2025-09-27T08:48:35Z",
+    "stargazers_count": 162,
+    "topics": [],
+    "updated_at": "2026-05-17T08:42:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sakurallm/sakura-13b-galgame",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u6df1\u5ea6\u5b66\u4e60\u8f85\u52a9\u6f2b\u753b\u7ffb\u8bd1\u5de5\u5177, \u652f\u6301\u4e00\u952e\u673a\u7ffb\u548c\u7b80\u5355\u7684\u56fe\u50cf/\u6587\u672c\u7f16\u8f91 | Yet another computer-aided comic/manga translation tool powered by deeplearning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [!IMPORTANT]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "pyside"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "pygtk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "qt creator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "qt jambi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "tkinter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pyqt",
+      "sense_id": "pyqt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pyqt",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pyqt",
+  "observation_id": "f8faa1ee12834377",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-24T12:36:47.955733+00:00",
+  "observed_text": "pyqt",
+  "source_context_snippet": "> [!IMPORTANT]",
+  "source_file": null,
+  "source_repo": "dmMaze/BallonsTranslator",
+  "source_repo_description": "\u6df1\u5ea6\u5b66\u4e60\u8f85\u52a9\u6f2b\u753b\u7ffb\u8bd1\u5de5\u5177, \u652f\u6301\u4e00\u952e\u673a\u7ffb\u548c\u7b80\u5355\u7684\u56fe\u50cf/\u6587\u672c\u7f16\u8f91 | Yet another computer-aided comic/manga translation tool powered by deeplearning"
+}

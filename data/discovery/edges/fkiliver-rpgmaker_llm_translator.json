@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fkiliver/RPGMaker_LLM_Translator",
+      "target": "sakurallm/sakura-13b-galgame",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-24T12:36:47.955733+00:00",
+  "source_repo": "fkiliver/RPGMaker_LLM_Translator"
+}

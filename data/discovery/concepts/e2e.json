@@ -2603,11 +2603,17 @@
       "observed_at": "2026-05-24T07:15:32.140894+00:00",
       "source_file": ".github/workflows/e2e.yaml",
       "source_repo": "kubernetes-sigs/karpenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-24T12:36:47.955733+00:00",
+      "source_file": ".github/workflows/e2e-base.yml",
+      "source_repo": "react/create-react-app"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-24T07:15:32.140894+00:00",
+  "last_seen_at": "2026-05-24T12:36:47.955733+00:00",
   "lexical_providers": [
     "datamuse"
   ],

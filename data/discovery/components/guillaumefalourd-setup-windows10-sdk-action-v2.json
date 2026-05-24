@@ -1,12 +1,22 @@
 {
   "component": "GuillaumeFalourd/setup-windows10-sdk-action@v2",
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-24T12:36:47.955733+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci_build.yml",
       "source_repo": "LunarG/gfxreconstruct"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/buildluna.yml",
+      "source_repo": "HIllya51/LunaTranslator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/buildlunahook.yml",
+      "source_repo": "HIllya51/LunaTranslator"
     }
   ]
 }
